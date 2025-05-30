@@ -1,9 +1,33 @@
 {
-  "judul": "Penalaran Umum",
-  "deskripsi": "Mengukur kemampuan berpikir logis dan analitis.",
-  "topik": [
-    "Logika Pernyataan",
-    "Silogisme",
-    "Penarikan Kesimpulan"
-  ]
+  "TKA_SAINTEK": {
+    "deskripsi": "Tes Kemampuan Akademik bidang Sains dan Teknologi yang menguji kemampuan peserta pada mata pelajaran IPA.",
+    "subtopik": [
+      {
+        "nama": "Matematika",
+        "deskripsi": "Meliputi konsep dasar hingga lanjutan seperti aljabar, geometri, trigonometri, statistika, dan peluang.",
+        "contoh_soal": "Menghitung nilai fungsi, menentukan luas bangun datar, menghitung probabilitas."
+      },
+      {
+        "nama": "Fisika",
+        "deskripsi": "Meliputi mekanika, gelombang, listrik, magnet, optik, dan termodinamika.",
+        "contoh_soal": "Menghitung kecepatan, gaya, energi kinetik, atau hambatan listrik dalam rangkaian."
+      },
+      {
+        "nama": "Kimia",
+        "deskripsi": "Meliputi struktur atom, ikatan kimia, reaksi kimia, stoikiometri, dan kesetimbangan kimia.",
+        "contoh_soal": "Menentukan mol zat, menulis reaksi kimia, menghitung konsentrasi larutan."
+      },
+      {
+        "nama": "Biologi",
+        "deskripsi": "Meliputi sel, genetika, ekologi, anatomi, fisiologi, dan evolusi.",
+        "contoh_soal": "Menjelaskan fungsi organ, siklus hidup organisme, atau mekanisme pewarisan sifat."
+      }
+    ],
+    "ringkasan": [
+      {"subtopik": "Matematika", "keterangan": "Aljabar, geometri, trigonometri, statistika, peluang"},
+      {"subtopik": "Fisika", "keterangan": "Mekanika, listrik, gelombang, optik, termodinamika"},
+      {"subtopik": "Kimia", "keterangan": "Struktur atom, reaksi kimia, stoikiometri, kesetimbangan"},
+      {"subtopik": "Biologi", "keterangan": "Sel, genetika, ekologi, anatomi, fisiologi"}
+    ]
+  }
 }
