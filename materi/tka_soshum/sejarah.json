@@ -1,32 +1,38 @@
 {
-  "judul": "Tes Kemampuan Akademik (TKA) - SAINTEK",
-  "deskripsi": "Tes Kemampuan Akademik bidang Sains dan Teknologi yang menguji kemampuan peserta pada mata pelajaran IPA.",
+  "judul": "Tes Kemampuan Akademik (TKA) - SOSHUM",
+  "deskripsi": "Tes Kemampuan Akademik bidang Sosial dan Humaniora yang menguji kemampuan peserta pada mata pelajaran IPS.",
   "subtopik": [
     {
-      "nama": "Matematika",
-      "deskripsi": "Meliputi konsep dasar hingga lanjutan seperti aljabar, geometri, trigonometri, statistika, dan peluang.",
-      "contoh_soal": "Menghitung nilai fungsi, menentukan luas bangun datar, menghitung probabilitas."
+      "nama": "Sejarah",
+      "deskripsi": "Meliputi sejarah Indonesia, dunia, perjuangan kemerdekaan, dan perkembangan masyarakat.",
+      "contoh_soal": "Menjelaskan sebab akibat peristiwa sejarah atau tokoh penting."
     },
     {
-      "nama": "Fisika",
-      "deskripsi": "Meliputi mekanika, gelombang, listrik, magnet, optik, dan termodinamika.",
-      "contoh_soal": "Menghitung kecepatan, gaya, energi kinetik, atau hambatan listrik dalam rangkaian."
+      "nama": "Geografi",
+      "deskripsi": "Meliputi geografi fisik, sosial, ekonomi, dan lingkungan.",
+      "contoh_soal": "Menginterpretasi peta, iklim, dan fenomena geografis."
     },
     {
-      "nama": "Kimia",
-      "deskripsi": "Meliputi struktur atom, ikatan kimia, reaksi kimia, stoikiometri, dan kesetimbangan kimia.",
-      "contoh_soal": "Menentukan mol zat, menulis reaksi kimia, menghitung konsentrasi larutan."
+      "nama": "Ekonomi",
+      "deskripsi": "Meliputi konsep dasar ekonomi, mikro dan makro ekonomi, serta kebijakan ekonomi.",
+      "contoh_soal": "Menghitung elastisitas, menjelaskan hukum permintaan dan penawaran."
     },
     {
-      "nama": "Biologi",
-      "deskripsi": "Meliputi sel, genetika, ekologi, anatomi, fisiologi, dan evolusi.",
-      "contoh_soal": "Menjelaskan fungsi organ, siklus hidup organisme, atau mekanisme pewarisan sifat."
+      "nama": "Sosiologi",
+      "deskripsi": "Meliputi struktur sosial, perubahan sosial, interaksi sosial, dan budaya.",
+      "contoh_soal": "Menjelaskan fungsi lembaga sosial atau dampak perubahan sosial."
+    },
+    {
+      "nama": "Antropologi",
+      "deskripsi": "Meliputi kajian budaya, kebiasaan, dan adat istiadat masyarakat.",
+      "contoh_soal": "Menganalisis adat istiadat dan budaya lokal."
     }
   ],
   "ringkasan": [
-    {"subtopik": "Matematika", "keterangan": "Aljabar, geometri, trigonometri, statistika, peluang"},
-    {"subtopik": "Fisika", "keterangan": "Mekanika, listrik, gelombang, optik, termodinamika"},
-    {"subtopik": "Kimia", "keterangan": "Struktur atom, reaksi kimia, stoikiometri, kesetimbangan"},
-    {"subtopik": "Biologi", "keterangan": "Sel, genetika, ekologi, anatomi, fisiologi"}
+    {"subtopik": "Sejarah", "keterangan": "Sejarah Indonesia, dunia, perjuangan kemerdekaan"},
+    {"subtopik": "Geografi", "keterangan": "Geografi fisik, sosial, ekonomi, lingkungan"},
+    {"subtopik": "Ekonomi", "keterangan": "Dasar ekonomi, mikro & makro ekonomi"},
+    {"subtopik": "Sosiologi", "keterangan": "Struktur sosial, perubahan sosial, interaksi sosial"},
+    {"subtopik": "Antropologi", "keterangan": "Kajian budaya dan adat istiadat"}
   ]
 }
