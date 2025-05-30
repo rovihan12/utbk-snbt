@@ -1,9 +1,39 @@
 {
-  "judul": "Penalaran Umum",
-  "deskripsi": "Mengukur kemampuan berpikir logis dan analitis.",
-  "topik": [
-    "Logika Pernyataan",
-    "Silogisme",
-    "Penarikan Kesimpulan"
-  ]
+  "TPS": {
+    "deskripsi": "Tes Potensi Skolastik (TPS) mengukur kemampuan dasar calon mahasiswa dalam berpikir logis, kritis, dan analitis.",
+    "subtopik": [
+      {
+        "nama": "Pemahaman Bacaan dan Menulis",
+        "deskripsi": "Kemampuan memahami teks bacaan dalam bahasa Indonesia, menangkap makna eksplisit dan implisit, serta menganalisis informasi dan menyimpulkan isi teks.",
+        "contoh_soal": "Membaca paragraf panjang lalu menjawab pertanyaan soal isi, maksud, atau inferensi dari bacaan."
+      },
+      {
+        "nama": "Penalaran Umum",
+        "deskripsi": "Kemampuan berpikir logis dan sistematis, mencakup penalaran induktif dan deduktif, pola, urutan, dan hubungan sebab-akibat.",
+        "contoh_soal": "Menentukan pola angka, pola gambar, menyimpulkan hubungan antar konsep."
+      },
+      {
+        "nama": "Penalaran Kuantitatif",
+        "deskripsi": "Menggunakan konsep matematika dasar (aritmatika, aljabar, geometri, statistik) untuk menyelesaikan masalah dan soal cerita.",
+        "contoh_soal": "Menghitung rata-rata, menentukan nilai x dalam persamaan, memecahkan masalah logika matematika."
+      },
+      {
+        "nama": "Penalaran Numerik",
+        "deskripsi": "Kemampuan mengaplikasikan konsep dan rumus matematika dalam situasi tidak rutin, serta interpretasi data dan angka.",
+        "contoh_soal": "Memperkirakan hasil perhitungan, analisis data pada tabel dan grafik."
+      },
+      {
+        "nama": "Bahasa Inggris (Opsional)",
+        "deskripsi": "Memahami teks bahasa Inggris secara sederhana, termasuk arti kalimat, isi bacaan, dan kosakata dasar.",
+        "catatan": "Tidak selalu muncul di semua UTBK TPS, tapi sering ada beberapa soal bahasa Inggris dasar."
+      }
+    ],
+    "ringkasan": [
+      {"subtopik": "Pemahaman Bacaan", "keterangan": "Memahami teks panjang dan menjawab soal isi/implisit"},
+      {"subtopik": "Penalaran Umum", "keterangan": "Berpikir logis, pola, deduktif & induktif"},
+      {"subtopik": "Penalaran Kuantitatif", "keterangan": "Matematika dasar dan soal cerita"},
+      {"subtopik": "Penalaran Numerik", "keterangan": "Interpretasi data, perhitungan dan logika numerik"},
+      {"subtopik": "Bahasa Inggris (kadang ada)", "keterangan": "Pemahaman teks dan kosakata bahasa Inggris dasar"}
+    ]
+  }
 }
