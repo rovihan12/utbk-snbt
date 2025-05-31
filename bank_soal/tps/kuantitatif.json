@@ -76,44 +76,5 @@
     ],
     "jawaban": "B",
     "pembahasan": "Dari sistem sebelumnya didapat a = −2, p = −9, q = −16, sehingga beda b = p − a = −9 − (−2) = −7.\n\nJumlah 9 suku pertama:\nS₉ = (9/2) × [2a + (9−1)b] = (9/2) × [2(−2) + 8(−7)] = (9/2) × (−4 − 56) = (9/2) × (−60) = −270\n\nRata-rata 9 suku pertama:\n= S₉ / 9 = −270 / 9 = −30\n\nJadi, jawaban benar adalah (B) −30."
-  },
-  {
-    "id": 7,
-    "pertanyaan": "Barisan 14, (p−1), 6, 2, −2, ⋯ adalah barisan aritmetika. Nilai p adalah...",
-    "pilihan": [
-      "7",
-      "8",
-      "9",
-      "10",
-      "11"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Diketahui U₁=14, U₂=p−1, U₃=6, U₄=2, U₅=−2.\nKarena aritmetika, maka:\n2U₂ = U₁ + U₃\n2(p−1) = 14 + 6\n2p − 2 = 20\n2p = 22\np = 11\n\nJawaban benar adalah (E) 11."
-  },
-  {
-    "id": 8,
-    "pertanyaan": "Barisan 14, (p−1), 6, 2, −2, ⋯ adalah barisan aritmetika. Jumlah suku ke-11 dan suku ... adalah empat kali suku ke-7.",
-    "pilihan": [
-      "ke-5",
-      "ke-6",
-      "ke-7",
-      "ke-8",
-      "ke-9"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Diketahui barisan aritmetika dengan a=14 dan beda b=-4 setelah p=11.\n\nSoal:\nU₁₁ + U_x = 4 × U₇\n\nSubstitusi rumus suku:\n(a + 10b) + (a + (x−1)b) = 4(a + 6b)\n\n14 + 10(−4) + 14 + (x−1)(−4) = 4(14 + 6(−4))\n14 − 40 + 14 − 4x + 4 = 4(14 − 24)\n(14 + 14 + 4 − 40) − 4x = 4(−10)\n(-8) − 4x = -40\n−4x = −32\nx = 8\n\nJawaban benar adalah (D) ke-8."
-  },
-  {
-    "id": 9,
-    "pertanyaan": "Barisan 14, (p−1), 6, 2, −2, ⋯ adalah barisan aritmetika. Jika 18 merupakan rata-rata n suku pertama, nilai n adalah...",
-    "pilihan": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Diketahui a=14 dan beda b=-4.\nRata-rata n suku pertama:\n(1/n) × S_n = 18\nS_n = n × 18 = 18n\nS_n = (n/2)[2a + (n−1)b]\n18n = (n/2)[2(14) + (n−1)(-4)]\n18n = (n/2)[28 − 4n + 4]\n18n = (n/2)(32 − 4n)\n18n = 16n − 2n²\n0 = 16n − 2n² − 18n\n0 = −2n² − 2n\n0 = n² + n\n\nn(n+1) = 0\n\nSolusi n = 0 atau n = −1 (tidak mungkin), ada kesalahan, mari hitung ulang:\n\nLangkah ulang:\n18n = (n/2)(32 − 4n)\nKalikan kedua sisi dengan 2:\n36n = n(32 − 4n)\n36n = 32n − 4n²\nPindahkan ke kiri:\n36n − 32n + 4n² = 0\n4n + 4n² = 0\n4n² + 4n = 0\nn² + n = 0\n\nn(n + 1) = 0\n\nSolusi n = 0 atau n = -1 (tidak mungkin)\n\nAda kesalahan dalam persamaan, perhatikan rumus rata-rata:\nRata-rata = S_n / n\nRata-rata = 18\n\nJadi S_n = 18n\nS_n = (n/2)[2a + (n−1)b]\n\nSubstitusi a=14, b=−4:\n18n = (n/2)[28 + (n−1)(−4)]\n18n = (n/2)[28 − 4n + 4]\n18n = (n/2)(32 − 4n)\n18n = n(16 − 2n)\n\nBagi n kedua sisi (n ≠ 0):\n18 = 16 − 2n\n2n = 16 − 18 = −2\nn = −1 (tidak mungkin)\n\nApakah ada kesalahan tanda?\n\nPeriksa lagi tanda beda b:\nb = U₂ − U₁ = (p−1) − 14\nDari soal sebelumnya p=11\nb = 11−1 − 14 = 10 − 14 = −4 (benar)\n\nMaka rumus S_n:\nS_n = (n/2)(2a + (n−1)b) = (n/2)(28 + (n−1)(-4)) = (n/2)(28 − 4n + 4) = (n/2)(32 − 4n)\n\nHitung S_n:\nS_n = (n/2)(32 − 4n) = 16n − 2n²\n\nRata-rata:\nRata-rata = S_n / n = (16n − 2n²) / n = 16 − 2n\n\nSetarakan dengan 18:\n16 − 2n = 18\n−2n = 2\nn = −1 (tidak mungkin)\n\nAda ketidaksesuaian, mungkin nilai rata-rata harus 18 bukan 18 suku.\n\nKalau soal menyatakan 18 sebagai rata-rata, kemungkinan besar yang benar adalah n = 3 (pilihan yang paling mendekati).\n\nJadi, jawaban yang tepat adalah (A) 3."
   }
 ]
