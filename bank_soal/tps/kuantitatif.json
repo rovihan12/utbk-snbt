@@ -115,5 +115,20 @@
     ],
     "jawaban": "A",
     "pembahasan": "Diketahui a=14 dan beda b=-4.\nRata-rata n suku pertama:\n(1/n) × S_n = 18\nS_n = n × 18 = 18n\nS_n = (n/2)[2a + (n−1)b]\n18n = (n/2)[2(14) + (n−1)(-4)]\n18n = (n/2)[28 − 4n + 4]\n18n = (n/2)(32 − 4n)\n18n = 16n − 2n²\n0 = 16n − 2n² − 18n\n0 = −2n² − 2n\n0 = n² + n\n\nn(n+1) = 0\n\nSolusi n = 0 atau n = −1 (tidak mungkin), ada kesalahan, mari hitung ulang:\n\nLangkah ulang:\n18n = (n/2)(32 − 4n)\nKalikan kedua sisi dengan 2:\n36n = n(32 − 4n)\n36n = 32n − 4n²\nPindahkan ke kiri:\n36n − 32n + 4n² = 0\n4n + 4n² = 0\n4n² + 4n = 0\nn² + n = 0\n\nn(n + 1) = 0\n\nSolusi n = 0 atau n = -1 (tidak mungkin)\n\nAda kesalahan dalam persamaan, perhatikan rumus rata-rata:\nRata-rata = S_n / n\nRata-rata = 18\n\nJadi S_n = 18n\nS_n = (n/2)[2a + (n−1)b]\n\nSubstitusi a=14, b=−4:\n18n = (n/2)[28 + (n−1)(−4)]\n18n = (n/2)[28 − 4n + 4]\n18n = (n/2)(32 − 4n)\n18n = n(16 − 2n)\n\nBagi n kedua sisi (n ≠ 0):\n18 = 16 − 2n\n2n = 16 − 18 = −2\nn = −1 (tidak mungkin)\n\nApakah ada kesalahan tanda?\n\nPeriksa lagi tanda beda b:\nb = U₂ − U₁ = (p−1) − 14\nDari soal sebelumnya p=11\nb = 11−1 − 14 = 10 − 14 = −4 (benar)\n\nMaka rumus S_n:\nS_n = (n/2)(2a + (n−1)b) = (n/2)(28 + (n−1)(-4)) = (n/2)(28 − 4n + 4) = (n/2)(32 − 4n)\n\nHitung S_n:\nS_n = (n/2)(32 − 4n) = 16n − 2n²\n\nRata-rata:\nRata-rata = S_n / n = (16n − 2n²) / n = 16 − 2n\n\nSetarakan dengan 18:\n16 − 2n = 18\n−2n = 2\nn = −1 (tidak mungkin)\n\nAda ketidaksesuaian, mungkin nilai rata-rata harus 18 bukan 18 suku.\n\nKalau soal menyatakan 18 sebagai rata-rata, kemungkinan besar yang benar adalah n = 3 (pilihan yang paling mendekati).\n\nJadi, jawaban yang tepat adalah (A) 3."
-  }
+  },
+{
+  "id": 10,
+  "pertanyaan": "Soal nomor 3: Diketahui ∠SPT = 30° dan RQ = √2. Jika QS = RS = QT, panjang PT adalah …",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/tps/Gambar/kuantitatif/soal%20id%203.png",
+  "pilihan": [
+    "√2",
+    "1 + √2",
+    "1 + √3",
+    "√3",
+    "√5"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Perhatikan segitiga dengan sudut ∠SPT = 30° dan RQ = √2. Diketahui QS = RS = QT = 1, maka kita bisa bagi segitiga menjadi beberapa bagian yang lebih sederhana.\n\n1. Dari segitiga siku-siku dengan sudut 30°, kita gunakan rumus trigonometri:\n   tan(30°) = sisi depan / sisi samping = 1 / x → x = √3\n\n2. Panjang PT adalah penjumlahan dari segmen horizontal:\n   PT = 1 (dari QT) + √3 (dari perhitungan tan 30°)\n\nJadi, jawaban yang tepat adalah **C. 1 + √3**."
+}
+
 ]
