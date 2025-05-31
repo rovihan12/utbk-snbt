@@ -25,8 +25,99 @@
     "jawaban": "D",
     "pembahasan": "Dari barisan 1, 2, y, ⋯ dapat kita tuliskan U1 = 1, U2 = 2, dan U3 = y. Karena barisan tersebut merupakan barisan geometri, maka U2^2 = U1 × U3 → 2^2 = 1 × y → y = 4. Sehingga barisan menjadi 1, 2, 4, 8, 16, 32, ⋯. Jumlah lima suku pertama: S5 = 1 + 2 + 4 + 8 + 16 = 31. S5 + 1 = 31 + 1 = 32. Karena 32 = (1/4) × Un, maka Un = 128. Bentuk Un = ar^(n−1) = 1 × 2^(n−1) = 128 → 2^(n−1) = 2^7 → n − 1 = 7 → n = 8. Jadi, jawaban yang benar adalah (D) ke-8."
   },
+{
+  "id": 3,
+  "pertanyaan": "Barisan 1, 2, y, ⋯ merupakan barisan geometri. Jika 3,75 merupakan rata-rata n suku pertama barisan tersebut, maka nilai n adalah...",
+  "pilihan": [
+    "6",
+    "5",
+    "4",
+    "3",
+    "2"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Dari barisan 1, 2, y, ⋯ dapat kita tuliskan U1 = 1, U2 = 2, dan U3 = y. Karena barisan tersebut merupakan barisan geometri, maka U2^2 = U1 × U3 → 2^2 = 1 × y → y = 4. Sehingga barisan menjadi 1, 2, 4, .... Diketahui rata-rata n suku pertama adalah 3,75. Rata-rata suku n pertama barisan geometri dirumuskan sebagai:\n\nx̄ₙ = (1/n) × Sn, dengan Sn = a(rⁿ − 1)/(r − 1)\n\nDengan a = 1 dan r = 2:\n3,75 = (1/n) × (2ⁿ − 1)\n3,75n = 2ⁿ − 1\n\nUji coba nilai n:\nn = 4 → 3,75 × 4 = 15 → 2⁴ − 1 = 16 − 1 = 15 ✅\n\nJadi, jawaban yang benar adalah (C) 4."
+},
+{
+  "id": 4,
+  "pertanyaan": "Barisan −2, p, q, −23, ⋯ merupakan barisan aritmetika. Nilai p − q adalah...",
+  "pilihan": [
+    "−7",
+    "−5",
+    "1",
+    "5",
+    "7"
+  ],
+  "jawaban": "E",
+  "pembahasan": "Dari barisan −2, p, q, −23 dapat kita tuliskan U1 = −2, U2 = p, U3 = q, dan U4 = −23. Karena barisan tersebut merupakan barisan aritmetika, maka:\n\n1. 2p = U1 + U3 → 2p = −2 + q → q − 2p = 2\n2. 2q = U2 + U4 → 2q = p + (−23) → p − 2q = 23\n\nMenyelesaikan sistem persamaan:\n- q − 2p = 2\n- p − 2q = 23\n\nDari sini, kita dapatkan:\n2q − 4p = 4 (kalikan persamaan pertama dengan 2)\np − 2q = 23\n\nJumlahkan kedua persamaan:\n(2q − 4p) + (p − 2q) = 4 + 23 → −3p = 27 → p = −9\n\nSubstitusi ke persamaan q − 2p = 2 → q − 2(−9) = 2 → q + 18 = 2 → q = −16\n\nMaka, p − q = (−9) − (−16) = 7\n\nJadi, jawaban yang benar adalah (E) 7."
+},
+{
+  "id": 5,
+  "pertanyaan": "Barisan −2, p, q, −23, ⋯ merupakan barisan aritmetika. Jumlah suku ke-7 dan suku ke-8 barisan tersebut sama dengan jumlah suku ke-10 dan suku ke...",
+  "pilihan": [
+    "ke-3",
+    "ke-4",
+    "ke-5",
+    "ke-6",
+    "ke-7"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Dari barisan −2, p, q, −23 dapat kita tuliskan U1 = −2, U2 = p, U3 = q, dan U4 = −23. Karena barisan tersebut merupakan barisan aritmetika, maka berlaku:\n\n1. 2p = U1 + U3 → 2p = −2 + q → q − 2p = 2\n2. 2q = U2 + U4 → 2q = p − 23 → p − 2q = 23\n\nDari kedua persamaan didapat:\n- q − 2p = 2\n- p − 2q = 23\n\nKalikan persamaan pertama dengan 2:\n2q − 4p = 4\n\nJumlahkan dengan persamaan kedua:\n(2q − 4p) + (p − 2q) = 4 + 23 → −3p = 27 → p = −9\n\nSubstitusi p ke persamaan pertama:\nq − 2(−9) = 2 → q + 18 = 2 → q = −16\n\nBarisan menjadi:\n−2, −9, −6, −23, ⋯\n\nSelanjutnya, berdasarkan informasi soal:\nU7 + U8 = U10 + Ux\n\nDengan rumus suku barisan aritmetika:\nU_n = a + (n−1)b\n\nMaka:\n(a + 6b) + (a + 7b) = (a + 9b) + Ux\n2a + 13b = a + 9b + Ux\nUx = a + 4b = U5\n\nJadi, suku yang dimaksud adalah suku ke-5.\n\nJawaban yang benar adalah (C) ke-5."
+},
+{
+  "id": 6,
+  "pertanyaan": "Barisan −2, p, q, −23, ⋯ merupakan barisan aritmetika. Rata-rata 9 suku pertama barisan tersebut adalah...",
+  "pilihan": [
+    "−37",
+    "−30",
+    "−29",
+    "−28",
+    "−25"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Dari barisan −2, p, q, −23 dapat kita tuliskan U1 = −2, U2 = p, U3 = q, dan U4 = −23. Karena barisan tersebut merupakan barisan aritmetika, maka:\n\n1. 2p = U1 + U3 → 2p = −2 + q → q − 2p = 2\n2. 2q = U2 + U4 → 2q = p − 23 → p − 2q = 23\n\nDari kedua persamaan didapat:\n- q − 2p = 2\n- p − 2q = 23\n\nKalikan persamaan pertama dengan 2:\n2q − 4p = 4\n\nJumlahkan dengan persamaan kedua:\n(2q − 4p) + (p − 2q) = 4 + 23 → −3p = 27 → p = −9\n\nSubstitusi p ke persamaan pertama:\nq − 2(−9) = 2 → q + 18 = 2 → q = −16\n\nJadi barisan menjadi:\n−2, −9, −6, −23, ⋯\n\nUntuk menghitung rata-rata 9 suku pertama:\n\nRata-rata = (1/9) × S9\nS9 = (9/2) × [2a + (9−1)b]\n\nDengan a = −2, dan beda b = p − U1 = −9 − (−2) = −7\n\nMaka:\nS9 = (9/2) × [2(−2) + 8(−7)] = (9/2) × (−4 − 56) = (9/2) × (−60) = −270\n\nRata-rata = (1/9) × (−270) = −30\n\nJadi, jawaban yang benar adalah (B) −30."
+},
+{
+  "id": 7,
+  "pertanyaan": "Barisan 14, (p−1), 6, 2, −2, ⋯ adalah barisan aritmetika. Nilai p adalah...",
+  "pilihan": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+  ],
+  "jawaban": "E",
+  "pembahasan": "Dari barisan 14, (p−1), 6, 2, −2 dapat kita tuliskan U1 = 14, U2 = p−1, U3 = 6, U4 = 2, dan U5 = −2. Karena barisan tersebut merupakan barisan aritmetika, maka berlaku:\n\n2U2 = U1 + U3\n2(p−1) = 14 + 6\n2p − 2 = 20\n2p = 22\np = 11\n\nJadi, jawaban yang benar adalah (E) 11."
+},
+{
+  "id": 8,
+  "pertanyaan": "Barisan 14, (p−1), 6, 2, −2, ⋯ adalah barisan aritmetika. Jumlah suku ke-11 dan suku ... adalah empat kali suku ke-7.",
+  "pilihan": [
+    "ke-5",
+    "ke-6",
+    "ke-7",
+    "ke-8",
+    "ke-9"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Dari barisan 14, (p−1), 6, 2, −2 dapat kita tuliskan U1=14, U2=p−1, U3=6, U4=2, dan U5=−2. Karena barisan tersebut adalah barisan aritmetika, berlaku:\n\n2U2 = U1 + U3\n2(p−1) = 14 + 6\n2p − 2 = 20\n2p = 22\np = 11\n\nMaka barisan menjadi 14, 10, 6, 2, −2, ... dengan beda (b) = −4 dan suku pertama (a) = 14.\n\nBerdasarkan soal:\n4 × U7 = U11 + Ux\n4(a + 6b) = (a + 10b) + Ux\n4(14 + 6×(−4)) = (14 + 10×(−4)) + Ux\n4(14 − 24) = (14 − 40) + Ux\n4(−10) = (−26) + Ux\n−40 = −26 + Ux\nUx = −40 + 26 = −14\n\nSuku ke-x Ux = a + (x−1)b = −14\n14 + (x−1)(−4) = −14\n14 − 4(x−1) = −14\n−4(x−1) = −28\nx − 1 = 7\nx = 8\n\nJadi, suku yang dimaksud adalah suku ke-8.\n\nPilihan yang sesuai adalah (D) ke-8."
+},
+{
+  "id": 9,
+  "pertanyaan": "Barisan 14, (p−1), 6, 2, −2, ⋯ adalah barisan aritmetika. Jika barisan baru dibentuk dengan membagi dua setiap suku barisan tersebut, maka rata-rata sepuluh suku pertama barisan yang baru adalah...",
+  "pilihan": [
+    "-2",
+    "-3",
+    "-4",
+    "-5",
+    "-6"
+  ],
+  "jawaban": "A",
+  "pembahasan": "Dari barisan 14, (p−1), 6, 2, −2 dapat ditulis U1=14, U2=p−1, U3=6, U4=2, U5=−2.\nKarena barisan ini aritmetika, maka:\n2U2 = U1 + U3\n2(p−1) = 14 + 6\n2p − 2 = 20\n2p = 22\np = 11\n\nMaka barisan menjadi 14, 10, 6, 2, −2, ...\n\nBarisan baru yang dibentuk dengan membagi dua setiap suku:\n7, 5, 3, 1, −1, ...\n\nRata-rata 10 suku pertama barisan baru:\n\n\\(\\bar{x}_{10} = \\frac{1}{10} \\times S_{10} = \\frac{1}{10} \\times \\frac{10}{2} \\times [2a + (10 - 1)b] \\)\n\nDengan \(a = 7\) dan beda \(b = -2\), maka:\n\n\\(\\bar{x}_{10} = \\frac{1}{10} \\times 5 \\times [2(7) + 9(-2)] = \\frac{1}{10} \\times 5 \\times (14 - 18) = \\frac{1}{10} \\times 5 \\times (-4) = -2\\)\n\nJadi, rata-rata sepuluh suku pertama barisan baru adalah −2.\n\nPilihan yang sesuai adalah (A) −2."
+},
   {
-    "id": 3,
+    "id": 10,
     "pertanyaan": "Soal nomor 3: Diketahui ∠SPT=30° dan RQ = √2. Jika QS = RS = QT, Panjang PT adalah",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/tps/Gambar/kuantitatif/soal%20id%20%203.png",
     "pilihan": [
