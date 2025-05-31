@@ -1,24 +1,40 @@
 [
-  {
-    "id": 1,
-    "pertanyaan": "Soal nomor 1: Apa ibu kota Indonesia?",
-    "pilihan": ["Jakarta", "Bandung", "Surabaya", "Medan"],
-    "jawaban": "A",
-    "pembahasan": "Ibu kota Indonesia adalah Jakarta."
-  },
-  {
-    "id": 2,
-    "pertanyaan": "Soal nomor 2: Berapa hasil 2+2?",
-    "pilihan": ["2", "3", "4", "5"],
-    "jawaban": "C",
-    "pembahasan": "2+2=4."
-  },
-  {
-    "id": 3,
-    "pertanyaan": "Soal nomor 3: Diketahui ∠SPT=30° dan RQ = √2. Jika QS = RS = QT, Panjang PT adalah ",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/tps/Gambar/kuantitatif/soal%20id%20%203.png",
-    "pilihan": ["√2", "1+√2", "1+√3", "√3", "√5"],
-    "jawaban": "C",
-    "pembahasan": "Diketahui sudut ∠SPT = 30° dan RQ = √2. Karena QS = RS = QT, segitiga tersebut adalah segitiga sama sisi atau sama kaki yang memiliki sifat khusus. Panjang PT dapat dihitung dengan menggunakan rumus trigonometri, yaitu PT = 1 + tan 30°. Karena tan 30° = √3 / 3, maka PT = 1 + √3 / 3 yang mendekati nilai pilihan '1+√3'. Oleh karena itu, jawaban yang tepat adalah '1+√3'."
-  }
+    {
+        "id": 1,
+        "pertanyaan": "Soal nomor 1: Apa ibu kota Indonesia?",
+        "pilihan": [
+            "Jakarta",
+            "Bandung",
+            "Surabaya",
+            "Medan"
+        ],
+        "jawaban": "A",
+        "pembahasan": "Ibu kota Indonesia adalah Jakarta."
+    },
+    {
+        "id": 2,
+        "pertanyaan": "Soal nomor 2: Berapa hasil 2+2?",
+        "pilihan": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "jawaban": "C",
+        "pembahasan": "2+2=4."
+    },
+    {
+        "id": 3,
+        "pertanyaan": "Soal nomor 3: Diketahui ∠SPT=30° dan RQ = √2. Jika QS = RS = QT, Panjang PT adalah ",
+        "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/tps/Gambar/kuantitatif/soal%20id%20%203.png",
+        "pilihan": [
+            "√2",
+            "1+√2",
+            "1+√3",
+            "√3",
+            "√5"
+        ],
+        "jawaban": "C",
+        "pembahasan": "Diketahui sudut ∠SPT = 30° dan RQ = √2. Karena QS = RS = QT, segitiga tersebut adalah segitiga sama sisi atau sama kaki yang memiliki sifat khusus. Panjang PT dapat dihitung dengan menggunakan rumus trigonometri, yaitu PT = 1 + tan 30°. Karena tan 30° = √3 / 3, maka PT = 1 + √3 / 3 yang mendekati nilai pilihan '1+√3'. Oleh karena itu, jawaban yang tepat adalah '1+√3'."
+    }
 ]
