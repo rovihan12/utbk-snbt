@@ -1,14 +1,16 @@
 [
   {
-    "pertanyaan": "Apa ibu kota Indonesia?",
+    "id": 1,
+    "pertanyaan": "Soal nomor 1: Apa ibu kota Indonesia?",
     "pilihan": ["Jakarta", "Bandung", "Surabaya", "Medan"],
-    "jawaban": "Jakarta",
+    "jawaban": 0,
     "pembahasan": "Ibu kota Indonesia adalah Jakarta."
   },
   {
-    "pertanyaan": "Berapa hasil dari 2 + 2?",
+    "id": 2,
+    "pertanyaan": "Soal nomor 2: Berapa hasil 2+2?",
     "pilihan": ["2", "3", "4", "5"],
-    "jawaban": "4",
-    "pembahasan": "2 + 2 = 4."
+    "jawaban": 2,
+    "pembahasan": "2+2=4."
   }
 ]
