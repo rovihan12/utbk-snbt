@@ -1,11 +1,173 @@
 {
-  "deskripsi": "Materi Penalaran Induktif...",
-  "subtopik": [
+  "teks": "Statistika dan Peluang",
+  "subItems": [
     {
-      "nama": "Pola Aritmetika",
-      "deskripsi": "Deskripsi pola...",
-      "contoh_soal": "1, 2, 3, ...",
-      "catatan": "Perhatikan pola"
+      "teks": "Statistika",
+      "subItems": [
+        {
+          "teks": "Penyajian Data",
+          "subItems": [
+            { "teks": "Tabel: Data disusun dalam baris dan kolom." },
+            {
+              "teks": "Diagram/Grafik",
+              "subItems": [
+                { "teks": "Diagram Batang: Untuk membandingkan data antar kategori." },
+                { "teks": "Diagram Garis: Untuk menunjukkan tren atau perubahan data seiring waktu." },
+                { "teks": "Diagram Lingkaran (Pie Chart): Untuk menunjukkan proporsi bagian terhadap keseluruhan." },
+                { "teks": "Histogram: Untuk data kelompok, batang-batangnya saling berimpit." },
+                { "teks": "Poligon Frekuensi: Garis yang menghubungkan titik tengah atas setiap batang histogram." }
+              ]
+            }
+          ]
+        },
+        {
+          "teks": "Ukuran Pemusatan Data",
+          "subItems": [
+            {
+              "teks": "Mean (Rata-rata Hitung)",
+              "subItems": [
+                { "teks": "Data Tunggal: x̄ = (∑xi) / n" },
+                { "teks": "Data Berbobot: x̄ = ∑(fi ⋅ xi) / ∑fi" },
+                { "teks": "Data Kelompok: x̄ = ∑(fi ⋅ mi) / ∑fi" }
+              ]
+            },
+            {
+              "teks": "Median (Nilai Tengah)",
+              "subItems": [
+                { "teks": "Data Ganjil: Median adalah suku tengah." },
+                { "teks": "Data Genap: Median adalah rata-rata dua suku tengah." },
+                {
+                  "teks": "Data Kelompok",
+                  "subItems": [
+                    { "teks": "Rumus: Median = L + ((n/2 − F) / f) × c" },
+                    { "teks": "L: Batas bawah kelas median, n: total frekuensi, F: kumulatif sebelum kelas median, f: frekuensi kelas median, c: panjang interval." }
+                  ]
+                }
+              ]
+            },
+            {
+              "teks": "Modus",
+              "subItems": [
+                { "teks": "Nilai dengan frekuensi terbanyak." },
+                { "teks": "Data bisa bimodal/multimodal atau tidak ada modus." },
+                {
+                  "teks": "Data Kelompok",
+                  "subItems": [
+                    { "teks": "Rumus: Modus = L + ((d1 / (d1 + d2)) × c)" },
+                    { "teks": "L: batas bawah kelas modus, d1: selisih dengan kelas sebelumnya, d2: selisih dengan kelas sesudahnya." }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "teks": "Ukuran Letak Data (Kuantil)",
+          "subItems": [
+            {
+              "teks": "Kuartil (Q)",
+              "subItems": [
+                { "teks": "Membagi data menjadi 4 bagian sama." },
+                { "teks": "Q1, Q2 (Median), Q3." },
+                { "teks": "Data Kelompok: Qk = L + ((k·n/4 − F)/f) × c" }
+              ]
+            },
+            {
+              "teks": "Desil (D): Membagi data menjadi 10 bagian. Rumus: Dk = L + ((k·n/10 − F)/f) × c"
+            },
+            {
+              "teks": "Persentil (P): Membagi data menjadi 100 bagian. Rumus: Pk = L + ((k·n/100 − F)/f) × c"
+            }
+          ]
+        },
+        {
+          "teks": "Ukuran Penyebaran Data",
+          "subItems": [
+            { "teks": "Jangkauan: Xmax − Xmin" },
+            { "teks": "Jangkauan Interkuartil: Q3 − Q1" },
+            { "teks": "Simpangan Kuartil: (Q3 − Q1) / 2" },
+            { "teks": "Simpangan Rata-rata: SR = (∑|xi − x̄|) / n" },
+            { "teks": "Variansi: s² = (∑(xi − x̄)²) / n atau ∑xi² / n − (x̄)²" },
+            { "teks": "Simpangan Baku: s = √Variansi" }
+          ]
+        },
+        {
+          "teks": "Tips Belajar Statistika",
+          "subItems": [
+            { "teks": "Pahami konsep, bukan hanya rumus." },
+            { "teks": "Latih soal data tunggal dan kelompok." },
+            { "teks": "Gunakan sketsa/gambar untuk grafik." },
+            { "teks": "Teliti dalam perhitungan." },
+            { "teks": "Perhatikan apa yang ditanyakan: mean, median, modus, dll." }
+          ]
+        }
+      ]
+    },
+    {
+      "teks": "Peluang",
+      "subItems": [
+        {
+          "teks": "Konsep Dasar Peluang",
+          "subItems": [
+            { "teks": "Ruang Sampel (S), Titik Sampel, Kejadian (E)" },
+            { "teks": "P(E) = n(E) / n(S)" },
+            { "teks": "0 ≤ P(E) ≤ 1" },
+            { "teks": "P(E) = 0: Kejadian mustahil, P(E) = 1: Kejadian pasti" },
+            { "teks": "Frekuensi Harapan: Fh(E) = P(E) × N" }
+          ]
+        },
+        {
+          "teks": "Kaidah Pencacahan",
+          "subItems": [
+            { "teks": "Aturan Perkalian: Total cara = n1 × n2 × ... × nk" },
+            { "teks": "Faktorial: n! = n × (n−1) × ... × 1" },
+            {
+              "teks": "Permutasi",
+              "subItems": [
+                { "teks": "P(n, r) = n! / (n−r)!" },
+                { "teks": "Dengan unsur sama: n! / (n1!·n2!·...)" },
+                { "teks": "Permutasi siklis: (n−1)!" }
+              ]
+            },
+            {
+              "teks": "Kombinasi",
+              "subItems": [
+                { "teks": "C(n, r) = n! / (r!·(n−r)!)" }
+              ]
+            }
+          ]
+        },
+        {
+          "teks": "Kejadian Majemuk",
+          "subItems": [
+            { "teks": "Komplemen: P(Eᶜ) = 1 − P(E)" },
+            { "teks": "Gabungan (A ∪ B): P(A) + P(B) − P(A ∩ B)" },
+            { "teks": "Jika saling lepas: P(A ∪ B) = P(A) + P(B)" },
+            { "teks": "Saling Bebas: P(A ∩ B) = P(A) × P(B)" },
+            { "teks": "Bersyarat: P(A ∩ B) = P(A) × P(B|A)" }
+          ]
+        },
+        {
+          "teks": "Tips Belajar Peluang",
+          "subItems": [
+            { "teks": "Bedakan permutasi dan kombinasi." },
+            { "teks": "Identifikasi ruang sampel dan kejadian." },
+            { "teks": "Gunakan diagram pohon untuk kejadian berurutan." },
+            { "teks": "Pahami beda saling lepas dan saling bebas." },
+            { "teks": "Latih soal cerita, pahami konteksnya." }
+          ]
+        }
+      ]
+    },
+    {
+      "teks": "Strategi Umum UTBK Statistika dan Peluang",
+      "subItems": [
+        { "teks": "Baca soal cermat, terutama kata kunci." },
+        { "teks": "Identifikasi jenis data atau kejadian." },
+        { "teks": "Tuliskan rumus yang sesuai." },
+        { "teks": "Latih perhitungan dan ketelitian." },
+        { "teks": "Gunakan logika jika memungkinkan." }
+      ]
     }
   ]
 }
