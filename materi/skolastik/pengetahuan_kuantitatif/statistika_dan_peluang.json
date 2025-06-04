@@ -1,11 +1,14 @@
 {
-  "teks": "Statistika dan Peluang",
-  "subItems": [
+  "judul": "Statistika dan Peluang",
+  "items": [
     {
-      "teks": "Statistika",
+      "teks": "Materi Statistika",
       "subItems": [
         {
-          "teks": "Penyajian Data",
+          "teks": "Statistika adalah ilmu yang mempelajari cara mengumpulkan, mengolah, menganalisis, dan menyajikan data."
+        },
+        {
+          "teks": "1. Penyajian Data",
           "subItems": [
             { "teks": "Tabel: Data disusun dalam baris dan kolom." },
             {
@@ -14,21 +17,21 @@
                 { "teks": "Diagram Batang: Untuk membandingkan data antar kategori." },
                 { "teks": "Diagram Garis: Untuk menunjukkan tren atau perubahan data seiring waktu." },
                 { "teks": "Diagram Lingkaran (Pie Chart): Untuk menunjukkan proporsi bagian terhadap keseluruhan." },
-                { "teks": "Histogram: Untuk data kelompok, batang-batangnya saling berimpit." },
+                { "teks": "Histogram: Mirip diagram batang, tetapi untuk data kelompok (interval). Batang-batangnya saling berimpit." },
                 { "teks": "Poligon Frekuensi: Garis yang menghubungkan titik tengah atas setiap batang histogram." }
               ]
             }
           ]
         },
         {
-          "teks": "Ukuran Pemusatan Data",
+          "teks": "2. Ukuran Pemusatan Data",
           "subItems": [
             {
               "teks": "Mean (Rata-rata Hitung)",
               "subItems": [
-                { "teks": "Data Tunggal: x̄ = (∑xi) / n" },
-                { "teks": "Data Berbobot: x̄ = ∑(fi ⋅ xi) / ∑fi" },
-                { "teks": "Data Kelompok: x̄ = ∑(fi ⋅ mi) / ∑fi" }
+                { "teks": "Data Tunggal: x̄ = ∑xᵢ / n" },
+                { "teks": "Data Berbobot/Frekuensi: x̄ = ∑(fᵢ·xᵢ) / ∑fᵢ" },
+                { "teks": "Data Kelompok: x̄ = ∑(fᵢ·mᵢ) / ∑fᵢ, dengan mᵢ adalah titik tengah kelas interval." }
               ]
             },
             {
@@ -36,59 +39,47 @@
               "subItems": [
                 { "teks": "Data Ganjil: Median adalah suku tengah." },
                 { "teks": "Data Genap: Median adalah rata-rata dua suku tengah." },
-                {
-                  "teks": "Data Kelompok",
-                  "subItems": [
-                    { "teks": "Rumus: Median = L + ((n/2 − F) / f) × c" },
-                    { "teks": "L: Batas bawah kelas median, n: total frekuensi, F: kumulatif sebelum kelas median, f: frekuensi kelas median, c: panjang interval." }
-                  ]
-                }
+                { "teks": "Data Kelompok: Median = L + ((n/2 - F) / f) × c" }
               ]
             },
             {
-              "teks": "Modus",
+              "teks": "Modus (Nilai yang Sering Muncul)",
               "subItems": [
-                { "teks": "Nilai dengan frekuensi terbanyak." },
-                { "teks": "Data bisa bimodal/multimodal atau tidak ada modus." },
-                {
-                  "teks": "Data Kelompok",
-                  "subItems": [
-                    { "teks": "Rumus: Modus = L + ((d1 / (d1 + d2)) × c)" },
-                    { "teks": "L: batas bawah kelas modus, d1: selisih dengan kelas sebelumnya, d2: selisih dengan kelas sesudahnya." }
-                  ]
-                }
+                { "teks": "Bisa lebih dari satu modus (bimodal, multimodal) atau tidak ada modus." },
+                { "teks": "Data Kelompok: Modus = L + (d₁ / (d₁ + d₂)) × c" }
               ]
             }
           ]
         },
         {
-          "teks": "Ukuran Letak Data (Kuantil)",
+          "teks": "3. Ukuran Letak Data (Kuantil)",
           "subItems": [
             {
               "teks": "Kuartil (Q)",
               "subItems": [
-                { "teks": "Membagi data menjadi 4 bagian sama." },
-                { "teks": "Q1, Q2 (Median), Q3." },
-                { "teks": "Data Kelompok: Qk = L + ((k·n/4 − F)/f) × c" }
+                { "teks": "Q₁, Q₂ (Median), Q₃: Membagi data menjadi 4 bagian." },
+                { "teks": "Data Kelompok: Qₖ = L + ((k·n/4 - F) / f) × c" }
               ]
             },
-            {
-              "teks": "Desil (D): Membagi data menjadi 10 bagian. Rumus: Dk = L + ((k·n/10 − F)/f) × c"
-            },
-            {
-              "teks": "Persentil (P): Membagi data menjadi 100 bagian. Rumus: Pk = L + ((k·n/100 − F)/f) × c"
-            }
+            { "teks": "Desil (D): Dₖ = L + ((k·n/10 - F) / f) × c" },
+            { "teks": "Persentil (P): Pₖ = L + ((k·n/100 - F) / f) × c" }
           ]
         },
         {
-          "teks": "Ukuran Penyebaran Data",
+          "teks": "4. Ukuran Penyebaran Data",
           "subItems": [
             { "teks": "Jangkauan: Xmax − Xmin" },
-            { "teks": "Jangkauan Interkuartil: Q3 − Q1" },
-            { "teks": "Simpangan Kuartil: (Q3 − Q1) / 2" },
-            { "teks": "Simpangan Rata-rata: SR = (∑|xi − x̄|) / n" },
-            { "teks": "Variansi: s² = (∑(xi − x̄)²) / n atau ∑xi² / n − (x̄)²" },
-            { "teks": "Simpangan Baku: s = √Variansi" }
+            { "teks": "Jangkauan Interkuartil: Q₃ − Q₁" },
+            { "teks": "Simpangan Kuartil: (Q₃ − Q₁)/2" },
+            { "teks": "Simpangan Rata-rata: SR = ∑|xᵢ − x̄| / n" },
+            {
+              "teks": "Variansi (Ragam)",
+              "subItems": [
+                { "teks": "s² = ∑(xᵢ − x̄)² / n" },
+                { "teks": "Atau: s² = ∑xᵢ² / n − (x̄)²" }
+              ]
+            },
+            { "teks": "Simpangan Baku (Standar Deviasi): s = √(Variansi)" }
           ]
         },
         {
@@ -96,76 +87,67 @@
           "subItems": [
             { "teks": "Pahami konsep, bukan hanya rumus." },
             { "teks": "Latih soal data tunggal dan kelompok." },
-            { "teks": "Gunakan sketsa/gambar untuk grafik." },
+            { "teks": "Gunakan sketsa/gambar untuk membantu." },
             { "teks": "Teliti dalam perhitungan." },
-            { "teks": "Perhatikan apa yang ditanyakan: mean, median, modus, dll." }
+            { "teks": "Perhatikan pertanyaan: mean, median, modus, atau penyebaran?" }
           ]
         }
       ]
     },
     {
-      "teks": "Peluang",
+      "teks": "Materi Peluang (Probabilitas)",
       "subItems": [
         {
-          "teks": "Konsep Dasar Peluang",
+          "teks": "1. Konsep Dasar Peluang",
           "subItems": [
-            { "teks": "Ruang Sampel (S), Titik Sampel, Kejadian (E)" },
-            { "teks": "P(E) = n(E) / n(S)" },
-            { "teks": "0 ≤ P(E) ≤ 1" },
-            { "teks": "P(E) = 0: Kejadian mustahil, P(E) = 1: Kejadian pasti" },
-            { "teks": "Frekuensi Harapan: Fh(E) = P(E) × N" }
+            { "teks": "Ruang Sampel (S): Himpunan semua hasil yang mungkin." },
+            { "teks": "Titik Sampel: Anggota ruang sampel." },
+            { "teks": "Kejadian (E): Himpunan bagian dari ruang sampel." },
+            { "teks": "Peluang Kejadian: P(E) = n(E) / n(S)" },
+            { "teks": "Nilai Peluang: 0 ≤ P(E) ≤ 1" },
+            { "teks": "Frekuensi Harapan: Fₕ(E) = P(E) × N" }
           ]
         },
         {
-          "teks": "Kaidah Pencacahan",
+          "teks": "2. Kaidah Pencacahan",
           "subItems": [
-            { "teks": "Aturan Perkalian: Total cara = n1 × n2 × ... × nk" },
-            { "teks": "Faktorial: n! = n × (n−1) × ... × 1" },
-            {
-              "teks": "Permutasi",
-              "subItems": [
-                { "teks": "P(n, r) = n! / (n−r)!" },
-                { "teks": "Dengan unsur sama: n! / (n1!·n2!·...)" },
-                { "teks": "Permutasi siklis: (n−1)!" }
-              ]
-            },
-            {
-              "teks": "Kombinasi",
-              "subItems": [
-                { "teks": "C(n, r) = n! / (r!·(n−r)!)" }
-              ]
-            }
+            { "teks": "Aturan Perkalian: n₁ × n₂ × ... × nₖ" },
+            { "teks": "Faktorial: n! = n × (n−1) × ... × 1, dengan 0! = 1" },
+            { "teks": "Permutasi: P(n,r) = n! / (n−r)!" },
+            { "teks": "Permutasi Unsur Sama: n! / (n₁! n₂! ...)" },
+            { "teks": "Permutasi Siklis: (n−1)!" },
+            { "teks": "Kombinasi: C(n,r) = n! / [r!(n−r)!]" }
           ]
         },
         {
-          "teks": "Kejadian Majemuk",
+          "teks": "3. Kejadian Majemuk",
           "subItems": [
             { "teks": "Komplemen: P(Eᶜ) = 1 − P(E)" },
             { "teks": "Gabungan (A ∪ B): P(A) + P(B) − P(A ∩ B)" },
             { "teks": "Jika saling lepas: P(A ∪ B) = P(A) + P(B)" },
-            { "teks": "Saling Bebas: P(A ∩ B) = P(A) × P(B)" },
-            { "teks": "Bersyarat: P(A ∩ B) = P(A) × P(B|A)" }
+            { "teks": "Irisan (A ∩ B) dan Kejadian Saling Bebas: P(A ∩ B) = P(A) × P(B)" },
+            { "teks": "Kejadian Bersyarat: P(A ∩ B) = P(A) × P(B|A)" }
           ]
         },
         {
           "teks": "Tips Belajar Peluang",
           "subItems": [
-            { "teks": "Bedakan permutasi dan kombinasi." },
+            { "teks": "Bedakan Permutasi dan Kombinasi." },
             { "teks": "Identifikasi ruang sampel dan kejadian." },
-            { "teks": "Gunakan diagram pohon untuk kejadian berurutan." },
-            { "teks": "Pahami beda saling lepas dan saling bebas." },
-            { "teks": "Latih soal cerita, pahami konteksnya." }
+            { "teks": "Gunakan diagram pohon untuk visualisasi." },
+            { "teks": "Pahami 'saling lepas' vs 'saling bebas'." },
+            { "teks": "Latih soal cerita." }
           ]
         }
       ]
     },
     {
-      "teks": "Strategi Umum UTBK Statistika dan Peluang",
+      "teks": "Strategi Umum untuk UTBK",
       "subItems": [
-        { "teks": "Baca soal cermat, terutama kata kunci." },
+        { "teks": "Baca soal dengan cermat." },
         { "teks": "Identifikasi jenis data atau kejadian." },
         { "teks": "Tuliskan rumus yang sesuai." },
-        { "teks": "Latih perhitungan dan ketelitian." },
+        { "teks": "Latih perhitungan dengan teliti." },
         { "teks": "Gunakan logika jika memungkinkan." }
       ]
     }
