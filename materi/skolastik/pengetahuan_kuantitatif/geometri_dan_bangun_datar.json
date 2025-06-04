@@ -1,11 +1,122 @@
 {
-  "deskripsi": "Materi Penalaran Induktif...",
-  "subtopik": [
+  "judul": "Geometri dan Bangun Datar",
+  "deskripsi": "Materi ini menguji pemahaman Anda terhadap sifat-sifat bangun, rumus-rumus dasar, dan kemampuan pemecahan masalah yang melibatkan visualisasi untuk persiapan UTBK SNBT.",
+  "subItems": [
     {
-      "nama": "Pola Aritmetika",
-      "deskripsi": "Deskripsi pola...",
-      "contoh_soal": "1, 2, 3, ...",
-      "catatan": "Perhatikan pola"
+      "judul": "1. Konsep Dasar Garis dan Sudut",
+      "subItems": [
+        {
+          "judul": "Jenis-jenis Garis",
+          "teks": "Sejajar, berpotongan, berimpit, tegak lurus."
+        },
+        {
+          "judul": "Jenis-jenis Sudut",
+          "teks": "Berdasarkan besar:\n- Lancip (<90°)\n- Siku-siku (=90°)\n- Tumpul (>90°)\n- Lurus (=180°)\n- Refleks (>180°)"
+        },
+        {
+          "judul": "Hubungan Antar Sudut",
+          "teks": "Berpelurus (Sudut Suplemen): Jumlahnya 180°.\nBerpenyiku (Sudut Komplemen): Jumlahnya 90°.\nBertolak Belakang: Besarnya sama."
+        },
+        {
+          "judul": "Sudut pada Garis Sejajar Dipotong Garis Lain",
+          "teks": "Sehadap: Besarnya sama.\nDalam Berseberangan: Besarnya sama.\nLuar Berseberangan: Besarnya sama.\nDalam Sepihak: Jumlahnya 180°.\nLuar Sepihak: Jumlahnya 180°."
+        }
+      ]
+    },
+    {
+      "judul": "2. Segitiga",
+      "subItems": [
+        {
+          "judul": "Jenis-jenis Segitiga",
+          "teks": "Berdasarkan sisi: Sama sisi, sama kaki, sembarang.\nBerdasarkan sudut: Lancip, tumpul, siku-siku."
+        },
+        {
+          "judul": "Jumlah Sudut Dalam Segitiga",
+          "teks": "Selalu 180°."
+        },
+        {
+          "judul": "Keliling (K)",
+          "teks": "Jumlah panjang ketiga sisi."
+        },
+        {
+          "judul": "Luas (L)",
+          "teks": "L = 1/2 × alas × tinggi"
+        },
+        {
+          "judul": "Rumus Heron",
+          "teks": "L = √[s(s−a)(s−b)(s−c)] di mana s = 1/2 K (setengah keliling), a,b,c adalah panjang sisi."
+        },
+        {
+          "judul": "Teorema Pythagoras",
+          "teks": "Untuk segitiga siku-siku, a² + b² = c² dengan c sisi miring."
+        },
+        {
+          "judul": "Kesebangunan dan Kekongruenan",
+          "teks": "Kesebangunan: Bentuk sama, ukuran berbeda (perbandingan sisi dan sudut bersesuaian sama).\nKekongruenan: Bentuk dan ukuran sama (sisi dan sudut bersesuaian sama)."
+        },
+        {
+          "judul": "Garis-garis Istimewa pada Segitiga",
+          "teks": "Garis tinggi, garis bagi, garis berat, garis sumbu, dan fungsinya."
+        }
+      ]
+    },
+    {
+      "judul": "3. Segiempat",
+      "subItems": [
+        {
+          "judul": "Persegi",
+          "teks": "Semua sisi sama panjang, semua sudut 90°, diagonal sama panjang dan berpotongan tegak lurus membagi dua.\nK = 4s\nL = s²"
+        },
+        {
+          "judul": "Persegi Panjang",
+          "teks": "Sisi berhadapan sama panjang, semua sudut 90°, diagonal sama panjang.\nK = 2(p + l)\nL = p × l"
+        },
+        {
+          "judul": "Jajar Genjang",
+          "teks": "Sisi berhadapan sejajar dan sama panjang, sudut berhadapan sama besar, jumlah sudut berdekatan 180°.\nK = 2(a + b)\nL = alas × tinggi"
+        },
+        {
+          "judul": "Belah Ketupat",
+          "teks": "Semua sisi sama panjang, sudut berhadapan sama besar, diagonal berpotongan tegak lurus dan membagi dua sama panjang.\nK = 4s\nL = 1/2 × d₁ × d₂"
+        },
+        {
+          "judul": "Layang-layang",
+          "teks": "Dua pasang sisi berdekatan sama panjang, salah satu diagonal tegak lurus dan membagi dua diagonal lainnya.\nK = 2(a + b)\nL = 1/2 × d₁ × d₂"
+        },
+        {
+          "judul": "Trapesium",
+          "teks": "Memiliki sepasang sisi sejajar.\nK = jumlah semua sisi\nL = 1/2 × (jumlah sisi sejajar) × tinggi"
+        }
+      ]
+    },
+    {
+      "judul": "4. Lingkaran",
+      "subItems": [
+        {
+          "judul": "Elemen-elemen Lingkaran",
+          "teks": "Pusat, jari-jari (r), diameter (d), busur, tali busur, juring, tembereng, apotema."
+        },
+        {
+          "judul": "Rumus Dasar",
+          "teks": "Keliling (K) = 2πr = πd\nLuas (L) = πr²"
+        },
+        {
+          "judul": "Sudut Pusat dan Sudut Keliling",
+          "teks": "Sudut pusat = 2 × sudut keliling yang menghadap busur yang sama."
+        },
+        {
+          "judul": "Panjang Busur",
+          "teks": "(sudut pusat / 360°) × Keliling Lingkaran"
+        },
+        {
+          "judul": "Luas Juring",
+          "teks": "(sudut pusat / 360°) × Luas Lingkaran"
+        }
+      ]
+    },
+    {
+      "judul": "Tips Belajar Praktis",
+      "teks": "- Hafalkan rumus dasar keliling dan luas semua bangun datar, serta pahami variabelnya.\n- Pahami sifat-sifat unik bangun datar (misal diagonal tegak lurus di belah ketupat/layang-layang).\n- Latih soal variatif: langsung, terbalik, gabungan bangun, perbandingan, aplikasi Pythagoras, kesebangunan/kekongruenan.\n- Gunakan sketsa untuk visualisasi soal tanpa gambar.\n- Perhatikan konsistensi satuan.\n- Jangan takut dengan π; gunakan simbol, 22/7, atau 3.14.\n- Review konsep sudut sehadap, dalam berseberangan, dsb.\n- Rajin berlatih agar siap menghadapi materi geometri UTBK SNBT."
     }
   ]
 }
