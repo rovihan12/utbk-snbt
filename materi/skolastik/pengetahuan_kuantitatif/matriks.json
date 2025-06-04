@@ -1,11 +1,90 @@
 {
-  "deskripsi": "Materi Penalaran Induktif...",
-  "subtopik": [
+  "judul": "Matriks",
+  "deskripsi": "Materi Matriks membahas konsep dasar, jenis-jenis matriks, operasi, determinan, invers, hingga aplikasi matriks dalam sistem persamaan linear untuk persiapan UTBK SNBT.",
+  "subItems": [
     {
-      "nama": "Pola Aritmetika",
-      "deskripsi": "Deskripsi pola...",
-      "contoh_soal": "1, 2, 3, ...",
-      "catatan": "Perhatikan pola"
+      "judul": "1. Konsep Dasar Matriks",
+      "subItems": [
+        {
+          "judul": "Ordo/Ukuran Matriks",
+          "teks": "Ordo menyatakan banyaknya baris (m) dan kolom (n) dalam matriks, ditulis m×n. Contoh: Matriks A berordo 2×3 berarti memiliki 2 baris dan 3 kolom."
+        },
+        {
+          "judul": "Elemen Matriks",
+          "teks": "Angka-angka dalam matriks dilambangkan dengan a_ij, di mana i adalah nomor baris dan j adalah nomor kolom. Contoh: A = [[1,4], [2,5], [3,6]] maka a_11=1 dan a_23=6."
+        },
+        {
+          "judul": "Jenis-jenis Matriks",
+          "teks": "- Matriks Baris: hanya 1 baris\n- Matriks Kolom: hanya 1 kolom\n- Matriks Persegi: jumlah baris = jumlah kolom (m=n)\n- Matriks Nol: semua elemen nol\n- Matriks Identitas (I): matriks persegi dengan diagonal utama 1, lainnya 0\n- Matriks Diagonal: matriks persegi dengan elemen selain diagonal utama nol\n- Matriks Segitiga Atas: elemen di bawah diagonal utama nol\n- Matriks Segitiga Bawah: elemen di atas diagonal utama nol"
+        }
+      ]
+    },
+    {
+      "judul": "2. Operasi pada Matriks",
+      "subItems": [
+        {
+          "judul": "Kesamaan Dua Matriks",
+          "teks": "Dua matriks A dan B dikatakan sama jika ordo sama dan setiap elemen yang bersesuaian sama (a_ij = b_ij)."
+        },
+        {
+          "judul": "Penjumlahan dan Pengurangan",
+          "teks": "Syarat: ordo kedua matriks harus sama.\nCaranya: jumlahkan atau kurangkan elemen yang bersesuaian.\nContoh: [[1,3],[2,4]] + [[5,7],[6,8]] = [[6,10],[8,12]]"
+        },
+        {
+          "judul": "Perkalian Skalar",
+          "teks": "Kalikan setiap elemen matriks dengan bilangan skalar.\nContoh: 2 × [[1,3],[2,4]] = [[2,6],[4,8]]"
+        },
+        {
+          "judul": "Perkalian Dua Matriks",
+          "teks": "Syarat: jumlah kolom matriks pertama = jumlah baris matriks kedua.\nJika A m×p dan B p×n, hasil C m×n.\nCaranya: kalikan baris matriks pertama dengan kolom matriks kedua, lalu jumlahkan hasilnya.\nContoh: [[1,3],[2,4]] × [[5,7],[6,8]] = [[19,43],[22,50]]\nPerkalian matriks tidak komutatif (AB ≠ BA)."
+        },
+        {
+          "judul": "Transpose Matriks (A^T)",
+          "teks": "Mengubah baris menjadi kolom dan kolom menjadi baris.\nContoh: Jika A = [[1,4],[2,5],[3,6]], maka A^T = [[1,2,3],[4,5,6]]"
+        }
+      ]
+    },
+    {
+      "judul": "3. Determinan Matriks",
+      "subItems": [
+        {
+          "judul": "Determinan Ordo 2×2",
+          "teks": "Jika A = [[a, c],[b, d]], maka det(A) = ad − bc.\nContoh: A = [[2,1],[3,4]], det(A) = (2×4) − (3×1) = 8 − 3 = 5."
+        },
+        {
+          "judul": "Determinan Ordo 3×3 (Metode Sarrus)",
+          "teks": "Tuliskan kembali kolom 1 dan 2 di sebelah kanan matriks.\nKalikan elemen diagonal utama dan jumlahkan.\nKalikan elemen diagonal sekunder dan kurangkan.\nRumus: det(A) = (a1 e2 i3 + b1 f2 g3 + c1 d2 h3) − (c1 e2 g3 + a1 f2 h3 + b1 d2 i3)."
+        },
+        {
+          "judul": "Sifat Determinan",
+          "teks": "- det(A^T) = det(A)\n- det(AB) = det(A) × det(B)\n- det(kA) = k^n × det(A) untuk matriks n×n\n- Jika det(A) = 0, matriks disebut singular (tidak memiliki invers)"
+        }
+      ]
+    },
+    {
+      "judul": "4. Invers Matriks",
+      "subItems": [
+        {
+          "judul": "Syarat Invers",
+          "teks": "Hanya matriks persegi yang tidak singular (determinannya ≠ 0) yang memiliki invers."
+        },
+        {
+          "judul": "Invers Matriks Ordo 2×2",
+          "teks": "Jika A = [[a, c],[b, d]], maka A^−1 = (1/det(A)) × [[d, −c], [−b, a]]\nContoh: A = [[2,1],[3,4]], det(A) = 5,\nA^−1 = (1/5) × [[4, −1], [−3, 2]] = [[4/5, −1/5], [−3/5, 2/5]]"
+        },
+        {
+          "judul": "Sifat Invers",
+          "teks": "- A × A^−1 = A^−1 × A = I (matriks identitas)\n- (A^−1)^−1 = A\n- (AB)^−1 = B^−1 × A^−1\n- (A^T)^−1 = (A^−1)^T"
+        }
+      ]
+    },
+    {
+      "judul": "5. Penggunaan Matriks dalam Sistem Persamaan Linear",
+      "teks": "Sistem persamaan linear dapat ditulis dalam bentuk matriks AX = B, di mana:\n- A: matriks koefisien\n- X: matriks variabel\n- B: matriks konstanta\nPenyelesaian: X = A^−1 × B (jika A memiliki invers)."
+    },
+    {
+      "judul": "Tips Belajar Praktis",
+      "teks": "- Pahami konsep ordo dan elemen matriks\n- Latih perkalian matriks berulang kali, terutama konsep 'baris kali kolom'\n- Kuasai determinan 2×2 dan rumus invers 2×2\n- Perhatikan syarat operasi matriks: penjumlahan/pengurangan harus ordo sama, perkalian harus kolom matriks pertama = baris matriks kedua, invers hanya untuk matriks persegi dan determinan ≠ 0\n- Manfaatkan sifat determinan dan invers untuk mempercepat penyelesaian soal\n- Latih soal sistem persamaan linear menggunakan matriks\n- Teliti dan hati-hati dalam mengerjakan operasi matriks"
     }
   ]
 }
