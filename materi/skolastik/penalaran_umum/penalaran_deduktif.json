@@ -1,88 +1,90 @@
 {
   "judul": "Penalaran Deduktif",
-  "deskripsi": "Penalaran deduktif adalah proses penarikan kesimpulan spesifik dari satu atau lebih pernyataan umum (premis) yang dianggap benar. Jika premis-premisnya benar dan proses penarikannya valid, maka kesimpulannya pasti benar. Dalam UTBK SNBT, penalaran deduktif menguji kemampuan Anda dalam menerapkan aturan atau prinsip umum pada situasi atau kasus yang spesifik.",
-  "submateri": [
+  "deskripsi": "Penalaran deduktif adalah proses penarikan kesimpulan spesifik dari satu atau lebih pernyataan umum (premis) yang dianggap benar. Jika premis-premisnya benar dan proses penarikannya valid, maka kesimpulannya pasti benar.\n\nDalam UTBK SNBT, penalaran deduktif menguji kemampuan Anda dalam menerapkan aturan atau prinsip umum pada situasi atau kasus yang spesifik.",
+  "subItems": [
     {
-      "judul_sub": "1. Silogisme",
-      "isi": "Silogisme adalah bentuk penalaran deduktif yang paling dasar, terdiri dari tiga bagian: Premis Mayor (Pernyataan Umum), Premis Minor (Pernyataan Spesifik), dan Kesimpulan.",
-      "poin": [
-        "Premis Mayor (Pernyataan Umum): Pernyataan yang mencakup kategori yang lebih luas.",
-        "Premis Minor (Pernyataan Spesifik): Pernyataan yang menghubungkan suatu kasus atau anggota tertentu dengan kategori dalam premis mayor.",
-        "Kesimpulan: Pernyataan spesifik yang ditarik berdasarkan kedua premis."
-      ],
-      "tips_belajar": [
-        "Identifikasi premis mayor, premis minor, dan kesimpulan dalam soal.",
-        "Pastikan premis-premisnya relevan dan mendukung kesimpulan.",
-        "Perhatikan apakah ada kesalahan logika (fallacy) dalam penarikan kesimpulan.",
-        "Gunakan diagram Venn (lingkaran himpunan) untuk memvisualisasikan hubungan antar kategori jika perlu."
-      ],
-      "bentuk_valid": [
-        "Modus Ponens: Jika P maka Q. P. Oleh karena itu, Q.",
-        "Modus Tollens: Jika P maka Q. Tidak Q. Oleh karena itu, tidak P.",
-        "Silogisme Hipotetik: Jika P maka Q. Jika Q maka R. Oleh karena itu, jika P maka R.",
-        "Silogisme Disjungtif: P atau Q. Tidak P. Oleh karena itu, Q."
-      ],
-      "contoh_soal": {
-        "soal": "Premis Mayor: Semua mamalia bernapas dengan paru-paru. Premis Minor: Paus adalah mamalia. Kesimpulan: ...",
-        "analisis": "Karena paus termasuk dalam kategori mamalia, dan semua mamalia bernapas dengan paru-paru, maka paus pasti bernapas dengan paru-paru.",
-        "jawaban": "Paus bernapas dengan paru-paru."
-      }
+      "judul": "1. Silogisme",
+      "teks": "Silogisme adalah bentuk penalaran deduktif yang paling dasar, terdiri dari tiga bagian: Premis Mayor (Pernyataan Umum), Premis Minor (Pernyataan Spesifik), dan Kesimpulan.",
+      "subItems": [
+        {
+          "judul": "Struktur Silogisme",
+          "subItems": [
+            {
+              "judul": "Premis Mayor",
+              "teks": "Pernyataan yang mencakup kategori yang lebih luas."
+            },
+            {
+              "judul": "Premis Minor",
+              "teks": "Pernyataan yang menghubungkan suatu kasus atau anggota tertentu dengan kategori dalam premis mayor."
+            },
+            {
+              "judul": "Kesimpulan",
+              "teks": "Pernyataan spesifik yang ditarik berdasarkan kedua premis."
+            }
+          ]
+        },
+        {
+          "judul": "Tips Belajar",
+          "teks": "- Identifikasi premis mayor, premis minor, dan kesimpulan dalam soal.\n- Pastikan premis-premisnya relevan dan mendukung kesimpulan.\n- Perhatikan apakah ada kesalahan logika (fallacy) dalam penarikan kesimpulan.\n- Gunakan diagram Venn (lingkaran himpunan) untuk memvisualisasikan hubungan antar kategori jika perlu."
+        },
+        {
+          "judul": "Bentuk Valid Silogisme",
+          "subItems": [
+            {
+              "judul": "Modus Ponens",
+              "teks": "Jika P maka Q. P. Oleh karena itu, Q."
+            },
+            {
+              "judul": "Modus Tollens",
+              "teks": "Jika P maka Q. Tidak Q. Oleh karena itu, tidak P."
+            },
+            {
+              "judul": "Silogisme Hipotetik",
+              "teks": "Jika P maka Q. Jika Q maka R. Oleh karena itu, jika P maka R."
+            },
+            {
+              "judul": "Silogisme Disjungtif",
+              "teks": "P atau Q. Tidak P. Oleh karena itu, Q."
+            }
+          ]
+        },
+        {
+          "judul": "Contoh Soal",
+          "teks": "Premis Mayor: Semua mamalia bernapas dengan paru-paru.\nPremis Minor: Paus adalah mamalia.\nKesimpulan: Paus bernapas dengan paru-paru.\nAnalisis: Karena paus termasuk dalam kategori mamalia, dan semua mamalia bernapas dengan paru-paru, maka paus pasti bernapas dengan paru-paru."
+        }
+      ]
     },
     {
-      "judul_sub": "2. Aplikasi Aturan atau Prinsip Umum",
-      "isi": "Soal jenis ini memberikan suatu aturan, definisi, atau prinsip umum, dan Anda diminta untuk menerapkannya pada kasus atau situasi yang spesifik.",
-      "tips_belajar": [
-        "Pahami dengan baik aturan atau prinsip yang diberikan.",
-        "Identifikasi elemen-elemen spesifik dalam kasus yang diberikan.",
-        "Cocokkan elemen-elemen spesifik dengan kondisi atau kriteria dalam aturan umum.",
-        "Tarik kesimpulan yang sesuai berdasarkan penerapan aturan tersebut."
-      ],
-      "contoh_soal": {
-        "soal": "Aturan: Semua kendaraan bermotor wajib membayar pajak tahunan. Kasus: Sebuah sepeda motor dimiliki oleh Rina. Kesimpulan yang benar adalah ...",
-        "pilihan": [
-          "A. Rina harus membayar pajak penghasilan.",
-          "B. Semua pemilik kendaraan harus membayar pajak.",
-          "C. Sepeda motor bukan kendaraan bermotor.",
-          "D. Rina wajib membayar pajak tahunan untuk sepeda motornya.",
-          "E. Pajak tahunan hanya berlaku untuk mobil."
-        ],
-        "analisis": "Sepeda motor termasuk dalam kategori kendaraan bermotor. Berdasarkan aturan, semua kendaraan bermotor wajib membayar pajak tahunan. Oleh karena itu, sepeda motor milik Rina juga wajib membayar pajak tahunan.",
-        "jawaban": "D. Rina wajib membayar pajak tahunan untuk sepeda motornya."
-      }
+      "judul": "2. Aplikasi Aturan atau Prinsip Umum",
+      "teks": "Soal jenis ini memberikan suatu aturan, definisi, atau prinsip umum, dan Anda diminta untuk menerapkannya pada kasus atau situasi yang spesifik.",
+      "subItems": [
+        {
+          "judul": "Tips Belajar",
+          "teks": "- Pahami dengan baik aturan atau prinsip yang diberikan.\n- Identifikasi elemen-elemen spesifik dalam kasus yang diberikan.\n- Cocokkan elemen-elemen spesifik dengan kondisi atau kriteria dalam aturan umum.\n- Tarik kesimpulan yang sesuai berdasarkan penerapan aturan tersebut."
+        },
+        {
+          "judul": "Contoh Soal",
+          "teks": "Aturan: Semua kendaraan bermotor wajib membayar pajak tahunan.\nKasus: Sebuah sepeda motor dimiliki oleh Rina.\nKesimpulan: Rina wajib membayar pajak tahunan untuk sepeda motornya.\nAnalisis: Sepeda motor termasuk dalam kategori kendaraan bermotor. Berdasarkan aturan, semua kendaraan bermotor wajib membayar pajak tahunan. Oleh karena itu, sepeda motor milik Rina juga wajib membayar pajak tahunan."
+        }
+      ]
     },
     {
-      "judul_sub": "3. Penarikan Kesimpulan Logis dari Pernyataan",
-      "isi": "Soal ini menyajikan beberapa pernyataan dan Anda harus menentukan kesimpulan mana yang pasti benar berdasarkan pernyataan-pernyataan tersebut.",
-      "tips_belajar": [
-        "Anggap semua pernyataan yang diberikan sebagai benar.",
-        "Cari hubungan logis antar pernyataan.",
-        "Eliminasi pilihan jawaban yang bertentangan dengan pernyataan atau tidak dapat ditarik secara pasti.",
-        "Gunakan logika \"jika...maka...\" atau hubungan inklusi/eksklusi antar kategori."
-      ],
-      "contoh_soal": {
-        "pernyataan": [
-          "Semua siswa kelas XII mengikuti ujian akhir.",
-          "Beberapa siswa kelas XII adalah anggota OSIS."
-        ],
-        "soal": "Kesimpulan yang pasti benar adalah ...",
-        "pilihan": [
-          "A. Semua anggota OSIS mengikuti ujian akhir.",
-          "B. Beberapa anggota OSIS tidak mengikuti ujian akhir.",
-          "C. Ada siswa kelas XII yang bukan anggota OSIS dan mengikuti ujian akhir.",
-          "D. Semua yang mengikuti ujian akhir adalah siswa kelas XII.",
-          "E. Tidak ada siswa kelas XII yang tidak mengikuti ujian akhir."
-        ],
-        "analisis": "Pernyataan 1 menyatakan bahwa seluruh siswa kelas XII termasuk dalam kelompok \"mengikuti ujian akhir.\" Pernyataan 2 menyatakan bahwa sebagian siswa kelas XII termasuk dalam kelompok \"anggota OSIS.\" Dari sini, kita bisa menyimpulkan bahwa ada sebagian anggota OSIS yang juga siswa kelas XII dan pasti mengikuti ujian akhir. Kita juga tahu ada siswa kelas XII yang bukan anggota OSIS dan tetap mengikuti ujian akhir.",
-        "jawaban": "C. Ada siswa kelas XII yang bukan anggota OSIS dan mengikuti ujian akhir."
-      }
+      "judul": "3. Penarikan Kesimpulan Logis dari Pernyataan",
+      "teks": "Soal ini menyajikan beberapa pernyataan dan Anda harus menentukan kesimpulan mana yang pasti benar berdasarkan pernyataan-pernyataan tersebut.",
+      "subItems": [
+        {
+          "judul": "Tips Belajar",
+          "teks": "- Anggap semua pernyataan yang diberikan sebagai benar.\n- Cari hubungan logis antar pernyataan.\n- Eliminasi pilihan jawaban yang bertentangan dengan pernyataan atau tidak dapat ditarik secara pasti.\n- Gunakan logika \"jika...maka...\" atau hubungan inklusi/eksklusi antar kategori."
+        },
+        {
+          "judul": "Contoh Soal",
+          "teks": "Pernyataan:\n- Semua siswa kelas XII mengikuti ujian akhir.\n- Beberapa siswa kelas XII adalah anggota OSIS.\nSoal: Kesimpulan yang pasti benar adalah ...\nJawaban: C. Ada siswa kelas XII yang bukan anggota OSIS dan mengikuti ujian akhir.\nAnalisis: Pernyataan 1 menyatakan bahwa seluruh siswa kelas XII mengikuti ujian akhir. Pernyataan 2 menyatakan bahwa sebagian siswa kelas XII adalah anggota OSIS. Maka, logis jika ada siswa kelas XII yang bukan anggota OSIS tetapi tetap mengikuti ujian akhir."
+        }
+      ]
+    },
+    {
+      "judul": "Strategi Belajar Praktis",
+      "teks": "- Pahami Struktur Argumen: Latih diri Anda untuk mengidentifikasi premis dan kesimpulan dalam berbagai jenis soal.\n- Gunakan Diagram: Visualisasi dengan diagram Venn atau diagram alir dapat membantu memahami hubungan antar kategori atau langkah-langkah logika.\n- Cari Kesalahan Logika (Fallacy): Pelajari jenis-jenis kesalahan logika yang umum terjadi dalam penalaran deduktif agar Anda bisa menghindarinya.\n- Latihan Soal Variatif: Kerjakan berbagai jenis soal penalaran deduktif untuk melatih kemampuan Anda dalam menerapkan prinsip-prinsip logika dalam konteks yang berbeda.\n- Teliti dalam Membaca: Perhatikan setiap kata dan detail dalam premis atau aturan yang diberikan. Satu kata yang terlewat bisa mengubah makna dan kesimpulan.\n- Jangan Membuat Asumsi Tambahan: Kesimpulan deduktif harus murni berdasarkan informasi yang diberikan dalam premis. Hindari menambahkan pengetahuan atau asumsi dari luar soal."
     }
-  ],
-  "strategi_belajar": [
-    "Pahami Struktur Argumen: Latih diri Anda untuk mengidentifikasi premis dan kesimpulan dalam berbagai jenis soal.",
-    "Gunakan Diagram: Visualisasi dengan diagram Venn atau diagram alir dapat membantu memahami hubungan antar kategori atau langkah-langkah logika.",
-    "Cari Kesalahan Logika (Fallacy): Pelajari jenis-jenis kesalahan logika yang umum terjadi dalam penalaran deduktif agar Anda bisa menghindarinya.",
-    "Latihan Soal Variatif: Kerjakan berbagai jenis soal penalaran deduktif untuk melatih kemampuan Anda dalam menerapkan prinsip-prinsip logika dalam konteks yang berbeda.",
-    "Teliti dalam Membaca: Perhatikan setiap kata dan detail dalam premis atau aturan yang diberikan. Satu kata yang terlewat bisa mengubah makna dan kesimpulan.",
-    "Jangan Membuat Asumsi Tambahan: Kesimpulan deduktif harus murni berdasarkan informasi yang diberikan dalam premis. Hindari menambahkan pengetahuan atau asumsi dari luar soal."
   ]
 }
