@@ -1,59 +1,81 @@
 {
-  "materi_pertidaksamaan": {
-    "pengantar": "Pertidaksamaan adalah kalimat matematika yang mengandung tanda ketidaksamaan (<, >, ≤, ≥). Solusinya berupa interval atau himpunan bilangan.",
-    "pertidaksamaan_linear": {
-      "bentuk": "ax + b < 0, ax + b > 0, dll.",
-      "cara": [
-        "Selesaikan seperti persamaan linear.",
-        "Jika dikalikan/dibagi dengan bilangan negatif, balik tanda pertidaksamaan."
-      ],
-      "penyajian_solusi": "Gunakan notasi interval atau garis bilangan."
-    },
-    "pertidaksamaan_kuadrat": {
-      "bentuk": "ax² + bx + c < 0, ax² + bx + c ≥ 0, dll.",
-      "cara": [
-        "Pindahkan semua ke satu ruas agar = 0.",
-        "Faktorkan atau gunakan rumus ABC.",
-        "Cari akar-akar (titik kritis).",
-        "Gambarkan titik-titik kritis pada garis bilangan.",
-        "Uji tanda dalam setiap interval.",
-        "Tentukan solusi berdasarkan arah tanda (<, >, ≤, ≥)."
-      ],
-      "catatan": "Gunakan bulatan penuh untuk ≤/≥ dan bulatan kosong untuk </>."
-    },
-    "pertidaksamaan_rasional": {
-      "bentuk": "P(x)/Q(x) < 0, ≥ 0, dll.",
-      "cara": [
-        "Buat ruas kanan menjadi 0.",
-        "Faktorkan pembilang dan penyebut.",
-        "Tentukan titik kritis (akar pembilang & penyebut).",
-        "Gambarkan pada garis bilangan.",
-        "Uji tanda di tiap interval.",
-        "Ingat: pembuat nol penyebut tidak termasuk solusi."
+  "judul": "Fungsi, Persamaan, dan Pertidaksamaan",
+  "deskripsi": "Materi ini mencakup konsep dasar dan teknik menyelesaikan soal-soal tentang fungsi, persamaan, dan pertidaksamaan yang sering muncul di UTBK SNBT. Penjelasan mencakup definisi, jenis-jenis fungsi, operasi fungsi, serta strategi umum dalam penyelesaian soal.",
+  "subItems": [
+    {
+      "judul": "Materi Fungsi",
+      "subItems": [
+        {
+          "judul": "1. Konsep Dasar Fungsi",
+          "teks": "Fungsi adalah suatu relasi khusus yang memasangkan setiap anggota dari domain ke tepat satu anggota kodomain. Notasi f(x) digunakan untuk menunjukkan nilai fungsi pada x. \n\n- Domain: himpunan nilai x yang membuat fungsi terdefinisi.\n  - Untuk fungsi rasional: penyebut tidak boleh nol.\n  - Untuk fungsi akar: isi akar harus ≥ 0.\n- Kodomain: himpunan nilai yang mungkin dihasilkan.\n- Range: nilai output aktual dari fungsi berdasarkan domain."
+        },
+        {
+          "judul": "2. Jenis-jenis Fungsi (yang sering muncul di UTBK)",
+          "teks": "- Fungsi Linear: f(x) = ax + b\n- Fungsi Kuadrat: f(x) = ax² + bx + c\n  - Titik puncak: x = -b/2a\n  - Diskriminan D = b² - 4ac\n- Fungsi Rasional: f(x) = P(x)/Q(x), Q(x) ≠ 0\n- Fungsi Akar: f(x) = √g(x)"
+        },
+        {
+          "judul": "3. Operasi pada Fungsi",
+          "teks": "- Penjumlahan: (f+g)(x) = f(x) + g(x)\n- Pengurangan: (f−g)(x) = f(x) − g(x)\n- Perkalian: (f⋅g)(x) = f(x) ⋅ g(x)\n- Pembagian: (f/g)(x) = f(x) / g(x), g(x) ≠ 0\n- Komposisi: (f∘g)(x) = f(g(x))\n- Invers: f⁻¹(x), diperoleh dengan:\n  1. Ubah f(x) jadi y\n  2. Tukar x dan y\n  3. Selesaikan untuk y\n  4. Ganti y dengan f⁻¹(x)"
+        },
+        {
+          "judul": "Tips Belajar Fungsi",
+          "teks": "- Pahami domain dan range.\n- Latih evaluasi nilai fungsi.\n- Pahami komposisi dan invers fungsi.\n- Latih soal kontekstual dan grafik."
+        }
       ]
     },
-    "pertidaksamaan_mutlak": {
-      "sifat": {
-        "|x| < a": "-a < x < a (untuk a > 0)",
-        "|x| > a": "x < -a atau x > a (untuk a > 0)",
-        "|f(x)| < g(x)": "-g(x) < f(x) < g(x) dan g(x) > 0",
-        "|f(x)| > g(x)": "f(x) > g(x) atau f(x) < -g(x)"
-      },
-      "catatan": "Untuk |f(x)| < |g(x)|, kuadratkan kedua sisi: (f(x))² < (g(x))² dan gunakan selisih kuadrat."
+    {
+      "judul": "Materi Persamaan",
+      "subItems": [
+        {
+          "judul": "1. Persamaan Linear",
+          "teks": "- Bentuk: ax + b = 0\n- SPLDV: dua variabel\n  - Metode: Eliminasi, Substitusi, Campuran"
+        },
+        {
+          "judul": "2. Persamaan Kuadrat",
+          "teks": "- Bentuk: ax² + bx + c = 0\n- Metode:\n  - Pemfaktoran\n  - Rumus Kuadrat: x = (-b ± √D) / 2a\n  - Lengkap Kuadrat Sempurna\n- Diskriminan:\n  - D > 0 → dua akar berbeda\n  - D = 0 → akar kembar\n  - D < 0 → akar imajiner\n- Sifat Vieta:\n  - x₁ + x₂ = -b/a\n  - x₁ ⋅ x₂ = c/a"
+        },
+        {
+          "judul": "3. Persamaan Rasional",
+          "teks": "- Bentuk: P(x)/Q(x) = 0\n  - Syarat: Q(x) ≠ 0\n- Jika bentuk P(x)/Q(x) = R(x)/S(x), gunakan metode kali silang"
+        },
+        {
+          "judul": "4. Persamaan Mutlak",
+          "teks": "- |x| = a → x = ±a\n- |f(x)| = c → f(x) = ±c\n- |f(x)| = |g(x)| → f(x) = ±g(x)"
+        },
+        {
+          "judul": "Tips Belajar Persamaan",
+          "teks": "- Kuasai metode untuk setiap jenis persamaan.\n- Cek syarat penyebut tidak nol.\n- Gunakan diskriminan untuk menganalisis akar.\n- Latihan variasi bentuk soal."
+        }
+      ]
     },
-    "tips_belajar": [
-      "Kuasai uji daerah pada garis bilangan.",
-      "Perhatikan tanda ketidaksamaan untuk titik kritis.",
-      "Jangan mengalikan silang untuk pertidaksamaan rasional jika ruas kanan bukan nol.",
-      "Hafalkan sifat-sifat pertidaksamaan mutlak."
-    ]
-  },
-  "strategi_umum": {
-    "1": "Pahami Konsep Dasar: Jangan sekadar menghafal rumus, tapi pahami konsep di baliknya.",
-    "2": "Latihan Soal Bertahap: Mulai dari soal dasar ke soal HOTS (Higher Order Thinking Skills).",
-    "3": "Gunakan Garis Bilangan: Untuk pertidaksamaan dan analisis tanda fungsi.",
-    "4": "Hati-hati Perhitungan: Kesalahan kecil bisa mengubah hasil total.",
-    "5": "Perhatikan Syarat Khusus: Seperti syarat penyebut tidak nol atau isi akar ≥ 0.",
-    "6": "Catat Kesalahan Umum: Untuk tidak mengulang kesalahan yang sama saat latihan."
-  }
+    {
+      "judul": "Materi Pertidaksamaan",
+      "subItems": [
+        {
+          "judul": "1. Pertidaksamaan Linear",
+          "teks": "- Bentuk: ax + b < 0, dll.\n- Jika dikali/dibagi negatif, balik tanda."
+        },
+        {
+          "judul": "2. Pertidaksamaan Kuadrat",
+          "teks": "- Bentuk: ax² + bx + c < 0, dll.\n- Langkah:\n  - Ubah jadi 0 di satu sisi\n  - Faktorkan/cari akar\n  - Buat garis bilangan\n  - Uji interval dan tentukan solusi"
+        },
+        {
+          "judul": "3. Pertidaksamaan Rasional",
+          "teks": "- Bentuk: P(x)/Q(x) < 0, dll.\n- Langkah:\n  - Faktorkan pembilang dan penyebut\n  - Tentukan titik nol\n  - Garis bilangan dan uji tanda\n  - Syarat: Q(x) ≠ 0 → bulatan kosong"
+        },
+        {
+          "judul": "4. Pertidaksamaan Mutlak",
+          "teks": "- |x| < a → -a < x < a\n- |x| > a → x < -a atau x > a\n- |f(x)| < |g(x)| → kuadratkan: f(x)² < g(x)²"
+        },
+        {
+          "judul": "Tips Belajar Pertidaksamaan",
+          "teks": "- Gunakan garis bilangan.\n- Perhatikan tanda (≤, ≥, <, >).\n- Jangan menyilangkan jika ruas kanan bukan nol.\n- Hafalkan sifat mutlak."
+        }
+      ]
+    },
+    {
+      "judul": "Strategi Umum untuk UTBK",
+      "teks": "- Pahami konsep, jangan hanya rumus.\n- Latih soal dari dasar ke kompleks.\n- Gunakan visualisasi garis bilangan.\n- Perhatikan syarat fungsi dan operasi.\n- Teliti dan konsisten dalam latihan."
+    }
+  ]
 }
