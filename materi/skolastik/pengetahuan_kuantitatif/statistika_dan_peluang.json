@@ -1,155 +1,146 @@
 {
   "judul": "Statistika dan Peluang",
-  "items": [
+  "deskripsi": "Statistika dan Peluang merupakan dua cabang penting dalam matematika yang sering diujikan dalam UTBK SNBT. Statistika berfokus pada pengumpulan, penyajian, dan analisis data, sedangkan Peluang mempelajari kemungkinan terjadinya suatu peristiwa.",
+  "subItems": [
     {
-      "judul": "Materi Statistika",
+      "judul": "1. Penyajian Data",
+      "teks": "Data dapat disajikan dalam berbagai bentuk agar mudah dipahami dan dianalisis.",
       "subItems": [
         {
-          "teks": "Statistika adalah ilmu yang mempelajari cara mengumpulkan, mengolah, menganalisis, dan menyajikan data."
+          "judul": "Tabel",
+          "teks": "Data disusun dalam baris dan kolom untuk mempermudah pembacaan dan perbandingan."
         },
         {
-          "judul": "1. Penyajian Data",
+          "judul": "Diagram/Grafik",
           "subItems": [
-            { "teks": "Tabel: Data disusun dalam baris dan kolom." },
             {
-              "teks": "Diagram/Grafik",
-              "subItems": [
-                { "teks": "Diagram Batang: Untuk membandingkan data antar kategori." },
-                { "teks": "Diagram Garis: Untuk menunjukkan tren atau perubahan data seiring waktu." },
-                { "teks": "Diagram Lingkaran (Pie Chart): Untuk menunjukkan proporsi bagian terhadap keseluruhan." },
-                { "teks": "Histogram: Mirip diagram batang, tetapi untuk data kelompok (interval). Batang-batangnya saling berimpit." },
-                { "teks": "Poligon Frekuensi: Garis yang menghubungkan titik tengah atas setiap batang histogram." }
-              ]
+              "judul": "Diagram Batang",
+              "teks": "Digunakan untuk membandingkan data antar kategori."
+            },
+            {
+              "judul": "Diagram Garis",
+              "teks": "Menunjukkan tren atau perubahan data dari waktu ke waktu."
+            },
+            {
+              "judul": "Diagram Lingkaran",
+              "teks": "Menunjukkan proporsi bagian terhadap keseluruhan (persentase)."
+            },
+            {
+              "judul": "Histogram",
+              "teks": "Digunakan untuk data berkelompok dengan batang-batang yang saling berimpit."
+            },
+            {
+              "judul": "Poligon Frekuensi",
+              "teks": "Garis yang menghubungkan titik tengah atas setiap batang pada histogram."
             }
-          ]
-        },
-        {
-          "judul": "2. Ukuran Pemusatan Data",
-          "subItems": [
-            {
-              "teks": "Mean (Rata-rata Hitung)",
-              "subItems": [
-                { "teks": "Data Tunggal: x̄ = ∑xᵢ / n" },
-                { "teks": "Data Berbobot/Frekuensi: x̄ = ∑(fᵢ·xᵢ) / ∑fᵢ" },
-                { "teks": "Data Kelompok: x̄ = ∑(fᵢ·mᵢ) / ∑fᵢ, dengan mᵢ adalah titik tengah kelas interval." }
-              ]
-            },
-            {
-              "teks": "Median (Nilai Tengah)",
-              "subItems": [
-                { "teks": "Data Ganjil: Median adalah suku tengah." },
-                { "teks": "Data Genap: Median adalah rata-rata dua suku tengah." },
-                { "teks": "Data Kelompok: Median = L + ((n/2 - F) / f) × c" }
-              ]
-            },
-            {
-              "teks": "Modus (Nilai yang Sering Muncul)",
-              "subItems": [
-                { "teks": "Bisa lebih dari satu modus (bimodal, multimodal) atau tidak ada modus." },
-                { "teks": "Data Kelompok: Modus = L + (d₁ / (d₁ + d₂)) × c" }
-              ]
-            }
-          ]
-        },
-        {
-          "judul": "3. Ukuran Letak Data (Kuantil)",
-          "subItems": [
-            {
-              "teks": "Kuartil (Q)",
-              "subItems": [
-                { "teks": "Q₁, Q₂ (Median), Q₃: Membagi data menjadi 4 bagian." },
-                { "teks": "Data Kelompok: Qₖ = L + ((k·n/4 - F) / f) × c" }
-              ]
-            },
-            { "teks": "Desil (D): Dₖ = L + ((k·n/10 - F) / f) × c" },
-            { "teks": "Persentil (P): Pₖ = L + ((k·n/100 - F) / f) × c" }
-          ]
-        },
-        {
-          "judul": "4. Ukuran Penyebaran Data",
-          "subItems": [
-            { "teks": "Jangkauan: Xmax − Xmin" },
-            { "teks": "Jangkauan Interkuartil: Q₃ − Q₁" },
-            { "teks": "Simpangan Kuartil: (Q₃ − Q₁)/2" },
-            { "teks": "Simpangan Rata-rata: SR = ∑|xᵢ − x̄| / n" },
-            {
-              "teks": "Variansi (Ragam)",
-              "subItems": [
-                { "teks": "s² = ∑(xᵢ − x̄)² / n" },
-                { "teks": "Atau: s² = ∑xᵢ² / n − (x̄)²" }
-              ]
-            },
-            { "teks": "Simpangan Baku (Standar Deviasi): s = √(Variansi)" }
-          ]
-        },
-        {
-          "teks": "Tips Belajar Statistika",
-          "subItems": [
-            { "teks": "Pahami konsep, bukan hanya rumus." },
-            { "teks": "Latih soal data tunggal dan kelompok." },
-            { "teks": "Gunakan sketsa/gambar untuk membantu." },
-            { "teks": "Teliti dalam perhitungan." },
-            { "teks": "Perhatikan pertanyaan: mean, median, modus, atau penyebaran?" }
           ]
         }
       ]
     },
     {
-      "teks": "Materi Peluang (Probabilitas)",
+      "judul": "2. Ukuran Pemusatan Data",
+      "teks": "Ukuran pemusatan menggambarkan nilai tengah atau nilai representatif dari suatu data.",
       "subItems": [
         {
-          "judul": "1. Konsep Dasar Peluang",
-          "subItems": [
-            { "teks": "Ruang Sampel (S): Himpunan semua hasil yang mungkin." },
-            { "teks": "Titik Sampel: Anggota ruang sampel." },
-            { "teks": "Kejadian (E): Himpunan bagian dari ruang sampel." },
-            { "teks": "Peluang Kejadian: P(E) = n(E) / n(S)" },
-            { "teks": "Nilai Peluang: 0 ≤ P(E) ≤ 1" },
-            { "teks": "Frekuensi Harapan: Fₕ(E) = P(E) × N" }
-          ]
+          "judul": "Mean (Rata-rata)",
+          "teks": "Jumlah seluruh data dibagi banyaknya data."
         },
         {
-          "judul": "2. Kaidah Pencacahan",
-          "subItems": [
-            { "teks": "Aturan Perkalian: n₁ × n₂ × ... × nₖ" },
-            { "teks": "Faktorial: n! = n × (n−1) × ... × 1, dengan 0! = 1" },
-            { "teks": "Permutasi: P(n,r) = n! / (n−r)!" },
-            { "teks": "Permutasi Unsur Sama: n! / (n₁! n₂! ...)" },
-            { "teks": "Permutasi Siklis: (n−1)!" },
-            { "teks": "Kombinasi: C(n,r) = n! / [r!(n−r)!]" }
-          ]
+          "judul": "Median (Nilai Tengah)",
+          "teks": "Nilai yang membagi data menjadi dua bagian sama besar setelah diurutkan."
         },
         {
-          "judul": "3. Kejadian Majemuk",
-          "subItems": [
-            { "teks": "Komplemen: P(Eᶜ) = 1 − P(E)" },
-            { "teks": "Gabungan (A ∪ B): P(A) + P(B) − P(A ∩ B)" },
-            { "teks": "Jika saling lepas: P(A ∪ B) = P(A) + P(B)" },
-            { "teks": "Irisan (A ∩ B) dan Kejadian Saling Bebas: P(A ∩ B) = P(A) × P(B)" },
-            { "teks": "Kejadian Bersyarat: P(A ∩ B) = P(A) × P(B|A)" }
-          ]
-        },
-        {
-          "judul": "Tips Belajar Peluang",
-          "subItems": [
-            { "teks": "Bedakan Permutasi dan Kombinasi." },
-            { "teks": "Identifikasi ruang sampel dan kejadian." },
-            { "teks": "Gunakan diagram pohon untuk visualisasi." },
-            { "teks": "Pahami 'saling lepas' vs 'saling bebas'." },
-            { "teks": "Latih soal cerita." }
-          ]
+          "judul": "Modus",
+          "teks": "Nilai yang paling sering muncul dalam data."
         }
       ]
     },
     {
-      "judul": "Strategi Umum untuk UTBK",
+      "judul": "3. Ukuran Letak Data (Kuantil)",
       "subItems": [
-        { "teks": "Baca soal dengan cermat." },
-        { "teks": "Identifikasi jenis data atau kejadian." },
-        { "teks": "Tuliskan rumus yang sesuai." },
-        { "teks": "Latih perhitungan dengan teliti." },
-        { "teks": "Gunakan logika jika memungkinkan." }
+        {
+          "judul": "Kuartil",
+          "teks": "Membagi data menjadi 4 bagian yang sama besar (Q1, Q2, Q3)."
+        },
+        {
+          "judul": "Desil",
+          "teks": "Membagi data menjadi 10 bagian yang sama besar."
+        },
+        {
+          "judul": "Persentil",
+          "teks": "Membagi data menjadi 100 bagian yang sama besar."
+        }
       ]
-    }
-  ]
-}
+    },
+    {
+      "judul": "4. Ukuran Penyebaran Data",
+      "subItems": [
+        {
+          "judul": "Jangkauan",
+          "teks": "Selisih antara data terbesar dan terkecil."
+        },
+        {
+          "judul": "Jangkauan Interkuartil",
+          "teks": "Selisih antara kuartil ketiga (Q3) dan kuartil pertama (Q1)."
+        },
+        {
+          "judul": "Simpangan Kuartil",
+          "teks": "½ × (Q3 − Q1)."
+        },
+        {
+          "judul": "Simpangan Rata-rata dan Variansi",
+          "teks": "Mengukur seberapa jauh data menyebar dari rata-ratanya."
+        },
+        {
+          "judul": "Simpangan Baku",
+          "teks": "Akar dari variansi, sering digunakan untuk menunjukkan sebaran data."
+        }
+      ]
+    },
+    {
+      "judul": "5. Peluang (Probabilitas)",
+      "teks": "Peluang digunakan untuk menghitung kemungkinan terjadinya suatu peristiwa.",
+      "subItems": [
+        {
+          "judul": "Konsep Dasar Peluang",
+          "subItems": [
+            {
+              "judul": "Ruang Sampel (S)",
+              "teks": "Himpunan semua hasil yang mungkin dari suatu percobaan."
+            },
+            {
+              "judul": "Titik Sampel",
+              "teks": "Setiap elemen dalam ruang sampel."
+            },
+            {
+              "judul": "Kejadian (E)",
+              "teks": "Himpunan bagian dari ruang sampel."
+            },
+            {
+              "judul": "Rumus Peluang",
+              "teks": "P(E) = n(E) / n(S), dengan 0 ≤ P(E) ≤ 1."
+            },
+            {
+              "judul": "Frekuensi Harapan",
+              "teks": "P(E) × N, dengan N adalah banyaknya percobaan."
+            }
+          ]
+        },
+        {
+          "judul": "Kaidah Pencacahan",
+          "subItems": [
+            {
+              "judul": "Aturan Perkalian",
+              "teks": "Jika suatu kejadian terdiri dari beberapa tahap, maka total cara = n₁ × n₂ × ... × nₖ."
+            },
+            {
+              "judul": "Faktorial (n!)",
+              "teks": "Hasil kali berurutan dari n ke 1, dengan 0! = 1."
+            },
+            {
+              "judul": "Permutasi",
+              "teks": "Susunan objek dengan memperhatikan urutan."
+            },
+            {
+              "judul": "Kombinasi",
+              "teks": "Susunan objek t
