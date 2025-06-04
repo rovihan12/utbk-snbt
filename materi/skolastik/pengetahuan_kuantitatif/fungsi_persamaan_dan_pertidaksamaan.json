@@ -9,20 +9,24 @@
           "judul": "1. Konsep Dasar Fungsi",
           "teks": "Fungsi adalah suatu relasi khusus yang memasangkan setiap anggota dari domain ke tepat satu anggota kodomain. Notasi f(x) digunakan untuk menunjukkan nilai fungsi pada x. \n Domain: himpunan nilai x yang membuat fungsi terdefinisi.\n  - Untuk fungsi rasional: penyebut tidak boleh nol.\n  - Untuk fungsi akar: isi akar harus ≥ 0.\n- Kodomain: himpunan nilai yang mungkin dihasilkan.\n- Range: nilai output aktual dari fungsi berdasarkan domain."
         },
+
         {
-          "judul": "/n2. Jenis-jenis Fungsi (yang sering muncul di UTBK)",
+          "judul": "2. Jenis-jenis Fungsi (yang sering muncul di UTBK)",
           "teks": "- Fungsi Linear: f(x) = ax + b\n- Fungsi Kuadrat: f(x) = ax² + bx + c\n  - Titik puncak: x = -b/2a\n  - Diskriminan D = b² - 4ac\n- Fungsi Rasional: f(x) = P(x)/Q(x), Q(x) ≠ 0\n- Fungsi Akar: f(x) = √g(x)"
         },
+
         {
           "judul": "3. Operasi pada Fungsi",
           "teks": "- Penjumlahan: (f+g)(x) = f(x) + g(x)\n- Pengurangan: (f−g)(x) = f(x) − g(x)\n- Perkalian: (f⋅g)(x) = f(x) ⋅ g(x)\n- Pembagian: (f/g)(x) = f(x) / g(x), g(x) ≠ 0\n- Komposisi: (f∘g)(x) = f(g(x))\n- Invers: f⁻¹(x), diperoleh dengan:\n  1. Ubah f(x) jadi y\n  2. Tukar x dan y\n  3. Selesaikan untuk y\n  4. Ganti y dengan f⁻¹(x)"
         },
+
         {
           "judul": "Tips Belajar Fungsi",
           "teks": "- Pahami domain dan range.\n- Latih evaluasi nilai fungsi.\n- Pahami komposisi dan invers fungsi.\n- Latih soal kontekstual dan grafik."
         }
       ]
     },
+
     {
       "judul": "Materi Persamaan",
       "subItems": [
@@ -30,24 +34,29 @@
           "judul": "1. Persamaan Linear",
           "teks": "- Bentuk: ax + b = 0\n- SPLDV: dua variabel\n  - Metode: Eliminasi, Substitusi, Campuran"
         },
+
         {
           "judul": "2. Persamaan Kuadrat",
           "teks": "- Bentuk: ax² + bx + c = 0\n- Metode:\n  - Pemfaktoran\n  - Rumus Kuadrat: x = (-b ± √D) / 2a\n  - Lengkap Kuadrat Sempurna\n- Diskriminan:\n  - D > 0 → dua akar berbeda\n  - D = 0 → akar kembar\n  - D < 0 → akar imajiner\n- Sifat Vieta:\n  - x₁ + x₂ = -b/a\n  - x₁ ⋅ x₂ = c/a"
         },
+
         {
           "judul": "3. Persamaan Rasional",
           "teks": "- Bentuk: P(x)/Q(x) = 0\n  - Syarat: Q(x) ≠ 0\n- Jika bentuk P(x)/Q(x) = R(x)/S(x), gunakan metode kali silang"
         },
+
         {
           "judul": "4. Persamaan Mutlak",
           "teks": "- |x| = a → x = ±a\n- |f(x)| = c → f(x) = ±c\n- |f(x)| = |g(x)| → f(x) = ±g(x)"
         },
+
         {
           "judul": "Tips Belajar Persamaan",
           "teks": "- Kuasai metode untuk setiap jenis persamaan.\n- Cek syarat penyebut tidak nol.\n- Gunakan diskriminan untuk menganalisis akar.\n- Latihan variasi bentuk soal."
         }
       ]
     },
+
     {
       "judul": "Materi Pertidaksamaan",
       "subItems": [
@@ -55,24 +64,29 @@
           "judul": "1. Pertidaksamaan Linear",
           "teks": "- Bentuk: ax + b < 0, dll.\n- Jika dikali/dibagi negatif, balik tanda."
         },
+
         {
           "judul": "2. Pertidaksamaan Kuadrat",
           "teks": "- Bentuk: ax² + bx + c < 0, dll.\n- Langkah:\n  - Ubah jadi 0 di satu sisi\n  - Faktorkan/cari akar\n  - Buat garis bilangan\n  - Uji interval dan tentukan solusi"
         },
+
         {
           "judul": "3. Pertidaksamaan Rasional",
           "teks": "- Bentuk: P(x)/Q(x) < 0, dll.\n- Langkah:\n  - Faktorkan pembilang dan penyebut\n  - Tentukan titik nol\n  - Garis bilangan dan uji tanda\n  - Syarat: Q(x) ≠ 0 → bulatan kosong"
         },
+
         {
           "judul": "4. Pertidaksamaan Mutlak",
           "teks": "- |x| < a → -a < x < a\n- |x| > a → x < -a atau x > a\n- |f(x)| < |g(x)| → kuadratkan: f(x)² < g(x)²"
         },
+
         {
           "judul": "Tips Belajar Pertidaksamaan",
           "teks": "- Gunakan garis bilangan.\n- Perhatikan tanda (≤, ≥, <, >).\n- Jangan menyilangkan jika ruas kanan bukan nol.\n- Hafalkan sifat mutlak."
         }
       ]
     },
+
     {
       "judul": "Strategi Umum untuk UTBK",
       "teks": "- Pahami konsep, jangan hanya rumus.\n- Latih soal dari dasar ke kompleks.\n- Gunakan visualisasi garis bilangan.\n- Perhatikan syarat fungsi dan operasi.\n- Teliti dan konsisten dalam latihan."
