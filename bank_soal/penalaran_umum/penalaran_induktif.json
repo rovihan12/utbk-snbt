@@ -1,1 +1,48 @@
-
+[
+  {
+    "id": 1,
+    "pertanyaan": "Perhatikan pola bilangan berikut: 2, 4, 8, 16, .... Bilangan selanjutnya adalah?",
+    "gambar": null,
+    "pilihan": ["18", "20", "24", "32", "36"],
+    "jawaban": 3,
+    "pembahasan": "Setiap bilangan dikalikan 2: 2×2 = 4, 4×2 = 8, 8×2 = 16, maka 16×2 = 32."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Setiap kali Andi datang ke sekolah, ia membawa payung. Hari ini Andi membawa payung. Maka dapat disimpulkan bahwa...",
+    "gambar": null,
+    "pilihan": [
+      "Andi pasti hujan-hujanan",
+      "Hari ini hujan",
+      "Andi akan kehujanan",
+      "Andi datang ke sekolah",
+      "Andi tidak datang ke sekolah"
+    ],
+    "jawaban": 3,
+    "pembahasan": "Berdasarkan pola, Andi selalu membawa payung saat ke sekolah. Karena ia membawa payung hari ini, maka diasumsikan ia datang ke sekolah."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Pola ubin lantai: Merah, Biru, Merah, Biru, Merah, .... Warna ubin berikutnya adalah?",
+    "gambar": null,
+    "pilihan": ["Merah", "Biru", "Hijau", "Kuning", "Ungu"],
+    "jawaban": 1,
+    "pembahasan": "Pola warna berselang-seling antara Merah dan Biru. Setelah Merah, maka berikutnya adalah Biru."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Seorang siswa mengamati bahwa setiap hari Senin dan Kamis kantin sekolah menjual es teh. Hari ini kantin menjual es teh. Maka kemungkinan hari ini adalah...",
+    "gambar": null,
+    "pilihan": ["Selasa", "Rabu", "Senin", "Jumat", "Sabtu"],
+    "jawaban": 2,
+    "pembahasan": "Karena kantin hanya menjual es teh pada hari Senin dan Kamis, dan hari ini kantin menjual es teh, maka kemungkinan besar hari ini adalah Senin atau Kamis. Dari pilihan yang ada, Senin adalah yang cocok."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Pola bentuk: Segitiga, Persegi, Segitiga, Persegi, .... Bentuk berikutnya adalah?",
+    "gambar": null,
+    "pilihan": ["Lingkaran", "Segitiga", "Persegi", "Trapesium", "Oval"],
+    "jawaban": 1,
+    "pembahasan": "Pola berselang antara Segitiga dan Persegi. Setelah Persegi, berikutnya adalah Segitiga."
+  }
+]
