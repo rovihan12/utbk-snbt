@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 21,
+    "pertanyaan": "Premis 1: Semua unggas memiliki paruh.\nPremis 2: Ayam adalah unggas.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ayam tidak memiliki paruh.", "Ayam mungkin memiliki paruh.", "Ayam pasti memiliki paruh.", "Semua yang memiliki paruh adalah ayam.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika semua unggas memiliki paruh dan ayam adalah unggas, maka secara deduktif ayam pasti memiliki paruh."
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Premis 1: Jika seseorang rajin menabung, maka ia akan kaya.\nPremis 2: Budi tidak kaya.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi rajin menabung.", "Budi tidak rajin menabung.", "Budi mungkin rajin menabung.", "Semua yang tidak kaya tidak rajin menabung.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika seseorang rajin menabung, maka ia akan kaya) dan ¬Q (Budi tidak kaya), maka kesimpulannya adalah ¬P (Budi tidak rajin menabung)."
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Premis 1: Setiap segitiga memiliki tiga sudut.\nPremis 2: Bangun ini adalah segitiga.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bangun ini tidak memiliki tiga sudut.", "Bangun ini mungkin memiliki tiga sudut.", "Bangun ini pasti memiliki tiga sudut.", "Semua yang memiliki tiga sudut adalah bangun ini.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Karena setiap segitiga memiliki tiga sudut dan bangun ini adalah segitiga, maka bangun ini pasti memiliki tiga sudut."
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Premis 1: Jika ada asap, maka ada api.\nPremis 2: Tidak ada asap.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ada api.", "Tidak ada api.", "Api selalu ada saat ada asap.", "Asap tidak menyebabkan api.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Ponens yang keliru (affirming the consequent). Seharusnya Modus Tollens jika ada negasi di kesimpulan. Namun, jika P → Q (Jika ada asap, maka ada api) dan ¬P (Tidak ada asap), maka secara deduktif kesimpulannya adalah ¬Q (Tidak ada api). Ini adalah inferensi yang valid."
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Premis 1: Semua mahasiswa tingkat akhir sedang menyusun skripsi.\nPremis 2: Sita adalah mahasiswa tingkat akhir.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Sita tidak sedang menyusun skripsi.", "Sita mungkin sedang menyusun skripsi.", "Sita pasti sedang menyusun skripsi.", "Semua yang sedang menyusun skripsi adalah Sita.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika semua mahasiswa tingkat akhir sedang menyusun skripsi dan Sita adalah mahasiswa tingkat akhir, maka Sita pasti sedang menyusun skripsi."
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Premis 1: Jika seseorang lapar, maka ia akan makan.\nPremis 2: Seseorang ini tidak makan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Seseorang ini lapar.", "Seseorang ini tidak lapar.", "Orang yang lapar selalu makan.", "Makan tidak mengurangi rasa lapar.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan Modus Tollens, jika P → Q (Jika seseorang lapar, maka ia akan makan) dan ¬Q (Seseorang ini tidak makan), maka kesimpulannya adalah ¬P (Seseorang ini tidak lapar)."
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Premis 1: Beberapa siswa memakai kacamata.\nPremis 2: Semua yang memakai kacamata adalah pintar.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua siswa adalah pintar.", "Beberapa siswa adalah pintar.", "Semua yang pintar adalah siswa.", "Beberapa yang pintar bukan siswa.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Karena ada beberapa siswa yang memakai kacamata, dan semua yang memakai kacamata adalah pintar, maka secara logis dapat disimpulkan bahwa beberapa siswa adalah pintar."
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Premis 1: Semua sayuran mengandung vitamin.\nPremis 2: Wortel adalah sayuran.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Wortel tidak mengandung vitamin.", "Wortel mungkin mengandung vitamin.", "Wortel pasti mengandung vitamin.", "Semua yang mengandung vitamin adalah wortel.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika semua sayuran mengandung vitamin dan wortel adalah sayuran, maka wortel pasti mengandung vitamin."
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Premis 1: Jika cuaca cerah, maka kita akan pergi piknik.\nPremis 2: Kita tidak pergi piknik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Cuaca cerah.", "Cuaca tidak cerah.", "Kita selalu pergi piknik saat cuaca cerah.", "Piknik tidak tergantung cuaca.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan Modus Tollens, jika P → Q (Jika cuaca cerah, maka kita akan pergi piknik) dan ¬Q (Kita tidak pergi piknik), maka kesimpulannya adalah ¬P (Cuaca tidak cerah)."
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Premis 1: Semua pekerja pabrik memakai seragam.\nPremis 2: Pak Dodi adalah pekerja pabrik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Pak Dodi tidak memakai seragam.", "Pak Dodi mungkin memakai seragam.", "Pak Dodi pasti memakai seragam.", "Semua yang memakai seragam adalah Pak Dodi.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika semua pekerja pabrik memakai seragam dan Pak Dodi adalah pekerja pabrik, maka Pak Dodi pasti memakai seragam."
+  }
+]
