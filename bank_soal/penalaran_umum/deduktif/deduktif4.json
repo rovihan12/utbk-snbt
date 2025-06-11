@@ -1,1 +1,75 @@
 
+Tentu, berikut 10 soal penalaran deduktif dengan tingkat kesulitan medium, langsung dalam format JSON:
+[
+  {
+    "id": 31,
+    "pertanyaan": "Premis 1: Semua seniman adalah orang yang kreatif.\nPremis 2: Beberapa mahasiswa adalah seniman.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa adalah orang yang kreatif.", "Beberapa mahasiswa adalah orang yang kreatif.", "Semua orang yang kreatif adalah mahasiswa.", "Beberapa orang yang kreatif bukan seniman.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Jika semua seniman kreatif dan ada beberapa mahasiswa yang merupakan seniman, maka secara deduktif, beberapa mahasiswa pasti adalah orang yang kreatif. Ini adalah silogisme kategoris tipe IAI-3."
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Premis 1: Jika seseorang lulus ujian SIM, maka ia diizinkan mengemudi.\nPremis 2: Andi tidak diizinkan mengemudi.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Andi lulus ujian SIM.", "Andi tidak lulus ujian SIM.", "Andi mungkin diizinkan mengemudi.", "Semua yang tidak diizinkan mengemudi adalah Andi.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika lulus ujian SIM, maka diizinkan mengemudi) dan ¬Q (Tidak diizinkan mengemudi), maka kesimpulannya adalah ¬P (Tidak lulus ujian SIM)."
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Premis 1: Tidak ada manusia yang abadi.\nPremis 2: Socrates adalah manusia.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Socrates abadi.", "Socrates mungkin abadi.", "Socrates tidak abadi.", "Semua yang tidak abadi adalah Socrates.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika tidak ada manusia yang abadi dan Socrates adalah manusia, maka secara deduktif Socrates tidak abadi."
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Premis 1: Semua hewan karnivora memakan daging.\nPremis 2: Singa adalah hewan karnivora.\nPremis 3: Makanan favorit Singa adalah daging sapi.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua hewan karnivora suka daging sapi.", "Singa memakan daging sapi.", "Singa tidak memakan daging.", "Singa adalah satu-satunya karnivora yang suka daging sapi.", "Tidak dapat ditarik kesimpulan dari premis yang ada."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1 dan Premis 2, kita bisa menyimpulkan bahwa Singa memakan daging. Premis 3 memberikan informasi lebih spesifik tentang makanan favoritnya, yaitu daging sapi. Jadi, secara deduktif, jika singa adalah karnivora dan makanan favoritnya daging sapi, maka singa memakan daging sapi."
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Premis 1: Jika Sinta pergi ke kampus, maka ia akan bertemu teman.\nPremis 2: Sinta bertemu teman.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Sinta pergi ke kampus.", "Sinta tidak pergi ke kampus.", "Sinta mungkin pergi ke kampus.", "Bertemu teman berarti pergi ke kampus.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah fallacy of affirming the consequent (mengiyakan konsekuensi). Dari P → Q (Jika Sinta pergi ke kampus, maka ia akan bertemu teman) dan Q (Sinta bertemu teman), kita tidak bisa secara deduktif menyimpulkan P (Sinta pergi ke kampus). Sinta bisa saja bertemu teman di tempat lain, bukan hanya di kampus."
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Premis 1: Semua anak kecil suka permen.\nPremis 2: Doni tidak suka permen.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Doni adalah anak kecil.", "Doni bukan anak kecil.", "Doni mungkin anak kecil.", "Semua yang tidak suka permen adalah Doni.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika anak kecil, maka suka permen) dan ¬Q (Tidak suka permen), maka kesimpulannya adalah ¬P (Bukan anak kecil)."
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Premis 1: Beberapa mahasiswa adalah anggota band.\nPremis 2: Beberapa anggota band adalah musisi profesional.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Beberapa mahasiswa adalah musisi profesional.", "Semua mahasiswa adalah musisi profesional.", "Tidak ada mahasiswa yang musisi profesional.", "Semua musisi profesional adalah mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah fallacy of the undistributed middle. Dari dua premis 'beberapa' dan 'beberapa', kita tidak bisa secara deduktif menarik kesimpulan yang pasti tentang hubungan antara mahasiswa dan musisi profesional. Bisa jadi mahasiswa yang anggota band berbeda dengan anggota band yang musisi profesional. Contoh: A-B, B-C. Tidak selalu A-C."
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Premis 1: Semua karyawan harus hadir rapat.\nPremis 2: Ani tidak hadir rapat.\nPremis 3: Ani adalah seorang karyawan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ani seharusnya hadir rapat.", "Ani bukan karyawan.", "Rapat dibatalkan.", "Ani tidak tahu ada rapat.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1 (kewajiban semua karyawan untuk hadir rapat) dan Premis 3 (Ani adalah karyawan), secara deduktif dapat disimpulkan bahwa Ani seharusnya hadir rapat. Premis 2 hanya menyatakan fakta bahwa Ani tidak hadir, yang bertentangan dengan kewajibannya."
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Premis 1: Jika cuaca buruk, maka penerbangan ditunda.\nPremis 2: Penerbangan ditunda.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Cuaca buruk.", "Cuaca tidak buruk.", "Cuaca mungkin buruk.", "Penundaan penerbangan selalu karena cuaca buruk.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah fallacy of affirming the consequent. Jika P → Q (Jika cuaca buruk, maka penerbangan ditunda) dan Q (Penerbangan ditunda), kita tidak bisa secara deduktif menyimpulkan P (Cuaca buruk). Penerbangan bisa ditunda karena alasan lain selain cuaca buruk (misalnya masalah teknis pesawat, kru sakit, dll)."
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Premis 1: Semua buah citrus mengandung vitamin C.\nPremis 2: Jeruk adalah buah citrus.\nPremis 3: Vitamin C baik untuk kekebalan tubuh.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Jeruk tidak mengandung vitamin C.", "Jeruk baik untuk kekebalan tubuh.", "Semua buah yang baik untuk kekebalan tubuh adalah jeruk.", "Hanya buah citrus yang baik untuk kekebalan tubuh.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1 dan Premis 2, kita dapat menyimpulkan bahwa Jeruk mengandung vitamin C. Dari Premis 3, kita tahu vitamin C baik untuk kekebalan tubuh. Menggabungkan kedua kesimpulan ini, maka Jeruk (karena mengandung vitamin C) baik untuk kekebalan tubuh."
+  }
+]
+
