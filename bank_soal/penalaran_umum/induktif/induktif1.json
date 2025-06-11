@@ -1,16 +1,72 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Perhatikan pola bilangan berikut: 2, 4, 8, 16, ... Bilangan selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["18", "24", "32", "34", "36"],
-    "jawaban": "C",
-    "pembahasan": "Pola bilangan tersebut merupakan perkalian dua: 2 x 2 = 4, 4 x 2 = 8, 8 x 2 = 16, 16 x 2 = 32. Jadi jawabannya adalah C."
+    "pertanyaan": "Observasi 1: Kucing A mengeong saat lapar.\nObservasi 2: Kucing B mengeong saat lapar.\nObservasi 3: Kucing C mengeong saat lapar.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Semua kucing mengeong saat lapar.", "Beberapa kucing mengeong saat lapar.", "Kucing A, B, dan C adalah kucing yang lapar.", "Kucing mengeong hanya karena lapar.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "A",
+    "pembahasan": "Dari beberapa observasi spesifik bahwa kucing yang berbeda mengeong saat lapar, ditarik kesimpulan umum bahwa 'semua kucing mengeong saat lapar'. Ini adalah generalisasi yang khas dalam penalaran induktif."
   },
   {
     "id": 2,
-    "pertanyaan": "Setiap burung memiliki sayap. Elang adalah burung. Maka, elang memiliki ...",
-    "pilihan": ["Cakar", "Paruh", "Sayap", "Bulu", "Mata tajam"],
+    "pertanyaan": "Observasi 1: Setiap hari Senin, pasar ramai.\nObservasi 2: Setiap hari Selasa, pasar tidak terlalu ramai.\nObservasi 3: Setiap hari Rabu, pasar sepi.\n\nJika besok adalah hari Senin, apa yang paling mungkin terjadi di pasar?",
+    "pilihan": ["Pasar akan sepi.", "Pasar akan tidak terlalu ramai.", "Pasar akan ramai.", "Pasar akan ditutup.", "Tidak ada pola yang jelas."],
     "jawaban": "C",
-    "pembahasan": "Semua burung memiliki sayap. Elang adalah burung, maka elang pasti memiliki sayap. Jawaban: C."
+    "pembahasan": "Berdasarkan observasi pola hari-hari sebelumnya, pasar cenderung ramai pada hari Senin. Oleh karena itu, secara induktif, besok (Senin) pasar kemungkinan besar akan ramai."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Pola bilangan: 1, 3, 5, 7, ...\nBilangan selanjutnya dalam pola tersebut adalah?",
+    "pilihan": ["8", "9", "10", "11", "12"],
+    "jawaban": "B",
+    "pembahasan": "Pola bilangan ini adalah bilangan ganjil berurutan. Setiap bilangan berikutnya didapatkan dengan menambahkan 2 ke bilangan sebelumnya. Jadi, 7 + 2 = 9."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Observasi 1: Daun-daun di pohon A menguning di musim kemarau.\nObservasi 2: Daun-daun di pohon B menguning di musim kemarau.\nObservasi 3: Daun-daun di pohon C menguning di musim kemarau.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Semua daun menguning di musim kemarau.", "Beberapa daun menguning di musim kemarau.", "Daun menguning hanya karena musim kemarau.", "Pohon A, B, dan C adalah pohon yang daunnya menguning.", "Musim kemarau menyebabkan daun menguning."],
+    "jawaban": "E",
+    "pembahasan": "Dari observasi berulang bahwa daun-daun menguning di musim kemarau, dapat disimpulkan secara induktif bahwa musim kemarau *menyebabkan* atau *berkontribusi pada* fenomena daun menguning. Ini adalah inferensi kausal yang umum dalam penalaran induktif."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Pola gambar: Lingkaran, Segitiga, Persegi, Lingkaran, Segitiga, ...\nGambar selanjutnya dalam pola tersebut adalah?",
+    "pilihan": ["Lingkaran", "Segitiga", "Persegi", "Oval", "Tidak ada pola yang jelas."],
+    "jawaban": "C",
+    "pembahasan": "Pola gambar ini berulang setiap tiga elemen: Lingkaran, Segitiga, Persegi. Setelah 'Lingkaran, Segitiga', maka gambar selanjutnya adalah 'Persegi' untuk menyelesaikan siklus."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Observasi 1: Uji coba obat X pada pasien 1 menunjukkan penurunan gejala.\nObservasi 2: Uji coba obat X pada pasien 2 menunjukkan penurunan gejala.\nObservasi 3: Uji coba obat X pada pasien 3 menunjukkan penurunan gejala.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Obat X pasti efektif untuk semua pasien.", "Obat X mungkin efektif untuk menurunkan gejala.", "Pasien 1, 2, dan 3 akan sembuh total.", "Obat X tidak memiliki efek samping.", "Penurunan gejala hanya disebabkan oleh obat X."],
+    "jawaban": "B",
+    "pembahasan": "Dari beberapa kasus spesifik yang menunjukkan efektivitas, ditarik kesimpulan umum yang bersifat probabilistik: 'Obat X *mungkin* efektif'. Penalaran induktif menghasilkan kesimpulan yang tidak pasti, tetapi memiliki probabilitas tinggi."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Pola huruf: A, C, E, G, ...\nHuruf selanjutnya dalam pola tersebut adalah?",
+    "pilihan": ["H", "I", "J", "K", "L"],
+    "jawaban": "I",
+    "pembahasan": "Pola huruf ini adalah huruf abjad dengan lompatan satu huruf di antaranya (huruf ganjil). A (lewati B) C (lewati D) E (lewati F) G (lewati H) I."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Observasi 1: Setiap kali saya menyentuh setrika panas, tangan saya terbakar.\nObservasi 2: Saudara saya menyentuh setrika panas, tangannya terbakar.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Setrika selalu panas.", "Setrika panas menyebabkan tangan terbakar.", "Tangan saya pasti akan terbakar lagi.", "Setrika panas berbahaya hanya untuk saya.", "Tidak ada hubungan antara setrika panas dan tangan terbakar."],
+    "jawaban": "B",
+    "pembahasan": "Dari observasi berulang bahwa menyentuh setrika panas selalu mengakibatkan tangan terbakar, ditarik kesimpulan umum yang bersifat kausal: 'Setrika panas menyebabkan tangan terbakar'."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Pola warna: Merah, Kuning, Hijau, Merah, Kuning, ...\nWarna selanjutnya dalam pola tersebut adalah?",
+    "pilihan": ["Merah", "Kuning", "Hijau", "Biru", "Putih"],
+    "jawaban": "C",
+    "pembahasan": "Pola warna ini berulang setiap tiga elemen: Merah, Kuning, Hijau. Setelah 'Merah, Kuning', maka warna selanjutnya adalah 'Hijau' untuk menyelesaikan siklus."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Observasi 1: Sebagian besar siswa yang mengikuti les tambahan lulus ujian dengan nilai tinggi.\nObservasi 2: Dina mengikuti les tambahan dan lulus ujian dengan nilai tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Les tambahan menjamin kelulusan dengan nilai tinggi.", "Les tambahan tidak berpengaruh pada nilai ujian.", "Mengikuti les tambahan meningkatkan peluang lulus dengan nilai tinggi.", "Hanya siswa yang mengikuti les tambahan yang lulus dengan nilai tinggi.", "Tidak ada hubungan antara les tambahan dan nilai ujian."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi bahwa 'sebagian besar' siswa yang les tambahan berhasil, dan ada contoh spesifik (Dina), disimpulkan secara induktif bahwa les tambahan 'meningkatkan peluang' keberhasilan. Ini adalah kesimpulan probabilitas, bukan kepastian."
   }
 ]
