@@ -66,22 +66,8 @@
     "id": 70,
     "pertanyaan": "Pola hari: Senin, Selasa, Kamis, Jumat, Minggu, Senin, ...\nHari selanjutnya dalam pola tersebut adalah?",
     "pilihan": ["Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"],
-    "jawaban": "A",
-    "pembahasan": "Pola ini adalah hari-hari dengan pola lompatan bervariasi: Senin (+1) Selasa (+2) Kamis (+1) Jumat (+2) Minggu (+1) Senin. Maka, setelah Senin (+2) adalah Rabu. *Koreksi*: Ternyata pola ini lebih kompleks. Senin (+1) Selasa, Selasa (+2) Kamis, Kamis (+1) Jumat, Jumat (+2) Minggu, Minggu (+1) Senin. Jadi, setelah Senin, pola selanjutnya adalah +2, yaitu **Rabu**. Ah, maaf, ini sedikit rumit dan saya salah hitung. Mari kita perbaiki.
-    
-    Senin -> Selasa (+1 hari)
-    Selasa -> Kamis (+2 hari)
-    Kamis -> Jumat (+1 hari)
-    Jumat -> Minggu (+2 hari)
-    Minggu -> Senin (+1 hari)
-    
-    Pola penambahan hari adalah +1, +2, +1, +2, +1.
-    Maka setelah Senin, penambahannya adalah +2.
-    Senin + 2 hari = Rabu.
-
-    Oke, saya akan koreksi jawaban dan pembahasan di atas untuk soal ID 70.
-
-    "
+    "jawaban": "B",
+    "pembahasan": "Pola ini menunjukkan penambahan hari yang bervariasi secara berurutan: +1 (Senin ke Selasa), +2 (Selasa ke Kamis), +1 (Kamis ke Jumat), +2 (Jumat ke Minggu), +1 (Minggu ke Senin). Mengikuti pola +1, +2, +1, +2, +1, maka setelah 'Senin', penambahan selanjutnya adalah +2. Senin + 2 hari = Rabu."
   }
 ]
 
