@@ -1,1 +1,73 @@
+[
+  {
+    "id": 11,
+    "pertanyaan": "Premis 1: Semua kucing memiliki ekor.\nPremis 2: Miko adalah kucing.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Miko tidak memiliki ekor.", "Miko mungkin memiliki ekor.", "Miko pasti memiliki ekor.", "Semua yang memiliki ekor adalah Miko.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan penalaran deduktif, jika semua anggota suatu kelompok memiliki ciri tertentu (semua kucing memiliki ekor) dan suatu individu adalah anggota kelompok tersebut (Miko adalah kucing), maka individu tersebut pasti memiliki ciri tersebut."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Premis 1: Jika lampu mati, maka ruangan gelap.\nPremis 2: Ruangan tidak gelap.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Lampu mati.", "Lampu tidak mati.", "Ruangan selalu gelap saat lampu mati.", "Lampu tidak membuat ruangan gelap.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh Modus Tollens. Jika P → Q (Jika lampu mati, maka ruangan gelap) dan ¬Q (Ruangan tidak gelap), maka kesimpulannya adalah ¬P (Lampu tidak mati). Jika lampu mati, ruangan *pasti* gelap. Karena ruangan tidak gelap, berarti lampu tidak mati."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Premis 1: Semua mamalia menyusui anaknya.\nPremis 2: Kelelawar adalah mamalia.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Kelelawar tidak menyusui anaknya.", "Kelelawar mungkin menyusui anaknya.", "Kelelawar pasti menyusui anaknya.", "Semua yang menyusui anaknya adalah kelelawar.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika semua mamalia menyusui anaknya, dan kelelawar termasuk dalam kategori mamalia, maka secara deduktif kelelawar pasti menyusui anaknya."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Premis 1: Jika seseorang berolahraga teratur, maka ia akan sehat.\nPremis 2: Ani tidak sehat.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ani berolahraga teratur.", "Ani tidak berolahraga teratur.", "Ani mungkin berolahraga teratur.", "Semua orang yang tidak sehat tidak berolahraga teratur.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan Modus Tollens, jika P → Q (Jika seseorang berolahraga teratur, maka ia akan sehat) dan ¬Q (Ani tidak sehat), maka kesimpulannya adalah ¬P (Ani tidak berolahraga teratur)."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Premis 1: Semua buku di rak ini adalah buku fiksi ilmiah.\nPremis 2: Buku 'Dunia Baru' ada di rak ini.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buku 'Dunia Baru' bukan buku fiksi ilmiah.", "Buku 'Dunia Baru' mungkin buku fiksi ilmiah.", "Buku 'Dunia Baru' pasti buku fiksi ilmiah.", "Semua buku fiksi ilmiah ada di rak ini.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan premis, jika semua buku di rak adalah fiksi ilmiah dan 'Dunia Baru' ada di rak tersebut, maka 'Dunia Baru' pasti buku fiksi ilmiah."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Premis 1: Setiap persegi memiliki empat sisi yang sama panjang.\nPremis 2: Bangun A adalah persegi.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bangun A tidak memiliki empat sisi yang sama panjang.", "Bangun A mungkin memiliki empat sisi yang sama panjang.", "Bangun A pasti memiliki empat sisi yang sama panjang.", "Semua bangun yang memiliki empat sisi sama panjang adalah Bangun A.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Karena semua persegi memiliki empat sisi yang sama panjang dan Bangun A adalah persegi, maka Bangun A pasti memiliki empat sisi yang sama panjang."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Premis 1: Jika hujan, maka petani gembira.\nPremis 2: Petani tidak gembira.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hujan.", "Tidak hujan.", "Petani selalu gembira saat hujan.", "Hujan tidak membuat petani gembira.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika hujan, maka petani gembira) dan ¬Q (Petani tidak gembira), maka kesimpulannya adalah ¬P (Tidak hujan)."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Premis 1: Beberapa mahasiswa suka membaca buku.\nPremis 2: Semua yang suka membaca buku adalah orang yang berwawasan luas.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa adalah orang yang berwawasan luas.", "Beberapa mahasiswa adalah orang yang berwawasan luas.", "Semua orang yang berwawasan luas adalah mahasiswa.", "Beberapa orang yang berwawasan luas bukan mahasiswa.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Karena ada sebagian mahasiswa yang suka membaca buku, dan semua orang yang suka membaca buku adalah orang yang berwawasan luas, maka dapat disimpulkan bahwa beberapa mahasiswa adalah orang yang berwawasan luas."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Premis 1: Semua tanaman membutuhkan air untuk tumbuh.\nPremis 2: Mawar adalah tanaman.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Mawar tidak membutuhkan air untuk tumbuh.", "Mawar mungkin membutuhkan air untuk tumbuh.", "Mawar pasti membutuhkan air untuk tumbuh.", "Semua yang membutuhkan air untuk tumbuh adalah mawar.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan premis, jika semua tanaman membutuhkan air untuk tumbuh dan mawar adalah tanaman, maka mawar pasti membutuhkan air untuk tumbuh."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Premis 1: Jika listrik padam, maka televisi tidak bisa menyala.\nPremis 2: Televisi bisa menyala.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Listrik padam.", "Listrik tidak padam.", "Televisi selalu bisa menyala saat listrik padam.", "Televisi tidak bisa menyala saat listrik padam.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika listrik padam, maka televisi tidak bisa menyala) dan ¬Q (Televisi bisa menyala), maka kesimpulannya adalah ¬P (Listrik tidak padam). Jika listrik padam, TV *tidak bisa* menyala. Karena TV menyala, berarti listrik tidak padam."
+  }
+]
 
