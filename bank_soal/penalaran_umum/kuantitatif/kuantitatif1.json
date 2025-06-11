@@ -23,13 +23,6 @@
   {
     "id": 4,
     "pertanyaan": "Jika 2/5 dari suatu bilangan adalah 12, maka 3/4 dari bilangan tersebut adalah...",
-    "pilihan": ["15", "18", "20", "22", "24"],
-    "jawaban": "D",
-    "pembahasan": "Misalkan bilangan tersebut adalah N.\n2/5 N = 12\nUntuk mencari N, kalikan kedua sisi dengan 5/2:\nN = 12 * (5/2)\nN = 6 * 5\nN = 30\nSekarang, cari 3/4 dari N:\n3/4 * 30 = 90 / 4 = 45 / 2 = 22.5\n(Terdapat kesalahan dalam pilihan jawaban, saya akan mengoreksi pilihan jawaban agar sesuai dengan hasil hitung. Jika pilihan jawaban harus bulat, maka soal ini mungkin ada kesalahan dalam angka awal atau soal memang bertujuan menguji pecahan.)\nAsumsi: Pilihan jawaban A, B, C, D, E harusnya 15, 18, 22.5, 24, 25. Karena tidak ada 22.5, mari kita cek lagi.\n2/5 N = 12 -> N = 12 * 5 / 2 = 6 * 5 = 30.\n3/4 N = 3/4 * 30 = 90/4 = 22.5.\nJika soal UTBK, pilihan jawaban harus ada. Saya akan asumsikan ada pembulatan atau kesalahan penulisan pilihan. Jika ada pilihan 22.5, itu yang paling tepat. Dalam konteks UTBK, biasanya bilangan bulat.\nSaya akan ubah soalnya sedikit agar hasilnya bulat, atau saya akan memilih yang terdekat jika ini soal perkiraan.\n\nMari kita revisi soal ini agar hasil bulat: Jika 2/3 dari suatu bilangan adalah 12, maka 3/4 dari bilangan tersebut adalah...\n2/3 N = 12 => N = 12 * 3 / 2 = 18.\n3/4 N = 3/4 * 18 = 54/4 = 27/2 = 13.5 (masih belum bulat).\n\nJika 2/5 dari suatu bilangan adalah 12, maka 3/4 dari bilangan tersebut adalah...\nN = 30.\n3/4 * 30 = 22.5.\nSaya akan biarkan 22.5 dan memberikan pilihan yang sesuai.\n"
-  },
-  {
-    "id": 4,
-    "pertanyaan": "Jika 2/5 dari suatu bilangan adalah 12, maka 3/4 dari bilangan tersebut adalah...",
     "pilihan": ["15.5", "18.5", "20.5", "22.5", "25.5"],
     "jawaban": "D",
     "pembahasan": "Misalkan bilangan tersebut adalah N.\n2/5 N = 12\nN = 12 * (5/2)\nN = 6 * 5\nN = 30\nSekarang, cari 3/4 dari N:\n3/4 * 30 = 90 / 4 = 45 / 2 = 22.5."
@@ -61,13 +54,6 @@
     "pilihan": ["200", "300", "400", "500", "600"],
     "jawaban": "C",
     "pembahasan": "Volume kolam berbentuk persegi panjang adalah Panjang x Lebar x Tinggi.\nVolume = 20 m * 10 m * 2 m\nVolume = 400 meter kubik."
-  },
-  {
-    "id": 9,
-    "pertanyaan": "Jika X adalah bilangan ganjil dan Y adalah bilangan genap, manakah di antara operasi berikut yang menghasilkan bilangan genap?",
-    "pilihan": ["X + Y", "X * Y", "X - Y", "X / Y", "X + X"],
-    "jawaban": "B",
-    "pembahasan": "Mari kita coba dengan contoh:\nMisal X = 3 (ganjil) dan Y = 2 (genap).\nA. X + Y = 3 + 2 = 5 (ganjil)\nB. X * Y = 3 * 2 = 6 (genap)\nC. X - Y = 3 - 2 = 1 (ganjil)\nD. X / Y = 3 / 2 (bukan bilangan bulat)\nE. X + X = 3 + 3 = 6 (genap) - Opsi ini juga genap, tapi biasanya dalam soal seperti ini ada satu jawaban paling tepat atau memang ada lebih dari satu opsi yang benar tergantung definisi 'manakah'. Jika 'manakah di antara operasi berikut' berarti ada minimal satu, maka B dan E benar. Namun, jika ini adalah soal pilihan ganda tunggal, biasanya ada satu yang paling 'pasti' dan unik.\n\nMari kita tinjau sifat-sifatnya:\n- Ganjil + Genap = Ganjil\n- Ganjil * Genap = Genap (karena Genap = 2k, Ganjil * 2k = Genap)\n- Ganjil - Genap = Ganjil\n- Ganjil / Genap = Bisa pecahan, bisa tidak (tidak selalu bilangan bulat)\n- Ganjil + Ganjil = Genap\n\nKarena pilihan jawaban E (X + X) juga menghasilkan bilangan genap, dan kadang soal UTBK bisa memiliki lebih dari satu jawaban yang secara matematis benar namun meminta 'yang paling tepat' atau 'hanya satu pilihan'. Jika hanya boleh satu, opsi B (Perkalian) adalah yang paling sering menjadi contoh baku sifat ganjil-genap ini.\nSaya akan tetap memilih B, namun mengakui E juga benar secara matematis. Jika soal mengizinkan lebih dari satu, keduanya benar.\n"
   },
   {
     "id": 9,
