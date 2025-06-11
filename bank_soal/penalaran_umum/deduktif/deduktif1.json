@@ -1,1 +1,75 @@
+Tentu, ini adalah 10 soal penalaran deduktif yang telah saya ubah ke format JSON seperti contoh yang Anda berikan:
+[
+  {
+    "id": 1,
+    "pertanyaan": "Premis 1: Semua mahasiswa berprestasi mendapatkan beasiswa.\nPremis 2: Budi adalah mahasiswa berprestasi.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi mungkin mendapatkan beasiswa.", "Budi tidak mendapatkan beasiswa.", "Budi pasti mendapatkan beasiswa.", "Semua yang mendapatkan beasiswa adalah Budi.", "Beasiswa hanya diberikan kepada Budi."],
+    "jawaban": "C",
+    "pembahasan": "Penalaran deduktif bergerak dari premis umum ke kesimpulan spesifik. Premis 1 menyatakan bahwa *semua* mahasiswa berprestasi mendapatkan beasiswa. Premis 2 menyatakan bahwa Budi *adalah* mahasiswa berprestasi. Oleh karena itu, secara logis dan pasti, Budi mendapatkan beasiswa."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Premis 1: Jika hari ini hujan, maka jalanan akan basah.\nPremis 2: Hari ini jalanan tidak basah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hari ini hujan.", "Hari ini tidak hujan.", "Jalanan selalu basah saat hujan.", "Hujan tidak membuat jalanan basah.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh Modus Tollens. Jika P → Q (Jika hari ini hujan, maka jalanan akan basah) dan ¬Q (Jalanan tidak basah), maka kesimpulannya adalah ¬P (Hari ini tidak hujan). Jika hari ini hujan, jalanan *pasti* basah. Karena jalanan tidak basah, berarti premis 'hari ini hujan' harus salah."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Premis 1: Semua ikan hidup di air.\nPremis 2: Lumba-lumba bukan ikan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Lumba-lumba tidak hidup di air.", "Lumba-lumba hidup di air.", "Beberapa ikan adalah lumba-lumba.", "Lumba-lumba adalah mamalia.", "Tidak dapat ditarik kesimpulan tentang tempat hidup lumba-lumba dari premis ini."],
+    "jawaban": "E",
+    "pembahasan": "Premis 1 menyatakan bahwa *semua* ikan hidup di air. Premis 2 menyatakan bahwa lumba-lumba *bukan* ikan. Dari kedua premis ini, kita tidak bisa secara deduktif menyimpulkan apakah lumba-lumba hidup di air atau tidak. Meskipun kita tahu secara umum lumba-lumba hidup di air, informasi tersebut tidak disediakan oleh premis. Jadi, secara logis deduktif, kita tidak bisa membuat kesimpulan pasti."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Premis 1: Setiap siswa yang rajin belajar akan lulus ujian.\nPremis 2: Dini tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Dini adalah siswa yang rajin belajar.", "Dini bukan siswa yang rajin belajar.", "Dini mungkin rajin belajar.", "Semua siswa yang tidak rajin belajar tidak lulus ujian.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini juga contoh Modus Tollens. Jika P → Q (Jika siswa rajin belajar, maka lulus ujian) dan ¬Q (Dini tidak lulus ujian), maka kesimpulannya adalah ¬P (Dini bukan siswa yang rajin belajar). Jika Dini rajin belajar, dia *pasti* lulus ujian. Karena Dini tidak lulus, berarti dia tidak rajin belajar."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Premis 1: Semua buah berwarna merah manis.\nPremis 2: Apel adalah buah berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Apel tidak manis.", "Apel mungkin manis.", "Apel pasti manis.", "Buah yang manis adalah apel.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Sama seperti Soal 1, ini adalah penalaran deduktif langsung. Premis 1 menyatakan bahwa *semua* buah berwarna merah *manis*. Premis 2 menyatakan Apel *adalah* buah berwarna merah. Jadi, secara deduktif, Apel pasti manis."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Premis 1: Jika seseorang adalah dokter, maka ia memiliki gelar medis.\nPremis 2: Pak Anto tidak memiliki gelar medis.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Pak Anto adalah dokter.", "Pak Anto bukan dokter.", "Pak Anto mungkin dokter.", "Orang yang tidak memiliki gelar medis adalah Pak Anto.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Sama dengan Soal 2 dan 4 (Modus Tollens). Jika P → Q (Jika seseorang adalah dokter, maka ia memiliki gelar medis) dan ¬Q (Pak Anto tidak memiliki gelar medis), maka kesimpulannya adalah ¬P (Pak Anto bukan dokter)."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Premis 1: Beberapa mahasiswa adalah atlet.\nPremis 2: Semua atlet adalah pekerja keras.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa adalah pekerja keras.", "Beberapa mahasiswa adalah pekerja keras.", "Semua pekerja keras adalah atlet.", "Beberapa pekerja keras bukan mahasiswa.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Diagram Venn bisa membantu di sini. Ada irisan antara 'mahasiswa' dan 'atlet' (Premis 1). Semua yang ada di dalam lingkaran 'atlet' juga ada di dalam lingkaran 'pekerja keras' (Premis 2). Karena ada mahasiswa yang juga atlet, dan semua atlet adalah pekerja keras, maka pasti ada beberapa mahasiswa yang juga pekerja keras."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Premis 1: Semua burung memiliki sayap.\nPremis 2: Merpati adalah burung.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Merpati tidak memiliki sayap.", "Merpati mungkin memiliki sayap.", "Merpati pasti memiliki sayap.", "Semua yang memiliki sayap adalah merpati.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi klasik. Jika *semua* burung memiliki sayap, dan merpati *adalah* burung, maka merpati pasti memiliki sayap."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Premis 1: Jika suatu benda adalah logam, maka benda itu menghantarkan listrik.\nPremis 2: Benda ini tidak menghantarkan listrik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Benda ini adalah logam.", "Benda ini bukan logam.", "Benda ini mungkin logam.", "Benda yang tidak menghantarkan listrik adalah benda ini.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Sama dengan Modus Tollens. Jika P → Q (Jika suatu benda adalah logam, maka benda itu menghantarkan listrik) dan ¬Q (Benda ini tidak menghantarkan listrik), maka kesimpulannya adalah ¬P (Benda ini bukan logam)."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Premis 1: Semua siswa suka belajar.\nPremis 2: Beberapa siswa suka bermain game.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua siswa suka belajar dan bermain game.", "Beberapa siswa suka belajar dan bermain game.", "Tidak ada siswa yang suka bermain game.", "Hanya siswa yang suka belajar yang suka bermain game.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Premis 1 menyatakan bahwa *semua* siswa suka belajar. Premis 2 menyatakan bahwa *beberapa* siswa suka bermain game. Karena semua siswa suka belajar, dan ada sebagian dari siswa tersebut yang juga suka bermain game, maka secara logis dapat disimpulkan bahwa *beberapa siswa suka belajar dan juga bermain game*. Ini adalah irisan dari dua sifat pada kelompok yang sama."
+  }
+]
+
 
