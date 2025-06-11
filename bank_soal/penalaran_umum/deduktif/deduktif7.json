@@ -1,1 +1,73 @@
+[
+  {
+    "id": 61,
+    "pertanyaan": "Premis 1: Semua mahasiswa harus membayar uang kuliah.\nPremis 2: Ani adalah mahasiswa.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ani tidak harus membayar uang kuliah.", "Ani mungkin harus membayar uang kuliah.", "Ani pasti harus membayar uang kuliah.", "Semua yang membayar uang kuliah adalah Ani.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika semua mahasiswa diwajibkan membayar uang kuliah, dan Ani adalah seorang mahasiswa, maka secara deduktif Ani pasti harus membayar uang kuliah."
+  },
+  {
+    "id": 62,
+    "pertanyaan": "Premis 1: Jika tombol ditekan, maka lampu akan menyala.\nPremis 2: Lampu tidak menyala.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Tombol ditekan.", "Tombol tidak ditekan.", "Lampu selalu menyala saat tombol ditekan.", "Menyalakan lampu tidak tergantung tombol.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika tombol ditekan, maka lampu akan menyala) dan ¬Q (Lampu tidak menyala), maka kesimpulannya adalah ¬P (Tombol tidak ditekan)."
+  },
+  {
+    "id": 63,
+    "pertanyaan": "Premis 1: Tidak ada hewan pengerat yang bertelur.\nPremis 2: Tikus adalah hewan pengerat.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Tikus bertelur.", "Tikus mungkin bertelur.", "Tikus tidak bertelur.", "Semua yang tidak bertelur adalah tikus.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Jika tidak ada hewan pengerat yang bertelur, dan tikus adalah hewan pengerat, maka secara deduktif tikus tidak bertelur."
+  },
+  {
+    "id": 64,
+    "pertanyaan": "Premis 1: Semua buku di perpustakaan ini memiliki kode ISBN.\nPremis 2: Buku ini memiliki kode ISBN.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buku ini ada di perpustakaan ini.", "Buku ini tidak ada di perpustakaan ini.", "Buku ini mungkin ada di perpustakaan ini.", "Semua yang memiliki kode ISBN ada di perpustakaan ini.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika buku ada di perpustakaan ini, maka memiliki kode ISBN) dan Q (Buku ini memiliki kode ISBN), kita tidak bisa secara deduktif menyimpulkan P (Buku ini ada di perpustakaan ini). Banyak buku lain di luar perpustakaan ini juga memiliki kode ISBN."
+  },
+  {
+    "id": 65,
+    "pertanyaan": "Premis 1: Jika seseorang menaati peraturan, maka ia adalah warga negara yang baik.\nPremis 2: Edo tidak menaati peraturan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Edo adalah warga negara yang baik.", "Edo bukan warga negara yang baik.", "Edo mungkin warga negara yang baik.", "Semua yang tidak menaati peraturan adalah Edo.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika menaati peraturan, maka warga negara yang baik) dan ¬P (Tidak menaati peraturan), maka kesimpulannya adalah ¬Q (Bukan warga negara yang baik)."
+  },
+  {
+    "id": 66,
+    "pertanyaan": "Premis 1: Beberapa burung dapat terbang.\nPremis 2: Semua yang dapat terbang memiliki sayap.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua burung memiliki sayap.", "Beberapa burung memiliki sayap.", "Semua yang memiliki sayap adalah burung.", "Beberapa yang memiliki sayap bukan burung.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "B",
+    "pembahasan": "Karena ada beberapa burung yang dapat terbang, dan semua yang dapat terbang memiliki sayap, maka secara logis dapat disimpulkan bahwa beberapa burung memiliki sayap."
+  },
+  {
+    "id": 67,
+    "pertanyaan": "Premis 1: Semua kendaraan bermotor membutuhkan bahan bakar.\nPremis 2: Sepeda adalah kendaraan bermotor.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Sepeda membutuhkan bahan bakar.", "Sepeda tidak membutuhkan bahan bakar.", "Sepeda mungkin membutuhkan bahan bakar.", "Semua yang membutuhkan bahan bakar adalah sepeda.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "A",
+    "pembahasan": "Premis 2 menyatakan bahwa sepeda adalah kendaraan bermotor. Ini adalah premis yang salah di dunia nyata. Namun, dalam konteks penalaran deduktif, kita harus menerima premis yang diberikan. Jadi, jika 'sepeda adalah kendaraan bermotor' diterima sebagai premis, maka kesimpulannya, sepeda membutuhkan bahan bakar. Ini menguji kemampuan untuk tetap logis meskipun premisnya mungkin tidak sesuai dengan kenyataan."
+  },
+  {
+    "id": 68,
+    "pertanyaan": "Premis 1: Jika hujan lebat, maka banjir terjadi.\nPremis 2: Banjir terjadi.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hujan lebat.", "Tidak hujan lebat.", "Banjir selalu terjadi saat hujan lebat.", "Banjir tidak tergantung hujan lebat.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika hujan lebat, maka banjir terjadi) dan Q (Banjir terjadi), kita tidak bisa secara deduktif menyimpulkan P (Hujan lebat). Banjir bisa terjadi karena banyak faktor lain selain hujan lebat (misalnya, bendungan jebol, saluran air tersumbat, dll)."
+  },
+  {
+    "id": 69,
+    "pertanyaan": "Premis 1: Semua anak-anak suka bermain.\nPremis 2: Beberapa orang dewasa suka bermain.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua anak-anak dan orang dewasa suka bermain.", "Beberapa anak-anak adalah orang dewasa yang suka bermain.", "Beberapa orang dewasa suka bermain seperti anak-anak.", "Semua yang suka bermain adalah anak-anak.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Premis-premis ini tidak memiliki hubungan logis yang kuat untuk menarik kesimpulan deduktif yang pasti tentang hubungan antara anak-anak dan orang dewasa dalam hal suka bermain. Premis 1 hanya tentang anak-anak, Premis 2 hanya tentang orang dewasa. Tidak ada irisan yang dapat disimpulkan secara deduktif."
+  },
+  {
+    "id": 70,
+    "pertanyaan": "Premis 1: Semua profesi membutuhkan keahlian khusus.\nPremis 2: Dokter adalah sebuah profesi.\nPremis 3: Belajar kedokteran membutuhkan waktu bertahun-tahun.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua keahlian khusus membutuhkan waktu bertahun-tahun.", "Dokter membutuhkan keahlian khusus.", "Hanya dokter yang membutuhkan waktu bertahun-tahun untuk belajar.", "Profesi lain tidak membutuhkan waktu bertahun-tahun.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1 (Semua profesi membutuhkan keahlian khusus) dan Premis 2 (Dokter adalah sebuah profesi), secara deduktif dapat disimpulkan bahwa Dokter membutuhkan keahlian khusus. Premis 3 memberikan informasi tambahan tentang cara mendapatkan keahlian tersebut, tetapi tidak mengubah kesimpulan utama dari dua premis pertama."
+  }
+]
 
