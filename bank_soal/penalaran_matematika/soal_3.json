@@ -109,7 +109,7 @@
     "pertanyaan": "Diketahui balok ABCD.EFGH dengan panjang AB = 8 cm, BC = 6 cm, dan AE = 5 cm. Jarak titik A ke titik G adalah...",
     "pilihan": ["A. $\\sqrt{125}$ cm", "B. $10$ cm", "C. $10\\sqrt{2}$ cm", "D. $10\\sqrt{3}$ cm", "E. $\\sqrt{225}$ cm"],
     "jawaban": "A",
-    "pembahasan": "Jarak titik A ke titik G adalah panjang diagonal ruang balok. Gunakan rumus diagonal ruang $d = \\sqrt{p^2 + l^2 + t^2}$. $d = \\sqrt{AB^2 + BC^2 + AE^2} = \\sqrt{8^2 + 6^2 + 5^2} = \\sqrt{64 + 36 + 25} = \\sqrt{100 + 25} = \\sqrt{125}$ cm. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
+    "pembahasan": "Jarak titik A ke titik G adalah panjang diagonal ruang balok. Gunakan rumus diagonal ruang $d = \\sqrt{p^2 + l^2 + t^2}$. $d = \\sqrt{AB^2 + BC^2 + AE^2} = \\sqrt{64 + 36 + 25} = \\sqrt{125}$ cm. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 57,
@@ -134,13 +134,9 @@
   },
   {
     "id": 60,
-    "pertanyaan": "Sebuah kerucut memiliki jari-jari alas 7 cm dan tinggi 24 cm. Luas selimut kerucut tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)",
-    "pilihan": ["A. $330 \\text{ cm}^2$", "B. $440 \\text{ cm}^2$", "C. $550 \\text{ cm}^2$", "D. $660 \\text{ cm}^2$", "E. $770 \\text{ cm}^2$"],
+    "pertanyaan": "Median dari data 7, 8, 6, 9, 5, 10, 7, 8, 6, 9 adalah...",
+    "pilihan": ["A. 6.5", "B. 7", "C. 7.5", "D. 8", "E. 8.5"],
     "jawaban": "C",
-    "pembahasan": "Untuk mencari luas selimut kerucut, kita perlu mengetahui panjang garis pelukis ($s$). Gunakan teorema Pythagoras: $s = \\sqrt{r^2 + t^2}$.
-    $s = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$ cm.
-    Rumus luas selimut kerucut adalah $L = \\pi r s$.
-    $L = \\frac{22}{7} \\times 7 \\times 25 = 22 \\times 25 = 550 \\text{ cm}^2$.
-    Jadi, luas selimut kerucut adalah $550 \\text{ cm}^2$."
+    "pembahasan": "Langkah pertama untuk mencari median adalah mengurutkan data dari yang terkecil hingga terbesar:\n5, 6, 6, 7, 7, 8, 8, 9, 9, 10.\nJumlah data (n) adalah 10 (genap). Untuk data genap, median adalah rata-rata dari dua nilai tengah, yaitu data ke-$n/2$ dan data ke-$(n/2)+1$.\nData ke-$10/2$ = data ke-5 adalah 7.\nData ke-$(10/2)+1$ = data ke-6 adalah 8.\nMedian = $\\frac{\\text{Data ke-5} + \\text{Data ke-6}}{2} = \\frac{7 + 8}{2} = \\frac{15}{2} = 7.5$.\nJadi, median data tersebut adalah **7.5**."
   }
 ]
