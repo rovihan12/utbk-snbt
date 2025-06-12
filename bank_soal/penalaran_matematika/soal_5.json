@@ -63,7 +63,7 @@
     "id": 107,
     "pertanyaan": "Jika $f(x) = ax + b$ dan $f(2) = 7$, $f(-1) = -2$, maka nilai dari $a+b$ adalah...",
     "pilihan": ["A. 2", "B. 3", "C. 4", "D. 5", "E. 6"],
-    "jawaban": "D",
+    "jawaban": "C",
     "pembahasan": "Dari $f(2) = 7$, kita dapatkan $2a + b = 7$ (1).
     Dari $f(-1) = -2$, kita dapatkan $-a + b = -2$ (2).
     Kurangkan (2) dari (1): $(2a + b) - (-a + b) = 7 - (-2) \\implies 3a = 9 \\implies a = 3$.
@@ -84,108 +84,48 @@
   },
   {
     "id": 109,
-    "pertanyaan": "Nilai $x$ yang memenuhi persamaan $\\sqrt{3^{2x-1}} = 9^{x-2}$ adalah...",
-    "pilihan": ["A. $\\frac{3}{2}$", "B. $2$", "C. $\\frac{5}{2}$", "D. $3$", "E. $\\frac{7}{2}$"],
+    "pertanyaan": "Solusi dari persamaan $3^{2x-1} = 27^{x-2}$ adalah...",
+    "pilihan": ["A. 1", "B. 2", "C. 3", "D. 4", "E. 5"],
     "jawaban": "E",
     "pembahasan": "Ubah ke basis yang sama:
-    $\\sqrt{3^{2x-1}} = 9^{x-2}$
-    $3^{\\frac{2x-1}{2}} = (3^2)^{x-2}$
-    $3^{\\frac{2x-1}{2}} = 3^{2(x-2)}$
+    $3^{2x-1} = (3^3)^{x-2}$
+    $3^{2x-1} = 3^{3(x-2)}$
     Samakan pangkatnya:
-    $\\frac{2x-1}{2} = 2(x-2)$
-    $2x-1 = 4(x-2)$
-    $2x-1 = 4x-8$
-    $-1 + 8 = 4x - 2x$
-    $7 = 2x \\implies x = \\frac{7}{2}$."
+    $2x-1 = 3(x-2)$
+    $2x-1 = 3x-6$
+    $-1 + 6 = 3x - 2x$
+    $5 = x$."
   },
   {
     "id": 110,
-    "pertanyaan": "Himpunan penyelesaian dari $\\log_2 (x^2 - 4) = 2$ adalah...",
-    "pilihan": ["A. $\\{2\\}$", "B. $\\{-2\\}$", "C. $\\{-2, 2\\}$", "D. $\\{0\\}$", "E. $\\emptyset$"],
-    "jawaban": "E",
+    "pertanyaan": "Himpunan penyelesaian dari $\\log_2 (x^2 - 3x + 2) = 1$ adalah...",
+    "pilihan": ["A. $\\{0, 3\\}$", "B. $\\{1, 2\\}$", "C. $\\{0, 1\\}$", "D. $\\{-1, 4\\}$", "E. $\\{-2, 3\\}$"],
+    "jawaban": "A",
     "pembahasan": "Dari definisi logaritma, $\\log_b a = c \\iff b^c = a$.
-    Jadi, $x^2 - 4 = 2^2 \\implies x^2 - 4 = 4 \\implies x^2 = 8$.
-    $x = \\pm \\sqrt{8} = \\pm 2\\sqrt{2}$.
-    Syarat numerus logaritma: $x^2 - 4 > 0 \\implies (x-2)(x+2) > 0$.
-    Ini berarti $x < -2$ atau $x > 2$.
-    Untuk $x = 2\\sqrt{2}$: $(2\\sqrt{2})^2 - 4 = 8 - 4 = 4 > 0$ (memenuhi).
-    Untuk $x = -2\\sqrt{2}$: $(-2\\sqrt{2})^2 - 4 = 8 - 4 = 4 > 0$ (memenuhi).
-    Jadi, himpunan penyelesaiannya adalah $\\{2\\sqrt{2}, -2\\sqrt{2}\\}$.
+    Jadi, $x^2 - 3x + 2 = 2^1$
+    $x^2 - 3x + 2 = 2$
+    $x^2 - 3x = 0$
+    $x(x - 3) = 0$
+    Akar-akarnya adalah $x_1 = 0$ dan $x_2 = 3$.
 
-    **Catatan:** Pilihan jawaban yang diberikan tidak mencakup solusi yang benar ($\\{2\\sqrt{2}, -2\\sqrt{2}\\}$). Ini menunjukkan bahwa soal atau pilihan jawaban mungkin memiliki kesalahan. Namun, jika kita harus memilih dari opsi yang ada, dan jika ada asumsi tersembunyi (misalnya hanya bilangan bulat), maka tidak ada solusi yang memenuhi. Jika pilihan E ($\\emptyset$) berarti tidak ada solusi di antara opsi yang diberikan, maka itu bisa menjadi jawaban jika solusinya tidak ada di opsi. Namun, karena $2\\sqrt{2}$ dan $-2\\sqrt{2}$ adalah solusi valid, ini adalah kesalahan soal/pilihan. Mengikuti instruksi, saya akan memilih jawaban E, karena tidak ada pilihan yang akurat di antara A-D. Jika ada pilihan yang menyebutkan $x = \\pm 2\\sqrt{2}$, itu akan menjadi jawaban yang benar. Dalam konteks UTBK, jika ini terjadi, soal bisa dibatalkan atau diasumsikan ada typo di soal/pilihan. Untuk tujuan ini, saya akan menganggap bahwa $x^2 - 4 = 2$ bukanlah soal yang dimaksud, dan mungkin ada kesalahan ketik yang seharusnya $x^2 - 4 = 0$ (memiliki solusi $x=\pm 2$) atau $x^2-4=k$ dengan $k$ adalah bilangan yang akan menghasilkan $\pm 2$ atau $-2\sqrt{2}$ atau $2\sqrt{2}$. Jika kita mempertimbangkan $x^2-4=2^2$, solusinya adalah $x=\pm 2\sqrt{2}$. Tidak ada opsi yang memuat $2\sqrt{2}$ atau $-2\sqrt{2}$. Oleh karena itu, kita asumsikan bahwa tidak ada solusi dari pilihan yang diberikan. Jadi, saya akan memilih E.
+    **Syarat numerus logaritma:** $x^2 - 3x + 2 > 0$.
+    Faktorkan: $(x-1)(x-2) > 0$.
+    Ini berarti $x < 1$ atau $x > 2$.
 
-    **Perbaikan untuk soal dan pilihan (jika ingin solusi ada di pilihan):**
-    Misalkan pertanyaan diubah menjadi:
-    Himpunan penyelesaian dari $\\log_2 (x^2 - 2) = 1$ adalah...
-    $x^2 - 2 = 2^1 \\implies x^2 - 2 = 2 \\implies x^2 = 4 \\implies x = \\pm 2$.
-    Syarat: $x^2 - 2 > 0 \\implies x^2 > 2 \\implies x < -\\sqrt{2}$ atau $x > \\sqrt{2}$.
-    Kedua solusi $x = 2$ dan $x = -2$ memenuhi syarat ini.
-    Maka himpunan penyelesaiannya adalah $\\{-2, 2\\}$. Dalam kasus ini, jawabannya C.
-    **Namun, mengikuti soal asli, jawaban tetap E karena tidak ada pilihan yang sesuai.**
-    "
+    Cek solusi:
+    Untuk $x = 0$: $0 < 1$ (memenuhi syarat).
+    Untuk $x = 3$: $3 > 2$ (memenuhi syarat).
+    Jadi, himpunan penyelesaiannya adalah $\\{0, 3\\}$."
   },
   {
     "id": 111,
-    "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 2 & x \\\\ 1 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} y & -1 \\\\ 2 & 4 \\end{pmatrix}$. Jika $A = B^T$, maka nilai dari $x+y$ adalah...",
-    "pilihan": ["A. -1", "B. 0", "C. 1", "D. 2", "E. 3"],
-    "jawaban": "C",
-    "pembahasan": "Transpose dari matriks $B$ adalah $B^T = \\begin{pmatrix} y & 2 \\\\ -1 & 4 \\end{pmatrix}$.
-    Jika $A = B^T$, maka:
-    $\\begin{pmatrix} 2 & x \\\\ 1 & 3 \\end{pmatrix} = \\begin{pmatrix} y & 2 \\\\ -1 & 4 \\end{pmatrix}$
-    Dari kesamaan matriks, kita dapatkan:
-    $2 = y \\implies y = 2$
-    $x = 2$ (Ini adalah kesalahan pada pilihan jawaban atau soal. Harusnya $x = -1$ agar $A = B^T$ valid. Mari kita asumsikan yang dimaksud adalah $A = B$ atau ada kesalahan penulisan $B^T$ di soal asli. Jika $x=2$ maka $A = B^T$ tidak valid karena $1 \ne -1$.
-    **Revisi Soal:** Jika $A = B^T$, maka $x$ harusnya sama dengan elemen baris kedua kolom pertama $B^T$, yaitu $x=2$. Dan $y$ harusnya sama dengan elemen baris pertama kolom pertama $A$, yaitu $y=2$.
-    Elemen (2,1) dari A adalah 1. Elemen (2,1) dari B adalah 2. Transpose dari B adalah $\\begin{pmatrix} y & 2 \\\\ -1 & 4 \\end{pmatrix}$.
-    Jadi, $A = B^T$ berarti:
-    $2 = y$
-    $x = 2$
-    $1 = -1$ (Ini adalah kontradiksi)
-    $3 = 4$ (Ini juga kontradiksi)
-    
-    **Kesimpulan:** Ada kesalahan fundamental pada soal ini, karena matriks $A$ dan $B^T$ tidak mungkin sama dengan elemen-elemen yang diberikan. Jika memang soalnya seperti itu, maka tidak ada nilai $x$ dan $y$ yang memenuhi $A = B^T$.
-
-    **Asumsi Perbaikan Soal agar bisa dijawab:**
-    Asumsi yang paling mungkin adalah ada typo pada matriks $A$ atau $B$. Atau soal ini bermaksud menguji pemahaman $B^T$ dan menemukan kontradiksi.
-    
-    **Mari kita anggap soal bermaksud:** Jika $A = B$, maka nilai $x+y$ adalah...
-    $A = \\begin{pmatrix} 2 & x \\\\ 1 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} y & -1 \\\\ 2 & 4 \\end{pmatrix}$
-    Jika $A = B$:
-    $2 = y \\implies y = 2$
-    $x = -1$
-    $1 = 2$ (kontradiksi)
-    $3 = 4$ (kontradiksi)
-    
-    **Baiklah, ini soal yang bermasalah. Saya akan mengganti soal ini dengan soal yang lebih valid.**
-
-    **Soal ID 111 (Baru):**
-    "Diketahui matriks $A = \\begin{pmatrix} 2 & x \\\\ 1 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} y & 1 \\\\ -x & 3 \\end{pmatrix}$. Jika $A = B^T$, maka nilai dari $x+y$ adalah...",
-    "pilihan": ["A. -1", "B. 0", "C. 1", "D. 2", "E. 3"],
-    "jawaban": "A",
-    "pembahasan": "Transpose dari matriks $B$ adalah $B^T = \\begin{pmatrix} y & -x \\\\ 1 & 3 \\end{pmatrix}$.
-    Jika $A = B^T$, maka:
-    $\\begin{pmatrix} 2 & x \\\\ 1 & 3 \\end{pmatrix} = \\begin{pmatrix} y & -x \\\\ 1 & 3 \\end{pmatrix}$
-    Dari kesamaan matriks, kita dapatkan:
-    $2 = y \\implies y = 2$
-    $x = -x \\implies 2x = 0 \\implies x = 0$
-    (Elemen lain sudah sama: $1=1$ dan $3=3$)
-    Maka $x+y = 0+2 = 2$.
-    **Oops, masih ada masalah. Dengan $x=0$, pilihan A salah. Jika $x=0$, maka $x+y=2$. Pilihan D. Mari kita cek lagi.**
-
-    **Asumsi perbaikan soal agar jawaban 'A' valid, yaitu $x+y = -1$:**
-    Jika $x = -1$, maka $y = 2$. Maka $x+y = -1+2 = 1$. Pilihan C.
-    
-    **Ini menandakan masalah pada soal asli atau pilihan jawaban.**
-    
-    **Mari kita buat soal yang benar-benar baru yang tidak ambigu:**
-    "
-  },
-  {
-    "id": 111,
-    "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 5 \\\\ -2 & 0 \\end{pmatrix}$. Hasil dari $2A - B$ adalah...",
-    "pilihan": ["A. $\\begin{pmatrix} 5 & -7 \\\\ 6 & 8 \\end{pmatrix}$", "B. $\\begin{pmatrix} 5 & 3 \\\\ 6 & 8 \\end{pmatrix}$", "C. $\\begin{pmatrix} 5 & -7 \\\\ 2 & 4 \\end{pmatrix}$", "D. $\\begin{pmatrix} 7 & -7 \\\\ 6 & 8 \\end{pmatrix}$", "E. $\\begin{pmatrix} 5 & -7 \\\\ 6 & 4 \\end{pmatrix}$"],
-    "jawaban": "A",
-    "pembahasan": "$2A = 2 \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix} = \\begin{pmatrix} 6 & -2 \\\\ 4 & 8 \\end{pmatrix}$.\n$2A - B = \\begin{pmatrix} 6 & -2 \\\\ 4 & 8 \\end{pmatrix} - \\begin{pmatrix} 1 & 5 \\\\ -2 & 0 \\end{pmatrix} = \\begin{pmatrix} 6-1 & -2-5 \\\\ 4-(-2) & 8-0 \\end{pmatrix} = \\begin{pmatrix} 5 & -7 \\\\ 6 & 8 \\end{pmatrix}$."
+    "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & -1 \\\\ 0 & 2 \\end{pmatrix}$. Determinan dari matriks $A + B$ adalah...",
+    "pilihan": ["A. 10", "B. 12", "C. 14", "D. 16", "E. 18"],
+    "jawaban": "B",
+    "pembahasan": "Pertama, hitung matriks $A+B$:
+    $A+B = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix} + \\begin{pmatrix} 1 & -1 \\\\ 0 & 2 \\end{pmatrix} = \\begin{pmatrix} 2+1 & 3+(-1) \\\\ 1+0 & 4+2 \\end{pmatrix} = \\begin{pmatrix} 3 & 2 \\\\ 1 & 6 \\end{pmatrix}$.
+    Kemudian, hitung determinan dari $A+B$. Untuk matriks $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, determinannya adalah $ad - bc$.
+    Det($A+B$) = $(3)(6) - (2)(1) = 18 - 2 = 16$."
   },
   {
     "id": 112,
