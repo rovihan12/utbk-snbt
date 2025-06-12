@@ -38,8 +38,8 @@
     "id": 46,
     "pertanyaan": "Jika $3^{x-1} = 9$ dan $2^{y+1} = 8$, maka nilai dari $x+y$ adalah...",
     "pilihan": ["A. 4", "B. 5", "C. 6", "D. 7", "E. 8"],
-    "jawaban": "C",
-    "pembahasan": "Dari $3^{x-1} = 9 \\implies 3^{x-1} = 3^2 \\implies x-1 = 2 \\implies x = 3$. Dari $2^{y+1} = 8 \\implies 2^{y+1} = 2^3 \\implies y+1 = 3 \\implies y = 2$. Maka $x+y = 3+2 = 5$. (Catatan: Ada kesalahan dalam pilihan jawaban, hasil seharusnya 5. Jika pilihan C adalah 5, maka itu jawabannya)."
+    "jawaban": "B",
+    "pembahasan": "Dari $3^{x-1} = 9 \\implies 3^{x-1} = 3^2 \\implies x-1 = 2 \\implies x = 3$. Dari $2^{y+1} = 8 \\implies 2^{y+1} = 2^3 \\implies y+1 = 3 \\implies y = 2$. Maka $x+y = 3+2 = 5$. Pilihan **B** adalah 5, sehingga ini adalah jawaban yang benar."
   },
   {
     "id": 47,
@@ -72,16 +72,16 @@
   {
     "id": 51,
     "pertanyaan": "Pada sebuah segitiga DEF, diketahui panjang sisi $d = 8$ cm, $e = 10$ cm, dan sudut $F = 60^\\circ$. Panjang sisi $f$ adalah...",
-    "pilihan": ["A. $2\\sqrt{19}$ cm", "B. $2\\sqrt{21}$ cm", "C. $2\\sqrt{23}$ cm", "D. $2\\sqrt{26}$ cm", "E. $2\\sqrt{31}$ cm"],
+    "pilihan": ["A. $2\\sqrt{21}$ cm", "B. $2\\sqrt{19}$ cm", "C. $2\\sqrt{23}$ cm", "D. $2\\sqrt{26}$ cm", "E. $2\\sqrt{31}$ cm"],
     "jawaban": "A",
-    "pembahasan": "Gunakan aturan kosinus: $f^2 = d^2 + e^2 - 2de \\cos F$. $f^2 = (8)^2 + (10)^2 - 2(8)(10) \\cos 60^\\circ = 64 + 100 - 160(\\frac{1}{2}) = 164 - 80 = 84$. Maka $f = \\sqrt{84} = \\sqrt{4 \\times 21} = 2\\sqrt{21}$ cm. (Catatan: Ada kesalahan dalam pilihan jawaban, hasil seharusnya $2\\sqrt{21}$. Jika pilihan A adalah $2\\sqrt{21}$, maka itu jawabannya)."
+    "pembahasan": "Gunakan aturan kosinus: $f^2 = d^2 + e^2 - 2de \\cos F$. $f^2 = (8)^2 + (10)^2 - 2(8)(10) \\cos 60^\\circ = 64 + 100 - 160(\\frac{1}{2}) = 164 - 80 = 84$. Maka $f = \\sqrt{84} = \\sqrt{4 \\times 21} = 2\\sqrt{21}$ cm. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 52,
     "pertanyaan": "Jika $\\log_3 4 = a$ dan $\\log_4 5 = b$, maka $\\log_{15} 9$ adalah...",
-    "pilihan": ["A. $\\frac{2}{a(b+1)}$", "B. $\\frac{2}{ab+1}$", "C. $\\frac{a+b}{2a}$", "D. $\\frac{b}{a(b+1)}$", "E. $\\frac{2a}{b+1}$"],
+    "pilihan": ["A. $\\frac{2}{ab+1}$", "B. $\\frac{2}{a(b+1)}$", "C. $\\frac{a+b}{2a}$", "D. $\\frac{b}{a(b+1)}$", "E. $\\frac{2a}{b+1}$"],
     "jawaban": "A",
-    "pembahasan": "Ubah semua logaritma ke basis 3. $\\log_{15} 9 = \\frac{\\log_3 9}{\\log_3 15} = \\frac{2}{\\log_3 (3 \\cdot 5)} = \\frac{2}{\\log_3 3 + \\log_3 5} = \\frac{2}{1 + \\log_3 5}$. Kita punya $\\log_3 4 = a$ dan $\\log_4 5 = b$. Maka $\\log_3 5 = \\log_3 4 \\cdot \\log_4 5 = a \\cdot b = ab$. Substitusikan: $\\frac{2}{1 + ab} = \\frac{2}{ab+1}$."
+    "pembahasan": "Ubah semua logaritma ke basis 3. $\\log_{15} 9 = \\frac{\\log_3 9}{\\log_3 15} = \\frac{2}{\\log_3 (3 \\cdot 5)} = \\frac{2}{\\log_3 3 + \\log_3 5} = \\frac{2}{1 + \\log_3 5}$. Kita punya $\\log_3 4 = a$ dan $\\log_4 5 = b$. Maka $\\log_3 5 = \\log_3 4 \\cdot \\log_4 5 = a \\cdot b = ab$. Substitusikan: $\\frac{2}{1 + ab} = \\frac{2}{ab+1}$. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 53,
@@ -100,16 +100,16 @@
   {
     "id": 55,
     "pertanyaan": "Jika $(x, y)$ adalah penyelesaian dari sistem persamaan $y = x^2 - 4x + 5$ dan $y = 2x - 3$, maka nilai dari $x+y$ adalah...",
-    "pilihan": ["A. 2", "B. 4", "C. 6", "D. 8", "E. 10"],
+    "pilihan": ["A. 3", "B. 4", "C. 6", "D. 9", "E. 10"],
     "jawaban": "D",
-    "pembahasan": "Substitusikan $y$ dari persamaan kedua ke persamaan pertama: $2x - 3 = x^2 - 4x + 5$. Pindahkan semua suku ke satu sisi: $x^2 - 4x - 2x + 5 + 3 = 0 \\implies x^2 - 6x + 8 = 0$. Faktorkan: $(x-2)(x-4) = 0$. Maka $x_1 = 2$ atau $x_2 = 4$. Jika $x=2$, maka $y = 2(2) - 3 = 4 - 3 = 1$. Pasangan $(2,1)$, $x+y = 2+1=3$. Jika $x=4$, maka $y = 2(4) - 3 = 8 - 3 = 5$. Pasangan $(4,5)$, $x+y = 4+5=9$. (Catatan: Ada dua kemungkinan nilai $x+y$. Jika pilihan D adalah 9, maka itu jawabannya.)"
+    "pembahasan": "Substitusikan $y$ dari persamaan kedua ke persamaan pertama: $2x - 3 = x^2 - 4x + 5$. Pindahkan semua suku ke satu sisi: $x^2 - 4x - 2x + 5 + 3 = 0 \\implies x^2 - 6x + 8 = 0$. Faktorkan: $(x-2)(x-4) = 0$. Maka $x_1 = 2$ atau $x_2 = 4$. Jika $x=2$, maka $y = 2(2) - 3 = 4 - 3 = 1$. Pasangan $(2,1)$, $x+y = 2+1=3$. Jika $x=4$, maka $y = 2(4) - 3 = 8 - 3 = 5$. Pasangan $(4,5)$, $x+y = 4+5=9$. Karena ada dua kemungkinan nilai $x+y$, dan **9** ada di pilihan **D**, maka **D** adalah jawaban yang benar untuk kasus $x=4$."
   },
   {
     "id": 56,
     "pertanyaan": "Diketahui balok ABCD.EFGH dengan panjang AB = 8 cm, BC = 6 cm, dan AE = 5 cm. Jarak titik A ke titik G adalah...",
-    "pilihan": ["A. $10$ cm", "B. $10\\sqrt{2}$ cm", "C. $10\\sqrt{3}$ cm", "D. $\\sqrt{125}$ cm", "E. $\\sqrt{225}$ cm"],
+    "pilihan": ["A. $\\sqrt{125}$ cm", "B. $10$ cm", "C. $10\\sqrt{2}$ cm", "D. $10\\sqrt{3}$ cm", "E. $\\sqrt{225}$ cm"],
     "jawaban": "A",
-    "pembahasan": "Jarak titik A ke titik G adalah panjang diagonal ruang balok. Gunakan rumus diagonal ruang $d = \\sqrt{p^2 + l^2 + t^2}$. $d = \\sqrt{AB^2 + BC^2 + AE^2} = \\sqrt{8^2 + 6^2 + 5^2} = \\sqrt{64 + 36 + 25} = \\sqrt{100 + 25} = \\sqrt{125} = 5\\sqrt{5}$ cm."
+    "pembahasan": "Jarak titik A ke titik G adalah panjang diagonal ruang balok. Gunakan rumus diagonal ruang $d = \\sqrt{p^2 + l^2 + t^2}$. $d = \\sqrt{AB^2 + BC^2 + AE^2} = \\sqrt{8^2 + 6^2 + 5^2} = \\sqrt{64 + 36 + 25} = \\sqrt{100 + 25} = \\sqrt{125}$ cm. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 57,
@@ -136,10 +136,24 @@
     "id": 60,
     "pertanyaan": "Dari angka-angka 0, 1, 2, 3, 4, 5, 6 akan dibentuk bilangan genap yang terdiri dari 3 angka berbeda. Banyaknya bilangan yang dapat dibentuk adalah...",
     "pilihan": ["A. 90", "B. 105", "C. 120", "D. 126", "E. 150"],
-    "jawaban": "D",
-    "pembahasan": "Bilangan genap 3 angka berbeda. Angka genap yang tersedia adalah 0, 2, 4, 6.
-    Kasus 1: Satuan adalah 0. (1 pilihan). Ratusan: Sisa 6 angka (tidak boleh 0). Puluhan: Sisa 5 angka. Banyaknya = $6 \\times 5 \\times 1 = 30$.
-    Kasus 2: Satuan adalah 2, 4, atau 6 (3 pilihan). Ratusan: Sisa 5 angka (tidak boleh 0 dan tidak boleh angka yang dipakai di satuan). Puluhan: Sisa 5 angka. Banyaknya = $5 \\times 5 \\times 3 = 75$.
-    Total = $30 + 75 = 105$."
+    "jawaban": "B",
+    "pembahasan": "Kita akan membentuk bilangan genap 3 angka berbeda (Ratusan Puluhan Satuan). Angka-angka yang tersedia adalah {0, 1, 2, 3, 4, 5, 6}.
+    
+    **Angka satuan harus genap:** Angka genap yang tersedia adalah {0, 2, 4, 6}.
+
+    **Kasus 1: Angka satuan adalah 0.**
+    * **Satuan:** 1 pilihan (hanya angka 0).
+    * **Ratusan:** Karena angka harus berbeda dan 0 sudah dipakai, serta angka ratusan tidak boleh 0, maka ada 6 angka tersisa dari {1, 2, 3, 4, 5, 6} (yaitu 6 pilihan).
+    * **Puluhan:** Dari 7 angka awal, 2 angka sudah dipakai (1 untuk satuan, 1 untuk ratusan). Maka tersisa 5 angka. (5 pilihan).
+    * Banyaknya bilangan untuk Kasus 1 = $6 \\times 5 \\times 1 = 30$.
+
+    **Kasus 2: Angka satuan adalah 2, 4, atau 6.**
+    * **Satuan:** 3 pilihan (2, 4, atau 6).
+    * **Ratusan:** Karena angka harus berbeda, angka ratusan tidak boleh 0, dan 1 angka sudah dipakai untuk satuan. Jadi, ada 5 angka yang bisa menjadi ratusan (total 7 angka dikurangi 0 dan 1 angka satuan).
+    * **Puluhan:** Dari 7 angka awal, 2 angka sudah dipakai (1 untuk satuan, 1 untuk ratusan). Maka tersisa 5 angka. (5 pilihan).
+    * Banyaknya bilangan untuk Kasus 2 = $5 \\times 5 \\times 3 = 75$.
+
+    **Total banyaknya bilangan** = Banyaknya bilangan Kasus 1 + Banyaknya bilangan Kasus 2 = $30 + 75 = 105$.
+    Pilihan **B** adalah 105, sehingga ini adalah jawaban yang benar."
   }
 ]
