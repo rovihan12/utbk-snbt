@@ -133,24 +133,30 @@
     "pembahasan": "Cari turunan pertama $f'(x) = 4x^3 - 12x^2$. Cari turunan kedua $f''(x) = 12x^2 - 24x$. Fungsi cekung ke bawah jika $f''(x) < 0$. $12x^2 - 24x < 0 \\implies 12x(x - 2) < 0$. Akar-akar persamaan adalah $x=0$ dan $x=2$. Uji titik: Untuk $x < 0$ (misal $x=-1$): $12(-1)(-1-2) = (-12)(-3) = 36 > 0$. Untuk $0 < x < 2$ (misal $x=1$): $12(1)(1-2) = 12(-1) = -12 < 0$. Untuk $x > 2$ (misal $x=3$): $12(3)(3-2) = 36(1) = 36 > 0$. Jadi, fungsi cekung ke bawah pada interval $0 < x < 2$."
   },
   {
+    {
     "id": 60,
     "pertanyaan": "Dari angka-angka 0, 1, 2, 3, 4, 5, 6 akan dibentuk bilangan genap yang terdiri dari 3 angka berbeda. Banyaknya bilangan yang dapat dibentuk adalah...",
     "pilihan": ["A. 90", "B. 105", "C. 120", "D. 126", "E. 150"],
     "jawaban": "B",
     "pembahasan": "Kita akan membentuk bilangan genap 3 angka berbeda (Ratusan Puluhan Satuan). Angka-angka yang tersedia adalah {0, 1, 2, 3, 4, 5, 6}.
     
-    **Angka satuan harus genap:** Angka genap yang tersedia adalah {0, 2, 4, 6}.
+    **Syarat:**
+    1. Bilangan genap, berarti angka **satuan** harus {0, 2, 4, 6}.
+    2. Terdiri dari 3 angka berbeda.
+    3. Angka **ratusan** tidak boleh 0.
+
+    Kita pisahkan menjadi dua kasus berdasarkan angka satuan:
 
     **Kasus 1: Angka satuan adalah 0.**
-    * **Satuan:** 1 pilihan (hanya angka 0).
-    * **Ratusan:** Karena angka harus berbeda dan 0 sudah dipakai, serta angka ratusan tidak boleh 0, maka ada 6 angka tersisa dari {1, 2, 3, 4, 5, 6} (yaitu 6 pilihan).
-    * **Puluhan:** Dari 7 angka awal, 2 angka sudah dipakai (1 untuk satuan, 1 untuk ratusan). Maka tersisa 5 angka. (5 pilihan).
+    * **Posisi Satuan:** Hanya ada 1 pilihan (yaitu angka 0).
+    * **Posisi Ratusan:** Dari 7 angka yang tersedia, 1 angka (0) sudah dipakai untuk satuan. Sisa 6 angka. Karena angka ratusan tidak boleh 0 (dan 0 sudah dipakai), maka ada **6 pilihan** angka untuk ratusan ({1, 2, 3, 4, 5, 6}).
+    * **Posisi Puluhan:** Dari 7 angka, 2 angka sudah terpakai (1 di satuan, 1 di ratusan). Maka tersisa **5 pilihan** angka untuk puluhan.
     * Banyaknya bilangan untuk Kasus 1 = $6 \\times 5 \\times 1 = 30$.
 
     **Kasus 2: Angka satuan adalah 2, 4, atau 6.**
-    * **Satuan:** 3 pilihan (2, 4, atau 6).
-    * **Ratusan:** Karena angka harus berbeda, angka ratusan tidak boleh 0, dan 1 angka sudah dipakai untuk satuan. Jadi, ada 5 angka yang bisa menjadi ratusan (total 7 angka dikurangi 0 dan 1 angka satuan).
-    * **Puluhan:** Dari 7 angka awal, 2 angka sudah dipakai (1 untuk satuan, 1 untuk ratusan). Maka tersisa 5 angka. (5 pilihan).
+    * **Posisi Satuan:** Ada 3 pilihan (yaitu angka 2, 4, atau 6).
+    * **Posisi Ratusan:** Dari 7 angka, 1 angka sudah dipakai untuk satuan. Angka 0 tidak boleh di ratusan. Jadi, dari 6 angka yang tersisa (7 total - 1 satuan), kita harus mengecualikan 0. Ini menyisakan **5 pilihan** angka untuk ratusan.
+    * **Posisi Puluhan:** Dari 7 angka awal, 2 angka sudah terpakai (1 di satuan, 1 di ratusan). Maka tersisa **5 pilihan** angka untuk puluhan.
     * Banyaknya bilangan untuk Kasus 2 = $5 \\times 5 \\times 3 = 75$.
 
     **Total banyaknya bilangan** = Banyaknya bilangan Kasus 1 + Banyaknya bilangan Kasus 2 = $30 + 75 = 105$.
