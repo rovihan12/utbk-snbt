@@ -11,62 +11,62 @@
     "pertanyaan": "Harga 3 buah buku dan 2 buah pulpen adalah Rp 19.000,00. Harga 1 buah buku dan 3 buah pulpen adalah Rp 11.000,00. Berapa harga 1 buah buku?",
     "pilihan": ["Rp 3.000,00", "Rp 4.000,00", "Rp 5.000,00", "Rp 6.000,00", "Rp 7.000,00"],
     "jawaban": "C",
-    "pembahasan": "Misalkan harga buku = B dan harga pulpen = P.\nKita memiliki sistem persamaan linear:\n1) $3B + 2P = 19.000$\n2) $B + 3P = 11.000$\n\nUntuk mencari B, kita bisa eliminasi P. Kalikan persamaan (1) dengan 3 dan persamaan (2) dengan 2:\n(1) $\\times 3 \\implies 9B + 6P = 57.000$\n(2) $\\times 2 \\implies 2B + 6P = 22.000$\n\nKurangkan persamaan hasil perkalian (baris atas dikurangi baris bawah):\n$(9B + 6P) - (2B + 6P) = 57.000 - 22.000$\n$7B = 35.000$\n$B = 35.000 / 7$\n$B = 5.000$\nJadi, harga 1 buah buku adalah **Rp 5.000,00**."
+    "pembahasan": "Misalkan harga buku = B dan harga pulpen = P.\nKita memiliki sistem persamaan linear:\n1) $3B + 2P = 19.000$\n2) $B + 3P = 11.000$\n\nUntuk mencari B, kita bisa eliminasi P. Kalikan persamaan (1) dengan 3 dan persamaan (2) dengan 2:\n(1) \\times 3 \\Rightarrow 9B + 6P = 57.000\n(2) \\times 2 \\Rightarrow 2B + 6P = 22.000\n\nKurangkan:\n$(9B + 6P) - (2B + 6P) = 57.000 - 22.000$\n$7B = 35.000 \\Rightarrow B = 5.000$\nJadi, harga 1 buah buku adalah **Rp 5.000,00**."
   },
   {
     "id": 23,
     "pertanyaan": "Sebuah kubus memiliki volume 125 cm³. Berapakah panjang sisi kubus tersebut?",
     "pilihan": ["3 cm", "4 cm", "5 cm", "6 cm", "7 cm"],
     "jawaban": "C",
-    "pembahasan": "Volume kubus adalah $sisi^3$. Misalkan panjang sisi adalah $s$.\n$s^3 = 125$\nUntuk mencari $s$, ambil akar pangkat tiga dari 125:\n$s = \\sqrt[3]{125}$\n$s = 5$ cm."
+    "pembahasan": "Volume kubus adalah $sisi^3$. Misalkan panjang sisi adalah $s$.\n$s^3 = 125$\n$s = \\sqrt[3]{125} = 5$ cm."
   },
   {
     "id": 24,
     "pertanyaan": "Jika $a \\ne b$, dan $a^2 - 2ab + b^2 = 16$, maka nilai dari $a - b$ adalah...",
     "pilihan": ["-4 atau 4", "4", "-4", "8", "16"],
     "jawaban": "A",
-    "pembahasan": "Bentuk $a^2 - 2ab + b^2$ adalah bentuk kuadrat sempurna dari $(a - b)^2$.\nDiketahui $(a - b)^2 = 16$.\nMaka $a - b$ bisa bernilai $\\sqrt{16}$ atau $-\\sqrt{16}$.\nJadi, $a - b = 4$ atau $a - b = -4$. Opsi A mencakup kedua kemungkinan ini."
+    "pembahasan": "$a^2 - 2ab + b^2 = (a - b)^2$\nDiketahui $(a - b)^2 = 16$\n$a - b = \\pm \\sqrt{16} = \\pm 4$\nJadi, $a - b = -4$ atau $a - b = 4$."
   },
   {
     "id": 25,
     "pertanyaan": "Sebuah kereta api bergerak dengan kecepatan 90 km/jam. Berapa jarak yang ditempuh kereta tersebut dalam waktu 20 menit?",
     "pilihan": ["15 km", "20 km", "25 km", "30 km", "35 km"],
     "jawaban": "D",
-    "pembahasan": "Kecepatan = 90 km/jam.\nWaktu = 20 menit. Ubah ke jam: 20 menit = 20/60 jam = 1/3 jam.\nJarak = Kecepatan $\\times$ Waktu\nJarak = 90 km/jam $\\times$ (1/3) jam\nJarak = **30 km**."
+    "pembahasan": "Kecepatan = 90 km/jam\nWaktu = 20 menit = 1/3 jam\nJarak = Kecepatan \\times Waktu = 90 \\times 1/3 = **30 km**"
   },
   {
     "id": 26,
     "pertanyaan": "Jika $P = \\frac{1}{4}$ dan $Q = \\frac{3}{10}$, maka hubungan yang tepat antara $P$ dan $Q$ adalah...",
     "pilihan": ["P > Q", "P < Q", "P = Q", "P = 2Q", "Tidak dapat ditentukan"],
     "jawaban": "B",
-    "pembahasan": "Untuk membandingkan P dan Q, ubah ke bentuk desimal atau samakan penyebut:\nDesimal:\nP = 1/4 = 0.25\nQ = 3/10 = 0.30\nKarena 0.25 < 0.30, maka **P < Q**."
+    "pembahasan": "Ubah ke desimal:\n$P = \\frac{1}{4} = 0.25$\n$Q = \\frac{3}{10} = 0.30$\nKarena 0.25 < 0.30, maka $P < Q$"
   },
   {
     "id": 27,
     "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 10 pekerja dalam 15 hari. Jika pekerjaan tersebut harus selesai dalam 6 hari, berapa tambahan pekerja yang dibutuhkan?",
     "pilihan": ["10 orang", "15 orang", "20 orang", "25 orang", "30 orang"],
     "jawaban": "B",
-    "pembahasan": "Ini adalah masalah perbandingan berbalik nilai. Semakin sedikit orang, semakin lama waktu yang dibutuhkan.\nMisalkan jumlah pekerja = P dan waktu = W.\n$P_1 \\times W_1 = P_2 \\times W_2$\n10 orang $\\times$ 15 hari = $P_2$ orang $\\times$ 6 hari\n$150 = 6 \\times P_2$\n$P_2 = 150 / 6$\n$P_2 = 25$ orang\nJumlah pekerja yang dibutuhkan adalah 25 orang. Karena sudah ada 10 orang, maka tambahan pekerja yang dibutuhkan adalah $25 - 10 = \\textbf{15}$ orang."
+    "pembahasan": "Gunakan perbandingan berbalik nilai:\n$P_1 \\times W_1 = P_2 \\times W_2$\n$10 \\times 15 = P_2 \\times 6 \\Rightarrow P_2 = 150 / 6 = 25$\nTambahan pekerja: $25 - 10 = \\textbf{15}$ orang"
   },
   {
     "id": 28,
     "pertanyaan": "Jika $5^x = 125$, maka nilai dari $x^2 + 2x + 1$ adalah...",
     "pilihan": ["9", "16", "25", "36", "49"],
     "jawaban": "B",
-    "pembahasan": "Pertama, cari nilai $x$ dari persamaan $5^x = 125$.\nKita tahu bahwa $125 = 5^3$.\nJadi, $5^x = 5^3 \\implies x = 3$.\nSekarang substitusikan nilai $x = 3$ ke ekspresi $x^2 + 2x + 1$.\nPerhatikan bahwa $x^2 + 2x + 1$ adalah bentuk kuadrat sempurna dari $(x + 1)^2$.\n$(3 + 1)^2 = 4^2 = \\textbf{16}$."
+    "pembahasan": "$125 = 5^3 \\Rightarrow x = 3$\n$x^2 + 2x + 1 = (x + 1)^2 = (3 + 1)^2 = 4^2 = 16$"
   },
   {
     "id": 29,
     "pertanyaan": "Sebuah toko elektronik menjual TV dengan harga Rp 2.500.000,00. Jika toko tersebut memberikan diskon 10% kemudian ditambah diskon lagi 5% dari harga setelah diskon pertama, berapa harga akhir TV tersebut?",
     "pilihan": ["Rp 2.125.000,00", "Rp 2.137.500,00", "Rp 2.150.000,00", "Rp 2.162.500,00", "Rp 2.175.000,00"],
     "jawaban": "B",
-    "pembahasan": "Harga awal = Rp 2.500.000,00.\nDiskon pertama = 10% dari Rp 2.500.000,00 = 0.10 $\\times$ 2.500.000 = Rp 250.000,00.\nHarga setelah diskon pertama = 2.500.000 - 250.000 = Rp 2.250.000,00.\nDiskon kedua = 5% dari harga setelah diskon pertama.\nDiskon kedua = 5% dari Rp 2.250.000,00 = 0.05 $\\times$ 2.250.000 = Rp 112.500,00.\nHarga akhir = Harga setelah diskon pertama - Diskon kedua\nHarga akhir = 2.250.000 - 112.500 = **Rp 2.137.500,00**."
+    "pembahasan": "Diskon pertama = 10% dari 2.500.000 = 250.000\nHarga setelah diskon pertama = 2.250.000\nDiskon kedua = 5% dari 2.250.000 = 112.500\nHarga akhir = 2.250.000 - 112.500 = **2.137.500**"
   },
   {
     "id": 30,
     "pertanyaan": "Dalam sebuah kelas, 2/5 siswa suka matematika, dan 1/4 siswa suka fisika. Jika 1/10 siswa suka keduanya, berapa bagian siswa yang tidak suka keduanya?",
     "pilihan": ["1/20", "3/20", "7/20", "9/20", "11/20"],
     "jawaban": "D",
-    "pembahasan": "Misalkan M adalah siswa yang suka matematika dan F adalah siswa yang suka fisika.\nP(M) = 2/5\nP(F) = 1/4\nP(M $\\cap$ F) = 1/10 (suka keduanya)\n\nBagian siswa yang suka setidaknya satu mata pelajaran (suka matematika ATAU fisika) adalah:\nP(M $\\cup$ F) = P(M) + P(F) - P(M $\\cap$ F)\nP(M $\\cup$ F) = 2/5 + 1/4 - 1/10\nSamakan penyebutnya menjadi 20:\nP(M $\\cup$ F) = (2$\\times$4)/20 + (1$\\times$5)/20 - (1$\\times$2)/20\nP(M $\\cup$ F) = 8/20 + 5/20 - 2/20\nP(M $\\cup$ F) = (8 + 5 - 2) / 20\nP(M $\\cup$ F) = 11/20\n\nBagian siswa yang tidak suka keduanya adalah 1 - P(M $\\cup$ F):\nTidak suka keduanya = 1 - 11/20 = 20/20 - 11/20 = **9/20**."
+    "pembahasan": "P(M) = 2/5, P(F) = 1/4, P(M \\cap F) = 1/10\nP(M \\cup F) = 2/5 + 1/4 - 1/10 = 11/20\nTidak suka keduanya = 1 - 11/20 = **9/20**"
   }
 ]
