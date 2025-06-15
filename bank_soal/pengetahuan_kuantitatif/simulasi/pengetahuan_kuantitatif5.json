@@ -2,15 +2,9 @@
   {
     "id": 81,
     "pertanyaan": "Jika $2x - y = 7$ dan $x + 2y = 1$, maka nilai $x + y$ adalah...",
-    "pilihan": ["-2", "-1", "0", "1", "2"],
+    "pilihan": ["2", "-1", "0", "1", "-2"],
     "jawaban": "A",
-    "pembahasan": "Kita memiliki sistem persamaan linear: 1) $2x - y = 7$ dan 2) $x + 2y = 1$. Kalikan persamaan (1) dengan 2: $4x - 2y = 14$. Tambahkan hasil ini ke persamaan (2): $(4x - 2y) + (x + 2y) = 14 + 1 \\implies 5x = 15 \\implies x = 3$. Substitusikan $x = 3$ ke persamaan (2): $3 + 2y = 1 \\implies 2y = 1 - 3 \\implies 2y = -2 \\implies y = -1$. Jadi, $x + y = 3 + (-1) = 2$. (Catatan: Berdasarkan perhitungan, $x+y=2$. Pilihan A adalah -2. Ada kemungkinan terjadi kesalahan dalam soal atau pilihan jawaban yang diberikan.) Mari kita cek lagi.
-1) $2x - y = 7$
-2) $x + 2y = 1$
-Dari (1), $y = 2x - 7$. Substitusikan ke (2): $x + 2(2x - 7) = 1 \\implies x + 4x - 14 = 1 \\implies 5x = 15 \\implies x = 3$.
-Substitusikan $x=3$ ke (1): $2(3) - y = 7 \\implies 6 - y = 7 \\implies -y = 1 \\implies y = -1$.
-Jadi $x=3$ dan $y=-1$. $x+y = 3+(-1) = 2$.
-Pilihan A (-2) tampaknya salah. Namun, sebagai model, saya harus memilih dari pilihan yang ada atau menandai ketidaksesuaian. Dengan asumsi ada typo pada pilihan, saya akan tetap menampilkan jawaban yang benar dari perhitungan."
+    "pembahasan": "Kita memiliki sistem persamaan linear: 1) $2x - y = 7$ dan 2) $x + 2y = 1$. Kalikan persamaan (1) dengan 2: $4x - 2y = 14$. Tambahkan hasil ini ke persamaan (2): $(4x - 2y) + (x + 2y) = 14 + 1 \\implies 5x = 15 \\implies x = 3$. Substitusikan $x = 3$ ke persamaan (2): $3 + 2y = 1 \\implies 2y = 1 - 3 \\implies 2y = -2 \\implies y = -1$. Jadi, $x + y = 3 + (-1) = 2$. **Nilai $x+y$ adalah 2, yang sesuai dengan Pilihan A.**"
   },
   {
     "id": 82,
@@ -30,11 +24,8 @@ Pilihan A (-2) tampaknya salah. Namun, sebagai model, saya harus memilih dari pi
     "id": 84,
     "pertanyaan": "Jika $P$ adalah 30% dari 60, dan $Q$ adalah 40% dari 50, maka hubungan antara $P$ dan $Q$ adalah...",
     "pilihan": ["$P > Q$", "$P < Q$", "$P = Q$", "$P = 2Q$", "$Q = 2P$"],
-    "jawaban": "C",
-    "pembahasan": "$P = 30\\% \\times 60 = 0.30 \\times 60 = 18$. $Q = 40\\% \\times 50 = 0.40 \\times 50 = 20$. Jadi, $P < Q$ (18 < 20). (Catatan: Berdasarkan perhitungan, $P < Q$. Pilihan C adalah $P=Q$. Ada kemungkinan terjadi kesalahan dalam soal atau pilihan jawaban yang diberikan.) Mari kita cek lagi.
-P = 0.3 * 60 = 18
-Q = 0.4 * 50 = 20
-Maka P < Q. Saya akan tetap berikan hasil perhitungan saya."
+    "jawaban": "B",
+    "pembahasan": "$P = 30\\% \\times 60 = 0.30 \\times 60 = 18$. $Q = 40\\% \\times 50 = 0.40 \\times 50 = 20$. Jadi, $P < Q$ (18 < 20). **Pilihan B ($P < Q$) adalah yang benar.**"
   },
   {
     "id": 85,
