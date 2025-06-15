@@ -1,1 +1,142 @@
-
+[
+  {
+    "id": 101,
+    "pertanyaan": "Jika $3x + 4 = 19$, maka nilai $x - 2$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "C",
+    "pembahasan": "Untuk menyelesaikan persamaan $3x + 4 = 19$, kurangi 4 dari kedua sisi: $3x = 19 - 4 \\implies 3x = 15$. Kemudian, bagi kedua sisi dengan 3: $x = \\frac{15}{3} \\implies x = 5$. Jadi, nilai $x - 2 = 5 - 2 = 3$."
+  },
+  {
+    "id": 102,
+    "pertanyaan": "Sebuah buku dijual dengan diskon 15%. Jika harga setelah diskon adalah Rp 85.000,00, maka harga awal buku tersebut adalah...",
+    "pilihan": ["Rp 90.000,00", "Rp 95.000,00", "Rp 100.000,00", "Rp 105.000,00", "Rp 110.000,00"],
+    "jawaban": "C",
+    "pembahasan": "Harga setelah diskon adalah 85% dari harga awal (karena diskon 15%). Misalkan harga awal adalah $H$. $0.85 \\times H = \\text{Rp } 85.000,00 \\implies H = \\frac{\\text{Rp } 85.000,00}{0.85} = \\text{Rp } 100.000,00$."
+  },
+  {
+    "id": 103,
+    "pertanyaan": "Jika $p = 4$ dan $q = -3$, maka nilai dari $p^2 - 2pq + q^2$ adalah...",
+    "pilihan": ["1", "25", "36", "49", "64"],
+    "jawaban": "D",
+    "pembahasan": "Ekspresi $p^2 - 2pq + q^2$ adalah bentuk lain dari $(p - q)^2$. Substitusikan nilai $p = 4$ dan $q = -3$: $(4 - (-3))^2 = (4 + 3)^2 = 7^2 = 49$."
+  },
+  {
+    "id": 104,
+    "pertanyaan": "Urutkan pecahan berikut dari yang terbesar: $\\frac{2}{3}, \\frac{1}{2}, \\frac{5}{6}, \\frac{3}{4}$.",
+    "pilihan": ["$\\frac{5}{6}, \\frac{3}{4}, \\frac{2}{3}, \\frac{1}{2}$", "$\\frac{5}{6}, \\frac{2}{3}, \\frac{3}{4}, \\frac{1}{2}$", "$\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\frac{5}{6}$", "$\\frac{3}{4}, \\frac{5}{6}, \\frac{2}{3}, \\frac{1}{2}$", "$\\frac{2}{3}, \\frac{1}{2}, \\frac{5}{6}, \\frac{3}{4}$"],
+    "jawaban": "A",
+    "pembahasan": "Ubah semua pecahan ke penyebut yang sama (KPK dari 3, 2, 6, 4 adalah 12): $\\frac{2}{3} = \\frac{8}{12}$, $\\frac{1}{2} = \\frac{6}{12}$, $\\frac{5}{6} = \\frac{10}{12}$, $\\frac{3}{4} = \\frac{9}{12}$. Urutan dari yang terbesar adalah $\\frac{10}{12}, \\frac{9}{12}, \\frac{8}{12}, \\frac{6}{12}$. Jadi, $\\frac{5}{6}, \\frac{3}{4}, \\frac{2}{3}, \\frac{1}{2}$."
+  },
+  {
+    "id": 105,
+    "pertanyaan": "Sebuah tabung memiliki volume 616 cm$^3$. Jika tinggi tabung adalah 4 cm, maka jari-jari alas tabung tersebut adalah... (Gunakan $\\pi = \\frac{22}{7}$)",
+    "pilihan": ["7 cm", "14 cm", "21 cm", "28 cm", "35 cm"],
+    "jawaban": "A",
+    "pembahasan": "Rumus volume tabung adalah $V = \\pi r^2 h$. Diketahui $V = 616$ cm$^3$ dan $h = 4$ cm. $616 = \\frac{22}{7} \\times r^2 \\times 4 \\implies 616 = \\frac{88}{7} r^2 \\implies r^2 = \\frac{616 \\times 7}{88} = 7 \\times 7 = 49 \\implies r = \\sqrt{49} = 7 \\text{ cm}$."
+  },
+  {
+    "id": 106,
+    "pertanyaan": "Hasil dari $(-6) + (-8) \\div 2 - 3 \\times (-4)$ adalah...",
+    "pilihan": ["-10", "-4", "2", "10", "14"],
+    "jawaban": "C",
+    "pembahasan": "Lakukan operasi perkalian dan pembagian terlebih dahulu, kemudian penjumlahan dan pengurangan: $(-8) \\div 2 = -4$. $3 \\times (-4) = -12$. Jadi, $-6 + (-4) - (-12) = -6 - 4 + 12 = -10 + 12 = 2$."
+  },
+  {
+    "id": 107,
+    "pertanyaan": "Jika $x$ adalah bilangan ganjil dan $y$ adalah bilangan genap, manakah di antara berikut yang pasti bilangan genap?",
+    "pilihan": ["$x + y$", "$x - y$", "$x \\times y$", "$x^2$", "$y^2 + 1$"],
+    "jawaban": "C",
+    "pembahasan": "Mari kita coba setiap pilihan: 1. $x + y$: Ganjil + Genap = Ganjil. (Contoh: $3 + 2 = 5$). 2. $x - y$: Ganjil - Genap = Ganjil. (Contoh: $3 - 2 = 1$). 3. $x \\times y$: Ganjil $\\times$ Genap = Genap. (Contoh: $3 \\times 2 = 6$). 4. $x^2$: Ganjil$^2$ = Ganjil. (Contoh: $3^2 = 9$). 5. $y^2 + 1$: Genap$^2$ + 1 = Genap + 1 = Ganjil. (Contoh: $2^2 + 1 = 4 + 1 = 5$). Jadi, yang pasti bilangan genap adalah $x \\times y$."
+  },
+  {
+    "id": 108,
+    "pertanyaan": "Rata-rata 3 buah bilangan adalah 9. Jika ditambahkan sebuah bilangan, rata-ratanya menjadi 10. Bilangan yang ditambahkan adalah...",
+    "pilihan": ["11", "12", "13", "14", "15"],
+    "jawaban": "C",
+    "pembahasan": "Jumlah 3 bilangan = $3 \\times 9 = 27$. Setelah ditambahkan 1 bilangan, total ada 4 bilangan. Jumlah 4 bilangan = $4 \\times 10 = 40$. Bilangan yang ditambahkan = (Jumlah 4 bilangan) - (Jumlah 3 bilangan) = $40 - 27 = 13$."
+  },
+  {
+    "id": 109,
+    "pertanyaan": "Nilai dari $\\lim_{x \\to 0} \\frac{\\sin(4x)}{2x}$ adalah...",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan sifat limit trigonometri: $\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx} = \\frac{a}{b}$. Dalam kasus ini, $a = 4$ dan $b = 2$. Jadi, $\\lim_{x \\to 0} \\frac{\\sin(4x)}{2x} = \\frac{4}{2} = 2$."
+  },
+  {
+    "id": 110,
+    "pertanyaan": "Jika $f(x) = e^{2x + 1}$, maka $f'(x)$ adalah...",
+    "pilihan": ["$e^{2x + 1}$", "$2e^{2x + 1}$", "$\\frac{1}{2} e^{2x + 1}$", "$e^{2x}$", "$2e^{2x}$"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan aturan rantai untuk turunan $e^u$: $\\frac{d}{dx} e^u = e^u \\frac{du}{dx}$. Misalkan $u = 2x + 1$, maka $\\frac{du}{dx} = 2$. Jadi, $f'(x) = e^{2x + 1} \\times 2 = 2e^{2x + 1}$."
+  },
+  {
+    "id": 111,
+    "pertanyaan": "Suku ke-10 dari barisan geometri dengan suku pertama 2 dan rasio 3 adalah...",
+    "pilihan": ["$2 \\times 3^8$", "$2 \\times 3^9$", "$2 \\times 3^{10}$", "$3^9$", "$3^{10}$"],
+    "jawaban": "B",
+    "pembahasan": "Rumus suku ke-$n$ barisan geometri adalah $U_n = ar^{n-1}$. Diketahui $a = 2$, $r = 3$, dan $n = 10$. $U_{10} = 2 \\times 3^{10-1} = 2 \\times 3^9$."
+  },
+  {
+    "id": 112,
+    "pertanyaan": "Varians dari data 2, 4, 6, 8 adalah...",
+    "pilihan": ["2", "4", "5", "8", "10"],
+    "jawaban": "C",
+    "pembahasan": "Pertama, hitung rata-rata ($\\mu$): $\\mu = \\frac{2 + 4 + 6 + 8}{4} = \\frac{20}{4} = 5$. Kemudian, hitung varians ($\\sigma^2$): $\\sigma^2 = \\frac{\\sum (x_i - \\mu)^2}{N}$. $\\sigma^2 = \\frac{(2-5)^2 + (4-5)^2 + (6-5)^2 + (8-5)^2}{4} = \\frac{(-3)^2 + (-1)^2 + (1)^2 + (3)^2}{4} = \\frac{9 + 1 + 1 + 9}{4} = \\frac{20}{4} = 5$."
+  },
+  {
+    "id": 113,
+    "pertanyaan": "Luas daerah yang dibatasi oleh kurva $y = x^2$ dan sumbu X dari $x = 0$ sampai $x = 2$ adalah...",
+    "pilihan": ["$\\frac{2}{3}$", "$\\frac{4}{3}$", "$\\frac{8}{3}$", "$\\frac{16}{3}$", "$2$"],
+    "jawaban": "C",
+    "pembahasan": "Luas daerah di bawah kurva dapat dihitung dengan integral tentu: $A = \\int_0^2 x^2 dx$. $\\int x^2 dx = \\frac{1}{3} x^3$. Evaluasi pada batas-batas: $[\\frac{1}{3} x^3]_0^2 = (\\frac{1}{3} (2)^3) - (\\frac{1}{3} (0)^3) = \\frac{8}{3} - 0 = \\frac{8}{3}$."
+  },
+  {
+    "id": 114,
+    "pertanyaan": "Jika $P(A) = 0.5$, $P(B) = 0.4$, dan $P(A \\cup B) = 0.7$, maka $P(A \\cap B)$ adalah...",
+    "pilihan": ["0.1", "0.2", "0.3", "0.4", "0.5"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus peluang gabungan dua kejadian: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$. $0.7 = 0.5 + 0.4 - P(A \\cap B) \\implies 0.7 = 0.9 - P(A \\cap B) \\implies P(A \\cap B) = 0.9 - 0.7 = 0.2$."
+  },
+  {
+    "id": 115,
+    "pertanyaan": "Bentuk sederhana dari $(\\sqrt{8} + \\sqrt{2})(\\sqrt{8} - \\sqrt{2})$ adalah...",
+    "pilihan": ["2", "4", "6", "8", "10"],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah bentuk $(a + b)(a - b) = a^2 - b^2$. $(\\sqrt{8})^2 - (\\sqrt{2})^2 = 8 - 2 = 6$."
+  },
+  {
+    "id": 116,
+    "pertanyaan": "Himpunan penyelesaian dari persamaan $2^{x^2 - 3x} = 16$ adalah...",
+    "pilihan": ["$\\{1, 4\\}$", "$\\{-1, 4\\}$", "$\\{1, -4\\}$", "$\\{-1, -4\\}$", "$\\{0, 3\\}$"],
+    "jawaban": "B",
+    "pembahasan": "Ubah 16 menjadi basis 2: $16 = 2^4$. Jadi, $2^{x^2 - 3x} = 2^4$. Karena basisnya sama, maka pangkatnya harus sama: $x^2 - 3x = 4$. Ubah menjadi persamaan kuadrat: $x^2 - 3x - 4 = 0$. Faktorkan: $(x - 4)(x + 1) = 0$. Jadi, $x = 4$ atau $x = -1$. Himpunan penyelesaiannya adalah $\\{-1, 4\\}$."
+  },
+  {
+    "id": 117,
+    "pertanyaan": "Diketahui suku ke-3 dan suku ke-7 dari barisan aritmetika berturut-turut adalah 11 dan 23. Suku ke-5 barisan tersebut adalah...",
+    "pilihan": ["14", "15", "17", "18", "20"],
+    "jawaban": "C",
+    "pembahasan": "Dalam barisan aritmetika, $U_n = a + (n-1)b$. $U_3 = a + 2b = 11$ (persamaan 1). $U_7 = a + 6b = 23$ (persamaan 2). Kurangkan persamaan (1) dari persamaan (2): $(a + 6b) - (a + 2b) = 23 - 11 \\implies 4b = 12 \\implies b = 3$. Substitusikan $b = 3$ ke persamaan (1): $a + 2(3) = 11 \\implies a + 6 = 11 \\implies a = 5$. Suku ke-5 adalah $U_5 = a + 4b = 5 + 4(3) = 5 + 12 = 17$."
+  },
+  {
+    "id": 118,
+    "pertanyaan": "Persamaan lingkaran yang berpusat di $(0,0)$ dan melalui titik $(3, 4)$ adalah...",
+    "pilihan": ["$x^2 + y^2 = 5$", "$x^2 + y^2 = 7$", "$x^2 + y^2 = 25$", "$x^2 + y^2 = 49$", "$x^2 + y^2 = 100$"],
+    "jawaban": "C",
+    "pembahasan": "Persamaan lingkaran dengan pusat $(0,0)$ adalah $x^2 + y^2 = r^2$. Jari-jari $r$ adalah jarak dari pusat ke titik yang dilalui $(3,4)$. $r^2 = (3 - 0)^2 + (4 - 0)^2 = 3^2 + 4^2 = 9 + 16 = 25$. Jadi, persamaan lingkarannya adalah $x^2 + y^2 = 25$."
+  },
+  {
+    "id": 119,
+    "pertanyaan": "Sebuah segitiga memiliki sudut-sudut $x^\\circ$, $(2x)^\\circ$, dan $90^\\circ$. Nilai $x$ adalah...",
+    "pilihan": ["15", "30", "45", "60", "90"],
+    "jawaban": "B",
+    "pembahasan": "Jumlah sudut dalam segitiga adalah $180^\\circ$. Jadi, $x + 2x + 90 = 180 \\implies 3x + 90 = 180 \\implies 3x = 180 - 90 \\implies 3x = 90 \\implies x = 30$."
+  },
+  {
+    "id": 120,
+    "pertanyaan": "Diberikan $g(x) = x - 1$ dan $(f \\circ g)(x) = x^2 - 3x + 2$. Maka $f(x)$ adalah...",
+    "pilihan": ["$x^2 - x$", "$x^2 - x + 2$", "$x^2 - 2x + 2$", "$x^2 - x + 4$", "$x^2 + x$"],
+    "jawaban": "A",
+    "pembahasan": "Kita tahu $(f \\circ g)(x) = f(g(x))$. Jadi, $f(x - 1) = x^2 - 3x + 2$. Misalkan $u = x - 1$, maka $x = u + 1$. Substitusikan $x = u + 1$ ke persamaan: $f(u) = (u + 1)^2 - 3(u + 1) + 2$. $f(u) = (u^2 + 2u + 1) - (3u + 3) + 2$. $f(u) = u^2 + 2u + 1 - 3u - 3 + 2$. $f(u) = u^2 - u$. Jadi, $f(x) = x^2 - x$."
+  }
+]
