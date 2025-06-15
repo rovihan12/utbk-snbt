@@ -1,1 +1,142 @@
-
+[
+  {
+    "id": 121,
+    "pertanyaan": "Jika $f(x) = 3x + 2$ dan $g(x) = x^2 - 1$, maka nilai dari $(f \\circ g)(2)$ adalah...",
+    "pilihan": ["A. 11", "B. 15", "C. 17", "D. 21", "E. 23"],
+    "jawaban": "A",
+    "pembahasan": "Untuk mencari $(f \\circ g)(2)$, pertama kita hitung $g(2)$. $g(2) = (2)^2 - 1 = 4 - 1 = 3$. Kemudian, substitusikan hasil ini ke $f(x)$: $f(g(2)) = f(3) = 3(3) + 2 = 9 + 2 = 11$."
+  },
+  {
+    "id": 122,
+    "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga sebuah tas setelah diskon adalah Rp160.000,00, maka harga tas sebelum diskon adalah...",
+    "pilihan": ["A. Rp180.000,00", "B. Rp200.000,00", "C. Rp220.000,00", "D. Rp240.000,00", "E. Rp250.000,00"],
+    "jawaban": "B",
+    "pembahasan": "Harga setelah diskon 20% berarti harga tersebut adalah 100% - 20% = 80% dari harga asli. Misalkan harga asli adalah $H$. Maka $0.80 \\times H = Rp160.000,00$. $H = \\frac{Rp160.000,00}{0.80} = Rp200.000,00$."
+  },
+  {
+    "id": 123,
+    "pertanyaan": "Jika $4^x = 8$, maka nilai dari $x$ adalah...",
+    "pilihan": ["A. $\\frac{1}{2}$", "B. $\\frac{2}{3}$", "C. $\\frac{3}{2}$", "D. 2", "E. 3"],
+    "jawaban": "C",
+    "pembahasan": "Kita bisa mengubah kedua sisi persamaan ke basis yang sama. $4^x = (2^2)^x = 2^{2x}$. $8 = 2^3$. Maka $2^{2x} = 2^3$. Dari sini, kita dapatkan $2x = 3$, sehingga $x = \\frac{3}{2}$."
+  },
+  {
+    "id": 124,
+    "pertanyaan": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah...",
+    "pilihan": ["A. 50 km/jam", "B. 60 km/jam", "C. 70 km/jam", "D. 80 km/jam", "E. 90 km/jam"],
+    "jawaban": "B",
+    "pembahasan": "Kecepatan rata-rata dihitung dengan rumus jarak dibagi waktu. Kecepatan = $\\frac{Jarak}{Waktu} = \\frac{180 \\text{ km}}{3 \\text{ jam}} = 60 \\text{ km/jam}$."
+  },
+  {
+    "id": 125,
+    "pertanyaan": "Keliling sebuah persegi panjang adalah 40 cm. Jika panjangnya 12 cm, maka lebarnya adalah...",
+    "pilihan": ["A. 6 cm", "B. 8 cm", "C. 10 cm", "D. 14 cm", "E. 16 cm"],
+    "jawaban": "B",
+    "pembahasan": "Rumus keliling persegi panjang adalah $K = 2(p + l)$, di mana $p$ adalah panjang dan $l$ adalah lebar. Diketahui $K = 40$ cm dan $p = 12$ cm. $40 = 2(12 + l) \\implies 20 = 12 + l \\implies l = 20 - 12 = 8$ cm."
+  },
+  {
+    "id": 126,
+    "pertanyaan": "Berapakah hasil dari $25 \\times 4 - 50 \\div 2$?",
+    "pilihan": ["A. 25", "B. 50", "C. 75", "D. 100", "E. 125"],
+    "jawaban": "C",
+    "pembahasan": "Ikuti urutan operasi (kali/bagi terlebih dahulu, lalu tambah/kurang). $25 \\times 4 = 100$. $50 \\div 2 = 25$. Maka $100 - 25 = 75$."
+  },
+  {
+    "id": 127,
+    "pertanyaan": "Jika $P = 0.3 \\times 60$ dan $Q = 0.4 \\times 50$, maka hubungan antara $P$ dan $Q$ adalah...",
+    "pilihan": ["A. $P > Q$", "B. $P < Q$", "C. $P = Q$", "D. $P \\le Q$", "E. $P \\ge Q$"],
+    "jawaban": "B",
+    "pembahasan": "Hitung nilai $P$ dan $Q$. $P = 0.3 \\times 60 = 18$. $Q = 0.4 \\times 50 = 20$. Karena $18 < 20$, maka $P < Q$."
+  },
+  {
+    "id": 128,
+    "pertanyaan": "Sebuah kotak berisi 10 kelereng, terdiri dari 4 kelereng merah dan 6 kelereng biru. Jika diambil 1 kelereng secara acak, peluang terambilnya kelereng merah adalah...",
+    "pilihan": ["A. $\\frac{1}{10}$", "B. $\\frac{2}{5}$", "C. $\\frac{1}{2}$", "D. $\\frac{3}{5}$", "E. $\\frac{4}{5}$"],
+    "jawaban": "B",
+    "pembahasan": "Peluang = $\\frac{\\text{Jumlah kelereng merah}}{\\text{Jumlah total kelereng}} = \\frac{4}{10} = \\frac{2}{5}$."
+  },
+  {
+    "id": 129,
+    "pertanyaan": "Jika $x$ adalah bilangan bulat positif dan $x^2 - 9 = 0$, maka nilai dari $x$ adalah...",
+    "pilihan": ["A. -3", "B. -1", "C. 0", "D. 3", "E. 9"],
+    "jawaban": "D",
+    "pembahasan": "$x^2 - 9 = 0 \\implies x^2 = 9$. Maka $x = \\sqrt{9}$ atau $x = -\\sqrt{9}$. Jadi $x = 3$ atau $x = -3$. Karena $x$ adalah bilangan bulat positif, maka $x = 3$."
+  },
+  {
+    "id": 130,
+    "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt{25}$ adalah...",
+    "pilihan": ["A. 13", "B. 17", "C. 19", "D. 21", "E. 23"],
+    "jawaban": "B",
+    "pembahasan": "$\\sqrt{144} = 12$. $\\sqrt{25} = 5$. Maka $12 + 5 = 17$."
+  },
+  {
+    "id": 131,
+    "pertanyaan": "Jumlah tiga bilangan genap berurutan adalah 66. Bilangan terbesar dari ketiga bilangan tersebut adalah...",
+    "pilihan": ["A. 20", "B. 22", "C. 24", "D. 26", "E. 28"],
+    "jawaban": "C",
+    "pembahasan": "Misalkan bilangan genap pertama adalah $n$. Maka tiga bilangan genap berurutan adalah $n$, $n+2$, dan $n+4$. Jumlahnya adalah $n + (n+2) + (n+4) = 66$. $3n + 6 = 66 \\implies 3n = 60 \\implies n = 20$. Bilangan terbesar adalah $n+4 = 20+4 = 24$."
+  },
+  {
+    "id": 132,
+    "pertanyaan": "Sebuah tangki air berbentuk tabung dengan jari-jari alas 7 meter dan tinggi 10 meter. Volume air yang dapat ditampung tangki tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)",
+    "pilihan": ["A. $154 \\text{ m}^3$", "B. $220 \\text{ m}^3$", "C. $770 \\text{ m}^3$", "D. $1540 \\text{ m}^3$", "E. $2200 \\text{ m}^3$"],
+    "jawaban": "D",
+    "pembahasan": "Volume tabung dihitung dengan rumus $V = \\pi r^2 h$. Diketahui $r=7$ m dan $h=10$ m. $V = \\frac{22}{7} \\times (7)^2 \\times 10 = \\frac{22}{7} \\times 49 \\times 10 = 22 \\times 7 \\times 10 = 154 \\times 10 = 1540 \\text{ m}^3$."
+  },
+  {
+    "id": 133,
+    "pertanyaan": "Jika $f(x) = \\frac{3x - 1}{x + 2}$, maka $f^{-1}(x)$ adalah...",
+    "pilihan": ["A. $\\frac{2x + 1}{3 - x}$", "B. $\\frac{-2x - 1}{x - 3}$", "C. $\\frac{x + 1}{3 - 2x}$", "D. $\\frac{2x - 1}{x - 3}$", "E. $\\frac{-x - 1}{2x - 3}$"],
+    "jawaban": "A",
+    "pembahasan": "Misalkan $y = \\frac{3x - 1}{x + 2}$. Untuk mencari $f^{-1}(x)$, tukar $x$ dan $y$, lalu selesaikan untuk $y$. $x = \\frac{3y - 1}{y + 2}$. $x(y+2) = 3y - 1 \\implies xy + 2x = 3y - 1 \\implies 2x + 1 = 3y - xy \\implies 2x + 1 = y(3 - x)$. Maka $y = \\frac{2x + 1}{3 - x}$. Jadi, $f^{-1}(x) = \\frac{2x + 1}{3 - x}$."
+  },
+  {
+    "id": 134,
+    "pertanyaan": "Dalam suatu kelas terdapat 25 siswa. 15 siswa suka matematika, 12 siswa suka fisika, dan 7 siswa suka keduanya. Banyak siswa yang tidak suka matematika maupun fisika adalah...",
+    "pilihan": ["A. 3", "B. 5", "C. 8", "D. 10", "E. 12"],
+    "jawaban": "B",
+    "pembahasan": "Jumlah siswa yang suka matematika atau fisika (gabungan) adalah $n(M \\cup F) = n(M) + n(F) - n(M \\cap F)$. $n(M \\cup F) = 15 + 12 - 7 = 27 - 7 = 20$. Total siswa adalah 25. Maka siswa yang tidak suka keduanya adalah $25 - 20 = 5$ siswa."
+  },
+  {
+    "id": 135,
+    "pertanyaan": "Penyelesaian dari sistem persamaan $2x - y = 7$ dan $x + 2y = 1$ adalah $(x,y)$. Nilai dari $x+y$ adalah...",
+    "pilihan": ["A. -2", "B. 0", "C. 2", "D. 4", "E. 6"],
+    "jawaban": "C",
+    "pembahasan": "Kita memiliki sistem persamaan linear: 1) $2x - y = 7$ dan 2) $x + 2y = 1$. Kalikan persamaan (1) dengan 2: $4x - 2y = 14$. Tambahkan hasil ini ke persamaan (2): $(4x - 2y) + (x + 2y) = 14 + 1 \\implies 5x = 15 \\implies x = 3$. Substitusikan $x = 3$ ke persamaan (2): $3 + 2y = 1 \\implies 2y = 1 - 3 \\implies 2y = -2 \\implies y = -1$. Jadi, penyelesaiannya adalah $(x, y) = (3, -1)$. Nilai dari $x + y = 3 + (-1) = 2$."
+  },
+  {
+    "id": 136,
+    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} -1 & 0 \\\\ 2 & 5 \\end{pmatrix}$, maka matriks $A + B$ adalah...",
+    "pilihan": ["A. $\\begin{pmatrix} 1 & 3 \\\\ 3 & 9 \\end{pmatrix}$", "B. $\\begin{pmatrix} 3 & 3 \\\\ 3 & 9 \\end{pmatrix}$", "C. $\\begin{pmatrix} 1 & 3 \\\\ 3 & 1 \\end{pmatrix}$", "D. $\\begin{pmatrix} 1 & 3 \\\\ 1 & 9 \\end{pmatrix}$", "E. $\\begin{pmatrix} 1 & 3 \\\\ 3 & 1 \\end{pmatrix}$"],
+    "jawaban": "A",
+    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian. $A + B = \\begin{pmatrix} 2+(-1) & 3+0 \\\\ 1+2 & 4+5 \\end{pmatrix} = \\begin{pmatrix} 1 & 3 \\\\ 3 & 9 \\end{pmatrix}$."
+  },
+  {
+    "id": 137,
+    "pertanyaan": "Sebuah dadu dilempar satu kali. Peluang munculnya mata dadu prima adalah...",
+    "pilihan": ["A. $\\frac{1}{6}$", "B. $\\frac{1}{3}$", "C. $\\frac{1}{2}$", "D. $\\frac{2}{3}$", "E. $\\frac{5}{6}$"],
+    "jawaban": "C",
+    "pembahasan": "Ruang sampel pelemparan dadu adalah $\{1, 2, 3, 4, 5, 6\}$, total ada 6 kemungkinan. Mata dadu prima adalah $\{2, 3, 5\}$, total ada 3 kemungkinan. Peluang munculnya mata dadu prima = $\\frac{\\text{Jumlah mata dadu prima}}{\\text{Jumlah seluruh mata dadu}} = \\frac{3}{6} = \\frac{1}{2}$."
+  },
+  {
+    "id": 138,
+    "pertanyaan": "Diketahui barisan geometri dengan suku pertama 3 dan rasio 2. Suku ke-5 barisan tersebut adalah...",
+    "pilihan": ["A. 24", "B. 32", "C. 48", "D. 64", "E. 96"],
+    "jawaban": "C",
+    "pembahasan": "Rumus suku ke-$n$ barisan geometri adalah $U_n = ar^{n-1}$. Diketahui $a = 3$ dan $r = 2$. Maka $U_5 = 3 \\times 2^{5-1} = 3 \\times 2^4 = 3 \\times 16 = 48$."
+  },
+  {
+    "id": 139,
+    "pertanyaan": "Luas daerah yang dibatasi oleh kurva $y = x^2$, sumbu-x, garis $x=1$, dan garis $x=3$ adalah...",
+    "pilihan": ["A. $\\frac{26}{3}$ satuan luas", "B. $\\frac{28}{3}$ satuan luas", "C. $\\frac{30}{3}$ satuan luas", "D. $\\frac{32}{3}$ satuan luas", "E. $\\frac{34}{3}$ satuan luas"],
+    "jawaban": "A",
+    "pembahasan": "Luas daerah dapat dihitung dengan integral tentu: $L = \\int_{1}^{3} x^2 dx$. $L = [\\frac{1}{3}x^3]_{1}^{3} = \\frac{1}{3}(3)^3 - \\frac{1}{3}(1)^3 = \\frac{1}{3}(27) - \\frac{1}{3}(1) = 9 - \\frac{1}{3} = \\frac{27 - 1}{3} = \\frac{26}{3}$ satuan luas."
+  },
+  {
+    "id": 140,
+    "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang dengan panjang 20 m dan lebar 10 m. Jika kedalaman kolam 2 m, volume air maksimal yang dapat ditampung kolam tersebut adalah...",
+    "pilihan": ["A. $200 \\text{ m}^3$", "B. $300 \\text{ m}^3$", "C. $400 \\text{ m}^3$", "D. $500 \\text{ m}^3$", "E. $600 \\text{ m}^3$"],
+    "jawaban": "C",
+    "pembahasan": "Volume kolam renang (balok) dihitung dengan rumus $V = panjang \\times lebar \\times tinggi$. $V = 20 \\text{ m} \\times 10 \\text{ m} \\times 2 \\text{ m} = 400 \\text{ m}^3$."
+  }
+]
