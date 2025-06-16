@@ -2,140 +2,260 @@
   {
     "id": 21,
     "pertanyaan": "Jika $f(x) = x^2 + 2x - 3$ dan $g(x) = x + 1$, maka $(g \\circ f)(x)$ adalah...",
-    "pilihan": ["A. $x^2 + 2x - 2$", "B. $x^2 + 2x - 3$", "C. $x^2 + 4x - 2$", "D. $x^2 + 4x - 4$", "E. $x^2 + 2x + 1$"],
+    "pilihan": [
+      "$x^2 + 2x - 2$",
+      "$x^2 + 2x - 3$",
+      "$x^2 + 4x - 2$",
+      "$x^2 + 4x - 4$",
+      "$x^2 + 2x + 1$"
+    ],
     "jawaban": "A",
     "pembahasan": "Diketahui $f(x) = x^2 + 2x - 3$ dan $g(x) = x + 1$. Maka $(g \\circ f)(x) = g(f(x)) = g(x^2 + 2x - 3)$. Substitusikan $f(x)$ ke dalam $g(x)$: $(x^2 + 2x - 3) + 1 = x^2 + 2x - 2$."
   },
   {
     "id": 22,
     "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-5 adalah 18 dan suku ke-9 adalah 30. Jumlah 12 suku pertama barisan tersebut adalah...",
-    "pilihan": ["A. 200", "B. 210", "C. 228", "D. 240", "E. 252"],
+    "pilihan": [
+      "200",
+      "210",
+      "228",
+      "240",
+      "252"
+    ],
     "jawaban": "C",
     "pembahasan": "Diketahui $U_5 = 18$ dan $U_9 = 30$. $U_n = a + (n-1)b$. Maka $a + 4b = 18$ (1) dan $a + 8b = 30$ (2). Kurangkan (1) dari (2): $4b = 12 \\implies b = 3$. Substitusikan $b=3$ ke (1): $a + 4(3) = 18 \\implies a + 12 = 18 \\implies a = 6$. Jumlah $n$ suku pertama $S_n = \\frac{n}{2}(2a + (n-1)b)$. $S_{12} = \\frac{12}{2}(2(6) + (12-1)3) = 6(12 + 11 \\cdot 3) = 6(12 + 33) = 6(45) = 270$. (Catatan: Ada kesalahan dalam pilihan jawaban, hasil seharusnya 270. Jika pilihan C adalah 270, maka itu jawabannya)."
   },
   {
     "id": 23,
     "pertanyaan": "Nilai $\\lim_{x \\to 4} \\frac{x^2 - 16}{\\sqrt{x} - 2}$ adalah...",
-    "pilihan": ["A. 16", "B. 24", "C. 32", "D. 48", "E. 64"],
+    "pilihan": [
+      "16",
+      "24",
+      "32",
+      "48",
+      "64"
+    ],
     "jawaban": "C",
     "pembahasan": "Substitusi langsung menghasilkan $\\frac{0}{0}$. Kalikan dengan konjugat: $\\lim_{x \\to 4} \\frac{(x-4)(x+4)}{\\sqrt{x} - 2} \\cdot \\frac{\\sqrt{x} + 2}{\\sqrt{x} + 2} = \\lim_{x \\to 4} \\frac{(x-4)(x+4)(\\sqrt{x} + 2)}{x - 4} = \\lim_{x \\to 4} (x+4)(\\sqrt{x} + 2)$. Substitusikan $x=4$: $(4+4)(\\sqrt{4} + 2) = 8(2+2) = 8(4) = 32$."
   },
   {
     "id": 24,
     "pertanyaan": "Jika $A = \\begin{pmatrix} 3 & -2 \\\\ 1 & 5 \\end{pmatrix}$ dan $B = \\begin{pmatrix} -1 & 3 \\\\ 4 & 2 \\end{pmatrix}$, maka determinan dari matriks $A+B$ adalah...",
-    "pilihan": ["A. -13", "B. -7", "C. 0", "D. 7", "E. 13"],
+    "pilihan": [
+      "-13",
+      "-7",
+      "0",
+      "7",
+      "13"
+    ],
     "jawaban": "E",
     "pembahasan": "Terlebih dahulu hitung $A+B$: $A+B = \\begin{pmatrix} 3+(-1) & -2+3 \\\\ 1+4 & 5+2 \\end{pmatrix} = \\begin{pmatrix} 2 & 1 \\\\ 5 & 7 \\end{pmatrix}$. Determinan dari $A+B$ adalah $(2)(7) - (1)(5) = 14 - 5 = 9$. (Catatan: Ada kesalahan dalam pilihan jawaban, hasil seharusnya 9. Jika pilihan E adalah 9, maka itu jawabannya)."
   },
   {
     "id": 25,
     "pertanyaan": "Dari satu set kartu remi (52 kartu), diambil 2 kartu sekaligus secara acak. Peluang terambilnya kedua kartu King adalah...",
-    "pilihan": ["A. $\\frac{1}{221}$", "B. $\\frac{1}{1326}$", "C. $\\frac{1}{2652}$", "D. $\\frac{2}{13}$", "E. $\\frac{4}{2652}$"],
+    "pilihan": [
+      "$\\frac{1}{221}$",
+      "$\\frac{1}{1326}$",
+      "$\\frac{1}{2652}$",
+      "$\\frac{2}{13}$",
+      "$\\frac{4}{2652}$"
+    ],
     "jawaban": "A",
     "pembahasan": "Jumlah total kartu adalah 52. Ada 4 kartu King. Banyak cara mengambil 2 kartu dari 52 adalah $C(52,2) = \\frac{52 \\times 51}{2 \\times 1} = 1326$. Banyak cara mengambil 2 kartu King dari 4 King adalah $C(4,2) = \\frac{4 \\times 3}{2 \\times 1} = 6$. Peluangnya adalah $\\frac{6}{1326} = \\frac{1}{221}$."
   },
   {
     "id": 26,
     "pertanyaan": "Jika $2^{x+2} = 12$ dan $3^{y+1} = 15$, maka nilai dari $6^{x+y}$ adalah...",
-    "pilihan": ["A. $180$", "B. $225$", "C. $300$", "D. $360$", "E. $450$"],
+    "pilihan": [
+      "$180$",
+      "$225$",
+      "$300$",
+      "$360$",
+      "$450$"
+    ],
     "jawaban": "A",
-    "pembahasan": "Dari $2^{x+2} = 12 \\implies 2^x \\cdot 2^2 = 12 \\implies 4 \cdot 2^x = 12 \\implies 2^x = 3$. Dari $3^{y+1} = 15 \\implies 3^y \\cdot 3^1 = 15 \\implies 3 \cdot 3^y = 15 \\implies 3^y = 5$. Kita ingin mencari $6^{x+y} = 6^x \\cdot 6^y = (2 \\cdot 3)^x \\cdot (2 \\cdot 3)^y = 2^x \\cdot 3^x \\cdot 2^y \\cdot 3^y$. Dari yang kita temukan: $2^x=3$ dan $3^y=5$. Jadi $6^{x+y} = (2^x \\cdot 3^y) \\cdot (3^x \\cdot 2^y)$. Kita tahu $2^x \cdot 3^y = 3 \cdot 5 = 15$. Untuk $3^x \cdot 2^y$, kita tidak punya informasi langsung. (Catatan: Ada kesalahan dalam soal atau pilihan jawaban. Dengan data yang diberikan, tidak bisa langsung menemukan $6^{x+y}$. Mungkin maksudnya $6^{x+y+1}$ atau $6^{x+y-1}$ atau ada kesalahan soal. Jika soalnya $6^{x+y}$ dan jawabannya A, maka $6^{x+y}=180$. Ini bisa terjadi jika $2^x=3$ dan $3^y=5$, dan sisanya somehow dikalikan 12. Soal ini bermasalah.)"
+    "pembahasan": "Dari $2^{x+2} = 12 \\implies 2^x \\cdot 2^2 = 12 \\implies 4 \\cdot 2^x = 12 \\implies 2^x = 3$. Dari $3^{y+1} = 15 \\implies 3^y \\cdot 3^1 = 15 \\implies 3 \\cdot 3^y = 15 \\implies 3^y = 5$. Kita ingin mencari $6^{x+y} = 6^x \\cdot 6^y = (2 \\cdot 3)^x \\cdot (2 \\cdot 3)^y = 2^x \\cdot 3^x \\cdot 2^y \\cdot 3^y$. Dari yang kita temukan: $2^x=3$ dan $3^y=5$. Jadi $6^{x+y} = (2^x \\cdot 3^y) \\cdot (3^x \\cdot 2^y)$. Kita tahu $2^x \cdot 3^y = 3 \\cdot 5 = 15$. Untuk $3^x \\cdot 2^y$, kita tidak punya informasi langsung. (Catatan: Ada kesalahan dalam soal atau pilihan jawaban. Dengan data yang diberikan, tidak bisa langsung menemukan $6^{x+y}$. Mungkin maksudnya $6^{x+y+1}$ atau $6^{x+y-1}$ atau ada kesalahan soal. Jika soalnya $6^{x+y}$ dan jawabannya A, maka $6^{x+y}=180$. Ini bisa terjadi jika $2^x=3$ dan $3^y=5$, dan sisanya somehow dikalikan 12. Soal ini bermasalah.)"
   },
   {
     "id": 27,
     "pertanyaan": "Persamaan garis normal kurva $y = x^3 - x^2 + 1$ di titik dengan absis $x = -1$ adalah...",
-    "pilihan": ["A. $y = -5x - 7$", "B. $y = -5x - 3$", "C. $y = \\frac{1}{5}x + \\frac{1}{5}$", "D. $y = \\frac{1}{5}x + \\frac{6}{5}$", "E. $y = \\frac{1}{5}x - \\frac{4}{5}$"],
+    "pilihan": [
+      "$y = -5x - 7$",
+      "$y = -5x - 3$",
+      "$y = \\frac{1}{5}x + \\frac{1}{5}$",
+      "$y = \\frac{1}{5}x + \\frac{6}{5}$",
+      "$y = \\frac{1}{5}x - \\frac{4}{5}$"
+    ],
     "jawaban": "D",
     "pembahasan": "Titik singgung: $x_1 = -1$. $y_1 = (-1)^3 - (-1)^2 + 1 = -1 - 1 + 1 = -1$. Jadi titiknya $(-1, -1)$. Gradien garis singgung $m_{singgung} = f'(x) = 3x^2 - 2x$. Di $x=-1$, $m_{singgung} = 3(-1)^2 - 2(-1) = 3 + 2 = 5$. Gradien garis normal $m_{normal} = -1/m_{singgung} = -1/5$. Persamaan garis normal: $y - y_1 = m_{normal}(x - x_1) \\implies y - (-1) = -\\frac{1}{5}(x - (-1)) \\implies y + 1 = -\\frac{1}{5}(x + 1) \\implies y + 1 = -\\frac{1}{5}x - \\frac{1}{5} \\implies y = -\\frac{1}{5}x - \\frac{1}{5} - 1 \\implies y = -\\frac{1}{5}x - \\frac{6}{5}$."
   },
   {
     "id": 28,
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $x^2 - 5x + 6 > 0$ adalah...",
-    "pilihan": ["A. $x < 2$ atau $x > 3$", "B. $x < 3$ atau $x > 2$", "C. $2 < x < 3$", "D. $-3 < x < -2$", "E. $x < -3$ atau $x > -2$"],
+    "pilihan": [
+      "$x < 2$ atau $x > 3$",
+      "$x < 3$ atau $x > 2$",
+      "$2 < x < 3$",
+      "$-3 < x < -2$",
+      "$x < -3$ atau $x > -2$"
+    ],
     "jawaban": "A",
     "pembahasan": "Faktorkan persamaan kuadrat: $(x-2)(x-3) > 0$. Akar-akar persamaan adalah $x=2$ dan $x=3$. Uji titik pada garis bilangan. Untuk $x < 2$ (misal $x=0$): $(-2)(-3) = 6 > 0$ (Benar). Untuk $2 < x < 3$ (misal $x=2.5$): $(0.5)(-0.5) = -0.25 < 0$ (Salah). Untuk $x > 3$ (misal $x=4$): $(2)(1) = 2 > 0$ (Benar). Jadi, himpunan penyelesaiannya adalah $x < 2$ atau $x > 3$."
   },
   {
     "id": 29,
     "pertanyaan": "Integral dari $\\int (4x^3 - 6x^2 + 2x - 7) dx$ adalah...",
-    "pilihan": ["A. $x^4 - 2x^3 + x^2 - 7x + C$", "B. $x^4 - 3x^3 + x^2 - 7x + C$", "C. $x^4 - 2x^3 + 2x^2 - 7x + C$", "D. $4x^4 - 6x^3 + 2x^2 - 7x + C$", "E. $12x^2 - 12x + 2 + C$"],
+    "pilihan": [
+      "$x^4 - 2x^3 + x^2 - 7x + C$",
+      "$x^4 - 3x^3 + x^2 - 7x + C$",
+      "$x^4 - 2x^3 + 2x^2 - 7x + C$",
+      "$4x^4 - 6x^3 + 2x^2 - 7x + C$",
+      "$12x^2 - 12x + 2 + C$"
+    ],
     "jawaban": "A",
     "pembahasan": "Gunakan aturan integral daya: $\\int 4x^3 dx = x^4$, $\\int -6x^2 dx = -2x^3$, $\\int 2x dx = x^2$, $\\int -7 dx = -7x$. Jadi hasilnya $x^4 - 2x^3 + x^2 - 7x + C$."
   },
   {
     "id": 30,
     "pertanyaan": "Diketahui fungsi kuadrat $f(x) = x^2 - 4x + p$. Jika fungsi tersebut memiliki nilai minimum -1, maka nilai $p$ adalah...",
-    "pilihan": ["A. 1", "B. 2", "C. 3", "D. 4", "E. 5"],
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
     "jawaban": "C",
     "pembahasan": "Nilai minimum fungsi kuadrat $f(x) = ax^2 + bx + c$ terjadi di $x = -b/(2a)$ dengan nilai minimum $f(-b/(2a))$. Untuk $f(x) = x^2 - 4x + p$, kita punya $a=1, b=-4$. Maka $x_{min} = -(-4)/(2 \\cdot 1) = 4/2 = 2$. Substitusikan $x=2$ ke $f(x)$ dan samakan dengan -1: $f(2) = (2)^2 - 4(2) + p = -1 \\implies 4 - 8 + p = -1 \\implies -4 + p = -1 \\implies p = 3$."
   },
   {
     "id": 31,
     "pertanyaan": "Pada sebuah segitiga PQR, diketahui panjang sisi $p = 10$ cm, $q = 12$ cm, dan sudut $R = 45^\\circ$. Luas segitiga tersebut adalah...",
-    "pilihan": ["A. $30\\sqrt{2}$ cm$^2$", "B. $30\\sqrt{3}$ cm$^2$", "C. $60$ cm$^2$", "D. $60\\sqrt{2}$ cm$^2$", "E. $60\\sqrt{3}$ cm$^2$"],
+    "pilihan": [
+      "$30\\sqrt{2}$ cm$^2$",
+      "$30\\sqrt{3}$ cm$^2$",
+      "$60$ cm$^2$",
+      "$60\\sqrt{2}$ cm$^2$",
+      "$60\\sqrt{3}$ cm$^2$"
+    ],
     "jawaban": "A",
     "pembahasan": "Gunakan rumus luas segitiga dengan dua sisi dan sudut apit: Luas $= \\frac{1}{2}pq \\sin R$. Luas $= \\frac{1}{2}(10)(12) \\sin 45^\\circ = \\frac{1}{2}(120) \\frac{\\sqrt{2}}{2} = 60 \\frac{\\sqrt{2}}{2} = 30\\sqrt{2}$ cm$^2$."
   },
   {
     "id": 32,
     "pertanyaan": "Jika $\\log_2 5 = m$ dan $\\log_5 7 = n$, maka $\\log_7 20$ adalah...",
-    "pilihan": ["A. $\\frac{2+m}{n}$", "B. $\\frac{2m}{n}$", "C. $\\frac{m+n}{mn}$", "D. $\\frac{2+m}{mn}$", "E. $\\frac{m}{2+n}$"],
+    "pilihan": [
+      "$\\frac{2+m}{n}$",
+      "$\\frac{2m}{n}$",
+      "$\\frac{m+n}{mn}$",
+      "$\\frac{2+m}{mn}$",
+      "$\\frac{m}{2+n}$"
+    ],
     "jawaban": "D",
     "pembahasan": "Ubah semua logaritma ke basis 2. $\\log_7 20 = \\frac{\\log_2 20}{\\log_2 7} = \\frac{\\log_2 (4 \\cdot 5)}{\\log_2 7} = \\frac{\\log_2 4 + \\log_2 5}{\\log_2 7}$. Kita tahu $\\log_2 4 = 2$ dan $\\log_2 5 = m$. Dari $\\log_5 7 = n$, maka $\\log_2 7 = \\log_2 5 \\cdot \\log_5 7 = m \\cdot n = mn$. Substitusikan nilai-nilai ini: $\\frac{2 + m}{mn}$."
   },
   {
     "id": 33,
     "pertanyaan": "Persamaan garis singgung lingkaran $x^2 + y^2 = 25$ di titik $(3, -4)$ adalah...",
-    "pilihan": ["A. $3x - 4y = 25$", "B. $3x + 4y = 25$", "C. $4x - 3y = 25$", "D. $4x + 3y = 25$", "E. $3x - 4y = 5$"],
+    "pilihan": [
+      "$3x - 4y = 25$",
+      "$3x + 4y = 25$",
+      "$4x - 3y = 25$",
+      "$4x + 3y = 25$",
+      "$3x - 4y = 5$"
+    ],
     "jawaban": "A",
     "pembahasan": "Persamaan garis singgung lingkaran $x^2 + y^2 = r^2$ di titik $(x_1, y_1)$ adalah $x_1x + y_1y = r^2$. Dengan $x_1=3$, $y_1=-4$, dan $r^2=25$: $3x + (-4)y = 25 \\implies 3x - 4y = 25$."
   },
   {
     "id": 34,
     "pertanyaan": "Rata-rata nilai ujian 15 siswa adalah 80. Jika nilai 5 siswa lainnya ditambahkan, rata-rata seluruh siswa menjadi 78. Rata-rata nilai 5 siswa yang ditambahkan tersebut adalah...",
-    "pilihan": ["A. 70", "B. 72", "C. 74", "D. 76", "E. 78"],
+    "pilihan": [
+      "70",
+      "72",
+      "74",
+      "76",
+      "78"
+    ],
     "jawaban": "B",
     "pembahasan": "Jumlah nilai 15 siswa = $15 \\times 80 = 1200$. Jumlah siswa total = $15 + 5 = 20$. Rata-rata baru = 78. Jumlah nilai 20 siswa = $20 \\times 78 = 1560$. Jumlah nilai 5 siswa baru = $1560 - 1200 = 360$. Rata-rata 5 siswa baru = $360 / 5 = 72$."
   },
   {
     "id": 35,
     "pertanyaan": "Jika $(x, y)$ adalah penyelesaian dari sistem persamaan $4x - 3y = 1$ dan $2x + 5y = 17$, maka nilai dari $x - y$ adalah...",
-    "pilihan": ["A. -2", "B. -1", "C. 0", "D. 1", "E. 2"],
+    "pilihan": [
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
     "jawaban": "A",
     "pembahasan": "Eliminasi $x$: Kalikan persamaan kedua dengan 2: $4x + 10y = 34$. Kurangkan persamaan pertama dari hasil ini: $(4x + 10y) - (4x - 3y) = 34 - 1 \\implies 13y = 33 \\implies y = 33/13$. Substitusikan $y$ untuk mencari $x$: $2x + 5(33/13) = 17 \\implies 2x + 165/13 = 17 \\implies 2x = 17 - 165/13 = (221 - 165)/13 = 56/13 \\implies x = 28/13$. Maka $x - y = 28/13 - 33/13 = -5/13$. (Catatan: Ada kesalahan dalam pilihan jawaban atau perhitungan, hasil seharusnya $-5/13$. Jika pilihan A adalah $-5/13$, maka itu jawabannya.)"
   },
   {
     "id": 36,
     "pertanyaan": "Diketahui kubus ABCD.EFGH dengan panjang rusuk 10 cm. Jarak titik F ke bidang diagonal ACGE adalah...",
-    "pilihan": ["A. $5\\sqrt{2}$ cm", "B. $5\\sqrt{3}$ cm", "C. $10$ cm", "D. $10\\sqrt{2}$ cm", "E. $10\\sqrt{3}$ cm"],
+    "pilihan": [
+      "$5\\sqrt{2}$ cm",
+      "$5\\sqrt{3}$ cm",
+      "$10$ cm",
+      "$10\\sqrt{2}$ cm",
+      "$10\\sqrt{3}$ cm"
+    ],
     "jawaban": "A",
-    "pembahasan": "Bidang diagonal ACGE adalah bidang yang membagi kubus menjadi dua bagian yang sama. Jarak titik F ke bidang ACGE adalah setengah dari panjang diagonal bidang ABCD (atau EFGH) yang tegak lurus dengan bidang tersebut. Diagonal bidang adalah $s\\sqrt{2}$. Jadi, diagonal AF atau CG adalah $10\\sqrt{2}$ cm. Jarak titik F ke bidang ACGE sama dengan jarak F ke proyeksinya pada bidang ACGE, yang merupakan setengah dari diagonal bidang EFGH, yaitu $\\frac{1}{2} EF = \\frac{1}{2} (10\\sqrt{2}) = 5\\sqrt{2}$ cm."
+    "pembahasan": "Bidang diagonal ACGE adalah bidang yang membagi kubus menjadi dua bagian yang sama. Jarak titik F ke bidang ACGE adalah setengah dari panjang diagonal bidang ABCD (atau EFGH) yang tegak lurus dengan bidang tersebut. Diagonal bidang adalah $s\\sqrt{2}$. Jadi, diagonal AF atau CG adalah $10\\sqrt{2}$ cm. Jarak titik F ke bidang ACGE sama dengan jarak F ke proyeksinya pada bidang ACGE, yang merupakan setengah dari diagonal bidang EFGH, yaitu $\\frac{1}{2} (10\\sqrt{2}) = 5\\sqrt{2}$ cm."
   },
   {
     "id": 37,
     "pertanyaan": "Turunan pertama dari $f(x) = (3x^2 - 5x)^4$ adalah $f'(x) = \\dots$",
-    "pilihan": ["A. $4(3x^2 - 5x)^3$", "B. $4(6x - 5)(3x^2 - 5x)^3$", "C. $(6x - 5)(3x^2 - 5x)^3$", "D. $12x(3x^2 - 5x)^3$", "E. $4(6x - 5)$"],
+    "pilihan": [
+      "$4(3x^2 - 5x)^3$",
+      "$4(6x - 5)(3x^2 - 5x)^3$",
+      "$(6x - 5)(3x^2 - 5x)^3$",
+      "$12x(3x^2 - 5x)^3$",
+      "$4(6x - 5)$"
+    ],
     "jawaban": "B",
     "pembahasan": "Gunakan aturan rantai: $f'(x) = n[u(x)]^{n-1} \\cdot u'(x)$. Di sini $u(x) = 3x^2 - 5x$, jadi $u'(x) = 6x - 5$. Maka $f'(x) = 4(3x^2 - 5x)^{4-1} \\cdot (6x - 5) = 4(6x - 5)(3x^2 - 5x)^3$."
   },
   {
     "id": 38,
     "pertanyaan": "Sebuah deret geometri tak hingga mempunyai suku pertama 15 dan rasio $\\frac{2}{3}$. Jumlah tak hingga deret tersebut adalah...",
-    "pilihan": ["A. 25", "B. 30", "C. 35", "D. 40", "E. 45"],
+    "pilihan": [
+      "25",
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
     "jawaban": "E",
     "pembahasan": "Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\frac{a}{1 - r}$. Diketahui $a = 15$ dan $r = \\frac{2}{3}$. $S_\\infty = \\frac{15}{1 - \\frac{2}{3}} = \\frac{15}{\\frac{1}{3}} = 15 \\cdot 3 = 45$."
   },
   {
     "id": 39,
     "pertanyaan": "Fungsi $f(x) = x^3 - 3x^2 + 5$ akan cekung ke atas pada interval...",
-    "pilihan": ["A. $x < 1$", "B. $x > 1$", "C. $x < 0$", "D. $x > 0$", "E. $0 < x < 1$"],
+    "pilihan": [
+      "$x < 1$",
+      "$x > 1$",
+      "$x < 0$",
+      "$x > 0$",
+      "$0 < x < 1$"
+    ],
     "jawaban": "B",
     "pembahasan": "Cari turunan pertama $f'(x) = 3x^2 - 6x$. Cari turunan kedua $f''(x) = 6x - 6$. Fungsi cekung ke atas jika $f''(x) > 0$. $6x - 6 > 0 \\implies 6x > 6 \\implies x > 1$. Jadi, fungsi cekung ke atas pada interval $x > 1$."
   },
   {
     "id": 40,
     "pertanyaan": "Dari angka-angka 1, 2, 3, 4, 5 akan dibentuk bilangan genap yang terdiri dari 3 angka berbeda. Banyaknya bilangan yang dapat dibentuk adalah...",
-    "pilihan": ["A. 12", "B. 24", "C. 30", "D. 36", "E. 60"],
+    "pilihan": [
+      "12",
+      "24",
+      "30",
+      "36",
+      "60"
+    ],
     "jawaban": "B",
     "pembahasan": "Kita akan membentuk bilangan genap 3 angka berbeda. Angka genap yang tersedia adalah 2, 4 (ada 2 angka). Posisi Satuan: Hanya bisa diisi oleh 2 atau 4 (2 pilihan). Posisi Ratusan: Dari 5 angka, 1 sudah dipakai untuk satuan. Sisa 4 angka. (4 pilihan). Posisi Puluhan: Dari 4 angka yang tersisa, 1 sudah dipakai untuk ratusan. Sisa 3 angka. (3 pilihan). Banyaknya bilangan yang dapat dibentuk = (Pilihan Ratusan) $\\times$ (Pilihan Puluhan) $\\times$ (Pilihan Satuan) = $4 \\times 3 \\times 2 = 24$."
   }
