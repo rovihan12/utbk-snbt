@@ -1,6 +1,6 @@
 [
   {
-    "id": 121,
+    "id": 101,
     "pertanyaan": "Diketahui fungsi $f(x) = 3x^2 - 5x + 2$. Nilai dari $f(4)$ adalah...",
     "pilihan": [
       "20",
@@ -13,7 +13,7 @@
     "pembahasan": "Untuk mencari nilai $f(4)$, substitusikan $x=4$ ke dalam fungsi $f(x)$.\n$f(4) = 3(4)^2 - 5(4) + 2$\n$f(4) = 3(16) - 20 + 2$\n$f(4) = 48 - 20 + 2$\n$f(4) = 28 + 2$\n$f(4) = 30$."
   },
   {
-    "id": 122,
+    "id": 102,
     "pertanyaan": "Bentuk sederhana dari $(2x - 3)^2$ adalah...",
     "pilihan": [
       "$4x^2 - 9$",
@@ -26,7 +26,7 @@
     "pembahasan": "Kita gunakan rumus $(a-b)^2 = a^2 - 2ab + b^2$.\nDalam kasus ini, $a = 2x$ dan $b = 3$.\n$(2x - 3)^2 = (2x)^2 - 2(2x)(3) + (3)^2$\n$= 4x^2 - 12x + 9$."
   },
   {
-    "id": 123,
+    "id": 103,
     "pertanyaan": "Sebuah lingkaran memiliki keliling 44 cm. Jari-jari lingkaran tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)",
     "pilihan": [
       "3.5 cm",
@@ -39,7 +39,7 @@
     "pembahasan": "Rumus keliling lingkaran adalah $K = 2\\pi r$, di mana $K$ adalah keliling dan $r$ adalah jari-jari.\nDiketahui $K = 44$ cm dan $\\pi = \\frac{22}{7}$.\n$44 = 2 \\cdot \\frac{22}{7} \\cdot r$\n$44 = \\frac{44}{7} r$\nUntuk mencari $r$, kalikan kedua sisi dengan $\\frac{7}{44}$:\n$r = 44 \\cdot \\frac{7}{44}$\n$r = 7$ cm."
   },
   {
-    "id": 124,
+    "id": 104,
     "pertanyaan": "Titik potong grafik fungsi kuadrat $y = x^2 - 5x + 6$ dengan sumbu X adalah...",
     "pilihan": [
       "$(2,0)$ dan $(3,0)$",
@@ -52,7 +52,7 @@
     "pembahasan": "Titik potong dengan sumbu X terjadi ketika $y = 0$.\n$x^2 - 5x + 6 = 0$\nFaktorkan persamaan kuadrat:\n$(x - 2)(x - 3) = 0$\nJadi, $x - 2 = 0 \\implies x = 2$ atau $x - 3 = 0 \\implies x = 3$.\nTitik potongnya adalah $(2,0)$ dan $(3,0)$."
   },
   {
-    "id": 125,
+    "id": 105,
     "pertanyaan": "Hasil dari $\\sum_{n=1}^{4} (2n + 1)$ adalah...",
     "pilihan": [
       "16",
@@ -65,7 +65,7 @@
     "pembahasan": "Kita akan menjumlahkan nilai $(2n + 1)$ untuk $n$ dari 1 sampai 4.\nUntuk $n=1: 2(1) + 1 = 3$\nUntuk $n=2: 2(2) + 1 = 5$\nUntuk $n=3: 2(3) + 1 = 7$\nUntuk $n=4: 2(4) + 1 = 9$\nJumlahnya adalah $3 + 5 + 7 + 9 = 24$."
   },
   {
-    "id": 126,
+    "id": 106,
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $2x - 5 < 7$ adalah...",
     "pilihan": [
       "$x < 1$",
@@ -78,7 +78,7 @@
     "pembahasan": "Untuk menyelesaikan pertidaksamaan $2x - 5 < 7$, kita isolasi $x$.\n$2x - 5 < 7$\nTambahkan 5 ke kedua sisi:\n$2x < 7 + 5$\n$2x < 12$\nBagi kedua sisi dengan 2:\n$x < \\frac{12}{2}$\n$x < 6$."
   },
   {
-    "id": 127,
+    "id": 107,
     "pertanyaan": "Jika sebuah dadu dilempar satu kali, peluang muncul mata dadu prima adalah...",
     "pilihan": [
       "$\\frac{1}{6}$",
@@ -91,7 +91,7 @@
     "pembahasan": "Ruang sampel pelemparan satu dadu adalah $S = \\{1, 2, 3, 4, 5, 6\\}$, jadi total ada 6 kemungkinan hasil.\nMata dadu prima adalah angka yang hanya bisa dibagi habis oleh 1 dan dirinya sendiri. Dari ruang sampel, angka prima adalah $\\{2, 3, 5\\}$. Jadi, ada 3 mata dadu prima.\nPeluang = $\\frac{\\text{Jumlah hasil yang diinginkan}}{\\text{Jumlah total hasil}} = \\frac{3}{6} = \\frac{1}{2}$."
   },
   {
-    "id": 128,
+    "id": 108,
     "pertanyaan": "Limit dari $\\lim_{x \\to 2} (x^2 + 3x - 1)$ adalah...",
     "pilihan": [
       "1",
@@ -104,7 +104,7 @@
     "pembahasan": "Karena ini adalah limit fungsi polinomial, kita bisa langsung substitusikan nilai $x$ ke dalam fungsi.\n$\\lim_{x \\to 2} (x^2 + 3x - 1) = (2)^2 + 3(2) - 1$\n$= 4 + 6 - 1$\n$= 10 - 1$\n$= 9$."
   },
   {
-    "id": 129,
+    "id": 109,
     "pertanyaan": "Diketahui barisan aritmetika dengan suku pertama 4 dan beda 3. Suku ke-7 barisan tersebut adalah...",
     "pilihan": [
       "19",
@@ -117,7 +117,7 @@
     "pembahasan": "Rumus suku ke-$n$ pada barisan aritmetika adalah $U_n = a + (n-1)d$, di mana $a$ adalah suku pertama, $d$ adalah beda, dan $n$ adalah suku yang dicari.\nDiketahui:\n* Suku pertama ($a$) = 4\n* Beda ($d$) = 3\n* Suku yang dicari ($n$) = 7\nSubstitusikan nilai-nilai ini ke dalam rumus:\n$U_7 = 4 + (7-1)3$\n$U_7 = 4 + (6)3$\n$U_7 = 4 + 18$\n$U_7 = 22$."
   },
   {
-    "id": 130,
+    "id": 110,
     "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga sebuah tas sebelum diskon adalah Rp 150.000, harga tas setelah diskon adalah...",
     "pilihan": [
       "Rp 100.000",
@@ -130,7 +130,7 @@
     "pembahasan": "Diskon = 20% dari Rp 150.000\nDiskon = $\\frac{20}{100} \\times 150.000 = 0.20 \\times 150.000 = 30.000$.\nHarga tas setelah diskon = Harga sebelum diskon - Diskon\n$= 150.000 - 30.000 = 120.000$.\nJadi, harga tas setelah diskon adalah Rp 120.000."
   },
   {
-    "id": 131,
+    "id": 111,
     "pertanyaan": "Turunan pertama dari fungsi $f(x) = (3x - 2)^4$ adalah...",
     "pilihan": [
       "$4(3x - 2)^3$",
@@ -143,7 +143,7 @@
     "pembahasan": "Gunakan aturan rantai untuk turunan fungsi komposisi. Jika $f(x) = [g(x)]^n$, maka $f'(x) = n[g(x)]^{n-1} \\cdot g'(x)$.\nDalam kasus ini, $g(x) = 3x - 2$ dan $n = 4$.\nTurunan dari $g(x)$ adalah $g'(x) = \\frac{d}{dx}(3x - 2) = 3$.\nJadi, $f'(x) = 4(3x - 2)^{4-1} \\cdot 3$\n$f'(x) = 4(3x - 2)^3 \\cdot 3$\n$f'(x) = 12(3x - 2)^3$."
   },
   {
-    "id": 132,
+    "id": 112,
     "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$. Hasil dari $A^2 - \\begin{pmatrix} 7 & 0 \\\\ 0 & 19 \\end{pmatrix}$ adalah...",
     "pilihan": [
       "$\\begin{pmatrix} 0 & 6 \\\\ 18 & 0 \\end{pmatrix}$",
@@ -156,7 +156,7 @@
     "pembahasan": "Langkah 1: Hitung $A^2$.\n$A^2 = A \\cdot A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$\n$= \\begin{pmatrix} (2)(2) + (1)(3) & (2)(1) + (1)(4) \\\\ (3)(2) + (4)(3) & (3)(1) + (4)(4) \\end{pmatrix}$\n$= \\begin{pmatrix} 4 + 3 & 2 + 4 \\\\ 6 + 12 & 3 + 16 \\end{pmatrix}$\n$= \\begin{pmatrix} 7 & 6 \\\\ 18 & 19 \\end{pmatrix}$.\nLangkah 2: Kurangkan hasil $A^2$ dengan matriks $\\begin{pmatrix} 7 & 0 \\\\ 0 & 19 \\end{pmatrix}$.\n$A^2 - \\begin{pmatrix} 7 & 0 \\\\ 0 & 19 \\end{pmatrix} = \\begin{pmatrix} 7 & 6 \\\\ 18 & 19 \\end{pmatrix} - \\begin{pmatrix} 7 & 0 \\\\ 0 & 19 \\end{pmatrix}$\n$= \\begin{pmatrix} 7 - 7 & 6 - 0 \\\\ 18 - 0 & 19 - 19 \\end{pmatrix}$\n$= \\begin{pmatrix} 0 & 6 \\\\ 18 & 0 \\end{pmatrix}$.\nJadi, hasilnya sesuai dengan pilihan A."
   },
   {
-    "id": 133,
+    "id": 113,
     "pertanyaan": "Panjang diagonal ruang sebuah kubus dengan panjang rusuk 6 cm adalah...",
     "pilihan": [
       "$6\\sqrt{2}$ cm",
@@ -169,7 +169,7 @@
     "pembahasan": "Rumus panjang diagonal ruang kubus adalah $s\\sqrt{3}$, di mana $s$ adalah panjang rusuk kubus.\nDiketahui panjang rusuk ($s$) = 6 cm.\nPanjang diagonal ruang = $6\\sqrt{3}$ cm."
   },
   {
-    "id": 134,
+    "id": 114,
     "pertanyaan": "Persamaan lingkaran yang berpusat di $(0,0)$ dan berjari-jari 5 adalah...",
     "pilihan": [
       "$x^2 + y^2 = 5$",
@@ -182,7 +182,7 @@
     "pembahasan": "Rumus umum persamaan lingkaran yang berpusat di $(h,k)$ dengan jari-jari $r$ adalah $(x-h)^2 + (y-k)^2 = r^2$.\nUntuk lingkaran yang berpusat di $(0,0)$, maka $h=0$ dan $k=0$. Jari-jari $r=5$.\nSubstitusikan nilai-nilai ini:\n$(x-0)^2 + (y-0)^2 = 5^2$\n$x^2 + y^2 = 25$."
   },
   {
-    "id": 135,
+    "id": 115,
     "pertanyaan": "Bentuk sederhana dari $\\frac{x^2 - 4}{x - 2}$ adalah...",
     "pilihan": [
       "$x - 2$",
@@ -195,7 +195,7 @@
     "pembahasan": "Faktorkan pembilang menggunakan rumus selisih kuadrat $a^2 - b^2 = (a-b)(a+b)$.\n$x^2 - 4 = x^2 - 2^2 = (x - 2)(x + 2)$.\nJadi, ekspresi tersebut menjadi:\n$\\frac{(x - 2)(x + 2)}{x - 2}$\nAsalkan $x \\ne 2$, kita bisa membatalkan faktor $(x-2)$ dari pembilang dan penyebut.\nHasilnya adalah $x + 2$."
   },
   {
-    "id": 136,
+    "id": 116,
     "pertanyaan": "Dalam suatu kelas, nilai rata-rata ujian matematika adalah 75. Jika 3 siswa yang rata-ratanya 80 keluar dari kelas, dan 3 siswa yang rata-ratanya 70 masuk ke kelas, rata-rata nilai kelas sekarang menjadi 74. Jumlah siswa semula dalam kelas adalah...",
     "pilihan": [
       "20",
@@ -208,7 +208,7 @@
     "pembahasan": "Misalkan jumlah siswa semula adalah $N$ dan total nilai semula adalah $T$.\nRata-rata awal: $\\frac{T}{N} = 75 \\implies T = 75N$.\n3 siswa keluar dengan rata-rata 80. Total nilai yang keluar = $3 \\times 80 = 240$.\n3 siswa masuk dengan rata-rata 70. Total nilai yang masuk = $3 \\times 70 = 210$.\nJumlah siswa baru = $N - 3 + 3 = N$ (jumlah siswa tidak berubah).\nTotal nilai baru = $T - 240 + 210 = T - 30$.\nRata-rata baru = $\\frac{T - 30}{N} = 74$.\nSubstitusikan $T = 75N$:\n$\\frac{75N - 30}{N} = 74$\n$75N - 30 = 74N$\n$75N - 74N = 30$\n$N = 30$.\nJadi, jumlah siswa semula dalam kelas adalah 30."
   },
   {
-    "id": 137,
+    "id": 117,
     "pertanyaan": "Penyelesaian dari sistem persamaan linear $x + y = 5$ dan $2x - y = 4$ adalah...",
     "pilihan": [
       "$x=1, y=4$",
@@ -221,7 +221,7 @@
     "pembahasan": "Kita memiliki sistem persamaan:\n1.  $x + y = 5$\n2.  $2x - y = 4$\n\nLangkah 1: Gunakan metode eliminasi. Tambahkan Persamaan 1 dan Persamaan 2 untuk mengeliminasi $y$.\n$(x + y) + (2x - y) = 5 + 4$\n$3x = 9$\n$x = 3$.\n\nLangkah 2: Substitusikan nilai $x=3$ ke dalam salah satu persamaan (misal Persamaan 1) untuk mencari $y$.\n$3 + y = 5$\n$y = 5 - 3$\n$y = 2$.\n\nJadi, penyelesaian sistem persamaan tersebut adalah $x=3$ dan $y=2$."
   },
   {
-    "id": 138,
+    "id": 118,
     "pertanyaan": "Nilai dari $\\log_3 27 + \\log_3 9 - \\log_3 3$ adalah...",
     "pilihan": [
       "2",
@@ -234,7 +234,7 @@
     "pembahasan": "Gunakan sifat-sifat logaritma:\n* $\\log_b b^x = x$\n* $\\log_b (MN) = \\log_b M + \\log_b N$\n* $\\log_b (M/N) = \\log_b M - \\log_b N$\n\nKita hitung nilai masing-masing suku:\n$\\log_3 27 = \\log_3 3^3 = 3$\n$\\log_3 9 = \\log_3 3^2 = 2$\n$\\log_3 3 = 1$\n\nSubstitusikan nilai-nilai ini:\n$3 + 2 - 1 = 5 - 1 = 4$."
   },
   {
-    "id": 139,
+    "id": 119,
     "pertanyaan": "Median dari data 7, 8, 6, 9, 5, 10, 7 adalah...",
     "pilihan": [
       "6",
@@ -247,7 +247,7 @@
     "pembahasan": "Langkah 1: Urutkan data dari yang terkecil hingga terbesar.\nData yang diberikan: 7, 8, 6, 9, 5, 10, 7.\nData terurut: 5, 6, 7, 7, 8, 9, 10.\n\nLangkah 2: Tentukan jumlah data ($n$).\nJumlah data ($n$) = 7.\n\nLangkah 3: Karena jumlah data ganjil, median adalah data ke-$\\frac{n+1}{2}$.\nMedian = data ke-$\\frac{7+1}{2}$ = data ke-$\\frac{8}{2}$ = data ke-4.\n\nLihat data yang sudah terurut, data ke-4 adalah 7.\nJadi, median dari data tersebut adalah 7."
   },
   {
-    "id": 140,
+    "id": 120,
     "pertanyaan": "Sebuah fungsi $f(x) = x^2 - 4x + c$ memiliki nilai minimum 5. Nilai $c$ adalah...",
     "pilihan": [
       "1",
