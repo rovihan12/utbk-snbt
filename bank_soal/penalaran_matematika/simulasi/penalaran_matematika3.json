@@ -1,144 +1,142 @@
-
 [
   {
     "id": 41,
     "pertanyaan": "Jika $f(x) = 3x + 2$ dan $g(x) = x^2 - 4x + 1$, maka $(f \\circ g)(x)$ adalah...",
-    "pilihan": ["A. $3x^2 - 12x + 5$", "B. $3x^2 - 12x + 3$", "C. $9x^2 + 12x + 5$", "D. $9x^2 + 6x + 3$", "E. $x^2 - 4x + 3$"],
+    "pilihan": ["$3x^2 - 12x + 5$", "$3x^2 - 12x + 3$", "$9x^2 + 12x + 5$", "$9x^2 + 6x + 3$", "$x^2 - 4x + 3$"],
     "jawaban": "A",
     "pembahasan": "Diketahui $f(x) = 3x + 2$ dan $g(x) = x^2 - 4x + 1$. Maka $(f \\circ g)(x) = f(g(x)) = f(x^2 - 4x + 1)$. Substitusikan $g(x)$ ke dalam $f(x)$: $3(x^2 - 4x + 1) + 2 = 3x^2 - 12x + 3 + 2 = 3x^2 - 12x + 5$."
   },
   {
     "id": 42,
     "pertanyaan": "Diketahui suku ke-4 dan suku ke-8 suatu barisan aritmetika berturut-turut adalah 17 dan 33. Suku ke-10 barisan tersebut adalah...",
-    "pilihan": ["A. 37", "B. 39", "C. 41", "D. 43", "E. 45"],
+    "pilihan": ["37", "39", "41", "43", "45"],
     "jawaban": "C",
     "pembahasan": "Diketahui $U_4 = 17$ dan $U_8 = 33$. Dalam barisan aritmetika, $U_n = a + (n-1)b$. Jadi $a + 3b = 17$ (1) dan $a + 7b = 33$ (2). Kurangkan (1) dari (2): $4b = 16 \\implies b = 4$. Substitusikan $b=4$ ke (1): $a + 3(4) = 17 \\implies a + 12 = 17 \\implies a = 5$. Suku ke-10 adalah $U_{10} = a + 9b = 5 + 9(4) = 5 + 36 = 41$."
   },
   {
     "id": 43,
     "pertanyaan": "Nilai $\\lim_{x \\to 5} \\frac{x^2 - 25}{2x - 10}$ adalah...",
-    "pilihan": ["A. 0", "B. 2.5", "C. 5", "D. 10", "E. Tak hingga"],
+    "pilihan": ["0", "2.5", "5", "10", "Tak hingga"],
     "jawaban": "C",
     "pembahasan": "Substitusi langsung menghasilkan $\\frac{0}{0}$. Faktorkan pembilang dan penyebut: $\\lim_{x \\to 5} \\frac{(x-5)(x+5)}{2(x - 5)} = \\lim_{x \\to 5} \\frac{x+5}{2}$. Substitusikan $x=5$: $\\frac{5+5}{2} = \\frac{10}{2} = 5$."
   },
   {
     "id": 44,
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & -3 \\\\ 2 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 0 & 2 \\\\ -1 & 5 \\end{pmatrix}$, maka matriks $A \\cdot B$ adalah...",
-    "pilihan": ["A. $\\begin{pmatrix} 3 & -13 \\\\ -4 & 24 \\end{pmatrix}$", "B. $\\begin{pmatrix} 3 & -13 \\\\ 4 & 24 \\end{pmatrix}$", "C. $\\begin{pmatrix} -3 & 13 \\\\ -4 & 24 \\end{pmatrix}$", "D. $\\begin{pmatrix} 3 & 13 \\\\ 4 & -24 \\end{pmatrix}$", "E. $\\begin{pmatrix} 3 & -13 \\\\ 4 & -24 \\end{pmatrix}$"],
+    "pilihan": ["$\\begin{pmatrix} 3 & -13 \\\\ -4 & 24 \\end{pmatrix}$", "$\\begin{pmatrix} 3 & -13 \\\\ 4 & 24 \\end{pmatrix}$", "$\\begin{pmatrix} -3 & 13 \\\\ -4 & 24 \\end{pmatrix}$", "$\\begin{pmatrix} 3 & 13 \\\\ 4 & -24 \\end{pmatrix}$", "$\\begin{pmatrix} 3 & -13 \\\\ 4 & -24 \\end{pmatrix}$"],
     "jawaban": "A",
     "pembahasan": "Untuk perkalian matriks $A \\cdot B$: Elemen $(1,1) = (1)(0) + (-3)(-1) = 0 + 3 = 3$. Elemen $(1,2) = (1)(2) + (-3)(5) = 2 - 15 = -13$. Elemen $(2,1) = (2)(0) + (4)(-1) = 0 - 4 = -4$. Elemen $(2,2) = (2)(2) + (4)(5) = 4 + 20 = 24$. Jadi $A \\cdot B = \\begin{pmatrix} 3 & -13 \\\\ -4 & 24 \\end{pmatrix}$."
   },
   {
     "id": 45,
     "pertanyaan": "Sebuah dadu dilemparkan sebanyak 180 kali. Frekuensi harapan munculnya mata dadu bilangan prima adalah...",
-    "pilihan": ["A. 30", "B. 60", "C. 90", "D. 120", "E. 150"],
+    "pilihan": ["30", "60", "90", "120", "150"],
     "jawaban": "C",
     "pembahasan": "Mata dadu bilangan prima adalah 2, 3, 5 (ada 3). Total mata dadu adalah 6. Peluang muncul mata dadu prima $P(prima) = \\frac{3}{6} = \\frac{1}{2}$. Frekuensi harapan = Peluang $\\times$ Jumlah percobaan = $\\frac{1}{2} \\times 180 = 90$."
   },
   {
     "id": 46,
     "pertanyaan": "Jika $3^{x-1} = 9$ dan $2^{y+1} = 8$, maka nilai dari $x+y$ adalah...",
-    "pilihan": ["A. 4", "B. 5", "C. 6", "D. 7", "E. 8"],
+    "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "B",
     "pembahasan": "Dari $3^{x-1} = 9 \\implies 3^{x-1} = 3^2 \\implies x-1 = 2 \\implies x = 3$. Dari $2^{y+1} = 8 \\implies 2^{y+1} = 2^3 \\implies y+1 = 3 \\implies y = 2$. Maka $x+y = 3+2 = 5$. Pilihan **B** adalah 5, sehingga ini adalah jawaban yang benar."
   },
   {
     "id": 47,
     "pertanyaan": "Gradien garis singgung kurva $y = \\frac{1}{x} + x^2$ di titik $x = 1$ adalah...",
-    "pilihan": ["A. -1", "B. 0", "C. 1", "D. 2", "E. 3"],
+    "pilihan": ["-1", "0", "1", "2", "3"],
     "jawaban": "C",
     "pembahasan": "Turunan pertama $y' = -x^{-2} + 2x = -\\frac{1}{x^2} + 2x$. Substitusikan $x=1$ ke dalam turunan: $y'(1) = -\\frac{1}{1^2} + 2(1) = -1 + 2 = 1$."
   },
   {
     "id": 48,
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $|x - 4| < 3$ adalah...",
-    "pilihan": ["A. $x < 1$ atau $x > 7$", "B. $1 < x < 7$", "C. $x < -1$ atau $x > -7$", "D. $-7 < x < -1$", "E. $x > 4$"],
+    "pilihan": ["$x < 1$ atau $x > 7$", "$1 < x < 7$", "$x < -1$ atau $x > -7$", "$-7 < x < -1$", "$x > 4$"],
     "jawaban": "B",
     "pembahasan": "Pertidaksamaan mutlak $|ax+b| < c$ dapat dipecah menjadi $-c < ax+b < c$. Untuk $|x - 4| < 3$: $-3 < x - 4 < 3$. Tambahkan 4 ke semua bagian: $-3 + 4 < x < 3 + 4 \\implies 1 < x < 7$."
   },
   {
     "id": 49,
     "pertanyaan": "Hasil dari $\\int_1^2 (3x^2 - 4x + 1) dx$ adalah...",
-    "pilihan": ["A. 0", "B. 1", "C. 2", "D. 3", "E. 4"],
+    "pilihan": ["0", "1", "2", "3", "4"],
     "jawaban": "C",
     "pembahasan": "Hitung integral tak tentu terlebih dahulu: $\\int (3x^2 - 4x + 1) dx = x^3 - 2x^2 + x + C$. Sekarang evaluasi integral tentu dari 1 sampai 2: $[(2)^3 - 2(2)^2 + 2] - [(1)^3 - 2(1)^2 + 1] = [8 - 8 + 2] - [1 - 2 + 1] = [2] - [0] = 2$."
   },
   {
     "id": 50,
     "pertanyaan": "Diketahui fungsi kuadrat $f(x) = -x^2 + bx - 9$ memiliki sumbu simetri $x = 2$. Nilai maksimum fungsi tersebut adalah...",
-    "pilihan": ["A. -5", "B. -4", "C. -3", "D. -2", "E. -1"],
+    "pilihan": ["-5", "-4", "-3", "-2", "-1"],
     "jawaban": "A",
     "pembahasan": "Sumbu simetri fungsi kuadrat $x = -b/(2a)$. Diketahui $a=-1$ dan sumbu simetri $x=2$. Maka $2 = -b/(2(-1)) \\implies 2 = b/2 \\implies b = 4$. Fungsi menjadi $f(x) = -x^2 + 4x - 9$. Nilai maksimum terjadi di sumbu simetri $x=2$: $f(2) = -(2)^2 + 4(2) - 9 = -4 + 8 - 9 = 4 - 9 = -5$."
   },
   {
     "id": 51,
     "pertanyaan": "Pada sebuah segitiga DEF, diketahui panjang sisi $d = 8$ cm, $e = 10$ cm, dan sudut $F = 60^\\circ$. Panjang sisi $f$ adalah...",
-    "pilihan": ["A. $2\\sqrt{21}$ cm", "B. $2\\sqrt{19}$ cm", "C. $2\\sqrt{23}$ cm", "D. $2\\sqrt{26}$ cm", "E. $2\\sqrt{31}$ cm"],
+    "pilihan": ["$2\\sqrt{21}$ cm", "$2\\sqrt{19}$ cm", "$2\\sqrt{23}$ cm", "$2\\sqrt{26}$ cm", "$2\\sqrt{31}$ cm"],
     "jawaban": "A",
     "pembahasan": "Gunakan aturan kosinus: $f^2 = d^2 + e^2 - 2de \\cos F$. $f^2 = (8)^2 + (10)^2 - 2(8)(10) \\cos 60^\\circ = 64 + 100 - 160(\\frac{1}{2}) = 164 - 80 = 84$. Maka $f = \\sqrt{84} = \\sqrt{4 \\times 21} = 2\\sqrt{21}$ cm. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 52,
     "pertanyaan": "Jika $\\log_3 4 = a$ dan $\\log_4 5 = b$, maka $\\log_{15} 9$ adalah...",
-    "pilihan": ["A. $\\frac{2}{ab+1}$", "B. $\\frac{2}{a(b+1)}$", "C. $\\frac{a+b}{2a}$", "D. $\\frac{b}{a(b+1)}$", "E. $\\frac{2a}{b+1}$"],
+    "pilihan": ["$\\frac{2}{ab+1}$", "$\\frac{2}{a(b+1)}$", "$\\frac{a+b}{2a}$", "$\\frac{b}{a(b+1)}$", "$\\frac{2a}{b+1}$"],
     "jawaban": "A",
     "pembahasan": "Ubah semua logaritma ke basis 3. $\\log_{15} 9 = \\frac{\\log_3 9}{\\log_3 15} = \\frac{2}{\\log_3 (3 \\cdot 5)} = \\frac{2}{\\log_3 3 + \\log_3 5} = \\frac{2}{1 + \\log_3 5}$. Kita punya $\\log_3 4 = a$ dan $\\log_4 5 = b$. Maka $\\log_3 5 = \\log_3 4 \\cdot \\log_4 5 = a \\cdot b = ab$. Substitusikan: $\\frac{2}{1 + ab} = \\frac{2}{ab+1}$. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 53,
     "pertanyaan": "Persamaan lingkaran yang berpusat di $(0, 0)$ dan melalui titik $(4, -3)$ adalah...",
-    "pilihan": ["A. $x^2 + y^2 = 5$", "B. $x^2 + y^2 = 7$", "C. $x^2 + y^2 = 25$", "D. $(x-4)^2 + (y+3)^2 = 0$", "E. $x^2 + y^2 = 16$"],
+    "pilihan": ["$x^2 + y^2 = 5$", "$x^2 + y^2 = 7$", "$x^2 + y^2 = 25$", "$(x-4)^2 + (y+3)^2 = 0$", "$x^2 + y^2 = 16$"],
     "jawaban": "C",
     "pembahasan": "Persamaan lingkaran dengan pusat $(0,0)$ adalah $x^2 + y^2 = r^2$. Karena lingkaran melalui titik $(4,-3)$, maka jarak dari pusat ke titik tersebut adalah jari-jari $r$. $r = \\sqrt{(4-0)^2 + (-3-0)^2} = \\sqrt{4^2 + (-3)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$. Maka persamaan lingkarannya adalah $x^2 + y^2 = 5^2 \\implies x^2 + y^2 = 25$."
   },
   {
     "id": 54,
     "pertanyaan": "Sebuah kelas terdiri dari 20 siswa laki-laki dan 10 siswa perempuan. Rata-rata nilai ulangan matematika siswa laki-laki adalah 70, dan rata-rata nilai ulangan siswa perempuan adalah 85. Rata-rata nilai ulangan matematika kelas tersebut adalah...",
-    "pilihan": ["A. 72.5", "B. 75", "C. 76.5", "D. 78", "E. 80"],
+    "pilihan": ["72.5", "75", "76.5", "78", "80"],
     "jawaban": "B",
     "pembahasan": "Total nilai siswa laki-laki = $20 \\times 70 = 1400$. Total nilai siswa perempuan = $10 \\times 85 = 850$. Total jumlah siswa = $20 + 10 = 30$. Total nilai seluruh siswa = $1400 + 850 = 2250$. Rata-rata kelas = $\\frac{\\text{Total nilai seluruh siswa}}{\\text{Total jumlah siswa}} = \\frac{2250}{30} = 75$."
   },
   {
     "id": 55,
     "pertanyaan": "Jika $(x, y)$ adalah penyelesaian dari sistem persamaan $y = x^2 - 4x + 5$ dan $y = 2x - 3$, maka nilai dari $x+y$ adalah...",
-    "pilihan": ["A. 3", "B. 4", "C. 6", "D. 9", "E. 10"],
+    "pilihan": ["3", "4", "6", "9", "10"],
     "jawaban": "D",
     "pembahasan": "Substitusikan $y$ dari persamaan kedua ke persamaan pertama: $2x - 3 = x^2 - 4x + 5$. Pindahkan semua suku ke satu sisi: $x^2 - 4x - 2x + 5 + 3 = 0 \\implies x^2 - 6x + 8 = 0$. Faktorkan: $(x-2)(x-4) = 0$. Maka $x_1 = 2$ atau $x_2 = 4$. Jika $x=2$, maka $y = 2(2) - 3 = 4 - 3 = 1$. Pasangan $(2,1)$, $x+y = 2+1=3$. Jika $x=4$, maka $y = 2(4) - 3 = 8 - 3 = 5$. Pasangan $(4,5)$, $x+y = 4+5=9$. Karena ada dua kemungkinan nilai $x+y$, dan **9** ada di pilihan **D**, maka **D** adalah jawaban yang benar untuk kasus $x=4$."
   },
   {
     "id": 56,
     "pertanyaan": "Diketahui balok ABCD.EFGH dengan panjang AB = 8 cm, BC = 6 cm, dan AE = 5 cm. Jarak titik A ke titik G adalah...",
-    "pilihan": ["A. $\\sqrt{125}$ cm", "B. $10$ cm", "C. $10\\sqrt{2}$ cm", "D. $10\\sqrt{3}$ cm", "E. $\\sqrt{225}$ cm"],
+    "pilihan": ["$\\sqrt{125}$ cm", "$10$ cm", "$10\\sqrt{2}$ cm", "$10\\sqrt{3}$ cm", "$\\sqrt{225}$ cm"],
     "jawaban": "A",
     "pembahasan": "Jarak titik A ke titik G adalah panjang diagonal ruang balok. Gunakan rumus diagonal ruang $d = \\sqrt{p^2 + l^2 + t^2}$. $d = \\sqrt{AB^2 + BC^2 + AE^2} = \\sqrt{64 + 36 + 25} = \\sqrt{125}$ cm. Pilihan **A** telah disesuaikan agar sesuai dengan perhitungan."
   },
   {
     "id": 57,
     "pertanyaan": "Turunan pertama dari $f(x) = \\sin(x^2 + 3x)$ adalah $f'(x) = \\dots$",
-    "pilihan": ["A. $\\cos(x^2 + 3x)$", "B. $(2x + 3)\\cos(x^2 + 3x)$", "C. $2x\\cos(x^2 + 3x)$", "D. $-(2x + 3)\\cos(x^2 + 3x)$", "E. $(2x + 3)\\sin(x^2 + 3x)$"],
+    "pilihan": ["$\\cos(x^2 + 3x)$", "$(2x + 3)\\cos(x^2 + 3x)$", "$2x\\cos(x^2 + 3x)$", "$-(2x + 3)\\cos(x^2 + 3x)$", "$(2x + 3)\\sin(x^2 + 3x)$"],
     "jawaban": "B",
     "pembahasan": "Gunakan aturan rantai. Jika $f(x) = \\sin(u(x))$, maka $f'(x) = \\cos(u(x)) \\cdot u'(x)$. Di sini $u(x) = x^2 + 3x$, jadi $u'(x) = 2x + 3$. Maka $f'(x) = (2x + 3)\\cos(x^2 + 3x)$."
   },
   {
     "id": 58,
     "pertanyaan": "Sebuah deret geometri tak hingga mempunyai suku pertama 8 dan jumlah tak hingga 16. Rasio deret tersebut adalah...",
-    "pilihan": ["A. $\\frac{1}{4}$", "B. $\\frac{1}{2}$", "C. $\\frac{3}{4}$", "D. $1$", "E. $2$"],
+    "pilihan": ["$\\frac{1}{4}$", "$\\frac{1}{2}$", "$\\frac{3}{4}$", "$1$", "$2$"],
     "jawaban": "B",
     "pembahasan": "Rumus jumlah deret geometri tak hingga adalah $S_\\infty = \\frac{a}{1 - r}$. Diketahui $S_\\infty = 16$ dan $a = 8$. Maka $16 = \\frac{8}{1 - r} \\implies 16(1 - r) = 8 \\implies 1 - r = \\frac{8}{16} \\implies 1 - r = \\frac{1}{2} \\implies r = 1 - \\frac{1}{2} = \\frac{1}{2}$."
   },
   {
     "id": 59,
     "pertanyaan": "Fungsi $f(x) = x^4 - 4x^3$ akan cekung ke bawah pada interval...",
-    "pilihan": ["A. $x < 0$", "B. $x > 2$", "C. $0 < x < 2$", "D. $x < 0$ atau $x > 2$", "E. $x < 2$"],
+    "pilihan": ["$x < 0$", "$x > 2$", "$0 < x < 2$", "$x < 0$ atau $x > 2$", "$x < 2$"],
     "jawaban": "C",
     "pembahasan": "Cari turunan pertama $f'(x) = 4x^3 - 12x^2$. Cari turunan kedua $f''(x) = 12x^2 - 24x$. Fungsi cekung ke bawah jika $f''(x) < 0$. $12x^2 - 24x < 0 \\implies 12x(x - 2) < 0$. Akar-akar persamaan adalah $x=0$ dan $x=2$. Uji titik: Untuk $x < 0$ (misal $x=-1$): $12(-1)(-1-2) = (-12)(-3) = 36 > 0$. Untuk $0 < x < 2$ (misal $x=1$): $12(1)(1-2) = 12(-1) = -12 < 0$. Untuk $x > 2$ (misal $x=3$): $12(3)(3-2) = 36(1) = 36 > 0$. Jadi, fungsi cekung ke bawah pada interval $0 < x < 2$."
   },
   {
     "id": 60,
     "pertanyaan": "Median dari data 7, 8, 6, 9, 5, 10, 7, 8, 6, 9 adalah...",
-    "pilihan": ["A. 6.5", "B. 7", "C. 7.5", "D. 8", "E. 8.5"],
+    "pilihan": ["6.5", "7", "7.5", "8", "8.5"],
     "jawaban": "C",
     "pembahasan": "Langkah pertama untuk mencari median adalah mengurutkan data dari yang terkecil hingga terbesar:\n5, 6, 6, 7, 7, 8, 8, 9, 9, 10.\nJumlah data (n) adalah 10 (genap). Untuk data genap, median adalah rata-rata dari dua nilai tengah, yaitu data ke-$n/2$ dan data ke-$(n/2)+1$.\nData ke-$10/2$ = data ke-5 adalah 7.\nData ke-$(10/2)+1$ = data ke-6 adalah 8.\nMedian = $\\frac{\\text{Data ke-5} + \\text{Data ke-6}}{2} = \\frac{7 + 8}{2} = \\frac{15}{2} = 7.5$.\nJadi, median data tersebut adalah **7.5**."
   }
 ]
-
