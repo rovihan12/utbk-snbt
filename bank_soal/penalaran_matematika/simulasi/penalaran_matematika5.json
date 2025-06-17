@@ -2,140 +2,140 @@
   {
     "id": 101,
     "pertanyaan": "Jika $2^{x+1} = 16$ dan $3^{y-2} = 9$, maka nilai dari $x \\cdot y$ adalah...",
-    "pilihan": ["A. 6", "B. 8", "C. 10", "D. 12", "E. 15"],
+    "pilihan": ["6", "8", "10", "12", "15"],
     "jawaban": "D",
     "pembahasan": "Untuk persamaan pertama: $2^{x+1} = 16$. Karena $16 = 2^4$, kita bisa tulis $2^{x+1} = 2^4$. Maka, $x+1 = 4$, yang berarti $x = 3$. Dari $3^{y-2} = 9$. Karena $9 = 3^2$, kita bisa tulis $3^{y-2} = 3^2$. Maka, $y-2 = 2$, yang berarti $y = 4$. Nilai dari $x \\cdot y$ adalah $3 \\cdot 4 = 12$."
   },
   {
     "id": 102,
     "pertanyaan": "Nilai dari $\\frac{\\sin 60^\\circ + \\cos 30^\\circ}{\\tan 45^\\circ}$ adalah...",
-    "pilihan": ["A. $\\frac{1}{2}$", "B. $1$", "C. $\\sqrt{3}$", "D. $2$", "E. $\\frac{\\sqrt{3}}{2}$"],
+    "pilihan": ["$\\frac{1}{2}$", "$1$", "$\\sqrt{3}$", "$2$", "$\\frac{\\sqrt{3}}{2}$"],
     "jawaban": "C",
     "pembahasan": "Kita tahu nilai-nilai trigonometri berikut:\\n$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$\\n$\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$\\n$\\tan 45^\\circ = 1$\\nSubstitusikan nilai-nilai ini ke dalam ekspresi: $\\frac{\\frac{\\sqrt{3}}{2} + \\frac{\\sqrt{3}}{2}}{1} = \\frac{2 \\cdot \\frac{\\sqrt{3}}{2}}{1} = \\frac{\\sqrt{3}}{1} = \\sqrt{3}$."
   },
   {
     "id": 103,
     "pertanyaan": "Invers dari fungsi $f(x) = \\frac{2x - 3}{x + 1}$, $x \\ne -1$ adalah...",
-    "pilihan": ["A. $f^{-1}(x) = \\frac{x - 3}{2 - x}$", "B. $f^{-1}(x) = \\frac{x + 3}{2 - x}$", "C. $f^{-1}(x) = \\frac{-x - 3}{x - 2}$", "D. $f^{-1}(x) = \\frac{x + 3}{x - 2}$", "E. $f^{-1}(x) = \\frac{-x + 3}{x - 2}$"],
+    "pilihan": ["$f^{-1}(x) = \\frac{x - 3}{2 - x}$", "$f^{-1}(x) = \\frac{x + 3}{2 - x}$", "$f^{-1}(x) = \\frac{-x - 3}{x - 2}$", "$f^{-1}(x) = \\frac{x + 3}{x - 2}$", "$f^{-1}(x) = \\frac{-x + 3}{x - 2}$"],
     "jawaban": "C",
     "pembahasan": "Untuk menemukan invers fungsi $f(x)$, kita misalkan $y = f(x)$ dan kemudian tukar variabel $x$ dan $y$, lalu selesaikan untuk $y$.\\n$y = \\frac{2x - 3}{x + 1}$\\nLangkah 1: Ganti $f(x)$ dengan $y$.\\n$y = \\frac{2x - 3}{x + 1}$\\nLangkah 2: Tukar $x$ dan $y$.\\n$x = \\frac{2y - 3}{y + 1}$\\nLangkah 3: Selesaikan untuk $y$.\\n$x(y + 1) = 2y - 3$\\n$xy + x = 2y - 3$\\n$xy - 2y = -x - 3$\\n$y(x - 2) = -x - 3$\\n$y = \\frac{-x - 3}{x - 2}$\\nJadi, invers dari fungsi $f(x)$ adalah $f^{-1}(x) = \\frac{-x - 3}{x - 2}$."
   },
   {
     "id": 104,
     "pertanyaan": "Sebuah kotak berisi 5 bola merah dan 3 bola biru. Jika diambil 2 bola sekaligus secara acak, peluang terambilnya 1 bola merah dan 1 bola biru adalah...",
-    "pilihan": ["A. $\\frac{15}{56}$", "B. $\\frac{15}{28}$", "C. $\\frac{10}{28}$", "D. $\\frac{3}{8}$", "E. $\\frac{5}{8}$"],
+    "pilihan": ["$\\frac{15}{56}$", "$\\frac{15}{28}$", "$\\frac{10}{28}$", "$\\frac{3}{8}$", "$\\frac{5}{8}$"],
     "jawaban": "B",
     "pembahasan": "Total bola = 5 merah + 3 biru = 8 bola.\\nLangkah 1: Hitung total cara mengambil 2 bola dari 8 bola. Ini adalah kombinasi $C(n, k) = \\frac{n!}{k!(n-k)!}$.\\n$C(8, 2) = \\frac{8!}{2!(8-2)!} = \\frac{8 \\times 7}{2 \\times 1} = 28$ cara.\\nLangkah 2: Hitung cara mengambil 1 bola merah dari 5 bola merah.\\n$C(5, 1) = \\frac{5!}{1!(5-1)!} = \\frac{5!}{1!4!} = 5$ cara.\\nLangkah 3: Hitung cara mengambil 1 bola biru dari 3 bola biru.\\n$C(3, 1) = \\frac{3!}{1!(3-1)!} = \\frac{3!}{1!2!} = 3$ cara.\\nLangkah 4: Hitung banyak cara terambilnya 1 bola merah DAN 1 bola biru. Kalikan hasil dari Langkah 2 dan 3.\\nBanyak cara = $C(5, 1) \\times C(3, 1) = 5 \\times 3 = 15$ cara.\\nLangkah 5: Hitung peluangnya.\\nPeluang = $\\frac{\\text{Banyak cara terambil 1 merah dan 1 biru}}{\\text{Total cara mengambil 2 bola}} = \\frac{15}{28}$."
   },
   {
     "id": 105,
     "pertanyaan": "Jika $f(x) = x^3 - 6x^2 + 9x + 2$, maka interval di mana fungsi $f(x)$ naik adalah...",
-    "pilihan": ["A. $x < 1$ atau $x > 3$", "B. $1 < x < 3$", "C. $x < -3$ atau $x > -1$", "D. $-3 < x < -1$", "E. $x < 0$"],
+    "pilihan": ["$x < 1$ atau $x > 3$", "$1 < x < 3$", "$x < -3$ atau $x > -1$", "$-3 < x < -1$", "$x < 0$"],
     "jawaban": "A",
     "pembahasan": "Fungsi $f(x)$ dikatakan naik jika turunan pertamanya, $f'(x)$, lebih besar dari 0.\\nLangkah 1: Cari turunan pertama dari $f(x)$.\\n$f'(x) = \\frac{d}{dx}(x^3 - 6x^2 + 9x + 2) = 3x^2 - 12x + 9$.\\nLangkah 2: Cari nilai-nilai $x$ di mana $f'(x) = 0$ (titik stasioner).\\n$3x^2 - 12x + 9 = 0$\\nBagi dengan 3: $x^2 - 4x + 3 = 0$\\nFaktorkan: $(x-1)(x-3) = 0$\\nJadi, $x = 1$ atau $x = 3$.\\nLangkah 3: Uji interval menggunakan garis bilangan.\\nKita punya tiga interval: $x < 1$, $1 < x < 3$, dan $x > 3$.\\n* Untuk $x < 1$ (misal $x=0$): $f'(0) = 3(0)^2 - 12(0) + 9 = 9$. Karena $9 > 0$, fungsi **naik** pada interval ini.\\n* Untuk $1 < x < 3$ (misal $x=2$): $f'(2) = 3(2)^2 - 12(2) + 9 = 12 - 24 + 9 = -3$. Karena $-3 < 0$, fungsi **turun** pada interval ini.\\n* Untuk $x > 3$ (misal $x=4$): $f'(4) = 3(4)^2 - 12(4) + 9 = 48 - 48 + 9 = 9$. Karena $9 > 0$, fungsi **naik** pada interval ini.\\nJadi, fungsi $f(x)$ naik pada interval $x < 1$ atau $x > 3$."
   },
   {
     "id": 106,
     "pertanyaan": "Persamaan garis yang tegak lurus dengan garis $2x - 3y = 5$ dan melalui titik $(1, -2)$ adalah...",
-    "pilihan": ["A. $3x + 2y + 1 = 0$", "B. $3x - 2y - 7 = 0$", "C. $2x + 3y + 4 = 0$", "D. $-3x + 2y + 7 = 0$", "E. $2x - 3y - 8 = 0$"],
+    "pilihan": ["$3x + 2y + 1 = 0$", "$3x - 2y - 7 = 0$", "$2x + 3y + 4 = 0$", "$-3x + 2y + 7 = 0$", "$2x - 3y - 8 = 0$"],
     "jawaban": "A",
     "pembahasan": "Langkah 1: Tentukan gradien ($m_1$) dari garis yang diketahui ($2x - 3y = 5$).\\nUbah persamaan ke bentuk $y = mx + c$: \\n$-3y = -2x + 5$\\n$y = \\frac{-2}{-3}x + \\frac{5}{-3}$\\n$y = \\frac{2}{3}x - \\frac{5}{3}$\\nJadi, gradien garis pertama adalah $m_1 = \\frac{2}{3}$.\\nLangkah 2: Tentukan gradien ($m_2$) dari garis yang tegak lurus.\\nUntuk dua garis yang tegak lurus, berlaku $m_1 \\cdot m_2 = -1$.\\n$\\frac{2}{3} \\cdot m_2 = -1$\\n$m_2 = -\\frac{3}{2}$.\\nLangkah 3: Gunakan rumus persamaan garis $y - y_1 = m(x - x_1)$ dengan gradien $m_2$ dan titik $(1, -2)$.\\n$y - (-2) = -\\frac{3}{2}(x - 1)$\\n$y + 2 = -\\frac{3}{2}x + \\frac{3}{2}$\\nLangkah 4: Ubah persamaan ke bentuk umum $Ax + By + C = 0$.\\nUntuk menghilangkan pecahan, kalikan seluruh persamaan dengan 2:\\n$2(y + 2) = 2(-\\frac{3}{2}x + \\frac{3}{2})$\\n$2y + 4 = -3x + 3$\\nPindahkan semua suku ke satu sisi:\\n$3x + 2y + 4 - 3 = 0$\\n$3x + 2y + 1 = 0$."
   },
   {
     "id": 107,
     "pertanyaan": "Jika $f(x) = ax + b$ dan $f(2) = 7$, $f(-1) = -2$, maka nilai dari $a+b$ adalah...",
-    "pilihan": ["A. 2", "B. 3", "C. 4", "D. 5", "E. 6"],
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "Kita memiliki sistem persamaan linear dari informasi yang diberikan:\\n1.  $f(2) = 7 \\implies a(2) + b = 7 \\implies 2a + b = 7$\\n2.  $f(-1) = -2 \\implies a(-1) + b = -2 \\implies -a + b = -2$\\nLangkah 1: Eliminasi $b$ dengan mengurangi Persamaan 2 dari Persamaan 1.\\n$(2a + b) - (-a + b) = 7 - (-2)$\\n$2a + b + a - b = 7 + 2$\\n$3a = 9$\\n$a = 3$\\nLangkah 2: Substitusikan nilai $a=3$ ke salah satu persamaan (misal Persamaan 2) untuk menemukan $b$.\\n$-a + b = -2$\\n$-3 + b = -2$\\n$b = -2 + 3$\\n$b = 1$\\nLangkah 3: Hitung $a+b$.\\n$a+b = 3 + 1 = 4$."
+    "pembahasan": "Kita memiliki sistem persamaan linear dari informasi yang diberikan:\\n1.  $f(2) = 7 \\implies a(2) + b = 7 \\implies 2a + b = 7$\\n2.  $f(-1) = -2 \\implies a(-1) + b = -2 \\implies -a + b = -2$\\nLangkah 1: Eliminasi $b$ dengan mengurangi Persamaan 2 dari Persamaan 1.\\n$(2a + b) - (-a + b) = 7 - (-2)$\\n$2a + b + a - b = 7 + 2$\\n$3a = 9$\\n$a = 3$\\nLangkah 2: Substitusikan nilai $a=3$ ke salah satu persamaan (misal Persamaan 2) untuk menemukan $b$.\\n$-a + b = -2$\\n$-3 + b = -2$\\n$b = -2 + 3$\\n$b = 1$\\nLangkah 3: Hitung $a+b$.\\n$a+b = 3 + 1 = 4$."
   },
   {
     "id": 108,
     "pertanyaan": "Volume bola terbesar yang dapat dimasukkan ke dalam kubus dengan panjang rusuk 10 cm adalah...",
-    "pilihan": ["A. $\\frac{100\\pi}{3} \\text{ cm}^3$", "B. $\\frac{250\\pi}{3} \\text{ cm}^3$", "C. $\\frac{500\\pi}{3} \\text{ cm}^3$", "D. $\\frac{1000\\pi}{3} \\text{ cm}^3$", "E. $\\frac{4000\\pi}{3} \\text{ cm}^3$"],
+    "pilihan": ["$\\frac{100\\pi}{3} \\text{ cm}^3$", "$\\frac{250\\pi}{3} \\text{ cm}^3$", "$\\frac{500\\pi}{3} \\text{ cm}^3$", "$\\frac{1000\\pi}{3} \\text{ cm}^3$", "$\\frac{4000\\pi}{3} \\text{ cm}^3$"],
     "jawaban": "C",
     "pembahasan": "Untuk bola terbesar yang dapat dimasukkan ke dalam kubus, diameter bola harus sama dengan panjang rusuk kubus.\\nPanjang rusuk kubus ($s$) = 10 cm.\\nDiameter bola ($d$) = $s = 10$ cm.\\nJari-jari bola ($r$) = $\\frac{d}{2} = \\frac{10}{2} = 5$ cm.\\nRumus volume bola adalah $V = \\frac{4}{3}\\pi r^3$.\\nSubstitusikan nilai $r$: $V = \\frac{4}{3}\\pi (5)^3 = \\frac{4}{3}\\pi (125) = \\frac{500\\pi}{3} \\text{ cm}^3$."
   },
   {
     "id": 109,
     "pertanyaan": "Nilai $x$ yang memenuhi persamaan $\\sqrt{3^{2x-1}} = 9^{x-2}$ adalah...",
-    "pilihan": ["A. $\\frac{3}{2}$", "B. $2$", "C. $\\frac{5}{2}$", "D. $3$", "E. $\\frac{7}{2}$"],
+    "pilihan": ["$\\frac{3}{2}$", "$2$", "$\\frac{5}{2}$", "$3$", "$\\frac{7}{2}$"],
     "jawaban": "E",
-    "pembahasan": "Langkah 1: Ubah semua basis ke basis yang sama, yaitu 3.\\n$\\sqrt{3^{2x-1}} = 3^{\\frac{2x-1}{2}}$\\n$9^{x-2} = (3^2)^{x-2} = 3^{2(x-2)}$\\nLangkah 2: Samakan kedua ekspresi dengan basis yang sama.\\n$3^{\\frac{2x-1}{2}} = 3^{2(x-2)}$\\nLangkah 3: Karena basisnya sama, samakan pangkatnya.\\n$\\frac{2x-1}{2} = 2(x-2)$\\nLangkah 4: Selesaikan persamaan untuk $x$.\\n$2x-1 = 2 \\times 2(x-2)$  (kalikan kedua sisi dengan 2)\\n$2x-1 = 4(x-2)$\\n$2x-1 = 4x-8$\\n$8 - 1 = 4x - 2x$\\n$7 = 2x$\\n$x = \\frac{7}{2}$."
+    "pembahasan": "Langkah 1: Ubah semua basis ke basis yang sama, yaitu 3.\\n$\\sqrt{3^{2x-1}} = 3^{\\frac{2x-1}{2}}$\\n$9^{x-2} = (3^2)^{x-2} = 3^{2(x-2)}$\\nLangkah 2: Samakan kedua ekspresi dengan basis yang sama.\\n$3^{\\frac{2x-1}{2}} = 3^{2(x-2)}$\\nLangkah 3: Karena basisnya sama, samakan pangkatnya.\\n$\\frac{2x-1}{2} = 2(x-2)$\\nLangkah 4: Selesaikan persamaan untuk $x$.\\n$2x-1 = 2 \\times 2(x-2)$  (kalikan kedua sisi dengan 2)\\n$2x-1 = 4(x-2)$\\n$2x-1 = 4x-8$\\n$8 - 1 = 4x - 2x$\\n$7 = 2x$\\n$x = \\frac{7}{2}$."
   },
   {
     "id": 110,
     "pertanyaan": "Himpunan penyelesaian dari $\\log_2 (x^2 - 4) = 2$ adalah...",
-    "pilihan": ["A. $\\{2\\}$", "B. $\\{-2\\}$", "C. $\\{-2, 2\\}$", "D. $\\{0\\}$", "E. $\\emptyset$"],
+    "pilihan": ["$\\{2\\}$", "$\\{-2\\}$", "$\\{-2, 2\\}$", "$\\{0\\}$", "$\\emptyset$"],
     "jawaban": "E",
     "pembahasan": "Langkah 1: Ubah persamaan logaritma ke bentuk eksponensial.\\nMenurut definisi logaritma, jika $\\log_b a = c$, maka $b^c = a$.\\nJadi, $\\log_2 (x^2 - 4) = 2$ menjadi $x^2 - 4 = 2^2$.\\n$x^2 - 4 = 4$\\n$x^2 = 8$\\n$x = \\pm\\sqrt{8} = \\pm 2\\sqrt{2}$.\\nLangkah 2: Periksa syarat numerus logaritma.\\nNumerus logaritma harus lebih besar dari 0. Jadi, $x^2 - 4 > 0$.\\nFaktorkan: $(x-2)(x+2) > 0$.\\nIni berarti $x < -2$ atau $x > 2$.\\nLangkah 3: Bandingkan solusi yang ditemukan dengan syarat numerus.\\nSolusi yang ditemukan adalah $x = 2\\sqrt{2}$ dan $x = -2\\sqrt{2}$.\\n* Untuk $x = 2\\sqrt{2} \\approx 2.828$: $2.828 > 2$, jadi ini **memenuhi** syarat $x > 2$.\\n* Untuk $x = -2\\sqrt{2} \\approx -2.828$: $-2.828 < -2$, jadi ini **memenuhi** syarat $x < -2$.\\nKedua nilai $x$ tersebut merupakan solusi yang valid. Namun, pilihan jawaban yang tersedia tidak ada yang mengandung solusi $2\\sqrt{2}$ atau $-2\\sqrt{2}$. Oleh karena itu, himpunan penyelesaian dari pilihan tersebut adalah **kosong** ($\\emptyset$), karena solusi yang benar tidak tercantum."
   },
   {
     "id": 111,
     "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 5 \\\\ -2 & 0 \\end{pmatrix}$. Hasil dari $2A - B$ adalah...",
-    "pilihan": ["A. $\\begin{pmatrix} 5 & -7 \\\\ 6 & 8 \\end{pmatrix}$", "B. $\\begin{pmatrix} 5 & 3 \\\\ 6 & 8 \\end{pmatrix}$", "C. $\\begin{pmatrix} 5 & -7 \\\\ 2 & 4 \\end{pmatrix}$", "D. $\\begin{pmatrix} 7 & -7 \\\\ 6 & 8 \\end{pmatrix}$", "E. $\\begin{pmatrix} 5 & -7 \\\\ 6 & 4 \\end{pmatrix}$"],
+    "pilihan": ["$\\begin{pmatrix} 5 & -7 \\\\ 6 & 8 \\end{pmatrix}$", "$\\begin{pmatrix} 5 & 3 \\\\ 6 & 8 \\end{pmatrix}$", "$\\begin{pmatrix} 5 & -7 \\\\ 2 & 4 \\end{pmatrix}$", "$\\begin{pmatrix} 7 & -7 \\\\ 6 & 8 \\end{pmatrix}$", "$\\begin{pmatrix} 5 & -7 \\\\ 6 & 4 \\end{pmatrix}$"],
     "jawaban": "A",
     "pembahasan": "Langkah 1: Hitung $2A$ (perkalian skalar matriks).\\n$2A = 2 \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix} = \\begin{pmatrix} 2 \\times 3 & 2 \\times (-1) \\\\ 2 \\times 2 & 2 \\times 4 \\end{pmatrix} = \\begin{pmatrix} 6 & -2 \\\\ 4 & 8 \\end{pmatrix}$.\\nLangkah 2: Hitung $2A - B$ (pengurangan matriks).\\n$2A - B = \\begin{pmatrix} 6 & -2 \\\\ 4 & 8 \\end{pmatrix} - \\begin{pmatrix} 1 & 5 \\\\ -2 & 0 \\end{pmatrix}$\\nKurangkan elemen-elemen yang bersesuaian:\\n$= \\begin{pmatrix} 6 - 1 & -2 - 5 \\\\ 4 - (-2) & 8 - 0 \\end{pmatrix}$\\n$= \\begin{pmatrix} 5 & -7 \\\\ 4 + 2 & 8 \\end{pmatrix}$\\n$= \\begin{pmatrix} 5 & -7 \\\\ 6 & 8 \\end{pmatrix}$."
   },
   {
     "id": 112,
     "pertanyaan": "Dalam sebuah kelas, 25 siswa suka matematika, 20 siswa suka fisika, dan 12 siswa suka keduanya. Jika ada 3 siswa yang tidak suka keduanya, maka jumlah siswa dalam kelas tersebut adalah...",
-    "pilihan": ["A. 30", "B. 35", "C. 36", "D. 40", "E. 45"],
+    "pilihan": ["30", "35", "36", "40", "45"],
     "jawaban": "C",
     "pembahasan": "Untuk menyelesaikan masalah ini, kita bisa menggunakan prinsip inklusi-eksklusi atau diagram Venn.\\nLangkah 1: Tentukan jumlah siswa yang hanya suka matematika.\\nSiswa suka matematika saja = (Jumlah siswa suka matematika) - (Jumlah siswa suka keduanya)\\n$= 25 - 12 = 13$ siswa.\\nLangkah 2: Tentukan jumlah siswa yang hanya suka fisika.\\nSiswa suka fisika saja = (Jumlah siswa suka fisika) - (Jumlah siswa suka keduanya)\\n$= 20 - 12 = 8$ siswa.\\nLangkah 3: Tentukan jumlah siswa yang suka setidaknya satu mata pelajaran (gabungan).\\nSiswa suka setidaknya satu = (Siswa suka matematika saja) + (Siswa suka fisika saja) + (Siswa suka keduanya)\\n$= 13 + 8 + 12 = 33$ siswa.\\nLangkah 4: Hitung total jumlah siswa dalam kelas.\\nTotal siswa = (Siswa suka setidaknya satu) + (Siswa tidak suka keduanya)\\n$= 33 + 3 = 36$ siswa."
   },
   {
     "id": 113,
     "pertanyaan": "Nilai dari $\\int (x^2 - 4x + 5) dx$ adalah...",
-    "pilihan": ["A. $\\frac{1}{3}x^3 - 2x^2 + 5x + C$", "B. $\\frac{1}{3}x^3 - 4x^2 + 5x + C$", "C. $2x - 4 + C$", "D. $x^3 - 2x^2 + 5x + C$", "E. $\\frac{1}{2}x^3 - 2x^2 + 5x + C$"],
+    "pilihan": ["$\\frac{1}{3}x^3 - 2x^2 + 5x + C$", "$\\frac{1}{3}x^3 - 4x^2 + 5x + C$", "$2x - 4 + C$", "$x^3 - 2x^2 + 5x + C$", "$\\frac{1}{2}x^3 - 2x^2 + 5x + C$"],
     "jawaban": "A",
     "pembahasan": "Untuk mengintegralkan fungsi ini, kita akan menggunakan aturan dasar integral daya, yaitu $\\int x^n dx = \\frac{1}{n+1}x^{n+1} + C$.\\n$\\int (x^2 - 4x + 5) dx$\\n$= \\int x^2 dx - \\int 4x dx + \\int 5 dx$\\nIntegralkan masing-masing suku:\\n$= \\frac{1}{2+1}x^{2+1} - 4 \\cdot \\frac{1}{1+1}x^{1+1} + 5x + C$\\n$= \\frac{1}{3}x^3 - 4 \\cdot \\frac{1}{2}x^2 + 5x + C$\\n$= \\frac{1}{3}x^3 - 2x^2 + 5x + C$"
   },
   {
     "id": 114,
     "pertanyaan": "Diketahui deret geometri dengan suku pertama 3 dan rasio 2. Jumlah 5 suku pertama deret tersebut adalah...",
-    "pilihan": ["A. 45", "B. 48", "C. 51", "D. 93", "E. 96"],
+    "pilihan": ["45", "48", "51", "93", "96"],
     "jawaban": "D",
     "pembahasan": "Rumus jumlah $n$ suku pertama deret geometri adalah $S_n = \\frac{a(r^n - 1)}{r - 1}$, di mana $a$ adalah suku pertama, $r$ adalah rasio, dan $n$ adalah jumlah suku.\\nDiketahui:\\n* Suku pertama ($a$) = 3\\n* Rasio ($r$) = 2\\n* Jumlah suku ($n$) = 5\\nSubstitusikan nilai-nilai ini ke dalam rumus:\\n$S_5 = \\frac{3(2^5 - 1)}{2 - 1}$\\n$S_5 = \\frac{3(32 - 1)}{1}$\\n$S_5 = 3(31)$\\n$S_5 = 93$"
   },
   {
     "id": 115,
     "pertanyaan": "Jika $P(x) = 2x^3 - x^2 + 3x - 5$ dibagi oleh $(x+1)$, sisa pembagiannya adalah...",
-    "pilihan": ["A. -11", "B. -9", "C. -7", "D. -5", "E. -3"],
+    "pilihan": ["-11", "-9", "-7", "-5", "-3"],
     "jawaban": "A",
     "pembahasan": "Menurut Teorema Sisa, jika sebuah polinomial $P(x)$ dibagi oleh $(x-k)$, maka sisa pembagiannya adalah $P(k)$.\\nDalam kasus ini, polinomialnya adalah $P(x) = 2x^3 - x^2 + 3x - 5$ dan pembaginya adalah $(x+1)$.\\nJadi, $x-k = x+1 \\implies k = -1$.\\nSubstitusikan $k = -1$ ke dalam $P(x)$:\\nSisa = $P(-1) = 2(-1)^3 - (-1)^2 + 3(-1) - 5$\\n$= 2(-1) - (1) - 3 - 5$\\n$= -2 - 1 - 3 - 5$\\n$= -11$"
   },
   {
     "id": 116,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi tegak 5 cm. Panjang sisi tegak yang lain adalah...",
-    "pilihan": ["A. 8 cm", "B. 10 cm", "C. 12 cm", "D. 14 cm", "E. 15 cm"],
+    "pilihan": ["8 cm", "10 cm", "12 cm", "14 cm", "15 cm"],
     "jawaban": "C",
     "pembahasan": "Gunakan Teorema Pythagoras untuk segitiga siku-siku, yang menyatakan $a^2 + b^2 = c^2$, di mana $a$ dan $b$ adalah panjang sisi-sisi tegak, dan $c$ adalah panjang sisi miring (hipotenusa).\\nDiketahui:\\n* Sisi miring ($c$) = 13 cm\\n* Salah satu sisi tegak (misal $a$) = 5 cm\\n* Sisi tegak yang lain ($b$) = ?\\nSubstitusikan nilai-nilai yang diketahui ke dalam rumus Pythagoras:\\n$5^2 + b^2 = 13^2$\\n$25 + b^2 = 169$\\n$b^2 = 169 - 25$\\n$b^2 = 144$\\n$b = \\sqrt{144}$\\n$b = 12$ cm."
   },
   {
     "id": 117,
     "pertanyaan": "Persamaan kuadrat yang akar-akarnya 2 dan -3 adalah...",
-    "pilihan": ["A. $x^2 - x - 6 = 0$", "B. $x^2 + x - 6 = 0$", "C. $x^2 - x + 6 = 0$", "D. $x^2 + x + 6 = 0$", "E. $x^2 - 5x + 6 = 0$"],
+    "pilihan": ["$x^2 - x - 6 = 0$", "$x^2 + x - 6 = 0$", "$x^2 - x + 6 = 0$", "$x^2 + x + 6 = 0$", "$x^2 - 5x + 6 = 0$"],
     "jawaban": "B",
     "pembahasan": "Jika akar-akar suatu persamaan kuadrat adalah $x_1$ dan $x_2$, maka persamaan kuadratnya dapat dibentuk menggunakan rumus:\\n$x^2 - (x_1 + x_2)x + (x_1 \\cdot x_2) = 0$\\nDiketahui akar-akarnya adalah $x_1 = 2$ dan $x_2 = -3$.\\nLangkah 1: Hitung jumlah akar ($x_1 + x_2$).\\n$x_1 + x_2 = 2 + (-3) = -1$\\nLangkah 2: Hitung perkalian akar ($x_1 \\cdot x_2$).\\n$x_1 \\cdot x_2 = 2 \\cdot (-3) = -6$\\nLangkah 3: Substitusikan hasil ke dalam rumus persamaan kuadrat.\\n$x^2 - (-1)x + (-6) = 0$\\n$x^2 + x - 6 = 0$"
   },
   {
     "id": 118,
     "pertanyaan": "Rata-rata berat badan 5 siswa adalah 40 kg. Jika ditambahkan berat badan seorang siswa lagi, rata-rata berat badan menjadi 42 kg. Berat badan siswa yang baru ditambahkan adalah...",
-    "pilihan": ["A. 48 kg", "B. 50 kg", "C. 52 kg", "D. 54 kg", "E. 56 kg"],
+    "pilihan": ["48 kg", "50 kg", "52 kg", "54 kg", "56 kg"],
     "jawaban": "C",
     "pembahasan": "Langkah 1: Hitung total berat badan awal dari 5 siswa.\\nTotal berat badan awal = Rata-rata awal $\\times$ Jumlah siswa awal\\nTotal berat badan awal = $40 \\text{ kg/siswa} \\times 5 \\text{ siswa} = 200 \\text{ kg}$.\\nLangkah 2: Hitung total berat badan setelah siswa baru ditambahkan.\\nJumlah siswa baru = $5 + 1 = 6$ siswa.\\nRata-rata baru = 42 kg.\\nTotal berat badan baru = Rata-rata baru $\\times$ Jumlah siswa baru\\nTotal berat badan baru = $42 \\text{ kg/siswa} \\times 6 \\text{ siswa} = 252 \\text{ kg}$.\\nLangkah 3: Hitung berat badan siswa yang baru ditambahkan.\\nBerat badan siswa baru = Total berat badan baru - Total berat badan awal\\nBerat badan siswa baru = $252 \\text{ kg} - 200 \\text{ kg} = 52 \\text{ kg}$."
   },
   {
     "id": 119,
     "pertanyaan": "Jika $A = \\{1, 2, 3, 4, 5\\}$ dan $B = \\{3, 4, 5, 6, 7\\}$, maka himpunan $A \\cap B$ adalah...",
-    "pilihan": ["A. $\\emptyset$", "B. $\\{1, 2\\}$", "C. $\\{3, 4, 5\\}$", "D. $\\{6, 7\\}$", "E. $\\{1, 2, 3, 4, 5, 6, 7\\}$"],
+    "pilihan": ["$\\emptyset$", "$\\{1, 2\\}$", "$\\{3, 4, 5\\}$", "$\\{6, 7\\}$", "$\\{1, 2, 3, 4, 5, 6, 7\\}$"],
     "jawaban": "C",
     "pembahasan": "Himpunan $A \\cap B$ (dibaca 'A irisan B') adalah himpunan yang berisi semua elemen yang merupakan anggota dari himpunan A **dan juga** anggota dari himpunan B. Dengan kata lain, elemen-elemen yang ada di kedua himpunan.\\nDiberikan:\\nHimpunan $A = \\{1, 2, 3, 4, 5\\}$\\nHimpunan $B = \\{3, 4, 5, 6, 7\\}$\\nElemen-elemen yang muncul di kedua himpunan adalah 3, 4, dan 5.\\nJadi, $A \\cap B = \\{3, 4, 5\\}$."
   },
   {
     "id": 120,
     "pertanyaan": "Persamaan garis lurus yang melalui titik $(2, 3)$ dan bergradien 2 adalah...",
-    "pilihan": ["A. $y = 2x - 1$", "B. $y = 2x + 1$", "C. $y = 2x - 7$", "D. $y = 2x + 7$", "E. $y = -2x + 7$"],
+    "pilihan": ["$y = 2x - 1$", "$y = 2x + 1$", "$y = 2x - 7$", "$y = 2x + 7$", "$y = -2x + 7$"],
     "jawaban": "A",
     "pembahasan": "Untuk menemukan persamaan garis lurus yang melalui sebuah titik $(x_1, y_1)$ dan memiliki gradien $m$, kita gunakan rumus titik-gradien:\\n$y - y_1 = m(x - x_1)$\\nDiketahui:\\n* Titik $(x_1, y_1) = (2, 3)$\\n* Gradien ($m$) = 2\\nSubstitusikan nilai-nilai ini ke dalam rumus:\\n$y - 3 = 2(x - 2)$\\n$y - 3 = 2x - 4$\\n$y = 2x - 4 + 3$\\n$y = 2x - 1$"
   }
