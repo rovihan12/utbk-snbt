@@ -1,1 +1,142 @@
-
+[
+  {
+    "id": 101,
+    "pertanyaan": "Jika $A = \\{bilangan asli kurang dari 5\\}$ dan $B = \\{bilangan genap positif kurang dari 8\\}$, maka $A \\cap B$ adalah...",
+    "pilihan": ["$\\{1, 2, 3, 4\\}$", "$\\{2, 4, 6\\}$", "$\\{2, 4\\}$", "$\\{1, 2, 3, 4, 6\\}$", "$\\{\\}$"],
+    "jawaban": "C",
+    "pembahasan": "Himpunan $A = \\{1, 2, 3, 4\\}$. Himpunan $B = \\{2, 4, 6\\}$. Irisan $A \\cap B$ adalah anggota yang ada di kedua himpunan, yaitu $\\{2, 4\\}$."
+  },
+  {
+    "id": 102,
+    "pertanyaan": "Bentuk sederhana dari $3(x+2) - 2(x-1)$ adalah...",
+    "pilihan": ["$x+4$", "$x+8$", "$x-4$", "$x-8$", "$5x+4$"],
+    "jawaban": "B",
+    "pembahasan": "Distribusi: $3x + 6 - 2x + 2$. Gabungkan suku-suku sejenis: $(3x - 2x) + (6 + 2) = x + 8$."
+  },
+  {
+    "id": 103,
+    "pertanyaan": "Persamaan garis yang sejajar dengan $y = 2x + 3$ dan melalui titik $(1, 5)$ adalah...",
+    "pilihan": ["$y = 2x + 3$", "$y = 2x + 1$", "$y = -2x + 7$", "$y = x + 4$", "$y = 2x - 1$"],
+    "jawaban": "A",
+    "pembahasan": "Garis yang sejajar memiliki gradien yang sama. Gradien garis $y = 2x + 3$ adalah $2$. Gunakan rumus $y - y_1 = m(x - x_1)$ dengan $m=2$ dan titik $(1, 5)$: $y - 5 = 2(x - 1) \\implies y - 5 = 2x - 2 \\implies y = 2x + 3$."
+  },
+  {
+    "id": 104,
+    "pertanyaan": "Volume sebuah bola dengan jari-jari 3 cm adalah... (gunakan $\\pi = 3.14$)",
+    "pilihan": ["$37.68 \\text{ cm}^3$", "$75.36 \\text{ cm}^3$", "$113.04 \\text{ cm}^3$", "$150.72 \\text{ cm}^3$", "$339.12 \\text{ cm}^3$"],
+    "jawaban": "C",
+    "pembahasan": "Volume bola dihitung dengan rumus $V = \\frac{4}{3} \\pi r^3$. Dengan $r = 3$ cm dan $\\pi = 3.14$, maka $V = \\frac{4}{3} \\times 3.14 \\times 3^3 = \\frac{4}{3} \\times 3.14 \\times 27 = 4 \\times 3.14 \\times 9 = 113.04 \\text{ cm}^3$."
+  },
+  {
+    "id": 105,
+    "pertanyaan": "Nilai $x$ dari persamaan $3^{2x-1} = 27$ adalah...",
+    "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
+    "jawaban": "B",
+    "pembahasan": "Ubah 27 ke basis 3: $27 = 3^3$. Jadi, $3^{2x-1} = 3^3$. Karena basisnya sama, eksponennya harus sama: $2x - 1 = 3 \\implies 2x = 4 \\implies x = 2$."
+  },
+  {
+    "id": 106,
+    "pertanyaan": "Sebuah foto berukuran 4 cm x 6 cm. Jika foto tersebut diperbesar sehingga lebarnya menjadi 12 cm, maka panjangnya adalah...",
+    "pilihan": ["$8 \\text{ cm}$", "$12 \\text{ cm}$", "$16 \\text{ cm}$", "$18 \\text{ cm}$", "$24 \\text{ cm}$"],
+    "jawaban": "D",
+    "pembahasan": "Perbandingan lebar asli dengan lebar baru adalah $6:12$, atau $1:2$. Jadi, panjangnya juga diperbesar 2 kali. Panjang baru = $2 \\times 4 \\text{ cm} = 8 \\text{ cm}$."
+  },
+  {
+    "id": 107,
+    "pertanyaan": "Himpunan penyelesaian dari $x^2 - 7x + 10 = 0$ adalah...",
+    "pilihan": ["$\\{-2, -5\\}$", "$\\{2, 5\\}$", "$\\{-2, 5\\}$", "$\\{2, -5\\}$", "$\\{1, 10\\}$"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan persamaan kuadrat: $(x-2)(x-5) = 0$. Jadi, $x = 2$ atau $x = 5$. Himpunan penyelesaiannya adalah $\\{2, 5\\}$."
+  },
+  {
+    "id": 108,
+    "pertanyaan": "Jika $f(x) = x + 3$ dan $(f \\circ g)(x) = 2x + 7$, maka $g(x)$ adalah...",
+    "pilihan": ["$2x + 4$", "$2x - 4$", "$2x + 10$", "$x + 4$", "$x + 10$"],
+    "jawaban": "A",
+    "pembahasan": "Kita tahu $f(g(x)) = 2x + 7$. Substitusikan $g(x)$ ke dalam $f(x)$: $g(x) + 3 = 2x + 7$. Kurangkan 3 dari kedua sisi: $g(x) = 2x + 7 - 3 = 2x + 4$."
+  },
+  {
+    "id": 109,
+    "pertanyaan": "Rata-rata berat badan 5 siswa adalah 45 kg. Jika ada 1 siswa baru dengan berat 51 kg bergabung, rata-rata berat badan siswa sekarang adalah...",
+    "pilihan": ["$45 \\text{ kg}$", "$46 \\text{ kg}$", "$47 \\text{ kg}$", "$48 \\text{ kg}$", "$49 \\text{ kg}$"],
+    "jawaban": "B",
+    "pembahasan": "Total berat badan 5 siswa = $5 \\times 45 = 225 \\text{ kg}$. Setelah siswa baru bergabung, total berat badan = $225 + 51 = 276 \\text{ kg}$. Total siswa sekarang = 6. Rata-rata baru = $\\frac{276}{6} = 46 \\text{ kg}$."
+  },
+  {
+    "id": 110,
+    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 10 pekerja dalam 6 hari. Jika 2 pekerja berhenti, berapa hari pekerjaan itu akan selesai?",
+    "pilihan": ["$7 \\text{ hari}$", "$7.5 \\text{ hari}$", "$8 \\text{ hari}$", "$9 \\text{ hari}$", "$10 \\text{ hari}$"],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah perbandingan berbalik nilai. Total 'hari kerja' yang dibutuhkan adalah $10 \\text{ pekerja} \\times 6 \\text{ hari} = 60 \\text{ hari kerja}$. Jika 2 pekerja berhenti, sisa pekerja adalah $10 - 2 = 8$ pekerja. Waktu yang dibutuhkan = $\\frac{60 \\text{ hari kerja}}{8 \\text{ pekerja}} = 7.5 \\text{ hari}$."
+  },
+  {
+    "id": 111,
+    "pertanyaan": "Nilai dari $^2\\log 4 + ^3\\log 27 - ^5\\log 25$ adalah...",
+    "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
+    "jawaban": "C",
+    "pembahasan": "$^2\\log 4 = 2$ karena $2^2 = 4$. $^3\\log 27 = 3$ karena $3^3 = 27$. $^5\\log 25 = 2$ karena $5^2 = 25$. Jadi, $2 + 3 - 2 = 3$."
+  },
+  {
+    "id": 112,
+    "pertanyaan": "Grafik fungsi kuadrat $f(x) = x^2 - 6x + 9$ memiliki titik puncak di...",
+    "pilihan": ["$(3, 0)$", "$(-3, 0)$", "$(0, 3)$", "$(0, -3)$", "$(3, 9)$"],
+    "jawaban": "A",
+    "pembahasan": "Untuk fungsi kuadrat $f(x) = ax^2 + bx + c$, koordinat $x$ titik puncak adalah $x = -\\frac{b}{2a}$. Di sini $a=1, b=-6, c=9$. Jadi $x = -\\frac{-6}{2(1)} = \\frac{6}{2} = 3$. Substitusikan $x=3$ ke fungsi: $f(3) = 3^2 - 6(3) + 9 = 9 - 18 + 9 = 0$. Jadi titik puncaknya adalah $(3, 0)$."
+  },
+  {
+    "id": 113,
+    "pertanyaan": "Sebuah dadu dilempar 100 kali. Frekuensi harapan munculnya mata dadu kurang dari 3 adalah...",
+    "pilihan": ["$16 \\text{ kali}$", "$33 \\text{ kali}$", "$50 \\text{ kali}$", "$66 \\text{ kali}$", "$80 \\text{ kali}$"],
+    "jawaban": "B",
+    "pembahasan": "Mata dadu kurang dari 3 adalah $\\{1, 2\\}$. Peluang munculnya mata dadu kurang dari 3 adalah $\\frac{2}{6} = \\frac{1}{3}$. Frekuensi harapan = Peluang $\\times$ Jumlah percobaan = $\\frac{1}{3} \\times 100 \\approx 33.33$, jadi sekitar 33 kali."
+  },
+  {
+    "id": 114,
+    "pertanyaan": "Hasil dari $(\\frac{1}{2})^{-2} + (\\frac{1}{3})^{-1}$ adalah...",
+    "pilihan": ["$5$", "$6$", "$7$", "$8$", "$9$"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan sifat $a^{-n} = \\frac{1}{a^n}$ dan $a^{-1} = \\frac{1}{a}$. Jadi, $(\\frac{1}{2})^{-2} = (2^1)^2 = 2^2 = 4$. Dan $(\\frac{1}{3})^{-1} = 3^1 = 3$. Maka $4 + 3 = 7$."
+  },
+  {
+    "id": 115,
+    "pertanyaan": "Perbandingan panjang, lebar, dan tinggi sebuah balok adalah 3:2:1. Jika volumenya $48 \\text{ cm}^3$, maka panjangnya adalah...",
+    "pilihan": ["$3 \\text{ cm}$", "$6 \\text{ cm}$", "$9 \\text{ cm}$", "$12 \\text{ cm}$", "$15 \\text{ cm}$"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan panjang $= 3x$, lebar $= 2x$, tinggi $= x$. Volume balok $V = p \\times l \\times t$. Jadi $48 = (3x)(2x)(x) = 6x^3$. $x^3 = \\frac{48}{6} = 8 \\implies x = \\sqrt[3]{8} = 2$. Panjangnya adalah $3x = 3 \\times 2 = 6 \\text{ cm}$."
+  },
+  {
+    "id": 116,
+    "pertanyaan": "Titik $(a, b)$ merupakan penyelesaian dari $2x - y = 4$ dan $x + y = 5$. Maka nilai $a \\times b$ adalah...",
+    "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
+    "jawaban": "D",
+    "pembahasan": "Tambahkan kedua persamaan: $(2x - y) + (x + y) = 4 + 5 \\implies 3x = 9 \\implies x = 3$. Substitusikan $x=3$ ke $x+y=5$: $3+y=5 \\implies y=2$. Jadi $a=3$ dan $b=2$. Maka $a \\times b = 3 \\times 2 = 6$."
+  },
+  {
+    "id": 117,
+    "pertanyaan": "Sebuah fungsi $f(x) = x^2 - 4x$. Range fungsi untuk domain $\\{-1, 0, 1, 2\\}$ adalah...",
+    "pilihan": ["$\\{5, 0, -3, -4\\}$", "$\\{5, 0, -4, -3\\}$", "$\\{-4, -3, 0, 5\\}$", "$\\{0, 5, -3, -4\\}$", "$\\{-3, -4, 0, 5\\}$"],
+    "jawaban": "C",
+    "pembahasan": "Hitung $f(x)$ untuk setiap nilai dalam domain: $f(-1) = (-1)^2 - 4(-1) = 1 + 4 = 5$. $f(0) = 0^2 - 4(0) = 0$. $f(1) = 1^2 - 4(1) = 1 - 4 = -3$. $f(2) = 2^2 - 4(2) = 4 - 8 = -4$. Range adalah $\\{-4, -3, 0, 5\\}$ (diurutkan)."
+  },
+  {
+    "id": 118,
+    "pertanyaan": "Bentuk sederhana dari $\\frac{x^2 - 4x}{x^2 - 16}$ adalah...",
+    "pilihan": ["$\\frac{x}{x+4}$", "$\\frac{x}{x-4}$", "$\\frac{x-4}{x+4}$", "$\\frac{x+4}{x-4}$", "$x-4$"],
+    "jawaban": "A",
+    "pembahasan": "Faktorkan pembilang dan penyebut: $x^2 - 4x = x(x-4)$. $x^2 - 16 = (x-4)(x+4)$. Jadi $\\frac{x(x-4)}{(x-4)(x+4)}$. Batalkan $(x-4)$ (dengan $x \\ne 4$): $\\frac{x}{x+4}$."
+  },
+  {
+    "id": 119,
+    "pertanyaan": "Sebuah kelas memiliki 30 siswa. 18 siswa suka olahraga, 12 siswa suka musik. Jika 5 siswa suka keduanya, berapa siswa yang tidak suka olahraga maupun musik?",
+    "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
+    "jawaban": "C",
+    "pembahasan": "Siswa yang suka olahraga atau musik = $18 + 12 - 5 = 25$ siswa. Siswa yang tidak suka keduanya = $30 - 25 = 5$ siswa."
+  },
+  {
+    "id": 120,
+    "pertanyaan": "Nilai dari $\\frac{(3^2)^3 \\times 3^{-4}}{3}$ adalah...",
+    "pilihan": ["$3$", "$9$", "$27$", "$81$", "$1$"],
+    "jawaban": "E",
+    "pembahasan": "Sederhanakan eksponen: $(3^2)^3 = 3^{2 \\times 3} = 3^6$. Maka ekspresi menjadi $\\frac{3^6 \\times 3^{-4}}{3} = \\frac{3^{6-4}}{3} = \\frac{3^2}{3^1} = 3^{2-1} = 3^1 = 3$."
+  }
+]
