@@ -100,53 +100,9 @@
   {
     "id": 135,
     "pertanyaan": "Diketahui sebuah fungsi $g(x) = ax + b$. Jika $g(2) = 7$ dan $g(4) = 13$, maka nilai $a$ dan $b$ berturut-turut adalah...",
-    "pilihan": ["$a=2, b=3$", "$a=3, b=2$", "$a=2, b=-3$", "$a=3, b=-2$", "$a=-2, b=3$"],
-    "jawaban": "A",
-    "pembahasan": "Dari $g(2) = 7$, kita dapat $2a + b = 7$. Dari $g(4) = 13$, kita dapat $4a + b = 13$. Kurangkan persamaan pertama dari yang kedua: $(4a+b) - (2a+b) = 13 - 7 \\implies 2a = 6 \\implies a = 3$. Substitusikan $a=3$ ke $2a+b=7$: $2(3) + b = 7 \\implies 6 + b = 7 \\implies b = 1$.  (Periksa ulang jawaban, sepertinya ada kesalahan dalam pilihan jawaban atau perhitungan saya).
-
-    Mari kita periksa ulang:
-    Jika $a=2, b=3$:
-    $g(2) = 2(2) + 3 = 4 + 3 = 7$ (Sesuai)
-    $g(4) = 2(4) + 3 = 8 + 3 = 11$ (Tidak sesuai dengan 13)
-
-    Jika $a=3, b=2$:
-    $g(2) = 3(2) + 2 = 6 + 2 = 8$ (Tidak sesuai dengan 7)
-
-    Jika $a=2, b=-3$:
-    $g(2) = 2(2) - 3 = 4 - 3 = 1$ (Tidak sesuai dengan 7)
-
-    Jika $a=3, b=-2$:
-    $g(2) = 3(2) - 2 = 6 - 2 = 4$ (Tidak sesuai dengan 7)
-
-    Jika $a=-2, b=3$:
-    $g(2) = -2(2) + 3 = -4 + 3 = -1$ (Tidak sesuai dengan 7)
-
-    Terdapat kesalahan pada opsi jawaban atau perhitungan saya. Mari hitung ulang dengan seksama.
-    $2a + b = 7$ (persamaan 1)
-    $4a + b = 13$ (persamaan 2)
-
-    Kurangkan (1) dari (2):
-    $(4a + b) - (2a + b) = 13 - 7$
-    $2a = 6$
-    $a = 3$
-
-    Substitusikan $a=3$ ke persamaan 1:
-    $2(3) + b = 7$
-    $6 + b = 7$
-    $b = 1$
-
-    Jadi, $a=3$ dan $b=1$.
-    Karena pilihan jawaban tidak ada yang sesuai dengan $a=3, b=1$, saya akan memilih opsi terdekat atau mencari kesalahan penulisan soal.
-    Asumsi: Terdapat kesalahan di salah satu pilihan atau soal.
-    Saya akan kembali ke soal sebelumnya yang formatnya sudah benar dan membuat soal yang baru.
-
-    Saya akan mengoreksi diri dan membuat soal baru yang tidak ambigu. Soal ini akan saya ganti.
-
-    Soal yang benar dan opsinya:
-    Diketahui sebuah fungsi $g(x) = ax + b$. Jika $g(2) = 7$ dan $g(4) = 13$, maka nilai $a$ dan $b$ berturut-turut adalah...",
     "pilihan": ["$a=2, b=3$", "$a=3, b=1$", "$a=2, b=-3$", "$a=3, b=-2$", "$a=-2, b=3$"],
     "jawaban": "B",
-    "pembahasan": "Dari $g(2) = 7$, kita dapat $2a + b = 7$. Dari $g(4) = 13$, kita dapat $4a + b = 13$. Kurangkan persamaan pertama dari yang kedua: $(4a+b) - (2a+b) = 13 - 7 \\implies 2a = 6 \\implies a = 3$. Substitusikan $a=3$ ke $2a+b=7$: $2(3) + b = 7 \\implies 6 + b = 7 \\implies b = 1$. Jadi, $a=3$ dan $b=1$."
+    "pembahasan": "Dari $g(2) = 7$, kita dapat $2a + b = 7$ (persamaan 1). Dari $g(4) = 13$, kita dapat $4a + b = 13$ (persamaan 2). Kurangkan persamaan 1 dari persamaan 2: $(4a+b) - (2a+b) = 13 - 7 \\implies 2a = 6 \\implies a = 3$. Substitusikan $a=3$ ke persamaan 1: $2(3) + b = 7 \\implies 6 + b = 7 \\implies b = 1$. Jadi, nilai $a=3$ dan $b=1$."
   },
   {
     "id": 136,
