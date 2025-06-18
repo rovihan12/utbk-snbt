@@ -1,21 +1,21 @@
 {
   "judul": "Barisan dan Deret",
-  "deskripsi": "Materi ini membahas barisan aritmetika, deret aritmetika, barisan geometri, deret geometri, dan deret geometri tak hingga, beserta contoh soal dan tips belajar praktis untuk menguasai konsep barisan dan deret di UTBK SNBT.",
+  "deskripsi": "<p>Materi ini membahas barisan aritmetika, deret aritmetika, barisan geometri, deret geometri, dan deret geometri tak hingga, beserta contoh soal dan tips belajar praktis untuk menguasai konsep barisan dan deret di UTBK SNBT.</p>",
   "subItems": [
     {
       "judul": "A. Barisan Aritmetika",
       "subItems": [
         {
           "judul": "Definisi",
-          "teks": "Barisan bilangan di mana selisih antara dua suku berurutan selalu tetap (konstan). Selisih ini disebut beda (b)."
+          "teks": "<p>Barisan bilangan di mana selisih antara dua suku berurutan selalu tetap (konstan). Selisih ini disebut beda $(b)$.</p>"
         },
         {
-          "judul": "Rumus Suku ke-n (U_n)",
-          "teks": "U_n = a + (n - 1) b\nDimana:\na = U_1 = suku pertama\nn = posisi suku\nb = beda = U_n - U_{n-1}"
+          "judul": "Rumus Suku ke-n $(U_n)$",
+          "teks": "<p>$$U_n = a + (n - 1) b$$</p><p>Di mana:</p><ul><li>$a = U_1$ = suku pertama</li><li>$n$ = posisi suku</li><li>$b$ = beda $= U_n - U_{n-1}$</li></ul>"
         },
         {
           "judul": "Sifat Penting",
-          "teks": "b = U_2 - U_1 = U_3 - U_2 = …\nJika ada U_k dan U_m, maka U_m - U_k = (m - k) b. Dari sini bisa dicari b.\nSuku tengah (U_t) jika banyaknya suku ganjil: U_t = (U_1 + U_n) / 2"
+          "teks": "<p>$$b = U_2 - U_1 = U_3 - U_2 = \\dots$$</p><p>Jika ada $U_k$ dan $U_m$, maka $$U_m - U_k = (m - k) b$$ Dari sini bisa dicari $b$.</p><p>Suku tengah ($U_t$) jika banyaknya suku ganjil: $$U_t = \\frac{(U_1 + U_n)}{2}$$</p>"
         }
       ]
     },
@@ -24,15 +24,15 @@
       "subItems": [
         {
           "judul": "Definisi",
-          "teks": "Jumlah dari suku-suku suatu barisan aritmetika."
+          "teks": "<p>Jumlah dari suku-suku suatu barisan aritmetika.</p>"
         },
         {
-          "judul": "Rumus Jumlah n Suku Pertama (S_n)",
-          "teks": "S_n = (n / 2) (a + U_n)\natau\nS_n = (n / 2) (2a + (n - 1) b)"
+          "judul": "Rumus Jumlah n Suku Pertama $(S_n)$",
+          "teks": "<p>$$S_n = \\frac{n}{2} (a + U_n)$$</p><p>atau</p><p>$$S_n = \\frac{n}{2} (2a + (n - 1) b)$$</p>"
         },
         {
           "judul": "Contoh Soal",
-          "teks": "Barisan: 3, 7, 11, 15, …\nTentukan suku ke-10 (U_10).\na = 3\nb = 7 - 3 = 4\nU_10 = a + (10 - 1) b = 3 + 9 × 4 = 39\n\nDeret: Jumlah 10 suku pertama dari barisan di atas.\na = 3, b = 4, n = 10\nS_10 = (10 / 2) (2 × 3 + (10 - 1) × 4) = 5 × (6 + 36) = 210"
+          "teks": "<p>Barisan: $3, 7, 11, 15, \\dots$</p><p>Tentukan suku ke-10 ($U_{10}$).</p><ul><li>$a = 3$</li><li>$b = 7 - 3 = 4$</li><li>$U_{10} = a + (10 - 1) b = 3 + 9 \\times 4 = 39$</li></ul><p>Deret: Jumlah 10 suku pertama dari barisan di atas.</p><ul><li>$a = 3, b = 4, n = 10$</li><li>$$S_{10} = \\frac{10}{2} (2 \\times 3 + (10 - 1) \\times 4) = 5 \\times (6 + 36) = 210$$</li></ul>"
         }
       ]
     },
@@ -41,15 +41,15 @@
       "subItems": [
         {
           "judul": "Definisi",
-          "teks": "Barisan bilangan di mana perbandingan (rasio) antara dua suku berurutan selalu tetap (konstan). Perbandingan ini disebut rasio (r)."
+          "teks": "<p>Barisan bilangan di mana perbandingan (rasio) antara dua suku berurutan selalu tetap (konstan). Perbandingan ini disebut rasio $(r)$.</p>"
         },
         {
-          "judul": "Rumus Suku ke-n (U_n)",
-          "teks": "U_n = a × r^{n-1}\nDimana:\na = U_1 = suku pertama\nn = posisi suku\nr = rasio = U_n / U_{n-1}"
+          "judul": "Rumus Suku ke-n $(U_n)$",
+          "teks": "<p>$$U_n = a \\times r^{n-1}$$</p><p>Di mana:</p><ul><li>$a = U_1$ = suku pertama</li><li>$n$ = posisi suku</li><li>$r$ = rasio $= U_n / U_{n-1}$</li></ul>"
         },
         {
           "judul": "Sifat Penting",
-          "teks": "r = U_2 / U_1 = U_3 / U_2 = …\nSuku tengah (U_t) jika banyaknya suku ganjil: U_t = √(U_1 × U_n)"
+          "teks": "<p>$$r = U_2 / U_1 = U_3 / U_2 = \\dots$$</p><p>Suku tengah ($U_t$) jika banyaknya suku ganjil: $$U_t = \\sqrt{U_1 \\times U_n}$$</p>"
         }
       ]
     },
@@ -58,11 +58,11 @@
       "subItems": [
         {
           "judul": "Definisi",
-          "teks": "Jumlah dari suku-suku suatu barisan geometri."
+          "teks": "<p>Jumlah dari suku-suku suatu barisan geometri.</p>"
         },
         {
-          "judul": "Rumus Jumlah n Suku Pertama (S_n)",
-          "teks": "Jika r > 1:\nS_n = a (r^n - 1) / (r - 1)\n\nJika r < 1:\nS_n = a (1 - r^n) / (1 - r)"
+          "judul": "Rumus Jumlah n Suku Pertama $(S_n)$",
+          "teks": "<p>Jika $r > 1$:</p><p>$$S_n = a \\frac{(r^n - 1)}{(r - 1)}$$</p><p>Jika $r < 1$:</p><p>$$S_n = a \\frac{(1 - r^n)}{(1 - r)}$$</p>"
         }
       ]
     },
@@ -71,21 +71,21 @@
       "subItems": [
         {
           "judul": "Definisi",
-          "teks": "Deret geometri yang jumlah sukunya mendekati suatu nilai tertentu jika n → ∞. Terjadi jika -1 < r < 1 atau |r| < 1."
+          "teks": "<p>Deret geometri yang jumlah sukunya mendekati suatu nilai tertentu jika $n \\to \\infty$. Terjadi jika $-1 < r < 1$ atau $|r| < 1$.</p>"
         },
         {
-          "judul": "Rumus Jumlah Tak Hingga (S_∞)",
-          "teks": "S_∞ = a / (1 - r)"
+          "judul": "Rumus Jumlah Tak Hingga $(S_{\\infty})$",
+          "teks": "<p>$$S_{\\infty} = \\frac{a}{(1 - r)}$$</p>"
         },
         {
           "judul": "Contoh Soal",
-          "teks": "Sebuah bola dijatuhkan dari ketinggian 10 meter. Setiap kali memantul, tingginya menjadi 3/5 dari tinggi sebelumnya.\n\nJarak turun: 10 + 10 × (3/5) + 10 × (3/5)^2 + …\na_turun = 10, r = 3/5\nS_∞,turun = 10 / (1 - 3/5) = 25 meter\n\nJarak naik: 10 × (3/5) + 10 × (3/5)^2 + …\na_naik = 6, r = 3/5\nS_∞,naik = 6 / (1 - 3/5) = 15 meter\n\nTotal jarak = Jarak turun + Jarak naik = 25 + 15 = 40 meter."
+          "teks": "<p>Sebuah bola dijatuhkan dari ketinggian 10 meter. Setiap kali memantul, tingginya menjadi $\\frac{3}{5}$ dari tinggi sebelumnya.</p><p>Jarak turun: $10 + 10 \\times (\\frac{3}{5}) + 10 \\times (\\frac{3}{5})^2 + \\dots$</p><ul><li>$a_{\\text{turun}} = 10, r = \\frac{3}{5}$</li><li>$$S_{\\infty, \\text{turun}} = \\frac{10}{(1 - \\frac{3}{5})} = 25\\text{ meter}$$</li></ul><p>Jarak naik: $10 \\times (\\frac{3}{5}) + 10 \\times (\\frac{3}{5})^2 + \\dots$</p><ul><li>$a_{\\text{naik}} = 6, r = \\frac{3}{5}$</li><li>$$S_{\\infty, \\text{naik}} = \\frac{6}{(1 - \\frac{3}{5})} = 15\\text{ meter}$$</li></ul><p>Total jarak = Jarak turun + Jarak naik = $25 + 15 = 40$ meter.</p>"
         }
       ]
     },
     {
       "judul": "Tips Belajar Praktis",
-      "teks": "- Pahami konsep dasar beda/rasio untuk membedakan aritmetika dan geometri.\n- Hafalkan rumus U_n dan S_n untuk barisan dan deret aritmetika maupun geometri.\n- Kenali kata kunci seperti \"selisih tetap\" → aritmetika, \"rasio tetap\" → geometri.\n- Latihan soal cerita untuk melatih identifikasi a, b, atau r.\n- Gunakan logika sederhana untuk pola sederhana tanpa rumus.\n- Teliti perhitungan, terutama pangkat dan perkalian.\n- Pahami syarat |r| < 1 pada deret geometri tak hingga dan aplikasinya.\n- Rajin latihan soal untuk menguasai materi."
+      "teks": "<ul><li>Pahami konsep dasar beda/rasio untuk membedakan aritmetika dan geometri.</li><li>Hafalkan rumus $U_n$ dan $S_n$ untuk barisan dan deret aritmetika maupun geometri.</li><li>Kenali kata kunci seperti \"selisih tetap\" \\(\\rightarrow\\) aritmetika, \"rasio tetap\" \\(\\rightarrow\\) geometri.</li><li>Latihan soal cerita untuk melatih identifikasi $a, b,$ atau $r$.</li><li>Gunakan logika sederhana untuk pola sederhana tanpa rumus.</li><li>Teliti perhitungan, terutama pangkat dan perkalian.</li><li>Pahami syarat $|r| < 1$ pada deret geometri tak hingga dan aplikasinya.</li><li>Rajin latihan soal untuk menguasai materi.</li></ul>"
     }
   ]
 }
