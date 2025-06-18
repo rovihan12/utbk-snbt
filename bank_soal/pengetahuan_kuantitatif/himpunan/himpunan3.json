@@ -1,1 +1,142 @@
-
+[
+  {
+    "id": 41,
+    "pertanyaan": "Jika $f(x) = 2x + 5$ dan $g(x) = x - 3$, maka $(f \\circ g)(x)$ adalah...",
+    "pilihan": ["$2x + 2$", "$2x - 1$", "$3x + 2$", "$3x - 1$", "$x + 2$"],
+    "jawaban": "B",
+    "pembahasan": "Komposisi fungsi $(f \\circ g)(x) = f(g(x))$. Substitusikan $g(x)$ ke dalam $f(x)$: $f(x-3) = 2(x-3) + 5 = 2x - 6 + 5 = 2x - 1$."
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah...",
+    "pilihan": ["$40 \\text{ km/jam}$", "$50 \\text{ km/jam}$", "$60 \\text{ km/jam}$", "$70 \\text{ km/jam}$", "$80 \\text{ km/jam}$"],
+    "jawaban": "C",
+    "pembahasan": "Kecepatan rata-rata dihitung dengan rumus $\\text{kecepatan} = \\frac{\\text{jarak}}{\\text{waktu}}$. Jadi, kecepatan = $\\frac{180 \\text{ km}}{3 \\text{ jam}} = 60 \\text{ km/jam}$."
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Nilai $x$ yang memenuhi persamaan $3x - 7 = 8$ adalah...",
+    "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
+    "jawaban": "C",
+    "pembahasan": "Untuk menyelesaikan persamaan $3x - 7 = 8$, tambahkan 7 ke kedua sisi: $3x = 8 + 7 \\implies 3x = 15$. Kemudian bagi kedua sisi dengan 3: $x = \\frac{15}{3} = 5$."
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Keliling sebuah persegi panjang adalah 40 cm. Jika panjangnya 12 cm, maka lebarnya adalah...",
+    "pilihan": ["$6 \\text{ cm}$", "$7 \\text{ cm}$", "$8 \\text{ cm}$", "$9 \\text{ cm}$", "$10 \\text{ cm}$"],
+    "jawaban": "C",
+    "pembahasan": "Rumus keliling persegi panjang adalah $K = 2(p+l)$. Diketahui $K = 40$ cm dan $p = 12$ cm. Maka $40 = 2(12 + l) \\implies 20 = 12 + l \\implies l = 20 - 12 = 8$ cm."
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Himpunan penyelesaian dari $2x - 3 > 7$ adalah...",
+    "pilihan": ["$x > 2$", "$x > 3$", "$x > 4$", "$x > 5$", "$x > 6$"],
+    "jawaban": "D",
+    "pembahasan": "Untuk menyelesaikan pertidaksamaan $2x - 3 > 7$, tambahkan 3 ke kedua sisi: $2x > 7 + 3 \\implies 2x > 10$. Kemudian bagi kedua sisi dengan 2: $x > \\frac{10}{2} \\implies x > 5$."
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Suku ke-7 dari barisan aritmetika $2, 5, 8, 11, \\dots$ adalah...",
+    "pilihan": ["$17$", "$18$", "$20$", "$21$", "$23$"],
+    "jawaban": "C",
+    "pembahasan": "Barisan aritmetika memiliki rumus suku ke-$n$: $U_n = a + (n-1)b$. Di sini, suku pertama $a = 2$ dan beda $b = 5 - 2 = 3$. Maka suku ke-7 adalah $U_7 = 2 + (7-1)3 = 2 + 6 \\times 3 = 2 + 18 = 20$."
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Gradien garis yang melalui titik $(2, 3)$ dan $(4, 7)$ adalah...",
+    "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
+    "jawaban": "B",
+    "pembahasan": "Gradien ($m$) dihitung dengan rumus $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Dengan titik $(2, 3)$ dan $(4, 7)$, maka $m = \\frac{7 - 3}{4 - 2} = \\frac{4}{2} = 2$."
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi tegak 5 cm. Panjang sisi tegak lainnya adalah...",
+    "pilihan": ["$8 \\text{ cm}$", "$10 \\text{ cm}$", "$12 \\text{ cm}$", "$14 \\text{ cm}$", "$15 \\text{ cm}$"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan teorema Pythagoras: $a^2 + b^2 = c^2$. Diketahui $c = 13$ cm dan $a = 5$ cm. Maka $5^2 + b^2 = 13^2 \\implies 25 + b^2 = 169 \\implies b^2 = 169 - 25 \\implies b^2 = 144 \\implies b = \\sqrt{144} = 12$ cm."
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Luas sebuah lingkaran dengan jari-jari 7 cm adalah...",
+    "pilihan": ["$44 \\text{ cm}^2$", "$88 \\text{ cm}^2$", "$154 \\text{ cm}^2$", "$308 \\text{ cm}^2$", "$616 \\text{ cm}^2$"],
+    "jawaban": "C",
+    "pembahasan": "Luas lingkaran dihitung dengan rumus $L = \\pi r^2$. Dengan $r = 7$ cm dan $\\pi = \\frac{22}{7}$, maka $L = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 22 \\times 7 = 154 \\text{ cm}^2$."
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Volume sebuah kubus dengan panjang sisi 5 cm adalah...",
+    "pilihan": ["$25 \\text{ cm}^3$", "$50 \\text{ cm}^3$", "$75 \\text{ cm}^3$", "$100 \\text{ cm}^3$", "$125 \\text{ cm}^3$"],
+    "jawaban": "E",
+    "pembahasan": "Volume kubus dihitung dengan rumus $V = s^3$. Dengan $s = 5$ cm, maka $V = 5^3 = 5 \\times 5 \\times 5 = 125 \\text{ cm}^3$."
+  },
+  {
+    "id": 51,
+    "pertanyaan": "Rata-rata dari data $4, 6, 8, 10, 12$ adalah...",
+    "pilihan": ["$6$", "$7$", "$8$", "$9$", "$10$"],
+    "jawaban": "C",
+    "pembahasan": "Rata-rata dihitung dengan menjumlahkan semua data dibagi dengan banyaknya data. Rata-rata = $\\frac{4 + 6 + 8 + 10 + 12}{5} = \\frac{40}{5} = 8$."
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Median dari data $5, 7, 2, 8, 3, 9, 4$ adalah...",
+    "pilihan": ["$4$", "$5$", "$7$", "$8$", "$9$"],
+    "jawaban": "B",
+    "pembahasan": "Untuk mencari median, urutkan data terlebih dahulu: $2, 3, 4, 5, 7, 8, 9$. Median adalah nilai tengah, yaitu $5$."
+  },
+  {
+    "id": 53,
+    "pertanyaan": "Modus dari data $3, 5, 7, 3, 8, 5, 3, 9$ adalah...",
+    "pilihan": ["$5$", "$7$", "$8$", "$9$", "$3$"],
+    "jawaban": "E",
+    "pembahasan": "Modus adalah nilai yang paling sering muncul dalam data. Dalam data ini, angka $3$ muncul 3 kali, angka $5$ muncul 2 kali, dan angka lain muncul 1 kali. Jadi, modusnya adalah $3$."
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Jika $f(x) = 3x - 1$ dan $f(a) = 14$, maka nilai $a$ adalah...",
+    "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
+    "jawaban": "C",
+    "pembahasan": "Diketahui $f(x) = 3x - 1$ dan $f(a) = 14$. Maka $3a - 1 = 14$. Tambahkan 1 ke kedua sisi: $3a = 15$. Bagi kedua sisi dengan 3: $a = \\frac{15}{3} = 5$."
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Sebuah kerucut memiliki jari-jari alas 6 cm dan tinggi 8 cm. Volume kerucut tersebut adalah... (gunakan $\\pi = 3.14$)",
+    "pilihan": ["$200.96 \\text{ cm}^3$", "$301.44 \\text{ cm}^3$", "$376.8 \\text{ cm}^3$", "$502.4 \\text{ cm}^3$", "$602.88 \\text{ cm}^3$"],
+    "jawaban": "B",
+    "pembahasan": "Volume kerucut dihitung dengan rumus $V = \\frac{1}{3} \\pi r^2 t$. Dengan $r = 6$ cm, $t = 8$ cm, dan $\\pi = 3.14$, maka $V = \\frac{1}{3} \\times 3.14 \\times 6^2 \\times 8 = \\frac{1}{3} \\times 3.14 \\times 36 \\times 8 = 3.14 \\times 12 \\times 8 = 3.14 \\times 96 = 301.44 \\text{ cm}^3$."
+  },
+  {
+    "id": 56,
+    "pertanyaan": "Sebuah kotak berisi 5 bola merah dan 3 bola biru. Jika diambil satu bola secara acak, peluang terambil bola merah adalah...",
+    "pilihan": ["$\\frac{3}{8}$", "$\\frac{1}{2}$", "$\\frac{5}{8}$", "$\\frac{3}{5}$", "$\\frac{2}{3}$"],
+    "jawaban": "C",
+    "pembahasan": "Total bola dalam kotak adalah $5 + 3 = 8$ bola. Jumlah bola merah adalah $5$. Peluang terambil bola merah adalah $\\frac{\\text{Jumlah bola merah}}{\\text{Total bola}} = \\frac{5}{8}$."
+  },
+  {
+    "id": 57,
+    "pertanyaan": "Hasil dari $(x - 4)(x + 5)$ adalah...",
+    "pilihan": ["$x^2 + x - 20$", "$x^2 - x - 20$", "$x^2 + 9x - 20$", "$x^2 - 9x - 20$", "$x^2 - 20$"],
+    "jawaban": "A",
+    "pembahasan": "Gunakan metode FOIL (First, Outer, Inner, Last): $(x - 4)(x + 5) = x \\times x + x \\times 5 - 4 \\times x - 4 \\times 5 = x^2 + 5x - 4x - 20 = x^2 + x - 20$."
+  },
+  {
+    "id": 58,
+    "pertanyaan": "Bentuk sederhana dari $3(2x - 5) + 4x$ adalah...",
+    "pilihan": ["$10x - 5$", "$10x - 15$", "$6x - 15$", "$6x - 5$", "$10x$"],
+    "jawaban": "B",
+    "pembahasan": "Distribusikan 3 ke dalam kurung: $3(2x - 5) + 4x = 6x - 15 + 4x$. Gabungkan suku-suku sejenis: $(6x + 4x) - 15 = 10x - 15$."
+  },
+  {
+    "id": 59,
+    "pertanyaan": "Jika sebuah dadu dilempar sekali, peluang munculnya mata dadu ganjil adalah...",
+    "pilihan": ["$\\frac{1}{6}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{2}{3}$", "$\\frac{5}{6}$"],
+    "jawaban": "C",
+    "pembahasan": "Mata dadu ganjil adalah $\\{1, 3, 5\\}$. Ada 3 mata dadu ganjil dari total 6 mata dadu. Jadi, peluangnya adalah $\\frac{3}{6} = \\frac{1}{2}$."
+  },
+  {
+    "id": 60,
+    "pertanyaan": "Sebuah deret geometri memiliki suku pertama 3 dan rasio 2. Jumlah 4 suku pertama adalah...",
+    "pilihan": ["$24$", "$30$", "$36$", "$45$", "$60$"],
+    "jawaban": "D",
+    "pembahasan": "Jumlah $n$ suku pertama deret geometri dihitung dengan rumus $S_n = a\\frac{(r^n - 1)}{r - 1}$. Diketahui $a = 3$, $r = 2$, dan $n = 4$. Maka $S_4 = 3\\frac{(2^4 - 1)}{2 - 1} = 3\\frac{(16 - 1)}{1} = 3 \\times 15 = 45$."
+  }
+]
