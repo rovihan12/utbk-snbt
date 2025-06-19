@@ -7,52 +7,52 @@
       "subItems": [
         {
           "judul": "1. Definisi Dasar",
-          "teks": "Eksponen adalah cara singkat untuk menyatakan perkalian berulang suatu bilangan.\n\nNotasi: aⁿ = a × a × ... × a (n kali)\na = basis (bilangan pokok)\nn = eksponen (pangkat)"
+          "teks": "Eksponen adalah cara singkat untuk menyatakan perkalian berulang suatu bilangan.\n\nNotasi: $a^n = a \\times a \\times ... \\times a$ ($n$ kali)\n$a$ = basis (bilangan pokok)\n$n$ = eksponen (pangkat)"
         },
         {
           "judul": "2. Sifat-sifat Eksponen (WAJIB DIHAFAL DAN PAHAMI)",
           "subItems": [
             {
               "judul": "Perkalian Eksponen dengan Basis Sama",
-              "teks": "aᵐ × aⁿ = aᵐ⁺ⁿ\nContoh: 2³ × 2⁴ = 2⁷"
+              "teks": "$a^m \\times a^n = a^{m+n}$\nContoh: $2^3 \\times 2^4 = 2^7$"
             },
             {
               "judul": "Pembagian Eksponen dengan Basis Sama",
-              "teks": "aᵐ / aⁿ = aᵐ⁻ⁿ\nContoh: 5⁶ / 5² = 5⁴"
+              "teks": "$a^m / a^n = a^{m-n}$\nContoh: $5^6 / 5^2 = 5^4$"
             },
             {
               "judul": "Pangkat dari Pangkat",
-              "teks": "(aᵐ)ⁿ = aᵐⁿ\nContoh: (3²)⁵ = 3¹⁰"
+              "teks": "$(a^m)^n = a^{mn}$\nContoh: $(3^2)^5 = 3^{10}$"
             },
             {
               "judul": "Pangkat dari Perkalian",
-              "teks": "(ab)ⁿ = aⁿ bⁿ\nContoh: (2×3)⁴ = 2⁴ × 3⁴"
+              "teks": "$(ab)^n = a^n b^n$\nContoh: $(2 \\times 3)^4 = 2^4 \\times 3^4$"
             },
             {
               "judul": "Pangkat dari Pembagian",
-              "teks": "(a/b)ⁿ = aⁿ / bⁿ\nContoh: (4/5)³ = 4³ / 5³"
+              "teks": "$(a/b)^n = a^n / b^n$\nContoh: $(4/5)^3 = 4^3 / 5^3$"
             },
             {
               "judul": "Pangkat Nol",
-              "teks": "a⁰ = 1 (untuk a ≠ 0)\nContoh: 100⁰ = 1"
+              "teks": "$a^0 = 1$ (untuk $a \\neq 0$)\nContoh: $100^0 = 1$"
             },
             {
               "judul": "Pangkat Negatif",
-              "teks": "a⁻ⁿ = 1/aⁿ dan 1/a⁻ⁿ = aⁿ\nContoh: 2⁻³ = 1/2³ = 1/8"
+              "teks": "$a^{-n} = 1/a^n$ dan $1/a^{-n} = a^n$\nContoh: $2^{-3} = 1/2^3 = 1/8$"
             },
             {
               "judul": "Pangkat Pecahan (Hubungan dengan Akar)",
-              "teks": "ⁿ√aᵐ = a^(m/n)\nContoh: ³√8² = 8^(2/3)\n√x = x^(1/2)"
+              "teks": "$\\sqrt[n]{a^m} = a^{m/n}$\nContoh: $\\sqrt[3]{8^2} = 8^{2/3}$\n$\\sqrt{x} = x^{1/2}$"
             }
           ]
         },
         {
           "judul": "3. Persamaan Eksponen Sederhana",
-          "teks": "Jika a^f(x) = a^g(x), maka f(x) = g(x) (dengan a > 0 dan a ≠ 1).\nContoh: 2^(x+1) = 2^5 ⟹ x + 1 = 5 ⟹ x = 4\n\nJika a^f(x) = b^f(x), dengan a ≠ b, maka f(x) = 0.\nContoh: 3^(x−2) = 5^(x−2) ⟹ x − 2 = 0 ⟹ x = 2"
+          "teks": "Jika $a^{f(x)} = a^{g(x)}$, maka $f(x) = g(x)$ (dengan $a > 0$ dan $a \\neq 1$).\nContoh: $2^{x+1} = 2^5 \\implies x + 1 = 5 \\implies x = 4$\n\nJika $a^{f(x)} = b^{f(x)}$, dengan $a \\neq b$, maka $f(x) = 0$.\nContoh: $3^{x-2} = 5^{x-2} \\implies x - 2 = 0 \\implies x = 2$"
         },
         {
           "judul": "Tips Belajar Eksponen",
-          "teks": "- Hafalkan semua sifat-sifat eksponen di luar kepala.\n- Latih soal-soal penyederhanaan bentuk eksponen.\n- Pahami konversi antara bentuk pangkat pecahan dan bentuk akar.\n- Hati-hati dengan tanda negatif, terutama jika basisnya negatif (misal (−2)³ vs (−2)⁴)."
+          "teks": "- Hafalkan semua sifat-sifat eksponen di luar kepala.\n- Latih soal-soal penyederhanaan bentuk eksponen.\n- Pahami konversi antara bentuk pangkat pecahan dan bentuk akar.\n- Hati-hati dengan tanda negatif, terutama jika basisnya negatif (misal $(-2)^3$ vs $(-2)^4$)."
         }
       ]
     },
@@ -61,60 +61,60 @@
       "subItems": [
         {
           "judul": "1. Definisi Dasar",
-          "teks": "Logaritma adalah invers dari eksponen. Jika a^b = c, maka logₐ c = b.\nDibaca: \"logaritma c basis a adalah b\".\n\nNotasi:\na log c = b ⟺ a^b = c\n\nSyarat:\na > 0, a ≠ 1\nc > 0\n\nLogaritma natural (ln): lnx = logₑ x dengan e ≈ 2.718\nLogaritma basis 10: Jika basis tidak ditulis, diasumsikan basis 10."
+          "teks": "Logaritma adalah invers dari eksponen. Jika $a^b = c$, maka $\\log_a c = b$.\nDibaca: \"logaritma $c$ basis $a$ adalah $b$\".\n\nNotasi:\n$a \\log c = b \\iff a^b = c$\n\nSyarat:\n$a > 0, a \\neq 1$\n$c > 0$\n\nLogaritma natural (ln): $\\ln x = \\log_e x$ dengan $e \\approx 2.718$\nLogaritma basis 10: Jika basis tidak ditulis, diasumsikan basis 10."
         },
         {
           "judul": "2. Sifat-sifat Logaritma (WAJIB DIHAFAL DAN PAHAMI)",
           "subItems": [
             {
               "judul": "a log a = 1",
-              "teks": "Contoh: 5 log 5 = 1"
+              "teks": "$\\log_a a = 1$\nContoh: $\\log_5 5 = 1$"
             },
             {
               "judul": "a log 1 = 0",
-              "teks": "Contoh: 7 log 1 = 0"
+              "teks": "$\\log_a 1 = 0$\nContoh: $\\log_7 1 = 0$"
             },
             {
               "judul": "a log aⁿ = n",
-              "teks": "Contoh: 2 log 2⁵ = 5"
+              "teks": "$\\log_a a^n = n$\nContoh: $\\log_2 2^5 = 5$"
             },
             {
               "judul": "a log (p×q) = a log p + a log q",
-              "teks": "Contoh: 3 log (9×27) = 3 log 9 + 3 log 27 = 2 + 3 = 5"
+              "teks": "$\\log_a (p \\times q) = \\log_a p + \\log_a q$\nContoh: $\\log_3 (9 \\times 27) = \\log_3 9 + \\log_3 27 = 2 + 3 = 5$"
             },
             {
               "judul": "a log (p/q) = a log p − a log q",
-              "teks": "Contoh: 2 log (16/4) = 2 log 16 − 2 log 4 = 4 − 2 = 2"
+              "teks": "$\\log_a (p/q) = \\log_a p - \\log_a q$\nContoh: $\\log_2 (16/4) = \\log_2 16 - \\log_2 4 = 4 - 2 = 2$"
             },
             {
               "judul": "a log pⁿ = n × a log p",
-              "teks": "Contoh: 5 log 25³ = 3 × 5 log 25 = 3 × 2 = 6"
+              "teks": "$\\log_a p^n = n \\times \\log_a p$\nContoh: $\\log_5 25^3 = 3 \\times \\log_5 25 = 3 \\times 2 = 6$"
             },
             {
               "judul": "Pergantian Basis",
-              "teks": "a log c = (p log c) / (p log a) (biasanya p = 10 atau p = e)\n\nImplikasi penting:\na log c = 1 / c log a\n\nContoh: 2 log 5 = (log 5) / (log 2)"
+              "teks": "$\\log_a c = (\\log_p c) / (\\log_p a)$ (biasanya $p = 10$ atau $p = e$)\n\nImplikasi penting:\n$\\log_a c = 1 / \\log_c a$\n\nContoh: $\\log_2 5 = (\\log 5) / (\\log 2)$"
             },
             {
               "judul": "Sifat Rantai",
-              "teks": "a log b × b log c = a log c\nContoh: 2 log 3 × 3 log 8 = 2 log 8 = 3"
+              "teks": "$\\log_a b \\times \\log_b c = \\log_a c$\nContoh: $\\log_2 3 \\times \\log_3 8 = \\log_2 8 = 3$"
             },
             {
               "judul": "Pangkat Basis Logaritma",
-              "teks": "a^(a log c) = c\nContoh: 7^(7 log 10) = 10"
+              "teks": "$a^{\\log_a c} = c$\nContoh: $7^{\\log_7 10} = 10$"
             },
             {
               "judul": "a log bⁿ = (m/n) × a log b (jika basisnya a^m)",
-              "teks": "Contoh: 2³ log 5² = (3/2) × 2 log 5"
+              "teks": "$\\log_{a^m} b^n = (n/m) \\times \\log_a b$\nContoh: $\\log_{2^3} 5^2 = (2/3) \\times \\log_2 5$"
             }
           ]
         },
         {
           "judul": "3. Persamaan Logaritma Sederhana",
-          "teks": "Jika a log f(x) = a log g(x), maka f(x) = g(x) (dengan syarat f(x) > 0 dan g(x) > 0).\nContoh: 3 log (x+1) = 3 log 7 ⟹ x + 1 = 7 ⟹ x = 6 (cek x+1>0)\n\nJika a log f(x) = b, maka f(x) = a^b (dengan syarat f(x) > 0).\nContoh: 2 log x = 3 ⟹ x = 2³ = 8 (cek x > 0)"
+          "teks": "Jika $\\log_a f(x) = \\log_a g(x)$, maka $f(x) = g(x)$ (dengan syarat $f(x) > 0$ dan $g(x) > 0$).\nContoh: $\\log_3 (x+1) = \\log_3 7 \\implies x + 1 = 7 \\implies x = 6$ (cek $x+1>0$)\n\nJika $\\log_a f(x) = b$, maka $f(x) = a^b$ (dengan syarat $f(x) > 0$).\nContoh: $\\log_2 x = 3 \\implies x = 2^3 = 8$ (cek $x > 0$)"
         },
         {
           "judul": "Tips Belajar Logaritma",
-          "teks": "- Pahami Definisi Kuat-kuat: Logaritma adalah kebalikan dari eksponen. Jika bingung, ubah ke bentuk eksponen.\n- Hafalkan sifat-sifat logaritma dan latih dengan contoh sederhana.\n- Perhatikan syarat basis dan numerus: basis > 0 dan ≠ 1; numerus > 0.\n- Latih soal kombinasi eksponen dan logaritma.\n\nStrategi Umum UTBK:\n- Latihan soal konsep dasar terlebih dahulu.\n- Kerjakan soal modifikasi yang memerlukan beberapa langkah.\n- Pahami penggunaan eksponen dan logaritma dalam persamaan dan pertidaksamaan.\n- Ikuti urutan operasi matematika.\n- Teliti perhitungan pangkat dan sifat.\n- Jangan takut dengan angka besar/kecil, gunakan sifat-sifat log dan eksponen untuk penyederhanaan."
+          "teks": "- Pahami Definisi Kuat-kuat: Logaritma adalah kebalikan dari eksponen. Jika bingung, ubah ke bentuk eksponen.\n- Hafalkan sifat-sifat logaritma dan latih dengan contoh sederhana.\n- Perhatikan syarat basis dan numerus: basis $> 0$ dan $\\neq 1$; numerus $> 0$.\n- Latih soal kombinasi eksponen dan logaritma.\n\nStrategi Umum UTBK:\n- Latihan soal konsep dasar terlebih dahulu.\n- Kerjakan soal modifikasi yang memerlukan beberapa langkah.\n- Pahami penggunaan eksponen dan logaritma dalam persamaan dan pertidaksamaan.\n- Ikuti urutan operasi matematika.\n- Teliti perhitungan pangkat dan sifat.\n- Jangan takut dengan angka besar/kecil, gunakan sifat-sifat log dan eksponen untuk penyederhanaan."
         }
       ]
     }
