@@ -7,19 +7,19 @@
       "subItems": [
         {
           "judul": "1. Definisi dan Notasi Himpunan",
-          "teks": "Himpunan adalah kumpulan objek yang terdefinisi dengan jelas.\nNotasi:\n- Mendaftar anggota: A={1,2,3}\n- Notasi pembentuk himpunan: B={x | x adalah bilangan genap kurang dari 10}"
+          "teks": "Himpunan adalah kumpulan objek yang terdefinisi dengan jelas.\nNotasi:\n- Mendaftar anggota: $A=\\{1,2,3\\}$\n- Notasi pembentuk himpunan: $B=\\{x \\mid x \\text{ adalah bilangan genap kurang dari 10}\\}$"
         },
         {
           "judul": "2. Jenis-jenis Himpunan",
-          "teks": "- Himpunan kosong (∅ atau {})\n- Himpunan berhingga dan tak berhingga\n- Himpunan semesta (S atau U)\n- Himpunan bagian (A⊆B): Semua anggota A juga anggota B.\n- Himpunan kuasa (P(A)): Himpunan semua himpunan bagian dari A.\n- Himpunan sama (A=B): Setiap anggota A adalah anggota B, dan sebaliknya.\n- Himpunan saling lepas (A∩B=∅): Tidak ada anggota yang sama antara A dan B."
+          "teks": "- Himpunan kosong ($\\emptyset$ atau $\\{\\}$)\n- Himpunan berhingga dan tak berhingga\n- Himpunan semesta ($S$ atau $U$)\n- Himpunan bagian ($A \\subseteq B$): Semua anggota $A$ juga anggota $B$.\n- Himpunan kuasa ($P(A)$): Himpunan semua himpunan bagian dari $A$.\n- Himpunan sama ($A=B$): Setiap anggota $A$ adalah anggota $B$, dan sebaliknya.\n- Himpunan saling lepas ($A \\cap B = \\emptyset$): Tidak ada anggota yang sama antara $A$ dan $B$."
         },
         {
           "judul": "3. Operasi pada Himpunan",
-          "teks": "- Gabungan (A∪B): Semua anggota yang ada di A atau B (atau keduanya).\n- Irisan (A∩B): Semua anggota yang ada di A dan di B.\n- Selisih (A−B): Semua anggota di A tapi tidak di B.\n- Komplemen (A'): Semua anggota himpunan semesta S yang tidak ada di A."
+          "teks": "- Gabungan ($A \\cup B$): Semua anggota yang ada di $A$ atau $B$ (atau keduanya).\n- Irisan ($A \\cap B$): Semua anggota yang ada di $A$ dan di $B$.\n- Selisih ($A - B$): Semua anggota di $A$ tapi tidak di $B$.\n- Komplemen ($A'$): Semua anggota himpunan semesta $S$ yang tidak ada di $A$."
         },
         {
           "judul": "4. Diagram Venn dan Sifat Operasi",
-          "teks": "Diagram Venn: Representasi visual himpunan dan operasinya.\nSifat-sifat:\n- Komutatif: A∪B = B∪A, A∩B = B∩A\n- Asosiatif: (A∪B)∪C = A∪(B∪C), (A∩B)∩C = A∩(B∩C)\n- Distributif: A∪(B∩C) = (A∪B)∩(A∪C), A∩(B∪C) = (A∩B)∪(A∩C)\n- Identitas: A∪∅ = A, A∩S = A\n- Komplemen: A∪A^c = S, A∩A^c = ∅\n- Hukum De Morgan: (A∪B)^c = A^c ∩ B^c, (A∩B)^c = A^c ∪ B^c"
+          "teks": "Diagram Venn: Representasi visual himpunan dan operasinya.\nSifat-sifat:\n- Komutatif: $A \\cup B = B \\cup A$, $A \\cap B = B \\cap A$\n- Asosiatif: $(A \\cup B) \\cup C = A \\cup (B \\cup C)$, $(A \\cap B) \\cap C = A \\cap (B \\cap C)$\n- Distributif: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$, $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$\n- Identitas: $A \\cup \\emptyset = A$, $A \\cap S = A$\n- Komplemen: $A \\cup A^c = S$, $A \\cap A^c = \\emptyset$\n- Hukum De Morgan: $(A \\cup B)^c = A^c \\cap B^c$, $(A \\cap B)^c = A^c \\cup B^c$"
         }
       ]
     },
@@ -28,11 +28,11 @@
       "subItems": [
         {
           "judul": "1. Jenis-jenis Bilangan",
-          "teks": "- Bilangan Asli (N={1,2,3,...})\n- Bilangan Cacah (W={0,1,2,3,...})\n- Bilangan Bulat (Z={...,−2,−1,0,1,2,...})\n- Bilangan Rasional (Q={p/q | p,q∈Z, q≠0})\n- Bilangan Irrasional (tidak dapat dinyatakan sebagai pecahan)\n- Bilangan Real (R)"
+          "teks": "- Bilangan Asli ($N=\\{1,2,3,...\\}$)\n- Bilangan Cacah ($W=\\{0,1,2,3,...\\}$)\n- Bilangan Bulat ($Z=\\{...,-2,-1,0,1,2,...\\}$)\n- Bilangan Rasional ($Q=\\{p/q \\mid p,q \\in Z, q \\neq 0\\}$)\n- Bilangan Irrasional (tidak dapat dinyatakan sebagai pecahan)\n- Bilangan Real ($R$)"
         },
         {
           "judul": "2. Sifat-sifat Operasi Bilangan",
-          "teks": "- Komutatif: a+b = b+a, a×b = b×a\n- Asosiatif: (a+b)+c = a+(b+c), (a×b)×c = a×(b×c)\n- Distributif: a×(b+c) = a×b + a×c\n- Identitas: Penjumlahan: a+0 = a, Perkalian: a×1 = a\n- Invers: Penjumlahan: a + (−a) = 0, Perkalian: a × (1/a) = 1 (a ≠ 0)"
+          "teks": "- Komutatif: $a+b = b+a$, $a \\times b = b \\times a$\n- Asosiatif: $(a+b)+c = a+(b+c)$, $(a \\times b) \\times c = a \\times (b \\times c)$\n- Distributif: $a \\times (b+c) = a \\times b + a \\times c$\n- Identitas: Penjumlahan: $a+0 = a$, Perkalian: $a \\times 1 = a$\n- Invers: Penjumlahan: $a + (-a) = 0$, Perkalian: $a \\times (1/a) = 1$ ($a \\neq 0$)"
         },
         {
           "judul": "3. Operasi dengan Pecahan",
@@ -44,11 +44,11 @@
         },
         {
           "judul": "5. Operasi dengan Eksponen",
-          "teks": "- a^m × a^n = a^(m+n)\n- a^m / a^n = a^(m−n)\n- (a^m)^n = a^(mn)\n- (ab)^m = a^m × b^m\n- (a/b)^m = a^m / b^m\n- a^0 = 1 (a ≠ 0)\n- a^(−n) = 1/a^n\n- a^(m/n) = (n√a)^m"
+          "teks": "- $a^m \\times a^n = a^{m+n}$\n- $a^m / a^n = a^{m-n}$\n- $(a^m)^n = a^{mn}$\n- $(ab)^m = a^m \\times b^m$\n- $(a/b)^m = a^m / b^m$\n- $a^0 = 1$ ($a \\neq 0$)\n- $a^{-n} = 1/a^n$\n- $a^{m/n} = (\\sqrt[n]{a})^m$"
         },
         {
           "judul": "6. Operasi dengan Akar (Radikal)",
-          "teks": "- √a × √b = √(ab)\n- √a / √b = √(a/b)\n- c√a + d√a = (c+d)√a\n- Rasionalkan penyebut pecahan yang mengandung akar."
+          "teks": "- $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$\n- $\\sqrt{a} / \\sqrt{b} = \\sqrt{a/b}$\n- $c\\sqrt{a} + d\\sqrt{a} = (c+d)\\sqrt{a}$\n- Rasionalkan penyebut pecahan yang mengandung akar."
         }
       ]
     },
@@ -61,19 +61,19 @@
       "subItems": [
         {
           "judul": "1. Soal Himpunan",
-          "teks": "Diketahui A={1,2,3,4,5} dan B={3,5,6,7}. Tentukan A∪B dan A∩B.\nJawaban:\n- A∪B = {1,2,3,4,5,6,7}\n- A∩B = {3,5}"
+          "teks": "Diketahui $A=\\{1,2,3,4,5\\}$ dan $B=\\{3,5,6,7\\}$. Tentukan $A \\cup B$ dan $A \\cap B$.\nJawaban:\n- $A \\cup B = \\{1,2,3,4,5,6,7\\}$\n- $A \\cap B = \\{3,5\\}$"
         },
         {
           "judul": "2. Soal Pecahan",
-          "teks": "Sederhanakan: 2/3 + 1/4 - 5/6\n→ Samakan penyebut: 8/12 + 3/12 - 10/12 = 1/12"
+          "teks": "Sederhanakan: $2/3 + 1/4 - 5/6$\n$\\to$ Samakan penyebut: $8/12 + 3/12 - 10/12 = 1/12$"
         },
         {
           "judul": "3. Soal Eksponen",
-          "teks": "Sederhanakan: (3^2 × 3^4) / 3^3\n→ 3^(2+4−3) = 3^3 = 27"
+          "teks": "Sederhanakan: $(3^2 \\times 3^4) / 3^3$\n$\\to 3^{2+4-3} = 3^3 = 27$"
         },
         {
           "judul": "4. Soal Rasionalkan Akar",
-          "teks": "Rasionalkan penyebut: √2 / √3\n→ (√2 / √3) × (√3 / √3) = √6 / 3"
+          "teks": "Rasionalkan penyebut: $\\sqrt{2} / \\sqrt{3}$\n$\\to (\\sqrt{2} / \\sqrt{3}) \\times (\\sqrt{3} / \\sqrt{3}) = \\sqrt{6} / 3$"
         }
       ]
     }
