@@ -1,17 +1,10 @@
 [
-   {
+  {
     "id": 61,
-    "pertanyaan": "Berapa nilai sudut r?",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/sudut_r.png",
-    "pilihan": [
-      "32",
-      "38",
-      "48",
-      "62",
-      "87"
-    ],
+    "pertanyaan": "Observasi 1: Setiap kali saya mengisi bahan bakar di Stasiun Pengisian Bahan Bakar Umum (SPBU) A, kendaraan saya terasa lebih irit.\nObservasi 2: Teman saya juga merasakan hal yang sama setelah mengisi bahan bakar di SPBU A.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["SPBU A menjual bahan bakar paling mahal.", "Bahan bakar di SPBU A membuat kendaraan lebih irit.", "Efisiensi bahan bakar tidak bergantung pada SPBU.", "Hanya kendaraan saya dan teman saya yang lebih irit setelah mengisi di SPBU A.", "Tidak ada kesimpulan yang bisa ditarik."],
     "jawaban": "B",
-    "pembahasan": "Sudut p = $67^{\\circ}$ (bertolak belakang dengan sudut $67^{\\circ}$).\nSudut s + $105^{\\circ} = 180^{\\circ}$ (sudut berpelurus).\nSudut s = $180^{\\circ} - 105^{\\circ} = 75^{\\circ}$.\nSudut s sehadap dengan sudut q maka nilainya sama, $s = q = 75^{\\circ}$.\nJumlah sudut dalam segitiga adalah $180^{\\circ}$. Maka, $p + q + r = 180^{\\circ}$.\n$67^{\\circ} + 75^{\\circ} + r = 180^{\\circ}$.\n$142^{\\circ} + r = 180^{\\circ}$.\n$r = 180^{\\circ} - 142^{\\circ}$.\n$r = 38^{\\circ}$."
+    "pembahasan": "Dari observasi yang konsisten dari dua individu, dapat disimpulkan secara induktif bahwa 'bahan bakar di SPBU A *membuat* kendaraan lebih irit'. Ini adalah generalisasi kualitas berdasarkan pengalaman berulang."
   },
   {
     "id": 62,
@@ -77,4 +70,3 @@
     "pembahasan": "Pola ini menunjukkan penambahan hari yang bervariasi secara berurutan: +1 (Senin ke Selasa), +2 (Selasa ke Kamis), +1 (Kamis ke Jumat), +2 (Jumat ke Minggu), +1 (Minggu ke Senin). Mengikuti pola +1, +2, +1, +2, +1, maka setelah 'Senin', penambahan selanjutnya adalah +2. Senin + 2 hari = Rabu."
   }
 ]
-
