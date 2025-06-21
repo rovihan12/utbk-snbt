@@ -1,1 +1,262 @@
-
+[
+  {
+    "id": 121,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika harga 3 buku adalah Rp45.000, berapa harga 5 buku?",
+    "pilihan": [
+      "Rp60.000",
+      "Rp75.000",
+      "Rp90.000",
+      "Rp100.000"
+    ],
+    "jawaban": "Rp75.000",
+    "pembahasan": "Harga 1 buku = Rp45.000 / 3 = Rp15.000. Harga 5 buku = 5 * Rp15.000 = Rp75.000."
+  },
+  {
+    "id": 122,
+    "kategori": "Mudah",
+    "pertanyaan": "Berapakah nilai dari (2^3) * (2^2)?",
+    "pilihan": [
+      "2^5",
+      "2^6",
+      "4^5",
+      "4^6"
+    ],
+    "jawaban": "2^5",
+    "pembahasan": "Gunakan sifat perkalian pangkat dengan basis yang sama: a^m * a^n = a^(m+n). Jadi, 2^3 * 2^2 = 2^(3+2) = 2^5."
+  },
+  {
+    "id": 123,
+    "kategori": "Mudah",
+    "pertanyaan": "Sebuah segitiga memiliki alas 10 cm dan tinggi 6 cm. Luas segitiga tersebut adalah...",
+    "pilihan": [
+      "30 cm^2",
+      "40 cm^2",
+      "50 cm^2",
+      "60 cm^2"
+    ],
+    "jawaban": "30 cm^2",
+    "pembahasan": "Rumus luas segitiga = 1/2 * alas * tinggi. Luas = 1/2 * 10 * 6 = 5 * 6 = 30 cm^2."
+  },
+  {
+    "id": 124,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika x = 4 dan y = 3, maka nilai dari 2x + 3y adalah...",
+    "pilihan": [
+      "14",
+      "17",
+      "19",
+      "21"
+    ],
+    "jawaban": "17",
+    "pembahasan": "Substitusikan nilai x dan y: 2(4) + 3(3) = 8 + 9 = 17."
+  },
+  {
+    "id": 125,
+    "kategori": "Mudah",
+    "pertanyaan": "Faktor prima dari 30 adalah...",
+    "pilihan": [
+      "2, 3, 5",
+      "2, 5, 6",
+      "3, 5, 10",
+      "2, 3, 5, 1"
+    ],
+    "jawaban": "2, 3, 5",
+    "pembahasan": "Faktor prima adalah bilangan prima yang dapat membagi habis bilangan tersebut. 30 = 2 * 3 * 5."
+  },
+  {
+    "id": 126,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika f(x) = x^2 - 3x + 2, maka nilai f(-1) adalah...",
+    "pilihan": [
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "jawaban": "6",
+    "pembahasan": "Substitusikan x = -1 ke dalam fungsi: f(-1) = (-1)^2 - 3(-1) + 2 = 1 + 3 + 2 = 6."
+  },
+  {
+    "id": 127,
+    "kategori": "Sedang",
+    "pertanyaan": "Barisan angka 1, 4, 7, 10, ... adalah barisan aritmatika. Suku ke-7 dari barisan ini adalah...",
+    "pilihan": [
+      "16",
+      "19",
+      "22",
+      "25"
+    ],
+    "jawaban": "19",
+    "pembahasan": "Suku pertama (a) = 1, beda (b) = 4 - 1 = 3. Rumus suku ke-n aritmatika: Un = a + (n-1)b. Suku ke-7 (U7) = 1 + (7-1)3 = 1 + 6*3 = 1 + 18 = 19."
+  },
+  {
+    "id": 128,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika perbandingan umur Andi dan Budi adalah 3:5, dan jumlah umur mereka adalah 40 tahun, berapa umur Andi?",
+    "pilihan": [
+      "15 tahun",
+      "20 tahun",
+      "25 tahun",
+      "30 tahun"
+    ],
+    "jawaban": "15 tahun",
+    "pembahasan": "Misal umur Andi = 3x dan umur Budi = 5x. 3x + 5x = 40 --> 8x = 40 --> x = 5. Umur Andi = 3x = 3 * 5 = 15 tahun."
+  },
+  {
+    "id": 129,
+    "kategori": "Mudah",
+    "pertanyaan": "Hasil dari 15 - (-5) + 8 adalah...",
+    "pilihan": [
+      "18",
+      "28",
+      "2",
+      "12"
+    ],
+    "jawaban": "28",
+    "pembahasan": "15 - (-5) + 8 = 15 + 5 + 8 = 20 + 8 = 28."
+  },
+  {
+    "id": 130,
+    "kategori": "Mudah",
+    "pertanyaan": "Berapa menit dalam 3 jam 20 menit?",
+    "pilihan": [
+      "180 menit",
+      "200 menit",
+      "220 menit",
+      "240 menit"
+    ],
+    "jawaban": "200 menit",
+    "pembahasan": "1 jam = 60 menit. 3 jam = 3 * 60 = 180 menit. Total = 180 menit + 20 menit = 200 menit."
+  },
+  {
+    "id": 131,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika sebuah roda berputar 10 kali untuk menempuh jarak 15.7 meter, berapa jari-jari roda tersebut? (gunakan pi = 3.14)",
+    "pilihan": [
+      "0.25 meter",
+      "0.5 meter",
+      "1 meter",
+      "2 meter"
+    ],
+    "jawaban": "0.25 meter",
+    "pembahasan": "Jarak yang ditempuh dalam 1 putaran = keliling roda. Keliling = Jarak total / Jumlah putaran = 15.7 / 10 = 1.57 meter. Keliling roda = 2 * pi * r. 1.57 = 2 * 3.14 * r. 1.57 = 6.28 * r. r = 1.57 / 6.28 = 0.25 meter."
+  },
+  {
+    "id": 132,
+    "kategori": "Sedang",
+    "pertanyaan": "Penyelesaian dari persamaan mutlak |2x - 3| = 5 adalah...",
+    "pilihan": [
+      "x = 4 atau x = -1",
+      "x = 4 atau x = 1",
+      "x = 2 atau x = -1",
+      "x = 2 atau x = 1"
+    ],
+    "jawaban": "x = 4 atau x = -1",
+    "pembahasan": "Ada dua kemungkinan: 2x - 3 = 5 atau 2x - 3 = -5.\nKasus 1: 2x - 3 = 5 --> 2x = 8 --> x = 4.\nKasus 2: 2x - 3 = -5 --> 2x = -2 --> x = -1."
+  },
+  {
+    "id": 133,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika ada 20 kelereng di dalam kantong, 12 berwarna merah dan sisanya biru. Berapa rasio kelereng merah terhadap kelereng biru?",
+    "pilihan": [
+      "2:3",
+      "3:2",
+      "3:5",
+      "5:3"
+    ],
+    "jawaban": "3:2",
+    "pembahasan": "Jumlah kelereng biru = 20 - 12 = 8. Rasio merah : biru = 12 : 8. Sederhanakan rasio dengan membagi keduanya dengan 4: 12/4 : 8/4 = 3 : 2."
+  },
+  {
+    "id": 134,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai dari (1/2)^-2 adalah...",
+    "pilihan": [
+      "1/4",
+      "4",
+      "-4",
+      "-1/4"
+    ],
+    "jawaban": "4",
+    "pembahasan": "Pangkat negatif berarti kebalikan dari basisnya. (1/2)^-2 = 1 / (1/2)^2 = 1 / (1/4) = 1 * 4 = 4."
+  },
+  {
+    "id": 135,
+    "kategori": "Mudah",
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 5 cm. Keliling persegi panjang tersebut adalah...",
+    "pilihan": [
+      "17 cm",
+      "24 cm",
+      "34 cm",
+      "60 cm"
+    ],
+    "jawaban": "34 cm",
+    "pembahasan": "Keliling persegi panjang = 2 * (panjang + lebar) = 2 * (12 + 5) = 2 * 17 = 34 cm."
+  },
+  {
+    "id": 136,
+    "kategori": "Mudah",
+    "pertanyaan": "Hasil dari 7^0 adalah...",
+    "pilihan": [
+      "0",
+      "1",
+      "7",
+      "Tidak terdefinisi"
+    ],
+    "jawaban": "1",
+    "pembahasan": "Setiap bilangan (kecuali 0) yang dipangkatkan 0 hasilnya adalah 1."
+  },
+  {
+    "id": 137,
+    "kategori": "Sedang",
+    "pertanyaan": "Turunan pertama dari f(x) = 5x^2 - 7x + 10 adalah...",
+    "pilihan": [
+      "10x - 7",
+      "5x - 7",
+      "10x - 7x",
+      "5x^3 - 7x^2 + 10x"
+    ],
+    "jawaban": "10x - 7",
+    "pembahasan": "Gunakan aturan turunan pangkat: d/dx(ax^n) = anx^(n-1). Turunan dari 5x^2 adalah 5*2x^(2-1) = 10x. Turunan dari -7x adalah -7. Turunan dari konstanta (10) adalah 0. Jadi, f'(x) = 10x - 7."
+  },
+  {
+    "id": 138,
+    "kategori": "Mudah",
+    "pertanyaan": "Nilai dari akar kuadrat(144) + akar kuadrat(25) adalah...",
+    "pilihan": [
+      "17",
+      "19",
+      "13",
+      "10"
+    ],
+    "jawaban": "17",
+    "pembahasan": "Akar kuadrat(144) = 12. Akar kuadrat(25) = 5. Jadi, 12 + 5 = 17."
+  },
+  {
+    "id": 139,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika y = 2x + 1 dan y = -x + 4, maka nilai x adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "jawaban": "1",
+    "pembahasan": "Substitusikan y dari persamaan pertama ke persamaan kedua: 2x + 1 = -x + 4. Kumpulkan x di satu sisi dan konstanta di sisi lain: 2x + x = 4 - 1 --> 3x = 3 --> x = 1."
+  },
+  {
+    "id": 140,
+    "kategori": "Mudah",
+    "pertanyaan": "Dalam sebuah kelas, 70% siswa lulus ujian. Jika ada 30 siswa di kelas, berapa siswa yang tidak lulus?",
+    "pilihan": [
+      "7 siswa",
+      "9 siswa",
+      "10 siswa",
+      "21 siswa"
+    ],
+    "jawaban": "9 siswa",
+    "pembahasan": "Persentase siswa yang tidak lulus = 100% - 70% = 30%. Jumlah siswa yang tidak lulus = 30% dari 30 siswa = 0.30 * 30 = 9 siswa."
+  }
+]
