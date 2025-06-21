@@ -179,7 +179,7 @@
       "$\\begin{pmatrix} 4 & 5 \\\\ 5 & 4 \\end{pmatrix}$"
     ],
     "jawaban": "$\\begin{pmatrix} 3 & 6 \\\\ 5 & 4 \\end{pmatrix}$",
-    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian:\n$A+B = \\begin{pmatrix} 2+1 & 1+5 \\\\ 3+2 & 4+0 \\end{pmatrix} = \\begin{pmatrix} 3 & 6 \\\\ 5 & 4 \\end{pmatrix}$."
+    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian:\\n$A+B = \\begin{pmatrix} 2+1 & 1+5 \\\\ 3+2 & 4+0 \\end{pmatrix} = \\begin{pmatrix} 3 & 6 \\\\ 5 & 4 \\end{pmatrix}$."
   },
   {
     "id": 95,
@@ -197,15 +197,15 @@
   {
     "id": 96,
     "kategori": "Mudah",
-    "pertanyaan": "Jika $A=\{1, 2, 3\}$ dan $B=\{3, 4, 5\}$, maka $A \\cap B$ adalah...",
+    "pertanyaan": "Jika $A=\\{1, 2, 3\\}$ dan $B=\\{3, 4, 5\\}$, maka $A \\cap B$ adalah...",
     "pilihan": [
-      "$\{1, 2, 3, 4, 5\}$",
-      "$\{3\}$",
-      "$\{1, 2\}$",
-      "$\{4, 5\}$"
+      "$\\{1, 2, 3, 4, 5\\}$",
+      "$\\{3\\}$",
+      "$\\{1, 2\\}$",
+      "$\\{4, 5\\}$"
     ],
-    "jawaban": "$\{3\}$",
-    "pembahasan": "Irisan himpunan ($A \\cap B$) adalah himpunan elemen yang ada di kedua himpunan. Dalam kasus ini, elemen yang sama antara A dan B hanyalah 3. Jadi, $A \\cap B = \{3\}$."
+    "jawaban": "$\\{3\\}$",
+    "pembahasan": "Irisan himpunan ($A \\cap B$) adalah himpunan elemen yang ada di kedua himpunan. Dalam kasus ini, elemen yang sama antara A dan B hanyalah 3. Jadi, $A \\cap B = \\{3\\}$."
   },
   {
     "id": 97,
@@ -244,7 +244,7 @@
       "6"
     ],
     "jawaban": "5",
-    "pembahasan": "Gunakan metode eliminasi. Kurangkan persamaan kedua dari persamaan pertama:\n$(x + 2y) - (x - y) = 10 - 1$\n$x + 2y - x + y = 9$\n$3y = 9 \\implies y = 3$\nSubstitusikan $y=3$ ke persamaan kedua: $x - 3 = 1 \\implies x = 4$."
+    "pembahasan": "Gunakan metode eliminasi. Kurangkan persamaan kedua dari persamaan pertama:\\n$(x + 2y) - (x - y) = 10 - 1$\\n$x + 2y - x + y = 9$\\n$3y = 9 \\implies y = 3$\\nSubstitusikan $y=3$ ke persamaan kedua: $x - 3 = 1 \\implies x = 4$."
   },
   {
     "id": 100,
