@@ -51,7 +51,7 @@
     "jawaban": "B",
     "pembahasan": "Deret ini adalah deret geometri dengan suku pertama ($a$) = 25. Rasio ($r$) = $\\frac{5}{25} = \\frac{1}{5}$. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{25}{1 - 1/5} = \\frac{25}{4/5} = 25 \\times \\frac{5}{4} = \\frac{125}{4} = 31.25$."
   },
-  {
+ {
     "id": 85,
     "pertanyaan": "Jika $2x, x+5, 12$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $x$ adalah...",
     "pilihan": [
@@ -61,8 +61,10 @@
       "5",
       "6"
     ],
-    "jawaban": "D",
-    "pembahasan": "Dalam barisan aritmetika, suku tengah adalah rata-rata dari suku sebelum dan sesudahnya: $x+5 = \\frac{2x + 12}{2}$. Kalikan kedua sisi dengan 2: $2(x+5) = 2x+12 \\Rightarrow 2x+10 = 2x+12 \\Rightarrow 10=12$. Karena $10=12$ adalah pernyataan yang salah, ini menunjukkan bahwa tidak ada nilai $x$ yang memenuhi kondisi tersebut dengan angka $12$ sebagai suku ketiga. Oleh karena itu, ada **kesalahan pada soal atau pilihan jawaban** yang diberikan. Jika ada solusi, $x$ seharusnya adalah nilai yang membuat selisihnya konstan. Misal $a_1 = 2x$, $a_2 = x+5$, $a_3 = 12$. Maka $a_2 - a_1 = a_3 - a_2 \Rightarrow (x+5) - 2x = 12 - (x+5) \Rightarrow 5-x = 7-x \Rightarrow 5=7$. Ini jelas tidak konsisten. Jadi, soal ini secara matematis tidak memiliki solusi dengan angka yang diberikan."
+    "jawaban": "Tidak ada dalam pilihan",
+    "pembahasan": "Dalam barisan aritmetika, suku tengah adalah rata-rata dari suku sebelum dan sesudahnya: $x+5 = \\frac{2x + 12}{2}$. Kalikan kedua sisi dengan 2: $2(x+5) = 2x+12 \\Rightarrow 2x+10 = 2x+12 \\Rightarrow 10=12$. Karena $10=12$ adalah pernyataan yang salah, ini menunjukkan bahwa tidak ada nilai $x$ yang memenuhi kondisi tersebut dengan angka $12$ sebagai suku ketiga. Oleh karena itu, ada **kesalahan pada soal atau pilihan jawaban** yang diberikan. Jika ada solusi, $x$ seharusnya adalah nilai yang membuat selisihnya konstan. Misal $a_1 = 2x$, $a_2 = x+5$, $a_3 = 12$. Maka $a_2 - a_1 = a_3 - a_2 \\Rightarrow (x+5) - 2x = 12 - (x+5) \\Rightarrow 5-x = 7-x \\Rightarrow 5=7$ (tidak mungkin). Jadi, soal ini secara matematis tidak memiliki solusi dengan angka yang diberikan.",
+    "status_soal": "bermasalah",
+    "catatan_perbaikan": "Soal ini tidak memiliki solusi matematis dengan angka yang diberikan."
   },
   {
     "id": 86,
