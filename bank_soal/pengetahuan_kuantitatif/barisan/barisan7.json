@@ -9,7 +9,7 @@
       "85",
       "87"
     ],
-    "jawaban": "D",
+    "jawaban": "C",
     "pembahasan": "Diketahui $a_5 = a_1 + 4d = 23$ dan $a_{12} = a_1 + 11d = 51$. Kurangkan kedua persamaan: $(a_1 + 11d) - (a_1 + 4d) = 51 - 23 \\Rightarrow 7d = 28 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 4d = 23 \\Rightarrow a_1 + 4(4) = 23 \\Rightarrow a_1 + 16 = 23 \\Rightarrow a_1 = 7$. Suku ke-20 adalah $a_{20} = a_1 + 19d = 7 + 19(4) = 7 + 76 = 83$."
   },
   {
@@ -61,8 +61,8 @@
       "7",
       "8"
     ],
-    "jawaban": "A",
-    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan, atau suku tengah adalah rata-rata dari suku sebelum dan sesudahnya: $2(2x+1) = (x-2) + (4x-1)$. $4x+2 = 5x-3$. Pindahkan $4x$ ke kanan dan $-3$ ke kiri: $2+3 = 5x-4x \\Rightarrow 5 = x$. Jadi, $x=5$. Mari kita periksa kembali pilihan jawabannya. Jika $x=5$: suku-suku adalah $3, 11, 19$. Bedanya 8. Ini benar. Pilihan A adalah 4. Ada kesalahan pada kunci jawaban atau pilihan. Dengan $x=5$, maka $2x+1 - (x-2) = (4x-1) - (2x+1) \\Rightarrow x+3 = 2x-2 \\Rightarrow 5 = x$. Pilihan yang benar adalah $x=5$. Akan saya ubah jawabannya."
+    "jawaban": "B",
+    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan, atau suku tengah adalah rata-rata dari suku sebelum dan sesudahnya: $2(2x+1) = (x-2) + (4x-1)$. $4x+2 = 5x-3$. Pindahkan $4x$ ke kanan dan $-3$ ke kiri: $2+3 = 5x-4x \\Rightarrow 5 = x$. Jadi, $x=5$. Jika $x=5$: suku-suku adalah $3, 11, 19$. Bedanya 8. Ini konsisten."
   },
   {
     "id": 146,
@@ -71,7 +71,7 @@
       "7",
       "13",
       "25",
-      "49",
+      "31",
       "73"
     ],
     "jawaban": "D",
@@ -87,7 +87,7 @@
       "21",
       "23"
     ],
-    "jawaban": "D",
+    "jawaban": "C",
     "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-4 ($a_4$) = $S_4 - S_3$.\n$S_4 = 2(4)^2 + 5(4) = 2(16) + 20 = 32 + 20 = 52$.\n$S_3 = 2(3)^2 + 5(3) = 2(9) + 15 = 18 + 15 = 33$.\n$a_4 = 52 - 33 = 19$."
   },
   {
@@ -114,7 +114,7 @@
       "8"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan suku-suku barisan geometri adalah $p, q, r$. Maka $q = p \\times r^{1/2}$ dan $r = q/p$. Lebih mudah menggunakan $q$ sebagai suku tengah, sehingga $q^2 = pr$. Maka $pqr = p(q)(q/p) = q^3$. Diketahui $q^3=216$, maka $q = \\sqrt[3]{216} = 6$."
+    "pembahasan": "Misalkan suku-suku barisan geometri adalah $p, q, r$. Maka $q$ adalah suku tengah, sehingga $q^2 = pr$. Maka $pqr = (pr)q = q^2 \\times q = q^3$. Diketahui $q^3=216$, maka $q = \\sqrt[3]{216} = 6$."
   },
   {
     "id": 150,
@@ -124,9 +124,9 @@
       "770",
       "790",
       "810",
-      "830"
+      "820"
     ],
-    "jawaban": "B",
+    "jawaban": "E",
     "pembahasan": "Diketahui $a_4 = a_1 + 3d = 15$ dan $a_9 = a_1 + 8d = 35$. Kurangkan kedua persamaan: $(a_1 + 8d) - (a_1 + 3d) = 35 - 15 \\Rightarrow 5d = 20 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 3d = 15 \\Rightarrow a_1 + 3(4) = 15 \\Rightarrow a_1 + 12 = 15 \\Rightarrow a_1 = 3$. Jumlah 20 suku pertama: $S_{20} = \\frac{20}{2}(2a_1 + (20-1)d) = 10(2(3) + 19(4)) = 10(6 + 76) = 10(82) = 820$."
   },
   {
@@ -165,8 +165,8 @@
       "8",
       "10"
     ],
-    "jawaban": "Tidak ada dalam pilihan",
-    "pembahasan": "Diketahui $a_3 + a_6 = (a_1+2d) + (a_1+5d) = 2a_1+7d = 30$ (Persamaan 1). Dan $a_8 = a_1 + 7d = 28$ (Persamaan 2). Kurangkan Persamaan 2 dari Persamaan 1: $(2a_1+7d) - (a_1+7d) = 30-28 \\Rightarrow a_1 = 2$. Substitusikan $a_1=2$ ke Persamaan 2: $2 + 7d = 28 \\Rightarrow 7d = 26 \\Rightarrow d = \\frac{26}{7}$. Karena $a_1=2$ ada dalam pilihan, jawaban adalah $A$."
+    "jawaban": "A",
+    "pembahasan": "Diketahui $a_3 + a_6 = (a_1+2d) + (a_1+5d) = 2a_1+7d = 30$ (Persamaan 1). Dan $a_8 = a_1 + 7d = 28$ (Persamaan 2). Kurangkan Persamaan 2 dari Persamaan 1: $(2a_1+7d) - (a_1+7d) = 30-28 \\Rightarrow a_1 = 2$. Substitusikan $a_1=2$ ke Persamaan 2: $2 + 7d = 28 \\Rightarrow 7d = 26 \\Rightarrow d = \\frac{26}{7}$. Suku pertama adalah 2."
   },
   {
     "id": 154,
@@ -174,11 +174,11 @@
     "pilihan": [
       "12",
       "17",
-      "22",
+      "19",
       "29",
       "34"
     ],
-    "jawaban": "B",
+    "jawaban": "C",
     "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan:\n$y_1 = 2$\n$y_2 = 5$\n$y_3 = y_2 + y_1 = 5 + 2 = 7$\n$y_4 = y_3 + y_2 = 7 + 5 = 12$\n$y_5 = y_4 + y_3 = 12 + 7 = 19$."
   },
   {
@@ -200,11 +200,11 @@
     "pilihan": [
       "30",
       "36",
-      "40",
+      "37",
       "44",
       "48"
     ],
-    "jawaban": "D",
+    "jawaban": "C",
     "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-3 ($a_3$) = $S_3 - S_2$.\n$S_3 = 2(3)^3 - 3 = 2(27) - 3 = 54 - 3 = 51$.\n$S_2 = 2(2)^3 - 2 = 2(8) - 2 = 16 - 2 = 14$.\n$a_3 = 51 - 14 = 37$."
   },
   {
@@ -230,7 +230,7 @@
       "2490",
       "2510"
     ],
-    "jawaban": "B",
+    "jawaban": "A",
     "pembahasan": "Bilangan genap positif dua digit adalah 10, 12, ..., 98. Ini adalah barisan aritmetika dengan $a_1=10$, $d=2$, dan $a_n=98$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 98 = 10 + (n-1)2 \\Rightarrow 88 = 2(n-1) \\Rightarrow 44 = n-1 \\Rightarrow n = 45$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{45}{2}(10 + 98) = \\frac{45}{2}(108) = 45 \\times 54 = 2430$."
   },
   {
@@ -243,8 +243,8 @@
       "1",
       "3"
     ],
-    "jawaban": "A",
-    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{3k}{k+1} = \\frac{5k+9}{3k}$. Lakukan perkalian silang: $(3k)^2 = (k+1)(5k+9)$. $9k^2 = 5k^2 + 9k + 5k + 9$. $9k^2 = 5k^2 + 14k + 9$. Pindahkan semua ke satu sisi: $4k^2 - 14k - 9 = 0$. Gunakan rumus ABC: $k = \\frac{-(-14) \\pm \\sqrt{(-14)^2 - 4(4)(-9)}}{2(4)} = \\frac{14 \\pm \\sqrt{196 + 144}}{8} = \\frac{14 \\pm \\sqrt{340}}{8}$. Karena $\\sqrt{340}$ bukan bilangan bulat, kemungkinan ada kesalahan pada soal atau pilihan jawaban. Mari kita coba cek jika $k$ adalah salah satu pilihan. Jika $k=-1$: $0, -3, 4$ (bukan geometri). Jika $k=-3$: $-2, -9, -6$. Bukan geometri. Jika $k=3$: $4, 9, 24$. Bukan geometri. Jika ada kesalahan pada soal, dan ini adalah barisan aritmetika: $2(3k) = (k+1) + (5k+9) \\Rightarrow 6k = 6k+10 \\Rightarrow 0=10$ (tidak mungkin). Soal ini kemungkinan ada kesalahan penulisan angka atau sifat barisannya."
+    "jawaban": "Tidak ada dalam pilihan",
+    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{3k}{k+1} = \\frac{5k+9}{3k}$. Lakukan perkalian silang: $(3k)^2 = (k+1)(5k+9)$. $9k^2 = 5k^2 + 9k + 5k + 9$. $9k^2 = 5k^2 + 14k + 9$. Pindahkan semua ke satu sisi: $4k^2 - 14k - 9 = 0$. Gunakan rumus kuadratik $k = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\n$k = \\frac{-(-14) \\pm \\sqrt{(-14)^2 - 4(4)(-9)}}{2(4)} = \\frac{14 \\pm \\sqrt{196 + 144}}{8} = \\frac{14 \\pm \\sqrt{340}}{8}$.\nNilai $k$ adalah $k = \\frac{14 \\pm 2\\sqrt{85}}{8} = \\frac{7 \\pm \\sqrt{85}}{4}$. Karena $\\sqrt{85}$ bukan bilangan bulat, tidak ada nilai $k$ bulat di pilihan yang memenuhi. Soal ini kemungkinan memiliki pilihan jawaban yang tidak sesuai atau harusnya bilangan non-bulat."
   },
   {
     "id": 160,
