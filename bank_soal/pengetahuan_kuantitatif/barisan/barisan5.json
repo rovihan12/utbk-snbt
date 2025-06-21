@@ -22,7 +22,7 @@
       "270",
       "276"
     ],
-    "jawaban": "D",
+    "jawaban": "B",
     "pembahasan": "Diketahui $a_1=5$ dan $d=3$. Rumus jumlah n suku pertama barisan aritmetika adalah $S_n = \\frac{n}{2}(2a_1 + (n-1)d)$. Untuk $n=12$: $S_{12} = \\frac{12}{2}(2 \\times 5 + (12-1)3) = 6(10 + 11 \\times 3) = 6(10 + 33) = 6(43) = 258$."
   },
   {
@@ -62,7 +62,7 @@
       "6"
     ],
     "jawaban": "D",
-    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan: $(x+5) - (2x) = 12 - (x+5)$. $x+5-2x = 12-x-5$. $-x+5 = 7-x$. Ini tidak menghasilkan nilai $x$. Mari coba lagi: $2(x+5) = 2x+12$. $2x+10 = 2x+12$. $10 = 12$, yang salah. Berarti soal atau pilihannya ada yang tidak tepat. Asumsi soal yang dimaksud adalah $a_2-a_1 = a_3-a_2$. Maka $x+5 - 2x = 12 - (x+5) \Rightarrow 5-x = 7-x \Rightarrow 5=7$ (tidak mungkin). Jika soalnya $a_1, a_2, a_3$ maka $a_2 = (a_1+a_3)/2$. $(x+5) = (2x+12)/2$. $x+5 = x+6 \Rightarrow 5=6$. Ini juga tidak mungkin. (Perbaikan: Asumsi ada kesalahan penulisan soal di sini, jika $2x, x+5, 12$ adalah barisan aritmetika, maka $x$ tidak ada solusinya. Saya akan mencari alternatif yang masuk akal, yaitu $2x, x+5, 3x+2$ misalnya. Jika mengikuti format aslinya, maka kemungkinan ada typo pada angka 12)."
+    "pembahasan": "Dalam barisan aritmetika, suku tengah adalah rata-rata dari suku sebelum dan sesudahnya: $x+5 = \\frac{2x + 12}{2}$. Kalikan kedua sisi dengan 2: $2(x+5) = 2x+12 \\Rightarrow 2x+10 = 2x+12 \\Rightarrow 10=12$. Karena $10=12$ adalah pernyataan yang salah, ini menunjukkan bahwa tidak ada nilai $x$ yang memenuhi kondisi tersebut dengan angka $12$ sebagai suku ketiga. Oleh karena itu, ada **kesalahan pada soal atau pilihan jawaban** yang diberikan. Jika ada solusi, $x$ seharusnya adalah nilai yang membuat selisihnya konstan. Misal $a_1 = 2x$, $a_2 = x+5$, $a_3 = 12$. Maka $a_2 - a_1 = a_3 - a_2 \Rightarrow (x+5) - 2x = 12 - (x+5) \Rightarrow 5-x = 7-x \Rightarrow 5=7$. Ini jelas tidak konsisten. Jadi, soal ini secara matematis tidak memiliki solusi dengan angka yang diberikan."
   },
   {
     "id": 86,
@@ -74,8 +74,8 @@
       "7",
       "11"
     ],
-    "jawaban": "C",
-    "pembahasan": "Kita hitung suku-suku secara berurutan:\n$a_1 = 4$\n$a_2 = 2a_1 - 3 = 2(4) - 3 = 8 - 3 = 5$\n$a_3 = 2a_2 - 3 = 2(5) - 3 = 10 - 3 = 7$\n$a_4 = 2a_3 - 3 = 2(7) - 3 = 14 - 3 = 11$. (Perbaikan: Pilihan C seharusnya 11, bukan 5)."
+    "jawaban": "E",
+    "pembahasan": "Kita hitung suku-suku secara berurutan:\n$a_1 = 4$\n$a_2 = 2a_1 - 3 = 2(4) - 3 = 8 - 3 = 5$\n$a_3 = 2a_2 - 3 = 2(5) - 3 = 10 - 3 = 7$\n$a_4 = 2a_3 - 3 = 2(7) - 3 = 14 - 3 = 11$. (Perbaikan: Jawaban diubah dari 'C' menjadi 'E' karena hasil perhitungan adalah 11, yang sesuai dengan pilihan E.)"
   },
   {
     "id": 87,
@@ -165,8 +165,8 @@
       "10",
       "12"
     ],
-    "jawaban": "B",
-    "pembahasan": "Diketahui $a_2 + a_5 = (a_1+d) + (a_1+4d) = 2a_1+5d = 28$ (Persamaan 1). Dan $a_7 = a_1 + 6d = 26$ (Persamaan 2). Kalikan Persamaan 2 dengan 2: $2a_1 + 12d = 52$ (Persamaan 3). Kurangkan Persamaan 1 dari Persamaan 3: $(2a_1+12d) - (2a_1+5d) = 52-28 \\Rightarrow 7d = 24 \\Rightarrow d = 24/7$. Substitusikan $d$ ke Persamaan 2: $a_1 + 6(24/7) = 26 \\Rightarrow a_1 + 144/7 = 26 \\Rightarrow a_1 = 26 - 144/7 = (182-144)/7 = 38/7$. (Perbaikan: Pilihan B seharusnya 38/7, bukan 6. Mungkin ada kesalahan dalam angka soal)."
+    "jawaban": "Tidak ada dalam pilihan",
+    "pembahasan": "Diketahui $a_2 + a_5 = (a_1+d) + (a_1+4d) = 2a_1+5d = 28$ (Persamaan 1). Dan $a_7 = a_1 + 6d = 26$ (Persamaan 2). Dari Persamaan 2, $a_1 = 26 - 6d$. Substitusikan ke Persamaan 1: $2(26-6d) + 5d = 28 \\Rightarrow 52 - 12d + 5d = 28 \\Rightarrow 52 - 7d = 28 \\Rightarrow 7d = 52 - 28 \\Rightarrow 7d = 24 \\Rightarrow d = \\frac{24}{7}$. Substitusikan nilai $d$ kembali ke $a_1 = 26 - 6d$: $a_1 = 26 - 6(\\frac{24}{7}) = 26 - \\frac{144}{7} = \\frac{182 - 144}{7} = \\frac{38}{7}$. Karena $\\frac{38}{7}$ tidak ada dalam pilihan, ini menunjukkan kemungkinan **kesalahan pada angka dalam soal atau pilihan jawaban**."
   },
   {
     "id": 94,
@@ -178,8 +178,8 @@
       "34",
       "55"
     ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah barisan Fibonacci. Kita hitung suku-suku secara berurutan:\n$x_1 = 1$\n$x_2 = 3$\n$x_3 = x_2 + x_1 = 3 + 1 = 4$\n$x_4 = x_3 + x_2 = 4 + 3 = 7$\n$x_5 = x_4 + x_3 = 7 + 4 = 11$\n$x_6 = x_5 + x_4 = 11 + 7 = 18$. (Perbaikan: Pilihan B seharusnya 18, bukan 13)."
+    "jawaban": "Tidak ada dalam pilihan",
+    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan:\n$x_1 = 1$\n$x_2 = 3$\n$x_3 = x_2 + x_1 = 3 + 1 = 4$\n$x_4 = x_3 + x_2 = 4 + 3 = 7$\n$x_5 = x_4 + x_3 = 7 + 4 = 11$\n$x_6 = x_5 + x_4 = 11 + 7 = 18$. (Perbaikan: Jawaban seharusnya 18. Karena 18 tidak ada dalam pilihan, ini menunjukkan kemungkinan **kesalahan pada pilihan jawaban**.)"
   },
   {
     "id": 95,
@@ -204,8 +204,8 @@
       "14",
       "16"
     ],
-    "jawaban": "B",
-    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-2 ($a_2$) = $S_2 - S_1$.\n$S_2 = 2^3 + 2(2) = 8 + 4 = 12$.\n$S_1 = 1^3 + 2(1) = 1 + 2 = 3$.\n$a_2 = 12 - 3 = 9$. (Perbaikan: Pilihan B seharusnya 9, bukan 10)."
+    "jawaban": "Tidak ada dalam pilihan",
+    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-2 ($a_2$) = $S_2 - S_1$.\n$S_2 = 2^3 + 2(2) = 8 + 4 = 12$.\n$S_1 = 1^3 + 2(1) = 1 + 2 = 3$.\n$a_2 = 12 - 3 = 9$. (Perbaikan: Jawaban seharusnya 9. Karena 9 tidak ada dalam pilihan, ini menunjukkan kemungkinan **kesalahan pada pilihan jawaban**.)"
   },
   {
     "id": 97,
@@ -230,8 +230,8 @@
       "2550",
       "2575"
     ],
-    "jawaban": "B",
-    "pembahasan": "Bilangan ganjil positif dua digit adalah 11, 13, ..., 99. Ini adalah barisan aritmetika dengan $a_1=11$, $d=2$, dan $a_n=99$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 99 = 11 + (n-1)2 \\Rightarrow 88 = 2(n-1) \\Rightarrow 44 = n-1 \\Rightarrow n = 45$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{45}{2}(11 + 99) = \\frac{45}{2}(110) = 45 \\times 55 = 2475$."
+    "jawaban": "A",
+    "pembahasan": "Bilangan ganjil positif dua digit adalah 11, 13, ..., 99. Ini adalah barisan aritmetika dengan $a_1=11$, $d=2$, dan $a_n=99$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 99 = 11 + (n-1)2 \\Rightarrow 88 = 2(n-1) \\Rightarrow 44 = n-1 \\Rightarrow n = 45$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{45}{2}(11 + 99) = \\frac{45}{2}(110) = 45 \\times 55 = 2475$. (Perbaikan: Jawaban diubah dari 'B' menjadi 'A' karena hasil perhitungan adalah 2475, yang sesuai dengan pilihan A.)"
   },
   {
     "id": 99,
@@ -243,8 +243,8 @@
       "1",
       "2"
     ],
-    "jawaban": "A",
-    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{2k}{k-1} = \\frac{4k+6}{2k}$. Lakukan perkalian silang: $(2k)^2 = (k-1)(4k+6)$. $4k^2 = 4k^2 + 6k - 4k - 6$. $4k^2 = 4k^2 + 2k - 6$. $0 = 2k - 6 \\Rightarrow 2k = 6 \\Rightarrow k = 3$. (Perbaikan: Pilihan A seharusnya 3, bukan -2)."
+    "jawaban": "Tidak ada dalam pilihan",
+    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{2k}{k-1} = \\frac{4k+6}{2k}$. Lakukan perkalian silang: $(2k)^2 = (k-1)(4k+6)$. $4k^2 = 4k^2 + 6k - 4k - 6$. $4k^2 = 4k^2 + 2k - 6$. $0 = 2k - 6 \\Rightarrow 2k = 6 \\Rightarrow k = 3$. (Perbaikan: Jawaban seharusnya 3. Karena 3 tidak ada dalam pilihan, ini menunjukkan kemungkinan **kesalahan pada pilihan jawaban**.)"
   },
   {
     "id": 100,
@@ -256,7 +256,7 @@
       "18",
       "20"
     ],
-    "jawaban": "C",
+    "jawaban": "A",
     "pembahasan": "Diketahui $a_1=3$, $a_n=39$, dan $S_n=210$. Rumus jumlah n suku pertama adalah $S_n = \\frac{n}{2}(a_1 + a_n)$. $210 = \\frac{n}{2}(3 + 39) \\Rightarrow 210 = \\frac{n}{2}(42) \\Rightarrow 210 = 21n \\Rightarrow n = \\frac{210}{21} = 10$."
   }
 ]
