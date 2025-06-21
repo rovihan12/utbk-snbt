@@ -194,7 +194,7 @@
     "jawaban": "D",
     "pembahasan": "Misalkan barisan geometri adalah $a, ar, ar^2$. Barisan aritmetika adalah $a, ar-2, ar^2-9$. Dalam barisan aritmetika, selisih antar suku adalah sama, sehingga $(ar-2) - a = (ar^2-9) - (ar-2)$. $ar-2-a = ar^2-9-ar+2$. $ar-a-2 = ar^2-ar-7$. $ar^2 - 2ar + a - 5 = 0$. $a(r^2 - 2r + 1) = 5$. $a(r-1)^2 = 5$. Karena $a$ adalah bilangan bulat positif (asumsi umum dalam soal seperti ini) dan $(r-1)^2$ juga bilangan bulat non-negatif, maka satu-satunya pasangan faktor integer dari 5 adalah $(1, 5)$ atau $(5, 1)$.\nKasus 1: $a=1$ dan $(r-1)^2=5 \\Rightarrow r-1 = \\pm\\sqrt{5} \\Rightarrow r = 1 \\pm \\sqrt{5}$. Ini akan menghasilkan $b$ dan $c$ yang tidak bulat, jadi kita abaikan.\nKasus 2: $a=5$ dan $(r-1)^2=1 \\Rightarrow r-1 = \\pm 1$.\nJika $r-1 = 1 \\Rightarrow r=2$. Barisan geometri: $a=5, b=5(2)=10, c=5(2^2)=20$. Barisan aritmetika: $5, 10-2, 20-9 \\Rightarrow 5, 8, 11$. Ini adalah barisan aritmetika dengan beda 3. (Benar).\nJika $r-1 = -1 \\Rightarrow r=0$. Barisan geometri: $a=5, b=5(0)=0, c=5(0^2)=0$. Barisan aritmetika: $5, 0-2, 0-9 \\Rightarrow 5, -2, -9$. Ini adalah barisan aritmetika dengan beda -7. (Benar). Karena kedua kasus valid, kita perlu memeriksa nilai $a+b+c$.\nUntuk $a=5, b=10, c=20$, maka $a+b+c = 5+10+20 = 35$.\nUntuk $a=5, b=0, c=0$, maka $a+b+c = 5+0+0 = 5$. Karena 5 tidak ada di pilihan, maka 35 adalah jawaban yang dimaksud."
   },
-  {
+ {
     "id": 16,
     "pertanyaan": "Jika $S_n$ adalah jumlah $n$ suku pertama dari suatu deret, dan $S_n = n^3 - n^2 + n$, maka suku ke-n ($a_n$) dari deret tersebut adalah...",
     "pilihan": [
@@ -205,16 +205,7 @@
       "$n^3-n^2+n$"
     ],
     "jawaban": "A",
-    "pembahasan": "Suku ke-n ($a_n$) dari suatu deret dapat ditemukan dengan rumus $a_n = S_n - S_{n-1}$.\nDiketahui $S_n = n^3 - n^2 + n$.\nKita cari $S_{n-1}$: $S_{n-1} = (n-1)^3 - (n-1)^2 + (n-1)$
-    $= (n^3 - 3n^2 + 3n - 1) - (n^2 - 2n + 1) + (n-1)$
-    $= n^3 - 3n^2 + 3n - 1 - n^2 + 2n - 1 + n - 1$
-    $= n^3 - 4n^2 + 6n - 3$.\n
-    Sekarang hitung $a_n$:
-    $a_n = S_n - S_{n-1}$
-    $= (n^3 - n^2 + n) - (n^3 - 4n^2 + 6n - 3)$
-    $= n^3 - n^2 + n - n^3 + 4n^2 - 6n + 3$
-    $= (n^3 - n^3) + (-n^2 + 4n^2) + (n - 6n) + 3$
-    $= 3n^2 - 5n + 3$."
+    "pembahasan": "Suku ke-n ($a_n$) dari suatu deret dapat ditemukan dengan rumus $a_n = S_n - S_{n-1}$.\nDiketahui $S_n = n^3 - n^2 + n$.\nKita cari $S_{n-1}$: \n$S_{n-1} = (n-1)^3 - (n-1)^2 + (n-1)$\n$= (n^3 - 3n^2 + 3n - 1) - (n^2 - 2n + 1) + (n-1)$\n$= n^3 - 3n^2 + 3n - 1 - n^2 + 2n - 1 + n - 1$\n$= n^3 + (-3n^2 - n^2) + (3n + 2n + n) + (-1 - 1 - 1)$\n$= n^3 - 4n^2 + 6n - 3$.\n\nSekarang hitung $a_n$:\n$a_n = S_n - S_{n-1}$\n$= (n^3 - n^2 + n) - (n^3 - 4n^2 + 6n - 3)$\n$= n^3 - n^2 + n - n^3 + 4n^2 - 6n + 3$\n$= (n^3 - n^3) + (-n^2 + 4n^2) + (n - 6n) + 3$\n$= 3n^2 - 5n + 3$."
   },
   {
     "id": 17,
