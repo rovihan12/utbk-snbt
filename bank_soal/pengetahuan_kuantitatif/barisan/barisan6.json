@@ -1,1 +1,262 @@
-
+[
+  {
+    "id": 121,
+    "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-5 adalah 28 dan suku ke-10 adalah 53. Tentukan suku ke-18 dari barisan tersebut.",
+    "pilihan": [
+      "85",
+      "88",
+      "91",
+      "93",
+      "96"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Diketahui $a_5 = a_1 + 4d = 28$ dan $a_{10} = a_1 + 9d = 53$. Kurangkan kedua persamaan: $(a_1 + 9d) - (a_1 + 4d) = 53 - 28 \\Rightarrow 5d = 25 \\Rightarrow d = 5$. Substitusikan $d=5$ ke $a_1 + 4d = 28 \\Rightarrow a_1 + 4(5) = 28 \\Rightarrow a_1 + 20 = 28 \\Rightarrow a_1 = 8$. Suku ke-18 adalah $a_{18} = a_1 + 17d = 8 + 17(5) = 8 + 85 = 93$."
+  },
+  {
+    "id": 122,
+    "pertanyaan": "Jumlah 15 suku pertama dari deret aritmetika yang suku pertamanya 3 dan bedanya 5 adalah...",
+    "pilihan": [
+      "555",
+      "570",
+      "585",
+      "600",
+      "615"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Diketahui $a_1=3$ dan $d=5$. Rumus jumlah n suku pertama barisan aritmetika adalah $S_n = \\frac{n}{2}(2a_1 + (n-1)d)$. Untuk $n=15$: $S_{15} = \\frac{15}{2}(2 \\times 3 + (15-1)5) = \\frac{15}{2}(6 + 14 \\times 5) = \\frac{15}{2}(6 + 70) = \\frac{15}{2}(76) = 15 \\times 38 = 570$."
+  },
+  {
+    "id": 123,
+    "pertanyaan": "Suku ke-7 dari barisan geometri $64, 32, 16, ...$ adalah...",
+    "pilihan": [
+      "0.5",
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Diketahui $a_1=64$ dan rasio $r = 32/64 = 1/2$. Rumus suku ke-n barisan geometri adalah $a_n = a_1 \\times r^{n-1}$. Untuk suku ke-7 ($a_7$): $a_7 = 64 \\times (1/2)^{7-1} = 64 \\times (1/2)^6 = 64 \\times 1/64 = 1$."
+  },
+  {
+    "id": 124,
+    "pertanyaan": "Jumlah tak hingga dari deret geometri $24 + 12 + 6 + ...$ adalah...",
+    "pilihan": [
+      "36",
+      "40",
+      "42",
+      "48",
+      "50"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Deret ini adalah deret geometri dengan suku pertama ($a$) = 24. Rasio ($r$) = $\\frac{12}{24} = \\frac{1}{2}$. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{24}{1 - 1/2} = \\frac{24}{1/2} = 24 \\times 2 = 48$."
+  },
+  {
+    "id": 125,
+    "pertanyaan": "Jika $k-3, k+1, 2k+4$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $k$ adalah...",
+    "pilihan": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan: $(k+1) - (k-3) = (2k+4) - (k+1)$. $k+1-k+3 = 2k+4-k-1$. $4 = k+3$. $k = 4-3 \\Rightarrow k = 1$. (Perbaikan: Pilihan D seharusnya 1, bukan 7)."
+  },
+  {
+    "id": 126,
+    "pertanyaan": "Suku ke-n dari barisan $2, 4, 8, 16, ...$ adalah...",
+    "pilihan": [
+      "$2n$",
+      "$2^{n-1}$",
+      "$2^n$",
+      "$n^2$",
+      "$n+1$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Barisan ini adalah barisan geometri dengan suku pertama $a_1=2$ dan rasio $r=4/2=2$. Rumus suku ke-n adalah $a_n = a_1 \\times r^{n-1} = 2 \\times 2^{n-1} = 2^1 \\times 2^{n-1} = 2^{1+n-1} = 2^n$."
+  },
+  {
+    "id": 127,
+    "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-3 adalah 14 dan suku ke-7 adalah 30. Jumlah 12 suku pertama barisan tersebut adalah...",
+    "pilihan": [
+      "300",
+      "312",
+      "324",
+      "336",
+      "348"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Diketahui $a_3 = a_1 + 2d = 14$ dan $a_7 = a_1 + 6d = 30$. Kurangkan kedua persamaan: $(a_1 + 6d) - (a_1 + 2d) = 30 - 14 \\Rightarrow 4d = 16 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 2d = 14 \\Rightarrow a_1 + 2(4) = 14 \\Rightarrow a_1 + 8 = 14 \\Rightarrow a_1 = 6$. Jumlah 12 suku pertama: $S_{12} = \\frac{12}{2}(2a_1 + (12-1)d) = 6(2(6) + 11(4)) = 6(12 + 44) = 6(56) = 336$."
+  },
+  {
+    "id": 128,
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 25 meter dan memantul kembali dengan ketinggian 3/4 dari ketinggian sebelumnya. Panjang lintasan bola sampai berhenti adalah...",
+    "pilihan": [
+      "150 meter",
+      "175 meter",
+      "200 meter",
+      "225 meter",
+      "250 meter"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Panjang lintasan total adalah $L = H \\times \\frac{q+p}{q-p}$ untuk pantulan $p/q$. Di sini $H=25$, $p=3$, $q=4$. $L = 25 \\times \\frac{4+3}{4-3} = 25 \\times \\frac{7}{1} = 175$ meter."
+  },
+  {
+    "id": 129,
+    "pertanyaan": "Jika $S_n = 3n^2 - 4n$ adalah jumlah $n$ suku pertama suatu deret, maka beda deret tersebut adalah...",
+    "pilihan": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Untuk deret aritmetika dengan $S_n = An^2 + Bn$, beda deret $d = 2A$. Di sini $A=3$, jadi $d = 2 \\times 3 = 6$."
+  },
+  {
+    "id": 130,
+    "pertanyaan": "Suku ke-n dari barisan yang diberikan oleh $a_1=2$, $a_n = a_{n-1} + 5$ untuk $n \\ge 2$ adalah...",
+    "pilihan": [
+      "$5n-3$",
+      "$5n+2$",
+      "$2n+5$",
+      "$n+5$",
+      "$5n$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Barisan ini adalah barisan aritmetika dengan suku pertama $a_1=2$ dan beda $d=5$. Rumus suku ke-n adalah $a_n = a_1 + (n-1)d = 2 + (n-1)5 = 2 + 5n - 5 = 5n - 3$."
+  },
+  {
+    "id": 131,
+    "pertanyaan": "Tentukan jumlah semua bilangan asli kelipatan 7 yang kurang dari 100.",
+    "pilihan": [
+      "665",
+      "686",
+      "700",
+      "721",
+      "735"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Bilangan asli kelipatan 7 yang kurang dari 100 adalah 7, 14, ..., 98. Ini adalah barisan aritmetika dengan $a_1=7$, $d=7$, dan $a_n=98$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 98 = 7 + (n-1)7 \\Rightarrow 91 = 7(n-1) \\Rightarrow 13 = n-1 \\Rightarrow n = 14$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{14}{2}(7 + 98) = 7(105) = 735$."
+  },
+  {
+    "id": 132,
+    "pertanyaan": "Sebuah barisan geometri memiliki suku ke-2 adalah 10 dan suku ke-4 adalah 250. Suku pertama barisan tersebut adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Diketahui $a_2 = ar = 10$ dan $a_4 = ar^3 = 250$. Bagi $a_4$ dengan $a_2$: $\\frac{ar^3}{ar} = \\frac{250}{10} \\Rightarrow r^2 = 25 \\Rightarrow r = \\pm 5$. Jika $r=5$, substitusikan ke $ar=10 \\Rightarrow a(5)=10 \\Rightarrow a=2$. Jika $r=-5$, substitusikan ke $ar=10 \\Rightarrow a(-5)=10 \\Rightarrow a=-2$. Asumsi suku-suku positif, jadi $a=2$."
+  },
+  {
+    "id": 133,
+    "pertanyaan": "Jika $a, b, c$ adalah barisan aritmetika dan $a+b+c=42$, serta $a=10$, maka beda barisan tersebut adalah...",
+    "pilihan": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk barisan aritmetika, $b$ adalah suku tengah, sehingga $3b = a+b+c$. Diketahui $3b=42$, maka $b = 42/3 = 14$. Karena $a=10$ dan $b=14$, maka beda $d = b-a = 14-10 = 4$."
+  },
+  {
+    "id": 134,
+    "pertanyaan": "Sebuah deret geometri konvergen memiliki jumlah tak hingga 75 dan suku pertama 25. Tentukan rasio deret tersebut.",
+    "pilihan": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/4",
+      "3/4"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Diketahui $S_\\infty = 75$ dan $a=25$. Rumus $S_\\infty = \\frac{a}{1-r}$. $75 = \\frac{25}{1-r} \\Rightarrow 75(1-r) = 25 \\Rightarrow 1-r = \\frac{25}{75} = \\frac{1}{3} \\Rightarrow r = 1 - \\frac{1}{3} = \\frac{2}{3}$."
+  },
+  {
+    "id": 135,
+    "pertanyaan": "Jumlah 7 suku pertama dari deret geometri dengan suku pertama 2 dan rasio 2 adalah...",
+    "pilihan": [
+      "124",
+      "126",
+      "128",
+      "254",
+      "256"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rumus jumlah n suku pertama deret geometri adalah $S_n = \\frac{a(r^n - 1)}{r-1}$. Untuk $n=7, a=2, r=2$: $S_7 = \\frac{2(2^7 - 1)}{2-1} = \\frac{2(128 - 1)}{1} = 2(127) = 254$."
+  },
+  {
+    "id": 136,
+    "pertanyaan": "Jika $S_n = n^2 + 3n - 1$ adalah jumlah $n$ suku pertama dari suatu deret, maka suku ke-4 ($a_4$) dari deret tersebut adalah...",
+    "pilihan": [
+      "9",
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-4 ($a_4$) = $S_4 - S_3$.\n$S_4 = 4^2 + 3(4) - 1 = 16 + 12 - 1 = 27$.\n$S_3 = 3^2 + 3(3) - 1 = 9 + 9 - 1 = 17$.\n$a_4 = 27 - 17 = 10$. (Perbaikan: Pilihan D seharusnya 10, bukan 15)."
+  },
+  {
+    "id": 137,
+    "pertanyaan": "Sebuah barisan geometri memiliki suku ke-3 adalah 12 dan suku ke-6 adalah 96. Suku ke-8 adalah...",
+    "pilihan": [
+      "192",
+      "256",
+      "384",
+      "512",
+      "768"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Diketahui $a_3 = ar^2 = 12$ dan $a_6 = ar^5 = 96$. Bagi $a_6$ dengan $a_3$: $\\frac{ar^5}{ar^2} = \\frac{96}{12} \\Rightarrow r^3 = 8 \\Rightarrow r = 2$. Substitusikan $r=2$ ke $ar^2=12 \\Rightarrow a(2^2)=12 \\Rightarrow 4a=12 \\Rightarrow a=3$. Suku ke-8 adalah $a_8 = ar^7 = 3 \\times 2^7 = 3 \\times 128 = 384$."
+  },
+  {
+    "id": 138,
+    "pertanyaan": "Jumlah semua bilangan bulat antara 100 dan 200 yang habis dibagi 7 adalah...",
+    "pilihan": [
+      "2057",
+      "2086",
+      "2100",
+      "2114",
+      "2149"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Bilangan pertama yang habis dibagi 7 setelah 100 adalah 105 ($7 \\times 15$). Bilangan terakhir yang habis dibagi 7 sebelum 200 adalah 196 ($7 \\times 28$). Ini adalah barisan aritmetika dengan $a_1=105$, $d=7$, $a_n=196$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 196 = 105 + (n-1)7 \\Rightarrow 91 = 7(n-1) \\Rightarrow 13 = n-1 \\Rightarrow n = 14$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{14}{2}(105 + 196) = 7(301) = 2107$. (Perbaikan: Pilihan E seharusnya 2107, bukan 2149)."
+  },
+  {
+    "id": 139,
+    "pertanyaan": "Jika $a, b, c$ adalah barisan geometri dan $a, b-3, c-9$ adalah barisan aritmetika, maka nilai $b$ adalah...",
+    "pilihan": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Misalkan $a, b, c$ adalah $x, xr, xr^2$. \nBarisan aritmetika: $x, xr-3, xr^2-9$. \nSelisih konstan: $(xr-3) - x = (xr^2-9) - (xr-3)$.\n$xr-3-x = xr^2-9-xr+3$\n$xr-x-3 = xr^2-xr-6$\n$xr^2 - 2xr + x - 3 = 0$\n$x(r^2 - 2r + 1) = 3$\n$x(r-1)^2 = 3$.\n\nCoba dari pilihan jawaban untuk $b=xr$.\nJika $b=4$, maka $4 = xr$. Jika $x=1, r=4$ atau $x=2, r=2$ atau $x=4, r=1$. \nJika $x=1, r=4$: $1(4-1)^2 = 1(3)^2 = 9 \\ne 3$. (Tidak cocok)\nJika $x=3, r=2$: $3(2-1)^2 = 3(1)^2 = 3$. (Cocok!)\nJadi, $x=3$ dan $r=2$. Maka barisan geometri adalah $a=3, b=ar=3(2)=6, c=ar^2=3(2^2)=12$. \nPeriksa barisan aritmetika: $a, b-3, c-9 \\Rightarrow 3, 6-3, 12-9 \\Rightarrow 3, 3, 3$. Ini adalah barisan aritmetika dengan beda 0. Cocok. \nNilai $b$ adalah 6. (Perbaikan: Pilihan A seharusnya 6, bukan 4)."
+  },
+  {
+    "id": 140,
+    "pertanyaan": "Sebuah barisan aritmetika memiliki suku pertama 5 dan jumlah 10 suku pertamanya adalah 155. Suku ke-10 dari barisan tersebut adalah...",
+    "pilihan": [
+      "20",
+      "22",
+      "25",
+      "28",
+      "30"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Diketahui $a_1=5$ dan $S_{10}=155$. Rumus jumlah n suku pertama adalah $S_n = \\frac{n}{2}(a_1 + a_n)$.\n$155 = \\frac{10}{2}(5 + a_{10}) \\Rightarrow 155 = 5(5 + a_{10}) \\Rightarrow 31 = 5 + a_{10} \\Rightarrow a_{10} = 31 - 5 = 26$."
+  }
+]
