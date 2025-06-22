@@ -1,282 +1,282 @@
 [
   {
-    "id": 121,
+    "id": 141,
     "kategori": "Mudah",
-    "pertanyaan": "Jika $A = \\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\end{array}$, matriks ini dikenal sebagai...",
+    "pertanyaan": "Sebuah matriks yang semua elemennya pada diagonal utama adalah 1 dan elemen lainnya 0 disebut matriks...",
     "pilihan": [
-      "Matriks Nol",
-      "Matriks Identitas",
-      "Matriks Diagonal",
-      "Matriks Skalar",
-      "Matriks Persegi"
+      "Nol",
+      "Identitas",
+      "Diagonal",
+      "Skalar",
+      "Persegi"
     ],
     "jawaban": "B",
-    "pembahasan": "Matriks identitas adalah matriks persegi di mana semua elemen pada diagonal utama adalah 1 dan elemen lainnya adalah 0."
+    "pembahasan": "Definisi matriks identitas."
   },
   {
-    "id": 122,
+    "id": 142,
     "kategori": "Mudah",
-    "pertanyaan": "Sebuah matriks dengan hanya satu baris disebut matriks...",
+    "pertanyaan": "Ordo matriks $M = \\\\begin{array}{ccc} 1 & 2 & 3 \\\\\\\\ 4 & 5 & 6 \\\\end{array}$ adalah...",
     "pilihan": [
-      "Matriks Kolom",
-      "Matriks Baris",
-      "Matriks Persegi",
-      "Matriks Nol",
-      "Matriks Diagonal"
+      "$3 \\\\times 2$",
+      "$2 \\\\times 3$",
+      "$3 \\\\times 3$",
+      "$2 \\\\times 2$",
+      "$1 \\\\times 3$"
     ],
     "jawaban": "B",
-    "pembahasan": "Matriks baris adalah matriks yang hanya memiliki satu baris."
+    "pembahasan": "Matriks $M$ memiliki 2 baris dan 3 kolom, jadi ordonya adalah $2 \\\\times 3$."
   },
   {
-    "id": 123,
+    "id": 143,
     "kategori": "Mudah",
-    "pertanyaan": "Jika $X = \\begin{array}{c} 5 \\\\ 0 \\\\ 2 \\end{array}$, maka ordo matriks $X$ adalah...",
+    "pertanyaan": "Jika $A = \\\\begin{array}{cc} 1 & 2 \\\\ 3 & 4 \\\\end{array}$ dan $B = \\\\begin{array}{cc} 5 & 6 \\\\ 7 & 8 \\\\end{array}$, maka $A+B$ adalah...",
     "pilihan": [
-      "$1 \\times 3$",
-      "$3 \\times 1$",
-      "$3 \\times 3$",
-      "$1 \\times 1$",
-      "$2 \\times 3$"
+      "\\\\begin{array}{cc} 6 & 8 \\\\\\\\ 10 & 12 \\\\end{array}$",
+      "\\\\begin{array}{cc} 6 & 7 \\\\\\\\ 9 & 10 \\\\end{array}$",
+      "\\\\begin{array}{cc} 5 & 12 \\\\\\\\ 21 & 32 \\\\end{array}$",
+      "\\\\begin{array}{cc} 4 & 4 \\\\\\\\ 4 & 4 \\\\end{array}$",
+      "\\\\begin{array}{cc} -4 & -4 \\\\\\\\ -4 & -4 \\\\end{array}$"
     ],
-    "jawaban": "B",
-    "pembahasan": "Matriks $X$ memiliki 3 baris dan 1 kolom, sehingga ordonya adalah $3 \\times 1$."
+    "jawaban": "A",
+    "pembahasan": "Penjumlahan matriks dilakukan per elemen: $A+B = \\\\begin{array}{cc} 1+5 & 2+6 \\\\\\\\ 3+7 & 4+8 \\\\end{array} = \\\\begin{array}{cc} 6 & 8 \\\\\\\\ 10 & 12 \\\\end{array}$."
   },
   {
-    "id": 124,
+    "id": 144,
     "kategori": "Mudah",
-    "pertanyaan": "Nilai elemen $a_{12}$ dari matriks $A = \\begin{array}{cc} 7 & 8 \\\\ 9 & 10 \\end{array}$ adalah...",
+    "pertanyaan": "Nilai elemen $c_{31}$ dari matriks $C = \\\\begin{array}{ccc} 1 & 2 & 3 \\\\\\\\ 4 & 5 & 6 \\\\\\\\ 7 & 8 & 9 \\\\end{array}$ adalah...",
     "pilihan": [
+      "3",
+      "6",
       "7",
-      "8",
       "9",
-      "10",
       "Tidak ada"
     ],
-    "jawaban": "B",
-    "pembahasan": "Elemen $a_{12}$ adalah elemen pada baris pertama, kolom kedua, yaitu 8."
+    "jawaban": "C",
+    "pembahasan": "Elemen $c_{31}$ adalah elemen pada baris ke-3, kolom ke-1, yaitu 7."
   },
   {
-    "id": 125,
+    "id": 145,
     "kategori": "Mudah",
-    "pertanyaan": "Jika $B = \\begin{array}{cc} 2 & 3 \\end{array}$, maka $3B$ adalah...",
+    "pertanyaan": "Jika $D = \\\\begin{array}{c} 1 \\\\ 2 \\\\end{array}$, maka $5D$ adalah...",
     "pilihan": [
-      "$\\begin{array}{cc} 6 & 9 \\end{array}$",
-      "$\\begin{array}{cc} 2 & 9 \\end{array}$",
-      "$\\begin{array}{cc} 5 & 6 \\end{array}$",
-      "$\\begin{array}{c} 6 \\\\ 9 \\end{array}$",
-      "$\\begin{array}{cc} 3 & 2 \\end{array}$"
+      "\\\\begin{array}{c} 5 \\\\ 10 \\\\end{array}$",
+      "\\\\begin{array}{c} 1 \\\\ 10 \\\\end{array}$",
+      "\\\\begin{array}{c} 6 \\\\ 7 \\\\end{array}$",
+      "\\\\begin{array}{cc} 5 & 10 \\\\end{array}$",
+      "\\\\begin{array}{c} 2 \\\\ 1 \\\\end{array}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Perkalian skalar dilakukan dengan mengalikan setiap elemen matriks dengan skalar tersebut.\\\\ $3B = 3 \\times \\begin{array}{cc} 2 & 3 \\end{array} = \\begin{array}{cc} 3 \\times 2 & 3 \\times 3 \\end{array} = \\begin{array}{cc} 6 & 9 \\end{array}$."
+    "pembahasan": "Perkalian skalar dilakukan dengan mengalikan setiap elemen matriks dengan skalar tersebut.\\\\ $5D = 5 \\\\times \\\\begin{array}{c} 1 \\\\ 2 \\\\end{array} = \\\\begin{array}{c} 5 \\\\ 10 \\\\end{array}$."
   },
   {
-    "id": 126,
+    "id": 146,
     "kategori": "Sedang",
-    "pertanyaan": "Jika $\\begin{array}{cc} x & 3 \\\\ 4 & y \\end{array} + \\begin{array}{cc} 1 & -1 \\\\ 0 & 2 \\end{array} = \\begin{array}{cc} 5 & 2 \\\\ 4 & 7 \\end{array}$, maka nilai $x+y$ adalah...",
+    "pertanyaan": "Diberikan matriks $X = \\\\begin{array}{cc} 2 & -1 \\\\ 3 & 4 \\\\end{array}$. Tentukan $det(X)$.",
     "pilihan": [
-      "8",
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Dari penjumlahan matriks, kita dapatkan:\\\\ $x+1 = 5 \\implies x = 4$\\\\ $y+2 = 7 \\implies y = 5$\\\\ Jadi, $x+y = 4+5 = 9$."
-  },
-  {
-    "id": 127,
-    "kategori": "Sedang",
-    "pertanyaan": "Diberikan matriks $K = \\begin{array}{cc} 5 & 2 \\\\ 3 & 1 \\end{array}$. Tentukan $det(K)$.",
-    "pilihan": [
-      "$-1$",
-      "$-3$",
-      "$1$",
-      "$3$",
-      "$11$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Determinan matriks $K$ adalah $(5 \\times 1) - (2 \\times 3) = 5 - 6 = -1$."
-  },
-  {
-    "id": 128,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $A = \\begin{array}{cc} 2 & 0 \\\\ 1 & 3 \\end{array}$ dan $B = \\begin{array}{cc} 1 & 1 \\\\ 0 & 2 \\end{array}$, maka $A \\cdot B$ adalah...",
-    "pilihan": [
-      "$\\begin{array}{cc} 2 & 2 \\\\ 1 & 7 \\end{array}$",
-      "$\\begin{array}{cc} 2 & 0 \\\\ 0 & 6 \\end{array}$",
-      "$\\begin{array}{cc} 2 & 2 \\\\ 3 & 4 \\end{array}$",
-      "$\\begin{array}{cc} 2 & 1 \\\\ 7 & 3 \\end{array}$",
-      "$\\begin{array}{cc} 3 & 1 \\\\ 1 & 5 \\end{array}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "$A \\cdot B = \\begin{array}{cc} 2 & 0 \\\\ 1 & 3 \\end{array} \\begin{array}{cc} 1 & 1 \\\\ 0 & 2 \\end{array}$\\\\ $= \\begin{array}{cc} (2 \\times 1)+(0 \\times 0) & (2 \\times 1)+(0 \\times 2) \\\\ (1 \\times 1)+(3 \\times 0) & (1 \\times 1)+(3 \\times 2) \\end{array}$\\\\ $= \\begin{array}{cc} 2+0 & 2+0 \\\\ 1+0 & 1+6 \\end{array} = \\begin{array}{cc} 2 & 2 \\\\ 1 & 7 \\end{array}$."
-  },
-  {
-    "id": 129,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $P = \\begin{array}{cc} 1 & 2 \\\\ 3 & 4 \\end{array}$, maka $2P^T$ adalah...",
-    "pilihan": [
-      "$\\begin{array}{cc} 2 & 6 \\\\ 4 & 8 \\end{array}$",
-      "$\\begin{array}{cc} 2 & 4 \\\\ 6 & 8 \\end{array}$",
-      "$\\begin{array}{cc} 1 & 3 \\\\ 2 & 4 \\end{array}$",
-      "$\\begin{array}{cc} 4 & 3 \\\\ 2 & 1 \\end{array}$",
-      "$\\begin{array}{cc} 2 & 8 \\\\ 12 & 16 \\end{array}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Pertama, cari transpose dari $P$: $P^T = \\begin{array}{cc} 1 & 3 \\\\ 2 & 4 \\end{array}$.\\\\ Kemudian, kalikan dengan 2: $2P^T = 2 \\times \\begin{array}{cc} 1 & 3 \\\\ 2 & 4 \\end{array} = \\begin{array}{cc} 2 & 6 \\\\ 4 & 8 \\end{array}$."
-  },
-  {
-    "id": 130,
-    "kategori": "Sedang",
-    "pertanyaan": "Matriks identitas $3 \\times 3$ adalah...",
-    "pilihan": [
-      "$\\begin{array}{ccc} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{array}$",
-      "$\\begin{array}{ccc} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array}$",
-      "$\\begin{array}{ccc} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{array}$",
-      "$\\begin{array}{ccc} 1 & 1 & 0 \\\\ 1 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array}$",
-      "$\\begin{array}{ccc} 1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 1 \\end{array}$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Matriks identitas memiliki elemen 1 pada diagonal utama dan 0 di tempat lain."
-  },
-  {
-    "id": 131,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{array}{cc} 1 & 2 \\\\ 3 & 4 \\end{array}$, maka $det(A^2)$ adalah...",
-    "pilihan": [
-      "$-2$",
-      "$4$",
-      "$-4$",
-      "$16$",
-      "$-16$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Pertama, hitung $det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\\\\ Rumus $det(A^n) = (det(A))^n$.\\\\ Jadi, $det(A^2) = (det(A))^2 = (-2)^2 = 4$."
-  },
-  {
-    "id": 132,
-    "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $A = \\begin{array}{cc} x & 5 \\\\ 2 & 3 \\end{array}$. Jika matriks $A$ adalah matriks singular, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$\\frac{10}{3}$",
-      "$\\frac{3}{10}$",
-      "$- \\frac{10}{3}$",
-      "$- \\frac{3}{10}$",
-      "0"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Matriks singular adalah matriks yang determinannya nol.\\\\ $det(A) = (x \\times 3) - (5 \\times 2) = 3x - 10$.\\\\ Karena $A$ singular, $det(A) = 0$.\\\\ $3x - 10 = 0 \\implies 3x = 10 \\implies x = \\frac{10}{3}$."
-  },
-  {
-    "id": 133,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{array}{cc} 2 & 1 \\\\ 4 & 3 \\end{array}$ dan $A^{-1} = \\begin{array}{cc} a & b \\\\ c & d \\end{array}$, maka nilai $a+d$ adalah...",
-    "pilihan": [
-      "$\\frac{5}{2}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{3}{2}$",
-      "2",
-      "1"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Determinan $A = (2 \\times 3) - (1 \\times 4) = 6 - 4 = 2$.\\\\ $A^{-1} = \\frac{1}{det(A)} adj(A) = \\frac{1}{2} \\begin{array}{cc} 3 & -1 \\\\ -4 & 2 \\end{array} = \\begin{array}{cc} \\frac{3}{2} & -\\frac{1}{2} \\\\ -2 & 1 \\end{array}$.\\\\ Jadi, $a = \\frac{3}{2}$ dan $d = 1$.\\\\ Maka $a+d = \\frac{3}{2} + 1 = \\frac{3}{2} + \\frac{2}{2} = \\frac{5}{2}$."
-  },
-  {
-    "id": 134,
-    "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $A = \\begin{array}{cc} 1 & 0 \\\\ 1 & 1 \\end{array}$. Maka $A^5$ adalah...",
-    "pilihan": [
-      "$\\begin{array}{cc} 1 & 0 \\\\ 5 & 1 \\end{array}$",
-      "$\\begin{array}{cc} 1 & 0 \\\\ 1 & 5 \\end{array}$",
-      "$\\begin{array}{cc} 5 & 0 \\\\ 5 & 5 \\end{array}$",
-      "$\\begin{array}{cc} 1 & 5 \\\\ 0 & 1 \\end{array}$",
-      "$\\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\end{array}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Mari kita hitung beberapa pangkat pertama dari $A$:\\\\ $A^2 = \\begin{array}{cc} 1 & 0 \\\\ 1 & 1 \\end{array} \\begin{array}{cc} 1 & 0 \\\\ 1 & 1 \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 1+1 & 1 \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 2 & 1 \\end{array}$.\\\\ $A^3 = A^2 \\cdot A = \\begin{array}{cc} 1 & 0 \\\\ 2 & 1 \\end{array} \\begin{array}{cc} 1 & 0 \\\\ 1 & 1 \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 2+1 & 1 \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 3 & 1 \\end{array}$.\\\\ Terlihat pola bahwa $A^n = \\begin{array}{cc} 1 & 0 \\\\ n & 1 \\end{array}$.\\\\ Jadi, $A^5 = \\begin{array}{cc} 1 & 0 \\\\ 5 & 1 \\end{array}$."
-  },
-  {
-    "id": 135,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\begin{array}{cc} 2 & x \\\\ y & 3 \\end{array} = \\begin{array}{cc} 2 & 1 \\\\ 5 & 3 \\end{array}$, maka $x \\cdot y$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "5",
-      "6"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Dari kesamaan matriks, kita dapatkan:\\\\ $x = 1$\\\\ $y = 5$\\\\ Maka $x \\cdot y = 1 \\cdot 5 = 5$."
-  },
-  {
-    "id": 136,
-    "kategori": "Sulit",
-    "pertanyaan": "Diberikan $A = \\begin{array}{cc} 1 & 2 \\\\ 0 & 1 \\end{array}$. Jika $B$ adalah matriks sehingga $AB = \\begin{array}{cc} 3 & 4 \\\\ 0 & 3 \\end{array}$, maka matriks $B$ adalah...",
-    "pilihan": [
-      "$\\begin{array}{cc} 3 & -2 \\\\ 0 & 3 \\end{array}$",
-      "$\\begin{array}{cc} 3 & 4 \\\\ 0 & 3 \\end{array}$",
-      "$\\begin{array}{cc} 1 & -2 \\\\ 0 & 1 \\end{array}$",
-      "$\\begin{array}{cc} 3 & 10 \\\\ 0 & 3 \\end{array}$",
-      "$\\begin{array}{cc} 3 & -1 \\\\ 0 & 3 \\end{array}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita tahu $B = A^{-1} (AB)$.\\\\ Pertama, cari $A^{-1}$. $det(A) = (1 \\times 1) - (2 \\times 0) = 1$.\\\\ $A^{-1} = \\frac{1}{1} \\begin{array}{cc} 1 & -2 \\\\ 0 & 1 \\end{array} = \\begin{array}{cc} 1 & -2 \\\\ 0 & 1 \\end{array}$.\\\\ Kemudian, kalikan $A^{-1}$ dengan $(AB)$:\\\\ $B = \\begin{array}{cc} 1 & -2 \\\\ 0 & 1 \\end{array} \\begin{array}{cc} 3 & 4 \\\\ 0 & 3 \\end{array}$\\\\ $B = \\begin{array}{cc} (1 \\times 3)+(-2 \\times 0) & (1 \\times 4)+(-2 \\times 3) \\\\ (0 \\times 3)+(1 \\times 0) & (0 \\times 4)+(1 \\times 3) \\end{array}$\\\\ $B = \\begin{array}{cc} 3+0 & 4-6 \\\\ 0+0 & 0+3 \\end{array} = \\begin{array}{cc} 3 & -2 \\\\ 0 & 3 \\end{array}$."
-  },
-  {
-    "id": 137,
-    "kategori": "Sulit",
-    "pertanyaan": "Sebuah matriks $P$ berordo $m \\times n$ dikalikan dengan matriks $Q$ berordo $p \\times q$. Jika hasil perkalian $PQ$ terdefinisi, maka hubungan antara $n$ dan $p$ adalah...",
-    "pilihan": [
-      "$n > p$",
-      "$n < p$",
-      "$n = p$",
-      "$n \\neq p$",
-      "$n \\ge p$"
+      "$5$",
+      "$-5$",
+      "$11$",
+      "$-11$",
+      "$0$"
     ],
     "jawaban": "C",
-    "pembahasan": "Perkalian matriks $PQ$ terdefinisi jika jumlah kolom matriks pertama ($n$) sama dengan jumlah baris matriks kedua ($p$). Jadi, $n = p$."
+    "pembahasan": "Determinan matriks $X$ adalah $(2 \\\\times 4) - (-1 \\\\times 3) = 8 - (-3) = 8+3 = 11$."
   },
   {
-    "id": 138,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array}$, maka $A^{2024}$ adalah...",
+    "id": 147,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $A = \\\\begin{array}{cc} 1 & 2 \\\\ 3 & 4 \\\\end{array}$, maka $A^T$ adalah...",
     "pilihan": [
-      "$\\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\end{array}$",
-      "$\\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array}$",
-      "$\\begin{array}{cc} -1 & 0 \\\\ 0 & 1 \\end{array}$",
-      "$\\begin{array}{cc} -1 & 0 \\\\ 0 & -1 \\end{array}$",
-      "$\\begin{array}{cc} 2024 & 0 \\\\ 0 & -2024 \\end{array}$"
+      "\\\\begin{array}{cc} 1 & 2 \\\\\\\\ 3 & 4 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 3 \\\\\\\\ 2 & 4 \\\\end{array}$",
+      "\\\\begin{array}{cc} 4 & 3 \\\\\\\\ 2 & 1 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 0 \\\\\\\\ 0 & 1 \\\\end{array}$",
+      "\\\\begin{array}{cc} -1 & -2 \\\\\\\\ -3 & -4 \\\\end{array}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Transpose matriks adalah menukar baris menjadi kolom dan kolom menjadi baris."
+  },
+  {
+    "id": 148,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\\\begin{array}{cc} x & 5 \\\\ 2 & y \\\\end{array} = \\\\begin{array}{cc} 3 & 5 \\\\ 2 & 4 \\\\end{array}$, maka nilai $x \\\\cdot y$ adalah...",
+    "pilihan": [
+      "$6$",
+      "$8$",
+      "$10$",
+      "$12$",
+      "$15$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Dari kesamaan matriks, $x=3$ dan $y=4$. Maka $x \\\\cdot y = 3 \\\\cdot 4 = 12$."
+  },
+  {
+    "id": 149,
+    "kategori": "Sedang",
+    "pertanyaan": "Diberikan $P = \\\\begin{array}{cc} 2 & 1 \\\\ 0 & 3 \\\\end{array}$. Tentukan $P \\\\cdot I$, di mana $I$ adalah matriks identitas $2 \\\\times 2$.",
+    "pilihan": [
+      "\\\\begin{array}{cc} 2 & 1 \\\\\\\\ 0 & 3 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 0 \\\\\\\\ 0 & 1 \\\\end{array}$",
+      "\\\\begin{array}{cc} 2 & 0 \\\\\\\\ 0 & 3 \\\\end{array}$",
+      "\\\\begin{array}{cc} 0 & 0 \\\\\\\\ 0 & 0 \\\\end{array}$",
+      "\\\\begin{array}{cc} 3 & 1 \\\\\\\\ 0 & 4 \\\\end{array}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Mari kita hitung beberapa pangkat pertama dari $A$:\\\\ $A^1 = \\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array}$.\\\\ $A^2 = \\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array} \\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 0 & (-1)(-1) \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\end{array}$. (Matriks Identitas)\\\\ $A^3 = A^2 \\cdot A = \\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\end{array} \\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array} = \\begin{array}{cc} 1 & 0 \\\\ 0 & -1 \\end{array}$.\\\\ Polanya adalah $A^n = I$ jika $n$ genap, dan $A^n = A$ jika $n$ ganjil.\\\\ Karena $2024$ adalah bilangan genap, maka $A^{2024} = I = \\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\end{array}$."
+    "pembahasan": "Perkalian matriks dengan matriks identitas tidak mengubah matriks aslinya, yaitu $P \\\\cdot I = P$."
   },
   {
-    "id": 139,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{array}{cc} 2 & 3 \\\\ 1 & 2 \\end{array}$ dan $B = \\begin{array}{c} x \\\\ y \\end{array}$. Jika $AB = \\begin{array}{c} 1 \\\\ 0 \\end{array}$, maka nilai $x+y$ adalah...",
+    "id": 150,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $A = \\\\begin{array}{cc} -1 & 0 \\\\ 0 & -1 \\\\end{array}$, matriks ini termasuk jenis matriks...",
     "pilihan": [
-      "$-1$",
-      "$0$",
+      "Identitas",
+      "Nol",
+      "Skalar",
+      "Diagonal",
+      "Ortogonal"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Matriks skalar adalah matriks diagonal di mana semua elemen diagonal utama memiliki nilai yang sama. Dalam kasus ini, semua elemen diagonal utama adalah -1."
+  },
+  {
+    "id": 151,
+    "kategori": "Sulit",
+    "pertanyaan": "Diberikan matriks $A = \\\\begin{array}{cc} 3 & 2 \\\\ 1 & x \\\\end{array}$. Jika $det(A) = 7$, maka nilai $x$ adalah...",
+    "pilihan": [
       "$1$",
       "$2$",
-      "$3$"
+      "$3$",
+      "$4$",
+      "$5$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari $A^{-1}$. $det(A) = (2 \\times 2) - (3 \\times 1) = 4 - 3 = 1$.\\\\ $A^{-1} = \\frac{1}{1} \\begin{array}{cc} 2 & -3 \\\\ -1 & 2 \\end{array} = \\begin{array}{cc} 2 & -3 \\\\ -1 & 2 \\end{array}$.\\\\ Kemudian, $B = A^{-1} (AB)$:\\\\ $B = \\begin{array}{cc} 2 & -3 \\\\ -1 & 2 \\end{array} \\begin{array}{c} 1 \\\\ 0 \\end{array} = \\begin{array}{c} (2 \\times 1)+(-3 \\times 0) \\\\ (-1 \\times 1)+(2 \\times 0) \\end{array} = \\begin{array}{c} 2 \\\\ -1 \\end{array}$.\\\\ Jadi, $x=2$ dan $y=-1$. Maka $x+y = 2 + (-1) = 1$."
+    "pembahasan": "Determinan $A = (3 \\\\times x) - (2 \\\\times 1) = 3x - 2$.\\\\ Karena $det(A) = 7$, maka $3x - 2 = 7 \\\\implies 3x = 9 \\\\implies x = 3$."
   },
   {
-    "id": 140,
+    "id": 152,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $M = \\begin{array}{cc} 2 & a \\\\ 1 & 3 \\end{array}$. Jika $det(M) = 7$, maka nilai $a$ adalah...",
+    "pertanyaan": "Jika $P = \\\\begin{array}{cc} 1 & 1 \\\\ 0 & 1 \\\\end{array}$, maka $P^{10}$ adalah...",
     "pilihan": [
-      "$-1$",
+      "\\\\begin{array}{cc} 1 & 1 \\\\\\\\ 0 & 1 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 10 \\\\\\\\ 0 & 1 \\\\end{array}$",
+      "\\\\begin{array}{cc} 10 & 10 \\\\\\\\ 0 & 1 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 0 \\\\\\\\ 0 & 10 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 0 \\\\\\\\ 0 & 1 \\\\end{array}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola untuk matriks ini adalah $P^n = \\\\begin{array}{cc} 1 & n \\\\\\\\ 0 & 1 \\\\end{array}$.\\\\ Jadi, $P^{10} = \\\\begin{array}{cc} 1 & 10 \\\\\\\\ 0 & 1 \\\\end{array}$."
+  },
+  {
+    "id": 153,
+    "kategori": "Sulit",
+    "pertanyaan": "Diberikan matriks $A = \\\\begin{array}{cc} 2 & -1 \\\\ 3 & -2 \\\\end{array}$. Tentukan $A^{-1}$.",
+    "pilihan": [
+      "\\\\begin{array}{cc} 2 & -1 \\\\\\\\ 3 & -2 \\\\end{array}$",
+      "\\\\begin{array}{cc} -2 & 1 \\\\\\\\ -3 & 2 \\\\end{array}$",
+      "\\\\begin{array}{cc} 2 & -3 \\\\\\\\ -1 & 2 \\\\end{array}$",
+      "\\\\begin{array}{cc} -2 & 3 \\\\\\\\ 1 & -2 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 0 \\\\\\\\ 0 & 1 \\\\end{array}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Determinan $A = (2 \\\\times -2) - (-1 \\\\times 3) = -4 - (-3) = -4+3 = -1$.\\\\ $A^{-1} = \\\\frac{1}{det(A)} adj(A) = \\\\frac{1}{-1} \\\\begin{array}{cc} -2 & -(-1) \\\\\\\\ -3 & 2 \\\\end{array} = -1 \\\\begin{array}{cc} -2 & 1 \\\\\\\\ -3 & 2 \\\\end{array} = \\\\begin{array}{cc} 2 & -1 \\\\\\\\ 3 & -2 \\\\end{array}$."
+  },
+  {
+    "id": 154,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika matriks $B = \\\\begin{array}{cc} x & 2 \\\\ 8 & 4 \\\\end{array}$ adalah matriks singular, maka nilai $x$ adalah...",
+    "pilihan": [
       "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$0$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Matriks singular memiliki determinan nol.\\\\ $det(B) = (x \\\\times 4) - (2 \\\\times 8) = 4x - 16$.\\\\ Karena $B$ singular, $4x - 16 = 0 \\\\implies 4x = 16 \\\\implies x = 4$."
+  },
+  {
+    "id": 155,
+    "kategori": "Sulit",
+    "pertanyaan": "Diberikan matriks $A = \\\\begin{array}{cc} 1 & 0 \\\\ 2 & 1 \\\\end{array}$. Tentukan matriks $X$ jika $AX = \\\\begin{array}{cc} 3 & 4 \\\\ 5 & 6 \\\\end{array}$.",
+    "pilihan": [
+      "\\\\begin{array}{cc} 3 & 4 \\\\\\\\ -1 & -2 \\\\end{array}$",
+      "\\\\begin{array}{cc} 3 & 4 \\\\\\\\ -2 & -1 \\\\end{array}$",
+      "\\\\begin{array}{cc} 3 & 4 \\\\\\\\ 1 & 2 \\\\end{array}$",
+      "\\\\begin{array}{cc} -1 & -2 \\\\\\\\ 3 & 4 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 0 \\\\\\\\ 0 & 1 \\\\end{array}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kita tahu $X = A^{-1} (AX)$.\\\\ Pertama, cari $A^{-1}$. $det(A) = (1 \\\\times 1) - (0 \\\\times 2) = 1$.\\\\ $A^{-1} = \\\\frac{1}{1} \\\\begin{array}{cc} 1 & 0 \\\\\\\\ -2 & 1 \\\\end{array} = \\\\begin{array}{cc} 1 & 0 \\\\\\\\ -2 & 1 \\\\end{array}$.\\\\ Kemudian, kalikan $A^{-1}$ dengan $(AX)$:\\\\ $X = \\\\begin{array}{cc} 1 & 0 \\\\\\\\ -2 & 1 \\\\end{array} \\\\begin{array}{cc} 3 & 4 \\\\\\\\ 5 & 6 \\\\end{array}$\\\\ $X = \\\\begin{array}{cc} (1 \\\\times 3)+(0 \\\\times 5) & (1 \\\\times 4)+(0 \\\\times 6) \\\\\\\\ (-2 \\\\times 3)+(1 \\\\times 5) & (-2 \\\\times 4)+(1 \\\\times 6) \\\\end{array}$\\\\ $X = \\\\begin{array}{cc} 3+0 & 4+0 \\\\\\\\ -6+5 & -8+6 \\\\end{array} = \\\\begin{array}{cc} 3 & 4 \\\\\\\\ -1 & -2 \\\\end{array}$."
+  },
+  {
+    "id": 156,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $M = \\\\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\\\end{array}$, maka $det(5M)$ adalah...",
+    "pilihan": [
+      "$5$",
+      "$10$",
+      "$25$",
+      "$1$",
+      "$0$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Untuk matriks $n \\\\times n$, $det(cM) = c^n det(M)$. Dalam kasus ini, matriks $M$ adalah $2 \\\\times 2$, jadi $n=2$.\\\\ $det(M) = (1 \\\\times 1) - (0 \\\\times 0) = 1$.\\\\ $det(5M) = 5^2 \\\\cdot det(M) = 25 \\\\cdot 1 = 25$."
+  },
+  {
+    "id": 157,
+    "kategori": "Sulit",
+    "pertanyaan": "Diberikan matriks $A = \\\\begin{array}{cc} 1 & 2 \\\\ 3 & 4 \\\\end{array}$ dan $B = \\\\begin{array}{cc} 0 & 1 \\\\ -1 & 0 \\\\end{array}$. Tentukan $B^T A$.",
+    "pilihan": [
+      "\\\\begin{array}{cc} 1 & 2 \\\\\\\\ 3 & 4 \\\\end{array}$",
+      "\\\\begin{array}{cc} -3 & -4 \\\\\\\\ 1 & 2 \\\\end{array}$",
+      "\\\\begin{array}{cc} 0 & -1 \\\\\\\\ 1 & 0 \\\\end{array}$",
+      "\\\\begin{array}{cc} -2 & -1 \\\\\\\\ 4 & 3 \\\\end{array}$",
+      "\\\\begin{array}{cc} -1 & -2 \\\\\\\\ 0 & 1 \\\\end{array}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pertama, cari transpose dari $B$: $B^T = \\\\begin{array}{cc} 0 & -1 \\\\\\\\ 1 & 0 \\\\end{array}$.\\\\ Kemudian, kalikan $B^T$ dengan $A$:\\\\ $B^T A = \\\\begin{array}{cc} 0 & -1 \\\\\\\\ 1 & 0 \\\\end{array} \\\\begin{array}{cc} 1 & 2 \\\\\\\\ 3 & 4 \\\\end{array}$\\\\ $B^T A = \\\\begin{array}{cc} (0 \\\\times 1)+(-1 \\\\times 3) & (0 \\\\times 2)+(-1 \\\\times 4) \\\\\\\\ (1 \\\\times 1)+(0 \\\\times 3) & (1 \\\\times 2)+(0 \\\\times 4) \\\\end{array}$\\\\ $B^T A = \\\\begin{array}{cc} 0-3 & 0-4 \\\\\\\\ 1+0 & 2+0 \\\\end{array} = \\\\begin{array}{cc} -3 & -4 \\\\\\\\ 1 & 2 \\\\end{array}$."
+  },
+  {
+    "id": 158,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\\\begin{array}{cc} 2 & x \\\\ y & 5 \\\\end{array} \\\\begin{array}{cc} 1 & 0 \\\\ 0 & 1 \\\\end{array} = \\\\begin{array}{cc} 2 & 3 \\\\ 4 & 5 \\\\end{array}$, maka nilai $x+y$ adalah...",
+    "pilihan": [
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Matriks yang dikalikan dengan matriks identitas akan menghasilkan matriks itu sendiri.\\\\ Jadi, $\\\\begin{array}{cc} 2 & x \\\\ y & 5 \\\\end{array} = \\\\begin{array}{cc} 2 & 3 \\\\ 4 & 5 \\\\end{array}$.\\\\ Dari kesamaan matriks, $x=3$ dan $y=4$.\\\\ Maka $x+y = 3+4 = 7$."
+  },
+  {
+    "id": 159,
+    "kategori": "Sulit",
+    "pertanyaan": "Sistem persamaan $x + 2y = 7$ dan $3x - y = 0$ dapat ditulis dalam bentuk matriks $AX = B$. Matriks $B$ adalah...",
+    "pilihan": [
+      "\\\\begin{array}{cc} 1 & 2 \\\\\\\\ 3 & -1 \\\\end{array}$",
+      "\\\\begin{array}{c} x \\\\ y \\\\end{array}$",
+      "\\\\begin{array}{c} 7 \\\\ 0 \\\\end{array}$",
+      "\\\\begin{array}{cc} 7 & 0 \\\\end{array}$",
+      "\\\\begin{array}{cc} 1 & 3 \\\\\\\\ 2 & -1 \\\\end{array}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Dalam bentuk $AX=B$, matriks $B$ adalah matriks konstanta dari sistem persamaan.\\\\ Untuk $x+2y=7$ dan $3x-y=0$, matriks konstantanya adalah kolom yang berisi 7 dan 0, yaitu $\\\\begin{array}{c} 7 \\\\ 0 \\\\end{array}$."
+  },
+  {
+    "id": 160,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $A = \\\\begin{array}{cc} 1 & 2 \\\\ 3 & 4 \\\\end{array}$ dan $B = \\\\begin{array}{cc} 0 & 1 \\\\ 1 & 0 \\\\end{array}$, maka $det(AB)$ adalah...",
+    "pilihan": [
       "$-2$",
       "$2$",
-      "$3$"
+      "$-4$",
+      "$4$",
+      "$0$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Determinan $M = (2 \\times 3) - (a \\times 1) = 6 - a$.\\\\ Diberikan $det(M) = 7$.\\\\ $6 - a = 7 \\implies a = 6 - 7 \\implies a = -1$."
+    "jawaban": "B",
+    "pembahasan": "Determinan perkalian dua matriks adalah perkalian determinannya, yaitu $det(AB) = det(A) \\\\cdot det(B)$.\\\\ $det(A) = (1 \\\\times 4) - (2 \\\\times 3) = 4 - 6 = -2$.\\\\ $det(B) = (0 \\\\times 0) - (1 \\\\times 1) = 0 - 1 = -1$.\\\\ Jadi, $det(AB) = (-2) \\\\cdot (-1) = 2$."
   }
 ]
