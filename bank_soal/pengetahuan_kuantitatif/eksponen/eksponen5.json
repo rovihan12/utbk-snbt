@@ -123,7 +123,7 @@
       "3"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan $\\log_{1/2} 8 = y$. Maka $(1/2)^y = 8$.\\n$(2^{-1})^y = 2^3$\\n$2^{-y} = 3^2$\\n$-y = 3$\\n$y = -3$"
+    "pembahasan": "Misalkan $\\log_{1/2} 8 = y$. Maka $(1/2)^y = 8$.\\n$(2^{-1})^y = 2^3$\\n$2^{-y} = 2^3$\\n$-y = 3$\\n$y = -3$"
   },
   {
     "id": 90,
@@ -150,8 +150,8 @@
       "$2/7$",
       "1"
     ],
-    "jawaban": "A",
-    "pembahasan": "Ubah semua basis ke 2.\\n$8^{x+2} = (2^3)^{x+2} = 2^{3(x+2)} = 2^{3x+6}$\\n$(1/16)^{x-1} = (2^{-4})^{x-1} = 2^{-4(x-1)} = 2^{-4x+4}$\\n$2^{3x+6} = 2^{-4x+4}$\\n$3x+6 = -4x+4$\\n$7x = -2$\\n$x = -2/7$. (Terdapat ketidaksesuaian dengan pilihan. Pilihan A adalah $-10/7$. Saya akan revisi soal agar sesuai dengan pilihan A.)\\n\\n**Revisi pertanyaan untuk ID 91 agar cocok dengan pilihan A ($-10/7$):**\\nJika $8^{x+4} = (1/16)^{x+1}$, maka nilai $x$ adalah...\\n$(2^3)^{x+4} = (2^{-4})^{x+1}$\\n$2^{3x+12} = 2^{-4x-4}$\\n$3x+12 = -4x-4$\\n$7x = -16$\\n$x = -16/7$. (Tidak cocok)\\n\\n**Revisi lain untuk ID 91 agar cocok dengan $-10/7$:**\\nJika $4^{2x+3} = (1/8)^{x-1}$, maka nilai $x$ adalah...\\n$(2^2)^{2x+3} = (2^{-3})^{x-1}$\\n$2^{4x+6} = 2^{-3x+3}$\\n$4x+6 = -3x+3$\\n$7x = -3$\\n$x = -3/7$. (Tidak cocok)\\n\\n**Revisi pertanyaan untuk ID 91 agar hasilnya $-10/7$:**\\nJika $2^{7x+5} = (1/4)^{x-5}$, maka nilai $x$ adalah...\\n$2^{7x+5} = (2^{-2})^{x-5}$\\n$2^{7x+5} = 2^{-2x+10}$\\n$7x+5 = -2x+10$\\n$9x = 5$\\n$x = 5/9$. (Tidak cocok)\\n\\n**Kembali ke soal asli, dan periksa pilihan kembali. Jika tidak ada yang cocok, saya akan tetap menggunakan jawaban hasil perhitungan.**\\n$x = -2/7$. Karena pilihan yang diberikan adalah [$-10/7$, $10/7$, $-2/7$, $2/7$, 1], maka **-2/7 (pilihan C)** adalah jawaban yang benar. Terjadi kesalahan pada 'jawaban': 'A' di JSON asli Anda. Saya akan perbaiki 'jawaban' menjadi 'C' dan biarkan soal aslinya.\\n"
+    "jawaban": "C",
+    "pembahasan": "Ubah semua basis ke 2.\\n$8^{x+2} = (2^3)^{x+2} = 2^{3(x+2)} = 2^{3x+6}$\\n$(1/16)^{x-1} = (2^{-4})^{x-1} = 2^{-4(x-1)} = 2^{-4x+4}$\\n$2^{3x+6} = 2^{-4x+4}$\\n$3x+6 = -4x+4$\\n$7x = -2$\\n$x = -2/7$"
   },
   {
     "id": 92,
@@ -198,7 +198,7 @@
   {
     "id": 95,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $^4\\log (x^2-2x+5) = 1$, maka nilai $x$ adalah...",
+    "pertanyaan": "Jika $^2\\log (x^2-2x+5) = 3$, maka nilai $x$ adalah...",
     "pilihan": [
       "$-1$ atau $3$",
       "$1$ atau $-3$",
@@ -207,7 +207,7 @@
       "$1$ atau $4$"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubahlah ke bentuk eksponen:\\n$x^2-2x+5 = 4^1$\\n$x^2-2x+5 = 4$\\n$x^2-2x+1 = 0$\\nFaktorkan persamaan kuadrat:\\n$(x-1)^2 = 0$\\nJadi, $x=1$. (Terdapat ketidaksesuaian dengan pilihan. Pilihan A adalah $-1$ atau $3$. Mari revisi soal agar cocok dengan pilihan A.)\\n\\n**Revisi pertanyaan untuk ID 95 agar cocok dengan pilihan A ($-1$ atau $3$):**\\nJika $^2\\log (x^2-2x+5) = 3$, maka nilai $x$ adalah...\\n$x^2-2x+5 = 2^3$\\n$x^2-2x+5 = 8$\\n$x^2-2x-3 = 0$\\n$(x-3)(x+1) = 0$\\n$x=3$ atau $x=-1$.\\nPeriksa syarat numerus: $x^2-2x+5 > 0$. Kedua nilai memenuhi.\\nIni cocok dengan pilihan A."
+    "pembahasan": "Ubahlah ke bentuk eksponen:\\n$x^2-2x+5 = 2^3$\\n$x^2-2x+5 = 8$\\n$x^2-2x-3 = 0$\\nFaktorkan persamaan kuadrat:\\n$(x-3)(x+1) = 0$\\nJadi, $x=3$ atau $x=-1$.\\nPeriksa syarat numerus: $x^2-2x+5 > 0$. Kedua nilai memenuhi."
   },
   {
     "id": 96,
@@ -263,5 +263,20 @@
       "Tidak ada solusi"
     ],
     "jawaban": "A",
-    "pembahasan": "Set
-
+    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1. Jadi eksponennya harus sama dengan 0.\\n$x^2-5x+6 = 0$\\nFaktorkan persamaan kuadrat:\\n$(x-2)(x-3) = 0$\\nJadi, $x=2$ atau $x=3$."
+  },
+  {
+    "id": 100,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^2\\log 3 = a$, maka $^8\\log 9$ adalah...",
+    "pilihan": [
+      "$2a/3$",
+      "$3a/2$",
+      "$a/2$",
+      "$2a$",
+      "$a$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^p\\log q = \\frac{^m\\log q}{^m\\log p}$.\\n$^8\\log 9 = \\frac{^2\\log 9}{^2\\log 8}$\\n$^2\\log 9 = ^2\\log 3^2 = 2 \\cdot ^2\\log 3 = 2a$\\n$^2\\log 8 = 3$ (karena $2^3 = 8$)\\nJadi, $^8\\log 9 = \\frac{2a}{3}$"
+  }
+]
