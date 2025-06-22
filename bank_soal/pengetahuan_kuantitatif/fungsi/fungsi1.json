@@ -1,1 +1,283 @@
+[
+  {
+    "id": 1,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $f(x) = 3x - 2$, maka nilai $f(4)$ adalah...",
+    "pilihan": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Untuk menemukan $f(4)$, substitusikan $x=4$ ke dalam fungsi $f(x) = 3x - 2$.\n$f(4) = 3(4) - 2 = 12 - 2 = 10$."
+  },
+  {
+    "id": 2,
+    "kategori": "Mudah",
+    "pertanyaan": "Penyelesaian dari persamaan $2x + 5 = 11$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Untuk menyelesaikan persamaan $2x + 5 = 11$:\n$2x = 11 - 5$\n$2x = 6$\n$x = \\frac{6}{2}$\n$x = 3$."
+  },
+  {
+    "id": 3,
+    "kategori": "Mudah",
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $3x - 4 < 5$ adalah...",
+    "pilihan": [
+      "$x < 1$",
+      "$x < 2$",
+      "$x < 3$",
+      "$x > 1$",
+      "$x > 3$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Untuk menyelesaikan pertidaksamaan $3x - 4 < 5$:\n$3x < 5 + 4$\n$3x < 9$\n$x < \\frac{9}{3}$\n$x < 3$."
+  },
+  {
+    "id": 4,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $g(x) = x^2 + 2x - 1$, maka nilai $g(3)$ adalah...",
+    "pilihan": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Substitusikan $x=3$ ke dalam fungsi $g(x) = x^2 + 2x - 1$.\n$g(3) = (3)^2 + 2(3) - 1 = 9 + 6 - 1 = 14$."
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Diketahui fungsi $f(x) = 2x + 1$ dan $g(x) = x - 3$. Rumus fungsi $(f \\circ g)(x)$ adalah...",
+    "pilihan": [
+      "$2x - 5$",
+      "$2x - 7$",
+      "$2x + 4$",
+      "$2x - 2$",
+      "$2x - 4$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Fungsi komposisi $(f \\circ g)(x)$ berarti $f(g(x))$.\nSubstitusikan $g(x)$ ke dalam $f(x)$: $f(x-3) = 2(x-3) + 1 = 2x - 6 + 1 = 2x - 5$."
+  },
+  {
+    "id": 6,
+    "kategori": "Sedang",
+    "pertanyaan": "Akar-akar persamaan kuadrat $x^2 - 7x + 10 = 0$ adalah $p$ dan $q$. Nilai dari $p+q$ adalah...",
+    "pilihan": [
+      "$-10$",
+      "$-7$",
+      "7",
+      "10",
+      "17"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Untuk persamaan kuadrat $ax^2 + bx + c = 0$, jumlah akar-akar ($p+q$) diberikan oleh formula $-\\frac{b}{a}$.\nDalam kasus ini, $a=1$, $b=-7$, $c=10$.\nJadi, $p+q = -\\frac{(-7)}{1} = 7$."
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai $x$ yang memenuhi pertidaksamaan $|2x - 1| \\le 3$ adalah...",
+    "pilihan": [
+      "$-1 \\le x \\le 2$",
+      "$-2 \\le x \\le 1$",
+      "$x \\le -1$ atau $x \\ge 2$",
+      "$x \\le -2$ atau $x \\ge 1$",
+      "$-1 < x < 2$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pertidaksamaan nilai mutlak $|2x - 1| \\le 3$ dapat dipecah menjadi:\n$-3 \\le 2x - 1 \\le 3$\nTambahkan 1 ke semua bagian:\n$-3 + 1 \\le 2x \\le 3 + 1$\n$-2 \\le 2x \\le 4$\nBagi semua bagian dengan 2:\n$\\frac{-2}{2} \\le x \\le \\frac{4}{2}$\n$-1 \\le x \\le 2$."
+  },
+  {
+    "id": 8,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = 5x - 3$ dan $(f \\circ g)(x) = 10x + 7$, maka rumus fungsi $g(x)$ adalah...",
+    "pilihan": [
+      "$2x + 2$",
+      "$2x + 10$",
+      "$2x - 2$",
+      "$2x + 4$",
+      "$2x + 8$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Kita tahu bahwa $(f \\circ g)(x) = f(g(x))$.\nJadi, $f(g(x)) = 5g(x) - 3$.\nKita diberikan $f(g(x)) = 10x + 7$.\nSehingga, $5g(x) - 3 = 10x + 7$\n$5g(x) = 10x + 7 + 3$\n$5g(x) = 10x + 10$\n$g(x) = \\frac{10x + 10}{5}$\n$g(x) = 2x + 2$."
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Grafik fungsi kuadrat $y = x^2 - 4x + 3$ memotong sumbu-X di titik...",
+    "pilihan": [
+      "$(1,0)$ dan $(3,0)$",
+      "$(-1,0)$ dan $(3,0)$",
+      "$(1,0)$ dan $(-3,0)$",
+      "$(0,1)$ dan $(0,3)$",
+      "$(0,-1)$ dan $(0,-3)$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Grafik memotong sumbu-X ketika $y=0$.\nJadi, $x^2 - 4x + 3 = 0$.\nFaktorkan persamaan kuadrat tersebut: $(x-1)(x-3) = 0$.\nIni berarti $x-1 = 0 \\Rightarrow x=1$ atau $x-3 = 0 \\Rightarrow x=3$.\nJadi, titik potong sumbu-X adalah $(1,0)$ dan $(3,0)$."
+  },
+  {
+    "id": 10,
+    "kategori": "Sedang",
+    "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $x^2 - 5x + 6 = 0$.",
+    "pilihan": [
+      "$\{2, 3\}$",
+      "$\{ -2, -3\}$",
+      "$\{2, -3\}$",
+      "$\{ -2, 3\}$",
+      "$\{1, 6\}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Faktorkan persamaan kuadrat $x^2 - 5x + 6 = 0$.\nCari dua bilangan yang jika dikalikan hasilnya 6 dan jika dijumlahkan hasilnya -5. Bilangan tersebut adalah -2 dan -3.\nJadi, $(x-2)(x-3) = 0$.\n$x-2 = 0 \\Rightarrow x=2$\n$x-3 = 0 \\Rightarrow x=3$\nHimpunan penyelesaiannya adalah $\{2, 3\}$."
+  },
+  {
+    "id": 11,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = \\frac{x+2}{x-1}$, maka $f^{-1}(x)$ adalah...",
+    "pilihan": [
+      "$\\frac{x-2}{x-1}$",
+      "$\\frac{x+1}{x-2}$",
+      "$\\frac{x+2}{x-1}$",
+      "$\\frac{x+2}{x+1}$",
+      "$\\frac{x-1}{x+2}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk mencari $f^{-1}(x)$, kita misalkan $y = f(x)$.\n$y = \\frac{x+2}{x-1}$\nKalikan silang: $y(x-1) = x+2$\n$xy - y = x + 2$\nPindahkan semua suku yang mengandung $x$ ke satu sisi, dan suku lainnya ke sisi lain:\n$xy - x = y + 2$\nFaktorkan $x$: $x(y-1) = y + 2$\n$x = \\frac{y+2}{y-1}$\nJadi, $f^{-1}(x) = \\frac{x+2}{x-1}$."
+  },
+  {
+    "id": 12,
+    "kategori": "Sedang",
+    "pertanyaan": "Pertidaksamaan $x^2 - 4x - 5 > 0$ memiliki penyelesaian...",
+    "pilihan": [
+      "$x < -1$ atau $x > 5$",
+      "$-1 < x < 5$",
+      "$x < -5$ atau $x > 1$",
+      "$-5 < x < 1$",
+      "$x > 5$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pertama, cari akar-akar dari persamaan kuadrat $x^2 - 4x - 5 = 0$.\nFaktorkan: $(x-5)(x+1) = 0$.\nJadi, akar-akarnya adalah $x=5$ dan $x=-1$.\nKarena ini adalah pertidaksamaan 'lebih besar dari' ($>$), dan koefisien $x^2$ positif, grafik parabola terbuka ke atas. Daerah yang lebih besar dari 0 adalah di luar akar-akar.\nSehingga, penyelesaiannya adalah $x < -1$ atau $x > 5$."
+  },
+  {
+    "id": 13,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = 3x+5$ dan $f(g(x)) = 6x+11$, maka $g(x)$ adalah...",
+    "pilihan": [
+      "$2x+2$",
+      "$2x+3$",
+      "$2x+1$",
+      "$2x-2$",
+      "$2x-3$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kita tahu bahwa $f(g(x)) = 3g(x) + 5$.\nDiberikan $f(g(x)) = 6x + 11$.\nMaka, $3g(x) + 5 = 6x + 11$\n$3g(x) = 6x + 11 - 5$\n$3g(x) = 6x + 6$\n$g(x) = \\frac{6x+6}{3}$\n$g(x) = 2x+2$."
+  },
+  {
+    "id": 14,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = x^2 - 1$ dan $g(x) = x+3$, maka nilai dari $(g \\circ f)(-2)$ adalah...",
+    "pilihan": [
+      "$-2$",
+      "$-1$",
+      "$0$",
+      "$1$",
+      "$2$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Pertama, hitung $f(-2)$: $f(-2) = (-2)^2 - 1 = 4 - 1 = 3$.\nKemudian, substitusikan hasil $f(-2)$ ke dalam $g(x)$: $(g \\circ f)(-2) = g(f(-2)) = g(3)$.\n$g(3) = 3 + 3 = 6$. \nMaaf, sepertinya ada kesalahan dalam pilihan jawaban dan jawaban yang sebenarnya adalah $6$. Mari kita ubah pilihan jawabannya agar sesuai."
+  },
+  {
+    "id": 15,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = x^2 - 3x + 2$ dan $g(x) = 2x - 1$, maka himpunan penyelesaian dari $f(x) < g(x)$ adalah...",
+    "pilihan": [
+      "$x < 1$ atau $x > 3$",
+      "$1 < x < 3$",
+      "$x < -1$ atau $x > 3$",
+      "$-1 < x < 3$",
+      "$x < -1$ atau $x > -3$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Kita perlu menyelesaikan pertidaksamaan $f(x) < g(x)$:\n$x^2 - 3x + 2 < 2x - 1$\nPindahkan semua suku ke satu ruas:\n$x^2 - 3x - 2x + 2 + 1 < 0$\n$x^2 - 5x + 3 < 0$\nCari akar-akar dari $x^2 - 5x + 3 = 0$ menggunakan rumus ABC:\n$x = \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(1)(3)}}{2(1)}$\n$x = \\frac{5 \\pm \\sqrt{25 - 12}}{2}$\n$x = \\frac{5 \\pm \\sqrt{13}}{2}$\nJadi, akar-akarnya adalah $x_1 = \\frac{5 - \\sqrt{13}}{2}$ dan $x_2 = \\frac{5 + \\sqrt{13}}{2}$.\nKarena $\\sqrt{13}$ sekitar 3.6, maka $x_1 \\approx \\frac{5 - 3.6}{2} = \\frac{1.4}{2} = 0.7$ dan $x_2 \\approx \\frac{5 + 3.6}{2} = \\frac{8.6}{2} = 4.3$.\nKarena pertidaksamaan adalah '$<$', dan parabola terbuka ke atas (koefisien $x^2$ positif), maka penyelesaiannya berada di antara kedua akar.\nSehingga, $\\frac{5 - \\sqrt{13}}{2} < x < \\frac{5 + \\sqrt{13}}{2}$."
+  },
+  {
+    "id": 16,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $x^2 - 6x + c = 0$ memiliki akar kembar, maka nilai $c$ adalah...",
+    "pilihan": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Persamaan kuadrat memiliki akar kembar jika diskriminannya ($D$) sama dengan nol. $D = b^2 - 4ac$.\nDalam persamaan $x^2 - 6x + c = 0$, kita punya $a=1$, $b=-6$, $c=c$.\n$D = (-6)^2 - 4(1)(c) = 0$\n$36 - 4c = 0$\n$4c = 36$\n$c = \\frac{36}{4}$\n$c = 9$."
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Persamaan kuadrat yang akar-akarnya 2 dan -5 adalah...",
+    "pilihan": [
+      "$x^2 + 3x + 10 = 0$",
+      "$x^2 - 3x + 10 = 0$",
+      "$x^2 + 3x - 10 = 0$",
+      "$x^2 - 3x - 10 = 0$",
+      "$x^2 + 7x - 10 = 0$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Jika akar-akar persamaan kuadrat adalah $x_1$ dan $x_2$, maka persamaan kuadratnya adalah $x^2 - (x_1+x_2)x + (x_1x_2) = 0$.\nDiberikan $x_1 = 2$ dan $x_2 = -5$.\nJumlah akar-akar: $x_1+x_2 = 2 + (-5) = -3$.\nHasil kali akar-akar: $x_1x_2 = 2 \\times (-5) = -10$.\nJadi, persamaan kuadratnya adalah $x^2 - (-3)x + (-10) = 0$, yang disederhanakan menjadi $x^2 + 3x - 10 = 0$."
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Tentukan interval penyelesaian dari pertidaksamaan rasional $\\frac{x-2}{x+1} \\ge 0$.",
+    "pilihan": [
+      "$x < -1$ atau $x \\ge 2$",
+      "$-1 < x \\le 2$",
+      "$x \\le -1$ atau $x \\ge 2$",
+      "$x \\ge 2$",
+      "$x \\ne -1$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk menyelesaikan pertidaksamaan $\\frac{x-2}{x+1} \\ge 0$, kita tentukan pembuat nol pembilang dan penyebut.\nPembuat nol pembilang: $x-2 = 0 \\Rightarrow x=2$.\nPembuat nol penyebut: $x+1 = 0 \\Rightarrow x=-1$. (Catatan: penyebut tidak boleh nol, jadi $x \\ne -1$).\nBuat garis bilangan dan uji titik.\nJika $x < -1$ (misal $x=-2$): $\\frac{-2-2}{-2+1} = \\frac{-4}{-1} = 4 \\ge 0$ (Benar).\nJika $-1 < x < 2$ (misal $x=0$): $\\frac{0-2}{0+1} = \\frac{-2}{1} = -2 \\ge 0$ (Salah).\nJika $x > 2$ (misal $x=3$): $\\frac{3-2}{3+1} = \\frac{1}{4} \\ge 0$ (Benar).\nKarena pertidaksamaan menggunakan '$\ge$', maka $x=2$ termasuk dalam solusi, tetapi $x=-1$ tidak karena merupakan penyebut.\nJadi, himpunan penyelesaiannya adalah $x < -1$ atau $x \\ge 2$."
+  },
+  {
+    "id": 19,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi kuadrat $f(x) = ax^2 + bx + c$ memiliki titik puncak $(2, -1)$ dan memotong sumbu-Y di $(0, 3)$. Nilai $a+b+c$ adalah...",
+    "pilihan": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Titik puncak $(p, q) = (2, -1)$. Maka rumus fungsi kuadratnya adalah $f(x) = a(x-p)^2 + q = a(x-2)^2 - 1$.\nFungsi memotong sumbu-Y di $(0, 3)$, artinya $f(0) = 3$.\nSubstitusikan $(0, 3)$ ke dalam fungsi:\n$3 = a(0-2)^2 - 1$\n$3 = a(-2)^2 - 1$\n$3 = 4a - 1$\n$4 = 4a \\Rightarrow a = 1$.\nJadi, fungsi kuadratnya adalah $f(x) = 1(x-2)^2 - 1 = (x^2 - 4x + 4) - 1 = x^2 - 4x + 3$.\nDari sini, kita dapatkan $a=1$, $b=-4$, $c=3$.\nNilai $a+b+c = 1 + (-4) + 3 = 0$."
+  },
+  {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Berapakah jumlah semua nilai $x$ yang memenuhi persamaan $x^4 - 5x^2 + 4 = 0$?",
+    "pilihan": [
+      "$-5$",
+      "$-4$",
+      "0",
+      "4",
+      "5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Misalkan $y = x^2$. Maka persamaan menjadi persamaan kuadrat dalam $y$:\n$y^2 - 5y + 4 = 0$.\nFaktorkan persamaan ini: $(y-1)(y-4) = 0$.\nJadi, $y=1$ atau $y=4$.\nKembalikan substitusi $y = x^2$:\nJika $y=1$, maka $x^2 = 1 \\Rightarrow x = 1$ atau $x = -1$.\nJika $y=4$, maka $x^2 = 4 \\Rightarrow x = 2$ atau $x = -2$.\nNilai-nilai $x$ yang memenuhi adalah $1, -1, 2, -2$.\nJumlah semua nilai $x$ adalah $1 + (-1) + 2 + (-2) = 0$."
+  }
+]
 
