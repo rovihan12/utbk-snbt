@@ -5,13 +5,13 @@
     "pertanyaan": "Nilai rata-rata ulangan Matematika 30 siswa adalah 7.5. Jika 5 siswa dengan nilai rata-rata 8.0 ditambahkan, maka rata-rata nilai seluruh siswa sekarang adalah...",
     "pilihan": [
       "7.5",
+      "7.57",
       "7.6",
       "7.7",
-      "7.8",
-      "7.9"
+      "7.8"
     ],
     "jawaban": "B",
-    "pembahasan": "Total nilai 30 siswa awal = $30 \\times 7.5 = 225$. \nTotal nilai 5 siswa tambahan = $5 \\times 8.0 = 40$. \nJumlah total siswa = $30 + 5 = 35$. \nTotal nilai seluruh siswa = $225 + 40 = 265$. \nRata-rata baru = $265 / 35 \\approx 7.57$. (Pilihan terdekat adalah 7.6. Mari kita koreksi pilihan jawaban agar sesuai.)\n\n**Koreksi Pilihan Jawaban menjadi:**\n'7.5', '7.57', '7.6', '7.7', '7.8'\n\n**Maka pembahasan:**\nTotal nilai 30 siswa awal = $30 \\times 7.5 = 225$. \nTotal nilai 5 siswa tambahan = $5 \\times 8.0 = 40$. \nJumlah total siswa = $30 + 5 = 35$. \nTotal nilai seluruh siswa = $225 + 40 = 265$. \nRata-rata baru = $265 / 35 \\approx 7.57$."
+    "pembahasan": "Total nilai 30 siswa awal = $30 \\times 7.5 = 225$. \nTotal nilai 5 siswa tambahan = $5 \\times 8.0 = 40$. \nJumlah total siswa = $30 + 5 = 35$. \nTotal nilai seluruh siswa = $225 + 40 = 265$. \nRata-rata baru = $265 / 35 \\approx 7.57$."
   },
   {
     "id": 82,
@@ -88,14 +88,14 @@
     "kategori": "Sedang",
     "pertanyaan": "Rata-rata usia 10 anak adalah 8 tahun. Jika rata-rata usia 4 orang dewasa adalah 30 tahun, maka rata-rata usia gabungan anak dan dewasa adalah...",
     "pilihan": [
+      "14 tahun",
+      "14.28 tahun",
       "15 tahun",
       "16 tahun",
-      "17 tahun",
-      "18 tahun",
-      "19 tahun"
+      "17 tahun"
     ],
-    "jawaban": "C",
-    "pembahasan": "Total usia 10 anak = $10 \\times 8 = 80$ tahun. \nTotal usia 4 dewasa = $4 \\times 30 = 120$ tahun. \nTotal orang = $10 + 4 = 14$. \nTotal usia gabungan = $80 + 120 = 200$ tahun. \nRata-rata usia gabungan = $200 / 14 \\approx 14.28$ tahun. (Ada kesalahan dalam pilihan jawaban, seharusnya 14.28. Mari kita koreksi pilihan jawaban agar sesuai.)\n\n**Koreksi Pilihan Jawaban menjadi:**\n'14 tahun', '14.28 tahun', '15 tahun', '16 tahun', '17 tahun'\n\n**Maka pembahasan:**\nTotal usia 10 anak = $10 \\times 8 = 80$ tahun. \nTotal usia 4 dewasa = $4 \\times 30 = 120$ tahun. \nTotal orang = $10 + 4 = 14$. \nTotal usia gabungan = $80 + 120 = 200$ tahun. \nRata-rata usia gabungan = $200 / 14 \\approx 14.28$ tahun."
+    "jawaban": "B",
+    "pembahasan": "Total usia 10 anak = $10 \\times 8 = 80$ tahun. \nTotal usia 4 dewasa = $4 \\times 30 = 120$ tahun. \nTotal orang = $10 + 4 = 14$. \nTotal usia gabungan = $80 + 120 = 200$ tahun. \nRata-rata usia gabungan = $200 / 14 \\approx 14.28$ tahun."
   },
   {
     "id": 88,
@@ -122,7 +122,7 @@
       "360",
       "720"
     ],
-    "jawaban": "B",
+    "jawaban": "C",
     "pembahasan": "Ini adalah permutasi karena urutan buku yang disusun penting. $P(6, 3) = \\frac{6!}{(6-3)!} = \\frac{6!}{3!} = 6 \\times 5 \\times 4 = 120$."
   },
   {
@@ -156,53 +156,127 @@
   {
     "id": 92,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata nilai ulangan suatu kelas adalah 75. Jika nilai rata-rata siswa laki-laki adalah 70 dan nilai rata-rata siswa perempuan adalah 80, serta jumlah siswa laki-laki 10 orang lebih banyak dari siswa perempuan, maka jumlah siswa perempuan adalah...",
+    "pertanyaan": "Rata-rata nilai ulangan suatu kelas yang terdiri dari 30 siswa adalah 75. Jika nilai rata-rata siswa laki-laki adalah 70 dan nilai rata-rata siswa perempuan adalah 80, maka jumlah siswa perempuan adalah...",
     "pilihan": [
       "10",
+      "12",
       "15",
-      "20",
-      "25",
-      "30"
+      "18",
+      "20"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Misalkan L = jumlah siswa laki-laki, P = jumlah siswa perempuan.\nTotal siswa = L + P = 30. Jadi L = 30 - P.\nTotal nilai kelas = 30 * 75 = 2250.\nTotal nilai laki-laki = 70 * L. Total nilai perempuan = 80 * P.\n70L + 80P = 2250.\nSubstitusikan L = 30 - P:\n70(30 - P) + 80P = 2250.\n2100 - 70P + 80P = 2250.\n10P = 2250 - 2100.\n10P = 150.\nP = 15.\nJumlah siswa perempuan adalah 15."
+  },
+  {
+    "id": 93,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah kotak berisi 5 bola merah, 3 bola kuning, dan 2 bola hijau. Jika diambil 3 bola sekaligus secara acak, peluang terambil 1 merah, 1 kuning, dan 1 hijau adalah...",
+    "pilihan": [
+      "1/4",
+      "1/10",
+      "1/12",
+      "1/15",
+      "1/20"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Total bola = $5+3+2 = 10$. Banyak cara mengambil 3 bola dari 10 adalah $C(10, 3) = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$. \nBanyak cara mengambil 1 merah dari 5 = $C(5, 1) = 5$. \nBanyak cara mengambil 1 kuning dari 3 = $C(3, 1) = 3$. \nBanyak cara mengambil 1 hijau dari 2 = $C(2, 1) = 2$. \nBanyak cara terambil 1 merah, 1 kuning, 1 hijau = $5 \\times 3 \\times 2 = 30$. \nPeluang = $30/120 = 1/4$."
+  },
+  {
+    "id": 94,
+    "kategori": "Sulit",
+    "pertanyaan": "Peluang kejadian A adalah 0.5, peluang kejadian B adalah 0.6. Jika A dan B adalah kejadian saling bebas, peluang A atau B terjadi adalah...",
+    "pilihan": [
+      "0.1",
+      "0.3",
+      "0.8",
+      "0.9",
+      "0.95"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Karena A dan B saling bebas, $P(A \\cap B) = P(A) \\times P(B) = 0.5 \\times 0.6 = 0.3$. \nPeluang A atau B terjadi = $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.5 + 0.6 - 0.3 = 1.1 - 0.3 = 0.8$."
+  },
+  {
+    "id": 95,
+    "kategori": "Sulit",
+    "pertanyaan": "Simpangan baku dari data 2, 4, 6, 8, 10 adalah...",
+    "pilihan": [
+      "$\\sqrt{5}$",
+      "$\\sqrt{8}$",
+      "$\\sqrt{10}$",
+      "$\\sqrt{12}$",
+      "$\\sqrt{15}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rata-rata ($\\bar{x}$) = $\\frac{2+4+6+8+10}{5} = \\frac{30}{5} = 6$. \nVariansi ($S^2$) = $\\frac{(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2}{5}$ \n$S^2 = \\frac{(-4)^2 + (-2)^2 + 0^2 + 2^2 + 4^2}{5} = \\frac{16 + 4 + 0 + 4 + 16}{5} = \\frac{40}{5} = 8$. \nSimpangan baku = $\\sqrt{8}$."
+  },
+  {
+    "id": 96,
+    "kategori": "Sulit",
+    "pertanyaan": "Berapa banyak bilangan 4 digit berbeda yang dapat dibentuk dari angka 0, 1, 2, 3, 4 jika angka pertama tidak boleh 0?",
+    "pilihan": [
+      "24",
+      "48",
+      "72",
+      "96",
+      "120"
     ],
     "jawaban": "D",
-    "pembahasan": "Misalkan $L$ = jumlah siswa laki-laki, $P$ = jumlah siswa perempuan. \nTotal nilai kelas = $75(L+P)$. \nTotal nilai laki-laki = $70L$. Total nilai perempuan = $80P$. \n$75(L+P) = 70L + 80P$. \n$75L + 75P = 70L + 80P$. \n$5L = 5P \\implies L = P$. \nIni bertentangan dengan informasi 'jumlah siswa laki-laki 10 orang lebih banyak dari siswa perempuan'. Berarti ada kesalahan dalam soal atau pemahaman. \n\n**Revisi Soal ID 92:**\nRata-rata nilai ulangan suatu kelas adalah 75. Jika nilai rata-rata siswa laki-laki adalah 70 dan nilai rata-rata siswa perempuan adalah 80, serta jumlah siswa laki-laki 10 orang lebih banyak dari siswa perempuan, maka jumlah siswa perempuan adalah...\nPilihan: [10, 15, 20, 25, 30]\n\n**Pembahasan Revisi:**\nMisalkan $L$ = jumlah siswa laki-laki, $P$ = jumlah siswa perempuan. \n$L = P + 10$. \nTotal nilai kelas = $75(L+P) = 75((P+10)+P) = 75(2P+10)$. \nTotal nilai laki-laki = $70L = 70(P+10)$. \nTotal nilai perempuan = $80P$. \n$75(2P+10) = 70(P+10) + 80P$. \n$150P + 750 = 70P + 700 + 80P$. \n$150P + 750 = 150P + 700$. \n$750 = 700$. (Ini tidak mungkin, berarti ada yang salah dalam angka soal ini. Saya akan ganti angkanya.)\n\n**Revisi Soal ID 92 (agar menghasilkan jawaban yang ada di opsi):**\nRata-rata nilai ulangan suatu kelas adalah 75. Jika nilai rata-rata siswa laki-laki adalah 70 dan nilai rata-rata siswa perempuan adalah 80, serta jumlah siswa laki-laki dua kali jumlah siswa perempuan, maka jumlah siswa perempuan adalah...\nPilihan: [10, 15, 20, 25, 30]\n\n**Pembahasan Revisi:**\nMisalkan $L$ = jumlah siswa laki-laki, $P$ = jumlah siswa perempuan. \n$L = 2P$. \nTotal nilai kelas = $75(L+P) = 75(2P+P) = 75(3P) = 225P$. \nTotal nilai laki-laki = $70L = 70(2P) = 140P$. \nTotal nilai perempuan = $80P$. \n$225P = 140P + 80P$. \n$225P = 220P$. Ini juga tidak mungkin kecuali $P=0$.\n\nOk, saya akan membuat soal baru yang valid dan menghasilkan salah satu jawaban. \n\n**Soal ID 92 (baru):**\nRata-rata nilai ulangan suatu kelas adalah 78. Jika nilai rata-rata siswa laki-laki adalah 75 dan nilai rata-rata siswa perempuan adalah 80, serta jumlah siswa laki-laki dua kali jumlah siswa perempuan, maka jumlah siswa perempuan adalah...\nPilihan: [10, 15, 20, 25, 30]\nJawaban: (akan dihitung)\n\n**Pembahasan untuk soal baru:**\nMisalkan $L$ = jumlah siswa laki-laki, $P$ = jumlah siswa perempuan. \n$L = 2P$. \nTotal nilai kelas = $78(L+P) = 78(2P+P) = 78(3P) = 234P$. \nTotal nilai laki-laki = $75L = 75(2P) = 150P$. \nTotal nilai perempuan = $80P$. \n$234P = 150P + 80P$. \n$234P = 230P$. Ini juga tidak mungkin. \n\nSaya akan menggunakan pendekatan lain. Misalkan $P$ jumlah perempuan dan $L$ jumlah laki-laki.
-$P_L = 70$, $P_P = 80$, $P_{total} = 75$.
-$L = P + 10$.
-$75 = \frac{70L + 80P}{L+P}$
-$75(L+P) = 70L + 80P$
-$75L + 75P = 70L + 80P$
-$5L = 5P \Rightarrow L = P$.
-Ini adalah kontradiksi dengan $L=P+10$.
-Jadi, soal ini tidak memiliki solusi. Saya akan membuat soal lain yang masuk akal dan jawabannya ada di pilihan.
-
-**Soal ID 92 (final revisi):**
-Rata-rata nilai ulangan suatu kelas adalah 76. Jika nilai rata-rata siswa laki-laki adalah 70 dan nilai rata-rata siswa perempuan adalah 80, serta jumlah siswa laki-laki dan perempuan sama banyak, maka jumlah total siswa dalam kelas bisa berupa... (Misal ada 20 siswa)
-Pilihan: [10, 15, 20, 25, 30]
-Jawaban: C (20)
-Pembahasan:
-Misalkan $L$ = jumlah siswa laki-laki, $P$ = jumlah siswa perempuan.
-Jika $L=P$, maka $76(L+P) = 70L + 80P \Rightarrow 76(2L) = 70L + 80L \Rightarrow 152L = 150L \Rightarrow 2L = 0 \Rightarrow L=0$. Ini juga tidak masuk akal.
-
-Okay, ini adalah masalah yang sering muncul dalam pembuatan soal, di mana angka-angka yang diberikan tidak konsisten. Saya akan mengubah premis soal agar bisa dipecahkan.
-
-**Soal ID 92 (revisi total):**
-Rata-rata nilai ulangan suatu kelas yang terdiri dari 30 siswa adalah 75. Jika nilai rata-rata siswa laki-laki adalah 70 dan nilai rata-rata siswa perempuan adalah 80, maka jumlah siswa perempuan adalah...
-Pilihan: [10, 12, 15, 18, 20]
-Jawaban: B (15)
-
-**Pembahasan untuk soal revisi total:**
-Misalkan $L$ = jumlah siswa laki-laki, $P$ = jumlah siswa perempuan.
-Total siswa = $L+P = 30$. Jadi $L = 30 - P$.
-Total nilai kelas = $30 \\times 75 = 2250$.
-Total nilai laki-laki = $70L$. Total nilai perempuan = $80P$.
-$70L + 80P = 2250$.
-Substitusikan $L = 30 - P$:
-$70(30-P) + 80P = 2250$.
-$2100 - 70P + 80P = 2250$.
-$10P = 2250 - 2100$.
-$10P = 150$.
-$P = 15$.
-Jumlah siswa perempuan adalah 15.
-
-Saya akan menggunakan soal revisi total ini, karena ini adalah soal yang konsisten dan bisa dipecahkan.
-
+    "pembahasan": "Untuk digit pertama (ribuan), ada 4 pilihan (1, 2, 3, 4) karena tidak boleh 0. \nUntuk digit kedua (ratusan), ada 4 pilihan (total 5 angka dikurangi 1 angka yang sudah dipakai). \nUntuk digit ketiga (puluhan), ada 3 pilihan. \nUntuk digit keempat (satuan), ada 2 pilihan. \nBanyaknya bilangan = $4 \\times 4 \\times 3 \\times 2 = 96$."
+  },
+  {
+    "id": 97,
+    "kategori": "Sulit",
+    "pertanyaan": "Dari sebuah kotak yang berisi 6 bola merah dan 4 bola putih, diambil 2 bola satu per satu tanpa pengembalian. Peluang terambil bola pertama putih dan bola kedua merah adalah...",
+    "pilihan": [
+      "4/15",
+      "8/45",
+      "1/15",
+      "1/5",
+      "2/5"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Total bola = 10. \nPeluang terambil bola pertama putih = $4/10 = 2/5$. \nSetelah pengambilan pertama, sisa bola = 9 (6 merah, 3 putih). \nPeluang terambil bola kedua merah = $6/9 = 2/3$. \nPeluang kedua kejadian = $(2/5) \\times (2/3) = 4/15$."
+  },
+  {
+    "id": 98,
+    "kategori": "Sulit",
+    "pertanyaan": "Seorang atlet memanah mengenai target adalah 0.6. Jika ia memanah 5 kali, peluang ia mengenai target tepat 3 kali adalah...",
+    "pilihan": [
+      "0.2304",
+      "0.3456",
+      "0.6000",
+      "0.6630",
+      "0.7680"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah distribusi binomial. $n=5$, $k=3$, $p=0.6$, $q=0.4$. \n$P(X=3) = C(5, 3) \\times (0.6)^3 \\times (0.4)^{(5-3)}$\n$C(5, 3) = \\frac{5!}{3!2!} = 10$.\n$P(X=3) = 10 \\times (0.216) \\times (0.16) = 10 \\times 0.03456 = 0.3456$."
+  },
+  {
+    "id": 99,
+    "kategori": "Sulit",
+    "pertanyaan": "Rata-rata 4 bilangan adalah 15. Jika bilangan $p$ ditambahkan, rata-rata menjadi 16. Nilai $p$ adalah...",
+    "pilihan": [
+      "18",
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Jumlah 4 bilangan awal = $4 \\times 15 = 60$. \nSetelah $p$ ditambahkan, jumlah bilangan menjadi 5. Rata-rata baru = 16. \nJumlah 5 bilangan = $5 \\times 16 = 80$. \nNilai $p = 80 - 60 = 20$."
+  },
+  {
+    "id": 100,
+    "kategori": "Sulit",
+    "pertanyaan": "Peluang suatu kejadian A adalah 0.4. Peluang suatu kejadian B adalah 0.7. Jika A dan B tidak saling lepas, dan peluang A atau B terjadi adalah 0.8, maka peluang A dan B terjadi adalah...",
+    "pilihan": [
+      "0.1",
+      "0.2",
+      "0.3",
+      "0.4",
+      "0.5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Gunakan rumus peluang gabungan: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$.\n$0.8 = 0.4 + 0.7 - P(A \\cap B)$.\n$0.8 = 1.1 - P(A \\cap B)$.\n$P(A \\cap B) = 1.1 - 0.8 = 0.3$."
+  }
+]
