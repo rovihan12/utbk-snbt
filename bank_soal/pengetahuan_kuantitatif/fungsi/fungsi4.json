@@ -1,1 +1,283 @@
+[
+  {
+    "id": 61,
+    "kategori": "Sedang",
+    "pertanyaan": "Tentukan nilai $x$ dari persamaan $5x - 7 = 3x + 9$.",
+    "pilihan": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Kumpulkan suku-suku $x$ di satu sisi dan konstanta di sisi lain.\\n$5x - 3x = 9 + 7$\\n$2x = 16$\\n$x = \\frac{16}{2}$\\n$x = 8$"
+  },
+  {
+    "id": 62,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = 3x+5$, maka nilai dari $f(-2)$ adalah...",
+    "pilihan": [
+      "-1",
+      "1",
+      "3",
+      "5",
+      "11"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Substitusikan $x = -2$ ke dalam fungsi $f(x)$.\\n$f(-2) = 3(-2) + 5$\\n$f(-2) = -6 + 5$\\n$f(-2) = -1$"
+  },
+  {
+    "id": 63,
+    "kategori": "Sedang",
+    "pertanyaan": "Faktor dari persamaan kuadrat $x^2 - 7x + 10 = 0$ adalah...",
+    "pilihan": [
+      "$(x-2)(x-5)$",
+      "$(x+2)(x+5)$",
+      "$(x-2)(x+5)$",
+      "$(x+2)(x-5)$",
+      "$(x-1)(x-10)$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk memfaktorkan $x^2 - 7x + 10 = 0$, cari dua bilangan yang jika dikalikan hasilnya 10 dan jika dijumlahkan hasilnya -7. Bilangan-bilangan tersebut adalah -2 dan -5.\\nJadi, faktornya adalah $(x-2)(x-5)$."
+  },
+  {
+    "id": 64,
+    "kategori": "Sedang",
+    "pertanyaan": "Gradien garis yang melalui titik $(2, 3)$ dan $(4, 7)$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rumus gradien ($m$) yang melalui dua titik $(x_1, y_1)$ dan $(x_2, y_2)$ adalah $m = \\frac{y_2 - y_1}{x_2 - x_1}$.\\n$m = \\frac{7 - 3}{4 - 2}$\\n$m = \\frac{4}{2}$\\n$m = 2$"
+  },
+  {
+    "id": 65,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai dari $2^3 + 3^2 - 4^1$ adalah...",
+    "pilihan": [
+      "7",
+      "10",
+      "13",
+      "15",
+      "17"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Hitung setiap suku:\\n$2^3 = 2 \\times 2 \\times 2 = 8$\\n$3^2 = 3 \\times 3 = 9$\\n$4^1 = 4$\\nKemudian, jumlahkan dan kurangkan:\\n$8 + 9 - 4 = 17 - 4 = 13$"
+  },
+  {
+    "id": 66,
+    "kategori": "Sedang",
+    "pertanyaan": "Himpunan penyelesaian dari $x - 4 \\le 1$ adalah...",
+    "pilihan": [
+      "$x \\le 3$",
+      "$x \\ge 3$",
+      "$x \\le 5$",
+      "$x \\ge 5$",
+      "$x = 5$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Tambahkan 4 ke kedua sisi pertidaksamaan.\\n$x - 4 + 4 \\le 1 + 4$\\n$x \\le 5$"
+  },
+  {
+    "id": 67,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika keliling persegi panjang adalah 24 cm dan panjangnya 7 cm, maka lebarnya adalah...",
+    "pilihan": [
+      "3 cm",
+      "5 cm",
+      "7 cm",
+      "10 cm",
+      "12 cm"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rumus keliling persegi panjang ($K$) adalah $K = 2(p+l)$, di mana $p$ adalah panjang dan $l$ adalah lebar.\\nDiberikan $K = 24$ cm dan $p = 7$ cm.\\n$24 = 2(7 + l)$\\n$12 = 7 + l$\\n$l = 12 - 7$\\n$l = 5$ cm"
+  },
+  {
+    "id": 68,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai dari $\\log_2 8 + \\log_3 9$ adalah...",
+    "pilihan": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "jawaban": "D",
+    "pembahasan": "$\\log_2 8 = y \\Rightarrow 2^y = 8 \\Rightarrow 2^y = 2^3 \\Rightarrow y = 3$.\\n$\\log_3 9 = z \\Rightarrow 3^z = 9 \\Rightarrow 3^z = 3^2 \\Rightarrow z = 2$.\\nMaka, $3 + 2 = 5$."
+  },
+  {
+    "id": 69,
+    "kategori": "Sedang",
+    "pertanyaan": "Persamaan garis lurus yang bergradien 3 dan melalui titik $(1, 2)$ adalah...",
+    "pilihan": [
+      "$y = 3x - 1$",
+      "$y = 3x + 1$",
+      "$y = 3x + 2$",
+      "$y = 3x - 2$",
+      "$y = x + 3$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Gunakan rumus $y - y_1 = m(x - x_1)$, di mana $m$ adalah gradien dan $(x_1, y_1)$ adalah titik yang dilalui.\\n$y - 2 = 3(x - 1)$\\n$y - 2 = 3x - 3$\\n$y = 3x - 3 + 2$\\n$y = 3x - 1$"
+  },
+  {
+    "id": 70,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 0 & 5 \\\\ 1 & -2 \\end{pmatrix}$, maka $A+B$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 2 & 6 \\\\ 4 & 2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 5 \\\\ 3 & 2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 6 \\\\ 3 & 2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 4 \\\\ 4 & 2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 6 \\\\ 4 & 6 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk menambahkan dua matriks, tambahkan elemen-elemen yang bersesuaian.\\n$A+B = \\begin{pmatrix} 2+0 & 1+5 \\\\ 3+1 & 4+(-2) \\end{pmatrix} = \\begin{pmatrix} 2 & 6 \\\\ 4 & 2 \\end{pmatrix}$"
+  },
+  {
+    "id": 71,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = x^2 - 3x + 2$ dan $g(x) = 2x - 1$, tentukan $(g \\circ f)(x)$.",
+    "pilihan": [
+      "$2x^2 - 6x + 3$",
+      "$2x^2 - 6x + 5$",
+      "$2x^2 - 3x + 1$",
+      "$x^2 - 6x + 3$",
+      "$4x^2 - 10x + 7$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "$(g \\circ f)(x) = g(f(x))$.\\nSubstitusikan $f(x)$ ke dalam $g(x)$.\\n$g(f(x)) = 2(x^2 - 3x + 2) - 1$\\n$= 2x^2 - 6x + 4 - 1$\\n$= 2x^2 - 6x + 3$"
+  },
+  {
+    "id": 72,
+    "kategori": "Sulit",
+    "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $\\frac{x-1}{x+2} \\ge 0$.",
+    "pilihan": [
+      "$x \\le -2$ atau $x \\ge 1$",
+      "$x < -2$ atau $x \\ge 1$",
+      "$x \\le -2$ atau $x > 1$",
+      "$-2 < x \\le 1$",
+      "$x > -2$ dan $x < 1$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Untuk $\\frac{x-1}{x+2} \\ge 0$, kita perlu mempertimbangkan tanda dari pembilang dan penyebut.\\nPembuat nol pembilang: $x-1=0 \\Rightarrow x=1$.\\nPembuat nol penyebut: $x+2=0 \\Rightarrow x=-2$. Perhatikan bahwa $x \\ne -2$ karena penyebut tidak boleh nol.\\nUji interval:\\n- Jika $x < -2$ (misal $x=-3$): $\\frac{-3-1}{-3+2} = \\frac{-4}{-1} = 4 \\ge 0$ (Benar)\\n- Jika $-2 < x < 1$ (misal $x=0$): $\\frac{0-1}{0+2} = \\frac{-1}{2} = -0.5 < 0$ (Salah)\\n- Jika $x \\ge 1$ (misal $x=2$): $\\frac{2-1}{2+2} = \\frac{1}{4} = 0.25 \\ge 0$ (Benar)\\nJadi, himpunan penyelesaiannya adalah $x < -2$ atau $x \\ge 1$."
+  },
+  {
+    "id": 73,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\frac{x+1}{x-1}$, maka $f^{-1}(x)$ adalah...",
+    "pilihan": [
+      "$\\frac{x+1}{x-1}$",
+      "$\\frac{x-1}{x+1}$",
+      "$\\frac{x-1}{1-x}$",
+      "$\\frac{1-x}{x-1}$",
+      "$\\frac{x+1}{1-x}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Misalkan $y = f(x)$.\\n$y = \\frac{x+1}{x-1}$\\n$y(x-1) = x+1$\\n$yx - y = x+1$\\n$yx - x = y+1$\\n$x(y-1) = y+1$\\n$x = \\frac{y+1}{y-1}$\\nJadi, $f^{-1}(x) = \\frac{x+1}{x-1}$."
+  },
+  {
+    "id": 74,
+    "kategori": "Sulit",
+    "pertanyaan": "Penyelesaian dari sistem persamaan linear $2x + y = 7$ dan $x - 2y = 1$ adalah...",
+    "pilihan": [
+      "$x=3, y=1$",
+      "$x=1, y=3$",
+      "$x=2, y=3$",
+      "$x=3, y=2$",
+      "$x=4, y=-1$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Gunakan metode eliminasi atau substitusi.\\nDari persamaan (2): $x - 2y = 1 \\Rightarrow x = 1 + 2y$.\\nSubstitusikan $x$ ke persamaan (1):\\n$2(1 + 2y) + y = 7$\\n$2 + 4y + y = 7$\\n$2 + 5y = 7$\\n$5y = 5$\\n$y = 1$\\nSubstitusikan $y=1$ ke $x = 1 + 2y$:\\n$x = 1 + 2(1)$\\n$x = 1 + 2$\\n$x = 3$\\nJadi, penyelesaiannya adalah $x=3$ dan $y=1$."
+  },
+  {
+    "id": 75,
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ adalah...",
+    "pilihan": [
+      "0",
+      "2",
+      "4",
+      "tidak ada",
+      "$\\infty$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pertama, faktorkan pembilang.\\n$x^2 - 4 = (x-2)(x+2)$.\\nMaka, $\\lim_{x \\to 2} \\frac{(x-2)(x+2)}{x - 2}$.\\nKarena $x \\to 2$, $x \\ne 2$, jadi $(x-2)$ dapat dicoret.\\n$\\lim_{x \\to 2} (x+2) = 2+2 = 4$."
+  },
+  {
+    "id": 76,
+    "kategori": "Sulit",
+    "pertanyaan": "Turunan pertama dari $f(x) = (2x+1)^3$ adalah...",
+    "pilihan": [
+      "$3(2x+1)^2$",
+      "$2(2x+1)^2$",
+      "$6(2x+1)^2$",
+      "$3(2x+1)^3$",
+      "$2(2x+1)^3$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Gunakan aturan rantai: Jika $f(x) = [u(x)]^n$, maka $f'(x) = n[u(x)]^{n-1} \\cdot u'(x)$.\\nDi sini, $u(x) = 2x+1$ dan $n=3$.\\n$u'(x) = \\frac{d}{dx}(2x+1) = 2$.\\n$f'(x) = 3(2x+1)^{3-1} \\cdot 2$\\n$f'(x) = 3(2x+1)^2 \\cdot 2$\\n$f'(x) = 6(2x+1)^2$"
+  },
+  {
+    "id": 77,
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai $x$ yang memenuhi persamaan $\\log_2 (x-1) + \\log_2 (x+1) = 3$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "$\\sqrt{10}$",
+      "$\\sqrt{17}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Gunakan sifat logaritma $\\log_b M + \\log_b N = \\log_b (MN)$.\\n$\\log_2 ((x-1)(x+1)) = 3$\\n$\\log_2 (x^2 - 1) = 3$\\nUbah ke bentuk eksponensial: $b^y = x$.\\n$2^3 = x^2 - 1$\\n$8 = x^2 - 1$\\n$x^2 = 9$\\n$x = \\pm 3$\\nPeriksa domain logaritma: $x-1 > 0 \\Rightarrow x > 1$ dan $x+1 > 0 \\Rightarrow x > -1$. Jadi, $x > 1$.\\nMaka, $x=3$ adalah satu-satunya solusi yang valid."
+  },
+  {
+    "id": 78,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah lingkaran berpusat di $(0,0)$ dan melalui titik $(3,4)$. Persamaan lingkaran tersebut adalah...",
+    "pilihan": [
+      "$x^2 + y^2 = 5$",
+      "$x^2 + y^2 = 9$",
+      "$x^2 + y^2 = 16$",
+      "$x^2 + y^2 = 25$",
+      "$x^2 + y^2 = 36$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Persamaan lingkaran dengan pusat $(0,0)$ adalah $x^2 + y^2 = r^2$, di mana $r$ adalah jari-jari.\\nJari-jari adalah jarak dari pusat $(0,0)$ ke titik $(3,4)$.\\n$r = \\sqrt{(3-0)^2 + (4-0)^2}$\\n$r = \\sqrt{3^2 + 4^2}$\\n$r = \\sqrt{9 + 16}$\\n$r = \\sqrt{25}$\\n$r = 5$\\nMaka, persamaan lingkarannya adalah $x^2 + y^2 = 5^2$, yaitu $x^2 + y^2 = 25$."
+  },
+  {
+    "id": 79,
+    "kategori": "Sulit",
+    "pertanyaan": "Integrasi dari $\\int (3x^2 - 2x + 1) dx$ adalah...",
+    "pilihan": [
+      "$x^3 - x^2 + x + C$",
+      "$x^3 - x^2 + C$",
+      "$6x - 2 + C$",
+      "$x^3 - 2x^2 + x + C$",
+      "$3x^3 - 2x^2 + x + C$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Gunakan aturan integral daya: $\\int x^n dx = \\frac{1}{n+1}x^{n+1} + C$.\\n$\\int 3x^2 dx = 3 \\cdot \\frac{1}{2+1}x^{2+1} = 3 \\cdot \\frac{1}{3}x^3 = x^3$\\n$\\int -2x dx = -2 \\cdot \\frac{1}{1+1}x^{1+1} = -2 \\cdot \\frac{1}{2}x^2 = -x^2$\\n$\\int 1 dx = x$\\nJadi, $\\int (3x^2 - 2x + 1) dx = x^3 - x^2 + x + C$."
+  },
+  {
+    "id": 80,
+    "kategori": "Sulit",
+    "pertanyaan": "Peluang munculnya jumlah mata dadu 7 saat melempar dua dadu sekaligus adalah...",
+    "pilihan": [
+      "$\\frac{1}{36}$",
+      "$\\frac{1}{18}$",
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{7}{36}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Jumlah semua kemungkinan hasil saat melempar dua dadu adalah $6 \\times 6 = 36$.\\nPasangan yang jumlahnya 7 adalah: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$. Ada 6 pasangan.\\nPeluang = (Jumlah hasil yang diinginkan) / (Jumlah semua kemungkinan hasil)\\nPeluang = $\\frac{6}{36} = \\frac{1}{6}$."
+  }
+]
 
