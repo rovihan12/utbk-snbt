@@ -130,14 +130,14 @@
     "kategori": "Sedang",
     "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $x^2 - 5x + 6 = 0$.",
     "pilihan": [
-      "$\{2, 3\}$",
+      "$\\{2, 3\\}$",
       "$\\{-2, -3\\}$",
-      "$\{2, -3\\}$",
+      "$\\{2, -3\\}$",
       "$\\{-2, 3\\}$",
-      "$\{1, 6\\}$"
+      "$\\{1, 6\\}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan persamaan kuadrat $x^2 - 5x + 6 = 0$.\\nCari dua bilangan yang jika dikalikan hasilnya 6 dan jika dijumlahkan hasilnya -5. Bilangan tersebut adalah -2 dan -3.\\nJadi, $(x-2)(x-3) = 0$.\\n$x-2 = 0 \\Rightarrow x=2$\\n$x-3 = 0 \\Rightarrow x=3$\\nHimpunan penyelesaiannya adalah $\{2, 3\\}$."
+    "pembahasan": "Faktorkan persamaan kuadrat $x^2 - 5x + 6 = 0$.\\nCari dua bilangan yang jika dikalikan hasilnya 6 dan jika dijumlahkan hasilnya -5. Bilangan tersebut adalah -2 dan -3.\\nJadi, $(x-2)(x-3) = 0$.\\n$x-2 = 0 \\Rightarrow x=2$\\n$x-3 = 0 \\Rightarrow x=3$\\nHimpunan penyelesaiannya adalah $\\{2, 3\\}$."
   },
   {
     "id": 11,
@@ -277,6 +277,6 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan $y = x^2$. Maka persamaan menjadi persamaan kuadrat dalam $y$:\\n$y^2 - 5y + 4 = 0$.\\nFaktorkan persamaan ini: $(y-1)(y-4) = 0$.\\nJadi, $y=1$ atau $y=4$.\\nKembalikan substitusi $y = x^2$:\\nJika $y=1$, maka $x^2 = 1 \\Rightarrow x = 1$ atau $x = -1$.\\nJika $y=4$, maka $x^2 = 4 \\Rightarrow x = 2$ atau $x = -2$.\\nNilai-nilai $x$ yang memenuhi adalah $1, -1, 2, -2$.\\nJumlah semua nilai $x$ adalah $1 + (-1) + 2 + (-2) = 0$."
+    "pembahasan": "Misalkan $y = x^2$. Maka persamaan menjadi persamaan kuadrat dalam $y$:\\n$y^2 - 5y + 4 = 0$.\\nFaktorkan persamaan ini: $(y-1)(y-4) = 0.\\nJadi, $y=1$ atau $y=4$.\\nKembalikan substitusi $y = x^2$:\\nJika $y=1$, maka $x^2 = 1 \\Rightarrow x = 1$ atau $x = -1$.\\nJika $y=4$, maka $x^2 = 4 \\Rightarrow x = 2$ atau $x = -2$.\\nNilai-nilai $x$ yang memenuhi adalah $1, -1, 2, -2$.\\nJumlah semua nilai $x$ adalah $1 + (-1) + 2 + (-2) = 0$."
   }
 ]
