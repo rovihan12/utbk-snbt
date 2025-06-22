@@ -11,7 +11,7 @@
       "21"
     ],
     "jawaban": "B",
-    "pembahasan": "Kita punya sistem persamaan linear:\\n1) $f(1) = a(1) + b = 7 \\Rightarrow a + b = 7$\\n2) $f(3) = a(3) + b = 11 \\Rightarrow 3a + b = 11$\\nKurangkan persamaan (1) dari persamaan (2):\\n$(3a + b) - (a + b) = 11 - 7$\\n$2a = 4 \\Rightarrow a = 2$\\nSubstitusikan $a=2$ ke persamaan (1):\\n$2 + b = 7 \\Rightarrow b = 5$\\nJadi, fungsi $f(x) = 2x + 5$.\\nMaka, $f(5) = 2(5) + 5 = 10 + 5 = 15$."
+    "pembahasan": "Kita punya sistem persamaan linear:\\n$1) f(1) = a(1) + b = 7 \\Rightarrow a + b = 7$\\n$2) f(3) = a(3) + b = 11 \\Rightarrow 3a + b = 11$\\nKurangkan persamaan (1) dari persamaan (2):\\n$(3a + b) - (a + b) = 11 - 7$\\n$2a = 4 \\Rightarrow a = 2$\\nSubstitusikan $a=2$ ke persamaan (1):\\n$2 + b = 7 \\Rightarrow b = 5$\\nJadi, fungsi $f(x) = 2x + 5$.\\nMaka, $f(5) = 2(5) + 5 = 10 + 5 = 15$"
   },
   {
     "id": 22,
@@ -25,7 +25,7 @@
       "$\\frac{49}{4}$"
     ],
     "jawaban": "D",
-    "pembahasan": "Untuk persamaan kuadrat $ax^2 + bx + c = 0$:\\n$x_1 + x_2 = -\\frac{b}{a} = -\\frac{(-3)}{2} = \\frac{3}{2}$\\n$x_1 x_2 = \\frac{c}{a} = \\frac{-5}{2}$\\nNilai dari $x_1^2 + x_2^2$ dapat dicari dengan rumus $(x_1 + x_2)^2 - 2x_1 x_2$.\\n$x_1^2 + x_2^2 = (\\frac{3}{2})^2 - 2(-\\frac{5}{2})$\\n$= \\frac{9}{4} - (-5)$\\n$= \\frac{9}{4} + 5 = \\frac{9}{4} + \\frac{20}{4} = \\frac{29}{4}$."
+    "pembahasan": "Untuk persamaan kuadrat $ax^2 + bx + c = 0$:\\n$x_1 + x_2 = -\\frac{b}{a} = -\\frac{(-3)}{2} = \\frac{3}{2}$\\n$x_1 x_2 = \\frac{c}{a} = \\frac{-5}{2}$\\nNilai dari $x_1^2 + x_2^2$ dapat dicari dengan rumus $(x_1 + x_2)^2 - 2x_1 x_2$.\\n$x_1^2 + x_2^2 = (\\frac{3}{2})^2 - 2(-\\frac{5}{2})$\\n$= \\frac{9}{4} - (-5)$\\n$= \\frac{9}{4} + 5 = \\frac{9}{4} + \\frac{20}{4} = \\frac{29}{4}$"
   },
   {
     "id": 23,
@@ -39,7 +39,7 @@
       "$-4 < x < 3$"
     ],
     "jawaban": "C",
-    "pembahasan": "Pertidaksamaan $\\frac{x+3}{x-4} < 0$ akan bernilai negatif jika pembilang dan penyebut memiliki tanda yang berbeda.\\nPembuat nol pembilang: $x+3 = 0 \\Rightarrow x=-3$\\nPembuat nol penyebut: $x-4 = 0 \\Rightarrow x=4$\\nUji titik pada garis bilangan:\\n- Jika $x < -3$ (misal $x=-4$): $\\frac{-4+3}{-4-4} = \\frac{-1}{-8} = \\frac{1}{8} > 0$ (Salah)\\n- Jika $-3 < x < 4$ (misal $x=0$): $\\frac{0+3}{0-4} = \\frac{3}{-4} < 0$ (Benar)\\n- Jika $x > 4$ (misal $x=5$): $\\frac{5+3}{5-4} = \\frac{8}{1} = 8 > 0$ (Salah)\\nJadi, himpunan penyelesaiannya adalah $-3 < x < 4$."
+    "pembahasan": "Pertidaksamaan $\\frac{x+3}{x-4} < 0$ akan bernilai negatif jika pembilang dan penyebut memiliki tanda yang berbeda.\\nPembuat nol pembilang: $x+3 = 0 \\Rightarrow x=-3$\\nPembuat nol penyebut: $x-4 = 0 \\Rightarrow x=4$\\nUji titik pada garis bilangan:\\n- Jika $x < -3$ (misal $x=-4$): $\\frac{-4+3}{-4-4} = \\frac{-1}{-8} = \\frac{1}{8} > 0$ (Salah)\\n- Jika $-3 < x < 4$ (misal $x=0$): $\\frac{0+3}{0-4} = \\frac{3}{-4} < 0$ (Benar)\\n- Jika $x > 4$ (misal $x=5$): $\\frac{5+3}{5-4} = \\frac{8}{1} = 8 > 0$ (Salah)\\nJadi, himpunan penyelesaiannya adalah $-3 < x < 4$"
   },
   {
     "id": 24,
@@ -53,7 +53,7 @@
       "$\\frac{x-3}{2x}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan $y = f(x)$.\\n$y = \\frac{3x}{x-2}$\\n$y(x-2) = 3x$\\n$yx - 2y = 3x$\\n$yx - 3x = 2y$\\n$x(y-3) = 2y$\\n$x = \\frac{2y}{y-3}$\\nJadi, $f^{-1}(x) = \\frac{2x}{x-3}$."
+    "pembahasan": "Misalkan $y = f(x)$.\\n$y = \\frac{3x}{x-2}$\\n$y(x-2) = 3x$\\n$yx - 2y = 3x$\\n$yx - 3x = 2y$\\n$x(y-3) = 2y$\\n$x = \\frac{2y}{y-3}$\\nJadi, $f^{-1}(x) = \\frac{2x}{x-3}$"
   },
   {
     "id": 25,
@@ -67,7 +67,7 @@
       "$(2, -3)$"
     ],
     "jawaban": "B",
-    "pembahasan": "Untuk fungsi kuadrat $y = ax^2 + bx + c$, koordinat titik puncak $(x_p, y_p)$ diberikan oleh:\\n$x_p = -\\frac{b}{2a}$\\n$y_p = f(x_p)$ atau $y_p = \\frac{D}{-4a}$ dengan $D = b^2 - 4ac$.\\nDalam $y = x^2 + 2x - 3$, $a=1$, $b=2$, $c=-3$.\\n$x_p = -\\frac{2}{2(1)} = -1$\\nSubstitusikan $x_p = -1$ ke dalam fungsi untuk mencari $y_p$:\\n$y_p = (-1)^2 + 2(-1) - 3 = 1 - 2 - 3 = -4$\\nJadi, titik puncaknya adalah $(-1, -4)$."
+    "pembahasan": "Untuk fungsi kuadrat $y = ax^2 + bx + c$, koordinat titik puncak $(x_p, y_p)$ diberikan oleh:\\n$x_p = -\\frac{b}{2a}$\\n$y_p = f(x_p)$ atau $y_p = \\frac{D}{-4a}$ dengan $D = b^2 - 4ac$.\\nDalam $y = x^2 + 2x - 3$, $a=1$, $b=2$, $c=-3$.\\n$x_p = -\\frac{2}{2(1)} = -1$\\nSubstitusikan $x_p = -1$ ke dalam fungsi untuk mencari $y_p$:\\n$y_p = (-1)^2 + 2(-1) - 3 = 1 - 2 - 3 = -4$\\nJadi, titik puncaknya adalah $(-1, -4)$"
   },
   {
     "id": 26,
@@ -81,7 +81,7 @@
       "$x < 4$"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubah basis menjadi sama:\\n$2^{2x-1} > (2^3)^{x-3}$\\n$2^{2x-1} > 2^{3(x-3)}$\\nKarena basisnya ($2$) lebih besar dari 1, kita bisa langsung membandingkan eksponennya tanpa mengubah arah pertidaksamaan:\\n$2x - 1 > 3(x-3)$\\n$2x - 1 > 3x - 9$\\n$-1 + 9 > 3x - 2x$\\n$8 > x$\\nJadi, $x < 8$."
+    "pembahasan": "Ubah basis menjadi sama:\\n$2^{2x-1} > (2^3)^{x-3}$\\n$2^{2x-1} > 2^{3(x-3)}$\\nKarena basisnya ($2$) lebih besar dari 1, kita bisa langsung membandingkan eksponennya tanpa mengubah arah pertidaksamaan:\\n$2x - 1 > 3(x-3)$\\n$2x - 1 > 3x - 9$\\n$-1 + 9 > 3x - 2x$\\n$8 > x$\\nJadi, $x < 8$"
   },
   {
     "id": 27,
@@ -95,7 +95,7 @@
       "$x+3$"
     ],
     "jawaban": "A",
-    "pembahasan": "Kita tahu bahwa $(f \\circ g)(x) = f(g(x))$.\\nJadi, $f(g(x)) = (g(x))^2 - 4$.\\nDiberikan $f(g(x)) = x^2 + 2x - 3$.\\nMaka, $(g(x))^2 - 4 = x^2 + 2x - 3$\\n$(g(x))^2 = x^2 + 2x - 3 + 4$\\n$(g(x))^2 = x^2 + 2x + 1$\\n$(g(x))^2 = (x+1)^2$\\nSehingga, $g(x) = x+1$ (kita ambil yang positif)."
+    "pembahasan": "Kita tahu bahwa $(f \\circ g)(x) = f(g(x))$.\\nJadi, $f(g(x)) = (g(x))^2 - 4$.\\nDiberikan $f(g(x)) = x^2 + 2x - 3$.\\nMaka, $(g(x))^2 - 4 = x^2 + 2x - 3$\\n$(g(x))^2 = x^2 + 2x - 3 + 4$\\n$(g(x))^2 = x^2 + 2x + 1$\\n$(g(x))^2 = (x+1)^2$\\nSehingga, $g(x) = x+1$"
   },
   {
     "id": 28,
@@ -109,7 +109,7 @@
       "$x=3$ atau $x=-3$"
     ],
     "jawaban": "B",
-    "pembahasan": "Perhatikan bahwa $x^2 - 2x + 1 = (x-1)^2$.\\nJadi, persamaan menjadi $\\sqrt{(x-1)^2} = 3$.\\n$|x-1| = 3$.\\nIni berarti ada dua kemungkinan:\\n1) $x-1 = 3 \\Rightarrow x = 4$\\n2) $x-1 = -3 \\Rightarrow x = -2$\\nJadi, nilai $x$ yang memenuhi adalah $x=-2$ atau $x=4$."
+    "pembahasan": "Perhatikan bahwa $x^2 - 2x + 1 = (x-1)^2$.\\nJadi, persamaan menjadi $\\sqrt{(x-1)^2} = 3$.\\n$|x-1| = 3$.\\nIni berarti ada dua kemungkinan:\\n1) $x-1 = 3 \\Rightarrow x = 4$\\n2) $x-1 = -3 \\Rightarrow x = -2$\\nJadi, nilai $x$ yang memenuhi adalah $x=-2$ atau $x=4$"
   },
   {
     "id": 29,
@@ -123,7 +123,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Faktorkan $2^x$:\\n$2^x \\cdot 2^1 + 2^x \\cdot 2^{-1} = 20$\\n$2^x (2 + \\frac{1}{2}) = 20$\\n$2^x (\\frac{4}{2} + \\frac{1}{2}) = 20$\\n$2^x (\\frac{5}{2}) = 20$\\n$2^x = 20 \\times \\frac{2}{5}$\\n$2^x = 4 \\times 2$\\n$2^x = 8$\\n$2^x = 2^3$\\n$x = 3$."
+    "pembahasan": "Faktorkan $2^x$:\\n$2^x \\cdot 2^1 + 2^x \\cdot 2^{-1} = 20$\\n$2^x (2 + \\frac{1}{2}) = 20$\\n$2^x (\\frac{4}{2} + \\frac{1}{2}) = 20$\\n$2^x (\\frac{5}{2}) = 20$\\n$2^x = 20 \\times \\frac{2}{5}$\\n$2^x = 4 \\times 2$\\n$2^x = 8$\\n$2^x = 2^3$\\n$x = 3$"
   },
   {
     "id": 30,
@@ -137,7 +137,7 @@
       "Semua bilangan real"
     ],
     "jawaban": "E",
-    "pembahasan": "Pertidaksamaan $x^2 - 6x + 9 \\ge 0$ dapat difaktorkan menjadi $(x-3)^2 \\ge 0$.\\nKarena kuadrat dari bilangan real selalu lebih besar atau sama dengan nol, maka $(x-3)^2$ akan selalu $\\ge 0$ untuk setiap nilai $x$ real.\\nJadi, himpunan penyelesaiannya adalah semua bilangan real."
+    "pembahasan": "Pertidaksamaan $x^2 - 6x + 9 \\ge 0$ dapat difaktorkan menjadi $(x-3)^2 \\ge 0$.\\nKarena kuadrat dari bilangan real selalu lebih besar atau sama dengan nol, maka $(x-3)^2$ akan selalu $\\ge 0$ untuk setiap nilai $x$ real.\\nJadi, himpunan penyelesaiannya adalah semua bilangan real"
   },
   {
     "id": 31,
@@ -151,75 +151,7 @@
       "$\\{-1\\}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari $(f \\circ g)(x)$:\\n$(f \\circ g)(x) = f(g(x)) = f(x+1) = (x+1)^2 = x^2 + 2x + 1$.\\nKemudian, cari $(g \\circ f)(x)$:\\n$(g \\circ f)(x) = g(f(x)) = g(x^2) = x^2 + 1$.\\nSetarakan kedua fungsi:\\n$x^2 + 2x + 1 = x^2 + 1$\\n$2x = 0$\\n$x = 0$.\\nJadi, himpunan penyelesaiannya adalah $\\{0\\}$."
-  },
-  {
-    "id": 32,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (2m+1)x + (m+3) = 0$. Jika $x_1^2 + x_2^2 = 13$, maka nilai $m$ adalah...",
-    "pilihan": [
-      "$1$ atau $2$",
-      "$-1$ atau $2$",
-      "$1$ atau $-2$",
-      "$-1$ atau $-2$",
-      "$2$ atau $3$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Dari persamaan kuadrat $x^2 - (2m+1)x + (m+3) = 0$:\\n$x_1 + x_2 = -( -(2m+1) ) = 2m+1$\\n$x_1 x_2 = m+3$\\nDiketahui $x_1^2 + x_2^2 = 13$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(2m+1)^2 - 2(m+3) = 13$\\n$(4m^2 + 4m + 1) - (2m + 6) = 13$\\n$4m^2 + 4m + 1 - 2m - 6 - 13 = 0$\\n$4m^2 + 2m - 18 = 0$\\nBagi dengan 2:\\n$2m^2 + m - 9 = 0$\\nGunakan rumus ABC atau faktorkan. Untuk faktorisasi:\\n$(2m+?)(m-?) = 0$\\nCari dua bilangan yang dikalikan -9, dan 2x salah satunya ditambah 1x yang lain hasilnya 1.\\n$(2m+?) = 0$ dan $(m-?) = 0$\\nJika kita coba $m = -2$: $2(-2)^2 + (-2) - 9 = 2(4) - 2 - 9 = 8 - 2 - 9 = -3 \\ne 0$. (Ada kesalahan pada contoh sebelumnya, mari kita faktorkan dengan benar)\n\nMari kita periksa faktorisasi ulang atau gunakan rumus kuadrat.\n$2m^2 + m - 9 = 0$\nDiskriminan $D = b^2 - 4ac = 1^2 - 4(2)(-9) = 1 + 72 = 73$. Akar-akarnya tidak rasional. Ada kesalahan dalam contoh jawaban saya sebelumnya. Mari periksa pilihan ganda.\n\nJika $m=1$: $2(1)^2 + 1 - 9 = 2 + 1 - 9 = -6 \\ne 0$\nJika $m=2$: $2(2)^2 + 2 - 9 = 2(4) + 2 - 9 = 8 + 2 - 9 = 1 \\ne 0$\nJika $m=-1$: $2(-1)^2 + (-1) - 9 = 2 - 1 - 9 = -8 \\ne 0$\nJika $m=-2$: $2(-2)^2 + (-2) - 9 = 2(4) - 2 - 9 = 8 - 2 - 9 = -3 \\ne 0$\n\nSepertinya ada kesalahan pada pilihan ganda atau perhitungan awal saya. Mari kita pastikan ulang perhitungan $x_1^2 + x_2^2 = 13$.\n\n$(2m+1)^2 - 2(m+3) = 13$\n$4m^2 + 4m + 1 - 2m - 6 = 13$\n$4m^2 + 2m - 5 = 13$\n$4m^2 + 2m - 18 = 0$\\n$2m^2 + m - 9 = 0$\n\nCoba pilihan $m=1$ atau $m=-2$ lagi, tapi jika pilihan jawaban memang 'B'. Ada kemungkinan soal aslinya berbeda. Mari kita ubah soal atau pilihan jika memang tidak ada yang cocok.\n\n**Asumsi soal ini salah ketik dan seharusnya $x_1^2 + x_2^2 = 10$.**\n$(2m+1)^2 - 2(m+3) = 10$\n$4m^2 + 4m + 1 - 2m - 6 = 10$\n$4m^2 + 2m - 5 = 10$\n$4m^2 + 2m - 15 = 0$\nFaktorkan: $(2m-3)(2m+5) = 0$\n$2m-3=0 \\Rightarrow m = \\frac{3}{2}$\n$2m+5=0 \\Rightarrow m = -\\frac{5}{2}$\n\n**Jika pilihan B adalah jawaban yang benar, maka soal aslinya mungkin $x_1^2 + x_2^2 = 7$.**\n$(2m+1)^2 - 2(m+3) = 7$\n$4m^2 + 4m + 1 - 2m - 6 = 7$\n$4m^2 + 2m - 5 = 7$\n$4m^2 + 2m - 12 = 0$\n$2m^2 + m - 6 = 0$\n$(2m-3)(m+2) = 0$\n$2m-3=0 \\Rightarrow m = \\frac{3}{2}$\n$m+2=0 \\Rightarrow m = -2$\n\n**Jika pilihan B adalah jawaban yang benar (yaitu -1 atau 2), maka perhitungan saya haruslah:**\n$2m^2 + m - 9 = 0$\nIni menghasilkan $m = \\frac{-1 \\pm \\sqrt{73}}{4}$. Ini tidak sesuai dengan -1 atau 2. Saya akan memperbaiki kunci jawaban dan pembahasan agar sesuai dengan salah satu pilihan yang ada.\n\n**Revisi Soal:** Jika $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (2m+1)x + (m+3) = 0$. Jika $x_1^2 + x_2^2 = 6$, maka nilai $m$ adalah...\n$4m^2 + 2m - 5 = 6$\n$4m^2 + 2m - 11 = 0$. Ini juga tidak bagus.\n\n**Mari kita modifikasi soal agar pilihan B menjadi benar (m=-1 atau m=2).**\nJika $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (2m+1)x + m^2+3 = 0$. Jika $x_1^2 + x_2^2 = 13$, maka nilai $m$ adalah...\n$x_1+x_2 = 2m+1$\n$x_1x_2 = m^2+3$\n$(2m+1)^2 - 2(m^2+3) = 13$\n$4m^2 + 4m + 1 - 2m^2 - 6 = 13$\n$2m^2 + 4m - 5 = 13$\n$2m^2 + 4m - 18 = 0$\n$m^2 + 2m - 9 = 0$\nIni juga tidak menghasilkan -1 atau 2.\n\n**Saya akan mengubah contoh soal ini agar sesuai dengan jawaban B**\n**Pertanyaan Revisi:** Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+1)x + (2m-2) = 0$. Jika $x_1^2 + x_2^2 = 17$, maka nilai $m$ adalah...\n$x_1+x_2 = m+1$\n$x_1x_2 = 2m-2$\n$(m+1)^2 - 2(2m-2) = 17$\n$m^2 + 2m + 1 - 4m + 4 = 17$\n$m^2 - 2m + 5 = 17$\n$m^2 - 2m - 12 = 0$\n\nIni masih belum menghasilkan -1 atau 2. Mari kita coba dengan jawaban -1 atau 2. Jika $m=-1$, $x_1^2+x_2^2 = (-1+1)^2 - 2(2(-1)-2) = 0 - 2(-4) = 8$. Tidak 13.\nJika $m=2$, $x_1^2+x_2^2 = (2+1)^2 - 2(2(2)-2) = 3^2 - 2(2) = 9 - 4 = 5$. Tidak 13.\n\n**Baik, saya akan membuat soal baru yang pasti menghasilkan jawaban B**\n**Pertanyaan Baru:** Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+3)x + (m+2) = 0$. Jika $x_1^2 + x_2^2 = 5$, maka nilai $m$ adalah...\n$x_1+x_2 = m+3$\n$x_1x_2 = m+2$\n$(m+3)^2 - 2(m+2) = 5$\n$m^2 + 6m + 9 - 2m - 4 = 5$\n$m^2 + 4m + 5 = 5$\n$m^2 + 4m = 0$\n$m(m+4) = 0$\n$m=0$ atau $m=-4$. Ini tidak ada di pilihan.\n\n**Saya akan kembali ke soal aslinya, dan akan memperbaiki jawabannya jika memang tidak ada di pilihan.**\nSoal: Diketahui persamaan kuadrat $x^2 - (2m+1)x + (m+3) = 0$. Jika $x_1^2 + x_2^2 = 13$, maka nilai $m$ adalah...\nPertanyaan: $4m^2 + 2m - 18 = 0 \\Rightarrow 2m^2 + m - 9 = 0$\nAkar-akar persamaan $2m^2 + m - 9 = 0$ adalah $m = \\frac{-1 \\pm \\sqrt{1^2 - 4(2)(-9)}}{2(2)} = \\frac{-1 \\pm \\sqrt{1 + 72}}{4} = \\frac{-1 \\pm \\sqrt{73}}{4}$.\nKarena ini tidak sesuai dengan pilihan, saya akan **mengubah soal agar sesuai dengan pilihan jawaban 'B' yaitu $m=-1$ atau $m=2$.**\n\n**Soal yang dijamin memiliki jawaban 'B':**\nDiketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+1)x + (m-1) = 0$. Jika $x_1^2 + x_2^2 = 5$, maka nilai $m$ adalah...\n$x_1+x_2 = m+1$\n$x_1x_2 = m-1$\n$(m+1)^2 - 2(m-1) = 5$\n$m^2 + 2m + 1 - 2m + 2 = 5$\n$m^2 + 3 = 5$\n$m^2 = 2 \\Rightarrow m = \\pm \\sqrt{2}$. Ini juga tidak sesuai.\n\n**Oke, ini yang terbaik. Kita akan buat soal yang langsung mengarah ke $m=-1$ atau $m=2$.**\n**Pertanyaan Revisi Final:** Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+3)x + (m^2+2) = 0$. Jika $x_1^2 + x_2^2 = 7$, maka nilai $m$ adalah...\n$x_1+x_2 = m+3$\n$x_1x_2 = m^2+2$\n$(m+3)^2 - 2(m^2+2) = 7$\n$m^2 + 6m + 9 - 2m^2 - 4 = 7$\n$-m^2 + 6m + 5 = 7$\n$-m^2 + 6m - 2 = 0$\n$m^2 - 6m + 2 = 0$\nIni juga tidak menghasilkan integer. Ini sangat sulit untuk membuat soal terbalik.\n\n**Saya akan kembali ke soal awal dan memperbaiki pilihan jawabannya saja** agar sesuai dengan hasil hitungan: $m = \\frac{-1 \\pm \\sqrt{73}}{4}$. Pilihan ganda harus mencerminkan itu jika soal dan jawaban tidak ingin diubah.\n\n**Solusi paling mudah adalah mengubah nilai target $x_1^2 + x_2^2$ agar $m$ menjadi bulat.**\nMisal $x_1^2 + x_2^2 = 5$\n$4m^2 + 2m - 18 = 5 \Rightarrow 4m^2 + 2m - 23 = 0$. Masih sulit.\n\nMisal $x_1^2 + x_2^2 = 9$\n$4m^2 + 2m - 18 = 9 \Rightarrow 4m^2 + 2m - 27 = 0$. Masih sulit.\n\nSaya akan menggunakan soal yang *saya tahu* hasilnya bulat.\\nSoal yang baru untuk nomor 32.
-    "id": 32,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (2m+1)x + (m+2) = 0$. Jika $x_1^2 + x_2^2 = 1$, maka nilai $m$ adalah...",
-    "pilihan": [
-      "$1$ atau $2$",
-      "$-1$ atau $2$",
-      "$1$ atau $-2$",
-      "$-1$ atau $-2$",
-      "$2$ atau $3$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Dari persamaan kuadrat $x^2 - (2m+1)x + (m+2) = 0$:\\n$x_1 + x_2 = -\\frac{b}{a} = -( -(2m+1) ) = 2m+1$\\n$x_1 x_2 = \\frac{c}{a} = m+2$\\nDiketahui $x_1^2 + x_2^2 = 1$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(2m+1)^2 - 2(m+2) = 1$\\n$(4m^2 + 4m + 1) - (2m + 4) = 1$\\n$4m^2 + 4m + 1 - 2m - 4 - 1 = 0$\\n$4m^2 + 2m - 4 = 0$\\nBagi dengan 2:\\n$2m^2 + m - 2 = 0$\\nGunakan rumus ABC: $m = \\frac{-1 \\pm \\sqrt{1^2 - 4(2)(-2)}}{2(2)} = \\frac{-1 \\pm \\sqrt{1 + 16}}{4} = \\frac{-1 \\pm \\sqrt{17}}{4}$.\\nIni masih belum menghasilkan bilangan bulat. Ada masalah dalam penyesuaian soal agar menghasilkan pilihan yang ada. Sepertinya ada kesalahpahaman dalam pembuatan contoh soal nomor 32 di permintaan sebelumnya.\n\n**Saya akan kembali ke soal asli dan mencoba menyesuaikan nilai yang sama dengan pilihan B ($m=-1$ atau $m=2$).**\n**Asumsi ulang soal:** Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (2m+1)x + (m+3) = 0$. Jika $x_1^2 + x_2^2 = 13$, maka nilai $m$ adalah...\nJika $m=-1$: $x_1^2 + x_2^2 = (2(-1)+1)^2 - 2(-1+3) = (-1)^2 - 2(2) = 1 - 4 = -3$. Bukan 13.\nJika $m=2$: $x_1^2 + x_2^2 = (2(2)+1)^2 - 2(2+3) = (5)^2 - 2(5) = 25 - 10 = 15$. Bukan 13.\n\n**Kesimpulan: Soal nomor 32 dari respons sebelumnya memiliki ketidakcocokan antara soal dan pilihan jawaban.** Saya akan membuat soal baru yang *pasti* memiliki jawaban $m=-1$ atau $m=2$.\n\n**Nomor 32 (Revisi Total)**
-  },
-  {
-    "id": 32,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+2)x + (2m) = 0$. Jika $x_1^2 + x_2^2 = 4$, maka nilai $m$ adalah...",
-    "pilihan": [
-      "$1$ atau $2$",
-      "$-1$ atau $2$",
-      "$1$ atau $-2$",
-      "$-1$ atau $-2$",
-      "$2$ atau $3$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Dari persamaan kuadrat $x^2 - (m+2)x + (2m) = 0$:\\n$x_1 + x_2 = -\\frac{b}{a} = -( -(m+2) ) = m+2$\\n$x_1 x_2 = \\frac{c}{a} = 2m$\\nDiketahui $x_1^2 + x_2^2 = 4$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(m+2)^2 - 2(2m) = 4$\\n$(m^2 + 4m + 4) - 4m = 4$\\n$m^2 + 4 = 4$\\n$m^2 = 0$\\n$m = 0$. Ini masih belum -1 atau 2.\n\n**Baik, saya akan membuat soal baru dari awal yang memiliki jawaban yang diinginkan.**\n**Nomor 32 (Revisi Kedua Kali)**
-  },
-  {
-    "id": 32,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+3)x + (3m+1) = 0$. Jika $x_1^2 + x_2^2 = 13$, maka nilai $m$ adalah...",
-    "pilihan": [
-      "$1$ atau $2$",
-      "$-1$ atau $2$",
-      "$1$ atau $-2$",
-      "$-1$ atau $-2$",
-      "$2$ atau $3$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Dari persamaan kuadrat $x^2 - (m+3)x + (3m+1) = 0$:\\n$x_1 + x_2 = -\\frac{b}{a} = -( -(m+3) ) = m+3$\\n$x_1 x_2 = \\frac{c}{a} = 3m+1$\\nDiketahui $x_1^2 + x_2^2 = 13$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(m+3)^2 - 2(3m+1) = 13$\\n$(m^2 + 6m + 9) - (6m + 2) = 13$\\n$m^2 + 6m + 9 - 6m - 2 = 13$\\n$m^2 + 7 = 13$\\n$m^2 = 6$\\n$m = \\pm \\sqrt{6}$. Ini juga tidak sesuai dengan pilihan.\n\n**Baik, saya akan berasumsi bahwa contoh soal 32 sebelumnya saya salah baca atau ada error di sana.** Saya akan buat soal baru yang saya jamin akan menghasilkan jawaban di pilihan. Saya akan fokus pada menghasilkan $m=-1$ atau $m=2$.\n\n**Nomor 32 (Revisi Ketiga Kali)**
-  },
-  {
-    "id": 32,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+2)x + (2m+1) = 0$. Jika $x_1^2 + x_2^2 = 5$, maka nilai $m$ adalah...",
-    "pilihan": [
-      "$1$ atau $2$",
-      "$-1$ atau $2$",
-      "$1$ atau $-2$",
-      "$-1$ atau $-2$",
-      "$2$ atau $3$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Dari persamaan kuadrat $x^2 - (m+2)x + (2m+1) = 0$:\\n$x_1 + x_2 = -\\frac{b}{a} = -( -(m+2) ) = m+2$\\n$x_1 x_2 = \\frac{c}{a} = 2m+1$\\nDiketahui $x_1^2 + x_2^2 = 5$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(m+2)^2 - 2(2m+1) = 5$\\n$(m^2 + 4m + 4) - (4m + 2) = 5$\\n$m^2 + 4m + 4 - 4m - 2 = 5$\\n$m^2 + 2 = 5$\\n$m^2 = 3$\\n$m = \\pm \\sqrt{3}$. Ini masih belum sesuai.\n\n**Saya akan membuat soal baru yang *sangat sederhana* agar $m=-1$ atau $m=2$ bisa keluar.**\n**Nomor 32 (Revisi Final & Paling Sederhana):**
+    "pembahasan": "Pertama, cari $(f \\circ g)(x)$:\\n$(f \\circ g)(x) = f(g(x)) = f(x+1) = (x+1)^2 = x^2 + 2x + 1$.\\nKemudian, cari $(g \\circ f)(x)$:\\n$(g \\circ f)(x) = g(f(x)) = g(x^2) = x^2 + 1$.\\nSetarakan kedua fungsi:\\n$x^2 + 2x + 1 = x^2 + 1$\\n$2x = 0$\\n$x = 0$.\\nJadi, himpunan penyelesaiannya adalah $\\{0\\}$"
   },
   {
     "id": 32,
@@ -233,21 +165,7 @@
       "$3$"
     ],
     "jawaban": "C",
-    "pembahasan": "Jika $x_1 = m$ adalah salah satu akar, maka substitusikan $x_1$ ke persamaan:\\n$m^2 - (m+1)m + 2 = 0$\\n$m^2 - m^2 - m + 2 = 0$\\n$-m + 2 = 0 \\Rightarrow m = 2$.\\nDengan $m=2$, persamaan menjadi $x^2 - (2+1)x + 2 = 0 \\Rightarrow x^2 - 3x + 2 = 0$.\\nFaktorkan: $(x-1)(x-2) = 0$.\\nAkar-akarnya adalah $x_1=1$ dan $x_2=2$ (atau sebaliknya). Karena $x_1=m=2$, maka $x_2=1$. Atau jika $x_1=1$, maka $m=1$, sehingga $x^2-2x+2=0$ (diskriminan negatif, tidak ada akar real).\nMari kita pastikan pilihan jawaban dan soal sesuai. Jika $x_1=m$, maka $x_1$ adalah sebuah nilai. Lalu kita mencari $x_2$.\nJika $x_1=m$, maka $x_1=2$. Persamaan $x^2 - 3x + 2 = 0$. Akar-akarnya adalah 1 dan 2. Jika $x_1=2$, maka $x_2=1$. Jadi jawabannya 1.\nIni sesuai dengan pilihan C.\n"
-  },
-  {
-    "id": 33,
-    "kategori": "Sulit",
-    "pertanyaan": "Penyelesaian dari pertidaksamaan $\\frac{x^2 - 4x + 3}{x^2 + x - 6} \\le 0$ adalah...",
-    "pilihan": [
-      "$x \\le -3$ atau $1 \\le x \\le 2$",
-      "$-3 < x < 1$ atau $x > 2$",
-      "$-3 < x \\le 1$ atau $2 < x$",
-      "$-3 < x \\le 1$ atau $x > 2$",
-      "$x < -3$ atau $1 \\le x < 2$"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Faktorkan pembilang dan penyebut:\\nPembilang: $x^2 - 4x + 3 = (x-1)(x-3)$. Pembuat nol: $x=1, x=3$.\\nPenyebut: $x^2 + x - 6 = (x+3)(x-2)$. Pembuat nol: $x=-3, x=2$.\\nJadi, pertidaksamaan menjadi $\\frac{(x-1)(x-3)}{(x+3)(x-2)} \\le 0$.\\nTitik-titik kritis pada garis bilangan adalah $-3, 1, 2, 3$. Ingat bahwa penyebut tidak boleh nol, jadi $x \\ne -3$ dan $x \\ne 2$.\\nUji interval:\\n- $x < -3$ (misal $x=-4$): $\\frac{(-5)(-7)}{(-1)(-6)} = \\frac{35}{6} \\ge 0$ (Salah)\\n- $-3 < x < 1$ (misal $x=0$): $\\frac{(-1)(-3)}{(3)(-2)} = \\frac{3}{-6} = -\\frac{1}{2} \\le 0$ (Benar)\\n- $1 \\le x < 2$ (misal $x=1.5$): $\\frac{(0.5)(-1.5)}{(4.5)(-0.5)} = \\frac{-0.75}{-2.25} = \\frac{1}{3} \\ge 0$ (Salah)\\n- $2 < x \\le 3$ (misal $x=2.5$): $\\frac{(1.5)(-0.5)}{(5.5)(0.5)} = \\frac{-0.75}{2.75} < 0$ (Benar)\\n- $x > 3$ (misal $x=4$): $\\frac{(3)(1)}{(7)(2)} = \\frac{3}{14} \\ge 0$ (Salah)\\n\nDaerah yang memenuhi adalah $-3 < x \\le 1$ atau $2 < x \\le 3$.\n\n**Revisi Pilihan:** Dari pengujian, yang benar adalah $-3 < x \\le 1$ atau $2 < x \\le 3$. Sepertinya ada kesalahan di pilihan E yang asli. Mari kita cek pilihan E yang paling mirip.\\n$x < -3$ atau $1 \\le x < 2$. (Ini salah karena $x=3$ tidak masuk) \\n\nMari kita perbaiki soal atau jawaban agar sesuai.\\n**Pilihan E seharusnya:** $-3 < x \\le 1$ atau $2 < x \\le 3$.\nKarena soal ini UTBK SNBT, pilihan jawaban haruslah ada yang benar. Saya akan mengasumsikan ada sedikit perbedaan dalam soal asli dan pilihan yang diberikan. Untuk memenuhi pilihan E yang ada, saya akan mengubah soal sedikit.\n\n**Soal Revisi untuk nomor 33:** Penyelesaian dari pertidaksamaan $\\frac{x^2 - 4x + 3}{x^2 + x - 6} > 0$ adalah...\nJawabannya akan $x < -3$ atau $1 < x < 2$ atau $x > 3$.\nIni juga tidak cocok.\n\n**Kembali ke soal asli, tapi dengan pilihan jawaban yang akurat:**\n**Jawaban untuk soal asli:** $-3 < x \\le 1$ atau $2 < x \\le 3$. Ini seharusnya menjadi pilihan yang benar.\nKarena tidak ada pilihan yang sama persis, saya akan memilih yang paling mendekati atau ada kemungkinan kesalahan pada soal/pilihan yang Anda berikan. Untuk tujuan latihan, jawaban saya tetap pada hasil perhitungan.\n\n**Saya akan memilih opsi yang paling mendekati jika ada.** Pilihan E: $x < -3$ atau $1 \\le x < 2$. Ini hanya benar sebagian. Mari saya buat ulang soal yang solusinya persis ada di pilihan ganda.\n\n**Nomor 33 (Revisi Final):**
+    "pembahasan": "Jika $x_1 = m$ adalah salah satu akar, maka substitusikan $x_1$ ke persamaan:\\n$m^2 - (m+1)m + 2 = 0$\\n$m^2 - m^2 - m + 2 = 0$\\n$-m + 2 = 0 \\Rightarrow m = 2$.\\nDengan $m=2$, persamaan menjadi $x^2 - (2+1)x + 2 = 0 \\Rightarrow x^2 - 3x + 2 = 0$.\\nFaktorkan: $(x-1)(x-2) = 0$.\\nAkar-akarnya adalah $x_1=1$ dan $x_2=2$ (atau sebaliknya). Karena $x_1=m=2$, maka $x_2=1$."
   },
   {
     "id": 33,
@@ -261,7 +179,7 @@
       "$x < -1$ atau $x > 2$"
     ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan pembilang dan penyebut:\\nPembilang: $x^2 - x - 2 = (x-2)(x+1)$. Pembuat nol: $x=2, x=-1$.\\nPenyebut: $x^2 - 9 = (x-3)(x+3)$. Pembuat nol: $x=3, x=-3$.\\nJadi, pertidaksamaan menjadi $\\frac{(x-2)(x+1)}{(x-3)(x+3)} \\le 0$.\\nTitik-titik kritis pada garis bilangan adalah $-3, -1, 2, 3$. Ingat bahwa penyebut tidak boleh nol, jadi $x \\ne -3$ dan $x \\ne 3$.\\nUji interval:\\n- $x < -3$ (misal $x=-4$): $\\frac{(-6)(-3)}{(-7)(-1)} = \\frac{18}{7} \\ge 0$ (Salah)\\n- $-3 < x \\le -1$ (misal $x=-2$): $\\frac{(-4)(-1)}{(-5)(1)} = \\frac{4}{-5} \\le 0$ (Benar)\\n- $-1 < x < 2$ (misal $x=0$): $\\frac{(-2)(1)}{(-3)(3)} = \\frac{-2}{-9} = \\frac{2}{9} \\ge 0$ (Salah)\\n- $2 \\le x < 3$ (misal $x=2.5$): $\\frac{(0.5)(3.5)}{(-0.5)(5.5)} = \\frac{1.75}{-2.75} \\le 0$ (Benar)\\n- $x > 3$ (misal $x=4$): $\\frac{(2)(5)}{(1)(7)} = \\frac{10}{7} \\ge 0$ (Salah)\\nJadi, himpunan penyelesaiannya adalah $-3 < x \\le -1$ atau $2 \\le x < 3$."
+    "pembahasan": "Faktorkan pembilang dan penyebut:\\nPembilang: $x^2 - x - 2 = (x-2)(x+1)$. Pembuat nol: $x=2, x=-1$.\\nPenyebut: $x^2 - 9 = (x-3)(x+3)$. Pembuat nol: $x=3, x=-3$.\\nJadi, pertidaksamaan menjadi $\\frac{(x-2)(x+1)}{(x-3)(x+3)} \\le 0$.\\nTitik-titik kritis pada garis bilangan adalah $-3, -1, 2, 3$. Ingat bahwa penyebut tidak boleh nol, jadi $x \\ne -3$ dan $x \\ne 3$.\\nUji interval:\\n- $x < -3$ (misal $x=-4$): $\\frac{(-6)(-3)}{(-7)(-1)} = \\frac{18}{7} \\ge 0$ (Salah)\\n- $-3 < x \\le -1$ (misal $x=-2$): $\\frac{(-4)(-1)}{(-5)(1)} = \\frac{4}{-5} \\le 0$ (Benar)\\n- $-1 < x < 2$ (misal $x=0$): $\\frac{(-2)(1)}{(-3)(3)} = \\frac{-2}{-9} = \\frac{2}{9} \\ge 0$ (Salah)\\n- $2 \\le x < 3$ (misal $x=2.5$): $\\frac{(0.5)(3.5)}{(-0.5)(5.5)} = \\frac{1.75}{-2.75} \\le 0$ (Benar)\\n- $x > 3$ (misal $x=4$): $\\frac{(2)(5)}{(1)(7)} = \\frac{10}{7} \\ge 0$ (Salah)\\nJadi, himpunan penyelesaiannya adalah $-3 < x \\le -1$ atau $2 \\le x < 3$"
   },
   {
     "id": 34,
@@ -275,7 +193,7 @@
       "$x=\\pm 1$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari $(g \\circ f)(x)$:\\n$(g \\circ f)(x) = g(f(x)) = g(x^2 - 1) = 2(x^2 - 1) + 1 = 2x^2 - 2 + 1 = 2x^2 - 1$.\\nKemudian, setarakan dengan 7:\\n$2x^2 - 1 = 7$\\n$2x^2 = 8$\\n$x^2 = 4$\\n$x = \\pm 2$."
+    "pembahasan": "Pertama, cari $(g \\circ f)(x)$:\\n$(g \\circ f)(x) = g(f(x)) = g(x^2 - 1) = 2(x^2 - 1) + 1 = 2x^2 - 2 + 1 = 2x^2 - 1$.\\nKemudian, setarakan dengan 7:\\n$2x^2 - 1 = 7$\\n$2x^2 = 8$\\n$x^2 = 4$\\n$x = \\pm 2$"
   },
   {
     "id": 35,
@@ -289,7 +207,7 @@
       "$12$"
     ],
     "jawaban": "B",
-    "pembahasan": "Dari persamaan $x^2 - 5x + c = 0$:\\n$x_1 + x_2 = -\\frac{(-5)}{1} = 5$\\n$x_1 x_2 = \\frac{c}{1} = c$\\nDiketahui $x_1^2 + x_2^2 = 13$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(5)^2 - 2(c) = 13$\\n$25 - 2c = 13$\\n$25 - 13 = 2c$\\n$12 = 2c$\\n$c = 6$."
+    "pembahasan": "Dari persamaan $x^2 - 5x + c = 0$:\\n$x_1 + x_2 = -\\frac{(-5)}{1} = 5$\\n$x_1 x_2 = \\frac{c}{1} = c$\\nDiketahui $x_1^2 + x_2^2 = 13$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\\nSubstitusikan nilai-nilai yang diketahui:\\n$(5)^2 - 2(c) = 13$\\n$25 - 2c = 13$\\n$25 - 13 = 2c$\\n$12 = 2c$\\n$c = 6$"
   },
   {
     "id": 36,
@@ -302,13 +220,13 @@
       "$\\frac{x+1}{2} - 3$",
       "$\\frac{x-5}{2}$"
     ],
-    "jawaban": "C",
+    "jawaban": "D",
     "pembahasan": "Misalkan $y = x-1$, maka $x = y+1$.\\nSubstitusikan $x = y+1$ ke $f(x-1) = 2x+3$:\\n$f(y) = 2(y+1) + 3$\\n$f(y) = 2y + 2 + 3$\\n$f(y) = 2y + 5$\\nJadi, $f(x) = 2x + 5$.\\nUntuk mencari $f^{-1}(x)$, misalkan $z = f(x)$:\\n$z = 2x + 5$\\n$z - 5 = 2x$\\n$x = \\frac{z-5}{2}$\\nMaka, $f^{-1}(x) = \\frac{x-5}{2}$."
   },
   {
     "id": 37,
     "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $|x^2 - 2x - 1| < 2$ adalah...",
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $|x - 1| < \\sqrt{3}$ adalah...",
     "pilihan": [
       "$-1 < x < 3$",
       "$x < -1$ atau $x > 3$",
@@ -317,7 +235,7 @@
       "$(1-\\sqrt{3}) < x < (1+\\sqrt{3})$"
     ],
     "jawaban": "E",
-    "pembahasan": "Pertidaksamaan $|x^2 - 2x - 1| < 2$ dapat dipecah menjadi dua pertidaksamaan:\\n1) $x^2 - 2x - 1 < 2 \\Rightarrow x^2 - 2x - 3 < 0$\\nFaktorkan: $(x-3)(x+1) < 0$. Akar-akar: $x=3, x=-1$. Jadi, $-1 < x < 3$.\\n2) $x^2 - 2x - 1 > -2 \\Rightarrow x^2 - 2x + 1 > 0$\\nFaktorkan: $(x-1)^2 > 0$. Ini benar untuk semua $x$ kecuali $x=1$.\\nIrisan dari kedua solusi adalah:\\nSolusi (1): $(-1, 3)$\\nSolusi (2): $(-\\infty, 1) \\cup (1, \\infty)$\\nIrisan: $(-1, 1) \\cup (1, 3)$.\\n\nPeriksa kembali. Jika pilihan E adalah jawabannya: $(1-\\sqrt{3}) < x < (1+\\sqrt{3})$.\\n$1-\\sqrt{3} \\approx 1-1.732 = -0.732$\\n$1+\\sqrt{3} \\approx 1+1.732 = 2.732$\\nInterval ini adalah $(-0.732, 2.732)$.\\n\nDari $x^2 - 2x - 3 < 0$, hasilnya $-1 < x < 3$.\\nDari $x^2 - 2x + 1 > 0$, hasilnya $x \\ne 1$.\\nIrisannya adalah $(-1, 1) \\cup (1, 3)$.\\n\nSepertinya pilihan ganda tidak sesuai dengan soal yang saya buat. Mari saya ubah soalnya agar sesuai dengan pilihan E.\n\n**Soal Revisi untuk nomor 37:** Himpunan penyelesaian dari pertidaksamaan $|x - 1| < \\sqrt{3}$ adalah...\n**Jawaban:** $-\\sqrt{3} < x-1 < \\sqrt{3}$\\n$1 - \\sqrt{3} < x < 1 + \\sqrt{3}$.\\nIni cocok dengan pilihan E.\n"
+    "pembahasan": "Pertidaksamaan $|x - 1| < \\sqrt{3}$ dapat dipecah menjadi:\\n$-\\sqrt{3} < x-1 < \\sqrt{3}$\\nTambahkan 1 ke semua bagian:\\n$1 - \\sqrt{3} < x < 1 + \\sqrt{3}$"
   },
   {
     "id": 38,
@@ -330,34 +248,8 @@
       "$x=1$ atau $x=\\frac{5}{3}$",
       "$x=2$ atau $x=\\frac{5}{3}$"
     ],
-    "jawaban": "C",
-    "pembahasan": "$f(x) = f(2x-1)$\\n$x^2 - 3x + 5 = (2x-1)^2 - 3(2x-1) + 5$\\n$x^2 - 3x + 5 = (4x^2 - 4x + 1) - (6x - 3) + 5$\\n$x^2 - 3x + 5 = 4x^2 - 4x + 1 - 6x + 3 + 5$\\n$x^2 - 3x + 5 = 4x^2 - 10x + 9$\\nPindahkan semua suku ke satu ruas:\\n$0 = 4x^2 - x^2 - 10x + 3x + 9 - 5$\\n$0 = 3x^2 - 7x + 4$\\nFaktorkan persamaan kuadrat:\\n$(3x-4)(x-1) = 0$\\nJadi, $3x-4=0 \\Rightarrow x=\\frac{4}{3}$ atau $x-1=0 \\Rightarrow x=1$."
-  },
-  {
-    "id": 39,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $x$ dan $y$ adalah solusi dari sistem persamaan $2x - y = 5$ dan $x^2 - y^2 = 5$, maka nilai $x+y$ adalah...",
-    "pilihan": [
-      "$-5$",
-      "$-3$",
-      "$1$",
-      "$3$",
-      "$5$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Dari persamaan pertama, kita bisa nyatakan $y$ dalam $x$: $y = 2x - 5$.\\nSubstitusikan $y$ ke persamaan kedua:\\n$x^2 - (2x-5)^2 = 5$\\n$x^2 - (4x^2 - 20x + 25) = 5$\\n$x^2 - 4x^2 + 20x - 25 = 5$\\n$-3x^2 + 20x - 30 = 0$\\n$3x^2 - 20x + 30 = 0$\\nGunakan rumus ABC untuk mencari $x$: $x = \\frac{-(-20) \\pm \\sqrt{(-20)^2 - 4(3)(30)}}{2(3)}$\\n$x = \\frac{20 \\pm \\sqrt{400 - 360}}{6} = \\frac{20 \\pm \\sqrt{40}}{6} = \\frac{20 \\pm 2\\sqrt{10}}{6} = \\frac{10 \\pm \\sqrt{10}}{3}$.\\nNilai $x$ sangat rumit. Ada kemungkinan cara lain yang lebih sederhana.\\n\nPerhatikan $x^2 - y^2 = (x-y)(x+y)$.\\nKita tahu $2x - y = 5$. Ini bisa ditulis sebagai $y = 2x-5$.\nSepertinya saya salah menginterpretasi persamaan awal. Sistem persamaan linear yang ada adalah $2x-y=5$. Jika $x-y$ bisa ditemukan dari $x^2-y^2=5$.\n\nDari $2x-y=5$, kita tahu $y=2x-5$.\nJika $x-y$ adalah salah satu faktor, kita perlu mencari faktor lainnya.\\n$x^2 - y^2 = 5$\\n$(x-y)(x+y) = 5$.\\n\nKita punya $y = 2x-5$.\\nSubstitusikan $y$ ke dalam $x-y$:\\n$x - (2x-5) = x - 2x + 5 = -x + 5$.\\nJadi, $(-x+5)(x+y) = 5$.\\n\nIni tidak langsung menghasilkan $x+y$. Mari kita coba metode lain.\\nKarena $2x-y=5$, maka $y=2x-5$.\n$(x-y)(x+y) = 5$.\\nJika $x-y$ adalah sebuah konstanta, maka $x+y$ juga.\\nPerhatikan bahwa $2x-y = x + (x-y)$.\\nAtau, $x = y+5/2$, $y = 2x-5$.
-    "id": 39,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $x$ dan $y$ adalah solusi dari sistem persamaan $2x - y = 5$ dan $x^2 - y^2 = 5$, maka nilai $x+y$ adalah...",
-    "pilihan": [
-      "$-5$",
-      "$-3$",
-      "$1$",
-      "$3$",
-      "$5$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita memiliki dua persamaan:\\n1) $2x - y = 5$\\n2) $x^2 - y^2 = 5$\\nPersamaan (2) dapat difaktorkan menjadi $(x-y)(x+y) = 5$.\\nDari persamaan (1), kita bisa tulis $y = 2x - 5$.\\nSubstitusikan $y$ ke persamaan (2):\\n$x^2 - (2x-5)^2 = 5$\\n$x^2 - (4x^2 - 20x + 25) = 5$\\n$x^2 - 4x^2 + 20x - 25 - 5 = 0$\\n$-3x^2 + 20x - 30 = 0$\\n$3x^2 - 20x + 30 = 0$\\nNilai $x$ ini tidak bulat atau sederhana, yang mengindikasikan mungkin ada cara lain atau kesalahan dalam soal. Mari kita gunakan trik yang lebih cerdas.\n\nKita tahu $(x-y)(x+y) = 5$.\nJika $x-y = k$ dan $x+y = j$, maka $kj=5$.\nDari $2x-y=5$, kita bisa manipulasi untuk mendapatkan $x-y$ atau $x+y$.\n\nCoba jumlahkan dan kurangkan persamaan. \nJika kita asumsikan $x-y$ dan $x+y$ adalah solusi integer (karena pilihan jawaban integer).\nKemungkinan faktor dari 5 adalah $(1,5), (5,1), (-1,-5), (-5,-1)$.\n\nKasus 1: $x-y = 1$ dan $x+y = 5$\\nJumlahkan: $2x=6 \\Rightarrow x=3$\\nKurangkan: $2y=4 \\Rightarrow y=2$\\nCek persamaan pertama: $2x-y = 2(3)-2 = 6-2=4 \\ne 5$. (Salah)\n\nKasus 2: $x-y = 5$ dan $x+y = 1$\\nJumlahkan: $2x=6 \\Rightarrow x=3$\\nKurangkan: $2y=-4 \\Rightarrow y=-2$\\nCek persamaan pertama: $2x-y = 2(3)-(-2) = 6+2=8 \\ne 5$. (Salah)\n\nKasus 3: $x-y = -1$ dan $x+y = -5$\\nJumlahkan: $2x=-6 \\Rightarrow x=-3$\\nKurangkan: $2y=-4 \\Rightarrow y=-2$\\nCek persamaan pertama: $2x-y = 2(-3)-(-2) = -6+2=-4 \\ne 5$. (Salah)\n\nKasus 4: $x-y = -5$ dan $x+y = -1$\\nJumlahkan: $2x=-6 \\Rightarrow x=-3$\\nKurangkan: $2y=4 \\Rightarrow y=2$\\nCek persamaan pertama: $2x-y = 2(-3)-2 = -6-2=-8 \\ne 5$. (Salah)\n\nIni menunjukkan bahwa tidak ada solusi integer yang cocok dengan pilihan. Ini berarti ada kemungkinan $x-y$ bukanlah faktor integer dari 5. Mari kita ulangi dari awal dengan substitusi yang lebih teliti.\n\n$y = 2x - 5$\\n$x^2 - (2x-5)^2 = 5$\\n$x^2 - (4x^2 - 20x + 25) = 5$\\n$-3x^2 + 20x - 25 = 5$\\n$-3x^2 + 20x - 30 = 0$\\n$3x^2 - 20x + 30 = 0$\\nDiskriminan $D = (-20)^2 - 4(3)(30) = 400 - 360 = 40$. $x = \\frac{20 \\pm \\sqrt{40}}{6} = \\frac{20 \\pm 2\\sqrt{10}}{6} = \\frac{10 \\pm \\sqrt{10}}{3}$.\\n$y = 2x-5 = 2(\\frac{10 \\pm \\sqrt{10}}{3}) - 5 = \\frac{20 \\pm 2\\sqrt{10}}{3} - \\frac{15}{3} = \\frac{5 \\pm 2\\sqrt{10}}{3}$.\\n\nSekarang kita cari $x+y$:\\n$x+y = (\\frac{10 \\pm \\sqrt{10}}{3}) + (\\frac{5 \\pm 2\\sqrt{10}}{3})$.\nAda dua kemungkinan pasangan $x, y$:\n1) $x = \\frac{10 + \\sqrt{10}}{3}$, $y = \\frac{5 + 2\\sqrt{10}}{3}$\n$x+y = \\frac{10 + \\sqrt{10} + 5 + 2\\sqrt{10}}{3} = \\frac{15 + 3\\sqrt{10}}{3} = 5 + \\sqrt{10}$. Ini tidak ada di pilihan.\n2) $x = \\frac{10 - \\sqrt{10}}{3}$, $y = \\frac{5 - 2\\sqrt{10}}{3}$\n$x+y = \\frac{10 - \\sqrt{10} + 5 - 2\\sqrt{10}}{3} = \\frac{15 - 3\\sqrt{10}}{3} = 5 - \\sqrt{10}$. Ini juga tidak ada di pilihan.\n\n**Kesimpulan: Ada kesalahan pada soal ini (nomor 39) atau pilihan jawabannya tidak sesuai dengan soal yang diberikan.** Saya akan membuat soal baru yang *pasti* memiliki jawaban di pilihan.\n\n**Nomor 39 (Revisi Final):**
+    "jawaban": "B",
+    "pembahasan": "$f(x) = f(2x-1)$\\n$x^2 - 3x + 5 = (2x-1)^2 - 3(2x-1) + 5$\\n$x^2 - 3x + 5 = (4x^2 - 4x + 1) - (6x - 3) + 5$\\n$x^2 - 3x + 5 = 4x^2 - 4x + 1 - 6x + 3 + 5$\\n$x^2 - 3x + 5 = 4x^2 - 10x + 9$\\nPindahkan semua suku ke satu ruas:\\n$0 = 4x^2 - x^2 - 10x + 3x + 9 - 5$\\n$0 = 3x^2 - 7x + 4$\\nFaktorkan persamaan kuadrat:\\n$(3x-4)(x-1) = 0$\\nJadi, $3x-4=0 \\Rightarrow x=\\frac{4}{3}$ atau $x-1=0 \\Rightarrow x=1$"
   },
   {
     "id": 39,
@@ -376,20 +268,6 @@
   {
     "id": 40,
     "kategori": "Sulit",
-    "pertanyaan": "Persamaan kuadrat $x^2 - (p-1)x + 2 = 0$ mempunyai akar-akar $x_1$ dan $x_2$. Jika $x_1 = 2x_2$, maka nilai $p$ adalah...",
-    "pilihan": [
-      "4 atau -1",
-      "5 atau -2",
-      "4 atau -2",
-      "5 atau -1",
-      "6 atau -1"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Dari persamaan $x^2 - (p-1)x + 2 = 0$:\\nJumlah akar-akar: $x_1 + x_2 = -\\frac{-(p-1)}{1} = p-1$\\nHasil kali akar-akar: $x_1 x_2 = \\frac{2}{1} = 2$\\nDiberikan $x_1 = 2x_2$. Substitusikan ini ke persamaan hasil kali akar-akar:\\n$(2x_2)(x_2) = 2$\\n$2x_2^2 = 2$\\n$x_2^2 = 1 \\Rightarrow x_2 = \\pm 1$.\\nJika $x_2 = 1$, maka $x_1 = 2(1) = 2$. Maka $x_1+x_2 = 2+1=3$. Jadi $p-1 = 3 \\Rightarrow p=4$.\\nJika $x_2 = -1$, maka $x_1 = 2(-1) = -2$. Maka $x_1+x_2 = -2+(-1)=-3$. Jadi $p-1 = -3 \\Rightarrow p=-2$. \n\n**Kesimpulan: Soal ini seharusnya menghasilkan $p=4$ atau $p=-2$. Pilihan D adalah 5 atau -1, jadi ada ketidakcocokan.** Saya akan memperbaiki soal atau pilihan. Karena saya menemukan contoh soal sebelumnya sulit cocok dengan pilihan, saya akan membuat soal baru yang *pasti* cocok dengan salah satu pilihan.\n\n**Nomor 40 (Revisi Final):**
-  },
-  {
-    "id": 40,
-    "kategori": "Sulit",
     "pertanyaan": "Persamaan kuadrat $x^2 - px + (p-1) = 0$ mempunyai akar-akar $x_1$ dan $x_2$. Jika $x_1 = x_2 + 3$, maka nilai $p$ adalah...",
     "pilihan": [
       "$4$ atau $-1$",
@@ -398,8 +276,7 @@
       "$5$ atau $-1$",
       "$6$ atau $-1$"
     ],
-    "jawaban": "B",
-    "pembahasan": "Dari persamaan $x^2 - px + (p-1) = 0$:\\nJumlah akar-akar: $x_1 + x_2 = -\\frac{-p}{1} = p$\\nHasil kali akar-akar: $x_1 x_2 = \\frac{p-1}{1} = p-1$\\nDiberikan $x_1 = x_2 + 3$. Substitusikan ini ke persamaan jumlah akar-akar:\\n$(x_2+3) + x_2 = p$\\n$2x_2 + 3 = p \\Rightarrow x_2 = \\frac{p-3}{2}$.\\nSubstitusikan $x_2$ ke persamaan hasil kali akar-akar:\\n$x_1 x_2 = (x_2+3)x_2 = p-1$\\n$(\\frac{p-3}{2}+3)(\\frac{p-3}{2}) = p-1$\\n$(\\frac{p-3+6}{2})(\\frac{p-3}{2}) = p-1$\\n$(\\frac{p+3}{2})(\\frac{p-3}{2}) = p-1$\\n$\\frac{p^2 - 9}{4} = p-1$\\n$p^2 - 9 = 4(p-1)$\\n$p^2 - 9 = 4p - 4$\\n$p^2 - 4p - 5 = 0$\\nFaktorkan: $(p-5)(p+1) = 0$\\nJadi, $p=5$ atau $p=-1$."
+    "jawaban": "D",
+    "pembahasan": "Dari persamaan $x^2 - px + (p-1) = 0$:\\nJumlah akar-akar: $x_1 + x_2 = -\\frac{-p}{1} = p$\\nHasil kali akar-akar: $x_1 x_2 = \\frac{p-1}{1} = p-1$\\nDiberikan $x_1 = x_2 + 3$. Substitusikan ini ke persamaan jumlah akar-akar:\\n$(x_2+3) + x_2 = p$\\n$2x_2 + 3 = p \\Rightarrow x_2 = \\frac{p-3}{2}$.\\nSubstitusikan $x_2$ ke persamaan hasil kali akar-akar:\\n$x_1 x_2 = (x_2+3)x_2 = p-1$\\n$(\\frac{p-3}{2}+3)(\\frac{p-3}{2}) = p-1$\\n$(\\frac{p-3+6}{2})(\\frac{p-3}{2}) = p-1$\\n$(\\frac{p+3}{2})(\\frac{p-3}{2}) = p-1$\\n$\\frac{p^2 - 9}{4} = p-1$\\n$p^2 - 9 = 4(p-1)$\\n$p^2 - 9 = 4p - 4$\\n$p^2 - 4p - 5 = 0$\\nFaktorkan: $(p-5)(p+1) = 0$\\nJadi, $p=5$ atau $p=-1$"
   }
 ]
-
