@@ -16,7 +16,7 @@
   {
     "id": 2,
     "kategori": "Mudah",
-    "pertanyaan": "Diberikan matriks $B = \\begin{pmatrix} 5 & 0 \\\\ -2 & 1 \end{pmatrix}$. Tentukan $2B$.",
+    "pertanyaan": "Diberikan matriks $B = \\begin{pmatrix} 5 & 0 \\\\ -2 & 1 \\end{pmatrix}$. Tentukan $2B$.",
     "pilihan": [
       "$\\begin{pmatrix} 10 & 0 \\\\ -4 & 2 \\end{pmatrix}$",
       "$\\begin{pmatrix} 7 & 2 \\\\ 0 & 3 \\end{pmatrix}$",
@@ -25,7 +25,7 @@
       "$\\begin{pmatrix} 5 & 0 \\\\ -4 & 2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk mengalikan skalar dengan matriks, kalikan setiap elemen dalam matriks dengan skalar tersebut.\\n$2B = 2 \\begin{pmatrix} 5 & 0 \\\\ -2 & 1 \end{pmatrix} = \\begin{pmatrix} 2 \\times 5 & 2 \\times 0 \\\\ 2 \\times -2 & 2 \\times 1 \end{pmatrix} = \\begin{pmatrix} 10 & 0 \\\\ -4 & 2 \end{pmatrix}$."
+    "pembahasan": "Untuk mengalikan skalar dengan matriks, kalikan setiap elemen dalam matriks dengan skalar tersebut.\\n$2B = 2 \\begin{pmatrix} 5 & 0 \\\\ -2 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\times 5 & 2 \\times 0 \\\\ 2 \\times -2 & 2 \\times 1 \\end{pmatrix} = \\begin{pmatrix} 10 & 0 \\\\ -4 & 2 \\end{pmatrix}$."
   },
   {
     "id": 3,
@@ -72,7 +72,7 @@
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} x & 5 \\\\ 3 & 2 \end{pmatrix}$. Jika $det(A) = 7$, maka nilai $x$ adalah...",
+    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} x & 5 \\\\ 3 & 2 \\end{pmatrix}$. Jika $det(A) = 7$, maka nilai $x$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -140,4 +140,3 @@
     "pembahasan": "Kita bisa menghitung $det(A)$ dan $det(B)$ terlebih dahulu, kemudian mengalikannya, karena $det(AB) = det(A) \\times det(B)$.\\n$det(A) = (2 \\times 3) - (1 \\times -1) = 6 - (-1) = 6 + 1 = 7$.\\n$det(B) = (1 \\times 1) - (0 \\times 2) = 1 - 0 = 1$.\\nJadi, $det(AB) = det(A) \\times det(B) = 7 \\times 1 = 7$."
   }
 ]
-
