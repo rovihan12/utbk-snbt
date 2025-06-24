@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 1,
+    "pertanyaan": "Observasi 1: Setiap kali alarm mobil A berbunyi, ada kucing di dekatnya.\nObservasi 2: Setiap kali alarm mobil B berbunyi, ada kucing di dekatnya.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Alarm mobil berbunyi karena ada kucing.", "Setiap kucing memicu alarm mobil.", "Keberadaan kucing selalu berhubungan dengan alarm mobil.", "Alarm mobil sering berbunyi di dekat kucing.", "Kucing dan alarm mobil tidak berhubungan."],
+    "jawaban": "D",
+    "pembahasan": "Dari observasi yang spesifik, kita bisa menyimpulkan pola umum bahwa ada kecenderungan alarm mobil berbunyi ketika kucing berada di dekatnya, namun tidak secara kausal mutlak."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Urutan angka: 2, 4, 6, 8, ...\nAngka selanjutnya dalam urutan ini adalah...",
+    "pilihan": ["9", "10", "11", "12", "13"],
+    "jawaban": "B",
+    "pembahasan": "Pola ini menunjukkan bilangan genap berurutan. Setiap angka adalah hasil penambahan 2 dari angka sebelumnya. Jadi, $8 + 2 = 10$."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Pengamatan: Semua angsa yang pernah saya lihat berwarna putih.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Semua angsa di dunia berwarna putih.", "Angsa berwarna putih adalah jenis angsa yang paling umum.", "Ada kemungkinan besar angsa lain yang akan saya lihat juga berwarna putih.", "Angsa tidak bisa memiliki warna lain selain putih.", "Hanya angsa putih yang saya suka."],
+    "jawaban": "C",
+    "pembahasan": "Penalaran induktif memungkinkan kita menarik kesimpulan umum dari observasi spesifik, namun kesimpulan tersebut bersifat probabilistik dan tidak mutlak. Jadi, ada kemungkinan besar angsa lain juga putih, tetapi tidak pasti semua angsa di dunia putih."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Pola: $\\text{AB}, \\text{CD}, \\text{EF}, \\text{GH}, \\dots$\nPasangan huruf selanjutnya dalam pola ini adalah...",
+    "pilihan": ["HI", "IJ", "KL", "MN", "OP"],
+    "jawaban": "B",
+    "pembahasan": "Pola ini mengikuti urutan abjad secara berpasangan. Setelah $\\text{GH}$, pasangan huruf berikutnya dalam urutan abjad adalah $\\text{IJ}$."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Seorang ilmuwan menguji senyawa X pada 100 tikus. 98 tikus menunjukkan penurunan berat badan signifikan. Dua tikus lainnya tidak menunjukkan perubahan.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": ["Senyawa X menyebabkan penurunan berat badan pada semua tikus.", "Senyawa X tidak efektif.", "Senyawa X sangat mungkin menyebabkan penurunan berat badan pada tikus.", "Senyawa X hanya efektif pada beberapa jenis tikus.", "Penurunan berat badan pada tikus tidak berhubungan dengan senyawa X."],
+    "jawaban": "C",
+    "pembahasan": "Dengan mayoritas tikus menunjukkan respons positif, kesimpulan induktif yang paling kuat adalah senyawa X kemungkinan besar efektif, namun tidak secara absolut karena ada dua pengecualian. Penalaran induktif selalu melibatkan probabilitas."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Seorang koki selalu membuat kue yang enak saat ia menggunakan oven baru. Ia telah menggunakan tiga oven baru yang berbeda dan hasilnya selalu kue yang enak.\n\nKesimpulan induktif yang paling logis adalah...",
+    "pilihan": ["Oven barulah yang membuat kuenya enak.", "Koki itu hanya bisa membuat kue enak dengan oven baru.", "Kemungkinan besar koki itu akan membuat kue enak dengan oven baru lainnya.", "Oven lama tidak bisa membuat kue enak.", "Keahlian koki tidak berpengaruh pada rasa kue."],
+    "jawaban": "C",
+    "pembahasan": "Dari pola konsisten bahwa kue selalu enak dengan oven baru, secara induktif disimpulkan bahwa tren ini kemungkinan besar akan berlanjut dengan oven baru lainnya. Ini adalah generalisasi yang wajar berdasarkan observasi berulang."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Pola: Jika suatu bilangan genap ditambah bilangan genap, hasilnya genap. $2+4=6$, $6+8=14$.\nJika $x$ adalah bilangan genap dan $y$ adalah bilangan genap, maka $x+y$ adalah...",
+    "pilihan": ["Bilangan ganjil", "Bilangan genap", "Bilangan prima", "Bilangan bulat negatif", "Bilangan desimal"],
+    "jawaban": "B",
+    "pembahasan": "Berdasarkan observasi berulang, penjumlahan dua bilangan genap selalu menghasilkan bilangan genap. Ini adalah sifat matematis yang dapat disimpulkan secara induktif dari contoh-contoh spesifik."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Setiap kali Pak Budi memakai topi merah, ia terlihat bahagia. Ini telah diamati selama setahun terakhir pada berbagai kesempatan.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) untuk ditarik adalah...",
+    "pilihan": ["Topi merah adalah penyebab kebahagiaan Pak Budi.", "Pak Budi bahagia setiap kali memakai topi merah.", "Pak Budi hanya memakai topi merah saat ia bahagia.", "Ada hubungan antara topi merah dan kebahagiaan Pak Budi.", "Warna merah membuatnya bahagia."],
+    "jawaban": "A",
+    "pembahasan": "Pilihan A adalah yang paling tricky karena menyiratkan kausalitas langsung (topi merah *menyebabkan* kebahagiaan), padahal observasi hanya menunjukkan korelasi atau asosiasi. Penalaran induktif cenderung mencari korelasi, tetapi tidak selalu menunjukkan sebab-akibat yang pasti."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Pola: $1, 1, 2, 3, 5, 8, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["11", "12", "13", "14", "15"],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deret Fibonacci, di mana setiap angka adalah jumlah dari dua angka sebelumnya. Jadi, $5 + 8 = 13$."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Sebuah kota mengalami peningkatan drastis dalam kejahatan setelah adanya beberapa gerai kopi baru dibuka di pusat kota.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
+    "pilihan": ["Pembukaan gerai kopi menyebabkan peningkatan kejahatan.", "Ada korelasi antara gerai kopi baru dan peningkatan kejahatan.", "Gerai kopi menarik penjahat ke pusat kota.", "Peningkatan kejahatan adalah kebetulan belaka.", "Kejahatan selalu meningkat di kota-kota dengan banyak gerai kopi."],
+    "jawaban": "A",
+    "pembahasan": "Pilihan A adalah yang paling tricky karena secara keliru menyimpulkan hubungan sebab-akibat langsung ('menyebabkan') hanya berdasarkan korelasi atau urutan kejadian. Dalam penalaran induktif, korelasi tidak selalu berarti kausalitas, dan ada faktor-faktor lain yang mungkin terlibat."
+  }
+]
