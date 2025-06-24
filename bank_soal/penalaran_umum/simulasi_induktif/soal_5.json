@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 41,
+    "pertanyaan": "Observasi 1: Setiap kali alarm kebakaran berbunyi di gedung ini, ada latihan evakuasi.\nObservasi 2: Alarm kebakaran baru saja berbunyi.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Ini pasti kebakaran sungguhan.", "Tidak ada latihan evakuasi hari ini.", "Kemungkinan besar akan ada latihan evakuasi.", "Alarm kebakaran selalu berbunyi untuk latihan.", "Alarm kebakaran tidak berfungsi dengan baik."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan pola yang konsisten, berbunyinya alarm kebakaran di gedung tersebut selalu diikuti oleh latihan evakuasi. Oleh karena itu, secara induktif, berbunyinya alarm lagi kemungkinan besar menandakan latihan evakuasi."
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Pola angka: $1, 2, 3, 5, 8, 13, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["18", "20", "21", "24", "26"],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deret Fibonacci, di mana setiap angka adalah jumlah dari dua angka sebelumnya. Jadi, $8 + 13 = 21$."
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Pengamatan: Sebagian besar siswa yang mengikuti klub debat menunjukkan peningkatan kemampuan berbicara di depan umum.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Klub debat adalah satu-satunya cara untuk meningkatkan kemampuan berbicara.", "Klub debat tidak efektif.", "Klub debat kemungkinan besar membantu meningkatkan kemampuan berbicara di depan umum.", "Siswa yang tidak ikut klub debat tidak bisa berbicara di depan umum.", "Kemampuan berbicara tidak bisa ditingkatkan."],
+    "jawaban": "C",
+    "pembahasan": "Dengan sebagian besar anggota klub menunjukkan peningkatan, disimpulkan bahwa klub debat kemungkinan besar berkontribusi pada peningkatan kemampuan tersebut. Ini adalah kesimpulan probabilistik, bukan kepastian mutlak."
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Pola gambar: $/, \\backslash, /, \\backslash, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
+    "pilihan": ["$", "\\backslash$", "$/$", "$||$", "$=$"],
+    "jawaban": "C",
+    "pembahasan": "Pola ini adalah urutan bergantian antara garis miring ke kanan (/) dan garis miring ke kiri (\\). Setelah garis miring ke kiri (\\), simbol selanjutnya adalah garis miring ke kanan (/)."
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Dalam lima survei terakhir, setiap kali gaji karyawan dinaikkan, produktivitas perusahaan juga meningkat.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": ["Kenaikan gaji pasti menyebabkan peningkatan produktivitas.", "Kenaikan gaji tidak ada hubungannya dengan produktivitas.", "Sangat mungkin ada hubungan positif antara kenaikan gaji dan peningkatan produktivitas.", "Produktivitas hanya meningkat jika gaji dinaikkan.", "Survei ini tidak dapat dipercaya."],
+    "jawaban": "C",
+    "pembahasan": "Dari pola yang konsisten, disimpulkan secara induktif bahwa ada kemungkinan besar hubungan positif antara kenaikan gaji dan peningkatan produktivitas, meskipun tidak secara mutlak mengklaim kausalitas langsung."
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Pola kombinasi: $\\text{A1, B2, C3, D4, \\dots}$\nKombinasi selanjutnya dalam pola ini adalah...",
+    "pilihan": ["E4", "E5", "F5", "G6", "H7"],
+    "jawaban": "B",
+    "pembahasan": "Pola ini menggabungkan urutan huruf abjad maju (A, B, C, D, E, ...) dengan urutan angka bertambah 1 (1, 2, 3, 4, 5, ...). Jadi, setelah D4, huruf selanjutnya adalah E dan angka selanjutnya adalah 5, menjadi E5."
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Setiap kali toko roti A membuat roti tawar, mereka selalu habis terjual dalam satu jam. Hal ini terjadi setiap hari selama sebulan terakhir.\n\nKesimpulan induktif yang paling logis adalah...",
+    "pilihan": ["Roti tawar toko A selalu habis dalam satu jam.", "Toko roti A harus membuat lebih banyak roti tawar.", "Kemungkinan besar roti tawar toko A akan terus habis terjual dengan cepat.", "Tidak ada roti tawar lain yang enak di kota ini.", "Permintaan roti tawar akan menurun."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan pola yang sangat konsisten, disimpulkan secara induktif bahwa kecenderungan roti tawar toko A habis terjual dengan cepat kemungkinan besar akan terus berlanjut. Ini adalah generalisasi probabilistik."
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Pola: $1 \\leftarrow, 2 \\rightarrow, 3 \\leftarrow, 4 \\rightarrow, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
+    "pilihan": ["$5 \\leftarrow$", "$5 \\rightarrow$", "$6 \\leftarrow$", "$6 \\rightarrow$", "$7 \\leftarrow$"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini menggabungkan urutan angka bertambah 1 (1, 2, 3, 4, 5, ...) dengan arah panah yang bergantian (kiri, kanan, kiri, kanan, kiri, ...). Jadi, setelah $4 \\rightarrow$, angka selanjutnya adalah 5 dan panahnya ke kiri, menjadi $5 \\leftarrow$."
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Sebuah perusahaan menerapkan kebijakan 'fleksibel jam kerja'. Setelah 3 bulan, mayoritas karyawan melaporkan tingkat stres yang lebih rendah dan kepuasan kerja yang lebih tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
+    "pilihan": ["Fleksibel jam kerja adalah satu-satunya penyebab penurunan stres dan peningkatan kepuasan kerja.", "Ada korelasi antara fleksibel jam kerja dan tingkat stres serta kepuasan kerja.", "Karyawan tidak akan pernah stres jika jam kerjanya fleksibel.", "Fleksibel jam kerja selalu menghasilkan penurunan stres dan kepuasan tinggi.", "Penurunan stres dan kepuasan kerja pasti karena faktor lain."],
+    "jawaban": "A",
+    "pembahasan": "Pilihan A adalah yang paling tricky karena mengklaim kausalitas tunggal dan mutlak ('satu-satunya penyebab'). Meskipun ada korelasi kuat, penalaran induktif berdasarkan mayoritas tidak menjamin hubungan eksklusif; ada faktor lain yang mungkin berkontribusi."
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Pola: $\\text{Kecil, Sedang, Besar, Kecil, Sedang, \\dots}$\nUkuran selanjutnya dalam pola ini adalah...",
+    "pilihan": ["Kecil", "Sedang", "Besar", "Mini", "Jumbo"],
+    "jawaban": "C",
+    "pembahasan": "Pola ini adalah pengulangan dari urutan tiga ukuran: Kecil, Sedang, Besar. Setelah 'Kecil, Sedang', ukuran selanjutnya adalah 'Besar'."
+  }
+]
