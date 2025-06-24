@@ -1,5 +1,4 @@
 [
-[
   {
     "id": "1",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/9.png"
@@ -14,7 +13,8 @@
     "jawaban": "C",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/10.png"
     "pembahasan": "Perhatikan sketsa gambar berikut:\n\nKarena $\\triangle ABC$ siku-siku, maka rumus Pythagoras berlaku.\nMisalkan panjang $AD = x$ cm sehingga $DB = (6 - x)$ cm. Dengan menggunakan teorema perbandingan oleh garis bagi, kita peroleh:\n$\\frac{AD}{DB} = \\frac{AC}{BC}$\n$\\frac{x}{6-x} = \\frac{AC}{BC}$\n\nDari $\\triangle BCD$, karena $CD$ adalah garis bagi, dan $\\angle BCD = \\angle ACD = \\angle C/2$.\nJika $\\angle C = 60^\\circ$ (karena $CD$ adalah garis bagi dan $\\angle B=90^\\circ$, maka $\\angle A=30^\\circ$, sehingga $\\angle C=60^\\circ$), maka $\\angle BCD = 30^\\circ$.\nDalam $\\triangle BCD$, $\\tan 30^\\circ = \\frac{BD}{BC} \\Rightarrow BC = BD/\\tan 30^\\circ = BD / (1/\\sqrt{3}) = BD\\sqrt{3}$.\nDalam $\\triangle ABC$, $\\tan 60^\\circ = \\frac{AB}{BC} \\Rightarrow BC = AB/\\tan 60^\\circ = 6/\\sqrt{3} = 2\\sqrt{3}$.\nJadi, $BD\\sqrt{3} = 2\\sqrt{3} \\Rightarrow BD = 2$ cm.\nDengan demikian, $AD = AB - BD = 6 - 2 = 4$ cm.\n\n**Revisi berdasarkan pembahasan gambar:**\nPembahasan yang diberikan di gambar menggunakan konsep garis bagi dan perbandingan sisi.\nDari gambar, terlihat $\\triangle ABC$ siku-siku di $B$. Panjang $AB=6$.\nMisalkan $\\angle C = 2\\alpha$. Karena $CD$ adalah garis bagi, maka $\\angle BCD = \\angle ACD = \\alpha$.\nDari $\\triangle BCD$: $DB = BC \\tan \\alpha$.\nDari $\\triangle ABC$: $AB = BC \\tan 2\\alpha \\Rightarrow 6 = BC \\tan 2\\alpha$.\n\nDari teorema garis bagi (yang digunakan dalam gambar): $\\frac{AD}{DB} = \\frac{AC}{BC}$.\nKarena $\\triangle ABC$ siku-siku di $B$, $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{6^2 + BC^2}$.\n\n**Pembahasan yang disertakan dalam gambar lebih spesifik dan mungkin mengasumsikan $\\triangle ABC$ adalah segitiga istimewa $30-60-90$.**\nJika $\\angle A = 30^\\circ$ dan $\\angle C = 60^\\circ$, maka $BC = AB/\\tan 60^\\circ = 6/\\sqrt{3} = 2\\sqrt{3}$.\n$AC = 2 \\times BC = 2 \\times 2\\sqrt{3} = 4\\sqrt{3}$.\nJika $\\angle C = 60^\\circ$, maka $\\angle BCD = \\angle ACD = 30^\\circ$.\nDalam $\\triangle BCD$ (siku-siku di B), $DB = BC \\tan 30^\\circ = 2\\sqrt{3} \\times (
-  {
+},
+{
     "id": 2,
     "pertanyaan": "Sebuah segitiga memiliki alas 10 cm. Jika tingginya dua kali panjang alasnya, maka luas segitiga tersebut adalah...",
     "pilihan": [
