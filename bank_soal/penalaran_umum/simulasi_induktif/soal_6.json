@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 51,
+    "pertanyaan": "Observasi 1: Setiap kali saya menekan tombol 'start' pada mesin ini, lampu indikator hijau menyala.\nObservasi 2: Saya baru saja menekan tombol 'start'.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Mesin ini rusak.", "Lampu indikator hijau tidak akan menyala.", "Lampu indikator hijau kemungkinan besar akan menyala.", "Menekan tombol 'start' selalu merusak mesin.", "Lampu indikator tidak berhubungan dengan tombol 'start'."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan pola yang konsisten, menekan tombol 'start' selalu diikuti dengan menyalanya lampu indikator hijau. Oleh karena itu, secara induktif, tindakan menekan tombol 'start' kembali kemungkinan besar akan menyebabkan lampu menyala."
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Pola angka: $1, 3, 7, 15, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["23", "27", "31", "35", "39"],
+    "jawaban": "C",
+    "pembahasan": "Pola ini adalah $2^n - 1$. Atau, setiap angka adalah dua kali angka sebelumnya ditambah 1 ($1 \\times 2 + 1 = 3$; $3 \\times 2 + 1 = 7$; $7 \\times 2 + 1 = 15$). Jadi, $15 \\times 2 + 1 = 31$."
+  },
+  {
+    "id": 53,
+    "pertanyaan": "Pengamatan: Hampir semua produk elektronik merek X yang dijual memiliki garansi yang sangat panjang.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Semua produk merek X memiliki garansi yang sangat panjang.", "Merek X tidak peduli dengan garansi.", "Produk merek X kemungkinan besar memiliki garansi yang panjang.", "Hanya produk elektronik merek X yang memiliki garansi panjang.", "Panjang garansi tidak menunjukkan kualitas produk."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi bahwa sebagian besar produk merek X memiliki garansi panjang, disimpulkan bahwa produk merek X secara umum kemungkinan besar memiliki garansi panjang. Ini adalah kesimpulan probabilistik, bukan kepastian."
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Pola gambar: $/, -, \\backslash, |, /, -, \\backslash, |, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
+    "pilihan": ["$", "-", "\\backslash$", "$|$", "$/$"],
+    "jawaban": "E",
+    "pembahasan": "Pola ini adalah urutan empat simbol yang berulang: garis miring kanan, garis datar, garis miring kiri, dan garis vertikal. Setelah garis vertikal ($|$), simbol selanjutnya adalah garis miring kanan (/)."
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Sepanjang sejarah, setiap kali terjadi krisis ekonomi global, harga emas cenderung meningkat.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": ["Krisis ekonomi pasti menyebabkan harga emas naik.", "Harga emas tidak terpengaruh oleh krisis ekonomi.", "Sangat mungkin ada hubungan positif antara krisis ekonomi global dan kenaikan harga emas.", "Emas adalah satu-satunya investasi yang aman saat krisis.", "Sejarah tidak bisa memprediksi masa depan."],
+    "jawaban": "C",
+    "pembahasan": "Dari pola historis yang konsisten, disimpulkan bahwa ada kemungkinan besar hubungan positif antara krisis ekonomi dan harga emas. Ini adalah inferensi berdasarkan korelasi historis, bukan klaim kausalitas mutlak."
+  },
+  {
+    "id": 56,
+    "pertanyaan": "Pola kombinasi: $\\text{A-Z, B-Y, C-X, \\dots}$\nKombinasi selanjutnya dalam pola ini adalah...",
+    "pilihan": ["D-W", "E-V", "D-X", "E-W", "F-U"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini menggabungkan huruf abjad maju (A, B, C, D, ...) dengan huruf abjad mundur (Z, Y, X, W, ...). Jadi, setelah C-X, huruf maju selanjutnya adalah D dan huruf mundur selanjutnya adalah W, menjadi D-W."
+  },
+  {
+    "id": 57,
+    "pertanyaan": "Setiap kali seorang atlet menggunakan sepatu lari baru, ia mencetak waktu terbaiknya. Ini terjadi pada tiga perlombaan terakhir.\n\nKesimpulan induktif yang paling logis adalah...",
+    "pilihan": ["Sepatu baru pasti membuat atlet lebih cepat.", "Atlet tersebut hanya bisa cepat dengan sepatu baru.", "Kemungkinan besar sepatu lari baru akan membantunya mencetak waktu terbaik lagi.", "Sepatu lama tidak berguna.", "Kecepatan atlet tidak dipengaruhi oleh sepatu."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan pola yang konsisten, disimpulkan secara induktif bahwa penggunaan sepatu lari baru kemungkinan besar akan terus berkorelasi dengan performa terbaik atlet. Ini adalah generalisasi probabilistik."
+  },
+  {
+    "id": 58,
+    "pertanyaan": "Pola: $1 \\rightarrow 2, 2 \\rightarrow 4, 3 \\rightarrow 6, \\dots$\nPasangan angka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["$4 \\rightarrow 7$", "$4 \\rightarrow 8$", "$5 \\rightarrow 9$", "$5 \\rightarrow 10$", "$6 \\rightarrow 12$"],
+    "jawaban": "B",
+    "pembahasan": "Pola ini menunjukkan bahwa angka kedua adalah dua kali lipat dari angka pertama dalam setiap pasangan. Jadi, setelah $3 \\rightarrow 6$, angka pertama selanjutnya adalah 4, dan angka keduanya adalah $4 \\times 2 = 8$, menjadi $4 \\rightarrow 8$."
+  },
+  {
+    "id": 59,
+    "pertanyaan": "Sebuah kota mengamati bahwa setelah program penghijauan masif, jumlah polusi udara diukur menurun secara signifikan.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
+    "pilihan": ["Program penghijauan adalah satu-satunya penyebab penurunan polusi udara.", "Ada korelasi antara program penghijauan dan penurunan polusi udara.", "Polusi udara tidak akan turun tanpa program penghijauan.", "Pohon secara langsung membersihkan semua jenis polusi udara.", "Penurunan polusi udara pasti karena faktor lain yang tidak teramati."],
+    "jawaban": "A",
+    "pembahasan": "Pilihan A adalah yang paling tricky karena mengklaim kausalitas tunggal dan mutlak ('satu-satunya penyebab'). Meskipun ada korelasi kuat, penalaran induktif tidak menjamin bahwa tidak ada faktor lain yang berkontribusi pada penurunan polusi udara."
+  },
+  {
+    "id": 60,
+    "pertanyaan": "Pola: $\\text{Benar, Salah, Benar, Salah, \\dots}$\nStatus pernyataan selanjutnya dalam pola ini adalah...",
+    "pilihan": ["Benar", "Salah", "Mungkin Benar", "Tidak Relevan", "Tidak Dapat Ditentukan"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini adalah urutan bergantian antara 'Benar' dan 'Salah'. Setelah 'Salah', status pernyataan selanjutnya adalah 'Benar'."
+  }
+]
