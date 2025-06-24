@@ -1,0 +1,46 @@
+[
+  {
+    "id": 51,
+    "pertanyaan": "Semua pegawai wajib mengikuti pelatihan. Arif adalah pegawai. Maka...",
+    "pilihan": ["Arif boleh tidak ikut pelatihan", "Arif bukan pegawai", "Arif wajib ikut pelatihan", "Arif sudah mengikuti pelatihan", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Premis: semua pegawai → ikut pelatihan.\nArif adalah pegawai → maka Arif wajib ikut pelatihan."
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Jika seseorang tidak memakai helm, maka dia melanggar peraturan. Dito memakai helm. Maka...",
+    "pilihan": ["Dito melanggar peraturan", "Dito tidak melanggar peraturan", "Dito pengendara", "Tidak bisa disimpulkan", "Dito tertilang"],
+    "jawaban": "D",
+    "pembahasan": "Premis: tidak pakai helm → melanggar\nTapi memakai helm tidak menjamin tidak melanggar (konvers tidak berlaku)."
+  },
+  {
+    "id": 53,
+    "pertanyaan": "Semua rumah di kompleks itu memiliki pagar. Rumah Budi tidak memiliki pagar. Maka...",
+    "pilihan": ["Rumah Budi di kompleks itu", "Budi bukan warga kompleks itu", "Rumah Budi kecil", "Budi tidak punya rumah", "Tidak bisa disimpulkan"],
+    "jawaban": "B",
+    "pembahasan": "Premis: semua rumah di kompleks itu punya pagar.\nRumah Budi tidak punya pagar → maka bukan di kompleks itu (modus tollens)."
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Jika nilai akhir lebih dari 70, maka siswa dinyatakan lulus. Nina dinyatakan tidak lulus. Maka...",
+    "pilihan": ["Nilai Nina 80", "Nina lulus", "Nilai Nina kurang dari 70", "Nina mengulang", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Premis: nilai >70 → lulus\nNina tidak lulus → maka nilai Nina ≤ 70 (modus tollens)."
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Semua buah yang masak berwarna merah. Tomat berwarna merah. Maka...",
+    "pilihan": ["Tomat adalah buah masak", "Tomat bukan buah", "Tomat mentah", "Tidak bisa disimpulkan", "Tomat sayuran"],
+    "jawaban": "D",
+    "pembahasan": "Premis: semua buah masak → merah.\nTomat merah tidak berarti pasti buah masak (konvers tidak valid)."
+  },
+  {
+    "id": 56,
+    "pertanyaan": "Jika seseorang membawa kartu anggota, maka ia boleh masuk. Roni tidak boleh masuk. Maka...",
+    "pilihan": ["Roni tidak punya kartu anggota", "Roni sedang keluar", "Roni anggota VIP", "Tidak bisa disimpulkan", "Roni kehilangan kartu"],
+    "jawaban": "A",
+    "pembahasan": "Premis: punya kartu → boleh masuk.\nRoni tidak boleh masuk → maka dia tidak punya kartu anggota (modus tollens)."
+  },
+  {
+    "id": 57,
+    "pertanyaan": "Semua dosen
