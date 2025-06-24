@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 61,
+    "pertanyaan": "Premis 1: Semua buku di perpustakaan A adalah buku berbahasa Inggris.\nPremis 2: Buku 'The Great Gatsby' ada di perpustakaan A.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buku 'The Great Gatsby' tidak berbahasa Inggris.", "Buku 'The Great Gatsby' mungkin berbahasa Inggris.", "Buku 'The Great Gatsby' pasti berbahasa Inggris.", "Hanya buku 'The Great Gatsby' yang berbahasa Inggris di perpustakaan A.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua buku di perpustakaan A berbahasa Inggris, dan buku 'The Great Gatsby' ada di perpustakaan A, maka secara deduktif, buku 'The Great Gatsby' pasti berbahasa Inggris."
+  },
+  {
+    "id": 62,
+    "pertanyaan": "Premis 1: Jika cuaca dingin, maka saya memakai jaket.\nPremis 2: Saya tidak memakai jaket.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Cuaca dingin.", "Cuaca tidak dingin.", "Saya mungkin memakai jaket meskipun cuaca dingin.", "Memakai jaket selalu berarti cuaca dingin.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika cuaca dingin, maka saya memakai jaket) dan ¬Q (Saya tidak memakai jaket), maka kesimpulannya adalah ¬P (Cuaca tidak dingin). Logikanya, jika cuaca dingin, saya *pasti* memakai jaket. Karena saya tidak memakai jaket, itu berarti cuaca tidak dingin."
+  },
+  {
+    "id": 63,
+    "pertanyaan": "Premis 1: Semua burung dapat terbang.\nPremis 2: Pinguin tidak dapat terbang.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Pinguin adalah burung.", "Pinguin bukan burung.", "Pinguin mungkin burung.", "Hanya burung yang dapat terbang.", "Tidak dapat ditarik kesimpulan tentang pinguin."],
+    "jawaban": "B",
+    "pembahasan": "Premis 1 menyatakan properti universal burung (dapat terbang). Premis 2 menyatakan bahwa pinguin tidak memiliki properti tersebut. Oleh karena itu, secara deduktif, jika pinguin tidak dapat terbang, maka pinguin tidak bisa menjadi burung."
+  },
+  {
+    "id": 64,
+    "pertanyaan": "Premis 1: Setiap hewan yang memiliki insang hidup di air.\nPremis 2: Ikan Hiu hidup di air.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ikan Hiu memiliki insang.", "Ikan Hiu tidak memiliki insang.", "Ikan Hiu mungkin memiliki insang.", "Hanya hewan yang memiliki insang yang hidup di air.", "Tidak dapat ditarik kesimpulan bahwa Ikan Hiu memiliki insang."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika memiliki insang, maka hidup di air) dan Q (Ikan Hiu hidup di air), tidak berarti P (Ikan Hiu memiliki insang). Ada banyak makhluk hidup lain yang hidup di air tetapi tidak memiliki insang (misalnya, paus, lumba-lumba). Premis tidak menyatakan bahwa 'hanya' hewan yang memiliki insang yang hidup di air."
+  },
+  {
+    "id": 65,
+    "pertanyaan": "Premis 1: Semua sayuran hijau mengandung klorofil.\nPremis 2: Bayam adalah sayuran hijau.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bayam tidak mengandung klorofil.", "Bayam mungkin mengandung klorofil.", "Bayam pasti mengandung klorofil.", "Hanya bayam yang mengandung klorofil.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua sayuran hijau mengandung klorofil, dan bayam adalah sayuran hijau, maka bayam pasti mengandung klorofil."
+  },
+  {
+    "id": 66,
+    "pertanyaan": "Premis 1: Jika saya menonton film, maka saya merasa terhibur.\nPremis 2: Saya merasa terhibur.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya menonton film.", "Saya tidak menonton film.", "Saya mungkin menonton film.", "Merasa terhibur berarti menonton film.", "Tidak dapat ditarik kesimpulan bahwa saya menonton film."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika menonton film, maka merasa terhibur) dan Q (Saya merasa terhibur), tidak berarti P (Saya menonton film). Saya bisa merasa terhibur karena alasan lain (misalnya, membaca buku, mendengarkan musik, bermain game). Premis tidak menyatakan bahwa saya *hanya* merasa terhibur jika saya menonton film."
+  },
+  {
+    "id": 67,
+    "pertanyaan": "Premis 1: Beberapa mahasiswa suka menulis.\nPremis 2: Semua yang suka menulis adalah orang yang teliti.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa adalah orang yang teliti.", "Beberapa mahasiswa adalah orang yang teliti.", "Beberapa orang yang teliti bukan mahasiswa.", "Tidak ada mahasiswa yang suka menulis.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1, ada irisan antara 'mahasiswa' dan 'suka menulis'. Premis 2 menyatakan bahwa semua yang 'suka menulis' juga termasuk dalam kategori 'orang yang teliti'. Karena ada beberapa mahasiswa yang suka menulis, dan semua yang suka menulis adalah orang teliti, maka secara deduktif, **beberapa mahasiswa adalah orang yang teliti**."
+  },
+  {
+    "id": 68,
+    "pertanyaan": "Premis 1: Setiap rumah modern memiliki sistem keamanan canggih.\nPremis 2: Rumah Pak Doni tidak memiliki sistem keamanan canggih.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Rumah Pak Doni adalah rumah modern.", "Rumah Pak Doni bukan rumah modern.", "Rumah Pak Doni mungkin rumah modern.", "Hanya rumah modern yang memiliki sistem keamanan canggih.", "Tidak dapat ditarik kesimpulan tentang rumah Pak Doni."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam konteks silogisme kategori. Jika P → Q (Jika rumah modern, maka memiliki sistem keamanan canggih) dan ¬Q (Rumah Pak Doni tidak memiliki sistem keamanan canggih), maka kesimpulannya adalah ¬P (Rumah Pak Doni bukan rumah modern). Jika rumah Pak Doni adalah rumah modern, ia *pasti* memiliki sistem keamanan canggih. Karena ia tidak memilikinya, maka ia bukan rumah modern."
+  },
+  {
+    "id": 69,
+    "pertanyaan": "Premis 1: Jika suatu benda adalah berlian, maka benda itu berkilau.\nPremis 2: Cincin ini berkilau.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Cincin ini adalah berlian.", "Cincin ini bukan berlian.", "Cincin ini mungkin berlian.", "Hanya berlian yang berkilau.", "Tidak dapat ditarik kesimpulan bahwa cincin ini adalah berlian."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika berlian, maka berkilau) dan Q (Cincin ini berkilau), tidak berarti P (Cincin ini adalah berlian). Banyak benda lain selain berlian yang juga berkilau (misalnya, kaca, kristal, logam tertentu). Premis tidak menyatakan bahwa 'hanya' berlian yang berkilau."
+  },
+  {
+    "id": 70,
+    "pertanyaan": "Premis 1: Semua mahasiswa wajib mengambil mata kuliah Pancasila.\nPremis 2: Budi adalah mahasiswa.\nPremis 3: Mata kuliah Pancasila diadakan setiap semester ganjil.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi mengambil mata kuliah Pancasila di semester ganjil.", "Budi tidak wajib mengambil mata kuliah Pancasila.", "Semua mahasiswa mengambil mata kuliah Pancasila di semester ganjil.", "Budi akan lulus mata kuliah Pancasila.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1 dan 2, dapat disimpulkan bahwa Budi wajib mengambil mata kuliah Pancasila. Dari Premis 3, mata kuliah Pancasila diadakan setiap semester ganjil. Menggabungkan kedua informasi ini, dapat disimpulkan bahwa **Budi mengambil mata kuliah Pancasila di semester ganjil** (dengan asumsi ia akan mengambilnya sesuai jadwal). Ini adalah penalaran berantai."
+  }
+]
