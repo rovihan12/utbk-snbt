@@ -62,9 +62,7 @@
       "6"
     ],
     "jawaban": "A",
-    "pembahasan": "Dalam barisan aritmetika, suku tengah adalah rata-rata dari suku sebelum dan sesudahnya. Kita bisa menuliskan persamaan berikut:\n\n$x+5 = \\frac{x + 12}{2}$\n\nUntuk menyelesaikan persamaan ini, kalikan kedua sisi dengan 2:\n\n$2(x+5) = x + 12$\n$2x + 10 = x + 12$\n\nKurangkan $x$ dari kedua sisi:\n\n$x + 10 = 12$\n\nKurangkan 10 dari kedua sisi:\n\n$x = 2$\n\nJadi, nilai $x$ adalah 2.\n\nKita bisa memeriksa solusi ini:\nJika $x=2$, barisannya menjadi $2, 2+5, 12$, yaitu $2, 7, 12$.\nSelisih antara suku kedua dan pertama adalah $7-2=5$.\nSelisih antara suku ketiga dan kedua adalah $12-7=5$.\nKarena selisihnya konstan (yaitu 5), barisan ini adalah barisan aritmetika yang valid.",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Mengubah suku pertama dari $2x$ menjadi $x$ agar soal memiliki solusi unik dan sesuai dengan pilihan jawaban yang ada. Jawaban diubah menjadi 'A' (sesuai dengan $x=2$). Pembahasan juga disesuaikan."
+    "pembahasan": "Dalam barisan aritmetika, suku tengah adalah rata-rata dari suku sebelum dan sesudahnya. Kita bisa menuliskan persamaan berikut:\\n\\n$x+5 = \\frac{x + 12}{2}$\\n\\nUntuk menyelesaikan persamaan ini, kalikan kedua sisi dengan 2:\\n\\n$2(x+5) = x + 12$\\n$2x + 10 = x + 12$\\n\\nKurangkan $x$ dari kedua sisi:\\n\\n$x + 10 = 12$\\n\\nKurangkan 10 dari kedua sisi:\\n\\n$x = 2$\\n\\nJadi, nilai $x$ adalah 2.\\n\\nKita bisa memeriksa solusi ini:\\nJika $x=2$, barisannya menjadi $2, 2+5, 12$, yaitu $2, 7, 12$.\\nSelisih antara suku kedua dan pertama adalah $7-2=5$.\\nSelisih antara suku ketiga dan kedua adalah $12-7=5$.\\nKarena selisihnya konstan (yaitu 5), barisan ini adalah barisan aritmetika yang valid."
   },
   {
     "id": 86,
@@ -77,9 +75,7 @@
       "11"
     ],
     "jawaban": "E",
-    "pembahasan": "Kita hitung suku-suku secara berurutan:\n$a_1 = 4$\n$a_2 = 2a_1 - 3 = 2(4) - 3 = 8 - 3 = 5$\n$a_3 = 2a_2 - 3 = 2(5) - 3 = 10 - 3 = 7$\n$a_4 = 2a_3 - 3 = 2(7) - 3 = 14 - 3 = 11$.",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Jawaban disesuaikan dari 'C' menjadi 'E' agar cocok dengan hasil perhitungan."
+    "pembahasan": "Kita hitung suku-suku secara berurutan:\\n$a_1 = 4$\\n$a_2 = 2a_1 - 3 = 2(4) - 3 = 8 - 3 = 5$\\n$a_3 = 2a_2 - 3 = 2(5) - 3 = 10 - 3 = 7$\\n$a_4 = 2a_3 - 3 = 2(7) - 3 = 14 - 3 = 11$."
   },
   {
     "id": 87,
@@ -92,7 +88,7 @@
       "35"
     ],
     "jawaban": "B",
-    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-3 ($a_3$) = $S_3 - S_2$.\n$S_3 = 3(3)^2 + 2(3) = 3(9) + 6 = 27 + 6 = 33$.\n$S_2 = 3(2)^2 + 2(2) = 3(4) + 4 = 12 + 4 = 16$.\n$a_3 = 33 - 16 = 17$."
+    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-3 ($a_3$) = $S_3 - S_2$.\\n$S_3 = 3(3)^2 + 2(3) = 3(9) + 6 = 27 + 6 = 33$.\\n$S_2 = 3(2)^2 + 2(2) = 3(4) + 4 = 12 + 4 = 16$.\\n$a_3 = 33 - 16 = 17$."
   },
   {
     "id": 88,
@@ -161,7 +157,7 @@
   },
   {
     "id": 93,
-    "pertanyaan": "Dalam suatu barisan aritmetika, jumlah suku ke-2 dan suku ke-5 adalah 22, dan suku ke-7 adalah 26. Suku pertama barisan tersebut adalah...",
+    "pertanyaan": "Dalam suatu barisan aritmetika, jumlah suku ke-2 dan suku ke-5 adalah 24, dan suku ke-7 adalah 26. Suku pertama barisan tersebut adalah...",
     "pilihan": [
       "2",
       "4",
@@ -170,10 +166,7 @@
       "10"
     ],
     "jawaban": "A",
-    "pembahasan": "Diketahui $a_2 + a_5 = (a_1+d) + (a_1+4d) = 2a_1+5d = 22$ (Persamaan 1). Dan $a_7 = a_1 + 6d = 26$ (Persamaan 2). Kurangkan Persamaan 1 dari 2 kali Persamaan 2:\n$2(a_1 + 6d) - (2a_1 + 5d) = 2(26) - 22$\n$2a_1 + 12d - 2a_1 - 5d = 52 - 22$\n$7d = 30 \\Rightarrow d = \\frac{30}{7}$.\n\nWah, masih menghasilkan $d$ yang pecahan. Mari kita coba pendekatan lain untuk soal ini agar menghasilkan $d$ dan $a_1$ bilangan bulat yang ada di pilihan.\n\n**Revisi Soal ID 93:**\nJika $a_2 + a_5 = 20$ dan $a_7 = 20$.\n$2a_1 + 5d = 20$ (1)\n$a_1 + 6d = 20$ (2)\n\nDari (2), $a_1 = 20 - 6d$. Substitusikan ke (1):\n$2(20-6d) + 5d = 20$\n$40 - 12d + 5d = 20$\n$40 - 7d = 20$\n$7d = 20 \\Rightarrow d = \\frac{20}{7}$. Masih pecahan. Ini menunjukkan bahwa kombinasi angka-angka ini sangat sensitif.\n\n**Opsi Perbaikan Ideal untuk ID 93:**\nMisal $a_1=2$. Jika $a_1=2$ dan $d=3$. Barisan: $2, 5, 8, 11, 14, 17, 20, ...$\n$a_2+a_5 = 5+14 = 19$.\n$a_7 = 20$.\n\nMari kita ubah pertanyaan sedikit agar jawabannya masuk akal dan ada di pilihan.\n**Pertanyaan Baru untuk ID 93:**\nDalam suatu barisan aritmetika, jumlah suku ke-2 dan suku ke-5 adalah 22, dan suku ke-7 adalah 20. Suku pertama barisan tersebut adalah...\n\n$a_2 + a_5 = (a_1+d) + (a_1+4d) = 2a_1+5d = 22$ (1)\n$a_7 = a_1 + 6d = 20$ (2)\n\nDari (2), $a_1 = 20 - 6d$. Substitusikan ke (1):\n$2(20-6d) + 5d = 22$\n$40 - 12d + 5d = 22$\n$40 - 7d = 22$\n$7d = 40 - 22$\n$7d = 18 \\Rightarrow d = \\frac{18}{7}$. Masih pecahan.\n\n**Perbaikan yang Paling Mungkin agar Jawaban Bulat dan Ada di Pilihan:**\nAsumsikan jawabannya $a_1=4$. Jika $a_1=4$, maka $a_7 = 4+6d=26 \\Rightarrow 6d=22 \\Rightarrow d=22/6 = 11/3$. Masih pecahan.\n\n**Perbaikan Soal ID 93 agar Memiliki Solusi Bulat:**\nSuku ke-2 ($a_2$) + Suku ke-5 ($a_5$) = 28.\nSuku ke-7 ($a_7$) = 26.\nIni dari soal asli. Hasilnya $a_1 = 38/7$.
-\n**Agar soal ini punya jawaban bulat, kita perlu ubah salah satu nilai.**\nJika $a_1=2$ dan $d=4$ (dari soal ID 90), maka barisannya adalah $2, 6, 10, 14, 18, 22, 26, ...$\n$a_2+a_5 = 6+18 = 24$. (Bukan 28)\n$a_7 = 26$. (Sudah benar)\n\nJadi, mari ubah "jumlah suku ke-2 dan suku ke-5 adalah **24**" (bukan 28). Ini akan membuat $a_1$ dan $d$ menjadi bilangan bulat.\n\n**Perbaikan Akhir untuk ID 93:**\n**pertanyaan**: \"Dalam suatu barisan aritmetika, jumlah suku ke-2 dan suku ke-5 adalah 24, dan suku ke-7 adalah 26. Suku pertama barisan tersebut adalah...\"\n**jawaban**: \"2\"\n**pembahasan**: \"Diketahui $a_2 + a_5 = (a_1+d) + (a_1+4d) = 2a_1+5d = 24$ (Persamaan 1). Dan $a_7 = a_1 + 6d = 26$ (Persamaan 2). Kurangkan Persamaan 1 dari 2 kali Persamaan 2 (ini salah, harusnya eliminasi atau substitusi): \nDari (2), $a_1 = 26 - 6d$. Substitusikan ke (1):\n$2(26-6d) + 5d = 24$\n$52 - 12d + 5d = 24$\n$52 - 7d = 24$\n$7d = 52 - 24$\n$7d = 28 \\Rightarrow d = 4$.\nSubstitusikan nilai $d=4$ kembali ke $a_1 = 26 - 6d$: $a_1 = 26 - 6(4) = 26 - 24 = 2$. Jadi suku pertamanya adalah 2.\"",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Mengubah nilai 'jumlah suku ke-2 dan suku ke-5' dari 28 menjadi 24 agar menghasilkan $a_1$ dan $d$ bilangan bulat. Jawaban diubah menjadi 'A' (sesuai dengan $a_1=2$). Pembahasan disesuaikan."
+    "pembahasan": "Diketahui $a_2 + a_5 = (a_1+d) + (a_1+4d) = 2a_1+5d = 24$ (Persamaan 1). Dan $a_7 = a_1 + 6d = 26$ (Persamaan 2). Dari (2), $a_1 = 26 - 6d$. Substitusikan ke (1):\\n$2(26-6d) + 5d = 24$\\n$52 - 12d + 5d = 24$\\n$52 - 7d = 24$\\n$7d = 52 - 24$\\n$7d = 28 \\Rightarrow d = 4$.\\nSubstitusikan nilai $d=4$ kembali ke $a_1 = 26 - 6d$: $a_1 = 26 - 6(4) = 26 - 24 = 2$. Jadi suku pertamanya adalah 2."
   },
   {
     "id": 94,
@@ -186,9 +179,7 @@
       "55"
     ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan:\n$x_1 = 1$\n$x_2 = 3$\n$x_3 = x_2 + x_1 = 3 + 1 = 4$\n$x_4 = x_3 + x_2 = 4 + 3 = 7$\n$x_5 = x_4 + x_3 = 7 + 4 = 11$\n$x_6 = x_5 + x_4 = 11 + 7 = 18$.",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Pilihan jawaban 'C' diubah dari 21 menjadi 18 agar sesuai dengan hasil perhitungan $x_6=18$."
+    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan:\\n$x_1 = 1$\\n$x_2 = 3$\\n$x_3 = x_2 + x_1 = 3 + 1 = 4$\\n$x_4 = x_3 + x_2 = 4 + 3 = 7$\\n$x_5 = x_4 + x_3 = 7 + 4 = 11$\\n$x_6 = x_5 + x_4 = 11 + 7 = 18$."
   },
   {
     "id": 95,
@@ -214,9 +205,7 @@
       "16"
     ],
     "jawaban": "B",
-    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-2 ($a_2$) = $S_2 - S_1$.\n$S_2 = 2^3 + 2(2) = 8 + 4 = 12$.\n$S_1 = 1^3 + 2(1) = 1 + 2 = 3$.\n$a_2 = 12 - 3 = 9$.",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Pilihan jawaban 'B' diubah dari 10 menjadi 9 agar sesuai dengan hasil perhitungan $a_2=9$."
+    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-2 ($a_2$) = $S_2 - S_1$.\\n$S_2 = 2^3 + 2(2) = 8 + 4 = 12$.\\n$S_1 = 1^3 + 2(1) = 1 + 2 = 3$.\\n$a_2 = 12 - 3 = 9$."
   },
   {
     "id": 97,
@@ -242,9 +231,7 @@
       "2575"
     ],
     "jawaban": "A",
-    "pembahasan": "Bilangan ganjil positif dua digit adalah 11, 13, ..., 99. Ini adalah barisan aritmetika dengan $a_1=11$, $d=2$, dan $a_n=99$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 99 = 11 + (n-1)2 \\Rightarrow 88 = 2(n-1) \\Rightarrow 44 = n-1 \\Rightarrow n = 45$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{45}{2}(11 + 99) = \\frac{45}{2}(110) = 45 \\times 55 = 2475$.",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Jawaban disesuaikan dari 'B' menjadi 'A' agar cocok dengan hasil perhitungan."
+    "pembahasan": "Bilangan ganjil positif dua digit adalah 11, 13, ..., 99. Ini adalah barisan aritmetika dengan $a_1=11$, $d=2$, dan $a_n=99$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 99 = 11 + (n-1)2 \\Rightarrow 88 = 2(n-1) \\Rightarrow 44 = n-1 \\Rightarrow n = 45$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{45}{2}(11 + 99) = \\frac{45}{2}(110) = 45 \\times 55 = 2475$."
   },
   {
     "id": 99,
@@ -257,9 +244,7 @@
       "2"
     ],
     "jawaban": "C",
-    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{2k}{k-1} = \\frac{4k+6}{2k}$. Lakukan perkalian silang: $(2k)^2 = (k-1)(4k+6)$. $4k^2 = 4k^2 + 6k - 4k - 6$. $4k^2 = 4k^2 + 2k - 6$. $0 = 2k - 6 \\Rightarrow 2k = 6 \\Rightarrow k = 3$.",
-    "status_soal": "diperbaiki",
-    "catatan_perbaikan": "Pilihan jawaban 'C' diubah dari 0 menjadi 3 agar sesuai dengan hasil perhitungan $k=3$."
+    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{2k}{k-1} = \\frac{4k+6}{2k}$. Lakukan perkalian silang: $(2k)^2 = (k-1)(4k+6)$. $4k^2 = 4k^2 + 6k - 4k - 6$. $4k^2 = 4k^2 + 2k - 6$. $0 = 2k - 6 \\Rightarrow 2k = 6 \\Rightarrow k = 3$."
   },
   {
     "id": 100,
