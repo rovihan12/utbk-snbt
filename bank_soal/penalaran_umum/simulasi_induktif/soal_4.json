@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 31,
+    "pertanyaan": "Observasi 1: Setiap kali hujan lebat, sungai di dekat desa meluap.\nObservasi 2: Ada prakiraan hujan lebat besok.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Sungai pasti akan meluap besok.", "Sungai tidak akan meluap besok.", "Sungai mungkin akan meluap besok.", "Hujan lebat tidak menyebabkan sungai meluap.", "Prakiraan cuaca selalu salah."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan pola yang berulang, hujan lebat sering menyebabkan sungai meluap. Dengan adanya prakiraan hujan lebat, secara induktif disimpulkan bahwa ada kemungkinan sungai akan meluap, namun tidak ada kepastian mutlak."
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Pola angka: $3, 6, 9, 12, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["14", "15", "16", "18", "21"],
+    "jawaban": "B",
+    "pembahasan": "Pola ini adalah deret aritmatika di mana setiap angka bertambah 3 dari angka sebelumnya, atau kelipatan 3. Jadi, $12 + 3 = 15$."
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Pengamatan: Semua kucing yang saya kenal suka bermain dengan benang.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Semua kucing di dunia suka bermain benang.", "Kucing yang tidak suka benang bukan kucing sejati.", "Ada kemungkinan besar kucing lain yang saya temui juga suka bermain benang.", "Bermain benang adalah satu-satunya aktivitas yang disukai kucing.", "Benang berbahaya untuk kucing."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi spesifik pada beberapa kucing, kita dapat menarik kesimpulan umum bahwa ada probabilitas tinggi kucing lain juga memiliki karakteristik yang sama, namun tidak secara absolut semua kucing di dunia."
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Pola urutan: $\\text{Mei, Juli, September, \\dots}$\nBulan selanjutnya dalam pola ini adalah...",
+    "pilihan": ["Oktober", "November", "Desember", "Januari", "Februari"],
+    "jawaban": "B",
+    "pembahasan": "Pola ini adalah bulan-bulan yang melompati satu bulan di antaranya: Mei (lewati Juni) Juli (lewati Agustus) September (lewati Oktober) November."
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Sebuah penelitian mengamati 200 individu yang rutin berolahraga. 195 di antaranya memiliki tekanan darah normal.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": ["Olahraga menjamin tekanan darah normal.", "Olahraga tidak berpengaruh pada tekanan darah.", "Rutin berolahraga sangat mungkin berkorelasi dengan tekanan darah normal.", "Hanya orang yang berolahraga yang memiliki tekanan darah normal.", "Tekanan darah normal tidak ada hubungannya dengan olahraga."],
+    "jawaban": "C",
+    "pembahasan": "Dengan mayoritas individu yang berolahraga memiliki tekanan darah normal, disimpulkan secara induktif bahwa ada korelasi kuat antara keduanya. Namun, ini bukan jaminan mutlak karena ada pengecualian."
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Pola kombinasi: $\\text{1A, 2B, 3C, 4D, \\dots}$\nKombinasi selanjutnya dalam pola ini adalah...",
+    "pilihan": ["5E", "5F", "6E", "6F", "7G"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini menggabungkan urutan angka bertambah 1 dan urutan huruf abjad maju. Setelah 4D, angka selanjutnya adalah 5 dan huruf selanjutnya adalah E, menjadi 5E."
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Setiap kali saham perusahaan X naik, harga minyak dunia juga naik. Pola ini terlihat selama enam bulan terakhir.\n\nKesimpulan induktif yang paling logis adalah...",
+    "pilihan": ["Kenaikan saham perusahaan X menyebabkan harga minyak naik.", "Harga minyak naik karena saham perusahaan X naik.", "Ada kemungkinan besar hubungan antara kenaikan saham perusahaan X dan harga minyak dunia.", "Saham perusahaan X adalah satu-satunya faktor yang mempengaruhi harga minyak.", "Harga minyak dan saham perusahaan X tidak saling berhubungan."],
+    "jawaban": "C",
+    "pembahasan": "Berdasarkan observasi korelasi yang konsisten, disimpulkan secara induktif bahwa ada kemungkinan hubungan antara kedua fenomena tersebut, namun tanpa mengklaim kausalitas langsung atau mutlak."
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Pola: $A \\uparrow, B \\downarrow, C \\uparrow, D \\downarrow, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
+    "pilihan": ["$E \\uparrow$", "$E \\downarrow$", "$F \\uparrow$", "$F \\downarrow$", "$G \\uparrow$"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini menggabungkan urutan huruf abjad maju (A, B, C, D, E, ...) dengan urutan panah yang bergantian ($\uparrow, \downarrow, \uparrow, \downarrow, \uparrow, \dots$). Jadi, setelah $D \\downarrow$, huruf selanjutnya adalah E dan panahnya adalah $\uparrow$, menjadi $E \\uparrow$."
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Seorang guru menemukan bahwa siswa yang duduk di barisan depan kelas cenderung lebih aktif bertanya dan mendapatkan nilai lebih tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
+    "pilihan": ["Duduk di barisan depan menyebabkan siswa lebih aktif dan mendapat nilai tinggi.", "Ada korelasi antara posisi duduk dan partisipasi serta nilai siswa.", "Siswa di barisan belakang pasti tidak aktif dan nilainya rendah.", "Posisi duduk adalah satu-satunya faktor penentu nilai siswa.", "Guru lebih memerhatikan siswa di depan."],
+    "jawaban": "A",
+    "pembahasan": "Pilihan A adalah yang paling tricky karena menyiratkan kausalitas langsung ('menyebabkan') hanya berdasarkan korelasi. Ada kemungkinan faktor-faktor lain (misalnya, siswa yang memang sudah termotivasi cenderung memilih duduk di depan) yang menjelaskan hubungan tersebut, bukan hanya posisi duduk itu sendiri."
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Pola: $\\text{Ganjil, Genap, Ganjil, Genap, \\dots}$\nSifat angka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["Ganjil", "Genap", "Prima", "Negatif", "Desimal"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini adalah urutan bergantian antara bilangan ganjil dan genap. Setelah 'Genap', sifat angka selanjutnya adalah 'Ganjil'."
+  }
+]
