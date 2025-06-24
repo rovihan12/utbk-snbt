@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 21,
+    "pertanyaan": "Premis 1: Semua hewan karnivora memakan daging.\nPremis 2: Singa adalah hewan karnivora.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Singa mungkin memakan daging.", "Singa tidak memakan daging.", "Singa pasti memakan daging.", "Hanya singa yang memakan daging.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme kategori dasar. Karena semua hewan karnivora memakan daging, dan singa termasuk kategori hewan karnivora, maka secara deduktif, singa pasti memakan daging."
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Premis 1: Jika saya belajar keras, maka saya akan lulus ujian.\nPremis 2: Saya tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya belajar keras.", "Saya tidak belajar keras.", "Saya mungkin belajar keras.", "Lulus ujian tidak selalu berarti belajar keras.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya belajar keras, maka saya akan lulus ujian) dan ¬Q (Saya tidak lulus ujian), maka kesimpulannya adalah ¬P (Saya tidak belajar keras). Logikanya, jika saya belajar keras, saya *pasti* akan lulus. Karena saya tidak lulus, itu berarti saya tidak belajar keras."
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Premis 1: Semua mamalia memiliki tulang belakang.\nPremis 2: Ular tidak memiliki tulang belakang.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ular adalah mamalia.", "Ular bukan mamalia.", "Ular mungkin mamalia.", "Hewan tanpa tulang belakang adalah ular.", "Tidak dapat ditarik kesimpulan tentang ular dari premis ini."],
+    "jawaban": "B",
+    "pembahasan": "Premis 1 menyatakan properti universal mamalia (memiliki tulang belakang). Premis 2 menyatakan bahwa ular tidak memiliki properti tersebut. Oleh karena itu, secara deduktif, jika ular tidak memiliki tulang belakang, maka ular tidak bisa menjadi mamalia. Ini adalah contoh **Modus Tollens** dalam bentuk silogisme kategori."
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Premis 1: Setiap negara yang maju memiliki infrastruktur yang baik.\nPremis 2: Indonesia memiliki infrastruktur yang baik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Indonesia adalah negara maju.", "Indonesia bukan negara maju.", "Indonesia mungkin negara maju.", "Hanya negara maju yang memiliki infrastruktur yang baik.", "Tidak dapat ditarik kesimpulan bahwa Indonesia adalah negara maju."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika negara maju, maka infrastruktur baik) dan Q (Indonesia memiliki infrastruktur baik), tidak berarti P (Indonesia adalah negara maju). Ada banyak alasan lain mengapa suatu negara bisa memiliki infrastruktur yang baik, meskipun belum tentu dikategorikan sebagai 'maju' secara keseluruhan."
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Premis 1: Semua peserta lomba lari marathon harus berusia di atas 18 tahun.\nPremis 2: Andi berusia 20 tahun.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Andi pasti akan memenangkan lomba.", "Andi tidak bisa mengikuti lomba.", "Andi memenuhi syarat usia untuk mengikuti lomba.", "Semua yang berusia di atas 18 tahun adalah peserta lomba.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Premis 1 menetapkan syarat usia. Premis 2 memberikan informasi usia Andi. Karena 20 tahun lebih dari 18 tahun, maka secara deduktif, Andi memenuhi syarat usia yang ditentukan."
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Premis 1: Jika hujan, maka saya membawa payung.\nPremis 2: Saya membawa payung.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hujan.", "Tidak hujan.", "Saya selalu membawa payung.", "Saya suka membawa payung.", "Tidak dapat ditarik kesimpulan bahwa hari ini hujan."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah contoh kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika hujan, maka saya membawa payung) dan Q (Saya membawa payung), tidak berarti P (Hujan). Saya bisa membawa payung karena alasan lain (misalnya, takut panas, atau lupa meletakkannya di rumah). Premis tidak menyatakan bahwa saya *hanya* membawa payung saat hujan."
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Premis 1: Beberapa burung adalah karnivora.\nPremis 2: Semua karnivora memiliki gigi tajam.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua burung memiliki gigi tajam.", "Beberapa burung memiliki gigi tajam.", "Beberapa burung tidak memiliki gigi tajam.", "Semua yang memiliki gigi tajam adalah burung.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1, ada irisan antara 'burung' dan 'karnivora'. Dari Premis 2, semua 'karnivora' memiliki 'gigi tajam'. Karena ada beberapa burung yang juga karnivora, dan semua karnivora punya gigi tajam, maka secara deduktif, **beberapa burung memiliki gigi tajam**."
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Premis 1: Setiap peserta Olimpiade pasti seorang atlet.\nPremis 2: Budi adalah seorang atlet.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi adalah peserta Olimpiade.", "Budi bukan peserta Olimpiade.", "Budi mungkin peserta Olimpiade.", "Semua atlet adalah peserta Olimpiade.", "Tidak dapat ditarik kesimpulan apakah Budi peserta Olimpiade atau bukan."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika peserta Olimpiade, maka atlet) dan Q (Budi adalah atlet), tidak berarti P (Budi adalah peserta Olimpiade). Banyak atlet yang bukan peserta Olimpiade."
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Premis 1: Jika suatu benda adalah berlian, maka benda itu sangat keras.\nPremis 2: Benda ini sangat keras.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Benda ini adalah berlian.", "Benda ini bukan berlian.", "Benda ini mungkin berlian.", "Hanya berlian yang sangat keras.", "Tidak dapat ditarik kesimpulan bahwa benda ini adalah berlian."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika berlian, maka sangat keras) dan Q (Benda ini sangat keras), tidak berarti P (Benda ini adalah berlian). Ada banyak zat lain selain berlian yang juga sangat keras. Premis tidak menyatakan 'hanya jika' berlian, maka ia keras."
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Premis 1: Semua bunga mawar memiliki duri.\nPremis 2: Bunga X tidak memiliki duri.\nPremis 3: Bunga X berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bunga X adalah mawar merah.", "Bunga X bukan mawar.", "Bunga X adalah bunga berduri.", "Bunga X adalah mawar yang tidak memiliki duri.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1, semua bunga mawar pasti memiliki duri. Dari Premis 2, Bunga X tidak memiliki duri. Karena Bunga X tidak memiliki properti wajib dari mawar, maka secara deduktif, Bunga X **bukan mawar**. Informasi Premis 3 (berwarna merah) adalah distraktor dan tidak relevan untuk menentukan apakah Bunga X adalah mawar berdasarkan premis 1 dan 2."
+  }
+]
