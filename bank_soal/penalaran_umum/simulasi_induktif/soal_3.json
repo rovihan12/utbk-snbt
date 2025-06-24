@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 21,
+    "pertanyaan": "Observasi 1: Setiap apel yang jatuh dari pohon ini berwarna merah.\nObservasi 2: Apel yang baru saja jatuh juga berwarna merah.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Semua apel dari pohon ini berwarna merah.", "Apel merah lebih berat daripada apel hijau.", "Pohon ini hanya menghasilkan apel merah.", "Apel akan selalu merah setelah jatuh.", "Apel hijau tidak bisa tumbuh di pohon ini."],
+    "jawaban": "A",
+    "pembahasan": "Dari observasi berulang bahwa apel yang jatuh dari pohon tersebut selalu berwarna merah, disimpulkan secara induktif bahwa semua apel dari pohon itu berwarna merah. Ini adalah generalisasi yang kuat berdasarkan sampel yang konsisten."
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Pola angka: $100, 95, 90, 85, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["80", "75", "70", "65", "60"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini adalah deret aritmatika di mana setiap angka berkurang 5 dari angka sebelumnya. Jadi, $85 - 5 = 80$."
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Pengamatan: Setiap kali seorang siswa menggunakan teknik menghafal 'peta pikiran', mereka cenderung mengingat informasi lebih baik.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Teknik peta pikiran adalah satu-satunya cara untuk mengingat informasi dengan baik.", "Teknik peta pikiran tidak efektif untuk semua siswa.", "Teknik peta pikiran kemungkinan besar membantu meningkatkan daya ingat.", "Siswa yang tidak menggunakan peta pikiran tidak akan mengingat informasi dengan baik.", "Mengingat informasi dengan baik tidak bergantung pada teknik belajar."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi yang konsisten, disimpulkan bahwa teknik peta pikiran kemungkinan besar membantu meningkatkan daya ingat. Ini adalah kesimpulan probabilistik, bukan klaim kausalitas mutlak."
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Pola gambar: Hati, Bintang, Lingkaran, Hati, Bintang, ...\nGambar selanjutnya dalam pola ini adalah...",
+    "pilihan": ["Hati", "Bintang", "Lingkaran", "Segitiga", "Oval"],
+    "jawaban": "C",
+    "pembahasan": "Pola gambar ini berulang setiap tiga elemen: Hati, Bintang, Lingkaran. Setelah 'Hati, Bintang', gambar selanjutnya adalah 'Lingkaran'."
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Selama sepuluh tahun terakhir, setiap kali indeks harga konsumen naik, inflasi juga meningkat. \n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": ["Kenaikan indeks harga konsumen pasti menyebabkan inflasi.", "Indeks harga konsumen dan inflasi tidak saling berhubungan.", "Sangat mungkin ada hubungan positif antara kenaikan indeks harga konsumen dan inflasi.", "Inflasi hanya terjadi saat indeks harga konsumen naik.", "Data ini tidak cukup untuk menarik kesimpulan apa pun."],
+    "jawaban": "C",
+    "pembahasan": "Dari pola yang konsisten selama periode waktu yang signifikan, dapat disimpulkan secara induktif bahwa ada kemungkinan besar hubungan positif antara dua fenomena tersebut, meskipun tidak selalu berarti kausalitas langsung atau tunggal."
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Pola huruf: A, Z, B, Y, C, X, ...\nHuruf selanjutnya dalam pola ini adalah...",
+    "pilihan": ["D", "W", "V", "E", "F"],
+    "jawaban": "D",
+    "pembahasan": "Pola ini terdiri dari dua seri yang saling menyisip: Seri pertama adalah huruf abjad maju (A, B, C, ...) dan seri kedua adalah huruf abjad mundur (Z, Y, X, ...). Jadi, setelah C dan X, huruf selanjutnya dalam seri pertama adalah D."
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Setiap kali saya mengunjungi kota X di bulan Juli, cuaca selalu panas dan kering. Saya sudah mengunjunginya lima kali.\n\nKesimpulan induktif yang paling logis adalah...",
+    "pilihan": ["Kota X selalu panas dan kering.", "Cuaca di Kota X di bulan Juli kemungkinan besar akan panas dan kering.", "Hanya di bulan Juli Kota X panas dan kering.", "Saya tidak boleh mengunjungi Kota X di bulan Juli.", "Cuaca di Kota X tidak bisa diprediksi."],
+    "jawaban": "B",
+    "pembahasan": "Berdasarkan pengalaman berulang yang konsisten, disimpulkan secara induktif bahwa cuaca di Kota X pada bulan Juli kemungkinan besar akan terus panas dan kering. Ini adalah generalisasi probabilistik berdasarkan observasi."
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Pola angka: $1, 2, 4, 8, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
+    "pilihan": ["10", "12", "14", "16", "18"],
+    "jawaban": "D",
+    "pembahasan": "Pola ini adalah deret geometri di mana setiap angka adalah dua kali lipat dari angka sebelumnya. Jadi, $8 \\times 2 = 16$."
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Dalam sebuah survei, 90% karyawan yang merasa dihargai oleh atasan melaporkan kepuasan kerja yang tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
+    "pilihan": ["Penghargaan dari atasan adalah satu-satunya faktor yang menjamin kepuasan kerja tinggi.", "Ada hubungan yang kuat antara penghargaan atasan dan kepuasan kerja.", "Karyawan yang tidak dihargai atasan tidak akan pernah puas dengan pekerjaannya.", "Kepuasan kerja adalah hasil langsung dari penghargaan atasan.", "Penghargaan atasan meningkatkan kemungkinan kepuasan kerja."],
+    "jawaban": "A",
+    "pembahasan": "Pilihan A adalah yang paling tricky karena mengklaim kausalitas tunggal dan mutlak ('satu-satunya faktor'), padahal observasi hanya menunjukkan korelasi yang kuat. Ada banyak faktor lain yang dapat memengaruhi kepuasan kerja, dan penalaran induktif berdasarkan persentase tinggi tidak menjamin hubungan eksklusif."
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Pola: $\\Delta, \\square, \\circ, \\Delta, \\square, \\circ, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
+    "pilihan": ["$\\Delta$", "$\\square$", "$\\circ$", "$=$", "$+$"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini adalah pengulangan dari urutan tiga simbol: Segitiga ($\Delta$), Persegi ($\square$), dan Lingkaran ($\circ$). Setelah siklus ketiga simbol berakhir, pola kembali ke simbol pertama, yaitu Segitiga ($\Delta$)."
+  }
+]
