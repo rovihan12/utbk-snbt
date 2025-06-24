@@ -1,1 +1,73 @@
+[
+  {
+    "id": 41,
+    "pertanyaan": "Semua siswa SMA harus mengikuti ujian nasional. Dinda tidak mengikuti ujian nasional. Maka...",
+    "pilihan": ["Dinda siswa SMA", "Dinda bukan siswa SMA", "Dinda mengikuti ujian lain", "Dinda lulus tanpa ujian", "Tidak bisa disimpulkan"],
+    "jawaban": "B",
+    "pembahasan": "Premis: semua siswa SMA → ikut ujian nasional.\nDinda tidak ikut ujian nasional → maka Dinda bukan siswa SMA (modus tollens)."
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Jika seseorang menyukai matematika, maka ia menyukai logika. Santi tidak menyukai logika. Maka...",
+    "pilihan": ["Santi menyukai matematika", "Santi tidak menyukai matematika", "Santi menyukai logika", "Tidak bisa disimpulkan", "Santi adalah ahli logika"],
+    "jawaban": "B",
+    "pembahasan": "Premis: suka matematika → suka logika\nSanti tidak suka logika → maka dia tidak suka matematika (modus tollens)."
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Semua novel adalah karya sastra. Cerita pendek adalah karya sastra. Maka...",
+    "pilihan": ["Cerita pendek adalah novel", "Novel adalah cerita pendek", "Cerita pendek bukan karya sastra", "Tidak bisa disimpulkan", "Novel dan cerita pendek sama"],
+    "jawaban": "D",
+    "pembahasan": "Premis hanya menyatakan bahwa keduanya termasuk karya sastra, tidak menjelaskan hubungan langsung antara novel dan cerita pendek."
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Jika semua manusia membutuhkan oksigen, dan Elsa tidak membutuhkan oksigen, maka...",
+    "pilihan": ["Elsa adalah manusia", "Elsa bukan manusia", "Elsa butuh oksigen", "Tidak bisa disimpulkan", "Elsa robot"],
+    "jawaban": "B",
+    "pembahasan": "Premis: semua manusia → butuh oksigen\nElsa tidak butuh oksigen → maka Elsa bukan manusia (modus tollens)."
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Semua kucing menyukai ikan. Beberapa hewan menyukai ikan. Maka...",
+    "pilihan": ["Semua hewan adalah kucing", "Beberapa hewan adalah kucing", "Semua hewan menyukai ikan", "Tidak bisa disimpulkan", "Kucing tidak suka ikan"],
+    "jawaban": "D",
+    "pembahasan": "Tidak ada informasi yang menghubungkan 'beberapa hewan' dengan 'kucing'. Jadi tidak bisa disimpulkan."
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Jika matahari bersinar, maka tanaman melakukan fotosintesis. Saat ini tanaman tidak melakukan fotosintesis. Maka...",
+    "pilihan": ["Matahari bersinar", "Tanaman mati", "Matahari tidak bersinar", "Tanaman tidak butuh cahaya", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Premis: matahari bersinar → fotosintesis\nFotosintesis tidak terjadi → maka matahari tidak bersinar (modus tollens)."
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Jika semua X adalah Y dan sebagian Y adalah Z, maka...",
+    "pilihan": ["Semua X adalah Z", "Sebagian X adalah Z", "Tidak ada X yang Z", "Tidak bisa disimpulkan", "X dan Z identik"],
+    "jawaban": "D",
+    "pembahasan": "Tidak cukup informasi untuk menyimpulkan hubungan antara X dan Z."
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Semua peserta yang hadir akan mendapat sertifikat. Fajar mendapat sertifikat. Maka...",
+    "pilihan": ["Fajar hadir", "Fajar tidak hadir", "Fajar panitia", "Tidak bisa disimpulkan", "Fajar bukan peserta"],
+    "jawaban": "D",
+    "pembahasan": "Premis: hadir → dapat sertifikat.\nTapi mendapat sertifikat belum tentu berarti hadir (mungkin dapat karena alasan lain)."
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Semua atlet harus latihan rutin. Riko adalah atlet dan dia tidak latihan. Maka...",
+    "pilihan": ["Riko tetap atlet", "Riko bukan atlet", "Riko dikeluarkan", "Tidak bisa disimpulkan", "Riko profesional"],
+    "jawaban": "B",
+    "pembahasan": "Premis: semua atlet → latihan rutin.\nRiko tidak latihan → maka Riko bukan atlet (modus tollens)."
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Jika seseorang sedang lapar maka dia akan makan. Bima sedang makan. Maka...",
+    "pilihan": ["Bima sedang lapar", "Bima tidak lapar", "Bima makan karena lapar", "Tidak bisa disimpulkan", "Bima kenyang"],
+    "jawaban": "D",
+    "pembahasan": "Premis: lapar → makan\nTapi makan tidak berarti pasti lapar (konvers tidak valid)."
+  }
+]
 
