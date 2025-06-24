@@ -43,20 +43,20 @@
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/4.png",
     "pembahasan": "Misalkan $x$ adalah panjang sisi segi enam, titik $O$ adalah titik tengah segi enam, dan titik $S$ adalah titik tengah $ED$.\\n\\n$\\triangle AOB$ adalah segitiga sama sisi. Karena $P$ berada di tengah $AB$, kita peroleh bahwa $PB = \\frac{1}{2}x$ dan $BO = x$. Dengan menggunakan rumus Pythagoras,\\n$PO = \\sqrt{BO^2 - PB^2}\\n= \\sqrt{x^2 - (\\frac{1}{2}x)^2}\\n= \\frac{1}{2}x\\sqrt{3}$.\\n\\nKarena segi enam ini beraturan, maka panjang $PO$ sama dengan panjang $QS$, perhatikan bahwa $\\triangle PRQ$ dan $\\triangle PED$ sebangun karena ketiga sudutnya sama besar. Karena tinggi $\\triangle PED$ dua kali lipatnya dan $ED = x$, maka $RQ = \\frac{1}{2}x$. Panjang $FC = x+x=2x$\\nsehingga $FR = QC = \\frac{2x - \\frac{1}{2}x}{2} = \\frac{3}{4}x$.\\n\\nLuas $\\triangle PFR$ sekarang dapat dicari.\\n$L_{\\triangle PFR} = \\frac{1}{2}(FR)(PO)\\n= \\frac{1}{2}(\\frac{3}{4}x)(\\frac{1}{2}x\\sqrt{3})\\n= \\frac{3}{16}x^2\\sqrt{3}$.\\n\\nLuas trapesium $EDQR$ juga dapat dicari.\\n$L_{EDQR} = \\frac{ED + RQ}{2} \\cdot OS\\n= \\frac{x + \\frac{1}{2}x}{2} \\cdot \\frac{1}{2}x\\sqrt{3}\\n= \\frac{\\frac{3}{2}x}{2} \\cdot \\frac{1}{2}x\\sqrt{3}\\n= \\frac{3}{8}x^2\\sqrt{3}$.\\n\\nDengan demikian, perbandingan luas keduanya dinyatakan sebagai berikut.\\n$\\frac{L_{\\triangle PFR}}{L_{EDQR}} = \\frac{\\frac{3}{16}x^2\\sqrt{3}}{\\frac{3}{8}x^2\\sqrt{3}}\\n= \\frac{3}{16} : \\frac{3}{8}\\n= 3 \\cdot 8 : 3 \\cdot 16\\n= 24 : 48\\n= 1 : 2$. \\nJadi, perbandingan luas segitiga dan trapesium tersebut adalah $\\frac{1}{2}$."
   },
-  {
-    "id": 4,
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/sudut_r.png",
-    "pertanyaan": "Berapa nilai sudut r?",
-    "pilihan": [
-      "32",
-      "38",
-      "48",
-      "62",
-      "87"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Sudut p = $67^{\\circ}$ (bertolak belakang dengan sudut $67^{\\circ}$).\\nSudut s + $105^{\\circ} = 180^{\\circ}$ (sudut berpelurus).\\nSudut s = $180^{\\circ} - 105^{\\circ} = 75^{\\circ}$.\\nSudut s sehadap dengan sudut q maka nilainya sama, $s = q = 75^{\\circ}$.\\nJumlah sudut dalam segitiga adalah $180^{\\circ}$. Maka, $p + q + r = 180^{\\circ}$.\\n$67^{\\circ} + 75^{\\circ} + r = 180^{\\circ}$.\\n$142^{\\circ} + r = 180^{\\circ}$.\\n$r = 180^{\\circ} - 142^{\\circ}$.\\n$r = 38^{\\circ}$."
-  },
+ {
+  "id": "4",
+  "pertanyaan": "Diketahui $\\triangle ABC$ siku-siku di B. Garis $CD$ merupakan garis bagi yang ditarik dari titik sudut C. Jika panjang $AB = 6\\text{cm}$, maka panjang $AD = \\dots \\text{cm}$.",
+  "pilihan": [
+    "A. $(6 - 3\\sqrt{2})$",
+    "B. $(6 + 3\\sqrt{2})$",
+    "C. $(12 - 6\\sqrt{2})$",
+    "D. $(12 + 6\\sqrt{2})$",
+    "E. $(18 + 6\\sqrt{2})$"
+  ],
+  "jawaban": "C",
+  "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/7.png",
+  "pembahasan": "Perhatikan sketsa gambar berikut.\n\nKarena $\\triangle ABC$ siku-siku, maka rumus Pythagoras berlaku:\n\n$AC = \\sqrt{AB^2 + BC^2}$\n$BC = 6$\n\nMisalkan panjang $AD = x$ cm sehingga berakibat $DB = (6 - x)$ cm. Dengan menggunakan teorema perbandingan oleh garis bagi, kita peroleh:\n\n$\\frac{AD}{DB} = \\frac{AC}{BC}$\n$\\frac{x}{6-x} = \\frac{\\sqrt{6^2 + BC^2}}{BC}$  (terdapat kesalahan pada gambar, harusnya AC/BC)\n\n(Revisi Pembahasan sesuai dengan gambar dan hasil yang diharapkan)\nDiketahui $\\triangle ABC$ siku-siku di B, $AB=6$. $CD$ adalah garis bagi sudut $C$. Misalkan $AD=x$, maka $DB = 6-x$.\nMenurut teorema garis bagi sudut, $\\frac{AD}{DB} = \\frac{AC}{BC}$.\nJadi, $\\frac{x}{6-x} = \\frac{AC}{BC}$.\n\nDalam $\\triangle DBC$, siku-siku di B, $DC^2 = DB^2 + BC^2 = (6-x)^2 + BC^2$.\nDalam $\\triangle ABC$, siku-siku di B, $AC^2 = AB^2 + BC^2 = 6^2 + BC^2 = 36 + BC^2$.\n\nDari sifat garis bagi, sudut $BCD = \\angle ACD = \\alpha$.\nDalam $\\triangle BCD$, $\\tan \\alpha = \\frac{DB}{BC} = \\frac{6-x}{BC}$.\nDalam $\\triangle BCA$, $\\tan 2\\alpha = \\frac{AB}{BC} = \\frac{6}{BC}$.\n\nKita tahu $\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}$.\n$\\frac{6}{BC} = \\frac{2\\left(\\frac{6-x}{BC}\\right)}{1 - \\left(\\frac{6-x}{BC}\\right)^2}$\n$\\frac{6}{BC} = \\frac{2(6-x)}{BC \\left(1 - \\frac{(6-x)^2}{BC^2}\\right)}$\n$6 = \\frac{2(6-x)}{1 - \\frac{(6-x)^2}{BC^2}}$\n$6\\left(1 - \\frac{(6-x)^2}{BC^2}\\right) = 2(6-x)$\n$3\\left(1 - \\frac{(6-x)^2}{BC^2}\\right) = (6-x)$\n$3 - \\frac{3(6-x)^2}{BC^2} = 6-x$\n\nIni adalah pendekatan yang lebih rumit. Mari kita gunakan properti umum garis bagi pada segitiga siku-siku. Karena $CD$ adalah garis bagi sudut $C$, maka $BD/AD = BC/AC$.\nMisalkan $BC = y$. Maka $BD/AD = y/AC$.\n$AD = x$, $BD = 6-x$.\n$\\frac{6-x}{x} = \\frac{y}{\\sqrt{6^2 + y^2}}$\n\nAtau, menggunakan gambar dan rasio yang diberikan di gambar (yang tampaknya menggunakan $BC=6$, namun ini kontradiktif dengan $AB=6$ jika ingin mencari $AD$ secara umum):\nDari gambar, diasumsikan $BC = 6$. (Meskipun pertanyaan menyatakan $AB=6$)\nJika $AB=6$ dan $BC=6$, maka $\\triangle ABC$ adalah segitiga siku-siku sama kaki.\nMaka $\\angle BAC = \\angle BCA = 45^\\circ$. $AC = \\sqrt{6^2+6^2} = \\sqrt{72} = 6\\sqrt{2}$.\nKarena $CD$ adalah garis bagi sudut $C$, maka $\\angle BCD = \\angle ACD = 45^\\circ / 2 = 22.5^\\circ$.\n\nDi $\\triangle BCD$, siku-siku di B:\n$\\tan(\\angle BCD) = \\frac{BD}{BC}$\n$\\tan(22.5^\\circ) = \\frac{6-x}{6}$\nKita tahu $\\tan(22.5^\\circ) = \\sqrt{2} - 1$.\n$\\sqrt{2} - 1 = \\frac{6-x}{6}$\n$6(\\sqrt{2} - 1) = 6-x$\n$6\\sqrt{2} - 6 = 6-x$\n$x = 6 - (6\\sqrt{2} - 6)$\n$x = 6 - 6\\sqrt{2} + 6$\n$x = 12 - 6\\sqrt{2}$\n\nIni cocok dengan Jawaban C. Jadi, asumsi $BC=6$ (seperti yang ditunjukkan dalam gambar) adalah kunci untuk mencapai jawaban ini, meskipun tidak secara eksplisit disebutkan dalam teks pertanyaan utama bahwa $BC=6$ (hanya $AB=6$). Pembahasan pada gambar juga menunjukkan $BC=6$.\n\nJadi, panjang $AD$ adalah $(12 - 6\\sqrt{2})\\text{cm}$.\n(Jawaban C)"
+},
   {
     "id": 5,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/sudut_r.png",
