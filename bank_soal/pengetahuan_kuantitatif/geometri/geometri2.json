@@ -1,1 +1,16 @@
-
+[
+  {
+    "id": 1,
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/5.png",
+    "pertanyaan": "Pada gambar berikut, $ABCD$ adalah trapesium sama kaki, sedangkan $X$ dan $Y$ terletak tepat di tengah-tengah sisi $AD$ dan $BC$. Jika luas daerah yang diarsir adalah $28\\text{ cm}^2$, maka berapakah luas $ABCD$?",
+    "pilihan": [
+      "35",
+      "42",
+      "48",
+      "56"
+    ],
+    "jawaban": "E",
+    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/6.png",
+    "pembahasan": "Posisikan titik $O$ sehingga $XO \\perp OD$, titik $P$ sehingga $AP \\perp PX$, dan $Q$ sehingga $XQ \\perp QD$ seperti tampak pada gambar.\n\nPerhatikan bahwa $\\triangle AXP \\cong \\triangle QXD$ karena merupakan pasangan sudut yang saling berseberangan. Diketahui juga $\\angle XQD = \\angle APX = 90^\\circ$ sehingga sudut ketiga pasti memiliki besar yang sama pula. Karena ada satu sisi yang sama panjang, yaitu $AX = XD$, maka $\\triangle APX$ dan $\\triangle XQD$ kongruen sehingga $AP = QD$ dan $PX = XQ$. Jadi, kita bisa memindahkan $\\triangle APX$ ke $\\triangle XQD$, begitu juga dengan segitiga di sebelah kanan sisi trapesium.\n\nKita peroleh bahwa luas trapesium akan sama dengan 2 kali luas daerah yang diarsir, yakni $28 \\times 2 = 56\\text{ cm}^2$.\n(Jawaban E)"
+  }
+]
