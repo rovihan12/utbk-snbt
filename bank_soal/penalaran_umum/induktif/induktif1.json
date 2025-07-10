@@ -1,72 +1,392 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Observasi 1: Kucing A mengeong saat lapar.\nObservasi 2: Kucing B mengeong saat lapar.\nObservasi 3: Kucing C mengeong saat lapar.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Semua kucing mengeong saat lapar.", "Beberapa kucing mengeong saat lapar.", "Kucing A, B, dan C adalah kucing yang lapar.", "Kucing mengeong hanya karena lapar.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "A",
-    "pembahasan": "Dari beberapa observasi spesifik bahwa kucing yang berbeda mengeong saat lapar, ditarik kesimpulan umum bahwa 'semua kucing mengeong saat lapar'. Ini adalah generalisasi yang khas dalam penalaran induktif."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-3. \n\n**Teks 1** \n\nIndonesia merupakan negara kepulauan yang kaya akan keberagaman, baik dari segi budaya, bahasa, suku, maupun agama. Keberagaman ini menjadi salah satu pilar utama identitas bangsa yang harus terus dijaga dan dilestarikan. Namun, di tengah pesatnya arus globalisasi, tantangan untuk menjaga persatuan dalam keberagaman semakin kompleks. Munculnya berbagai isu polarisasi, radikalisasi, dan disinformasi dapat mengancam keutuhan bangsa jika tidak dikelola dengan bijak.\n\nSalah satu upaya penting dalam menjaga keberagaman adalah melalui pendidikan multikultural. Pendidikan ini tidak hanya mengajarkan tentang perbedaan, tetapi juga menanamkan nilai-nilai toleransi, saling menghargai, dan gotong royong. Dengan demikian, generasi muda dapat memahami pentingnya hidup berdampingan secara harmonis meskipun memiliki latar belakang yang berbeda. Selain itu, peran media massa dan teknologi informasi juga sangat krusial dalam menyebarkan narasi positif tentang keberagaman dan melawan segala bentuk ujaran kebencian.\n\nApakah ide pokok paragraf pertama teks tersebut?",
+    "pilihan": [
+      "Indonesia adalah negara kepulauan.",
+      "Kekayaan keberagaman Indonesia sebagai pilar identitas bangsa.",
+      "Tantangan globalisasi terhadap persatuan bangsa.",
+      "Pentingnya menjaga keutuhan bangsa dari polarisasi.",
+      "Indonesia kaya akan budaya dan bahasa."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ide pokok paragraf pertama adalah kekayaan keberagaman Indonesia sebagai salah satu pilar utama identitas bangsa yang harus dijaga dan dilestarikan. Kalimat pertama dan kedua secara langsung menyatakan hal ini."
   },
   {
     "id": 2,
-    "pertanyaan": "Observasi 1: Setiap hari Senin, pasar ramai.\nObservasi 2: Setiap hari Selasa, pasar tidak terlalu ramai.\nObservasi 3: Setiap hari Rabu, pasar sepi.\n\nJika besok adalah hari Senin, apa yang paling mungkin terjadi di pasar?",
-    "pilihan": ["Pasar akan sepi.", "Pasar akan tidak terlalu ramai.", "Pasar akan ramai.", "Pasar akan ditutup.", "Tidak ada pola yang jelas."],
+    "pertanyaan": "Berdasarkan Teks 1, apa saja tantangan yang dapat mengancam keutuhan bangsa di tengah arus globalisasi?",
+    "pilihan": [
+      "Perbedaan budaya dan bahasa.",
+      "Kurangnya pendidikan multikultural.",
+      "Polarisasi, radikalisasi, dan disinformasi.",
+      "Peran media massa yang negatif.",
+      "Globalisasi yang terlalu cepat."
+    ],
     "jawaban": "C",
-    "pembahasan": "Berdasarkan observasi pola hari-hari sebelumnya, pasar cenderung ramai pada hari Senin. Oleh karena itu, secara induktif, besok (Senin) pasar kemungkinan besar akan ramai."
+    "pembahasan": "Pada paragraf pertama, kalimat ketiga menyatakan 'Munculnya berbagai isu **polarisasi, radikalisasi, dan disinformasi** dapat mengancam keutuhan bangsa jika tidak dikelola dengan bijak.' Ini adalah tantangan yang disebutkan."
   },
   {
     "id": 3,
-    "pertanyaan": "Pola bilangan: 1, 3, 5, 7, ...\nBilangan selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["8", "9", "10", "11", "12"],
+    "pertanyaan": "Apa manfaat utama dari pendidikan multikultural menurut Teks 1?",
+    "pilihan": [
+      "Mengajarkan perbedaan budaya.",
+      "Menanamkan nilai toleransi dan gotong royong.",
+      "Membantu generasi muda memahami latar belakang berbeda.",
+      "Menyebarkan narasi positif tentang keberagaman.",
+      "Melawan ujaran kebencian."
+    ],
     "jawaban": "B",
-    "pembahasan": "Pola bilangan ini adalah bilangan ganjil berurutan. Setiap bilangan berikutnya didapatkan dengan menambahkan 2 ke bilangan sebelumnya. Jadi, 7 + 2 = 9."
+    "pembahasan": "Pada paragraf kedua, kalimat kedua menyatakan 'Pendidikan ini tidak hanya mengajarkan tentang perbedaan, tetapi juga **menanamkan nilai-nilai toleransi, saling menghargai, dan gotong royong.**' Ini adalah manfaat utamanya."
   },
   {
     "id": 4,
-    "pertanyaan": "Observasi 1: Daun-daun di pohon A menguning di musim kemarau.\nObservasi 2: Daun-daun di pohon B menguning di musim kemarau.\nObservasi 3: Daun-daun di pohon C menguning di musim kemarau.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Semua daun menguning di musim kemarau.", "Beberapa daun menguning di musim kemarau.", "Daun menguning hanya karena musim kemarau.", "Pohon A, B, dan C adalah pohon yang daunnya menguning.", "Musim kemarau menyebabkan daun menguning."],
-    "jawaban": "E",
-    "pembahasan": "Dari observasi berulang bahwa daun-daun menguning di musim kemarau, dapat disimpulkan secara induktif bahwa musim kemarau *menyebabkan* atau *berkontribusi pada* fenomena daun menguning. Ini adalah inferensi kausal yang umum dalam penalaran induktif."
+    "pertanyaan": "Mana dari pilihan berikut yang merupakan sinonim dari kata 'krusial' dalam konteks Teks 1?",
+    "pilihan": [
+      "Penting",
+      "Umum",
+      "Tambahan",
+      "Tidak relevan",
+      "Sederhana"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kata 'krusial' berarti sangat penting atau menentukan. Dalam konteks 'peran media massa dan teknologi informasi juga sangat krusial', ini berarti peran tersebut sangat penting."
   },
   {
     "id": 5,
-    "pertanyaan": "Pola gambar: Lingkaran, Segitiga, Persegi, Lingkaran, Segitiga, ...\nGambar selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Lingkaran", "Segitiga", "Persegi", "Oval", "Tidak ada pola yang jelas."],
+    "pertanyaan": "Mana pernyataan yang paling tepat menggambarkan isi Teks 1?",
+    "pilihan": [
+      "Globalisasi hanya membawa dampak negatif bagi Indonesia.",
+      "Pendidikan multikultural adalah satu-satunya cara menjaga persatuan.",
+      "Keberagaman Indonesia perlu dijaga melalui berbagai upaya, termasuk pendidikan dan peran media.",
+      "Media massa selalu menyebarkan disinformasi yang mengancam bangsa.",
+      "Hanya generasi muda yang bertanggung jawab menjaga keberagaman."
+    ],
     "jawaban": "C",
-    "pembahasan": "Pola gambar ini berulang setiap tiga elemen: Lingkaran, Segitiga, Persegi. Setelah 'Lingkaran, Segitiga', maka gambar selanjutnya adalah 'Persegi' untuk menyelesaikan siklus."
+    "pembahasan": "Teks ini membahas tentang pentingnya menjaga keberagaman Indonesia dan berbagai upaya yang dapat dilakukan, seperti pendidikan multikultural dan peran media massa, untuk menghadapi tantangan globalisasi."
   },
   {
     "id": 6,
-    "pertanyaan": "Observasi 1: Uji coba obat X pada pasien 1 menunjukkan penurunan gejala.\nObservasi 2: Uji coba obat X pada pasien 2 menunjukkan penurunan gejala.\nObservasi 3: Uji coba obat X pada pasien 3 menunjukkan penurunan gejala.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Obat X pasti efektif untuk semua pasien.", "Obat X mungkin efektif untuk menurunkan gejala.", "Pasien 1, 2, dan 3 akan sembuh total.", "Obat X tidak memiliki efek samping.", "Penurunan gejala hanya disebabkan oleh obat X."],
-    "jawaban": "B",
-    "pembahasan": "Dari beberapa kasus spesifik yang menunjukkan efektivitas, ditarik kesimpulan umum yang bersifat probabilistik: 'Obat X *mungkin* efektif'. Penalaran induktif menghasilkan kesimpulan yang tidak pasti, tetapi memiliki probabilitas tinggi."
+    "pertanyaan": "Kata 'pilar' dalam 'salah satu pilar utama identitas bangsa' pada paragraf pertama Teks 1 dapat diganti dengan kata...",
+    "pilihan": [
+      "Penyangga",
+      "Hiasan",
+      "Beban",
+      "Kendala",
+      "Ciri"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Dalam konteks ini, 'pilar' berarti fondasi, tiang penyangga, atau sesuatu yang menjadi dasar atau kekuatan utama. Oleh karena itu, 'penyangga' adalah sinonim yang paling tepat."
   },
   {
     "id": 7,
-    "pertanyaan": "Pola huruf: A, C, E, G, ...\nHuruf selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["H", "I", "J", "K", "L"],
-    "jawaban": "D",
-    "pembahasan": "Pola huruf ini adalah huruf abjad dengan lompatan satu huruf di antaranya (huruf ganjil). A (lewati B) C (lewati D) E (lewati F) G (lewati H) I."
+    "pertanyaan": "Pilihlah kata yang memiliki makna berlawanan dengan 'harmonis' dalam konteks hubungan sosial.",
+    "pilihan": [
+      "Serasi",
+      "Selaras",
+      "Konflik",
+      "Damai",
+      "Rukun"
+    ],
+    "jawaban": "C",
+    "pembahasan": "'Harmonis' berarti adanya keselarasan, keserasian, dan tanpa konflik. Kebalikannya adalah adanya 'konflik' atau pertentangan."
   },
   {
     "id": 8,
-    "pertanyaan": "Observasi 1: Setiap kali saya menyentuh setrika panas, tangan saya terbakar.\nObservasi 2: Saudara saya menyentuh setrika panas, tangannya terbakar.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Setrika selalu panas.", "Setrika panas menyebabkan tangan terbakar.", "Tangan saya pasti akan terbakar lagi.", "Setrika panas berbahaya hanya untuk saya.", "Tidak ada hubungan antara setrika panas dan tangan terbakar."],
+    "pertanyaan": "Manakah kalimat yang menggunakan kata penghubung yang menyatakan hubungan pertentangan?",
+    "pilihan": [
+      "Dia belajar giat **sehingga** lulus ujian.",
+      "Adik suka membaca **tetapi** kakaknya lebih suka bermain game.",
+      "Kami akan pergi piknik **jika** cuaca cerah.",
+      "Pemerintah memberikan bantuan **agar** rakyat sejahtera.",
+      "Dia adalah siswa yang pintar **dan** rajin."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari observasi berulang bahwa menyentuh setrika panas selalu mengakibatkan tangan terbakar, ditarik kesimpulan umum yang bersifat kausal: 'Setrika panas menyebabkan tangan terbakar'."
+    "pembahasan": "Kata penghubung 'tetapi' digunakan untuk menyatakan hubungan pertentangan antara dua klausa atau gagasan."
   },
   {
     "id": 9,
-    "pertanyaan": "Pola warna: Merah, Kuning, Hijau, Merah, Kuning, ...\nWarna selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Merah", "Kuning", "Hijau", "Biru", "Putih"],
-    "jawaban": "C",
-    "pembahasan": "Pola warna ini berulang setiap tiga elemen: Merah, Kuning, Hijau. Setelah 'Merah, Kuning', maka warna selanjutnya adalah 'Hijau' untuk menyelesaikan siklus."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 9-11.\n\n**Teks 2**\n\nPerubahan iklim menjadi isu global yang mendesak untuk ditangani. Peningkatan suhu rata-rata bumi, mencairnya gletser, dan kenaikan permukaan air laut adalah beberapa indikator nyata dari fenomena ini. Aktivitas manusia, terutama emisi gas rumah kaca dari pembakaran bahan bakar fosil, merupakan kontributor utama. Dampak perubahan iklim sangat luas, meliputi gangguan pola cuaca ekstrem, krisis pangan akibat gagal panen, hingga risiko kesehatan yang meningkat. Diperlukan tindakan kolektif dari berbagai negara, baik dalam mitigasi (pengurangan emisi) maupun adaptasi (menyesuaikan diri dengan dampak yang sudah terjadi). Tanpa upaya serius, generasi mendatang akan menghadapi krisis lingkungan yang lebih parah.\n\nApa gagasan utama paragraf Teks 2?",
+    "pilihan": [
+      "Peningkatan suhu bumi sebagai indikator perubahan iklim.",
+      "Aktivitas manusia penyebab utama perubahan iklim.",
+      "Dampak perubahan iklim yang sangat luas.",
+      "Urgensi penanganan perubahan iklim dan tindakan yang diperlukan.",
+      "Generasi mendatang akan menghadapi krisis lingkungan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Gagasan utama paragraf ini adalah tentang urgensi perubahan iklim sebagai isu global yang mendesak untuk ditangani, beserta penyebab, dampak, dan tindakan yang diperlukan (mitigasi dan adaptasi)."
   },
   {
     "id": 10,
-    "pertanyaan": "Observasi 1: Sebagian besar siswa yang mengikuti les tambahan lulus ujian dengan nilai tinggi.\nObservasi 2: Dina mengikuti les tambahan dan lulus ujian dengan nilai tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Les tambahan menjamin kelulusan dengan nilai tinggi.", "Les tambahan tidak berpengaruh pada nilai ujian.", "Mengikuti les tambahan meningkatkan peluang lulus dengan nilai tinggi.", "Hanya siswa yang mengikuti les tambahan yang lulus dengan nilai tinggi.", "Tidak ada hubungan antara les tambahan dan nilai ujian."],
+    "pertanyaan": "Berdasarkan Teks 2, mengapa diperlukan tindakan 'mitigasi' dan 'adaptasi' dalam penanganan perubahan iklim?",
+    "pilihan": [
+      "Mitigasi untuk mengurangi dampak, adaptasi untuk mengurangi emisi.",
+      "Mitigasi untuk menyesuaikan diri, adaptasi untuk mengurangi emisi.",
+      "Mitigasi untuk mengurangi emisi, adaptasi untuk menyesuaikan diri dengan dampak.",
+      "Keduanya untuk mengurangi emisi gas rumah kaca.",
+      "Keduanya untuk menyesuaikan diri dengan pola cuaca ekstrem."
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari observasi bahwa 'sebagian besar' siswa yang les tambahan berhasil, dan ada contoh spesifik (Dina), disimpulkan secara induktif bahwa les tambahan 'meningkatkan peluang' keberhasilan. Ini adalah kesimpulan probabilitas, bukan kepastian."
+    "pembahasan": "Pada kalimat 'Diperlukan tindakan kolektif dari berbagai negara, baik dalam **mitigasi (pengurangan emisi) maupun adaptasi (menyesuaikan diri dengan dampak yang sudah terjadi)**', dijelaskan fungsi dari kedua tindakan tersebut."
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Implikasi dari Teks 2 adalah...",
+    "pilihan": [
+      "Perubahan iklim adalah fenomena alam biasa yang tidak perlu dikhawatirkan.",
+      "Dampak perubahan iklim hanya terasa di negara-negara berkembang.",
+      "Tanggung jawab penanganan perubahan iklim hanya ada pada pemerintah.",
+      "Aktivitas manusia memiliki peran signifikan dalam memperburuk perubahan iklim.",
+      "Krisis pangan adalah satu-satunya dampak serius dari perubahan iklim."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'Aktivitas manusia, terutama emisi gas rumah kaca dari pembakaran bahan bakar fosil, merupakan kontributor utama' perubahan iklim, menunjukkan peran signifikan manusia."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Manakah kalimat yang efektif dan baku?",
+    "pilihan": [
+      "Bagi semua mahasiswa diharapkan hadir tepat waktu.",
+      "Para hadirin sekalian dimohon untuk tenang.",
+      "Saya tidak bisa datang dikarenakan sakit.",
+      "Upacara bendera itu akan kami laksanakan pada hari Senin.",
+      "Dengan hormat, diberitahukan bahwa rapat akan ditunda."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pilihan A redundan ('bagi semua mahasiswa'). Pilihan B redundan ('para hadirin sekalian'). Pilihan C penggunaan 'dikarenakan' kurang tepat, lebih baik 'karena'. Pilihan E penggunaan 'Dengan hormat' di awal kalimat terlalu formal dan kurang efektif untuk kalimat berita."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Cermati kalimat berikut:\n\n'Meskipun sudah berulang kali diingatkan, Andi tetap saja melakukan kesalahan yang sama.'\n\nHubungan antarklausa dalam kalimat di atas adalah...",
+    "pilihan": [
+      "Sebab-akibat",
+      "Perbandingan",
+      "Konsesif (pertentangan)",
+      "Tujuan",
+      "Syarat"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Kata penghubung 'Meskipun' atau 'walaupun' menunjukkan hubungan konsesif atau pertentangan, di mana ada suatu hal yang seharusnya terjadi (berubah) tetapi tidak terjadi."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Penggunaan tanda baca koma (,) yang tepat terdapat pada kalimat...",
+    "pilihan": [
+      "Ia membeli, sayur, buah, dan daging.",
+      "Saya suka membaca buku, novel, dan puisi.",
+      "Ayah pergi ke kantor, tetapi Ibu di rumah.",
+      "Dia adalah anak yang pandai, rajin, dan sopan.",
+      "Semua siswa, baik laki-laki maupun perempuan, wajib ikut kegiatan ini."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Pilihan A: Koma setelah 'membeli' tidak diperlukan. Pilihan B: Koma tidak diperlukan setelah 'buku'. Pilihan C: Koma sudah benar, tetapi kalimat di pilihan E juga benar. Pilihan D: Koma tidak diperlukan setelah 'pandai'. Pilihan E: Koma digunakan untuk memisahkan klausa sisipan (appositive phrase) 'baik laki-laki maupun perempuan'."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 15-17.\n\n**Teks 3**\n\nFenomena urbanisasi, perpindahan penduduk dari desa ke kota, terus menunjukkan tren peningkatan di banyak negara berkembang. Daya tarik kota dengan janji peluang ekonomi, akses pendidikan yang lebih baik, serta fasilitas kesehatan yang memadai menjadi magnet utama. Namun, urbanisasi yang tidak terencana dengan baik kerap menimbulkan berbagai masalah kompleks. Overpopulasi, kemacetan, peningkatan angka kriminalitas, dan munculnya permukiman kumuh adalah beberapa konsekuensi negatif yang sering terjadi. Pemerintah perlu merancang kebijakan komprehensif, tidak hanya fokus pada pembangunan infrastruktur di kota, tetapi juga pada pengembangan potensi desa. Pemberdayaan ekonomi desa, peningkatan kualitas pendidikan, dan penyediaan fasilitas dasar di pedesaan dapat menjadi strategi efektif untuk mengurangi laju urbanisasi dan menciptakan keseimbangan pembangunan antara desa dan kota.\n\nManakah pernyataan yang tidak sesuai dengan isi Teks 3?",
+    "pilihan": [
+      "Urbanisasi adalah perpindahan penduduk dari desa ke kota.",
+      "Peluang ekonomi adalah salah satu daya tarik utama kota.",
+      "Urbanisasi selalu membawa dampak negatif bagi suatu negara.",
+      "Permukiman kumuh merupakan salah satu dampak negatif urbanisasi.",
+      "Pengembangan potensi desa dapat mengurangi laju urbanisasi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa urbanisasi 'kerap menimbulkan berbagai masalah kompleks' dan 'konsekuensi negatif', bukan 'selalu membawa dampak negatif'. Ada potensi dampak positif yang tidak disinggung, tetapi fokusnya adalah pada masalah yang muncul ketika tidak terencana. Pilihan C terlalu absolut."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Berdasarkan Teks 3, apa hubungan antara pembangunan infrastruktur di kota dan pengembangan potensi desa dalam konteks urbanisasi?",
+    "pilihan": [
+      "Pembangunan infrastruktur kota adalah prioritas utama, sedangkan pengembangan desa tidak relevan.",
+      "Keduanya merupakan dua sisi mata uang yang saling bertentangan.",
+      "Pembangunan infrastruktur kota harus dihentikan demi pengembangan desa.",
+      "Pemerintah harus fokus hanya pada pembangunan infrastruktur di kota.",
+      "Keseimbangan pembangunan keduanya penting untuk mengurangi urbanisasi yang tidak terencana."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Teks menyatakan 'Pemerintah perlu merancang kebijakan komprehensif, tidak hanya fokus pada pembangunan infrastruktur di kota, tetapi juga pada pengembangan potensi desa... untuk mengurangi laju urbanisasi dan menciptakan keseimbangan pembangunan antara desa dan kota.' Ini menunjukkan pentingnya keseimbangan."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Jika laju urbanisasi terus meningkat tanpa kendali, apa prediksi yang paling mungkin terjadi berdasarkan Teks 3?",
+    "pilihan": [
+      "Keseimbangan pembangunan antara desa dan kota akan tercapai.",
+      "Kualitas hidup di perkotaan akan meningkat pesat.",
+      "Masalah seperti overpopulasi dan kemacetan akan semakin parah.",
+      "Peluang ekonomi di pedesaan akan meningkat.",
+      "Akses pendidikan dan kesehatan di desa akan membaik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara langsung menyebutkan bahwa 'Urbanisasi yang tidak terencana dengan baik kerap menimbulkan berbagai masalah kompleks. Overpopulasi, kemacetan, peningkatan angka kriminalitas, dan munculnya permukiman kumuh adalah beberapa konsekuensi negatif yang sering terjadi.' Jadi, jika tanpa kendali, masalah ini akan memburuk."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Perhatikan kalimat-kalimat berikut:\n\n1. Internet adalah salah satu sumber informasi paling cepat dan mudah diakses di era modern ini.\n2. Namun, informasi yang tersebar di internet tidak selalu akurat.\n3. Oleh karena itu, penting bagi kita untuk selalu memverifikasi kebenaran informasi sebelum mempercayainya.\n4. Banyak hoaks dan disinformasi beredar luas di platform digital.\n\nSusunan kalimat yang tepat agar menjadi paragraf padu adalah...",
+    "pilihan": [
+      "1-2-3-4",
+      "1-2-4-3",
+      "2-1-3-4",
+      "4-2-1-3",
+      "3-1-2-4"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Urutan yang paling logis adalah:\n1.  **Pengenalan:** Internet sebagai sumber informasi yang cepat dan mudah (Kalimat 1).\n2.  **Kontradiksi/Masalah:** Namun, informasi tidak selalu akurat (Kalimat 2).\n3.  **Penjelasan Masalah:** Banyak hoaks dan disinformasi beredar (Kalimat 4).\n4.  **Solusi/Kesimpulan:** Oleh karena itu, penting memverifikasi informasi (Kalimat 3).\nJadi, 1-2-4-3."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Kalimat manakah yang mengandung penggunaan majas metafora?",
+    "pilihan": [
+      "Angin berbisik lembut di telingaku.",
+      "Wajahnya pucat pasi seperti mayat.",
+      "Dia adalah singa podium yang tak tertandingi.",
+      "Pohon-pohon menari gembira menyambut hujan.",
+      "Suaranya merdu bagaikan lantunan melodi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Majas metafora adalah gaya bahasa yang membandingkan dua hal yang berbeda secara langsung tanpa menggunakan kata perbandingan seperti 'bagaikan', 'seperti', atau 'bagai'. 'Singa podium' secara langsung membandingkan seseorang dengan singa (hewan buas yang kuat) untuk menunjukkan kegigihan atau kekuatan dalam berpidato. Pilihan A dan D adalah personifikasi. Pilihan B dan E adalah simile."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Cermati paragraf rumpang berikut:\n\nPariwisata di Indonesia memiliki potensi yang sangat besar. Banyak destinasi wisata alam dan budaya yang memukau wisatawan, baik lokal maupun mancanegara. Pemerintah terus berupaya mengembangkan sektor ini, namun masih ada beberapa tantangan yang harus diatasi. Salah satunya adalah infrastruktur yang belum merata, terutama di daerah-daerah terpencil. Selain itu, ______ juga menjadi perhatian, terutama terkait dengan kebersihan dan kenyamanan pengunjung.\n\nKata atau frasa yang paling tepat untuk mengisi bagian rumpang tersebut adalah...",
+    "pilihan": [
+      "promosi wisata",
+      "kualitas pelayanan",
+      "jumlah wisatawan",
+      "keindahan alam",
+      "keragaman budaya"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Bagian rumpang merujuk pada aspek 'kebersihan dan kenyamanan pengunjung'. Ini secara langsung berkaitan dengan **kualitas pelayanan** di destinasi wisata. Pilihan lain tidak secara langsung mencakup aspek kebersihan dan kenyamanan pengunjung."
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 21-23.\n\n**Teks 4**\n\nDalam beberapa dekade terakhir, digitalisasi telah merasuk ke hampir setiap sendi kehidupan manusia. Mulai dari komunikasi, pendidikan, ekonomi, hingga hiburan, semuanya kini tak lepas dari sentuhan teknologi digital. Perkembangan ini membawa kemudahan yang tak terbayangkan sebelumnya. Informasi dapat diakses dalam hitungan detik, transaksi keuangan bisa dilakukan kapan saja dan di mana saja, serta interaksi sosial tidak lagi terhalang jarak. Namun, di balik segala kemudahan tersebut, digitalisasi juga memunculkan tantangan serius. Isu privasi data, ancaman siber, ketergantungan berlebihan pada gawai, serta kesenjangan digital antara mereka yang memiliki akses dan yang tidak, adalah beberapa masalah yang perlu diwaspadai. Oleh karena itu, diperlukan literasi digital yang kuat agar masyarakat dapat memanfaatkan teknologi secara bijak dan aman, serta mampu menghadapi risiko yang menyertainya.\n\nManakah pernyataan yang paling tepat menggambarkan fokus utama Teks 4?",
+    "pilihan": [
+      "Kesenjangan digital di era modern.",
+      "Dampak positif digitalisasi dalam berbagai aspek kehidupan.",
+      "Tantangan privasi data di era digital.",
+      "Dampak digitalisasi, baik kemudahan maupun tantangannya, serta pentingnya literasi digital.",
+      "Ketergantungan pada gawai sebagai masalah utama digitalisasi."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks ini secara komprehensif membahas baik kemudahan (manfaat) maupun tantangan (masalah) yang ditimbulkan oleh digitalisasi, serta menekankan pentingnya literasi digital sebagai solusinya. Pilihan lain hanya fokus pada sebagian kecil isi teks."
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Berdasarkan Teks 4, apa yang dimaksud dengan 'literasi digital' dalam konteks menghadapi tantangan digitalisasi?",
+    "pilihan": [
+      "Kemampuan mengoperasikan semua jenis gawai terbaru.",
+      "Kemampuan mengakses informasi dengan cepat di internet.",
+      "Kemampuan memanfaatkan teknologi secara bijak dan aman, serta menghadapi risikonya.",
+      "Kemampuan melakukan transaksi keuangan secara online.",
+      "Kemampuan membangun program komputer."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pada kalimat terakhir, 'Oleh karena itu, diperlukan literasi digital yang kuat agar masyarakat dapat **memanfaatkan teknologi secara bijak dan aman, serta mampu menghadapi risiko yang menyertainya.**' Ini adalah definisi literasi digital yang dimaksud."
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Implikasi logis dari pernyataan 'digitalisasi juga memunculkan tantangan serius' dalam Teks 4 adalah...",
+    "pilihan": [
+      "Digitalisasi seharusnya dihentikan untuk menghindari masalah.",
+      "Masyarakat tidak perlu khawatir karena teknologi akan menyelesaikan masalahnya sendiri.",
+      "Diperlukan upaya untuk mengelola risiko dan memastikan pemanfaatan teknologi yang positif.",
+      "Kesenjangan digital akan hilang dengan sendirinya.",
+      "Setiap orang harus memiliki akses internet berkecepatan tinggi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Jika digitalisasi memunculkan tantangan serius, implikasi logisnya adalah kita perlu melakukan sesuatu untuk mengelola tantangan tersebut. Pilihan C, 'Diperlukan upaya untuk mengelola risiko dan memastikan pemanfaatan teknologi yang positif', adalah konsekuensi paling tepat, didukung oleh kalimat terakhir teks tentang pentingnya literasi digital."
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Cermati penggunaan kata berimbuhan 'me-' pada kalimat berikut:\n\n'Pemerintah **menggalakkan** program vaksinasi untuk menekan laju penyebaran virus.'\n\nMakna imbuhan 'me-' pada kata 'menggalakkan' memiliki kesamaan makna dengan imbuhan 'me-' pada kata...",
+    "pilihan": [
+      "memakan",
+      "membuat",
+      "menulis",
+      "mencintai",
+      "mempercepat"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Imbuhan 'me-' pada 'menggalakkan' bermakna 'menjadikan lebih giat/bersemangat' atau 'memacu'. Imbuhan 'memper-' pada 'mempercepat' memiliki makna 'menjadikan lebih cepat'. Dalam konteks ini, 'menggalakkan' bermakna kausatif (menyebabkan sesuatu menjadi lebih intens/giat), yang mirip dengan 'mempercepat' yang berarti menyebabkan sesuatu menjadi lebih cepat. Pilihan lain adalah makna aktif transitif biasa (memakan, membuat, menulis) atau afektif (mencintai)."
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Manakah kalimat yang menggunakan kata yang bermakna konotasi negatif?",
+    "pilihan": [
+      "Anak itu dikenal sebagai **bunga desa** karena kecantikannya.",
+      "Dia selalu menjadi **kambing hitam** setiap kali ada masalah di tim.",
+      "Pidato presiden **menggugah** semangat kebangsaan rakyat.",
+      "Rumah tua itu kini menjadi **sarang** burung walet.",
+      "Harga kebutuhan pokok semakin **melambung** tinggi."
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Konotasi negatif** adalah makna tambahan pada suatu kata yang menimbulkan kesan tidak baik atau buruk. 'Kambing hitam' secara konotatif berarti 'orang yang dipersalahkan (dijadikan tumpuan kesalahan) padahal ia tidak bersalah', yang jelas memiliki makna negatif. 'Bunga desa' (konotasi positif), 'menggugah' (netral/positif), 'sarang' (netral), 'melambung' (netral untuk harga) tidak memiliki konotasi negatif dalam konteks kalimat tersebut."
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Baca teks berikut dengan saksama.\n\n**Teks 5**\n\nDebat mengenai penggunaan energi nuklir sebagai alternatif energi bersih terus bergulir. Para pendukungnya berargumen bahwa energi nuklir menawarkan solusi jangka panjang untuk krisis energi global karena emisinya yang hampir nol karbon dan kemampuannya menghasilkan listrik dalam skala besar secara stabil. Mereka juga menekankan kemajuan teknologi keselamatan yang telah dicapai, membuat risiko kecelakaan reaktor sangat rendah. Di sisi lain, kritikus energi nuklir menyoroti potensi bahaya yang luar biasa dari limbah radioaktif yang dihasilkan, yang memerlukan penyimpanan aman selama ribuan tahun. Risiko proliferasi nuklir (penyebaran senjata nuklir) dan kemungkinan bencana yang tak terbayangkan jika terjadi kecelakaan besar, meskipun kecil kemungkinannya, tetap menjadi kekhawatiran utama. Oleh karena itu, keputusan untuk mengadopsi atau menolak energi nuklir harus mempertimbangkan berbagai aspek secara komprehensif, tidak hanya dari segi teknis tetapi juga sosial, lingkungan, dan politik.\n\nBerdasarkan Teks 5, apa argumen utama yang digunakan oleh **kritikus** energi nuklir?",
+    "pilihan": [
+      "Emisi karbonnya yang hampir nol.",
+      "Kemampuannya menghasilkan listrik dalam skala besar secara stabil.",
+      "Kemajuan teknologi keselamatan reaktor.",
+      "Potensi bahaya limbah radioaktif dan risiko proliferasi nuklir.",
+      "Solusi jangka panjang untuk krisis energi global."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'kritikus energi nuklir menyoroti **potensi bahaya yang luar biasa dari limbah radioaktif yang dihasilkan, yang memerlukan penyimpanan aman selama ribuan tahun. Risiko proliferasi nuklir... dan kemungkinan bencana yang tak terbayangkan jika terjadi kecelakaan besar**... tetap menjadi kekhawatiran utama.' Pilihan A, B, dan C adalah argumen para pendukung."
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Manakah kesimpulan yang paling tepat ditarik dari Teks 5?",
+    "pilihan": [
+      "Energi nuklir adalah solusi terbaik dan satu-satunya untuk krisis energi global.",
+      "Risiko energi nuklir lebih besar daripada manfaatnya, sehingga harus dihindari.",
+      "Teknologi keselamatan nuklir sudah sempurna dan tidak ada risiko kecelakaan.",
+      "Debat tentang energi nuklir melibatkan pertimbangan kompleks dari berbagai sudut pandang yang harus dievaluasi secara menyeluruh.",
+      "Limbah radioaktif dari energi nuklir dapat dengan mudah diatasi."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks ini menyajikan argumen dari kedua belah pihak (pendukung dan kritikus) dan diakhiri dengan menekankan bahwa 'keputusan untuk mengadopsi atau menolak energi nuklir harus mempertimbangkan berbagai aspek secara komprehensif, tidak hanya dari segi teknis tetapi juga sosial, lingkungan, dan politik.' Ini menunjukkan kompleksitas masalah dan perlunya evaluasi menyeluruh."
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Mengapa penulis Teks 5 menyebutkan 'kemungkinan bencana yang tak terbayangkan jika terjadi kecelakaan besar, meskipun kecil kemungkinannya'?",
+    "pilihan": [
+      "Untuk meyakinkan pembaca bahwa energi nuklir sangat berbahaya.",
+      "Untuk menunjukkan bahwa kritikus berlebihan dalam kekhawatiran mereka.",
+      "Untuk mengakui adanya risiko yang signifikan, walaupun probabilitasnya rendah, yang menjadi perhatian kritikus.",
+      "Untuk menyiratkan bahwa kecelakaan besar sering terjadi di fasilitas nuklir.",
+      "Untuk mendukung penuh penggunaan energi nuklir karena risikonya kecil."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Frasa 'meskipun kecil kemungkinannya' adalah sebuah pengakuan terhadap probabilitas yang rendah. Namun, dengan menyebutkan 'bencana yang tak terbayangkan', penulis menyoroti bahwa dampak potensialnya sangat besar, dan ini adalah salah satu kekhawatiran utama bagi kritikus. Ini adalah upaya untuk menyajikan argumen kritikus secara adil, meskipun penulis juga mengakui probabilitasnya."
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Cermati dua kalimat berikut:\n\n1. Pemerintah berupaya meningkatkan kualitas pendidikan. \n2. Hal itu bertujuan untuk menciptakan generasi muda yang cerdas dan berdaya saing.\n\nKata penghubung yang paling tepat untuk menggabungkan kedua kalimat tersebut menjadi satu kalimat kompleks adalah...",
+    "pilihan": [
+      "agar",
+      "dan",
+      "tetapi",
+      "karena",
+      "sehingga"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kalimat kedua menyatakan tujuan dari tindakan di kalimat pertama. Kata penghubung 'agar' atau 'supaya' digunakan untuk menyatakan tujuan. Jadi, 'Pemerintah berupaya meningkatkan kualitas pendidikan **agar** menciptakan generasi muda yang cerdas dan berdaya saing.'"
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Manakah pernyataan yang paling tepat terkait penggunaan ejaan dan tanda baca dalam kalimat berikut?\n\n'Dia berkata, \"Saya akan datang besok, jika tidak ada halangan\".'\n",
+    "pilihan": [
+      "Tanda koma setelah 'berkata' tidak diperlukan.",
+      "Tanda petik penutup seharusnya berada setelah tanda titik.",
+      "Tidak ada kesalahan dalam penggunaan ejaan dan tanda baca.",
+      "Tanda koma setelah 'besok' seharusnya tidak ada.",
+      "Tanda petik penutup seharusnya berada sebelum tanda titik."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Menurut kaidah PUEBI (Pedoman Umum Ejaan Bahasa Indonesia), tanda petik penutup (\" ) diletakkan sebelum tanda baca penutup kalimat (. , ? !). Dalam kalimat tersebut, 'halangan' adalah akhir dari kalimat yang dikutip, sehingga seharusnya ada tanda titik setelah 'halangan' dan sebelum tanda petik penutup. Jadi, yang benar adalah 'Dia berkata, \"Saya akan datang besok, jika tidak ada halangan.\"'."
   }
 ]
