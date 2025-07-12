@@ -2,7 +2,7 @@
   {
     "id": 1,
     "kategori": "Mudah",
-    "pertanyaan": "Bentuk sederhana dari $(2^3 \\times 2^5)$ adalah...",
+    "pertanyaan": "Bentuk sederhana dari $2^3 \\times 2^5$ adalah...",
     "pilihan": [
       "$2^8$",
       "$2^{15}$",
@@ -11,7 +11,7 @@
       "$8^{15}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat eksponen $a^m \\times a^n = a^{m+n}$.\\n$2^3 \\times 2^5 = 2^{3+5} = 2^8$"
+    "pembahasan": "Gunakan sifat eksponen $a^m \\times a^n = a^{m+n}$.\n$2^3 \\times 2^5 = 2^{3+5} = 2^8$"
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "kategori": "Mudah",
-    "pertanyaan": "Jika $5^x = 125$, maka nilai x adalah...",
+    "pertanyaan": "Jika $5^x = 125$, maka nilai $x$ adalah...",
     "pilihan": [
       "2",
       "3",
@@ -50,7 +50,7 @@
       "$\\log 100 = 2$",
       "$\\log_{10} 100 = 2$",
       "$\\log_{100} 10 = 2$",
-      "$\\log_{2} 100 = 10$"
+      "$\\log_2 100 = 10$"
     ],
     "jawaban": "C",
     "pembahasan": "Bentuk umum $a^b = c$ menjadi $\\log_a c = b$"
@@ -67,7 +67,7 @@
       "$27^2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat $(a^m)^n = a^{m \\times n}$\\n$(3^2)^3 = 3^{2 \\times 3} = 3^6$"
+    "pembahasan": "Gunakan sifat $(a^m)^n = a^{m \\times n}$\n$(3^2)^3 = 3^{2 \\times 3} = 3^6$"
   },
   {
     "id": 6,
@@ -95,7 +95,7 @@
       "6"
     ],
     "jawaban": "C",
-    "pembahasan": "$2^{x+1} = 32$\\n$2^{x+1} = 2^5$\\n$x+1 = 5$\\n$x = 4$"
+    "pembahasan": "$2^{x+1} = 32$\n$2^{x+1} = 2^5$\n$x+1 = 5$\n$x = 4$"
   },
   {
     "id": 8,
@@ -123,7 +123,7 @@
       "15"
     ],
     "jawaban": "C",
-    "pembahasan": "$\\log_3 (x-2) = 2$\\n$x-2 = 3^2$\\n$x-2 = 9$\\n$x = 11$"
+    "pembahasan": "$\\log_3 (x-2) = 2$\n$x-2 = 3^2$\n$x-2 = 9$\n$x = 11$"
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "-11"
     ],
     "jawaban": "B",
-    "pembahasan": "$4^{x-1} = 8^{x+2}$\\n$(2^2)^{x-1} = (2^3)^{x+2}$\\n$2^{2x-2} = 2^{3x+6}$\\n$2x-2 = 3x+6$\\n$-x = 8$\\n$x = -8$"
+    "pembahasan": "$4^{x-1} = 8^{x+2}$\n$(2^2)^{x-1} = (2^3)^{x+2}$\n$2^{2x-2} = 2^{3x+6}$\n$2x-2 = 3x+6$\n$-x = 8$\n$x = -8$"
   },
   {
     "id": 11,
@@ -148,7 +148,7 @@
       "$2a + b$",
       "$a + 2b$",
       "$2a + 2b$",
-      "$2a + b + 1$"
+      "$2a + b$"
     ],
     "jawaban": "E",
     "pembahasan": "$\\log 175 = \\log (25 \\times 7) = \\log 25 + \\log 7 = \\log 5^2 + \\log 7 = 2\\log 5 + \\log 7 = 2a + b$"
@@ -156,7 +156,7 @@
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $3^{x} + 3^{-x} = 5$, maka nilai $9^{x} + 9^{-x}$ adalah...",
+    "pertanyaan": "Jika $3^x + 3^{-x} = 5$, maka nilai $9^x + 9^{-x}$ adalah...",
     "pilihan": [
       "23",
       "25",
@@ -165,7 +165,7 @@
       "31"
     ],
     "jawaban": "A",
-    "pembahasan": "Kuadratkan kedua ruas:\\n$(3^x + 3^{-x})^2 = 5^2$\\n$9^x + 2 + 9^{-x} = 25$\\n$9^x + 9^{-x} = 23$"
+    "pembahasan": "Kuadratkan kedua ruas:\n$(3^x + 3^{-x})^2 = 5^2$\n$9^x + 2 + 9^{-x} = 25$\n$9^x + 9^{-x} = 23$"
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "8"
     ],
     "jawaban": "C",
-    "pembahasan": "$5^{x^2-6x+8} = 5^0$\\n$x^2-6x+8 = 0$\\n$(x-2)(x-4) = 0$\\n$x=2$ atau $x=4$\\nJumlah akar = $2 + 4 = 6$"
+    "pembahasan": "$5^{x^2-6x+8} = 5^0$\n$x^2-6x+8 = 0$\n$(x-2)(x-4) = 0$\n$x=2$ atau $x=4$\nJumlah akar = $2 + 4 = 6$"
   },
   {
     "id": 14,
@@ -198,7 +198,7 @@
   {
     "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian dari $2^{2x} - 5 \\cdot 2^{x} + 4 \\geq 0$ adalah...",
+    "pertanyaan": "Himpunan penyelesaian dari $2^{2x} - 5 \\cdot 2^x + 4 \\geq 0$ adalah...",
     "pilihan": [
       "$x \\leq 0$ atau $x \\geq 2$",
       "$0 \\leq x \\leq 2$",
@@ -207,76 +207,6 @@
       "$x \\leq -2$ atau $x \\geq 0$"
     ],
     "jawaban": "A",
-    "pembahasan": "Misal $y = 2^x$\\n$y^2 - 5y + 4 \\geq 0$\\n$(y-1)(y-4) \\geq 0$\\n$y \\leq 1$ atau $y \\geq 4$\\n$2^x \\leq 1$ atau $2^x \\geq 4$\\n$x \\leq 0$ atau $x \\geq 2$"
-  },
-  {
-    "id": 16,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\log_{5} 25 + \\log_{3} 9$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "jawaban": "E",
-    "pembahasan": "$\\log_{5} 25 = 2$ karena $5^2 = 25$\\n$\\log_{3} 9 = 2$ karena $3^2 = 9$\\nTotal = $2 + 2 = 4$"
-  },
-  {
-    "id": 17,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $f(x) = 3^{2x-1}$, maka nilai dari $f(2) - f(1)$ adalah...",
-    "pilihan": [
-      "6",
-      "9",
-      "18",
-      "24",
-      "27"
-    ],
-    "jawaban": "D",
-    "pembahasan": "$f(2) = 3^{4-1} = 3^3 = 27$\\n$f(1) = 3^{2-1} = 3^1 = 3$\\n$f(2) - f(1) = 27 - 3 = 24$"
-  },
-  {
-    "id": 18,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $\\log (x^2 - 4x + 4) = 0$, maka nilai $x$ yang memenuhi adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "1 dan 3",
-      "2 dan 4"
-    ],
-    "jawaban": "D",
-    "pembahasan": "$\\log (x^2 - 4x + 4) = \\log 1$\\n$x^2 - 4x + 4 = 1$\\n$x^2 - 4x + 3 = 0$\\n$(x-1)(x-3) = 0$\\n$x=1$ atau $x=3$"
-  },
-  {
-    "id": 19,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $a = 2^{\\log_4 9}$ dan $b = 3^{\\log_9 8}$, maka nilai $a + b$ adalah...",
-    "pilihan": [
-      "5",
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "jawaban": "A",
-    "pembahasan": "$a = 2^{\\log_4 9} = 4^{\\frac{1}{2} \\log_4 9} = 9^{\\frac{1}{2}} = 3$\\n$b = 3^{\\log_9 8} = 9^{\\frac{1}{2} \\log_9 8} = 8^{\\frac{1}{2}} = 2\\sqrt{2}$\\n$a + b = 3 + 2\\sqrt{2} \\approx 5.828$ (tidak ada pilihan yang tepat)"
-  },
-  {
-    "id": 20,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\log_{x} (\\frac{1}{8}) = -3$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "jawaban": "B",
-    "pembahasan": "$\\log_{x} (\\frac{1}{8}) = -3$\\n$x^{-3} = \\frac{1}{8}$\\n$\\frac{1}{x^3} = \\frac{1}{8}$\\n$x^3 = 8$\\n$x = 2$"
+    "pembahasan": "Misal $y = 2^x$\n$y^2 - 5y + 4 \\geq 0$\n$(y-1)(y-4) \\geq 0$\n$y \\leq 1$ atau $y \\geq 4$\n$2^x \\leq 1$ atau $2^x \\geq 4$\n$x \\leq 0$ atau $x \\geq 2$"
   }
 ]
