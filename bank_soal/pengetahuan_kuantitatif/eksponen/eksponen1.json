@@ -112,19 +112,19 @@
     "pembahasan": "$(2^2 \\times 3^2)^2 = (4 \\times 9)^2 = 36^2 = 1296$"
   },
   {
-    "id": 9,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $\\log_2 3 = a$, maka nilai dari $\\log_2 24$ adalah...",
-    "pilihan": [
-      "$a+1$",
-      "$a+2$",
-      "$a+3$",
-      "$3a$",
-      "$8a$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "$\\log_2 24 = \\log_2 (8 \\times 3) = \\log_2 8 + \\log_2 3 = 3 + a$"
-  },
+  "id": 9,
+  "kategori": "Sedang",
+  "pertanyaan": "Jika $\\log_5 2 = a$ dan $\\log_5 3 = b$, maka nilai dari $\\log_5 72$ adalah...",
+  "pilihan": [
+    "$2a + b$",
+    "$3a + 2b$",
+    "$a + 3b$",
+    "$2a + 3b$",
+    "$3a + b$"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Gunakan sifat logaritma:\n1. Faktorkan 72 menjadi $2^3 \\times 3^2$.\n2. $\\log_5 72 = \\log_5 (2^3 \\times 3^2) = 3\\log_5 2 + 2\\log_5 3$.\n3. Substitusi nilai $a$ dan $b$: $3a + 2b$."
+},
   {
     "id": 10,
     "kategori": "Sedang",
