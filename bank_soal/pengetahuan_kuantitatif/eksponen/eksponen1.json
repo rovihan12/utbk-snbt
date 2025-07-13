@@ -181,20 +181,20 @@
     "jawaban": "C",
     "pembahasan": "$5^{x^2-6x+8} = 5^0$\\n$x^2-6x+8 = 0$\\n$(x-2)(x-4) = 0$\\n$x=2$ atau $x=4$\\nJumlah akar = $2 + 4 = 6$"
   },
-  {
-    "id": 14,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\log_2 3 = a$, maka $\\log_6 8$ adalah...",
-    "pilihan": [
-      "$\\frac{1}{1+a}$",
-      "$\\frac{2}{1+a}$",
-      "$\\frac{3}{1+a}$",
-      "$\\frac{1}{1-a}$",
-      "$\\frac{3}{1-a}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "$\\log_6 8 = \\frac{\\log_2 8}{\\log_2 6} = \\frac{3}{\\log_2 (2 \\times 3)} = \\frac{3}{\\log_2 2 + \\log_2 3} = \\frac{3}{1 + a}$"
-  },
+ {
+  "id": 14,
+  "kategori": "Sulit",
+  "pertanyaan": "Jika $\\log_{2} 3 = a$, maka $\\log_{6} 8$ adalah...",
+  "pilihan": [
+    "$\\frac{1}{1+a}$",
+    "$\\frac{2}{1+a}$",
+    "$\\frac{3}{1+a}$",
+    "$\\frac{1}{1-a}$",
+    "$\\frac{3}{1-a}$"
+  ],
+  "jawaban": "C",
+  "pembahasan": "$\\log_{6} 8 = \\frac{\\log_{2} 8}{\\log_{2} 6} = \\frac{3}{\\log_{2} (2 \\times 3)} = \\frac{3}{\\log_{2} 2 + \\log_{2} 3} = \\frac{3}{1 + a}$"
+},
   {
     "id": 15,
     "kategori": "Sulit",
@@ -209,20 +209,20 @@
     "jawaban": "A",
     "pembahasan": "Misal $y = 2^x$\\n$y^2 - 5y + 4 \\geq 0$\\n$(y-1)(y-4) \\geq 0$\\n$y \\leq 1$ atau $y \\geq 4$\\n$2^x \\leq 1$ atau $2^x \\geq 4$\\n$x \\leq 0$ atau $x \\geq 2$"
   },
-  {
-    "id": 16,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\log_{5} 25 + \\log_{3} 9$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "jawaban": "E",
-    "pembahasan": "$\\log_{5} 25 = 2$ karena $5^2 = 25$\\n$\\log_{3} 9 = 2$ karena $3^2 = 9$\\nTotal = $2 + 2 = 4$"
-  },
+ {
+  "id": 16,
+  "kategori": "Mudah",
+  "pertanyaan": "Nilai dari $\\log_{5} 25 + \\log_{3} 9$ adalah...",
+  "pilihan": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "jawaban": "E",
+  "pembahasan": "$\\log_{5} 25 = 2$ karena $5^{2} = 25$\n$\\log_{3} 9 = 2$ karena $3^{2} = 9$\nTotal = $2 + 2 = 4$"
+},
   {
     "id": 17,
     "kategori": "Sedang",
