@@ -254,7 +254,7 @@
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $a = 2^{\\log_{4} 9}$ dan $b = 3^{\\log_{9} 8}$, maka nilai $a + b$ adalah...",
+    "pertanyaan": "Jika $a = 2^{^4\\log 9}$ dan $b = 3^{^9\\log 8}$, maka nilai $a + b$ adalah...",
     "pilihan": [
       "5",
       "6",
@@ -263,12 +263,12 @@
       "9"
     ],
     "jawaban": "A",
-    "pembahasan": "$a = 2^{\\log_{4} 9} = 4^{\\frac{1}{2} \\log_{4} 9} = 9^{\\frac{1}{2}} = 3$\n$b = 3^{\\log_{9} 8} = 9^{\\frac{1}{2} \\log_{9} 8} = 8^{\\frac{1}{2}} = 2\\sqrt{2}$\n$a + b = 3 + 2\\sqrt{2} \\approx 5.828$ (tidak ada pilihan yang tepat)"
+    "pembahasan": "$a = 2^{^4\\log 9} = 4^{\\frac{1}{2} ^4\\log 9} = 9^{\\frac{1}{2}} = 3$\n$b = 3^{\\log_{9} 8} = 9^{\\frac{1}{2} \\log_{9} 8} = 8^{\\frac{1}{2}} = 2\\sqrt{2}$\n$a + b = 3 + 2\\sqrt{2} \\approx 5.828$ (tidak ada pilihan yang tepat)"
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\log_{x} (\\frac{1}{8}) = -3$, maka nilai $x$ adalah...",
+    "pertanyaan": "Jika $^x\\log (\\frac{1}{8}) = -3$, maka nilai $x$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -277,6 +277,6 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "$\\log_{x} (\\frac{1}{8}) = -3$\n$x^{-3} = \\frac{1}{8}$\n$\\frac{1}{x^{3}} = \\frac{1}{8}$\n$x^{3} = 8$\n$x = 2$"
+    "pembahasan": "$^x\\log (\\frac{1}{8}) = -3$\n$x^{-3} = \\frac{1}{8}$\n$\\frac{1}{x^{3}} = \\frac{1}{8}$\n$x^{3} = 8$\n$x = 2$"
   }
 ]
