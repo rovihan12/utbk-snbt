@@ -53,7 +53,7 @@
       "15"
     ],
     "jawaban": "B",
-    "pembahasan": "Untuk matriks $2 \\times 2$, determinan ($det(C)$) dihitung dengan rumus $ad - bc$.\\nUntuk $C = \\begin{pmatrix} 3 & 2 \\\\ 4 & 5 \\end{pmatrix}$, $det(C) = (3 \\times 5) - (2 \\times 4) = 15 - 8 = 7$."
+    "pembahasan": "Untuk matriks $2 \\times 2$, determinan ($det(C)$) dihitung dengan rumus $ad - bc$.\nUntuk $C = \\begin{pmatrix} 3 & 2 \\\\ 4 & 5 \\end{pmatrix}$, $det(C) = (3 \\times 5) - (2 \\times 4) = 15 - 8 = 7$."
   },
   {
     "id": 5,
@@ -81,7 +81,7 @@
       "11"
     ],
     "jawaban": "E",
-    "pembahasan": "Determinan matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad - bc$.\n$det(A) = (x \\times 2) - (5 \\times 3) = 2x - 15$.\\nKita tahu $det(A) = 7$, jadi $2x - 15 = 7$.\n$2x = 7 + 15$\n$2x = 22$\n$x = 11$."
+    "pembahasan": "Determinan matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad - bc$.\n$det(A) = (x \\times 2) - (5 \\times 3) = 2x - 15$.\nKita tahu $det(A) = 7$, jadi $2x - 15 = 7$.\n$2x = 7 + 15$\n$2x = 22$\n$x = 11$."
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "$\\begin{pmatrix} 2 & 4 \\\\ 1 & 3 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk mencari $B$, kita bisa menggunakan $B = A^{-1} (AB)$.\nTerlebih dahulu, cari invers dari $A$.\\n$det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$.\nKemudian kalikan $A^{-1}$ dengan $AB$:\\n$B = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix} \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$ \n$B = \\begin{pmatrix} (-2 \\times 7) + (1 \\times 15) & (-2 \\times 10) + (1 \\times 22) \\\\ (3/2 \\times 7) + (-1/2 \\times 15) & (3/2 \\times 10) + (-1/2 \\times 22) \\end{pmatrix}$ \\n$B = \\begin{pmatrix} -14+15 & -20+22 \\\\ 21/2 - 15/2 & 15 - 11 \\end{pmatrix}$ \n$B = \\begin{pmatrix} 1 & 2 \\\\ 6/2 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
+    "pembahasan": "Untuk mencari $B$, kita bisa menggunakan $B = A^{-1} (AB)$.\nTerlebih dahulu, cari invers dari $A$.\n$det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$.\nKemudian kalikan $A^{-1}$ dengan $AB$:\\n$B = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix} \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$ \n$B = \\begin{pmatrix} (-2 \\times 7) + (1 \\times 15) & (-2 \\times 10) + (1 \\times 22) \\\\ (3/2 \\times 7) + (-1/2 \\times 15) & (3/2 \\times 10) + (-1/2 \\times 22) \\end{pmatrix}$ \\n$B = \\begin{pmatrix} -14+15 & -20+22 \\\\ 21/2 - 15/2 & 15 - 11 \\end{pmatrix}$ \n$B = \\begin{pmatrix} 1 & 2 \\\\ 6/2 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
   },
   {
     "id": 9,
