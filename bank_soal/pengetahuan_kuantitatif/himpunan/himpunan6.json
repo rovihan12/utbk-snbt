@@ -17,8 +17,8 @@
     "id": 103,
     "pertanyaan": "Persamaan garis yang sejajar dengan $y = 2x + 3$ dan melalui titik $(1, 5)$ adalah...",
     "pilihan": ["$y = 2x + 3$", "$y = 2x + 1$", "$y = -2x + 7$", "$y = x + 4$", "$y = 2x - 1$"],
-    "jawaban": "A",
-    "pembahasan": "Garis yang sejajar memiliki gradien yang sama. Gradien garis $y = 2x + 3$ adalah $2$. Gunakan rumus $y - y_1 = m(x - x_1)$ dengan $m=2$ dan titik $(1, 5)$: $y - 5 = 2(x - 1) \\implies y - 5 = 2x - 2 \\implies y = 2x + 3$."
+    "jawaban": "B",
+    "pembahasan": "Garis yang sejajar memiliki gradien yang sama. Gradien garis $y = 2x + 3$ adalah $2$. Gunakan rumus $y - y_1 = m(x - x_1)$ dengan $m=2$ dan titik $(1, 5)$: $y - 5 = 2(x - 1) \\implies y - 5 = 2x - 2 \\implies y = 2x + 3$. Pilihan 'A' ($y = 2x + 3$) melewati titik (0,3) bukan (1,5). Jadi, jawaban yang benar adalah $y = 2x + 3$ yang merupakan persamaan dari soal, jika titiknya adalah (0,3). Namun karena melalui titik (1,5), maka $y = 2(1) + b => 5 = 2 + b => b = 3$. Jadi $y=2x+3$. Pilihan yang diberikan memiliki kesalahan. Harusnya ada pilihan $y=2x+3$ dan jawaban D salah"
   },
   {
     "id": 104,
@@ -38,7 +38,7 @@
     "id": 106,
     "pertanyaan": "Sebuah foto berukuran 4 cm x 6 cm. Jika foto tersebut diperbesar sehingga lebarnya menjadi 12 cm, maka panjangnya adalah...",
     "pilihan": ["$8 \\text{ cm}$", "$12 \\text{ cm}$", "$16 \\text{ cm}$", "$18 \\text{ cm}$", "$24 \\text{ cm}$"],
-    "jawaban": "D",
+    "jawaban": "A",
     "pembahasan": "Perbandingan lebar asli dengan lebar baru adalah $6:12$, atau $1:2$. Jadi, panjangnya juga diperbesar 2 kali. Panjang baru = $2 \\times 4 \\text{ cm} = 8 \\text{ cm}$."
   },
   {
@@ -136,7 +136,7 @@
     "id": 120,
     "pertanyaan": "Nilai dari $\\frac{(3^2)^3 \\times 3^{-4}}{3}$ adalah...",
     "pilihan": ["$3$", "$9$", "$27$", "$81$", "$1$"],
-    "jawaban": "E",
-    "pembahasan": "Sederhanakan eksponen: $(3^2)^3 = 3^{2 \\times 3} = 3^6$. Maka ekspresi menjadi $\\frac{3^6 \\times 3^{-4}}{3^1} = \\frac{3^{6-4}}{3^1} = \\frac{3^2}{3^1} = 3^{2-1} = 3^1 = 3$."
+    "jawaban": "A",
+    "pembahasan": "Sederhanakan eksponen: $(3^2)^3 = 3^{2 \\times 3} = 3^6$. Maka ekspresi menjadi $\\frac{3^6 \\times 3^{-4}}{3^1} = \\frac{3^{6-4}}{3^1} = \\frac{3^2}{3^1} = 3^{2-1} = 3^1 = 3$. Jawaban yang benar adalah 3, bukan 1."
   }
 ]
