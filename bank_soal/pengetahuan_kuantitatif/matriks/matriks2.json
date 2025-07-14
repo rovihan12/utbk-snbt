@@ -1,19 +1,5 @@
 [
   {
-    "id": 20,
-    "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $K = \\begin{pmatrix} x & 2 \\\\ 2 & x \\end{pmatrix}$. Jika $det(K) = 0$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$-2$ atau $2$",
-      "$-2$ atau $1$",
-      "$-1$ atau $2$",
-      "$-1$ atau $1$",
-      "$2$ atau $0$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Determinan dari matriks $2 \\times 2$ adalah $ad-bc$. Jika $det(K)=0$, maka $ad-bc=0$.\n$(x \\times x) - (2 \\times 2) = 0$\\n$x^2 - 4 = 0$\\n$x^2 = 4$\n$x = \\pm 2$. Jadi, nilai $x$ adalah $-2$ atau $2$."
-  },
-  {
     "id": 21,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 3 \\\\ -1 & 0 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, maka $A^T B$ adalah...",
