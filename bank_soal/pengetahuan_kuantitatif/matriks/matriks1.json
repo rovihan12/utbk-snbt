@@ -138,5 +138,131 @@
     ],
     "jawaban": "D",
     "pembahasan": "Kita bisa menghitung $det(A)$ dan $det(B)$ terlebih dahulu, kemudian mengalikannya, karena $det(AB) = det(A) \\times det(B)$.\n$det(A) = (2 \\times 3) - (1 \\times -1) = 6 - (-1) = 6 + 1 = 7$.\n$det(B) = (1 \\times 1) - (0 \\times 2) = 1 - 0 = 1$.\nJadi, $det(AB) = det(A) \\times det(B) = 7 \\times 1 = 7$."
+  },
+{
+    "id": 11,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$ adalah matriks identitas dan $B = \\begin{pmatrix} 5 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka $AI$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 5 & 2 \\\\ 3 & 4 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 6 & 2 \\\\ 3 & 5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 5 & 0 \\\\ 0 & 4 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 2 \\\\ 3 & 1 \\end{pmatrix}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ketika suatu matriks dikalikan dengan matriks identitas ($I$), hasilnya adalah matriks itu sendiri. Jadi, $AI = A$.\n$AI = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 5 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} (1 \\times 5) + (0 \\times 3) & (1 \\times 2) + (0 \\times 4) \\\\ (0 \\times 5) + (1 \\times 3) & (0 \\times 2) + (1 \\times 4) \\end{pmatrix} = \\begin{pmatrix} 5 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
+  },
+  {
+    "id": 12,
+    "kategori": "Mudah",
+    "pertanyaan": "Diketahui matriks $X = \\begin{pmatrix} 2 & 7 \\\\ 1 & 5 \\end{pmatrix}$. Tentukan matriks $-X$.",
+    "pilihan": [
+      "$\\begin{pmatrix} -2 & -7 \\\\ -1 & -5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 7 \\\\ 1 & 5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & -7 \\\\ -1 & 5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk menentukan $-X$, kalikan setiap elemen dalam matriks $X$ dengan $-1$.\n$-X = -1 \\times \\begin{pmatrix} 2 & 7 \\\\ 1 & 5 \\end{pmatrix} = \\begin{pmatrix} -1 \\times 2 & -1 \\times 7 \\\\ -1 \\times 1 & -1 \\times 5 \\end{pmatrix} = \\begin{pmatrix} -2 & -7 \\\\ -1 & -5 \\end{pmatrix}$."
+  },
+  {
+    "id": 13,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $A = \\begin{pmatrix} 6 & 1 \\\\ 2 & 8 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 3 & -1 \\\\ 0 & 5 \\end{pmatrix}$, maka $A-B$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 3 & 2 \\\\ 2 & 3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 9 & 0 \\\\ 2 & 13 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 3 & 0 \\\\ 2 & 3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 3 & 2 \\\\ 2 & -3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 3 & 2 \\\\ -2 & 3 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pengurangan matriks dilakukan dengan mengurangi elemen-elemen yang bersesuaian pada posisi yang sama.\n$A-B = \\begin{pmatrix} 6-3 & 1-(-1) \\\\ 2-0 & 8-5 \\end{pmatrix} = \\begin{pmatrix} 3 & 1+1 \\\\ 2 & 3 \\end{pmatrix} = \\begin{pmatrix} 3 & 2 \\\\ 2 & 3 \\end{pmatrix}$."
+  },
+  {
+    "id": 14,
+    "kategori": "Mudah",
+    "pertanyaan": "Sebuah matriks dikatakan matriks nol jika semua elemennya adalah nol. Berikut ini yang merupakan matriks nol berordo $2 \\times 2$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 0 & 0 \\\\ 1 & 1 \\end{pmatrix}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Matriks nol adalah matriks di mana setiap elemennya bernilai nol. Ordo $2 \\times 2$ berarti memiliki 2 baris dan 2 kolom.\\nJadi, matriks nol berordo $2 \\times 2$ adalah $\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$."
+  },
+  {
+    "id": 15,
+    "kategori": "Mudah",
+    "pertanyaan": "Ordo dari matriks $M = \\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{pmatrix}$ adalah...",
+    "pilihan": [
+      "$3 \\times 2$",
+      "$2 \\times 3$",
+      "$2 \\times 2$",
+      "$3 \\times 3$",
+      "$1 \\times 6$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ordo suatu matriks ditentukan oleh jumlah baris ($m$) dikalikan dengan jumlah kolom ($n$), ditulis sebagai $m \\times n$. Matriks $M$ memiliki 2 baris dan 3 kolom.\nJadi, ordo matriks $M$ adalah $2 \\times 3$."
+  },
+  {
+    "id": 16,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & -1 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 0 & 5 \\\\ -2 & 1 \\end{pmatrix}$, maka $2A + B$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 4 & 3 \\\\ 4 & 9 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 4 & -2 \\\\ 6 & 8 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 4 \\\\ 1 & 5 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 4 & 3 \\\\ 8 & 9 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & -1 \\\\ 1 & 5 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pertama, hitung $2A$: $2A = 2 \\begin{pmatrix} 2 & -1 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 4 & -2 \\\\ 6 & 8 \\end{pmatrix}$.\nKemudian, jumlahkan $2A$ dengan $B$: $2A+B = \\begin{pmatrix} 4 & -2 \\\\ 6 & 8 \\end{pmatrix} + \\begin{pmatrix} 0 & 5 \\\\ -2 & 1 \\end{pmatrix} = \\begin{pmatrix} 4+0 & -2+5 \\\\ 6+(-2) & 8+1 \\end{pmatrix} = \\begin{pmatrix} 4 & 3 \\\\ 4 & 9 \\end{pmatrix}$."
+  },
+  {
+    "id": 17,
+    "kategori": "Sedang",
+    "pertanyaan": "Diberikan matriks $P = \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix}$. Tentukan $P^2$.",
+    "pilihan": [
+      "$\\begin{pmatrix} 9 & 16 \\\\ 1 & 4 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 13 & 20 \\\\ 5 & 8 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 6 & 8 \\\\ 2 & 4 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 10 & 16 \\\\ 4 & 8 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 13 & 8 \\\\ 5 & 20 \\end{pmatrix}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "$P^2$ berarti $P \\times P$.\n$P^2 = \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix} \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix}$ \n$P^2 = \\begin{pmatrix} (3 \\times 3) + (4 \\times 1) & (3 \\times 4) + (4 \\times 2) \\\\ (1 \\times 3) + (2 \\times 1) & (1 \\times 4) + (2 \\times 2) \\end{pmatrix}$ \n$P^2 = \\begin{pmatrix} 9+4 & 12+8 \\\\ 3+2 & 4+4 \\end{pmatrix} = \\begin{pmatrix} 13 & 20 \\\\ 5 & 8 \\end{pmatrix}$."
+  },
+  {
+    "id": 18,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai $x$ yang memenuhi persamaan matriks $\\begin{pmatrix} 2 & x \\\\ -1 & 3 \\end{pmatrix} = \\begin{pmatrix} 2 & 5 \\\\ -1 & 3 \\end{pmatrix}$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\nDari persamaan tersebut, elemen pada baris 1, kolom 2 dari matriks pertama harus sama dengan elemen pada baris 1, kolom 2 dari matriks kedua.\nJadi, $x = 5$."
+  },
+  {
+    "id": 19,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$, maka invers dari $A$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & -1/2 \\\\ -2 & 3/2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} -2 & 1 \\\\ 4 & -3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1/2 & -1/2 \\\\ -2 & 3/2 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Invers dari matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $A^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\nUntuk $A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$, $det(A) = (2 \\times 3) - (1 \\times 4) = 6 - 4 = 2$.\n$A^{-1} = \\frac{1}{2} \\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix} = \\begin{pmatrix} 3/2 & -1/2 \\\\ -4/2 & 2/2 \\end{pmatrix} = \\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix}$."
   }
 ]
