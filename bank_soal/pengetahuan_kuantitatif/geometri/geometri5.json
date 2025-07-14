@@ -1,20 +1,20 @@
 [
- {
-  "id": "1",
-  "pertanyaan": "Diketahui $\\triangle ABC$ siku-siku di B. Garis $CD$ merupakan garis bagi yang ditarik dari titik sudut C. Jika panjang $AB = 6\\text{cm}$, maka panjang $AD = \\dots \\text{cm}$.",
-  "pilihan": [
-    "A. $(6 - 3\\sqrt{2})$",
-    "B. $(6 + 3\\sqrt{2})$",
-    "C. $(12 - 6\\sqrt{2})$",
-    "D. $(12 + 6\\sqrt{2})$",
-    "E. $(18 + 6\\sqrt{2})$"
-  ],
-  "jawaban": "C",
-  "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/7.png",
-  "pembahasan": "Perhatikan sketsa gambar berikut.\n\nKarena $\\triangle ABC$ siku-siku, maka rumus Pythagoras berlaku:\n\n$AC = \\sqrt{AB^2 + BC^2}$\n$BC = 6$\n\nMisalkan panjang $AD = x$ cm sehingga berakibat $DB = (6 - x)$ cm. Dengan menggunakan teorema perbandingan oleh garis bagi, kita peroleh:\n\n$\\frac{AD}{DB} = \\frac{AC}{BC}$\n$\\frac{x}{6-x} = \\frac{\\sqrt{6^2 + BC^2}}{BC}$  (terdapat kesalahan pada gambar, harusnya AC/BC)\n\n(Revisi Pembahasan sesuai dengan gambar dan hasil yang diharapkan)\nDiketahui $\\triangle ABC$ siku-siku di B, $AB=6$. $CD$ adalah garis bagi sudut $C$. Misalkan $AD=x$, maka $DB = 6-x$.\nMenurut teorema garis bagi sudut, $\\frac{AD}{DB} = \\frac{AC}{BC}$.\nJadi, $\\frac{x}{6-x} = \\frac{AC}{BC}$.\n\nDalam $\\triangle DBC$, siku-siku di B, $DC^2 = DB^2 + BC^2 = (6-x)^2 + BC^2$.\nDalam $\\triangle ABC$, siku-siku di B, $AC^2 = AB^2 + BC^2 = 6^2 + BC^2 = 36 + BC^2$.\n\nDari sifat garis bagi, sudut $BCD = \\angle ACD = \\alpha$.\nDalam $\\triangle BCD$, $\\tan \\alpha = \\frac{DB}{BC} = \\frac{6-x}{BC}$.\nDalam $\\triangle BCA$, $\\tan 2\\alpha = \\frac{AB}{BC} = \\frac{6}{BC}$.\n\nKita tahu $\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}$.\n$\\frac{6}{BC} = \\frac{2\\left(\\frac{6-x}{BC}\\right)}{1 - \\left(\\frac{6-x}{BC}\\right)^2}$\n$\\frac{6}{BC} = \\frac{2(6-x)}{BC \\left(1 - \\frac{(6-x)^2}{BC^2}\\right)}$\n$6 = \\frac{2(6-x)}{1 - \\frac{(6-x)^2}{BC^2}}$\n$6\\left(1 - \\frac{(6-x)^2}{BC^2}\\right) = 2(6-x)$\n$3\\left(1 - \\frac{(6-x)^2}{BC^2}\\right) = (6-x)$\n$3 - \\frac{3(6-x)^2}{BC^2} = 6-x$\n\nIni adalah pendekatan yang lebih rumit. Mari kita gunakan properti umum garis bagi pada segitiga siku-siku. Karena $CD$ adalah garis bagi sudut $C$, maka $BD/AD = BC/AC$.\nMisalkan $BC = y$. Maka $BD/AD = y/AC$.\n$AD = x$, $BD = 6-x$.\n$\\frac{6-x}{x} = \\frac{y}{\\sqrt{6^2 + y^2}}$\n\nAtau, menggunakan gambar dan rasio yang diberikan di gambar (yang tampaknya menggunakan $BC=6$, namun ini kontradiktif dengan $AB=6$ jika ingin mencari $AD$ secara umum):\nDari gambar, diasumsikan $BC = 6$. (Meskipun pertanyaan menyatakan $AB=6$)\nJika $AB=6$ dan $BC=6$, maka $\\triangle ABC$ adalah segitiga siku-siku sama kaki.\nMaka $\\angle BAC = \\angle BCA = 45^\\circ$. $AC = \\sqrt{6^2+6^2} = \\sqrt{72} = 6\\sqrt{2}$.\nKarena $CD$ adalah garis bagi sudut $C$, maka $\\angle BCD = \\angle ACD = 45^\\circ / 2 = 22.5^\\circ$.\n\nDi $\\triangle BCD$, siku-siku di B:\n$\\tan(\\angle BCD) = \\frac{BD}{BC}$\n$\\tan(22.5^\\circ) = \\frac{6-x}{6}$\nKita tahu $\\tan(22.5^\\circ) = \\sqrt{2} - 1$.\n$\\sqrt{2} - 1 = \\frac{6-x}{6}$\n$6(\\sqrt{2} - 1) = 6-x$\n$6\\sqrt{2} - 6 = 6-x$\n$x = 6 - (6\\sqrt{2} - 6)$\n$x = 6 - 6\\sqrt{2} + 6$\n$x = 12 - 6\\sqrt{2}$\n\nIni cocok dengan Jawaban C. Jadi, asumsi $BC=6$ (seperti yang ditunjukkan dalam gambar) adalah kunci untuk mencapai jawaban ini, meskipun tidak secara eksplisit disebutkan dalam teks pertanyaan utama bahwa $BC=6$ (hanya $AB=6$). Pembahasan pada gambar juga menunjukkan $BC=6$.\n\nJadi, panjang $AD$ adalah $(12 - 6\\sqrt{2})\\text{cm}$.\n(Jawaban C)"
-},
   {
-    "id": 2,
+    "id": 41,
+    "pertanyaan": "Diketahui $\\triangle ABC$ siku-siku di B. Garis $CD$ merupakan garis bagi yang ditarik dari titik sudut C. Jika panjang $AB = 6\\text{cm}$, maka panjang $AD = \\dots \\text{cm}$.",
+    "pilihan": [
+      "A. $(6 - 3\\sqrt{2})$",
+      "B. $(6 + 3\\sqrt{2})$",
+      "C. $(12 - 6\\sqrt{2})$",
+      "D. $(12 + 6\\sqrt{2})$",
+      "E. $(18 + 6\\sqrt{2})$"
+    ],
+    "jawaban": "C",
+    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/7.png",
+    "pembahasan": "Perhatikan sketsa gambar berikut.\n\nKarena $\\triangle ABC$ siku-siku di B, dan $CD$ adalah garis bagi sudut $C$. Diasumsikan dari gambar dan pilihan jawaban bahwa $\\triangle ABC$ adalah segitiga siku-siku sama kaki, artinya $AB = BC$. Jika $AB = 6\\text{cm}$, maka $BC = 6\\text{cm}$.\n\nJika $AB=6$ cm dan $BC=6$ cm, maka $\\triangle ABC$ adalah segitiga siku-siku sama kaki, sehingga $\\angle BCA = 45^\\circ$.\nKarena $CD$ adalah garis bagi sudut $C$, maka $\\angle BCD = \\angle ACD = \\frac{1}{2} \\angle BCA = \\frac{1}{2} \\times 45^\\circ = 22.5^\\circ$.\n\nMisalkan panjang $AD = x$ cm. Maka panjang $DB = (AB - AD) = (6 - x)$ cm.\n\nFokus pada $\\triangle BCD$, yang juga siku-siku di B:\nKita bisa menggunakan fungsi tangen:\n$\\tan(\\angle BCD) = \\frac{\\text{sisi depan}}{\\text{sisi samping}} = \\frac{DB}{BC}$\n$\\tan(22.5^\\circ) = \\frac{6-x}{6}$\n\nKita tahu nilai $\\tan(22.5^\\circ) = \\sqrt{2} - 1$.\nSubstitusikan nilai ini ke persamaan:\n$\\sqrt{2} - 1 = \\frac{6-x}{6}$\nKalikan kedua ruas dengan 6:\n$6(\\sqrt{2} - 1) = 6-x$\n$6\\sqrt{2} - 6 = 6-x$\n\nPindahkan $-x$ ke kiri dan $(6\\sqrt{2} - 6)$ ke kanan:\n$x = 6 - (6\\sqrt{2} - 6)$\n$x = 6 - 6\\sqrt{2} + 6$\n$x = 12 - 6\\sqrt{2}$\n\nJadi, panjang $AD = (12 - 6\\sqrt{2})\\text{cm}$. Ini cocok dengan Pilihan C."
+  },
+  {
+    "id": 42,
     "pertanyaan": "Sebuah persegi panjang memiliki keliling 48 cm. Jika perbandingan panjang dan lebar adalah 5:3, maka luas persegi panjang tersebut adalah...",
     "pilihan": [
       "80 cm$^2$",
@@ -24,10 +24,10 @@
       "160 cm$^2$"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan panjang persegi panjang adalah $5x$ dan lebarnya $3x$.\nKeliling persegi panjang $K = 2(P + L)$. Diketahui $K = 48$ cm.\n$2(5x + 3x) = 48$\n$2(8x) = 48$\n$16x = 48 \\Rightarrow x = 3$.\nJadi, panjang $P = 5x = 5 \\times 3 = 15$ cm.\nDan lebar $L = 3x = 3 \\times 3 = 9$ cm.\nLuas persegi panjang $A = P \\times L = 15 \\times 9 = 135$ cm$^2$."
+    "pembahasan": "Misalkan panjang persegi panjang adalah $5x$ dan lebarnya $3x$.\n\nKeliling persegi panjang $K = 2(P + L)$. Diketahui $K = 48$ cm.\n$2(5x + 3x) = 48$\n$2(8x) = 48$\n$16x = 48$\n$x = \\frac{48}{16} = 3$.\n\nSetelah mendapatkan nilai $x$, kita dapat menemukan panjang dan lebar sebenarnya:\nPanjang $P = 5x = 5 \\times 3 = 15$ cm.\nLebar $L = 3x = 3 \\times 3 = 9$ cm.\n\nLuas persegi panjang $A = P \\times L = 15 \\times 9 = 135$ cm$^2$."
   },
   {
-    "id": 3,
+    "id": 43,
     "pertanyaan": "Sebuah lingkaran berjari-jari 7 cm. Jika panjang busur $AB$ adalah 11 cm, maka besar sudut pusat $AOB$ adalah... (gunakan $\\pi = 22/7$)",
     "pilihan": [
       "$45^\\circ$",
@@ -37,10 +37,10 @@
       "$180^\\circ$"
     ],
     "jawaban": "C",
-    "pembahasan": "Keliling lingkaran $K = 2\\pi r = 2 \\times \\frac{22}{7} \\times 7 = 44$ cm.\nPanjang busur ($L_{busur}$) berbanding lurus dengan besar sudut pusat ($x$). Rumusnya:\n$L_{busur} = \\frac{x}{360^\\circ} \\times K$\nDiketahui $L_{busur} = 11$ cm dan $K = 44$ cm.\n$11 = \\frac{x}{360^\\circ} \\times 44$\n$\\frac{11}{44} = \\frac{x}{360^\\circ}$\n$\\frac{1}{4} = \\frac{x}{360^\\circ}$\n$x = \\frac{360^\\circ}{4} = 90^\\circ$.\nJadi, besar sudut pusat $AOB$ adalah $90^\\circ$."
+    "pembahasan": "Keliling lingkaran $K = 2\\pi r$.\nDengan $r=7$ cm dan $\\pi = 22/7$:\n$K = 2 \\times \\frac{22}{7} \\times 7 = 2 \\times 22 = 44$ cm.\n\nPanjang busur ($L_{\\text{busur}}$) berbanding lurus dengan besar sudut pusat ($x$) yang membentuk busur tersebut. Rumusnya adalah:\n$L_{\\text{busur}} = \\frac{x}{360^\\circ} \\times K$\n\nDiketahui $L_{\\text{busur}} = 11$ cm dan $K = 44$ cm.\n$11 = \\frac{x}{360^\\circ} \\times 44$\n\nUntuk mencari $x$, kita susun ulang persamaan:\n$\\frac{11}{44} = \\frac{x}{360^\\circ}$\n$\\frac{1}{4} = \\frac{x}{360^\\circ}$\n\nKalikan kedua ruas dengan $360^\\circ$:\n$x = \\frac{360^\\circ}{4} = 90^\\circ$.\n\nJadi, besar sudut pusat $AOB$ adalah $90^\\circ$."
   },
   {
-    "id": 4,
+    "id": 44,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang hipotenusa 20 cm. Jika salah satu sisi tegaknya 12 cm, maka luas segitiga tersebut adalah...",
     "pilihan": [
       "60 cm$^2$",
@@ -50,10 +50,10 @@
       "192 cm$^2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan sisi tegak lainnya adalah $a$, dan sisi tegak yang diketahui adalah $b=12$ cm. Hipotenusa $c=20$ cm.\nDengan teorema Pythagoras: $a^2 + b^2 = c^2$\n$a^2 + 12^2 = 20^2$\n$a^2 + 144 = 400$\n$a^2 = 400 - 144 = 256$\n$a = \\sqrt{256} = 16$ cm.\nLuas segitiga siku-siku $A = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times a \\times b$.\n$A = \\frac{1}{2} \\times 16 \\times 12 = 8 \\times 12 = 96$ cm$^2$."
+    "pembahasan": "Misalkan sisi tegak yang diketahui adalah $b=12$ cm dan hipotenusa $c=20$ cm. Kita perlu mencari panjang sisi tegak lainnya ($a$) menggunakan teorema Pythagoras:\n$a^2 + b^2 = c^2$\n$a^2 + 12^2 = 20^2$\n$a^2 + 144 = 400$\n$a^2 = 400 - 144 = 256$\n$a = \\sqrt{256} = 16$ cm.\n\nLuas segitiga siku-siku $A = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$. Dalam segitiga siku-siku, kedua sisi tegak dapat berfungsi sebagai alas dan tinggi.\n$A = \\frac{1}{2} \\times a \\times b = \\frac{1}{2} \\times 16 \\times 12 = 8 \\times 12 = 96$ cm$^2$."
   },
   {
-    "id": 5,
+    "id": 45,
     "pertanyaan": "Sebuah limas segiempat beraturan memiliki alas berbentuk persegi dengan luas 36 cm$^2$. Jika tinggi limas adalah 8 cm, maka volume limas tersebut adalah...",
     "pilihan": [
       "48 cm$^3$",
@@ -63,10 +63,10 @@
       "288 cm$^3$"
     ],
     "jawaban": "B",
-    "pembahasan": "Luas alas limas berbentuk persegi $A_{alas} = 36$ cm$^2$.\nPanjang sisi alas $s = \\sqrt{36} = 6$ cm.\nTinggi limas $t = 8$ cm.\nVolume limas $V = \\frac{1}{3} \\times A_{alas} \\times t$.\n$V = \\frac{1}{3} \\times 36 \\times 8 = 12 \\times 8 = 96$ cm$^3$."
+    "pembahasan": "Luas alas limas berbentuk persegi $A_{\\text{alas}} = 36$ cm$^2$.\n\nKarena alasnya persegi, panjang sisi alas ($s$) adalah akar kuadrat dari luas alas:\n$s = \\sqrt{36} = 6$ cm.\n\nTinggi limas $t = 8$ cm.\n\nVolume limas $V = \\frac{1}{3} \\times A_{\\text{alas}} \\times t$.\n$V = \\frac{1}{3} \\times 36 \\times 8$\n$V = 12 \\times 8 = 96$ cm$^3$."
   },
   {
-    "id": 6,
+    "id": 46,
     "pertanyaan": "Sebuah balok memiliki panjang, lebar, dan tinggi berturut-turut 10 cm, 8 cm, dan 6 cm. Luas permukaan balok tersebut adalah...",
     "pilihan": [
       "288 cm$^2$",
@@ -76,10 +76,10 @@
       "480 cm$^2$"
     ],
     "jawaban": "C",
-    "pembahasan": "Panjang $P=10$ cm, lebar $L=8$ cm, tinggi $T=6$ cm.\nLuas permukaan balok $A = 2(PL + PT + LT)$.\n$A = 2((10 \\times 8) + (10 \\times 6) + (8 \\times 6))$\n$A = 2(80 + 60 + 48)$\n$A = 2(188) = 376$ cm$^2$."
+    "pembahasan": "Panjang balok $P=10$ cm, lebar $L=8$ cm, dan tinggi $T=6$ cm.\n\nLuas permukaan balok $A = 2(PL + PT + LT)$.\n$A = 2((10 \\times 8) + (10 \\times 6) + (8 \\times 6))$\n$A = 2(80 + 60 + 48)$\n$A = 2(188) = 376$ cm$^2$."
   },
   {
-    "id": 7,
+    "id": 47,
     "pertanyaan": "Sebuah kerucut memiliki jari-jari alas 7 cm dan tinggi 24 cm. Luas seluruh permukaan kerucut adalah... (gunakan $\\pi = 22/7$)",
     "pilihan": [
       "550 cm$^2$",
@@ -88,11 +88,11 @@
       "770 cm$^2$",
       "880 cm$^2$"
     ],
-    "jawaban": "D",
-    "pembahasan": "Jari-jari alas $r=7$ cm, tinggi $t=24$ cm.\nUntuk mencari luas permukaan kerucut, kita perlu mencari panjang garis pelukis ($s$).\n$s = \\sqrt{r^2 + t^2} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$ cm.\nLuas alas kerucut $A_{alas} = \\pi r^2 = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 22 \\times 7 = 154$ cm$^2$.\nLuas selimut kerucut $A_{selimut} = \\pi r s = \\frac{22}{7} \\times 7 \\times 25 = 22 \\times 25 = 550$ cm$^2$.\nLuas seluruh permukaan kerucut $A_{total} = A_{alas} + A_{selimut} = 154 + 550 = 704$ cm$^2$.\n\n**Revisi:** Terdapat kesalahan dalam pilihan dan jawaban. $154 + 550 = 704$. Pilihan saya salah. Saya akan perbaiki.\n\n**Kesimpulan untuk soal 7:** Saya akan mengubah pilihan jawaban agar sesuai dengan 704 cm$^2$ atau memilih yang paling dekat. Pilihan C adalah 704. Saya akan perbaiki jawabannya menjadi C.\n"
+    "jawaban": "C",
+    "pembahasan": "Jari-jari alas $r=7$ cm dan tinggi $t=24$ cm.\n\nUntuk mencari luas seluruh permukaan kerucut, kita perlu mencari panjang garis pelukis ($s$). Hubungan antara $r, t, s$ adalah teorema Pythagoras:\n$s = \\sqrt{r^2 + t^2} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$ cm.\n\nLuas alas kerucut $A_{\\text{alas}} = \\pi r^2$.\n$A_{\\text{alas}} = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 22 \\times 7 = 154$ cm$^2$.\n\nLuas selimut kerucut $A_{\\text{selimut}} = \\pi r s$.\n$A_{\\text{selimut}} = \\frac{22}{7} \\times 7 \\times 25 = 22 \\times 25 = 550$ cm$^2$.\n\nLuas seluruh permukaan kerucut $A_{\\text{total}} = A_{\\text{alas}} + A_{\\text{selimut}}$.\n$A_{\\text{total}} = 154 + 550 = 704$ cm$^2$."
   },
   {
-    "id": 8,
+    "id": 48,
     "pertanyaan": "Sebuah bola dimasukkan ke dalam sebuah tabung sedemikian rupa sehingga bola tersebut tepat menyentuh alas, tutup, dan selimut tabung. Jika volume bola adalah $288\\pi$ cm$^3$, maka volume tabung tersebut adalah...",
     "pilihan": [
       "$432\\pi$ cm$^3$",
@@ -102,10 +102,10 @@
       "$1728\\pi$ cm$^3$"
     ],
     "jawaban": "A",
-    "pembahasan": "Jika bola tepat menyentuh alas, tutup, dan selimut tabung, berarti jari-jari tabung ($R_{tabung}$) sama dengan jari-jari bola ($r_{bola}$), dan tinggi tabung ($T_{tabung}$) sama dengan diameter bola ($2r_{bola}$).\nVolume bola $V_{bola} = \\frac{4}{3} \\pi r_{bola}^3$. Diketahui $V_{bola} = 288\\pi$ cm$^3$.\n$288\\pi = \\frac{4}{3} \\pi r_{bola}^3$\n$288 = \\frac{4}{3} r_{bola}^3$\n$r_{bola}^3 = 288 \\times \\frac{3}{4} = 72 \\times 3 = 216$.\n$r_{bola} = \\sqrt[3]{216} = 6$ cm.\nJadi, jari-jari tabung $R_{tabung} = 6$ cm.\nTinggi tabung $T_{tabung} = 2r_{bola} = 2 \\times 6 = 12$ cm.\nVolume tabung $V_{tabung} = \\pi R_{tabung}^2 T_{tabung}$.\n$V_{tabung} = \\pi (6)^2 (12) = \\pi (36)(12) = 432\\pi$ cm$^3$."
+    "pembahasan": "Jika bola tepat menyentuh alas, tutup, dan selimut tabung, berarti ada hubungan khusus antara dimensi bola dan tabung:\n* Jari-jari tabung ($R_{\\text{tabung}}$) sama dengan jari-jari bola ($r_{\\text{bola}}$).\n* Tinggi tabung ($T_{\\text{tabung}}$) sama dengan diameter bola ($2r_{\\text{bola}}$).\n\nVolume bola $V_{\\text{bola}} = \\frac{4}{3} \\pi r_{\\text{bola}}^3$. Diketahui $V_{\\text{bola}} = 288\\pi$ cm$^3$.\n$288\\pi = \\frac{4}{3} \\pi r_{\\text{bola}}^3$\nBagi kedua sisi dengan $\\pi$:\n$288 = \\frac{4}{3} r_{\\text{bola}}^3$\nKalikan kedua sisi dengan $\\frac{3}{4}$:\n$r_{\\text{bola}}^3 = 288 \\times \\frac{3}{4} = 72 \\times 3 = 216$.\n$r_{\\text{bola}} = \\sqrt[3]{216} = 6$ cm.\n\nSekarang kita tahu dimensi tabung:\nJari-jari tabung $R_{\\text{tabung}} = r_{\\text{bola}} = 6$ cm.\nTinggi tabung $T_{\\text{tabung}} = 2r_{\\text{bola}} = 2 \\times 6 = 12$ cm.\n\nVolume tabung $V_{\\text{tabung}} = \\pi R_{\\text{tabung}}^2 T_{\\text{tabung}}$.\n$V_{\\text{tabung}} = \\pi (6)^2 (12) = \\pi (36)(12) = 432\\pi$ cm$^3$."
   },
   {
-    "id": 9,
+    "id": 49,
     "pertanyaan": "Sebuah segitiga $ABC$ memiliki koordinat titik $A(0,0)$, $B(8,0)$, dan $C(x,y)$. Jika luas segitiga $ABC$ adalah 20 satuan luas, maka nilai mutlak dari koordinat $y$ titik $C$ adalah...",
     "pilihan": [
       "2.5",
@@ -115,10 +115,10 @@
       "10"
     ],
     "jawaban": "C",
-    "pembahasan": "Titik $A(0,0)$ dan $B(8,0)$ berada pada sumbu-x. Ini berarti panjang alas segitiga dapat diambil sebagai jarak $AB$.\nPanjang alas $AB = |8 - 0| = 8$ satuan.\nTinggi segitiga ($h$) adalah jarak vertikal dari titik $C(x,y)$ ke garis $AB$ (sumbu-x). Jadi, tinggi adalah nilai mutlak dari koordinat $y$ titik $C$, yaitu $|y|$.\nLuas segitiga $A = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$.\nDiketahui $A = 20$ satuan luas.\n$20 = \\frac{1}{2} \\times 8 \\times |y|$\n$20 = 4 \\times |y|$\n$|y| = 20/4 = 5$.\nJadi, nilai mutlak dari koordinat $y$ titik $C$ adalah 5."
+    "pembahasan": "Titik $A(0,0)$ dan $B(8,0)$ berada pada sumbu-x. Ini berarti panjang alas segitiga dapat diambil sebagai jarak antara $A$ dan $B$.\nPanjang alas $AB = |8 - 0| = 8$ satuan.\n\nTinggi segitiga ($h$) adalah jarak tegak lurus dari titik $C(x,y)$ ke garis yang mengandung alas $AB$ (yaitu sumbu-x). Jadi, tinggi adalah nilai mutlak dari koordinat $y$ titik $C$, yaitu $|y|$.\n\nRumus luas segitiga $A = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$.\nDiketahui $A = 20$ satuan luas.\n$20 = \\frac{1}{2} \\times 8 \\times |y|$\n$20 = 4 \\times |y|$\n\nUntuk menemukan $|y|$:\n$|y| = \\frac{20}{4} = 5$.\n\nJadi, nilai mutlak dari koordinat $y$ titik $C$ adalah 5."
   },
   {
-    "id": 10,
+    "id": 50,
     "pertanyaan": "Sebuah persegi memiliki titik-titik sudut $A(2,1)$, $B(6,1)$, $C(6,5)$, dan $D(2,5)$. Luas daerah yang dibatasi oleh persegi tersebut adalah...",
     "pilihan": [
       "12 satuan luas",
@@ -128,6 +128,6 @@
       "28 satuan luas"
     ],
     "jawaban": "B",
-    "pembahasan": "Untuk mencari luas persegi, kita perlu mengetahui panjang sisinya. Kita bisa menghitung panjang sisi $AB$ atau $AD$.\nPanjang sisi $AB$: Titik $A(2,1)$ dan $B(6,1)$. Koordinat y sama, jadi ini adalah garis horizontal.\nPanjang $AB = |6 - 2| = 4$ satuan.\nPanjang sisi $AD$: Titik $A(2,1)$ dan $D(2,5)$. Koordinat x sama, jadi ini adalah garis vertikal.\nPanjang $AD = |5 - 1| = 4$ satuan.\nKarena panjang sisinya 4 satuan, ini memang persegi.\nLuas persegi $A = \\text{sisi}^2 = 4^2 = 16$ satuan luas."
+    "pembahasan": "Untuk mencari luas persegi, kita perlu mengetahui panjang sisinya. Kita dapat menghitung panjang salah satu sisinya, misalnya $AB$ atau $AD$, menggunakan koordinat titik-titik sudut.\n\n1.  **Panjang sisi $AB$:** Titik $A(2,1)$ dan $B(6,1)$.\n    Karena koordinat y sama (y=1), ini adalah garis horizontal. Panjangnya adalah selisih nilai x:\n    Panjang $AB = |6 - 2| = 4$ satuan.\n\n2.  **Panjang sisi $AD$:** Titik $A(2,1)$ dan $D(2,5)$.\n    Karena koordinat x sama (x=2), ini adalah garis vertikal. Panjangnya adalah selisih nilai y:\n    Panjang $AD = |5 - 1| = 4$ satuan.\n\nKarena panjang sisi $AB$ dan $AD$ sama-sama 4 satuan, ini mengkonfirmasi bahwa bangun tersebut adalah persegi dengan panjang sisi 4 satuan.\n\nLuas persegi $A = \\text{sisi}^2$.\n$A = 4^2 = 16$ satuan luas."
   }
 ]
