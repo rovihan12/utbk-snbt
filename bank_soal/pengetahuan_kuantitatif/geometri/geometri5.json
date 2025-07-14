@@ -78,7 +78,7 @@
     "jawaban": "C",
     "pembahasan": "Panjang balok $P=10$ cm, lebar $L=8$ cm, dan tinggi $T=6$ cm.\n\nLuas permukaan balok $A = 2(PL + PT + LT)$.\n$A = 2((10 \\times 8) + (10 \\times 6) + (8 \\times 6))$\n$A = 2(80 + 60 + 48)$\n$A = 2(188) = 376$ cm$^2$."
   },
-  {
+   {
     "id": 47,
     "pertanyaan": "Sebuah kerucut memiliki jari-jari alas 7 cm dan tinggi 24 cm. Luas seluruh permukaan kerucut adalah... (gunakan $\\pi = 22/7$)",
     "pilihan": [
@@ -89,7 +89,7 @@
       "880 cm$^2$"
     ],
     "jawaban": "C",
-    "pembahasan": "Jari-jari alas $r=7$ cm dan tinggi $t=24$ cm.\n\nUntuk mencari luas seluruh permukaan kerucut, kita perlu mencari panjang garis pelukis ($s$). Hubungan antara $r, t, s$ adalah teorema Pythagoras:\n$s = \\sqrt{r^2 + t^2} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$ cm.\n\nLuas alas kerucut $A_{\\text{alas}} = \\pi r^2$.\n$A_{\\text{alas}} = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 22 \\times 7 = 154$ cm$^2$.\n\nLuas selimut kerucut $A_{\\text{selimut}} = \\pi r s$.\n$A_{\\text{selimut}} = \\frac{22}{7} \\times 7 \\times 25 = 22 \\times 25 = 550$ cm$^2$.\n\nLuas seluruh permukaan kerucut $A_{\\text{total}} = A_{\\text{alas}} + A_{\\text{selimut}}$.\n$A_{\\text{total}} = 154 + 550 = 704$ cm$^2$."
+    "pembahasan": "Jari-jari alas $r=7$ cm dan tinggi $t=24$ cm.\\n\\nUntuk mencari luas seluruh permukaan kerucut, kita perlu mencari panjang garis pelukis ($s$). Hubungan antara $r, t, s$ adalah teorema Pythagoras:\\n$s = \\sqrt{r^2 + t^2} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25$ cm.\\n\\nLuas alas kerucut $A_{\\text{alas}} = \\pi r^2$.\\n$A_{\\text{alas}} = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 22 \\times 7 = 154$ cm$^2$.\\n\\nLuas selimut kerucut $A_{\\text{selimut}} = \\pi r s$.\\n$A_{\\text{selimut}} = \\frac{22}{7} \\times 7 \\times 25 = 22 \\times 25 = 550$ cm$^2$.\\n\\nLuas seluruh permukaan kerucut $A_{\\text{total}} = A_{\\text{alas}} + A_{\\text{selimut}}$.\\n$A_{\\text{total}} = 154 + 550 = 704$ cm$^2$."
   },
   {
     "id": 48,
