@@ -1,7 +1,7 @@
 [
   {
     "id": 101,
-    "pertanyaan": "Jika $A = \\{bilangan asli kurang dari 5\\}$ dan $B = \\{bilangan genap positif kurang dari 8\\}$, maka $A \\cap B$ adalah...",
+    "pertanyaan": "Jika $A = \\{\\text{bilangan asli kurang dari 5}\\}$ dan $B = \\{\\text{bilangan genap positif kurang dari 8}\\}$, maka $A \\cap B$ adalah...",
     "pilihan": ["$\\{1, 2, 3, 4\\}$", "$\\{2, 4, 6\\}$", "$\\{2, 4\\}$", "$\\{1, 2, 3, 4, 6\\}$", "$\\{\\}$"],
     "jawaban": "C",
     "pembahasan": "Himpunan $A = \\{1, 2, 3, 4\\}$. Himpunan $B = \\{2, 4, 6\\}$. Irisan $A \\cap B$ adalah anggota yang ada di kedua himpunan, yaitu $\\{2, 4\\}$."
@@ -137,6 +137,6 @@
     "pertanyaan": "Nilai dari $\\frac{(3^2)^3 \\times 3^{-4}}{3}$ adalah...",
     "pilihan": ["$3$", "$9$", "$27$", "$81$", "$1$"],
     "jawaban": "E",
-    "pembahasan": "Sederhanakan eksponen: $(3^2)^3 = 3^{2 \\times 3} = 3^6$. Maka ekspresi menjadi $\\frac{3^6 \\times 3^{-4}}{3} = \\frac{3^{6-4}}{3} = \\frac{3^2}{3^1} = 3^{2-1} = 3^1 = 3$."
+    "pembahasan": "Sederhanakan eksponen: $(3^2)^3 = 3^{2 \\times 3} = 3^6$. Maka ekspresi menjadi $\\frac{3^6 \\times 3^{-4}}{3^1} = \\frac{3^{6-4}}{3^1} = \\frac{3^2}{3^1} = 3^{2-1} = 3^1 = 3$."
   }
 ]
