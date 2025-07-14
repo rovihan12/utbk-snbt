@@ -4,69 +4,69 @@
     "pertanyaan": "Sebuah toko pakaian memberikan diskon 20% untuk semua produk. Setelah diskon, harga sebuah kemeja adalah Rp 120.000,00. Berapa harga awal kemeja tersebut sebelum diskon?",
     "pilihan": ["Rp 130.000,00", "Rp 140.000,00", "Rp 150.000,00", "Rp 160.000,00", "Rp 180.000,00"],
     "jawaban": "C",
-    "pembahasan": "Misalkan harga awal kemeja adalah H. Diskon yang diberikan adalah 20%, artinya harga setelah diskon adalah 100% - 20% = 80% dari harga awal.\nJadi, 80% dari H = Rp 120.000,00.\n$0.80 \\times H = 120.000$\n$H = 120.000 / 0.80$\n$H = 120.000 \\times (10/8)$\n$H = 15.000 \\times 10$\n$H = \\textbf{Rp 150.000,00}$."
+    "pembahasan": "Misalkan harga awal kemeja adalah H.\nHarga setelah diskon = 80% dari H = Rp 120.000,00.\n$0{,}80 \\times H = 120.000$\n$H = 120.000 / 0{,}80 = 150.000$\nJadi, harga awal kemeja adalah **Rp 150.000,00**."
   },
   {
     "id": 62,
     "pertanyaan": "Jika $x$ adalah bilangan genap dan $y$ adalah bilangan ganjil, manakah di antara pilihan berikut yang merupakan bilangan genap?",
     "pilihan": ["x + y", "x - y", "x + 2y + 1", "y^2", "x \\times y"],
     "jawaban": "E",
-    "pembahasan": "Kita bisa menguji setiap pilihan dengan properti bilangan genap dan ganjil, atau dengan mengambil contoh bilangan genap (misal x=2) dan bilangan ganjil (misal y=1):\n\nA. x + y = Genap + Ganjil = Ganjil (Contoh: 2+1=3)\nB. x - y = Genap - Ganjil = Ganjil (Contoh: 2-1=1)\nC. x + 2y + 1 = Genap + (2 \\times Ganjil) + Ganjil = Genap + Genap + Ganjil = Ganjil (Contoh: 2 + 2(1) + 1 = 2+2+1 = 5)\nD. y^2 = Ganjil^2 = Ganjil (Contoh: 1^2=1)\nE. x \\times y = Genap \\times Ganjil = **Genap** (Contoh: 2 \\times 1 = 2)"
+    "pembahasan": "Coba dengan contoh: $x = 2$ (genap), $y = 1$ (ganjil).\nA. $x + y = 2 + 1 = 3$ (ganjil)\nB. $x - y = 2 - 1 = 1$ (ganjil)\nC. $x + 2y + 1 = 2 + 2(1) + 1 = 5$ (ganjil)\nD. $y^2 = 1$ (ganjil)\nE. $x \\times y = 2 \\times 1 = 2$ (genap)\nMaka yang genap hanya **x × y**."
   },
   {
     "id": 63,
     "pertanyaan": "Sebuah kebun berbentuk persegi panjang memiliki keliling 60 meter. Jika panjang kebun adalah 2 kali lebarnya, berapa luas kebun tersebut?",
-    "pilihan": ["100 m$^2$", "150 m$^2$", "200 m$^2$", "225 m$^2$", "250 m$^2$"],
+    "pilihan": ["100 m²", "150 m²", "200 m²", "225 m²", "250 m²"],
     "jawaban": "C",
-    "pembahasan": "Misalkan lebar kebun = L dan panjang kebun = P.\nDiketahui keliling $K = 2(P+L) = 60$ meter.\n$P+L = 30$.\nDiketahui juga $P = 2L$.\n\nSubstitusikan $P = 2L$ ke dalam persamaan $P+L = 30$:\n$2L + L = 30$\n$3L = 30$\n$L = 10$ meter.\n\nMaka panjang $P = 2L = 2 \\times 10 = 20$ meter.\nLuas kebun = Panjang $\\times$ Lebar = 20 m $\\times$ 10 m = **200 m$^2$**."
+    "pembahasan": "Keliling $K = 2(P + L) = 60$\n$P + L = 30$\nDiketahui $P = 2L$, maka:\n$2L + L = 30 \\Rightarrow 3L = 30 \\Rightarrow L = 10$\n$P = 20$\nLuas = $P \\times L = 20 \\times 10 = \\textbf{200 m²}$."
   },
   {
     "id": 64,
     "pertanyaan": "Jika $2x + 5 = 11$, maka nilai dari $x^2 - 3x + 2$ adalah...",
     "pilihan": ["0", "2", "4", "6", "8"],
     "jawaban": "B",
-    "pembahasan": "Pertama, cari nilai $x$ dari persamaan $2x + 5 = 11$:\n$2x = 11 - 5$\n$2x = 6$\n$x = 3$\n\nSekarang substitusikan nilai $x = 3$ ke ekspresi $x^2 - 3x + 2$:\n$3^2 - 3(3) + 2$\n$= 9 - 9 + 2$\n$= **2**."
+    "pembahasan": "Dari $2x + 5 = 11 \\Rightarrow 2x = 6 \\Rightarrow x = 3$.\n\nSubstitusikan ke ekspresi:\n$x^2 - 3x + 2 = 3^2 - 9 + 2 = 9 - 9 + 2 = \\textbf{2}$."
   },
   {
     "id": 65,
     "pertanyaan": "Sebuah jam dinding terlambat 5 menit setiap jam. Jika jam tersebut disetel tepat pada pukul 08.00 pagi, pukul berapa jam itu akan menunjukkan waktu yang sebenarnya pada pukul 20.00 malam di hari yang sama?",
     "pilihan": ["18.00", "19.00", "19.30", "19.50", "20.00"],
     "jawaban": "B",
-    "pembahasan": "Durasi waktu dari pukul 08.00 pagi hingga pukul 20.00 malam adalah 12 jam.\nSetiap jam, jam dinding terlambat 5 menit.\nTotal keterlambatan = 12 jam $\\times$ 5 menit/jam = 60 menit.\n60 menit = 1 jam.\n\nJika waktu sebenarnya adalah pukul 20.00, dan jam terlambat 1 jam, maka jam itu akan menunjukkan waktu 1 jam lebih awal.\nJadi, jam itu akan menunjukkan pukul 20.00 - 1 jam = **19.00**."
+    "pembahasan": "Dari 08.00 ke 20.00 = 12 jam.\nSetiap jam terlambat 5 menit.\nTotal keterlambatan = $12 \\times 5 = 60$ menit = 1 jam.\nMaka jam akan menunjukkan: $20.00 - 1$ jam = **19.00**."
   },
   {
     "id": 66,
     "pertanyaan": "Dalam sebuah survei terhadap 100 orang, 60 orang menyukai kopi, 40 orang menyukai teh. Jika 25 orang menyukai keduanya, berapa banyak orang yang tidak menyukai kopi maupun teh?",
     "pilihan": ["15", "20", "25", "30", "35"],
     "jawaban": "C",
-    "pembahasan": "Misalkan K = menyukai kopi dan T = menyukai teh.\nJumlah total orang = 100.\nJumlah yang menyukai Kopi, $n(K) = 60$.\nJumlah yang menyukai Teh, $n(T) = 40$.\nJumlah yang menyukai keduanya, $n(K \\cap T) = 25$.\n\nJumlah yang menyukai setidaknya satu (Kopi ATAU Teh) adalah:\n$n(K \\cup T) = n(K) + n(T) - n(K \\cap T)$\n$n(K \\cup T) = 60 + 40 - 25$\n$n(K \\cup T) = 100 - 25$\n$n(K \\cup T) = 75$.\n\nJumlah orang yang tidak menyukai kopi maupun teh adalah:\nTotal orang - Jumlah yang menyukai setidaknya satu\n$100 - 75 = \\textbf{25}$ orang."
+    "pembahasan": "Jumlah yang menyukai kopi: 60\nJumlah yang menyukai teh: 40\nYang menyukai keduanya: 25\n$n(K \\cup T) = 60 + 40 - 25 = 75$\nTidak menyukai keduanya = $100 - 75 = \\textbf{25}$ orang."
   },
   {
     "id": 67,
     "pertanyaan": "Jika $a = \\frac{1}{3}x$ dan $b = \\frac{1}{4}x$, dengan $x > 0$, maka hubungan yang tepat antara $a$ dan $b$ adalah...",
     "pilihan": ["a > b", "a < b", "a = b", "a = 2b", "Tidak dapat ditentukan"],
     "jawaban": "A",
-    "pembahasan": "Kita tahu bahwa $\\frac{1}{3} > \\frac{1}{4}$.\nKarena $x$ adalah bilangan positif ($x > 0$), maka ketika dikalikan dengan pecahan yang lebih besar, hasilnya akan lebih besar.\nJadi, $\\frac{1}{3}x > \\frac{1}{4}x$, yang berarti **a > b**."
+    "pembahasan": "Karena $\\frac{1}{3} > \\frac{1}{4}$ dan $x > 0$, maka:\n$a = \\frac{1}{3}x > \\frac{1}{4}x = b$.\nJadi, **a > b**."
   },
   {
     "id": 68,
     "pertanyaan": "Rata-rata usia sekelompok siswa adalah 16 tahun. Jika ada 5 siswa baru yang bergabung dengan rata-rata usia 18 tahun, dan rata-rata usia seluruh siswa menjadi 16,5 tahun, berapa jumlah siswa di kelompok awal?",
     "pilihan": ["10", "15", "20", "25", "30"],
     "jawaban": "B",
-    "pembahasan": "Misalkan jumlah siswa di kelompok awal = $N_1$ dan rata-rata usia awal = $R_1 = 16$.\nTotal usia awal = $N_1 \\times R_1 = 16N_1$.\n\nJumlah siswa baru = $N_2 = 5$ dan rata-rata usia siswa baru = $R_2 = 18$.\nTotal usia siswa baru = $N_2 \\times R_2 = 5 \\times 18 = 90$.\n\nSetelah bergabung, jumlah total siswa = $N_1 + N_2 = N_1 + 5$.\nRata-rata usia seluruh siswa = $R_{total} = 16.5$.\nTotal usia seluruh siswa = $(N_1 + 5) \\times 16.5$.\n\nPersamaan total usia:\n$16N_1 + 90 = (N_1 + 5) \\times 16.5$\n$16N_1 + 90 = 16.5N_1 + 16.5 \\times 5$\n$16N_1 + 90 = 16.5N_1 + 82.5$\n$90 - 82.5 = 16.5N_1 - 16N_1$\n$7.5 = 0.5N_1$\n$N_1 = 7.5 / 0.5$\n$N_1 = \\textbf{15}$\nJadi, jumlah siswa di kelompok awal adalah 15 orang."
+    "pembahasan": "Misal jumlah siswa awal = $N$.\nTotal usia awal = $16N$\nSiswa baru: 5 orang, total usia = $5 \\times 18 = 90$\nRata-rata baru = 16,5 dengan total siswa = $N + 5$\n\nPersamaan:\n$16N + 90 = 16.5(N + 5)$\n$16N + 90 = 16.5N + 82.5$\n$7.5 = 0.5N \\Rightarrow N = \\textbf{15}$"
   },
   {
     "id": 69,
     "pertanyaan": "Sebuah proyek pembangunan diperkirakan selesai dalam 40 hari oleh 12 pekerja. Jika setelah 10 hari, 2 pekerja mengundurkan diri, berapa hari lagi sisa pekerjaan akan selesai?",
     "pilihan": ["35 hari", "36 hari", "38 hari", "40 hari", "42 hari"],
     "jawaban": "B",
-    "pembahasan": "Total pekerjaan yang direncanakan = 12 pekerja $\\times$ 40 hari = 480 satuan pekerjaan.\n\nPekerjaan yang sudah diselesaikan dalam 10 hari pertama = 12 pekerja $\\times$ 10 hari = 120 satuan pekerjaan.\n\nSisa pekerjaan = Total pekerjaan - Pekerjaan yang sudah diselesaikan = 480 - 120 = 360 satuan pekerjaan.\n\nSetelah 10 hari, jumlah pekerja yang tersisa = 12 - 2 = 10 pekerja.\n\nWaktu yang dibutuhkan sisa pekerja untuk menyelesaikan sisa pekerjaan = Sisa pekerjaan / Jumlah pekerja yang tersisa\nWaktu = 360 satuan pekerjaan / 10 pekerja = **36 hari**."
+    "pembahasan": "Total pekerjaan = $12 \\times 40 = 480$ satuan.\n10 hari pertama = $12 \\times 10 = 120$ satuan.\nSisa = 360 satuan.\nSetelah itu tinggal 10 pekerja.\nWaktu = $360 / 10 = \\textbf{36 hari}$."
   },
   {
     "id": 70,
     "pertanyaan": "Jumlah tiga bilangan bulat berurutan adalah 63. Berapakah bilangan terbesar dari ketiga bilangan tersebut?",
     "pilihan": ["20", "21", "22", "23", "24"],
     "jawaban": "C",
-    "pembahasan": "Misalkan bilangan pertama adalah $n$.\nMaka tiga bilangan bulat berurutan adalah $n$, $n+1$, dan $n+2$.\nJumlah ketiga bilangan adalah $n + (n+1) + (n+2) = 63$.\n$3n + 3 = 63$\n$3n = 63 - 3$\n$3n = 60$\n$n = 60 / 3$\n$n = 20$\n\nBilangan terbesar adalah $n + 2 = 20 + 2 = \\textbf{22}$."
+    "pembahasan": "Misalkan tiga bilangan tersebut adalah $n$, $n+1$, $n+2$.\nJumlah: $n + (n+1) + (n+2) = 3n + 3 = 63 \\Rightarrow 3n = 60 \\Rightarrow n = 20$.\nBilangan terbesar = $n + 2 = \\textbf{22}$."
   }
 ]
