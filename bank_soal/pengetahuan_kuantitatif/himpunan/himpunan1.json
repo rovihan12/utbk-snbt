@@ -111,13 +111,14 @@
     "jawaban": "A",
     "pembahasan": "Pertama, hitung $p^2$ dan $q^2$: $p^2 = (2 + \\sqrt{3})^2 = 2^2 + 2(2)(\\sqrt{3}) + (\\sqrt{3})^2 = 4 + 4\\sqrt{3} + 3 = 7 + 4\\sqrt{3}$. $q^2 = (2 - \\sqrt{3})^2 = 2^2 - 2(2)(\\sqrt{3}) + (\\sqrt{3})^2 = 4 - 4\\sqrt{3} + 3 = 7 - 4\\sqrt{3}$. Kemudian, hitung $pq$: $pq = (2 + \\sqrt{3})(2 - \\sqrt{3}) = 2^2 - (\\sqrt{3})^2 = 4 - 3 = 1$. Sekarang substitusikan ke dalam ekspresi: $\\frac{p^2 - q^2}{pq} = \\frac{(7 + 4\\sqrt{3}) - (7 - 4\\sqrt{3})}{1} = \\frac{7 + 4\\sqrt{3} - 7 + 4\\sqrt{3}}{1} = 8\\sqrt{3}$. (Catatan: Ada kesalahan dalam pilihan jawaban dan jawaban yang diberikan pada contoh, seharusnya $8\\sqrt{3}$)."
   },
-  {
+   {
     "id": 17,
-    "pertanyaan": "Diberikan himpunan $S = \\{1, 2, 3, \\dots, 10\\}$. Jika $A$ adalah himpunan bagian dari $S$ yang beranggotakan bilangan ganjil dan $B$ adalah himpunan bagian dari $S$ yang beranggotakan bilangan prima, maka banyaknya anggota dari $(A \\cap B)^c$ adalah...",
-    "pilihan": ["$1$", "$2$", "$7$", "$8$", "$9$"],
-    "jawaban": "G",
-    "pembahasan": "Himpunan semesta $S = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$. Himpunan $A$ (bilangan ganjil dari $S$) = $\\{1, 3, 5, 7, 9\\}$. Himpunan $B$ (bilangan prima dari $S$) = $\\{2, 3, 5, 7\\}$. Irisan $A \\cap B$ adalah anggota yang ada di $A$ dan $B$: $\\{3, 5, 7\\}$. Komplemen dari $(A \\cap B)^c$ adalah semua anggota $S$ yang tidak ada di $A \\cap B$. Jadi, $(A \\cap B)^c = S - \\{3, 5, 7\\} = \\{1, 2, 4, 6, 8, 9, 10\\}$. Banyaknya anggota dari $(A \\cap B)^c$ adalah $7$. (Catatan: Pilihan jawaban tidak menyediakan '7'. Jawaban harusnya 'G' untuk '7' jika ada pilihan tambahan)."
-  },
+    "pertanyaan": "Diberikan himpunan S = {1, 2, 3, ..., 10}. Jika A adalah himpunan bilangan ganjil dalam S dan B adalah himpunan bilangan prima dalam S, maka banyaknya anggota dari komplemen irisan A dan B, yaitu (A ∩ B)', adalah...",
+    "pilihan": ["1", "2", "6", "7", "8"],
+    "jawaban": "D",
+    "pembahasan": "Himpunan semesta S = {1,2,3,4,5,6,7,8,9,10}\nA (ganjil) = {1,3,5,7,9}\nB (prima) = {2,3,5,7}\nA ∩ B = {3,5,7}\nKomplemen dari A ∩ B terhadap S adalah:\nS - (A ∩ B) = {1,2,4,6,8,9,10}\nJumlah anggota = 7 → Jawaban: 7 → opsi '7' adalah pilihan D"
+  }
+  ,
   {
     "id": 18,
     "pertanyaan": "Jika $a \\oplus b = a^2 - 2b$, maka nilai dari $(3 \\oplus 1) \\oplus 2$ adalah...",
@@ -128,9 +129,9 @@
   {
     "id": 19,
     "pertanyaan": "Sebuah operasi didefinisikan sebagai $a \\star b = (a+b)^2 - ab$. Nilai dari $5 \\star (2 \\star 1)$ adalah...",
-    "pilihan": ["$121$", "$130$", "$144$", "$150$", "$169$"],
+    "pilihan": ["$101$", "$105$", "$109$", "$120$", "$144$"],
     "jawaban": "C",
-    "pembahasan": "Pertama, hitung $2 \\star 1$: $2 \\star 1 = (2+1)^2 - (2)(1) = 3^2 - 2 = 9 - 2 = 7$. Kemudian, hitung $5 \\star 7$: $5 \\star 7 = (5+7)^2 - (5)(7) = 12^2 - 35 = 144 - 35 = 109$. (Catatan: Ada kesalahan dalam pilihan jawaban dan jawaban yang diberikan pada contoh, seharusnya $109$)."
+    "pembahasan": "Pertama, hitung $2 \\star 1$: $2 \\star 1 = (2+1)^2 - (2)(1) = 3^2 - 2 = 9 - 2 = 7$. Kemudian, hitung $5 \\star 7$: $5 \\star 7 = (5+7)^2 - (5)(7) = 12^2 - 35 = 144 - 35 = 109$."
   },
   {
     "id": 20,
