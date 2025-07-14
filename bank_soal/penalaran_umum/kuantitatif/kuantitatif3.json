@@ -63,10 +63,10 @@
     "pembahasan": "Diskon pertama = 10% dari 2.500.000 = 250.000\nHarga setelah diskon pertama = 2.250.000\nDiskon kedua = 5% dari 2.250.000 = 112.500\nHarga akhir = 2.250.000 - 112.500 = **2.137.500**"
   },
   {
-    "id": 30,
-    "pertanyaan": "Dalam sebuah kelas, 2/5 siswa suka matematika, dan 1/4 siswa suka fisika. Jika 1/10 siswa suka keduanya, berapa bagian siswa yang tidak suka keduanya?",
-    "pilihan": ["1/20", "3/20", "7/20", "9/20", "11/20"],
-    "jawaban": "D",
-    "pembahasan": "P(M) = 2/5, P(F) = 1/4, P(M \\cap F) = 1/10\nP(M \\cup F) = 2/5 + 1/4 - 1/10 = 11/20\nTidak suka keduanya = 1 - 11/20 = **9/20**"
-  }
+  "id": 30,
+  "pertanyaan": "Dalam sebuah kelas, 2/5 siswa suka matematika, dan 1/4 siswa suka fisika. Jika 1/10 siswa suka keduanya, berapa bagian siswa yang tidak suka keduanya?",
+  "pilihan": ["1/20", "3/20", "7/20", "9/20", "11/20"],
+  "jawaban": "D",
+  "pembahasan": "P(M) = \\(\\frac{2}{5}\\), P(F) = \\(\\frac{1}{4}\\), P(M dan F) = \\(\\frac{1}{10}\\)\nP(M atau F) = \\(\\frac{2}{5} + \\frac{1}{4} - \\frac{1}{10} = \\frac{8}{20} + \\frac{5}{20} - \\frac{2}{20} = \\frac{11}{20}\\)\nTidak suka keduanya = \\(1 - \\frac{11}{20} = \\boxed{\\frac{9}{20}}\\)"
+ }
 ]
