@@ -11,13 +11,13 @@
     "pertanyaan": "Sebuah pedagang membeli 50 kg beras seharga Rp 600.000,00. Jika 10% dari beras tersebut busuk dan tidak bisa dijual, dan pedagang ingin mendapat keuntungan 23.75% dari total harga beli, berapa harga jual per kg beras yang masih layak dijual?",
     "pilihan": ["Rp 14.000,00", "Rp 15.000,00", "Rp 16.500,00", "Rp 17.500,00", "Rp 18.000,00"],
     "jawaban": "C",
-    "pembahasan": "Harga beli total = Rp 600.000,00.\nTotal beras = 50 kg.\nBeras busuk = 10% dari 50 kg = 0.10 $\\times$ 50 = 5 kg.\nBeras yang layak dijual = 50 kg - 5 kg = 45 kg.\nKeuntungan yang diinginkan = 23.75% dari Rp 600.000,00 = 0.2375 $\\times$ 600.000 = Rp 142.500,00.\nTotal pendapatan yang diinginkan = Harga beli + Keuntungan = 600.000 + 142.500 = Rp 742.500,00.\nHarga jual per kg beras = Total pendapatan yang diinginkan / Beras yang layak dijual\nHarga jual per kg = 742.500 / 45 = **Rp 16.500,00**."
+    "pembahasan": "Harga beli total = Rp 600.000,00.\nTotal beras = 50 kg.\nBeras busuk = 10% dari 50 kg = 0.10 × 50 = 5 kg.\nBeras yang layak dijual = 50 kg - 5 kg = 45 kg.\nKeuntungan yang diinginkan = 23.75% dari Rp 600.000,00 = 0.2375 × 600.000 = Rp 142.500,00.\nTotal pendapatan yang diinginkan = Harga beli + Keuntungan = 600.000 + 142.500 = Rp 742.500,00.\nHarga jual per kg beras = Total pendapatan yang diinginkan / Beras yang layak dijual\nHarga jual per kg = 742.500 / 45 = **Rp 16.500,00**."
   },
   {
     "id": 33,
     "pertanyaan": "Jika $2x + y = 7$ dan $x - y = 2$, maka nilai dari $x \\times y$ adalah...",
     "pilihan": ["3", "4", "5", "6", "8"],
-    "jawaban": "D",
+    "jawaban": "A",
     "pembahasan": "Kita punya sistem persamaan:\n1) $2x + y = 7$\n2) $x - y = 2$\n\nTambahkan persamaan (1) dan (2) untuk mengeliminasi $y$:\n$(2x + y) + (x - y) = 7 + 2$\n$3x = 9$\n$x = 3$\n\nSubstitusikan $x = 3$ ke persamaan (2):\n$3 - y = 2$\n$y = 3 - 2$\n$y = 1$\n\nMaka nilai dari $x \\times y = 3 \\times 1 = \\textbf{3}$."
   },
   {
@@ -25,48 +25,48 @@
     "pertanyaan": "Rata-rata berat badan 4 orang siswa adalah 55 kg. Jika ada seorang siswa baru dengan berat 65 kg bergabung, berapa rata-rata berat badan kelima siswa tersebut?",
     "pilihan": ["56 kg", "57 kg", "58 kg", "59 kg", "60 kg"],
     "jawaban": "B",
-    "pembahasan": "Total berat badan 4 siswa = Rata-rata $\\times$ Jumlah siswa = 55 kg $\\times$ 4 = 220 kg.\nBerat badan siswa baru = 65 kg.\nTotal berat badan 5 siswa = 220 kg + 65 kg = 285 kg.\nRata-rata berat badan 5 siswa = Total berat badan 5 siswa / Jumlah siswa\nRata-rata = 285 kg / 5 = **57 kg**."
+    "pembahasan": "Total berat badan 4 siswa = Rata-rata × Jumlah siswa = 55 kg × 4 = 220 kg.\nBerat badan siswa baru = 65 kg.\nTotal berat badan 5 siswa = 220 kg + 65 kg = 285 kg.\nRata-rata berat badan 5 siswa = Total berat badan 5 siswa / Jumlah siswa\nRata-rata = 285 kg / 5 = **57 kg**."
   },
   {
     "id": 35,
     "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 pekerja dalam 30 hari. Jika pekerjaan tersebut dipercepat dan harus selesai dalam 20 hari, berapa jumlah pekerja yang dibutuhkan?",
     "pilihan": ["10 orang", "12 orang", "14 orang", "15 orang", "16 orang"],
     "jawaban": "B",
-    "pembahasan": "Ini adalah masalah perbandingan berbalik nilai. Misalkan jumlah pekerja = P dan waktu = W.\n$P_1 \\times W_1 = P_2 \\times W_2$\n8 orang $\\times$ 30 hari = $P_2$ orang $\\times$ 20 hari\n$240 = 20 \\times P_2$\n$P_2 = 240 / 20$\n$P_2 = \\textbf{12 orang}$."
+    "pembahasan": "Ini adalah masalah perbandingan berbalik nilai. Misalkan jumlah pekerja = P dan waktu = W.\nP₁ × W₁ = P₂ × W₂\n8 orang × 30 hari = P₂ orang × 20 hari\n240 = 20 × P₂\nP₂ = 240 / 20\nP₂ = **12 orang**."
   },
   {
     "id": 36,
     "pertanyaan": "Urutkan pecahan berikut dari yang terbesar ke yang terkecil: 3/5, 5/8, 2/3, 7/10.",
     "pilihan": ["7/10, 2/3, 5/8, 3/5", "2/3, 7/10, 5/8, 3/5", "7/10, 5/8, 2/3, 3/5", "5/8, 7/10, 2/3, 3/5", "2/3, 5/8, 7/10, 3/5"],
     "jawaban": "A",
-    "pembahasan": "Untuk mengurutkan pecahan, ubah semua pecahan ke bentuk desimal atau samakan penyebutnya.\nDesimal:\n3/5 = 0.6\n5/8 = 0.625\n2/3 $\\approx$ 0.666...\n7/10 = 0.7\n\nUrutan dari terbesar ke terkecil:\n0.7 (7/10)\n0.666... (2/3)\n0.625 (5/8)\n0.6 (3/5)\n\nJadi, urutannya adalah **7/10, 2/3, 5/8, 3/5**."
+    "pembahasan": "Untuk mengurutkan pecahan, ubah semua pecahan ke bentuk desimal:\n3/5 = 0.6\n5/8 = 0.625\n2/3 ≈ 0.666...\n7/10 = 0.7\n\nUrutan dari terbesar ke terkecil:\n0.7 (7/10)\n0.666... (2/3)\n0.625 (5/8)\n0.6 (3/5)\n\nJadi, urutannya adalah **7/10, 2/3, 5/8, 3/5**."
   },
   {
     "id": 37,
     "pertanyaan": "Sebuah tangki berisi air 1/3 bagian. Setelah ditambahkan 10 liter air, tangki tersebut terisi 1/2 bagian. Berapa kapasitas penuh tangki tersebut (dalam liter)?",
     "pilihan": ["30", "40", "50", "60", "70"],
     "jawaban": "D",
-    "pembahasan": "Misalkan kapasitas penuh tangki = T liter.\nAir awal = (1/3)T.\nSetelah ditambah 10 liter, air menjadi (1/2)T.\n(1/3)T + 10 = (1/2)T\n10 = (1/2)T - (1/3)T\n10 = (3/6)T - (2/6)T\n10 = (1/6)T\nT = 10 $\\times$ 6\nT = **60 liter**."
+    "pembahasan": "Misalkan kapasitas penuh tangki = T liter.\nAir awal = (1/3)T.\nSetelah ditambah 10 liter, air menjadi (1/2)T.\n(1/3)T + 10 = (1/2)T\n10 = (1/2)T - (1/3)T\n10 = (3/6)T - (2/6)T\n10 = (1/6)T\nT = 10 × 6\nT = **60 liter**."
   },
   {
     "id": 38,
     "pertanyaan": "Jika $p = 5$ dan $q = -2$, maka nilai dari $p^2 + q^2 - pq$ adalah...",
     "pilihan": ["11", "21", "29", "31", "39"],
     "jawaban": "E",
-    "pembahasan": "Substitusikan nilai $p = 5$ dan $q = -2$ ke dalam ekspresi:\n$p^2 = 5^2 = 25$\n$q^2 = (-2)^2 = 4$\n$pq = 5 \\times (-2) = -10$\n\n$p^2 + q^2 - pq = 25 + 4 - (-10)$\n$= 29 + 10$\n$= \\textbf{39}$."
+    "pembahasan": "Substitusikan nilai $p = 5$ dan $q = -2$ ke dalam ekspresi:\n$p^2 = 5^2 = 25$\n$q^2 = (-2)^2 = 4$\n$pq = 5 × (-2) = -10$\n\n$p^2 + q^2 - pq = 25 + 4 - (-10)$\n$= 29 + 10$\n$= \\textbf{39}$."
   },
   {
     "id": 39,
     "pertanyaan": "Dalam sebuah survei, 70% penduduk kota A memiliki ponsel, dan 45% memiliki laptop. Jika 30% memiliki keduanya, berapa persen penduduk kota A yang tidak memiliki ponsel maupun laptop?",
     "pilihan": ["10%", "15%", "20%", "25%", "30%"],
     "jawaban": "B",
-    "pembahasan": "Misalkan P = memiliki ponsel dan L = memiliki laptop.\nP(P) = 70%\nP(L) = 45%\nP(P $\\cap$ L) = 30% (memiliki keduanya)\n\nPersentase penduduk yang memiliki setidaknya satu (ponsel ATAU laptop) adalah:\nP(P $\\cup$ L) = P(P) + P(L) - P(P $\\cap$ L)\nP(P $\\cup$ L) = 70% + 45% - 30%\nP(P $\\cup$ L) = 115% - 30%\nP(P $\\cup$ L) = 85%\n\nPersentase penduduk yang tidak memiliki ponsel maupun laptop adalah 100% - P(P $\\cup$ L):\nTidak memiliki keduanya = 100% - 85% = **15%**."
+    "pembahasan": "Misalkan P = memiliki ponsel dan L = memiliki laptop.\nP(P) = 70%\nP(L) = 45%\nP(P ∩ L) = 30% (memiliki keduanya)\n\nPersentase penduduk yang memiliki setidaknya satu (ponsel ATAU laptop) adalah:\nP(P ∪ L) = P(P) + P(L) - P(P ∩ L)\nP(P ∪ L) = 70% + 45% - 30%\nP(P ∪ L) = 115% - 30%\nP(P ∪ L) = 85%\n\nPersentase penduduk yang tidak memiliki ponsel maupun laptop adalah 100% - P(P ∪ L):\nTidak memiliki keduanya = 100% - 85% = **15%**."
   },
   {
     "id": 40,
     "pertanyaan": "Jika perbandingan usia A dan B adalah 3:5, dan jumlah usia mereka adalah 40 tahun, berapa usia B 5 tahun yang akan datang?",
     "pilihan": ["25 tahun", "30 tahun", "35 tahun", "40 tahun", "45 tahun"],
     "jawaban": "B",
-    "pembahasan": "Misalkan usia A = 3x dan usia B = 5x.\nJumlah usia mereka = 3x + 5x = 8x.\nDiketahui jumlah usia adalah 40 tahun, maka $8x = 40$\n$x = 40 / 8$\n$x = 5$\n\nUsia B sekarang = 5x = 5 $\\times$ 5 = 25 tahun.\nUsia B 5 tahun yang akan datang = Usia B sekarang + 5 tahun\nUsia B 5 tahun yang akan datang = 25 + 5 = **30 tahun**."
+    "pembahasan": "Misalkan usia A = 3x dan usia B = 5x.\nJumlah usia mereka = 3x + 5x = 8x.\nDiketahui jumlah usia adalah 40 tahun, maka $8x = 40$\n$x = 40 / 8$\n$x = 5$\n\nUsia B sekarang = 5x = 5 × 5 = 25 tahun.\nUsia B 5 tahun yang akan datang = Usia B sekarang + 5 tahun\nUsia B 5 tahun yang akan datang = 25 + 5 = **30 tahun**."
   }
 ]
