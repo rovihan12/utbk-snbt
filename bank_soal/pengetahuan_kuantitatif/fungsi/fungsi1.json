@@ -100,8 +100,8 @@
     "kategori": "Sulit",
     "pertanyaan": "Diketahui barisan geometri dengan $U_2 = 6$ dan $U_5 = 48$. Suku ke-7 barisan tersebut adalah...",
     "pilihan": ["96", "108", "120", "144", "192"],
-    "jawaban": "E",
-    "pembahasan": "Gunakan rumus $U_n = ar^{n-1}$\n$U_2 = ar^{2-1} = ar = 6$\n$U_5 = ar^{5-1} = ar^4 = 48$\nBagi $U_5$ dengan $U_2$:\n$\\frac{ar^4}{ar} = \\frac{48}{6}$\n$r^3 = 8$\n$r = \\sqrt[3]{8} = 2$\nSubstitusikan $r=2$ ke persamaan $ar=6$:\n$a(2) = 6 \\Rightarrow a = 3$\nSekarang, hitung suku ke-7 ($U_7$):\n$U_7 = ar^{7-1} = ar^6 = 3 \\cdot (2)^6 = 3 \\cdot 64 = 192$"
+    "jawaban": "A",
+    "pembahasan": "Rasio $r^3 = \\frac{U_5}{U_2} = \\frac{48}{6} = 8 \\Rightarrow r = 2$\n$U_1 = \\frac{U_2}{r} = \\frac{6}{2} = 3$\n$U_7 = U_1 \\cdot r^6 = 3 \\cdot 64 = 192$"
   },
   {
     "id": 14,
