@@ -11,7 +11,7 @@
       "$\\begin{pmatrix} 3 & 2 \\\\ 4 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Transpose dari sebuah matriks didapatkan dengan menukar baris menjadi kolom dan kolom menjadi baris.\\nJika $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, maka $A^T = \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix}$.\\nJadi, untuk $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$, $A^T = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$."
+    "pembahasan": "Transpose dari sebuah matriks didapatkan dengan menukar baris menjadi kolom dan kolom menjadi baris.\\nJika $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, maka $A^T = \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix}$.\nJadi, untuk $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$, $A^T = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$."
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "$\\begin{pmatrix} 5 & 0 \\\\ -4 & 2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk mengalikan skalar dengan matriks, kalikan setiap elemen dalam matriks dengan skalar tersebut.\\n$2B = 2 \\begin{pmatrix} 5 & 0 \\\\ -2 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\times 5 & 2 \\times 0 \\\\ 2 \\times -2 & 2 \\times 1 \\end{pmatrix} = \\begin{pmatrix} 10 & 0 \\\\ -4 & 2 \\end{pmatrix}$."
+    "pembahasan": "Untuk mengalikan skalar dengan matriks, kalikan setiap elemen dalam matriks dengan skalar tersebut.\n$2B = 2 \\begin{pmatrix} 5 & 0 \\\\ -2 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\times 5 & 2 \\times 0 \\\\ 2 \\times -2 & 2 \\times 1 \\end{pmatrix} = \\begin{pmatrix} 10 & 0 \\\\ -4 & 2 \\end{pmatrix}$."
   },
   {
     "id": 3,
@@ -67,7 +67,7 @@
       "$\\begin{pmatrix} 5 & 2 \\\\ 1 & 5 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Perkalian matriks dilakukan dengan mengalikan baris matriks pertama dengan kolom matriks kedua.\\n$DE = \\begin{pmatrix} (1 \\times 4) + (2 \\times 1) & (1 \\times 0) + (2 \\times 2) \\\\ (0 \\times 4) + (3 \\times 1) & (0 \\times 0) + (3 \\times 2) \\end{pmatrix}$ \\n$DE = \\begin{pmatrix} 4+2 & 0+4 \\\\ 0+3 & 0+6 \\end{pmatrix} = \\begin{pmatrix} 6 & 4 \\\\ 3 & 6 \\end{pmatrix}$."
+    "pembahasan": "Perkalian matriks dilakukan dengan mengalikan baris matriks pertama dengan kolom matriks kedua.\n$DE = \\begin{pmatrix} (1 \\times 4) + (2 \\times 1) & (1 \\times 0) + (2 \\times 2) \\\\ (0 \\times 4) + (3 \\times 1) & (0 \\times 0) + (3 \\times 2) \\end{pmatrix}$ \n$DE = \\begin{pmatrix} 4+2 & 0+4 \\\\ 0+3 & 0+6 \\end{pmatrix} = \\begin{pmatrix} 6 & 4 \\\\ 3 & 6 \\end{pmatrix}$."
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "11"
     ],
     "jawaban": "E",
-    "pembahasan": "Determinan matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad - bc$.\\n$det(A) = (x \\times 2) - (5 \\times 3) = 2x - 15$.\\nKita tahu $det(A) = 7$, jadi $2x - 15 = 7$.\\n$2x = 7 + 15$\\n$2x = 22$\\n$x = 11$."
+    "pembahasan": "Determinan matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad - bc$.\n$det(A) = (x \\times 2) - (5 \\times 3) = 2x - 15$.\\nKita tahu $det(A) = 7$, jadi $2x - 15 = 7$.\n$2x = 7 + 15$\n$2x = 22$\n$x = 11$."
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "$\\begin{pmatrix} -2 & -1 \\\\ -3 & -2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Invers dari matriks $F = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $F^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\\nUntuk $F = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, $det(F) = (2 \\times 2) - (1 \\times 3) = 4 - 3 = 1$.\\n$F^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$."
+    "pembahasan": "Invers dari matriks $F = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $F^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\nUntuk $F = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, $det(F) = (2 \\times 2) - (1 \\times 3) = 4 - 3 = 1$.\\n$F^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$."
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "$\\begin{pmatrix} 2 & 4 \\\\ 1 & 3 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk mencari $B$, kita bisa menggunakan $B = A^{-1} (AB)$.\\nTerlebih dahulu, cari invers dari $A$.\\n$det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$.\\nKemudian kalikan $A^{-1}$ dengan $AB$:\\n$B = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix} \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$ \\n$B = \\begin{pmatrix} (-2 \\times 7) + (1 \\times 15) & (-2 \\times 10) + (1 \\times 22) \\\\ (3/2 \\times 7) + (-1/2 \\times 15) & (3/2 \\times 10) + (-1/2 \\times 22) \\end{pmatrix}$ \\n$B = \\begin{pmatrix} -14+15 & -20+22 \\\\ 21/2 - 15/2 & 15 - 11 \\end{pmatrix}$ \\n$B = \\begin{pmatrix} 1 & 2 \\\\ 6/2 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
+    "pembahasan": "Untuk mencari $B$, kita bisa menggunakan $B = A^{-1} (AB)$.\nTerlebih dahulu, cari invers dari $A$.\\n$det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$.\nKemudian kalikan $A^{-1}$ dengan $AB$:\\n$B = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix} \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$ \n$B = \\begin{pmatrix} (-2 \\times 7) + (1 \\times 15) & (-2 \\times 10) + (1 \\times 22) \\\\ (3/2 \\times 7) + (-1/2 \\times 15) & (3/2 \\times 10) + (-1/2 \\times 22) \\end{pmatrix}$ \\n$B = \\begin{pmatrix} -14+15 & -20+22 \\\\ 21/2 - 15/2 & 15 - 11 \\end{pmatrix}$ \n$B = \\begin{pmatrix} 1 & 2 \\\\ 6/2 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "12"
     ],
     "jawaban": "C",
-    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\\nDari $G=H$, kita dapatkan:\\n$x = 3$ (elemen baris 1, kolom 1)\\n$2 = z \\implies z = 2$ (elemen baris 1, kolom 2)\\n$-1 = -1$ (elemen baris 2, kolom 1)\\n$y = 5$ (elemen baris 2, kolom 2)\\nJadi, $x+y+z = 3 + 5 + 2 = 10$."
+    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\nDari $G=H$, kita dapatkan:\n$x = 3$ (elemen baris 1, kolom 1)\n$2 = z \\implies z = 2$ (elemen baris 1, kolom 2)\n$-1 = -1$ (elemen baris 2, kolom 1)\n$y = 5$ (elemen baris 2, kolom 2)\\nJadi, $x+y+z = 3 + 5 + 2 = 10$."
   },
   {
     "id": 10,
@@ -137,6 +137,6 @@
       "8"
     ],
     "jawaban": "D",
-    "pembahasan": "Kita bisa menghitung $det(A)$ dan $det(B)$ terlebih dahulu, kemudian mengalikannya, karena $det(AB) = det(A) \\times det(B)$.\\n$det(A) = (2 \\times 3) - (1 \\times -1) = 6 - (-1) = 6 + 1 = 7$.\\n$det(B) = (1 \\times 1) - (0 \\times 2) = 1 - 0 = 1$.\\nJadi, $det(AB) = det(A) \\times det(B) = 7 \\times 1 = 7$."
+    "pembahasan": "Kita bisa menghitung $det(A)$ dan $det(B)$ terlebih dahulu, kemudian mengalikannya, karena $det(AB) = det(A) \\times det(B)$.\n$det(A) = (2 \\times 3) - (1 \\times -1) = 6 - (-1) = 6 + 1 = 7$.\n$det(B) = (1 \\times 1) - (0 \\times 2) = 1 - 0 = 1$.\nJadi, $det(AB) = det(A) \\times det(B) = 7 \\times 1 = 7$."
   }
 ]
