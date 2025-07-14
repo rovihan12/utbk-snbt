@@ -39,14 +39,14 @@
     "pertanyaan": "Sebuah bakteri membelah diri menjadi dua setiap 30 menit. Jika pada awalnya ada 10 bakteri, berapa jumlah bakteri setelah 2 jam?",
     "pilihan": ["80", "160", "320", "640", "1280"],
     "jawaban": "B",
-    "pembahasan": "Waktu total = 2 jam = 120 menit.\nSetiap 30 menit bakteri membelah diri, jadi jumlah pembelahan = 120 menit / 30 menit = 4 kali pembelahan.\nJumlah bakteri setelah n kali pembelahan = Jumlah awal \\times 2^n\nJumlah bakteri = 10 \\times 2^4\nJumlah bakteri = 10 \\times 16\nJumlah bakteri = 160."
+    "pembahasan": "Waktu total = 2 jam = 120 menit.\nSetiap 30 menit bakteri membelah diri, jadi jumlah pembelahan = 120 menit / 30 menit = 4 kali pembelahan.\nJumlah bakteri setelah n kali pembelahan = Jumlah awal \times 2^n\nJumlah bakteri = 10 \times 2^4\nJumlah bakteri = 10 \times 16\nJumlah bakteri = 160."
   },
   {
     "id": 17,
     "pertanyaan": "Sebidang tanah berbentuk persegi panjang memiliki keliling 40 meter. Jika panjangnya 4 meter lebih panjang dari lebarnya, berapa luas tanah tersebut?",
     "pilihan": ["80 meter persegi", "90 meter persegi", "96 meter persegi", "100 meter persegi", "120 meter persegi"],
     "jawaban": "C",
-    "pembahasan": "Misalkan lebar = L dan panjang = P.\nKeliling = 2 \\times (P + L) = 40\nP + L = 20\nDiketahui P = L + 4.\nSubstitusikan P ke persamaan P + L = 20:\n(L + 4) + L = 20\n2L + 4 = 20\n2L = 16\nL = 8 meter\nPanjang P = L + 4 = 8 + 4 = 12 meter.\nLuas tanah = Panjang $\\times Lebar = 12 m \\times 8 m = 96 meter persegi."
+    "pembahasan": "Misalkan lebar = L dan panjang = P.\nKeliling = 2 \times (P + L) = 40\nP + L = 20\nDiketahui P = L + 4.\nSubstitusikan P ke persamaan P + L = 20:\n(L + 4) + L = 20\n2L + 4 = 20\n2L = 16\nL = 8 meter\nPanjang P = L + 4 = 8 + 4 = 12 meter.\nLuas tanah = Panjang $\times Lebar = 12 m \times 8 m = 96 meter persegi."
   },
   {
     "id": 18,
