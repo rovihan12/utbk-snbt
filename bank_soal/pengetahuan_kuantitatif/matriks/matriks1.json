@@ -264,5 +264,19 @@
     ],
     "jawaban": "A",
     "pembahasan": "Invers dari matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $A^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\nUntuk $A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$, $det(A) = (2 \\times 3) - (1 \\times 4) = 6 - 4 = 2$.\n$A^{-1} = \\frac{1}{2} \\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix} = \\begin{pmatrix} 3/2 & -1/2 \\\\ -4/2 & 2/2 \\end{pmatrix} = \\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix}$."
+  },
+   {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Diberikan matriks $K = \\begin{pmatrix} x & 2 \\\\ 2 & x \\end{pmatrix}$. Jika $det(K) = 0$, maka nilai $x$ adalah...",
+    "pilihan": [
+      "$-2$ atau $2$",
+      "$-2$ atau $1$",
+      "$-1$ atau $2$",
+      "$-1$ atau $1$",
+      "$2$ atau $0$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Determinan dari matriks $2 \\times 2$ adalah $ad-bc$. Jika $det(K)=0$, maka $ad-bc=0$.\n$(x \\times x) - (2 \\times 2) = 0$\\n$x^2 - 4 = 0$\\n$x^2 = 4$\n$x = \\pm 2$. Jadi, nilai $x$ adalah $-2$ atau $2$."
   }
 ]
