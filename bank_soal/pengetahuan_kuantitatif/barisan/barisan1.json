@@ -65,18 +65,19 @@
     "pembahasan": "Deret ini adalah deret geometri dengan suku pertama ($a$) = 8 dan rasio ($r$) = 4/8 = 1/2. Karena $|r| < 1$, deret ini konvergen. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{8}{1-1/2} = \\frac{8}{1/2} = 8 \\times 2 = 16$."
   },
   {
-    "id": 6,
-    "pertanyaan": "Diketahui barisan aritmetika dengan $a_3 = 10$ dan $a_7 = 22$. Suku ke-10 dari barisan tersebut adalah...",
-    "pilihan": [
-      "28",
-      "31",
-      "34",
-      "37",
-      "40"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Kita punya dua persamaan: $a_3 = a_1 + 2d = 10$ dan $a_7 = a_1 + 6d = 22$. Kurangkan persamaan pertama dari persamaan kedua: $(a_1 + 6d) - (a_1 + 2d) = 22 - 10 \\Rightarrow 4d = 12 \\Rightarrow d = 3$. Substitusikan $d=3$ ke $a_1 + 2d = 10 \\Rightarrow a_1 + 6 = 10 \\Rightarrow a_1 = 4$. Sekarang cari suku ke-10: $a_{10} = a_1 + 9d = 4 + 9(3) = 4 + 27 = 31$."
-  },
+  "id": 6,
+  "pertanyaan": "Diketahui barisan aritmetika dengan $a_{3} = 10$ dan $a_{7} = 22$. Suku ke-10 dari barisan tersebut adalah...",
+  "pilihan": [
+    "28",
+    "31",
+    "34",
+    "37",
+    "40"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Kita punya dua persamaan: $a_{3} = a_{1} + 2d = 10$ dan $a_{7} = a_{1} + 6d = 22$. Kurangkan persamaan pertama dari kedua: $(a_{1} + 6d) - (a_{1} + 2d) = 22 - 10 \\Rightarrow 4d = 12 \\Rightarrow d = 3$. Substitusikan $d=3$ ke $a_{1} + 2d = 10 \\Rightarrow a_{1} + 6 = 10 \\Rightarrow a_{1} = 4$. Sekarang cari suku ke-10: $a_{10} = a_{1} + 9d = 4 + 9(3) = 4 + 27 = 31$."
+}
+,
   {
     "id": 7,
     "pertanyaan": "Jika $2x-1, 3x, 6x+2$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $x$ adalah...",
