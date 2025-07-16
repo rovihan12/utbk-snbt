@@ -268,7 +268,7 @@
   {
     "id": 120,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $^5\\log 2 = p$, maka $^25\\log 4$ adalah...",
+    "pertanyaan": "Jika $^5\\log 2 = p$, maka $^{25}\\log 4$ adalah...",
     "pilihan": [
       "$p/2$",
       "$2p$",
@@ -277,6 +277,6 @@
       "$1/p$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^a\\log b = \\frac{^m\\log b}{^m\\log a}$.\n$^25\\log 4 = \\frac{^5\\log 4}{^5\\log 25}$\n$^5\\log 4 = ^5\\log 2^2 = 2 \\cdot ^5\\log 2 = 2p$\n$^5\\log 25 = 2$ (karena $5^2 = 25$)\nJadi, $^25\\log 4 = \\frac{2p}{2} = p$"
+    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^a\\log b = \\frac{^m\\log b}{^m\\log a}$.\n$^25\\log 4 = \\frac{^5\\log 4}{^5\\log 25}$\n$^5\\log 4 = ^5\\log 2^2 = 2 \\cdot ^5\\log 2 = 2p$\n$^5\\log 25 = 2$ (karena $5^2 = 25$)\nJadi, $^{25}\\log 4 = \\frac{2p}{2} = p$"
   }
 ]
