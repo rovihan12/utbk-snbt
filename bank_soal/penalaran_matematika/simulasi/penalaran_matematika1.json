@@ -78,10 +78,10 @@
   },
   {
     "id": 12,
-    "pertanyaan": "Jika $\\log_2 3 = p$ dan $\\log_3 5 = q$, maka $\\log_{15} 8$ adalah...",
+    "pertanyaan": "Jika $^2\\log 3 = p$ dan $^3\\log 5 = q$, maka $^{15}\\log 8$ adalah...",
     "pilihan": ["$\\frac{3}{p+q}$", "$\\frac{3p}{1+q}$", "$\\frac{3q}{1+p}$", "$\\frac{3}{p(1+q)}$", "$\\frac{3}{q(1+p)}$"],
     "jawaban": "A",
-    "pembahasan": "Kita akan mengubah basis logaritma ke basis yang sama, misalnya basis 3. $\\log_{15} 8 = \\frac{\\log_3 8}{\\log_3 15} = \\frac{\\log_3 2^3}{\\log_3 (3 \\cdot 5)} = \\frac{3 \\log_3 2}{\\log_3 3 + \\log_3 5}$. Kita tahu $\\log_3 5 = q$. Dari $\\log_2 3 = p$, kita dapatkan $\\log_3 2 = \\frac{1}{\\log_2 3} = \\frac{1}{p}$. Substitusikan nilai-nilai ini: $\\frac{3 (\\frac{1}{p})}{1 + q} = \\frac{\\frac{3}{p}}{1 + q} = \\frac{3}{p(1+q)}$. (Catatan: Hasil perhitungan adalah $\\frac{3}{p(1+q)}$. Pilihan A adalah $\\frac{3}{p+q}$. Ada kemungkinan terjadi kesalahan dalam soal atau pilihan jawaban yang diberikan.)"
+    "pembahasan": "Kita akan mengubah basis logaritma ke basis yang sama, misalnya basis 3. $^{15}\\log 8 = \\frac{^3\\log 8}{^3\\log 15} = \\frac{^3\\log 2^3}{^3\\log (3 \\cdot 5)} = \\frac{3 ^3\\log 2}{^3\\log 3 + ^3\\log 5}$. Kita tahu $^3\\log 5 = q$. Dari $^2\\log 3 = p$, kita dapatkan $^3\\log 2 = \\frac{1}{^2\\log 3} = \\frac{1}{p}$. Substitusikan nilai-nilai ini: $\\frac{3 (\\frac{1}{p})}{1 + q} = \\frac{\\frac{3}{p}}{1 + q} = \\frac{3}{p(1+q)}$. (Catatan: Hasil perhitungan adalah $\\frac{3}{p(1+q)}$. Pilihan A adalah $\\frac{3}{p+q}$. Ada kemungkinan terjadi kesalahan dalam soal atau pilihan jawaban yang diberikan.)"
   },
   {
     "id": 13,
