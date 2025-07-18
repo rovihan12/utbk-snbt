@@ -64,9 +64,9 @@
     "jawaban": "B",
     "pembahasan": "Deret ini adalah deret geometri dengan suku pertama ($a$) = 27 dan rasio ($r$) = 9/27 = 1/3. Karena $|r| < 1$, deret ini konvergen. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{27}{1-1/3} = \\frac{27}{2/3} = 27 \\times \\frac{3}{2} = \\frac{81}{2} = 40.5$."
   },
-  {
+   {
     "id": 26,
-    "pertanyaan": "Diketahui barisan aritmetika dengan \\(a_5 = 20\\) dan \\(a_{10} = 40\\). Suku ke-15 dari barisan tersebut adalah...",
+    "pertanyaan": "Diketahui barisan aritmetika dengan $a_5 = 20$ dan $a_{10} = 40$. Suku ke-15 dari barisan tersebut adalah...",
     "pilihan": [
       "50",
       "55",
@@ -75,7 +75,7 @@
       "70"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita punya dua persamaan: \\(a_5 = a_1 + 4d = 20\\) dan \\(a_{10} = a_1 + 9d = 40\\). Kurangkan persamaan pertama dari persamaan kedua: \\((a_1 + 9d) - (a_1 + 4d) = 40 - 20 \\Rightarrow 5d = 20 \\Rightarrow d = 4\\). Substitusikan \\(d=4\\) ke \\(a_1 + 4d = 20 \\Rightarrow a_1 = 4\\). Sekarang cari suku ke-15: \\(a_{15} = a_1 + 14d = 4 + 14(4) = 60\\)."
+    "pembahasan": "Kita punya dua persamaan: $a_5 = a_1 + 4d = 20$ dan $a_{10} = a_1 + 9d = 40$. Kurangkan persamaan pertama dari persamaan kedua: $(a_1 + 9d) - (a_1 + 4d) = 40 - 20 \\Rightarrow 5d = 20 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 4d = 20 \\Rightarrow a_1 + 4(4) = 20 \\Rightarrow a_1 + 16 = 20 \\Rightarrow a_1 = 4$. Sekarang cari suku ke-15: $a_{15} = a_1 + 14d = 4 + 14(4) = 4 + 56 = 60$."
   },
   {
     "id": 27,
