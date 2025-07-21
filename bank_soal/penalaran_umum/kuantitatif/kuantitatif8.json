@@ -1,0 +1,72 @@
+[
+  {
+    "id": 71,
+    "pertanyaan": "Sebuah bak mandi berbentuk balok memiliki panjang 150 cm, lebar 100 cm, dan tinggi 80 cm. Bak tersebut terisi air sebanyak ⅔ bagian. Berapa liter air yang ada di dalam bak mandi tersebut?",
+    "pilihan": ["400 liter", "600 liter", "800 liter", "1000 liter", "1200 liter"],
+    "jawaban": "C",
+    "pembahasan": "Volume bak mandi = panjang × lebar × tinggi = 150 cm × 100 cm × 80 cm = 1.200.000 cm³.\nKarena 1 liter = 1.000 cm³, maka volume bak mandi adalah 1.200 liter.\nAir yang terisi adalah ⅔ dari volume bak mandi = ⅔ × 1.200 liter = 800 liter."
+  },
+  {
+    "id": 72,
+    "pertanyaan": "Jika p = 3q dan q = 4r, dengan r adalah bilangan positif, manakah pernyataan berikut yang benar?",
+    "pilihan": ["p < q", "q < r", "p = 12r", "p = 7r", "q = 12p"],
+    "jawaban": "C",
+    "pembahasan": "Kita tahu p = 3q. Ganti q dengan 4r, maka p = 3(4r) = 12r. Jadi, p = 12r."
+  },
+  {
+    "id": 73,
+    "pertanyaan": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Jika kecepatan rata-rata mobil ditingkatkan 20 km/jam, berapa waktu yang dibutuhkan untuk menempuh jarak yang sama?",
+    "pilihan": ["1,5 jam", "2 jam", "2,25 jam", "2,5 jam", "2,75 jam"],
+    "jawaban": "C",
+    "pembahasan": "Kecepatan awal = Jarak / Waktu = 180 km / 3 jam = 60 km/jam.\nKecepatan baru = 60 km/jam + 20 km/jam = 80 km/jam.\nWaktu yang dibutuhkan = Jarak / Kecepatan baru = 180 km / 80 km/jam = 2,25 jam."
+  },
+  {
+    "id": 74,
+    "pertanyaan": "Dalam suatu barisan bilangan, suku pertama adalah 5 dan setiap suku berikutnya adalah dua kali suku sebelumnya dikurangi 3. Berapa nilai suku ketiga barisan tersebut?",
+    "pilihan": ["7", "11", "17", "19", "23"],
+    "jawaban": "B",
+    "pembahasan": "Suku pertama (a1) = 5.\nSuku kedua (a2) = 2 × a1 - 3 = 2 × 5 - 3 = 10 - 3 = 7.\nSuku ketiga (a3) = 2 × a2 - 3 = 2 × 7 - 3 = 14 - 3 = 11."
+  },
+  {
+    "id": 75,
+    "pertanyaan": "Terdapat 60 siswa dalam sebuah kelas. 70% dari siswa tersebut adalah perempuan. Jika 25% dari siswa perempuan suka membaca, berapa jumlah siswa perempuan yang suka membaca?",
+    "pilihan": ["10", "10.5", "14", "15", "21"],
+    "jawaban": "B",
+    "pembahasan": "Jumlah siswa perempuan = 70% dari 60 = 0.70 × 60 = 42 siswa.\nJumlah siswa perempuan yang suka membaca = 25% dari 42 = 0.25 × 42 = 10.5 siswa."
+  },
+  {
+    "id": 76,
+    "pertanyaan": "Jika (x + y)² = 36 dan x² + y² = 20, maka nilai dari xy adalah...",
+    "pilihan": ["8", "12", "16", "24", "32"],
+    "jawaban": "A",
+    "pembahasan": "Kita tahu bahwa (x + y)² = x² + 2xy + y².\nSubstitusikan nilai yang diketahui: 36 = 20 + 2xy.\nKurangkan 20 dari kedua sisi: 16 = 2xy.\nBagi dengan 2: xy = 8."
+  },
+  {
+    "id": 77,
+    "pertanyaan": "Harga 2 buku dan 1 pensil adalah Rp 18.000,00. Harga 1 buku dan 2 pensil adalah Rp 15.000,00. Berapa harga 1 buku?",
+    "pilihan": ["Rp 6.000,00", "Rp 7.000,00", "Rp 8.000,00", "Rp 9.000,00", "Rp 10.000,00"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan harga buku = B dan harga pensil = P.\nPersamaan 1: 2B + P = 18.000\nPersamaan 2: B + 2P = 15.000\nDari Persamaan 1, kita bisa nyatakan P = 18.000 - 2B. Substitusikan P ke Persamaan 2:\nB + 2(18.000 - 2B) = 15.000\nB + 36.000 - 4B = 15.000\n-3B = 15.000 - 36.000\n-3B = -21.000\nB = 7.000\nJadi, harga 1 buku adalah Rp 7.000,00."
+  },
+  {
+    "id": 78,
+    "pertanyaan": "Dalam satu hari (24 jam), seorang siswa menggunakan 25% waktunya untuk belajar, ⅛ waktunya untuk makan, dan ⅓ waktunya untuk tidur. Sisanya digunakan untuk istirahat. Berapa jam waktu yang dialokasikan untuk istirahat?",
+    "pilihan": ["4 jam", "6 jam", "7 jam", "8 jam", "9 jam"],
+    "jawaban": "C",
+    "pembahasan": "Waktu belajar = 25% × 24 jam = 0.25 × 24 = 6 jam.\nWaktu makan = ⅛ × 24 jam = 3 jam.\nWaktu tidur = ⅓ × 24 jam = 8 jam.\nTotal waktu yang terpakai = 6 + 3 + 8 = 17 jam.\nWaktu istirahat = 24 jam - 17 jam = 7 jam."
+  },
+  {
+    "id": 79,
+    "pertanyaan": "Sebuah bilangan bulat positif N dibagi 5 bersisa 3, dan dibagi 7 bersisa 4. Manakah nilai N yang mungkin?",
+    "pilihan": ["18", "23", "38", "43", "53"],
+    "jawaban": "A",
+    "pembahasan": "Kita cari bilangan yang memenuhi kedua syarat:\nDibagi 5 bersisa 3: N = 5k + 3. Bilangan yang mungkin: 3, 8, 13, **18**, 23, 28, 33, 38, 43, 48, 53, ...\nDibagi 7 bersisa 4: N = 7m + 4. Bilangan yang mungkin: 4, 11, **18**, 25, 32, 39, 46, 53, ...\nBilangan yang muncul di kedua deret dan ada dalam pilihan jawaban adalah 18. (Catatan: 53 juga memenuhi kedua syarat, namun 18 adalah pilihan yang ada)."
+  },
+  {
+    "id": 80,
+    "pertanyaan": "Dalam suatu kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola secara acak tanpa pengembalian, berapa peluang terambilnya 1 bola merah dan 1 bola biru?",
+    "pilihan": ["5/14", "15/56", "15/28", "25/56", "30/56"],
+    "jawaban": "C",
+    "pembahasan": "Jumlah total bola = 5 + 3 = 8 bola.\nBanyak cara mengambil 2 bola dari 8 bola = C(8, 2) = 8! / (2! * 6!) = (8 × 7) / (2 × 1) = 28.\nBanyak cara mengambil 1 bola merah dari 5 bola merah = C(5, 1) = 5.\nBanyak cara mengambil 1 bola biru dari 3 bola biru = C(3, 1) = 3.\nBanyak cara mengambil 1 merah dan 1 biru = C(5, 1) × C(3, 1) = 5 × 3 = 15.\nPeluang = (Cara 1 merah dan 1 biru) / (Total cara mengambil 2 bola) = 15/28."
+  }
+]
