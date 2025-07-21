@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki panjang $30$ m dan lebar $20$ m. Jika sekeliling lapangan akan ditanami pohon dengan jarak $5$ m antar pohon, berapa banyak pohon yang dibutuhkan?",
-    "pilihan": ["A. $10$", "B. $15$", "C. $20$", "D. $25$", "E. $30$"],
-    "jawaban": "C",
-    "pembahasan": "Keliling lapangan $= 2 \\times (30 + 20) = 100$ m. Banyak pohon $= \\frac{100}{5} = 20$ pohon."
+    "pertanyaan": "Sebuah restoran mencatat bahwa rata-rata penjualan per hari adalah 150 porsi dengan simpangan baku 15 porsi. Jika penjualan mengikuti distribusi normal, berapa persentase hari restoran akan menjual lebih dari 180 porsi?",
+    "pilihan": ["A. Kurang dari 1%", "B. Sekitar 2.5%", "C. Sekitar 5%", "D. Sekitar 10%", "E. Lebih dari 10%"],
+    "jawaban": "B",
+    "pembahasan": "Kita perlu menghitung nilai Z-score untuk 180 porsi. Z = (X - μ) / σ = (180 - 150) / 15 = 30 / 15 = 2. Dari tabel distribusi normal standar, luas di sebelah kanan Z = 2 (yaitu P(Z > 2)) adalah sekitar 0.0228 atau 2.28%. Jadi, sekitar 2.5% hari restoran akan menjual lebih dari 180 porsi."
   },
   {
     "id": 2,
-    "pertanyaan": "Jika $^2\\log 8 = x$, maka nilai $x$ adalah...",
-    "pilihan": ["A. $2$", "B. $3$", "C. $4$", "D. $5$", "E. $6$"],
-    "jawaban": "B",
-    "pembahasan": "$^2\\log 8 = ^2\\log 2^3 = 3$."
+    "pertanyaan": "Sebuah deret geometri tak hingga memiliki suku pertama 12 dan rasio 1/3. Jumlah deret tersebut adalah...",
+    "pilihan": ["A. 15", "B. 16", "C. 18", "D. 20", "E. 24"],
+    "jawaban": "C",
+    "pembahasan": "Jumlah deret geometri tak hingga dirumuskan sebagai S = a / (1 - r), di mana a adalah suku pertama dan r adalah rasio. S = 12 / (1 - 1/3) = 12 / (2/3) = 12 × (3/2) = 18."
   },
   {
     "id": 3,
-    "pertanyaan": "Sebuah toko memberikan diskon $25\\%$ untuk semua barang. Jika harga sebuah tas setelah diskon adalah Rp$450.000$, harga asli tas tersebut adalah...",
-    "pilihan": ["A. Rp$500.000$", "B. Rp$550.000$", "C. Rp$600.000$", "D. Rp$650.000$", "E. Rp$700.000$"],
-    "jawaban": "C",
-    "pembahasan": "Harga setelah diskon $= 75\\% \\times$ harga asli. $450.000 = 0,75 \\times$ harga asli $\\Rightarrow$ harga asli $= \\frac{450.000}{0,75} =$ Rp$600.000$."
+    "pertanyaan": "Jika x adalah bilangan bulat positif dan 2x + 5 < 17, nilai maksimum x adalah...",
+    "pilihan": ["A. 4", "B. 5", "C. 6", "D. 7", "E. 8"],
+    "jawaban": "B",
+    "pembahasan": "2x + 5 < 17 → 2x < 17 - 5 → 2x < 12 → x < 6. Karena x adalah bilangan bulat positif, nilai maksimum x yang memenuhi adalah 5."
   },
   {
     "id": 4,
-    "pertanyaan": "Diketahui barisan aritmetika: $5$, $8$, $11$, $14$, ... Suku ke-$10$ dari barisan tersebut adalah...",
-    "pilihan": ["A. $29$", "B. $32$", "C. $35$", "D. $38$", "E. $41$"],
-    "jawaban": "B",
-    "pembahasan": "Beda $(b) = 8 - 5 = 3$. Suku ke-$n = a + (n-1)b$. Suku ke-$10 = 5 + (9 \\times 3) = 32$."
+    "pertanyaan": "Sebuah akuarium berbentuk balok memiliki panjang 80 cm, lebar 50 cm, dan tinggi 60 cm. Akuarium tersebut diisi air setinggi 45 cm. Volume air dalam akuarium adalah...",
+    "pilihan": ["A. 180 liter", "B. 200 liter", "C. 240 liter", "D. 280 liter", "E. 300 liter"],
+    "jawaban": "A",
+    "pembahasan": "Volume air = panjang × lebar × tinggi air = 80 cm × 50 cm × 45 cm = 180.000 cm³. Karena 1 liter = 1.000 cm³, maka volume air = 180.000 / 1.000 = 180 liter."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi tegak $6$ cm dan $8$ cm. Panjang sisi miringnya adalah...",
-    "pilihan": ["A. $9$ cm", "B. $10$ cm", "C. $12$ cm", "D. $14$ cm", "E. $15$ cm"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan teorema Pythagoras: $\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ cm."
+    "pertanyaan": "Dalam sebuah survei, 60% siswa menyukai matematika, 50% menyukai fisika, dan 20% menyukai keduanya. Berapa persentase siswa yang tidak menyukai matematika maupun fisika?",
+    "pilihan": ["A. 10%", "B. 20%", "C. 30%", "D. 40%", "E. 50%"],
+    "jawaban": "A",
+    "pembahasan": "Persentase siswa yang menyukai matematika atau fisika (atau keduanya) = %MTK + %FISIKA - %Keduanya = 60% + 50% - 20% = 90%. Persentase siswa yang tidak menyukai keduanya = 100% - 90% = 10%."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika $3x - 7 = 20$, maka nilai $x$ adalah...",
-    "pilihan": ["A. $7$", "B. $8$", "C. $9$", "D. $10$", "E. $11$"],
-    "jawaban": "C",
-    "pembahasan": "$3x - 7 = 20 \\Rightarrow 3x = 27 \\Rightarrow x = 9$."
+    "pertanyaan": "Jika harga 3 kg apel dan 2 kg jeruk adalah Rp46.000, sedangkan harga 2 kg apel dan 3 kg jeruk adalah Rp44.000, berapa harga 1 kg apel?",
+    "pilihan": ["A. Rp8.000", "B. Rp10.000", "C. Rp12.000", "D. Rp14.000", "E. Rp16.000"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan harga 1 kg apel = A dan harga 1 kg jeruk = J. Kita punya sistem persamaan: 1) 3A + 2J = 46.000 dan 2) 2A + 3J = 44.000. Kalikan persamaan (1) dengan 3 dan persamaan (2) dengan 2: 9A + 6J = 138.000 dan 4A + 6J = 88.000. Kurangkan kedua persamaan: (9A - 4A) = (138.000 - 88.000) → 5A = 50.000 → A = Rp10.000."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah kerucut memiliki jari-jari alas $7$ cm dan tinggi $24$ cm. Volume kerucut tersebut adalah... $(\\pi = \\frac{22}{7})$",
-    "pilihan": ["A. $1.232$ cm³", "B. $1.540$ cm³", "C. $1.848$ cm³", "D. $2.156$ cm³", "E. $2.464$ cm³"],
-    "jawaban": "A",
-    "pembahasan": "Volume $= \\frac{1}{3}\\pi r^2 h = \\frac{1}{3} \\times \\frac{22}{7} \\times 7^2 \\times 24 = 1.232$ cm³."
+    "pertanyaan": "Sebuah mobil melaju dengan kecepatan rata-rata 60 km/jam. Jika jarak yang ditempuh adalah 240 km, berapa lama waktu yang dibutuhkan mobil tersebut?",
+    "pilihan": ["A. 3 jam", "B. 3,5 jam", "C. 4 jam", "D. 4,5 jam", "E. 5 jam"],
+    "jawaban": "C",
+    "pembahasan": "Waktu = Jarak / Kecepatan = 240 km / 60 km/jam = 4 jam."
   },
   {
     "id": 8,
-    "pertanyaan": "Nilai dari $\\sin 30^\\circ + \\cos 60^\\circ$ adalah...",
-    "pilihan": ["A. $0$", "B. $\\frac{1}{2}$", "C. $1$", "D. $\\frac{\\sqrt{2}}{2}$", "E. $2$"],
-    "jawaban": "C",
-    "pembahasan": "$\\sin 30^\\circ = \\frac{1}{2}$, $\\cos 60^\\circ = \\frac{1}{2}$. Total $= \\frac{1}{2} + \\frac{1}{2} = 1$."
+    "pertanyaan": "Fungsi f(x) = x² - 4x + c memiliki nilai minimum 5. Nilai c adalah...",
+    "pilihan": ["A. 1", "B. 5", "C. 7", "D. 9", "E. 11"],
+    "jawaban": "D",
+    "pembahasan": "Koordinat x dari titik minimum (puncak) fungsi kuadrat adalah x = -b/(2a) = -(-4)/(2×1) = 4/2 = 2. Nilai minimum fungsi adalah f(2) = 5. Jadi, 2² - 4(2) + c = 5 → 4 - 8 + c = 5 → -4 + c = 5 → c = 9."
   },
   {
     "id": 9,
-    "pertanyaan": "Dalam sebuah kotak terdapat $5$ bola merah dan $3$ bola biru. Peluang terambilnya $1$ bola merah secara acak adalah...",
-    "pilihan": ["A. $\\frac{1}{8}$", "B. $\\frac{3}{8}$", "C. $\\frac{5}{8}$", "D. $\\frac{7}{8}$", "E. $1$"],
-    "jawaban": "C",
-    "pembahasan": "Total bola $= 8$. Peluang $= \\frac{5}{8}$."
+    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola secara acak tanpa pengembalian, peluang terambil kedua bola berwarna merah adalah...",
+    "pilihan": ["A. 5/14", "B. 10/28", "C. 25/64", "D. 15/56", "E. 5/28"],
+    "jawaban": "A",
+    "pembahasan": "Total bola = 5 + 3 = 8. Peluang terambil bola merah pertama = 5/8. Setelah satu bola merah diambil, sisa bola merah = 4 dan total bola = 7. Peluang terambil bola merah kedua = 4/7. Peluang terambil kedua bola merah = (5/8) × (4/7) = 20/56 = 5/14."
   },
   {
     "id": 10,
-    "pertanyaan": "Jika $x + y = 12$ dan $x - y = 4$, maka nilai $x$ adalah...",
-    "pilihan": ["A. $4$", "B. $6$", "C. $8$", "D. $10$", "E. $12$"],
-    "jawaban": "C",
-    "pembahasan": "Tambahkan kedua persamaan: $2x = 16 \\Rightarrow x = 8$."
+    "pertanyaan": "Sebuah lingkaran memiliki persamaan x² + y² - 4x + 6y - 3 = 0. Pusat lingkaran tersebut adalah...",
+    "pilihan": ["A. (2, -3)", "B. (-2, 3)", "C. (4, -6)", "D. (-4, 6)", "E. (2, 3)"],
+    "jawaban": "A",
+    "pembahasan": "Persamaan umum lingkaran adalah x² + y² + Ax + By + C = 0. Pusat lingkaran adalah (-A/2, -B/2). Dalam kasus ini, A = -4 dan B = 6. Jadi, pusatnya adalah (-(-4)/2, -(6)/2) = (2, -3)."
   },
   {
     "id": 11,
-    "pertanyaan": "Sebuah kubus memiliki volume $512$ cm³. Panjang rusuk kubus tersebut adalah...",
-    "pilihan": ["A. $6$ cm", "B. $7$ cm", "C. $8$ cm", "D. $9$ cm", "E. $10$ cm"],
+    "pertanyaan": "Jika log 2 = 0.301 dan log 3 = 0.477, maka log 12 adalah...",
+    "pilihan": ["A. 0.778", "B. 0.903", "C. 1.079", "D. 1.204", "E. 1.301"],
     "jawaban": "C",
-    "pembahasan": "Volume $= s^3 \\Rightarrow 512 = s^3 \\Rightarrow s = 8$ cm."
+    "pembahasan": "log 12 = log (4 × 3) = log (2² × 3) = log 2² + log 3 = 2 log 2 + log 3 = 2(0.301) + 0.477 = 0.602 + 0.477 = 1.079."
   },
   {
     "id": 12,
-    "pertanyaan": "Diketahui $^2\\log 3 = a$ dan $^2\\log 5 = b$. Nilai dari $^2\\log 45$ adalah...",
-    "pilihan": ["A. $a + b$", "B. $a + 2b$", "C. $2a + b$", "D. $a - b$", "E. $2a - b$"],
+    "pertanyaan": "Sebuah persegi panjang memiliki keliling 40 cm. Jika panjangnya 4 cm lebih dari lebarnya, luas persegi panjang tersebut adalah...",
+    "pilihan": ["A. 72 cm²", "B. 84 cm²", "C. 96 cm²", "D. 108 cm²", "E. 120 cm²"],
     "jawaban": "C",
-    "pembahasan": "$^2\\log 45 = ^2\\log (9 \\times 5) = ^2\\log 9 + ^2\\log 5 = 2a + b$."
+    "pembahasan": "Misalkan lebar = l dan panjang = p. p = l + 4. Keliling = 2(p + l) = 40. Substitusi p: 2((l + 4) + l) = 40 → 2(2l + 4) = 40 → 4l + 8 = 40 → 4l = 32 → l = 8 cm. Maka, p = 8 + 4 = 12 cm. Luas = p × l = 12 cm × 8 cm = 96 cm²."
   },
   {
     "id": 13,
-    "pertanyaan": "Fungsi kuadrat $f(x) = x^2 - 4x + 3$ memotong sumbu-$x$ di titik...",
-    "pilihan": ["A. $(1,0)$ dan $(3,0)$", "B. $(-1,0)$ dan $(-3,0)$", "C. $(0,1)$ dan $(0,3)$", "D. $(0,-1)$ dan $(0,-3)$", "E. $(4,0)$ dan $(3,0)$"],
-    "jawaban": "A",
-    "pembahasan": "Faktorkan: $f(x) = (x-1)(x-3)$. Titik potong: $x=1$ dan $x=3 \\Rightarrow (1,0)$ dan $(3,0)$."
+    "pertanyaan": "Jika matriks A = [[2, -1], [3, x]] memiliki determinan 7, maka nilai x adalah...",
+    "pilihan": ["A. -5", "B. -3", "C. 2", "D. 3", "E. 5"],
+    "jawaban": "C",
+    "pembahasan": "Determinan matriks A = (2 × x) - (-1 × 3) = 2x + 3. Diketahui determinan = 7, maka 2x + 3 = 7 → 2x = 4 → x = 2."
   },
   {
     "id": 14,
-    "pertanyaan": "Jika $\\sqrt[3]{x + 2} = 3$, maka nilai $x$ adalah...",
-    "pilihan": ["A. $25$", "B. $27$", "C. $29$", "D. $31$", "E. $33$"],
-    "jawaban": "A",
-    "pembahasan": "$\\sqrt[3]{x + 2} = 3 \\Rightarrow x + 2 = 27 \\Rightarrow x = 25$."
+    "pertanyaan": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 10 cm. Volume tabung tersebut adalah... (gunakan π = 22/7)",
+    "pilihan": ["A. 1.250 cm³", "B. 1.540 cm³", "C. 1.760 cm³", "D. 2.000 cm³", "E. 2.150 cm³"],
+    "jawaban": "B",
+    "pembahasan": "Volume tabung = πr²h = (22/7) × 7² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1.540 cm³."
   },
   {
     "id": 15,
-    "pertanyaan": "Diketahui segitiga $ABC$ siku-siku di $B$ dengan $AB = 9$ cm dan $BC = 12$ cm. Panjang garis tinggi dari $B$ ke $AC$ adalah...",
-    "pilihan": ["A. $6$ cm", "B. $7,2$ cm", "C. $8$ cm", "D. $9,6$ cm", "E. $10,8$ cm"],
-    "jawaban": "B",
-    "pembahasan": "$AC = \\sqrt{9^2 + 12^2} = 15$ cm. Luas $= \\frac{1}{2} \\times 9 \\times 12 = 54$ cm². Tinggi ke $AC = \\frac{2 \\times 54}{15} = 7,2$ cm."
+    "pertanyaan": "Jika f(x) = 2x - 3, dan (g ∘ f)(x) = 4x² - 12x + 10, maka g(x) adalah...",
+    "pilihan": ["A. x² + 1", "B. x² + x + 1", "C. x² + 2x + 1", "D. (x + 3)² + 1", "E. x² - 1"],
+    "jawaban": "A",
+    "pembahasan": "Misalkan y = f(x) = 2x - 3, maka 2x = y + 3 → x = (y + 3)/2. (g ∘ f)(x) = g(f(x)) = g(y) = 4x² - 12x + 10. Substitusi x: g(y) = 4((y + 3)/2)² - 12((y + 3)/2) + 10 = 4((y² + 6y + 9)/4) - 6(y + 3) + 10 = y² + 6y + 9 - 6y - 18 + 10 = y² + 1. Jadi, g(x) = x² + 1."
   },
   {
     "id": 16,
-    "pertanyaan": "Dua dadu dilempar bersama-sama. Peluang munculnya jumlah mata dadu $7$ adalah...",
-    "pilihan": ["A. $\\frac{1}{6}$", "B. $\\frac{1}{4}$", "C. $\\frac{1}{3}$", "D. $\\frac{1}{2}$", "E. $\\frac{2}{3}$"],
-    "jawaban": "A",
-    "pembahasan": "Total kemungkinan $= 36$. Jumlah $7$: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) \\Rightarrow 6$ cara. Peluang $= \\frac{6}{36} = \\frac{1}{6}$."
+    "pertanyaan": "Sebuah deret aritmetika memiliki suku ke-3 sebesar 10 dan suku ke-7 sebesar 22. Jumlah 10 suku pertama deret tersebut adalah...",
+    "pilihan": ["A. 130", "B. 145", "C. 155", "D. 160", "E. 170"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan suku pertama = a dan beda = b. U₃ = a + 2b = 10 dan U₇ = a + 6b = 22. Kurangkan kedua persamaan: (a + 6b) - (a + 2b) = 22 - 10 → 4b = 12 → b = 3. Substitusi b = 3 ke U₃: a + 2(3) = 10 → a + 6 = 10 → a = 4. Jumlah n suku pertama (Sn) = n/2 × (2a + (n-1)b). S₁₀ = 10/2 × (2(4) + (10-1)3) = 5 × (8 + 9 × 3) = 5 × (8 + 27) = 5 × 35 = 175."
   },
   {
     "id": 17,
-    "pertanyaan": "Titik $(2, 5)$ dicerminkan terhadap sumbu-$y$, maka koordinat bayangannya adalah...",
-    "pilihan": ["A. $(-2, 5)$", "B. $(2, -5)$", "C. $(-5, 2)$", "D. $(5, -2)$", "E. $(-2, -5)$"],
-    "jawaban": "A",
-    "pembahasan": "Refleksi sumbu-$y$: $(a, b) \\rightarrow (-a, b)$. Jadi, $(2, 5) \\rightarrow (-2, 5)$."
+    "pertanyaan": "Sebuah peta memiliki skala 1 : 250.000. Jika jarak antara dua kota pada peta adalah 8 cm, jarak sebenarnya antara kedua kota tersebut adalah...",
+    "pilihan": ["A. 10 km", "B. 20 km", "C. 25 km", "D. 32 km", "E. 40 km"],
+    "jawaban": "B",
+    "pembahasan": "Jarak sebenarnya = Jarak pada peta × Skala = 8 cm × 250.000 = 2.000.000 cm. Karena 1 km = 100.000 cm, maka 2.000.000 cm = 2.000.000 / 100.000 km = 20 km."
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah limas segiempat beraturan memiliki volume $400$ cm³ dan tinggi $12$ cm. Panjang sisi alas limas tersebut adalah...",
-    "pilihan": ["A. $5$ cm", "B. $10$ cm", "C. $15$ cm", "D. $20$ cm", "E. $25$ cm"],
-    "jawaban": "B",
-    "pembahasan": "Volume $= \\frac{1}{3} \\times$ luas alas $\\times$ tinggi. $400 = \\frac{1}{3} \\times s^2 \\times 12 \\Rightarrow s^2 = 100 \\Rightarrow s = 10$ cm."
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan |2x - 1| ≥ 5 adalah...",
+    "pilihan": ["A. x ≤ -2 atau x ≥ 3", "B. -2 ≤ x ≤ 3", "C. x ≤ -3 atau x ≥ 2", "D. -3 ≤ x ≤ 2", "E. x ≥ 3"],
+    "jawaban": "A",
+    "pembahasan": "Pertidaksamaan |2x - 1| ≥ 5 dapat dipecah menjadi dua kasus: 1) 2x - 1 ≥ 5 → 2x ≥ 6 → x ≥ 3. 2) 2x - 1 ≤ -5 → 2x ≤ -4 → x ≤ -2. Jadi, himpunan penyelesaiannya adalah x ≤ -2 atau x ≥ 3."
   },
   {
     "id": 19,
-    "pertanyaan": "Diketahui vektor $\\mathbf{a} = (3, -2)$ dan $\\mathbf{b} = (-1, 4)$. Hasil dari $\\mathbf{a} + \\mathbf{b}$ adalah...",
-    "pilihan": ["A. $(2, 2)$", "B. $(2, -6)$", "C. $(4, 2)$", "D. $(4, -6)$", "E. $(-4, 6)$"],
-    "jawaban": "A",
-    "pembahasan": "$\\mathbf{a} + \\mathbf{b} = (3 + (-1), -2 + 4) = (2, 2)$."
+    "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang muncul mata dadu berjumlah 7 adalah...",
+    "pilihan": ["A. 1/12", "B. 1/9", "C. 1/6", "D. 1/4", "E. 1/3"],
+    "jawaban": "C",
+    "pembahasan": "Total kemungkinan hasil pelemparan dua dadu adalah 6 × 6 = 36. Pasangan mata dadu yang berjumlah 7 adalah (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Ada 6 pasangan. Peluang = Jumlah kejadian / Total kemungkinan = 6/36 = 1/6."
   },
   {
     "id": 20,
-    "pertanyaan": "Jika $2x + 3y = 17$ dan $3x - y = 6$, maka nilai $y$ adalah...",
-    "pilihan": ["A. $1$", "B. $2$", "C. $3$", "D. $4$", "E. $5$"],
+    "pertanyaan": "Jika sebuah fungsi f(x) = ax + b, diketahui f(1) = 5 dan f(3) = 11. Nilai dari f(5) adalah...",
+    "pilihan": ["A. 13", "B. 15", "C. 17", "D. 19", "E. 21"],
     "jawaban": "C",
-    "pembahasan": "Dari persamaan kedua: $y = 3x - 6$. Substitusi ke persamaan pertama: $2x + 3(3x - 6) = 17 \\Rightarrow 11x = 35 \\Rightarrow x = \\frac{35}{11}$. $y = 3(\\frac{35}{11}) - 6 = \\frac{105}{11} - \\frac{66}{11} = \\frac{39}{11} \\approx 3,54$. (Opsi terdekat: C)."
+    "pembahasan": "Dari f(1) = 5, kita dapatkan a(1) + b = 5 → a + b = 5 (Persamaan 1). Dari f(3) = 11, kita dapatkan a(3) + b = 11 → 3a + b = 11 (Persamaan 2). Kurangkan Persamaan 1 dari Persamaan 2: (3a + b) - (a + b) = 11 - 5 → 2a = 6 → a = 3. Substitusi a = 3 ke Persamaan 1: 3 + b = 5 → b = 2. Jadi, fungsi f(x) = 3x + 2. Nilai f(5) = 3(5) + 2 = 15 + 2 = 17."
   }
 ]
