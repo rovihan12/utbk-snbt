@@ -1,0 +1,72 @@
+[
+  {
+    "id": 81,
+    "pertanyaan": "Jika 3A = 4B dan 5B = 6C, maka rasio A : C adalah...",
+    "pilihan": ["8:5", "9:10", "10:9", "5:8", "12:15"],
+    "jawaban": "A",
+    "pembahasan": "Dari 3A = 4B, kita dapatkan A = (4/3)B.\nDari 5B = 6C, kita dapatkan B = (6/5)C.\nSubstitusikan B ke persamaan A:\nA = (4/3) * (6/5)C\nA = (24/15)C\nA = (8/5)C\nJadi, A : C = 8 : 5."
+  },
+  {
+    "id": 82,
+    "pertanyaan": "Sebuah kolam renang dapat diisi penuh oleh selang A dalam 6 jam dan oleh selang B dalam 12 jam. Jika kedua selang digunakan bersamaan, berapa waktu yang dibutuhkan untuk mengisi kolam hingga penuh?",
+    "pilihan": ["3 jam", "3,5 jam", "4 jam", "4,5 jam", "5 jam"],
+    "jawaban": "C",
+    "pembahasan": "Laju pengisian selang A = 1/6 kolam per jam.\nLaju pengisian selang B = 1/12 kolam per jam.\nJika digunakan bersamaan, laju gabungan = 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 kolam per jam.\nWaktu yang dibutuhkan = 1 / (laju gabungan) = 1 / (1/4) = 4 jam.\nJadi, waktu yang dibutuhkan untuk mengisi kolam hingga penuh adalah 4 jam."
+  },
+  {
+    "id": 83,
+    "pertanyaan": "Jika x adalah bilangan bulat positif dan 2x + 1 < 10, maka nilai maksimum yang mungkin untuk x adalah...",
+    "pilihan": ["3", "4", "5", "6", "7"],
+    "jawaban": "B",
+    "pembahasan": "2x + 1 < 10\n2x < 10 - 1\n2x < 9\nx < 9/2\nx < 4.5\nKarena x adalah bilangan bulat positif, nilai maksimum x yang kurang dari 4.5 adalah 4."
+  },
+  {
+    "id": 84,
+    "pertanyaan": "Sebuah kotak berisi kelereng merah dan kelereng biru. Peluang mengambil kelereng merah adalah 2/5. Jika ada 12 kelereng biru, berapa total jumlah kelereng dalam kotak?",
+    "pilihan": ["18", "20", "24", "28", "30"],
+    "jawaban": "B",
+    "pembahasan": "Peluang mengambil kelereng merah = 2/5.\nIni berarti peluang mengambil kelereng biru = 1 - 2/5 = 3/5.\nJika 3/5 dari total kelereng adalah kelereng biru, dan jumlah kelereng biru adalah 12, maka:\n(3/5) × Total Kelereng = 12\nTotal Kelereng = 12 × (5/3)\nTotal Kelereng = 4 × 5 = 20.\nJadi, total jumlah kelereng dalam kotak adalah 20."
+  },
+  {
+    "id": 85,
+    "pertanyaan": "Rata-rata berat 5 orang siswa adalah 48 kg. Jika berat salah satu siswa adalah 56 kg, berapa rata-rata berat 4 siswa lainnya?",
+    "pilihan": ["45 kg", "46 kg", "47 kg", "48 kg", "49 kg"],
+    "jawaban": "B",
+    "pembahasan": "Total berat 5 siswa = Rata-rata × Jumlah siswa = 48 kg × 5 = 240 kg.\nBerat 4 siswa lainnya = Total berat 5 siswa - Berat 1 siswa = 240 kg - 56 kg = 184 kg.\nRata-rata berat 4 siswa lainnya = Total berat 4 siswa / 4 = 184 kg / 4 = 46 kg."
+  },
+  {
+    "id": 86,
+    "pertanyaan": "Jika 40% dari suatu angka adalah 80, berapakah 75% dari angka tersebut?",
+    "pilihan": ["120", "150", "160", "180", "200"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan angka tersebut adalah N.\n40% dari N = 80\n0.40 × N = 80\nN = 80 / 0.40\nN = 200.\nSekarang hitung 75% dari N:\n75% dari 200 = 0.75 × 200 = 150."
+  },
+  {
+    "id": 87,
+    "pertanyaan": "Perhatikan barisan bilangan 3, 7, 11, 15, ... Suku ke-10 dari barisan tersebut adalah...",
+    "pilihan": ["31", "35", "39", "43", "47"],
+    "jawaban": "C",
+    "pembahasan": "Barisan ini adalah barisan aritmatika dengan suku pertama (a) = 3 dan beda (d) = 7 - 3 = 4.\nRumus suku ke-n (Un) dari barisan aritmatika adalah Un = a + (n-1)d.\nSuku ke-10 (U10) = 3 + (10-1) × 4\nU10 = 3 + 9 × 4\nU10 = 3 + 36\nU10 = 39."
+  },
+  {
+    "id": 88,
+    "pertanyaan": "Sebuah peta memiliki skala 1 : 2.000.000. Jika jarak antara dua kota di peta adalah 5 cm, berapa jarak sebenarnya antara kedua kota tersebut?",
+    "pilihan": ["50 km", "100 km", "150 km", "200 km", "250 km"],
+    "jawaban": "B",
+    "pembahasan": "Skala 1 : 2.000.000 berarti 1 cm di peta = 2.000.000 cm di jarak sebenarnya.\nJarak sebenarnya = Jarak di peta × Skala\nJarak sebenarnya = 5 cm × 2.000.000\nJarak sebenarnya = 10.000.000 cm.\nUntuk mengubah cm ke km, bagi dengan 100.000 (karena 1 km = 100.000 cm).\nJarak sebenarnya = 10.000.000 cm / 100.000 cm/km = 100 km."
+  },
+  {
+    "id": 89,
+    "pertanyaan": "Jika x adalah bilangan ganjil dan y adalah bilangan genap, manakah di antara pilihan berikut yang menghasilkan bilangan ganjil?",
+    "pilihan": ["x + y", "x - y", "x × y", "x² + y", "y - x"],
+    "jawaban": "A",
+    "pembahasan": "Mari kita uji sifat-sifat bilangan ganjil dan genap:\n- **Ganjil + Genap = Ganjil** (Contoh: 3 + 2 = 5)\n- Ganjil - Genap = Ganjil (Contoh: 3 - 2 = 1)\n- Ganjil × Genap = Genap (Contoh: 3 × 2 = 6)\n- Ganjil² + Genap = Ganjil + Genap = Ganjil (Contoh: 3² + 2 = 9 + 2 = 11)\n- Genap - Ganjil = Ganjil (Contoh: 2 - 3 = -1, atau 4 - 1 = 3)\n\nDalam konteks soal UTBK, jika ada beberapa pilihan yang menghasilkan ganjil, seringkali yang dicari adalah operasi paling dasar atau yang paling konsisten. Pilihan **A (x + y)** adalah operasi penjumlahan ganjil dan genap yang selalu menghasilkan ganjil."
+  },
+  {
+    "id": 90,
+    "pertanyaan": "Suatu proyek dapat diselesaikan oleh 15 pekerja dalam 20 hari. Jika proyek tersebut ingin diselesaikan dalam 12 hari, berapa tambahan pekerja yang dibutuhkan?",
+    "pilihan": ["5 orang", "10 orang", "15 orang", "20 orang", "25 orang"],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah soal perbandingan berbalik nilai. Misalkan P = jumlah pekerja, H = jumlah hari.\nP1 × H1 = P2 × H2\n15 × 20 = P2 × 12\n300 = 12 × P2\nP2 = 300 / 12\nP2 = 25 pekerja.\nTambahan pekerja yang dibutuhkan = P2 - P1 = 25 - 15 = 10 orang."
+  }
+]
