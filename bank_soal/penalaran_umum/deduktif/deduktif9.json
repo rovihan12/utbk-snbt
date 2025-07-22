@@ -1,1 +1,72 @@
-
+[
+  {
+    "id": 81,
+    "pertanyaan": "Premis 1: Semua pemain catur profesional berpikir strategis.\nPremis 2: Beberapa mahasiswa adalah pemain catur profesional.\nPremis 3: Semua yang berpikir strategis dapat memecahkan masalah kompleks.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa dapat memecahkan masalah kompleks.", "Beberapa mahasiswa dapat memecahkan masalah kompleks.", "Tidak ada mahasiswa yang berpikir strategis.", "Semua yang dapat memecahkan masalah kompleks adalah mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "B",
+    "pembahasan": "Kita tahu bahwa semua pemain catur profesional berpikir strategis, dan beberapa mahasiswa adalah pemain catur profesional. Ini berarti beberapa mahasiswa berpikir strategis. Karena semua yang berpikir strategis bisa memecahkan masalah kompleks, maka beberapa mahasiswa ini juga bisa memecahkan masalah kompleks."
+  },
+  {
+    "id": 82,
+    "pertanyaan": "Premis 1: Jika sebuah perangkat elektronik rusak, maka ia tidak dapat diisi ulang dayanya.\nPremis 2: Baterai perangkat ini habis, tetapi perangkatnya dapat diisi ulang dayanya.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Perangkat ini rusak.", "Perangkat ini tidak rusak.", "Baterai perangkat ini tidak habis.", "Semua perangkat yang tidak dapat diisi ulang dayanya rusak.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Premis 1 menyatakan bahwa kerusakan perangkat berarti tidak bisa diisi ulang. Premis 2 mengatakan perangkat itu *bisa* diisi ulang. Jadi, kalau perangkat bisa diisi ulang, itu berarti perangkatnya tidak rusak. Ini adalah penerapan Modus Tollens secara terbalik."
+  },
+  {
+    "id": 83,
+    "pertanyaan": "Premis 1: Tidak ada kucing yang bisa berbicara.\nPremis 2: Semua hewan peliharaan Pak Budi bisa berbicara.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hewan peliharaan Pak Budi adalah kucing.", "Hewan peliharaan Pak Budi bukan kucing.", "Beberapa kucing bisa berbicara.", "Tidak ada hewan peliharaan Pak Budi yang bisa berbicara.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "B",
+    "pembahasan": "Jika tidak ada kucing yang bisa berbicara, dan semua hewan peliharaan Pak Budi bisa berbicara, maka secara logis hewan peliharaan Pak Budi tidak mungkin kucing. Jika mereka kucing, mereka tidak akan bisa berbicara, yang bertentangan dengan premis kedua."
+  },
+  {
+    "id": 84,
+    "pertanyaan": "Premis 1: Jika seorang siswa rajin belajar, ia akan mendapatkan nilai bagus.\nPremis 2: Jika seorang siswa mendapatkan nilai bagus, ia akan diterima di universitas impiannya.\nPremis 3: Dani tidak diterima di universitas impiannya.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Dani rajin belajar.", "Dani tidak rajin belajar.", "Dani mendapatkan nilai bagus.", "Dani tidak mendapatkan nilai bagus.", "Tidak dapat ditarik kesimpulan secara valid mengenai kerajinan belajar Dani."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah gabungan silogisme hipotetis dan Modus Tollens. Jika rajin belajar (A) maka nilai bagus (B). Jika nilai bagus (B) maka diterima universitas (C). Jadi, jika rajin belajar (A) maka diterima universitas (C). Karena Dani tidak diterima di universitas (bukan C), maka dia pasti tidak rajin belajar (bukan A). Dia pasti juga tidak mendapatkan nilai bagus."
+  },
+  {
+    "id": 85,
+    "pertanyaan": "Premis 1: Semua buku di rak ini berwarna merah.\nPremis 2: Ada buku berwarna hijau di perpustakaan.\nPremis 3: Buku ini ada di perpustakaan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buku ini berwarna merah.", "Buku ini berwarna hijau.", "Buku ini tidak ada di rak ini.", "Semua buku di perpustakaan berwarna hijau.", "Tidak dapat ditarik kesimpulan secara valid mengenai warna buku ini."],
+    "jawaban": "C",
+    "pembahasan": "Premis 1 menyatakan bahwa semua buku di *rak ini* berwarna merah. Premis 3 menyatakan bahwa buku ini ada di *perpustakaan*. Kita tidak tahu apakah buku ini ada di rak yang dimaksud dalam Premis 1 atau di bagian lain perpustakaan. Jika buku ini berwarna hijau (sesuai Premis 2), maka otomatis buku ini tidak bisa ada di rak yang dimaksud Premis 1, karena semua buku di rak itu merah. Jadi, jika buku itu hijau (kemungkinan dari perpustakaan), maka itu bukan di rak merah. Jika kita tidak tahu warnanya, kita tidak bisa menyimpulkan warnanya, tapi kita tahu buku itu tidak bisa berada di rak jika warnanya bukan merah."
+  },
+  {
+    "id": 86,
+    "pertanyaan": "Premis 1: Jika hujan, jalanan basah.\nPremis 2: Jika jalanan basah, pengendara harus berhati-hati.\nPremis 3: Jalanan tidak basah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hujan.", "Tidak hujan.", "Pengendara harus berhati-hati.", "Pengendara tidak perlu berhati-hati.", "Tidak dapat ditarik kesimpulan secara valid mengenai apakah hujan atau tidak."],
+    "jawaban": "B",
+    "pembahasan": "Dari 'Jika hujan, jalanan basah' dan 'Jalanan tidak basah', kita bisa menyimpulkan bahwa 'Tidak hujan' (Modus Tollens). Informasi tentang pengendara harus berhati-hati menjadi tidak relevan karena kondisi 'jalanan basah' tidak terpenuhi."
+  },
+  {
+    "id": 87,
+    "pertanyaan": "Premis 1: Hanya orang yang memiliki SIM yang boleh mengemudi mobil.\nPremis 2: Budi mengemudi mobil.\nPremis 3: Ani memiliki SIM.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ani mengemudi mobil.", "Budi memiliki SIM.", "Ani tidak mengemudi mobil.", "Tidak ada yang mengemudi mobil tanpa SIM.", "Tidak dapat ditarik kesimpulan secara valid mengenai Ani."],
+    "jawaban": "B",
+    "pembahasan": "Premis 1 adalah kalimat kondisional yang kuat: 'Jika seseorang mengemudi mobil, maka ia memiliki SIM'. Karena Budi mengemudi mobil, maka secara deduktif Budi pasti memiliki SIM. Informasi tentang Ani memiliki SIM tidak bisa digunakan untuk menyimpulkan apakah Ani mengemudi mobil atau tidak."
+  },
+  {
+    "id": 88,
+    "pertanyaan": "Premis 1: Semua hewan karnivora memakan daging.\nPremis 2: Beruang adalah hewan omnivora.\nPremis 3: Hewan omnivora memakan tumbuhan dan daging.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Beruang memakan tumbuhan.", "Beruang memakan daging.", "Beruang memakan tumbuhan dan daging.", "Beruang tidak memakan daging.", "Tidak dapat ditarik kesimpulan secara valid mengenai apa yang dimakan beruang."],
+    "jawaban": "C",
+    "pembahasan": "Premis 2 dan 3 secara langsung menyatakan bahwa beruang adalah omnivora, dan hewan omnivora memakan tumbuhan dan daging. Jadi, beruang memakan tumbuhan dan daging."
+  },
+  {
+    "id": 89,
+    "pertanyaan": "Premis 1: Jika suhu di atas 30°C, maka AC harus dinyalakan.\nPremis 2: Jika AC dinyalakan, maka biaya listrik akan meningkat.\nPremis 3: Biaya listrik tidak meningkat.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["AC tidak dinyalakan.", "Suhu di atas 30°C.", "Suhu tidak di atas 30°C.", "AC dinyalakan.", "Tidak dapat ditarik kesimpulan secara valid mengenai suhu."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah Modus Tollens berantai. Dari 'Jika AC dinyalakan, maka biaya listrik akan meningkat' dan 'Biaya listrik tidak meningkat', kita bisa menyimpulkan bahwa 'AC tidak dinyalakan'. Kemudian, dari 'Jika suhu di atas 30°C, maka AC harus dinyalakan' dan 'AC tidak dinyalakan', kita bisa menyimpulkan bahwa 'Suhu tidak di atas 30°C'."
+  },
+  {
+    "id": 90,
+    "pertanyaan": "Premis 1: Tidak ada politisi yang sepenuhnya jujur.\nPremis 2: Senator X adalah politisi.\nPremis 3: Orang yang tidak jujur sering berbohong.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Senator X berbohong.", "Senator X tidak jujur.", "Semua politisi berbohong.", "Senator X adalah orang yang sering berbohong.", "Tidak dapat ditarik kesimpulan secara valid bahwa Senator X sering berbohong."],
+    "jawaban": "E",
+    "pembahasan": "Dari Premis 1 dan 2, kita bisa simpulkan bahwa Senator X tidak sepenuhnya jujur (jawaban B). Namun, Premis 3 mengatakan 'Orang yang tidak jujur *sering* berbohong', bukan 'selalu berbohong'. Kata 'sering' menunjukkan kemungkinan, bukan kepastian. Jadi, kita tidak bisa secara deduktif dan pasti menyimpulkan bahwa Senator X *sering* berbohong, meskipun dia tidak sepenuhnya jujur. Kita hanya tahu bahwa dia tidak sepenuhnya jujur."
+  }
+]
