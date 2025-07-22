@@ -1,72 +1,72 @@
 [
   {
     "id": 71,
-    "pertanyaan": "Sebagian besar siswa yang rajin belajar mendapatkan nilai bagus. Budi adalah siswa yang sangat rajin belajar.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Budi pasti mendapatkan nilai bagus.", "Budi mungkin tidak mendapatkan nilai bagus.", "Budi sangat mungkin mendapatkan nilai bagus.", "Semua siswa yang mendapatkan nilai bagus adalah Budi.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Premis pertama menyatakan 'sebagian besar', yang menunjukkan probabilitas tinggi. Dengan Budi menjadi siswa yang 'sangat rajin belajar', probabilitas dia mendapatkan nilai bagus semakin tinggi, menjadikannya 'sangat mungkin'."
+    "pertanyaan": "Premis 1: Semua seniman adalah kreatif.\nPremis 2: Beberapa guru adalah seniman.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Beberapa guru adalah kreatif.", "Semua guru adalah kreatif.", "Beberapa seniman adalah guru.", "Semua yang kreatif adalah seniman.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "A",
+    "pembahasan": "Jika semua seniman itu kreatif, dan ada beberapa guru yang juga merupakan seniman, maka secara otomatis beberapa guru tersebut juga pasti kreatif. Kita tahu ada sebagian guru yang masuk kategori seniman, dan semua seniman kreatif, jadi bagian guru yang seniman itu sudah pasti kreatif."
   },
   {
     "id": 72,
-    "pertanyaan": "Setiap kali saya menyiram tanaman ini, daunnya tumbuh lebih hijau. Saya baru saja menyiram tanaman ini.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Daun tanaman ini pasti akan tumbuh lebih hijau.", "Daun tanaman ini mungkin akan tumbuh lebih hijau.", "Daun tanaman ini tidak akan tumbuh lebih hijau.", "Penyiraman tidak mempengaruhi warna daun.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "A",
-    "pembahasan": "Pernyataan 'Setiap kali' menunjukkan hubungan kausalitas yang konsisten. Jika tindakan (menyiram) selalu menghasilkan efek (daun lebih hijau), maka dengan melakukan tindakan tersebut, efeknya diharapkan terjadi."
+    "pertanyaan": "Premis 1: Jika listrik padam, maka lift tidak berfungsi.\nPremis 2: Jika lift tidak berfungsi, maka penghuni harus menggunakan tangga.\nPremis 3: Listrik padam.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Penghuni tidak perlu menggunakan tangga.", "Penghuni harus menggunakan tangga.", "Lift berfungsi.", "Listrik tidak padam.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Kita punya urutan logika: Listrik padam menyebabkan lift tidak berfungsi, dan lift tidak berfungsi menyebabkan penghuni pakai tangga. Karena listrik memang padam (Premis 3), maka lift pasti tidak berfungsi. Dan karena lift tidak berfungsi, penghuni harus menggunakan tangga. Ini adalah penalaran berantai."
   },
   {
     "id": 73,
-    "pertanyaan": "Selama lima tahun terakhir, setiap kali ekonomi memburuk, tingkat pengangguran meningkat. Ekonomi saat ini sedang memburuk.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Tingkat pengangguran pasti akan meningkat.", "Tingkat pengangguran mungkin tidak akan meningkat.", "Tingkat pengangguran sangat mungkin meningkat.", "Ekonomi memburuk karena pengangguran meningkat.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Meskipun ada pola konsisten selama lima tahun terakhir, situasi ekonomi dapat dipengaruhi oleh banyak faktor. Oleh karena itu, kesimpulan 'sangat mungkin' lebih tepat daripada 'pasti' karena ini adalah penalaran induktif, bukan deduktif mutlak."
+    "pertanyaan": "Premis 1: Tidak ada burung yang bersayap empat.\nPremis 2: Kakatua adalah burung.\nPremis 3: Semua hewan bersayap dapat terbang.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Kakatua tidak dapat terbang.", "Kakatua memiliki sayap dua.", "Kakatua dapat terbang.", "Beberapa burung tidak dapat terbang.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Dari Premis 1 dan 2, kita tahu kakatua adalah burung dan tidak bersayap empat. Premis 3 menyatakan semua hewan bersayap dapat terbang. Tapi kita tidak punya informasi pasti berapa jumlah sayap kakatua atau apakah ia bersayap (yang pasti bukan empat). Jadi, kita tidak bisa menyimpulkan apakah kakatua bisa terbang atau tidak, karena ketiadaan sayap empat tidak berarti ketiadaan sayap sama sekali, dan juga tidak berarti adanya sayap yang memungkinkan terbang."
   },
   {
     "id": 74,
-    "pertanyaan": "Sebagian besar restoran di jalan ini memiliki ulasan bintang lima. Restoran 'Dapur Kita' ada di jalan ini.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Restoran 'Dapur Kita' pasti memiliki ulasan bintang lima.", "Restoran 'Dapur Kita' mungkin tidak memiliki ulasan bintang lima.", "Restoran 'Dapur Kita' sangat mungkin memiliki ulasan bintang lima.", "Semua restoran dengan ulasan bintang lima ada di jalan ini.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "C",
-    "pembahasan": "Frasa 'sebagian besar' menunjukkan mayoritas, tetapi tidak semua. Oleh karena itu, ada kemungkinan tinggi, tetapi bukan kepastian, bahwa 'Dapur Kita' termasuk dalam mayoritas tersebut. Pilihan 'sangat mungkin' mencerminkan probabilitas ini."
+    "pertanyaan": "Premis 1: Semua buku fiksi adalah cerita rekaan.\nPremis 2: Buku ini bukan cerita rekaan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buku ini adalah buku fiksi.", "Buku ini bukan buku fiksi.", "Buku ini mungkin buku fiksi.", "Semua cerita rekaan adalah buku fiksi.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Jika semua buku fiksi itu cerita rekaan, dan buku ini diketahui bukan cerita rekaan, maka secara logis buku ini pasti bukan buku fiksi. Ini seperti mengatakan, jika semua apel merah, dan ini bukan merah, maka ini bukan apel."
   },
   {
     "id": 75,
-    "pertanyaan": "Dalam 10 percobaan, setiap kali saya memanaskan logam X hingga 100 derajat Celsius, ia memuai. Saya akan memanaskan logam X hingga 100 derajat Celsius lagi.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Logam X pasti akan memuai.", "Logam X mungkin tidak akan memuai.", "Logam X sangat mungkin memuai.", "Pemanasan tidak mempengaruhi pemuaian logam X.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "A",
-    "pembahasan": "Meskipun ini adalah penalaran induktif (dari kasus spesifik ke umum), 10 percobaan berulang dengan hasil yang sama pada kondisi yang sama menunjukkan hukum fisik yang kuat. Oleh karena itu, kesimpulan 'pasti akan memuai' didasarkan pada inferensi induktif yang sangat kuat, mendekati kepastian ilmiah dalam konteks ini."
+    "pertanyaan": "Premis 1: Setiap anggota klub renang memakai topi renang.\nPremis 2: Anton tidak memakai topi renang.\nPremis 3: Anton adalah seorang atlet.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Anton adalah anggota klub renang.", "Anton bukan anggota klub renang.", "Anton mungkin anggota klub renang.", "Semua atlet memakai topi renang.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Jika semua anggota klub renang harus pakai topi renang, dan Anton tidak pakai topi renang, maka Anton jelas bukan anggota klub renang. Informasi bahwa Anton seorang atlet tidak relevan untuk kesimpulan ini."
   },
   {
     "id": 76,
-    "pertanyaan": "Setiap kali saya bermain gim ini, level terakhir selalu lebih sulit daripada level sebelumnya. Saya baru saja menyelesaikan level ketiga.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Level keempat akan lebih mudah.", "Level keempat akan sama sulitnya.", "Level keempat kemungkinan besar akan lebih sulit.", "Gim ini tidak memiliki level yang sulit.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Pengalaman berulang (setiap kali) menunjukkan pola yang kuat. Oleh karena itu, ada kemungkinan besar pola tersebut akan berlanjut ke level berikutnya. Ini adalah contoh penalaran induktif berdasarkan observasi berulang."
+    "pertanyaan": "Premis 1: Jika hari cerah, saya akan pergi ke pantai.\nPremis 2: Saya tidak pergi ke pantai.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Hari cerah.", "Hari tidak cerah.", "Saya selalu pergi ke pantai jika hari cerah.", "Pergi ke pantai tidak tergantung pada hari cerah.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "B",
+    "pembahasan": "Jika pernyataan 'jika A maka B' benar, dan ternyata B tidak terjadi, maka A pasti juga tidak terjadi. Di sini, 'A' adalah 'hari cerah' dan 'B' adalah 'saya pergi ke pantai'. Karena 'saya tidak pergi ke pantai' (B tidak terjadi), maka hari pasti tidak cerah (A tidak terjadi). Ini disebut Modus Tollens."
   },
   {
     "id": 77,
-    "pertanyaan": "Pada tahun 2020, 90% lulusan jurusan Informatika dari universitas X mendapatkan pekerjaan dalam 6 bulan. Andi adalah lulusan jurusan Informatika dari universitas X pada tahun 2025.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Andi pasti akan mendapatkan pekerjaan dalam 6 bulan.", "Andi tidak akan mendapatkan pekerjaan dalam 6 bulan.", "Andi sangat mungkin mendapatkan pekerjaan dalam 6 bulan.", "Statistik tahun 2020 tidak relevan untuk tahun 2025.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Data historis 90% menunjukkan probabilitas tinggi. Namun, karena ini adalah data dari tahun 2020, dan ada kemungkinan perubahan kondisi pasar kerja atau kurikulum universitas di tahun 2025, kesimpulan 'sangat mungkin' lebih tepat daripada 'pasti'."
+    "pertanyaan": "Premis 1: Semua mamalia menyusui.\nPremis 2: Beberapa hewan peliharaan adalah mamalia.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua hewan peliharaan menyusui.", "Beberapa hewan peliharaan menyusui.", "Semua yang menyusui adalah hewan peliharaan.", "Beberapa mamalia bukan hewan peliharaan.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "B",
+    "pembahasan": "Jika semua mamalia menyusui, dan ada beberapa hewan peliharaan yang masuk kategori mamalia, maka secara pasti beberapa hewan peliharaan tersebut menyusui. Kita tidak bisa bilang 'semua hewan peliharaan menyusui' karena mungkin ada hewan peliharaan yang bukan mamalia (misalnya ikan atau burung)."
   },
   {
     "id": 78,
-    "pertanyaan": "Seorang koki selalu menambahkan sejumput garam ke dalam setiap masakannya, dan masakannya selalu terasa lezat. Ia sedang menyiapkan hidangan baru.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Hidangan baru ini pasti akan terasa lezat.", "Hidangan baru ini mungkin tidak akan terasa lezat.", "Hidangan baru ini sangat mungkin terasa lezat.", "Kelezatan masakannya tidak bergantung pada garam.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Ada pola konsisten antara penambahan garam dan hasil masakan yang lezat. Meskipun ada faktor lain yang mungkin mempengaruhi kelezatan, pola yang konsisten ini mengarah pada kesimpulan induktif bahwa hidangan baru ini 'sangat mungkin' terasa lezat. Kata 'selalu' membuat probabilitasnya tinggi, tetapi dalam konteks induktif, 'sangat mungkin' lebih aman daripada 'pasti' karena ada kemungkinan faktor lain."
+    "pertanyaan": "Premis 1: Jika air mendidih, suhunya 100 derajat Celsius.\nPremis 2: Suhu air ini adalah 100 derajat Celsius.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Air ini mendidih.", "Air ini tidak mendidih.", "Air ini mungkin mendidih.", "Semua yang bersuhu 100 derajat Celsius mendidih.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kesalahan logika 'mengafirmasi konsekuen'. Meskipun air mendidih pasti bersuhu 100 derajat Celsius, suhu 100 derajat Celsius tidak selalu berarti air itu mendidih. Misalnya, uap air juga bersuhu 100 derajat Celsius tapi bukan air mendidih. Jadi, kita tidak bisa menyimpulkan bahwa air ini mendidih hanya karena suhunya 100 derajat Celsius."
   },
   {
     "id": 79,
-    "pertanyaan": "Setiap kali musim kemarau tiba, sumur di desa ini mengering. Musim kemarau diprediksi akan tiba minggu depan.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Sumur di desa ini pasti akan mengering minggu depan.", "Sumur di desa ini tidak akan mengering minggu depan.", "Sumur di desa ini kemungkinan besar akan mengering minggu depan.", "Kekeringan sumur tidak terkait dengan musim kemarau.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Pola historis yang konsisten ('Setiap kali') menunjukkan hubungan sebab-akibat yang kuat antara musim kemarau dan mengeringnya sumur. Oleh karena itu, kemungkinan besar pola ini akan berlanjut. 'Kemungkinan besar' mencerminkan kekuatan inferensi induktif ini."
+    "pertanyaan": "Premis 1: Tidak ada buah yang rasanya pahit dan manis sekaligus.\nPremis 2: Apel rasanya manis.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Apel rasanya pahit.", "Apel tidak rasanya pahit.", "Apel mungkin rasanya pahit.", "Semua buah rasanya manis.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "B",
+    "pembahasan": "Jika tidak ada buah yang bisa pahit dan manis bersamaan, dan apel sudah jelas rasanya manis, maka secara deduktif apel tidak mungkin rasanya pahit. Karena jika ia pahit, berarti ia juga manis, yang melanggar Premis 1."
   },
   {
     "id": 80,
-    "pertanyaan": "Dalam survei terhadap 1000 pengguna internet, 85% menyatakan khawatir tentang privasi data mereka. Anda adalah pengguna internet.\n\nKesimpulan yang paling mungkin adalah...",
-    "pilihan": ["Anda pasti khawatir tentang privasi data Anda.", "Anda tidak khawatir tentang privasi data Anda.", "Anda sangat mungkin khawatir tentang privasi data Anda.", "Privasi data tidak relevan bagi sebagian besar pengguna internet.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "C",
-    "pembahasan": "Survei menunjukkan mayoritas (85%) memiliki kekhawatiran tersebut. Sebagai individu dari populasi yang sama (pengguna internet), Anda memiliki probabilitas tinggi untuk memiliki kekhawatiran yang sama. 'Sangat mungkin' adalah kesimpulan induktif yang tepat berdasarkan statistik ini."
+    "pertanyaan": "Premis 1: Semua siswa yang rajin belajar akan lulus ujian.\nPremis 2: Budi lulus ujian.\nPremis 3: Ani tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi adalah siswa yang rajin belajar.", "Ani adalah siswa yang tidak rajin belajar.", "Budi mungkin rajin belajar.", "Ani mungkin tidak rajin belajar.", "Tidak dapat ditarik kesimpulan secara valid mengenai kerajinan belajar Budi."],
+    "jawaban": "E",
+    "pembahasan": "Dari Premis 1 ('Jika rajin belajar, maka lulus ujian'), kita tidak bisa langsung menyimpulkan bahwa Budi rajin belajar hanya karena dia lulus ujian (ini kesalahan afirmasi konsekuen, seperti di soal 78). Budi bisa saja lulus karena faktor lain (keberuntungan, soal mudah, dsb.). Namun, untuk Ani, karena dia tidak lulus ujian, kita bisa menyimpulkan bahwa dia **tidak** rajin belajar (ini Modus Tollens). Pilihan yang paling tepat adalah yang mengakui keterbatasan kesimpulan untuk Budi, tetapi menyiratkan bahwa Ani tidak rajin belajar (yang tersirat kuat dari tidak lulus ujian). Namun, karena pilihan 'Ani adalah siswa yang tidak rajin belajar' tidak ada dan pilihan lain terlalu mutlak atau salah, maka kesimpulan valid untuk Budi tidak dapat ditarik karena adanya kemungkinan lain untuk lulus."
   }
 ]
