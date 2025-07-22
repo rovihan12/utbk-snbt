@@ -1,0 +1,72 @@
+[
+  {
+    "id": 71,
+    "pertanyaan": "Sebagian besar siswa yang rajin belajar mendapatkan nilai bagus. Budi adalah siswa yang sangat rajin belajar.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Budi pasti mendapatkan nilai bagus.", "Budi mungkin tidak mendapatkan nilai bagus.", "Budi sangat mungkin mendapatkan nilai bagus.", "Semua siswa yang mendapatkan nilai bagus adalah Budi.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Premis pertama menyatakan 'sebagian besar', yang menunjukkan probabilitas tinggi. Dengan Budi menjadi siswa yang 'sangat rajin belajar', probabilitas dia mendapatkan nilai bagus semakin tinggi, menjadikannya 'sangat mungkin'."
+  },
+  {
+    "id": 72,
+    "pertanyaan": "Setiap kali saya menyiram tanaman ini, daunnya tumbuh lebih hijau. Saya baru saja menyiram tanaman ini.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Daun tanaman ini pasti akan tumbuh lebih hijau.", "Daun tanaman ini mungkin akan tumbuh lebih hijau.", "Daun tanaman ini tidak akan tumbuh lebih hijau.", "Penyiraman tidak mempengaruhi warna daun.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "A",
+    "pembahasan": "Pernyataan 'Setiap kali' menunjukkan hubungan kausalitas yang konsisten. Jika tindakan (menyiram) selalu menghasilkan efek (daun lebih hijau), maka dengan melakukan tindakan tersebut, efeknya diharapkan terjadi."
+  },
+  {
+    "id": 73,
+    "pertanyaan": "Selama lima tahun terakhir, setiap kali ekonomi memburuk, tingkat pengangguran meningkat. Ekonomi saat ini sedang memburuk.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Tingkat pengangguran pasti akan meningkat.", "Tingkat pengangguran mungkin tidak akan meningkat.", "Tingkat pengangguran sangat mungkin meningkat.", "Ekonomi memburuk karena pengangguran meningkat.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Meskipun ada pola konsisten selama lima tahun terakhir, situasi ekonomi dapat dipengaruhi oleh banyak faktor. Oleh karena itu, kesimpulan 'sangat mungkin' lebih tepat daripada 'pasti' karena ini adalah penalaran induktif, bukan deduktif mutlak."
+  },
+  {
+    "id": 74,
+    "pertanyaan": "Sebagian besar restoran di jalan ini memiliki ulasan bintang lima. Restoran 'Dapur Kita' ada di jalan ini.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Restoran 'Dapur Kita' pasti memiliki ulasan bintang lima.", "Restoran 'Dapur Kita' mungkin tidak memiliki ulasan bintang lima.", "Restoran 'Dapur Kita' sangat mungkin memiliki ulasan bintang lima.", "Semua restoran dengan ulasan bintang lima ada di jalan ini.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "C",
+    "pembahasan": "Frasa 'sebagian besar' menunjukkan mayoritas, tetapi tidak semua. Oleh karena itu, ada kemungkinan tinggi, tetapi bukan kepastian, bahwa 'Dapur Kita' termasuk dalam mayoritas tersebut. Pilihan 'sangat mungkin' mencerminkan probabilitas ini."
+  },
+  {
+    "id": 75,
+    "pertanyaan": "Dalam 10 percobaan, setiap kali saya memanaskan logam X hingga 100 derajat Celsius, ia memuai. Saya akan memanaskan logam X hingga 100 derajat Celsius lagi.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Logam X pasti akan memuai.", "Logam X mungkin tidak akan memuai.", "Logam X sangat mungkin memuai.", "Pemanasan tidak mempengaruhi pemuaian logam X.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "A",
+    "pembahasan": "Meskipun ini adalah penalaran induktif (dari kasus spesifik ke umum), 10 percobaan berulang dengan hasil yang sama pada kondisi yang sama menunjukkan hukum fisik yang kuat. Oleh karena itu, kesimpulan 'pasti akan memuai' didasarkan pada inferensi induktif yang sangat kuat, mendekati kepastian ilmiah dalam konteks ini."
+  },
+  {
+    "id": 76,
+    "pertanyaan": "Setiap kali saya bermain gim ini, level terakhir selalu lebih sulit daripada level sebelumnya. Saya baru saja menyelesaikan level ketiga.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Level keempat akan lebih mudah.", "Level keempat akan sama sulitnya.", "Level keempat kemungkinan besar akan lebih sulit.", "Gim ini tidak memiliki level yang sulit.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Pengalaman berulang (setiap kali) menunjukkan pola yang kuat. Oleh karena itu, ada kemungkinan besar pola tersebut akan berlanjut ke level berikutnya. Ini adalah contoh penalaran induktif berdasarkan observasi berulang."
+  },
+  {
+    "id": 77,
+    "pertanyaan": "Pada tahun 2020, 90% lulusan jurusan Informatika dari universitas X mendapatkan pekerjaan dalam 6 bulan. Andi adalah lulusan jurusan Informatika dari universitas X pada tahun 2025.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Andi pasti akan mendapatkan pekerjaan dalam 6 bulan.", "Andi tidak akan mendapatkan pekerjaan dalam 6 bulan.", "Andi sangat mungkin mendapatkan pekerjaan dalam 6 bulan.", "Statistik tahun 2020 tidak relevan untuk tahun 2025.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Data historis 90% menunjukkan probabilitas tinggi. Namun, karena ini adalah data dari tahun 2020, dan ada kemungkinan perubahan kondisi pasar kerja atau kurikulum universitas di tahun 2025, kesimpulan 'sangat mungkin' lebih tepat daripada 'pasti'."
+  },
+  {
+    "id": 78,
+    "pertanyaan": "Seorang koki selalu menambahkan sejumput garam ke dalam setiap masakannya, dan masakannya selalu terasa lezat. Ia sedang menyiapkan hidangan baru.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Hidangan baru ini pasti akan terasa lezat.", "Hidangan baru ini mungkin tidak akan terasa lezat.", "Hidangan baru ini sangat mungkin terasa lezat.", "Kelezatan masakannya tidak bergantung pada garam.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Ada pola konsisten antara penambahan garam dan hasil masakan yang lezat. Meskipun ada faktor lain yang mungkin mempengaruhi kelezatan, pola yang konsisten ini mengarah pada kesimpulan induktif bahwa hidangan baru ini 'sangat mungkin' terasa lezat. Kata 'selalu' membuat probabilitasnya tinggi, tetapi dalam konteks induktif, 'sangat mungkin' lebih aman daripada 'pasti' karena ada kemungkinan faktor lain."
+  },
+  {
+    "id": 79,
+    "pertanyaan": "Setiap kali musim kemarau tiba, sumur di desa ini mengering. Musim kemarau diprediksi akan tiba minggu depan.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Sumur di desa ini pasti akan mengering minggu depan.", "Sumur di desa ini tidak akan mengering minggu depan.", "Sumur di desa ini kemungkinan besar akan mengering minggu depan.", "Kekeringan sumur tidak terkait dengan musim kemarau.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Pola historis yang konsisten ('Setiap kali') menunjukkan hubungan sebab-akibat yang kuat antara musim kemarau dan mengeringnya sumur. Oleh karena itu, kemungkinan besar pola ini akan berlanjut. 'Kemungkinan besar' mencerminkan kekuatan inferensi induktif ini."
+  },
+  {
+    "id": 80,
+    "pertanyaan": "Dalam survei terhadap 1000 pengguna internet, 85% menyatakan khawatir tentang privasi data mereka. Anda adalah pengguna internet.\n\nKesimpulan yang paling mungkin adalah...",
+    "pilihan": ["Anda pasti khawatir tentang privasi data Anda.", "Anda tidak khawatir tentang privasi data Anda.", "Anda sangat mungkin khawatir tentang privasi data Anda.", "Privasi data tidak relevan bagi sebagian besar pengguna internet.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "C",
+    "pembahasan": "Survei menunjukkan mayoritas (85%) memiliki kekhawatiran tersebut. Sebagai individu dari populasi yang sama (pengguna internet), Anda memiliki probabilitas tinggi untuk memiliki kekhawatiran yang sama. 'Sangat mungkin' adalah kesimpulan induktif yang tepat berdasarkan statistik ini."
+  }
+]
