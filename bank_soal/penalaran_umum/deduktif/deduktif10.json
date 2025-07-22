@@ -1,0 +1,72 @@
+[
+  {
+    "id": 91,
+    "pertanyaan": "Premis 1: Semua hewan berkaki empat adalah mamalia.\nPremis 2: Kucing adalah hewan berkaki empat.\nPremis 3: Gajah adalah mamalia.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Kucing adalah mamalia.", "Gajah adalah hewan berkaki empat.", "Semua mamalia berkaki empat.", "Kucing dan gajah adalah mamalia.", "Tidak dapat ditarik kesimpulan secara valid mengenai semua mamalia."],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1 (Semua hewan berkaki empat adalah mamalia) dan Premis 2 (Kucing adalah hewan berkaki empat), kita bisa langsung menyimpulkan bahwa **kucing adalah mamalia**. Premis 3 tentang gajah adalah informasi tambahan yang benar, tetapi tidak secara langsung berkaitan dengan kesimpulan yang ditarik dari dua premis pertama."
+  },
+  {
+    "id": 92,
+    "pertanyaan": "Premis 1: Jika saya belajar keras, saya akan mendapatkan nilai A.\nPremis 2: Saya mendapatkan nilai A.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya belajar keras.", "Saya tidak belajar keras.", "Saya mungkin belajar keras.", "Semua yang mendapatkan nilai A adalah karena belajar keras.", "Tidak dapat ditarik kesimpulan secara valid mengenai apakah saya belajar keras atau tidak."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kesalahan logika 'mengafirmasi konsekuen'. Meskipun belajar keras bisa menghasilkan nilai A, mendapatkan nilai A tidak selalu berarti seseorang belajar keras. Ada kemungkinan lain untuk mendapatkan nilai A (misalnya, soal ujian sangat mudah, kebetulan, atau sudah pandai sebelumnya). Jadi, kita tidak bisa secara deduktif memastikan bahwa 'saya belajar keras'."
+  },
+  {
+    "id": 93,
+    "pertanyaan": "Premis 1: Tidak ada ikan yang bisa hidup di darat.\nPremis 2: Paus adalah hewan air.\nPremis 3: Semua hewan air adalah ikan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Paus tidak bisa hidup di darat.", "Paus bisa hidup di darat.", "Paus adalah ikan.", "Paus bukan ikan.", "Tidak dapat ditarik kesimpulan secara valid mengenai paus dan hidup di darat."],
+    "jawaban": "A",
+    "pembahasan": "Pertama, mari kita lihat Premis 2 dan 3. Premis 3 menyatakan 'Semua hewan air adalah ikan'. Karena paus adalah hewan air (Premis 2), maka menurut premis ini, **paus adalah ikan**. Lalu, Premis 1 menyatakan 'Tidak ada ikan yang bisa hidup di darat'. Karena paus (yang di premis ini kita anggap ikan) tidak bisa hidup di darat, maka **paus tidak bisa hidup di darat**. (Perhatikan, dalam logika deduktif, kita harus menerima premis yang diberikan meskipun Premis 3 tidak benar di dunia nyata)."
+  },
+  {
+    "id": 94,
+    "pertanyaan": "Premis 1: Semua programmer menguasai setidaknya satu bahasa pemrograman.\nPremis 2: Budi adalah seorang programmer.\nPremis 3: Java adalah bahasa pemrograman.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi menguasai Java.", "Budi menguasai setidaknya satu bahasa pemrograman.", "Semua yang menguasai Java adalah programmer.", "Tidak ada programmer yang tidak menguasai bahasa pemrograman.", "Tidak dapat ditarik kesimpulan secara valid mengenai bahasa pemrograman yang dikuasai Budi."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1 dan Premis 2, kita bisa langsung menyimpulkan bahwa **Budi menguasai setidaknya satu bahasa pemrograman**. Kita tidak bisa menyimpulkan secara spesifik bahasa apa yang dikuasai Budi (misalnya Java), karena Premis 1 hanya mengatakan 'setidaknya satu', bukan 'semua bahasa yang ada' atau 'Java'."
+  },
+  {
+    "id": 95,
+    "pertanyaan": "Premis 1: Jika toko buka, lampu di dalamnya menyala.\nPremis 2: Lampu di toko tidak menyala.\nPremis 3: Hari ini adalah hari libur nasional.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Toko buka.", "Toko tidak buka.", "Hari ini toko buka.", "Hari ini toko tidak buka.", "Tidak dapat ditarik kesimpulan secara valid mengenai hari libur."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1 ('Jika toko buka, lampu menyala') dan Premis 2 ('Lampu di toko tidak menyala'), kita bisa menyimpulkan bahwa **toko tidak buka** (Modus Tollens). Informasi tentang hari libur nasional (Premis 3) mungkin menjelaskan mengapa toko tidak buka, tetapi kesimpulan tentang toko tidak buka sudah bisa ditarik hanya dari Premis 1 dan 2."
+  },
+  {
+    "id": 96,
+    "pertanyaan": "Premis 1: Setiap orang yang berprestasi tinggi adalah pekerja keras.\nPremis 2: Beberapa atlet adalah orang yang berprestasi tinggi.\nPremis 3: Tidak semua pekerja keras adalah atlet.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Beberapa atlet adalah pekerja keras.", "Semua atlet adalah pekerja keras.", "Tidak ada atlet yang berprestasi tinggi.", "Semua pekerja keras adalah orang yang berprestasi tinggi.", "Tidak dapat ditarik kesimpulan secara valid mengenai semua atlet."],
+    "jawaban": "A",
+    "pembahasan": "Jika semua orang berprestasi tinggi adalah pekerja keras, dan beberapa atlet adalah orang yang berprestasi tinggi, maka secara logis beberapa atlet tersebut pasti adalah **pekerja keras**. Premis 3 hanya menegaskan bahwa lingkaran pekerja keras lebih besar dari atlet, tetapi tidak mengubah kesimpulan ini."
+  },
+  {
+    "id": 97,
+    "pertanyaan": "Premis 1: Jika seekor hewan adalah reptil, maka ia berdarah dingin.\nPremis 2: Jika seekor hewan berdarah dingin, maka ia membutuhkan sinar matahari untuk menghangatkan tubuh.\nPremis 3: Buaya adalah reptil.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buaya berdarah dingin.", "Buaya membutuhkan sinar matahari untuk menghangatkan tubuh.", "Buaya tidak berdarah dingin.", "Semua hewan berdarah dingin adalah reptil.", "Tidak dapat ditarik kesimpulan secara valid mengenai buaya."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah silogisme berantai. Jika 'hewan adalah reptil' (A), maka 'berdarah dingin' (B). Jika 'berdarah dingin' (B), maka 'membutuhkan sinar matahari' (C). Karena 'buaya adalah reptil' (A), maka kesimpulannya 'buaya membutuhkan sinar matahari untuk menghangatkan tubuh' (C)."
+  },
+  {
+    "id": 98,
+    "pertanyaan": "Premis 1: Semua manusia dapat berpikir.\nPremis 2: Beberapa makhluk hidup adalah manusia.\nPremis 3: Tanaman adalah makhluk hidup.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Tanaman dapat berpikir.", "Beberapa makhluk hidup dapat berpikir.", "Semua makhluk hidup dapat berpikir.", "Tanaman tidak dapat berpikir.", "Tidak dapat ditarik kesimpulan secara valid mengenai kemampuan berpikir tanaman."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1 (Semua manusia dapat berpikir) dan Premis 2 (Beberapa makhluk hidup adalah manusia), kita bisa menyimpulkan bahwa **beberapa makhluk hidup dapat berpikir**. Premis 3 tentang tanaman adalah informasi tambahan, tetapi tidak mengubah kesimpulan ini. Kita tidak bisa menyimpulkan bahwa tanaman dapat berpikir atau tidak dapat berpikir dari premis yang diberikan."
+  },
+  {
+    "id": 99,
+    "pertanyaan": "Premis 1: Hanya karyawan yang memiliki akses ke ruang server yang diizinkan masuk setelah jam kerja.\nPremis 2: Pak Cipto tidak memiliki akses ke ruang server.\nPremis 3: Pak Cipto masuk setelah jam kerja.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Pak Cipto adalah karyawan.", "Pak Cipto seharusnya tidak masuk setelah jam kerja.", "Pak Cipto melanggar peraturan.", "Pak Cipto memiliki akses ke ruang server.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "jawaban": "C",
+    "pembahasan": "Premis 1 bisa diartikan sebagai: 'Jika seseorang masuk ruang server setelah jam kerja, maka ia memiliki akses'. Jika Pak Cipto tidak memiliki akses (Premis 2), tetapi dia masuk setelah jam kerja (Premis 3), ini berarti dia melanggar aturan yang disebutkan dalam Premis 1. Kesimpulan yang paling kuat adalah **Pak Cipto melanggar peraturan**."
+  },
+  {
+    "id": 100,
+    "pertanyaan": "Premis 1: Jika hari ini Senin, maka besok adalah Selasa.\nPremis 2: Jika besok adalah Selasa, maka lusa adalah Rabu.\nPremis 3: Hari ini bukan Senin.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Besok bukan Selasa.", "Lusa bukan Rabu.", "Lusa adalah Rabu.", "Besok adalah Selasa.", "Tidak dapat ditarik kesimpulan secara valid mengenai hari lusa."],
+    "jawaban": "E",
+    "pembahasan": "Dari Premis 1 ('Jika hari ini Senin, maka besok Selasa') dan Premis 3 ('Hari ini bukan Senin'), kita tidak bisa menyimpulkan apa-apa tentang besok (apakah Selasa atau bukan). Ini adalah kesalahan 'menyangkal anteseden'. Karena kita tidak bisa pasti menentukan hari besok, maka kita juga tidak bisa pasti menentukan hari lusa. Jadi, **tidak dapat ditarik kesimpulan secara valid mengenai hari lusa**."
+  }
+]
