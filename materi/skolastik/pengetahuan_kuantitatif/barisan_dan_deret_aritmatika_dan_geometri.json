@@ -10,7 +10,7 @@
           "teks": "Barisan bilangan di mana selisih antara dua suku berurutan selalu tetap (konstan). Selisih ini disebut beda $(b)$."
         },
         {
-          "judul": "Rumus Suku ke-n $(U_n)$",
+          "judul": "Rumus Suku ke-n",
           "teks": "$$U_n = a + (n - 1) b$$\nDi mana:\n- $a = U_1$ = suku pertama\n- $n$ = posisi suku\n- $b$ = beda $= U_n - U_{n-1}$"
         },
         {
@@ -27,7 +27,7 @@
           "teks": "Jumlah dari suku-suku suatu barisan aritmetika."
         },
         {
-          "judul": "Rumus Jumlah n Suku Pertama $(S_n)$",
+          "judul": "Rumus Jumlah n Suku Pertama",
           "teks": "Jika $r > 1$: \n$$S_n = a \\frac{(r^n - 1)}{(r - 1)}$$\nJika $r < 1$: \n$$S_n = a \\frac{(1 - r^n)}{(1 - r)}$$"
         },
         {
@@ -44,7 +44,7 @@
           "teks": "Barisan bilangan di mana perbandingan (rasio) antara dua suku berurutan selalu tetap (konstan). Perbandingan ini disebut rasio $(r)$."
         },
         {
-          "judul": "Rumus Suku ke-n $(U_n)$",
+          "judul": "Rumus Suku ke-n",
           "teks": "$$U_n = a \\times r^{n-1}$$\nDi mana:\n- $a = U_1$ = suku pertama\n- $n$ = posisi suku\n- $r$ = rasio $= U_n / U_{n-1}$"
         },
         {
@@ -61,7 +61,7 @@
           "teks": "Jumlah dari suku-suku suatu barisan geometri."
         },
         {
-          "judul": "Rumus Jumlah n Suku Pertama $(S_n)$",
+          "judul": "Rumus Jumlah n Suku Pertama",
           "teks": "Jika $r > 1$:\n$$S_n = a \\frac{(r^n - 1)}{(r - 1)}$$\nJika $r < 1$:\n$$S_n = a \\frac{(1 - r^n)}{(1 - r)}$$"
         }
       ]
@@ -74,7 +74,7 @@
           "teks": "Deret geometri yang jumlah sukunya mendekati suatu nilai tertentu jika $n \\to \\infty$. Terjadi jika $-1 < r < 1$ atau $|r| < 1$."
         },
         {
-          "judul": "Rumus Jumlah Tak Hingga $(S_{\\infty})$",
+          "judul": "Rumus Jumlah Tak Hingga",
           "teks": "$$S_{\\infty} = \\frac{a}{(1 - r)}$$"
         },
         {
