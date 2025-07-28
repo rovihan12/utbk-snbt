@@ -11,7 +11,7 @@
     ],
     "jawaban": "D",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/5.png",
-    "pembahasan": "Perhatikan gambar pembahasan. Garis $XY$ adalah garis tengah trapesium yang menghubungkan titik tengah sisi $AD$ dan $BC$. Pada trapesium sama kaki, garis yang menghubungkan titik tengah sisi tidak sejajar akan membagi trapesium menjadi dua bagian dengan luas yang sama jika ditarik ke titik-titik tertentu yang menciptakan simetri.\n\nDalam kasus ini, daerah yang diarsir adalah segitiga yang terbentuk dari titik-titik tengah tersebut. Karena $X$ dan $Y$ adalah titik tengah, dan trapesiumnya sama kaki, maka segitiga yang diarsir tersebut mencakup tepat setengah dari luas trapesium keseluruhan. Ini bisa dibuktikan dengan memindahkan bagian-bagian segitiga di luar area arsiran ke area arsiran agar membentuk bangun persegi panjang, atau dengan menggunakan konsep bahwa garis tengah membagi tinggi trapesium menjadi dua sama rata.\n\nSecara geometris, jika kita menarik garis dari $A$ ke $Y$ dan dari $B$ ke $X$, kita akan melihat bahwa luas $\\triangle AXY$ dan $\\triangle BXY$ adalah sama. Total luas yang diarsir adalah luas $\\triangle DXYC$ yang terbentuk.\n\nAlternatif lain, jika kita membagi trapesium menjadi dua trapesium kecil dengan menarik garis dari $X$ sejajar $AB$ dan dari $Y$ sejajar $DC$, kita bisa melihat bahwa luas daerah yang diarsir (yaitu $\\triangle XPY$, dengan $P$ dan $Q$ adalah proyeksi $X$ dan $Y$ pada alas $AB$ dan $DC$) adalah setengah dari luas trapesium asli.\n\nDengan properti trapesium, garis tengah $XY$ sejajar dengan alas $AB$ dan $CD$, dan panjangnya adalah rata-rata dari panjang kedua alas. Segitiga yang diarsir (asumsikan $\\triangle CDX$ atau $\\triangle ABY$ atau kombinasi yang membentuk area di tengah) pada dasarnya merepresentasikan setengah dari luas trapesium.\n\nJadi, luas trapesium $ABCD$ adalah 2 kali luas daerah yang diarsir.\nLuas $ABCD = 2 \\times 28\\text{ cm}^2 = 56\\text{ cm}^2$."
+    "pembahasan": "Perhatikan gambar pembahasan. Garis $XY$ adalah garis tengah trapesium yang menghubungkan titik tengah sisi $AD$ dan $BC$. Pada trapesium sama kaki, garis yang menghubungkan titik tengah sisi tidak sejajar akan membagi trapesium menjadi dua bagian dengan luas yang sama jika ditarik ke titik-titik tertentu yang menciptakan simetri.\n\nDalam kasus ini, daerah yang diarsir adalah segitiga yang terbentuk dari titik-titik tengah tersebut. Karena $X$ dan $Y$ adalah titik tengah, dan trapesiumnya sama kaki, maka segitiga yang diarsir tersebut mencakup tepat setengah dari luas trapesium keseluruhan.\n\nLuas trapesium $ABCD = 2 \\times 28\\text{ cm}^2 = 56\\text{ cm}^2$."
   },
   {
     "id": 12,
@@ -20,11 +20,10 @@
       "$28\\pi$ m$^2$",
       "$32\\pi$ m$^2$",
       "$36\\pi$ m$^2$",
-      "$40\\pi$ m$^2$",
-      "$44\\pi$ m$^2$"
+      "$40\\pi$ m$^2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan jari-jari kolam adalah $r_k$ dan jari-jari kolam ditambah jalan setapak adalah $r_j$.\n\nKeliling kolam $K = 2\\pi r_k = 44$ meter. Karena 44 adalah kelipatan 22, sangat mungkin kita diharapkan menggunakan nilai $\\pi \\approx 22/7$.\nJika $\\pi = 22/7$:\n$2 \\times \\frac{22}{7} \\times r_k = 44$\n$\\frac{44}{7} \\times r_k = 44$\n$r_k = \\frac{44 \\times 7}{44} = 7$ meter.\n\nJalan setapak selebar 2 meter, sehingga jari-jari kolam ditambah jalan setapak ($r_j$) adalah:\n$r_j = r_k + 2 = 7 + 2 = 9$ meter.\n\nLuas jalan setapak adalah selisih antara luas lingkaran besar (kolam + jalan) dan luas lingkaran kecil (kolam).\n$A_{\\text{jalan}} = \\pi r_j^2 - \\pi r_k^2$\n$A_{\\text{jalan}} = \\pi (9^2) - \\pi (7^2)$\n$A_{\\text{jalan}} = \\pi (81 - 49)$\n$A_{\\text{jalan}} = 32\\pi$ m$^2$.\n\nJadi, luas jalan setapak tersebut adalah $32\\pi$ m$^2$."
+    "pembahasan": "Keliling kolam $K = 2\\pi r_k = 44$ meter. Dengan $\\pi \\approx \\frac{22}{7}$, maka $r_k = 7$ meter.\n\nJari-jari kolam + jalan: $r_j = 7 + 2 = 9$ meter.\n\nLuas jalan = $\\pi (9^2 - 7^2) = 32\\pi$ m$^2$."
   },
   {
     "id": 13,
@@ -33,101 +32,9 @@
       "15 cm$^2$",
       "30 cm$^2$",
       "45 cm$^2$",
-      "60 cm$^2$",
-      "65 cm$^2$"
+      "60 cm$^2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan sisi miring ($c$) = 13 cm dan salah satu sisi tegak ($a$) = 5 cm. Kita perlu mencari panjang sisi tegak lainnya ($b$) menggunakan teorema Pythagoras.\n\n$a^2 + b^2 = c^2$\n$5^2 + b^2 = 13^2$\n$25 + b^2 = 169$\n$b^2 = 169 - 25 = 144$\n$b = \\sqrt{144} = 12$ cm.\n\nLuas segitiga siku-siku $A = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$. Dalam segitiga siku-siku, kedua sisi tegak dapat berfungsi sebagai alas dan tinggi.\n$A = \\frac{1}{2} \\times 5 \\times 12 = \\frac{1}{2} \\times 60 = 30$ cm$^2$."
-  },
-  {
-    "id": 14,
-    "pertanyaan": "Sebuah persegi $PQRS$ memiliki titik $P(1,1)$, $Q(5,1)$, dan $R(5,5)$. Koordinat titik $S$ adalah...",
-    "pilihan": [
-      "$(1,5)$",
-      "$(1,4)$",
-      "$(4,1)$",
-      "$(5,4)$",
-      "$(4,5)$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Dalam sebuah persegi, sisi-sisi yang berdekatan saling tegak lurus dan panjangnya sama. Sisi-sisi yang berhadapan juga sejajar.\n\nDari $P(1,1)$ ke $Q(5,1)$, ini adalah sisi horizontal. Perubahan x adalah $5-1=4$, sedangkan y tetap 1.\nDari $Q(5,1)$ ke $R(5,5)$, ini adalah sisi vertikal. Perubahan y adalah $5-1=4$, sedangkan x tetap 5.\n\nKarena $PQ$ adalah sisi horizontal dan $QR$ adalah sisi vertikal, maka $PQ$ dan $QR$ adalah sisi-sisi yang berdekatan dan saling tegak lurus (membentuk sudut siku-siku di $Q$).\n\nUntuk menemukan titik $S$, kita perlu memastikan bahwa $PS$ sejajar dengan $QR$ dan $RS$ sejajar dengan $PQ$.\nTitik $S$ harus memiliki koordinat x yang sama dengan $P$ (karena $PS$ akan menjadi sisi vertikal, seperti $QR$) dan koordinat y yang sama dengan $R$ (karena $RS$ akan menjadi sisi horizontal, seperti $PQ$).\n\nJadi, koordinat titik $S$ adalah $(1,5)$."
-  },
-  {
-    "id": 15,
-    "pertanyaan": "Sebuah segitiga $ABC$ memiliki koordinat titik $A(2,3)$, $B(8,3)$, dan $C(5,7)$. Luas segitiga $ABC$ adalah...",
-    "pilihan": [
-      "12 satuan luas",
-      "15 satuan luas",
-      "18 satuan luas",
-      "21 satuan luas",
-      "24 satuan luas"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Untuk mencari luas segitiga dengan koordinat, kita bisa menggunakan rumus alas kali tinggi. Perhatikan bahwa titik A dan B memiliki koordinat y yang sama (y=3), sehingga garis AB adalah garis horizontal. Kita bisa menggunakan AB sebagai alas segitiga.\n\nPanjang alas $AB = |8 - 2| = 6$ satuan.\n\nTinggi segitiga adalah jarak vertikal dari titik C ke garis AB (yaitu garis $y=3$).\nTinggi ($h$) = $|7 - 3| = 4$ satuan.\n\nLuas segitiga $A = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 6 \\times 4 = 12$ satuan luas."
-  },
-  {
-    "id": 16,
-    "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga siku-siku dengan panjang sisi tegak 6 cm dan 8 cm. Jika tinggi prisma adalah 10 cm, maka volume prisma tersebut adalah...",
-    "pilihan": [
-      "120 cm$^3$",
-      "180 cm$^3$",
-      "240 cm$^3$",
-      "300 cm$^3$",
-      "480 cm$^3$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Volume prisma dihitung dengan rumus $V = A_{\\text{alas}} \\times h_{\\text{prisma}}$, di mana $A_{\\text{alas}}$ adalah luas alas prisma dan $h_{\\text{prisma}}$ adalah tinggi prisma.\n\nAlas prisma adalah segitiga siku-siku dengan sisi tegak (yang berfungsi sebagai alas dan tinggi segitiga) 6 cm dan 8 cm.\nLuas alas segitiga $A_{\\text{alas}} = \\frac{1}{2} \\times \\text{alas segitiga} \\times \\text{tinggi segitiga} = \\frac{1}{2} \\times 6 \\text{ cm} \\times 8 \\text{ cm} = \\frac{1}{2} \\times 48 \\text{ cm}^2 = 24$ cm$^2$.\n\nTinggi prisma $h_{\\text{prisma}} = 10$ cm.\n\nVolume prisma $V = 24 \\text{ cm}^2 \\times 10 \\text{ cm} = 240$ cm$^3$."
-  },
-  {
-    "id": 17,
-    "pertanyaan": "Sebuah limas segiempat beraturan memiliki alas berbentuk persegi dengan panjang sisi 10 cm. Jika tinggi limas adalah 12 cm, maka luas permukaan limas tersebut adalah...",
-    "pilihan": [
-      "300 cm$^2$",
-      "320 cm$^2$",
-      "340 cm$^2$",
-      "360 cm$^2$",
-      "400 cm$^2$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Luas permukaan limas adalah jumlah dari luas alas dan luas seluruh sisi tegak (selimut).\n\n1.  **Luas Alas:**\n    Alas limas berbentuk persegi dengan sisi $s=10$ cm.\n    Luas alas $A_{\\text{alas}} = s^2 = 10^2 = 100$ cm$^2$.\n\n2.  **Luas Selimut (Sisi Tegak):**\n    Limas ini memiliki 4 sisi tegak yang berbentuk segitiga.\n    Untuk mencari luas satu segitiga selimut, kita perlu tinggi sisi tegak segitiga ($t_{\\text{sisi}}$), sering disebut apotema atau tinggi miring limas.\n    Tinggi limas $t=12$ cm.\n    Setengah panjang sisi alas adalah $s/2 = 10/2 = 5$ cm.\n    $t_{\\text{sisi}}$ adalah sisi miring dari segitiga siku-siku yang dibentuk oleh tinggi limas ($t$), setengah sisi alas ($s/2$), dan $t_{\\text{sisi}}$ itu sendiri. Menggunakan teorema Pythagoras:\n    $t_{\\text{sisi}} = \\sqrt{t^2 + (s/2)^2} = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$ cm.\n    Luas satu segitiga selimut $A_{\\text{segitiga}} = \\frac{1}{2} \\times \\text{alas segitiga} \\times t_{\\text{sisi}} = \\frac{1}{2} \\times 10 \\text{ cm} \\times 13 \\text{ cm} = 65$ cm$^2$.\n    Total luas selimut $A_{\\text{selimut}} = 4 \\times A_{\\text{segitiga}} = 4 \\times 65 = 260$ cm$^2$.\n\n3.  **Luas Permukaan Total:**\n    Luas permukaan total $A_{\\text{total}} = A_{\\text{alas}} + A_{\\text{selimut}} = 100 \\text{ cm}^2 + 260 \\text{ cm}^2 = 360$ cm$^2$."
-  },
-  {
-    "id": 18,
-    "pertanyaan": "Sebuah lingkaran memotong sebuah persegi pada empat titik, sehingga membentuk empat segmen yang sama. Jika jari-jari lingkaran adalah 5 cm dan sisi persegi adalah 8 cm, maka luas daerah yang tidak diarsir (yaitu area di dalam persegi tetapi di luar lingkaran) adalah...",
-    "pilihan": [
-      "$(64 - 25\\pi)$ cm$^2$",
-      "$(64 - 50\\pi)$ cm$^2$",
-      "$(25\\pi - 64)$ cm$^2$",
-      "$(100 - 25\\pi)$ cm$^2$",
-      "$(100 - 50\\pi)$ cm$^2$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "1.  **Hitung Luas Persegi:**\n    Sisi persegi adalah 8 cm.\n    Luas persegi $A_{\\text{persegi}} = \\text{sisi}^2 = 8^2 = 64$ cm$^2$.\n\n2.  **Hitung Luas Lingkaran:**\n    Jari-jari lingkaran adalah 5 cm.\n    Luas lingkaran $A_{\\text{lingkaran}} = \\pi r^2 = \\pi (5)^2 = 25\\pi$ cm$^2$.\n\n3.  **Interpretasi Soal dan Analisis Jawaban:**\n    Soal meminta 'luas daerah yang tidak diarsir (yaitu area di dalam persegi tetapi di luar lingkaran)'. Secara intuitif, ini berarti Luas Persegi dikurangi area lingkaran yang berada di dalam persegi.\n\n    Diameter lingkaran adalah $2 \\times 5 = 10$ cm. Karena sisi persegi hanya 8 cm, lingkaran ini lebih besar dari persegi. Ini berarti lingkaran tidak dapat sepenuhnya berada di dalam persegi.\n\n    Informasi 'memotong sebuah persegi pada empat titik, sehingga membentuk empat segmen yang sama' mengindikasikan bahwa lingkaran dan persegi kemungkinan besar memiliki pusat yang sama. Dalam skenario ini, lingkaran 'melampaui' batas-batas persegi.\n\n    Menghitung area irisan lingkaran dan persegi dalam kasus ini adalah proses yang kompleks yang melibatkan integral atau trigonometri, yang biasanya tidak diharapkan dalam soal pilihan ganda standar UTBK tanpa gambar yang jelas dan petunjuk spesifik.\n\n    **Namun, perhatikan pilihan jawaban yang diberikan.** Hampir semua pilihan adalah kombinasi sederhana dari Luas Persegi (64) dan Luas Lingkaran ($25\\pi$). Pilihan A adalah $(64 - 25\\pi)$. Ini adalah bentuk 'Luas Persegi - Luas Lingkaran'.\n\n    Dalam konteks soal ujian yang 'tricky', seringkali informasi tambahan (seperti diameter lingkaran yang lebih besar dari sisi persegi) berfungsi sebagai pengecoh. Soal mungkin hanya ingin menguji pemahaman dasar tentang 'area di dalam A tapi di luar B' sebagai $A - B$, mengabaikan implikasi geometris yang lebih rumit.\n\n    Oleh karena itu, interpretasi yang paling mungkin untuk soal pilihan ganda seperti ini adalah bahwa kita diharapkan untuk menghitung selisih antara luas persegi dan luas lingkaran secara langsung.\n\n    Area yang tidak diarsir $\approx A_{\\text{persegi}} - A_{\\text{lingkaran}} = 64 - 25\\pi$ cm$^2$."
-  },
-  {
-    "id": 19,
-    "pertanyaan": "Sebuah bola dimasukkan ke dalam sebuah kubus sedemikian rupa sehingga bola tersebut tepat menyentuh keenam sisi kubus. Jika volume kubus adalah 64 cm$^3$, maka volume bola adalah...",
-    "pilihan": [
-      "$16\\pi/3$ cm$^3$",
-      "$32\\pi/3$ cm$^3$",
-      "$64\\pi/3$ cm$^3$",
-      "$128\\pi/3$ cm$^3$",
-      "$256\\pi/3$ cm$^3$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Jika sebuah bola tepat menyentuh keenam sisi kubus, itu berarti diameter bola sama dengan panjang sisi kubus.\n\n1.  **Cari Panjang Sisi Kubus:**\n    Volume kubus $V_{\\text{kubus}} = s^3 = 64$ cm$^3$.\n    Panjang sisi kubus $s = \\sqrt[3]{64} = 4$ cm.\n\n2.  **Cari Jari-jari Bola:**\n    Diameter bola $d = s = 4$ cm.\n    Jari-jari bola $r = d/2 = 4/2 = 2$ cm.\n\n3.  **Hitung Volume Bola:**\n    Rumus volume bola adalah $V_{\\text{bola}} = \\frac{4}{3} \\pi r^3$.\n    $V_{\\text{bola}} = \\frac{4}{3} \\pi (2)^3 = \\frac{4}{3} \\pi (8) = \\frac{32\\pi}{3}$ cm$^3$."
-  },
-  {
-    "id": 20,
-    "pertanyaan": "Sebuah segitiga $ABC$ memiliki panjang sisi $AB=6$ cm, $BC=8$ cm, dan $AC=10$ cm. Luas lingkaran luar segitiga $ABC$ adalah...",
-    "pilihan": [
-      "$25\\pi$ cm$^2$",
-      "$50\\pi$ cm$^2$",
-      "$75\\pi$ cm$^2$",
-      "$100\\pi$ cm$^2$",
-      "$125\\pi$ cm$^2$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "1.  **Identifikasi Jenis Segitiga:**\n    Perhatikan panjang sisi-sisi segitiga: 6 cm, 8 cm, dan 10 cm. Kita bisa cek apakah ini adalah segitiga siku-siku menggunakan teorema Pythagoras ($a^2 + b^2 = c^2$).\n    $6^2 + 8^2 = 36 + 64 = 100$.\n    $10^2 = 100$.\n    Karena $6^2 + 8^2 = 10^2$, ini berarti segitiga $ABC$ adalah segitiga siku-siku, dengan sisi miring $AC=10$ cm.\n\n2.  **Tentukan Jari-jari Lingkaran Luar:**\n    Untuk segitiga siku-siku, pusat lingkaran luarnya adalah titik tengah dari sisi miring. Oleh karena itu, jari-jari lingkaran luar ($R$) adalah setengah dari panjang sisi miring.\n    $R = \\frac{1}{2} \\times AC = \\frac{1}{2} \\times 10 = 5$ cm.\n\n3.  **Hitung Luas Lingkaran Luar:**\n    Luas lingkaran luar $A_{\\text{lingkaran}} = \\pi R^2 = \\pi (5)^2 = 25\\pi$ cm$^2$."
+    "pembahasan": "Sisi tegak lainnya: $\\sqrt{13^2 - 5^2} = 12$ cm.\n\nLuas = $\\frac{1}{2} \\times 5 \\times 12 = 30$ cm$^2$."
   }
 ]
