@@ -61,56 +61,56 @@
       "subItems": [
         {
           "judul": "1. Definisi Dasar",
-          "teks": "Logaritma adalah invers dari eksponen. Jika $a^b = c$, maka $\\log_a c = b$.\nDibaca: \"logaritma $c$ basis $a$ adalah $b$\".\n\nNotasi:\n$a \\log c = b \\iff a^b = c$\n\nSyarat:\n$a > 0, a \\neq 1$\n$c > 0$\n\nLogaritma natural (ln): $\\ln x = \\log_e x$ dengan $e \\approx 2.718$\nLogaritma basis 10: Jika basis tidak ditulis, diasumsikan basis 10."
+          "teks": "Logaritma adalah invers dari eksponen. Jika $a^b = c$, maka $^a\\log c = b$.\nDibaca: \"logaritma $c$ basis $a$ adalah $b$\".\n\nNotasi:\n$a \\log c = b \\iff a^b = c$\n\nSyarat:\n$a > 0, a \\neq 1$\n$c > 0$\n\nLogaritma natural (ln): $\\ln x = ^e\\log x$ dengan $e \\approx 2.718$\nLogaritma basis 10: Jika basis tidak ditulis, diasumsikan basis 10."
         },
         {
           "judul": "2. Sifat-sifat Logaritma (WAJIB DIHAFAL DAN PAHAMI)",
           "subItems": [
             {
               "judul": "a log a = 1",
-              "teks": "$\\log_a a = 1$\nContoh: $\\log_5 5 = 1$"
+              "teks": "$^a\\log a = 1$\nContoh: $^5\\log 5 = 1$"
             },
             {
               "judul": "a log 1 = 0",
-              "teks": "$\\log_a 1 = 0$\nContoh: $\\log_7 1 = 0$"
+              "teks": "$^a\\log 1 = 0$\nContoh: $^7\\log 1 = 0$"
             },
             {
               "judul": "a log aⁿ = n",
-              "teks": "$\\log_a a^n = n$\nContoh: $\\log_2 2^5 = 5$"
+              "teks": "$^a\\log a^n = n$\nContoh: $^2\\log 2^5 = 5$"
             },
             {
               "judul": "a log (p×q) = a log p + a log q",
-              "teks": "$\\log_a (p \\times q) = \\log_a p + \\log_a q$\nContoh: $\\log_3 (9 \\times 27) = \\log_3 9 + \\log_3 27 = 2 + 3 = 5$"
+              "teks": "$^a\\log (p \\times q) = ^a\\log p + ^a\\log q$\nContoh: $^3\\log (9 \\times 27) = ^\\log 9 + ^3\\log 27 = 2 + 3 = 5$"
             },
             {
               "judul": "a log (p/q) = a log p − a log q",
-              "teks": "$\\log_a (p/q) = \\log_a p - \\log_a q$\nContoh: $\\log_2 (16/4) = \\log_2 16 - \\log_2 4 = 4 - 2 = 2$"
+              "teks": "$^a\\log (p/q) = ^a\\log p - ^a\\log q$\nContoh: $^2\\log (16/4) = ^2\\log 16 - ^2\\log 4 = 4 - 2 = 2$"
             },
             {
               "judul": "a log pⁿ = n × a log p",
-              "teks": "$\\log_a p^n = n \\times \\log_a p$\nContoh: $\\log_5 25^3 = 3 \\times \\log_5 25 = 3 \\times 2 = 6$"
+              "teks": "$^a\\log p^n = n \\times ^a\\log p$\nContoh: $&5\\log 25^3 = 3 \\times ^5\\log 25 = 3 \\times 2 = 6$"
             },
             {
               "judul": "Pergantian Basis",
-              "teks": "$\\log_a c = (\\log_p c) / (\\log_p a)$ (biasanya $p = 10$ atau $p = e$)\n\nImplikasi penting:\n$\\log_a c = 1 / \\log_c a$\n\nContoh: $\\log_2 5 = (\\log 5) / (\\log 2)$"
+              "teks": "$^a\\log c = (^p\\log c) / (^p\\log a)$ (biasanya $p = 10$ atau $p = e$)\n\nImplikasi penting:\n$^a\\log c = 1 / ^c\\log a$\n\nContoh: $^2\\log 5 = (\\log 5) / (\\log 2)$"
             },
             {
               "judul": "Sifat Rantai",
-              "teks": "$\\log_a b \\times \\log_b c = \\log_a c$\nContoh: $\\log_2 3 \\times \\log_3 8 = \\log_2 8 = 3$"
+              "teks": "$^a\\log b \\times ^b\\log c = ^a\\log c$\nContoh: $^2\\log 3 \\times ^3\\log 8 = ^2\\log 8 = 3$"
             },
             {
               "judul": "Pangkat Basis Logaritma",
-              "teks": "$a^{\\log_a c} = c$\nContoh: $7^{\\log_7 10} = 10$"
+              "teks": "$a^{^a\\log c} = c$\nContoh: $7^{^7\\log 10} = 10$"
             },
             {
               "judul": "a log bⁿ = (m/n) × a log b (jika basisnya a^m)",
-              "teks": "$\\log_{a^m} b^n = (n/m) \\times \\log_a b$\nContoh: $\\log_{2^3} 5^2 = (2/3) \\times \\log_2 5$"
+              "teks": "$^{a^m}\\log b^n = (n/m) \\times ^a\\log b$\nContoh: $^{2^3}\\log 5^2 = (2/3) \\times ^2\\log 5$"
             }
           ]
         },
         {
           "judul": "3. Persamaan Logaritma Sederhana",
-          "teks": "Jika $\\log_a f(x) = \\log_a g(x)$, maka $f(x) = g(x)$ (dengan syarat $f(x) > 0$ dan $g(x) > 0$).\nContoh: $\\log_3 (x+1) = \\log_3 7 \\implies x + 1 = 7 \\implies x = 6$ (cek $x+1>0$)\n\nJika $\\log_a f(x) = b$, maka $f(x) = a^b$ (dengan syarat $f(x) > 0$).\nContoh: $\\log_2 x = 3 \\implies x = 2^3 = 8$ (cek $x > 0$)"
+          "teks": "Jika $^2\\log f(x) = ^a\\log g(x)$, maka $f(x) = g(x)$ (dengan syarat $f(x) > 0$ dan $g(x) > 0$).\nContoh: $^3\\log (x+1) = ^3\\log 7 \\implies x + 1 = 7 \\implies x = 6$ (cek $x+1>0$)\n\nJika $^a\\log f(x) = b$, maka $f(x) = a^b$ (dengan syarat $f(x) > 0$).\nContoh: $^2\\log x = 3 \\implies x = 2^3 = 8$ (cek $x > 0$)"
         },
         {
           "judul": "Tips Belajar Logaritma",
