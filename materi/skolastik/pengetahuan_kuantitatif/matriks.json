@@ -7,15 +7,15 @@
       "subItems": [
         {
           "judul": "Ordo/Ukuran Matriks",
-          "teks": "Ordo menyatakan banyaknya baris ($m$) dan kolom ($n$) dalam matriks, ditulis $m \\times n$. Contoh: Matriks $A$ berordo $2 \\times 3$ berarti memiliki 2 baris dan 3 kolom."
+          "teks": "Ordo menyatakan banyaknya baris \\(m\\) dan kolom \\(n\\) dalam matriks, ditulis \\(m \\times n\\). Contoh: Matriks \\(A\\) berordo \\(2 \\times 3\\) berarti memiliki 2 baris dan 3 kolom."
         },
         {
           "judul": "Elemen Matriks",
-          "teks": "Angka-angka dalam matriks dilambangkan dengan $a_{ij}$, di mana $i$ adalah nomor baris dan $j$ adalah nomor kolom. Contoh: Jika $A = \\begin{bmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{bmatrix}$ maka $a_{11}=1$ dan $a_{23}=6$."
+          "teks": "Angka-angka dalam matriks dilambangkan dengan \\(a_{ij}\\), di mana \\(i\\) adalah nomor baris dan \\(j\\) adalah nomor kolom. Contoh: Jika \\(A = \\begin{bmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{bmatrix}\\) maka \\(a_{11}=1\\) dan \\(a_{23}=6\\)."
         },
         {
           "judul": "Jenis-jenis Matriks",
-          "teks": "- Matriks Baris: hanya 1 baris\n- Matriks Kolom: hanya 1 kolom\n- Matriks Persegi: jumlah baris = jumlah kolom ($m=n$)\n- Matriks Nol: semua elemen nol\n- Matriks Identitas ($I$): matriks persegi dengan diagonal utama 1, lainnya 0\n- Matriks Diagonal: matriks persegi dengan elemen selain diagonal utama nol\n- Matriks Segitiga Atas: elemen di bawah diagonal utama nol\n- Matriks Segitiga Bawah: elemen di atas diagonal utama nol"
+          "teks": "- Matriks Baris: hanya 1 baris\n- Matriks Kolom: hanya 1 kolom\n- Matriks Persegi: jumlah baris = jumlah kolom (\\(m=n\\))\n- Matriks Nol: semua elemen nol\n- Matriks Identitas (\\(I\\)): matriks persegi dengan diagonal utama 1, lainnya 0\n- Matriks Diagonal: matriks persegi dengan elemen selain diagonal utama nol\n- Matriks Segitiga Atas: elemen di bawah diagonal utama nol\n- Matriks Segitiga Bawah: elemen di atas diagonal utama nol"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "subItems": [
         {
           "judul": "Kesamaan Dua Matriks",
-          "teks": "Dua matriks $A$ dan $B$ dikatakan sama jika ordo sama dan setiap elemen yang bersesuaian sama ($a_{ij} = b_{ij}$)."
+          "teks": "Dua matriks \\(A\\) dan \\(B\\) dikatakan sama jika ordo sama dan setiap elemen yang bersesuaian sama (\\(a_{ij} = b_{ij}\\))."
         },
         {
           "judul": "Penjumlahan dan Pengurangan",
@@ -36,11 +36,11 @@
         },
         {
           "judul": "Perkalian Dua Matriks",
-          "teks": "Syarat: jumlah kolom matriks pertama = jumlah baris matriks kedua.\nJika $A$ berordo $m \\times p$ dan $B$ berordo $p \\times n$, hasil $C$ berordo $m \\times n$.\nCaranya: kalikan baris matriks pertama dengan kolom matriks kedua, lalu jumlahkan hasilnya.\nContoh: $$\\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix} \\times \\begin{bmatrix} 5 & 7 \\\\ 6 & 8 \\end{bmatrix} = \\begin{bmatrix} (1 \\times 5) + (3 \\times 6) & (1 \\times 7) + (3 \\times 8) \\\\ (2 \\times 5) + (4 \\times 6) & (2 \\times 7) + (4 \\times 8) \\end{bmatrix} = \\begin{bmatrix} 5+18 & 7+24 \\\\ 10+24 & 14+32 \\end{bmatrix} = \\begin{bmatrix} 23 & 31 \\\\ 34 & 46 \\end{bmatrix}$$\nPerkalian matriks tidak komutatif ($AB \\neq BA$)."
+          "teks": "Syarat: jumlah kolom matriks pertama = jumlah baris matriks kedua.\nJika \\(A\\) berordo \\(m \\times p\\) dan \\(B\\) berordo \\(p \\times n\\), hasil \\(C\\) berordo \\(m \\times n\\).\nCaranya: kalikan baris matriks pertama dengan kolom matriks kedua, lalu jumlahkan hasilnya.\nContoh: $$\\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix} \\times \\begin{bmatrix} 5 & 7 \\\\ 6 & 8 \\end{bmatrix} = \\begin{bmatrix} (1 \\times 5) + (3 \\times 6) & (1 \\times 7) + (3 \\times 8) \\\\ (2 \\times 5) + (4 \\times 6) & (2 \\times 7) + (4 \\times 8) \\end{bmatrix} = \\begin{bmatrix} 5+18 & 7+24 \\\\ 10+24 & 14+32 \\end{bmatrix} = \\begin{bmatrix} 23 & 31 \\\\ 34 & 46 \\end{bmatrix}$$\nPerkalian matriks tidak komutatif (\\(AB \\neq BA\\))."
         },
         {
           "judul": "Transpose Matriks ",
-          "teks": "Mengubah baris menjadi kolom dan kolom menjadi baris.\nContoh: Jika $A = \\begin{bmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{bmatrix}$, maka $A^T = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{bmatrix}$"
+          "teks": "Mengubah baris menjadi kolom dan kolom menjadi baris.\nContoh: Jika \\(A = \\begin{bmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{bmatrix}\\), maka \\(A^T = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{bmatrix}\\)"
         }
       ]
     },
@@ -49,15 +49,15 @@
       "subItems": [
         {
           "judul": "Determinan Ordo 2 x 2",
-          "teks": "Jika $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, maka $\\det(A) = ad - bc$.\nContoh: Jika $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 4 \\end{bmatrix}$, maka $\\det(A) = (2 \\times 4) - (3 \\times 1) = 8 - 3 = 5$."
+          "teks": "Jika \\(A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}\\), maka \\(\\det(A) = ad - bc\\).\nContoh: Jika \\(A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 4 \\end{bmatrix}\\), maka \\(\\det(A) = (2 \\times 4) - (3 \\times 1) = 8 - 3 = 5\\)."
         },
         {
           "judul": "Determinan Ordo 3 x 3 (Metode Sarrus)",
-          "teks": "Tuliskan kembali kolom 1 dan 2 di sebelah kanan matriks.\nKalikan elemen diagonal utama dan jumlahkan.\nKalikan elemen diagonal sekunder dan kurangkan.\nRumus: $\\det(A) = (a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32}) - (a_{13}a_{22}a_{31} + a_{11}a_{23}a_{32} + a_{12}a_{21}a_{33})$"
+          "teks": "Tuliskan kembali kolom 1 dan 2 di sebelah kanan matriks.\nKalikan elemen diagonal utama dan jumlahkan.\nKalikan elemen diagonal sekunder dan kurangkan.\nRumus: \\(\\det(A) = (a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32}) - (a_{13}a_{22}a_{31} + a_{11}a_{23}a_{32} + a_{12}a_{21}a_{33})\\)"
         },
         {
           "judul": "Sifat Determinan",
-          "teks": "- $\\det(A^T) = \\det(A)$\n- $\\det(AB) = \\det(A) \\times \\det(B)$\n- $\\det(kA) = k^n \\times \\det(A)$ untuk matriks $n \\times n$\n- Jika $\\det(A) = 0$, matriks disebut singular (tidak memiliki invers)"
+          "teks": "- \\(\\det(A^T) = \\det(A)\\)\n- \\(\\det(AB) = \\det(A) \\times \\det(B)\\)\n- \\(\\det(kA) = k^n \\times \\det(A)\\) untuk matriks \\(n \\times n\\)\n- Jika \\(\\det(A) = 0\\), matriks disebut singular (tidak memiliki invers)"
         }
       ]
     },
@@ -66,25 +66,25 @@
       "subItems": [
         {
           "judul": "Syarat Invers",
-          "teks": "Hanya matriks persegi yang tidak singular (determinannya $\\neq 0$) yang memiliki invers."
+          "teks": "Hanya matriks persegi yang tidak singular (determinannya \\(\\neq 0\\)) yang memiliki invers."
         },
         {
           "judul": "Invers Matriks Ordo 2 x 2",
-          "teks": "Jika $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, maka \n $A^{-1} = \\frac{1}{\\det(A)} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$\nContoh:\n Jika $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 4 \\end{bmatrix}$, $\\det(A) = 5$.\n$$A^{-1} = \\frac{1}{5} \\begin{bmatrix} 4 & -1 \\\\ -3 & 2 \\end{bmatrix} = \\begin{bmatrix} 4/5 & -1/5 \\\\ -3/5 & 2/5 \\end{bmatrix}$$"
+          "teks": "Jika \\(A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}\\), maka \n \\(A^{-1} = \\frac{1}{\\det(A)} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}\\)\nContoh:\n Jika \\(A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 4 \\end{bmatrix}\\), \\(\\det(A) = 5\\).\n$$A^{-1} = \\frac{1}{5} \\begin{bmatrix} 4 & -1 \\\\ -3 & 2 \\end{bmatrix} = \\begin{bmatrix} 4/5 & -1/5 \\\\ -3/5 & 2/5 \\end{bmatrix}$$"
         },
         {
           "judul": "Sifat Invers",
-          "teks": "- $A \\times A^{-1} = A^{-1} \\times A = I$ (matriks identitas)\n- $(A^{-1})^{-1} = A$\n- $(AB)^{-1} = B^{-1} \\times A^{-1}$\n- $(A^T)^{-1} = (A^{-1})^T$"
+          "teks": "- \\(A \\times A^{-1} = A^{-1} \\times A = I\\) (matriks identitas)\n- \\((A^{-1})^{-1} = A\\)\n- \\((AB)^{-1} = B^{-1} \\times A^{-1}\\)\n- \\((A^T)^{-1} = (A^{-1})^T\\)"
         }
       ]
     },
     {
       "judul": "5. Penggunaan Matriks dalam Sistem Persamaan Linear",
-      "teks": "Sistem persamaan linear dapat ditulis dalam bentuk matriks $AX = B$, di mana:\n- $A$: matriks koefisien\n- $X$: matriks variabel\n- $B$: matriks konstanta\nPenyelesaian: $X = A^{-1} \\times B$ (jika $A$ memiliki invers)."
+      "teks": "Sistem persamaan linear dapat ditulis dalam bentuk matriks \\(AX = B\\), di mana:\n- \\(A\\): matriks koefisien\n- \\(X\\): matriks variabel\n- \\(B\\): matriks konstanta\nPenyelesaian: \\(X = A^{-1} \\times B\\) (jika \\(A\\) memiliki invers)."
     },
     {
       "judul": "Tips Belajar Praktis",
-      "teks": "- Pahami konsep ordo dan elemen matriks\n- Latih perkalian matriks berulang kali, terutama konsep 'baris kali kolom'\n- Kuasai determinan $2 \\times 2$ dan rumus invers $2 \\times 2$\n- Perhatikan syarat operasi matriks: penjumlahan/pengurangan harus ordo sama, perkalian harus kolom matriks pertama = baris matriks kedua, invers hanya untuk matriks persegi dan determinan $\\neq 0$\n- Manfaatkan sifat determinan dan invers untuk mempercepat penyelesaian soal\n- Latih soal sistem persamaan linear menggunakan matriks\n- Teliti dan hati-hati dalam mengerjakan operasi matriks"
+      "teks": "- Pahami konsep ordo dan elemen matriks\n- Latih perkalian matriks berulang kali, terutama konsep 'baris kali kolom'\n- Kuasai determinan \\(2 \\times 2\\) dan rumus invers \\(2 \\times 2\\)\n- Perhatikan syarat operasi matriks: penjumlahan/pengurangan harus ordo sama, perkalian harus kolom matriks pertama = baris matriks kedua, invers hanya untuk matriks persegi dan determinan \\(\\neq 0\\)\n- Manfaatkan sifat determinan dan invers untuk mempercepat penyelesaian soal\n- Latih soal sistem persamaan linear menggunakan matriks\n- Teliti dan hati-hati dalam mengerjakan operasi matriks"
     }
   ]
 }
