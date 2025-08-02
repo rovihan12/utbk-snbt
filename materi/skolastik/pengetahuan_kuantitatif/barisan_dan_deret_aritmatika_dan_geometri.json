@@ -1,178 +1,90 @@
 {
-  "judul": "Statistika dan Peluang",
-  "deskripsi": "Statistika dan Peluang merupakan dua cabang penting dalam matematika yang sering diujikan dalam UTBK SNBT. Statistika berfokus pada pengumpulan, penyajian, dan analisis data, sedangkan Peluang mempelajari kemungkinan terjadinya suatu peristiwa.",
+  "judul": "Barisan dan Deret",
+  "deskripsi": "Barisan dan Deret adalah materi fundamental yang sering diujikan di UTBK SNBT. Materi ini menguji kemampuan kamu dalam mengenali pola bilangan dan menggunakan rumus untuk menyelesaikan masalah. Berikut adalah panduan lengkapnya, disertai contoh soal dan pembahasannya.",
   "subItems": [
     {
-      "judul": "1. Penyajian Data",
-      "teks": "Data dapat disajikan dalam berbagai bentuk agar mudah dipahami dan dianalisis.",
+      "judul": "1. Barisan dan Deret Aritmetika",
+      "teks": "Barisan aritmetika adalah susunan bilangan dengan selisih konstan antar suku yang berurutan. Selisih ini disebut **beda (b)**. Penjumlahan suku-suku barisan aritmetika disebut deret aritmetika.",
       "subItems": [
         {
-          "judul": "Tabel",
-          "teks": "Data disusun dalam baris dan kolom untuk mempermudah pembacaan dan perbandingan."
-        },
-        {
-          "judul": "Diagram/Grafik",
+          "judul": "Rumus-Rumus Penting",
           "subItems": [
             {
-              "judul": "Diagram Batang",
-              "teks": "Digunakan untuk membandingkan data antar kategori."
+              "judul": "Suku ke-n ($U_n$)",
+              "teks": "Suku ke-n dari barisan aritmetika dirumuskan sebagai:\n$$U_n = a + (n-1)b$$Dengan $a$ = suku pertama, $b$ = beda, dan $n$ = posisi suku."
             },
             {
-              "judul": "Diagram Garis",
-              "teks": "Menunjukkan tren atau perubahan data dari waktu ke waktu."
-            },
+              "judul": "Jumlah n Suku Pertama ($S_n$)",
+              "teks": "Jumlah n suku pertama deret aritmetika dirumuskan sebagai:\n$$S_n = \\frac{n}{2}(a+U_n)$$atau\n$$S_n = \\frac{n}{2}(2a+(n-1)b)$$"
+            }
+          ]
+        },
+        {
+          "judul": "Contoh Soal dan Pembahasan",
+          "teks": "Pada suatu barisan aritmetika, suku ke-3 adalah 15 dan suku ke-7 adalah 31. Tentukan suku ke-20 dan jumlah 10 suku pertamanya.",
+          "subItems": [
             {
-              "judul": "Diagram Lingkaran",
-              "teks": "Menunjukkan proporsi bagian terhadap keseluruhan (persentase)."
-            },
-            {
-              "judul": "Histogram",
-              "teks": "Digunakan untuk data berkelompok dengan batang-batang yang saling berimpit."
-            },
-            {
-              "judul": "Poligon Frekuensi",
-              "teks": "Garis yang menghubungkan titik tengah atas setiap batang pada histogram."
+              "judul": "Pembahasan",
+              "teks": "Diketahui:\n$U_3 = a + 2b = 15$  ... (1)\n$U_7 = a + 6b = 31$  ... (2)\n\nLangkah pertama, kita cari nilai beda ($b$) dengan mengeliminasi persamaan (1) dan (2):\n$(a + 6b) - (a + 2b) = 31 - 15$\n$4b = 16 \\Rightarrow b = 4$\n\nLangkah kedua, substitusi nilai $b=4$ ke persamaan (1) untuk mencari suku pertama ($a$):\n$a + 2(4) = 15$\n$a + 8 = 15 \\Rightarrow a = 7$\n\nLangkah ketiga, cari suku ke-20 ($U_{20}$) menggunakan rumus suku ke-n:\n$U_{20} = a + (20-1)b = 7 + 19(4) = 7 + 76 = 83$\n\nLangkah keempat, cari jumlah 10 suku pertama ($S_{10}$) menggunakan rumus jumlah n suku:\n$S_{10} = \\frac{10}{2}(2a + (10-1)b) = 5(2(7) + 9(4)) = 5(14+36) = 5(50) = 250$\n\nJadi, suku ke-20 adalah 83 dan jumlah 10 suku pertamanya adalah 250."
             }
           ]
         }
       ]
     },
     {
-      "judul": "2. Ukuran Pemusatan Data",
-      "teks": "Ukuran pemusatan menggambarkan nilai tengah atau nilai representatif dari suatu data.",
+      "judul": "2. Barisan dan Deret Geometri",
+      "teks": "Barisan geometri adalah susunan bilangan dengan rasio konstan antar suku yang berurutan. Rasio ini disebut **rasio (r)**. Penjumlahan suku-suku barisan geometri disebut deret geometri.",
       "subItems": [
         {
-          "judul": "Mean (Rata-rata)",
-          "teks": "Jumlah seluruh data dibagi banyaknya data. Rumusnya adalah:\n $\\bar{x} = \\frac{\\sum{x_i}}{n} $"
-        },
-        {
-          "judul": "Median (Nilai Tengah)",
-          "teks": "Nilai yang membagi data menjadi dua bagian sama besar setelah diurutkan."
-        },
-        {
-          "judul": "Modus",
-          "teks": "Nilai yang paling sering muncul dalam data."
-        }
-      ]
-    },
-    {
-      "judul": "3. Ukuran Letak Data (Kuantil)",
-      "subItems": [
-        {
-          "judul": "Kuartil",
-          "teks": "Membagi data menjadi 4 bagian yang sama besar \\((Q_1, Q_2, Q_3)\\). \\(Q_2\\) adalah Median."
-        },
-        {
-          "judul": "Desil",
-          "teks": "Membagi data menjadi 10 bagian yang sama besar."
-        },
-        {
-          "judul": "Persentil",
-          "teks": "Membagi data menjadi 100 bagian yang sama besar."
-        }
-      ]
-    },
-    {
-      "judul": "4. Ukuran Penyebaran Data",
-      "subItems": [
-        {
-          "judul": "Jangkauan",
-          "teks": "Selisih antara data terbesar dan terkecil \\( (R = X_{\\text{maks}} - X_{\\text{min}}) \\)."
-        },
-        {
-          "judul": "Jangkauan Interkuartil",
-          "teks": "Selisih antara kuartil ketiga \\( (Q_3) \\) dan kuartil pertama \\( (Q_1) \\). \\( (IQR = Q_3 - Q_1) \\)"
-        },
-        {
-          "judul": "Simpangan Kuartil",
-          "teks": "Setengah dari jangkauan interkuartil. \\( (QD = \\frac{1}{2}(Q_3 - Q_1)) \\)"
-        },
-        {
-          "judul": "Simpangan Rata-rata dan Variansi",
-          "teks": "Mengukur seberapa jauh data menyebar dari rata-ratanya. Variansi dilambangkan dengan \\( s^2 \\) atau \\( \\sigma^2 \\)."
-        },
-        {
-          "judul": "Simpangan Baku",
-          "teks": "Akar dari variansi, sering digunakan untuk menunjukkan sebaran data. Dilambangkan dengan \\( s \\) atau \\( \\sigma \\). Rumus simpangan baku populasi adalah:\n$ \\sigma = \\sqrt{\\frac{\\sum{(x_i - \\mu)^2}}{N}} $"
-        }
-      ]
-    },
-    {
-      "judul": "5. Peluang (Probabilitas)",
-      "teks": "Peluang digunakan untuk menghitung kemungkinan terjadinya suatu peristiwa.",
-      "subItems": [
-        {
-          "judul": "Konsep Dasar Peluang",
+          "judul": "Rumus-Rumus Penting",
           "subItems": [
             {
-              "judul": "Ruang Sampel (S)",
-              "teks": "Himpunan semua hasil yang mungkin dari suatu percobaan."
+              "judul": "Suku ke-n ($U_n$)",
+              "teks": "Suku ke-n dari barisan geometri dirumuskan sebagai:\n$$U_n = ar^{n-1}$$Dengan $a$ = suku pertama, $r$ = rasio, dan $n$ = posisi suku."
             },
             {
-              "judul": "Titik Sampel",
-              "teks": "Setiap elemen dalam ruang sampel."
+              "judul": "Jumlah n Suku Pertama ($S_n$)",
+              "teks": "Jumlah n suku pertama deret geometri dirumuskan sebagai:\n$$S_n = \\frac{a(r^n - 1)}{r-1} \\text{, jika } r > 1$$atau\n$$S_n = \\frac{a(1 - r^n)}{1-r} \\text{, jika } r < 1$$\n"
             },
             {
-              "judul": "Kejadian (E)",
-              "teks": "Himpunan bagian dari ruang sampel."
-            },
-            {
-              "judul": "Rumus Peluang",
-              "teks": "Peluang suatu kejadian \\( E \\) dirumuskan sebagai:\n$ P(E) = \\frac{n(E)}{n(S)} \\text{, dengan } 0 \\leq P(E) \\leq 1 $"
-            },
-            {
-              "judul": "Frekuensi Harapan",
-              "teks": "Hasil kali peluang suatu kejadian dengan banyaknya percobaan. Dirumuskan sebagai:\n$ F_h(E) = P(E) \\times N $ dengan \\( N \\) adalah banyaknya percobaan."
+              "judul": "Jumlah Deret Geometri Tak Hingga ($S_\\infty$)",
+              "teks": "Rumus ini hanya berlaku jika $-1 < r < 1$. Rumusnya adalah:\n$$S_\\infty = \\frac{a}{1-r}$$"
             }
           ]
         },
         {
-          "judul": "Kaidah Pencacahan",
+          "judul": "Contoh Soal dan Pembahasan",
+          "teks": "Suku pertama suatu deret geometri adalah 6 dan suku ke-4 adalah 48. Tentukan rasio deret tersebut dan jumlah 6 suku pertamanya.",
           "subItems": [
             {
-              "judul": "Aturan Perkalian",
-              "teks": "Jika suatu kejadian terdiri dari beberapa tahap, maka total cara = \\( n_1 \\times n_2 \\times \\dots \\times n_k \\)."
-            },
-            {
-              "judul": "Faktorial",
-              "teks": "Hasil kali berurutan dari \\( n \\) ke \\( 1 \\), dengan \\( 0! = 1 \\). Dirumuskan sebagai:\n$ n! = n \\times (n-1) \\times \\dots \\times 2 \\times 1 $"
-            },
-            {
-              "judul": "Permutasi",
-              "teks": "Susunan objek dengan memperhatikan urutan. Permutasi \\( k \\) objek dari \\( n \\) objek dirumuskan sebagai:\n$ P(n,k) = \\frac{n!}{(n-k)!} $"
-            },
-            {
-              "judul": "Kombinasi",
-              "teks": "Susunan objek tanpa memperhatikan urutan. Kombinasi \\( k \\) objek dari \\( n \\) objek dirumuskan sebagai:\n$ C(n,k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $"
-            }
-          ]
-        },
-        {
-          "judul": "Kejadian Majemuk",
-          "subItems": [
-            {
-              "judul": "Komplemen",
-              "teks": "Peluang komplemen suatu kejadian \\( E \\) dirumuskan sebagai:\n$ P(E^c) = 1 - P(E) $"
-            },
-            {
-              "judul": "Gabungan Kejadian (\\( A \\cup B \\))",
-              "teks": "Peluang gabungan dua kejadian \\( A \\) dan \\( B \\) dirumuskan sebagai:\n$ P(A \\cup B) = P(A) + P(B) - P(A \\cap B) $"
-            },
-            {
-              "judul": "Saling Bebas",
-              "teks": "Jika kejadian \\( A \\) dan \\( B \\) saling bebas, maka peluang irisan keduanya dirumuskan sebagai:\n$ P(A \\cap B) = P(A) \\times P(B) $"
-            },
-            {
-              "judul": "Kejadian Bersyarat",
-              "teks": "Peluang kejadian \\( A \\) dengan syarat kejadian \\( B \\) telah terjadi, dirumuskan sebagai:\n$ P(A|B) = \\frac{P(A \\cap B)}{P(B)} $ sehingga $\\( P(A \\cap B) = P(B) \\times P(A|B) \\).$"
+              "judul": "Pembahasan",
+              "teks": "Diketahui:\n$a = 6$\n$U_4 = 48$\n\nLangkah pertama, gunakan rumus suku ke-n untuk mencari rasio ($r$):\n$U_4 = ar^{4-1} = ar^3$\n$48 = 6r^3$\n$r^3 = \\frac{48}{6} = 8$\n$r = \\sqrt[3]{8} \\Rightarrow r = 2$\n\nLangkah kedua, cari jumlah 6 suku pertama ($S_6$) menggunakan rumus jumlah n suku:\nKarena $r = 2 > 1$, kita gunakan rumus $S_n = \\frac{a(r^n - 1)}{r-1}$.\n$S_6 = \\frac{6(2^6-1)}{2-1} = \\frac{6(64-1)}{1} = 6(63) = 378$\n\nJadi, rasio deret tersebut adalah 2 dan jumlah 6 suku pertamanya adalah 378."
             }
           ]
         }
       ]
     },
     {
-      "judul": "6. Strategi Belajar Statistika dan Peluang",
-      "teks": "- Pahami konsep terlebih dahulu sebelum menghafal rumus.\n- Gunakan contoh nyata dan visualisasi (diagram, grafik) untuk memahami data.\n- Sering latihan soal, terutama soal cerita dan interpretasi data.\n- Identifikasi informasi yang diberikan dan tentukan metode yang paling sesuai.\n- Teliti dalam penghitungan angka dan logika peluang."
+      "judul": "3. Tips dan Strategi Mengerjakan Soal",
+      "teks": "Mengerjakan soal UTBK memerlukan strategi yang tepat. Berikut adalah beberapa tips untuk memaksimalkan nilaimu:",
+      "subItems": [
+        {
+          "judul": "Analisis Soal Cerita",
+          "teks": "Jangan panik saat melihat soal cerita yang panjang. Fokus pada kata kunci seperti **'bertambah tetap'** atau **'berkurang tetap'** (untuk aritmetika) dan **'melipatgandakan'** atau **'sepersekian dari sebelumnya'** (untuk geometri). Ubah informasi tersebut menjadi variabel ($a$, $b$, $r$, $U_n$, atau $S_n$) sebelum mulai menghitung."
+        },
+        {
+          "judul": "Perhatikan Pilihan Jawaban",
+          "teks": "Terkadang, kamu bisa menemukan jawaban dengan mencoba-coba pilihan jawaban yang ada, terutama untuk soal-soal yang tidak terlalu kompleks. Ini bisa menghemat waktu."
+        },
+        {
+          "judul": "Latihan Kombinasi",
+          "teks": "Sering kali soal UTBK menggabungkan konsep aritmetika dan geometri dalam satu soal. Misalnya, suku-suku suatu barisan aritmetika juga membentuk barisan geometri. Latihlah soal-soal jenis ini untuk meningkatkan pemahamanmu."
+        },
+        {
+          "judul": "Pahami Sifat-Sifat Barisan",
+          "teks": "Untuk barisan aritmetika, $U_n = \\frac{U_{n-k} + U_{n+k}}{2}$. Untuk barisan geometri, $U_n = \\sqrt{U_{n-k} \\times U_{n+k}}$. Memahami sifat ini dapat mempermudah pengerjaan soal tertentu."
+        }
+      ]
     }
   ]
 }
