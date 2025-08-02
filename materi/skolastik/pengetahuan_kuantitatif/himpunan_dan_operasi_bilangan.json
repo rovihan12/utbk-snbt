@@ -19,7 +19,7 @@
         },
         {
           "judul": "4. Diagram Venn dan Sifat Operasi",
-          "teks": "Diagram Venn: Representasi visual himpunan dan operasinya.\nSifat-sifat:\n- Komutatif: $A \\cup B = B \\cup A$, $A \\cap B = B \\cap A$\n- Asosiatif: $(A \\cup B) \\cup C = A \\cup (B \\cup C)$, $(A \\cap B) \\cap C = A \\cap (B \\cap C)$\n- Distributif: $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$, $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$\n- Identitas: $A \\cup \\emptyset = A$, $A \\cap S = A$\n- Komplemen: $A \\cup A^c = S$, $A \\cap A^c = \\emptyset$\n- Hukum De Morgan: $(A \\cup B)^c = A^c \\cap B^c$, $(A \\cap B)^c = A^c \\cup B^c$"
+          "teks": "Diagram Venn: Representasi visual himpunan dan operasinya.\nSifat-sifat:\n- Komutatif: \n $A \\cup B = B \\cup A$, $A \\cap B = B \\cap A$\n- Asosiatif: \n $(A \\cup B) \\cup C = A \\cup (B \\cup C)$, $(A \\cap B) \\cap C = A \\cap (B \\cap C)$\n- Distributif: \n $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$, $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$\n- Identitas: \n $A \\cup \\emptyset = A$, $A \\cap S = A$\n- Komplemen:\n $A \\cup A^c = S$, $A \\cap A^c = \\emptyset$\n- Hukum De Morgan: $(A \\cup B)^c = A^c \\cap B^c$, $(A \\cap B)^c = A^c \\cup B^c$"
         }
       ]
     },
@@ -28,15 +28,15 @@
       "subItems": [
         {
           "judul": "1. Jenis-jenis Bilangan",
-          "teks": "- Bilangan Asli ($N=\\{1,2,3,...\\}$)\n- Bilangan Cacah ($W=\\{0,1,2,3,...\\}$)\n- Bilangan Bulat ($Z=\\{...,-2,-1,0,1,2,...\\}$)\n- Bilangan Rasional ($Q=\\{p/q \\mid p,q \\in Z, q \\neq 0\\}$)\n- Bilangan Irrasional (tidak dapat dinyatakan sebagai pecahan)\n- Bilangan Real ($R$)"
+          "teks": "- Bilangan Asli \n ($N=\\{1,2,3,...\\}$)\n- Bilangan Cacah \n ($W=\\{0,1,2,3,...\\}$)\n- Bilangan Bulat \n ($Z=\\{...,-2,-1,0,1,2,...\\}$)\n- Bilangan Rasional \n ($Q=\\{p/q \\mid p,q \\in Z, q \\neq 0\\}$)\n- Bilangan Irrasional \n (tidak dapat dinyatakan sebagai pecahan)\n- Bilangan Real ($R$)"
         },
         {
           "judul": "2. Sifat-sifat Operasi Bilangan",
-          "teks": "- Komutatif: $a+b = b+a$, $a \\times b = b \\times a$\n- Asosiatif: $(a+b)+c = a+(b+c)$, $(a \\times b) \\times c = a \\times (b \\times c)$\n- Distributif: $a \\times (b+c) = a \\times b + a \\times c$\n- Identitas: Penjumlahan: $a+0 = a$, Perkalian: $a \\times 1 = a$\n- Invers: Penjumlahan: $a + (-a) = 0$, Perkalian: $a \\times (1/a) = 1$ ($a \\neq 0$)"
+          "teks": "- Komutatif: \n $a+b = b+a$, $a \\times b = b \\times a$\n- Asosiatif: \n $(a+b)+c = a+(b+c)$, $(a \\times b) \\times c = a \\times (b \\times c)$\n- Distributif: \n $a \\times (b+c) = a \\times b + a \\times c$\n- Identitas: Penjumlahan: \n $a+0 = a$, Perkalian: $a \\times 1 = a$\n- Invers: Penjumlahan: $a + (-a) = 0$, Perkalian: \n $a \\times (1/a) = 1$ ($a \\neq 0$)"
         },
         {
           "judul": "3. Operasi dengan Pecahan",
-          "teks": "- Penjumlahan, pengurangan, perkalian, dan pembagian pecahan.\n- Samakan penyebut saat menjumlahkan/mengurangkan."
+          "teks": "- Penjumlahan, pengurangan, perkalian, dan pembagian pecahan.\n- Samakan penyebut saat menjumlahkan/mengurangkan.\n"
         },
         {
           "judul": "4. Operasi dengan Desimal",
@@ -65,7 +65,7 @@
         },
         {
           "judul": "2. Soal Pecahan",
-          "teks": "Sederhanakan: $2/3 + 1/4 - 5/6$\n$\\to$ Samakan penyebut: $8/12 + 3/12 - 10/12 = 1/12$"
+          "teks": "Sederhanakan: $2/3 + 1/4 - 5/6$\n$\\to$ Samakan penyebut: \n $8/12 + 3/12 - 10/12 = 1/12$"
         },
         {
           "judul": "3. Soal Eksponen",
