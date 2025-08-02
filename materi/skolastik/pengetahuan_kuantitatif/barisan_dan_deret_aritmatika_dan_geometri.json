@@ -43,7 +43,7 @@
       "subItems": [
         {
           "judul": "Mean (Rata-rata)",
-          "teks": "Jumlah seluruh data dibagi banyaknya data. Rumusnya adalah:\n$$ \\bar{x} = \\frac{\\sum x_i}{n} $$"
+          "teks": "Jumlah seluruh data dibagi banyaknya data. Rumusnya adalah:\n$$ \\bar{x} = \\frac{\\sum{x_i}}{n} $$"
         },
         {
           "judul": "Median (Nilai Tengah)",
@@ -60,7 +60,7 @@
       "subItems": [
         {
           "judul": "Kuartil",
-          "teks": "Membagi data menjadi 4 bagian yang sama besar ($Q_1$, $Q_2$, $Q_3$). $Q_2$ adalah Median."
+          "teks": "Membagi data menjadi 4 bagian yang sama besar \\((Q_1, Q_2, Q_3)\\). \\(Q_2\\) adalah Median."
         },
         {
           "judul": "Desil",
@@ -77,23 +77,23 @@
       "subItems": [
         {
           "judul": "Jangkauan",
-          "teks": "Selisih antara data terbesar dan terkecil ($R = X_{maks} - X_{min}$)."
+          "teks": "Selisih antara data terbesar dan terkecil \\( (R = X_{\\text{maks}} - X_{\\text{min}}) \\)."
         },
         {
           "judul": "Jangkauan Interkuartil",
-          "teks": "Selisih antara kuartil ketiga ($Q_3$) dan kuartil pertama ($Q_1$). ($IQR = Q_3 - Q_1$)"
+          "teks": "Selisih antara kuartil ketiga \\( (Q_3) \\) dan kuartil pertama \\( (Q_1) \\). \\( (IQR = Q_3 - Q_1) \\)"
         },
         {
           "judul": "Simpangan Kuartil",
-          "teks": "Setengah dari jangkauan interkuartil. ($QD = \\frac{1}{2} (Q_3 - Q_1)$)."
+          "teks": "Setengah dari jangkauan interkuartil. \\( (QD = \\frac{1}{2}(Q_3 - Q_1)) \\)"
         },
         {
           "judul": "Simpangan Rata-rata dan Variansi",
-          "teks": "Mengukur seberapa jauh data menyebar dari rata-ratanya. Variansi dilambangkan dengan $s^2$ atau $\\sigma^2$."
+          "teks": "Mengukur seberapa jauh data menyebar dari rata-ratanya. Variansi dilambangkan dengan \\( s^2 \\) atau \\( \\sigma^2 \\)."
         },
         {
           "judul": "Simpangan Baku",
-          "teks": "Akar dari variansi, sering digunakan untuk menunjukkan sebaran data. Dilambangkan dengan $s$ atau $\\sigma$. Rumus simpangan baku populasi adalah:\n$$ \\sigma = \\sqrt{\\frac{\\sum (x_i - \\mu)^2}{N}} $$"
+          "teks": "Akar dari variansi, sering digunakan untuk menunjukkan sebaran data. Dilambangkan dengan \\( s \\) atau \\( \\sigma \\). Rumus simpangan baku populasi adalah:\n$$ \\sigma = \\sqrt{\\frac{\\sum{(x_i - \\mu)^2}}{N}} $$"
         }
       ]
     },
@@ -118,11 +118,11 @@
             },
             {
               "judul": "Rumus Peluang",
-              "teks": "Peluang suatu kejadian $E$ dirumuskan sebagai:\n$$ P(E) = \\frac{n(E)}{n(S)} \\text{, dengan } 0 \\le P(E) \\le 1 $$"
+              "teks": "Peluang suatu kejadian \\( E \\) dirumuskan sebagai:\n$$ P(E) = \\frac{n(E)}{n(S)} \\text{, dengan } 0 \\leq P(E) \\leq 1 $$"
             },
             {
               "judul": "Frekuensi Harapan",
-              "teks": "Hasil kali peluang suatu kejadian dengan banyaknya percobaan. Dirumuskan sebagai:\n$$ F_h(E) = P(E) \\times N $$ dengan $N$ adalah banyaknya percobaan."
+              "teks": "Hasil kali peluang suatu kejadian dengan banyaknya percobaan. Dirumuskan sebagai:\n$$ F_h(E) = P(E) \\times N $$ dengan \\( N \\) adalah banyaknya percobaan."
             }
           ]
         },
@@ -131,19 +131,19 @@
           "subItems": [
             {
               "judul": "Aturan Perkalian",
-              "teks": "Jika suatu kejadian terdiri dari beberapa tahap, maka total cara = $n_1 \\times n_2 \\times \\dots \\times n_k$."
+              "teks": "Jika suatu kejadian terdiri dari beberapa tahap, maka total cara = \\( n_1 \\times n_2 \\times \\dots \\times n_k \\)."
             },
             {
               "judul": "Faktorial",
-              "teks": "Hasil kali berurutan dari $n$ ke $1$, dengan $0! = 1$. Dirumuskan sebagai:\n$$ n! = n \\times (n-1) \\times \\dots \\times 2 \\times 1 $$"
+              "teks": "Hasil kali berurutan dari \\( n \\) ke \\( 1 \\), dengan \\( 0! = 1 \\). Dirumuskan sebagai:\n$$ n! = n \\times (n-1) \\times \\dots \\times 2 \\times 1 $$"
             },
             {
               "judul": "Permutasi",
-              "teks": "Susunan objek dengan memperhatikan urutan. Permutasi $k$ objek dari $n$ objek dirumuskan sebagai:\n$$ P(n,k) = \\frac{n!}{(n-k)!} $$"
+              "teks": "Susunan objek dengan memperhatikan urutan. Permutasi \\( k \\) objek dari \\( n \\) objek dirumuskan sebagai:\n$$ P(n,k) = \\frac{n!}{(n-k)!} $$"
             },
             {
               "judul": "Kombinasi",
-              "teks": "Susunan objek tanpa memperhatikan urutan. Kombinasi $k$ objek dari $n$ objek dirumuskan sebagai:\n$$ C(n,k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $$"
+              "teks": "Susunan objek tanpa memperhatikan urutan. Kombinasi \\( k \\) objek dari \\( n \\) objek dirumuskan sebagai:\n$$ C(n,k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $$"
             }
           ]
         },
@@ -152,19 +152,19 @@
           "subItems": [
             {
               "judul": "Komplemen",
-              "teks": "Peluang komplemen suatu kejadian $E$ dirumuskan sebagai:\n$$ P(E^c) = 1 - P(E) $$"
+              "teks": "Peluang komplemen suatu kejadian \\( E \\) dirumuskan sebagai:\n$$ P(E^c) = 1 - P(E) $$"
             },
             {
-              "judul": "Gabungan Kejadian ($A \\cup B$)",
-              "teks": "Peluang gabungan dua kejadian $A$ dan $B$ dirumuskan sebagai:\n$$ P(A \\cup B) = P(A) + P(B) - P(A \\cap B) $$"
+              "judul": "Gabungan Kejadian (\\( A \\cup B \\))",
+              "teks": "Peluang gabungan dua kejadian \\( A \\) dan \\( B \\) dirumuskan sebagai:\n$$ P(A \\cup B) = P(A) + P(B) - P(A \\cap B) $$"
             },
             {
               "judul": "Saling Bebas",
-              "teks": "Jika kejadian $A$ dan $B$ saling bebas, maka peluang irisan keduanya dirumuskan sebagai:\n$$ P(A \\cap B) = P(A) \\times P(B) $$"
+              "teks": "Jika kejadian \\( A \\) dan \\( B \\) saling bebas, maka peluang irisan keduanya dirumuskan sebagai:\n$$ P(A \\cap B) = P(A) \\times P(B) $$"
             },
             {
               "judul": "Kejadian Bersyarat",
-              "teks": "Peluang kejadian $A$ dengan syarat kejadian $B$ telah terjadi, dirumuskan sebagai:\n$$ P(A|B) = \\frac{P(A \\cap B)}{P(B)} $$ sehingga $P(A \\cap B) = P(B) \\times P(A|B)$."
+              "teks": "Peluang kejadian \\( A \\) dengan syarat kejadian \\( B \\) telah terjadi, dirumuskan sebagai:\n$$ P(A|B) = \\frac{P(A \\cap B)}{P(B)} $$ sehingga \\( P(A \\cap B) = P(B) \\times P(A|B) \\)."
             }
           ]
         }
