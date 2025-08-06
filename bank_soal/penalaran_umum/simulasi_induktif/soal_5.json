@@ -1,72 +1,132 @@
 [
   {
     "id": 41,
-    "pertanyaan": "Observasi 1: Setiap kali alarm kebakaran berbunyi di gedung ini, ada latihan evakuasi.\nObservasi 2: Alarm kebakaran baru saja berbunyi.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Ini pasti kebakaran sungguhan.", "Tidak ada latihan evakuasi hari ini.", "Kemungkinan besar akan ada latihan evakuasi.", "Alarm kebakaran selalu berbunyi untuk latihan.", "Alarm kebakaran tidak berfungsi dengan baik."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan pola yang konsisten, berbunyinya alarm kebakaran di gedung tersebut selalu diikuti oleh latihan evakuasi. Oleh karena itu, secara induktif, berbunyinya alarm lagi kemungkinan besar menandakan latihan evakuasi."
+    "pertanyaan": "Pola deret angka: 5, 2, 8, 4, 11, 8, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "12",
+      "14",
+      "15",
+      "16",
+      "22"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Pola pertama (posisi ganjil):** Angka bertambah 3 secara berurutan ($5 \to 8 \to 11$). Angka berikutnya adalah $11+3=14$.\n2.  **Pola kedua (posisi genap):** Angka dikalikan 2 secara berurutan ($2 \to 4 \to 8$).\nKarena yang dicari adalah angka berikutnya setelah '8', maka kita harus melanjutkan pola pertama, yaitu $11+3 = 14$."
   },
   {
     "id": 42,
-    "pertanyaan": "Pola angka: $1, 2, 3, 5, 8, 13, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
-    "pilihan": ["18", "20", "21", "24", "26"],
+    "pertanyaan": "Observasi: Setiap kali sebuah inovasi teknologi baru diluncurkan, ada lonjakan harga saham perusahaan terkait, diikuti oleh penurunan harga setelah 6 bulan.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Harga saham perusahaan terkait pasti akan turun setelah 6 bulan setiap kali inovasi baru diluncurkan.",
+      "Kenaikan harga saham awal adalah satu-satunya penyebab penurunan harga saham berikutnya.",
+      "Inovasi teknologi memiliki kemungkinan besar menciptakan siklus harga saham 'naik-turun' dalam jangka pendek.",
+      "Inovasi teknologi tidak memiliki pengaruh jangka panjang pada harga saham.",
+      "Penurunan harga saham menyebabkan peluncuran inovasi teknologi."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah deret Fibonacci, di mana setiap angka adalah jumlah dari dua angka sebelumnya. Jadi, $8 + 13 = 21$."
+    "pembahasan": "Observasi menunjukkan pola yang konsisten, yaitu siklus kenaikan dan penurunan harga saham setelah inovasi. Kesimpulan induktif yang paling kuat adalah menyimpulkan bahwa ada siklus yang mungkin terjadi, tanpa mengklaim kepastian mutlak ('pasti') atau hubungan kausalitas tunggal ('satu-satunya'). Pilihan C secara tepat menggambarkan pola ini sebagai 'kemungkinan besar'."
   },
   {
     "id": 43,
-    "pertanyaan": "Pengamatan: Sebagian besar siswa yang mengikuti klub debat menunjukkan peningkatan kemampuan berbicara di depan umum.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Klub debat adalah satu-satunya cara untuk meningkatkan kemampuan berbicara.", "Klub debat tidak efektif.", "Klub debat kemungkinan besar membantu meningkatkan kemampuan berbicara di depan umum.", "Siswa yang tidak ikut klub debat tidak bisa berbicara di depan umum.", "Kemampuan berbicara tidak bisa ditingkatkan."],
-    "jawaban": "C",
-    "pembahasan": "Dengan sebagian besar anggota klub menunjukkan peningkatan, disimpulkan bahwa klub debat kemungkinan besar berkontribusi pada peningkatan kemampuan tersebut. Ini adalah kesimpulan probabilistik, bukan kepastian mutlak."
+    "pertanyaan": "Pola deret huruf: A, Z, B, Y, C, X, ...\n\nHuruf berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "D",
+      "W",
+      "D, W",
+      "E, V",
+      "D, V"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Pola pertama:** Huruf-huruf berurutan maju dari awal abjad (A, B, C, D).\n2.  **Pola kedua:** Huruf-huruf berurutan mundur dari akhir abjad (Z, Y, X, W).\nMaka, elemen berikutnya dalam pola pertama adalah D dan elemen berikutnya dalam pola kedua adalah W. Gabungan keduanya adalah D, W."
   },
   {
     "id": 44,
-    "pertanyaan": "Pola gambar: $/, \\backslash, /, \\backslash, $\nSimbol selanjutnya dalam pola ini adalah...",
-    "pilihan": ["$", "\\backslash$", "$/$", "$||$", "$=$"],
-    "jawaban": "C",
-    "pembahasan": "Pola ini adalah urutan bergantian antara garis miring ke kanan (/) dan garis miring ke kiri (\\\\). Setelah garis miring ke kiri (\\\\), simbol selanjutnya adalah garis miring ke kanan (/)."
+    "pertanyaan": "Premis: Semua karyawan di divisi A adalah insinyur. Sebagian insinyur memiliki sertifikasi profesional.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
+    "pilihan": [
+      "Semua karyawan di divisi A memiliki sertifikasi profesional.",
+      "Beberapa karyawan di divisi A memiliki sertifikasi profesional.",
+      "Sertifikasi profesional adalah syarat untuk bekerja di divisi A.",
+      "Hanya insinyur yang memiliki sertifikasi profesional.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Dari premis pertama, kita tahu bahwa 'karyawan di divisi A' adalah sub-kelompok dari 'insinyur'. Premis kedua menyatakan bahwa hanya 'sebagian' insinyur yang memiliki sertifikasi profesional. Logikanya, sub-kelompok 'karyawan di divisi A' juga akan menjadi 'sebagian' dari insinyur yang memiliki sertifikasi. Maka, kesimpulan yang paling mungkin adalah 'Beberapa karyawan di divisi A memiliki sertifikasi profesional'."
   },
   {
     "id": 45,
-    "pertanyaan": "Dalam lima survei terakhir, setiap kali gaji karyawan dinaikkan, produktivitas perusahaan juga meningkat.\n\nKesimpulan induktif yang paling kuat adalah...",
-    "pilihan": ["Kenaikan gaji pasti menyebabkan peningkatan produktivitas.", "Kenaikan gaji tidak ada hubungannya dengan produktivitas.", "Sangat mungkin ada hubungan positif antara kenaikan gaji dan peningkatan produktivitas.", "Produktivitas hanya meningkat jika gaji dinaikkan.", "Survei ini tidak dapat dipercaya."],
+    "pertanyaan": "Pola deret angka: 4, 9, 16, 25, 36, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "45",
+      "47",
+      "49",
+      "54",
+      "64"
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari pola yang konsisten, disimpulkan secara induktif bahwa ada kemungkinan besar hubungan positif antara kenaikan gaji dan peningkatan produktivitas, meskipun tidak secara mutlak mengklaim kausalitas langsung."
+    "pembahasan": "Pola deret ini adalah bilangan kuadrat dari bilangan bulat yang berurutan, dimulai dari 2. Polanya adalah $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$, $6^2=36$. Maka, angka berikutnya adalah $7^2=49$."
   },
   {
     "id": 46,
-    "pertanyaan": "Pola kombinasi: $\\text{A1, B2, C3, D4, \\dots}$\nKombinasi selanjutnya dalam pola ini adalah...",
-    "pilihan": ["E4", "E5", "F5", "G6", "H7"],
+    "pertanyaan": "Observasi: Setiap kali sebuah kota mengimplementasikan sistem transportasi publik baru, terjadi peningkatan ekonomi lokal dalam 1-2 tahun berikutnya, dan jumlah penggunaan kendaraan pribadi menurun.\n\nKesimpulan induktif yang paling rasional adalah...",
+    "pilihan": [
+      "Sistem transportasi publik adalah satu-satunya pendorong ekonomi dan penurunan kendaraan pribadi.",
+      "Ada kemungkinan besar bahwa sistem transportasi publik baru dapat menjadi faktor pendorong ekonomi dan mengurangi penggunaan kendaraan pribadi.",
+      "Peningkatan ekonomi menyebabkan kota mengimplementasikan sistem transportasi publik baru.",
+      "Peningkatan ekonomi dan penurunan kendaraan pribadi tidak memiliki hubungan.",
+      "Korelasi ini tidak bisa digeneralisasi untuk kota lain."
+    ],
     "jawaban": "B",
-    "pembahasan": "Pola ini menggabungkan urutan huruf abjad maju (A, B, C, D, E, ...) dengan urutan angka bertambah 1 (1, 2, 3, 4, 5, ...). Jadi, setelah D4, huruf selanjutnya adalah E dan angka selanjutnya adalah 5, menjadi E5."
+    "pembahasan": "Observasi menunjukkan korelasi yang konsisten antara tiga fenomena: implementasi transportasi publik, pertumbuhan ekonomi, dan penurunan kendaraan pribadi. Kesimpulan yang paling rasional dan hati-hati dalam penalaran induktif adalah mengakui 'kemungkinan besar' adanya hubungan ini, tanpa mengklaim kausalitas yang mutlak atau tunggal. Pilihan B paling sesuai dengan prinsip ini."
   },
   {
     "id": 47,
-    "pertanyaan": "Setiap kali toko roti A membuat roti tawar, mereka selalu habis terjual dalam satu jam. Hal ini terjadi setiap hari selama sebulan terakhir.\n\nKesimpulan induktif yang paling logis adalah...",
-    "pilihan": ["Roti tawar toko A selalu habis dalam satu jam.", "Toko roti A harus membuat lebih banyak roti tawar.", "Kemungkinan besar roti tawar toko A akan terus habis terjual dengan cepat.", "Tidak ada roti tawar lain yang enak di kota ini.", "Permintaan roti tawar akan menurun."],
+    "pertanyaan": "Pola deret angka: 1, 3, 7, 15, 31, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "55",
+      "60",
+      "63",
+      "65",
+      "68"
+    ],
     "jawaban": "C",
-    "pembahasan": "Berdasarkan pola yang sangat konsisten, disimpulkan secara induktif bahwa kecenderungan roti tawar toko A habis terjual dengan cepat kemungkinan besar akan terus berlanjut. Ini adalah generalisasi probabilistik."
+    "pembahasan": "Pola deret ini adalah $2^n-1$ atau setiap angka dikalikan 2 lalu ditambah 1. Polanya adalah:\n$1 \times 2 + 1 = 3$\n$3 \times 2 + 1 = 7$\n$7 \times 2 + 1 = 15$\n$15 \times 2 + 1 = 31$\nMaka, angka berikutnya adalah $31 \times 2 + 1 = 62+1 = 63$."
   },
   {
     "id": 48,
-    "pertanyaan": "Pola: $1 \\leftarrow, 2 \\rightarrow, 3 \\leftarrow, 4 \\rightarrow, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
-    "pilihan": ["$5 \\leftarrow$", "$5 \\rightarrow$", "$6 \\leftarrow$", "$6 \\rightarrow$", "$7 \\leftarrow$"],
-    "jawaban": "A",
-    "pembahasan": "Pola ini menggabungkan urutan angka bertambah 1 (1, 2, 3, 4, 5, ...) dengan arah panah yang bergantian (kiri, kanan, kiri, kanan, kiri, ...). Jadi, setelah $4 \\rightarrow$, angka selanjutnya adalah 5 dan panahnya ke kiri, menjadi $5 \\leftarrow$."
+    "pertanyaan": "Premis 1: Semua atlet yang memenangkan medali emas adalah atlet elit.\nPremis 2: Semua atlet elit memiliki program latihan yang ketat.\nPremis 3: Sebagian atlet dengan program latihan yang ketat adalah atlet berprestasi tinggi.\n\nKesimpulan induktif yang paling valid adalah...",
+    "pilihan": [
+      "Semua atlet yang memenangkan medali emas adalah atlet berprestasi tinggi.",
+      "Beberapa atlet berprestasi tinggi adalah atlet yang memenangkan medali emas.",
+      "Semua atlet berprestasi tinggi adalah atlet elit.",
+      "Atlet yang memiliki program latihan yang ketat pasti memenangkan medali emas.",
+      "Tidak ada hubungan antara medali emas dan program latihan."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis-premis tersebut membentuk rantai logis: 'atlet medali emas' (subset) -> 'atlet elit' (subset) -> 'program latihan ketat' -> (sebagian) 'atlet berprestasi tinggi'. Karena 'atlet medali emas' adalah sub-kelompok dari 'atlet elit' yang merupakan sub-kelompok dari 'atlet dengan program latihan ketat', dan 'atlet berprestasi tinggi' sebagian tumpang tindih dengan 'atlet dengan program latihan ketat', maka kemungkinan besar ada tumpang tindih antara 'atlet berprestasi tinggi' dan 'atlet yang memenangkan medali emas'. Pilihan B adalah kesimpulan yang paling tepat."
   },
   {
     "id": 49,
-    "pertanyaan": "Sebuah perusahaan menerapkan kebijakan 'fleksibel jam kerja'. Setelah 3 bulan, mayoritas karyawan melaporkan tingkat stres yang lebih rendah dan kepuasan kerja yang lebih tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
-    "pilihan": ["Fleksibel jam kerja adalah satu-satunya penyebab penurunan stres dan peningkatan kepuasan kerja.", "Ada korelasi antara fleksibel jam kerja dan tingkat stres serta kepuasan kerja.", "Karyawan tidak akan pernah stres jika jam kerjanya fleksibel.", "Fleksibel jam kerja selalu menghasilkan penurunan stres dan kepuasan tinggi.", "Penurunan stres dan kepuasan kerja pasti karena faktor lain."],
-    "jawaban": "A",
-    "pembahasan": "Pilihan A adalah yang paling tricky karena mengklaim kausalitas tunggal dan mutlak ('satu-satunya penyebab'). Meskipun ada korelasi kuat, penalaran induktif berdasarkan mayoritas tidak menjamin hubungan eksklusif; ada faktor lain yang mungkin berkontribusi."
+    "pertanyaan": "Observasi: Setiap kali seorang individu mendengar lagu 'A', mereka cenderung merasa lebih bahagia. Fenomena ini telah diamati pada 500 orang secara independen.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Lagu 'A' secara pasti menyebabkan kebahagiaan.",
+      "Mendengarkan lagu 'A' adalah satu-satunya cara untuk merasa bahagia.",
+      "Ada kemungkinan besar bahwa mendengarkan lagu 'A' berkorelasi positif dengan perasaan bahagia.",
+      "500 orang yang diteliti tidak cukup untuk menarik kesimpulan.",
+      "Kebahagiaan menyebabkan orang mendengarkan lagu 'A'."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Observasi pada sampel yang besar (500 orang) menunjukkan pola yang konsisten. Ini merupakan bukti kuat untuk adanya korelasi. Namun, klaim kausalitas yang absolut ('pasti menyebabkan') tidak dapat ditarik hanya dari observasi ini. Pilihan C adalah kesimpulan paling kuat karena menggunakan bahasa yang hati-hati ('kemungkinan besar berkorelasi') yang merupakan ciri khas penalaran induktif yang baik."
   },
   {
     "id": 50,
-    "pertanyaan": "Pola: $\\text{Kecil, Sedang, Besar, Kecil, Sedang,}$\nUkuran selanjutnya dalam pola ini adalah...",
-    "pilihan": ["Kecil", "Sedang", "Besar", "Mini", "Jumbo"],
+    "pertanyaan": "Pola deret angka: 1, 2, 4, 8, 16, 32, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "48",
+      "56",
+      "64",
+      "72",
+      "80"
+    ],
     "jawaban": "C",
-    "pembahasan": "Pola ini adalah pengulangan dari urutan tiga ukuran: Kecil, Sedang, Besar. Setelah 'Kecil, Sedang', ukuran selanjutnya adalah 'Besar'."
+    "pembahasan": "Pola deret ini adalah kelipatan 2 secara berurutan, dimulai dari 1. Polanya adalah $1 \times 2 = 2$, $2 \times 2 = 4$, $4 \times 2 = 8$, $8 \times 2 = 16$, $16 \times 2 = 32$. Maka, angka berikutnya adalah $32 \times 2 = 64$."
   }
 ]
