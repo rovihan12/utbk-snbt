@@ -23,11 +23,11 @@
       "11"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui suku tengah ($a_t$) = 25 dan jumlah semua suku ($S_n$) = 225. Dalam barisan aritmetika, suku tengah adalah rata-rata suku pertama dan suku terakhir. Rumus jumlah n suku pertama adalah $S_n = n \\times a_t$. Substitusikan nilai yang diketahui: $225 = n \\times 25 \\Rightarrow n = \\frac{225}{25} = 9$. Banyaknya suku adalah 9."
+    "pembahasan": "Diketahui suku tengah ($a_t$) = 25 dan jumlah semua suku ($S_n$) = 225. Dalam barisan aritmetika, rumus jumlah n suku pertama adalah $S_n = n \\times a_t$. Substitusikan nilai yang diketahui: $225 = n \\times 25 \\Rightarrow n = \\frac{225}{25} = 9$. Banyaknya suku adalah 9."
   },
   {
     "id": 183,
-    "pertanyaan": "Jika $2k+1, k+1, k-3$ adalah tiga suku berurutan dari sebuah barisan geometri, maka nilai dari suku ketiga adalah...",
+    "pertanyaan": "Jika $k-1, 2k+2, 8k-4$ adalah tiga suku berurutan dari sebuah barisan geometri, maka nilai dari suku ketiga adalah...",
     "pilihan": [
       "-5",
       "-4",
@@ -36,21 +36,21 @@
       "7"
     ],
     "jawaban": "B",
-    "pembahasan": "Dalam barisan geometri, rasio suku-suku berurutan adalah konstan. Maka $\\frac{k+1}{2k+1} = \\frac{k-3}{k+1}$. Lakukan perkalian silang: $(k+1)^2 = (2k+1)(k-3) \\Rightarrow k^2+2k+1 = 2k^2-6k+k-3 \\Rightarrow k^2+2k+1 = 2k^2-5k-3$. Pindahkan semua ke satu sisi: $k^2-7k-4=0$. Kita periksa lagi soalnya. Jika $2k+1, k+1, k-1$. Maka $(k+1)^2=(2k+1)(k-1) \\Rightarrow k^2+2k+1=2k^2-2k+k-1=2k^2-k-1 \\Rightarrow k^2-3k-2=0$. Juga tidak bulat. Mari kita coba soal lain yang valid: Jika $k+1, k-1, k-5$ adalah barisan geometri, maka $(k-1)^2=(k+1)(k-5) \\Rightarrow k^2-2k+1=k^2-4k-5 \\Rightarrow -2k+1=-4k-5 \\Rightarrow 2k=-6 \\Rightarrow k=-3$. Barisan: $-2, -4, -8$. Suku ketiga adalah $-8$. Pilihan tidak ada. Mari kita perbaiki soalnya."
+    "pembahasan": "Dalam barisan geometri, rasio suku-suku berurutan adalah konstan. Maka $\\frac{2k+2}{k-1} = \\frac{8k-4}{2k+2}$. \\nLakukan perkalian silang: $(2k+2)^2 = (k-1)(8k-4)$. \\n$4k^2+8k+4 = 8k^2-4k-8k+4$. \\n$4k^2+8k+4 = 8k^2-12k+4$. \\nPindahkan semua suku ke satu sisi: $4k^2-20k=0$. \\n$4k(k-5)=0$. \\nMaka nilai $k=0$ atau $k=5$. \\nJika $k=5$, suku ketiga adalah $8(5)-4 = 36$, tidak ada di pilihan. \\nJika $k=0$, suku ketiga adalah $8(0)-4 = -4$. \\nSuku ketiga dari barisan tersebut adalah -4."
   },
   {
-  "id": 184,
-  "pertanyaan": "Sebuah deret geometri tak hingga memiliki jumlah 80. Jika suku pertamanya adalah 60, maka jumlah dari semua suku berindeks ganjil adalah...",
-  "pilihan": [
-    "48",
-    "56",
-    "64",
-    "72",
-    "75"
-  ],
-  "jawaban": "C",
-  "pembahasan": "Diketahui jumlah tak hingga ($S_\\infty$) adalah 80 dan suku pertama ($a$) adalah 60. Kita cari rasio ($r$) dengan rumus $S_\\infty=\\frac{a}{1-r}$. \\n$80=\\frac{60}{1-r} \\Rightarrow 1-r=\\frac{60}{80}=\\frac{3}{4} \\Rightarrow r=1-\\frac{3}{4}=\\frac{1}{4}$. \\nSuku-suku berindeks ganjil dari deret tersebut adalah $a_1, a_3, a_5, ...$. Ini juga membentuk deret geometri tak hingga yang baru, dengan: \\nSuku pertama baru ($a_{baru}$) = $a_1 = 60$. \\nRasio baru ($r_{baru}$) = $r^2 = (\\frac{1}{4})^2 = \\frac{1}{16}$. \\nJumlah tak hingga dari suku-suku ganjil ($S_{ganjil}$) dihitung dengan rumus yang sama: \\n$S_{ganjil}=\\frac{a_{baru}}{1-r_{baru}} = \\frac{60}{1-1/16} = \\frac{60}{15/16} = 60 \\times \\frac{16}{15} = 4 \\times 16 = 64$. \\nJadi, jumlah dari semua suku berindeks ganjil adalah 64."
-},
+    "id": 184,
+    "pertanyaan": "Sebuah deret geometri tak hingga memiliki jumlah 80. Jika suku pertamanya adalah 60, maka jumlah dari semua suku berindeks ganjil adalah...",
+    "pilihan": [
+      "48",
+      "56",
+      "64",
+      "72",
+      "75"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Diketahui jumlah tak hingga ($S_\\infty$) adalah 80 dan suku pertama ($a$) adalah 60. Kita cari rasio ($r$) dengan rumus $S_\\infty=\\frac{a}{1-r}$. \\n$80=\\frac{60}{1-r} \\Rightarrow 1-r=\\frac{60}{80}=\\frac{3}{4} \\Rightarrow r=1-\\frac{3}{4}=\\frac{1}{4}$. \\nSuku-suku berindeks ganjil dari deret tersebut adalah $a_1, a_3, a_5, ...$, yang membentuk deret geometri tak hingga yang baru, dengan: \\nSuku pertama baru ($a_{baru}$) = $a_1 = 60$. \\nRasio baru ($r_{baru}$) = $r^2 = (\\frac{1}{4})^2 = \\frac{1}{16}$. \\nJumlah tak hingga dari suku-suku ganjil ($S_{ganjil}$) dihitung dengan rumus yang sama: \\n$S_{ganjil}=\\frac{a_{baru}}{1-r_{baru}} = \\frac{60}{1-1/16} = \\frac{60}{15/16} = 60 \\times \\frac{16}{15} = 4 \\times 16 = 64$. \\nJadi, jumlah dari semua suku berindeks ganjil adalah 64."
+  },
   {
     "id": 185,
     "pertanyaan": "Seorang petani memetik buah mangga setiap hari dan mencatatnya. Pada hari pertama ia memetik 20 buah, hari kedua 24 buah, hari ketiga 28 buah, dan seterusnya. Jika barisan banyaknya buah mangga yang dipetik membentuk deret aritmetika, jumlah mangga yang dipetik pada hari ke-15 adalah...",
@@ -66,7 +66,7 @@
   },
   {
     "id": 186,
-    "pertanyaan": "Sebuah barisan $a_1, a_2, a_3, ...$ didefinisikan dengan $a_1=3$ dan $a_{n+1}=2a_n-1$. Suku ke-5 dari barisan tersebut adalah...",
+    "pertanyaan": "Sebuah barisan $a_1, a_2, a_3, ...$ didefinisikan dengan $a_1=3$ dan $a_{n+1}=2a_n+1$. Suku ke-4 dari barisan tersebut adalah...",
     "pilihan": [
       "15",
       "23",
@@ -74,8 +74,8 @@
       "37",
       "41"
     ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan: $a_1=3$. $a_2=2a_1-1=2(3)-1=5$. $a_3=2a_2-1=2(5)-1=9$. $a_4=2a_3-1=2(9)-1=17$. $a_5=2a_4-1=2(17)-1=33$. Sepertinya ada kesalahan di pilihan jawaban. OK, mari kita perbaiki soalnya."
+    "jawaban": "C",
+    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan: \\n$a_1=3$. \\n$a_2=2a_1+1 = 2(3)+1 = 7$. \\n$a_3=2a_2+1 = 2(7)+1 = 15$. \\n$a_4=2a_3+1 = 2(15)+1 = 31$. \\nSuku ke-4 dari barisan tersebut adalah 31."
   },
   {
     "id": 187,
@@ -92,7 +92,7 @@
   },
   {
     "id": 188,
-    "pertanyaan": "Jumlah 50 suku pertama dari deret aritmetika yang suku pertamanya 20 dan bedanya 5 adalah...",
+    "pertanyaan": "Jumlah 50 suku pertama dari deret aritmetika yang suku pertamanya 19 dan bedanya 5 adalah...",
     "pilihan": [
       "6775",
       "6875",
@@ -101,11 +101,11 @@
       "7175"
     ],
     "jawaban": "D",
-    "pembahasan": "Diketahui $a_1=20$, $n=50$, dan $d=5$. Rumus jumlah n suku pertama: $S_n=\\frac{n}{2}(2a_1+(n-1)d)$. $S_{50}=\\frac{50}{2}(2(20)+(50-1)5) = 25(40+49(5)) = 25(40+245) = 25(285) = 7125$. Sepertinya ada kesalahan di pilihan jawaban. OK, mari kita perbaiki soalnya."
+    "pembahasan": "Diketahui $a_1=19$, $n=50$, dan $d=5$. Rumus jumlah n suku pertama: $S_n=\\frac{n}{2}(2a_1+(n-1)d)$. \\n$S_{50}=\\frac{50}{2}(2(19)+(50-1)5) = 25(38+49(5)) = 25(38+245) = 25(283)=7075$. \\nJumlah 50 suku pertama adalah 7075."
   },
   {
     "id": 189,
-    "pertanyaan": "Jika $p, q, r$ adalah barisan aritmetika dengan $p+q+r=24$ dan $p+1, q, r-3$ adalah barisan geometri, maka nilai $r$ adalah...",
+    "pertanyaan": "Jika $p, q, r$ adalah barisan aritmetika dan $p, q, r+4$ adalah barisan geometri, dengan $p+q+r=24$, maka nilai $r$ adalah...",
     "pilihan": [
       "8",
       "10",
@@ -113,8 +113,8 @@
       "14",
       "16"
     ],
-    "jawaban": "A",
-    "pembahasan": "Karena $p, q, r$ adalah barisan aritmetika, maka $q$ adalah suku tengah dan $p+q+r=3q$. Diketahui $p+q+r=24 \\Rightarrow 3q=24 \\Rightarrow q=8$. Barisan aritmetika: $p, 8, r$. Maka $p=8-d$ dan $r=8+d$. Barisan geometri: $p+1, q, r-3 \\Rightarrow (8-d)+1, 8, (8+d)-3 \\Rightarrow 9-d, 8, 5+d$. Dalam barisan geometri, kuadrat suku tengah sama dengan perkalian suku pertama dan ketiga. $8^2=(9-d)(5+d) \\Rightarrow 64=45+9d-5d-d^2 \\Rightarrow 64=-d^2+4d+45 \\Rightarrow d^2-4d+19=0$. Tidak ada solusi real. OK, mari kita perbaiki soalnya."
+    "jawaban": "C",
+    "pembahasan": "Karena $p, q, r$ adalah barisan aritmetika, maka suku tengahnya adalah $q$. Dari $p+q+r=24$, kita dapat menyimpulkan bahwa $3q=24 \\Rightarrow q=8$. \\nDengan $q=8$, suku-suku barisan aritmetika dapat ditulis sebagai $p=8-d$ dan $r=8+d$. \\nKarena $p, q, r+4$ adalah barisan geometri, maka berlaku $q^2=p(r+4)$. \\nSubstitusikan nilai $p, q,$ dan $r$: $8^2=(8-d)((8+d)+4) \\Rightarrow 64=(8-d)(12+d) \\Rightarrow 64=96+8d-12d-d^2 \\Rightarrow 64=96-4d-d^2$. \\nPindahkan semua suku ke satu sisi: $d^2+4d-32=0$. \\nFaktorkan persamaan kuadrat: $(d+8)(d-4)=0$. \\nMaka nilai $d=-8$ atau $d=4$. Jika $d=4$, maka $r=8+d=8+4=12$. Jika $d=-8$, maka $r=8+d=8-8=0$, tidak ada di pilihan. \\nJadi, nilai $r$ adalah 12."
   },
   {
     "id": 190,
@@ -127,7 +127,7 @@
       "30"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita hitung masing-masing suku: $a_1=1^2+1=2$. $a_2=2^2+2=6$. $a_3=3^2+3=12$. Jumlah 3 suku pertama adalah $2+6+12=20$."
+    "pembahasan": "Kita hitung masing-masing suku: \\n$a_1=1^2+1=2$. \\n$a_2=2^2+2=6$. \\n$a_3=3^2+3=12$. \\nJumlah 3 suku pertama adalah $a_1+a_2+a_3 = 2+6+12=20$."
   },
   {
     "id": 191,
@@ -140,11 +140,11 @@
       "28"
     ],
     "jawaban": "A",
-    "pembahasan": "Diketahui $S_\\infty=32$ dan $ar=8$. Dari $S_\\infty=\\frac{a}{1-r} \\Rightarrow a=32(1-r)$. Dari $ar=8 \\Rightarrow a=8/r$. Maka $32(1-r)=8/r \\Rightarrow 32r(1-r)=8 \\Rightarrow 4r(1-r)=1 \\Rightarrow 4r-4r^2=1 \\Rightarrow 4r^2-4r+1=0 \\Rightarrow (2r-1)^2=0 \\Rightarrow r=1/2$. Substitusikan $r=1/2$ ke $ar=8 \\Rightarrow a(1/2)=8 \\Rightarrow a=16$. Suku pertamanya adalah 16."
+    "pembahasan": "Diketahui $S_\\infty=32$ dan $a_2=ar=8$. Dari $S_\\infty=\\frac{a}{1-r} \\Rightarrow a=32(1-r)$. Dari $ar=8 \\Rightarrow a=8/r$. \\nSubstitusikan kedua persamaan untuk $a$: $32(1-r)=8/r \\Rightarrow 32r(1-r)=8 \\Rightarrow 4r-4r^2=1 \\Rightarrow 4r^2-4r+1=0 \\Rightarrow (2r-1)^2=0 \\Rightarrow r=1/2$. \\nSubstitusikan $r=1/2$ ke $ar=8 \\Rightarrow a(1/2)=8 \\Rightarrow a=16$. Suku pertamanya adalah 16."
   },
   {
     "id": 192,
-    "pertanyaan": "Seorang kontraktor membuat penawaran untuk membangun perumahan. Pada bulan pertama, ia menghabiskan 1000 sak semen. Bulan kedua, ia menghabiskan 1200 sak semen, dan seterusnya, dengan selisih yang konstan. Jika dalam 6 bulan ia menghabiskan total 10200 sak semen, berapa banyak sak semen yang dihabiskan pada bulan kelima?",
+    "pertanyaan": "Seorang kontraktor menghabiskan 1000 sak semen pada bulan pertama, dan seterusnya, dengan selisih 200 sak per bulan. Berapa banyak sak semen yang dihabiskan pada bulan kelima?",
     "pilihan": [
       "1800",
       "1900",
@@ -152,8 +152,8 @@
       "2100",
       "2200"
     ],
-    "jawaban": "D",
-    "pembahasan": "Ini adalah deret aritmetika. Diketahui $a_1=1000$ dan $S_6=10200$. Rumus $S_n=\\frac{n}{2}(2a_1+(n-1)d)$. $S_6=\\frac{6}{2}(2(1000)+(6-1)d) = 3(2000+5d)=10200 \\Rightarrow 2000+5d=3400 \\Rightarrow 5d=1400 \\Rightarrow d=280$. Yang ditanyakan adalah suku kelima, $a_5=a_1+4d = 1000+4(280)=1000+1120=2120$. Sepertinya ada kesalahan di pilihan jawaban. OK, mari kita perbaiki soalnya."
+    "jawaban": "A",
+    "pembahasan": "Ini adalah barisan aritmetika dengan suku pertama $a_1=1000$ dan beda $d=200$. \\nSuku ke-n dari barisan aritmetika adalah $a_n=a_1+(n-1)d$. \\nBanyaknya sak semen yang dihabiskan pada bulan kelima adalah suku ke-5 ($a_5$): \\n$a_5 = a_1+(5-1)d = 1000+4(200) = 1000+800=1800$. \\nJadi, jumlah sak semen yang dihabiskan pada bulan kelima adalah 1800."
   },
   {
     "id": 193,
@@ -166,7 +166,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Karena $a, b, c$ adalah barisan aritmetika, maka $b$ adalah rata-rata dari $a$ dan $c$. Ini berarti $2b=a+c$. Substitusikan $a+c=2b$ ke dalam ekspresi: $\\frac{a+b+c}{b} = \\frac{(a+c)+b}{b} = \\frac{2b+b}{b} = \\frac{3b}{b} = 3$."
+    "pembahasan": "Karena $a, b, c$ adalah barisan aritmetika, maka $b$ adalah rata-rata dari $a$ dan $c$, sehingga berlaku $2b=a+c$. \\nSubstitusikan $a+c=2b$ ke dalam ekspresi: \\n$\\frac{a+b+c}{b} = \\frac{(a+c)+b}{b} = \\frac{2b+b}{b} = \\frac{3b}{b} = 3$."
   },
   {
     "id": 194,
@@ -179,7 +179,7 @@
       "195"
     ],
     "jawaban": "A",
-    "pembahasan": "Suku pertama adalah $a_1 = 5 \\times 2^{1-1} = 5 \\times 2^0 = 5$. Rasio adalah $r=2$. Jumlah 5 suku pertama adalah $S_5 = \\frac{a_1(r^5-1)}{r-1} = \\frac{5(2^5-1)}{2-1} = \\frac{5(32-1)}{1}=5(31)=155$. "
+    "pembahasan": "Suku pertama adalah $a_1 = 5 \\times 2^{1-1} = 5 \\times 2^0 = 5$. Rasio adalah $r=2$. \\nJumlah 5 suku pertama adalah $S_5 = \\frac{a_1(r^5-1)}{r-1} = \\frac{5(2^5-1)}{2-1} = \\frac{5(32-1)}{1}=5(31)=155$. "
   },
   {
     "id": 195,
@@ -205,21 +205,21 @@
       "136 cm"
     ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah deret geometri dengan 5 suku. Diketahui $a_1=4$ dan $a_5=64$. Rumus suku ke-n adalah $a_n=a_1 r^{n-1}$. $a_5=a_1 r^{4} \\Rightarrow 64=4 r^4 \\Rightarrow r^4=16 \\Rightarrow r=2$ (karena panjang tali tidak mungkin negatif). Panjang tali semula adalah jumlah 5 suku pertama ($S_5$). $S_5=\\frac{a_1(r^5-1)}{r-1} = \\frac{4(2^5-1)}{2-1} = 4(32-1)=4(31)=124$ cm."
+    "pembahasan": "Ini adalah deret geometri dengan 5 suku. Diketahui $a_1=4$ dan $a_5=64$. Rumus suku ke-n adalah $a_n=a_1 r^{n-1}$. \\n$a_5=a_1 r^{4} \\Rightarrow 64=4 r^4 \\Rightarrow r^4=16 \\Rightarrow r=2$ (karena panjang tali tidak mungkin negatif). \\nPanjang tali semula adalah jumlah 5 suku pertama ($S_5$). $S_5=\\frac{a_1(r^5-1)}{r-1} = \\frac{4(2^5-1)}{2-1} = 4(32-1)=4(31)=124$ cm."
   },
- {
-  "id": 197,
-  "pertanyaan": "Jika $a-4, a+2, 2a$ adalah barisan aritmetika, maka suku ke-4 dari barisan tersebut adalah...",
-  "pilihan": [
-    "22",
-    "24",
-    "26",
-    "28",
-    "30"
-  ],
-  "jawaban": "A",
-  "pembahasan": "Karena $a-4, a+2, 2a$ adalah barisan aritmetika, maka bedanya konstan. \\nKita dapat menyamakan beda antara suku kedua dan suku pertama dengan beda antara suku ketiga dan suku kedua. \\n$(a+2)-(a-4) = 2a-(a+2)$ \\n$a+2-a+4 = 2a-a-2$ \\n$6 = a-2$ \\n$a = 8$. \\nDengan mengetahui nilai $a=8$, kita dapat menentukan suku-suku barisan tersebut: \\nSuku pertama ($a_1$) = $a-4 = 8-4 = 4$. \\nSuku kedua ($a_2$) = $a+2 = 8+2 = 10$. \\nSuku ketiga ($a_3$) = $2a = 2(8) = 16$. \\nBeda ($d$) dari barisan tersebut adalah $a_2-a_1 = 10-4=6$. \\nSuku ke-4 ($a_4$) dihitung dengan rumus $a_4=a_1+3d = 4+3(6) = 4+18=22$. "
-},
+  {
+    "id": 197,
+    "pertanyaan": "Jika $a-4, a+2, 2a$ adalah barisan aritmetika, maka suku ke-4 dari barisan tersebut adalah...",
+    "pilihan": [
+      "22",
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Karena $a-4, a+2, 2a$ adalah barisan aritmetika, maka bedanya konstan. \\nKita dapat menyamakan beda antara suku kedua dan suku pertama dengan beda antara suku ketiga dan suku kedua: \\n$(a+2)-(a-4) = 2a-(a+2)$ \\n$a+2-a+4 = 2a-a-2$ \\n$6 = a-2$ \\n$a = 8$. \\nDengan mengetahui nilai $a=8$, kita dapat menentukan suku-suku barisan tersebut: $a_1=a-4 = 4$, $a_2=a+2=10$, $a_3=2a=16$. Beda ($d$) adalah $10-4=6$. \\nSuku ke-4 ($a_4$) dihitung dengan rumus $a_4=a_1+3d = 4+3(6) = 4+18=22$."
+  },
   {
     "id": 198,
     "pertanyaan": "Sebuah mobil dibeli dengan harga Rp200.000.000,00. Setiap tahun harganya menyusut sebesar 20%. Harga mobil setelah 4 tahun adalah...",
@@ -231,7 +231,7 @@
       "Rp102.400.000,00"
     ],
     "jawaban": "A",
-    "pembahasan": "Ini adalah barisan geometri. Harga awal $a_1=200.000.000$. Jika harga menyusut 20% per tahun, maka rasio $r = 100\\%-20\\%=80\\%=0.8$. Harga setelah 4 tahun adalah suku ke-5 ($a_5$), karena tahun ke-0 adalah harga awal. Jadi, $a_5 = a_1 \\times r^{4} = 200.000.000 \\times (0.8)^4 = 200.000.000 \\times 0.4096 = 81.920.000$. Jadi, harga mobil setelah 4 tahun adalah Rp81.920.000,00."
+    "pembahasan": "Ini adalah barisan geometri. Harga awal $a_1=200.000.000$. Jika harga menyusut 20% per tahun, maka rasio $r = 100\\%-20\\%=80\\%=0.8$. \\nHarga setelah 4 tahun adalah suku ke-5 ($a_5$), karena tahun ke-0 adalah harga awal. Jadi, $a_5 = a_1 \\times r^{4} = 200.000.000 \\times (0.8)^4 = 200.000.000 \\times 0.4096 = 81.920.000$. \\nJadi, harga mobil setelah 4 tahun adalah Rp81.920.000,00."
   },
   {
     "id": 199,
@@ -246,17 +246,17 @@
     "jawaban": "D",
     "pembahasan": "Substitusikan $n=4$ ke dalam rumus: $a_4=2(4)^2-3(4)+1 = 2(16)-12+1 = 32-12+1=21$."
   },
- {
-  "id": 200,
-  "pertanyaan": "Diketahui barisan geometri dengan suku ke-2 adalah 6 dan suku ke-5 adalah 48. Jumlah 6 suku pertama dari barisan tersebut adalah...",
-  "pilihan": [
-    "150",
-    "175",
-    "189",
-    "200",
-    "210"
-  ],
-  "jawaban": "C",
-  "pembahasan": "Diketahui suku ke-2 ($a_2$) adalah 6 dan suku ke-5 ($a_5$) adalah 48. \\n$a_2 = ar = 6$ \\n$a_5 = ar^4 = 48$ \\nUntuk mencari rasio ($r$), bagi $a_5$ dengan $a_2$: \\n$\\frac{a_5}{a_2} = \\frac{ar^4}{ar} = \\frac{48}{6}$ \\n$r^3 = 8 \\Rightarrow r = 2$. \\nSubstitusikan nilai $r=2$ ke dalam persamaan $a_2=ar=6$: \\n$a(2)=6 \\Rightarrow a=3$. \\nJumlah 6 suku pertama ($S_6$) dari deret geometri dihitung dengan rumus $S_n=\\frac{a(r^n-1)}{r-1}$. \\n$S_6 = \\frac{3(2^6-1)}{2-1} = 3(64-1) = 3(63) = 189$. \\nJadi, jumlah 6 suku pertama adalah 189."
-}
+  {
+    "id": 200,
+    "pertanyaan": "Diketahui barisan geometri dengan suku ke-2 adalah 6 dan suku ke-5 adalah 48. Jumlah 6 suku pertama dari barisan tersebut adalah...",
+    "pilihan": [
+      "150",
+      "175",
+      "189",
+      "200",
+      "210"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Diketahui suku ke-2 ($a_2$) adalah 6 dan suku ke-5 ($a_5$) adalah 48. \\n$a_2 = ar = 6$ \\n$a_5 = ar^4 = 48$ \\nUntuk mencari rasio ($r$), bagi $a_5$ dengan $a_2$: $\\frac{ar^4}{ar} = \\frac{48}{6} \\Rightarrow r^3 = 8 \\Rightarrow r = 2$. \\nSubstitusikan nilai $r=2$ ke dalam persamaan $a_2=ar=6$: $a(2)=6 \\Rightarrow a=3$. \\nJumlah 6 suku pertama ($S_6$) dari deret geometri dihitung dengan rumus $S_n=\\frac{a(r^n-1)}{r-1}$. \\n$S_6 = \\frac{3(2^6-1)}{2-1} = 3(64-1) = 3(63) = 189$. \\nJadi, jumlah 6 suku pertama adalah 189."
+  }
 ]
