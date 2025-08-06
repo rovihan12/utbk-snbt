@@ -1,72 +1,132 @@
 [
   {
     "id": 31,
-    "pertanyaan": "Observasi 1: Setiap kali hujan lebat, sungai di dekat desa meluap.\nObservasi 2: Ada prakiraan hujan lebat besok.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Sungai pasti akan meluap besok.", "Sungai tidak akan meluap besok.", "Sungai mungkin akan meluap besok.", "Hujan lebat tidak menyebabkan sungai meluap.", "Prakiraan cuaca selalu salah."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan pola yang berulang, hujan lebat sering menyebabkan sungai meluap. Dengan adanya prakiraan hujan lebat, secara induktif disimpulkan bahwa ada kemungkinan sungai akan meluap, namun tidak ada kepastian mutlak."
+    "pertanyaan": "Pola deret angka: 1, 2, 4, 7, 11, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "13",
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pola deret ini adalah penambahan angka yang berurutan. Selisih antara angka-angka berturut-turut meningkat sebesar 1: $1+1=2$, $2+2=4$, $4+3=7$, $7+4=11$. Maka, angka berikutnya adalah $11+5=16$."
   },
   {
     "id": 32,
-    "pertanyaan": "Pola angka: $3, 6, 9, 12, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
-    "pilihan": ["14", "15", "16", "18", "21"],
-    "jawaban": "B",
-    "pembahasan": "Pola ini adalah deret aritmatika di mana setiap angka bertambah 3 dari angka sebelumnya, atau kelipatan 3. Jadi, $12 + 3 = 15$."
+    "pertanyaan": "Observasi: Setiap kali sebuah spesies burung di sebuah pulau mengalami penurunan populasi, populasi serangga yang menjadi makanannya juga ikut menurun.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Penurunan populasi burung menyebabkan penurunan populasi serangga.",
+      "Populasi serangga adalah satu-satunya faktor yang mempengaruhi populasi burung.",
+      "Ada kemungkinan besar bahwa populasi burung dan serangga di pulau itu memiliki hubungan ekologis yang erat.",
+      "Populasi burung dan serangga tidak saling terkait.",
+      "Faktor lain yang tidak teramati menyebabkan penurunan kedua populasi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Observasi menunjukkan adanya korelasi yang kuat antara dua populasi. Penalaran induktif yang paling kuat adalah mengakui adanya hubungan, tetapi dengan hati-hati. Mengklaim sebab-akibat langsung ('menyebabkan') terlalu absolut. Pilihan C adalah yang terbaik karena menunjukkan hubungan ekologis yang mungkin tanpa mengklaim kausalitas yang pasti."
   },
   {
     "id": 33,
-    "pertanyaan": "Pengamatan: Semua kucing yang saya kenal suka bermain dengan benang.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Semua kucing di dunia suka bermain benang.", "Kucing yang tidak suka benang bukan kucing sejati.", "Ada kemungkinan besar kucing lain yang saya temui juga suka bermain benang.", "Bermain benang adalah satu-satunya aktivitas yang disukai kucing.", "Benang berbahaya untuk kucing."],
-    "jawaban": "C",
-    "pembahasan": "Dari observasi spesifik pada beberapa kucing, kita dapat menarik kesimpulan umum bahwa ada probabilitas tinggi kucing lain juga memiliki karakteristik yang sama, namun tidak secara absolut semua kucing di dunia."
+    "pertanyaan": "Pola deret huruf: A, D, G, J, M, ...\n\nHuruf berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pola deret ini adalah melompati dua huruf abjad secara berurutan. A, (B, C), D, (E, F), G, (H, I), J, (K, L), M. Maka, setelah M kita harus melompati dua huruf lagi (N, O), sehingga huruf berikutnya adalah Q."
   },
   {
     "id": 34,
-    "pertanyaan": "Pola urutan: $\\text{Mei, Juli, September, \\dots}$\nBulan selanjutnya dalam pola ini adalah...",
-    "pilihan": ["Oktober", "November", "Desember", "Januari", "Februari"],
-    "jawaban": "B",
-    "pembahasan": "Pola ini adalah bulan-bulan yang melompati satu bulan di antaranya: Mei (lewati Juni) Juli (lewati Agustus) September (lewati Oktober) November."
+    "pertanyaan": "Premis: Sebuah survei pada 5000 mahasiswa menunjukkan bahwa 98% dari mereka yang menggunakan aplikasi belajar X melaporkan peningkatan IPK.\n\nKesimpulan induktif yang paling valid adalah...",
+    "pilihan": [
+      "Aplikasi belajar X adalah satu-satunya penyebab peningkatan IPK.",
+      "Menggunakan aplikasi belajar X pasti akan meningkatkan IPK semua mahasiswa.",
+      "Ada kemungkinan yang sangat tinggi bahwa penggunaan aplikasi belajar X berkorelasi positif dengan peningkatan IPK.",
+      "IPK tinggi hanya bisa dicapai dengan menggunakan aplikasi belajar X.",
+      "Data dari survei ini tidak bisa dipercaya."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Sampel yang besar (5000 mahasiswa) dan persentase yang sangat tinggi (98%) merupakan bukti kuat untuk sebuah korelasi. Namun, penalaran induktif yang tepat tidak bisa mengklaim kepastian ('pasti') atau keunikan ('satu-satunya penyebab'). Kesimpulan paling valid adalah mengakui kemungkinan besar adanya korelasi positif."
   },
   {
     "id": 35,
-    "pertanyaan": "Sebuah penelitian mengamati 200 individu yang rutin berolahraga. 195 di antaranya memiliki tekanan darah normal.\n\nKesimpulan induktif yang paling kuat adalah...",
-    "pilihan": ["Olahraga menjamin tekanan darah normal.", "Olahraga tidak berpengaruh pada tekanan darah.", "Rutin berolahraga sangat mungkin berkorelasi dengan tekanan darah normal.", "Hanya orang yang berolahraga yang memiliki tekanan darah normal.", "Tekanan darah normal tidak ada hubungannya dengan olahraga."],
-    "jawaban": "C",
-    "pembahasan": "Dengan mayoritas individu yang berolahraga memiliki tekanan darah normal, disimpulkan secara induktif bahwa ada korelasi kuat antara keduanya. Namun, ini bukan jaminan mutlak karena ada pengecualian."
+    "pertanyaan": "Pola deret gabungan: $2, A, 4, B, 8, C, ...$\n\nElemen berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "10, D",
+      "12, D",
+      "14, D",
+      "16, D",
+      "16, E"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Angka:** Pola ini adalah perkalian 2 dari angka sebelumnya ($2 \times 2 = 4$, $4 \times 2 = 8$). Angka berikutnya adalah $8 \times 2 = 16$.\n2.  **Huruf:** Pola ini adalah urutan abjad yang berurutan (A, B, C). Huruf berikutnya adalah D.\nDengan menggabungkan keduanya, kita mendapatkan 16, D."
   },
   {
     "id": 36,
-    "pertanyaan": "Pola kombinasi: $\\text{1A, 2B, 3C, 4D, \\dots}$\nKombinasi selanjutnya dalam pola ini adalah...",
-    "pilihan": ["5E", "5F", "6E", "6F", "7G"],
-    "jawaban": "A",
-    "pembahasan": "Pola ini menggabungkan urutan angka bertambah 1 dan urutan huruf abjad maju. Setelah 4D, angka selanjutnya adalah 5 dan huruf selanjutnya adalah E, menjadi 5E."
+    "pertanyaan": "Premis 1: Semua seniman yang sukses memiliki dedikasi tinggi.\nPremis 2: Sebagian orang dengan dedikasi tinggi adalah pekerja keras.\nPremis 3: Semua pekerja keras memiliki etos kerja yang baik.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": [
+      "Semua seniman yang sukses adalah pekerja keras.",
+      "Beberapa orang dengan etos kerja yang baik adalah seniman yang sukses.",
+      "Orang dengan etos kerja yang baik pasti memiliki dedikasi tinggi.",
+      "Semua seniman yang sukses memiliki etos kerja yang baik.",
+      "Tidak ada hubungan antara seniman dan etos kerja."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis-premis tersebut menunjukkan rantai hubungan: Seniman sukses (sub-set) -> Dedikasi tinggi -> (sebagian) Pekerja keras -> Etos kerja yang baik. Karena ada tumpang tindih antara 'dedikasi tinggi' dan 'pekerja keras', dan 'seniman sukses' termasuk dalam 'dedikasi tinggi', maka ada kemungkinan tumpang tindih antara 'seniman sukses' dan 'etos kerja yang baik'. Oleh karena itu, kesimpulan 'Beberapa orang dengan etos kerja yang baik adalah seniman yang sukses' adalah yang paling mungkin."
   },
   {
     "id": 37,
-    "pertanyaan": "Setiap kali saham perusahaan X naik, harga minyak dunia juga naik. Pola ini terlihat selama enam bulan terakhir.\n\nKesimpulan induktif yang paling logis adalah...",
-    "pilihan": ["Kenaikan saham perusahaan X menyebabkan harga minyak naik.", "Harga minyak naik karena saham perusahaan X naik.", "Ada kemungkinan besar hubungan antara kenaikan saham perusahaan X dan harga minyak dunia.", "Saham perusahaan X adalah satu-satunya faktor yang mempengaruhi harga minyak.", "Harga minyak dan saham perusahaan X tidak saling berhubungan."],
+    "pertanyaan": "Observasi: Setiap empat tahun, sebuah negara mengadakan pemilihan umum. Setiap kali pemilu diadakan, ada kenaikan tajam dalam belanja pemerintah pada tahun yang sama.\n\nKesimpulan induktif yang paling rasional adalah...",
+    "pilihan": [
+      "Pemilihan umum adalah satu-satunya penyebab kenaikan belanja pemerintah.",
+      "Kenaikan belanja pemerintah adalah konsekuensi yang pasti dari setiap pemilu.",
+      "Ada hubungan yang konsisten antara pemilu dan kenaikan belanja pemerintah yang mengindikasikan adanya korelasi kuat.",
+      "Kenaikan belanja pemerintah tidak ada hubungannya dengan pemilu.",
+      "Setiap pemilu yang diadakan di negara lain juga akan menyebabkan kenaikan belanja pemerintah."
+    ],
     "jawaban": "C",
-    "pembahasan": "Berdasarkan observasi korelasi yang konsisten, disimpulkan secara induktif bahwa ada kemungkinan hubungan antara kedua fenomena tersebut, namun tanpa mengklaim kausalitas langsung atau mutlak."
+    "pembahasan": "Pola yang konsisten selama beberapa siklus pemilu menunjukkan korelasi yang sangat kuat antara pemilu dan kenaikan belanja pemerintah. Kesimpulan yang paling rasional adalah mengakui korelasi ini tanpa mengklaim kausalitas yang pasti ('pasti') atau keunikan ('satu-satunya')."
   },
- {
+  {
     "id": 38,
-    "pertanyaan": "Pola: A (panah atas), B (panah bawah), C (panah atas), D (panah bawah), \u2026\nSimbol selanjutnya dalam pola ini adalah...",
-    "pilihan": ["E (panah atas)", "E (panah bawah)", "F (panah atas)", "F (panah bawah)", "G (panah atas)"],
-    "jawaban": "A",
-    "pembahasan": "Pola ini menggabungkan urutan huruf abjad maju (A, B, C, D, E, \u2026) dengan urutan panah yang bergantian (panah atas, panah bawah, panah atas, panah bawah, panah atas, \u2026). Jadi, setelah D (panah bawah), huruf selanjutnya adalah E dan panahnya adalah panah atas, menjadi E (panah atas)."
+    "pertanyaan": "Pola deret angka: 1, 10, 11, 100, 101, 110, 111, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "1110",
+      "1000",
+      "1001",
+      "1010",
+      "1100"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah deret bilangan dalam basis biner (basis 2), yang diubah ke basis 10. Polanya adalah bilangan bulat yang berurutan, ditulis dalam format biner.\n$1_{10} = 1_2$\n$2_{10} = 10_2$\n$3_{10} = 11_2$\n$4_{10} = 100_2$\n$5_{10} = 101_2$\n$6_{10} = 110_2$\n$7_{10} = 111_2$\nMaka, angka berikutnya adalah $8_{10} = 1000_2$."
   },
   {
     "id": 39,
-    "pertanyaan": "Seorang guru menemukan bahwa siswa yang duduk di barisan depan kelas cenderung lebih aktif bertanya dan mendapatkan nilai lebih tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
-    "pilihan": ["Duduk di barisan depan menyebabkan siswa lebih aktif dan mendapat nilai tinggi.", "Ada korelasi antara posisi duduk dan partisipasi serta nilai siswa.", "Siswa di barisan belakang pasti tidak aktif dan nilainya rendah.", "Posisi duduk adalah satu-satunya faktor penentu nilai siswa.", "Guru lebih memerhatikan siswa di depan."],
+    "pertanyaan": "Observasi: Sepuluh dari sepuluh mahasiswa yang belajar di kafe X lulus ujian dengan nilai tertinggi.\n\nKesimpulan induktif yang paling berisiko adalah...",
+    "pilihan": [
+      "Semua mahasiswa yang belajar di kafe X akan lulus dengan nilai tertinggi.",
+      "Belajar di kafe X kemungkinan besar berkorelasi positif dengan nilai ujian yang tinggi.",
+      "Mahasiswa yang belajar di kafe X adalah orang-orang yang pintar.",
+      "Ada korelasi antara kafe X dan hasil ujian, namun tidak bisa disimpulkan sebagai kausalitas.",
+      "Hanya mahasiswa yang lulus dengan nilai tertinggi yang mau belajar di kafe X."
+    ],
     "jawaban": "A",
-    "pembahasan": "Pilihan A adalah yang paling tricky karena menyiratkan kausalitas langsung ('menyebabkan') hanya berdasarkan korelasi. Ada kemungkinan faktor-faktor lain (misalnya, siswa yang memang sudah termotivasi cenderung memilih duduk di depan) yang menjelaskan hubungan tersebut, bukan hanya posisi duduk itu sendiri."
+    "pembahasan": "Pilihan A adalah yang paling berisiko karena melakukan generalisasi mutlak ('Semua') dari sampel yang sangat kecil (hanya 10 mahasiswa). Ini adalah contoh 'overgeneralization' yang merupakan kesalahan umum dalam penalaran induktif."
   },
   {
     "id": 40,
-    "pertanyaan": "Pola: $\\text{Ganjil, Genap, Ganjil, Genap, \\dots}$\nSifat angka selanjutnya dalam pola ini adalah...",
-    "pilihan": ["Ganjil", "Genap", "Prima", "Negatif", "Desimal"],
-    "jawaban": "A",
-    "pembahasan": "Pola ini adalah urutan bergantian antara bilangan ganjil dan genap. Setelah 'Genap', sifat angka selanjutnya adalah 'Ganjil'."
+    "pertanyaan": "Pola deret gambar: Sebuah segitiga, sebuah lingkaran, sebuah persegi. Lalu, pola ini berulang dengan setiap gambar membesar. Apa gambar keempat dalam deret ini?",
+    "pilihan": [
+      "Segitiga berukuran normal.",
+      "Lingkaran berukuran normal.",
+      "Segitiga yang membesar.",
+      "Lingkaran yang membesar.",
+      "Persegi yang membesar."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pola ini memiliki dua aturan: urutan bentuk (segitiga, lingkaran, persegi) dan ukuran (normal, lalu membesar). Setelah 'segitiga, lingkaran, persegi', pola kembali ke bentuk pertama yaitu segitiga, tetapi dengan aturan membesar yang baru dimulai. Jadi, gambar keempat adalah segitiga yang membesar."
   }
 ]
