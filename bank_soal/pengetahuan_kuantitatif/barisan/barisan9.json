@@ -39,18 +39,18 @@
     "pembahasan": "Dalam barisan geometri, rasio suku-suku berurutan adalah konstan. Maka $\\frac{k+1}{2k+1} = \\frac{k-3}{k+1}$. Lakukan perkalian silang: $(k+1)^2 = (2k+1)(k-3) \\Rightarrow k^2+2k+1 = 2k^2-6k+k-3 \\Rightarrow k^2+2k+1 = 2k^2-5k-3$. Pindahkan semua ke satu sisi: $k^2-7k-4=0$. Kita periksa lagi soalnya. Jika $2k+1, k+1, k-1$. Maka $(k+1)^2=(2k+1)(k-1) \\Rightarrow k^2+2k+1=2k^2-2k+k-1=2k^2-k-1 \\Rightarrow k^2-3k-2=0$. Juga tidak bulat. Mari kita coba soal lain yang valid: Jika $k+1, k-1, k-5$ adalah barisan geometri, maka $(k-1)^2=(k+1)(k-5) \\Rightarrow k^2-2k+1=k^2-4k-5 \\Rightarrow -2k+1=-4k-5 \\Rightarrow 2k=-6 \\Rightarrow k=-3$. Barisan: $-2, -4, -8$. Suku ketiga adalah $-8$. Pilihan tidak ada. Mari kita perbaiki soalnya."
   },
   {
-    "id": 184,
-    "pertanyaan": "Sebuah deret geometri tak hingga memiliki jumlah 80. Jika suku pertamanya adalah 60, maka jumlah dari semua suku berindeks ganjil adalah...",
-    "pilihan": [
-      "48",
-      "56",
-      "64",
-      "72",
-      "75"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Diketahui $S_\\infty=80$ dan suku pertama $a=60$. Kita cari rasio $r$ dari $S_\\infty=\\frac{a}{1-r} \\Rightarrow 80=\\frac{60}{1-r} \\Rightarrow 1-r=\\frac{60}{80}=\\frac{3}{4} \\Rightarrow r=1-\\frac{3}{4}=\\frac{1}{4}$. Suku-suku berindeks ganjil adalah $a_1, a_3, a_5, ...$, yang membentuk deret geometri baru dengan suku pertama $a_{baru}=a_1=60$ dan rasio baru $r_{baru}=r^2=(\\frac{1}{4})^2=\\frac{1}{16}$. Jumlah tak hingga dari suku-suku ganjil adalah $S_{ganjil}=\\frac{a_{baru}}{1-r_{baru}} = \\frac{60}{1-1/16} = \\frac{60}{15/16} = 60 \\times \\frac{16}{15} = 4 \\times 16 = 64$. Sepertinya ada kesalahan di pilihan jawaban. Mari kita perbaiki soalnya."
-  },
+  "id": 184,
+  "pertanyaan": "Sebuah deret geometri tak hingga memiliki jumlah 80. Jika suku pertamanya adalah 60, maka jumlah dari semua suku berindeks ganjil adalah...",
+  "pilihan": [
+    "48",
+    "56",
+    "64",
+    "72",
+    "75"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Diketahui jumlah tak hingga ($S_\\infty$) adalah 80 dan suku pertama ($a$) adalah 60. Kita cari rasio ($r$) dengan rumus $S_\\infty=\\frac{a}{1-r}$. \\n$80=\\frac{60}{1-r} \\Rightarrow 1-r=\\frac{60}{80}=\\frac{3}{4} \\Rightarrow r=1-\\frac{3}{4}=\\frac{1}{4}$. \\nSuku-suku berindeks ganjil dari deret tersebut adalah $a_1, a_3, a_5, ...$. Ini juga membentuk deret geometri tak hingga yang baru, dengan: \\nSuku pertama baru ($a_{baru}$) = $a_1 = 60$. \\nRasio baru ($r_{baru}$) = $r^2 = (\\frac{1}{4})^2 = \\frac{1}{16}$. \\nJumlah tak hingga dari suku-suku ganjil ($S_{ganjil}$) dihitung dengan rumus yang sama: \\n$S_{ganjil}=\\frac{a_{baru}}{1-r_{baru}} = \\frac{60}{1-1/16} = \\frac{60}{15/16} = 60 \\times \\frac{16}{15} = 4 \\times 16 = 64$. \\nJadi, jumlah dari semua suku berindeks ganjil adalah 64."
+},
   {
     "id": 185,
     "pertanyaan": "Seorang petani memetik buah mangga setiap hari dan mencatatnya. Pada hari pertama ia memetik 20 buah, hari kedua 24 buah, hari ketiga 28 buah, dan seterusnya. Jika barisan banyaknya buah mangga yang dipetik membentuk deret aritmetika, jumlah mangga yang dipetik pada hari ke-15 adalah...",
