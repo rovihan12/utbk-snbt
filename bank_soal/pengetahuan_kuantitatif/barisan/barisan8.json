@@ -23,8 +23,7 @@
       "18"
     ],
     "jawaban": "D",
-    "pembahasan": "Untuk barisan aritmetika, suku pertama $a_1 = 4$ dan suku ketiga $a_3 = a_1 + 2d = 36$. Maka $4 + 2d = 36 \\Rightarrow 2d = 32 \\Rightarrow d = 16$. Suku kedua barisan aritmetika adalah $a_2 = a_1 + d = 4 + 16 = 20$. \nUntuk barisan geometri, suku pertama $u_1=4$ dan suku ketiga $u_3=u_1 r^2 = 36$. Maka $4r^2=36 \\Rightarrow r^2=9 \\Rightarrow r = \\pm 3$. Suku kedua barisan geometri adalah $u_2 = u_1 r = 4r$. Jika $r=3$, maka $u_2=12$. Jika $r=-3$, maka $u_2=-12$. \
-    \nDiketahui suku kedua barisan aritmetika ($20$) lebih besar dari suku kedua barisan geometri ($12$ atau $-12$). Jadi, beda barisan aritmetika adalah $d=16$."
+    "pembahasan": "Untuk barisan aritmetika, suku pertama $a_1 = 4$ dan suku ketiga $a_3 = a_1 + 2d = 36$. Maka $4 + 2d = 36 \\Rightarrow 2d = 32 \\Rightarrow d = 16$. Suku kedua barisan aritmetika adalah $a_2 = a_1 + d = 4 + 16 = 20$. \nUntuk barisan geometri, suku pertama $u_1=4$ dan suku ketiga $u_3=u_1 r^2 = 36$. Maka $4r^2=36 \\Rightarrow r^2=9 \\Rightarrow r = \\pm 3$. Suku kedua barisan geometri adalah $u_2 = u_1 r = 4r$. Jika $r=3$, maka $u_2=12$. Jika $r=-3$, maka $u_2=-12$. \nDiketahui suku kedua barisan aritmetika ($20$) lebih besar dari suku kedua barisan geometri ($12$ atau $-12$). Jadi, beda barisan aritmetika adalah $d=16$."
   },
   {
     "id": 163,
@@ -63,7 +62,7 @@
       "24"
     ],
     "jawaban": "B",
-    "pembahasan": "Jumlah tak hingga dari deret geometri adalah $S_\\infty = \\frac{a}{1-r} = 24$ (Persamaan 1). \\nJumlah suku-suku genap ($a_2, a_4, ...$) membentuk deret geometri baru dengan suku pertama $ar$ dan rasio $r^2$. Maka $S_{genap} = \\frac{ar}{1-r^2} = 8$ (Persamaan 2). \\nBagi Persamaan 1 dengan Persamaan 2: $\\frac{S_\\infty}{S_{genap}} = \\frac{a/(1-r)}{ar/(1-r^2)} = \\frac{24}{8} = 3$. \\nPenyederhanaan: $\\frac{1-r^2}{r(1-r)} = \\frac{(1-r)(1+r)}{r(1-r)} = \\frac{1+r}{r} = 3$. \\nMaka $1+r=3r \\Rightarrow 1=2r \\Rightarrow r=1/2$. \\nSubstitusikan $r=1/2$ ke Persamaan 1: $\\frac{a}{1-1/2} = 24 \\Rightarrow \\frac{a}{1/2} = 24 \\Rightarrow 2a=24 \\Rightarrow a=12$. \nSuku pertama adalah 12."
+    "pembahasan": "Jumlah tak hingga dari deret geometri adalah $S_\\infty = \\frac{a}{1-r} = 24$ (Persamaan 1). \nJumlah suku-suku genap ($a_2, a_4, ...$) membentuk deret geometri baru dengan suku pertama $ar$ dan rasio $r^2$. Maka $S_{genap} = \\frac{ar}{1-r^2} = 8$ (Persamaan 2). \nBagi Persamaan 1 dengan Persamaan 2: $\\frac{S_\\infty}{S_{genap}} = \\frac{a/(1-r)}{ar/(1-r^2)} = \\frac{24}{8} = 3$. \nPenyederhanaan: $\\frac{1-r^2}{r(1-r)} = \\frac{(1-r)(1+r)}{r(1-r)} = \\frac{1+r}{r} = 3$. \nMaka $1+r=3r \\Rightarrow 1=2r \\Rightarrow r=1/2$. \nSubstitusikan $r=1/2$ ke Persamaan 1: $\\frac{a}{1-1/2} = 24 \\Rightarrow \\frac{a}{1/2} = 24 \\Rightarrow 2a=24 \\Rightarrow a=12$. \nSuku pertama adalah 12."
   },
   {
     "id": 166,
@@ -89,7 +88,7 @@
       "1100"
     ],
     "jawaban": "A",
-    "pembahasan": "Diketahui $S_{10}=100$ dan $S_{20}=400$. \n$S_{10} = \\frac{10}{2}(2a+9d)=5(2a+9d)=100 \\Rightarrow 2a+9d=20$. \n$S_{20} = \\frac{20}{2}(2a+19d)=10(2a+19d)=400 \\Rightarrow 2a+19d=40$. \nKurangkan kedua persamaan: $(2a+19d)-(2a+9d) = 40-20 \\Rightarrow 10d=20 \\Rightarrow d=2$. \nSubstitusikan $d=2$ ke $2a+9d=20 \\Rightarrow 2a+9(2)=20 \\Rightarrow 2a+18=20 \\Rightarrow 2a=2 \\Rightarrow a=1$. \nMaka $S_{30} = \\frac{30}{2}(2a+29d) = 15(2(1)+29(2)) = 15(2+58) = 15(60) = 900$. \n(Cara cepat: $S_{10}, S_{20}-S_{10}, S_{30}-S_{20}$ adalah barisan aritmetika. $S_{10}=100$. $S_{20}-S_{10}=400-100=300$. Beda 200. Maka $S_{30}-S_{20} = 300+200=500$. $S_{30}=S_{20}+500=400+500=900$.)."
+    "pembahasan": "Diketahui $S_{10}=100$ dan $S_{20}=400$. \n$S_{10} = \\frac{10}{2}(2a+9d)=5(2a+9d)=100 \\Rightarrow 2a+9d=20$. \n$S_{20} = \\frac{20}{2}(2a+19d)=10(2a+19d)=400 \\Rightarrow 2a+19d=40$. \nKurangkan kedua persamaan: $(2a+19d)-(2a+9d) = 40-20 \\Rightarrow 10d=20 \\Rightarrow d=2$. \nSubstitusikan $d=2$ ke $2a+9d=20 \\Rightarrow 2a+9(2)=20 \\Rightarrow 2a+18=20 \\Rightarrow 2a=2 \\Rightarrow a=1$. \nMaka $S_{30} = \\frac{30}{2}(2a+29d) = 15(2(1)+29(2)) = 15(2+58) = 15(60) = 900$. \n(Cara cepat: $S_{10}, S_{20}-S_{10}, S_{30}-S_{20}$ adalah barisan aritmetika. $S_{10}=100$. $S_{20}-S_{10}=400-100=300$. Beda 200. Maka $S_{30}-S_{20} = 300+200=500$. $S_{30}=S_{20}+500=400+500=900$.)"
   },
   {
     "id": 168,
@@ -115,7 +114,7 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. \nDiketahui bahwa $S_\\infty = 4r$. Kita substitusikan persamaan ini ke dalam rumus jumlah tak hingga: $4r = \\frac{a}{1-r}$. \nUntuk mencari nilai $a$, kita pindahkan $(1-r)$ ke sisi kiri: $a = 4r(1-r)$. \\nNilai $a$ bergantung pada nilai $r$. Namun, karena terdapat pilihan jawaban tunggal, kita dapat mencari nilai $r$ yang memberikan nilai $a$ yang ada di pilihan. \\nJika kita asumsikan $a=1$ (pilihan A), maka $1 = 4r(1-r) \\Rightarrow 1 = 4r-4r^2 \\Rightarrow 4r^2-4r+1 = 0 \\Rightarrow (2r-1)^2=0$. \nMaka nilai $r=1/2$. Karena $-1 < 1/2 < 1$, nilai ini valid untuk deret konvergen. \nJadi, suku pertama dari barisan tersebut adalah 1."
+    "pembahasan": "Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. \nDiketahui bahwa $S_\\infty = 4r$. Kita substitusikan persamaan ini ke dalam rumus jumlah tak hingga: $4r = \\frac{a}{1-r}$. \nUntuk mencari nilai $a$, kita pindahkan $(1-r)$ ke sisi kiri: $a = 4r(1-r)$. \nNilai $a$ bergantung pada nilai $r$. Namun, karena terdapat pilihan jawaban tunggal, kita dapat mencari nilai $r$ yang memberikan nilai $a$ yang ada di pilihan. \nJika kita asumsikan $a=1$ (pilihan A), maka $1 = 4r(1-r) \\Rightarrow 1 = 4r-4r^2 \\Rightarrow 4r^2-4r+1 = 0 \\Rightarrow (2r-1)^2=0$. \nMaka nilai $r=1/2$. Karena $-1 < 1/2 < 1$, nilai ini valid untuk deret konvergen. \nJadi, suku pertama dari barisan tersebut adalah 1."
   },
   {
     "id": 170,
@@ -128,7 +127,7 @@
       "24"
     ],
     "jawaban": "D",
-    "pembahasan": "Ini adalah barisan rekursif, di mana suku ke-n adalah jumlah dari dua suku sebelumnya. \nDiketahui $a_1=2$ dan $a_2=3$. \n$a_3 = a_2+a_1 = 3+2=5$. \n$a_4 = a_3+a_2 = 5+3=8$. \n$a_5 = a_4+a_3 = 8+5=13$. \n$a_6 = a_5+a_4 = 13+8=21$. \\nSuku ke-6 dari barisan tersebut adalah 21."
+    "pembahasan": "Ini adalah barisan rekursif, di mana suku ke-n adalah jumlah dari dua suku sebelumnya. \nDiketahui $a_1=2$ dan $a_2=3$. \n$a_3 = a_2+a_1 = 3+2=5$. \n$a_4 = a_3+a_2 = 5+3=8$. \n$a_5 = a_4+a_3 = 8+5=13$. \n$a_6 = a_5+a_4 = 13+8=21$. \nSuku ke-6 dari barisan tersebut adalah 21."
   },
   {
     "id": 171,
