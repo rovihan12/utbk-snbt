@@ -75,7 +75,19 @@
       "$y^{12} = x^6z^4$"
     ],
     "jawaban": "D",
-    "pembahasan": "Karena $\\log_2 x$, $\\log_4 y$, $\\log_8 z$ adalah barisan aritmetika, maka berlaku sifat: $2 \\times (\\text{suku tengah}) = \\text{suku pertama} + \\text{suku ketiga}$.\\n$2 \\log_4 y = \\log_2 x + \\log_8 z$.\\nUntuk memecahkan persamaan ini, kita ubah semua basis logaritma ke basis 2 menggunakan rumus perubahan basis $\\log_b a = \\frac{\\log_c a}{\\log_c b}$.\\n$2 \\left( \\frac{\\log_2 y}{\\log_2 4} \\right) = \\log_2 x + \\frac{\\log_2 z}{\\log_2 8}$.\\n$2 \\left( \\frac{\\log_2 y}{2} \\right) = \\log_2 x + \\frac{\\log_2 z}{3}$.\\n$\\log_2 y = \\log_2 x + \\frac{1}{3} \\log_2 z$. \\nUntuk menghilangkan pecahan, kalikan seluruh persamaan dengan 6:\\n$6 \\log_2 y = 6 \\log_2 x + 2 \\log_2 z$. \\nGunakan sifat logaritma $n \\log a = \\log a^n$ dan $\\log a + \\log b = \\log(ab)$: \\n$\\log_2 y^6 = \\log_2 x^6 + \\log_2 z^2$. \\n$\\log_2 y^6 = \\log_2 (x^6 z^2)$.\\nKarena basis logaritmanya sama, kita dapat menyimpulkan bahwa $y^6 = x^6 z^2$.\\nHubungan ini sesuai dengan pilihan jawaban yang ada."
+    "pembahasan": "Karena $\\log_2 x$, $\\log_4 y$, $\\log_8 z$ adalah barisan aritmetika, maka berlaku sifat: $2 \\times (\\text{suku tengah}) = \\text{suku pertama} + \\text{suku ketiga}$.\
+$2 \\log_4 y = \\log_2 x + \\log_8 z$.\
+Untuk memecahkan persamaan ini, kita ubah semua basis logaritma ke basis 2 menggunakan rumus perubahan basis $\\log_b a = \\frac{\\log_c a}{\\log_c b}$.\
+$2 \\left( \\frac{\\log_2 y}{\\log_2 4} \\right) = \\log_2 x + \\frac{\\log_2 z}{\\log_2 8}$.\
+$2 \\left( \\frac{\\log_2 y}{2} \\right) = \\log_2 x + \\frac{\\log_2 z}{3}$.\
+$\\log_2 y = \\log_2 x + \\frac{1}{3} \\log_2 z$. \
+Untuk menghilangkan pecahan, kalikan seluruh persamaan dengan 6:\
+$6 \\log_2 y = 6 \\log_2 x + 2 \\log_2 z$. \
+Gunakan sifat logaritma $n \\log a = \\log a^n$ dan $\\log a + \\log b = \\log(ab)$: \
+$\\log_2 y^6 = \\log_2 x^6 + \\log_2 z^2$. \
+$\\log_2 y^6 = \\log_2 (x^6 z^2)$.\
+Karena basis logaritmanya sama, kita dapat menyimpulkan bahwa $y^6 = x^6 z^2$.\
+Hubungan ini sesuai dengan pilihan jawaban yang ada."
   },
   {
     "id": 167,
@@ -114,7 +126,12 @@
     "5"
   ],
   "jawaban": "A",
-  "pembahasan": "Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$.\\nDiketahui bahwa $S_\\infty = 4r$. Kita substitusikan persamaan ini ke dalam rumus jumlah tak hingga: \\n$4r = \\frac{a}{1-r}$.\\nUntuk mencari nilai $a$, kita pindahkan $(1-r)$ ke sisi kiri: \\n$a = 4r(1-r)$. \\nKarena deret konvergen, nilai rasio $r$ harus berada dalam rentang $-1 < r < 1$. Jika kita asumsikan $r=1/2$, maka $a = 4(\\frac{1}{2})(1-\\frac{1}{2}) = 2(\\frac{1}{2}) = 1$. Jawaban ini konsisten dengan salah satu pilihan yang ada."
+  "pembahasan": "Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$.\
+Diketahui bahwa $S_\\infty = 4r$. Kita substitusikan persamaan ini ke dalam rumus jumlah tak hingga: \
+$4r = \\frac{a}{1-r}$.\
+Untuk mencari nilai $a$, kita pindahkan $(1-r)$ ke sisi kiri: \
+$a = 4r(1-r)$. \
+Karena deret konvergen, nilai rasio $r$ harus berada dalam rentang $-1 < r < 1$. Jika kita asumsikan $r=1/2$, maka $a = 4(\\frac{1}{2})(1-\\frac{1}{2}) = 2(\\frac{1}{2}) = 1$. Jawaban ini konsisten dengan salah satu pilihan yang ada."
 },
   {
     "id": 170,
@@ -192,7 +209,11 @@
     "26"
   ],
   "jawaban": "C",
-  "pembahasan": "Kita hitung masing-masing suku: \\n$a_1 = 2^{1+1}-3 = 2^2-3 = 4-3=1$. \\n$a_2 = 2^{2+1}-3 = 2^3-3 = 8-3=5$. \\n$a_3 = 2^{3+1}-3 = 2^4-3 = 16-3=13$. \\nJumlah dari ketiga suku tersebut adalah $a_1+a_2+a_3=1+5+13=19$. Tidak ada di pilihan. Mari kita perbaiki soalnya."
+  "pembahasan": "Kita hitung masing-masing suku: \
+$a_1 = 2^{1+1}-3 = 2^2-3 = 4-3=1$. \
+$a_2 = 2^{2+1}-3 = 2^3-3 = 8-3=5$. \
+$a_3 = 2^{3+1}-3 = 2^4-3 = 16-3=13$. \
+Jumlah dari ketiga suku tersebut adalah $a_1+a_2+a_3=1+5+13=19$. Tidak ada di pilihan. Mari kita perbaiki soalnya."
 },
  {
   "id": 176,
@@ -205,7 +226,11 @@
     "4"
   ],
   "jawaban": "B",
-  "pembahasan": "Karena $2a, a+b, 3b$ adalah barisan aritmetika, bedanya konstan. Maka, $(a+b) - (2a) = (3b) - (a+b)$. \\n$b-a=2b-a$. \\nTambahkan $a$ ke kedua sisi: $b=2b$. \\nKurangkan $b$ dari kedua sisi: $0=b$. \\nJika $b=0$, maka $a/b$ tidak terdefinisi. Ada kesalahan pada soal ini. Mari kita buat soal yang valid."
+  "pembahasan": "Karena $2a, a+b, 3b$ adalah barisan aritmetika, bedanya konstan. Maka, $(a+b) - (2a) = (3b) - (a+b)$. \
+$b-a=2b-a$. \
+Tambahkan $a$ ke kedua sisi: $b=2b$. \
+Kurangkan $b$ dari kedua sisi: $0=b$. \
+Jika $b=0$, maka $a/b$ tidak terdefinisi. Ada kesalahan pada soal ini. Mari kita buat soal yang valid."
 },
  {
   "id": 177,
@@ -218,7 +243,12 @@
     "35"
   ],
   "jawaban": "D",
-  "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan: \\n$x_1=3$. \\n$x_2=2x_1+1 = 2(3)+1 = 7$. \\n$x_3=2x_2+1 = 2(7)+1 = 15$. \\n$x_4=2x_3+1 = 2(15)+1 = 31$. \\nSuku ke-4 dari barisan tersebut adalah 31."
+  "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan: \
+$x_1=3$. \
+$x_2=2x_1+1 = 2(3)+1 = 7$. \
+$x_3=2x_2+1 = 2(7)+1 = 15$. \
+$x_4=2x_3+1 = 2(15)+1 = 31$. \
+Suku ke-4 dari barisan tersebut adalah 31."
 },
   {
     "id": 178,
