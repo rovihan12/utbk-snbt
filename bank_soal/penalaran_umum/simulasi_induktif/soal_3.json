@@ -1,72 +1,132 @@
 [
   {
     "id": 21,
-    "pertanyaan": "Observasi 1: Setiap apel yang jatuh dari pohon ini berwarna merah.\nObservasi 2: Apel yang baru saja jatuh juga berwarna merah.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Semua apel dari pohon ini berwarna merah.", "Apel merah lebih berat daripada apel hijau.", "Pohon ini hanya menghasilkan apel merah.", "Apel akan selalu merah setelah jatuh.", "Apel hijau tidak bisa tumbuh di pohon ini."],
-    "jawaban": "A",
-    "pembahasan": "Dari observasi berulang bahwa apel yang jatuh dari pohon tersebut selalu berwarna merah, disimpulkan secara induktif bahwa semua apel dari pohon itu berwarna merah. Ini adalah generalisasi yang kuat berdasarkan sampel yang konsisten."
+    "pertanyaan": "Pola deret angka: 1, 1, 2, 3, 5, 8, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pola ini adalah deret Fibonacci, di mana setiap angka adalah hasil penjumlahan dari dua angka sebelumnya. Polanya adalah $1+1=2$, $1+2=3$, $2+3=5$, $3+5=8$. Maka, angka berikutnya adalah $5+8=13$."
   },
   {
     "id": 22,
-    "pertanyaan": "Pola angka: $100, 95, 90, 85, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
-    "pilihan": ["80", "75", "70", "65", "60"],
-    "jawaban": "A",
-    "pembahasan": "Pola ini adalah deret aritmatika di mana setiap angka berkurang 5 dari angka sebelumnya. Jadi, $85 - 5 = 80$."
+    "pertanyaan": "Observasi 1: Sebuah kota dengan tingkat polusi udara tinggi melaporkan lebih banyak kasus penyakit pernapasan.\nObservasi 2: Penelitian menunjukkan bahwa partikel polutan dapat memicu respons inflamasi di saluran pernapasan.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Polusi udara adalah penyebab utama semua penyakit pernapasan.",
+      "Tidak ada korelasi antara polusi udara dan penyakit pernapasan.",
+      "Polusi udara berkorelasi dengan peningkatan kasus penyakit pernapasan, dan data mendukung hubungan kausalitas.",
+      "Peningkatan penyakit pernapasan menyebabkan polusi udara.",
+      "Hanya orang yang tinggal di kota dengan polusi udara yang mengalami penyakit pernapasan."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Soal ini menyajikan tidak hanya korelasi (Observasi 1) tetapi juga mekanisme ilmiah yang mendukungnya (Observasi 2). Ini memungkinkan kita untuk menarik kesimpulan induktif yang lebih kuat daripada korelasi biasa, mengindikasikan adanya hubungan kausalitas yang didukung data, meskipun tidak menyatakan absolut."
   },
   {
     "id": 23,
-    "pertanyaan": "Pengamatan: Setiap kali seorang siswa menggunakan teknik menghafal 'peta pikiran', mereka cenderung mengingat informasi lebih baik.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Teknik peta pikiran adalah satu-satunya cara untuk mengingat informasi dengan baik.", "Teknik peta pikiran tidak efektif untuk semua siswa.", "Teknik peta pikiran kemungkinan besar membantu meningkatkan daya ingat.", "Siswa yang tidak menggunakan peta pikiran tidak akan mengingat informasi dengan baik.", "Mengingat informasi dengan baik tidak bergantung pada teknik belajar."],
+    "pertanyaan": "Pola deret huruf: A, B, D, G, K, ...\n\nHuruf berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R"
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari observasi yang konsisten, disimpulkan bahwa teknik peta pikiran kemungkinan besar membantu meningkatkan daya ingat. Ini adalah kesimpulan probabilistik, bukan klaim kausalitas mutlak."
+    "pembahasan": "Pola ini adalah penambahan jumlah huruf yang dilewati. Dari A ke B (tambah 1), B ke D (tambah 2), D ke G (tambah 3), G ke K (tambah 4). Maka, dari K kita harus melompat 5 huruf (L, M, N, O, P) untuk mendapatkan huruf berikutnya. Huruf yang dimaksud adalah P."
   },
   {
     "id": 24,
-    "pertanyaan": "Pola gambar: Hati, Bintang, Lingkaran, Hati, Bintang, ...\nGambar selanjutnya dalam pola ini adalah...",
-    "pilihan": ["Hati", "Bintang", "Lingkaran", "Segitiga", "Oval"],
+    "pertanyaan": "Studi menunjukkan bahwa 99 dari 100 perokok berat memiliki gejala penyakit paru-paru. Mereka yang bukan perokok tidak menunjukkan gejala tersebut.\n\nKesimpulan induktif yang paling rasional adalah...",
+    "pilihan": [
+      "Semua perokok berat pasti akan menderita penyakit paru-paru.",
+      "Merokok adalah penyebab pasti dari penyakit paru-paru.",
+      "Merokok berat memiliki kemungkinan sangat tinggi untuk menjadi faktor risiko utama penyakit paru-paru.",
+      "Gejala penyakit paru-paru hanya terjadi pada perokok berat.",
+      "Tidak ada hubungan antara merokok dan penyakit paru-paru."
+    ],
     "jawaban": "C",
-    "pembahasan": "Pola gambar ini berulang setiap tiga elemen: Hati, Bintang, Lingkaran. Setelah 'Hati, Bintang', gambar selanjutnya adalah 'Lingkaran'."
+    "pembahasan": "Data yang sangat kuat (99 dari 100) dan observasi pada kelompok kontrol (bukan perokok) mendukung hubungan yang sangat mungkin terjadi. Pilihan C menggunakan frasa 'kemungkinan sangat tinggi' yang merupakan kesimpulan induktif terbaik karena tidak mengabaikan 1% dari perokok yang tidak memiliki gejala dan menghindari klaim absolut."
   },
   {
     "id": 25,
-    "pertanyaan": "Selama sepuluh tahun terakhir, setiap kali indeks harga konsumen naik, inflasi juga meningkat. \n\nKesimpulan induktif yang paling kuat adalah...",
-    "pilihan": ["Kenaikan indeks harga konsumen pasti menyebabkan inflasi.", "Indeks harga konsumen dan inflasi tidak saling berhubungan.", "Sangat mungkin ada hubungan positif antara kenaikan indeks harga konsumen dan inflasi.", "Inflasi hanya terjadi saat indeks harga konsumen naik.", "Data ini tidak cukup untuk menarik kesimpulan apa pun."],
+    "pertanyaan": "Pola deret angka: 1, 2, 6, 24, 120, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "240",
+      "360",
+      "720",
+      "1440",
+      "2880"
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari pola yang konsisten selama periode waktu yang signifikan, dapat disimpulkan secara induktif bahwa ada kemungkinan besar hubungan positif antara dua fenomena tersebut, meskipun tidak selalu berarti kausalitas langsung atau tunggal."
+    "pembahasan": "Pola deret ini adalah faktorial. Angka-angka tersebut adalah hasil dari $1! = 1$, $2! = 2$, $3! = 6$, $4! = 24$, $5! = 120$. Maka, angka berikutnya adalah $6! = 1 \times 2 \times 3 \times 4 \times 5 \times 6 = 720$."
   },
   {
     "id": 26,
-    "pertanyaan": "Pola huruf: A, Z, B, Y, C, X, ...\nHuruf selanjutnya dalam pola ini adalah...",
-    "pilihan": ["D", "W", "V", "E", "F"],
-    "jawaban": "D",
-    "pembahasan": "Pola ini terdiri dari dua seri yang saling menyisip: Seri pertama adalah huruf abjad maju (A, B, C, ...) dan seri kedua adalah huruf abjad mundur (Z, Y, X, ...). Jadi, setelah C dan X, huruf selanjutnya dalam seri pertama adalah D."
+    "pertanyaan": "Premis 1: Semua perangkat elektronik canggih memiliki microchip.\nPremis 2: Sebagian barang yang memiliki microchip memerlukan daya baterai.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
+    "pilihan": [
+      "Semua perangkat elektronik canggih memerlukan daya baterai.",
+      "Beberapa barang yang memerlukan daya baterai adalah perangkat elektronik canggih.",
+      "Beberapa perangkat elektronik canggih memerlukan daya baterai.",
+      "Semua barang yang memerlukan daya baterai adalah perangkat elektronik canggih.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Dari Premis 1, kita tahu bahwa 'perangkat elektronik canggih' adalah sub-kelompok dari 'barang yang memiliki microchip'. Dari Premis 2, kita tahu ada tumpang tindih antara 'barang yang memiliki microchip' dengan 'barang yang memerlukan daya baterai'. Secara logis, sebagian dari 'perangkat elektronik canggih' (sub-kelompok) juga bisa masuk dalam kategori yang tumpang tindih tersebut. Jadi, 'beberapa perangkat elektronik canggih memerlukan daya baterai'."
   },
   {
     "id": 27,
-    "pertanyaan": "Setiap kali saya mengunjungi kota X di bulan Juli, cuaca selalu panas dan kering. Saya sudah mengunjunginya lima kali.\n\nKesimpulan induktif yang paling logis adalah...",
-    "pilihan": ["Kota X selalu panas dan kering.", "Cuaca di Kota X di bulan Juli kemungkinan besar akan panas dan kering.", "Hanya di bulan Juli Kota X panas dan kering.", "Saya tidak boleh mengunjungi Kota X di bulan Juli.", "Cuaca di Kota X tidak bisa diprediksi."],
-    "jawaban": "B",
-    "pembahasan": "Berdasarkan pengalaman berulang yang konsisten, disimpulkan secara induktif bahwa cuaca di Kota X pada bulan Juli kemungkinan besar akan terus panas dan kering. Ini adalah generalisasi probabilistik berdasarkan observasi."
+    "pertanyaan": "Observasi: Setiap kali sebuah planet baru ditemukan, ia selalu berada di luar tata surya kita.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": [
+      "Tidak ada planet lain di tata surya kita yang belum ditemukan.",
+      "Pencarian planet hanya difokuskan pada luar tata surya kita.",
+      "Semua planet baru yang akan ditemukan pasti berada di luar tata surya kita.",
+      "Ada kemungkinan besar bahwa setiap planet baru yang ditemukan akan berada di luar tata surya kita.",
+      "Semua planet di luar tata surya sudah ditemukan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Observasi yang konsisten memberikan dasar yang kuat untuk generalisasi. Namun, penalaran induktif tidak menjamin kepastian mutlak ('pasti'). Oleh karena itu, kesimpulan terbaik adalah bahwa 'ada kemungkinan besar' bahwa pola tersebut akan terus berlanjut di masa depan."
   },
   {
     "id": 28,
-    "pertanyaan": "Pola angka: $1, 2, 4, 8, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
-    "pilihan": ["10", "12", "14", "16", "18"],
-    "jawaban": "D",
-    "pembahasan": "Pola ini adalah deret geometri di mana setiap angka adalah dua kali lipat dari angka sebelumnya. Jadi, $8 \\times 2 = 16$."
+    "pertanyaan": "Pola deret angka: 2, 5, 11, 23, 47, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "91",
+      "93",
+      "95",
+      "97",
+      "99"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pola deret ini adalah $(n \times 2) + 1$, di mana n adalah angka sebelumnya. Polanya adalah:\n$2 \times 2 + 1 = 5$\n$5 \times 2 + 1 = 11$\n$11 \times 2 + 1 = 23$\n$23 \times 2 + 1 = 47$\nMaka, angka berikutnya adalah $47 \times 2 + 1 = 94 + 1 = 95$."
   },
   {
     "id": 29,
-    "pertanyaan": "Dalam sebuah survei, 90% karyawan yang merasa dihargai oleh atasan melaporkan kepuasan kerja yang tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
-    "pilihan": ["Penghargaan dari atasan adalah satu-satunya faktor yang menjamin kepuasan kerja tinggi.", "Ada hubungan yang kuat antara penghargaan atasan dan kepuasan kerja.", "Karyawan yang tidak dihargai atasan tidak akan pernah puas dengan pekerjaannya.", "Kepuasan kerja adalah hasil langsung dari penghargaan atasan.", "Penghargaan atasan meningkatkan kemungkinan kepuasan kerja."],
-    "jawaban": "A",
-    "pembahasan": "Pilihan A adalah yang paling tricky karena mengklaim kausalitas tunggal dan mutlak ('satu-satunya faktor'), padahal observasi hanya menunjukkan korelasi yang kuat. Ada banyak faktor lain yang dapat memengaruhi kepuasan kerja, dan penalaran induktif berdasarkan persentase tinggi tidak menjamin hubungan eksklusif."
+    "pertanyaan": "Premis: Sebuah survei terhadap 1000 orang di seluruh negeri menunjukkan bahwa 80% dari mereka yang berpartisipasi dalam program kebugaran rutin melaporkan peningkatan kesehatan mental.\n\nKesimpulan induktif yang paling valid adalah...",
+    "pilihan": [
+      "Program kebugaran rutin secara pasti meningkatkan kesehatan mental.",
+      "Kebugaran rutin adalah satu-satunya cara untuk meningkatkan kesehatan mental.",
+      "Partisipasi dalam program kebugaran rutin memiliki kemungkinan tinggi untuk berkontribusi pada peningkatan kesehatan mental.",
+      "Orang yang tidak berpartisipasi dalam program kebugaran memiliki kesehatan mental yang buruk.",
+      "Survei ini tidak relevan untuk menarik kesimpulan apa pun."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Dengan sampel yang besar (1000 orang) dan persentase yang tinggi (80%), kesimpulan induktif yang paling kuat adalah adanya hubungan positif yang signifikan. Namun, kita tidak bisa mengklaim kepastian ('pasti') atau keunikan ('satu-satunya cara'). Pilihan C adalah kesimpulan paling valid karena menggunakan frasa 'kemungkinan tinggi untuk berkontribusi'."
   },
   {
     "id": 30,
-    "pertanyaan": "Pola: $\\Delta, \\square, \\circ, \\Delta, \\square, \\circ, \\dots$\nSimbol selanjutnya dalam pola ini adalah...",
-    "pilihan": ["$\\Delta$", "$\\square$", "$\\circ$", "$=$", "$+$"],
+    "pertanyaan": "Pola deret gabungan: $A, 1, C, 3, E, 5, ...$\n\nElemen berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "G, 7",
+      "F, 6",
+      "G, 6",
+      "H, 7",
+      "F, 7"
+    ],
     "jawaban": "A",
-    "pembahasan": "Pola ini adalah pengulangan dari urutan tiga simbol: Segitiga ($\\Delta$), Persegi ($\\square$), dan Lingkaran ($\\circ$). Setelah siklus ketiga simbol berakhir, pola kembali ke simbol pertama, yaitu Segitiga ($\\Delta$)."
+    "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Huruf:** Pola ini melompati satu huruf (A, lewati B, C, lewati D, E). Huruf berikutnya adalah G.\n2.  **Angka:** Pola ini adalah deret bilangan ganjil yang berurutan (1, 3, 5). Angka berikutnya adalah 7.\nDengan menggabungkan keduanya, kita mendapatkan G, 7."
   }
 ]
