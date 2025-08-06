@@ -1,72 +1,132 @@
 [
   {
     "id": 11,
-    "pertanyaan": "Observasi 1: Setiap kali saya menyiram tanaman A, ia tumbuh subur.\nObservasi 2: Setiap kali saya menyiram tanaman B, ia tumbuh subur.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Menyiram tanaman menyebabkan tanaman tumbuh subur.", "Tanaman A dan B adalah tanaman yang tumbuh subur.", "Semua tanaman akan tumbuh subur jika disiram.", "Penyiraman adalah satu-satunya faktor yang membuat tanaman tumbuh subur.", "Tanaman tumbuh subur terlepas dari penyiraman."],
-    "jawaban": "A",
-    "pembahasan": "Dari observasi spesifik yang konsisten, kita bisa menyimpulkan hubungan kausal bahwa menyiram tanaman berkontribusi pada pertumbuhan suburnya. Ini adalah generalisasi yang umum dalam penalaran induktif."
+    "pertanyaan": "Deret huruf dan angka: Z1A, Y2B, X4C, W8D, ...\n\nElemen berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "V16F",
+      "V16E",
+      "V16D",
+      "U16E",
+      "V32E"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Deret ini memiliki tiga pola yang saling terkait:\n1.  **Huruf pertama:** Berurutan mundur dari Z (Z, Y, X, W, V).\n2.  **Angka:** Deret angka dikalikan 2 ($1 \times 2 = 2$, $2 \times 2 = 4$, $4 \times 2 = 8$, $8 \times 2 = 16$).\n3.  **Huruf ketiga:** Berurutan maju dari A (A, B, C, D, E).\nDengan menggabungkan ketiga pola tersebut, elemen berikutnya adalah V16E."
   },
   {
     "id": 12,
-    "pertanyaan": "Urutan huruf: Z, X, V, T, ...\nHuruf selanjutnya dalam urutan ini adalah...",
-    "pilihan": ["S", "R", "Q", "P", "O"],
-    "jawaban": "B",
-    "pembahasan": "Pola ini adalah urutan huruf abjad yang mundur, dengan melompati satu huruf di antaranya (Z, lewati Y, X, lewati W, V, lewati U, T, lewati S, R)."
+    "pertanyaan": "Observasi: Setiap kali suhu air di Samudra Pasifik naik di atas rata-rata historisnya, wilayah tertentu di Asia Tenggara mengalami musim kemarau yang lebih panjang dari biasanya.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Kenaikan suhu air di Pasifik pasti menyebabkan kekeringan di Asia Tenggara.",
+      "Fenomena kenaikan suhu air di Pasifik adalah satu-satunya faktor penyebab musim kemarau panjang di Asia Tenggara.",
+      "Ada kemungkinan kuat bahwa kenaikan suhu air di Pasifik berkorelasi dengan periode kemarau yang lebih panjang di Asia Tenggara.",
+      "Musim kemarau di Asia Tenggara menyebabkan suhu air Pasifik naik.",
+      "Tidak ada hubungan yang bisa ditarik antara kedua fenomena tersebut."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Observasi ini menunjukkan adanya korelasi yang sangat konsisten, yang dikenal sebagai El Niño. Penalaran induktif memungkinkan kita untuk menyimpulkan adanya hubungan, tetapi tidak dapat membuktikan kausalitas mutlak. Oleh karena itu, kesimpulan yang paling akurat adalah bahwa ada 'kemungkinan kuat' hubungan tersebut tanpa mengklaimnya sebagai satu-satunya penyebab atau hubungan kausal yang pasti."
   },
   {
     "id": 13,
-    "pertanyaan": "Pengamatan: Hampir semua peserta pelatihan yang menggunakan metode belajar X menunjukkan peningkatan nilai ujian yang signifikan.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Metode belajar X menjamin peningkatan nilai ujian.", "Metode belajar X tidak efektif.", "Metode belajar X kemungkinan besar membantu meningkatkan nilai ujian.", "Hanya metode belajar X yang bisa meningkatkan nilai ujian.", "Peningkatan nilai ujian tidak ada hubungannya dengan metode belajar."],
-    "jawaban": "C",
-    "pembahasan": "Dengan sebagian besar peserta menunjukkan hasil positif, kesimpulan induktif yang paling akurat adalah bahwa metode tersebut kemungkinan besar efektif, namun tidak secara absolut karena ada kata 'hampir semua'."
+    "pertanyaan": "Pola deret angka: 1, 4, 9, 16, 25, 36, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "45",
+      "49",
+      "54",
+      "64",
+      "81"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah bilangan kuadrat dari bilangan bulat positif yang berurutan. Polanya adalah $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$, $6^2=36$. Maka, angka berikutnya adalah $7^2=49$."
   },
   {
     "id": 14,
-    "pertanyaan": "Pola gambar: Kotak, Lingkaran, Segitiga, Kotak, Lingkaran, ...\nGambar selanjutnya dalam pola ini adalah...",
-    "pilihan": ["Kotak", "Lingkaran", "Segitiga", "Oval", "Bintang"],
-    "jawaban": "C",
-    "pembahasan": "Pola gambar ini berulang setiap tiga elemen: Kotak, Lingkaran, Segitiga. Setelah 'Kotak, Lingkaran', gambar selanjutnya adalah 'Segitiga'."
+    "pertanyaan": "Premis 1: Semua seniman yang menggunakan cat air juga mahir dalam melukis potret.\nPremis 2: Sebagian pelukis potret yang mahir juga menguasai teknik pahat.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
+    "pilihan": [
+      "Beberapa seniman yang menggunakan cat air mahir dalam teknik pahat.",
+      "Semua pelukis potret yang mahir menggunakan cat air.",
+      "Tidak ada seniman yang mahir dalam teknik pahat dan menggunakan cat air.",
+      "Beberapa orang yang mahir dalam teknik pahat adalah seniman yang menggunakan cat air.",
+      "Semua orang yang mahir dalam teknik pahat adalah pelukis potret."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1, kita tahu bahwa 'seniman cat air' adalah sub-kelompok dari 'pelukis potret yang mahir'. Dari Premis 2, kita tahu bahwa ada tumpang tindih antara 'pelukis potret yang mahir' dengan 'orang yang menguasai teknik pahat'. Dengan menggabungkan kedua premis, dapat ditarik kesimpulan bahwa sebagian dari sub-kelompok pertama (seniman cat air) juga bisa termasuk dalam sub-kelompok yang tumpang tindih tersebut (menguasai teknik pahat). Jadi, 'beberapa seniman yang menggunakan cat air' bisa jadi 'mahir dalam teknik pahat'."
   },
   {
     "id": 15,
-    "pertanyaan": "Sebuah restoran telah menerima ulasan sangat baik dari 50 pelanggan pertama mereka. Semua ulasan memuji kualitas makanan yang konsisten.\n\nKesimpulan induktif yang paling kuat adalah...",
-    "pilihan": ["Restoran ini akan selalu menerima ulasan sangat baik.", "Kualitas makanan di restoran ini sangat mungkin konsisten dan baik.", "Hanya 50 pelanggan pertama yang puas.", "Restoran ini tidak akan pernah memiliki masalah kualitas makanan.", "Ulasan pelanggan tidak mencerminkan kualitas makanan."],
-    "jawaban": "B",
-    "pembahasan": "Dari sampel ulasan yang konsisten dan positif, dapat disimpulkan secara induktif bahwa kualitas makanan kemungkinan besar konsisten dan baik secara keseluruhan. Namun, ini tidak menjamin hasil yang sama di masa depan (tidak ada kepastian mutlak)."
+    "pertanyaan": "Pola deret gambar: Sebuah lingkaran, lalu sebuah lingkaran dengan satu garis vertikal, lalu sebuah lingkaran dengan satu garis vertikal dan satu garis horizontal. Pola ini terus berlanjut. Apa gambar yang ke-5?",
+    "pilihan": [
+      "Lingkaran dengan empat garis yang saling tegak lurus.",
+      "Lingkaran dengan lima garis yang saling tegak lurus.",
+      "Lingkaran dengan satu garis vertikal, satu garis horizontal, dan satu garis diagonal.",
+      "Lingkaran dengan dua garis vertikal dan dua garis horizontal.",
+      "Lingkaran dengan dua garis vertikal, satu garis horizontal."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pola ini menambahkan dua garis baru pada setiap langkah (satu vertikal dan satu horizontal). Urutannya adalah:\n1.  Gambar ke-1: Lingkaran (0 garis).\n2.  Gambar ke-2: Lingkaran + 1 garis vertikal.\n3.  Gambar ke-3: Lingkaran + 1 garis vertikal + 1 garis horizontal.\n4.  Gambar ke-4: Lingkaran + 2 garis vertikal + 1 garis horizontal.\n5.  Gambar ke-5: Lingkaran + 2 garis vertikal + 2 garis horizontal."
   },
   {
     "id": 16,
-    "pertanyaan": "Pola angka: $1, 4, 9, 16, \\dots$\nAngka selanjutnya dalam pola ini adalah...",
-    "pilihan": ["20", "25", "30", "36", "49"],
-    "jawaban": "B",
-    "pembahasan": "Pola ini adalah deret bilangan kuadrat dari bilangan bulat positif: $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$. Jadi, angka selanjutnya adalah $5^2=25$."
+    "pertanyaan": "Observasi: Setiap kali sebuah perusahaan meluncurkan produk baru dengan strategi pemasaran yang berfokus pada media sosial, pangsa pasarnya cenderung meningkat pesat dalam enam bulan pertama.\n\nKesimpulan induktif yang paling rasional adalah...",
+    "pilihan": [
+      "Media sosial adalah satu-satunya faktor yang menyebabkan peningkatan pangsa pasar.",
+      "Pemasaran media sosial selalu menjamin peningkatan pangsa pasar.",
+      "Ada probabilitas tinggi bahwa pemasaran media sosial merupakan faktor yang berkontribusi pada peningkatan pangsa pasar produk baru.",
+      "Peningkatan pangsa pasar hanya bergantung pada kualitas produk.",
+      "Tidak ada hubungan antara strategi pemasaran dan pangsa pasar."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Observasi tersebut menunjukkan korelasi yang kuat antara pemasaran media sosial dan peningkatan pangsa pasar. Kesimpulan induktif terbaik adalah bahwa pemasaran media sosial 'merupakan faktor yang berkontribusi', bukan satu-satunya faktor atau jaminan mutlak. Pilihan C adalah yang paling rasional dan sesuai dengan prinsip penalaran induktif."
   },
   {
     "id": 17,
-    "pertanyaan": "Setiap kali seorang politikus menggunakan argumen populisme, ia mendapatkan dukungan publik yang besar. Hal ini telah diamati dalam tiga pemilu terakhir.\n\nKesimpulan induktif yang paling logis adalah...",
-    "pilihan": ["Argumen populisme selalu menjamin dukungan publik.", "Politikus harus selalu menggunakan populisme untuk mendapatkan dukungan.", "Kemungkinan besar argumen populisme akan menarik dukungan publik di masa depan.", "Dukungan publik hanya bisa didapatkan melalui populisme.", "Ada faktor lain yang lebih penting daripada populisme."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan pola yang konsisten, disimpulkan bahwa penggunaan argumen populisme kemungkinan besar akan terus menarik dukungan publik. Ini adalah generalisasi probabilistik, bukan kepastian mutlak."
+    "pertanyaan": "Pola deret angka: 3, 5, 9, 17, 33, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "64",
+      "65",
+      "66",
+      "67",
+      "68"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah $(n \times 2) - 1$, di mana n adalah angka sebelumnya. Polanya adalah:\n$3 \times 2 - 1 = 5$\n$5 \times 2 - 1 = 9$\n$9 \times 2 - 1 = 17$\n$17 \times 2 - 1 = 33$\nMaka, angka berikutnya adalah $33 \times 2 - 1 = 66 - 1 = 65$."
   },
   {
     "id": 18,
-    "pertanyaan": "Pola: $\\text{Utara, Timur, Selatan, Barat, Utara, \\dots}$\nArah selanjutnya dalam pola ini adalah...",
-    "pilihan": ["Timur Laut", "Tenggara", "Timur", "Barat Daya", "Barat Laut"],
+    "pertanyaan": "Premis: Setiap kali volume penjualan 'smartwatch' di negara X meningkat, penjualan 'smartphone' juga meningkat. Namun, kenaikan penjualan 'smartwatch' tidak selalu mendahului kenaikan penjualan 'smartphone'.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": [
+      "Penjualan 'smartwatch' menyebabkan penjualan 'smartphone' meningkat.",
+      "Penjualan 'smartphone' menyebabkan penjualan 'smartwatch' meningkat.",
+      "Ada korelasi positif antara penjualan 'smartwatch' dan 'smartphone', tetapi hubungan kausalitasnya tidak jelas.",
+      "Penjualan 'smartwatch' dan 'smartphone' tidak berhubungan.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
     "jawaban": "C",
-    "pembahasan": "Pola ini adalah arah mata angin utama yang berputar searah jarum jam: Utara, Timur, Selatan, Barat. Setelah 'Utara', arah selanjutnya adalah 'Timur' untuk melanjutkan siklus."
+    "pembahasan": "Premis tersebut secara eksplisit menyatakan adanya korelasi positif antara penjualan kedua produk. Namun, kalimat 'kenaikan penjualan smartwatch tidak selalu mendahului kenaikan penjualan smartphone' secara langsung menghilangkan kemungkinan kausalitas satu arah (A menyebabkan B atau sebaliknya). Oleh karena itu, kesimpulan yang paling tepat adalah bahwa ada korelasi, tetapi hubungan sebab-akibatnya tidak bisa dipastikan."
   },
   {
     "id": 19,
-    "pertanyaan": "Pengamatan: Hampir semua mahasiswa yang rajin belajar di perpustakaan pada malam hari mendapatkan IPK tinggi.\n\nKesimpulan induktif yang paling 'tricky' (menyesatkan) yang bisa ditarik adalah...",
-    "pilihan": ["Belajar di perpustakaan pada malam hari adalah satu-satunya cara mendapatkan IPK tinggi.", "Belajar di perpustakaan pada malam hari kemungkinan besar berkorelasi dengan IPK tinggi.", "Mahasiswa yang tidak belajar di perpustakaan pada malam hari tidak akan mendapatkan IPK tinggi.", "Perpustakaan membuat mahasiswa pintar.", "IPK tinggi hanya bisa diraih oleh mahasiswa yang begadang."],
-    "jawaban": "A",
-    "pembahasan": "Pilihan A adalah yang paling tricky karena mengklaim kausalitas tunggal dan mutlak ('satu-satunya cara'), padahal observasi hanya menunjukkan korelasi yang kuat dan kemungkinan besar ada faktor lain yang berkontribusi pada IPK tinggi."
+    "pertanyaan": "Observasi: Sebuah eksperimen menunjukkan bahwa 90% dari tanaman yang disiram dengan 'Larutan X' tumbuh 20% lebih cepat daripada tanaman kontrol.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Larutan X secara mutlak mempercepat pertumbuhan tanaman.",
+      "Larutan X adalah penyebab pasti dari pertumbuhan cepat tanaman.",
+      "Ada kemungkinan besar bahwa Larutan X berkontribusi pada percepatan pertumbuhan tanaman.",
+      "Pertumbuhan cepat tanaman hanya disebabkan oleh Larutan X.",
+      "Data ini tidak cukup untuk menarik kesimpulan yang valid."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Hasil eksperimen yang sangat signifikan (90% tanaman) menunjukkan adanya hubungan yang kuat. Namun, karena tidak semua tanaman menunjukkan hasil yang sama (ada 10% yang tidak), kita tidak dapat menyimpulkan bahwa Larutan X adalah penyebab mutlak atau pasti. Kesimpulan induktif yang paling aman dan kuat adalah bahwa Larutan X 'memiliki kemungkinan besar berkontribusi' pada hasil tersebut."
   },
   {
     "id": 20,
-    "pertanyaan": "Pola: $A \\to C, B \\to D, C \\to E, \\dots$\nPola selanjutnya adalah...",
-    "pilihan": ["$D \\to F$", "$E \\to G$", "$F \\to H$", "$G \\to I$", "$H \\to J$"],
-    "jawaban": "D",
-    "pembahasan": "Dalam pola ini, huruf pertama setiap pasangan maju satu langkah dalam abjad ($A, B, C, \\dots$). Huruf kedua setiap pasangan juga maju satu langkah dari huruf kedua pasangan sebelumnya, atau dua langkah dari huruf pertama pasangan yang sama ($A \\to C$ (A+2), $B \\to D$ (B+2), $C \\to E$ (C+2)). Jadi, setelah $C \\to E$, pasangan selanjutnya akan dimulai dengan D, dan huruf kedua adalah $D+2 = F$. Sehingga menjadi $D \\to F$."
+    "pertanyaan": "Pola deret angka: 5, 10, 8, 16, 14, 28, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "24",
+      "26",
+      "28",
+      "30",
+      "56"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah kombinasi dari dua operasi yang berulang. Setiap angka dikalikan 2, lalu angka berikutnya dikurangi 2. Polanya adalah:\n$5 \times 2 = 10$\n$10 - 2 = 8$\n$8 \times 2 = 16$\n$16 - 2 = 14$\n$14 \times 2 = 28$\nMaka, angka berikutnya adalah $28 - 2 = 26$."
   }
 ]
