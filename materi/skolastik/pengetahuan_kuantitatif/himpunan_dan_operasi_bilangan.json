@@ -7,19 +7,39 @@
       "subItems": [
         {
           "judul": "1. Definisi dan Notasi Himpunan",
-          "teks": "Himpunan adalah kumpulan objek yang terdefinisi dengan jelas.\nNotasi:\n- Mendaftar anggota: $A=\\{1,2,3\\}$\n- Notasi pembentuk himpunan: $B=\\{x \\mid x \\text{ adalah bilangan genap kurang dari 10}\\}$"
+          "teks": "Himpunan adalah kumpulan objek yang terdefinisi dengan jelas.\nNotasi himpunan:\n- Mendaftar anggota: $A=\\{1,2,3\\}$\n- Notasi pembentuk himpunan: $B=\\{x \\mid x \\text{ adalah bilangan genap kurang dari 10}\\}$"
         },
         {
           "judul": "2. Jenis-jenis Himpunan",
-          "teks": "- Himpunan kosong ($\\emptyset$ atau $\\{\\}$)\n- Himpunan berhingga dan tak berhingga\n- Himpunan semesta ($S$ atau $U$)\n- Himpunan bagian ($A \\subseteq B$): Semua anggota $A$ juga anggota $B$.\n- Himpunan kuasa ($P(A)$): Himpunan semua himpunan bagian dari $A$.\n- Himpunan sama ($A=B$): Setiap anggota $A$ adalah anggota $B$, dan sebaliknya.\n- Himpunan saling lepas ($A \\cap B = \\emptyset$): Tidak ada anggota yang sama antara $A$ dan $B$."
+          "subItems": [
+            { "judul": "Himpunan Kosong", "teks": "Himpunan yang tidak memiliki anggota, dinotasikan dengan $\\emptyset$ atau $\\{\\}$." },
+            { "judul": "Himpunan Berhingga", "teks": "Himpunan dengan jumlah anggota terbatas." },
+            { "judul": "Himpunan Tak Berhingga", "teks": "Himpunan dengan jumlah anggota tidak terbatas." },
+            { "judul": "Himpunan Semesta", "teks": "Himpunan dari semua objek yang sedang dibicarakan, dinotasikan dengan $S$ atau $U$." },
+            { "judul": "Himpunan Bagian", "teks": "$A \\subseteq B$, artinya semua anggota himpunan $A$ juga merupakan anggota himpunan $B$." },
+            { "judul": "Himpunan Sama", "teks": "$A=B$, artinya setiap anggota $A$ adalah anggota $B$, dan sebaliknya." },
+            { "judul": "Himpunan Saling Lepas", "teks": "$A \\cap B = \\emptyset$, artinya tidak ada anggota yang sama antara $A$ dan $B$." }
+          ]
         },
         {
           "judul": "3. Operasi pada Himpunan",
-          "teks": "- Gabungan ($A \\cup B$): Semua anggota yang ada di $A$ atau $B$ (atau keduanya).\n- Irisan ($A \\cap B$): Semua anggota yang ada di $A$ dan di $B$.\n- Selisih ($A - B$): Semua anggota di $A$ tapi tidak di $B$.\n- Komplemen ($A'$): Semua anggota himpunan semesta $S$ yang tidak ada di $A$."
+          "subItems": [
+            { "judul": "Gabungan ($A \\cup B$)", "teks": "Himpunan yang anggotanya semua anggota yang ada di $A$ atau di $B$ (atau keduanya)." },
+            { "judul": "Irisan ($A \\cap B$)", "teks": "Himpunan yang anggotanya semua anggota yang ada di $A$ dan di $B$." },
+            { "judul": "Selisih ($A - B$)", "teks": "Himpunan yang anggotanya semua anggota di $A$ tapi tidak ada di $B$." },
+            { "judul": "Komplemen ($A'$)", "teks": "Himpunan yang anggotanya semua anggota himpunan semesta $S$ yang tidak ada di $A$." }
+          ]
         },
         {
-          "judul": "4. Diagram Venn dan Sifat Operasi",
-          "teks": "Diagram Venn: Representasi visual himpunan dan operasinya.\nSifat-sifat:\n- Komutatif: \n $A \\cup B = B \\cup A$, $A \\cap B = B \\cap A$\n- Asosiatif: \n $(A \\cup B) \\cup C = A \\cup (B \\cup C)$, $(A \\cap B) \\cap C = A \\cap (B \\cap C)$\n- Distributif: \n $A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$, $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$\n- Identitas: \n $A \\cup \\emptyset = A$, $A \\cap S = A$\n- Komplemen:\n $A \\cup A^c = S$, $A \\cap A^c = \\emptyset$\n- Hukum De Morgan: $(A \\cup B)^c = A^c \\cap B^c$, $(A \\cap B)^c = A^c \\cup B^c$"
+          "judul": "4. Sifat-sifat Operasi Himpunan",
+          "subItems": [
+            { "judul": "Komutatif", "teks": "$A \\cup B = B \\cup A$ dan $A \\cap B = B \\cap A$." },
+            { "judul": "Asosiatif", "teks": "$(A \\cup B) \\cup C = A \\cup (B \\cup C)$ dan $(A \\cap B) \\cap C = A \\cap (B \\cap C)$." },
+            { "judul": "Distributif", "teks": "$A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$ dan $A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)$." },
+            { "judul": "Identitas", "teks": "$A \\cup \\emptyset = A$ dan $A \\cap S = A$." },
+            { "judul": "Komplemen", "teks": "$A \\cup A' = S$ dan $A \\cap A' = \\emptyset$." },
+            { "judul": "Hukum De Morgan", "teks": "$(A \\cup B)' = A' \\cap B'$ dan $(A \\cap B)' = A' \\cup B'$." }
+          ]
         }
       ]
     },
@@ -28,52 +48,77 @@
       "subItems": [
         {
           "judul": "1. Jenis-jenis Bilangan",
-          "teks": "- Bilangan Asli \n ($N=\\{1,2,3,...\\}$)\n- Bilangan Cacah \n ($W=\\{0,1,2,3,...\\}$)\n- Bilangan Bulat \n ($Z=\\{...,-2,-1,0,1,2,...\\}$)\n- Bilangan Rasional \n ($Q=\\{p/q \\mid p,q \\in Z, q \\neq 0\\}$)\n- Bilangan Irrasional \n (tidak dapat dinyatakan sebagai pecahan)\n- Bilangan Real ($R$)"
+          "subItems": [
+            { "judul": "Bilangan Asli", "teks": "$N=\\{1,2,3,...\\}$" },
+            { "judul": "Bilangan Cacah", "teks": "$W=\\{0,1,2,3,...\\}$" },
+            { "judul": "Bilangan Bulat", "teks": "$Z=\\{...,-2,-1,0,1,2,...\\}$" },
+            { "judul": "Bilangan Rasional", "teks": "$Q=\\{p/q \\mid p,q \\in Z, q \\neq 0\\}$" },
+            { "judul": "Bilangan Irrasional", "teks": "Bilangan yang tidak dapat dinyatakan sebagai pecahan." },
+            { "judul": "Bilangan Real", "teks": "Himpunan semua bilangan rasional dan irrasional, dinotasikan dengan $R$." }
+          ]
         },
         {
           "judul": "2. Sifat-sifat Operasi Bilangan",
-          "teks": "- Komutatif: \n $a+b = b+a$, $a \\times b = b \\times a$\n- Asosiatif: \n $(a+b)+c = a+(b+c)$, $(a \\times b) \\times c = a \\times (b \\times c)$\n- Distributif: \n $a \\times (b+c) = a \\times b + a \\times c$\n- Identitas: Penjumlahan: \n $a+0 = a$, Perkalian: $a \\times 1 = a$\n- Invers: Penjumlahan: $a + (-a) = 0$, Perkalian: \n $a \\times (1/a) = 1$ ($a \\neq 0$)"
+          "subItems": [
+            { "judul": "Komutatif", "teks": "$a+b = b+a$ dan $a \\times b = b \\times a$." },
+            { "judul": "Asosiatif", "teks": "$(a+b)+c = a+(b+c)$ dan $(a \\times b) \\times c = a \\times (b \\times c)$." },
+            { "judul": "Distributif", "teks": "$a \\times (b+c) = a \\times b + a \\times c$." },
+            { "judul": "Identitas", "teks": "Penjumlahan: $a+0 = a$. Perkalian: $a \\times 1 = a$." },
+            { "judul": "Invers", "teks": "Penjumlahan: $a + (-a) = 0$. Perkalian: $a \\times (1/a) = 1$ ($a \\neq 0$)." }
+          ]
         },
         {
-          "judul": "3. Operasi dengan Pecahan",
-          "teks": "- Penjumlahan, pengurangan, perkalian, dan pembagian pecahan.\n- Samakan penyebut saat menjumlahkan/mengurangkan.\n"
+          "judul": "3. Sifat Eksponen",
+          "subItems": [
+            { "teks": "$a^m \\times a^n = a^{m+n}$" },
+            { "teks": "$a^m / a^n = a^{m-n}$" },
+            { "teks": "$(a^m)^n = a^{mn}$" },
+            { "teks": "$(ab)^m = a^m \\times b^m$" },
+            { "teks": "$(a/b)^m = a^m / b^m$" },
+            { "teks": "$a^0 = 1$ ($a \\neq 0$)" },
+            { "teks": "$a^{-n} = 1/a^n$" },
+            { "teks": "$a^{m/n} = (\\sqrt[n]{a})^m$" }
+          ]
         },
         {
-          "judul": "4. Operasi dengan Desimal",
-          "teks": "- Penjumlahan, pengurangan, perkalian, pembagian desimal."
-        },
-        {
-          "judul": "5. Operasi dengan Eksponen",
-          "teks": "- $a^m \\times a^n = a^{m+n}$\n- $a^m / a^n = a^{m-n}$\n- $(a^m)^n = a^{mn}$\n- $(ab)^m = a^m \\times b^m$\n- $(a/b)^m = a^m / b^m$\n- $a^0 = 1$ ($a \\neq 0$)\n- $a^{-n} = 1/a^n$\n- $a^{m/n} = (\\sqrt[n]{a})^m$"
-        },
-        {
-          "judul": "6. Operasi dengan Akar (Radikal)",
-          "teks": "- $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$\n- $\\sqrt{a} / \\sqrt{b} = \\sqrt{a/b}$\n- $c\\sqrt{a} + d\\sqrt{a} = (c+d)\\sqrt{a}$\n- Rasionalkan penyebut pecahan yang mengandung akar."
+          "judul": "4. Sifat Operasi Akar (Radikal)",
+          "subItems": [
+            { "teks": "$\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$" },
+            { "teks": "$\\sqrt{a} / \\sqrt{b} = \\sqrt{a/b}$" },
+            { "teks": "$c\\sqrt{a} + d\\sqrt{a} = (c+d)\\sqrt{a}$" },
+            { "teks": "Rasionalkan penyebut pecahan yang mengandung akar." }
+          ]
         }
       ]
     },
     {
       "judul": "Tips Belajar Praktis",
-      "teks": "- Pahami definisi dan notasi.\n- Gunakan diagram Venn untuk memahami himpunan.\n- Latih operasi dasar bilangan (bulat, pecahan, desimal).\n- Pahami sifat-sifat operasi (komutatif, asosiatif, distributif).\n- Hafalkan hukum eksponen dan cara menyederhanakan akar.\n- Latih berbagai jenis soal.\n- Baca soal dengan teliti dan identifikasi informasi penting.\n- Gunakan strategi seperti substitusi angka.\n- Review kesalahan dan pahami penyebabnya."
+      "subItems": [
+        { "teks": "Pahami definisi dan notasi dasar dengan kuat." },
+        { "teks": "Gunakan diagram Venn untuk memvisualisasikan operasi himpunan." },
+        { "teks": "Latih operasi dasar bilangan (bulat, pecahan, desimal)." },
+        { "teks": "Pahami sifat-sifat operasi (komutatif, asosiatif, distributif)." },
+        { "teks": "Hafalkan hukum eksponen dan cara menyederhanakan bentuk akar." },
+        { "teks": "Latih berbagai jenis soal dari yang mudah hingga sulit." },
+        { "teks": "Baca soal dengan teliti dan identifikasi informasi penting." },
+        { "teks": "Gunakan strategi seperti substitusi angka atau eliminasi pilihan jawaban." },
+        { "teks": "Review kesalahan dan pahami konsep di baliknya." }
+      ]
     },
     {
       "judul": "Contoh Soal Praktis",
       "subItems": [
         {
           "judul": "1. Soal Himpunan",
-          "teks": "Diketahui $A=\\{1,2,3,4,5\\}$ dan $B=\\{3,5,6,7\\}$. Tentukan $A \\cup B$ dan $A \\cap B$.\nJawaban:\n- $A \\cup B = \\{1,2,3,4,5,6,7\\}$\n- $A \\cap B = \\{3,5\\}$"
+          "teks": "Diketahui $A=\\{1,2,3,4,5\\}$ dan $B=\\{3,5,6,7\\}$. Tentukan $A \\cup B$ dan $A \\cap B$.\n- Jawaban: $A \\cup B = \\{1,2,3,4,5,6,7\\}$\n- Jawaban: $A \\cap B = \\{3,5\\}$"
         },
         {
-          "judul": "2. Soal Pecahan",
-          "teks": "Sederhanakan: $2/3 + 1/4 - 5/6$\n$\\to$ Samakan penyebut: \n $8/12 + 3/12 - 10/12 = 1/12$"
+          "judul": "2. Soal Eksponen",
+          "teks": "Sederhanakan: $(3^2 \\times 3^4) / 3^3$.\n- Jawaban: $3^{2+4-3} = 3^3 = 27$."
         },
         {
-          "judul": "3. Soal Eksponen",
-          "teks": "Sederhanakan: $(3^2 \\times 3^4) / 3^3$\n$\\to 3^{2+4-3} = 3^3 = 27$"
-        },
-        {
-          "judul": "4. Soal Rasionalkan Akar",
-          "teks": "Rasionalkan penyebut: $\\sqrt{2} / \\sqrt{3}$\n$\\to (\\sqrt{2} / \\sqrt{3}) \\times (\\sqrt{3} / \\sqrt{3}) = \\sqrt{6} / 3$"
+          "judul": "3. Soal Rasionalkan Akar",
+          "teks": "Rasionalkan penyebut: $\\sqrt{2} / \\sqrt{3}$.\n- Jawaban: $(\\sqrt{2} / \\sqrt{3}) \\times (\\sqrt{3} / \\sqrt{3}) = \\sqrt{6} / 3$."
         }
       ]
     }
