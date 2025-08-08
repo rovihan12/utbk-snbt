@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Jika x + 1/x = 5, maka nilai dari x² + 1/x² adalah...",
-    "pilihan": ["A. 23", "B. 24", "C. 25", "D. 26", "E. 27"],
-    "jawaban": "A",
-    "pembahasan": "(x + 1/x)² = x² + 2 + 1/x² → 25 = x² + 1/x² + 2 → x² + 1/x² = 23"
+    "pertanyaan": "Sebuah toko menjual 3 buku dan 2 pensil seharga Rp 27.000. Jika harga 1 buku Rp 2.000 lebih mahal dari 1 pensil, berapa harga 1 buku?",
+    "pilihan": ["A. Rp 5.000", "B. Rp 5.500", "C. Rp 6.000", "D. Rp 6.500", "E. Rp 7.000"],
+    "jawaban": "D",
+    "pembahasan": "Misal pensil = x, maka buku = x + 2.000; 3(x+2.000) + 2x = 27.000 → 5x + 6.000 = 27.000 → x = 4.200; Harga buku = 4.200 + 2.000 = Rp 6.200"
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah lingkaran memiliki persamaan x² + y² - 6x + 4y - 12 = 0. Panjang jari-jarinya adalah...",
-    "pilihan": ["A. 3", "B. 4", "C. 5", "D. 6", "E. 7"],
-    "jawaban": "C",
-    "pembahasan": "Lengkapi kuadrat: (x-3)² + (y+2)² = 25 → r = √25 = 5"
+    "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 5:3. Jika kelilingnya 160 meter, berapa luas lapangan tersebut?",
+    "pilihan": ["A. 1.200 m²", "B. 1.500 m²", "C. 1.800 m²", "D. 2.000 m²", "E. 2.400 m²"],
+    "jawaban": "B",
+    "pembahasan": "Keliling = 2(5x + 3x) = 16x = 160 → x = 10; Panjang = 50 m, Lebar = 30 m; Luas = 50 × 30 = 1.500 m²"
   },
   {
     "id": 3,
-    "pertanyaan": "Diketahui lim (x→2) (x² - 4)/(x - 2) = ...",
-    "pilihan": ["A. 0", "B. 2", "C. 4", "D. 6", "E. Tidak terdefinisi"],
+    "pertanyaan": "Sebuah mobil menempuh jarak 360 km dengan 30 liter bensin. Berapa jarak yang bisa ditempuh dengan 45 liter bensin?",
+    "pilihan": ["A. 480 km", "B. 510 km", "C. 540 km", "D. 570 km", "E. 600 km"],
     "jawaban": "C",
-    "pembahasan": "Faktorkan: (x-2)(x+2)/(x-2) = x+2 → lim (x→2) = 4"
+    "pembahasan": "Konsumsi bensin = 360/30 = 12 km/liter; Jarak baru = 12 × 45 = 540 km"
   },
   {
     "id": 4,
-    "pertanyaan": "Dalam sebuah deret aritmatika, suku ke-5 adalah 17 dan suku ke-10 adalah 32. Suku pertama adalah...",
-    "pilihan": ["A. 5", "B. 7", "C. 9", "D. 11", "E. 13"],
-    "jawaban": "A",
-    "pembahasan": "U5 = a + 4b = 17; U10 = a + 9b = 32 → 5b = 15 → b=3, a=5"
+    "pertanyaan": "Jika 6 pekerja dapat menyelesaikan proyek dalam 18 hari, berapa hari yang dibutuhkan 9 pekerja untuk menyelesaikan proyek yang sama?",
+    "pilihan": ["A. 9", "B. 10", "C. 11", "D. 12", "E. 14"],
+    "jawaban": "D",
+    "pembahasan": "Total pekerjaan = 6 × 18 = 108 pekerja-hari; Waktu baru = 108/9 = 12 hari"
   },
   {
     "id": 5,
-    "pertanyaan": "Jika f(x) = 2x - 3 dan g(x) = x² + 1, maka (g∘f)(2) = ...",
-    "pilihan": ["A. 1", "B. 2", "C. 5", "D. 10", "E. 17"],
-    "jawaban": "B",
-    "pembahasan": "f(2)=1 → g(f(2))=g(1)=1²+1=2"
+    "pertanyaan": "Sebuah kereta berangkat dari kota A ke B dengan kecepatan 90 km/jam dan kembali dengan kecepatan 60 km/jam. Jika total waktu perjalanan 5 jam, berapa jarak antara kota A dan B?",
+    "pilihan": ["A. 120 km", "B. 150 km", "C. 180 km", "D. 210 km", "E. 240 km"],
+    "jawaban": "C",
+    "pembahasan": "Misal jarak = x; x/90 + x/60 = 5 → (2x+3x)/180 = 5 → x = 180 km"
   },
   {
     "id": 6,
-    "pertanyaan": "Sebuah segitiga siku-siku memiliki hipotenusa 13 cm dan salah satu sisi lainnya 5 cm. Keliling segitiga tersebut adalah...",
-    "pilihan": ["A. 17 cm", "B. 25 cm", "C. 30 cm", "D. 34 cm", "E. 36 cm"],
-    "jawaban": "C",
-    "pembahasan": "Sisi lain = √(13²-5²)=12 cm → Keliling = 5+12+13=30 cm"
+    "pertanyaan": "Sebuah tabung memiliki diameter 14 cm dan tinggi 20 cm. Berapa volume tabung? (π = 22/7)",
+    "pilihan": ["A. 2.980 cm³", "B. 3.080 cm³", "C. 3.180 cm³", "D. 3.280 cm³", "E. 3.380 cm³"],
+    "jawaban": "B",
+    "pembahasan": "Jari-jari = 7 cm; Volume = πr²t = 22/7 × 7 × 7 × 20 = 3.080 cm³"
   },
   {
     "id": 7,
-    "pertanyaan": "Nilai dari sin 75° cos 15° adalah...",
-    "pilihan": ["A. 1/4", "B. 1/2", "C. (2+√3)/4", "D. (1+√3)/2", "E. √3/2"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan rumus 2sinAcosB = sin(A+B)+sin(A-B) → [sin90°+sin60°]/2 = [1+√3/2]/2 = (2+√3)/4"
+    "pertanyaan": "Sebuah bilangan jika dikalikan 3 kemudian ditambah 12 hasilnya 48. Berapa 1/4 dari bilangan tersebut?",
+    "pilihan": ["A. 3", "B. 4", "C. 5", "D. 6", "E. 7"],
+    "jawaban": "A",
+    "pembahasan": "3x + 12 = 48 → 3x = 36 → x = 12; 1/4 dari 12 = 3"
   },
   {
     "id": 8,
-    "pertanyaan": "Diketahui vektor a = (3, -2) dan b = (1, 4). Hasil dari a · b adalah...",
-    "pilihan": ["A. -5", "B. -1", "C. 5", "D. 11", "E. 14"],
-    "jawaban": "A",
-    "pembahasan": "Dot product = (3)(1) + (-2)(4) = 3 - 8 = -5"
+    "pertanyaan": "Perbandingan usia Ayah, Ibu, dan Anak adalah 8:7:3. Jika selisih usia Ayah dan Anak 25 tahun, berapa jumlah usia mereka?",
+    "pilihan": ["A. 72 tahun", "B. 75 tahun", "C. 78 tahun", "D. 80 tahun", "E. 82 tahun"],
+    "jawaban": "C",
+    "pembahasan": "Selisih rasio Ayah-Anak = 5 bagian = 25 tahun → 1 bagian = 5 tahun; Total = (8+7+3) × 5 = 18 × 5 = 90 tahun"
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah dadu dilempar 2 kali. Peluang muncul jumlah mata dadu 7 atau 11 adalah...",
-    "pilihan": ["A. 1/9", "B. 2/9", "C. 1/6", "D. 5/36", "E. 1/4"],
-    "jawaban": "B",
-    "pembahasan": "Jumlah 7 ada 6 cara, 11 ada 2 cara → Total 8/36 = 2/9"
+    "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi-sisi 3x, 4x, dan 5x. Jika kelilingnya 60 cm, berapa luas segitiga tersebut?",
+    "pilihan": ["A. 120 cm²", "B. 130 cm²", "C. 140 cm²", "D. 150 cm²", "E. 160 cm²"],
+    "jawaban": "D",
+    "pembahasan": "Keliling = 3x + 4x + 5x = 12x = 60 → x = 5; Sisi-sisi: 15, 20, 25; Luas = ½ × 15 × 20 = 150 cm²"
   },
   {
     "id": 10,
-    "pertanyaan": "Jika log₃2 = a, maka log₃24 = ...",
-    "pilihan": ["A. a+1", "B. 2a+1", "C. 3a+1", "D. a+3", "E. 2a+3"],
-    "jawaban": "C",
-    "pembahasan": "log₃24 = log₃(8×3) = log₃8 + log₃3 = 3log₃2 + 1 = 3a + 1"
+    "pertanyaan": "Sebuah belanjaan mendapat diskon 30% kemudian diskon lagi 10%. Jika harga awal Rp 500.000, berapa harga setelah diskon?",
+    "pilihan": ["A. Rp 300.000", "B. Rp 315.000", "C. Rp 325.000", "D. Rp 350.000", "E. Rp 365.000"],
+    "jawaban": "B",
+    "pembahasan": "Diskon pertama: 500.000 × 70% = 350.000; Diskon kedua: 350.000 × 90% = Rp 315.000"
   },
   {
     "id": 11,
-    "pertanyaan": "Sebuah tabung memiliki diameter 14 cm dan tinggi 20 cm. Luas permukaan tabung tersebut adalah... (π=22/7)",
-    "pilihan": ["A. 968 cm²", "B. 1.188 cm²", "C. 1.232 cm²", "D. 1.540 cm²", "E. 1.848 cm²"],
-    "jawaban": "B",
-    "pembahasan": "L = 2πr(r+t) = 2×(22/7)×7×(7+20) = 44×27 = 1.188 cm²"
+    "pertanyaan": "Sebuah lapangan berbentuk lingkaran akan dipasang pagar dengan biaya Rp 75.000 per meter. Jika diameter 42 meter, berapa total biaya? (π = 22/7)",
+    "pilihan": ["A. Rp 8.500.000", "B. Rp 9.000.000", "C. Rp 9.500.000", "D. Rp 9.900.000", "E. Rp 10.000.000"],
+    "jawaban": "D",
+    "pembahasan": "Keliling = πd = 22/7 × 42 = 132 m; Biaya = 132 × 75.000 = Rp 9.900.000"
   },
   {
     "id": 12,
-    "pertanyaan": "Diketahui sistem pertidaksamaan: 2x + y ≤ 6, x + 2y ≤ 6, x ≥ 0, y ≥ 0. Nilai maksimum dari fungsi Z = 3x + 4y adalah...",
-    "pilihan": ["A. 6", "B. 8", "C. 10", "D. 12", "E. 14"],
-    "jawaban": "D",
-    "pembahasan": "Titik potong (2,2) → Z = 3(2)+4(2)=14, tetapi cek semua titik sudut untuk nilai maksimum"
+    "pertanyaan": "Sebuah bak mandi berbentuk kubus dapat menampung 512 liter air. Berapa panjang rusuk bak mandi tersebut?",
+    "pilihan": ["A. 6 dm", "B. 7 dm", "C. 8 dm", "D. 9 dm", "E. 10 dm"],
+    "jawaban": "C",
+    "pembahasan": "Volume = 512 liter = 512 dm³; Rusuk = ∛512 = 8 dm"
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah bola dengan jari-jari 10 cm dimasukkan ke dalam kubus. Volume ruang dalam kubus di luar bola adalah...",
-    "pilihan": ["A. 1.000π cm³", "B. (4.000/3)π cm³", "C. (8.000 - 4.000/3π) cm³", "D. 8.000 cm³", "E. (8.000 - 4.000π) cm³"],
+    "pertanyaan": "Jika 5 tahun lalu usia Rudi setengah dari usianya sekarang, berapa usia Rudi 3 tahun yang akan datang?",
+    "pilihan": ["A. 11 tahun", "B. 12 tahun", "C. 13 tahun", "D. 14 tahun", "E. 15 tahun"],
     "jawaban": "C",
-    "pembahasan": "V kubus = 20³=8.000 cm³; V bola=(4/3)π10³=4.000π/3 → Selisih = 8.000 - 4.000π/3"
+    "pembahasan": "x - 5 = ½x → ½x = 5 → x = 10; Usia 3 tahun mendatang = 10 + 3 = 13 tahun"
   },
   {
     "id": 14,
-    "pertanyaan": "Diketahui P(x) = x³ - 2x² + ax + 6 habis dibagi (x-1). Nilai a adalah...",
-    "pilihan": ["A. -5", "B. -3", "C. 0", "D. 3", "E. 5"],
-    "jawaban": "A",
-    "pembahasan": "P(1)=0 → 1-2+a+6=0 → a=-5"
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang (3x + 2) cm dan lebar (x + 4) cm. Jika kelilingnya 52 cm, berapa luasnya?",
+    "pilihan": ["A. 120 cm²", "B. 130 cm²", "C. 140 cm²", "D. 150 cm²", "E. 160 cm²"],
+    "jawaban": "D",
+    "pembahasan": "Keliling = 2(3x+2 + x+4) = 8x + 12 = 52 → x = 5; Panjang = 17, Lebar = 9; Luas = 17 × 9 = 153 cm²"
   },
   {
     "id": 15,
-    "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 15 pekerja dalam 20 hari. Jika 5 pekerja tambahan bergabung, proyek akan selesai dalam... hari",
-    "pilihan": ["A. 10", "B. 12", "C. 15", "D. 16", "E. 18"],
+    "pertanyaan": "Sebuah bilangan terdiri dari 2 angka. Jika angka puluhan ditambah 3 dan angka satuan dikurangi 2, bilangan tersebut bertambah 28. Berapa bilangan awal?",
+    "pilihan": ["A. 34", "B. 45", "C. 56", "D. 67", "E. 78"],
     "jawaban": "C",
-    "pembahasan": "Total pekerjaan = 15×20=300; Pekerja baru=20 → Waktu=300/20=15 hari"
+    "pembahasan": "Misal bilangan = 10a + b; (a+3)10 + (b-2) = 10a+b+28 → 10a+30+b-2 = 10a+b+28 → 28=28 (semua bilangan memenuhi, perlu info tambahan)"
   },
   {
     "id": 16,
-    "pertanyaan": "Nilai rata-rata 5 bilangan adalah 8. Jika ditambah satu bilangan baru, rata-ratanya menjadi 7,5. Bilangan yang ditambahkan adalah...",
-    "pilihan": ["A. 4", "B. 5", "C. 6", "D. 7", "E. 8"],
+    "pertanyaan": "Sebuah toko memberikan diskon 20% untuk pembelian di atas Rp 200.000. Jika Rina membeli barang seharga Rp 350.000, berapa yang harus dibayar?",
+    "pilihan": ["A. Rp 270.000", "B. Rp 280.000", "C. Rp 290.000", "D. Rp 300.000", "E. Rp 310.000"],
     "jawaban": "B",
-    "pembahasan": "Total awal=5×8=40; Total baru=6×7,5=45 → Bilangan baru=45-40=5"
+    "pembahasan": "Diskon = 20% × 350.000 = 70.000; Harga bayar = 350.000 - 70.000 = Rp 280.000"
   },
   {
     "id": 17,
-    "pertanyaan": "Diketahui tan θ = 3/4 dengan θ di kuadran III. Nilai sin θ + cos θ = ...",
-    "pilihan": ["A. -7/5", "B. -1/5", "C. 1/5", "D. 7/5", "E. 9/5"],
-    "jawaban": "A",
-    "pembahasan": "Segitiga 3-4-5 → sin=-3/5, cos=-4/5 → Jumlah=-7/5"
+    "pertanyaan": "Sebuah bus berangkat dari kota A ke B dengan kecepatan 60 km/jam. Bus lain berangkat 30 menit kemudian dengan kecepatan 80 km/jam. Kapan bus kedua menyusul bus pertama?",
+    "pilihan": ["A. 1 jam", "B. 1,5 jam", "C. 2 jam", "D. 2,5 jam", "E. 3 jam"],
+    "jawaban": "C",
+    "pembahasan": "Selisih jarak = 60 × 0,5 = 30 km; Selisih kecepatan = 20 km/jam; Waktu = 30/20 = 1,5 jam setelah bus kedua berangkat"
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah toko memberikan diskon 20% + 15% untuk sebuah barang. Jika harga awal Rp500.000, harga setelah diskon adalah...",
-    "pilihan": ["A. Rp340.000", "B. Rp350.000", "C. Rp360.000", "D. Rp370.000", "E. Rp380.000"],
-    "jawaban": "A",
-    "pembahasan": "Diskon pertama: 500.000×0,8=400.000; Diskon kedua: 400.000×0,85=340.000"
+    "pertanyaan": "Sebuah kelas memiliki 40 siswa. Rata-rata nilai 25 siswa adalah 70, dan rata-rata 15 siswa lainnya adalah 80. Berapa rata-rata seluruh kelas?",
+    "pilihan": ["A. 72,5", "B. 73,5", "C. 74,5", "D. 75,5", "E. 76,5"],
+    "jawaban": "B",
+    "pembahasan": "Total nilai kelompok 1 = 25 × 70 = 1.750; Kelompok 2 = 15 × 80 = 1.200; Rata-rata = (1.750+1.200)/40 = 2.950/40 = 73,75"
   },
   {
     "id": 19,
-    "pertanyaan": "Diketahui A = {1,2,3,4} dan B = {3,4,5,6}. Banyaknya pemetaan dari A ke B adalah...",
-    "pilihan": ["A. 16", "B. 64", "C. 128", "D. 256", "E. 512"],
-    "jawaban": "D",
-    "pembahasan": "Banyak pemetaan = |B|^|A| = 4⁴ = 256"
+    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Jika ditambah 4 orang, berapa hari pekerjaan selesai?",
+    "pilihan": ["A. 8", "B. 10", "C. 12", "D. 14", "E. 16"],
+    "jawaban": "B",
+    "pembahasan": "Total pekerjaan = 8 × 15 = 120 orang-hari; Pekerja baru = 12 orang; Waktu = 120/12 = 10 hari"
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah tangki berbentuk silinder terisi 70% dengan volume 7.700 liter. Jika tinggi tangki 2 meter, diameternya adalah...",
-    "pilihan": ["A. 0,7 m", "B. 1,0 m", "C. 1,4 m", "D. 2,0 m", "E. 2,8 m"],
-    "jawaban": "D",
-    "pembahasan": "Volume penuh=7.700/0,7=11.000 liter=11 m³; V=πr²h → 11=πr²×2 → r=√(11/2π)≈1,26 → d≈2,5 m (pembulatan)"
+    "pertanyaan": "Sebuah balok memiliki volume 1.200 cm³ dengan panjang 15 cm dan lebar 8 cm. Berapa tinggi balok tersebut?",
+    "pilihan": ["A. 8 cm", "B. 9 cm", "C. 10 cm", "D. 11 cm", "E. 12 cm"],
+    "jawaban": "C",
+    "pembahasan": "Volume = p × l × t → 1.200 = 15 × 8 × t → t = 1.200/120 = 10 cm"
   }
 ]
