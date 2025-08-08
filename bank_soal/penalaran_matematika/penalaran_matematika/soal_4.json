@@ -133,10 +133,16 @@
     "pembahasan": "Misal x > y. x - y = 8 dan xy = 240. (x+y)² = (x-y)² + 4xy = 64 + 960 = 1.024 → x+y = 32."
   },
   {
-    "id": 80,
-    "pertanyaan": "Sebuah tangga sepanjang 10 meter bersandar pada tembok. Jika jarak kaki tangga ke tembok 6 meter, berapa tinggi tembok yang dicapai tangga?",
-    "pilihan": ["A. 6 m", "B. 7 m", "C. 8 m", "D. 9 m", "E. 10 m"],
-    "jawaban": "C",
-    "pembahasan": "Menggunakan teorema Pythagoras: tinggi = √(10² - 6²) = √(100-36) = √64 = 8 m."
-  }
+  "id": 80,
+  "pertanyaan": "Sebuah tangga sepanjang $10\\text{ m}$ bersandar pada tembok. Jika jarak kaki tangga ke tembok $6\\text{ m}$, berapa tinggi tembok yang dicapai tangga?",
+  "pilihan": [
+    "A. $6\\text{ m}$",
+    "B. $7\\text{ m}$",
+    "C. $8\\text{ m}$",
+    "D. $9\\text{ m}$",
+    "E. $10\\text{ m}$"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Menggunakan teorema Pythagoras: $$\\text{Tinggi} = \\sqrt{c^2 - a^2} = \\sqrt{10^2 - 6^2} = \\sqrt{100-36} = \\sqrt{64} = 8\\text{ m}$$ dimana $c$ adalah panjang tangga dan $a$ adalah jarak kaki tangga ke tembok."
+}
 ]
