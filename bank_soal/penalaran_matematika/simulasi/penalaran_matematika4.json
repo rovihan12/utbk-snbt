@@ -1,142 +1,142 @@
 [
   {
-    "id": 81,
-    "pertanyaan": "Jika $f(x) = x^2 - 4$ dan $(f \\circ g)(x) = x^2 + 6x + 5$, maka $g(x)$ adalah...",
-    "pilihan": ["$x+3$", "$x-3$", "$x+1$", "$x-1$", "$x+5$"],
-    "jawaban": "A",
-    "pembahasan": "Diketahui $(f \\circ g)(x) = f(g(x))$. Jadi $g(x)^2 - 4 = x^2 + 6x + 5$. Maka $g(x)^2 = x^2 + 6x + 9 = (x+3)^2$. Dengan demikian, $g(x) = x+3$."
-  },
-  {
-    "id": 82,
-    "pertanyaan": "Diketahui suku ke-3 dan suku ke-6 suatu barisan geometri berturut-turut adalah 12 dan 96. Suku pertama barisan tersebut adalah...",
-    "pilihan": ["2", "3", "4", "6", "8"],
-    "jawaban": "B",
-    "pembahasan": "Dalam barisan geometri, $U_n = ar^{n-1}$. Diketahui $U_3 = ar^2 = 12$ (1) dan $U_6 = ar^5 = 96$ (2). Bagi (2) dengan (1): $\\frac{ar^5}{ar^2} = \\frac{96}{12} \\implies r^3 = 8 \\implies r = 2$. Substitusikan $r=2$ ke (1): $a(2)^2 = 12 \\implies 4a = 12 \\implies a = 3$. Jadi, suku pertama adalah 3."
-  },
-  {
-    "id": 83,
-    "pertanyaan": "Nilai $\\lim_{x \\to 0} \\frac{1 - \\cos(4x)}{2x \\sin(x)}$ adalah...",
-    "pilihan": ["2", "4", "8", "16", "32"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan identitas $1 - \\cos(ax) = 2\\sin^2(\\frac{ax}{2})$ dan sifat limit $\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx} = \\frac{a}{b}$. \\begin{align*} \\lim_{x \\to 0} \\frac{1 - \\cos(4x)}{2x \\sin(x)} &= \\lim_{x \\to 0} \\frac{2\\sin^2(2x)}{2x \\sin(x)} \\\\ &= \\lim_{x \\to 0} \\frac{2\\sin(2x)\\sin(2x)}{2x \\sin(x)} \\\\ &= \\lim_{x \\to 0} \\frac{\\sin(2x)}{x} \\cdot \\frac{\\sin(2x)}{\\sin(x)} \\\\ &= (\\frac{2}{1}) \\cdot (\\frac{2}{1}) = 4 \\end{align*}"
-  },
-  {
-    "id": 84,
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 5 \\\\ 1 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} -3 & 4 \\\\ 2 & -1 \\end{pmatrix}$, maka determinan dari matriks $AB$ adalah...",
-    "pilihan": ["-1", "1", "-2", "2", "0"],
-    "jawaban": "A",
-    "pembahasan": "Determinan dari $A = (2)(3) - (5)(1) = 6 - 5 = 1$. Determinan dari $B = (-3)(-1) - (4)(2) = 3 - 8 = -5$. Sifat determinan: $\\det(AB) = \\det(A) \\cdot \\det(B) = 1 \\cdot (-5) = -5$."
-  },
-  {
-    "id": 85,
-    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah, 3 bola kuning, dan 2 bola hijau. Jika diambil 2 bola sekaligus secara acak, peluang terambilnya 1 bola merah dan 1 bola kuning adalah...",
-    "pilihan": ["$\\frac{1}{10}$", "$\\frac{1}{6}$", "$\\frac{1}{3}$", "$\\frac{5}{18}$", "$\\frac{1}{2}$"],
+    "id": 1,
+    "pertanyaan": "Seorang peneliti mengamati populasi bakteri yang berkembang mengikuti fungsi P(t) = 1000 × 2^(0.1t), dimana t dalam jam. Berapa jumlah bakteri setelah 15 jam?",
+    "pilihan": ["A. 2.828", "B. 4.000", "C. 5.657", "D. 8.000", "E. 11.314"],
     "jawaban": "C",
-    "pembahasan": "Jumlah total bola = $5 + 3 + 2 = 10$. Banyak cara mengambil 2 bola dari 10 adalah $C(10,2) = \\frac{10 \\times 9}{2 \\times 1} = 45$. Banyak cara mengambil 1 bola merah dari 5 adalah $C(5,1) = 5$. Banyak cara mengambil 1 bola kuning dari 3 adalah $C(3,1) = 3$. Banyak cara mengambil 1 merah dan 1 kuning adalah $C(5,1) \\times C(3,1) = 5 \\times 3 = 15$. Peluangnya adalah $\\frac{15}{45} = \\frac{1}{3}$."
+    "pembahasan": "Substitusi t=15: P(15) = 1000 × 2^(1.5) ≈ 1000 × 2.828 ≈ 5.657"
   },
   {
-    "id": 86,
-    "pertanyaan": "Jika $2^{3x+1} = 16$ dan $3^{y-2} = 81$, maka nilai dari $x+y$ adalah...",
-    "pilihan": ["5", "6", "7", "8", "9"],
-    "jawaban": "C",
-    "pembahasan": "Dari $2^{3x+1} = 16 \\implies 2^{3x+1} = 2^4 \\implies 3x+1 = 4 \\implies 3x = 3 \\implies x = 1$. Dari $3^{y-2} = 81 \\implies 3^{y-2} = 3^4 \\implies y-2 = 4 \\implies y = 6$. Maka $x+y = 1+6 = 7$."
-  },
-  {
-    "id": 87,
-    "pertanyaan": "Persamaan garis singgung kurva $y = \\sqrt{2x+1}$ di titik $(4, 3)$ adalah...",
-    "pilihan": ["$y = \\frac{1}{3}x + \\frac{5}{3}$", "$y = \\frac{1}{3}x - \\frac{5}{3}$", "$y = \\frac{1}{3}x + \\frac{7}{3}$", "$y = -\\frac{1}{3}x + \\frac{13}{3}$", "$y = \\frac{1}{3}x - \\frac{7}{3}$"],
-    "jawaban": "A",
-    "pembahasan": "Turunan pertama $y' = \\frac{1}{2\\sqrt{2x+1}} \\cdot 2 = \\frac{1}{\\sqrt{2x+1}}$. Di titik $(4,3)$, gradien garis singgung $m = \\frac{1}{\\sqrt{2(4)+1}} = \\frac{1}{\\sqrt{9}} = \\frac{1}{3}$. Persamaan garis singgung: $y - y_1 = m(x - x_1) \\implies y - 3 = \\frac{1}{3}(x - 4) \\implies y - 3 = \\frac{1}{3}x - \\frac{4}{3} \\implies y = \\frac{1}{3}x - \\frac{4}{3} + 3 \\implies y = \\frac{1}{3}x + \\frac{5}{3}$."
-  },
-  {
-    "id": 88,
-    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $\\frac{x-1}{x+2} \\ge 0$ adalah...",
-    "pilihan": ["$x < -2$ atau $x \\ge 1$", "$x \\le -2$ atau $x \\ge 1$", "$-2 < x \\le 1$", "$-2 \\le x \\le 1$", "$x \\ge 1$"],
-    "jawaban": "A",
-    "pembahasan": "Pembuat nol pembilang adalah $x=1$. Pembuat nol penyebut adalah $x=-2$. Uji titik pada garis bilangan. Karena penyebut tidak boleh nol, maka $x \\ne -2$. Untuk $x < -2$ (misal $x=-3$): $\\frac{-3-1}{-3+2} = \\frac{-4}{-1} = 4 \\ge 0$ (Benar). Untuk $-2 < x < 1$ (misal $x=0$): $\\frac{0-1}{0+2} = -\\frac{1}{2} < 0$ (Salah). Untuk $x \\ge 1$ (misal $x=2$): $\\frac{2-1}{2+2} = \\frac{1}{4} \\ge 0$ (Benar). Jadi, himpunan penyelesaiannya adalah $x < -2$ atau $x \\ge 1$."
-  },
-  {
-    "id": 89,
-    "pertanyaan": "Hasil dari $\\int (\\sqrt{x} - \\frac{1}{\\sqrt{x}}) dx$ adalah...",
-    "pilihan": ["$\\frac{2}{3}x^{3/2} - 2x^{1/2} + C$", "$\\frac{3}{2}x^{3/2} - \\frac{1}{2}x^{1/2} + C$", "$x^{3/2} - x^{1/2} + C$", "$\\frac{2}{3}x^{3/2} + 2x^{1/2} + C$", "$\\frac{1}{2\\sqrt{x}} + \\frac{1}{2x\\sqrt{x}} + C$"],
-    "jawaban": "A",
-    "pembahasan": "Ubah ke bentuk pangkat: $\\int (x^{1/2} - x^{-1/2}) dx$. Gunakan aturan integral daya: $\\int x^n dx = \\frac{1}{n+1}x^{n+1} + C$. $\\int x^{1/2} dx = \\frac{1}{1/2 + 1}x^{1/2 + 1} = \\frac{1}{3/2}x^{3/2} = \\frac{2}{3}x^{3/2}$. $\\int -x^{-1/2} dx = -\\frac{1}{-1/2 + 1}x^{-1/2 + 1} = -\\frac{1}{1/2}x^{1/2} = -2x^{1/2}$. Jadi, hasilnya $\\frac{2}{3}x^{3/2} - 2x^{1/2} + C$."
-  },
-  {
-    "id": 90,
-    "pertanyaan": "Diketahui fungsi kuadrat $f(x) = x^2 + 6x + c$. Jika fungsi tersebut memotong sumbu-y di titik $(0, 5)$, maka nilai minimum fungsi tersebut adalah...",
-    "pilihan": ["-4", "-3", "-2", "-1", "0"],
-    "jawaban": "A",
-    "pembahasan": "Fungsi memotong sumbu-y di $(0,5)$ berarti $f(0) = 5$. Dari $f(x) = x^2 + 6x + c$, $f(0) = 0^2 + 6(0) + c = c$. Jadi $c = 5$. Fungsi menjadi $f(x) = x^2 + 6x + 5$. Nilai minimum terjadi di $x = -b/(2a) = -6/(2 \\cdot 1) = -3$. Substitusikan $x=-3$ ke $f(x)$: $f(-3) = (-3)^2 + 6(-3) + 5 = 9 - 18 + 5 = -9 + 5 = -4$."
-  },
-  {
-    "id": 91,
-    "pertanyaan": "Pada sebuah segitiga XYZ, diketahui panjang sisi $x = 6$ cm, $y = 8$ cm, dan $z = 10$ cm. Nilai $\\cos Y$ adalah...",
-    "pilihan": ["$\\frac{1}{2}$", "$\\frac{3}{5}$", "$\\frac{4}{5}$", "$\\frac{3}{4}$", "$\\frac{1}{4}$"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan aturan kosinus: $y^2 = x^2 + z^2 - 2xz \\cos Y$. $8^2 = 6^2 + 10^2 - 2(6)(10) \\cos Y$. $64 = 36 + 100 - 120 \\cos Y$. $64 = 136 - 120 \\cos Y$. $120 \\cos Y = 136 - 64 = 72$. $\\cos Y = \\frac{72}{120} = \\frac{36}{60} = \\frac{3}{5}$."
-  },
-  {
-    "id": 92,
-    "pertanyaan": "Jika $\\log_x y = p$ dan $\\log_y z = q$, maka $\\log_{xz} (y^2z)$ adalah...",
-    "pilihan": ["$\\frac{2p+q}{p+q+1}$", "$\\frac{2p+1}{p+q+1}$", "$\\frac{p+q}{p+q+1}$", "$\\frac{2pq+q}{pq+1}$", "$\\frac{2+q}{p+q}$"],
-    "jawaban": "A",
-    "pembahasan": "Ubah semua logaritma ke basis umum, misalnya basis $x$. $\\log_x y = p$. Dari $\\log_y z = q$, maka $\\log_x z = \\log_x y \\cdot \\log_y z = pq$. Sekarang evaluasi $\\log_{xz} (y^2z)$: \\begin{align*} \\log_{xz} (y^2z) &= \\frac{\\log_x (y^2z)}{\\log_x (xz)} \\\\ &= \\frac{\\log_x y^2 + \\log_x z}{\\log_x x + \\log_x z} \\\\ &= \\frac{2\\log_x y + \\log_x z}{1 + \\log_x z} \\\\ &= \\frac{2p + pq}{1 + pq} = \\frac{p(2+q)}{1+pq} \\end{align*} (Catatan: Pilihan A adalah $\\frac{2p+q}{p+q+1}$. Sepertinya ada kesalahan dalam pilihan jawaban atau saya salah menafsirkan soal. Jika soalnya $\\log_{x z}(y^2)$ atau $\\log_{x z}(y z^2)$ maka mungkin ada jawaban yang cocok. Jika jawaban yang diharapkan adalah A, maka $pq$ di bagian pembilang dan penyebut harusnya $q$ dan $1+q$. Tapi itu tidak sesuai dengan definisi logaritma yang diberikan. Atau mungkin $y$ di penyebut menjadi $x$. Jika pilihan A adalah $\\frac{2p+q}{p+q+1}$ dan jawaban seharusnya $p(2+q)/(1+pq)$ ada kesalahan.) Mari kita koreksi pilihan A: $\\frac{2p+pq}{1+pq}$. (Jika itu yang dimaksud pilihan A, maka itu benar.)"
-  },
-  {
-    "id": 93,
-    "pertanyaan": "Persamaan garis singgung lingkaran $(x-1)^2 + (y+2)^2 = 10$ di titik $(2, 1)$ adalah...",
-    "pilihan": ["$x + 3y - 5 = 0$", "$x + 3y + 5 = 0$", "$3x + y - 5 = 0$", "$3x + y + 5 = 0$", "$x - 3y + 5 = 0$"],
-    "jawaban": "A",
-    "pembahasan": "Persamaan garis singgung lingkaran $(x-a)^2 + (y-b)^2 = r^2$ di titik $(x_1, y_1)$ adalah $(x_1-a)(x-a) + (y_1-b)(y-b) = r^2$. Pusat lingkaran $(1, -2)$. Titik singgung $(2, 1)$. Maka $(2-1)(x-1) + (1-(-2))(y-(-2)) = 10 \\implies 1(x-1) + 3(y+2) = 10 \\implies x - 1 + 3y + 6 = 10 \\implies x + 3y + 5 = 10 \\implies x + 3y - 5 = 0$."
-  },
-  {
-    "id": 94,
-    "pertanyaan": "Histogram di bawah menunjukkan data nilai ujian matematika siswa. Modus dari data tersebut adalah...",
-    "pilihan": ["65", "70", "72.5", "75", "77.5"],
-    "jawaban": "C",
-    "pembahasan": "Untuk menentukan modus dari data berkelompok yang disajikan dalam histogram, kita cari kelas modus (kelas dengan frekuensi tertinggi). Misalkan kelas modus adalah $L - U$ dengan frekuensi $f_m$. $L$ adalah batas bawah kelas modus. $d_1$ adalah selisih frekuensi kelas modus dengan frekuensi kelas sebelumnya. $d_2$ adalah selisih frekuensi kelas modus dengan frekuensi kelas sesudahnya. $p$ adalah panjang interval kelas. Rumus modus ($Mo$) adalah $Mo = L + (\\frac{d_1}{d_1 + d_2})p$. (Catatan: Tanpa gambar histogram, soal ini tidak dapat dijawab. Asumsi saya ada gambar histogram yang menunjukkan kelas 70-74 sebagai kelas modus, frekuensi kelas tersebut 10, frekuensi kelas sebelumnya (65-69) 8, frekuensi kelas sesudahnya (75-79) 6. Maka $L=69.5$, $d_1=10-8=2$, $d_2=10-6=4$, $p=5$. Maka $Mo = 69.5 + (\\frac{2}{2+4})5 = 69.5 + \\frac{1}{3} \\cdot 5 = 69.5 + 1.666... = 71.166...$. Jika pilihan C adalah 72.5, maka kelas modusnya adalah 70-74 dengan frekuensi lebih tinggi, misalnya 75-79 dengan frekuensi 12, sebelumnya 10, sesudahnya 8. Maka $L=74.5, d_1=2, d_2=4, p=5$. $Mo = 74.5 + (\\frac{2}{2+4})5 = 74.5 + 1.666... = 76.166...$. Modus 72.5 adalah titik tengah kelas 70-75. Ini tidak selalu modus. Perlu histogram. Jika ini adalah data diskrit, maka modus adalah nilai yang paling sering muncul. Jika ini adalah data berkelompok, perhitungan memerlukan frekuensi kelas. Anggap 72.5 adalah nilai tengah dari kelas modus."
-  },
-  {
-    "id": 95,
-    "pertanyaan": "Jika $(x, y)$ adalah penyelesaian dari sistem persamaan $x - y = -3$ dan $2x + 3y = 4$, maka nilai dari $x \\cdot y$ adalah...",
-    "pilihan": ["-4", "-2", "0", "2", "4"],
+    "id": 2,
+    "pertanyaan": "Sebuah drone terbang dari titik A(2,3) ke titik B(10,7) kemudian ke titik C(6,12). Berapa total jarak yang ditempuh drone?",
+    "pilihan": ["A. 10√2", "B. 12√5", "C. 4√17 + 2√13", "D. 4√5 + √41", "E. 8√2 + 4√5"],
     "jawaban": "D",
-    "pembahasan": "Diberikan sistem persamaan: 1) $x - y = -3$ dan 2) $2x + 3y = 4$. Dari (1), $x = y - 3$. Substitusikan ke (2): $2(y - 3) + 3y = 4 \\implies 2y - 6 + 3y = 4 \\implies 5y - 6 = 4 \\implies 5y = 10 \\implies y = 2$. Substitusikan $y=2$ ke $x = y - 3$: $x = 2 - 3 = -1$. Jadi, $(x, y) = (-1, 2)$. Nilai $x \\cdot y = (-1) \\cdot 2 = -2$. (Catatan: Ada kesalahan dalam pilihan jawaban, hasil seharusnya -2. Jika pilihan D adalah -2, maka itu jawabannya)."
+    "pembahasan": "Jarak AB = √[(10-2)²+(7-3)²] = √80 = 4√5; BC = √[(6-10)²+(12-7)²] = √41; Total = 4√5 + √41"
   },
   {
-    "id": 96,
-    "pertanyaan": "Diketahui kubus ABCD.EFGH dengan panjang rusuk 6 cm. Jarak titik D ke bidang ABFE adalah...",
-    "pilihan": ["$3\\sqrt{2}$ cm", "$6$ cm", "$6\\sqrt{2}$ cm", "$6\\sqrt{3}$ cm", "$12$ cm"],
+    "id": 3,
+    "pertanyaan": "Sebuah perusahaan memberi diskon 30% dan cashback 15% setelah diskon. Jika Pak Budi membeli barang seharga Rp1.200.000, berapa yang harus dibayar?",
+    "pilihan": ["A. Rp756.000", "B. Rp714.000", "C. Rp680.000", "D. Rp642.000", "E. Rp612.000"],
     "jawaban": "B",
-    "pembahasan": "Bidang ABFE adalah salah satu sisi tegak kubus. Jarak dari titik D ke bidang ABFE adalah panjang rusuk kubus yang tegak lurus dengan bidang tersebut, yaitu panjang AD atau BC atau FG atau EH. Karena panjang rusuk adalah 6 cm, maka jaraknya adalah 6 cm."
+    "pembahasan": "Harga setelah diskon = 1.200.000 × 0.7 = 840.000; Cashback = 840.000 × 0.15 = 126.000; Total bayar = 840.000 - 126.000 = 714.000"
   },
   {
-    "id": 97,
-    "pertanyaan": "Turunan pertama dari $f(x) = \\sin^3(4x)$ adalah $f'(x) = \\dots$",
-    "pilihan": ["$12\\sin^2(4x)\\cos(4x)$", "$3\\sin^2(4x)\\cos(4x)$", "$-12\\sin^2(4x)\\cos(4x)$", "$4\\sin^2(4x)\\cos(4x)$", "$12\\sin^2(4x)$"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan aturan rantai: $f'(x) = n[u(x)]^{n-1} \\cdot u'(x)$. Di sini $u(x) = \\sin(4x)$, jadi $u'(x) = \\cos(4x) \\cdot 4 = 4\\cos(4x)$. Maka $f'(x) = 3(\\sin(4x))^{3-1} \\cdot (4\\cos(4x)) = 12\\sin^2(4x)\\cos(4x)$."
-  },
-  {
-    "id": 98,
-    "pertanyaan": "Sebuah deret geometri tak hingga memiliki jumlah 18 dan rasio $\\frac{1}{3}$. Suku pertama deret tersebut adalah...",
-    "pilihan": ["6", "9", "12", "15", "18"],
+    "id": 4,
+    "pertanyaan": "Sebuah kerucut terpancung memiliki jari-jari bawah 14 cm, jari-jari atas 7 cm, dan tinggi 24 cm. Berapa volumenya? (π=22/7)",
+    "pilihan": ["A. 6.468 cm³", "B. 7.392 cm³", "C. 8.316 cm³", "D. 9.240 cm³", "E. 10.164 cm³"],
     "jawaban": "C",
-    "pembahasan": "Gunakan rumus jumlah deret geometri tak hingga $S_\\infty = \\frac{a}{1 - r}$. Diketahui $S_\\infty = 18$ dan $r = \\frac{1}{3}$. Maka $18 = \\frac{a}{1 - \\frac{1}{3}} \\implies 18 = \\frac{a}{\\frac{2}{3}} \\implies a = 18 \\cdot \\frac{2}{3} = 6 \\cdot 2 = 12$. Suku pertama adalah 12."
+    "pembahasan": "V = 1/3πh(R²+Rr+r²) = 1/3×22/7×24×(196+98+49) = 8.316 cm³"
   },
   {
-    "id": 99,
-    "pertanyaan": "Fungsi $f(x) = 2x^3 - 9x^2 + 12x - 5$ akan naik pada interval...",
-    "pilihan": ["$x < 1$ atau $x > 2$", "$1 < x < 2$", "$x < -2$ atau $x > -1$", "$-2 < x < -1$", "$x < 1$"],
-    "jawaban": "A",
-    "pembahasan": "Fungsi naik jika turunan pertama $f'(x) > 0$. $f'(x) = 6x^2 - 18x + 12$. Setel $f'(x) = 0$ untuk mencari titik stasioner: $6x^2 - 18x + 12 = 0$. Bagi dengan 6: $x^2 - 3x + 2 = 0$. Faktorkan: $(x-1)(x-2) = 0$. Jadi titik stasioner adalah $x=1$ dan $x=2$. Uji tanda $f'(x)$ pada garis bilangan. Untuk $x < 1$ (misal $x=0$): $f'(0) = 12 > 0$ (naik). Untuk $1 < x < 2$ (misal $x=1.5$): $f'(1.5) = 6(1.5)^2 - 18(1.5) + 12 = 6(2.25) - 27 + 12 = 13.5 - 27 + 12 = -1.5 < 0$ (turun). Untuk $x > 2$ (misal $x=3$): $f'(3) = 6(3)^2 - 18(3) + 12 = 54 - 54 + 12 = 12 > 0$ (naik). Jadi, fungsi naik pada interval $x < 1$ atau $x > 2$."
+    "id": 5,
+    "pertanyaan": "Diketahui f(x) = 3x - 2 dan g(x) = x² + 4. Berapa nilai dari (f∘g)(2)?",
+    "pilihan": ["A. 10", "B. 14", "C. 18", "D. 22", "E. 26"],
+    "jawaban": "D",
+    "pembahasan": "g(2) = 2² + 4 = 8; f(g(2)) = f(8) = 3×8 - 2 = 22"
   },
   {
-    "id": 100,
-    "pertanyaan": "Banyaknya bilangan genap yang terdiri dari 3 angka berbeda yang dapat dibentuk dari angka-angka 1, 2, 3, 4, 5, 6 adalah...",
-    "pilihan": ["48", "60", "72", "90", "120"],
+    "id": 6,
+    "pertanyaan": "Sebuah kapal berlayar ke timur sejauh 150 km, lalu belok 60° ke utara dan berlayar 200 km. Berapa jarak akhir dari titik awal?",
+    "pilihan": ["A. 250 km", "B. 275 km", "C. 304 km", "D. 325 km", "E. 350 km"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan aturan cosinus: √[150² + 200² - 2×150×200×cos(120°)] = √[22500+40000+30000] = √92500 ≈ 304 km"
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Dalam sebuah kelas, 60% siswa suka matematika, 50% suka fisika, dan 20% suka keduanya. Berapa persen yang tidak suka keduanya?",
+    "pilihan": ["A. 5%", "B. 10%", "C. 15%", "D. 20%", "E. 25%"],
     "jawaban": "B",
-    "pembahasan": "Kita akan membentuk bilangan genap 3 angka berbeda. Angka genap yang tersedia adalah 2, 4, 6 (ada 3 angka). Posisi Satuan: Hanya bisa diisi oleh 2, 4, atau 6 (3 pilihan). Posisi Ratusan: Dari 6 angka, 1 sudah dipakai untuk satuan. Sisa 5 angka. (5 pilihan). Posisi Puluhan: Dari 5 angka yang tersisa, 1 sudah dipakai untuk ratusan. Sisa 4 angka. (4 pilihan). Banyaknya bilangan yang dapat dibentuk = (Pilihan Ratusan) $\\times$ (Pilihan Puluhan) $\\times$ (Pilihan Satuan) = $5 \\times 4 \\times 3 = 60$."
+    "pembahasan": "Gunakan prinsip inklusi-eksklusi: 60% + 50% - 20% = 90% suka salah satu; Jadi 10% tidak suka keduanya"
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 10 m. Setiap pantulan mencapai 3/4 tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
+    "pilihan": ["A. 40 m", "B. 50 m", "C. 60 m", "D. 70 m", "E. 80 m"],
+    "jawaban": "D",
+    "pembahasan": "Deret tak hingga: 10 + 2×(7.5 + 5.625 + ...) = 10 + 2×(7.5/(1-3/4)) = 10 + 60 = 70 m"
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Diketahui matriks A = [2 1; 3 4] dan B = [1 0; -1 2]. Berapa determinan dari (A + B)?",
+    "pilihan": ["A. 5", "B. 10", "C. 15", "D. 16", "E. 25"],
+    "jawaban": "D",
+    "pembahasan": "A+B = [3 1; 2 6]; Determinan = (3×6)-(1×2) = 18-2 = 16"
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Sebuah tangga sepanjang 5 m bersandar pada dinding. Jika dasar tangga bergeser 1 m menjauhi dinding, berapa penurunan ketinggian ujung tangga?",
+    "pilihan": ["A. 0.5 m", "B. 1 m", "C. 1.5 m", "D. 2 m", "E. 2.5 m"],
+    "jawaban": "B",
+    "pembahasan": "Misal awal tinggi y: y² + x² = 25; Setelah geser: y'² + (x+1)² = 25; Selisih y-y' = √(25-x²) - √(25-(x+1)²) ≈ 1 m untuk x=3"
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Sebuah pabrik memproduksi 500 unit/hari dengan 20 pekerja. Jika efisiensi meningkat 25%, berapa unit bisa diproduksi dengan 15 pekerja?",
+    "pilihan": ["A. 375", "B. 425", "C. 450", "D. 468.75", "E. 500"],
+    "jawaban": "D",
+    "pembahasan": "Produktivitas baru = 500/20 × 1.25 = 31.25 unit/pekerja/hari; Total produksi = 15 × 31.25 = 468.75"
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., 1/64. Berapa banyak suku dalam barisan tersebut?",
+    "pilihan": ["A. 10", "B. 11", "C. 12", "D. 13", "E. 14"],
+    "jawaban": "B",
+    "pembahasan": "a=16, r=1/2; Un = 16×(1/2)^(n-1) = 1/64 → (1/2)^(n-1) = 1/1024 → n-1=10 → n=11"
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Sebuah prisma segi-6 beraturan memiliki volume 540√3 cm³ dan tinggi 15 cm. Berapa panjang sisi alasnya?",
+    "pilihan": ["A. 2 cm", "B. 3 cm", "C. 4 cm", "D. 5 cm", "E. 6 cm"],
+    "jawaban": "C",
+    "pembahasan": "Luas alas = Volume/tinggi = 540√3/15 = 36√3; Luas segi-6 = (3√3/2)s² → s=4 cm"
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Diketahui sistem persamaan: 2x + 3y = 13 dan 3x - y = 5. Berapa nilai x² + y²?",
+    "pilihan": ["A. 5", "B. 10", "C. 13", "D. 17", "E. 25"],
+    "jawaban": "A",
+    "pembahasan": "Solusi: x=2, y=1 → 2² + 1² = 4 + 1 = 5"
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Sebuah foto berukuran 30 cm × 40 cm akan diperbesar sehingga luasnya menjadi 4 kali semula. Berapa panjang diagonal foto setelah diperbesar?",
+    "pilihan": ["A. 50 cm", "B. 100 cm", "C. 120 cm", "D. 150 cm", "E. 200 cm"],
+    "jawaban": "B",
+    "pembahasan": "Luas awal = 1200 cm²; Luas baru = 4800 cm²; Skala = √4 = 2; Diagonal baru = 2×50 = 100 cm"
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Dalam sebuah kantong terdapat 3 kelereng merah, 4 biru, dan 5 hijau. Jika diambil 3 kelereng sekaligus, berapa peluang terambil ketiganya berbeda warna?",
+    "pilihan": ["A. 1/11", "B. 2/11", "C. 3/11", "D. 4/11", "E. 5/11"],
+    "jawaban": "C",
+    "pembahasan": "Peluang = (3×4×5)/C(12,3) = 60/220 = 3/11"
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Sebuah fungsi kuadrat f(x) melalui titik (1,0), (3,0), dan (0,6). Berapa nilai f(2)?",
+    "pilihan": ["A. -2", "B. -1", "C. 0", "D. 1", "E. 2"],
+    "jawaban": "A",
+    "pembahasan": "f(x) = a(x-1)(x-3); f(0)=3a=6 → a=2; f(2)=2(1)(-1)=-2"
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Diketahui log 2 = 0.301 dan log 3 = 0.477. Berapa nilai dari log(√72)?",
+    "pilihan": ["A. 0.928", "B. 0.953", "C. 0.978", "D. 1.028", "E. 1.053"],
+    "jawaban": "A",
+    "pembahasan": "log(√72) = 1/2 log(8×9) = 1/2 (3log2 + 2log3) = 1/2 (0.903 + 0.954) = 0.9285"
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Sebuah transformator memiliki efisiensi 90%. Jika daya input 500 watt dan tegangan output 220 V, berapa arus output?",
+    "pilihan": ["A. 1.8 A", "B. 2.0 A", "C. 2.2 A", "D. 2.4 A", "E. 2.6 A"],
+    "jawaban": "B",
+    "pembahasan": "Daya output = 500×0.9=450 W; I = P/V = 450/220 ≈ 2.045 A ≈ 2.0 A"
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Sebuah partikel bergerak dengan persamaan s(t) = t³ - 6t² + 9t + 5. Pada detik keberapa partikel berhenti sesaat?",
+    "pilihan": ["A. 1 dan 2", "B. 1 dan 3", "C. 2 dan 3", "D. 1 saja", "E. 3 saja"],
+    "jawaban": "B",
+    "pembahasan": "v(t) = ds/dt = 3t²-12t+9=0 → t²-4t+3=0 → t=1 atau t=3"
   }
 ]
