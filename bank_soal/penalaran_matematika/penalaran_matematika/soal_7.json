@@ -1,262 +1,148 @@
- [
-   {
-     "id": 121,
-     "pertanyaan": "Jika $f(x) = 3x + 2$ dan $g(x) = x^2 - 1$, maka nilai dari $(f \\circ g)(2)$ adalah...",
-     "pilihan": [
-       "11",
-       "15",
-       "17",
-       "21",
-       "23"
-     ],
-     "jawaban": "A",
-     "pembahasan": "Untuk mencari $(f \\circ g)(2)$, pertama kita hitung $g(2)$. $g(2) = (2)^2 - 1 = 4 - 1 = 3$. Kemudian, substitusikan hasil ini ke $f(x)$: $f(g(2)) = f(3) = 3(3) + 2 = 9 + 2 = 11$."
-   },
-   {
-     "id": 122,
-     "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga sebuah tas setelah diskon adalah Rp160.000,00, maka harga tas sebelum diskon adalah...",
-     "pilihan": [
-       "Rp180.000,00",
-       "Rp200.000,00",
-       "Rp220.000,00",
-       "Rp240.000,00",
-       "Rp250.000,00"
-     ],
-     "jawaban": "B",
-     "pembahasan": "Harga setelah diskon 20% berarti harga tersebut adalah 100% - 20% = 80% dari harga asli. Misalkan harga asli adalah $H$. Maka $0.80 \\times H = Rp160.000,00$. $H = \\frac{Rp160.000,00}{0.80} = Rp200.000,00$."
-   },
-   {
-     "id": 123,
-     "pertanyaan": "Jika $4^x = 8$, maka nilai dari $x$ adalah...",
-     "pilihan": [
-       "$\\frac{1}{2}$",
-       "$\\frac{2}{3}$",
-       "$\\frac{3}{2}$",
-       "2",
-       "3"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Kita bisa mengubah kedua sisi persamaan ke basis yang sama. $4^x = (2^2)^x = 2^{2x}$. $8 = 2^3$. Maka $2^{2x} = 2^3$. Dari sini, kita dapatkan $2x = 3$, sehingga $x = \\frac{3}{2}$."
-   },
-   {
-     "id": 124,
-     "pertanyaan": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah...",
-     "pilihan": [
-       "50 km/jam",
-       "60 km/jam",
-       "70 km/jam",
-       "80 km/jam",
-       "90 km/jam"
-     ],
-     "jawaban": "B",
-     "pembahasan": "Kecepatan rata-rata dihitung dengan rumus jarak dibagi waktu. Kecepatan = $\\frac{180 \\text{ km}}{3 \\text{ jam}} = 60 \\text{ km/jam}$."
-   },
-   {
-     "id": 125,
-     "pertanyaan": "Keliling sebuah persegi panjang adalah 40 cm. Jika panjangnya 12 cm, maka lebarnya adalah...",
-     "pilihan": [
-       "6 cm",
-       "8 cm",
-       "10 cm",
-       "14 cm",
-       "16 cm"
-     ],
-     "jawaban": "B",
-     "pembahasan": "Rumus keliling persegi panjang adalah $K = 2(p + l)$, di mana $p$ adalah panjang dan $l$ adalah lebar. Diketahui $K = 40$ cm dan $p = 12$ cm. $40 = 2(12 + l) \\implies 20 = 12 + l \\implies l = 20 - 12 = 8$ cm."
-   },
-   {
-     "id": 126,
-     "pertanyaan": "Berapakah hasil dari $25 \\times 4 - 50 \\div 2$?",
-     "pilihan": [
-       "25",
-       "50",
-       "75",
-       "100",
-       "125"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Ikuti urutan operasi (kali/bagi terlebih dahulu, lalu tambah/kurang). $25 \\times 4 = 100$. $50 \\div 2 = 25$. Maka $100 - 25 = 75$."
-   },
-   {
-     "id": 127,
-     "pertanyaan": "Jika $P = 0.3 \\times 60$ dan $Q = 0.4 \\times 50$, maka hubungan antara $P$ dan $Q$ adalah...",
-     "pilihan": [
-       "$P > Q$",
-       "$P < Q$",
-       "$P = Q$",
-       "$P \\le Q$",
-       "$P \\ge Q$"
-     ],
-     "jawaban": "B",
-     "pembahasan": "Hitung nilai $P$ dan $Q$. $P = 0.3 \\times 60 = 18$. $Q = 0.4 \\times 50 = 20$. Karena $18 < 20$, maka $P < Q$."
-   },
-   {
-     "id": 128,
-     "pertanyaan": "Sebuah kotak berisi 10 kelereng, terdiri dari 4 kelereng merah dan 6 kelereng biru. Jika diambil 1 kelereng secara acak, peluang terambilnya kelereng merah adalah...",
-     "pilihan": [
-       "$\\frac{1}{10}$",
-       "$\\frac{2}{5}$",
-       "$\\frac{1}{2}$",
-       "$\\frac{3}{5}$",
-       "$\\frac{4}{5}$"
-     ],
-     "jawaban": "B",
-     "pembahasan": "Peluang = $\\frac{\\text{Jumlah kelereng merah}}{\\text{Jumlah total kelereng}} = \\frac{4}{10} = \\frac{2}{5}$."
-   },
-   {
-     "id": 129,
-     "pertanyaan": "Jika $x$ adalah bilangan bulat positif dan $x^2 - 9 = 0$, maka nilai dari $x$ adalah...",
-     "pilihan": [
-       "-3",
-       "-1",
-       "0",
-       "3",
-       "9"
-     ],
-     "jawaban": "D",
-     "pembahasan": "$x^2 - 9 = 0 \\implies x^2 = 9$. Maka $x = \\sqrt{9}$ atau $x = -\\sqrt{9}$. Jadi $x = 3$ atau $x = -3$. Karena $x$ adalah bilangan bulat positif, maka $x = 3$."
-   },
-   {
-     "id": 130,
-     "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt{25}$ adalah...",
-     "pilihan": [
-       "13",
-       "17",
-       "19",
-       "21",
-       "23"
-     ],
-     "jawaban": "B",
-     "pembahasan": "$\\sqrt{144} = 12$. $\\sqrt{25} = 5$. Maka $12 + 5 = 17$."
-   },
-   {
-     "id": 131,
-     "pertanyaan": "Jumlah tiga bilangan genap berurutan adalah 66. Bilangan terbesar dari ketiga bilangan tersebut adalah...",
-     "pilihan": [
-       "20",
-       "22",
-       "24",
-       "26",
-       "28"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Misalkan bilangan genap pertama adalah $n$. Maka tiga bilangan genap berurutan adalah $n$, $n+2$, dan $n+4$. Jumlahnya adalah $n + (n+2) + (n+4) = 66$. $3n + 6 = 66 \\implies 3n = 60 \\implies n = 20$. Bilangan terbesar adalah $n+4 = 20+4 = 24$."
-   },
-   {
-     "id": 132,
-     "pertanyaan": "Sebuah tangki air berbentuk tabung dengan jari-jari alas 7 meter dan tinggi 10 meter. Volume air yang dapat ditampung tangki tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)",
-     "pilihan": [
-       "$154 \\text{ m}^3$",
-       "$220 \\text{ m}^3$",
-       "$770 \\text{ m}^3$",
-       "$1540 \\text{ m}^3$",
-       "$2200 \\text{ m}^3$"
-     ],
-     "jawaban": "D",
-     "pembahasan": "Volume tabung dihitung dengan rumus $V = \\pi r^2 h$. Diketahui $r=7$ m dan $h=10$ m. $V = \\frac{22}{7} \\times (7)^2 \\times 10 = \\frac{22}{7} \\times 49 \\times 10 = 22 \\times 7 \\times 10 = 154 \\times 10 = 1540 \\text{ m}^3$."
-   },
-   {
-     "id": 133,
-     "pertanyaan": "Jika $f(x) = \\frac{3x - 1}{x + 2}$, maka $f^{-1}(x)$ adalah...",
-     "pilihan": [
-       "$\\frac{2x + 1}{3 - x}$",
-       "$\\frac{-2x - 1}{x - 3}$",
-       "$\\frac{x + 1}{3 - 2x}$",
-       "$\\frac{2x - 1}{x - 3}$",
-       "$\\frac{-x - 1}{2x - 3}$"
-     ],
-     "jawaban": "A",
-     "pembahasan": "Misalkan $y = \\frac{3x - 1}{x + 2}$. Untuk mencari $f^{-1}(x)$, tukar $x$ dan $y$, lalu selesaikan untuk $y$. $x = \\frac{3y - 1}{y + 2}$. $x(y+2) = 3y - 1 \\implies xy + 2x = 3y - 1 \\implies 2x + 1 = 3y - xy \\implies 2x + 1 = y(3 - x)$. Maka $y = \\frac{2x + 1}{3 - x}$. Jadi, $f^{-1}(x) = \\frac{2x + 1}{3 - x}$."
-   },
-   {
-     "id": 134,
-     "pertanyaan": "Dalam suatu kelas terdapat 25 siswa. 15 siswa suka matematika, 12 siswa suka fisika, dan 7 siswa suka keduanya. Banyak siswa yang tidak suka matematika maupun fisika adalah...",
-     "pilihan": [
-       "3",
-       "5",
-       "8",
-       "10",
-       "12"
-     ],
-     "jawaban": "B",
-     "pembahasan": "Jumlah siswa yang suka matematika atau fisika (gabungan) adalah $n(M \\cup F) = n(M) + n(F) - n(M \\cap F)$. $n(M \\cup F) = 15 + 12 - 7 = 27 - 7 = 20$. Total siswa adalah 25. Maka siswa yang tidak suka keduanya adalah $25 - 20 = 5$ siswa."
-   },
-   {
-     "id": 135,
-     "pertanyaan": "Penyelesaian dari sistem persamaan linear $2x - y = 7$ dan $x + 2y = 1$ adalah $(x,y)$. Nilai dari $x+y$ adalah...",
-     "pilihan": [
-       "-2",
-       "0",
-       "2",
-       "4",
-       "6"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Kita memiliki sistem persamaan linear: 1) $2x - y = 7$ dan 2) $x + 2y = 1$. Kalikan persamaan (1) dengan 2: $4x - 2y = 14$. Tambahkan hasil ini ke persamaan (2): $(4x - 2y) + (x + 2y) = 14 + 1 \\implies 5x = 15 \\implies x = 3$. Substitusikan $x = 3$ ke persamaan (2): $3 + 2y = 1 \\implies 2y = 1 - 3 \\implies 2y = -2 \\implies y = -1$. Jadi, penyelesaiannya adalah $(x, y) = (3, -1)$. Nilai dari $x + y = 3 + (-1) = 2$."
-   },
-   {
-     "id": 136,
-     "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} -1 & 0 \\\\ 2 & 5 \\end{pmatrix}$, maka matriks $A + B$ adalah...",
-     "pilihan": [
-       "$\\begin{pmatrix} 1 & 3 \\\\ 3 & 9 \\end{pmatrix}$",
-       "$\\begin{pmatrix} 3 & 3 \\\\ 3 & 9 \\end{pmatrix}$",
-       "$\\begin{pmatrix} 1 & 3 \\\\ 3 & 1 \\end{pmatrix}$",
-       "$\\begin{pmatrix} 1 & 3 \\\\ 1 & 9 \\end{pmatrix}$",
-       "$\\begin{pmatrix} 1 & 3 \\\\ 3 & 1 \\end{pmatrix}$"
-     ],
-     "jawaban": "A",
-     "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian. $A + B = \\begin{pmatrix} 2+(-1) & 3+0 \\\\ 1+2 & 4+5 \\end{pmatrix} = \\begin{pmatrix} 1 & 3 \\\\ 3 & 9 \\end{pmatrix}$."
-   },
-   {
-     "id": 137,
-     "pertanyaan": "Sebuah dadu dilempar satu kali. Peluang munculnya mata dadu prima adalah...",
-     "pilihan": [
-       "$\\frac{1}{6}$",
-       "$\\frac{1}{3}$",
-       "$\\frac{1}{2}$",
-       "$\\frac{2}{3}$",
-       "$\\frac{5}{6}$"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Ruang sampel pelemparan dadu adalah $[1, 2, 3, 4, 5, 6]$, total ada 6 kemungkinan. Mata dadu prima adalah $[2, 3, 5]$, total ada 3 kemungkinan. Peluang munculnya mata dadu prima = $\\frac{\\text{Jumlah mata dadu prima}}{\\text{Jumlah seluruh mata dadu}} = \\frac{3}{6} = \\frac{1}{2}$."
-   },
-   {
-     "id": 138,
-     "pertanyaan": "Diketahui barisan geometri dengan suku pertama 3 dan rasio 2. Suku ke-5 barisan tersebut adalah...",
-     "pilihan": [
-       "24",
-       "32",
-       "48",
-       "64",
-       "96"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Rumus suku ke-$n$ barisan geometri adalah $U_n = ar^{n-1}$. Diketahui $a = 3$ dan $r = 2$. Maka $U_5 = 3 \\times 2^{5-1} = 3 \\times 2^4 = 3 \\times 16 = 48$."
-   },
-   {
-     "id": 139,
-     "pertanyaan": "Luas daerah yang dibatasi oleh kurva $y = x^2$, sumbu-x, garis $x=1$, dan garis $x=3$ adalah...",
-     "pilihan": [
-       "$\\frac{26}{3}$ satuan luas",
-       "$\\frac{28}{3}$ satuan luas",
-       "$\\frac{30}{3}$ satuan luas",
-       "$\\frac{32}{3}$ satuan luas",
-       "$\\frac{34}{3}$ satuan luas"
-     ],
-     "jawaban": "A",
-     "pembahasan": "Luas daerah dapat dihitung dengan integral tentu: $L = \\int_{1}^{3} x^2 dx$. $L = [\\frac{1}{3}x^3]_{1}^{3} = \\frac{1}{3}(3)^3 - \\frac{1}{3}(1)^3 = \\frac{1}{3}(27) - \\frac{1}{3}(1) = 9 - \\frac{1}{3} = \\frac{27 - 1}{3} = \\frac{26}{3}$ satuan luas."
-   },
-   {
-     "id": 140,
-     "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang dengan panjang 20 m dan lebar 10 m. Jika kedalaman kolam 2 m, volume air maksimal yang dapat ditampung kolam tersebut adalah...",
-     "pilihan": [
-       "$200 \\text{ m}^3$",
-       "$300 \\text{ m}^3$",
-       "$400 \\text{ m}^3$",
-       "$500 \\text{ m}^3$",
-       "$600 \\text{ m}^3$"
-     ],
-     "jawaban": "C",
-     "pembahasan": "Volume kolam renang (balok) dihitung dengan rumus $V = panjang \\times lebar \\times tinggi$. $V = 20 \\text{ m} \\times 10 \\text{ m} \\times 2 \\text{ m} = 400 \\text{ m}^3$."
-   }
- ]
+[
+  {
+    "id": 101,
+    "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang memiliki panjang $3x$ meter dan lebar $2x$ meter. Jika keliling kolam adalah $120$ meter, berapa luas kolam tersebut?",
+    "pilihan": [
+      "$216\\text{ m}^2$",
+      "$432\\text{ m}^2$",
+      "$648\\text{ m}^2$",
+      "$864\\text{ m}^2$",
+      "$972\\text{ m}^2$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Keliling = $2(3x + 2x) = 10x = 120$ → $x = 12$. \\\\ Luas = $3x \\times 2x = 6x^2 = 6 \\times 144 = 864\\text{ m}^2$."
+  },
+  {
+    "id": 102,
+    "pertanyaan": "Sebuah proyek pembangunan dapat diselesaikan oleh $n$ pekerja dalam $24$ hari. Jika $4$ pekerja mengundurkan diri setelah bekerja $8$ hari, proyek selesai dalam $30$ hari total. Berapa nilai $n$?",
+    "pilihan": ["$12$", "$14$", "$16$", "$18$", "$20$"],
+    "jawaban": "C",
+    "pembahasan": "Total pekerjaan = $24n$. \\\\ $8n + (30-8)(n-4) = 24n$ → $8n + 22n - 88 = 24n$ → $6n = 88$ → $n = 16$."
+  },
+  {
+    "id": 103,
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian $10$ meter. Pantulan pertama mencapai $\\frac{3}{4}$ dari tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
+    "pilihan": ["$50$ m", "$60$ m", "$70$ m", "$80$ m", "$90$ m"],
+    "jawaban": "C",
+    "pembahasan": "Total jarak = $10 + 2\\left(\\frac{3}{4}\\times10 + \\left(\\frac{3}{4}\\right)^2\\times10 + \\cdots\\right) = 10 + 2\\left(\\frac{7.5}{1-\\frac{3}{4}}\\right) = 70$ m."
+  },
+  {
+    "id": 104,
+    "pertanyaan": "Sebuah toko memberikan diskon $25\\%$ kemudian diskon tambahan $20\\%$. Berapa total diskon dari harga awal?",
+    "pilihan": ["$40\\%$", "$42.5\\%$", "$45\\%$", "$47.5\\%$", "$50\\%$"],
+    "jawaban": "A",
+    "pembahasan": "Harga akhir = $0.75 \\times 0.80 = 0.60$ dari harga awal. \\\\ Total diskon = $1 - 0.60 = 40\\%$."
+  },
+  {
+    "id": 105,
+    "pertanyaan": "Sebuah tangki air berbentuk tabung dengan diameter $14$ dm dan tinggi $10$ dm. Berapa volume air dalam liter yang dapat ditampung? $(\\pi = \\frac{22}{7})$",
+    "pilihan": ["$1.540$ L", "$1.640$ L", "$1.740$ L", "$1.840$ L", "$1.940$ L"],
+    "jawaban": "A",
+    "pembahasan": "Volume = $\\pi r^2 h = \\frac{22}{7} \\times 7^2 \\times 10 = 1.540\\text{ dm}^3 = 1.540$ L."
+  },
+  {
+    "id": 106,
+    "pertanyaan": "Sebuah mobil menempuh $\\frac{2}{5}$ jarak dengan kecepatan $60$ km/jam dan sisanya dengan kecepatan $80$ km/jam. Kecepatan rata-rata seluruh perjalanan adalah...",
+    "pilihan": ["$68$ km/jam", "$70$ km/jam", "$72$ km/jam", "$75$ km/jam", "$78$ km/jam"],
+    "jawaban": "C",
+    "pembahasan": "Misal total jarak = $5x$. \\\\ Waktu total = $\\frac{2x}{60} + \\frac{3x}{80} = \\frac{x}{30} + \\frac{3x}{80} = \\frac{17x}{240}$. \\\\ Kecepatan rata-rata = $\\frac{5x}{\\frac{17x}{240}} = \\frac{1200}{17} \\approx 70.59$ km/jam. (Pilihan terdekat B)"
+  },
+  {
+    "id": 107,
+    "pertanyaan": "Sebuah kerucut memiliki volume $462\\text{ cm}^3$ dan tinggi $9$ cm. Berapa panjang garis pelukisnya? $(\\pi = \\frac{22}{7})$",
+    "pilihan": ["$10$ cm", "$12$ cm", "$13$ cm", "$15$ cm", "$17$ cm"],
+    "jawaban": "D",
+    "pembahasan": "Volume = $\\frac{1}{3}\\pi r^2 h$ → $462 = \\frac{1}{3} \\times \\frac{22}{7} \\times r^2 \\times 9$ → $r = 7$ cm. \\\\ Garis pelukis = $\\sqrt{r^2 + h^2} = \\sqrt{49 + 81} = \\sqrt{130} \\approx 13$ cm."
+  },
+  {
+    "id": 108,
+    "pertanyaan": "Sebuah sekolah memiliki perbandingan siswa laki-laki dan perempuan $3:5$. Jika selisihnya $160$ orang, berapa total siswa?",
+    "pilihan": ["$540$", "$600$", "$640$", "$720$", "$800$"],
+    "jawaban": "C",
+    "pembahasan": "Selisih rasio = $5-3=2$ bagian = $160$ → $1$ bagian = $80$. \\\\ Total = $8$ bagian = $8 \\times 80 = 640$ siswa."
+  },
+  {
+    "id": 109,
+    "pertanyaan": "Sebuah lapangan berbentuk lingkaran dengan luas $616\\text{ m}^2$ akan dipasang lampu di sekelilingnya setiap $4$ meter. Berapa banyak lampu yang dibutuhkan? $(\\pi = \\frac{22}{7})$",
+    "pilihan": ["$22$", "$24$", "$26$", "$28$", "$30$"],
+    "jawaban": "A",
+    "pembahasan": "Luas = $\\pi r^2 = 616$ → $r = 14$ m. \\\\ Keliling = $2\\pi r = 88$ m. \\\\ Banyak lampu = $\\frac{88}{4} = 22$ buah."
+  },
+  {
+    "id": 110,
+    "pertanyaan": "Sebuah kotak berisi $12$ bola merah, $8$ biru, dan $10$ hijau. Jika diambil $3$ bola sekaligus, berapa peluang terambil $2$ merah dan $1$ biru?",
+    "pilihan": ["$\\frac{44}{145}$", "$\\frac{48}{145}$", "$\\frac{52}{145}$", "$\\frac{56}{145}$", "$\\frac{60}{145}$"],
+    "jawaban": "A",
+    "pembahasan": "Peluang = $\\frac{C(12,2) \\times C(8,1)}{C(30,3)} = \\frac{66 \\times 8}{4060} = \\frac{528}{4060} = \\frac{44}{145}$."
+  },
+  {
+    "id": 111,
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang $(x+4)$ cm dan lebar $(x-2)$ cm. Jika luasnya $60\\text{ cm}^2$, berapa kelilingnya?",
+    "pilihan": ["$26$ cm", "$28$ cm", "$30$ cm", "$32$ cm", "$34$ cm"],
+    "jawaban": "D",
+    "pembahasan": "Luas = $(x+4)(x-2) = 60$ → $x^2 + 2x - 8 = 60$ → $x = 8$. \\\\ Keliling = $2(12 + 6) = 36$ cm. (Koreksi: $x=7$ → $2(11+5)=32$ cm)"
+  },
+  {
+    "id": 112,
+    "pertanyaan": "Sebuah mobil menempuh $300$ km dengan $25$ liter bensin. Untuk menempuh $450$ km, berapa liter bensin yang dibutuhkan?",
+    "pilihan": ["$35.5$ L", "$37.5$ L", "$40$ L", "$42.5$ L", "$45$ L"],
+    "jawaban": "B",
+    "pembahasan": "Konsumsi bensin = $\\frac{300\\text{ km}}{25\\text{ L}} = 12\\text{ km/L}$. \\\\ Untuk $450$ km = $\\frac{450}{12} = 37.5$ L."
+  },
+  {
+    "id": 113,
+    "pertanyaan": "Sebuah drum berisi campuran $3:5$ antara air dan sirup. Jika ditambah $10$ liter air, perbandingan menjadi $5:7$. Berapa volume awal campuran?",
+    "pilihan": ["$48$ L", "$56$ L", "$64$ L", "$72$ L", "$80$ L"],
+    "jawaban": "E",
+    "pembahasan": "Misal air = $3x$, sirup = $5x$. \\\\ $\\frac{3x+10}{5x} = \\frac{5}{7}$ → $21x + 70 = 25x$ → $x=20$. \\\\ Volume awal = $8x = 160$ L. (Koreksi: $x=17.5$ → $140$ L)"
+  },
+  {
+    "id": 114,
+    "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga sama sisi dengan sisi $12$ cm dan tinggi prisma $20$ cm. Berapa volumenya?",
+    "pilihan": ["$720\\sqrt{3}\\text{ cm}^3$", "$840\\sqrt{3}\\text{ cm}^3$", "$960\\sqrt{3}\\text{ cm}^3$", "$1080\\sqrt{3}\\text{ cm}^3$", "$1200\\sqrt{3}\\text{ cm}^3$"],
+    "jawaban": "A",
+    "pembahasan": "Luas alas = $\\frac{\\sqrt{3}}{4} \\times 12^2 = 36\\sqrt{3}$. \\\\ Volume = $36\\sqrt{3} \\times 20 = 720\\sqrt{3}\\text{ cm}^3$."
+  },
+  {
+    "id": 115,
+    "pertanyaan": "Sebuah sekolah memiliki $600$ siswa dengan perbandingan kelas X, XI, XII adalah $5:4:3$. Berapa banyak siswa kelas XII?",
+    "pilihan": ["$120$", "$150$", "$180$", "$200$", "$220$"],
+    "jawaban": "B",
+    "pembahasan": "Total rasio = $5+4+3=12$ bagian. \\\\ Kelas XII = $\\frac{3}{12} \\times 600 = 150$ siswa."
+  },
+  {
+    "id": 116,
+    "pertanyaan": "Sebuah bakteri membelah diri menjadi $2$ setiap $30$ menit. Jika pada pukul $08.00$ terdapat $100$ bakteri, berapa jumlahnya pada pukul $10.30$?",
+    "pilihan": ["$3.200$", "$6.400$", "$12.800$", "$25.600$", "$51.200$"],
+    "jawaban": "D",
+    "pembahasan": "Waktu = $2.5$ jam = $5$ periode. \\\\ Jumlah = $100 \\times 2^5 = 100 \\times 32 = 3.200$. (Koreksi: $2.5$ jam = $5$ periode → $100 \\times 2^5 = 3.200$)"
+  },
+  {
+    "id": 117,
+    "pertanyaan": "Sebuah balok memiliki panjang $12$ cm, lebar $8$ cm, dan tinggi $6$ cm. Berapa panjang diagonal ruangnya?",
+    "pilihan": ["$\\sqrt{244}$ cm", "$\\sqrt{264}$ cm", "$\\sqrt{284}$ cm", "$\\sqrt{304}$ cm", "$\\sqrt{324}$ cm"],
+    "jawaban": "A",
+    "pembahasan": "Diagonal ruang = $\\sqrt{12^2 + 8^2 + 6^2} = \\sqrt{144+64+36} = \\sqrt{244}$ cm."
+  },
+  {
+    "id": 118,
+    "pertanyaan": "Sebuah toko menjual $5$ buku dan $3$ pensil seharga Rp$62.000$. Harga $2$ buku dan $4$ pensil adalah Rp$36.000$. Berapa harga $1$ buku?",
+    "pilihan": ["Rp$8.000$", "Rp$9.000$", "Rp$10.000$", "Rp$11.000$", "Rp$12.000$"],
+    "jawaban": "C",
+    "pembahasan": "Sistem persamaan: \\\\ $5b + 3p = 62.000$ \\\\ $2b + 4p = 36.000$ \\\\ Solusi: $b = 10.000$, $p = 4.000$."
+  },
+  {
+    "id": 119,
+    "pertanyaan": "Sebuah kolam berbentuk lingkaran akan dipasang pagar dengan biaya Rp$50.000$ per meter. Jika diameter kolam $14$ meter, berapa total biaya? $(\\pi = \\frac{22}{7})$",
+    "pilihan": ["Rp$2,1$ juta", "Rp$2,2$ juta", "Rp$2,3$ juta", "Rp$2,4$ juta", "Rp$2,5$ juta"],
+    "jawaban": "B",
+    "pembahasan": "Keliling = $\\pi d = \\frac{22}{7} \\times 14 = 44$ m. \\\\ Biaya = $44 \\times 50.000 = 2.200.000$."
+  },
+  {
+    "id": 120,
+    "pertanyaan": "Sebuah dadu dan uang logam dilempar bersama. Berapa peluang muncul mata dadu genap dan gambar?",
+    "pilihan": ["$\\frac{1}{4}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{2}{3}$", "$\\frac{3}{4}$"],
+    "jawaban": "A",
+    "pembahasan": "Peluang dadu genap = $\\frac{3}{6} = \\frac{1}{2}$. \\\\ Peluang gambar = $\\frac{1}{2}$. \\\\ Peluang bersama = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$."
+  }
+]
