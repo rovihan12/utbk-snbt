@@ -1,282 +1,282 @@
 [
   {
-    "id": 121,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika harga 3 buku adalah Rp45.000, berapa harga 5 buku?",
+    "id": 141,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{x + \\sqrt{x + \\sqrt{x + ...}}} = 4$, maka nilai $x$ adalah...",
     "pilihan": [
-      "Rp60.000",
-      "Rp75.000",
-      "Rp90.000",
-      "Rp100.000",
-      "Rp85.000"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Harga 1 buku = Rp45.000 / 3 = Rp15.000. Harga 5 buku = 5 * Rp15.000 = Rp75.000."
-  },
-  {
-    "id": 122,
-    "kategori": "Mudah",
-    "pertanyaan": "Berapakah nilai dari (2^3) * (2^2)?",
-    "pilihan": [
-      "2^5",
-      "2^6",
-      "4^5",
-      "4^6",
-      "2^1"
+      "12",
+      "16",
+      "20",
+      "4",
+      "24"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat perkalian pangkat dengan basis yang sama: a^m * a^n = a^(m+n). Jadi, 2^3 * 2^2 = 2^(3+2) = 2^5."
+    "pembahasan": "Misalkan $\\sqrt{x + \\sqrt{x + \\sqrt{x + ...}}} = y$. Karena bagian di dalam akar berulang, maka $y = \\sqrt{x + y}$. Jika $y=4$, maka $4 = \\sqrt{x+4}$. Kuadratkan kedua sisi: $16 = x+4$, sehingga $x = 12$. Pembahasan: Kita asumsikan $y = 4$. Maka $y^2=16$ dan $x=12$. Memasukkan kembali $x=12$ ke dalam persamaan awal akan memberikan hasil 4. Dengan demikian, nilai x adalah 12."
   },
   {
-    "id": 123,
-    "kategori": "Mudah",
-    "pertanyaan": "Sebuah segitiga memiliki alas 10 cm dan tinggi 6 cm. Luas segitiga tersebut adalah...",
+    "id": 142,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{7 - \\sqrt{48}} = \\sqrt{a} - \\sqrt{b}$ dengan $a > b$, maka nilai dari $a+b$ adalah...",
     "pilihan": [
-      "30 cm^2",
-      "40 cm^2",
-      "50 cm^2",
-      "60 cm^2",
-      "20 cm^2"
+      "7",
+      "13",
+      "1",
+      "12",
+      "6"
     ],
     "jawaban": "A",
-    "pembahasan": "Rumus luas segitiga = 1/2 * alas * tinggi. Luas = 1/2 * 10 * 6 = 5 * 6 = 30 cm^2."
+    "pembahasan": "Kita ubah $\\sqrt{7 - \\sqrt{48}}$ menjadi bentuk $\\sqrt{7 - 2\\sqrt{12}}$. Lalu cari dua bilangan yang jika dijumlahkan hasilnya 7 dan dikalikan hasilnya 12, yaitu 4 dan 3. Jadi, $\\sqrt{7 - 2\\sqrt{12}} = \\sqrt{4} - \\sqrt{3}$. Dengan demikian, $a=4$ dan $b=3$. Maka $a+b = 4+3 = 7$."
   },
   {
-    "id": 124,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika x = 4 dan y = 3, maka nilai dari 2x + 3y adalah...",
-    "pilihan": [
-      "14",
-      "17",
-      "19",
-      "21",
-      "10"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Substitusikan nilai x dan y: 2(4) + 3(3) = 8 + 9 = 17."
-  },
-  {
-    "id": 125,
-    "kategori": "Mudah",
-    "pertanyaan": "Faktor prima dari 30 adalah...",
-    "pilihan": [
-      "2, 3, 5",
-      "2, 5, 6",
-      "3, 5, 10",
-      "2, 3, 5, 1",
-      "2, 15"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Faktor prima adalah bilangan prima yang dapat membagi habis bilangan tersebut. 30 = 2 * 3 * 5."
-  },
-  {
-    "id": 126,
+    "id": 143,
     "kategori": "Sedang",
-    "pertanyaan": "Jika f(x) = x^2 - 3x + 2, maka nilai f(-1) adalah...",
+    "pertanyaan": "Nilai dari $(\\sqrt{27} + \\sqrt{12} - \\sqrt{3})^2$ adalah...",
     "pilihan": [
-      "0",
+      "48",
+      "75",
+      "64",
+      "36",
+      "27"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Sederhanakan setiap suku: $\\sqrt{27} = 3\\sqrt{3}$, $\\sqrt{12} = 2\\sqrt{3}$. Jadi, $(3\\sqrt{3} + 2\\sqrt{3} - \\sqrt{3})^2 = (4\\sqrt{3})^2 = 16 \\times 3 = 48$."
+  },
+  {
+    "id": 144,
+    "kategori": "Sedang",
+    "pertanyaan": "Bentuk sederhana dari $\\frac{4}{\\sqrt{5} - \\sqrt{3}}$ adalah...",
+    "pilihan": [
+      "$2(\\sqrt{5} + \\sqrt{3})$",
+      "$2(\\sqrt{5} - \\sqrt{3})$",
+      "$\\sqrt{5} + \\sqrt{3}$",
+      "$\\frac{\\sqrt{5} + \\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt{5} - \\sqrt{3}}{2}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Rasionalkan penyebut dengan mengalikan dengan sekawannya: $\\frac{4}{\\sqrt{5} - \\sqrt{3}} \\times \\frac{\\sqrt{5} + \\sqrt{3}}{\\sqrt{5} + \\sqrt{3}} = \\frac{4(\\sqrt{5} + \\sqrt{3})}{(\\sqrt{5})^2 - (\\sqrt{3})^2} = \\frac{4(\\sqrt{5} + \\sqrt{3})}{5 - 3} = \\frac{4(\\sqrt{5} + \\sqrt{3})}{2} = 2(\\sqrt{5} + \\sqrt{3})$."
+  },
+  {
+    "id": 145,
+    "kategori": "Sedang",
+    "pertanyaan": "Tentukan nilai dari $\\frac{\\sqrt{8} + \\sqrt{2}}{\\sqrt{18} - \\sqrt{2}}$",
+    "pilihan": [
+      "1",
       "2",
+      "$\\sqrt{2}$",
+      "$\\frac{3}{2}$",
+      "$\\frac{1}{2}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Sederhanakan setiap suku: $\\sqrt{8} = 2\\sqrt{2}$ dan $\\sqrt{18} = 3\\sqrt{2}$. Maka $\\frac{2\\sqrt{2} + \\sqrt{2}}{3\\sqrt{2} - \\sqrt{2}} = \\frac{3\\sqrt{2}}{2\\sqrt{2}}$. Batalkan $\\sqrt{2}$ di pembilang dan penyebut, hasilnya $\\frac{3}{2}$."
+  },
+  {
+    "id": 146,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $x = 2 + \\sqrt{3}$, maka nilai dari $x^2 - 4x + 5$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "4",
+      "$\\sqrt{3}$",
+      "$2\\sqrt{3}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Kita bisa substitusi langsung atau menyederhanakan ekspresi. Jika $x = 2 + \\sqrt{3}$, maka $x-2 = \\sqrt{3}$. Kuadratkan kedua sisi: $(x-2)^2 = (\\sqrt{3})^2 \\rightarrow x^2 - 4x + 4 = 3 \\rightarrow x^2 - 4x = -1$. Substitusikan ini ke ekspresi awal: $x^2 - 4x + 5 = -1 + 5 = 4$."
+  },
+  {
+    "id": 147,
+    "kategori": "Sedang",
+    "pertanyaan": "Tentukan nilai dari $\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$",
+    "pilihan": [
+      "2",
+      "3",
       "4",
       "6",
-      "8"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Substitusikan x = -1 ke dalam fungsi: f(-1) = (-1)^2 - 3(-1) + 2 = 1 + 3 + 2 = 6."
-  },
-  {
-    "id": 127,
-    "kategori": "Sedang",
-    "pertanyaan": "Barisan angka 1, 4, 7, 10, ... adalah barisan aritmatika. Suku ke-7 dari barisan ini adalah...",
-    "pilihan": [
-      "16",
-      "19",
-      "22",
-      "25",
-      "13"
+      "$\\sqrt{6}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Suku pertama (a) = 1, beda (b) = 4 - 1 = 3. Rumus suku ke-n aritmatika: Un = a + (n-1)b. Suku ke-7 (U7) = 1 + (7-1)3 = 1 + 6*3 = 1 + 18 = 19."
+    "pembahasan": "Misalkan $y = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$. Maka $y = \\sqrt{6+y}$. Kuadratkan kedua sisi: $y^2 = 6+y \\rightarrow y^2 - y - 6 = 0 \\rightarrow (y-3)(y+2) = 0$. Karena hasilnya harus positif, maka $y=3$. "
   },
   {
-    "id": 128,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika perbandingan umur Andi dan Budi adalah 3:5, dan jumlah umur mereka adalah 40 tahun, berapa umur Andi?",
-    "pilihan": [
-      "15 tahun",
-      "20 tahun",
-      "25 tahun",
-      "30 tahun",
-      "10 tahun"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Misal umur Andi = 3x dan umur Budi = 5x. 3x + 5x = 40 --> 8x = 40 --> x = 5. Umur Andi = 3x = 3 * 5 = 15 tahun."
-  },
-  {
-    "id": 129,
+    "id": 148,
     "kategori": "Mudah",
-    "pertanyaan": "Hasil dari 15 - (-5) + 8 adalah...",
+    "pertanyaan": "Bentuk sederhana dari $(\\sqrt{8} + \\sqrt{18})(\\sqrt{2})$ adalah...",
     "pilihan": [
-      "18",
-      "28",
-      "2",
-      "12",
-      "20"
-    ],
-    "jawaban": "B",
-    "pembahasan": "15 - (-5) + 8 = 15 + 5 + 8 = 20 + 8 = 28."
-  },
-  {
-    "id": 130,
-    "kategori": "Mudah",
-    "pertanyaan": "Berapa menit dalam 3 jam 20 menit?",
-    "pilihan": [
-      "180 menit",
-      "200 menit",
-      "220 menit",
-      "240 menit",
-      "190 menit"
-    ],
-    "jawaban": "B",
-    "pembahasan": "1 jam = 60 menit. 3 jam = 3 * 60 = 180 menit. Total = 180 menit + 20 menit = 200 menit."
-  },
-  {
-    "id": 131,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika sebuah roda berputar 10 kali untuk menempuh jarak 15.7 meter, berapa jari-jari roda tersebut? (gunakan pi = 3.14)",
-    "pilihan": [
-      "0.25 meter",
-      "0.5 meter",
-      "1 meter",
-      "2 meter",
-      "0.75 meter"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Jarak yang ditempuh dalam 1 putaran = keliling roda. Keliling = Jarak total / Jumlah putaran = 15.7 / 10 = 1.57 meter. Keliling roda = 2 * pi * r. 1.57 = 2 * 3.14 * r. 1.57 = 6.28 * r. r = 1.57 / 6.28 = 0.25 meter."
-  },
-  {
-    "id": 132,
-    "kategori": "Sedang",
-    "pertanyaan": "Penyelesaian dari persamaan mutlak |2x - 3| = 5 adalah...",
-    "pilihan": [
-      "x = 4 atau x = -1",
-      "x = 4 atau x = 1",
-      "x = 2 atau x = -1",
-      "x = 2 atau x = 1",
-      "x = -4 atau x = 1"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Ada dua kemungkinan: 2x - 3 = 5 atau 2x - 3 = -5.\nKasus 1: 2x - 3 = 5 --> 2x = 8 --> x = 4.\nKasus 2: 2x - 3 = -5 --> 2x = -2 --> x = -1."
-  },
-  {
-    "id": 133,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika ada 20 kelereng di dalam kantong, 12 berwarna merah dan sisanya biru. Berapa rasio kelereng merah terhadap kelereng biru?",
-    "pilihan": [
-      "2:3",
-      "3:2",
-      "3:5",
-      "5:3",
-      "1:1"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Jumlah kelereng biru = 20 - 12 = 8. Rasio merah : biru = 12 : 8. Sederhanakan rasio dengan membagi keduanya dengan 4: 12/4 : 8/4 = 3 : 2."
-  },
-  {
-    "id": 134,
-    "kategori": "Sedang",
-    "pertanyaan": "Nilai dari (1/2)^-2 adalah...",
-    "pilihan": [
-      "1/4",
-      "4",
-      "-4",
-      "-1/4",
-      "2"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Pangkat negatif berarti kebalikan dari basisnya. (1/2)^-2 = 1 / (1/2)^2 = 1 / (1/4) = 1 * 4 = 4."
-  },
-  {
-    "id": 135,
-    "kategori": "Mudah",
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 5 cm. Keliling persegi panjang tersebut adalah...",
-    "pilihan": [
-      "17 cm",
-      "24 cm",
-      "34 cm",
-      "60 cm",
-      "30 cm"
-    ],
-    "jawaban": "C cm",
-    "pembahasan": "Keliling persegi panjang = 2 * (panjang + lebar) = 2 * (12 + 5) = 2 * 17 = 34 cm."
-  },
-  {
-    "id": 136,
-    "kategori": "Mudah",
-    "pertanyaan": "Hasil dari 7^0 adalah...",
-    "pilihan": [
-      "0",
-      "1",
-      "7",
-      "Tidak terdefinisi",
-      "Tidak ada"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Setiap bilangan (kecuali 0) yang dipangkatkan 0 hasilnya adalah 1."
-  },
-  {
-    "id": 137,
-    "kategori": "Sedang",
-    "pertanyaan": "Turunan pertama dari f(x) = 5x^2 - 7x + 10 adalah...",
-    "pilihan": [
-      "10x - 7",
-      "5x - 7",
-      "10x - 7x",
-      "5x^3 - 7x^2 + 10x",
-      "10x + 7"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Gunakan aturan turunan pangkat: d/dx(ax^n) = anx^(n-1). Turunan dari 5x^2 adalah 5*2x^(2-1) = 10x. Turunan dari -7x adalah -7. Turunan dari konstanta (10) adalah 0. Jadi, f'(x) = 10x - 7."
-  },
-  {
-    "id": 138,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari akar kuadrat(144) + akar kuadrat(25) adalah...",
-    "pilihan": [
-      "17",
-      "19",
-      "13",
       "10",
-      "15"
+      "12",
+      "8",
+      "20",
+      "$\\sqrt{160}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Akar kuadrat(144) = 12. Akar kuadrat(25) = 5. Jadi, 12 + 5 = 17."
+    "pembahasan": "Sederhanakan suku di dalam kurung: $(\\sqrt{8} + \\sqrt{18}) = (2\\sqrt{2} + 3\\sqrt{2}) = 5\\sqrt{2}$. Lalu kalikan dengan $\\sqrt{2}$: $5\\sqrt{2} \\times \\sqrt{2} = 5 \\times 2 = 10$."
   },
   {
-    "id": 139,
+    "id": 149,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $x^2 = 9 + 4\\sqrt{5}$, maka nilai dari $x$ adalah...",
+    "pilihan": [
+      "$2 + \\sqrt{5}$",
+      "$3 + \\sqrt{5}$",
+      "$\\sqrt{5} + 1$",
+      "$3 + 2\\sqrt{5}$",
+      "$4 + \\sqrt{5}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kita cari bentuk $(\\sqrt{a} + \\sqrt{b})^2 = a+b+2\\sqrt{ab}$. Kita ubah $9 + 4\\sqrt{5}$ menjadi $9 + 2\\sqrt{20}$. Kita cari dua bilangan yang jika dijumlahkan 9 dan dikalikan 20, yaitu 4 dan 5. Jadi, $x^2 = (\\sqrt{4} + \\sqrt{5})^2 = (2 + \\sqrt{5})^2$. Maka $x = 2 + \\sqrt{5}$."
+  },
+  {
+    "id": 150,
     "kategori": "Sedang",
-    "pertanyaan": "Jika y = 2x + 1 dan y = -x + 4, maka nilai x adalah...",
+    "pertanyaan": "Hasil dari $\\sqrt{50} - 2\\sqrt{8} + \\sqrt{18}$ adalah...",
+    "pilihan": [
+      "$2\\sqrt{2}$",
+      "$3\\sqrt{2}$",
+      "$\\sqrt{2}$",
+      "$4\\sqrt{2}$",
+      "$5\\sqrt{2}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Sederhanakan setiap suku: $\\sqrt{50} = 5\\sqrt{2}$, $2\\sqrt{8} = 2(2\\sqrt{2}) = 4\\sqrt{2}$, $\\sqrt{18} = 3\\sqrt{2}$. Maka, $5\\sqrt{2} - 4\\sqrt{2} + 3\\sqrt{2} = (5-4+3)\\sqrt{2} = 4\\sqrt{2}$."
+  },
+  {
+    "id": 151,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{3+2\\sqrt{2}} - \\sqrt{3-2\\sqrt{2}} = n$, maka nilai $n$ adalah...",
+    "pilihan": [
+      "$2\\sqrt{2}$",
+      "$2$",
+      "$4$",
+      "$1$",
+      "$\\sqrt{2}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus $\\sqrt{(a+b) + 2\\sqrt{ab}} = \\sqrt{a} + \\sqrt{b}$. Maka $\\sqrt{3+2\\sqrt{2}} = \\sqrt{2}+\\sqrt{1} = \\sqrt{2}+1$. Dan $\\sqrt{3-2\\sqrt{2}} = \\sqrt{2}-\\sqrt{1} = \\sqrt{2}-1$. Jadi, $n = (\\sqrt{2}+1) - (\\sqrt{2}-1) = \\sqrt{2}+1-\\sqrt{2}+1 = 2$."
+  },
+  {
+    "id": 152,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $x = \\frac{1}{2+\\sqrt{3}}$, maka nilai dari $x + \\frac{1}{x}$ adalah...",
+    "pilihan": [
+      "4",
+      "2",
+      "$\\frac{1}{2}$",
+      "$\\sqrt{3}$",
+      "$2\\sqrt{3}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Rasionalkan $x$: $x = \\frac{1}{2+\\sqrt{3}} \\times \\frac{2-\\sqrt{3}}{2-\\sqrt{3}} = \\frac{2-\\sqrt{3}}{4-3} = 2-\\sqrt{3}$. Maka $\\frac{1}{x} = 2+\\sqrt{3}$. Jadi $x + \\frac{1}{x} = (2-\\sqrt{3}) + (2+\\sqrt{3}) = 4$."
+  },
+  {
+    "id": 153,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $3^x = \\sqrt{27}$, maka nilai $x$ adalah...",
+    "pilihan": [
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$",
+      "3"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ubah kedua sisi ke basis yang sama. $\\sqrt{27} = (3^3)^{1/2} = 3^{3/2}$. Karena $3^x = 3^{3/2}$, maka $x = \\frac{3}{2}$."
+  },
+  {
+    "id": 154,
+    "kategori": "Sedang",
+    "pertanyaan": "Bentuk sederhana dari $\\sqrt[3]{64}$ adalah...",
+    "pilihan": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "$\\frac{1}{4}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Kita mencari bilangan yang jika dipangkatkan 3 hasilnya 64. $4^3 = 4 \\times 4 \\times 4 = 16 \\times 4 = 64$. Jadi, $\\sqrt[3]{64} = 4$."
+  },
+  {
+    "id": 155,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $2^x = \\sqrt{2}$, maka nilai dari $4^x$ adalah...",
+    "pilihan": [
+      "2",
+      "$\\sqrt{2}$",
+      "4",
+      "1",
+      "$\\frac{1}{2}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Dari $2^x = \\sqrt{2}$, kita tahu $\\sqrt{2} = 2^{1/2}$, maka $x = \\frac{1}{2}$. Nilai dari $4^x = 4^{1/2} = \\sqrt{4} = 2$. Atau, $4^x = (2^2)^x = (2^x)^2 = (\\sqrt{2})^2 = 2$."
+  },
+  {
+    "id": 156,
+    "kategori": "Sedang",
+    "pertanyaan": "Bentuk sederhana dari $(\\sqrt{5} - \\sqrt{3})^2$ adalah...",
+    "pilihan": [
+      "$2 - 2\\sqrt{15}$",
+      "$8 - 2\\sqrt{15}$",
+      "2",
+      "$8 - 2\\sqrt{15}$",
+      "$2\\sqrt{2}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Gunakan rumus $(a-b)^2 = a^2 - 2ab + b^2$. $(\\sqrt{5} - \\sqrt{3})^2 = (\\sqrt{5})^2 - 2(\\sqrt{5})(\\sqrt{3}) + (\\sqrt{3})^2 = 5 - 2\\sqrt{15} + 3 = 8 - 2\\sqrt{15}$."
+  },
+  {
+    "id": 157,
+    "kategori": "Sulit",
+    "pertanyaan": "Hasil dari $\\frac{1}{1+\\sqrt{2}} + \\frac{1}{\\sqrt{2}+\\sqrt{3}} + \\frac{1}{\\sqrt{3}+\\sqrt{4}}$ adalah...",
     "pilihan": [
       "1",
       "2",
       "3",
-      "4",
-      "5"
+      "$\\sqrt{2}$",
+      "$\\sqrt{4}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Substitusikan y dari persamaan pertama ke persamaan kedua: 2x + 1 = -x + 4. Kumpulkan x di satu sisi dan konstanta di sisi lain: 2x + x = 4 - 1 --> 3x = 3 --> x = 1."
+    "pembahasan": "Rasionalkan setiap suku secara terpisah. $\\frac{1}{1+\\sqrt{2}} = \\sqrt{2}-1$. $\\frac{1}{\\sqrt{2}+\\sqrt{3}} = \\sqrt{3}-\\sqrt{2}$. $\\frac{1}{\\sqrt{3}+\\sqrt{4}} = \\sqrt{4}-\\sqrt{3}$. Jumlahkan semua suku: $(\\sqrt{2}-1) + (\\sqrt{3}-\\sqrt{2}) + (\\sqrt{4}-\\sqrt{3}) = -1 + \\sqrt{4} = -1+2 = 1$."
   },
   {
-    "id": 140,
-    "kategori": "Mudah",
-    "pertanyaan": "Dalam sebuah kelas, 70% siswa lulus ujian. Jika ada 30 siswa di kelas, berapa siswa yang tidak lulus?",
+    "id": 158,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $2\\sqrt{x} = 6$, maka nilai $x$ adalah...",
     "pilihan": [
-      "7 siswa",
-      "9 siswa",
-      "10 siswa",
-      "21 siswa",
-      "15 siswa"
+      "3",
+      "6",
+      "9",
+      "12",
+      "36"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Bagi kedua sisi dengan 2: $\\sqrt{x} = 3$. Kuadratkan kedua sisi: $x = 3^2 = 9$."
+  },
+  {
+    "id": 159,
+    "kategori": "Sedang",
+    "pertanyaan": "Bentuk sederhana dari $\\sqrt{48} + 2\\sqrt{3}$ adalah...",
+    "pilihan": [
+      "$\\sqrt{51}$",
+      "$6\\sqrt{3}$",
+      "$4\\sqrt{3}$",
+      "$\\sqrt{75}$",
+      "$5\\sqrt{3}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Persentase siswa yang tidak lulus = 100% - 70% = 30%. Jumlah siswa yang tidak lulus = 30% dari 30 siswa = 0.30 * 30 = 9 siswa."
+    "pembahasan": "Sederhanakan $\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$. Tambahkan dengan $2\\sqrt{3}$: $4\\sqrt{3} + 2\\sqrt{3} = 6\\sqrt{3}$."
+  },
+  {
+    "id": 160,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\frac{\\sqrt{20}}{\\sqrt{50} - \\sqrt{18}} = a$, maka nilai $a$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "$\\sqrt{5}$",
+      "$\\frac{5}{2}$",
+      "$\\sqrt{2}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Sederhanakan setiap suku: $\\sqrt{20} = 2\\sqrt{5}$, $\\sqrt{50} = 5\\sqrt{2}$, $\\sqrt{18} = 3\\sqrt{2}$. Maka, $a = \\frac{2\\sqrt{5}}{5\\sqrt{2} - 3\\sqrt{2}} = \\frac{2\\sqrt{5}}{2\\sqrt{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}}$. Rasionalkan penyebut: $\\frac{\\sqrt{5}}{\\sqrt{2}} \\times \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{10}}{2}$."
   }
 ]
