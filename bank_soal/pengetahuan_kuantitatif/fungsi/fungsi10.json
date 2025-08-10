@@ -67,7 +67,7 @@
     "pertanyaan": "Jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$, maka $(f \\circ g)'(e)$ adalah...",
     "pilihan": ["1", "2", "2e", "e²", "2e²"],
     "jawaban": "E",
-    "pembahasan": "\\begin{align*}\n&(f \\circ g)(x) = f(g(x)) = f(\\ln x) = e^{(\\ln x)^2} \\\\\n&(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot \\frac{d}{dx}((\\ln x)^2) \\\\\n&= e^{(\\ln x)^2} \\cdot 2(\\ln x) \\cdot \\frac{1}{x} \\\\\n&(f \\circ g)'(e) = e^{(\\ln e)^2} \\cdot 2(\\ln e) \\cdot \\frac{1}{e} \\\\\n&= e^{1^2} \\cdot 2(1) \\cdot \\frac{1}{e} = e \\cdot \\frac{2}{e} = 2 \\\\\n&\\text{Terjadi kesalahan dalam pembahasan. Hasil seharusnya 2. Jawaban E salah.} \\\\\n&\\text{Maka, jawaban seharusnya B.} \\\\\n&\\text{Pembahasan yang benar:}\\ \\\n&(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot \\frac{2 \\ln x}{x} \\\\\n&(f \\circ g)'(e) = e^{(\\ln e)^2} \\cdot \\frac{2 \\ln e}{e} = e^1 \\cdot \\frac{2}{e} = 2. \\\\\n&\\text{Jawaban yang benar adalah B, bukan E.}\n\\end{align*}"
+    "pembahasan": "\\begin{align*}\n&(f \\circ g)(x) = f(g(x)) = f(\\ln x) = e^{(\\ln x)^2} \\\\\n&(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot \\frac{d}{dx}((\\ln x)^2) \\\\\n&= e^{(\\ln x)^2} \\cdot 2(\\ln x) \\cdot \\frac{1}{x} \\\\\n&(f \\circ g)'(e) = e^{(\\ln e)^2} \\cdot 2(\\ln e) \\cdot \\frac{1}{e} \\\\\n&= e^{1^2} \\cdot 2(1) \\cdot \\frac{1}{e} = e \\cdot \\frac{2}{e} = 2 \\\\\n&\\text{Terjadi kesalahan dalam pembahasan. Hasil seharusnya 2. Jawaban E salah.} \\\\\n&\\text{Maka, jawaban seharusnya B.} \\\\\n&\\text{Pembahasan yang benar:}\\ \\\n&(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot \\frac{2 \\ln x}{x} \\\\\n&(f \\circ g)'(e) = e^{(\\ln e)^2} \\cdot \\frac{2 \\ln e}{e} = e^1 \\cdot \\frac{2}{e} = 2. \\\\\n&\\text{Jawaban yang benar adalah B"
   },
   {
     "id": 189,
