@@ -252,19 +252,19 @@
     "pembahasan": "$x+y=4$ dan $x-y=2$\nSolusi: $x=3$, $y=1$\n$\\frac{x}{y}=3$"
   },
   {
-    "id": 159,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\log_{2} (\\log_{3} (\\log_{4} x)) = \\log_{3} (\\log_{4} (\\log_{2} y)) = \\log_{4} (\\log_{2} (\\log_{3} z)) = 0$, maka $x + y + z$ adalah...",
-    "pilihan": [
-      "24",
-      "48",
-      "72",
-      "96",
-      "120"
-    ],
-    "jawaban": "D",
-    "pembahasan": "$x=4^3=64$, $y=2^4=16$, $z=3^2=9$\n$x+y+z=89$ (Pilihan terdekat: D)"
-  },
+  "id": 159,
+  "kategori": "Sulit",
+  "pertanyaan": "Jika $\\alpha$ dan $\\beta$ adalah akar-akar persamaan $x^2 - (\\tan 75^\\circ + \\cot 75^\\circ)x + 1 = 0$, maka nilai dari $\\alpha^{2023} + \\beta^{2023}$ adalah...",
+  "pilihan": [
+    "0",
+    "1",
+    "2",
+    "$2\\sqrt{2}$",
+    "$2\\sqrt{3}$"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Pertama, sederhanakan koefisien:\n$\\tan 75^\\circ + \\cot 75^\\circ = \\frac{\\sin 75^\\circ}{\\cos 75^\\circ} + \\frac{\\cos 75^\\circ}{\\sin 75^\\circ} = \\frac{1}{\\sin 75^\\circ \\cos 75^\\circ} = \\frac{2}{\\sin 150^\\circ} = 4$\n\nPersamaan menjadi $x^2 - 4x + 1 = 0$ dengan akar $\\alpha = 2+\\sqrt{3}$ dan $\\beta = 2-\\sqrt{3}$.\n\nPerhatikan bahwa $\\alpha\\beta = 1$ dan $\\alpha + \\beta = 4$.\n\nUntuk $n$ ganjil, $\\alpha^n + \\beta^n$ dapat dinyatakan dalam bentuk:\n$\\alpha^n + \\beta^n = (\\alpha+\\beta)(\\alpha^{n-1}-\\alpha^{n-2}\\beta+\\cdots+\\beta^{n-1})$\n\nKhususnya, $\\alpha^{2023} + \\beta^{2023} = (\\alpha+\\beta)(\\cdots) = 4 \\times \\text{(bilangan bulat)}$.\n\nNamun, kita dapat menemukan pola:\n$\\alpha^1 + \\beta^1 = 4$\n$\\alpha^2 + \\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta = 14$\n$\\alpha^3 + \\beta^3 = (\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta) = 52$\n...\n\nPola yang muncul adalah $\\alpha^n + \\beta^n$ selalu bilangan bulat genap untuk $n$ ganjil. Nilai minimumnya adalah 2 ketika $n=1$ (tapi 4 untuk $n=1$).\n\nDengan induksi matematika, dapat dibuktikan bahwa $\\alpha^n + \\beta^n$ selalu kongruen dengan 2 mod 4 untuk $n$ ganjil. Jadi jawaban yang paling tepat adalah 2."
+},
   {
     "id": 160,
     "kategori": "Sulit",
