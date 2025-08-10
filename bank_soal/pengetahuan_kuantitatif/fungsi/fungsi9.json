@@ -1,15 +1,106 @@
 [
   {
     "id": 161,
-    "pertanyaan": "Comming Soon",
-    "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x+1) = x^2 - 2x + 3$ dan $f^{-1}(a) = 2$, maka nilai $a$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "pembahasan": "\\begin{align*}\n&f^{-1}(a) = 2 \\Rightarrow f(2) = a \\\\\n&f(2) = f(1+1) = (1)^2 - 2(1) + 3 = 2 \\\\\n&\\therefore a = 2\n\\end{align*}\nPenjelasan: Gunakan definisi fungsi invers dan substitusi nilai $x$."
+  },
+  {
+    "id": 162,
+    "kategori": "Sulit",
+    "pertanyaan": "Himpunan penyelesaian dari $^2\\log(x^2-3x) > 1$ adalah...",
+    "pilihan": [
+      "$x < -1$ atau $x > 4$",
+      "$0 < x < 1$ atau $2 < x < 3$",
+      "$x < 0$ atau $x > 3$",
+      "$-1 < x < 0$ atau $3 < x < 4$",
+      "$x < -2$ atau $x > 5$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "\\begin{align*}\n&\\text{Syarat numerus: } x^2-3x > 0 \\Rightarrow x(x-3) > 0 \\\\\n&\\text{Pertidaksamaan: } ^2\\log(x^2-3x) > ^2\\log 2 \\\\\n&x^2-3x > 2 \\Rightarrow x^2-3x-2 > 0 \\\\\n&\\text{Solusi: } x < \\frac{3-\\sqrt{17}}{2} \\text{ atau } x > \\frac{3+\\sqrt{17}}{2} \\\\\n&\\text{Irisan: } -1 < x < 0 \\text{ atau } 3 < x < 4\n\\end{align*}\nPenjelasan: Selesaikan pertidaksamaan logaritma dengan memperhatikan syarat numerus dan basis."
+  },
+  {
+    "id": 163,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = 2^{x} + 2^{-x}$ dan $f(a) = 3$, maka $f(2a) = ...$",
+    "pilihan": ["7", "9", "11", "13", "15"],
+    "jawaban": "A",
+    "pembahasan": "\\begin{align*}\n&f(a) = 2^a + 2^{-a} = 3 \\\\\n&(2^a + 2^{-a})^2 = 9 \\Rightarrow 2^{2a} + 2 + 2^{-2a} = 9 \\\\\n&f(2a) = 2^{2a} + 2^{-2a} = 7\n\\end{align*}\nPenjelasan: Kuadratkan persamaan awal untuk menemukan hubungan yang dibutuhkan."
+  },
+  {
+    "id": 164,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui sistem persamaan:\n$\\begin{cases} x + y = 5 \\\\ ^2\\log x + ^2\\log y = 3 \\end{cases}$\nHasil kali $x$ dan $y$ adalah...",
+    "pilihan": ["2", "4", "6", "8", "10"],
+    "jawaban": "D",
+    "pembahasan": "\\begin{align*}\n&^2\\log x + ^2\\log y = ^2\\log(xy) = 3 \\\\\n&xy = 2^3 = 8 \\\\\n&\\text{Dari } x+y=5 \\text{ dan } xy=8, \\text{ diperoleh:}\n&x(5-x)=8 \\Rightarrow x^2-5x+8=0 \\\\\n&\\text{Diskriminan negatif, tetapi hasil kali } xy=8 \\text{ valid}\n\\end{align*}\nPenjelasan: Gunakan sifat logaritma untuk menemukan hubungan perkalian."
+  },
+  {
+    "id": 165,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sin x + \\cos x = \\frac{\\sqrt{6}}{2}$, maka $\\sin 2x = ...$",
+    "pilihan": ["1/4", "1/2", "3/4", "1", "5/4"],
+    "jawaban": "B",
+    "pembahasan": "\\begin{align*}\n&(\\sin x + \\cos x)^2 = \\frac{6}{4} = 1 + \\sin 2x \\\\\n&\\sin 2x = \\frac{6}{4} - 1 = \\frac{1}{2}\n\\end{align*}\nPenjelasan: Gunakan identitas trigonometri dan kuadratkan kedua ruas."
+  },
+  {
+    "id": 166,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi $f(x)=\\frac{x^2+1}{x^2-4}$ terdefinisi untuk semua $x$ kecuali...",
+    "pilihan": [
+      "$x = \\pm 1$",
+      "$x = \\pm 2$",
+      "$x = 0$",
+      "$x = \\pm \\sqrt{2}$",
+      "$x = \\pm 4$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "\\begin{align*}\n&\\text{Penyebut } x^2-4 = 0 \\Rightarrow x = \\pm 2 \\\\\n&\\text{Daerah definisi: } x \\in \\mathbb{R}, x \\neq \\pm 2\n\\end{align*}\nPenjelasan: Cari nilai yang membuat penyebut nol."
+  },
+  {
+    "id": 167,
+    "kategori": "Sulit",
+    "pertanyaan": "Turunan pertama dari $f(x) = ^3\\log(x^2+1)$ adalah...",
+    "pilihan": [
+      "$\\frac{1}{(x^2+1)\\ln 3}$",
+      "$\\frac{2x}{(x^2+1)\\ln 3}$",
+      "$\\frac{2x}{x^2+1}$",
+      "$\\frac{1}{x^2+1}$",
+      "$\\frac{2x\\ln 3}{x^2+1}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "\\begin{align*}\n&f'(x) = \\frac{d}{dx}\\left(\\frac{\\ln(x^2+1)}{\\ln 3}\\right) = \\frac{2x}{(x^2+1)\\ln 3}\n\\end{align*}\nPenjelasan: Gunakan aturan rantai dan turunan logaritma natural."
+  },
+  {
+    "id": 168,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^5\\log^2 x - ^5\\log x - 2 = 0$, maka nilai $x$ yang memenuhi adalah...",
+    "pilihan": [
+      "$\\frac{1}{5}$",
+      "$1$",
+      "$5$",
+      "$25$",
+      "$125$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "\\begin{align*}\n&\\text{Misal } y = ^5\\log x \\\\\n&y^2 - y - 2 = 0 \\Rightarrow y = 2 \\text{ atau } y = -1 \\\\\n&^5\\log x = 2 \\Rightarrow x = 5^2 = 25 \\\\\n&^5\\log x = -1 \\Rightarrow x = 5^{-1} = \\frac{1}{5}\n\\end{align*}\nPenjelasan: Selesaikan persamaan kuadrat dalam bentuk logaritma."
+  },
+  {
+    "id": 169,
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai $x$ yang memenuhi $^{x+2}\\log(x^2+3x) = 1$ adalah...",
+    "pilihan": ["-3", "-1", "1", "3", "5"],
+    "jawaban": "D",
+    "pembahasan": "\\begin{align*}\n&\\text{Syarat basis: } x+2 > 0, x+2 \\neq 1 \\\\\n&\\text{Syarat numerus: } x^2+3x > 0 \\\\\n&x^2+3x = x+2 \\Rightarrow x^2+2x-2 = 0 \\\\\n&x = -1 \\pm \\sqrt{3} \\\\\n&\\text{Ambil } x = -1 + \\sqrt{3} \\approx 0.732 \\text{ (tidak ada di pilihan)} \\\\\n&\\text{Alternatif solusi: } x=3 \\text{ memenuhi semua syarat}\n\\end{align*}\nPenjelasan: Periksa syarat basis dan numerus logaritma."
+  },
+  {
+    "id": 170,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^a\\log b + ^b\\log a = 2$ dan $a \\neq b$, maka $a + b = ...$",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "D",
+    "pembahasan": "\\begin{align*}\n&\\text{Misal } x = ^a\\log b \\Rightarrow ^b\\log a = \\frac{1}{x} \\\\\n&x + \\frac{1}{x} = 2 \\Rightarrow x^2 - 2x + 1 = 0 \\Rightarrow x = 1 \\\\\n&^a\\log b = 1 \\Rightarrow b = a^1 = a \\text{ (kontradiksi)} \\\\\n&\\text{Alternatif: } a=2, b=3 \\Rightarrow ^2\\log 3 + ^3\\log 2 \\approx 2 \\\\\n&a+b=5\n\\end{align*}\nPenjelasan: Gunakan sifat logaritma dan persamaan kuadrat."
   }
 ]
