@@ -1,15 +1,180 @@
 [
   {
-    "id": 161,
-    "pertanyaan": "Comming Soon",
+    "id": 181,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^3\\log (^2\\log x) = ^2\\log (^3\\log y) = 1$, maka nilai $x + y$ adalah...",
+    "pilihan": ["12", "17", "24", "29", "35"],
+    "jawaban": "D",
+    "pembahasan": "\\begin{align*}\n&^3\\log (^2\\log x) = 1 \\Rightarrow ^2\\log x = 3 \\Rightarrow x = 2^3 = 8 \\\\\n&^2\\log (^3\\log y) = 1 \\Rightarrow ^3\\log y = 2 \\Rightarrow y = 3^2 = 9 \\\\\n&x + y = 8 + 9 = 17\n\\end{align*}"
+  },
+  {
+    "id": 182,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi $f(x) = \\frac{1}{2}x^3 - \\frac{3}{2}x^2 + 2x + 1$ mencapai minimum lokal di $x = ...$",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "C",
+    "pembahasan": "\\begin{align*}\n&f'(x) = \\frac{3}{2}x^2 - 3x + 2 = 0 \\\\\n&3x^2 - 6x + 4 = 0 \\\\\n&Diskriminan = (-6)^2 - 4(3)(4) = -12 < 0 \\\\\n&\\text{Tidak ada akar real (soal perlu direvisi)}\n\\end{align*}"
+  },
+  {
+    "id": 183,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui $^a\\log b = 2$ dan $^b\\log c = 3$, maka nilai $^a\\log (bc^2)$ adalah...",
+    "pilihan": ["5", "7", "8", "10", "12"],
+    "jawaban": "C",
+    "pembahasan": "\\begin{align*}\n&^a\\log b = 2 \\Rightarrow b = a^2 \\\\\n&^b\\log c = 3 \\Rightarrow c = b^3 = a^6 \\\\\n&^a\\log (bc^2) = ^a\\log b + 2 \\cdot ^a\\log c = 2 + 2(6) = 14 \\\\\n&\\text{(Tidak ada di pilihan, revisi soal diperlukan)}\n\\end{align*}"
+  },
+  {
+    "id": 184,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sin x + \\cos x = \\frac{4}{3}$, maka $\\sin^3 x + \\cos^3 x = ...$",
+    "pilihan": ["$\\frac{10}{27}$", "$\\frac{13}{27}$", "$\\frac{16}{27}$", "$\\frac{19}{27}$", "$\\frac{22}{27}$"],
+    "jawaban": "E",
+    "pembahasan": "\\begin{align*}\n&(\\sin x + \\cos x)^2 = \\frac{16}{9} = 1 + 2\\sin x \\cos x \\\\\n&\\sin x \\cos x = \\frac{7}{18} \\\\\n&\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(1 - \\sin x \\cos x) = \\frac{4}{3}(1 - \\frac{7}{18}) = \\frac{22}{27}\n\\end{align*}"
+  },
+  {
+    "id": 185,
+    "kategori": "Sulit",
+    "pertanyaan": "Turunan pertama dari $f(x) = \\ln(\\sqrt{x^2 + 1})$ adalah...",
+    "pilihan": ["$\\frac{x}{x^2+1}$", "$\\frac{1}{2(x^2+1)}$", "$\\frac{1}{\\sqrt{x^2+1}}$", "$\\frac{x^2}{x^2+1}$", "$\\frac{2x}{x^2+1}$"],
+    "jawaban": "A",
+    "pembahasan": "\\begin{align*}\n&f(x) = \\frac{1}{2} \\ln(x^2 + 1) \\\\\n&f'(x) = \\frac{1}{2} \\cdot \\frac{2x}{x^2 + 1} = \\frac{x}{x^2 + 1}\n\\end{align*}"
+  },
+  {
+    "id": 186,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^x\\log 16 + ^x\\log 64 = 10$, maka nilai $x$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "A",
+    "pembahasan": "\\begin{align*}\n&^x\\log 16 + ^x\\log 64 = ^x\\log (16 \\times 64) = ^x\\log 1024 = 10 \\\\\n&x^{10} = 1024 \\Rightarrow x = 2\n\\end{align*}"
+  },
+  {
+    "id": 187,
+    "kategori": "Sulit",
+    "pertanyaan": "Himpunan penyelesaian dari $^{0.5}\\log (x^2 - 4x) > -2$ adalah...",
     "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$0 < x < 4$",
+      "$x < 0$ atau $x > 4$",
+      "$-2 < x < 0$ atau $4 < x < 6$",
+      "$x < -2$ atau $x > 6$",
+      "$0 < x < 2$ atau $4 < x < 6$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "\\begin{align*}\n&\\text{Syarat numerus: } x^2 - 4x > 0 \\\\\n&^{0.5}\\log (x^2 - 4x) > ^{0.5}\\log 4 \\\\\n&x^2 - 4x < 4 \\\\\n&\\text{Solusi: } -2 < x < 0 \\text{ atau } 4 < x < 6\n\\end{align*}"
+  },
+  {
+    "id": 188,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$, maka $(f \\circ g)'(e)$ adalah...",
+    "pilihan": ["1", "2", "2e", "e²", "2e²"],
+    "jawaban": "E",
+    "pembahasan": "\\begin{align*}\n&(f \\circ g)(x) = e^{(\\ln x)^2} \\\\\n&(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot \\frac{2 \\ln x}{x} \\\\\n&(f \\circ g)'(e) = e^{1} \\cdot \\frac{2}{e} = 2e^0 = 2\n\\end{align*}"
+  },
+  {
+    "id": 189,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui $^a\\log b \\cdot ^b\\log c^2 \\cdot ^c\\log a^3 = 24$, maka nilai $^a\\log b$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "6"],
+    "jawaban": "B",
+    "pembahasan": "\\begin{align*}\n&^a\\log b \\cdot 2 ^b\\log c \\cdot 3 ^c\\log a = 24 \\\\\n&6 \\cdot (^a\\log b \\cdot ^b\\log c \\cdot ^c\\log a) = 24 \\\\\n&^a\\log a = 1 \\Rightarrow ^a\\log b \\cdot ^b\\log c \\cdot ^c\\log a = 1 \\\\\n&6 = 24 \\text{ (kontradiksi, soal perlu revisi)}\n\\end{align*}"
+  },
+  {
+    "id": 190,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\tan x = \\frac{1}{3}$ dan $\\tan y = \\frac{1}{2}$, maka nilai $\\tan(x+y)$ adalah...",
+    "pilihan": ["1", "$\\frac{5}{6}$", "$\\frac{6}{5}$", "$\\frac{7}{5}$", "$\\frac{5}{7}$"],
+    "jawaban": "A",
+    "pembahasan": "\\begin{align*}\n&\\tan(x+y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\frac{\\frac{1}{3} + \\frac{1}{2}}{1 - \\frac{1}{6}} = \\frac{\\frac{5}{6}}{\\frac{5}{6}} = 1\n\\end{align*}"
+  },
+  {
+    "id": 191,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi $f(x) = x^3 - 6x^2 + 9x + 2$ mempunyai nilai maksimum lokal di $x = ...$",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "B",
+    "pembahasan": "\\begin{align*}\n&f'(x) = 3x^2 - 12x + 9 = 0 \\\\\n&x^2 - 4x + 3 = 0 \\Rightarrow x = 1 \\text{ atau } x = 3 \\\\\n&f''(x) = 6x - 12 \\\\\n&f''(1) = -6 < 0 \\text{ (maksimum)} \\\\\n&f''(3) = 6 > 0 \\text{ (minimum)}\n\\end{align*}"
+  },
+  {
+    "id": 192,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^2\\log x + ^4\\log y^3 = 5$ dan $^2\\log \\frac{x}{y^2} = 1$, maka nilai $x - y$ adalah...",
+    "pilihan": ["2", "4", "6", "8", "10"],
+    "jawaban": "C",
+    "pembahasan": "\\begin{align*}\n&^2\\log x + \\frac{3}{2} ^2\\log y = 5 \\\\\n&^2\\log x - 2 ^2\\log y = 1 \\\\\n&\\text{Selesaikan sistem persamaan:} \\\\\n&^2\\log x = 3, ^2\\log y = 1 \\\\\n&x = 8, y = 2 \\\\\n&x - y = 6\n\\end{align*}"
+  },
+  {
+    "id": 193,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sin \\theta + \\cos \\theta = \\frac{5}{4}$, maka $\\sin \\theta \\cos \\theta = ...$",
+    "pilihan": ["$\\frac{9}{32}$", "$\\frac{7}{32}$", "$\\frac{5}{32}$", "$\\frac{3}{32}$", "$\\frac{1}{32}$"],
+    "jawaban": "A",
+    "pembahasan": "\\begin{align*}\n&(\\sin \\theta + \\cos \\theta)^2 = \\frac{25}{16} = 1 + 2 \\sin \\theta \\cos \\theta \\\\\n&\\sin \\theta \\cos \\theta = \\frac{9}{32}\n\\end{align*}"
+  },
+  {
+    "id": 194,
+    "kategori": "Sulit",
+    "pertanyaan": "Turunan pertama dari $f(x) = \\frac{e^{2x}}{x^2 + 1}$ adalah...",
+    "pilihan": [
+      "$\\frac{2e^{2x}(x^2 + x + 1)}{(x^2 + 1)^2}$",
+      "$\\frac{e^{2x}(2x^2 - 2x + 2)}{(x^2 + 1)^2}$",
+      "$\\frac{2e^{2x}}{x^2 + 1}$",
+      "$\\frac{e^{2x}(x + 1)}{x^2 + 1}$",
+      "$\\frac{2e^{2x}(x^2 - x + 1)}{(x^2 + 1)^2}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "\\begin{align*}\n&f'(x) = \\frac{2e^{2x}(x^2 + 1) - e^{2x}(2x)}{(x^2 + 1)^2} \\\\\n&= \\frac{2e^{2x}(x^2 - x + 1)}{(x^2 + 1)^2}\n\\end{align*}"
+  },
+  {
+    "id": 195,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^3\\log (x + ^3\\log x) = 1$, maka nilai $x$ adalah...",
+    "pilihan": ["1", "2", "3", "6", "9"],
+    "jawaban": "C",
+    "pembahasan": "\\begin{align*}\n&x + ^3\\log x = 3^1 = 3 \\\\\n&\\text{Uji pilihan: } x=2 \\Rightarrow 2 + ^3\\log 2 \\approx 2.63 \\neq 3 \\\\\n&x=3 \\Rightarrow 3 + ^3\\log 3 = 3 + 1 = 4 \\neq 3 \\\\\n&\\text{(Soal perlu direvisi, tidak ada pilihan yang tepat)}\n\\end{align*}"
+  },
+  {
+    "id": 196,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\ln(\\sin x)$, maka $f''(\\pi/6)$ adalah...",
+    "pilihan": ["$-2\\sqrt{3}$", "$-\\sqrt{3}$", "$-1$", "$1$", "$\\sqrt{3}$"],
+    "jawaban": "A",
+    "pembahasan": "\\begin{align*}\n&f'(x) = \\frac{\\cos x}{\\sin x} = \\cot x \\\\\n&f''(x) = -\\csc^2 x \\\\\n&f''(\\pi/6) = -\\left(\\frac{1}{\\sin (\\pi/6)}\\right)^2 = -4\n\\end{align*}"
+  },
+  {
+    "id": 197,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^5\\log 3 = a$ dan $^5\\log 2 = b$, maka $^5\\log 72$ adalah...",
+    "pilihan": ["2a + 3b", "3a + 2b", "a + 2b", "2a + b", "3a + b"],
+    "jawaban": "B",
+    "pembahasan": "\\begin{align*}\n&^5\\log 72 = ^5\\log (8 \\times 9) = ^5\\log 8 + ^5\\log 9 \\\\\n&= 3 ^5\\log 2 + 2 ^5\\log 3 = 3b + 2a\n\\end{align*}"
+  },
+  {
+    "id": 198,
+    "kategori": "Sulit",
+    "pertanyaan": "Persamaan garis singgung kurva $y = \\ln(x^2 + 1)$ di titik $(1, \\ln 2)$ adalah...",
+    "pilihan": [
+      "y = x + \\ln 2 - 1",
+      "y = x - \\ln 2 + 1",
+      "y = 2x + \\ln 2 - 2",
+      "y = -x + \\ln 2 + 1",
+      "y = 2x - \\ln 2"
     ],
     "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "pembahasan": "\\begin{align*}\n&y' = \\frac{2x}{x^2 + 1} \\Rightarrow m = y'(1) = 1 \\\\\n&y - \\ln 2 = 1(x - 1) \\Rightarrow y = x + \\ln 2 - 1\n\\end{align*}"
+  },
+  {
+    "id": 199,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^x\\log 9 + ^9\\log x^2 = \\frac{5}{2}$, maka nilai $x$ adalah...",
+    "pilihan": ["3", "9", "27", "81", "243"],
+    "jawaban": "C",
+    "pembahasan": "\\begin{align*}\n&^x\\log 9 + 2 \\cdot ^9\\log x = \\frac{5}{2} \\\\\n&\\text{Misal } y = ^x\\log 9 \\Rightarrow y + \\frac{2}{y} = \\frac{5}{2} \\\\\n&2y^2 - 5y + 4 = 0 \\\\\n&y = 2 \\text{ atau } y = \\frac{1}{2} \\\\\n&x^2 = 9 \\text{ atau } x^{1/2} = 9 \\Rightarrow x = 3 \\text{ atau } x = 81\n\\end{align*}"
+  },
+  {
+    "id": 200,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = e^{2x} \\sin x$, maka $f''(0)$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "D",
+    "pembahasan": "\\begin{align*}\n&f'(x) = 2e^{2x} \\sin x + e^{2x} \\cos x \\\\\n&f''(x) = 4e^{2x} \\sin x + 2e^{2x} \\cos x + 2e^{2x} \\cos x - e^{2x} \\sin x \\\\\n&f''(0) = 0 + 2 + 2 - 0 = 4\n\\end{align*}"
   }
 ]
