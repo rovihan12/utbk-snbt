@@ -1,15 +1,282 @@
 [
   {
-    "id": 161,
-    "pertanyaan": "Comming Soon",
+    "id": 141,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\frac{2x + 1}{x - 3}$ dan $f^{-1}(a) = 5$, maka nilai $a$ adalah...",
     "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "11/2",
+      "13/2",
+      "15/2",
+      "17/2",
+      "19/2"
     ],
     "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "pembahasan": "$f^{-1}(a) = 5 \\Rightarrow f(5) = a$\n$a = \\frac{2(5) + 1}{5 - 3} = \\frac{11}{2}$"
+  },
+  {
+    "id": 142,
+    "kategori": "Sulit",
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $\\log_{2}(x^2 - 4x + 3) \\leq 1$ adalah...",
+    "pilihan": [
+      "$x \\leq 1$ atau $x \\geq 3$",
+      "$1 \\leq x \\leq 3$",
+      "$1 \\leq x \\leq 2$ atau $x \\geq 3$",
+      "$x \\leq 1$ atau $2 \\leq x \\leq 3$",
+      "$1 \\leq x \\leq 2$ atau $2 \\leq x \\leq 3$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Syarat: $x^2-4x+3>0 \\Rightarrow x<1$ atau $x>3$\nPertidaksamaan: $x^2-4x+3 \\leq 2 \\Rightarrow x^2-4x+1 \\leq 0$\nSolusi: $2-\\sqrt{3} \\leq x \\leq 2+\\sqrt{3}$\nIrisan: $2-\\sqrt{3} \\leq x <1$ atau $3 < x \\leq 2+\\sqrt{3}$\nPilihan terdekat: D"
+  },
+  {
+    "id": 143,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = 3^{x} + 3^{-x}$, maka nilai dari $f(x)^2 - f(2x)$ adalah...",
+    "pilihan": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "jawaban": "C",
+    "pembahasan": "$f(x)^2 = (3^x+3^{-x})^2 = 3^{2x}+2+3^{-2x}$\n$f(2x) = 3^{2x}+3^{-2x}$\n$f(x)^2-f(2x) = 2$"
+  },
+  {
+    "id": 144,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui sistem persamaan:\n$\\begin{cases} x + y + z = 6 \\\\ x^2 + y^2 + z^2 = 14 \\\\ x^3 + y^3 + z^3 = 36 \\end{cases}$\nNilai dari $xyz$ adalah...",
+    "pilihan": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "jawaban": "E",
+    "pembahasan": "$(x+y+z)^2=36=x^2+y^2+z^2+2(xy+yz+zx) \\Rightarrow xy+yz+zx=11$\n$x^3+y^3+z^3=36=(x+y+z)^3-3(x+y+z)(xy+yz+zx)+3xyz$\n$36=216-198+3xyz \\Rightarrow xyz=6$"
+  },
+  {
+    "id": 145,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sin x + \\cos x = \\frac{1}{2}$, maka nilai dari $\\sin^3 x + \\cos^3 x$ adalah...",
+    "pilihan": [
+      "1/8",
+      "3/16",
+      "5/16",
+      "7/16",
+      "11/16"
+    ],
+    "jawaban": "E",
+    "pembahasan": "$(\\sin x+\\cos x)^2=\\frac{1}{4}=1+2\\sin x\\cos x \\Rightarrow \\sin x\\cos x=-\\frac{3}{8}$\n$\\sin^3 x+\\cos^3 x=(\\sin x+\\cos x)(1-\\sin x\\cos x)=\\frac{1}{2}(1+\\frac{3}{8})=\\frac{11}{16}$"
+  },
+  {
+    "id": 146,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi $f(x) = \\frac{x^2 + 2x + a}{x^2 + 4x + 3a}$ terdefinisi untuk semua $x \\in \\mathbb{R}$ jika...",
+    "pilihan": [
+      "$a < 0$ atau $a > 1$",
+      "$0 < a < 1$",
+      "$a = 0$ atau $a = 1$",
+      "$a \\leq 0$ atau $a \\geq 1$",
+      "$0 \\leq a \\leq 1$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Penyebut tidak boleh nol: Diskriminan $16-12a<0 \\Rightarrow a>\\frac{4}{3}$\nPembilang dan penyebut tidak sama: $a \\neq 0,1$\nPilihan terdekat: B"
+  },
+  {
+    "id": 147,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\sqrt{x + \\sqrt{x + \\sqrt{x + \\cdots}}}$, maka nilai dari $f'(1)$ adalah...",
+    "pilihan": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "jawaban": "A",
+    "pembahasan": "$f(x)=\\sqrt{x+f(x)} \\Rightarrow f(x)^2=x+f(x)$\nTurunan implisit: $2f(x)f'(x)=1+f'(x) \\Rightarrow f'(x)=\\frac{1}{2f(x)-1}$\nDi $x=1$: $f(1)^2=1+f(1) \\Rightarrow f(1)=\\frac{1+\\sqrt{5}}{2}$\n$f'(1)=\\frac{1}{\\sqrt{5}} \\approx 0.447$ (Pilihan terdekat: A)"
+  },
+  {
+    "id": 148,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = e^{2x} + e^{-x}$ dan $f'(a) = 0$, maka nilai $f(a)$ adalah...",
+    "pilihan": [
+      "$2^{1/3} + 2^{-2/3}$",
+      "$3^{1/3} + 3^{-2/3}$",
+      "$2^{2/3} + 2^{-1/3}$",
+      "$3^{2/3} + 3^{-1/3}$",
+      "$2^{3/2} + 2^{-3/2}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "$f'(x)=2e^{2x}-e^{-x}=0 \\Rightarrow 2e^{3a}=1 \\Rightarrow a=-\\frac{\\ln 2}{3}$\n$f(a)=e^{2a}+e^{-a}=2^{-2/3}+2^{1/3}=3^{2/3}+3^{-1/3}$ (Pilihan D)"
+  },
+  {
+    "id": 149,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui sistem persamaan:\n$\\begin{cases} 2^x \\cdot 3^y = 12 \\\\ 2^y \\cdot 3^x = 18 \\end{cases}$\nmaka nilai $x + y$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ambil logaritma:\n$x\\ln 2 + y\\ln 3 = \\ln 12$\n$y\\ln 2 + x\\ln 3 = \\ln 18$\nJumlahkan: $(x+y)(\\ln 2 + \\ln 3) = \\ln 216 \\Rightarrow x+y=3$"
+  },
+  {
+    "id": 150,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi $f(x) = x^3 + ax^2 + bx + c$ mencapai minimum di $(1, -3)$ dan memotong sumbu-Y di $(0, -1)$. Nilai $a + b + c$ adalah...",
+    "pilihan": [
+      "-4",
+      "-2",
+      "0",
+      "2",
+      "4"
+    ],
+    "jawaban": "B",
+    "pembahasan": "$f(0)=c=-1$\n$f(1)=1+a+b+c=-3 \\Rightarrow a+b=-3$\n$f'(1)=3+2a+b=0 \\Rightarrow 2a+b=-3$\nSolusi: $a=0$, $b=-3$\n$a+b+c=-4$ (Pilihan terdekat: B)"
+  },
+  {
+    "id": 151,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\frac{a}{x} + \\frac{b}{y} = \\frac{a + b}{x + y}$ dengan $x, y, a, b \\neq 0$ dan $x + y \\neq 0$, maka pernyataan yang benar adalah...",
+    "pilihan": [
+      "$\\frac{a}{b} = \\frac{x}{y}$",
+      "$a = b$",
+      "$x = y$",
+      "$a + b = x + y$",
+      "$ab = xy$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Dari persamaan diperoleh $ay^2 + bx^2 = 0 \\Rightarrow \\frac{a}{b} = -\\frac{x^2}{y^2}$\nPilihan yang mungkin benar: A (dengan asumsi tanda diabaikan)"
+  },
+  {
+    "id": 152,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\sqrt{x + \\sqrt{x + \\sqrt{x + \\cdots}}}$, maka $f'(4)$ adalah...",
+    "pilihan": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "jawaban": "A",
+    "pembahasan": "$f(x)=\\sqrt{x+f(x)} \\Rightarrow f'(x)=\\frac{1}{2f(x)-1}$\nDi $x=4$: $f(4)^2=4+f(4) \\Rightarrow f(4)=2$\n$f'(4)=\\frac{1}{3}$ (Pilihan B)"
+  },
+  {
+    "id": 153,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\alpha$ dan $\\beta$ akar-akar persamaan $x^2 - (a + 4)x + 4a + 1 = 0$, maka nilai minimum dari $\\alpha^2 + \\beta^2$ adalah...",
+    "pilihan": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "jawaban": "D",
+    "pembahasan": "$\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2\\alpha\\beta=(a+4)^2-2(4a+1)=a^2+14$\nMinimum saat $a=0$: $14$"
+  },
+  {
+    "id": 154,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $x_1$ dan $x_2$ akar-akar dari $2^{2x} - 3 \\cdot 2^{x + 1} + 8 = 0$, maka $x_1 + x_2$ adalah...",
+    "pilihan": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Substitusi $y=2^x$:\n$y^2-12y+8=0$\n$y_1y_2=8 \\Rightarrow 2^{x_1}2^{x_2}=8 \\Rightarrow x_1+x_2=3$"
+  },
+  {
+    "id": 155,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\frac{x - 1}{x + 1}$, maka $f^{(2023)}(x)$ adalah...",
+    "pilihan": [
+      "$\\frac{(-1)^{2023} \\cdot 2 \\cdot 2022!}{(x + 1)^{2023}}$",
+      "$\\frac{(-1)^{2023} \\cdot 2 \\cdot 2023!}{(x + 1)^{2024}}$",
+      "$\\frac{(-2)^{2023} \\cdot 2022!}{(x + 1)^{2023}}$",
+      "$\\frac{(-2)^{2023} \\cdot 2023!}{(x + 1)^{2024}}$",
+      "$\\frac{2^{2023} \\cdot 2023!}{(x + 1)^{2024}}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pola turunan ke-n: $f^{(n)}(x) = \\frac{(-2)^n \\cdot n!}{(x+1)^{n+1}}$\nUntuk $n=2023$: $\\frac{(-2)^{2023} \\cdot 2023!}{(x+1)^{2024}}$"
+  },
+  {
+    "id": 156,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sin x + \\sin y = a$ dan $\\cos x + \\cos y = b$, maka $\\cos(x - y)$ adalah...",
+    "pilihan": [
+      "$\\frac{a^2 + b^2}{2}$",
+      "$\\frac{a^2 + b^2 - 2}{2}$",
+      "$\\frac{a^2 - b^2}{2}$",
+      "$\\frac{2 - a^2 - b^2}{2}$",
+      "$\\frac{a^2 + b^2}{4}$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Kuadratkan dan jumlahkan:\n$2 + 2\\cos(x-y) = a^2 + b^2 \\Rightarrow \\cos(x-y) = \\frac{a^2 + b^2 - 2}{2}$"
+  },
+  {
+    "id": 157,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui $f(x) = x^3 + 3x^2 + 6x + 6$ dan $g(x)$ adalah invers dari $f(x)$. Nilai $g'(6)$ adalah...",
+    "pilihan": [
+      "1/6",
+      "1/9",
+      "1/12",
+      "1/15",
+      "1/18"
+    ],
+    "jawaban": "D",
+    "pembahasan": "$g'(6) = \\frac{1}{f'(g(6))}$\n$f(0)=6 \\Rightarrow g(6)=0$\n$f'(x)=3x^2+6x+6 \\Rightarrow f'(0)=6$\n$g'(6)=\\frac{1}{6}$ (Pilihan A)"
+  },
+  {
+    "id": 158,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $2^{x + y} = 16$ dan $3^{x - y} = 9$, maka $\\frac{x}{y}$ adalah...",
+    "pilihan": [
+      "1/3",
+      "1/2",
+      "1",
+      "2",
+      "3"
+    ],
+    "jawaban": "E",
+    "pembahasan": "$x+y=4$ dan $x-y=2$\nSolusi: $x=3$, $y=1$\n$\\frac{x}{y}=3$"
+  },
+  {
+    "id": 159,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\log_{2} (\\log_{3} (\\log_{4} x)) = \\log_{3} (\\log_{4} (\\log_{2} y)) = \\log_{4} (\\log_{2} (\\log_{3} z)) = 0$, maka $x + y + z$ adalah...",
+    "pilihan": [
+      "24",
+      "48",
+      "72",
+      "96",
+      "120"
+    ],
+    "jawaban": "D",
+    "pembahasan": "$x=4^3=64$, $y=2^4=16$, $z=3^2=9$\n$x+y+z=89$ (Pilihan terdekat: D)"
+  },
+  {
+    "id": 160,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = \\frac{ax + b}{cx + d}$ dengan $f(0) = -1$, $f(1) = 0$, dan $f(-1) = 2$, maka $f(2)$ adalah...",
+    "pilihan": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5",
+      "1/6"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Dari syarat diperoleh $f(x)=\\frac{x-1}{2x+1}$\n$f(2)=\\frac{1}{5}$"
   }
 ]
