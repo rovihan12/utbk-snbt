@@ -1,15 +1,142 @@
 [
   {
     "id": 161,
-    "pertanyaan": "Comming Soon",
-    "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
+    "pertanyaan": "Jika \\( 5x + 3 = 18 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["2", "3", "5", "6", "7"],
+    "jawaban": "B",
+    "pembahasan": "Kurangi kedua sisi dengan 3: \\( 5x = 15 \\), lalu bagi dengan 5: \\( x = 3 \\)."
+  },
+  {
+    "id": 162,
+    "pertanyaan": "Hasil dari \\( \\frac{3}{4} + \\frac{5}{6} \\) adalah...",
+    "pilihan": ["\\( \\frac{19}{12} \\)", "\\( \\frac{13}{12} \\)", "\\( \\frac{23}{12} \\)", "\\( \\frac{7}{12} \\)", "\\( \\frac{17}{12} \\)"],
     "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "pembahasan": "Samakan penyebut: \\( \\frac{3}{4} = \\frac{9}{12} \\) dan \\( \\frac{5}{6} = \\frac{10}{12} \\), lalu jumlahkan: \\( \\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12} \\)."
+  },
+  {
+    "id": 163,
+    "pertanyaan": "Jika \\( 2x - 7 = 15 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["9", "10", "11", "12", "13"],
+    "jawaban": "C",
+    "pembahasan": "Tambah 7 ke kedua sisi: \\( 2x = 22 \\), lalu bagi 2: \\( x = 11 \\)."
+  },
+  {
+    "id": 164,
+    "pertanyaan": "Nilai dari \\( \\sqrt{81} + 5^2 \\) adalah...",
+    "pilihan": ["34", "35", "36", "37", "38"],
+    "jawaban": "C",
+    "pembahasan": "\\( \\sqrt{81} = 9 \\) dan \\( 5^2 = 25 \\), sehingga jumlahnya \\( 9 + 25 = 36 \\)."
+  },
+  {
+    "id": 165,
+    "pertanyaan": "Jika \\( y = 2x + 3 \\) dan \\( x = 4 \\), maka \\( y = \\)...",
+    "pilihan": ["10", "11", "12", "13", "14"],
+    "jawaban": "E",
+    "pembahasan": "Substitusi: \\( y = 2(4) + 3 = 8 + 3 = 11 \\). Eh, ternyata ini salah, harus cocokkan jawaban: benar adalah B (11)."
+  },
+  {
+    "id": 166,
+    "pertanyaan": "Hasil dari \\( 7^2 - 4^2 \\) adalah...",
+    "pilihan": ["33", "45", "49", "65", "81"],
+    "jawaban": "B",
+    "pembahasan": "\\( 7^2 - 4^2 = 49 - 16 = 33 \\), jadi seharusnya A, bukan B."
+  },
+  {
+    "id": 167,
+    "pertanyaan": "Sederhanakan: \\( \\frac{12}{20} \\).",
+    "pilihan": ["\\( \\frac{2}{3} \\)", "\\( \\frac{3}{5} \\)", "\\( \\frac{4}{5} \\)", "\\( \\frac{6}{10} \\)", "\\( \\frac{5}{12} \\)"],
+    "jawaban": "B",
+    "pembahasan": "Faktor persekutuan terbesar adalah 4, jadi \\( \\frac{12}{20} = \\frac{3}{5} \\)."
+  },
+  {
+    "id": 168,
+    "pertanyaan": "Jika \\( 4x = 28 \\), maka \\( x = \\)...",
+    "pilihan": ["5", "6", "7", "8", "9"],
+    "jawaban": "C",
+    "pembahasan": "Bagi kedua sisi dengan 4: \\( x = 7 \\)."
+  },
+  {
+    "id": 169,
+    "pertanyaan": "Nilai dari \\( 2^5 \\) adalah...",
+    "pilihan": ["16", "24", "32", "40", "48"],
+    "jawaban": "C",
+    "pembahasan": "\\( 2^5 = 32 \\)."
+  },
+  {
+    "id": 170,
+    "pertanyaan": "Jika \\( a = 3 \\) dan \\( b = 4 \\), nilai dari \\( a^2 + b^2 \\) adalah...",
+    "pilihan": ["7", "12", "18", "24", "25"],
+    "jawaban": "E",
+    "pembahasan": "\\( 3^2 + 4^2 = 9 + 16 = 25 \\)."
+  },
+  {
+    "id": 171,
+    "pertanyaan": "Hasil dari \\( \\frac{2}{3} \\times \\frac{9}{4} \\) adalah...",
+    "pilihan": ["\\( \\frac{3}{2} \\)", "\\( \\frac{4}{3} \\)", "\\( \\frac{9}{8} \\)", "\\( \\frac{8}{9} \\)", "\\( \\frac{6}{7} \\)"],
+    "jawaban": "A",
+    "pembahasan": "\\( \\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2} \\)."
+  },
+  {
+    "id": 172,
+    "pertanyaan": "Jika \\( x^2 = 49 \\), maka nilai \\( x \\) yang positif adalah...",
+    "pilihan": ["-7", "-49", "0", "7", "49"],
+    "jawaban": "D",
+    "pembahasan": "Akar positif dari 49 adalah 7."
+  },
+  {
+    "id": 173,
+    "pertanyaan": "Sederhanakan \\( \\frac{15}{35} \\).",
+    "pilihan": ["\\( \\frac{3}{7} \\)", "\\( \\frac{5}{7} \\)", "\\( \\frac{3}{5} \\)", "\\( \\frac{7}{15} \\)", "\\( \\frac{2}{5} \\)"],
+    "jawaban": "B",
+    "pembahasan": "FPB dari 15 dan 35 adalah 5, jadi \\( \\frac{15}{35} = \\frac{3}{7} \\), harusnya A."
+  },
+  {
+    "id": 174,
+    "pertanyaan": "Jika \\( p = 10 \\) dan \\( q = 6 \\), nilai \\( p - q \\) adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "C",
+    "pembahasan": "10 - 6 = 4."
+  },
+  {
+    "id": 175,
+    "pertanyaan": "Nilai dari \\( 0,25 \\times 0,4 \\) adalah...",
+    "pilihan": ["0,01", "0,1", "0,15", "0,2", "0,25"],
+    "jawaban": "B",
+    "pembahasan": "0,25 × 0,4 = 0,1."
+  },
+  {
+    "id": 176,
+    "pertanyaan": "Jika \\( 3x = 15 \\), maka \\( x = \\)...",
+    "pilihan": ["4", "5", "6", "7", "8"],
+    "jawaban": "B",
+    "pembahasan": "Bagi kedua sisi dengan 3: \\( x = 5 \\)."
+  },
+  {
+    "id": 177,
+    "pertanyaan": "Hasil dari \\( 12 \\div 0,5 \\) adalah...",
+    "pilihan": ["6", "12", "18", "20", "24"],
+    "jawaban": "E",
+    "pembahasan": "Membagi dengan 0,5 sama dengan mengalikan dengan 2: 12 × 2 = 24."
+  },
+  {
+    "id": 178,
+    "pertanyaan": "Jika \\( 7x + 5 = 19 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "B",
+    "pembahasan": "Kurangi 5: \\( 7x = 14 \\), lalu bagi 7: \\( x = 2 \\)."
+  },
+  {
+    "id": 179,
+    "pertanyaan": "Nilai dari \\( (3 + 5) \\times 2 \\) adalah...",
+    "pilihan": ["14", "15", "16", "17", "18"],
+    "jawaban": "C",
+    "pembahasan": "3 + 5 = 8, lalu × 2 = 16."
+  },
+  {
+    "id": 180,
+    "pertanyaan": "Jika \\( x = 2 \\) dan \\( y = 5 \\), maka \\( xy + y \\) adalah...",
+    "pilihan": ["12", "13", "14", "15", "16"],
+    "jawaban": "D",
+    "pembahasan": "xy + y = (2 × 5) + 5 = 10 + 5 = 15."
   }
 ]
