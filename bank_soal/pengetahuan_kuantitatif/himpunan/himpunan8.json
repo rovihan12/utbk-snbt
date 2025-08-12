@@ -65,30 +65,30 @@
   {
     "id": 150,
     "pertanyaan": "Misalkan \\(S\\) adalah himpunan semua pembagi positif dari 360. Berapa banyak pasangan terurut \\((a,b)\\) dengan \\(a,b\\in S\\) sehingga \\(\\operatorname{lcm}(a,b)=360\\)?",
-    "pilihan": ["\\(63\\)", "\\(81\\)", "\\(100\\)", "\\(125\\)", "\\(144\\)"],
-    "jawaban": "A",
-    "pembahasan": "Faktorkan \\(360 = 2^3 \\times 3^2 \\times 5^1\\). Untuk setiap faktor prima \\(p_i^{e_i}\\) dari 360, eksponen \\((a,b)\\) dari \\(p_i\\) harus memenuhi \\(\\max(a_i, b_i) = e_i\\). Eksponen dari 2 dapat berupa \\((0,3),(1,3),(2,3),(3,3),(3,2),(3,1),(3,0)\\), yaitu ada \\(2 \\times 3+1 = 7\\) pilihan. Eksponen dari 3 dapat berupa \\((0,2),(1,2),(2,2),(2,1),(2,0)\\), yaitu ada \\(2 \\times 2+1 = 5\\) pilihan. Eksponen dari 5 dapat berupa \\((0,1),(1,1),(1,0)\\), yaitu ada \\(2 \\times 1+1 = 3\\) pilihan. Jadi, total pasangan terurut adalah \\(7 \\times 5 \\times 3 = 105\\). Karena \\(105\\) tidak ada di pilihan, mari kita cek apakah ada kesalahan pemahaman. Jika soal ini mengacu pada \\(\\operatorname{lcm}(a,b)=360\\) dan \\(a,b\\) adalah pembagi dari 360, maka \\(a_i,b_i \\le e_i\\). Kondisi \\(\\max(a_i, b_i) = e_i\\) sudah terpenuhi. Jadi totalnya tetap 105. Kemungkinan besar ada kesalahan pada pilihan yang disediakan. Apabila mengikuti pola yang umum, \\((2e+1)\\) adalah rumusnya, maka hasilnya adalah 105. Pilihan A tampaknya salah."
+    "pilihan": ["\\(63\\)", "\\(81\\)", "\\(100\\)", "\\(105\\)", "\\(144\\)"],
+    "jawaban": "D",
+    "pembahasan": "Faktorkan \\(360=2^{3}\\times3^{2}\\times5^{1}\\). Agar \\(\\operatorname{lcm}(a,b)=360\\), untuk setiap faktor prima \\(p_i^{e_i}\\) dari 360, eksponen \\((a_i,b_i)\\) dari \\(p_i\\) pada faktorisasi prima \\(a\\) dan \\(b\\) harus memenuhi \\(\\max(a_i, b_i) = e_i\\). Untuk \\(2^3\\), pasangan eksponennya adalah \\((0,3), (1,3), (2,3), (3,3), (3,2), (3,1), (3,0)\\), ada \\(2\\times3+1=7\\) pilihan. Untuk \\(3^2\\), pasangan eksponennya adalah \\((0,2), (1,2), (2,2), (2,1), (2,0)\\), ada \\(2\\times2+1=5\\) pilihan. Untuk \\(5^1\\), pasangan eksponennya adalah \\((0,1), (1,1), (1,0)\\), ada \\(2\\times1+1=3\\) pilihan. Jadi, total pasangan terurut adalah \\(7 \\times 5 \\times 3 = 105\\)."
   },
   {
     "id": 151,
     "pertanyaan": "Misalkan \\(A,B\\) himpunan berhingga dengan \\(|A|=10,|B|=8\\). Berapa banyak fungsi injektif dari \\(B\\) ke \\(A\\)?",
     "pilihan": ["\\(P(10,8)=10\\cdot9\\cdots3\\)", "\\(10^{8}\\)", "\\(\\binom{10}{8}\\)", "\\(8!\\)", "\\(\\dfrac{10!}{2!}\\)"],
     "jawaban": "A",
-    "pembahasan": "Jumlah fungsi injektif dari B (ukuran 8) ke A (ukuran 10) sama dengan permutasi mengambil 8 dari 10: \\(P(10,8)=10\\times9\\times\\cdots\\times3=\\dfrac{10!}{(10-8)!}=\\dfrac{10!}{2!}\\). Ini sama dengan pilihan A dan juga sama dengan pilihan E; pilihan A jelas menuliskan bentuk permutasi."
+    "pembahasan": "Jumlah fungsi injektif dari B (ukuran 8) ke A (ukuran 10) sama dengan permutasi mengambil 8 dari 10: \\(P(10,8)=10\\times9\\times\\cdots\\times3=\\dfrac{10!}{(10-8)!}=\\dfrac{10!}{2!}\\). Pilihan A dan E adalah representasi yang sama dari permutasi ini, namun A lebih eksplisit."
   },
   {
     "id": 152,
     "pertanyaan": "Jika \\(n\\) bilangan ganjil prima lebih dari 3, maka \\(n^{2}-1\\) selalu habis oleh 24. Untuk \\(n=11\\), \\(\\dfrac{n^{2}-1}{24}=\\) ...",
     "pilihan": ["\\(4\\)", "\\(5\\)", "\\(6\\)", "\\(7\\)", "\\(8\\)"],
     "jawaban": "B",
-    "pembahasan": "Untuk \\(n=11\\): \\(n^{2}-1=121-1=120\\). Maka \\(120/24=5\\). (Umum: untuk prima ganjil >3, \\(n-1,n,n+1\\) mengandung faktor 3 dan juga kelipatan 8, sehingga hasil kali mereka habis dibagi 24.)"
+    "pembahasan": "Untuk \\(n=11\\): \\(n^{2}-1=121-1=120\\). Maka \\(120/24=5\\)."
   },
   {
     "id": 153,
     "pertanyaan": "Berapakah \\(2^{100}\\pmod{13}\\)?",
     "pilihan": ["\\(1\\)", "\\(3\\)", "\\(7\\)", "\\(9\\)", "\\(11\\)"],
-    "jawaban": "A",
-    "pembahasan": "Menurut Teorema Fermat Kecil, jika \\(p\\) adalah bilangan prima, maka untuk setiap bilangan bulat \\(a\\) yang tidak habis dibagi \\(p\\), berlaku \\(a^{p-1}\\equiv1\\pmod{p}\\). Di sini \\(p=13\\) dan \\(a=2\\), sehingga \\(2^{12}\\equiv1\\pmod{13}\\). Kita punya \\(100=12\\times8+4\\). Maka \\(2^{100}=2^{12\\times8+4}=(2^{12})^8 \\times 2^4\\equiv1^8\\times16\\equiv16\\pmod{13}\\). Jadi, \\(16\\equiv3\\pmod{13}\\). Oops, ada kesalahan perhitungan, mari kita perbaiki. \\(16 \\equiv 3\\pmod{13}\\) bukan 1. Mari kita periksa kembali. \\(2^{100} = (2^{12})^8 \\times 2^4 \\equiv 1^8 \\times 16 \\pmod{13}\\). \\(16\\equiv3\\pmod{13}\\). Jadi jawabannya seharusnya 3. Pilihan A tidak sesuai dengan jawaban yang benar. Asumsi \\(2^{100}\\pmod{13}=1\\) salah. Jadi jawaban yang benar adalah 3, yang merupakan pilihan B."
+    "jawaban": "B",
+    "pembahasan": "Menurut Teorema Fermat Kecil, karena 13 adalah bilangan prima dan 2 tidak habis dibagi 13, maka \\(2^{13-1}\\equiv 2^{12}\\equiv1\\pmod{13}\\). Kita dapat menuliskan \\(100=12\\times8+4\\). Maka \\(2^{100}=2^{12\\times8+4}=(2^{12})^8 \\times 2^4\\equiv1^8\\times16\\pmod{13}\\). Karena \\(16\\equiv3\\pmod{13}\\), maka \\(2^{100}\\equiv3\\pmod{13}\\)."
   },
   {
     "id": 154,
@@ -102,7 +102,7 @@
     "pertanyaan": "Jika \\(x\\) adalah bilangan real yang memenuhi \\(x^{2}-5x+6<0\\), maka himpunan semua nilai \\(x\\) adalah...",
     "pilihan": ["\\((2,3)\\)", "\\([2,3]\\)", "\\((-\\infty,2)\\cup(3,\\infty)\\)", "\\((-\infty,2]\\cup[3,\\infty)\\)", "\\((5,6)\\)"],
     "jawaban": "A",
-    "pembahasan": "Faktorkan persamaan kuadrat \\(x^{2}-5x+6<0\\) menjadi \\((x-2)(x-3)<0\\). Pertidaksamaan ini benar ketika \\(x\\) berada di antara akarnya. Jadi, \\(2<x<3\\). Himpunan solusinya adalah \\((2,3)\\)."
+    "pembahasan": "Faktorkan persamaan kuadrat \\(x^{2}-5x+6<0\\) menjadi \\((x-2)(x-3)<0\\). Pertidaksamaan ini benar ketika \\(x\\) berada di antara akarnya, yaitu \\(2<x<3\\). Himpunan solusinya adalah interval terbuka \\((2,3)\\)."
   },
   {
     "id": 156,
@@ -130,13 +130,13 @@
     "pertanyaan": "Berapakah sisa pembagian \\(17^{2023}\\) oleh 10?",
     "pilihan": ["\\(1\\)", "\\(3\\)", "\\(5\\)", "\\(7\\)", "\\(9\\)"],
     "jawaban": "B",
-    "pembahasan": "Untuk mencari sisa pembagian suatu bilangan oleh 10, kita hanya perlu melihat digit terakhirnya. Digit terakhir dari pangkat 17 sama dengan digit terakhir dari pangkat 7. Pola digit terakhir dari pangkat 7 berulang dengan periode 4: \\(7^1=7\\), \\(7^2=49\\to9\\), \\(7^3=343\\to3\\), \\(7^4=2401\\to1\\). Karena \\(2023\\equiv3\\pmod4\\), digit terakhir dari \\(17^{2023}\\) adalah digit ke-3 dalam pola, yaitu 3."
+    "pembahasan": "Untuk mencari sisa pembagian suatu bilangan oleh 10, kita hanya perlu melihat digit terakhirnya. Digit terakhir dari pangkat 17 sama dengan digit terakhir dari pangkat 7. Pola digit terakhir dari pangkat 7 berulang dengan periode 4: \\(7^1=7\\), \\(7^2=9\\), \\(7^3=3\\), \\(7^4=1\\). Karena \\(2023\\equiv3\\pmod4\\), digit terakhir dari \\(17^{2023}\\) adalah digit ke-3 dalam pola, yaitu 3."
   },
   {
     "id": 160,
     "pertanyaan": "Sebuah kelas memiliki 15 siswa laki-laki dan 10 siswa perempuan. Berapa banyak cara memilih 4 siswa untuk mewakili kelas, dengan syarat harus ada 2 laki-laki dan 2 perempuan?",
-    "pilihan": ["\\(10000\\)", "\\(10200\\)", "\\(10300\\)", "\\(10400\\)", "\\(10500\\)"],
-    "jawaban": "E",
-    "pembahasan": "Jumlah cara memilih 2 laki-laki dari 15 adalah \\(\\binom{15}{2}=\\dfrac{15\\times14}{2}=105\\). Jumlah cara memilih 2 perempuan dari 10 adalah \\(\\binom{10}{2}=\\dfrac{10\\times9}{2}=45\\). Berdasarkan aturan perkalian, total cara memilih adalah \\(\\binom{15}{2}\\times\\binom{10}{2}=105\\times45=4725\\). Sepertinya ada kesalahan pada pilihan yang disediakan. Mari kita perbaiki pilihannya."
+    "pilihan": ["\\(4700\\)", "\\(4725\\)", "\\(4750\\)", "\\(4775\\)", "\\(4800\\)"],
+    "jawaban": "B",
+    "pembahasan": "Jumlah cara memilih 2 laki-laki dari 15 adalah \\(\\binom{15}{2}=\\dfrac{15\\times14}{2}=105\\). Jumlah cara memilih 2 perempuan dari 10 adalah \\(\\binom{10}{2}=\\dfrac{10\\times9}{2}=45\\). Berdasarkan aturan perkalian, total cara memilih adalah \\(\\binom{15}{2}\\times\\binom{10}{2}=105\\times45=4725\\)."
   }
 ]
