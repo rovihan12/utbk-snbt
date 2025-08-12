@@ -1,209 +1,139 @@
 [
   {
     "id": 121,
-    "pertanyaan": "Panjang diagonal sebuah persegi panjang dengan panjang 8 cm dan lebar 6 cm adalah...",
-    "pilihan": ["$10 \\text{ cm}$", "$12 \\text{ cm}$", "$14 \\text{ cm}$", "$16 \\text{ cm}$", "$18 \\text{ cm}$"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan teorema Pythagoras: diagonal ($d$) $d^2 = \\text{panjang}^2 + \\text{lebar}^2$. $d^2 = 8^2 + 6^2 = 64 + 36 = 100$. $d = \\sqrt{100} = 10 \\text{ cm}$."
-  },
-  {
-    "id": 122,
-    "pertanyaan": "Nilai dari $\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6}$ adalah...",
-    "pilihan": ["$\\frac{5}{6}$", "$1$", "$\\frac{7}{6}$", "$\\frac{4}{3}$", "$2$"],
-    "jawaban": "B",
-    "pembahasan": "Samakan penyebutnya menjadi 6: $\\frac{3}{6} + \\frac{2}{6} + \\frac{1}{6} = \\frac{3+2+1}{6} = \\frac{6}{6} = 1$."
-  },
-  {
-    "id": 123,
-    "pertanyaan": "Jika $f(x) = 2x - 5$ dan $g(x) = x^2 + 1$, maka $(g \\circ f)(x)$ adalah...",
-    "pilihan": ["$2x^2 - 3$", "$4x^2 - 20x + 26$", "$4x^2 - 10x + 26$", "$2x^2 + 2x - 4$", "$x^2 + 2x - 4$"],
-    "jawaban": "B",
-    "pembahasan": "$(g \\circ f)(x) = g(f(x)) = g(2x - 5)$. Substitusikan $(2x-5)$ ke $g(x)$: $(2x - 5)^2 + 1 = (4x^2 - 20x + 25) + 1 = 4x^2 - 20x + 26$."
-  },
-  {
-    "id": 124,
-    "pertanyaan": "Berapakah volume kubus jika luas permukaannya adalah $150 \\text{ cm}^2$?",
-    "pilihan": ["$25 \\text{ cm}^3$", "$50 \\text{ cm}^3$", "$100 \\text{ cm}^3$", "$125 \\text{ cm}^3$", "$150 \\text{ cm}^3$"],
-    "jawaban": "D",
-    "pembahasan": "Luas permukaan kubus adalah $6s^2$, di mana $s$ adalah panjang sisi. $6s^2 = 150 \\implies s^2 = 25 \\implies s = 5 \\text{ cm}$. Volume kubus adalah $s^3 = 5^3 = 125 \\text{ cm}^3$."
-  },
-  {
-    "id": 125,
-    "pertanyaan": "Himpunan penyelesaian dari $3x + 2 \\ge 8$ adalah...",
-    "pilihan": ["$x \\le 2$", "$x \\ge 2$", "$x < 2$", "$x > 2$", "$x = 2$"],
-    "jawaban": "B",
-    "pembahasan": "Kurangkan 2 dari kedua sisi: $3x \\ge 6$. Bagi dengan 3: $x \\ge 2$."
-  },
-  {
-    "id": 126,
-    "pertanyaan": "Nilai dari $2 \\sin 30^\\circ + 4 \\cos 60^\\circ$ adalah...",
-    "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
-    "jawaban": "C",
-    "pembahasan": "$\\sin 30^\\circ = \\frac{1}{2}$ dan $\\cos 60^\\circ = \\frac{1}{2}$. Jadi, $2(\\frac{1}{2}) + 4(\\frac{1}{2}) = 1 + 2 = 3$."
-  },
-  {
-    "id": 127,
-    "pertanyaan": "Jika $f(x) = x^2 - x$, maka nilai dari $\\frac{f(x+h) - f(x)}{h}$ adalah...",
-    "pilihan": ["$2x - 1$", "$2x + h - 1$", "$x^2 - x + h$", "$h - 1$", "$2x - h + 1$"],
-    "jawaban": "B",
-    "pembahasan": "$f(x+h) = (x+h)^2 - (x+h) = x^2 + 2xh + h^2 - x - h$. Maka $f(x+h) - f(x) = (x^2 + 2xh + h^2 - x - h) - (x^2 - x) = 2xh + h^2 - h$. Jadi, $\\frac{2xh + h^2 - h}{h} = 2x + h - 1$."
-  },
-  {
-    "id": 128,
-    "pertanyaan": "Jumlah 5 suku pertama dari deret aritmetika $2, 5, 8, \\dots$ adalah...",
-    "pilihan": ["$20$", "$25$", "$30$", "$35$", "$40$"],
-    "jawaban": "D",
-    "pembahasan": "Suku pertama $a=2$, beda $b = 5 - 2 = 3$. Jumlah $n$ suku pertama deret aritmetika adalah $S_n = \\frac{n}{2}(2a + (n-1)b)$. Maka $S_5 = \\frac{5}{2}(2(2) + (5-1)3) = \\frac{5}{2}(4 + 4 \\times 3) = \\frac{5}{2}(4 + 12) = \\frac{5}{2}(16) = 5 \\times 8 = 40$."
-  },
-  {
-    "id": 129,
-    "pertanyaan": "Bentuk sederhana dari $\\sqrt{75} - \\sqrt{27} + \\sqrt{12}$ adalah...",
-    "pilihan": ["$\\sqrt{3}$", "$2\\sqrt{3}$", "$3\\sqrt{3}$", "$4\\sqrt{3}$", "$5\\sqrt{3}$"],
-    "jawaban": "D",
-    "pembahasan": "Sederhanakan setiap akar: $\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$. $\\sqrt{27} = \\sqrt{9 \\times 3} = 3\\sqrt{3}$. $\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$. Maka $5\\sqrt{3} - 3\\sqrt{3} + 2\\sqrt{3} = (5 - 3 + 2)\\sqrt{3} = 4\\sqrt{3}$."
-  },
-  {
-    "id": 130,
-    "pertanyaan": "Fungsi $f(x) = ax^2 + bx + c$ memotong sumbu-$x$ di titik $(1,0)$ dan $(4,0)$ serta memotong sumbu-$y$ di titik $(0, -4)$. Nilai $a+b+c$ adalah...",
-    "pilihan": ["$-6$", "$-4$", "$0$", "$2$", "$4$"],
-    "jawaban": "B",
-    "pembahasan": "Karena memotong sumbu-$x$ di $(1,0)$ dan $(4,0)$, maka $f(x) = k(x-1)(x-4)$. Karena memotong sumbu-$y$ di $(0, -4)$, maka $f(0) = -4$. Substitusikan $x=0$: $k(0-1)(0-4) = -4 \\implies k(-1)(-4) = -4 \\implies 4k = -4 \\implies k = -1$. Jadi $f(x) = -1(x-1)(x-4) = -(x^2 - 5x + 4) = -x^2 + 5x - 4$. Maka $a=-1, b=5, c=-4$. $a+b+c = -1+5-4 = 0$."
-  },
-  {
-    "id": 131,
     "pertanyaan": "Dari 20 siswa, 15 suka matematika dan 10 suka fisika. Jika 5 siswa tidak suka keduanya, berapa siswa yang suka keduanya?",
     "pilihan": ["$5$", "$10$", "$15$", "$20$", "$25$"],
     "jawaban": "B",
     "pembahasan": "Total siswa = 20. Siswa yang suka matematika atau fisika = Total siswa - siswa yang tidak suka keduanya = $20 - 5 = 15$. Siswa yang suka keduanya = (Siswa suka matematika) + (Siswa suka fisika) - (Siswa suka matematika atau fisika) = $15 + 10 - 15 = 10$."
   },
   {
-    "id": 132,
+    "id": 122,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi tegaknya 5 cm. Panjang sisi tegak yang lain adalah...",
     "pilihan": ["$8 \\text{ cm}$", "$10 \\text{ cm}$", "$11 \\text{ cm}$", "$12 \\text{ cm}$", "$14 \\text{ cm}$"],
     "jawaban": "D",
     "pembahasan": "Gunakan teorema Pythagoras: $a^2 + b^2 = c^2$. Misalkan sisi tegak yang lain adalah $x$. Maka $5^2 + x^2 = 13^2 \\implies 25 + x^2 = 169 \\implies x^2 = 169 - 25 = 144 \\implies x = \\sqrt{144} = 12 \\text{ cm}$."
   },
   {
-    "id": 133,
+    "id": 123,
     "pertanyaan": "Jika $a=2, b=-3, c=4$, maka nilai dari $\\frac{a^2 b}{c}$ adalah...",
     "pilihan": ["$-3$", "$-1.5$", "$1.5$", "$3$", "$6$"],
     "jawaban": "B",
     "pembahasan": "Substitusikan nilai-nilai: $\\frac{2^2 \\times (-3)}{4} = \\frac{4 \\times (-3)}{4} = \\frac{-12}{4} = -3$."
   },
   {
-    "id": 134,
+    "id": 124,
     "pertanyaan": "Bentuk rasional dari $\\frac{10}{3 - \\sqrt{2}}$ adalah...",
     "pilihan": ["$30 + 10\\sqrt{2}$", "$30 - 10\\sqrt{2}$", "$6 + 2\\sqrt{2}$", "$6 - 2\\sqrt{2}$", "$10(3+\\sqrt{2})$"],
     "jawaban": "C",
     "pembahasan": "Kalikan pembilang dan penyebut dengan konjugat penyebut $(3 + \\sqrt{2})$: $\\frac{10}{3 - \\sqrt{2}} \\times \\frac{3 + \\sqrt{2}}{3 + \\sqrt{2}} = \\frac{10(3 + \\sqrt{2})}{3^2 - (\\sqrt{2})^2} = \\frac{10(3 + \\sqrt{2})}{9 - 2} = \\frac{10(3 + \\sqrt{2})}{7} = \\frac{30 + 10\\sqrt{2}}{7}$."
   },
   {
-    "id": 135,
+    "id": 125,
     "pertanyaan": "Diketahui sebuah fungsi $g(x) = ax + b$. Jika $g(2) = 7$ dan $g(4) = 13$, maka nilai $a$ dan $b$ berturut-turut adalah...",
     "pilihan": ["$a=2, b=3$", "$a=3, b=1$", "$a=2, b=-3$", "$a=3, b=-2$", "$a=-2, b=3$"],
     "jawaban": "B",
     "pembahasan": "Dari $g(2) = 7$, kita dapat $2a + b = 7$ (persamaan 1). Dari $g(4) = 13$, kita dapat $4a + b = 13$ (persamaan 2). Kurangkan persamaan 1 dari persamaan 2: $(4a+b) - (2a+b) = 13 - 7 \\implies 2a = 6 \\implies a = 3$. Substitusikan $a=3$ ke persamaan 1: $2(3) + b = 7 \\implies 6 + b = 7 \\implies b = 1$. Jadi, nilai $a=3$ dan $b=1$."
   },
   {
-    "id": 136,
+    "id": 126,
     "pertanyaan": "Median dari data $7, 8, 6, 9, 5, 7, 8, 6, 10$ adalah...",
     "pilihan": ["$6$", "$7$", "$8$", "$9$", "$10$"],
     "jawaban": "B",
     "pembahasan": "Urutkan data terlebih dahulu: $5, 6, 6, 7, 7, 8, 8, 9, 10$. Jumlah data ada 9 (ganjil), jadi median adalah data ke-$\\frac{n+1}{2} = \\frac{9+1}{2} = 5$. Data ke-5 adalah 7."
   },
   {
-    "id": 137,
+    "id": 127,
     "pertanyaan": "Berapakah nilai $x$ jika $5x - 7 = 2x + 8$?",
     "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
     "jawaban": "C",
     "pembahasan": "Kurangkan $2x$ dari kedua sisi: $3x - 7 = 8$. Tambahkan 7 ke kedua sisi: $3x = 15$. Bagi dengan 3: $x = 5$."
   },
   {
-    "id": 138,
+    "id": 128,
     "pertanyaan": "Sebuah peta memiliki skala 1:200.000. Jika jarak antara dua kota di peta adalah 5 cm, maka jarak sebenarnya adalah...",
     "pilihan": ["$1 \\text{ km}$", "$5 \\text{ km}$", "$10 \\text{ km}$", "$15 \\text{ km}$", "$20 \\text{ km}$"],
     "jawaban": "C",
     "pembahasan": "Jarak sebenarnya = Jarak di peta $\\times$ Skala. Jarak sebenarnya = $5 \\text{ cm} \\times 200.000 = 1.000.000 \\text{ cm}$. Konversi ke kilometer: $1.000.000 \\text{ cm} = 10.000 \\text{ meter} = 10 \\text{ km}$."
   },
   {
-    "id": 139,
+    "id": 129,
     "pertanyaan": "Peluang munculnya jumlah mata dadu kurang dari 5 saat melempar dua dadu adalah...",
     "pilihan": ["$\\frac{1}{9}$", "$\\frac{1}{6}$", "$\\frac{2}{9}$", "$\\frac{5}{36}$", "$\\frac{7}{36}$"],
     "jawaban": "B",
     "pembahasan": "Jumlah mata dadu kurang dari 5: $(1,1), (1,2), (1,3), (2,1), (2,2), (3,1)$. Ada 6 kemungkinan. Total kemungkinan hasil pelemparan dua dadu adalah $6 \\times 6 = 36$. Jadi, peluangnya adalah $\\frac{6}{36} = \\frac{1}{6}$."
   },
   {
-    "id": 140,
+    "id": 130,
     "pertanyaan": "Hasil dari $(\\frac{1}{2})^{-2} \\times (2^3)$ adalah...",
     "pilihan": ["$2$", "$4$", "$8$", "$16$", "$32$"],
     "jawaban": "C",
     "pembahasan": "$(\\frac{1}{2})^{-2} = (2^1)^2 = 2^2 = 4$. $2^3 = 8$. Jadi $4 \\times 8 = 32$."
   },
   {
-    "id": 141,
+    "id": 131,
     "pertanyaan": "Fungsi kuadrat $y = x^2 - 4x + c$ memiliki nilai minimum -1. Nilai $c$ adalah...",
     "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
     "jawaban": "B",
     "pembahasan": "Koordinat $x$ titik puncak adalah $x = -\\frac{b}{2a}$. Di sini $a=1, b=-4$. Jadi $x = -\\frac{-4}{2(1)} = 2$. Nilai minimum terjadi di $x=2$, yaitu $y = f(2) = 2^2 - 4(2) + c = 4 - 8 + c = -4 + c$. Diketahui nilai minimum adalah $-1$, maka $-4 + c = -1 \\implies c = 3$."
   },
   {
-    "id": 142,
+    "id": 132,
     "pertanyaan": "Gradien garis yang melalui titik $(2, 3)$ dan $(4, 7)$ adalah...",
     "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
     "jawaban": "B",
     "pembahasan": "Gradien $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{7 - 3}{4 - 2} = \\frac{4}{2} = 2$."
   },
   {
-    "id": 143,
+    "id": 133,
     "pertanyaan": "Himpunan penyelesaian dari $x - 3 < 5$ adalah...",
     "pilihan": ["$x < 8$", "$x > 8$", "$x \\le 8$", "$x \\ge 8$", "$x = 8$"],
     "jawaban": "A",
     "pembahasan": "Tambahkan 3 ke kedua sisi: $x < 5 + 3 \\implies x < 8$."
   },
   {
-    "id": 144,
+    "id": 134,
     "pertanyaan": "Nilai dari $\\frac{1}{\\sin 30^\\circ}$ adalah...",
     "pilihan": ["$0.5$", "$1$", "$2$", "$2\\sqrt{3}$", "$1.5$"],
     "jawaban": "C",
     "pembahasan": "$\\sin 30^\\circ = \\frac{1}{2}$. Maka $\\frac{1}{\\sin 30^\\circ} = \\frac{1}{\\frac{1}{2}} = 2$."
   },
   {
-    "id": 145,
+    "id": 135,
     "pertanyaan": "Sebuah barisan geometri memiliki suku pertama 2 dan rasio 3. Suku ke-4 barisan tersebut adalah...",
     "pilihan": ["$18$", "$27$", "$36$", "$54$", "$81$"],
     "jawaban": "D",
     "pembahasan": "Rumus suku ke-$n$ barisan geometri: $U_n = ar^{n-1}$. Dengan $a=2, r=3, n=4$: $U_4 = 2 \\times 3^{4-1} = 2 \\times 3^3 = 2 \\times 27 = 54$."
   },
   {
-    "id": 146,
+    "id": 136,
     "pertanyaan": "Bentuk sederhana dari $(x^3 y^2 z)^2$ adalah...",
     "pilihan": ["$x^5 y^4 z^2$", "$x^6 y^4 z^2$", "$x^6 y^4 z$", "$x^9 y^4 z^2$", "$x^5 y^2 z^2$"],
     "jawaban": "B",
     "pembahasan": "Gunakan sifat eksponen $(abc)^n = a^n b^n c^n$ dan $(a^m)^n = a^{mn}$: $(x^3 y^2 z^1)^2 = (x^3)^2 (y^2)^2 (z^1)^2 = x^{3 \\times 2} y^{2 \\times 2} z^{1 \\times 2} = x^6 y^4 z^2$."
   },
   {
-    "id": 147,
+    "id": 137,
     "pertanyaan": "Jika $2x + 1 = 7$, maka nilai dari $x^2$ adalah...",
     "pilihan": ["$3$", "$4$", "$9$", "$16$", "$25$"],
     "jawaban": "C",
     "pembahasan": "$2x + 1 = 7 \\implies 2x = 6 \\implies x = 3$. Maka $x^2 = 3^2 = 9$."
   },
   {
-    "id": 148,
+    "id": 138,
     "pertanyaan": "Peluang terpilihnya seorang laki-laki dari 20 siswa yang terdiri dari 12 perempuan dan sisanya laki-laki adalah...",
     "pilihan": ["$\\frac{1}{5}$", "$\\frac{2}{5}$", "$\\frac{3}{5}$", "$\\frac{4}{5}$", "$1$"],
     "jawaban": "B",
     "pembahasan": "Jumlah siswa laki-laki = $20 - 12 = 8$. Peluang terpilihnya laki-laki = $\\frac{\\text{jumlah laki-laki}}{\\text{total siswa}} = \\frac{8}{20} = \\frac{2}{5}$."
   },
   {
-    "id": 149,
+    "id": 139,
     "pertanyaan": "Keliling sebuah persegi adalah 24 cm. Luas persegi tersebut adalah...",
     "pilihan": ["$24 \\text{ cm}^2$", "$36 \\text{ cm}^2$", "$48 \\text{ cm}^2$", "$64 \\text{ cm}^2$", "$144 \\text{ cm}^2$"],
     "jawaban": "B",
     "pembahasan": "Keliling persegi $K = 4s$. Jadi $24 = 4s \\implies s = 6 \\text{ cm}$. Luas persegi $L = s^2 = 6^2 = 36 \\text{ cm}^2$."
   },
   {
-    "id": 150,
+    "id": 140,
     "pertanyaan": "Faktorisasi dari $4x^2 - 1$ adalah...",
     "pilihan": ["$(2x-1)(2x-1)$", "$(2x+1)(2x+1)$", "$(4x-1)(x+1)$", "$(2x-1)(2x+1)$", "$(4x+1)(x-1)$"],
     "jawaban": "D",
