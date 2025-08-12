@@ -1,15 +1,142 @@
 [
   {
-    "id": 161,
-    "pertanyaan": "Comming Soon",
-    "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "id": 141,
+    "pertanyaan": "Diketahui fungsi kuadrat \\( f(x) = x^{2} - 5x + 6 \\). Tentukan nilai dari \\( f(4) \\).",
+    "pilihan": ["2", "4", "6", "8", "10"],
+    "jawaban": "4",
+    "pembahasan": "Substitusi \\( x = 4 \\) ke dalam fungsi: \\( f(4) = (4)^{2} - 5(4) + 6 = 16 - 20 + 6 = 2 \\). Jadi jawabannya adalah **2**."
+  },
+  {
+    "id": 142,
+    "pertanyaan": "Hitunglah nilai dari \\( \\frac{5}{8} + \\frac{3}{4} \\).",
+    "pilihan": ["\\( \\frac{1}{2} \\)", "\\( \\frac{11}{8} \\)", "\\( \\frac{7}{8} \\)", "\\( \\frac{2}{3} \\)", "\\( \\frac{5}{4} \\)"],
+    "jawaban": "\\( \\frac{11}{8} \\)",
+    "pembahasan": "Samakan penyebut: \\( \\frac{5}{8} + \\frac{3}{4} = \\frac{5}{8} + \\frac{6}{8} = \\frac{11}{8} \\)."
+  },
+  {
+    "id": 143,
+    "pertanyaan": "Diketahui \\( \\sqrt{49} + \\sqrt{81} = x \\). Tentukan nilai \\( x \\).",
+    "pilihan": ["10", "16", "18", "20", "14"],
+    "jawaban": "16",
+    "pembahasan": "Hitung akar masing-masing: \\( \\sqrt{49} = 7 \\) dan \\( \\sqrt{81} = 9 \\). Jumlahnya \\( 7 + 9 = 16 \\)."
+  },
+  {
+    "id": 144,
+    "pertanyaan": "Jika \\( 2^{x} = 32 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["3", "4", "5", "6", "7"],
+    "jawaban": "5",
+    "pembahasan": "Karena \\( 32 = 2^{5} \\), maka \\( x = 5 \\)."
+  },
+  {
+    "id": 145,
+    "pertanyaan": "Bentuk sederhana dari \\( \\frac{3x}{9} \\) adalah?",
+    "pilihan": ["\\( \\frac{x}{3} \\)", "\\( 3x \\)", "\\( x^{2} \\)", "\\( \\frac{3}{x} \\)", "\\( x \\)"],
+    "jawaban": "\\( \\frac{x}{3} \\)",
+    "pembahasan": "Pembilang dan penyebut dibagi 3: \\( \\frac{3x}{9} = \\frac{x}{3} \\)."
+  },
+  {
+    "id": 146,
+    "pertanyaan": "Hasil dari \\( (2x + 3)(x - 4) \\) adalah?",
+    "pilihan": ["\\( 2x^{2} - 5x - 12 \\)", "\\( 2x^{2} + 5x - 12 \\)", "\\( 2x^{2} - 8x + 3x - 12 \\)", "\\( 2x^{2} - 5x + 12 \\)", "\\( x^{2} - x - 12 \\)"],
+    "jawaban": "\\( 2x^{2} - 5x - 12 \\)",
+    "pembahasan": "Perkalian: \\( (2x)(x) + (2x)(-4) + (3)(x) + (3)(-4) = 2x^{2} - 8x + 3x - 12 = 2x^{2} - 5x - 12 \\)."
+  },
+  {
+    "id": 147,
+    "pertanyaan": "Jika \\( \\frac{1}{a} + \\frac{1}{b} = \\frac{1}{4} \\) dan \\( a = 8 \\), tentukan nilai \\( b \\).",
+    "pilihan": ["4", "6", "8", "12", "16"],
+    "jawaban": "8",
+    "pembahasan": "Substitusi \\( a = 8 \\): \\( \\frac{1}{8} + \\frac{1}{b} = \\frac{1}{4} \\) → \\( \\frac{1}{b} = \\frac{1}{4} - \\frac{1}{8} = \\frac{1}{8} \\) → \\( b = 8 \\)."
+  },
+  {
+    "id": 148,
+    "pertanyaan": "Bentuk sederhana dari \\( (x^{2})^{3} \\) adalah?",
+    "pilihan": ["\\( x^{5} \\)", "\\( x^{6} \\)", "\\( x^{9} \\)", "\\( 2x^{5} \\)", "\\( 2x^{6} \\)"],
+    "jawaban": "\\( x^{6} \\)",
+    "pembahasan": "Pangkat dipangkatkan dikalikan: \\( (x^{2})^{3} = x^{2 \\times 3} = x^{6} \\)."
+  },
+  {
+    "id": 149,
+    "pertanyaan": "Jika \\( y = 3x + 5 \\) dan \\( x = -2 \\), tentukan nilai \\( y \\).",
+    "pilihan": ["-1", "2", "-2", "1", "3"],
+    "jawaban": "-1",
+    "pembahasan": "Substitusi: \\( y = 3(-2) + 5 = -6 + 5 = -1 \\)."
+  },
+  {
+    "id": 150,
+    "pertanyaan": "Hasil dari \\( 4^{3} - 2^{5} \\) adalah?",
+    "pilihan": ["8", "16", "32", "0", "4"],
+    "jawaban": "32",
+    "pembahasan": "Hitung: \\( 4^{3} = 64 \\) dan \\( 2^{5} = 32 \\), sehingga \\( 64 - 32 = 32 \\)."
+  },
+  {
+    "id": 151,
+    "pertanyaan": "Jika luas persegi adalah \\( 49 \\, \\text{cm}^{2} \\), tentukan panjang sisinya.",
+    "pilihan": ["5 cm", "6 cm", "7 cm", "8 cm", "9 cm"],
+    "jawaban": "7 cm",
+    "pembahasan": "Sisi = \\( \\sqrt{49} = 7 \\, \\text{cm} \\)."
+  },
+  {
+    "id": 152,
+    "pertanyaan": "Nilai dari \\( \\frac{12}{15} \\) setelah disederhanakan adalah?",
+    "pilihan": ["\\( \\frac{4}{5} \\)", "\\( \\frac{3}{5} \\)", "\\( \\frac{5}{4} \\)", "\\( \\frac{2}{5} \\)", "\\( 1 \\)"],
+    "jawaban": "\\( \\frac{4}{5} \\)",
+    "pembahasan": "Bagi pembilang dan penyebut dengan 3: \\( \\frac{12}{15} = \\frac{4}{5} \\)."
+  },
+  {
+    "id": 153,
+    "pertanyaan": "Hasil dari \\( (5 - 3)^{3} \\) adalah?",
+    "pilihan": ["8", "27", "64", "1", "0"],
+    "jawaban": "8",
+    "pembahasan": "Hitung: \\( 5 - 3 = 2 \\), lalu \\( 2^{3} = 8 \\)."
+  },
+  {
+    "id": 154,
+    "pertanyaan": "Bentuk sederhana dari \\( \\sqrt{50} \\) adalah?",
+    "pilihan": ["\\( 5\\sqrt{2} \\)", "\\( 2\\sqrt{5} \\)", "\\( 10\\sqrt{5} \\)", "\\( 25\\sqrt{2} \\)", "\\( \\sqrt{25} \\)"],
+    "jawaban": "\\( 5\\sqrt{2} \\)",
+    "pembahasan": "Faktorkan: \\( \\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2} \\)."
+  },
+  {
+    "id": 155,
+    "pertanyaan": "Jika \\( 3x - 7 = 11 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["4", "5", "6", "7", "8"],
+    "jawaban": "6",
+    "pembahasan": "Tambah 7 di kedua sisi: \\( 3x = 18 \\), lalu bagi 3: \\( x = 6 \\)."
+  },
+  {
+    "id": 156,
+    "pertanyaan": "Hasil dari \\( 0,25 \\times 0,4 \\) adalah?",
+    "pilihan": ["0,01", "0,05", "0,10", "0,15", "0,20"],
+    "jawaban": "0,10",
+    "pembahasan": "Kalikan: \\( 0,25 \\times 0,4 = 0,10 \\)."
+  },
+  {
+    "id": 157,
+    "pertanyaan": "Nilai dari \\( \\frac{7}{12} - \\frac{1}{6} \\) adalah?",
+    "pilihan": ["\\( \\frac{5}{12} \\)", "\\( \\frac{3}{12} \\)", "\\( \\frac{1}{2} \\)", "\\( \\frac{7}{6} \\)", "\\( \\frac{2}{3} \\)"],
+    "jawaban": "\\( \\frac{5}{12} \\)",
+    "pembahasan": "Samakan penyebut: \\( \\frac{7}{12} - \\frac{2}{12} = \\frac{5}{12} \\)."
+  },
+  {
+    "id": 158,
+    "pertanyaan": "Jika \\( p = 3 \\) dan \\( q = 4 \\), tentukan nilai dari \\( p^{2} + q^{2} \\).",
+    "pilihan": ["12", "18", "20", "24", "25"],
+    "jawaban": "25",
+    "pembahasan": "Hitung: \\( p^{2} + q^{2} = 9 + 16 = 25 \\)."
+  },
+  {
+    "id": 159,
+    "pertanyaan": "Bentuk sederhana dari \\( \\frac{2x}{4y} \\) adalah?",
+    "pilihan": ["\\( \\frac{x}{2y} \\)", "\\( \\frac{y}{2x} \\)", "\\( \\frac{x}{y} \\)", "\\( 2x \\)", "\\( 2y \\)"],
+    "jawaban": "\\( \\frac{x}{2y} \\)",
+    "pembahasan": "Bagi pembilang dan penyebut dengan 2: \\( \\frac{2x}{4y} = \\frac{x}{2y} \\)."
+  },
+  {
+    "id": 160,
+    "pertanyaan": "Jika \\( \\frac{1}{2}x = 6 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["3", "6", "9", "10", "12"],
+    "jawaban": "12",
+    "pembahasan": "Kalikan kedua sisi dengan 2: \\( x = 12 \\)."
   }
 ]
