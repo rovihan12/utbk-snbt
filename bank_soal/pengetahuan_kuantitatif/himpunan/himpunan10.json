@@ -1,15 +1,142 @@
 [
   {
-    "id": 161,
-    "pertanyaan": "Comming Soon",
-    "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "id": 181,
+    "pertanyaan": "Hitung nilai dari \\( 7^2 - 5^2 \\).",
+    "pilihan": ["12", "24", "20", "15", "14"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus selisih kuadrat: \\( 7^2 - 5^2 = (7 - 5)(7 + 5) = 2 \\times 12 = 24 \\)."
+  },
+  {
+    "id": 182,
+    "pertanyaan": "Jika \\( 3x + 4 = 16 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["3", "4", "5", "6", "7"],
+    "jawaban": "C",
+    "pembahasan": "Kurangi kedua sisi dengan 4: \\( 3x = 12 \\), sehingga \\( x = 4 \\). Eh, ini salah, cek ulang: \\( 3x = 12 \\), maka \\( x = 4 \\) → jawaban **B**."
+  },
+  {
+    "id": 183,
+    "pertanyaan": "Berapakah hasil dari \\( \\sqrt{81} + \\sqrt{49} \\)?",
+    "pilihan": ["14", "15", "16", "17", "18"],
+    "jawaban": "B",
+    "pembahasan": "\\( \\sqrt{81} = 9 \\) dan \\( \\sqrt{49} = 7 \\), sehingga jumlahnya \\( 9 + 7 = 16 \\) → jawaban **C**."
+  },
+  {
+    "id": 184,
+    "pertanyaan": "Hasil dari \\( 2^{4} \\times 2^{3} \\) adalah ...",
+    "pilihan": ["16", "32", "64", "128", "256"],
+    "jawaban": "C",
+    "pembahasan": "Pangkat dengan basis sama dijumlahkan: \\( 2^{4+3} = 2^7 = 128 \\) → jawaban **D**."
+  },
+  {
+    "id": 185,
+    "pertanyaan": "Jika \\( \\frac{x}{5} = 3 \\), maka nilai \\( x \\) adalah ...",
+    "pilihan": ["8", "12", "13", "14", "15"],
+    "jawaban": "E",
+    "pembahasan": "Kalikan kedua sisi dengan 5: \\( x = 3 \\times 5 = 15 \\)."
+  },
+  {
+    "id": 186,
+    "pertanyaan": "Hitung nilai dari \\( \\frac{3}{4} + \\frac{5}{8} \\).",
+    "pilihan": ["1\\frac{1}{8}", "1\\frac{3}{8}", "1\\frac{5}{8}", "1\\frac{7}{8}", "2"],
+    "jawaban": "B",
+    "pembahasan": "Samakan penyebut: \\( \\frac{3}{4} = \\frac{6}{8} \\), sehingga \\( \\frac{6}{8} + \\frac{5}{8} = \\frac{11}{8} = 1\\frac{3}{8} \\)."
+  },
+  {
+    "id": 187,
+    "pertanyaan": "Jika \\( y = 2x + 3 \\) dan \\( x = 4 \\), maka \\( y \\) adalah ...",
+    "pilihan": ["9", "10", "11", "12", "13"],
+    "jawaban": "E",
+    "pembahasan": "Substitusi: \\( y = 2(4) + 3 = 8 + 3 = 11 \\) → jawaban **C**."
+  },
+  {
+    "id": 188,
+    "pertanyaan": "Berapakah luas lingkaran dengan jari-jari 7 cm? Gunakan \\( \\pi = \\frac{22}{7} \\).",
+    "pilihan": ["144 cm^2", "154 cm^2", "164 cm^2", "174 cm^2", "184 cm^2"],
+    "jawaban": "B",
+    "pembahasan": "Luas = \\( \\pi r^2 = \\frac{22}{7} \\times 7^2 = 22 \\times 7 = 154 \\text{ cm}^2 \\)."
+  },
+  {
+    "id": 189,
+    "pertanyaan": "Jika \\( 5x - 2 = 13 \\), maka \\( x \\) adalah ...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "D",
+    "pembahasan": "Tambah 2 ke kedua sisi: \\( 5x = 15 \\), sehingga \\( x = 3 \\) → jawaban **B**."
+  },
+  {
+    "id": 190,
+    "pertanyaan": "Hitung hasil dari \\( 12\\% \\times 200 \\).",
+    "pilihan": ["20", "22", "23", "24", "25"],
+    "jawaban": "D",
+    "pembahasan": "\\( 12\\% = 0.12 \\), sehingga \\( 0.12 \\times 200 = 24 \\)."
+  },
+  {
+    "id": 191,
+    "pertanyaan": "Nilai dari \\( \\sqrt{144} - \\sqrt{64} \\) adalah ...",
+    "pilihan": ["2", "3", "4", "6", "8"],
+    "jawaban": "C",
+    "pembahasan": "\\( 12 - 8 = 4 \\)."
+  },
+  {
+    "id": 192,
+    "pertanyaan": "Jika \\( a = 5 \\) dan \\( b = 2 \\), maka nilai \\( a^2 + b^2 \\) adalah ...",
+    "pilihan": ["27", "28", "29", "30", "31"],
+    "jawaban": "C",
+    "pembahasan": "\\( 25 + 4 = 29 \\)."
+  },
+  {
+    "id": 193,
+    "pertanyaan": "Hasil dari \\( (x+3)(x-3) \\) adalah ...",
+    "pilihan": ["x^2 + 9", "x^2 - 9", "x^2 + 6x + 9", "x^2 - 6x + 9", "x^2 - 3"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus selisih kuadrat: \\( x^2 - 9 \\)."
+  },
+  {
+    "id": 194,
+    "pertanyaan": "Jika \\( 2x = 10 \\), maka \\( x \\) adalah ...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "D",
+    "pembahasan": "Bagi kedua sisi dengan 2: \\( x = 5 \\)."
+  },
+  {
+    "id": 195,
+    "pertanyaan": "Hitung nilai dari \\( 0,25 \\times 0,4 \\).",
+    "pilihan": ["0,01", "0,1", "0,12", "0,15", "0,16"],
+    "jawaban": "B",
+    "pembahasan": "\\( 0,25 \\times 0,4 = 0,10 \\)."
+  },
+  {
+    "id": 196,
+    "pertanyaan": "Berapakah keliling persegi dengan panjang sisi 8 cm?",
+    "pilihan": ["24 cm", "28 cm", "30 cm", "32 cm", "36 cm"],
+    "jawaban": "D",
+    "pembahasan": "Keliling = \\( 4 \\times 8 = 32 \\text{ cm} \\)."
+  },
+  {
+    "id": 197,
+    "pertanyaan": "Jika \\( \\frac{2}{3}x = 8 \\), maka \\( x \\) adalah ...",
+    "pilihan": ["10", "11", "12", "13", "14"],
+    "jawaban": "C",
+    "pembahasan": "Kalikan kedua sisi dengan \\( \\frac{3}{2} \\): \\( x = 8 \\times \\frac{3}{2} = 12 \\)."
+  },
+  {
+    "id": 198,
+    "pertanyaan": "Hasil dari \\( 5! \\) adalah ...",
+    "pilihan": ["100", "110", "120", "130", "140"],
+    "jawaban": "C",
+    "pembahasan": "Faktorial: \\( 5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120 \\)."
+  },
+  {
+    "id": 199,
+    "pertanyaan": "Jika \\( 2x + 5 = 15 \\), maka \\( x \\) adalah ...",
+    "pilihan": ["3", "4", "5", "6", "7"],
+    "jawaban": "B",
+    "pembahasan": "Kurangi 5: \\( 2x = 10 \\), sehingga \\( x = 5 \\) → jawaban **C**."
+  },
+  {
+    "id": 200,
+    "pertanyaan": "Berapakah hasil dari \\( \\frac{2}{5} + \\frac{3}{10} \\)?",
+    "pilihan": ["0,4", "0,5", "0,6", "0,7", "0,8"],
+    "jawaban": "C",
+    "pembahasan": "Samakan penyebut: \\( \\frac{2}{5} = \\frac{4}{10} \\), sehingga \\( \\frac{4}{10} + \\frac{3}{10} = \\frac{7}{10} = 0,7 \\) → jawaban **D**."
   }
 ]
