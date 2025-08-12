@@ -99,10 +99,10 @@
   },
   {
     "id": 155,
-    "pertanyaan": "Jika \\(x\\) adalah bilangan real yang memenuhi \\(x^{2}-5x+6<0\\), maka himpunan semua nilai \\(x\\) adalah...",
-    "pilihan": ["\\((2,3)\\)", "\\([2,3]\\)", "\\((-\\infty,2)\\cup(3,\\infty)\\)", "\\((-\infty,2]\\cup[3,\\infty)\\)", "\\((5,6)\\)"],
-    "jawaban": "A",
-    "pembahasan": "Faktorkan persamaan kuadrat \\(x^{2}-5x+6<0\\) menjadi \\((x-2)(x-3)<0\\). Pertidaksamaan ini benar ketika \\(x\\) berada di antara akarnya, yaitu \\(2<x<3\\). Himpunan solusinya adalah interval terbuka \\((2,3)\\)."
+    "pertanyaan": "Terdapat 200 bola, 100 merah dan 100 biru. Bola diambil satu per satu dari kotak secara acak tanpa pengembalian. Berapa banyak bola yang harus diambil agar dijamin mendapat 50 bola merah?",
+    "pilihan": ["\\(50\\)", "\\(100\\)", "\\(150\\)", "\\(151\\)", "\\(152\\)"],
+    "jawaban": "D",
+    "pembahasan": "Ini adalah masalah 'worst-case scenario'. Untuk menjamin mendapatkan 50 bola merah, kita harus menganggap skenario terburuk, yaitu mengambil semua bola dari jenis lain terlebih dahulu. Dalam hal ini, kita akan mengambil semua 100 bola biru. Setelah itu, bola berikutnya yang diambil pasti akan berwarna merah. Jadi, untuk menjamin mendapatkan 50 bola merah, kita perlu mengambil semua 100 bola biru ditambah 50 bola merah. Totalnya adalah \\(100+50=150\\) bola. Namun, untuk **menjamin** kita memiliki setidaknya 50 bola merah, kita harus mengambil satu bola lagi di skenario terburuk ini, yang menjamin bahwa bola ke-151 pasti berwarna merah jika kita belum memilikinya. Jadi, jawabannya adalah \\(100+50+1=151\\)."
   },
   {
     "id": 156,
