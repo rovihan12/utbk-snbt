@@ -2,7 +2,7 @@
   {
     "id": 181,
     "pertanyaan": "Diketahui \\( A = \\{ x \\mid x \\text{ bilangan genap antara 2 dan 12} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima kurang dari 15} \\} \\). Tentukan \\( A \\cap B \\).",
-    "pilihan": ["\\\\{2, 4, 6, 8, 10, 12\\\\}", "\\\\{2, 4, 6\\\\}", "\\\\{2\\\\}", "\\\\{2, 4\\\\}", "\\\\{4, 6\\\\}"],
+    "pilihan": ["\\{2, 4, 6, 8, 10, 12\\}", "\\{2, 4, 6\\}", "\\{2\\}", "\\{2, 4\\}", "\\{4, 6\\}"],
     "jawaban": "C",
     "pembahasan": "Bilangan genap antara 2 dan 12 adalah {4, 6, 8, 10}, tetapi termasuk 2 jika 'antara' mencakup batas bawah. Bilangan prima < 15 adalah {2, 3, 5, 7, 11, 13}. Irisannya adalah {2}."
   },
@@ -16,7 +16,7 @@
   {
     "id": 183,
     "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{N} \\mid x < 10, x \\text{ kelipatan 3} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima} \\} \\). Tentukan \\( A - B \\).",
-    "pilihan": ["\\\\{3, 6, 9\\\\}", "\\\\{6, 9\\\\}", "\\\\{3, 9\\\\}", "\\\\{6\\\\}", "\\\\{9\\\\}"],
+    "pilihan": ["\\{3, 6, 9\\}", "\\{6, 9\\}", "\\{3, 9\\}", "\\{6\\}", "\\{9\\}"],
     "jawaban": "B",
     "pembahasan": "A = {3, 6, 9}, B berisi 3 yang merupakan prima. Jadi A − B = {6, 9}."
   },
