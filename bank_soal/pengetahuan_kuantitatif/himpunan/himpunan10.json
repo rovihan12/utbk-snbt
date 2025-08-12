@@ -1,142 +1,142 @@
 [
   {
     "id": 181,
-    "pertanyaan": "Hitung nilai dari \\( 7^2 - 5^2 \\).",
-    "pilihan": ["12", "24", "20", "15", "14"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan rumus selisih kuadrat: \\( 7^2 - 5^2 = (7 - 5)(7 + 5) = 2 \\times 12 = 24 \\)."
+    "pertanyaan": "Diketahui \\( A = \\{ x \\mid x \\text{ bilangan genap antara 2 dan 12} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima kurang dari 15} \\} \\). Tentukan \\( A \\cap B \\).",
+    "pilihan": ["\\{2, 4, 6, 8, 10, 12\\}", "\\{2, 4, 6\\}", "\\{2\\}", "\\{2, 4\\}", "\\{4, 6\\}"],
+    "jawaban": "C",
+    "pembahasan": "Bilangan genap antara 2 dan 12 adalah {4, 6, 8, 10}, tetapi termasuk 2 jika 'antara' mencakup batas bawah. Bilangan prima < 15 adalah {2, 3, 5, 7, 11, 13}. Irisannya adalah {2}."
   },
   {
     "id": 182,
-    "pertanyaan": "Jika \\( 3x + 4 = 16 \\), tentukan nilai \\( x \\).",
-    "pilihan": ["3", "4", "5", "6", "7"],
+    "pertanyaan": "Jika \\( A = \\{1, 2, 3, 4, 5\\} \\) dan \\( B = \\{4, 5, 6, 7, 8\\} \\), maka \\( n(A \\cup B) \\) adalah?",
+    "pilihan": ["5", "6", "7", "8", "9"],
     "jawaban": "C",
-    "pembahasan": "Kurangi kedua sisi dengan 4: \\( 3x = 12 \\), sehingga \\( x = 4 \\). Eh, ini salah, cek ulang: \\( 3x = 12 \\), maka \\( x = 4 \\) → jawaban **B**."
+    "pembahasan": "Gabungan A dan B adalah {1, 2, 3, 4, 5, 6, 7, 8}, sehingga banyak elemennya adalah 8."
   },
   {
     "id": 183,
-    "pertanyaan": "Berapakah hasil dari \\( \\sqrt{81} + \\sqrt{49} \\)?",
-    "pilihan": ["14", "15", "16", "17", "18"],
+    "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{N} \\mid x < 10, x \\text{ kelipatan 3} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima} \\} \\). Tentukan \\( A - B \\).",
+    "pilihan": ["\\{3, 6, 9\\}", "\\{6, 9\\}", "\\{3, 9\\}", "\\{6\\}", "\\{9\\}"],
     "jawaban": "B",
-    "pembahasan": "\\( \\sqrt{81} = 9 \\) dan \\( \\sqrt{49} = 7 \\), sehingga jumlahnya \\( 9 + 7 = 16 \\) → jawaban **C**."
+    "pembahasan": "A = {3, 6, 9}, B berisi 3 yang merupakan prima. Jadi A − B = {6, 9}."
   },
   {
     "id": 184,
-    "pertanyaan": "Hasil dari \\( 2^{4} \\times 2^{3} \\) adalah ...",
-    "pilihan": ["16", "32", "64", "128", "256"],
-    "jawaban": "C",
-    "pembahasan": "Pangkat dengan basis sama dijumlahkan: \\( 2^{4+3} = 2^7 = 128 \\) → jawaban **D**."
+    "pertanyaan": "Jika \\( A \\subseteq B \\) dan \\( n(A) = 8 \\), \\( n(B) = 12 \\), maka banyak anggota \\( B - A \\) adalah?",
+    "pilihan": ["2", "4", "6", "8", "10"],
+    "jawaban": "B",
+    "pembahasan": "B − A berisi anggota B yang tidak ada di A, sehingga jumlahnya = 12 − 8 = 4."
   },
   {
     "id": 185,
-    "pertanyaan": "Jika \\( \\frac{x}{5} = 3 \\), maka nilai \\( x \\) adalah ...",
-    "pilihan": ["8", "12", "13", "14", "15"],
-    "jawaban": "E",
-    "pembahasan": "Kalikan kedua sisi dengan 5: \\( x = 3 \\times 5 = 15 \\)."
+    "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{Z} \\mid -2 < x < 5 \\} \\) dan \\( B = \\{ x \\in \\mathbb{Z} \\mid x^2 < 9 \\} \\). Tentukan \\( A \\cap B \\).",
+    "pilihan": ["\\{-1, 0, 1, 2\\}", "\\{-1, 0, 1, 2, 3\\}", "\\{-2, -1, 0, 1, 2\\}", "\\{-1, 0, 1, 2, 3, 4\\}", "\\{-1, 0, 1, 2, 3, 4, 5\\}"],
+    "jawaban": "B",
+    "pembahasan": "A = {−1, 0, 1, 2, 3, 4}, B = {−2, −1, 0, 1, 2}. Irisannya = {−1, 0, 1, 2, 3}."
   },
   {
     "id": 186,
-    "pertanyaan": "Hitung nilai dari \\( \\frac{3}{4} + \\frac{5}{8} \\).",
-    "pilihan": ["1\\frac{1}{8}", "1\\frac{3}{8}", "1\\frac{5}{8}", "1\\frac{7}{8}", "2"],
-    "jawaban": "B",
-    "pembahasan": "Samakan penyebut: \\( \\frac{3}{4} = \\frac{6}{8} \\), sehingga \\( \\frac{6}{8} + \\frac{5}{8} = \\frac{11}{8} = 1\\frac{3}{8} \\)."
+    "pertanyaan": "Jika \\( A = \\{2, 4, 6, 8\\} \\) dan \\( B = \\{3, 6, 9, 12\\} \\), tentukan \\( A \\cup B \\).",
+    "pilihan": ["\\{2, 3, 4, 6, 8, 9, 12\\}", "\\{2, 4, 6, 8, 9, 12\\}", "\\{2, 3, 4, 8, 9, 12\\}", "\\{2, 4, 6, 8, 12\\}", "\\{3, 6, 9, 12\\}"],
+    "jawaban": "A",
+    "pembahasan": "Gabungan berisi semua elemen unik: {2, 3, 4, 6, 8, 9, 12}."
   },
   {
     "id": 187,
-    "pertanyaan": "Jika \\( y = 2x + 3 \\) dan \\( x = 4 \\), maka \\( y \\) adalah ...",
-    "pilihan": ["9", "10", "11", "12", "13"],
-    "jawaban": "E",
-    "pembahasan": "Substitusi: \\( y = 2(4) + 3 = 8 + 3 = 11 \\) → jawaban **C**."
+    "pertanyaan": "Jika \\( n(U) = 30 \\), \\( n(A) = 18 \\), dan \\( n(B) = 12 \\), serta \\( n(A \\cap B) = 5 \\), maka \\( n(A \\cup B) \\) adalah?",
+    "pilihan": ["20", "23", "25", "26", "27"],
+    "jawaban": "B",
+    "pembahasan": "Rumus: n(A ∪ B) = n(A) + n(B) − n(A ∩ B) = 18 + 12 − 5 = 25."
   },
   {
     "id": 188,
-    "pertanyaan": "Berapakah luas lingkaran dengan jari-jari 7 cm? Gunakan \\( \\pi = \\frac{22}{7} \\).",
-    "pilihan": ["144 cm^2", "154 cm^2", "164 cm^2", "174 cm^2", "184 cm^2"],
-    "jawaban": "B",
-    "pembahasan": "Luas = \\( \\pi r^2 = \\frac{22}{7} \\times 7^2 = 22 \\times 7 = 154 \\text{ cm}^2 \\)."
+    "pertanyaan": "Hasil dari \\( (24 \\div 6) + (15 - 9) \\times 2 \\) adalah?",
+    "pilihan": ["10", "12", "14", "16", "18"],
+    "jawaban": "D",
+    "pembahasan": "24 ÷ 6 = 4, 15 − 9 = 6, lalu 6 × 2 = 12, sehingga 4 + 12 = 16."
   },
   {
     "id": 189,
-    "pertanyaan": "Jika \\( 5x - 2 = 13 \\), maka \\( x \\) adalah ...",
-    "pilihan": ["2", "3", "4", "5", "6"],
-    "jawaban": "D",
-    "pembahasan": "Tambah 2 ke kedua sisi: \\( 5x = 15 \\), sehingga \\( x = 3 \\) → jawaban **B**."
+    "pertanyaan": "Jika \\( 2x + 5 = 19 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["5", "6", "7", "8", "9"],
+    "jawaban": "B",
+    "pembahasan": "2x + 5 = 19 → 2x = 14 → x = 7."
   },
   {
     "id": 190,
-    "pertanyaan": "Hitung hasil dari \\( 12\\% \\times 200 \\).",
-    "pilihan": ["20", "22", "23", "24", "25"],
-    "jawaban": "D",
-    "pembahasan": "\\( 12\\% = 0.12 \\), sehingga \\( 0.12 \\times 200 = 24 \\)."
+    "pertanyaan": "Jika \\( A = \\{1, 2, 3, 4\\} \\) dan \\( B = \\{3, 4, 5, 6\\} \\), tentukan \\( (A - B) \\cup (B - A) \\).",
+    "pilihan": ["\\{1, 2, 5, 6\\}", "\\{3, 4\\}", "\\{1, 2, 3, 4, 5, 6\\}", "\\{2, 5\\}", "\\{1, 6\\}"],
+    "jawaban": "A",
+    "pembahasan": "A − B = {1, 2}, B − A = {5, 6}, gabungannya {1, 2, 5, 6}."
   },
   {
     "id": 191,
-    "pertanyaan": "Nilai dari \\( \\sqrt{144} - \\sqrt{64} \\) adalah ...",
-    "pilihan": ["2", "3", "4", "6", "8"],
+    "pertanyaan": "Jika \\( 7x - 4 = 3x + 8 \\), maka \\( x \\) adalah?",
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "\\( 12 - 8 = 4 \\)."
+    "pembahasan": "7x − 4 = 3x + 8 → 4x = 12 → x = 3."
   },
   {
     "id": 192,
-    "pertanyaan": "Jika \\( a = 5 \\) dan \\( b = 2 \\), maka nilai \\( a^2 + b^2 \\) adalah ...",
-    "pilihan": ["27", "28", "29", "30", "31"],
-    "jawaban": "C",
-    "pembahasan": "\\( 25 + 4 = 29 \\)."
+    "pertanyaan": "Diketahui \\( P = \\{2, 4, 6, 8, 10\\} \\) dan \\( Q = \\{4, 8, 12, 16\\} \\). Tentukan \\( P \\cap Q \\).",
+    "pilihan": ["\\{4, 8\\}", "\\{2, 4, 6, 8\\}", "\\{8, 10\\}", "\\{4, 8, 10\\}", "\\{2, 6\\}"],
+    "jawaban": "A",
+    "pembahasan": "Irisannya adalah {4, 8}."
   },
   {
     "id": 193,
-    "pertanyaan": "Hasil dari \\( (x+3)(x-3) \\) adalah ...",
-    "pilihan": ["x^2 + 9", "x^2 - 9", "x^2 + 6x + 9", "x^2 - 6x + 9", "x^2 - 3"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan rumus selisih kuadrat: \\( x^2 - 9 \\)."
+    "pertanyaan": "Nilai dari \\( 3(5 + 2) - 4^2 \\) adalah?",
+    "pilihan": ["5", "6", "7", "8", "9"],
+    "jawaban": "A",
+    "pembahasan": "3(5 + 2) = 21, 4² = 16, maka 21 − 16 = 5."
   },
   {
     "id": 194,
-    "pertanyaan": "Jika \\( 2x = 10 \\), maka \\( x \\) adalah ...",
-    "pilihan": ["2", "3", "4", "5", "6"],
+    "pertanyaan": "Jika \\( x \\) adalah bilangan bulat positif terkecil yang habis dibagi 6 dan 8, maka \\( x \\) adalah?",
+    "pilihan": ["12", "18", "20", "24", "30"],
     "jawaban": "D",
-    "pembahasan": "Bagi kedua sisi dengan 2: \\( x = 5 \\)."
+    "pembahasan": "KPK dari 6 dan 8 adalah 24."
   },
   {
     "id": 195,
-    "pertanyaan": "Hitung nilai dari \\( 0,25 \\times 0,4 \\).",
-    "pilihan": ["0,01", "0,1", "0,12", "0,15", "0,16"],
-    "jawaban": "B",
-    "pembahasan": "\\( 0,25 \\times 0,4 = 0,10 \\)."
+    "pertanyaan": "Hasil dari \\( 45 \\div [3(2 + 1)] \\) adalah?",
+    "pilihan": ["3", "4", "5", "6", "7"],
+    "jawaban": "C",
+    "pembahasan": "2 + 1 = 3, lalu 3 × 3 = 9, 45 ÷ 9 = 5."
   },
   {
     "id": 196,
-    "pertanyaan": "Berapakah keliling persegi dengan panjang sisi 8 cm?",
-    "pilihan": ["24 cm", "28 cm", "30 cm", "32 cm", "36 cm"],
-    "jawaban": "D",
-    "pembahasan": "Keliling = \\( 4 \\times 8 = 32 \\text{ cm} \\)."
+    "pertanyaan": "Jika \\( 5x + 2 = 17 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "C",
+    "pembahasan": "5x + 2 = 17 → 5x = 15 → x = 3."
   },
   {
     "id": 197,
-    "pertanyaan": "Jika \\( \\frac{2}{3}x = 8 \\), maka \\( x \\) adalah ...",
-    "pilihan": ["10", "11", "12", "13", "14"],
-    "jawaban": "C",
-    "pembahasan": "Kalikan kedua sisi dengan \\( \\frac{3}{2} \\): \\( x = 8 \\times \\frac{3}{2} = 12 \\)."
+    "pertanyaan": "Jika \\( A = \\{ x \\in \\mathbb{N} \\mid x \\leq 10, x \\text{ kelipatan 4} \\} \\) dan \\( B = \\{2, 4, 6, 8, 10\\} \\), maka \\( A \\cap B \\) adalah?",
+    "pilihan": ["\\{4, 8\\}", "\\{2, 4, 6, 8\\}", "\\{4, 8, 10\\}", "\\{8, 10\\}", "\\{2, 6\\}"],
+    "jawaban": "A",
+    "pembahasan": "A = {4, 8}, B = {2, 4, 6, 8, 10}, irisan = {4, 8}."
   },
   {
     "id": 198,
-    "pertanyaan": "Hasil dari \\( 5! \\) adalah ...",
-    "pilihan": ["100", "110", "120", "130", "140"],
+    "pertanyaan": "Jika \\( 9x = 81 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["7", "8", "9", "10", "11"],
     "jawaban": "C",
-    "pembahasan": "Faktorial: \\( 5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120 \\)."
+    "pembahasan": "9x = 81 → x = 9."
   },
   {
     "id": 199,
-    "pertanyaan": "Jika \\( 2x + 5 = 15 \\), maka \\( x \\) adalah ...",
-    "pilihan": ["3", "4", "5", "6", "7"],
-    "jawaban": "B",
-    "pembahasan": "Kurangi 5: \\( 2x = 10 \\), sehingga \\( x = 5 \\) → jawaban **C**."
+    "pertanyaan": "Jika \\( A = \\{1, 3, 5, 7\\} \\) dan \\( B = \\{2, 4, 6, 8\\} \\), tentukan \\( A \\cap B \\).",
+    "pilihan": ["\\{1, 2\\}", "\\{3, 4\\}", "\\{5, 6\\}", "\\{7, 8\\}", "\\{\\}"],
+    "jawaban": "E",
+    "pembahasan": "Tidak ada irisan karena A dan B tidak memiliki anggota sama."
   },
   {
     "id": 200,
-    "pertanyaan": "Berapakah hasil dari \\( \\frac{2}{5} + \\frac{3}{10} \\)?",
-    "pilihan": ["0,4", "0,5", "0,6", "0,7", "0,8"],
+    "pertanyaan": "Jika \\( x^2 - 9 = 0 \\), tentukan nilai \\( x \\).",
+    "pilihan": ["3", "-3", "\\pm 3", "0", "9"],
     "jawaban": "C",
-    "pembahasan": "Samakan penyebut: \\( \\frac{2}{5} = \\frac{4}{10} \\), sehingga \\( \\frac{4}{10} + \\frac{3}{10} = \\frac{7}{10} = 0,7 \\) → jawaban **D**."
+    "pembahasan": "x² − 9 = 0 → (x − 3)(x + 3) = 0 → x = ±3."
   }
 ]
