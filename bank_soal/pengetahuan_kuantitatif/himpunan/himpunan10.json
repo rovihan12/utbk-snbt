@@ -2,7 +2,7 @@
   {
     "id": 181,
     "pertanyaan": "Diketahui \\( A = \\{ x \\mid x \\text{ bilangan genap antara 2 dan 12} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima kurang dari 15} \\} \\). Tentukan \\( A \\cap B \\).",
-    "pilihan": ["\\{2, 4, 6, 8, 10, 12\\}", "\\{2, 4, 6\\}", "\\{2\\}", "\\{2, 4\\}", "\\{4, 6\\}"],
+    "pilihan": ["{2, 4, 6, 8, 10, 12}", "{2, 4, 6}", "{2}", "{2, 4}", "{4, 6}"],
     "jawaban": "C",
     "pembahasan": "Bilangan genap antara 2 dan 12 adalah {4, 6, 8, 10}, tetapi termasuk 2 jika 'antara' mencakup batas bawah. Bilangan prima < 15 adalah {2, 3, 5, 7, 11, 13}. Irisannya adalah {2}."
   },
@@ -16,7 +16,7 @@
   {
     "id": 183,
     "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{N} \\mid x < 10, x \\text{ kelipatan 3} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima} \\} \\). Tentukan \\( A - B \\).",
-    "pilihan": ["\\{3, 6, 9\\}", "\\{6, 9\\}", "\\{3, 9\\}", "\\{6\\}", "\\{9\\}"],
+    "pilihan": ["{3, 6, 9}", "{6, 9}", "{3, 9}", "{6}", "{9}"],
     "jawaban": "B",
     "pembahasan": "A = {3, 6, 9}, B berisi 3 yang merupakan prima. Jadi A − B = {6, 9}."
   },
@@ -30,14 +30,14 @@
   {
     "id": 185,
     "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{Z} \\mid -2 < x < 5 \\} \\) dan \\( B = \\{ x \\in \\mathbb{Z} \\mid x^2 < 9 \\} \\). Tentukan \\( A \\cap B \\).",
-    "pilihan": ["\\\\{-1, 0, 1, 2\\\\}", "\\\\{-1, 0, 1, 2, 3\\\\}", "\\\\{-2, -1, 0, 1, 2\\\\}", "\\\\{-1, 0, 1, 2, 3, 4\\\\}", "\\\\{-1, 0, 1, 2, 3, 4, 5\\\\}"],
+    "pilihan": ["{-1, 0, 1, 2}", "{-1, 0, 1, 2, 3}", "{-2, -1, 0, 1, 2}", "{-1, 0, 1, 2, 3, 4}", "{-1, 0, 1, 2, 3, 4, 5}"],
     "jawaban": "B",
     "pembahasan": "A = {−1, 0, 1, 2, 3, 4}, B = {−2, −1, 0, 1, 2}. Irisannya = {−1, 0, 1, 2, 3}."
   },
   {
     "id": 186,
     "pertanyaan": "Jika \\( A = \\{2, 4, 6, 8\\} \\) dan \\( B = \\{3, 6, 9, 12\\} \\), tentukan \\( A \\cup B \\).",
-    "pilihan": ["\\\\{2, 3, 4, 6, 8, 9, 12\\\\}", "\\\\{2, 4, 6, 8, 9, 12\\\\}", "\\\\{2, 3, 4, 8, 9, 12\\\\}", "\\\\{2, 4, 6, 8, 12\\\\}", "\\\\{3, 6, 9, 12\\\\}"],
+    "pilihan": ["{2, 3, 4, 6, 8, 9, 12}", "{2, 4, 6, 8, 9, 12}", "{2, 3, 4, 8, 9, 12\}", "{2, 4, 6, 8, 12}", "{3, 6, 9, 12}"],
     "jawaban": "A",
     "pembahasan": "Gabungan berisi semua elemen unik: {2, 3, 4, 6, 8, 9, 12}."
   },
@@ -65,7 +65,7 @@
   {
     "id": 190,
     "pertanyaan": "Jika \\( A = \\{1, 2, 3, 4\\} \\) dan \\( B = \\{3, 4, 5, 6\\} \\), tentukan \\( (A - B) \\cup (B - A) \\).",
-    "pilihan": ["\\\\{1, 2, 5, 6\\\\}", "\\\\{3, 4\\\\}", "\\\\{1, 2, 3, 4, 5, 6\\\\}", "\\\\{2, 5\\\\}", "\\\\{1, 6\\\\}"],
+    "pilihan": ["{1, 2, 5, 6}", "{3, 4}", "{1, 2, 3, 4, 5, 6}", "{2, 5}", "{1, 6}"],
     "jawaban": "A",
     "pembahasan": "A − B = {1, 2}, B − A = {5, 6}, gabungannya {1, 2, 5, 6}."
   },
@@ -79,7 +79,7 @@
   {
     "id": 192,
     "pertanyaan": "Diketahui \\( P = \\{2, 4, 6, 8, 10\\} \\) dan \\( Q = \\{4, 8, 12, 16\\} \\). Tentukan \\( P \\cap Q \\).",
-    "pilihan": ["\\\\{4, 8\\\\}", "\\\\{2, 4, 6, 8\\\\}", "\\\\{8, 10\\\\}", "\\\\{4, 8, 10\\\\}", "\\\\{2, 6\\\\}"],
+    "pilihan": ["{4, 8}", "{2, 4, 6, 8}", "{8, 10}", "{4, 8, 10}", "{2, 6}"],
     "jawaban": "A",
     "pembahasan": "Irisannya adalah {4, 8}."
   },
@@ -114,7 +114,7 @@
   {
     "id": 197,
     "pertanyaan": "Jika \\( A = \\{ x \\in \\mathbb{N} \\mid x \\leq 10, x \\text{ kelipatan 4} \\} \\) dan \\( B = \\{2, 4, 6, 8, 10\\} \\), maka \\( A \\cap B \\) adalah?",
-    "pilihan": ["\\\\{4, 8\\\\}", "\\\\{2, 4, 6, 8\\\\}", "\\\\{4, 8, 10\\\\}", "\\\\{8, 10\\\\}", "\\\\{2, 6\\\\}"],
+    "pilihan": ["{4, 8}", "{2, 4, 6, 8}", "{4, 8, 10}", "{8, 10}", "{2, 6}"],
     "jawaban": "A",
     "pembahasan": "A = {4, 8}, B = {2, 4, 6, 8, 10}, irisan = {4, 8}."
   },
@@ -128,7 +128,7 @@
   {
     "id": 199,
     "pertanyaan": "Jika \\( A = \\{1, 3, 5, 7\\} \\) dan \\( B = \\{2, 4, 6, 8\\} \\), tentukan \\( A \\cap B \\).",
-    "pilihan": ["\\\\{1, 2\\\\}", "\\\\{3, 4\\\\}", "\\\\{5, 6\\\\}", "\\\\{7, 8\\\\}", "\\\\{\\\\}"],
+    "pilihan": ["{1, 2}", "{3, 4}", "{5, 6\}", "{7, 8}", "{ }"],
     "jawaban": "E",
     "pembahasan": "Tidak ada irisan karena A dan B tidak memiliki anggota sama."
   },
