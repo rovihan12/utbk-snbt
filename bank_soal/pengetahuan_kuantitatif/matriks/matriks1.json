@@ -39,7 +39,7 @@
       "$\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian pada posisi yang sama.\\n$P+Q = \\begin{pmatrix} 1+5 & 2+6 \\\\ 3+7 & 4+8 \\end{pmatrix} = \\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}$."
+    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian pada posisi yang sama.\n$P+Q = \\begin{pmatrix} 1+5 & 2+6 \\\\ 3+7 & 4+8 \\end{pmatrix} = \\begin{pmatrix} 6 & 8 \\\\ 10 & 12 \\end{pmatrix}$."
   },
   {
     "id": 4,
@@ -95,7 +95,7 @@
       "$\\begin{pmatrix} -2 & -1 \\\\ -3 & -2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Invers dari matriks $F = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $F^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\nUntuk $F = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, $det(F) = (2 \\times 2) - (1 \\times 3) = 4 - 3 = 1$.\\n$F^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$."
+    "pembahasan": "Invers dari matriks $F = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $F^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\nUntuk $F = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, $det(F) = (2 \\times 2) - (1 \\times 3) = 4 - 3 = 1$.\n$F^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$."
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "$\\begin{pmatrix} 2 & 4 \\\\ 1 & 3 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk mencari $B$, kita bisa menggunakan $B = A^{-1} (AB)$.\nTerlebih dahulu, cari invers dari $A$.\n$det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$.\nKemudian kalikan $A^{-1}$ dengan $AB$:\\n$B = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix} \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$ \n$B = \\begin{pmatrix} (-2 \\times 7) + (1 \\times 15) & (-2 \\times 10) + (1 \\times 22) \\\\ (3/2 \\times 7) + (-1/2 \\times 15) & (3/2 \\times 10) + (-1/2 \\times 22) \\end{pmatrix}$ \\n$B = \\begin{pmatrix} -14+15 & -20+22 \\\\ 21/2 - 15/2 & 15 - 11 \\end{pmatrix}$ \n$B = \\begin{pmatrix} 1 & 2 \\\\ 6/2 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
+    "pembahasan": "Untuk mencari $B$, kita bisa menggunakan $B = A^{-1} (AB)$.\nTerlebih dahulu, cari invers dari $A$.\n$det(A) = (1 \\times 4) - (2 \\times 3) = 4 - 6 = -2$.\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$.\nKemudian kalikan $A^{-1}$ dengan $AB$:\n$B = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix} \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$ \n$B = \\begin{pmatrix} (-2 \\times 7) + (1 \\times 15) & (-2 \\times 10) + (1 \\times 22) \\\\ (3/2 \\times 7) + (-1/2 \\times 15) & (3/2 \\times 10) + (-1/2 \\times 22) \\end{pmatrix}$ \n$B = \\begin{pmatrix} -14+15 & -20+22 \\\\ 21/2 - 15/2 & 15 - 11 \\end{pmatrix}$ \n$B = \\begin{pmatrix} 1 & 2 \\\\ 6/2 & 4 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "12"
     ],
     "jawaban": "C",
-    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\nDari $G=H$, kita dapatkan:\n$x = 3$ (elemen baris 1, kolom 1)\n$2 = z \\implies z = 2$ (elemen baris 1, kolom 2)\n$-1 = -1$ (elemen baris 2, kolom 1)\n$y = 5$ (elemen baris 2, kolom 2)\\nJadi, $x+y+z = 3 + 5 + 2 = 10$."
+    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\nDari $G=H$, kita dapatkan:\n$x = 3$ (elemen baris 1, kolom 1)\n$2 = z \\implies z = 2$ (elemen baris 1, kolom 2)\n$-1 = -1$ (elemen baris 2, kolom 1)\n$y = 5$ (elemen baris 2, kolom 2)\nJadi, $x+y+z = 3 + 5 + 2 = 10$."
   },
   {
     "id": 10,
@@ -139,7 +139,7 @@
     "jawaban": "D",
     "pembahasan": "Kita bisa menghitung $det(A)$ dan $det(B)$ terlebih dahulu, kemudian mengalikannya, karena $det(AB) = det(A) \\times det(B)$.\n$det(A) = (2 \\times 3) - (1 \\times -1) = 6 - (-1) = 6 + 1 = 7$.\n$det(B) = (1 \\times 1) - (0 \\times 2) = 1 - 0 = 1$.\nJadi, $det(AB) = det(A) \\times det(B) = 7 \\times 1 = 7$."
   },
-{
+  {
     "id": 11,
     "kategori": "Mudah",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$ adalah matriks identitas dan $B = \\begin{pmatrix} 5 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka $AI$ adalah...",
@@ -193,7 +193,7 @@
       "$\\begin{pmatrix} 0 & 0 \\\\ 1 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Matriks nol adalah matriks di mana setiap elemennya bernilai nol. Ordo $2 \\times 2$ berarti memiliki 2 baris dan 2 kolom.\\nJadi, matriks nol berordo $2 \\times 2$ adalah $\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$."
+    "pembahasan": "Matriks nol adalah matriks di mana setiap elemennya bernilai nol. Ordo $2 \\times 2$ berarti memiliki 2 baris dan 2 kolom.\nJadi, matriks nol berordo $2 \\times 2$ adalah $\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$."
   },
   {
     "id": 15,
@@ -277,6 +277,6 @@
       "$2$ atau $0$"
     ],
     "jawaban": "A",
-    "pembahasan": "Determinan dari matriks $2 \\times 2$ adalah $ad-bc$. Jika $det(K)=0$, maka $ad-bc=0$.\n$(x \\times x) - (2 \\times 2) = 0$\\n$x^2 - 4 = 0$\\n$x^2 = 4$\n$x = \\pm 2$. Jadi, nilai $x$ adalah $-2$ atau $2$."
+    "pembahasan": "Determinan dari matriks $2 \\times 2$ adalah $ad-bc$. Jika $det(K)=0$, maka $ad-bc=0$.\n$(x \\times x) - (2 \\times 2) = 0$\n$x^2 - 4 = 0$\n$x^2 = 4$\n$x = \\pm 2$. Jadi, nilai $x$ adalah $-2$ atau $2$."
   }
 ]
