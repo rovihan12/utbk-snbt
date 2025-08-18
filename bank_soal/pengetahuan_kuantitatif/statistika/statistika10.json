@@ -1,15 +1,282 @@
 [
   {
-    "id": 161,
-    "pertanyaan": "Comming Soon",
+    "id": 181,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah kelas memiliki 40 siswa. 25 siswa gemar membaca dan 20 siswa gemar menulis. Jika 5 siswa tidak gemar keduanya, berapa banyak siswa yang gemar membaca dan menulis?",
     "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Total siswa = 40. Siswa yang tidak gemar keduanya = 5. Siswa yang gemar setidaknya salah satu = $40 - 5 = 35$. Jumlah siswa yang gemar membaca atau menulis adalah $N(M \\cup W) = N(M) + N(W) - N(M \\cap W)$. Maka, $35 = 25 + 20 - N(M \\cap W)$. $35 = 45 - N(M \\cap W)$. $N(M \\cap W) = 45 - 35 = 10$."
+  },
+  {
+    "id": 182,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah kantong berisi 8 bola merah dan 4 bola biru. Dua bola diambil satu per satu tanpa pengembalian. Peluang terambilnya bola pertama merah dan bola kedua juga merah adalah...",
+    "pilihan": [
+      "14/33",
+      "12/33",
+      "11/33",
+      "10/33",
+      "9/33"
     ],
     "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "pembahasan": "Total bola = $8+4=12$. Peluang bola pertama merah = $\\frac{8}{12} = \\frac{2}{3}$. Setelah satu bola merah diambil, sisa 7 bola merah dan 4 bola biru (total 11 bola). Peluang bola kedua merah = $\\frac{7}{11}$. Peluang gabungan = $\\frac{8}{12} \\times \\frac{7}{11} = \\frac{56}{132} = \\frac{14}{33}$."
+  },
+  {
+    "id": 183,
+    "kategori": "Sulit",
+    "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya mata dadu dengan jumlah kelipatan 5 adalah...",
+    "pilihan": [
+      "1/9",
+      "7/36",
+      "1/6",
+      "2/9",
+      "5/36"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Total kemungkinan hasil = $6 \\times 6 = 36$. Kombinasi yang menghasilkan jumlah kelipatan 5: (1,4), (4,1), (2,3), (3,2), (4,6), (6,4), (5,5). Ada 7 kemungkinan. Peluang = $\\frac{7}{36}$."
+  },
+  {
+    "id": 184,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah tim voli berisi 6 pemain. Jika dari 10 orang akan dipilih tim voli, banyaknya cara memilih tim tersebut adalah...",
+    "pilihan": [
+      "120",
+      "180",
+      "210",
+      "240",
+      "300"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah masalah kombinasi karena urutan pemilihan tidak penting. Banyak cara memilih = $C(10, 6) = \\frac{10!}{6!4!} = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 10 \\times 3 \\times 7 = 210$."
+  },
+  {
+    "id": 185,
+    "kategori": "Sulit",
+    "pertanyaan": "Tiga keping uang logam dilempar bersamaan. Peluang munculnya paling banyak dua sisi gambar adalah...",
+    "pilihan": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8",
+      "7/8"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Total kemungkinan = $2^3 = 8$. Kemungkinan munculnya paling banyak dua gambar adalah 1 - peluang munculnya tiga gambar. Peluang muncul 3 gambar (GGG) adalah $\\frac{1}{8}$. Jadi, peluang paling banyak 2 gambar = $1 - \\frac{1}{8} = \\frac{7}{8}$."
+  },
+  {
+    "id": 186,
+    "kategori": "Sulit",
+    "pertanyaan": "Rata-rata berat badan 8 anak adalah 45 kg. Jika berat badan dua anak yang baru bergabung adalah 42 kg dan 48 kg, maka rata-rata berat badan seluruh anak sekarang adalah...",
+    "pilihan": [
+      "44 kg",
+      "45 kg",
+      "45.5 kg",
+      "46 kg",
+      "46.5 kg"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Total berat 8 anak = $8 \\times 45 = 360$ kg. Dua anak baru bergabung dengan total berat $42 + 48 = 90$ kg. Total berat seluruh anak = $360 + 90 = 450$ kg. Total anak = $8+2=10$. Rata-rata baru = $\\frac{450}{10} = 45$ kg."
+  },
+  {
+    "id": 187,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika median dari data 4, 6, 8, $x$, 12, 14, 16 adalah 10, maka nilai $x$ adalah...",
+    "pilihan": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Data yang terurut adalah 4, 6, 8, $x$, 12, 14, 16. Total data ada 7. Median adalah data ke-$(7+1)/2 = 4$. Berdasarkan soal, median adalah 10. Data ke-4 adalah $x$. Maka, $x=10$."
+  },
+  {
+    "id": 188,
+    "kategori": "Sulit",
+    "pertanyaan": "Dalam suatu kelas, 80% siswa lulus matematika, 70% lulus fisika, dan 60% lulus keduanya. Jika dipilih 1 siswa secara acak, peluang siswa tersebut lulus hanya salah satu mata pelajaran adalah...",
+    "pilihan": [
+      "0.1",
+      "0.2",
+      "0.3",
+      "0.4",
+      "0.5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Peluang lulus hanya matematika = $P(M) - P(M \\cap F) = 0.8 - 0.6 = 0.2$. Peluang lulus hanya fisika = $P(F) - P(M \\cap F) = 0.7 - 0.6 = 0.1$. Peluang lulus hanya salah satu = $0.2 + 0.1 = 0.3$."
+  },
+  {
+    "id": 189,
+    "kategori": "Sulit",
+    "pertanyaan": "Dari 6 pria dan 5 wanita, akan dipilih 3 pria dan 2 wanita untuk sebuah delegasi. Banyaknya cara memilih delegasi tersebut adalah...",
+    "pilihan": [
+      "100",
+      "150",
+      "200",
+      "250",
+      "300"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Banyak cara memilih 3 pria dari 6 = $C(6, 3) = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$. Banyak cara memilih 2 wanita dari 5 = $C(5, 2) = \\frac{5 \\times 4}{2 \\times 1} = 10$. Banyaknya cara total = $20 \\times 10 = 200$."
+  },
+  {
+    "id": 190,
+    "kategori": "Sulit",
+    "pertanyaan": "Modus dari data 15, 12, 10, 15, 18, 12, 15, 10, 17 adalah...",
+    "pilihan": [
+      "10",
+      "12",
+      "15",
+      "17",
+      "18"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Data: 10(2), 12(2), 15(3), 17(1), 18(1). Modus adalah 15 dengan frekuensi 3."
+  },
+  {
+    "id": 191,
+    "kategori": "Sulit",
+    "pertanyaan": "Dari 7 orang yang akan berfoto, banyaknya cara mereka berfoto jika 3 orang tertentu harus selalu berdampingan adalah...",
+    "pilihan": [
+      "120",
+      "240",
+      "360",
+      "720",
+      "1440"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Anggap 3 orang yang selalu berdampingan sebagai satu 'objek'. Maka ada $4+1 = 5$ 'objek' yang akan disusun. Banyak cara menyusun 5 objek ini adalah $5! = 120$. Di dalam kelompok 3 orang tersebut, mereka bisa bertukar posisi dengan $3! = 6$ cara. Total cara = $5! \\times 3! = 120 \\times 6 = 720$."
+  },
+  {
+    "id": 192,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah kantong berisi 5 kelereng merah dan 3 kelereng biru. Diambil 2 kelereng satu per satu tanpa pengembalian. Peluang terambilnya kedua kelereng berwarna berbeda adalah...",
+    "pilihan": [
+      "1/2",
+      "1/3",
+      "15/56",
+      "15/28",
+      "5/14"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Total kelereng = 8. Peluang terambilnya kelereng pertama merah dan kedua biru = $\\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$. Peluang terambilnya kelereng pertama biru dan kedua merah = $\\frac{3}{8} \\times \\frac{5}{7} = \\frac{15}{56}$. Total peluang = $\\frac{15}{56} + \\frac{15}{56} = \\frac{30}{56} = \\frac{15}{28}$."
+  },
+  {
+    "id": 193,
+    "kategori": "Sulit",
+    "pertanyaan": "Median dari data 7, 8, 9, 10, 11, 12 adalah...",
+    "pilihan": [
+      "9",
+      "9.5",
+      "10",
+      "10.5",
+      "11"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Data terurut: 7, 8, 9, 10, 11, 12. Jumlah data genap (6 data). Median adalah rata-rata dari dua data di tengah, yaitu data ke-3 dan data ke-4. Median = $\\frac{9+10}{2} = 9.5$."
+  },
+  {
+    "id": 194,
+    "kategori": "Sulit",
+    "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya mata dadu berjumlah genap adalah...",
+    "pilihan": [
+      "1/6",
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Total kemungkinan hasil = 36. Jumlah genap bisa diperoleh dari (genap, genap) atau (ganjil, ganjil). Jumlah (genap, genap) = $3 \\times 3 = 9$. Jumlah (ganjil, ganjil) = $3 \\times 3 = 9$. Total kemungkinan jumlah genap = $9+9=18$. Peluang = $\\frac{18}{36} = \\frac{1}{2}$."
+  },
+  {
+    "id": 195,
+    "kategori": "Sulit",
+    "pertanyaan": "Dari 10 orang, akan dipilih 4 orang untuk panitia. Jika 2 orang tertentu harus selalu terpilih, banyaknya cara pemilihan adalah...",
+    "pilihan": [
+      "15",
+      "28",
+      "35",
+      "45",
+      "56"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Karena 2 orang sudah pasti terpilih, kita hanya perlu memilih 2 orang lagi dari sisa $10-2=8$ orang. Banyak cara memilih = $C(8, 2) = \\frac{8 \\times 7}{2} = 28$."
+  },
+  {
+    "id": 196,
+    "kategori": "Sulit",
+    "pertanyaan": "Simpangan rata-rata dari data 3, 4, 5, 6, 7 adalah...",
+    "pilihan": [
+      "1.2",
+      "1.5",
+      "2",
+      "2.5",
+      "3"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Rata-rata $(\\bar{x}) = \\frac{3+4+5+6+7}{5} = \\frac{25}{5} = 5$. Simpangan rata-rata = $\\frac{\\sum|x_i - \\bar{x}|}{n} = \\frac{|3-5|+|4-5|+|5-5|+|6-5|+|7-5|}{5} = \\frac{2+1+0+1+2}{5} = \\frac{6}{5} = 1.2$."
+  },
+  {
+    "id": 197,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika diketahui $P(A) = 0.4$ dan $P(A \\cap B) = 0.2$, maka $P(B|A)$ adalah...",
+    "pilihan": [
+      "0.3",
+      "0.4",
+      "0.5",
+      "0.6",
+      "0.7"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Peluang bersyarat $P(B|A)$ dirumuskan sebagai $P(B|A) = \\frac{P(A \\cap B)}{P(A)}$. Maka $P(B|A) = \\frac{0.2}{0.4} = 0.5$."
+  },
+  {
+    "id": 198,
+    "kategori": "Sulit",
+    "pertanyaan": "Dalam suatu grup, 50% pria dan 50% wanita. 40% pria gemar sepak bola dan 60% wanita gemar sepak bola. Jika dipilih 1 orang secara acak dan ternyata dia gemar sepak bola, peluang dia adalah seorang pria adalah...",
+    "pilihan": [
+      "1/2",
+      "1/3",
+      "2/5",
+      "3/5",
+      "4/5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Peluang terpilih pria yang gemar sepak bola = $P(P \\cap S) = P(P) \\times P(S|P) = 0.5 \\times 0.4 = 0.2$. Peluang terpilih wanita yang gemar sepak bola = $P(W \\cap S) = P(W) \\times P(S|W) = 0.5 \\times 0.6 = 0.3$. Total peluang orang yang gemar sepak bola = $P(S) = P(P \\cap S) + P(W \\cap S) = 0.2 + 0.3 = 0.5$. Peluang dia seorang pria jika gemar sepak bola adalah $P(P|S) = \\frac{P(P \\cap S)}{P(S)} = \\frac{0.2}{0.5} = \\frac{2}{5}$."
+  },
+  {
+    "id": 199,
+    "kategori": "Sulit",
+    "pertanyaan": "Rata-rata nilai 30 siswa adalah 78. Jika rata-rata nilai 10 siswa yang lain adalah 85, maka rata-rata nilai gabungan adalah...",
+    "pilihan": [
+      "79.75",
+      "80.5",
+      "81.25",
+      "82",
+      "83.5"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Total nilai 30 siswa = $30 \\times 78 = 2340$. Total nilai 10 siswa lain = $10 \\times 85 = 850$. Total nilai gabungan = $2340 + 850 = 3190$. Total siswa = $30+10=40$. Rata-rata gabungan = $\\frac{3190}{40} = 79.75$."
+  },
+  {
+    "id": 200,
+    "kategori": "Sulit",
+    "pertanyaan": "Tiga koin dan satu dadu dilempar bersamaan. Peluang munculnya tepat satu gambar dan mata dadu genap adalah...",
+    "pilihan": [
+      "1/16",
+      "3/16",
+      "5/16",
+      "7/16",
+      "9/16"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Peluang munculnya tepat satu gambar dari 3 koin: $C(3,1) \\times (1/2)^1 \\times (1/2)^2 = 3 \\times 1/8 = 3/8$. Peluang mata dadu genap (2,4,6) adalah $3/6 = 1/2$. Peluang gabungan = $P(tepat \\ 1G) \\times P(genap) = \\frac{3}{8} \\times \\frac{1}{2} = \\frac{3}{16}$."
   }
 ]
