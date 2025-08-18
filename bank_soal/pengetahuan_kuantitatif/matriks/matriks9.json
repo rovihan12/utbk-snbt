@@ -2,16 +2,16 @@
   {
     "id": 161,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$ dan $f(x) = x^2 - 5x + 2$, maka matriks $f(A)$ adalah...",
+    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$ dan $B$ adalah matriks $2 \\times 2$ sedemikian rupa sehingga $det(AB) = -1$, maka $det(B)$ adalah...",
     "pilihan": [
-      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$"
+      "$-2$",
+      "$-1$",
+      "$0$",
+      "$1$",
+      "$2$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Menurut Teorema Cayley-Hamilton, matriks $A$ memenuhi persamaan karakteristiknya. Persamaan karakteristik untuk matriks $A$ adalah $det(A - \\lambda I) = 0$. \\n$det(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 4 & 3-\\lambda \\end{pmatrix}) = (2-\\lambda)(3-\\lambda) - 4 = 6-5\\lambda+\\lambda^2-4 = \\lambda^2 - 5\\lambda + 2 = 0$. \\nJadi, $A^2 - 5A + 2I = O$, sehingga $f(A)=O$."
+    "jawaban": "B",
+    "pembahasan": "Kita gunakan sifat determinan perkalian matriks, yaitu $det(AB) = det(A) \\cdot det(B)$. \\nPertama, hitung $det(A)$. $det(A) = (2)(2) - (1)(3) = 4-3=1$. \\nKemudian, substitusikan ke persamaan $det(AB) = det(A) \\cdot det(B)$. \\n$-1 = 1 \\cdot det(B) \\implies det(B) = -1$."
   },
   {
     "id": 162,
@@ -240,16 +240,16 @@
   {
     "id": 178,
     "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, dan $A^2+xA+yI=O$, di mana $I$ adalah matriks identitas dan $O$ adalah matriks nol, maka nilai $x+y$ adalah...",
+    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$ dan $B$ adalah matriks $2 \\times 2$ sedemikian rupa sehingga $det(AB) = -1$, maka $det(B)$ adalah...",
     "pilihan": [
-      "$-3$",
-      "$-4$",
-      "$3$",
-      "$4$",
-      "$5$"
+      "$-2$",
+      "$-1$",
+      "$0$",
+      "$1$",
+      "$2$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Menggunakan Teorema Cayley-Hamilton, kita tahu bahwa setiap matriks memenuhi persamaan karakteristiknya. \\nPersamaan karakteristik dari $A$ adalah $det(A-\\lambda I)=0$. \\n$det(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 3 & 2-\\lambda \\end{pmatrix}) = (2-\\lambda)(2-\\lambda)-3 = (\\lambda^2-4\\lambda+4)-3 = \\lambda^2-4\\lambda+1=0$. \\nMenurut Teorema Cayley-Hamilton, $A^2-4A+I=O$. \\nDengan membandingkan dengan $A^2+xA+yI=O$, kita dapatkan $x=-4$ dan $y=1$. \\nJadi, $x+y=-4+1=-3$."
+    "jawaban": "B",
+    "pembahasan": "Kita gunakan sifat determinan perkalian matriks, yaitu $det(AB) = det(A) \\cdot det(B)$. \\nPertama, hitung $det(A)$. $det(A) = (2)(2) - (1)(3) = 4-3=1$. \\nKemudian, substitusikan ke persamaan $det(AB) = det(A) \\cdot det(B)$. \\n$-1 = 1 \\cdot det(B) \\implies det(B) = -1$."
   },
   {
     "id": 179,
