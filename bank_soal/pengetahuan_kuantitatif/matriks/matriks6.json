@@ -80,8 +80,8 @@
       "$2$",
       "$3$"
     ],
-    "jawaban": "C",
-    "pembahasan": "Dari kesamaan matriks:\\n$2x = 6 \\implies x = 3$\\n$y = -4$\\nJadi, $x+y = 3+(-4) = -1$."
+    "jawaban": "A",
+    "pembahasan": "Dari kesamaan matriks:\n$2x = 6 \\implies x = 3$\n$y = -4$\nJadi, $x+y = 3+(-4) = -1$."
   },
   {
     "id": 107,
@@ -95,7 +95,7 @@
       "$\\begin{pmatrix} 3 & -1 \\\\ -2 & 2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pengurangan matriks dilakukan per elemen:\\n$A-B = \\begin{pmatrix} 4-1 & 0-1 \\\\ 1-3 & 2-0 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -2 & 2 \\end{pmatrix}$."
+    "pembahasan": "Pengurangan matriks dilakukan per elemen:\n$A-B = \\begin{pmatrix} 4-1 & 0-1 \\\\ 1-3 & 2-0 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -2 & 2 \\end{pmatrix}$."
   },
   {
     "id": 108,
@@ -109,7 +109,7 @@
       "$1$"
     ],
     "jawaban": "A",
-    "pembahasan": "Determinan sebuah matriks sama dengan determinan transposenya, $det(Q) = det(Q^T)$.\\n$det(Q) = (5 \\times 3) - (1 \\times 2) = 15 - 2 = 13$.\\nMaka $det(Q^T) = 13$."
+    "pembahasan": "Determinan sebuah matriks sama dengan determinan transposenya, $det(Q) = det(Q^T)$.\n$det(Q) = (5 \\times 3) - (1 \\times 2) = 15 - 2 = 13$.\nMaka $det(Q^T) = 13$."
   },
   {
     "id": 109,
@@ -137,7 +137,7 @@
       "$-2$"
     ],
     "jawaban": "A",
-    "pembahasan": "Matriks singular adalah matriks yang determinannya sama dengan nol.\\n$det(X) = (2 \\times 2) - (1 \\times 4) = 4 - 4 = 0$."
+    "pembahasan": "Matriks singular adalah matriks yang determinannya sama dengan nol.\n$det(X) = (2 \\times 2) - (1 \\times 4) = 4 - 4 = 0$."
   },
   {
     "id": 111,
@@ -151,7 +151,7 @@
       "$2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Determinan $A = (1 \\times 3) - (a \\times 2) = 3 - 2a$.\\nKarena $det(A) = 5$, maka $3 - 2a = 5 \\implies -2a = 2 \\implies a = -1$."
+    "pembahasan": "Determinan $A = (1 \\times 3) - (a \\times 2) = 3 - 2a$.\nKarena $det(A) = 5$, maka $3 - 2a = 5 \\implies -2a = 2 \\implies a = -1$."
   },
   {
     "id": 112,
@@ -165,7 +165,7 @@
       "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Karena $B$ adalah matriks identitas, $A^{-1}B = A^{-1}$.\\nDeterminan $A = (2 \\times 3) - (1 \\times 5) = 6 - 5 = 1$.\\n$A^{-1} = \\frac{1}{det(A)} adj(A) = \\frac{1}{1} \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$."
+    "pembahasan": "Karena $B$ adalah matriks identitas, $A^{-1}B = A^{-1}$.\nDeterminan $A = (2 \\times 3) - (1 \\times 5) = 6 - 5 = 1$.\n$A^{-1} = \\frac{1}{det(A)} adj(A) = \\frac{1}{1} \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$."
   },
   {
     "id": 113,
@@ -179,12 +179,12 @@
       "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "$M^2 = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$\\n$= \\begin{pmatrix} (1 \\times 1)+(2 \\times 3) & (1 \\times 2)+(2 \\times 4) \\\\ (3 \\times 1)+(4 \\times 3) & (3 \\times 2)+(4 \\times 4) \\end{pmatrix}$\\n$= \\begin{pmatrix} 1+6 & 2+8 \\\\ 3+12 & 6+16 \\end{pmatrix} = \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$."
+    "pembahasan": "$M^2 = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$\n$= \\begin{pmatrix} (1 \\times 1)+(2 \\times 3) & (1 \\times 2)+(2 \\times 4) \\\\ (3 \\times 1)+(4 \\times 3) & (3 \\times 2)+(4 \\times 4) \\end{pmatrix}$\n$= \\begin{pmatrix} 1+6 & 2+8 \\\\ 3+12 & 6+16 \\end{pmatrix} = \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$."
   },
   {
     "id": 114,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$. Jika $AB = \\begin{pmatrix} 7 \\\\ 4 \\end{pmatrix}$, maka nilai $x-y$ adalah...",
+    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$. Jika $AB = \\begin{pmatrix} 11 \\\\ 4 \\end{pmatrix}$, maka nilai $x-y$ adalah...",
     "pilihan": [
       "$1$",
       "$2$",
@@ -193,7 +193,7 @@
       "$5$"
     ],
     "jawaban": "A",
-    "pembahasan": "$AB = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 3x+y \\\\ 0x+2y \\end{pmatrix} = \\begin{pmatrix} 3x+y \\\\ 2y \\end{pmatrix}$.\\nDari $AB = \\begin{pmatrix} 7 \\\\ 4 \\end{pmatrix}$, kita dapatkan:\\n$2y = 4 \\implies y = 2$\\n$3x+y = 7 \\implies 3x+2 = 7 \\implies 3x = 5 \\implies x = 5/3$.\\nNilai $x-y = 5/3 - 2 = 5/3 - 6/3 = -1/3$. (Jika jawaban tidak ada di pilihan, mungkin ada kesalahan dalam soal atau pilihan jawaban. Mari kita coba cek kembali dengan angka bulat.)\\nAh, terdapat kesalahan pada soal sebelumnya. Jika kita ingin hasilnya bulat, $x-y = 1$, maka $x=3, y=2$. Ini berarti $3(3)+2 = 11 \\neq 7$. \\nJika pilihan jawaban benar, dan soal yang dimaksud adalah nilai $x-y$ dari $x$ dan $y$ yang didapatkan, maka jawaban yang paling mendekati jika ada pembulatan adalah $1$. Jika tidak, soal ini perlu direvisi. Saya akan mengasumsikan ada kesalahan di soal dan memperbaikinya menjadi jawaban yang paling dekat."
+    "pembahasan": "$AB = \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 3x+y \\\\ 2y \\end{pmatrix}$.\nDari $AB = \\begin{pmatrix} 11 \\\\ 4 \\end{pmatrix}$, kita dapatkan:\n$2y = 4 \\implies y = 2$\n$3x+y = 11 \\implies 3x+2 = 11 \\implies 3x = 9 \\implies x = 3$.\nNilai $x-y = 3-2 = 1$."
   },
   {
     "id": 115,
@@ -207,12 +207,12 @@
       "$\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Mari kita hitung pangkat-pangkat dari $A$:\\n$A^1 = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}$\\n$A^2 = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$\\n$A^3 = A^2 \\cdot A = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$\\n$A^4 = A^3 \\cdot A = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$ (Matriks Identitas)"
+    "pembahasan": "Mari kita hitung pangkat-pangkat dari $A$:\n$A^1 = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}$\n$A^2 = \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$\n$A^3 = A^2 \\cdot A = \\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$\n$A^4 = A^3 \\cdot A = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$ (Matriks Identitas)"
   },
   {
     "id": 116,
     "kategori": "Sulit",
-    "pertanyaan": "Sistem persamaan linear:\\n$x + y = 5$\\n$2x - 3y = 0$\\nNilai $x$ yang memenuhi sistem tersebut adalah...",
+    "pertanyaan": "Sistem persamaan linear:\n$x + y = 5$\n$2x - 3y = 0$\nNilai $x$ yang memenuhi sistem tersebut adalah...",
     "pilihan": [
       "$1$",
       "$2$",
@@ -221,7 +221,7 @@
       "$5$"
     ],
     "jawaban": "C",
-    "pembahasan": "Menggunakan metode substitusi atau eliminasi.\\nDari $x+y=5 \\implies y = 5-x$.\\nSubstitusi ke persamaan kedua: $2x - 3(5-x) = 0 \\implies 2x - 15 + 3x = 0 \\implies 5x = 15 \\implies x = 3$."
+    "pembahasan": "Menggunakan metode substitusi atau eliminasi.\nDari $x+y=5 \\implies y = 5-x$.\nSubstitusi ke persamaan kedua: $2x - 3(5-x) = 0 \\implies 2x - 15 + 3x = 0 \\implies 5x = 15 \\implies x = 3$."
   },
   {
     "id": 117,
@@ -235,12 +235,12 @@
       "$12$"
     ],
     "jawaban": "D",
-    "pembahasan": "Determinan $P = (2 \\times 3) - (0 \\times 0) = 6.\\n$det(P^3) = (det(P))^3 = 6^3 = 216$."
+    "pembahasan": "Determinan $P = (2 \\times 3) - (0 \\times 0) = 6$.\n$det(P^3) = (det(P))^3 = 6^3 = 216$."
   },
   {
     "id": 118,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $X = \\begin{pmatrix} 4 & 2 \\\\ 1 & 3 \\end{pmatrix}$ dan $Y = \\begin{pmatrix} -1 & 0 \\\\ 0 & 2 \\end{pmatrix}$. Tentukan $det(X+Y)$.",
+    "pertanyaan": "Diberikan matriks $X = \\begin{pmatrix} 5 & 2 \\\\ 1 & 3 \\end{pmatrix}$ dan $Y = \\begin{pmatrix} -1 & 0 \\\\ 0 & 2 \\end{pmatrix}$. Tentukan $det(X+Y)$.",
     "pilihan": [
       "$10$",
       "$12$",
@@ -248,8 +248,8 @@
       "$16$",
       "$18$"
     ],
-    "jawaban": "C",
-    "pembahasan": "Pertama, hitung $X+Y$:\\n$X+Y = \\begin{pmatrix} 4 & 2 \\\\ 1 & 3 \\end{pmatrix} + \\begin{pmatrix} -1 & 0 \\\\ 0 & 2 \\end{pmatrix} = \\begin{pmatrix} 4-1 & 2+0 \\\\ 1+0 & 3+2 \\end{pmatrix} = \\begin{pmatrix} 3 & 2 \\\\ 1 & 5 \\end{pmatrix}$.\\nKemudian, hitung determinannya:\\n$det(X+Y) = (3 \\times 5) - (2 \\times 1) = 15 - 2 = 13$."
+    "jawaban": "E",
+    "pembahasan": "Pertama, hitung $X+Y$:\n$X+Y = \\begin{pmatrix} 5-1 & 2+0 \\\\ 1+0 & 3+2 \\end{pmatrix} = \\begin{pmatrix} 4 & 2 \\\\ 1 & 5 \\end{pmatrix}$.\nKemudian, hitung determinannya:\n$det(X+Y) = (4 \\times 5) - (2 \\times 1) = 20 - 2 = 18$."
   },
   {
     "id": 119,
@@ -263,7 +263,7 @@
       "$\\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Determinan $A = (1 \\times 1) - (0 \\times 1) = 1.\\nA^{-1} = \\frac{1}{det(A)} adj(A) = \\frac{1}{1} \\begin{pmatrix} 1 & 0 \\\\ -1 & 1 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ -1 & 1 \\end{pmatrix}$."
+    "pembahasan": "Determinan $A = (1 \\times 1) - (0 \\times 1) = 1$.\n$A^{-1} = \\frac{1}{det(A)} adj(A) = \\frac{1}{1} \\begin{pmatrix} 1 & 0 \\\\ -1 & 1 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ -1 & 1 \\end{pmatrix}$."
   },
   {
     "id": 120,
@@ -277,6 +277,6 @@
       "$\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita tahu $X = A^{-1} (AX)$.\\nPertama, cari $A^{-1}$. $det(A) = (2 \\times 3) - (1 \\times 4) = 6 - 4 = 2.\\nA^{-1} = \\frac{1}{2} \\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix} = \\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix}$.\\nKemudian, kalikan $A^{-1}$ dengan $(AX)$:\\n$X = \\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix} \\begin{pmatrix} 8 \\\\ 18 \\end{pmatrix} = \\begin{pmatrix} (3/2 \\times 8)+(-1/2 \\times 18) \\\\ (-2 \\times 8)+(1 \\times 18) \\end{pmatrix}$\\n$X = \\begin{pmatrix} 12 - 9 \\\\ -16 + 18 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$."
+    "pembahasan": "Kita tahu $X = A^{-1} (AX)$.\nPertama, cari $A^{-1}$. $det(A) = (2 \\times 3) - (1 \\times 4) = 6 - 4 = 2$.\n$A^{-1} = \\frac{1}{2} \\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix} = \\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix}$.\nKemudian, kalikan $A^{-1}$ dengan $(AX)$:\n$X = \\begin{pmatrix} 3/2 & -1/2 \\\\ -2 & 1 \\end{pmatrix} \\begin{pmatrix} 8 \\\\ 18 \\end{pmatrix} = \\begin{pmatrix} (3/2 \\times 8)+(-1/2 \\times 18) \\\\ (-2 \\times 8)+(1 \\times 18) \\end{pmatrix}$\n$X = \\begin{pmatrix} 12 - 9 \\\\ -16 + 18 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$."
   }
 ]
