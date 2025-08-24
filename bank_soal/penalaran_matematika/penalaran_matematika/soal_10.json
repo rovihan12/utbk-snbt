@@ -2,140 +2,140 @@
   {
     "id": 201,
     "pertanyaan": "Sebuah toko buku menjual 4 jenis novel dan 3 jenis komik. Jika Rani ingin membeli 2 jenis novel dan 1 jenis komik, banyaknya cara pemilihan yang mungkin adalah...",
-    "pilihan": ["A. 7", "B. 12", "C. 18", "D. 24", "E. 36"],
+    "pilihan": ["7", "12", "18", "24", "36"],
     "jawaban": "C",
     "pembahasan": "Kombinasi novel: C(4,2) = 6. Kombinasi komik: C(3,1) = 3. Total cara = 6 × 3 = 18."
   },
   {
     "id": 202,
     "pertanyaan": "Jika ³log (x² - 4x + 4) = 2, maka nilai x yang memenuhi adalah...",
-    "pilihan": ["A. 1 atau 3", "B. -1 atau 5", "C. 2 saja", "D. 4 saja", "E. Tidak ada jawaban"],
+    "pilihan": ["1 atau 3", "-1 atau 5", "2 saja", "4 saja", "Tidak ada jawaban"],
     "jawaban": "B",
     "pembahasan": "³log (x-2)² = 2 → (x-2)² = 9 → x-2 = ±3 → x = 5 atau x = -1. Syarat numerus: (x-2)² > 0 (terpenuhi untuk x ≠ 2)."
   },
   {
     "id": 203,
     "pertanyaan": "Sebuah kerucut terbalik memiliki jari-jari alas 10 cm dan tinggi 24 cm. Volume kerucut tersebut adalah... (π = 3,14)",
-    "pilihan": ["A. 1.256 cm³", "B. 2.512 cm³", "C. 3.768 cm³", "D. 5.024 cm³", "E. 7.536 cm³"],
+    "pilihan": ["1.256 cm³", "2.512 cm³", " 3.768 cm³", "5.024 cm³", "7.536 cm³"],
     "jawaban": "B",
     "pembahasan": "Volume = ⅓πr²t = ⅓ × 3,14 × 100 × 24 = 2.512 cm³."
   },
   {
     "id": 204,
     "pertanyaan": "Diketahui barisan aritmetika: 10, 7, 4, 1, ... Suku ke-8 dari barisan tersebut adalah...",
-    "pilihan": ["A. -11", "B. -8", "C. -5", "D. -2", "E. 1"],
+    "pilihan": ["-11", "-8", "-5", "-2", " 1"],
     "jawaban": "A",
     "pembahasan": "Beda (b) = 7 - 10 = -3. Suku ke-n = a + (n-1)b. Suku ke-8 = 10 + (7 × -3) = -11."
   },
   {
     "id": 205,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 8 pekerja dalam 15 hari. Jika 2 pekerja tambahan bergabung setelah 5 hari, total waktu penyelesaian proyek adalah...",
-    "pilihan": ["A. 10 hari", "B. 11 hari", "C. 12 hari", "D. 13 hari", "E. 14 hari"],
+    "pilihan": ["10 hari", "11 hari", "12 hari", "13 hari", "14 hari"],
     "jawaban": "D",
     "pembahasan": "Total pekerjaan = 8 × 15 = 120 'pekerja-hari'. Pekerjaan 5 hari pertama = 8 × 5 = 40. Sisa pekerjaan = 80. Pekerja baru = 10. Waktu sisa = 80/10 = 8 hari. Total waktu = 5 + 8 = 13 hari."
   },
   {
     "id": 206,
     "pertanyaan": "Jika f(x) = x² + 2x - 3 dan g(x) = 2x - 1, maka (f ∘ g)(1) adalah...",
-    "pilihan": ["A. -3", "B. 0", "C. 3", "D. 6", "E. 12"],
+    "pilihan": ["-3", "0", "3", "6", "12"],
     "jawaban": "B",
     "pembahasan": "(f ∘ g)(1) = f(g(1)) = f(2×1 - 1) = f(1) = 1 + 2 - 3 = 0."
   },
   {
     "id": 207,
     "pertanyaan": "Sebuah bola memiliki luas permukaan 616 cm². Jari-jari bola tersebut adalah... (π = 22/7)",
-    "pilihan": ["A. 7 cm", "B. 14 cm", "C. 21 cm", "D. 28 cm", "E. 35 cm"],
+    "pilihan": ["7 cm", "14 cm", "21 cm", " 28 cm", "35 cm"],
     "jawaban": "A",
     "pembahasan": "Luas permukaan = 4πr² → 616 = 4 × (22/7) × r² → r² = 49 → r = 7 cm."
   },
   {
     "id": 208,
     "pertanyaan": "Nilai dari cos 120° + sin 240° adalah...",
-    "pilihan": ["A. -1", "B. -½", "C. 0", "D. ½", "E. 1"],
+    "pilihan": ["-1", "-½", "0", "½", "1"],
     "jawaban": "A",
     "pembahasan": "cos 120° = -½, sin 240° = -½. Total = -½ + (-½) = -1."
   },
   {
     "id": 209,
     "pertanyaan": "Dalam sebuah kotak terdapat 4 bola merah dan 6 bola biru. Jika diambil 3 bola sekaligus, peluang terambilnya 2 merah dan 1 biru adalah...",
-    "pilihan": ["A. 1/6", "B. 3/10", "C. 1/2", "D. 3/5", "E. 5/6"],
+    "pilihan": ["1/6", "3/10", "1/2", "3/5", "5/6"],
     "jawaban": "B",
     "pembahasan": "Total cara = C(10,3) = 120. Cara ambil 2M & 1B = C(4,2) × C(6,1) = 6 × 6 = 36. Peluang = 36/120 = 3/10."
   },
   {
     "id": 210,
     "pertanyaan": "Jika x + 2y = 8 dan 3x - y = 6, maka nilai x - y adalah...",
-    "pilihan": ["A. 0", "B. 1", "C. 2", "D. 3", "E. 4"],
+    "pilihan": ["0", "1", "2", "3", "4"],
     "jawaban": "C",
     "pembahasan": "Selesaikan sistem persamaan: x = 8 - 2y. Substitusi: 3(8-2y) - y = 6 → 24 - 7y = 6 → y = 18/7. x = 8 - 2(18/7) = 20/7. x - y = 20/7 - 18/7 = 2/7 ≈ 0,28. (Catatan: Opsi mungkin tidak sesuai, tetapi metode benar)."
   },
   {
     "id": 211,
     "pertanyaan": "Sebuah taman berbentuk lingkaran dengan diameter 28 m. Di sekeliling taman akan dipasang lampu dengan jarak 4 m. Banyaknya lampu yang dibutuhkan adalah... (π = 22/7)",
-    "pilihan": ["A. 14", "B. 18", "C. 22", "D. 28", "E. 32"],
+    "pilihan": ["14", "18", "22", "28", " 32"],
     "jawaban": "C",
     "pembahasan": "Keliling = πd = 22/7 × 28 = 88 m. Banyak lampu = 88/4 = 22."
   },
   {
     "id": 212,
     "pertanyaan": "Diketahui ²log 7 = a dan ²log 5 = b. Nilai dari ²log 70 adalah...",
-    "pilihan": ["A. a + b", "B. a + b + 1", "C. 2a + b", "D. a + 2b", "E. a - b"],
+    "pilihan": ["a + b", "a + b + 1", "2a + b", "a + 2b", "a - b"],
     "jawaban": "B",
     "pembahasan": "²log 70 = ²log (7 × 5 × 2) = ²log 7 + ²log 5 + ²log 2 = a + b + 1."
   },
   {
     "id": 213,
     "pertanyaan": "Fungsi kuadrat f(x) = x² - 6x + 8 memotong sumbu-x di titik...",
-    "pilihan": ["A. (2,0) dan (4,0)", "B. (-2,0) dan (-4,0)", "C. (0,2) dan (0,4)", "D. (0,-2) dan (0,-4)", "E. (6,0) dan (8,0)"],
+    "pilihan": ["(2,0) dan (4,0)", "(-2,0) dan (-4,0)", "(0,2) dan (0,4)", "(0,-2) dan (0,-4)", "(6,0) dan (8,0)"],
     "jawaban": "A",
     "pembahasan": "Faktorkan: f(x) = (x-2)(x-4). Titik potong: x = 2 dan x = 4 → (2,0) dan (4,0)."
   },
   {
     "id": 214,
     "pertanyaan": "Jika ⁴√(3x - 5) = 2, maka nilai x adalah...",
-    "pilihan": ["A. 7", "B. 9", "C. 11", "D. 13", "E. 15"],
+    "pilihan": ["7", "9", "11", "13", "15"],
     "jawaban": "A",
     "pembahasan": "⁴√(3x - 5) = 2 → 3x - 5 = 16 → 3x = 21 → x = 7."
   },
   {
     "id": 215,
     "pertanyaan": "Diketahui segitiga ABC siku-siku di A dengan AB = 9 cm dan AC = 12 cm. Panjang garis tinggi dari A ke sisi BC adalah...",
-    "pilihan": ["A. 6 cm", "B. 7,2 cm", "C. 8 cm", "D. 9,6 cm", "E. 10,8 cm"],
+    "pilihan": ["6 cm", "7,2 cm", "8 cm", "9,6 cm", "10,8 cm"],
     "jawaban": "B",
     "pembahasan": "BC = √(9² + 12²) = 15 cm. Luas = ½ × 9 × 12 = 54 cm². Tinggi ke BC = 2 × Luas / BC = 108/15 = 7,2 cm."
   },
   {
     "id": 216,
     "pertanyaan": "Dua dadu dilempar bersama-sama. Peluang munculnya jumlah mata dadu 9 adalah...",
-    "pilihan": ["A. 1/9", "B. 1/6", "C. 2/9", "D. 5/36", "E. 1/4"],
+    "pilihan": ["1/9", "1/6", "2/9", "5/36", "1/4"],
     "jawaban": "A",
     "pembahasan": "Total kemungkinan = 36. Jumlah 9: (3,6), (4,5), (5,4), (6,3) → 4 cara. Peluang = 4/36 = 1/9."
   },
   {
     "id": 217,
     "pertanyaan": "Titik (3, -2) dicerminkan terhadap garis y = -x, maka koordinat bayangannya adalah...",
-    "pilihan": ["A. (2, -3)", "B. (-2, 3)", "C. (2, 3)", "D. (-3, 2)", "E. (3, 2)"],
+    "pilihan": ["(2, -3)", "(-2, 3)", "(2, 3)", "(-3, 2)", "(3, 2)"],
     "jawaban": "A",
     "pembahasan": "Refleksi y = -x: (a, b) → (-b, -a). Jadi, (3, -2) → (2, -3)."
   },
   {
     "id": 218,
     "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga sama sisi dengan panjang sisi 6 cm. Jika tinggi prisma 10 cm, volume prisma tersebut adalah...",
-    "pilihan": ["A. 90√3 cm³", "B. 120√3 cm³", "C. 150√3 cm³", "D. 180√3 cm³", "E. 200√3 cm³"],
+    "pilihan": ["90√3 cm³", "120√3 cm³", " 150√3 cm³", "180√3 cm³", "200√3 cm³"],
     "jawaban": "A",
     "pembahasan": "Luas alas = (s²√3)/4 = (36√3)/4 = 9√3 cm². Volume = Luas alas × tinggi = 9√3 × 10 = 90√3 cm³."
   },
   {
     "id": 219,
     "pertanyaan": "Diketahui vektor **u** = (2, -3) dan **v** = (-1, 4). Hasil dari **u** + 2**v** adalah...",
-    "pilihan": ["A. (0, 5)", "B. (1, -1)", "C. (3, 1)", "D. (4, -11)", "E. (5, -2)"],
+    "pilihan": ["(0, 5)", "(1, -1)", "(3, 1)", "(4, -11)", "(5, -2)"],
     "jawaban": "A",
     "pembahasan": "2**v** = (-2, 8). **u** + 2**v** = (2-2, -3+8) = (0, 5)."
   },
   {
     "id": 220,
     "pertanyaan": "Jika 3x + 2y = 17 dan x - y = -4, maka nilai y adalah...",
-    "pilihan": ["A. 1", "B. 3", "C. 5", "D. 7", "E. 9"],
+    "pilihan": ["1", "3", "5", "7", "9"],
     "jawaban": "C",
     "pembahasan": "Dari x - y = -4 → x = y - 4. Substitusi: 3(y-4) + 2y = 17 → 5y = 29 → y = 5,8. (Catatan: Opsi mungkin tidak sesuai, tetapi metode benar)."
   }
