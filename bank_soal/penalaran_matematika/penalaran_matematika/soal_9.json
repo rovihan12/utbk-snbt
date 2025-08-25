@@ -27,18 +27,18 @@
     "pembahasan": "Rata-rata kedalaman = $(1 + 3)/2 = 2$ m. Volume = panjang $\\times$ lebar $\\times$ kedalaman rata-rata = $25 \\times 10 \\times 2 = 500$ m³."
   },
   {
-    "id": 164,
-    "pertanyaan": "Suatu tangki air memiliki kapasitas 4 $m^3$. Jika diisi menggunakan dua pipa ukuran sedang, tangki penuh dalam waktu 16 menit. Tetapi jika diisi menggunakan pipa ukuran kecil, tangki penuh dalam waktu 24 menit. Jika 1 pipa ukuran sedang dan 2 pipa ukuran kecil digunakan untuk mengisi tangki dan saat ini tangki telah berisi 0,255 $m^3$ air, maka pengisian tersebut telah berlangsung selama ....",
-    "pilihan": [
-      "1,08 menit",
-      "1,85 menit",
-      "2,55 menit",
-      "3,68 menit",
-      "4,56 menit"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kecepatan pipa sedang = $4\\text{ m}^3 / 16\\text{ menit} = 0,25\\text{ m}^3/\\text{menit}$. \n Kecepatan pipa kecil = $4\\text{ m}^3 / 24\\text{ menit} = 1/6\\text{ m}^3/\\text{menit}$. \n Kecepatan gabungan = 1 sedang + 2 kecil = $0,25 + 2(1/6) = 1/4 + 1/3 = 7/12\\text{ m}^3/\\text{menit}$. \n Volume air yang sudah terisi = $0,255\\text{ m}^3$. \n Waktu yang dibutuhkan = $0,255\\text{ m}^3 / (7/12\\text{ m}^3/\\text{menit}) \\approx 0,437 \\times 2 \\approx 0,437$ (kesalahan soal). Jika $0,255$ adalah volume yang telah terisi, maka waktu = $0,255 / (7/12) = 0,255 \\times 12/7 = 3,06/7 \\approx 0,437$ menit. \\\\ Pembahasan alternatif:  kapasitas 4 $m^3$. Waktu untuk pipa sedang = 16 menit. Kecepatan = $4/16 = 1/4$ $m^3$/menit. Waktu untuk pipa kecil = 24 menit. Kecepatan = $4/24 = 1/6$ $m^3$/menit. Kecepatan gabungan = $1/4 + 2(1/6) = 1/4+1/3=7/12$ $m^3$/menit. Volume yang sudah terisi = $0,255$ $m^3$. Waktu yang sudah berlalu = volume/kecepatan = $0,255 / (7/12) = 0,255 \\times 12 / 7 = 3,06/7 \\approx 0,437$."
-  },
+  "id": 164,
+  "pertanyaan": "Suatu tangki air memiliki kapasitas 4 m³. Jika diisi menggunakan satu pipa ukuran sedang, tangki penuh dalam waktu 16 menit. Jika diisi menggunakan satu pipa ukuran kecil, tangki penuh dalam waktu 24 menit. Jika 1 pipa ukuran sedang dan 2 pipa ukuran kecil digunakan untuk mengisi tangki dan saat ini tangki telah berisi 1,08 m³ air, maka pengisian tersebut telah berlangsung selama ....",
+  "pilihan": [
+    "1,08 menit",
+    "1,85 menit",
+    "2,55 menit",
+    "3,68 menit",
+    "4,56 menit"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Debit pipa sedang = 4 m³ / 16 menit = 0,25 m³/menit. Debit pipa kecil = 4 m³ / 24 menit = 1/6 m³/menit. Debit gabungan = 0,25 + 2×(1/6) = 0,25 + 1/3 = 7/12 m³/menit. Volume yang terisi = 1,08 m³. Waktu = Volume / Debit = 1,08 / (7/12) = 1,08 × 12/7 = 12,96/7 ≈ 1,85 menit."
+},
   {
     "id": 165,
     "pertanyaan": "Sebuah segitiga sama kaki memiliki panjang alas 12 cm dan tinggi 8 cm. Luas segitiga tersebut adalah...",
@@ -152,3 +152,4 @@
     "pembahasan": "$^3\\sqrt{x + 5} = 2 \\implies x + 5 = 2^3 \\implies x + 5 = 8 \\implies x = 3$."
   }
 ]
+
