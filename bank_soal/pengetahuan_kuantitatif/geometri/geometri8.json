@@ -40,13 +40,13 @@
     "jawaban": "A",
     "pembahasan": "Luas jajar genjang = alas × tinggi = 15 × 6 = 90 cm². Jawaban A."
   },
-  {
+    {
     "id": 76,
-    "pertanyaan": "Perhatikan gambar segitiga siku-siku berikut. Jika panjang alas = 9 cm dan tinggi = 12 cm, maka luasnya adalah ...",
-    "gambar": "soal_6.png",
-    "pilihan": ["54 cm²", "108 cm²", "72 cm²", "60 cm²"],
+    "pertanyaan": "Diberikan dua lingkaran dengan pusat $M$ dan $N$ dengan radius berturut-turut $12$ cm dan $2$ cm. Jika $MN = 26$ cm, tentukan panjang garis persekutuan luar dua lingkaran tersebut.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098129.jpg",
+    "pilihan": ["24", "26", "28", "30", "32"],
     "jawaban": "A",
-    "pembahasan": "Luas segitiga = (1/2) × alas × tinggi = (1/2) × 9 × 12 = 54 cm². Jawaban A."
+    "pembahasan": "Untuk mencari panjang garis singgung persekutuan luar dua lingkaran, kita dapat menggunakan rumus yang diturunkan dari Teorema Pythagoras. Misalkan panjang garis singgung persekutuan luar adalah $L$, jarak antar pusat lingkaran adalah $MN$, jari-jari lingkaran besar adalah $R$, dan jari-jari lingkaran kecil adalah $r$. Rumus yang digunakan adalah:\n\n$L = \\sqrt{MN^2 - (R - r)^2}$\n\nDari soal, kita memiliki informasi:\n* Jari-jari lingkaran besar ($R$) = $12$ cm\n* Jari-jari lingkaran kecil ($r$) = $2$ cm\n* Jarak antar pusat lingkaran ($MN$) = $26$ cm\n\nSelisih jari-jari adalah $R - r = 12 - 2 = 10$ cm.\n\nSekarang, kita substitusikan nilai-nilai tersebut ke dalam rumus:\n\n$L = \\sqrt{26^2 - (10)^2}$\n$L = \\sqrt{676 - 100}$\n$L = \\sqrt{576}$\n$L = 24$ cm\n\nAtau, kita bisa menggunakan identitas **tripel Pythagoras**, yaitu $5, 12, 13$. Dengan mengalikan setiap angka dengan 2, kita dapatkan $10, 24, 26$. Dalam konteks soal ini, 26 adalah sisi miring ($MN$), dan 10 adalah salah satu sisi tegak ($R-r$). Maka, sisi tegak lainnya, yaitu panjang garis singgung persekutuan luar, adalah $24$ cm. "
   },
   {
     "id": 77,
