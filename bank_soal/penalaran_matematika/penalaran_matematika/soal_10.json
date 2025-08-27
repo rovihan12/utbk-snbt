@@ -56,7 +56,6 @@
   },
    {
     "id": 208,
-    "kategori": "Mudah",
     "pertanyaan": "Seorang pedagang membeli sepeda motor bekas dan menjualnya kembali dengan harga Rp16.500.000. Jika dari transaksi tersebut ia memperoleh keuntungan 10%, berapa harga beli sepeda motor tersebut?",
     "pilihan": [
       "Rp14.000.000",
@@ -103,12 +102,18 @@
     "jawaban": "A",
     "pembahasan": "Faktorkan: f(x) = (x-2)(x-4). Titik potong: x = 2 dan x = 4 → (2,0) dan (4,0)."
   },
-  {
+    {
     "id": 214,
-    "pertanyaan": "Jika ⁴√(3x - 5) = 2, maka nilai x adalah...",
-    "pilihan": ["7", "9", "11", "13", "15"],
-    "jawaban": "A",
-    "pembahasan": "⁴√(3x - 5) = 2 → 3x - 5 = 16 → 3x = 21 → x = 7."
+    "pertanyaan": "Sebuah toko elektronik memberikan diskon 15% untuk semua laptop. Jika seorang pembeli membayar Rp8.500.000 untuk sebuah laptop setelah diskon, berapa harga normal laptop tersebut sebelum diskon?",
+    "pilihan": [
+      "Rp9.500.000",
+      "Rp9.800.000",
+      "Rp10.000.000",
+      "Rp10.200.000",
+      "Rp10.500.000"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Harga setelah diskon adalah Rp8.500.000. Diskon yang diberikan adalah 15\\%. \\nIni berarti harga setelah diskon adalah $100\\% - 15\\% = 85\\%$ dari harga normal. \\nMisalkan $P$ adalah harga normal laptop sebelum diskon. \\n$85\\% \\times P = 8.500.000$ \\n$0.85 \\times P = 8.500.000$ \\n$P = \\frac{8.500.000}{0.85} = 10.000.000$ \\nJadi, harga normal laptop sebelum diskon adalah Rp10.000.000."
   },
   {
     "id": 215,
@@ -145,11 +150,17 @@
     "jawaban": "A",
     "pembahasan": "2**v** = (-2, 8). **u** + 2**v** = (2-2, -3+8) = (0, 5)."
   },
-  {
+    {
     "id": 220,
-    "pertanyaan": "Jika 3x + 2y = 17 dan x - y = -4, maka nilai y adalah...",
-    "pilihan": ["1", "3", "5", "7", "9"],
+    "pertanyaan": "Dua siswa, P dan Q, mendaftar untuk mengikuti bimbingan belajar dengan biaya yang sama. Biaya bimbingan belajar tersebut dipotong dari uang saku bulanan mereka. Siswa P yang memiliki uang saku Rp600.000 dikenakan potongan 8%, sedangkan siswa Q dikenakan potongan 5%. Berdasarkan informasi tersebut, berapa besar uang saku bulanan siswa Q?",
+    "pilihan": [
+      "Rp850.000",
+      "Rp900.000",
+      "Rp960.000",
+      "Rp1.000.000",
+      "Rp1.200.000"
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari x - y = -4 → x = y - 4. Substitusi: 3(y-4) + 2y = 17 → 5y = 29 → y = 5,8. (Catatan: Opsi mungkin tidak sesuai, tetapi metode benar)."
+    "pembahasan": "Biaya bimbingan belajar untuk P dan Q adalah sama. \\nUntuk siswa P, biaya bimbingan adalah: \\nBiaya P $= 8\\% \\times \\text{Rp}600.000 = 0.08 \\times 600.000 = \\text{Rp}48.000$ \\nKarena biaya bimbingan Q sama dengan P, maka Biaya Q = Rp48.000. \\nBiaya bimbingan Q juga sebesar 5\\% dari uang sakunya. \\nMisalkan $S$ adalah uang saku siswa Q. \\n$5\\% \\times S = 48.000$ \\n$0.05 \\times S = 48.000$ \\n$S = \\frac{48.000}{0.05} = 960.000$ \\nJadi, uang saku bulanan siswa Q adalah Rp960.000."
   }
 ]
