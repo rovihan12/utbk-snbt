@@ -46,5 +46,13 @@
     "pilihan": ["120", "125", "130", "135", "160"],
     "jawaban": "C",
     "pembahasan": "Untuk mencari panjang sisi miring segitiga siku-siku, kita perlu mengetahui panjang alas dan tingginya. Dari soal, kita sudah mengetahui luas dan alasnya.\n\n### Langkah 1: Mencari tinggi segitiga\n\nKita gunakan rumus luas segitiga: $Luas = \\frac{1}{2} \\times alas \\times tinggi$\n\n$3.000 = \\frac{1}{2} \\times 120 \\times tinggi$\n\n$3.000 = 60 \\times tinggi$\n\n$tinggi = \\frac{3.000}{60}$\n\n$tinggi = 50$ cm\n\n--- \n\n### Langkah 2: Mencari panjang sisi miring\n\nKarena ini adalah segitiga siku-siku, kita bisa menggunakan Teorema Pythagoras: $alas^2 + tinggi^2 = sisi\\_miring^2$\n\n$120^2 + 50^2 = sisi\\_miring^2$\n\n$14.400 + 2.500 = sisi\\_miring^2$\n\n$16.900 = sisi\\_miring^2$\n\n$sisi\\_miring = \\sqrt{16.900}$\n\n$sisi\\_miring = 130$ cm\n\nJadi, panjang sisi miring segitiga tersebut adalah $130$ cm."
+  },
+  {
+    "id": 87,
+    "pertanyaan": "Luas jajargenjang ABCD adalah .... satuan luas.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250827_221718_Gallery.jpg",
+    "pilihan": ["$8\\sqrt{3}$", "$8\\sqrt{2}$", "$6\\sqrt{3}$", "$6\\sqrt{2}$", "6"],
+    "jawaban": "A",
+    "pembahasan": "Untuk menemukan luas jajargenjang, kita menggunakan rumus: $Luas = alas \\times tinggi$.\n\nDari gambar, kita bisa melihat bahwa alas jajargenjang adalah panjang AB. Panjang AB adalah $1 + 7 = 8$ satuan.\n\nSekarang, kita perlu mencari tinggi jajargenjang. Tinggi jajargenjang adalah garis tegak lurus dari titik D ke garis AB. Kita dapat menemukannya dengan menggunakan **Teorema Pythagoras** pada segitiga siku-siku yang memiliki sisi miring $AD = 2$ dan sisi alas $1$. Misalkan tinggi tersebut adalah $h$.\n\n$h^2 + 1^2 = 2^2$\n$h^2 + 1 = 4$\n$h^2 = 3$\n$h = \\sqrt{3}$\n\nDengan demikian, tinggi jajargenjang adalah $\\sqrt{3}$ satuan.\n\nSekarang kita bisa menghitung luasnya:\n\n$Luas = alas \\times tinggi$\n$Luas = 8 \\times \\sqrt{3}$\n$Luas = 8\\sqrt{3}$\n\nJadi, luas jajargenjang ABCD adalah $8\\sqrt{3}$ satuan luas."
   }
 ]
