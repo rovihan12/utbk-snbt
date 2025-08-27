@@ -38,5 +38,13 @@
     "pilihan": ["$\\frac{5}{2}$", "$\\sqrt{10}$", "$2\\sqrt{5}$", "5", "10"],
     "jawaban": "E",
     "pembahasan": "Misalkan panjang $CD=x$. Berdasarkan rasio $CD:BC:AB=1:2:3$, maka $BC=2x$ dan $AB=3x$. Segiempat ABCD terdiri dari dua segitiga siku-siku, $\\triangle ABC$ dan $\\triangle ADC$. Dengan teorema Pythagoras pada $\\triangle ABC$, $AC^2 = AB^2 + BC^2 = (3x)^2 + (2x)^2 = 9x^2 + 4x^2 = 13x^2$, sehingga $AC = x\\sqrt{13}$. Pada $\\triangle ADC$, $AD^2 = AC^2 - CD^2 = (x\\sqrt{13})^2 - x^2 = 13x^2 - x^2 = 12x^2$, sehingga $AD = \\sqrt{12x^2} = 2x\\sqrt{3}$.\n\nLuas segiempat ($m$) = Luas $\\triangle ABC$ + Luas $\\triangle ADC = \\frac{1}{2}(AB)(BC) + \\frac{1}{2}(AD)(CD) = \\frac{1}{2}(3x)(2x) + \\frac{1}{2}(2x\\sqrt{3})(x) = 3x^2 + x^2\\sqrt{3} = x^2(3+\\sqrt{3})$.\n\nKeliling segiempat ($n$) = $AB + BC + CD + AD = 3x + 2x + x + 2x\\sqrt{3} = 6x + 2x\\sqrt{3} = 2x(3+\\sqrt{3})$.\n\nDari perbandingan $m:n=5:1$, kita dapatkan $\\frac{m}{n} = \\frac{x^2(3+\\sqrt{3})}{2x(3+\\sqrt{3})} = 5$. Dengan menyederhanakan, kita peroleh $\\frac{x}{2} = 5$, sehingga $x=10$. Jadi, panjang $CD$ adalah **10** satuan."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Suatu segitiga siku-siku luasnya $3.000$ cm$^2$. Jika alas segitiga tersebut $120$ cm, maka panjang sisi miring segitiga adalah .... cm",
+    "gambar": "https://raw.githubusercontent.com/Ananda-Rovihan/Project-Bank-Soal/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098122.jpg",
+    "pilihan": ["120", "125", "130", "135", "160"],
+    "jawaban": "C",
+    "pembahasan": "Untuk mencari panjang sisi miring segitiga siku-siku, kita perlu mengetahui panjang alas dan tingginya. Dari soal, kita sudah mengetahui luas dan alasnya.\n\n### Langkah 1: Mencari tinggi segitiga\n\nKita gunakan rumus luas segitiga: $Luas = \\frac{1}{2} \\times alas \\times tinggi$\n\n$3.000 = \\frac{1}{2} \\times 120 \\times tinggi$\n\n$3.000 = 60 \\times tinggi$\n\n$tinggi = \\frac{3.000}{60}$\n\n$tinggi = 50$ cm\n\n--- \n\n### Langkah 2: Mencari panjang sisi miring\n\nKarena ini adalah segitiga siku-siku, kita bisa menggunakan Teorema Pythagoras: $alas^2 + tinggi^2 = sisi\\_miring^2$\n\n$120^2 + 50^2 = sisi\\_miring^2$\n\n$14.400 + 2.500 = sisi\\_miring^2$\n\n$16.900 = sisi\\_miring^2$\n\n$sisi\\_miring = \\sqrt{16.900}$\n\n$sisi\\_miring = 130$ cm\n\nJadi, panjang sisi miring segitiga tersebut adalah $130$ cm."
   }
 ]
