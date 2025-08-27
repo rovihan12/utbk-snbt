@@ -82,5 +82,19 @@
     ],
     "jawaban": "E",
     "pembahasan": "Jari-jari $(r)$ sebuah lingkaran adalah jarak dari titik pusat $(x_1, y_1)$ ke garis singgung $Ax + By + C = 0$. Jarak ini dapat dihitung menggunakan rumus:\n\n$r = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}$\n\nDari soal, kita memiliki informasi sebagai berikut:\n* Titik pusat lingkaran: $(a, b)$, sehingga $x_1 = a$ dan $y_1 = b$.\n* Persamaan garis singgung: $3x + 4y = 12$, yang dapat kita ubah menjadi $3x + 4y - 12 = 0$. Ini berarti $A=3$, $B=4$, dan $C=-12$.\n* Jari-jari lingkaran: $r = 12$.\n\nSekarang, kita substitusikan nilai-nilai ini ke dalam rumus jarak:\n\n$12 = \\frac{|3(a) + 4(b) - 12|}{\\sqrt{3^2 + 4^2}}$\n\n$12 = \\frac{|3a + 4b - 12|}{\\sqrt{9 + 16}}$\n\n$12 = \\frac{|3a + 4b - 12|}{\\sqrt{25}}$\n\n$12 = \\frac{|3a + 4b - 12|}{5}$\n\n$|3a + 4b - 12| = 12 \\times 5$\n\n$|3a + 4b - 12| = 60$\n\nIni menghasilkan dua kemungkinan:\n\n1.  $3a + 4b - 12 = 60$\n    $3a + 4b = 60 + 12$\n    $3a + 4b = 72$\n\n2.  $3a + 4b - 12 = -60$\n    $3a + 4b = -60 + 12$\n    $3a + 4b = -48$\n\nSoal memberikan syarat bahwa $a > 3$ dan $b > 3$. Mari kita uji kedua kemungkinan tersebut dengan syarat ini.\n\nJika $3a + 4b = -48$, maka dengan $a>3$ dan $b>3$, nilai $3a$ akan lebih besar dari $9$ dan nilai $4b$ akan lebih besar dari $12$. Penjumlahan keduanya ($3a+4b$) pasti bernilai positif, sehingga tidak mungkin sama dengan $-48$. Jadi, kemungkinan ini tidak memenuhi syarat.\n\nJika $3a + 4b = 72$, maka dengan $a>3$ dan $b>3$, nilai $3a$ akan lebih besar dari $9$ dan nilai $4b$ akan lebih besar dari $12$. Penjumlahan keduanya ($3a+4b$) pasti bernilai positif. Nilai $72$ memenuhi syarat ini.\n\nOleh karena itu, nilai yang memenuhi adalah $3a + 4b = 72$."
+  },
+  {
+    "id": 90,
+    "pertanyaan": "Luas daerah yang diarsir pada lingkaran besar adalah $4$ kali luas daerah lingkaran kecil. Jika jari-jari lingkaran besar adalah $\\frac{5}{\\sqrt{\\pi}}$, maka keliling lingkaran kecil adalah ....",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250827_223308_Samsung%20Internet.jpg",
+    "pilihan": [
+      "$\\frac{\\sqrt{5}}{\\sqrt{\\pi}}$",
+      "$\\sqrt{5\\pi}$",
+      "$2\\sqrt{5\\pi}$",
+      "$\\frac{\\sqrt{\\pi}}{\\sqrt{5}}$",
+      "$5\\sqrt{2\\pi}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Misalkan $R$ adalah jari-jari lingkaran besar dan $r$ adalah jari-jari lingkaran kecil.\n\n### Langkah 1: Menghitung Luas Lingkaran Besar ($A_1$)\n\nDiketahui jari-jari lingkaran besar adalah $R = \\frac{5}{\\sqrt{\\pi}}$. Luas lingkaran besar adalah:\n\n$A_1 = \\pi R^2 = \\pi \\left(\\frac{5}{\\sqrt{\\pi}}\\right)^2 = \\pi \\left(\\frac{25}{\\pi}\\right) = 25$\n\n### Langkah 2: Menghitung Luas Lingkaran Kecil ($A_2$)\n\nLuas lingkaran kecil adalah $A_2 = \\pi r^2$.\n\n### Langkah 3: Menghitung Luas Daerah yang Diarsir\n\nLuas daerah yang diarsir adalah luas lingkaran besar dikurangi luas lingkaran kecil:\n\n$Luas\\_arsir = A_1 - A_2 = 25 - \\pi r^2$\n\n### Langkah 4: Menggunakan Informasi dari Soal\n\nSoal menyatakan bahwa luas daerah yang diarsir adalah $4$ kali luas daerah lingkaran kecil:\n\n$Luas\\_arsir = 4 \\times Luas\\_lingkaran\\_kecil$\n\n$25 - \\pi r^2 = 4 (\\pi r^2)$\n\n$25 = 4\\pi r^2 + \\pi r^2$\n\n$25 = 5\\pi r^2$\n\n$r^2 = \\frac{25}{5\\pi}$\n\n$r^2 = \\frac{5}{\\pi}$\n\n$r = \\sqrt{\\frac{5}{\\pi}}$\n\n### Langkah 5: Menghitung Keliling Lingkaran Kecil\n\nKeliling lingkaran kecil ($K$) dihitung dengan rumus $K = 2\\pi r$. Substitusikan nilai $r$ yang telah kita temukan:\n\n$K = 2\\pi \\left(\\sqrt{\\frac{5}{\\pi}}\\right)$\n\n$K = 2\\pi \\frac{\\sqrt{5}}{\\sqrt{\\pi}}$\n\n$K = 2\\sqrt{\\pi} \\sqrt{\\pi} \\frac{\\sqrt{5}}{\\sqrt{\\pi}}$\n\n$K = 2\\sqrt{5}\\sqrt{\\pi}$\n\n$K = 2\\sqrt{5\\pi}$\n\nJadi, keliling lingkaran kecil adalah $2\\sqrt{5\\pi}$."
   }
 ]
