@@ -68,5 +68,19 @@
     ],
     "jawaban": "C",
     "pembahasan": "Untuk menemukan jumlah uang yang harus dibayarkan, kita perlu menghitung luas taman terlebih dahulu, lalu mengalikannya dengan harga kontrak per hektare.\n\n### Langkah 1: Menghitung Luas Taman\n\nKarena taman berbentuk segitiga dengan panjang ketiga sisinya diketahui ($a = 100$ m, $b = 170$ m, $c = 210$ m), kita bisa menggunakan **Rumus Heron** untuk menghitung luasnya:\n\n$Luas = \\sqrt{s(s-a)(s-b)(s-c)}$\n\ndengan $s$ adalah setengah keliling segitiga.\n\n$s = \\frac{1}{2}(100 + 170 + 210) = \\frac{1}{2}(480) = 240$ m\n\n$Luas = \\sqrt{240(240-100)(240-170)(240-210)}$\n\n$Luas = \\sqrt{240(140)(70)(30)}$\n\n$Luas = \\sqrt{240 \\times 140 \\times 70 \\times 30}$ \n\n$Luas = \\sqrt{8.400 \\times 10^4}$\n\n$Luas = \\sqrt{8400 \\times 10000}$\n\n$Luas = 8400$ m$^2$\n\n### Langkah 2: Mengonversi Luas ke Hektare\n\nLuas taman dalam hektare = $\\frac{8400}{10.000} = 0,84$ ha\n\n### Langkah 3: Menghitung Total Biaya\n\nTotal Biaya = Luas (ha) $\\times$ Harga per ha\n\nTotal Biaya = $0,84 \\times Rp50.000.000,00$\n\nTotal Biaya = $Rp42.000.000,00$\n\nJadi, jumlah yang harus dibayarkan adalah **Rp42.000.000,00**."
+  },
+  {
+    "id": 89,
+    "pertanyaan": "Lingkaran yang berpusat di $(a, b)$, dengan $a, b > 3$ menyinggung garis $3x + 4y = 12$. Jika lingkaran tersebut ber-jari-jari 12, maka $3a + 4b = \\dots$",
+    "gambar": "https://raw.githubusercontent.com/Ananda-Rovihan/Project-Bank-Soal/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098125.jpg",
+    "pilihan": [
+      "24",
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Jari-jari $(r)$ sebuah lingkaran adalah jarak dari titik pusat $(x_1, y_1)$ ke garis singgung $Ax + By + C = 0$. Jarak ini dapat dihitung menggunakan rumus:\n\n$r = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}}$\n\nDari soal, kita memiliki informasi sebagai berikut:\n* Titik pusat lingkaran: $(a, b)$, sehingga $x_1 = a$ dan $y_1 = b$.\n* Persamaan garis singgung: $3x + 4y = 12$, yang dapat kita ubah menjadi $3x + 4y - 12 = 0$. Ini berarti $A=3$, $B=4$, dan $C=-12$.\n* Jari-jari lingkaran: $r = 12$.\n\nSekarang, kita substitusikan nilai-nilai ini ke dalam rumus jarak:\n\n$12 = \\frac{|3(a) + 4(b) - 12|}{\\sqrt{3^2 + 4^2}}$\n\n$12 = \\frac{|3a + 4b - 12|}{\\sqrt{9 + 16}}$\n\n$12 = \\frac{|3a + 4b - 12|}{\\sqrt{25}}$\n\n$12 = \\frac{|3a + 4b - 12|}{5}$\n\n$|3a + 4b - 12| = 12 \\times 5$\n\n$|3a + 4b - 12| = 60$\n\nIni menghasilkan dua kemungkinan:\n\n1.  $3a + 4b - 12 = 60$\n    $3a + 4b = 60 + 12$\n    $3a + 4b = 72$\n\n2.  $3a + 4b - 12 = -60$\n    $3a + 4b = -60 + 12$\n    $3a + 4b = -48$\n\nSoal memberikan syarat bahwa $a > 3$ dan $b > 3$. Mari kita uji kedua kemungkinan tersebut dengan syarat ini.\n\nJika $3a + 4b = -48$, maka dengan $a>3$ dan $b>3$, nilai $3a$ akan lebih besar dari $9$ dan nilai $4b$ akan lebih besar dari $12$. Penjumlahan keduanya ($3a+4b$) pasti bernilai positif, sehingga tidak mungkin sama dengan $-48$. Jadi, kemungkinan ini tidak memenuhi syarat.\n\nJika $3a + 4b = 72$, maka dengan $a>3$ dan $b>3$, nilai $3a$ akan lebih besar dari $9$ dan nilai $4b$ akan lebih besar dari $12$. Penjumlahan keduanya ($3a+4b$) pasti bernilai positif. Nilai $72$ memenuhi syarat ini.\n\nOleh karena itu, nilai yang memenuhi adalah $3a + 4b = 72$."
   }
 ]
