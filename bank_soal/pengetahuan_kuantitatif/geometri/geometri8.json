@@ -1,13 +1,19 @@
-
 [
-  {
-    "id": 71,
-    "pertanyaan": "Perhatikan gambar segitiga berikut. Jika panjang alas = 10 cm dan tinggi = 12 cm, maka luas segitiga tersebut adalah ...",
-    "gambar": "soal_1.png",
-    "pilihan": ["60 cm²", "120 cm²", "100 cm²", "80 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Luas segitiga = (1/2) × alas × tinggi = (1/2) × 10 × 12 = 60 cm². Jadi, jawabannya adalah A."
-  },
+{
+  "id": 71,
+  "pertanyaan": "Pada persegipanjang ABCD, titik E dan G berturut-turut terletak di sisi DC dan AB sehingga AE sejajar GC. Jika AE = 4, $\\angle$AGD = 30\\°, dan garis DG dan AE berpotongan tegak lurus, besar $\\angle$AGC adalah ... .",
+"gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/CamScanner%2028-08-2025%2006.21.jpg"
+  "pilihan": [
+    "105\\°",
+    "120\\°",
+    "135\\°",
+    "150\\°",
+    "165\\°"
+  ],
+  "jawaban": "B",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/CamScanner%2028-08-2025%2006.22.jpg"
+  "pembahasan": "Misalkan titik potong antara garis DG dan AE adalah P. Karena DG dan AE berpotongan tegak lurus, maka $\\angle$APD = $\\angle$GPE = 90\\°. \\nPerhatikan $\\triangle$APD. Kita memiliki $\\angle$PAD + $\\angle$PDA = 90\\°. \\nKarena AE sejajar GC, maka $\\angle$AEC = $\\angle$GCE (sudut dalam berseberangan). \\nKarena DG dan AE berpotongan tegak lurus, maka $\\angle$DPE = 90\\°. \\nPerhatikan $\\triangle$ADP dan $\\triangle$GCP. \\nKarena AE sejajar GC, maka $\\angle$DGP = $\\angle$APD (sudut dalam berseberangan). \\nKarena $\\angle$AGD = 30\\° dan $\\angle$GPE = 90\\°, perhatikan $\\triangle$GPE. $\\angle$PGE = $\\angle$GCE = 30\\°. \\nPerhatikan $\\triangle$PAG. Diketahui $\\angle$AGD = 30\\°. Sudut $\\angle$PGA adalah bagian dari $\\angle$AGD, jadi $\\angle$PGA = $\\angle$AGD = 30\\°. \\nKarena AE $\\perp$ DG, maka $\\triangle$PAG adalah segitiga siku-siku di P. \\nDi $\\triangle$PAG, $\\angle$APG = 90\\°. \\nSehingga, $\\angle$PAG + $\\angle$PGA = 90\\°. \\n$\\angle$PAG + 30\\° = 90\\° \\n$\\angle$PAG = 60\\°. \\nPerhatikan $\\triangle$PGA. Kita tahu $\\angle$APG = 90\\° dan $\\angle$PAG = 60\\° dan $\\angle$PGA = 30\\°. \\nSudut $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \\nPerhatikan garis AE sejajar GC. \\nSudut $\\angle$AGD dan $\\angle$DGC adalah sudut yang bersebelahan. \\nPada soal, gambar menunjukkan bahwa $\\angle$DGC berseberangan dengan $\\angle$APG. \\nKarena garis AE sejajar GC, dan DG adalah garis transversal, maka $\\angle$APG dan $\\angle$DGC adalah sudut dalam berseberangan. \\nSehingga, $\\angle$DGC = $\\angle$APG = 90\\°. \\nBesar $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \\n$\\angle$AGC = $\\angle$AGD + $\\angle$DGC \\n$\\angle$AGC = 30\\° + 90\\° = 120\\° \\nJadi, besar $\\angle$AGC adalah 120\\°."
+},
   {
     "id": 72,
     "pertanyaan": "Luas persegi panjang pada gambar adalah ... jika panjang = 20 cm dan lebar = 10 cm.",
