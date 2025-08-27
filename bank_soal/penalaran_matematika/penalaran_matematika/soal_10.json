@@ -6,12 +6,18 @@
     "jawaban": "C",
     "pembahasan": "Kombinasi novel: C(4,2) = 6. Kombinasi komik: C(3,1) = 3. Total cara = 6 × 3 = 18."
   },
-  {
+   {
     "id": 202,
-    "pertanyaan": "Jika ³log (x² - 4x + 4) = 2, maka nilai x yang memenuhi adalah...",
-    "pilihan": ["1 atau 3", "-1 atau 5", "2 saja", "4 saja", "Tidak ada jawaban"],
-    "jawaban": "B",
-    "pembahasan": "³log (x-2)² = 2 → (x-2)² = 9 → x-2 = ±3 → x = 5 atau x = -1. Syarat numerus: (x-2)² > 0 (terpenuhi untuk x ≠ 2)."
+    "pertanyaan": "Pabrik garmen telah memproduksi 750 potong kemeja. Jumlah ini masih kurang 25% dari target produksi yang diinginkan. Berapa total kemeja yang sebenarnya ditargetkan oleh pabrik tersebut?",
+    "pilihan": [
+      "800 potong",
+      "900 potong",
+      "950 potong",
+      "1.000 potong",
+      "1.200 potong"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Misalkan $T$ adalah total target produksi yang diinginkan. \\nKarena 750 potong kemeja adalah 25% kurang dari target, maka 750 potong tersebut merupakan $100\\% - 25\\% = 75\\%$ dari total target. \\nDengan demikian, kita dapat menulis persamaan: \\n$75\\% \\times T = 750$ \\n$0.75 \\times T = 750$ \\n$T = \\frac{750}{0.75} = 1000$ \\nJadi, total kemeja yang ditargetkan adalah 1.000 potong."
   },
   {
     "id": 203,
@@ -48,12 +54,19 @@
     "jawaban": "A",
     "pembahasan": "Luas permukaan = 4πr² → 616 = 4 × (22/7) × r² → r² = 49 → r = 7 cm."
   },
-  {
+   {
     "id": 208,
-    "pertanyaan": "Nilai dari cos 120° + sin 240° adalah...",
-    "pilihan": ["-1", "-½", "0", "½", "1"],
-    "jawaban": "A",
-    "pembahasan": "cos 120° = -½, sin 240° = -½. Total = -½ + (-½) = -1."
+    "kategori": "Mudah",
+    "pertanyaan": "Seorang pedagang membeli sepeda motor bekas dan menjualnya kembali dengan harga Rp16.500.000. Jika dari transaksi tersebut ia memperoleh keuntungan 10%, berapa harga beli sepeda motor tersebut?",
+    "pilihan": [
+      "Rp14.000.000",
+      "Rp14.500.000",
+      "Rp15.000.000",
+      "Rp15.500.000",
+      "Rp16.000.000"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Harga jual adalah Rp16.500.000. Keuntungan adalah 10\\% dari harga beli. \\nHarga Jual = Harga Beli + Keuntungan \\nHarga Jual = Harga Beli + $(10\\% \\times$ Harga Beli) \\nHarga Jual = $(100\\% + 10\\%) \\times$ Harga Beli = $110\\% \\times$ Harga Beli \\nMisalkan $H$ adalah harga beli. \\n$16.500.000 = 1.10 \\times H$ \\n$H = \\frac{16.500.000}{1.10} = 15.000.000$ \\nJadi, harga beli sepeda motor tersebut adalah Rp15.000.000."
   },
   {
     "id": 209,
