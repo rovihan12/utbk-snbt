@@ -66,11 +66,11 @@
   },
   {
     "id": 79,
-    "pertanyaan": "Jika panjang sisi persegi pada gambar adalah 12 cm, maka luasnya adalah ...",
-    "gambar": "soal_9.png",
-    "pilihan": ["144 cm²", "120 cm²", "132 cm²", "156 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Luas persegi = sisi × sisi = 12 × 12 = 144 cm². Jawaban A."
+    "pertanyaan": "Suatu roda berbentuk lingkaran dengan diameter $56$ cm berputar sebanyak $50$ kali putaran. Panjang lintasan yang telah ditempuh oleh roda tersebut adalah .... m",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098131.jpg",
+    "pilihan": ["54", "88", "104", "178", "210"],
+    "jawaban": "B",
+    "pembahasan": "Panjang lintasan yang ditempuh oleh roda adalah keliling roda dikalikan dengan jumlah putaran. Kita akan menghitung keliling roda terlebih dahulu, lalu mengalikannya dengan jumlah putaran, dan terakhir mengonversinya ke meter.\n\n### Langkah 1: Menghitung Keliling Roda\nKeliling roda (keliling lingkaran) dihitung dengan rumus $K = 2\\pi r$ atau $K = \\pi d$.\n\nDiketahui:\n* Diameter ($d$) = $56$ cm\n* Jari-jari ($r$) = $\\frac{d}{2} = \\frac{56}{2} = 28$ cm\n\nKita gunakan nilai $\\pi = \\frac{22}{7}$.\n\n$Keliling = 2 \\times \\frac{22}{7} \\times 28$\n$Keliling = 2 \\times 22 \\times 4$\n$Keliling = 176$ cm\n\n### Langkah 2: Menghitung Panjang Lintasan\nPanjang lintasan ($s$) adalah keliling roda dikalikan dengan jumlah putaran ($n$).\n\n$s = Keliling \\times n$\n$s = 176 \\times 50$\n$s = 8800$ cm\n\n### Langkah 3: Mengonversi ke Meter\nKita perlu mengonversi panjang lintasan dari centimeter (cm) ke meter (m). Diketahui bahwa $1$ m = $100$ cm.\n\n$s = \\frac{8800}{100} = 88$ m\n\nJadi, panjang lintasan yang ditempuh oleh roda tersebut adalah **88** meter."
   },
   {
     "id": 80,
