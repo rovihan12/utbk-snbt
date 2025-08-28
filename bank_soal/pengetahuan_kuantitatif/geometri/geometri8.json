@@ -98,12 +98,19 @@
     "jawaban": "B",
     "pembahasan": "Panjang lintasan yang ditempuh oleh roda adalah keliling roda dikalikan dengan jumlah putaran. Kita akan menghitung keliling roda terlebih dahulu, lalu mengalikannya dengan jumlah putaran, dan terakhir mengonversinya ke meter.\n\n### Langkah 1: Menghitung Keliling Roda\nKeliling roda (keliling lingkaran) dihitung dengan rumus $K = 2\\pi r$ atau $K = \\pi d$.\n\nDiketahui:\n* Diameter ($d$) = $56$ cm\n* Jari-jari ($r$) = $\\frac{d}{2} = \\frac{56}{2} = 28$ cm\n\nKita gunakan nilai $\\pi = \\frac{22}{7}$.\n\n$Keliling = 2 \\times \\frac{22}{7} \\times 28$\n$Keliling = 2 \\times 22 \\times 4$\n$Keliling = 176$ cm\n\n### Langkah 2: Menghitung Panjang Lintasan\nPanjang lintasan ($s$) adalah keliling roda dikalikan dengan jumlah putaran ($n$).\n\n$s = Keliling \\times n$\n$s = 176 \\times 50$\n$s = 8800$ cm\n\n### Langkah 3: Mengonversi ke Meter\nKita perlu mengonversi panjang lintasan dari centimeter (cm) ke meter (m). Diketahui bahwa $1$ m = $100$ cm.\n\n$s = \\frac{8800}{100} = 88$ m\n\nJadi, panjang lintasan yang ditempuh oleh roda tersebut adalah **88** meter."
   },
-  {
-    "id": 80,
-    "pertanyaan": "Layang-layang pada gambar memiliki diagonal 1 = 6 cm dan diagonal 2 = 10 cm. Luas layang-layang adalah ...",
-    "gambar": "soal_10.png",
-    "pilihan": ["30 cm²", "60 cm²", "50 cm²", "40 cm²"],
-    "jawaban": "B",
-    "pembahasan": "Luas layang-layang = (1/2) × d1 × d2 = (1/2) × 6 × 10 = 30 cm². Tapi itu salah, seharusnya 60 cm². Jawaban B."
-  }
+ {
+  "id": 80,
+  "pertanyaan": "Pada gambar di bawah, hitunglah nilai masing-masing $\\angle b$, $\\angle c$, dan $\\angle a$.",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098164.jpg",
+  "pilihan": [
+    "70°, 92°, dan 28°",
+    "60°, 82°, dan 28°",
+    "70°, 92°, dan 18°",
+    "60°, 82°, dan 18°",
+    "80°, 92°, dan 18°"
+  ],
+  "jawaban": "C",
+  "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098165.jpg",
+  "pembahasan": "Untuk mencari nilai sudut b, c, dan a, kita akan menganalisis setiap segitiga dan garis lurus pada gambar.\n\n1.  **Mencari nilai $\\angle b$:**\n    * Segitiga BDA adalah segitiga sama kaki karena BD = BA, sehingga $\\angle BAD = \\angle D = 35°$.\n    * Jumlah sudut dalam segitiga adalah 180°, maka $\\angle DBA = 180° - 35° - 35° = 110°$.\n    * Garis DBC adalah garis lurus, sehingga $\\angle DBA + \\angle b = 180°$. Jadi, $\\angle b = 180° - 110° = 70°$.\n\n2.  **Mencari nilai $\\angle c$:**\n    * Segitiga ECA adalah segitiga sama kaki karena CE = CA, sehingga $\\angle CAE = \\angle E = 46°$.\n    * Jumlah sudut dalam segitiga adalah 180°, maka $\\angle ECA = 180° - 46° - 46° = 88°$.\n    * Garis ECB adalah garis lurus, sehingga $\\angle ECA + \\angle c = 180°$. Jadi, $\\angle c = 180° - 88° = 92°$.\n\n3.  **Mencari nilai $\\angle a$:**\n    * Segitiga BAC memiliki jumlah sudut 180°.\n    * $\\angle BAC + \\angle ABC + \\angle BCA = 180°$.\n    * $\\angle a + \\angle b + \\angle c = 180°$.\n    * $\\angle a + 70° + 92° = 180°$.\n    * $\\angle a + 162° = 180°$.\n    * $\\angle a = 180° - 162° = 18°$.\n\nJadi, nilai $\\angle b$, $\\angle c$, dan $\\angle a$ berturut-turut adalah 70°, 92°, dan 18°."
+}
 ]
