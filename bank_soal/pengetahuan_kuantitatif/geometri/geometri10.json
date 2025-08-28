@@ -1,15 +1,30 @@
 [
   {
     "id": 161,
-    "pertanyaan": "Comming Soon",
+    "teks_pendahuluan": "Gambar berikut untuk soal 1 dan 2.\n\nDiketahui koordinat\nP(1, -3), Q(7, 6), T(1, -1), R(5, -1) dan U(1, 3).",
+    "pertanyaan": "Luas $\\Delta UTR$ adalah ... satuan luas.",
     "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
     ],
     "jawaban": "A",
-    "pembahasan": "Comming Soon"
+    "pembahasan": "Segitiga $UTR$ memiliki koordinat $U(1, 3)$, $T(1, -1)$, dan $R(5, -1)$.\\nAlas segitiga adalah garis $TR$, yang horizontal karena koordinat y-nya sama. Panjang alas = $|5 - 1| = 4$ satuan.\\nTinggi segitiga adalah jarak vertikal dari titik $U$ ke garis $TR$. Tinggi = $|3 - (-1)| = |3 + 1| = 4$ satuan.\\nLuas segitiga = $\\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4 = 8$ satuan luas."
+  },
+  {
+    "id": 162,
+    "teks_pendahuluan": "Gambar berikut untuk soal 1 dan 2.\n\nDiketahui koordinat\nP(1, -3), Q(7, 6), T(1, -1), R(5, -1) dan U(1, 3).",
+    "pertanyaan": "Luas segitiga $PSQ$ adalah ... satuan luas.",
+    "pilihan": [
+      "18",
+      "21",
+      "24",
+      "27",
+      "30"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Dari gambar, titik $S$ berada pada perpotongan garis vertikal dari $P$ ($x=1$) dan garis horizontal dari $Q$ ($y=6$). Maka, koordinat titik $S$ adalah $(1, 6)$.\\nKoordinat titik-titik segitiga $PSQ$ adalah $P(1, -3)$, $S(1, 6)$, dan $Q(7, 6)$.\\nAlas segitiga adalah garis $PS$, yang vertikal. Panjang alas = $|6 - (-3)| = 9$ satuan.\\nTinggi segitiga adalah jarak horizontal dari titik $Q$ ke garis $PS$. Tinggi = $|7 - 1| = 6$ satuan.\\nLuas segitiga = $\\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 9 \\times 6 = 27$ satuan luas."
   }
 ]
