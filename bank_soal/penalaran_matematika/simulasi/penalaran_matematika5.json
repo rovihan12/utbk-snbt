@@ -15,31 +15,18 @@
   },
   {
     "id": 3,
-    "pertanyaan": "Sebuah mobil menempuh jarak 360 km dengan 30 liter bensin. Berapa jarak yang bisa ditempuh dengan 45 liter bensin?",
-    "pilihan": ["A. 480 km", "B. 510 km", "C. 540 km", "D. 570 km", "E. 600 km"],
+    "pertanyaan": "Cermati teks berikut untuk menjawab soal nomor 3-6. Suatu lokomotif uap memiliki delapan roda, empat roda kecil dan empat roda besar. Radius roda besar adalah 80 cm dan radius roda kecil adalah 60 cm. Sistem kerja mesin lokomotif digerakkan oleh uap air. Diketahui 7,5 liter air dapat menggerakkan lokomotif sejauh 1 km.",\n
+    Agar roda besar dapat berjalan satu putaran, diperlukan air sebanyak... liter.",
+"gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098169-removebg-preview.png"
+    "pilihan": [
+      "$\\frac{\\pi}{125}$",
+      "$\\frac{\\pi}{175}$",
+      "$\\frac{3\\pi}{250}$",
+      "$\\frac{2\\pi}{275}$",
+      "$\\frac{\\pi}{250}$"
+    ],
     "jawaban": "C",
-    "pembahasan": "Konsumsi bensin = 360/30 = 12 km/liter; Jarak baru = 12 × 45 = 540 km"
-  },
-  {
-    "id": 4,
-    "pertanyaan": "Jika 6 pekerja dapat menyelesaikan proyek dalam 18 hari, berapa hari yang dibutuhkan 9 pekerja untuk menyelesaikan proyek yang sama?",
-    "pilihan": ["A. 9", "B. 10", "C. 11", "D. 12", "E. 14"],
-    "jawaban": "D",
-    "pembahasan": "Total pekerjaan = 6 × 18 = 108 pekerja-hari; Waktu baru = 108/9 = 12 hari"
-  },
-  {
-    "id": 5,
-    "pertanyaan": "Sebuah kereta berangkat dari kota A ke B dengan kecepatan 90 km/jam dan kembali dengan kecepatan 60 km/jam. Jika total waktu perjalanan 5 jam, berapa jarak antara kota A dan B?",
-    "pilihan": ["A. 120 km", "B. 150 km", "C. 180 km", "D. 210 km", "E. 240 km"],
-    "jawaban": "C",
-    "pembahasan": "Misal jarak = x; x/90 + x/60 = 5 → (2x+3x)/180 = 5 → x = 180 km"
-  },
-  {
-    "id": 6,
-    "pertanyaan": "Sebuah tabung memiliki diameter 14 cm dan tinggi 20 cm. Berapa volume tabung? (π = 22/7)",
-    "pilihan": ["A. 2.980 cm³", "B. 3.080 cm³", "C. 3.180 cm³", "D. 3.280 cm³", "E. 3.380 cm³"],
-    "jawaban": "B",
-    "pembahasan": "Jari-jari = 7 cm; Volume = πr²t = 22/7 × 7 × 7 × 20 = 3.080 cm³"
+    "pembahasan": "Jarak satu putaran roda besar adalah kelilingnya: $2\\pi r_{besar} = 2\\pi (80\\ cm) = 160\\pi\\ cm = \\frac{160\\pi}{100000}\\ km = \\frac{16\\pi}{10000}\\ km = \\frac{\\pi}{625}\\ km$. \\nPerbandingan air dan jarak adalah konstan. Jika 7.5 liter air digunakan untuk 1 km, maka untuk $\\frac{\\pi}{625}\\ km$, dibutuhkan air sebanyak: \\n$Air = 7.5 \\times \\frac{\\pi}{625} = \\frac{75}{10} \\times \\frac{\\pi}{625} = \\frac{75\\pi}{6250} = \\frac{3\\pi}{250}$ liter."
   },
   {
     "id": 7,
