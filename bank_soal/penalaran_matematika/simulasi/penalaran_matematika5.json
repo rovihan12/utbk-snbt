@@ -15,8 +15,8 @@
   },
   {
     "id": 3,
+"gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098169-removebg-preview.png",
     "pertanyaan": "Cermati teks berikut untuk menjawab soal nomor 3-6. Suatu lokomotif uap memiliki delapan roda, empat roda kecil dan empat roda besar. Radius roda besar adalah 80 cm dan radius roda kecil adalah 60 cm. Sistem kerja mesin lokomotif digerakkan oleh uap air. Diketahui 7,5 liter air dapat menggerakkan lokomotif sejauh 1 km.\n\nAgar roda besar dapat berjalan satu putaran, diperlukan air sebanyak... liter.",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098169-removebg-preview.png",
     "pilihan": [
       "$\\frac{\\pi}{125}$",
       "$\\frac{\\pi}{175}$",
@@ -27,6 +27,27 @@
     "jawaban": "C",
     "pembahasan": "Jarak satu putaran roda besar adalah kelilingnya: $2\\pi r_{besar} = 2\\pi (80\\ cm) = 160\\pi\\ cm = \\frac{160\\pi}{100000}\\ km = \\frac{16\\pi}{10000}\\ km = \\frac{\\pi}{625}\\ km$. \\nPerbandingan air dan jarak adalah konstan. Jika 7.5 liter air digunakan untuk 1 km, maka untuk $\\frac{\\pi}{625}\\ km$, dibutuhkan air sebanyak: \\n$Air = 7.5 \\times \\frac{\\pi}{625} = \\frac{75}{10} \\times \\frac{\\pi}{625} = \\frac{75\\pi}{6250} = \\frac{3\\pi}{250}$ liter."
   },
+  {
+    "id": 4,
+    "pertanyaan": "Jika lokomotif berjalan 1 km, perbandingan banyaknya putaran roda besar dan roda kecil adalah....",
+    "pilihan": ["3 : 2", "4 : 3", "3 : 4", "2 : 3", "4 : 7"],
+    "jawaban": "C",
+    "pembahasan": "Jarak tempuh = 1 km = 100000 cm. \\nKeliling roda besar: $2\\pi r_{besar} = 2\\pi(80) = 160\\pi\\ cm$. \\nKeliling roda kecil: $2\\pi r_{kecil} = 2\\pi(60) = 120\\pi\\ cm$. \\nJumlah putaran roda besar: $N_{besar} = \\frac{100000}{160\\pi}$. \\nJumlah putaran roda kecil: $N_{kecil} = \\frac{100000}{120\\pi}$. \\nPerbandingan $N_{besar} : N_{kecil} = \\frac{100000}{160\\pi} : \\frac{100000}{120\\pi} = \\frac{1}{160} : \\frac{1}{120} = 120 : 160 = 3 : 4$."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Posisi roda besar dan roda kecil akan sama seperti posisi semula sebelum lokomotif berjalan untuk pertama kalinya ketika lokomotif telah berjalan sejauh... meter.",
+    "pilihan": ["$1.4\\pi$", "$2.0\\pi$", "$3.2\\pi$", "$4.8\\pi$", "$5.6\\pi$"],
+    "jawaban": "D",
+    "pembahasan": "Posisi roda akan kembali ke posisi semula ketika jarak yang ditempuh adalah kelipatan persekutuan terkecil (KPK) dari keliling kedua roda. \\nKeliling roda besar: $K_{besar} = 2\\pi r_{besar} = 2\\pi(80\\ cm) = 160\\pi\\ cm$. \\nKeliling roda kecil: $K_{kecil} = 2\\pi r_{kecil} = 2\\pi(60\\ cm) = 120\\pi\\ cm$. \\nKPK dari $160\\pi$ dan $120\\pi$ adalah $480\\pi\\ cm$. \\nJarak dalam meter: $480\\pi\\ cm = 4.8\\pi\\ m$."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Jika lokomotif berhenti setelah bergerak 3 km dari tempat keberangkatan, jumlah putaran yang telah dilakukan roda kecil adalah....",
+    "pilihan": ["$\\frac{1500}{\\pi}$", "$\\frac{750}{\\pi}$", "$\\frac{900}{\\pi}$", "$\\frac{2500}{\\pi}$", "$\\frac{2500}{\\pi}$"],
+    "jawaban": "D",
+    "pembahasan": "Jarak yang ditempuh = 3 km = 300000 cm. \\nKeliling roda kecil = $2\\pi r_{kecil} = 2\\pi(60) = 120\\pi\\ cm$. \\nJumlah putaran roda kecil = $\\frac{Jarak}{Keliling} = \\frac{300000}{120\\pi} = \\frac{30000}{12\\pi} = \\frac{2500}{\\pi}$."
+  }
   {
     "id": 7,
     "pertanyaan": "Sebuah bilangan jika dikalikan 3 kemudian ditambah 12 hasilnya 48. Berapa 1/4 dari bilangan tersebut?",
