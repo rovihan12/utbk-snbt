@@ -16,13 +16,18 @@
     "pembahasan": "Misalkan titik potong antara garis DG dan AE adalah P. Karena DG dan AE berpotongan tegak lurus, maka $\\angle$APD = $\\angle$GPE = 90°. \nPerhatikan $\\triangle$APD. Kita memiliki $\\angle$PAD + $\\angle$PDA = 90°. \nKarena AE sejajar GC, maka $\\angle$AEC = $\\angle$GCE (sudut dalam berseberangan). \nKarena DG dan AE berpotongan tegak lurus, maka $\\angle$DPE = 90°. \nPerhatikan $\\triangle$ADP dan $\\triangle$GCP. \nKarena AE sejajar GC, dan DG adalah garis transversal, maka $\\angle$DGC dan $\\angle$APG adalah sudut dalam berseberangan. \nSehingga, $\\angle$DGC = $\\angle$APG = 90°. \nBesar $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \n$\\angle$AGC = $\\angle$AGD + $\\angle$DGC \n$\\angle$AGC = 30° + 90° = 120° \nJadi, besar $\\angle$AGC adalah 120°."
 },
   {
-    "id": 72,
-    "pertanyaan": "Luas persegi panjang pada gambar adalah ... jika panjang = 20 cm dan lebar = 10 cm.",
-    "gambar": "soal_2.png",
-    "pilihan": ["300 cm²", "200 cm²", "100 cm²", "150 cm²"],
-    "jawaban": "B",
-    "pembahasan": "Luas persegi panjang = panjang × lebar = 20 × 10 = 200 cm². Jadi, jawabannya adalah B."
-  },
+  "id": 72,
+  "pertanyaan": "Jika suatu segitiga memiliki dua sisi dengan panjang 5 dan 9, manakah dari pilihan berikut ini yang mungkin menjadi panjang sisi ketiga dari segitiga tersebut?\n(1) 5\n(2) 14\n(3) 12",
+  "pilihan": [
+    "(1) saja",
+    "(2) saja",
+    "(3) saja",
+    "(1) dan (3)",
+    "(1), (2), dan (3)"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Sifat segitiga sembarang adalah sebagai berikut:\n* Jumlah panjang dua sisinya lebih besar dari panjang sisi ketiganya.\n* Selisih panjang dua sisinya lebih kecil dari panjang sisi ketiganya.\n\nUntuk panjang dua sisi segitiga 5 dan 9, maka panjang sisi ketiga ($x$) yang mungkin adalah:\n\n$9 - 5 < x < 9 + 5$\n$4 < x < 14$\n\nPernyataan (1): 5. \\n$4 < 5 < 14$, maka pernyataan ini benar.\n\nPernyataan (2): 14. \\n$4 < 14 < 14$, maka pernyataan ini salah.\n\nPernyataan (3): 12. \\n$4 < 12 < 14$, maka pernyataan ini benar.\n\nJadi, pilihan yang mungkin benar adalah (1) dan (3)."
+},
   {
     "id": 73,
     "pertanyaan": "Jika jari-jari lingkaran pada gambar adalah 7 cm, maka luasnya adalah ...",
