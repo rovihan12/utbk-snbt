@@ -29,13 +29,20 @@
   "pembahasan": "Sifat segitiga sembarang adalah sebagai berikut:\n* Jumlah panjang dua sisinya lebih besar dari panjang sisi ketiganya.\n* Selisih panjang dua sisinya lebih kecil dari panjang sisi ketiganya.\n\nUntuk panjang dua sisi segitiga 5 dan 9, maka panjang sisi ketiga ($x$) yang mungkin adalah:\n\n$9 - 5 < x < 9 + 5$\n$4 < x < 14$\n\nPernyataan (1): 5. \\n$4 < 5 < 14$, maka pernyataan ini benar.\n\nPernyataan (2): 14. \\n$4 < 14 < 14$, maka pernyataan ini salah.\n\nPernyataan (3): 12. \\n$4 < 12 < 14$, maka pernyataan ini benar.\n\nJadi, pilihan yang mungkin benar adalah (1) dan (3)."
 },
   {
-    "id": 73,
-    "pertanyaan": "Jika jari-jari lingkaran pada gambar adalah 7 cm, maka luasnya adalah ...",
-    "gambar": "soal_3.png",
-    "pilihan": ["154 cm²", "144 cm²", "147 cm²", "133 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Luas lingkaran = π × r² = 3.14 × 7² = 3.14 × 49 = 153.86 ≈ 154 cm². Jadi, jawabannya A."
-  },
+  "id": 73,
+  "kategori": "Geometri",
+  "pertanyaan": "Perhatikan gambar berikut ini.\n\nPada gambar di atas, $PQRS$ adalah suatu trapesium dan $RQ = RT$. Hitunglah nilai $x°$ dan $y°$.",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098145.jpg",
+  "pilihan": [
+    "$x° = 30°$ dan $y° = 10°$",
+    "$x° = 30°$ dan $y° = 20°$",
+    "$x° = 20°$ dan $y° = 30°$",
+    "$x° = 10°$ dan $y° = 30°$",
+    "$x° = 15°$ dan $y° = 20°$"
+  ],
+  "jawaban": "A",
+  "pembahasan": "### Menentukan Nilai $x°$\nPada trapesium $PQRS$, diketahui $SR$ sejajar $PQ$. Jumlah sudut dalam trapesium adalah $360°$. Atau, perhatikan sudut-sudut yang bersebelahan pada sisi yang tidak sejajar, yaitu $\\angle P$ dan $\\angle S$ yang berjumlah 180°.\\n$2x° + 4x° = 180°$\\n$6x° = 180°$\\n$x° = 30°$\n\n### Menentukan Nilai $y°$\nPerhatikan $\\triangle QRT$. Diketahui $RQ=RT$, yang berarti $\\triangle QRT$ adalah segitiga sama kaki. Sudut-sudut di alasnya, yaitu $\\angle RQT$ dan $\\angle RTQ$, sama besar. Dari gambar, $\\angle RTQ = 85°$. Maka $\\angle RQT = 85°$.\nJumlah ketiga sudut dalam segitiga adalah $180°$. \n$\\angle QRT + \\angle RQT + \\angle RTQ = 180°$\n$y° + 85° + 85° = 180°$\\n$y° + 170° = 180°$\n$y° = 10°$\n\nJadi, nilai $x°$ dan $y°$ berturut-turut adalah $30°$ dan $10°$."
+},
   {
     "id": 74,
     "pertanyaan": "Sebuah trapesium memiliki panjang sisi sejajar masing-masing 10 cm dan 20 cm, serta tinggi 8 cm. Hitung luas trapesium tersebut!",
