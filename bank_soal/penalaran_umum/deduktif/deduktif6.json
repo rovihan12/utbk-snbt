@@ -1,69 +1,69 @@
 [
   {
-    "id": 51,
+    "id": 1,
     "pertanyaan": "Premis 1: Semua bangunan bersejarah dilindungi undang-undang.\nPremis 2: Candi Borobudur adalah bangunan bersejarah.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Candi Borobudur tidak dilindungi undang-undang.", "Candi Borobudur mungkin dilindungi undang-undang.", "Candi Borobudur pasti dilindungi undang-undang.", "Semua yang dilindungi undang-undang adalah Candi Borobudur.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "C",
     "pembahasan": "Berdasarkan penalaran deduktif, jika semua bangunan bersejarah dilindungi undang-undang dan Candi Borobudur adalah bangunan bersejarah, maka Candi Borobudur pasti dilindungi undang-undang."
   },
   {
-    "id": 52,
+    "id": 2,
     "pertanyaan": "Premis 1: Jika cuaca dingin, maka orang memakai jaket.\nPremis 2: Orang tidak memakai jaket.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Cuaca dingin.", "Cuaca tidak dingin.", "Orang selalu memakai jaket saat cuaca dingin.", "Memakai jaket tidak tergantung cuaca.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika cuaca dingin, maka orang memakai jaket) dan ¬Q (Orang tidak memakai jaket), maka kesimpulannya adalah ¬P (Cuaca tidak dingin)."
   },
   {
-    "id": 53,
+    "id": 3,
     "pertanyaan": "Premis 1: Semua benda padat memiliki bentuk yang tetap.\nPremis 2: Es batu adalah benda padat.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Es batu tidak memiliki bentuk yang tetap.", "Es batu mungkin memiliki bentuk yang tetap.", "Es batu pasti memiliki bentuk yang tetap.", "Semua yang memiliki bentuk yang tetap adalah es batu.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "C",
     "pembahasan": "Jika semua benda padat memiliki bentuk yang tetap dan es batu adalah benda padat, maka secara deduktif es batu pasti memiliki bentuk yang tetap."
   },
   {
-    "id": 54,
+    "id": 4,
     "pertanyaan": "Premis 1: Jika hewan berbulu, maka ia adalah mamalia.\nPremis 2: Hewan ini bukan mamalia.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Hewan ini berbulu.", "Hewan ini tidak berbulu.", "Hewan ini mungkin berbulu.", "Semua yang bukan mamalia tidak berbulu.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika hewan berbulu, maka ia adalah mamalia) dan ¬Q (Hewan ini bukan mamalia), maka kesimpulannya adalah ¬P (Hewan ini tidak berbulu)."
   },
   {
-    "id": 55,
+    "id": 5,
     "pertanyaan": "Premis 1: Semua anak SMA wajib mengikuti ekstrakurikuler.\nPremis 2: Rani adalah anak SMA.\nPremis 3: Rani tidak mengikuti ekstrakurikuler.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Rani tidak wajib mengikuti ekstrakurikuler.", "Rani bukan anak SMA.", "Rani seharusnya mengikuti ekstrakurikuler.", "Ekstrakurikuler dibatalkan.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "C",
     "pembahasan": "Dari Premis 1 (kewajiban semua anak SMA untuk mengikuti ekstrakurikuler) dan Premis 2 (Rani adalah anak SMA), secara deduktif dapat disimpulkan bahwa Rani seharusnya mengikuti ekstrakurikuler. Premis 3 hanya menyatakan fakta bahwa Rani tidak mengikuti, yang bertentangan dengan kewajibannya."
   },
   {
-    "id": 56,
+    "id": 6,
     "pertanyaan": "Premis 1: Beberapa mahasiswa adalah anggota klub debat.\nPremis 2: Semua anggota klub debat memiliki kemampuan berbicara yang baik.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Semua mahasiswa memiliki kemampuan berbicara yang baik.", "Beberapa mahasiswa memiliki kemampuan berbicara yang baik.", "Semua yang memiliki kemampuan berbicara yang baik adalah mahasiswa.", "Beberapa yang memiliki kemampuan berbicara yang baik bukan mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "B",
     "pembahasan": "Karena ada beberapa mahasiswa yang merupakan anggota klub debat, dan semua anggota klub debat memiliki kemampuan berbicara yang baik, maka secara logis dapat disimpulkan bahwa beberapa mahasiswa memiliki kemampuan berbicara yang baik."
   },
   {
-    "id": 57,
+    "id": 7,
     "pertanyaan": "Premis 1: Jika seseorang adalah jurnalis, maka ia harus objektif.\nPremis 2: Budi tidak objektif.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Budi adalah jurnalis.", "Budi bukan jurnalis.", "Budi mungkin jurnalis.", "Semua yang tidak objektif adalah Budi.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika jurnalis, maka objektif) dan ¬Q (Tidak objektif), maka kesimpulannya adalah ¬P (Bukan jurnalis)."
   },
   {
-    "id": 58,
+    "id": 8,
     "pertanyaan": "Premis 1: Semua unggas memiliki sayap.\nPremis 2: Penguin adalah unggas.\nPremis 3: Penguin tidak bisa terbang.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Semua unggas tidak bisa terbang.", "Penguin memiliki sayap dan tidak bisa terbang.", "Semua yang memiliki sayap bisa terbang.", "Hanya penguin yang memiliki sayap tapi tidak bisa terbang.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Dari Premis 1 dan Premis 2, kita bisa menyimpulkan bahwa Penguin memiliki sayap. Premis 3 menambahkan informasi bahwa Penguin tidak bisa terbang. Menggabungkan kedua kesimpulan ini, maka Penguin memiliki sayap dan tidak bisa terbang."
   },
   {
-    "id": 59,
+    "id": 9,
     "pertanyaan": "Premis 1: Jika karyawan telat, maka akan dikenakan denda.\nPremis 2: Karyawan dikenakan denda.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Karyawan telat.", "Karyawan tidak telat.", "Karyawan selalu telat saat dikenakan denda.", "Denda tidak tergantung keterlambatan.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "E",
     "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika karyawan telat, maka dikenakan denda) dan Q (Karyawan dikenakan denda), kita tidak bisa secara deduktif menyimpulkan P (Karyawan telat). Karyawan bisa dikenakan denda karena alasan lain selain keterlambatan (misalnya, melanggar aturan lain)."
   },
   {
-    "id": 60,
+    "id": 10,
     "pertanyaan": "Premis 1: Semua negara di Asia Tenggara adalah anggota ASEAN.\nPremis 2: Indonesia adalah negara di Asia Tenggara.\nPremis 3: Vietnam adalah anggota ASEAN.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Vietnam adalah negara di Asia Tenggara.", "Indonesia adalah anggota ASEAN.", "Indonesia bukan anggota ASEAN.", "Semua anggota ASEAN adalah negara di Asia Tenggara.", "Tidak dapat ditarik kesimpulan dari semua premis."],
     "jawaban": "B",
