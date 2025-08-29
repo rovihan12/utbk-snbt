@@ -1,69 +1,69 @@
 [
   {
-    "id": 71,
+    "id": 1,
     "pertanyaan": "Premis 1: Semua seniman adalah kreatif.\nPremis 2: Beberapa guru adalah seniman.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Beberapa guru adalah kreatif.", "Semua guru adalah kreatif.", "Beberapa seniman adalah guru.", "Semua yang kreatif adalah seniman.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "A",
     "pembahasan": "Jika semua seniman itu kreatif, dan ada beberapa guru yang juga merupakan seniman, maka secara otomatis beberapa guru tersebut juga pasti kreatif. Kita tahu ada sebagian guru yang masuk kategori seniman, dan semua seniman kreatif, jadi bagian guru yang seniman itu sudah pasti kreatif."
   },
   {
-    "id": 72,
+    "id": 2,
     "pertanyaan": "Premis 1: Jika listrik padam, maka lift tidak berfungsi.\nPremis 2: Jika lift tidak berfungsi, maka penghuni harus menggunakan tangga.\nPremis 3: Listrik padam.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Penghuni tidak perlu menggunakan tangga.", "Penghuni harus menggunakan tangga.", "Lift berfungsi.", "Listrik tidak padam.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Kita punya urutan logika: Listrik padam menyebabkan lift tidak berfungsi, dan lift tidak berfungsi menyebabkan penghuni pakai tangga. Karena listrik memang padam (Premis 3), maka lift pasti tidak berfungsi. Dan karena lift tidak berfungsi, penghuni harus menggunakan tangga. Ini adalah penalaran berantai."
   },
   {
-    "id": 73,
+    "id": 3,
     "pertanyaan": "Premis 1: Tidak ada burung yang bersayap empat.\nPremis 2: Kakatua adalah burung.\nPremis 3: Semua hewan bersayap dapat terbang.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Kakatua tidak dapat terbang.", "Kakatua memiliki sayap dua.", "Kakatua dapat terbang.", "Beberapa burung tidak dapat terbang.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "E",
     "pembahasan": "Dari Premis 1 dan 2, kita tahu kakatua adalah burung dan tidak bersayap empat. Premis 3 menyatakan semua hewan bersayap dapat terbang. Tapi kita tidak punya informasi pasti berapa jumlah sayap kakatua atau apakah ia bersayap (yang pasti bukan empat). Jadi, kita tidak bisa menyimpulkan apakah kakatua bisa terbang atau tidak, karena ketiadaan sayap empat tidak berarti ketiadaan sayap sama sekali, dan juga tidak berarti adanya sayap yang memungkinkan terbang."
   },
   {
-    "id": 74,
+    "id": 4,
     "pertanyaan": "Premis 1: Semua buku fiksi adalah cerita rekaan.\nPremis 2: Buku ini bukan cerita rekaan.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Buku ini adalah buku fiksi.", "Buku ini bukan buku fiksi.", "Buku ini mungkin buku fiksi.", "Semua cerita rekaan adalah buku fiksi.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Jika semua buku fiksi itu cerita rekaan, dan buku ini diketahui bukan cerita rekaan, maka secara logis buku ini pasti bukan buku fiksi. Ini seperti mengatakan, jika semua apel merah, dan ini bukan merah, maka ini bukan apel."
   },
   {
-    "id": 75,
+    "id": 5,
     "pertanyaan": "Premis 1: Setiap anggota klub renang memakai topi renang.\nPremis 2: Anton tidak memakai topi renang.\nPremis 3: Anton adalah seorang atlet.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Anton adalah anggota klub renang.", "Anton bukan anggota klub renang.", "Anton mungkin anggota klub renang.", "Semua atlet memakai topi renang.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Jika semua anggota klub renang harus pakai topi renang, dan Anton tidak pakai topi renang, maka Anton jelas bukan anggota klub renang. Informasi bahwa Anton seorang atlet tidak relevan untuk kesimpulan ini."
   },
   {
-    "id": 76,
+    "id": 6,
     "pertanyaan": "Premis 1: Jika hari cerah, saya akan pergi ke pantai.\nPremis 2: Saya tidak pergi ke pantai.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Hari cerah.", "Hari tidak cerah.", "Saya selalu pergi ke pantai jika hari cerah.", "Pergi ke pantai tidak tergantung pada hari cerah.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "B",
     "pembahasan": "Jika pernyataan 'jika A maka B' benar, dan ternyata B tidak terjadi, maka A pasti juga tidak terjadi. Di sini, 'A' adalah 'hari cerah' dan 'B' adalah 'saya pergi ke pantai'. Karena 'saya tidak pergi ke pantai' (B tidak terjadi), maka hari pasti tidak cerah (A tidak terjadi). Ini disebut Modus Tollens."
   },
   {
-    "id": 77,
+    "id": 7,
     "pertanyaan": "Premis 1: Semua mamalia menyusui.\nPremis 2: Beberapa hewan peliharaan adalah mamalia.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Semua hewan peliharaan menyusui.", "Beberapa hewan peliharaan menyusui.", "Semua yang menyusui adalah hewan peliharaan.", "Beberapa mamalia bukan hewan peliharaan.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "B",
     "pembahasan": "Jika semua mamalia menyusui, dan ada beberapa hewan peliharaan yang masuk kategori mamalia, maka secara pasti beberapa hewan peliharaan tersebut menyusui. Kita tidak bisa bilang 'semua hewan peliharaan menyusui' karena mungkin ada hewan peliharaan yang bukan mamalia (misalnya ikan atau burung)."
   },
   {
-    "id": 78,
+    "id": 8,
     "pertanyaan": "Premis 1: Jika air mendidih, suhunya 100 derajat Celsius.\nPremis 2: Suhu air ini adalah 100 derajat Celsius.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Air ini mendidih.", "Air ini tidak mendidih.", "Air ini mungkin mendidih.", "Semua yang bersuhu 100 derajat Celsius mendidih.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "E",
     "pembahasan": "Ini adalah kesalahan logika 'mengafirmasi konsekuen'. Meskipun air mendidih pasti bersuhu 100 derajat Celsius, suhu 100 derajat Celsius tidak selalu berarti air itu mendidih. Misalnya, uap air juga bersuhu 100 derajat Celsius tapi bukan air mendidih. Jadi, kita tidak bisa menyimpulkan bahwa air ini mendidih hanya karena suhunya 100 derajat Celsius."
   },
   {
-    "id": 79,
+    "id": 9,
     "pertanyaan": "Premis 1: Tidak ada buah yang rasanya pahit dan manis sekaligus.\nPremis 2: Apel rasanya manis.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Apel rasanya pahit.", "Apel tidak rasanya pahit.", "Apel mungkin rasanya pahit.", "Semua buah rasanya manis.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "B",
     "pembahasan": "Jika tidak ada buah yang bisa pahit dan manis bersamaan, dan apel sudah jelas rasanya manis, maka secara deduktif apel tidak mungkin rasanya pahit. Karena jika ia pahit, berarti ia juga manis, yang melanggar Premis 1."
   },
   {
-    "id": 80,
+    "id": 10,
     "pertanyaan": "Premis 1: Semua siswa yang rajin belajar akan lulus ujian.\nPremis 2: Budi lulus ujian.\nPremis 3: Ani tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Budi adalah siswa yang rajin belajar.", "Ani adalah siswa yang tidak rajin belajar.", "Budi mungkin rajin belajar.", "Ani mungkin tidak rajin belajar.", "Tidak dapat ditarik kesimpulan secara valid mengenai kerajinan belajar Budi."],
     "jawaban": "E",
