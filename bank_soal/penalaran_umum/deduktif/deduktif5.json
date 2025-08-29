@@ -1,69 +1,69 @@
 [
   {
-    "id": 41,
+    "id": 1,
     "pertanyaan": "Premis 1: Semua pekerja keras meraih kesuksesan.\nPremis 2: Budi meraih kesuksesan.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Budi adalah pekerja keras.", "Budi bukan pekerja keras.", "Budi mungkin pekerja keras.", "Semua yang meraih kesuksesan adalah Budi.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "E",
     "pembahasan": "Ini adalah fallacy of affirming the consequent (mengiyakan konsekuensi). Dari P → Q (Jika pekerja keras, maka meraih kesuksesan) dan Q (Budi meraih kesuksesan), kita tidak bisa secara deduktif menyimpulkan P (Budi adalah pekerja keras). Budi bisa meraih kesuksesan karena faktor lain selain kerja keras."
   },
   {
-    "id": 42,
+    "id": 2,
     "pertanyaan": "Premis 1: Jika listrik padam, maka lift tidak berfungsi.\nPremis 2: Lift berfungsi.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Listrik padam.", "Listrik tidak padam.", "Lift selalu berfungsi saat listrik padam.", "Lift tidak berfungsi saat listrik tidak padam.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika listrik padam, maka lift tidak berfungsi) dan ¬Q (Lift berfungsi), maka kesimpulannya adalah ¬P (Listrik tidak padam)."
   },
   {
-    "id": 43,
+    "id": 3,
     "pertanyaan": "Premis 1: Tidak ada burung yang bersisik.\nPremis 2: Kakatua adalah burung.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Kakatua bersisik.", "Kakatua mungkin bersisik.", "Kakatua tidak bersisik.", "Semua yang tidak bersisik adalah kakatua.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "C",
     "pembahasan": "Jika tidak ada burung yang bersisik dan kakatua adalah burung, maka secara deduktif kakatua tidak bersisik."
   },
   {
-    "id": 44,
+    "id": 4,
     "pertanyaan": "Premis 1: Semua pegawai baru wajib mengikuti pelatihan.\nPremis 2: Rio tidak mengikuti pelatihan.\nPremis 3: Rio adalah pegawai baru.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Rio tidak wajib mengikuti pelatihan.", "Rio bukan pegawai baru.", "Rio seharusnya mengikuti pelatihan.", "Pelatihan dibatalkan.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "C",
     "pembahasan": "Dari Premis 1 (kewajiban semua pegawai baru untuk mengikuti pelatihan) dan Premis 3 (Rio adalah pegawai baru), secara deduktif dapat disimpulkan bahwa Rio seharusnya mengikuti pelatihan. Premis 2 hanya menyatakan fakta bahwa Rio tidak mengikuti, yang bertentangan dengan kewajibannya."
   },
   {
-    "id": 45,
+    "id": 5,
     "pertanyaan": "Premis 1: Jika seseorang adalah vegetarian, maka ia tidak makan daging.\nPremis 2: Seseorang ini tidak makan daging.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Seseorang ini adalah vegetarian.", "Seseorang ini bukan vegetarian.", "Seseorang ini mungkin vegetarian.", "Semua yang tidak makan daging adalah vegetarian.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "E",
     "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika seseorang adalah vegetarian, maka ia tidak makan daging) dan Q (Seseorang ini tidak makan daging), kita tidak bisa secara deduktif menyimpulkan P (Seseorang ini adalah vegetarian). Seseorang bisa tidak makan daging karena alasan lain (misalnya alergi, tidak suka, sedang berpuasa, dll) tanpa menjadi vegetarian."
   },
   {
-    "id": 46,
+    "id": 6,
     "pertanyaan": "Premis 1: Beberapa mahasiswa gemar berorganisasi.\nPremis 2: Semua yang gemar berorganisasi memiliki jiwa kepemimpinan.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Semua mahasiswa memiliki jiwa kepemimpinan.", "Beberapa mahasiswa memiliki jiwa kepemimpinan.", "Semua yang memiliki jiwa kepemimpinan adalah mahasiswa.", "Beberapa yang memiliki jiwa kepemimpinan bukan mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "B",
     "pembahasan": "Karena ada beberapa mahasiswa yang gemar berorganisasi, dan semua yang gemar berorganisasi memiliki jiwa kepemimpinan, maka secara logis dapat disimpulkan bahwa beberapa mahasiswa memiliki jiwa kepemimpinan."
   },
   {
-    "id": 47,
+    "id": 7,
     "pertanyaan": "Premis 1: Semua negara maju memiliki tingkat pendidikan yang tinggi.\nPremis 2: Negara X memiliki tingkat pendidikan yang tinggi.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Negara X adalah negara maju.", "Negara X bukan negara maju.", "Negara X mungkin negara maju.", "Semua negara yang memiliki tingkat pendidikan tinggi adalah negara maju.", "Tidak dapat ditarik kesimpulan secara valid."],
     "jawaban": "E",
     "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika negara maju, maka tingkat pendidikan tinggi) dan Q (Negara X memiliki tingkat pendidikan tinggi), kita tidak bisa secara deduktif menyimpulkan P (Negara X adalah negara maju). Ada kemungkinan negara berkembang pun bisa memiliki tingkat pendidikan tinggi, atau ada faktor lain yang menentukan suatu negara disebut maju."
   },
   {
-    "id": 48,
+    "id": 8,
     "pertanyaan": "Premis 1: Jika cuaca panas, maka Ani memakai topi.\nPremis 2: Ani tidak memakai topi.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Cuaca panas.", "Cuaca tidak panas.", "Ani selalu memakai topi saat cuaca panas.", "Memakai topi tidak tergantung cuaca.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika cuaca panas, maka Ani memakai topi) dan ¬Q (Ani tidak memakai topi), maka kesimpulannya adalah ¬P (Cuaca tidak panas)."
   },
   {
-    "id": 49,
+    "id": 9,
     "pertanyaan": "Premis 1: Semua buah-buahan mengandung gula alami.\nPremis 2: Apel adalah buah-buahan.\nPremis 3: Gula alami baik untuk energi tubuh.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Apel tidak mengandung gula alami.", "Apel baik untuk energi tubuh.", "Semua yang baik untuk energi tubuh adalah apel.", "Hanya buah-buahan yang baik untuk energi tubuh.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "B",
     "pembahasan": "Dari Premis 1 dan Premis 2, kita dapat menyimpulkan bahwa Apel mengandung gula alami. Dari Premis 3, kita tahu gula alami baik untuk energi tubuh. Menggabungkan kedua kesimpulan ini, maka Apel (karena mengandung gula alami) baik untuk energi tubuh."
   },
   {
-    "id": 50,
+    "id": 10,
     "pertanyaan": "Premis 1: Tidak ada penipu yang jujur.\nPremis 2: Anton adalah seorang penipu.\n\nKesimpulan yang paling tepat adalah...",
     "pilihan": ["Anton jujur.", "Anton mungkin jujur.", "Anton tidak jujur.", "Semua yang tidak jujur adalah Anton.", "Tidak dapat ditarik kesimpulan."],
     "jawaban": "C",
