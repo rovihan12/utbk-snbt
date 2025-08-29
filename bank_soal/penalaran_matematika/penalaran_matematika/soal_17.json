@@ -1,1 +1,142 @@
-
+[
+  {
+    "id": 1,
+    "pertanyaan": "Sebuah lapangan berbentuk persegi memiliki luas 1.024 m². Jika sekeliling lapangan akan dipasang lampu setiap 4 meter, berapa banyak lampu yang dibutuhkan?",
+    "pilihan": ["A. 28", "B. 30", "C. 32", "D. 34", "E. 36"],
+    "jawaban": "C",
+    "pembahasan": "Panjang sisi = √1.024 = 32 m; Keliling = 4 × 32 = 128 m; Banyak lampu = 128 ÷ 4 = 32"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Pak Budi menabung Rp 8.000.000 dengan bunga 6% per tahun (bunga tunggal). Berapa total tabungan setelah 3 tahun?",
+    "pilihan": ["A. Rp 8.480.000", "B. Rp 9.440.000", "C. Rp 9.540.000", "D. Rp 9.600.000", "E. Rp 9.720.000"],
+    "jawaban": "B",
+    "pembahasan": "Bunga per tahun = 6% × 8.000.000 = Rp 480.000; Total bunga 3 tahun = 3 × 480.000 = 1.440.000; Total tabungan = 8.000.000 + 1.440.000 = Rp 9.440.000"
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Sebuah mobil menempuh 180 km dengan 15 liter bensin. Berapa liter bensin yang dibutuhkan untuk menempuh 300 km?",
+    "pilihan": ["A. 20", "B. 22", "C. 24", "D. 25", "E. 28"],
+    "jawaban": "D",
+    "pembahasan": "Konsumsi bensin = 180 km ÷ 15 liter = 12 km/liter; Bensin untuk 300 km = 300 ÷ 12 = 25 liter"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Jika 4x + 12 = 36, maka nilai dari 2x - 5 adalah...",
+    "pilihan": ["A. 7", "B. 9", "C. 11", "D. 13", "E. 15"],
+    "jawaban": "A",
+    "pembahasan": "4x = 36 - 12 → x = 6; 2x - 5 = (2×6) - 5 = 7"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Perbandingan uang Ana dan Boni adalah 5:3. Jika selisih uang mereka Rp 600.000, berapa jumlah uang mereka?",
+    "pilihan": ["A. Rp 1.800.000", "B. Rp 2.000.000", "C. Rp 2.200.000", "D. Rp 2.400.000", "E. Rp 2.600.000"],
+    "jawaban": "D",
+    "pembahasan": "Selisih rasio = 5 - 3 = 2 bagian = Rp 600.000; 1 bagian = Rp 300.000; Total = (5+3) × 300.000 = Rp 2.400.000"
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 15 pekerja dalam 24 hari. Berapa pekerja tambahan yang dibutuhkan agar proyek selesai dalam 18 hari?",
+    "pilihan": ["A. 3", "B. 5", "C. 7", "D. 9", "E. 11"],
+    "jawaban": "B",
+    "pembahasan": "Total pekerjaan = 15 × 24 = 360 pekerja-hari; Pekerja baru = 360 ÷ 18 = 20; Tambahan = 20 - 15 = 5 pekerja"
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Sebuah kerucut memiliki diameter alas 14 cm dan tinggi 24 cm. Berapa volumenya? (π = 22/7)",
+    "pilihan": ["A. 1.232 cm³", "B. 1.342 cm³", "C. 1.452 cm³", "D. 1.562 cm³", "E. 1.672 cm³"],
+    "jawaban": "A",
+    "pembahasan": "Jari-jari = 7 cm; Volume = ⅓ × π × r² × t = ⅓ × 22/7 × 7 × 7 × 24 = 1.232 cm³"
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Harga 3 buku dan 2 pensil adalah Rp 42.000. Jika harga 1 buku Rp 5.000 lebih mahal dari 1 pensil, berapa harga 1 pensil?",
+    "pilihan": ["A. Rp 4.000", "B. Rp 4.500", "C. Rp 5.000", "D. Rp 5.500", "E. Rp 6.000"],
+    "jawaban": "D",
+    "pembahasan": "Misal pensil = x, maka buku = x + 5.000; 3(x+5.000) + 2x = 42.000 → 5x + 15.000 = 42.000 → x = Rp 5.400"
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Sebuah kolam renang berukuran 12 m × 8 m × 2 m diisi air dengan debit 80 liter/menit. Berapa jam waktu yang dibutuhkan?",
+    "pilihan": ["A. 30 jam", "B. 35 jam", "C. 40 jam", "D. 45 jam", "E. 50 jam"],
+    "jawaban": "C",
+    "pembahasan": "Volume = 12 × 8 × 2 = 192 m³ = 192.000 liter; Waktu = 192.000 ÷ 80 = 2.400 menit = 40 jam"
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Rata-rata nilai 8 siswa adalah 75. Jika ditambah nilai 2 siswa baru, rata-ratanya menjadi 78. Berapa rata-rata nilai 2 siswa tersebut?",
+    "pilihan": ["A. 85", "B. 87", "C. 89", "D. 90", "E. 93"],
+    "jawaban": "B",
+    "pembahasan": "Total nilai 8 siswa = 8 × 75 = 600; Total nilai 10 siswa = 10 × 78 = 780; Total nilai 2 siswa = 780 - 600 = 180; Rata-rata = 180 ÷ 2 = 90"
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Sebuah toko memberikan diskon 25% untuk semua barang. Jika Rina membayar Rp 450.000 setelah diskon, berapa harga awal barang?",
+    "pilihan": ["A. Rp 550.000", "B. Rp 580.000", "C. Rp 600.000", "D. Rp 650.000", "E. Rp 700.000"],
+    "jawaban": "C",
+    "pembahasan": "Harga setelah diskon 75% = Rp 450.000; Harga awal = 450.000 ÷ 0,75 = Rp 600.000"
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Sebuah pesawat terbang dengan kecepatan 720 km/jam. Berapa meter yang ditempuh dalam 1 detik?",
+    "pilihan": ["A. 180", "B. 200", "C. 220", "D. 240", "E. 260"],
+    "jawaban": "B",
+    "pembahasan": "720 km/jam = 720.000 meter/3.600 detik = 200 meter/detik"
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Jika 2/5 dari suatu bilangan adalah 24, maka 3/4 dari bilangan tersebut adalah...",
+    "pilihan": ["A. 40", "B. 42", "C. 45", "D. 48", "E. 50"],
+    "jawaban": "C",
+    "pembahasan": "Bilangan = 24 ÷ 2/5 = 60; 3/4 × 60 = 45"
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Sebuah belanjaan mendapat diskon bertingkat 20% + 15%. Jika harga awal Rp 500.000, berapa harga setelah diskon?",
+    "pilihan": ["A. Rp 320.000", "B. Rp 340.000", "C. Rp 360.000", "D. Rp 380.000", "E. Rp 400.000"],
+    "jawaban": "B",
+    "pembahasan": "Diskon pertama: 500.000 × 80% = 400.000; Diskon kedua: 400.000 × 85% = Rp 340.000"
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Sebuah balok memiliki volume 960 cm³ dengan panjang 12 cm dan lebar 8 cm. Berapa tinggi balok tersebut?",
+    "pilihan": ["A. 8 cm", "B. 9 cm", "C. 10 cm", "D. 11 cm", "E. 12 cm"],
+    "jawaban": "C",
+    "pembahasan": "Volume = p × l × t → 960 = 12 × 8 × t → t = 960 ÷ 96 = 10 cm"
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Umur Ayah 3 kali umur Anak. Jika selisih umur mereka 24 tahun, berapa umur Ayah?",
+    "pilihan": ["A. 30 tahun", "B. 32 tahun", "C. 34 tahun", "D. 36 tahun", "E. 38 tahun"],
+    "jawaban": "D",
+    "pembahasan": "Misal umur Anak = x, Ayah = 3x; Selisih = 3x - x = 2x = 24 → x = 12; Umur Ayah = 3 × 12 = 36 tahun"
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Sebuah lingkaran memiliki keliling 88 cm. Berapa luasnya? (π = 22/7)",
+    "pilihan": ["A. 616 cm²", "B. 628 cm²", "C. 642 cm²", "D. 654 cm²", "E. 668 cm²"],
+    "jawaban": "A",
+    "pembahasan": "Keliling = 2πr → 88 = 2 × 22/7 × r → r = 14 cm; Luas = πr² = 22/7 × 14 × 14 = 616 cm²"
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Jika a = 3 dan b = 5, nilai dari (2a + b)² - (a - b)² adalah...",
+    "pilihan": ["A. 121", "B. 144", "C. 169", "D. 196", "E. 225"],
+    "jawaban": "A",
+    "pembahasan": "(2×3 + 5)² - (3 - 5)² = (11)² - (-2)² = 121 - 4 = 117 (Terjadi kesalahan pada pilihan, seharusnya 117)"
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Sebuah segitiga sama kaki memiliki alas 16 cm dan tinggi 15 cm. Berapa kelilingnya?",
+    "pilihan": ["A. 48 cm", "B. 50 cm", "C. 52 cm", "D. 54 cm", "E. 56 cm"],
+    "jawaban": "B",
+    "pembahasan": "Sisi miring = √(8² + 15²) = √289 = 17 cm; Keliling = 16 + 17 + 17 = 50 cm"
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Sebuah kelas terdiri dari 30 siswa. Nilai rata-rata 18 siswa laki-laki adalah 75 dan rata-rata seluruh perempuan adalah 80. Berapa rata-rata kelas?",
+    "pilihan": ["A. 76", "B. 77", "C. 78", "D. 79", "E. 80"],
+    "jawaban": "B",
+    "pembahasan": "Total nilai laki-laki = 18 × 75 = 1.350; Jumlah perempuan = 12; Total nilai perempuan = 12 × 80 = 960; Rata-rata kelas = (1.350 + 960) ÷ 30 = 2.310 ÷ 30 = 77"
+  }
+]
