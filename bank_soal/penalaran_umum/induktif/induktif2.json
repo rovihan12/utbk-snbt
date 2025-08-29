@@ -1,69 +1,69 @@
 [
   {
-    "id": 11,
+    "id": 1,
     "pertanyaan": "Observasi 1: Setiap kali saya menyiram tanaman A, ia tumbuh subur.\nObservasi 2: Setiap kali saya menyiram tanaman B, ia tumbuh subur.\n\nKesimpulan induktif yang paling tepat adalah...",
     "pilihan": ["Menyiram tanaman A dan B membuat mereka subur.", "Semua tanaman tumbuh subur jika disiram.", "Menyiram tanaman menyebabkan mereka tumbuh subur.", "Tanaman tumbuh subur hanya jika disiram.", "Tidak ada kesimpulan yang bisa ditarik."],
     "jawaban": "C",
     "pembahasan": "Dari observasi berulang bahwa menyiram tanaman berkorelasi dengan pertumbuhan subur, dapat disimpulkan secara induktif bahwa menyiram tanaman *menyebabkan* atau *berkontribusi pada* pertumbuhan subur. Ini adalah inferensi kausal."
   },
   {
-    "id": 12,
+    "id": 2,
     "pertanyaan": "Pola deret angka: 1, 4, 9, 16, ...\nAngka selanjutnya dalam deret tersebut adalah?",
     "pilihan": ["20", "25", "30", "36", "49"],
     "jawaban": "B",
     "pembahasan": "Pola deret angka ini adalah kuadrat dari bilangan asli berurutan (1^2=1, 2^2=4, 3^2=9, 4^2=16). Jadi, angka selanjutnya adalah 5^2 = 25."
   },
   {
-    "id": 13,
+    "id": 3,
     "pertanyaan": "Observasi 1: Lampu meja rusak setelah terkena tumpahan air.\nObservasi 2: Ponsel rusak setelah terjatuh ke air.\nObservasi 3: Speaker rusak setelah terkena hujan.\n\nKesimpulan induktif yang paling tepat adalah...",
     "pilihan": ["Air selalu merusak barang elektronik.", "Barang elektronik rusak hanya karena air.", "Kontak dengan air dapat merusak barang elektronik.", "Barang elektronik pasti rusak jika terkena air.", "Tidak ada hubungan antara air dan kerusakan elektronik."],
     "jawaban": "C",
     "pembahasan": "Dari beberapa contoh spesifik bahwa barang elektronik rusak setelah kontak dengan air, dapat digeneralisasi secara induktif bahwa kontak dengan air *dapat* merusak barang elektronik. Kesimpulan ini bersifat probabilistik atau menunjukkan potensi, bukan kepastian mutlak."
   },
   {
-    "id": 14,
+    "id": 4,
     "pertanyaan": "Pola deret huruf: A, B, D, G, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
     "pilihan": ["H", "I", "J", "K", "L"],
     "jawaban": "D",
     "pembahasan": "Pola deret huruf ini menunjukkan penambahan posisi dalam abjad yang bertambah: A (+1) B (+2) D (+3) G. Jadi, G (+4) = K."
   },
   {
-    "id": 15,
+    "id": 5,
     "pertanyaan": "Observasi 1: Setiap kali saya minum kopi, saya merasa lebih energik.\nObservasi 2: Teman saya minum kopi dan juga merasa lebih energik.\n\nKesimpulan induktif yang paling tepat adalah...",
     "pilihan": ["Kopi selalu membuat orang merasa energik.", "Kopi tidak berpengaruh pada energi.", "Minum kopi dapat meningkatkan energi.", "Hanya saya dan teman saya yang merasa energik setelah minum kopi.", "Tidak ada kesimpulan yang bisa ditarik."],
     "jawaban": "C",
     "pembahasan": "Berdasarkan observasi beberapa kasus, dapat disimpulkan secara induktif bahwa minum kopi *dapat* meningkatkan energi. Ini adalah generalisasi dari pengalaman spesifik."
   },
   {
-    "id": 16,
+    "id": 6,
     "pertanyaan": "Pola angka dalam barisan: 1, 1, 2, 3, 5, 8, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
     "pilihan": ["11", "12", "13", "14", "15"],
     "jawaban": "C",
     "pembahasan": "Ini adalah pola deret Fibonacci, di mana setiap angka adalah penjumlahan dua angka sebelumnya (1+1=2, 1+2=3, 2+3=5, 3+5=8). Jadi, angka selanjutnya adalah 5+8=13."
   },
   {
-    "id": 17,
+    "id": 7,
     "pertanyaan": "Observasi 1: Uji coba mobil listrik pertama menempuh jarak 300 km dengan sekali cas.\nObservasi 2: Uji coba mobil listrik kedua menempuh jarak 320 km dengan sekali cas.\nObservasi 3: Uji coba mobil listrik ketiga menempuh jarak 310 km dengan sekali cas.\n\nKesimpulan induktif yang paling tepat tentang mobil listrik ini adalah...",
     "pilihan": ["Mobil listrik ini pasti menempuh lebih dari 300 km dengan sekali cas.", "Mobil listrik ini tidak akan menempuh lebih dari 300 km dengan sekali cas.", "Mobil listrik ini dapat menempuh jarak sekitar 300-320 km dengan sekali cas.", "Jarak tempuh mobil listrik ini tidak konsisten.", "Tidak ada kesimpulan yang bisa ditarik."],
     "jawaban": "C",
     "pembahasan": "Dari beberapa observasi jarak tempuh yang bervariasi namun berada dalam rentang tertentu, dapat disimpulkan secara induktif bahwa mobil listrik tersebut *dapat* menempuh jarak dalam rentang tersebut (sekitar 300-320 km). Ini adalah generalisasi berdasarkan data numerik."
   },
   {
-    "id": 18,
+    "id": 8,
     "pertanyaan": "Pola objek: Apel, Jeruk, Pisang, Apel, Jeruk, ...\nObjek selanjutnya dalam pola tersebut adalah?",
     "pilihan": ["Apel", "Jeruk", "Pisang", "Mangga", "Anggur"],
     "jawaban": "C",
     "pembahasan": "Pola objek ini berulang setiap tiga elemen: Apel, Jeruk, Pisang. Setelah 'Apel, Jeruk', maka objek selanjutnya adalah 'Pisang' untuk menyelesaikan siklus."
   },
   {
-    "id": 19,
+    "id": 9,
     "pertanyaan": "Observasi 1: Hampir semua siswa yang belajar kelompok mendapatkan nilai yang lebih baik.\nObservasi 2: Andi dan teman-temannya belajar kelompok dan nilai mereka meningkat.\n\nKesimpulan induktif yang paling mungkin adalah...",
     "pilihan": ["Belajar kelompok menjamin peningkatan nilai.", "Belajar kelompok tidak berpengaruh pada nilai.", "Belajar kelompok dapat membantu meningkatkan nilai.", "Hanya Andi dan teman-temannya yang mendapat manfaat dari belajar kelompok.", "Tidak ada hubungan antara belajar kelompok dan peningkatan nilai."],
     "jawaban": "C",
     "pembahasan": "Dari observasi bahwa 'hampir semua' siswa yang belajar kelompok berhasil, dan ada contoh spesifik, disimpulkan secara induktif bahwa belajar kelompok 'dapat membantu' meningkatkan nilai. Ini adalah kesimpulan probabilitas atau menunjukkan potensi."
   },
   {
-    "id": 20,
+    "id": 10,
     "pertanyaan": "Pola waktu: Pagi, Siang, Sore, Malam, Pagi, ...\nWaktu selanjutnya dalam pola tersebut adalah?",
     "pilihan": ["Pagi", "Siang", "Sore", "Malam", "Tengah malam"],
     "jawaban": "B",
