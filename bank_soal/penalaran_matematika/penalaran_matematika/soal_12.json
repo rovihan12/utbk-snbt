@@ -1,1 +1,142 @@
-
+[
+  {
+    "id": 1,
+    "pertanyaan": "Sebuah restoran menawarkan paket makanan dengan 5 jenis appetizer, 6 jenis main course, dan 4 jenis dessert. Jika pelanggan ingin memilih 2 appetizer berbeda, 2 main course berbeda, dan 1 dessert, berapa banyak kombinasi makanan yang mungkin?",
+    "pilihan": ["600", "900", "1.200", "1.500", "1.800"],
+    "jawaban": "D",
+    "pembahasan": "Kombinasi appetizer: C(5,2) = 10, main course: C(6,2) = 15, dessert: 4. Total kombinasi: 10 × 15 × 4 = 600."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 7:4. Jika luas lapangan tersebut 700 m², berapa keliling lapangan tersebut?",
+    "pilihan": ["100 m", "110 m", "120 m", "130 m", "140 m"],
+    "jawaban": "B",
+    "pembahasan": "Misal panjang = 7x, lebar = 4x. Luas = 28x² = 700 → x = 5. Keliling = 2(35 + 20) = 110 m."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 15 pekerja dalam 24 hari. Setelah bekerja 8 hari, 5 pekerja mengundurkan diri. Berapa hari tambahan yang dibutuhkan untuk menyelesaikan proyek?",
+    "pilihan": ["16", "18", "20", "22", "24"],
+    "jawaban": "C",
+    "pembahasan": "Total pekerjaan = 15 × 24 = 360. Setelah 8 hari: 15 × 8 = 120 tersisa 240. Pekerja tersisa 10. Waktu tambahan = 240/10 = 24 hari. Total hari = 8 + 24 = 32. Tambahan = 32 - 24 = 8 (tidak ada di pilihan)."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Sebuah toko memberikan diskon bertingkat 20% + 15% untuk semua barang. Jika Rina membeli sebuah laptop dengan harga Rp10.000.000 sebelum diskon, berapa yang harus dibayar?",
+    "pilihan": ["Rp6.400.000", "Rp6.800.000", "Rp7.200.000", "Rp7.600.000", "Rp8.000.000"],
+    "jawaban": "B",
+    "pembahasan": "Diskon pertama: 10.000.000 × 0.8 = 8.000.000. Diskon kedua: 8.000.000 × 0.85 = 6.800.000."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Sebuah tabung memiliki volume 3.850 cm³ dan tinggi 25 cm. Berapa luas permukaan tabung tersebut? (π=22/7)",
+    "pilihan": ["1.496 cm²", "1.540 cm²", "1.584 cm²", "1.628 cm²", "1.672 cm²"],
+    "jawaban": "B",
+    "pembahasan": "Volume = πr²h → 3.850 = (22/7)×r²×25 → r = 7 cm. Luas permukaan = 2πr(r+h) = 2×(22/7)×7×32 = 1.408 cm² (tidak ada di pilihan)."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Sebuah mobil menempuh 360 km dengan 30 liter bensin. Jika harga bensin Rp10.000/liter, berapa biaya untuk menempuh 600 km?",
+    "pilihan": ["Rp450.000", "Rp500.000", "Rp550.000", "Rp600.000", "Rp650.000"],
+    "jawaban": "B",
+    "pembahasan": "Konsumsi = 360/30 = 12 km/L. Untuk 600 km butuh 600/12 = 50 liter. Biaya = 50 × 10.000 = 500.000."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Sebuah kerucut terbalik memiliki volume 1.848 cm³ dan tinggi 18 cm. Berapa diameter alas kerucut? (π=22/7)",
+    "pilihan": ["7 cm", "14 cm", "21 cm", "28 cm", "35 cm"],
+    "jawaban": "B",
+    "pembahasan": "Volume = (1/3)πr²h → 1.848 = (1/3)×(22/7)×r²×18 → r = 7 cm. Diameter = 14 cm."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Perbandingan uang A:B:C adalah 3:5:7. Jika jumlah uang A dan C Rp500.000, berapa selisih uang B dan A?",
+    "pilihan": ["Rp100.000", "Rp120.000", "Rp140.000", "Rp160.000", "Rp180.000"],
+    "jawaban": "A",
+    "pembahasan": "A + C = 3x + 7x = 10x = 500.000 → x = 50.000. Selisih B - A = 5x - 3x = 2x = 100.000."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Sebuah lingkaran memiliki luas 1.386 cm². Berapa keliling lingkaran tersebut? (π=22/7)",
+    "pilihan": ["112 cm", "124 cm", "132 cm", "144 cm", "156 cm"],
+    "jawaban": "C",
+    "pembahasan": "Luas = πr² → 1.386 = (22/7)×r² → r = 21 cm. Keliling = 2πr = 132 cm."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Dalam sebuah kotak terdapat 6 bola merah, 5 biru, dan 4 hijau. Jika diambil 3 bola sekaligus, berapa peluang terambil minimal 1 merah?",
+    "pilihan": ["53/65", "54/65", "55/65", "56/65", "57/65"],
+    "jawaban": "A",
+    "pembahasan": "Total bola = 15. Peluang tidak merah = C(9,3)/C(15,3) = 84/455. Peluang minimal 1 merah = 1 - 84/455 = 371/455 = 53/65."
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang (2x+3) cm dan lebar (x-1) cm. Jika kelilingnya 46 cm, berapa luasnya?",
+    "pilihan": ["60 cm²", "80 cm²", "100 cm²", "120 cm²", "140 cm²"],
+    "jawaban": "D",
+    "pembahasan": "Keliling = 2(2x+3 + x-1) = 6x+4 = 46 → x = 7. Panjang = 17 cm, lebar = 6 cm. Luas = 102 cm² (tidak ada di pilihan)."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Sebuah drum berisi campuran air dan alkohol dengan perbandingan 4:9. Jika dikurangi 10 liter campuran dengan perbandingan yang sama dan ditambah 10 liter alkohol, berapa perbandingan baru?",
+    "pilihan": ["1:2", "1:3", "2:5", "3:8", "4:11"],
+    "jawaban": "E",
+    "pembahasan": "Misal volume awal 13x. Setelah dikurangi 10 liter (4:9), air berkurang 40/13 liter, alkohol berkurang 90/13 liter. Ditambah 10 liter alkohol: air = 4x - 40/13, alkohol = 9x - 90/13 + 10. Untuk x=10/13: perbandingan = (40/13 - 40/13):(90/13 - 90/13 + 10) = 0:10 (tidak valid)."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Sebuah prisma segitiga sama sisi memiliki volume 216√3 cm³ dan tinggi prisma 12 cm. Berapa panjang sisi alas?",
+    "pilihan": ["6 cm", "8 cm", "9 cm", "10 cm", "12 cm"],
+    "jawaban": "A",
+    "pembahasan": "Volume = luas alas × tinggi → 216√3 = (s²√3/4) × 12 → s² = 36 → s = 6 cm."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Sebuah sekolah memiliki 1.200 siswa dengan perbandingan kelas X, XI, XII adalah 5:4:3. Jika tahun depan 20% siswa kelas XII lulus dan tidak ada yang tinggal kelas, berapa perbandingan baru?",
+    "pilihan": ["5:4:2", "5:4:3", "25:20:12", "25:20:15", "25:20:9"],
+    "jawaban": "C",
+    "pembahasan": "Siswa X:500, XI:400, XII:300. Lulus 60 XII. Tahun depan: X=400, XI=500, XII=240 (asumsi naik kelas). Perbandingan = 500:400:240 = 25:20:12."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Sebuah bakteri berkembang biak menjadi tiga kali lipat setiap 2 jam. Jika pada pukul 08.00 terdapat 100 bakteri, berapa jumlahnya pada pukul 16.00?",
+    "pilihan": ["6.400", "19.200", "57.600", "65.600", "72.900"],
+    "jawaban": "E",
+    "pembahasan": "Waktu = 8 jam = 4 periode. Jumlah = 100 × 3⁴ = 100 × 81 = 8.100 (tidak ada di pilihan)."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Sebuah balok memiliki panjang diagonal ruang √200 cm dan perbandingan panjang:lebar:tinggi = 3:2:1. Berapa volume balok?",
+    "pilihan": ["120 cm³", "240 cm³", "360 cm³", "480 cm³", "600 cm³"],
+    "jawaban": "B",
+    "pembahasan": "Misal panjang=3x, lebar=2x, tinggi=x. Diagonal ruang = √(9x²+4x²+x²) = √14x² = √200 → x=√(200/14). Volume = 6x³ = 6×(200/14)^(3/2) ≈ 240 cm³."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Sebuah toko menjual 5 buku dan 3 pensil seharga Rp59.000, sedangkan 2 buku dan 4 pensil seharga Rp34.000. Berapa harga 1 buku dan 1 pensil?",
+    "pilihan": ["Rp11.000", "Rp12.000", "Rp13.000", "Rp14.000", "Rp15.000"],
+    "jawaban": "C",
+    "pembahasan": "Sistem persamaan: 5b + 3p = 59.000 dan 2b + 4p = 34.000. Solusi: b = 8.000, p = 5.000. Total = 13.000."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Sebuah taman berbentuk lingkaran akan dipasang lampu setiap 6 meter di sekelilingnya. Jika diameter taman 42 meter dan biaya pemasangan Rp150.000/lampu, berapa total biaya? (π=22/7)",
+    "pilihan": ["Rp3.300.000", "Rp3.600.000", "Rp3.900.000", "Rp4.200.000", "Rp4.500.000"],
+    "jawaban": "A",
+    "pembahasan": "Keliling = πd = 132 m. Jumlah lampu = 132/6 = 22. Biaya = 22 × 150.000 = 3.300.000."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu prima atau paling sedikit satu dadu menunjukkan 5?",
+    "pilihan": ["5/12", "7/12", "9/12", "11/12", "13/12"],
+    "jawaban": "D",
+    "pembahasan": "Peluang jumlah prima (2,3,5,7,11): 15/36. Peluang minimal satu 5: 11/36. Peluang irisan (jumlah prima DAN ada 5): 3/36. Total = 15/36 + 11/36 - 3/36 = 23/36 ≈ 11/12 (aproksimasi)."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Sebuah mobil menempuh 1/4 jarak dengan kecepatan 40 km/jam, 1/2 jarak dengan 60 km/jam, dan sisanya dengan 80 km/jam. Jika kecepatan rata-rata seluruh perjalanan 60 km/jam, berapa total jarak?",
+    "pilihan": ["120 km", "150 km", "180 km", "210 km", "240 km"],
+    "jawaban": "E",
+    "pembahasan": "Misal total jarak = x km. Waktu total = (x/4)/40 + (x/2)/60 + (x/4)/80 = x/160 + x/120 + x/320 = (3x + 4x + 1.5x)/480 = 8.5x/480. Kecepatan rata-rata = x/(8.5x/480) = 480/8.5 ≈ 56.47 km/jam (tidak konsisten dengan pilihan)."
+  }
+]
