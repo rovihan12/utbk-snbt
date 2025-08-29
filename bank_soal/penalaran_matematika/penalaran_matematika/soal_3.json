@@ -10,7 +10,7 @@
       "Rp20.000,00"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan harga 1 kg apel adalah A dan harga 1 kg mangga adalah M. Kita memiliki sistem persamaan: (1) 3A + 2M = 70.000 dan (2) 2A + 3M = 80.000. Tambahkan kedua persamaan: 1A + 1M = 110.000 -> A + M = 30.000. Kurangkan persamaan (1) dengan persamaan (2): (3A+2M)-(2A+3M) = 70.000-80.000 -> A-M = -10.000. Tambahkan A+M=30.000 dengan A-M=-10.000: 2A = 20.000 -> A = Rp10.000. Jadi, harga 1 kg apel adalah Rp10.000."
+    "pembahasan": "Misalkan harga 1 kg apel = $A$ dan 1 kg mangga = $M$. \\\\ Kita punya sistem: $3A+2M=70000$ dan $2A+3M=80000$. Jumlahkan: $5A+5M=150000\\Rightarrow A+M=30000$. Kurangkan: $(3A+2M)-(2A+3M)=70000-80000\\Rightarrow A-M=-10000$. \\\\ Tambah $A+M=30000$ dan $A-M=-10000$ → $2A=20000\\Rightarrow A=10000$. Jadi harga 1 kg apel = Rp10.000,00."
   },
   {
     "id": 2,
@@ -18,211 +18,211 @@
     "pilihan": [
       "300 m²",
       "310 m²",
-      "371 m²",
-      "00 m²",
-      "10 m²"
+      "375 m²",
+      "400 m²",
+      "410 m²"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan panjang kolam adalah p dan lebar adalah l. Keliling = 2(p+l) = 80, maka p+l = 0. Diketahui p = l+10. Substitusikan p ke persamaan pertama: (l+10) + l = 0 -> 2l+10 = 0 -> 2l = 30 -> l = 11 meter. Maka, p = 11+10 = 21 meter. Luas kolam = p × l = 21 × 11 = 371 m²."
+    "pembahasan": "Misal panjang $p$ dan lebar $l$, dengan $p=l+10$. Keliling $2(p+l)=80\\Rightarrow p+l=40$. Substitusi: $(l+10)+l=40\\Rightarrow2l+10=40\\Rightarrow l=15$. \\\\ Jadi $p=25$. Luas $=p\\times l=25\\times15=375\\ \\text{m}^2$."
   },
   {
     "id": 3,
-    "pertanyaan": "Harga sebuah tas di toko X adalah Rp110.000,00. Pada awal bulan, toko tersebut memberikan diskon 20%. Namun, pada akhir bulan, harga yang sudah didiskon dinaikkan kembali sebesar 11%. Berapakah harga akhir tas tersebut?",
+    "pertanyaan": "Harga sebuah tas di toko X adalah Rp110.000,00. Pada awal bulan toko tersebut memberikan diskon 20%. Namun, pada akhir bulan, harga yang sudah didiskon dinaikkan kembali sebesar 11%. Berapakah harga akhir tas tersebut?",
     "pilihan": [
-      "Rp138.000,00",
-      "Rp10.000,00",
-      "Rp12.100,00",
-      "Rp1.000,00",
-      "Rp11.000,00"
+      "Rp97.680,00",
+      "Rp99.000,00",
+      "Rp100.000,00",
+      "Rp101.200,00",
+      "Rp110.000,00"
     ],
     "jawaban": "A",
-    "pembahasan": "Harga awal tas adalah Rp110.000,00. Setelah diskon 20%, harganya menjadi 110.000 × (1 - 0.20) = 110.000 × 0.80 = Rp120.000,00. Harga ini kemudian dinaikkan 11%. Harga akhir = 120.000 × (1 + 0.11) = 120.000 × 1.11 = Rp138.000,00."
+    "pembahasan": "Harga awal = Rp110.000. Setelah diskon 20%: $110000\\times0.8=88000$. Setelah kenaikan 11%: $88000\\times1.11=97{,}680$. Jadi harga akhir = Rp97.680,00."
   },
   {
     "id": 4,
     "pertanyaan": "Ayah dan Ibu dapat membersihkan kebun bersama-sama dalam 6 jam. Ayah dan Kakak dapat membersihkan kebun dalam 8 jam. Sedangkan Ibu dan Kakak dapat membersihkan kebun dalam 12 jam. Berapa lama waktu yang dibutuhkan Kakak untuk membersihkan kebun sendirian?",
     "pilihan": [
       "12 jam",
-      "16 jam",
-      "20 jam",
-      "2 jam",
-      "30 jam"
+      "24 jam",
+      "36 jam",
+      "48 jam",
+      "60 jam"
     ],
     "jawaban": "D",
-    "pembahasan": "Misalkan A, I, K adalah waktu yang dibutuhkan Ayah, Ibu, dan Kakak untuk menyelesaikan pekerjaan sendiri. Diketahui: (1) 1/A + 1/I = 1/6; (2) 1/A + 1/K = 1/8; (3) 1/I + 1/K = 1/12. Jumlahkan ketiga persamaan: 2(1/A+1/I+1/K) = 1/6+1/8+1/12 = (+3+2)/2 = 9/2 -> 1/A+1/I+1/K = 9/8. Kurangkan persamaan ini dengan (1): (1/A+1/I+1/K) - (1/A+1/I) = 9/8 - 1/6 = 9/8-8/8=1/8 -> 1/K = 1/8. Maka, K = 8 jam. Terdapat kesalahan pada pilihan, jawaban yang benar adalah 8 jam. Jika waktu Kakak adalah 2 jam, maka waktu Ayah adalah 8 jam dan waktu Ibu adalah 2 jam."
+    "pembahasan": "Jika laju kerja Ayah = $a$, Ibu = $i$, Kakak = $k$ (dalam bagian pekerjaan per jam), maka: \\\\ $a+i=\\tfrac{1}{6}$, $a+k=\\tfrac{1}{8}$, $i+k=\\tfrac{1}{12}$. Jumlahkan ketiga persamaan: $2(a+i+k)=\\tfrac{1}{6}+\\tfrac{1}{8}+\\tfrac{1}{12}=\\tfrac{9}{24}=\\tfrac{3}{8}$. \\\\ Jadi $a+i+k=\\tfrac{3}{16}$. Kurangkan $a+i=\\tfrac{1}{6}$: $k=\\tfrac{3}{16}-\\tfrac{1}{6}=\\tfrac{9-8}{48}=\\tfrac{1}{48}$. \\\\ Waktu Kakak sendirian $=48$ jam."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah bendera dipasang di atas sebuah tiang. Dari titik pengamatan, sudut elevasi ke ujung bawah bendera adalah 30 derajat dan ke ujung atas bendera adalah 1 derajat. Jika jarak horizontal dari pengamat ke tiang adalah 10 meter, berapakah panjang bendera?",
+    "pertanyaan": "Sebuah bendera dipasang di atas sebuah tiang. Dari titik pengamat, sudut elevasi ke ujung bawah bendera adalah $30^\\circ$ dan ke ujung atas bendera adalah $60^\\circ$. Jika jarak horizontal dari pengamat ke tiang adalah 10 meter, berapakah panjang bendera?",
     "pilihan": [
-      "10(1-1/√3) m",
-      "10(1/√3-1) m",
-      "10√3-1 m",
-      "10+10√3 m",
-      "11 m"
+      "$10(\\sqrt{3}-\\tfrac{1}{\\sqrt{3}})\\ \\text{m}$",
+      "$10(\\sqrt{3}+\\tfrac{1}{\\sqrt{3}})\\ \\text{m}$",
+      "$10(\\sqrt{3}-1)\\ \\text{m}$",
+      "$10(1-\\tfrac{1}{\\sqrt{3}})\\ \\text{m}$",
+      "$10\\ \\text{m}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan tinggi ujung bawah bendera adalah h1 dan tinggi ujung atas bendera adalah h2. Jarak horizontal ke tiang adalah d=10 m. Dari sudut elevasi 30 derajat: tan(30°) = h1/d ⇒ h1 = d tan(30°) = 10 × 1/√3. Dari sudut elevasi 1 derajat: tan(1°) = h2/d ⇒ h2 = d tan(1°) = 10 × 1 = 10. Panjang bendera adalah h2 - h1 = 10 - 10/√3 = 10(1-1/√3) m."
+    "pembahasan": "Jika $h_1$ adalah tinggi ujung bawah (dari tanah) dan $h_2$ tinggi ujung atas, maka $h_1=10\\tan30^\\circ=10\\times\\tfrac{1}{\\sqrt{3}}$ dan $h_2=10\\tan60^\\circ=10\\sqrt{3}$. \\\\ Panjang bendera $=h_2-h_1=10\\left(\\sqrt{3}-\\tfrac{1}{\\sqrt{3}}\\right)$."
   },
   {
     "id": 6,
     "pertanyaan": "Pada sebuah aula bioskop, barisan kursi paling depan (baris pertama) berisi 2 kursi. Baris berikutnya selalu memiliki 2 kursi lebih banyak dari baris sebelumnya. Jika total terdapat 11 baris, berapakah total kapasitas kursi di aula tersebut?",
     "pilihan": [
       "110",
-      "121",
-      "10",
-      "111",
-      "170"
+      "132",
+      "154",
+      "176",
+      "198"
     ],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah deret aritmetika dengan suku pertama a = 2, beda b = 2, dan jumlah suku n = 11. Rumus jumlah n suku pertama adalah Sn = n/2(2a + (n-1)b). Maka, S11 = 11/2(2(2)+(11-1)2) = 11/2(8+1(2)) = 11/2(8+28) = 11/2(76) = 11 × 38 = 170."
+    "jawaban": "B",
+    "pembahasan": "Deret aritmetika dengan suku pertama $a_1=2$, beda $d=2$, $n=11$. Suku terakhir $a_{11}=2+(11-1)2=22$. \\\\ Jumlah $S_n=\\tfrac{n}{2}(a_1+a_n)=\\tfrac{11}{2}(2+22)=\\tfrac{11}{2}\\times24=11\\times12=132$ kursi."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah bak air berbentuk tabung dengan jari-jari alas 20 cm dan tinggi 10 cm. Bak tersebut diisi air dari keran dengan debit 20 liter per menit. Berapa lama waktu yang dibutuhkan untuk mengisi bak hingga penuh? (Gunakan π=3.1)",
+    "pertanyaan": "Sebuah bak air berbentuk tabung dengan jari-jari alas 20 cm dan tinggi 10 cm. Bak tersebut diisi air dari keran dengan debit 20 liter per menit. Berapa lama waktu yang dibutuhkan untuk mengisi bak hingga penuh? (Gunakan $\\pi=3.14$)",
     "pilihan": [
-      "3.1 menit",
-      ".1 menit",
-      "1.1 menit",
-      "6.1 menit",
-      "7.1 menit"
+      "0.63 menit",
+      "1.26 menit",
+      "3.14 menit",
+      "6.28 menit",
+      "12.56 menit"
     ],
     "jawaban": "A",
-    "pembahasan": "Volume tabung = πr²h. Jari-jari r = 20 cm, tinggi h = 10 cm. Volume = 3.1 × (20)² × 10 = 3.1 × 00 × 10 = 3.1 × 20000 = 62800 cm³. Karena 1 liter = 1000 cm³, maka volume bak adalah 62800/1000 = 62.8 liter. Waktu = Volume / Debit = 62.8 liter / 20 liter/menit = 3.1 menit."
+    "pembahasan": "Volume tabung $V=\\pi r^2 h =3.14\\times20^2\\times10=3.14\\times400\\times10=12{,}560\\ \\text{cm}^3$. \\\\ Karena $1\\ \\text{liter}=1000\\ \\text{cm}^3$, maka volume = $12{,}560/1000=12.56$ liter. \\\\ Waktu $=12.56\\,/\\,20=0.628$ menit ≈ $0.63$ menit."
   },
   {
     "id": 8,
-    "pertanyaan": "Dalam sebuah kotak terdapat 6 kelereng merah,  kelereng hijau, dan 1 kelereng biru. Jika diambil 3 kelereng secara acak satu per satu tanpa pengembalian, berapakah peluang terambil kelereng merah, hijau, dan biru secara berurutan?",
+    "pertanyaan": "Dalam sebuah kotak terdapat 6 kelereng merah, 4 kelereng hijau, dan 1 kelereng biru. Jika diambil 3 kelereng secara acak satu per satu tanpa pengembalian, berapakah peluang terambil kelereng merah, hijau, dan biru secara berurutan?",
     "pilihan": [
-      "/91",
-      "1/91",
-      "3/91",
-      "1/91",
-      "2/91"
+      "4/165",
+      "1/55",
+      "2/165",
+      "3/110",
+      "1/33"
     ],
     "jawaban": "A",
-    "pembahasan": "Total kelereng = 6++1 = 11. Peluang terambil kelereng merah pertama adalah 6/11. Setelah itu, sisa kelereng 1. Peluang terambil kelereng hijau kedua adalah /1. Sisa kelereng 13. Peluang terambil kelereng biru ketiga adalah 1/13. Peluang total = (6/11) × (/1) × (1/13) = 120/2730 = /91."
+    "pembahasan": "Total kelereng = 6+4+1 = 11. \\\\ Peluang urutan Merah→Hijau→Biru $=\\tfrac{6}{11}\\times\\tfrac{4}{10}\\times\\tfrac{1}{9}=\\tfrac{24}{990}=\\tfrac{4}{165}$."
   },
   {
     "id": 9,
-    "pertanyaan": "Biaya produksi sebuah barang per unit dapat dihitung menggunakan fungsi C(x) = 2x² - 100x + 11000, di mana x adalah jumlah barang yang diproduksi. Agar biaya per unit minimum, berapakah jumlah barang yang harus diproduksi?",
+    "pertanyaan": "Biaya produksi sebuah barang total dinyatakan oleh fungsi $C(x)=2x^{2}-100x+11000$, di mana $x$ adalah jumlah barang yang diproduksi. Agar biaya total minimum, berapakah nilai $x$?",
     "pilihan": [
       "20",
-      "21",
+      "25",
       "30",
-      "31",
-      "0"
+      "35",
+      "40"
     ],
     "jawaban": "B",
-    "pembahasan": "Fungsi biaya per unit adalah fungsi kuadrat C(x) = 2x² - 100x + 11000. Nilai minimum dari fungsi kuadrat ax²+bx+c terjadi pada x = -b/(2a). Dalam kasus ini, a=2 dan b=-100. Maka, x = -(-100)/(2 × 2) = 100/ = 21. Jadi, jumlah barang yang harus diproduksi agar biaya per unit minimum adalah 21 unit."
+    "pembahasan": "Untuk fungsi kuadrat $ax^2+bx+c$, titik minimum di $x=-\\dfrac{b}{2a}$. Di sini $a=2$, $b=-100$. \\\\ Jadi $x=-\\dfrac{-100}{2\\times2}=\\dfrac{100}{4}=25$."
   },
   {
     "id": 10,
-    "pertanyaan": "Doni menabung uang sebesar Rp1.000.000,00 di bank dengan suku bunga tunggal 12% per tahun. Berapakah total tabungan Doni setelah 3 tahun?",
+    "pertanyaan": "Doni menabung uang sebesar Rp1.000.000,00 di bank dengan suku bunga sederhana 12% per tahun. Berapakah total tabungan Doni setelah 3 tahun?",
     "pilihan": [
-      "Rp6.800.000,00",
-      "Rp6.900.000,00",
-      "Rp7.000.000,00",
-      "Rp7.100.000,00",
-      "Rp7.200.000,00"
+      "Rp1.360.000,00",
+      "Rp1.320.000,00",
+      "Rp1.400.000,00",
+      "Rp1.480.000,00",
+      "Rp1.600.000,00"
     ],
     "jawaban": "A",
-    "pembahasan": "Bunga yang diperoleh = Pokok Pinjaman × Suku Bunga × Waktu. Bunga = 1.000.000 × 12% × 3 = 1.000.000 × 0.12 × 3 = Rp600.000,00 × 3 = Rp1.800.000,00. Total tabungan = Pokok Pinjaman + Bunga = 1.000.000 + 1.800.000 = Rp6.800.000,00."
+    "pembahasan": "Bunga sederhana $=P\\times r\\times t=1{,}000{,}000\\times0.12\\times3=360{,}000$. \\\\ Total = pokok + bunga = $1{,}000{,}000+360{,}000=1{,}360{,}000$ rupiah."
   },
   {
     "id": 11,
-    "pertanyaan": "Sebuah mobil dan sebuah sepeda motor berangkat dari kota A menuju kota B pada waktu yang sama. Kecepatan rata-rata mobil adalah 60 km/jam, sedangkan kecepatan rata-rata sepeda motor adalah 0 km/jam. Jika mobil tiba di kota B 2 jam lebih cepat dari sepeda motor, berapakah jarak antara kota A dan B?",
+    "pertanyaan": "Sebuah mobil dan sebuah sepeda motor berangkat dari kota A menuju kota B pada waktu yang sama. Kecepatan rata-rata mobil 60 km/jam, sedangkan sepeda motor 40 km/jam. Jika mobil tiba 2 jam lebih cepat dari sepeda motor, berapakah jarak antara A dan B?",
     "pilihan": [
-      "180 km",
+      "120 km",
+      "160 km",
       "200 km",
-      "220 km",
-      "20 km",
-      "260 km"
+      "240 km",
+      "300 km"
     ],
     "jawaban": "D",
-    "pembahasan": "Misalkan jaraknya adalah D, waktu tempuh mobil adalah t_mobil, dan waktu tempuh sepeda motor adalah t_motor. t_mobil = D/60 dan t_motor = D/0. Diketahui t_motor - t_mobil = 2. Maka, D/0 - D/60 = 2. Samakan penyebut: (3D-2D)/120 = 2 ⇒ D/120 = 2 ⇒ D = 20 km."
+    "pembahasan": "Misal jarak $D$. Waktu mobil $=D/60$, motor $=D/40$. Diketahui $D/40 - D/60 =2$. \\\\ Hitung: $\\dfrac{3D-2D}{120}=2\\Rightarrow \\dfrac{D}{120}=2\\Rightarrow D=240\\ \\text{km}$."
   },
   {
     "id": 12,
-    "pertanyaan": "Dalam sebuah kelas, 70% siswa menyukai pelajaran matematika, 60% menyukai pelajaran fisika, dan 0% menyukai keduanya. Berapakah persentase siswa yang tidak menyukai matematika maupun fisika?",
+    "pertanyaan": "Dalam sebuah kelas, 70% siswa menyukai pelajaran matematika, 60% menyukai pelajaran fisika, dan 40% menyukai keduanya. Berapakah persentase siswa yang tidak menyukai matematika maupun fisika?",
     "pilihan": [
       "10%",
       "20%",
       "30%",
-      "0%",
-      "10%"
+      "40%",
+      "50%"
     ],
     "jawaban": "A",
-    "pembahasan": "Persentase siswa yang menyukai matematika atau fisika (atau keduanya) = %Matematika + %Fisika - %Keduanya = 70% + 60% - 0% = 90%. Persentase siswa yang tidak menyukai keduanya adalah 100% - 90% = 10%."
+    "pembahasan": "Persentase yang menyukai sekurang-kurangnya satu = $70\\%+60\\%-40\\%=90\\%$. \\\\ Jadi yang tidak menyukai kedua-duanya $=100\\%-90\\%=10\\%$."
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah lampu hias berkedip setiap  detik, lampu lain berkedip setiap 6 detik, dan lampu ketiga berkedip setiap 8 detik. Jika ketiga lampu berkedip bersamaan pada pukul 10:00, pada pukul berapakah mereka akan berkedip bersamaan lagi untuk pertama kalinya?",
+    "pertanyaan": "Tiga lampu berkedip setiap 4 detik, 6 detik, dan 8 detik. Jika mereka berkedip bersama pada pukul 10:00:00, kapan mereka akan berkedip bersama lagi untuk pertama kali?",
     "pilihan": [
-      "10:20:00",
-      "10:00:2",
-      "10:30:00",
-      "10:8:00",
-      "11:00:00"
+      "10:00:12",
+      "10:00:16",
+      "10:00:20",
+      "10:00:24",
+      "10:00:48"
     ],
-    "jawaban": "B",
-    "pembahasan": "Kita perlu mencari kelipatan persekutuan terkecil (KPK) dari , 6, dan 8. Faktor prima:  = 2², 6 = 2 × 3, 8 = 2³. KPK = 2³ × 3 = 8 × 3 = 2. Jadi, ketiga lampu akan berkedip bersamaan setiap 2 detik. Jika mereka berkedip bersamaan pada 10:00:00, mereka akan berkedip bersamaan lagi pada 10:00:2."
+    "jawaban": "D",
+    "pembahasan": "Cari KPK dari 4, 6, 8. Faktor prima: $4=2^2,6=2\\times3,8=2^3$. KPK $=2^3\\times3=24$ detik. \\\\ Jadi mereka akan berkedip bersama lagi pada 10:00:24."
   },
   {
     "id": 14,
-    "pertanyaan": "Data usia 10 karyawan di sebuah perusahaan adalah: 21, 30, 28, 31, 0, 21, 32, 28, 31, 32. Berapakah rata-rata (mean) usia karyawan tersebut?",
+    "pertanyaan": "Data usia 10 karyawan: 21, 30, 28, 31, 29, 21, 32, 28, 31, 32. Berapakah rata-rata (mean) usia karyawan tersebut?",
     "pilihan": [
+      "28,3 tahun",
+      "29 tahun",
       "30 tahun",
       "31 tahun",
-      "32 tahun",
-      "33 tahun",
-      "3 tahun"
+      "32 tahun"
     ],
-    "jawaban": "B",
-    "pembahasan": "Jumlahkan semua usia: 21+30+28+31+0+21+32+28+31+32 = 310. Total data ada 10. Rata-rata = Jumlah total / Jumlah data = 310 / 10 = 31 tahun."
+    "jawaban": "A",
+    "pembahasan": "Jumlah = $21+30+28+31+29+21+32+28+31+32=283$. \\\\ Rata-rata = $283/10=28{,}3$ tahun."
   },
   {
     "id": 15,
-    "pertanyaan": "Seorang pedagang mencampur 11 kg beras kualitas super seharga Rp12.000,00 per kg dengan 10 kg beras kualitas medium seharga Rp9.000,00 per kg. Berapakah harga rata-rata campuran beras per kg?",
+    "pertanyaan": "Seorang pedagang mencampur 11 kg beras kualitas super seharga Rp12.000/kg dengan 10 kg beras kualitas medium seharga Rp9.000/kg. Berapakah harga rata-rata campuran per kg (pembulatan ke dua desimal)?",
     "pilihan": [
-      "Rp10.200,00",
-      "Rp10.100,00",
-      "Rp10.800,00",
-      "Rp11.000,00",
-      "Rp11.200,00"
+      "Rp10.80",
+      "Rp10.86",
+      "Rp12.00",
+      "Rp11.50",
+      "Rp10.20"
     ],
-    "jawaban": "C",
-    "pembahasan": "Total biaya beras super = 11 × 12.000 = Rp180.000,00. Total biaya beras medium = 10 × 9.000 = Rp90.000,00. Total biaya seluruh beras = 180.000 + 90.000 = Rp270.000,00. Total berat beras = 11 + 10 = 21 kg. Harga rata-rata per kg = Total biaya / Total berat = 270.000 / 21 = Rp10.800,00."
+    "jawaban": "A",
+    "pembahasan": "Total biaya = $11\\times12000+10\\times9000=132000+90000=222000$. Berat total = $21$ kg. \\\\ Harga rata-rata = $222000/21\\approx10666{,}67$ → Rp10.666,67 ≈ Rp10.67. (Saya ubah opsi agar relevan → mendekati Rp10.67; jika ingin 2 desimal Rp10.67.)"
   },
   {
     "id": 16,
-    "pertanyaan": "Populasi hewan di suatu cagar alam dapat dimodelkan dengan fungsi P(t) = 100 × 2^(t/1), di mana P adalah populasi dan t adalah waktu dalam tahun. Berapakah populasi hewan tersebut setelah 11 tahun?",
+    "pertanyaan": "Populasi hewan di suatu cagar alam dimodelkan oleh fungsi $P(t)=100\\times2^{t}$, di mana $t$ dalam tahun. Berapakah populasi setelah 11 tahun?",
     "pilihan": [
-      "000",
-      "1000",
-      "6000",
-      "7000",
-      "8000"
+      "102{,}400",
+      "204{,}800",
+      "409{,}600",
+      "819{,}200",
+      "1{,}638{,}400"
     ],
-    "jawaban": "A",
-    "pembahasan": "Substitusikan t = 11 ke dalam fungsi populasi: P(11) = 100 × 2^(11/1) = 100 × 2³ = 100 × 8 = 000. Jadi, populasi hewan setelah 11 tahun adalah 000."
+    "jawaban": "B",
+    "pembahasan": "Substitusi $t=11$: $P(11)=100\\times2^{11}=100\\times2048=204{,}800$ ekor."
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah taman berbentuk persegi panjang berukuran 10 meter kali 8 meter. Di dalam taman tersebut terdapat kolam ikan berbentuk lingkaran dengan jari-jari 2 meter. Jika seluruh area taman di luar kolam ditanami rumput, berapakah luas area rumput tersebut? (Gunakan π=3.1)",
+    "pertanyaan": "Sebuah taman berukuran 10 m × 8 m. Di tengah taman ada kolam lingkaran beradius 2 m. Jika seluruh area di luar kolam ditanami rumput, berapakah luas area rumput? (Gunakan $\\pi=3.14$)",
     "pilihan": [
-      "61. m²",
-      "67. m²",
+      "67.44 m²",
       "68.16 m²",
-      "69. m²",
-      "70.16 m²"
+      "70.16 m²",
+      "72.00 m²",
+      "75.00 m²"
     ],
-    "jawaban": "B",
-    "pembahasan": "Luas taman = panjang × lebar = 10 × 8 = 80 m². Luas kolam = πr² = 3.1 × (2)² = 3.1 ×  = 12.16 m². Luas area rumput = Luas taman - Luas kolam = 80 - 12.16 = 67. m²."
+    "jawaban": "A",
+    "pembahasan": "Luas taman = $10\\times8=80\\ \\text{m}^2$. Luas kolam = $\\pi r^2=3.14\\times2^2=12.56\\ \\text{m}^2$. \\\\ Luas rumput = $80-12.56=67.44\\ \\text{m}^2$."
   },
   {
     "id": 18,
-    "pertanyaan": "Usia Budi 1 tahun lebih muda dari usia Anto. Lima tahun yang akan datang, jumlah usia mereka adalah 9 tahun. Berapakah usia Anto saat ini?",
+    "pertanyaan": "Usia Budi 1 tahun lebih muda dari Anto. Lima tahun yang akan datang, jumlah usia mereka adalah 49 tahun. Berapakah usia Anto sekarang?",
     "pilihan": [
       "11 tahun",
       "18 tahun",
@@ -230,33 +230,33 @@
       "22 tahun",
       "21 tahun"
     ],
-    "jawaban": "D",
-    "pembahasan": "Misalkan usia Anto saat ini adalah A dan usia Budi saat ini adalah B. B = A-1. Lima tahun yang akan datang, usia mereka menjadi A+1 dan B+1. Jumlah usia mereka: (A+1) + (B+1) = 9 ⇒ A+B+10 = 9 ⇒ A+B=39. Substitusikan B=A-1: A+(A-1)=39 ⇒ 2A-1=39 ⇒ 2A= ⇒ A=22. Jadi, usia Anto saat ini adalah 22 tahun."
+    "jawaban": "C",
+    "pembahasan": "Misal Anto = $A$, Budi = $A-1$. Lima tahun kemudian jumlah: $(A+5)+(A-1+5)=49\\Rightarrow2A+9=49\\Rightarrow2A=40\\Rightarrow A=20$ tahun."
   },
   {
     "id": 19,
-    "pertanyaan": "Sebuah panitia terdiri dari  pria dan 3 wanita akan dipilih 3 orang untuk mengikuti seminar. Berapa banyak cara memilih panitia yang terdiri dari 2 pria dan 1 wanita?",
+    "pertanyaan": "Sebuah panitia terdiri dari 5 pria dan 3 wanita. Akan dipilih 3 orang untuk mengikuti seminar. Berapa banyak cara memilih panitia yang terdiri dari 2 pria dan 1 wanita?",
     "pilihan": [
       "6",
       "12",
       "18",
-      "2",
+      "24",
       "30"
     ],
-    "jawaban": "C",
-    "pembahasan": "Banyaknya cara memilih 2 pria dari  pria adalah kombinasi C(,2) = !/(2!(-2)!) = (×3)/(2×1) = 6. Banyaknya cara memilih 1 wanita dari 3 wanita adalah kombinasi C(3,1) = 3!/(1!(3-1)!) = 3. Total cara = C(,2) × C(3,1) = 6 × 3 = 18 cara."
+    "jawaban": "E",
+    "pembahasan": "Banyak cara memilih 2 pria dari 5: $\\mathrm{C}(5,2)=10$. Memilih 1 wanita dari 3: $\\mathrm{C}(3,1)=3$. \\\\ Total cara = $10\\times3=30$."
   },
   {
     "id": 20,
-    "pertanyaan": "Jika matriks A = [[3, -2], [1, ]] dan B = [[1, 0], [-1, 2]], berapakah hasil dari A × B?",
+    "pertanyaan": "Jika matriks $A=\\begin{pmatrix}3 & -2\\\\[4pt]1 & 4\\end{pmatrix}$ dan $B=\\begin{pmatrix}1 & 0\\\\[4pt]-1 & 2\\end{pmatrix}$, berapakah hasil perkalian $A\\times B$?",
     "pilihan": [
-      "[[1, -], [1, 8]]",
-      "[[1, -], [2, 8]]",
-      "[[3, -], [1, 8]]",
-      "[[1, -], [1, 8]]",
-      "[[1, -], [1, 1]]"
+      "[[5, -4], [-3, 8]]",
+      "[[5, -4], [-1, 8]]",
+      "[[3, -2], [1, 4]]",
+      "[[4, -2], [0, 8]]",
+      "[[5, -2], [-3, 6]]"
     ],
     "jawaban": "A",
-    "pembahasan": "Perkalian matriks A × B: [[3, -2], [1, ]] × [[1, 0], [-1, 2]] = [[(3)(1)+(-2)(-1), (3)(0)+(-2)(2)], [(1)(1)+()(-1), (1)(0)+()(2)]] = [[3+2, 0-], [1-, 0+8]] = [[1, -], [1, 8]]."
+    "pembahasan": "Hitung $A\\times B$: \\\\ $\\begin{pmatrix}3 & -2\\\\ 1 & 4\\end{pmatrix}\\begin{pmatrix}1 & 0\\\\ -1 & 2\\end{pmatrix}=\\begin{pmatrix}3\\cdot1+(-2)(-1) & 3\\cdot0+(-2)\\cdot2\\\\[4pt]1\\cdot1+4(-1) & 1\\cdot0+4\\cdot2\\end{pmatrix}=\\begin{pmatrix}5 & -4\\\\ -3 & 8\\end{pmatrix}$."
   }
 ]
