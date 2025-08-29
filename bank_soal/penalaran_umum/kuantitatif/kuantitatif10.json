@@ -1,69 +1,69 @@
 [
   {
-    "id": 91,
+    "id": 1,
     "pertanyaan": "Jika $a \\times b = 15$ dan $a + b = 8$, maka nilai dari $a^2 + b^2$ adalah...",
     "pilihan": ["30", "34", "36", "49", "64"],
     "jawaban": "B",
     "pembahasan": "Kita tahu bahwa $(a+b)^2 = a^2 + 2ab + b^2.\\nSubstitusikan nilai yang diketahui:\\n$8^2 = a^2 + b^2 + 2(15)\\n$64 = a^2 + b^2 + 30\\n$a^2 + b^2 = 64 - 30\\n$a^2 + b^2 = 34$"
   },
   {
-    "id": 92,
+    "id": 2,
     "pertanyaan": "Sebuah pedagang membeli 50 kg beras dengan harga Rp 10.000,00 per kg. Jika 10% dari beras tersebut busuk dan tidak bisa dijual, berapa harga jual per kg beras sisanya agar pedagang tersebut mendapat keuntungan 20% dari modal awal?",
     "pilihan": ["Rp 12.000,00", "Rp 12.500,00", "Rp 13.333,33", "Rp 13.750,00", "Rp 14.000,00"],
     "jawaban": "C",
     "pembahasan": "Modal awal = 50 kg \\u00d7 Rp 10.000/kg = Rp 500.000,00.\\nTarget keuntungan = 20% dari Rp 500.000,00 = 0.20 \\u00d7 Rp 500.000,00 = Rp 100.000,00.\\nTarget pendapatan = Modal + Keuntungan = Rp 500.000,00 + Rp 100.000,00 = Rp 600.000,00.\\nBeras yang bisa dijual = 50 kg - (10% dari 50 kg) = 50 kg - 5 kg = 45 kg.\\nHarga jual per kg = Target pendapatan / Beras yang bisa dijual = Rp 600.000,00 / 45 kg = Rp 13.333,33."
   },
   {
-    "id": 93,
+    "id": 3,
     "pertanyaan": "Jika $x$ adalah bilangan ganjil antara 7 dan 12, dan $y$ adalah bilangan genap antara 13 dan 18, maka nilai terbesar yang mungkin untuk $x+y$ adalah...",
     "pilihan": ["25", "26", "27", "28", "29"],
     "jawaban": "A",
     "pembahasan": "Bilangan ganjil antara 7 dan 12 adalah $x \\in \\{9, 11\\}$.\\nBilangan genap antara 13 dan 18 adalah $y \\in \\{14, 16\\}$.\\nUntuk mendapatkan nilai terbesar dari $x+y$, kita ambil $x$ terbesar dan $y$ terbesar.\\n$x_{\\text{terbesar}} = 11$\\n$y_{\\text{terbesar}} = 14$\\nNilai terbesar dari $x+y = 11 + 14 = 25$."
   },
   {
-    "id": 94,
+    "id": 4,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang 9 cm lebih dari lebarnya. Jika keliling persegi panjang tersebut adalah 42 cm, berapa luas persegi panjang tersebut?",
     "pilihan": ["50 cm²", "60 cm²", "72 cm²", "84 cm²", "90 cm²"],
     "jawaban": "E",
     "pembahasan": "Misal lebar = L, maka panjang = L + 9.\\nKeliling persegi panjang = $2 \\times (panjang + lebar)\\n$42 = 2 \\times ((L+9) + L)\\n$42 = 2 \\times (2L + 9)\\n$21 = 2L + 9\\n$12 = 2L\\n$L = 6$ cm.\\nPanjang = $L + 9 = 6 + 9 = 15$ cm.\\nLuas = Panjang \\u00d7 Lebar = $15 \\times 6 = 90$ cm²."
   },
   {
-    "id": 95,
+    "id": 5,
     "pertanyaan": "Sebuah bakteri membelah diri menjadi dua setiap 30 menit. Jika pada awalnya ada 10 bakteri, berapa jumlah bakteri setelah 2,5 jam?",
     "pilihan": ["160", "320", "640", "1280", "2560"],
     "jawaban": "B",
     "pembahasan": "Waktu total = 2,5 jam = 2,5 \\u00d7 60 menit = 150 menit.\\nPeriode pembelahan = 30 menit.\\nJumlah pembelahan = 150 menit / 30 menit = 5 kali.\\nJumlah bakteri setelah n kali pembelahan = Jumlah awal \\u00d7 $2^n.\\nJumlah bakteri = 10 \\u00d7 $2^5$ = 10 \\u00d7 32 = 320 bakteri."
   },
   {
-    "id": 96,
+    "id": 6,
     "pertanyaan": "Jika $P = 0,666...$ dan $Q = \\sqrt{0,25}$, maka hubungan yang benar antara P dan Q adalah...",
     "pilihan": ["P > Q", "P < Q", "P = Q", "P = 2Q", "Tidak dapat ditentukan"],
     "jawaban": "A",
     "pembahasan": "$P = 0,666...$ adalah pecahan $2/3.\\n$Q = \\sqrt{0,25} = \\sqrt{1/4} = 1/2.\\nSekarang bandingkan P dan Q:\\n$P = 2/3$ dan $Q = 1/2.\\nUntuk membandingkan, samakan penyebutnya: $2/3 = 4/6$ dan $1/2 = 3/6.\\nKarena $4/6 > 3/6$, maka $P > Q$."
   },
   {
-    "id": 97,
+    "id": 7,
     "pertanyaan": "Sebuah tangki air berbentuk tabung memiliki jari-jari alas 70 cm dan tinggi 100 cm. Jika tangki tersebut terisi air 60% dari volumenya, berapa liter air yang ada di dalam tangki tersebut? ($ \\pi = 22/7 $)",
     "pilihan": ["924 liter", "1848 liter", "3080 liter", "9240 liter", "18480 liter"],
     "jawaban": "A",
     "pembahasan": "Volume tabung = $ \\pi r^2 h $.\\n$r = 70$ cm, $h = 100$ cm.\\nVolume tangki = $(22/7) \\times (70 \\text{ cm})^2 \\times 100 \\text{ cm}\\n$= (22/7) \\times 4900 \\text{ cm}^2 \\times 100 \\text{ cm}\\n$= 22 \\times 700 \\times 100 \\text{ cm}^3\\n$= 1.540.000 \\text{ cm}^3.\\nKarena 1 liter = 1.000 cm³, \\nVolume tangki = $1.540.000 \\text{ cm}^3 / 1.000 \\text{ cm}^3/\\text{liter} = 1.540$ liter.\\nAir yang terisi = 60% dari volume tangki = 0.60 \\u00d7 1.540 liter = 924 liter."
   },
   {
-    "id": 98,
+    "id": 8,
     "pertanyaan": "Jika $2x - y = 8$ dan $x + 2y = 4$, maka nilai dari $3x + y$ adalah...",
     "pilihan": ["4", "8", "12", "16", "20"],
     "jawaban": "C",
     "pembahasan": "Persamaan 1: $2x - y = 8\\nPersamaan 2: $x + 2y = 4\\n\\nUntuk mengeliminasi $y$, kalikan Persamaan 1 dengan 2:\\n$2 \\times (2x - y) = 2 \\times 8 \\implies 4x - 2y = 16\\n\\nJumlahkan hasil ini dengan Persamaan 2:\\n$(4x - 2y) + (x + 2y) = 16 + 4\\n$5x = 20\\n$x = 4\\n\\nSubstitusikan nilai $x=4$ ke Persamaan 2:\\n$4 + 2y = 4\\n$2y = 0\\n$y = 0\\n\\nNilai dari $3x + y = 3(4) + 0 = 12 + 0 = 12$."
   },
   {
-    "id": 99,
+    "id": 9,
     "pertanyaan": "Dalam sebuah kelas, 70% siswa lulus ujian matematika, dan 80% siswa lulus ujian bahasa Inggris. Jika 5% siswa tidak lulus kedua ujian, berapa persentase siswa yang lulus kedua ujian?",
     "pilihan": ["50%", "55%", "60%", "65%", "70%"],
     "jawaban": "B",
     "pembahasan": "Misalkan P(M) adalah persentase siswa yang lulus matematika, dan P(B) adalah persentase siswa yang lulus bahasa Inggris.\\nP(M) = 70%, P(B) = 80%.\\nPersentase siswa yang tidak lulus kedua ujian adalah 5%. Artinya, persentase siswa yang lulus setidaknya satu ujian adalah 100% - 5% = 95%. Ini adalah P(M U B).\\n\\nKita menggunakan prinsip inklusi-eksklusi:\\nP(M U B) = P(M) + P(B) - P(M \\u2229 B)\\n95% = 70% + 80% - P(M \\u2229 B)\\n95% = 150% - P(M \\u2229 B)\\nP(M \\u2229 B) = 150% - 95% = 55%.\\nJadi, persentase siswa yang lulus kedua ujian adalah 55%."
   },
   {
-    "id": 100,
+    "id": 10,
     "pertanyaan": "Perbandingan usia ayah dan anak saat ini adalah 7:2. Lima tahun yang akan datang, perbandingan usia mereka menjadi 8:3. Berapa usia ayah saat ini?",
     "pilihan": ["35 tahun", "40 tahun", "45 tahun", "50 tahun", "55 tahun"],
     "jawaban": "A",
