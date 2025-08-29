@@ -1,13 +1,13 @@
 [
   {
-    "id": 161,
+    "id": 1,
     "pertanyaan": "Sebuah toko memberikan diskon 30% untuk semua barang. Jika harga sebuah jaket setelah diskon adalah Rp350.000, harga asli jaket tersebut adalah...",
     "pilihan": ["Rp450.000", "Rp500.000", "C. Rp550.000", "Rp600.000", "Rp650.000"],
     "jawaban": "B",
     "pembahasan": "Harga setelah diskon = $70\\%$ $\\times$ harga asli. $350.000 = 0,7 \\times$ harga asli $\\implies$ harga asli = $350.000 / 0,7 = Rp500.000$."
   },
     {
-    "id": 162,
+    "id": 2,
     "pertanyaan": "Pekerja A dapat menyelesaikan pengecatan selama 6 jam. Pekerja B dapat menyelesaikan pengecatan dinding yang sama selama 9 jam. Jika pengecatan dinding tersebut dikerjakan bersama oleh pekerja A dan pekerja B, maka akan memerlukan waktu ... jam.",
     "pilihan": [
       "5",
@@ -20,14 +20,14 @@
     "pembahasan": "Kecepatan kerja A = $1/6$ pekerjaan per jam. \n Kecepatan kerja B = $1/9$ pekerjaan per jam. \n Kecepatan kerja gabungan = $1/6 + 1/9 = 3/18 + 2/18 = 5/18$ pekerjaan per jam. \n Waktu yang dibutuhkan = 1 pekerjaan / (5/18 pekerjaan per jam) = $18/5$ jam."
   },
   {
-    "id": 163,
+    "id": 3,
     "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang dengan panjang 25 m dan lebar 10 m. Kedalaman kolam bervariasi dari 1 m di ujung dangkal hingga 3 m di ujung terdalam. Volume air yang dapat menampung kolam tersebut adalah...",
     "pilihan": ["250 m³", "375 m³", "500 m³", "750 m³", "1.000 m³"],
     "jawaban": "C",
     "pembahasan": "Rata-rata kedalaman = $(1 + 3)/2 = 2$ m. Volume = panjang $\\times$ lebar $\\times$ kedalaman rata-rata = $25 \\times 10 \\times 2 = 500$ m³."
   },
   {
-  "id": 164,
+  "id": 4,
   "pertanyaan": "Suatu tangki air memiliki kapasitas 4 m³. Jika diisi menggunakan satu pipa ukuran sedang, tangki penuh dalam waktu 16 menit. Jika diisi menggunakan satu pipa ukuran kecil, tangki penuh dalam waktu 24 menit. Jika 1 pipa ukuran sedang dan 2 pipa ukuran kecil digunakan untuk mengisi tangki dan saat ini tangki telah berisi 1,08 m³ air, maka pengisian tersebut telah berlangsung selama ....",
   "pilihan": [
     "1,08 menit",
@@ -40,116 +40,117 @@
   "pembahasan": "Debit pipa sedang = 4 m³ / 16 menit = 0,25 m³/menit. Debit pipa kecil = 4 m³ / 24 menit = 1/6 m³/menit. Debit gabungan = 0,25 + 2×(1/6) = 0,25 + 1/3 = 7/12 m³/menit. Volume yang terisi = 1,08 m³. Waktu = Volume / Debit = 1,08 / (7/12) = 1,08 × 12/7 = 12,96/7 ≈ 1,85 menit."
 },
   {
-    "id": 165,
+    "id": 5,
     "pertanyaan": "Sebuah segitiga sama kaki memiliki panjang alas 12 cm dan tinggi 8 cm. Luas segitiga tersebut adalah...",
     "pilihan": ["48 cm²", "64 cm²", "72 cm²", "96 cm²", "144 cm²"],
     "jawaban": "A",
     "pembahasan": "Luas = $^1\\!/\\!_2 \\times$ alas $\\times$ tinggi = $^1\\!/\\!_2 \\times 12 \\times 8 = 48$ cm²."
   },
   {
-    "id": 166,
+    "id": 6,
     "pertanyaan": "Jika $^2\\log (x + 3) = 3$, maka nilai $x$ adalah...",
     "pilihan": ["A. 5", "B. 6", "C. 7", "D. 8", "E. 9"],
     "jawaban": "A",
     "pembahasan": "$^2\\log (x + 3) = 3 \\implies x + 3 = 2^3 \\implies x + 3 = 8 \\implies x = 5$."
   },
   {
-    "id": 167,
+    "id": 7,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 6 pekerja dalam 15 hari. Jika ditambah 3 pekerja baru, waktu penyelesaian proyek menjadi...",
     "pilihan": ["5 hari", "7 hari", "10 hari", "12 hari", "20 hari"],
     "jawaban": "C",
     "pembahasan": "Total pekerja baru = $6 + 3 = 9$. Hubungan berbanding terbalik: $6 \\times 15 = 9 \\times x \\implies x = 90/9 = 10$ hari."
   },
   {
-    "id": 168,
+    "id": 8,
     "pertanyaan": "Nilai dari $(\\sqrt{12} + \\sqrt{3})^2$ adalah...",
     "pilihan": ["15", "18", "21", "24", "27"],
     "jawaban": "E",
     "pembahasan": "$(\\sqrt{12} + \\sqrt{3})^2 = (2\\sqrt{3} + \\sqrt{3})^2 = (3\\sqrt{3})^2 = 9 \\times 3 = 27$."
   },
   {
-    "id": 169,
+    "id": 9,
     "pertanyaan": "Sebuah bola memiliki volume $288\\pi$ cm³. Jari-jari bola tersebut adalah...",
     "pilihan": ["4 cm", "6 cm", "8 cm", "10 cm", "12 cm"],
     "jawaban": "B",
     "pembahasan": "Volume bola = $^4\\!/\\!_3\\pi r^3$. $288\\pi = ^4\\!/\\!_3\\pi r^3 \\implies r^3 = 216 \\implies r = 6$ cm."
   },
   {
-    "id": 170,
+    "id": 10,
     "pertanyaan": "Diketahui $f(x) = 3x - 5$ dan $g(x) = x^2 + 1$. Nilai dari $(f \\circ g)(2)$ adalah...",
     "pilihan": ["5", "7", "10", "12", "15"],
     "jawaban": "C",
     "pembahasan": "$(f \\circ g)(2) = f(g(2)) = f(2^2 + 1) = f(5) = 3(5) - 5 = 10$."
   },
   {
-    "id": 171,
+    "id": 11,
     "pertanyaan": "Sebuah kelas terdiri dari 30 siswa. Rata-rata nilai ujian matematika adalah 75. Jika nilai 5 siswa dikeluarkan, rata-ratanya menjadi 78. Rata-rata nilai 5 siswa tersebut adalah...",
     "pilihan": ["60", "65", "70", "72", "80"],
     "jawaban": "A",
     "pembahasan": "Total nilai 30 siswa = $30 \\times 75 = 2.250$. Total nilai 25 siswa = $25 \\times 78 = 1.950$. Total nilai 5 siswa = $2.250 - 1.950 = 300$. Rata-rata = $300/5 = 60$."
   },
   {
-    "id": 172,
+    "id": 12,
     "pertanyaan": "Jika $^5\\log 4 = a$ dan $^5\\log 8 = b$, maka $^5\\log 160$ adalah...",
     "pilihan": ["$a + b$", "$2a + b$", "$a + 2b$", "$3a + b$", "$a + 3b$"],
     "jawaban": "B",
     "pembahasan": "$^5\\log 160 = ^5\\log (4 \\times 8 \\times 5) = ^5\\log 4 + ^5\\log 8 + ^5\\log 5 = a + b + 1$. (Catatan: Pilihan mungkin kurang tepat, tetapi prinsipnya menggunakan sifat logaritma)."
   },
   {
-    "id": 173,
+    "id": 13,
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran dengan luas $1.386$ m² ($\\pi = 22/7$). Keliling lapangan tersebut adalah...",
     "pilihan": ["44 m", "66 m", "88 m", "132 m", "154 m"],
     "jawaban": "D",
     "pembahasan": "Luas = $\\pi r^2 \\implies 1.386 = (22/7)r^2 \\implies r^2 = 441 \\implies r = 21$ m. Keliling = $2\\pi r = 2 \\times (22/7) \\times 21 = 132$ m."
   },
   {
-    "id": 174,
+    "id": 14,
     "pertanyaan": "Sebuah fungsi kuadrat $f(x) = x^2 - 6x + 8$ memiliki titik puncak di...",
     "pilihan": ["(3, -1)", "(3, 1)", "(-3, -1)", "(-3, 1)", "(6, 8)"],
     "jawaban": "A",
     "pembahasan": "Titik puncak = $(h, k)$ dengan $h = -b/(2a) = -(-6)/(2 \\cdot 1) = 6/2 = 3$. $k = f(3) = 3^2 - 6(3) + 8 = 9 - 18 + 8 = -1$."
   },
   {
-    "id": 175,
+    "id": 15,
     "pertanyaan": "Jika $x + 2y = 10$ dan $2x - y = 5$, maka nilai $y$ adalah...",
     "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
     "pembahasan": "Selesaikan sistem persamaan: Dari persamaan pertama, $x = 10 - 2y$. Substitusi ke persamaan kedua: $2(10 - 2y) - y = 5 \\implies 20 - 4y - y = 5 \\implies -5y = -15 \\implies y = 3$."
   },
   {
-    "id": 176,
+    "id": 16,
     "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga siku-siku dengan sisi 6 cm, 8 cm, dan 10 cm. Jika tinggi prisma 12 cm, volume prisma tersebut adalah...",
     "pilihan": ["288 cm³", "336 cm³", "480 cm³", "576 cm³", "720 cm³"],
     "jawaban": "A",
     "pembahasan": "Luas alas = $^1\\!/\\!_2 \\times 6 \\times 8 = 24$ cm². Volume = luas alas $\\times$ tinggi = $24 \\times 12 = 288$ cm³."
   },
   {
-    "id": 177,
+    "id": 17,
     "pertanyaan": "Jika $2^x = 16$ dan $3^y = 81$, maka nilai $x + y$ adalah...",
     "pilihan": ["6", "7", "8", "9", "10"],
     "jawaban": "B",
     "pembahasan": "$2^x = 16 \\implies x = 4$; $3^y = 81 \\implies y = 4$. Jadi, $x + y = 4 + 4 = 8$. (Catatan: Opsi mungkin salah, tetapi perhitungan benar)."
   },
   {
-    "id": 178,
+    "id": 18,
     "pertanyaan": "Sebuah tangga sepanjang 10 meter bersandar pada tembok. Jika jarak kaki tangga ke tembok 6 meter, tinggi tembok yang dicapai tangga adalah...",
     "pilihan": ["6 m", "7 m", "8 m", "9 m", "10 m"],
     "jawaban": "C",
     "pembahasan": "Gunakan teorema Pythagoras: tinggi = $\\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$ m."
   },
   {
-    "id": 179,
+    "id": 19,
     "pertanyaan": "Diketahui himpunan $A = \\{1, 2, 3\\}$ dan $B = \\{a, b\\}$. Banyaknya fungsi yang mungkin dari A ke B adalah...",
     "pilihan": ["6", "8", "9", "12", "16"],
     "jawaban": "B",
     "pembahasan": "Setiap anggota A memiliki 2 pilihan (a atau b). Total fungsi = $2^3 = 8$."
   },
   {
-    "id": 180,
+    "id": 20,
     "pertanyaan": "Jika $\\sqrt[3]{x + 5} = 2$, maka nilai $x$ adalah...",
     "pilihan": ["3", "5", "7", "9", "11"],
     "jawaban": "A",
     "pembahasan": "$^3\\sqrt{x + 5} = 2 \\implies x + 5 = 2^3 \\implies x + 5 = 8 \\implies x = 3$."
   }
 ]
+
 
