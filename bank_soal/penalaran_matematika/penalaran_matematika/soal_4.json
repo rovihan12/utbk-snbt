@@ -4,145 +4,139 @@
     "pertanyaan": "Sebuah restoran menawarkan paket makan siang dengan 3 jenis appetizer, 5 jenis main course, dan 2 jenis dessert. Berapa banyak kombinasi makanan berbeda yang dapat dipilih jika pelanggan memilih 1 dari setiap jenis?",
     "pilihan": ["10", "15", "20", "25", "30"],
     "jawaban": "E",
-    "pembahasan": "Menggunakan aturan perkalian: 3 appetizer × 5 main course × 2 dessert = 30 kombinasi berbeda."
+    "pembahasan": "Menggunakan aturan perkalian: $3\\times5\\times2=30$ kombinasi berbeda."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah lapangan berbentuk persegi panjang dengan perbandingan panjang:lebar = 3:2. Jika keliling lapangan 120 meter, berapa luas lapangan tersebut?",
-    "pilihan": ["84 m²", "900 m²", "93 m²", "912 m²", "1008 m²"],
-    "jawaban": "A",
-    "pembahasan": "Misal panjang = 3x, lebar = 2x. Keliling = 2(3x + 2x) = 10x = 120 → x = 12. Luas = 3 × 24 = 84 m²."
+    "pilihan": ["288 m²", "576 m²", "720 m²", "864 m²", "1080 m²"],
+    "jawaban": "D",
+    "pembahasan": "Misal panjang $=3x$ dan lebar $=2x$. Keliling $=2(3x+2x)=10x=120\\Rightarrow x=12$. \\nPanjang $=36$, lebar $=24$. Luas $=36\\times24=864\\ \\text{m}^2$."
   },
   {
     "id": 3,
     "pertanyaan": "Jika 4 tahun lalu usia Ayah 5 kali usia Anak, dan 2 tahun yang akan datang usia Ayah 3 kali usia Anak, berapa usia Ayah sekarang?",
-    "pilihan": ["34 tahun", "3 tahun", "38 tahun", "40 tahun", "42 tahun"],
+    "pilihan": ["34 tahun", "36 tahun", "38 tahun", "40 tahun", "42 tahun"],
     "jawaban": "A",
-    "pembahasan": "Misal usia Ayah sekarang = A, Anak = B. (A-4) = 5(B-4) dan (A+2) = 3(B+2). Solusi sistem persamaan: A = 34 tahun."
+    "pembahasan": "Misal sekarang Ayah $=A$, Anak $=B$. \\nDari kondisi: $A-4=5(B-4)$ dan $A+2=3(B+2)$. \\nSelesaikan sistem: dari pers. pertama $A-4=5B-20\\Rightarrow A=5B-16$. Substitusi ke pers. kedua: $(5B-16)+2=3(B+2)$ → $5B-14=3B+6$ → $2B=20$ → $B=10$. Maka $A=5\\times10-16=34$ tahun."
   },
   {
     "id": 4,
-    "pertanyaan": "Sebuah toko buku memberikan diskon 20% untuk semua buku. Jika Rudi membeli 3 buku dengan harga Rp150.000,00 sebelum diskon, berapa yang harus dibayar Rudi?",
+    "pertanyaan": "Sebuah toko buku memberikan diskon 20% untuk semua buku. Jika Rudi membeli buku seharga Rp150.000,00 sebelum diskon, berapa yang harus dibayar Rudi?",
     "pilihan": ["Rp90.000", "Rp100.000", "Rp110.000", "Rp120.000", "Rp130.000"],
     "jawaban": "D",
-    "pembahasan": "Harga setelah diskon = 150.000 × 0.8 = Rp120.000."
+    "pembahasan": "Harga setelah diskon $=150.000\\times(1-0.20)=150.000\\times0.8=120.000$ rupiah."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 12 pekerja dalam 20 hari. Berapa banyak pekerja tambahan yang diperlukan untuk menyelesaikan proyek tersebut dalam 15 hari?",
-    "pilihan": ["2", "3", "4", "5", ""],
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "Total pekerjaan = 12 × 20 = 240 pekerja-hari. Pekerja yang dibutuhkan = 240/15 = 1. Tambahan pekerja = 1 - 12 = 4."
+    "pembahasan": "Total pekerjaan $=12\\times20=240$ hari-orang. Untuk 15 hari dibutuhkan $240/15=16$ pekerja. Tambahan $=16-12=4$ pekerja."
   },
   {
     "id": 6,
-    "pertanyaan": "Sebuah mobil menempuh 0 km pertama dengan kecepatan 40 km/jam dan 0 km berikutnya dengan kecepatan 0 km/jam. Berapa kecepatan rata-rata seluruh perjalanan?",
-    "pilihan": ["4 km/jam", "48 km/jam", "50 km/jam", "52 km/jam", "54 km/jam"],
-    "jawaban": "B",
-    "pembahasan": "Waktu total = (0/40) + (0/0) = 1.5 + 1 = 2.5 jam. Kecepatan rata-rata = 120/2.5 = 48 km/jam."
+    "pertanyaan": "Sebuah mobil menempuh 60 km pertama dengan kecepatan 40 km/jam dan 60 km berikutnya dengan kecepatan 60 km/jam. Berapa kecepatan rata-rata seluruh perjalanan?",
+    "pilihan": ["48 km/jam", "50 km/jam", "52 km/jam", "54 km/jam", "56 km/jam"],
+    "jawaban": "A",
+    "pembahasan": "Waktu total $=60/40+60/60=1{,}5+1=2{,}5$ jam. Jarak total $=120$ km. \\nKecepatan rata-rata $=120/2{,}5=48\\ \\text{km/jam}$."
   },
   {
     "id": 7,
     "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah, 3 bola biru, dan 2 bola hijau. Jika diambil 2 bola secara acak tanpa pengembalian, berapa peluang terambil kedua bola berwarna sama?",
-    "pilihan": ["14/45", "1/45", "19/45", "22/45", "25/45"],
+    "pilihan": ["14/45", "16/45", "18/45", "20/45", "22/45"],
     "jawaban": "A",
-    "pembahasan": "Peluang dua merah = (5/10)×(4/9) = 20/90. Dua biru = (3/10)×(2/9) = /90. Dua hijau = (2/10)×(1/9) = 2/90. Total = 28/90 = 14/45."
+    "pembahasan": "Jumlah total bola $=10$. Kombinasi total memilih 2: $\\mathrm{C}(10,2)=45$. \\nSama warna: merah $\\mathrm{C}(5,2)=10$, biru $\\mathrm{C}(3,2)=3$, hijau $\\mathrm{C}(2,2)=1$. Total sama warna $=10+3+1=14$. \\nPeluang $=14/45$."
   },
   {
     "id": 8,
-    "pertanyaan": "Sebuah tabung memiliki volume 1.540 cm³ dan tinggi 10 cm. Berapakah diameter tabung tersebut? (Gunakan π = 22/1)",
-    "pilihan": ["1 cm", "14 cm", "21 cm", "28 cm", "35 cm"],
-    "jawaban": "B",
-    "pembahasan": "Volume = πr²h → 1.540 = (22/1)×r²×10 → r² = 49 → r = 1 cm. Diameter = 14 cm."
+    "pertanyaan": "Sebuah tabung memiliki volume 1.540 cm³ dan tinggi 10 cm. Berapakah diameter tabung tersebut? (Gunakan $\\pi=\\tfrac{22}{7}$)",
+    "pilihan": ["10 cm", "12 cm", "14 cm", "16 cm", "18 cm"],
+    "jawaban": "C",
+    "pembahasan": "Volume tabung $V=\\pi r^2 h$. \\nSubstitusi: $1540=\\tfrac{22}{7}\\,r^2\\times10$ → $r^2=49$ → $r=7$ cm. Diameter $=2r=14$ cm."
   },
   {
     "id": 9,
     "pertanyaan": "Perbandingan uang Ani dan Budi adalah 4:5. Jika selisih uang mereka Rp300.000,00, berapa jumlah uang mereka bersama?",
-    "pilihan": ["Rp1.200.000", "Rp1.800.000", "Rp2.400.000", "Rp2.100.000", "Rp3.000.000"],
+    "pilihan": ["Rp1.800.000", "Rp2.100.000", "Rp2.400.000", "Rp2.700.000", "Rp3.000.000"],
     "jawaban": "D",
-    "pembahasan": "Selisih rasio = 5 - 4 = 1 bagian = Rp300.000. Jumlah rasio = 9 bagian = 9 × 300.000 = Rp2.100.000."
+    "pembahasan": "Selisih rasio $=5-4=1$ bagian $=300.000$. Jumlah rasio $=4+5=9$ bagian. \\nJumlah uang $=9\\times300.000=2.700.000$ rupiah."
   },
   {
     "id": 10,
-    "pertanyaan": "Sebuah segitiga sama sisi memiliki keliling 3 cm. Berapa tinggi segitiga tersebut?",
-    "pilihan": ["√2 cm", "√3 cm", "9√2 cm", "9√3 cm", "12√3 cm"],
+    "pertanyaan": "Sebuah segitiga sama sisi memiliki panjang sisi 12 cm. Berapa tinggi segitiga tersebut?",
+    "pilihan": ["$4\\sqrt{3}\\ \\text{cm}$", "$6\\sqrt{3}\\ \\text{cm}$", "$8\\sqrt{3}\\ \\text{cm}$", "$10\\sqrt{3}\\ \\text{cm}$", "$12\\sqrt{3}\\ \\text{cm}$"],
     "jawaban": "B",
-    "pembahasan": "Sisi segitiga = 3/3 = 12 cm. Tinggi = (12√3)/2 = √3 cm."
+    "pembahasan": "Tinggi segitiga sama sisi $=\\tfrac{\\sqrt{3}}{2}s$. Dengan $s=12$: tinggi $=\\tfrac{\\sqrt{3}}{2}\\times12=6\\sqrt{3}\\ \\text{cm}$."
   },
   {
     "id": 11,
-    "pertanyaan": "Jika x + 1/x = 5, maka nilai dari x² + 1/x² adalah...",
-    "pilihan": ["23", "24", "25", "2", "21"],
-    "jawaban": "A",
-    "pembahasan": "(x + 1/x)² = x² + 2 + 1/x² → 25 = x² + 1/x² + 2 → x² + 1/x² = 23."
+    "pertanyaan": "Jika $x+\\tfrac{1}{x}=5$, maka nilai dari $x^2+\\tfrac{1}{x^2}$ adalah...",
+    "pilihan": ["21", "22", "23", "24", "25"],
+    "jawaban": "C",
+    "pembahasan": "$(x+\\tfrac{1}{x})^2=x^2+2+\\tfrac{1}{x^2}$. \\nJadi $25=x^2+2+\\tfrac{1}{x^2}\\Rightarrow x^2+\\tfrac{1}{x^2}=23$."
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah kereta berangkat dari stasiun A ke B dengan kecepatan 80 km/jam dan kembali dari B ke A dengan kecepatan 120 km/jam. Berapa kecepatan rata-rata perjalanan seluruhnya?",
-    "pilihan": ["92 km/jam", "94 km/jam", "9 km/jam", "98 km/jam", "100 km/jam"],
+    "pertanyaan": "Sebuah kereta berangkat dari A ke B dengan kecepatan 80 km/jam dan kembali dari B ke A dengan kecepatan 120 km/jam. Berapa kecepatan rata-rata perjalanan seluruhnya?",
+    "pilihan": ["92 km/jam", "94 km/jam", "96 km/jam", "98 km/jam", "100 km/jam"],
     "jawaban": "C",
-    "pembahasan": "Kecepatan rata-rata harmonik = 2/(1/80 + 1/120) = 2/(5/240) = 480/5 = 9 km/jam."
+    "pembahasan": "Kecepatan rata-rata untuk perjalanan bolak-balik (jarak sama) adalah rata-rata harmonik: $$v_{avg}=\\frac{2}{\\tfrac{1}{80}+\\tfrac{1}{120}}=\\frac{2}{\\tfrac{3+2}{240}}=\\frac{2}{\\tfrac{5}{240}}=\\frac{480}{5}=96\\ \\text{km/jam}.$$"
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah lingkaran memiliki keliling 44 cm. Berapa luas lingkaran tersebut? (Gunakan π = 22/1)",
-    "pilihan": ["154 cm²", "18 cm²", "182 cm²", "19 cm²", "210 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Keliling = 2πr = 44 → r = 1 cm. Luas = πr² = (22/1)×49 = 154 cm²."
+    "pertanyaan": "Sebuah lingkaran memiliki keliling 44 cm. Berapa luas lingkaran tersebut? (Gunakan $\\pi=\\tfrac{22}{7}$)",
+    "pilihan": ["120 cm²", "132 cm²", "138 cm²", "144 cm²", "154 cm²"],
+    "jawaban": "E",
+    "pembahasan": "Keliling $=2\\pi r=44\\Rightarrow r=7$ cm. Luas $=\\pi r^2=\\tfrac{22}{7}\\times49=154\\ \\text{cm}^2$."
   },
   {
     "id": 14,
-    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Setelah bekerja 5 hari, 2 orang sakit. Berapa hari tambahan yang dibutuhkan untuk menyelesaikan pekerjaan?",
-    "pilihan": ["3 hari", "4 hari", "5 hari", " hari", "1 hari"],
-    "jawaban": "C",
-    "pembahasan": "Total pekerjaan = 8×15 = 120. Pekerjaan 5 hari = 8×5 = 40. Sisa pekerjaan = 80. Pekerja tersisa = . Waktu tambahan = 80/ ≈ 13.33. Total waktu = 5 + 13.33 = 18.33. Tambahan = 18.33 - 15 = 3.33 ≈ 3-4 hari. (Kesalahan dalam pilihan, jawaban terdekat A)"
+    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Setelah bekerja 5 hari, 2 orang sakit. Berapa hari total yang dibutuhkan?",
+    "pilihan": ["18 hari", "19 hari", "20 hari", "21 hari", "22 hari"],
+    "jawaban": "B",
+    "pembahasan": "Total kerja $=8\\times15=120$ hari-orang. Setelah 5 hari, pekerjaan selesai $=8\\times5=40$. Sisa $=80$. Pekerja tersisa $=8-2=6$. Waktu tambahan $=80/6\\approx13{,}333$ hari. Total waktu $\\approx5+13{,}333=18{,}333$ → dibulatkan ke 19 hari (opsi terdekat)."
   },
   {
     "id": 15,
-    "pertanyaan": "Sebuah dadu dilempar 2 kali. Berapa peluang muncul jumlah mata dadu 8?",
-    "pilihan": ["5/3", "1/", "1/3", "2/9", "1/4"],
+    "pertanyaan": "Sebuah dadu dilempar 2 kali. Berapa peluang jumlah mata dadu = 8?",
+    "pilihan": ["5/36", "1/6", "7/36", "1/9", "1/12"],
     "jawaban": "A",
-    "pembahasan": "Kombinasi yang mungkin: (2,), (3,5), (4,4), (5,3), (,2) → 5 dari 3 kemungkinan."
+    "pembahasan": "Pasangan mata yang jumlahnya 8: $(2,6),(3,5),(4,4),(5,3),(6,2)$ → 5 hasil dari $6\\times6=36$ kemungkinan. Peluang $=5/36$."
   },
   {
     "id": 16,
-    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 12 meter. Setiap kali memantul, bola mencapai 3/4 dari ketinggian sebelumnya. Berapa total jarak yang ditempuh bola hingga berhenti?",
-    "pilihan": ["12 m", "84 m", "9 m", "108 m", "120 m"],
-    "jawaban": "B",
-    "pembahasan": "Jarak total = 12 + 2×(9 + .15 + ...) = 12 + 2×(9/(1-3/4)) = 12 + 12 = 84 m."
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 12 m. Setiap kali memantul, bola mencapai $\\tfrac{3}{4}$ tinggi sebelumnya. Berapa total jarak bola hingga berhenti?",
+    "pilihan": ["48 m", "72 m", "84 m", "96 m", "108 m"],
+    "jawaban": "C",
+    "pembahasan": "Bola jatuh pertama $=12$ m, lalu pantulan: $12\\times\\tfrac{3}{4}=9$, kemudian $9\\times\\tfrac{3}{4}=6{,}75$, dst. Total jarak: $$S=12+2\\sum_{k=1}^{\\infty}12\\left(\\tfrac{3}{4}\\right)^k=12+24\\left(\\tfrac{3}{4}\\right)\\frac{1}{1-\\tfrac{3}{4}}=12+24\\times3=12+72=84\\ \\text{m}.$$"
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang 5 cm lebih dari lebarnya. Jika kelilingnya 38 cm, berapa luas persegi panjang tersebut?",
-    "pilihan": ["84 cm²", "90 cm²", "9 cm²", "100 cm²", "104 cm²"],
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang 5 cm lebih dari lebarnya. Jika kelilingnya 38 cm, berapa luasnya?",
+    "pilihan": ["84 cm²", "90 cm²", "96 cm²", "100 cm²", "104 cm²"],
     "jawaban": "A",
-    "pembahasan": "Misal lebar = x, panjang = x+5. Keliling = 2(x + x+5) = 4x + 10 = 38 → x = 1. Luas = 1 × 12 = 84 cm²."
+    "pembahasan": "Misal lebar $=x$, panjang $=x+5$. Keliling $=2(x+x+5)=38\\Rightarrow4x+10=38\\Rightarrow4x=28\\Rightarrow x=7$. Luas $=7\\times12=84\\ \\text{cm}^2$."
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah toko memberikan diskon bertingkat 20% + 15% untuk sebuah barang. Jika harga awal Rp500.000,00, berapa harga setelah diskon?",
-    "pilihan": ["Rp300.000", "Rp320.000", "Rp340.000", "Rp30.000", "Rp380.000"],
+    "pertanyaan": "Sebuah toko memberikan diskon bertingkat 20% lalu 15% pada barang seharga Rp500.000,00. Berapa harga setelah diskon?",
+    "pilihan": ["Rp300.000", "Rp320.000", "Rp340.000", "Rp360.000", "Rp380.000"],
     "jawaban": "C",
-    "pembahasan": "Diskon pertama: 500.000 × 0.8 = 400.000. Diskon kedua: 400.000 × 0.85 = Rp340.000."
+    "pembahasan": "Harga setelah diskon pertama $=500.000\\times0.8=400.000$. Setelah diskon kedua $=400.000\\times0.85=340.000$ rupiah."
   },
   {
     "id": 19,
-    "pertanyaan": "Dua bilangan berselisih 8. Hasil kali kedua bilangan tersebut adalah 240. Berapa jumlah kedua bilangan tersebut?",
-    "pilihan": ["28", "30", "32", "34", "3"],
+    "pertanyaan": "Dua bilangan berselisih 8. Hasil kali keduanya 240. Berapa jumlah kedua bilangan tersebut?",
+    "pilihan": ["28", "30", "32", "34", "36"],
     "jawaban": "C",
-    "pembahasan": "Misal x > y. x - y = 8 dan xy = 240. (x+y)² = (x-y)² + 4xy = 4 + 90 = 1.024 → x+y = 32."
+    "pembahasan": "Misal bilangan $x$ dan $y$ dengan $x-y=8$ dan $xy=240$. \\nGunakan identitas $(x+y)^2=(x-y)^2+4xy$. Maka $(x+y)^2=8^2+4\\times240=64+960=1024$. Jadi $x+y=32$."
   },
   {
-  "id": 20,
-  "pertanyaan": "Sebuah tangga sepanjang $10\\text{ m}$ bersandar pada tembok. Jika jarak kaki tangga ke tembok $\\text{ m}$, berapa tinggi tembok yang dicapai tangga?",
-  "pilihan": [
-    "$\\text{ m}$",
-    "$1\\text{ m}$",
-    "$8\\text{ m}$",
-    "$9\\text{ m}$",
-    "$10\\text{ m}$"
-  ],
-  "jawaban": "C",
-  "pembahasan": "Menggunakan teorema Pythagoras: $$\\text{Tinggi} = \\sqrt{c^2 - a^2} = \\sqrt{10^2 - ^2} = \\sqrt{100-3} = \\sqrt{4} = 8\\text{ m}$$ dimana $c$ adalah panjang tangga dan $a$ adalah jarak kaki tangga ke tembok."
-}
+    "id": 20,
+    "pertanyaan": "Sebuah tangga sepanjang $10\\ \\text{m}$ bersandar pada tembok. Jika jarak kaki tangga ke tembok $=6\\ \\text{m}$, berapa tinggi tembok yang dicapai tangga?",
+    "pilihan": ["6 m", "7 m", "8 m", "9 m", "10 m"],
+    "jawaban": "C",
+    "pembahasan": "Dengan teorema Pythagoras: tinggi $=\\sqrt{10^2-6^2}=\\sqrt{100-36}=\\sqrt{64}=8\\ \\text{m}$."
+  }
 ]
