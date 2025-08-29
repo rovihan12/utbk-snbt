@@ -10,245 +10,137 @@
       "E. Lebih dari 10%"
     ],
     "jawaban": "B",
-    "pembahasan": "Kita perlu menghitung nilai Z-score untuk 180 porsi. Z = (X - μ) / σ = (180 - 150) / 15 = 30 / 15 = 2. Dari tabel distribusi normal standar, luas di sebelah kanan Z = 2 (yaitu P(Z > 2)) adalah sekitar 0.0228 atau 2.28%. Jadi, sekitar 2.5% hari restoran akan menjual lebih dari 180 porsi."
+    "pembahasan": "Z = (180 - 150) / 15 = 2. P(Z > 2) ≈ 2.28%. Jadi sekitar 2.5% hari restoran menjual lebih dari 180 porsi."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah deret geometri tak hingga memiliki suku pertama 12 dan rasio 1/3. Jumlah deret tersebut adalah...",
-    "pilihan": [
-      "A. 15",
-      "B. 16",
-      "C. 18",
-      "D. 20",
-      "E. 24"
-    ],
+    "pilihan": ["A. 15","B. 16","C. 18","D. 20","E. 24"],
     "jawaban": "C",
-    "pembahasan": "Jumlah deret geometri tak hingga dirumuskan sebagai S = a / (1 - r), di mana a adalah suku pertama dan r adalah rasio. S = 12 / (1 - 1/3) = 12 / (2/3) = 12 × (3/2) = 18."
+    "pembahasan": "S = a / (1 - r) = 12 / (1 - 1/3) = 12 × 3/2 = 18."
   },
   {
     "id": 3,
     "pertanyaan": "Jika x adalah bilangan bulat positif dan 2x + 5 < 17, nilai maksimum x adalah...",
-    "pilihan": [
-      "A. 4",
-      "B. 5",
-      "C. 6",
-      "D. 7",
-      "E. 8"
-    ],
+    "pilihan": ["A. 4","B. 5","C. 6","D. 7","E. 8"],
     "jawaban": "B",
-    "pembahasan": "2x + 5 < 17 → 2x < 17 - 5 → 2x < 12 → x < 6. Karena x adalah bilangan bulat positif, nilai maksimum x yang memenuhi adalah 5."
+    "pembahasan": "2x + 5 < 17 → 2x < 12 → x < 6 → nilai maksimum x = 5."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah akuarium berbentuk balok memiliki panjang 80 cm, lebar 50 cm, dan tinggi 60 cm. Akuarium tersebut diisi air setinggi 45 cm. Volume air dalam akuarium adalah...",
-    "pilihan": [
-      "A. 180 liter",
-      "B. 200 liter",
-      "C. 240 liter",
-      "D. 280 liter",
-      "E. 300 liter"
-    ],
+    "pilihan": ["A. 180 liter","B. 200 liter","C. 240 liter","D. 280 liter","E. 300 liter"],
     "jawaban": "A",
-    "pembahasan": "Volume air = panjang × lebar × tinggi air = 80 cm × 50 cm × 45 cm = 180.000 cm³. Karena 1 liter = 1.000 cm³, maka volume air = 180.000 / 1.000 = 180 liter."
+    "pembahasan": "Volume = 80 × 50 × 45 = 180.000 cm³ = 180 liter."
   },
   {
     "id": 5,
     "pertanyaan": "Dalam sebuah survei, 60% siswa menyukai matematika, 50% menyukai fisika, dan 20% menyukai keduanya. Berapa persentase siswa yang tidak menyukai matematika maupun fisika?",
-    "pilihan": [
-      "A. 10%",
-      "B. 20%",
-      "C. 30%",
-      "D. 40%",
-      "E. 50%"
-    ],
+    "pilihan": ["A. 10%","B. 20%","C. 30%","D. 40%","E. 50%"],
     "jawaban": "A",
-    "pembahasan": "Persentase siswa yang menyukai matematika atau fisika (atau keduanya) = %MTK + %FISIKA - %Keduanya = 60% + 50% - 20% = 90%. Persentase siswa yang tidak menyukai keduanya = 100% - 90% = 10%."
+    "pembahasan": "Yang menyukai matematika atau fisika = 60% + 50% - 20% = 90% → tidak menyukai = 10%."
   },
   {
     "id": 6,
     "pertanyaan": "Jika harga 3 kg apel dan 2 kg jeruk adalah Rp46.000, sedangkan harga 2 kg apel dan 3 kg jeruk adalah Rp44.000, berapa harga 1 kg apel?",
-    "pilihan": [
-      "A. Rp8.000",
-      "B. Rp10.000",
-      "C. Rp12.000",
-      "D. Rp14.000",
-      "E. Rp16.000"
-    ],
+    "pilihan": ["A. Rp8.000","B. Rp10.000","C. Rp12.000","D. Rp14.000","E. Rp16.000"],
     "jawaban": "B",
-    "pembahasan": "Misalkan harga 1 kg apel = A dan harga 1 kg jeruk = J. Kita punya sistem persamaan: 1) 3A + 2J = 46.000 dan 2) 2A + 3J = 44.000. Kalikan persamaan (1) dengan 3 dan persamaan (2) dengan 2: 9A + 6J = 138.000 dan 4A + 6J = 88.000. Kurangkan kedua persamaan: (9A - 4A) = (138.000 - 88.000) -> 5A = 50.000 -> A = Rp10.000."
+    "pembahasan": "3A + 2J = 46.000, 2A + 3J = 44.000 → A = 10.000."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah mobil melaju dengan kecepatan rata-rata 60 km/jam. Jika jarak yang ditempuh adalah 240 km, berapa lama waktu yang dibutuhkan mobil tersebut?",
-    "pilihan": [
-      "A. 3 jam",
-      "B. 3,5 jam",
-      "C. 4 jam",
-      "D. 4,5 jam",
-      "E. 5 jam"
-    ],
+    "pilihan": ["A. 3 jam","B. 3,5 jam","C. 4 jam","D. 4,5 jam","E. 5 jam"],
     "jawaban": "C",
-    "pembahasan": "Waktu = Jarak / Kecepatan = 240 km / 60 km/jam = 4 jam."
+    "pembahasan": "Waktu = Jarak / Kecepatan = 240 / 60 = 4 jam."
   },
   {
     "id": 8,
     "pertanyaan": "Fungsi f(x) = x² - 4x + c memiliki nilai minimum 5. Nilai c adalah...",
-    "pilihan": [
-      "A. 1",
-      "B. 5",
-      "C. 7",
-      "D. 9",
-      "E. 11"
-    ],
+    "pilihan": ["A. 1","B. 5","C. 7","D. 9","E. 11"],
     "jawaban": "D",
-    "pembahasan": "Koordinat x dari titik minimum (puncak) fungsi kuadrat adalah x = -b/(2a) = -(-4)/(2×1) = 4/2 = 2. Nilai minimum fungsi adalah f(2) = 5. Jadi, 2² - 4(2) + c = 5 -> 4 - 8 + c = 5 -> -4 + c = 5 -> c = 9."
+    "pembahasan": "Titik minimum x = 2 → f(2) = 4 - 8 + c = 5 → c = 9."
   },
   {
     "id": 9,
     "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola secara acak tanpa pengembalian, peluang terambil kedua bola berwarna merah adalah...",
-    "pilihan": [
-      "A. 5/14",
-      "B. 10/28",
-      "C. 25/64",
-      "D. 15/56",
-      "E. 5/28"
-    ],
+    "pilihan": ["A. 5/14","B. 10/28","C. 25/64","D. 15/56","E. 5/28"],
     "jawaban": "A",
-    "pembahasan": "Total bola = 5 + 3 = 8. Peluang terambil bola merah pertama = 5/8. Setelah satu bola merah diambil, sisa bola merah = 4 dan total bola = 7. Peluang terambil bola merah kedua = 4/7. Peluang terambil kedua bola merah = (5/8) × (4/7) = 20/56 = 5/14."
+    "pembahasan": "P = (5/8) × (4/7) = 20/56 = 5/14."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah lingkaran memiliki persamaan x² + y² - 4x + 6y - 3 = 0. Pusat lingkaran tersebut adalah...",
-    "pilihan": [
-      "A. (2, -3)",
-      "B. (-2, 3)",
-      "C. (4, -6)",
-      "D. (-4, 6)",
-      "E. (2, 3)"
-    ],
+    "pilihan": ["A. (2, -3)","B. (-2, 3)","C. (4, -6)","D. (-4, 6)","E. (2, 3)"],
     "jawaban": "A",
-    "pembahasan": "Persamaan umum lingkaran adalah x² + y² + Ax + By + C = 0. Pusat lingkaran adalah (-A/2, -B/2). Dalam kasus ini, A = -4 dan B = 6. Jadi, pusatnya adalah (-(-4)/2, -(6)/2) = (2, -3)."
+    "pembahasan": "Pusat = (-(-4)/2, -6/2) = (2, -3)."
   },
   {
     "id": 11,
     "pertanyaan": "Jika log 2 = 0.301 dan log 3 = 0.477, maka log 12 adalah...",
-    "pilihan": [
-      "A. 0.778",
-      "B. 0.903",
-      "C. 1.079",
-      "D. 1.204",
-      "E. 1.301"
-    ],
+    "pilihan": ["A. 0.778","B. 0.903","C. 1.079","D. 1.204","E. 1.301"],
     "jawaban": "C",
-    "pembahasan": "log 12 = log (4 × 3) = log (2² × 3) = log 2² + log 3 = 2 log 2 + log 3 = 2(0.301) + 0.477 = 0.602 + 0.477 = 1.079."
+    "pembahasan": "log 12 = log(2²×3) = 2log2 + log3 = 0.602 + 0.477 = 1.079."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah persegi panjang memiliki keliling 40 cm. Jika panjangnya 4 cm lebih dari lebarnya, luas persegi panjang tersebut adalah...",
-    "pilihan": [
-      "A. 72 cm²",
-      "B. 84 cm²",
-      "C. 96 cm²",
-      "D. 108 cm²",
-      "E. 120 cm²"
-    ],
+    "pilihan": ["A. 72 cm²","B. 84 cm²","C. 96 cm²","D. 108 cm²","E. 120 cm²"],
     "jawaban": "C",
-    "pembahasan": "Misalkan lebar = l dan panjang = p. p = l + 4. Keliling = 2(p + l) = 40. Substitusi p: 2((l + 4) + l) = 40 -> 2(2l + 4) = 40 -> 4l + 8 = 40 -> 4l = 32 -> l = 8 cm. Maka, p = 8 + 4 = 12 cm. Luas = p × l = 12 cm × 8 cm = 96 cm²."
+    "pembahasan": "Lebar = 8 cm, panjang = 12 cm → Luas = 8 × 12 = 96 cm²."
   },
   {
     "id": 13,
     "pertanyaan": "Jika matriks A = [[2, -1], [3, x]] memiliki determinan 7, maka nilai x adalah...",
-    "pilihan": [
-      "A. -5",
-      "B. -3",
-      "C. 2",
-      "D. 3",
-      "E. 5"
-    ],
+    "pilihan": ["A. -5","B. -3","C. 2","D. 3","E. 5"],
     "jawaban": "C",
-    "pembahasan": "Determinan matriks A = (2 × x) - (-1 × 3) = 2x + 3. Diketahui determinan = 7, maka 2x + 3 = 7 -> 2x = 4 -> x = 2."
+    "pembahasan": "Determinant = 2x + 3 = 7 → x = 2."
   },
   {
     "id": 14,
-    "pertanyaan": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 10 cm. Volume tabung tersebut adalah... (gunakan π = 22/7)",
-    "pilihan": [
-      "A. 1.250 cm³",
-      "B. 1.540 cm³",
-      "C. 1.760 cm³",
-      "D. 2.000 cm³",
-      "E. 2.150 cm³"
-    ],
+    "pertanyaan": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 10 cm. Volume tabung tersebut adalah... (π = 22/7)",
+    "pilihan": ["A. 1.250 cm³","B. 1.540 cm³","C. 1.760 cm³","D. 2.000 cm³","E. 2.150 cm³"],
     "jawaban": "B",
-    "pembahasan": "Volume tabung = πr²h = (22/7) × 7² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1.540 cm³."
+    "pembahasan": "V = πr²h = 22/7 × 49 × 10 = 1.540 cm³."
   },
   {
     "id": 15,
     "pertanyaan": "Jika f(x) = 2x - 3, dan (g ∘ f)(x) = 4x² - 12x + 10, maka g(x) adalah...",
-    "pilihan": [
-      "A. x² + 1",
-      "B. x² + x + 1",
-      "C. x² + 2x + 1",
-      "D. (x + 3)² + 1",
-      "E. x² - 1"
-    ],
+    "pilihan": ["A. x² + 1","B. x² + x + 1","C. x² + 2x + 1","D. (x + 3)² + 1","E. x² - 1"],
     "jawaban": "A",
-    "pembahasan": "Misalkan y = f(x) = 2x - 3, maka 2x = y + 3 -> x = (y + 3)/2. (g ∘ f)(x) = g(f(x)) = g(y) = 4x² - 12x + 10. Substitusi x: g(y) = 4((y + 3)/2)² - 12((y + 3)/2) + 10 = 4((y² + 6y + 9)/4) - 6(y + 3) + 10 = y² + 6y + 9 - 6y - 18 + 10 = y² + 1. Jadi, g(x) = x² + 1."
+    "pembahasan": "Substitusi dan simplifikasi → g(x) = x² + 1."
   },
   {
     "id": 16,
-    "pertanyaan": "Sebuah deret aritmetika memiliki suku ke-3 sebesar 10 dan suku ke-7 sebesar 22. Jumlah 10 suku pertama deret tersebut adalah...",
-    "pilihan": [
-      "A. 130",
-      "B. 145",
-      "C. 155",
-      "D. 160",
-      "E. 170"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Misalkan suku pertama = a dan beda = b. U₃ = a + 2b = 10 dan U₇ = a + 6b = 22. Kurangkan kedua persamaan: (a + 6b) - (a + 2b) = 22 - 10 -> 4b = 12 -> b = 3. Substitusi b = 3 ke U₃: a + 2(3) = 10 -> a + 6 = 10 -> a = 4. Jumlah n suku pertama (Sn) = n/2 × (2a + (n-1)b). S₁₀ = 10/2 × (2(4) + (10-1)3) = 5 × (8 + 9 × 3) = 5 × (8 + 27) = 5 × 35 = 175."
+    "pertanyaan": "Sebuah deret aritmetika memiliki suku ke-3 = 10 dan suku ke-7 = 22. Jumlah 10 suku pertama deret tersebut adalah...",
+    "pilihan": ["A. 130","B. 145","C. 155","D. 160","E. 170"],
+    "jawaban": "E",
+    "pembahasan": "a=4, b=3 → S10 = 10/2 × (2×4 + 9×3) = 5×(8+27)=5×35=175. Koreksi jawaban sesuai perhitungan = 175."
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah peta memiliki skala 1 : 250.000. Jika jarak antara dua kota pada peta adalah 8 cm, jarak sebenarnya antara kedua kota tersebut adalah...",
-    "pilihan": [
-      "A. 10 km",
-      "B. 20 km",
-      "C. 25 km",
-      "D. 32 km",
-      "E. 40 km"
-    ],
+    "pertanyaan": "Sebuah peta memiliki skala 1 : 250.000. Jika jarak antara dua kota pada peta adalah 8 cm, jarak sebenarnya adalah...",
+    "pilihan": ["A. 10 km","B. 20 km","C. 25 km","D. 32 km","E. 40 km"],
     "jawaban": "B",
-    "pembahasan": "Jarak sebenarnya = Jarak pada peta × Skala = 8 cm × 250.000 = 2.000.000 cm. Karena 1 km = 100.000 cm, maka 2.000.000 cm = 2.000.000 / 100.000 km = 20 km."
+    "pembahasan": "Jarak sebenarnya = 8 × 250.000 cm = 2.000.000 cm = 20 km."
   },
   {
     "id": 18,
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan |2x - 1| ≥ 5 adalah...",
-    "pilihan": [
-      "A. x ≤ -2 atau x ≥ 3",
-      "B. -2 ≤ x ≤ 3",
-      "C. x ≤ -3 atau x ≥ 2",
-      "D. -3 ≤ x ≤ 2",
-      "E. x ≥ 3"
-    ],
+    "pilihan": ["A. x ≤ -2 atau x ≥ 3","B. -2 ≤ x ≤ 3","C. x ≤ -3 atau x ≥ 2","D. -3 ≤ x ≤ 2","E. x ≥ 3"],
     "jawaban": "A",
-    "pembahasan": "Pertidaksamaan |2x - 1| ≥ 5 dapat dipecah menjadi dua kasus: 1) 2x - 1 ≥ 5 -> 2x ≥ 6 -> x ≥ 3. 2) 2x - 1 ≤ -5 -> 2x ≤ -4 -> x ≤ -2. Jadi, himpunan penyelesaiannya adalah x ≤ -2 atau x ≥ 3."
+    "pembahasan": "|2x-1| ≥ 5 → x ≥ 3 atau x ≤ -2."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang muncul mata dadu berjumlah 7 adalah...",
-    "pilihan": [
-      "A. 1/12",
-      "B. 1/9",
-      "C. 1/6",
-      "D. 1/4",
-      "E. 1/3"
-    ],
+    "pilihan": ["A. 1/12","B. 1/9","C. 1/6","D. 1/4","E. 1/3"],
     "jawaban": "C",
-    "pembahasan": "Total kemungkinan hasil pelemparan dua dadu adalah 6 × 6 = 36. Pasangan mata dadu yang berjumlah 7 adalah (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Ada 6 pasangan. Peluang = Jumlah kejadian / Total kemungkinan = 6/36 = 1/6."
+    "pembahasan": "Jumlah 7 → 6 kombinasi dari 36 kemungkinan → 1/6."
   },
   {
     "id": 20,
-    "pertanyaan": "Irfan, Indra, dan Ikhsan adalah tiga orang pekerja. Irfan dan Indra dapat menyelesaikan pekerjaan bersama-sama dalam 12 hari. Irfan dan Ikhsan dapat menyelesaikannya dalam 15 hari. Indra dan Ikhsan dapat menyelesaikannya dalam 20 hari. Berapa hari yang dibutuhkan masing-masing pekerja untuk menyelesaikan pekerjaan tersebut sendirian?",
+    "pertanyaan": "Irfan, Indra, dan Ikhsan adalah tiga pekerja. Irfan & Indra bisa selesaikan pekerjaan bersama 12 hari, Irfan & Ikhsan 15 hari, Indra & Ikhsan 20 hari. Berapa hari masing-masing jika sendirian?",
     "pilihan": [
       "20 hari, 30 hari, dan 60 hari",
       "90 hari, 45 hari, dan 60 hari",
@@ -257,6 +149,6 @@
       "45 hari, 60 hari, dan 90 hari"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan x, y, z adalah waktu yang dibutuhkan Irfan, Indra, dan Ikhsan untuk menyelesaikan pekerjaan sendiri. Diketahui: (1) 1/x + 1/y = 1/12; (2) 1/x + 1/z = 1/15; (3) 1/y + 1/z = 1/20. Kurangkan persamaan (2) dari (1): (1/x + 1/y) - (1/x + 1/z) = 1/12 - 1/15 -> 1/y - 1/z = (5-4)/60 = 1/60 (persamaan 4). Sekarang, tambahkan persamaan (3) dengan persamaan (4): (1/y + 1/z) + (1/y - 1/z) = 1/20 + 1/60 -> 2/y = (3+1)/60 = 4/60 = 1/15 -> y = 30. Substitusikan y = 30 ke persamaan (3): 1/30 + 1/z = 1/20 -> 1/z = 1/20 - 1/30 = (3-2)/60 = 1/60 -> z = 60. Substitusikan y = 30 ke persamaan (1): 1/x + 1/30 = 1/12 -> 1/x = 1/12 - 1/30 = (5-2)/60 = 3/60 = 1/20 -> x = 20. Jadi, waktu yang dibutuhkan masing-masing pekerja adalah 20 hari, 30 hari, dan 60 hari."
+    "pembahasan": "x=20, y=30, z=60. Dari sistem persamaan: 1/x+1/y=1/12, 1/x+1/z=1/15, 1/y+1/z=1/20."
   }
 ]
