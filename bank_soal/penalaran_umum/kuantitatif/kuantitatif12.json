@@ -1,69 +1,69 @@
 [
   {
-    "id": 11,
+    "id": 1,
     "pertanyaan": "Semua dokter adalah manusia. Beberapa manusia adalah perokok. Maka dapat disimpulkan bahwa...",
     "pilihan": ["Semua dokter adalah perokok", "Beberapa dokter adalah perokok", "Semua manusia adalah dokter", "Beberapa dokter mungkin perokok", "Dokter bukan perokok"],
     "jawaban": "D",
     "pembahasan": "Tidak ada hubungan langsung antara dokter dan perokok. Namun, karena dokter adalah manusia, maka mungkin saja termasuk dalam kelompok manusia yang perokok."
   },
   {
-    "id": 12,
+    "id": 2,
     "pertanyaan": "Semua A adalah B. Semua B adalah C. Maka...",
     "pilihan": ["Semua C adalah A", "Semua A adalah C", "Semua C adalah B", "Beberapa C adalah A", "Tidak dapat disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Jika semua A adalah B dan semua B adalah C, maka semua A juga adalah C (logika transitif)."
   },
   {
-    "id": 13,
+    "id": 3,
     "pertanyaan": "Jika hari ini hujan, maka jalanan licin. Hari ini tidak hujan. Maka...",
     "pilihan": ["Jalanan tidak licin", "Jalanan tetap licin", "Tidak dapat disimpulkan", "Hari ini panas", "Jalanan pasti kering"],
     "jawaban": "C",
     "pembahasan": "Premis hanya menyatakan 'jika hujan maka licin'. Tidak hujan belum tentu artinya tidak licin (bisa licin karena hal lain)."
   },
   {
-    "id": 14,
+    "id": 4,
     "pertanyaan": "Jika seseorang rajin belajar, maka dia akan lulus. Budi tidak lulus. Maka...",
     "pilihan": ["Budi tidak rajin belajar", "Budi rajin belajar", "Budi lulus dengan nilai jelek", "Budi tidak ikut ujian", "Tidak bisa disimpulkan"],
     "jawaban": "A",
     "pembahasan": "Premis: rajin → lulus\nBudi tidak lulus → maka Budi tidak rajin belajar (modus tollens)."
   },
   {
-    "id": 15,
+    "id": 5,
     "pertanyaan": "Tidak semua binatang berkaki empat adalah mamalia. Kadal adalah binatang berkaki empat. Maka...",
     "pilihan": ["Kadal adalah mamalia", "Kadal bukan mamalia", "Kadal pasti mamalia", "Tidak dapat disimpulkan", "Semua kadal mamalia"],
     "jawaban": "D",
     "pembahasan": "Premis menyatakan 'tidak semua' → artinya ada yang ya, ada yang tidak. Maka status kadal tidak bisa disimpulkan hanya dari itu."
   },
   {
-    "id": 16,
+    "id": 6,
     "pertanyaan": "Semua makhluk hidup membutuhkan air. Batu tidak membutuhkan air. Maka...",
     "pilihan": ["Batu adalah makhluk hidup", "Batu bukan makhluk hidup", "Batu bisa minum", "Batu hidup", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis menyatakan: semua makhluk hidup butuh air.\nBatu tidak butuh air → maka batu bukan makhluk hidup (modus tollens)."
   },
   {
-    "id": 17,
+    "id": 7,
     "pertanyaan": "Jika semua X adalah Y dan semua Y adalah Z, maka yang pasti benar adalah...",
     "pilihan": ["Semua Z adalah X", "Semua X adalah Z", "Semua Y adalah X", "Semua Z adalah Y", "Beberapa Z adalah X"],
     "jawaban": "B",
     "pembahasan": "Logika transitif: Semua X → Y, Y → Z → maka Semua X → Z."
   },
   {
-    "id": 18,
+    "id": 8,
     "pertanyaan": "Jika hanya guru yang boleh masuk ruang guru, dan Anton ada di ruang guru, maka...",
     "pilihan": ["Anton adalah guru", "Anton bukan guru", "Anton menyusup", "Anton dihukum", "Tidak bisa disimpulkan"],
     "jawaban": "A",
     "pembahasan": "Premis: hanya guru boleh masuk ruang guru.\nAnton berada di ruang guru → maka Anton adalah guru."
   },
   {
-    "id": 19,
+    "id": 9,
     "pertanyaan": "Semua buah mengandung air. Apel adalah buah. Maka...",
     "pilihan": ["Apel tidak mengandung air", "Apel mengandung air", "Apel adalah sayur", "Apel kering", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis: semua buah mengandung air.\nApel adalah buah → maka apel mengandung air."
   },
   {
-    "id": 20,
+    "id": 10,
     "pertanyaan": "Jika seseorang tinggal di Jakarta, maka dia tinggal di Indonesia. Rani tinggal di Indonesia. Maka...",
     "pilihan": ["Rani tinggal di Jakarta", "Rani tidak tinggal di Jakarta", "Rani tinggal di luar negeri", "Tidak dapat disimpulkan", "Rani tinggal di Asia"],
     "jawaban": "D",
