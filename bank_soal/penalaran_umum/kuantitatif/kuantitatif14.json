@@ -1,69 +1,69 @@
 [
   {
-    "id": 31,
+    "id": 1,
     "pertanyaan": "Jika semua tanaman membutuhkan air, dan kaktus adalah tanaman, maka...",
     "pilihan": ["Kaktus tidak butuh air", "Kaktus butuh air", "Kaktus adalah hewan", "Kaktus hidup di air", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis: semua tanaman butuh air.\nKaktus adalah tanaman → maka kaktus butuh air (meskipun sedikit)."
   },
   {
-    "id": 32,
+    "id": 2,
     "pertanyaan": "Jika semua A adalah B, dan tidak ada B yang C, maka...",
     "pilihan": ["Semua A adalah C", "Beberapa A adalah C", "Tidak ada A yang C", "Semua C adalah A", "B dan C sama"],
     "jawaban": "C",
     "pembahasan": "Jika semua A adalah B, dan tidak ada B yang C → maka A tidak termasuk C."
   },
   {
-    "id": 33,
+    "id": 3,
     "pertanyaan": "Semua orang pintar membaca buku. Danu tidak membaca buku. Maka...",
     "pilihan": ["Danu pintar", "Danu tidak pintar", "Danu membaca buku lain", "Danu adalah dosen", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis: orang pintar membaca buku.\nDanu tidak membaca buku → maka Danu bukan orang pintar (modus tollens)."
   },
   {
-    "id": 34,
+    "id": 4,
     "pertanyaan": "Jika seseorang bekerja keras, maka ia sukses. Aldi sukses. Maka...",
     "pilihan": ["Aldi bekerja keras", "Aldi tidak bekerja", "Aldi malas", "Tidak bisa disimpulkan", "Aldi gagal"],
     "jawaban": "D",
     "pembahasan": "Premis: bekerja keras → sukses.\nSukses tidak menjamin bahwa ia bekerja keras (konvers tidak valid)."
   },
   {
-    "id": 35,
+    "id": 5,
     "pertanyaan": "Semua kendaraan bermotor membutuhkan bahan bakar. Sepeda motor adalah kendaraan bermotor. Maka...",
     "pilihan": ["Sepeda motor tidak butuh bahan bakar", "Sepeda motor butuh bahan bakar", "Sepeda motor bisa jalan tanpa bensin", "Sepeda motor bukan kendaraan bermotor", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis: semua kendaraan bermotor butuh bahan bakar.\nSepeda motor termasuk → maka sepeda motor butuh bahan bakar."
   },
   {
-    "id": 36,
+    "id": 6,
     "pertanyaan": "Semua dosen membaca jurnal. Beberapa pembaca jurnal bukan dosen. Maka...",
     "pilihan": ["Semua pembaca jurnal adalah dosen", "Beberapa dosen bukan pembaca jurnal", "Semua dosen bukan pembaca jurnal", "Beberapa pembaca jurnal bukan dosen", "Dosen tidak membaca jurnal"],
     "jawaban": "D",
     "pembahasan": "Pernyataan eksplisit: 'beberapa pembaca jurnal bukan dosen'."
   },
   {
-    "id": 37,
+    "id": 7,
     "pertanyaan": "Jika seseorang adalah warga negara Indonesia, maka dia memiliki KTP. Riko tidak memiliki KTP. Maka...",
     "pilihan": ["Riko WNI", "Riko bukan WNI", "Riko kehilangan KTP", "Riko tinggal di Indonesia", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis: WNI → punya KTP\nRiko tidak punya KTP → maka Riko bukan WNI (modus tollens)."
   },
   {
-    "id": 38,
+    "id": 8,
     "pertanyaan": "Semua makhluk hidup bernafas. Virus tidak bernafas. Maka...",
     "pilihan": ["Virus adalah makhluk hidup", "Virus bukan makhluk hidup", "Virus hidup kadang-kadang", "Virus bisa bernafas", "Tidak bisa disimpulkan"],
     "jawaban": "B",
     "pembahasan": "Premis: semua makhluk hidup → bernafas\nVirus tidak bernafas → maka virus bukan makhluk hidup."
   },
   {
-    "id": 39,
+    "id": 9,
     "pertanyaan": "Jika seseorang sedang sakit, maka suhu tubuhnya naik. Awan tidak mengalami kenaikan suhu. Maka...",
     "pilihan": ["Awan sedang sakit", "Awan tidak sedang sakit", "Awan demam", "Tidak bisa disimpulkan", "Awan mengalami penurunan suhu"],
     "jawaban": "B",
     "pembahasan": "Premis: sakit → suhu naik\nSuhu tidak naik → maka tidak sedang sakit (modus tollens)."
   },
   {
-    "id": 40,
+    "id": 10,
     "pertanyaan": "Semua benda yang jatuh dipengaruhi gravitasi. Sebuah apel jatuh dari pohon. Maka...",
     "pilihan": ["Apel tidak dipengaruhi gravitasi", "Gravitasi tidak bekerja", "Apel dipengaruhi gravitasi", "Apel jatuh karena angin", "Tidak bisa disimpulkan"],
     "jawaban": "C",
