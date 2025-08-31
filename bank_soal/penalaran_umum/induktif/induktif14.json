@@ -1,6 +1,6 @@
 [
   {
-    "id": 31,
+    "id": 1,
     "pertanyaan": "Pola deret angka: 1, 2, 4, 7, 11, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "13",
@@ -13,7 +13,7 @@
     "pembahasan": "Pola deret ini adalah penambahan angka yang berurutan. Selisih antara angka-angka berturut-turut meningkat sebesar 1: $1+1=2$, $2+2=4$, $4+3=7$, $7+4=11$. Maka, angka berikutnya adalah $11+5=16$."
   },
   {
-    "id": 32,
+    "id": 2,
     "pertanyaan": "Observasi: Setiap kali sebuah spesies burung di sebuah pulau mengalami penurunan populasi, populasi serangga yang menjadi makanannya juga ikut menurun.\n\nKesimpulan induktif yang paling kuat adalah...",
     "pilihan": [
       "Penurunan populasi burung menyebabkan penurunan populasi serangga.",
@@ -26,7 +26,7 @@
     "pembahasan": "Observasi menunjukkan adanya korelasi yang kuat antara dua populasi. Penalaran induktif yang paling kuat adalah mengakui adanya hubungan, tetapi dengan hati-hati. Mengklaim sebab-akibat langsung ('menyebabkan') terlalu absolut. Pilihan C adalah yang terbaik karena menunjukkan hubungan ekologis yang mungkin tanpa mengklaim kausalitas yang pasti."
   },
   {
-    "id": 33,
+    "id": 3,
     "pertanyaan": "Pola deret huruf: A, D, G, J, M, ...\n\nHuruf berikutnya dalam deret ini adalah...",
     "pilihan": [
       "N",
@@ -39,7 +39,7 @@
     "pembahasan": "Pola deret ini adalah melompati dua huruf abjad secara berurutan. A, (B, C), D, (E, F), G, (H, I), J, (K, L), M. Maka, setelah M kita harus melompati dua huruf lagi (N, O), sehingga huruf berikutnya adalah Q."
   },
   {
-    "id": 34,
+    "id": 4,
     "pertanyaan": "Premis: Sebuah survei pada 5000 mahasiswa menunjukkan bahwa 98% dari mereka yang menggunakan aplikasi belajar X melaporkan peningkatan IPK.\n\nKesimpulan induktif yang paling valid adalah...",
     "pilihan": [
       "Aplikasi belajar X adalah satu-satunya penyebab peningkatan IPK.",
@@ -52,7 +52,7 @@
     "pembahasan": "Sampel yang besar (5000 mahasiswa) dan persentase yang sangat tinggi (98%) merupakan bukti kuat untuk sebuah korelasi. Namun, penalaran induktif yang tepat tidak bisa mengklaim kepastian ('pasti') atau keunikan ('satu-satunya penyebab'). Kesimpulan paling valid adalah mengakui kemungkinan besar adanya korelasi positif."
   },
   {
-    "id": 35,
+    "id": 5,
     "pertanyaan": "Pola deret gabungan: $2, A, 4, B, 8, C, ...$\n\nElemen berikutnya dalam deret ini adalah...",
     "pilihan": [
       "10, D",
@@ -65,7 +65,7 @@
     "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Angka:** Pola ini adalah perkalian 2 dari angka sebelumnya ($2 \times 2 = 4$, $4 \times 2 = 8$). Angka berikutnya adalah $8 \times 2 = 16$.\n2.  **Huruf:** Pola ini adalah urutan abjad yang berurutan (A, B, C). Huruf berikutnya adalah D.\nDengan menggabungkan keduanya, kita mendapatkan 16, D."
   },
   {
-    "id": 36,
+    "id": 6,
     "pertanyaan": "Premis 1: Semua seniman yang sukses memiliki dedikasi tinggi.\nPremis 2: Sebagian orang dengan dedikasi tinggi adalah pekerja keras.\nPremis 3: Semua pekerja keras memiliki etos kerja yang baik.\n\nKesimpulan induktif yang paling mungkin adalah...",
     "pilihan": [
       "Semua seniman yang sukses adalah pekerja keras.",
@@ -78,7 +78,7 @@
     "pembahasan": "Premis-premis tersebut menunjukkan rantai hubungan: Seniman sukses (sub-set) -> Dedikasi tinggi -> (sebagian) Pekerja keras -> Etos kerja yang baik. Karena ada tumpang tindih antara 'dedikasi tinggi' dan 'pekerja keras', dan 'seniman sukses' termasuk dalam 'dedikasi tinggi', maka ada kemungkinan tumpang tindih antara 'seniman sukses' dan 'etos kerja yang baik'. Oleh karena itu, kesimpulan 'Beberapa orang dengan etos kerja yang baik adalah seniman yang sukses' adalah yang paling mungkin."
   },
   {
-    "id": 37,
+    "id": 7,
     "pertanyaan": "Observasi: Setiap empat tahun, sebuah negara mengadakan pemilihan umum. Setiap kali pemilu diadakan, ada kenaikan tajam dalam belanja pemerintah pada tahun yang sama.\n\nKesimpulan induktif yang paling rasional adalah...",
     "pilihan": [
       "Pemilihan umum adalah satu-satunya penyebab kenaikan belanja pemerintah.",
@@ -91,7 +91,7 @@
     "pembahasan": "Pola yang konsisten selama beberapa siklus pemilu menunjukkan korelasi yang sangat kuat antara pemilu dan kenaikan belanja pemerintah. Kesimpulan yang paling rasional adalah mengakui korelasi ini tanpa mengklaim kausalitas yang pasti ('pasti') atau keunikan ('satu-satunya')."
   },
   {
-    "id": 38,
+    "id": 8,
     "pertanyaan": "Pola deret angka: 1, 10, 11, 100, 101, 110, 111, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "1110",
@@ -104,7 +104,7 @@
     "pembahasan": "Ini adalah deret bilangan dalam basis biner (basis 2), yang diubah ke basis 10. Polanya adalah bilangan bulat yang berurutan, ditulis dalam format biner.\n$1_{10} = 1_2$\n$2_{10} = 10_2$\n$3_{10} = 11_2$\n$4_{10} = 100_2$\n$5_{10} = 101_2$\n$6_{10} = 110_2$\n$7_{10} = 111_2$\nMaka, angka berikutnya adalah $8_{10} = 1000_2$."
   },
   {
-    "id": 39,
+    "id": 9,
     "pertanyaan": "Observasi: Sepuluh dari sepuluh mahasiswa yang belajar di kafe X lulus ujian dengan nilai tertinggi.\n\nKesimpulan induktif yang paling berisiko adalah...",
     "pilihan": [
       "Semua mahasiswa yang belajar di kafe X akan lulus dengan nilai tertinggi.",
@@ -117,7 +117,7 @@
     "pembahasan": "Pilihan A adalah yang paling berisiko karena melakukan generalisasi mutlak ('Semua') dari sampel yang sangat kecil (hanya 10 mahasiswa). Ini adalah contoh 'overgeneralization' yang merupakan kesalahan umum dalam penalaran induktif."
   },
   {
-    "id": 40,
+    "id": 10,
     "pertanyaan": "Pola deret gambar: Sebuah segitiga, sebuah lingkaran, sebuah persegi. Lalu, pola ini berulang dengan setiap gambar membesar. Apa gambar keempat dalam deret ini?",
     "pilihan": [
       "Segitiga berukuran normal.",
