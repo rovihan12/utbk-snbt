@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Semua mahasiswa yang rajin belajar lulus ujian. Dito adalah mahasiswa rajin. Apa kesimpulan yang tepat?",
+    "pilihan": ["Dito pasti lulus ujian", "Dito belum tentu lulus", "Dito bukan mahasiswa", "Dito tidak ikut ujian", "Dito tidak rajin"],
+    "jawaban": "A",
+    "pembahasan": "Premis: Semua mahasiswa rajin lulus ujian.\nDito adalah mahasiswa rajin → Maka Dito pasti lulus ujian (deduksi langsung)."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Jika semua burung bisa terbang dan elang adalah burung, maka...",
+    "pilihan": ["Elang pasti bisa terbang", "Elang bukan burung", "Elang tidak bisa terbang", "Burung tidak semuanya bisa terbang", "Tidak diketahui"],
+    "jawaban": "A",
+    "pembahasan": "Premis: Semua burung bisa terbang.\nElang adalah burung → Maka elang bisa terbang (deduksi langsung)."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Jika A > B dan B > C, maka kesimpulan yang benar adalah...",
+    "pilihan": ["A < C", "C > A", "A > C", "C > B", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Dari A > B dan B > C, maka dengan logika transitif: A > C."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Semua hewan menyusui adalah mamalia. Lumba-lumba adalah hewan menyusui. Maka...",
+    "pilihan": ["Lumba-lumba adalah ikan", "Lumba-lumba bukan mamalia", "Lumba-lumba adalah mamalia", "Lumba-lumba menyusui mamalia", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Premis: Semua hewan menyusui adalah mamalia.\nLumba-lumba adalah hewan menyusui → Maka lumba-lumba adalah mamalia."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Semua guru adalah orang sabar. Pak Toni adalah guru. Apakah Pak Toni sabar?",
+    "pilihan": ["Ya, karena semua guru sabar", "Tidak, karena tidak semua guru sabar", "Mungkin sabar", "Tidak dapat dipastikan", "Pak Toni bukan guru"],
+    "jawaban": "A",
+    "pembahasan": "Premis menyatakan semua guru adalah sabar.\nPak Toni adalah guru → Maka Pak Toni sabar (deduksi pasti)."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Jika tidak semua mahasiswa pandai menulis, dan Budi adalah mahasiswa, maka...",
+    "pilihan": ["Budi tidak pandai menulis", "Budi pasti pandai menulis", "Tidak dapat disimpulkan", "Budi bukan mahasiswa", "Semua mahasiswa tidak pandai menulis"],
+    "jawaban": "C",
+    "pembahasan": "Premis menyatakan *tidak semua* mahasiswa pandai menulis → artinya ada yang bisa, ada yang tidak.\nTidak dapat disimpulkan status Budi."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Jika semua siswa memakai seragam putih biru dan Andi tidak memakai seragam putih biru, maka...",
+    "pilihan": ["Andi bukan siswa", "Andi siswa bandel", "Andi sedang sakit", "Andi tidak hadir", "Andi bukan warga sekolah"],
+    "jawaban": "A",
+    "pembahasan": "Premis: Semua siswa memakai seragam putih biru.\nAndi tidak memakai → Maka Andi bukan siswa (modus tollens)."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Semua manusia akan mati. John adalah robot. Maka...",
+    "pilihan": ["John akan mati", "John bukan manusia", "John adalah manusia", "John bisa mati", "Tidak bisa disimpulkan"],
+    "jawaban": "B",
+    "pembahasan": "Premis hanya menyatakan tentang manusia.\nJohn adalah robot → maka tidak termasuk dalam kategori manusia → tidak dapat disimpulkan ia akan mati."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Jika semua bunga memiliki kelopak, dan bunga matahari adalah bunga, maka...",
+    "pilihan": ["Bunga matahari tidak punya kelopak", "Kelopak adalah bunga matahari", "Bunga matahari memiliki kelopak", "Kelopak bukan bagian dari bunga", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Premis: Semua bunga memiliki kelopak.\nBunga matahari adalah bunga → Maka bunga matahari memiliki kelopak."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Jika hujan turun, maka tanah basah. Sekarang tanah tidak basah. Apa kesimpulannya?",
+    "pilihan": ["Sedang hujan", "Tanah bukan tanah", "Tidak turun hujan", "Hujan turun di tempat lain", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah logika deduktif Modus Tollens:\nJika hujan → tanah basah\nTanah tidak basah → maka hujan tidak turun."
+  }
+]
+

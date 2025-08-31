@@ -1,0 +1,73 @@
+[
+  {
+    "id": 21,
+    "pertanyaan": "Semua hewan berkaki dua adalah unggas. Ayam berkaki dua. Maka...",
+    "pilihan": ["Ayam adalah unggas", "Ayam bukan unggas", "Ayam tidak punya kaki", "Ayam adalah mamalia", "Tidak bisa disimpulkan"],
+    "jawaban": "A",
+    "pembahasan": "Jika semua hewan berkaki dua adalah unggas, dan ayam berkaki dua → maka ayam adalah unggas (deduksi langsung)."
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Jika setiap siswa harus membawa buku, dan Rina adalah siswa, maka...",
+    "pilihan": ["Rina pasti membawa buku", "Rina mungkin membawa buku", "Rina tidak membawa buku", "Rina bukan siswa", "Rina membawa pena"],
+    "jawaban": "A",
+    "pembahasan": "Premis: setiap siswa harus membawa buku.\nRina adalah siswa → maka dia pasti membawa buku."
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Jika hari Senin hujan, maka Selasa akan cerah. Hari Selasa tidak cerah. Maka...",
+    "pilihan": ["Senin tidak hujan", "Senin cerah", "Selasa hujan", "Senin hujan", "Tidak bisa disimpulkan"],
+    "jawaban": "A",
+    "pembahasan": "Premis: Jika Senin hujan → Selasa cerah\nSelasa tidak cerah → Maka Senin tidak hujan (modus tollens)."
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Tidak ada ikan yang bisa hidup tanpa air. Lele adalah ikan. Maka...",
+    "pilihan": ["Lele bisa hidup tanpa air", "Lele bukan ikan", "Lele butuh air", "Lele hidup di darat", "Lele makhluk darat"],
+    "jawaban": "C",
+    "pembahasan": "Premis: Tidak ada ikan yang bisa hidup tanpa air.\nLele adalah ikan → maka lele butuh air untuk hidup."
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Semua guru adalah pegawai negeri. Beberapa pegawai negeri adalah dokter. Maka...",
+    "pilihan": ["Semua dokter adalah guru", "Beberapa guru adalah dokter", "Tidak bisa disimpulkan", "Semua guru adalah dokter", "Dokter bukan pegawai negeri"],
+    "jawaban": "C",
+    "pembahasan": "Tidak ada relasi langsung antara guru dan dokter, maka tidak bisa disimpulkan keterkaitan di antara keduanya."
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Jika seseorang makan terlalu banyak gula, maka dia berisiko diabetes. Roni makan terlalu banyak gula. Maka...",
+    "pilihan": ["Roni pasti diabetes", "Roni tidak berisiko", "Roni berisiko diabetes", "Roni tidak makan gula", "Tidak bisa disimpulkan"],
+    "jawaban": "C",
+    "pembahasan": "Premis: makan banyak gula → risiko diabetes\nRoni makan banyak gula → maka ia berisiko (tidak berarti pasti)."
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Semua pemain bola adalah atlet. Ronaldo adalah atlet. Maka...",
+    "pilihan": ["Ronaldo adalah pemain bola", "Ronaldo bukan pemain bola", "Ronaldo tidak bisa bermain bola", "Tidak bisa disimpulkan", "Semua atlet adalah pemain bola"],
+    "jawaban": "D",
+    "pembahasan": "Premis: semua pemain bola → atlet.\nRonaldo adalah atlet tidak menjamin bahwa dia pemain bola (konvers tidak valid)."
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Jika semua pemrogram bisa membuat aplikasi, dan Didi tidak bisa membuat aplikasi, maka...",
+    "pilihan": ["Didi adalah pemrogram", "Didi bukan pemrogram", "Didi bisa membuat game", "Didi tidak suka komputer", "Tidak bisa disimpulkan"],
+    "jawaban": "B",
+    "pembahasan": "Premis: semua pemrogram → bisa membuat aplikasi.\nDidi tidak bisa membuat aplikasi → maka Didi bukan pemrogram (modus tollens)."
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Jika A = B dan B = C, maka hubungan antara A dan C adalah...",
+    "pilihan": ["A > C", "A < C", "A = C", "Tidak bisa disimpulkan", "A dan C tidak terkait"],
+    "jawaban": "C",
+    "pembahasan": "Logika transitif: A = B, B = C → maka A = C."
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Setiap orang yang berolahraga secara rutin sehat. Budi tidak sehat. Maka...",
+    "pilihan": ["Budi berolahraga", "Budi tidak berolahraga secara rutin", "Budi makan banyak", "Budi sehat sesekali", "Tidak bisa disimpulkan"],
+    "jawaban": "B",
+    "pembahasan": "Premis: olahraga rutin → sehat\nBudi tidak sehat → maka Budi tidak berolahraga rutin (modus tollens)."
+  }
+]
+
