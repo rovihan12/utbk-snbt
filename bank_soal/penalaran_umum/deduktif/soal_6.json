@@ -1,0 +1,72 @@
+[
+  {
+    "id": 51,
+    "pertanyaan": "Premis 1: Semua instrumen musik tiup terbuat dari logam atau kayu.\nPremis 2: Flute adalah instrumen musik tiup.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Flute terbuat dari logam.", "Flute terbuat dari kayu.", "Flute terbuat dari logam atau kayu.", "Hanya flute yang terbuat dari logam atau kayu.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua instrumen musik tiup terbuat dari logam atau kayu, dan flute termasuk kategori instrumen musik tiup, maka secara deduktif, flute pasti terbuat dari logam atau kayu."
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Premis 1: Jika saya membeli buku, maka saya akan membaca.\nPremis 2: Saya tidak membaca.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya membeli buku.", "Saya tidak membeli buku.", "Saya mungkin membeli buku.", "Membaca tidak selalu berarti membeli buku.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya membeli buku, maka saya akan membaca) dan ¬Q (Saya tidak membaca), maka kesimpulannya adalah ¬P (Saya tidak membeli buku). Logikanya, jika saya membeli buku, saya *pasti* akan membacanya. Karena saya tidak membaca, itu berarti saya tidak membeli buku."
+  },
+  {
+    "id": 53,
+    "pertanyaan": "Premis 1: Semua seniman adalah orang yang kreatif.\nPremis 2: Rina bukan orang yang kreatif.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Rina adalah seniman.", "Rina bukan seniman.", "Rina mungkin seniman.", "Hanya orang kreatif yang seniman.", "Tidak dapat ditarik kesimpulan tentang Rina."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam konteks silogisme kategori. Jika P → Q (Jika seniman, maka kreatif) dan ¬Q (Rina bukan kreatif), maka kesimpulannya adalah ¬P (Rina bukan seniman). Jika Rina adalah seniman, ia *pasti* kreatif. Karena ia tidak kreatif, maka ia bukan seniman."
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Premis 1: Setiap tumbuhan berfotosintesis menggunakan sinar matahari.\nPremis 2: Pohon mangga berfotosintesis.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Pohon mangga tidak menggunakan sinar matahari.", "Pohon mangga mungkin menggunakan sinar matahari.", "Pohon mangga menggunakan sinar matahari untuk berfotosintesis.", "Semua yang berfotosintesis adalah tumbuhan.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi langsung. Premis 1 menyatakan bahwa *setiap* tumbuhan berfotosintesis *menggunakan sinar matahari*. Premis 2 menyatakan bahwa pohon mangga *berfotosintesis*. Karena pohon mangga adalah tumbuhan (implisit dari Premis 1 dan pengetahuan umum), dan berfotosintesis, maka pohon mangga pasti menggunakan sinar matahari untuk berfotosintesis."
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Premis 1: Semua perangkat elektronik membutuhkan listrik untuk berfungsi.\nPremis 2: Televisi adalah perangkat elektronik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Televisi tidak membutuhkan listrik.", "Televisi mungkin membutuhkan listrik.", "Televisi pasti membutuhkan listrik untuk berfungsi.", "Hanya televisi yang membutuhkan listrik.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua perangkat elektronik membutuhkan listrik, dan televisi adalah perangkat elektronik, maka televisi pasti membutuhkan listrik untuk berfungsi."
+  },
+  {
+    "id": 56,
+    "pertanyaan": "Premis 1: Jika saya pergi ke Jakarta, maka saya akan bertemu teman lama.\nPremis 2: Saya bertemu teman lama.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya pergi ke Jakarta.", "Saya tidak pergi ke Jakarta.", "Saya mungkin pergi ke Jakarta.", "Bertemu teman lama berarti pergi ke Jakarta.", "Tidak dapat ditarik kesimpulan bahwa saya pergi ke Jakarta."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika pergi ke Jakarta, maka bertemu teman lama) dan Q (Saya bertemu teman lama), tidak berarti P (Saya pergi ke Jakarta). Saya bisa bertemu teman lama di tempat lain (misalnya, di kota saya sendiri, atau di kota lain yang saya kunjungi). Premis tidak menyatakan bahwa saya *hanya* bertemu teman lama jika saya pergi ke Jakarta."
+  },
+  {
+    "id": 57,
+    "pertanyaan": "Premis 1: Beberapa mahasiswa suka sains.\nPremis 2: Semua mahasiswa adalah anggota klub debat.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa adalah anggota klub debat dan suka sains.", "Beberapa mahasiswa adalah anggota klub debat dan suka sains.", "Beberapa anggota klub debat bukan mahasiswa.", "Tidak ada mahasiswa yang suka sains.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1, ada irisan antara 'mahasiswa' dan 'suka sains'. Premis 2 menyatakan bahwa semua 'mahasiswa' juga 'anggota klub debat'. Karena ada beberapa mahasiswa yang suka sains, dan semua siswa adalah anggota klub debat, maka secara deduktif, **beberapa mahasiswa adalah anggota klub debat dan suka sains**."
+  },
+  {
+    "id": 58,
+    "pertanyaan": "Premis 1: Setiap hewan berdarah panas memiliki rambut atau bulu.\nPremis 2: Kucing memiliki rambut.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Kucing adalah hewan berdarah panas.", "Kucing bukan hewan berdarah panas.", "Kucing mungkin hewan berdarah panas.", "Hanya hewan berdarah panas yang memiliki rambut atau bulu.", "Tidak dapat ditarik kesimpulan bahwa kucing adalah hewan berdarah panas."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika hewan berdarah panas, maka memiliki rambut/bulu) dan Q (Kucing memiliki rambut), tidak berarti P (Kucing adalah hewan berdarah panas). Premis tidak menyatakan bahwa 'hanya' hewan berdarah panas yang memiliki rambut atau bulu (misalnya, ada boneka berbulu). Kita tidak bisa menyimpulkan status kucing sebagai hewan berdarah panas hanya dari premis ini."
+  },
+  {
+    "id": 59,
+    "pertanyaan": "Premis 1: Jika suatu benda adalah sayuran, maka benda itu mengandung serat.\nPremis 2: Wortel mengandung serat.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Wortel adalah sayuran.", "Wortel bukan sayuran.", "Wortel mungkin sayuran.", "Hanya sayuran yang mengandung serat.", "Tidak dapat ditarik kesimpulan bahwa wortel adalah sayuran."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika sayuran, maka mengandung serat) dan Q (Wortel mengandung serat), tidak berarti P (Wortel adalah sayuran). Ada banyak benda lain selain sayuran yang juga mengandung serat (misalnya, buah-buahan, biji-bijian). Premis tidak menyatakan bahwa 'hanya' sayuran yang mengandung serat."
+  },
+  {
+    "id": 60,
+    "pertanyaan": "Premis 1: Semua buku adalah sumber pengetahuan.\nPremis 2: Beberapa sumber pengetahuan adalah fiksi.\nPremis 3: 'Harry Potter' adalah buku.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["'Harry Potter' adalah fiksi dan sumber pengetahuan.", "'Harry Potter' bukan sumber pengetahuan.", "Semua buku adalah fiksi.", "'Harry Potter' adalah sumber pengetahuan tetapi tidak fiksi.", "Tidak dapat ditarik kesimpulan apakah 'Harry Potter' adalah fiksi atau bukan."],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1 dan 3, dapat disimpulkan bahwa 'Harry Potter' adalah sumber pengetahuan. Premis 2 menyatakan bahwa *beberapa* sumber pengetahuan adalah fiksi. Jika kita tahu 'Harry Potter' adalah buku (dan karenanya sumber pengetahuan) dan kita tahu ada sumber pengetahuan yang fiksi, maka ada kemungkinan (dan dalam konteks 'Harry Potter' memang demikian) bahwa 'Harry Potter' adalah salah satu dari sumber pengetahuan yang fiksi. Dalam penalaran deduktif, jika kita punya informasi bahwa X adalah Y, dan sebagian Y adalah Z, dan X itu adalah salah satu jenis Y yang masuk dalam sebagian Z, maka X adalah Z. Ini adalah kasus khusus di mana pengetahuan umum (Harry Potter adalah fiksi) menegaskan kesimpulan deduktif yang memungkinkan dari premis 'beberapa'."
+  }
+]

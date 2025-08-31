@@ -1,0 +1,72 @@
+[
+  {
+    "id": 31,
+    "pertanyaan": "Premis 1: Semua reptil memiliki sisik.\nPremis 2: Buaya adalah reptil.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Buaya mungkin memiliki sisik.", "Buaya tidak memiliki sisik.", "Buaya pasti memiliki sisik.", "Hanya buaya yang memiliki sisik.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua reptil memiliki sisik, dan buaya termasuk kategori reptil, maka secara deduktif, buaya pasti memiliki sisik."
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Premis 1: Jika air mendidih, maka suhunya mencapai 100°C.\nPremis 2: Air ini tidak mencapai 100°C.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Air ini mendidih.", "Air ini tidak mendidih.", "Air ini akan mendidih jika suhunya mencapai 100°C.", "Air yang tidak mencapai 100°C tidak akan mendidih.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika air mendidih, maka suhunya mencapai 100°C) dan ¬Q (Air ini tidak mencapai 100°C), maka kesimpulannya adalah ¬P (Air ini tidak mendidih). Logikanya, jika air mendidih, suhunya *pasti* 100°C. Karena suhunya belum 100°C, maka air itu belum mendidih."
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Premis 1: Semua makhluk hidup membutuhkan oksigen.\nPremis 2: Tumbuhan adalah makhluk hidup.\nPremis 3: Oksigen tidak berbau.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Tumbuhan membutuhkan oksigen yang tidak berbau.", "Tumbuhan tidak membutuhkan oksigen.", "Semua yang membutuhkan oksigen adalah tumbuhan.", "Oksigen adalah yang dibutuhkan tumbuhan.", "Tidak dapat ditarik kesimpulan tentang kebutuhan oksigen tumbuhan."],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1 dan 2, dapat disimpulkan secara deduktif bahwa tumbuhan membutuhkan oksigen. Premis 3 menambahkan sifat oksigen yaitu tidak berbau. Menggabungkan kedua informasi ini menghasilkan kesimpulan bahwa **tumbuhan membutuhkan oksigen yang tidak berbau**."
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Premis 1: Setiap warga negara yang berusia 17 tahun atau lebih berhak memiliki KTP.\nPremis 2: Ani berhak memiliki KTP.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Ani berusia tepat 17 tahun.", "Ani berusia kurang dari 17 tahun.", "Ani berusia 17 tahun atau lebih.", "Semua yang berhak memiliki KTP berusia 17 tahun atau lebih.", "Tidak dapat ditarik kesimpulan tentang usia Ani secara pasti."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika berusia ≥17 tahun, maka berhak KTP) dan Q (Ani berhak KTP), tidak berarti P (Ani berusia ≥17 tahun). Premis ini tidak menyatakan bahwa 'hanya' mereka yang berusia 17 tahun atau lebih yang berhak KTP. Misalnya, bisa saja ada ketentuan khusus lain (misal, warga negara asing juga bisa punya KTP meskipun aturannya beda, atau ada pengecualian). Namun, jika kita asumsikan hanya ada satu cara untuk berhak KTP (yaitu syarat usia ini), maka Ani pasti berusia 17 tahun atau lebih. Tetapi dalam konteks soal deduktif murni, kita tidak boleh berasumsi informasi di luar premis. Oleh karena itu, kita tidak bisa menyimpulkan usia Ani secara pasti."
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Premis 1: Semua planet di tata surya mengelilingi matahari.\nPremis 2: Bumi adalah planet di tata surya.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bumi mungkin mengelilingi matahari.", "Bumi tidak mengelilingi matahari.", "Bumi pasti mengelilingi matahari.", "Hanya Bumi yang mengelilingi matahari.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua planet di tata surya mengelilingi matahari, dan Bumi adalah salah satu planet tersebut, maka Bumi pasti mengelilingi matahari."
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Premis 1: Jika saya makan apel, maka saya makan buah.\nPremis 2: Saya tidak makan buah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya makan apel.", "Saya tidak makan apel.", "Saya suka makan buah.", "Makan buah berarti makan apel.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya makan apel, maka saya makan buah) dan ¬Q (Saya tidak makan buah), maka kesimpulannya adalah ¬P (Saya tidak makan apel). Logikanya, jika saya makan apel, itu berarti saya makan buah. Karena saya tidak makan buah, maka saya tidak mungkin makan apel."
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Premis 1: Beberapa mahasiswa gemar membaca.\nPremis 2: Semua yang gemar membaca adalah orang yang berwawasan luas.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua mahasiswa adalah orang yang berwawasan luas.", "Beberapa mahasiswa adalah orang yang berwawasan luas.", "Beberapa orang yang berwawasan luas bukan mahasiswa.", "Tidak ada mahasiswa yang gemar membaca.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ada irisan antara 'mahasiswa' dan 'gemar membaca' (Premis 1). Semua yang 'gemar membaca' juga termasuk dalam kategori 'orang berwawasan luas' (Premis 2). Karena ada beberapa mahasiswa yang gemar membaca, dan semua yang gemar membaca adalah orang berwawasan luas, maka secara deduktif, **beberapa mahasiswa adalah orang yang berwawasan luas**."
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Premis 1: Setiap guru adalah pendidik.\nPremis 2: Bu Siti bukan seorang pendidik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bu Siti adalah guru.", "Bu Siti bukan guru.", "Bu Siti mungkin guru.", "Semua pendidik adalah guru.", "Tidak dapat ditarik kesimpulan apakah Bu Siti guru atau bukan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam bentuk silogisme kategori. Jika P → Q (Jika guru, maka pendidik) dan ¬Q (Bu Siti bukan pendidik), maka kesimpulannya adalah ¬P (Bu Siti bukan guru). Jika Bu Siti adalah guru, ia *pasti* pendidik. Karena ia bukan pendidik, maka ia bukan guru."
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Premis 1: Semua bunga berwarna merah memiliki harum yang khas.\nPremis 2: Bunga melati memiliki harum yang khas.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Bunga melati adalah bunga berwarna merah.", "Bunga melati bukan bunga berwarna merah.", "Bunga melati mungkin bunga berwarna merah.", "Hanya bunga merah yang memiliki harum khas.", "Tidak dapat ditarik kesimpulan bahwa bunga melati berwarna merah."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika bunga merah, maka harum khas) dan Q (Bunga melati memiliki harum khas), tidak berarti P (Bunga melati adalah bunga merah). Banyak bunga lain selain bunga merah yang juga memiliki harum khas. Premis tidak menyatakan bahwa 'hanya' bunga merah yang memiliki harum khas."
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Premis 1: Jika seseorang adalah politikus, maka ia sering berpidato.\nPremis 2: Jika seseorang sering berpidato, maka ia pandai berbicara di depan umum.\nPremis 3: Pak Budi adalah politikus.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Pak Budi tidak pandai berbicara di depan umum.", "Pak Budi sering berpidato tetapi tidak pandai berbicara di depan umum.", "Pak Budi pandai berbicara di depan umum.", "Semua politikus pandai berbicara di depan umum.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme hipotetis berantai. Dari Premis 1 dan 3, dapat disimpulkan bahwa Pak Budi sering berpidato. Kemudian, dari kesimpulan tersebut dan Premis 2 (Jika seseorang sering berpidato, maka ia pandai berbicara di depan umum), dapat disimpulkan bahwa **Pak Budi pandai berbicara di depan umum**."
+  }
+]

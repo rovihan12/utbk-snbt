@@ -1,0 +1,72 @@
+[
+  {
+    "id": 41,
+    "pertanyaan": "Premis 1: Semua buah citrus mengandung vitamin C.\nPremis 2: Jeruk adalah buah citrus.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Jeruk tidak mengandung vitamin C.", "Jeruk mungkin mengandung vitamin C.", "Jeruk pasti mengandung vitamin C.", "Hanya jeruk yang mengandung vitamin C.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua buah citrus mengandung vitamin C, dan jeruk termasuk kategori buah citrus, maka secara deduktif, jeruk pasti mengandung vitamin C."
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Premis 1: Jika saya minum kopi, maka saya tidak mengantuk.\nPremis 2: Saya mengantuk.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya minum kopi.", "Saya tidak minum kopi.", "Saya mungkin minum kopi.", "Kopi tidak selalu menghilangkan kantuk.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya minum kopi, maka saya tidak mengantuk) dan ¬Q (Saya mengantuk), maka kesimpulannya adalah ¬P (Saya tidak minum kopi). Jika saya minum kopi, saya *pasti* tidak mengantuk. Karena saya mengantuk, itu berarti saya tidak minum kopi."
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Premis 1: Semua mahasiswa tingkat akhir sedang menyusun skripsi.\nPremis 2: Budi tidak sedang menyusun skripsi.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Budi adalah mahasiswa tingkat akhir.", "Budi bukan mahasiswa tingkat akhir.", "Budi mungkin mahasiswa tingkat akhir.", "Hanya mahasiswa tingkat akhir yang menyusun skripsi.", "Tidak dapat ditarik kesimpulan tentang status Budi."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam konteks silogisme kategori. Jika P → Q (Jika mahasiswa tingkat akhir, maka menyusun skripsi) dan ¬Q (Budi tidak menyusun skripsi), maka kesimpulannya adalah ¬P (Budi bukan mahasiswa tingkat akhir). Jika Budi adalah mahasiswa tingkat akhir, ia *pasti* menyusun skripsi. Karena ia tidak menyusun skripsi, maka ia bukan mahasiswa tingkat akhir."
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Premis 1: Setiap politisi adalah orator yang baik.\nPremis 2: Andi adalah orator yang baik.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Andi adalah politisi.", "Andi bukan politisi.", "Andi mungkin politisi.", "Semua orator yang baik adalah politisi.", "Tidak dapat ditarik kesimpulan bahwa Andi adalah politisi."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika politisi, maka orator baik) dan Q (Andi adalah orator baik), tidak berarti P (Andi adalah politisi). Ada banyak profesi lain yang juga memerlukan kemampuan orasi yang baik (misalnya, guru, motivator, presenter), yang bukan politisi. Premis tidak menyatakan bahwa 'hanya' politisi yang merupakan orator yang baik."
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Premis 1: Semua kendaraan roda empat memiliki empat ban.\nPremis 2: Mobil adalah kendaraan roda empat.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Mobil mungkin memiliki empat ban.", "Mobil tidak memiliki empat ban.", "Mobil pasti memiliki empat ban.", "Hanya mobil yang memiliki empat ban.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua kendaraan roda empat memiliki empat ban, dan mobil adalah kendaraan roda empat, maka mobil pasti memiliki empat ban."
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Premis 1: Jika saya lapar, maka saya akan makan.\nPremis 2: Saya tidak makan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Saya lapar.", "Saya tidak lapar.", "Saya tidak suka makan.", "Makan selalu membuat saya kenyang.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya lapar, maka saya akan makan) dan ¬Q (Saya tidak makan), maka kesimpulannya adalah ¬P (Saya tidak lapar). Logikanya, jika saya lapar, saya *pasti* akan makan. Karena saya tidak makan, itu berarti saya tidak lapar."
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Premis 1: Beberapa siswa suka olahraga.\nPremis 2: Semua siswa adalah anggota OSIS.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua siswa adalah anggota OSIS dan suka olahraga.", "Beberapa siswa adalah anggota OSIS dan suka olahraga.", "Beberapa anggota OSIS bukan siswa.", "Tidak ada siswa yang suka olahraga.", "Tidak dapat ditarik kesimpulan."],
+    "jawaban": "B",
+    "pembahasan": "Dari Premis 1, ada irisan antara 'siswa' dan 'suka olahraga'. Premis 2 menyatakan bahwa semua 'siswa' juga 'anggota OSIS'. Karena ada beberapa siswa yang suka olahraga, dan semua siswa adalah anggota OSIS, maka secara deduktif, **beberapa siswa adalah anggota OSIS dan suka olahraga**."
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Premis 1: Setiap manusia memiliki jantung.\nPremis 2: Andi memiliki jantung.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Andi adalah manusia.", "Andi bukan manusia.", "Andi mungkin manusia.", "Hanya manusia yang memiliki jantung.", "Tidak dapat ditarik kesimpulan bahwa Andi adalah manusia."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika manusia, maka memiliki jantung) dan Q (Andi memiliki jantung), tidak berarti P (Andi adalah manusia). Banyak makhluk hidup lain selain manusia yang juga memiliki jantung (misalnya, hewan). Premis tidak menyatakan bahwa 'hanya' manusia yang memiliki jantung."
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Premis 1: Jika suatu benda adalah logam, maka benda itu padat pada suhu kamar.\nPremis 2: Benda ini padat pada suhu kamar.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Benda ini adalah logam.", "Benda ini bukan logam.", "Benda ini mungkin logam.", "Hanya logam yang padat pada suhu kamar.", "Tidak dapat ditarik kesimpulan bahwa benda ini adalah logam."],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika logam, maka padat pada suhu kamar) dan Q (Benda ini padat pada suhu kamar), tidak berarti P (Benda ini adalah logam). Banyak benda non-logam (misalnya, kayu, plastik, batu) juga padat pada suhu kamar. Premis tidak menyatakan bahwa 'hanya' logam yang padat pada suhu kamar."
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Premis 1: Semua buah tropis rasanya manis.\nPremis 2: Mangga adalah buah tropis.\nPremis 3: Buah yang rasanya manis disukai banyak orang.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Mangga tidak disukai banyak orang.", "Mangga rasanya manis tetapi tidak disukai banyak orang.", "Mangga disukai banyak orang.", "Semua buah yang disukai banyak orang adalah mangga.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah silogisme hipotetis berantai. Dari Premis 1 dan 2, dapat disimpulkan bahwa mangga rasanya manis. Kemudian, dari kesimpulan tersebut dan Premis 3 (Buah yang rasanya manis disukai banyak orang), dapat disimpulkan bahwa **manggan disukai banyak orang**."
+  }
+]
