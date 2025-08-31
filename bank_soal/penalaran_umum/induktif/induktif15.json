@@ -1,6 +1,6 @@
 [
   {
-    "id": 41,
+    "id": 1,
     "pertanyaan": "Pola deret angka: 5, 2, 8, 4, 11, 8, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "12",
@@ -13,7 +13,7 @@
     "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Pola pertama (posisi ganjil):** Angka bertambah 3 secara berurutan ($5 \to 8 \to 11$). Angka berikutnya adalah $11+3=14$.\n2.  **Pola kedua (posisi genap):** Angka dikalikan 2 secara berurutan ($2 \to 4 \to 8$).\nKarena yang dicari adalah angka berikutnya setelah '8', maka kita harus melanjutkan pola pertama, yaitu $11+3 = 14$."
   },
   {
-    "id": 42,
+    "id": 2,
     "pertanyaan": "Observasi: Setiap kali sebuah inovasi teknologi baru diluncurkan, ada lonjakan harga saham perusahaan terkait, diikuti oleh penurunan harga setelah 6 bulan.\n\nKesimpulan induktif yang paling kuat adalah...",
     "pilihan": [
       "Harga saham perusahaan terkait pasti akan turun setelah 6 bulan setiap kali inovasi baru diluncurkan.",
@@ -26,7 +26,7 @@
     "pembahasan": "Observasi menunjukkan pola yang konsisten, yaitu siklus kenaikan dan penurunan harga saham setelah inovasi. Kesimpulan induktif yang paling kuat adalah menyimpulkan bahwa ada siklus yang mungkin terjadi, tanpa mengklaim kepastian mutlak ('pasti') atau hubungan kausalitas tunggal ('satu-satunya'). Pilihan C secara tepat menggambarkan pola ini sebagai 'kemungkinan besar'."
   },
   {
-    "id": 43,
+    "id": 3,
     "pertanyaan": "Pola deret huruf: A, Z, B, Y, C, X, ...\n\nHuruf berikutnya dalam deret ini adalah...",
     "pilihan": [
       "D",
@@ -39,7 +39,7 @@
     "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Pola pertama:** Huruf-huruf berurutan maju dari awal abjad (A, B, C, D).\n2.  **Pola kedua:** Huruf-huruf berurutan mundur dari akhir abjad (Z, Y, X, W).\nMaka, elemen berikutnya dalam pola pertama adalah D dan elemen berikutnya dalam pola kedua adalah W. Gabungan keduanya adalah D, W."
   },
   {
-    "id": 44,
+    "id": 4,
     "pertanyaan": "Premis: Semua karyawan di divisi A adalah insinyur. Sebagian insinyur memiliki sertifikasi profesional.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
     "pilihan": [
       "Semua karyawan di divisi A memiliki sertifikasi profesional.",
@@ -52,7 +52,7 @@
     "pembahasan": "Dari premis pertama, kita tahu bahwa 'karyawan di divisi A' adalah sub-kelompok dari 'insinyur'. Premis kedua menyatakan bahwa hanya 'sebagian' insinyur yang memiliki sertifikasi profesional. Logikanya, sub-kelompok 'karyawan di divisi A' juga akan menjadi 'sebagian' dari insinyur yang memiliki sertifikasi. Maka, kesimpulan yang paling mungkin adalah 'Beberapa karyawan di divisi A memiliki sertifikasi profesional'."
   },
   {
-    "id": 45,
+    "id": 5,
     "pertanyaan": "Pola deret angka: 4, 9, 16, 25, 36, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "45",
@@ -65,7 +65,7 @@
     "pembahasan": "Pola deret ini adalah bilangan kuadrat dari bilangan bulat yang berurutan, dimulai dari 2. Polanya adalah $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$, $6^2=36$. Maka, angka berikutnya adalah $7^2=49$."
   },
   {
-    "id": 46,
+    "id": 6,
     "pertanyaan": "Observasi: Setiap kali sebuah kota mengimplementasikan sistem transportasi publik baru, terjadi peningkatan ekonomi lokal dalam 1-2 tahun berikutnya, dan jumlah penggunaan kendaraan pribadi menurun.\n\nKesimpulan induktif yang paling rasional adalah...",
     "pilihan": [
       "Sistem transportasi publik adalah satu-satunya pendorong ekonomi dan penurunan kendaraan pribadi.",
@@ -78,7 +78,7 @@
     "pembahasan": "Observasi menunjukkan korelasi yang konsisten antara tiga fenomena: implementasi transportasi publik, pertumbuhan ekonomi, dan penurunan kendaraan pribadi. Kesimpulan yang paling rasional dan hati-hati dalam penalaran induktif adalah mengakui 'kemungkinan besar' adanya hubungan ini, tanpa mengklaim kausalitas yang mutlak atau tunggal. Pilihan B paling sesuai dengan prinsip ini."
   },
   {
-    "id": 47,
+    "id": 7,
     "pertanyaan": "Pola deret angka: 1, 3, 7, 15, 31, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "55",
@@ -91,7 +91,7 @@
     "pembahasan": "Pola deret ini adalah $2^n-1$ atau setiap angka dikalikan 2 lalu ditambah 1. Polanya adalah:\n$1 \times 2 + 1 = 3$\n$3 \times 2 + 1 = 7$\n$7 \times 2 + 1 = 15$\n$15 \times 2 + 1 = 31$\nMaka, angka berikutnya adalah $31 \times 2 + 1 = 62+1 = 63$."
   },
   {
-    "id": 48,
+    "id": 8,
     "pertanyaan": "Premis 1: Semua atlet yang memenangkan medali emas adalah atlet elit.\nPremis 2: Semua atlet elit memiliki program latihan yang ketat.\nPremis 3: Sebagian atlet dengan program latihan yang ketat adalah atlet berprestasi tinggi.\n\nKesimpulan induktif yang paling valid adalah...",
     "pilihan": [
       "Semua atlet yang memenangkan medali emas adalah atlet berprestasi tinggi.",
@@ -104,7 +104,7 @@
     "pembahasan": "Premis-premis tersebut membentuk rantai logis: 'atlet medali emas' (subset) -> 'atlet elit' (subset) -> 'program latihan ketat' -> (sebagian) 'atlet berprestasi tinggi'. Karena 'atlet medali emas' adalah sub-kelompok dari 'atlet elit' yang merupakan sub-kelompok dari 'atlet dengan program latihan ketat', dan 'atlet berprestasi tinggi' sebagian tumpang tindih dengan 'atlet dengan program latihan ketat', maka kemungkinan besar ada tumpang tindih antara 'atlet berprestasi tinggi' dan 'atlet yang memenangkan medali emas'. Pilihan B adalah kesimpulan yang paling tepat."
   },
   {
-    "id": 49,
+    "id": 9,
     "pertanyaan": "Observasi: Setiap kali seorang individu mendengar lagu 'A', mereka cenderung merasa lebih bahagia. Fenomena ini telah diamati pada 500 orang secara independen.\n\nKesimpulan induktif yang paling kuat adalah...",
     "pilihan": [
       "Lagu 'A' secara pasti menyebabkan kebahagiaan.",
@@ -117,7 +117,7 @@
     "pembahasan": "Observasi pada sampel yang besar (500 orang) menunjukkan pola yang konsisten. Ini merupakan bukti kuat untuk adanya korelasi. Namun, klaim kausalitas yang absolut ('pasti menyebabkan') tidak dapat ditarik hanya dari observasi ini. Pilihan C adalah kesimpulan paling kuat karena menggunakan bahasa yang hati-hati ('kemungkinan besar berkorelasi') yang merupakan ciri khas penalaran induktif yang baik."
   },
   {
-    "id": 50,
+    "id": 10,
     "pertanyaan": "Pola deret angka: 1, 2, 4, 8, 16, 32, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "48",
