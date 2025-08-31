@@ -1,0 +1,132 @@
+[
+  {
+    "id": 11,
+    "pertanyaan": "Deret huruf dan angka: Z1A, Y2B, X4C, W8D, ...\n\nElemen berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "V16F",
+      "V16E",
+      "V16D",
+      "U16E",
+      "V32E"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Deret ini memiliki tiga pola yang saling terkait:\n1.  **Huruf pertama:** Berurutan mundur dari Z (Z, Y, X, W, V).\n2.  **Angka:** Deret angka dikalikan 2 ($1 \times 2 = 2$, $2 \times 2 = 4$, $4 \times 2 = 8$, $8 \times 2 = 16$).\n3.  **Huruf ketiga:** Berurutan maju dari A (A, B, C, D, E).\nDengan menggabungkan ketiga pola tersebut, elemen berikutnya adalah V16E."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Observasi: Setiap kali suhu air di Samudra Pasifik naik di atas rata-rata historisnya, wilayah tertentu di Asia Tenggara mengalami musim kemarau yang lebih panjang dari biasanya.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Kenaikan suhu air di Pasifik pasti menyebabkan kekeringan di Asia Tenggara.",
+      "Fenomena kenaikan suhu air di Pasifik adalah satu-satunya faktor penyebab musim kemarau panjang di Asia Tenggara.",
+      "Ada kemungkinan kuat bahwa kenaikan suhu air di Pasifik berkorelasi dengan periode kemarau yang lebih panjang di Asia Tenggara.",
+      "Musim kemarau di Asia Tenggara menyebabkan suhu air Pasifik naik.",
+      "Tidak ada hubungan yang bisa ditarik antara kedua fenomena tersebut."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Observasi ini menunjukkan adanya korelasi yang sangat konsisten, yang dikenal sebagai El Niño. Penalaran induktif memungkinkan kita untuk menyimpulkan adanya hubungan, tetapi tidak dapat membuktikan kausalitas mutlak. Oleh karena itu, kesimpulan yang paling akurat adalah bahwa ada 'kemungkinan kuat' hubungan tersebut tanpa mengklaimnya sebagai satu-satunya penyebab atau hubungan kausal yang pasti."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Pola deret angka: 1, 4, 9, 16, 25, 36, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "45",
+      "49",
+      "54",
+      "64",
+      "81"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah bilangan kuadrat dari bilangan bulat positif yang berurutan. Polanya adalah $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$, $6^2=36$. Maka, angka berikutnya adalah $7^2=49$."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Premis 1: Semua seniman yang menggunakan cat air juga mahir dalam melukis potret.\nPremis 2: Sebagian pelukis potret yang mahir juga menguasai teknik pahat.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
+    "pilihan": [
+      "Beberapa seniman yang menggunakan cat air mahir dalam teknik pahat.",
+      "Semua pelukis potret yang mahir menggunakan cat air.",
+      "Tidak ada seniman yang mahir dalam teknik pahat dan menggunakan cat air.",
+      "Beberapa orang yang mahir dalam teknik pahat adalah seniman yang menggunakan cat air.",
+      "Semua orang yang mahir dalam teknik pahat adalah pelukis potret."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Dari Premis 1, kita tahu bahwa 'seniman cat air' adalah sub-kelompok dari 'pelukis potret yang mahir'. Dari Premis 2, kita tahu bahwa ada tumpang tindih antara 'pelukis potret yang mahir' dengan 'orang yang menguasai teknik pahat'. Dengan menggabungkan kedua premis, dapat ditarik kesimpulan bahwa sebagian dari sub-kelompok pertama (seniman cat air) juga bisa termasuk dalam sub-kelompok yang tumpang tindih tersebut (menguasai teknik pahat). Jadi, 'beberapa seniman yang menggunakan cat air' bisa jadi 'mahir dalam teknik pahat'."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Pola deret gambar: Sebuah lingkaran, lalu sebuah lingkaran dengan satu garis vertikal, lalu sebuah lingkaran dengan satu garis vertikal dan satu garis horizontal. Pola ini terus berlanjut. Apa gambar yang ke-5?",
+    "pilihan": [
+      "Lingkaran dengan empat garis yang saling tegak lurus.",
+      "Lingkaran dengan lima garis yang saling tegak lurus.",
+      "Lingkaran dengan satu garis vertikal, satu garis horizontal, dan satu garis diagonal.",
+      "Lingkaran dengan dua garis vertikal dan dua garis horizontal.",
+      "Lingkaran dengan dua garis vertikal, satu garis horizontal."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pola ini menambahkan dua garis baru pada setiap langkah (satu vertikal dan satu horizontal). Urutannya adalah:\n1.  Gambar ke-1: Lingkaran (0 garis).\n2.  Gambar ke-2: Lingkaran + 1 garis vertikal.\n3.  Gambar ke-3: Lingkaran + 1 garis vertikal + 1 garis horizontal.\n4.  Gambar ke-4: Lingkaran + 2 garis vertikal + 1 garis horizontal.\n5.  Gambar ke-5: Lingkaran + 2 garis vertikal + 2 garis horizontal."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Observasi: Setiap kali sebuah perusahaan meluncurkan produk baru dengan strategi pemasaran yang berfokus pada media sosial, pangsa pasarnya cenderung meningkat pesat dalam enam bulan pertama.\n\nKesimpulan induktif yang paling rasional adalah...",
+    "pilihan": [
+      "Media sosial adalah satu-satunya faktor yang menyebabkan peningkatan pangsa pasar.",
+      "Pemasaran media sosial selalu menjamin peningkatan pangsa pasar.",
+      "Ada probabilitas tinggi bahwa pemasaran media sosial merupakan faktor yang berkontribusi pada peningkatan pangsa pasar produk baru.",
+      "Peningkatan pangsa pasar hanya bergantung pada kualitas produk.",
+      "Tidak ada hubungan antara strategi pemasaran dan pangsa pasar."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Observasi tersebut menunjukkan korelasi yang kuat antara pemasaran media sosial dan peningkatan pangsa pasar. Kesimpulan induktif terbaik adalah bahwa pemasaran media sosial 'merupakan faktor yang berkontribusi', bukan satu-satunya faktor atau jaminan mutlak. Pilihan C adalah yang paling rasional dan sesuai dengan prinsip penalaran induktif."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Pola deret angka: 3, 5, 9, 17, 33, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "64",
+      "65",
+      "66",
+      "67",
+      "68"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah $(n \times 2) - 1$, di mana n adalah angka sebelumnya. Polanya adalah:\n$3 \times 2 - 1 = 5$\n$5 \times 2 - 1 = 9$\n$9 \times 2 - 1 = 17$\n$17 \times 2 - 1 = 33$\nMaka, angka berikutnya adalah $33 \times 2 - 1 = 66 - 1 = 65$."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Premis: Setiap kali volume penjualan 'smartwatch' di negara X meningkat, penjualan 'smartphone' juga meningkat. Namun, kenaikan penjualan 'smartwatch' tidak selalu mendahului kenaikan penjualan 'smartphone'.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": [
+      "Penjualan 'smartwatch' menyebabkan penjualan 'smartphone' meningkat.",
+      "Penjualan 'smartphone' menyebabkan penjualan 'smartwatch' meningkat.",
+      "Ada korelasi positif antara penjualan 'smartwatch' dan 'smartphone', tetapi hubungan kausalitasnya tidak jelas.",
+      "Penjualan 'smartwatch' dan 'smartphone' tidak berhubungan.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Premis tersebut secara eksplisit menyatakan adanya korelasi positif antara penjualan kedua produk. Namun, kalimat 'kenaikan penjualan smartwatch tidak selalu mendahului kenaikan penjualan smartphone' secara langsung menghilangkan kemungkinan kausalitas satu arah (A menyebabkan B atau sebaliknya). Oleh karena itu, kesimpulan yang paling tepat adalah bahwa ada korelasi, tetapi hubungan sebab-akibatnya tidak bisa dipastikan."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Observasi: Sebuah eksperimen menunjukkan bahwa 90% dari tanaman yang disiram dengan 'Larutan X' tumbuh 20% lebih cepat daripada tanaman kontrol.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pilihan": [
+      "Larutan X secara mutlak mempercepat pertumbuhan tanaman.",
+      "Larutan X adalah penyebab pasti dari pertumbuhan cepat tanaman.",
+      "Ada kemungkinan besar bahwa Larutan X berkontribusi pada percepatan pertumbuhan tanaman.",
+      "Pertumbuhan cepat tanaman hanya disebabkan oleh Larutan X.",
+      "Data ini tidak cukup untuk menarik kesimpulan yang valid."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Hasil eksperimen yang sangat signifikan (90% tanaman) menunjukkan adanya hubungan yang kuat. Namun, karena tidak semua tanaman menunjukkan hasil yang sama (ada 10% yang tidak), kita tidak dapat menyimpulkan bahwa Larutan X adalah penyebab mutlak atau pasti. Kesimpulan induktif yang paling aman dan kuat adalah bahwa Larutan X 'memiliki kemungkinan besar berkontribusi' pada hasil tersebut."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Pola deret angka: 5, 10, 8, 16, 14, 28, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pilihan": [
+      "24",
+      "26",
+      "28",
+      "30",
+      "56"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah kombinasi dari dua operasi yang berulang. Setiap angka dikalikan 2, lalu angka berikutnya dikurangi 2. Polanya adalah:\n$5 \times 2 = 10$\n$10 - 2 = 8$\n$8 \times 2 = 16$\n$16 - 2 = 14$\n$14 \times 2 = 28$\nMaka, angka berikutnya adalah $28 - 2 = 26$."
+  }
+]
