@@ -11,7 +11,7 @@
       "$14\\sqrt{3}$"
     ],
     "jawaban": "D",
-    "pembahasan": "Sederhanakan setiap suku terlebih dahulu:\n\n$3\\sqrt{48} = 3\\sqrt{16 \\times 3} = 3 \\times 4\\sqrt{3} = 12\\sqrt{3}$\n$2\\sqrt{12} = 2\\sqrt{4 \\times 3} = 2 \\times 2\\sqrt{3} = 4\\sqrt{3}$\n$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$\n\nMaka, operasinya menjadi:\n$12\\sqrt{3} - 4\\sqrt{3} + 5\\sqrt{3} \n = (12 - 4 + 5)\\sqrt{3} = 13\\sqrt{3}$"
+    "pembahasan": "Sederhanakan setiap suku terlebih dahulu:\n\n$$3\\sqrt{48} = 3\\sqrt{16 \\cdot 3} = 3 \\cdot 4 \\sqrt{3} = 12\\sqrt{3}$$\n$$2\\sqrt{12} = 2\\sqrt{4 \\cdot 3} = 2 \\cdot 2 \\sqrt{3} = 4\\sqrt{3}$$\n$$\\sqrt{75} = \\sqrt{25 \\cdot 3} = 5\\sqrt{3}$$\n\nJumlahkan:\n$$12\\sqrt{3} - 4\\sqrt{3} + 5\\sqrt{3} = 13\\sqrt{3}$$"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "32"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{a \\times b}$:\n\n$\\sqrt{32} \\times \\sqrt{8} = \\sqrt{32 \\times 8} = \\sqrt{256}$\n\nNilai dari $\\sqrt{256}$ adalah 16."
+    "pembahasan": "Gunakan sifat $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{a \\cdot b}$:\n\n$$\\sqrt{32} \\times \\sqrt{8} = \\sqrt{32 \\cdot 8} = \\sqrt{256} = 16$$"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk merasionalkan penyebut, kalikan pembilang dan penyebut dengan $\\sqrt{5}$:\n\n$\\frac{10}{2\\sqrt{5}} = \\frac{10}{2\\sqrt{5}} \\times \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{10\\sqrt{5}}{2 \\times 5} = \\frac{10\\sqrt{5}}{10} = \\sqrt{5}$"
+    "pembahasan": "Kalikan pembilang dan penyebut dengan $\\sqrt{5}$:\n\n$$\\frac{10}{2\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{10\\sqrt{5}}{10} = \\sqrt{5}$$"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "$8\\sqrt{5}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Kalikan pembilang dan penyebut dengan akar sekawan dari penyebut, yaitu $(\\sqrt{5} + 1)$:\n\n$\\frac{8}{\\sqrt{5} - 1} = \\frac{8}{\\sqrt{5} - 1} \\times \\frac{\\sqrt{5} + 1}{\\sqrt{5} + 1} = \\frac{8(\\sqrt{5} + 1)}{(\\sqrt{5})^2 - 1^2} \n = \\frac{8(\\sqrt{5} + 1)}{5 - 1} = \\frac{8(\\sqrt{5} + 1)}{4} = 2(\\sqrt{5} + 1)$"
+    "pembahasan": "Kalikan pembilang dan penyebut dengan konjugat penyebut $(\\sqrt{5} + 1)$:\n\n$$\\frac{8}{\\sqrt{5}-1} \\cdot \\frac{\\sqrt{5}+1}{\\sqrt{5}+1} = \\frac{8(\\sqrt{5}+1)}{(\\sqrt{5})^2 - 1^2} = \\frac{8(\\sqrt{5}+1)}{4} = 2(\\sqrt{5}+1)$$"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "$\\sqrt{10}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat $(a+b)(a-b) = a^2 - b^2$:\n\n$(\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) \n = (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4$"
+    "pembahasan": "Gunakan sifat $(a+b)(a-b) = a^2 - b^2$:\n\n$$(\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) = (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4$$"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "$25\\sqrt{6}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Sederhanakan setiap suku:\n\n$2\\sqrt{150} = 2\\sqrt{25 \\times 6} = 2 \\times 5\\sqrt{6} = 10\\sqrt{6}$\n$5\\sqrt{54} = 5\\sqrt{9 \\times 6} = 5 \\times 3\\sqrt{6} = 15\\sqrt{6}$\n$7\\sqrt{96} = 7\\sqrt{16 \\times 6} = 7 \\times 4\\sqrt{6} = 28\\sqrt{6}$\n\nMaka, $10\\sqrt{6} - 15\\sqrt{6} + 28\\sqrt{6} \n= (10 - 15 + 28)\\sqrt{6} = 23\\sqrt{6}$"
+    "pembahasan": "Sederhanakan setiap suku:\n\n$$2\\sqrt{150} = 2\\sqrt{25\\cdot6} = 10\\sqrt{6}$$\n$$5\\sqrt{54} = 5\\sqrt{9\\cdot6} = 15\\sqrt{6}$$\n$$7\\sqrt{96} = 7\\sqrt{16\\cdot6} = 28\\sqrt{6}$$\n\nJumlahkan:\n$$10\\sqrt{6} - 15\\sqrt{6} + 28\\sqrt{6} = 23\\sqrt{6}$$"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "$4\\sqrt{3}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat perkalian sekawan $(x+y)(x-y) = x^2 - y^2$:\n\n$a \\times b = (2 + \\sqrt{3})(2 - \\sqrt{3}) \n= 2^2 - (\\sqrt{3})^2 = 4 - 3 = 1$"
+    "pembahasan": "Gunakan sifat $(x+y)(x-y) = x^2 - y^2$:\n\n$$a\\times b = (2+\\sqrt{3})(2-\\sqrt{3}) = 2^2 - (\\sqrt{3})^2 = 4-3 = 1$$"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "$100\\sqrt{5}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Faktorkan bilangan di dalam akar menjadi perkalian bilangan kuadrat sempurna dan bilangan lain:\n\n$\\sqrt{500} = \\sqrt{100 \\times 5} = \\sqrt{100} \\times \\sqrt{5} = 10\\sqrt{5}$"
+    "pembahasan": "Faktorkan bilangan di dalam akar:\n\n$$\\sqrt{500} = \\sqrt{100\\cdot5} = 10\\sqrt{5}$$"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "3"
     ],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan pembilang:\n\n$\\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}$\n$\\sqrt{18} = \\sqrt{9 \\times 2} = 3\\sqrt{2}$\n\nJadi, pembilangnya adalah $6\\sqrt{2} + 3\\sqrt{2} = 9\\sqrt{2}$.\nPenyebutnya adalah $\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$.\n\nMaka pecahannya menjadi $\\frac{9\\sqrt{2}}{2\\sqrt{3}}$.\nRasionalkan penyebut:\n\n$\\frac{9\\sqrt{2}}{2\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{9\\sqrt{6}}{2 \\times 3} = \\frac{9\\sqrt{6}}{6} = \\frac{3\\sqrt{6}}{2}$"
+    "pembahasan": "Sederhanakan pembilang dan penyebut:\n\n$$\\sqrt{72} = 6\\sqrt{2}, \\quad \\sqrt{18} = 3\\sqrt{2}$$\n$$\\text{Pembilang }= 6\\sqrt{2} + 3\\sqrt{2} = 9\\sqrt{2}$$\n$$\\text{Penyebut }= \\sqrt{12} = 2\\sqrt{3}$$\n\nRasionalkan penyebut:\n\n$$\\frac{9\\sqrt{2}}{2\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{9\\sqrt{6}}{6} = \\frac{3\\sqrt{6}}{2}$$"
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "11"
     ],
     "jawaban": "C",
-    "pembahasan": "Kuadratkan kedua ruas persamaan untuk menghilangkan akar:\n\n$(\\sqrt{3x - 2})^2 = 5^2$\n$3x - 2 = 25$\n$3x = 27$\n$x = 9$"
+    "pembahasan": "Kuadratkan kedua ruas:\n\n$$3x - 2 = 25 \\Rightarrow 3x = 27 \\Rightarrow x = 9$$"
   },
   {
     "id": 11,
@@ -147,11 +147,11 @@
       "3",
       "4",
       "6",
-      "2$\\sqrt{3}$",
+      "2\\sqrt{3}",
       "Tidak dapat ditentukan"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan $x = \\sqrt{12 + \\sqrt{12 + \\sqrt{12 + ...}}}$.\nMaka, persamaan dapat ditulis sebagai $x = \\sqrt{12 + x}$.\n\nKuadratkan kedua ruas: $x^2 = 12 + x$.\nPindahkan semua suku ke satu ruas: $x^2 - x - 12 = 0$.\n\nFaktorkan persamaan kuadrat: $(x-4)(x+3) = 0$.\nDidapat $x=4$ atau $x=-3$. Karena nilai akar tidak mungkin negatif, maka jawaban yang benar adalah $x=4$."
+    "pembahasan": "Misalkan:\n\n$$x = \\sqrt{12 + \\sqrt{12 + \\cdots}} \\Rightarrow x = \\sqrt{12 + x}$$\n\nKuadratkan kedua ruas:\n\n$$x^2 = 12 + x \\Rightarrow x^2 - x - 12 = 0$$\nFaktorkan:\n$$(x-4)(x+3)=0 \\Rightarrow x=4 \\text{ atau } x=-3$$\n\nNilai akar positif, maka $x=4$."
   },
   {
     "id": 12,
@@ -161,11 +161,11 @@
       "1",
       "4",
       "5",
-      "2$\\sqrt{6}$",
-      "4$\\sqrt{6}$"
+      "2\\sqrt{6}",
+      "4\\sqrt{6}"
     ],
     "jawaban": "E",
-    "pembahasan": "Samakan penyebutnya:\n\n$\\frac{(\\sqrt{3} + \\sqrt{2})^2 - (\\sqrt{3} - \\sqrt{2})^2}{(\\sqrt{3} - \\sqrt{2})(\\sqrt{3} + \\sqrt{2})}$\n\nPembilang: $(3 + 2\\sqrt{6} + 2) - (3 - 2\\sqrt{6} + 2) \n= (5 + 2\\sqrt{6}) - (5 - 2\\sqrt{6}) \n= 4\\sqrt{6}$\n\nPenyebut: $(\\sqrt{3})^2 - (\\sqrt{2})^2 = 3 - 2 = 1$\n\nHasilnya adalah $\\frac{4\\sqrt{6}}{1} = 4\\sqrt{6}$."
+    "pembahasan": "Samakan penyebut menggunakan konjugat:\n\n$$\\frac{(\\sqrt{3} + \\sqrt{2})^2 - (\\sqrt{3} - \\sqrt{2})^2}{(\\sqrt{3}-\\sqrt{2})(\\sqrt{3}+\\sqrt{2})}$$\n\nPembilang:\n$$(3+2\\sqrt{6}+2) - (3-2\\sqrt{6}+2) = 4\\sqrt{6}$$\n\nPenyebut:\n$$(\\sqrt{3})^2 - (\\sqrt{2})^2 = 1$$\n\nJadi hasilnya $4\\sqrt{6}$."
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "121"
     ],
     "jawaban": "B",
-    "pembahasan": "Kita memiliki dua persamaan:\n1) $\\sqrt{x} + \\sqrt{y} = 11$\n2) $\\sqrt{x} - \\sqrt{y} = 3$\n\nNilai $x-y$ dapat difaktorkan menjadi $(\\sqrt{x} - \\sqrt{y})(\\sqrt{x} + \\sqrt{y})$.\nMaka, $x - y = (3)(11) = 33$."
+    "pembahasan": "Gunakan identitas:\n\n$$x-y = (\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y}) = 11 \\cdot 3 = 33$$"
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       "7"
     ],
     "jawaban": "D",
-    "pembahasan": "Pindahkan salah satu suku akar ke ruas kanan: $\\sqrt{x+3} = 5 - \\sqrt{x-2}$.\n\nKuadratkan kedua ruas: $(\\sqrt{x+3})^2 = (5 - \\sqrt{x-2})^2$\n$x+3 = 25 - 10\\sqrt{x-2} + (x-2)$\n$x+3 = 23 + x - 10\\sqrt{x-2}$\n$3 - 23 = -10\\sqrt{x-2}$\n$-20 = -10\\sqrt{x-2}$\n$2 = \\sqrt{x-2}$\n\nKuadratkan lagi kedua ruas: $2^2 = (\\sqrt{x-2})^2$\n$4 = x-2$\n$x = 6$.\n\nPeriksa jawaban dengan memasukkan ke persamaan awal: $\\sqrt{6+3} + \\sqrt{6-2} = \\sqrt{9} + \\sqrt{4} = 3+2 = 5$. (Memenuhi)"
+    "pembahasan": "Pindahkan salah satu akar:\n\n$$\\sqrt{x+3} = 5 - \\sqrt{x-2}$$\nKuadratkan:\n$$x+3 = 25 - 10\\sqrt{x-2} + x - 2 \\Rightarrow 10\\sqrt{x-2} = 20 \\Rightarrow \\sqrt{x-2} = 2$$\nKuadratkan lagi:\n$$x-2 = 4 \\Rightarrow x=6$$\nCek substitusi: $\\sqrt{9}+\\sqrt{4}=3+2=5$ ✅"
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       "$2 + 3\\sqrt{2}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat $\\sqrt{(a+b) - 2\\sqrt{ab}} = \\sqrt{a} - \\sqrt{b}$ untuk $a>b$.\n\nUbah bentuk soal menjadi: $\\sqrt{17 - 2\\sqrt{72}}$.\nCari dua bilangan yang jika dijumlahkan hasilnya 17 dan jika dikalikan hasilnya 72. Bilangan tersebut adalah 9 dan 8.\n\nMaka, $a=9$ dan $b=8$.\nSehingga, $\\sqrt{17 - 2\\sqrt{72}} = \\sqrt{9} - \\sqrt{8} = 3 - 2\\sqrt{2}$."
+    "pembahasan": "Cari $a$ dan $b$ sehingga $\\sqrt{17-12\\sqrt{2}} = \\sqrt{a} - \\sqrt{b}$:\n\n$$(\\sqrt{a}-\\sqrt{b})^2 = a+b - 2\\sqrt{ab} = 17 - 12\\sqrt{2}$$\n$$a+b=17, \\quad 2\\sqrt{ab} = 12\\sqrt{2} \\Rightarrow ab=72$$\n$$a=9, b=8 \\Rightarrow \\sqrt{17-12\\sqrt{2}} = 3-2\\sqrt{2}$$"
   },
   {
     "id": 16,
@@ -216,12 +216,12 @@
     "pilihan": [
       "12",
       "24",
-      "2$\\sqrt{35}$",
-      "4$\\sqrt{35}$",
+      "2\\sqrt{35}",
+      "4\\sqrt{35}",
       "48"
     ],
     "jawaban": "B",
-    "pembahasan": "$x^2 = (\\sqrt{7} + \\sqrt{5})^2 = 7 + 2\\sqrt{35} + 5\n = 12 + 2\\sqrt{35}$.\n$y^2 = (\\sqrt{7} - \\sqrt{5})^2 = 7 - 2\\sqrt{35} + 5 \n= 12 - 2\\sqrt{35}$.\n\n$x^2 + y^2 = (12 + 2\\sqrt{35}) + (12 - 2\\sqrt{35}) \n= 24$."
+    "pembahasan": "Hitung masing-masing kuadrat:\n\n$$x^2 = (\\sqrt{7}+\\sqrt{5})^2 = 12 + 2\\sqrt{35}$$\n$$y^2 = (\\sqrt{7}-\\sqrt{5})^2 = 12 - 2\\sqrt{35}$$\n$$x^2+y^2 = (12+2\\sqrt{35})+(12-2\\sqrt{35}) = 24$$"
   },
   {
     "id": 17,
@@ -235,7 +235,7 @@
       "$x=\\frac{1}{2}$ atau $x=1$"
     ],
     "jawaban": "D",
-    "pembahasan": "Kuadratkan kedua ruas: $2x^2 - 9x + 10 = (x-2)^2 = x^2 - 4x + 4$.\n\n$2x^2 - x^2 - 9x + 4x + 10 - 4 = 0$.\n$x^2 - 5x + 6 = 0$.\n\nFaktorkan: $(x-2)(x-3) = 0$.\nJadi, $x=2$ atau $x=3$.\n\n**Penting:** Kita harus cek syarat dari persamaan awal, yaitu ekspresi di bawah akar harus non-negatif ($2x^2 - 9x + 10 \\ge 0$) dan ruas kanan juga harus non-negatif ($x-2 \\ge 0 \\Rightarrow x \\ge 2$).\n\nUntuk $x=2$: $2(2)^2 - 9(2) + 10 = 8 - 18 + 10 = 0 \\ge 0$. Dan $2-2=0 \\ge 0$. (Memenuhi)\nUntuk $x=3$: $2(3)^2 - 9(3) + 10 = 18 - 27 + 10 = 1 \\ge 0$. Dan $3-2=1 \\ge 0$. (Memenuhi)\n\nJadi, kedua solusi $x=2$ dan $x=3$ adalah benar."
+    "pembahasan": "Kuadratkan kedua ruas:\n\n$$2x^2 - 9x + 10 = (x-2)^2 = x^2 - 4x + 4$$\n$$x^2 - 5x + 6 = 0 \\Rightarrow (x-2)(x-3)=0$$\nPeriksa kondisi $x-2 \\ge 0$ dan $2x^2-9x+10\\ge0$, kedua solusi $x=2$ dan $x=3$ ✅"
   },
   {
     "id": 18,
@@ -249,7 +249,7 @@
       "3"
     ],
     "jawaban": "A",
-    "pembahasan": "Rasionalkan setiap suku secara terpisah:\n\n$\\frac{1}{\\sqrt{2}+1} = \\frac{\\sqrt{2}-1}{(\\sqrt{2}+1)(\\sqrt{2}-1)} = \\frac{\\sqrt{2}-1}{2-1} = \\sqrt{2}-1$\n\n$\\frac{1}{\\sqrt{3}+\\sqrt{2}} = \\frac{\\sqrt{3}-\\sqrt{2}}{(\\sqrt{3}+\\sqrt{2})(\\sqrt{3}-\\sqrt{2})} = \\frac{\\sqrt{3}-\\sqrt{2}}{3-2} = \\sqrt{3}-\\sqrt{2}$\n\n$\\frac{1}{\\sqrt{4}+\\sqrt{3}} = \\frac{\\sqrt{4}-\\sqrt{3}}{(\\sqrt{4}+\\sqrt{3})(\\sqrt{4}-\\sqrt{3})} = \\frac{\\sqrt{4}-\\sqrt{3}}{4-3} = \\sqrt{4}-\\sqrt{3} = 2-\\sqrt{3}$\n\nJumlahkan semua hasilnya:\n\n$(\\sqrt{2}-1) + (\\sqrt{3}-\\sqrt{2}) + (2-\\sqrt{3})$\n$= -1 + (\\sqrt{2}-\\sqrt{2}) + (\\sqrt{3}-\\sqrt{3}) + 2$\n$= -1 + 0 + 0 + 2 = 1$.\n\nIni adalah contoh deret teleskopik."
+    "pembahasan": "Rasionalkan tiap suku:\n\n$$\\frac{1}{\\sqrt{2}+1} = \\sqrt{2}-1$$\n$$\\frac{1}{\\sqrt{3}+\\sqrt{2}} = \\sqrt{3}-\\sqrt{2}$$\n$$\\frac{1}{\\sqrt{4}+\\sqrt{3}} = 2-\\sqrt{3}$$\n\nJumlahkan: $(\\sqrt{2}-1)+(\\sqrt{3}-\\sqrt{2})+(2-\\sqrt{3}) = 1$"
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
       "4"
     ],
     "jawaban": "A",
-    "pembahasan": "Substitusikan $x = \\sqrt{2}+\\sqrt{6}$ ke dalam fungsi:\n\n$f(\\sqrt{2}+\\sqrt{6}) = (\\sqrt{2}+\\sqrt{6})^2 - 4$\n\nKembangkan kuadratnya:\n$= ((\\sqrt{2})^2 + 2(\\sqrt{2})(\\sqrt{6}) + (\\sqrt{6})^2) - 4$\n$= (2 + 2\\sqrt{12} + 6) - 4$\n$= (8 + 2\\sqrt{4 \\times 3}) - 4$\n$= (8 + 2 \\times 2\\sqrt{3}) - 4$\n$= (8 + 4\\sqrt{3}) - 4$\n$= 4 + 4\\sqrt{3}$"
+    "pembahasan": "Substitusi:\n\n$$f(\\sqrt{2}+\\sqrt{6}) = (\\sqrt{2}+\\sqrt{6})^2 - 4 = 2 + 6 + 2\\sqrt{12} -4 = 4 + 4\\sqrt{3}$$"
   },
   {
     "id": 20,
@@ -277,6 +277,6 @@
       "3"
     ],
     "jawaban": "E",
-    "pembahasan": "Dari persamaan kuadrat $ax^2+bx+c=0$, kita tahu bahwa jumlah akar-akar $(p+q) = -b/a$ dan hasil kali akar-akar $(pq) = c/a$.\n\nDalam kasus ini, $a=1$, $b=-(3+\\sqrt{5})$, dan $c=\\sqrt{5}$.\n\nJumlah akar-akar: $p+q = -\\frac{-(3+\\sqrt{5})}{1} = 3+\\sqrt{5}$.\nHasil kali akar-akar: $pq = \\frac{\\sqrt{5}}{1} = \\sqrt{5}$.\n\nNilai yang ditanyakan adalah $p+q-pq = (3+\\sqrt{5}) - \\sqrt{5} = 3$."
+    "pembahasan": "Gunakan rumus jumlah dan hasil kali akar:\n\n$$p+q = 3+\\sqrt{5}, \\quad pq = \\sqrt{5}$$\n$$p+q-pq = (3+\\sqrt{5}) - \\sqrt{5} = 3$$"
   }
 ]
