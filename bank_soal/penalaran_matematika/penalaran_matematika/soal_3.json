@@ -4,28 +4,28 @@
     "pertanyaan": "Sebuah toko menjual apel dan mangga. Harga 3 kg apel dan 2 kg mangga adalah Rp70.000,00. Sementara itu, harga 2 kg apel dan 3 kg mangga adalah Rp80.000,00. Berapakah harga 1 kg apel?",
     "pilihan": ["Rp11.000,00", "Rp17.100,00", "Rp10.000,00", "Rp12.100,00", "Rp20.000,00"],
     "jawaban": "C",
-    "pembahasan": "Misalkan harga 1 kg apel = $A$ dan harga 1 kg mangga = $M$.\\nPersamaan: $3A+2M=70.000$ dan $2A+3M=80.000$.\\nJumlahkan kedua persamaan: $5A+5M=150.000 \\implies A+M=30.000$.\\nSelisihkan persamaan: $A-M=-10.000$.\\nTambahkan kedua hasil: $2A=20.000 \\implies A=10.000$. Jadi harga 1 kg apel adalah **Rp10.000,00**."
+    "pembahasan": "Misalkan harga 1 kg apel = $A$ dan harga 1 kg mangga = $M$.\nPersamaan: $3A+2M=70.000$ dan $2A+3M=80.000$.\nJumlahkan kedua persamaan: $5A+5M=150.000 \\implies A+M=30.000$.\nSelisihkan persamaan: $A-M=-10.000$.\nTambahkan kedua hasil: $2A=20.000 \\implies A=10.000$. Jadi harga 1 kg apel adalah **Rp10.000,00**."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang memiliki keliling 80 meter. Jika panjang kolam 10 meter lebih panjang dari lebarnya, berapakah luas kolam tersebut?",
     "pilihan": ["300 m²", "310 m²", "371 m²", "375 m²", "400 m²"],
     "jawaban": "D",
-    "pembahasan": "Keliling $=2(p+l)=80 \\implies p+l=40$.\\nDiketahui $p=l+10$.\\nMaka $(l+10)+l=40 \\implies 2l+10=40 \\implies l=15$, sehingga $p=25$.\\nLuas $=p \\times l = 25 \\times 15 = 375$ m². Jadi jawabannya **375 m²**."
+    "pembahasan": "Keliling $=2(p+l)=80 \\implies p+l=40$.\nDiketahui $p=l+10$.\nMaka $(l+10)+l=40 \\implies 2l+10=40 \\implies l=15$, sehingga $p=25$.\nLuas $=p \\times l = 25 \\times 15 = 375$ m². Jadi jawabannya **375 m²**."
   },
   {
     "id": 3,
     "pertanyaan": "Harga sebuah tas Rp110.000,00. Awal bulan diskon 20%, lalu harga yang sudah didiskon dinaikkan 15%. Berapa harga akhirnya?",
     "pilihan": ["Rp100.000,00", "Rp101.200,00", "Rp110.000,00", "Rp120.000,00", "Rp126.400,00"],
     "jawaban": "B",
-    "pembahasan": "Harga awal $=110.000$.\\nSetelah diskon 20%: $110.000 \\times 0,8 = 88.000$.\\nLalu naik 15%: $88.000 \\times 1,15 = 101.200$.\\nJadi harga akhirnya adalah **Rp101.200,00**."
+    "pembahasan": "Harga awal $=110.000$.\nSetelah diskon 20%: $110.000 \\times 0,8 = 88.000$.\nLalu naik 15%: $88.000 \\times 1,15 = 101.200$.\nJadi harga akhirnya adalah **Rp101.200,00**."
   },
   {
     "id": 4,
     "pertanyaan": "Ayah dan Ibu bisa membersihkan kebun dalam 6 jam. Ayah dan Kakak 8 jam. Ibu dan Kakak 12 jam. Berapa lama Kakak sendirian?",
     "pilihan": ["12 jam", "16 jam", "18 jam", "24 jam", "30 jam"],
     "jawaban": "D",
-    "pembahasan": "Misalkan kemampuan kerja Ayah = $A$, Ibu = $I$, Kakak = $K$.\\n$1/A + 1/I = 1/6$, $1/A + 1/K = 1/8$, $1/I + 1/K = 1/12$.\\nJumlahkan: $2(1/A+1/I+1/K)=1/6+1/8+1/12=9/24=3/8$.\\nSehingga $1/A+1/I+1/K=3/16$.\\nKurangi dengan $(1/A+1/I)=1/6$, maka $1/K=3/16-1/6=1/24$.\\nJadi Kakak butuh **24 jam**."
+    "pembahasan": "Misalkan kemampuan kerja Ayah = $A$, Ibu = $I$, Kakak = $K$.\n$1/A + 1/I = 1/6$, $1/A + 1/K = 1/8$, $1/I + 1/K = 1/12$.\nJumlahkan: $2(1/A+1/I+1/K)=1/6+1/8+1/12=9/24=3/8$.\nSehingga $1/A+1/I+1/K=3/16$.\nKurangi dengan $(1/A+1/I)=1/6$, maka $1/K=3/16-1/6=1/24$.\nJadi Kakak butuh **24 jam**."
   },
   {
     "id": 5,
@@ -39,14 +39,14 @@
     "pertanyaan": "Sebuah kelas terdiri dari 40 siswa. Rata-rata nilai ulangan adalah 75. Setelah ditambahkan nilai guru untuk 5 siswa, rata-rata naik jadi 76. Tambahan nilai total adalah...",
     "pilihan": ["10", "15", "20", "25", "40"],
     "jawaban": "E",
-    "pembahasan": "Total awal $=40 \\times 75=3000$.\\nTotal baru $=40 \\times 76=3040$.\\nTambahan $=3040-3000=40$.\\nJadi tambahan nilai total adalah **40**."
+    "pembahasan": "Total awal $=40 \\times 75=3000$.\nTotal baru $=40 \\times 76=3040$.\nTambahan $=3040-3000=40$.\nJadi tambahan nilai total adalah **40**."
   },
   {
     "id": 7,
     "pertanyaan": "Jika $2x+3y=12$ dan $x-y=2$, maka $x+y$ = ...",
     "pilihan": ["4", "5", "5,2", "6", "7"],
     "jawaban": "C",
-    "pembahasan": "Dari $x-y=2 \\implies x=y+2$.\\nSubstitusi ke $2(y+2)+3y=12 \\implies 2y+4+3y=12 \\implies 5y=8 \\implies y=1,6$.\\nMaka $x=3,6$.\\nSehingga $x+y=5,2$. Jadi jawabannya adalah **5,2**."
+    "pembahasan": "Dari $x-y=2 \\implies x=y+2$.\nSubstitusi ke $2(y+2)+3y=12 \\implies 2y+4+3y=12 \\implies 5y=8 \\implies y=1,6$.\nMaka $x=3,6$.\nSehingga $x+y=5,2$. Jadi jawabannya adalah **5,2**."
   },
   {
     "id": 8,
