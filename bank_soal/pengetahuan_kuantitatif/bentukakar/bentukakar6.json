@@ -1,6 +1,6 @@
 [
   {
-    "id": 101,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Jika x adalah bilangan ganjil dan y adalah bilangan genap, maka pernyataan yang benar adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "x - y adalah genap"
     ],
     "jawaban": "x + y adalah ganjil",
-    "pembahasan": "Jika x ganjil dan y genap, maka penjumlahan ganjil + genap selalu menghasilkan bilangan ganjil. Contoh: 3 + 2 = 5 (ganjil)."
+    "pembahasan": "Jika $x$ ganjil dan $y$ genap, maka penjumlahan ganjil + genap selalu menghasilkan bilangan ganjil. Contoh: $3 + 2 = 5$ (ganjil)."
   },
   {
-    "id": 102,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Urutan pecahan dari yang terkecil hingga terbesar untuk 1/2, 0.6, 3/4 adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "0.6, 3/4, 1/2"
     ],
     "jawaban": "1/2, 0.6, 3/4",
-    "pembahasan": "Ubah semua ke desimal: 1/2 = 0.5, 0.6 = 0.6, 3/4 = 0.75. Maka urutannya adalah 0.5, 0.6, 0.75 atau 1/2, 0.6, 3/4."
+    "pembahasan": "Ubah semua ke desimal: $1/2 = 0.5$, $0.6 = 0.6$, $3/4 = 0.75$. Urutan dari yang terkecil ke terbesar: $0.5, 0.6, 0.75$, atau $1/2, 0.6, 3/4$."
   },
   {
-    "id": 103,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga asli sebuah tas adalah Rp150.000, berapa harga tas setelah diskon?",
     "pilihan": [
@@ -39,10 +39,10 @@
       "Rp125.000"
     ],
     "jawaban": "Rp120.000",
-    "pembahasan": "Diskon = 20% dari Rp150.000 = 0.20 * 150.000 = Rp30.000. Harga setelah diskon = Rp150.000 - Rp30.000 = Rp120.000."
+    "pembahasan": "Diskon = $20\\% \\times 150.000 = 0.20 \\times 150.000 = 30.000$. Harga setelah diskon = $150.000 - 30.000 = 120.000$."
   },
   {
-    "id": 104,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika keliling persegi adalah 28 cm, maka luas persegi tersebut adalah...",
     "pilihan": [
@@ -53,10 +53,10 @@
       "28 cm^2"
     ],
     "jawaban": "49 cm^2",
-    "pembahasan": "Keliling persegi = 4 * sisi. Jadi, 28 = 4 * sisi --> sisi = 7 cm. Luas persegi = sisi * sisi = 7 * 7 = 49 cm^2."
+    "pembahasan": "Keliling persegi = $4 \\times sisi$. Jadi $28 = 4 \\times sisi \\Rightarrow sisi = 7$ cm. Luas persegi = $sisi^2 = 7^2 = 49$ cm²."
   },
   {
-    "id": 105,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Berapakah 25% dari 200?",
     "pilihan": [
@@ -67,12 +67,12 @@
       "125"
     ],
     "jawaban": "50",
-    "pembahasan": "25% dari 200 = (25/100) * 200 = 0.25 * 200 = 50."
+    "pembahasan": "25% dari 200 = $\\frac{25}{100} \\times 200 = 0.25 \\times 200 = 50$."
   },
   {
-    "id": 106,
+    "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Jika x^2 - 4x + 3 = 0, maka salah satu nilai x yang mungkin adalah...",
+    "pertanyaan": "Jika $x^2 - 4x + 3 = 0$, maka salah satu nilai $x$ yang mungkin adalah...",
     "pilihan": [
       "1",
       "2",
@@ -81,10 +81,10 @@
       "0"
     ],
     "jawaban": "1",
-    "pembahasan": "Faktorkan persamaan kuadrat: x^2 - 4x + 3 = 0 --> (x-1)(x-3) = 0. Jadi, x=1 atau x=3. Salah satu nilai yang mungkin adalah 1."
+    "pembahasan": "Faktorkan persamaan kuadrat: $x^2 - 4x + 3 = 0 \\Rightarrow (x-1)(x-3)=0$. Jadi $x=1$ atau $x=3$. Salah satu nilai yang mungkin adalah $1$."
   },
   {
-    "id": 107,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jumlah suku pertama dan suku kedua dari deret aritmatika adalah 10. Jika beda deret tersebut adalah 4, maka suku ketiga adalah...",
     "pilihan": [
@@ -95,10 +95,10 @@
       "9"
     ],
     "jawaban": "11",
-    "pembahasan": "Misal suku pertama a dan suku kedua a+b. Diketahui a + (a+b) = 10 --> 2a + b = 10. Beda (b) = 4. Maka 2a + 4 = 10 --> 2a = 6 --> a = 3. Suku ketiga = a + 2b = 3 + 2(4) = 3 + 8 = 11."
+    "pembahasan": "Misal suku pertama = $a$ dan beda = $b$. Diketahui:\n$$a + (a+b) = 10 \\Rightarrow 2a + b = 10$$\nDengan $b = 4$, maka $2a + 4 = 10 \\Rightarrow 2a = 6 \\Rightarrow a = 3$\nSuku ketiga = $a + 2b = 3 + 2(4) = 11$."
   },
   {
-    "id": 108,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Jika ada 50 siswa di kelas, 30 siswa suka matematika, 25 siswa suka fisika, dan 10 siswa suka keduanya, berapa siswa yang tidak suka keduanya?",
     "pilihan": [
@@ -109,10 +109,10 @@
       "0"
     ],
     "jawaban": "5",
-    "pembahasan": "Total siswa = Suka MTK + Suka Fisika - Suka Keduanya + Tidak Suka Keduanya.\n50 = 30 + 25 - 10 + X\n50 = 55 - 10 + X\n50 = 45 + X\nX = 50 - 45 = 5 siswa."
+    "pembahasan": "Gunakan prinsip inklusi-eksklusi:\n$$\\text{Tidak suka keduanya} = 50 - (30 + 25 - 10) = 50 - 45 = 5.$$"
   },
   {
-    "id": 109,
+    "id": 9,
     "kategori": "Mudah",
     "pertanyaan": "Jika kecepatan rata-rata mobil adalah 60 km/jam, berapa jarak yang ditempuh dalam 2,5 jam?",
     "pilihan": [
@@ -123,10 +123,10 @@
       "100 km"
     ],
     "jawaban": "150 km",
-    "pembahasan": "Jarak = Kecepatan * Waktu. Jarak = 60 km/jam * 2.5 jam = 150 km."
+    "pembahasan": "Jarak = Kecepatan × Waktu = $60 \\times 2.5 = 150$ km."
   },
   {
-    "id": 110,
+    "id": 10,
     "kategori": "Mudah",
     "pertanyaan": "Sebuah keranjang berisi 12 apel, 4 di antaranya busuk. Jika diambil satu apel secara acak, berapa peluang terambil apel yang tidak busuk?",
     "pilihan": [
@@ -137,12 +137,12 @@
       "1/4"
     ],
     "jawaban": "2/3",
-    "pembahasan": "Jumlah apel tidak busuk = 12 - 4 = 8. Total apel = 12. Peluang = (Apel tidak busuk) / (Total apel) = 8/12 = 2/3."
+    "pembahasan": "Jumlah apel tidak busuk = $12 - 4 = 8$. Peluang = $\\frac{8}{12} = \\frac{2}{3}$."
   },
   {
-    "id": 111,
+    "id": 11,
     "kategori": "Sedang",
-    "pertanyaan": "Jika 3x + y = 11 dan 2x - y = 4, maka nilai x adalah...",
+    "pertanyaan": "Jika $3x + y = 11$ dan $2x - y = 4$, maka nilai $x$ adalah...",
     "pilihan": [
       "3",
       "4",
@@ -151,12 +151,12 @@
       "2"
     ],
     "jawaban": "3",
-    "pembahasan": "Eliminasi y dengan menjumlahkan kedua persamaan:\n(3x + y) + (2x - y) = 11 + 4\n5x = 15\nx = 3."
+    "pembahasan": "Jumlahkan kedua persamaan untuk mengeliminasi $y$:\n$$(3x+y)+(2x-y)=11+4 \\Rightarrow 5x=15 \\Rightarrow x=3.$$"
   },
   {
-    "id": 112,
+    "id": 12,
     "kategori": "Sedang",
-    "pertanyaan": "Jika (x-2)^2 = 9, maka nilai x yang mungkin adalah...",
+    "pertanyaan": "Jika $(x-2)^2 = 9$, maka nilai $x$ yang mungkin adalah...",
     "pilihan": [
       "5 atau -1",
       "5 atau 1",
@@ -165,10 +165,10 @@
       "3 atau -3"
     ],
     "jawaban": "5 atau -1",
-    "pembahasan": "Ambil akar kuadrat kedua sisi: x-2 = akar(9) atau x-2 = -akar(9).\nx-2 = 3 --> x = 5\nx-2 = -3 --> x = -1."
+    "pembahasan": "Ambil akar kuadrat kedua sisi:\n$$x-2 = \\pm 3$$\nJika $x-2 = 3 \\Rightarrow x = 5$\nJika $x-2 = -3 \\Rightarrow x = -1$"
   },
   {
-    "id": 113,
+    "id": 13,
     "kategori": "Mudah",
     "pertanyaan": "Sebuah barisan geometri memiliki suku pertama 2 dan rasio 3. Suku keempat dari barisan ini adalah...",
     "pilihan": [
@@ -179,12 +179,12 @@
       "6"
     ],
     "jawaban": "54",
-    "pembahasan": "Rumus suku ke-n barisan geometri: Un = a * r^(n-1). Suku pertama (a) = 2, rasio (r) = 3. Suku keempat (U4) = 2 * 3^(4-1) = 2 * 3^3 = 2 * 27 = 54."
+    "pembahasan": "Rumus suku ke-n barisan geometri: $U_n = a \\cdot r^{n-1}$. Maka $U_4 = 2 \\cdot 3^{4-1} = 2 \\cdot 27 = 54$."
   },
   {
-    "id": 114,
+    "id": 14,
     "kategori": "Sedang",
-    "pertanyaan": "Jika x adalah bilangan bulat positif dan 2x + 1 < 9, berapa banyak nilai x yang mungkin?",
+    "pertanyaan": "Jika $x$ adalah bilangan bulat positif dan $2x + 1 < 9$, berapa banyak nilai $x$ yang mungkin?",
     "pilihan": [
       "2",
       "3",
@@ -193,12 +193,12 @@
       "1"
     ],
     "jawaban": "3",
-    "pembahasan": "Selesaikan pertidaksamaan: 2x + 1 < 9 --> 2x < 8 --> x < 4. Karena x adalah bilangan bulat positif, maka nilai x yang mungkin adalah 1, 2, dan 3. Ada 3 nilai."
+    "pembahasan": "Selesaikan pertidaksamaan: $2x + 1 < 9 \\Rightarrow 2x < 8 \\Rightarrow x < 4$. Bilangan bulat positif yang memenuhi: $1,2,3$. Jadi ada 3 nilai."
   },
   {
-    "id": 115,
+    "id": 15,
     "kategori": "Mudah",
-    "pertanyaan": "Sebuah kubus memiliki volume 125 cm^3. Luas permukaan kubus tersebut adalah...",
+    "pertanyaan": "Sebuah kubus memiliki volume 125 cm³. Luas permukaan kubus tersebut adalah...",
     "pilihan": [
       "100 cm^2",
       "125 cm^2",
@@ -207,10 +207,10 @@
       "75 cm^2"
     ],
     "jawaban": "150 cm^2",
-    "pembahasan": "Volume kubus = sisi^3. 125 = sisi^3 --> sisi = akar kubik(125) = 5 cm. Luas permukaan kubus = 6 * sisi^2 = 6 * 5^2 = 6 * 25 = 150 cm^2."
+    "pembahasan": "Volume kubus = $sisi^3$. Jadi $125 = sisi^3 \\Rightarrow sisi = 5$ cm.\nLuas permukaan = $6 \\cdot sisi^2 = 6 \\cdot 25 = 150$ cm²."
   },
   {
-    "id": 116,
+    "id": 16,
     "kategori": "Mudah",
     "pertanyaan": "Jika rata-rata dari 5, 8, x, 10 adalah 7, maka nilai x adalah...",
     "pilihan": [
@@ -221,10 +221,10 @@
       "8"
     ],
     "jawaban": "5",
-    "pembahasan": "Rata-rata = (Jumlah data) / (Banyak data). 7 = (5 + 8 + x + 10) / 4.\n7 = (23 + x) / 4\n28 = 23 + x\nx = 5."
+    "pembahasan": "Rata-rata = $(5+8+x+10)/4 = 7$. Jadi $23+x=28 \\Rightarrow x=5$."
   },
   {
-    "id": 117,
+    "id": 17,
     "kategori": "Sedang",
     "pertanyaan": "Jika sebuah uang logam dilempar 3 kali, berapa peluang muncul tepat 2 kepala?",
     "pilihan": [
@@ -235,12 +235,12 @@
       "5/8"
     ],
     "jawaban": "3/8",
-    "pembahasan": "Total kemungkinan hasil pelemparan 3 uang logam = 2^3 = 8 (HHH, HHT, HTH, THH, HTT, THT, TTH, TTT). Hasil yang memiliki tepat 2 kepala adalah 3 (HHT, HTH, THH). Peluang = 3/8."
+    "pembahasan": "Total kemungkinan hasil pelemparan 3 koin = $2^3 = 8$.\nKombinasi dengan tepat 2 kepala: HHT, HTH, THH (3 kombinasi). Peluang = $3/8$."
   },
   {
-    "id": 118,
+    "id": 18,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai dari 2^5 + 3^2 - 4^1 adalah...",
+    "pertanyaan": "Nilai dari $2^5 + 3^2 - 4^1$ adalah...",
     "pilihan": [
       "33",
       "35",
@@ -249,10 +249,10 @@
       "41"
     ],
     "jawaban": "37",
-    "pembahasan": "2^5 = 32. 3^2 = 9. 4^1 = 4. Jadi, 32 + 9 - 4 = 41 - 4 = 37."
+    "pembahasan": "$2^5 = 32$, $3^2 = 9$, $4^1 = 4$. Jadi $32 + 9 - 4 = 37$."
   },
   {
-    "id": 119,
+    "id": 19,
     "kategori": "Mudah",
     "pertanyaan": "Berapa jam dalam 2,5 hari?",
     "pilihan": [
@@ -263,12 +263,12 @@
       "50 jam"
     ],
     "jawaban": "60 jam",
-    "pembahasan": "1 hari = 24 jam. 2,5 hari = 2,5 * 24 jam = 60 jam."
+    "pembahasan": "1 hari = 24 jam. Jadi $2.5 \\times 24 = 60$ jam."
   },
   {
-    "id": 120,
+    "id": 20,
     "kategori": "Mudah",
-    "pertanyaan": "Jika sebuah lingkaran memiliki diameter 14 cm, berapa keliling lingkaran tersebut? (gunakan pi = 22/7)",
+    "pertanyaan": "Jika sebuah lingkaran memiliki diameter 14 cm, berapa keliling lingkaran tersebut? (gunakan $\\pi = 22/7$)",
     "pilihan": [
       "22 cm",
       "44 cm",
@@ -277,6 +277,6 @@
       "55 cm"
     ],
     "jawaban": "44 cm",
-    "pembahasan": "Keliling lingkaran = pi * diameter. Keliling = (22/7) * 14 = 22 * 2 = 44 cm."
+    "pembahasan": "Keliling lingkaran = $\\pi \\times diameter = \\frac{22}{7} \\times 14 = 44$ cm."
   }
 ]
