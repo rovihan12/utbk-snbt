@@ -11,7 +11,7 @@
       "$2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Kita mulai dengan menyederhanakan $x$ menggunakan identitas:\n\\[\n\\sqrt{A + \\sqrt{B}} = \\sqrt{a} + \\sqrt{b} \\quad \\text{dengan } a+b=A \\text{ dan } ab=\\frac{B}{4}.\n\\]\nDi sini $A=7$ dan $B=48$. Kita cari $a$ dan $b$:\n\\[\na+b=7, \\quad ab=12 \\Rightarrow a=4, b=3.\n\\]\nJadi:\n\\[\nx = \\sqrt{4} + \\sqrt{3} = 2 + \\sqrt{3}.\n\\]\nSelanjutnya:\n\\[\n\\frac{1}{x} = \\frac{1}{2+\\sqrt{3}} \\cdot \\frac{2-\\sqrt{3}}{2-\\sqrt{3}} = 2 - \\sqrt{3}.\n\\]\nSehingga:\n\\[\nx + \\frac{1}{x} = (2+\\sqrt{3}) + (2-\\sqrt{3}) = 4.\n\\]"
+    "pembahasan": "Kita mulai dengan menyederhanakan $x$:  \n$x = \\sqrt{7 + \\sqrt{48}} = \\sqrt{7 + 4\\sqrt{3}}$  \nMisalkan $x = \\sqrt{a} + \\sqrt{b}$, maka $(\\sqrt{a} + \\sqrt{b})^2 = a + b + 2\\sqrt{ab} = 7 + 4\\sqrt{3}$.  \nSehingga:  \n$a+b = 7$, $2\\sqrt{ab} = 4\\sqrt{3} \\implies ab = 12$.  \nDari sini $a=4$ dan $b=3$. Maka $x = \\sqrt{4} + \\sqrt{3} = 2 + \\sqrt{3}$.  \nSelanjutnya:  \n$\\frac{1}{x} = \\frac{1}{2 + \\sqrt{3}} \\times \\frac{2 - \\sqrt{3}}{2 - \\sqrt{3}} = 2 - \\sqrt{3}$.  \nSehingga:  \n$x + \\frac{1}{x} = (2 + \\sqrt{3}) + (2 - \\sqrt{3}) = 4$."
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "$2023$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan $n = 2020$. Maka $2019 = n-1$ dan $2021 = n+1$.\\nEkspresi menjadi:\n\\[\n\\sqrt{(n-1)(n+1)+1} = \\sqrt{n^2-1+1} = \\sqrt{n^2} = n = 2020.\n\\]"
+    "pembahasan": "Misalkan $n = 2020$, maka $2019 = n-1$ dan $2021 = n+1$.  \nMaka ekspresi menjadi:  \n$\\sqrt{(n-1)(n+1)+1} = \\sqrt{n^2 - 1 + 1} = \\sqrt{n^2} = n = 2020$."
   },
   {
     "id": 3,
@@ -39,12 +39,12 @@
       "$-2$"
     ],
     "jawaban": "D",
-    "pembahasan": "Dari $x = 1 + \\sqrt{2}$, kita dapatkan:\n\\[\nx - 1 = \\sqrt{2} \\implies (x-1)^2 = 2 \\implies x^2 - 2x -1 =0.\n\\]\nPerhatikan ekspresi:\n\\[\nx^4 - 4x^3 + 4x^2 -1 = (x^2 - 2x)^2 -1.\n\\]\nDari persamaan di atas, $x^2 - 2x = 1$. Maka:\n\\[\n(x^2 - 2x)^2 -1 = 1 -1 = 0.\n\\]"
+    "pembahasan": "Diketahui $x = 1 + \\sqrt{2} \\implies x-1 = \\sqrt{2}$.  \nKuadratkan: $(x-1)^2 = 2 \\implies x^2 - 2x + 1 = 2 \\implies x^2 - 2x - 1 = 0$.  \nEkspresi: $x^4 - 4x^3 + 4x^2 - 1 = (x^2 - 2x)^2 - 1$.  \nDari persamaan, $x^2 - 2x = 1$.  \nSehingga: $(1)^2 - 1 = 0$."
   },
   {
     "id": 4,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $a, b, c$ adalah bilangan real positif, maka $\\sqrt{\\frac{a}{b c}} \\cdot \\sqrt{\\frac{b}{a c}} \\cdot \\sqrt{\\frac{c}{a b}}$ sama dengan...",
+    "pertanyaan": "Jika $a, b, c$ adalah bilangan real positif, maka $\\sqrt{\\frac{a}{b c}} \\times \\sqrt{\\frac{b}{a c}} \\times \\sqrt{\\frac{c}{a b}}$ sama dengan...",
     "pilihan": [
       "$\\frac{1}{abc}$",
       "$\\frac{1}{a+b+c}$",
@@ -53,7 +53,7 @@
       "$\\frac{1}{\\sqrt{abc}}$"
     ],
     "jawaban": "E",
-    "pembahasan": "Gabungkan semua di bawah satu akar:\n\\[\n\\sqrt{\\frac{a}{bc} \\cdot \\frac{b}{ac} \\cdot \\frac{c}{ab}} = \\sqrt{\\frac{abc}{a^2 b^2 c^2}} = \\sqrt{\\frac{1}{abc}} = \\frac{1}{\\sqrt{abc}}.\n\\]"
+    "pembahasan": "Gabungkan semua di bawah satu akar:  \n$\\sqrt{\\frac{a}{bc} \\cdot \\frac{b}{ac} \\cdot \\frac{c}{ab}} = \\sqrt{\\frac{abc}{a^2b^2c^2}} = \\sqrt{\\frac{1}{abc}} = \\frac{1}{\\sqrt{abc}}$."
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "$6$"
     ],
     "jawaban": "D",
-    "pembahasan": "Rasionalkan penyebut:\n\\[\n\\frac{\\sqrt{10} + \\sqrt{5}}{\\sqrt{10} - \\sqrt{5}} \\cdot \\frac{\\sqrt{10} + \\sqrt{5}}{\\sqrt{10} + \\sqrt{5}} = \\frac{(\\sqrt{10} + \\sqrt{5})^2}{10-5} = \\frac{15 + 10\\sqrt{2}}{5} = 3 + 2\\sqrt{2}.\n\\]\nBandingkan dengan $a+b\\sqrt{2}$: $a=3, b=2 \\implies a+b=5$."
+    "pembahasan": "Rasionalkan penyebut:  \n$\\frac{\\sqrt{10} + \\sqrt{5}}{\\sqrt{10} - \\sqrt{5}} \\cdot \\frac{\\sqrt{10} + \\sqrt{5}}{\\sqrt{10} + \\sqrt{5}} = \\frac{(\\sqrt{10} + \\sqrt{5})^2}{10 - 5} = \\frac{10 + 2\\sqrt{50} + 5}{5} = 3 + 2\\sqrt{2}$.  \nDengan membandingkan $3 + 2\\sqrt{2} = a + b\\sqrt{2}$, diperoleh $a=3$, $b=2$.  \nSehingga $a+b = 5$."
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "$0$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan $x = \\sqrt[3]{5\\sqrt{2}+7} - \\sqrt[3]{5\\sqrt{2}-7}$.\\nGunakan identitas $(a-b)^3 = a^3 - b^3 -3ab(a-b)$:\n\\[\nx^3 = (5\\sqrt{2}+7) - (5\\sqrt{2}-7) - 3\\sqrt[3]{(5\\sqrt{2}+7)(5\\sqrt{2}-7)} x = 14 - 3x.\n\\]\nSehingga:\n\\[\nx^3 + 3x - 14 =0.\n\\]\nDengan mencoba nilai, $x=2$ memuaskan persamaan. Jadi $x=2$."
+    "pembahasan": "Misalkan $x = \\sqrt[3]{5\\sqrt{2}+7} - \\sqrt[3]{5\\sqrt{2}-7}$.  \nGunakan identitas $(a-b)^3 = a^3 - b^3 - 3ab(a-b)$:  \n$x^3 = (5\\sqrt{2}+7) - (5\\sqrt{2}-7) - 3\\sqrt[3]{(5\\sqrt{2}+7)(5\\sqrt{2}-7)} x = 14 - 3x$.  \nPersamaan: $x^3 + 3x - 14 = 0$.  \nMencoba $x=2$: $2^3 + 3(2) - 14 = 0$. Jadi $x=2$."
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "$10$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan $x = \\sqrt{20 + \\sqrt{20 + \\sqrt{20 + ...}}}$. Karena berulang, $x = \\sqrt{20+x}$. Kuadratkan kedua sisi:\n\\[\nx^2 = 20+x \\implies x^2 - x -20 =0 \\implies (x-5)(x+4)=0.\n\\]\nKarena $x>0$, maka $x=5$."
+    "pembahasan": "Misalkan $x = \\sqrt{20 + \\sqrt{20 + \\cdots}}$. Karena bentuknya berulang:  \n$x = \\sqrt{20 + x} \\implies x^2 = 20 + x \\implies x^2 - x - 20 = 0$.  \nFaktorkan: $(x-5)(x+4)=0$.  \nKarena $x$ positif, maka $x=5$."
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "$9$"
     ],
     "jawaban": "A",
-    "pembahasan": "Kita punya:\n\\[\nx^2y=12, \\quad xy^2=18.\n\\]\nKalikan kedua persamaan:\n\\[\n(x^2y)(xy^2) = x^3y^3 = 216 \\implies xy=6.\n\\]\nDari $x^2y=12$, substitusi $y=6/x$:\n\\[\nx^2 \\cdot \\frac{6}{x} = 6x =12 \\implies x=2 \\implies y=3.\n\\]\nSehingga $x+y=5$."
+    "pembahasan": "Diketahui:  \n1) $x^2y = 12$, 2) $xy^2 = 18$.  \nKalikan kedua persamaan: $x^3y^3 = 216 \\implies (xy)^3 = 216 \\implies xy=6$.  \nSubstitusi ke persamaan pertama: $x(xy) = 12 \\implies x(6) = 12 \\implies x=2$.  \nSehingga $y = \\frac{6}{2} = 3$.  \nJadi $x+y = 5$."
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "$6\\sqrt{3}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pertama, $a^2 = (\\sqrt{3} + \\sqrt{2})^2 = 5 + 2\\sqrt{6}$.\\nKemudian, $1/a = \\sqrt{3}-\\sqrt{2} \\implies 1/a^2 = 5 - 2\\sqrt{6}$.\\nSehingga $a^2 - 1/a^2 = (5+2\\sqrt{6})-(5-2\\sqrt{6})=4\\sqrt{6}$."
+    "pembahasan": "Pertama, $a^2 = (\\sqrt{3} + \\sqrt{2})^2 = 3 + 2\\sqrt{6} + 2 = 5 + 2\\sqrt{6}$.  \nKemudian $\\frac{1}{a} = \\frac{1}{\\sqrt{3} + \\sqrt{2}} \\cdot \\frac{\\sqrt{3} - \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} = \\sqrt{3} - \\sqrt{2} \\implies \\frac{1}{a^2} = (\\sqrt{3} - \\sqrt{2})^2 = 5 - 2\\sqrt{6}$.  \nSehingga $a^2 - \\frac{1}{a^2} = (5+2\\sqrt{6}) - (5-2\\sqrt{6}) = 4\\sqrt{6}$."
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "$5$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan $A = \\sqrt{2+\\sqrt{3}} - \\sqrt{2-\\sqrt{3}}$. Maka:\n\\[\nA^2 = (2+\\sqrt{3}) + (2-\\sqrt{3}) - 2\\sqrt{(2+\\sqrt{3})(2-\\sqrt{3})} = 4 - 2\\sqrt{1} = 2.\n\\]"
+    "pembahasan": "Misalkan $A = \\sqrt{2+\\sqrt{3}} - \\sqrt{2-\\sqrt{3}}$, maka:  \n$A^2 = (2+\\sqrt{3}) - 2\\sqrt{(2+\\sqrt{3})(2-\\sqrt{3})} + (2-\\sqrt{3}) = 4 - 2\\sqrt{1} = 2$."
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       "$25$"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan $a=\\sqrt{x}$ dan $b=\\sqrt{y}$. Persamaan menjadi:\n\\[\n2a+b=7, \\quad 3a-2b=7.\n\\]\nKalikan persamaan pertama dengan 2: $4a+2b=14$. Jumlahkan dengan persamaan kedua: $7a=21 \\implies a=3$.\\nSubstitusi ke $2a+b=7$: $2\\cdot 3 + b =7 \\implies b=1$.\\nSehingga $x=9, y=1 \\implies x+y=10$."
+    "pembahasan": "Misalkan $a = \\sqrt{x}$, $b = \\sqrt{y}$. Persamaan menjadi:  \n1) $2a + b = 7$, 2) $3a - 2b = 7$.  \nKalikan persamaan pertama dengan 2: $4a + 2b = 14$. Jumlahkan dengan persamaan kedua: $7a = 21 \\implies a=3$.  \nSubstitusi: $2(3) + b = 7 \\implies b=1$.  \nMaka $x = a^2 = 9$, $y = b^2 = 1 \\implies x+y=10$."
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       "$\\frac{1}{2}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan $y = \\sqrt{x\\sqrt{x\\sqrt{x...}}}}$. Maka $y = \\sqrt{x\\cdot y}$. Diketahui $y=2$, sehingga:\n\\[\n2 = \\sqrt{2x} \\implies 4 = 2x \\implies x=2.\n\\]"
+    "pembahasan": "Misalkan $y = \\sqrt{x\\sqrt{x\\sqrt{x...}}}}$, maka $y = \\sqrt{x\\cdot y}$. Diketahui $y=2$, maka:  \n$2 = \\sqrt{2x} \\implies 4 = 2x \\implies x=2$."
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "$2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Kuadratkan kedua sisi: $25-x^2=(x-1)^2 = x^2-2x+1$.\\n$2x^2 -2x -24=0 \\implies x^2 - x -12=0 \\implies (x-4)(x+3)=0$.\\nCek solusi:\n- $x=4$: $\\sqrt{25-16}=3$, $x-1=3$ ✅\n- $x=-3$: $\\sqrt{25-9}=4$, $x-1=-4$ ❌\nJadi $x=4$."
+    "pembahasan": "Kuadratkan kedua sisi: $25 - x^2 = (x-1)^2 = x^2 -2x + 1$.  \nSehingga $2x^2 - 2x -24 =0 \\implies x^2 - x -12 =0$.  \nFaktorkan: $(x-4)(x+3)=0 \\implies x=4$ atau $x=-3$.  \nCek: $x=4$ benar, $x=-3$ tidak sesuai dengan persamaan. Jadi $x=4$."
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       "$\\sqrt{12}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan $x = \\sqrt{3+\\sqrt{5}} + \\sqrt{3-\\sqrt{5}}$.\\nKuadratkan:\n\\[\nx^2 = (3+\\sqrt{5}) + (3-\\sqrt{5}) + 2\\sqrt{(3+\\sqrt{5})(3-\\sqrt{5})} = 6 + 2\\sqrt{4} = 10.\n\\]\nSehingga $x = \\sqrt{10}$."
+    "pembahasan": "Misalkan $x = \\sqrt{3 + \\sqrt{5}} + \\sqrt{3 - \\sqrt{5}}$.  \n$x^2 = (3+\\sqrt{5}) + (3-\\sqrt{5}) + 2\\sqrt{(3+\\sqrt{5})(3-\\sqrt{5})} = 6 + 2\\sqrt{9-5} = 6 + 2(2) = 10$.  \nSehingga $x = \\sqrt{10}$."
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       "$-7/2$"
     ],
     "jawaban": "D",
-    "pembahasan": "Dari $(a+b)^2 = a^2+b^2+2ab$:\n\\[\n1 = 2 + 2ab \\implies ab=-\\frac{1}{2}.\n\\]\nDari $(a^2+b^2)^2 = a^4+b^4 +2a^2b^2$:\n\\[\n4 = a^4+b^4 + 2(1/4) \\implies a^4+b^4 = 4 - 1/2 = 7/2.\n\\]"
+    "pembahasan": "Dari $(a+b)^2 = a^2+b^2+2ab \\implies 1 = 2 + 2ab \\implies ab=-\\frac{1}{2}$.  \nDari $(a^2+b^2)^2 = a^4+b^4 + 2(a b)^2 \\implies 2^2 = a^4+b^4 + 2(\\frac{1}{4}) \\implies a^4+b^4 = 4 - \\frac{1}{2} = \\frac{7}{2}$."
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
       "$-1$"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan Cauchy-Schwarz:\n\\[\n(x+y)^2 \\le (x^2+y^2)(1^2+1^2) = 1 \\cdot 2 = 2 \\implies x+y \\le \\sqrt{2}.\n\\]\nJadi nilai maksimum adalah $\\sqrt{2}$."
+    "pembahasan": "Gunakan Cauchy-Schwarz: $(x+y)^2 \\le (x^2+y^2)(1^2+1^2) = 1\\cdot2 =2$.  \nSehingga $-\\sqrt{2} \\le x+y \\le \\sqrt{2}$. Nilai maksimum adalah $\\sqrt{2}$."
   },
   {
     "id": 17,
@@ -235,4 +235,48 @@
       "$0$"
     ],
     "jawaban": "D",
-    "pembahasan": "Misalkan $A = \\sqrt[3]{2+\\sqrt{3}}, B = \\sqrt[3]{2-\\sqrt{3}}, x=A+B$.\\n$A^3=2+\\sqrt{3}, B^3=2-\\sqrt{3}, AB=1$.\\n\\[\nx^3 = (A+B)^3 = A^3 + B^3 +3AB(A+B) = 4 +3
+    "pembahasan": "Misalkan $A = \\sqrt[3]{2 + \\sqrt{3}}$, $B = \\sqrt[3]{2 - \\sqrt{3}}$.  \n$x = A + B$, $A^3 = 2+\\sqrt{3}$, $B^3 = 2-\\sqrt{3}$, $AB = 1$.  \n$x^3 = A^3 + B^3 + 3AB(A+B) = 4 + 3x \\implies x^3-3x = 4$."
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $x, y$ adalah bilangan real dan $\\sqrt{x^2-4x+4} + \\sqrt{y^2+6y+9} = 0$, maka nilai dari $x+y$ adalah...",
+    "pilihan": [
+      "$1$",
+      "$-1$",
+      "$5$",
+      "$-5$",
+      "$0$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Sederhanakan: $\\sqrt{(x-2)^2} + \\sqrt{(y+3)^2} = 0 \\implies |x-2| + |y+3| = 0$.  \nHanya mungkin jika $x-2=0$ dan $y+3=0 \\implies x=2, y=-3$.  \nSehingga $x+y=-1$."
+  },
+  {
+    "id": 19,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{x^2} = -x$, maka...",
+    "pilihan": [
+      "$x > 0$",
+      "$x \\ge 0$",
+      "$x < 0$",
+      "$x \\le 0$",
+      "x adalah bilangan real"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Karena $\\sqrt{x^2} = |x|$, maka $|x| = -x$.  \nIni berlaku jika $x$ non-positif. Jadi $x \\le 0$."
+  },
+  {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $a, b, c$ adalah bilangan bulat positif yang memenuhi $\\sqrt{a + \\sqrt{b + \\sqrt{c}}} = 2$, maka nilai dari $a+b+c$ adalah...",
+    "pilihan": [
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Kuadratkan: $a + \\sqrt{b + \\sqrt{c}} = 4 \\implies \\sqrt{b + \\sqrt{c}} = 4-a$.  \nKarena bilangan bulat positif, $a<4 \\implies a=1,2,3$.  \nKuadratkan lagi: $b+\\sqrt{c} = (4-a)^2$.  \nMencoba kombinasi:  \n- $a=2 \\implies b+\\sqrt{c} = 4$. Kombinasi bilangan bulat positif: $b=3, \\sqrt{c}=1 \\implies c=1$.  \nSehingga $a+b+c = 2+3+1=6$."
+  }
+]
