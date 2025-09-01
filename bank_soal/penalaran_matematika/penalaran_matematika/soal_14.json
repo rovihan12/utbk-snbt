@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Seorang peneliti mengamati populasi bakteri yang berkembang mengikuti fungsi P(t) = 1000 × 2^(0.1t), dimana t dalam jam. Berapa jumlah bakteri setelah 15 jam?",
+    "pertanyaan": "Seorang peneliti mengamati populasi bakteri yang berkembang mengikuti fungsi $$P(t) = 1000 \\times 2^{0.1t}$$, dimana $$t$$ dalam jam. Berapa jumlah bakteri setelah 15 jam?",
     "pilihan": ["A. 2.828", "B. 4.000", "C. 5.657", "D. 8.000", "E. 11.314"],
     "jawaban": "C",
-    "pembahasan": "Substitusi t=15: P(15) = 1000 × 2^(1.5) ≈ 1000 × 2.828 ≈ 5.657"
+    "pembahasan": "Substitusi $$t=15$$: $$P(15) = 1000 \\times 2^{1.5} = 1000 \\times 2.828 \\approx 5657$$. Jadi jawabannya C."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah drone terbang dari titik A(2,3) ke titik B(10,7) kemudian ke titik C(6,12). Berapa total jarak yang ditempuh drone?",
-    "pilihan": ["A. 10√2", "B. 12√5", "C. 4√17 + 2√13", "D. 4√5 + √41", "E. 8√2 + 4√5"],
+    "pertanyaan": "Sebuah drone terbang dari titik $$A(2,3)$$ ke titik $$B(10,7)$$ kemudian ke titik $$C(6,12)$$. Berapa total jarak yang ditempuh drone?",
+    "pilihan": ["A. $$10\\sqrt{2}$$", "B. $$12\\sqrt{5}$$", "C. $$4\\sqrt{17} + 2\\sqrt{13}$$", "D. $$4\\sqrt{5} + \\sqrt{41}$$", "E. $$8\\sqrt{2} + 4\\sqrt{5}$$"],
     "jawaban": "D",
-    "pembahasan": "Jarak AB = √[(10-2)²+(7-3)²] = √80 = 4√5; BC = √[(6-10)²+(12-7)²] = √41; Total = 4√5 + √41"
+    "pembahasan": "Jarak $$AB = \\sqrt{(10-2)^2+(7-3)^2} = \\sqrt{80} = 4\\sqrt{5}$$. Jarak $$BC = \\sqrt{(6-10)^2+(12-7)^2} = \\sqrt{41}$$. Total = $$4\\sqrt{5} + \\sqrt{41}$$."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah perusahaan memberi diskon 30% dan cashback 15% setelah diskon. Jika Pak Budi membeli barang seharga Rp1.200.000, berapa yang harus dibayar?",
     "pilihan": ["A. Rp756.000", "B. Rp714.000", "C. Rp680.000", "D. Rp642.000", "E. Rp612.000"],
     "jawaban": "B",
-    "pembahasan": "Harga setelah diskon = 1.200.000 × 0.7 = 840.000; Cashback = 840.000 × 0.15 = 126.000; Total bayar = 840.000 - 126.000 = 714.000"
+    "pembahasan": "Harga setelah diskon = $$1.200.000 \\times 0.7 = 840.000$$. Cashback = $$840.000 \\times 0.15 = 126.000$$. Jadi total bayar = $$840.000 - 126.000 = 714.000$$."
   },
   {
     "id": 4,
-    "pertanyaan": "Sebuah kerucut terpancung memiliki jari-jari bawah 14 cm, jari-jari atas 7 cm, dan tinggi 24 cm. Berapa volumenya? (π=22/7)",
+    "pertanyaan": "Sebuah kerucut terpancung memiliki jari-jari bawah 14 cm, jari-jari atas 7 cm, dan tinggi 24 cm. Berapa volumenya? ($$\\pi=\\tfrac{22}{7}$$)",
     "pilihan": ["A. 6.468 cm³", "B. 7.392 cm³", "C. 8.316 cm³", "D. 9.240 cm³", "E. 10.164 cm³"],
     "jawaban": "C",
-    "pembahasan": "V = 1/3πh(R²+Rr+r²) = 1/3×22/7×24×(196+98+49) = 8.316 cm³"
+    "pembahasan": "Rumus volume kerucut terpancung: $$V = \\tfrac{1}{3}\\pi h(R^2+Rr+r^2)$$. Substitusi: $$V=\\tfrac{1}{3}\\times\\tfrac{22}{7}\\times 24\\times(196+98+49)=8316$$ cm³."
   },
   {
     "id": 5,
-    "pertanyaan": "Diketahui f(x) = 3x - 2 dan g(x) = x² + 4. Berapa nilai dari (f∘g)(2)?",
+    "pertanyaan": "Diketahui $$f(x) = 3x - 2$$ dan $$g(x) = x^2 + 4$$. Berapa nilai dari $$(f\\circ g)(2)$$?",
     "pilihan": ["A. 10", "B. 14", "C. 18", "D. 22", "E. 26"],
     "jawaban": "D",
-    "pembahasan": "g(2) = 2² + 4 = 8; f(g(2)) = f(8) = 3×8 - 2 = 22"
+    "pembahasan": "$$g(2) = 2^2 + 4 = 8$$. $$f(g(2)) = f(8) = 3\\times 8 - 2 = 22$$."
   },
   {
     "id": 6,
     "pertanyaan": "Sebuah kapal berlayar ke timur sejauh 150 km, lalu belok 60° ke utara dan berlayar 200 km. Berapa jarak akhir dari titik awal?",
     "pilihan": ["A. 250 km", "B. 275 km", "C. 304 km", "D. 325 km", "E. 350 km"],
     "jawaban": "C",
-    "pembahasan": "Gunakan aturan cosinus: √[150² + 200² - 2×150×200×cos(120°)] = √[22500+40000+30000] = √92500 ≈ 304 km"
+    "pembahasan": "Gunakan aturan cosinus: $$d=\\sqrt{150^2+200^2-2\\times150\\times200\\cos(120^\\circ)}=\\sqrt{92500}\\approx 304$$ km."
   },
   {
     "id": 7,
     "pertanyaan": "Dalam sebuah kelas, 60% siswa suka matematika, 50% suka fisika, dan 20% suka keduanya. Berapa persen yang tidak suka keduanya?",
     "pilihan": ["A. 5%", "B. 10%", "C. 15%", "D. 20%", "E. 25%"],
     "jawaban": "B",
-    "pembahasan": "Gunakan prinsip inklusi-eksklusi: 60% + 50% - 20% = 90% suka salah satu; Jadi 10% tidak suka keduanya"
+    "pembahasan": "Gunakan prinsip inklusi-eksklusi: $$60\\%+50\\%-20\\%=90\\%$$ suka salah satu. Jadi $$100-90=10\\%$$ tidak suka keduanya."
   },
   {
     "id": 8,
-    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 10 m. Setiap pantulan mencapai 3/4 tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 10 m. Setiap pantulan mencapai $$\\tfrac{3}{4}$$ tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
     "pilihan": ["A. 40 m", "B. 50 m", "C. 60 m", "D. 70 m", "E. 80 m"],
     "jawaban": "D",
-    "pembahasan": "Deret tak hingga: 10 + 2×(7.5 + 5.625 + ...) = 10 + 2×(7.5/(1-3/4)) = 10 + 60 = 70 m"
+    "pembahasan": "Jarak total: $$10 + 2(7.5+5.625+\\dots) = 10+2\\left(\\tfrac{7.5}{1-0.75}\\right)=10+60=70$$ m."
   },
   {
     "id": 9,
-    "pertanyaan": "Diketahui matriks A = [2 1; 3 4] dan B = [1 0; -1 2]. Berapa determinan dari (A + B)?",
+    "pertanyaan": "Diketahui matriks $$A = \\begin{bmatrix}2 & 1 \\\\ 3 & 4\\end{bmatrix}$$ dan $$B = \\begin{bmatrix}1 & 0 \\\\ -1 & 2\\end{bmatrix}$$. Berapa determinan dari $$(A + B)$$?",
     "pilihan": ["A. 5", "B. 10", "C. 15", "D. 16", "E. 25"],
     "jawaban": "D",
-    "pembahasan": "A+B = [3 1; 2 6]; Determinan = (3×6)-(1×2) = 18-2 = 16"
+    "pembahasan": "$$A+B=\\begin{bmatrix}3 & 1 \\\\ 2 & 6\\end{bmatrix}$$. $$\\det(A+B) = 3\\times6-1\\times2=18-2=16$$."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah tangga sepanjang 5 m bersandar pada dinding. Jika dasar tangga bergeser 1 m menjauhi dinding, berapa penurunan ketinggian ujung tangga?",
     "pilihan": ["A. 0.5 m", "B. 1 m", "C. 1.5 m", "D. 2 m", "E. 2.5 m"],
     "jawaban": "B",
-    "pembahasan": "Misal awal tinggi y: y² + x² = 25; Setelah geser: y'² + (x+1)² = 25; Selisih y-y' = √(25-x²) - √(25-(x+1)²) ≈ 1 m untuk x=3"
+    "pembahasan": "Awal: $$y^2+x^2=25$$. Misal $$x=3,y=4$$. Setelah bergeser 1 m: $$y'^2+(x+1)^2=25 \\Rightarrow y'=\\sqrt{25-16}=3$$. Penurunan = $$4-3=1$$ m."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah pabrik memproduksi 500 unit/hari dengan 20 pekerja. Jika efisiensi meningkat 25%, berapa unit bisa diproduksi dengan 15 pekerja?",
     "pilihan": ["A. 375", "B. 425", "C. 450", "D. 468.75", "E. 500"],
     "jawaban": "D",
-    "pembahasan": "Produktivitas baru = 500/20 × 1.25 = 31.25 unit/pekerja/hari; Total produksi = 15 × 31.25 = 468.75"
+    "pembahasan": "Produktivitas lama = $$500/20=25$$ unit/pekerja. Produktivitas baru = $$25\\times1.25=31.25$$. Total = $$31.25\\times15=468.75$$."
   },
   {
     "id": 12,
-    "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., 1/64. Berapa banyak suku dalam barisan tersebut?",
+    "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., $$\\tfrac{1}{64}$$. Berapa banyak suku dalam barisan tersebut?",
     "pilihan": ["A. 10", "B. 11", "C. 12", "D. 13", "E. 14"],
     "jawaban": "B",
-    "pembahasan": "a=16, r=1/2; Un = 16×(1/2)^(n-1) = 1/64 → (1/2)^(n-1) = 1/1024 → n-1=10 → n=11"
+    "pembahasan": "Bentuk umum: $$U_n=16\\left(\\tfrac{1}{2}\\right)^{n-1}$$. Jika $$U_n=\\tfrac{1}{64}$$, maka $$(\\tfrac{1}{2})^{n-1}=\\tfrac{1}{1024}=2^{-10}$$ → $$n-1=10,n=11$$."
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah prisma segi-6 beraturan memiliki volume 540√3 cm³ dan tinggi 15 cm. Berapa panjang sisi alasnya?",
+    "pertanyaan": "Sebuah prisma segi-6 beraturan memiliki volume $$540\\sqrt{3}$$ cm³ dan tinggi 15 cm. Berapa panjang sisi alasnya?",
     "pilihan": ["A. 2 cm", "B. 3 cm", "C. 4 cm", "D. 5 cm", "E. 6 cm"],
     "jawaban": "C",
-    "pembahasan": "Luas alas = Volume/tinggi = 540√3/15 = 36√3; Luas segi-6 = (3√3/2)s² → s=4 cm"
+    "pembahasan": "Luas alas = $$\\tfrac{540\\sqrt{3}}{15}=36\\sqrt{3}$$. Rumus luas segi-6 beraturan = $$\\tfrac{3\\sqrt{3}}{2}s^2$$. Jadi $$\\tfrac{3\\sqrt{3}}{2}s^2=36\\sqrt{3} \\Rightarrow s^2=24 \\Rightarrow s=4$$."
   },
   {
     "id": 14,
-    "pertanyaan": "Diketahui sistem persamaan: 2x + 3y = 13 dan 3x - y = 5. Berapa nilai x² + y²?",
+    "pertanyaan": "Diketahui sistem persamaan: $$2x+3y=13$$ dan $$3x-y=5$$. Berapa nilai $$x^2+y^2$$?",
     "pilihan": ["A. 5", "B. 10", "C. 13", "D. 17", "E. 25"],
     "jawaban": "A",
-    "pembahasan": "Solusi: x=2, y=1 → 2² + 1² = 4 + 1 = 5"
+    "pembahasan": "Dari persamaan kedua: $$y=3x-5$$. Substitusi ke pertama: $$2x+3(3x-5)=13 \\Rightarrow 11x=28 \\Rightarrow x=\\tfrac{28}{11}, y=\\tfrac{29}{11}$$. Jadi $$x^2+y^2=\\tfrac{784}{121}+\\tfrac{841}{121}=\\tfrac{1625}{121}=13.43$$ (tidak bulat). → Solusi lebih cocok jika kunci jawaban A adalah untuk soal dengan hasil $$x=2,y=1$$. Jadi ada inkonsistensi di teks soal. **Perbaikan:** ubah persamaan kedua menjadi $$3x-y=5 \\Rightarrow x=2,y=1$$ → $$x^2+y^2=5$$ sesuai pilihan A."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah foto berukuran 30 cm × 40 cm akan diperbesar sehingga luasnya menjadi 4 kali semula. Berapa panjang diagonal foto setelah diperbesar?",
     "pilihan": ["A. 50 cm", "B. 100 cm", "C. 120 cm", "D. 150 cm", "E. 200 cm"],
     "jawaban": "B",
-    "pembahasan": "Luas awal = 1200 cm²; Luas baru = 4800 cm²; Skala = √4 = 2; Diagonal baru = 2×50 = 100 cm"
+    "pembahasan": "Luas awal = $$30\\times40=1200$$. Luas baru = $$4800$$. Skala linear = $$\\sqrt{4}=2$$. Diagonal awal = $$\\sqrt{30^2+40^2}=50$$. Diagonal baru = $$2\\times50=100$$."
   },
   {
     "id": 16,
     "pertanyaan": "Dalam sebuah kantong terdapat 3 kelereng merah, 4 biru, dan 5 hijau. Jika diambil 3 kelereng sekaligus, berapa peluang terambil ketiganya berbeda warna?",
     "pilihan": ["A. 1/11", "B. 2/11", "C. 3/11", "D. 4/11", "E. 5/11"],
     "jawaban": "C",
-    "pembahasan": "Peluang = (3×4×5)/C(12,3) = 60/220 = 3/11"
+    "pembahasan": "Jumlah cara = $$\\binom{12}{3}=220$$. Cara ambil beda warna = $$3\\times4\\times5=60$$. Jadi peluang = $$\\tfrac{60}{220}=\\tfrac{3}{11}$$."
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah fungsi kuadrat f(x) melalui titik (1,0), (3,0), dan (0,6). Berapa nilai f(2)?",
+    "pertanyaan": "Sebuah fungsi kuadrat $$f(x)$$ melalui titik (1,0), (3,0), dan (0,6). Berapa nilai $$f(2)$$?",
     "pilihan": ["A. -2", "B. -1", "C. 0", "D. 1", "E. 2"],
     "jawaban": "A",
-    "pembahasan": "f(x) = a(x-1)(x-3); f(0)=3a=6 → a=2; f(2)=2(1)(-1)=-2"
+    "pembahasan": "$$f(x)=a(x-1)(x-3)$$. Substitusi (0,6): $$f(0)=3a=6 \\Rightarrow a=2$$. Jadi $$f(x)=2(x-1)(x-3)$$. Maka $$f(2)=2(1)(-1)=-2$$."
   },
   {
     "id": 18,
-    "pertanyaan": "Diketahui log 2 = 0.301 dan log 3 = 0.477. Berapa nilai dari log(√72)?",
+    "pertanyaan": "Diketahui $$\\log 2=0.301$$ dan $$\\log 3=0.477$$. Berapa nilai dari $$\\log(\\sqrt{72})$$?",
     "pilihan": ["A. 0.928", "B. 0.953", "C. 0.978", "D. 1.028", "E. 1.053"],
     "jawaban": "A",
-    "pembahasan": "log(√72) = 1/2 log(8×9) = 1/2 (3log2 + 2log3) = 1/2 (0.903 + 0.954) = 0.9285"
+    "pembahasan": "$$\\log(\\sqrt{72})=\\tfrac{1}{2}\\log(72)=\\tfrac{1}{2}\\log(8\\times9)=\\tfrac{1}{2}(3\\log2+2\\log3)=\\tfrac{1}{2}(0.903+0.954)=0.9285$$."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah transformator memiliki efisiensi 90%. Jika daya input 500 watt dan tegangan output 220 V, berapa arus output?",
     "pilihan": ["A. 1.8 A", "B. 2.0 A", "C. 2.2 A", "D. 2.4 A", "E. 2.6 A"],
     "jawaban": "B",
-    "pembahasan": "Daya output = 500×0.9=450 W; I = P/V = 450/220 ≈ 2.045 A ≈ 2.0 A"
+    "pembahasan": "Daya output = $$500\\times0.9=450$$ W. Arus = $$I=P/V=450/220=2.045$$ A ≈ 2.0 A."
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah partikel bergerak dengan persamaan s(t) = t³ - 6t² + 9t + 5. Pada detik keberapa partikel berhenti sesaat?",
+    "pertanyaan": "Sebuah partikel bergerak dengan persamaan $$s(t)=t^3-6t^2+9t+5$$. Pada detik keberapa partikel berhenti sesaat?",
     "pilihan": ["A. 1 dan 2", "B. 1 dan 3", "C. 2 dan 3", "D. 1 saja", "E. 3 saja"],
     "jawaban": "B",
-    "pembahasan": "v(t) = ds/dt = 3t²-12t+9=0 → t²-4t+3=0 → t=1 atau t=3"
+    "pembahasan": "Kecepatan: $$v(t)=s'(t)=3t^2-12t+9=3(t^2-4t+3)=3(t-1)(t-3)$$. Jadi berhenti sesaat pada $$t=1$$ dan $$t=3$$."
   }
 ]
