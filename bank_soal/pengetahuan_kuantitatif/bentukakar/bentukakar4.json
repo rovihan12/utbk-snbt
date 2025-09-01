@@ -1,282 +1,162 @@
 [
   {
-    "id": 61,
+    "id": 1,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $3\\sqrt{2}(\\sqrt{8} + 2\\sqrt{18})$ adalah...",
-    "pilihan": [
-      "36",
-      "42",
-      "48",
-      "54",
-      "60"
-    ],
+    "pilihan": ["36", "42", "48", "54", "60"],
     "jawaban": "C",
-    "pembahasan": "Sederhanakan terlebih dahulu bentuk di dalam kurung:\n$\\sqrt{8} = \\sqrt{4 \\times 2} = 2\\sqrt{2}$\n$2\\sqrt{18} = 2\\sqrt{9 \\times 2} = 2 \\times 3\\sqrt{2} = 6\\sqrt{2}$\nJadi, ekspresinya menjadi $3\\sqrt{2}(2\\sqrt{2} + 6\\sqrt{2}) = 3\\sqrt{2}(8\\sqrt{2})$.\nKalikan: $3 \\times 8 \\times (\\sqrt{2} \\times \\sqrt{2}) = 24 \\times 2 = 48$."
+    "pembahasan": "Sederhanakan terlebih dahulu tiap suku dalam kurung:\n- $\\sqrt{8} = \\sqrt{4\\cdot2} = 2\\sqrt{2}$\n- $2\\sqrt{18} = 2\\sqrt{9\\cdot2} = 2\\cdot3\\sqrt{2} = 6\\sqrt{2}$\n\nJadi ekspresinya menjadi:\n$$3\\sqrt{2} (2\\sqrt{2} + 6\\sqrt{2}) = 3\\sqrt{2} \\cdot 8\\sqrt{2}$$\nKalikan:\n$$3 \\cdot 8 \\cdot (\\sqrt{2} \\cdot \\sqrt{2}) = 24 \\cdot 2 = 48.$$"
   },
   {
-    "id": 62,
+    "id": 2,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk rasional dari $\\frac{9}{\\sqrt{6} - \\sqrt{3}}$ adalah...",
-    "pilihan": [
-      "$3(\\sqrt{6} - \\sqrt{3})$",
-      "$3(\\sqrt{6} + \\sqrt{3})$",
-      "$9(\\sqrt{6} + \\sqrt{3})$",
-      "$\\sqrt{6} + \\sqrt{3}$",
-      "3"
-    ],
+    "pilihan": ["$3(\\sqrt{6} - \\sqrt{3})$", "$3(\\sqrt{6} + \\sqrt{3})$", "$9(\\sqrt{6} + \\sqrt{3})$", "$\\sqrt{6} + \\sqrt{3}$", "3"],
     "jawaban": "B",
-    "pembahasan": "Kalikan dengan sekawan penyebut, yaitu $(\\sqrt{6} + \\sqrt{3})$:\n$\\frac{9}{\\sqrt{6} - \\sqrt{3}} \\times \\frac{\\sqrt{6} + \\sqrt{3}}{\\sqrt{6} + \\sqrt{3}} = \\frac{9(\\sqrt{6} + \\sqrt{3})}{(\\sqrt{6})^2 - (\\sqrt{3})^2} = \\frac{9(\\sqrt{6} + \\sqrt{3})}{6 - 3} = \\frac{9(\\sqrt{6} + \\sqrt{3})}{3} = 3(\\sqrt{6} + \\sqrt{3})$."
+    "pembahasan": "Kalikan pembilang dan penyebut dengan sekawan penyebut $(\\sqrt{6} + \\sqrt{3})$:\n$$\\frac{9}{\\sqrt{6}-\\sqrt{3}} \\cdot \\frac{\\sqrt{6}+\\sqrt{3}}{\\sqrt{6}+\\sqrt{3}} = \\frac{9(\\sqrt{6}+\\sqrt{3})}{(\\sqrt{6})^2-(\\sqrt{3})^2}$$\n$$= \\frac{9(\\sqrt{6}+\\sqrt{3})}{6-3} = \\frac{9(\\sqrt{6}+\\sqrt{3})}{3} = 3(\\sqrt{6}+\\sqrt{3}).$$"
   },
   {
-    "id": 63,
+    "id": 3,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $(\\sqrt{125} - \\sqrt{45}) \\div \\sqrt{5}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "$\\sqrt{2}$"
-    ],
+    "pilihan": ["1", "2", "3", "4", "$\\sqrt{2}$"],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan pembilang:\n$\\sqrt{125} = \\sqrt{25 \\times 5} = 5\\sqrt{5}$\n$\\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$\nEkspresinya menjadi $(5\\sqrt{5} - 3\\sqrt{5}) \\div \\sqrt{5} = (2\\sqrt{5}) \\div \\sqrt{5} = 2$."
+    "pembahasan": "Sederhanakan pembilang:\n- $\\sqrt{125} = \\sqrt{25\\cdot5} = 5\\sqrt{5}$\n- $\\sqrt{45} = \\sqrt{9\\cdot5} = 3\\sqrt{5}$\n\nSehingga ekspresinya menjadi:\n$$(5\\sqrt{5} - 3\\sqrt{5}) \\div \\sqrt{5} = 2\\sqrt{5} \\div \\sqrt{5} = 2.$$"
   },
   {
-    "id": 64,
+    "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Jika $p = 1 + \\sqrt{2}$, maka nilai dari $p^2 - 2p$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "$\\sqrt{2}$",
-      "$1+\\sqrt{2}$",
-      "$2+\\sqrt{2}$"
-    ],
+    "pilihan": ["1", "2", "$\\sqrt{2}$", "$1+\\sqrt{2}$", "$2+\\sqrt{2}$"],
     "jawaban": "A",
-    "pembahasan": "Substitusikan $p$: $(1+\\sqrt{2})^2 - 2(1+\\sqrt{2})$.\n$= (1^2 + 2(1)(\\sqrt{2}) + (\\sqrt{2})^2) - (2+2\\sqrt{2})$\n$= (1 + 2\\sqrt{2} + 2) - 2 - 2\\sqrt{2}$\n$= (3 + 2\\sqrt{2}) - 2 - 2\\sqrt{2}$\n$= 1$."
+    "pembahasan": "Substitusi $p$:\n$$(1+\\sqrt{2})^2 - 2(1+\\sqrt{2}) = 1 + 2\\sqrt{2} + 2 - 2 - 2\\sqrt{2} = 1.$$"
   },
   {
-    "id": 65,
+    "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $2^{-1} + (\\sqrt{2})^0 - (\\sqrt{4})^{-1}$ adalah...",
-    "pilihan": [
-      "0",
-      "0.5",
-      "1",
-      "1.5",
-      "2"
-    ],
+    "pilihan": ["0", "0.5", "1", "1.5", "2"],
     "jawaban": "C",
-    "pembahasan": "$2^{-1} = \\frac{1}{2}$.\n$(\\sqrt{2})^0 = 1$ (setiap bilangan pangkat 0 adalah 1).\n$(\\sqrt{4})^{-1} = 2^{-1} = \\frac{1}{2}$.\nMaka, $\\frac{1}{2} + 1 - \\frac{1}{2} = 1$."
+    "pembahasan": "Hitung tiap suku:\n- $2^{-1} = 1/2$\n- $(\\sqrt{2})^0 = 1$\n- $(\\sqrt{4})^{-1} = 2^{-1} = 1/2$\n\nSehingga jumlahnya:\n$$\\frac{1}{2} + 1 - \\frac{1}{2} = 1.$$"
   },
   {
-    "id": 66,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk $\\sqrt{72} + \\sqrt{50} - \\sqrt{200}$ sama dengan...",
-    "pilihan": [
-      "$\\sqrt{2}$",
-      "0",
-      "$2\\sqrt{2}$",
-      "$3\\sqrt{2}$",
-      "$-\\sqrt{2}$"
-    ],
+    "pilihan": ["$\\sqrt{2}$", "0", "$2\\sqrt{2}$", "$3\\sqrt{2}$", "$-\\sqrt{2}$"],
     "jawaban": "A",
-    "pembahasan": "Sederhanakan setiap suku:\n$\\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}$\n$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$\n$\\sqrt{200} = \\sqrt{100 \\times 2} = 10\\sqrt{2}$\nMaka, $6\\sqrt{2} + 5\\sqrt{2} - 10\\sqrt{2} = (6+5-10)\\sqrt{2} = 1\\sqrt{2} = \\sqrt{2}$."
+    "pembahasan": "Sederhanakan tiap suku:\n- $\\sqrt{72} = \\sqrt{36\\cdot2} = 6\\sqrt{2}$\n- $\\sqrt{50} = \\sqrt{25\\cdot2} = 5\\sqrt{2}$\n- $\\sqrt{200} = \\sqrt{100\\cdot2} = 10\\sqrt{2}$\n\nJumlahkan:\n$$6\\sqrt{2} + 5\\sqrt{2} - 10\\sqrt{2} = (6+5-10)\\sqrt{2} = \\sqrt{2}.$$"
   },
   {
-    "id": 67,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Nilai $x$ yang memenuhi $3^{2x-1} = \\sqrt{27}$ adalah...",
-    "pilihan": [
-      "1",
-      "1.25",
-      "1.5",
-      "1.75",
-      "2"
-    ],
+    "pilihan": ["1", "1.25", "1.5", "1.75", "2"],
     "jawaban": "B",
-    "pembahasan": "Ubah ke basis 3:\n$\\sqrt{27} = (3^3)^{1/2} = 3^{3/2}$.\nSamakan pangkatnya: $2x-1 = \\frac{3}{2}$.\n$2x = \\frac{3}{2} + 1 = \\frac{3}{2} + \\frac{2}{2} = \\frac{5}{2}$.\n$x = \\frac{5}{4} = 1.25$."
+    "pembahasan": "Ubah basis 3:\n$$\\sqrt{27} = (3^3)^{1/2} = 3^{3/2}$$\nSamakan pangkat:\n$$2x-1 = 3/2 \\implies 2x = 5/2 \\implies x = 5/4 = 1.25.$$"
   },
   {
-    "id": 68,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Jika keliling sebuah persegi adalah $20\\sqrt{3}$ cm, maka luasnya adalah...",
-    "pilihan": [
-      "$25\\sqrt{3}$ cm$^2$",
-      "75 cm$^2$",
-      "100 cm$^2$",
-      "225 cm$^2$",
-      "$100\\sqrt{3}$ cm$^2$"
-    ],
+    "pilihan": ["$25\\sqrt{3}$ cm$^2$", "75 cm$^2$", "100 cm$^2$", "225 cm$^2$", "$100\\sqrt{3}$ cm$^2$"],
     "jawaban": "B",
-    "pembahasan": "Sisi persegi = Keliling / 4.\nSisi = $\\frac{20\\sqrt{3}}{4} = 5\\sqrt{3}$ cm.\nLuas = Sisi$^2 = (5\\sqrt{3})^2 = 5^2 \\times (\\sqrt{3})^2 = 25 \\times 3 = 75$ cm$^2$."
+    "pembahasan": "Sisi persegi:\n$$s = \\frac{20\\sqrt{3}}{4} = 5\\sqrt{3}$$\nLuas:\n$$s^2 = (5\\sqrt{3})^2 = 25\\cdot3 = 75\\text{ cm}^2.$$"
   },
   {
-    "id": 69,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(3\\sqrt{5} - 2)^2$ adalah...",
-    "pilihan": [
-      "41",
-      "49",
-      "41 - 12\\sqrt{5}",
-      "49 - 12\\sqrt{5}",
-      "49 - 6\\sqrt{5}"
-    ],
+    "pilihan": ["41", "49", "41 - 12\\sqrt{5}", "49 - 12\\sqrt{5}", "49 - 6\\sqrt{5}"],
     "jawaban": "D",
-    "pembahasan": "Gunakan rumus $(a-b)^2 = a^2 - 2ab + b^2$.\n$(3\\sqrt{5})^2 - 2(3\\sqrt{5})(2) + 2^2$\n$= (3^2 \\times (\\sqrt{5})^2) - 12\\sqrt{5} + 4$\n$= (9 \\times 5) - 12\\sqrt{5} + 4$\n$= 45 - 12\\sqrt{5} + 4 = 49 - 12\\sqrt{5}$."
+    "pembahasan": "Gunakan rumus $(a-b)^2 = a^2 - 2ab + b^2$:\n$$(3\\sqrt{5}-2)^2 = (3\\sqrt{5})^2 - 2\\cdot3\\sqrt{5}\\cdot2 + 2^2 = 45 - 12\\sqrt{5} + 4 = 49 - 12\\sqrt{5}.$$"
   },
   {
-    "id": 70,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $\\sqrt[4]{16^3}$ adalah...",
-    "pilihan": [
-      "4",
-      "8",
-      "16",
-      "32",
-      "64"
-    ],
+    "pilihan": ["4", "8", "16", "32", "64"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat $\\sqrt[n]{a^m} = a^{m/n}$.\n$16^{3/4} = (2^4)^{3/4} = 2^{4 \\times (3/4)} = 2^3 = 8$."
+    "pembahasan": "Gunakan sifat $\\sqrt[n]{a^m} = a^{m/n}$:\n$$16^{3/4} = (2^4)^{3/4} = 2^{4\\cdot3/4} = 2^3 = 8.$$"
   },
   {
-    "id": 71,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Bentuk sederhana dari $\\sqrt{54+14\\sqrt{5}}$ adalah...",
-    "pilihan": [
-      "$7 + \\sqrt{5}$",
-      "$5 + \\sqrt{7}$",
-      "$3 + \\sqrt{5}$",
-      "$7 + 5\\sqrt{1}$",
-      "$\\sqrt{49} + \\sqrt{5}$"
-    ],
+    "pilihan": ["$7 + \\sqrt{5}$", "$5 + \\sqrt{7}$", "$3 + \\sqrt{5}$", "$7 + 5\\sqrt{1}$", "$\\sqrt{49} + \\sqrt{5}$"],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat $\\sqrt{(a+b) + 2\\sqrt{ab}} = \\sqrt{a} + \\sqrt{b}$.\nUbah soal menjadi: $\\sqrt{54+2 \\times 7\\sqrt{5}} = \\sqrt{54+2\\sqrt{49 \\times 5}} = \\sqrt{54+2\\sqrt{245}}$.\nCari dua bilangan yang jumlahnya 54 dan hasil kalinya 245. Coba faktorkan 245: $245 = 5 \\times 49$. Periksa jumlahnya: $49+5 = 54$. Cocok.\nJadi, $a=49$ dan $b=5$.\nHasilnya adalah $\\sqrt{49} + \\sqrt{5} = 7 + \\sqrt{5}$."
+    "pembahasan": "Coba bentuk $\\sqrt{a} + \\sqrt{b}$ sehingga:\n$$(\\sqrt{a} + \\sqrt{b})^2 = a + b + 2\\sqrt{ab} = 54 + 14\\sqrt{5}$$\nDari sini:\n- $2\\sqrt{ab} = 14\\sqrt{5} \\implies ab = 49*5 = 245$\n- $a+b = 54$\nSolusi: $a=49$, $b=5$.\nJadi:\n$$\\sqrt{54+14\\sqrt{5}} = \\sqrt{49} + \\sqrt{5} = 7 + \\sqrt{5}.$$"
   },
   {
-    "id": 72,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\sqrt{x} - \\sqrt{x-4} = 1$, maka nilai dari $\\sqrt{x} + \\sqrt{x-4}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "D",
-    "pembahasan": "Misalkan $A = \\sqrt{x} + \\sqrt{x-4}$ dan $B = \\sqrt{x} - \\sqrt{x-4} = 1$.\nKalikan A dan B:\n$A \\times B = (\\sqrt{x} + \\sqrt{x-4})(\\sqrt{x} - \\sqrt{x-4})$.\n$A \\times 1 = (\\sqrt{x})^2 - (\\sqrt{x-4})^2$.\n$A = x - (x-4) = x-x+4=4$.\nJadi, nilai dari $\\sqrt{x} + \\sqrt{x-4}$ adalah 4."
+    "pembahasan": "Misalkan $A = \\sqrt{x} + \\sqrt{x-4}$ dan $B = \\sqrt{x}-\\sqrt{x-4} = 1$.\nKalikan A dan B:\n$$A\\cdot B = (\\sqrt{x} + \\sqrt{x-4})(\\sqrt{x}-\\sqrt{x-4}) = x-(x-4) = 4$$\nSehingga $A = 4$.\nJadi, $\\sqrt{x} + \\sqrt{x-4} = 4$."
   },
   {
-    "id": 73,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari deret geometri tak hingga $\\sqrt{2} + 1 + \\frac{1}{\\sqrt{2}} + \\frac{1}{2} + ...$ adalah...",
-    "pilihan": [
-      "$2(\\sqrt{2}+1)$",
-      "$2(2+\\sqrt{2})$",
-      "$\\sqrt{2}+1$",
-      "4",
-      "$\\infty$"
-    ],
+    "pilihan": ["$2(\\sqrt{2}+1)$", "$2(2+\\sqrt{2})$", "$\\sqrt{2}+1$", "4", "$\\infty$"],
     "jawaban": "A",
-    "pembahasan": "Ini adalah deret geometri tak hingga. Suku pertama $a = \\sqrt{2}$.\nRasio $r = \\frac{U_2}{U_1} = \\frac{1}{\\sqrt{2}}$.\nKarena $|r| < 1$, deret ini konvergen.\nJumlahnya adalah $S_\\infty = \\frac{a}{1-r} = \\frac{\\sqrt{2}}{1-\\frac{1}{\\sqrt{2}}}$.\nSederhanakan penyebut: $1-\\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{\\sqrt{2}}-\\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}-1}{\\sqrt{2}}$.\nMaka $S_\\infty = \\frac{\\sqrt{2}}{(\\sqrt{2}-1)/\\sqrt{2}} = \\frac{(\\sqrt{2})^2}{\\sqrt{2}-1} = \\frac{2}{\\sqrt{2}-1}$.\nRasionalkan: $\\frac{2}{\\sqrt{2}-1} \\times \\frac{\\sqrt{2}+1}{\\sqrt{2}+1} = \\frac{2(\\sqrt{2}+1)}{(\\sqrt{2})^2-1^2} = \\frac{2(\\sqrt{2}+1)}{2-1} = 2(\\sqrt{2}+1)$."
+    "pembahasan": "Suku pertama $a = \\sqrt{2}$, rasio $r = \\frac{1}{\\sqrt{2}}$.\nJumlah deret tak hingga:\n$$S_\\infty = \\frac{a}{1-r} = \\frac{\\sqrt{2}}{1 - 1/\\sqrt{2}} = \\frac{\\sqrt{2}}{(\\sqrt{2}-1)/\\sqrt{2}} = \\frac{2}{\\sqrt{2}-1}$$\nRasionalkan:\n$$\\frac{2}{\\sqrt{2}-1} \\cdot \\frac{\\sqrt{2}+1}{\\sqrt{2}+1} = 2(\\sqrt{2}+1).$$"
   },
   {
-    "id": 74,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Himpunan penyelesaian dari $\\sqrt{2x+1} < \\sqrt{x+3}$ adalah...",
-    "pilihan": [
-      "$x < 2$",
-      "$x > -1/2$",
-      "$-1/2 \\le x < 2$",
-      "$-3 \\le x < 2$",
-      "$-3 < x < -1/2$"
-    ],
+    "pilihan": ["$x < 2$", "$x > -1/2$", "$-1/2 \\le x < 2$", "$-3 \\le x < 2$", "$-3 < x < -1/2$"],
     "jawaban": "C",
-    "pembahasan": "Ada tiga syarat yang harus dipenuhi:\n1. Kuadratkan kedua ruas (karena kedua ruas positif): $2x+1 < x+3 \\implies x < 2$.\n2. Syarat akar pertama (agar terdefinisi): $2x+1 \\ge 0 \\implies 2x \\ge -1 \\implies x \\ge -1/2$.\n3. Syarat akar kedua (agar terdefinisi): $x+3 \\ge 0 \\implies x \\ge -3$.\nCari irisan dari ketiga syarat tersebut. Irisan dari $(x<2)$, $(x \\ge -1/2)$, dan $(x \\ge -3)$ adalah $-1/2 \\le x < 2$."
+    "pembahasan": "Syarat:\n1. Kuadratkan: $2x+1 < x+3 \\implies x < 2$\n2. $2x+1 \\ge 0 \\implies x \\ge -1/2$\n3. $x+3 \\ge 0 \\implies x \\ge -3$\nIrisan: $-1/2 \\le x < 2$."
   },
   {
-    "id": 75,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $a, b$ adalah akar-akar dari $x^2 - 3x + 1 = 0$, maka nilai dari $a^3 + b^3$ adalah...",
-    "pilihan": [
-      "9",
-      "18",
-      "21",
-      "24",
-      "27"
-    ],
+    "pilihan": ["9", "18", "21", "24", "27"],
     "jawaban": "B",
-    "pembahasan": "Dari persamaan kuadrat $x^2 - 3x + 1 = 0$, kita tahu dari rumus Vieta:\nJumlah akar-akar: $a+b = -(-3)/1 = 3$.\nHasil kali akar-akar: $ab = 1/1 = 1$.\nGunakan identitas $a^3+b^3 = (a+b)^3 - 3ab(a+b)$.\nSubstitusikan nilai yang diketahui:\n$a^3+b^3 = (3)^3 - 3(1)(3) = 27 - 9 = 18$."
+    "pembahasan": "Dari Vieta: $a+b=3$, $ab=1$\nGunakan identitas $a^3+b^3=(a+b)^3-3ab(a+b)$:\n$$a^3+b^3 = 3^3 - 3\\cdot1\\cdot3 = 27-9=18.$$"
   },
   {
-    "id": 76,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $f(x) = \\sqrt{x+1}$, maka nilai dari $f^{-1}(3)$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "8",
-      "9"
-    ],
+    "pilihan": ["2", "3", "4", "8", "9"],
     "jawaban": "D",
-    "pembahasan": "Untuk mencari $f^{-1}(3)$, kita cari nilai $k$ sehingga $f(k)=3$.\nSubstitusikan $k$ ke dalam $f(x)$: $\\sqrt{k+1} = 3$.\nKuadratkan kedua ruas: $(\\sqrt{k+1})^2 = 3^2$.\n$k+1 = 9$.\n$k = 9-1 = 8$.\nJadi, $f^{-1}(3) = 8$."
+    "pembahasan": "Misal $f(k)=3$, maka:\n$$\\sqrt{k+1} = 3 \\implies k+1=9 \\implies k=8.$$"
   },
   {
-    "id": 77,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $\\frac{\\sqrt{5}}{\\sqrt{5}-\\sqrt{3}} - \\frac{\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "4",
-      "$\\sqrt{15}$",
-      "8"
-    ],
+    "pilihan": ["1", "2", "4", "$\\sqrt{15}$", "8"],
     "jawaban": "C",
-    "pembahasan": "Samakan penyebut kedua pecahan. Penyebut umum adalah $(\\sqrt{5}-\\sqrt{3})(\\sqrt{5}+\\sqrt{3})$.\n$(\\sqrt{5}-\\sqrt{3})(\\sqrt{5}+\\sqrt{3}) = (\\sqrt{5})^2 - (\\sqrt{3})^2 = 5-3=2$.\nBentuknya menjadi:\n$\\frac{\\sqrt{5}(\\sqrt{5}+\\sqrt{3})}{(\\sqrt{5}-\\sqrt{3})(\\sqrt{5}+\\sqrt{3})} - \\frac{\\sqrt{3}(\\sqrt{5}-\\sqrt{3})}{(\\sqrt{5}-\\sqrt{3})(\\sqrt{5}+\\sqrt{3})}$\n$= \\frac{(5+\\sqrt{15}) - (\\sqrt{15}-3)}{2}$\n$= \\frac{5+\\sqrt{15}-\\sqrt{15}+3}{2}$\n$= \\frac{8}{2} = 4$."
+    "pembahasan": "Samakan penyebut:\n$$\\frac{\\sqrt{5}(\\sqrt{5}+\\sqrt{3}) - \\sqrt{3}(\\sqrt{5}-\\sqrt{3})}{(\\sqrt{5}-\\sqrt{3})(\\sqrt{5}+\\sqrt{3})}$$\n$$= \\frac{5+\\sqrt{15}-\\sqrt{15}+3}{2} = \\frac{8}{2} = 4.$$"
   },
   {
-    "id": 78,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Bentuk sederhana dari $(\\frac{x^{1/2} y^{-1/3}}{x^{-1} y})^{-3/4}$ adalah...",
-    "pilihan": [
-      "$\\frac{x^{9/8}}{y}$",
-      "$\\frac{y}{x^{9/8}}$",
-      "$\\frac{x^{8/9}}{y}$",
-      "$\\frac{y}{x^{8/9}}$",
-      "$xy$"
-    ],
+    "pilihan": ["$\\frac{x^{9/8}}{y}$", "$\\frac{y}{x^{9/8}}$", "$\\frac{x^{8/9}}{y}$", "$\\frac{y}{x^{8/9}}$", "$xy$"],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan bagian dalam kurung terlebih dahulu menggunakan sifat eksponen $a^m/a^n = a^{m-n}$ dan $a^m b^n / (a^p b^q) = a^{m-p} b^{n-q}$:\n$\\frac{x^{1/2} y^{-1/3}}{x^{-1} y} = x^{(1/2) - (-1)} y^{(-1/3) - 1}$\n$= x^{1/2 + 1} y^{-1/3 - 3/3}$\n$= x^{3/2} y^{-4/3}$.\nSekarang pangkatkan dengan $-3/4$ menggunakan sifat $(a^m)^n = a^{mn}$:\n$(x^{3/2} y^{-4/3})^{-3/4} = x^{(3/2) \\times (-3/4)} y^{(-4/3) \\times (-3/4)}$\n$= x^{-9/8} y^{1}$\n$= \\frac{y}{x^{9/8}}$."
+    "pembahasan": "Sederhanakan dalam kurung:\n$$\\frac{x^{1/2}y^{-1/3}}{x^{-1}y} = x^{1/2-(-1)}y^{-1/3-1} = x^{3/2}y^{-4/3}$$\nPangkatkan $-3/4$:\n$$(x^{3/2}y^{-4/3})^{-3/4} = x^{-9/8} y^1 = \\frac{y}{x^{9/8}}.$$"
   },
   {
-    "id": 79,
+    "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $x^2+y^2=14$ dan $xy=5$, dengan $x,y > 0$, maka nilai $x+y$ adalah...",
-    "pilihan": [
-      "$\\sqrt{19}$",
-      "$\\sqrt{24}$",
-      "3",
-      "4",
-      "5"
-    ],
+    "pertanyaan": "Jika $x^2+y^2=14$ dan $xy=5$, dengan $x,y>0$, maka nilai $x+y$ adalah...",
+    "pilihan": ["$\\sqrt{19}$", "$\\sqrt{24}$", "3", "4", "5"],
     "jawaban": "B",
-    "pembahasan": "Gunakan identitas aljabar $(x+y)^2 = x^2+y^2+2xy$.\nSubstitusikan nilai yang diketahui:\n$(x+y)^2 = 14 + 2(5)$\n$(x+y)^2 = 14+10$\n$(x+y)^2 = 24$.\nAmbil akar kuadrat dari kedua sisi:\n$x+y = \\pm\\sqrt{24}$.\nKarena diketahui $x, y > 0$, maka $x+y$ harus positif. Jadi, $x+y=\\sqrt{24}$."
+    "pembahasan": "Gunakan identitas $(x+y)^2 = x^2+y^2+2xy = 14+10 = 24$\nSehingga $x+y=\\sqrt{24}$ (positif karena $x,y>0$)."
   },
   {
-    "id": 80,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $x = \\sqrt{6+\\sqrt{6+\\sqrt{6+...}}}$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$\\frac{1+\\sqrt{25}}{2}$",
-      "2",
-      "3",
-      "4",
-      "6"
-    ],
+    "pilihan": ["$\\frac{1+\\sqrt{25}}{2}$", "2", "3", "4", "6"],
     "jawaban": "C",
-    "pembahasan": "Deret akar tak hingga ini dapat ditulis ulang sebagai $x=\\sqrt{6+x}$.\nKuadratkan kedua ruas:\n$x^2 = 6+x$\n$x^2 - x - 6 = 0$.\nFaktorkan persamaan kuadrat ini:\n$(x-3)(x+2) = 0$.\nMaka, $x=3$ atau $x=-2$.\nKarena $x$ adalah hasil dari akar kuadrat, nilai $x$ harus positif. Oleh karena itu, $x=3$."
+    "pembahasan": "Tuliskan ulang: $x = \\sqrt{6+x}$\nKuadratkan: $x^2 = 6+x \\implies x^2 - x - 6 = 0$\nFaktorkan: $(x-3)(x+2)=0$\nKarena $x>0$, maka $x=3$."
   }
 ]
