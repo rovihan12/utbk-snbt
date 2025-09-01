@@ -4,139 +4,139 @@
     "pertanyaan": "Seorang pedagang membeli 50 kg beras seharga Rp 300.000. Jika ia ingin mendapatkan untung 20%, berapa harga jual per kg beras tersebut?",
     "pilihan": ["A. Rp 6.000", "B. Rp 7.200", "C. Rp 7.500", "D. Rp 8.000", "E. Rp 8.400"],
     "jawaban": "B",
-    "pembahasan": "Harga beli per kg = 300.000/50 = Rp 6.000; Harga jual dengan untung 20% = 6.000 × 1,2 = Rp 7.200"
+    "pembahasan": "Harga beli per kg = \\( \\frac{300.000}{50} = 6.000 \\).\\nHarga jual = \\( 6.000 \\times (1 + 20\\%) = 6.000 \\times 1,2 = 7.200 \\)."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah mobil menempuh jarak 240 km dengan 20 liter bensin. Berapa km/liter efisiensi bahan bakar mobil tersebut?",
     "pilihan": ["A. 10 km/liter", "B. 12 km/liter", "C. 14 km/liter", "D. 15 km/liter", "E. 16 km/liter"],
     "jawaban": "B",
-    "pembahasan": "Efisiensi = Total jarak / Total bensin = 240 km / 20 liter = 12 km/liter"
+    "pembahasan": "Efisiensi = \\( \\frac{240}{20} = 12 \\) km/liter."
   },
   {
     "id": 3,
-    "pertanyaan": "Pak Andi menabung Rp 5.000.000 dengan bunga 8% per tahun. Berapa total tabungan setelah 2 tahun?",
+    "pertanyaan": "Pak Andi menabung Rp 5.000.000 dengan bunga 8% per tahun. Berapa total tabungan setelah 2 tahun (bunga majemuk)?",
     "pilihan": ["A. Rp 5.400.000", "B. Rp 5.800.000", "C. Rp 5.832.000", "D. Rp 6.000.000", "E. Rp 6.400.000"],
     "jawaban": "C",
-    "pembahasan": "Bunga tahun pertama = 5.000.000 × 8% = 400.000; Tahun kedua = 5.400.000 × 8% = 432.000; Total = 5.000.000 + 400.000 + 432.000 = Rp 5.832.000"
+    "pembahasan": "Tahun 1: \\( 5.000.000 + (5.000.000 \\times 8\\%) = 5.400.000 \\).\\nTahun 2: \\( 5.400.000 + (5.400.000 \\times 8\\%) = 5.832.000 \\)."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 12 pekerja dalam 30 hari. Berapa tambahan pekerja yang dibutuhkan untuk menyelesaikan proyek dalam 20 hari?",
     "pilihan": ["A. 4", "B. 5", "C. 6", "D. 7", "E. 8"],
     "jawaban": "C",
-    "pembahasan": "Total pekerjaan = 12 × 30 = 360; Pekerja baru = 360 / 20 = 18; Tambahan = 18 - 12 = 6 pekerja"
+    "pembahasan": "Total beban kerja = \\( 12 \\times 30 = 360 \\) (hari-pekerja).\\nJika selesai dalam 20 hari: \\( \\frac{360}{20} = 18 \\) pekerja.\\nTambahan pekerja = \\( 18 - 12 = 6 \\)."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah lapangan berbentuk persegi panjang dengan panjang 50 m dan lebar 30 m. Jika sekeliling lapangan akan dipasang lampu setiap 5 meter, berapa banyak lampu yang dibutuhkan?",
     "pilihan": ["A. 28", "B. 30", "C. 32", "D. 34", "E. 36"],
     "jawaban": "C",
-    "pembahasan": "Keliling = 2 × (50 + 30) = 160 m; Banyak lampu = 160 / 5 = 32 lampu"
+    "pembahasan": "Keliling = \\( 2(50 + 30) = 160 \\) m.\\nJumlah lampu = \\( \\frac{160}{5} = 32 \\)."
   },
   {
     "id": 6,
-    "pertanyaan": "Sebuah toko memberikan diskon 25% + 10% untuk sebuah barang yang harga awalnya Rp 800.000. Berapa harga setelah diskon?",
+    "pertanyaan": "Sebuah toko memberikan diskon 25% lalu tambahan diskon 10% untuk sebuah barang yang harga awalnya Rp 800.000. Berapa harga setelah diskon?",
     "pilihan": ["A. Rp 540.000", "B. Rp 560.000", "C. Rp 580.000", "D. Rp 600.000", "E. Rp 620.000"],
     "jawaban": "A",
-    "pembahasan": "Diskon pertama = 800.000 × 25% = 200.000 → Harga 600.000; Diskon kedua = 600.000 × 10% = 60.000 → Harga akhir Rp 540.000"
+    "pembahasan": "Diskon 25%: \\( 800.000 - (800.000 \\times 25\\%) = 600.000 \\).\\nDiskon 10%: \\( 600.000 - (600.000 \\times 10\\%) = 540.000 \\)."
   },
   {
     "id": 7,
-    "pertanyaan": "Seorang pelari mengelilingi lintasan berbentuk lingkaran dengan diameter 70 meter sebanyak 5 kali. Berapa total jarak yang ditempuh? (π = 22/7)",
+    "pertanyaan": "Seorang pelari mengelilingi lintasan berbentuk lingkaran dengan diameter 70 meter sebanyak 5 kali. Berapa total jarak yang ditempuh? (Gunakan \\( \\pi = \\frac{22}{7} \\))",
     "pilihan": ["A. 1.100 m", "B. 1.200 m", "C. 1.300 m", "D. 1.400 m", "E. 1.500 m"],
     "jawaban": "A",
-    "pembahasan": "Keliling = π × d = 22/7 × 70 = 220 m; Total jarak = 220 × 5 = 1.100 m"
+    "pembahasan": "Keliling lingkaran = \\( \\pi d = \\frac{22}{7} \\times 70 = 220 \\) m.\\nTotal = \\( 220 \\times 5 = 1.100 \\) m."
   },
   {
     "id": 8,
     "pertanyaan": "Sebuah kolam renang berukuran 10 m × 5 m × 2 m diisi air dengan debit 100 liter/menit. Berapa waktu yang dibutuhkan untuk mengisi kolam hingga penuh?",
     "pilihan": ["A. 10 jam", "B. 12 jam", "C. 15 jam", "D. 16 jam 40 menit", "E. 20 jam"],
     "jawaban": "D",
-    "pembahasan": "Volume = 10 × 5 × 2 = 100 m³ = 100.000 liter; Waktu = 100.000 / 100 = 1.000 menit = 16 jam 40 menit"
+    "pembahasan": "Volume kolam = \\( 10 \\times 5 \\times 2 = 100 \\) m³ = 100.000 liter.\\nWaktu = \\( \\frac{100.000}{100} = 1.000 \\) menit = 16 jam 40 menit."
   },
   {
     "id": 9,
     "pertanyaan": "Perbandingan uang Ani dan Budi adalah 3:5. Jika selisih uang mereka Rp 400.000, berapa jumlah uang mereka bersama?",
     "pilihan": ["A. Rp 800.000", "B. Rp 1.000.000", "C. Rp 1.200.000", "D. Rp 1.600.000", "E. Rp 2.000.000"],
     "jawaban": "D",
-    "pembahasan": "Selisih rasio = 5 - 3 = 2 bagian = Rp 400.000; 1 bagian = Rp 200.000; Total = (3+5) × 200.000 = Rp 1.600.000"
+    "pembahasan": "Selisih rasio = 5 - 3 = 2 bagian.\\n2 bagian = 400.000 → 1 bagian = 200.000.\\nTotal = \\( (3+5) \\times 200.000 = 1.600.000 \\)."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah pesawat terbang dengan kecepatan 600 km/jam menempuh jarak tertentu dalam 3 jam. Jika kecepatannya menjadi 450 km/jam, berapa waktu yang dibutuhkan?",
     "pilihan": ["A. 3,5 jam", "B. 4 jam", "C. 4,5 jam", "D. 5 jam", "E. 5,5 jam"],
     "jawaban": "B",
-    "pembahasan": "Jarak = 600 × 3 = 1.800 km; Waktu baru = 1.800 / 450 = 4 jam"
+    "pembahasan": "Jarak = \\( 600 \\times 3 = 1.800 \\) km.\\nWaktu baru = \\( \\frac{1.800}{450} = 4 \\) jam."
   },
   {
     "id": 11,
     "pertanyaan": "Seorang penjahit dapat membuat 5 baju dalam 8 hari. Berapa banyak baju yang bisa dibuat dalam 24 hari?",
     "pilihan": ["A. 10", "B. 12", "C. 15", "D. 18", "E. 20"],
     "jawaban": "C",
-    "pembahasan": "Per hari = 5/8 baju; Dalam 24 hari = 5/8 × 24 = 15 baju"
+    "pembahasan": "Produksi per hari = \\( \\frac{5}{8} \\).\\nDalam 24 hari = \\( \\frac{5}{8} \\times 24 = 15 \\)."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah kereta api berangkat dari stasiun A ke B dengan kecepatan 80 km/jam dan kembali dengan kecepatan 60 km/jam. Jika jarak A-B 240 km, berapa kecepatan rata-rata perjalanan pulang pergi?",
     "pilihan": ["A. 68 km/jam", "B. 70 km/jam", "C. 72 km/jam", "D. 75 km/jam", "E. 80 km/jam"],
     "jawaban": "A",
-    "pembahasan": "Total jarak = 480 km; Waktu pergi = 240/80 = 3 jam; Waktu pulang = 240/60 = 4 jam; Kecepatan rata-rata = 480/7 ≈ 68,57 km/jam"
+    "pembahasan": "Total jarak = \\( 240 \\times 2 = 480 \\) km.\\nWaktu pergi = \\( \\frac{240}{80} = 3 \\) jam.\\nWaktu pulang = \\( \\frac{240}{60} = 4 \\) jam.\\nTotal waktu = 7 jam.\\nKecepatan rata-rata = \\( \\frac{480}{7} \\approx 68,57 \\) km/jam."
   },
   {
     "id": 13,
     "pertanyaan": "Sebuah kebun berbentuk persegi dengan luas 1.600 m² akan dipasang pagar. Berapa biaya yang dibutuhkan jika harga pagar Rp 50.000 per meter?",
     "pilihan": ["A. Rp 4.000.000", "B. Rp 6.000.000", "C. Rp 8.000.000", "D. Rp 10.000.000", "E. Rp 12.000.000"],
     "jawaban": "C",
-    "pembahasan": "Sisi = √1.600 = 40 m; Keliling = 4 × 40 = 160 m; Biaya = 160 × 50.000 = Rp 8.000.000"
+    "pembahasan": "Sisi = \\( \\sqrt{1600} = 40 \\) m.\\nKeliling = \\( 4 \\times 40 = 160 \\) m.\\nBiaya = \\( 160 \\times 50.000 = 8.000.000 \\)."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah restoran memerlukan 15 kg beras untuk 60 porsi nasi. Berapa kg beras yang dibutuhkan untuk 200 porsi?",
     "pilihan": ["A. 40", "B. 45", "C. 50", "D. 55", "E. 60"],
     "jawaban": "C",
-    "pembahasan": "Per porsi = 15/60 = 0,25 kg; Untuk 200 porsi = 0,25 × 200 = 50 kg"
+    "pembahasan": "Kebutuhan per porsi = \\( \\frac{15}{60} = 0,25 \\) kg.\\nUntuk 200 porsi = \\( 0,25 \\times 200 = 50 \\) kg."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah drum berisi minyak 3/4 bagian. Setelah digunakan 30 liter, tersisa 1/2 bagian. Berapa kapasitas total drum?",
     "pilihan": ["A. 100 liter", "B. 120 liter", "C. 150 liter", "D. 180 liter", "E. 200 liter"],
     "jawaban": "B",
-    "pembahasan": "3/4 - 1/2 = 1/4 bagian = 30 liter; Kapasitas total = 30 × 4 = 120 liter"
+    "pembahasan": "Selisih isi = \\( \\frac{3}{4} - \\frac{1}{2} = \\frac{1}{4} \\).\\n1/4 bagian = 30 liter → kapasitas penuh = \\( 30 \\times 4 = 120 \\) liter."
   },
   {
     "id": 16,
-    "pertanyaan": "Sebuah lapangan berbentuk lingkaran akan ditanami rumput dengan biaya Rp 25.000/m². Jika diameter lapangan 28 m, berapa total biaya? (π = 22/7)",
+    "pertanyaan": "Sebuah lapangan berbentuk lingkaran akan ditanami rumput dengan biaya Rp 25.000/m². Jika diameter lapangan 28 m, berapa total biaya? (Gunakan \\( \\pi = \\frac{22}{7} \\))",
     "pilihan": ["A. Rp 12.500.000", "B. Rp 14.000.000", "C. Rp 15.400.000", "D. Rp 16.800.000", "E. Rp 18.200.000"],
     "jawaban": "C",
-    "pembahasan": "Jari-jari = 14 m; Luas = πr² = 22/7 × 14 × 14 = 616 m²; Biaya = 616 × 25.000 = Rp 15.400.000"
+    "pembahasan": "Jari-jari = \\( 14 \\) m.\\nLuas = \\( \\pi r^2 = \\frac{22}{7} \\times 14^2 = 616 \\) m².\\nBiaya = \\( 616 \\times 25.000 = 15.400.000 \\)."
   },
   {
     "id": 17,
     "pertanyaan": "Seorang pedagang membeli 2 lusin buku seharga Rp 360.000. Jika ia menjual dengan harga Rp 18.000 per buku, berapa persen keuntungannya?",
     "pilihan": ["A. 10%", "B. 15%", "C. 20%", "D. 25%", "E. 30%"],
     "jawaban": "C",
-    "pembahasan": "Harga beli per buku = 360.000/24 = 15.000; Untung per buku = 3.000; Persentase = (3.000/15.000) × 100% = 20%"
+    "pembahasan": "Jumlah buku = 2 lusin = 24.\\nHarga beli per buku = \\( \\frac{360.000}{24} = 15.000 \\).\\nUntung per buku = \\( 18.000 - 15.000 = 3.000 \\).\\nPersentase untung = \\( \\frac{3.000}{15.000} \\times 100\\% = 20\\% \\)."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah bus berangkat dari kota A ke B dengan kecepatan 60 km/jam. Bus lain berangkat 1 jam kemudian dengan kecepatan 80 km/jam. Kapan bus kedua menyusul bus pertama?",
     "pilihan": ["A. 2 jam", "B. 3 jam", "C. 4 jam", "D. 5 jam", "E. 6 jam"],
     "jawaban": "B",
-    "pembahasan": "Selisih jarak awal = 60 × 1 = 60 km; Selisih kecepatan = 20 km/jam; Waktu = 60/20 = 3 jam setelah bus kedua berangkat"
+    "pembahasan": "Bus pertama berjarak \\( 60 \\times 1 = 60 \\) km di depan.\\nSelisih kecepatan = 80 - 60 = 20 km/jam.\\nWaktu untuk menyusul = \\( \\frac{60}{20} = 3 \\) jam (setelah bus kedua berangkat)."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah balok memiliki perbandingan panjang:lebar:tinggi = 5:3:2. Jika volumenya 810 cm³, berapa panjang balok tersebut?",
     "pilihan": ["A. 10 cm", "B. 12 cm", "C. 15 cm", "D. 18 cm", "E. 20 cm"],
     "jawaban": "C",
-    "pembahasan": "Misal faktor skala = x → 5x × 3x × 2x = 30x³ = 810 → x³ = 27 → x = 3; Panjang = 5 × 3 = 15 cm"
+    "pembahasan": "Misal faktor skala = x.\\nVolume = \\( 5x \\times 3x \\times 2x = 30x^3 \\).\\nDiketahui \\( 30x^3 = 810 \\) → \\( x^3 = 27 \\) → x = 3.\\nPanjang = \\( 5x = 15 \\) cm."
   },
   {
     "id": 20,
     "pertanyaan": "Sebuah kelas terdiri dari 30 siswa. Rata-rata nilai matematika 15 siswa laki-laki adalah 80, sedangkan rata-rata nilai 15 siswa perempuan adalah 85. Berapa rata-rata nilai seluruh kelas?",
     "pilihan": ["A. 81,5", "B. 82,0", "C. 82,5", "D. 83,0", "E. 83,5"],
     "jawaban": "C",
-    "pembahasan": "Total nilai laki-laki = 15 × 80 = 1.200; Total nilai perempuan = 15 × 85 = 1.275; Rata-rata = (1.200 + 1.275) / 30 = 82,5"
+    "pembahasan": "Total nilai laki-laki = \\( 15 \\times 80 = 1.200 \\).\\nTotal nilai perempuan = \\( 15 \\times 85 = 1.275 \\).\\nTotal = 2.475.\\nRata-rata = \\( \\frac{2.475}{30} = 82,5 \\)."
   }
 ]
