@@ -1,262 +1,142 @@
 [
   {
-    "id": 141,
+    "id": 1,
     "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-5 adalah 23 dan suku ke-12 adalah 51. Suku ke-20 dari barisan tersebut adalah...",
-    "pilihan": [
-      "79",
-      "81",
-      "83",
-      "85",
-      "87"
-    ],
+    "pilihan": ["79", "81", "83", "85", "87"],
     "jawaban": "C",
-    "pembahasan": "Diketahui $a_5 = a_1 + 4d = 23$ dan $a_{12} = a_1 + 11d = 51$. Kurangkan kedua persamaan: $(a_1 + 11d) - (a_1 + 4d) = 51 - 23 \\Rightarrow 7d = 28 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 4d = 23 \\Rightarrow a_1 + 4(4) = 23 \\Rightarrow a_1 + 16 = 23 \\Rightarrow a_1 = 7$. Suku ke-20 adalah $a_{20} = a_1 + 19d = 7 + 19(4) = 7 + 76 = 83$."
+    "pembahasan": "Diketahui: \n$a_5 = a_1 + 4d = 23$ \n$a_{12} = a_1 + 11d = 51$ \nSelisih: $7d = 28 \\Rightarrow d=4$ \nSubstitusi: $a_1 + 16 = 23 \\Rightarrow a_1=7$ \nSuku ke-20: $a_{20} = a_1 + 19d = 7 + 76 = 83$."
   },
   {
-    "id": 142,
+    "id": 2,
     "pertanyaan": "Jumlah 15 suku pertama dari deret aritmetika yang suku pertamanya 7 dan bedanya 4 adalah...",
-    "pilihan": [
-      "510",
-      "525",
-      "540",
-      "555",
-      "570"
-    ],
+    "pilihan": ["510", "525", "540", "555", "570"],
     "jawaban": "B",
-    "pembahasan": "Diketahui $a_1=7$ dan $d=4$. Rumus jumlah n suku pertama barisan aritmetika adalah $S_n = \\frac{n}{2}(2a_1 + (n-1)d)$. Untuk $n=15$: $S_{15} = \\frac{15}{2}(2 \\times 7 + (15-1)4) = \\frac{15}{2}(14 + 14 \\times 4) = \\frac{15}{2}(14 + 56) = \\frac{15}{2}(70) = 15 \\times 35 = 525$."
+    "pembahasan": "Rumus: $S_n = \\tfrac{n}{2}(2a_1 + (n-1)d)$ \n$S_{15} = \\tfrac{15}{2}(2(7) + 14(4)) = \\tfrac{15}{2}(14 + 56) = 15 \\times 35 = 525$."
   },
   {
-    "id": 143,
+    "id": 3,
     "pertanyaan": "Suku ke-7 dari barisan geometri $3, 9, 27, ...$ adalah...",
-    "pilihan": [
-      "729",
-      "2187",
-      "6561",
-      "19683",
-      "59049"
-    ],
+    "pilihan": ["729", "2187", "6561", "19683", "59049"],
     "jawaban": "B",
-    "pembahasan": "Diketahui $a_1=3$ dan rasio $r = 9/3 = 3$. Rumus suku ke-n barisan geometri adalah $a_n = a_1 \\times r^{n-1}$. Untuk suku ke-7 ($a_7$): $a_7 = 3 \\times 3^{7-1} = 3 \\times 3^6 = 3 \\times 729 = 2187$."
+    "pembahasan": "Diketahui $a_1=3$, $r=3$. \n$a_7 = a_1 r^{6} = 3(3^6) = 3(729) = 2187$."
   },
   {
-    "id": 144,
-    "pertanyaan": "Jumlah tak hingga dari deret geometri $100 + 20 + 4 + \\frac{4}{5} + ...$ adalah...",
-    "pilihan": [
-      "120",
-      "122.5",
-      "125",
-      "127.5",
-      "130"
-    ],
+    "id": 4,
+    "pertanyaan": "Jumlah tak hingga dari deret geometri $100 + 20 + 4 + \\tfrac{4}{5} + ...$ adalah...",
+    "pilihan": ["120", "122.5", "125", "127.5", "130"],
     "jawaban": "C",
-    "pembahasan": "Deret ini adalah deret geometri dengan suku pertama ($a$) = 100. Rasio ($r$) = $\\frac{20}{100} = \\frac{1}{5}$. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{100}{1 - 1/5} = \\frac{100}{4/5} = 100 \\times \\frac{5}{4} = 25 \\times 5 = 125$."
+    "pembahasan": "Diketahui $a=100$, $r=\\tfrac{1}{5}$. \n$S_\\infty = \\tfrac{a}{1-r} = \\tfrac{100}{1-1/5} = \\tfrac{100}{4/5} = 125$."
   },
   {
-    "id": 145,
+    "id": 5,
     "pertanyaan": "Jika $x-2, 2x+1, 4x-1$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $x$ adalah...",
-    "pilihan": [
-      "4",
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
+    "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "B",
-    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan, atau suku tengah adalah rata-rata dari suku sebelum dan sesudahnya: $2(2x+1) = (x-2) + (4x-1)$. $4x+2 = 5x-3$. Pindahkan $4x$ ke kanan dan $-3$ ke kiri: $2+3 = 5x-4x \\Rightarrow 5 = x$. Jadi, $x=5$. Jika $x=5$: suku-suku adalah $3, 11, 19$. Bedanya 8. Ini konsisten."
+    "pembahasan": "Syarat barisan aritmetika: $2(2x+1) = (x-2) + (4x-1)$. \n$4x+2 = 5x-3 \\Rightarrow x=5$."
   },
   {
-    "id": 146,
-    "pertanyaan": "Sebuah barisan $a_n$ didefinisikan dengan $a_1=5$ dan $a_{n+1} = 3a_n - 8$. Suku ke-4 dari barisan tersebut adalah...",
-    "pilihan": [
-      "7",
-      "13",
-      "25",
-      "31",
-      "73"
-    ],
+    "id": 6,
+    "pertanyaan": "Sebuah barisan $a_n$ didefinisikan dengan $a_1=5$ dan $a_{n+1}=3a_n-8$. Suku ke-4 dari barisan tersebut adalah...",
+    "pilihan": ["7", "13", "25", "31", "73"],
     "jawaban": "D",
-    "pembahasan": "Kita hitung suku-suku secara berurutan:\n$a_1 = 5$\n$a_2 = 3a_1 - 8 = 3(5) - 8 = 15 - 8 = 7$\n$a_3 = 3a_2 - 8 = 3(7) - 8 = 21 - 8 = 13$\n$a_4 = 3a_3 - 8 = 3(13) - 8 = 39 - 8 = 31$."
+    "pembahasan": "$a_1=5$ \n$a_2=3(5)-8=7$ \n$a_3=3(7)-8=13$ \n$a_4=3(13)-8=31$."
   },
   {
-    "id": 147,
-    "pertanyaan": "Jumlah n suku pertama suatu deret aritmetika adalah $S_n = 2n^2 + 5n$. Suku ke-4 dari deret tersebut adalah...",
-    "pilihan": [
-      "15",
-      "17",
-      "19",
-      "21",
-      "23"
-    ],
+    "id": 7,
+    "pertanyaan": "Jumlah n suku pertama suatu deret aritmetika adalah $S_n=2n^2+5n$. Suku ke-4 dari deret tersebut adalah...",
+    "pilihan": ["15", "17", "19", "21", "23"],
     "jawaban": "C",
-    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-4 ($a_4$) = $S_4 - S_3$.\n$S_4 = 2(4)^2 + 5(4) = 2(16) + 20 = 32 + 20 = 52$.\n$S_3 = 2(3)^2 + 5(3) = 2(9) + 15 = 18 + 15 = 33$.\n$a_4 = 52 - 33 = 19$."
+    "pembahasan": "Rumus: $a_n=S_n-S_{n-1}$. \n$a_4 = S_4 - S_3 = (52) - (33) = 19$."
   },
   {
-    "id": 148,
-    "pertanyaan": "Sebuah barisan geometri memiliki suku ketiga adalah 18 dan suku keenam adalah 486. Suku pertama barisan tersebut adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "6",
-      "9",
-      "12"
-    ],
+    "id": 8,
+    "pertanyaan": "Sebuah barisan geometri memiliki suku ketiga 18 dan suku keenam 486. Suku pertama barisan tersebut adalah...",
+    "pilihan": ["2", "3", "6", "9", "12"],
     "jawaban": "A",
-    "pembahasan": "Diketahui $a_3 = ar^2 = 18$ dan $a_6 = ar^5 = 486$. Bagi $a_6$ dengan $a_3$: $\\frac{ar^5}{ar^2} = \\frac{486}{18} \\Rightarrow r^3 = 27 \\Rightarrow r = 3$. Substitusikan $r=3$ ke $ar^2=18 \\Rightarrow a(3)^2=18 \\Rightarrow 9a=18 \\Rightarrow a=2$. Jadi suku pertamanya adalah 2."
+    "pembahasan": "$a_3=ar^2=18$, $a_6=ar^5=486$. \nBagi: $r^3=27 \\Rightarrow r=3$. \n$a(3^2)=18 \\Rightarrow a=2$."
   },
   {
-    "id": 149,
-    "pertanyaan": "Jika $p, q, r$ membentuk barisan geometri dan $pqr = 216$, maka nilai $q$ adalah...",
-    "pilihan": [
-      "4",
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
+    "id": 9,
+    "pertanyaan": "Jika $p,q,r$ membentuk barisan geometri dan $pqr=216$, maka nilai $q$ adalah...",
+    "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "C",
-    "pembahasan": "Misalkan suku-suku barisan geometri adalah $p, q, r$. Maka $q$ adalah suku tengah, sehingga $q^2 = pr$. Maka $pqr = (pr)q = q^2 \\times q = q^3$. Diketahui $q^3=216$, maka $q = \\sqrt[3]{216} = 6$."
+    "pembahasan": "Pada barisan geometri: $q^2=pr$. Maka $pqr=(pr)q=q^3$. \n$q^3=216 \\Rightarrow q=6$."
   },
   {
-    "id": 150,
-    "pertanyaan": "Dalam suatu barisan aritmetika, suku ke-4 adalah 15 dan suku ke-9 adalah 35. Jumlah 20 suku pertama dari barisan tersebut adalah...",
-    "pilihan": [
-      "750",
-      "770",
-      "790",
-      "810",
-      "820"
-    ],
+    "id": 10,
+    "pertanyaan": "Dalam suatu barisan aritmetika, suku ke-4 adalah 15 dan suku ke-9 adalah 35. Jumlah 20 suku pertamanya adalah...",
+    "pilihan": ["750", "770", "790", "810", "820"],
     "jawaban": "E",
-    "pembahasan": "Diketahui $a_4 = a_1 + 3d = 15$ dan $a_9 = a_1 + 8d = 35$. Kurangkan kedua persamaan: $(a_1 + 8d) - (a_1 + 3d) = 35 - 15 \\Rightarrow 5d = 20 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 3d = 15 \\Rightarrow a_1 + 3(4) = 15 \\Rightarrow a_1 + 12 = 15 \\Rightarrow a_1 = 3$. Jumlah 20 suku pertama: $S_{20} = \\frac{20}{2}(2a_1 + (20-1)d) = 10(2(3) + 19(4)) = 10(6 + 76) = 10(82) = 820$."
+    "pembahasan": "$a_4=a_1+3d=15$, $a_9=a_1+8d=35$. \nSelisih: $5d=20 \\Rightarrow d=4$. \n$a_1=15-12=3$. \n$S_{20}=10(2(3)+19(4))=10(82)=820$."
   },
   {
-    "id": 151,
-    "pertanyaan": "Suku ke-n dari barisan $1, 4, 7, 10, ...$ adalah...",
-    "pilihan": [
-      "$3n-2$",
-      "$3n+1$",
-      "$n^2$",
-      "$2n+1$",
-      "$4n-3$"
-    ],
+    "id": 11,
+    "pertanyaan": "Suku ke-n dari barisan $1,4,7,10,...$ adalah...",
+    "pilihan": ["$3n-2$", "$3n+1$", "$n^2$", "$2n+1$", "$4n-3$"],
     "jawaban": "A",
-    "pembahasan": "Barisan ini adalah barisan aritmetika dengan suku pertama $a_1=1$ dan beda $d=4-1=3$. Rumus suku ke-n adalah $a_n = a_1 + (n-1)d = 1 + (n-1)3 = 1 + 3n - 3 = 3n - 2$."
+    "pembahasan": "Barisan aritmetika dengan $a_1=1$, $d=3$. \n$a_n=a_1+(n-1)d=1+3n-3=3n-2$."
   },
   {
-    "id": 152,
-    "pertanyaan": "Jumlah deret geometri tak hingga adalah 60. Jika rasionya $1/3$, maka suku pertamanya adalah...",
-    "pilihan": [
-      "30",
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
+    "id": 12,
+    "pertanyaan": "Jumlah deret geometri tak hingga adalah 60. Jika rasionya $\\tfrac{1}{3}$, maka suku pertamanya adalah...",
+    "pilihan": ["30", "35", "40", "45", "50"],
     "jawaban": "C",
-    "pembahasan": "Diketahui $S_\\infty = 60$ dan $r=1/3$. Rumus $S_\\infty = \\frac{a}{1-r}$. $60 = \\frac{a}{1 - 1/3} \\Rightarrow 60 = \\frac{a}{2/3} \\Rightarrow a = 60 \\times \\frac{2}{3} = 20 \\times 2 = 40$."
+    "pembahasan": "Rumus: $S_\\infty=\\tfrac{a}{1-r}$. \n$60=\\tfrac{a}{1-1/3}=\\tfrac{a}{2/3} \\Rightarrow a=40$."
   },
   {
-    "id": 153,
-    "pertanyaan": "Dalam suatu barisan aritmetika, jumlah suku ke-3 dan suku ke-6 adalah 30, dan suku ke-8 adalah 28. Suku pertama barisan tersebut adalah...",
-    "pilihan": [
-      "2",
-      "4",
-      "6",
-      "8",
-      "10"
-    ],
+    "id": 13,
+    "pertanyaan": "Dalam suatu barisan aritmetika, jumlah suku ke-3 dan ke-6 adalah 30, dan suku ke-8 adalah 28. Suku pertamanya adalah...",
+    "pilihan": ["2", "4", "6", "8", "10"],
     "jawaban": "A",
-    "pembahasan": "Diketahui $a_3 + a_6 = (a_1+2d) + (a_1+5d) = 2a_1+7d = 30$ (Persamaan 1). Dan $a_8 = a_1 + 7d = 28$ (Persamaan 2). Kurangkan Persamaan 2 dari Persamaan 1: $(2a_1+7d) - (a_1+7d) = 30-28 \\Rightarrow a_1 = 2$. Substitusikan $a_1=2$ ke Persamaan 2: $2 + 7d = 28 \\Rightarrow 7d = 26 \\Rightarrow d = \\frac{26}{7}$. Suku pertama adalah 2."
+    "pembahasan": "$a_3+a_6=2a_1+7d=30$ \n$a_8=a_1+7d=28$ \nKurangkan: $a_1=2$."
   },
   {
-    "id": 154,
-    "pertanyaan": "Sebuah barisan $y_1, y_2, y_3, ...$ didefinisikan dengan $y_1=2$, $y_2=5$, dan $y_n = y_{n-1} + y_{n-2}$ untuk $n \\ge 3$. Nilai $y_5$ adalah...",
-    "pilihan": [
-      "12",
-      "17",
-      "19",
-      "29",
-      "34"
-    ],
+    "id": 14,
+    "pertanyaan": "Sebuah barisan $y_1,y_2,y_3,...$ didefinisikan dengan $y_1=2$, $y_2=5$, dan $y_n=y_{n-1}+y_{n-2}$. Nilai $y_5$ adalah...",
+    "pilihan": ["12", "17", "19", "29", "34"],
     "jawaban": "C",
-    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan:\n$y_1 = 2$\n$y_2 = 5$\n$y_3 = y_2 + y_1 = 5 + 2 = 7$\n$y_4 = y_3 + y_2 = 7 + 5 = 12$\n$y_5 = y_4 + y_3 = 12 + 7 = 19$."
+    "pembahasan": "$y_1=2$, $y_2=5$ \n$y_3=7$, $y_4=12$, $y_5=19$."
   },
   {
-    "id": 155,
-    "pertanyaan": "Suku ke-n dari barisan $2, 5, 10, 17, 26, ...$ adalah...",
-    "pilihan": [
-      "$n^2+1$",
-      "$n^2+2$",
-      "$2n^2$",
-      "$n^2-1$",
-      "$\\frac{n(n+1)}{2}+1$"
-    ],
+    "id": 15,
+    "pertanyaan": "Suku ke-n dari barisan $2,5,10,17,26,...$ adalah...",
+    "pilihan": ["$n^2+1$", "$n^2+2$", "$2n^2$", "$n^2-1$", "$\\tfrac{n(n+1)}{2}+1$"],
     "jawaban": "A",
-    "pembahasan": "Perhatikan pola: $1^2+1 = 2$, $2^2+1 = 5$, $3^2+1 = 10$, $4^2+1 = 17$, $5^2+1 = 26$. Jadi, suku ke-n adalah $n^2+1$."
+    "pembahasan": "Polanya: $1^2+1=2$, $2^2+1=5$, $3^2+1=10$, ... \nMaka $a_n=n^2+1$."
   },
   {
-    "id": 156,
-    "pertanyaan": "Jika $S_n = 2n^3 - n$ adalah jumlah $n$ suku pertama dari suatu deret, maka suku ke-3 ($a_3$) dari deret tersebut adalah...",
-    "pilihan": [
-      "30",
-      "36",
-      "37",
-      "44",
-      "48"
-    ],
+    "id": 16,
+    "pertanyaan": "Jika $S_n=2n^3-n$ adalah jumlah $n$ suku pertama suatu deret, maka suku ke-3 adalah...",
+    "pilihan": ["30", "36", "37", "44", "48"],
     "jawaban": "C",
-    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Suku ke-3 ($a_3$) = $S_3 - S_2$.\n$S_3 = 2(3)^3 - 3 = 2(27) - 3 = 54 - 3 = 51$.\n$S_2 = 2(2)^3 - 2 = 2(8) - 2 = 16 - 2 = 14$.\n$a_3 = 51 - 14 = 37$."
+    "pembahasan": "$a_3=S_3-S_2=(51)-(14)=37$."
   },
   {
-    "id": 157,
-    "pertanyaan": "Sebuah deret geometri tak hingga konvergen memiliki rasio $1/4$. Jika suku pertamanya 24, maka jumlahnya adalah...",
-    "pilihan": [
-      "32",
-      "36",
-      "40",
-      "48",
-      "64"
-    ],
+    "id": 17,
+    "pertanyaan": "Sebuah deret geometri tak hingga konvergen memiliki rasio $\\tfrac{1}{4}$. Jika suku pertamanya 24, maka jumlahnya adalah...",
+    "pilihan": ["32", "36", "40", "48", "64"],
     "jawaban": "A",
-    "pembahasan": "Diketahui $a=24$ dan $r=1/4$. Rumus $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{24}{1 - 1/4} = \\frac{24}{3/4} = 24 \\times \\frac{4}{3} = 8 \\times 4 = 32$."
+    "pembahasan": "$S_\\infty=\\tfrac{a}{1-r}=\\tfrac{24}{1-1/4}=\\tfrac{24}{3/4}=32$."
   },
   {
-    "id": 158,
+    "id": 18,
     "pertanyaan": "Tentukan jumlah semua bilangan genap positif dua digit.",
-    "pilihan": [
-      "2430",
-      "2450",
-      "2470",
-      "2490",
-      "2510"
-    ],
+    "pilihan": ["2430", "2450", "2470", "2490", "2510"],
     "jawaban": "A",
-    "pembahasan": "Bilangan genap positif dua digit adalah 10, 12, ..., 98. Ini adalah barisan aritmetika dengan $a_1=10$, $d=2$, dan $a_n=98$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 98 = 10 + (n-1)2 \\Rightarrow 88 = 2(n-1) \\Rightarrow 44 = n-1 \\Rightarrow n = 45$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{45}{2}(10 + 98) = \\frac{45}{2}(108) = 45 \\times 54 = 2430$."
+    "pembahasan": "Bilangan genap 2 digit: 10,12,...,98. \n$a_1=10$, $a_n=98$, $d=2$. \n$n=45$. \n$S_{45}=\\tfrac{45}{2}(10+98)=2430$."
   },
   {
-    "id": 159,
-    "pertanyaan": "Jika $k+1, 3k, 5k+9$ adalah tiga suku berurutan dari sebuah barisan geometri, maka nilai $k$ adalah...",
-    "pilihan": [
-      "-3",
-      "-2",
-      "-1",
-      "1",
-      "3"
-    ],
+    "id": 19,
+    "pertanyaan": "Jika $k+1, 3k, 5k+9$ adalah tiga suku berurutan dari barisan geometri, maka nilai $k$ adalah...",
+    "pilihan": ["-3", "-2", "-1", "1", "3"],
     "jawaban": "Tidak ada dalam pilihan",
-    "pembahasan": "Dalam barisan geometri, rasio antar suku berturut-turut adalah konstan: $\\frac{3k}{k+1} = \\frac{5k+9}{3k}$. Lakukan perkalian silang: $(3k)^2 = (k+1)(5k+9)$. $9k^2 = 5k^2 + 9k + 5k + 9$. $9k^2 = 5k^2 + 14k + 9$. Pindahkan semua ke satu sisi: $4k^2 - 14k - 9 = 0$. Gunakan rumus kuadratik $k = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\n$k = \\frac{-(-14) \\pm \\sqrt{(-14)^2 - 4(4)(-9)}}{2(4)} = \\frac{14 \\pm \\sqrt{196 + 144}}{8} = \\frac{14 \\pm \\sqrt{340}}{8}$.\nNilai $k$ adalah $k = \\frac{14 \\pm 2\\sqrt{85}}{8} = \\frac{7 \\pm \\sqrt{85}}{4}$. Karena $\\sqrt{85}$ bukan bilangan bulat, tidak ada nilai $k$ bulat di pilihan yang memenuhi. Soal ini kemungkinan memiliki pilihan jawaban yang tidak sesuai atau harusnya bilangan non-bulat."
+    "pembahasan": "Syarat barisan geometri: $\\tfrac{3k}{k+1}=\\tfrac{5k+9}{3k}$. \n$9k^2=(k+1)(5k+9)$ \n$9k^2=5k^2+14k+9$ \n$4k^2-14k-9=0$ \n$k=\\tfrac{7\\pm\\sqrt{85}}{4}$ (bukan bilangan bulat, tidak ada di pilihan)."
   },
   {
-    "id": 160,
-    "pertanyaan": "Sebuah deret aritmetika memiliki suku pertama 5 dan suku terakhir 45. Jika jumlah deret tersebut adalah 250, maka banyaknya suku dalam deret tersebut adalah...",
-    "pilihan": [
-      "8",
-      "10",
-      "12",
-      "15",
-      "18"
-    ],
+    "id": 20,
+    "pertanyaan": "Sebuah deret aritmetika memiliki suku pertama 5 dan suku terakhir 45. Jika jumlah deret tersebut adalah 250, maka banyaknya suku adalah...",
+    "pilihan": ["8", "10", "12", "15", "18"],
     "jawaban": "B",
-    "pembahasan": "Diketahui $a_1=5$, $a_n=45$, dan $S_n=250$. Rumus jumlah n suku pertama adalah $S_n = \\frac{n}{2}(a_1 + a_n)$. $250 = \\frac{n}{2}(5 + 45) \\Rightarrow 250 = \\frac{n}{2}(50) \\Rightarrow 250 = 25n \\Rightarrow n = \\frac{250}{25} = 10$."
+    "pembahasan": "Rumus: $S_n=\\tfrac{n}{2}(a_1+a_n)$. \n$250=\\tfrac{n}{2}(5+45)=25n \\Rightarrow n=10$."
   }
 ]
