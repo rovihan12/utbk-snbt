@@ -1,8 +1,8 @@
 [
   {
-    "id": 81,
+    "id": 1,
     "kategori": "Mudah",
-    "pertanyaan": "Jika 2^(x+1) = 16, maka nilai x adalah...",
+    "pertanyaan": "Jika $2^{x+1} = 16$, maka nilai $x$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -11,12 +11,12 @@
       "5"
     ],
     "jawaban": "3",
-    "pembahasan": "Untuk menyelesaikan 2^(x+1) = 16, ubah 16 ke dalam bentuk pangkat 2, yaitu 2^4. Jadi, 2^(x+1) = 2^4. Karena basisnya sama, maka pangkatnya harus sama: x+1 = 4, sehingga x = 3."
+    "pembahasan": "Ubah 16 ke dalam bentuk pangkat 2: $16 = 2^4$. Jadi persamaan menjadi $2^{x+1} = 2^4$. Karena basis sama, pangkatnya harus sama: $x + 1 = 4 \Rightarrow x = 3$."
   },
   {
-    "id": 82,
+    "id": 2,
     "kategori": "Mudah",
-    "pertanyaan": "Bentuk sederhana dari (a^5 b^3) / (a^2 b) adalah...",
+    "pertanyaan": "Bentuk sederhana dari $\\frac{a^5 b^3}{a^2 b}$ adalah...",
     "pilihan": [
       "a^3 b^2",
       "a^7 b^4",
@@ -25,12 +25,12 @@
       "a^2 b^2"
     ],
     "jawaban": "a^3 b^2",
-    "pembahasan": "Gunakan sifat pembagian pangkat: a^m / a^n = a^(m-n) dan b^m / b^n = b^(m-n). Maka (a^5 b^3) / (a^2 b^1) = a^(5-2) b^(3-1) = a^3 b^2."
+    "pembahasan": "Gunakan sifat pangkat: $\\frac{a^m}{a^n} = a^{m-n}$ dan $\\frac{b^m}{b^n} = b^{m-n}$. Maka:\n$\\frac{a^5 b^3}{a^2 b} = a^{5-2} b^{3-1} = a^3 b^2$."
   },
   {
-    "id": 83,
+    "id": 3,
     "kategori": "Mudah",
-    "pertanyaan": "Nilai dari log basis 3 dari 81 adalah...",
+    "pertanyaan": "Nilai dari $\\log_3 81$ adalah...",
     "pilihan": [
       "2",
       "3",
@@ -39,26 +39,26 @@
       "6"
     ],
     "jawaban": "4",
-    "pembahasan": "Logaritma log_3 81 menanyakan 3 pangkat berapa yang menghasilkan 81. Kita tahu bahwa 3^4 = 81. Jadi, log_3 81 = 4."
+    "pembahasan": "Logaritma $\\log_3 81$ menanyakan: $3^? = 81$. Karena $3^4 = 81$, maka $\\log_3 81 = 4$."
   },
   {
-    "id": 84,
+    "id": 4,
     "kategori": "Mudah",
-    "pertanyaan": "Hasil dari 3 akar(2) x 4 akar(3) adalah...",
+    "pertanyaan": "Hasil dari $3\\sqrt{2} \\times 4\\sqrt{3}$ adalah...",
     "pilihan": [
-      "7 akar(5)",
-      "12 akar(6)",
-      "12 akar(5)",
-      "7 akar(6)",
-      "6 akar(6)"
+      "7\\sqrt{5}",
+      "12\\sqrt{6}",
+      "12\\sqrt{5}",
+      "7\\sqrt{6}",
+      "6\\sqrt{6}"
     ],
-    "jawaban": "12 akar(6)",
-    "pembahasan": "Kalikan koefisien di luar akar dan kalikan angka di dalam akar: (3 x 4) akar(2 x 3) = 12 akar(6)."
+    "jawaban": "12\\sqrt{6}",
+    "pembahasan": "Kalikan koefisien dan bilangan di dalam akar:\n$(3 \\times 4) \\sqrt{2 \\times 3} = 12\\sqrt{6}$."
   },
   {
-    "id": 85,
+    "id": 5,
     "kategori": "Mudah",
-    "pertanyaan": "Jika f(x) = 2x - 3, maka nilai f(5) adalah...",
+    "pertanyaan": "Jika $f(x) = 2x - 3$, maka nilai $f(5)$ adalah...",
     "pilihan": [
       "5",
       "7",
@@ -67,12 +67,12 @@
       "8"
     ],
     "jawaban": "7",
-    "pembahasan": "Untuk mencari f(5), substitusikan x=5 ke dalam fungsi: f(5) = 2(5) - 3 = 10 - 3 = 7."
+    "pembahasan": "Substitusi $x = 5$ ke fungsi:\n$f(5) = 2(5) - 3 = 10 - 3 = 7$."
   },
   {
-    "id": 86,
+    "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Gradien garis yang melalui titik (2, 5) dan (4, 9) adalah...",
+    "pertanyaan": "Gradien garis yang melalui titik $(2, 5)$ dan $(4, 9)$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -81,12 +81,12 @@
       "5"
     ],
     "jawaban": "2",
-    "pembahasan": "Gunakan rumus gradien m = (y2 - y1) / (x2 - x1). Dengan (x1, y1) = (2, 5) dan (x2, y2) = (4, 9), maka m = (9 - 5) / (4 - 2) = 4 / 2 = 2."
+    "pembahasan": "Gunakan rumus gradien:\n$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{9 - 5}{4 - 2} = \\frac{4}{2} = 2$."
   },
   {
-    "id": 87,
+    "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Persamaan garis yang bergradien 2 dan melalui titik (1, 3) adalah...",
+    "pertanyaan": "Persamaan garis yang bergradien 2 dan melalui titik $(1, 3)$ adalah...",
     "pilihan": [
       "y = 2x + 1",
       "y = 2x - 1",
@@ -95,12 +95,12 @@
       "y = 2x + 5"
     ],
     "jawaban": "y = 2x + 1",
-    "pembahasan": "Gunakan rumus persamaan garis y - y1 = m(x - x1). Dengan m=2 dan (x1, y1) = (1, 3), maka y - 3 = 2(x - 1) --> y - 3 = 2x - 2 --> y = 2x + 1."
+    "pembahasan": "Gunakan persamaan garis: $y - y_1 = m(x - x_1)$\n$y - 3 = 2(x - 1) \\Rightarrow y - 3 = 2x - 2 \\Rightarrow y = 2x + 1$."
   },
   {
-    "id": 88,
+    "id": 8,
     "kategori": "Mudah",
-    "pertanyaan": "Himpunan penyelesaian dari 2x - 5 < 7 adalah...",
+    "pertanyaan": "Himpunan penyelesaian dari $2x - 5 < 7$ adalah...",
     "pilihan": [
       "x < 2",
       "x < 6",
@@ -109,10 +109,10 @@
       "x = 6"
     ],
     "jawaban": "x < 6",
-    "pembahasan": "Selesaikan pertidaksamaan: 2x - 5 < 7 --> 2x < 7 + 5 --> 2x < 12 --> x < 6."
+    "pembahasan": "Selesaikan pertidaksamaan:\n$2x - 5 < 7 \\Rightarrow 2x < 12 \\Rightarrow x < 6$."
   },
   {
-    "id": 89,
+    "id": 9,
     "kategori": "Mudah",
     "pertanyaan": "Jika sebuah segitiga siku-siku memiliki sisi 3 cm dan 4 cm, maka panjang sisi miringnya adalah...",
     "pilihan": [
@@ -123,10 +123,10 @@
       "9 cm"
     ],
     "jawaban": "5 cm",
-    "pembahasan": "Gunakan teorema Pythagoras: a^2 + b^2 = c^2. Maka 3^2 + 4^2 = c^2 --> 9 + 16 = c^2 --> 25 = c^2 --> c = akar(25) = 5 cm."
+    "pembahasan": "Gunakan teorema Pythagoras:\n$c = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5\\,cm$."
   },
   {
-    "id": 90,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Luas lingkaran dengan jari-jari 7 cm adalah...",
     "pilihan": [
@@ -137,12 +137,12 @@
       "77 cm^2"
     ],
     "jawaban": "154 cm^2",
-    "pembahasan": "Rumus luas lingkaran adalah A = pi * r^2. Dengan r=7 cm dan pi = 22/7, maka A = (22/7) x 7^2 = (22/7) x 49 = 22 x 7 = 154 cm^2."
+    "pembahasan": "Rumus luas lingkaran: $A = \\pi r^2$. Dengan $r=7$ cm dan $\\pi = \\frac{22}{7}$:\n$A = \\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 22 \\times 7 = 154\\,cm^2$."
   },
   {
-    "id": 91,
+    "id": 11,
     "kategori": "Mudah",
-    "pertanyaan": "Nilai dari limit x mendekati 2 dari (3x^2 - 4x + 5) adalah...",
+    "pertanyaan": "Nilai dari $\\lim_{x \\to 2} (3x^2 - 4x + 5)$ adalah...",
     "pilihan": [
       "5",
       "7",
@@ -151,12 +151,12 @@
       "15"
     ],
     "jawaban": "9",
-    "pembahasan": "Untuk limit fungsi polinomial, kita bisa langsung substitusikan nilai x. Jadi, limit x mendekati 2 dari (3x^2 - 4x + 5) = 3(2)^2 - 4(2) + 5 = 3(4) - 8 + 5 = 12 - 8 + 5 = 9."
+    "pembahasan": "Untuk fungsi polinomial, langsung substitusi $x = 2$:\n$3(2)^2 - 4(2) + 5 = 12 - 8 + 5 = 9$."
   },
   {
-    "id": 92,
+    "id": 12,
     "kategori": "Sedang",
-    "pertanyaan": "Turunan pertama dari f(x) = 4x^3 - 2x^2 + x - 7 adalah...",
+    "pertanyaan": "Turunan pertama dari $f(x) = 4x^3 - 2x^2 + x - 7$ adalah...",
     "pilihan": [
       "12x^2 - 4x + 1",
       "12x^2 - 4x",
@@ -165,12 +165,12 @@
       "12x^2 - 4"
     ],
     "jawaban": "12x^2 - 4x + 1",
-    "pembahasan": "Gunakan aturan turunan pangkat (d/dx(ax^n) = anx^(n-1)) dan turunan konstanta (d/dx(c) = 0).\nf'(x) = 4(3)x^(3-1) - 2(2)x^(2-1) + 1x^(1-1) - 0 = 12x^2 - 4x + 1."
+    "pembahasan": "Gunakan aturan turunan: $(ax^n)' = n a x^{n-1}$\n$f'(x) = 4(3)x^{2} - 2(2)x + 1 = 12x^2 - 4x + 1$."
   },
   {
-    "id": 93,
+    "id": 13,
     "kategori": "Sedang",
-    "pertanyaan": "Hasil dari integral (6x^2 - 4x + 3) dx adalah...",
+    "pertanyaan": "Hasil dari $\\int (6x^2 - 4x + 3) \\, dx$ adalah...",
     "pilihan": [
       "2x^3 - 2x^2 + 3x + C",
       "12x - 4 + C",
@@ -179,104 +179,9 @@
       "2x^3 - 4x + C"
     ],
     "jawaban": "2x^3 - 2x^2 + 3x + C",
-    "pembahasan": "Gunakan aturan integral pangkat (integral ax^n dx = (a/(n+1))x^(n+1) + C).\nintegral 6x^2 dx = (6/3)x^3 = 2x^3\nintegral -4x dx = (-4/2)x^2 = -2x^2\nintegral 3 dx = 3x\nJadi, hasilnya adalah 2x^3 - 2x^2 + 3x + C."
+    "pembahasan": "Gunakan aturan integral: $\\int ax^n dx = \\frac{a}{n+1}x^{n+1} + C$\n- $\\int 6x^2 dx = 2x^3$\n- $\\int -4x dx = -2x^2$\n- $\\int 3 dx = 3x$\nJadi: $2x^3 - 2x^2 + 3x + C$."
   },
   {
-    "id": 94,
+    "id": 14,
     "kategori": "Mudah",
-    "pertanyaan": "Jika matriks A = [[2, 1], [3, 4]] dan B = [[1, 5], [2, 0]], maka A+B adalah...",
-    "pilihan": [
-      "[[3, 6], [5, 4]]",
-      "[[2, 5], [6, 0]]",
-      "[[3, 5], [5, 4]]",
-      "[[4, 5], [5, 4]]",
-      "[[1, 4], [1, 4]]"
-    ],
-    "jawaban": "[[3, 6], [5, 4]]",
-    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian:\nA+B = [[2+1, 1+5], [3+2, 4+0]] = [[3, 6], [5, 4]]."
-  },
-  {
-    "id": 95,
-    "kategori": "Mudah",
-    "pertanyaan": "Determinan dari matriks [[5, 2], [3, 4]] adalah...",
-    "pilihan": [
-      "10",
-      "14",
-      "20",
-      "26",
-      "22"
-    ],
-    "jawaban": "14",
-    "pembahasan": "Untuk matriks 2x2 [[a, b], [c, d]], determinannya adalah (ad - bc). Jadi, determinan dari matriks tersebut adalah (5 x 4) - (2 x 3) = 20 - 6 = 14."
-  },
-  {
-    "id": 96,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika A={1, 2, 3} dan B={3, 4, 5}, maka A irisan B adalah...",
-    "pilihan": [
-      "{1, 2, 3, 4, 5}",
-      "{3}",
-      "{1, 2}",
-      "{4, 5}",
-      "{}"
-    ],
-    "jawaban": "{3}",
-    "pembahasan": "Irisan himpunan (A irisan B) adalah himpunan elemen yang ada di kedua himpunan. Dalam kasus ini, elemen yang sama antara A dan B hanyalah 3. Jadi, A irisan B = {3}."
-  },
-  {
-    "id": 97,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika sebuah dadu dilempar sekali, peluang muncul mata dadu genap adalah...",
-    "pilihan": [
-      "1/6",
-      "1/3",
-      "1/2",
-      "2/3",
-      "5/6"
-    ],
-    "jawaban": "1/2",
-    "pembahasan": "Jumlah mata dadu genap adalah 3 (yaitu 2, 4, 6). Jumlah total kemungkinan hasil adalah 6 (1, 2, 3, 4, 5, 6). Peluang = (Jumlah hasil yang diinginkan) / (Jumlah total hasil) = 3/6 = 1/2."
-  },
-  {
-    "id": 98,
-    "kategori": "Mudah",
-    "pertanyaan": "Rata-rata (mean) dari data 3, 5, 2, 8, 2 adalah...",
-    "pilihan": [
-      "3",
-      "4",
-      "5",
-      "20",
-      "4.5"
-    ],
-    "jawaban": "4",
-    "pembahasan": "Rata-rata dihitung dengan menjumlahkan semua data dan membaginya dengan banyaknya data. (3 + 5 + 2 + 8 + 2) / 5 = 20 / 5 = 4."
-  },
-  {
-    "id": 99,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika x + 2y = 10 dan x - y = 1, maka nilai x adalah...",
-    "pilihan": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "jawaban": "5",
-    "pembahasan": "Gunakan metode eliminasi. Kurangkan persamaan kedua dari persamaan pertama:\n(x + 2y) - (x - y) = 10 - 1\nx + 2y - x + y = 9\n3y = 9 --> y = 3\nSubstitusikan y=3 ke persamaan kedua: x - 3 = 1 --> x = 4."
-  },
-  {
-    "id": 100,
-    "kategori": "Mudah",
-    "pertanyaan": "Volume kubus dengan panjang sisi 4 cm adalah...",
-    "pilihan": [
-      "16 cm^3",
-      "24 cm^3",
-      "32 cm^3",
-      "64 cm^3",
-      "128 cm^3"
-    ],
-    "jawaban": "64 cm^3",
-    "pembahasan": "Volume kubus dihitung dengan rumus V = s^3, di mana s adalah panjang sisi. Jadi, V = 4^3 = 4 x 4 x 4 = 64 cm^3."
-  }
-]
+    "pertanyaan": "Jika matriks $A = \\begin{bmatrix}2 & 1\\\\ 3 & 4\\end{bmatrix}$ dan $B = \\begin{bmatrix}1 & 5\\\\ 2 & 0\\end{bmatrix}$, maka $A+B$ ad
