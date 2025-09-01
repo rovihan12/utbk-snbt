@@ -1,263 +1,142 @@
-
 [
   {
-    "id": 61,
+    "id": 1,
     "pertanyaan": "Sebuah barisan aritmetika memiliki suku pertama 7 dan beda 4. Tentukan jumlah 15 suku pertama barisan tersebut.",
-    "pilihan": [
-      "510",
-      "525",
-      "540",
-      "555",
-      "570"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Diketahui $a_1=7$ dan $d=4$. Rumus jumlah n suku pertama barisan aritmetika adalah $S_n = \\frac{n}{2}(2a_1 + (n-1)d)$. Untuk $n=15$: $S_{15} = \\frac{15}{2}(2 \\times 7 + (15-1)4) = \\frac{15}{2}(14 + 14 \\times 4) = \\frac{15}{2}(14 + 56) = \\frac{15}{2}(70) = 15 \\times 35 = 525$."
+    "pilihan": ["510", "525", "540", "555", "570"],
+    "jawaban": "B",
+    "pembahasan": "Diketahui a₁ = 7, d = 4, n = 15. Rumus jumlah n suku pertama: Sₙ = n/2 (2a₁ + (n-1)d). S₁₅ = 15/2 (2×7 + 14×4) = 15/2 (14 + 56) = 15/2 × 70 = 15 × 35 = 525. Jadi jawabannya adalah 525 (B)."
   },
   {
-    "id": 62,
+    "id": 2,
     "pertanyaan": "Tentukan suku ke-8 dari barisan geometri dengan suku pertama 3 dan rasio 4.",
-    "pilihan": [
-      "12288",
-      "16384",
-      "24576",
-      "49152",
-      "65536"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Diketahui $a_1=3$ dan $r=4$. Rumus suku ke-n barisan geometri adalah $a_n = a_1 \\times r^{n-1}$. Untuk suku ke-8 ($a_8$): $a_8 = 3 \\times 4^{8-1} = 3 \\times 4^7 = 3 \\times 16384 = 49152$. (Perbaikan: jawaban seharusnya 49152, pilihan A adalah 12288, ada kesalahan di soal asli)."
+    "pilihan": ["12288", "16384", "24576", "49152", "65536"],
+    "jawaban": "D",
+    "pembahasan": "Diketahui a₁ = 3, r = 4. Rumus suku ke-n: aₙ = a₁ × r^(n-1). a₈ = 3 × 4⁷ = 3 × 16384 = 49152. Jadi jawabannya adalah 49152 (D)."
   },
   {
-    "id": 63,
-    "pertanyaan": "Jika jumlah n suku pertama suatu deret aritmetika adalah $S_n = 4n^2 - 3n$, maka suku ke-4 dari deret tersebut adalah...",
-    "pilihan": [
-      "21",
-      "25",
-      "29",
-      "33",
-      "37"
-    ],
+    "id": 3,
+    "pertanyaan": "Jika jumlah n suku pertama suatu deret aritmetika adalah Sₙ = 4n² - 3n, maka suku ke-4 dari deret tersebut adalah...",
+    "pilihan": ["21", "25", "29", "33", "37"],
     "jawaban": "B",
-    "pembahasan": "Suku ke-n ($a_n$) dapat ditemukan dengan $a_n = S_n - S_{n-1}$. Untuk suku ke-4 ($a_4$) = $S_4 - S_3$. \n$S_4 = 4(4)^2 - 3(4) = 4(16) - 12 = 64 - 12 = 52$. \n$S_3 = 4(3)^2 - 3(3) = 4(9) - 9 = 36 - 9 = 27$. \n$a_4 = 52 - 27 = 25$."
+    "pembahasan": "Suku ke-n diperoleh dari aₙ = Sₙ - S₍ₙ₋₁₎. Untuk n=4: S₄ = 4(16) - 12 = 64 - 12 = 52. S₃ = 4(9) - 9 = 36 - 9 = 27. a₄ = 52 - 27 = 25. Jadi jawabannya adalah 25 (B)."
   },
   {
-    "id": 64,
-    "pertanyaan": "Tiga bilangan $a, 2a+1, 5a-2$ membentuk barisan aritmetika. Tentukan nilai $a$.",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "id": 4,
+    "pertanyaan": "Tiga bilangan a, 2a+1, 5a-2 membentuk barisan aritmetika. Tentukan nilai a.",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "B",
+    "pembahasan": "Barisan aritmetika memiliki selisih konstan. (2a+1) - a = (5a-2) - (2a+1). a+1 = 3a - 3 → 2a = 4 → a = 2. Jadi jawabannya adalah 2 (B)."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Jumlah tak hingga dari deret geometri 12 + 4 + 4/3 + ... adalah...",
+    "pilihan": ["16", "18", "20", "24", "27"],
+    "jawaban": "B",
+    "pembahasan": "Diketahui a = 12, r = 4/12 = 1/3. Rumus jumlah tak hingga: S∞ = a / (1-r). S∞ = 12 / (1 - 1/3) = 12 / (2/3) = 12 × 3/2 = 18. Jadi jawabannya adalah 18 (B)."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Suku ke-n dari barisan 1, 4, 9, 16, ... adalah...",
+    "pilihan": ["n", "n+1", "n²", "2n", "n³"],
     "jawaban": "C",
-    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan: $(2a+1) - a = (5a-2) - (2a+1)$. $a+1 = 3a-3$. $1+3 = 3a-a$. $4 = 2a \\Rightarrow a = 2$. (Perbaikan: pilihan C seharusnya 2, bukan 3)"
+    "pembahasan": "Barisan ini adalah kuadrat bilangan asli: 1², 2², 3², 4², ... Jadi rumus suku ke-n adalah n². Jadi jawabannya adalah n² (C)."
   },
   {
-    "id": 65,
-    "pertanyaan": "Jumlah tak hingga dari deret geometri $12 + 4 + \\frac{4}{3} + ...$ adalah...",
-    "pilihan": [
-      "16",
-      "18",
-      "20",
-      "24",
-      "27"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah deret geometri dengan suku pertama ($a$) = 12. Rasio ($r$) = $\\frac{4}{12} = \\frac{1}{3}$. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r} = \\frac{12}{1 - 1/3} = \\frac{12}{2/3} = 12 \\times \\frac{3}{2} = 18$."
-  },
-  {
-    "id": 66,
-    "pertanyaan": "Suku ke-n dari barisan $1, 4, 9, 16, ...$ adalah...",
-    "pilihan": [
-      "$n$",
-      "$n+1$",
-      "$n^2$",
-      "$2n$",
-      "$n^3$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Barisan ini adalah kuadrat dari bilangan asli: $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$. Jadi, suku ke-n adalah $n^2$."
-  },
-  {
-    "id": 67,
+    "id": 7,
     "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-6 adalah 25 dan suku ke-10 adalah 41. Jumlah 8 suku pertama barisan tersebut adalah...",
-    "pilihan": [
-      "136",
-      "140",
-      "144",
-      "148",
-      "152"
-    ],
+    "pilihan": ["136", "140", "144", "148", "152"],
+    "jawaban": "E",
+    "pembahasan": "Diketahui a₆ = a₁ + 5d = 25, a₁₀ = a₁ + 9d = 41. Selisih: 4d = 16 → d = 4. Substitusi ke a₆: a₁ + 20 = 25 → a₁ = 5. Jumlah 8 suku pertama: S₈ = 8/2 (2a₁ + 7d) = 4(10 + 28) = 4×38 = 152. Jadi jawabannya adalah 152 (E)."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 15 meter dan memantul kembali dengan ketinggian 2/3 dari sebelumnya. Panjang lintasan bola sampai berhenti adalah...",
+    "pilihan": ["60", "75", "80", "90", "100"],
     "jawaban": "B",
-    "pembahasan": "Diketahui $a_6 = a_1 + 5d = 25$ dan $a_{10} = a_1 + 9d = 41$. Kurangkan kedua persamaan: $(a_1 + 9d) - (a_1 + 5d) = 41 - 25 \\Rightarrow 4d = 16 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a_1 + 5d = 25 \\Rightarrow a_1 + 5(4) = 25 \\Rightarrow a_1 + 20 = 25 \\Rightarrow a_1 = 5$. Jumlah 8 suku pertama: $S_8 = \\frac{8}{2}(2a_1 + (8-1)d) = 4(2(5) + 7(4)) = 4(10 + 28) = 4(38) = 152$."
+    "pembahasan": "Lintasan total: jatuh pertama 15 m, lalu pantulan naik turun membentuk deret geometri dengan a = 2/3×15 = 10, r = 2/3. Total lintasan = 15 + 2(10 / (1-2/3)) = 15 + 2(10/(1/3)) = 15 + 2×30 = 75. Jadi jawabannya adalah 75 (B)."
   },
   {
-    "id": 68,
-    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 15 meter dan memantul kembali dengan ketinggian 2/3 dari ketinggian sebelumnya. Panjang lintasan bola sampai berhenti adalah...",
-    "pilihan": [
-      "60 meter",
-      "75 meter",
-      "80 meter",
-      "90 meter",
-      "100 meter"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Panjang lintasan total adalah $L = H \\times \\frac{q+p}{q-p}$ untuk pantulan $p/q$. Di sini $H=15$, $p=2$, $q=3$. $L = 15 \\times \\frac{3+2}{3-2} = 15 \\times \\frac{5}{1} = 75$ meter."
-  },
-  {
-    "id": 69,
-    "pertanyaan": "Jika $S_n$ adalah jumlah $n$ suku pertama suatu deret, dan $S_n = n^2 + 5n$, maka beda deret tersebut adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
+    "id": 9,
+    "pertanyaan": "Jika Sₙ = n² + 5n, maka beda deret tersebut adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "A",
-    "pembahasan": "Untuk deret aritmetika dengan $S_n = An^2 + Bn$, beda deret $d = 2A$. Di sini $A=1$, jadi $d = 2 \\times 1 = 2$."
+    "pembahasan": "Untuk Sₙ berbentuk An² + Bn, beda deret (d) = 2A. Di sini A=1 → d=2. Jadi jawabannya adalah 2 (A)."
   },
   {
-    "id": 70,
-    "pertanyaan": "Suku ke-n dari barisan yang diberikan oleh $a_1=1$, $a_2=3$, $a_n = a_{n-1} + 2$ untuk $n \\ge 3$ adalah...",
-    "pilihan": [
-      "$2n-1$",
-      "$n+1$",
-      "$2n$",
-      "$n^2$",
-      "$2n+1$"
-    ],
+    "id": 10,
+    "pertanyaan": "Suku ke-n dari barisan dengan a₁=1, a₂=3, aₙ = a₍ₙ₋₁₎ + 2 adalah...",
+    "pilihan": ["2n-1", "n+1", "2n", "n²", "2n+1"],
     "jawaban": "A",
-    "pembahasan": "Barisan ini dimulai dengan $a_1=1, a_2=3$. Aturan $a_n = a_{n-1} + 2$ menunjukkan bahwa ini adalah barisan aritmetika dengan beda $d=2$. Suku pertama adalah $a_1=1$. Rumus suku ke-n adalah $a_n = a_1 + (n-1)d = 1 + (n-1)2 = 1 + 2n - 2 = 2n - 1$."
+    "pembahasan": "Barisan ini aritmetika dengan beda d=2. Rumus umum: aₙ = a₁ + (n-1)d = 1 + 2(n-1) = 2n-1. Jadi jawabannya adalah 2n-1 (A)."
   },
   {
-    "id": 71,
-    "pertanyaan": "Seorang atlet berlatih lari setiap hari. Pada hari pertama ia berlari 2 km, hari kedua 3.5 km, hari ketiga 5 km, dan seterusnya. Jarak total yang ditempuh atlet selama seminggu (7 hari) adalah...",
-    "pilihan": [
-      "31.5 km",
-      "35 km",
-      "38.5 km",
-      "42 km",
-      "45.5 km"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah deret aritmetika dengan $a_1=2$ dan beda $d = 3.5 - 2 = 1.5$. Kita mencari jumlah 7 suku pertama ($S_7$). $S_7 = \\frac{7}{2}(2a_1 + (7-1)d) = \\frac{7}{2}(2(2) + 6(1.5)) = \\frac{7}{2}(4 + 9) = \\frac{7}{2}(13) = \\frac{91}{2} = 45.5$ km. (Perbaikan: Pilihan C seharusnya 45.5 km)."
+    "id": 11,
+    "pertanyaan": "Seorang atlet berlatih lari: hari pertama 2 km, hari kedua 3.5 km, hari ketiga 5 km, ... Jarak total selama 7 hari adalah...",
+    "pilihan": ["31.5", "35", "38.5", "42", "45.5"],
+    "jawaban": "E",
+    "pembahasan": "Barisan aritmetika dengan a₁=2, d=1.5, n=7. Rumus jumlah: S₇ = 7/2 (2a₁ + 6d) = 7/2 (4 + 9) = 7/2 × 13 = 91/2 = 45.5. Jadi jawabannya adalah 45.5 (E)."
   },
   {
-    "id": 72,
+    "id": 12,
     "pertanyaan": "Tentukan jumlah semua bilangan genap positif yang kurang dari 100.",
-    "pilihan": [
-      "2450",
-      "2500",
-      "2550",
-      "2600",
-      "2650"
-    ],
+    "pilihan": ["2450", "2500", "2550", "2600", "2650"],
     "jawaban": "A",
-    "pembahasan": "Bilangan genap positif kurang dari 100 adalah 2, 4, 6, ..., 98. Ini adalah barisan aritmetika dengan $a_1=2$, $d=2$, dan $a_n=98$. Cari $n$: $a_n = a_1 + (n-1)d \\Rightarrow 98 = 2 + (n-1)2 \\Rightarrow 96 = 2(n-1) \\Rightarrow 48 = n-1 \\Rightarrow n = 49$. Jumlahnya adalah $S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{49}{2}(2 + 98) = \\frac{49}{2}(100) = 49 \\times 50 = 2450$."
+    "pembahasan": "Bilangan genap <100: 2, 4, ..., 98. a₁=2, d=2, aₙ=98. 98 = 2 + (n-1)2 → n=49. Jumlah: S₄₉ = 49/2 (2+98) = 49/2 × 100 = 49×50 = 2450. Jadi jawabannya adalah 2450 (A)."
   },
   {
-    "id": 73,
-    "pertanyaan": "Jika $x+1, 2x+1, 4x-2$ adalah tiga suku berurutan dari sebuah barisan geometri, maka nilai $x$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "id": 13,
+    "pertanyaan": "Jika x+1, 2x+1, 4x-2 adalah tiga suku berurutan barisan geometri, maka nilai x adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "-3/2",
+    "pembahasan": "Rasio konstan: (2x+1)/(x+1) = (4x-2)/(2x+1). Perkalian silang: (2x+1)² = (x+1)(4x-2). 4x²+4x+1 = 4x²+2x-2. 4x+1=2x-2 → 2x=-3 → x=-3/2. Jadi jawabannya adalah -3/2 (tidak ada di opsi)."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Jumlah tak hingga dari deret geometri adalah 10. Jika suku pertamanya 8, maka rasionya adalah...",
+    "pilihan": ["1/2", "1/4", "1/5", "2/5", "3/5"],
     "jawaban": "C",
-    "pembahasan": "Dalam barisan geometri, rasio antara suku-suku berurutan adalah konstan: $\\frac{2x+1}{x+1} = \\frac{4x-2}{2x+1}$. Lakukan perkalian silang: $(2x+1)^2 = (x+1)(4x-2)$. $4x^2 + 4x + 1 = 4x^2 - 2x + 4x - 2$. $4x^2 + 4x + 1 = 4x^2 + 2x - 2$. $4x + 1 = 2x - 2$. $2x = -3 \\Rightarrow x = -3/2$. (Perbaikan: pilihan C seharusnya -3/2, bukan 3)."
+    "pembahasan": "Diketahui S∞=10, a=8. Rumus: S∞=a/(1-r). 10=8/(1-r) → 1-r=8/10=4/5 → r=1-4/5=1/5. Jadi jawabannya adalah 1/5 (C)."
   },
   {
-    "id": 74,
-    "pertanyaan": "Jumlah tak hingga dari deret geometri adalah 10. Jika suku pertamanya 8, maka rasio deret tersebut adalah...",
-    "pilihan": [
-      "1/2",
-      "1/4",
-      "1/5",
-      "2/5",
-      "3/5"
-    ],
+    "id": 15,
+    "pertanyaan": "Barisan aritmetika memiliki a₁=10 dan d=-3. Suku ke berapa yang bernilai 1?",
+    "pilihan": ["Suku ke-3", "Suku ke-4", "Suku ke-5", "Suku ke-6", "Suku ke-7"],
+    "jawaban": "B",
+    "pembahasan": "Rumus: aₙ = a₁ + (n-1)d. 1=10+(n-1)(-3) → 1-10=-3(n-1) → -9=-3(n-1) → n-1=3 → n=4. Jadi suku ke-4 (B)."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Suku ke-n dari barisan 1, -1, 1, -1, ... adalah...",
+    "pilihan": ["(-1)ⁿ", "(-1)ⁿ⁺¹", "(-1)ⁿ⁻¹", "1/(-1)ⁿ", "-1/(-1)ⁿ⁻¹"],
     "jawaban": "C",
-    "pembahasan": "Diketahui $S_\\infty = 10$ dan $a=8$. Rumus $S_\\infty = \\frac{a}{1-r}$. $10 = \\frac{8}{1-r} \\Rightarrow 10(1-r) = 8 \\Rightarrow 1-r = \\frac{8}{10} = \\frac{4}{5} \\Rightarrow r = 1 - \\frac{4}{5} = \\frac{1}{5}$."
+    "pembahasan": "Barisan: 1, -1, 1, -1, ... Pola: a₁=1 → sesuai (-1)^(n-1). Cek: n=1 → (-1)⁰=1, n=2 → (-1)¹=-1, cocok. Jadi jawabannya adalah (-1)^(n-1) (C)."
   },
   {
-    "id": 75,
-    "pertanyaan": "Barisan aritmetika memiliki $a_1=10$ dan $d=-3$. Suku ke berapa yang bernilai 1?",
-    "pilihan": [
-      "Suku ke-3",
-      "Suku ke-4",
-      "Suku ke-5",
-      "Suku ke-6",
-      "Suku ke-7"
-    ],
+    "id": 17,
+    "pertanyaan": "Jumlah deret geometri tak hingga adalah 60. Jika rasionya 1/4, maka suku pertamanya adalah...",
+    "pilihan": ["30", "35", "40", "45", "50"],
     "jawaban": "D",
-    "pembahasan": "Gunakan rumus suku ke-n: $a_n = a_1 + (n-1)d$. Kita ingin $a_n=1$. $1 = 10 + (n-1)(-3)$. $1-10 = -3(n-1)$. $-9 = -3(n-1)$. $3 = n-1 \\Rightarrow n = 4$. Jadi, suku ke-4."
+    "pembahasan": "Diketahui S∞=60, r=1/4. Rumus: S∞=a/(1-r). 60=a/(1-1/4) → 60=a/(3/4) → a=60×3/4=45. Jadi jawabannya adalah 45 (D)."
   },
   {
-    "id": 76,
-    "pertanyaan": "Suku ke-n dari barisan $1, -1, 1, -1, ...$ adalah...",
-    "pilihan": [
-      "$(-1)^n$",
-      "$(-1)^{n+1}$",
-      "$(-1)^{n-1}$",
-      "$1/(-1)^n$",
-      "$-1/(-1)^{n-1}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Barisan ini berganti tanda. Jika $n=1$, suku pertama 1. Jika $n=2$, suku kedua -1. Jika $n=3$, suku ketiga 1. Ini mengikuti pola $(-1)^{n-1}$. Untuk $n=1$, $(-1)^{1-1} = (-1)^0 = 1$. Untuk $n=2$, $(-1)^{2-1} = (-1)^1 = -1$."
-  },
-  {
-    "id": 77,
-    "pertanyaan": "Jumlah deret geometri tak hingga adalah 60. Jika rasionya $1/4$, maka suku pertamanya adalah...",
-    "pilihan": [
-      "30",
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Diketahui $S_\\infty = 60$ dan $r=1/4$. Rumus $S_\\infty = \\frac{a}{1-r}$. $60 = \\frac{a}{1 - 1/4} \\Rightarrow 60 = \\frac{a}{3/4} \\Rightarrow a = 60 \\times \\frac{3}{4} = 15 \\times 3 = 45$."
-  },
-  {
-    "id": 78,
+    "id": 18,
     "pertanyaan": "Suku tengah dari barisan aritmetika yang memiliki 11 suku, dengan suku pertama 5 dan suku terakhir 45 adalah...",
-    "pilihan": [
-      "20",
-      "25",
-      "30",
-      "35",
-      "40"
-    ],
+    "pilihan": ["20", "25", "30", "35", "40"],
     "jawaban": "B",
-    "pembahasan": "Untuk barisan aritmetika dengan jumlah suku ganjil, suku tengah adalah rata-rata suku pertama dan terakhir. $a_{tengah} = \\frac{a_1 + a_n}{2} = \\frac{5 + 45}{2} = \\frac{50}{2} = 25$. (Suku tengah adalah suku ke- $(11+1)/2 = 6$). $a_6 = a_1 + 5d$. $a_{11} = a_1 + 10d \\Rightarrow 45 = 5 + 10d \\Rightarrow 40 = 10d \\Rightarrow d=4$. Maka $a_6 = 5 + 5(4) = 5+20=25$."
+    "pembahasan": "Suku tengah = rata-rata suku pertama dan terakhir. (5+45)/2=25. Bisa dicek: d=(45-5)/10=4, a₆=5+5×4=25. Jadi jawabannya adalah 25 (B)."
   },
   {
-    "id": 79,
-    "pertanyaan": "Jika suatu barisan geometri memiliki $a_2 = 6$ dan $a_5 = 48$, maka suku ke-7 adalah...",
-    "pilihan": [
-      "96",
-      "192",
-      "256",
-      "384",
-      "512"
-    ],
+    "id": 19,
+    "pertanyaan": "Jika suatu barisan geometri memiliki a₂=6 dan a₅=48, maka suku ke-7 adalah...",
+    "pilihan": ["96", "192", "256", "384", "512"],
     "jawaban": "B",
-    "pembahasan": "Diketahui $a_2 = ar = 6$ dan $a_5 = ar^4 = 48$. Bagi $a_5$ dengan $a_2$: $\\frac{ar^4}{ar} = \\frac{48}{6} \\Rightarrow r^3 = 8 \\Rightarrow r = 2$. Substitusikan $r=2$ ke $ar=6 \\Rightarrow a(2)=6 \\Rightarrow a=3$. Suku ke-7 adalah $a_7 = ar^6 = 3 \\times 2^6 = 3 \\times 64 = 192$."
+    "pembahasan": "Diketahui a₂=ar=6, a₅=ar⁴=48. Bagi: r³=48/6=8 → r=2. Substitusi: a×2=6 → a=3. Maka a₇=ar⁶=3×2⁶=3×64=192. Jadi jawabannya adalah 192 (B)."
   },
   {
-    "id": 80,
-    "pertanyaan": "Jumlah 5 suku pertama dari deret geometri dengan $a=5$ dan $r=2$ adalah...",
-    "pilihan": [
-      "150",
-      "155",
-      "160",
-      "165",
-      "170"
-    ],
+    "id": 20,
+    "pertanyaan": "Jumlah 5 suku pertama dari deret geometri dengan a=5 dan r=2 adalah...",
+    "pilihan": ["150", "155", "160", "165", "170"],
     "jawaban": "B",
-    "pembahasan": "Rumus jumlah n suku pertama deret geometri adalah $S_n = \\frac{a(r^n - 1)}{r-1}$. Untuk $n=5, a=5, r=2$: $S_5 = \\frac{5(2^5 - 1)}{2-1} = \\frac{5(32 - 1)}{1} = 5(31) = 155$."
+    "pembahasan": "Rumus jumlah n suku pertama: Sₙ = a(rⁿ - 1)/(r-1). Untuk n=5: S₅=5(2⁵ - 1)/(2-1)=5(32-1)=5×31=155. Jadi jawabannya adalah 155 (B)."
   }
 ]
