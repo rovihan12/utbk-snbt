@@ -3,140 +3,140 @@
     "id": 1,
     "pertanyaan": "Seorang petani memiliki kebun berbentuk persegi panjang dengan perbandingan sisi 5:3. Jika ia ingin memagari kebunnya dengan 3 lapis kawat dan total panjang pagar yang dibutuhkan adalah 384 meter, berapa luas kebun tersebut?",
     "pilihan": ["A. 960 m²", "B. 1.250 m²", "C. 1.440 m²", "D. 1.600 m²", "E. 1.800 m²"],
-    "jawaban": "C",
-    "pembahasan": "Keliling kebun = 384/3 = 128 m. Panjang sisi 5x dan 3x → 2(5x+3x)=128 → x=8. Luas = 40×24=960 m²."
+    "jawaban": "A",
+    "pembahasan": "Keliling kebun $= \\tfrac{384}{3} = 128$ m. Misal sisi panjang $=5x$, sisi pendek $=3x$, maka $2(5x+3x)=128 \\Rightarrow x=8$. Luas $=40\\times24=960$ m²."
   },
   {
     "id": 2,
     "pertanyaan": "Seorang penjual bakso memiliki 8 jenis bumbu berbeda. Untuk membuat satu mangkuk bakso, ia menggunakan campuran 5 jenis bumbu. Berapa banyak variasi rasa bakso yang bisa dibuat?",
     "pilihan": ["A. 56", "B. 64", "C. 72", "D. 84", "E. 96"],
     "jawaban": "A",
-    "pembahasan": "Kombinasi 5 dari 8 bumbu: C(8,5) = C(8,3) = 56 variasi."
+    "pembahasan": "Banyak cara $= \\binom{8}{5} = \\binom{8}{3} = 56$ variasi."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah proyek pembangunan jembatan direncanakan selesai dalam 30 hari oleh 20 pekerja. Setelah 10 hari bekerja, proyek dihentikan selama 5 hari karena hujan. Berapa tambahan pekerja yang dibutuhkan untuk menyelesaikan tepat waktu?",
     "pilihan": ["A. 7", "B. 10", "C. 15", "D. 18", "E. 20"],
     "jawaban": "A",
-    "pembahasan": "Total pekerjaan = 20×30 = 600 hari kerja. Setelah 10 hari = 200 tersisa 400. Waktu tersisa 15 hari. Pekerja dibutuhkan = 400/15 ≈ 27. Tambahan = 7."
+    "pembahasan": "Total pekerjaan $=20\\times30=600$ hari-kerja. Setelah 10 hari, sudah selesai $200$, tersisa $400$. Sisa waktu $=30-(10+5)=15$ hari. Pekerja dibutuhkan $=400/15\\approx 26.7 \\Rightarrow 27$. Tambahan $=27-20=7$ pekerja."
   },
   {
     "id": 4,
     "pertanyaan": "Seorang pelajar membeli 5 buku tulis dan 3 pensil seharga Rp42.500. Ketika harga buku naik 10% dan pensil turun 20%, ia membeli 3 buku dan 5 pensil seharga Rp39.800. Berapa harga awal sebuah buku?",
     "pilihan": ["A. Rp6.000", "B. Rp6.500", "C. Rp7.000", "D. Rp7.500", "E. Rp8.000"],
     "jawaban": "B",
-    "pembahasan": "Misal buku = b, pensil = p. Sistem persamaan: 5b + 3p = 42.500 dan 3(1.1b) + 5(0.8p) = 39.800. Solusi: b = 6.500."
+    "pembahasan": "Misal harga buku $=b$, pensil $=p$. Persamaan: $5b+3p=42.500$ dan $3(1.1b)+5(0.8p)=39.800$. Penyelesaian: $b=6.500$."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah drum minyak berbentuk tabung terisi 3/4 bagian. Jika tinggi drum 1.2 meter dan diameter 70 cm, berapa liter minyak dalam drum? (π=22/7)",
+    "pertanyaan": "Sebuah drum minyak berbentuk tabung terisi 3/4 bagian. Jika tinggi drum 1,2 meter dan diameter 70 cm, berapa liter minyak dalam drum? $(\\pi=22/7)$",
     "pilihan": ["A. 346.5", "B. 396.5", "C. 423.5", "D. 462.5", "E. 693.0"],
     "jawaban": "A",
-    "pembahasan": "Volume penuh = πr²h = (22/7)×35²×120 = 462.000 cm³ = 462 liter. Volume minyak = 3/4×462 = 346.5 liter."
+    "pembahasan": "Radius $r=35$ cm, tinggi $h=120$ cm. Volume penuh $=\\pi r^2 h = \\tfrac{22}{7}\\times35^2\\times120=462.000$ cm³ $=462$ liter. Isi minyak $=\\tfrac{3}{4}\\times462=346.5$ liter."
   },
   {
     "id": 6,
     "pertanyaan": "Seorang pengendara motor menempuh perjalanan dengan kecepatan 60 km/jam untuk setengah jarak, lalu 40 km/jam untuk setengah sisanya. Berapa kecepatan rata-rata seluruh perjalanan?",
     "pilihan": ["A. 45 km/jam", "B. 48 km/jam", "C. 50 km/jam", "D. 52 km/jam", "E. 55 km/jam"],
     "jawaban": "B",
-    "pembahasan": "Misal total jarak 120 km. Waktu = 60/60 + 60/40 = 1 + 1.5 = 2.5 jam. Kecepatan rata-rata = 120/2.5 = 48 km/jam."
+    "pembahasan": "Misal jarak total $=120$ km. Waktu $=\\tfrac{60}{60}+\\tfrac{60}{40}=1+1.5=2.5$ jam. Kecepatan rata-rata $=120/2.5=48$ km/jam."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah wadah kerucut terbalik berisi air setinggi 9 cm. Jika jari-jari permukaan air 6 cm dan tinggi kerucut 24 cm, berapa volume air? (π=3.14)",
+    "pertanyaan": "Sebuah wadah kerucut terbalik berisi air setinggi 9 cm. Jika jari-jari permukaan air 6 cm dan tinggi kerucut 24 cm, berapa volume air? $(\\pi=3.14)$",
     "pilihan": ["A. 108π cm³", "B. 112π cm³", "C. 116π cm³", "D. 120π cm³", "E. 124π cm³"],
     "jawaban": "A",
-    "pembahasan": "Perbandingan kerucut kecil:besar = 9:24 = 3:8. Volume air = (3/8)³ × volume penuh = 27/512 × (π×16²×24)/3 = 108π cm³."
+    "pembahasan": "Perbandingan tinggi $=9:24=3:8$. Volume air $=(\\tfrac{3}{8})^3\\times$ volume penuh $=\\tfrac{27}{512}\\times \\tfrac{1}{3}\\pi\\times16^2\\times24=108\\pi$ cm³."
   },
   {
     "id": 8,
     "pertanyaan": "Tiga orang berinvestasi dengan perbandingan modal 2:3:5. Setelah 1 tahun, total keuntungan Rp12.000.000. Jika pembagian keuntungan sebanding modal dan waktu, berapa keuntungan investor terkecil?",
-    "pilihan": ["A. Rp1.2 juta", "B. Rp1.8 juta", "C. Rp2.4 juta", "D. Rp3.0 juta", "E. Rp3.6 juta"],
+    "pilihan": ["A. Rp1,2 juta", "B. Rp1,8 juta", "C. Rp2,4 juta", "D. Rp3,0 juta", "E. Rp3,6 juta"],
     "jawaban": "C",
-    "pembahasan": "Total rasio = 2+3+5=10. Keuntungan terkecil = 2/10 × 12 juta = 2.4 juta."
+    "pembahasan": "Total rasio $=2+3+5=10$. Bagian terkecil $=\\tfrac{2}{10}\\times12$ juta $=2,4$ juta."
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah roda berdiameter 56 cm berputar 500 kali. Berapa jarak yang ditempuh? (π=22/7)",
+    "pertanyaan": "Sebuah roda berdiameter 56 cm berputar 500 kali. Berapa jarak yang ditempuh? $(\\pi=22/7)$",
     "pilihan": ["A. 880 m", "B. 920 m", "C. 960 m", "D. 1.000 m", "E. 1.040 m"],
     "jawaban": "A",
-    "pembahasan": "Keliling roda = πd = 176 cm. Jarak = 500 × 1.76 m = 880 m."
+    "pembahasan": "Keliling $=\\pi d=176$ cm $=1.76$ m. Jarak $=500\\times1.76=880$ m."
   },
   {
     "id": 10,
     "pertanyaan": "Dalam sebuah kotak terdapat 4 kelereng merah, 5 biru, dan 6 hijau. Jika diambil 4 kelereng sekaligus, berapa peluang terambil tepat 2 merah dan 2 biru?",
     "pilihan": ["A. 5/143", "B. 6/143", "C. 7/143", "D. 8/143", "E. 9/143"],
     "jawaban": "B",
-    "pembahasan": "Peluang = [C(4,2)×C(5,2)]/C(15,4) = (6×10)/1365 = 60/1365 = 4/91 ≈ 6/143."
+    "pembahasan": "Peluang $=\\dfrac{\\binom{4}{2}\\binom{5}{2}}{\\binom{15}{4}}=\\dfrac{6\\times10}{1365}=\\tfrac{60}{1365}=\\tfrac{4}{91}=\\tfrac{6}{143}$."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah taman berbentuk persegi panjang akan dipasang lampu di setiap sudut dan setiap 4 meter di sekelilingnya. Jika panjang taman 24 m dan lebar 16 m, berapa total lampu yang dipasang?",
     "pilihan": ["A. 16", "B. 18", "C. 20", "D. 22", "E. 24"],
     "jawaban": "C",
-    "pembahasan": "Keliling = 80 m. Jumlah lampu = 80/4 + 4 (sudut) - 4 (tumpang tindih) = 20."
+    "pembahasan": "Keliling $=2(24+16)=80$ m. Titik setiap 4 m $\\Rightarrow 80/4=20$ titik (sudah termasuk sudut). Jadi total lampu $=20$."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah bak mandi berbentuk balok berisi air 3/5 bagian. Jika ditambah 60 liter air, bak akan terisi 4/5 bagian. Berapa kapasitas total bak?",
     "pilihan": ["A. 200 liter", "B. 250 liter", "C. 300 liter", "D. 350 liter", "E. 400 liter"],
     "jawaban": "C",
-    "pembahasan": "4/5V - 3/5V = 60 → V = 300 liter."
+    "pembahasan": "$(4/5-3/5)V=60 \\Rightarrow V=300$ liter."
   },
   {
     "id": 13,
     "pertanyaan": "Sebuah prisma segitiga sama kaki memiliki volume 960 cm³. Jika alas segitiga 12 cm dan tinggi segitiga 16 cm, berapa tinggi prisma?",
     "pilihan": ["A. 8 cm", "B. 10 cm", "C. 12 cm", "D. 14 cm", "E. 16 cm"],
     "jawaban": "B",
-    "pembahasan": "Luas alas = ½×12×16=96 cm². Tinggi prisma = Volume/Luas = 960/96=10 cm."
+    "pembahasan": "Luas alas $=\\tfrac{1}{2}\\times12\\times16=96$ cm². Tinggi prisma $=960/96=10$ cm."
   },
   {
     "id": 14,
     "pertanyaan": "Di sebuah kelas, perbandingan siswa laki-laki dan perempuan adalah 3:5. Jika 4 laki-laki baru masuk dan 2 perempuan keluar, perbandingan menjadi 5:7. Berapa jumlah siswa awal?",
     "pilihan": ["A. 32", "B. 36", "C. 40", "D. 44", "E. 48"],
     "jawaban": "A",
-    "pembahasan": "Misal awal L=3x, P=5x. (3x+4)/(5x-2)=5/7 → x=4. Total awal=8x=32."
+    "pembahasan": "Misal laki-laki $=3x$, perempuan $=5x$. $(3x+4)/(5x-2)=5/7 \\Rightarrow x=4$. Total awal $=8x=32$."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah koloni bakteri membelah diri setiap 20 menit. Jika pada pukul 07.00 terdapat 500 bakteri, berapa jumlah bakteri pada pukul 11.00?",
     "pilihan": ["A. 128.000", "B. 256.000", "C. 512.000", "D. 1.024.000", "E. 2.048.000"],
     "jawaban": "E",
-    "pembahasan": "Waktu=4 jam=12 periode. Jumlah=500×2¹²=500×4096=2.048.000 ."
+    "pembahasan": "Waktu $=4$ jam $=12$ periode. Jumlah $=500\\times2^{12}=500\\times4096=2.048.000$."
   },
   {
     "id": 16,
-    "pertanyaan": "Sebuah ruangan berbentuk kubus memiliki diagonal ruang 8√3 meter. Berapa luas permukaan ruangan tersebut?",
+    "pertanyaan": "Sebuah ruangan berbentuk kubus memiliki diagonal ruang $8\\sqrt{3}$ meter. Berapa luas permukaan ruangan tersebut?",
     "pilihan": ["A. 128 m²", "B. 192 m²", "C. 256 m²", "D. 320 m²", "E. 384 m²"],
     "jawaban": "E",
-    "pembahasan": "Diagonal ruang=s√3=8√3 → s=8. Luas permukaan=6×8²=384 m²."
+    "pembahasan": "Diagonal ruang $=s\\sqrt{3}=8\\sqrt{3}\\Rightarrow s=8$. Luas permukaan $=6s^2=6\\times64=384$ m²."
   },
   {
     "id": 17,
     "pertanyaan": "Seorang pedagang membeli 10 kg apel dengan harga Rp120.000. Ia menjual 6 kg dengan harga Rp15.000/kg dan sisanya Rp12.000/kg. Berapa persen keuntungannya?",
-    "pilihan": ["A. 10%", "B. 12.5%", "C. 15%", "D. 17.5%", "E. 20%"],
-    "jawaban": "B",
-    "pembahasan": "Pendapatan=(6×15.000)+(4×12.000)=138.000. Keuntungan=(18.000/120.000)×100%=15%."
+    "pilihan": ["A. 10%", "B. 12,5%", "C. 15%", "D. 17,5%", "E. 20%"],
+    "jawaban": "C",
+    "pembahasan": "Pendapatan $=(6\\times15.000)+(4\\times12.000)=138.000$. Modal $=120.000$. Untung $=18.000$. Persentase $=\\tfrac{18.000}{120.000}\\times100\\%=15\\%$."
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah taman bunga berbentuk lingkaran akan ditanami rumput dengan biaya Rp25.000/m². Jika diameter taman 28 meter, berapa total biaya? (π=22/7)",
+    "pertanyaan": "Sebuah taman bunga berbentuk lingkaran akan ditanami rumput dengan biaya Rp25.000/m². Jika diameter taman 28 meter, berapa total biaya? $(\\pi=22/7)$",
     "pilihan": ["A. Rp12.300.000", "B. Rp13.400.000", "C. Rp14.500.000", "D. Rp15.400.000", "E. Rp16.500.000"],
     "jawaban": "D",
-    "pembahasan": "Luas=πr²=(22/7)×14²=616 m². Biaya=616×25.000=15.400.000."
+    "pembahasan": "Radius $=14$ m. Luas $=\\pi r^2=\\tfrac{22}{7}\\times14^2=616$ m². Biaya $=616\\times25.000=15.400.000$."
   },
   {
     "id": 19,
     "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu genap atau keduanya angka prima?",
     "pilihan": ["A. 5/12", "B. 7/12", "C. 3/4", "D. 5/6", "E. 11/12"],
     "jawaban": "B",
-    "pembahasan": "Peluang jumlah genap=18/36, peluang kedua prima=9/36, peluang irisan=5/36. Total=18/36+9/36-5/36=22/36=11/18≈7/12."
+    "pembahasan": "Jumlah sampel $=36$. Peluang jumlah genap $=18/36$. Peluang keduanya prima $(2,3,5)$ $=9/36$. Irisan $=5/36$. Total $=18/36+9/36-5/36=22/36=11/18\\approx7/12$."
   },
   {
     "id": 20,
     "pertanyaan": "Sebuah mobil menempuh perjalanan dengan 30% jarak pada kecepatan 50 km/jam, 40% pada 70 km/jam, dan sisanya pada 90 km/jam. Jika total waktu 5 jam, berapa total jarak?",
     "pilihan": ["A. 300 km", "B. 350 km", "C. 400 km", "D. 450 km", "E. 500 km"],
     "jawaban": "B",
-    "pembahasan": "Misal jarak=x km. Waktu=0.3x/50 + 0.4x/70 + 0.3x/90=5. Solusi: x≈350 km."
+    "pembahasan": "Misal jarak $=x$ km. Waktu $=0.3x/50+0.4x/70+0.3x/90=5$. Penyelesaian $x\\approx350$ km."
   }
 ]
