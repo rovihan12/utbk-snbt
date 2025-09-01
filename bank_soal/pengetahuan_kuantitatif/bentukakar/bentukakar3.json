@@ -1,6 +1,6 @@
 [
   {
-    "id": 41,
+    "id": 1,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $5\\sqrt{2} - \\sqrt{50} + \\sqrt{32}$ adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "$8\\sqrt{2}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Sederhanakan setiap suku ke dalam bentuk akar yang sama:\n$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$\n$\\sqrt{32} = \\sqrt{16 \\times 2} = 4\\sqrt{2}$\nOperasinya menjadi:\n$5\\sqrt{2} - 5\\sqrt{2} + 4\\sqrt{2} = (5 - 5 + 4)\\sqrt{2} = 4\\sqrt{2}$."
+    "pembahasan": "Sederhanakan setiap suku:\n- $\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$\n- $\\sqrt{32} = \\sqrt{16 \\cdot 2} = 4\\sqrt{2}$\nSehingga:\n$$5\\sqrt{2} - 5\\sqrt{2} + 4\\sqrt{2} = 4\\sqrt{2}.$$"
   },
   {
-    "id": 42,
+    "id": 2,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $(\\sqrt{8} + \\sqrt{3})(\\sqrt{2} - \\sqrt{3})$ adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "$\\sqrt{6} - 1$"
     ],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan $\\sqrt{8} = 2\\sqrt{2}$.\nPersamaan menjadi $(2\\sqrt{2} + \\sqrt{3})(\\sqrt{2} - \\sqrt{3})$.\nGunakan metode FOIL (First, Outer, Inner, Last):\nFirst: $(2\\sqrt{2})(\\sqrt{2}) = 2 \\times 2 = 4$\nOuter: $(2\\sqrt{2})(-\\sqrt{3}) = -2\\sqrt{6}$\nInner: $(\\sqrt{3})(\\sqrt{2}) = \\sqrt{6}$\nLast: $(\\sqrt{3})(-\\sqrt{3}) = -3$\nJumlahkan semua: $4 - 2\\sqrt{6} + \\sqrt{6} - 3 = 1 - \\sqrt{6}$."
+    "pembahasan": "Sederhanakan $\\sqrt{8} = 2\\sqrt{2}$, maka:\n$$(2\\sqrt{2} + \\sqrt{3})(\\sqrt{2} - \\sqrt{3})$$\nGunakan distribusi (FOIL):\n- First: $2\\sqrt{2} \\cdot \\sqrt{2} = 4$\n- Outer: $2\\sqrt{2} \\cdot (-\\sqrt{3}) = -2\\sqrt{6}$\n- Inner: $\\sqrt{3} \\cdot \\sqrt{2} = \\sqrt{6}$\n- Last: $\\sqrt{3} \\cdot (-\\sqrt{3}) = -3$\nJumlahkan: $4 - 2\\sqrt{6} + \\sqrt{6} - 3 = 1 - \\sqrt{6}$."
   },
   {
-    "id": 43,
+    "id": 3,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk rasional dari penyebut pecahan $\\frac{2\\sqrt{5}}{3 + \\sqrt{5}}$ adalah...",
     "pilihan": [
@@ -39,10 +39,10 @@
       "$\\sqrt{5}-1$"
     ],
     "jawaban": "A",
-    "pembahasan": "Kalikan pembilang dan penyebut dengan sekawan dari penyebut, yaitu $(3 - \\sqrt{5})$:\n$\\frac{2\\sqrt{5}}{3 + \\sqrt{5}} \\times \\frac{3 - \\sqrt{5}}{3 - \\sqrt{5}} = \\frac{2\\sqrt{5}(3 - \\sqrt{5})}{3^2 - (\\sqrt{5})^2} = \\frac{6\\sqrt{5} - 2(5)}{9 - 5} = \\frac{6\\sqrt{5} - 10}{4} = \\frac{3\\sqrt{5} - 5}{2}$."
+    "pembahasan": "Kalikan dengan sekawan penyebut:\n$$\\frac{2\\sqrt{5}}{3 + \\sqrt{5}} \\cdot \\frac{3 - \\sqrt{5}}{3 - \\sqrt{5}} = \\frac{2\\sqrt{5}(3 - \\sqrt{5})}{(3)^2 - (\\sqrt{5})^2}$$\n$$= \\frac{6\\sqrt{5} - 10}{9 - 5} = \\frac{6\\sqrt{5} - 10}{4} = \\frac{3\\sqrt{5}-5}{2}.$$"
   },
   {
-    "id": 44,
+    "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Luas sebuah persegi panjang adalah $12$ cm$^2$. Jika panjangnya adalah $(\\sqrt{5}+1)$ cm, maka lebarnya adalah...",
     "pilihan": [
@@ -53,10 +53,10 @@
       "12 cm"
     ],
     "jawaban": "A",
-    "pembahasan": "Lebar = Luas / Panjang.\nLebar = $\\frac{12}{\\sqrt{5}+1}$.\nRasionalkan penyebutnya:\n$\\frac{12}{\\sqrt{5}+1} \\times \\frac{\\sqrt{5}-1}{\\sqrt{5}-1} = \\frac{12(\\sqrt{5}-1)}{5-1} = \\frac{12(\\sqrt{5}-1)}{4} = 3(\\sqrt{5}-1)$ cm."
+    "pembahasan": "Lebar = Luas / Panjang:\n$$\\text{Lebar} = \\frac{12}{\\sqrt{5}+1}$$\nRasionalisasi:\n$$\\frac{12}{\\sqrt{5}+1} \\cdot \\frac{\\sqrt{5}-1}{\\sqrt{5}-1} = \\frac{12(\\sqrt{5}-1)}{5-1} = 3(\\sqrt{5}-1) \\text{ cm}.$$"
   },
   {
-    "id": 45,
+    "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $(2\\sqrt{6})^2 - (\\sqrt{20})^2$ adalah...",
     "pilihan": [
@@ -67,10 +67,10 @@
       "44"
     ],
     "jawaban": "A",
-    "pembahasan": "Hitung kuadrat dari masing-masing suku:\n$(2\\sqrt{6})^2 = 2^2 \\times (\\sqrt{6})^2 = 4 \\times 6 = 24$.\n$(\\sqrt{20})^2 = 20$.\nMaka, $24 - 20 = 4$."
+    "pembahasan": "Hitung masing-masing kuadrat:\n$$(2\\sqrt{6})^2 = 4 \\cdot 6 = 24$$\n$$(\\sqrt{20})^2 = 20$$\nSehingga: $$24 - 20 = 4.$$"
   },
   {
-    "id": 46,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Jika $\\sqrt[3]{x^2} = 4$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -81,10 +81,10 @@
       "64"
     ],
     "jawaban": "C",
-    "pembahasan": "Persamaan bisa ditulis sebagai $x^{2/3} = 4$.\nUntuk mencari $x$, pangkatkan kedua ruas dengan invers dari pangkatnya, yaitu $3/2$.\n$(x^{2/3})^{3/2} = 4^{3/2}$.\n$x = (\\sqrt{4})^3 = 2^3 = 8$."
+    "pembahasan": "Persamaan: $x^{2/3} = 4$.\nPangkatkan kedua ruas dengan $3/2$:\n$$x = 4^{3/2} = (\\sqrt{4})^3 = 2^3 = 8.$$"
   },
   {
-    "id": 47,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk $3^{-2} \\times \\sqrt{81}$ sama dengan...",
     "pilihan": [
@@ -95,10 +95,10 @@
       "81"
     ],
     "jawaban": "B",
-    "pembahasan": "$3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$.\n$\\sqrt{81} = 9$.\nJadi, $\\frac{1}{9} \\times 9 = 1$."
+    "pembahasan": "$$3^{-2} = \\frac{1}{9}, \\quad \\sqrt{81} = 9$$\nSehingga: $$\\frac{1}{9} \\cdot 9 = 1.$$"
   },
   {
-    "id": 48,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $\\frac{\\sqrt{6} \\times \\sqrt{18}}{\\sqrt{3}}$ adalah...",
     "pilihan": [
@@ -109,10 +109,10 @@
       "$6\\sqrt{2}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Gabungkan operasi di bawah satu akar:\n$\\sqrt{\\frac{6 \\times 18}{3}} = \\sqrt{6 \\times 6} = \\sqrt{36} = 6$."
+    "pembahasan": "$$\\frac{\\sqrt{6} \\cdot \\sqrt{18}}{\\sqrt{3}} = \\sqrt{\\frac{6 \cdot 18}{3}} = \\sqrt{36} = 6.$$"
   },
   {
-    "id": 49,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk pangkat pecahan dari $5\\sqrt[4]{125}$ adalah...",
     "pilihan": [
@@ -123,10 +123,10 @@
       "$5^{9/4}$"
     ],
     "jawaban": "D",
-    "pembahasan": "$125 = 5^3$.\nJadi, $5\\sqrt[4]{125} = 5^1 \\times (5^3)^{1/4} = 5^1 \\times 5^{3/4}$.\nGunakan sifat penjumlahan pangkat: $5^{1 + 3/4} = 5^{4/4 + 3/4} = 5^{7/4}$."
+    "pembahasan": "$125 = 5^3$, sehingga:\n$$5\\sqrt[4]{125} = 5^1 \\cdot (5^3)^{1/4} = 5^{1 + 3/4} = 5^{7/4}.$$"
   },
   {
-    "id": 50,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Nilai $x$ yang memenuhi persamaan $\\sqrt{5x+4} - 6 = 2$ adalah...",
     "pilihan": [
@@ -137,146 +137,4 @@
       "16"
     ],
     "jawaban": "C",
-    "pembahasan": "Pindahkan -6 ke ruas kanan: $\\sqrt{5x+4} = 8$.\nKuadratkan kedua ruas: $(\\sqrt{5x+4})^2 = 8^2$.\n$5x+4 = 64$.\n$5x = 60$.\n$x = 12$."
-  },
-  {
-    "id": 51,
-    "kategori": "Sulit",
-    "pertanyaan": "Bentuk sederhana dari $\\sqrt{38 - 12\\sqrt{10}}$ adalah...",
-    "pilihan": [
-      "$2\\sqrt{5} - 3\\sqrt{2}$",
-      "$3\\sqrt{5} - \\sqrt{2}$",
-      "$2\\sqrt{10} - 3$",
-      "$3\\sqrt{2} - 2\\sqrt{5}$",
-      "$6 - \\sqrt{10}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Gunakan sifat $\\sqrt{(a+b) - 2\\sqrt{ab}} = \\sqrt{a} - \\sqrt{b}$ (untuk $a>b$).\nUbah soal menjadi: $\\sqrt{38 - 2 \\times 6\\sqrt{10}} = \\sqrt{38 - 2\\sqrt{36 \\times 10}} = \\sqrt{38 - 2\\sqrt{360}}$.\nCari dua bilangan yang jumlahnya 38 dan hasil kalinya 360. Bilangan tersebut adalah 20 dan 18.\nSehingga, $\\sqrt{20} - \\sqrt{18} = \\sqrt{4 \\times 5} - \\sqrt{9 \\times 2} = 2\\sqrt{5} - 3\\sqrt{2}$."
-  },
-  {
-    "id": 52,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $x=\\frac{\\sqrt{5}+\\sqrt{3}}{\\sqrt{5}-\\sqrt{3}}$, maka nilai dari $x + \\frac{1}{x}$ adalah...",
-    "pilihan": [
-      "1",
-      "4",
-      "8",
-      "16",
-      "$2\\sqrt{15}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Rasionalkan $x$: $x = \\frac{\\sqrt{5}+\\sqrt{3}}{\\sqrt{5}-\\sqrt{3}} \\times \\frac{\\sqrt{5}+\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}} = \\frac{(\\sqrt{5}+\\sqrt{3})^2}{5-3} = \\frac{5+3+2\\sqrt{15}}{2} = \\frac{8+2\\sqrt{15}}{2} = 4+\\sqrt{15}$.\nNilai $\\frac{1}{x}$ adalah kebalikannya, yaitu $\\frac{\\sqrt{5}-\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}} = 4-\\sqrt{15}$.\nMaka $x + \\frac{1}{x} = (4+\\sqrt{15}) + (4-\\sqrt{15}) = 8$."
-  },
-  {
-    "id": 53,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\sqrt[3]{2+\\sqrt{5}} + \\sqrt[3]{2-\\sqrt{5}}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "$\\sqrt[3]{4}$",
-      "Tidak bisa disederhanakan"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Misalkan $x = \\sqrt[3]{2+\\sqrt{5}} + \\sqrt[3]{2-\\sqrt{5}}$.\nPangkatkan tiga kedua ruas: $x^3 = (a+b)^3 = a^3+b^3+3ab(a+b)$, dengan $a=\\sqrt[3]{2+\\sqrt{5}}$ dan $b=\\sqrt[3]{2-\\sqrt{5}}$.\n$a^3 = 2+\\sqrt{5}$.\n$b^3 = 2-\\sqrt{5}$.\n$ab = \\sqrt[3]{(2+\\sqrt{5})(2-\\sqrt{5})} = \\sqrt[3]{4-5} = \\sqrt[3]{-1} = -1$.\n$a+b=x$.\nSubstitusikan kembali: $x^3 = (2+\\sqrt{5}) + (2-\\sqrt{5}) + 3(-1)(x)$.\n$x^3 = 4 - 3x$.\n$x^3 + 3x - 4 = 0$.\nDengan mencoba nilai $x$ bilangan bulat, kita dapati $x=1$ adalah solusi, karena $1^3 + 3(1) - 4 = 0$. Maka, jawabannya adalah 1."
-  },
-  {
-    "id": 54,
-    "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian dari $\\sqrt{x^2 - 16} = x - 2$ adalah...",
-    "pilihan": [
-      "{4}",
-      "{5}",
-      "{-4, 4}",
-      "{}",
-      "Semua bilangan real"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Kuadratkan kedua ruas: $x^2 - 16 = (x-2)^2 = x^2 - 4x + 4$.\n$-16 = -4x + 4$.\n$4x = 20 \\implies x=5$.\nPeriksa syarat:\n1) Isi akar: $x^2-16 \\ge 0 \\implies (x-4)(x+4) \\ge 0 \\implies x \\le -4$ atau $x \\ge 4$.\n2) Hasil akar: $x-2 \\ge 0 \\implies x \\ge 2$.\nIrisan dari kedua syarat adalah $x \\ge 4$. Solusi $x=5$ memenuhi syarat ini. Jadi HP = {5}."
-  },
-  {
-    "id": 55,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $( \\sqrt{3} )^4 \\times 9^2 = 3^n \\times 3\\sqrt{3}$, maka nilai $n$ adalah...",
-    "pilihan": [
-      "3",
-      "3.5",
-      "4",
-      "4.5",
-      "5"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Ubah semua bilangan ke basis 3:\n$(3^{1/2})^4 \\times (3^2)^2 = 3^n \\times 3^1 \\times 3^{1/2}$.\n$3^2 \\times 3^4 = 3^n \\times 3^{3/2}$.\n$3^{2+4} = 3^{n+3/2}$.\n$3^6 = 3^{n+3/2}$.\nSamakan pangkatnya:\n$6 = n + \\frac{3}{2}$.\n$n = 6 - \\frac{3}{2} = \\frac{12}{2} - \\frac{3}{2} = \\frac{9}{2} = 4.5$."
-  },
-  {
-    "id": 56,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x^2+2x+1$, maka $f(\\sqrt{3}-1)$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "$\\sqrt{3}$",
-      "$2\\sqrt{3}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Fungsi $f(x)=x^2+2x+1$ dapat difaktorkan menjadi $f(x)=(x+1)^2$.\nSubstitusikan $x=\\sqrt{3}-1$ ke dalam bentuk yang telah difaktorkan:\n$f(\\sqrt{3}-1) = ((\\sqrt{3}-1)+1)^2 = (\\sqrt{3})^2 = 3$."
-  },
-  {
-    "id": 57,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\frac{1}{\\sqrt{3}+\\sqrt{2}+1}$ adalah...",
-    "pilihan": [
-      "$\\frac{\\sqrt{2}+2-\\sqrt{6}}{2}$",
-      "$\\frac{\\sqrt{2}+2-\\sqrt{6}}{4}$",
-      "$\\frac{\\sqrt{6}+\\sqrt{2}-2}{4}$",
-      "$\\frac{\\sqrt{6}-\\sqrt{2}+2}{4}$",
-      "1"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Kelompokkan penyebut menjadi $(\\sqrt{3}+\\sqrt{2})+1$ dan kalikan dengan sekawannya $(\\sqrt{3}+\\sqrt{2})-1$.\n$\\frac{1}{(\\sqrt{3}+\\sqrt{2})+1} \\times \\frac{(\\sqrt{3}+\\sqrt{2})-1}{(\\sqrt{3}+\\sqrt{2})-1} = \\frac{\\sqrt{3}+\\sqrt{2}-1}{(\\sqrt{3}+\\sqrt{2})^2-1} = \\frac{\\sqrt{3}+\\sqrt{2}-1}{3+2+2\\sqrt{6}-1} = \\frac{\\sqrt{3}+\\sqrt{2}-1}{4+2\\sqrt{6}}$.\nLakukan rasionalisasi kedua dengan mengalikan $(4-2\\sqrt{6})$:\n$\\frac{\\sqrt{3}+\\sqrt{2}-1}{4+2\\sqrt{6}} \\times \\frac{4-2\\sqrt{6}}{4-2\\sqrt{6}} = \\frac{4\\sqrt{3}-2\\sqrt{18}+4\\sqrt{2}-2\\sqrt{12}-4+2\\sqrt{6}}{16-4(6)} = \\frac{4\\sqrt{3}-6\\sqrt{2}+4\\sqrt{2}-4\\sqrt{3}-4+2\\sqrt{6}}{16-24} = \\frac{-2\\sqrt{2}-4+2\\sqrt{6}}{-8} = \\frac{\\sqrt{2}+2-\\sqrt{6}}{4}$."
-  },
-  {
-    "id": 58,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sqrt{0.3+\\sqrt{0.08}} = \\sqrt{a} + \\sqrt{b}$, maka nilai $\\frac{1}{a} + \\frac{1}{b}$ adalah...",
-    "pilihan": [
-      "5",
-      "10",
-      "15",
-      "20",
-      "25"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Ubah bentuk di dalam akar: $\\sqrt{0.3+\\sqrt{0.08}} = \\sqrt{0.3+2\\sqrt{0.02}}$.\nCari dua bilangan yang jumlahnya 0.3 dan hasil kalinya 0.02. Bilangan tersebut adalah 0.2 dan 0.1.\nMaka $\\sqrt{0.3+2\\sqrt{0.02}} = \\sqrt{0.2} + \\sqrt{0.1}$.\nJadi, $a=0.2$ dan $b=0.1$.\nNilai dari $\\frac{1}{a} + \\frac{1}{b} = \\frac{1}{0.2} + \\frac{1}{0.1} = 5 + 10 = 15$."
-  },
-  {
-    "id": 59,
-    "kategori": "Sulit",
-    "pertanyaan": "Akar-akar dari persamaan $x^2-14x+4=0$ adalah $p$ dan $q$. Nilai dari $(\\frac{1}{\\sqrt{p}} + \\frac{1}{\\sqrt{q}})^2$ adalah...",
-    "pilihan": [
-      "4.5",
-      "5",
-      "5.5",
-      "6",
-      "6.5"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Yang dicari adalah $(\\frac{1}{\\sqrt{p}} + \\frac{1}{\\sqrt{q}})^2 = (\\frac{\\sqrt{q}+\\sqrt{p}}{\\sqrt{pq}})^2 = \\frac{(\\sqrt{p}+\\sqrt{q})^2}{pq}$.\n$(\\sqrt{p}+\\sqrt{q})^2 = p+q+2\\sqrt{pq}$.\nDari persamaan $x^2-14x+4=0$, kita tahu: \nJumlah akar: $p+q = -b/a = 14$.\nHasil kali akar: $pq = c/a = 4$.\nMaka $\\sqrt{pq} = \\sqrt{4} = 2$.\nSubstitusikan nilai-nilai ini:\n$\\frac{p+q+2\\sqrt{pq}}{pq} = \\frac{14+2(2)}{4} = \\frac{14+4}{4} = \\frac{18}{4} = 4.5$."
-  },
-  {
-    "id": 60,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $x=\\sqrt{3}$, nilai dari $\\frac{x^3+2x^2+x+2}{x^2+1}$ adalah...",
-    "pilihan": [
-      "$\\sqrt{3}+1$",
-      "$\\sqrt{3}+2$",
-      "$\\sqrt{3}+3$",
-      "$2\\sqrt{3}+1$",
-      "$2\\sqrt{3}+2$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Faktorkan pembilang: $x^2(x+2)+1(x+2)=(x^2+1)(x+2)$.\nMaka $\\frac{(x^2+1)(x+2)}{x^2+1} = x+2$.\nSubstitusi $x=\\sqrt{3}$: $x+2 = \\sqrt{3}+2$."
-  }
-]
+    "pembahasan": "Pindahkan -6 ke kanan:\n$$\\sqrt{5x+4} = 8$$\n
