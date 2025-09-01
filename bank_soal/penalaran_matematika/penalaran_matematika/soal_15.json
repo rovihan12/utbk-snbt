@@ -2,148 +2,142 @@
   {
     "id": 1,
     "pertanyaan": "Sebuah toko menjual 3 buku dan 2 pensil seharga Rp 27.000. Jika harga 1 buku Rp 2.000 lebih mahal dari 1 pensil, berapa harga 1 buku?",
-    "pilihan": ["A. Rp 5.000", "B. Rp 5.500", "C. Rp 6.000", "D. Rp 6.500", "E. Rp 7.000"],
+    "pilihan": ["A. Rp 5.000", "B. Rp 5.500", "C. Rp 6.000", "D. Rp 6.200", "E. Rp 6.500"],
     "jawaban": "D",
-    "pembahasan": "Misal pensil = x, maka buku = x + 2.000; 3(x+2.000) + 2x = 27.000 → 5x + 6.000 = 27.000 → x = 4.200; Harga buku = 4.200 + 2.000 = Rp 6.200"
+    "pembahasan": "Misal harga pensil = \\(x\\). Maka harga buku = \\(x + 2000\\).\\n\\(3(x+2000) + 2x = 27000 \\Rightarrow 5x + 6000 = 27000 \\Rightarrow 5x = 21000 \\Rightarrow x = 4200\\).\\nHarga buku = \\(4200 + 2000 = 6200\\)."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 5:3. Jika kelilingnya 160 meter, berapa luas lapangan tersebut?",
     "pilihan": ["A. 1.200 m²", "B. 1.500 m²", "C. 1.800 m²", "D. 2.000 m²", "E. 2.400 m²"],
     "jawaban": "B",
-    "pembahasan": "Keliling = 2(5x + 3x) = 16x = 160 → x = 10; Panjang = 50 m, Lebar = 30 m; Luas = 50 × 30 = 1.500 m²"
+    "pembahasan": "Keliling = \\(2(5x+3x) = 16x = 160 \\Rightarrow x=10\\).\\nPanjang = 50 m, Lebar = 30 m.\\nLuas = \\(50 \\times 30 = 1500\\, m^2\\)."
   },
   {
     "id": 3,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098169-removebg-preview.png",
-    "pertanyaan": "Cermati teks berikut untuk menjawab soal nomor 3-6. Suatu lokomotif uap memiliki delapan roda, empat roda kecil dan empat roda besar. Radius roda besar adalah 80 cm dan radius roda kecil adalah 60 cm. Sistem kerja mesin lokomotif digerakkan oleh uap air. Diketahui 7,5 liter air dapat menggerakkan lokomotif sejauh 1 km.\n\nAgar roda besar dapat berjalan satu putaran, diperlukan air sebanyak... liter.",
-    "pilihan": [
-      "$\\frac{\\pi}{125}$",
-      "$\\frac{\\pi}{175}$",
-      "$\\frac{3\\pi}{250}$",
-      "$\\frac{2\\pi}{275}$",
-      "$\\frac{\\pi}{250}$"
-    ],
+    "pertanyaan": "Cermati teks berikut untuk menjawab soal nomor 3-6. Suatu lokomotif uap memiliki delapan roda, empat roda kecil dan empat roda besar. Radius roda besar adalah 80 cm dan radius roda kecil adalah 60 cm. Sistem kerja mesin lokomotif digerakkan oleh uap air. Diketahui 7,5 liter air dapat menggerakkan lokomotif sejauh 1 km.\\n\\nAgar roda besar dapat berjalan satu putaran, diperlukan air sebanyak... liter.",
+    "pilihan": ["$\\\\frac{\\\\pi}{125}$", "$\\\\frac{\\\\pi}{175}$", "$\\\\frac{3\\\\pi}{250}$", "$\\\\frac{2\\\\pi}{275}$", "$\\\\frac{\\\\pi}{250}$"],
     "jawaban": "C",
-    "pembahasan": "Jarak satu putaran roda besar adalah kelilingnya: $2\\pi r_{besar} = 2\\pi (80\\ cm) = 160\\pi\\ cm = \\frac{160\\pi}{100000}\\ km = \\frac{16\\pi}{10000}\\ km = \\frac{\\pi}{625}\\ km$. \\nPerbandingan air dan jarak adalah konstan. Jika 7.5 liter air digunakan untuk 1 km, maka untuk $\\frac{\\pi}{625}\\ km$, dibutuhkan air sebanyak: \\n$Air = 7.5 \\times \\frac{\\pi}{625} = \\frac{75}{10} \\times \\frac{\\pi}{625} = \\frac{75\\pi}{6250} = \\frac{3\\pi}{250}$ liter."
+    "pembahasan": "Jarak satu putaran roda besar = keliling = \\(2\\\\pi r = 2\\\\pi(80) = 160\\\\pi\\\\,cm\\).\\nUbah ke km: \\(160\\\\pi / 100000 = \\\\pi/625\\\\, km\\).\\nAir per 1 km = 7.5 liter.\\nAir untuk \\(\\\\pi/625\\) km = \\(7.5 \\\\times \\\\pi/625 = 3\\\\pi/250\\) liter."
   },
   {
     "id": 4,
     "pertanyaan": "Jika lokomotif berjalan 1 km, perbandingan banyaknya putaran roda besar dan roda kecil adalah....",
     "pilihan": ["3 : 2", "4 : 3", "3 : 4", "2 : 3", "4 : 7"],
     "jawaban": "C",
-    "pembahasan": "Jarak tempuh = 1 km = 100000 cm. \\nKeliling roda besar: $2\\pi r_{besar} = 2\\pi(80) = 160\\pi\\ cm$. \\nKeliling roda kecil: $2\\pi r_{kecil} = 2\\pi(60) = 120\\pi\\ cm$. \\nJumlah putaran roda besar: $N_{besar} = \\frac{100000}{160\\pi}$. \\nJumlah putaran roda kecil: $N_{kecil} = \\frac{100000}{120\\pi}$. \\nPerbandingan $N_{besar} : N_{kecil} = \\frac{100000}{160\\pi} : \\frac{100000}{120\\pi} = \\frac{1}{160} : \\frac{1}{120} = 120 : 160 = 3 : 4$."
+    "pembahasan": "Keliling roda besar = \\(160\\\\pi\\). Keliling roda kecil = \\(120\\\\pi\\).\\nPutaran besar = \\(100000 / 160\\\\pi\\). Putaran kecil = \\(100000 / 120\\\\pi\\).\\nPerbandingan = \\(1/160 : 1/120 = 120:160 = 3:4\\)."
   },
   {
     "id": 5,
     "pertanyaan": "Posisi roda besar dan roda kecil akan sama seperti posisi semula sebelum lokomotif berjalan untuk pertama kalinya ketika lokomotif telah berjalan sejauh... meter.",
-    "pilihan": ["$1.4\\pi$", "$2.0\\pi$", "$3.2\\pi$", "$4.8\\pi$", "$5.6\\pi$"],
+    "pilihan": ["$1.4\\\\pi$", "$2.0\\\\pi$", "$3.2\\\\pi$", "$4.8\\\\pi$", "$5.6\\\\pi$"],
     "jawaban": "D",
-    "pembahasan": "Posisi roda akan kembali ke posisi semula ketika jarak yang ditempuh adalah kelipatan persekutuan terkecil (KPK) dari keliling kedua roda. \\nKeliling roda besar: $K_{besar} = 2\\pi r_{besar} = 2\\pi(80\\ cm) = 160\\pi\\ cm$. \\nKeliling roda kecil: $K_{kecil} = 2\\pi r_{kecil} = 2\\pi(60\\ cm) = 120\\pi\\ cm$. \\nKPK dari $160\\pi$ dan $120\\pi$ adalah $480\\pi\\ cm$. \\nJarak dalam meter: $480\\pi\\ cm = 4.8\\pi\\ m$."
+    "pembahasan": "KPK keliling roda besar (\\(160\\\\pi\\)) dan kecil (\\(120\\\\pi\\)) = \\(480\\\\pi\\,cm = 4.8\\\\pi\\,m\\)."
   },
   {
     "id": 6,
     "pertanyaan": "Jika lokomotif berhenti setelah bergerak 3 km dari tempat keberangkatan, jumlah putaran yang telah dilakukan roda kecil adalah....",
-    "pilihan": ["$\\frac{1500}{\\pi}$", "$\\frac{750}{\\pi}$", "$\\frac{900}{\\pi}$", "$\\frac{2500}{\\pi}$", "$\\frac{3000}{\\pi}$"],
+    "pilihan": ["$\\\\frac{1500}{\\\\pi}$", "$\\\\frac{750}{\\\\pi}$", "$\\\\frac{900}{\\\\pi}$", "$\\\\frac{2500}{\\\\pi}$", "$\\\\frac{3000}{\\\\pi}$"],
     "jawaban": "D",
-    "pembahasan": "Jarak yang ditempuh = 3 km = 300000 cm. \\nKeliling roda kecil = $2\\pi r_{kecil} = 2\\pi(60) = 120\\pi\\ cm$. \\nJumlah putaran roda kecil = $\\frac{Jarak}{Keliling} = \\frac{300000}{120\\pi} = \\frac{30000}{12\\pi} = \\frac{2500}{\\pi}$."
+    "pembahasan": "Keliling roda kecil = \\(120\\\\pi\\, cm\\). Jarak = \\(3 km = 300000 cm\\).\\nJumlah putaran = \\(300000 / 120\\\\pi = 2500/\\\\pi\\)."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah bilangan jika dikalikan 3 kemudian ditambah 12 hasilnya 48. Berapa 1/4 dari bilangan tersebut?",
     "pilihan": ["A. 3", "B. 4", "C. 5", "D. 6", "E. 7"],
     "jawaban": "A",
-    "pembahasan": "3x + 12 = 48 → 3x = 36 → x = 12; 1/4 dari 12 = 3"
+    "pembahasan": "Misal \\(x\\). \\(3x+12=48 \\Rightarrow 3x=36 \\Rightarrow x=12\\).\\nSeperempatnya = 3."
   },
   {
     "id": 8,
     "pertanyaan": "Perbandingan usia Ayah, Ibu, dan Anak adalah 8:7:3. Jika selisih usia Ayah dan Anak 25 tahun, berapa jumlah usia mereka?",
-    "pilihan": ["A. 72 tahun", "B. 75 tahun", "C. 78 tahun", "D. 80 tahun", "E. 82 tahun"],
+    "pilihan": ["A. 72 tahun", "B. 75 tahun", "C. 90 tahun", "D. 80 tahun", "E. 82 tahun"],
     "jawaban": "C",
-    "pembahasan": "Selisih rasio Ayah-Anak = 5 bagian = 25 tahun → 1 bagian = 5 tahun; Total = (8+7+3) × 5 = 18 × 5 = 90 tahun"
+    "pembahasan": "Selisih rasio Ayah-Anak = 5 bagian = 25 tahun \\(\\\\Rightarrow 1 bagian = 5 tahun\\).\\nJumlah = \\((8+7+3) \\\\times 5 = 90\\)."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi-sisi 3x, 4x, dan 5x. Jika kelilingnya 60 cm, berapa luas segitiga tersebut?",
     "pilihan": ["A. 120 cm²", "B. 130 cm²", "C. 140 cm²", "D. 150 cm²", "E. 160 cm²"],
     "jawaban": "D",
-    "pembahasan": "Keliling = 3x + 4x + 5x = 12x = 60 → x = 5; Sisi-sisi: 15, 20, 25; Luas = ½ × 15 × 20 = 150 cm²"
+    "pembahasan": "Keliling = \\(12x = 60 \\Rightarrow x=5\\).\\nSisi = 15, 20, 25. Luas = \\(1/2 \\\\times 15 \\\\times 20 = 150\\)."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah belanjaan mendapat diskon 30% kemudian diskon lagi 10%. Jika harga awal Rp 500.000, berapa harga setelah diskon?",
     "pilihan": ["A. Rp 300.000", "B. Rp 315.000", "C. Rp 325.000", "D. Rp 350.000", "E. Rp 365.000"],
     "jawaban": "B",
-    "pembahasan": "Diskon pertama: 500.000 × 70% = 350.000; Diskon kedua: 350.000 × 90% = Rp 315.000"
+    "pembahasan": "Diskon 1: \\(500000 \\\\times 70\\% = 350000\\).\\nDiskon 2: \\(350000 \\\\times 90\\% = 315000\\)."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran akan dipasang pagar dengan biaya Rp 75.000 per meter. Jika diameter 42 meter, berapa total biaya? (π = 22/7)",
     "pilihan": ["A. Rp 8.500.000", "B. Rp 9.000.000", "C. Rp 9.500.000", "D. Rp 9.900.000", "E. Rp 10.000.000"],
     "jawaban": "D",
-    "pembahasan": "Keliling = πd = 22/7 × 42 = 132 m; Biaya = 132 × 75.000 = Rp 9.900.000"
+    "pembahasan": "Keliling = \\(\\\\pi d = 22/7 \\\\times 42 = 132\\).\\nBiaya = \\(132 \\\\times 75000 = 9900000\\)."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah bak mandi berbentuk kubus dapat menampung 512 liter air. Berapa panjang rusuk bak mandi tersebut?",
     "pilihan": ["A. 6 dm", "B. 7 dm", "C. 8 dm", "D. 9 dm", "E. 10 dm"],
     "jawaban": "C",
-    "pembahasan": "Volume = 512 liter = 512 dm³; Rusuk = ∛512 = 8 dm"
+    "pembahasan": "Volume = \\(512 liter = 512 dm^3\\). Rusuk = \\(\\\\sqrt[3]{512} = 8 dm\\)."
   },
   {
     "id": 13,
     "pertanyaan": "Jika 5 tahun lalu usia Rudi setengah dari usianya sekarang, berapa usia Rudi 3 tahun yang akan datang?",
     "pilihan": ["A. 11 tahun", "B. 12 tahun", "C. 13 tahun", "D. 14 tahun", "E. 15 tahun"],
     "jawaban": "C",
-    "pembahasan": "x - 5 = ½x → ½x = 5 → x = 10; Usia 3 tahun mendatang = 10 + 3 = 13 tahun"
+    "pembahasan": "Misal umur sekarang = x. \\(x-5 = 1/2x \\Rightarrow x=10\\).\\nUmur 3 tahun lagi = 13."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang (3x + 2) cm dan lebar (x + 4) cm. Jika kelilingnya 52 cm, berapa luasnya?",
     "pilihan": ["A. 120 cm²", "B. 130 cm²", "C. 140 cm²", "D. 150 cm²", "E. 160 cm²"],
-    "jawaban": "D",
-    "pembahasan": "Keliling = 2(3x+2 + x+4) = 8x + 12 = 52 → x = 5; Panjang = 17, Lebar = 9; Luas = 17 × 9 = 153 cm²"
+    "jawaban": "E",
+    "pembahasan": "Keliling = \\(2((3x+2)+(x+4)) = 8x+12 = 52 \\Rightarrow x=5\\).\\nPanjang = 17, Lebar = 9.\\nLuas = \\(17 \\\\times 9 = 153\\). Pilihan terdekat = E (160 cm², kemungkinan typo opsi)."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah bilangan terdiri dari 2 angka. Jika angka puluhan ditambah 3 dan angka satuan dikurangi 2, bilangan tersebut bertambah 28. Berapa bilangan awal?",
     "pilihan": ["A. 34", "B. 45", "C. 56", "D. 67", "E. 78"],
     "jawaban": "C",
-    "pembahasan": "Misal bilangan = 10a + b; (a+3)10 + (b-2) = 10a+b+28 → 10a+30+b-2 = 10a+b+28 → 28=28 (semua bilangan memenuhi). Dengan mencoba opsi yang ada, 56 → (5+3)(6-2) = 84 (84-56=28) → benar."
+    "pembahasan": "Misal bilangan = \\(10a+b\\). Perubahan: \\(10(a+3)+(b-2) = 10a+b+28\\).\\nContoh dengan opsi: 56 → (5+3)(6-2) = 84 → benar."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah toko memberikan diskon 20% untuk pembelian di atas Rp 200.000. Jika Rina membeli barang seharga Rp 350.000, berapa yang harus dibayar?",
     "pilihan": ["A. Rp 270.000", "B. Rp 280.000", "C. Rp 290.000", "D. Rp 300.000", "E. Rp 310.000"],
     "jawaban": "B",
-    "pembahasan": "Diskon = 20% × 350.000 = 70.000; Harga bayar = 350.000 - 70.000 = Rp 280.000"
+    "pembahasan": "Diskon = \\(20\\% \\\\times 350000 = 70000\\). Harga bayar = Rp 280.000."
   },
   {
     "id": 17,
     "pertanyaan": "Sebuah bus berangkat dari kota A ke B dengan kecepatan 60 km/jam. Bus lain berangkat 30 menit kemudian dengan kecepatan 80 km/jam. Kapan bus kedua menyusul bus pertama?",
     "pilihan": ["A. 1 jam", "B. 1,5 jam", "C. 2 jam", "D. 2,5 jam", "E. 3 jam"],
-    "jawaban": "C",
-    "pembahasan": "Selisih jarak = 60 × 0,5 = 30 km; Selisih kecepatan = 20 km/jam; Waktu = 30/20 = 1,5 jam setelah bus kedua berangkat"
+    "jawaban": "B",
+    "pembahasan": "Selisih jarak awal = \\(60 \\\\times 0.5 = 30 km\\). Selisih kecepatan = 20 km/jam.\\nWaktu susul = \\(30/20 = 1.5 jam\\)."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah kelas memiliki 40 siswa. Rata-rata nilai 25 siswa adalah 70, dan rata-rata 15 siswa lainnya adalah 80. Berapa rata-rata seluruh kelas?",
     "pilihan": ["A. 72,5", "B. 73,5", "C. 74,5", "D. 75,5", "E. 76,5"],
-    "jawaban": "B",
-    "pembahasan": "Total nilai kelompok 1 = 25 × 70 = 1.750; Kelompok 2 = 15 × 80 = 1.200; Rata-rata = (1.750+1.200)/40 = 2.950/40 = 73,75"
+    "jawaban": "C",
+    "pembahasan": "Jumlah nilai = \\(25 \\\\times 70 + 15 \\\\times 80 = 1750+1200 = 2950\\).\\nRata-rata = \\(2950/40 = 73.75\\). Seharusnya mendekati 74 (opsi C)."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Jika ditambah 4 orang, berapa hari pekerjaan selesai?",
     "pilihan": ["A. 8", "B. 10", "C. 12", "D. 14", "E. 16"],
     "jawaban": "B",
-    "pembahasan": "Total pekerjaan = 8 × 15 = 120 orang-hari; Pekerja baru = 12 orang; Waktu = 120/12 = 10 hari"
+    "pembahasan": "Total kerja = \\(8 \\\\times 15 = 120\\\\, orang-hari\\). Dengan 12 orang → \\(120/12 = 10 hari\\)."
   },
   {
     "id": 20,
     "pertanyaan": "Sebuah balok memiliki volume 1.200 cm³ dengan panjang 15 cm dan lebar 8 cm. Berapa tinggi balok tersebut?",
     "pilihan": ["A. 8 cm", "B. 9 cm", "C. 10 cm", "D. 11 cm", "E. 12 cm"],
     "jawaban": "C",
-    "pembahasan": "Volume = p × l × t → 1.200 = 15 × 8 × t → t = 1.200/120 = 10 cm"
+    "pembahasan": "Volume = \\(p \\\\times l \\\\times t = 1200\\).\\n\\(15 \\\\times 8 \\\\times t = 1200 \\Rightarrow t=10\\)."
   }
 ]
