@@ -223,19 +223,18 @@
     "jawaban": "B",
     "pembahasan": "Misal $x = \\sqrt{3+2\\sqrt{2}} + \\sqrt{3-2\\sqrt{2}}$. Kuadratkan: $x^2 = (3+2\\sqrt{2}) + (3-2\\sqrt{2}) + 2\\sqrt{(3+2\\sqrt{2})(3-2\\sqrt{2})} = 6 + 2\\sqrt{1} = 6 + 2 = 8 \\Rightarrow x = 2\\sqrt{2}$, sesuaikan opsi."
   },
-  {
+    {
     "id": 17,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $x = \\sqrt{7 + 4\\sqrt{3}}$, maka $x$ dapat ditulis sebagai...",
+    "pertanyaan": "Hasil dari $\\frac{2^{n+2} \\cdot 6^{n-4}}{12^{n-1}}$ adalah ....",
     "pilihan": [
-      "$2 + \\sqrt{3}$",
-      "$2 - \\sqrt{3}$",
-      "$3 + \\sqrt{3}$",
-      "$3 - \\sqrt{3}$",
-      "$1 + 2\\sqrt{3}$"
+      "$\\frac{1}{27}$",
+      "$\\frac{1}{16}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{3}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Misal $x = a + b\\sqrt{3}$. Kuadratkan: $7 + 4\\sqrt{3} = a^2 + 3b^2 + 2ab\\sqrt{3}$. Bandingkan: $2ab = 4 \\Rightarrow ab = 2$, $a^2 + 3b^2 = 7$. Solusi: $a=2, b=1$."
+    "pembahasan": "Langkah pertama adalah mengubah semua basis menjadi faktor prima terkecil, yaitu 2 dan 3.\n\n$6 = 2 \\times 3$\n$12 = 4 \\times 3 = 2^2 \\times 3$\n\nSekarang, substitusikan ke dalam ekspresi:n\\n$\\frac{2^{n+2} \\cdot (2 \\cdot 3)^{n-4}}{(2^2 \\cdot 3)^{n-1}} = \\frac{2^{n+2} \\cdot 2^{n-4} \\cdot 3^{n-4}}{2^{2(n-1)} \\cdot 3^{n-1}} = \\frac{2^{n+2+n-4} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\n$\\frac{2^{2n-2} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\nSekarang, gunakan sifat pembagian eksponen dengan basis yang sama ($a^m/a^n = a^{m-n}$):\n\n$2^{(2n-2)-(2n-2)} \\cdot 3^{(n-4)-(n-1)} = 2^0 \\cdot 3^{n-4-n+1} = 1 \\cdot 3^{-3} = \\frac{1}{3^3} = \\frac{1}{27}$.\n\nJadi, hasil dari ekspresi tersebut adalah $\\frac{1}{27}$."
   },
   {
     "id": 18,
