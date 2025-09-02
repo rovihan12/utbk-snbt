@@ -120,10 +120,16 @@
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah kotak berisi 7 kelereng merah dan 5 kelereng putih. Jika diambil 3 kelereng sekaligus secara acak, peluang terambil 2 kelereng merah dan 1 kelereng putih adalah...",
-    "pilihan": ["$\\frac{35}{220}$", "$\\frac{70}{220}$", "$\\frac{105}{220}$", "$\\frac{140}{220}$", "$\\frac{175}{220}$"],
-    "jawaban": "C",
-    "pembahasan": "Jumlah total kelereng = $7 + 5 = 12$. Banyak cara mengambil 3 kelereng dari 12 kelereng (ruang sampel): $C(12,3) = \\frac{12!}{3!(12-3)!} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 2 \\times 11 \\times 10 = 220$. Banyak cara mengambil 2 kelereng merah dari 7 kelereng merah: $C(7,2) = \\frac{7!}{2!(7-2)!} = \\frac{7 \\times 6}{2 \\times 1} = 21$. Banyak cara mengambil 1 kelereng putih dari 5 kelereng putih: $C(5,1) = \\frac{5!}{1!(5-1)!} = 5$. Banyak cara mengambil 2 kelereng merah dan 1 kelereng putih = $C(7,2) \\times C(5,1) = 21 \\times 5 = 105$. Peluang terambil 2 kelereng merah dan 1 kelereng putih = $\\frac{105}{220}$."
+    "pertanyaan": "Hasil dari $\\frac{2^{n+2} \\cdot 6^{n-4}}{12^{n-1}}$ adalah ....",
+    "pilihan": [
+      "$\\frac{1}{27}$",
+      "$\\frac{1}{16}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{3}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Langkah pertama adalah mengubah semua basis menjadi faktor prima terkecil, yaitu 2 dan 3.\n\n$6 = 2 \\times 3$\n$12 = 4 \\times 3 = 2^2 \\times 3$\n\nSekarang, substitusikan ke dalam ekspresi:n\\n$\\frac{2^{n+2} \\cdot (2 \\cdot 3)^{n-4}}{(2^2 \\cdot 3)^{n-1}} = \\frac{2^{n+2} \\cdot 2^{n-4} \\cdot 3^{n-4}}{2^{2(n-1)} \\cdot 3^{n-1}} = \\frac{2^{n+2+n-4} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\n$\\frac{2^{2n-2} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\nSekarang, gunakan sifat pembagian eksponen dengan basis yang sama ($a^m/a^n = a^{m-n}$):\n\n$2^{(2n-2)-(2n-2)} \\cdot 3^{(n-4)-(n-1)} = 2^0 \\cdot 3^{n-4-n+1}\n = 1 \\cdot 3^{-3} = \\frac{1}{3^3} = \\frac{1}{27}$\n\nJadi, hasil dari ekspresi tersebut adalah $\\frac{1}{27}$"
   },
   {
     "id": 18,
