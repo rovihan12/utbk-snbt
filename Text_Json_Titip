@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Nilai dari $(\\frac{6^{24}}{3^{24} \\times 4^6})^{\\frac{1}{3}}$ adalah ....",
+    "pilihan": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Langkah pertama adalah menyederhanakan ekspresi di dalam kurung. Kita ubah semua basis menjadi bentuk prima terkecil, yaitu 2 dan 3.\\n\\n$\\frac{6^{24}}{3^{24} \\times 4^6} = \\frac{(2 \\times 3)^{24}}{3^{24} \\times (2^2)^6} = \\frac{2^{24} \\times 3^{24}}{3^{24} \\times 2^{12}}$\\n\\nGunakan sifat eksponen untuk membagi bilangan dengan basis yang sama ($a^m/a^n = a^{m-n}$):\\n\\n$= 2^{24-12} \\times 3^{24-24} = 2^{12} \\times 3^0 = 2^{12} \\times 1 = 2^{12}$.\\n\\nSekarang, kita terapkan eksponen di luar kurung, yaitu $\\frac{1}{3}$.\\n\\n$(2^{12})^{\\frac{1}{3}} = 2^{12 \\times \\frac{1}{3}} = 2^4 = 16$.\\n\\nJadi, nilai dari ekspresi tersebut adalah 16."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Jika $\\frac{64^{\\frac{3}{2}} \\times 4^{x^5}}{16^{\\frac{1}{4}}} = x^2$, maka nilai dari $x$ adalah ....",
+    "pilihan": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Kita akan menyederhanakan persamaan dengan mengubah semua basis menjadi 2.\\n$64 = 2^6$, $4 = 2^2$, dan $16 = 2^4$.\\n\\n$\\frac{(2^6)^{\\frac{3}{2}} \\times (2^2)^{x^5}}{(2^4)^{\\frac{1}{4}}} = x^2$\\n\\n$\\frac{2^{6 \\times \\frac{3}{2}} \\times 2^{2 \\times x^5}}{2^{4 \\times \\frac{1}{4}}} = x^2$\\n\\n$\\frac{2^9 \\times 2^{2x^5}}{2^1} = x^2$\\n\\n$2^{9 + 2x^5 - 1} = x^2$\\n\\n$2^{8+2x^5} = x^2$. \\n\\nKarena bentuk persamaan ini sangat tidak biasa dan sulit diselesaikan secara aljabar, kita dapat mencoba mencocokkan nilai dari pilihan jawaban. Tampaknya ada kesalahan ketik pada soal di gambar, karena tidak ada solusi bilangan bulat yang jelas. Namun, jika kita mengasumsikan jawaban yang dimaksud adalah C (2), ini juga tidak cocok. Jadi, soal ini cacat dan tidak dapat diselesaikan dengan informasi yang ada."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Fungsi $f$ dengan variabel real $x$ memenuhi $2^{x-1} < f(x) < \\sqrt{3x+2}$, untuk $0 < x < 5$. Di antara pilihan berikut, nilai fungsi $f$ di $x=3$ yang tidak mungkin adalah ....",
+    "pilihan": [
+      "(1), (2), dan (3)",
+      "(1) dan (3)",
+      "(2) dan (4)",
+      "(4) saja",
+      "(1), (2), (3), dan (4)"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Untuk menentukan nilai fungsi $f$ di $x=3$, kita substitusikan nilai $x$ ke dalam ketidaksetaraan:\\n\\n$2^{3-1} < f(3) < \\sqrt{3(3)+2}$\\n$2^2 < f(3) < \\sqrt{9+2}$\\n$4 < f(3) < \\sqrt{11}$\\n\\nKita tahu bahwa $\\sqrt{11}$ berada di antara $\\sqrt{9}=3$ dan $\\sqrt{16}=4$. Lebih tepatnya, $\\sqrt{11} \\approx 3,317$. Maka, ketidaksetaraan yang kita dapatkan adalah:\\n\\n$4 < f(3) < 3,317$\\n\\nKetidaksetaraan ini secara matematis tidak mungkin, karena tidak ada bilangan yang lebih besar dari 4 dan pada saat yang sama lebih kecil dari 3,317. Oleh karena itu, tidak ada nilai $f(3)$ yang memenuhi syarat tersebut. Semua nilai yang diberikan dalam pilihan (1) 2, (2) 3, (3) 4, dan (4) 6 berada di luar rentang yang mustahil ini. Dengan demikian, tidak ada satupun dari nilai tersebut yang mungkin. Jawaban yang benar adalah E."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Nilai $1-x$ yang memenuhi persamaan $\\sqrt{8^{3-x}} = 4 \\cdot 2^{1-2x}$ adalah ....",
+    "pilihan": [
+      "-4",
+      "-2",
+      "1",
+      "2",
+      "4"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Untuk menyelesaikan persamaan ini, kita ubah semua bilangan ke basis yang sama, yaitu 2.\\n\\n$\\sqrt{8^{3-x}} = (8^{3-x})^{\\frac{1}{2}} = ((2^3)^{3-x})^{\\frac{1}{2}} = 2^{3(3-x) \\times \\frac{1}{2}} = 2^{\\frac{9-3x}{2}}$\\n\\n$4 \\cdot 2^{1-2x} = 2^2 \\cdot 2^{1-2x} = 2^{2+(1-2x)} = 2^{3-2x}$\\n\\nSekarang, kita samakan kedua sisi persamaan:\\n\\n$2^{\\frac{9-3x}{2}} = 2^{3-2x}$\\n\\nKarena basisnya sama, kita samakan eksponennya:\\n\\n$\\frac{9-3x}{2} = 3-2x$\\n\\n$9-3x = 2(3-2x)$\\n$9-3x = 6-4x$\\n$-3x + 4x = 6-9$\\n$x = -3$\\n\\nSoal menanyakan nilai dari $1-x$, bukan nilai $x$.\\n\\n$1-x = 1 - (-3) = 1 + 3 = 4$. Jadi, nilai $1-x$ adalah 4."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Hasil dari $\\frac{2^{n+2} \\cdot 6^{n-4}}{12^{n-1}}$ adalah ....",
+    "pilihan": [
+      "$\\frac{1}{27}$",
+      "$\\frac{1}{16}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{3}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Langkah pertama adalah mengubah semua basis menjadi faktor prima terkecil, yaitu 2 dan 3.\\n\\n$6 = 2 \\times 3$\\n$12 = 4 \\times 3 = 2^2 \\times 3$\\n\\nSekarang, substitusikan ke dalam ekspresi:\\n\\n$\\frac{2^{n+2} \\cdot (2 \\cdot 3)^{n-4}}{(2^2 \\cdot 3)^{n-1}} = \\frac{2^{n+2} \\cdot 2^{n-4} \\cdot 3^{n-4}}{2^{2(n-1)} \\cdot 3^{n-1}} = \\frac{2^{n+2+n-4} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\\n\\n$\\frac{2^{2n-2} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\\n\\nSekarang, gunakan sifat pembagian eksponen dengan basis yang sama ($a^m/a^n = a^{m-n}$):\\n\\n$2^{(2n-2)-(2n-2)} \\cdot 3^{(n-4)-(n-1)} = 2^0 \\cdot 3^{n-4-n+1} = 1 \\cdot 3^{-3} = \\frac{1}{3^3} = \\frac{1}{27}$.\\n\\nJadi, hasil dari ekspresi tersebut adalah $\\frac{1}{27}$."
+  }
+]
