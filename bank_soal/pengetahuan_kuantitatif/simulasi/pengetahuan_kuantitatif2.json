@@ -134,9 +134,16 @@
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi siku-siku 5 cm. Panjang sisi siku-siku yang lain adalah...",
-    "pilihan": ["8 cm", "10 cm", "12 cm", "14 cm", "15 cm"],
+    "pertanyaan": "Dalam lingkaran O, AB = 4 dan CD = 3. Pernyataan berikut ini yang benar adalah .... \n(1) sudut ABC dan sudut DCB memiliki ukuran yang sama. \n(2) AB sejajar CD. \n(3) 3(AE) = 4(CE).",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250824_191058_Samsung%20Internet.jpg",
+    "pilihan": [
+      "(1) saja",
+      "(2) saja",
+      "(3) saja",
+      "(1) dan (2)",
+      "(1) dan (3)"
+    ],
     "jawaban": "C",
-    "pembahasan": "Gunakan teorema Pythagoras: $a^2 + b^2 = c^2$, di mana $c$ adalah sisi miring. Misalkan sisi siku-siku yang diketahui adalah $a = 5$ cm dan sisi miring $c = 13$ cm. Kita mencari $b$. $5^2 + b^2 = 13^2 \\implies 25 + b^2 = 169 \\implies b^2 = 169 - 25 \\implies b^2 = 144 \\implies b = \\sqrt{144} \\implies b = 12$ cm."
+    "pembahasan": "Berdasarkan **teorema perpotongan tali busur**, $\\triangle ABE$ sebangun dengan $\\triangle DCE$. Dari kesebangunan ini, kita dapatkan perbandingan sisi-sisi yang bersesuaian: $\\frac{AE}{CE} = \\frac{AB}{CD}$.\n\nKarena $AB = 4$ dan $CD = 3$, maka perbandingannya adalah $\\frac{AE}{CE} = \\frac{4}{3}$. Dengan mengalikan silang, kita peroleh $3(AE) = 4(CE)$. Oleh karena itu, pernyataan **(3) benar**.\n\nPernyataan **(1)** dan **(2)** adalah salah. Sudut keliling yang menghadap busur yang berbeda tidak sama besar, kecuali panjang busurnya sama. Karena tali busur AB dan CD tidak sama panjang, mereka juga tidak sejajar."
   }
 ]
