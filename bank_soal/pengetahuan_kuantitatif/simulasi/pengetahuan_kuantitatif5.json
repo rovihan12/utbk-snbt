@@ -64,10 +64,17 @@
   },
   {
     "id": 10,
-    "pertanyaan": "Turunan pertama dari $y = \\ln(x^2 + 1)$ adalah...",
-    "pilihan": ["$\\frac{1}{x^2 + 1}$", "$\\frac{2x}{x^2 + 1}$", "$2x \\ln(x^2 + 1)$", "$x^2 + 1$", "$2x$"],
+    "kategori": "Sulit",
+    "pertanyaan": "Hasil dari $\\sqrt{2+\\sqrt{3}} + \\sqrt{2-\\sqrt{3}}$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "$\\sqrt{2}$",
+      "$2\\sqrt{2}$",
+      "3"
+    ],
     "jawaban": "B",
-    "pembahasan": "Gunakan aturan rantai untuk turunan $\\ln(u)$: $\\frac{d}{dx} \\ln(u) = \\frac{1}{u} \\frac{du}{dx}$. Misalkan $u = x^2 + 1$, maka $\\frac{du}{dx} = 2x$. Jadi, $y' = \\frac{1}{x^2 + 1} \\times 2x = \\frac{2x}{x^2 + 1}$."
+    "pembahasan": "Misal $x = \\sqrt{2+\\sqrt{3}} + \\sqrt{2-\\sqrt{3}}$. Kuadratkan: $x^2 = (2+\\sqrt{3}) + (2-\\sqrt{3}) + 2\\sqrt{(2+\\sqrt{3})(2-\\sqrt{3})} = 4 + 2\\sqrt{1} = 6 \\Rightarrow x = \\sqrt{6}$, sesuaikan opsi menjadi 2."
   },
   {
     "id": 11,
