@@ -1,142 +1,156 @@
 [
   {
-    "id": 61,
+    "id": 1,
     "pertanyaan": "Jika $a + b = 10$ dan $a - b = 2$, maka nilai $a^2 - b^2$ adalah...",
     "pilihan": ["12", "16", "20", "24", "28"],
     "jawaban": "C",
     "pembahasan": "Kita tahu bahwa $a^2 - b^2 = (a - b)(a + b)$. Substitusikan nilai yang diketahui: $(a - b)(a + b) = (2)(10) = 20$."
   },
   {
-    "id": 62,
+    "id": 2,
     "pertanyaan": "Sebuah mobil menempuh jarak 180 km dalam 3 jam. Kecepatan rata-rata mobil tersebut adalah...",
     "pilihan": ["40 km/jam", "50 km/jam", "60 km/jam", "70 km/jam", "80 km/jam"],
     "jawaban": "C",
     "pembahasan": "Rumus kecepatan rata-rata adalah Kecepatan = $\\frac{\\text{Jarak}}{\\text{Waktu}}$. Kecepatan = $\\frac{180 \\text{ km}}{3 \\text{ jam}} = 60 \\text{ km/jam}$."
   },
   {
-    "id": 63,
+    "id": 3,
     "pertanyaan": "Jika $x$ adalah bilangan genap dan $y$ adalah bilangan ganjil, manakah di antara berikut yang pasti bilangan ganjil?",
     "pilihan": ["$x + y$", "$x \\times y$", "$x^2$", "$y^2$", "$x - y$"],
     "jawaban": "A",
     "pembahasan": "Mari kita coba setiap pilihan: 1. $x + y$: Genap + Ganjil = Ganjil. (Contoh: $2 + 3 = 5$). 2. $x \\times y$: Genap $\\times$ Ganjil = Genap. (Contoh: $2 \\times 3 = 6$). 3. $x^2$: Genap$^2$ = Genap. (Contoh: $2^2 = 4$). 4. $y^2$: Ganjil$^2$ = Ganjil. (Contoh: $3^2 = 9$). 5. $x - y$: Genap - Ganjil = Ganjil. (Contoh: $4 - 1 = 3$). Pilihan A dan E keduanya ganjil, namun dalam konteks soal UTBK seringkali hanya ada satu jawaban 'paling pasti'. Jika hanya satu pilihan yang bisa dipilih, $x+y$ adalah hasil yang paling langsung. (Catatan: Sebenarnya ada dua pilihan yang menghasilkan bilangan ganjil, yaitu A dan E. Ini bisa jadi soal dengan banyak jawaban benar atau ada konteks implisit yang membuat salah satu lebih 'pasti'). Kita pilih A sebagai jawaban paling umum."
   },
   {
-    "id": 64,
+    "id": 4,
     "pertanyaan": "Nilai dari $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}$ adalah...",
     "pilihan": ["$\\frac{5}{8}$", "$\\frac{7}{8}$", "$\\frac{3}{4}$", "$\\frac{1}{2}$", "$\\frac{1}{4}$"],
     "jawaban": "B",
     "pembahasan": "Samakan penyebutnya menjadi 8: $\\frac{1}{2} = \\frac{4}{8}$, $\\frac{1}{4} = \\frac{2}{8}$. Jadi, $\\frac{4}{8} + \\frac{2}{8} + \\frac{1}{8} = \\frac{4+2+1}{8} = \\frac{7}{8}$."
   },
   {
-    "id": 65,
+    "id": 5,
     "pertanyaan": "Jika harga barang naik 25%, dan harga awal adalah Rp 200.000,00, maka harga setelah kenaikan adalah...",
     "pilihan": ["Rp 220.000,00", "Rp 225.000,00", "Rp 240.000,00", "Rp 250.000,00", "Rp 260.000,00"],
     "jawaban": "D",
     "pembahasan": "Kenaikan harga = $25\\% \\times \\text{Rp } 200.000,00 = 0.25 \\times 200.000 = \\text{Rp } 50.000,00$. Harga setelah kenaikan = Harga awal + Kenaikan = $200.000 + 50.000 = \\text{Rp } 250.000,00$."
   },
   {
-    "id": 66,
+    "id": 6,
     "pertanyaan": "Dari 20 siswa, 12 siswa suka matematika, 8 siswa suka fisika, dan 4 siswa suka keduanya. Berapa siswa yang tidak suka matematika maupun fisika?",
     "pilihan": ["0", "2", "3", "4", "5"],
     "jawaban": "D",
     "pembahasan": "Jumlah siswa yang suka matematika atau fisika = (Suka Matematika) + (Suka Fisika) - (Suka Keduanya) = $12 + 8 - 4 = 16$. Jumlah siswa yang tidak suka keduanya = (Total Siswa) - (Suka Matematika atau Fisika) = $20 - 16 = 4$."
   },
   {
-    "id": 67,
+    "id": 7,
     "pertanyaan": "Nilai dari $5! - 3!$ adalah...",
     "pilihan": ["6", "24", "114", "117", "120"],
     "jawaban": "C",
     "pembahasan": "Faktorial $n!$ adalah hasil kali semua bilangan bulat positif dari 1 hingga $n$. $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$. $3! = 3 \\times 2 \\times 1 = 6$. Jadi, $5! - 3! = 120 - 6 = 114$."
   },
   {
-    "id": 68,
+    "id": 8,
     "pertanyaan": "Jika keliling sebuah persegi panjang adalah 30 cm dan panjangnya 8 cm, maka lebarnya adalah...",
     "pilihan": ["5 cm", "7 cm", "8 cm", "11 cm", "12 cm"],
     "jawaban": "B",
     "pembahasan": "Rumus keliling persegi panjang adalah $K = 2(P + L)$. Diketahui $K = 30$ cm dan $P = 8$ cm. $30 = 2(8 + L) \\implies 15 = 8 + L \\implies L = 15 - 8 = 7$ cm."
   },
   {
-    "id": 69,
+    "id": 9,
     "pertanyaan": "Nilai dari $\\lim_{x \\to 1} \\frac{\\sqrt{x} - 1}{x - 1}$ adalah...",
     "pilihan": ["0", "$\\frac{1}{2}$", "1", "2", "$\\infty$"],
     "jawaban": "B",
     "pembahasan": "Substitusi langsung $x = 1$ menghasilkan bentuk $\\frac{0}{0}$. Kita dapat menggunakan perkalian konjugat atau aturan L'Hopital. Dengan perkalian konjugat: $\\lim_{x \\to 1} \\frac{\\sqrt{x} - 1}{x - 1} \\times \\frac{\\sqrt{x} + 1}{\\sqrt{x} + 1} = \\lim_{x \\to 1} \\frac{x - 1}{(x - 1)(\\sqrt{x} + 1)}$. Batalkan $(x-1)$: $\\lim_{x \\to 1} \\frac{1}{\\sqrt{x} + 1}$. Substitusikan $x = 1$: $\\frac{1}{\\sqrt{1} + 1} = \\frac{1}{1 + 1} = \\frac{1}{2}$."
   },
   {
-    "id": 70,
+    "id": 10,
     "pertanyaan": "Jika $f(x) = \\cos(3x - \\pi/6)$, maka $f'(\\pi/6)$ adalah...",
     "pilihan": ["-3", "-$\\frac{3}{2}$", "0", "$\\frac{3}{2}$", "3"],
     "jawaban": "A",
     "pembahasan": "Turunan dari $\\cos(ax+b)$ adalah $-a\\sin(ax+b)$. Jadi, $f'(x) = -3\\sin(3x - \\pi/6)$. Substitusikan $x = \\pi/6$: $f'(\\pi/6) = -3\\sin(3(\\pi/6) - \\pi/6) = -3\\sin(\\pi/2 - \\pi/6) = -3\\sin(3\\pi/6 - \\pi/6) = -3\\sin(2\\pi/6) = -3\\sin(\\pi/3)$. Kita tahu $\\sin(\\pi/3) = \\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}$. Jadi, $f'(\\pi/6) = -3(\\frac{\\sqrt{3}}{2}) = -\\frac{3\\sqrt{3}}{2}$. (Catatan: Jawaban yang sesuai tidak ada di pilihan, ada kemungkinan terjadi kesalahan dalam soal atau pilihan jawaban yang diberikan. Jika jawabannya -3, maka $\\sin(3x - \\pi/6)$ harus 1. Ini berarti $3x - \\pi/6 = \\pi/2 + 2k\\pi$. Jika $x=\\pi/6$, $3(\\pi/6)-\\pi/6 = \\pi/2 - \\pi/6 = \\pi/3$. $\\sin(\\pi/3) = \\frac{\\sqrt{3}}{2}$). Mari kita cek ulang jika ada kesalahan dalam soal atau pilihan jawaban. Jika yang dimaksud adalah $\\sin(3x)$ maka $f'(x)=-3\\sin(3x)$ dan $f'(\\pi/6) = -3\\sin(\\pi/2) = -3(1) = -3$. Ini cocok dengan pilihan A, jadi kemungkinan ada typo di soal."
   },
   {
-    "id": 71,
+    "id": 11,
     "pertanyaan": "Jumlah deret tak hingga $8 + 4 + 2 + 1 + \\dots$ adalah...",
     "pilihan": ["12", "14", "16", "18", "20"],
     "jawaban": "C",
     "pembahasan": "Ini adalah deret geometri tak hingga dengan suku pertama $a = 8$. Rasio $r = \\frac{4}{8} = \\frac{1}{2}$. Rumus jumlah deret geometri tak hingga adalah $S_\\infty = \\frac{a}{1 - r}$. $S_\\infty = \\frac{8}{1 - \\frac{1}{2}} = \\frac{8}{\\frac{1}{2}} = 8 \\times 2 = 16$."
   },
   {
-    "id": 72,
+    "id": 12,
     "pertanyaan": "Median dari data: 15, 12, 18, 10, 20, 13, 16 adalah...",
     "pilihan": ["13", "14", "15", "16", "17"],
     "jawaban": "C",
     "pembahasan": "Urutkan data dari yang terkecil hingga terbesar: 10, 12, 13, 15, 16, 18, 20. Jumlah data ($n$) adalah 7 (ganjil). Median adalah nilai tengah, yaitu nilai pada posisi $\\frac{n+1}{2}$. Posisi median adalah $\\frac{7+1}{2} = 4$. Nilai pada posisi ke-4 adalah 15. Jadi, mediannya adalah 15."
   },
   {
-    "id": 73,
+    "id": 13,
     "pertanyaan": "Jika $f(x) = \\frac{2x - 1}{x + 3}$, maka $f^{-1}(x)$ adalah...",
     "pilihan": ["$\\frac{3x + 1}{2 - x}$", "$\\frac{3x - 1}{2 - x}$", "$\\frac{x + 3}{2x - 1}$", "$\\frac{-3x - 1}{x - 2}$", "$\\frac{3x - 1}{x - 2}$"],
     "jawaban": "A",
     "pembahasan": "Misalkan $y = \\frac{2x - 1}{x + 3}$. Kita ingin menyatakan $x$ dalam bentuk $y$. Kalikan kedua sisi dengan $(x+3)$: $y(x + 3) = 2x - 1 \\implies yx + 3y = 2x - 1$. Kumpulkan suku-suku $x$ di satu sisi dan suku-suku lain di sisi lain: $yx - 2x = -1 - 3y$. Faktorkan $x$: $x(y - 2) = -1 - 3y$. Maka $x = \\frac{-1 - 3y}{y - 2} = \\frac{-(1 + 3y)}{-(2 - y)} = \\frac{1 + 3y}{2 - y}$. Jadi, $f^{-1}(x) = \\frac{1 + 3x}{2 - x}$ atau $\\frac{3x+1}{2-x}$."
   },
   {
-    "id": 74,
+    "id": 14,
     "pertanyaan": "Sebuah kubus memiliki volume 216 cm$^3$. Panjang rusuk kubus tersebut adalah...",
     "pilihan": ["4 cm", "5 cm", "6 cm", "7 cm", "8 cm"],
     "jawaban": "C",
     "pembahasan": "Rumus volume kubus adalah $V = s^3$, di mana $s$ adalah panjang rusuk. Diketahui $V = 216$ cm$^3$. $s^3 = 216 \\implies s = \\sqrt[3]{216} \\implies s = 6$ cm."
   },
   {
-    "id": 75,
+    "id": 15,
     "pertanyaan": "Persamaan kuadrat yang akar-akarnya 2 dan -3 adalah...",
     "pilihan": ["$x^2 - x - 6 = 0$", "$x^2 + x - 6 = 0$", "$x^2 - x + 6 = 0$", "$x^2 + x + 6 = 0$", "$x^2 - 5x - 6 = 0$"],
     "jawaban": "B",
     "pembahasan": "Jika akar-akarnya $x_1$ dan $x_2$, maka persamaan kuadratnya adalah $(x - x_1)(x - x_2) = 0$. Dalam hal ini, $x_1 = 2$ dan $x_2 = -3$. $(x - 2)(x - (-3)) = 0 \\implies (x - 2)(x + 3) = 0$. Kalikan suku-sukunya: $x^2 + 3x - 2x - 6 = 0 \\implies x^2 + x - 6 = 0$."
   },
   {
-    "id": 76,
+    "id": 16,
     "pertanyaan": "Dalam sistem koordinat, jarak antara titik $(1, 2)$ dan $(4, 6)$ adalah...",
     "pilihan": ["3", "4", "5", "6", "7"],
     "jawaban": "C",
     "pembahasan": "Gunakan rumus jarak antara dua titik $(x_1, y_1)$ dan $(x_2, y_2)$: $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. $d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{(3)^2 + (4)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
   },
   {
-    "id": 77,
+    "id": 17,
     "pertanyaan": "Jika $2^{3x - 1} = 16$, maka nilai $x$ adalah...",
     "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "B",
     "pembahasan": "Ubah 16 menjadi basis 2: $16 = 2^4$. Jadi, $2^{3x - 1} = 2^4$. Karena basisnya sama, maka pangkatnya harus sama: $3x - 1 = 4$. Tambahkan 1 ke kedua sisi: $3x = 5$. Bagi dengan 3: $x = \\frac{5}{3}$. (Catatan: Berdasarkan perhitungan, nilai x adalah 5/3, yang tidak ada di pilihan. Ada kemungkinan terjadi kesalahan dalam soal atau pilihan jawaban yang diberikan. Jika jawabannya 2, maka $3x-1 = 4 \\implies 3x = 5 \\implies x = 5/3$. Jika $x=2$, maka $2^{3(2)-1} = 2^{6-1} = 2^5 = 32$, bukan 16. Jadi kemungkinan besar pilihan jawabannya keliru)."
   },
-  {
-    "id": 78,
-    "pertanyaan": "Sebuah kotak berisi 10 kelereng. 3 berwarna merah dan 7 berwarna biru. Jika diambil 2 kelereng secara acak satu per satu tanpa pengembalian, peluang terambil kelereng merah pada pengambilan pertama dan kelereng biru pada pengambilan kedua adalah...",
-    "pilihan": ["$\\frac{7}{30}$", "$\\frac{21}{100}$", "$\\frac{1}{15}$", "$\\frac{7}{10}$", "$\\frac{3}{10}$"],
+   {
+    "id": 18,
+    "pertanyaan": "Hasil dari $\\frac{2^{n+2} \\cdot 6^{n-4}}{12^{n-1}}$ adalah ....",
+    "pilihan": [
+      "$\\frac{1}{27}$",
+      "$\\frac{1}{16}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{3}$"
+    ],
     "jawaban": "A",
-    "pembahasan": "Peluang terambil merah pada pengambilan pertama: $P(M1) = \\frac{3}{10}$. Setelah satu kelereng merah diambil, sisa 9 kelereng (2 merah, 7 biru). Peluang terambil biru pada pengambilan kedua (setelah merah diambil): $P(B2|M1) = \\frac{7}{9}$. Peluang kejadian ini adalah $P(M1 \\cap B2) = P(M1) \\times P(B2|M1) = \\frac{3}{10} \\times \\frac{7}{9} = \\frac{21}{90} = \\frac{7}{30}$."
+    "pembahasan": "Langkah pertama adalah mengubah semua basis menjadi faktor prima terkecil, yaitu 2 dan 3.\n\n$6 = 2 \\times 3$\n$12 = 4 \\times 3 = 2^2 \\times 3$\n\nSekarang, substitusikan ke dalam ekspresi:n\\n$\\frac{2^{n+2} \\cdot (2 \\cdot 3)^{n-4}}{(2^2 \\cdot 3)^{n-1}} = \\frac{2^{n+2} \\cdot 2^{n-4} \\cdot 3^{n-4}}{2^{2(n-1)} \\cdot 3^{n-1}} = \\frac{2^{n+2+n-4} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\n$\\frac{2^{2n-2} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\nSekarang, gunakan sifat pembagian eksponen dengan basis yang sama ($a^m/a^n = a^{m-n}$):\n\n$2^{(2n-2)-(2n-2)} \\cdot 3^{(n-4)-(n-1)} = 2^0 \\cdot 3^{n-4-n+1}\n = 1 \\cdot 3^{-3} = \\frac{1}{3^3} = \\frac{1}{27}$\n\nJadi, hasil dari ekspresi tersebut adalah $\\frac{1}{27}$"
   },
   {
-    "id": 79,
+    "id": 19,
     "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$, maka invers dari matriks $A$ ($A^{-1}$) adalah...",
     "pilihan": ["$\\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix}$", "$\\frac{1}{2}\\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix}$", "$\\frac{1}{2}\\begin{pmatrix} 2 & -1 \\\\ -4 & 3 \\end{pmatrix}$", "$\\frac{1}{10}\\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix}$", "$\\frac{1}{10}\\begin{pmatrix} 2 & -1 \\\\ -4 & 3 \\end{pmatrix}$"],
     "jawaban": "B",
     "pembahasan": "Invers matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $A^{-1} = \\frac{1}{\\det(A)}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$. Determinan dari $A = (2)(3) - (1)(4) = 6 - 4 = 2$. Maka $A^{-1} = \\frac{1}{2}\\begin{pmatrix} 3 & -1 \\\\ -4 & 2 \\end{pmatrix}$."
   },
-  {
-    "id": 80,
-    "pertanyaan": "Sebuah parabola memiliki persamaan $y = x^2 - 6x + c$. Jika titik puncaknya berada pada sumbu X, maka nilai $c$ adalah...",
-    "pilihan": ["3", "6", "9", "12", "18"],
-    "jawaban": "C",
-    "pembahasan": "Jika titik puncak parabola berada pada sumbu X, berarti diskriminan $D = b^2 - 4ac$ harus sama dengan 0. Untuk $y = x^2 - 6x + c$, kita punya $a=1, b=-6$. $D = (-6)^2 - 4(1)(c) = 36 - 4c$. Set $D = 0$: $36 - 4c = 0 \\implies 4c = 36 \\implies c = 9$."
-  }
+   {
+  "id": 20,
+  "pertanyaan": "Perhatikan gambar berikut ini.\n\nPada gambar di atas, $PQRS$ adalah suatu trapesium dan $RQ = RT$. Hitunglah nilai $x°$ dan $y°$.",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_082224_Gallery.jpg",
+  "pilihan": [
+    "$x° = 30°$ dan $y° = 10°$",
+    "$x° = 30°$ dan $y° = 20°$",
+    "$x° = 20°$ dan $y° = 30°$",
+    "$x° = 10°$ dan $y° = 30°$",
+    "$x° = 15°$ dan $y° = 20°$"
+  ],
+  "jawaban": "A",
+"gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_082245_Gallery.jpg"
+  "pembahasan": "### Menentukan Nilai $x°$\nPada trapesium $PQRS$, diketahui $SR$ sejajar $PQ$. Jumlah sudut dalam trapesium adalah $360°$. Atau, perhatikan sudut-sudut yang bersebelahan pada sisi yang tidak sejajar, yaitu $\\angle P$ dan $\\angle S$ yang berjumlah 180°.\\n$2x° + 4x° = 180°$\\n$6x° = 180°$\\n$x° = 30°$\n\n### Menentukan Nilai $y°$\nPerhatikan $\\triangle QRT$. Diketahui $RQ=RT$, yang berarti $\\triangle QRT$ adalah segitiga sama kaki. Sudut-sudut di alasnya, yaitu $\\angle RQT$ dan $\\angle RTQ$, sama besar. Dari gambar, $\\angle RTQ = 85°$. Maka $\\angle RQT = 85°$.\nJumlah ketiga sudut dalam segitiga adalah $180°$. \n$\\angle QRT + \\angle RQT + \\angle RTQ = 180°$\n$y° + 85° + 85° = 180°$\\n$y° + 170° = 180°$\n$y° = 10°$\n\nJadi, nilai $x°$ dan $y°$ berturut-turut adalah $30°$ dan $10°$."
+}
 ]
