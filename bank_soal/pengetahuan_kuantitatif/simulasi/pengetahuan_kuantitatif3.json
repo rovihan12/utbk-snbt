@@ -134,9 +134,16 @@
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah dadu dilempar sekali. Peluang muncul mata dadu prima adalah...",
-    "pilihan": ["$\\frac{1}{6}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{2}{3}$", "$\\frac{5}{6}$"],
-    "jawaban": "C",
-    "pembahasan": "Ruang sampel pelemparan dadu adalah $\\{1, 2, 3, 4, 5, 6\\}$. Angka prima pada dadu adalah $\\{2, 3, 5\\}$. Ada 3 angka prima. Jumlah total kemungkinan adalah 6. Peluang muncul mata dadu prima = $\\frac{\\text{Jumlah mata dadu prima}}{\\text{Jumlah total mata dadu}} = \\frac{3}{6} = \\frac{1}{2}$."
+    "pertanyaan": "Perhatikan gambar berikut ini.\n\nSegitiga ABC dan segitiga MLK sebangun. Luas segitiga MLK adalah ... satuan luas.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098083-removebg-preview.png",
+    "pilihan": [
+      "12",
+      "14,4",
+      "16,5",
+      "20",
+      "22,5"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Untuk menemukan luas segitiga MLK, kita bisa menggunakan perbandingan luas dari dua segitiga yang sebangun. Perbandingan luas dari dua bangun yang sebangun adalah kuadrat dari perbandingan panjang sisi-sisi yang bersesuaian.\n\n### Langkah 1: Menghitung Luas Segitiga ABC\nBerdasarkan gambar, alas $\\triangle$ABC adalah panjang AB dan tingginya adalah panjang BC. Kita hitung panjang alas dan tinggi dari koordinatnya:\n\n* Panjang alas AB = $8 - 0 = 8$ satuan.\n* Panjang tinggi BC = $10 - 0 = 10$ satuan.\n\n$Luas\\_\\triangle ABC = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 8 \\times 10 = 40$ satuan luas.\n\n### Langkah 2: Menentukan Rasio Sisi yang Bersesuaian\nSisi-sisi yang bersesuaian dari $\\triangle$ABC dan $\\triangle$MLK adalah AB dan ML, serta BC dan LK. Berdasarkan gambar, sisi ML berada pada sumbu-y, sehingga panjangnya dapat dihitung dari koordinat y-nya:\n\n* Panjang ML = $3 - (-3) = 6$ satuan.\n* Panjang BC = $10$ satuan.\n\nPerbandingan sisi yang bersesuaian adalah $\\frac{ML}{BC} = \\frac{6}{10} = \\frac{3}{5}$.\n\n### Langkah 3: Menghitung Luas Segitiga MLK\nDengan menggunakan perbandingan luas, kita dapatkan:\n\n$\\frac{\\text{Luas } \\triangle MLK}{\\text{Luas } \\triangle ABC} = \\left(\\frac{ML}{BC}\\right)^2$\n\n$\\frac{\\text{Luas } \\triangle MLK}{40} = \\left(\\frac{6}{10}\\right)^2 = \\left(\\frac{3}{5}\\right)^2 = \\frac{9}{25}$\n\n$Luas\\_\\triangle MLK = 40 \\times \\frac{9}{25} = \\frac{360}{25} = 14,4$ satuan luas.\n\nOleh karena itu, luas segitiga MLK adalah **14,4** satuan luas."
   }
 ]
