@@ -240,43 +240,25 @@
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Sederhanakan bentuk $\\frac{a^{-2} b^3 c^4}{a^3 b^{-1} c^2}$",
-    "pilihan": [
-      "$\\frac{b^4 c^2}{a^5}$",
-      "$\\frac{a^5}{b^4 c^2}$",
-      "$\\frac{b^2 c^2}{a^5}$",
-      "$\\frac{a^5 c^2}{b^4}$",
-      "$\\frac{1}{a^5 b^4 c^2}$"
-    ],
-    "jawaban": "$\\frac{b^4 c^2}{a^5}$",
-    "pembahasan": "Gunakan sifat pangkat: $\\frac{a^m}{a^n} = a^{m-n}$ dan $a^{-n} = \\frac{1}{a^n}$.\n$\\frac{a^{-2} b^3 c^4}{a^3 b^{-1} c^2} = a^{-2-3} b^{3-(-1)} c^{4-2} = a^{-5} b^4 c^2 = \\frac{b^4 c^2}{a^5}$."
+    "pertanyaan": "Nilai dari $\\sqrt{12+\\sqrt{12+\\sqrt{12+\\sqrt{12+...}}}}$ adalah...",
+    "pilihan": ["1","2","3","4","5"],
+    "jawaban": "4",
+    "pembahasan": "Misalkan $x=\\sqrt{12+\\sqrt{12+\\cdots}}$. Karena bentuknya berulang, $x=\\sqrt{12+x}$. Kuadratkan: $x^2=12+x \\Rightarrow x^2-x-12=0 \\Rightarrow (x-4)(x+3)=0$. Pilih yang positif: $x=4$."
   },
   {
     "id": 19,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $\\log_2 3 = a$, maka nilai dari $\\log_2 12$ adalah...",
-    "pilihan": [
-      "a+2",
-      "2a+1",
-      "a+3",
-      "2a-1",
-      "a-2"
-    ],
-    "jawaban": "a+2",
-    "pembahasan": "Gunakan sifat logaritma $\\log_b(xy) = \\log_b x + \\log_b y$.\n$\\log_2 12 = \\log_2 (4 \\times 3) = \\log_2 4 + \\log_2 3$. Karena $\\log_2 4 = 2$ dan $\\log_2 3 = a$, maka $\\log_2 12 = 2+a$."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt[3]{64\\sqrt[3]{64\\sqrt[3]{64\\sqrt[3]{...}}}}$ adalah...",
+    "pilihan": ["3","4","6","8","9"],
+    "jawaban": "8",
+    "pembahasan": "Misalkan $x=\\sqrt[3]{64\\,x}$. Maka $x^3=64x \\Rightarrow x(x^2-64)=0$. Karena nilai positif dan tidak nol, $x=8$."
   },
   {
     "id": 20,
-    "kategori": "Mudah",
-    "pertanyaan": "Bentuk sederhana dari $\\sqrt{75} - \\sqrt{48} + \\sqrt{12}$ adalah...",
-    "pilihan": [
-      "$3\\sqrt{3}$",
-      "$2\\sqrt{3}$",
-      "$\\sqrt{3}$",
-      "$4\\sqrt{3}$",
-      "$5\\sqrt{3}$"
-    ],
-    "jawaban": "$3\\sqrt{3}$",
-    "pembahasan": "Sederhanakan setiap bentuk akar:\n$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$\n$\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$\n$\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$\nJumlahkan dan kurangkan:\n$5\\sqrt{3} - 4\\sqrt{3} + 2\\sqrt{3} = (5-4+2)\\sqrt{3} = 3\\sqrt{3}$."
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui persamaan $\\frac{(1-\\sqrt{2})(1+\\sqrt{2})}{2-\\sqrt{12}} = a+b\\sqrt{3}$. Nilai dari $a-b$ adalah...",
+    "pilihan": ["0","\\frac{3}{4}","\\frac{5}{4}","\\frac{6}{8}","\\frac{7}{8}"],
+    "jawaban": "0",
+    "pembahasan": "Pembilang: $(1-\\sqrt{2})(1+\\sqrt{2})=1-2=-1$. Penyebut: $2-\\sqrt{12}=2-2\\sqrt{3}$. Rasionalkan: $\\frac{-1}{2-2\\sqrt{3}}\\cdot\\frac{2+2\\sqrt{3}}{2+2\\sqrt{3}}=\\frac{1+\\sqrt{3}}{4}=\\frac{1}{4}+\\frac{1}{4}\\sqrt{3}$. Jadi $a=\\frac{1}{4}$, $b=\\frac{1}{4}$, sehingga $a-b=0$."
   }
 ]
