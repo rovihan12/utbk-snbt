@@ -2,7 +2,7 @@
   {
     "id": 161,
     "pertanyaan": "Gambar diatas untuk soal 1 dan 2.\n\nDiketahui koordinat\nP(1, -3), Q(7, 6), T(1, -1), R(5, -1) dan U(1, 3). Luas $\\Delta UTR$ adalah ... satuan luas.",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098181-removebg-preview.png",
+"gambar":"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098181-removebg-preview.png"
     "pilihan": [
       "8",
       "10",
@@ -29,8 +29,7 @@
   },
   {
     "id": 163,
-    "pertanyaan": "Jika segitiga PQR dan segitiga STU sebangun. Jika (a,b) merupakan koordinat U, nilai a + b adalah ....",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_113029_Drive.jpg",
+    "pertanyaan": "Jika segitiga PQR dan segitiga STU sebangun. Jika (a,b) merupakan koordinat U, nilai a + b adalah ....", "gambar":"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_113029_Drive.jpg"
     "pilihan": [
       "2",
       "3",
@@ -44,13 +43,13 @@
   {
     "id": 164,
     "pertanyaan": "Kerucut dengan tinggi 15 terletak di dalam balok. Alas kerucut sebidang dengan alas balok dan menyinggung keempat sisinya. Alas balok berbentuk persegi dengan sisi 20. Volume bagian balok di luar kerucut 7 kali volume kerucut. Luas permukaan balok adalah ....",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_112255_Drive.jpg",
+"gambar":"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_112255_Drive.jpg"
     "pilihan": [
-      "800 + (800/3)\\pi",
-      "800 + 400\\pi",
-      "800 + 800\\pi",
-      "800 + 1200\\pi",
-      "800 + 2400\\pi"
+      "800 + (800/3)π",
+      "800 + 400π",
+      "800 + 800π",
+      "800 + 1200π",
+      "800 + 2400π"
     ],
     "jawaban": "C",
     "pembahasan": "Diketahui:\nSisi alas balok (s) = 20\nTinggi kerucut ($t_k$) = 15\nKarena alas kerucut menyinggung alas balok, maka diameter alas kerucut (d) sama dengan sisi alas balok. d = 20. Sehingga jari-jari alas kerucut ($r_k$) = $\\frac{20}{2} = 10$.\nVolume balok di luar kerucut = 7 kali volume kerucut.\n$V_{balok} - V_{kerucut} = 7V_{kerucut}$\n$V_{balok} = 8V_{kerucut}$\n\nHitung volume kerucut ($V_k$):\n$V_k = \\frac{1}{3} \\pi r_k^2 t_k = \\frac{1}{3} \\pi (10)^2 (15) = \\frac{1}{3} \\pi (100) (15) = 500\\pi$\n\nHitung volume balok ($V_b$):\n$V_b = 8V_k = 8(500\\pi) = 4000\\pi$\n\nHitung tinggi balok ($t_b$):\n$V_b = s \\times s \\times t_b = 20 \\times 20 \\times t_b = 400 t_b$\n$400 t_b = 4000\\pi$\n$t_b = \\frac{4000\\pi}{400} = 10\\pi$\n\nHitung luas permukaan balok ($L_b$):\n$L_b = 2 (p\\cdot l + p\\cdot t + l\\cdot t) = 2 (20 \\times 20 + 20 \\times 10\\pi + 20 \\times 10\\pi)$\n$L_b = 2 (400 + 200\\pi + 200\\pi) = 2 (400 + 400\\pi) = 800 + 800\\pi$"
@@ -68,6 +67,6 @@
     ],
     "jawaban": "B",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_150434_YouTube.jpg",
-    "pembahasan": "Untuk menemukan luas daerah yang diarsir, kita perlu menghitung luas seperempat lingkaran besar, lalu menguranginya dengan luas dua setengah lingkaran putih di dalamnya.\n\n### Luas Seperempat Lingkaran Besar ($A_q$)\nJari-jari lingkaran besar adalah 6 m.\n$A_q = \\frac{1}{4} \\pi (6)^2 = \\frac{1}{4} \\pi (36) = 9\\pi$ $m^2$\n\n---\n\n### Luas Setengah Lingkaran Bawah ($A_1$)\nSetengah lingkaran ini memiliki diameter 6 m, sehingga jari-jarinya adalah 3 m.\n$A_1 = \\frac{1}{2} \\pi (3)^2 = \\frac{1}{2} \\pi (9) = 4.5\\pi$ $m^2$\n\n---\n\n### Luas Setengah Lingkaran Kiri ($A_2$)\nUntuk menemukan jari-jari ($r$), kita gunakan teorema Pythagoras. Sisi tegak segitiga adalah (6-r) dan 3, sedangkan sisi miringnya adalah (3+r).\n$(6-r)^2 + 3^2 = (3+r)^2$\n$36 - 12r + r^2 + 9 = 9 + 6r + r^2$\n$45 - 12r = 9 + 6r$\n$36 = 18r$\n$r = \\frac{36}{18} = 2$ m.\nDengan jari-jari 2 m, luasnya adalah:\n$A_2 = \\frac{1}{2} \\pi (2)^2 = \\frac{1}{2} \\pi (4) = 2\\pi$ $m^2$\n\n---\n\n### Luas Daerah yang Diarsir ($A_{arsir}$)\n$A_{arsir} = A_q - A_1 - A_2$\n$A_{arsir} = 9\\pi - 4.5\\pi - 2\\pi$\n$A_{arsir} = 2.5\\pi$ $m^2$\n\nJadi, luas daerah yang diarsir adalah $2.5\\pi$ $m^2$."
+    "pembahasan": "Untuk menemukan luas daerah yang diarsir, kita perlu menghitung luas seperempat lingkaran besar, lalu menguranginya dengan luas dua setengah lingkaran putih di dalamnya.\n\n1. **Luas Seperempat Lingkaran Besar ($A_q$)**\nJari-jari lingkaran besar adalah 6 m.\n$A_q = \\frac{1}{4} \\pi (6)^2 = \\frac{1}{4} \\pi (36) = 9\\pi$ $m^2$\n\n2. **Luas Setengah Lingkaran Bawah ($A_1$)**\nSetengah lingkaran ini memiliki diameter 6 m, sehingga jari-jarinya adalah 3 m.\n$A_1 = \\frac{1}{2} \\pi (3)^2 = \\frac{1}{2} \\pi (9) = 4.5\\pi$ $m^2$\n\n3. **Luas Setengah Lingkaran Kiri ($A_2$)**\nDengan menggunakan teorema Pythagoras, kita dapat menemukan jari-jari ($r$) dari setengah lingkaran ini. Sisi tegak segitiga adalah (6-r) dan 3, sedangkan sisi miringnya adalah (3+r).\n$(6-r)^2 + 3^2 = (3+r)^2$\n$36 - 12r + r^2 + 9 = 9 + 6r + r^2$\n$45 - 12r = 9 + 6r$\n$36 = 18r$\n$r = \\frac{36}{18} = 2$ m.\nDengan jari-jari 2 m, luasnya adalah:\n$A_2 = \\frac{1}{2} \\pi (2)^2 = \\frac{1}{2} \\pi (4) = 2\\pi$ $m^2$\n\n4. **Luas Daerah yang Diarsir ($A_{arsir}$)**\n$A_{arsir} = A_q - A_1 - A_2$\n$A_{arsir} = 9\\pi - 4.5\\pi - 2\\pi$\n$A_{arsir} = 2.5\\pi$ $m^2$\n\nJadi, luas daerah yang diarsir adalah $2.5\\pi$ $m^2$."
   }
 ]
