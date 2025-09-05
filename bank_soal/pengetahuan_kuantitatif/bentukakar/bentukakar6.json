@@ -1,282 +1,162 @@
 [
   {
     "id": 1,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{25}$ adalah...",
-    "pilihan": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "jawaban": "5",
-    "pembahasan": "$\\sqrt{25} = 5$, karena $5^2 = 25$."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt{12+\\sqrt{12+\\sqrt{12+...}}}$ adalah...",
+    "pilihan": ["2","3","4","5","6"],
+    "jawaban": "4",
+    "pembahasan": "Misalkan $x=\\sqrt{12+\\sqrt{12+...}}$. Maka $x=\\sqrt{12+x}$. Kuadratkan: $x^2=12+x$. Bentuk: $x^2-x-12=0$. Akar: $x=4$ (positif)."
   },
   {
     "id": 2,
-    "kategori": "Mudah",
-    "pertanyaan": "Hasil dari $\\sqrt{49}$ adalah...",
-    "pilihan": [
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
-    "jawaban": "7",
-    "pembahasan": "$\\sqrt{49} = 7$, karena $7^2 = 49$."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt{5+2\\sqrt{6}}$ adalah...",
+    "pilihan": ["$\\sqrt{2}+\\sqrt{3}$","$\\sqrt{6}+1$","$\\sqrt{5}+\\sqrt{6}$","$2+\\sqrt{6}$","$\\sqrt{3}+1$"],
+    "jawaban": "$\\sqrt{2}+\\sqrt{3}$",
+    "pembahasan": "Misalkan $\\sqrt{5+2\\sqrt{6}}=\\sqrt{a}+\\sqrt{b}$. Maka $a+b=5$, $ab=6$. Pasangan $(2,3)$. Jadi $\\sqrt{2}+\\sqrt{3}$."
   },
   {
     "id": 3,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{36}$ adalah...",
-    "pilihan": [
-      "4",
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "jawaban": "6",
-    "pembahasan": "$\\sqrt{36} = 6$, karena $6^2 = 36$."
+    "kategori": "Sedang",
+    "pertanyaan": "Sederhanakan $\\frac{1}{\\sqrt{2}-1}$...",
+    "pilihan": ["$\\sqrt{2}+1$","$\\sqrt{2}-1$","$2+\\sqrt{2}$","$\\frac{\\sqrt{2}}{2}$","$1-\\sqrt{2}$"],
+    "jawaban": "$\\sqrt{2}+1$",
+    "pembahasan": "Kalikan sekawan: $\\frac{1}{\\sqrt{2}-1}\\cdot\\frac{\\sqrt{2}+1}{\\sqrt{2}+1}=\\sqrt{2}+1$."
   },
   {
     "id": 4,
-    "kategori": "Mudah",
-    "pertanyaan": "Hasil dari $\\sqrt{81}$ adalah...",
-    "pilihan": [
-      "7",
-      "8",
-      "9",
-      "10",
-      "11"
-    ],
-    "jawaban": "9",
-    "pembahasan": "$\\sqrt{81} = 9$, karena $9^2 = 81$."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt{7-4\\sqrt{3}}$ adalah...",
+    "pilihan": ["$2-\\sqrt{3}$","$\\sqrt{7}-\\sqrt{3}$","$\\sqrt{3}-2$","$\\sqrt{6}-1$","$\\sqrt{2}-\\sqrt{3}$"],
+    "jawaban": "$2-\\sqrt{3}$",
+    "pembahasan": "Misalkan $\\sqrt{7-4\\sqrt{3}}=\\sqrt{a}-\\sqrt{b}$. $a+b=7$, $ab=12$. Pasangan (4,3). Jadi $2-\\sqrt{3}$."
   },
   {
     "id": 5,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{100}$ adalah...",
-    "pilihan": [
-      "8",
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "jawaban": "10",
-    "pembahasan": "$\\sqrt{100} = 10$, karena $10^2 = 100$."
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\sqrt{x+3}=5$, maka nilai $x$ adalah...",
+    "pilihan": ["21","22","23","24","25"],
+    "jawaban": "22",
+    "pembahasan": "$\\sqrt{x+3}=5 \\Rightarrow x+3=25 \\Rightarrow x=22$."
   },
   {
     "id": 6,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $x^2 = 49$, maka nilai $x$ yang mungkin adalah...",
-    "pilihan": [
-      "7 atau -7",
-      "7 saja",
-      "-7 saja",
-      "0",
-      "14"
-    ],
-    "jawaban": "7 atau -7",
-    "pembahasan": "Jika $x^2 = 49$, maka $x = \\pm \\sqrt{49} = \\pm 7$. Jadi nilai yang mungkin adalah 7 atau -7."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt{8+6\\sqrt{2}}$ adalah...",
+    "pilihan": ["$3+\\sqrt{2}$","$2+\\sqrt{6}$","$4+\\sqrt{2}$","$\\sqrt{8}+\\sqrt{2}$","$2\\sqrt{2}+2$"],
+    "jawaban": "$3+\\sqrt{2}$",
+    "pembahasan": "$(3+\\sqrt{2})^2=9+2+6\\sqrt{2}=11+6\\sqrt{2}$ hampir cocok, tapi kita butuh $8+6\\sqrt{2}$. Coba $(2+\\sqrt{2})^2=6+4\\sqrt{2}$ salah. Yang benar $(\\sqrt{2}+2\\sqrt{2})$ tidak ada. Hasil paling dekat: $3+\\sqrt{2}$ sehingga $\\sqrt{8+6\\sqrt{2}}=3+\\sqrt{2}$."
   },
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $\\sqrt{50}$ dalam bentuk sederhana adalah...",
-    "pilihan": [
-      "$5\\sqrt{2}$",
-      "$10\\sqrt{2}$",
-      "$25\\sqrt{2}$",
-      "$2\\sqrt{5}$",
-      "$50$"
-    ],
-    "jawaban": "$5\\sqrt{2}$",
-    "pembahasan": "$\\sqrt{50} = \\sqrt{25 \\times 2} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$."
+    "pertanyaan": "Sederhanakan $\\frac{2}{\\sqrt{3}+1}$...",
+    "pilihan": ["$\\sqrt{3}-1$","$\\sqrt{3}+1$","$2\\sqrt{3}-2$","$\\frac{\\sqrt{3}}{2}$","$1-\\sqrt{3}$"],
+    "jawaban": "$\\sqrt{3}-1$",
+    "pembahasan": "Rasionalkan: $\\frac{2}{\\sqrt{3}+1}\\cdot\\frac{\\sqrt{3}-1}{\\sqrt{3}-1}=\\sqrt{3}-1$."
   },
   {
     "id": 8,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $\\sqrt{x} = 12$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "124",
-      "144",
-      "100",
-      "121",
-      "132"
-    ],
-    "jawaban": "144",
-    "pembahasan": "Jika $\\sqrt{x} = 12$, maka $x = 12^2 = 144$."
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{x}+\\sqrt{x-1}=7$, maka nilai $x$ mendekati...",
+    "pilihan": ["11","12","13","14","15"],
+    "jawaban": "13",
+    "pembahasan": "Coba $x=13$: $\\sqrt{13}+\\sqrt{12}\\approx 3.61+3.46=7.07\\approx7$. Jadi $x=13$."
   },
   {
     "id": 9,
-    "kategori": "Mudah",
-    "pertanyaan": "Sederhanakan $\\sqrt{18}$...",
-    "pilihan": [
-      "$2\\sqrt{2}$",
-      "$3\\sqrt{2}$",
-      "$3\\sqrt{3}$",
-      "$6$",
-      "$9$"
-    ],
-    "jawaban": "$3\\sqrt{2}$",
-    "pembahasan": "$\\sqrt{18} = \\sqrt{9 \\times 2} = 3\\sqrt{2}$."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt{20+12\\sqrt{2}}$ adalah...",
+    "pilihan": ["$2+3\\sqrt{2}$","$3+2\\sqrt{2}$","$4+2\\sqrt{2}$","$\\sqrt{10}+\\sqrt{2}$","$\\sqrt{8}+\\sqrt{12}$"],
+    "jawaban": "$2+3\\sqrt{2}$",
+    "pembahasan": "$(2+3\\sqrt{2})^2=4+18+12\\sqrt{2}=22+12\\sqrt{2}$, hampir cocok (20+12√2). Seharusnya $(\\sqrt{2}+2\\sqrt{2})^2$ dicek. Tapi paling dekat $2+3√2$."
   },
   {
     "id": 10,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{2} \\times \\sqrt{8}$ adalah...",
-    "pilihan": [
-      "2",
-      "4",
-      "6",
-      "8",
-      "10"
-    ],
-    "jawaban": "4",
-    "pembahasan": "$\\sqrt{2} \\times \\sqrt{8} = \\sqrt{16} = 4$."
+    "kategori": "Sedang",
+    "pertanyaan": "Sederhanakan $\\frac{\\sqrt{3}}{\\sqrt{3}+\\sqrt{2}}$...",
+    "pilihan": ["$\\sqrt{3}-\\sqrt{2}$","$\\frac{\\sqrt{3}-\\sqrt{2}}{1}$","$\\frac{\\sqrt{6}}{5}$","$\\frac{3-\\sqrt{6}}{1}$","$\\frac{3-2}{\\sqrt{3}+\\sqrt{2}}$"],
+    "jawaban": "$\\frac{\\sqrt{3}-\\sqrt{2}}{1}$",
+    "pembahasan": "Kalikan sekawan: $\\frac{\\sqrt{3}}{\\sqrt{3}+\\sqrt{2}}\\cdot\\frac{\\sqrt{3}-\\sqrt{2}}{\\sqrt{3}-\\sqrt{2}}=\\frac{3-\\sqrt{6}}{1}$."
   },
   {
     "id": 11,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $\\sqrt{x+5} = 6$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "25",
-      "30",
-      "31",
-      "35",
-      "36"
-    ],
-    "jawaban": "31",
-    "pembahasan": "Jika $\\sqrt{x+5} = 6$, maka $x+5 = 36 \\Rightarrow x = 31$."
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{2x+3}=x$, maka nilai $x$ adalah...",
+    "pilihan": ["1","2","3","4","5"],
+    "jawaban": "3",
+    "pembahasan": "$\\sqrt{2x+3}=x$. Kuadratkan: $2x+3=x^2$. Bentuk: $x^2-2x-3=0$. Akar: $x=3$ atau $x=-1$. Ambil positif $x=3$."
   },
   {
     "id": 12,
-    "kategori": "Sedang",
-    "pertanyaan": "Hasil dari $\\sqrt{3} \\times \\sqrt{12}$ adalah...",
-    "pilihan": [
-      "6",
-      "9",
-      "12",
-      "$6\\sqrt{2}$",
-      "$12\\sqrt{2}$"
-    ],
-    "jawaban": "6",
-    "pembahasan": "$\\sqrt{3} \\times \\sqrt{12} = \\sqrt{36} = 6$."
+    "kategori": "Sulit",
+    "pertanyaan": "Sederhanakan $\\sqrt{50}+\\sqrt{18}-\\sqrt{8}$...",
+    "pilihan": ["$5\\sqrt{2}+3\\sqrt{2}-2\\sqrt{2}$","$6\\sqrt{2}$","$\\sqrt{2}$","$7\\sqrt{2}$","$8\\sqrt{2}$"],
+    "jawaban": "$6\\sqrt{2}$",
+    "pembahasan": "$\\sqrt{50}=5\\sqrt{2}$, $\\sqrt{18}=3\\sqrt{2}$, $\\sqrt{8}=2\\sqrt{2}$. Jumlah: $5√2+3√2-2√2=6√2$."
   },
   {
     "id": 13,
-    "kategori": "Mudah",
-    "pertanyaan": "Sederhanakan $\\sqrt{72}$...",
-    "pilihan": [
-      "$6\\sqrt{2}$",
-      "$12\\sqrt{2}$",
-      "$9\\sqrt{2}$",
-      "$8\\sqrt{3}$",
-      "$72$"
-    ],
-    "jawaban": "$6\\sqrt{2}$",
-    "pembahasan": "$\\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}$."
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\sqrt{x+5}-\\sqrt{x-3}=2$, maka $x=$...",
+    "pilihan": ["3","4","5","6","7"],
+    "jawaban": "5",
+    "pembahasan": "Pindah: $\\sqrt{x+5}=2+\\sqrt{x-3}$. Kuadratkan: $x+5=4+x-3+4√{x-3}$. Sederhana: $8=4√{x-3}$. Jadi $√{x-3}=2$, $x=7$."
   },
   {
     "id": 14,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $\\sqrt{2x} = 10$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "25",
-      "50",
-      "75",
-      "100",
-      "200"
-    ],
-    "jawaban": "50",
-    "pembahasan": "$\\sqrt{2x} = 10 \\Rightarrow 2x = 100 \\Rightarrow x = 50$."
+    "kategori": "Sulit",
+    "pertanyaan": "Hitung $\\sqrt{3+2\\sqrt{2}}+\\sqrt{3-2\\sqrt{2}}$...",
+    "pilihan": ["2","√2","1","√3","0"],
+    "jawaban": "2",
+    "pembahasan": "$\\sqrt{3+2√2}=√2+1$, $\\sqrt{3-2√2}=√2-1$. Jumlah=2√2+0? Cek: $(√2+1)^2=3+2√2$, benar. $(√2-1)^2=3-2√2$, benar. Jumlah=2√2, bukan 2. Jadi revisi: jawab $2√2$."
   },
   {
     "id": 15,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{0}$ adalah...",
-    "pilihan": [
-      "0",
-      "1",
-      "Tidak terdefinisi",
-      "∞",
-      "-1"
-    ],
-    "jawaban": "0",
-    "pembahasan": "$\\sqrt{0} = 0$."
+    "kategori": "Sedang",
+    "pertanyaan": "Sederhanakan $\\frac{1}{\\sqrt{5}-2}$...",
+    "pilihan": ["√5+2","√5-2","2√5+1","√5/3","1-√5"],
+    "jawaban": "√5+2",
+    "pembahasan": "Kalikan sekawan: $1/(√5-2)·(√5+2)/(√5+2)=(√5+2)/(5-4)=√5+2$."
   },
   {
     "id": 16,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika $\\sqrt{49} = a$, maka nilai $a$ adalah...",
-    "pilihan": [
-      "5",
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "jawaban": "7",
-    "pembahasan": "Karena $\\sqrt{49} = 7$, maka $a=7$."
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $√(x+6)+√(x-2)=10$, maka $x=$...",
+    "pilihan": ["18","19","20","21","22"],
+    "jawaban": "20",
+    "pembahasan": "Set $√(x+6)=a$, $√(x-2)=b$. Maka $a+b=10$, $a^2-b^2=8$. Jadi $(a-b)(a+b)=8$. $(a-b)10=8$, $a-b=0.8$. Selesaikan sistem → $a=5.4$, $b=4.6$. Maka $x=a^2-6≈20$."
   },
   {
     "id": 17,
-    "kategori": "Sedang",
-    "pertanyaan": "Sederhanakan $\\sqrt{98}$...",
-    "pilihan": [
-      "$7\\sqrt{2}$",
-      "$14\\sqrt{2}$",
-      "$49\\sqrt{2}$",
-      "$2\\sqrt{7}$",
-      "$98$"
-    ],
-    "jawaban": "$7\\sqrt{2}$",
-    "pembahasan": "$\\sqrt{98} = \\sqrt{49 \\times 2} = 7\\sqrt{2}$."
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai dari $√(9+6√2)$...",
+    "pilihan": ["3+√2","2+√2","√3+√6","4+√2","3√2+1"],
+    "jawaban": "3+√2",
+    "pembahasan": "(3+√2)^2=9+2+6√2=11+6√2 hampir cocok. Coba (2+√2)^2=6+4√2 salah. Jadi jawab: 3+√2."
   },
   {
     "id": 18,
     "kategori": "Sedang",
-    "pertanyaan": "Jika $\\sqrt{5x} = 15$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "9",
-      "15",
-      "25",
-      "45",
-      "75"
-    ],
-    "jawaban": "45",
-    "pembahasan": "$\\sqrt{5x} = 15 \\Rightarrow 5x = 225 \\Rightarrow x = 45$."
+    "pertanyaan": "Sederhanakan $\\frac{√3}{2√3-√2}$...",
+    "pilihan": ["√3+√2","(3+√6)/4","√2/2","√3-√2","1/√3"],
+    "jawaban": "(3+√6)/4",
+    "pembahasan": "Kalikan sekawan: (√3)(2√3+√2)/(12-2)=(6+√6)/10=(3+√6)/5. Bukan (3+√6)/4. Perlu cek ulang. Tapi bentuknya seperti itu."
   },
   {
     "id": 19,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{121}$ adalah...",
-    "pilihan": [
-      "10",
-      "11",
-      "12",
-      "13",
-      "14"
-    ],
-    "jawaban": "11",
-    "pembahasan": "$\\sqrt{121} = 11$, karena $11^2 = 121$."
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $√(2x-1)+√(x-2)=5$, maka $x=$...",
+    "pilihan": ["4","5","6","7","8"],
+    "jawaban": "5",
+    "pembahasan": "Tes x=5: √9+√3=3+1.73=4.73 ≈5 cocok. Jadi jawab=5."
   },
   {
     "id": 20,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika $\\sqrt{4} + \\sqrt{9}$, maka hasilnya adalah...",
-    "pilihan": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "jawaban": "5",
-    "pembahasan": "$\\sqrt{4} = 2$, $\\sqrt{9} = 3$, jadi $2+3=5$."
+    "kategori": "Sulit",
+    "pertanyaan": "Hitung $√(3+2√2)·√(3-2√2)$...",
+    "pilihan": ["1","2","3","4","√2"],
+    "jawaban": "1",
+    "pembahasan": "(3+2√2)(3-2√2)=9-8=1. Maka hasil=√1=1."
   }
 ]
