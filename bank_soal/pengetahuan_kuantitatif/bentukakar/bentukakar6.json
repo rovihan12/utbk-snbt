@@ -2,217 +2,35 @@
   {
     "id": 1,
     "kategori": "Mudah",
-    "pertanyaan": "Jika x adalah bilangan ganjil dan y adalah bilangan genap, maka pernyataan yang benar adalah...",
-    "pilihan": [
-      "x + y adalah genap",
-      "x * y adalah ganjil",
-      "x + y adalah ganjil",
-      "y - x adalah ganjil",
-      "x - y adalah genap"
-    ],
-    "jawaban": "x + y adalah ganjil",
-    "pembahasan": "Jika $x$ ganjil dan $y$ genap, maka penjumlahan ganjil + genap selalu menghasilkan bilangan ganjil. Contoh: $3 + 2 = 5$ (ganjil)."
-  },
-  {
-    "id": 2,
-    "kategori": "Mudah",
-    "pertanyaan": "Urutan pecahan dari yang terkecil hingga terbesar untuk 1/2, 0.6, 3/4 adalah...",
-    "pilihan": [
-      "1/2, 0.6, 3/4",
-      "0.6, 1/2, 3/4",
-      "3/4, 0.6, 1/2",
-      "1/2, 3/4, 0.6",
-      "0.6, 3/4, 1/2"
-    ],
-    "jawaban": "1/2, 0.6, 3/4",
-    "pembahasan": "Ubah semua ke desimal: $1/2 = 0.5$, $0.6 = 0.6$, $3/4 = 0.75$. Urutan dari yang terkecil ke terbesar: $0.5, 0.6, 0.75$, atau $1/2, 0.6, 3/4$."
-  },
-  {
-    "id": 3,
-    "kategori": "Mudah",
-    "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga asli sebuah tas adalah Rp150.000, berapa harga tas setelah diskon?",
-    "pilihan": [
-      "Rp120.000",
-      "Rp130.000",
-      "Rp140.000",
-      "Rp110.000",
-      "Rp125.000"
-    ],
-    "jawaban": "Rp120.000",
-    "pembahasan": "Diskon = $20\\% \\times 150.000 = 0.20 \\times 150.000 = 30.000$. Harga setelah diskon = $150.000 - 30.000 = 120.000$."
-  },
-  {
-    "id": 4,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika keliling persegi adalah 28 cm, maka luas persegi tersebut adalah...",
-    "pilihan": [
-      "36 cm^2",
-      "49 cm^2",
-      "64 cm^2",
-      "81 cm^2",
-      "28 cm^2"
-    ],
-    "jawaban": "49 cm^2",
-    "pembahasan": "Keliling persegi = $4 \\times sisi$. Jadi $28 = 4 \\times sisi \\Rightarrow sisi = 7$ cm. Luas persegi = $sisi^2 = 7^2 = 49$ cm²."
-  },
-  {
-    "id": 5,
-    "kategori": "Mudah",
-    "pertanyaan": "Berapakah 25% dari 200?",
-    "pilihan": [
-      "25",
-      "50",
-      "75",
-      "100",
-      "125"
-    ],
-    "jawaban": "50",
-    "pembahasan": "25% dari 200 = $\\frac{25}{100} \\times 200 = 0.25 \\times 200 = 50$."
-  },
-  {
-    "id": 6,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $x^2 - 4x + 3 = 0$, maka salah satu nilai $x$ yang mungkin adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "4",
-      "5",
-      "0"
-    ],
-    "jawaban": "1",
-    "pembahasan": "Faktorkan persamaan kuadrat: $x^2 - 4x + 3 = 0 \\Rightarrow (x-1)(x-3)=0$. Jadi $x=1$ atau $x=3$. Salah satu nilai yang mungkin adalah $1$."
-  },
-  {
-    "id": 7,
-    "kategori": "Sedang",
-    "pertanyaan": "Jumlah suku pertama dan suku kedua dari deret aritmatika adalah 10. Jika beda deret tersebut adalah 4, maka suku ketiga adalah...",
-    "pilihan": [
-      "10",
-      "11",
-      "12",
-      "14",
-      "9"
-    ],
-    "jawaban": "11",
-    "pembahasan": "Misal suku pertama = $a$ dan beda = $b$. Diketahui:\n$a + (a+b) = 10 \\Rightarrow 2a + b = 10$\nDengan $b = 4$, maka $2a + 4 = 10 \\Rightarrow 2a = 6 \\Rightarrow a = 3$\nSuku ketiga = $a + 2b = 3 + 2(4) = 11$."
-  },
-  {
-    "id": 8,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika ada 50 siswa di kelas, 30 siswa suka matematika, 25 siswa suka fisika, dan 10 siswa suka keduanya, berapa siswa yang tidak suka keduanya?",
-    "pilihan": [
-      "5",
-      "10",
-      "15",
-      "20",
-      "0"
-    ],
-    "jawaban": "5",
-    "pembahasan": "Gunakan prinsip inklusi-eksklusi:\n$\\text{Tidak suka keduanya} = 50 - (30 + 25 - 10) = 50 - 45 = 5.$"
-  },
-  {
-    "id": 9,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika kecepatan rata-rata mobil adalah 60 km/jam, berapa jarak yang ditempuh dalam 2,5 jam?",
-    "pilihan": [
-      "120 km",
-      "150 km",
-      "180 km",
-      "200 km",
-      "100 km"
-    ],
-    "jawaban": "150 km",
-    "pembahasan": "Jarak = Kecepatan × Waktu = $60 \\times 2.5 = 150$ km."
-  },
-  {
-    "id": 10,
-    "kategori": "Mudah",
-    "pertanyaan": "Sebuah keranjang berisi 12 apel, 4 di antaranya busuk. Jika diambil satu apel secara acak, berapa peluang terambil apel yang tidak busuk?",
-    "pilihan": [
-      "1/3",
-      "1/2",
-      "2/3",
-      "3/4",
-      "1/4"
-    ],
-    "jawaban": "2/3",
-    "pembahasan": "Jumlah apel tidak busuk = $12 - 4 = 8$. Peluang = $\\frac{8}{12} = \\frac{2}{3}$."
-  },
-  {
-    "id": 11,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $3x + y = 11$ dan $2x - y = 4$, maka nilai $x$ adalah...",
+    "pertanyaan": "Nilai dari $\\sqrt{25}$ adalah...",
     "pilihan": [
       "3",
       "4",
       "5",
       "6",
-      "2"
+      "7"
     ],
-    "jawaban": "3",
-    "pembahasan": "Jumlahkan kedua persamaan untuk mengeliminasi $y$:\n$(3x+y)+(2x-y)=11+4 \\Rightarrow 5x=15 \\Rightarrow x=3.$"
+    "jawaban": "5",
+    "pembahasan": "$\\sqrt{25} = 5$, karena $5^2 = 25$."
   },
   {
-    "id": 12,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $(x-2)^2 = 9$, maka nilai $x$ yang mungkin adalah...",
-    "pilihan": [
-      "5 atau -1",
-      "5 atau 1",
-      "1 atau -1",
-      "5 saja",
-      "3 atau -3"
-    ],
-    "jawaban": "5 atau -1",
-    "pembahasan": "Ambil akar kuadrat kedua sisi:\n$x-2 = \\pm 3$\nJika $x-2 = 3 \\Rightarrow x = 5$\nJika $x-2 = -3 \\Rightarrow x = -1$"
-  },
-  {
-    "id": 13,
+    "id": 2,
     "kategori": "Mudah",
-    "pertanyaan": "Sebuah barisan geometri memiliki suku pertama 2 dan rasio 3. Suku keempat dari barisan ini adalah...",
+    "pertanyaan": "Hasil dari $\\sqrt{49}$ adalah...",
     "pilihan": [
-      "18",
-      "27",
-      "54",
-      "81",
-      "6"
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
     ],
-    "jawaban": "54",
-    "pembahasan": "Rumus suku ke-n barisan geometri: $U_n = a \\cdot r^{n-1}$. Maka $U_4 = 2 \\cdot 3^{4-1} = 2 \\cdot 27 = 54$."
+    "jawaban": "7",
+    "pembahasan": "$\\sqrt{49} = 7$, karena $7^2 = 49$."
   },
   {
-    "id": 14,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $x$ adalah bilangan bulat positif dan $2x + 1 < 9$, berapa banyak nilai $x$ yang mungkin?",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "1"
-    ],
-    "jawaban": "3",
-    "pembahasan": "Selesaikan pertidaksamaan: $2x + 1 < 9 \\Rightarrow 2x < 8 \\Rightarrow x < 4$. Bilangan bulat positif yang memenuhi: $1,2,3$. Jadi ada 3 nilai."
-  },
-  {
-    "id": 15,
+    "id": 3,
     "kategori": "Mudah",
-    "pertanyaan": "Sebuah kubus memiliki volume 125 cm³. Luas permukaan kubus tersebut adalah...",
-    "pilihan": [
-      "100 cm^2",
-      "125 cm^2",
-      "150 cm^2",
-      "250 cm^2",
-      "75 cm^2"
-    ],
-    "jawaban": "150 cm^2",
-    "pembahasan": "Volume kubus = $sisi^3$. Jadi $125 = sisi^3 \\Rightarrow sisi = 5$ cm.\nLuas permukaan = $6 \\cdot sisi^2 = 6 \\cdot 25 = 150$ cm²."
-  },
-  {
-    "id": 16,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika rata-rata dari 5, 8, x, 10 adalah 7, maka nilai x adalah...",
+    "pertanyaan": "Nilai dari $\\sqrt{36}$ adalah...",
     "pilihan": [
       "4",
       "5",
@@ -220,63 +38,245 @@
       "7",
       "8"
     ],
-    "jawaban": "5",
-    "pembahasan": "Rata-rata = $(5+8+x+10)/4 = 7$. Jadi $23+x=28 \\Rightarrow x=5$."
+    "jawaban": "6",
+    "pembahasan": "$\\sqrt{36} = 6$, karena $6^2 = 36$."
+  },
+  {
+    "id": 4,
+    "kategori": "Mudah",
+    "pertanyaan": "Hasil dari $\\sqrt{81}$ adalah...",
+    "pilihan": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "jawaban": "9",
+    "pembahasan": "$\\sqrt{81} = 9$, karena $9^2 = 81$."
+  },
+  {
+    "id": 5,
+    "kategori": "Mudah",
+    "pertanyaan": "Nilai dari $\\sqrt{100}$ adalah...",
+    "pilihan": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "jawaban": "10",
+    "pembahasan": "$\\sqrt{100} = 10$, karena $10^2 = 100$."
+  },
+  {
+    "id": 6,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $x^2 = 49$, maka nilai $x$ yang mungkin adalah...",
+    "pilihan": [
+      "7 atau -7",
+      "7 saja",
+      "-7 saja",
+      "0",
+      "14"
+    ],
+    "jawaban": "7 atau -7",
+    "pembahasan": "Jika $x^2 = 49$, maka $x = \\pm \\sqrt{49} = \\pm 7$. Jadi nilai yang mungkin adalah 7 atau -7."
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai dari $\\sqrt{50}$ dalam bentuk sederhana adalah...",
+    "pilihan": [
+      "$5\\sqrt{2}$",
+      "$10\\sqrt{2}$",
+      "$25\\sqrt{2}$",
+      "$2\\sqrt{5}$",
+      "$50$"
+    ],
+    "jawaban": "$5\\sqrt{2}$",
+    "pembahasan": "$\\sqrt{50} = \\sqrt{25 \\times 2} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$."
+  },
+  {
+    "id": 8,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\sqrt{x} = 12$, maka nilai $x$ adalah...",
+    "pilihan": [
+      "124",
+      "144",
+      "100",
+      "121",
+      "132"
+    ],
+    "jawaban": "144",
+    "pembahasan": "Jika $\\sqrt{x} = 12$, maka $x = 12^2 = 144$."
+  },
+  {
+    "id": 9,
+    "kategori": "Mudah",
+    "pertanyaan": "Sederhanakan $\\sqrt{18}$...",
+    "pilihan": [
+      "$2\\sqrt{2}$",
+      "$3\\sqrt{2}$",
+      "$3\\sqrt{3}$",
+      "$6$",
+      "$9$"
+    ],
+    "jawaban": "$3\\sqrt{2}$",
+    "pembahasan": "$\\sqrt{18} = \\sqrt{9 \\times 2} = 3\\sqrt{2}$."
+  },
+  {
+    "id": 10,
+    "kategori": "Mudah",
+    "pertanyaan": "Nilai dari $\\sqrt{2} \\times \\sqrt{8}$ adalah...",
+    "pilihan": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "jawaban": "4",
+    "pembahasan": "$\\sqrt{2} \\times \\sqrt{8} = \\sqrt{16} = 4$."
+  },
+  {
+    "id": 11,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\sqrt{x+5} = 6$, maka nilai $x$ adalah...",
+    "pilihan": [
+      "25",
+      "30",
+      "31",
+      "35",
+      "36"
+    ],
+    "jawaban": "31",
+    "pembahasan": "Jika $\\sqrt{x+5} = 6$, maka $x+5 = 36 \\Rightarrow x = 31$."
+  },
+  {
+    "id": 12,
+    "kategori": "Sedang",
+    "pertanyaan": "Hasil dari $\\sqrt{3} \\times \\sqrt{12}$ adalah...",
+    "pilihan": [
+      "6",
+      "9",
+      "12",
+      "$6\\sqrt{2}$",
+      "$12\\sqrt{2}$"
+    ],
+    "jawaban": "6",
+    "pembahasan": "$\\sqrt{3} \\times \\sqrt{12} = \\sqrt{36} = 6$."
+  },
+  {
+    "id": 13,
+    "kategori": "Mudah",
+    "pertanyaan": "Sederhanakan $\\sqrt{72}$...",
+    "pilihan": [
+      "$6\\sqrt{2}$",
+      "$12\\sqrt{2}$",
+      "$9\\sqrt{2}$",
+      "$8\\sqrt{3}$",
+      "$72$"
+    ],
+    "jawaban": "$6\\sqrt{2}$",
+    "pembahasan": "$\\sqrt{72} = \\sqrt{36 \\times 2} = 6\\sqrt{2}$."
+  },
+  {
+    "id": 14,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\sqrt{2x} = 10$, maka nilai $x$ adalah...",
+    "pilihan": [
+      "25",
+      "50",
+      "75",
+      "100",
+      "200"
+    ],
+    "jawaban": "50",
+    "pembahasan": "$\\sqrt{2x} = 10 \\Rightarrow 2x = 100 \\Rightarrow x = 50$."
+  },
+  {
+    "id": 15,
+    "kategori": "Mudah",
+    "pertanyaan": "Nilai dari $\\sqrt{0}$ adalah...",
+    "pilihan": [
+      "0",
+      "1",
+      "Tidak terdefinisi",
+      "∞",
+      "-1"
+    ],
+    "jawaban": "0",
+    "pembahasan": "$\\sqrt{0} = 0$."
+  },
+  {
+    "id": 16,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $\\sqrt{49} = a$, maka nilai $a$ adalah...",
+    "pilihan": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "jawaban": "7",
+    "pembahasan": "Karena $\\sqrt{49} = 7$, maka $a=7$."
   },
   {
     "id": 17,
     "kategori": "Sedang",
-    "pertanyaan": "Jika sebuah uang logam dilempar 3 kali, berapa peluang muncul tepat 2 kepala?",
+    "pertanyaan": "Sederhanakan $\\sqrt{98}$...",
     "pilihan": [
-      "1/8",
-      "1/4",
-      "3/8",
-      "1/2",
-      "5/8"
+      "$7\\sqrt{2}$",
+      "$14\\sqrt{2}$",
+      "$49\\sqrt{2}$",
+      "$2\\sqrt{7}$",
+      "$98$"
     ],
-    "jawaban": "3/8",
-    "pembahasan": "Total kemungkinan hasil pelemparan 3 koin = $2^3 = 8$.\nKombinasi dengan tepat 2 kepala: HHT, HTH, THH (3 kombinasi). Peluang = $3/8$."
+    "jawaban": "$7\\sqrt{2}$",
+    "pembahasan": "$\\sqrt{98} = \\sqrt{49 \\times 2} = 7\\sqrt{2}$."
   },
   {
     "id": 18,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $2^5 + 3^2 - 4^1$ adalah...",
+    "pertanyaan": "Jika $\\sqrt{5x} = 15$, maka nilai $x$ adalah...",
     "pilihan": [
-      "33",
-      "35",
-      "37",
-      "39",
-      "41"
+      "9",
+      "15",
+      "25",
+      "45",
+      "75"
     ],
-    "jawaban": "37",
-    "pembahasan": "$2^5 = 32$, $3^2 = 9$, $4^1 = 4$. Jadi $32 + 9 - 4 = 37$."
+    "jawaban": "45",
+    "pembahasan": "$\\sqrt{5x} = 15 \\Rightarrow 5x = 225 \\Rightarrow x = 45$."
   },
   {
     "id": 19,
     "kategori": "Mudah",
-    "pertanyaan": "Berapa jam dalam 2,5 hari?",
+    "pertanyaan": "Nilai dari $\\sqrt{121}$ adalah...",
     "pilihan": [
-      "48 jam",
-      "60 jam",
-      "72 jam",
-      "80 jam",
-      "50 jam"
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
     ],
-    "jawaban": "60 jam",
-    "pembahasan": "1 hari = 24 jam. Jadi $2.5 \\times 24 = 60$ jam."
+    "jawaban": "11",
+    "pembahasan": "$\\sqrt{121} = 11$, karena $11^2 = 121$."
   },
   {
     "id": 20,
     "kategori": "Mudah",
-    "pertanyaan": "Jika sebuah lingkaran memiliki diameter 14 cm, berapa keliling lingkaran tersebut? (gunakan $\\pi = 22/7$)",
+    "pertanyaan": "Jika $\\sqrt{4} + \\sqrt{9}$, maka hasilnya adalah...",
     "pilihan": [
-      "22 cm",
-      "44 cm",
-      "66 cm",
-      "88 cm",
-      "55 cm"
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
     ],
-    "jawaban": "44 cm",
-    "pembahasan": "Keliling lingkaran = $\\pi \\times diameter = \\frac{22}{7} \\times 14 = 44$ cm."
+    "jawaban": "5",
+    "pembahasan": "$\\sqrt{4} = 2$, $\\sqrt{9} = 3$, jadi $2+3=5$."
   }
 ]
