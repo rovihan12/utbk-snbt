@@ -26,5 +26,33 @@
     ],
     "jawaban": "D",
     "pembahasan": "Dari gambar, titik $S$ berada pada perpotongan garis vertikal dari $P$ ($x=1$) dan garis horizontal dari $Q$ ($y=6$). Maka, koordinat titik $S$ adalah $(1, 6)$.\nKoordinat titik-titik segitiga $PSQ$ adalah $P(1, -3)$, $S(1, 6)$, dan $Q(7, 6)$.\nAlas segitiga adalah garis $PS$, yang vertikal. Panjang alas = $|6 - (-3)| = 9$ satuan.\nTinggi segitiga adalah jarak horizontal dari titik $Q$ ke garis $PS$. Tinggi = $|7 - 1| = 6$ satuan.\nLuas segitiga = $\\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 9 \\times 6 = 27$ satuan luas."
+  },
+  {
+    "id": 163,
+    "pertanyaan": "Jika segitiga PQR dan segitiga STU sebangun. Jika (a,b) merupakan koordinat U, nilai a + b adalah ....",
+    "pilihan": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Dari gambar, koordinat titik-titik adalah P(0, -2), Q(0, 1), R(4, 1), S(3, -1), T(0, -1). Diketahui U(a,b).\nKarena segitiga PQR dan STU sebangun, maka perbandingan sisi yang bersesuaian sama. Asumsi urutan kesebangunan PQR ~ STU.\n\nPanjang sisi PQ = $\\sqrt{(0-0)^2 + (1-(-2))^2} = \\sqrt{0^2 + 3^2} = 3$\nPanjang sisi QR = $\\sqrt{(4-0)^2 + (1-1)^2} = \\sqrt{4^2 + 0^2} = 4$\nPanjang sisi ST = $\\sqrt{(0-3)^2 + (-1-(-1))^2} = \\sqrt{(-3)^2 + 0^2} = 3$\nPanjang sisi TU = $\\sqrt{(a-0)^2 + (b-(-1))^2} = \\sqrt{a^2 + (b+1)^2}$\n\nKarena $\\frac{PQ}{ST} = \\frac{QR}{TU}$, maka:\n$\\frac{3}{3} = \\frac{4}{TU}$\n$1 = \\frac{4}{TU} \\implies TU = 4$\n\nMaka, $\\sqrt{a^2 + (b+1)^2} = 4 \\implies a^2 + (b+1)^2 = 16$. (1)\n\nPanjang sisi PR = $\\sqrt{(4-0)^2 + (1-(-2))^2} = \\sqrt{4^2 + 3^2} = 5$\nPanjang sisi SU = $\\sqrt{(a-3)^2 + (b-(-1))^2} = \\sqrt{(a-3)^2 + (b+1)^2}$\n\nKarena $\\frac{PR}{SU} = \\frac{PQ}{ST}$, maka:\n$\\frac{5}{SU} = \\frac{3}{3} \\implies SU = 5$\n\nMaka, $\\sqrt{(a-3)^2 + (b+1)^2} = 5 \\implies (a-3)^2 + (b+1)^2 = 25$\n$a^2 - 6a + 9 + (b+1)^2 = 25$\nSubstitusikan persamaan (1) ke persamaan ini:\n$16 - 6a + 9 = 25$\n$25 - 6a = 25 \\implies -6a = 0 \\implies a = 0$\n\nSubstitusikan nilai $a=0$ ke persamaan (1):\n$0^2 + (b+1)^2 = 16$\n$(b+1)^2 = 16 \\implies b+1 = \\pm 4$\n$b+1 = 4 \\implies b = 3$\n$b+1 = -4 \\implies b = -5$\n\nBerdasarkan gambar, titik U berada di kuadran I, sehingga nilai b positif. Jadi, b = 3.\nNilai a + b = 0 + 3 = 3."
+  },
+  {
+    "id": 164,
+    "pertanyaan": "Kerucut dengan tinggi 15 terletak di dalam balok. Alas kerucut sebidang dengan alas balok dan menyinggung keempat sisinya. Alas balok berbentuk persegi dengan sisi 20. Volume bagian balok di luar kerucut 7 kali volume kerucut. Luas permukaan balok adalah ....",
+    "pilihan": [
+      "800 + \\frac{800}{3}\\pi",
+      "800 + 400\\pi",
+      "800 + 800\\pi",
+      "800 + 1200\\pi",
+      "800 + 2400\\pi"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Diketahui:\nSisi alas balok (s) = 20\nTinggi kerucut ($t_k$) = 15\nKarena alas kerucut menyinggung alas balok, maka diameter alas kerucut (d) sama dengan sisi alas balok. d = 20. Sehingga jari-jari alas kerucut ($r_k$) = $\\frac{20}{2} = 10$.\nVolume balok di luar kerucut = 7 kali volume kerucut.\n$V_{balok} - V_{kerucut} = 7V_{kerucut}$\n$V_{balok} = 8V_{kerucut}$\n\nHitung volume kerucut ($V_k$):\n$V_k = \\frac{1}{3} \\pi r_k^2 t_k = \\frac{1}{3} \\pi (10)^2 (15) = \\frac{1}{3} \\pi (100) (15) = 500\\pi$\n\nHitung volume balok ($V_b$):\n$V_b = 8V_k = 8(500\\pi) = 4000\\pi$\n\nHitung tinggi balok ($t_b$):\n$V_b = s \\times s \\times t_b = 20 \\times 20 \\times t_b = 400 t_b$\n$400 t_b = 4000\\pi$\n$t_b = \\frac{4000\\pi}{400} = 10\\pi$\n\nHitung luas permukaan balok ($L_b$):\n$L_b = 2 (p\\cdot l + p\\cdot t + l\\cdot t) = 2 (20 \\times 20 + 20 \\times 10\\pi + 20 \\times 10\\pi)$\n$L_b = 2 (400 + 200\\pi + 200\\pi) = 2 (400 + 400\\pi) = 800 + 800\\pi$"
   }
+]
+
 ]
