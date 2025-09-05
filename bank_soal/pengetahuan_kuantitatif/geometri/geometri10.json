@@ -83,5 +83,22 @@
     "jawaban": "D",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_162259_YouTube.jpg",
     "pembahasan": "Untuk menyelesaikan masalah ini, kita dapat menggunakan Teorema Pythagoras untuk menemukan hubungan antara jari-jari lingkaran dan diagonal persegi.\n\n### Langkah-langkah Penyelesaian\n1.  **Tentukan hubungan geometris**\nPerhatikan bahwa jarak dari pusat persegi besar ke sudutnya adalah setengah dari diagonal persegi besar. Dalam kasus ini, jarak tersebut sama dengan diagonal persegi kecil ($D$) dan juga sama dengan jarak dari pusat ke lingkaran ($x$) ditambah jari-jari lingkaran ($r$). Namun, berdasarkan visualisasi di video, hubungan yang digunakan adalah $r + x = D$.\n\n2.  **Hitung Diagonal Persegi Kecil ($d$)**\nSisi persegi kecil adalah 2.\n$d^2 = 2^2 + 2^2 = 4 + 4 = 8$\n$d = \\sqrt{8} = 2\\sqrt{2}$\n\n---\n\n3.  **Hitung Jarak ke Lingkaran dari Pusat ($x$)**\nJarak dari pusat persegi besar ke pusat lingkaran ($x$) dapat ditemukan dengan membentuk segitiga siku-siku dengan sisi-sisi sepanjang $r$ dan hipotenusa $x$. Ini didasarkan pada asumsi geometris dari video.\n$x^2 = r^2 + r^2 = 2r^2$\n$x = \\sqrt{2r^2} = r\\sqrt{2}$\n\n---\n\n4.  **Selesaikan untuk Jari-Jari ($r$)**\nKita gunakan hubungan dari langkah 1: $r + x = d$\nSubstitusikan nilai $d$ dan $x$ yang sudah kita temukan:\n$r + r\\sqrt{2} = 2\\sqrt{2}$\nFaktorkan $r$:\n$r(1 + \\sqrt{2}) = 2\\sqrt{2}$\nIsolasi $r$:\n$r = \\frac{2\\sqrt{2}}{1 + \\sqrt{2}}$\n\nUntuk menyederhanakan ekspresi ini, kita rasionalkan penyebut dengan mengalikan dengan konjugatnya ($1 - \\sqrt{2}$):\n$r = \\frac{2\\sqrt{2}}{(1 + \\sqrt{2})} \\times \\frac{(1 - \\sqrt{2})}{(1 - \\sqrt{2})}$\n$r = \\frac{2\\sqrt{2}(1) - 2\\sqrt{2}(\\sqrt{2})}{1^2 - (\\sqrt{2})^2}$\n$r = \\frac{2\\sqrt{2} - 2(2)}{1 - 2}$\n$r = \\frac{2\\sqrt{2} - 4}{-1}$\n$r = 4 - 2\\sqrt{2}$\n\nJadi, jari-jari lingkaran adalah $4 - 2\\sqrt{2}$."
+  },
+  {
+    "id": 167,
+    "pertanyaan": "Sebuah heksagon tidak beraturan dengan semua sisinya memiliki panjang yang sama diletakkan di dalam sebuah persegi dengan panjang sisi 1, seperti yang ditunjukkan pada gambar di bawah (tidak sesuai skala). Berapakah panjang salah satu sisi heksagon tersebut?",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_174918_YouTube.jpg",
+    "pilihan": [
+      "$\\sqrt{2} - 1$",
+      "$2 - \\sqrt{2}$",
+      "$1$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$2 + \\sqrt{2}$"
+    ],
+    "jawaban": "B",
+    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_175409_YouTube.jpg",
+    "pembahasan": "Untuk menemukan panjang sisi heksagon, kita dapat menggunakan teorema Pythagoras pada segitiga siku-siku yang terbentuk di sudut persegi. Mari kita sebut panjang sisi heksagon sebagai $x$.\n\n1.  **Identifikasi Segitiga Siku-siku**\n    Di sudut kiri bawah persegi, terbentuk sebuah segitiga siku-siku. Sisi miring dari segitiga ini adalah salah satu sisi heksagon, jadi panjangnya adalah $x$. Panjang sisi tegak segitiga ini adalah $1-x$ karena panjang total sisi persegi adalah 1 dan salah satu bagiannya adalah $x$. Jadi, kedua sisi tegak segitiga ini memiliki panjang yang sama, yaitu $1-x$.\n\n2.  **Terapkan Teorema Pythagoras**\n    Menurut teorema Pythagoras, kuadrat sisi miring sama dengan jumlah kuadrat sisi tegak ($a^2 + b^2 = c^2$).\n    Dalam hal ini, $(1-x)^2 + (1-x)^2 = x^2$\n\n3.  **Selesaikan Persamaan**\n    $2(1-x)^2 = x^2$\n    $\\sqrt{2}(1-x) = x$\n    $\\sqrt{2} - \\sqrt{2}x = x$\n    $\\sqrt{2} = x + \\sqrt{2}x$\n    $\\sqrt{2} = x(1 + \\sqrt{2})$\n    $x = \\frac{\\sqrt{2}}{1 + \\sqrt{2}}$\n\n4.  **Rasionalkan Penyebut**\n    Kalikan pembilang dan penyebut dengan konjugat dari penyebut, yaitu $(1 - \\sqrt{2})$.\n    $x = \\frac{\\sqrt{2}}{1 + \\sqrt{2}} \\cdot \\frac{1 - \\sqrt{2}}{1 - \\sqrt{2}}$\n    $x = \\frac{\\sqrt{2} - 2}{1 - 2}$\n    $x = \\frac{\\sqrt{2} - 2}{-1}$\n    $x = 2 - \\sqrt{2}$\n\nJadi, panjang salah satu sisi heksagon adalah $2 - \\sqrt{2}$."
   }
 ]
+
+
