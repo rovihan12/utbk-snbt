@@ -44,16 +44,16 @@
   {
     "id": 64,
     "kategori": "Menengah",
-    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai dari $t$ adalah...",
+    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai $t$ adalah...",
     "pilihan": [
       "$t = 2^{1/32}$",
       "$t = 256$",
-      "Kedua jawaban A dan B benar.",
       "$t = 2^{64}$",
-      "$t = 2^{16}$"
+      "$t = 2^{16}$",
+      "$t = 2^{32}$"
     ],
-    "jawaban": "C",
-    "pembahasan": "Persamaan yang diberikan adalah $2^t = t^{32}$.\n\nPersamaan ini memiliki dua solusi real. Kita dapat menemukannya dengan dua pendekatan berbeda.\n\n**Solusi 1:**\nAmbil akar ke-32 dari kedua sisi persamaan:\n$(2^t)^{1/32} = (t^{32})^{1/32}$\n$2^{t/32} = t$\nSekarang, kita bisa memangkatkan kedua sisi dengan $1/t$:\n$(2^{t/32})^{1/t} = t^{1/t}$\n$2^{1/32} = t^{1/t}$\nDengan membandingkan kedua sisi, kita dapat melihat bahwa $t = 2^{1/32}$.\n\n**Solusi 2:**\nKita bisa mencoba mencari nilai $t$ yang memenuhi persamaan dengan memanipulasi basis.\n$2^t = t^{32}$\nKita tahu bahwa $256 = 2^8$. Mari kita substitusi $t = 256$ ke dalam persamaan awal:\n\nSisi kiri: $2^t = 2^{256}$\n\nSisi kanan: $t^{32} = (256)^{32}$\nKarena $256 = 2^8$, maka $t^{32} = (2^8)^{32} = 2^{8 \\times 32} = 2^{256}$.\n\nKarena sisi kiri sama dengan sisi kanan ($2^{256} = 2^{256}$), maka $t = 256$ adalah solusi yang valid.\n\nDengan demikian, persamaan $2^t = t^{32}$ memiliki dua solusi, yaitu $t = 2^{1/32}$ dan $t = 256$. Oleh karena itu, pilihan yang paling tepat adalah yang mencakup kedua jawaban tersebut."
+    "jawaban": "B",
+    "pembahasan": "Persamaan yang diberikan adalah $2^t = t^{32}$.\n\nUntuk menyelesaikan persamaan ini, kita dapat menemukan nilai $t$ yang memenuhi dengan cara mensubstitusi atau memanipulasi basis.\n\nKita akan mencari nilai $t$ yang memenuhi persamaan dengan mencoba mengubah basis menjadi bentuk yang sama. Salah satu nilai yang dapat dicoba adalah $t = 256$.\n\nMari kita substitusikan $t = 256$ ke dalam persamaan awal:\n\n**Sisi Kiri:**\n$2^t = 2^{256}$\n\n**Sisi Kanan:**\n$t^{32} = (256)^{32}$\n\nKita tahu bahwa $256$ adalah $2^8$. Jadi, kita bisa mengganti $256$ dengan $2^8$:\n$(2^8)^{32}$\n\nMenggunakan sifat eksponen $(a^m)^n = a^{m \\times n}$, kita kalikan eksponennya:\n$2^{8 \\times 32} = 2^{256}$\n\nKarena sisi kiri sama dengan sisi kanan ($2^{256} = 2^{256}$), maka nilai $t=256$ adalah solusi yang valid untuk persamaan tersebut."
   },
   {
     "id": 65,
