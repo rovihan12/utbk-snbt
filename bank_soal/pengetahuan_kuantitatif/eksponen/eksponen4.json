@@ -44,16 +44,16 @@
   {
     "id": 64,
     "kategori": "Menengah",
-    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai $t$ adalah...",
+    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai dari $t$ adalah...",
     "pilihan": [
-      "$t = 2^{16}$",
-      "$t = 2^{32}$",
       "$t = 2^{1/32}$",
-      "$t = 16^2$",
-      "$t = \\sqrt{32}$"
+      "$t = 256$",
+      "Kedua jawaban A dan B benar.",
+      "$t = 2^{64}$",
+      "$t = 2^{16}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita memiliki persamaan eksponensial $2^t = t^{32}$.\n\nUntuk menyelesaikan persamaan ini, kita dapat mengambil akar ke-32 dari kedua sisi.\n$(2^t)^{1/32} = (t^{32})^{1/32}$\n\nMenggunakan sifat eksponen $(a^m)^n = a^{m \\times n}$, persamaan menjadi:\n$2^{t \\times (1/32)} = t^{32 \\times (1/32)}$\n$2^{t/32} = t$\n\nSekarang, untuk memisahkan variabel $t$, kita dapat memangkatkan kedua sisi dengan $1/t$.\n$(2^{t/32})^{1/t} = t^{1/t}$\n$2^{(t/32) \\times (1/t)} = t^{1/t}$\n$2^{1/32} = t^{1/t}$\n\nDari persamaan $2^{1/32} = t^{1/t}$, kita dapat menyimpulkan bahwa $t = 2^{1/32}$.\n\nAtau, kita juga bisa mengecek jawaban dengan mensubstitusi nilai $t = 2^{1/32}$ ke dalam persamaan awal:\n$2^t = t^{32}$\n$2^{(2^{1/32})} = (2^{1/32})^{32}$\n$2^{(2^{1/32})} = 2^{(1/32) \\times 32}$\n$2^{(2^{1/32})} = 2^1$\n\nKarena $2^{1/32} \\ne 1$, maka cara penyelesaian di atas adalah yang benar, dan nilai $t$ yang memenuhi persamaan adalah $2^{1/32}$."
+    "pembahasan": "Persamaan yang diberikan adalah $2^t = t^{32}$.\n\nPersamaan ini memiliki dua solusi real. Kita dapat menemukannya dengan dua pendekatan berbeda.\n\n**Solusi 1:**\nAmbil akar ke-32 dari kedua sisi persamaan:\n$(2^t)^{1/32} = (t^{32})^{1/32}$\n$2^{t/32} = t$\nSekarang, kita bisa memangkatkan kedua sisi dengan $1/t$:\n$(2^{t/32})^{1/t} = t^{1/t}$\n$2^{1/32} = t^{1/t}$\nDengan membandingkan kedua sisi, kita dapat melihat bahwa $t = 2^{1/32}$.\n\n**Solusi 2:**\nKita bisa mencoba mencari nilai $t$ yang memenuhi persamaan dengan memanipulasi basis.\n$2^t = t^{32}$\nKita tahu bahwa $256 = 2^8$. Mari kita substitusi $t = 256$ ke dalam persamaan awal:\n\nSisi kiri: $2^t = 2^{256}$\n\nSisi kanan: $t^{32} = (256)^{32}$\nKarena $256 = 2^8$, maka $t^{32} = (2^8)^{32} = 2^{8 \\times 32} = 2^{256}$.\n\nKarena sisi kiri sama dengan sisi kanan ($2^{256} = 2^{256}$), maka $t = 256$ adalah solusi yang valid.\n\nDengan demikian, persamaan $2^t = t^{32}$ memiliki dua solusi, yaitu $t = 2^{1/32}$ dan $t = 256$. Oleh karena itu, pilihan yang paling tepat adalah yang mencakup kedua jawaban tersebut."
   },
   {
     "id": 65,
