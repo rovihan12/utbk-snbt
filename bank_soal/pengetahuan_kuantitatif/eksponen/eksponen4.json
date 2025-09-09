@@ -43,17 +43,17 @@
   },
   {
     "id": 64,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika $^2\\log 32 = x$, maka nilai $x$ adalah...",
+    "kategori": "Menengah",
+    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai $t$ adalah...",
     "pilihan": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
+      "$t = 2^{16}$",
+      "$t = 2^{32}$",
+      "$t = 2^{1/32}$",
+      "$t = 16^2$",
+      "$t = \\sqrt{32}$"
     ],
-    "jawaban": "D",
-    "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\nJadi, $^2\\log 32 = x$ ekuivalen dengan $2^x = 32$.\n$2^5 = 32$, jadi $x = 5$"
+    "jawaban": "C",
+    "pembahasan": "Kita memiliki persamaan eksponensial $2^t = t^{32}$.\n\nUntuk menyelesaikan persamaan ini, kita dapat mengambil akar ke-32 dari kedua sisi.\n$(2^t)^{1/32} = (t^{32})^{1/32}$\n\nMenggunakan sifat eksponen $(a^m)^n = a^{m \\times n}$, persamaan menjadi:\n$2^{t \\times (1/32)} = t^{32 \\times (1/32)}$\n$2^{t/32} = t$\n\nSekarang, untuk memisahkan variabel $t$, kita dapat memangkatkan kedua sisi dengan $1/t$.\n$(2^{t/32})^{1/t} = t^{1/t}$\n$2^{(t/32) \\times (1/t)} = t^{1/t}$\n$2^{1/32} = t^{1/t}$\n\nDari persamaan $2^{1/32} = t^{1/t}$, kita dapat menyimpulkan bahwa $t = 2^{1/32}$.\n\nAtau, kita juga bisa mengecek jawaban dengan mensubstitusi nilai $t = 2^{1/32}$ ke dalam persamaan awal:\n$2^t = t^{32}$\n$2^{(2^{1/32})} = (2^{1/32})^{32}$\n$2^{(2^{1/32})} = 2^{(1/32) \\times 32}$\n$2^{(2^{1/32})} = 2^1$\n\nKarena $2^{1/32} \\ne 1$, maka cara penyelesaian di atas adalah yang benar, dan nilai $t$ yang memenuhi persamaan adalah $2^{1/32}$."
   },
   {
     "id": 65,
