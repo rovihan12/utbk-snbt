@@ -250,7 +250,7 @@
     ],
     "jawaban": "D",
     "pembahasan": "Diberikan persamaan $2^t = t^4$. Untuk menyelesaikan persamaan ini, kita akan memanipulasi kedua sisi persamaan agar memiliki basis dan eksponen yang sama.\n\n### Langkah 1: Pangkatkan kedua sisi dengan $\\frac{1}{t}$\n$2^t = t^4$\n$(2^t)^{\\frac{1}{t}} = (t^4)^{\\frac{1}{t}}$\n$2 = t^{\\frac{4}{t}}$\n\n### Langkah 2: Pangkatkan kedua sisi dengan $\\frac{1}{4}$\n$2^{\\frac{1}{4}} = (t^{\\frac{4}{t}})^{\\frac{1}{4}}$\n$2^{\\frac{1}{4}} = t^{\\frac{1}{t}}$\n\n### Langkah 3: Menyamakan Basis dan Pangkat\nKita memiliki persamaan $2^{\\frac{1}{4}} = t^{\\frac{1}{t}}$. Untuk menyamakan basis dan eksponen, kita ubah bentuk sisi kiri dengan memangkatkannya dengan $4/4$ atau $2/2$ secara berulang sampai kita mendapatkan bentuk yang sama.\n\n$(2^{\\frac{1}{4}})^{\\frac{2}{2}} = (2^2)^{\\frac{1}{4 \\cdot 2}} = 4^{\\frac{1}{8}}$\n\n$(4^{\\frac{1}{8}})^{\\frac{2}{2}} = (4^2)^{\\frac{1}{8 \\cdot 2}} = 16^{\\frac{1}{16}}$\n\nKita mendapatkan $16^{\\frac{1}{16}} = t^{\\frac{1}{t}}$. Dari bentuk ini, kita dapat menyimpulkan bahwa **$t = 16$**."
-  }
+  },
   {
     "id": 59,
     "kategori": "Sulit",
