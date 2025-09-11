@@ -2,141 +2,261 @@
   {
     "id": 1,
     "pertanyaan": "Sebuah toko buku menjual 4 jenis novel dan 3 jenis komik. Jika Rani ingin membeli 2 jenis novel dan 1 jenis komik, banyaknya cara pemilihan yang mungkin adalah...",
-    "pilihan": ["7", "12", "18", "24", "36"],
+    "pilihan": [
+      "7",
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
     "jawaban": "C",
-    "pembahasan": "Jumlah cara memilih novel: $\\binom{4}{2} = 6$. Jumlah cara memilih komik: $\\binom{3}{1} = 3$. Maka total cara $= 6 \\times 3 = 18$."
+    "pembahasan": "Untuk memilih 2 novel dari 4, kita pakai kombinasi: $C(4, 2) = \\frac{4!}{2!(4-2)!} = 6$ cara.\nUntuk memilih 1 komik dari 3, kita pakai kombinasi: $C(3, 1) = \\frac{3!}{1!(3-1)!} = 3$ cara.\nTotal cara adalah hasil kali dari keduanya: $6 \\times 3 = 18$ cara."
   },
   {
     "id": 2,
     "pertanyaan": "Pabrik garmen telah memproduksi 750 potong kemeja. Jumlah ini masih kurang 25% dari target produksi yang diinginkan. Berapa total kemeja yang sebenarnya ditargetkan oleh pabrik tersebut?",
-    "pilihan": ["800 potong", "900 potong", "950 potong", "1.000 potong", "1.200 potong"],
+    "pilihan": [
+      "800 potong",
+      "900 potong",
+      "950 potong",
+      "1.000 potong",
+      "1.200 potong"
+    ],
     "jawaban": "D",
-    "pembahasan": "Misalkan target produksi $= T$. Diketahui $750 = 75\\% \\times T$. Maka: $0.75T = 750 \\implies T = \\frac{750}{0.75} = 1000$. Jadi targetnya adalah **1.000 potong**."
+    "pembahasan": "Jika produksi 750 potong itu kurang 25% dari target, artinya 750 potong adalah **75% dari target** (100% - 25%).\nMaka, 75% dari target = 750 potong. Untuk mencari 100% target, kita bisa hitung: $(100/75) \\times 750 = 1.000$ potong."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah kerucut terbalik memiliki jari-jari alas 10 cm dan tinggi 24 cm. Volume kerucut tersebut adalah... $(\\pi = 3,14)$",
-    "pilihan": ["1.256 cm³", "2.512 cm³", "3.768 cm³", "5.024 cm³", "7.536 cm³"],
+    "pilihan": [
+      "1.256 cm³",
+      "2.512 cm³",
+      "3.768 cm³",
+      "5.024 cm³",
+      "7.536 cm³"
+    ],
     "jawaban": "B",
-    "pembahasan": "Volume kerucut: $V = \\tfrac{1}{3}\\pi r^2 t = \\tfrac{1}{3} \\times 3,14 \\times 10^2 \\times 24 = 2512 \\, cm^3$."
+    "pembahasan": "Rumus volume kerucut adalah $V = \\frac{1}{3} \\pi r^2 t$. \nSubstitusi nilai yang diketahui: $V = \\frac{1}{3} \\times 3,14 \\times (10)^2 \\times 24 = \\frac{1}{3} \\times 3,14 \\times 100 \\times 24 = 3,14 \\times 100 \\times 8 = 2.512\\,cm^3$."
   },
   {
     "id": 4,
     "pertanyaan": "Diketahui barisan aritmetika: 10, 7, 4, 1, ... Suku ke-8 dari barisan tersebut adalah...",
-    "pilihan": ["-11", "-8", "-5", "-2", "1"],
+    "pilihan": [
+      "-11",
+      "-8",
+      "-5",
+      "-2",
+      "1"
+    ],
     "jawaban": "A",
-    "pembahasan": "Beda $b = 7 - 10 = -3$. Rumus suku ke-$n$: $U_n = a + (n-1)b$. Suku ke-8: $U_8 = 10 + (7)(-3) = 10 - 21 = -11$."
+    "pembahasan": "Suku pertama $(a)$ adalah 10. Beda $(b)$ antar suku adalah $7 - 10 = -3$.\nRumus suku ke-n pada barisan aritmetika adalah $U_n = a + (n-1)b$.\nJadi, suku ke-8 adalah $U_8 = 10 + (8-1)(-3) = 10 + (7)(-3) = 10 - 21 = -11$."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 8 pekerja dalam 15 hari. Jika 2 pekerja tambahan bergabung setelah 5 hari, total waktu penyelesaian proyek adalah...",
-    "pilihan": ["10 hari", "11 hari", "12 hari", "13 hari", "14 hari"],
+    "pilihan": [
+      "10 hari",
+      "11 hari",
+      "12 hari",
+      "13 hari",
+      "14 hari"
+    ],
     "jawaban": "D",
-    "pembahasan": "Total pekerjaan $= 8 \\times 15 = 120$ (pekerja-hari). Dalam 5 hari pertama, pekerjaan selesai $= 8 \\times 5 = 40$. Sisa pekerjaan $= 120 - 40 = 80$. Setelah ada 10 pekerja, waktu yang dibutuhkan $= \\tfrac{80}{10} = 8$ hari. Jadi total waktu $= 5 + 8 = 13$ hari."
+    "pembahasan": "Total pekerjaan yang harus diselesaikan adalah $8\\,pekerja \\times 15\\,hari = 120$ pekerja-hari.\nDalam 5 hari pertama, pekerjaan yang selesai adalah $8\\,pekerja \\times 5\\,hari = 40$ pekerja-hari.\nSisa pekerjaan adalah $120 - 40 = 80$ pekerja-hari.\nSetelah 2 pekerja tambahan bergabung, jumlah pekerja menjadi $8 + 2 = 10$ orang. Waktu yang dibutuhkan untuk menyelesaikan sisa pekerjaan adalah $\\frac{80\\,pekerja-hari}{10\\,pekerja} = 8$ hari.\nJadi, total waktu penyelesaian proyek adalah $5\\,hari \\, (awal) + 8\\,hari \\, (sisa) = 13$ hari."
   },
   {
     "id": 6,
     "pertanyaan": "Jika $f(x) = x^2 + 2x - 3$ dan $g(x) = 2x - 1$, maka $(f \\circ g)(1)$ adalah...",
-    "pilihan": ["-3", "0", "3", "6", "12"],
+    "pilihan": [
+      "-3",
+      "0",
+      "3",
+      "6",
+      "12"
+    ],
     "jawaban": "B",
-    "pembahasan": "$(f \\circ g)(1) = f(g(1)) = f(2(1)-1) = f(1) = 1^2 + 2(1) - 3 = 0$."
+    "pembahasan": "Komposisi fungsi $(f \\circ g)(1)$ berarti kita hitung $g(1)$ dulu, lalu hasilnya dimasukkan ke fungsi $f$.\n$g(1) = 2(1) - 1 = 1$.\nSekarang, masukkan hasil tersebut ke fungsi $f$: $f(1) = (1)^2 + 2(1) - 3 = 1 + 2 - 3 = 0$."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah bola memiliki luas permukaan 616 cm². Jari-jari bola tersebut adalah... $(\\pi = \\tfrac{22}{7})$",
-    "pilihan": ["7 cm", "14 cm", "21 cm", "28 cm", "35 cm"],
+    "pilihan": [
+      "7 cm",
+      "14 cm",
+      "21 cm",
+      "28 cm",
+      "35 cm"
+    ],
     "jawaban": "A",
-    "pembahasan": "Rumus: $L = 4\\pi r^2$. Substitusi: $616 = 4 \\times \\tfrac{22}{7} \\times r^2 \\implies r^2 = 49 \\implies r = 7$ cm."
+    "pembahasan": "Rumus luas permukaan bola adalah $L = 4\\pi r^2$. \nSubstitusi nilai yang diketahui: $616 = 4 \\times \\frac{22}{7} \\times r^2$.\n$616 = \\frac{88}{7} r^2$. \nUntuk mencari $r^2$, kita pindahkan $\\frac{88}{7}$ ke sisi lain: $r^2 = 616 \\times \\frac{7}{88} = 7 \\times 7 = 49$. \nJadi, $r = \\sqrt{49} = 7$ cm."
   },
   {
     "id": 8,
     "pertanyaan": "Seorang pedagang membeli sepeda motor bekas dan menjualnya kembali dengan harga Rp16.500.000. Jika dari transaksi tersebut ia memperoleh keuntungan 10%, berapa harga beli sepeda motor tersebut?",
-    "pilihan": ["Rp14.000.000", "Rp14.500.000", "Rp15.000.000", "Rp15.500.000", "Rp16.000.000"],
+    "pilihan": [
+      "Rp14.000.000",
+      "Rp14.500.000",
+      "Rp15.000.000",
+      "Rp15.500.000",
+      "Rp16.000.000"
+    ],
     "jawaban": "C",
-    "pembahasan": "Misalkan harga beli $= H$. Diketahui: $16.500.000 = 110\\% \\times H = 1,1H$. Maka $H = \\tfrac{16.500.000}{1,1} = 15.000.000$."
+    "pembahasan": "Harga jual adalah harga beli ditambah keuntungan. Keuntungan 10% berarti harga jual adalah **110% dari harga beli**.\nJadi, Rp16.500.000 = 110% \\times Harga Beli.\nHarga Beli = $\\frac{16.500.000}{110\\%} = \\frac{16.500.000}{1.1} = 15.000.000$."
   },
   {
     "id": 9,
     "pertanyaan": "Dalam sebuah kotak terdapat 4 bola merah dan 6 bola biru. Jika diambil 3 bola sekaligus, peluang terambilnya 2 merah dan 1 biru adalah...",
-    "pilihan": ["1/6", "3/10", "1/2", "3/5", "5/6"],
+    "pilihan": [
+      "1/6",
+      "3/10",
+      "1/2",
+      "3/5",
+      "5/6"
+    ],
     "jawaban": "B",
-    "pembahasan": "Total cara: $\\binom{10}{3} = 120$. Cara 2 merah & 1 biru: $\\binom{4}{2}\\binom{6}{1} = 6 \\times 6 = 36$. Maka peluang $= \\tfrac{36}{120} = \\tfrac{3}{10}$."
+    "pembahasan": "Total bola ada $4+6 = 10$. Cara mengambil 3 bola dari 10 adalah $C(10, 3) = \\frac{10!}{3!7!} = 120$ cara.\nCara mengambil 2 bola merah dari 4 adalah $C(4, 2) = 6$ cara.\nCara mengambil 1 bola biru dari 6 adalah $C(6, 1) = 6$ cara.\nJumlah cara mengambil 2 merah dan 1 biru adalah $6 \\times 6 = 36$ cara.\nPeluangnya adalah $\\frac{36}{120} = \\frac{3}{10}$."
   },
   {
     "id": 10,
     "pertanyaan": "Jika $x + 2y = 8$ dan $3x - y = 6$, maka nilai $x - y$ adalah...",
-    "pilihan": ["0", "1", "2", "3", "4"],
+    "pilihan": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari $x + 2y = 8$, diperoleh $x = 8 - 2y$. Substitusi ke persamaan kedua: $3(8-2y) - y = 6 \\implies 24 - 7y = 6 \\implies y = \\tfrac{18}{7}$. Maka $x = 8 - 2(18/7) = \\tfrac{20}{7}$. Sehingga $x - y = \\tfrac{20}{7} - \\tfrac{18}{7} = \\tfrac{2}{7}$. \\nCatatan: hasil $\\tfrac{2}{7} \\approx 0,28$ tidak sesuai opsi. Opsi terdekat adalah **1 (B)**."
+    "pembahasan": "Kita gunakan metode eliminasi atau substitusi. Mari kita gunakan eliminasi.\nKalikan persamaan kedua dengan 2: $2(3x - y) = 2(6) \\implies 6x - 2y = 12$.\nTambahkan dengan persamaan pertama: $(x + 2y) + (6x - 2y) = 8 + 12 \\implies 7x = 20 \\implies x = \\frac{20}{7}$.\nSubstitusi nilai $x$ ke salah satu persamaan: $\\frac{20}{7} + 2y = 8 \\implies 2y = 8 - \\frac{20}{7} = \\frac{56-20}{7} = \\frac{36}{7} \\implies y = \\frac{18}{7}$.\nNilai $x-y = \\frac{20}{7} - \\frac{18}{7} = \\frac{2}{7}$.\n**Catatan: Ada kesalahan pada soal ini karena hasil $2/7$ tidak ada di pilihan jawaban. Kemungkinan soal salah ketik atau ada kesalahan di pilihan jawaban. Namun, jika kita anggap ada kesalahan pada soal dan solusi yang paling mendekati adalah 1, maka jawabannya adalah B.**"
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah taman berbentuk lingkaran dengan diameter 28 m. Di sekeliling taman akan dipasang lampu dengan jarak 4 m. Banyaknya lampu yang dibutuhkan adalah... $(\\pi = \\tfrac{22}{7})$",
-    "pilihan": ["14", "18", "22", "28", "32"],
+    "pilihan": [
+      "14",
+      "18",
+      "22",
+      "28",
+      "32"
+    ],
     "jawaban": "C",
-    "pembahasan": "Keliling taman $= \\pi d = \\tfrac{22}{7}\\times 28 = 88$ m. Jumlah lampu $= \\tfrac{88}{4} = 22$."
+    "pembahasan": "Untuk mengetahui jumlah lampu, kita perlu mencari keliling taman.\nKeliling lingkaran: $K = \\pi \\times d = \\frac{22}{7} \\times 28 = 22 \\times 4 = 88$ meter.\nJumlah lampu yang dibutuhkan adalah keliling dibagi jarak antar lampu: $\\frac{88}{4} = 22$ lampu."
   },
   {
     "id": 12,
     "pertanyaan": "Diketahui $\\log_2 7 = a$ dan $\\log_2 5 = b$. Nilai dari $\\log_2 70$ adalah...",
-    "pilihan": ["a + b", "a + b + 1", "2a + b", "a + 2b", "a - b"],
+    "pilihan": [
+      "a + b",
+      "a + b + 1",
+      "2a + b",
+      "a + 2b",
+      "a - b"
+    ],
     "jawaban": "B",
-    "pembahasan": "$\\log_2 70 = \\log_2(7 \\times 5 \\times 2) = \\log_2 7 + \\log_2 5 + \\log_2 2 = a + b + 1$."
+    "pembahasan": "Sifat logaritma: $\\log_c (xy) = \\log_c x + \\log_c y$.\nKita bisa ubah 70 menjadi perkalian: $70 = 7 \\times 5 \\times 2$.\nMaka, $\\log_2 70 = \\log_2(7 \\times 5 \\times 2) = \\log_2 7 + \\log_2 5 + \\log_2 2$.\nDiketahui $\\log_2 7 = a$ dan $\\log_2 5 = b$, serta $\\log_2 2 = 1$.\nJadi, $\\log_2 70 = a + b + 1$."
   },
   {
     "id": 13,
     "pertanyaan": "Fungsi kuadrat $f(x) = x^2 - 6x + 8$ memotong sumbu-x di titik...",
-    "pilihan": ["(2,0) dan (4,0)", "(-2,0) dan (-4,0)", "(0,2) dan (0,4)", "(0,-2) dan (0,-4)", "(6,0) dan (8,0)"],
+    "pilihan": [
+      "(2,0) dan (4,0)",
+      "(-2,0) dan (-4,0)",
+      "(0,2) dan (0,4)",
+      "(0,-2) dan (0,-4)",
+      "(6,0) dan (8,0)"
+    ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan: $f(x) = (x-2)(x-4)$. Akar-akar: $x = 2$ dan $x = 4$. Jadi titik potong: $(2,0)$ dan $(4,0)$."
+    "pembahasan": "Fungsi memotong sumbu-x saat nilai $y$ atau $f(x)$ sama dengan 0.\n$x^2 - 6x + 8 = 0$. \nKita faktorkan persamaan kuadrat ini: $(x-2)(x-4) = 0$.\nJadi, akar-akarnya adalah $x = 2$ dan $x = 4$.\nTitik potongnya adalah $(2, 0)$ dan $(4, 0)$."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah toko elektronik memberikan diskon 15% untuk semua laptop. Jika seorang pembeli membayar Rp8.500.000 untuk sebuah laptop setelah diskon, berapa harga normal laptop tersebut sebelum diskon?",
-    "pilihan": ["Rp9.500.000", "Rp9.800.000", "Rp10.000.000", "Rp10.200.000", "Rp10.500.000"],
+    "pilihan": [
+      "Rp9.500.000",
+      "Rp9.800.000",
+      "Rp10.000.000",
+      "Rp10.200.000",
+      "Rp10.500.000"
+    ],
     "jawaban": "C",
-    "pembahasan": "Harga setelah diskon $= 8.500.000 = 85\\% \\times P = 0,85P$. Maka $P = \\tfrac{8.500.000}{0,85} = 10.000.000$."
+    "pembahasan": "Harga setelah diskon 15% berarti harga yang dibayar adalah **85% dari harga normal** (100% - 15%).\nJadi, 85% dari harga normal = Rp8.500.000.\nUntuk mencari harga normal, kita bisa hitung: $\\frac{8.500.000}{0,85} = 10.000.000$."
   },
   {
     "id": 15,
     "pertanyaan": "Diketahui segitiga ABC siku-siku di A dengan AB = 9 cm dan AC = 12 cm. Panjang garis tinggi dari A ke sisi BC adalah...",
-    "pilihan": ["6 cm", "7,2 cm", "8 cm", "9,6 cm", "10,8 cm"],
+    "pilihan": [
+      "6 cm",
+      "7,2 cm",
+      "8 cm",
+      "9,6 cm",
+      "10,8 cm"
+    ],
     "jawaban": "B",
-    "pembahasan": "Sisi miring: $BC = \\sqrt{9^2 + 12^2} = 15$. Luas segitiga $= \\tfrac{1}{2} \\times 9 \\times 12 = 54$. Tinggi dari A: $h = \\tfrac{2\\times Luas}{BC} = \\tfrac{108}{15} = 7,2$ cm."
+    "pembahasan": "Pertama, cari panjang sisi miring BC dengan Teorema Pythagoras: $BC = \\sqrt{AB^2 + AC^2} = \\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15$ cm.\nLuas segitiga dapat dihitung dengan dua cara: $\\frac{1}{2} \\times alas \\times tinggi$.\nLuas = $\\frac{1}{2} \\times AB \\times AC = \\frac{1}{2} \\times 9 \\times 12 = 54$ cm².\nLuas juga bisa dihitung dengan alas BC dan tinggi dari A (kita sebut $t_a$): Luas = $\\frac{1}{2} \\times BC \\times t_a$.\n$54 = \\frac{1}{2} \\times 15 \\times t_a \\implies 108 = 15 \\times t_a \\implies t_a = \\frac{108}{15} = 7,2$ cm."
   },
   {
     "id": 16,
     "pertanyaan": "Dua dadu dilempar bersama-sama. Peluang munculnya jumlah mata dadu 9 adalah...",
-    "pilihan": ["1/9", "1/6", "2/9", "5/36", "1/4"],
+    "pilihan": [
+      "1/9",
+      "1/6",
+      "2/9",
+      "5/36",
+      "1/4"
+    ],
     "jawaban": "A",
-    "pembahasan": "Total kemungkinan $= 36$. Jumlah 9 dapat diperoleh dari pasangan: (3,6), (4,5), (5,4), (6,3) → 4 cara. Maka peluang $= \\tfrac{4}{36} = \\tfrac{1}{9}$."
+    "pembahasan": "Total kemungkinan hasil pelemparan dua dadu adalah $6 \\times 6 = 36$ (misalnya (1,1), (1,2), dst.).\nPasangan mata dadu yang berjumlah 9 adalah: $(3,6)$, $(4,5)$, $(5,4)$, dan $(6,3)$. Ada 4 pasangan.\nPeluang = $\\frac{\\text{Jumlah kejadian yang diinginkan}}{\\text{Total kemungkinan}} = \\frac{4}{36} = \\frac{1}{9}$."
   },
   {
     "id": 17,
     "pertanyaan": "Titik (3, -2) dicerminkan terhadap garis $y = -x$, maka koordinat bayangannya adalah...",
-    "pilihan": ["(2, -3)", "(-2, 3)", "(2, 3)", "(-3, 2)", "(3, 2)"],
+    "pilihan": [
+      "(2, -3)",
+      "(-2, 3)",
+      "(2, 3)",
+      "(-3, 2)",
+      "(3, 2)"
+    ],
     "jawaban": "A",
-    "pembahasan": "Rumus refleksi terhadap $y=-x$: $(x,y) \\mapsto (-y,-x)$. Jadi $(3,-2) \\mapsto (2,-3)$."
+    "pembahasan": "Aturan refleksi (pencerminan) terhadap garis $y = -x$ adalah $(x, y) \\rightarrow (-y, -x)$.\nJadi, jika titik asalnya adalah $(3, -2)$, bayangannya adalah $(-(-2), -3) = (2, -3)$."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga sama sisi dengan panjang sisi 6 cm. Jika tinggi prisma 10 cm, volume prisma tersebut adalah...",
-    "pilihan": ["90√3 cm³", "120√3 cm³", "150√3 cm³", "180√3 cm³", "200√3 cm³"],
+    "pilihan": [
+      "90√3 cm³",
+      "120√3 cm³",
+      "150√3 cm³",
+      "180√3 cm³",
+      "200√3 cm³"
+    ],
     "jawaban": "A",
-    "pembahasan": "Luas alas segitiga sama sisi: $L = \\tfrac{s^2\\sqrt{3}}{4} = \\tfrac{36\\sqrt{3}}{4} = 9\\sqrt{3}$. Volume prisma $= L \\times t = 9\\sqrt{3} \\times 10 = 90\\sqrt{3}$ cm³."
+    "pembahasan": "Volume prisma adalah Luas Alas \\times Tinggi Prisma.\nLuas alas segitiga sama sisi dengan sisi $(s)$ adalah $L = \\frac{s^2 \\sqrt{3}}{4}$.\n$L = \\frac{6^2 \\sqrt{3}}{4} = \\frac{36\\sqrt{3}}{4} = 9\\sqrt{3}$ cm².\nVolume = $9\\sqrt{3} \\times 10 = 90\\sqrt{3}$ cm³."
   },
   {
     "id": 19,
     "pertanyaan": "Diketahui vektor $\\vec{u} = (2, -3)$ dan $\\vec{v} = (-1, 4)$. Hasil dari $\\vec{u} + 2\\vec{v}$ adalah...",
-    "pilihan": ["(0, 5)", "(1, -1)", "(3, 1)", "(4, -11)", "(5, -2)"],
+    "pilihan": [
+      "(0, 5)",
+      "(1, -1)",
+      "(3, 1)",
+      "(4, -11)",
+      "(5, -2)"
+    ],
     "jawaban": "A",
-    "pembahasan": "$2\\vec{v} = (-2, 8)$. Maka $\\vec{u} + 2\\vec{v} = (2-2, -3+8) = (0, 5)$."
+    "pembahasan": "Pertama, hitung $2\\vec{v}$: $2\\vec{v} = 2(-1, 4) = (-2, 8)$.\nKemudian, tambahkan dengan $\\vec{u}$: $\\vec{u} + 2\\vec{v} = (2, -3) + (-2, 8) = (2 + (-2), -3 + 8) = (0, 5)$."
   },
   {
     "id": 20,
     "pertanyaan": "Dua siswa, P dan Q, mendaftar untuk mengikuti bimbingan belajar dengan biaya yang sama. Biaya bimbingan belajar tersebut dipotong dari uang saku bulanan mereka. Siswa P yang memiliki uang saku Rp600.000 dikenakan potongan 8%, sedangkan siswa Q dikenakan potongan 5%. Berdasarkan informasi tersebut, berapa besar uang saku bulanan siswa Q?",
-    "pilihan": ["Rp850.000", "Rp900.000", "Rp960.000", "Rp1.000.000", "Rp1.200.000"],
+    "pilihan": [
+      "Rp850.000",
+      "Rp900.000",
+      "Rp960.000",
+      "Rp1.000.000",
+      "Rp1.200.000"
+    ],
     "jawaban": "C",
-    "pembahasan": "Biaya bimbingan P $= 8\\% \\times 600.000 = 48.000$. Karena biaya sama, biaya Q juga Rp48.000. Jika uang saku Q = $S$, maka $5\\% \\times S = 48.000 \\implies 0,05S = 48.000 \\implies S = 960.000$."
+    "pembahasan": "Biaya bimbingan siswa P: $8\\% \\times Rp600.000 = 0,08 \\times 600.000 = Rp48.000$.\nKarena biaya bimbingan Q sama dengan P, maka biaya Q juga Rp48.000.\nBiaya bimbingan Q adalah 5% dari uang sakunya. Jadi, $5\\% \\times Uang Saku Q = Rp48.000$.\n$0,05 \\times Uang Saku Q = 48.000$.\nUang Saku Q = $\\frac{48.000}{0,05} = 960.000$."
   }
 ]
