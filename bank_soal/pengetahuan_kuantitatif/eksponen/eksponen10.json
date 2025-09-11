@@ -58,16 +58,16 @@
   {
     "id": 185,
     "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $^5\\log 5^3$ adalah...",
+    "pertanyaan": "Jika $\\sqrt{3^{3x-1}} = 3^{x+4}$, maka nilai dari $x$ adalah...",
     "pilihan": [
-      "1/3",
-      "1",
-      "3",
       "5",
-      "25"
+      "7",
+      "8",
+      "9",
+      "10"
     ],
-    "jawaban": "C",
-    "pembahasan": "Gunakan sifat logaritma $^a\\log a^n = n$. Maka, $^5\\log 5^3 = 3$."
+    "jawaban": "D",
+    "pembahasan": "Diberikan persamaan $\\sqrt{3^{3x-1}} = 3^{x+4}$.\n\nLangkah 1: Ubah bentuk akar menjadi bentuk eksponen.\n$\\sqrt{3^{3x-1}} = 3^{\\frac{3x-1}{2}}$\n\nLangkah 2: Samakan kedua eksponen, karena basisnya sama-sama 3.\n$3^{\\frac{3x-1}{2}} = 3^{x+4}$\n$\\frac{3x-1}{2} = x+4$\n\nLangkah 3: Selesaikan persamaan untuk $x$.\n$3x-1 = 2(x+4)$\n$3x-1 = 2x+8$\n$3x - 2x = 8+1$\n$x = 9$"
   },
   {
     "id": 186,
