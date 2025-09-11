@@ -197,22 +197,8 @@
   },
   {
     "id": 195,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\frac{^2\\log 3}{^3\\log 5} \\cdot \\frac{^2\\log 5}{^3\\log 3}$ adalah...",
-    "pilihan": [
-      "$\\frac{1}{2}$",
-      "1",
-      "2",
-      "3",
-      "9"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Gunakan sifat perubahan basis. $\\frac{^a\\log c}{^b\\log c} = ^a\\log b$. Atau ubah semua ke basis 10.\n$\\frac{\\frac{\\log 3}{\\log 2}}{\\frac{\\log 5}{\\log 3}} \\cdot \\frac{\\frac{\\log 5}{\\log 2}}{\\frac{\\log 3}{\\log 3}} = (\\frac{\\log 3}{\\log 2} \\cdot \\frac{\\log 3}{\\log 5}) \\cdot (\\frac{\\log 5}{\\log 2} \\cdot \\frac{\\log 3}{\\log 3})$. \nTidak. Mari kita gunakan sifat $^a\\log b = \\frac{^c\\log b}{^c\\log a}$.\n$\\frac{^2\\log 3}{^3\\log 5} = \\frac{^3\\log 3}{^3\\log 2} \\div \\frac{^3\\log 5}{^3\\log 3} = \\frac{1}{^3\\log 2} \\cdot \\frac{^3\\log 3}{^3\\log 5} = \\frac{1}{^3\\log 2 \\cdot ^3\\log 5}$ tidak. Mari kita gunakan sifat $\\frac{\\log a}{\\log b} = ^b\\log a$. \n$\\frac{^2\\log 3}{^3\\log 5} \\cdot \\frac{^2\\log 5}{^3\\log 3} = (^3\\log 3 \\div ^3\\log 2) \\cdot (^3\\log 5 \\div ^3\\log 2) = (\\frac{1}{^3\\log 2}) \\cdot (^3\\log 5 \\div (^3\\log 3/ ^3\\log 3)) $. \nMari sederhanakan lagi. \n$\\frac{^2\\log 3}{^3\\log 5} = ^5\\log 3 \\cdot ^3\\log 2$ salah. \n$\\frac{^2\\log 3}{^3\\log 5} = \\frac{^2\\log 3}{^3\\log 5}$ dan $\\frac{^2\\log 5}{^3\\log 3}$. \n$\\frac{^2\\log 3}{^3\\log 5} \\cdot \\frac{^2\\log 5}{^3\\log 3} = (\\frac{^2\\log 3}{^3\\log 3}) \\cdot (\\frac{^2\\log 5}{^3\\log 5}) = (\\frac{^2\\log 3}{1}) \\cdot (\\frac{^2\\log 5}{^3\\log 5})$. Salah. \nOk, Mari kita gunakan sifat $^a\\log b \\cdot ^b\\log c = ^a\\log c$. Tidak bisa. \nCoba ubah ke basis 10. \n$(\\frac{\\log 3/\\log 2}{\\log 5/\\log 3}) \\cdot (\\frac{\\log 5/\\log 2}{\\log 3/\\log 3}) = (\\frac{\\log 3}{\\log 2} \\cdot \\frac{\\log 3}{\\log 5}) \\cdot (\\frac{\\log 5}{\\log 2})$. \n$= \\frac{(\\log 3)^2 \\cdot \\log 5}{(\\log 2)^2 \\cdot \\log 5} = (\\frac{\\log 3}{\\log 2})^2 = (^2\\log 3)^2$. Pilihan tidak ada. \nAda kesalahan dalam soal, mari perbaiki. \nSoal yang lebih masuk akal: $^a\\log b \\cdot ^b\\log a = 1$. \nSoal yang lebih mirip gambar: $\\frac{^2\\log 3}{^2\\log 5} \\cdot \\frac{^5\\log 7}{^3\\log 7}$. \n$\\frac{^2\\log 3 \\cdot ^5\\log 7}{^2\\log 5 \\cdot ^3\\log 7}$. Ini bisa disederhanakan dengan mengubah basis. \n$\\frac{^2\\log 3 \\cdot ^5\\log 7}{^2\\log 5 \\cdot ^3\\log 7} = \\frac{\\frac{\\log 3}{\\log 2} \\cdot \\frac{\\log 7}{\\log 5}}{\\frac{\\log 5}{\\log 2} \\cdot \\frac{\\log 7}{\\log 3}} = \\frac{\\log 3 \\cdot \\log 7 \\cdot \\log 2 \\cdot \\log 3}{\\log 2 \\cdot \\log 5 \\cdot \\log 5 \\cdot \\log 7} = (\\frac{\\log 3}{\\log 5})^2 = (^5\\log 3)^2$. \nTetap tidak sederhana. Mari kita buat soal sederhana yang mirip dengan gambar.\n**Soal perbaikan:** Nilai dari $\\frac{^2\\log 3}{^2\\log 5} \\cdot \\frac{^5\\log 7}{^3\\log 7}$ salah. Mari kita buat soal baru. \n**Soal perbaikan:** Nilai dari $^2\\log 3 \\cdot ^3\\log 5 \\cdot ^5\\log 8$ adalah... Jawaban: $^2\\log 8 = 3$. \nOk, saya akan gunakan soal ini untuk ID 195. \n"
-  },
-  {
-    "id": 195,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $(^2\\log 3) \\cdot (^3\\log 5) \\cdot (^5\\log 8)$ adalah...",
+    "kategori": "Menengah",
+    "pertanyaan": "Jika $x + \\sqrt{x} = 1$, maka nilai dari $x + \\frac{1}{x}$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -221,7 +207,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat rantai logaritma: $^a\\log b \\cdot ^b\\log c = ^a\\log c$. Terapkan ini berulang-ulang.\n$^2\\log 3 \\cdot ^3\\log 5 = ^2\\log 5$.\nKemudian, $^2\\log 5 \\cdot ^5\\log 8 = ^2\\log 8$.\nKarena $8 = 2^3$, maka $^2\\log 8 = 3$."
+    "pembahasan": "Mulai dengan persamaan yang diberikan: $x + \\sqrt{x} = 1$.\nPindahkan x ke sisi kanan: $\\sqrt{x} = 1 - x$.\nKuadratkan kedua sisi: $(\\sqrt{x})^2 = (1-x)^2 \\implies x = 1 - 2x + x^2$.\nSusun ulang menjadi persamaan kuadrat: $x^2 - 3x + 1 = 0$.\nKarena $x$ tidak sama dengan nol, bagi seluruh persamaan dengan $x$: $\\frac{x^2}{x} - \\frac{3x}{x} + \\frac{1}{x} = 0 \\implies x - 3 + \\frac{1}{x} = 0$.\nSelesaikan untuk $x + \\frac{1}{x}$: $x + \\frac{1}{x} = 3$."
   },
   {
     "id": 196,
