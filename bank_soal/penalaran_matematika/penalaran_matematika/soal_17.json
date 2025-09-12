@@ -57,10 +57,16 @@
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah kolam renang berukuran 12 m \\times 8 m \\times 2 m diisi air dengan debit 80 liter/menit. Berapa jam waktu yang dibutuhkan?",
-    "pilihan": ["30 jam", "35 jam", "40 jam", "45 jam", "50 jam"],
+    "pertanyaan": "Sebuah kolam renang berukuran 12 m x 8 m x 2 m diisi air dengan debit 80 liter/menit. Berapa jam waktu yang dibutuhkan?",
+    "pilihan": [
+      "30 jam",
+      "35 jam",
+      "40 jam",
+      "45 jam",
+      "50 jam"
+    ],
     "jawaban": "C",
-    "pembahasan": "Untuk menyelesaikan soal ini, kita perlu menghitung volume kolam dan membaginya dengan debit aliran air, lalu mengubah satuannya.\n\n**Langkah 1: Hitung volume kolam.**\nRumus volume balok adalah $V = p \\times l \\times t$.\n$V = 12 \\, m \\times 8 \\, m \\times 2 \\, m = 192 \\, m^3$.\n\n**Langkah 2: Ubah satuan volume dari meter kubik ke liter.**\nKetentuan: $1 \\, m^3 = 1.000 \\, liter$.\n$V = 192 \\, m^3 = 192 \\times 1.000 = 192.000$ liter.\n\n**Langkah 3: Hitung waktu yang dibutuhkan dalam menit.**\nWaktu = $\\frac{\\text{Volume kolam}}{\\text{Debit air}} = \\frac{192.000 \\, liter}{80 \\, liter/menit} = 2.400$ menit.\n\n**Langkah 4: Ubah satuan waktu dari menit ke jam.**\nKetentuan: 1 jam = 60 menit.\nWaktu = $\\frac{2.400 \\, menit}{60 \\, menit/jam} = 40$ jam.\n\nJadi, waktu yang dibutuhkan untuk mengisi kolam adalah **40 jam**."
+    "pembahasan": "Untuk menyelesaikan soal ini, kita perlu menghitung volume kolam dan membaginya dengan debit aliran air, lalu mengubah satuannya.\n\n**Langkah 1: Hitung volume kolam.**\nVolume kolam = panjang x lebar x tinggi.\nVolume = 12 m x 8 m x 2 m = 192 meter kubik.\n\n**Langkah 2: Ubah satuan volume dari meter kubik ke liter.**\nPerlu diingat bahwa 1 meter kubik sama dengan 1.000 liter.\nVolume = 192 x 1.000 = 192.000 liter.\n\n**Langkah 3: Hitung waktu yang dibutuhkan dalam menit.**\nWaktu = Volume kolam / Debit air.\nWaktu = 192.000 liter / 80 liter/menit = 2.400 menit.\n\n**Langkah 4: Ubah satuan waktu dari menit ke jam.**\nKarena 1 jam = 60 menit, kita bagi total menit dengan 60.\nWaktu = 2.400 menit / 60 menit/jam = 40 jam.\n\nJadi, waktu yang dibutuhkan untuk mengisi kolam adalah **40 jam**."
   },
   {
     "id": 10,
