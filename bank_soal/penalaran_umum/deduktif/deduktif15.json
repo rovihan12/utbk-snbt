@@ -1,10 +1,16 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua buah citrus mengandung vitamin C.\nPremis 2: Jeruk adalah buah citrus.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Jeruk tidak mengandung vitamin C.", "Jeruk mungkin mengandung vitamin C.", "Jeruk pasti mengandung vitamin C.", "Hanya jeruk yang mengandung vitamin C.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua buah citrus mengandung vitamin C, dan jeruk termasuk kategori buah citrus, maka secara deduktif, jeruk pasti mengandung vitamin C."
+    "pertanyaan": "Sebuah penelitian tentang tidur menunjukkan bahwa rata-rata orang dewasa membutuhkan 7 hingga 9 jam tidur setiap malam untuk menjaga kesehatan mental dan fisik yang optimal. Tidur yang cukup dapat meningkatkan konsentrasi dan memori, sementara kurang tidur dapat menyebabkan penurunan daya tahan tubuh dan meningkatkan risiko penyakit jantung. Studi ini juga menemukan bahwa orang yang rutin berolahraga cenderung memiliki kualitas tidur yang lebih baik.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Kurang tidur dapat meningkatkan risiko penyakit jantung.",
+      "Tidur yang cukup dapat meningkatkan memori dan konsentrasi.",
+      "Orang yang jarang berolahraga cenderung memiliki kualitas tidur yang buruk.",
+      "Rata-rata orang dewasa membutuhkan lebih dari 6 jam tidur setiap malam.",
+      "Tidur kurang dari 7 jam setiap malam akan menjamin penurunan daya tahan tubuh."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Teks menyatakan bahwa kurang tidur 'dapat' (bukan 'akan menjamin') menyebabkan penurunan daya tahan tubuh. Kata 'dapat' menunjukkan kemungkinan, bukan kepastian. Oleh karena itu, pernyataan yang menggunakan kata 'akan menjamin' adalah kesimpulan yang pasti salah karena membuat klaim yang mutlak dan tidak didukung oleh premis."
   },
   {
     "id": 2,
