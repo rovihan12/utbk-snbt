@@ -1,10 +1,16 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua buku di perpustakaan A adalah buku berbahasa Inggris.\nPremis 2: Buku 'The Great Gatsby' ada di perpustakaan A.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Buku 'The Great Gatsby' tidak berbahasa Inggris.", "Buku 'The Great Gatsby' mungkin berbahasa Inggris.", "Buku 'The Great Gatsby' pasti berbahasa Inggris.", "Hanya buku 'The Great Gatsby' yang berbahasa Inggris di perpustakaan A.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Madu dikenal sebagai pemanis alami yang memiliki banyak manfaat kesehatan. Kandungan antioksidannya membantu melawan radikal bebas dalam tubuh. Selain itu, madu juga memiliki sifat antibakteri dan antijamur yang dapat membantu meredakan gejala batuk dan sakit tenggorokan. Meskipun demikian, madu tidak direkomendasikan untuk anak di bawah usia satu tahun karena risiko botulisme, sebuah kondisi langka yang disebabkan oleh spora bakteri yang mungkin ada di dalam madu.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Madu memiliki sifat yang dapat melawan bakteri dan jamur.",
+      "Spora bakteri dapat ditemukan di dalam madu.",
+      "Anak-anak di bawah usia satu tahun disarankan untuk mengonsumsi madu.",
+      "Madu mengandung antioksidan yang baik untuk kesehatan.",
+      "Madu dapat membantu meredakan gejala batuk."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua buku di perpustakaan A berbahasa Inggris, dan buku 'The Great Gatsby' ada di perpustakaan A, maka secara deduktif, buku 'The Great Gatsby' pasti berbahasa Inggris."
+    "pembahasan": "Dalam teks bacaan disebutkan bahwa 'madu tidak direkomendasikan untuk anak di bawah usia satu tahun'. Oleh karena itu, pernyataan yang menyebutkan madu 'disarankan' untuk anak di bawah satu tahun adalah pernyataan yang secara logis dan pasti salah berdasarkan informasi yang diberikan."
   },
   {
     "id": 2,
