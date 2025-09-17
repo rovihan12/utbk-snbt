@@ -21,11 +21,11 @@
     "pembahasan": "Soal ini adalah tentang perbandingan senilai. Semakin jauh jarak yang ditempuh, semakin banyak bensin yang dibutuhkan.\n\n**Langkah 1: Hitung konsumsi bensin mobil per kilometer.**\nKonsumsi bensin = $\\frac{\\text{Jarak tempuh}}{\\text{Bensin yang dibutuhkan}} = \\frac{180}{15} = 12$ km/liter.\nArtinya, setiap 1 liter bensin, mobil bisa menempuh 12 kilometer.\n\n**Langkah 2: Hitung bensin yang dibutuhkan untuk jarak 300 km.**\nBensin = $\\frac{\\text{Jarak yang diinginkan}}{\\text{Konsumsi bensin per liter}} = \\frac{300}{12} = 25$ liter.\n\nJadi, bensin yang dibutuhkan untuk menempuh 300 km adalah **25 liter**."
   },
   {
-    "id": 4,
-    "pertanyaan": "Jika $4x + 12 = 36$, maka nilai dari $2x - 5$ adalah...",
-    "pilihan": ["7", "9", "11", "13", "15"],
-    "jawaban": "A",
-    "pembahasan": "Soal ini meminta kita untuk menyelesaikan persamaan linear untuk menemukan nilai $x$ terlebih dahulu, kemudian menghitung nilai dari ekspresi lain.\n\n**Langkah 1: Selesaikan persamaan untuk menemukan nilai $x$.**\n$4x + 12 = 36$\nKurangi 12 dari kedua sisi: $4x = 36 - 12$\n$4x = 24$\nBagi kedua sisi dengan 4: $x = \\frac{24}{4} = 6$.\n\n**Langkah 2: Hitung nilai dari $2x - 5$.**\nSubstitusikan nilai $x=6$ ke dalam ekspresi.\n$2x - 5 = 2(6) - 5 = 12 - 5 = 7$.\n\nJadi, nilai dari $2x - 5$ adalah **7**."
+    "id": 1,
+    "pertanyaan": "Salah satu aspek yang dapat memengaruhi tingkat kedewasaan seseorang adalah umur. Umur seseorang (dalam tahun) yang dilahirkan $x$ hari yang lalu didefinisikan oleh fungsi $f$ sebagai berikut. Asumsikan $x$ haruslah bilangan asli. $f(x) = \\left \\lfloor \\frac{x}{365} \\right \\rfloor$. Apabila Adik dilahirkan 1000 hari yang lalu, umur Adik adalah... tahun",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "C",
+    "pembahasan": "Soal ini meminta kita untuk menghitung usia 'Adik' menggunakan fungsi yang diberikan. Fungsi $f(x) = \\left \\lfloor \\frac{x}{365} \\right \\rfloor$ menggunakan konsep fungsi floor ($\\left \\lfloor a \\right \\rfloor$), yang berarti membulatkan bilangan $a$ ke bawah ke bilangan bulat terdekat.\n\n**Langkah 1: Substitusikan nilai $x$ ke dalam fungsi.**\nDiketahui 'Adik' dilahirkan 1000 hari yang lalu, jadi $x = 1000$. Kita substitusikan nilai ini ke dalam fungsi.\n$f(1000) = \\left \\lfloor \\frac{1000}{365} \\right \\rfloor$\n\n**Langkah 2: Lakukan pembagian.**\n$\frac{1000}{365} \\approx 2.7397...$\n\n**Langkah 3: Terapkan fungsi floor.**\nFungsi floor akan membulatkan angka desimal ke bawah ke bilangan bulat terbesar yang kurang dari atau sama dengan angka tersebut.\n$\\left \\lfloor 2.7397... \\right \\rfloor = 2$\n\nJadi, umur Adik adalah **2 tahun**."
   },
   {
     "id": 5,
