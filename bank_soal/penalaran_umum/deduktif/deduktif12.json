@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua unggas memiliki paruh.\nPremis 2: Bebek adalah unggas.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bebek tidak memiliki paruh.", "Bebek mungkin memiliki paruh.", "Bebek pasti memiliki paruh.", "Hanya bebek yang memiliki paruh.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Sebuah studi menunjukkan bahwa membaca buku fiksi dapat meningkatkan empati seseorang. Selain itu, membaca secara rutin dapat membantu mengurangi tingkat stres dan meningkatkan fungsi kognitif. Studi tersebut juga menyebutkan bahwa membaca setidaknya 30 menit setiap hari memberikan manfaat yang optimal. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Membaca dapat membantu mengurangi stres.",
+      "Membaca fiksi dapat meningkatkan empati.",
+      "Hanya membaca fiksi yang dapat meningkatkan empati.",
+      "Membaca secara rutin dapat meningkatkan fungsi kognitif.",
+      "Membaca selama 30 menit setiap hari memberikan manfaat optimal."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua unggas memiliki paruh, dan bebek termasuk kategori unggas, maka secara deduktif, bebek pasti memiliki paruh."
+    "pembahasan": "Teks menyatakan 'membaca buku fiksi dapat meningkatkan empati', tetapi tidak menyatakan bahwa itu adalah satu-satunya cara. Pernyataan yang menggunakan kata 'hanya' adalah klaim absolut yang tidak didukung oleh premis."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika lampu menyala, maka listrik terhubung.\nPremis 2: Listrik tidak terhubung.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Lampu menyala.", "Lampu tidak menyala.", "Lampu kadang menyala saat listrik tidak terhubung.", "Listrik akan terhubung jika lampu menyala.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika lampu menyala, maka listrik terhubung) dan ¬Q (Listrik tidak terhubung), maka kesimpulannya adalah ¬P (Lampu tidak menyala). Logikanya, jika lampu menyala, itu berarti listriknya terhubung. Karena listriknya tidak terhubung, mustahil lampunya menyala."
+    "pertanyaan": "Premis 1: Jika seseorang berolahraga secara teratur, maka ia akan memiliki stamina yang baik.\nPremis 2: Arya berolahraga secara teratur.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Arya tidak memiliki stamina yang baik.",
+      "Arya mungkin memiliki stamina yang baik.",
+      "Arya pasti memiliki stamina yang baik.",
+      "Olahraga tidak selalu meningkatkan stamina.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah contoh **Modus Ponens**. Jika P → Q (Jika berolahraga teratur, maka stamina baik) dan P (Arya berolahraga teratur), maka kesimpulannya adalah Q (Arya pasti memiliki stamina yang baik)."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua kucing suka bermain.\nPremis 2: Anjing bukan kucing.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Anjing suka bermain.", "Anjing tidak suka bermain.", "Beberapa anjing suka bermain.", "Anjing adalah hewan peliharaan.", "Tidak dapat ditarik kesimpulan tentang kesukaan anjing bermain dari premis ini."],
-    "jawaban": "E",
-    "pembahasan": "Premis 1 memberikan informasi tentang kucing. Premis 2 hanya menyatakan bahwa anjing bukan kucing. Tidak ada informasi yang menghubungkan anjing dengan 'suka bermain' secara langsung atau tidak langsung melalui premis yang diberikan. Jadi, tidak ada kesimpulan deduktif yang valid mengenai kesukaan anjing bermain."
+    "pertanyaan": "Jika musim panas tiba, maka buah-buahan lokal akan melimpah. Saat ini, buah-buahan lokal tidak melimpah. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Saat ini adalah musim panas.",
+      "Saat ini bukan musim panas.",
+      "Buah-buahan lokal tidak pernah melimpah.",
+      "Musim panas tidak selalu menjamin buah-buahan melimpah.",
+      "Tidak dapat ditarik kesimpulan tentang musim."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika musim panas, maka buah melimpah) dan ¬Q (Buah tidak melimpah), maka kesimpulannya adalah ¬P (Saat ini bukan musim panas)."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Setiap siswa yang belajar keras akan mendapatkan nilai bagus.\nPremis 2: Rina mendapatkan nilai bagus.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rina belajar keras.", "Rina tidak belajar keras.", "Rina mungkin belajar keras.", "Hanya siswa yang belajar keras yang mendapatkan nilai bagus.", "Tidak dapat ditarik kesimpulan bahwa Rina belajar keras."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika belajar keras, maka nilai bagus) dan Q (Rina mendapatkan nilai bagus), tidak berarti P (Rina belajar keras). Rina bisa mendapatkan nilai bagus karena faktor lain (misalnya, soalnya mudah, atau dia sudah pintar dari awal). Premis tidak menyatakan 'hanya jika' belajar keras, melainkan 'setiap siswa yang belajar keras'."
+    "pertanyaan": "Premis 1: Semua anak di kelas 5 SD suka bermain sepak bola.\nPremis 2: Beberapa anak di kelas 5 SD adalah perempuan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Semua anak perempuan di kelas 5 SD suka bermain sepak bola.",
+      "Beberapa anak perempuan di kelas 5 SD suka bermain sepak bola.",
+      "Tidak ada anak perempuan yang suka bermain sepak bola.",
+      "Semua yang suka bermain sepak bola adalah anak laki-laki.",
+      "Tidak dapat ditarik kesimpulan."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1 menyatakan bahwa *semua* anak di kelas 5 SD suka bermain sepak bola. Karena beberapa anak di kelas 5 SD adalah perempuan, maka secara deduktif, **beberapa anak perempuan di kelas 5 SD suka bermain sepak bola**."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua buku di perpustakaan ini memiliki sampul.\nPremis 2: Novel 'Laskar Pelangi' ada di perpustakaan ini.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Novel 'Laskar Pelangi' tidak memiliki sampul.", "Novel 'Laskar Pelangi' mungkin memiliki sampul.", "Novel 'Laskar Pelangi' pasti memiliki sampul.", "Semua buku yang memiliki sampul adalah novel 'Laskar Pelangi'.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah deduksi langsung. Karena semua buku di perpustakaan memiliki sampul, dan novel 'Laskar Pelangi' adalah salah satu buku di perpustakaan itu, maka novel 'Laskar Pelangi' pasti memiliki sampul."
+    "pertanyaan": "Premis 1: Jika suatu negara memiliki pertumbuhan ekonomi yang baik, maka angka pengangguran akan menurun.\nPremis 2: Angka pengangguran di negara ini menurun.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Negara ini memiliki pertumbuhan ekonomi yang baik.",
+      "Negara ini tidak memiliki pertumbuhan ekonomi yang baik.",
+      "Negara ini mungkin memiliki pertumbuhan ekonomi yang baik.",
+      "Hanya pertumbuhan ekonomi yang baik yang dapat menurunkan angka pengangguran.",
+      "Tidak dapat ditarik kesimpulan bahwa negara ini memiliki pertumbuhan ekonomi yang baik."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Penurunan angka pengangguran bisa disebabkan oleh faktor lain selain pertumbuhan ekonomi, seperti program pelatihan kerja atau perubahan demografi. Premis tidak menyatakan 'hanya' jika pertumbuhan ekonomi baik maka angka pengangguran menurun."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika cuaca cerah, maka saya akan pergi ke pantai.\nPremis 2: Saya tidak pergi ke pantai.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Cuaca cerah.", "Cuaca tidak cerah.", "Saya tidak suka pantai.", "Saya pergi ke pantai meskipun cuaca tidak cerah.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Setiap pagi, Rudi minum teh atau susu. Pagi ini, Rudi tidak minum teh. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Rudi tidak minum susu pagi ini.",
+      "Rudi minum susu pagi ini.",
+      "Rudi mungkin minum susu pagi ini.",
+      "Teh dan susu adalah minuman favorit Rudi.",
+      "Tidak dapat ditarik kesimpulan."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika cuaca cerah, maka saya akan pergi ke pantai) dan ¬Q (Saya tidak pergi ke pantai), maka kesimpulannya adalah ¬P (Cuaca tidak cerah). Jika cuaca cerah, saya *pasti* akan ke pantai. Karena saya tidak ke pantai, berarti cuacanya tidak cerah."
+    "pembahasan": "Ini adalah **Silogisme Disjungtif**. Premis 1 memberikan dua pilihan yang harus dipilih salah satu (teh atau susu). Premis 2 meniadakan salah satu pilihan (tidak minum teh). Maka, kesimpulan yang pasti benar adalah pilihan yang tersisa, yaitu **Rudi minum susu pagi ini**."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Beberapa burung dapat berbicara.\nPremis 2: Semua burung memiliki sayap.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua burung yang memiliki sayap dapat berbicara.", "Beberapa burung yang memiliki sayap dapat berbicara.", "Beberapa burung yang dapat berbicara tidak memiliki sayap.", "Semua burung yang berbicara adalah burung.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Premis 1 menyatakan ada irisan antara 'burung' dan 'dapat berbicara'. Premis 2 menyatakan bahwa semua 'burung' memiliki 'sayap'. Karena ada burung yang bisa berbicara, dan semua burung punya sayap, maka secara deduktif, pasti ada **beberapa burung yang memiliki sayap dan juga dapat berbicara**."
+    "pertanyaan": "Sebuah tim riset mencatat bahwa konsumsi gula berlebihan dapat meningkatkan risiko diabetes dan obesitas. Mereka menemukan korelasi yang kuat antara konsumsi minuman manis dan peningkatan berat badan. Selain itu, riset ini menunjukkan bahwa membatasi konsumsi gula secara signifikan dapat membantu mengelola berat badan, tetapi tidak menjamin penurunan berat badan bagi setiap individu. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Konsumsi gula berlebihan dapat meningkatkan risiko diabetes.",
+      "Terdapat hubungan antara minuman manis dan peningkatan berat badan.",
+      "Membatasi gula akan menjamin penurunan berat badan.",
+      "Membatasi konsumsi gula dapat membantu mengelola berat badan.",
+      "Gula berlebihan dapat meningkatkan risiko obesitas."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa membatasi konsumsi gula 'tidak menjamin penurunan berat badan bagi setiap individu'. Oleh karena itu, pernyataan yang mengklaim bahwa itu 'akan menjamin' adalah klaim yang pasti salah karena bertentangan langsung dengan premis."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Semua pemain sepak bola adalah atlet.\nPremis 2: Rio adalah atlet.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rio adalah pemain sepak bola.", "Rio bukan pemain sepak bola.", "Rio mungkin pemain sepak bola.", "Semua atlet adalah pemain sepak bola.", "Tidak dapat ditarik kesimpulan apakah Rio pemain sepak bola atau bukan."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika pemain sepak bola, maka atlet) dan Q (Rio adalah atlet), tidak berarti P (Rio adalah pemain sepak bola). Rio bisa menjadi atlet dari cabang olahraga lain (misalnya, atlet bulu tangkis atau renang). Premis tidak menyatakan bahwa hanya pemain sepak bola yang atlet."
+    "pertanyaan": "Semua film fiksi ilmiah menampilkan efek visual yang menakjubkan. Film 'Interstellar' adalah film fiksi ilmiah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Film 'Interstellar' tidak menampilkan efek visual yang menakjubkan.",
+      "Film 'Interstellar' mungkin menampilkan efek visual yang menakjubkan.",
+      "Film 'Interstellar' pasti menampilkan efek visual yang menakjubkan.",
+      "Hanya film fiksi ilmiah yang menampilkan efek visual menakjubkan.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua film fiksi ilmiah memiliki efek visual yang menakjubkan, dan 'Interstellar' adalah film fiksi ilmiah, maka kesimpulannya pasti benar."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Setiap segitiga memiliki tiga sisi.\nPremis 2: Bangun A memiliki tiga sisi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bangun A adalah segitiga.", "Bangun A bukan segitiga.", "Bangun A mungkin segitiga.", "Hanya segitiga yang memiliki tiga sisi.", "Tidak dapat ditarik kesimpulan bahwa Bangun A adalah segitiga."],
-    "jawaban": "D",
-    "pembahasan": "Premis 1 menyatakan bahwa 'Setiap segitiga memiliki tiga sisi'. Ini adalah definisi atau properti yang melekat. Namun, kesimpulan ini adalah kebalikan dari pernyataan kondisional. Jika P (segitiga) maka Q (tiga sisi). Jika suatu bangun memiliki tiga sisi (Q), tidak berarti itu pasti segitiga (P) dalam konteks premis yang diberikan. *Namun*, dalam geometri, 'bangun datar dengan tiga sisi' adalah definisi dari segitiga. Ini adalah soal **tricky** karena menyentuh definisi matematis yang eksplisit. Jika suatu bangun memiliki tiga sisi, maka itu *adalah* segitiga. Pilihan A adalah kesimpulan yang valid karena definisi 'segitiga' secara inheren adalah bangun dengan tiga sisi. Pilihan D 'Hanya segitiga yang memiliki tiga sisi' adalah implikasi yang benar dari premis 1 dan pengetahuan umum, dan merupakan alasan mengapa A bisa disimpulkan. Tanpa 'Hanya segitiga yang memiliki tiga sisi' sebagai premis eksplisit, menarik kesimpulan A bisa menjadi afirmasi konsekuen. Namun, dalam konteks penalaran deduktif dengan asumsi definisi dasar geometri, pilihan A adalah yang paling kuat dan eksplisit."
+    "pertanyaan": "Premis 1: Jika saya lulus ujian, maka saya akan berlibur.\nPremis 2: Jika saya berlibur, maka saya akan mengunjungi pantai.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Saya lulus ujian, tetapi tidak mengunjungi pantai.",
+      "Saya tidak lulus ujian dan tidak mengunjungi pantai.",
+      "Jika saya lulus ujian, maka saya akan mengunjungi pantai.",
+      "Saya akan berlibur, tetapi tidak lulus ujian.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah **Silogisme Hipotetis**. Jika P → Q (Jika lulus ujian, maka berlibur) dan Q → R (Jika berlibur, maka mengunjungi pantai), maka kesimpulannya adalah P → R (Jika lulus ujian, maka akan mengunjungi pantai)."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua anggota klub drama adalah kreatif.\nPremis 2: Rudi adalah anggota klub drama.\nPremis 3: Orang kreatif suka seni.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rudi adalah kreatif dan suka seni.", "Rudi suka seni tetapi tidak kreatif.", "Semua yang suka seni adalah anggota klub drama.", "Orang kreatif adalah Rudi.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "A",
-    "pembahasan": "Ini adalah silogisme berantai. Dari Premis 1 dan 2, dapat disimpulkan bahwa Rudi adalah kreatif. Dari kesimpulan ini dan Premis 3, yaitu 'Orang kreatif suka seni', maka dapat disimpulkan bahwa Rudi suka seni. Menggabungkan kedua kesimpulan ini: **Rudi adalah kreatif dan suka seni**."
+    "pertanyaan": "Setiap anggota klub buku wajib membaca satu buku baru setiap bulan. Bulan ini, Maya tidak membaca satu buku baru pun. \n\nBerdasarkan pernyataan tersebut, manakah kesimpulan yang paling tepat?",
+    "pilihan": [
+      "Maya bukan anggota klub buku.",
+      "Maya melanggar peraturan klub buku.",
+      "Maya adalah anggota klub buku yang malas.",
+      "Semua anggota klub buku melanggar peraturan.",
+      "Tidak dapat ditarik kesimpulan tentang status keanggotaan Maya."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Jika anggota klub, maka wajib membaca. Diketahui Maya adalah anggota klub buku (implisit), dan ia tidak membaca buku. Oleh karena itu, ia melanggar peraturan yang ada. Ini adalah deduksi langsung."
   }
 ]
