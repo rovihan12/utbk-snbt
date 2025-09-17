@@ -1,18 +1,17 @@
-
 [
   {
     "id": 1,
-    "pertanyaan": "Seorang peneliti mengamati populasi bakteri yang berkembang mengikuti fungsi $P(t) = 1000 \\times 2^{0.1t}$, dimana $t$ dalam jam. Berapa jumlah bakteri setelah 15 jam?",
-    "pilihan": ["2.828", "4.000", "5.657", "8.000", "11.314"],
+    "pertanyaan": "Sebuah populasi bakteri bertambah 2 kali lipat setiap jamnya. Jika populasi awal ada 1.000, berapa jumlah bakteri setelah 3 jam?",
+    "pilihan": ["2.000", "4.000", "8.000", "16.000", "32.000"],
     "jawaban": "C",
-    "pembahasan": "Substitusi $$t=15$$: $$P(15) = 1000 \\times 2^{1.5} = 1000 \\times 2.828 \\approx 5657$$. Jadi jawabannya C."
+    "pembahasan": "Populasi awal 1.000. Setelah 1 jam menjadi 2.000, setelah 2 jam menjadi 4.000, dan setelah 3 jam menjadi 8.000. Rumus matematisnya adalah $1000 \times 2^3 = 8000$. Jadi, jawabannya adalah C."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah drone terbang dari titik $A(2,3)$$ ke titik $B(10,7)$ kemudian ke titik $C(6,12)$. Berapa total jarak yang ditempuh drone?",
-    "pilihan": ["$$10\\sqrt{2}$$", "$$12\\sqrt{5}$$", "$$4\\sqrt{17} + 2\\sqrt{13}$$", "$$4\\sqrt{5} + \\sqrt{41}$$", "$$8\\sqrt{2} + 4\\sqrt{5}$$"],
-    "jawaban": "D",
-    "pembahasan": "Jarak $$AB = \\sqrt{(10-2)^2+(7-3)^2} = \\sqrt{80} = 4\\sqrt{5}$$. Jarak $$BC = \\sqrt{(6-10)^2+(12-7)^2} = \\sqrt{41}$$. Total = $$4\\sqrt{5} + \\sqrt{41}$$."
+    "pertanyaan": "Pak Ali berjalan dari titik A ke titik B sejauh 3 km ke timur, kemudian berbelok ke utara sejauh 4 km. Berapa jarak terpendek (garis lurus) dari titik A ke titik B?",
+    "pilihan": ["3 km", "4 km", "5 km", "6 km", "7 km"],
+    "jawaban": "C",
+    "pembahasan": "Gerakan Pak Ali membentuk segitiga siku-siku. Jarak ke timur adalah 3 km (sisi A), dan jarak ke utara adalah 4 km (sisi B). Jarak terpendek dari titik awal adalah sisi miring dari segitiga tersebut. Dengan menggunakan Teorema Pythagoras, $A^2 + B^2 = C^2$, maka $3^2 + 4^2 = C^2$, yang berarti $9 + 16 = 25$. Akar dari 25 adalah 5. Jadi, jarak terpendeknya adalah 5 km."
   },
   {
     "id": 3,
