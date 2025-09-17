@@ -6,68 +6,123 @@
     "jawaban": "C",
     "pembahasan": "Jika semua mahasiswa diwajibkan membayar uang kuliah, dan Ani adalah seorang mahasiswa, maka secara deduktif Ani pasti harus membayar uang kuliah."
   },
+ ! bertelur, dan tikus adalah hewan pengerat, maka secara deduktif tikus tidak bertelur."
+  },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika tombol ditekan, maka lampu akan menyala.\nPremis 2: Lampu tidak menyala.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Tombol ditekan.", "Tombol tidak ditekan.", "Lampu selalu menyala saat tombol ditekan.", "Menyalakan lampu tidak tergantung tombol.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika tombol ditekan, maka lampu akan menyala) dan ¬Q (Lampu tidak menyala), maka kesimpulannya adalah ¬P (Tombol tidak ditekan)."
+    "pertanyaan": "Pada tahun ajaran baru, semua siswa baru diwajibkan mengikuti kegiatan orientasi. Selama kegiatan orientasi, mereka tidak diizinkan membawa telepon genggam. Saat ini, Rina sedang membawa telepon genggam di sekolah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Rina sedang tidak mengikuti kegiatan orientasi.",
+      "Rina adalah siswa baru.",
+      "Rina tidak diwajibkan mengikuti orientasi.",
+      "Rina tidak diizinkan membawa telepon genggam.",
+      "Tidak dapat ditarik kesimpulan tentang status Rina."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Premis 1: Jika siswa baru, maka wajib orientasi. Premis 2: Jika ikut orientasi, maka tidak boleh bawa HP. Kesimpulan: Jika siswa baru, maka tidak boleh bawa HP. Karena Rina sedang membawa HP (negasi dari premis 'tidak boleh bawa HP'), maka secara logis Rina sedang tidak mengikuti kegiatan orientasi. Ini adalah contoh Modus Tollens."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Tidak ada hewan pengerat yang bertelur.\nPremis 2: Tikus adalah hewan pengerat.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Tikus bertelur.", "Tikus mungkin bertelur.", "Tikus tidak bertelur.", "Semua yang tidak bertelur adalah tikus.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika tidak ada hewan pengerat yang bertelur, dan tikus adalah hewan pengerat, maka secara deduktif tikus tidak bertelur."
+    "pertanyaan": "Semua karyawan di kantor XYZ harus mengenakan seragam saat hari kerja. Hari ini, Joko datang ke kantor dan tidak mengenakan seragam. Berdasarkan pernyataan tersebut, Joko kemungkinan adalah...",
+    "pilihan": [
+      "Karyawan di kantor XYZ yang sedang tidak bekerja.",
+      "Seorang tamu yang datang ke kantor XYZ.",
+      "Karyawan di kantor XYZ yang melanggar aturan.",
+      "Bukan seorang karyawan di kantor XYZ.",
+      "Seorang manajer yang tidak wajib pakai seragam."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Premis 1: Jika karyawan, maka harus pakai seragam. Premis 2: Joko tidak pakai seragam. Kesimpulan yang paling logis adalah Joko bukan karyawan di kantor XYZ, atau ada kondisi lain seperti yang ada pada opsi E."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Semua buku di perpustakaan ini memiliki kode ISBN.\nPremis 2: Buku ini memiliki kode ISBN.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Buku ini ada di perpustakaan ini.", "Buku ini tidak ada di perpustakaan ini.", "Buku ini mungkin ada di perpustakaan ini.", "Semua yang memiliki kode ISBN ada di perpustakaan ini.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "pertanyaan": "Setiap peserta lomba lari marathon harus melewati pos pemeriksaan kesehatan. Anton berhasil melewati pos pemeriksaan kesehatan.\n\nKesimpulan yang pasti benar adalah...",
+    "pilihan": [
+      "Anton adalah peserta lomba lari marathon.",
+      "Anton bukan peserta lomba lari marathon.",
+      "Semua orang yang melewati pos pemeriksaan kesehatan adalah peserta lomba.",
+      "Anton mungkin peserta lomba lari marathon.",
+      "Tidak dapat ditarik kesimpulan bahwa Anton adalah peserta lomba lari marathon."
+    ],
     "jawaban": "E",
-    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika buku ada di perpustakaan ini, maka memiliki kode ISBN) dan Q (Buku ini memiliki kode ISBN), kita tidak bisa secara deduktif menyimpulkan P (Buku ini ada di perpustakaan ini). Banyak buku lain di luar perpustakaan ini juga memiliki kode ISBN."
+    "pembahasan": "Ini adalah **kekeliruan Afirmasi Konsekuen**. Premis tidak menyatakan bahwa 'hanya' peserta lomba lari marathon yang harus melewati pos pemeriksaan kesehatan. Banyak orang lain (misalnya, panitia atau penonton) juga bisa melewati pos tersebut. Oleh karena itu, kita tidak bisa menyimpulkan secara pasti bahwa Anton adalah peserta lomba."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Jika seseorang menaati peraturan, maka ia adalah warga negara yang baik.\nPremis 2: Edo tidak menaati peraturan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Edo adalah warga negara yang baik.", "Edo bukan warga negara yang baik.", "Edo mungkin warga negara yang baik.", "Semua yang tidak menaati peraturan adalah Edo.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika menaati peraturan, maka warga negara yang baik) dan ¬P (Tidak menaati peraturan), maka kesimpulannya adalah ¬Q (Bukan warga negara yang baik)."
+    "pertanyaan": "Semua tanaman di kebun Pak Budi adalah tanaman hias. Tanaman mawar ada di kebun Pak Budi. Sebagian tanaman hias memiliki bunga berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Tanaman mawar memiliki bunga berwarna merah.",
+      "Semua tanaman di kebun Pak Budi memiliki bunga berwarna merah.",
+      "Sebagian tanaman di kebun Pak Budi memiliki bunga berwarna merah.",
+      "Sebagian tanaman hias tidak memiliki bunga.",
+      "Tidak dapat ditarik kesimpulan mengenai warna bunga mawar."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Dari premis pertama, semua tanaman di kebun Pak Budi adalah tanaman hias. Premis ketiga menyatakan bahwa sebagian tanaman hias memiliki bunga berwarna merah. Maka, dapat ditarik kesimpulan bahwa sebagian dari tanaman di kebun Pak Budi (yang semuanya merupakan tanaman hias) memiliki bunga berwarna merah. Ini adalah contoh silogisme kategori dengan penggunaan kata 'sebagian'."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Beberapa burung dapat terbang.\nPremis 2: Semua yang dapat terbang memiliki sayap.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua burung memiliki sayap.", "Beberapa burung memiliki sayap.", "Semua yang memiliki sayap adalah burung.", "Beberapa yang memiliki sayap bukan burung.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "pertanyaan": "Jika hujan deras turun, jalanan akan tergenang air. Saat ini, lalu lintas di Jalan Sudirman lancar dan tidak tergenang air.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Jalanan di seluruh kota tidak tergenang air.",
+      "Tidak hujan deras turun di Jalan Sudirman.",
+      "Hujan deras tidak akan turun di Jalan Sudirman.",
+      "Tidak ada jalan lain yang tergenang air.",
+      "Tidak dapat ditarik kesimpulan tentang cuaca."
+    ],
     "jawaban": "B",
-    "pembahasan": "Karena ada beberapa burung yang dapat terbang, dan semua yang dapat terbang memiliki sayap, maka secara logis dapat disimpulkan bahwa beberapa burung memiliki sayap."
+    "pembahasan": "Ini adalah Modus Tollens. Jika P (hujan deras), maka Q (jalanan tergenang). Diketahui ¬Q (jalanan tidak tergenang), maka kesimpulannya adalah ¬P (tidak hujan deras)."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Semua kendaraan bermotor membutuhkan bahan bakar.\nPremis 2: Sepeda adalah kendaraan bermotor.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Sepeda membutuhkan bahan bakar.", "Sepeda tidak membutuhkan bahan bakar.", "Sepeda mungkin membutuhkan bahan bakar.", "Semua yang membutuhkan bahan bakar adalah sepeda.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "A",
-    "pembahasan": "Premis 2 menyatakan bahwa sepeda adalah kendaraan bermotor. Ini adalah premis yang salah di dunia nyata. Namun, dalam konteks penalaran deduktif, kita harus menerima premis yang diberikan. Jadi, jika 'sepeda adalah kendaraan bermotor' diterima sebagai premis, maka kesimpulannya, sepeda membutuhkan bahan bakar. Ini menguji kemampuan untuk tetap logis meskipun premisnya mungkin tidak sesuai dengan kenyataan."
+    "pertanyaan": "Semua peserta seminar adalah akademisi. Beberapa akademisi berasal dari luar kota. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Semua peserta seminar berasal dari luar kota.",
+      "Beberapa peserta seminar bukan akademisi.",
+      "Beberapa peserta seminar berasal dari luar kota.",
+      "Semua akademisi adalah peserta seminar.",
+      "Tidak dapat ditarik kesimpulan mengenai asal kota peserta seminar."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Semua peserta seminar (kumpulan A) adalah akademisi (kumpulan B), yang berarti kumpulan A berada di dalam kumpulan B. Karena beberapa anggota kumpulan B berasal dari luar kota, maka ada kemungkinan irisan antara peserta seminar dan akademisi yang berasal dari luar kota. Jadi, **beberapa peserta seminar berasal dari luar kota**."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Jika hujan lebat, maka banjir terjadi.\nPremis 2: Banjir terjadi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hujan lebat.", "Tidak hujan lebat.", "Banjir selalu terjadi saat hujan lebat.", "Banjir tidak tergantung hujan lebat.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "pertanyaan": "Semua peserta didik yang lulus ujian masuk universitas adalah orang yang pintar. Dian adalah orang yang pintar. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Dian adalah peserta didik yang lulus ujian masuk universitas.",
+      "Dian bukan peserta didik yang lulus ujian masuk universitas.",
+      "Dian mungkin adalah peserta didik yang lulus ujian masuk universitas.",
+      "Hanya orang pintar yang bisa lulus ujian masuk universitas.",
+      "Tidak dapat ditarik kesimpulan bahwa Dian lulus ujian masuk universitas."
+    ],
     "jawaban": "E",
-    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika hujan lebat, maka banjir terjadi) dan Q (Banjir terjadi), kita tidak bisa secara deduktif menyimpulkan P (Hujan lebat). Banjir bisa terjadi karena banyak faktor lain selain hujan lebat (misalnya, bendungan jebol, saluran air tersumbat, dll)."
+    "pembahasan": "Ini adalah **kekeliruan Afirmasi Konsekuen**. Teks menyatakan bahwa semua yang lulus ujian masuk universitas itu pintar, tetapi tidak menyatakan sebaliknya. Banyak orang lain yang juga pintar, tetapi tidak ikut atau tidak lulus ujian masuk universitas. Jadi, kesimpulannya tidak bisa dipastikan."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Semua anak-anak suka bermain.\nPremis 2: Beberapa orang dewasa suka bermain.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua anak-anak dan orang dewasa suka bermain.", "Beberapa anak-anak adalah orang dewasa yang suka bermain.", "Beberapa orang dewasa suka bermain seperti anak-anak.", "Semua yang suka bermain adalah anak-anak.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "E",
-    "pembahasan": "Premis-premis ini tidak memiliki hubungan logis yang kuat untuk menarik kesimpulan deduktif yang pasti tentang hubungan antara anak-anak dan orang dewasa dalam hal suka bermain. Premis 1 hanya tentang anak-anak, Premis 2 hanya tentang orang dewasa. Tidak ada irisan yang dapat disimpulkan secara deduktif."
+    "pertanyaan": "Jika musim kemarau, maka petani mengandalkan air irigasi. Saat ini, petani sedang tidak mengandalkan air irigasi. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Saat ini adalah musim kemarau.",
+      "Saat ini bukan musim kemarau.",
+      "Petani tidak pernah menggunakan air irigasi.",
+      "Petani hanya mengandalkan air irigasi saat musim kemarau.",
+      "Tidak dapat ditarik kesimpulan tentang musim saat ini."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah Modus Tollens. Jika P (musim kemarau), maka Q (petani mengandalkan air irigasi). Karena petani tidak mengandalkan air irigasi (¬Q), maka dapat disimpulkan bahwa saat ini bukan musim kemarau (¬P)."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua profesi membutuhkan keahlian khusus.\nPremis 2: Dokter adalah sebuah profesi.\nPremis 3: Belajar kedokteran membutuhkan waktu bertahun-tahun.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua keahlian khusus membutuhkan waktu bertahun-tahun.", "Dokter membutuhkan keahlian khusus.", "Hanya dokter yang membutuhkan waktu bertahun-tahun untuk belajar.", "Profesi lain tidak membutuhkan waktu bertahun-tahun.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Semua mamalia bernapas dengan paru-paru. Ikan paus adalah mamalia. Ikan paus hidup di laut.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Semua mamalia hidup di laut.",
+      "Ikan paus bernapas dengan paru-paru.",
+      "Hewan yang hidup di laut bernapas dengan paru-paru.",
+      "Semua hewan yang bernapas dengan paru-paru adalah ikan paus.",
+      "Tidak dapat ditarik kesimpulan mengenai cara bernapas ikan paus."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1 (Semua profesi membutuhkan keahlian khusus) dan Premis 2 (Dokter adalah sebuah profesi), secara deduktif dapat disimpulkan bahwa Dokter membutuhkan keahlian khusus. Premis 3 memberikan informasi tambahan tentang cara mendapatkan keahlian tersebut, tetapi tidak mengubah kesimpulan utama dari dua premis pertama."
+    "pembahasan": "Ini adalah deduksi langsung. Dari premis 1, semua mamalia bernapas dengan paru-paru. Dari premis 2, ikan paus adalah mamalia. Oleh karena itu, kesimpulan yang pasti benar adalah ikan paus bernapas dengan paru-paru."
   }
 ]
-
