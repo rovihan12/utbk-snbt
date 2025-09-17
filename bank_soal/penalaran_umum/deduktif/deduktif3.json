@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua unggas memiliki paruh.\nPremis 2: Ayam adalah unggas.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ayam tidak memiliki paruh.", "Ayam mungkin memiliki paruh.", "Ayam pasti memiliki paruh.", "Semua yang memiliki paruh adalah ayam.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Sebuah penelitian menemukan bahwa konsumsi kopi secara rutin dapat meningkatkan kewaspadaan, tetapi terlalu banyak kafein dapat menyebabkan jantung berdebar. Studi ini juga menyimpulkan bahwa efek kafein berbeda pada setiap individu, dan kafein tidak memengaruhi semua orang dengan cara yang sama. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Konsumsi kopi rutin dapat meningkatkan kewaspadaan.",
+      "Kafein dapat menyebabkan jantung berdebar pada beberapa orang.",
+      "Efek kafein selalu sama pada setiap individu.",
+      "Penelitian tersebut berfokus pada efek kafein.",
+      "Kafein tidak memengaruhi semua orang dengan cara yang sama."
+    ],
     "jawaban": "C",
-    "pembahasan": "Jika semua unggas memiliki paruh dan ayam adalah unggas, maka secara deduktif ayam pasti memiliki paruh."
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'efek kafein berbeda pada setiap individu'. Oleh karena itu, pernyataan yang mengklaim bahwa efeknya 'selalu sama' adalah pernyataan yang pasti salah."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika seseorang rajin menabung, maka ia akan kaya.\nPremis 2: Budi tidak kaya.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi rajin menabung.", "Budi tidak rajin menabung.", "Budi mungkin rajin menabung.", "Semua yang tidak kaya tidak rajin menabung.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika seseorang rajin menabung, maka ia akan kaya) dan ¬Q (Budi tidak kaya), maka kesimpulannya adalah ¬P (Budi tidak rajin menabung)."
+    "pertanyaan": "Premis 1: Jika hari ini cerah, maka saya akan pergi ke taman.\nPremis 2: Hari ini cerah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Saya tidak akan pergi ke taman.",
+      "Saya mungkin pergi ke taman.",
+      "Saya pasti pergi ke taman.",
+      "Pergi ke taman tidak selalu karena hari cerah.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah contoh **Modus Ponens**. Jika P → Q (Jika hari ini cerah, maka pergi ke taman) dan P (Hari ini cerah), maka kesimpulannya adalah Q (Saya pasti pergi ke taman)."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Setiap segitiga memiliki tiga sudut.\nPremis 2: Bangun ini adalah segitiga.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bangun ini tidak memiliki tiga sudut.", "Bangun ini mungkin memiliki tiga sudut.", "Bangun ini pasti memiliki tiga sudut.", "Semua yang memiliki tiga sudut adalah bangun ini.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Karena setiap segitiga memiliki tiga sudut dan bangun ini adalah segitiga, maka bangun ini pasti memiliki tiga sudut."
+    "pertanyaan": "Jika seseorang memiliki SIM, maka ia bisa mengendarai mobil. Budi tidak bisa mengendarai mobil.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Budi memiliki SIM.",
+      "Budi tidak memiliki SIM.",
+      "Budi mungkin memiliki SIM.",
+      "Semua orang yang bisa mengendarai mobil punya SIM.",
+      "Tidak dapat ditarik kesimpulan tentang SIM Budi."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika memiliki SIM, maka bisa mengendarai mobil) dan ¬Q (Budi tidak bisa mengendarai mobil), maka kesimpulannya adalah ¬P (Budi tidak memiliki SIM)."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Jika ada asap, maka ada api.\nPremis 2: Tidak ada asap.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ada api.", "Tidak ada api.", "Api selalu ada saat ada asap.", "Asap tidak menyebabkan api.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Ponens yang keliru (affirming the consequent). Seharusnya Modus Tollens jika ada negasi di kesimpulan. Namun, jika P → Q (Jika ada asap, maka ada api) dan ¬P (Tidak ada asap), maka secara deduktif kesimpulannya adalah ¬Q (Tidak ada api). Ini adalah inferensi yang valid."
+    "pertanyaan": "Semua laptop di toko ini memiliki RAM minimal 8 GB. Beberapa laptop di toko ini adalah laptop gaming.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Semua laptop gaming di toko ini memiliki RAM minimal 8 GB.",
+      "Beberapa laptop gaming di toko ini tidak memiliki RAM minimal 8 GB.",
+      "Tidak ada laptop gaming di toko ini yang memiliki RAM minimal 8 GB.",
+      "Semua laptop dengan RAM minimal 8 GB adalah laptop gaming.",
+      "Tidak dapat ditarik kesimpulan."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Premis 1 menyatakan bahwa *semua* laptop di toko tersebut memiliki RAM minimal 8 GB. Karena beberapa laptop gaming termasuk dalam kategori 'semua laptop di toko ini', maka semua laptop gaming di toko ini pasti memiliki RAM minimal 8 GB."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua mahasiswa tingkat akhir sedang menyusun skripsi.\nPremis 2: Sita adalah mahasiswa tingkat akhir.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Sita tidak sedang menyusun skripsi.", "Sita mungkin sedang menyusun skripsi.", "Sita pasti sedang menyusun skripsi.", "Semua yang sedang menyusun skripsi adalah Sita.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika semua mahasiswa tingkat akhir sedang menyusun skripsi dan Sita adalah mahasiswa tingkat akhir, maka Sita pasti sedang menyusun skripsi."
+    "pertanyaan": "Premis 1: Jika tim A memenangkan pertandingan, maka mereka akan lolos ke babak final.\nPremis 2: Tim A lolos ke babak final.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Tim A memenangkan pertandingan.",
+      "Tim A tidak memenangkan pertandingan.",
+      "Tim A mungkin memenangkan pertandingan.",
+      "Hanya jika tim A menang, mereka akan lolos.",
+      "Tidak dapat ditarik kesimpulan bahwa tim A memenangkan pertandingan."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Tim A bisa lolos ke babak final karena alasan lain (misalnya, tim lain didiskualifikasi). Premis tidak menyatakan bahwa 'hanya' jika tim A menang, mereka akan lolos."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika seseorang lapar, maka ia akan makan.\nPremis 2: Seseorang ini tidak makan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Seseorang ini lapar.", "Seseorang ini tidak lapar.", "Orang yang lapar selalu makan.", "Makan tidak mengurangi rasa lapar.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Menggunakan Modus Tollens, jika P → Q (Jika seseorang lapar, maka ia akan makan) dan ¬Q (Seseorang ini tidak makan), maka kesimpulannya adalah ¬P (Seseorang ini tidak lapar)."
+    "pertanyaan": "Seseorang yang membeli buku ini pasti membaca buku fiksi atau buku nonfiksi. Amir tidak membeli buku fiksi. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Amir membeli buku nonfiksi.",
+      "Amir tidak membeli buku nonfiksi.",
+      "Amir membeli buku fiksi dan nonfiksi.",
+      "Amir tidak membeli buku apa pun.",
+      "Tidak dapat ditarik kesimpulan."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah **Silogisme Disjungtif**. Premis 1 memberikan dua pilihan (fiksi atau nonfiksi). Premis 2 meniadakan salah satu pilihan (bukan fiksi). Maka, kesimpulan yang pasti benar adalah pilihan yang tersisa, yaitu **Amir membeli buku nonfiksi**."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Beberapa siswa memakai kacamata.\nPremis 2: Semua yang memakai kacamata adalah pintar.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua siswa adalah pintar.", "Beberapa siswa adalah pintar.", "Semua yang pintar adalah siswa.", "Beberapa yang pintar bukan siswa.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Karena ada beberapa siswa yang memakai kacamata, dan semua yang memakai kacamata adalah pintar, maka secara logis dapat disimpulkan bahwa beberapa siswa adalah pintar."
+    "pertanyaan": "Perusahaan B menyatakan bahwa semua produk mereka bebas gluten. Mereka juga mengklaim bahwa produk bebas gluten tidak berbahaya bagi penderita celiac. Namun, ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten, yang dapat memicu gejala pada penderita celiac yang sangat sensitif.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Produk bebas gluten tidak berbahaya bagi penderita celiac.",
+      "Perusahaan B mengklaim produknya bebas gluten.",
+      "Beberapa produk perusahaan B mengandung sedikit gluten.",
+      "Beberapa produk perusahaan B tidak berbahaya bagi penderita celiac.",
+      "Semua produk perusahaan B aman untuk penderita celiac."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Teks menyatakan bahwa 'ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten'. Jika sebagian produknya mengandung gluten, maka tidak semua produknya aman bagi penderita celiac. Oleh karena itu, klaim 'Semua produk perusahaan B aman...' adalah pernyataan yang pasti salah."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Semua sayuran mengandung vitamin.\nPremis 2: Wortel adalah sayuran.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Wortel tidak mengandung vitamin.", "Wortel mungkin mengandung vitamin.", "Wortel pasti mengandung vitamin.", "Semua yang mengandung vitamin adalah wortel.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika semua sayuran mengandung vitamin dan wortel adalah sayuran, maka wortel pasti mengandung vitamin."
+    "pertanyaan": "Semua guru bahasa Inggris harus memiliki sertifikat TOEFL. Siti adalah guru bahasa Inggris.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Siti memiliki sertifikat TOEFL.",
+      "Siti tidak memiliki sertifikat TOEFL.",
+      "Siti mungkin memiliki sertifikat TOEFL.",
+      "Hanya guru bahasa Inggris yang memiliki sertifikat TOEFL.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah deduksi langsung. Premis 1 menyatakan bahwa *semua* guru bahasa Inggris harus memiliki sertifikat TOEFL. Premis 2 menyatakan bahwa Siti adalah guru bahasa Inggris. Oleh karena itu, Siti pasti memiliki sertifikat TOEFL."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika cuaca cerah, maka kita akan pergi piknik.\nPremis 2: Kita tidak pergi piknik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Cuaca cerah.", "Cuaca tidak cerah.", "Kita selalu pergi piknik saat cuaca cerah.", "Piknik tidak tergantung cuaca.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Premis 1: Jika cuaca buruk, maka penerbangan akan ditunda.\nPremis 2: Jika penerbangan ditunda, maka jadwal perjalanan akan terganggu.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Cuaca buruk, tetapi jadwal perjalanan tidak terganggu.",
+      "Jika cuaca buruk, maka jadwal perjalanan akan terganggu.",
+      "Jadwal perjalanan terganggu, karena cuaca buruk.",
+      "Cuaca buruk tidak selalu mengganggu jadwal perjalanan.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Menggunakan Modus Tollens, jika P → Q (Jika cuaca cerah, maka kita akan pergi piknik) dan ¬Q (Kita tidak pergi piknik), maka kesimpulannya adalah ¬P (Cuaca tidak cerah)."
+    "pembahasan": "Ini adalah **Silogisme Hipotetis**. Jika P → Q (Jika cuaca buruk, maka penerbangan ditunda) dan Q → R (Jika penerbangan ditunda, maka jadwal terganggu), maka kesimpulannya adalah P → R (Jika cuaca buruk, maka jadwal perjalanan akan terganggu)."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua pekerja pabrik memakai seragam.\nPremis 2: Pak Dodi adalah pekerja pabrik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Pak Dodi tidak memakai seragam.", "Pak Dodi mungkin memakai seragam.", "Pak Dodi pasti memakai seragam.", "Semua yang memakai seragam adalah Pak Dodi.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika semua pekerja pabrik memakai seragam dan Pak Dodi adalah pekerja pabrik, maka Pak Dodi pasti memakai seragam."
+    "pertanyaan": "Semua hewan peliharaan membutuhkan makanan dan air. Kucing adalah hewan peliharaan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Kucing membutuhkan makanan dan air.",
+      "Kucing tidak membutuhkan makanan dan air.",
+      "Kucing mungkin membutuhkan makanan dan air.",
+      "Hanya hewan peliharaan yang membutuhkan makanan dan air.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua hewan peliharaan membutuhkan makanan dan air, dan kucing adalah hewan peliharaan, maka kucing pasti membutuhkan makanan dan air."
   }
 ]
