@@ -141,9 +141,9 @@
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah balok memiliki volume 1.200 cm³ dengan panjang 15 cm dan lebar 8 cm. Berapa tinggi balok tersebut?",
-    "pilihan": ["8 cm", "9 cm", "10 cm", "11 cm", "12 cm"],
+    "pertanyaan": "Seorang pengelola taman kota sedang merencanakan penanaman bunga. Setiap kali ia menanam bunga, ia mencatat jumlah hari sejak penanaman terakhir. Jumlah pupuk yang harus diberikan (dalam gram) didefinisikan oleh fungsi $P(h)$ sebagai berikut: $P(h) = \\left \\lfloor \\frac{2h + 10}{5} \\right \\rfloor$. Jika penanaman bunga dilakukan 17 hari yang lalu, berapakah jumlah pupuk yang harus diberikan?",
+    "pilihan": ["6 gram", "7 gram", "8 gram", "9 gram", "10 gram"],
     "jawaban": "C",
-    "pembahasan": "Volume = p × l × t.\n1200 = 15 × 8 × t.\nt = 1200/120 = 10 cm."
+    "pembahasan": "Soal ini meminta kita untuk menghitung jumlah pupuk yang harus diberikan dengan menggunakan fungsi $P(h) = \\left \\lfloor \\frac{2h + 10}{5} \\right \\rfloor$. Simbol \\(\\left \\lfloor a \\right \\rfloor\\) adalah fungsi floor, yang membulatkan bilangan $a$ ke bawah ke bilangan bulat terdekat.\n\n**Langkah 1: Substitusikan nilai $h$ ke dalam fungsi.**\nDiketahui penanaman bunga dilakukan 17 hari yang lalu, jadi $h = 17$. Substitusikan nilai ini ke dalam fungsi.\n$P(17) = \\left \\lfloor \\frac{2(17) + 10}{5} \\right \\rfloor$\n\n**Langkah 2: Lakukan perhitungan di dalam fungsi floor.**\nSelesaikan operasi perkalian dan penjumlahan terlebih dahulu.\n$2(17) = 34$\n$34 + 10 = 44$\n\nSekarang, persamaan menjadi:\n$P(17) = \\left \\lfloor \\frac{44}{5} \\right \\rfloor$\n\n**Langkah 3: Lakukan pembagian dan terapkan fungsi floor.**\n$\frac{44}{5} = 8.8$\n\nKemudian, terapkan fungsi floor pada hasil pembagian tersebut. Fungsi floor akan membulatkan angka desimal ke bawah ke bilangan bulat terbesar yang kurang dari atau sama dengan angka tersebut.\n$\\left \\lfloor 8.8 \\right \\rfloor = 8$\n\nJadi, jumlah pupuk yang harus diberikan adalah **8 gram**."
   }
 ]
