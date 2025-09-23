@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua hewan berkaki empat adalah mamalia.\nPremis 2: Kucing adalah hewan berkaki empat.\nPremis 3: Gajah adalah mamalia.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Kucing adalah mamalia.", "Gajah adalah hewan berkaki empat.", "Semua mamalia berkaki empat.", "Kucing dan gajah adalah mamalia.", "Tidak dapat ditarik kesimpulan secara valid mengenai semua mamalia."],
-    "jawaban": "A",
-    "pembahasan": "Dari Premis 1 (Semua hewan berkaki empat adalah mamalia) dan Premis 2 (Kucing adalah hewan berkaki empat), kita bisa langsung menyimpulkan bahwa **kucing adalah mamalia**. Premis 3 tentang gajah adalah informasi tambahan yang benar, tetapi tidak secara langsung berkaitan dengan kesimpulan yang ditarik dari dua premis pertama."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nPemerintah dan akademisi berkolaborasi dalam mengkaji dampak penggunaan media sosial terhadap kesehatan mental remaja. Penelitian menunjukkan bahwa penggunaan media sosial yang berlebihan dapat meningkatkan risiko depresi dan kecemasan, terutama pada remaja yang rentan. Hal ini sering kali disebabkan oleh perbandingan sosial yang konstan, tekanan untuk tampil sempurna, dan paparan cyberbullying. \n\nMenanggapi hal ini, beberapa negara mulai mempertimbangkan kebijakan yang membatasi akses remaja ke platform media sosial tertentu atau mewajibkan platform untuk mengimplementasikan fitur 'remind break'. Di sisi lain, para ahli digital berpendapat bahwa pembatasan tidak selalu menjadi solusi. Mereka menekankan pentingnya peran orang tua dan sekolah dalam memberikan edukasi literasi digital. Edukasi yang kuat dapat membekali remaja dengan kemampuan untuk menggunakan media sosial secara bijak dan sehat, tanpa harus sepenuhnya membatasi akses mereka. \n\nDi Indonesia, diskusi ini semakin relevan seiring dengan tingginya tingkat penetrasi internet. Meskipun platform media sosial telah menjadi bagian tak terpisahkan dari kehidupan remaja, penting untuk memastikan bahwa mereka memiliki pemahaman yang cukup tentang dampak negatif dan cara mengelola risiko tersebut. Keseimbangan antara kebebasan akses dan perlindungan kesehatan mental menjadi tantangan utama bagi semua pihak yang terlibat.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara penggunaan media sosial dan kesehatan mental remaja?",
+    "pilihan": [
+      "Penggunaan media sosial secara langsung menyebabkan depresi dan kecemasan pada semua remaja.",
+      "Penggunaan media sosial yang berlebihan dapat meningkatkan risiko depresi dan kecemasan pada remaja yang rentan.",
+      "Penggunaan media sosial tidak memiliki hubungan yang pasti dengan kesehatan mental remaja.",
+      "Pembatasan media sosial adalah satu-satunya solusi untuk mengatasi masalah kesehatan mental remaja.",
+      "Peran orang tua dan sekolah tidak relevan dalam mengatasi masalah ini."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa 'penggunaan media sosial yang berlebihan dapat meningkatkan risiko depresi dan kecemasan, terutama pada remaja yang rentan.' Pilihan B adalah pernyataan yang paling akurat dan sesuai dengan informasi dalam teks, karena menggunakan kata 'dapat' dan 'meningkatkan risiko' serta menyebutkan 'remaja yang rentan', yang mencerminkan nuansa ketidakpastian mutlak."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika saya belajar keras, saya akan mendapatkan nilai A.\nPremis 2: Saya mendapatkan nilai A.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya belajar keras.", "Saya tidak belajar keras.", "Saya mungkin belajar keras.", "Semua yang mendapatkan nilai A adalah karena belajar keras.", "Tidak dapat ditarik kesimpulan secara valid mengenai apakah saya belajar keras atau tidak."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kesalahan logika 'mengafirmasi konsekuen'. Meskipun belajar keras bisa menghasilkan nilai A, mendapatkan nilai A tidak selalu berarti seseorang belajar keras. Ada kemungkinan lain untuk mendapatkan nilai A (misalnya, soal ujian sangat mudah, kebetulan, atau sudah pandai sebelumnya). Jadi, kita tidak bisa secara deduktif memastikan bahwa 'saya belajar keras'."
+    "pertanyaan": "Jika kebijakan pembatasan akses media sosial tidak diterapkan, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Kesehatan mental remaja akan memburuk secara signifikan.",
+      "Edukasi literasi digital menjadi lebih penting.",
+      "Peran orang tua dan sekolah menjadi tidak relevan.",
+      "Remaja akan sepenuhnya terhindar dari cyberbullying.",
+      "Platform media sosial akan menghapus fitur 'remind break'."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa 'para ahli digital berpendapat bahwa pembatasan tidak selalu menjadi solusi. Mereka menekankan pentingnya peran orang tua dan sekolah dalam memberikan edukasi literasi digital.' Jika pembatasan tidak diterapkan, maka alternatif solusi, yaitu edukasi literasi digital, menjadi lebih penting."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Tidak ada ikan yang bisa hidup di darat.\nPremis 2: Paus adalah hewan air.\nPremis 3: Semua hewan air adalah ikan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Paus tidak bisa hidup di darat.", "Paus bisa hidup di darat.", "Paus adalah ikan.", "Paus bukan ikan.", "Tidak dapat ditarik kesimpulan secara valid mengenai paus dan hidup di darat."],
-    "jawaban": "A",
-    "pembahasan": "Pertama, mari kita lihat Premis 2 dan 3. Premis 3 menyatakan 'Semua hewan air adalah ikan'. Karena paus adalah hewan air (Premis 2), maka menurut premis ini, **paus adalah ikan**. Lalu, Premis 1 menyatakan 'Tidak ada ikan yang bisa hidup di darat'. Karena paus (yang di premis ini kita anggap ikan) tidak bisa hidup di darat, maka **paus tidak bisa hidup di darat**. (Perhatikan, dalam logika deduktif, kita harus menerima premis yang diberikan meskipun Premis 3 tidak benar di dunia nyata)."
+    "pertanyaan": "Jika literasi digital remaja tidak ditingkatkan, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Mereka akan menggunakan media sosial secara bijak.",
+      "Mereka akan memiliki pemahaman yang cukup tentang dampak negatif media sosial.",
+      "Risiko dari perbandingan sosial dan cyberbullying akan sulit dikendalikan.",
+      "Kebijakan pembatasan akses tidak lagi diperlukan.",
+      "Semua remaja akan berhenti menggunakan media sosial."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'Edukasi yang kuat dapat membekali remaja dengan kemampuan untuk menggunakan media sosial secara bijak dan sehat.' Jika literasi digital (bagian dari edukasi) tidak ditingkatkan, maka kemampuan untuk mengelola risiko (seperti perbandingan sosial dan cyberbullying) akan sulit."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Semua programmer menguasai setidaknya satu bahasa pemrograman.\nPremis 2: Budi adalah seorang programmer.\nPremis 3: Java adalah bahasa pemrograman.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi menguasai Java.", "Budi menguasai setidaknya satu bahasa pemrograman.", "Semua yang menguasai Java adalah programmer.", "Tidak ada programmer yang tidak menguasai bahasa pemrograman.", "Tidak dapat ditarik kesimpulan secara valid mengenai bahasa pemrograman yang dikuasai Budi."],
-    "jawaban": "B",
-    "pembahasan": "Dari Premis 1 dan Premis 2, kita bisa langsung menyimpulkan bahwa **Budi menguasai setidaknya satu bahasa pemrograman**. Kita tidak bisa menyimpulkan secara spesifik bahasa apa yang dikuasai Budi (misalnya Java), karena Premis 1 hanya mengatakan 'setidaknya satu', bukan 'semua bahasa yang ada' atau 'Java'."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Penggunaan media sosial yang berlebihan memicu kekhawatiran tentang kesehatan mental.",
+      "Edukasi literasi digital dianggap penting oleh beberapa ahli.",
+      "Pembatasan media sosial adalah satu-satunya solusi untuk semua masalah kesehatan mental remaja.",
+      "Remaja yang rentan berisiko lebih tinggi mengalami dampak negatif.",
+      "Perbandingan sosial adalah salah satu penyebab risiko depresi pada remaja."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'beberapa ahli digital berpendapat bahwa pembatasan tidak selalu menjadi solusi', yang secara langsung membantah pernyataan bahwa pembatasan adalah satu-satunya solusi."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Jika toko buka, lampu di dalamnya menyala.\nPremis 2: Lampu di toko tidak menyala.\nPremis 3: Hari ini adalah hari libur nasional.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Toko buka.", "Toko tidak buka.", "Hari ini toko buka.", "Hari ini toko tidak buka.", "Tidak dapat ditarik kesimpulan secara valid mengenai hari libur."],
-    "jawaban": "B",
-    "pembahasan": "Dari Premis 1 ('Jika toko buka, lampu menyala') dan Premis 2 ('Lampu di toko tidak menyala'), kita bisa menyimpulkan bahwa **toko tidak buka** (Modus Tollens). Informasi tentang hari libur nasional (Premis 3) mungkin menjelaskan mengapa toko tidak buka, tetapi kesimpulan tentang toko tidak buka sudah bisa ditarik hanya dari Premis 1 dan 2."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nIndustri makanan dan minuman vegan terus mengalami pertumbuhan pesat di seluruh dunia. Sebagian besar produk makanan vegan menggunakan bahan baku nabati seperti kedelai, kacang-kacangan, dan sayuran. Perusahaan yang memproduksi makanan vegan sering kali menargetkan konsumen yang peduli lingkungan dan kesehatan, yang ingin mengurangi konsumsi produk hewani. \n\nNamun, tidak semua produk vegan diciptakan sama. Beberapa produk olahan vegan mengandung bahan tambahan dan pengawet buatan yang dapat mengurangi manfaat kesehatannya. Oleh karena itu, bagi konsumen yang memilih produk vegan karena alasan kesehatan, penting untuk memeriksa label nutrisi dengan teliti. Hanya produk vegan dengan bahan alami minimal olahan yang dapat memberikan manfaat kesehatan optimal.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua produk makanan vegan bermanfaat untuk kesehatan.",
+      "Semua produk makanan nabati adalah vegan.",
+      "Semua perusahaan yang memproduksi makanan vegan menargetkan konsumen yang peduli lingkungan.",
+      "Sebagian besar produk makanan vegan menggunakan bahan baku nabati.",
+      "Produk olahan vegan tidak akan memberikan manfaat kesehatan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks secara langsung menyatakan bahwa 'Sebagian besar produk makanan vegan menggunakan bahan baku nabati seperti kedelai, kacang-kacangan, dan sayuran.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Setiap orang yang berprestasi tinggi adalah pekerja keras.\nPremis 2: Beberapa atlet adalah orang yang berprestasi tinggi.\nPremis 3: Tidak semua pekerja keras adalah atlet.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Beberapa atlet adalah pekerja keras.", "Semua atlet adalah pekerja keras.", "Tidak ada atlet yang berprestasi tinggi.", "Semua pekerja keras adalah orang yang berprestasi tinggi.", "Tidak dapat ditarik kesimpulan secara valid mengenai semua atlet."],
+    "pertanyaan": "Jika sebuah produk vegan tidak memiliki bahan alami minimal olahan, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Produk tersebut tidak memberikan manfaat kesehatan optimal.",
+      "Produk tersebut tidak cocok untuk konsumen yang peduli lingkungan.",
+      "Produk tersebut tidak mengandung bahan tambahan.",
+      "Produk tersebut tidak menggunakan bahan nabati.",
+      "Harga produk tersebut sangat mahal."
+    ],
     "jawaban": "A",
-    "pembahasan": "Jika semua orang berprestasi tinggi adalah pekerja keras, dan beberapa atlet adalah orang yang berprestasi tinggi, maka secara logis beberapa atlet tersebut pasti adalah **pekerja keras**. Premis 3 hanya menegaskan bahwa lingkaran pekerja keras lebih besar dari atlet, tetapi tidak mengubah kesimpulan ini."
+    "pembahasan": "Teks menyatakan bahwa 'Hanya produk vegan dengan bahan alami minimal olahan yang dapat memberikan manfaat kesehatan optimal.' Dengan demikian, jika suatu produk vegan tidak memenuhi kriteria tersebut, maka ia tidak dapat memberikan manfaat kesehatan yang optimal."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Jika seekor hewan adalah reptil, maka ia berdarah dingin.\nPremis 2: Jika seekor hewan berdarah dingin, maka ia membutuhkan sinar matahari untuk menghangatkan tubuh.\nPremis 3: Buaya adalah reptil.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Buaya berdarah dingin.", "Buaya membutuhkan sinar matahari untuk menghangatkan tubuh.", "Buaya tidak berdarah dingin.", "Semua hewan berdarah dingin adalah reptil.", "Tidak dapat ditarik kesimpulan secara valid mengenai buaya."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah silogisme berantai. Jika 'hewan adalah reptil' (A), maka 'berdarah dingin' (B). Jika 'berdarah dingin' (B), maka 'membutuhkan sinar matahari' (C). Karena 'buaya adalah reptil' (A), maka kesimpulannya 'buaya membutuhkan sinar matahari untuk menghangatkan tubuh' (C)."
+    "pertanyaan": "Jika seorang konsumen membeli produk vegan karena alasan kesehatan, manakah tindakan yang paling mungkin ia lakukan berdasarkan teks?",
+    "pilihan": [
+      "Membeli produk vegan tanpa melihat label.",
+      "Memastikan produk tersebut mengandung banyak pengawet buatan.",
+      "Membeli semua produk vegan yang tersedia di pasaran.",
+      "Memeriksa label nutrisi dengan teliti sebelum membeli.",
+      "Membeli produk hewani sebagai tambahan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks secara eksplisit menyarankan bahwa 'bagi konsumen yang memilih produk vegan karena alasan kesehatan, penting untuk memeriksa label nutrisi dengan teliti.' Ini adalah tindakan yang paling logis dan mungkin dilakukan oleh konsumen tersebut berdasarkan teks."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Semua manusia dapat berpikir.\nPremis 2: Beberapa makhluk hidup adalah manusia.\nPremis 3: Tanaman adalah makhluk hidup.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Tanaman dapat berpikir.", "Beberapa makhluk hidup dapat berpikir.", "Semua makhluk hidup dapat berpikir.", "Tanaman tidak dapat berpikir.", "Tidak dapat ditarik kesimpulan secara valid mengenai kemampuan berpikir tanaman."],
+    "pertanyaan": "Semua laptop gaming memiliki kartu grafis yang kuat. Sebagian laptop yang memiliki kartu grafis yang kuat memiliki layar resolusi tinggi. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua laptop gaming memiliki layar resolusi tinggi.",
+      "Sebagian laptop gaming memiliki layar resolusi tinggi.",
+      "Tidak ada laptop gaming yang memiliki layar resolusi tinggi.",
+      "Semua laptop yang memiliki layar resolusi tinggi adalah laptop gaming.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1 (Semua manusia dapat berpikir) dan Premis 2 (Beberapa makhluk hidup adalah manusia), kita bisa menyimpulkan bahwa **beberapa makhluk hidup dapat berpikir**. Premis 3 tentang tanaman adalah informasi tambahan, tetapi tidak mengubah kesimpulan ini. Kita tidak bisa menyimpulkan bahwa tanaman dapat berpikir atau tidak dapat berpikir dari premis yang diberikan."
+    "pembahasan": "Premis 1: Semua laptop gaming (A) memiliki kartu grafis yang kuat (B). Premis 2: Sebagian laptop yang memiliki kartu grafis yang kuat (B) memiliki layar resolusi tinggi (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian A (laptop gaming) juga memiliki C (layar resolusi tinggi). Ini adalah bentuk penalaran deduktif yang sahih."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Hanya karyawan yang memiliki akses ke ruang server yang diizinkan masuk setelah jam kerja.\nPremis 2: Pak Cipto tidak memiliki akses ke ruang server.\nPremis 3: Pak Cipto masuk setelah jam kerja.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Pak Cipto adalah karyawan.", "Pak Cipto seharusnya tidak masuk setelah jam kerja.", "Pak Cipto melanggar peraturan.", "Pak Cipto memiliki akses ke ruang server.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "C",
-    "pembahasan": "Premis 1 bisa diartikan sebagai: 'Jika seseorang masuk ruang server setelah jam kerja, maka ia memiliki akses'. Jika Pak Cipto tidak memiliki akses (Premis 2), tetapi dia masuk setelah jam kerja (Premis 3), ini berarti dia melanggar aturan yang disebutkan dalam Premis 1. Kesimpulan yang paling kuat adalah **Pak Cipto melanggar peraturan**."
+    "pertanyaan": "Jika semua negara yang memiliki ekonomi digital maju mengadopsi teknologi blockchain, dan sebuah negara tidak mengadopsi teknologi blockchain, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Negara tersebut memiliki ekonomi digital yang maju.",
+      "Negara tersebut tidak memiliki ekonomi digital yang maju.",
+      "Negara tersebut akan segera mengadopsi blockchain.",
+      "Semua negara yang tidak mengadopsi blockchain adalah negara dengan ekonomi digital yang maju.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Jika P (negara memiliki ekonomi digital maju), maka Q (negara mengadopsi teknologi blockchain). Premis 2: Ternyata tidak Q (negara tidak mengadopsi blockchain). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, negara tersebut tidak memiliki ekonomi digital yang maju."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Jika hari ini Senin, maka besok adalah Selasa.\nPremis 2: Jika besok adalah Selasa, maka lusa adalah Rabu.\nPremis 3: Hari ini bukan Senin.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Besok bukan Selasa.", "Lusa bukan Rabu.", "Lusa adalah Rabu.", "Besok adalah Selasa.", "Tidak dapat ditarik kesimpulan secara valid mengenai hari lusa."],
-    "jawaban": "E",
-    "pembahasan": "Dari Premis 1 ('Jika hari ini Senin, maka besok Selasa') dan Premis 3 ('Hari ini bukan Senin'), kita tidak bisa menyimpulkan apa-apa tentang besok (apakah Selasa atau bukan). Ini adalah kesalahan 'menyangkal anteseden'. Karena kita tidak bisa pasti menentukan hari besok, maka kita juga tidak bisa pasti menentukan hari lusa. Jadi, **tidak dapat ditarik kesimpulan secara valid mengenai hari lusa**."
+    "pertanyaan": "Semua orang yang berpartisipasi dalam program pelatihan A memiliki sertifikat kompetensi. Sebagian orang yang memiliki sertifikat kompetensi juga mengikuti program magang. Manakah simpulan yang paling tepat?",
+    "pilihan": [
+      "Semua orang yang berpartisipasi dalam program pelatihan A mengikuti program magang.",
+      "Semua orang yang mengikuti program magang berpartisipasi dalam program pelatihan A.",
+      "Sebagian orang yang berpartisipasi dalam program pelatihan A juga mengikuti program magang.",
+      "Tidak ada orang yang berpartisipasi dalam program pelatihan A mengikuti program magang.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Premis 1: Semua orang yang berpartisipasi dalam program pelatihan A (A) memiliki sertifikat kompetensi (B). Premis 2: Sebagian orang yang memiliki sertifikat kompetensi (B) juga mengikuti program magang (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian orang yang berpartisipasi dalam program pelatihan A (A) juga mengikuti program magang (C). Ini adalah penalaran deduktif yang valid."
   }
 ]
