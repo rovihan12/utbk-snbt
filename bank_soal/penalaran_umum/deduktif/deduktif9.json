@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua pemain catur profesional berpikir strategis.\nPremis 2: Beberapa mahasiswa adalah pemain catur profesional.\nPremis 3: Semua yang berpikir strategis dapat memecahkan masalah kompleks.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa dapat memecahkan masalah kompleks.", "Beberapa mahasiswa dapat memecahkan masalah kompleks.", "Tidak ada mahasiswa yang berpikir strategis.", "Semua yang dapat memecahkan masalah kompleks adalah mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nPemerintah dan perusahaan teknologi global sedang berdiskusi mengenai regulasi penggunaan kecerdasan buatan (AI) generatif. Peningkatan penggunaan AI generatif, seperti yang mampu membuat teks dan gambar, telah memicu kekhawatiran tentang penyebaran disinformasi dan pelanggaran hak cipta. Pemerintah berencana untuk menerapkan aturan ketat, termasuk mewajibkan penandaan (watermarking) pada konten yang dihasilkan AI. \n\nNamun, para pengembang AI berpendapat bahwa regulasi yang terlalu ketat dapat menghambat inovasi dan kemajuan teknologi. Mereka mengusulkan pendekatan berbasis kolaborasi, di mana industri dan pemerintah bekerja sama untuk menciptakan pedoman etis. Di sisi lain, beberapa aktivis digital menegaskan bahwa tanpa regulasi yang kuat, potensi dampak negatif AI terhadap masyarakat, seperti bias algoritmik dan otomatisasi pekerjaan, akan semakin sulit dikendalikan. \n\nDiskusi ini menunjukkan adanya keseimbangan yang rumit antara mendorong inovasi dan memastikan keamanan serta etika. Apapun hasil dari regulasi ini, penting untuk tetap fokus pada literasi digital masyarakat. Kemampuan untuk mengidentifikasi konten yang dihasilkan AI menjadi kunci untuk mengurangi risiko disinformasi, terlepas dari apakah regulasi tersebut diterapkan secara ketat atau tidak.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara regulasi dan inovasi AI?",
+    "pilihan": [
+      "Regulasi ketat selalu menghambat inovasi AI.",
+      "Regulasi yang terlalu ketat berpotensi menghambat inovasi AI.",
+      "Regulasi dan inovasi AI tidak memiliki hubungan yang pasti.",
+      "Regulasi ketat secara langsung mendorong inovasi AI.",
+      "Inovasi AI tidak akan terpengaruh oleh regulasi apapun."
+    ],
     "jawaban": "B",
-    "pembahasan": "Kita tahu bahwa semua pemain catur profesional berpikir strategis, dan beberapa mahasiswa adalah pemain catur profesional. Ini berarti beberapa mahasiswa berpikir strategis. Karena semua yang berpikir strategis bisa memecahkan masalah kompleks, maka beberapa mahasiswa ini juga bisa memecahkan masalah kompleks."
+    "pembahasan": "Teks menyatakan bahwa 'para pengembang AI berpendapat bahwa regulasi yang terlalu ketat dapat menghambat inovasi.' Pilihan B adalah pernyataan yang paling akurat dan sesuai dengan informasi dalam teks, karena menggunakan kata 'berpotensi' yang mencerminkan pandangan para pengembang, bukan suatu kepastian."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika sebuah perangkat elektronik rusak, maka ia tidak dapat diisi ulang dayanya.\nPremis 2: Baterai perangkat ini habis, tetapi perangkatnya dapat diisi ulang dayanya.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Perangkat ini rusak.", "Perangkat ini tidak rusak.", "Baterai perangkat ini tidak habis.", "Semua perangkat yang tidak dapat diisi ulang dayanya rusak.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Premis 1 menyatakan bahwa kerusakan perangkat berarti tidak bisa diisi ulang. Premis 2 mengatakan perangkat itu *bisa* diisi ulang. Jadi, kalau perangkat bisa diisi ulang, itu berarti perangkatnya tidak rusak. Ini adalah penerapan Modus Tollens secara terbalik."
+    "pertanyaan": "Jika penandaan (watermarking) pada konten AI diwajibkan, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Penyebaran disinformasi akan sepenuhnya terhenti.",
+      "Pelanggaran hak cipta akan meningkat.",
+      "Masyarakat akan lebih mudah mengidentifikasi konten buatan AI.",
+      "Semua konten AI akan dihapus dari internet.",
+      "Pengembangan AI akan terhenti."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa salah satu kekhawatiran dari AI adalah 'penyebaran disinformasi' dan salah satu solusi yang diusulkan adalah 'mewajibkan penandaan (watermarking)'. Tujuan dari penandaan ini adalah untuk membuat konten AI dapat dikenali, sehingga memudahkan masyarakat untuk mengidentifikasinya."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Tidak ada kucing yang bisa berbicara.\nPremis 2: Semua hewan peliharaan Pak Budi bisa berbicara.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hewan peliharaan Pak Budi adalah kucing.", "Hewan peliharaan Pak Budi bukan kucing.", "Beberapa kucing bisa berbicara.", "Tidak ada hewan peliharaan Pak Budi yang bisa berbicara.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "B",
-    "pembahasan": "Jika tidak ada kucing yang bisa berbicara, dan semua hewan peliharaan Pak Budi bisa berbicara, maka secara logis hewan peliharaan Pak Budi tidak mungkin kucing. Jika mereka kucing, mereka tidak akan bisa berbicara, yang bertentangan dengan premis kedua."
+    "pertanyaan": "Jika literasi digital masyarakat tidak ditingkatkan, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Regulasi AI tidak lagi diperlukan.",
+      "Risiko disinformasi akan berkurang.",
+      "Potensi dampak negatif AI akan mudah dikendalikan.",
+      "Masyarakat akan kesulitan mengidentifikasi konten yang dihasilkan AI.",
+      "Industri dan pemerintah akan lebih mudah berkolaborasi."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'Kemampuan untuk mengidentifikasi konten yang dihasilkan AI menjadi kunci untuk mengurangi risiko disinformasi' dan kemampuan ini sangat bergantung pada literasi digital. Oleh karena itu, jika literasi digital tidak ditingkatkan, kemampuan untuk mengidentifikasi konten AI akan sulit, dan risiko disinformasi akan tetap tinggi."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Jika seorang siswa rajin belajar, ia akan mendapatkan nilai bagus.\nPremis 2: Jika seorang siswa mendapatkan nilai bagus, ia akan diterima di universitas impiannya.\nPremis 3: Dani tidak diterima di universitas impiannya.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Dani rajin belajar.", "Dani tidak rajin belajar.", "Dani mendapatkan nilai bagus.", "Dani tidak mendapatkan nilai bagus.", "Tidak dapat ditarik kesimpulan secara valid mengenai kerajinan belajar Dani."],
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Penggunaan AI generatif memicu kekhawatiran tentang disinformasi.",
+      "Beberapa aktivis digital tidak setuju dengan regulasi AI.",
+      "Regulasi yang terlalu ketat berisiko menghambat inovasi.",
+      "Literasi digital penting untuk mengurangi risiko disinformasi.",
+      "Otomatisasi pekerjaan adalah dampak potensial dari AI."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah gabungan silogisme hipotetis dan Modus Tollens. Jika rajin belajar (A) maka nilai bagus (B). Jika nilai bagus (B) maka diterima universitas (C). Jadi, jika rajin belajar (A) maka diterima universitas (C). Karena Dani tidak diterima di universitas (bukan C), maka dia pasti tidak rajin belajar (bukan A). Dia pasti juga tidak mendapatkan nilai bagus."
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'beberapa aktivis digital menegaskan bahwa **tanpa regulasi yang kuat**, potensi dampak negatif AI...akan semakin sulit dikendalikan.' Ini menunjukkan bahwa mereka justru mendukung, bukan tidak setuju, dengan regulasi AI."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua buku di rak ini berwarna merah.\nPremis 2: Ada buku berwarna hijau di perpustakaan.\nPremis 3: Buku ini ada di perpustakaan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Buku ini berwarna merah.", "Buku ini berwarna hijau.", "Buku ini tidak ada di rak ini.", "Semua buku di perpustakaan berwarna hijau.", "Tidak dapat ditarik kesimpulan secara valid mengenai warna buku ini."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nFenomena 'work from anywhere' (WFA) atau kerja dari mana saja semakin populer di kalangan profesional. Sebuah studi terbaru menemukan bahwa semua perusahaan yang menerapkan kebijakan WFA dengan aturan yang fleksibel mengalami peningkatan retensi karyawan. Karyawan yang merasa diberi otonomi dan kepercayaan cenderung lebih loyal dan puas dengan pekerjaan mereka. Sebaliknya, perusahaan yang tidak menawarkan fleksibilitas lokasi kerja sering kali mengalami tingkat *turnover* (pergantian karyawan) yang tinggi. \n\nNamun, penerapan WFA juga memiliki tantangan, terutama terkait koordinasi tim. Tim yang bekerja dari lokasi berbeda memerlukan alat kolaborasi digital yang canggih untuk memastikan komunikasi tetap lancar. Tanpa alat yang tepat, efektivitas kerja tim dapat menurun. Oleh karena itu, kesuksesan WFA sangat bergantung pada investasi perusahaan dalam teknologi dan infrastruktur yang mendukung kolaborasi jarak jauh.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua perusahaan dengan retensi karyawan tinggi menerapkan WFA.",
+      "Fleksibilitas lokasi kerja selalu menjamin loyalitas karyawan.",
+      "Semua perusahaan yang menerapkan WFA dengan aturan fleksibel mengalami peningkatan retensi karyawan.",
+      "Perusahaan yang tidak menawarkan fleksibilitas akan selalu mengalami turnover tinggi.",
+      "Semua karyawan yang merasa loyal adalah mereka yang bekerja secara fleksibel."
+    ],
     "jawaban": "C",
-    "pembahasan": "Premis 1 menyatakan bahwa semua buku di *rak ini* berwarna merah. Premis 3 menyatakan bahwa buku ini ada di *perpustakaan*. Kita tidak tahu apakah buku ini ada di rak yang dimaksud dalam Premis 1 atau di bagian lain perpustakaan. Jika buku ini berwarna hijau (sesuai Premis 2), maka otomatis buku ini tidak bisa ada di rak yang dimaksud Premis 1, karena semua buku di rak itu merah. Jadi, jika buku itu hijau (kemungkinan dari perpustakaan), maka itu bukan di rak merah. Jika kita tidak tahu warnanya, kita tidak bisa menyimpulkan warnanya, tapi kita tahu buku itu tidak bisa berada di rak jika warnanya bukan merah."
+    "pembahasan": "Teks secara langsung menyatakan bahwa 'semua perusahaan yang menerapkan kebijakan WFA dengan aturan yang fleksibel mengalami peningkatan retensi karyawan.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika hujan, jalanan basah.\nPremis 2: Jika jalanan basah, pengendara harus berhati-hati.\nPremis 3: Jalanan tidak basah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hujan.", "Tidak hujan.", "Pengendara harus berhati-hati.", "Pengendara tidak perlu berhati-hati.", "Tidak dapat ditarik kesimpulan secara valid mengenai apakah hujan atau tidak."],
+    "pertanyaan": "Jika sebuah perusahaan mengalami tingkat turnover yang tinggi, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut tidak memiliki alat kolaborasi digital yang canggih.",
+      "Perusahaan tersebut tidak menerapkan kebijakan WFA dengan aturan yang fleksibel.",
+      "Karyawan di perusahaan tersebut tidak loyal.",
+      "Perusahaan tersebut memiliki tingkat retensi karyawan yang rendah.",
+      "Perusahaan tersebut tidak berinvestasi pada teknologi."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari 'Jika hujan, jalanan basah' dan 'Jalanan tidak basah', kita bisa menyimpulkan bahwa 'Tidak hujan' (Modus Tollens). Informasi tentang pengendara harus berhati-hati menjadi tidak relevan karena kondisi 'jalanan basah' tidak terpenuhi."
+    "pembahasan": "Teks menyatakan bahwa 'perusahaan yang tidak menawarkan fleksibilitas lokasi kerja sering kali mengalami tingkat turnover yang tinggi.' Oleh karena itu, jika sebuah perusahaan mengalami tingkat turnover tinggi, ada kemungkinan besar penyebabnya adalah tidak adanya fleksibilitas lokasi kerja."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Hanya orang yang memiliki SIM yang boleh mengemudi mobil.\nPremis 2: Budi mengemudi mobil.\nPremis 3: Ani memiliki SIM.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ani mengemudi mobil.", "Budi memiliki SIM.", "Ani tidak mengemudi mobil.", "Tidak ada yang mengemudi mobil tanpa SIM.", "Tidak dapat ditarik kesimpulan secara valid mengenai Ani."],
-    "jawaban": "B",
-    "pembahasan": "Premis 1 adalah kalimat kondisional yang kuat: 'Jika seseorang mengemudi mobil, maka ia memiliki SIM'. Karena Budi mengemudi mobil, maka secara deduktif Budi pasti memiliki SIM. Informasi tentang Ani memiliki SIM tidak bisa digunakan untuk menyimpulkan apakah Ani mengemudi mobil atau tidak."
+    "pertanyaan": "Jika sebuah tim bekerja dari lokasi yang berbeda tanpa alat kolaborasi digital yang canggih, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Efektivitas kerja tim akan menurun.",
+      "Karyawan akan merasa lebih loyal.",
+      "Perusahaan akan mengalami peningkatan retensi karyawan.",
+      "Komunikasi tim akan tetap lancar.",
+      "Perusahaan tersebut tidak menerapkan WFA."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Teks menyatakan bahwa 'Tanpa alat yang tepat, efektivitas kerja tim dapat menurun.' Jika sebuah tim bekerja dari lokasi berbeda, alat kolaborasi digital yang canggih adalah alat yang 'tepat'. Jadi, tanpa alat tersebut, efektivitas kerja tim akan menurun."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Semua hewan karnivora memakan daging.\nPremis 2: Beruang adalah hewan omnivora.\nPremis 3: Hewan omnivora memakan tumbuhan dan daging.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Beruang memakan tumbuhan.", "Beruang memakan daging.", "Beruang memakan tumbuhan dan daging.", "Beruang tidak memakan daging.", "Tidak dapat ditarik kesimpulan secara valid mengenai apa yang dimakan beruang."],
-    "jawaban": "C",
-    "pembahasan": "Premis 2 dan 3 secara langsung menyatakan bahwa beruang adalah omnivora, dan hewan omnivora memakan tumbuhan dan daging. Jadi, beruang memakan tumbuhan dan daging."
+    "pertanyaan": "Semua film fiksi ilmiah (sci-fi) yang sukses adalah film yang memiliki alur cerita yang kompleks. Sebagian film fiksi ilmiah yang sukses juga memenangkan penghargaan. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua film yang memiliki alur cerita yang kompleks adalah film sci-fi yang sukses.",
+      "Sebagian film sci-fi yang sukses memiliki alur cerita yang kompleks dan memenangkan penghargaan.",
+      "Semua film yang memenangkan penghargaan adalah film sci-fi yang sukses.",
+      "Tidak ada film sci-fi yang memenangkan penghargaan.",
+      "Semua film yang memiliki alur cerita yang kompleks tidak memenangkan penghargaan."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua film sci-fi sukses (A) memiliki alur cerita yang kompleks (B). Premis 2: Sebagian film sci-fi sukses (A) memenangkan penghargaan (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa ada irisan antara B dan C, yaitu sebagian film sci-fi sukses memiliki alur cerita yang kompleks dan memenangkan penghargaan."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika suhu di atas 30°C, maka AC harus dinyalakan.\nPremis 2: Jika AC dinyalakan, maka biaya listrik akan meningkat.\nPremis 3: Biaya listrik tidak meningkat.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["AC tidak dinyalakan.", "Suhu di atas 30°C.", "Suhu tidak di atas 30°C.", "AC dinyalakan.", "Tidak dapat ditarik kesimpulan secara valid mengenai suhu."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah Modus Tollens berantai. Dari 'Jika AC dinyalakan, maka biaya listrik akan meningkat' dan 'Biaya listrik tidak meningkat', kita bisa menyimpulkan bahwa 'AC tidak dinyalakan'. Kemudian, dari 'Jika suhu di atas 30°C, maka AC harus dinyalakan' dan 'AC tidak dinyalakan', kita bisa menyimpulkan bahwa 'Suhu tidak di atas 30°C'."
+    "pertanyaan": "Jika semua aplikasi yang populer memiliki antarmuka yang ramah pengguna, dan sebuah aplikasi tidak memiliki antarmuka yang ramah pengguna, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Aplikasi tersebut adalah aplikasi yang populer.",
+      "Aplikasi tersebut bukan aplikasi yang populer.",
+      "Aplikasi tersebut tidak bisa diunduh.",
+      "Semua aplikasi yang tidak populer memiliki antarmuka yang tidak ramah pengguna.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Jika P (aplikasi populer), maka Q (antarmuka ramah pengguna). Premis 2: Ternyata tidak Q (aplikasi tidak memiliki antarmuka ramah pengguna). Berdasarkan prinsip *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, aplikasi tersebut bukan aplikasi yang populer."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Tidak ada politisi yang sepenuhnya jujur.\nPremis 2: Senator X adalah politisi.\nPremis 3: Orang yang tidak jujur sering berbohong.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Senator X berbohong.", "Senator X tidak jujur.", "Semua politisi berbohong.", "Senator X adalah orang yang sering berbohong.", "Tidak dapat ditarik kesimpulan secara valid bahwa Senator X sering berbohong."],
-    "jawaban": "E",
-    "pembahasan": "Dari Premis 1 dan 2, kita bisa simpulkan bahwa Senator X tidak sepenuhnya jujur (jawaban B). Namun, Premis 3 mengatakan 'Orang yang tidak jujur *sering* berbohong', bukan 'selalu berbohong'. Kata 'sering' menunjukkan kemungkinan, bukan kepastian. Jadi, kita tidak bisa secara deduktif dan pasti menyimpulkan bahwa Senator X *sering* berbohong, meskipun dia tidak sepenuhnya jujur. Kita hanya tahu bahwa dia tidak sepenuhnya jujur."
+    "pertanyaan": "Setiap atlet yang disiplin berlatih setiap hari. Sebagian atlet yang disiplin tidak mengikuti kompetisi. Manakah simpulan yang paling tepat?",
+    "pilihan": [
+      "Semua atlet yang berlatih setiap hari mengikuti kompetisi.",
+      "Semua atlet yang disiplin berlatih setiap hari dan tidak mengikuti kompetisi.",
+      "Sebagian atlet yang berlatih setiap hari tidak mengikuti kompetisi.",
+      "Tidak ada atlet yang berlatih setiap hari tidak mengikuti kompetisi.",
+      "Semua atlet yang tidak mengikuti kompetisi adalah atlet yang disiplin."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Premis 1: Semua atlet yang disiplin (A) berlatih setiap hari (B). Premis 2: Sebagian atlet yang disiplin (A) tidak mengikuti kompetisi (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian atlet yang berlatih setiap hari (B) tidak mengikuti kompetisi (C). Ini adalah penalaran deduktif yang valid."
   }
 ]
