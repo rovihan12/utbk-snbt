@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua reptil memiliki sisik.\nPremis 2: Buaya adalah reptil.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Buaya mungkin memiliki sisik.", "Buaya tidak memiliki sisik.", "Buaya pasti memiliki sisik.", "Hanya buaya yang memiliki sisik.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nFederasi Sepak Bola Internasional (FIFA) dan Uni Sepak Bola Eropa (UEFA) baru-baru ini menuai kritik atas dugaan standar ganda dalam menanggapi konflik geopolitik. Kritik ini muncul setelah kedua federasi tersebut tidak memberikan sanksi atau *ban* kepada Israel, meskipun pemerintahnya dituduh melakukan kejahatan perang di Palestina yang juga menargetkan pesepakbola. Keputusan ini dinilai kontras dengan tindakan mereka terhadap Rusia yang secara cepat diberikan sanksi berat dan dikeluarkan dari berbagai kompetisi internasional, menyusul invasi ke Ukraina. \n\nPihak yang mengkritik berpendapat bahwa FIFA dan UEFA seharusnya memiliki sikap yang konsisten dan netral terhadap semua konflik. Jika sanksi diberlakukan untuk satu negara karena alasan politik, maka seharusnya perlakuan yang sama juga diterapkan pada negara lain. Mereka menyoroti bahwa tindakan ini tidak hanya mencoreng citra netralitas olahraga, tetapi juga mengkhianati nilai-nilai kemanusiaan yang sering mereka promosikan. \n\nDi sisi lain, FIFA dan UEFA belum memberikan penjelasan resmi yang komprehensif terkait perbedaan sikap ini. Ada dugaan bahwa keputusan mereka dipengaruhi oleh tekanan politik dan finansial dari kekuatan-kekuatan besar dunia. Apapun alasannya, peristiwa ini menyoroti perdebatan yang lebih luas mengenai hubungan yang rumit antara olahraga, politik, dan HAM. \n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai alasan kritik terhadap FIFA dan UEFA?",
+    "pilihan": [
+      "FIFA dan UEFA tidak bereaksi terhadap konflik geopolitik apa pun.",
+      "FIFA dan UEFA menerapkan sanksi kepada Israel tetapi tidak kepada Rusia.",
+      "FIFA dan UEFA dianggap memiliki standar ganda dalam menerapkan sanksi terhadap negara-negara yang berkonflik.",
+      "Kedua federasi terlalu cepat dalam memberikan sanksi kepada Rusia.",
+      "FIFA dan UEFA secara transparan menjelaskan perbedaan sikap mereka."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua reptil memiliki sisik, dan buaya termasuk kategori reptil, maka secara deduktif, buaya pasti memiliki sisik."
+    "pembahasan": "Teks menyatakan bahwa kritik muncul karena 'dugaan standar ganda dalam menanggapi konflik geopolitik' yang ditunjukkan oleh perbedaan perlakuan terhadap Israel dan Rusia. Pilihan C adalah kesimpulan yang paling akurat dari premis tersebut."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika air mendidih, maka suhunya mencapai 100°C.\nPremis 2: Air ini tidak mencapai 100°C.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Air ini mendidih.", "Air ini tidak mendidih.", "Air ini akan mendidih jika suhunya mencapai 100°C.", "Air yang tidak mencapai 100°C tidak akan mendidih.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika FIFA dan UEFA ingin mempertahankan citra netralitas olahraga, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Mereka harus memberikan sanksi hanya kepada negara-negara yang tidak kuat secara politik.",
+      "Mereka harus memiliki sikap yang konsisten terhadap semua konflik.",
+      "Mereka harus sepenuhnya menarik diri dari semua urusan politik.",
+      "Mereka harus lebih sering mempromosikan nilai-nilai kemanusiaan.",
+      "Mereka harus mempromosikan perdamaian di setiap kompetisi."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika air mendidih, maka suhunya mencapai 100°C) dan ¬Q (Air ini tidak mencapai 100°C), maka kesimpulannya adalah ¬P (Air ini tidak mendidih). Logikanya, jika air mendidih, suhunya *pasti* 100°C. Karena suhunya belum 100°C, maka air itu belum mendidih."
+    "pembahasan": "Teks menyebutkan bahwa pihak yang mengkritik berpendapat FIFA dan UEFA 'seharusnya memiliki sikap yang konsisten dan netral terhadap semua konflik' untuk menjaga citra mereka. Jika mereka ingin netral, maka sikap konsisten adalah keharusan."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua makhluk hidup membutuhkan oksigen.\nPremis 2: Tumbuhan adalah makhluk hidup.\nPremis 3: Oksigen tidak berbau.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Tumbuhan membutuhkan oksigen yang tidak berbau.", "Tumbuhan tidak membutuhkan oksigen.", "Semua yang membutuhkan oksigen adalah tumbuhan.", "Oksigen adalah yang dibutuhkan tumbuhan.", "Tidak dapat ditarik kesimpulan tentang kebutuhan oksigen tumbuhan."],
-    "jawaban": "A",
-    "pembahasan": "Dari Premis 1 dan 2, dapat disimpulkan secara deduktif bahwa tumbuhan membutuhkan oksigen. Premis 3 menambahkan sifat oksigen yaitu tidak berbau. Menggabungkan kedua informasi ini menghasilkan kesimpulan bahwa **tumbuhan membutuhkan oksigen yang tidak berbau**."
+    "pertanyaan": "Jika dugaan bahwa keputusan FIFA dan UEFA dipengaruhi oleh tekanan politik benar, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Kedua federasi tidak akan pernah memberikan sanksi lagi.",
+      "Mereka akan lebih sering memberikan sanksi kepada negara yang kuat.",
+      "Sikap mereka tidak sepenuhnya didasarkan pada netralitas olahraga.",
+      "Semua konflik geopolitik akan berakhir.",
+      "Nilai-nilai kemanusiaan akan lebih sering dipromosikan."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa dugaan tekanan politik dan finansial menjadi alasan di balik perbedaan sikap. Jika dugaan ini benar, maka sikap mereka tidak murni didasarkan pada prinsip netralitas olahraga."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Setiap warga negara yang berusia 17 tahun atau lebih berhak memiliki KTP.\nPremis 2: Ani berhak memiliki KTP.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ani berusia tepat 17 tahun.", "Ani berusia kurang dari 17 tahun.", "Ani berusia 17 tahun atau lebih.", "Semua yang berhak memiliki KTP berusia 17 tahun atau lebih.", "Tidak dapat ditarik kesimpulan tentang usia Ani secara pasti."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika berusia ≥17 tahun, maka berhak KTP) dan Q (Ani berhak KTP), tidak berarti P (Ani berusia ≥17 tahun). Premis ini tidak menyatakan bahwa 'hanya' mereka yang berusia 17 tahun atau lebih yang berhak KTP. Misalnya, bisa saja ada ketentuan khusus lain (misal, warga negara asing juga bisa punya KTP meskipun aturannya beda, atau ada pengecualian). Namun, jika kita asumsikan hanya ada satu cara untuk berhak KTP (yaitu syarat usia ini), maka Ani pasti berusia 17 tahun atau lebih. Tetapi dalam konteks soal deduktif murni, kita tidak boleh berasumsi informasi di luar premis. Oleh karena itu, kita tidak bisa menyimpulkan usia Ani secara pasti."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "FIFA dan UEFA tidak memberikan sanksi kepada Israel.",
+      "Keputusan FIFA dan UEFA terhadap Rusia menuai kritik.",
+      "FIFA dan UEFA telah memberikan penjelasan resmi yang komprehensif.",
+      "Pihak yang mengkritik menyoroti adanya standar ganda.",
+      "Konflik di Palestina juga menargetkan pesepakbola."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'FIFA dan UEFA belum memberikan penjelasan resmi yang komprehensif terkait perbedaan sikap ini.' Oleh karena itu, pernyataan yang mengklaim sebaliknya adalah pernyataan yang pasti salah."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua planet di tata surya mengelilingi matahari.\nPremis 2: Bumi adalah planet di tata surya.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bumi mungkin mengelilingi matahari.", "Bumi tidak mengelilingi matahari.", "Bumi pasti mengelilingi matahari.", "Hanya Bumi yang mengelilingi matahari.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nKonflik di Palestina telah memicu perdebatan luas di tingkat global. Laporan dari berbagai organisasi hak asasi manusia dan PBB menunjukkan adanya dugaan kejahatan perang yang dilakukan oleh Israel, termasuk penargetan warga sipil dan fasilitas kesehatan. Tindakan ini dikecam karena hal ini merupakan perbuatan genosida dan kejahatan terbesar abad ini, namun Amerika Serikat terus memberikan dukungan militer dan politik. \n\nDukungan AS ini adalah faktor utama yang membuat Israel untuk melanjutkan operasi militernya tanpa sanksi internasional yang signifikan. Jika dukungan AS tidak ada, tekanan internasional untuk mencapai gencatan senjata dan mengakhiri konflik akan jauh lebih besar. Oleh karena itu, dukungan AS secara tidak langsung bertanggung jawab atas eskalasi konflik dan penderitaan rakyat Palestina.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua negara di dunia mengutuk tindakan Israel.",
+      "Amerika Serikat tidak memberikan dukungan militer kepada Israel.",
+      "Tindakan Israel dikecam sebagai genosida dan kejahatan terbesar abad ini.",
+      "Konflik di Palestina tidak memicu perdebatan di tingkat global.",
+      "PBB dan organisasi HAM tidak melaporkan adanya kejahatan perang."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah deduksi langsung. Karena semua planet di tata surya mengelilingi matahari, dan Bumi adalah salah satu planet tersebut, maka Bumi pasti mengelilingi matahari."
+    "pembahasan": "Teks secara langsung menyatakan bahwa 'Tindakan ini (Israel) dikecam sebagai genosida dan kejahatan terbesar abad ini.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika saya makan apel, maka saya makan buah.\nPremis 2: Saya tidak makan buah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya makan apel.", "Saya tidak makan apel.", "Saya suka makan buah.", "Makan buah berarti makan apel.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika Amerika Serikat menghentikan dukungan militernya kepada Israel, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Israel akan memenangkan konflik dengan cepat.",
+      "Tekanan internasional untuk gencatan senjata akan jauh lebih besar.",
+      "Israel akan menghentikan semua operasi militernya.",
+      "Penderitaan rakyat Palestina akan berakhir secara instan.",
+      "PBB akan segera memberikan sanksi berat."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya makan apel, maka saya makan buah) dan ¬Q (Saya tidak makan buah), maka kesimpulannya adalah ¬P (Saya tidak makan apel). Logikanya, jika saya makan apel, itu berarti saya makan buah. Karena saya tidak makan buah, maka saya tidak mungkin makan apel."
+    "pembahasan": "Teks menyatakan bahwa 'Jika dukungan AS tidak ada, tekanan internasional untuk mencapai gencatan senjata dan mengakhiri konflik akan jauh lebih besar.' Ini adalah hubungan sebab-akibat yang jelas."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa gemar membaca.\nPremis 2: Semua yang gemar membaca adalah orang yang berwawasan luas.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa adalah orang yang berwawasan luas.", "Beberapa mahasiswa adalah orang yang berwawasan luas.", "Beberapa orang yang berwawasan luas bukan mahasiswa.", "Tidak ada mahasiswa yang gemar membaca.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika sebuah negara dituduh melakukan kejahatan perang dan mendapatkan dukungan politik dari kekuatan besar, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Negara tersebut akan diberikan sanksi internasional yang signifikan.",
+      "Negara tersebut akan melanjutkan operasi militernya tanpa sanksi signifikan.",
+      "Semua organisasi HAM akan mengecam negara tersebut.",
+      "PBB akan segera mengintervensi konflik.",
+      "Negara tersebut akan segera mencapai perdamaian."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ada irisan antara 'mahasiswa' dan 'gemar membaca' (Premis 1). Semua yang 'gemar membaca' juga termasuk dalam kategori 'orang berwawasan luas' (Premis 2). Karena ada beberapa mahasiswa yang gemar membaca, dan semua yang gemar membaca adalah orang berwawasan luas, maka secara deduktif, **beberapa mahasiswa adalah orang yang berwawasan luas**."
+    "pembahasan": "Teks menyebutkan bahwa dukungan AS memungkinkan Israel 'untuk melanjutkan operasi militernya tanpa sanksi internasional yang signifikan.' Ini menunjukkan bahwa dukungan dari kekuatan besar dapat memengaruhi keberlanjutan suatu konflik tanpa sanksi yang berarti."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Setiap guru adalah pendidik.\nPremis 2: Bu Siti bukan seorang pendidik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bu Siti adalah guru.", "Bu Siti bukan guru.", "Bu Siti mungkin guru.", "Semua pendidik adalah guru.", "Tidak dapat ditarik kesimpulan apakah Bu Siti guru atau bukan."],
+    "pertanyaan": "Jika semua orang yang berprofesi sebagai atlet profesional memiliki fisik yang kuat, dan Budi tidak memiliki fisik yang kuat, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Budi adalah seorang atlet profesional.",
+      "Budi bukan seorang atlet profesional.",
+      "Semua orang yang tidak memiliki fisik yang kuat adalah Budi.",
+      "Semua orang yang memiliki fisik yang kuat adalah atlet profesional.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam bentuk silogisme kategori. Jika P → Q (Jika guru, maka pendidik) dan ¬Q (Bu Siti bukan pendidik), maka kesimpulannya adalah ¬P (Bu Siti bukan guru). Jika Bu Siti adalah guru, ia *pasti* pendidik. Karena ia bukan pendidik, maka ia bukan guru."
+    "pembahasan": "Premis 1: Jika P (seseorang berprofesi sebagai atlet profesional), maka Q (orang tersebut memiliki fisik yang kuat). Premis 2: Budi tidak memiliki fisik yang kuat (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Budi bukan seorang atlet profesional."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Semua bunga berwarna merah memiliki harum yang khas.\nPremis 2: Bunga melati memiliki harum yang khas.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bunga melati adalah bunga berwarna merah.", "Bunga melati bukan bunga berwarna merah.", "Bunga melati mungkin bunga berwarna merah.", "Hanya bunga merah yang memiliki harum khas.", "Tidak dapat ditarik kesimpulan bahwa bunga melati berwarna merah."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika bunga merah, maka harum khas) dan Q (Bunga melati memiliki harum khas), tidak berarti P (Bunga melati adalah bunga merah). Banyak bunga lain selain bunga merah yang juga memiliki harum khas. Premis tidak menyatakan bahwa 'hanya' bunga merah yang memiliki harum khas."
+    "pertanyaan": "Semua film fiksi ilmiah (sci-fi) yang sukses adalah film yang memiliki alur cerita yang kompleks. Sebagian film fiksi ilmiah yang sukses juga memenangkan penghargaan. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua film yang memiliki alur cerita yang kompleks adalah film sci-fi yang sukses.",
+      "Sebagian film sci-fi yang sukses memiliki alur cerita yang kompleks dan memenangkan penghargaan.",
+      "Semua film yang memenangkan penghargaan adalah film sci-fi yang sukses.",
+      "Tidak ada film sci-fi yang memenangkan penghargaan.",
+      "Semua film yang memiliki alur cerita yang kompleks tidak memenangkan penghargaan."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua film sci-fi sukses (A) memiliki alur cerita yang kompleks (B). Premis 2: Sebagian film sci-fi sukses (A) memenangkan penghargaan (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa ada irisan antara B dan C, yaitu sebagian film sci-fi sukses memiliki alur cerita yang kompleks dan memenangkan penghargaan."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Jika seseorang adalah politikus, maka ia sering berpidato.\nPremis 2: Jika seseorang sering berpidato, maka ia pandai berbicara di depan umum.\nPremis 3: Pak Budi adalah politikus.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Pak Budi tidak pandai berbicara di depan umum.", "Pak Budi sering berpidato tetapi tidak pandai berbicara di depan umum.", "Pak Budi pandai berbicara di depan umum.", "Semua politikus pandai berbicara di depan umum.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme hipotetis berantai. Dari Premis 1 dan 3, dapat disimpulkan bahwa Pak Budi sering berpidato. Kemudian, dari kesimpulan tersebut dan Premis 2 (Jika seseorang sering berpidato, maka ia pandai berbicara di depan umum), dapat disimpulkan bahwa **Pak Budi pandai berbicara di depan umum**."
+    "pertanyaan": "Sebuah penelitian menyebutkan bahwa konsumsi sayuran hijau secara rutin dapat membantu menurunkan risiko penyakit jantung. Studi ini melibatkan ribuan partisipan dan menunjukkan hasil yang konsisten. Namun, penelitian tersebut juga menekankan bahwa sayuran hijau saja tidak cukup; gaya hidup sehat lainnya, seperti olahraga teratur dan tidak merokok, juga memegang peranan penting.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Konsumsi sayuran hijau dapat membantu menurunkan risiko penyakit jantung.",
+      "Gaya hidup sehat selain sayuran hijau juga penting untuk mencegah penyakit jantung.",
+      "Penelitian tersebut melibatkan banyak partisipan.",
+      "Satu-satunya cara untuk menurunkan risiko penyakit jantung adalah dengan konsumsi sayuran hijau.",
+      "Olahraga teratur dan tidak merokok memiliki peran dalam kesehatan jantung."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa sayuran hijau 'dapat membantu' menurunkan risiko penyakit jantung, tetapi juga menekankan bahwa sayuran hijau 'saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   }
 ]
