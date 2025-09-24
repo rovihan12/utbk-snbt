@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua hewan karnivora memakan daging.\nPremis 2: Singa adalah hewan karnivora.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Singa mungkin memakan daging.", "Singa tidak memakan daging.", "Singa pasti memakan daging.", "Hanya singa yang memakan daging.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme kategori dasar. Karena semua hewan karnivora memakan daging, dan singa termasuk kategori hewan karnivora, maka secara deduktif, singa pasti memakan daging."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nPemerintah Indonesia mengumumkan Paket Ekonomi 2025 yang bertujuan untuk meningkatkan investasi, mendorong pertumbuhan, dan menciptakan lapangan kerja. Salah satu program akselerasi adalah penyederhanaan perizinan usaha dan pemberian insentif pajak bagi investor di sektor prioritas. Kebijakan ini diharapkan dapat menarik lebih banyak investasi asing dan domestik, yang pada akhirnya akan mempercepat laju pertumbuhan ekonomi.\n\nNamun, beberapa ekonom berpendapat bahwa kebijakan ini berisiko menciptakan kesenjangan. Mereka khawatir bahwa fokus pada investasi besar dapat mengabaikan pelaku usaha kecil dan menengah (UMKM). Tanpa dukungan yang memadai, UMKM, yang merupakan tulang punggung ekonomi nasional, mungkin akan kesulitan bersaing dan berkontribusi secara optimal terhadap pertumbuhan ekonomi. \n\nDi sisi lain, pemerintah menegaskan bahwa Paket Ekonomi 2025 juga mencakup program pendampingan dan subsidi kredit mikro untuk UMKM. Hal ini menunjukkan adanya upaya untuk menciptakan keseimbangan antara menarik investasi skala besar dan memberdayakan sektor UMKM. Keberhasilan implementasi paket ini sangat bergantung pada sinergi antara kebijakan makro dan mikroekonomi, serta pengawasan yang ketat untuk memastikan manfaatnya merata.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara Paket Ekonomi 2025 dan pertumbuhan ekonomi?",
+    "pilihan": [
+      "Paket Ekonomi 2025 secara langsung menjamin pertumbuhan ekonomi yang tinggi.",
+      "Paket Ekonomi 2025 bertujuan mempercepat laju pertumbuhan ekonomi melalui investasi.",
+      "Paket Ekonomi 2025 hanya akan berdampak pada pertumbuhan jika UMKM tidak diabaikan.",
+      "Paket Ekonomi 2025 dan pertumbuhan ekonomi tidak memiliki hubungan yang pasti.",
+      "Pertumbuhan ekonomi akan melambat, terlepas dari kebijakan yang ada."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa salah satu tujuan Paket Ekonomi 2025 adalah 'menciptakan lapangan kerja' dan 'mempercepat laju pertumbuhan ekonomi.' Jawaban B adalah kesimpulan yang paling tepat, karena menunjukkan hubungan sebab-akibat yang dijelaskan dalam teks."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika saya belajar keras, maka saya akan lulus ujian.\nPremis 2: Saya tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya belajar keras.", "Saya tidak belajar keras.", "Saya mungkin belajar keras.", "Lulus ujian tidak selalu berarti belajar keras.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya belajar keras, maka saya akan lulus ujian) dan ¬Q (Saya tidak lulus ujian), maka kesimpulannya adalah ¬P (Saya tidak belajar keras). Logikanya, jika saya belajar keras, saya *pasti* akan lulus. Karena saya tidak lulus, itu berarti saya tidak belajar keras."
+    "pertanyaan": "Jika UMKM tidak mendapat dukungan yang memadai, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Investasi asing dan domestik akan meningkat.",
+      "UMKM akan menjadi tulang punggung ekonomi nasional.",
+      "UMKM akan kesulitan bersaing dan berkontribusi secara optimal.",
+      "Penyederhanaan perizinan usaha akan gagal.",
+      "Program pendampingan untuk UMKM akan berhasil."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyebutkan bahwa 'Tanpa dukungan yang memadai, UMKM... mungkin akan kesulitan bersaing dan berkontribusi secara optimal terhadap pertumbuhan ekonomi.' Ini adalah hubungan sebab-akibat yang jelas. Jika sebabnya (tidak adanya dukungan) terjadi, maka akibatnya (kesulitan bersaing) akan mungkin terjadi."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua mamalia memiliki tulang belakang.\nPremis 2: Ular tidak memiliki tulang belakang.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ular adalah mamalia.", "Ular bukan mamalia.", "Ular mungkin mamalia.", "Hewan tanpa tulang belakang adalah ular.", "Tidak dapat ditarik kesimpulan tentang ular dari premis ini."],
+    "pertanyaan": "Jika pengawasan terhadap implementasi paket ekonomi tidak dilakukan dengan ketat, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Kebijakan makroekonomi tidak akan berhasil.",
+      "Manfaat dari paket ekonomi mungkin tidak merata.",
+      "Penyederhanaan perizinan usaha akan berhasil.",
+      "Investasi asing akan menurun drastis.",
+      "UMKM akan menerima subsidi kredit mikro."
+    ],
     "jawaban": "B",
-    "pembahasan": "Premis 1 menyatakan properti universal mamalia (memiliki tulang belakang). Premis 2 menyatakan bahwa ular tidak memiliki properti tersebut. Oleh karena itu, secara deduktif, jika ular tidak memiliki tulang belakang, maka ular tidak bisa menjadi mamalia. Ini adalah contoh **Modus Tollens** dalam bentuk silogisme kategori."
+    "pembahasan": "Teks menyatakan bahwa 'Keberhasilan implementasi paket ini sangat bergantung pada... pengawasan yang ketat untuk memastikan manfaatnya merata.' Jika pengawasan tidak ketat, maka tujuannya (manfaat merata) akan sulit tercapai."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Setiap negara yang maju memiliki infrastruktur yang baik.\nPremis 2: Indonesia memiliki infrastruktur yang baik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Indonesia adalah negara maju.", "Indonesia bukan negara maju.", "Indonesia mungkin negara maju.", "Hanya negara maju yang memiliki infrastruktur yang baik.", "Tidak dapat ditarik kesimpulan bahwa Indonesia adalah negara maju."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika negara maju, maka infrastruktur baik) dan Q (Indonesia memiliki infrastruktur baik), tidak berarti P (Indonesia adalah negara maju). Ada banyak alasan lain mengapa suatu negara bisa memiliki infrastruktur yang baik, meskipun belum tentu dikategorikan sebagai 'maju' secara keseluruhan."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Pemerintah berupaya menciptakan lapangan kerja melalui Paket Ekonomi 2025.",
+      "Pemberian insentif pajak termasuk dalam program akselerasi.",
+      "Paket Ekonomi 2025 tidak mencakup program untuk UMKM.",
+      "Beberapa ekonom khawatir tentang potensi kesenjangan akibat kebijakan ini.",
+      "Penyederhanaan perizinan usaha adalah salah satu program dalam paket."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'pemerintah menegaskan bahwa Paket Ekonomi 2025 juga mencakup program pendampingan dan subsidi kredit mikro untuk UMKM.' Oleh karena itu, pernyataan bahwa paket tersebut tidak mencakup program untuk UMKM adalah pernyataan yang pasti salah."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua peserta lomba lari marathon harus berusia di atas 18 tahun.\nPremis 2: Andi berusia 20 tahun.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Andi pasti akan memenangkan lomba.", "Andi tidak bisa mengikuti lomba.", "Andi memenuhi syarat usia untuk mengikuti lomba.", "Semua yang berusia di atas 18 tahun adalah peserta lomba.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Premis 1 menetapkan syarat usia. Premis 2 memberikan informasi usia Andi. Karena 20 tahun lebih dari 18 tahun, maka secara deduktif, Andi memenuhi syarat usia yang ditentukan."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nGelombang panas ekstrem menjadi isu global yang semakin sering terjadi, yang dipicu oleh perubahan iklim. Menurut laporan BMKG, fenomena ini tidak hanya menyebabkan kenaikan suhu, tetapi juga memengaruhi kesehatan manusia. Paparan suhu tinggi dalam waktu lama dapat menyebabkan dehidrasi, kelelahan, dan bahkan *heatstroke*.\n\nPara ahli kesehatan menekankan pentingnya langkah-langkah pencegahan, seperti meningkatkan konsumsi air, menghindari aktivitas di luar ruangan pada siang hari, dan mengenakan pakaian longgar. Tanpa tindakan pencegahan ini, risiko kesehatan akan meningkat secara signifikan. Oleh karena itu, edukasi publik mengenai bahaya gelombang panas dan cara menghadapinya menjadi sangat krusial.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Perubahan iklim hanya menyebabkan gelombang panas ekstrem.",
+      "Gelombang panas ekstrem memengaruhi kesehatan manusia.",
+      "Semua orang yang terpapar suhu tinggi akan mengalami *heatstroke*.",
+      "Edukasi publik tidak relevan dalam mengatasi dampak gelombang panas.",
+      "Satu-satunya cara mencegah *heatstroke* adalah dengan mengenakan pakaian longgar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks secara langsung menyatakan bahwa gelombang panas 'memengaruhi kesehatan manusia.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika hujan, maka saya membawa payung.\nPremis 2: Saya membawa payung.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hujan.", "Tidak hujan.", "Saya selalu membawa payung.", "Saya suka membawa payung.", "Tidak dapat ditarik kesimpulan bahwa hari ini hujan."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah contoh kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika hujan, maka saya membawa payung) dan Q (Saya membawa payung), tidak berarti P (Hujan). Saya bisa membawa payung karena alasan lain (misalnya, takut panas, atau lupa meletakkannya di rumah). Premis tidak menyatakan bahwa saya *hanya* membawa payung saat hujan."
+    "pertanyaan": "Jika seseorang tidak melakukan tindakan pencegahan terhadap gelombang panas, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Orang tersebut tidak akan mengalami dehidrasi.",
+      "Risiko kesehatan orang tersebut akan meningkat secara signifikan.",
+      "Orang tersebut akan mengalami *heatstroke*.",
+      "Suhu di luar ruangan akan menurun.",
+      "Orang tersebut mengenakan pakaian longgar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyebutkan bahwa 'Tanpa tindakan pencegahan ini, risiko kesehatan akan meningkat secara signifikan.' Jika seseorang tidak melakukan pencegahan, maka risiko kesehatan akan meningkat."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Beberapa burung adalah karnivora.\nPremis 2: Semua karnivora memiliki gigi tajam.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua burung memiliki gigi tajam.", "Beberapa burung memiliki gigi tajam.", "Beberapa burung tidak memiliki gigi tajam.", "Semua yang memiliki gigi tajam adalah burung.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Dari Premis 1, ada irisan antara 'burung' dan 'karnivora'. Dari Premis 2, semua 'karnivora' memiliki 'gigi tajam'. Karena ada beberapa burung yang juga karnivora, dan semua karnivora punya gigi tajam, maka secara deduktif, **beberapa burung memiliki gigi tajam**."
+    "pertanyaan": "Jika seseorang menghindari aktivitas di luar ruangan pada siang hari, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Ia akan terhindar sepenuhnya dari risiko kesehatan.",
+      "Ia tidak akan mengalami kelelahan akibat panas.",
+      "Ia akan melakukan salah satu tindakan pencegahan yang disarankan.",
+      "Suhu di luar ruangan akan menurun.",
+      "Ia tidak memerlukan edukasi publik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'menghindari aktivitas di luar ruangan pada siang hari' adalah salah satu dari 'langkah-langkah pencegahan' yang disarankan. Jadi, jika seseorang melakukan tindakan ini, ia berarti melakukan salah satu langkah pencegahan."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Setiap peserta Olimpiade pasti seorang atlet.\nPremis 2: Budi adalah seorang atlet.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi adalah peserta Olimpiade.", "Budi bukan peserta Olimpiade.", "Budi mungkin peserta Olimpiade.", "Semua atlet adalah peserta Olimpiade.", "Tidak dapat ditarik kesimpulan apakah Budi peserta Olimpiade atau bukan."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika peserta Olimpiade, maka atlet) dan Q (Budi adalah atlet), tidak berarti P (Budi adalah peserta Olimpiade). Banyak atlet yang bukan peserta Olimpiade."
+    "pertanyaan": "Semua laptop baru memiliki fitur keamanan biometrik. Sebagian laptop yang memiliki fitur keamanan biometrik adalah laptop bisnis. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua laptop bisnis memiliki fitur keamanan biometrik.",
+      "Sebagian laptop bisnis adalah laptop baru.",
+      "Tidak ada laptop baru yang memiliki fitur keamanan biometrik.",
+      "Semua laptop yang memiliki fitur keamanan biometrik adalah laptop bisnis.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua laptop baru (A) memiliki fitur keamanan biometrik (B). Premis 2: Sebagian laptop yang memiliki fitur keamanan biometrik (B) adalah laptop bisnis (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian C (laptop bisnis) juga adalah A (laptop baru). Ini adalah penalaran deduktif yang sahih."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika suatu benda adalah berlian, maka benda itu sangat keras.\nPremis 2: Benda ini sangat keras.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Benda ini adalah berlian.", "Benda ini bukan berlian.", "Benda ini mungkin berlian.", "Hanya berlian yang sangat keras.", "Tidak dapat ditarik kesimpulan bahwa benda ini adalah berlian."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika berlian, maka sangat keras) dan Q (Benda ini sangat keras), tidak berarti P (Benda ini adalah berlian). Ada banyak zat lain selain berlian yang juga sangat keras. Premis tidak menyatakan 'hanya jika' berlian, maka ia keras."
+    "pertanyaan": "Sebuah penelitian menyebutkan bahwa konsumsi sayuran hijau secara rutin dapat membantu menurunkan risiko penyakit jantung. Studi ini melibatkan ribuan partisipan dan menunjukkan hasil yang konsisten. Namun, penelitian tersebut juga menekankan bahwa sayuran hijau saja tidak cukup; gaya hidup sehat lainnya, seperti olahraga teratur dan tidak merokok, juga memegang peranan penting. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Konsumsi sayuran hijau dapat membantu menurunkan risiko penyakit jantung.",
+      "Gaya hidup sehat selain sayuran hijau juga penting untuk mencegah penyakit jantung.",
+      "Penelitian tersebut melibatkan banyak partisipan.",
+      "Satu-satunya cara untuk menurunkan risiko penyakit jantung adalah dengan konsumsi sayuran hijau.",
+      "Olahraga teratur dan tidak merokok memiliki peran dalam kesehatan jantung."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa sayuran hijau 'dapat membantu' menurunkan risiko penyakit jantung, tetapi juga menekankan bahwa sayuran hijau 'saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua bunga mawar memiliki duri.\nPremis 2: Bunga X tidak memiliki duri.\nPremis 3: Bunga X berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bunga X adalah mawar merah.", "Bunga X bukan mawar.", "Bunga X adalah bunga berduri.", "Bunga X adalah mawar yang tidak memiliki duri.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Jika semua orang yang berprofesi sebagai *data scientist* memiliki kemampuan pemrograman yang baik, dan Budi tidak memiliki kemampuan pemrograman yang baik, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Budi adalah seorang *data scientist*.",
+      "Budi bukan seorang *data scientist*.",
+      "Semua orang yang tidak memiliki kemampuan pemrograman adalah Budi.",
+      "Semua orang yang memiliki kemampuan pemrograman adalah *data scientist*.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1, semua bunga mawar pasti memiliki duri. Dari Premis 2, Bunga X tidak memiliki duri. Karena Bunga X tidak memiliki properti wajib dari mawar, maka secara deduktif, Bunga X **bukan mawar**. Informasi Premis 3 (berwarna merah) adalah distraktor dan tidak relevan untuk menentukan apakah Bunga X adalah mawar berdasarkan premis 1 dan 2."
+    "pembahasan": "Premis 1: Jika P (seseorang berprofesi sebagai *data scientist*), maka Q (orang tersebut memiliki kemampuan pemrograman yang baik). Premis 2: Budi tidak memiliki kemampuan pemrograman yang baik (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Budi bukan seorang *data scientist*."
   }
 ]
