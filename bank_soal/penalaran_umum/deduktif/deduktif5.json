@@ -1,74 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua pekerja keras meraih kesuksesan.\nPremis 2: Budi meraih kesuksesan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi adalah pekerja keras.", "Budi bukan pekerja keras.", "Budi mungkin pekerja keras.", "Semua yang meraih kesuksesan adalah Budi.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah fallacy of affirming the consequent (mengiyakan konsekuensi). Dari P → Q (Jika pekerja keras, maka meraih kesuksesan) dan Q (Budi meraih kesuksesan), kita tidak bisa secara deduktif menyimpulkan P (Budi adalah pekerja keras). Budi bisa meraih kesuksesan karena faktor lain selain kerja keras."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nDalam beberapa aksi demonstrasi mahasiswa di Indonesia, bendera bajak laut *Jolly Roger* yang ikonik dari serial anime *One Piece* sering kali terlihat berkibar. Fenomena ini menarik perhatian karena bendera tersebut, yang dikenal sebagai simbol kebebasan dan perlawanan terhadap sistem otoriter, digunakan sebagai representasi aspirasi para demonstran. Simbol ini resonan dengan pesan-pesan yang disuarakan, yaitu perjuangan untuk kebebasan dan keadilan, seperti yang diceritakan dalam serialnya. \n\nPenggunaan simbol pop culture dalam gerakan sosial bukanlah hal baru. Penggunaan bendera *One Piece* ini menunjukkan kreativitas demonstran dalam menyampaikan pesan mereka kepada publik secara visual. Selain itu, simbol ini juga membangun rasa solidaritas di antara para peserta aksi yang memiliki latar belakang dan minat yang sama, menciptakan identitas kelompok yang kuat. \n\nNamun, beberapa pengamat berpendapat bahwa simbolisme yang terlalu bergantung pada budaya pop bisa mengaburkan tujuan utama aksi. Pesan politik yang serius berisiko menjadi trivial atau hanya dipahami oleh kelompok tertentu. Oleh karena itu, efektivitas penggunaan simbol-simbol seperti ini sangat bergantung pada kemampuan demonstran untuk mengombinasikannya dengan narasi politik yang jelas dan relevan.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai alasan penggunaan bendera *One Piece* dalam demonstrasi?",
+    "pilihan": [
+      "Digunakan untuk menunjukkan ketidakseriusan para demonstran.",
+      "Dipakai untuk membangun rasa solidaritas dan merepresentasikan aspirasi kebebasan.",
+      "Hanya digunakan oleh demonstran yang menyukai anime.",
+      "Tujuannya adalah untuk mengaburkan pesan politik yang serius.",
+      "Bendera tersebut tidak memiliki makna simbolis dalam demonstrasi."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa bendera *One Piece* digunakan sebagai 'representasi aspirasi para demonstran' dan juga untuk 'membangun rasa solidaritas'. Pilihan B adalah pernyataan yang paling akurat dan sesuai dengan informasi dalam teks."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika listrik padam, maka lift tidak berfungsi.\nPremis 2: Lift berfungsi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Listrik padam.", "Listrik tidak padam.", "Lift selalu berfungsi saat listrik padam.", "Lift tidak berfungsi saat listrik tidak padam.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika sebuah aksi demonstrasi hanya menggunakan simbol pop culture tanpa narasi politik yang jelas, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Aksi tersebut pasti akan gagal mencapai tujuannya.",
+      "Pesan politiknya berisiko menjadi trivial.",
+      "Aksi tersebut tidak akan mendapatkan perhatian publik.",
+      "Semua peserta aksi akan merasa bingung.",
+      "Simbolisme yang digunakan akan lebih mudah dipahami oleh semua orang."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika listrik padam, maka lift tidak berfungsi) dan ¬Q (Lift berfungsi), maka kesimpulannya adalah ¬P (Listrik tidak padam)."
+    "pembahasan": "Teks menyebutkan bahwa 'Pesan politik yang serius berisiko menjadi trivial atau hanya dipahami oleh kelompok tertentu' jika simbolisme terlalu bergantung pada budaya pop dan tidak dikombinasikan dengan narasi yang jelas."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Tidak ada burung yang bersisik.\nPremis 2: Kakatua adalah burung.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Kakatua bersisik.", "Kakatua mungkin bersisik.", "Kakatua tidak bersisik.", "Semua yang tidak bersisik adalah kakatua.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika simbol bendera *One Piece* tidak membangun rasa solidaritas di antara demonstran, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Simbolisme yang digunakan akan lebih efektif.",
+      "Aksi demonstrasi akan segera berakhir.",
+      "Identitas kelompok demonstran tidak akan menjadi kuat.",
+      "Pengamat tidak akan mengkritik penggunaan simbol tersebut.",
+      "Pesan yang disampaikan akan lebih jelas."
+    ],
     "jawaban": "C",
-    "pembahasan": "Jika tidak ada burung yang bersisik dan kakatua adalah burung, maka secara deduktif kakatua tidak bersisik."
+    "pembahasan": "Teks menyatakan bahwa simbol tersebut 'membangun rasa solidaritas...menciptakan identitas kelompok yang kuat.' Jika simbol tersebut tidak membangun solidaritas, maka identitas kelompok tidak akan menjadi kuat seperti yang diharapkan."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Semua pegawai baru wajib mengikuti pelatihan.\nPremis 2: Rio tidak mengikuti pelatihan.\nPremis 3: Rio adalah pegawai baru.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rio tidak wajib mengikuti pelatihan.", "Rio bukan pegawai baru.", "Rio seharusnya mengikuti pelatihan.", "Pelatihan dibatalkan.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Dari Premis 1 (kewajiban semua pegawai baru untuk mengikuti pelatihan) dan Premis 3 (Rio adalah pegawai baru), secara deduktif dapat disimpulkan bahwa Rio seharusnya mengikuti pelatihan. Premis 2 hanya menyatakan fakta bahwa Rio tidak mengikuti, yang bertentangan dengan kewajibannya."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Penggunaan simbol pop culture dalam gerakan sosial adalah hal baru.",
+      "Bendera *One Piece* digunakan sebagai simbol kebebasan dan perlawanan.",
+      "Simbol bendera *One Piece* membangun rasa solidaritas di antara peserta aksi.",
+      "Beberapa pengamat berpendapat bahwa simbolisme pop culture bisa mengaburkan tujuan aksi.",
+      "Efektivitas simbolisme pop culture bergantung pada narasi politik yang jelas."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'Penggunaan simbol pop culture dalam gerakan sosial bukanlah hal baru.' Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah hal baru adalah pernyataan yang pasti salah."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Jika seseorang adalah vegetarian, maka ia tidak makan daging.\nPremis 2: Seseorang ini tidak makan daging.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Seseorang ini adalah vegetarian.", "Seseorang ini bukan vegetarian.", "Seseorang ini mungkin vegetarian.", "Semua yang tidak makan daging adalah vegetarian.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika seseorang adalah vegetarian, maka ia tidak makan daging) dan Q (Seseorang ini tidak makan daging), kita tidak bisa secara deduktif menyimpulkan P (Seseorang ini adalah vegetarian). Seseorang bisa tidak makan daging karena alasan lain (misalnya alergi, tidak suka, sedang berpuasa, dll) tanpa menjadi vegetarian."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nBanyak perusahaan teknologi kini menggunakan pendekatan 'agile development' untuk mengelola proyek. Pendekatan ini memungkinkan tim untuk bekerja secara iteratif dan responsif terhadap perubahan, daripada mengikuti rencana yang kaku. Perusahaan yang menerapkan metode ini melaporkan peningkatan efisiensi dan kepuasan klien karena mereka dapat mengadaptasi produk sesuai umpan balik secara cepat.\n\nNamun, pendekatan 'agile' juga memerlukan komunikasi dan koordinasi yang intensif antar tim. Tanpa kolaborasi yang kuat dan alat komunikasi yang memadai, proyek berisiko mengalami miskomunikasi dan penundaan. Oleh karena itu, kesuksesan 'agile development' sangat bergantung pada budaya kerja yang transparan dan didukung oleh teknologi yang tepat.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua perusahaan teknologi yang efisien menggunakan 'agile development'.",
+      "Peningkatan efisiensi selalu diiringi dengan kepuasan klien yang meningkat.",
+      "Perusahaan yang menerapkan 'agile development' melaporkan peningkatan efisiensi.",
+      "Metode 'agile' hanya cocok untuk proyek kecil.",
+      "Komunikasi yang intensif selalu menyebabkan penundaan proyek."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara langsung menyatakan bahwa 'Perusahaan yang menerapkan metode ini melaporkan peningkatan efisiensi dan kepuasan klien.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa gemar berorganisasi.\nPremis 2: Semua yang gemar berorganisasi memiliki jiwa kepemimpinan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa memiliki jiwa kepemimpinan.", "Beberapa mahasiswa memiliki jiwa kepemimpinan.", "Semua yang memiliki jiwa kepemimpinan adalah mahasiswa.", "Beberapa yang memiliki jiwa kepemimpinan bukan mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "pertanyaan": "Jika sebuah tim yang menggunakan pendekatan 'agile' tidak didukung oleh kolaborasi yang kuat, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Proyek akan selesai lebih cepat.",
+      "Proyek berisiko mengalami miskomunikasi dan penundaan.",
+      "Kepuasan klien akan meningkat.",
+      "Tim akan bekerja secara iteratif.",
+      "Metode 'agile' tidak akan diterapkan lagi."
+    ],
     "jawaban": "B",
-    "pembahasan": "Karena ada beberapa mahasiswa yang gemar berorganisasi, dan semua yang gemar berorganisasi memiliki jiwa kepemimpinan, maka secara logis dapat disimpulkan bahwa beberapa mahasiswa memiliki jiwa kepemimpinan."
+    "pembahasan": "Teks menyebutkan bahwa 'Tanpa kolaborasi yang kuat...proyek berisiko mengalami miskomunikasi dan penundaan.' Jika kolaborasi tidak kuat, maka risiko tersebut akan meningkat."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Semua negara maju memiliki tingkat pendidikan yang tinggi.\nPremis 2: Negara X memiliki tingkat pendidikan yang tinggi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Negara X adalah negara maju.", "Negara X bukan negara maju.", "Negara X mungkin negara maju.", "Semua negara yang memiliki tingkat pendidikan tinggi adalah negara maju.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika negara maju, maka tingkat pendidikan tinggi) dan Q (Negara X memiliki tingkat pendidikan tinggi), kita tidak bisa secara deduktif menyimpulkan P (Negara X adalah negara maju). Ada kemungkinan negara berkembang pun bisa memiliki tingkat pendidikan tinggi, atau ada faktor lain yang menentukan suatu negara disebut maju."
+    "pertanyaan": "Jika sebuah perusahaan tidak dapat mengadaptasi produknya sesuai umpan balik secara cepat, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut tidak menggunakan pendekatan 'agile'.",
+      "Perusahaan tersebut tidak peduli dengan kepuasan klien.",
+      "Perusahaan tersebut hanya bekerja secara iteratif.",
+      "Timnya bekerja secara responsif.",
+      "Perusahaan tersebut akan gagal."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Teks menyatakan bahwa pendekatan 'agile' memungkinkan tim untuk 'mengadaptasi produk sesuai umpan balik secara cepat'. Jika sebuah perusahaan tidak bisa melakukannya, maka ada kemungkinan besar mereka tidak menggunakan pendekatan 'agile'."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Jika cuaca panas, maka Ani memakai topi.\nPremis 2: Ani tidak memakai topi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Cuaca panas.", "Cuaca tidak panas.", "Ani selalu memakai topi saat cuaca panas.", "Memakai topi tidak tergantung cuaca.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika cuaca panas, maka Ani memakai topi) dan ¬Q (Ani tidak memakai topi), maka kesimpulannya adalah ¬P (Cuaca tidak panas)."
+    "pertanyaan": "Sebuah penelitian menunjukkan bahwa kebiasaan membaca buku fiksi dapat meningkatkan empati. Penelitian ini melibatkan ratusan partisipan dan menunjukkan hasil yang konsisten. Namun, penelitian tersebut juga menekankan bahwa membaca buku fiksi saja tidak cukup; interaksi sosial yang beragam dan mendalam juga memegang peranan penting dalam meningkatkan empati.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Kebiasaan membaca buku fiksi dapat meningkatkan empati.",
+      "Interaksi sosial yang beragam memiliki peran dalam meningkatkan empati.",
+      "Penelitian tersebut melibatkan banyak partisipan.",
+      "Satu-satunya cara untuk meningkatkan empati adalah dengan membaca buku fiksi.",
+      "Membaca buku fiksi adalah salah satu cara untuk meningkatkan empati."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa membaca buku fiksi 'dapat' meningkatkan empati, tetapi juga menekankan bahwa 'membaca buku fiksi saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Semua buah-buahan mengandung gula alami.\nPremis 2: Apel adalah buah-buahan.\nPremis 3: Gula alami baik untuk energi tubuh.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Apel tidak mengandung gula alami.", "Apel baik untuk energi tubuh.", "Semua yang baik untuk energi tubuh adalah apel.", "Hanya buah-buahan yang baik untuk energi tubuh.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Semua film horor yang sukses memiliki alur cerita yang menegangkan. Sebagian film yang memiliki alur cerita yang menegangkan adalah film yang dibuat dengan anggaran rendah. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua film horor yang sukses dibuat dengan anggaran rendah.",
+      "Sebagian film horor yang sukses dibuat dengan anggaran rendah.",
+      "Tidak ada film horor yang dibuat dengan anggaran rendah.",
+      "Semua film yang dibuat dengan anggaran rendah adalah film horor yang sukses.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1 dan Premis 2, kita dapat menyimpulkan bahwa Apel mengandung gula alami. Dari Premis 3, kita tahu gula alami baik untuk energi tubuh. Menggabungkan kedua kesimpulan ini, maka Apel (karena mengandung gula alami) baik untuk energi tubuh."
+    "pembahasan": "Premis 1: Semua film horor yang sukses (A) memiliki alur cerita yang menegangkan (B). Premis 2: Sebagian film yang memiliki alur cerita yang menegangkan (B) dibuat dengan anggaran rendah (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian A (film horor yang sukses) juga C (dibuat dengan anggaran rendah). Ini adalah bentuk penalaran deduktif yang sahih."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Tidak ada penipu yang jujur.\nPremis 2: Anton adalah seorang penipu.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Anton jujur.", "Anton mungkin jujur.", "Anton tidak jujur.", "Semua yang tidak jujur adalah Anton.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika tidak ada penipu yang jujur, dan Anton adalah penipu, maka secara deduktif Anton tidak jujur."
+    "pertanyaan": "Jika semua negara yang menerapkan kebijakan ramah lingkungan memiliki hutan yang lebat, dan sebuah negara tidak memiliki hutan yang lebat, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Negara tersebut menerapkan kebijakan ramah lingkungan.",
+      "Negara tersebut tidak menerapkan kebijakan ramah lingkungan.",
+      "Negara tersebut akan segera memiliki hutan yang lebat.",
+      "Semua negara yang tidak memiliki hutan yang lebat adalah negara yang menerapkan kebijakan ramah lingkungan.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Jika P (negara menerapkan kebijakan ramah lingkungan), maka Q (negara memiliki hutan yang lebat). Premis 2: Ternyata tidak Q (negara tidak memiliki hutan yang lebat). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, negara tersebut tidak menerapkan kebijakan ramah lingkungan."
   }
 ]
-
-
