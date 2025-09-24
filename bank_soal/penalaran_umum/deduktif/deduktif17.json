@@ -1,78 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Madu dikenal sebagai pemanis alami yang memiliki banyak manfaat kesehatan. Kandungan antioksidannya membantu melawan radikal bebas dalam tubuh. Selain itu, madu juga memiliki sifat antibakteri dan antijamur yang dapat membantu meredakan gejala batuk dan sakit tenggorokan. Meskipun demikian, madu tidak direkomendasikan untuk anak di bawah usia satu tahun karena risiko botulisme, sebuah kondisi langka yang disebabkan oleh spora bakteri yang mungkin ada di dalam madu.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nPersaingan sengit antara Amerika Serikat (AS) dan Tiongkok dalam industri semikonduktor semakin memanas. Semikonduktor, yang menjadi tulang punggung teknologi modern, kini menjadi medan perang geopolitik. AS, yang telah lama memimpin dalam inovasi chip, melihat kebangkitan Tiongkok sebagai ancaman terhadap dominasi teknologinya. AS merespons dengan menerapkan sanksi ekspor, melarang perusahaan seperti Nvidia dan AMD untuk menjual chip AI canggih ke Tiongkok.\n\nKebijakan pembatasan ekspor ini secara langsung bertujuan untuk menghambat kemajuan teknologi Tiongkok, khususnya dalam bidang kecerdasan buatan dan superkomputer. Namun, langkah ini juga menimbulkan konsekuensi bagi rantai pasok global. Negara-negara lain, termasuk di Asia Tenggara dan Eropa, merasa terjebak dalam ketegangan ini, di mana mereka harus menyeimbangkan hubungan ekonomi dengan Tiongkok dan tekanan politik dari AS.\n\nDi sisi lain, Tiongkok tidak tinggal diam. Pemerintah Tiongkok meningkatkan investasi domestik besar-besaran untuk mencapai swasembada chip. Meskipun strategi ini membutuhkan waktu dan modal yang sangat besar, jika berhasil, Tiongkok berpotensi mengurangi ketergantungannya pada teknologi asing dan mengamankan posisinya dalam industri global. Hal ini menunjukkan bahwa perang teknologi bukan hanya tentang persaingan bisnis, tetapi juga tentang supremasi global di era digital. \n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai alasan di balik sanksi ekspor AS terhadap Tiongkok?",
     "pilihan": [
-      "Madu memiliki sifat yang dapat melawan bakteri dan jamur.",
-      "Spora bakteri dapat ditemukan di dalam madu.",
-      "Anak-anak di bawah usia satu tahun disarankan untuk mengonsumsi madu.",
-      "Madu mengandung antioksidan yang baik untuk kesehatan.",
-      "Madu dapat membantu meredakan gejala batuk."
+      "AS ingin meningkatkan penjualan chip-nya di Tiongkok.",
+      "AS melihat kebangkitan Tiongkok sebagai ancaman terhadap dominasi teknologinya.",
+      "AS bertujuan untuk meningkatkan investasi Tiongkok dalam industri semikonduktor.",
+      "Sanksi ekspor diterapkan untuk meningkatkan kerja sama antara AS dan Tiongkok.",
+      "AS ingin mengurangi ketergantungan Tiongkok pada chip domestik."
     ],
-    "jawaban": "C",
-    "pembahasan": "Dalam teks bacaan disebutkan bahwa 'madu tidak direkomendasikan untuk anak di bawah usia satu tahun'. Oleh karena itu, pernyataan yang menyebutkan madu 'disarankan' untuk anak di bawah satu tahun adalah pernyataan yang secara logis dan pasti salah berdasarkan informasi yang diberikan."
+    "jawaban": "B",
+    "pembahasan": "Teks secara langsung menyebutkan bahwa AS 'melihat kebangkitan Tiongkok sebagai ancaman terhadap hegemoni teknologinya' dan merespons dengan sanksi ekspor. Pilihan B adalah pernyataan yang paling akurat dari teks."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika cuaca dingin, maka saya memakai jaket.\nPremis 2: Saya tidak memakai jaket.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Cuaca dingin.", "Cuaca tidak dingin.", "Saya mungkin memakai jaket meskipun cuaca dingin.", "Memakai jaket selalu berarti cuaca dingin.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika cuaca dingin, maka saya memakai jaket) dan ¬Q (Saya tidak memakai jaket), maka kesimpulannya adalah ¬P (Cuaca tidak dingin). Logikanya, jika cuaca dingin, saya *pasti* memakai jaket. Karena saya tidak memakai jaket, itu berarti cuaca tidak dingin."
+    "pertanyaan": "Jika Tiongkok berhasil mencapai swasembada chip, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perang teknologi dengan AS akan segera berakhir.",
+      "Tiongkok akan sepenuhnya berhenti membeli chip dari luar negeri.",
+      "Tiongkok berpotensi mengurangi ketergantungannya pada teknologi asing.",
+      "AS akan mencabut semua sanksi ekspornya.",
+      "Semua negara di Asia Tenggara akan berhenti berdagang dengan Tiongkok."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa tujuan Tiongkok berinvestasi adalah 'jika berhasil, Tiongkok berpotensi mengurangi ketergantungannya pada teknologi asing'. Ini adalah hubungan sebab-akibat yang jelas."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua burung dapat terbang.\nPremis 2: Pinguin tidak dapat terbang.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Pinguin adalah burung.", "Pinguin bukan burung.", "Pinguin mungkin burung.", "Hanya burung yang dapat terbang.", "Tidak dapat ditarik kesimpulan tentang pinguin."],
-    "jawaban": "B",
-    "pembahasan": "Premis 1 menyatakan properti universal burung (dapat terbang). Premis 2 menyatakan bahwa pinguin tidak memiliki properti tersebut. Oleh karena itu, secara deduktif, jika pinguin tidak dapat terbang, maka pinguin tidak bisa menjadi burung."
+    "pertanyaan": "Jika kebijakan pembatasan ekspor AS tidak diterapkan, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Perusahaan AS akan dilarang menjual chip ke Tiongkok.",
+      "Kemajuan teknologi Tiongkok akan terhambat.",
+      "Konsekuensi terhadap rantai pasok global mungkin tidak terjadi.",
+      "Tiongkok akan menghentikan investasi domestik semikonduktor.",
+      "Semua negara akan mendukung Tiongkok."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'kebijakan pembatasan ekspor ini... menimbulkan konsekuensi bagi rantai pasok global.' Jika kebijakan tersebut tidak ada, maka konsekuensinya juga tidak akan muncul atau setidaknya berkurang."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Setiap hewan yang memiliki insang hidup di air.\nPremis 2: Ikan Hiu hidup di air.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ikan Hiu memiliki insang.", "Ikan Hiu tidak memiliki insang.", "Ikan Hiu mungkin memiliki insang.", "Hanya hewan yang memiliki insang yang hidup di air.", "Tidak dapat ditarik kesimpulan bahwa Ikan Hiu memiliki insang."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika memiliki insang, maka hidup di air) dan Q (Ikan Hiu hidup di air), tidak berarti P (Ikan Hiu memiliki insang). Ada banyak makhluk hidup lain yang hidup di air tetapi tidak memiliki insang (misalnya, paus, lumba-lumba). Premis tidak menyatakan bahwa 'hanya' hewan yang memiliki insang yang hidup di air."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Tiongkok berupaya mencapai swasembada chip.",
+      "Sanksi ekspor AS menargetkan penjualan chip AI canggih.",
+      "Tiongkok melihat AS sebagai ancaman terhadap dominasi teknologinya.",
+      "Perang teknologi memengaruhi rantai pasok global.",
+      "AS telah lama menjadi pemimpin dalam inovasi chip."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'AS... melihat kebangkitan Tiongkok sebagai ancaman terhadap hegemoni teknologinya.' Pernyataan yang mengklaim sebaliknya adalah pernyataan yang pasti salah."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua sayuran hijau mengandung klorofil.\nPremis 2: Bayam adalah sayuran hijau.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bayam tidak mengandung klorofil.", "Bayam mungkin mengandung klorofil.", "Bayam pasti mengandung klorofil.", "Hanya bayam yang mengandung klorofil.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nASML Holding N.V. adalah perusahaan asal Belanda yang memegang peran sangat krusial dalam industri semikonduktor. Perusahaan ini merupakan satu-satunya produsen mesin fotolitografi Extreme Ultraviolet (EUV) di dunia, teknologi yang esensial untuk memproduksi chip tercanggih. Mesin EUV memungkinkan pembuatan chip dengan ukuran transistor yang sangat kecil dan efisien, yang menjadi kunci bagi kemajuan teknologi seperti 5G, kecerdasan buatan, dan komputasi kuantum.\n\nTanpa mesin canggih ASML, perusahaan-perusahaan besar seperti TSMC, Samsung, dan Intel tidak akan mampu memproduksi chip terkini untuk memenuhi permintaan pasar global. Ketergantungan industri pada satu produsen ini menciptakan posisi unik bagi ASML, yang kini menjadi pemain kunci dalam geopolitik teknologi. Negara-negara yang ingin membangun industri chipnya sendiri harus memiliki akses ke teknologi ASML, yang sering kali dibatasi oleh regulasi ekspor akibat tekanan politik.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "ASML adalah perusahaan yang memproduksi chip secara massal.",
+      "Semua perusahaan semikonduktor memiliki mesin EUV dari ASML.",
+      "ASML adalah satu-satunya produsen mesin fotolitografi EUV di dunia.",
+      "ASML adalah satu-satunya perusahaan yang memproduksi chip untuk 5G.",
+      "Ketergantungan industri pada ASML tidak memiliki dampak geopolitik."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah deduksi langsung. Karena semua sayuran hijau mengandung klorofil, dan bayam adalah sayuran hijau, maka bayam pasti mengandung klorofil."
+    "pembahasan": "Teks secara langsung menyatakan bahwa ASML 'merupakan satu-satunya produsen mesin fotolitografi Extreme Ultraviolet (EUV) di dunia.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika saya menonton film, maka saya merasa terhibur.\nPremis 2: Saya merasa terhibur.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya menonton film.", "Saya tidak menonton film.", "Saya mungkin menonton film.", "Merasa terhibur berarti menonton film.", "Tidak dapat ditarik kesimpulan bahwa saya menonton film."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika menonton film, maka merasa terhibur) dan Q (Saya merasa terhibur), tidak berarti P (Saya menonton film). Saya bisa merasa terhibur karena alasan lain (misalnya, membaca buku, mendengarkan musik, bermain game). Premis tidak menyatakan bahwa saya *hanya* merasa terhibur jika saya menonton film."
+    "pertanyaan": "Jika sebuah perusahaan tidak dapat memproduksi chip dengan ukuran transistor yang sangat kecil dan efisien, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut tidak memiliki mesin EUV dari ASML.",
+      "Perusahaan tersebut memproduksi chip untuk 5G.",
+      "Perusahaan tersebut tidak memerlukan teknologi modern.",
+      "Perusahaan tersebut adalah salah satu pesaing ASML.",
+      "Perusahaan tersebut mampu memproduksi chip terkini."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Teks menyatakan bahwa mesin EUV 'memungkinkan pembuatan chip dengan ukuran transistor yang sangat kecil dan efisien.' Jika sebuah perusahaan tidak dapat melakukannya, ada kemungkinan besar mereka tidak memiliki akses ke teknologi tersebut."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa suka menulis.\nPremis 2: Semua yang suka menulis adalah orang yang teliti.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa adalah orang yang teliti.", "Beberapa mahasiswa adalah orang yang teliti.", "Beberapa orang yang teliti bukan mahasiswa.", "Tidak ada mahasiswa yang suka menulis.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Dari Premis 1, ada irisan antara 'mahasiswa' dan 'suka menulis'. Premis 2 menyatakan bahwa semua yang 'suka menulis' juga termasuk dalam kategori 'orang yang teliti'. Karena ada beberapa mahasiswa yang suka menulis, dan semua yang suka menulis adalah orang teliti, maka secara deduktif, **beberapa mahasiswa adalah orang yang teliti**."
+    "pertanyaan": "Jika sebuah negara ingin membangun industri chipnya sendiri tetapi tidak memiliki akses ke teknologi ASML, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Negara tersebut akan menjadi pemimpin di industri semikonduktor.",
+      "Negara tersebut akan mampu memproduksi chip terkini secara massal.",
+      "Negara tersebut tidak akan mampu memproduksi chip tercanggih.",
+      "Negara tersebut akan dibebaskan dari regulasi ekspor.",
+      "Negara tersebut akan menjadi produsen mesin EUV."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa teknologi ASML 'esensial untuk memproduksi chip tercanggih.' Jika sebuah negara tidak memiliki akses, maka mereka tidak akan mampu memproduksi chip tercanggih tersebut."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Setiap rumah modern memiliki sistem keamanan canggih.\nPremis 2: Rumah Pak Doni tidak memiliki sistem keamanan canggih.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rumah Pak Doni adalah rumah modern.", "Rumah Pak Doni bukan rumah modern.", "Rumah Pak Doni mungkin rumah modern.", "Hanya rumah modern yang memiliki sistem keamanan canggih.", "Tidak dapat ditarik kesimpulan tentang rumah Pak Doni."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam konteks silogisme kategori. Jika P → Q (Jika rumah modern, maka memiliki sistem keamanan canggih) dan ¬Q (Rumah Pak Doni tidak memiliki sistem keamanan canggih), maka kesimpulannya adalah ¬P (Rumah Pak Doni bukan rumah modern). Jika rumah Pak Doni adalah rumah modern, ia *pasti* memiliki sistem keamanan canggih. Karena ia tidak memilikinya, maka ia bukan rumah modern."
+    "pertanyaan": "Sebuah studi menunjukkan bahwa konsumsi gula berlebih dapat meningkatkan risiko diabetes tipe 2. Studi ini melibatkan ribuan responden dan menunjukkan hasil yang konsisten. Namun, studi tersebut juga menekankan bahwa konsumsi gula saja tidak cukup untuk menyebabkan diabetes; faktor genetik, kurangnya aktivitas fisik, dan berat badan berlebih juga memegang peranan penting.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Konsumsi gula berlebih dapat meningkatkan risiko diabetes tipe 2.",
+      "Faktor genetik memiliki peran dalam risiko diabetes.",
+      "Studi tersebut melibatkan banyak responden.",
+      "Satu-satunya penyebab diabetes tipe 2 adalah konsumsi gula berlebih.",
+      "Kurangnya aktivitas fisik juga memengaruhi risiko diabetes."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'konsumsi gula saja tidak cukup untuk menyebabkan diabetes'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya penyebab (absolut) adalah pernyataan yang pasti salah."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika suatu benda adalah berlian, maka benda itu berkilau.\nPremis 2: Cincin ini berkilau.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Cincin ini adalah berlian.", "Cincin ini bukan berlian.", "Cincin ini mungkin berlian.", "Hanya berlian yang berkilau.", "Tidak dapat ditarik kesimpulan bahwa cincin ini adalah berlian."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika berlian, maka berkilau) dan Q (Cincin ini berkilau), tidak berarti P (Cincin ini adalah berlian). Banyak benda lain selain berlian yang juga berkilau (misalnya, kaca, kristal, logam tertentu). Premis tidak menyatakan bahwa 'hanya' berlian yang berkilau."
+    "pertanyaan": "Semua program magang yang dibayar memiliki kuota terbatas. Sebagian program magang yang memiliki kuota terbatas adalah program yang sangat kompetitif. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua program magang yang dibayar sangat kompetitif.",
+      "Sebagian program magang yang dibayar sangat kompetitif.",
+      "Tidak ada program magang yang dibayar yang sangat kompetitif.",
+      "Semua program magang yang sangat kompetitif memiliki kuota terbatas.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua program magang yang dibayar (A) memiliki kuota terbatas (B). Premis 2: Sebagian program magang yang memiliki kuota terbatas (B) adalah program yang sangat kompetitif (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian A (program magang yang dibayar) juga C (sangat kompetitif)."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua mahasiswa wajib mengambil mata kuliah Pancasila.\nPremis 2: Budi adalah mahasiswa.\nPremis 3: Mata kuliah Pancasila diadakan setiap semester ganjil.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi mengambil mata kuliah Pancasila di semester ganjil.", "Budi tidak wajib mengambil mata kuliah Pancasila.", "Semua mahasiswa mengambil mata kuliah Pancasila di semester ganjil.", "Budi akan lulus mata kuliah Pancasila.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "A",
-    "pembahasan": "Dari Premis 1 dan 2, dapat disimpulkan bahwa Budi wajib mengambil mata kuliah Pancasila. Dari Premis 3, mata kuliah Pancasila diadakan setiap semester ganjil. Menggabungkan kedua informasi ini, dapat disimpulkan bahwa **Budi mengambil mata kuliah Pancasila di semester ganjil** (dengan asumsi ia akan mengambilnya sesuai jadwal). Ini adalah penalaran berantai."
+    "pertanyaan": "Jika semua negara yang memiliki ekonomi digital maju mengadopsi teknologi 5G, dan sebuah negara tidak mengadopsi teknologi 5G, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Negara tersebut memiliki ekonomi digital yang maju.",
+      "Negara tersebut tidak memiliki ekonomi digital yang maju.",
+      "Negara tersebut akan segera mengadopsi 5G.",
+      "Semua negara yang tidak mengadopsi 5G adalah negara dengan ekonomi digital yang maju.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Jika P (negara memiliki ekonomi digital maju), maka Q (negara mengadopsi teknologi 5G). Premis 2: Ternyata tidak Q (negara tidak mengadopsi 5G). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, negara tersebut tidak memiliki ekonomi digital yang maju."
   }
 ]
