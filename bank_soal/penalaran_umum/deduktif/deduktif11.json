@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua mahasiswa berprestasi mendapatkan beasiswa.\nPremis 2: Budi adalah mahasiswa berprestasi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi mungkin mendapatkan beasiswa.", "Budi tidak mendapatkan beasiswa.", "Budi pasti mendapatkan beasiswa.", "Semua yang mendapatkan beasiswa adalah Budi.", "Beasiswa hanya diberikan kepada Budi."],
-    "jawaban": "C",
-    "pembahasan": "Penalaran deduktif bergerak dari premis umum ke kesimpulan spesifik. Premis 1 menyatakan bahwa *semua* mahasiswa berprestasi mendapatkan beasiswa. Premis 2 menyatakan bahwa Budi *adalah* mahasiswa berprestasi. Oleh karena itu, secara logis dan pasti, Budi mendapatkan beasiswa."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nTren 'esports' atau olahraga elektronik terus berkembang pesat di seluruh dunia. Sejumlah penelitian menunjukkan bahwa atlet esports profesional memerlukan keterampilan kognitif yang tinggi, seperti kecepatan reaksi, pengambilan keputusan strategis, dan koordinasi tangan-mata yang luar biasa. Keterampilan ini diasah melalui latihan intensif dan disiplin yang ketat, mirip dengan atlet olahraga konvensional. \n\nNamun, beberapa kritikus berpendapat bahwa fokus berlebihan pada esports dapat berdampak negatif pada kesehatan fisik. Kurangnya aktivitas fisik dan postur duduk yang salah selama berjam-jam berisiko menyebabkan masalah kesehatan, seperti obesitas dan cedera punggung. Untuk mengatasi hal ini, banyak tim esports profesional kini mewajibkan jadwal latihan fisik dan konsultasi dengan ahli gizi. \n\nDiskusi tentang esports juga mencakup pengakuan sebagai olahraga resmi. Meskipun beberapa negara telah mengakui esports, perdebatan masih berlanjut di kancah global. Pengakuan penuh akan membawa keuntungan seperti pendanaan, sponsor, dan status atlet. Namun, hal ini juga menuntut regulasi yang lebih ketat, termasuk standar etika dan anti-doping, untuk memastikan integritas kompetisi.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara esports dan kesehatan fisik?",
+    "pilihan": [
+      "Esports selalu berdampak positif pada kesehatan fisik.",
+      "Fokus berlebihan pada esports berisiko menyebabkan masalah kesehatan fisik.",
+      "Esports dan kesehatan fisik tidak memiliki hubungan yang pasti.",
+      "Semua atlet esports profesional mengalami cedera punggung.",
+      "Latihan fisik tidak relevan bagi atlet esports."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa 'fokus berlebihan pada esports dapat berdampak negatif pada kesehatan fisik.' Pilihan B adalah pernyataan yang paling akurat dan sesuai dengan informasi dalam teks, karena menggunakan kata 'berisiko' yang mencerminkan kemungkinan, bukan suatu kepastian."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika hari ini hujan, maka jalanan akan basah.\nPremis 2: Hari ini jalanan tidak basah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hari ini hujan.", "Hari ini tidak hujan.", "Jalanan selalu basah saat hujan.", "Hujan tidak membuat jalanan basah.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika tim esports tidak mewajibkan jadwal latihan fisik, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Keterampilan kognitif atlet akan meningkat.",
+      "Masalah kesehatan fisik pada atlet akan sulit diatasi.",
+      "Mereka akan memenangkan semua kompetisi.",
+      "Semua atletnya akan mengalami obesitas.",
+      "Kompetisi tidak akan memiliki regulasi."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika hari ini hujan, maka jalanan akan basah) dan ¬Q (Jalanan tidak basah), maka kesimpulannya adalah ¬P (Hari ini tidak hujan). Jika hari ini hujan, jalanan *pasti* basah. Karena jalanan tidak basah, berarti premis 'hari ini hujan' harus salah."
+    "pembahasan": "Teks menyebutkan bahwa 'Untuk mengatasi hal ini (dampak negatif pada kesehatan fisik), banyak tim esports profesional kini mewajibkan jadwal latihan fisik.' Jika tindakan ini tidak dilakukan, maka tujuan untuk mengatasi masalah kesehatan fisik akan sulit tercapai."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua ikan hidup di air.\nPremis 2: Lumba-lumba bukan ikan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Lumba-lumba tidak hidup di air.", "Lumba-lumba hidup di air.", "Beberapa ikan adalah lumba-lumba.", "Lumba-lumba adalah mamalia.", "Tidak dapat ditarik kesimpulan tentang tempat hidup lumba-lumba dari premis ini."],
-    "jawaban": "E",
-    "pembahasan": "Premis 1 menyatakan bahwa *semua* ikan hidup di air. Premis 2 menyatakan bahwa lumba-lumba *bukan* ikan. Dari kedua premis ini, kita tidak bisa secara deduktif menyimpulkan apakah lumba-lumba hidup di air atau tidak. Meskipun kita tahu secara umum lumba-lumba hidup di air, informasi tersebut tidak disediakan oleh premis. Jadi, secara logis deduktif, kita tidak bisa membuat kesimpulan pasti."
+    "pertanyaan": "Jika esports tidak diakui sebagai olahraga resmi, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Tidak akan ada lagi kompetisi esports.",
+      "Regulasi anti-doping tidak akan diperlukan.",
+      "Pendanaan dan sponsor akan meningkat drastis.",
+      "Atlet esports tidak lagi berlatih secara intensif.",
+      "Keterampilan kognitif atlet akan menurun."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa pengakuan penuh akan 'menuntut regulasi yang lebih ketat, termasuk standar etika dan anti-doping.' Jika esports tidak diakui, tuntutan ini tidak ada, sehingga regulasi anti-doping tidak akan diperlukan."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Setiap siswa yang rajin belajar akan lulus ujian.\nPremis 2: Dini tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Dini adalah siswa yang rajin belajar.", "Dini bukan siswa yang rajin belajar.", "Dini mungkin rajin belajar.", "Semua siswa yang tidak rajin belajar tidak lulus ujian.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini juga contoh **Modus Tollens**. Jika P → Q (Jika siswa rajin belajar, maka lulus ujian) dan ¬Q (Dini tidak lulus ujian), maka kesimpulannya adalah ¬P (Dini bukan siswa yang rajin belajar). Jika Dini rajin belajar, dia *pasti* lulus ujian. Karena Dini tidak lulus, berarti dia tidak rajin belajar."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Atlet esports profesional memerlukan keterampilan kognitif.",
+      "Fokus berlebihan pada esports dapat menyebabkan cedera punggung.",
+      "Semua negara telah mengakui esports sebagai olahraga resmi.",
+      "Latihan fisik dapat membantu mengatasi masalah kesehatan pada atlet esports.",
+      "Pengakuan esports akan membawa keuntungan seperti pendanaan."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'perdebatan masih berlanjut di kancah global' mengenai pengakuan esports sebagai olahraga resmi. Hal ini membantah pernyataan bahwa 'Semua negara telah mengakui' esports."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua buah berwarna merah manis.\nPremis 2: Apel adalah buah berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Apel tidak manis.", "Apel mungkin manis.", "Apel pasti manis.", "Buah yang manis adalah apel.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nFenomena 'dark tourism', di mana wisatawan mengunjungi situs yang terkait dengan tragedi atau kematian, semakin populer. Sebagian besar orang yang terlibat dalam dark tourism termotivasi oleh keingintahuan tentang sejarah, rasa empati, atau keinginan untuk memberi penghormatan kepada korban. Tujuan dari kunjungan ini sering kali edukasi dan refleksi, bukan sensasi semata. \n\nNamun, popularitas dark tourism juga memicu perdebatan etika. Beberapa situs dark tourism menjadi sangat komersial, sehingga dikhawatirkan mengikis nilai sejarah dan menghormati para korban. Oleh karena itu, penting bagi wisatawan untuk bersikap etis dengan tidak berfoto selfie yang tidak pantas atau berperilaku tidak hormat. Etika kunjungan sangat menentukan apakah pengalaman tersebut menjadi pembelajaran atau sekadar eksploitasi.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua orang yang melakukan dark tourism termotivasi oleh sensasi.",
+      "Setiap situs dark tourism adalah komersial.",
+      "Sebagian besar orang yang terlibat dalam dark tourism termotivasi oleh edukasi dan refleksi.",
+      "Dark tourism selalu mengikis nilai sejarah.",
+      "Fotografi tidak pernah diperbolehkan di situs dark tourism."
+    ],
     "jawaban": "C",
-    "pembahasan": "Sama seperti Soal 1, ini adalah penalaran deduktif langsung. Premis 1 menyatakan bahwa *semua* buah berwarna merah *manis*. Premis 2 menyatakan Apel *adalah* buah berwarna merah. Jadi, secara deduktif, Apel pasti manis."
+    "pembahasan": "Teks menyatakan bahwa 'Sebagian besar orang yang terlibat dalam dark tourism termotivasi oleh keingintahuan tentang sejarah...Tujuan dari kunjungan ini sering kali edukasi dan refleksi, bukan sensasi semata.' Pilihan C adalah pernyataan yang paling akurat berdasarkan informasi tersebut."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Jika seseorang adalah dokter, maka ia memiliki gelar medis.\nPremis 2: Pak Anto tidak memiliki gelar medis.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Pak Anto adalah dokter.", "Pak Anto bukan dokter.", "Pak Anto mungkin dokter.", "Orang yang tidak memiliki gelar medis adalah Pak Anto.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Jika seorang wisatawan mengunjungi situs dark tourism dengan tujuan eksploitasi, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Ia tidak memiliki rasa empati.",
+      "Ia akan berperilaku tidak hormat.",
+      "Kunjungannya akan menjadi pembelajaran yang berharga.",
+      "Situs yang dikunjungi adalah situs yang komersial.",
+      "Ia tidak termotivasi oleh keingintahuan sejarah."
+    ],
     "jawaban": "B",
-    "pembahasan": "Sama dengan Soal 2 dan 4 (**Modus Tollens**). Jika P → Q (Jika seseorang adalah dokter, maka ia memiliki gelar medis) dan ¬Q (Pak Anto tidak memiliki gelar medis), maka kesimpulannya adalah ¬P (Pak Anto bukan dokter)."
+    "pembahasan": "Teks menyatakan bahwa 'Etika kunjungan sangat menentukan apakah pengalaman tersebut menjadi pembelajaran atau sekadar eksploitasi' dan menyarankan untuk 'tidak berfoto selfie yang tidak pantas atau berperilaku tidak hormat.' Ini menunjukkan bahwa kunjungan yang bersifat eksploitasi cenderung berkaitan dengan perilaku tidak hormat."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa adalah atlet.\nPremis 2: Semua atlet adalah pekerja keras.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa adalah pekerja keras.", "Beberapa mahasiswa adalah pekerja keras.", "Semua pekerja keras adalah atlet.", "Beberapa pekerja keras bukan mahasiswa.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Diagram Venn bisa membantu di sini. Ada irisan antara 'mahasiswa' dan 'atlet' (Premis 1). Semua yang ada di dalam lingkaran 'atlet' juga ada di dalam lingkaran 'pekerja keras' (Premis 2). Karena ada mahasiswa yang juga atlet, dan semua atlet adalah pekerja keras, maka pasti ada **beberapa mahasiswa yang juga pekerja keras**."
+    "pertanyaan": "Jika sebuah situs dark tourism menjadi sangat komersial, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Situs tersebut tidak memiliki nilai sejarah.",
+      "Situs tersebut akan kehilangan nilai edukasinya.",
+      "Wisatawan tidak akan mengunjunginya lagi.",
+      "Situs tersebut berisiko mengikis nilai sejarahnya.",
+      "Semua wisatawan akan berperilaku tidak sopan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyebutkan bahwa 'Beberapa situs dark tourism menjadi sangat komersial, sehingga dikhawatirkan mengikis nilai sejarah dan menghormati para korban.' Ini menyiratkan bahwa komersialisasi membawa risiko pengikisan nilai sejarah."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Semua burung memiliki sayap.\nPremis 2: Merpati adalah burung.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Merpati tidak memiliki sayap.", "Merpati mungkin memiliki sayap.", "Merpati pasti memiliki sayap.", "Semua yang memiliki sayap adalah merpati.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah deduksi klasik. Jika *semua* burung memiliki sayap, dan merpati *adalah* burung, maka merpati pasti memiliki sayap."
+    "pertanyaan": "Sebuah penelitian menyebutkan bahwa partisipasi aktif dalam kegiatan sosial dapat meningkatkan rasa kebahagiaan. Penelitian tersebut melibatkan ribuan partisipan dan menunjukkan hasil yang konsisten. Namun, penelitian tersebut juga menekankan bahwa kegiatan sosial saja tidak cukup; pola tidur yang teratur dan nutrisi yang seimbang juga memegang peranan penting dalam meningkatkan kebahagiaan.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Partisipasi aktif dalam kegiatan sosial dapat meningkatkan rasa kebahagiaan.",
+      "Pola tidur yang teratur dan nutrisi yang seimbang memiliki peran penting dalam meningkatkan kebahagiaan.",
+      "Penelitian tersebut melibatkan banyak partisipan.",
+      "Satu-satunya cara untuk meningkatkan kebahagiaan adalah dengan partisipasi aktif dalam kegiatan sosial.",
+      "Faktor lain selain kegiatan sosial juga penting untuk kebahagiaan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'partisipasi aktif dalam kegiatan sosial dapat meningkatkan rasa kebahagiaan,' tetapi juga menekankan bahwa 'kegiatan sosial saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika suatu benda adalah logam, maka benda itu menghantarkan listrik.\nPremis 2: Benda ini tidak menghantarkan listrik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Benda ini adalah logam.", "Benda ini bukan logam.", "Benda ini mungkin logam.", "Benda yang tidak menghantarkan listrik adalah benda ini.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Sama dengan **Modus Tollens**. Jika P → Q (Jika suatu benda adalah logam, maka benda itu menghantarkan listrik) dan ¬Q (Benda ini tidak menghantarkan listrik), maka kesimpulannya adalah ¬P (Benda ini bukan logam)."
+    "pertanyaan": "Sebuah laporan menyebutkan bahwa penerapan kebijakan 'Green Building' yang ramah lingkungan dapat menurunkan biaya operasional gedung dalam jangka panjang. Laporan ini didukung oleh data dari berbagai proyek konstruksi. Namun, laporan tersebut juga mencatat bahwa 'Green Building' saja tidak cukup untuk keberlanjutan lingkungan; adopsi energi terbarukan dan pengelolaan limbah yang efektif juga memegang peranan penting. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Penerapan 'Green Building' dapat menurunkan biaya operasional gedung.",
+      "'Green Building' saja tidak cukup untuk keberlanjutan lingkungan.",
+      "Laporan tersebut didukung oleh data dari berbagai proyek.",
+      "Satu-satunya cara untuk mencapai keberlanjutan lingkungan adalah dengan menerapkan 'Green Building'.",
+      "Energi terbarukan dan pengelolaan limbah juga penting untuk keberlanjutan lingkungan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'penerapan kebijakan 'Green Building'...dapat menurunkan biaya operasional' dan juga mencatat bahwa 'Green Building' saja tidak cukup untuk keberlanjutan lingkungan. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua siswa suka belajar.\nPremis 2: Beberapa siswa suka bermain game.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua siswa suka belajar dan bermain game.", "Beberapa siswa suka belajar dan bermain game.", "Tidak ada siswa yang suka bermain game.", "Hanya siswa yang suka belajar yang suka bermain game.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Premis 1 menyatakan bahwa *semua* siswa suka belajar. Premis 2 menyatakan bahwa *beberapa* siswa suka bermain game. Karena semua siswa suka belajar, dan ada sebagian dari siswa tersebut yang juga suka bermain game, maka secara logis dapat disimpulkan bahwa **beberapa siswa suka belajar dan juga bermain game**. Ini adalah irisan dari dua sifat pada kelompok yang sama."
+    "pertanyaan": "Sebuah artikel ilmiah menyatakan bahwa konsumsi probiotik secara rutin dapat membantu meningkatkan kesehatan usus. Artikel ini merujuk pada beberapa studi klinis yang menunjukkan hasil positif. Namun, artikel tersebut juga menekankan bahwa probiotik saja tidak cukup; pola makan seimbang dan hidrasi yang memadai juga memegang peranan penting dalam menjaga kesehatan usus.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Konsumsi probiotik dapat membantu meningkatkan kesehatan usus.",
+      "Pola makan seimbang dan hidrasi yang memadai memiliki peran penting dalam kesehatan usus.",
+      "Artikel tersebut merujuk pada studi klinis.",
+      "Satu-satunya cara untuk meningkatkan kesehatan usus adalah dengan konsumsi probiotik.",
+      "Faktor lain selain probiotik juga penting untuk kesehatan usus."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'konsumsi probiotik secara rutin dapat membantu meningkatkan kesehatan usus,' tetapi juga menekankan bahwa 'probiotik saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   }
 ]
