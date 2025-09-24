@@ -1,73 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua bangunan bersejarah dilindungi undang-undang.\nPremis 2: Candi Borobudur adalah bangunan bersejarah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Candi Borobudur tidak dilindungi undang-undang.", "Candi Borobudur mungkin dilindungi undang-undang.", "Candi Borobudur pasti dilindungi undang-undang.", "Semua yang dilindungi undang-undang adalah Candi Borobudur.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan penalaran deduktif, jika semua bangunan bersejarah dilindungi undang-undang dan Candi Borobudur adalah bangunan bersejarah, maka Candi Borobudur pasti dilindungi undang-undang."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nGerakan de-dolarisasi, yaitu upaya untuk mengurangi ketergantungan pada dolar AS sebagai mata uang cadangan dan perdagangan global, semakin gencar dilakukan oleh beberapa negara. Pemicu utama gerakan ini adalah ketidakpastian geopolitik dan penggunaan dolar AS sebagai instrumen sanksi ekonomi oleh Amerika Serikat. Akibatnya, negara-negara, terutama dari blok BRICS (Brasil, Rusia, India, Tiongkok, dan Afrika Selatan), berupaya mencari alternatif, seperti memperkuat perdagangan dengan mata uang lokal atau menciptakan mata uang digital bersama.\n\nLangkah de-dolarisasi ini dipandang dapat memberikan otonomi finansial yang lebih besar bagi negara-negara tersebut, membuat mereka lebih tahan terhadap kebijakan moneter AS. Namun, para ekonom berpendapat bahwa transisi ini tidak mudah dan memerlukan waktu yang lama. Dominasi dolar AS didukung oleh infrastruktur finansial global yang kuat, stabilitas pasar, dan penerimaannya yang luas. Tanpa alternatif yang stabil dan tepercaya, upaya de-dolarisasi akan menghadapi tantangan besar.\n\nDi sisi lain, jika de-dolarisasi berhasil, dampaknya akan meluas. Tidak hanya mengubah lanskap perdagangan global, tetapi juga memengaruhi harga komoditas yang saat ini mayoritas diperdagangkan dalam dolar AS. Ketersediaan mata uang alternatif yang kuat dapat menciptakan sistem finansial multipolar, di mana tidak ada satu mata uang pun yang memiliki kekuatan dominan seperti dolar AS saat ini. \n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara ketidakpastian geopolitik dan de-dolarisasi?",
+    "pilihan": [
+      "Ketidakpastian geopolitik secara langsung mengakhiri dominasi dolar AS.",
+      "Ketidakpastian geopolitik menjadi pemicu upaya de-dolarisasi.",
+      "Ketidakpastian geopolitik dan de-dolarisasi tidak memiliki hubungan yang pasti.",
+      "Ketidakpastian geopolitik hanya memengaruhi negara-negara BRICS.",
+      "De-dolarisasi dapat mencegah ketidakpastian geopolitik."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa 'Pemicu utama gerakan ini adalah ketidakpastian geopolitik dan penggunaan dolar AS sebagai instrumen sanksi ekonomi.' Pilihan B adalah pernyataan yang paling akurat dan sesuai dengan informasi dalam teks, karena secara langsung menyebutkan hubungan sebab-akibat tersebut."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika cuaca dingin, maka orang memakai jaket.\nPremis 2: Orang tidak memakai jaket.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Cuaca dingin.", "Cuaca tidak dingin.", "Orang selalu memakai jaket saat cuaca dingin.", "Memakai jaket tidak tergantung cuaca.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika cuaca dingin, maka orang memakai jaket) dan ¬Q (Orang tidak memakai jaket), maka kesimpulannya adalah ¬P (Cuaca tidak dingin)."
+    "pertanyaan": "Jika negara-negara tidak berhasil menciptakan alternatif yang stabil dan tepercaya untuk dolar AS, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "De-dolarisasi akan berhasil dalam waktu singkat.",
+      "Dominasi dolar AS akan berakhir.",
+      "Upaya de-dolarisasi akan menghadapi tantangan besar.",
+      "Blok BRICS akan segera bubar.",
+      "Perdagangan dengan mata uang lokal akan berhenti."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'Tanpa alternatif yang stabil dan tepercaya, upaya de-dolarisasi akan menghadapi tantangan besar.' Ini adalah hubungan sebab-akibat yang jelas."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua benda padat memiliki bentuk yang tetap.\nPremis 2: Es batu adalah benda padat.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Es batu tidak memiliki bentuk yang tetap.", "Es batu mungkin memiliki bentuk yang tetap.", "Es batu pasti memiliki bentuk yang tetap.", "Semua yang memiliki bentuk yang tetap adalah es batu.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika semua benda padat memiliki bentuk yang tetap dan es batu adalah benda padat, maka secara deduktif es batu pasti memiliki bentuk yang tetap."
+    "pertanyaan": "Jika sebuah negara berhasil mengurangi ketergantungan pada dolar AS, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Negara tersebut akan kebal dari semua sanksi ekonomi.",
+      "Negara tersebut akan memiliki otonomi finansial yang lebih besar.",
+      "Negara tersebut akan menjadi bagian dari blok BRICS.",
+      "Kebijakan moneter AS tidak akan lagi relevan.",
+      "Harga komoditas di negara tersebut akan turun drastis."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa de-dolarisasi 'dipandang dapat memberikan otonomi finansial yang lebih besar' bagi negara-negara yang melakukannya. Jika sebuah negara berhasil dalam hal ini, maka tujuan tersebut akan tercapai."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Jika hewan berbulu, maka ia adalah mamalia.\nPremis 2: Hewan ini bukan mamalia.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hewan ini berbulu.", "Hewan ini tidak berbulu.", "Hewan ini mungkin berbulu.", "Semua yang bukan mamalia tidak berbulu.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika hewan berbulu, maka ia adalah mamalia) dan ¬Q (Hewan ini bukan mamalia), maka kesimpulannya adalah ¬P (Hewan ini tidak berbulu)."
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Dominasi dolar AS didukung oleh stabilitas pasar.",
+      "De-dolarisasi akan menciptakan sistem finansial multipolar.",
+      "Perdagangan komoditas saat ini mayoritas tidak menggunakan dolar AS.",
+      "Negara-negara BRICS berupaya mengurangi ketergantungan pada dolar AS.",
+      "Penggunaan dolar AS sebagai instrumen sanksi menjadi pemicu de-dolarisasi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'harga komoditas yang saat ini mayoritas diperdagangkan dalam dolar AS.' Pernyataan yang mengklaim sebaliknya adalah pernyataan yang pasti salah."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua anak SMA wajib mengikuti ekstrakurikuler.\nPremis 2: Rani adalah anak SMA.\nPremis 3: Rani tidak mengikuti ekstrakurikuler.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rani tidak wajib mengikuti ekstrakurikuler.", "Rani bukan anak SMA.", "Rani seharusnya mengikuti ekstrakurikuler.", "Ekstrakurikuler dibatalkan.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nAmerika Serikat baru-baru ini menerapkan tarif impor baru yang tinggi pada beberapa produk, termasuk baja dan aluminium. Kebijakan ini bertujuan untuk melindungi industri domestik dari persaingan global yang dianggap tidak adil. Namun, langkah ini memicu kekhawatiran tentang potensi dampak negatif, terutama pada industri-industri yang bergantung pada bahan baku impor, seperti industri otomotif dan konstruksi.\n\nDi sisi lain, kebijakan ini juga memicu negara lain, seperti Tiongkok, untuk menerapkan tarif balasan pada produk ekspor Amerika, termasuk produk pertanian dan pangan. Langkah balasan ini berisiko menekan ekspor industri pangan AS, yang berpotensi merugikan petani dan produsen domestik. Akibatnya, meskipun kebijakan tarif bertujuan melindungi satu sektor, ia dapat secara tidak langsung merugikan sektor lain yang tidak terkait.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua produk ekspor AS akan terpengaruh oleh tarif balasan.",
+      "Kebijakan tarif AS tidak akan berdampak pada industri otomotif.",
+      "Kebijakan tarif AS bertujuan untuk melindungi industri domestik dari persaingan.",
+      "Semua produk impor AS dikenai tarif tinggi.",
+      "Tiongkok akan selalu menerapkan tarif balasan terhadap semua produk AS."
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari Premis 1 (kewajiban semua anak SMA untuk mengikuti ekstrakurikuler) dan Premis 2 (Rani adalah anak SMA), secara deduktif dapat disimpulkan bahwa Rani seharusnya mengikuti ekstrakurikuler. Premis 3 hanya menyatakan fakta bahwa Rani tidak mengikuti, yang bertentangan dengan kewajibannya."
+    "pembahasan": "Teks secara langsung menyatakan bahwa kebijakan tarif AS 'bertujuan untuk melindungi industri domestik dari persaingan global yang dianggap tidak adil.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa adalah anggota klub debat.\nPremis 2: Semua anggota klub debat memiliki kemampuan berbicara yang baik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa memiliki kemampuan berbicara yang baik.", "Beberapa mahasiswa memiliki kemampuan berbicara yang baik.", "Semua yang memiliki kemampuan berbicara yang baik adalah mahasiswa.", "Beberapa yang memiliki kemampuan berbicara yang baik bukan mahasiswa.", "Tidak dapat ditarik kesimpulan secara valid."],
+    "pertanyaan": "Jika Tiongkok menerapkan tarif balasan pada produk pangan AS, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Industri pangan AS akan mengalami peningkatan ekspor.",
+      "Ekspor industri pangan AS berisiko tertekan.",
+      "Kebijakan tarif AS akan dibatalkan.",
+      "Industri otomotif AS akan diuntungkan.",
+      "Harga komoditas pangan akan turun drastis."
+    ],
     "jawaban": "B",
-    "pembahasan": "Karena ada beberapa mahasiswa yang merupakan anggota klub debat, dan semua anggota klub debat memiliki kemampuan berbicara yang baik, maka secara logis dapat disimpulkan bahwa beberapa mahasiswa memiliki kemampuan berbicara yang baik."
+    "pembahasan": "Teks menyatakan bahwa 'Langkah balasan ini (tarif balasan) berisiko menekan ekspor industri pangan AS.' Jika Tiongkok menerapkan tarif tersebut, maka ekspor pangan AS berisiko tertekan."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Jika seseorang adalah jurnalis, maka ia harus objektif.\nPremis 2: Budi tidak objektif.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi adalah jurnalis.", "Budi bukan jurnalis.", "Budi mungkin jurnalis.", "Semua yang tidak objektif adalah Budi.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika jurnalis, maka objektif) dan ¬Q (Tidak objektif), maka kesimpulannya adalah ¬P (Bukan jurnalis)."
+    "pertanyaan": "Jika industri otomotif AS bergantung pada bahan baku impor, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Industri tersebut tidak akan terpengaruh oleh tarif impor.",
+      "Industri tersebut akan diuntungkan oleh kebijakan tarif.",
+      "Industri tersebut berisiko terkena dampak negatif dari tarif impor.",
+      "Industri tersebut tidak akan pernah memproduksi mobil lagi.",
+      "Sektor lain di AS akan diuntungkan."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyebutkan bahwa kebijakan tarif impor memicu 'kekhawatiran tentang potensi dampak negatif, terutama pada industri-industri yang bergantung pada bahan baku impor, seperti industri otomotif.' Ini secara langsung mengindikasikan bahwa industri otomotif berisiko terkena dampak negatif."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Semua unggas memiliki sayap.\nPremis 2: Penguin adalah unggas.\nPremis 3: Penguin tidak bisa terbang.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua unggas tidak bisa terbang.", "Penguin memiliki sayap dan tidak bisa terbang.", "Semua yang memiliki sayap bisa terbang.", "Hanya penguin yang memiliki sayap tapi tidak bisa terbang.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Dari Premis 1 dan Premis 2, kita bisa menyimpulkan bahwa Penguin memiliki sayap. Premis 3 menambahkan informasi bahwa Penguin tidak bisa terbang. Menggabungkan kedua kesimpulan ini, maka Penguin memiliki sayap dan tidak bisa terbang."
+    "pertanyaan": "Sebuah penelitian menyebutkan bahwa partisipasi aktif dalam kegiatan sosial dapat membantu meningkatkan rasa kebahagiaan. Studi ini melibatkan ribuan partisipan dan menunjukkan hasil yang konsisten. Namun, penelitian tersebut juga menekankan bahwa kegiatan sosial saja tidak cukup; pola tidur yang teratur dan nutrisi yang seimbang juga memegang peranan penting dalam meningkatkan kebahagiaan.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Partisipasi aktif dalam kegiatan sosial dapat meningkatkan rasa kebahagiaan.",
+      "Pola tidur yang teratur dan nutrisi yang seimbang memiliki peran penting dalam meningkatkan kebahagiaan.",
+      "Penelitian tersebut melibatkan banyak partisipan.",
+      "Satu-satunya cara untuk meningkatkan kebahagiaan adalah dengan partisipasi aktif dalam kegiatan sosial.",
+      "Faktor lain selain kegiatan sosial juga penting untuk kebahagiaan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'partisipasi aktif dalam kegiatan sosial dapat membantu meningkatkan rasa kebahagiaan,' tetapi juga menekankan bahwa 'kegiatan sosial saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika karyawan telat, maka akan dikenakan denda.\nPremis 2: Karyawan dikenakan denda.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Karyawan telat.", "Karyawan tidak telat.", "Karyawan selalu telat saat dikenakan denda.", "Denda tidak tergantung keterlambatan.", "Tidak dapat ditarik kesimpulan secara valid."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah fallacy of affirming the consequent. Dari P → Q (Jika karyawan telat, maka dikenakan denda) dan Q (Karyawan dikenakan denda), kita tidak bisa secara deduktif menyimpulkan P (Karyawan telat). Karyawan bisa dikenakan denda karena alasan lain selain keterlambatan (misalnya, melanggar aturan lain)."
+    "pertanyaan": "Semua laptop gaming yang sukses memiliki kartu grafis yang kuat. Sebagian laptop yang memiliki kartu grafis yang kuat memiliki layar beresolusi tinggi. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua laptop gaming yang sukses memiliki layar beresolusi tinggi.",
+      "Sebagian laptop gaming yang sukses memiliki layar beresolusi tinggi.",
+      "Tidak ada laptop gaming yang sukses memiliki layar beresolusi tinggi.",
+      "Semua laptop yang memiliki layar beresolusi tinggi adalah laptop gaming yang sukses.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua laptop gaming yang sukses (A) memiliki kartu grafis yang kuat (B). Premis 2: Sebagian laptop yang memiliki kartu grafis yang kuat (B) memiliki layar beresolusi tinggi (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian A (laptop gaming yang sukses) juga C (memiliki layar beresolusi tinggi). Ini adalah bentuk penalaran deduktif yang sahih."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Semua negara di Asia Tenggara adalah anggota ASEAN.\nPremis 2: Indonesia adalah negara di Asia Tenggara.\nPremis 3: Vietnam adalah anggota ASEAN.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Vietnam adalah negara di Asia Tenggara.", "Indonesia adalah anggota ASEAN.", "Indonesia bukan anggota ASEAN.", "Semua anggota ASEAN adalah negara di Asia Tenggara.", "Tidak dapat ditarik kesimpulan dari semua premis."],
+    "pertanyaan": "Jika semua mahasiswa yang berprestasi adalah mahasiswa yang rajin belajar, dan Budi bukan mahasiswa yang rajin belajar, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Budi adalah mahasiswa yang berprestasi.",
+      "Budi bukan mahasiswa yang berprestasi.",
+      "Semua mahasiswa yang tidak rajin belajar adalah Budi.",
+      "Semua mahasiswa yang rajin belajar adalah mahasiswa yang berprestasi.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1 (Semua negara di Asia Tenggara adalah anggota ASEAN) dan Premis 2 (Indonesia adalah negara di Asia Tenggara), secara deduktif dapat disimpulkan bahwa Indonesia adalah anggota ASEAN. Premis 3, meskipun benar, tidak menambah informasi deduktif untuk pertanyaan tentang Indonesia."
+    "pembahasan": "Premis 1: Jika P (seseorang adalah mahasiswa berprestasi), maka Q (orang tersebut rajin belajar). Premis 2: Budi tidak rajin belajar (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Budi bukan mahasiswa yang berprestasi."
   }
 ]
-
