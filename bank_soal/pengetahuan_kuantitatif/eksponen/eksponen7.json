@@ -113,17 +113,17 @@
   },
   {
     "id": 129,
-    "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $^4\\log (1/16)$ adalah...",
+    "kategori": "Aljabar Eksponen",
+    "pertanyaan": "Jika $8^m = 27$, maka nilai dari $2^{m+2} + 4^m$ adalah...",
     "pilihan": [
-      "$-2$",
-      "$-1$",
-      "$1/2$",
-      "2",
-      "4"
+      "12",
+      "15",
+      "18",
+      "21",
+      "24"
     ],
-    "jawaban": "A",
-    "pembahasan": "Misalkan $^4\\log (1/16) = y$. Maka $4^y = 1/16$.\n$4^y = 4^{-2}$\n$y = -2$"
+    "jawaban": "D",
+    "pembahasan": "Kita akan memanipulasi $8^m = 27$ untuk mendapatkan nilai dari $2^m$ dan $4^m$.\n\n1. Sederhanakan persamaan yang diketahui:\n$8^m = 27 \\implies (2^3)^m = 27 \\implies 2^{3m} = 27$\n\n2. Cari nilai $2^m$:\nPangkatkan kedua sisi dengan $1/3$:\n$(2^{3m})^{1/3} = 27^{1/3}$\n$2^m = \\sqrt[3]{27} \\implies 2^m = 3$\n\n3. Cari nilai $2^{2m}$ (atau $4^m$):\nPangkatkan kedua sisi dengan 2:\n$(2^m)^2 = 3^2$\n$$2^{2m} = 9 \\quad \\text{atau} \\quad 4^m = 9$\n\n4. Hitung nilai ekspresi $2^{m+2} + 4^m$:\nUbah bentuk eksponennya:\n$2^{m+2} + 4^m = (2^m \\cdot 2^2) + 4^m$\nSubstitusikan nilai yang didapat:\n$= (3 \\cdot 4) + 9$\n$= 12 + 9$\n$= 21$"
   },
   {
     "id": 130,
