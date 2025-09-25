@@ -112,18 +112,18 @@
     "pembahasan": "Faktorkan 75 menjadi bilangan prima. $75 = 3 \\times 25 = 3 \\times 5^2$.\n$^2\\log 75 = ^2\\log (3 \\times 5^2) = ^2\\log 3 + ^2\\log 5^2 = ^2\\log 3 + 2 \\cdot ^2\\log 5$. Substitusikan nilai $a$ dan $b$: $a + 2b$."
   },
   {
-    "id": 149,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $^5\\log x = 3$, maka nilai dari $x$ adalah...",
+    "id": 159,
+    "kategori": "Aljabar Eksponen & Logaritma",
+    "pertanyaan": "Jika $5^x = 7^y = 1225$, tentukan nilai dari $\\frac{xy}{x+y}$.",
     "pilihan": [
-      "15",
-      "25",
-      "75",
-      "125",
-      "243"
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "jawaban": "D",
-    "pembahasan": "Ubah bentuk logaritma menjadi bentuk eksponen. $^b\\log a = c$ ekuivalen dengan $b^c = a$. Dalam soal ini, $b=5$, $c=3$, dan $a=x$. Maka $x = 5^3 = 125$."
+    "jawaban": "B",
+    "pembahasan": "Kita akan menyederhanakan ekspresi yang dicari, lalu menggunakan sifat logaritma.\n\n1. Sederhanakan ekspresi dengan mencari kebalikannya:\n$$\\frac{xy}{x+y} = \\frac{1}{\\frac{x+y}{xy}} = \\frac{1}{\\frac{1}{y} + \\frac{1}{x}}$$\n\n2. Nyatakan $\\frac{1}{x}$ dan $\\frac{1}{y}$ dalam logaritma basis 1225:\nDari $5^x = 1225 \\implies x = \\log_5 1225 \\implies \\frac{1}{x} = \\log_{1225} 5$\nDari $7^y = 1225 \\implies y = \\log_7 1225 \\implies \\frac{1}{y} = \\log_{1225} 7$\n\n3. Hitung penjumlahan $\\frac{1}{x} + \\frac{1}{y}$:\n$$\\frac{1}{x} + \\frac{1}{y} = \\log_{1225} 5 + \\log_{1225} 7$$\n\n4. Gunakan sifat logaritma penjumlahan:\n$$\\frac{1}{x} + \\frac{1}{y} = \\log_{1225} (5 \\cdot 7)$$\n$$\\frac{x+y}{xy} = \\log_{1225} 35$$\n\n5. Sederhanakan $\\log_{1225} 35$ (karena $1225 = 35^2$):\n$$\\frac{x+y}{xy} = \\log_{35^2} 35$$\n$$\\frac{x+y}{xy} = \\frac{1}{2} \\log_{35} 35$$\n$$\\frac{x+y}{xy} = \\frac{1}{2}$$\n\n6. Balikkan hasil untuk mendapatkan nilai akhir:\n$$\\frac{xy}{x+y} = \\frac{1}{1/2}$$ \n$$\\frac{xy}{x+y} = 2$$"
   },
   {
     "id": 150,
