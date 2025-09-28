@@ -1,72 +1,132 @@
 [
   {
-    "id": 51,
-    "pertanyaan": "Premis 1: Semua instrumen musik tiup terbuat dari logam atau kayu.\nPremis 2: Flute adalah instrumen musik tiup.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Flute terbuat dari logam.", "Flute terbuat dari kayu.", "Flute terbuat dari logam atau kayu.", "Hanya flute yang terbuat dari logam atau kayu.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme deduktif dasar. Karena semua instrumen musik tiup terbuat dari logam atau kayu, dan flute termasuk kategori instrumen musik tiup, maka secara deduktif, flute pasti terbuat dari logam atau kayu."
-  },
-  {
-    "id": 52,
-    "pertanyaan": "Premis 1: Jika saya membeli buku, maka saya akan membaca.\nPremis 2: Saya tidak membaca.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya membeli buku.", "Saya tidak membeli buku.", "Saya mungkin membeli buku.", "Membaca tidak selalu berarti membeli buku.", "Tidak dapat ditarik kesimpulan."],
+    "id": 1,
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nGelombang panas ekstrem (heatwave) yang melanda beberapa wilayah di Asia Tenggara, termasuk Indonesia, menjadi perhatian serius. Peningkatan suhu yang drastis ini dipicu oleh perubahan iklim global dan fenomena El Niño. Akibatnya, sektor pertanian, terutama tanaman pangan, menghadapi ancaman kekeringan yang berpotensi menurunkan hasil panen secara signifikan.\n\nPenurunan hasil panen ini dapat memicu kelangkaan pasokan di pasar, yang pada gilirannya akan mendorong lonjakan harga komoditas pangan. Untuk mengantisipasi dampak inflasi pangan, pemerintah mengumumkan kebijakan impor bahan pangan dari negara lain. Kebijakan ini diharapkan dapat menjaga stabilitas harga dan memastikan ketersediaan pasokan bagi masyarakat, meskipun berisiko memengaruhi harga komoditas pertanian domestik.\n\nDi sisi lain, para ahli agrikultur berpendapat bahwa selain impor, pemerintah juga harus fokus pada penguatan infrastruktur irigasi dan pengembangan varietas tanaman yang tahan kekeringan. Peningkatan ketahanan pangan domestik akan mengurangi ketergantungan pada pasokan eksternal dan membuat harga pangan lebih resisten terhadap gejolak iklim.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara gelombang panas ekstrem dan harga pangan?",
+    "pilihan": [
+      "Gelombang panas ekstrem secara langsung menurunkan harga pangan.",
+      "Gelombang panas ekstrem dapat memicu peningkatan harga pangan melalui penurunan hasil panen.",
+      "Gelombang panas ekstrem hanya memengaruhi harga pangan jika pemerintah melakukan impor.",
+      "Gelombang panas ekstrem dan harga pangan tidak memiliki hubungan yang pasti.",
+      "Penurunan hasil panen akan terjadi, tetapi harga pangan akan tetap stabil."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya membeli buku, maka saya akan membaca) dan ¬Q (Saya tidak membaca), maka kesimpulannya adalah ¬P (Saya tidak membeli buku). Logikanya, jika saya membeli buku, saya *pasti* akan membacanya. Karena saya tidak membaca, itu berarti saya tidak membeli buku."
+    "pembahasan": "Teks menyatakan bahwa gelombang panas 'berpotensi menurunkan hasil panen secara signifikan' dan 'penurunan hasil panen ini dapat memicu kelangkaan pasokan di pasar, yang pada gilirannya akan mendorong lonjakan harga komoditas pangan.' Hal ini menunjukkan hubungan sebab-akibat yang jelas antara gelombang panas ekstrem dan harga pangan."
   },
   {
-    "id": 53,
-    "pertanyaan": "Premis 1: Semua seniman adalah orang yang kreatif.\nPremis 2: Rina bukan orang yang kreatif.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Rina adalah seniman.", "Rina bukan seniman.", "Rina mungkin seniman.", "Hanya orang kreatif yang seniman.", "Tidak dapat ditarik kesimpulan tentang Rina."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens** dalam konteks silogisme kategori. Jika P → Q (Jika seniman, maka kreatif) dan ¬Q (Rina bukan kreatif), maka kesimpulannya adalah ¬P (Rina bukan seniman). Jika Rina adalah seniman, ia *pasti* kreatif. Karena ia tidak kreatif, maka ia bukan seniman."
-  },
-  {
-    "id": 54,
-    "pertanyaan": "Premis 1: Setiap tumbuhan berfotosintesis menggunakan sinar matahari.\nPremis 2: Pohon mangga berfotosintesis.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Pohon mangga tidak menggunakan sinar matahari.", "Pohon mangga mungkin menggunakan sinar matahari.", "Pohon mangga menggunakan sinar matahari untuk berfotosintesis.", "Semua yang berfotosintesis adalah tumbuhan.", "Tidak dapat ditarik kesimpulan."],
+    "id": 2,
+    "pertanyaan": "Jika pemerintah tidak melakukan kebijakan impor bahan pangan, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Harga komoditas pertanian domestik akan turun drastis.",
+      "Ketersediaan pasokan pangan akan meningkat.",
+      "Stabilitas harga akan sulit dijaga.",
+      "Gelombang panas ekstrem akan berhenti.",
+      "Petani akan mengalami peningkatan hasil panen."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah deduksi langsung. Premis 1 menyatakan bahwa *setiap* tumbuhan berfotosintesis *menggunakan sinar matahari*. Premis 2 menyatakan bahwa pohon mangga *berfotosintesis*. Karena pohon mangga adalah tumbuhan (implisit dari Premis 1 dan pengetahuan umum), dan berfotosintesis, maka pohon mangga pasti menggunakan sinar matahari untuk berfotosintesis."
+    "pembahasan": "Teks menyatakan bahwa kebijakan impor 'diharapkan dapat menjaga stabilitas harga dan memastikan ketersediaan pasokan.' Jika pemerintah tidak melakukan tindakan ini, maka tujuan untuk menjaga stabilitas harga akan sulit tercapai."
   },
   {
-    "id": 55,
-    "pertanyaan": "Premis 1: Semua perangkat elektronik membutuhkan listrik untuk berfungsi.\nPremis 2: Televisi adalah perangkat elektronik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Televisi tidak membutuhkan listrik.", "Televisi mungkin membutuhkan listrik.", "Televisi pasti membutuhkan listrik untuk berfungsi.", "Hanya televisi yang membutuhkan listrik.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah deduksi langsung. Karena semua perangkat elektronik membutuhkan listrik, dan televisi adalah perangkat elektronik, maka televisi pasti membutuhkan listrik untuk berfungsi."
-  },
-  {
-    "id": 56,
-    "pertanyaan": "Premis 1: Jika saya pergi ke Jakarta, maka saya akan bertemu teman lama.\nPremis 2: Saya bertemu teman lama.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya pergi ke Jakarta.", "Saya tidak pergi ke Jakarta.", "Saya mungkin pergi ke Jakarta.", "Bertemu teman lama berarti pergi ke Jakarta.", "Tidak dapat ditarik kesimpulan bahwa saya pergi ke Jakarta."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika pergi ke Jakarta, maka bertemu teman lama) dan Q (Saya bertemu teman lama), tidak berarti P (Saya pergi ke Jakarta). Saya bisa bertemu teman lama di tempat lain (misalnya, di kota saya sendiri, atau di kota lain yang saya kunjungi). Premis tidak menyatakan bahwa saya *hanya* bertemu teman lama jika saya pergi ke Jakarta."
-  },
-  {
-    "id": 57,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa suka sains.\nPremis 2: Semua mahasiswa adalah anggota klub debat.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa adalah anggota klub debat dan suka sains.", "Beberapa mahasiswa adalah anggota klub debat dan suka sains.", "Beberapa anggota klub debat bukan mahasiswa.", "Tidak ada mahasiswa yang suka sains.", "Tidak dapat ditarik kesimpulan."],
+    "id": 3,
+    "pertanyaan": "Jika infrastruktur irigasi tidak diperkuat, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Harga pangan akan selalu stabil.",
+      "Ketergantungan pada pasokan eksternal akan meningkat.",
+      "Petani akan mengalami peningkatan hasil panen.",
+      "Pemerintah akan menurunkan harga komoditas.",
+      "Impor menjadi satu-satunya solusi untuk inflasi pangan."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1, ada irisan antara 'mahasiswa' dan 'suka sains'. Premis 2 menyatakan bahwa semua 'mahasiswa' juga 'anggota klub debat'. Karena ada beberapa mahasiswa yang suka sains, dan semua siswa adalah anggota klub debat, maka secara deduktif, **beberapa mahasiswa adalah anggota klub debat dan suka sains**."
+    "pembahasan": "Teks menyatakan bahwa penguatan infrastruktur irigasi 'akan mengurangi ketergantungan pada pasokan eksternal.' Jika hal ini tidak dilakukan, maka ketergantungan pada pasokan eksternal akan tetap tinggi atau bahkan meningkat."
   },
   {
-    "id": 58,
-    "pertanyaan": "Premis 1: Setiap hewan berdarah panas memiliki rambut atau bulu.\nPremis 2: Kucing memiliki rambut.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Kucing adalah hewan berdarah panas.", "Kucing bukan hewan berdarah panas.", "Kucing mungkin hewan berdarah panas.", "Hanya hewan berdarah panas yang memiliki rambut atau bulu.", "Tidak dapat ditarik kesimpulan bahwa kucing adalah hewan berdarah panas."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika hewan berdarah panas, maka memiliki rambut/bulu) dan Q (Kucing memiliki rambut), tidak berarti P (Kucing adalah hewan berdarah panas). Premis tidak menyatakan bahwa 'hanya' hewan berdarah panas yang memiliki rambut atau bulu (misalnya, ada boneka berbulu). Kita tidak bisa menyimpulkan status kucing sebagai hewan berdarah panas hanya dari premis ini."
+    "id": 4,
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Gelombang panas ekstrem memengaruhi hasil panen.",
+      "Kebijakan impor bertujuan menjaga stabilitas harga.",
+      "Gelombang panas ekstrem tidak akan memengaruhi harga pangan.",
+      "Ketersediaan pasokan pangan dipengaruhi oleh hasil panen.",
+      "Peningkatan infrastruktur irigasi dapat mengurangi ketergantungan pada pasokan eksternal."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa gelombang panas 'berpotensi menurunkan hasil panen' yang pada akhirnya 'akan mendorong lonjakan harga komoditas pangan.' Oleh karena itu, pernyataan bahwa gelombang panas ekstrem tidak akan memengaruhi harga pangan adalah pernyataan yang pasti salah."
   },
   {
-    "id": 59,
-    "pertanyaan": "Premis 1: Jika suatu benda adalah sayuran, maka benda itu mengandung serat.\nPremis 2: Wortel mengandung serat.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Wortel adalah sayuran.", "Wortel bukan sayuran.", "Wortel mungkin sayuran.", "Hanya sayuran yang mengandung serat.", "Tidak dapat ditarik kesimpulan bahwa wortel adalah sayuran."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika sayuran, maka mengandung serat) dan Q (Wortel mengandung serat), tidak berarti P (Wortel adalah sayuran). Ada banyak benda lain selain sayuran yang juga mengandung serat (misalnya, buah-buahan, biji-bijian). Premis tidak menyatakan bahwa 'hanya' sayuran yang mengandung serat."
+    "id": 5,
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nBanyak perusahaan teknologi di Indonesia beralih menggunakan platform komputasi awan (cloud computing) untuk mengelola data dan operasional mereka. Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan karena memungkinkan skalabilitas dan akses data yang lebih cepat. Namun, penggunaan komputasi awan juga menimbulkan kekhawatiran terkait keamanan data dan privasi, terutama bagi data sensitif perusahaan.\n\nSetiap perusahaan yang ingin beralih ke komputasi awan harus melakukan audit keamanan menyeluruh dan memastikan semua data terenkripsi. Tanpa langkah-langkah keamanan yang memadai, risiko kebocoran data menjadi sangat tinggi. Oleh karena itu, kesuksesan implementasi komputasi awan sangat bergantung pada komitmen perusahaan terhadap protokol keamanan yang ketat.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua perusahaan teknologi yang efisien menggunakan komputasi awan.",
+      "Peningkatan efisiensi selalu diiringi dengan risiko kebocoran data.",
+      "Semua data yang tersimpan di komputasi awan pasti aman.",
+      "Perusahaan yang mengadopsi komputasi awan melaporkan peningkatan efisiensi.",
+      "Audit keamanan yang menyeluruh menjamin tidak ada kebocoran data."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks secara langsung menyatakan bahwa 'Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
-    "id": 60,
-    "pertanyaan": "Premis 1: Semua buku adalah sumber pengetahuan.\nPremis 2: Beberapa sumber pengetahuan adalah fiksi.\nPremis 3: 'Harry Potter' adalah buku.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["'Harry Potter' adalah fiksi dan sumber pengetahuan.", "'Harry Potter' bukan sumber pengetahuan.", "Semua buku adalah fiksi.", "'Harry Potter' adalah sumber pengetahuan tetapi tidak fiksi.", "Tidak dapat ditarik kesimpulan apakah 'Harry Potter' adalah fiksi atau bukan."],
+    "id": 6,
+    "pertanyaan": "Jika sebuah perusahaan teknologi tidak mengalami peningkatan efisiensi, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut tidak menggunakan komputasi awan.",
+      "Perusahaan tersebut mengalami kebocoran data.",
+      "Perusahaan tersebut tidak memiliki data sensitif.",
+      "Perusahaan tersebut tidak melakukan audit keamanan.",
+      "Perusahaan tersebut memiliki protokol keamanan yang ketat."
+    ],
     "jawaban": "A",
-    "pembahasan": "Dari Premis 1 dan 3, dapat disimpulkan bahwa 'Harry Potter' adalah sumber pengetahuan. Premis 2 menyatakan bahwa *beberapa* sumber pengetahuan adalah fiksi. Jika kita tahu 'Harry Potter' adalah buku (dan karenanya sumber pengetahuan) dan kita tahu ada sumber pengetahuan yang fiksi, maka ada kemungkinan (dan dalam konteks 'Harry Potter' memang demikian) bahwa 'Harry Potter' adalah salah satu dari sumber pengetahuan yang fiksi. Dalam penalaran deduktif, jika kita punya informasi bahwa X adalah Y, dan sebagian Y adalah Z, dan X itu adalah salah satu jenis Y yang masuk dalam sebagian Z, maka X adalah Z. Ini adalah kasus khusus di mana pengetahuan umum (Harry Potter adalah fiksi) menegaskan kesimpulan deduktif yang memungkinkan dari premis 'beberapa'."
+    "pembahasan": "Teks menyebutkan bahwa 'Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan'. Oleh karena itu, jika sebuah perusahaan tidak mengalami peningkatan efisiensi yang signifikan, ada kemungkinan besar penyebabnya adalah tidak menggunakan komputasi awan."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Jika sebuah perusahaan beralih ke komputasi awan tanpa melakukan audit keamanan menyeluruh, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut akan mengalami peningkatan efisiensi yang signifikan.",
+      "Perusahaan tersebut pasti akan mengalami kebocoran data.",
+      "Risiko kebocoran data akan menjadi sangat tinggi.",
+      "Perusahaan tersebut akan memiliki data yang aman.",
+      "Perusahaan tersebut tidak memiliki protokol keamanan yang ketat."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'Tanpa langkah-langkah keamanan yang memadai, risiko kebocoran data menjadi sangat tinggi.' Audit keamanan adalah salah satu langkah tersebut. Jadi, jika sebuah perusahaan tidak melakukan audit keamanan, risiko kebocoran data akan menjadi sangat tinggi."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Jika semua mahasiswa yang lulus dari program A adalah mahasiswa yang rajin belajar, dan sebagian mahasiswa yang rajin belajar memiliki IPK di atas 3,5. Manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Semua mahasiswa yang lulus dari program A memiliki IPK di atas 3,5.",
+      "Sebagian mahasiswa yang lulus dari program A memiliki IPK di atas 3,5.",
+      "Tidak ada mahasiswa yang lulus dari program A memiliki IPK di atas 3,5.",
+      "Semua mahasiswa yang memiliki IPK di atas 3,5 adalah mahasiswa yang rajin belajar.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua mahasiswa program A (P) adalah mahasiswa yang rajin belajar (Q). Premis 2: Sebagian mahasiswa yang rajin belajar (Q) memiliki IPK di atas 3,5 (R). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian mahasiswa P (program A) juga adalah R (memiliki IPK di atas 3,5). Ini adalah bentuk penalaran deduktif yang sahih."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Semua laptop baru memiliki port USB-C. Sebagian laptop gaming adalah laptop baru. Manakah simpulan yang paling tepat?",
+    "pilihan": [
+      "Semua laptop gaming memiliki port USB-C.",
+      "Sebagian laptop gaming memiliki port USB-C.",
+      "Tidak ada laptop gaming yang memiliki port USB-C.",
+      "Semua laptop yang memiliki port USB-C adalah laptop gaming.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Semua laptop baru (P) memiliki port USB-C (Q). Premis 2: Sebagian laptop gaming (R) adalah laptop baru (P). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian R (laptop gaming) juga Q (memiliki port USB-C). Ini adalah penalaran deduktif yang valid."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Jika semua orang yang menyukai genre sci-fi juga menyukai genre fantasi, dan Andi tidak menyukai genre fantasi, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Andi menyukai genre sci-fi.",
+      "Andi menyukai genre fantasi.",
+      "Andi tidak menyukai genre sci-fi.",
+      "Semua orang yang tidak menyukai genre fantasi adalah Andi.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Premis 1: Jika P (seseorang menyukai sci-fi) maka Q (orang tersebut menyukai fantasi). Premis 2: Andi tidak menyukai fantasi (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Andi tidak menyukai genre sci-fi. Ini adalah penalaran deduktif yang sahih."
   }
 ]
