@@ -18,14 +18,14 @@
   },
   {
     "id": 3,
-    "pertanyaan": "Apakah $a$ adalah bilangan genap? \\n\\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\\n(1) $3a + 5$ adalah bilangan ganjil.\\n(2) $a^2$ habis dibagi 4.",
+    "pertanyaan": "Apakah $a$ adalah bilangan genap? \n\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) $3a + 5$ adalah bilangan ganjil.\n(2) $a^2$ habis dibagi 4.",
     "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
     "jawaban": "A",
     "pembahasan": "1. Cek (1) SAJA: $3a + 5 = \\text{ganjil}$. Karena 5 adalah ganjil, dan $\\text{ganjil} + \\text{genap} = \\text{ganjil}$ atau $\\text{genap} + \\text{ganjil} = \\text{ganjil}$, maka $3a$ haruslah bilangan genap. Agar $3a$ genap, $a$ harus genap. (Cukup)\n2. Cek (2) SAJA: $a^2$ habis dibagi 4.\\nJika $a=2$ (genap), $a^2=4$ (habis dibagi 4). Jawab YA.\nJika $a=6$ (genap), $a^2=36$ (habis dibagi 4). Jawab YA.\nJika $a=4$ (genap), $a^2=16$ (habis dibagi 4). Jawab YA.\nPernyataan (2) mengarahkan pada $a$ genap. Jika $a$ harus bulat, maka (2) SAJA sebenarnya cukup untuk menyimpulkan $a$ genap (karena jika $a$ ganjil, $a=2k+1$, maka $a^2=4k^2+4k+1$, yang tidak habis dibagi 4). Namun, dalam konteks UTBK, (1) adalah yang paling jelas dan tidak ambigu. Jika diasumsikan $a$ adalah bilangan bulat, maka (2) juga cukup. Tapi mari kita fokus pada kejelasan (1). \n**Koreksi berdasarkan kaidah:** (1) sudah pasti cukup. (2) juga cukup karena jika $a$ ganjil, $a^2$ ganjil dan tidak habis dibagi 4. Sehingga $a$ harus genap. Namun, karena dalam kunci jawaban seringkali ada yang lebih 'pasti', kita pilih A karena (1) paling eksplisit.\n\n*Dengan mengacu pada kejelasan (1):* $3a+5 = \\text{Ganjil}$. $3a = \\text{Ganjil} - \\text{Ganjil} = \\text{Genap}$. Karena 3 ganjil, maka $a$ harus $\\text{Genap}$. Jadi (1) SAJA CUKUP. Pilihan A adalah yang paling aman dan jelas benar."
   },
   {
     "id": 4,
-    "pertanyaan": "Harga sebuah tas di toko A adalah $\\text{Rp } 400.000,00$. Toko A memberikan diskon $20\\%$ dan potongan harga tambahan $\\text{Rp } 20.000,00$. \\n\\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "pertanyaan": "Harga sebuah tas di toko A adalah $\\text{Rp } 400.000,00$. Toko A memberikan diskon $20\\%$ dan potongan harga tambahan $\\text{Rp } 20.000,00$. \n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
     "kuantitas_p": "Harga jual tas setelah diskon dan potongan",
     "kuantitas_q": "$\\text{Rp } 300.000,00$",
 "gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_090858_Google.jpg",
@@ -35,7 +35,7 @@
   },
   {
     "id": 5,
-    "pertanyaan": "Rata-rata berat badan 5 siswa adalah $55\\ \\text{kg}$. Jika ditambahkan seorang siswa baru, rata-rata berat badan mereka menjadi $57\\ \\text{kg}$. \\n\\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "pertanyaan": "Rata-rata berat badan 5 siswa adalah $55\\ \\text{kg}$. Jika ditambahkan seorang siswa baru, rata-rata berat badan mereka menjadi $57\\ \\text{kg}$. \n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
     "kuantitas_p": "Berat badan siswa baru",
     "kuantitas_q": "$67\\ \\text{kg}$",
 "gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_091954_Google.jpg",
@@ -52,7 +52,7 @@
   },
   {
     "id": 7,
-    "pertanyaan": "Jika $x$ adalah bilangan yang memenuhi $x^2 + 5x = 14$, dan $y$ adalah solusi dari persamaan $2y - 1 = 5$. \\n\\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "pertanyaan": "Jika $x$ adalah bilangan yang memenuhi $x^2 + 5x = 14$, dan $y$ adalah solusi dari persamaan $2y - 1 = 5$. \n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
     "kuantitas_p": "Nilai $x$ terbesar",
     "kuantitas_q": "Nilai $y$",
 "gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_092206_Google.jpg",
