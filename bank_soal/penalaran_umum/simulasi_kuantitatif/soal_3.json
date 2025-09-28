@@ -1,73 +1,132 @@
 [
   {
-    "id": 21,
-    "pertanyaan": "Semua hewan berkaki dua adalah unggas. Ayam berkaki dua. Maka...",
-    "pilihan": ["Ayam adalah unggas", "Ayam bukan unggas", "Ayam tidak punya kaki", "Ayam adalah mamalia", "Tidak bisa disimpulkan"],
-    "jawaban": "A",
-    "pembahasan": "Jika semua hewan berkaki dua adalah unggas, dan ayam berkaki dua → maka ayam adalah unggas (deduksi langsung)."
-  },
-  {
-    "id": 22,
-    "pertanyaan": "Jika setiap siswa harus membawa buku, dan Rina adalah siswa, maka...",
-    "pilihan": ["Rina pasti membawa buku", "Rina mungkin membawa buku", "Rina tidak membawa buku", "Rina bukan siswa", "Rina membawa pena"],
-    "jawaban": "A",
-    "pembahasan": "Premis: setiap siswa harus membawa buku.\nRina adalah siswa → maka dia pasti membawa buku."
-  },
-  {
-    "id": 23,
-    "pertanyaan": "Jika hari Senin hujan, maka Selasa akan cerah. Hari Selasa tidak cerah. Maka...",
-    "pilihan": ["Senin tidak hujan", "Senin cerah", "Selasa hujan", "Senin hujan", "Tidak bisa disimpulkan"],
-    "jawaban": "A",
-    "pembahasan": "Premis: Jika Senin hujan → Selasa cerah\nSelasa tidak cerah → Maka Senin tidak hujan (modus tollens)."
-  },
-  {
-    "id": 24,
-    "pertanyaan": "Tidak ada ikan yang bisa hidup tanpa air. Lele adalah ikan. Maka...",
-    "pilihan": ["Lele bisa hidup tanpa air", "Lele bukan ikan", "Lele butuh air", "Lele hidup di darat", "Lele makhluk darat"],
+    "id": 1,
+    "pertanyaan": "Sebuah penelitian menemukan bahwa konsumsi kopi secara rutin dapat meningkatkan kewaspadaan, tetapi terlalu banyak kafein dapat menyebabkan jantung berdebar. Studi ini juga menyimpulkan bahwa efek kafein berbeda pada setiap individu, dan kafein tidak memengaruhi semua orang dengan cara yang sama. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Konsumsi kopi rutin dapat meningkatkan kewaspadaan.",
+      "Kafein dapat menyebabkan jantung berdebar pada beberapa orang.",
+      "Efek kafein selalu sama pada setiap individu.",
+      "Penelitian tersebut berfokus pada efek kafein.",
+      "Kafein tidak memengaruhi semua orang dengan cara yang sama."
+    ],
     "jawaban": "C",
-    "pembahasan": "Premis: Tidak ada ikan yang bisa hidup tanpa air.\nLele adalah ikan → maka lele butuh air untuk hidup."
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'efek kafein berbeda pada setiap individu'. Oleh karena itu, pernyataan yang mengklaim bahwa efeknya 'selalu sama' adalah pernyataan yang pasti salah."
   },
   {
-    "id": 25,
-    "pertanyaan": "Semua guru adalah pegawai negeri. Beberapa pegawai negeri adalah dokter. Maka...",
-    "pilihan": ["Semua dokter adalah guru", "Beberapa guru adalah dokter", "Tidak bisa disimpulkan", "Semua guru adalah dokter", "Dokter bukan pegawai negeri"],
+    "id": 2,
+    "pertanyaan": "Premis 1: Jika hari ini cerah, maka saya akan pergi ke taman.\nPremis 2: Hari ini cerah.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Saya tidak akan pergi ke taman.",
+      "Saya mungkin pergi ke taman.",
+      "Saya pasti pergi ke taman.",
+      "Pergi ke taman tidak selalu karena hari cerah.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
     "jawaban": "C",
-    "pembahasan": "Tidak ada relasi langsung antara guru dan dokter, maka tidak bisa disimpulkan keterkaitan di antara keduanya."
+    "pembahasan": "Ini adalah contoh **Modus Ponens**. Jika P → Q (Jika hari ini cerah, maka pergi ke taman) dan P (Hari ini cerah), maka kesimpulannya adalah Q (Saya pasti pergi ke taman)."
   },
   {
-    "id": 26,
-    "pertanyaan": "Jika seseorang makan terlalu banyak gula, maka dia berisiko diabetes. Roni makan terlalu banyak gula. Maka...",
-    "pilihan": ["Roni pasti diabetes", "Roni tidak berisiko", "Roni berisiko diabetes", "Roni tidak makan gula", "Tidak bisa disimpulkan"],
-    "jawaban": "C",
-    "pembahasan": "Premis: makan banyak gula → risiko diabetes\nRoni makan banyak gula → maka ia berisiko (tidak berarti pasti)."
-  },
-  {
-    "id": 27,
-    "pertanyaan": "Semua pemain bola adalah atlet. Ronaldo adalah atlet. Maka...",
-    "pilihan": ["Ronaldo adalah pemain bola", "Ronaldo bukan pemain bola", "Ronaldo tidak bisa bermain bola", "Tidak bisa disimpulkan", "Semua atlet adalah pemain bola"],
-    "jawaban": "D",
-    "pembahasan": "Premis: semua pemain bola → atlet.\nRonaldo adalah atlet tidak menjamin bahwa dia pemain bola (konvers tidak valid)."
-  },
-  {
-    "id": 28,
-    "pertanyaan": "Jika semua pemrogram bisa membuat aplikasi, dan Didi tidak bisa membuat aplikasi, maka...",
-    "pilihan": ["Didi adalah pemrogram", "Didi bukan pemrogram", "Didi bisa membuat game", "Didi tidak suka komputer", "Tidak bisa disimpulkan"],
+    "id": 3,
+    "pertanyaan": "Jika seseorang memiliki SIM, maka ia bisa mengendarai mobil. Budi tidak bisa mengendarai mobil.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Budi memiliki SIM.",
+      "Budi tidak memiliki SIM.",
+      "Budi mungkin memiliki SIM.",
+      "Semua orang yang bisa mengendarai mobil punya SIM.",
+      "Tidak dapat ditarik kesimpulan tentang SIM Budi."
+    ],
     "jawaban": "B",
-    "pembahasan": "Premis: semua pemrogram → bisa membuat aplikasi.\nDidi tidak bisa membuat aplikasi → maka Didi bukan pemrogram (modus tollens)."
+    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika memiliki SIM, maka bisa mengendarai mobil) dan ¬Q (Budi tidak bisa mengendarai mobil), maka kesimpulannya adalah ¬P (Budi tidak memiliki SIM)."
   },
   {
-    "id": 29,
-    "pertanyaan": "Jika A = B dan B = C, maka hubungan antara A dan C adalah...",
-    "pilihan": ["A > C", "A < C", "A = C", "Tidak bisa disimpulkan", "A dan C tidak terkait"],
-    "jawaban": "C",
-    "pembahasan": "Logika transitif: A = B, B = C → maka A = C."
+    "id": 4,
+    "pertanyaan": "Semua laptop di toko ini memiliki RAM minimal 8 GB. Beberapa laptop di toko ini adalah laptop gaming.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Semua laptop gaming di toko ini memiliki RAM minimal 8 GB.",
+      "Beberapa laptop gaming di toko ini tidak memiliki RAM minimal 8 GB.",
+      "Tidak ada laptop gaming di toko ini yang memiliki RAM minimal 8 GB.",
+      "Semua laptop dengan RAM minimal 8 GB adalah laptop gaming.",
+      "Tidak dapat ditarik kesimpulan."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Premis 1 menyatakan bahwa *semua* laptop di toko tersebut memiliki RAM minimal 8 GB. Karena beberapa laptop gaming termasuk dalam kategori 'semua laptop di toko ini', maka semua laptop gaming di toko ini pasti memiliki RAM minimal 8 GB."
   },
   {
-    "id": 30,
-    "pertanyaan": "Setiap orang yang berolahraga secara rutin sehat. Budi tidak sehat. Maka...",
-    "pilihan": ["Budi berolahraga", "Budi tidak berolahraga secara rutin", "Budi makan banyak", "Budi sehat sesekali", "Tidak bisa disimpulkan"],
+    "id": 5,
+    "pertanyaan": "Premis 1: Jika tim A memenangkan pertandingan, maka mereka akan lolos ke babak final.\nPremis 2: Tim A lolos ke babak final.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Tim A memenangkan pertandingan.",
+      "Tim A tidak memenangkan pertandingan.",
+      "Tim A mungkin memenangkan pertandingan.",
+      "Hanya jika tim A menang, mereka akan lolos.",
+      "Tidak dapat ditarik kesimpulan bahwa tim A memenangkan pertandingan."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Tim A bisa lolos ke babak final karena alasan lain (misalnya, tim lain didiskualifikasi). Premis tidak menyatakan bahwa 'hanya' jika tim A menang, mereka akan lolos."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Seseorang yang membeli buku ini pasti membaca buku fiksi atau buku nonfiksi. Amir tidak membeli buku fiksi. \n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Amir membeli buku nonfiksi.",
+      "Amir tidak membeli buku nonfiksi.",
+      "Amir membeli buku fiksi dan nonfiksi.",
+      "Amir tidak membeli buku apa pun.",
+      "Tidak dapat ditarik kesimpulan."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah **Silogisme Disjungtif**. Premis 1 memberikan dua pilihan (fiksi atau nonfiksi). Premis 2 meniadakan salah satu pilihan (bukan fiksi). Maka, kesimpulan yang pasti benar adalah pilihan yang tersisa, yaitu **Amir membeli buku nonfiksi**."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Perusahaan B menyatakan bahwa semua produk mereka bebas gluten. Mereka juga mengklaim bahwa produk bebas gluten tidak berbahaya bagi penderita celiac. Namun, ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten, yang dapat memicu gejala pada penderita celiac yang sangat sensitif.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
+    "pilihan": [
+      "Produk bebas gluten tidak berbahaya bagi penderita celiac.",
+      "Perusahaan B mengklaim produknya bebas gluten.",
+      "Beberapa produk perusahaan B mengandung sedikit gluten.",
+      "Beberapa produk perusahaan B tidak berbahaya bagi penderita celiac.",
+      "Semua produk perusahaan B aman untuk penderita celiac."
+    ],
+    "jawaban": "E",
+    "pembahasan": "Teks menyatakan bahwa 'ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten'. Jika sebagian produknya mengandung gluten, maka tidak semua produknya aman bagi penderita celiac. Oleh karena itu, klaim 'Semua produk perusahaan B aman...' adalah pernyataan yang pasti salah."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Semua guru bahasa Inggris harus memiliki sertifikat TOEFL. Siti adalah guru bahasa Inggris.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Siti memiliki sertifikat TOEFL.",
+      "Siti tidak memiliki sertifikat TOEFL.",
+      "Siti mungkin memiliki sertifikat TOEFL.",
+      "Hanya guru bahasa Inggris yang memiliki sertifikat TOEFL.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah deduksi langsung. Premis 1 menyatakan bahwa *semua* guru bahasa Inggris harus memiliki sertifikat TOEFL. Premis 2 menyatakan bahwa Siti adalah guru bahasa Inggris. Oleh karena itu, Siti pasti memiliki sertifikat TOEFL."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Premis 1: Jika cuaca buruk, maka penerbangan akan ditunda.\nPremis 2: Jika penerbangan ditunda, maka jadwal perjalanan akan terganggu.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Cuaca buruk, tetapi jadwal perjalanan tidak terganggu.",
+      "Jika cuaca buruk, maka jadwal perjalanan akan terganggu.",
+      "Jadwal perjalanan terganggu, karena cuaca buruk.",
+      "Cuaca buruk tidak selalu mengganggu jadwal perjalanan.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Premis: olahraga rutin → sehat\nBudi tidak sehat → maka Budi tidak berolahraga rutin (modus tollens)."
+    "pembahasan": "Ini adalah **Silogisme Hipotetis**. Jika P → Q (Jika cuaca buruk, maka penerbangan ditunda) dan Q → R (Jika penerbangan ditunda, maka jadwal terganggu), maka kesimpulannya adalah P → R (Jika cuaca buruk, maka jadwal perjalanan akan terganggu)."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Semua hewan peliharaan membutuhkan makanan dan air. Kucing adalah hewan peliharaan.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": [
+      "Kucing membutuhkan makanan dan air.",
+      "Kucing tidak membutuhkan makanan dan air.",
+      "Kucing mungkin membutuhkan makanan dan air.",
+      "Hanya hewan peliharaan yang membutuhkan makanan dan air.",
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah deduksi langsung. Karena semua hewan peliharaan membutuhkan makanan dan air, dan kucing adalah hewan peliharaan, maka kucing pasti membutuhkan makanan dan air."
   }
 ]
-
