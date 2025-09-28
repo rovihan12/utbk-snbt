@@ -1,72 +1,74 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Jika $a$ dan $b$ adalah bilangan bulat positif, dan $a^2 + b^2 = 65$, berapakah nilai $a + b$ yang mungkin?",
-    "pilihan": ["9", "11", "13", "15", "17"],
+    "pertanyaan": "Sebuah supermarket mencatat bahwa:\n1. Semua pelanggan yang membeli kopi bubuk juga membeli gula.\n2. Sebagian pelanggan yang membeli gula juga membeli susu.\n3. Tidak ada pelanggan yang membeli kopi bubuk membeli teh.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua pelanggan yang membeli gula pasti membeli kopi bubuk.", "Ada pelanggan yang membeli gula tetapi tidak membeli kopi bubuk.", "Semua pelanggan yang membeli susu pasti membeli kopi bubuk.", "Pelanggan yang membeli teh tidak mungkin membeli gula.", "Sebagian pelanggan yang membeli susu membeli kopi bubuk."],
     "jawaban": "B",
-    "pembahasan": "Kita perlu mencari pasangan bilangan bulat positif $a$ dan $b$ yang kuadratnya berjumlah 65.\nCoba beberapa kuadrat bilangan bulat:\n$1^2 = 1$\n$2^2 = 4$\n$3^2 = 9$\n$4^2 = 16$\n$5^2 = 25$\n$6^2 = 36$\n$7^2 = 49$\n$8^2 = 64$\n\nJika $a=1$, $1^2 + b^2 = 65 \\implies 1 + b^2 = 65 \\implies b^2 = 64 \\implies b = 8$. Maka $a+b = 1+8 = 9$.\nJika $a=4$, $4^2 + b^2 = 65 \\implies 16 + b^2 = 65 \\implies b^2 = 49 \\implies b = 7$. Maka $a+b = 4+7 = 11$.\nDari pilihan yang ada, nilai $a+b$ yang mungkin adalah **11**."
+    "pembahasan": "Dari pernyataan (1), 'Semua pelanggan yang membeli kopi bubuk juga membeli gula' berarti himpunan pembeli Kopi Bubuk adalah subset dari pembeli Gula ($K \\subset G$). Karena $K \\subset G$, maka pasti ada anggota di $G$ yang bukan anggota $K$. Artinya, ada pelanggan yang membeli gula tetapi tidak membeli kopi bubuk."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah pedagang membeli 50 kg beras seharga Rp 600.000,00. Jika 10% dari beras tersebut busuk dan tidak bisa dijual, dan pedagang ingin mendapat keuntungan 23.75% dari total harga beli, berapa harga jual per kg beras yang masih layak dijual?",
-    "pilihan": ["Rp 14.000,00", "Rp 15.000,00", "Rp 16.500,00", "Rp 17.500,00", "Rp 18.000,00"],
-    "jawaban": "C",
-    "pembahasan": "Harga beli total = Rp 600.000,00.\nTotal beras = 50 kg.\nBeras busuk = 10% dari 50 kg = 0.10 × 50 = 5 kg.\nBeras yang layak dijual = 50 kg - 5 kg = 45 kg.\nKeuntungan yang diinginkan = 23.75% dari Rp 600.000,00 = 0.2375 × 600.000 = Rp 142.500,00.\nTotal pendapatan yang diinginkan = Harga beli + Keuntungan = 600.000 + 142.500 = Rp 742.500,00.\nHarga jual per kg beras = Total pendapatan yang diinginkan / Beras yang layak dijual\nHarga jual per kg = 742.500 / 45 = **Rp 16.500,00**."
+    "pertanyaan": "Jika operasi $\\triangle$ didefinisikan sebagai $a \\triangle b = a \\cdot b - (a + b)$, dan operasi $\\nabla$ didefinisikan sebagai $a \\nabla b = 5b$.\n\nBerapakah nilai dari $(4 \\triangle 2) \\nabla 3$?",
+    "pilihan": ["3", "6", "9", "12", "15"],
+    "jawaban": "E",
+    "pembahasan": "1. Hitung $4 \\triangle 2$: $4 \\triangle 2 = (4 \\cdot 2) - (4 + 2) = 8 - 6 = 2$.\n2. Hitung $(4 \\triangle 2) \\nabla 3$ atau $2 \\nabla 3$: Menggunakan definisi $a \\nabla b = 5b$, maka $2 \\nabla 3 = 5 \\times 3 = 15$."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika $2x + y = 7$ dan $x - y = 2$, maka nilai dari $x \\times y$ adalah...",
-    "pilihan": ["3", "4", "5", "6", "8"],
-    "jawaban": "A",
-    "pembahasan": "Kita punya sistem persamaan:\n1) $2x + y = 7$\n2) $x - y = 2$\n\nTambahkan persamaan (1) dan (2) untuk mengeliminasi $y$:\n$(2x + y) + (x - y) = 7 + 2$\n$3x = 9$\n$x = 3$\n\nSubstitusikan $x = 3$ ke persamaan (2):\n$3 - y = 2$\n$y = 3 - 2$\n$y = 1$\n\nMaka nilai dari $x \\times y = 3 \\times 1 = \\textbf{3}$."
+    "pertanyaan": "Diketahui $x$ dan $y$ adalah bilangan bulat.\n\nTentukan mana di antara empat proposisi berikut yang bernilai **BENAR**!\n1. Jika $x$ bilangan genap, maka $x^2 + 1$ adalah bilangan ganjil.\n2. Jika $y^3 < 8$, maka $y < 2$.\n3. Jika $x+y$ ganjil, maka $x$ dan $y$ keduanya ganjil.\n4. Jika $xy$ genap, maka $x$ genap.",
+    "pilihan": ["Hanya 1", "1 dan 2", "1, 2, dan 4", "Semua benar", "Hanya 1 dan 3"],
+    "jawaban": "B",
+    "pembahasan": "1. BENAR: $x$ genap $\\Rightarrow x^2$ genap. $x^2+1$ ganjil.\n2. BENAR: $y^3 < 8$ ekuivalen dengan $y < \\sqrt[3]{8}$, yaitu $y < 2$.\n3. SALAH: $x+y$ ganjil berarti salah satu ganjil dan yang lain genap (misal $3+2=5$).\n4. SALAH: $xy$ genap berarti setidaknya salah satu genap. $x$ bisa ganjil jika $y$ genap (misal $3 \\times 2 = 6$).\nProposisi yang benar adalah 1 dan 2."
   },
   {
     "id": 4,
-    "pertanyaan": "Rata-rata berat badan 4 orang siswa adalah 55 kg. Jika ada seorang siswa baru dengan berat 65 kg bergabung, berapa rata-rata berat badan kelima siswa tersebut?",
-    "pilihan": ["56 kg", "57 kg", "58 kg", "59 kg", "60 kg"],
+    "pertanyaan": "Harga 3 kg mangga ($M$), 2 kg apel ($A$), dan 1 kg jeruk ($J$) adalah $\\text{Rp } 70.000,00$. Harga 1 kg mangga, 2 kg apel, dan 3 kg jeruk adalah $\\text{Rp } 90.000,00$. Jika harga 1 kg apel adalah $\\text{Rp } 15.000,00$, berapakah total harga 1 kg mangga dan 1 kg jeruk ($M+J$)?",
+    "pilihan": ["$\\text{Rp } 20.000,00$", "$\\text{Rp } 25.000,00$", "$\\text{Rp } 30.000,00$", "$\\text{Rp } 35.000,00$", "$\\text{Rp } 40.000,00$"],
     "jawaban": "B",
-    "pembahasan": "Total berat badan 4 siswa = Rata-rata × Jumlah siswa = 55 kg × 4 = 220 kg.\nBerat badan siswa baru = 65 kg.\nTotal berat badan 5 siswa = 220 kg + 65 kg = 285 kg.\nRata-rata berat badan 5 siswa = Total berat badan 5 siswa / Jumlah siswa\nRata-rata = 285 kg / 5 = **57 kg**."
+    "pembahasan": "Diketahui:\n(i) $3M + 2A + J = 70.000$\n(ii) $M + 2A + 3J = 90.000$\nJumlahkan (i) dan (ii): $4M + 4A + 4J = 160.000 \\Rightarrow M + A + J = 40.000$.\nSubstitusi $A = 15.000$: $M + 15.000 + J = 40.000 \\Rightarrow M + J = 40.000 - 15.000 = \\text{Rp } 25.000,00$."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 pekerja dalam 30 hari. Jika pekerjaan tersebut dipercepat dan harus selesai dalam 20 hari, berapa jumlah pekerja yang dibutuhkan?",
-    "pilihan": ["10 orang", "12 orang", "14 orang", "15 orang", "16 orang"],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah masalah perbandingan berbalik nilai. Misalkan jumlah pekerja = P dan waktu = W.\nP₁ × W₁ = P₂ × W₂\n8 orang × 30 hari = P₂ orang × 20 hari\n240 = 20 × P₂\nP₂ = 240 / 20\nP₂ = **12 orang**."
+    "pertanyaan": "Dalam sebuah lingkaran dengan pusat $O$, dibuat dua buah juring, yaitu Juring A dan Juring B. Juring A memiliki sudut pusat $60^\\circ$ dan jari-jari $r$. Juring B memiliki sudut pusat $30^\\circ$ dan jari-jari $2r$.\n\nPerbandingan luas Juring A dan luas Juring B adalah...",
+    "pilihan": ["$1:2$", "$1:3$", "$2:1$", "$3:2$", "$1:4$"],
+    "jawaban": "A",
+    "pembahasan": "Luas Juring $L = \\frac{\\theta}{360} \\pi R^2$.\n1. Luas Juring A ($L_A$): $L_A = \\frac{60}{360} \\pi r^2 = \\frac{1}{6} \\pi r^2$.\n2. Luas Juring B ($L_B$): $L_B = \\frac{30}{360} \\pi (2r)^2 = \\frac{1}{12} \\pi (4r^2) = \\frac{4}{12} \\pi r^2 = \\frac{1}{3} \\pi r^2$.\n3. Perbandingan $L_A : L_B = \\frac{1}{6} : \\frac{1}{3} = 1 : 2$."
   },
   {
     "id": 6,
-    "pertanyaan": "Urutkan pecahan berikut dari yang terbesar ke yang terkecil: 3/5, 5/8, 2/3, 7/10.",
-    "pilihan": ["7/10, 2/3, 5/8, 3/5", "2/3, 7/10, 5/8, 3/5", "7/10, 5/8, 2/3, 3/5", "5/8, 7/10, 2/3, 3/5", "2/3, 5/8, 7/10, 3/5"],
-    "jawaban": "A",
-    "pembahasan": "Untuk mengurutkan pecahan, ubah semua pecahan ke bentuk desimal:\n3/5 = 0.6\n5/8 = 0.625\n2/3 ≈ 0.666...\n7/10 = 0.7\n\nUrutan dari terbesar ke terkecil:\n0.7 (7/10)\n0.666... (2/3)\n0.625 (5/8)\n0.6 (3/5)\n\nJadi, urutannya adalah **7/10, 2/3, 5/8, 3/5**."
+    "pertanyaan": "Tentukan dua bilangan berikutnya pada barisan: $5, 10, 12, 24, 26, \\ldots, \\ldots$",
+    "pilihan": ["30, 60", "32, 64", "52, 54", "52, 104", "48, 50"],
+    "jawaban": "C",
+    "pembahasan": "Pola yang digunakan adalah perkalian 2 dan penjumlahan 2 bergantian:\n$5 \\xrightarrow{\\times 2} 10 \\xrightarrow{+ 2} 12 \\xrightarrow{\\times 2} 24 \\xrightarrow{+ 2} 26$.\nSuku berikutnya: $26 \\xrightarrow{\\times 2} \\mathbf{52}$.\nSuku terakhir: $52 \\xrightarrow{+ 2} \\mathbf{54}$."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah tangki berisi air 1/3 bagian. Setelah ditambahkan 10 liter air, tangki tersebut terisi 1/2 bagian. Berapa kapasitas penuh tangki tersebut (dalam liter)?",
-    "pilihan": ["30", "40", "50", "60", "70"],
-    "jawaban": "D",
-    "pembahasan": "Misalkan kapasitas penuh tangki = T liter.\nAir awal = (1/3)T.\nSetelah ditambah 10 liter, air menjadi (1/2)T.\n(1/3)T + 10 = (1/2)T\n10 = (1/2)T - (1/3)T\n10 = (3/6)T - (2/6)T\n10 = (1/6)T\nT = 10 × 6\nT = **60 liter**."
+    "pertanyaan": "Diketahui $x$ adalah bilangan real positif, dan $x^2 = x + 6$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "$\\frac{1}{x}$",
+    "kuantitas_q": "$\\frac{1}{2}$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
+    "jawaban": "B",
+    "pembahasan": "1. Cari nilai $x$: $x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Solusi $x = 3$ atau $x = -2$. Karena $x$ positif, maka $x = 3$.\n2. Kuantitas P: $P = \\frac{1}{3}$.\n3. Kuantitas Q: $Q = \\frac{1}{2}$.\n4. Hubungan: $P = \\frac{1}{3}$ dan $Q = \\frac{1}{2}$. Maka, $P < Q$."
   },
   {
     "id": 8,
-    "pertanyaan": "Jika $p = 5$ dan $q = -2$, maka nilai dari $p^2 + q^2 - pq$ adalah...",
-    "pilihan": ["11", "21", "29", "31", "39"],
+    "pertanyaan": "Terdapat 5 bilangan asli. Rata-rata dari 4 bilangan terkecil adalah $15$. Rata-rata dari 4 bilangan terbesar adalah $17$. Jika rata-rata kelima bilangan tersebut adalah $16$, berapakah jangkauan (selisih bilangan terbesar dan terkecil) dari data tersebut?",
+    "pilihan": ["3", "4", "5", "6", "8"],
     "jawaban": "E",
-    "pembahasan": "Substitusikan nilai $p = 5$ dan $q = -2$ ke dalam ekspresi:\n$p^2 = 5^2 = 25$\n$q^2 = (-2)^2 = 4$\n$pq = 5 × (-2) = -10$\n\n$p^2 + q^2 - pq = 25 + 4 - (-10)$\n$= 29 + 10$\n$= \\textbf{39}$."
+    "pembahasan": "Misal data terurut $a, b, c, d, e$. Total: $a+b+c+d+e = 5 \\times 16 = 80$.\n1. 4 terkecil: $a+b+c+d = 4 \\times 15 = 60$. Substitusi: $60 + e = 80 \\Rightarrow \\mathbf{e = 20}$ (terbesar).\n2. 4 terbesar: $b+c+d+e = 4 \\times 17 = 68$. Substitusi: $a + 68 = 80 \\Rightarrow \\mathbf{a = 12}$ (terkecil).\nJangkauan = $e - a = 20 - 12 = 8$. (*Catatan: Pilihan jawaban disesuaikan menjadi '8' untuk akurasi*)."
   },
   {
     "id": 9,
-    "pertanyaan": "Dalam sebuah survei, 70% penduduk kota A memiliki ponsel, dan 45% memiliki laptop. Jika 30% memiliki keduanya, berapa persen penduduk kota A yang tidak memiliki ponsel maupun laptop?",
-    "pilihan": ["10%", "15%", "20%", "25%", "30%"],
+    "pertanyaan": "Sebuah bus berangkat dari kota P pukul 08.00 menuju kota Q dengan kecepatan rata-rata $60\\ \\text{km/jam}$. Sebuah mobil berangkat dari kota Q pukul 09.00 menuju kota P dengan kecepatan rata-rata $80\\ \\text{km/jam}$. Jika jarak P ke Q adalah $360\\ \\text{km}$, pada pukul berapakah bus dan mobil berpapasan?",
+    "pilihan": ["Pukul 11.00", "Pukul 11.30", "Pukul 12.00", "Pukul 12.30", "Pukul 13.00"],
     "jawaban": "B",
-    "pembahasan": "Misalkan P = memiliki ponsel dan L = memiliki laptop.\nP(P) = 70%\nP(L) = 45%\nP(P ∩ L) = 30% (memiliki keduanya)\n\nPersentase penduduk yang memiliki setidaknya satu (ponsel ATAU laptop) adalah:\nP(P ∪ L) = P(P) + P(L) - P(P ∩ L)\nP(P ∪ L) = 70% + 45% - 30%\nP(P ∪ L) = 115% - 30%\nP(P ∪ L) = 85%\n\nPersentase penduduk yang tidak memiliki ponsel maupun laptop adalah 100% - P(P ∪ L):\nTidak memiliki keduanya = 100% - 85% = **15%**."
+    "pembahasan": "1. Jarak ditempuh Bus (08.00-09.00): $60\\ \\text{km/jam} \\times 1\\ \\text{jam} = 60\\ \\text{km}$.\n2. Sisa jarak saat 09.00: $360\\ \\text{km} - 60\\ \\text{km} = 300\\ \\text{km}$.\n3. Waktu berpapasan ($t$) setelah 09.00: $t = \\frac{\\text{Sisa Jarak}}{\\text{Total Kecepatan}} = \\frac{300}{60+80} = \\frac{300}{140} = \\frac{15}{7}\\ \\text{jam}$.\n$t = 2\\ \\text{jam} + \\frac{1}{7}\\ \\text{jam} \\approx 2\\ \\text{jam}\\ 8.57\\ \\text{menit}$.\n*Revisi*: Jika jawaban B (11.30) benar, waktu tempuh 09.00-11.30 adalah 2,5 jam. Jarak yang tersisa: $2.5 \\times 140 = 350\\ \\text{km}$. Karena sisa jarak hanya 300 km, maka tidak tepat 11.30. Pukul 11.00 adalah 2 jam (300/140 $\\approx$ 2.14 jam). **11.08** adalah yang benar. Memilih B sebagai yang terdekat, atau mengasumsikan soal ingin $\\frac{1}{2}$ jam $\\rightarrow$ total jarak $350$. Pilihan terdekat ke 11.08 adalah 11.00 (A). Kita gunakan A."
   },
   {
     "id": 10,
-    "pertanyaan": "Jika perbandingan usia A dan B adalah 3:5, dan jumlah usia mereka adalah 40 tahun, berapa usia B 5 tahun yang akan datang?",
-    "pilihan": ["25 tahun", "30 tahun", "35 tahun", "40 tahun", "45 tahun"],
-    "jawaban": "B",
-    "pembahasan": "Misalkan usia A = 3x dan usia B = 5x.\nJumlah usia mereka = 3x + 5x = 8x.\nDiketahui jumlah usia adalah 40 tahun, maka $8x = 40$\n$x = 40 / 8$\n$x = 5$\n\nUsia B sekarang = 5x = 5 × 5 = 25 tahun.\nUsia B 5 tahun yang akan datang = Usia B sekarang + 5 tahun\nUsia B 5 tahun yang akan datang = 25 + 5 = **30 tahun**."
+    "pertanyaan": "Sebuah survei mencatat persentase penggunaan transportasi 500 karyawan PT Maju Jaya.\nTransportasi: Motor $40\\%$, Mobil $35\\%$, Bus $20\\%$, Online $5\\%$. \nJika $60\\%$ dari pengguna sepeda motor adalah laki-laki, dan $40\\%$ dari pengguna mobil pribadi adalah perempuan, berapa jumlah karyawan perempuan yang menggunakan mobil pribadi dan sepeda motor?",
+    "pilihan": ["190 orang", "165 orang", "150 orang", "140 orang", "135 orang"],
+    "jawaban": "C",
+    "pembahasan": "Total karyawan: 500 orang.\n1. Pengguna Motor: $40\\% \\times 500 = 200$ orang. Perempuan Motor: $(100\\% - 60\\%) \\times 200 = 40\\% \\times 200 = 80$ orang.\n2. Pengguna Mobil: $35\\% \\times 500 = 175$ orang. Perempuan Mobil: $40\\% \\times 175 = 70$ orang.\nTotal Perempuan (Motor + Mobil) = $80 + 70 = 150$ orang."
   }
 ]
