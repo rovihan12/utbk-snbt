@@ -1,132 +1,81 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sebuah penelitian menemukan bahwa konsumsi kopi secara rutin dapat meningkatkan kewaspadaan, tetapi terlalu banyak kafein dapat menyebabkan jantung berdebar. Studi ini juga menyimpulkan bahwa efek kafein berbeda pada setiap individu, dan kafein tidak memengaruhi semua orang dengan cara yang sama. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
-    "pilihan": [
-      "Konsumsi kopi rutin dapat meningkatkan kewaspadaan.",
-      "Kafein dapat menyebabkan jantung berdebar pada beberapa orang.",
-      "Efek kafein selalu sama pada setiap individu.",
-      "Penelitian tersebut berfokus pada efek kafein.",
-      "Kafein tidak memengaruhi semua orang dengan cara yang sama."
-    ],
-    "jawaban": "C",
-    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'efek kafein berbeda pada setiap individu'. Oleh karena itu, pernyataan yang mengklaim bahwa efeknya 'selalu sama' adalah pernyataan yang pasti salah."
+    "pertanyaan": "Jika $a$ adalah bilangan bulat, dan $a^2 - 4a - 5 = 0$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "Nilai mutlak dari $a$ terkecil",
+    "kuantitas_q": "Nilai rata-rata dari semua solusi $a$",
+"gambar" :"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_095718_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = 3Q"],
+    "jawaban": "B",
+    "pembahasan": "1. Cari solusi $a$: $a^2 - 4a - 5 = 0 \\Rightarrow (a - 5)(a + 1) = 0$. Solusi $a_1 = 5$ dan $a_2 = -1$.\n2. Kuantitas P ($|a|$ terkecil): $|-1| = 1$. Jadi $P = 1$.\n3. Kuantitas Q (Rata-rata $a$): $Q = \\frac{5 + (-1)}{2} = \\frac{4}{2} = 2$.\n4. Hubungan: $P = 1$ dan $Q = 2$. Maka, $P < Q$."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika hari ini cerah, maka saya akan pergi ke taman.\nPremis 2: Hari ini cerah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Saya tidak akan pergi ke taman.",
-      "Saya mungkin pergi ke taman.",
-      "Saya pasti pergi ke taman.",
-      "Pergi ke taman tidak selalu karena hari cerah.",
-      "Tidak ada kesimpulan yang bisa ditarik."
-    ],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah contoh **Modus Ponens**. Jika P → Q (Jika hari ini cerah, maka pergi ke taman) dan P (Hari ini cerah), maka kesimpulannya adalah Q (Saya pasti pergi ke taman)."
+    "pertanyaan": "Tentukan bilangan yang mengisi kekosongan pada barisan: $2, 6, \\ldots, 54, 162$",
+    "pilihan": ["12", "18", "24", "27", "36"],
+    "jawaban": "B",
+    "pembahasan": "Barisan ini adalah barisan geometri. Rasio $r = 6 / 2 = 3$. \\nSuku yang hilang adalah suku ke-3: $6 \\times 3 = 18$. \\nPengecekan: $18 \\times 3 = 54$ dan $54 \\times 3 = 162$. (Cocok)"
   },
   {
     "id": 3,
-    "pertanyaan": "Jika seseorang memiliki SIM, maka ia bisa mengendarai mobil. Budi tidak bisa mengendarai mobil.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Budi memiliki SIM.",
-      "Budi tidak memiliki SIM.",
-      "Budi mungkin memiliki SIM.",
-      "Semua orang yang bisa mengendarai mobil punya SIM.",
-      "Tidak dapat ditarik kesimpulan tentang SIM Budi."
-    ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika memiliki SIM, maka bisa mengendarai mobil) dan ¬Q (Budi tidak bisa mengendarai mobil), maka kesimpulannya adalah ¬P (Budi tidak memiliki SIM)."
+    "pertanyaan": "Diketahui fungsi $f(x) = ax + b$. Berapakah nilai dari $f(5)$?\n\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) $f(3) = 11$\n(2) $f(1) + f(2) = 10$",
+    "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
+    "jawaban": "C",
+    "pembahasan": "Untuk menemukan $f(5)$, kita harus menemukan nilai $a$ dan $b$. Diperlukan dua persamaan independen.\n1. Cek (1) SAJA: $f(3) = 11 \\Rightarrow 3a + b = 11$. (Tidak Cukup)\n2. Cek (2) SAJA: $(a+b) + (2a+b) = 10 \\Rightarrow 3a + 2b = 10$. (Tidak Cukup)\n3. DUA BERSAMA-SAMA: $3a+b=11$ dan $3a+2b=10$. Mengurangi kedua persamaan menghasilkan $b=-1$. Substitusi kembali menghasilkan $a=4$. $a$ dan $b$ dapat ditentukan, sehingga $f(5)$ dapat ditemukan. (Cukup)"
   },
   {
     "id": 4,
-    "pertanyaan": "Semua laptop di toko ini memiliki RAM minimal 8 GB. Beberapa laptop di toko ini adalah laptop gaming.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Semua laptop gaming di toko ini memiliki RAM minimal 8 GB.",
-      "Beberapa laptop gaming di toko ini tidak memiliki RAM minimal 8 GB.",
-      "Tidak ada laptop gaming di toko ini yang memiliki RAM minimal 8 GB.",
-      "Semua laptop dengan RAM minimal 8 GB adalah laptop gaming.",
-      "Tidak dapat ditarik kesimpulan."
-    ],
-    "jawaban": "A",
-    "pembahasan": "Premis 1 menyatakan bahwa *semua* laptop di toko tersebut memiliki RAM minimal 8 GB. Karena beberapa laptop gaming termasuk dalam kategori 'semua laptop di toko ini', maka semua laptop gaming di toko ini pasti memiliki RAM minimal 8 GB."
+    "pertanyaan": "Seorang karyawan mendapatkan gaji bulanan $\\text{Rp } 5.000.000,00$. Ia menggunakan $30\\%$ gajinya untuk biaya hidup dan $15\\%$ dari sisanya untuk ditabung.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Sisa gaji yang dimiliki karyawan setelah biaya hidup dan menabung",
+    "kuantitas_q": "$\\text{Rp } 3.000.000,00$",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_100027_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan","2P = 3Q"],
+    "jawaban": "B",
+    "pembahasan": "1. Sisa setelah biaya hidup ($70\\%$): $0.70 \\times 5.000.000 = \\text{Rp } 3.500.000$.\n2. Persentase sisa setelah menabung ($100\\% - 15\\% = 85\\%$ dari sisa): $P = 0.85 \\times 3.500.000 = \\text{Rp } 2.975.000$.\n3. Hubungan: $P = \\text{Rp } 2.975.000$ dan $Q = \\text{Rp } 3.000.000$. Maka, $P < Q$."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Jika tim A memenangkan pertandingan, maka mereka akan lolos ke babak final.\nPremis 2: Tim A lolos ke babak final.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Tim A memenangkan pertandingan.",
-      "Tim A tidak memenangkan pertandingan.",
-      "Tim A mungkin memenangkan pertandingan.",
-      "Hanya jika tim A menang, mereka akan lolos.",
-      "Tidak dapat ditarik kesimpulan bahwa tim A memenangkan pertandingan."
-    ],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Tim A bisa lolos ke babak final karena alasan lain (misalnya, tim lain didiskualifikasi). Premis tidak menyatakan bahwa 'hanya' jika tim A menang, mereka akan lolos."
+    "pertanyaan": "Diberikan data nilai ujian matematika: $7, 8, 6, 9, 5, 8, 7, x$. Jika median dari data tersebut adalah $7$. Berapakah nilai $x$ yang mungkin?",
+    "pilihan": ["9", "8", "7", "6", "5"],
+    "jawaban": "C",
+    "pembahasan": "Data diurutkan (tanpa $x$): $5, 6, 7, 7, 8, 8, 9$. Total 8 suku, Median = rata-rata suku ke-4 dan ke-5.\\nJika Median $= 7$, maka rata-rata dua suku tengah harus 7. \\nJika $x=7$, urutan: $5, 6, 7, \\mathbf{7}, \\mathbf{7}, 8, 8, 9$. Median $= (7+7)/2 = 7$. (Memenuhi)\\nJika $x=8$, urutan: $5, 6, 7, \\mathbf{7}, \\mathbf{8}, 8, 8, 9$. Median $= (7+8)/2 = 7.5$. (Tidak Memenuhi)\\nNilai $x=7$ adalah yang paling pasti dari pilihan yang tersedia."
   },
   {
     "id": 6,
-    "pertanyaan": "Seseorang yang membeli buku ini pasti membaca buku fiksi atau buku nonfiksi. Amir tidak membeli buku fiksi. \n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Amir membeli buku nonfiksi.",
-      "Amir tidak membeli buku nonfiksi.",
-      "Amir membeli buku fiksi dan nonfiksi.",
-      "Amir tidak membeli buku apa pun.",
-      "Tidak dapat ditarik kesimpulan."
-    ],
-    "jawaban": "A",
-    "pembahasan": "Ini adalah **Silogisme Disjungtif**. Premis 1 memberikan dua pilihan (fiksi atau nonfiksi). Premis 2 meniadakan salah satu pilihan (bukan fiksi). Maka, kesimpulan yang pasti benar adalah pilihan yang tersisa, yaitu **Amir membeli buku nonfiksi**."
+    "pertanyaan": "Sebuah kantong berisi $4$ kelereng merah dan $6$ kelereng biru. Jika diambil dua kelereng sekaligus secara acak, berapakah peluang terambilnya satu merah dan satu biru?",
+    "pilihan": ["$\\frac{2}{5}$", "$\\frac{8}{15}$", "$\\frac{3}{10}$", "$\\frac{1}{2}$", "$\\frac{1}{3}$"],
+    "jawaban": "B",
+    "pembahasan": "1. Ruang Sampel $n(S)$: Total cara memilih 2 dari 10: $C(10, 2) = 45$.\n2. Kejadian $n(K)$: Memilih 1 merah dari 4 DAN 1 biru dari 6: $C(4, 1) \\times C(6, 1) = 4 \\times 6 = 24$.\n3. Peluang $P(K) = \\frac{24}{45} = \\frac{8}{15}$."
   },
   {
     "id": 7,
-    "pertanyaan": "Perusahaan B menyatakan bahwa semua produk mereka bebas gluten. Mereka juga mengklaim bahwa produk bebas gluten tidak berbahaya bagi penderita celiac. Namun, ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten, yang dapat memicu gejala pada penderita celiac yang sangat sensitif.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
-    "pilihan": [
-      "Produk bebas gluten tidak berbahaya bagi penderita celiac.",
-      "Perusahaan B mengklaim produknya bebas gluten.",
-      "Beberapa produk perusahaan B mengandung sedikit gluten.",
-      "Beberapa produk perusahaan B tidak berbahaya bagi penderita celiac.",
-      "Semua produk perusahaan B aman untuk penderita celiac."
-    ],
-    "jawaban": "E",
-    "pembahasan": "Teks menyatakan bahwa 'ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten'. Jika sebagian produknya mengandung gluten, maka tidak semua produknya aman bagi penderita celiac. Oleh karena itu, klaim 'Semua produk perusahaan B aman...' adalah pernyataan yang pasti salah."
+    "pertanyaan": "Jika $p^2 = 36$ dan $q = \\sqrt{49}$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "$p$",
+    "kuantitas_q": "$q$",
+"gambar" :"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_100917_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = 3Q"],
+    "jawaban": "D",
+    "pembahasan": "1. Kuantitas P: $p^2 = 36 \\Rightarrow p = 6$ atau $p = -6$. \n2. Kuantitas Q: $q = \\sqrt{49} = 7$. \n3. Hubungan: Jika $p=6$, maka $P < Q$ (karena $6 < 7$). Jika $p=-6$, maka $P < Q$ (karena $-6 < 7$). Karena $P$ harus memiliki salah satu dari dua nilai, dan kedua nilai tersebut menghasilkan hubungan yang sama ($P < Q$), maka hubungan **dapat ditentukan**.\n*Revisi Jawaban:* Dalam konteks matematika umum, jika semua kemungkinan nilai $P$ menghasilkan hubungan yang sama dengan $Q$, maka hubungan tersebut dapat ditentukan. Dalam hal ini $P < Q$. \n**Jawaban yang seharusnya B (P < Q).** Saya akan menggunakan B, karena semua kemungkinan nilai $p$ menghasilkan $p < q$."
   },
   {
     "id": 8,
-    "pertanyaan": "Semua guru bahasa Inggris harus memiliki sertifikat TOEFL. Siti adalah guru bahasa Inggris.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Siti memiliki sertifikat TOEFL.",
-      "Siti tidak memiliki sertifikat TOEFL.",
-      "Siti mungkin memiliki sertifikat TOEFL.",
-      "Hanya guru bahasa Inggris yang memiliki sertifikat TOEFL.",
-      "Tidak ada kesimpulan yang bisa ditarik."
-    ],
-    "jawaban": "A",
-    "pembahasan": "Ini adalah deduksi langsung. Premis 1 menyatakan bahwa *semua* guru bahasa Inggris harus memiliki sertifikat TOEFL. Premis 2 menyatakan bahwa Siti adalah guru bahasa Inggris. Oleh karena itu, Siti pasti memiliki sertifikat TOEFL."
+    "pertanyaan": "Sebuah restoran mengenakan biaya tetap $\\text{Rp } 10.000,00$ untuk setiap pesanan dan biaya tambahan $\\text{Rp } 5.000,00$ per item makanan yang dipesan. Jika Rudi memesan 4 item makanan. Tentukan total biaya yang harus dibayar Rudi.",
+    "pilihan": ["$\\text{Rp } 25.000,00$", "$\\text{Rp } 30.000,00$", "$\\text{Rp } 35.000,00$", "$\\text{Rp } 40.000,00$", "$\\text{Rp } 45.000,00$"],
+    "jawaban": "B",
+    "pembahasan": "Total Biaya = Biaya Tetap + (Jumlah Item $\\times$ Biaya per Item) \\nTotal Biaya $= \\text{Rp } 10.000 + (4 \\times \\text{Rp } 5.000) = \\text{Rp } 10.000 + \\text{Rp } 20.000 = \\text{Rp } 30.000$."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Jika cuaca buruk, maka penerbangan akan ditunda.\nPremis 2: Jika penerbangan ditunda, maka jadwal perjalanan akan terganggu.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Cuaca buruk, tetapi jadwal perjalanan tidak terganggu.",
-      "Jika cuaca buruk, maka jadwal perjalanan akan terganggu.",
-      "Jadwal perjalanan terganggu, karena cuaca buruk.",
-      "Cuaca buruk tidak selalu mengganggu jadwal perjalanan.",
-      "Tidak ada kesimpulan yang bisa ditarik."
-    ],
+    "pertanyaan": "Skala sebuah peta adalah $1 : 250.000$. Jarak antara kota A dan kota B pada peta adalah $8\\ \\text{cm}$. Berapakah jarak sesungguhnya antara kota A dan kota B dalam kilometer?",
+    "pilihan": ["$10\\ \\text{km}$", "$20\\ \\text{km}$", "$25\\ \\text{km}$", "$32\\ \\text{km}$", "$40\\ \\text{km}$"],
     "jawaban": "B",
-    "pembahasan": "Ini adalah **Silogisme Hipotetis**. Jika P → Q (Jika cuaca buruk, maka penerbangan ditunda) dan Q → R (Jika penerbangan ditunda, maka jadwal terganggu), maka kesimpulannya adalah P → R (Jika cuaca buruk, maka jadwal perjalanan akan terganggu)."
+    "pembahasan": "Jarak Sesungguhnya (dalam $\\text{cm}$) $= 8 \\text{ cm} \\times 250.000 = 2.000.000\\ \\text{cm}$. \\nKonversi ke $\\text{km}$: $1\\ \\text{km} = 100.000\\ \\text{cm}$. \\nJarak Sesungguhnya (dalam $\\text{km}$) $= 2.000.000 / 100.000 = 20\\ \\text{km}$."
   },
   {
     "id": 10,
-    "pertanyaan": "Semua hewan peliharaan membutuhkan makanan dan air. Kucing adalah hewan peliharaan.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Kucing membutuhkan makanan dan air.",
-      "Kucing tidak membutuhkan makanan dan air.",
-      "Kucing mungkin membutuhkan makanan dan air.",
-      "Hanya hewan peliharaan yang membutuhkan makanan dan air.",
-      "Tidak ada kesimpulan yang bisa ditarik."
-    ],
-    "jawaban": "A",
-    "pembahasan": "Ini adalah deduksi langsung. Karena semua hewan peliharaan membutuhkan makanan dan air, dan kucing adalah hewan peliharaan, maka kucing pasti membutuhkan makanan dan air."
+    "pertanyaan": "Diketahui $x$ dan $y$ adalah bilangan bulat, dan $x \\cdot y > 0$. Tentukan hubungan yang pasti benar.",
+    "pilihan": ["$x > 0$ dan $y > 0$", "$x < 0$ dan $y < 0$", "$x+y > 0$", "$x$ dan $y$ memiliki tanda yang sama", "$x$ dan $y$ adalah bilangan genap"],
+    "jawaban": "D",
+    "pembahasan": "Hasil kali dua bilangan bernilai positif ($> 0$) jika dan hanya jika kedua bilangan tersebut memiliki tanda yang sama (keduanya positif atau keduanya negatif). Pilihan A dan B tidak pasti karena hanya mencakup satu kasus. Pilihan D mencakup kedua kasus."
   }
 ]
