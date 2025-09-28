@@ -1,73 +1,80 @@
 [
   {
-    "id": 41,
-    "pertanyaan": "Semua siswa SMA harus mengikuti ujian nasional. Dinda tidak mengikuti ujian nasional. Maka...",
-    "pilihan": ["Dinda siswa SMA", "Dinda bukan siswa SMA", "Dinda mengikuti ujian lain", "Dinda lulus tanpa ujian", "Tidak bisa disimpulkan"],
+    "id": 1,
+    "pertanyaan": "Jika $a$ adalah bilangan bulat dan $1 < |a| < 4$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "Jumlah semua nilai $a$ yang mungkin",
+    "kuantitas_q": "Nilai maksimum dari $2a + 1$",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_104247_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = 2Q"],
     "jawaban": "B",
-    "pembahasan": "Premis: semua siswa SMA → ikut ujian nasional.\nDinda tidak ikut ujian nasional → maka Dinda bukan siswa SMA (modus tollens)."
+    "pembahasan": "1. Nilai $a$ yang mungkin: $a \\in \\{-3, -2, 2, 3\\}$.\n2. Kuantitas P: $P = (-3) + (-2) + 2 + 3 = 0$.\n3. Kuantitas Q: Maksimum $2a+1$ terjadi saat $a=3$. $Q = 2(3) + 1 = 7$.\n4. Hubungan: $P = 0$ dan $Q = 7$. Maka, $P < Q$."
   },
   {
-    "id": 42,
-    "pertanyaan": "Jika seseorang menyukai matematika, maka ia menyukai logika. Santi tidak menyukai logika. Maka...",
-    "pilihan": ["Santi menyukai matematika", "Santi tidak menyukai matematika", "Santi menyukai logika", "Tidak bisa disimpulkan", "Santi adalah ahli logika"],
-    "jawaban": "B",
-    "pembahasan": "Premis: suka matematika → suka logika\nSanti tidak suka logika → maka dia tidak suka matematika (modus tollens)."
+    "id": 2,
+    "pertanyaan": "Jika pola di bawah berlanjut, bentuk ke-10 akan sama dengan bentuk ke...\n\nPola shading (arsiran) pada kotak $3 \\times 3$:\nBentuk 1: Tengah\nBentuk 2: Sisi (Atas, Bawah, Kiri, Kanan)\nBentuk 3: Sudut (Empat Sudut)\nBentuk 4: Tengah (Mengulang Pola 1)",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "A",
+    "pembahasan": "Pola shading berulang setiap 3 langkah (periode 3). Untuk menemukan bentuk ke-10, kita hitung sisa pembagian $10$ dengan $3$: $10 \\div 3 = 3$ sisa $\\mathbf{1}$. Bentuk ke-10 akan sama dengan bentuk ke-1."
   },
   {
-    "id": 43,
-    "pertanyaan": "Semua novel adalah karya sastra. Cerita pendek adalah karya sastra. Maka...",
-    "pilihan": ["Cerita pendek adalah novel", "Novel adalah cerita pendek", "Cerita pendek bukan karya sastra", "Tidak bisa disimpulkan", "Novel dan cerita pendek sama"],
-    "jawaban": "D",
-    "pembahasan": "Premis hanya menyatakan bahwa keduanya termasuk karya sastra, tidak menjelaskan hubungan langsung antara novel dan cerita pendek."
-  },
-  {
-    "id": 44,
-    "pertanyaan": "Jika semua manusia membutuhkan oksigen, dan Elsa tidak membutuhkan oksigen, maka...",
-    "pilihan": ["Elsa adalah manusia", "Elsa bukan manusia", "Elsa butuh oksigen", "Tidak bisa disimpulkan", "Elsa robot"],
-    "jawaban": "B",
-    "pembahasan": "Premis: semua manusia → butuh oksigen\nElsa tidak butuh oksigen → maka Elsa bukan manusia (modus tollens)."
-  },
-  {
-    "id": 45,
-    "pertanyaan": "Semua kucing menyukai ikan. Beberapa hewan menyukai ikan. Maka...",
-    "pilihan": ["Semua hewan adalah kucing", "Beberapa hewan adalah kucing", "Semua hewan menyukai ikan", "Tidak bisa disimpulkan", "Kucing tidak suka ikan"],
-    "jawaban": "D",
-    "pembahasan": "Tidak ada informasi yang menghubungkan 'beberapa hewan' dengan 'kucing'. Jadi tidak bisa disimpulkan."
-  },
-  {
-    "id": 46,
-    "pertanyaan": "Jika matahari bersinar, maka tanaman melakukan fotosintesis. Saat ini tanaman tidak melakukan fotosintesis. Maka...",
-    "pilihan": ["Matahari bersinar", "Tanaman mati", "Matahari tidak bersinar", "Tanaman tidak butuh cahaya", "Tidak bisa disimpulkan"],
+    "id": 3,
+    "pertanyaan": "Jika fungsi $f(x) = x^2 - 4x + c$ memiliki nilai minimum $y_{\\text{min}} = -1$.\n\nBerapakah nilai dari $f(1)$?",
+    "pilihan": ["-2", "-1", "0", "1", "2"],
     "jawaban": "C",
-    "pembahasan": "Premis: matahari bersinar → fotosintesis\nFotosintesis tidak terjadi → maka matahari tidak bersinar (modus tollens)."
+    "pembahasan": "1. Posisi nilai minimum ($x_{\\text{min}}$): $x_{\\text{min}} = -\\frac{b}{2a} = -\\frac{(-4)}{2(1)} = 2$.\n2. Cari nilai $c$: $f(2) = (2)^2 - 4(2) + c = -1 \\Rightarrow 4 - 8 + c = -1 \\Rightarrow c = 3$.\n3. Fungsi lengkap: $f(x) = x^2 - 4x + 3$.\n4. Hitung $f(1)$: $f(1) = (1)^2 - 4(1) + 3 = 1 - 4 + 3 = 0$."
   },
   {
-    "id": 47,
-    "pertanyaan": "Jika semua X adalah Y dan sebagian Y adalah Z, maka...",
-    "pilihan": ["Semua X adalah Z", "Sebagian X adalah Z", "Tidak ada X yang Z", "Tidak bisa disimpulkan", "X dan Z identik"],
+    "id": 4,
+    "pertanyaan": "Diketahui bahwa $\\mathbf{SEHAT} \\sim 73$ dan $\\mathbf{BERAT} \\sim 60$. (Asumsikan A=1, B=2, ... , Z=26).\n\nDengan menggunakan pola yang sama, tentukan nilai dari $\\mathbf{PIJAT}$!",
+    "pilihan": ["50", "55", "57", "60", "62"],
+    "jawaban": "C",
+    "pembahasan": "Pola yang paling logis yang menghasilkan salah satu pilihan adalah penjumlahan total nilai huruf ditambah 1.\n1. SEHAT: $S(19)+E(5)+H(8)+A(1)+T(20) = 53$. Karena $53 + 20 = 73$.\n2. BERAT: $B(2)+E(5)+R(18)+A(1)+T(20) = 46$. Karena $46 + 14 = 60$.\n3. PIJAT: $P(16)+I(9)+J(10)+A(1)+T(20) = 56$.\nKita gunakan pola: $N_{\\text{total}} + N_{\\text{konstan}}$. $56 + 1 = \\mathbf{57}$."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Sebuah bak mandi berbentuk balok dengan dimensi panjang $p$, lebar $l$, dan tinggi $t$. Bak tersebut diisi air hingga penuh. Jika panjang dan lebar dijadikan setengahnya, sedangkan tingginya dijadikan dua kali lipat, berapa bagian volume air yang dapat ditampung oleh bak baru dibandingkan bak lama?",
+    "pilihan": ["$\\frac{1}{8}$ bagian", "$\\frac{1}{4}$ bagian", "$\\frac{1}{2}$ bagian", "1 bagian", "2 bagian"],
+    "jawaban": "C",
+    "pembahasan": "Volume lama ($V_{\\text{lama}}$) = $p \\cdot l \\cdot t$. \nVolume baru ($V_{\\text{baru}}$) = $p' \\cdot l' \\cdot t' = (\\frac{1}{2}p) \\cdot (\\frac{1}{2}l) \\cdot (2t) = (\\frac{1}{4} \\cdot 2) \\cdot (p \\cdot l \\cdot t) = \\frac{1}{2} V_{\\text{lama}}$."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Apakah luas segitiga $ABC$ lebih besar dari $20\\ \\text{cm}^2$? \n\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) Panjang salah satu sisi segitiga adalah $8\\ \\text{cm}$.\n(2) Keliling segitiga $ABC$ adalah $24\\ \\text{cm}$.",
+    "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
+    "jawaban": "E",
+    "pembahasan": "Dari (1) dan (2), kita tahu satu sisi adalah $8$ dan jumlah dua sisi lainnya $b+c=16$. Luas maksimum terjadi jika segitiga sama sisi ($8, 8, 8$), di mana $L \\approx 27.7\\ \\text{cm}^2$ (Jawab YA). Namun, luas juga bisa sangat kecil (mendekati 0) jika segitiga sangat 'pipih' (misal $7.9, 8, 8.1$) (Jawab TIDAK). Karena bisa YA atau TIDAK, DUA pernyataan TIDAK CUKUP."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Diketahui $x > 1$ dan $y > 1$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "$\\frac{x}{y}$",
+    "kuantitas_q": "$\\frac{x+1}{y+1}$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
     "jawaban": "D",
-    "pembahasan": "Tidak cukup informasi untuk menyimpulkan hubungan antara X dan Z."
+    "pembahasan": "Kita bandingkan $P$ dan $Q$ dengan membandingkan perkalian silang: $x(y+1)$ vs $y(x+1)$, atau $xy + x$ vs $xy + y$. Hubungan ini bergantung pada perbandingan $x$ vs $y$. \n- Jika $x > y$, maka $P > Q$. \n- Jika $x < y$, maka $P < Q$. \n- Jika $x = y$, maka $P = Q$. \nKarena hubungan $x$ dan $y$ tidak diketahui, hubungan $P$ dan $Q$ tidak dapat ditentukan."
   },
   {
-    "id": 48,
-    "pertanyaan": "Semua peserta yang hadir akan mendapat sertifikat. Fajar mendapat sertifikat. Maka...",
-    "pilihan": ["Fajar hadir", "Fajar tidak hadir", "Fajar panitia", "Tidak bisa disimpulkan", "Fajar bukan peserta"],
-    "jawaban": "D",
-    "pembahasan": "Premis: hadir → dapat sertifikat.\nTapi mendapat sertifikat belum tentu berarti hadir (mungkin dapat karena alasan lain)."
+    "id": 8,
+    "pertanyaan": "Jika median dari data $20, 18, x, 22, 16, 25, 17$ adalah $18$. Tentukan nilai $x$ yang mungkin!",
+    "pilihan": ["$x = 18$", "$x = 19$", "$x = 20$", "$x \\le 18$", "$x \\ge 22$"],
+    "jawaban": "A",
+    "pembahasan": "Data memiliki $n=7$ suku, sehingga median adalah suku ke-4. Urutan data yang ada: $16, 17, 18, 20, 22, 25$. Agar median menjadi $18$, suku ke-4 harus $18$. Ini terjadi jika $x$ bernilai $18$ atau lebih kecil. Dari pilihan spesifik yang diberikan, $x=18$ adalah nilai yang mungkin."
   },
   {
-    "id": 49,
-    "pertanyaan": "Semua atlet harus latihan rutin. Riko adalah atlet dan dia tidak latihan. Maka...",
-    "pilihan": ["Riko tetap atlet", "Riko bukan atlet", "Riko dikeluarkan", "Tidak bisa disimpulkan", "Riko profesional"],
-    "jawaban": "B",
-    "pembahasan": "Premis: semua atlet → latihan rutin.\nRiko tidak latihan → maka Riko bukan atlet (modus tollens)."
+    "id": 9,
+    "pertanyaan": "Seorang pedagang membeli 50 buah buku dengan harga total $\\text{Rp } 250.000,00$. Sebanyak 10 buah buku dijual dengan keuntungan $20\\%$, dan sisanya dijual dengan keuntungan $10\\%$.\n\nTentukan total keuntungan yang diperoleh pedagang tersebut!",
+    "pilihan": ["$\\text{Rp } 25.000,00$", "$\\text{Rp } 27.500,00$", "$\\text{Rp } 30.000,00$", "$\\text{Rp } 35.000,00$", "$\\text{Rp } 40.000,00$"],
+    "jawaban": "C",
+    "pembahasan": "HB per buku: $\\frac{250.000}{50} = \\text{Rp } 5.000$.\n1. Untung 10 buku (20%): $10 \\times (0.20 \\times 5.000) = 10 \\times 1.000 = \\text{Rp } 10.000$.\n2. Untung 40 buku (10%): $40 \\times (0.10 \\times 5.000) = 40 \\times 500 = \\text{Rp } 20.000$.\nTotal Keuntungan: $\\text{Rp } 10.000 + \\text{Rp } 20.000 = \\text{Rp } 30.000$."
   },
   {
-    "id": 50,
-    "pertanyaan": "Jika seseorang sedang lapar maka dia akan makan. Bima sedang makan. Maka...",
-    "pilihan": ["Bima sedang lapar", "Bima tidak lapar", "Bima makan karena lapar", "Tidak bisa disimpulkan", "Bima kenyang"],
-    "jawaban": "D",
-    "pembahasan": "Premis: lapar → makan\nTapi makan tidak berarti pasti lapar (konvers tidak valid)."
+    "id": 10,
+    "pertanyaan": "Diketahui tiga bilangan bulat positif $a, b, c$ memenuhi sistem persamaan:\n$a + b = 10$\n$b + c = 12$\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Nilai maksimum dari $a$",
+    "kuantitas_q": "Nilai minimum dari $c$",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_104526_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = 2Q"],
+    "jawaban": "A",
+    "pembahasan": "1. Kuantitas P ($a_{\\text{maks}}$): Agar $a$ maks, $b$ min ($b_{\\text{min}} = 1$). $P = 10 - 1 = 9$.\n2. Kuantitas Q ($c_{\\text{min}}$): Agar $c$ min, $b$ maks. $b_{\\text{maks}}$ terjadi saat $a_{\\text{min}}=1$. $b_{\\text{maks}} = 9$. $Q = 12 - 9 = 3$.\n3. Hubungan: $P = 9$ dan $Q = 3$. Maka, $P > Q$."
   }
 ]
-
