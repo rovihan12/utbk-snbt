@@ -1,72 +1,80 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Jika 2a + 3b = 10 dan 4a - b = 6, maka nilai dari a + b adalah...",
-    "pilihan": ["2", "3", "4", "5", "6"],
-    "jawaban": "C",
-    "pembahasan": "Kita memiliki sistem persamaan linear:\n1) 2a + 3b = 10\n2) 4a - b = 6\n\nDari persamaan (2), kita bisa menyatakan b dalam bentuk a: b = 4a - 6.\nSubstitusikan b ke persamaan (1):\n2a + 3(4a - 6) = 10\n2a + 12a - 18 = 10\n14a = 10 + 18\n14a = 28\na = 28 / 14\na = 2\n\nSekarang substitusikan nilai a = 2 ke b = 4a - 6:\nb = 4(2) - 6\nb = 8 - 6\nb = 2\n\nJadi, a + b = 2 + 2 = 4."
+    "pertanyaan": "Dua buah bilangan bulat positif, $a$ dan $b$, memenuhi persamaan $2a - 3b = 7$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "Nilai terkecil dari $a$",
+    "kuantitas_q": "Nilai terbesar dari $b$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = 2Q"],
+    "jawaban": "D",
+    "pembahasan": "1. Kuantitas P ($a$ terkecil): Karena $a$ dan $b$ bilangan bulat positif, ambil $b$ minimum ($b=1$). $2a - 3(1) = 7 \\Rightarrow 2a = 10 \\Rightarrow a = 5$. Jadi, $P = 5$.\n2. Kuantitas Q ($b$ terbesar): Dari $2a = 7 + 3b$, nilai $a$ dapat terus diperbesar (misalnya $a=8, 11, 14, \\ldots$). Karena tidak ada batasan maksimum yang diberikan pada $a$, nilai $b$ juga tidak memiliki batas atas. Oleh karena itu, $Q$ tidak dapat ditentukan secara unik.\n3. Hubungan: Karena salah satu kuantitas tidak dapat ditentukan secara unik, hubungan P dan Q tidak dapat ditentukan."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah toko memberikan diskon 15% untuk semua barang. Jika Tono membeli sebuah tas seharga Rp 240.000,00 sebelum diskon, berapa uang yang harus dibayar Tono?",
-    "pilihan": ["Rp 200.000,00", "Rp 204.000,00", "Rp 210.000,00", "Rp 214.000,00", "Rp 220.000,00"],
-    "jawaban": "B",
-    "pembahasan": "Besar diskon = 15% dari Rp 240.000,00\nDiskon = (15/100) × 240.000 = 0.15 × 240.000 = 36.000\nUang yang harus dibayar = Harga awal - Diskon\nUang yang harus dibayar = 240.000 - 36.000 = Rp 204.000,00."
+    "pertanyaan": "Tentukan bilangan berikutnya pada barisan: $1, 1, 2, 3, 5, 8, 13, \\ldots$",
+    "pilihan": ["18", "20", "21", "24", "26"],
+    "jawaban": "C",
+    "pembahasan": "Barisan tersebut adalah Barisan Fibonacci, di mana setiap suku adalah penjumlahan dari dua suku sebelumnya. Suku berikutnya adalah $8 + 13 = 21$."
   },
   {
     "id": 3,
-    "pertanyaan": "Perbandingan usia ayah dan anak adalah 5 : 2. Jika selisih usia mereka 21 tahun, berapa usia ayah sekarang?",
-    "pilihan": ["35 tahun", "30 tahun", "28 tahun", "21 tahun", "14 tahun"],
-    "jawaban": "A",
-    "pembahasan": "Misalkan usia ayah = 5x dan usia anak = 2x.\nSelisih usia = 5x - 2x = 3x\nDiketahui selisih usia adalah 21 tahun, maka 3x = 21\nx = 21 / 3\nx = 7\nUsia ayah = 5x = 5 × 7 = 35 tahun."
+    "pertanyaan": "Apakah $x^2 > 9$?\n\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) $x$ adalah bilangan bulat negatif.\n(2) $x + 2 < 0$",
+    "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
+    "jawaban": "E",
+    "pembahasan": "Pertanyaan: Apakah $x > 3$ atau $x < -3$?\n1. Cek (1) SAJA: $x = -1, -2, -3, \\ldots$. Jika $x = -2$, $x^2 = 4$ (TIDAK). Jika $x = -4$, $x^2 = 16$ (YA). (Tidak Cukup)\n2. Cek (2) SAJA: $x < -2$. Jika $x = -2.5$, $x^2 = 6.25$ (TIDAK). Jika $x = -4$, $x^2 = 16$ (YA). (Tidak Cukup)\n3. Cek (1) dan (2) BERSAMA-SAMA: $x$ adalah bilangan bulat negatif dan $x < -2$. Maka $x = -3, -4, -5, \\ldots$. Jika $x = -3$, $x^2 = 9$ (TIDAK, karena $9 \\ngtr 9$). Jika $x = -4$, $x^2 = 16$ (YA). (Tidak Cukup)"
   },
   {
     "id": 4,
-    "pertanyaan": "Jika x² - y² = 36 dan x - y = 4, maka nilai dari x + y adalah...",
-    "pilihan": ["6", "8", "9", "12", "16"],
+    "pertanyaan": "Sebuah proyek pembangunan diselesaikan oleh 15 pekerja dalam waktu 30 hari. Setelah 10 hari berjalan, proyek dihentikan selama 5 hari.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Jumlah pekerja tambahan yang dibutuhkan agar proyek selesai tepat waktu",
+    "kuantitas_q": "5 orang",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
     "jawaban": "C",
-    "pembahasan": "Kita tahu bahwa x² - y² dapat difaktorkan menjadi (x - y)(x + y).\nDiketahui x² - y² = 36 dan x - y = 4.\nSubstitusikan nilai-nilai tersebut ke dalam persamaan faktorisasi:\n(x - y)(x + y) = 36\n4 × (x + y) = 36\nx + y = 36 / 4\nx + y = 9."
+    "pembahasan": "1. Total pekerjaan: $15 \\text{ pekerja} \\times 30 \\text{ hari} = 450 \\text{ pekerjaan-hari}$.\n2. Pekerjaan selesai 10 hari: $15 \\times 10 = 150 \\text{ pekerjaan-hari}$.\n3. Sisa pekerjaan: $450 - 150 = 300 \\text{ pekerjaan-hari}$.\n4. Sisa waktu efektif: $30 - 10 - 5 = 15 \\text{ hari}$.\n5. Total pekerja yang dibutuhkan: $\\frac{300}{15} = 20 \\text{ pekerja}$.\n6. Kuantitas P (Pekerja tambahan): $20 - 15 = 5 \\text{ orang}$.\\n7. Hubungan: $P = 5$ dan $Q = 5$. Maka, $P = Q$."
   },
   {
     "id": 5,
-    "pertanyaan": "Rata-rata nilai ulangan matematika 5 siswa adalah 80. Jika ditambah nilai satu siswa lagi, rata-rata menjadi 78. Berapa nilai siswa yang ditambahkan?",
-    "pilihan": ["68", "70", "72", "74", "76"],
-    "jawaban": "A",
-    "pembahasan": "Total nilai 5 siswa = Rata-rata × Jumlah siswa = 80 × 5 = 400.\nSetelah ditambah satu siswa, jumlah siswa menjadi 6 dan rata-rata menjadi 78.\nTotal nilai 6 siswa = 78 × 6 = 468.\nNilai siswa yang ditambahkan = Total nilai 6 siswa - Total nilai 5 siswa\nNilai siswa yang ditambahkan = 468 - 400 = 68."
+    "pertanyaan": "Kelas A memiliki 30 siswa dengan rata-rata nilai ujian $80$. Kelas B memiliki 20 siswa dengan rata-rata nilai ujian $90$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Rata-rata gabungan nilai ujian Kelas A dan Kelas B",
+    "kuantitas_q": "85",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
+    "jawaban": "B",
+    "pembahasan": "1. Kuantitas P (Rata-rata Gabungan): $P = \\frac{(30 \\times 80) + (20 \\times 90)}{30 + 20} = \\frac{2400 + 1800}{50} = \\frac{4200}{50} = 84$.\n2. Hubungan: $P = 84$ dan $Q = 85$. Maka, $P < Q$."
   },
   {
     "id": 6,
-    "pertanyaan": "Sebuah bakteri membelah diri menjadi dua setiap 30 menit. Jika pada awalnya ada 10 bakteri, berapa jumlah bakteri setelah 2 jam?",
-    "pilihan": ["80", "160", "320", "640", "1280"],
+    "pertanyaan": "Dalam pemilihan pengurus organisasi, terdapat 5 calon laki-laki dan 4 calon perempuan. Jika akan dipilih 3 orang pengurus yang terdiri dari 2 laki-laki dan 1 perempuan, berapa banyak cara pemilihan yang mungkin?",
+    "pilihan": ["30", "40", "50", "60", "70"],
     "jawaban": "B",
-    "pembahasan": "Waktu total = 2 jam = 120 menit.\nSetiap 30 menit bakteri membelah diri, jadi jumlah pembelahan = 120 menit / 30 menit = 4 kali pembelahan.\nJumlah bakteri setelah n kali pembelahan = Jumlah awal × 2ⁿ\nJumlah bakteri = 10 × 2⁴\nJumlah bakteri = 10 × 16\nJumlah bakteri = 160."
+    "pembahasan": "Menggunakan kombinasi:\\n1. Memilih 2 Laki-laki dari 5: $C(5, 2) = \\frac{5!}{2!3!} = 10$ cara.\\n2. Memilih 1 Perempuan dari 4: $C(4, 1) = 4$ cara.\\nTotal cara: $10 \\times 4 = 40$ cara."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebidang tanah berbentuk persegi panjang memiliki keliling 40 meter. Jika panjangnya 4 meter lebih panjang dari lebarnya, berapa luas tanah tersebut?",
-    "pilihan": ["80 meter persegi", "90 meter persegi", "96 meter persegi", "100 meter persegi", "120 meter persegi"],
+    "pertanyaan": "Sebuah wadah berbentuk kerucut memiliki jari-jari alas $r$ dan tinggi $t$. Volume wadah tersebut adalah $V$. Jika jari-jari alasnya dijadikan $2r$ dan tingginya dijadikan $t/2$, volume wadah yang baru adalah $V'$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Perbandingan $V'$ terhadap $V$",
+    "kuantitas_q": "2",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
     "jawaban": "C",
-    "pembahasan": "Misalkan lebar = L dan panjang = P.\nKeliling = 2 × (P + L) = 40\nP + L = 20\nDiketahui P = L + 4.\nSubstitusikan P ke persamaan P + L = 20:\n(L + 4) + L = 20\n2L + 4 = 20\n2L = 16\nL = 8 meter\nPanjang P = L + 4 = 8 + 4 = 12 meter.\nLuas tanah = Panjang × Lebar = 12 m × 8 m = 96 meter persegi."
+    "pembahasan": "Volume Awal $V = \\frac{1}{3} \\pi r^2 t$. Volume Baru $V' = \\frac{1}{3} \\pi (2r)^2 (t/2) = \\frac{1}{3} \\pi (4r^2) (t/2) = 2 \\cdot (\\frac{1}{3} \\pi r^2 t) = 2V$. \\nKuantitas P: $P = \\frac{V'}{V} = 2$. Kuantitas Q: $Q = 2$. Maka, $P = Q$."
   },
   {
     "id": 8,
-    "pertanyaan": "Sebuah deret aritmatika memiliki suku pertama 5 dan beda 3. Berapakah suku ke-10 dari deret tersebut?",
-    "pilihan": ["29", "32", "35", "38", "41"],
-    "jawaban": "B",
-    "pembahasan": "Rumus suku ke-n deret aritmatika adalah Uₙ = a + (n-1)d.\nDiketahui: a = 5 (suku pertama), d = 3 (beda), n = 10.\nU₁₀ = 5 + (10 - 1) × 3\nU₁₀ = 5 + 9 × 3\nU₁₀ = 5 + 27\nU₁₀ = 32."
+    "pertanyaan": "Tono dan Tini bersepeda dari titik yang sama. Tono bergerak ke utara dengan kecepatan $12\\ \\text{km/jam}$, dan Tini bergerak ke timur dengan kecepatan $5\\ \\text{km/jam}$.\\n\\nBerapakah jarak antara Tono dan Tini setelah 2 jam?",
+    "pilihan": ["$26\\ \\text{km}$", "$29\\ \\text{km}$", "$34\\ \\text{km}$", "$36\\ \\text{km}$", "$39\\ \\text{km}$"],
+    "jawaban": "A",
+    "pembahasan": "Pergerakan ke utara dan timur membentuk segitiga siku-siku.\\n1. Jarak Tono ($J_T$): $12\\ \\text{km/jam} \\times 2\\ \\text{jam} = 24\\ \\text{km}$.\\n2. Jarak Tini ($J_i$): $5\\ \\text{km/jam} \\times 2\\ \\text{jam} = 10\\ \\text{km}$.\\n3. Jarak antara keduanya ($c$): $c = \\sqrt{J_T^2 + J_i^2} = \\sqrt{24^2 + 10^2} = \\sqrt{576 + 100} = \\sqrt{676} = 26\\ \\text{km}$."
   },
   {
-  "id": 9,
-  "pertanyaan": "Jika $a \\neq 0$ dan $a^2 = 9a$, maka nilai $a$ adalah...",
-  "pilihan": ["0", "1", "3", "6", "9"],
-  "jawaban": "E",
-  "pembahasan": "Diberikan persamaan $a^2 = 9a$.\nPindahkan semua suku ke satu sisi:\n$a^2 - 9a = 0$\nFaktorkan $a$:\n$a(a - 9) = 0$\nIni berarti $a = 0$ atau $a - 9 = 0$.\nJika $a - 9 = 0$, maka $a = 9$.\nKarena soal menyatakan $a \\neq 0$, maka nilai $a$ yang memenuhi adalah $9$."
-},
+    "id": 9,
+    "pertanyaan": "Sebuah persegi dengan panjang sisi $s$ memiliki keliling $K$ dan luas $L$. Jika panjang sisi persegi ditingkatkan $25\\%$, maka persentase peningkatan luasnya adalah...",
+    "pilihan": ["$25\\%$", "$50\\%$", "$56.25\\%$", "$62.5\\%$", "$75\\%$"],
+    "jawaban": "C",
+    "pembahasan": "1. Sisi baru $s_{baru} = s(1 + 0.25) = 1.25s$.\\n2. Luas baru $L_{baru} = (1.25s)^2 = 1.5625s^2$.\\n3. Peningkatan Luas: $1.5625s^2 - s^2 = 0.5625s^2$.\\n4. Persentase peningkatan: $\\frac{0.5625s^2}{s^2} \\times 100\\% = 56.25\\%$."
+  },
   {
     "id": 10,
-    "pertanyaan": "Dalam sebuah kelas, 60% siswa adalah laki-laki. Jika ada 14 siswa perempuan, berapa total jumlah siswa dalam kelas tersebut?",
-    "pilihan": ["30", "35", "38", "40", "45"],
+    "pertanyaan": "Jika $A, B, C$ adalah bilangan bulat positif yang berbeda, dan memenuhi $A^2 + B^2 = C^2$. Tentukan hubungan yang pasti benar.",
+    "pilihan": ["C selalu bilangan ganjil.", "Salah satu dari $A$ atau $B$ haruslah bilangan genap.", "$A$ dan $B$ harus bilangan ganjil.", "$C$ tidak mungkin bilangan prima.", "$A+B$ selalu genap."],
     "jawaban": "B",
-    "pembahasan": "Jika 60% siswa adalah laki-laki, maka persentase siswa perempuan adalah 100% - 60% = 40%.\nDiketahui jumlah siswa perempuan adalah 14 orang.\nMisalkan total siswa = T.\n0.40 × T = 14\nT = 14 / 0.40\nT = 140 / 4\nT = 35."
+    "pembahasan": "Persamaan $A^2 + B^2 = C^2$ adalah Triple Pythagoras. Dalam semua Triple Pythagoras primitif (terkecil), salah satu dari dua kaki (A atau B) selalu genap dan yang lainnya ganjil. Jika A dan B keduanya ganjil, maka $A^2 + B^2 = \\text{ganjil} + \\text{ganjil} = \\text{genap}$. $C$ akan genap. Namun, kuadrat dari bilangan genap yang dihasilkan oleh penjumlahan dua kuadrat bilangan ganjil tidak mungkin habis dibagi 4, yang merupakan syarat bagi kuadrat bilangan genap. Oleh karena itu, tidak mungkin $A$ dan $B$ keduanya ganjil. Jadi, salah satu dari $A$ atau $B$ haruslah genap."
   }
 ]
