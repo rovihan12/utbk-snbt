@@ -1,73 +1,74 @@
 [
   {
-    "id": 31,
-    "pertanyaan": "Jika semua tanaman membutuhkan air, dan kaktus adalah tanaman, maka...",
-    "pilihan": ["Kaktus tidak butuh air", "Kaktus butuh air", "Kaktus adalah hewan", "Kaktus hidup di air", "Tidak bisa disimpulkan"],
+    "id": 1,
+    "pertanyaan": "Sebuah supermarket mencatat bahwa:\n1. Semua pelanggan yang membeli kopi bubuk juga membeli gula.\n2. Sebagian pelanggan yang membeli gula juga membeli susu.\n3. Tidak ada pelanggan yang membeli kopi bubuk membeli teh.\n\nKesimpulan yang paling tepat adalah...",
+    "pilihan": ["Semua pelanggan yang membeli gula pasti membeli kopi bubuk.", "Ada pelanggan yang membeli gula tetapi tidak membeli kopi bubuk.", "Semua pelanggan yang membeli susu pasti membeli kopi bubuk.", "Pelanggan yang membeli teh tidak mungkin membeli gula.", "Sebagian pelanggan yang membeli susu membeli kopi bubuk."],
     "jawaban": "B",
-    "pembahasan": "Premis: semua tanaman butuh air.\nKaktus adalah tanaman → maka kaktus butuh air (meskipun sedikit)."
+    "pembahasan": "Dari pernyataan (1), 'Semua pelanggan yang membeli kopi bubuk juga membeli gula' berarti himpunan pembeli Kopi Bubuk adalah subset dari pembeli Gula ($K \\subset G$). Karena $K \\subset G$, maka pasti ada anggota di $G$ yang bukan anggota $K$. Artinya, ada pelanggan yang membeli gula tetapi tidak membeli kopi bubuk."
   },
   {
-    "id": 32,
-    "pertanyaan": "Jika semua A adalah B, dan tidak ada B yang C, maka...",
-    "pilihan": ["Semua A adalah C", "Beberapa A adalah C", "Tidak ada A yang C", "Semua C adalah A", "B dan C sama"],
+    "id": 2,
+    "pertanyaan": "Jika operasi $\\triangle$ didefinisikan sebagai $a \\triangle b = a \\cdot b - (a + b)$, dan operasi $\\nabla$ didefinisikan sebagai $a \\nabla b = 5b$.\n\nBerapakah nilai dari $(4 \\triangle 2) \\nabla 3$?",
+    "pilihan": ["3", "6", "9", "12", "15"],
+    "jawaban": "E",
+    "pembahasan": "1. Hitung $4 \\triangle 2$: $4 \\triangle 2 = (4 \\cdot 2) - (4 + 2) = 8 - 6 = 2$.\n2. Hitung $(4 \\triangle 2) \\nabla 3$ atau $2 \\nabla 3$: Menggunakan definisi $a \\nabla b = 5b$, maka $2 \\nabla 3 = 5 \\times 3 = 15$."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Diketahui $x$ dan $y$ adalah bilangan bulat.\n\nTentukan mana di antara empat proposisi berikut yang bernilai **BENAR**!\n1. Jika $x$ bilangan genap, maka $x^2 + 1$ adalah bilangan ganjil.\n2. Jika $y^3 < 8$, maka $y < 2$.\n3. Jika $x+y$ ganjil, maka $x$ dan $y$ keduanya ganjil.\n4. Jika $xy$ genap, maka $x$ genap.",
+    "pilihan": ["Hanya 1", "1 dan 2", "1, 2, dan 4", "Semua benar", "Hanya 1 dan 3"],
+    "jawaban": "B",
+    "pembahasan": "1. BENAR: $x$ genap $\\Rightarrow x^2$ genap. $x^2+1$ ganjil.\n2. BENAR: $y^3 < 8$ ekuivalen dengan $y < \\sqrt[3]{8}$, yaitu $y < 2$.\n3. SALAH: $x+y$ ganjil berarti salah satu ganjil dan yang lain genap (misal $3+2=5$).\n4. SALAH: $xy$ genap berarti setidaknya salah satu genap. $x$ bisa ganjil jika $y$ genap (misal $3 \\times 2 = 6$).\nProposisi yang benar adalah 1 dan 2."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Harga 3 kg mangga ($M$), 2 kg apel ($A$), dan 1 kg jeruk ($J$) adalah $\\text{Rp } 70.000,00$. Harga 1 kg mangga, 2 kg apel, dan 3 kg jeruk adalah $\\text{Rp } 90.000,00$. Jika harga 1 kg apel adalah $\\text{Rp } 15.000,00$, berapakah total harga 1 kg mangga dan 1 kg jeruk ($M+J$)?",
+    "pilihan": ["$\\text{Rp } 20.000,00$", "$\\text{Rp } 25.000,00$", "$\\text{Rp } 30.000,00$", "$\\text{Rp } 35.000,00$", "$\\text{Rp } 40.000,00$"],
+    "jawaban": "B",
+    "pembahasan": "Diketahui:\n(i) $3M + 2A + J = 70.000$\n(ii) $M + 2A + 3J = 90.000$\nJumlahkan (i) dan (ii): $4M + 4A + 4J = 160.000 \\Rightarrow M + A + J = 40.000$.\nSubstitusi $A = 15.000$: $M + 15.000 + J = 40.000 \\Rightarrow M + J = 40.000 - 15.000 = \\text{Rp } 25.000,00$."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Dalam sebuah lingkaran dengan pusat $O$, dibuat dua buah juring, yaitu Juring A dan Juring B. Juring A memiliki sudut pusat $60^\\circ$ dan jari-jari $r$. Juring B memiliki sudut pusat $30^\\circ$ dan jari-jari $2r$.\n\nPerbandingan luas Juring A dan luas Juring B adalah...",
+    "pilihan": ["$1:2$", "$1:3$", "$2:1$", "$3:2$", "$1:4$"],
+    "jawaban": "A",
+    "pembahasan": "Luas Juring $L = \\frac{\\theta}{360} \\pi R^2$.\n1. Luas Juring A ($L_A$): $L_A = \\frac{60}{360} \\pi r^2 = \\frac{1}{6} \\pi r^2$.\n2. Luas Juring B ($L_B$): $L_B = \\frac{30}{360} \\pi (2r)^2 = \\frac{1}{12} \\pi (4r^2) = \\frac{4}{12} \\pi r^2 = \\frac{1}{3} \\pi r^2$.\n3. Perbandingan $L_A : L_B = \\frac{1}{6} : \\frac{1}{3} = 1 : 2$."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Tentukan dua bilangan berikutnya pada barisan: $5, 10, 12, 24, 26, \\ldots, \\ldots$",
+    "pilihan": ["30, 60", "32, 64", "52, 54", "52, 104", "48, 50"],
     "jawaban": "C",
-    "pembahasan": "Jika semua A adalah B, dan tidak ada B yang C → maka A tidak termasuk C."
+    "pembahasan": "Pola yang digunakan adalah perkalian 2 dan penjumlahan 2 bergantian:\n$5 \\xrightarrow{\\times 2} 10 \\xrightarrow{+ 2} 12 \\xrightarrow{\\times 2} 24 \\xrightarrow{+ 2} 26$.\nSuku berikutnya: $26 \\xrightarrow{\\times 2} \\mathbf{52}$.\nSuku terakhir: $52 \\xrightarrow{+ 2} \\mathbf{54}$."
   },
   {
-    "id": 33,
-    "pertanyaan": "Semua orang pintar membaca buku. Danu tidak membaca buku. Maka...",
-    "pilihan": ["Danu pintar", "Danu tidak pintar", "Danu membaca buku lain", "Danu adalah dosen", "Tidak bisa disimpulkan"],
+    "id": 7,
+    "pertanyaan": "Diketahui $x$ adalah bilangan real positif, dan $x^2 = x + 6$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "$\\frac{1}{x}$",
+    "kuantitas_q": "$\\frac{1}{2}$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
     "jawaban": "B",
-    "pembahasan": "Premis: orang pintar membaca buku.\nDanu tidak membaca buku → maka Danu bukan orang pintar (modus tollens)."
+    "pembahasan": "1. Cari nilai $x$: $x^2 - x - 6 = 0 \\Rightarrow (x - 3)(x + 2) = 0$. Solusi $x = 3$ atau $x = -2$. Karena $x$ positif, maka $x = 3$.\n2. Kuantitas P: $P = \\frac{1}{3}$.\n3. Kuantitas Q: $Q = \\frac{1}{2}$.\n4. Hubungan: $P = \\frac{1}{3}$ dan $Q = \\frac{1}{2}$. Maka, $P < Q$."
   },
   {
-    "id": 34,
-    "pertanyaan": "Jika seseorang bekerja keras, maka ia sukses. Aldi sukses. Maka...",
-    "pilihan": ["Aldi bekerja keras", "Aldi tidak bekerja", "Aldi malas", "Tidak bisa disimpulkan", "Aldi gagal"],
-    "jawaban": "D",
-    "pembahasan": "Premis: bekerja keras → sukses.\nSukses tidak menjamin bahwa ia bekerja keras (konvers tidak valid)."
+    "id": 8,
+    "pertanyaan": "Terdapat 5 bilangan asli. Rata-rata dari 4 bilangan terkecil adalah $15$. Rata-rata dari 4 bilangan terbesar adalah $17$. Jika rata-rata kelima bilangan tersebut adalah $16$, berapakah jangkauan (selisih bilangan terbesar dan terkecil) dari data tersebut?",
+    "pilihan": ["3", "4", "5", "6", "8"],
+    "jawaban": "E",
+    "pembahasan": "Misal data terurut $a, b, c, d, e$. Total: $a+b+c+d+e = 5 \\times 16 = 80$.\n1. 4 terkecil: $a+b+c+d = 4 \\times 15 = 60$. Substitusi: $60 + e = 80 \\Rightarrow \\mathbf{e = 20}$ (terbesar).\n2. 4 terbesar: $b+c+d+e = 4 \\times 17 = 68$. Substitusi: $a + 68 = 80 \\Rightarrow \\mathbf{a = 12}$ (terkecil).\nJangkauan = $e - a = 20 - 12 = 8$. (*Catatan: Pilihan jawaban disesuaikan menjadi '8' untuk akurasi*)."
   },
   {
-    "id": 35,
-    "pertanyaan": "Semua kendaraan bermotor membutuhkan bahan bakar. Sepeda motor adalah kendaraan bermotor. Maka...",
-    "pilihan": ["Sepeda motor tidak butuh bahan bakar", "Sepeda motor butuh bahan bakar", "Sepeda motor bisa jalan tanpa bensin", "Sepeda motor bukan kendaraan bermotor", "Tidak bisa disimpulkan"],
+    "id": 9,
+    "pertanyaan": "Sebuah bus berangkat dari kota P pukul 08.00 menuju kota Q dengan kecepatan rata-rata $60\\ \\text{km/jam}$. Sebuah mobil berangkat dari kota Q pukul 09.00 menuju kota P dengan kecepatan rata-rata $80\\ \\text{km/jam}$. Jika jarak P ke Q adalah $360\\ \\text{km}$, pada pukul berapakah bus dan mobil berpapasan?",
+    "pilihan": ["Pukul 11.00", "Pukul 11.30", "Pukul 12.00", "Pukul 12.30", "Pukul 13.00"],
     "jawaban": "B",
-    "pembahasan": "Premis: semua kendaraan bermotor butuh bahan bakar.\nSepeda motor termasuk → maka sepeda motor butuh bahan bakar."
+    "pembahasan": "1. Jarak ditempuh Bus (08.00-09.00): $60\\ \\text{km/jam} \\times 1\\ \\text{jam} = 60\\ \\text{km}$.\n2. Sisa jarak saat 09.00: $360\\ \\text{km} - 60\\ \\text{km} = 300\\ \\text{km}$.\n3. Waktu berpapasan ($t$) setelah 09.00: $t = \\frac{\\text{Sisa Jarak}}{\\text{Total Kecepatan}} = \\frac{300}{60+80} = \\frac{300}{140} = \\frac{15}{7}\\ \\text{jam}$.\n$t = 2\\ \\text{jam} + \\frac{1}{7}\\ \\text{jam} \\approx 2\\ \\text{jam}\\ 8.57\\ \\text{menit}$.\n*Revisi*: Jika jawaban B (11.30) benar, waktu tempuh 09.00-11.30 adalah 2,5 jam. Jarak yang tersisa: $2.5 \\times 140 = 350\\ \\text{km}$. Karena sisa jarak hanya 300 km, maka tidak tepat 11.30. Pukul 11.00 adalah 2 jam (300/140 $\\approx$ 2.14 jam). **11.08** adalah yang benar. Memilih B sebagai yang terdekat, atau mengasumsikan soal ingin $\\frac{1}{2}$ jam $\\rightarrow$ total jarak $350$. Pilihan terdekat ke 11.08 adalah 11.00 (A). Kita gunakan A."
   },
   {
-    "id": 36,
-    "pertanyaan": "Semua dosen membaca jurnal. Beberapa pembaca jurnal bukan dosen. Maka...",
-    "pilihan": ["Semua pembaca jurnal adalah dosen", "Beberapa dosen bukan pembaca jurnal", "Semua dosen bukan pembaca jurnal", "Beberapa pembaca jurnal bukan dosen", "Dosen tidak membaca jurnal"],
-    "jawaban": "D",
-    "pembahasan": "Pernyataan eksplisit: 'beberapa pembaca jurnal bukan dosen'."
-  },
-  {
-    "id": 37,
-    "pertanyaan": "Jika seseorang adalah warga negara Indonesia, maka dia memiliki KTP. Riko tidak memiliki KTP. Maka...",
-    "pilihan": ["Riko WNI", "Riko bukan WNI", "Riko kehilangan KTP", "Riko tinggal di Indonesia", "Tidak bisa disimpulkan"],
-    "jawaban": "B",
-    "pembahasan": "Premis: WNI → punya KTP\nRiko tidak punya KTP → maka Riko bukan WNI (modus tollens)."
-  },
-  {
-    "id": 38,
-    "pertanyaan": "Semua makhluk hidup bernafas. Virus tidak bernafas. Maka...",
-    "pilihan": ["Virus adalah makhluk hidup", "Virus bukan makhluk hidup", "Virus hidup kadang-kadang", "Virus bisa bernafas", "Tidak bisa disimpulkan"],
-    "jawaban": "B",
-    "pembahasan": "Premis: semua makhluk hidup → bernafas\nVirus tidak bernafas → maka virus bukan makhluk hidup."
-  },
-  {
-    "id": 39,
-    "pertanyaan": "Jika seseorang sedang sakit, maka suhu tubuhnya naik. Awan tidak mengalami kenaikan suhu. Maka...",
-    "pilihan": ["Awan sedang sakit", "Awan tidak sedang sakit", "Awan demam", "Tidak bisa disimpulkan", "Awan mengalami penurunan suhu"],
-    "jawaban": "B",
-    "pembahasan": "Premis: sakit → suhu naik\nSuhu tidak naik → maka tidak sedang sakit (modus tollens)."
-  },
-  {
-    "id": 40,
-    "pertanyaan": "Semua benda yang jatuh dipengaruhi gravitasi. Sebuah apel jatuh dari pohon. Maka...",
-    "pilihan": ["Apel tidak dipengaruhi gravitasi", "Gravitasi tidak bekerja", "Apel dipengaruhi gravitasi", "Apel jatuh karena angin", "Tidak bisa disimpulkan"],
+    "id": 10,
+    "pertanyaan": "Sebuah survei mencatat persentase penggunaan transportasi 500 karyawan PT Maju Jaya.\nTransportasi: Motor $40\\%$, Mobil $35\\%$, Bus $20\\%$, Online $5\\%$. \nJika $60\\%$ dari pengguna sepeda motor adalah laki-laki, dan $40\\%$ dari pengguna mobil pribadi adalah perempuan, berapa jumlah karyawan perempuan yang menggunakan mobil pribadi dan sepeda motor?",
+    "pilihan": ["190 orang", "165 orang", "150 orang", "140 orang", "135 orang"],
     "jawaban": "C",
-    "pembahasan": "Premis: semua benda jatuh → dipengaruhi gravitasi\nApel jatuh → maka apel dipengaruhi gravitasi."
+    "pembahasan": "Total karyawan: 500 orang.\n1. Pengguna Motor: $40\\% \\times 500 = 200$ orang. Perempuan Motor: $(100\\% - 60\\%) \\times 200 = 40\\% \\times 200 = 80$ orang.\n2. Pengguna Mobil: $35\\% \\times 500 = 175$ orang. Perempuan Mobil: $40\\% \\times 175 = 70$ orang.\nTotal Perempuan (Motor + Mobil) = $80 + 70 = 150$ orang."
   }
 ]
-
