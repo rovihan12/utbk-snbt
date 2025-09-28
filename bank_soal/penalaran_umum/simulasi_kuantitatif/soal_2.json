@@ -1,73 +1,84 @@
 [
   {
-    "id": 11,
-    "pertanyaan": "Semua dokter adalah manusia. Beberapa manusia adalah perokok. Maka dapat disimpulkan bahwa...",
-    "pilihan": ["Semua dokter adalah perokok", "Beberapa dokter adalah perokok", "Semua manusia adalah dokter", "Beberapa dokter mungkin perokok", "Dokter bukan perokok"],
+    "id": 1,
+    "pertanyaan": "Dua buah bilangan bulat positif, $a$ dan $b$, memenuhi persamaan $2a - 3b = 7$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "Nilai terkecil dari $a$",
+    "kuantitas_q": "Nilai terbesar dari $b$",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_093158_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = 2Q"],
     "jawaban": "D",
-    "pembahasan": "Tidak ada hubungan langsung antara dokter dan perokok. Namun, karena dokter adalah manusia, maka mungkin saja termasuk dalam kelompok manusia yang perokok."
+    "pembahasan": "1. Kuantitas P ($a$ terkecil): Karena $a$ dan $b$ bilangan bulat positif, ambil $b$ minimum ($b=1$). $2a - 3(1) = 7 \\Rightarrow 2a = 10 \\Rightarrow a = 5$. Jadi, $P = 5$.\n2. Kuantitas Q ($b$ terbesar): Dari $2a = 7 + 3b$, nilai $a$ dapat terus diperbesar (misalnya $a=8, 11, 14, \\ldots$). Karena tidak ada batasan maksimum yang diberikan pada $a$, nilai $b$ juga tidak memiliki batas atas. Oleh karena itu, $Q$ tidak dapat ditentukan secara unik.\n3. Hubungan: Karena salah satu kuantitas tidak dapat ditentukan secara unik, hubungan P dan Q tidak dapat ditentukan."
   },
   {
-    "id": 12,
-    "pertanyaan": "Semua A adalah B. Semua B adalah C. Maka...",
-    "pilihan": ["Semua C adalah A", "Semua A adalah C", "Semua C adalah B", "Beberapa C adalah A", "Tidak dapat disimpulkan"],
-    "jawaban": "B",
-    "pembahasan": "Jika semua A adalah B dan semua B adalah C, maka semua A juga adalah C (logika transitif)."
-  },
-  {
-    "id": 13,
-    "pertanyaan": "Jika hari ini hujan, maka jalanan licin. Hari ini tidak hujan. Maka...",
-    "pilihan": ["Jalanan tidak licin", "Jalanan tetap licin", "Tidak dapat disimpulkan", "Hari ini panas", "Jalanan pasti kering"],
+    "id": 2,
+    "pertanyaan": "Tentukan bilangan berikutnya pada barisan: $1, 1, 2, 3, 5, 8, 13, \\ldots$",
+    "pilihan": ["18", "20", "21", "24", "26"],
     "jawaban": "C",
-    "pembahasan": "Premis hanya menyatakan 'jika hujan maka licin'. Tidak hujan belum tentu artinya tidak licin (bisa licin karena hal lain)."
+    "pembahasan": "Barisan tersebut adalah Barisan Fibonacci, di mana setiap suku adalah penjumlahan dari dua suku sebelumnya. Suku berikutnya adalah $8 + 13 = 21$."
   },
   {
-    "id": 14,
-    "pertanyaan": "Jika seseorang rajin belajar, maka dia akan lulus. Budi tidak lulus. Maka...",
-    "pilihan": ["Budi tidak rajin belajar", "Budi rajin belajar", "Budi lulus dengan nilai jelek", "Budi tidak ikut ujian", "Tidak bisa disimpulkan"],
+    "id": 3,
+    "pertanyaan": "Apakah $x^2 > 9$?\n\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) $x$ adalah bilangan bulat negatif.\n(2) $x + 2 < 0$",
+    "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
+    "jawaban": "E",
+    "pembahasan": "Pertanyaan: Apakah $x > 3$ atau $x < -3$?\n1. Cek (1) SAJA: $x = -1, -2, -3, \\ldots$. Jika $x = -2$, $x^2 = 4$ (TIDAK). Jika $x = -4$, $x^2 = 16$ (YA). (Tidak Cukup)\n2. Cek (2) SAJA: $x < -2$. Jika $x = -2.5$, $x^2 = 6.25$ (TIDAK). Jika $x = -4$, $x^2 = 16$ (YA). (Tidak Cukup)\n3. Cek (1) dan (2) BERSAMA-SAMA: $x$ adalah bilangan bulat negatif dan $x < -2$. Maka $x = -3, -4, -5, \\ldots$. Jika $x = -3$, $x^2 = 9$ (TIDAK, karena $9 \\ngtr 9$). Jika $x = -4$, $x^2 = 16$ (YA). (Tidak Cukup)"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Sebuah proyek pembangunan diselesaikan oleh 15 pekerja dalam waktu 30 hari. Setelah 10 hari berjalan, proyek dihentikan selama 5 hari.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Jumlah pekerja tambahan yang dibutuhkan agar proyek selesai tepat waktu",
+    "kuantitas_q": "5 orang",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_093918_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
+    "jawaban": "C",
+    "pembahasan": "1. Total pekerjaan: $15 \\text{ pekerja} \\times 30 \\text{ hari} = 450 \\text{ pekerjaan-hari}$.\n2. Pekerjaan selesai 10 hari: $15 \\times 10 = 150 \\text{ pekerjaan-hari}$.\n3. Sisa pekerjaan: $450 - 150 = 300 \\text{ pekerjaan-hari}$.\n4. Sisa waktu efektif: $30 - 10 - 5 = 15 \\text{ hari}$.\n5. Total pekerja yang dibutuhkan: $\\frac{300}{15} = 20 \\text{ pekerja}$.\n6. Kuantitas P (Pekerja tambahan): $20 - 15 = 5 \\text{ orang}$.\n7. Hubungan: $P = 5$ dan $Q = 5$. Maka, $P = Q$."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Kelas A memiliki 30 siswa dengan rata-rata nilai ujian $80$. Kelas B memiliki 20 siswa dengan rata-rata nilai ujian $90$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Rata-rata gabungan nilai ujian Kelas A dan Kelas B",
+    "kuantitas_q": "85",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_093918_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
+    "jawaban": "B",
+    "pembahasan": "1. Kuantitas P (Rata-rata Gabungan): $P = \\frac{(30 \\times 80) + (20 \\times 90)}{30 + 20} = \\frac{2400 + 1800}{50} = \\frac{4200}{50} = 84$.\n2. Hubungan: $P = 84$ dan $Q = 85$. Maka, $P < Q$."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Dalam pemilihan pengurus organisasi, terdapat 5 calon laki-laki dan 4 calon perempuan. Jika akan dipilih 3 orang pengurus yang terdiri dari 2 laki-laki dan 1 perempuan, berapa banyak cara pemilihan yang mungkin?",
+    "pilihan": ["30", "40", "50", "60", "70"],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan kombinasi:\n1. Memilih 2 Laki-laki dari 5: $C(5, 2) = \\frac{5!}{2!3!} = 10$ cara.\n2. Memilih 1 Perempuan dari 4: $C(4, 1) = 4$ cara.\nTotal cara: $10 \\times 4 = 40$ cara."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Sebuah wadah berbentuk kerucut memiliki jari-jari alas $r$ dan tinggi $t$. Volume wadah tersebut adalah $V$. Jika jari-jari alasnya dijadikan $2r$ dan tingginya dijadikan $t/2$, volume wadah yang baru adalah $V'$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Perbandingan $V'$ terhadap $V$",
+    "kuantitas_q": "2",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_094335_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
+    "jawaban": "C",
+    "pembahasan": "Volume Awal $V = \\frac{1}{3} \\pi r^2 t$. Volume Baru $V' = \\frac{1}{3} \\pi (2r)^2 (t/2) = \\frac{1}{3} \\pi (4r^2) (t/2) = 2 \\cdot (\\frac{1}{3} \\pi r^2 t) = 2V$. \nKuantitas P: $P = \\frac{V'}{V} = 2$. Kuantitas Q: $Q = 2$. Maka, $P = Q$."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Tono dan Tini bersepeda dari titik yang sama. Tono bergerak ke utara dengan kecepatan $12\\ \\text{km/jam}$, dan Tini bergerak ke timur dengan kecepatan $5\\ \\text{km/jam}$.\n\nBerapakah jarak antara Tono dan Tini setelah 2 jam?",
+    "pilihan": ["$26\\ \\text{km}$", "$29\\ \\text{km}$", "$34\\ \\text{km}$", "$36\\ \\text{km}$", "$39\\ \\text{km}$"],
     "jawaban": "A",
-    "pembahasan": "Premis: rajin → lulus\nBudi tidak lulus → maka Budi tidak rajin belajar (modus tollens)."
+    "pembahasan": "Pergerakan ke utara dan timur membentuk segitiga siku-siku.\n1. Jarak Tono ($J_T$): $12\\ \\text{km/jam} \\times 2\\ \\text{jam} = 24\\ \\text{km}$.\n2. Jarak Tini ($J_i$): $5\\ \\text{km/jam} \\times 2\\ \\text{jam} = 10\\ \\text{km}$.\n3. Jarak antara keduanya ($c$): $c = \\sqrt{J_T^2 + J_i^2} = \\sqrt{24^2 + 10^2} = \\sqrt{576 + 100} = \\sqrt{676} = 26\\ \\text{km}$."
   },
   {
-    "id": 15,
-    "pertanyaan": "Tidak semua binatang berkaki empat adalah mamalia. Kadal adalah binatang berkaki empat. Maka...",
-    "pilihan": ["Kadal adalah mamalia", "Kadal bukan mamalia", "Kadal pasti mamalia", "Tidak dapat disimpulkan", "Semua kadal mamalia"],
-    "jawaban": "D",
-    "pembahasan": "Premis menyatakan 'tidak semua' → artinya ada yang ya, ada yang tidak. Maka status kadal tidak bisa disimpulkan hanya dari itu."
+    "id": 9,
+    "pertanyaan": "Sebuah persegi dengan panjang sisi $s$ memiliki keliling $K$ dan luas $L$. Jika panjang sisi persegi ditingkatkan $25\\%$, maka persentase peningkatan luasnya adalah...",
+    "pilihan": ["$25\\%$", "$50\\%$", "$56.25\\%$", "$62.5\\%$", "$75\\%$"],
+    "jawaban": "C",
+    "pembahasan": "1. Sisi baru $s_{baru} = s(1 + 0.25) = 1.25s$.\n2. Luas baru $L_{baru} = (1.25s)^2 = 1.5625s^2$.\n3. Peningkatan Luas: $1.5625s^2 - s^2 = 0.5625s^2$.\n4. Persentase peningkatan: $\\frac{0.5625s^2}{s^2} \\times 100\\% = 56.25\\%$."
   },
   {
-    "id": 16,
-    "pertanyaan": "Semua makhluk hidup membutuhkan air. Batu tidak membutuhkan air. Maka...",
-    "pilihan": ["Batu adalah makhluk hidup", "Batu bukan makhluk hidup", "Batu bisa minum", "Batu hidup", "Tidak bisa disimpulkan"],
+    "id": 10,
+    "pertanyaan": "Jika $A, B, C$ adalah bilangan bulat positif yang berbeda, dan memenuhi $A^2 + B^2 = C^2$. Tentukan hubungan yang pasti benar.",
+    "pilihan": ["C selalu bilangan ganjil.", "Salah satu dari $A$ atau $B$ haruslah bilangan genap.", "$A$ dan $B$ harus bilangan ganjil.", "$C$ tidak mungkin bilangan prima.", "$A+B$ selalu genap."],
     "jawaban": "B",
-    "pembahasan": "Premis menyatakan: semua makhluk hidup butuh air.\nBatu tidak butuh air → maka batu bukan makhluk hidup (modus tollens)."
-  },
-  {
-    "id": 17,
-    "pertanyaan": "Jika semua X adalah Y dan semua Y adalah Z, maka yang pasti benar adalah...",
-    "pilihan": ["Semua Z adalah X", "Semua X adalah Z", "Semua Y adalah X", "Semua Z adalah Y", "Beberapa Z adalah X"],
-    "jawaban": "B",
-    "pembahasan": "Logika transitif: Semua X → Y, Y → Z → maka Semua X → Z."
-  },
-  {
-    "id": 18,
-    "pertanyaan": "Jika hanya guru yang boleh masuk ruang guru, dan Anton ada di ruang guru, maka...",
-    "pilihan": ["Anton adalah guru", "Anton bukan guru", "Anton menyusup", "Anton dihukum", "Tidak bisa disimpulkan"],
-    "jawaban": "A",
-    "pembahasan": "Premis: hanya guru boleh masuk ruang guru.\nAnton berada di ruang guru → maka Anton adalah guru."
-  },
-  {
-    "id": 19,
-    "pertanyaan": "Semua buah mengandung air. Apel adalah buah. Maka...",
-    "pilihan": ["Apel tidak mengandung air", "Apel mengandung air", "Apel adalah sayur", "Apel kering", "Tidak bisa disimpulkan"],
-    "jawaban": "B",
-    "pembahasan": "Premis: semua buah mengandung air.\nApel adalah buah → maka apel mengandung air."
-  },
-  {
-    "id": 20,
-    "pertanyaan": "Jika seseorang tinggal di Jakarta, maka dia tinggal di Indonesia. Rani tinggal di Indonesia. Maka...",
-    "pilihan": ["Rani tinggal di Jakarta", "Rani tidak tinggal di Jakarta", "Rani tinggal di luar negeri", "Tidak dapat disimpulkan", "Rani tinggal di Asia"],
-    "jawaban": "D",
-    "pembahasan": "Premis hanya menyatakan bahwa tinggal di Jakarta → tinggal di Indonesia.\nRani tinggal di Indonesia tidak menjamin dia tinggal di Jakarta (konvers tidak berlaku)."
+    "pembahasan": "Persamaan $A^2 + B^2 = C^2$ adalah Triple Pythagoras. Dalam semua Triple Pythagoras primitif (terkecil), salah satu dari dua kaki (A atau B) selalu genap dan yang lainnya ganjil. Jika A dan B keduanya ganjil, maka $A^2 + B^2 = \\text{ganjil} + \\text{ganjil} = \\text{genap}$. $C$ akan genap. Namun, kuadrat dari bilangan genap yang dihasilkan oleh penjumlahan dua kuadrat bilangan ganjil tidak mungkin habis dibagi 4, yang merupakan syarat bagi kuadrat bilangan genap. Oleh karena itu, tidak mungkin $A$ dan $B$ keduanya ganjil. Jadi, salah satu dari $A$ atau $B$ haruslah genap."
   }
 ]
-
