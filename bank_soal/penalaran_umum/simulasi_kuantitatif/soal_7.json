@@ -1,73 +1,78 @@
 [
   {
-    "id": 61,
-    "pertanyaan": "Jika semua pelukis bisa menggambar, dan Andi tidak bisa menggambar, maka...",
-    "pilihan": ["Andi adalah pelukis", "Andi bukan pelukis", "Andi sedang menggambar", "Andi suka seni", "Tidak bisa disimpulkan"],
-    "jawaban": "B",
-    "pembahasan": "Premis: semua pelukis → bisa menggambar\nAndi tidak bisa menggambar → maka Andi bukan pelukis (modus tollens)."
+    "id": 1,
+    "pertanyaan": "Diketahui $x$ dan $y$ adalah bilangan bulat positif.\nJika $x = 2y - 1$ dan $y = 5$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "$\\frac{x^2}{4}$",
+    "kuantitas_q": "$3y + 1$",
+"gambar" :"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_112753_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = Q + 5"],
+    "jawaban": "A",
+    "pembahasan": "1. Hitung $x$ dan $y$: $y=5$. $x = 2(5) - 1 = 9$.\n2. Kuantitas P: $P = \\frac{9^2}{4} = \\frac{81}{4} = 20.25$.\n3. Kuantitas Q: $Q = 3(5) + 1 = 16$.\n4. Hubungan: $20.25 > 16$. Maka, $\\mathbf{P > Q}$."
   },
   {
-    "id": 62,
-    "pertanyaan": "Semua makhluk hidup membutuhkan makanan. Tumbuhan adalah makhluk hidup. Maka...",
-    "pilihan": ["Tumbuhan tidak butuh makanan", "Tumbuhan menghasilkan makanan", "Tumbuhan membutuhkan makanan", "Tumbuhan hidup tanpa nutrisi", "Tidak bisa disimpulkan"],
+    "id": 2,
+    "pertanyaan": "Sebuah kolam dapat diisi penuh oleh selang A dalam 6 jam dan oleh selang B dalam 4 jam. Jika kedua selang digunakan bersamaan untuk mengisi kolam tersebut, tetapi selang B baru dihidupkan setelah selang A bekerja selama 1 jam, berapa lama waktu total yang dibutuhkan (sejak selang A mulai bekerja) hingga kolam terisi penuh?",
+    "pilihan": ["2 jam 30 menit", "2 jam 48 menit", "3 jam 0 menit", "3 jam 12 menit", "3 jam 20 menit"],
     "jawaban": "C",
-    "pembahasan": "Premis: semua makhluk hidup → butuh makanan\nTumbuhan adalah makhluk hidup → maka tumbuhan membutuhkan makanan."
+    "pembahasan": "1. Debit A: $1/6$ per jam; Debit B: $1/4$ per jam.\n2. Kerja A (1 jam): $1 \\times 1/6 = 1/6$ bagian. Sisa: $5/6$.\n3. Debit Gabungan: $1/6 + 1/4 = 5/12$ per jam.\n4. Waktu bersama: $t = (5/6) / (5/12) = 2$ jam.\n5. Waktu Total: $1$ jam $+ 2$ jam $=\\mathbf{3}$ jam."
   },
   {
-    "id": 63,
-    "pertanyaan": "Jika hujan turun, maka jalanan basah. Sekarang jalanan tidak basah. Maka...",
-    "pilihan": ["Hujan turun", "Tidak hujan", "Jalan rusak", "Jalan dibersihkan", "Tidak bisa disimpulkan"],
+    "id": 3,
+    "pertanyaan": "Dalam sebuah kelas, 75% siswa menyukai matematika (M), dan 50% siswa menyukai fisika (F).\n\nJika $x$ adalah persentase minimum siswa yang menyukai kedua pelajaran (M dan F), dan $y$ adalah persentase maksimum siswa yang tidak menyukai kedua pelajaran. Tentukan nilai dari $x + y$.",
+    "pilihan": ["50\\%", "75\\%", "80\\%", "100\\%", "125\\%"],
+    "jawaban": "A",
+    "pembahasan": "1. $x$ (Irisan Minimum): $x = P(M) + P(F) - 100\\% = 75\\% + 50\\% - 100\\% = 25\\%$.\n2. $y$ (Komplemen Maksimum): Terjadi saat Gabungan Minimum, yaitu $\\max(75\\%, 50\\%) = 75\\%$. $y = 100\\% - 75\\% = 25\\%$.\n3. Nilai $x + y$: $25\\% + 25\\% = \\mathbf{50\\%}$."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Tentukan nilai dari suku ke-8 ($U_8$) pada barisan bilangan: $1, 3, 7, 13, 21, \\ldots$",
+    "pilihan": ["31", "42", "57", "63", "73"],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah barisan aritmatika bertingkat dua dengan selisih tingkat 1: $+2, +4, +6, +8, \\ldots$ (berpola $+2$).\n$U_5 = 21$.\n$U_6 = 21 + 10 = 31$.\n$U_7 = 31 + 12 = 43$.\n$U_8 = 43 + 14 = \\mathbf{57}$."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Diketahui $A$ adalah 20% dari $B$, dan $B$ adalah 50% dari $C$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "$\\frac{A}{C}$",
+    "kuantitas_q": "$10\\%$",
+"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_113206_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = Q + 0.1"],
+    "jawaban": "C",
+    "pembahasan": "1. Hubungan: $A = 0.20B$ dan $B = 0.50C$. \n2. Substitusi: $A = 0.20 \\times (0.50C) = 0.10C$. \n3. Kuantitas P: $P = \\frac{A}{C} = 0.10$. \n4. Kuantitas Q: $Q = 10\\% = 0.10$. \n5. Hubungan: $\\mathbf{P = Q}$."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Diketahui data terdiri dari lima bilangan bulat positif yang berbeda, $a, b, c, d, e$.\n\nApakah median dari data tersebut adalah $c$?\n(1) $a < b < d < e$.\n(2) $b < c < d$.",
+    "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
     "jawaban": "B",
-    "pembahasan": "Premis: hujan → jalanan basah\nJalan tidak basah → maka tidak hujan (modus tollens)."
+    "pembahasan": "Median dari 5 bilangan berbeda adalah suku ke-3.\n(1) Tidak Cukup, karena posisi $c$ terhadap $a, b, d, e$ belum pasti.\n(2) Cukup. Karena $b < c < d$, maka $c$ pasti berada di antara $b$ dan $d$. Dari 5 bilangan, harus ada 2 yang lebih kecil ($a$ dan $b$) dan 2 yang lebih besar ($d$ dan $e$). Karena $b < c < d$, maka $c$ pasti median."
   },
   {
-    "id": 64,
-    "pertanyaan": "Semua mahasiswa wajib mengerjakan skripsi. Lala bukan mahasiswa. Maka...",
-    "pilihan": ["Lala wajib skripsi", "Lala tidak wajib skripsi", "Lala sedang skripsi", "Tidak bisa disimpulkan", "Lala lulusan S2"],
+    "id": 7,
+    "pertanyaan": "Harga normal sebuah tas adalah $\\text{Rp } 600.000,00$. Jika tas tersebut mendapat diskon 30% diikuti diskon tambahan 10% (dari harga setelah diskon pertama).\n\nBerapakah harga tas setelah diskon ganda tersebut?",
+    "pilihan": ["$\\text{Rp } 378.000,00$", "$\\text{Rp } 400.000,00$", "$\\text{Rp } 420.000,00$", "$\\text{Rp } 440.000,00$", "$\\text{Rp } 480.000,00$"],
+    "jawaban": "A",
+    "pembahasan": "Harga Akhir $= 600.000 \\times (1 - 0.30) \\times (1 - 0.10)$\n$= 600.000 \\times 0.70 \\times 0.90$\n$= 600.000 \\times 0.63 = \\mathbf{\\text{Rp } 378.000,00}$."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Diketahui $a, b, c$ adalah bilangan bulat positif.\n$a + 2b + c = 12$\n$a + b + 2c = 15$\n\nTentukan nilai dari $c - b$.",
+    "pilihan": ["-3", "-1", "1", "3", "5"],
     "jawaban": "D",
-    "pembahasan": "Premis hanya berlaku untuk mahasiswa. Lala bukan mahasiswa, jadi tidak bisa disimpulkan apakah wajib atau tidak."
+    "pembahasan": "Kurangi Persamaan (1) dari Persamaan (2):\n$(a + b + 2c) - (a + 2b + c) = 15 - 12$\n$a - a + b - 2b + 2c - c = 3$\n$-b + c = 3$\n$\\mathbf{c - b = 3}$."
   },
   {
-    "id": 65,
-    "pertanyaan": "Jika seseorang adalah programmer, maka dia bisa mengetik cepat. Yoga mengetik sangat lambat. Maka...",
-    "pilihan": ["Yoga bukan programmer", "Yoga programmer pemula", "Yoga sedang lelah", "Tidak bisa disimpulkan", "Yoga juru ketik"],
+    "id": 9,
+    "pertanyaan": "Sebuah persegi panjang memiliki keliling $K$ dan luas $L$.\n\nJika $K=36\\ \\text{cm}$ dan $L=72\\ \\text{cm}^2$. Tentukan panjang sisi terpanjang persegi panjang tersebut.",
+    "pilihan": ["$12\\ \\text{cm}$", "$15\\ \\text{cm}$", "$18\\ \\text{cm}$", "$20\\ \\text{cm}$", "$24\\ \\text{cm}$"],
     "jawaban": "A",
-    "pembahasan": "Premis: programmer → mengetik cepat\nYoga tidak bisa mengetik cepat → maka bukan programmer (modus tollens)."
+    "pembahasan": "1. Keliling $2(p+l) = 36 \\Rightarrow p+l = 18$.\n2. Luas $p \\cdot l = 72$.\n3. Cari $p$ dan $l$: $x^2 - 18x + 72 = 0 \\Rightarrow (x-12)(x-6)=0$.\nSisi-sisi adalah 12 cm dan 6 cm. Sisi terpanjang adalah $\\mathbf{12\\ \\text{cm}}$."
   },
   {
-    "id": 66,
-    "pertanyaan": "Semua serangga memiliki enam kaki. Semut adalah serangga. Maka...",
-    "pilihan": ["Semut memiliki enam kaki", "Semut tidak berkaki", "Semut bukan serangga", "Tidak bisa disimpulkan", "Semut memiliki empat kaki"],
-    "jawaban": "A",
-    "pembahasan": "Premis: semua serangga → 6 kaki\nSemut adalah serangga → maka semut punya 6 kaki."
-  },
-  {
-    "id": 67,
-    "pertanyaan": "Jika Ani membaca buku, maka ia memperluas wawasan. Ani tidak memperluas wawasannya. Maka...",
-    "pilihan": ["Ani tidak membaca buku", "Ani membaca buku", "Ani menonton video", "Tidak bisa disimpulkan", "Ani belajar di luar"],
-    "jawaban": "A",
-    "pembahasan": "Premis: membaca buku → memperluas wawasan\nAni tidak memperluas wawasan → maka Ani tidak membaca buku (modus tollens)."
-  },
-  {
-    "id": 68,
-    "pertanyaan": "Semua burung bisa terbang. Penguin adalah burung. Maka...",
-    "pilihan": ["Penguin bisa terbang", "Penguin tidak bisa terbang", "Tidak bisa disimpulkan", "Penguin bukan burung", "Penguin mamalia"],
-    "jawaban": "C",
-    "pembahasan": "Premis salah secara fakta. Tidak semua burung bisa terbang, sehingga kesimpulan tidak valid. Tidak bisa disimpulkan hanya dari pernyataan tersebut."
-  },
-  {
-    "id": 69,
-    "pertanyaan": "Semua planet mengelilingi matahari. Bumi adalah planet. Maka...",
-    "pilihan": ["Bumi tidak mengelilingi matahari", "Bumi mengelilingi matahari", "Bumi bukan planet", "Tidak bisa disimpulkan", "Matahari mengelilingi bumi"],
-    "jawaban": "B",
-    "pembahasan": "Premis: semua planet → mengelilingi matahari\nBumi adalah planet → maka Bumi mengelilingi matahari."
-  },
-  {
-    "id": 70,
-    "pertanyaan": "Jika seseorang mencintai binatang, maka dia tidak akan menyakiti mereka. Toni menyakiti binatang. Maka...",
-    "pilihan": ["Toni mencintai binatang", "Toni tidak mencintai binatang", "Toni bermain dengan binatang", "Tidak bisa disimpulkan", "Toni menyayangi binatang"],
-    "jawaban": "B",
-    "pembahasan": "Premis: mencintai binatang → tidak menyakiti\nToni menyakiti → maka Toni tidak mencintai binatang (modus tollens)."
+    "id": 10,
+    "pertanyaan": "Operasi $\\otimes$ didefinisikan sebagai $a \\otimes b = a^2 + b$.\n\nTentukan nilai dari $2 \\otimes (3 \\otimes 1)$.",
+    "pilihan": ["4", "5", "7", "8", "14"],
+    "jawaban": "E",
+    "pembahasan": "1. Hitung bagian dalam $3 \\otimes 1$: $3^2 + 1 = 10$.\n2. Hitung $2 \\otimes 10$: $2^2 + 10 = 4 + 10 = \\mathbf{14}$."
   }
 ]
-
