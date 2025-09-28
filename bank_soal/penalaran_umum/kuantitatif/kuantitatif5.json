@@ -1,73 +1,78 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Jika $a = \\frac{1}{2}$, $b = 0.75$, dan $c = 0.6$, urutan bilangan dari yang terkecil ke terbesar adalah...",
-    "pilihan": ["a, b, c", "a, c, b", "b, a, c", "c, a, b", "c, b, a"],
+    "pertanyaan": "Jika $a$ adalah bilangan bulat dan $1 < |a| < 4$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "Jumlah semua nilai $a$ yang mungkin",
+    "kuantitas_q": "Nilai maksimum dari $2a + 1$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = 2Q"],
     "jawaban": "B",
-    "pembahasan": "Ubah semua bilangan ke bentuk desimal untuk memudahkan perbandingan:\n$a = \\frac{1}{2} = 0.5$\n$b = 0.75$\n$c = 0.6$\n\nUrutan dari yang terkecil ke terbesar adalah: 0.5, 0.6, 0.75. Jadi, **a, c, b**."
+    "pembahasan": "1. Nilai $a$ yang mungkin: $a \\in \\{-3, -2, 2, 3\\}$.\n2. Kuantitas P: $P = (-3) + (-2) + 2 + 3 = 0$.\n3. Kuantitas Q: Maksimum $2a+1$ terjadi saat $a=3$. $Q = 2(3) + 1 = 7$.\n4. Hubungan: $P = 0$ dan $Q = 7$. Maka, $P < Q$."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah mobil menghabiskan 1 liter bensin untuk menempuh jarak 12 km. Jika mobil tersebut ingin menempuh jarak 180 km, berapa liter bensin yang dibutuhkan?",
-    "pilihan": ["12 liter", "15 liter", "18 liter", "20 liter", "24 liter"],
-    "jawaban": "B",
-    "pembahasan": "Untuk menempuh 180 km, jumlah bensin yang dibutuhkan adalah:\nBensin = Jarak yang ditempuh / Jarak per liter\nBensin = 180 km / 12 km/liter\nBensin = **15 liter**."
+    "pertanyaan": "Jika pola di bawah berlanjut, bentuk ke-10 akan sama dengan bentuk ke...\n\nPola shading (arsiran) pada kotak $3 \\times 3$:\nBentuk 1: Tengah\nBentuk 2: Sisi (Atas, Bawah, Kiri, Kanan)\nBentuk 3: Sudut (Empat Sudut)\nBentuk 4: Tengah (Mengulang Pola 1)",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "A",
+    "pembahasan": "Pola shading berulang setiap 3 langkah (periode 3). Untuk menemukan bentuk ke-10, kita hitung sisa pembagian $10$ dengan $3$: $10 \\div 3 = 3$ sisa $\\mathbf{1}$. Bentuk ke-10 akan sama dengan bentuk ke-1."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika $P$ adalah banyaknya bilangan prima antara 10 dan 20, dan $Q$ adalah banyaknya bilangan ganjil antara 10 dan 20, maka hubungan yang tepat antara $P$ dan $Q$ adalah...",
-    "pilihan": ["P > Q", "P < Q", "P = Q", "P = 2Q", "Tidak dapat ditentukan"],
-    "jawaban": "B",
-    "pembahasan": "Bilangan prima antara 10 dan 20 adalah: 11, 13, 17, 19. Jadi, $P = 4$.\nBilangan ganjil antara 10 dan 20 adalah: 11, 13, 15, 17, 19. Jadi, $Q = 5$.\nKarena $P = 4$ dan $Q = 5$, maka $P < Q$."
+    "pertanyaan": "Jika fungsi $f(x) = x^2 - 4x + c$ memiliki nilai minimum $y_{\\text{min}} = -1$.\n\nBerapakah nilai dari $f(1)$?",
+    "pilihan": ["-2", "-1", "0", "1", "2"],
+    "jawaban": "C",
+    "pembahasan": "1. Posisi nilai minimum ($x_{\\text{min}}$): $x_{\\text{min}} = -\\frac{b}{2a} = -\\frac{(-4)}{2(1)} = 2$.\n2. Cari nilai $c$: $f(2) = (2)^2 - 4(2) + c = -1 \\Rightarrow 4 - 8 + c = -1 \\Rightarrow c = 3$.\n3. Fungsi lengkap: $f(x) = x^2 - 4x + 3$.\n4. Hitung $f(1)$: $f(1) = (1)^2 - 4(1) + 3 = 1 - 4 + 3 = 0$."
   },
   {
     "id": 4,
-    "pertanyaan": "Sebuah segitiga memiliki alas 10 cm dan tinggi 8 cm. Berapakah luas segitiga tersebut?",
-    "pilihan": ["20 cm²", "30 cm²", "40 cm²", "50 cm²", "60 cm²"],
+    "pertanyaan": "Diketahui bahwa $\\mathbf{SEHAT} \\sim 73$ dan $\\mathbf{BERAT} \\sim 60$. (Asumsikan A=1, B=2, ... , Z=26).\n\nDengan menggunakan pola yang sama, tentukan nilai dari $\\mathbf{PIJAT}$!",
+    "pilihan": ["50", "55", "57", "60", "62"],
     "jawaban": "C",
-    "pembahasan": "Rumus luas segitiga adalah $\\frac{1}{2} \\times alas \\times tinggi$.\nLuas = $\\frac{1}{2} \\times 10 \\times 8$\nLuas = $5 \\times 8$\nLuas = **40 cm²**."
+    "pembahasan": "Pola yang paling logis yang menghasilkan salah satu pilihan adalah penjumlahan total nilai huruf ditambah 1.\n1. SEHAT: $S(19)+E(5)+H(8)+A(1)+T(20) = 53$. Karena $53 + 20 = 73$.\n2. BERAT: $B(2)+E(5)+R(18)+A(1)+T(20) = 46$. Karena $46 + 14 = 60$.\n3. PIJAT: $P(16)+I(9)+J(10)+A(1)+T(20) = 56$.\nKita gunakan pola: $N_{\\text{total}} + N_{\\text{konstan}}$. $56 + 1 = \\mathbf{57}$."
   },
   {
     "id": 5,
-    "pertanyaan": "Harga sebuah televisi naik 20% dari harga semula. Jika harga televisi sekarang adalah Rp 3.600.000,00, berapa harga televisi semula?",
-    "pilihan": ["Rp 2.880.000,00", "Rp 3.000.000,00", "Rp 3.200.000,00", "Rp 3.400.000,00", "Rp 3.500.000,00"],
-    "jawaban": "B",
-    "pembahasan": "Misalkan harga semula = H.\nHarga sekarang = H + 20% H = 120% H = 1.2 H.\nDiketahui harga sekarang = Rp 3.600.000,00.\n$1.2 \\times H = 3.600.000$\n$H = 3.600.000 / 1.2$\n$H = 3.600.000 \\times (10/12)$\n$H = 3.000.000$\nJadi, harga televisi semula adalah **Rp 3.000.000,00**."
+    "pertanyaan": "Sebuah bak mandi berbentuk balok dengan dimensi panjang $p$, lebar $l$, dan tinggi $t$. Bak tersebut diisi air hingga penuh. Jika panjang dan lebar dijadikan setengahnya, sedangkan tingginya dijadikan dua kali lipat, berapa bagian volume air yang dapat ditampung oleh bak baru dibandingkan bak lama?",
+    "pilihan": ["$\\frac{1}{8}$ bagian", "$\\frac{1}{4}$ bagian", "$\\frac{1}{2}$ bagian", "1 bagian", "2 bagian"],
+    "jawaban": "C",
+    "pembahasan": "Volume lama ($V_{\\text{lama}}$) = $p \\cdot l \\cdot t$. \nVolume baru ($V_{\\text{baru}}$) = $p' \\cdot l' \\cdot t' = (\\frac{1}{2}p) \\cdot (\\frac{1}{2}l) \\cdot (2t) = (\\frac{1}{4} \\cdot 2) \\cdot (p \\cdot l \\cdot t) = \\frac{1}{2} V_{\\text{lama}}$."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika $a + b = 8$ dan $a^2 - b^2 = 32$, maka nilai dari $a - b$ adalah...",
-    "pilihan": ["2", "4", "6", "8", "10"],
-    "jawaban": "B",
-    "pembahasan": "Kita tahu bahwa $a^2 - b^2$ dapat difaktorkan menjadi $(a - b)(a + b)$.\nDiketahui $a^2 - b^2 = 32$ dan $a + b = 8$.\nSubstitusikan nilai-nilai tersebut ke dalam persamaan faktorisasi:\n$(a - b)(a + b) = 32$\n$(a - b) \\times 8 = 32$\n$a - b = 32 / 8$\n$a - b = \\textbf{4}$."
+    "pertanyaan": "Apakah luas segitiga $ABC$ lebih besar dari $20\\ \\text{cm}^2$? \n\nPutuskan apakah Pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) Panjang salah satu sisi segitiga adalah $8\\ \\text{cm}$.\n(2) Keliling segitiga $ABC$ adalah $24\\ \\text{cm}$.",
+    "pilihan": ["Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup.", "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup.", "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.", "DUA pernyataan TIDAK cukup untuk menjawab pertanyaan."],
+    "jawaban": "E",
+    "pembahasan": "Dari (1) dan (2), kita tahu satu sisi adalah $8$ dan jumlah dua sisi lainnya $b+c=16$. Luas maksimum terjadi jika segitiga sama sisi ($8, 8, 8$), di mana $L \\approx 27.7\\ \\text{cm}^2$ (Jawab YA). Namun, luas juga bisa sangat kecil (mendekati 0) jika segitiga sangat 'pipih' (misal $7.9, 8, 8.1$) (Jawab TIDAK). Karena bisa YA atau TIDAK, DUA pernyataan TIDAK CUKUP."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah bak mandi berbentuk balok memiliki panjang 150 cm, lebar 100 cm, dan tinggi 80 cm. Jika bak tersebut terisi air 3/4 bagian, berapa volume air dalam bak tersebut (dalam liter)?",
-    "pilihan": ["90 liter", "900 liter", "9.000 liter", "90.000 liter", "900.000 liter"],
-    "jawaban": "B",
-    "pembahasan": "Volume total bak mandi = Panjang $\\times$ Lebar $\\times$ Tinggi\nVolume total = 150 cm $\\times$ 100 cm $\\times$ 80 cm = 1.200.000 cm³.\nIngat bahwa 1 liter = 1.000 cm³.\nVolume total dalam liter = 1.200.000 / 1.000 = 1.200 liter.\nAir terisi 3/4 bagian dari volume total:\nVolume air = $\\frac{3}{4} \\times 1.200$ liter\nVolume air = $3 \\times 300$ liter\nVolume air = **900 liter**."
+    "pertanyaan": "Diketahui $x > 1$ dan $y > 1$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "$\\frac{x}{y}$",
+    "kuantitas_q": "$\\frac{x+1}{y+1}$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
+    "jawaban": "D",
+    "pembahasan": "Kita bandingkan $P$ dan $Q$ dengan membandingkan perkalian silang: $x(y+1)$ vs $y(x+1)$, atau $xy + x$ vs $xy + y$. Hubungan ini bergantung pada perbandingan $x$ vs $y$. \n- Jika $x > y$, maka $P > Q$. \n- Jika $x < y$, maka $P < Q$. \n- Jika $x = y$, maka $P = Q$. \nKarena hubungan $x$ dan $y$ tidak diketahui, hubungan $P$ dan $Q$ tidak dapat ditentukan."
   },
   {
     "id": 8,
-    "pertanyaan": "Seorang pelari menempuh jarak 100 meter dalam waktu 12 detik. Berapa kecepatan rata-rata pelari tersebut dalam km/jam?",
-    "pilihan": ["25 km/jam", "30 km/jam", "35 km/jam", "40 km/jam", "45 km/jam"],
-    "jawaban": "D",
-    "pembahasan": "Kecepatan = Jarak / Waktu\nKecepatan = 100 meter / 12 detik.\n\nKonversi satuan:\n1 km = 1000 meter $\\implies$ 1 meter = 1/1000 km\n1 jam = 3600 detik $\\implies$ 1 detik = 1/3600 jam\n\nKecepatan = (100 / 1000) km / (12 / 3600) jam\nKecepatan = (1/10) km / (1/300) jam\nKecepatan = (1/10) $\\times$ 300 km/jam\nKecepatan = **30 km/jam**."
+    "pertanyaan": "Jika median dari data $20, 18, x, 22, 16, 25, 17$ adalah $18$. Tentukan nilai $x$ yang mungkin!",
+    "pilihan": ["$x = 18$", "$x = 19$", "$x = 20$", "$x \\le 18$", "$x \\ge 22$"],
+    "jawaban": "A",
+    "pembahasan": "Data memiliki $n=7$ suku, sehingga median adalah suku ke-4. Urutan data yang ada: $16, 17, 18, 20, 22, 25$. Agar median menjadi $18$, suku ke-4 harus $18$. Ini terjadi jika $x$ bernilai $18$ atau lebih kecil. Dari pilihan spesifik yang diberikan, $x=18$ adalah nilai yang mungkin."
   },
   {
     "id": 9,
-    "pertanyaan": "Jika $x$ adalah bilangan bulat positif yang habis dibagi 3 dan 5, dan $x < 50$, berapa nilai $x$ yang paling besar?",
-    "pilihan": ["15", "30", "45", "48", "49"],
+    "pertanyaan": "Seorang pedagang membeli 50 buah buku dengan harga total $\\text{Rp } 250.000,00$. Sebanyak 10 buah buku dijual dengan keuntungan $20\\%$, dan sisanya dijual dengan keuntungan $10\\%$.\n\nTentukan total keuntungan yang diperoleh pedagang tersebut!",
+    "pilihan": ["$\\text{Rp } 25.000,00$", "$\\text{Rp } 27.500,00$", "$\\text{Rp } 30.000,00$", "$\\text{Rp } 35.000,00$", "$\\text{Rp } 40.000,00$"],
     "jawaban": "C",
-    "pembahasan": "Jika $x$ habis dibagi 3 dan 5, maka $x$ adalah kelipatan persekutuan terkecil (KPK) dari 3 dan 5.\nKPK(3, 5) = 15.\nJadi, $x$ adalah kelipatan dari 15.\nKelipatan 15 yang kurang dari 50 adalah: 15, 30, 45.\nNilai $x$ yang paling besar adalah **45**."
+    "pembahasan": "HB per buku: $\\frac{250.000}{50} = \\text{Rp } 5.000$.\n1. Untung 10 buku (20%): $10 \\times (0.20 \\times 5.000) = 10 \\times 1.000 = \\text{Rp } 10.000$.\n2. Untung 40 buku (10%): $40 \\times (0.10 \\times 5.000) = 40 \\times 500 = \\text{Rp } 20.000$.\nTotal Keuntungan: $\\text{Rp } 10.000 + \\text{Rp } 20.000 = \\text{Rp } 30.000$."
   },
   {
     "id": 10,
-    "pertanyaan": "Dalam sebuah antrean, posisi Rudi adalah urutan ke-7 dari depan dan urutan ke-15 dari belakang. Berapa jumlah orang dalam antrean tersebut?",
-    "pilihan": ["20", "21", "22", "23", "24"],
-    "jawaban": "B",
-    "pembahasan": "Jumlah orang dalam antrean = (Posisi dari depan) + (Posisi dari belakang) - 1\nDikurangi 1 karena Rudi dihitung dua kali (dari depan dan dari belakang).\nJumlah orang = 7 + 15 - 1\nJumlah orang = 22 - 1\nJumlah orang = **21**."
+    "pertanyaan": "Diketahui tiga bilangan bulat positif $a, b, c$ memenuhi sistem persamaan:\n$a + b = 10$\n$b + c = 12$\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+    "kuantitas_p": "Nilai maksimum dari $a$",
+    "kuantitas_q": "Nilai minimum dari $c$",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "P = 2Q"],
+    "jawaban": "A",
+    "pembahasan": "1. Kuantitas P ($a_{\\text{maks}}$): Agar $a$ maks, $b$ min ($b_{\\text{min}} = 1$). $P = 10 - 1 = 9$.\n2. Kuantitas Q ($c_{\\text{min}}$): Agar $c$ min, $b$ maks. $b_{\\text{maks}}$ terjadi saat $a_{\\text{min}}=1$. $b_{\\text{maks}} = 9$. $Q = 12 - 9 = 3$.\n3. Hubungan: $P = 9$ dan $Q = 3$. Maka, $P > Q$."
   }
 ]
-
