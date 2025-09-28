@@ -30,7 +30,7 @@
     "kuantitas_q": "5 orang",
     "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
     "jawaban": "C",
-    "pembahasan": "1. Total pekerjaan: $15 \\text{ pekerja} \\times 30 \\text{ hari} = 450 \\text{ pekerjaan-hari}$.\n2. Pekerjaan selesai 10 hari: $15 \\times 10 = 150 \\text{ pekerjaan-hari}$.\n3. Sisa pekerjaan: $450 - 150 = 300 \\text{ pekerjaan-hari}$.\n4. Sisa waktu efektif: $30 - 10 - 5 = 15 \\text{ hari}$.\n5. Total pekerja yang dibutuhkan: $\\frac{300}{15} = 20 \\text{ pekerja}$.\n6. Kuantitas P (Pekerja tambahan): $20 - 15 = 5 \\text{ orang}$.\\n7. Hubungan: $P = 5$ dan $Q = 5$. Maka, $P = Q$."
+    "pembahasan": "1. Total pekerjaan: $15 \\text{ pekerja} \\times 30 \\text{ hari} = 450 \\text{ pekerjaan-hari}$.\n2. Pekerjaan selesai 10 hari: $15 \\times 10 = 150 \\text{ pekerjaan-hari}$.\n3. Sisa pekerjaan: $450 - 150 = 300 \\text{ pekerjaan-hari}$.\n4. Sisa waktu efektif: $30 - 10 - 5 = 15 \\text{ hari}$.\n5. Total pekerja yang dibutuhkan: $\\frac{300}{15} = 20 \\text{ pekerja}$.\n6. Kuantitas P (Pekerja tambahan): $20 - 15 = 5 \\text{ orang}$.\n7. Hubungan: $P = 5$ dan $Q = 5$. Maka, $P = Q$."
   },
   {
     "id": 5,
@@ -46,7 +46,7 @@
     "pertanyaan": "Dalam pemilihan pengurus organisasi, terdapat 5 calon laki-laki dan 4 calon perempuan. Jika akan dipilih 3 orang pengurus yang terdiri dari 2 laki-laki dan 1 perempuan, berapa banyak cara pemilihan yang mungkin?",
     "pilihan": ["30", "40", "50", "60", "70"],
     "jawaban": "B",
-    "pembahasan": "Menggunakan kombinasi:\\n1. Memilih 2 Laki-laki dari 5: $C(5, 2) = \\frac{5!}{2!3!} = 10$ cara.\\n2. Memilih 1 Perempuan dari 4: $C(4, 1) = 4$ cara.\\nTotal cara: $10 \\times 4 = 40$ cara."
+    "pembahasan": "Menggunakan kombinasi:\n1. Memilih 2 Laki-laki dari 5: $C(5, 2) = \\frac{5!}{2!3!} = 10$ cara.\n2. Memilih 1 Perempuan dari 4: $C(4, 1) = 4$ cara.\nTotal cara: $10 \\times 4 = 40$ cara."
   },
   {
     "id": 7,
@@ -55,21 +55,21 @@
     "kuantitas_q": "2",
     "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan"],
     "jawaban": "C",
-    "pembahasan": "Volume Awal $V = \\frac{1}{3} \\pi r^2 t$. Volume Baru $V' = \\frac{1}{3} \\pi (2r)^2 (t/2) = \\frac{1}{3} \\pi (4r^2) (t/2) = 2 \\cdot (\\frac{1}{3} \\pi r^2 t) = 2V$. \\nKuantitas P: $P = \\frac{V'}{V} = 2$. Kuantitas Q: $Q = 2$. Maka, $P = Q$."
+    "pembahasan": "Volume Awal $V = \\frac{1}{3} \\pi r^2 t$. Volume Baru $V' = \\frac{1}{3} \\pi (2r)^2 (t/2) = \\frac{1}{3} \\pi (4r^2) (t/2) = 2 \\cdot (\\frac{1}{3} \\pi r^2 t) = 2V$. \nKuantitas P: $P = \\frac{V'}{V} = 2$. Kuantitas Q: $Q = 2$. Maka, $P = Q$."
   },
   {
     "id": 8,
     "pertanyaan": "Tono dan Tini bersepeda dari titik yang sama. Tono bergerak ke utara dengan kecepatan $12\\ \\text{km/jam}$, dan Tini bergerak ke timur dengan kecepatan $5\\ \\text{km/jam}$.\\n\\nBerapakah jarak antara Tono dan Tini setelah 2 jam?",
     "pilihan": ["$26\\ \\text{km}$", "$29\\ \\text{km}$", "$34\\ \\text{km}$", "$36\\ \\text{km}$", "$39\\ \\text{km}$"],
     "jawaban": "A",
-    "pembahasan": "Pergerakan ke utara dan timur membentuk segitiga siku-siku.\\n1. Jarak Tono ($J_T$): $12\\ \\text{km/jam} \\times 2\\ \\text{jam} = 24\\ \\text{km}$.\\n2. Jarak Tini ($J_i$): $5\\ \\text{km/jam} \\times 2\\ \\text{jam} = 10\\ \\text{km}$.\\n3. Jarak antara keduanya ($c$): $c = \\sqrt{J_T^2 + J_i^2} = \\sqrt{24^2 + 10^2} = \\sqrt{576 + 100} = \\sqrt{676} = 26\\ \\text{km}$."
+    "pembahasan": "Pergerakan ke utara dan timur membentuk segitiga siku-siku.\n1. Jarak Tono ($J_T$): $12\\ \\text{km/jam} \\times 2\\ \\text{jam} = 24\\ \\text{km}$.\n2. Jarak Tini ($J_i$): $5\\ \\text{km/jam} \\times 2\\ \\text{jam} = 10\\ \\text{km}$.\n3. Jarak antara keduanya ($c$): $c = \\sqrt{J_T^2 + J_i^2} = \\sqrt{24^2 + 10^2} = \\sqrt{576 + 100} = \\sqrt{676} = 26\\ \\text{km}$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah persegi dengan panjang sisi $s$ memiliki keliling $K$ dan luas $L$. Jika panjang sisi persegi ditingkatkan $25\\%$, maka persentase peningkatan luasnya adalah...",
     "pilihan": ["$25\\%$", "$50\\%$", "$56.25\\%$", "$62.5\\%$", "$75\\%$"],
     "jawaban": "C",
-    "pembahasan": "1. Sisi baru $s_{baru} = s(1 + 0.25) = 1.25s$.\\n2. Luas baru $L_{baru} = (1.25s)^2 = 1.5625s^2$.\\n3. Peningkatan Luas: $1.5625s^2 - s^2 = 0.5625s^2$.\\n4. Persentase peningkatan: $\\frac{0.5625s^2}{s^2} \\times 100\\% = 56.25\\%$."
+    "pembahasan": "1. Sisi baru $s_{baru} = s(1 + 0.25) = 1.25s$.\n2. Luas baru $L_{baru} = (1.25s)^2 = 1.5625s^2$.\n3. Peningkatan Luas: $1.5625s^2 - s^2 = 0.5625s^2$.\n4. Persentase peningkatan: $\\frac{0.5625s^2}{s^2} \\times 100\\% = 56.25\\%$."
   },
   {
     "id": 10,
