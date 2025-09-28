@@ -1,72 +1,132 @@
 [
   {
-    "id": 21,
-    "pertanyaan": "Premis 1: Semua hewan karnivora memakan daging.\nPremis 2: Singa adalah hewan karnivora.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Singa mungkin memakan daging.", "Singa tidak memakan daging.", "Singa pasti memakan daging.", "Hanya singa yang memakan daging.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "id": 1,
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nGelombang panas ekstrem (heatwave) yang melanda beberapa wilayah di Asia Tenggara, termasuk Indonesia, menjadi perhatian serius. Peningkatan suhu yang drastis ini dipicu oleh perubahan iklim global dan fenomena El Niño. Akibatnya, sektor pertanian, terutama tanaman pangan, menghadapi ancaman kekeringan yang berpotensi menurunkan hasil panen secara signifikan.\n\nPenurunan hasil panen ini dapat memicu kelangkaan pasokan di pasar, yang pada gilirannya akan mendorong lonjakan harga komoditas pangan. Untuk mengantisipasi dampak inflasi pangan, pemerintah mengumumkan kebijakan impor bahan pangan dari negara lain. Kebijakan ini diharapkan dapat menjaga stabilitas harga dan memastikan ketersediaan pasokan bagi masyarakat, meskipun berisiko memengaruhi harga komoditas pertanian domestik.\n\nDi sisi lain, para ahli agrikultur berpendapat bahwa selain impor, pemerintah juga harus fokus pada penguatan infrastruktur irigasi dan pengembangan varietas tanaman yang tahan kekeringan. Peningkatan ketahanan pangan domestik akan mengurangi ketergantungan pada pasokan eksternal dan membuat harga pangan lebih resisten terhadap gejolak iklim.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara gelombang panas ekstrem dan harga pangan?",
+    "pilihan": [
+      "Gelombang panas ekstrem secara langsung menurunkan harga pangan.",
+      "Gelombang panas ekstrem dapat memicu peningkatan harga pangan melalui penurunan hasil panen.",
+      "Gelombang panas ekstrem hanya memengaruhi harga pangan jika pemerintah melakukan impor.",
+      "Gelombang panas ekstrem dan harga pangan tidak memiliki hubungan yang pasti.",
+      "Penurunan hasil panen akan terjadi, tetapi harga pangan akan tetap stabil."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menyatakan bahwa gelombang panas 'berpotensi menurunkan hasil panen secara signifikan' dan 'penurunan hasil panen ini dapat memicu kelangkaan pasokan di pasar, yang pada gilirannya akan mendorong lonjakan harga komoditas pangan.' Hal ini menunjukkan hubungan sebab-akibat yang jelas antara gelombang panas ekstrem dan harga pangan."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Jika pemerintah tidak melakukan kebijakan impor bahan pangan, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Harga komoditas pertanian domestik akan turun drastis.",
+      "Ketersediaan pasokan pangan akan meningkat.",
+      "Stabilitas harga akan sulit dijaga.",
+      "Gelombang panas ekstrem akan berhenti.",
+      "Petani akan mengalami peningkatan hasil panen."
+    ],
     "jawaban": "C",
-    "pembahasan": "Ini adalah silogisme kategori dasar. Karena semua hewan karnivora memakan daging, dan singa termasuk kategori hewan karnivora, maka secara deduktif, singa pasti memakan daging."
+    "pembahasan": "Teks menyatakan bahwa kebijakan impor 'diharapkan dapat menjaga stabilitas harga dan memastikan ketersediaan pasokan.' Jika pemerintah tidak melakukan tindakan ini, maka tujuan untuk menjaga stabilitas harga akan sulit tercapai."
   },
   {
-    "id": 22,
-    "pertanyaan": "Premis 1: Jika saya belajar keras, maka saya akan lulus ujian.\nPremis 2: Saya tidak lulus ujian.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Saya belajar keras.", "Saya tidak belajar keras.", "Saya mungkin belajar keras.", "Lulus ujian tidak selalu berarti belajar keras.", "Tidak dapat ditarik kesimpulan."],
+    "id": 3,
+    "pertanyaan": "Jika infrastruktur irigasi tidak diperkuat, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pilihan": [
+      "Harga pangan akan selalu stabil.",
+      "Ketergantungan pada pasokan eksternal akan meningkat.",
+      "Petani akan mengalami peningkatan hasil panen.",
+      "Pemerintah akan menurunkan harga komoditas.",
+      "Impor menjadi satu-satunya solusi untuk inflasi pangan."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh **Modus Tollens**. Jika P → Q (Jika saya belajar keras, maka saya akan lulus ujian) dan ¬Q (Saya tidak lulus ujian), maka kesimpulannya adalah ¬P (Saya tidak belajar keras). Logikanya, jika saya belajar keras, saya *pasti* akan lulus. Karena saya tidak lulus, itu berarti saya tidak belajar keras."
+    "pembahasan": "Teks menyatakan bahwa penguatan infrastruktur irigasi 'akan mengurangi ketergantungan pada pasokan eksternal.' Jika hal ini tidak dilakukan, maka ketergantungan pada pasokan eksternal akan tetap tinggi atau bahkan meningkat."
   },
   {
-    "id": 23,
-    "pertanyaan": "Premis 1: Semua mamalia memiliki tulang belakang.\nPremis 2: Ular tidak memiliki tulang belakang.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ular adalah mamalia.", "Ular bukan mamalia.", "Ular mungkin mamalia.", "Hewan tanpa tulang belakang adalah ular.", "Tidak dapat ditarik kesimpulan tentang ular dari premis ini."],
-    "jawaban": "B",
-    "pembahasan": "Premis 1 menyatakan properti universal mamalia (memiliki tulang belakang). Premis 2 menyatakan bahwa ular tidak memiliki properti tersebut. Oleh karena itu, secara deduktif, jika ular tidak memiliki tulang belakang, maka ular tidak bisa menjadi mamalia. Ini adalah contoh **Modus Tollens** dalam bentuk silogisme kategori."
-  },
-  {
-    "id": 24,
-    "pertanyaan": "Premis 1: Setiap negara yang maju memiliki infrastruktur yang baik.\nPremis 2: Indonesia memiliki infrastruktur yang baik.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Indonesia adalah negara maju.", "Indonesia bukan negara maju.", "Indonesia mungkin negara maju.", "Hanya negara maju yang memiliki infrastruktur yang baik.", "Tidak dapat ditarik kesimpulan bahwa Indonesia adalah negara maju."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan logika yang disebut **Afirmasi Konsekuen**. Jika P → Q (Jika negara maju, maka infrastruktur baik) dan Q (Indonesia memiliki infrastruktur baik), tidak berarti P (Indonesia adalah negara maju). Ada banyak alasan lain mengapa suatu negara bisa memiliki infrastruktur yang baik, meskipun belum tentu dikategorikan sebagai 'maju' secara keseluruhan."
-  },
-  {
-    "id": 25,
-    "pertanyaan": "Premis 1: Semua peserta lomba lari marathon harus berusia di atas 18 tahun.\nPremis 2: Andi berusia 20 tahun.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Andi pasti akan memenangkan lomba.", "Andi tidak bisa mengikuti lomba.", "Andi memenuhi syarat usia untuk mengikuti lomba.", "Semua yang berusia di atas 18 tahun adalah peserta lomba.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "id": 4,
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pilihan": [
+      "Gelombang panas ekstrem memengaruhi hasil panen.",
+      "Kebijakan impor bertujuan menjaga stabilitas harga.",
+      "Gelombang panas ekstrem tidak akan memengaruhi harga pangan.",
+      "Ketersediaan pasokan pangan dipengaruhi oleh hasil panen.",
+      "Peningkatan infrastruktur irigasi dapat mengurangi ketergantungan pada pasokan eksternal."
+    ],
     "jawaban": "C",
-    "pembahasan": "Premis 1 menetapkan syarat usia. Premis 2 memberikan informasi usia Andi. Karena 20 tahun lebih dari 18 tahun, maka secara deduktif, Andi memenuhi syarat usia yang ditentukan."
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa gelombang panas 'berpotensi menurunkan hasil panen' yang pada akhirnya 'akan mendorong lonjakan harga komoditas pangan.' Oleh karena itu, pernyataan bahwa gelombang panas ekstrem tidak akan memengaruhi harga pangan adalah pernyataan yang pasti salah."
   },
   {
-    "id": 26,
-    "pertanyaan": "Premis 1: Jika hujan, maka saya membawa payung.\nPremis 2: Saya membawa payung.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hujan.", "Tidak hujan.", "Saya selalu membawa payung.", "Saya suka membawa payung.", "Tidak dapat ditarik kesimpulan bahwa hari ini hujan."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah contoh kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika hujan, maka saya membawa payung) dan Q (Saya membawa payung), tidak berarti P (Hujan). Saya bisa membawa payung karena alasan lain (misalnya, takut panas, atau lupa meletakkannya di rumah). Premis tidak menyatakan bahwa saya *hanya* membawa payung saat hujan."
+    "id": 5,
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nBanyak perusahaan teknologi di Indonesia beralih menggunakan platform komputasi awan (cloud computing) untuk mengelola data dan operasional mereka. Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan karena memungkinkan skalabilitas dan akses data yang lebih cepat. Namun, penggunaan komputasi awan juga menimbulkan kekhawatiran terkait keamanan data dan privasi, terutama bagi data sensitif perusahaan.\n\nSetiap perusahaan yang ingin beralih ke komputasi awan harus melakukan audit keamanan menyeluruh dan memastikan semua data terenkripsi. Tanpa langkah-langkah keamanan yang memadai, risiko kebocoran data menjadi sangat tinggi. Oleh karena itu, kesuksesan implementasi komputasi awan sangat bergantung pada komitmen perusahaan terhadap protokol keamanan yang ketat.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pilihan": [
+      "Semua perusahaan teknologi yang efisien menggunakan komputasi awan.",
+      "Peningkatan efisiensi selalu diiringi dengan risiko kebocoran data.",
+      "Semua data yang tersimpan di komputasi awan pasti aman.",
+      "Perusahaan yang mengadopsi komputasi awan melaporkan peningkatan efisiensi.",
+      "Audit keamanan yang menyeluruh menjamin tidak ada kebocoran data."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks secara langsung menyatakan bahwa 'Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan.' Ini adalah fakta yang pasti benar berdasarkan teks."
   },
   {
-    "id": 27,
-    "pertanyaan": "Premis 1: Beberapa burung adalah karnivora.\nPremis 2: Semua karnivora memiliki gigi tajam.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua burung memiliki gigi tajam.", "Beberapa burung memiliki gigi tajam.", "Beberapa burung tidak memiliki gigi tajam.", "Semua yang memiliki gigi tajam adalah burung.", "Tidak dapat ditarik kesimpulan."],
+    "id": 6,
+    "pertanyaan": "Jika sebuah perusahaan teknologi tidak mengalami peningkatan efisiensi, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut tidak menggunakan komputasi awan.",
+      "Perusahaan tersebut mengalami kebocoran data.",
+      "Perusahaan tersebut tidak memiliki data sensitif.",
+      "Perusahaan tersebut tidak melakukan audit keamanan.",
+      "Perusahaan tersebut memiliki protokol keamanan yang ketat."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Teks menyebutkan bahwa 'Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan'. Oleh karena itu, jika sebuah perusahaan tidak mengalami peningkatan efisiensi yang signifikan, ada kemungkinan besar penyebabnya adalah tidak menggunakan komputasi awan."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Jika sebuah perusahaan beralih ke komputasi awan tanpa melakukan audit keamanan menyeluruh, manakah simpulan yang paling mungkin benar?",
+    "pilihan": [
+      "Perusahaan tersebut akan mengalami peningkatan efisiensi yang signifikan.",
+      "Perusahaan tersebut pasti akan mengalami kebocoran data.",
+      "Risiko kebocoran data akan menjadi sangat tinggi.",
+      "Perusahaan tersebut akan memiliki data yang aman.",
+      "Perusahaan tersebut tidak memiliki protokol keamanan yang ketat."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa 'Tanpa langkah-langkah keamanan yang memadai, risiko kebocoran data menjadi sangat tinggi.' Audit keamanan adalah salah satu langkah tersebut. Jadi, jika sebuah perusahaan tidak melakukan audit keamanan, risiko kebocoran data akan menjadi sangat tinggi."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Semua laptop baru memiliki port USB-C. Sebagian laptop gaming adalah laptop baru. Manakah simpulan yang paling tepat?",
+    "pilihan": [
+      "Semua laptop gaming memiliki port USB-C.",
+      "Sebagian laptop gaming memiliki port USB-C.",
+      "Tidak ada laptop gaming yang memiliki port USB-C.",
+      "Semua laptop yang memiliki port USB-C adalah laptop gaming.",
+      "Tidak ada simpulan yang pasti benar."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari Premis 1, ada irisan antara 'burung' dan 'karnivora'. Dari Premis 2, semua 'karnivora' memiliki 'gigi tajam'. Karena ada beberapa burung yang juga karnivora, dan semua karnivora punya gigi tajam, maka secara deduktif, **beberapa burung memiliki gigi tajam**."
+    "pembahasan": "Premis 1: Semua laptop baru (P) memiliki port USB-C (Q). Premis 2: Sebagian laptop gaming (R) adalah laptop baru (P). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian R (laptop gaming) juga Q (memiliki port USB-C). Ini adalah penalaran deduktif yang valid."
   },
   {
-    "id": 28,
-    "pertanyaan": "Premis 1: Setiap peserta Olimpiade pasti seorang atlet.\nPremis 2: Budi adalah seorang atlet.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Budi adalah peserta Olimpiade.", "Budi bukan peserta Olimpiade.", "Budi mungkin peserta Olimpiade.", "Semua atlet adalah peserta Olimpiade.", "Tidak dapat ditarik kesimpulan apakah Budi peserta Olimpiade atau bukan."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika peserta Olimpiade, maka atlet) dan Q (Budi adalah atlet), tidak berarti P (Budi adalah peserta Olimpiade). Banyak atlet yang bukan peserta Olimpiade."
+    "id": 9,
+    "pertanyaan": "Sebuah laporan menyebutkan bahwa penerapan kebijakan 'Green Building' yang ramah lingkungan dapat menurunkan biaya operasional gedung dalam jangka panjang. Laporan ini didukung oleh data dari berbagai proyek konstruksi. Namun, laporan tersebut juga mencatat bahwa 'Green Building' saja tidak cukup untuk keberlanjutan lingkungan; adopsi energi terbarukan dan pengelolaan limbah yang efektif juga memegang peranan penting. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Penerapan 'Green Building' dapat menurunkan biaya operasional gedung.",
+      "'Green Building' saja tidak cukup untuk keberlanjutan lingkungan.",
+      "Laporan tersebut didukung oleh data dari berbagai proyek.",
+      "Satu-satunya cara untuk mencapai keberlanjutan lingkungan adalah dengan menerapkan 'Green Building'.",
+      "Energi terbarukan dan pengelolaan limbah juga penting untuk keberlanjutan lingkungan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'penerapan kebijakan 'Green Building'...dapat menurunkan biaya operasional' dan juga mencatat bahwa 'Green Building' saja tidak cukup untuk keberlanjutan lingkungan. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
   },
   {
-    "id": 29,
-    "pertanyaan": "Premis 1: Jika suatu benda adalah berlian, maka benda itu sangat keras.\nPremis 2: Benda ini sangat keras.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Benda ini adalah berlian.", "Benda ini bukan berlian.", "Benda ini mungkin berlian.", "Hanya berlian yang sangat keras.", "Tidak dapat ditarik kesimpulan bahwa benda ini adalah berlian."],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Jika P → Q (Jika berlian, maka sangat keras) dan Q (Benda ini sangat keras), tidak berarti P (Benda ini adalah berlian). Ada banyak zat lain selain berlian yang juga sangat keras. Premis tidak menyatakan 'hanya jika' berlian, maka ia keras."
-  },
-  {
-    "id": 30,
-    "pertanyaan": "Premis 1: Semua bunga mawar memiliki duri.\nPremis 2: Bunga X tidak memiliki duri.\nPremis 3: Bunga X berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bunga X adalah mawar merah.", "Bunga X bukan mawar.", "Bunga X adalah bunga berduri.", "Bunga X adalah mawar yang tidak memiliki duri.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "B",
-    "pembahasan": "Dari Premis 1, semua bunga mawar pasti memiliki duri. Dari Premis 2, Bunga X tidak memiliki duri. Karena Bunga X tidak memiliki properti wajib dari mawar, maka secara deduktif, Bunga X **bukan mawar**. Informasi Premis 3 (berwarna merah) adalah distraktor dan tidak relevan untuk menentukan apakah Bunga X adalah mawar berdasarkan premis 1 dan 2."
+    "id": 10,
+    "pertanyaan": "Jika semua orang yang menyukai genre sci-fi juga menyukai genre fantasi, dan Andi tidak menyukai genre fantasi, manakah simpulan yang pasti benar?",
+    "pilihan": [
+      "Andi menyukai genre sci-fi.",
+      "Andi menyukai genre fantasi.",
+      "Andi tidak menyukai genre sci-fi.",
+      "Semua orang yang tidak menyukai genre fantasi adalah Andi.",
+      "Tidak ada simpulan yang dapat ditarik."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Premis 1: Jika P (seseorang menyukai sci-fi) maka Q (orang tersebut menyukai fantasi). Premis 2: Andi tidak menyukai fantasi (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Andi tidak menyukai genre sci-fi."
   }
 ]
