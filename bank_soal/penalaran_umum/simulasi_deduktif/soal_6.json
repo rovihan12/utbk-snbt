@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "pertanyaan": "Jika pemerintah tidak melakukan kebijakan impor bahan pangan, manakah simpulan yang paling mungkin benar?",
+    "pertanyaan": "Berdasarkan **teks 1**, jika pemerintah tidak melakukan kebijakan impor bahan pangan, manakah simpulan yang paling mungkin benar?",
     "pilihan": [
       "Harga komoditas pertanian domestik akan turun drastis.",
       "Ketersediaan pasokan pangan akan meningkat.",
@@ -23,11 +23,11 @@
       "Petani akan mengalami peningkatan hasil panen."
     ],
     "jawaban": "C",
-    "pembahasan": "Teks menyatakan bahwa kebijakan impor 'diharapkan dapat menjaga stabilitas harga dan memastikan ketersediaan pasokan.' Jika pemerintah tidak melakukan tindakan ini, maka tujuan untuk menjaga stabilitas harga akan sulit tercapai."
+    "pembahasan": "Berdasarkan **teks 1**, Teks menyatakan bahwa kebijakan impor 'diharapkan dapat menjaga stabilitas harga dan memastikan ketersediaan pasokan.' Jika pemerintah tidak melakukan tindakan ini, maka tujuan untuk menjaga stabilitas harga akan sulit tercapai."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika infrastruktur irigasi tidak diperkuat, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pertanyaan": "Berdasarkan teks 1, jika infrastruktur irigasi tidak diperkuat, manakah simpulan yang paling mungkin benar berdasarkan teks?",
     "pilihan": [
       "Harga pangan akan selalu stabil.",
       "Ketergantungan pada pasokan eksternal akan meningkat.",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan **teks 1** ?",
     "pilihan": [
       "Gelombang panas ekstrem memengaruhi hasil panen.",
       "Kebijakan impor bertujuan menjaga stabilitas harga.",
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "pertanyaan": "Jika sebuah perusahaan teknologi tidak mengalami peningkatan efisiensi, manakah simpulan yang paling mungkin benar?",
+    "pertanyaan": "Berdasarkan **teks 2**, jika sebuah perusahaan teknologi tidak mengalami peningkatan efisiensi, manakah simpulan yang paling mungkin benar?",
     "pilihan": [
       "Perusahaan tersebut tidak menggunakan komputasi awan.",
       "Perusahaan tersebut mengalami kebocoran data.",
@@ -75,11 +75,11 @@
       "Perusahaan tersebut memiliki protokol keamanan yang ketat."
     ],
     "jawaban": "A",
-    "pembahasan": "Teks menyebutkan bahwa 'Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan'. Oleh karena itu, jika sebuah perusahaan tidak mengalami peningkatan efisiensi yang signifikan, ada kemungkinan besar penyebabnya adalah tidak menggunakan komputasi awan."
+    "pembahasan": "**Teks 2** menyebutkan bahwa 'Perusahaan yang mengadopsi teknologi ini melaporkan peningkatan efisiensi yang signifikan'. Oleh karena itu, jika sebuah perusahaan tidak mengalami peningkatan efisiensi yang signifikan, ada kemungkinan besar penyebabnya adalah tidak menggunakan komputasi awan."
   },
   {
     "id": 7,
-    "pertanyaan": "Jika sebuah perusahaan beralih ke komputasi awan tanpa melakukan audit keamanan menyeluruh, manakah simpulan yang paling mungkin benar?",
+    "pertanyaan": "Berdasarkan **Teks 2**,jika sebuah perusahaan beralih ke komputasi awan tanpa melakukan audit keamanan menyeluruh, manakah simpulan yang paling mungkin benar?",
     "pilihan": [
       "Perusahaan tersebut akan mengalami peningkatan efisiensi yang signifikan.",
       "Perusahaan tersebut pasti akan mengalami kebocoran data.",
@@ -92,19 +92,6 @@
   },
   {
     "id": 8,
-    "pertanyaan": "Jika semua mahasiswa yang lulus dari program A adalah mahasiswa yang rajin belajar, dan sebagian mahasiswa yang rajin belajar memiliki IPK di atas 3,5. Manakah simpulan yang pasti benar?",
-    "pilihan": [
-      "Semua mahasiswa yang lulus dari program A memiliki IPK di atas 3,5.",
-      "Sebagian mahasiswa yang lulus dari program A memiliki IPK di atas 3,5.",
-      "Tidak ada mahasiswa yang lulus dari program A memiliki IPK di atas 3,5.",
-      "Semua mahasiswa yang memiliki IPK di atas 3,5 adalah mahasiswa yang rajin belajar.",
-      "Tidak ada simpulan yang pasti benar."
-    ],
-    "jawaban": "B",
-    "pembahasan": "Premis 1: Semua mahasiswa program A (P) adalah mahasiswa yang rajin belajar (Q). Premis 2: Sebagian mahasiswa yang rajin belajar (Q) memiliki IPK di atas 3,5 (R). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian mahasiswa P (program A) juga adalah R (memiliki IPK di atas 3,5). Ini adalah bentuk penalaran deduktif yang sahih."
-  },
-  {
-    "id": 9,
     "pertanyaan": "Semua laptop baru memiliki port USB-C. Sebagian laptop gaming adalah laptop baru. Manakah simpulan yang paling tepat?",
     "pilihan": [
       "Semua laptop gaming memiliki port USB-C.",
@@ -117,6 +104,19 @@
     "pembahasan": "Premis 1: Semua laptop baru (P) memiliki port USB-C (Q). Premis 2: Sebagian laptop gaming (R) adalah laptop baru (P). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian R (laptop gaming) juga Q (memiliki port USB-C). Ini adalah penalaran deduktif yang valid."
   },
   {
+    "id": 9,
+    "pertanyaan": "Sebuah laporan menyebutkan bahwa penerapan kebijakan 'Green Building' yang ramah lingkungan dapat menurunkan biaya operasional gedung dalam jangka panjang. Laporan ini didukung oleh data dari berbagai proyek konstruksi. Namun, laporan tersebut juga mencatat bahwa 'Green Building' saja tidak cukup untuk keberlanjutan lingkungan; adopsi energi terbarukan dan pengelolaan limbah yang efektif juga memegang peranan penting. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pilihan": [
+      "Penerapan 'Green Building' dapat menurunkan biaya operasional gedung.",
+      "'Green Building' saja tidak cukup untuk keberlanjutan lingkungan.",
+      "Laporan tersebut didukung oleh data dari berbagai proyek.",
+      "Satu-satunya cara untuk mencapai keberlanjutan lingkungan adalah dengan menerapkan 'Green Building'.",
+      "Energi terbarukan dan pengelolaan limbah juga penting untuk keberlanjutan lingkungan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Teks menyatakan bahwa 'penerapan kebijakan 'Green Building'...dapat menurunkan biaya operasional' dan juga mencatat bahwa 'Green Building' saja tidak cukup untuk keberlanjutan lingkungan. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
+  },
+  {
     "id": 10,
     "pertanyaan": "Jika semua orang yang menyukai genre sci-fi juga menyukai genre fantasi, dan Andi tidak menyukai genre fantasi, manakah simpulan yang pasti benar?",
     "pilihan": [
@@ -127,6 +127,6 @@
       "Tidak ada simpulan yang dapat ditarik."
     ],
     "jawaban": "C",
-    "pembahasan": "Premis 1: Jika P (seseorang menyukai sci-fi) maka Q (orang tersebut menyukai fantasi). Premis 2: Andi tidak menyukai fantasi (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Andi tidak menyukai genre sci-fi. Ini adalah penalaran deduktif yang sahih."
+    "pembahasan": "Premis 1: Jika P (seseorang menyukai sci-fi) maka Q (orang tersebut menyukai fantasi). Premis 2: Andi tidak menyukai fantasi (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Andi tidak menyukai genre sci-fi."
   }
 ]
