@@ -1,3 +1,5 @@
+Periksa juga 
+
 [
   {
     "id": 1,
@@ -20,12 +22,13 @@
     "jawaban": "B",
     "pembahasan": "1. BENAR: $x$ genap $\\Rightarrow x^2$ genap. $x^2+1$ ganjil.\n2. BENAR: $y^3 < 8$ ekuivalen dengan $y < \\sqrt[3]{8}$, yaitu $y < 2$.\n3. SALAH: $x+y$ ganjil berarti salah satu ganjil dan yang lain genap (misal $3+2=5$).\n4. SALAH: $xy$ genap berarti setidaknya salah satu genap. $x$ bisa ganjil jika $y$ genap (misal $3 \\times 2 = 6$).\nProposisi yang benar adalah 1 dan 2."
   },
-  "id": 9,
-  "pertanyaan": "Sebuah bus berangkat dari kota P pukul 08.00 menuju kota Q dengan kecepatan rata-rata $60\\ \\text{km/jam}$. Sebuah mobil berangkat dari kota Q pukul 09.00 menuju kota P dengan kecepatan rata-rata $80\\ \\text{km/jam}$. Jika jarak P ke Q adalah $360\\ \\text{km}$, pada pukul berapakah bus dan mobil berpapasan?",
-  "pilihan": ["Pukul 11.00", "Pukul 11.30", "Pukul 12.00", "Pukul 12.30", "Pukul 13.00"],
-  "jawaban": "A",
-  "pembahasan": "1. Jarak ditempuh Bus (08.00-09.00): $60\\ \\text{km/jam} \\times 1\\ \\text{jam} = 60\\ \\text{km}$.\n2. Sisa jarak saat 09.00: $360\\ \\text{km} - 60\\ \\text{km} = 300\\ \\text{km}$.\n3. Waktu berpapasan ($t$) setelah 09.00: $t = \\frac{\\text{Sisa Jarak}}{\\text{Total Kecepatan}} = \\frac{300}{60+80} = \\frac{300}{140} = \\frac{15}{7}\\ \\text{jam}$.\n$t \\approx 2.14\\ \\text{jam}$ (atau 2 jam 8,57 menit). \n4. Waktu berpapasan: $09.00 + 2\\ \\text{jam}\\ 8,57\\ \\text{menit} = \\text{Pukul 11.08}$. Karena Pukul 11.08 tidak ada di pilihan, **Pukul 11.00** (Jawaban A) adalah jawaban yang paling mendekati dan logis dalam konteks soal pilihan ganda."
-},
+  {
+    "id": 4,
+    "pertanyaan": "Harga 3 kg mangga ($M$), 2 kg apel ($A$), dan 1 kg jeruk ($J$) adalah $\\text{Rp } 70.000,00$. Harga 1 kg mangga, 2 kg apel, dan 3 kg jeruk adalah $\\text{Rp } 90.000,00$. Jika harga 1 kg apel adalah $\\text{Rp } 15.000,00$, berapakah total harga 1 kg mangga dan 1 kg jeruk ($M+J$)?",
+    "pilihan": ["$\\text{Rp } 20.000,00$", "$\\text{Rp } 25.000,00$", "$\\text{Rp } 30.000,00$", "$\\text{Rp } 35.000,00$", "$\\text{Rp } 40.000,00$"],
+    "jawaban": "B",
+    "pembahasan": "Diketahui:\n(i) $3M + 2A + J = 70.000$\n(ii) $M + 2A + 3J = 90.000$\nJumlahkan (i) dan (ii): $4M + 4A + 4J = 160.000 \\Rightarrow M + A + J = 40.000$.\nSubstitusi $A = 15.000$: $M + 15.000 + J = 40.000 \\Rightarrow M + J = 40.000 - 15.000 = \\text{Rp } 25.000,00$."
+  },
   {
     "id": 5,
     "pertanyaan": "Dalam sebuah lingkaran dengan pusat $O$, dibuat dua buah juring, yaitu Juring A dan Juring B. Juring A memiliki sudut pusat $60^\\circ$ dan jari-jari $r$. Juring B memiliki sudut pusat $30^\\circ$ dan jari-jari $2r$.\n\nPerbandingan luas Juring A dan luas Juring B adalah...",
@@ -62,7 +65,7 @@
     "pilihan": ["Pukul 11.00", "Pukul 11.30", "Pukul 12.00", "Pukul 12.30", "Pukul 13.00"],
     "jawaban": "B",
     "pembahasan": "1. Jarak ditempuh Bus (08.00-09.00): $60\\ \\text{km/jam} \\times 1\\ \\text{jam} = 60\\ \\text{km}$.\n2. Sisa jarak saat 09.00: $360\\ \\text{km} - 60\\ \\text{km} = 300\\ \\text{km}$.\n3. Waktu berpapasan ($t$) setelah 09.00: $t = \\frac{\\text{Sisa Jarak}}{\\text{Total Kecepatan}} = \\frac{300}{60+80} = \\frac{300}{140} = \\frac{15}{7}\\ \\text{jam}$.\n$t = 2\\ \\text{jam} + \\frac{1}{7}\\ \\text{jam} \\approx 2\\ \\text{jam}\\ 8.57\\ \\text{menit}$.\n*Revisi*: Jika jawaban B (11.30) benar, waktu tempuh 09.00-11.30 adalah 2,5 jam. Jarak yang tersisa: $2.5 \\times 140 = 350\\ \\text{km}$. Karena sisa jarak hanya 300 km, maka tidak tepat 11.30. Pukul 11.00 adalah 2 jam (300/140 $\\approx$ 2.14 jam). **11.08** adalah yang benar. Memilih B sebagai yang terdekat, atau mengasumsikan soal ingin $\\frac{1}{2}$ jam $\\rightarrow$ total jarak $350$. Pilihan terdekat ke 11.08 adalah 11.00 (A). Kita gunakan A."
-  }, 
+  },
   {
     "id": 10,
     "pertanyaan": "Sebuah survei mencatat persentase penggunaan transportasi 500 karyawan PT Maju Jaya.\nTransportasi: Motor $40\\%$, Mobil $35\\%$, Bus $20\\%$, Online $5\\%$. \nJika $60\\%$ dari pengguna sepeda motor adalah laki-laki, dan $40\\%$ dari pengguna mobil pribadi adalah perempuan, berapa jumlah karyawan perempuan yang menggunakan mobil pribadi dan sepeda motor?",
