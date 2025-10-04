@@ -14,11 +14,11 @@
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah proyek pembangunan dapat diselesaikan oleh $n$ pekerja dalam $24$ hari. Jika $4$ pekerja mengundurkan diri setelah bekerja $8$ hari, proyek selesai dalam $30$ hari total. Berapa nilai $n$?",
+    "pertanyaan": "Sebuah proyek pembangunan dapat diselesaikan oleh $n$ pekerja dalam $24$ hari. Jika $4$ pekerja mengundurkan diri setelah bekerja $\\mathbf{6}$ hari, proyek selesai dalam $30$ hari total. Berapa nilai $n$?",
     "pilihan": ["$12$", "$14$", "$16$", "$18$", "$20$"],
     "jawaban": "C",
-    "pembahasan": "Langkah 1: Tentukan total pekerjaan yang diselesaikan.\nTotal pekerjaan yang direncanakan = $24n$.\nPekerjaan yang dilakukan: $8n + (30-8)(n-4) = 24n$.\n\nLangkah 2: Selesaikan persamaan untuk $n$.\n$8n + 22n - 88 = 24n$\n$30n - 88 = 24n$\n$6n = 88$\n$n = \\frac{88}{6} \\approx 14.67$.\n\n*Catatan*: Karena $n$ harus bilangan bulat, dan $14.67$ paling mendekati $16$ di pilihan, serta mengacu pada kunci jawaban C, maka kita asumsikan $n=16$."
-  },
+    "pembahasan": "Langkah 1: Tentukan total pekerjaan yang diselesaikan.\nTotal pekerjaan yang direncanakan = $24n$.\nPekerjaan yang dilakukan: $6n + (30-6)(n-4) = 24n$.\n\nLangkah 2: Selesaikan persamaan untuk $n$.\n$6n + 24(n-4) = 24n$.\n$6n + 24n - 96 = 24n$.\n$30n - 96 = 24n$.\n$6n = 96$.\n$n = \\frac{96}{6} = 16$.\nJadi, jawabannya adalah C ($16$)."
+},
   {
     "id": 3,
     "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian $10$ meter. Pantulan pertama mencapai $\\tfrac{3}{4}$ dari tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
