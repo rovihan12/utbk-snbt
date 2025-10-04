@@ -54,20 +54,20 @@
     "jawaban": "D",
     "pembahasan": "Luas lingkaran ($L = \\pi r^2$) dapat dihitung jika jari-jari ($r$) diketahui.\n(1) $K = 2\\pi r \\Rightarrow 16\\pi = 2\\pi r \\Rightarrow r = 8\\ \\text{cm}$. (CUKUP).\n(2) $r = 8\\ \\text{cm}$. (CUKUP).\nKedua pernyataan SAJA sudah cukup."
   },
+ {
+  "id": 8,
+  "pertanyaan": "Jika $a \\odot b = 2a + 3b$ dan $a \\diamond b = 4a - b$.\n\nTentukan nilai dari $(1 \\odot 2) \\diamond (2 \\odot 1)$!",
+  "pilihan": ["13", "16", "25", "21", "24"],
+  "jawaban": "C",
+  "pembahasan": "1. Hitung $1 \\odot 2$: $2(1) + 3(2) = 2 + 6 = 8$.\n2. Hitung $2 \\odot 1$: $2(2) + 3(1) = 4 + 3 = 7$.\n3. Hitung $8 \\diamond 7$: $4(8) - 7 = 32 - 7 = \\mathbf{25}$.\nKarena hasil perhitungan adalah 25, maka jawaban yang benar adalah 25."
+},
   {
-    "id": 8,
-    "pertanyaan": "Jika $a \\odot b = 2a + 3b$ dan $a \\diamond b = 4a - b$.\n\nTentukan nilai dari $(1 \\odot 2) \\diamond (2 \\odot 1)$!",
-    "pilihan": ["13", "16", "19", "21", "24"],
-    "jawaban": "C",
-    "pembahasan": "1. Hitung $1 \\odot 2$: $2(1) + 3(2) = 8$.\n2. Hitung $2 \\odot 1$: $2(2) + 3(1) = 7$.\n3. Hitung $8 \\diamond 7$: $4(8) - 7 = 32 - 7 = \\mathbf{25}$.\n*Catatan: Karena 25 tidak ada di pilihan, kita asumsikan ada kesalahan di soal/pilihan dan menggunakan jawaban C (19) karena biasanya soal UTBK memiliki jawaban yang 'benar' di pilihan.*"
-  },
-  {
-    "id": 9,
-    "pertanyaan": "Diketahui $x^2 + 2y = 10$ dan $x + y = 4$. Tentukan nilai dari $2x - y$ yang mungkin!",
-    "pilihan": ["1", "2", "3", "4", "5"],
-    "jawaban": "B",
-    "pembahasan": "1. Substitusi $y = 4 - x$ ke persamaan pertama: $x^2 + 2(4 - x) = 10 \\Rightarrow x^2 - 2x - 2 = 0$. \n2. Nilai $x$ bukan bilangan bulat, jadi kita asumsikan ada kesalahan di soal, dan soal yang dimaksud seharusnya menghasilkan bilangan bulat. Misal: $x^2 + 2y = 8$. Maka $x^2 - 2x = 0 \\Rightarrow x=0$ atau $x=2$. \n3. Jika $x=2$, maka $y=2$. Nilai $2x - y = 2(2) - 2 = \\mathbf{2}$. (Memenuhi Pilihan B)."
-  },
+  "id": 9,
+  "pertanyaan": "Diketahui $x^2 + 2y = \\mathbf{8}$ dan $x + y = 4$. Tentukan nilai dari $2x - y$ yang mungkin!",
+  "pilihan": ["1", "2", "3", "4", "5"],
+  "jawaban": "B",
+  "pembahasan": "1. Substitusi $y = 4 - x$ ke persamaan pertama: $x^2 + 2(4 - x) = 8 \\Rightarrow x^2 + 8 - 2x = 8 \\Rightarrow x^2 - 2x = 0$. \n2. Solusi $x$: $x(x - 2) = 0 \\Rightarrow x_1 = 0$ atau $x_2 = 2$.\n3. Cari nilai $y$ dan $2x-y$:\n   - Jika $x=2$, maka $y=2$. Nilai $2x - y = 2(2) - 2 = \\mathbf{2}$.\n   - Jika $x=0$, maka $y=4$. Nilai $2x - y = 2(0) - 4 = -4$.\nNilai yang ada di pilihan adalah **2**."
+},
   {
     "id": 10,
     "pertanyaan": "Rata-rata nilai ujian matematika dari 10 siswa perempuan adalah 78, dan rata-rata dari 15 siswa laki-laki adalah 73.\n\nBerapakah rata-rata gabungan nilai ujian matematika seluruh siswa tersebut?",
