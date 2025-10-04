@@ -47,13 +47,13 @@
     "jawaban": "B",
     "pembahasan": "Langkah 1: Hitung total waktu tempuh ($t_{\\text{total}}$).\nMisal total jarak $D$. $t = t_1 + t_2$.\n$t = \\frac{2D/5}{60} + \\frac{3D/5}{80} = \\frac{D}{150} + \\frac{3D}{400}$.\n$t_{\\text{total}} = \\frac{8D + 9D}{1200} = \\frac{17D}{1200}$.\n\nLangkah 2: Hitung kecepatan rata-rata.\n$v_{\\text{rata-rata}} = \\frac{D}{t_{\\text{total}}} = \\frac{D}{17D/1200} = \\frac{1200}{17} \\approx 70.588$ km/jam.\nNilai terdekat adalah $70$ km/jam. Jadi, jawabannya adalah B."
   },
-  {
+ {
     "id": 7,
     "pertanyaan": "Sebuah kerucut memiliki volume $462\\text{ cm}^3$ dan tinggi $9$ cm. Berapa panjang garis pelukisnya? $(\\pi = \\tfrac{22}{7})$",
     "pilihan": ["$11$ cm", "$12$ cm", "$13$ cm", "$14$ cm", "$15$ cm"],
     "jawaban": "A",
-    "pembahasan": "Langkah 1: Cari jari-jari ($r$) dari volume.\n$V = \\tfrac{1}{3} \\pi r^2 h$.\n$462 = \\tfrac{1}{3} \\times \\tfrac{22}{7} \\times r^2 \\times 9$.\n$462 = \\frac{66}{7} r^2 \\Rightarrow r^2 = 49 \\Rightarrow r = 7\\text{ cm}$.\n\nLangkah 2: Hitung garis pelukis ($s$).\n$s = \\sqrt{r^2 + h^2} = \\sqrt{7^2 + 9^2} = \\sqrt{49 + 81} = \\sqrt{130}$ cm.\nNilai $\\sqrt{130} \\approx 11.40$ cm, dibulatkan menjadi $11$ cm.\nJadi, jawabannya adalah A."
-  },
+    "pembahasan": "Langkah 1: Cari jari-jari ($r$) dari volume.\nRumus Volume Kerucut: $V = \\tfrac{1}{3} \\pi r^2 h$.\n$462 = \\tfrac{1}{3} \\times \\frac{22}{7} \\times r^2 \\times 9$.\n$462 = \\frac{66}{7} r^2$.\n$r^2 = \\frac{462 \\times 7}{66} = 49 \\Rightarrow r = 7\\text{ cm}$.\n\nLangkah 2: Hitung garis pelukis ($s$).\nGaris pelukis dihitung dengan Teorema Pythagoras:\n$s = \\sqrt{r^2 + h^2} = \\sqrt{7^2 + 9^2}$.\n$s = \\sqrt{49 + 81} = \\sqrt{130}$ cm.\n\n*Penyimpulan*: Nilai $\\sqrt{130} \\approx 11.40$ cm. Dalam pilihan yang tersedia, nilai ini paling mendekati $11$ cm.\nJadi, jawabannya adalah A."
+},
   {
     "id": 8,
     "pertanyaan": "Sebuah sekolah memiliki perbandingan siswa laki-laki dan perempuan $3:5$. Jika selisihnya $160$ orang, berapa total siswa?",
