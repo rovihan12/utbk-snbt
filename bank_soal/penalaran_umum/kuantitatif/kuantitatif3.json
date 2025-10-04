@@ -48,15 +48,15 @@
     "pembahasan": "1. Ruang Sampel $n(S)$: Total cara memilih 2 dari 10: $C(10, 2) = 45$.\n2. Kejadian $n(K)$: Memilih 1 merah dari 4 DAN 1 biru dari 6: $C(4, 1) \\times C(6, 1) = 4 \\times 6 = 24$.\n3. Peluang $P(K) = \\frac{24}{45} = \\frac{8}{15}$."
   },
   {
-    "id": 7,
-    "pertanyaan": "Jika $p^2 = 36$ dan $q = \\sqrt{49}$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
-    "kuantitas_p": "$p$",
-    "kuantitas_q": "$q$",
-"gambar" :"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_100917_Google.jpg",
-    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = 3Q"],
-    "jawaban": "D",
-    "pembahasan": "1. Kuantitas P: $p^2 = 36 \\Rightarrow p = 6$ atau $p = -6$. \n2. Kuantitas Q: $q = \\sqrt{49} = 7$. \n3. Hubungan: Jika $p=6$, maka $P < Q$ (karena $6 < 7$). Jika $p=-6$, maka $P < Q$ (karena $-6 < 7$). Karena $P$ harus memiliki salah satu dari dua nilai, dan kedua nilai tersebut menghasilkan hubungan yang sama ($P < Q$), maka hubungan **dapat ditentukan**.\n*Revisi Jawaban:* Dalam konteks matematika umum, jika semua kemungkinan nilai $P$ menghasilkan hubungan yang sama dengan $Q$, maka hubungan tersebut dapat ditentukan. Dalam hal ini $P < Q$. \n**Jawaban yang seharusnya B (P < Q).** Saya akan menggunakan B, karena semua kemungkinan nilai $p$ menghasilkan $p < q$."
-  },
+  "id": 7,
+  "pertanyaan": "Jika $p^2 = 36$ dan $q = \\sqrt{49}$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q!",
+  "kuantitas_p": "$p$",
+  "kuantitas_q": "$q$",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_100917_Google.jpg",
+  "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = 3Q"],
+  "jawaban": "B",
+  "pembahasan": "1. Kuantitas P: $p^2 = 36$ memiliki dua solusi, yaitu $p = 6$ atau $p = -6$. \n2. Kuantitas Q: $q = \\sqrt{49}$ (akar kuadrat utama) adalah $q = 7$. \n3. Hubungan: Kita harus membandingkan semua kemungkinan nilai $P$ dengan $Q=7$.\n   - Kasus 1: Jika $p=6$, maka $6 < 7$ ($P < Q$).\n   - Kasus 2: Jika $p=-6$, maka $-6 < 7$ ($P < Q$).\nKarena kedua kemungkinan nilai $P$ menghasilkan hubungan yang sama dengan $Q$, maka hubungan pasti dapat ditentukan, yaitu **$P < Q$**."
+},
   {
     "id": 8,
     "pertanyaan": "Sebuah restoran mengenakan biaya tetap $\\text{Rp } 10.000,00$ untuk setiap pesanan dan biaya tambahan $\\text{Rp } 5.000,00$ per item makanan yang dipesan. Jika Rudi memesan 4 item makanan. Tentukan total biaya yang harus dibayar Rudi.",
