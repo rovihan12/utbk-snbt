@@ -10,7 +10,7 @@
       "32.000"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nPopulasi awal: 1.000.\n\nSetelah 1 jam: $1.000 \\times 2 = 2.000$.\n\nSetelah 2 jam: $2.000 \\times 2 = 4.000$.\n\nSetelah 3 jam: $4.000 \\times 2 = 8.000$.\n\n**Cara Cepat (Barisan Geometri)**:\n\nGunakan rumus: $U_n = a \\times r^n$.\n\n$U_3 = 1.000 \\times 2^3 = 1.000 \\times 8 = 8.000$. Jadi, jawabannya adalah C."
+    "pembahasan": "**Langkah Lengkap**:\n\nPopulasi awal: 1.000.\n\nSetelah 1 jam: $1.000 \\times 2 = 2.000$.\n\nSetelah 2 jam: $2.000 \\times 2 = 4.000$.\n\nSetelah 3 jam: $4.000 \\times 2 = 8.000$.\n\n**Cara Cepat (Barisan Geometri)**:\n\nGunakan rumus: $U_{n} = a \\times r^{n}$ (dengan $n$ adalah waktu dalam jam).\n\n$U_{3} = 1.000 \\times 2^{3} = 1.000 \\times 8 = 8.000$. Jadi, jawabannya adalah C."
   },
   {
     "id": 2,
@@ -142,7 +142,7 @@
     "jawaban": "D",
     "pembahasan": "**Langkah Lengkap**:\n\n1. **Produktivitas Awal** (Unit/Pekerja): $P_{\\text{awal}} = 500 / 20 = 25 \\text{ unit/pekerja}$ .\n\n2. **Produktivitas Baru** (Meningkat 25%): $P_{\\text{baru}} = 25 \\times (1 + 0.25) = 25 \\times 1.25 = 31.25 \\text{ unit/pekerja}$ .\n\n3. **Total Produksi Baru** (dengan 15 pekerja):\n\nTotal = $31.25 \\text{ unit/pekerja} \\times 15 \\text{ pekerja} = 468.75 \\text{ unit}$."
   },
-  {
+    {
     "id": 12,
     "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., $\\frac{1}{64}$. Berapa banyak suku dalam barisan tersebut?",
     "pilihan": [
@@ -153,7 +153,7 @@
       "14"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Barisan Geometri**:\n\nSuku pertama ($a$) = 16. Rasio ($r$) = $8/16 = \\frac{1}{2}$. Suku ke-$n$ ($U_n$) = $\\frac{1}{64}$.\n\nRumus Suku ke-$n$: $U_n = a \\times r^{n-1}$\n\n$\\frac{1}{64} = 16 \\times (\\frac{1}{2})^{n-1}$\n\n$\\frac{1}{64 \\times 16} = (\\frac{1}{2})^{n-1}$\n\n$\\frac{1}{1024} = (\\frac{1}{2})^{n-1}$\n\nKarena $1024 = 2^{10}$, maka: $(\\frac{1}{2})^{10} = (\\frac{1}{2})^{n-1}$\n\n$10 = n-1 \\Rightarrow n = 11$."
+    "pembahasan": "**Langkah Barisan Geometri**:\n\nSuku pertama ($a$) = 16. Rasio ($r$) = $8/16 = \\frac{1}{2}$. Suku ke-$n$ ($U_{n}$) = $\\frac{1}{64}$.\n\nRumus Suku ke-$n$: $U_{n} = a \\times r^{n-1}$\n\n$\\frac{1}{64} = 16 \\times (\\frac{1}{2})^{n-1}$\n\n$\\frac{1}{64 \\times 16} = (\\frac{1}{2})^{n-1}$\n\n$\\frac{1}{1024} = (\\frac{1}{2})^{n-1}$\n\nKarena $1024 = 2^{10}$, maka: $(\\frac{1}{2})^{10} = (\\frac{1}{2})^{n-1}$\n\n$10 = n-1 \\Rightarrow n = 11$."
   },
   {
     "id": 13,
