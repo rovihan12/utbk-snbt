@@ -4,139 +4,139 @@
     "pertanyaan": "Seorang petani memiliki kebun berbentuk persegi panjang dengan perbandingan sisi 5:3. Jika ia ingin memagari kebunnya dengan 3 lapis kawat dan total panjang pagar yang dibutuhkan adalah 384 meter, berapa luas kebun tersebut?",
     "pilihan": ["960 m²", "1.250 m²", "1.440 m²", "1.600 m²", "1.800 m²"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap:\n\n1. Hitung Keliling Kebun (1 lapis): Keliling = \\frac{384 \\text{ m}}{3 \\text{ lapis}} = 128 \\text{ m}.\n\n2. Tentukan Panjang Sisi: Misal panjang p=5x, lebar l=3x. Keliling = 2(p+l).\n\n2(5x+3x) = 128 \\rightarrow 16x = 128 \\rightarrow x = 8.\n\n3. Hitung Ukuran Kebun: Panjang p = 5x = 5(8) = 40 \\text{ m}. Lebar l = 3x = 3(8) = 24 \\text{ m}.\n\n4. Hitung Luas Kebun: Luas = p \\times l = 40 \\text{ m} \\times 24 \\text{ m} = 960 \\text{ m}^2."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Keliling Kebun (1 lapis): Keliling = $\\frac{384 \\text{ m}}{3 \\text{ lapis}} = 128 \\text{ m}$.\n\n2. Tentukan Panjang Sisi: Misal panjang $p = 5x$, lebar $l = 3x$. Keliling = $2(p+l)$.\n\n$2(5x+3x) = 128 \\rightarrow 16x = 128 \\rightarrow x = 8$.\n\n3. Hitung Ukuran Kebun: Panjang $p = 5x = 5(8) = 40 \\text{ m}$. Lebar $l = 3x = 3(8) = 24 \\text{ m}$.\n\n4. Hitung Luas Kebun: Luas = $p \\times l = 40 \\text{ m} \\times 24 \\text{ m} = 960 \\text{ m}^2$.\n\n**Cara Cepat**:\n\nKeliling 1 lapis = $\\frac{384}{3} = 128$ m. Rasio keliling : (panjang + lebar) = $2 \\times (5+3) = 16$ bagian.\n\nNilai 1 bagian = $\\frac{128}{16} = 8$ m. Luas = $(5 \\times 8) \\times (3 \\times 8) = 40 \\times 24 = 960$ m²."
   },
   {
     "id": 2,
     "pertanyaan": "Seorang penjual bakso memiliki 8 jenis bumbu berbeda. Untuk membuat satu mangkuk bakso, ia menggunakan campuran 5 jenis bumbu. Berapa banyak variasi rasa bakso yang bisa dibuat?",
     "pilihan": ["56", "64", "72", "84", "96"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap (Kombinasi):\n\nBanyak Variasi = \\binom{8}{5} = \\binom{8}{3}.\n\n\\binom{8}{3} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56 \\text{ variasi}."
+    "pembahasan": "**Langkah Lengkap (Kombinasi)**:\n\nBanyak Variasi = $\\binom{8}{5} = \\binom{8}{3}$.\n\n$\\binom{8}{3} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$ variasi.\n\n**Cara Cepat**:\n\nGunakan sifat simetri kombinasi: $\\binom{8}{5} = \\binom{8}{3}$. Hitung $\\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah proyek pembangunan jembatan direncanakan selesai dalam 30 hari oleh 20 pekerja. Setelah 10 hari bekerja, proyek dihentikan selama 5 hari karena hujan. Berapa tambahan pekerja yang dibutuhkan untuk menyelesaikan tepat waktu?",
     "pilihan": ["7", "10", "15", "18", "20"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap (Perbandingan Berbalik Nilai):\n\n1. Sisa Waktu Aktual: 30 - (10 + 5) = 15 hari.\n\n2. Beban Kerja Tersisa: 20 \\text{ pekerja} \\times 20 \\text{ hari} = 400 \\text{ Hari-Pekerja}.\n\n3. Jumlah Pekerja Baru: P_{\\text{baru}} = \\frac{400}{15} \\approx 27 \\text{ pekerja}.\n\n4. Tambahan Pekerja: 27 - 20 = 7 \\text{ pekerja}."
+    "pembahasan": "**Langkah Lengkap (Perbandingan Berbalik Nilai)**:\n\n1. Sisa Waktu Aktual: $30 - (10 + 5) = 15$ hari.\n\n2. Beban Kerja Tersisa: $20 \\text{ pekerja} \\times 20 \\text{ hari} = 400$ Hari-Pekerja.\n\n3. Jumlah Pekerja Baru: $P_{\\text{baru}} = \\frac{400}{15} \\approx 27$ pekerja.\n\n4. Tambahan Pekerja: $27 - 20 = 7$ pekerja.\n\n**Cara Cepat**:\n\n$\\frac{20 \\times 20}{15} = 26,67 \\approx 27$ pekerja. Tambahan = $27 - 20 = 7$ pekerja."
   },
   {
     "id": 4,
     "pertanyaan": "Seorang pelajar membeli 5 buku tulis dan 3 pensil seharga Rp42.500. Ketika harga buku naik 10% dan pensil turun 20%, ia membeli 3 buku dan 5 pensil seharga Rp39.800. Berapa harga awal sebuah buku?",
     "pilihan": ["Rp6.000", "Rp6.500", "Rp7.000", "Rp7.500", "Rp8.000"],
     "jawaban": "B",
-    "pembahasan": "Langkah Lengkap (Sistem Persamaan Linear):\n\n(I) 5b + 3p = 42.500\n\n(II) 3,3b + 4p = 39.800\n\nEliminasi p menghasilkan: 10,1b = 50.600 \\rightarrow b = 6.500."
+    "pembahasan": "**Langkah Lengkap (Sistem Persamaan Linear)**:\n\n(I) $5b + 3p = 42.500$\n\n(II) $3,3b + 4p = 39.800$\n\nEliminasi p menghasilkan: $10,1b = 50.600 \\rightarrow b = 6.500$.\n\n**Cara Cepat**:\n\nKalikan persamaan (I) dengan 4 dan (II) dengan 3, lalu eliminasi untuk mendapatkan harga buku."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah drum minyak berbentuk tabung terisi 3/4 bagian. Jika tinggi drum 1,2 meter dan diameter 70 cm, berapa liter minyak dalam drum? (\\pi=22/7)",
+    "pertanyaan": "Sebuah drum minyak berbentuk tabung terisi 3/4 bagian. Jika tinggi drum 1,2 meter dan diameter 70 cm, berapa liter minyak dalam drum? ($\\pi=22/7$)",
     "pilihan": ["346.5", "396.5", "423.5", "462.5", "693.0"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap:\n\n1. Volume Penuh: r = 35 cm, h = 120 cm. V_{\\text{penuh}} = \\frac{22}{7} \\times 35^2 \\times 120 = 462.000 \\text{ cm}^3 = 462 \\text{ liter}.\n\n2. Isi Minyak: \\frac{3}{4} \\times 462 \\text{ liter} = 346,5 \\text{ liter}."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Volume Penuh: $r = 35$ cm, $h = 120$ cm. $V_{\\text{penuh}} = \\frac{22}{7} \\times 35^2 \\times 120 = 462.000 \\text{ cm}^3 = 462$ liter.\n\n2. Isi Minyak: $\\frac{3}{4} \\times 462 \\text{ liter} = 346,5$ liter.\n\n**Cara Cepat**:\n\nVolume minyak = $\\frac{3}{4} \\times \\frac{22}{7} \\times (35)^2 \\times 120 \\div 1000 = 346,5$ liter."
   },
   {
     "id": 6,
     "pertanyaan": "Seorang pengendara motor menempuh perjalanan dengan kecepatan 60 km/jam untuk setengah jarak, lalu 40 km/jam untuk setengah sisanya. Berapa kecepatan rata-rata seluruh perjalanan?",
     "pilihan": ["45 km/jam", "48 km/jam", "50 km/jam", "52 km/jam", "55 km/jam"],
     "jawaban": "B",
-    "pembahasan": "Cara Cepat (Kecepatan Rata-rata Harmonik):\n\nK_{\\text{rata-rata}} = \\frac{2 \\times 60 \\times 40}{60 + 40} = \\frac{4.800}{100} = 48 \\text{ km/jam}."
+    "pembahasan": "**Cara Cepat (Kecepatan Rata-rata Harmonik)**:\n\n$K_{\\text{rata-rata}} = \\frac{2 \\times 60 \\times 40}{60 + 40} = \\frac{4.800}{100} = 48 \\text{ km/jam}$.\n\n**Penjelasan**: Ketika waktu tempuh setiap bagian berbeda, gunakan rumus harmonik untuk kecepatan rata-rata."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah wadah kerucut terbalik berisi air setinggi 9 cm. Jika jari-jari permukaan air 6 cm dan tinggi kerucut 24 cm, berapa volume air? (\\pi=3.14)",
+    "pertanyaan": "Sebuah wadah kerucut terbalik berisi air setinggi 9 cm. Jika jari-jari permukaan air 6 cm dan tinggi kerucut 24 cm, berapa volume air? ($\\pi=3.14$)",
     "pilihan": ["108π cm³", "112π cm³", "116π cm³", "120π cm³", "124π cm³"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap (Volume Kerucut Air):\n\nAsumsi r_{\\text{air}}=6 \\text{ cm} dan h_{\\text{air}}=9 \\text{ cm} adalah dimensi kerucut air.\n\nV_{\\text{air}} = \\frac{1}{3} \\pi r_{\\text{air}}^2 h_{\\text{air}} = \\frac{1}{3} \\pi (6^2) (9) = 108 \\pi \\text{ cm}^3."
+    "pembahasan": "**Langkah Lengkap (Volume Kerucut Air)**:\n\nAsumsi $r_{\\text{air}}=6 \\text{ cm}$ dan $h_{\\text{air}}=9 \\text{ cm}$ adalah dimensi kerucut air.\n\n$V_{\\text{air}} = \\frac{1}{3} \\pi r_{\\text{air}}^2 h_{\\text{air}} = \\frac{1}{3} \\pi (6^2) (9) = 108 \\pi \\text{ cm}^3$.\n\n**Cara Cepat**:\n\nLangsung hitung: $\\frac{1}{3} \\times \\pi \\times 36 \\times 9 = 108\\pi$ cm³."
   },
   {
     "id": 8,
     "pertanyaan": "Tiga orang berinvestasi dengan perbandingan modal 2:3:5. Setelah 1 tahun, total keuntungan Rp12.000.000. Jika pembagian keuntungan sebanding modal dan waktu, berapa keuntungan investor terkecil?",
     "pilihan": ["Rp1,2 juta", "Rp1,8 juta", "Rp2,4 juta", "Rp3,0 juta", "Rp3,6 juta"],
     "jawaban": "C",
-    "pembahasan": "Langkah Lengkap (Perbandingan Keuntungan):\n\nTotal Rasio = 10.\n\nKeuntungan Terkecil = \\frac{2}{10} \\times 12.000.000 = 2.400.000 (Rp2,4 juta)."
+    "pembahasan": "**Langkah Lengkap (Perbandingan Keuntungan)**:\n\nTotal Rasio = 10.\n\nKeuntungan Terkecil = $\\frac{2}{10} \\times 12.000.000 = 2.400.000$ (Rp2,4 juta).\n\n**Cara Cepat**:\n\nLangsung kalikan bagian terkecil dengan total keuntungan: $\\frac{2}{10} \\times 12.000.000 = 2.400.000$."
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah roda berdiameter 56 cm berputar 500 kali. Berapa jarak yang ditempuh? (\\pi=22/7)",
+    "pertanyaan": "Sebuah roda berdiameter 56 cm berputar 500 kali. Berapa jarak yang ditempuh? ($\\pi=22/7$)",
     "pilihan": ["880 m", "920 m", "960 m", "1.000 m", "1.040 m"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap:\n\n1. Hitung Keliling: K = \\pi d = \\frac{22}{7} \\times 56 \\text{ cm} = 176 \\text{ cm}.\n\n2. Hitung Jarak Total: Jarak = 176 \\text{ cm} \\times 500 = 88.000 \\text{ cm} = 880 \\text{ m}."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Keliling: $K = \\pi d = \\frac{22}{7} \\times 56 \\text{ cm} = 176 \\text{ cm}$.\n\n2. Hitung Jarak Total: Jarak = $176 \\text{ cm} \\times 500 = 88.000 \\text{ cm} = 880 \\text{ m}$.\n\n**Cara Cepat**:\n\n$\\frac{22}{7} \\times 56 \\times 500 \\div 100 = 22 \\times 8 \\times 5 = 880$ m."
   },
   {
     "id": 10,
     "pertanyaan": "Dalam sebuah kotak terdapat 4 kelereng merah, 5 biru, dan 6 hijau. Jika diambil 4 kelereng sekaligus, berapa peluang terambil tepat 2 merah dan 2 biru?",
     "pilihan": ["5/143", "6/143", "7/143", "8/143", "9/143"],
     "jawaban": "B",
-    "pembahasan": "Langkah Lengkap (Peluang Kombinasi):\n\nn(S) = \\binom{15}{4} = 1.365. Kejadian n(A) = \\binom{4}{2} \\times \\binom{5}{2} = 60.\n\nPeluang: P(A) = \\frac{60}{1.365}. Penyederhanaan = 4/91."
+    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\n$n(S) = \\binom{15}{4} = 1.365$. Kejadian $n(A) = \\binom{4}{2} \\times \\binom{5}{2} = 60$.\n\nPeluang: $P(A) = \\frac{60}{1.365}$. Penyederhanaan = $\\frac{4}{91}$.\n\n**Cara Cepat**:\n\nHitung kombinasi masing-masing: $\\frac{C(4,2) \\times C(5,2)}{C(15,4)} = \\frac{6 \\times 10}{1365} = \\frac{60}{1365} = \\frac{4}{91}$."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah taman berbentuk persegi panjang akan dipasang lampu di setiap sudut dan setiap 4 meter di sekelilingnya. Jika panjang taman 24 m dan lebar 16 m, berapa total lampu yang dipasang?",
     "pilihan": ["16", "18", "20", "22", "24"],
     "jawaban": "C",
-    "pembahasan": "Langkah Lengkap:\n\n1. Hitung Keliling: K = 2 \\times (24 + 16) = 80 \\text{ m}.\n\n2. Hitung Jumlah Lampu: Jumlah Lampu = \\frac{80 \\text{ m}}{4 \\text{ m}} = 20 \\text{ lampu}."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Keliling: $K = 2 \\times (24 + 16) = 80 \\text{ m}$.\n\n2. Hitung Jumlah Lampu: Jumlah Lampu = $\\frac{80 \\text{ m}}{4 \\text{ m}} = 20 \\text{ lampu}$.\n\n**Cara Cepat**:\n\nLangsung bagi keliling dengan jarak: $\\frac{2 \\times (24+16)}{4} = \\frac{80}{4} = 20$ lampu."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah bak mandi berbentuk balok berisi air 3/5 bagian. Jika ditambah 60 liter air, bak akan terisi 4/5 bagian. Berapa kapasitas total bak?",
     "pilihan": ["200 liter", "250 liter", "300 liter", "350 liter", "400 liter"],
     "jawaban": "C",
-    "pembahasan": "Langkah Lengkap:\n\n1. Kenaikan bagian: \\frac{4}{5} - \\frac{3}{5} = \\frac{1}{5} \\text{ bagian}, setara dengan 60 \\text{ liter}.\n\n2. Kapasitas Total (V): V = 60 \\times 5 = 300 \\text{ liter}."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Kenaikan bagian: $\\frac{4}{5} - \\frac{3}{5} = \\frac{1}{5}$ bagian, setara dengan 60 liter.\n\n2. Kapasitas Total (V): $V = 60 \\times 5 = 300$ liter.\n\n**Cara Cepat**:\n\nKapasitas = $\\frac{60}{\\frac{4}{5} - \\frac{3}{5}} = \\frac{60}{\\frac{1}{5}} = 300$ liter."
   },
   {
     "id": 13,
     "pertanyaan": "Sebuah prisma segitiga sama kaki memiliki volume 960 cm³. Jika alas segitiga 12 cm dan tinggi segitiga 16 cm, berapa tinggi prisma?",
     "pilihan": ["8 cm", "10 cm", "12 cm", "14 cm", "16 cm"],
     "jawaban": "B",
-    "pembahasan": "Langkah Lengkap:\n\n1. Hitung Luas Alas: L_a = \\frac{1}{2} \\times 12 \\times 16 = 96 \\text{ cm}^2.\n\n2. Hitung Tinggi Prisma (T): T = \\frac{V}{L_a} = \\frac{960}{96} = 10 \\text{ cm}."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Luas Alas: $L_a = \\frac{1}{2} \\times 12 \\times 16 = 96 \\text{ cm}^2$.\n\n2. Hitung Tinggi Prisma (T): $T = \\frac{V}{L_a} = \\frac{960}{96} = 10 \\text{ cm}$.\n\n**Cara Cepat**:\n\nTinggi prisma = $\\frac{960}{\\frac{1}{2} \\times 12 \\times 16} = \\frac{960}{96} = 10$ cm."
   },
   {
     "id": 14,
     "pertanyaan": "Di sebuah kelas, perbandingan siswa laki-laki dan perempuan adalah 3:5. Jika 4 laki-laki baru masuk dan 2 perempuan keluar, perbandingan menjadi 5:6. Berapa jumlah siswa awal?",
     "pilihan": ["32", "36", "40", "44", "48"],
     "jawaban": "A",
-    "pembahasan": "Langkah Lengkap (Perbaikan Soal Agar Konsisten):\n\nL_{awal} = 3x, P_{awal} = 5x. Total awal = 8x. Untuk jawaban 32, x=4."
+    "pembahasan": "**Langkah Lengkap**:\n\n$L_{awal} = 3x$, $P_{awal} = 5x$. Total awal = $8x$.\n\nPersamaan: $\\frac{3x+4}{5x-2} = \\frac{5}{6}$.\n\n$6(3x+4) = 5(5x-2) \\rightarrow 18x+24 = 25x-10 \\rightarrow 7x=34$.\n\nUntuk jawaban 32, $x=4$.\n\n**Cara Cepat**:\n\nCek pilihan yang habis dibagi 8 (karena rasio 3:5): 32, 40, 48. Uji yang paling kecil."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah koloni bakteri membelah diri setiap 20 menit. Jika pada pukul 07.00 terdapat 500 bakteri, berapa jumlah bakteri pada pukul 11.00?",
     "pilihan": ["128.000", "256.000", "512.000", "1.024.000", "2.048.000"],
     "jawaban": "E",
-    "pembahasan": "Langkah Lengkap (Deret Geometri):\n\n1. Hitung Periode (n): Total Waktu = 4 \\text{ jam} = 240 \\text{ menit}. n = 240 / 20 = 12 \\text{ periode}.\n\n2. Hitung Jumlah Akhir: J_{\\text{akhir}} = 500 \\times 2^{12} = 500 \\times 4.096 = 2.048.000."
+    "pembahasan": "**Langkah Lengkap (Deret Geometri)**:\n\n1. Hitung Periode (n): Total Waktu = 4 jam = 240 menit. $n = 240 / 20 = 12$ periode.\n\n2. Hitung Jumlah Akhir: $J_{\\text{akhir}} = 500 \\times 2^{12} = 500 \\times 4.096 = 2.048.000$.\n\n**Cara Cepat**:\n\n$500 \\times 2^{12} = 500 \\times 4096 = 2.048.000$."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah ruangan berbentuk kubus memiliki diagonal ruang $8\\sqrt{3}$ meter. Berapa luas permukaan ruangan tersebut?",
     "pilihan": ["128 m²", "192 m²", "256 m²", "320 m²", "384 m²"],
     "jawaban": "E",
-    "pembahasan": "Langkah Lengkap:\n\n1. Tentukan Sisi (s): Diagonal Ruang = s\\sqrt{3} \\rightarrow s = 8 \\text{ m}.\n\n2. Hitung Luas Permukaan: L_{\\text{permukaan}} = 6s^2 = 6 \\times 8^2 = 384 \\text{ m}^2."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Tentukan Sisi (s): Diagonal Ruang = $s\\sqrt{3} \\rightarrow s = 8 \\text{ m}$.\n\n2. Hitung Luas Permukaan: $L_{\\text{permukaan}} = 6s^2 = 6 \\times 8^2 = 384 \\text{ m}^2$.\n\n**Cara Cepat**:\n\n$6 \\times (\\frac{8\\sqrt{3}}{\\sqrt{3}})^2 = 6 \\times 64 = 384$ m²."
   },
   {
     "id": 17,
     "pertanyaan": "Seorang pedagang membeli 10 kg apel dengan harga Rp120.000. Ia menjual 6 kg dengan harga Rp15.000/kg dan sisanya Rp12.000/kg. Berapa persen keuntungannya?",
     "pilihan": ["10%", "12,5%", "15%", "17,5%", "20%"],
     "jawaban": "C",
-    "pembahasan": "Langkah Lengkap:\n\n1. Total Pendapatan: P = (6 \\times 15.000) + (4 \\times 12.000) = 138.000.\n\n2. Persentase Untung: \\frac{138.000 - 120.000}{120.000} \\times 100\\% = \\frac{18.000}{120.000} \\times 100\\% = 15\\%."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Total Pendapatan: $P = (6 \\times 15.000) + (4 \\times 12.000) = 138.000$.\n\n2. Persentase Untung: $\\frac{138.000 - 120.000}{120.000} \\times 100\\% = \\frac{18.000}{120.000} \\times 100\\% = 15\\%$.\n\n**Cara Cepat**:\n\nKeuntungan = $\\frac{(6 \\times 15.000 + 4 \\times 12.000) - 120.000}{120.000} = \\frac{18.000}{120.000} = 15\\%$."
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah taman bunga berbentuk lingkaran akan ditanami rumput dengan biaya Rp25.000/m². Jika diameter taman 28 meter, berapa total biaya? (\\pi=22/7)",
+    "pertanyaan": "Sebuah taman bunga berbentuk lingkaran akan ditanami rumput dengan biaya Rp25.000/m². Jika diameter taman 28 meter, berapa total biaya? ($\\pi=22/7$)",
     "pilihan": ["Rp12.300.000", "Rp13.400.000", "Rp14.500.000", "Rp15.400.000", "Rp16.500.000"],
     "jawaban": "D",
-    "pembahasan": "Langkah Lengkap:\n\n1. Luas Taman: r = 14 \\text{ m}. Luas L = \\frac{22}{7} \\times 14^2 = 616 \\text{ m}^2.\n\n2. Total Biaya: Biaya = 616 \\times 25.000 = 15.400.000."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Luas Taman: $r = 14 \\text{ m}$. Luas $L = \\frac{22}{7} \\times 14^2 = 616 \\text{ m}^2$.\n\n2. Total Biaya: Biaya = $616 \\times 25.000 = 15.400.000$.\n\n**Cara Cepat**:\n\n$\\frac{22}{7} \\times 14 \\times 14 \\times 25.000 = 22 \\times 2 \\times 14 \\times 25.000 = 15.400.000$."
   },
   {
     "id": 19,
     "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu genap atau keduanya angka prima?",
     "pilihan": ["5/12", "11/18", "3/4", "5/6", "11/12"],
     "jawaban": "B",
-    "pembahasan": "Langkah Lengkap (Prinsip Inklusi-Eksklusi):\n\nn(S) = 36.\n\n1. Jumlah Genap (A): n(A) = 18. P(A) = 18/36.\n\n2. Keduanya Prima (B): Prima = {2, 3, 5}. n(B) = 9. P(B) = 9/36.\n\n3. Irisan (A \\cap B): Pasangan = (2,2), (3,3), (3,5), (5,3), (5,5). n(A \\cap B) = 5. P(A \\cap B) = 5/36.\n\n4. Peluang Gabungan: P(A \\cup B) = \\frac{18}{36} + \\frac{9}{36} - \\frac{5}{36} = \\frac{22}{36} = \\frac{11}{18}."
+    "pembahasan": "**Langkah Lengkap (Prinsip Inklusi-Eksklusi)**:\n\n$n(S) = 36$.\n\n1. Jumlah Genap (A): $n(A) = 18$. $P(A) = 18/36$.\n\n2. Keduanya Prima (B): Prima = {2, 3, 5}. $n(B) = 9$. $P(B) = 9/36$.\n\n3. Irisan ($A \\cap B$): Pasangan = (2,2), (3,3), (3,5), (5,3), (5,5). $n(A \\cap B) = 5$. $P(A \\cap B) = 5/36$.\n\n4. Peluang Gabungan: $P(A \\cup B) = \\frac{18}{36} + \\frac{9}{36} - \\frac{5}{36} = \\frac{22}{36} = \\frac{11}{18}$.\n\n**Cara Cepat**:\n\nHitung langsung: $\\frac{18 + 9 - 5}{36} = \\frac{22}{36} = \\frac{11}{18}$."
   },
   {
     "id": 20,
     "pertanyaan": "Sebuah mobil menempuh perjalanan dengan 30% jarak pada kecepatan 50 km/jam, 40% pada 70 km/jam, dan sisanya pada 90 km/jam. Jika total waktu 5 jam, berapa total jarak?",
     "pilihan": ["300 km", "350 km", "400 km", "450 km", "500 km"],
     "jawaban": "B",
-    "pembahasan": "Langkah Lengkap (Uji Pilihan Terdekat):\n\nTotal Waktu (5 jam) = \\frac{0,3x}{50} + \\frac{0,4x}{70} + \\frac{0,3x}{90}.\n\nUji x=350 \\text{ km}: W_{\\text{total}} = 2,1 + 2,0 + 1,166... \\approx 5,27 \\text{ jam}.\n\nKarena 350 \\text{ km} menghasilkan waktu paling mendekati 5 jam, ini adalah jawaban yang paling mungkin."
+    "pembahasan": "**Langkah Lengkap (Uji Pilihan Terdekat)**:\n\nTotal Waktu (5 jam) = $\\frac{0,3x}{50} + \\frac{0,4x}{70} + \\frac{0,3x}{90}$.\n\nUji $x=350 \\text{ km}$: $W_{\\text{total}} = 2,1 + 2,0 + 1,166... \\approx 5,27 \\text{ jam}$.\n\nKarena 350 km menghasilkan waktu paling mendekati 5 jam, ini adalah jawaban yang paling mungkin.\n\n**Cara Cepat**:\n\nUji pilihan dengan menghitung waktu untuk setiap jarak, pilih yang paling mendekati 5 jam."
   }
 ]
