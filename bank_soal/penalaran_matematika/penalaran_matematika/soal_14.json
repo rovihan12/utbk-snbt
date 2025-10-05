@@ -170,7 +170,7 @@
   },
   {
     "id": 14,
-    "pertanyaan": "Diketahui sistem persamaan: $$2x+3y=13$$ dan $$3x-y=5$$. Berapa nilai $$x^2+y^2$$?",
+    "pertanyaan": "Diketahui sistem persamaan: $$2x+3y=7$$ dan $$3x-y=5$$. Berapa nilai $$x^2+y^2$$?",
     "pilihan": [
       "5",
       "10",
@@ -179,7 +179,7 @@
       "25"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Penyelesaian Sistem Persamaan**:\n\nPersamaan (2): $3x - y = 5 \\Rightarrow y = 3x - 5$.\n\nSubstitusi ke Persamaan (1):\n\n$$2x + 3(3x - 5) = 13$$\n\n$$2x + 9x - 15 = 13 \\Rightarrow 11x = 28 \\Rightarrow x = \\tfrac{28}{11}$$\n\n$$y = 3(\\tfrac{28}{11}) - 5 = \\tfrac{84}{11} - \\tfrac{55}{11} = \\tfrac{29}{11}$$\n\n$$x^2+y^2 = (\\tfrac{28}{11})^2 + (\\tfrac{29}{11})^2 = \\tfrac{784+841}{121} = \\tfrac{1625}{121} \\approx 13.43$$\n\n***Catatan:*** Berdasarkan kunci jawaban yang diberikan ("A" = 5), terdapat **inkonsistensi** antara soal dan jawaban. Nilai $x^2+y^2=5$ hanya mungkin jika $x=2$ dan $y=1$ (atau sebaliknya), yang diperoleh jika soal diubah menjadi $3x-y=5 \\implies y=3x-5$ dan $2x+3y=7$ atau $2x+3y=13$ dan $3x-y=5$ diubah menjadi $x=2, y=1$. **Mengacu pada kunci A**, mari asumsikan solusi seharusnya $x=2, y=1$. Maka $x^2+y^2=2^2+1^2=5$."
+    "pembahasan": "**Langkah Penyelesaian Sistem Persamaan**:\n\nPersamaan (1): $$2x+3y=7$$\nPersamaan (2): $$3x-y=5 \\Rightarrow y = 3x - 5$$\n\nSubstitusi $y$ ke Persamaan (1):\n\n$$2x + 3(3x - 5) = 7$$\n\n$$2x + 9x - 15 = 7 \\Rightarrow 11x = 22 \\Rightarrow x = 2$$\n\nSubstitusi $x=2$ ke Persamaan (2):\n\n$$y = 3(2) - 5 = 6 - 5 = 1$$\n\n**Hasil Akhir**:\n\nNilai $$x^2+y^2 = 2^2 + 1^2 = 4 + 1 = 5$$."
   },
   {
     "id": 15,
