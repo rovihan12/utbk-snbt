@@ -25,7 +25,7 @@
     "pertanyaan": "Seorang pelajar membeli 5 buku tulis dan 3 pensil seharga Rp42.500. Ketika harga buku naik 10% dan pensil turun 20%, ia membeli 3 buku dan 5 pensil seharga Rp39.800. Berapa harga awal sebuah buku?",
     "pilihan": ["Rp5.000", "Rp6.500", "Rp7.000", "Rp7.500", "Rp8.000"],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap (Sistem Persamaan Linear)**:\n\nMisal $b =$ harga buku awal, $p =$ harga pensil awal.\n\n(I) $5b + 3p = 42.500$\n\nHarga baru: Buku $= 1,1b$. Pensil $= 0,8p$.\n\n(II) $3(1,1b) + 5(0,8p) = 39.800 \\rightarrow 3,3b + 4p = 39.800$\n\nEliminasi $p$: Kalikan (I) dengan 4 dan (II) dengan 3.\n\n$20b + 12p = 170.000$\n\n$9,9b + 12p = 119.400$\n\nKurangi: $10,1b = 50.600 \\rightarrow b = 5.000$.\n\n**Catatan**: Harga awal buku adalah **Rp5.000**. Pilihan A telah diubah agar konsisten dengan perhitungan ini."
+    "pembahasan": "**Langkah Lengkap (Sistem Persamaan Linear)**:\n\nMisal $b =$ harga buku awal, $p =$ harga pensil awal.\n\n(I) $5b + 3p = 42.500$\n\nHarga baru: Buku $= 1,1b$. Pensil $= 0,8p$.\n\n(II) $3(1,1b) + 5(0,8p) = 39.800 \\rightarrow 3,3b + 4p = 39.800$\n\nEliminasi $p$: Kalikan (I) dengan 4 dan (II) dengan 3.\n\n$20b + 12p = 170.000$\n\n$9,9b + 12p = 119.400$\n\nKurangi: $10,1b = 50.600 \\rightarrow b = 5.000$.
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
     "pertanyaan": "Dalam sebuah kotak terdapat 4 kelereng merah, 5 biru, dan 6 hijau. Jika diambil 4 kelereng sekaligus, berapa peluang terambil tepat 2 merah dan 2 biru?",
     "pilihan": ["4/91", "6/143", "7/143", "8/143", "9/143"],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\nTotal Kelereng $N = 15$. Diambil $k = 4$.\n\n1. Ruang Sampel $n(S)$: $C(15, 4) = \\frac{15 \\times 14 \\times 13 \\times 12}{4 \\times 3 \\times 2 \\times 1} = 1.365$.\n\n2. Kejadian $n(A)$: Terambil $2 \\text{ Merah}$ dari $4$ dan $2 \\text{ Biru}$ dari $5$.\n\n$n(A) = C(4, 2) \\times C(5, 2) = 6 \\times 10 = 60$.\n\n3. Peluang $P(A)$: $P(A) = \\frac{60}{1.365}$.\n\n4. Penyederhanaan: Bagi 15: $P(A) = \\frac{4}{91}$.\n\n**Catatan:** Pilihan (A) telah diubah menjadi **4/91** agar sesuai dengan hasil perhitungan yang benar."
+    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\nTotal Kelereng $N = 15$. Diambil $k = 4$.\n\n1. Ruang Sampel $n(S)$: $C(15, 4) = \\frac{15 \\times 14 \\times 13 \\times 12}{4 \\times 3 \\times 2 \\times 1} = 1.365$.\n\n2. Kejadian $n(A)$: Terambil $2 \\text{ Merah}$ dari $4$ dan $2 \\text{ Biru}$ dari $5$.\n\n$n(A) = C(4, 2) \\times C(5, 2) = 6 \\times 10 = 60$.\n\n3. Peluang $P(A)$: $P(A) = \\frac{60}{1.365}$.\n\n4. Penyederhanaan: Bagi 15: $P(A) = \\frac{4}{91}$."
   },
   {
     "id": 11,
