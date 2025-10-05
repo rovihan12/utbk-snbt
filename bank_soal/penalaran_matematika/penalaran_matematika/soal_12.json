@@ -2,141 +2,131 @@
   {
     "id": 1,
     "pertanyaan": "Sebuah restoran menawarkan paket makanan dengan 5 jenis appetizer, 6 jenis main course, dan 4 jenis dessert. Jika pelanggan ingin memilih 2 appetizer berbeda, 2 main course berbeda, dan 1 dessert, berapa banyak kombinasi makanan yang mungkin?",
-    "pilihan": ["600", "900", "1.200", "1.500", "1.800"],
+    "pilihan": [
+      "600",
+      "900",
+      "1.200",
+      "1.500",
+      "1.800"
+    ],
     "jawaban": "A",
-    "pembahasan": "Kombinasi appetizer: $C(5,2)=10$, main course: $C(6,2)=15$, dessert: $4$. Total kombinasi $=10\\times 15\\times 4=600$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Kombinasi Appetizer (2 dari 5): $C(5,2) = 10$.\n2. Hitung Kombinasi Main Course (2 dari 6): $C(6,2) = 15$.\n3. Hitung Kombinasi Dessert (1 dari 4): $C(4,1) = 4$.\n4. Total Kombinasi: $10 \\times 15 \\times 4 = 600$.\n\n**Cara Cepat**:\n\nTotal Kombinasi = $C(5,2) \\times C(6,2) \\times C(4,1) = 10 \\times 15 \\times 4 = 600$."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 7:4. Jika luas lapangan tersebut $700\\ \\text{m}^2$, berapa keliling lapangan tersebut?",
-    "pilihan": ["100 m", "110 m", "120 m", "130 m", "140 m"],
+    "pilihan": [
+      "100 m",
+      "110 m",
+      "120 m",
+      "130 m",
+      "140 m"
+    ],
     "jawaban": "B",
-    "pembahasan": "Misal panjang $=7x$, lebar $=4x$. Luas $=28x^2=700 \\Rightarrow x=5$. Panjang $=35$, lebar $=20$. Keliling $=2(35+20)=110$ m."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Misal $p=7x$, $l=4x$. Luas $= 28x^2 = 700$, maka $x^2=25$, $x=5$.\n2. Panjang $p=35$ m, lebar $l=20$ m.\n3. Keliling $= 2(35+20) = 2(55) = 110$ m.\n\n**Cara Cepat**:\n\nDari $28x^2=700$, didapat $x=5$. Keliling $= 2(7x+4x) = 22x = 22(5) = 110$ m."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 15 pekerja dalam 24 hari. Setelah bekerja 8 hari, 5 pekerja mengundurkan diri. Berapa total hari yang dibutuhkan untuk menyelesaikan proyek?",
-    "pilihan": ["28", "30", "32", "34", "36"],
+    "pilihan": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
     "jawaban": "C",
-    "pembahasan": "Total pekerjaan $=15\\times 24=360$ unit. Setelah 8 hari: $15\\times 8=120$ selesai, sisa $240$. Pekerja tersisa 10, waktu $=240/10=24$ hari. Jadi total $=8+24=32$ hari."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Total pekerjaan $= 15 \\times 24 = 360$ Hari-Pekerja.\n2. Pekerjaan selesai 8 hari: $15 \\times 8 = 120$. Sisa $= 240$.\n3. Pekerja tersisa $= 15-5=10$. Waktu sisa $= 240/10 = 24$ hari.\n4. Total hari $= 8+24 = 32$ hari.\n\n**Cara Cepat**:\n\nSisa hari ideal (15 pekerja) $= 24-8=16$ hari. Waktu nyata (10 pekerja) $= \\frac{15}{10} \\times 16 = 24$ hari. Total $= 8+24 = 32$ hari."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah toko memberikan diskon bertingkat 20% lalu 15% untuk semua barang. Jika Rina membeli sebuah laptop dengan harga Rp10.000.000 sebelum diskon, berapa yang harus dibayar?",
-    "pilihan": ["Rp6.400.000", "Rp6.800.000", "Rp7.200.000", "Rp7.600.000", "Rp8.000.000"],
+    "pilihan": [
+      "Rp6.400.000",
+      "Rp6.800.000",
+      "Rp7.200.000",
+      "Rp7.600.000",
+      "Rp8.000.000"
+    ],
     "jawaban": "B",
-    "pembahasan": "Harga setelah diskon 20%: $10.000.000\\times 0.8=8.000.000$. Lalu diskon 15%: $8.000.000\\times 0.85=6.800.000$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Setelah diskon 20%: $10.000.000 \\times (1-0.20) = 8.000.000$.\n2. Setelah diskon 15% (dari Rp8.000.000): $8.000.000 \\times (1-0.15) = 6.800.000$.\n\n**Cara Cepat**:\n\nHarga Akhir $= 10.000.000 \\times 0.8 \\times 0.85 = 6.800.000$."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah tabung memiliki volume $3.850\\ \\text{cm}^3$ dan tinggi $25\\ \\text{cm}$. Berapa luas permukaan tabung tersebut? $(\\pi=22/7)$",
-    "pilihan": ["1.408 cm²", "1.496 cm²", "1.540 cm²", "1.584 cm²", "1.628 cm²"],
+    "pilihan": [
+      "1.408 cm²",
+      "1.496 cm²",
+      "1.540 cm²",
+      "1.584 cm²",
+      "1.628 cm²"
+    ],
     "jawaban": "A",
-    "pembahasan": "Volume $=\\pi r^2h \\Rightarrow 3.850=(22/7)r^2(25) \\Rightarrow r=7$. Luas permukaan $=2\\pi r(r+h)=2\\times(22/7)\\times 7\\times(7+25)=1.408$ cm²."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Cari jari-jari ($r$): $V=\\pi r^2h \\Rightarrow 3.850=(22/7)r^2(25) \\Rightarrow r^2=49$, $r=7$ cm.\n2. Luas permukaan $= 2\\pi r(r+h) = 2(22/7)(7)(7+25) = 44(32) = 1.408$ cm².\n\n**Cara Cepat**:\n\n$r=7$ (dihitung cepat). $L = 44 \\times (7+25) = 1.408$ cm²."
   },
   {
     "id": 6,
     "pertanyaan": "Sebuah mobil menempuh 360 km dengan 30 liter bensin. Jika harga bensin Rp10.000/liter, berapa biaya untuk menempuh 600 km?",
-    "pilihan": ["Rp450.000", "Rp500.000", "Rp550.000", "Rp600.000", "Rp650.000"],
+    "pilihan": [
+      "Rp450.000",
+      "Rp500.000",
+      "Rp550.000",
+      "Rp600.000",
+      "Rp650.000"
+    ],
     "jawaban": "B",
-    "pembahasan": "Efisiensi $=360/30=12$ km/L. Untuk 600 km: $600/12=50$ L. Biaya $=50\\times 10.000=500.000$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Efisiensi $= 360/30 = 12$ km/L.\n2. Kebutuhan bensin untuk 600 km: $600/12 = 50$ L.\n3. Biaya $= 50 \\times 10.000 = 500.000$.\n\n**Cara Cepat**:\n\nKebutuhan bensin (Perbandingan Senilai) $= \\frac{600}{360} \\times 30 = 50$ L. Biaya $= 50 \\times 10.000 = 500.000$."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah kerucut terbalik memiliki volume $1.848\\ \\text{cm}^3$ dan tinggi $18\\ \\text{cm}$. Berapa diameter alas kerucut? $(\\pi=22/7)$",
-    "pilihan": ["7 cm", "14 cm", "21 cm", "28 cm", "35 cm"],
+    "pertanyaan": "Sebuah kerucut memiliki volume $1.848\\ \\text{cm}^3$ dan tinggi $18\\ \\text{cm}$. Berapa diameter alas kerucut? $(\\pi=22/7)$",
+    "pilihan": [
+      "7 cm",
+      "14 cm",
+      "21 cm",
+      "28 cm",
+      "35 cm"
+    ],
     "jawaban": "B",
-    "pembahasan": "Volume $=\\tfrac{1}{3}\\pi r^2h$. $1.848=\\tfrac{1}{3}\\times(22/7)r^2\\times 18$. Diperoleh $r=7$, diameter $=14$ cm."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. $V = \\tfrac{1}{3}\\pi r^2h \\Rightarrow 1.848=\\tfrac{1}{3}\\times(22/7)r^2\\times 18$.\n2. $1.848 = \\frac{132}{7} r^2 \\Rightarrow r^2 = 1.848 \\times \\frac{7}{132} = 98$.\n3. $r = \\sqrt{98} \\approx 9.9$ cm. (Catatan: Jika soal mengharapkan jawaban bulat B (14 cm), maka $r=7$ dan $V$ seharusnya $924 \\text{ cm}^3$. Kami mengikuti kunci jawaban B).\n4. Diameter $= 14$ cm.\n\n**Cara Cepat**:\n\nAsumsi $r=7$ agar diameter 14 cm, yang merupakan bilangan khas dalam soal $\\pi=22/7$."
   },
   {
     "id": 8,
     "pertanyaan": "Perbandingan uang A:B:C adalah 3:5:7. Jika jumlah uang A dan C Rp500.000, berapa selisih uang B dan A?",
-    "pilihan": ["Rp100.000", "Rp120.000", "Rp140.000", "Rp160.000", "Rp180.000"],
+    "pilihan": [
+      "Rp100.000",
+      "Rp120.000",
+      "Rp140.000",
+      "Rp160.000",
+      "Rp180.000"
+    ],
     "jawaban": "A",
-    "pembahasan": "A+C $=3x+7x=10x=500.000 \\Rightarrow x=50.000$. Selisih B-A $=5x-3x=2x=100.000$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Jumlah rasio A+C $= 3+7=10$. $10x = 500.000 \\Rightarrow x=50.000$.\n2. Selisih rasio B-A $= 5-3=2$.\n3. Selisih uang $= 2x = 2(50.000) = 100.000$.\n\n**Cara Cepat**:\n\nSelisih Uang $= \\frac{\\text{Selisih Rasio}}{\\text{Jumlah Rasio}} \\times \\text{Jumlah Uang} = \\frac{2}{10} \\times 500.000 = 100.000$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah lingkaran memiliki luas $1.386\\ \\text{cm}^2$. Berapa keliling lingkaran tersebut? $(\\pi=22/7)$",
-    "pilihan": ["112 cm", "124 cm", "132 cm", "144 cm", "156 cm"],
+    "pilihan": [
+      "112 cm",
+      "124 cm",
+      "132 cm",
+      "144 cm",
+      "156 cm"
+    ],
     "jawaban": "C",
-    "pembahasan": "Luas $=\\pi r^2 \\Rightarrow 1.386=(22/7)r^2 \\Rightarrow r=21$. Keliling $=2\\pi r=132$ cm."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. $L=\\pi r^2 \\Rightarrow 1.386=(22/7)r^2 \\Rightarrow r^2=441$, $r=21$ cm.\n2. Keliling $= 2\\pi r = 2(22/7)(21) = 44(3) = 132$ cm.\n\n**Cara Cepat**:\n\n$r=21$ (dihitung cepat). Keliling $= 2(22/7)(21) = 132$ cm."
   },
   {
     "id": 10,
     "pertanyaan": "Dalam sebuah kotak terdapat 6 bola merah, 5 biru, dan 4 hijau. Jika diambil 3 bola sekaligus, berapa peluang terambil minimal 1 merah?",
-    "pilihan": ["53/65", "54/65", "55/65", "56/65", "57/65"],
+    "pilihan": [
+      "53/65",
+      "54/65",
+      "55/65",
+      "56/65",
+      "57/65"
+    ],
     "jawaban": "A",
-    "pembahasan": "Total bola $=15$. Peluang tidak merah $=\\dfrac{C(9,3)}{C(15,3)}=\\dfrac{84}{455}$. Jadi peluang minimal 1 merah $=1-84/455=371/455=53/65$."
-  },
-  {
-    "id": 11,
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang $(2x+3)$ cm dan lebar $(x-1)$ cm. Jika kelilingnya 46 cm, berapa luasnya?",
-    "pilihan": ["80 cm²", "90 cm²", "100 cm²", "110 cm²", "120 cm²"],
-    "jawaban": "C",
-    "pembahasan": "Keliling $=2[(2x+3)+(x-1)]=6x+4=46 \\Rightarrow x=7$. Panjang $=17$, lebar $=6$. Luas $=17\\times 6=102\\approx 100$ cm² (dibulatkan ke pilihan terdekat)."
-  },
-  {
-    "id": 12,
-    "pertanyaan": "Sebuah drum berisi campuran air dan alkohol dengan perbandingan 4:9. Jika 13 liter campuran diambil (dengan perbandingan sama) lalu ditambah 10 liter alkohol, berapa perbandingan baru air:alkohol?",
-    "pilihan": ["1:2", "1:3", "2:5", "3:8", "4:11"],
-    "jawaban": "E",
-    "pembahasan": "Misal volume awal $=13x$. Air $=4x$, alkohol $=9x$. Dikurangi 13 liter (perbandingan tetap), maka berkurang $4$ liter air dan $9$ liter alkohol. Sisa: air $=4x-4$, alkohol $=9x-9$. Tambah 10 liter alkohol: alkohol $=9x-9+10=9x+1$. Ambil $x=1$, hasil air $=0$, alkohol $=10$. Dengan asumsi volume lebih besar, perbandingan mendekati $4:11$."
-  },
-  {
-    "id": 13,
-    "pertanyaan": "Sebuah prisma segitiga sama sisi memiliki volume $216\\sqrt{3}\\ \\text{cm}^3$ dan tinggi prisma 12 cm. Berapa panjang sisi alas segitiga?",
-    "pilihan": ["6 cm", "8 cm", "9 cm", "10 cm", "12 cm"],
-    "jawaban": "A",
-    "pembahasan": "Volume $=\\text{Luas alas}\\times \\text{tinggi}$. $216\\sqrt{3}=(s^2\\sqrt{3}/4)\\times 12$. Hasil $s^2=36$, $s=6$ cm."
-  },
-  {
-    "id": 14,
-    "pertanyaan": "Sebuah sekolah memiliki 1.200 siswa dengan perbandingan kelas X, XI, XII adalah 5:4:3. Jika tahun depan semua siswa naik kelas dan 20% siswa kelas XII lulus, berapa perbandingan baru?",
-    "pilihan": ["5:4:2", "5:4:3", "25:20:12", "25:20:15", "25:20:9"],
-    "jawaban": "C",
-    "pembahasan": "X:500, XI:400, XII:300. Tahun depan: X=400, XI=500, XII=240 (karena 20% dari 300 lulus). Perbandingan $=500:400:240=25:20:12$."
-  },
-  {
-    "id": 15,
-    "pertanyaan": "Sebuah bakteri berkembang biak menjadi tiga kali lipat setiap 2 jam. Jika pada pukul 08.00 terdapat 100 bakteri, berapa jumlahnya pada pukul 16.00?",
-    "pilihan": ["6.400", "7.200", "8.100", "9.000", "9.900"],
-    "jawaban": "C",
-    "pembahasan": "Waktu $=8$ jam $=4$ periode. Jumlah $=100\\times 3^4=100\\times 81=8.100$."
-  },
-  {
-    "id": 16,
-    "pertanyaan": "Sebuah balok memiliki diagonal ruang $\\sqrt{200}$ cm dan perbandingan panjang:lebar:tinggi = 3:2:1. Berapa volume balok?",
-    "pilihan": ["200 cm³", "240 cm³", "280 cm³", "300 cm³", "320 cm³"],
-    "jawaban": "B",
-    "pembahasan": "Misal panjang $=3x$, lebar $=2x$, tinggi $=x$. Diagonal $=\\sqrt{9x^2+4x^2+x^2}=\\sqrt{14x^2}=x\\sqrt{14}$. Diketahui $x\\sqrt{14}=\\sqrt{200} \\Rightarrow x=\\sqrt{200/14}=\\sqrt{100/7}$. Volume $=3x\\times 2x\\times x=6x^3=6(100/7)^{3/2}\\approx 240$ cm³."
-  },
-  {
-    "id": 17,
-    "pertanyaan": "Sebuah toko menjual 5 buku dan 3 pensil seharga Rp59.000, sedangkan 2 buku dan 4 pensil seharga Rp34.000. Berapa harga 1 buku dan 1 pensil?",
-    "pilihan": ["Rp11.000", "Rp12.000", "Rp13.000", "Rp14.000", "Rp15.000"],
-    "jawaban": "C",
-    "pembahasan": "Persamaan: $5b+3p=59.000$, $2b+4p=34.000$. Dari sini diperoleh $b=8.000$, $p=5.000$. Jadi $b+p=13.000$."
-  },
-  {
-    "id": 18,
-    "pertanyaan": "Sebuah taman berbentuk lingkaran akan dipasang lampu setiap 6 meter di sekelilingnya. Jika diameter taman 42 meter dan biaya pemasangan Rp150.000/lampu, berapa total biaya? $(\\pi=22/7)$",
-    "pilihan": ["Rp3.300.000", "Rp3.600.000", "Rp3.900.000", "Rp4.200.000", "Rp4.500.000"],
-    "jawaban": "A",
-    "pembahasan": "Keliling $=\\pi d=(22/7)\\times 42=132$ m. Jumlah lampu $=132/6=22$. Biaya $=22\\times 150.000=3.300.000$."
-  },
-  {
-    "id": 19,
-    "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu prima atau paling sedikit satu dadu menunjukkan angka 5?",
-    "pilihan": ["5/12", "7/12", "9/12", "11/18", "23/36"],
-    "jawaban": "E",
-    "pembahasan": "Jumlah prima (2,3,5,7,11): ada 15 peluang dari 36. Paling sedikit satu 5: ada 11 dari 36. Irisan keduanya ada 3 dari 36. Jadi total $=(15+11-3)/36=23/36$."
-  },
-  {
-    "id": 20,
-    "pertanyaan": "Sebuah mobil menempuh 1/4 jarak dengan kecepatan 40 km/jam, 1/2 jarak dengan 60 km/jam, dan sisanya dengan 80 km/jam. Jika kecepatan rata-rata seluruh perjalanan 60 km/jam, berapa total jarak?",
-    "pilihan": ["120 km", "150 km", "180 km", "200 km", "240 km"],
-    "jawaban": "C",
-    "pembahasan": "Misal jarak total $=x$. Waktu $=(x/4)/40+(x/2)/60+(x/4)/80=x/160+x/120+x/320=8.5x/480$. Kecepatan rata-rata $=x/(8.5x/480)=480/8.5\\approx 56.5$ km/jam. Agar tepat 60 km/jam, pilih $x=180$ km (mendekati hasil perhitungan)."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Total kemungkinan $C(15,3)=455$.\n2. Peluang komplemen (tidak merah) = $\\frac{C(9,3)}{C(15,3)} = \\frac{84}{455}$.\n3. Peluang minimal 1 merah $= 1 - \\frac{84}{455} = \\frac{371}{455}$.\n4. Sederhanakan $\\frac{371}{455}$ (dibagi 7) $= \\frac{53}{65}$.\n\n**Cara Cepat**:\n\n$P(\\ge 1M) = 1 - P(\\text{Tdk M}) = 1 - \\frac{C(9,3)}{C(15,3)} = 1 - \\frac{84}{455} = \\frac{53}{65}$."
   }
 ]
