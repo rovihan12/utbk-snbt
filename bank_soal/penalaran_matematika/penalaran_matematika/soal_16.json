@@ -144,16 +144,16 @@
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah kereta api berangkat dari stasiun A ke B dengan kecepatan 80 km/jam dan kembali dengan kecepatan 60 km/jam. Jika jarak A-B 240 km, berapa kecepatan rata-rata perjalanan pulang pergi?",
+    "pertanyaan": "Sebuah kereta api berangkat dari stasiun A ke B dengan kecepatan **90 km/jam** dan kembali dengan kecepatan **60 km/jam**. Jika jarak A-B 240 km, berapa kecepatan rata-rata perjalanan pulang pergi?",
     "pilihan": [
-      "68,57 km/jam (atau 68 km/jam)",
+      "68 km/jam",
       "70 km/jam",
       "72 km/jam",
       "75 km/jam",
       "80 km/jam"
     ],
-    "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**\nTotal Jarak = $240 \\text{ km} \\times 2 = 480 \\text{ km}$.\nWaktu Pergi ($W_1$): $240 / 80 = 3 \\text{ jam}$.\nWaktu Pulang ($W_2$): $240 / 60 = 4 \\text{ jam}$.\nTotal Waktu = $3 \\text{ jam} + 4 \\text{ jam} = 7 \\text{ jam}$.\nKecepatan Rata-rata = $480 \\text{ km} / 7 \\text{ jam} \\approx 68,57 \\text{ km/jam}$.\n\n**Cara Cepat**\nGunakan rumus Kecepatan Rata-rata Harmonik: $K_{\\text{rata-rata}} = \\frac{2 \\times K_1 \\times K_2}{K_1 + K_2}$.\n$K_{\\text{rata-rata}} = \\frac{2 \\times 80 \\times 60}{80 + 60} = \\frac{9.600}{140} \\approx 68,57 \\text{ km/jam}$."
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**\nTotal Jarak = $240 \\text{ km} \\times 2 = 480 \\text{ km}$.\nWaktu Pergi ($W_1$): $240 / 90 = 2,66... \\text{ jam}$ (atau $2 \\text{ jam } 40 \\text{ menit}$). \n*Catatan: Meskipun waktu perginya pecahan, **kecepatan rata-rata** harus bilangan bulat.*\nWaktu Pulang ($W_2$): $240 / 60 = 4 \\text{ jam}$.\nTotal Waktu = $2 \\frac{2}{3} \\text{ jam} + 4 \\text{ jam} = 6 \\frac{2}{3} \\text{ jam} = \\frac{20}{3} \\text{ jam}$.\nKecepatan Rata-rata = $\\frac{480 \\text{ km}}{\\frac{20}{3} \\text{ jam}} = 480 \\times \\frac{3}{20} = 24 \\times 3 = 72 \\text{ km/jam}$.\n\n**Cara Cepat**\nGunakan rumus Kecepatan Rata-rata Harmonik: $K_{\\text{rata-rata}} = \\frac{2 \\times K_1 \\times K_2}{K_1 + K_2}$.\n$K_{\text{rata-rata}} = \\frac{2 \\times 90 \\times 60}{90 + 60} = \\frac{10.800}{150} = 72 \\text{ km/jam}$."
   },
   {
     "id": 13,
