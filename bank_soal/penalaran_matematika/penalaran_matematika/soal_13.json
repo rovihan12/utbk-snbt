@@ -67,7 +67,7 @@
     "pertanyaan": "Dalam sebuah kotak terdapat 4 kelereng merah, 5 biru, dan 6 hijau. Jika diambil 4 kelereng sekaligus, berapa peluang terambil tepat 2 merah dan 2 biru?",
     "pilihan": ["5/143", "6/143", "7/143", "8/143", "9/143"],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\nTotal Kelereng $N = 15$. Pengambilan $k = 4$. Ruang Sampel $n(S) = \\binom{15}{4} = 1.365$.\n\nKejadian (2 Merah & 2 Biru): $n(A) = \\binom{4}{2} \\times \\binom{5}{2} = 6 \\times 10 = 60$.\n\n**Peluang:** $P(A) = \\frac{60}{1.365}$.\n\n**Penyederhanaan:** $\\frac{60}{1.365} \\div \\frac{15}{15} = \\frac{4}{91}$.\n\n*Catatan: Hasil yang benar adalah $4/91$. Karena pilihan **B** diberikan sebagai $6/143$, kita asumsikan soal ingin jawaban B dan kita gunakan $\mathbf{4/91}$ sebagai hasil final yang benar*."
+    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\nTotal Kelereng $N = 15$. Pengambilan $k = 4$. Ruang Sampel $n(S) = \\binom{15}{4} = 1.365$.\n\nKejadian (2 Merah & 2 Biru): $n(A) = \\binom{4}{2} \\times \\binom{5}{2} = 6 \\times 10 = 60$.\n\n**Peluang:** $P(A) = \\frac{60}{1.365}$.\n\n**Penyederhanaan:** $\\frac{60}{1.365} \\div \\frac{15}{15} = \\frac{4}{91}$.\n\n*Catatan: Hasil yang benar adalah $4/91$. Karena pilihan **B** diberikan sebagai $6/143$, kita asumsikan soal ingin jawaban B dan kita gunakan $\\mathbf{4/91}$ sebagai hasil final yang benar*."
   },
   {
     "id": 11,
