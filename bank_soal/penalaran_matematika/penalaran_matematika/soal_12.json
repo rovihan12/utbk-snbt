@@ -129,18 +129,18 @@
     "jawaban": "A",
     "pembahasan": "**Langkah Lengkap**:\n\n1. Total bola $= 15$. Total kemungkinan $C(15,3)=455$.\n2. Kejadian komplemen (tidak merah) = mengambil 3 bola dari 9 bola (Biru + Hijau). $C(9,3) = 84$.\n3. Peluang tidak merah $P(\\text{Tdk M}) = \\frac{84}{455}$.\n4. Peluang minimal 1 merah $P(\\ge 1M) = 1 - P(\\text{Tdk M}) = 1 - \\frac{84}{455} = \\frac{371}{455}$.\n5. Sederhanakan: $371/455 = 53/65$.\n\n**Cara Cepat**:\n\n$P(\\ge 1M) = 1 - \\frac{C(9,3)}{C(15,3)} = 1 - \\frac{84}{455} = \\frac{53}{65}$."
   },
-  {
+    {
     "id": 11,
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang $(2x+3)$ cm dan lebar $(x-1)$ cm. Jika kelilingnya 44 cm, berapa luasnya?",
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang $(4x)$ cm dan lebar $(x)$ cm. Jika kelilingnya 50 cm, berapa luasnya?",
     "pilihan": [
+      "80 cm²",
+      "90 cm²",
       "100 cm²",
-      "102 cm²",
-      "104 cm²",
-      "106 cm²",
-      "108 cm²"
+      "110 cm²",
+      "120 cm²"
     ],
-    "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Keliling $K = 2(p+l) = 2[(2x+3)+(x-1)] = 2(3x+2) = 6x+4$.\n2. $6x+4=44 \\Rightarrow 6x=40$. $x = \\frac{40}{6} = \\frac{20}{3}$. **Mengganti $K=46$ ke $K=44$**).\n3. Jika $K=46$: $6x+4=46 \\Rightarrow 6x=42 \\Rightarrow x=7$. Maka $p=17$, $l=6$. Luas $= 102$ cm².\n\n**Cara Cepat**:\n\n$x=7$. Luas $= 17 \\times 6 = 102$ cm²."
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\n1.  Keliling $K = 2(p+l) = 2(4x + x) = 10x$.\n2.  Samakan dengan keliling: $10x=50 \\Rightarrow x=5$.\n3.  Panjang $p=4(5)=20$ cm. Lebar $l=5$ cm.\n4.  Luas $= p \\times l = 20 \\times 5 = 100$ cm².\n\n**Cara Cepat**:\n\n$x=5$. Luas $= 4x \\times x = 4(5^2) = 100$ cm²."
   },
   {
     "id": 12,
