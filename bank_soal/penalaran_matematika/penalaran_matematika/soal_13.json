@@ -34,12 +34,12 @@
     "jawaban": "A",
     "pembahasan": "**Langkah Lengkap**:\n\n1. Volume Penuh: $r = 35$ cm, $h = 120$ cm. $V_{\\text{penuh}} = \\frac{22}{7} \\times 35^2 \\times 120 = 462.000 \\text{ cm}^3 = 462$ liter.\n\n2. Isi Minyak: $\\frac{3}{4} \\times 462 \\text{ liter} = 346,5$ liter.\n\n**Cara Cepat**:\n\nVolume minyak = $\\frac{3}{4} \\times \\frac{22}{7} \\times (35)^2 \\times 120 \\div 1000 = 346,5$ liter."
   },
-  {
+    {
     "id": 6,
     "pertanyaan": "Seorang pengendara motor menempuh perjalanan dengan kecepatan 60 km/jam untuk setengah jarak, lalu 40 km/jam untuk setengah sisanya. Berapa kecepatan rata-rata seluruh perjalanan?",
     "pilihan": ["45 km/jam", "48 km/jam", "50 km/jam", "52 km/jam", "55 km/jam"],
     "jawaban": "B",
-    "pembahasan": "**Cara Cepat (Kecepatan Rata-rata Harmonik)**:\n\n$K_{\\text{rata-rata}} = \\frac{2 \\times 60 \\times 40}{60 + 40} = \\frac{4.800}{100} = 48 \\text{ km/jam}$.\n\n**Penjelasan**: Ketika waktu tempuh setiap bagian berbeda, gunakan rumus harmonik untuk kecepatan rata-rata."
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan total jarak = 2S km\n\n1. Waktu tempuh bagian pertama: $W_1 = \\frac{S}{60}$ jam\n\n2. Waktu tempuh bagian kedua: $W_2 = \\frac{S}{40}$ jam\n\n3. Total waktu: $W_{\\text{total}} = \\frac{S}{60} + \\frac{S}{40} = S(\\frac{1}{60} + \\frac{1}{40}) = S(\\frac{2}{120} + \\frac{3}{120}) = \\frac{5S}{120} = \\frac{S}{24}$ jam\n\n4. Kecepatan rata-rata: $K_{\\text{rata-rata}} = \\frac{\\text{Total Jarak}}{\\text{Total Waktu}} = \\frac{2S}{\\frac{S}{24}} = 2S \\times \\frac{24}{S} = 48$ km/jam\n\n**Cara Cepat (Kecepatan Rata-rata Harmonik)**:\n\n$K_{\\text{rata-rata}} = \\frac{2 \\times 60 \\times 40}{60 + 40} = \\frac{4.800}{100} = 48 \\text{ km/jam}$.\n\n**Penjelasan**: Ketika waktu tempuh setiap bagian berbeda, gunakan rumus harmonik untuk kecepatan rata-rata."
   },
   {
     "id": 7,
