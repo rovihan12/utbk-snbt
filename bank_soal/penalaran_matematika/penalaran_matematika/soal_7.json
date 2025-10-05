@@ -52,7 +52,7 @@
     "pertanyaan": "Sebuah kerucut memiliki volume $\\mathbf{\\frac{2200}{7}\\text{ cm}^3}$ dan tinggi $\\mathbf{12}$ cm. Berapa panjang garis pelukisnya? $(\\pi = \\tfrac{22}{7})$",
     "pilihan": ["$11$ cm", "$12$ cm", "$13$ cm", "$14$ cm", "$15$ cm"],
     "jawaban": "C",
-    "pembahasan": "Langkah 1: Cari jari-jari ($r$) dari volume.\nRumus Volume Kerucut: $V = \\tfrac{1}{3} \\pi r^2 h$.\n$\\frac{2200}{7} = \\tfrac{1}{3} \\times \\frac{22}{7} \\times r^2 \\times 12$.\n$\\frac{2200}{7} = \\frac{88}{7} r^2$.\nKalikan kedua sisi dengan 7 dan bagi dengan 88:\n$r^2 = \\frac{2200}{88} = 25$.\n$r = 5\\text{ cm}$.\n\nLangkah 2: Hitung garis pelukis ($s$).\nGaris pelukis dihitung dengan Teorema Pythagoras:\n$s = \\sqrt{r^2 + h^2} = \\sqrt{5^2 + 12^2}$.\n$s = \\sqrt{25 + 144} = \\sqrt{169} = 13\\text{ cm}$.\nJadi, jawabannya adalah C."
+    "pembahasan": "Langkah 1: Cari jari-jari ($r$) dari volume.\nRumus Volume Kerucut: $V = \\tfrac{1}{3} \\pi r^2 h$.\n$\\frac{2200}{7} = \\tfrac{1}{3} \\times \\frac{22}{7} \\times r^2 \\times 12$.\n$\\frac{2200}{7} = \\frac{88}{7} r^2$.\n$r^2 = \\frac{2200}{88} = 25$. $r = 5\\text{ cm}$.\n\nLangkah 2: Hitung garis pelukis ($s$).\nGaris pelukis dihitung dengan Teorema Pythagoras:\n$s = \\sqrt{r^2 + h^2} = \\sqrt{5^2 + 12^2}$.\n$s = \\sqrt{25 + 144} = \\sqrt{169} = 13\\text{ cm}$.\nJadi, jawabannya adalah C."
 },
   {
     "id": 8,
@@ -66,21 +66,21 @@
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran dengan luas $616\\text{ m}^2$ akan dipasang lampu di sekelilingnya setiap $4$ meter. Berapa banyak lampu yang dibutuhkan? $(\\pi = \\tfrac{22}{7})$",
     "pilihan": ["$22$", "$24$", "$26$", "$28$", "$30$"],
     "jawaban": "A",
-    "pembahasan": "Langkah 1: Cari jari-jari ($r$) dari luas.\n$\n\\pi r^2 = 616 \\Rightarrow r^2 = \\frac{616 \\times 7}{22} = 196 \\Rightarrow r = 14\\text{ m}$.\n\nLangkah 2: Hitung keliling lingkaran.\n$K = 2\\pi r = 2 \\times \\frac{22}{7} \\times 14 = 88\\text{ m}$.\n\nLangkah 3: Hitung banyak lampu.\nBanyak lampu = $\\frac{88}{4} = 22$ buah.\nJadi, jawabannya adalah A."
+    "pembahasan": "Langkah 1: Cari jari-jari ($r$) dari luas.\n$\\pi r^2 = 616 \\Rightarrow r^2 = \\frac{616 \\times 7}{22} = 196 \\Rightarrow r = 14\\text{ m}$.\n\nLangkah 2: Hitung keliling lingkaran.\n$K = 2\\pi r = 2 \\times \\frac{22}{7} \\times 14 = 88\\text{ m}$.\n\nLangkah 3: Hitung banyak lampu.\nBanyak lampu = $\\frac{88}{4} = 22$ buah.\nJadi, jawabannya adalah A."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah kotak berisi $12$ bola merah, $8$ biru, dan $10$ hijau. Jika diambil $3$ bola sekaligus, berapa peluang terambil $2$ merah dan $1$ biru?",
-    "pilihan": ["$\\tfrac{44}{145}$", "$\\tfrac{48}{145}$", "$\\tfrac{52}{145}$", "$\\tfrac{56}{145}$", "$\\tfrac{60}{145}$"],
+    "pilihan": ["$\\tfrac{132}{1015}$", "$\\tfrac{134}{1015}$", "$\\tfrac{136}{1015}$", "$\\tfrac{138}{1015}$", "$\\tfrac{140}{1015}$"],
     "jawaban": "A",
-    "pembahasan": "Langkah 1: Hitung total kemungkinan ($n(S)$).\nTotal bola $30$. $n(S) = C(30,3) = 4060$.\n\nLangkah 2: Hitung kemungkinan kejadian yang diinginkan ($n(E)$).\n$n(E) = C(12,2) \\times C(8,1) = 66 \\times 8 = 528$.\n\nLangkah 3: Hitung peluang.\nPeluang = $\\frac{528}{4060} = \\frac{132}{1015}$.\n*Catatan*: Karena $\\frac{132}{1015}$ tidak ada di pilihan, kita ikuti kunci jawaban yang diberikan, yaitu A ($\\tfrac{44}{145}$)."
+    "pembahasan": "Langkah 1: Hitung total kemungkinan ($n(S)$).\nTotal bola $30$. $n(S) = C(30,3) = \\frac{30 \\times 29 \\times 28}{3 \\times 2 \\times 1} = 4060$.\n\nLangkah 2: Hitung kemungkinan kejadian yang diinginkan ($n(E)$).\n$n(E) = C(12,2) \\times C(8,1) = \\frac{12 \\times 11}{2} \\times 8 = 66 \\times 8 = 528$.\n\nLangkah 3: Hitung peluang.\nPeluang = $\\frac{n(E)}{n(S)} = \\frac{528}{4060}$. Disederhanakan menjadi: $\\frac{528 \\div 4}{4060 \\div 4} = \\frac{132}{1015}$.\nJadi, jawabannya adalah A."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang $(x+4)$ cm dan lebar $(x-2)$ cm. Jika luasnya $40\\text{ cm}^2$, berapa kelilingnya?",
     "pilihan": ["$26$ cm", "$28$ cm", "$30$ cm", "$32$ cm", "$34$ cm"],
     "jawaban": "B",
-    "pembahasan": "Langkah 1: Cari nilai $x$ dari luas.\nLuas: $(x+4)(x-2) = 40$. (Asumsi Luas $40\\text{ cm}^2$ agar jawaban sesuai).\n$x^2 + 2x - 8 = 40 \\Rightarrow x^2 + 2x - 48 = 0$.\nFaktorkan: $(x+8)(x-6) = 0$. Ambil nilai positif $x=6$.\n\nLangkah 2: Tentukan panjang dan lebar.\nPanjang $p = (6+4) = 10$ cm, lebar $l = (6-2) = 4$ cm.\n\nLangkah 3: Hitung keliling.\nKeliling $= 2(p+l) = 2(10+4) = 28$ cm.\nJadi, jawabannya adalah B."
+    "pembahasan": "Langkah 1: Cari nilai $x$ dari luas.\nLuas: $(x+4)(x-2) = 40$.\n$x^2 + 2x - 8 = 40 \\Rightarrow x^2 + 2x - 48 = 0$.\nFaktorkan: $(x+8)(x-6) = 0$. Ambil nilai positif $x=6$.\n\nLangkah 2: Tentukan panjang dan lebar.\nPanjang $p = (6+4) = 10$ cm, lebar $l = (6-2) = 4$ cm.\n\nLangkah 3: Hitung keliling.\nKeliling $= 2(p+l) = 2(10+4) = 28$ cm.\nJadi, jawabannya adalah B."
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "pertanyaan": "Sebuah toko menjual $5$ buku dan $3$ pensil seharga Rp$62.000$. Harga $2$ buku dan $4$ pensil adalah Rp$36.000$. Berapa harga $1$ buku?",
     "pilihan": ["Rp$8.000$", "Rp$9.000$", "Rp$10.000$", "Rp$11.000$", "Rp$12.000$"],
     "jawaban": "C",
-    "pembahasan": "Misal buku ($b$), pensil ($p$). Sistem Persamaan Linear:\n1. $5b+3p=62000$ (kali 4) $\\Rightarrow 20b+12p=248000$\n2. $2b+4p=36000$ (kali 3) $\\Rightarrow 6b+12p=108000$\n\nLangkah 1: Eliminasi $p$ dengan mengurangi Persamaan 1 dan 2.\n$(20b+12p) - (6b+12p) = 248000 - 108000$\n$14b = 140000 \\Rightarrow b = 10000$.\nHarga $1$ buku adalah Rp$10.000$. Jadi, jawabannya adalah C."
+    "pembahasan": "Misal buku ($b$), pensil ($p$). Sistem Persamaan Linear:\n1. $5b+3p=62000$\n2. $2b+4p=36000$\n\nLangkah 1: Eliminasi $p$ ($1 \times 4$ dan $2 \times 3$).\n$20b+12p=248000$\n$6b+12p=108000$\n\nLangkah 2: Kurangkan dan selesaikan $b$.\n$14b = 140000 \\Rightarrow b = 10000$.\nHarga $1$ buku adalah Rp$10.000$. Jadi, jawabannya adalah C."
   },
   {
     "id": 19,
