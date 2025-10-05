@@ -132,10 +132,10 @@
     "jawaban": "C",
     "pembahasan": "Misal rasio $r$. Maka $r^3 = 27 \\implies r=3$. Jadi $x=1 \\cdot r = 3$, $y=1 \\cdot r^2 = 9 \\implies x+y=12$."
   },
-  {
+    {
     "id": 20,
     "pertanyaan": "Suku ke-$n$ dari deret $1 + 1/2 + 1/4 + 1/8 + \\ldots$ adalah...",
-    "pilihan": ["1/2^n", "1/2^(n-1)", "2^(n-1)", "1/n", "1/n^2"],
+    "pilihan": ["$\\frac{1}{2^n}$", "$\\frac{1}{2^{n-1}}$", "$2^{n-1}$", "$\\frac{1}{n}$", "$\\frac{1}{n^2}$"],
     "jawaban": "B",
     "pembahasan": "Deret geometri dengan $a=1$, $r=1/2$. Rumus $a_n = a \\cdot r^{n-1} = 1 \\cdot (1/2)^{n-1} = \\frac{1}{2^{n-1}}$."
   }
