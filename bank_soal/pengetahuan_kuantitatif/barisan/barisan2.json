@@ -25,7 +25,7 @@
     "pertanyaan": "Suku ke-7 dari barisan geometri dengan suku pertama 3 dan rasio 2 adalah...",
     "pilihan": ["96", "128", "192", "256", "384"],
     "jawaban": "C",
-    "pembahasan": "Barisan ini adalah barisan geometri.\nSuku pertama ($a_1$) = 3.\nRasio ($r$) = 2.\nRumus suku ke-n: $a_n = a_1 \\cdot r^{n-1}$.\n\nUntuk suku ke-7 ($a_7$):\n$a_7 = 3 \\cdot 2^{7-1}$\n$a_7 = 3 \\cdot 2^6$\n$a_7 = 3 \\cdot 64$\n$a_7 = 192"
+    "pembahasan": "Barisan ini adalah barisan geometri.\nSuku pertama ($a_1$) = 3.\nRasio ($r$) = 2.\nRumus suku ke-n: $a_n = a_1 \\cdot r^{n-1}$.\n\nUntuk suku ke-7 ($a_7$):\n$a_7 = 3 \\cdot 2^{7-1}$\n$a_7 = 3 \\cdot 2^6$\n$a_7 = 3 \\cdot 64$\n$a_7 = 192$."
   },
   {
     "id": 5,
@@ -39,7 +39,7 @@
     "pertanyaan": "Diketahui barisan aritmetika dengan $a_5=20$ dan $a_{10}=40$. Suku ke-15 dari barisan tersebut adalah...",
     "pilihan": ["50", "55", "60", "65", "70"],
     "jawaban": "C",
-    "pembahasan": "Dari informasi suku ke-5 dan suku ke-10:\n$a_{10} - a_5 = (a_1 + 9d) - (a_1 + 4d) = 5d$\n$40 - 20 = 5d$\n$20 = 5d \\Rightarrow d = 4$\n\nCari suku pertama ($a_1$):\n$a_5 = a_1 + 4d = 20$\n$a_1 + 4(4) = 20$\n$a_1 + 16 = 20 \\Rightarrow a_1 = 4$\n\nSuku ke-15 ($a_{15}$):\n$a_{15} = a_1 + 14d$\n$a_{15} = 4 + 14(4)$\n$a_{15} = 4 + 56$\n$a_{15} = 60"
+    "pembahasan": "Dari informasi suku ke-5 dan suku ke-10:\n$a_{10} - a_5 = (a_1 + 9d) - (a_1 + 4d) = 5d$\n$40 - 20 = 5d$\n$20 = 5d \\Rightarrow d = 4$\n\nCari suku pertama ($a_1$):\n$a_5 = a_1 + 4d = 20$\n$a_1 + 4(4) = 20$\n$a_1 + 16 = 20 \\Rightarrow a_1 = 4$\n\nSuku ke-15 ($a_{15}$):\n$a_{15} = a_1 + 14d$\n$a_{15} = 4 + 14(4)$\n$a_{15} = 4 + 56$\n$a_{15} = 60$."
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "pertanyaan": "Jika jumlah n suku pertama dari suatu deret aritmetika dinyatakan dengan $S_n=n^2+7n$, maka beda deret tersebut adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "A",
-    "pembahasan": "Jika rumus jumlah n suku pertama deret aritmetika adalah $S_n = An^2 + Bn$, maka beda deret ($d$) adalah $2A$.\n\n$S_n = 1n^2 + 7n$, jadi $A=1$.\n$d = 2A = 2 \\cdot 1$\n$d = 2"
+    "pembahasan": "Jika rumus jumlah n suku pertama deret aritmetika adalah $S_n = An^2 + Bn$, maka beda deret ($d$) adalah $2A$.\n\n$S_n = 1n^2 + 7n$, jadi $A=1$.\n$d = 2A = 2 \\cdot 1$\n$d = 2$."
   },
   {
     "id": 10,
@@ -74,28 +74,28 @@
     "pertanyaan": "Tentukan jumlah semua bilangan asli kelipatan 6 ATAU 8 yang kurang dari 150.",
     "pilihan": ["1500", "1620", "1710", "1830", "2664"],
     "jawaban": "E",
-    "pembahasan": "Gunakan Prinsip Inklusi-Eksklusi: $S_{6 \\cup 8} = S_6 + S_8 - S_{24}$. (KPK dari 6 dan 8 adalah 24).\n\n1. Jumlah Kelipatan 6 (< 150, hingga 144):\n$n_6 = 144/6 = 24$.\n$S_6 = \\frac{24}{2}(6 + 144) = 12(150) = 1800$.\n\n2. Jumlah Kelipatan 8 (< 150, hingga 144):\n$n_8 = 144/8 = 18$.\n$S_8 = \\frac{18}{2}(8 + 144) = 9(152) = 1368$.\n\n3. Jumlah Kelipatan 24 (< 150, hingga 144):\n$n_{24} = 144/24 = 6$.\n$S_{24} = \\frac{6}{2}(24 + 144) = 3(168) = 504$.\n\nJumlah Total:\n$S = 1800 + 1368 - 504$\n$S = 3168 - 504$\n$S = 2664"
+    "pembahasan": "Gunakan Prinsip Inklusi-Eksklusi: $S_{6 \\cup 8} = S_6 + S_8 - S_{24}$. (KPK dari 6 dan 8 adalah 24).\n\n1. Jumlah Kelipatan 6 (< 150, hingga 144):\n$n_6 = 144/6 = 24$.\n$S_6 = \\frac{24}{2}(6 + 144) = 12(150) = 1800$.\n\n2. Jumlah Kelipatan 8 (< 150, hingga 144):\n$n_8 = 144/8 = 18$.\n$S_8 = \\frac{18}{2}(8 + 144) = 9(152) = 1368$.\n\n3. Jumlah Kelipatan 24 (< 150, hingga 144):\n$n_{24} = 144/24 = 6$.\n$S_{24} = \\frac{6}{2}(24 + 144) = 3(168) = 504$.\n\nJumlah Total:\n$S = 1800 + 1368 - 504$\n$S = 3168 - 504$\n$S = 2664$."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah barisan geometri memiliki suku ketiga adalah 12 dan suku keenam adalah 96. Suku kedelapan dari barisan tersebut adalah...",
     "pilihan": ["192", "384", "512", "768", "1536"],
     "jawaban": "B",
-    "pembahasan": "Diketahui:\n$a_3 = ar^2 = 12$\n$a_6 = ar^5 = 96$\n\nCari rasio ($r$):\n$\\frac{a_6}{a_3} = \\frac{ar^5}{ar^2} = \\frac{96}{12}$\n$r^3 = 8$\n$r = 2$\n\nCari suku pertama ($a$):\n$ar^2 = 12 \\Rightarrow a(2^2) = 12 \\Rightarrow 4a = 12 \\Rightarrow a = 3$\n\nSuku kedelapan ($a_8$):\n$a_8 = ar^7$\n$a_8 = 3 \\cdot 2^7$\n$a_8 = 3 \\cdot 128$\n$a_8 = 384"
+    "pembahasan": "Diketahui:\n$a_3 = ar^2 = 12$\n$a_6 = ar^5 = 96$\n\nCari rasio ($r$):\n$\\frac{a_6}{a_3} = \\frac{ar^5}{ar^2} = \\frac{96}{12}$\n$r^3 = 8$\n$r = 2$\n\nCari suku pertama ($a$):\n$ar^2 = 12 \\Rightarrow a(2^2) = 12 \\Rightarrow 4a = 12 \\Rightarrow a = 3$\n\nSuku kedelapan ($a_8$):\n$a_8 = ar^7$\n$a_8 = 3 \\cdot 2^7$\n$a_8 = 3 \\cdot 128$\n$a_8 = 384$."
   },
   {
     "id": 13,
     "pertanyaan": "Dalam suatu barisan aritmetika, suku ke-4 adalah 18 dan jumlah suku ke-5 dan suku ke-7 adalah 54. Jumlah 12 suku pertama barisan tersebut adalah...",
     "pilihan": ["300", "324", "348", "351", "396"],
     "jawaban": "D",
-    "pembahasan": "Dari informasi yang diberikan:\n(1) $a_4 = a+3d = 18$\n(2) $a_5 + a_7 = (a+4d) + (a+6d) = 54$\n$2a + 10d = 54 \\Rightarrow a + 5d = 27$ (Persamaan 3)\n\nCari beda ($d$) dengan mengurangi (1) dari (3):\n$(a + 5d) - (a + 3d) = 27 - 18$\n$2d = 9 \\Rightarrow d = 4.5$\n\nCari suku pertama ($a$) dengan substitusi $d=4.5$ ke (1):\n$a + 3(4.5) = 18 \\Rightarrow a + 13.5 = 18 \\Rightarrow a = 4.5$\n\nJumlah 12 suku pertama ($S_{12}$):\n$S_{12} = \\frac{12}{2}(2a + 11d)$\n$S_{12} = 6(2 \\cdot 4.5 + 11 \\cdot 4.5)$\n$S_{12} = 6(9 + 49.5)$\n$S_{12} = 6(58.5)$\n$S_{12} = 351"
+    "pembahasan": "Dari informasi yang diberikan:\n(1) $a_4 = a+3d = 18$\n(2) $a_5 + a_7 = (a+4d) + (a+6d) = 54$\n$2a + 10d = 54 \\Rightarrow a + 5d = 27$ (Persamaan 3)\n\nCari beda ($d$) dengan mengurangi (1) dari (3):\n$(a + 5d) - (a + 3d) = 27 - 18$\n$2d = 9 \\Rightarrow d = 4.5$\n\nCari suku pertama ($a$) dengan substitusi $d=4.5$ ke (1):\n$a + 3(4.5) = 18 \\Rightarrow a + 13.5 = 18 \\Rightarrow a = 4.5$\n\nJumlah 12 suku pertama ($S_{12}$):\n$S_{12} = \\frac{12}{2}(2a + 11d)$\n$S_{12} = 6(2 \\cdot 4.5 + 11 \\cdot 4.5)$\n$S_{12} = 6(9 + 49.5)$\n$S_{12} = 6(58.5)$\n$S_{12} = 351$."
   },
   {
     "id": 14,
     "pertanyaan": "Diberikan barisan aritmetika dengan suku pertama $a$ dan beda $d$. Jika $a-d=2$ dan $a^2+d^2=10$, maka jumlah 6 suku pertama barisan tersebut adalah...",
     "pilihan": ["30", "33", "42", "48", "54"],
     "jawaban": "B",
-    "pembahasan": "Kita punya sistem persamaan:\n$a = 2+d$\n$a^2 + d^2 = 10$\n\nSubstitusi:\n$(2+d)^2 + d^2 = 10$\n$4 + 4d + d^2 + d^2 = 10$\n$2d^2 + 4d - 6 = 0$\n$d^2 + 2d - 3 = 0$\n$(d+3)(d-1) = 0$\n\nKasus 1: $d=1$. Maka $a=2+1=3$. (Barisan 3, 4, 5, ...)\nKasus 2: $d=-3$. Maka $a=2-3=-1$. (Barisan -1, -4, -7, ...)\n\nAmbil kasus $a=3$ dan $d=1$. (Suku positif lebih umum).\n\nJumlah 6 suku pertama ($S_6$):\n$S_6 = \\frac{6}{2}(2a + 5d)$\n$S_6 = 3(2 \\cdot 3 + 5 \\cdot 1)$\n$S_6 = 3(6 + 5)$\n$S_6 = 3(11)$\n$S_6 = 33"
+    "pembahasan": "Kita punya sistem persamaan:\n$a = 2+d$\n$a^2 + d^2 = 10$\n\nSubstitusi:\n$(2+d)^2 + d^2 = 10$\n$4 + 4d + d^2 + d^2 = 10$\n$2d^2 + 4d - 6 = 0$\n$d^2 + 2d - 3 = 0$\n$(d+3)(d-1) = 0$\n\nKasus 1: $d=1$. Maka $a=2+1=3$. (Barisan 3, 4, 5, ...)\nKasus 2: $d=-3$. Maka $a=2-3=-1$. (Barisan -1, -4, -7, ...)\n\nAmbil kasus $a=3$ dan $d=1$. (Suku positif lebih umum).\n\nJumlah 6 suku pertama ($S_6$):\n$S_6 = \\frac{6}{2}(2a + 5d)$\n$S_6 = 3(2 \\cdot 3 + 5 \\cdot 1)$\n$S_6 = 3(6 + 5)$\n$S_6 = 3(11)$\n$S_6 = 33$."
   },
   {
     "id": 15,
@@ -123,7 +123,7 @@
     "pertanyaan": "Jika $a,b,c$ adalah tiga bilangan positif yang membentuk barisan aritmetika dan $a^2,b^2,c^2$ juga membentuk barisan aritmetika, maka nilai dari $\\frac{a-b}{b-c}$ adalah...",
     "pilihan": ["-1", "0", "1", "1/2", "-1/2"],
     "jawaban": "A",
-    "pembahasan": "Jika $a, b, c$ dan $a^2, b^2, c^2$ keduanya adalah barisan aritmetika, maka harus berlaku $a = b = c$.\n\nJika $a=b=c$, maka beda ($d$) deret aritmetika adalah 0.\n$a-b = 0$\n$b-c = 0$\n\nNamun, perhatikan bentuk ekspresi $\\frac{a-b}{b-c}$.\nJika $a, b, c$ adalah barisan aritmetika dengan beda $d$, maka:\n$a-b = -d$\n$b-c = -d$\n\nNilai ekspresi:\n$\\frac{a-b}{b-c} = \\frac{-d}{d}$ (Asumsi $d \\ne 0$)\n$\\frac{a-b}{b-c} = -1$\n\nJika $a=b=c$ ($d=0$), maka ekspresi menjadi $\\frac{0}{0}$ (tak tentu). Dalam konteks soal ini, jika barisan memiliki suku yang berbeda, maka $d \\ne 0$, dan hasilnya adalah **-1**. (Catatan: Pilihan jawaban mengarahkan pada barisan dengan $d \\ne 0$, atau mengikuti hubungan $a-b = -(b-c)$ yang selalu benar dalam aritmetika.)"
+    "pembahasan": "Jika $a, b, c$ dan $a^2, b^2, c^2$ keduanya adalah barisan aritmetika, maka harus berlaku $a = b = c$.\n\nJika $a=b=c$, maka beda ($d$) deret aritmetika adalah 0.\n$a-b = 0$\n$b-c = 0$\n\nNamun, perhatikan bentuk ekspresi $\\frac{a-b}{b-c}$.\nJika $a, b, c$ adalah barisan aritmetika dengan beda $d$, maka:\n$a-b = -d$\n$b-c = -d$\n\nNilai ekspresi:\n$\\frac{a-b}{b-c} = \\frac{-d}{d}$ (Asumsi $d \\ne 0$)\n$\\frac{a-b}{b-c} = -1$\n\nJika $a=b=c$ ($d=0$), maka ekspresi menjadi $\\frac{0}{0}$ (tak tentu). Dalam konteks soal ini, jika barisan memiliki suku yang berbeda, maka $d \\ne 0$, dan hasilnya adalah **-1**."
   },
   {
     "id": 19,
