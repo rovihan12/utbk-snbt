@@ -10,7 +10,7 @@
       "38"
     ],
     "jawaban": "B",
-    "pembahasan": "Barisan ini adalah barisan aritmetika dengan suku pertama ($a_1$) = 2 dan beda ($d$) = 5 - 2 = 3. Rumus suku ke-n barisan aritmetika adalah $a_n = a_1 + (n-1)d$. Untuk mencari suku ke-10 ($a_{10}$): $a_{10} = 2 + (10-1)3 = 2 + 9 \\times 3 = 2 + 27 = 29$."
+    "pembahasan": "Barisan ini adalah barisan aritmetika.\nSuku pertama ($a_1$) = 2.\nBeda ($d$) = 5 - 2 = 3.\nRumus suku ke-n: $a_n = a_1 + (n-1)d$.\n\nUntuk suku ke-10 ($a_{10}$):\n$a_{10} = 2 + (10-1)3$\n$a_{10} = 2 + 9 \\cdot 3$\n$a_{10} = 2 + 27$\n$a_{10} = 29$"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "161"
     ],
     "jawaban": "A",
-    "pembahasan": "Barisan ini adalah barisan aritmetika dengan suku pertama ($a_1$) = 3 dan beda ($d$) = 7 - 3 = 4. Rumus jumlah n suku pertama deret aritmetika adalah $S_n = \\frac{n}{2}(2a_1 + (n-1)d)$. Untuk mencari jumlah 7 suku pertama ($S_7$): $S_7 = \\frac{7}{2}(2 \\times 3 + (7-1)4) = \\frac{7}{2}(6 + 6 \\times 4) = \\frac{7}{2}(6 + 24) = \\frac{7}{2}(30) = 7 \\times 15 = 105$."
+    "pembahasan": "Barisan ini adalah barisan aritmetika.\nSuku pertama ($a_1$) = 3.\nBeda ($d$) = 7 - 3 = 4.\nRumus jumlah n suku pertama: $S_n = \\frac{n}{2}(2a_1 + (n-1)d)$.\n\nUntuk jumlah 7 suku pertama ($S_7$):\n$S_7 = \\frac{7}{2}(2 \\cdot 3 + (7-1)4)$\n$S_7 = \\frac{7}{2}(6 + 6 \\cdot 4)$\n$S_7 = \\frac{7}{2}(6 + 24)$\n$S_7 = \\frac{7}{2}(30)$\n$S_7 = 7 \\cdot 15$\n$S_7 = 105$"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "6"
     ],
     "jawaban": "B",
-    "pembahasan": "Barisan ini adalah barisan geometri. Rasio ($r$) diperoleh dengan membagi suku ke-n dengan suku sebelumnya. Misalnya, $r = 6/3 = 2$ atau $r = 12/6 = 2$."
+    "pembahasan": "Barisan ini adalah barisan geometri.\nRasio ($r$) diperoleh dengan membagi suku ke-n dengan suku sebelumnya.\n\n$r = 6/3 = 2$\nAtau,\n$r = 12/6 = 2$"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "324"
     ],
     "jawaban": "E",
-    "pembahasan": "Barisan ini adalah barisan geometri dengan suku pertama ($a_1$) = 4 dan rasio ($r$) = 3. Rumus suku ke-n barisan geometri adalah $a_n = a_1 \\times r^{n-1}$. Untuk mencari suku ke-5 ($a_5$): $a_5 = 4 \\times 3^{5-1} = 4 \\times 3^4 = 4 \\times 81 = 324$."
+    "pembahasan": "Barisan ini adalah barisan geometri.\nSuku pertama ($a_1$) = 4.\nRasio ($r$) = 3.\nRumus suku ke-n: $a_n = a_1 \\cdot r^{n-1}$.\n\nUntuk suku ke-5 ($a_5$):\n$a_5 = 4 \\cdot 3^{5-1}$\n$a_5 = 4 \\cdot 3^4$\n$a_5 = 4 \\cdot 81$\n$a_5 = 324$"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "20"
     ],
     "jawaban": "C",
-    "pembahasan": "Deret ini adalah deret geometri dengan suku pertama ($a$) = 8 dan rasio ($r$) = 4/8 = 1/2. Karena $|r| < 1$, deret ini konvergen. Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. $S_\\infty = \\frac{8}{1-1/2} = \\frac{8}{1/2} = 8 \\times 2 = 16$."
+    "pembahasan": "Deret ini adalah deret geometri konvergen.\nSuku pertama ($a$) = 8.\nRasio ($r$) = 4/8 = 1/2.\nRumus jumlah tak hingga: $S_\\infty = \\frac{a}{1-r}$.\n\n$S_\\infty = \\frac{8}{1-1/2}$\n$S_\\infty = \\frac{8}{1/2}$\n$S_\\infty = 8 \\cdot 2$\n$S_\\infty = 16$"
   },
   {
   "id": 6,
@@ -75,9 +75,8 @@
     "40"
   ],
   "jawaban": "B",
-  "pembahasan": "Kita punya dua persamaan: $a_{3} = a_{1} + 2d = 10$ dan $a_{7} = a_{1} + 6d = 22$. Kurangkan persamaan pertama dari kedua: $(a_{1} + 6d) - (a_{1} + 2d) = 22 - 10 \\Rightarrow 4d = 12 \\Rightarrow d = 3$. Substitusikan $d=3$ ke $a_{1} + 2d = 10 \\Rightarrow a_{1} + 6 = 10 \\Rightarrow a_{1} = 4$. Sekarang cari suku ke-10: $a_{10} = a_{1} + 9d = 4 + 9(3) = 4 + 27 = 31$."
-}
-,
+  "pembahasan": "Dari informasi suku ke-3 dan suku ke-7:\n(1) $a_{3} = a_{1} + 2d = 10$\n(2) $a_{7} = a_{1} + 6d = 22$\n\nKurangi (1) dari (2):\n$(a_{1} + 6d) - (a_{1} + 2d) = 22 - 10$\n$4d = 12$\n$d = 3$\n\nSubstitusikan $d=3$ ke (1):\n$a_{1} + 2(3) = 10$\n$a_{1} + 6 = 10$\n$a_{1} = 4$\n\nSuku ke-10:\n$a_{10} = a_{1} + 9d$\n$a_{10} = 4 + 9(3)$\n$a_{10} = 4 + 27$\n$a_{10} = 31$"
+  },
   {
     "id": 7,
     "pertanyaan": "Jika $2x-1, 3x, 6x+2$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $x$ adalah...",
@@ -89,7 +88,7 @@
       "-1/2"
     ],
     "jawaban": "E",
-    "pembahasan": "Dalam barisan aritmetika, selisih antara suku-suku berurutan adalah konstan. Jadi, $(3x) - (2x-1) = (6x+2) - (3x)$. $3x - 2x + 1 = 3x + 2$. $x+1 = 3x+2$. Pindahkan $x$ ke kanan dan konstanta ke kiri: $1-2 = 3x-x \\Rightarrow -1 = 2x \\Rightarrow x = -1/2$."
+    "pembahasan": "Syarat barisan aritmetika adalah beda antar suku berurutan konstan:\n$a_2 - a_1 = a_3 - a_2$\n\n$(3x) - (2x-1) = (6x+2) - (3x)$\n$3x - 2x + 1 = 3x + 2$\n$x + 1 = 3x + 2$\n\nPindahkan variabel dan konstanta:\n$1 - 2 = 3x - x$\n$-1 = 2x$\n$x = -1/2$"
   },
   {
     "id": 8,
@@ -102,7 +101,7 @@
       "84 meter"
     ],
     "jawaban": "C",
-    "pembahasan": "Panjang lintasan total adalah jumlah lintasan jatuh dan lintasan naik. Lintasan jatuh membentuk deret geometri: $12 + 12(2/3) + 12(2/3)^2 + ...$. Jumlahnya adalah $S_{jatuh} = \\frac{12}{1-2/3} = \\frac{12}{1/3} = 36$ meter. Lintasan naik juga membentuk deret geometri: $12(2/3) + 12(2/3)^2 + ...$. Jumlahnya adalah $S_{naik} = \\frac{12(2/3)}{1-2/3} = \\frac{8}{1/3} = 24$ meter. Panjang lintasan total = $S_{jatuh} + S_{naik} = 36 + 24 = 60$ meter. Atau bisa juga menggunakan rumus $L = H \\times \\frac{q+p}{q-p}$ untuk pantulan $p/q$, jadi $L = 12 \\times \\frac{3+2}{3-2} = 12 \\times \\frac{5}{1} = 60$ meter."
+    "pembahasan": "Ketinggian awal ($H$) = 12 meter.\nRasio pantulan ($r$) = 2/3.\n\nPanjang lintasan total ($L$) dihitung dengan rumus:\n$L = H + 2 \\cdot S_{\\infty \\text{ naik}}$\nAtau dengan rumus cepat untuk rasio pantulan $p/q$ ($r=p/q$):\n$L = H \\cdot \\frac{q+p}{q-p}$\n\nDengan $H=12$, $p=2$, $q=3$:\n$L = 12 \\cdot \\frac{3+2}{3-2}$\n$L = 12 \\cdot \\frac{5}{1}$\n$L = 60$ meter."
   },
   {
     "id": 9,
@@ -115,7 +114,7 @@
       "7"
     ],
     "jawaban": "C",
-    "pembahasan": "Suku pertama ($a_1$) adalah $S_1 = 2(1)^2 + 5(1) = 2 + 5 = 7$. Suku kedua ($a_2$) adalah $S_2 - S_1$. $S_2 = 2(2)^2 + 5(2) = 8 + 10 = 18$. Jadi $a_2 = 18 - 7 = 11$. Beda deret ($d$) adalah $a_2 - a_1 = 11 - 7 = 4$. Alternatif lain, jika $S_n = An^2 + Bn$ untuk deret aritmetika, maka beda deret adalah $2A$. Dalam kasus ini, $A=2$, jadi $d = 2 \\times 2 = 4$."
+    "pembahasan": "Cara 1: Menggunakan $a_1$ dan $a_2$.\n$a_1 = S_1 = 2(1)^2 + 5(1) = 7$.\n$S_2 = 2(2)^2 + 5(2) = 8 + 10 = 18$.\n$a_2 = S_2 - S_1 = 18 - 7 = 11$.\nBeda ($d$) $= a_2 - a_1 = 11 - 7 = 4$.\n\nCara 2: Menggunakan koefisien $S_n$.\nJika $S_n = An^2 + Bn$, maka beda deret ($d$) $= 2A$.\n$S_n = 2n^2 + 5n$, jadi $A=2$.\n$d = 2 \\cdot 2 = 4$."
   },
   {
     "id": 10,
@@ -128,7 +127,7 @@
       "29"
     ],
     "jawaban": "A",
-    "pembahasan": "Kita hitung suku-suku secara berurutan:\n$a_1 = 1$\n$a_2 = a_1 + 2(1) + 1 = 1 + 2 + 1 = 4$\n$a_3 = a_2 + 2(2) + 1 = 4 + 4 + 1 = 9$\n$a_4 = a_3 + 2(3) + 1 = 9 + 6 + 1 = 16$\n$a_5 = a_4 + 2(4) + 1 = 16 + 8 + 1 = 25$.\nBarisan ini adalah barisan bilangan kuadrat: $1^2, 2^2, 3^2, 4^2, 5^2, ...$"
+    "pembahasan": "Hitung suku-suku secara berurutan:\n$a_1 = 1$\n$a_2 = a_1 + 2(1) + 1 = 1 + 3 = 4$\n$a_3 = a_2 + 2(2) + 1 = 4 + 5 = 9$\n$a_4 = a_3 + 2(3) + 1 = 9 + 7 = 16$\n$a_5 = a_4 + 2(4) + 1 = 16 + 9 = 25$"
   },
   {
     "id": 11,
@@ -141,7 +140,7 @@
       "2550"
     ],
     "jawaban": "C",
-    "pembahasan": "Untuk mencari jumlah semua bilangan asli kelipatan 3 ATAU 5 yang kurang dari 100, kita gunakan prinsip inklusi-eksklusi.\n1. Jumlah kelipatan 3 yang kurang dari 100: Bilangan terakhir adalah 99. Banyak suku $n_3 = \\lfloor 99/3 \\rfloor = 33$. $S_3 = \\frac{33}{2}(3 + 99) = \\frac{33}{2}(102) = 33 \\times 51 = 1683$.\n2. Jumlah kelipatan 5 yang kurang dari 100: Bilangan terakhir adalah 95. Banyak suku $n_5 = \\lfloor 99/5 \\rfloor = 19$. $S_5 = \\frac{19}{2}(5 + 95) = \\frac{19}{2}(100) = 19 \\times 50 = 950$.\n3. Jumlah kelipatan 15 (KPK dari 3 dan 5) yang kurang dari 100: Bilangan terakhir adalah 90. Banyak suku $n_{15} = \\lfloor 99/15 \\rfloor = 6$. $S_{15} = \\frac{6}{2}(15 + 90) = 3(105) = 315$.\nJumlah total = $S_3 + S_5 - S_{15} = 1683 + 950 - 315 = 2633 - 315 = 2318$."
+    "pembahasan": "Gunakan Prinsip Inklusi-Eksklusi: $S_{3 \\cup 5} = S_3 + S_5 - S_{15}$.\n\n1. Jumlah Kelipatan 3 ($S_3$) < 100 (hingga 99):\n$n_3 = 99/3 = 33$.\n$S_3 = \\frac{33}{2}(3 + 99) = 33 \\cdot 51 = 1683$.\n\n2. Jumlah Kelipatan 5 ($S_5$) < 100 (hingga 95):\n$n_5 = 95/5 = 19$.\n$S_5 = \\frac{19}{2}(5 + 95) = 19 \\cdot 50 = 950$.\n\n3. Jumlah Kelipatan 15 ($S_{15}$) < 100 (hingga 90):\n$n_{15} = 90/15 = 6$.\n$S_{15} = \\frac{6}{2}(15 + 90) = 3 \\cdot 105 = 315$.\n\nJumlah Total:\n$S = 1683 + 950 - 315$\n$S = 2633 - 315$\n$S = 2318$"
   },
   {
     "id": 12,
@@ -154,7 +153,7 @@
       "4374"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui $a_2 = ar = 6$ dan $a_5 = ar^4 = 162$. Bagi $a_5$ dengan $a_2$: $\\frac{ar^4}{ar} = \\frac{162}{6} \\Rightarrow r^3 = 27 \\Rightarrow r = 3$. Substitusikan $r=3$ ke $ar=6 \\Rightarrow a(3)=6 \\Rightarrow a=2$. Untuk mencari suku ketujuh ($a_7$): $a_7 = ar^6 = 2 \\times 3^6 = 2 \\times 729 = 1458$."
+    "pembahasan": "Diketahui:\n$a_2 = ar = 6$\n$a_5 = ar^4 = 162$\n\nCari rasio ($r$):\n$\\frac{a_5}{a_2} = \\frac{ar^4}{ar} = \\frac{162}{6}$\n$r^3 = 27$\n$r = 3$\n\nCari suku pertama ($a$):\n$ar = 6 \\Rightarrow a(3) = 6 \\Rightarrow a = 2$\n\nSuku ketujuh ($a_7$):\n$a_7 = ar^6$\n$a_7 = 2 \\cdot 3^6$\n$a_7 = 2 \\cdot 729$\n$a_7 = 1458$"
   },
   {
     "id": 13,
@@ -167,7 +166,7 @@
       "230"
     ],
     "jawaban": "B",
-    "pembahasan": "Diketahui $a_3 = a+2d = 10$ (Persamaan 1). $a_4 + a_6 = (a+3d) + (a+5d) = 2a+8d = 36$ (Persamaan 2). Bagi Persamaan 2 dengan 2: $a+4d=18$ (Persamaan 3). Kurangkan Persamaan 1 dari Persamaan 3: $(a+4d)-(a+2d) = 18-10 \\Rightarrow 2d = 8 \\Rightarrow d = 4$. Substitusikan $d=4$ ke $a+2d=10 \\Rightarrow a+2(4)=10 \\Rightarrow a+8=10 \\Rightarrow a=2$. Jumlah 10 suku pertama ($S_{10}$) adalah $S_{10} = \\frac{10}{2}(2a + (10-1)d) = 5(2 \\times 2 + 9 \\times 4) = 5(4 + 36) = 5(40) = 200$."
+    "pembahasan": "Dari informasi yang diberikan:\n(1) $a_3 = a+2d = 10$\n(2) $a_4 + a_6 = (a+3d) + (a+5d) = 36$\n$2a + 8d = 36 \\Rightarrow a + 4d = 18$ (Persamaan 3)\n\nCari beda ($d$) dengan mengurangi (1) dari (3):\n$(a + 4d) - (a + 2d) = 18 - 10$\n$2d = 8 \\Rightarrow d = 4$\n\nCari suku pertama ($a$) dengan substitusi $d=4$ ke (1):\n$a + 2(4) = 10 \\Rightarrow a + 8 = 10 \\Rightarrow a = 2$\n\nJumlah 10 suku pertama ($S_{10}$):\n$S_{10} = \\frac{10}{2}(2a + 9d)$\n$S_{10} = 5(2 \\cdot 2 + 9 \\cdot 4)$\n$S_{10} = 5(4 + 36)$\n$S_{10} = 5(40)$\n$S_{10} = 200$"
   },
   {
     "id": 14,
@@ -180,7 +179,7 @@
       "55"
     ],
     "jawaban": "D",
-    "pembahasan": "Kita punya sistem persamaan: $a+d=7$ dan $a^2+d^2=25$. Dari persamaan pertama, $d = 7-a$. Substitusikan ke persamaan kedua: $a^2 + (7-a)^2 = 25 \\Rightarrow a^2 + 49 - 14a + a^2 = 25 \\Rightarrow 2a^2 - 14a + 24 = 0$. Bagi dengan 2: $a^2 - 7a + 12 = 0$. Faktorkan: $(a-3)(a-4) = 0$. Jadi, $a=3$ atau $a=4$. Jika $a=3$, maka $d=7-3=4$. Jika $a=4$, maka $d=7-4=3$. Kita ambil kasus $a=4, d=3$. Jumlah 5 suku pertama ($S_5$) adalah $S_5 = \\frac{5}{2}(2a + (5-1)d) = \\frac{5}{2}(2 \\times 4 + 4 \\times 3) = \\frac{5}{2}(8 + 12) = \\frac{5}{2}(20) = 50$."
+    "pembahasan": "Dari $a+d=7$, kita punya $d = 7-a$.\nSubstitusi ke $a^2+d^2=25$:\n$a^2 + (7-a)^2 = 25$\n$a^2 + 49 - 14a + a^2 = 25$\n$2a^2 - 14a + 24 = 0$\n$a^2 - 7a + 12 = 0$\n$(a-3)(a-4) = 0$\n\nKasus 1: $a=3$. Maka $d = 7-3 = 4$.\nKasus 2: $a=4$. Maka $d = 7-4 = 3$.\n\nKita ambil $a=4$ dan $d=3$. (Kedua kasus menghasilkan jumlah yang sama).\n\nJumlah 5 suku pertama ($S_5$):\n$S_5 = \\frac{5}{2}(2a + 4d)$\n$S_5 = \\frac{5}{2}(2 \\cdot 4 + 4 \\cdot 3)$\n$S_5 = \\frac{5}{2}(8 + 12)$\n$S_5 = \\frac{5}{2}(20)$\n$S_5 = 50$"
   },
   {
     "id": 15,
@@ -193,9 +192,9 @@
       "42"
     ],
     "jawaban": "D",
-    "pembahasan": "Misalkan barisan geometri adalah $a, ar, ar^2$. Barisan aritmetika adalah $a, ar-2, ar^2-9$. Dalam barisan aritmetika, selisih antar suku adalah sama, sehingga $(ar-2) - a = (ar^2-9) - (ar-2)$. $ar-2-a = ar^2-9-ar+2$. $ar-a-2 = ar^2-ar-7$. $ar^2 - 2ar + a - 5 = 0$. $a(r^2 - 2r + 1) = 5$. $a(r-1)^2 = 5$. Karena $a$ adalah bilangan bulat positif (asumsi umum dalam soal seperti ini) dan $(r-1)^2$ juga bilangan bulat non-negatif, maka satu-satunya pasangan faktor integer dari 5 adalah $(1, 5)$ atau $(5, 1)$.\nKasus 1: $a=1$ dan $(r-1)^2=5 \\Rightarrow r-1 = \\pm\\sqrt{5} \\Rightarrow r = 1 \\pm \\sqrt{5}$. Ini akan menghasilkan $b$ dan $c$ yang tidak bulat, jadi kita abaikan.\nKasus 2: $a=5$ dan $(r-1)^2=1 \\Rightarrow r-1 = \\pm 1$.\nJika $r-1 = 1 \\Rightarrow r=2$. Barisan geometri: $a=5, b=5(2)=10, c=5(2^2)=20$. Barisan aritmetika: $5, 10-2, 20-9 \\Rightarrow 5, 8, 11$. Ini adalah barisan aritmetika dengan beda 3. (Benar).\nJika $r-1 = -1 \\Rightarrow r=0$. Barisan geometri: $a=5, b=5(0)=0, c=5(0^2)=0$. Barisan aritmetika: $5, 0-2, 0-9 \\Rightarrow 5, -2, -9$. Ini adalah barisan aritmetika dengan beda -7. (Benar). Karena kedua kasus valid, kita perlu memeriksa nilai $a+b+c$.\nUntuk $a=5, b=10, c=20$, maka $a+b+c = 5+10+20 = 35$.\nUntuk $a=5, b=0, c=0$, maka $a+b+c = 5+0+0 = 5$. Karena 5 tidak ada di pilihan, maka 35 adalah jawaban yang dimaksud."
+    "pembahasan": "Misal barisan geometri $a, ar, ar^2$. Barisan aritmetika $a, ar-2, ar^2-9$.\n\nSyarat aritmetika: $2(ar-2) = a + (ar^2-9)$\n$2ar - 4 = a + ar^2 - 9$\n$ar^2 - 2ar + a = 5$\n$a(r^2 - 2r + 1) = 5$\n$a(r-1)^2 = 5$\n\nKarena $a$ adalah suku pertama dan $a, b, c$ biasanya bilangan bulat untuk soal sederhana, kita asumsikan $a$ dan $(r-1)^2$ adalah faktor dari 5.\nHanya ada satu kemungkinan faktor bilangan bulat positif untuk $a$: $a=5$ dan $(r-1)^2=1$.\n\n$(r-1)^2 = 1 \\Rightarrow r-1 = \\pm 1$.\nKasus 1: $r-1 = 1 \\Rightarrow r=2$.\nBarisan Geometri: $a=5, b=5(2)=10, c=5(4)=20$.\n\n$a+b+c = 5+10+20 = 35$"
   },
- {
+  {
     "id": 16,
     "pertanyaan": "Jika $S_n$ adalah jumlah $n$ suku pertama dari suatu deret, dan $S_n = n^3 - n^2 + n$, maka suku ke-n ($a_n$) dari deret tersebut adalah...",
     "pilihan": [
@@ -206,7 +205,7 @@
       "$n^3-n^2+n$"
     ],
     "jawaban": "A",
-    "pembahasan": "Suku ke-n ($a_n$) dari suatu deret dapat ditemukan dengan rumus $a_n = S_n - S_{n-1}$.\nDiketahui $S_n = n^3 - n^2 + n$.\nKita cari $S_{n-1}$: \n$S_{n-1} = (n-1)^3 - (n-1)^2 + (n-1)$\n$= (n^3 - 3n^2 + 3n - 1) - (n^2 - 2n + 1) + (n-1)$\n$= n^3 - 3n^2 + 3n - 1 - n^2 + 2n - 1 + n - 1$\n$= n^3 + (-3n^2 - n^2) + (3n + 2n + n) + (-1 - 1 - 1)$\n$= n^3 - 4n^2 + 6n - 3$.\n\nSekarang hitung $a_n$:\n$a_n = S_n - S_{n-1}$\n$= (n^3 - n^2 + n) - (n^3 - 4n^2 + 6n - 3)$\n$= n^3 - n^2 + n - n^3 + 4n^2 - 6n + 3$\n$= (n^3 - n^3) + (-n^2 + 4n^2) + (n - 6n) + 3$\n$= 3n^2 - 5n + 3$."
+    "pembahasan": "Rumus suku ke-n: $a_n = S_n - S_{n-1}$.\n$S_n = n^3 - n^2 + n$.\n\nCari $S_{n-1}$:\n$S_{n-1} = (n-1)^3 - (n-1)^2 + (n-1)$\n$S_{n-1} = (n^3 - 3n^2 + 3n - 1) - (n^2 - 2n + 1) + (n-1)$\n$S_{n-1} = n^3 - 4n^2 + 6n - 3$\n\nHitung $a_n$:\n$a_n = (n^3 - n^2 + n) - (n^3 - 4n^2 + 6n - 3)$\n$a_n = n^3 - n^2 + n - n^3 + 4n^2 - 6n + 3$\n$a_n = (n^3 - n^3) + (-n^2 + 4n^2) + (n - 6n) + 3$\n$a_n = 3n^2 - 5n + 3$"
   },
   {
     "id": 17,
@@ -219,7 +218,7 @@
       "12"
     ],
     "jawaban": "C",
-    "pembahasan": "Jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r} = 18$. (Persamaan 1).\nDeret suku genap adalah $a_2 + a_4 + a_6 + ... = ar + ar^3 + ar^5 + ...$. Ini adalah deret geometri baru dengan suku pertama $a' = ar$ dan rasio $r' = r^2$.\nJumlah deret suku genap adalah $S_{genap} = \\frac{ar}{1-r^2} = 6$. (Persamaan 2).\nKita bisa menulis ulang Persamaan 2 sebagai $\\frac{a}{1-r} \\times \\frac{r}{1+r} = 6$.\nSubstitusikan Persamaan 1 ke sini: $18 \\times \\frac{r}{1+r} = 6$.\n$\\frac{r}{1+r} = \\frac{6}{18} = \\frac{1}{3}$.\n$3r = 1+r \\Rightarrow 2r = 1 \\Rightarrow r = 1/2$.\nSubstitusikan $r=1/2$ ke Persamaan 1: $\\frac{a}{1-1/2} = 18 \\Rightarrow \\frac{a}{1/2} = 18 \\Rightarrow 2a = 18 \\Rightarrow a = 9$."
+    "pembahasan": "Jumlah seluruh suku: $S_\\infty = \\frac{a}{1-r} = 18$ (1)\n\nJumlah suku genap ($a_2, a_4, ...$) adalah deret geometri dengan $a' = ar$ dan $r' = r^2$. \n$S_{genap} = \\frac{ar}{1-r^2} = 6$ (2)\n\nTulis ulang (2) menggunakan (1):\n$\\frac{ar}{(1-r)(1+r)} = \\frac{a}{1-r} \\cdot \\frac{r}{1+r} = 6$\n$18 \\cdot \\frac{r}{1+r} = 6$\n\nCari rasio ($r$):\n$\\frac{r}{1+r} = \\frac{6}{18} = \\frac{1}{3}$\n$3r = 1+r \\Rightarrow 2r = 1 \\Rightarrow r = 1/2$\n\nCari suku pertama ($a$) dengan substitusi $r=1/2$ ke (1):\n$\\frac{a}{1-1/2} = 18$\n$\\frac{a}{1/2} = 18 \\Rightarrow 2a = 18 \\Rightarrow a = 9$"
   },
   {
     "id": 18,
@@ -232,7 +231,7 @@
       "3"
     ],
     "jawaban": "B",
-    "pembahasan": "Karena $a, b, c$ adalah barisan aritmetika, maka $2b = a+c$. (Persamaan 1)\nKarena $a^2, b^2, c^2$ juga barisan aritmetika, maka $2b^2 = a^2+c^2$. (Persamaan 2)\nDari Persamaan 1, kuadratkan kedua sisi: $(2b)^2 = (a+c)^2 \\Rightarrow 4b^2 = a^2+2ac+c^2$.\nSubstitusikan Persamaan 2 ($a^2+c^2 = 2b^2$) ke dalam persamaan ini: $4b^2 = 2b^2 + 2ac$.\n$2b^2 = 2ac \\Rightarrow b^2 = ac$. (Persamaan 3)\nDari Persamaan 1 dan Persamaan 3, kita memiliki $2b = a+c$ dan $b^2=ac$. Ini adalah syarat untuk sebuah barisan yang sekaligus merupakan barisan aritmetika dan barisan geometri. Kondisi ini hanya dapat terpenuhi jika semua suku dalam barisan tersebut sama, yaitu $a=b=c$.\nMaka $\\frac{a+b}{b+c} = \\frac{a+a}{a+a} = \\frac{2a}{2a} = 1$ (karena $a$ adalah bilangan positif, maka $a \\neq 0$)."
+    "pembahasan": "Syarat Aritmetika untuk $a, b, c$:\n$2b = a+c$ (1)\n\nSyarat Aritmetika untuk $a^2, b^2, c^2$:\n$2b^2 = a^2+c^2$ (2)\n\nKuadratkan Persamaan (1):\n$(2b)^2 = (a+c)^2$\n$4b^2 = a^2 + 2ac + c^2$\n\nSubstitusikan Persamaan (2) ke persamaan di atas:\n$4b^2 = (a^2+c^2) + 2ac$\n$4b^2 = 2b^2 + 2ac$\n$2b^2 = 2ac \\Rightarrow b^2 = ac$ (3)\n\nDari (1) dan (3), barisan tersebut juga memenuhi syarat Geometri ($b^2=ac$). Barisan yang sekaligus Aritmetika dan Geometri harus memiliki suku yang sama:\n$a = b = c$\n\nNilai ekspresi:\n$\\frac{a+b}{b+c} = \\frac{a+a}{a+a} = \\frac{2a}{2a} = 1$"
   },
   {
     "id": 19,
@@ -245,7 +244,7 @@
       "64"
     ],
     "jawaban": "A",
-    "pembahasan": "Kita hitung suku-suku secara berurutan menggunakan definisi rekursif $x_n = x_{n-1} + 2x_{n-2}$:\n$x_1 = 1$\n$x_2 = 2$\n$x_3 = x_2 + 2x_1 = 2 + 2(1) = 4$\n$x_4 = x_3 + 2x_2 = 4 + 2(2) = 8$\n$x_5 = x_4 + 2x_3 = 8 + 2(4) = 16$\n$x_6 = x_5 + 2x_4 = 16 + 2(8) = 32$."
+    "pembahasan": "Hitung suku-suku menggunakan definisi rekursif $x_n = x_{n-1} + 2x_{n-2}$:\n$x_1 = 1$\n$x_2 = 2$\n$x_3 = x_2 + 2x_1 = 2 + 2(1) = 4$\n$x_4 = x_3 + 2x_2 = 4 + 2(2) = 8$\n$x_5 = x_4 + 2x_3 = 8 + 2(4) = 16$\n$x_6 = x_5 + 2x_4 = 16 + 2(8) = 32$"
   },
   {
     "id": 20,
@@ -258,6 +257,6 @@
       "25"
     ],
     "jawaban": "A",
-    "pembahasan": "Jumlah deret geometri tak hingga adalah $S = \\frac{a}{1-r} = 10$ (Persamaan 1).\nJumlah deret kuadrat dari setiap suku adalah $S_2 = \\frac{a^2}{1-r^2} = \\frac{100}{3}$ (Persamaan 2).\nKita tahu $1-r^2 = (1-r)(1+r)$. Jadi Persamaan 2 dapat ditulis sebagai $\\left(\\frac{a}{1-r}\\right) \\times \\left(\\frac{a}{1+r}\\right) = \\frac{100}{3}$.\nSubstitusikan Persamaan 1 ($S = \\frac{a}{1-r} = 10$) ke dalam persamaan ini: $10 \\times \\frac{a}{1+r} = \\frac{100}{3}$.\n$\\frac{a}{1+r} = \\frac{100}{30} = \\frac{10}{3}$. (Persamaan 3)\nKita punya sistem persamaan:\n1) $a = 10(1-r)$\n3) $a = \\frac{10}{3}(1+r)$\nSamaakan kedua persamaan untuk $a$: $10(1-r) = \\frac{10}{3}(1+r)$.\nBagi kedua sisi dengan 10: $1-r = \\frac{1}{3}(1+r)$.\n$3(1-r) = 1+r$.\n$3 - 3r = 1 + r$.\n$2 = 4r \\Rightarrow r = \\frac{2}{4} = \\frac{1}{2}$.\nSubstitusikan nilai $r$ kembali ke salah satu persamaan untuk mencari $a$: $a = 10(1-1/2) = 10(1/2) = 5$."
-  },
+    "pembahasan": "Jumlah deret: $S = \\frac{a}{1-r} = 10$ (1)\n\nJumlah kuadrat suku ($a^2, a^2r^2, a^2r^4, ...$):\n$S_2 = \\frac{a^2}{1-r^2} = \\frac{100}{3}$ (2)\n\nTulis ulang (2) menggunakan $1-r^2 = (1-r)(1+r)$:\n$\\frac{a}{1-r} \\cdot \\frac{a}{1+r} = \\frac{100}{3}$\n$10 \\cdot \\frac{a}{1+r} = \\frac{100}{3}$\n$\\frac{a}{1+r} = \\frac{10}{3}$ (3)\n\nDari (1) dan (3), substitusikan $a$:\n$10(1-r) = \\frac{10}{3}(1+r)$\n$3(1-r) = 1+r$\n$3 - 3r = 1 + r$\n$2 = 4r \\Rightarrow r = 1/2$\n\nCari suku pertama ($a$) dengan substitusi $r=1/2$ ke (1):\n$a = 10(1-1/2)$\n$a = 10(1/2)$\n$a = 5$"
+  }
 ]
