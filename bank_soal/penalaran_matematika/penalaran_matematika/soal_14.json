@@ -10,7 +10,7 @@
       "32.000"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nPopulasi awal: 1.000.\n\nSetelah 1 jam: $1.000 \\times 2 = 2.000$.\n\nSetelah 2 jam: $2.000 \\times 2 = 4.000$.\n\nSetelah 3 jam: $4.000 \\times 2 = 8.000$.\n\n**Cara Cepat (Barisan Geometri)**:\n\nGunakan rumus: $U_n = a \\times r^n$.\n\n$U_3 = 1.000 \\times 2^3 = 1.000 \\times 8 = 8.000$. Jadi, jawabannya adalah C."
+    "pembahasan": "**Langkah Lengkap**:\n\nPopulasi awal: 1.000.\n\nSetelah 1 jam: $1.000 \\times 2 = 2.000$.\n\nSetelah 2 jam: $2.000 \\times 2 = 4.000$.\n\nSetelah 3 jam: $4.000 \\times 2 = 8.000$.\n\n**Cara Cepat (Barisan Geometri)**:\n\nGunakan rumus: U_n = a x r^n.\n\nU_3 = 1.000 x 2^3 = 1.000 x 8 = 8.000. Jadi, jawabannya adalah C."
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "7 km"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap (Teorema Pythagoras)**:\n\nPerjalanan membentuk segitiga siku-siku dengan sisi tegak 3 km dan 4 km.\n\nJarak terpendek ($C$) adalah sisi miring.\n\n$C^2 = A^2 + B^2$.\n\n$C^2 = 3^2 + 4^2 = 9 + 16 = 25$.\n\n$C = \\sqrt{25} = 5 \\text{ km}$."
+    "pembahasan": "**Langkah Lengkap (Teorema Pythagoras)**:\n\nPerjalanan membentuk segitiga siku-siku dengan sisi tegak 3 km dan 4 km.\n\nJarak terpendek (C) adalah sisi miring.\n\nC^2 = A^2 + B^2.\n\nC^2 = 3^2 + 4^2 = 9 + 16 = 25.\n\nC = \\sqrt{25} = 5 \\text{ km}."
   },
   {
     "id": 3,
@@ -36,11 +36,11 @@
       "Rp612.000"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. **Harga Setelah Diskon 30%**: Harga = $1.200.000 \\times (1 - 0.30) = 1.200.000 \\times 0.7 = 840.000$.\n\n2. **Besar Cashback 15% (dari Rp840.000)**: Cashback = $840.000 \\times 0.15 = 126.000$.\n\n3. **Total yang Dibayar**: Bayar = $840.000 - 126.000 = 714.000$.\n\n**Cara Cepat**:\n\nBayar = $1.200.000 \\times (1 - 0.30) \\times (1 - 0.15) \n= 1.200.000 \\times 0.7 \\times 0.85 = 714.000$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. **Harga Setelah Diskon 30%**: Harga = $1.200.000 \\times (1 - 0.30) = 1.200.000 \\times 0.7 = 840.000$.\n\n2. **Besar Cashback 15% (dari Rp840.000)**: Cashback = $840.000 \\times 0.15 = 126.000$.\n\n3. **Total yang Dibayar**: Bayar = $840.000 - 126.000 = 714.000$.\n\n**Cara Cepat**:\n\nBayar = $1.200.000 \\times (1 - 0.30) \\times (1 - 0.15) \\n= 1.200.000 \\times 0.7 \\times 0.85 = 714.000$."
   },
   {
     "id": 4,
-    "pertanyaan": "Sebuah kerucut terpancung memiliki jari-jari bawah 14 cm, jari-jari atas 7 cm, dan tinggi 24 cm. Berapa volumenya? ($\\pi=\\tfrac{22}{7}$)",
+    "pertanyaan": "Sebuah kerucut terpancung memiliki jari-jari bawah 14 cm, jari-jari atas 7 cm, dan tinggi 24 cm. Berapa volumenya? (\\pi=22/7)",
     "pilihan": [
       "6.468 cm³",
       "7.392 cm³",
@@ -49,11 +49,11 @@
       "10.164 cm³"
     ],
     "jawaban": "C",
-    "pembahasan": "**Rumus dan Perhitungan**:\n\nRumus Volume Kerucut Terpancung: $V = \\tfrac{1}{3}\\pi h(R^2+Rr+r^2)$\n\nSubstitusi: $R=14, r=7, h=24, \\pi=\\tfrac{22}{7}$.\n\n$$V=\\tfrac{1}{3}\\times\\tfrac{22}{7}\\times 24\\times(14^2+14\\times 7+7^2)$\n\n$V=\\tfrac{1}{3}\\times\\tfrac{22}{7}\\times 24\\times(196+98+49)$\n\n$V = \\tfrac{1}{3}\\times\\tfrac{22}{7}\\times 24\\times 343 = 8316 \\text{ cm³}$."
+    "pembahasan": "**Rumus dan Perhitungan**:\n\nRumus Volume Kerucut Terpancung: V = 1/3 \\pi h(R^2+Rr+r^2)\n\nSubstitusi: R=14, r=7, h=24, \\pi=22/7.\n\nV=1/3 x 22/7 x 24 x (14^2+14 x 7+7^2)\n\nV=1/3 x 22/7 x 24 x (196+98+49)\n\nV = 1/3 x 22/7 x 24 x 343 = 8316 cm³."
   },
   {
     "id": 5,
-    "pertanyaan": "Diketahui $$f(x) = 3x - 2$$ dan $$g(x) = x^2 + 4$$. Berapa nilai dari $$(f\\circ g)(2)$$?",
+    "pertanyaan": "Diketahui f(x) = 3x - 2 dan g(x) = x^2 + 4. Berapa nilai dari (f o g)(2)?",
     "pilihan": [
       "10",
       "14",
@@ -62,7 +62,7 @@
       "26"
     ],
     "jawaban": "D",
-    "pembahasan": "**Langkah Komposisi Fungsi**:\n\nHitung nilai $g(2)$ terlebih dahulu:\n\n$$g(2) = 2^2 + 4 = 4 + 4 = 8$$\n\nKemudian substitusikan hasilnya ke fungsi $f(x)$: $$(f\\circ g)(2) = f(g(2)) = f(8)$$\n\n$$f(8) = 3\\times 8 - 2 = 24 - 2 = 22$$."
+    "pembahasan": "**Langkah Komposisi Fungsi**:\n\nHitung nilai g(2) terlebih dahulu:\n\ng(2) = 2^2 + 4 = 4 + 4 = 8\n\nKemudian substitusikan hasilnya ke fungsi f(x): (f o g)(2) = f(g(2)) = f(8)\n\nf(8) = 3 x 8 - 2 = 24 - 2 = 22."
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
       "350 km"
     ],
     "jawaban": "C",
-    "pembahasan": "**Gunakan Aturan Cosinus**:\n\nPerpindahan pertama ($a=150$), perpindahan kedua ($b=200$). Sudut yang dibentuk di antara arah timur dan 60° ke utara adalah $180^\\circ - 60^\\circ = 120^\\circ$ (sudut $\\gamma$ pada segitiga).\n\nRumus: $$c^2 = a^2+b^2-2ab\\cos(\\gamma)$$\n\n$$d^2 = 150^2+200^2-2(150)(200)\\cos(120^\\circ)$$\n\nKarena $\\cos(120^\\circ) = -\\frac{1}{2}$:\n\n$$d^2 = 22.500+40.000-60.000(-\\frac{1}{2})$$\n\n$$d^2 = 62.500+30.000 = 92.500$$\n\n$$d=\\sqrt{92.500}\\approx 304.14 \\text{ km}$$, dibulatkan menjadi 304 km."
+    "pembahasan": "**Gunakan Aturan Cosinus**:\n\nPerpindahan pertama (a=150), perpindahan kedua (b=200). Sudut yang dibentuk di antara arah timur dan 60° ke utara adalah 180° - 60° = 120° (sudut \\gamma pada segitiga).\n\nRumus: c^2 = a^2+b^2-2ab\\cos(\\gamma)\n\nd^2 = 150^2+200^2-2(150)(200)\\cos(120°)\n\nKarena \\cos(120°) = -1/2:\n\nd^2 = 22.500+40.000-60.000(-1/2)\n\nd^2 = 62.500+30.000 = 92.500\n\nd=\\sqrt{92.500}\\approx 304.14 \\text{ km}, dibulatkan menjadi 304 km."
   },
   {
     "id": 7,
@@ -88,11 +88,11 @@
       "25%"
     ],
     "jawaban": "B",
-    "pembahasan": "**Gunakan Prinsip Inklusi-Eksklusi**:\n\nPersentase yang suka salah satu atau keduanya (Gabungan):\n\n$$P(\\text{Math} \\cup \\text{Fisika}) = P(\\text{Math}) + P(\\text{Fisika}) - P(\\text{Keduanya})$$\n\n$$P(\\text{Gabungan}) = 60\\% + 50\\% - 20\\% = 90\\%$$\n\nPersentase yang tidak suka keduanya:\n\n$$P(\\text{Tidak Suka}) = 100\\% - P(\\text{Gabungan})$$\n\n$$P(\\text{Tidak Suka}) = 100\\% - 90\\% = 10\\%$$."
+    "pembahasan": "**Gunakan Prinsip Inklusi-Eksklusi**:\n\nPersentase yang suka salah satu atau keduanya (Gabungan):\n\nP(Math \\cup Fisika) = P(Math) + P(Fisika) - P(Keduanya)\n\nP(Gabungan) = 60% + 50% - 20% = 90%\n\nPersentase yang tidak suka keduanya:\n\nP(Tidak Suka) = 100% - P(Gabungan)\n\nP(Tidak Suka) = 100% - 90% = 10%."
   },
   {
     "id": 8,
-    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 10 m. Setiap pantulan mencapai $$\\tfrac{3}{4}$$ tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 10 m. Setiap pantulan mencapai 3/4 tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
     "pilihan": [
       "40 m",
       "50 m",
@@ -101,11 +101,11 @@
       "80 m"
     ],
     "jawaban": "D",
-    "pembahasan": "**Deret Geometri Tak Hingga**:\n\n1. **Jarak Turun Awal**: $H_0 = 10 \\text{ m}$.\n\n2. **Jarak Pantulan (Naik + Turun)**: Jarak pantulan membentuk deret geometri tak hingga dengan rasio $r = \\tfrac{3}{4}$. Jarak pantulan total adalah 2 kali jumlah deretnya (sekali naik, sekali turun).\n\nRumus Jarak Pantulan Total: $J_{\\text{pantulan}} = 2 \\times S_{\\infty} = 2 \\times \\frac{a}{1-r}$\n\nDengan $a$ adalah tinggi pantulan pertama: $a = 10 \\times \\frac{3}{4} = 7.5 \\text{ m}$ dan $r = 0.75$.\n\n$$J_{\\text{pantulan}} = 2 \\times \\frac{7.5}{1-0.75} = 2 \\times \\frac{7.5}{0.25} = 2 \\times 30 = 60 \\text{ m}$$\n\n3. **Total Jarak**: $J_{\\text{total}} = J_{\\text{turun awal}} + J_{\\text{pantulan}} = 10 + 60 = 70 \\text{ m}$."
+    "pembahasan": "**Deret Geometri Tak Hingga**:\n\n1. **Jarak Turun Awal**: H_0 = 10 \\text{ m}.\n\n2. **Jarak Pantulan (Naik + Turun)**: Jarak pantulan membentuk deret geometri tak hingga dengan rasio r = 3/4. Jarak pantulan total adalah 2 kali jumlah deretnya (sekali naik, sekali turun).\n\nRumus Jarak Pantulan Total: J_pantulan = 2 x S_inf = 2 x a/(1-r)\n\nDengan a adalah tinggi pantulan pertama: a = 10 x 3/4 = 7.5 \\text{ m} dan r = 0.75.\n\nJ_pantulan = 2 x 7.5/(1-0.75) = 2 x 7.5/0.25 = 2 x 30 = 60 \\text{ m}\n\n3. **Total Jarak**: J_total = J_turun awal + J_pantulan = 10 + 60 = 70 \\text{ m}."
   },
   {
     "id": 9,
-    "pertanyaan": "Diketahui matriks $$A = \\begin{bmatrix}2 & 1 \\\\ 3 & 4\\end{bmatrix}$$ dan $$B = \\begin{bmatrix}1 & 0 \\\\ -1 & 2\\end{bmatrix}$$. Berapa determinan dari $$(A + B)$$?",
+    "pertanyaan": "Diketahui matriks A = [[2 & 1 \\\\ 3 & 4]] dan B = [[1 & 0 \\\\ -1 & 2]]. Berapa determinan dari (A + B)?",
     "pilihan": [
       "5",
       "10",
@@ -114,7 +114,7 @@
       "25"
     ],
     "jawaban": "D",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. **Hitung Matriks Penjumlahan $A+B$**:\n\n$$A+B=\\begin{bmatrix}2+1 & 1+0 \\\\ 3+(-1) & 4+2\\end{bmatrix} = \\begin{bmatrix}3 & 1 \\\\ 2 & 6\\end{bmatrix}$$\n\n2. **Hitung Determinan**:\n\nRumus $\\det(M) = ad-bc$ untuk matriks $\\begin{bmatrix}a & b \\\\ c & d\\end{bmatrix}$.\n\n$$\\det(A+B) = 3\\times6-1\\times2 = 18 - 2 = 16$$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. **Hitung Matriks Penjumlahan A+B**:\n\nA+B= [[2+1 & 1+0 \\\\ 3+(-1) & 4+2]] = [[3 & 1 \\\\ 2 & 6]]\n\n2. **Hitung Determinan**:\n\nRumus det(M) = ad-bc untuk matriks [[a & b \\\\ c & d]].\n\ndet(A+B) = 3 x 6 - 1 x 2 = 18 - 2 = 16."
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
       "2.5 m"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap (Aplikasi Pythagoras)**:\n\nPanjang tangga ($m$) = 5 m (sisi miring tetap).\n\n1. **Kondisi Awal**:\n\nMisal jarak dasar ke dinding ($x_1$) = 3 m. Ketinggian ujung tangga ($y_1$) dihitung:\n\n$$y_1^2 + x_1^2 = 5^2 \\Rightarrow y_1^2 + 3^2 = 25 \\Rightarrow y_1^2 = 16 \\Rightarrow y_1 = 4 \\text{ m}$$\n\n2. **Kondisi Akhir**:\n\nDasar tangga bergeser 1 m: $x_2 = x_1 + 1 = 3 + 1 = 4 \\text{ m}$. Ketinggian ujung tangga ($y_2$) dihitung:\n\n$$y_2^2 + x_2^2 = 5^2 \\Rightarrow y_2^2 + 4^2 = 25 \\Rightarrow y_2^2 = 9 \\Rightarrow y_2 = 3 \\text{ m}$$\n\n3. **Penurunan Ketinggian**:\n\nPenurunan = $y_1 - y_2 = 4 - 3 = 1 \\text{ m}$."
+    "pembahasan": "**Langkah Lengkap (Aplikasi Pythagoras)**:\n\nPanjang tangga (m) = 5 m (sisi miring tetap).\n\n1. **Kondisi Awal**:\n\nMisal jarak dasar ke dinding (x_1) = 3 m. Ketinggian ujung tangga (y_1) dihitung:\n\ny_1^2 + x_1^2 = 5^2 \\Rightarrow y_1^2 + 3^2 = 25 \\Rightarrow y_1^2 = 16 \\Rightarrow y_1 = 4 \\text{ m}\n\n2. **Kondisi Akhir**:\n\nDasar tangga bergeser 1 m: x_2 = x_1 + 1 = 3 + 1 = 4 \\text{ m}. Ketinggian ujung tangga (y_2) dihitung:\n\ny_2^2 + x_2^2 = 5^2 \\Rightarrow y_2^2 + 4^2 = 25 \\Rightarrow y_2^2 = 9 \\Rightarrow y_2 = 3 \\text{ m}\n\n3. **Penurunan Ketinggian**:\n\nPenurunan = y_1 - y_2 = 4 - 3 = 1 \\text{ m}."
   },
   {
     "id": 11,
@@ -140,11 +140,11 @@
       "500"
     ],
     "jawaban": "D",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. **Produktivitas Awal** (Unit/Pekerja): $P_{\\text{awal}} = 500 / 20 = 25 \\text{ unit/pekerja}$ .\n\n2. **Produktivitas Baru** (Meningkat 25%): $P_{\\text{baru}} = 25 \\times (1 + 0.25) = 25 \\times 1.25 = 31.25 \\text{ unit/pekerja}$ .\n\n3. **Total Produksi Baru** (dengan 15 pekerja):\n\nTotal = $31.25 \\text{ unit/pekerja} \\times 15 \\text{ pekerja} = 468.75 \\text{ unit}$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. **Produktivitas Awal** (Unit/Pekerja): P_awal = 500 / 20 = 25 \\text{ unit/pekerja} .\n\n2. **Produktivitas Baru** (Meningkat 25%): P_baru = 25 \\times (1 + 0.25) = 25 \\times 1.25 = 31.25 \\text{ unit/pekerja} .\n\n3. **Total Produksi Baru** (dengan 15 pekerja):\n\nTotal = 31.25 \\text{ unit/pekerja} \\times 15 \\text{ pekerja} = 468.75 \\text{ unit}."
   },
   {
     "id": 12,
-    "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., $$\\tfrac{1}{64}$$. Berapa banyak suku dalam barisan tersebut?",
+    "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., 1/64. Berapa banyak suku dalam barisan tersebut?",
     "pilihan": [
       "10",
       "11",
@@ -153,11 +153,11 @@
       "14"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Barisan Geometri**:\n\nSuku pertama ($a$) = 16. Rasio ($r$) = $8/16 = \\tfrac{1}{2}$. Suku ke-$n$ ($U_n$) = $$\\tfrac{1}{64}$$.\n\nRumus Suku ke-$n$: $$U_n = a \\times r^{n-1}$$\n\n$$\\tfrac{1}{64} = 16 \\times (\\tfrac{1}{2})^{n-1}$$\n\n$$\\tfrac{1}{64 \\times 16} = (\\tfrac{1}{2})^{n-1}$$\n\n$$\\tfrac{1}{1024} = (\\tfrac{1}{2})^{n-1}$$\n\nKarena $1024 = 2^{10}$, maka: $$(\\tfrac{1}{2})^{10} = (\\tfrac{1}{2})^{n-1}$$\n\n$$10 = n-1 \\Rightarrow n = 11$$."
+    "pembahasan": "**Langkah Barisan Geometri**:\n\nSuku pertama (a) = 16. Rasio (r) = 8/16 = 1/2. Suku ke-n (U_n) = 1/64.\n\nRumus Suku ke-n: U_n = a \\times r^(n-1)\n\n1/64 = 16 \\times (1/2)^(n-1)\n\n1/(64 \\times 16) = (1/2)^(n-1)\n\n1/1024 = (1/2)^(n-1)\n\nKarena 1024 = 2^10, maka: (1/2)^10 = (1/2)^(n-1)\n\n10 = n-1 \\Rightarrow n = 11."
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah prisma segi-6 beraturan memiliki volume $$540\\sqrt{3}$$ cm³ dan tinggi 15 cm. Berapa panjang sisi alasnya?",
+    "pertanyaan": "Sebuah prisma segi-6 beraturan memiliki volume 540\\sqrt{3} cm³ dan tinggi 15 cm. Berapa panjang sisi alasnya?",
     "pilihan": [
       "2 cm",
       "3 cm",
@@ -166,11 +166,11 @@
       "6 cm"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. **Hitung Luas Alas** ($L_{\\text{alas}}$):\n\nRumus Volume Prisma: $V = L_{\\text{alas}} \\times h$.\n\n$$L_{\\text{alas}} = \\frac{V}{h} = \\frac{540\\sqrt{3}}{15} = 36\\sqrt{3} \\text{ cm}^2$$\n\n2. **Hitung Panjang Sisi Alas** ($s$):\n\nRumus Luas Segi-6 Beraturan: $$L_{\\text{alas}} = \\tfrac{3\\sqrt{3}}{2}s^2$$\n\n$$\\tfrac{3\\sqrt{3}}{2}s^2 = 36\\sqrt{3}$$\n\n$$s^2 = 36\\sqrt{3} \\times \\frac{2}{3\\sqrt{3}} = 24$$\n\n$$s = \\sqrt{24} \\approx 4.898 \\text{ cm}$$ (Jika soal dan pilihan dirancang agar $s^2=16$, maka $s=4$. Dengan $s^2=24$ jawaban yang terdekat adalah C). *Asumsi ada kesalahan penulisan soal/jawaban, seharusnya $s^2=16$ agar $s=4$ sesuai opsi C.*"
+    "pembahasan": "**Langkah Lengkap**:\n\n1. **Hitung Luas Alas** (L_alas):\n\nRumus Volume Prisma: V = L_alas \\times h.\n\nL_alas = V/h = 540\\sqrt{3}/15 = 36\\sqrt{3} \\text{ cm}^2\n\n2. **Hitung Panjang Sisi Alas** (s):\n\nRumus Luas Segi-6 Beraturan: L_alas = (3\\sqrt{3})/2 s^2\n\n(3\\sqrt{3})/2 s^2 = 36\\sqrt{3}\n\ns^2 = 36\\sqrt{3} \\times 2/(3\\sqrt{3}) = 24\n\ns = \\sqrt{24} \\approx 4.898 \\text{ cm} (Jika soal dan pilihan dirancang agar s^2=16, maka s=4. Dengan s^2=24 jawaban yang terdekat adalah C). *Asumsi ada kesalahan penulisan soal/jawaban, seharusnya s^2=16 agar s=4 sesuai opsi C.*"
   },
   {
     "id": 14,
-    "pertanyaan": "Diketahui sistem persamaan: $$2x+3y=7$$ dan $$3x-y=5$$. Berapa nilai $$x^2+y^2$$?",
+    "pertanyaan": "Diketahui sistem persamaan: 2x+3y=7 dan 3x-y=5. Berapa nilai x^2+y^2?",
     "pilihan": [
       "5",
       "10",
@@ -179,7 +179,7 @@
       "25"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Penyelesaian Sistem Persamaan**:\n\nPersamaan (1): $$2x+3y=7$$\nPersamaan (2): $$3x-y=5 \\Rightarrow y = 3x - 5$$\n\nSubstitusi $y$ ke Persamaan (1):\n\n$$2x + 3(3x - 5) = 7$$\n\n$$2x + 9x - 15 = 7 \\Rightarrow 11x = 22 \\Rightarrow x = 2$$\n\nSubstitusi $x=2$ ke Persamaan (2):\n\n$$y = 3(2) - 5 = 6 - 5 = 1$$\n\n**Hasil Akhir**:\n\nNilai $$x^2+y^2 = 2^2 + 1^2 = 4 + 1 = 5$$."
+    "pembahasan": "**Langkah Penyelesaian Sistem Persamaan**:\n\nPersamaan (1): 2x+3y=7\nPersamaan (2): 3x-y=5 \\Rightarrow y = 3x - 5\n\nSubstitusi y ke Persamaan (1):\n\n2x + 3(3x - 5) = 7\n\n2x + 9x - 15 = 7 \\Rightarrow 11x = 22 \\Rightarrow x = 2\n\nSubstitusi x=2 ke Persamaan (2):\n\ny = 3(2) - 5 = 6 - 5 = 1\n\n**Hasil Akhir**:\n\nNilai x^2+y^2 = 2^2 + 1^2 = 4 + 1 = 5."
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
       "200 cm"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. **Faktor Skala**: Luas diperbesar 4 kali, maka skala linear (panjang sisi/diagonal) adalah $\\sqrt{4}=2$ kali.\n\n2. **Diagonal Awal**: Hitung diagonal awal ($D_{\\text{awal}}$) dengan Pythagoras:\n\n$$D_{\\text{awal}} = \\sqrt{30^2+40^2} = \\sqrt{900+1600} = \\sqrt{2500} = 50 \\text{ cm}$$\n\n3. **Diagonal Baru**: Diagonal baru ($D_{\\text{baru}}$) adalah $2 \\times D_{\\text{awal}}$:\n\n$$D_{\\text{baru}} = 2 \\times 50 = 100 \\text{ cm}$$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. **Faktor Skala**: Luas diperbesar 4 kali, maka skala linear (panjang sisi/diagonal) adalah \\sqrt{4}=2 kali.\n\n2. **Diagonal Awal**: Hitung diagonal awal (D_awal) dengan Pythagoras:\n\nD_awal = \\sqrt{30^2+40^2} = \\sqrt{900+1600} = \\sqrt{2500} = 50 \\text{ cm}\n\n3. **Diagonal Baru**: Diagonal baru (D_baru) adalah $2 \\times D_{\\text{awal}}$:\n\nD_baru = 2 \\times 50 = 100 \\text{ cm}."
   },
   {
     "id": 16,
@@ -205,11 +205,11 @@
       "5/11"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\nTotal kelereng = $3+4+5=12$.\n\n1. **Ruang Sampel ($n(S)$)**: Jumlah cara mengambil 3 kelereng dari 12.\n\n$$n(S) = \\binom{12}{3} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 220$$\n\n2. **Kejadian ($n(A)$)**: Jumlah cara mengambil 1 merah, 1 biru, dan 1 hijau.\n\n$$n(A) = \\binom{3}{1} \\times \\binom{4}{1} \\times \\binom{5}{1} = 3 \\times 4 \\times 5 = 60$$\n\n3. **Peluang ($P(A)$)**:\n\n$$P(A) = \\frac{n(A)}{n(S)} = \\frac{60}{220} = \\frac{6}{22} = \\frac{3}{11}$$."
+    "pembahasan": "**Langkah Lengkap (Peluang Kombinasi)**:\n\nTotal kelereng = $3+4+5=12$.\n\n1. **Ruang Sampel (n(S))**: Jumlah cara mengambil 3 kelereng dari 12.\n\nn(S) = \\binom{12}{3} = (12 \\times 11 \\times 10)/(3 \\times 2 \\times 1) = 220\n\n2. **Kejadian (n(A))**: Jumlah cara mengambil 1 merah, 1 biru, dan 1 hijau.\n\nn(A) = \\binom{3}{1} \\times \\binom{4}{1} \\times \\binom{5}{1} = 3 \\times 4 \\times 5 = 60\n\n3. **Peluang (P(A))**:\n\nP(A) = n(A)/n(S) = 60/220 = 6/22 = 3/11."
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah fungsi kuadrat $$f(x)$$ melalui titik (1,0), (3,0), dan (0,6). Berapa nilai $$f(2)$$?",
+    "pertanyaan": "Sebuah fungsi kuadrat f(x) melalui titik (1,0), (3,0), dan (0,6). Berapa nilai f(2)?",
     "pilihan": [
       "-2",
       "-1",
@@ -218,11 +218,11 @@
       "2"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. **Bentuk Fungsi Kuadrat (Diketahui Titik Potong Sumbu X)**:\n\nKarena melalui (1,0) dan (3,0), akar-akarnya adalah $x=1$ dan $x=3$. Bentuk fungsinya:\n\n$$f(x) = a(x-x_1)(x-x_2) = a(x-1)(x-3)$$\n\n2. **Cari Nilai a**:\n\nFungsi melalui titik (0,6). Substitusi $x=0, f(x)=6$:\n\n$$6 = a(0-1)(0-3) \\Rightarrow 6 = a(-1)(-3) \\Rightarrow 6 = 3a \\Rightarrow a=2$$\n\n3. **Hitung $f(2)$**:\n\nFungsi lengkap: $f(x)=2(x-1)(x-3)$. Substitusi $x=2$:\n\n$$f(2)=2(2-1)(2-3) = 2(1)(-1) = -2$$."
+    "pembahasan": "**Langkah Lengkap**:\n\n1. **Bentuk Fungsi Kuadrat (Diketahui Titik Potong Sumbu X)**:\n\nKarena melalui (1,0) dan (3,0), akar-akarnya adalah x=1 dan x=3. Bentuk fungsinya:\n\nf(x) = a(x-x_1)(x-x_2) = a(x-1)(x-3)\n\n2. **Cari Nilai a**:\n\nFungsi melalui titik (0,6). Substitusi x=0, f(x)=6:\n\n6 = a(0-1)(0-3) \\Rightarrow 6 = a(-1)(-3) \\Rightarrow 6 = 3a \\Rightarrow a=2\n\n3. **Hitung f(2)**:\n\nFungsi lengkap: f(x)=2(x-1)(x-3). Substitusi x=2:\n\nf(2)=2(2-1)(2-3) = 2(1)(-1) = -2."
   },
   {
     "id": 18,
-    "pertanyaan": "Diketahui $$\\log 2=0.301$$ dan $$\\log 3=0.477$$. Berapa nilai dari $$\\log(\\sqrt{72})$$?",
+    "pertanyaan": "Diketahui log 2=0.301 dan log 3=0.477. Berapa nilai dari log(\\sqrt{72})?",
     "pilihan": [
       "0.928",
       "0.953",
@@ -231,7 +231,7 @@
       "1.053"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap (Sifat Logaritma)**:\n\n$$\\log(\\sqrt{72}) = \\log(72^{\\tfrac{1}{2}}) = \\tfrac{1}{2}\\log(72)$$\n\nUbah 72 menjadi perkalian faktor prima ($72 = 8 \\times 9 = 2^3 \\times 3^2$):\n\n$$\\tfrac{1}{2}\\log(72) = \\tfrac{1}{2}\\log(2^3 \\times 3^2)$$\n\n$$\\tfrac{1}{2}(3\\log2+2\\log3)$$\n\nSubstitusi nilai $\\log 2$ dan $\\log 3$:\n\n$$\\tfrac{1}{2}(3(0.301)+2(0.477))$$\n\n$$\\tfrac{1}{2}(0.903+0.954) = \\tfrac{1}{2}(1.857) = 0.9285$$."
+    "pembahasan": "**Langkah Lengkap (Sifat Logaritma)**:\n\nlog(\\sqrt{72}) = log(72^(1/2)) = 1/2 log(72)\n\nUbah 72 menjadi perkalian faktor prima (72 = 8 \\times 9 = 2^3 \\times 3^2):\n\n1/2 log(72) = 1/2 log(2^3 \\times 3^2)\n\n1/2(3 log 2 + 2 log 3)\n\nSubstitusi nilai log 2 dan log 3:\n\n1/2(3(0.301) + 2(0.477))\n\n1/2(0.903+0.954) = 1/2(1.857) = 0.9285."
   },
   {
     "id": 19,
@@ -244,11 +244,11 @@
       "2.6 A"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap (Efisiensi Transformator)**:\n\n1. **Hitung Daya Output ($P_{\\text{out}}$)**:\n\nEfisiensi ($\\eta$) = $\\frac{P_{\\text{out}}}{P_{\\text{in}}}$\n\n$$P_{\\text{out}} = P_{\\text{in}} \\times \\eta = 500 \\text{ W} \\times 0.90 = 450 \\text{ W}$$\n\n2. **Hitung Arus Output ($I_{\\text{out}}$)**:\n\nRumus Daya Listrik: $P = V \\times I$\n\n$$I_{\\text{out}} = \\frac{P_{\\text{out}}}{V_{\\text{out}}} = \\frac{450 \\text{ W}}{220 \\text{ V}} \\approx 2.045 \\text{ A}$$\n\nNilai terdekat adalah 2.0 A."
+    "pembahasan": "**Langkah Lengkap (Efisiensi Transformator)**:\n\n1. **Hitung Daya Output (P_out)**:\n\nEfisiensi (\\eta) = P_out / P_in\n\nP_out = P_in \\times \\eta = 500 \\text{ W} \\times 0.90 = 450 \\text{ W}\n\n2. **Hitung Arus Output (I_out)**:\n\nRumus Daya Listrik: P = V \\times I\n\nI_out = P_out/V_out = 450 \\text{ W} / 220 \\text{ V} \\approx 2.045 \\text{ A}\n\nNilai terdekat adalah 2.0 A."
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah partikel bergerak dengan persamaan $$s(t)=t^3-6t^2+9t+5$$. Pada detik keberapa partikel berhenti sesaat?",
+    "pertanyaan": "Sebuah partikel bergerak dengan persamaan s(t)=t^3-6t^2+9t+5. Pada detik keberapa partikel berhenti sesaat?",
     "pilihan": [
       "1 dan 2",
       "1 dan 3",
@@ -257,6 +257,6 @@
       "3 saja"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap (Aplikasi Turunan)**:\n\nPartikel berhenti sesaat ketika kecepatannya ($v(t)$) sama dengan nol. Kecepatan adalah turunan pertama dari posisi ($s'(t)$).\n\n$$v(t) = s'(t) = \\frac{d}{dt}(t^3-6t^2+9t+5)$$\n\n$$v(t) = 3t^2-12t+9$$\n\nAtur $v(t)=0$:\n\n$$3t^2-12t+9 = 0$$\n\nBagi dengan 3:\n\n$$t^2-4t+3 = 0$$\n\nFaktorkan:\n\n$$(t-1)(t-3) = 0$$\n\nPartikel berhenti sesaat pada $t=1$ detik dan $t=3$ detik."
+    "pembahasan": "**Langkah Lengkap (Aplikasi Turunan)**:\n\nPartikel berhenti sesaat ketika kecepatannya (v(t)) sama dengan nol. Kecepatan adalah turunan pertama dari posisi (s'(t)).\n\nv(t) = s'(t) = d/dt (t^3-6t^2+9t+5)\n\nv(t) = 3t^2-12t+9\n\nAtur v(t)=0:\n\n3t^2-12t+9 = 0\n\nBagi dengan 3:\n\nt^2-4t+3 = 0\n\nFaktorkan:\n\n(t-1)(t-3) = 0\n\nPartikel berhenti sesaat pada t=1 detik dan t=3 detik."
   }
 ]
