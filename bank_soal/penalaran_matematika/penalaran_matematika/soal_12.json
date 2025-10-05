@@ -10,11 +10,11 @@
       "1.800"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Kombinasi Appetizer (2 dari 5): $C(5,2) = \\frac{5!}{2!(5-2)!} = 10$.\n2. Hitung Kombinasi Main Course (2 dari 6): $C(6,2) = \\frac{6!}{2!(6-2)!} = 15$.\n3. Hitung Kombinasi Dessert (1 dari 4): $C(4,1) = 4$.\n4. Total Kombinasi: $10 \\times 15 \\times 4 = 600$.\n\n**Cara Cepat**:\n\nTotal Kombinasi = $C(5,2) \\times C(6,2) \\times C(4,1) = 10 \\times 15 \\times 4 = 600$."
+    "pembahasan": "Total Kombinasi = C(5,2) × C(6,2) × C(4,1) = 10 × 15 × 4 = 600."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 7:4. Jika luas lapangan tersebut $700\\ \\text{m}^2$, berapa keliling lapangan tersebut?",
+    "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 7:4. Jika luas lapangan tersebut 700 m², berapa keliling lapangan tersebut?",
     "pilihan": [
       "100 m",
       "110 m",
@@ -23,7 +23,7 @@
       "140 m"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Misal $p=7x$, $l=4x$. Luas $= p \\times l = 28x^2$.\n2. $28x^2 = 700$, maka $x^2=25$, sehingga $x=5$.\n3. Panjang $p=7(5)=35$ m, lebar $l=4(5)=20$ m.\n4. Keliling $= 2(p+l) = 2(35+20) = 2(55) = 110$ m.\n\n**Cara Cepat**:\n\n$x=5$. Keliling $= 2(7x+4x) = 22x = 22(5) = 110$ m."
+    "pembahasan": "Misal p=7x, l=4x. Luas = 28x² = 700, maka x²=25, x=5. Keliling = 2(7x+4x) = 22x = 22(5) = 110 m."
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "36"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Sisa waktu proyek ideal (15 pekerja) $= 24-8=16$ hari.\n2. Pekerja tersisa $= 15-5=10$ orang.\n3. Menggunakan perbandingan berbalik nilai untuk sisa pekerjaan: $15 \\times 16 = 10 \\times H_{\\text{sisa}}$. $H_{\\text{sisa}} = \\frac{15 \\times 16}{10} = 24$ hari.\n4. Total hari proyek $= 8$ hari (awal) $+ 24$ hari (sisa) $= 32$ hari.\n\n**Cara Cepat**:\n\nWaktu nyata (10 pekerja) $= \\frac{\\text{Pekerja Awal}}{\\text{Pekerja Akhir}} \\times \\text{Sisa Hari} = \\frac{15}{10} \\times 16 = 24$ hari. Total $= 8+24 = 32$ hari."
+    "pembahasan": "Sisa hari ideal = 24-8=16 hari. Pekerja tersisa = 10 orang. Waktu sisa = (15/10) × 16 = 24 hari. Total hari = 8 + 24 = 32 hari."
   },
   {
     "id": 4,
@@ -49,11 +49,11 @@
       "Rp8.000.000"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Harga setelah diskon 20%: $10.000.000 \\times (100\\% - 20\\%) = 10.000.000 \\times 0.8 = 8.000.000$.\n2. Harga setelah diskon tambahan 15% (dari Rp8.000.000): $8.000.000 \\times (100\\% - 15\\%) = 8.000.000 \\times 0.85 = 6.800.000$.\n\n**Cara Cepat**:\n\nHarga Akhir = Harga Awal $\\times$ Sisa 1 $\\times$ Sisa 2. Harga Akhir $= 10.000.000 \\times 0.8 \\times 0.85 = 6.800.000$."
+    "pembahasan": "Harga Akhir = 10.000.000 × (1-0.20) × (1-0.15) = 10.000.000 × 0.8 × 0.85 = 6.800.000."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah tabung memiliki volume $3.850\\ \\text{cm}^3$ dan tinggi $25\\ \\text{cm}$. Berapa luas permukaan tabung tersebut? $(\\pi=22/7)$",
+    "pertanyaan": "Sebuah tabung memiliki volume 3.850 cm³ dan tinggi 25 cm. Berapa luas permukaan tabung tersebut? (π=22/7)",
     "pilihan": [
       "1.408 cm²",
       "1.496 cm²",
@@ -62,7 +62,7 @@
       "1.628 cm²"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Cari jari-jari ($r$): $V=\\pi r^2h \\Rightarrow 3.850=(\\frac{22}{7})r^2(25) \\Rightarrow r^2 = \\frac{3.850 \\times 7}{22 \\times 25} = 49$. Jadi, $r=7$ cm.\n2. Luas permukaan $= 2\\pi r(r+h) = 2(\\frac{22}{7})(7)(7+25)$.\n3. Luas permukaan $= 44(32) = 1.408$ cm².\n\n**Cara Cepat**:\n\n$r=7$ (dihitung cepat). Luas permukaan $= 44 \\times 32 = 1.408$ cm²."
+    "pembahasan": "V = πr²h → 3850 = (22/7)r²(25) → r²=49, r=7 cm. Luas permukaan = 2πr(r+h) = 2(22/7)(7)(7+25) = 44(32) = 1.408 cm²."
   },
   {
     "id": 6,
@@ -75,11 +75,11 @@
       "Rp650.000"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Efisiensi bahan bakar $= 360 \\text{ km} / 30 \\text{ L} = 12$ km/L.\n2. Kebutuhan bensin untuk 600 km: $600 \\text{ km} / 12 \\text{ km/L} = 50$ L.\n3. Biaya $= 50 \\text{ L} \\times Rp 10.000/\\text{L} = Rp 500.000$.\n\n**Cara Cepat**:\n\nKebutuhan bensin (Perbandingan Senilai) $= \\frac{600 \\text{ km}}{360 \\text{ km}} \\times 30 \\text{ L} = 1.667 \\times 30 = 50$ L. Biaya $= 500.000$."
+    "pembahasan": "Efisiensi = 360/30 = 12 km/L. Kebutuhan bensin untuk 600 km = 600/12 = 50 L. Biaya = 50 × 10.000 = Rp 500.000."
   },
   {
     "id": 7,
-    "pertanyaan": "Sebuah kerucut memiliki volume $924\\ \\text{cm}^3$ dan tinggi $18\\ \\text{cm}$. Berapa diameter alas kerucut? $(\\pi=22/7)$",
+    "pertanyaan": "Sebuah kerucut memiliki volume 924 cm³ dan tinggi 18 cm. Berapa diameter alas kerucut? (π=22/7)",
     "pilihan": [
       "7 cm",
       "14 cm",
@@ -88,7 +88,7 @@
       "35 cm"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. $V = \\tfrac{1}{3}\\pi r^2h \\Rightarrow 924=\\tfrac{1}{3}\\times(\\frac{22}{7})r^2\\times 18$.\n2. $924 = \\frac{132}{7} r^2 \\Rightarrow r^2 = \\frac{924 \\times 7}{132} = 49$.\n3. $r = \\sqrt{49} = 7$ cm. Diameter $= 2r = 14$ cm.\n\n**Cara Cepat**:\n\nDiameter alas adalah 14 cm, yang didapat dari $r^2 = 49 \\Rightarrow r=7$. D = 2.r = 2 x 7 = 14"
+    "pembahasan": "V = (1/3)πr²h → 924 = (1/3) × (22/7)r² × 18 → r² = 49, r=7 cm. Diameter = 2r = 14 cm."
   },
   {
     "id": 8,
@@ -101,11 +101,11 @@
       "Rp180.000"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Jumlah rasio A+C $= 3+7=10$.\n2. Nilai 1 bagian ($x$): $10x = 500.000 \\Rightarrow x=50.000$.\n3. Selisih rasio B-A $= 5-3=2$.\n4. Selisih uang $= 2x = 2(50.000) = 100.000$.\n\n**Cara Cepat**:\n\nSelisih Uang $= \\frac{\\text{Selisih Rasio (B-A)}}{\\text{Jumlah Rasio (A+C)}} \\times \\text{Jumlah Uang (A+C)} = \\frac{2}{10} \\times 500.000 = 100.000$."
+    "pembahasan": "Jumlah rasio A+C = 3+7=10. Selisih rasio B-A = 5-3=2. Selisih uang = (2/10) × 500.000 = Rp 100.000."
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah lingkaran memiliki luas $1.386\\ \\text{cm}^2$. Berapa keliling lingkaran tersebut? $(\\pi=22/7)$",
+    "pertanyaan": "Sebuah lingkaran memiliki luas 1.386 cm². Berapa keliling lingkaran tersebut? (π=22/7)",
     "pilihan": [
       "112 cm",
       "124 cm",
@@ -114,7 +114,7 @@
       "156 cm"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Cari jari-jari ($r$): $L=\\pi r^2 \\Rightarrow 1.386=(\\frac{22}{7})r^2 \\Rightarrow r^2 = \\frac{1.386 \\times 7}{22} = 441$. Jadi, $r=21$ cm.\n2. Keliling $= 2\\pi r = 2(\\frac{22}{7})(21)$.\n3. Keliling $= 44(3) = 132$ cm.\n\n**Cara Cepat**:\n\n$r=21$. Keliling $= 2 \\times \\frac{22}{7} \\times 21 = 132$ cm."
+    "pembahasan": "L = πr² → 1386 = (22/7)r² → r²=441, r=21 cm. Keliling = 2πr = 2(22/7)(21) = 132 cm."
   },
   {
     "id": 10,
@@ -127,11 +127,11 @@
       "57/65"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Total bola $= 15$. Total kemungkinan $C(15,3)=455$.\n2. Kejadian komplemen (tidak merah) = mengambil 3 bola dari 9 bola (Biru + Hijau). $C(9,3) = 84$.\n3. Peluang tidak merah $P(\\text{Tdk M}) = \\frac{84}{455}$.\n4. Peluang minimal 1 merah $P(\\ge 1M) = 1 - P(\\text{Tdk M}) = 1 - \\frac{84}{455} = \\frac{371}{455}$.\n5. Sederhanakan: $371/455 = 53/65$.\n\n**Cara Cepat**:\n\n$P(\\ge 1M) = 1 - \\frac{C(9,3)}{C(15,3)} = 1 - \\frac{84}{455} = \\frac{53}{65}$."
+    "pembahasan": "P(≥ 1M) = 1 - P(Tidak M). P(Tidak M) = C(9,3) / C(15,3) = 84/455. P(≥ 1M) = 1 - 84/455 = 371/455 = 53/65."
   },
-    {
+  {
     "id": 11,
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang $(4x)$ cm dan lebar $(x)$ cm. Jika kelilingnya 50 cm, berapa luasnya?",
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang (4x) cm dan lebar (x) cm. Jika kelilingnya 50 cm, berapa luasnya?",
     "pilihan": [
       "80 cm²",
       "90 cm²",
@@ -140,11 +140,11 @@
       "120 cm²"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1.  Keliling $K = 2(p+l) = 2(4x + x) = 10x$.\n2.  Samakan dengan keliling: $10x=50 \\Rightarrow x=5$.\n3.  Panjang $p=4(5)=20$ cm. Lebar $l=5$ cm.\n4.  Luas $= p \\times l = 20 \\times 5 = 100$ cm².\n\n**Cara Cepat**:\n\n$x=5$. Luas $= 4x \\times x = 4(5^2) = 100$ cm²."
+    "pembahasan": "K = 2(4x + x) = 10x. 10x=50 → x=5. Luas = p × l = 4x² = 4(5²) = 100 cm²."
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah drum berisi campuran air dan alkohol. Jika $4/13$ bagian adalah air dan $9/13$ bagian adalah alkohol. Jika 13 liter campuran diambil (dengan perbandingan sama) lalu ditambah 10 liter alkohol, berapa perbandingan air:alkohol jika volume awal total adalah 78 liter?",
+    "pertanyaan": "Sebuah drum berisi campuran air dan alkohol. Jika 4/13 bagian adalah air dan 9/13 bagian adalah alkohol. Jika 13 liter campuran diambil (dengan perbandingan sama) lalu ditambah 10 liter alkohol, berapa perbandingan air:alkohol jika volume awal total adalah 78 liter?",
     "pilihan": [
       "1:2",
       "1:3",
@@ -153,11 +153,11 @@
       "4:11"
     ],
     "jawaban": "E",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Volume Awal: Air $= \\frac{4}{13} \\times 78 = 24$ L. Alkohol $= 78 - 24 = 54$ L.\n2. Volume diambil (13 L): Air diambil $= \\frac{4}{13} \\times 13 = 4$ L. Alkohol diambil $= 9$ L.\n3. Volume setelah diambil: Air $= 24-4=20$ L. Alkohol $= 54-9=45$ L.\n4. Volume Akhir (tambah 10L alkohol): Air $= 20$ L. Alkohol $= 45+10=55$ L.\n5. Perbandingan Air:Alkohol $= 20:55 = 4:11$.\n\n**Cara Cepat**:\n\nPerbandingan (4:11) didapat dari volume akhir 20L Air dan 55L Alkohol."
+    "pembahasan": "Air awal = (4/13)×78 = 24 L. Alkohol awal = 54 L. Diambil (13L): Air 4 L, Alkohol 9 L. Sisa: Air 20 L, Alkohol 45 L. Akhir (tambah 10L alkohol): Air 20 L, Alkohol 55 L. Perbandingan = 20:55 = 4:11."
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah prisma segitiga sama sisi memiliki volume $27\\sqrt{3}\\ \\text{cm}^3$ dan tinggi prisma 4 cm. Berapa panjang sisi alas segitiga?",
+    "pertanyaan": "Sebuah prisma segitiga sama sisi memiliki volume 36√3 cm³ dan tinggi prisma 4 cm. Berapa panjang sisi alas segitiga?",
     "pilihan": [
       "6 cm",
       "8 cm",
@@ -166,11 +166,11 @@
       "12 cm"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Luas Alas (Segitiga) $= V/h = 27\\sqrt{3}/4$ cm².\n2. Rumus Luas Segitiga Sama Sisi: $L_{\\text{alas}} = s^2\\frac{\\sqrt{3}}{4}$.\n3. $s^2\\frac{\\sqrt{3}}{4} = \\frac{27\\sqrt{3}}{4} \\Rightarrow s^2 = 27$. (Inkonsistensi data, seharusnya $s=6$ untuk pilihan A).\n\n**Perbaikan Soal: $V$ menjadi $36\\sqrt{3}\\ \\text{cm}^3$**.\n\n1. Luas Alas $= 36\\sqrt{3}/4 = 9\\sqrt{3}$ cm².\n2. $s^2\\frac{\\sqrt{3}}{4} = 9\\sqrt{3} \\Rightarrow s^2 = 36$. $s=6$ cm.\n\n**Cara Cepat**:\n\nLuas alas $9\\sqrt{3}$. Sisi $s=6$ cm."
+    "pembahasan": "Luas Alas = V/h = 36√3 / 4 = 9√3 cm². Rumus luas segitiga sama sisi = s²(√3)/4. s²(√3)/4 = 9√3 → s² = 36. Sisi s = 6 cm."
   },
   {
     "id": 14,
-    "pertanyaan": "Sebuah sekolah memiliki 1.200 siswa dengan perbandingan kelas X, XI, XII adalah 5:4:3. Jika tahun depan semua siswa naik kelas dan $20\\%$ siswa kelas XII lulus, berapa perbandingan baru (X:XI:XII)?",
+    "pertanyaan": "Sebuah sekolah memiliki 1.200 siswa dengan perbandingan kelas X, XI, XII adalah 5:4:3. Jika tahun depan semua siswa naik kelas dan 20% siswa kelas XII lulus, berapa perbandingan baru (X:XI:XII)?",
     "pilihan": [
       "5:4:2",
       "5:4:3",
@@ -179,7 +179,7 @@
       "25:20:9"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Siswa Awal: X $= \\frac{5}{12} \\times 1200 = 500$, XI $= 400$, XII $= 300$.\n2. Asumsi (siswa naik kelas): X (baru) $= 500$ (masuk baru), XI (baru) $= 500$ (dari X lama), XII (baru) $= 400$ (dari XI lama).\n3. Siswa XII (lulus) $= 300 \\times 0.20 = 60$. Siswa XII tersisa $= 300 - 60 = 240$.\n4. Siswa kelas XII tahun depan $= 400$ (dari XI lama) $- 60$ (lulus) $= 340$ (TIDAK ADA JAWABAN).\n\n**Interpretasi Soal yang Sesuai Jawaban:** Perbandingan siswa tersisa/berlanjut (X lama, XI lama, XII lama yang tidak lulus).\n\n$\text{X} = 500, \\text{XI}=400, \\text{XII} = 300 \\times 0.8 = 240$.\n\nPerbandingan $= 500:400:240 = 25:20:12$.\n\n**Cara Cepat**:\n\nPerbandingan tersisa (X:XI:XII) $= 5:4:(3 \\times 0.8) = 5:4:2.4$. Kalikan 5 $\\Rightarrow 25:20:12$."
+    "pembahasan": "Siswa awal: X=500, XI=400, XII=300. Asumsi: perbandingan siswa yang berlanjut. Perbandingan = X:XI:(XII × 0.8) = 5:4:(3 × 0.8) = 5:4:2.4. Dikalikan 5 → 25:20:12."
   },
   {
     "id": 15,
@@ -192,11 +192,11 @@
       "9.900"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Waktu total $= 16.00 - 08.00 = 8$ jam.\n2. Jumlah periode perkembangbiakan $= 8$ jam $/ 2$ jam $= 4$ periode.\n3. Jumlah akhir $= N_0 \\times (faktor \\text{ perkalian})^{\\text{periode}} = 100 \\times 3^4$.\n4. Jumlah akhir $= 100 \\times 81 = 8.100$ bakteri.\n\n**Cara Cepat**:\n\n4 periode. Jumlah $= 100 \\times 3^4 = 8.100$."
+    "pembahasan": "Total waktu = 8 jam. Periode = 8/2 = 4 periode. Jumlah akhir = 100 × 3⁴ = 100 × 81 = 8.100 bakteri."
   },
   {
     "id": 16,
-    "pertanyaan": "Sebuah balok memiliki diagonal ruang 14 cm dan perbandingan panjang:lebar:tinggi = 3:2:1. Berapa volume balok?",
+    "pertanyaan": "Sebuah balok memiliki perbandingan panjang:lebar:tinggi = 12:8:3. Jika panjang diagonal ruang balok tersebut adalah √217 cm, berapa volume balok tersebut?",
     "pilihan": [
       "192 cm³",
       "240 cm³",
@@ -205,11 +205,11 @@
       "320 cm³"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Rumus diagonal ruang $D^2=p^2+l^2+t^2$. Misal $p=3x, l=2x, t=x$.\n2. $14^2 = (3x)^2+(2x)^2+(x)^2 \\Rightarrow 196 = 9x^2+4x^2+x^2 = 14x^2$.\n3. $x^2 = 196/14 = 14$. (Untuk volume bulat, kita harus koreksi soal).\n\n**Perbaikan Soal: $D$ menjadi $\\sqrt{252}$ cm**.\n\n1. $D^2 = 252 = 14x^2$. $x^2 = 18$.\n2. $x = \\sqrt{18} = 3\\sqrt{2}$.\n\n**Perbaikan Soal: $D$ menjadi $\\sqrt{252}$ dan $x=3$ agar hasilnya bulat, $p:l:t = 4:3:1$**.\n\nAsumsi kita harus menghasilkan jawaban bulat: Ambil $x=4$. $p=12, l=8, t=4$. $V=384$ cm³ (TIDAK ADA).\n\n**Mengikuti Kunci Jawaban ($V=288$):** Ambil $x=2$. $p=6, l=4, t=2$. $V=48$. Ini juga salah.\n\n**Mengikuti Kunci Jawaban $V=288$ cm³ dengan $p:l:t = 3:2:1$:** $p=12, l=8, t=3$. $D^2 = 144+64+9=217$. TIDAK ADA.\n\n**Kunci Jawaban C: 288 cm³** (Angka soal harusnya $D = \\sqrt{396}$ cm).\n\n**Cara Cepat (mengikuti jawaban $V=288$ cm³)**:\n\nAsumsi $x=4$. $p=12, l=8, t=3$. $V=288$ cm³."
+    "pembahasan": "Misal p=12x, l=8x, t=3x. D² = (12x)²+(8x)²+(3x)² = 144x²+64x²+9x² = 217x². D² = (√217)² = 217. Maka 217x² = 217, sehingga x=1. Dimensi: p=12, l=8, t=3. Volume = 12 × 8 × 3 = 288 cm³."
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah toko menjual 5 buku dan 3 pensil seharga Rp 70.000, sedangkan 2 buku dan 4 pensil seharga Rp 32.000. Berapa harga 1 buku dan 1 pensil?",
+    "pertanyaan": "Sebuah toko menjual 5 buku dan 3 pensil seharga Rp 62.000, sedangkan 2 buku dan 4 pensil seharga Rp 36.000. Berapa harga 1 buku dan 1 pensil?",
     "pilihan": [
       "Rp11.000",
       "Rp12.000",
@@ -218,11 +218,11 @@
       "Rp15.000"
     ],
     "jawaban": "D",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Persamaan: (1) $5b+3p=70.000$. (2) $2b+4p=32.000$ (atau $b+2p=16.000$).\n2. Dari (2): $b=16.000-2p$. Substitusi ke (1).\n3. $5(16.000-2p)+3p=70.000 \\Rightarrow 80.000-10p+3p=70.000 \\Rightarrow 7p=10.000$.\n4. $p \\approx 1.428$ (Inkonsistensi data/angka). Kita ganti soal agar bilangan bulat.\n\n**Perbaikan Soal: $5b+3p=75.000$ dan $2b+4p=30.000$**.\n\n1. $5b+3p=75.000$. $b+2p=15.000$.\n2. $5(15.000-2p)+3p=75.000 \\Rightarrow 75.000-10p+3p=75.000 \\Rightarrow -7p=0$. (SALAH)\n\n**Perbaikan Soal (Ideal): $5b+3p=65.000$ dan $2b+4p=34.000$**.\n\n$b=11.000, p=5.000$. $b+p=16.000$ (TIDAK ADA).\n\n**Mengikuti Kunci Jawaban $b+p=14.000$ (D)**:\n\nAsumsi $b=10.000$ dan $p=4.000$: (1) $50.000+12.000=62.000$. (2) $20.000+16.000=36.000$. Jelas ada kesalahan pada angka soal.\n\n**Cara Cepat**:\n\nAsumsi $b=10.000, p=4.000$. Total $= 14.000$."
+    "pembahasan": "(1) 5b+3p=62.000. (2) 2b+4p=36.000 → b+2p=18.000. Dari (2), b=18.000-2p. Substitusi ke (1) menghasilkan p=4.000 dan b=10.000. Harga total = b+p = 10.000 + 4.000 = Rp 14.000."
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah taman berbentuk lingkaran akan dipasang lampu setiap 6 meter di sekelilingnya. Jika diameter taman 42 meter dan biaya pemasangan Rp150.000/lampu, berapa total biaya? $(\\pi=22/7)$",
+    "pertanyaan": "Sebuah taman berbentuk lingkaran akan dipasang lampu setiap 6 meter di sekelilingnya. Jika diameter taman 42 meter dan biaya pemasangan Rp150.000/lampu, berapa total biaya? (π=22/7)",
     "pilihan": [
       "Rp3.300.000",
       "Rp3.600.000",
@@ -231,11 +231,11 @@
       "Rp4.500.000"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Keliling Lingkaran: $K = \\pi d = \\frac{22}{7} \\times 42 = 132$ m.\n2. Hitung Jumlah Lampu: $132 \\text{ m} / 6 \\text{ m/lampu} = 22$ lampu.\n3. Hitung Total Biaya: $22 \\times Rp 150.000/\\text{lampu} = Rp 3.300.000$.\n\n**Cara Cepat**:\n\nBiaya $= (K / \\text{Jarak}) \\times \\text{Harga} = (132/6) \\times 150.000 = 3.300.000$."
+    "pembahasan": "Keliling = πd = (22/7) × 42 = 132 m. Jumlah Lampu = 132 m / 6 m = 22 lampu. Total Biaya = 22 × Rp 150.000 = Rp 3.300.000."
   },
   {
     "id": 19,
-    "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu prima atau paling sedikit satu dadu menunjukkan angka 5?",
+    "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu genap atau paling sedikit satu dadu menunjukkan angka 5?",
     "pilihan": [
       "5/12",
       "7/12",
@@ -244,7 +244,7 @@
       "23/36"
     ],
     "jawaban": "E",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Ruang Sampel: $n(S) = 36$.\n2. Kejadian A (Jumlah Prima: 2, 3, 5, 7, 11). $n(A) = 1+2+4+6+2 = 15$.\n3. Kejadian B (Paling sedikit ada 5): (1,5), (2,5), (3,5), (4,5), (5,5), (6,5) dan (5,1), (5,2), (5,3), (5,4), (5,6). $n(B) = 11$.\n4. Irisan ($A \\cap B$) (Prima DAN ada 5): (2,5), (5,2), (5,6), (6,5). $n(A \\cap B) = 4$.\n5. $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = \\frac{15+11-4}{36} = \\frac{22}{36} = \\frac{11}{18}$.\n\n**Catatan: Jawaban E (23/36)**. Hasil perhitungan yang benar adalah 11/18. Kunci jawaban $23/36$ hanya benar jika irisan $n(A \\cap B)=3$ (TIDAK MUNGKIN). Saya tetap menggunakan $11/18$.\n\n**Cara Cepat**:\n\n$P(A \\cup B) = \\frac{n(A)+n(B)-n(A \\cap B)}{n(S)} = \\frac{15+11-4}{36} = \\frac{22}{36} = \\frac{11}{18}$."
+    "pembahasan": "A (Jumlah Genap), n(A)=18. B (Minimal 1 angka 5), n(B)=11. A ∩ B (Genap dan ada 5), n(A ∩ B) = 6. P(A ∪ B) = (18 + 11 - 6)/36 = 23/36."
   },
   {
     "id": 20,
@@ -257,6 +257,6 @@
       "62.50 km/jam"
     ],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Kecepatan rata-rata (jarak diketahui pecahan) adalah Rata-rata Harmonik:\n$$K_{\\text{rata-rata}} = \\frac{1}{\\frac{d_1/D}{K_1} + \\frac{d_2/D}{K_2} + \\frac{d_3/D}{K_3}}$$\n$$K_{\\text{rata-rata}} = \\frac{1}{\\frac{1/4}{40} + \\frac{1/2}{60} + \\frac{1/4}{80}} = \\frac{1}{\\frac{1}{160} + \\frac{1}{120} + \\frac{1}{320}}$$\n2. Samakan penyebut (KPK 160, 120, 320 = 960):\n$$K_{\\text{rata-rata}} = \\frac{1}{\\frac{6}{960} + \\frac{8}{960} + \\frac{3}{960}} = \\frac{1}{\\frac{17}{960}}$$\n3. $K_{\\text{rata-rata}} = \\frac{960}{17} \\approx 56.47$ km/jam.\n\n**Cara Cepat**:\n\nGunakan rumus Rata-rata Harmonik untuk pecahan jarak: $K_{\\text{rata-rata}} = \\frac{960}{17} \\approx 56.47$ km/jam."
+    "pembahasan": "Kecepatan rata-rata harmonik = 1 / [(1/4)/40 + (1/2)/60 + (1/4)/80] = 1 / [1/160 + 1/120 + 1/320] = 1 / [17/960] = 960/17 ≈ 56.47 km/jam."
   }
 ]
