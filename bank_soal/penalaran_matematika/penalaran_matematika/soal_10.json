@@ -127,8 +127,8 @@
       "$4$"
     ],
     "jawaban": "C",
-    "pembahasan": "Langkah 1: Gunakan eliminasi untuk mencari nilai $x$ dan $y$.\n$x + 2y = 5$\n$3x - y = 8 \\implies 6x - 2y = 16$\n\nJumlahkan kedua persamaan: $7x = 21 \\implies x = 3$.\n\nLangkah 2: Cari nilai $y$.\n$3 + 2y = 5 \\implies 2y = 2 \\implies y = 1$.\n\nLangkah 3: Hitung nilai $x - y$.\n$x - y = 3 - 1 = 2$.\n\nJadi, nilai $x - y$ adalah **$2$**."
-  },
+    "pembahasan": "Langkah 1: Eliminasi variabel $y$.\nKalikan persamaan kedua dengan 2, kemudian jumlahkan kedua persamaan:\n\\begin{array}{rcl}\nx + 2y = 5 & \\quad (\\times 1) \\implies & x + 2y = 5 \\\\\n3x - y = 8 & \\quad (\\times 2) \\implies & 6x - 2y = 16\n\\end{array}\nJumlahkan: $7x = 21 \\implies x = 3$.\n\nLangkah 2: Cari nilai $y$.\nSubstitusikan $x=3$ ke persamaan pertama:\n$3 + 2y = 5 \\implies 2y = 2 \\implies y = 1$.\n\nLangkah 3: Hitung nilai $x - y$.\n$x - y = 3 - 1 = 2$.\n\nJadi, nilai $x - y$ adalah **$2$**."
+},
   {
     "id": 11,
     "pertanyaan": "Sebuah taman berbentuk lingkaran dengan diameter 28 m. Di sekeliling taman akan dipasang lampu dengan jarak 4 m. Banyaknya lampu yang dibutuhkan adalah... $(\\pi = \\frac{22}{7})$",
