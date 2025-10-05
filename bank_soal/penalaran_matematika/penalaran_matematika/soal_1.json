@@ -72,8 +72,8 @@
     "id": 10,
     "pertanyaan": "Sebuah lingkaran memiliki persamaan x² + y² - 4x + 6y - 3 = 0. Pusat lingkaran tersebut adalah...",
     "pilihan": ["(2, -3)","(-2, 3)","(4, -6)","(-4, 6)","(2, 3)"],
-    "jawaban": "E",
-    "pembahasan": "Persamaan umum lingkaran: \n\\[ x^2 + y^2 + ax + by + c = 0 \\]\nPusat: \n\\[ \\left(-\\tfrac{a}{2}, -\\tfrac{b}{2}\\right) \\]\nDari persamaan: a = -4, b = 6 → \n\\[ Pusat = (2, -3) \\]\n⚠️ Catatan: Jawaban yang benar adalah **(2, -3)**, jadi pilihan seharusnya **A**."
+    "jawaban": "A",
+    "pembahasan": "Persamaan umum lingkaran: \n\\[ x^2 + y^2 + ax + by + c = 0 \\]\nPusat: \n\\[ \\left(-\\tfrac{a}{2}, -\\tfrac{b}{2}\\right) \\]\nDari persamaan: a = -4, b = 6 → \n\\[ Pusat = (2, -3) \\]\nJadi, jawaban yang benar adalah **(2, -3)**."
   },
   {
     "id": 11,
@@ -113,16 +113,16 @@
   {
     "id": 16,
     "pertanyaan": "Sebuah deret aritmetika memiliki suku ke-3 = 10 dan suku ke-7 = 22. Jumlah 10 suku pertama deret tersebut adalah...",
-    "pilihan": ["130","145","155","160","170"],
+    "pilihan": ["130","145","155","160","175"],
     "jawaban": "E",
-    "pembahasan": "Suku ke-n: \n\\[ U_n = a + (n-1)d \\]\n\\[ U_3 = a + 2d = 10 \\]\n\\[ U_7 = a + 6d = 22 \\]\nSelisih: \\[ (a+6d) - (a+2d) = 12 \\Rightarrow 4d = 12 \\Rightarrow d = 3 \\]\nDari U3: \\[ a + 2(3) = 10 \\Rightarrow a = 4 \\]\nJumlah 10 suku: \n\\[ S_{10} = \\frac{10}{2}(2a + 9d) = 5(8+27) = 175 \\]\n⚠️ Tidak ada di pilihan, seharusnya ada **175**."
+    "pembahasan": "Suku ke-n: \n\\[ U_n = a + (n-1)d \\]\n\\[ U_3 = a + 2d = 10 \\]\n\\[ U_7 = a + 6d = 22 \\]\nSelisih: \\[ (a+6d) - (a+2d) = 12 \\Rightarrow 4d = 12 \\Rightarrow d = 3 \\]\nDari U3: \\[ a + 2(3) = 10 \\Rightarrow a = 4 \\]\nJumlah 10 suku: \n\\[ S_{10} = \\frac{10}{2}(2a + 9d) = 5(2(4)+9(3)) = 5(8+27) = 5(35) = 175 \\]\nJadi jumlahnya adalah **175**."
   },
   {
     "id": 17,
     "pertanyaan": "Sebuah peta memiliki skala 1 : 250.000. Jika jarak antara dua kota pada peta adalah 8 cm, jarak sebenarnya adalah...",
     "pilihan": ["10 km","20 km","25 km","32 km","40 km"],
     "jawaban": "B",
-    "pembahasan": "Hitung jarak sebenarnya: \n\\[ 8 \\times 250.000 = 2.000.000 \\text{ cm} \\]\nKonversi: \n\\[ 2.000.000 \\text{ cm} = 20.000 \\text{ m} = 20 \\text{ km} \\]"
+    "pembahasan": "Hitung jarak sebenarnya: \n\\[ 8 \\times 250.000 = 2.000.000 \\text{ cm} \\]\nKonversi: \n\\[ 2.000.000 \\text{ cm} = 20 \\text{ km} \\]"
   },
   {
     "id": 18,
@@ -149,6 +149,6 @@
       "45 hari, 60 hari, dan 90 hari"
     ],
     "jawaban": "A",
-    "pembahasan": "Misal kemampuan kerja: Irfan = 1/x, Indra = 1/y, Ikhsan = 1/z (pekerjaan/hari).\n\\[ \\frac{1}{x} + \\frac{1}{y} = \\frac{1}{12} \\]\n\\[ \\frac{1}{x} + \\frac{1}{z} = \\frac{1}{15} \\]\n\\[ \\frac{1}{y} + \\frac{1}{z} = \\frac{1}{20} \\]\nJumlahkan semua: \n\\[ 2\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) = \\frac{1}{12}+\\frac{1}{15}+\\frac{1}{20} = \\frac{1}{5} \\]\n\\[ \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} = \\frac{1}{10} \\]\nDari persamaan pertama: \\[ \\frac{1}{x}+\\frac{1}{y} = \\frac{1}{12} \\]\nMaka \\[ \\frac{1}{z} = \\frac{1}{10}-\\frac{1}{12} = \\frac{1}{60} \\Rightarrow z=60 \\]\nDari persamaan kedua: \\[ \\frac{1}{x}+\\frac{1}{60} = \\frac{1}{15} \\Rightarrow \\frac{1}{x} = \\frac{1}{20} \\Rightarrow x=20 \\]\nDari persamaan ketiga: \\[ \\frac{1}{y}+\\frac{1}{60} = \\frac{1}{20} \\Rightarrow \\frac{1}{y} = \\frac{1}{30} \\Rightarrow y=30 \\]\nJadi: Irfan = 20 hari, Indra = 30 hari, Ikhsan = 60 hari."
+    "pembahasan": "Misal kemampuan kerja: Irfan = 1/x, Indra = 1/y, Ikhsan = 1/z (pekerjaan/hari).\n\\[ \\frac{1}{x} + \\frac{1}{y} = \\frac{1}{12} \\]\n\\[ \\frac{1}{x} + \\frac{1}{z} = \\frac{1}{15} \\]\n\\[ \\frac{1}{y} + \\frac{1}{z} = \\frac{1}{20} \\]\nJumlahkan semua: \n\\[ 2\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) = \\frac{1}{12}+\\frac{1}{15}+\\frac{1}{20} = \\frac{5+4+3}{60} = \\frac{12}{60} = \\frac{1}{5} \\]\n\\[ \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} = \\frac{1}{10} \\]\nDari persamaan pertama: \\[ \\frac{1}{x}+\\frac{1}{y} = \\frac{1}{12} \\]\nMaka \\[ \\frac{1}{z} = \\frac{1}{10}-\\frac{1}{12} = \\frac{6-5}{60} = \\frac{1}{60} \\Rightarrow z=60 \\]\nDari persamaan kedua: \\[ \\frac{1}{y} = \\frac{1}{10}-\\frac{1}{15} = \\frac{3-2}{30} = \\frac{1}{30} \\Rightarrow y=30 \\]\nDari persamaan ketiga: \\[ \\frac{1}{x} = \\frac{1}{10}-\\frac{1}{20} = \\frac{2-1}{20} = \\frac{1}{20} \\Rightarrow x=20 \\]\nJadi: Irfan = 20 hari, Indra = 30 hari, Ikhsan = 60 hari. (Urutan Irfan, Indra, Ikhsan = 20, 30, 60 hari)."
   }
 ]
