@@ -10,12 +10,11 @@
           "judul": "Rumus-Rumus Penting",
           "subItems": [
             {
-            "judul": "Jumlah n Suku Pertama (S\\u208B)",
-
+              "judul": "Suku ke-n (U_n)", // Perbaikan: Menghilangkan $
               "teks": "Suku ke-n dari barisan aritmetika dirumuskan sebagai:\n$U_n = a + (n-1)b$\nDengan $a$ = suku pertama, $b$ = beda, dan $n$ = posisi suku."
             },
             {
-              "judul": "Jumlah n Suku Pertama ($S_n$)",
+              "judul": "Jumlah n Suku Pertama (S_n)", // Perbaikan: Menghilangkan $
               "teks": "Jumlah n suku pertama deret aritmetika dirumuskan sebagai:\n$S_n = \\frac{n}{2}(a+U_n)$ atau\n$S_n = \\frac{n}{2}(2a+(n-1)b)$"
             }
           ]
@@ -40,15 +39,15 @@
           "judul": "Rumus-Rumus Penting",
           "subItems": [
             {
-              "judul": "Suku ke-n ($U_n$)",
+              "judul": "Suku ke-n (U_n)", // Perbaikan: Menghilangkan $
               "teks": "Suku ke-n dari barisan geometri dirumuskan sebagai:\n$U_n = ar^{n-1}$\nDengan $a$ = suku pertama, $r$ = rasio, dan $n$ = posisi suku."
             },
             {
-              "judul": "Jumlah n Suku Pertama ($S_n$)",
+              "judul": "Jumlah n Suku Pertama (S_n)", // Perbaikan: Menghilangkan $
               "teks": "Jumlah n suku pertama deret geometri dirumuskan sebagai:\n$S_n = \\frac{a(r^n - 1)}{r-1} \\text{, jika } r > 1$\natau\n$S_n = \\frac{a(1 - r^n)}{1-r} \\text{, jika } r < 1$\n"
             },
             {
-              "judul": "Jumlah Deret Geometri Tak Hingga ($S_\\infty$)",
+              "judul": "Jumlah Deret Geometri Tak Hingga (S_\\infty)", // Perbaikan: Menghilangkan $
               "teks": "Rumus ini hanya berlaku jika $-1 < r < 1$. Rumusnya adalah:\n$S_\\infty = \\frac{a}{1-r}$"
             }
           ]
