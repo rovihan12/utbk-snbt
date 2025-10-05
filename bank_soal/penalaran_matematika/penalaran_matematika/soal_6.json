@@ -72,9 +72,9 @@
   {
     "id": 11,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang $(x+4)$ cm dan lebar $(x-2)$ cm. Jika luasnya $72\\,\\text{cm}^2$, berapa kelilingnya?",
-    "pilihan": ["$26$ cm", "$28$ cm", "$30$ cm", "$32$ cm", "$34$ cm"],
+    "pilihan": ["$30$ cm", "$32$ cm", "$34$ cm", "$36$ cm", "$38$ cm"],
     "jawaban": "D",
-    "pembahasan": "Luas $= (x+4)(x-2) = 72$.<br> $x^2+2x-8=72 \\Rightarrow x^2+2x-80=0$.<br> Faktorkan: $(x+10)(x-8)=0$. Karena panjang positif, $x=8$.<br> Panjang $P=x+4=12$ cm, Lebar $L=x-2=6$ cm.<br> Keliling $=2(P+L)=2(12+6)=36$ cm. **[CATATAN: Jawaban $36$ tidak ada di pilihan. Jika kita harus memilih D ($32$), maka keliling seharusnya $32$ cm ($P=10, L=6$, Luas $60$). Karena $x=8$ adalah satu-satunya solusi bilangan bulat, maka **keliling seharusnya $36$ cm**. Saya telah menjaga soal, dan kunci jawaban D (32 cm) tetap, tetapi ini adalah item yang harus dipertimbangkan untuk diubah sepenuhnya.]**"
+    "pembahasan": "Luas $= (x+4)(x-2) = 72$.<br> $x^2+2x-8=72 \\Rightarrow x^2+2x-80=0$.<br> Faktorkan: $(x+10)(x-8)=0$. Karena panjang positif, $x=8$.<br> Panjang $P=x+4=12$ cm, Lebar $L=x-2=6$ cm.<br> Keliling $=2(P+L)=2(12+6)=36$ cm."
   },
   {
     "id": 12,
