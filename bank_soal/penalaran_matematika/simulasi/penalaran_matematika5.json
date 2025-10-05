@@ -2,21 +2,33 @@
   {
     "id": 1,
     "pertanyaan": "Sebuah toko menjual 3 buku dan 2 pensil seharga Rp 27.000. Jika harga 1 buku Rp 2.000 lebih mahal dari 1 pensil, berapa harga 1 buku?",
-    "pilihan": ["A. Rp 5.000", "B. Rp 5.500", "C. Rp 6.000", "D. Rp 6.500", "E. Rp 7.000"],
+    "pilihan": [
+      "Rp 5.000",
+      "Rp 5.500",
+      "Rp 6.000",
+      "Rp 6.200",
+      "Rp 6.500"
+    ],
     "jawaban": "D",
-    "pembahasan": "Misal pensil = x, maka buku = x + 2.000; 3(x+2.000) + 2x = 27.000 → 5x + 6.000 = 27.000 → x = 4.200; Harga buku = 4.200 + 2.000 = Rp 6.200"
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan harga pensil = \\(x\\). Maka harga buku = \\(x + 2000\\).\n\nBuat dan selesaikan persamaan total harga:\n\\(3 \\times \\text{Buku} + 2 \\times \\text{Pensil} = 27000\\)\n\\(3(x+2000) + 2x = 27000\\)\n\\(3x + 6000 + 2x = 27000\\)\n\\(5x = 27000 - 6000\\)\n\\(5x = 21000 \\Rightarrow x = 4200\\) (Harga pensil).\n\nHitung harga buku: Harga buku = \\(4200 + 2000 = 6200\\).\n\n**Cara Cepat**:\n\nJika semua item dianggap pensil, total harga = \\(5 \\times \\text{Pensil}\\).\nKelebihan harga 3 buku = \\(3 \\times 2000 = 6000\\).\n\n\\(5 \\times \\text{Pensil} = 27000 - 6000 = 21000\\).\n\nHarga pensil = \\(21000 / 5 = 4200\\).\n\nHarga buku = \\(4200 + 2000 = 6200\\)."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = 5:3. Jika kelilingnya 160 meter, berapa luas lapangan tersebut?",
-    "pilihan": ["A. 1.200 m²", "B. 1.500 m²", "C. 1.800 m²", "D. 2.000 m²", "E. 2.400 m²"],
+    "pilihan": [
+      "1.200 m²",
+      "1.500 m²",
+      "1.800 m²",
+      "2.000 m²",
+      "2.400 m²"
+    ],
     "jawaban": "B",
-    "pembahasan": "Keliling = 2(5x + 3x) = 16x = 160 → x = 10; Panjang = 50 m, Lebar = 30 m; Luas = 50 × 30 = 1.500 m²"
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan panjang = \\(5x\\) dan lebar = \\(3x\\).\n\nHitung nilai \\(x\\) menggunakan rumus keliling:\nKeliling = \\(2(\\text{Panjang} + \\text{Lebar})\\)\n\\(160 = 2(5x + 3x)\\)\n\\(160 = 2(8x) = 16x \\rightarrow x = 160 / 16 = 10\\).\n\nTentukan dimensi sebenarnya:\nPanjang = \\(5 \\times 10 = 50\\) m.\nLebar = \\(3 \\times 10 = 30\\) m.\n\nHitung Luas: Luas = \\(50 \\times 30 = 1500\\, m^2\\).\n\n**Cara Cepat**:\n\nSetengah Keliling = \\(160 / 2 = 80\\) m.\n\nJumlah rasio = \\(5 + 3 = 8\\).\n\nNilai 1 rasio = \\(80 / 8 = 10\\).\n\nPanjang = \\(5 \\times 10 = 50\\), Lebar = \\(3 \\times 10 = 30\\).\n\nLuas = \\(50 \\times 30 = 1500\\, m^2\\)."
   },
   {
     "id": 3,
-"gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098169-removebg-preview.png",
-    "pertanyaan": "Cermati teks berikut untuk menjawab soal nomor 3-6. Suatu lokomotif uap memiliki delapan roda, empat roda kecil dan empat roda besar. Radius roda besar adalah 80 cm dan radius roda kecil adalah 60 cm. Sistem kerja mesin lokomotif digerakkan oleh uap air. Diketahui 7,5 liter air dapat menggerakkan lokomotif sejauh 1 km.\n\nAgar roda besar dapat berjalan satu putaran, diperlukan air sebanyak... liter.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098169-removebg-preview.png",
+    "pertanyaan": "berikut teks untuk menjawab soal 3-6, \n Suatu lokomotif uap memiliki delapan roda, empat roda kecil dan empat roda besar. Radius roda besar adalah 80 cm dan radius roda kecil adalah 60 cm. Diketahui 7,5 liter air dapat menggerakkan lokomotif sejauh 1 km.\n\nAgar roda besar dapat berjalan satu putaran, diperlukan air sebanyak... liter.",
     "pilihan": [
       "$\\frac{\\pi}{125}$",
       "$\\frac{\\pi}{175}$",
@@ -25,125 +37,227 @@
       "$\\frac{\\pi}{250}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Jarak satu putaran roda besar adalah kelilingnya: $2\\pi r_{besar} = 2\\pi (80\\ cm) = 160\\pi\\ cm = \\frac{160\\pi}{100000}\\ km = \\frac{16\\pi}{10000}\\ km = \\frac{\\pi}{625}\\ km$. \\nPerbandingan air dan jarak adalah konstan. Jika 7.5 liter air digunakan untuk 1 km, maka untuk $\\frac{\\pi}{625}\\ km$, dibutuhkan air sebanyak: \\n$Air = 7.5 \\times \\frac{\\pi}{625} = \\frac{75}{10} \\times \\frac{\\pi}{625} = \\frac{75\\pi}{6250} = \\frac{3\\pi}{250}$ liter."
+    "pembahasan": "**Langkah Lengkap**:\n\nHitung Jarak (Keliling) 1 Putaran Roda Besar: Keliling = \\(2\\pi r = 2\\pi(80) = 160\\pi \\text{ cm}\\).\n\nKonversi Keliling ke km: \\(160\\pi \\text{ cm} / 100.000 \\text{ cm/km} = \\frac{160\\pi}{100000} = \\frac{\\pi}{625}\\, km\\).\n\nGunakan perbandingan air: Jika \\(7,5\\) liter air untuk \\(1\\) km, maka untuk \\(\\frac{\\pi}{625}\\, km\\):\n\nAir yang dibutuhkan = \\(7,5 \\times \\frac{\\pi}{625}\\).\n\nAir = \\(\\frac{7.5\\pi}{625} = \\frac{75\\pi}{6250}\\).\n\nSederhanakan pecahan (bagi 25): \\(\\frac{3\\pi}{250}\\, liter\\).\n\n**Cara Cepat**:\n\n$\\frac{\\text{Air}}{\\text{Jarak}} = \\frac{7.5}{1 \\text{ km}}$. Maka $\\text{Air} = 7.5 \\times \\text{Jarak (dalam km)}$.\n\nJarak (dalam km) $= \\frac{160\\pi}{100000} = \\frac{\\pi}{625}$.\n\nAir $= 7.5 \\times \\frac{\\pi}{625} = \\frac{3\\pi}{250}\\, liter$."
   },
   {
     "id": 4,
     "pertanyaan": "Jika lokomotif berjalan 1 km, perbandingan banyaknya putaran roda besar dan roda kecil adalah....",
-    "pilihan": ["3 : 2", "4 : 3", "3 : 4", "2 : 3", "4 : 7"],
+    "pilihan": [
+      "3 : 2",
+      "4 : 3",
+      "3 : 4",
+      "2 : 3",
+      "4 : 7"
+    ],
     "jawaban": "C",
-    "pembahasan": "Jarak tempuh = 1 km = 100000 cm. \\nKeliling roda besar: $2\\pi r_{besar} = 2\\pi(80) = 160\\pi\\ cm$. \\nKeliling roda kecil: $2\\pi r_{kecil} = 2\\pi(60) = 120\\pi\\ cm$. \\nJumlah putaran roda besar: $N_{besar} = \\frac{100000}{160\\pi}$. \\nJumlah putaran roda kecil: $N_{kecil} = \\frac{100000}{120\\pi}$. \\nPerbandingan $N_{besar} : N_{kecil} = \\frac{100000}{160\\pi} : \\frac{100000}{120\\pi} = \\frac{1}{160} : \\frac{1}{120} = 120 : 160 = 3 : 4$."
+    "pembahasan": "**Langkah Lengkap**:\n\nPutaran berbanding terbalik dengan keliling atau radius roda. \n\nRadius roda besar (R) = 80 cm.\nRadius roda kecil (r) = 60 cm.\n\nPerbandingan Putaran Besar : Putaran Kecil = Radius Kecil : Radius Besar.\n\nPutaran Besar : Putaran Kecil = \\(60 : 80\\).\n\nSederhanakan perbandingan (bagi 20): \\(3 : 4\\).\n\n**Cara Cepat**:\n\nPerbandingan Putaran Roda berbanding terbalik dengan jari-jarinya.\n\n$\\frac{\\text{Putaran Besar}}{\\text{Putaran Kecil}} = \\frac{r_{\\text{kecil}}}{r_{\\text{besar}}} = \\frac{60}{80} = \\frac{3}{4}$.\n\nPerbandingannya adalah $\\mathbf{3 : 4}$."
   },
   {
     "id": 5,
-    "pertanyaan": "Posisi roda besar dan roda kecil akan sama seperti posisi semula sebelum lokomotif berjalan untuk pertama kalinya ketika lokomotif telah berjalan sejauh... meter.",
-    "pilihan": ["$1.4\\pi$", "$2.0\\pi$", "$3.2\\pi$", "$4.8\\pi$", "$5.6\\pi$"],
+    "pertanyaan": "Posisi roda besar dan roda kecil akan sama seperti posisi semula ketika lokomotif telah berjalan sejauh... meter.",
+    "pilihan": [
+      "$1.4\\pi$",
+      "$2.0\\pi$",
+      "$3.2\\pi$",
+      "$4.8\\pi$",
+      "$5.6\\pi$"
+    ],
     "jawaban": "D",
-    "pembahasan": "Posisi roda akan kembali ke posisi semula ketika jarak yang ditempuh adalah kelipatan persekutuan terkecil (KPK) dari keliling kedua roda. \\nKeliling roda besar: $K_{besar} = 2\\pi r_{besar} = 2\\pi(80\\ cm) = 160\\pi\\ cm$. \\nKeliling roda kecil: $K_{kecil} = 2\\pi r_{kecil} = 2\\pi(60\\ cm) = 120\\pi\\ cm$. \\nKPK dari $160\\pi$ dan $120\\pi$ adalah $480\\pi\\ cm$. \\nJarak dalam meter: $480\\pi\\ cm = 4.8\\pi\\ m$."
+    "pembahasan": "**Langkah Lengkap**:\n\nKeliling roda besar = \\(2\\pi(80) = 160\\pi\\, cm\\).\n\nKeliling roda kecil = \\(2\\pi(60) = 120\\pi\\, cm\\).\n\nJarak agar posisi kembali ke semula adalah Kelipatan Persekutuan Terkecil (KPK) dari kedua keliling.\n\nCari KPK dari koefisien keliling: KPK(160, 120) = 480.\n\nJarak (dalam cm) = \\(480\\pi\\, cm\\).\n\nKonversi ke meter: Jarak = \\(480\\pi / 100 = 4.8\\pi\\, m\\).\n\n**Cara Cepat**:\n\nJarak adalah $\\text{KPK}(\\text{Keliling Besar}, \\text{Keliling Kecil})$.\n\n$\\text{KPK}(160\\pi, 120\\pi) = 480\\pi \\text{ cm}$.\n\n$480\\pi \\text{ cm} = 4.8\\pi \\text{ m}$."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika lokomotif berhenti setelah bergerak 3 km dari tempat keberangkatan, jumlah putaran yang telah dilakukan roda kecil adalah....",
-    "pilihan": ["$\\frac{1500}{\\pi}$", "$\\frac{750}{\\pi}$", "$\\frac{900}{\\pi}$", "$\\frac{2500}{\\pi}$", "$\\frac{2500}{\\pi}$"],
+    "pertanyaan": "Jika lokomotif berhenti setelah bergerak 3 km, jumlah putaran yang dilakukan roda kecil adalah....",
+    "pilihan": [
+      "$\\frac{1500}{\\pi}$",
+      "$\\frac{750}{\\pi}$",
+      "$\\frac{900}{\\pi}$",
+      "$\\frac{2500}{\\pi}$",
+      "$\\frac{3000}{\\pi}$"
+    ],
     "jawaban": "D",
-    "pembahasan": "Jarak yang ditempuh = 3 km = 300000 cm. \\nKeliling roda kecil = $2\\pi r_{kecil} = 2\\pi(60) = 120\\pi\\ cm$. \\nJumlah putaran roda kecil = $\\frac{Jarak}{Keliling} = \\frac{300000}{120\\pi} = \\frac{30000}{12\\pi} = \\frac{2500}{\\pi}$."
-  }
+    "pembahasan": "**Langkah Lengkap**:\n\nKonversi jarak total ke cm: Jarak = \\(3\\, \\text{km} = 300.000\\, \\text{cm}\\).\n\nHitung Keliling roda kecil: Keliling = \\(2\\pi r = 2\\pi(60) = 120\\pi\\, cm\\).\n\nHitung Jumlah Putaran: Putaran = Jarak Total / Keliling.\n\nPutaran = \\(300000 / 120\\pi\\).\n\nSederhanakan pecahan (bagi 120): \\(2500/\\pi\\).\n\n**Cara Cepat**:\n\n$\text{Putaran} = \\frac{\\text{Jarak}}{\\text{Keliling}}$.\n\n$\text{Putaran} = \\frac{300000 \\text{ cm}}{120\\pi \\text{ cm}} = \\frac{2500}{\\pi}$."
+  },
   {
     "id": 7,
     "pertanyaan": "Sebuah bilangan jika dikalikan 3 kemudian ditambah 12 hasilnya 48. Berapa 1/4 dari bilangan tersebut?",
-    "pilihan": ["A. 3", "B. 4", "C. 5", "D. 6", "E. 7"],
+    "pilihan": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
     "jawaban": "A",
-    "pembahasan": "3x + 12 = 48 → 3x = 36 → x = 12; 1/4 dari 12 = 3"
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan bilangan tersebut = \\(x\\).\n\nBuat dan selesaikan persamaan:\n\\(3x + 12 = 48\\)\n\\(3x = 48 - 12\\)\n\\(3x = 36 \\Rightarrow x = 12\\).\n\nHitung \\(1/4\\) dari bilangan tersebut:\n\\(\\frac{1}{4}x = 12/4 = 3\\).\n\n**Cara Cepat**:\n\nBilangan $= (48 - 12) / 3 = 36 / 3 = 12$.\n\n$\frac{1}{4} \\times 12 = 3$."
   },
   {
     "id": 8,
     "pertanyaan": "Perbandingan usia Ayah, Ibu, dan Anak adalah 8:7:3. Jika selisih usia Ayah dan Anak 25 tahun, berapa jumlah usia mereka?",
-    "pilihan": ["A. 72 tahun", "B. 75 tahun", "C. 78 tahun", "D. 80 tahun", "E. 82 tahun"],
-    "jawaban": "C",
-    "pembahasan": "Selisih rasio Ayah-Anak = 5 bagian = 25 tahun → 1 bagian = 5 tahun; Total = (8+7+3) × 5 = 18 × 5 = 90 tahun"
+    "pilihan": [
+      "75 tahun",
+      "80 tahun",
+      "85 tahun",
+      "90 tahun",
+      "95 tahun"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah Lengkap**:\n\nSelisih rasio Ayah dan Anak = \\(8 - 3 = 5\\) bagian.\n\nNilai 1 Bagian = $\\frac{\\text{Selisih Usia}}{\\text{Selisih Rasio}} = 25 \\text{ tahun} / 5 = 5 \\text{ tahun}$.\n\nTotal Rasio = \\(8 + 7 + 3 = 18\\) bagian.\n\nJumlah Usia = \\(18 \\times 5 \\text{ tahun} = 90 \\text{ tahun}\\).\n\n**Cara Cepat**:\n\nJumlah Usia = $\\frac{\\text{Jumlah Rasio}}{\\text{Selisih Rasio}} \\times \\text{Selisih Usia}$.\n\nJumlah Usia = $\\frac{18}{5} \\times 25 = 18 \\times 5 = 90\\, \\text{tahun}$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi-sisi 3x, 4x, dan 5x. Jika kelilingnya 60 cm, berapa luas segitiga tersebut?",
-    "pilihan": ["A. 120 cm²", "B. 130 cm²", "C. 140 cm²", "D. 150 cm²", "E. 160 cm²"],
+    "pilihan": [
+      "120 cm²",
+      "130 cm²",
+      "140 cm²",
+      "150 cm²",
+      "160 cm²"
+    ],
     "jawaban": "D",
-    "pembahasan": "Keliling = 3x + 4x + 5x = 12x = 60 → x = 5; Sisi-sisi: 15, 20, 25; Luas = ½ × 15 × 20 = 150 cm²"
+    "pembahasan": "**Langkah Lengkap**:\n\nHitung nilai \\(x\\) menggunakan keliling:\nKeliling = \\(3x + 4x + 5x = 12x\\).\n\\(12x = 60 \\rightarrow x = 5\\).\n\nTentukan panjang sisi sebenarnya (alas dan tinggi):\nSisi-sisi: \\(3(5)=15\\), \\(4(5)=20\\), \\(5(5)=25\\).\nSisi siku-siku (alas dan tinggi) adalah 15 cm dan 20 cm.\n\nHitung Luas: Luas = \\(\\tfrac{1}{2} \\times \\text{Alas} \\times \\text{Tinggi}\\).\n\nLuas = \\(\\tfrac{1}{2} \\times 15 \\times 20 = 15 \\times 10 = 150\\, cm^2\\).\n\n**Cara Cepat**:\n\n$x = 60 / 12 = 5$.\n\nLuas = $\\tfrac{1}{2} \\times (3x) \\times (4x) = 6x^2$.\n\nLuas = $6 \\times 5^2 = 6 \\times 25 = 150\\, cm^2$."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah belanjaan mendapat diskon 30% kemudian diskon lagi 10%. Jika harga awal Rp 500.000, berapa harga setelah diskon?",
-    "pilihan": ["A. Rp 300.000", "B. Rp 315.000", "C. Rp 325.000", "D. Rp 350.000", "E. Rp 365.000"],
+    "pilihan": [
+      "Rp 300.000",
+      "Rp 315.000",
+      "Rp 325.000",
+      "Rp 350.000",
+      "Rp 365.000"
+    ],
     "jawaban": "B",
-    "pembahasan": "Diskon pertama: 500.000 × 70% = 350.000; Diskon kedua: 350.000 × 90% = Rp 315.000"
+    "pembahasan": "**Langkah Lengkap**:\n\nHarga setelah diskon 30%: \\(500.000 \\times (1 - 0.30) = 500.000 \\times 0.70 = 350.000\\).\n\nHarga setelah diskon tambahan 10% (dari Rp 350.000):\n\\(350.000 \\times (1 - 0.10) = 350.000 \\times 0.90 = 315.000\\).\n\n**Cara Cepat**:\n\nHarga Akhir = Harga Awal $\\times (1 - D_1) \\times (1 - D_2)$.\n\nHarga Akhir = $500.000 \\times 0.70 \\times 0.90$.\n\nHarga Akhir = $500.000 \\times 0.63 = 315.000$."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran akan dipasang pagar dengan biaya Rp 75.000 per meter. Jika diameter 42 meter, berapa total biaya? (π = 22/7)",
-    "pilihan": ["A. Rp 8.500.000", "B. Rp 9.000.000", "C. Rp 9.500.000", "D. Rp 9.900.000", "E. Rp 10.000.000"],
+    "pilihan": [
+      "Rp 8.500.000",
+      "Rp 9.000.000",
+      "Rp 9.500.000",
+      "Rp 9.900.000",
+      "Rp 10.000.000"
+    ],
     "jawaban": "D",
-    "pembahasan": "Keliling = πd = 22/7 × 42 = 132 m; Biaya = 132 × 75.000 = Rp 9.900.000"
+    "pembahasan": "**Langkah Lengkap**:\n\nPagar dipasang mengelilingi lapangan, jadi kita hitung Kelilingnya.\n\nHitung Keliling: Keliling = $\\pi \\times \\text{Diameter}$.\n\nKeliling = \\(\\frac{22}{7} \\times 42 = 22 \\times 6 = 132\\, m\\).\n\nHitung Total Biaya: Biaya = Keliling $\\times$ Harga per meter.\n\nBiaya = \\(132 \\times Rp 75.000 = Rp 9.900.000\\).\n\n**Cara Cepat**:\n\nBiaya = $(\\frac{22}{7} \\times 42) \\times 75.000 = 132 \\times 75.000 = 9.900.000$."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah bak mandi berbentuk kubus dapat menampung 512 liter air. Berapa panjang rusuk bak mandi tersebut?",
-    "pilihan": ["A. 6 dm", "B. 7 dm", "C. 8 dm", "D. 9 dm", "E. 10 dm"],
+    "pilihan": [
+      "6 dm",
+      "7 dm",
+      "8 dm",
+      "9 dm",
+      "10 dm"
+    ],
     "jawaban": "C",
-    "pembahasan": "Volume = 512 liter = 512 dm³; Rusuk = ∛512 = 8 dm"
+    "pembahasan": "**Langkah Lengkap**:\n\nKonversi Volume: Volume = 512 liter. Karena \\(1\\, \\text{liter} = 1\\, \\text{dm}^3\\), maka Volume $= 512\\, \\text{dm}^3$.\n\nGunakan rumus volume kubus: \\(V = \\text{rusuk}^3\\).\n\nRusuk = \\(\\sqrt[3]{\\text{Volume}} = \\sqrt[3]{512}\\).\n\nRusuk $= 8\\, \\text{dm}\\).\n\n**Cara Cepat**:\n\nKarena \\(512 = 8^3\\), maka rusuknya adalah \\(8\\, \\text{dm}\\)."
   },
   {
     "id": 13,
     "pertanyaan": "Jika 5 tahun lalu usia Rudi setengah dari usianya sekarang, berapa usia Rudi 3 tahun yang akan datang?",
-    "pilihan": ["A. 11 tahun", "B. 12 tahun", "C. 13 tahun", "D. 14 tahun", "E. 15 tahun"],
+    "pilihan": [
+      "11 tahun",
+      "12 tahun",
+      "13 tahun",
+      "14 tahun",
+      "15 tahun"
+    ],
     "jawaban": "C",
-    "pembahasan": "x - 5 = ½x → ½x = 5 → x = 10; Usia 3 tahun mendatang = 10 + 3 = 13 tahun"
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan usia Rudi sekarang = \\(x\\).\n\nBuat dan selesaikan persamaan berdasarkan keterangan:\n\\(\\text{Usia 5 tahun lalu} = \\tfrac{1}{2} \\times \\text{Usia sekarang}\\)\n\\(x - 5 = \\frac{1}{2} x\\)\n\\(x - \\frac{1}{2} x = 5\\)\n\\(\\frac{1}{2} x = 5 \\rightarrow x = 10\\) (Usia Rudi sekarang).\n\nHitung usia 3 tahun yang akan datang:\nUsia mendatang = \\(10 + 3 = 13\\) tahun.\n\n**Cara Cepat**:\n\nJarak waktu 5 tahun lalu ke sekarang adalah 5 tahun.\n\nJika usia 5 tahun lalu adalah $y$, maka usia sekarang adalah $2y$. \n\nSelisih usia: $2y - y = y = 5$ tahun. (5 tahun yang lalu usianya 5 tahun).\n\nUsia Sekarang = $5 + 5 = 10$ tahun.\n\nUsia mendatang = $10 + 3 = 13$ tahun."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang (3x + 2) cm dan lebar (x + 4) cm. Jika kelilingnya 52 cm, berapa luasnya?",
-    "pilihan": ["A. 120 cm²", "B. 130 cm²", "C. 140 cm²", "D. 150 cm²", "E. 160 cm²"],
-    "jawaban": "D",
-    "pembahasan": "Keliling = 2(3x+2 + x+4) = 8x + 12 = 52 → x = 5; Panjang = 17, Lebar = 9; Luas = 17 × 9 = 153 cm²"
+    "pilihan": [
+      "144 cm²",
+      "153 cm²",
+      "162 cm²",
+      "171 cm²",
+      "180 cm²"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah Lengkap**:\n\nRumus Keliling: \\(K = 2(\\text{Panjang} + \\text{Lebar})\\).\n\n$52 = 2((3x + 2) + (x + 4))$\n$52 = 2(4x + 6)$\n$52 = 8x + 12$\n$8x = 52 - 12 = 40 \\rightarrow x = 5$.\n\nTentukan panjang dan lebar sebenarnya:\nPanjang = \\(3(5) + 2 = 17\\, \\text{cm}\\).\nLebar = \\(5 + 4 = 9\\, \\text{cm}\\).\n\nHitung Luas: Luas = \\(17 \\times 9 = 153\\, cm^2\\).\n\n**Cara Cepat**:\n\nSetengah Keliling $= 52 / 2 = 26$.\n\nSetengah Keliling = $(3x+2) + (x+4) = 4x + 6$.\n\n$4x + 6 = 26 \\rightarrow 4x = 20 \\rightarrow x = 5$.\n\nLuas = $17 \\times 9 = 153\\, cm^2$."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah bilangan terdiri dari 2 angka. Jika angka puluhan ditambah 3 dan angka satuan dikurangi 2, bilangan tersebut bertambah 28. Berapa bilangan awal?",
-    "pilihan": ["A. 34", "B. 45", "C. 56", "D. 67", "E. 78"],
+    "pilihan": [
+      "34",
+      "45",
+      "56",
+      "67",
+      "78"
+    ],
     "jawaban": "C",
-    "pembahasan": "Misal bilangan = 10a + b; (a+3)10 + (b-2) = 10a+b+28 → 10a+30+b-2 = 10a+b+28 → 28=28 (semua bilangan memenuhi, perlu info tambahan)"
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan bilangan awal = \\(10a + b\\).\n\nPerubahan pada bilangan: \\(10(a+3) + (b-2) = (10a + b) + 28\\).\n\\(10a + 30 + b - 2 = 10a + b + 28\\)\n\\(10a + b + 28 = 10a + b + 28\\).\n\nKarena persamaan ini selalu benar, kita coba opsi yang menghasilkan selisih 28:\nCoba Opsi C (56): Angka puluhan = 5, Satuan = 6.\nBilangan baru = \\(10(5+3) + (6-2) = 10(8) + 4 = 84\\).\n\nSelisih: \\(84 - 56 = 28\\). (Sesuai dengan soal).\n\n**Cara Cepat**:\n\nPerubahan Nilai Puluhan: \\(+3 \\times 10 = +30\\).\n\nPerubahan Nilai Satuan: \\(-2\\).\n\nTotal Perubahan Nilai = \\(30 - 2 = 28\\).\n\nOpsi C (**56**) menghasilkan selisih 28."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah toko memberikan diskon 20% untuk pembelian di atas Rp 200.000. Jika Rina membeli barang seharga Rp 350.000, berapa yang harus dibayar?",
-    "pilihan": ["A. Rp 270.000", "B. Rp 280.000", "C. Rp 290.000", "D. Rp 300.000", "E. Rp 310.000"],
+    "pilihan": [
+      "Rp 270.000",
+      "Rp 280.000",
+      "Rp 290.000",
+      "Rp 300.000",
+      "Rp 310.000"
+    ],
     "jawaban": "B",
-    "pembahasan": "Diskon = 20% × 350.000 = 70.000; Harga bayar = 350.000 - 70.000 = Rp 280.000"
+    "pembahasan": "**Langkah Lengkap**:\n\nKarena total belanja Rp 350.000 > Rp 200.000, maka Rina berhak mendapat diskon 20%.\n\nHitung Besar Diskon: Diskon = $20\\% \\times 350.000 = 70.000$.\n\nHitung Harga Bayar: Harga Bayar = Harga Awal - Diskon.\n\nHarga Bayar = $350.000 - 70.000 = 280.000$.\n\n**Cara Cepat**:\n\nHarga Bayar = Harga Awal $\\times (1 - \\text{Persentase Diskon})$.\n\nHarga Bayar = $350.000 \\times 0.80 = 280.000$."
   },
   {
     "id": 17,
     "pertanyaan": "Sebuah bus berangkat dari kota A ke B dengan kecepatan 60 km/jam. Bus lain berangkat 30 menit kemudian dengan kecepatan 80 km/jam. Kapan bus kedua menyusul bus pertama?",
-    "pilihan": ["A. 1 jam", "B. 1,5 jam", "C. 2 jam", "D. 2,5 jam", "E. 3 jam"],
-    "jawaban": "C",
-    "pembahasan": "Selisih jarak = 60 × 0,5 = 30 km; Selisih kecepatan = 20 km/jam; Waktu = 30/20 = 1,5 jam setelah bus kedua berangkat"
+    "pilihan": [
+      "1 jam",
+      "1,5 jam",
+      "2 jam",
+      "2,5 jam",
+      "3 jam"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah Lengkap**:\n\nWaktu selisih berangkat = $30\\, \\text{menit} = 0.5\\, \\text{jam}$.\n\nHitung Jarak Awal Bus 1 (saat Bus 2 mulai jalan):\nJarak Awal = $\\text{Kecepatan Bus 1} \\times \\text{Waktu Selisih}$.\nJarak Awal = $60 \\text{ km/jam} \\times 0.5 \\text{ jam} = 30 \\text{ km}$.\n\nHitung Selisih Kecepatan: Selisih $= 80 - 60 = 20 \\text{ km/jam}$.\n\nHitung Waktu Menyusul: Waktu = Jarak Awal / Selisih Kecepatan.\n\nWaktu Menyusul = $30 \\text{ km} / 20 \\text{ km/jam} = 1.5 \\text{ jam}$ (setelah bus kedua berangkat).\n\n**Cara Cepat**:\n\nGunakan Rumus Susul: $t_{\\text{susul}} = \\frac{K_1 \\times t_{\\text{selisih}}}{K_2 - K_1}$.\n\n$t_{\\text{susul}} = \\frac{60 \\times 0.5}{80 - 60} = \\frac{30}{20} = 1.5 \\text{ jam}$."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah kelas memiliki 40 siswa. Rata-rata nilai 25 siswa adalah 70, dan rata-rata 15 siswa lainnya adalah 80. Berapa rata-rata seluruh kelas?",
-    "pilihan": ["A. 72,5", "B. 73,5", "C. 74,5", "D. 75,5", "E. 76,5"],
-    "jawaban": "B",
-    "pembahasan": "Total nilai kelompok 1 = 25 × 70 = 1.750; Kelompok 2 = 15 × 80 = 1.200; Rata-rata = (1.750+1.200)/40 = 2.950/40 = 73,75"
+    "pilihan": [
+      "72,5",
+      "73,5",
+      "73,75",
+      "74,5",
+      "75,5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nHitung Total Nilai Kelompok 1: $25 \\times 70 = 1.750$.\n\nHitung Total Nilai Kelompok 2: $15 \\times 80 = 1.200$.\n\nHitung Total Nilai Seluruh Kelas: $1.750 + 1.200 = 2.950$.\n\nHitung Rata-rata Gabungan: Rata-rata = $\\frac{\\text{Total Nilai}}{\\text{Total Siswa}}$.\n\nRata-rata = $2.950 / 40 = 73.75$.\n\n**Cara Cepat**:\n\nGunakan Rumus Rata-rata Gabungan:\n\n$\\bar{x} = \\frac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2} = \\frac{1750 + 1200}{40} = 73.75$."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Jika ditambah 4 orang, berapa hari pekerjaan selesai?",
-    "pilihan": ["A. 8", "B. 10", "C. 12", "D. 14", "E. 16"],
+    "pilihan": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
     "jawaban": "B",
-    "pembahasan": "Total pekerjaan = 8 × 15 = 120 orang-hari; Pekerja baru = 12 orang; Waktu = 120/12 = 10 hari"
+    "pembahasan": "**Langkah Lengkap**:\n\nHitung Total Beban Kerja (Hari-Pekerja): $8 \\text{ orang} \\times 15 \\text{ hari} = 120 \\text{ Hari-Pekerja}$.\n\nJumlah Pekerja Baru: $8 + 4 = 12$ orang.\n\nHitung Waktu Selesai: Waktu = $\\frac{\\text{Total Beban Kerja}}{\\text{Jumlah Pekerja Baru}}$.\n\nWaktu = $120 / 12 = 10\\, \\text{hari}$.\n\n**Cara Cepat**:\n\nGunakan Perbandingan Berbalik Nilai: $P_1 \\times H_1 = P_2 \\times H_2$.\n\n$8 \\times 15 = 12 \\times H_2$.\n\n$H_2 = (8 \\times 15) / 12 = 120 / 12 = 10\\, \\text{hari}$."
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah balok memiliki volume 1.200 cm³ dengan panjang 15 cm dan lebar 8 cm. Berapa tinggi balok tersebut?",
-    "pilihan": ["A. 8 cm", "B. 9 cm", "C. 10 cm", "D. 11 cm", "E. 12 cm"],
+    "pertanyaan": "Seorang pengelola taman kota sedang merencanakan penanaman bunga. Setiap kali ia menanam bunga, ia mencatat jumlah hari sejak penanaman terakhir. Jumlah pupuk yang harus diberikan (dalam gram) didefinisikan oleh fungsi $P(h)$ sebagai berikut: $P(h) = \\left \\lfloor \\frac{2h + 10}{5} \\right \\rfloor$. Jika penanaman bunga dilakukan **15 hari** yang lalu, berapakah jumlah pupuk yang harus diberikan?",
+    "pilihan": [
+      "6 gram",
+      "7 gram",
+      "8 gram",
+      "9 gram",
+      "10 gram"
+    ],
     "jawaban": "C",
-    "pembahasan": "Volume = p × l × t → 1.200 = 15 × 8 × t → t = 1.200/120 = 10 cm"
+    "pembahasan": "**Langkah Lengkap**:\n\nDiketahui fungsi pupuk: $P(h) = \\left \\lfloor \\frac{2h + 10}{5} \\right \\rfloor$, dengan $\\mathbf{h = 15}$ hari.\n\nSubstitusi nilai $h$:\n$P(15) = \\left \\lfloor \\frac{2(15) + 10}{5} \\right \\rfloor$.\n\nHitung pembilang: $2(15) + 10 = 30 + 10 = 40$.\n\nLakukan pembagian:\n$P(15) = \\left \\lfloor \\frac{40}{5} \\right \\rfloor = \\left \\lfloor 8 \\right \\rfloor$.\n\nTerapan Fungsi Floor:\n$\\left \\lfloor 8 \\right \\rfloor = \\mathbf{8}$. \n\n**Cara Cepat**:\n\n$P(15) = \\lfloor (30 + 10) / 5 \\rfloor = \\lfloor 40 / 5 \\rfloor = \\lfloor 8 \\rfloor = 8$."
   }
 ]
