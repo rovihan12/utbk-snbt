@@ -10,7 +10,7 @@
       "82"
     ],
     "jawaban": "B",
-    "pembahasan": "Diketahui: $U_5 = a + 4d = 22$ dan $U_9 = a + 8d = 42$. \n\n1. Eliminasi untuk mencari beda ($d$): $U_9 - U_5 = 4d \\implies 42 - 22 = 20 = 4d \\implies d = 5$. \n\n2. Substitusi $d$ untuk mencari suku pertama ($a$): $a + 4(5) = 22 \\implies a = 22 - 20 = 2$. \n\n3. Hitung $U_{15}$: $U_{15} = a + 14d = 2 + 14(5) = 2 + 70 = 72$."
+    "pembahasan": "1. Cari Beda ($d$):\n4d = U_9 - U_5 = 42 - 22 = 20\nd = 5\n2. Cari Suku Pertama ($a$):\na = U_5 - 4d = 22 - 4(5) = 2\n3. Hitung U_15:\nU_15 = a + 14d = 2 + 14(5) = 72"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "6"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui: $S_{10}=190$, $n=10$, $a=1$. \n\n1. Gunakan rumus $S_n = \\frac{n}{2} (2a + (n-1)d)$. \n\n2. Substitusi nilai-nilai yang diketahui: $190 = \\frac{10}{2} (2(1) + 9d)$. \n\n3. Selesaikan persamaan untuk $d$: $190 = 5(2+9d) \\implies 38 = 2 + 9d \\implies 9d = 36 \\implies d = 4$."
+    "pembahasan": "1. Gunakan Rumus S_10:\nS_10 = \\frac{10}{2} (2a + 9d)\n190 = 5 (2(1) + 9d)\n2. Selesaikan d:\n38 = 2 + 9d\n9d = 36\nd = 4"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "20"
     ],
     "jawaban": "B",
-    "pembahasan": "Diketahui $U_3 = ar^2 = 20$ dan $U_5 = ar^4 = 80$. \n\n1. Cari rasio ($r$): Bagi $U_5$ dengan $U_3$ untuk mendapatkan $r^2$: $\\frac{U_5}{U_3} = r^2 = \\frac{80}{20} = 4$. \n\n2. Cari suku pertama ($a$): Substitusi $r^2=4$ ke $U_3 = ar^2 = 20$. \n\n3. Hitung $a$: $a(4) = 20 \\implies a = 5$."
+    "pembahasan": "1. Cari Rasio Kuadrat (r^2):\nr^2 = \\frac{U_5}{U_3} = \\frac{80}{20} = 4\n2. Cari Suku Pertama (a):\nU_3 = a \\cdot r^2\n20 = a \\cdot 4\na = 5"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "16.5"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui suku pertama $a = 18$ dan rasio $r = -6/18 = -1/3$. \n\n1. Gunakan rumus jumlah tak hingga $S_{\\infty} = \\frac{a}{1-r}$. \n\n2. Substitusi nilai $a$ dan $r$: $S_{\\infty} = \\frac{18}{1 - (-1/3)}$. \n\n3. Hitung $S_{\\infty}$: $S_{\\infty} = \\frac{18}{1 + 1/3} = \\frac{18}{4/3} = 18 \\times \\frac{3}{4} = 13.5$."
+    "pembahasan": "1. Tentukan a dan r:\na = 18\nr = -6/18 = -1/3\n2. Gunakan Rumus S_\\infty:\nS_\\infty = \\frac{a}{1-r} = \\frac{18}{1 - (-1/3)}\n3. Hitung Hasil:\nS_\\infty = \\frac{18}{4/3} = 13.5"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "185"
     ],
     "jawaban": "E",
-    "pembahasan": "Diketahui $U_3 = a+2d = 11$ dan $U_7 = a+6d = 23$. \n\n1. Cari beda ($d$): $U_7 - U_3 = 4d \\implies 23 - 11 = 12 = 4d \\implies d = 3$. \n\n2. Cari suku pertama ($a$): $U_3 = a + 2(3) = 11 \\implies a = 11 - 6 = 5$. \n\n3. Hitung $S_{10}$ dengan rumus $S_n$: $S_{10} = \\frac{10}{2} (2a + 9d) = 5(2(5) + 9(3)) = 5(10+27) = 5(37) = 185$."
+    "pembahasan": "1. Cari Beda ($d$):\n4d = U_7 - U_3 = 23 - 11 = 12\nd = 3\n2. Cari Suku Pertama ($a$):\na = U_3 - 2d = 11 - 2(3) = 5\n3. Hitung S_10:\nS_10 = 5 (2a + 9d) = 5 (2(5) + 9(3)) = 185"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
       "3"
     ],
     "jawaban": "A",
-    "pembahasan": "Tiga suku berurutan barisan aritmetika memiliki beda yang konstan, yaitu $U_2 - U_1 = U_3 - U_2$. \n\n1. Susun persamaan: $(k+2) - (2k-1) = (k-1) - (k+2)$. \n\n2. Sederhanakan kedua sisi: $k+2 - 2k + 1 = k-1 - k - 2 \\implies -k + 3 = -3$. \n\n3. Selesaikan untuk $k$: $-k = -3 - 3 \\implies -k = -6 \\implies k = 6$."
+    "pembahasan": "1. Gunakan Syarat Aritmetika:\nU_2 - U_1 = U_3 - U_2\n2. Susun Persamaan:\n(k+2) - (2k-1) = (k-1) - (k+2)\n3. Selesaikan k:\n-k + 3 = -3\nk = 6"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
       "100"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui ketinggian awal $H = 20$ m dan rasio pantulan $r = 3/5$. \n\n1. Gunakan rumus lintasan total untuk gerak bola: $L = H \\times \\frac{1+r}{1-r}$. \n\n2. Substitusi nilai $H$ dan $r$: $L = 20 \\times \\frac{1+3/5}{1-3/5}$. \n\n3. Hitung nilai $L$: $L = 20 \\times \\frac{8/5}{2/5} = 20 \\times 4 = 80$ meter."
+    "pembahasan": "1. Gunakan Rumus Lintasan Total:\nL = H \\times \\frac{1+r}{1-r}\n2. Substitusi Nilai:\nL = 20 \\times \\frac{1+3/5}{1-3/5}\n3. Hitung Hasil:\nL = 20 \\times \\frac{8/5}{2/5} = 80 meter"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "17"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan rumus hubungan antara suku ke-$n$ dan jumlah $n$ suku pertama: $U_n = S_n - S_{n-1}$. \n\n1. Hitung $S_5$: $S_5 = 5^2 + 2(5) = 25 + 10 = 35$. \n\n2. Hitung $S_4$: $S_4 = 4^2 + 2(4) = 16 + 8 = 24$. \n\n3. Hitung $U_5$: $U_5 = S_5 - S_4 = 35 - 24 = 11$."
+    "pembahasan": "1. Cari S_5 dan S_4:\nS_5 = 5^2 + 2(5) = 35\nS_4 = 4^2 + 2(4) = 24\n2. Hitung U_5:\nU_5 = S_5 - S_4 = 35 - 24 = 11"
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
       "$n^2+3n-2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Barisan yang diberikan adalah $U_1=2, U_2=5, U_3=10, U_4=17, U_5=26$. \n\n1. Cek pola untuk $n=1$: $U_1 = 2$. $1^2+1 = 2$. \n\n2. Cek pola untuk $n=2$: $U_2 = 5$. $2^2+1 = 5$. \n\n3. Cek pola untuk $n=3$: $U_3 = 10$. $3^2+1 = 10$. \n\n4. Pola yang sesuai adalah $U_n = n^2+1$."
+    "pembahasan": "1. Uji Pola n^2+1:\nU_1 = 1^2+1 = 2\nU_2 = 2^2+1 = 5\nU_3 = 3^2+1 = 10\n2. Kesimpulan:\nU_n = n^2+1"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
       "480"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui barisan aritmetika dengan suku pertama $a=10$, beda $d=5$, dan jumlah suku $n=12$. \n\n1. Gunakan rumus jumlah $S_n = \\frac{n}{2} (2a + (n-1)d)$. \n\n2. Substitusi nilai-nilai yang diketahui: $S_{12} = \\frac{12}{2} (2(10) + (12-1)5)$. \n\n3. Hitung $S_{12}$: $S_{12} = 6(20+11(5)) = 6(20+55) = 6 \\times 75 = 450$."
+    "pembahasan": "1. Tentukan a, d, n:\na=10, d=5, n=12\n2. Gunakan Rumus S_12:\nS_12 = \\frac{12}{2} (2(10) + 11(5))\nS_12 = 6 (20 + 55)\nS_12 = 450"
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
       "Tidak ada jawaban yang benar"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan tiga suku berurutan adalah $x/r, x, xr$. \n\n1. Hasil kali: $(x/r)(x)(xr) = x^3 = 64 \\implies x = 4$. Suku tengah adalah $b=4$. \n\n2. Jumlah: $x/r + x + xr = 14 \\implies 4/r + 4 + 4r = 14$. \n\n3. Selesaikan persamaan kuadrat: $4/r + 4r = 10 \\implies 4r^2 - 10r + 4 = 0 \\implies 2r^2 - 5r + 2 = 0$. \n\n4. Faktorkan: $(2r-1)(r-2)=0 \\implies r=1/2$ atau $r=2$."
+    "pembahasan": "1. Tentukan Suku Tengah (b):\nabc = x^3 = 64 \\implies b=x=4\n2. Cari Rasio (r):\n4/r + 4 + 4r = 14\n4r^2 - 10r + 4 = 0\n3. Faktorkan:\n(2r-1)(r-2)=0 \\implies r = 1/2 \\text{ atau } 2"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
       "$n+4$"
     ],
     "jawaban": "A",
-    "pembahasan": "Bentuk rekursif $U_{n+1} = U_n + 4$ menunjukkan ini adalah barisan aritmetika dengan suku pertama $a=U_1=5$ dan beda $d=4$. \n\n1. Gunakan rumus suku ke-$n$ barisan aritmetika: $U_n = a + (n-1)d$. \n\n2. Substitusi nilai $a$ dan $d$: $U_n = 5 + (n-1)4$. \n\n3. Sederhanakan: $U_n = 5 + 4n - 4 = 4n+1$."
+    "pembahasan": "1. Tentukan a dan d:\na=5, d=4 (Barisan Aritmetika)\n2. Gunakan Rumus U_n:\nU_n = a + (n-1)d\nU_n = 5 + (n-1)4\nU_n = 4n+1"
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Suku pertama ($U_1$) dari sebuah deret selalu sama dengan jumlah suku pertama ($S_1$) dari deret tersebut. \n\n1. Gunakan rumus $S_n$: $U_1 = S_1$. \n\n2. Hitung $S_1$ dengan substitusi $n=1$: $S_1 = 3(1)^2 - 1$. \n\n3. Hasil: $U_1 = 3 - 1 = 2$."
+    "pembahasan": "1. Gunakan U_1 = S_1:\nU_1 = S_1 = 3(1)^2 - 1\n2. Hitung Hasil:\nU_1 = 3 - 1 = 2"
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
       "1024"
     ],
     "jawaban": "A",
-    "pembahasan": "Barisan ini adalah barisan geometri dengan suku pertama $a=1$ dan rasio $r = -2/1 = -2$. \n\n1. Gunakan rumus suku ke-$n$ barisan geometri: $U_n = a \\cdot r^{n-1}$. \n\n2. Hitung $U_{10}$ dengan substitusi $n=10$: $U_{10} = 1 \\cdot (-2)^{10-1}$. \n\n3. Hasil: $U_{10} = (-2)^9 = -512$."
+    "pembahasan": "1. Tentukan a dan r:\na=1, r=-2\n2. Gunakan Rumus U_10:\nU_10 = a \\cdot r^{10-1} = 1 \\cdot (-2)^9\n3. Hitung Hasil:\nU_10 = -512"
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
       "2/3"
     ],
     "jawaban": "B",
-    "pembahasan": "Diketahui $S_{\\infty} = 36$ dan $a = 24$. \n\n1. Gunakan rumus jumlah tak hingga $S_{\\infty} = \\frac{a}{1-r}$. \n\n2. Substitusi nilai yang diketahui: $36 = \\frac{24}{1-r}$. \n\n3. Selesaikan untuk $1-r$: $1-r = \\frac{24}{36} = \\frac{2}{3}$. \n\n4. Hitung $r$: $r = 1 - 2/3 = 1/3$."
+    "pembahasan": "1. Gunakan Rumus S_\\infty:\n36 = \\frac{24}{1-r}\n2. Selesaikan r:\n1-r = \\frac{24}{36} = \\frac{2}{3}\nr = 1 - 2/3 = 1/3"
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
       "7"
     ],
     "jawaban": "C",
-    "pembahasan": "Untuk deret aritmetika, jika jumlah $n$ suku pertama dinyatakan sebagai $S_n = An^2+Bn$, maka beda ($d$) deret tersebut adalah $2A$. \n\n1. Identifikasi koefisien $A$: Dari $S_n = 2n^2 + 5n$, didapat $A=2$. \n\n2. Hitung beda ($d$): $d = 2A = 2(2) = 4$."
+    "pembahasan": "1. Gunakan Sifat S_n Aritmetika:\nJika S_n = An^2+Bn, maka d = 2A.\n2. Hitung d:\nA=2\nd = 2(2) = 4"
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
       "15"
     ],
     "jawaban": "C",
-    "pembahasan": "Misalkan bilangan-bilangan itu adalah $a-d, a, a+d$. \n\n1. Jumlah: $(a-d) + a + (a+d) = 3a = 24 \\implies a=8$. \n\n2. Hasil kali: $(a-d)a(a+d) = a(a^2-d^2) = 440$. \n\n3. Substitusi $a=8$: $8(8^2-d^2)=440 \\implies 64-d^2 = 55$. \n\n4. Hitung $d$: $d^2 = 64-55 = 9 \\implies d=\\pm 3$. Bilangan terbesar adalah $a+d = 8+3 = 11$."
+    "pembahasan": "1. Cari Suku Tengah (a):\n3a = 24 \\implies a=8\n2. Cari Beda (d):\n8(8^2-d^2) = 440 \\implies 64-d^2=55 \\implies d=3\n3. Bilangan Terbesar:\na+d = 8+3 = 11"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
       "24"
     ],
     "jawaban": "B",
-    "pembahasan": "Diketahui suku pertama $a = 10$ dan rasio $r = 1/3$. \n\n1. Gunakan rumus jumlah tak hingga $S_{\\infty} = \\frac{a}{1-r}$. \n\n2. Substitusi nilai $a$ dan $r$: $S_{\\infty} = \\frac{10}{1-1/3}$. \n\n3. Hitung $S_{\\infty}$: $S_{\\infty} = \\frac{10}{2/3} = 10 \\times \\frac{3}{2} = 15$."
+    "pembahasan": "1. Gunakan Rumus S_\\infty:\nS_\\infty = \\frac{a}{1-r} = \\frac{10}{1-1/3}\n2. Hitung Hasil:\nS_\\infty = \\frac{10}{2/3} = 15"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
       "18"
     ],
     "jawaban": "C",
-    "pembahasan": "Barisan geometri 4 suku: $U_1=1, U_2=x, U_3=y, U_4=27$. \n\n1. Cari rasio ($r$): $U_4 = U_1 \\cdot r^3 \\implies 27 = 1 \\cdot r^3 \\implies r=3$. \n\n2. Tentukan nilai $x$ dan $y$: $x = U_2 = 1 \\cdot r = 3$ dan $y = U_3 = 1 \\cdot r^2 = 9$. \n\n3. Hitung $x+y$: $x+y = 3 + 9 = 12$."
+    "pembahasan": "1. Cari Rasio (r):\nU_4 = 1 \\cdot r^3 \\implies 27 = r^3 \\implies r=3\n2. Cari x dan y:\nx = 3, y = 9\n3. Hitung x+y:\nx+y = 3+9 = 12"
   },
   {
     "id": 20,
@@ -257,6 +257,6 @@
       "$\\frac{1}{n^2}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Deret ini adalah deret geometri dengan suku pertama $a=1$ dan rasio $r=1/2$. \n\n1. Gunakan rumus suku ke-$n$ barisan geometri: $U_n = a \\cdot r^{n-1}$. \n\n2. Substitusi nilai $a$ dan $r$: $U_n = 1 \\cdot (1/2)^{n-1}$. \n\n3. Sederhanakan: $U_n = \\frac{1^{n-1}}{2^{n-1}} = \\frac{1}{2^{n-1}}$."
+    "pembahasan": "1. Tentukan a dan r:\na=1, r=1/2\n2. Gunakan Rumus U_n Geometri:\nU_n = a \\cdot r^{n-1}\nU_n = 1 \\cdot (1/2)^{n-1}\nU_n = \\frac{1}{2^{n-1}}"
   }
 ]
