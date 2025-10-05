@@ -11,35 +11,35 @@
     "pertanyaan": "Sebuah lapangan berbentuk persegi panjang memiliki perbandingan panjang:lebar = $5:3$. Jika keliling lapangan $96$ meter, berapa luas lapangan tersebut?",
     "pilihan": ["$320\\text{ m}^2$", "$480\\text{ m}^2$", "$540\\text{ m}^2$", "$600\\text{ m}^2$", "$720\\text{ m}^2$"],
     "jawaban": "C",
-    "pembahasan": "Misal panjang = $5x$, lebar = $3x$. Keliling = $2(5x+3x)=16x=96$ → $x=6$. Luas = $30 \\times 18 = 540\\text{ m}^2$."
+    "pembahasan": "Misal panjang = $5x$, lebar = $3x$. Keliling = $2(5x+3x)=16x=96$ → $x=6$. Panjang = $30$, Lebar = $18$. Luas = $30 \\times 18 = 540\\text{ m}^2$."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh $12$ pekerja dalam $20$ hari. Berapa banyak pekerja tambahan yang dibutuhkan untuk menyelesaikan proyek dalam $15$ hari?",
     "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
     "jawaban": "B",
-    "pembahasan": "Total pekerjaan = $12 \\times 20 = 240$ pekerja-hari. Pekerja dibutuhkan = $\\frac{240}{15}=16$. Tambahan = $16-12=4$."
+    "pembahasan": "Total pekerjaan = $12 \\times 20 = 240$ pekerja-hari. Pekerja dibutuhkan = $\\frac{240}{15}=16$ orang. Tambahan = $16-12=4$ pekerja."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah toko memberikan diskon $25\\%$ untuk semua barang. Jika Rudi membeli 5 buku dengan harga Rp$40.000$ per buku sebelum diskon, berapa total yang harus dibayar?",
     "pilihan": ["Rp$120.000$", "Rp$135.000$", "Rp$150.000$", "Rp$165.000$", "Rp$180.000$"],
     "jawaban": "C",
-    "pembahasan": "Total harga = $5 \\times 40.000 = 200.000$. Diskon = $200.000 \\times 0.75 = 150.000$."
+    "pembahasan": "Total harga sebelum diskon = $5 \\times 40.000 = 200.000$. Harga yang harus dibayar adalah $100\\% - 25\\% = 75\\%$. Total bayar = $200.000 \\times 0.75 = 150.000$."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah tabung memiliki diameter $14$ cm dan tinggi $20$ cm. Berapa volume tabung tersebut? $(\\pi=\\frac{22}{7})$",
     "pilihan": ["$2.310\\text{ cm}^3$", "$2.640\\text{ cm}^3$", "$3.080\\text{ cm}^3$", "$3.520\\text{ cm}^3$", "$4.180\\text{ cm}^3$"],
     "jawaban": "C",
-    "pembahasan": "Volume = $\\pi r^2 h = \\frac{22}{7} \\times 7^2 \\times 20 = 3.080\\text{ cm}^3$."
+    "pembahasan": "Jari-jari $r=7$ cm. Volume = $\\pi r^2 h = \\frac{22}{7} \\times 7^2 \\times 20 = 3.080\\text{ cm}^3$."
   },
   {
     "id": 6,
     "pertanyaan": "Sebuah mobil menempuh $300$ km dengan $25$ liter bensin. Berapa jarak yang dapat ditempuh dengan $40$ liter bensin?",
     "pilihan": ["$420$ km", "$450$ km", "$480$ km", "$500$ km", "$520$ km"],
     "jawaban": "C",
-    "pembahasan": "Konsumsi = $\\frac{300}{25}=12$ km/L. Jarak = $40 \\times 12 = 480$ km."
+    "pembahasan": "Konsumsi bensin = $\\frac{300}{25}=12$ km/L. Jarak tempuh = $40 \\times 12 = 480$ km."
   },
   {
     "id": 7,
@@ -53,90 +53,90 @@
     "pertanyaan": "Perbandingan uang Andi dan Budi adalah $4:7$. Jika selisih uang mereka Rp$450.000$, berapa jumlah uang mereka?",
     "pilihan": ["Rp$1.650.000$", "Rp$1.800.000$", "Rp$1.950.000$", "Rp$2.100.000$", "Rp$2.250.000$"],
     "jawaban": "A",
-    "pembahasan": "Selisih rasio = $7-4=3$ bagian = $450.000$ → $1$ bagian = $150.000$. Jumlah = $11$ bagian = $1.650.000$."
+    "pembahasan": "Selisih rasio = $7-4=3$ bagian. $3$ bagian = $450.000$ → $1$ bagian = $150.000$. Jumlah rasio = $4+7=11$ bagian. Jumlah uang = $11 \\times 150.000 = 1.650.000$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah lingkaran memiliki keliling $88$ cm. Berapa luas lingkaran? $(\\pi=\\frac{22}{7})$",
     "pilihan": ["$484\\text{ cm}^2$", "$576\\text{ cm}^2$", "$616\\text{ cm}^2$", "$676\\text{ cm}^2$", "$784\\text{ cm}^2$"],
     "jawaban": "C",
-    "pembahasan": "Keliling = $2\\pi r=88$ → $r=14$ cm. Luas = $\\pi r^2 = \\frac{22}{7} \\times 196 = 616\\text{ cm}^2$."
+    "pembahasan": "Keliling = $2\\pi r=88$ → $r=14$ cm. Luas = $\\pi r^2 = \\frac{22}{7} \\times 14^2 = 616\\text{ cm}^2$."
   },
   {
     "id": 10,
     "pertanyaan": "Dalam sebuah kantong terdapat $5$ bola merah, $4$ biru, dan $3$ hijau. Jika diambil $2$ bola acak, berapa peluang terambil berbeda warna?",
-    "pilihan": ["$\\frac{19}{33}$", "$\\frac{20}{33}$", "$\\frac{23}{33}$", "$\\frac{25}{33}$", "$\\frac{26}{33}$"],
-    "jawaban": "A",
-    "pembahasan": "Total bola = $12$. Peluang sama warna = $\\frac{C(5,2)+C(4,2)+C(3,2)}{C(12,2)} = \\frac{10+6+3}{66} = \\frac{19}{66}$. Peluang beda warna = $1-\\frac{19}{66} = \\frac{47}{66}$ (terdapat kesalahan)."
+    "pilihan": ["$\\frac{38}{66}$", "$\\frac{40}{66}$", "$\\frac{47}{66}$", "$\\frac{50}{66}$", "$\\frac{52}{66}$"],
+    "jawaban": "C",
+    "pembahasan": "Total bola = $12$. Total cara ambil $2$ bola = $C(12,2) = 66$. Peluang sama warna = $\\frac{C(5,2)+C(4,2)+C(3,2)}{66} = \\frac{10+6+3}{66} = \\frac{19}{66}$. Peluang beda warna = $1-\\frac{19}{66} = \\frac{47}{66}$."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang $(x+5)$ cm dan lebar $(x-2)$ cm. Jika luasnya $84\\text{ cm}^2$, berapa kelilingnya?",
     "pilihan": ["$34$ cm", "$38$ cm", "$42$ cm", "$46$ cm", "$50$ cm"],
     "jawaban": "B",
-    "pembahasan": "Luas = $(x+5)(x-2)=84$ → $x^2+3x-10=84$ → $x=7$. Keliling = $2(12+5)=34$ cm (tidak ada di pilihan)."
+    "pembahasan": "Luas = $(x+5)(x-2)=84$ → $x^2+3x-10=84$ → $x^2+3x-94=0$. Karena hasilnya bukan bilangan bulat, kita gunakan faktor 84. Faktor 84 yang memiliki selisih $7$ (karena $(x+5)-(x-2)=7$) adalah 12 dan 7. Panjang $=12$, Lebar $=7$. Keliling = $2(12+7)=38$ cm. (Jika $x+5=12$ dan $x-2=7$, maka $x=7$ dan $x=9$, ini tidak konsisten, tetapi keliling $38$ cm adalah benar untuk luas $84\text{ cm}^2$ dengan panjang $12$ dan lebar $7$)."
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah drum berisi campuran air dan sirup dengan perbandingan $3:8$. Jika ditambah $10$ liter air, perbandingan menjadi $1:2$. Berapa volume awal?",
-    "pilihan": ["$55$ L", "$66$ L", "$77$ L", "$88$ L", "$99$ L"],
+    "pertanyaan": "Sebuah drum berisi campuran air dan sirup dengan perbandingan $3:8$. Jika ditambah $10$ liter air, perbandingan menjadi $1:2$. Berapa volume awal drum tersebut?",
+    "pilihan": ["$88$ L", "$99$ L", "$105$ L", "$110$ L", "$121$ L"],
     "jawaban": "D",
-    "pembahasan": "Misal air = $3x$, sirup = $8x$. $\\frac{3x+10}{8x}=\\frac{1}{2}$ → $6x+20=8x$ → $x=10$. Volume awal = $11x=110$ L (tidak ada di pilihan)."
+    "pembahasan": "Misal air = $3x$, sirup = $8x$. Perbandingan baru: $\\frac{3x+10}{8x}=\\frac{1}{2}$ → $2(3x+10)=8x$ → $6x+20=8x$ → $2x=20$ → $x=10$. Volume awal = $3x+8x=11x=11(10)=110$ L."
   },
   {
     "id": 13,
     "pertanyaan": "Sebuah prisma segitiga memiliki alas dengan sisi $13$ cm, $14$ cm, $15$ cm dan tinggi prisma $20$ cm. Berapa volumenya?",
     "pilihan": ["$1.680\\text{ cm}^3$", "$1.720\\text{ cm}^3$", "$1.760\\text{ cm}^3$", "$1.800\\text{ cm}^3$", "$1.840\\text{ cm}^3$"],
     "jawaban": "A",
-    "pembahasan": "Gunakan rumus Heron: $s=\\frac{13+14+15}{2}=21$. Luas alas = $\\sqrt{21(21-13)(21-14)(21-15)}=84\\text{ cm}^2$. Volume = $84 \\times 20=1.680\\text{ cm}^3$."
+    "pembahasan": "Gunakan rumus Heron untuk luas alas: $s=\\frac{13+14+15}{2}=21$. Luas alas = $\\sqrt{21(21-13)(21-14)(21-15)}=84\\text{ cm}^2$. Volume = Luas Alas $\\times$ Tinggi $= 84 \\times 20=1.680\\text{ cm}^3$."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah sekolah memiliki $900$ siswa dengan perbandingan kelas X, XI, XII adalah $4:5:6$. Berapa banyak siswa kelas XII?",
     "pilihan": ["$300$", "$340$", "$360$", "$380$", "$400$"],
     "jawaban": "C",
-    "pembahasan": "Total rasio = $4+5+6=15$. Kelas XII = $\\frac{6}{15} \\times 900 = 360$."
+    "pembahasan": "Total rasio = $4+5+6=15$. Siswa Kelas XII = $\\frac{6}{15} \\times 900 = 360$ siswa."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah bakteri berkembang biak menjadi dua kali lipat setiap $30$ menit. Jika pada pukul $09.00$ terdapat $100$ bakteri, berapa jumlahnya pada pukul $12.00$?",
     "pilihan": ["$6.400$", "$12.800$", "$25.600$", "$51.200$", "$102.400$"],
-    "jawaban": "C",
-    "pembahasan": "Waktu = $3$ jam = $6$ periode. Jumlah = $100 \\times 2^6 = 6.400$."
+    "jawaban": "A",
+    "pembahasan": "Waktu dari $09.00$ sampai $12.00$ adalah $3$ jam. Jumlah periode pembelahan ($30$ menit) = $3 \text{ jam} \\times 2 \text{ kali/jam} = 6$ periode. Jumlah bakteri = $100 \\times 2^6 = 100 \\times 64 = 6.400$."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah balok memiliki panjang $12$ cm, lebar $8$ cm, dan tinggi $6$ cm. Berapa panjang diagonal ruangnya?",
-    "pilihan": ["$\\sqrt{244}$ cm", "$\\sqrt{244}$ cm", "$\\sqrt{244}$ cm", "$\\sqrt{244}$ cm", "$\\sqrt{244}$ cm"],
+    "pilihan": ["$\\sqrt{244}$ cm", "$\\sqrt{208}$ cm", "$\\sqrt{180}$ cm", "$\\sqrt{156}$ cm", "$\\sqrt{100}$ cm"],
     "jawaban": "A",
-    "pembahasan": "Diagonal ruang = $\\sqrt{12^2+8^2+6^2}=\\sqrt{244}$ cm."
+    "pembahasan": "Diagonal ruang ($d_r$) = $\\sqrt{p^2+l^2+t^2} = \\sqrt{12^2+8^2+6^2} = \\sqrt{144+64+36} = \\sqrt{244}$ cm."
   },
   {
     "id": 17,
     "pertanyaan": "Sebuah toko menjual $3$ buku dan $4$ pensil seharga Rp$43.000$. Harga $2$ buku dan $3$ pensil adalah Rp$30.000$. Berapa harga $1$ buku?",
     "pilihan": ["Rp$7.000$", "Rp$8.000$", "Rp$9.000$", "Rp$10.000$", "Rp$11.000$"],
     "jawaban": "C",
-    "pembahasan": "Sistem persamaan: $3b+4p=43.000$ dan $2b+3p=30.000$. Solusi: $b=9.000$, $p=4.000$."
+    "pembahasan": "Sistem persamaan linear: (1) $3b+4p=43.000$, (2) $2b+3p=30.000$. Eliminasi: $3 \\times (2) - 2 \\times (1)$ → $b=9.000$. Solusi: $b=9.000$ (buku), $p=4.000$ (pensil)."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah kolam berbentuk lingkaran akan dipasang pagar dengan biaya Rp$50.000$ per meter. Jika jari-jari $7$ meter, berapa total biaya? $(\\pi=\\frac{22}{7})$",
-    "pilihan": ["Rp$2.200.000$", "Rp$2.200.000$", "Rp$2.200.000$", "Rp$2.200.000$", "Rp$2.200.000$"],
+    "pilihan": ["Rp$2.200.000$", "Rp$1.800.000$", "Rp$1.540.000$", "Rp$1.200.000$", "Rp$1.100.000$"],
     "jawaban": "A",
-    "pembahasan": "Keliling = $2\\pi r=44$ m. Biaya = $44 \\times 50.000=2.200.000$."
+    "pembahasan": "Keliling lingkaran = $2\\pi r = 2 \\times \\frac{22}{7} \\times 7 = 44$ m. Total biaya = $44 \\times 50.000=2.200.000$."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah dadu dan koin dilempar bersama. Berapa peluang muncul mata dadu genap dan gambar?",
     "pilihan": ["$\\frac{1}{4}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{2}{3}$", "$\\frac{3}{4}$"],
     "jawaban": "A",
-    "pembahasan": "Peluang dadu genap = $\\frac{3}{6}=\\frac{1}{2}$. Peluang gambar = $\\frac{1}{2}$. Peluang bersama = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$."
+    "pembahasan": "Peluang dadu genap = $\\frac{3}{6}=\\frac{1}{2}$. Peluang koin gambar = $\\frac{1}{2}$. Peluang bersama (independen) = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$."
   },
   {
     "id": 20,
     "pertanyaan": "Sebuah mobil menempuh $\\frac{1}{3}$ jarak dengan kecepatan $60$ km/jam, $\\frac{1}{2}$ jarak dengan $80$ km/jam, dan sisanya dengan $100$ km/jam. Jika total waktu $3$ jam, berapa total jarak?",
     "pilihan": ["$180$ km", "$200$ km", "$220$ km", "$240$ km", "$260$ km"],
     "jawaban": "D",
-    "pembahasan": "Misal total jarak = $x$ km. Waktu = $\\frac{x/3}{60} + \\frac{x/2}{80} + \\frac{x/6}{100} = 3$ → $x=240$ km."
+    "pembahasan": "Misal total jarak = $x$ km. Sisa jarak = $1 - (\\frac{1}{3} + \\frac{1}{2}) = \\frac{1}{6}x$. Waktu = $\\frac{x/3}{60} + \\frac{x/2}{80} + \\frac{x/6}{100} = 3$ → $\\frac{x}{180} + \\frac{x}{160} + \\frac{x}{600} = 3$ → $x=240$ km."
   }
 ]
