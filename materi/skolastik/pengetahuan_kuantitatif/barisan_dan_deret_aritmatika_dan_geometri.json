@@ -11,21 +11,24 @@
           "subItems": [
             {
               "judul": "Suku ke-n ($U_n$)",
-              "teks": "Suku ke-n dari barisan aritmetika dirumuskan sebagai:\n$U_n = a + (n-1)b$\nDengan $a$ = suku pertama, $b$ = beda, dan $n$ = posisi suku."
+              "teks": "Suku ke-n dari barisan aritmetika dirumuskan sebagai:\n$$U_n = a + (n-1)b$$\nDengan $a$ = suku pertama, $b$ = beda, dan $n$ = posisi suku."
             },
             {
               "judul": "Jumlah n Suku Pertama ($S_n$)",
-              "teks": "Jumlah n suku pertama deret aritmetika dirumuskan sebagai:\n$S_n = \\frac{n}{2}(a+U_n)$ atau\n$S_n = \\frac{n}{2}(2a+(n-1)b)$"
+              "teks": "Jumlah n suku pertama deret aritmetika dirumuskan sebagai:\n$$S_n = \\frac{n}{2}(a+U_n)$$\natau\n$$S_n = \\frac{n}{2}(2a+(n-1)b)$$"
             }
           ]
         },
         {
           "judul": "Contoh Soal dan Pembahasan",
-          "teks": "Pada suatu barisan aritmetika, suku ke-3 adalah 15 dan suku ke-7 adalah 31. Tentukan suku ke-20 dan jumlah 10 suku pertamanya.",
           "subItems": [
             {
+              "judul": "Soal",
+              "teks": "Pada suatu barisan aritmetika, suku ke-3 adalah 15 dan suku ke-7 adalah 31. Tentukan suku ke-20 dan jumlah 10 suku pertamanya."
+            },
+            {
               "judul": "Pembahasan",
-              "teks": "Diketahui:\n$U_3 = a + 2b = 15$  ... (1)\n$U_7 = a + 6b = 31$  ... (2)\n\nLangkah pertama, kita cari nilai beda ($b$) dengan mengeliminasi persamaan (1) dan (2):\n$(a + 6b) - (a + 2b) = 31 - 15$\n$4b = 16 \\implies b = 4$\n\nLangkah kedua, substitusi nilai $b=4$ ke persamaan (1) untuk mencari suku pertama ($a$):\n$a + 2(4) = 15$\n$a + 8 = 15 \\implies a = 7$\n\nLangkah ketiga, cari suku ke-20 ($U_{20}$) menggunakan rumus suku ke-n:\n$U_{20} = a + (20-1)b = 7 + 19(4) = 7 + 76 = 83$\n\nLangkah keempat, cari jumlah 10 suku pertama ($S_{10}$) menggunakan rumus jumlah n suku:\n$S_{10} = \\frac{10}{2}(2a + (10-1)b) = 5(2(7) + 9(4)) = 5(14+36) = 5(50) = 250$\n\nJadi, suku ke-20 adalah 83 dan jumlah 10 suku pertamanya adalah 250."
+              "teks": "Diketahui:\n$U_3 = a + 2b = 15$  ... (1)\n$U_7 = a + 6b = 31$  ... (2)\n\n**Langkah 1: Cari beda ($b$)**\nEliminasi persamaan (1) dan (2):\n$(a + 6b) - (a + 2b) = 31 - 15$\n$4b = 16 \\implies b = 4$\n\n**Langkah 2: Cari suku pertama ($a$)**\nSubstitusi nilai $b=4$ ke persamaan (1):\n$a + 2(4) = 15$\n$a + 8 = 15 \\implies a = 7$\n\n**Langkah 3: Cari suku ke-20 ($U_{20}$)**\n$$U_{20} = a + (20-1)b = 7 + 19(4) = 7 + 76 = 83$$\n\n**Langkah 4: Cari jumlah 10 suku pertama ($S_{10}$)**\n$$S_{10} = \\frac{10}{2}(2a + (10-1)b) = 5(2(7) + 9(4)) = 5(14+36) = 5(50) = 250$$\n\n**Kesimpulan:** Suku ke-20 adalah 83 dan jumlah 10 suku pertamanya adalah 250."
             }
           ]
         }
@@ -54,35 +57,38 @@
         },
         {
           "judul": "Contoh Soal dan Pembahasan",
-          "teks": "Suku pertama suatu deret geometri adalah 6 dan suku ke-4 adalah 48. Tentukan rasio deret tersebut dan jumlah 6 suku pertamanya.",
           "subItems": [
             {
+              "judul": "Soal",
+              "teks": "Suku pertama suatu deret geometri adalah 6 dan suku ke-4 adalah 48. Tentukan rasio deret tersebut dan jumlah 6 suku pertamanya."
+            },
+            {
               "judul": "Pembahasan",
-              "teks": "Diketahui:\n$a = 6$\n$U_4 = 48$\n\nLangkah pertama, gunakan rumus suku ke-n untuk mencari rasio ($r$):\n$U_4 = ar^{4-1} = ar^3$\n$48 = 6r^3$\n$r^3 = \\frac{48}{6} = 8$\n$r = \\sqrt[3]{8} \\implies r = 2$\n\nLangkah kedua, cari jumlah 6 suku pertama ($S_6$) menggunakan rumus jumlah n suku:\nKarena $r = 2 > 1$, kita gunakan rumus $S_n = \\frac{a(r^n - 1)}{r-1}$.\n$S_6 = \\frac{6(2^6-1)}{2-1} = \\frac{6(64-1)}{1} = 6(63) = 378$\n\nJadi, rasio deret tersebut adalah 2 dan jumlah 6 suku pertamanya adalah 378."
+              "teks": "Diketahui:\n$a = 6$\n$U_4 = 48$\n\n**Langkah 1: Cari rasio ($r$)**\nGunakan rumus suku ke-n:\n$U_4 = ar^{4-1} = ar^3$\n$48 = 6r^3$\n$r^3 = \\frac{48}{6} = 8$\n$$r = \\sqrt[3]{8} \\implies r = 2$$\n\n**Langkah 2: Cari jumlah 6 suku pertama ($S_6$)**\nKarena $r = 2 > 1$, kita gunakan rumus $S_n = \\frac{a(r^n - 1)}{r-1}$.\n$$S_6 = \\frac{6(2^6-1)}{2-1} = \\frac{6(64-1)}{1} = 6(63) = 378$$\n\n**Kesimpulan:** Rasio deret tersebut adalah 2 dan jumlah 6 suku pertamanya adalah 378."
             }
           ]
         }
       ]
     },
     {
-      "judul": "3. Tips dan Strategi Mengerjakan Soal",
+      "judul": "3. Tips dan Strategi Mengerjakan Soal UTBK",
       "teks": "Mengerjakan soal UTBK memerlukan strategi yang tepat. Berikut adalah beberapa tips untuk memaksimalkan nilaimu:",
       "subItems": [
         {
           "judul": "Analisis Soal Cerita",
-          "teks": "Jangan panik saat melihat soal cerita yang panjang. Fokus pada kata kunci seperti **'bertambah tetap'** atau **'berkurang tetap'** (untuk aritmetika) dan **'melipatgandakan'** atau **'sepersekian dari sebelumnya'** (untuk geometri). Ubah informasi tersebut menjadi variabel ($a$, $b$, $r$, $U_n$, atau $S_n$) sebelum mulai menghitung."
-        },
-        {
-          "judul": "Perhatikan Pilihan Jawaban",
-          "teks": "Terkadang, kamu bisa menemukan jawaban dengan mencoba-coba pilihan jawaban yang ada, terutama untuk soal-soal yang tidak terlalu kompleks. Ini bisa menghemat waktu."
-        },
-        {
-          "judul": "Latihan Kombinasi",
-          "teks": "Sering kali soal UTBK menggabungkan konsep aritmetika dan geometri dalam satu soal. Misalnya, suku-suku suatu barisan aritmetika juga membentuk barisan geometri. Latihlah soal-soal jenis ini untuk meningkatkan pemahamanmu."
+          "teks": "Fokus pada kata kunci seperti **'bertambah/berkurang tetap'** (Aritmetika) dan **'melipatgandakan'** atau **'sepersekian dari sebelumnya'** (Geometri). Ubah informasi tersebut menjadi variabel ($a$, $b$, $r$, $U_n$, atau $S_n$) sebelum mulai menghitung."
         },
         {
           "judul": "Pahami Sifat-Sifat Barisan",
-          "teks": "Untuk barisan aritmetika, $U_n = \\frac{U_{n-k} + U_{n+k}}{2}$. Untuk barisan geometri, $U_n = \\sqrt{U_{n-k} \\times U_{n+k}}$. Memahami sifat ini dapat mempermudah pengerjaan soal tertentu."
+          "teks": "Gunakan sifat-sifat khusus. Untuk Barisan Aritmetika, $U_n = \\frac{U_{n-k} + U_{n+k}}{2}$. Untuk Barisan Geometri, $U_n = \\sqrt{U_{n-k} \\times U_{n+k}}$. Ini dapat mempercepat pengerjaan soal tertentu."
+        },
+        {
+          "judul": "Latihan Kombinasi Konsep",
+          "teks": "Sering kali soal UTBK menggabungkan konsep aritmetika dan geometri. Latihlah soal-soal jenis ini untuk meningkatkan pemahamanmu terhadap keterkaitan antar konsep."
+        },
+        {
+          "judul": "Strategi Coba-Coba Jawaban",
+          "teks": "Untuk soal yang kurang kompleks, mencoba-coba pilihan jawaban (plugging the answers) kadang bisa menjadi cara tercepat untuk menemukan solusi dan menghemat waktu."
         }
       ]
     }
