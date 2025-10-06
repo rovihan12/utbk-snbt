@@ -11,11 +11,11 @@
           "subItems": [
             {
               "judul": "Suku ke-n ($U_n$)",
-              "teks": "Suku ke-n dari barisan aritmetika dirumuskan sebagai:\n$$U_n = a + (n-1)b$$\nDengan $a$ = suku pertama, $b$ = beda, dan $n$ = posisi suku."
+              "teks": "Suku ke-n dari barisan aritmetika dirumuskan sebagai:\n$U_n = a + (n-1)b$\nDengan $a$ = suku pertama, $b$ = beda, dan $n$ = posisi suku."
             },
             {
               "judul": "Jumlah n Suku Pertama ($S_n$)",
-              "teks": "Jumlah n suku pertama deret aritmetika dirumuskan sebagai:\n$$S_n = \\frac{n}{2}(a+U_n)$$\natau\n$$S_n = \\frac{n}{2}(2a+(n-1)b)$$"
+              "teks": "Jumlah n suku pertama deret aritmetika dirumuskan sebagai:\n$S_n = \\frac{n}{2}(a+U_n)$\natau\n$S_n = \\frac{n}{2}(2a+(n-1)b)$"
             }
           ]
         },
@@ -28,7 +28,7 @@
             },
             {
               "judul": "Pembahasan",
-              "teks": "Diketahui:\n$U_3 = a + 2b = 15$  ... (1)\n$U_7 = a + 6b = 31$  ... (2)\n\n**Langkah 1: Cari beda ($b$)**\nEliminasi persamaan (1) dan (2):\n$(a + 6b) - (a + 2b) = 31 - 15$\n$4b = 16 \\implies b = 4$\n\n**Langkah 2: Cari suku pertama ($a$)**\nSubstitusi nilai $b=4$ ke persamaan (1):\n$a + 2(4) = 15$\n$a + 8 = 15 \\implies a = 7$\n\n**Langkah 3: Cari suku ke-20 ($U_{20}$)**\n$$U_{20} = a + (20-1)b = 7 + 19(4) = 7 + 76 = 83$$\n\n**Langkah 4: Cari jumlah 10 suku pertama ($S_{10}$)**\n$$S_{10} = \\frac{10}{2}(2a + (10-1)b) = 5(2(7) + 9(4)) = 5(14+36) = 5(50) = 250$$\n\n**Kesimpulan:** Suku ke-20 adalah 83 dan jumlah 10 suku pertamanya adalah 250."
+              "teks": "Diketahui:\n$U_3 = a + 2b = 15$  ... (1)\n$U_7 = a + 6b = 31$  ... (2)\n\n**Langkah 1: Cari beda ($b$)**\nEliminasi persamaan (1) dan (2):\n$(a + 6b) - (a + 2b) = 31 - 15$\n$4b = 16 \\implies b = 4$\n\n**Langkah 2: Cari suku pertama ($a$)**\nSubstitusi nilai $b=4$ ke persamaan (1):\n$a + 2(4) = 15$\n$a + 8 = 15 \\implies a = 7$\n\n**Langkah 3: Cari suku ke-20 ($U_{20}$)**\n$U_{20} = a + (20-1)b = 7 + 19(4) = 7 + 76 = 83$\n\n**Langkah 4: Cari jumlah 10 suku pertama ($S_{10}$)**\n$S_{10} = \\frac{10}{2}(2a + (10-1)b) = 5(2(7) + 9(4)) = 5(14+36) = 5(50) = 250$\n\n**Kesimpulan:** Suku ke-20 adalah 83 dan jumlah 10 suku pertamanya adalah 250."
             }
           ]
         }
@@ -43,15 +43,15 @@
           "subItems": [
             {
               "judul": "Suku ke-n ($U_n$)",
-              "teks": "Suku ke-n dari barisan geometri dirumuskan sebagai:\n$$U_n = ar^{n-1}$$\nDengan $a$ = suku pertama, $r$ = rasio, dan $n$ = posisi suku."
+              "teks": "Suku ke-n dari barisan geometri dirumuskan sebagai:\n$U_n = ar^{n-1}$\nDengan $a$ = suku pertama, $r$ = rasio, dan $n$ = posisi suku."
             },
             {
               "judul": "Jumlah n Suku Pertama ($S_n$)",
-              "teks": "Jumlah n suku pertama deret geometri dirumuskan sebagai:\n$$S_n = \\frac{a(r^n - 1)}{r-1} \\text{, jika } r > 1$$\natau\n$$S_n = \\frac{a(1 - r^n)}{1-r} \\text{, jika } r < 1$$\n"
+              "teks": "Jumlah n suku pertama deret geometri dirumuskan sebagai:\n$S_n = \\frac{a(r^n - 1)}{r-1} \\text{, jika } r > 1$\natau\n$S_n = \\frac{a(1 - r^n)}{1-r} \\text{, jika } r < 1$\n"
             },
             {
               "judul": "Jumlah Deret Geometri Tak Hingga ($S_\\infty$)",
-              "teks": "Rumus ini hanya berlaku jika $-1 < r < 1$. Rumusnya adalah:\n$$S_\\infty = \\frac{a}{1-r}$$"
+              "teks": "Rumus ini hanya berlaku jika $-1 < r < 1$. Rumusnya adalah:\n$S_\\infty = \\frac{a}{1-r}$"
             }
           ]
         },
@@ -64,7 +64,7 @@
             },
             {
               "judul": "Pembahasan",
-              "teks": "Diketahui:\n$a = 6$\n$U_4 = 48$\n\n**Langkah 1: Cari rasio ($r$)**\nGunakan rumus suku ke-n:\n$U_4 = ar^{4-1} = ar^3$\n$48 = 6r^3$\n$r^3 = \\frac{48}{6} = 8$\n$$r = \\sqrt[3]{8} \\implies r = 2$$\n\n**Langkah 2: Cari jumlah 6 suku pertama ($S_6$)**\nKarena $r = 2 > 1$, kita gunakan rumus $S_n = \\frac{a(r^n - 1)}{r-1}$.\n$$S_6 = \\frac{6(2^6-1)}{2-1} = \\frac{6(64-1)}{1} = 6(63) = 378$$\n\n**Kesimpulan:** Rasio deret tersebut adalah 2 dan jumlah 6 suku pertamanya adalah 378."
+              "teks": "Diketahui:\n$a = 6$\n$U_4 = 48$\n\n**Langkah 1: Cari rasio ($r$)**\nGunakan rumus suku ke-n:\n$U_4 = ar^{4-1} = ar^3$\n$48 = 6r^3$\n$r^3 = \\frac{48}{6} = 8$\n$r = \\sqrt[3]{8} \\implies r = 2$\n\n**Langkah 2: Cari jumlah 6 suku pertama ($S_6$)**\nKarena $r = 2 > 1$, kita gunakan rumus $S_n = \\frac{a(r^n - 1)}{r-1}$.\n$S_6 = \\frac{6(2^6-1)}{2-1} = \\frac{6(64-1)}{1} = 6(63) = 378$\n\n**Kesimpulan:** Rasio deret tersebut adalah 2 dan jumlah 6 suku pertamanya adalah 378."
             }
           ]
         }
