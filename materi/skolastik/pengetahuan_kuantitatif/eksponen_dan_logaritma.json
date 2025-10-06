@@ -7,10 +7,10 @@
       "subItems": [
         {
           "judul": "1. Definisi Dasar",
-          "teks": "Eksponen adalah cara singkat untuk menyatakan perkalian berulang suatu bilangan.\n\nNotasi: $a^n = a \\times a \\times ... \\times a \\text{ (n kali)}$\n$a$ = **basis (bilangan pokok)**\n$n$ = **eksponen (pangkat)**"
+          "teks": "Eksponen adalah cara singkat untuk menyatakan perkalian berulang suatu bilangan.\n\nNotasi: $a^n = a \\times a \\times ... \\times a \\text{ (n kali)}$\n$a$ = basis (bilangan pokok)\n$n$ = eksponen (pangkat)"
         },
         {
-          "judul": "2. Sifat-sifat Eksponen (**WAJIB DIHAFAL DAN PAHAMI**)",
+          "judul": "2. Sifat-sifat Eksponen (WAJIB DIHAFAL DAN PAHAMI)",
           "subItems": [
             {
               "judul": "Perkalian Eksponen dengan Basis Sama",
@@ -52,7 +52,7 @@
         },
         {
           "judul": "Tips Belajar Eksponen",
-          "teks": "- **Hafalkan semua sifat-sifat eksponen** di luar kepala.\n- Latih soal-soal **penyederhanaan** bentuk eksponen.\n- Pahami **konversi** antara bentuk pangkat pecahan dan bentuk akar.\n- Hati-hati dengan tanda **negatif**, terutama jika basisnya negatif (misal $(-2)^3$ vs $(-2)^4$)."
+          "teks": "- Hafalkan semua sifat-sifat eksponen di luar kepala.\n- Latih soal-soal penyederhanaan bentuk eksponen.\n- Pahami konversi antara bentuk pangkat pecahan dan bentuk akar.\n- Hati-hati dengan tanda negatif, terutama jika basisnya negatif (misal $(-2)^3$ vs $(-2)^4$)."
         }
       ]
     },
@@ -61,10 +61,10 @@
       "subItems": [
         {
           "judul": "1. Definisi Dasar",
-          "teks": "Logaritma adalah **invers dari eksponen**. Jika $a^b = c$, maka $^a\\log c = b$.\nDibaca: \"logaritma $c$ basis $a$ adalah $b$\".\n\nNotasi:\n$^a\\log c = b \\iff a^b = c$\n\nSyarat:\n$a > 0, a \\neq 1$ (**Basis**)\n$c > 0$ (**Numerus**)\n\nLogaritma natural (**ln**): $\\ln x = ^e\\log x$ dengan $e \\approx 2.718$\nLogaritma **basis 10**: Jika basis tidak ditulis, diasumsikan basis 10."
+          "teks": "Logaritma adalah invers dari eksponen. Jika $a^b = c$, maka $^a\\log c = b$.\nDibaca: \"logaritma $c$ basis $a$ adalah $b$\".\n\nNotasi:\n$^a\\log c = b \\iff a^b = c$\n\nSyarat:\n$a > 0, a \\neq 1$ (Basis)\n$c > 0$ (Numerus)\n\nLogaritma natural (ln): $\\ln x = ^e\\log x$ dengan $e \\approx 2.718$\nLogaritma basis 10: Jika basis tidak ditulis, diasumsikan basis 10."
         },
         {
-          "judul": "2. Sifat-sifat Logaritma (**WAJIB DIHAFAL DAN PAHAMI**)",
+          "judul": "2. Sifat-sifat Logaritma (WAJIB DIHAFAL DAN PAHAMI)",
           "subItems": [
             {
               "judul": "a log a = 1",
@@ -110,11 +110,11 @@
         },
         {
           "judul": "3. Persamaan Logaritma Sederhana",
-          "teks": "Jika $^a\\log f(x) = ^a\\log g(x)$, maka $f(x) = g(x)$ (dengan syarat $f(x) > 0$ dan $g(x) > 0$).\nContoh:\n$^3\\log (x+1) = ^3\\log 7 \\implies x + 1 = 7$\n$x = 6$ (**cek syarat** $x+1>0$)\n\nJika $^a\\log f(x) = b$, maka $f(x) = a^b$ (dengan syarat $f(x) > 0$).\nContoh: $^2\\log x = 3 \\implies x = 2^3 = 8$ (**cek syarat** $x > 0$)"
+          "teks": "Jika $^a\\log f(x) = ^a\\log g(x)$, maka $f(x) = g(x)$ (dengan syarat $f(x) > 0$ dan $g(x) > 0$).\nContoh:\n$^3\\log (x+1) = ^3\\log 7 \\implies x + 1 = 7$\n$x = 6$ (cek syarat $x+1>0$)\n\nJika $^a\\log f(x) = b$, maka $f(x) = a^b$ (dengan syarat $f(x) > 0$).\nContoh: $^2\\log x = 3 \\implies x = 2^3 = 8$ (cek syarat $x > 0$)"
         },
         {
           "judul": "Tips Belajar Logaritma",
-          "teks": "- Pahami **Definisi**: Logaritma adalah kebalikan dari eksponen. Jika bingung, ubah ke bentuk eksponen.\n- **Hafalkan sifat-sifat logaritma** dan latih dengan contoh sederhana.\n- Perhatikan **syarat basis dan numerus**: basis $> 0$ dan $\\neq 1$; numerus $> 0$.\n- Latih soal **kombinasi** eksponen dan logaritma.\n\n**Strategi Umum UTBK:**\n- Latihan soal **konsep dasar** terlebih dahulu.\n- Kerjakan soal **modifikasi** yang memerlukan beberapa langkah.\n- Pahami penggunaan eksponen dan logaritma dalam **persamaan dan pertidaksamaan**.\n- Ikuti **urutan operasi** matematika.\n- **Teliti** perhitungan pangkat dan sifat.\n- Jangan takut dengan angka besar/kecil, gunakan sifat-sifat log dan eksponen untuk **penyederhanaan**."
+          "teks": "- Pahami Definisi: Logaritma adalah kebalikan dari eksponen. Jika bingung, ubah ke bentuk eksponen.\n- Hafalkan sifat-sifat logaritma dan latih dengan contoh sederhana.\n- Perhatikan syarat basis dan numerus: basis $> 0$ dan $\\neq 1$; numerus $> 0$.\n- Latih soal kombinasi eksponen dan logaritma.\n\nStrategi Umum UTBK:\n- Latihan soal konsep dasar terlebih dahulu.\n- Kerjakan soal modifikasi yang memerlukan beberapa langkah.\n- Pahami penggunaan eksponen dan logaritma dalam persamaan dan pertidaksamaan.\n- Ikuti urutan operasi matematika.\n- Teliti perhitungan pangkat dan sifat.\n- Jangan takut dengan angka besar/kecil, gunakan sifat-sifat log dan eksponen untuk penyederhanaan."
         }
       ]
     }
