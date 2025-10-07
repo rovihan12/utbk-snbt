@@ -6,14 +6,13 @@ header('Access-Control-Allow-Methods: GET, POST');
 header('Access-Control-Allow-Headers: Content-Type');
 header('Cache-Control: no-cache, no-store, must-revalidate');
 
-// Enable error logging for debugging (optional)
-error_reporting(0); // Disable in production
+error_reporting(0);
 
 // Get parameters from request
 $current_version = $_GET['version'] ?? '';
 $package_name = $_GET['package'] ?? '';
 
-// Log the request for debugging
+// Log the request
 error_log("Version Check - Version: $current_version, Package: $package_name");
 
 // Validate parameters
@@ -26,21 +25,19 @@ if (empty($current_version) || empty($package_name)) {
     exit;
 }
 
-// Version configuration - UPDATE INI SETIAP RILIS BARU
+// ✅✅✅ PERUBAHAN PENTING: SET MIN_REQUIRED = LATEST UNTUK SEKARANG
 $latest_version = "V20";
-$min_required_version = "V19";
+$min_required_version = "V20";  // ⚠️ UBAH DARI "V19" MENJADI "V20"
 
 // Initialize response variables
 $update_required = false;
 $update_type = "none";
 $message = "";
 
-// Custom version comparison function for V-prefixed versions
+// Custom version comparison function
 function compareVersions($ver1, $ver2) {
-    // Remove 'V' prefix and convert to lowercase for case-insensitive comparison
     $v1 = strtolower(str_replace('V', '', $ver1));
     $v2 = strtolower(str_replace('V', '', $ver2));
-    
     return version_compare($v1, $v2);
 }
 
@@ -53,8 +50,7 @@ if ($compare_current_min < 0) {
     $update_required = true;
     $update_type = "force";
     $message = "⚠️ Versi aplikasi Anda ($current_version) sudah tidak didukung. " .
-               "Silakan update ke versi $latest_version untuk terus menggunakan aplikasi. " .
-               "Versi minimum yang didukung adalah $min_required_version.";
+               "Silakan update ke versi $latest_version untuk terus menggunakan aplikasi.";
     
 } elseif ($compare_current_latest < 0) {
     // Current version is less than latest - SOFT UPDATE
@@ -71,27 +67,22 @@ if ($compare_current_min < 0) {
                "Terima kasih telah menggunakan aplikasi kami!";
 }
 
-// Prepare release notes based on version
+// Prepare release notes
 $release_notes = [
     "V20" => [
-        "🚀 Performa aplikasi 2x lebih cepat",
-        "🐛 Perbaikan bug crash pada beberapa device",
+        "🚀 Sistem pembaruan aplikasi otomatis",
+        "🐛 Perbaikan bug crash pada beberapa device", 
         "📚 Update materi UTBK 2024 terbaru",
         "🎨 UI/UX yang lebih modern dan intuitif",
         "💾 Optimisasi penggunaan memori dan storage"
-    ],
-    "V19" => [
-        "🔧 Stabilisasi aplikasi",
-        "📖 Penambahan bank soal baru",
-        "⚡ Perbaikan loading time"
     ]
 ];
 
 // Get release notes for current latest version
 $current_release_notes = $release_notes[$latest_version] ?? [
+    "Sistem pembaruan aplikasi otomatis",
     "Perbaikan bug dan peningkatan performa",
-    "Update konten terbaru",
-    "Optimisasi aplikasi"
+    "Update konten terbaru"
 ];
 
 // Build response
@@ -103,25 +94,11 @@ $response = [
     "message" => $message,
     "min_required_version" => $min_required_version,
     "play_store_url" => "https://play.google.com/store/apps/details?id=" . urlencode($package_name),
-    "release_notes" => $current_release_notes,
-    "debug_info" => [ // Optional: Remove in production
-        "received_version" => $current_version,
-        "received_package" => $package_name,
-        "comparison_result" => [
-            "current_vs_min" => $compare_current_min,
-            "current_vs_latest" => $compare_current_latest
-        ]
-    ]
+    "release_notes" => $current_release_notes
+    // ❌ HAPUS debug_info untuk production
 ];
 
 // Send JSON response
 echo json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-
-// Log response for monitoring
-error_log("Version Check Response: " . json_encode([
-    'version' => $current_version,
-    'update_required' => $update_required,
-    'update_type' => $update_type
-]));
 
 ?>
