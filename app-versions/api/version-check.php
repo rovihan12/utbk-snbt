@@ -26,8 +26,8 @@ if (empty($current_version) || empty($package_name)) {
 }
 
 // ✅✅✅ PERUBAHAN PENTING: SET MIN_REQUIRED = LATEST UNTUK SEKARANG
-$latest_version = "V21";
-$min_required_version = "V21";  // ⚠️ UBAH DARI "V19" MENJADI "V21"
+$latest_version = "V22";
+$min_required_version = "V22";  // ⚠️ UBAH DARI "V19" MENJADI "V22"
 
 // Initialize response variables
 $update_required = false;
@@ -69,7 +69,7 @@ if ($compare_current_min < 0) {
 
 // Prepare release notes
 $release_notes = [
-    "V21" => [
+    "V22" => [
         "🚀 Sistem pembaruan aplikasi otomatis",
         "🐛 Perbaikan bug crash pada beberapa device", 
         "📚 Update materi UTBK 2024 terbaru",
