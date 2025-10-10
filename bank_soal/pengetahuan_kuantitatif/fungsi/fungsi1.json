@@ -5,15 +5,15 @@
     "pertanyaan": "Jika $f(x) = 3x - 2$, maka nilai $f(4)$ adalah...",
     "pilihan": ["8", "10", "12", "14", "16"],
     "jawaban": "B",
-    "pembahasan": "Untuk menemukan $f(4)$, substitusikan $x=4$ ke dalam fungsi f(x) = 3x - 2.\nf(4) = 3(4) - 2 = 12 - 2 = 10"
+    "pembahasan": "Substitusi $x = 4$ ke $f(x) = 3x - 2$:\n$f(4) = 3\\cdot 4 - 2 = 12 - 2 = 10$"
   },
   {
     "id": 2,
     "kategori": "Mudah",
-    "pertanyaan": "Penyelesaian dari persamaan $2x + 5 = 11$ adalah...",
+    "pertanyaan": "Penyelesaian persamaan $2x + 5 = 11$ adalah...",
     "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Untuk menyelesaikan persamaan $2x + 5 = 11$:\n$2x = 11 - 5$\n$2x = 6$\n$x = \\frac{6}{2}$\n$x = 3$"
+    "pembahasan": "Kurangi 5 dari kedua sisi: $2x = 6$ → $x = 6/2 = 3$"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $3x - 4 < 5$ adalah...",
     "pilihan": ["$x < 1$", "$x < 2$", "$x < 3$", "$x > 1$", "$x > 3$"],
     "jawaban": "C",
-    "pembahasan": "Untuk menyelesaikan pertidaksamaan $3x - 4 < 5$:\n$3x < 5 + 4$\n$3x < 9$\n$x < \\frac{9}{3}$\n$x < 3$"
+    "pembahasan": "Tambah 4: $3x < 9$ → $x < 3$"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "pertanyaan": "Nilai dari $5^2 + 3^3$ adalah...",
     "pilihan": ["16", "25", "34", "52", "64"],
     "jawaban": "D",
-    "pembahasan": "Hitung masing-masing pangkat:\n$5^2 = 25$\n$3^3 = 27$\nJumlah: $25 + 27 = 52$"
+    "pembahasan": "$5^2 = 25$, $3^3 = 27$, jumlah = $25 + 27 = 52$"
   },
   {
     "id": 5,
@@ -37,23 +37,23 @@
     "pertanyaan": "Jika $\\frac{x}{4} = 7$, maka nilai $x$ adalah...",
     "pilihan": ["3", "14", "21", "28", "35"],
     "jawaban": "D",
-    "pembahasan": "Selesaikan persamaan:\n$\\frac{x}{4} = 7$\n$x = 7 \\times 4$\n$x = 28$"
+    "pembahasan": "Kalikan 4: $x = 7 \\cdot 4 = 28$"
   },
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Jika  $^2\\text{log } 8 +  ^3\\log 27 = x$, maka nilai x adalah...",
+    "pertanyaan": "Jika $^2\\log 8 +  ^3\\log 27 = x$, maka nilai $x$ adalah...",
     "pilihan": ["3", "5", "6", "8", "9"],
-    "jawaban": "B",
-    "pembahasan": "Hitung masing-masing logaritma:\n$^{2}\\log 8 = 3$ karena $2^3 = 8$\n$^{3}\\log 27 = 3$ karena $3^3 = 27$\nJadi, $x = 3 + 3 = 5$"
+    "jawaban": "C",
+    "pembahasan": "$^2\\log 8 = 3$ karena $2^3=8$, $^3\\log 27 = 3$ karena $3^3=27$, sehingga $x=3+3=6$"
   },
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Persamaan garis yang melalui titik (2,3) dan sejajar dengan garis $4x - 2y + 6 = 0$ adalah...",
+    "pertanyaan": "Persamaan garis yang melalui titik $(2,3)$ dan sejajar dengan garis $4x - 2y + 6 = 0$ adalah...",
     "pilihan": ["$2x - y - 1 = 0$", "$4x - 2y + 2 = 0$", "$2x + y - 7 = 0$", "$4x + 2y - 14 = 0$", "$x - 2y + 4 = 0$"],
     "jawaban": "A",
-    "pembahasan": "Gradien garis $4x - 2y + 6 = 0$ adalah $2$ (diubah ke bentuk $y = 2x + 3$).\nGaris sejajar memiliki gradien sama.\nPersamaan garis melalui (2,3) dengan gradien 2:\n$y - 3 = 2(x - 2) \\Rightarrow y = 2x - 1$\nAtau $2x - y - 1 = 0$"
+    "pembahasan": "Gradien garis $4x-2y+6=0$: $y=2x+3$, gradien $m=2$. Garis sejajar: $y-3=2(x-2)$ → $y=2x-1$ → $2x-y-1=0$"
   },
   {
     "id": 8,
@@ -61,15 +61,15 @@
     "pertanyaan": "Nilai dari $\\sin 60^\\circ \\cdot \\cos 30^\\circ + \\cos 60^\\circ \\cdot \\sin 30^\\circ$ adalah...",
     "pilihan": ["$\\frac{1}{2}$", "$\\frac{\\sqrt{2}}{2}$", "$\\frac{\\sqrt{3}}{2}$", "1", "$\\frac{\\sqrt{3} + 1}{2}$"],
     "jawaban": "D",
-    "pembahasan": "Ini adalah bentuk $\\sin A \\cos B + \\cos A \\sin B = \\sin(A+B)$.\nJadi, $\\sin 60^\\circ \\cos 30^\\circ + \\cos 60^\\circ \\sin 30^\\circ = \\sin(60^\\circ + 30^\\circ) = \\sin 90^\\circ = 1$"
+    "pembahasan": "Bentuk ini adalah $\\sin A \\cos B + \\cos A \\sin B = \\sin(A+B)$. Jadi: $\\sin 60^\\circ \\cos 30^\\circ + \\cos 60^\\circ \\sin 30^\\circ = \\sin 90^\\circ = 1$"
   },
   {
     "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Volume kubus dengan luas permukaan 150 cm² adalah...",
-    "pilihan": ["25 cm³", "75 cm³", "125 cm³", "150 cm³", "225 cm³"],
-    "jawaban": "C",
-    "pembahasan": "Luas permukaan kubus = $6s^2 = 150$\n$s^2 = 25 \\Rightarrow s = 5$ cm\nVolume = $s^3 = 5^3 = 125$ cm³"
+    "pertanyaan": "Jika $x^2 - 5x + 6 = 0$, penyelesaian dari persamaan ini adalah...",
+    "pilihan": ["1 dan 6", "2 dan 3", "3 dan 4", "0 dan 6", "1 dan 5"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan: $(x-2)(x-3)=0$, sehingga $x=2$ atau $x=3$"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "pertanyaan": "Jika $2^{x+1} = 32$, maka nilai $x$ adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "Ubah 32 menjadi pangkat 2:\n$32 = 2^5$\nSehingga $2^{x+1} = 2^5$\n$x+1 = 5 \\Rightarrow x = 4$"
+    "pembahasan": "$32 = 2^5$, maka $2^{x+1}=2^5$ → $x+1=5$ → $x=4$"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "pertanyaan": "Diketahui sistem persamaan:\n$x + y + z = 6$\n$2x + y + 2z = 10$\n$x + 2y + z = 8$\nNilai dari $x \\cdot y \\cdot z$ adalah...",
     "pilihan": ["4", "6", "8", "10", "12"],
     "jawaban": "B",
-    "pembahasan": "Selesaikan sistem persamaan linear:\n1) Kurangi persamaan kedua dengan pertama: $x + z = 4$\n2) Kurangi persamaan ketiga dengan pertama: $y = 2$\nSubstitusi $y=2$ ke persamaan pertama: $x + z = 4$\nDari $x + z = 4$ dan $2x + 2 + 2z = 10 \\Rightarrow x + z = 4$\nPilih $x=1$, maka $z=3$\nHasil kali $1 \\times 2 \\times 3 = 6$"
+    "pembahasan": "Kurangi persamaan kedua dengan pertama: $x+z=4$. Kurangi persamaan ketiga dengan pertama: $y=2$. Substitusi $y=2$ ke $x+z=4$, pilih $x=1$, $z=3$. Maka $x\\cdot y\\cdot z=1\\cdot 2\\cdot 3=6$"
   },
   {
     "id": 12,
@@ -93,70 +93,70 @@
     "pertanyaan": "Jika $\\tan x = \\frac{3}{4}$ dan $x$ di kuadran III, maka nilai $\\sin x + \\cos x$ adalah...",
     "pilihan": ["$-\\frac{7}{5}$", "$-\\frac{1}{5}$", "$\\frac{1}{5}$", "$\\frac{7}{5}$", "$\\frac{12}{5}$"],
     "jawaban": "A",
-    "pembahasan": "Di kuadran III, sin dan cos negatif.\nBuat segitiga dengan sisi depan 3, samping 4, miring 5.\n$\\sin x = -\\frac{3}{5}$, $\\cos x = -\\frac{4}{5}$\n$\\sin x + \\cos x = -\\frac{3}{5} - \\frac{4}{5} = -\\frac{7}{5}$"
+    "pembahasan": "Kuadran III: sin<0, cos<0. Buat segitiga: depan=3, samping=4, miring=5 → $\\sin x=-3/5$, $\\cos x=-4/5$, jumlah = $-7/5$"
   },
-    {
+  {
     "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Diketahui barisan geometri dengan $U_2 = 6$ dan $U_5 = 48$. Suku ke-7 barisan tersebut adalah...",
+    "pertanyaan": "Diketahui barisan geometri dengan $U_2 = 6$ dan $U_5 = 48$. Suku ke-7 adalah...",
     "pilihan": ["96", "108", "120", "144", "192"],
-    "jawaban": "A",
-    "pembahasan": "Rasio $r^3 = \\frac{U_5}{U_2} = \\frac{48}{6} = 8 \\Rightarrow r = 2$\n$U_1 = \\frac{U_2}{r} = \\frac{6}{2} = 3$\n$U_7 = U_1 \\cdot r^6 = 3 \\cdot 64 = 192$"
+    "jawaban": "E",
+    "pembahasan": "Rasio: $r^3=48/6=8$, $r=2$. $U_1=6/2=3$, $U_7=3*2^6=192$"
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Berapakah jumlah semua nilai $x$ yang memenuhi persamaan $x^4 - 5x^2 + 4 = 0$?",
-    "pilihan": ["$-5$", "$-4$", "0", "4", "5"],
+    "pertanyaan": "Jumlah semua nilai $x$ yang memenuhi $x^4 - 5x^2 + 4 = 0$ adalah...",
+    "pilihan": ["-5", "-4", "0", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Misalkan $y = x^2$. Maka persamaan menjadi persamaan kuadrat dalam $y$:\n$y^2 - 5y + 4 = 0$.\nFaktorkan persamaan ini: $(y-1)(y-4) = 0.\nJadi, $y=1$ atau $y=4$.\nKembalikan substitusi $y = x^2$:\nJika $y=1$, maka $x^2 = 1 \\Rightarrow x = 1$ atau $x = -1$.\nJika $y=4$, maka $x^2 = 4 \\Rightarrow x = 2$ atau $x = -2$.\nNilai-nilai $x$ yang memenuhi adalah $1, -1, 2, -2$.\nJumlah semua nilai $x$ adalah $1 + (-1) + 2 + (-2) = 0$."
+    "pembahasan": "Substitusi $y=x^2$, $y^2-5y+4=0$ → $(y-1)(y-4)=0$, $x^2=1$ atau $4$ → $x=±1, ±2$, jumlah=0"
   },
   {
     "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Diketahui $\\alpha$ dan $\\beta$ akar-akar persamaan $x^2 - 6x + 5 = 0$. Persamaan kuadrat baru yang akar-akarnya $2\\alpha+1$ dan $2\\beta+1$ adalah...",
+    "pertanyaan": "Jika $\\alpha$ dan $\\beta$ adalah akar $x^2-6x+5=0$, persamaan dengan akar $2\\alpha+1$ dan $2\\beta+1$ adalah...",
     "pilihan": ["$x^2 - 14x + 33 = 0$", "$x^2 - 10x + 21 = 0$", "$x^2 - 8x + 15 = 0$", "$x^2 - 6x + 5 = 0$", "$x^2 - 4x + 3 = 0$"],
     "jawaban": "A",
-    "pembahasan": "Akar-akar persamaan awal: $\\alpha + \\beta = 6$, $\\alpha\\beta = 5$\nAkar baru: $(2\\alpha+1)+(2\\beta+1) = 2(\\alpha+\\beta)+2 = 14$\n$(2\\alpha+1)(2\\beta+1) = 4\\alpha\\beta + 2(\\alpha+\\beta) + 1 = 33$\nPersamaan baru: $x^2 - 14x + 33 = 0$"
+    "pembahasan": "α+β=6, αβ=5. Akar baru: 2α+1+2β+1=14, (2α+1)(2β+1)=4*5+2*6+1=33 → $x^2-14x+33=0$"
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ adalah...",
+    "pertanyaan": "Nilai $\\lim_{x \\to 2} \\frac{x^2-4}{x-2}$ adalah...",
     "pilihan": ["0", "2", "4", "6", "Tidak terdefinisi"],
     "jawaban": "C",
-    "pembahasan": "Faktorkan pembilang:\n$\\frac{(x-2)(x+2)}{x-2} = x+2$ (untuk $x \neq 2$)\nSubstitusi $x=2$: $2+2=4$"
+    "pembahasan": "Faktorkan: $(x-2)(x+2)/(x-2)=x+2$, substitusi $x=2$ → $4$"
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$. Determinan dari matriks $A$ adalah...",
-    "pilihan": ["2", "3", "5", "7", "9"],
-    "jawaban": "C",
-    "pembahasan": "Determinan matriks 2x2 $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad-bc$.\nJadi, $det(A) = (2)(4)-(1)(3) = 8-3 = 5$"
+    "pertanyaan": "Jika $f(x) = x^3 - 2x^2 + 5$, maka $f'(1)$ adalah...",
+    "pilihan": ["-1", "0", "1", "2", "3"],
+    "jawaban": "A",
+    "pembahasan": "Turunan: $f'(x)=3x^2-4x$, $f'(1)=3-4=-1$"
   },
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = x^3 - 2x^2 + 5$, maka turunan pertama $f'(1)$ adalah...",
-    "pilihan": ["-1", "0", "1", "2", "3"],
+    "pertanyaan": "Penyelesaian persamaan $2x^2 - 5x + 3 = 0$ adalah...",
+    "pilihan": ["1 dan 3/2", "3/2 dan 1", "1 dan 2", "2 dan 3", "3 dan 4"],
     "jawaban": "A",
-    "pembahasan": "Turunan $f(x)$: $f'(x) = 3x^2 - 4x$\n$f'(1) = 3(1)^2 - 4(1) = 3 - 4 = -1$"
+    "pembahasan": "Faktorkan: $(2x-3)(x-1)=0$, solusi: $x=1$ dan $x=3/2$"
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah deret aritmatika, suku ke-5 adalah 17 dan suku ke-10 adalah 32. Jumlah 20 suku pertama deret tersebut adalah...",
-    "pilihan": ["420", "480", "540", "600", "660"],
+    "pertanyaan": "Dalam deret aritmatika, suku ke-5 = 17, suku ke-10 = 32. Jumlah 20 suku pertama adalah...",
+    "pilihan": ["420", "480", "540", "670", "660"],
     "jawaban": "D",
-    "pembahasan": "Gunakan rumus $U_n = a + (n-1)b$\n$U_5 = a + 4b = 17$\n$U_{10} = a + 9b = 32$\nKurangi: $5b = 15 \\Rightarrow b = 3$\n$a = 17 - 4(3) = 5$\n$S_{20} = \\frac{20}{2}(2(5) + 19(3)) = 10(10 + 57) = 670$ (Koreksi: seharusnya 670, mungkin perlu penyesuaian pilihan)"
+    "pembahasan": "U5=a+4b=17, U10=a+9b=32 → b=3, a=5. S20=20/2*(2*5+19*3)=10*(10+57)=670"
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Diketahui $\\sin A = \\frac{5}{13}$ dengan $A$ di kuadran II. Nilai dari $\\tan A$ adalah...",
-    "pilihan": ["$-\\frac{5}{12}$", "$-\\frac{12}{13}$", "$\\frac{5}{12}$", "$\\frac{12}{13}$", "$\\frac{13}{12}$"],
+    "pertanyaan": "Jika $\\sin A = 5/13$ di kuadran II, nilai $\\tan A$ adalah...",
+    "pilihan": ["$-5/12$", "$-12/13$", "$5/12$", "$12/13$", "$13/12$"],
     "jawaban": "A",
-    "pembahasan": "Di kuadran II, cos negatif dan tan negatif.\n$\\cos A = -\\sqrt{1 - \\sin^2 A} = -\\frac{12}{13}$\n$\\tan A = \\frac{\\sin A}{\\cos A} = -\\frac{5}{12}$"
+    "pembahasan": "Kuadran II: cos<0 → cosA=-12/13, tanA=sin/cos=-5/12"
   }
 ]
