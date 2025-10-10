@@ -1,6 +1,6 @@
 [
   {
-    "id": 61,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk sederhana dari $(x^5 y^3)^2$ adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "$x^7 y^6$"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat eksponen $(a^m)^n = a^{m \\times n}$ dan $(ab)^n = a^n b^n$.\n$(x^5 y^3)^2 = (x^5)^2 (y^3)^2 = x^{5 \\times 2} y^{3 \\times 2} = x^{10} y^6$"
+    "pembahasan": "Gunakan sifat eksponen $(a^m)^n = a^{m \\times n}$ dan $(ab)^n = a^n b^n$.\n$(x^5 y^3)^2 = (x^5)^2 (y^3)^2$\n$= x^{10} y^6$"
   },
   {
-    "id": 62,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Nilai dari $(1/3)^{-2}$ adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "9"
     ],
     "jawaban": "E",
-    "pembahasan": "Gunakan sifat eksponen $(a/b)^{-n} = (b/a)^n$.\n$(1/3)^{-2} = (3/1)^2 = 3^2 = 9$"
+    "pembahasan": "Gunakan sifat eksponen $(a/b)^{-n} = (b/a)^n$.\n$(1/3)^{-2} = (3/1)^2$\n$= 3^2 = 9$"
   },
   {
-    "id": 63,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk akar dari $y^{2/3}$ adalah...",
     "pilihan": [
@@ -42,35 +42,7 @@
     "pembahasan": "Gunakan sifat eksponen pecahan $a^{m/n} = \\sqrt[n]{a^m}$.\n$y^{2/3} = \\sqrt[3]{y^2}$"
   },
   {
-    "id": 64,
-    "kategori": "Sulit",
-    "pertanyaan": "Hasil dari $\\left( \\frac{\\sqrt{432}}{\\sqrt{48} + \\sqrt{12}} \\right)^3$ adalah...",
-    "pilihan": [
-      "2",
-      "4",
-      "6",
-      "8",
-      "16"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Langkah 1: Sederhanakan pembilang dan penyebut.\n- Pembilang: $\\sqrt{432} = \\sqrt{144 \\times 3} = 12\\sqrt{3}$\n- Penyebut: $\\sqrt{48} + \\sqrt{12} = \\sqrt{16 \\times 3} + \\sqrt{4 \\times 3} = 4\\sqrt{3} + 2\\sqrt{3} = 6\\sqrt{3}$\n\nLangkah 2: Sederhanakan pecahan.\n$\\frac{12\\sqrt{3}}{6\\sqrt{3}} = 2$\n\nLangkah 3: Hitung nilai akhir.\n$(2)^3 = 8$"
-  },
-  {
-    "id": 65,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai dari $t$ adalah...",
-    "pilihan": [
-      "128",
-      "256",
-      "512",
-      "1024",
-      "2048"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Diberikan persamaan $2^t = t^{32}$. Tujuan kita adalah menyederhanakan persamaan ini untuk menemukan nilai $t$. Sifat eksponensial yang akan kita gunakan adalah $(a^m)^n = a^{mn}$.\n\n### Langkah 1: Pangkatkan kedua sisi dengan $\\frac{1}{t}$\nKita mulai dengan persamaan awal:\n$2^t = t^{32}$\nPangkatkan kedua sisi dengan $\\frac{1}{t}$ untuk menghilangkan $t$ dari eksponen di sisi kiri.\n$(2^t)^{\\frac{1}{t}} = (t^{32})^{\\frac{1}{t}}$\n$2^{t \\cdot \\frac{1}{t}} = t^{32 \\cdot \\frac{1}{t}}$\n$2^1 = t^{\\frac{32}{t}}$\n$2 = t^{\\frac{32}{t}}$\n\n### Langkah 2: Pangkatkan kedua sisi dengan $\\frac{1}{32}$\nSelanjutnya, kita akan mempangkatkan kedua sisi dengan $\\frac{1}{32}$ untuk menyederhanakan eksponen di sisi kanan.\n$(2)^{\\frac{1}{32}} = (t^{\\frac{32}{t}})^{\\frac{1}{32}}$\n$2^{\\frac{1}{32}} = t^{\\frac{32}{t} \\cdot \\frac{1}{32}}$\n$2^{\\frac{1}{32}} = t^{\\frac{1}{t}}$\n\n### Langkah 3: Menyamakan Basis dan Pangkat dengan Pangkat $2/2$\nKita memiliki persamaan $2^{\\frac{1}{32}} = t^{\\frac{1}{t}}$.\nUntuk menemukan nilai $t$, kita akan mengubah bentuk sisi kiri agar memiliki basis dan eksponen yang sama dengan memangkatkannya dengan $2/2$ secara berulang. Pangkat $2/2$ sama dengan $1$, jadi tidak mengubah nilai persamaan.\n\n$(2^{\\frac{1}{32}})^{\\frac{2}{2}} = (2^2)^{\\frac{1}{32 \\cdot 2}} = 4^{\\frac{1}{64}}$\nApakah $4^{\\frac{1}{64}} = t^{\\frac{1}{t}}$? Belum, karena $4 \\ne 64$.\n\nCoba pangkat lagi dengan $2/2$:\n$(4^{\\frac{1}{64}})^{\\frac{2}{2}} = (4^2)^{\\frac{1}{64 \\cdot 2}} = 16^{\\frac{1}{128}}$\nApakah $16^{\\frac{1}{128}} = t^{\\frac{1}{t}}$? Belum, karena $16 \\ne 128$.\n\nCoba pangkat lagi dengan $2/2$:\n$(16^{\\frac{1}{128}})^{\\frac{2}{2}} = (16^2)^{\\frac{1}{128 \\cdot 2}} = 256^{\\frac{1}{256}}$\n\nSekarang, kita dapat menyamakan kedua sisi persamaan:\n$256^{\\frac{1}{256}} = t^{\\frac{1}{t}}$\nDari bentuk ini, kita dapat langsung melihat bahwa basis dan eksponennya sama. Oleh karena itu, **$t = 256$**."
-  },
-  {
-    "id": 66,
+    "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(2x^{-1} y^2)^{-3}$ adalah...",
     "pilihan": [
@@ -81,10 +53,10 @@
       "$8x^3 y^6$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat $(xyz)^n = x^n y^n z^n$ dan $(a^m)^n = a^{mn}$.\n$(2x^{-1} y^2)^{-3} = 2^{-3} (x^{-1})^{-3} (y^2)^{-3}$\n$= \\frac{1}{2^3} x^3 y^{-6} = \\frac{1}{8} x^3 \\frac{1}{y^6} = \\frac{x^3}{8y^6}$"
+    "pembahasan": "Gunakan sifat $(xyz)^n = x^n y^n z^n$ dan $(a^m)^n = a^{mn}$.\n$(2x^{-1} y^2)^{-3} = 2^{-3} (x^{-1})^{-3} (y^2)^{-3}$\n$= \\frac{1}{8} x^3 y^{-6}$\n$= \\frac{x^3}{8y^6}$"
   },
   {
-    "id": 67,
+    "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Jika $7^{x+1} = 49$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -95,10 +67,10 @@
       "-1"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubahlah 49 ke dalam bentuk pangkat dengan basis 7.\n$49 = 7^2$\nJadi, $7^{x+1} = 7^2$.\nKarena basisnya sama, maka eksponennya harus sama:\n$x+1 = 2$\n$x = 1$"
+    "pembahasan": "Ubahlah 49 ke dalam bentuk pangkat dengan basis 7.\n$49 = 7^2$\nJadi, $7^{x+1} = 7^2$.\nKarena basisnya sama, maka:\n$x+1 = 2$\n$x = 1$"
   },
   {
-    "id": 68,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $^4\\log 8 + ^4\\log 2$ adalah...",
     "pilihan": [
@@ -109,10 +81,10 @@
       "16"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log x + ^b\\log y = ^b\\log (xy)$.\n$^4\\log 8 + ^4\\log 2 = ^4\\log (8 \\times 2) = ^4\\log 16$\n$^4\\log 16 = 2$ (karena $4^2 = 16$)"
+    "pembahasan": "Gunakan sifat logaritma $^b\\log x + ^b\\log y = ^b\\log (xy)$.\n$^4\\log 8 + ^4\\log 2 = ^4\\log (8 \\times 2)$\n$= ^4\\log 16 = 2$ (karena $4^2 = 16$)"
   },
   {
-    "id": 69,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $^2\\log (1/4)$ adalah...",
     "pilihan": [
@@ -123,10 +95,10 @@
       "2"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan $^2\\log (1/4) = y$. Maka $2^y = 1/4$.\n$2^y = 2^{-2}$\n$y = -2$"
+    "pembahasan": "Misalkan $^2\\log (1/4) = y$. Maka:\n$2^y = 1/4$\n$2^y = 2^{-2}$\n$y = -2$"
   },
   {
-    "id": 70,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\frac{m^6 n^{-2} p^3}{m^3 n^3 p^{-1}}$ adalah...",
     "pilihan": [
@@ -140,7 +112,35 @@
     "pembahasan": "Gunakan sifat eksponen $a^m / a^n = a^{m-n}$.\n$m^{6-3} n^{-2-3} p^{3-(-1)}$\n$= m^3 n^{-5} p^4$\n$= \\frac{m^3 p^4}{n^5}$"
   },
   {
-    "id": 71,
+    "id": 9,
+    "kategori": "Sulit",
+    "pertanyaan": "Hasil dari $\\left( \\frac{\\sqrt{432}}{\\sqrt{48} + \\sqrt{12}} \\right)^3$ adalah...",
+    "pilihan": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Langkah 1: Sederhanakan pembilang dan penyebut.\n$\\sqrt{432} = \\sqrt{144 \\times 3} = 12\\sqrt{3}$\n$\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$\n$\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$\n\nLangkah 2: Sederhanakan pecahan.\n$\\frac{12\\sqrt{3}}{4\\sqrt{3} + 2\\sqrt{3}} = \\frac{12\\sqrt{3}}{6\\sqrt{3}} = 2$\n\nLangkah 3: Hitung nilai akhir.\n$(2)^3 = 8$"
+  },
+  {
+    "id": 10,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai dari $t$ adalah...",
+    "pilihan": [
+      "128",
+      "256",
+      "512",
+      "1024",
+      "2048"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Diberikan persamaan $2^t = t^{32}$.\n\nLangkah 1: Pangkatkan kedua sisi dengan $\\frac{1}{t}$\n$(2^t)^{\\frac{1}{t}} = (t^{32})^{\\frac{1}{t}}$\n$2 = t^{\\frac{32}{t}}$\n\nLangkah 2: Pangkatkan kedua sisi dengan $\\frac{1}{32}$\n$(2)^{\\frac{1}{32}} = (t^{\\frac{32}{t}})^{\\frac{1}{32}}$\n$2^{\\frac{1}{32}} = t^{\\frac{1}{t}}$\n\nLangkah 3: Manipulasi untuk mendapatkan $t$\n$(2^{\\frac{1}{32}})^{\\frac{2}{2}} = (2^2)^{\\frac{1}{64}} = 4^{\\frac{1}{64}}$\n$(4^{\\frac{1}{64}})^{\\frac{2}{2}} = (4^2)^{\\frac{1}{128}} = 16^{\\frac{1}{128}}$\n$(16^{\\frac{1}{128}})^{\\frac{2}{2}} = (16^2)^{\\frac{1}{256}} = 256^{\\frac{1}{256}}$\n\nJadi $256^{\\frac{1}{256}} = t^{\\frac{1}{t}}$, maka $t = 256$"
+  },
+  {
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $25^{x+1} = (1/125)^{x+2}$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -151,10 +151,10 @@
       "$-10/5$"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubah semua basis ke 5.\n$(5^2)^{x+1} = (5^{-3})^{x+2}$\n$5^{2x+2} = 5^{-3x-6}$\n$2x+2 = -3x-6$\n$5x = -8$\n$x = -8/5$"
+    "pembahasan": "Ubah semua basis ke 5.\n$(5^2)^{x+1} = (5^{-3})^{x+2}$\n$5^{2x+2} = 5^{-3x-6}$\nKarena basisnya sama, maka:\n$2x+2 = -3x-6$\n$5x = -8$\n$x = -8/5$"
   },
   {
-    "id": 72,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $(100^{1/2} + 64^{1/3})^2$ adalah...",
     "pilihan": [
@@ -168,7 +168,7 @@
     "pembahasan": "Hitung nilai di dalam kurung terlebih dahulu.\n$100^{1/2} = \\sqrt{100} = 10$\n$64^{1/3} = \\sqrt[3]{64} = 4$\nJadi, $(10+4)^2 = 14^2 = 196$"
   },
   {
-    "id": 73,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika $p^a = q$ dan $q^b = r$, maka nilai dari $p^{ab}$ adalah...",
     "pilihan": [
@@ -179,10 +179,10 @@
       "1"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui $p^a = q$. Substitusikan ini ke persamaan kedua $q^b = r$.\n$(p^a)^b = r$\n$p^{ab} = r$"
+    "pembahasan": "Diketahui $p^a = q$. Substitusikan ke persamaan kedua:\n$(p^a)^b = r$\n$p^{ab} = r$"
   },
   {
-    "id": 74,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Penyelesaian dari persamaan $2^{3x-5} = 4^{x-1}$ adalah...",
     "pilihan": [
@@ -193,10 +193,10 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Ubahlah basis 4 menjadi basis 2.\n$4 = 2^2$\n$2^{3x-5} = (2^2)^{x-1}$\n$2^{3x-5} = 2^{2(x-1)}$\n$2^{3x-5} = 2^{2x-2}$\nKarena basisnya sama, maka eksponennya harus sama:\n$3x-5 = 2x-2$\n$3x-2x = 5-2$\n$x = 3$"
+    "pembahasan": "Ubahlah basis 4 menjadi basis 2.\n$4 = 2^2$\n$2^{3x-5} = (2^2)^{x-1}$\n$2^{3x-5} = 2^{2x-2}$\nKarena basisnya sama, maka:\n$3x-5 = 2x-2$\n$x = 3$"
   },
   {
-    "id": 75,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log (x^2+3x+4) = 3$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -207,10 +207,10 @@
       "$1$ atau $2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2+3x+4 = 2^3$\n$x^2+3x+4 = 8$\n$x^2+3x-4 = 0$\nFaktorkan persamaan kuadrat:\n$(x+4)(x-1) = 0$\n$x=-4$ atau $x=1$.\nPeriksa syarat numerus: $x^2+3x+4 > 0$. Kedua nilai memenuhi.\nSolusi yang benar adalah $x=1$ atau $x=-4$."
+    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2+3x+4 = 2^3$\n$x^2+3x+4 = 8$\n$x^2+3x-4 = 0$\nFaktorkan persamaan kuadrat:\n$(x+4)(x-1) = 0$\n$x=-4$ atau $x=1$\nPeriksa syarat numerus: $x^2+3x+4 > 0$. Kedua nilai memenuhi."
   },
   {
-    "id": 76,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^x\\log 3 + ^x\\log 1 = 1$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -224,7 +224,7 @@
     "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$.\n$^x\\log (3 \\times 1) = 1$\n$^x\\log 3 = 1$\nUbahlah ke bentuk eksponen:\n$x^1 = 3$\n$x = 3$"
   },
   {
-    "id": 77,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^2\\log 24 - ^2\\log 3 - ^2\\log 1$ adalah...",
     "pilihan": [
@@ -235,10 +235,10 @@
       "0"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log x - ^b\\log y = ^b\\log (x/y)$.\n$^2\\log 24 - ^2\\log 3 - ^2\\log 1 = (^2\\log 24 - ^2\\log 3) - ^2\\log 1$\n$= ^2\\log (24/3) - ^2\\log 1$\n$= ^2\\log 8 - ^2\\log 1$\n$= 3 - 0$ (karena $2^3 = 8$ dan $2^0 = 1$)\n$= 3$"
+    "pembahasan": "Gunakan sifat logaritma:\n$^2\\log 24 - ^2\\log 3 - ^2\\log 1$\n$= ^2\\log (24/3) - ^2\\log 1$\n$= ^2\\log 8 - 0$\n$= 3$ (karena $2^3 = 8$)"
   },
   {
-    "id": 78,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $2^x = 5$, maka nilai dari $2^{x+3}$ adalah...",
     "pilihan": [
@@ -249,10 +249,10 @@
       "125"
     ],
     "jawaban": "D",
-    "pembahasan": "Gunakan sifat eksponen $a^{m+n} = a^m a^n$.\n$2^{x+3} = 2^x \\times 2^3$\nDiketahui $2^x = 5$, dan $2^3 = 8$.\n$2^{x+3} = 5 \\times 8 = 40$"
+    "pembahasan": "Gunakan sifat eksponen $a^{m+n} = a^m a^n$.\n$2^{x+3} = 2^x \\times 2^3$\nDiketahui $2^x = 5$ dan $2^3 = 8$\n$2^{x+3} = 5 \\times 8 = 40$"
   },
   {
-    "id": 79,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan nilai $x$ dari persamaan $7^{x^2+x-6} = 1$.",
     "pilihan": [
@@ -263,10 +263,10 @@
       "Tidak ada solusi"
     ],
     "jawaban": "B",
-    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1. Jadi eksponennya harus sama dengan 0.\n$x^2+x-6 = 0$\nFaktorkan persamaan kuadrat:\n$(x+3)(x-2) = 0$\nJadi, $x=-3$ atau $x=2$."
+    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1.\nJadi eksponennya harus sama dengan 0:\n$x^2+x-6 = 0$\nFaktorkan persamaan kuadrat:\n$(x+3)(x-2) = 0$\n$x=-3$ atau $x=2$"
   },
   {
-    "id": 80,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^3\\log 5 = k$, maka $^9\\log 25$ adalah...",
     "pilihan": [
@@ -277,6 +277,6 @@
       "$1/k$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^p\\log q = \\frac{^m\\log q}{^m\\log p}$.\n$^9\\log 25 = \\frac{^3\\log 25}{^3\\log 9}$\n$^3\\log 25 = ^3\\log 5^2 = 2 \\cdot ^3\\log 5 = 2k$\n$^3\\log 9 = 2$ (karena $3^2 = 9$)\nJadi, $^9\\log 25 = \\frac{2k}{2} = k$"
+    "pembahasan": "Gunakan sifat perubahan basis logaritma:\n$^9\\log 25 = \\frac{^3\\log 25}{^3\\log 9}$\n$^3\\log 25 = ^3\\log 5^2 = 2k$\n$^3\\log 9 = 2$\nJadi, $^9\\log 25 = \\frac{2k}{2} = k$"
   }
 ]
