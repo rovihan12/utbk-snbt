@@ -85,7 +85,7 @@
     "pertanyaan": "Tentukan semua solusi bulat untuk pertidaksamaan $|x - 2| + |x + 1| \\le 5$.",
     "pilihan": ["$\\{-2, -1, 0, 1, 2, 3\\}$","$\\{-3, -2, -1, 0, 1, 2, 3\\}$","$\\{-1, 0, 1, 2, 3\\}$","$\\{-2, -1, 0, 1, 2\\}$","$\\{-3, -2, 3, 4\\}$"],
     "jawaban": "A",
-    "pembahasan": "Ada 3 kasus. Kasus 2 ($-1 \\le x < 2$): $-(x-2) + (x+1) \\le 5 \\Rightarrow 3 \\le 5$. Ini selalu benar. Kasus 3 ($x \\ge 2$): $(x-2) + (x+1) \\le 5 \\Rightarrow 2x - 1 \\le 5 \\Rightarrow 2x \\le 6 \\Rightarrow x \\le 3$. Irisan $2 \\le x \\le 3$. Solusi total: $-2 \\le x \\le 3$. Solusi bulat: $\\mathbf{\\{-2, -1, 0, 1, 2, 3\\}}$."
+    "pembahasan": "Titik kritis adalah $x = -1$ dan $x = 2$. Analisis 3 Kasus:\n1.  **Kasus 1 ($x < -1$):** Kedua nilai mutlak negatif. $-(x-2) - (x+1) \\le 5 \\Rightarrow -2x + 1 \\le 5 \\Rightarrow -2x \\le 4 \\Rightarrow x \\ge -2$. Irisan: $\\mathbf{-2 \\le x < -1}$.\n2.  **Kasus 2 ($-1 \\le x < 2$):** Nilai mutlak pertama negatif, kedua positif. $-(x-2) + (x+1) \\le 5 \\Rightarrow 3 \\le 5$. (Selalu benar). Irisan: $\\mathbf{-1 \\le x < 2}$.\n3.  **Kasus 3 ($x \\ge 2$):** Kedua nilai mutlak positif. $(x-2) + (x+1) \\le 5 \\Rightarrow 2x - 1 \\le 5 \\Rightarrow 2x \\le 6 \\Rightarrow x \\le 3$. Irisan: $\\mathbf{2 \\le x \\le 3}$.\nGabungan semua solusi adalah $-2 \\le x < -1 \\cup -1 \\le x < 2 \\cup 2 \\le x \\le 3$, yang disederhanakan menjadi $-2 \\le x \\le 3$. Solusi bulat: $\\mathbf{\\{-2, -1, 0, 1, 2, 3\\}}$."
   },
   {
     "id": 12,
