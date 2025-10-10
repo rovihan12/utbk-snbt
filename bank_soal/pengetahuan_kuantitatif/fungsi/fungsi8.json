@@ -10,18 +10,18 @@
   {
     "id": 2,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Diketahui matriks $\\mathbf{A} = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$ dan $\\mathbf{B} = \\begin{pmatrix} 1 & -1 \\\\ 0 & 2 \\end{pmatrix}$. Tentukan $\\mathbf{A} - 2\\mathbf{B}$.",
-    "pilihan": ["$\\begin{pmatrix} 0 & 3 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 1 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 3 \\\\ 4 & 1 \\end{pmatrix}$","$\\begin{pmatrix} 1 & 3 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 3 \\\\ 2 & 1 \\end{pmatrix}$"],
+    "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $\\sqrt{2x + 1} = x - 1$.",
+    "pilihan": ["$\{4\}$","$\{0, 4\}$","$\{-1, 4\}$","$\{0\}$","Tidak ada solusi"],
     "jawaban": "A",
-    "pembahasan": "$2\\mathbf{B} = \\begin{pmatrix} 2 & -2 \\\\ 0 & 4 \\end{pmatrix}$. Kemudian $\\mathbf{A} - 2\\mathbf{B} = \\begin{pmatrix} 2-2 & 1-(-2) \\\\ 4-0 & 3-4 \\end{pmatrix} = \\begin{pmatrix} 0 & 3 \\\\ 4 & -1 \\end{pmatrix}$."
+    "pembahasan": "Kuadratkan kedua sisi: $2x + 1 = (x - 1)^2 \\Rightarrow 2x + 1 = x^2 - 2x + 1 \\Rightarrow x^2 - 4x = 0 \\Rightarrow x(x - 4) = 0$. Solusi $x=0$ dan $x=4$. Syarat $\\sqrt{2x+1}$ terdefinisi: $x \\ge -1/2$. Syarat $x-1 \\ge 0$: $x \\ge 1$. Cek solusi: $x=0$: $\\sqrt{1}=0-1$ (salah). $x=4$: $\\sqrt{9}=4-1 \\Rightarrow 3=3$ (benar). Solusi adalah $\\mathbf{\\{4\\}}$."
   },
   {
     "id": 3,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Jika suku ke-3 barisan aritmatika adalah 11 dan suku ke-7 adalah 23, tentukan suku ke-10 barisan tersebut.",
-    "pilihan": ["29","32","35","38","41"],
+    "pertanyaan": "Jika $2^{x+2} + 2^x = 20$, tentukan nilai dari $x^2$.",
+    "pilihan": ["1","4","9","16","25"],
     "jawaban": "B",
-    "pembahasan": "$U_7 - U_3 = 4b \\Rightarrow 23 - 11 = 12$, jadi $4b = 12 \\Rightarrow b = 3$. $U_3 = a + 2b = 11 \\Rightarrow a + 2(3) = 11 \\Rightarrow a = 5$. $U_{10} = a + 9b = 5 + 9(3) = 32$."
+    "pembahasan": "Faktorkan persamaan: $2^{x+2} + 2^x = 2^x \\cdot 2^2 + 2^x = 2^x(4 + 1) = 5 \\cdot 2^x$. Jadi $5 \\cdot 2^x = 20 \\Rightarrow 2^x = 4$. Karena $4 = 2^2$, maka $x = 2$. Nilai dari $x^2 = 2^2 = \\mathbf{4}$."
   },
   {
     "id": 4,
@@ -82,10 +82,10 @@
   {
     "id": 11,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Tentukan nilai dari $\\int (3x^2 - 2x + 5) dx$.",
-    "pilihan": ["$6x - 2 + C$","$x^3 - x^2 + 5x + C$","$x^3 - x^2 + 5 + C$","$3x^3 - 2x^2 + 5x + C$","$6x^3 - 2x^2 + 5 + C$"],
-    "jawaban": "B",
-    "pembahasan": "Integralkan setiap suku: $\\int 3x^2 dx = x^3$; $\\int -2x dx = -x^2$; $\\int 5 dx = 5x$. Hasilnya: $\\mathbf{x^3 - x^2 + 5x + C}$."
+    "pertanyaan": "Tentukan semua solusi bulat untuk pertidaksamaan $|x - 2| + |x + 1| \\le 5$.",
+    "pilihan": ["$\\{-2, -1, 0, 1, 2, 3\\}$","$\\{-3, -2, -1, 0, 1, 2, 3\\}$","$\\{-1, 0, 1, 2, 3\\}$","$\\{-2, -1, 0, 1, 2\\}$","$\\{-3, -2, 3, 4\\}$"],
+    "jawaban": "A",
+    "pembahasan": "Ada 3 kasus. Kasus 2 ($-1 \\le x < 2$): $-(x-2) + (x+1) \\le 5 \\Rightarrow 3 \\le 5$. Ini selalu benar. Kasus 3 ($x \\ge 2$): $(x-2) + (x+1) \\le 5 \\Rightarrow 2x - 1 \\le 5 \\Rightarrow 2x \\le 6 \\Rightarrow x \\le 3$. Irisan $2 \\le x \\le 3$. Solusi total: $-2 \\le x \\le 3$. Solusi bulat: $\\mathbf{\\{-2, -1, 0, 1, 2, 3\\}}$."
   },
   {
     "id": 12,
@@ -122,10 +122,10 @@
   {
     "id": 16,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Tentukan nilai dari $\\log_2(12) + \\log_2(4) - \\log_2(6)$.",
-    "pilihan": ["2","3","4","5","6"],
+    "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $\\log_3(x^2 - 5x + 7) = 0$.",
+    "pilihan": ["$\{1, 4\}$","$\{2, 3\}$","$\{1, 5\}$","$\{2, 4\}$","$\{3, 4\}$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma: $\\log_2(\\frac{12 \\cdot 4}{6}) = \\log_2(\\frac{48}{6}) = \\log_2(8)$. Karena $8 = 2^3$, maka $\\log_2(8) = 3$."
+    "pembahasan": "Definisi logaritma: $\\log_a b = c \\Rightarrow b = a^c$. Maka $x^2 - 5x + 7 = 3^0 = 1$. $x^2 - 5x + 6 = 0$. Faktorkan: $(x - 2)(x - 3) = 0$. Solusi $x=2$ dan $x=3$. Syarat numerus $x^2 - 5x + 7 > 0$, yang selalu dipenuhi oleh kedua solusi ini. HP adalah $\\mathbf{\\{2, 3\\}}$."
   },
   {
     "id": 17,
@@ -146,17 +146,17 @@
   {
     "id": 19,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Jika $\\mathbf{A} = \\begin{pmatrix} 3 & 1 \\\\ -2 & 4 \\end{pmatrix}$, tentukan determinan dari $\\mathbf{A}$ ($|\\mathbf{A}|$).",
-    "pilihan": ["10","12","14","16","18"],
-    "jawaban": "C",
-    "pembahasan": "Determinan $|\\mathbf{A}| = ad - bc = (3)(4) - (1)(-2) = 12 - (-2) = 14$."
+    "pertanyaan": "Jika $f(x) = \\frac{2x - 1}{x + 3}$, tentukan fungsi inversnya $f^{-1}(x)$.",
+    "pilihan": ["$\\frac{3x + 1}{2 - x}$","$\\frac{-3x - 1}{x - 2}$","$\\frac{x + 3}{2x - 1}$","$\\frac{3x - 1}{x + 2}$","$\\frac{2x + 1}{3 - x}$"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus cepat invers: Jika $f(x) = \\frac{ax + b}{cx + d}$, maka $f^{-1}(x) = \\frac{-dx + b}{cx - a}$. Di sini $a=2, b=-1, c=1, d=3$. Maka $f^{-1}(x) = \\frac{-3x - 1}{1x - 2} = \\mathbf{\\frac{-3x - 1}{x - 2}}$."
   },
   {
     "id": 20,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Tentukan luas daerah yang dibatasi oleh kurva $y = x^2 - 4x$ dan sumbu $x$ ($y=0$).",
-    "pilihan": ["$8/3$ satuan luas","$16/3$ satuan luas","$32/3$ satuan luas","$4$ satuan luas","$10$ satuan luas"],
-    "jawaban": "C",
-    "pembahasan": "Batas integral dari $x^2 - 4x = 0$ adalah $x=0$ dan $x=4$. Luas $L = |\\int_{0}^{4} (x^2 - 4x) dx| = |[\\frac{1}{3}x^3 - 2x^2]_0^4|$. $L = |(\\frac{1}{3}(64) - 2(16)) - 0| = |\\frac{64}{3} - 32| = |\\frac{64 - 96}{3}| = |-\\frac{32}{3}| = \\mathbf{\\frac{32}{3}}$."
+    "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $\\frac{x^2 - 9}{x^2 - x - 2} < 0$.",
+    "pilihan": ["$-3 < x < -1$ atau $2 < x < 3$","$-2 < x < -1$ atau $3 < x < 4$","$-3 < x < -2$ atau $1 < x < 3$","$-2 < x < 1$ atau $3 < x < 4$","$-3 < x < -1$ atau $1 < x < 3$"],
+    "jawaban": "E",
+    "pembahasan": "Faktorkan: $\\frac{(x - 3)(x + 3)}{(x - 2)(x + 1)} < 0$. Pembuat nol: $-3, -1, 2, 3$. Uji titik pada garis bilangan. Karena tandanya '< 0' (negatif), kita ambil daerah negatif. Solusinya adalah $\\mathbf{-3 < x < -1}$ atau $\\mathbf{2 < x < 3}$."
   }
 ]
