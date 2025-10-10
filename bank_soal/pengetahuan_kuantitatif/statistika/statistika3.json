@@ -1,283 +1,162 @@
 [
   {
-    "id": 41,
+    "id": 1,
     "kategori": "Sedang",
-    "pertanyaan": "Data nilai ujian Matematika 5 siswa adalah 70, 85, 60, 90, 75. Tentukan nilai median dari data tersebut.",
-    "pilihan": [
-      "70",
-      "75",
-      "80",
-      "85",
-      "90"
-    ],
+    "pertanyaan": "Data nilai ujian Matematika 5 siswa: 70,85,60,90,75. Median data tersebut adalah...",
+    "pilihan": ["70", "75", "80", "85", "90"],
     "jawaban": "B",
-    "pembahasan": "Urutkan data dari terkecil ke terbesar: 60, 70, 75, 85, 90. Karena jumlah data ganjil (5 data), median adalah nilai tengah, yaitu data ke-$(5+1)/2 = 3$. Data ke-3 adalah 75."
+    "pembahasan": "Data urut: 60,70,75,85,90. Jumlah data ganjil, median = data ke-3 = 75"
   },
   {
-    "id": 42,
+    "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Sebuah kotak berisi 6 bola merah dan 4 bola biru. Jika diambil 2 bola secara acak dan dikembalikan satu per satu, peluang terambil bola merah pada pengambilan pertama dan bola biru pada pengambilan kedua adalah...",
-    "pilihan": [
-      "1/5",
-      "6/25",
-      "3/10",
-      "2/5",
-      "12/25"
-    ],
+    "pertanyaan": "Kotak: 6 bola merah, 4 bola biru. Diambil 2 bola dengan pengembalian. Peluang merah pertama dan biru kedua adalah...",
+    "pilihan": ["1/5", "6/25", "3/10", "2/5", "12/25"],
+    "jawaban": "B",
+    "pembahasan": "P(merah) = 6/10 = 3/5. P(biru) = 4/10 = 2/5. Dengan pengembalian: P = 3/5 × 2/5 = 6/25"
+  },
+  {
+    "id": 3,
+    "kategori": "Sedang",
+    "pertanyaan": "Rata-rata tinggi 8 siswa = 160 cm. Ditambah 2 siswa (165 cm dan 170 cm). Rata-rata baru adalah...",
+    "pilihan": ["161 cm", "161.5 cm", "162 cm", "163 cm", "164 cm"],
+    "jawaban": "B",
+    "pembahasan": "Total tinggi 8 siswa = 8×160 = 1280 cm. Total tinggi 2 siswa baru = 165+170 = 335 cm. Rata-rata 10 siswa = (1280+335)/10 = 1615/10 = 161.5 cm"
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Modus dari data: 5,6,7,8,6,9,6,7,5,6 adalah...",
+    "pilihan": ["5", "6", "7", "8", "9"],
+    "jawaban": "B",
+    "pembahasan": "Frekuensi: 5(2), 6(4), 7(2), 8(1), 9(1). Angka 6 muncul paling sering (4 kali)"
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Dua dadu dilempar. Peluang jumlah mata dadu = 7 adalah...",
+    "pilihan": ["1/12", "1/9", "1/6", "5/36", "7/36"],
+    "jawaban": "C",
+    "pembahasan": "Ruang sampel = 36. Kejadian jumlah 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Peluang = 6/36 = 1/6"
+  },
+  {
+    "id": 6,
+    "kategori": "Sedang",
+    "pertanyaan": "Dari 7 calon pengurus, dipilih ketua, sekretaris, bendahara. Banyak susunan adalah...",
+    "pilihan": ["35", "42", "210", "5040", "7!"],
+    "jawaban": "C",
+    "pembahasan": "Permutasi P(7,3) = 7×6×5 = 210"
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "IQR dari data: 10,12,15,18,20,22,25 adalah...",
+    "pilihan": ["5", "7", "8", "10", "12"],
     "jawaban": "D",
-    "pembahasan": "Total bola = 10. Peluang terambil bola merah pada pengambilan pertama = $6/10 = 3/5$. Karena dikembalikan, total bola tetap 10. Peluang terambil bola biru pada pengambilan kedua = $4/10 = 2/5$. Peluang keduanya terjadi = $(3/5) \\times (2/5) = 6/25$. (Ada kesalahan dalam pilihan jawaban, seharusnya 6/25. Mari kita koreksi pilihan jawaban agar sesuai.)\n\n**Koreksi Pilihan Jawaban menjadi:**\n'1/5', '6/25', '3/10', '2/5', '12/25'\n\n**Maka pembahasan:**\nTotal bola = 10. Peluang terambil bola merah pada pengambilan pertama = $6/10 = 3/5$. Karena dikembalikan, total bola tetap 10. Peluang terambil bola biru pada pengambilan kedua = $4/10 = 2/5$. Peluang keduanya terjadi = $(3/5) \\times (2/5) = 6/25$."
+    "pembahasan": "Q1 = median bagian bawah (10,12,15) = 12. Q3 = median bagian atas (20,22,25) = 22. IQR = Q3-Q1 = 22-12 = 10"
   },
   {
-    "id": 43,
+    "id": 8,
     "kategori": "Sedang",
-    "pertanyaan": "Rata-rata tinggi badan 8 siswa adalah 160 cm. Jika ditambahkan 2 siswa baru dengan tinggi masing-masing 165 cm dan 170 cm, rata-rata tinggi badan sekarang adalah...",
-    "pilihan": [
-      "161 cm",
-      "162 cm",
-      "163 cm",
-      "164 cm",
-      "165 cm"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Total tinggi 8 siswa = $8 \\times 160 = 1280$ cm. Tinggi 2 siswa baru = $165 + 170 = 335$ cm. Total tinggi 10 siswa = $1280 + 335 = 1615$ cm. Rata-rata tinggi 10 siswa = $1615/10 = 161.5$ cm. (Pilihan tidak ada yang 161.5. Ada kemungkinan typo di soal atau pilihan. Jika kita ambil opsi terdekat, 162 cm adalah yang paling dekat, atau soal seharusnya menghasilkan bulat.)\n\n**Koreksi Pilihan Jawaban menjadi:**\n'161 cm', '161.5 cm', '162 cm', '163 cm', '164 cm'\n\n**Maka pembahasan:**\nTotal tinggi 8 siswa = $8 \\times 160 = 1280$ cm. Tinggi 2 siswa baru = $165 + 170 = 335$ cm. Total tinggi 10 siswa = $1280 + 335 = 1615$ cm. Rata-rata tinggi 10 siswa = $1615/10 = 161.5$ cm."
-  },
-  {
-    "id": 44,
-    "kategori": "Sedang",
-    "pertanyaan": "Modus dari data nilai 5, 6, 7, 8, 6, 9, 6, 7, 5, 6 adalah...",
-    "pilihan": [
-      "5",
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Urutkan data: 5, 5, 6, 6, 6, 6, 7, 7, 8, 9. Angka 6 muncul 4 kali, lebih sering dari angka lainnya. Jadi, modusnya adalah 6."
-  },
-  {
-    "id": 45,
-    "kategori": "Sedang",
-    "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya jumlah mata dadu sama dengan 7 adalah...",
-    "pilihan": [
-      "1/12",
-      "1/9",
-      "1/6",
-      "5/36",
-      "7/36"
-    ],
+    "pertanyaan": "P(A lulus)=0.8, P(B lulus)=0.7. Jika saling bebas, P(keduanya lulus) adalah...",
+    "pilihan": ["0.1", "0.14", "0.56", "0.7", "0.8"],
     "jawaban": "C",
-    "pembahasan": "Ruang sampel = 36. Kejadian muncul jumlah 7 adalah (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Ada 6 kejadian. Peluangnya adalah $6/36 = 1/6$."
+    "pembahasan": "Kejadian saling bebas: P(A∩B) = P(A)×P(B) = 0.8×0.7 = 0.56"
   },
   {
-    "id": 46,
+    "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Dari 7 orang calon pengurus, akan dipilih ketua, sekretaris, dan bendahara. Banyaknya susunan pengurus yang mungkin adalah...",
-    "pilihan": [
-      "35",
-      "42",
-      "210",
-      "5040",
-      "7!"
-    ],
+    "pertanyaan": "Dari 12 orang dipilih 3 perwakilan. Banyak cara pemilihan adalah...",
+    "pilihan": ["36", "66", "220", "1320", "1728"],
     "jawaban": "C",
-    "pembahasan": "Ini adalah permutasi karena posisi berbeda (ketua, sekretaris, bendahara). $P(7, 3) = \\frac{7!}{(7-3)!} = \\frac{7!}{4!} = 7 \\times 6 \\times 5 = 210$."
+    "pembahasan": "Kombinasi C(12,3) = (12×11×10)/(3×2×1) = 220"
   },
   {
-    "id": 47,
+    "id": 10,
     "kategori": "Sedang",
-    "pertanyaan": "Jangkauan antarkuartil (IQR) dari data 10, 12, 15, 18, 20, 22, 25 adalah...",
-    "pilihan": [
-      "5",
-      "7",
-      "8",
-      "10",
-      "12"
-    ],
+    "pertanyaan": "Koin dilempar 4 kali. Peluang tepat 3 sisi angka adalah...",
+    "pilihan": ["1/16", "1/8", "3/16", "1/4", "3/8"],
     "jawaban": "D",
-    "pembahasan": "Data sudah terurut. Median (Q2) = 18. \nQ1 adalah median dari bagian bawah data (10, 12, 15), yaitu 12. \nQ3 adalah median dari bagian atas data (20, 22, 25), yaitu 22. \nJangkauan Antarkuartil (IQR) = Q3 - Q1 = $22 - 12 = 10$."
+    "pembahasan": "Ruang sampel = 16. Kejadian 3 angka: AAAG,AAGA,AGAA,GAAA = 4. Peluang = 4/16 = 1/4"
   },
   {
-    "id": 48,
-    "kategori": "Sedang",
-    "pertanyaan": "Peluang A lulus ujian adalah 0.8 dan peluang B lulus ujian adalah 0.7. Jika kejadian A dan B saling bebas, peluang keduanya lulus ujian adalah...",
-    "pilihan": [
-      "0.1",
-      "0.14",
-      "0.56",
-      "0.7",
-      "0.8"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Untuk kejadian saling bebas, $P(A \\cap B) = P(A) \\times P(B) = 0.8 \\times 0.7 = 0.56$."
-  },
-  {
-    "id": 49,
-    "kategori": "Sedang",
-    "pertanyaan": "Dalam sebuah kelompok terdapat 12 orang. Jika akan dipilih 3 orang untuk mewakili kelompok dalam suatu acara, banyaknya cara pemilihan yang mungkin adalah...",
-    "pilihan": [
-      "36",
-      "66",
-      "220",
-      "1320",
-      "1728"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah kombinasi karena urutan pemilihan tidak penting. $C(12, 3) = \\frac{12!}{3!(12-3)!} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = 2 \\times 11 \\times 10 = 220$."
-  },
-  {
-    "id": 50,
-    "kategori": "Sedang",
-    "pertanyaan": "Sebuah koin dilempar 4 kali. Peluang muncul tepat 3 sisi angka adalah...",
-    "pilihan": [
-      "1/16",
-      "1/8",
-      "3/16",
-      "1/4",
-      "3/8"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Total ruang sampel = $2^4 = 16$. Kejadian muncul tepat 3 sisi angka (dan 1 gambar) adalah: AAAG, AAGA, AGAA, GAAA. Ada 4 kejadian. Peluangnya adalah $4/16 = 1/4$."
-  },
-  {
-    "id": 51,
+    "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah survei, 70% siswa menyukai olahraga, 50% menyukai seni, dan $x$% menyukai keduanya. Jika 10% siswa tidak menyukai keduanya, maka nilai $x$ adalah...",
-    "pilihan": [
-      "10%",
-      "20%",
-      "30%",
-      "40%",
-      "50%"
-    ],
+    "pertanyaan": "Survei: 70% suka olahraga, 50% suka seni, 10% tidak suka keduanya. Persentase suka keduanya adalah...",
+    "pilihan": ["10%", "20%", "30%", "40%", "50%"],
     "jawaban": "C",
-    "pembahasan": "Misalkan O = menyukai olahraga, S = menyukai seni. \nPeluang tidak menyukai keduanya = 0.10. Maka peluang menyukai setidaknya satu = $1 - 0.10 = 0.90$. \nKita tahu $P(O \\cup S) = P(O) + P(S) - P(O \\cap S)$.\n$0.90 = 0.70 + 0.50 - P(O \\cap S)$.\n$0.90 = 1.20 - P(O \\cap S)$.\n$P(O \\cap S) = 1.20 - 0.90 = 0.30$. Jadi, $x = 30$."
+    "pembahasan": "P(O∪S) = 1-0.1=0.9. P(O∩S) = P(O)+P(S)-P(O∪S) = 0.7+0.5-0.9 = 0.3 = 30%"
   },
   {
-    "id": 52,
+    "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah tim voli terdiri dari 6 pemain. Jika dari 10 pemain yang tersedia akan dibentuk tim voli, banyaknya tim berbeda yang dapat dibentuk adalah...",
-    "pilihan": [
-      "120",
-      "210",
-      "420",
-      "5040",
-      "720"
-    ],
+    "pertanyaan": "Dari 10 pemain dibentuk tim voli 6 orang. Banyak tim berbeda adalah...",
+    "pilihan": ["120", "210", "420", "5040", "720"],
     "jawaban": "B",
-    "pembahasan": "Ini adalah kombinasi karena urutan pemain dalam tim tidak penting. $C(10, 6) = \\frac{10!}{6!(10-6)!} = \\frac{10!}{6!4!} = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 10 \\times 3 \\times 7 = 210$."
+    "pembahasan": "Kombinasi C(10,6) = C(10,4) = (10×9×8×7)/(4×3×2×1) = 210"
   },
   {
-    "id": 53,
+    "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Variansi dari data 1, 2, 3, 4, 5 adalah...",
-    "pilihan": [
-      "1",
-      "1.5",
-      "2",
-      "2.5",
-      "3"
-    ],
+    "pertanyaan": "Variansi data: 1,2,3,4,5 adalah...",
+    "pilihan": ["1", "1.5", "2", "2.5", "3"],
     "jawaban": "C",
-    "pembahasan": "Rata-rata: $\\bar{x} = \\frac{1+2+3+4+5}{5} = \\frac{15}{5} = 3$. \nVariansi: $S^2 = \\frac{(1-3)^2 + (2-3)^2 + (3-3)^2 + (4-3)^2 + (5-3)^2}{5} = \\frac{(-2)^2 + (-1)^2 + 0^2 + 1^2 + 2^2}{5} = \\frac{4+1+0+1+4}{5} = \\frac{10}{5} = 2$."
+    "pembahasan": "Rata-rata = 3. Variansi = [(1-3)²+(2-3)²+(3-3)²+(4-3)²+(5-3)²]/5 = (4+1+0+1+4)/5 = 10/5 = 2"
   },
   {
-    "id": 54,
+    "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kantong berisi 5 kelereng merah dan 3 kelereng biru. Jika diambil 2 kelereng secara acak tanpa pengembalian, peluang terambil kedua kelereng berwarna sama adalah...",
-    "pilihan": [
-      "1/7",
-      "3/14",
-      "5/14",
-      "13/28",
-      "1/2"
-    ],
+    "pertanyaan": "Kantong: 5 merah, 3 biru. Diambil 2 tanpa pengembalian. Peluang kedua warna sama adalah...",
+    "pilihan": ["1/7", "3/14", "5/14", "13/28", "1/2"],
     "jawaban": "D",
-    "pembahasan": "Total kelereng = 8. Banyak cara mengambil 2 kelereng dari 8 adalah $C(8, 2) = \\frac{8 \\times 7}{2} = 28$. \nCara terambil 2 merah: $C(5, 2) = \\frac{5 \\times 4}{2} = 10$. \nCara terambil 2 biru: $C(3, 2) = \\frac{3 \\times 2}{2} = 3$. \nTotal cara terambil warna sama = $10 + 3 = 13$. \nPeluang = $13/28$."
+    "pembahasan": "Total cara = C(8,2)=28. 2 merah: C(5,2)=10. 2 biru: C(3,2)=3. Total sama = 13. Peluang = 13/28"
   },
   {
-    "id": 55,
+    "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam suatu kelas, peluang seorang siswa lulus Matematika adalah 0.7. Peluang lulus Fisika adalah 0.6. Peluang lulus Matematika tetapi tidak lulus Fisika adalah 0.3. Peluang siswa tidak lulus kedua mata pelajaran tersebut adalah...",
-    "pilihan": [
-      "0.1",
-      "0.2",
-      "0.3",
-      "0.4",
-      "0.5"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Misalkan M = lulus Matematika, F = lulus Fisika. $P(M) = 0.7$, $P(F) = 0.6$. \nPeluang lulus Matematika tetapi tidak lulus Fisika ($P(M \\cap F^c)$) = $P(M) - P(M \\cap F) = 0.3$. \n$0.7 - P(M \\cap F) = 0.3 \\implies P(M \\cap F) = 0.4$. \nPeluang lulus setidaknya satu mata pelajaran ($P(M \\cup F)$) = $P(M) + P(F) - P(M \\cap F) = 0.7 + 0.6 - 0.4 = 0.9$. \nPeluang tidak lulus keduanya = $1 - P(M \\cup F) = 1 - 0.9 = 0.1$. (Ada kesalahan dalam pilihan jawaban, seharusnya 0.1. Mari kita koreksi pilihan jawaban agar sesuai.)\n\n**Koreksi Pilihan Jawaban menjadi:**\n'0.1', '0.2', '0.3', '0.4', '0.5'\n\n**Maka pembahasan:**\nMisalkan M = lulus Matematika, F = lulus Fisika. $P(M) = 0.7$, $P(F) = 0.6$. \nPeluang lulus Matematika tetapi tidak lulus Fisika ($P(M \\cap F^c)$) = $P(M) - P(M \\cap F) = 0.3$. \n$0.7 - P(M \\cap F) = 0.3 \\implies P(M \\cap F) = 0.4$. \nPeluang lulus setidaknya satu mata pelajaran ($P(M \\cup F)$) = $P(M) + P(F) - P(M \\cap F) = 0.7 + 0.6 - 0.4 = 0.9$. \nPeluang tidak lulus keduanya = $1 - P(M \\cup F) = 1 - 0.9 = 0.1$."
-  },
-  {
-    "id": 56,
-    "kategori": "Sulit",
-    "pertanyaan": "Sebuah kelas terdiri dari 15 siswa laki-laki dan 10 siswa perempuan. Jika akan dipilih 5 siswa untuk menjadi perwakilan lomba, dan diwajibkan setidaknya ada 2 siswa perempuan, banyaknya cara pemilihan yang mungkin adalah...",
-    "pilihan": [
-      "2900",
-      "3003",
-      "3125",
-      "3250",
-      "3450"
-    ],
+    "pertanyaan": "P(lulus Matematika)=0.7, P(lulus Fisika)=0.6, P(lulus Matematika saja)=0.3. P(tidak lulus keduanya) adalah...",
+    "pilihan": ["0.1", "0.2", "0.3", "0.4", "0.5"],
     "jawaban": "A",
-    "pembahasan": "Total siswa = 25. Total cara memilih 5 siswa dari 25 adalah $C(25, 5) = \\frac{25 \\times 24 \\times 23 \\times 22 \\times 21}{5 \\times 4 \\times 3 \\times 2 \\times 1} = 53130$. \nSetidaknya 2 perempuan berarti:\n- 2 perempuan, 3 laki-laki: $C(10, 2) \\times C(15, 3) = 45 \\times \\frac{15 \\times 14 \\times 13}{3 \\times 2 \\times 1} = 45 \\times 455 = 20475$.\n- 3 perempuan, 2 laki-laki: $C(10, 3) \\times C(15, 2) = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} \\times \\frac{15 \\times 14}{2 \\times 1} = 120 \\times 105 = 12600$.\n- 4 perempuan, 1 laki-laki: $C(10, 4) \\times C(15, 1) = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} \\times 15 = 210 \\times 15 = 3150$.\n- 5 perempuan, 0 laki-laki: $C(10, 5) \\times C(15, 0) = \\frac{10 \\times 9 \\times 8 \\times 7 \\times 6}{5 \\times 4 \\times 3 \\times 2 \\times 1} \\times 1 = 252 \\times 1 = 252$.\nTotal cara = $20475 + 12600 + 3150 + 252 = 36477$. \n\nAda kesalahan perhitungan atau pilihan jawaban. Mari kita hitung ulang. \nTotal cara memilih 5 siswa dari 25 adalah $C(25, 5) = 53130$. \nCara memilih tanpa syarat (semua laki-laki) $C(15,5) = \\frac{15 \\times 14 \\times 13 \\times 12 \\times 11}{5 \\times 4 \\times 3 \\times 2 \\times 1} = 3 \\times 7 \\times 13 \\times 11 = 3003$. \nCara memilih 1 perempuan dan 4 laki-laki = $C(10,1) \\times C(15,4) = 10 \\times \\frac{15 \\times 14 \\times 13 \\times 12}{4 \\times 3 \\times 2 \\times 1} = 10 \\times 1365 = 13650$. \nTotal cara setidaknya 2 perempuan = $53130 - (3003 + 13650) = 53130 - 16653 = 36477$. \n\nIni soal yang agak berat untuk UTBK SNBT jika perhitungannya sebesar ini. Mari kita coba soal dengan angka yang lebih kecil agar jawabannya sesuai.\n\n**Revisi Soal ID 56:**\nSebuah kelas terdiri dari 6 siswa laki-laki dan 4 siswa perempuan. Jika akan dipilih 3 siswa untuk menjadi perwakilan lomba, dan diwajibkan setidaknya ada 1 siswa perempuan, banyaknya cara pemilihan yang mungkin adalah...\nPilihan: [20, 24, 60, 84, 96]\nJawaban: (akan dihitung)\n\nTotal siswa = 10. Total cara memilih 3 siswa dari 10 adalah $C(10,3) = 120$. \nCara memilih tanpa perempuan (semua laki-laki) = $C(6,3) = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$. \nBanyaknya cara dengan setidaknya 1 perempuan = $120 - 20 = 100$. \nTidak ada di pilihan. \n\nKembali ke soal asli, mungkin ada cara lain atau pilihan A adalah 2900. \nSaya akan mempertahankan soal asli dan mengoreksi pilihan jawaban agar sesuai dengan perhitungan.\n\n**Koreksi Pilihan Jawaban menjadi:**\n'36477', '36500', '37000', '37500', '38000'\n\n**Maka pembahasan:**\nTotal siswa = 25 (15 L + 10 P). Akan dipilih 5 siswa, setidaknya 2 perempuan.\nKemungkinan: (2P, 3L), (3P, 2L), (4P, 1L), (5P, 0L)\n1. C(10,2) x C(15,3) = (45) x (455) = 20475\n2. C(10,3) x C(15,2) = (120) x (105) = 12600\n3. C(10,4) x C(15,1) = (210) x (15) = 3150\n4. C(10,5) x C(15,0) = (252) x (1) = 252\nTotal = 20475 + 12600 + 3150 + 252 = 36477."
+    "pembahasan": "P(M∩F) = P(M)-P(M saja)=0.7-0.3=0.4. P(M∪F)=0.7+0.6-0.4=0.9. P(tidak keduanya)=1-0.9=0.1"
   },
   {
-    "id": 57,
+    "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah dadu bersisi 6 dilempar 5 kali. Peluang munculnya mata dadu 3 sebanyak 2 kali adalah...",
-    "pilihan": [
-      "250/7776",
-      "500/7776",
-      "750/7776",
-      "1250/7776",
-      "2500/7776"
-    ],
+    "pertanyaan": "Kelas: 6 laki-laki, 4 perempuan. Dipilih 3 siswa dengan minimal 1 perempuan. Banyak cara adalah...",
+    "pilihan": ["20", "24", "60", "84", "100"],
+    "jawaban": "E",
+    "pembahasan": "Total cara = C(10,3)=120. Tanpa perempuan = C(6,3)=20. Minimal 1 perempuan = 120-20=100"
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Dadu dilempar 5 kali. Peluang muncul mata 3 sebanyak 2 kali adalah...",
+    "pilihan": ["250/7776", "500/7776", "750/7776", "1250/7776", "2500/7776"],
     "jawaban": "D",
-    "pembahasan": "Ini adalah distribusi binomial. $n=5$ (jumlah percobaan), $k=2$ (jumlah sukses), $p = 1/6$ (peluang sukses, muncul mata dadu 3), $q = 5/6$ (peluang gagal). \n$P(X=k) = C(n, k) \\times p^k \\times q^{(n-k)}$.\n$P(X=2) = C(5, 2) \\times (1/6)^2 \\times (5/6)^{(5-2)}$\n$C(5, 2) = \\frac{5!}{2!3!} = 10$.\n$P(X=2) = 10 \\times (1/36) \\times (125/216) = 10 \\times \\frac{125}{7776} = \\frac{1250}{7776}$."
+    "pembahasan": "Distribusi binomial: P(X=2)=C(5,2)×(1/6)²×(5/6)³=10×(1/36)×(125/216)=1250/7776"
   },
   {
-    "id": 58,
+    "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan data 10, 15, $x$, 20, 25. Jika rata-rata data tersebut adalah 18, maka simpangan baku data adalah...",
-    "pilihan": [
-      "$\\sqrt{10}$",
-      "$\\sqrt{12}$",
-      "$\\sqrt{14}$",
-      "$\\sqrt{16}$",
-      "$\\sqrt{18}$"
-    ],
+    "pertanyaan": "Data: 10,15,x,20,25. Rata-rata=18. Simpangan baku data adalah...",
+    "pilihan": ["√26", "√28", "√30", "√32", "√34"],
     "jawaban": "A",
-    "pembahasan": "Rata-rata: $\\frac{10+15+x+20+25}{5} = 18$. \n$\\frac{70+x}{5} = 18 \\implies 70+x = 90 \\implies x = 20$. \nData sekarang adalah 10, 15, 20, 20, 25. Rata-rata ($\\bar{x}$) = 18. \nVariansi ($S^2$) = $\\frac{(10-18)^2 + (15-18)^2 + (20-18)^2 + (20-18)^2 + (25-18)^2}{5}$ \n$S^2 = \\frac{(-8)^2 + (-3)^2 + 2^2 + 2^2 + 7^2}{5} = \\frac{64 + 9 + 4 + 4 + 49}{5} = \\frac{130}{5} = 26$. \nSimpangan baku = $\\sqrt{26}$. (Tidak ada di pilihan. Ada kemungkinan typo di soal atau pilihan. Mari kita cek ulang perhitungan atau sesuaikan soal agar sesuai.)\n\n**Revisi Soal ID 58 agar jawaban A cocok:**\nDiberikan data 8, 10, $x$, 12, 15. Jika rata-rata data tersebut adalah 11, maka simpangan baku data adalah...\n**Pembahasan Revisi:**\nRata-rata: $\\frac{8+10+x+12+15}{5} = 11 \\implies \\frac{45+x}{5} = 11 \\implies 45+x = 55 \\implies x = 10$. \nData: 8, 10, 10, 12, 15. Rata-rata = 11. \nVariansi ($S^2$) = $\\frac{(8-11)^2 + (10-11)^2 + (10-11)^2 + (12-11)^2 + (15-11)^2}{5}$ \n$S^2 = \\frac{(-3)^2 + (-1)^2 + (-1)^2 + 1^2 + 4^2}{5} = \\frac{9 + 1 + 1 + 1 + 16}{5} = \\frac{28}{5} = 5.6$. Simpangan baku = $\\sqrt{5.6}$. Masih tidak cocok.\n\nMari kita kembali ke soal asli dan akan mengoreksi pilihan jawaban agar sesuai dengan perhitungan.\n\n**Koreksi Pilihan Jawaban menjadi:**\n'$\\sqrt{26}$', '$\\sqrt{28}$', '$\\sqrt{30}$', '$\\sqrt{32}$', '$\\sqrt{34}$'\n\n**Maka pembahasan:**\nRata-rata: $\\frac{10+15+x+20+25}{5} = 18$. \n$\\frac{70+x}{5} = 18 \\implies 70+x = 90 \\implies x = 20$. \nData sekarang adalah 10, 15, 20, 20, 25. Rata-rata ($\\bar{x}$) = 18. \nVariansi ($S^2$) = $\\frac{(10-18)^2 + (15-18)^2 + (20-18)^2 + (20-18)^2 + (25-18)^2}{5}$ \n$S^2 = \\frac{(-8)^2 + (-3)^2 + 2^2 + 2^2 + 7^2}{5} = \\frac{64 + 9 + 4 + 4 + 49}{5} = \\frac{130}{5} = 26$. \nSimpangan baku = $\\sqrt{26}$."
+    "pembahasan": "(10+15+x+20+25)/5=18 → 70+x=90 → x=20. Data:10,15,20,20,25. Rata-rata=18. Variansi=[(10-18)²+(15-18)²+(20-18)²+(20-18)²+(25-18)²]/5=(64+9+4+4+49)/5=130/5=26. Simpangan baku=√26"
   },
   {
-    "id": 59,
+    "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kotak berisi 8 bola merah dan 2 bola putih. Diambil 2 bola secara acak satu per satu tanpa pengembalian. Peluang terambilnya bola pertama merah dan bola kedua putih adalah...",
-    "pilihan": [
-      "1/45",
-      "4/45",
-      "8/45",
-      "1/5",
-      "4/5"
-    ],
+    "pertanyaan": "Kotak: 8 merah, 2 putih. Diambil 2 tanpa pengembalian. Peluang merah pertama dan putih kedua adalah...",
+    "pilihan": ["1/45", "4/45", "8/45", "1/5", "4/5"],
     "jawaban": "C",
-    "pembahasan": "Total bola = 10. \nPeluang terambil bola merah pada pengambilan pertama = $8/10 = 4/5$. \nSetelah bola merah diambil (tanpa pengembalian), sisa bola = 9 (7 merah, 2 putih). \nPeluang terambil bola putih pada pengambilan kedua = $2/9$. \nPeluang kedua kejadian tersebut = $(4/5) \\times (2/9) = 8/45$."
+    "pembahasan": "P(merah pertama)=8/10=4/5. P(putih kedua|merah pertama)=2/9. Peluang=4/5×2/9=8/45"
   },
   {
-    "id": 60,
+    "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata 5 bilangan adalah 12. Jika satu bilangan baru ditambahkan, rata-rata menjadi 13. Bilangan baru tersebut adalah...",
-    "pilihan": [
-      "13",
-      "15",
-      "18",
-      "20",
-      "25"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Jumlah 5 bilangan awal = $5 \\times 12 = 60$. \nSetelah satu bilangan baru ditambahkan, jumlah bilangan menjadi 6. Rata-rata baru = 13. \nJumlah 6 bilangan = $6 \\times 13 = 78$. \nBilangan baru = $78 - 60 = 18$. (Ada kesalahan dalam pilihan jawaban, seharusnya 18. Mari kita koreksi pilihan jawaban agar sesuai.)\n\n**Koreksi Pilihan Jawaban menjadi:**\n'13', '15', '18', '20', '25'\n\n**Maka pembahasan:**\nJumlah 5 bilangan awal = $5 \\times 12 = 60$. \nSetelah satu bilangan baru ditambahkan, jumlah bilangan menjadi 6. Rata-rata baru = 13. \nJumlah 6 bilangan = $6 \\times 13 = 78$. \nBilangan baru = $78 - 60 = 18$."
+    "pertanyaan": "Rata-rata 5 bilangan=12. Ditambah 1 bilangan, rata-rata=13. Bilangan baru adalah...",
+    "pilihan": ["13", "15", "18", "20", "25"],
+    "jawaban": "C",
+    "pembahasan": "Jumlah 5 bilangan=5×12=60. Jumlah 6 bilangan=6×13=78. Bilangan baru=78-60=18"
   }
 ]
-
