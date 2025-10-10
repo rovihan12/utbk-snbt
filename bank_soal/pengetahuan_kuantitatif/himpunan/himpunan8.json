@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Berapa banyak himpunan bagian dari \\(\\{1,2,\\dots,10\\}\\) yang tidak mengandung dua bilangan berurutan?",
-    "pilihan": ["89", "144", "233", "377", "512"],
-    "jawaban": "B",
-    "pembahasan": "Jumlah himpunan bagian tanpa dua elemen berurutan sama dengan banyaknya string biner panjang 10 tanpa dua 1 berurutan. Jika \\(a_n\\) banyak solusi untuk panjang \\(n\\), maka \\(a_n = a_{n-1} + a_{n-2}\\) dengan \\(a_1=2, a_2=3\\). Jadi \\(a_{10}=F_{12}=144\\) (Fibonacci ke-12)."
+    "pertanyaan": "Berapa banyak himpunan bagian dari \\(\\{a, b, c, d\\}\\)?",
+    "pilihan": ["4", "8", "12", "16", "32"],
+    "jawaban": "D",
+    "pembahasan": "Banyaknya himpunan bagian dari himpunan dengan \\(n\\) anggota adalah \\(2^n\\). Untuk himpunan dengan 4 anggota, banyak himpunan bagian adalah \\(2^4 = 16\\)."
   },
   {
     "id": 2,
@@ -25,118 +25,118 @@
     "pertanyaan": "Jika \\(U=\\{1,2,3,4,5,6,7,8,9,10\\}\\) dan \\(A=\\{1,3,5,7,9\\}\\), maka komplemen \\(A^c\\) terhadap \\(U\\) adalah...",
     "pilihan": ["\\{2,4,6,8,10\\}", "\\{1,3,5,7,9\\}", "\\{1,2,3,4,5,6,7,8,9,10\\}", "\\{\\}", "\\{2,4,6\\}"],
     "jawaban": "A",
-    "pembahasan": "Komplemen A adalah semua elemen dalam U yang tidak ada di A, yaitu \\{2,4,6,8,10\\}."
+    "pembahasan": "Komplemen A adalah semua elemen dalam U yang tidak ada di A, yaitu \\(A^c = \\{2,4,6,8,10\\}\\)."
   },
   {
     "id": 5,
     "pertanyaan": "Jika \\(A=\\{2,4,6,8\\}\\) dan \\(B=\\{1,2,3,4\\}\\), maka \\(A\\setminus B\\) adalah...",
     "pilihan": ["\\{2,4\\}", "\\{6,8\\}", "\\{1,3\\}", "\\{1,2,3,4,6,8\\}", "\\{2,4,6,8\\}"],
     "jawaban": "B",
-    "pembahasan": "Selisih himpunan A\\B berisi anggota A yang tidak ada di B, yaitu \\{6,8\\}."
+    "pembahasan": "Selisih himpunan \\(A\\setminus B\\) berisi anggota A yang tidak ada di B. \\(A\\setminus B = \\{6,8\\}\\)."
   },
   {
     "id": 6,
     "pertanyaan": "Jika \\(P=\\{1,2,3,4\\}\\) dan \\(Q=\\{3,4,5,6\\}\\), maka banyak anggota \\((P\\cup Q)\\setminus (P\\cap Q)\\) adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "P∪Q={1,2,3,4,5,6}, P∩Q={3,4}, selisih = {1,2,5,6} → 4 anggota."
+    "pembahasan": "\\(P\\cup Q=\\{1,2,3,4,5,6\\}\\), \\(P\\cap Q=\\{3,4\\}\\), selisihnya adalah \\(P\\Delta Q = \\{1,2,5,6\\}\\) (selisih simetris). Banyak anggotanya adalah 4."
   },
   {
     "id": 7,
     "pertanyaan": "Jika \\(a\\oplus b = 3a - 2b\\), maka \\((4\\oplus1)\\oplus2\\) adalah...",
     "pilihan": ["26", "5", "8", "10", "12"],
     "jawaban": "A",
-    "pembahasan": "4⊕1=3*4-2*1=10, 10⊕2=3*10-2*2=30-4=26."
+    "pembahasan": "Operasi dilakukan bertahap: \\(4\\oplus1 = 3(4) - 2(1) = 12-2=10\\). Kemudian, \\(10\\oplus2 = 3(10) - 2(2) = 30-4=26\\)."
   },
   {
     "id": 8,
-    "pertanyaan": "Suku ke-7 dari barisan geometri bilangan bulat \\(3,6,12,...\\) adalah...",
-    "pilihan": ["96","128","192","384","768"],
-    "jawaban": "C",
-    "pembahasan": "Rasio r=6/3=2, suku ke-7 a_7=3*2^6=192."
+    "pertanyaan": "Nilai dari \\(15 - (5 + 2 \\times 3)\\) adalah...",
+    "pilihan": ["2", "4", "5", "10", "14"],
+    "jawaban": "B",
+    "pembahasan": "Ikuti urutan operasi: \\(15 - (5 + 2 \\times 3) = 15 - (5 + 6) = 15 - 11 = 4\\)."
   },
   {
     "id": 9,
-    "pertanyaan": "Banyak bilangan bulat positif kurang dari 1000 yang habis dibagi 7 adalah...",
-    "pilihan": ["142","143","144","150","160"],
-    "jawaban": "A",
-    "pembahasan": "Jumlah bilangan=⌊1000/7⌋=142."
+    "pertanyaan": "Jika \\(A\\) adalah himpunan bilangan prima kurang dari 10, maka \\(A\\) adalah...",
+    "pilihan": ["\\{1,2,3,5,7,9\\}", "\\{2,3,5,7\\}", "\\{1,3,5,7,9\\}", "\\{2,4,6,8\\}", "\\{2,3,5,7,9\\}"],
+    "jawaban": "B",
+    "pembahasan": "Bilangan prima kurang dari 10 adalah 2, 3, 5, dan 7. Jadi \\(A=\\{2,3,5,7\\}\\)."
   },
   {
     "id": 10,
-    "pertanyaan": "Nilai dari \\(\\sum_{k=1}^{10} k\\) adalah...",
-    "pilihan": ["45","50","55","60","65"],
-    "jawaban": "C",
-    "pembahasan": "Jumlah 10 bilangan pertama = n(n+1)/2 = 10*11/2=55."
+    "pertanyaan": "Hasil dari \\(12 \\div 4 + 6 \\times 2 - 1\\) adalah...",
+    "pilihan": ["14", "18", "15", "11", "13"],
+    "jawaban": "A",
+    "pembahasan": "Ikuti urutan operasi (kali/bagi dulu): \\(12 \\div 4 + 6 \\times 2 - 1 = 3 + 12 - 1 = 15 - 1 = 14\\)."
   },
   {
     "id": 11,
     "pertanyaan": "Jika \\(A=\\{1,3,5,7,9\\}\\) dan \\(B=\\{2,4,6,8,10\\}\\), maka \\(A\\cap B\\) adalah...",
     "pilihan": ["\\{\\}","\\{1,2\\}","\\{5\\}","\\{2,4,6\\}","\\{1,3,5\\}"],
     "jawaban": "A",
-    "pembahasan": "Irisan himpunan ganjil dan genap kosong → \\(A\\cap B=\\{\\}\\)."
+    "pembahasan": "Himpunan A adalah bilangan ganjil, dan B adalah bilangan genap. Irisan himpunan ganjil dan genap adalah himpunan kosong \\(\\to A\\cap B=\\{\\}\\)."
   },
   {
     "id": 12,
     "pertanyaan": "Jika \\(A=\\{1,2,3,4,5\\}\\) dan \\(B=\\{4,5,6,7\\}\\), maka \\(A\\setminus B\\) adalah...",
     "pilihan": ["\\{1,2,3\\}","\\{4,5\\}","\\{6,7\\}","\\{1,2,3,4,5\\}","\\{1,2\\}"],
     "jawaban": "A",
-    "pembahasan": "A\\B berisi anggota A yang tidak ada di B = \\{1,2,3\\}."
+    "pembahasan": "\\(A\\setminus B\\) berisi anggota A yang tidak ada di B = \\{1,2,3\\}."
   },
   {
     "id": 13,
-    "pertanyaan": "Jika \\(P=\\{1,2,3\\}\\) dan \\(Q=\\{3,4,5\\}\\), maka \\(P\\cup Q\\setminus P\\cap Q\\) adalah...",
+    "pertanyaan": "Jika \\(P=\\{1,2,3\\}\\) dan \\(Q=\\{3,4,5\\}\\), maka \\((P\\cup Q)\\setminus (P\\cap Q)\\) adalah...",
     "pilihan": ["\\{1,2,3\\}","\\{4,5\\}","\\{1,2,4,5\\}","\\{3\\}","\\{1,2,3,4,5\\}"],
     "jawaban": "C",
-    "pembahasan": "P∪Q={1,2,3,4,5}, P∩Q={3}, selisih = {1,2,4,5}."
+    "pembahasan": "\\(P\\cup Q=\\{1,2,3,4,5\\}\\), \\(P\\cap Q=\\{3\\}\\), selisihnya adalah \\(P\\Delta Q = \\{1,2,4,5\\}\\)."
   },
   {
     "id": 14,
     "pertanyaan": "Jika \\(a\\oplus b = a+b+ab\\), maka \\((1\\oplus2)\\oplus3\\) adalah...",
     "pilihan": ["23","12","13","14","15"],
     "jawaban": "A",
-    "pembahasan": "1⊕2 = 1+2+1*2=5, 5⊕3 = 5+3+5*3=23."
+    "pembahasan": "\\(1\\oplus2 = 1+2+1\\cdot2=5\\). Kemudian, \\(5\\oplus3 = 5+3+5\\cdot3 = 8+15=23\\)."
   },
   {
     "id": 15,
-    "pertanyaan": "Jika \\(S=\\{1,2,3,4,5,6\\}\\), berapa banyak himpunan bagian dari S yang mengandung tepat 3 elemen?",
-    "pilihan": ["10","15","20","30","25"],
+    "pertanyaan": "Banyaknya bilangan bulat antara 1 dan 50 (termasuk keduanya) yang habis dibagi 3 *dan* 5 adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Banyak himpunan bagian ukuran 3 = C(6,3)=6*5*4/3*2*1=20."
+    "pembahasan": "Habis dibagi 3 dan 5 berarti habis dibagi KPK(3,5)=15. Bilangan tersebut adalah 15, 30, dan 45. Ada 3 bilangan."
   },
   {
     "id": 16,
     "pertanyaan": "Jika \\(A=\\{2,4,6,8\\}\\) dan \\(B=\\{4,8,12,16\\}\\), maka \\(A\\cap B\\) adalah...",
     "pilihan": ["\\{2,4,6,8\\}","\\{4,8\\}","\\{12,16\\}","\\{2,6\\}","\\{\\}"],
     "jawaban": "B",
-    "pembahasan": "Irisan A∩B = {4,8}."
+    "pembahasan": "Irisan \\(A\\cap B\\) adalah anggota yang sama di kedua himpunan, yaitu \\{4,8\\}."
   },
   {
     "id": 17,
     "pertanyaan": "Jika \\(A=\\{1,2,3\\}, B=\\{2,3,4\\}, C=\\{3,4,5\\}\\), maka \\((A\\cup B)\\cap C\\) adalah...",
     "pilihan": ["\\{1,2,3,4\\}","\\{3,4\\}","\\{3\\}","\\{1,2,3\\}","\\{4,5\\}"],
     "jawaban": "B",
-    "pembahasan": "A∪B={1,2,3,4}, irisan dengan C={3,4,5} → {3,4}."
+    "pembahasan": "Langkah 1: \\(A\\cup B=\\{1,2,3,4\\}\\). Langkah 2: Irisan dengan \\(C=\\{3,4,5\\}\\) adalah \\((A\\cup B)\\cap C = \\{3,4\\}\\)."
   },
   {
     "id": 18,
-    "pertanyaan": "Jika \\(n\\) bilangan bulat positif, banyak himpunan bagian dari \\(\\{1,2,...,n\\}\\) yang memiliki jumlah anggota genap adalah...",
-    "pilihan": ["2^{n-1}","2^{n}","2^{n-2}","n^2","n!"],
+    "pertanyaan": "Hasil dari \\((-5) \\times 4 + 20 \\div (-2)\\) adalah...",
+    "pilihan": ["-30","-10","0","10","-20"],
     "jawaban": "A",
-    "pembahasan": "Himpunan bagian dengan jumlah elemen genap = 2^{n-1}."
+    "pembahasan": "Ikuti urutan operasi: \\((-5) \\times 4 + 20 \\div (-2) = -20 + (-10) = -20 - 10 = -30\\)."
   },
   {
     "id": 19,
-    "pertanyaan": "Jika \\(A=\\{x|1\\le x\\le10, x\\in\\mathbb{Z}\\}\\), berapa banyak himpunan bagian dari A yang tidak mengandung dua bilangan berurutan?",
-    "pilihan": ["55","89","144","233","377"],
+    "pertanyaan": "Jika \\(A\\) adalah himpunan semua bilangan ganjil, \\(B\\) adalah himpunan semua bilangan genap. Maka \\(A\\cap B\\) adalah...",
+    "pilihan": ["\\{1\\}","\\{2\\}","\\{\\}","\\{1,2\\}","\\mathbb{Z}"],
     "jawaban": "C",
-    "pembahasan": "Banyaknya himpunan bagian tanpa dua elemen berurutan = Fibonacci ke-(n+2)=F_{12}=144."
+    "pembahasan": "Tidak ada bilangan yang sekaligus ganjil dan genap. Jadi irisan keduanya adalah himpunan kosong \\(\\{\\}\\)."
   },
   {
     "id": 20,
     "pertanyaan": "Jika \\(A=\\{1,2,3,4,5\\}\\) dan \\(B=\\{2,4\\}\\), maka \\(A\\setminus B\\) adalah...",
     "pilihan": ["\\{2,4\\}","\\{1,3,5\\}","\\{1,2,3,4,5\\}","\\{\\}","\\{1,2,3\\}"],
     "jawaban": "B",
-    "pembahasan": "Selisih himpunan A\\B = anggota A yang tidak ada di B = {1,3,5}."
+    "pembahasan": "Selisih himpunan \\(A\\setminus B\\) adalah anggota A yang tidak ada di B = \\{1,3,5\\}."
   }
 ]
