@@ -1,282 +1,162 @@
 [
   {
-    "id": 21,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk sederhana dari $(p^3 q^2)^4$ adalah...",
-    "pilihan": [
-      "$p^7 q^6$",
-      "$p^{12} q^8$",
-      "$p^{12} q^2$",
-      "$p^3 q^8$",
-      "$p^7 q^8$"
-    ],
+    "pilihan": ["$p^7 q^6$", "$p^{12} q^8$", "$p^{12} q^2$", "$p^3 q^8$", "$p^7 q^8$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat eksponen $(a^m)^n = a^{m \\times n}$ dan $(ab)^n = a^n b^n$.\n$(p^3 q^2)^4 = (p^3)^4 (q^2)^4 = p^{3 \\times 4} q^{2 \\times 4} = p^{12} q^8$"
+    "pembahasan": "Gunakan sifat eksponen:\n$(a^m)^n = a^{m \\times n}$\n$(ab)^n = a^n b^n$\n\n$(p^3 q^2)^4 = (p^3)^4 \\times (q^2)^4$\n$= p^{12} \\times q^8 = p^{12} q^8$"
   },
   {
-    "id": 22,
+    "id": 2,
     "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $(1/2)^{-3}$ adalah...",
-    "pilihan": [
-      "$1/8$",
-      "$1/6$",
-      "$-6$",
-      "$-8$",
-      "8"
-    ],
+    "pertanyaan": "Nilai dari $(\\frac{1}{2})^{-3}$ adalah...",
+    "pilihan": ["$\\frac{1}{8}$", "$\\frac{1}{6}$", "$-6$", "$-8$", "8"],
     "jawaban": "E",
-    "pembahasan": "Gunakan sifat eksponen $(a/b)^{-n} = (b/a)^n$.\n$(1/2)^{-3} = (2/1)^3 = 2^3 = 8$"
+    "pembahasan": "Gunakan sifat eksponen:\n$(\\frac{a}{b})^{-n} = (\\frac{b}{a})^n$\n\n$(\\frac{1}{2})^{-3} = (\\frac{2}{1})^3$\n$= 2^3 = 8$"
   },
   {
-    "id": 23,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk akar dari $x^{3/5}$ adalah...",
-    "pilihan": [
-      "$\\sqrt[3]{x^5}$",
-      "$\\sqrt[5]{x^3}$",
-      "$3\\sqrt{x^5}$",
-      "$5\\sqrt{x^3}$",
-      "$x\\sqrt[3]{5}$"
-    ],
+    "pilihan": ["$\\sqrt[3]{x^5}$", "$\\sqrt[5]{x^3}$", "$3\\sqrt{x^5}$", "$5\\sqrt{x^3}$", "$x\\sqrt[3]{5}$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat eksponen pecahan $a^{m/n} = \\sqrt[n]{a^m}$.\n$x^{3/5} = \\sqrt[5]{x^3}$"
+    "pembahasan": "Gunakan sifat eksponen pecahan:\n$a^{m/n} = \\sqrt[n]{a^m}$\n\n$x^{3/5} = \\sqrt[5]{x^3}$"
   },
   {
-    "id": 24,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika $^x\\log 25 = 2$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "D",
-    "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\nJadi, $^x\\log 25 = 2$ ekuivalen dengan $x^2 = 25$.\n$x = \\sqrt{25} = 5$ (karena basis logaritma harus positif)."
+    "pembahasan": "Bentuk logaritma:\n$^b\\log a = c$ ekuivalen dengan $b^c = a$\n\n$^x\\log 25 = 2$\n$x^2 = 25$\n$x = 5$ (basis positif)"
   },
   {
-    "id": 25,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Hasil dari $\\log 1000$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "10",
-      "100"
-    ],
+    "pilihan": ["1", "2", "3", "10", "100"],
     "jawaban": "C",
-    "pembahasan": "Jika basis logaritma tidak ditulis, diasumsikan basisnya 10.\n$\\log 1000 = ^{10}\\log 1000$. Berarti 10 dipangkatkan berapa agar hasilnya 1000.\n$10^3 = 1000$, jadi $\\log 1000 = 3$"
+    "pembahasan": "Logaritma basis 10:\n$\\log 1000 = ^{10}\\log 1000$\n$10^3 = 1000$\nJadi $\\log 1000 = 3$"
   },
   {
-    "id": 26,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(3a^2 b^{-3})^{-2}$ adalah...",
-    "pilihan": [
-      "$\\frac{9b^6}{a^4}$",
-      "$\\frac{b^6}{9a^4}$",
-      "$\\frac{a^4}{9b^6}$",
-      "$\\frac{1}{9a^4 b^6}$",
-      "$9a^4 b^6$"
-    ],
+    "pilihan": ["$\\frac{9b^6}{a^4}$", "$\\frac{b^6}{9a^4}$", "$\\frac{a^4}{9b^6}$", "$\\frac{1}{9a^4 b^6}$", "$9a^4 b^6$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat $(xyz)^n = x^n y^n z^n$ dan $(a^m)^n = a^{mn}$.\n$(3a^2 b^{-3})^{-2} = 3^{-2} (a^2)^{-2} (b^{-3})^{-2}$\n$= \\frac{1}{3^2} a^{-4} b^6 = \\frac{1}{9} \\frac{1}{a^4} b^6 = \\frac{b^6}{9a^4}$"
+    "pembahasan": "$(3a^2 b^{-3})^{-2} = 3^{-2} \\times (a^2)^{-2} \\times (b^{-3})^{-2}$\n$= \\frac{1}{9} \\times a^{-4} \\times b^6$\n$= \\frac{b^6}{9a^4}$"
   },
   {
-    "id": 27,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $5^{x-2} = 125$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
+    "pilihan": ["3", "4", "5", "6", "7"],
     "jawaban": "C",
-    "pembahasan": "Ubahlah 125 ke dalam bentuk pangkat dengan basis 5.\n$125 = 5^3$\nJadi, $5^{x-2} = 5^3$.\nKarena basisnya sama, maka eksponennya harus sama:\n$x-2 = 3$\n$x = 5$"
+    "pembahasan": "$125 = 5^3$\n$5^{x-2} = 5^3$\nBasis sama, eksponen sama:\n$x - 2 = 3$\n$x = 5$"
   },
   {
-    "id": 28,
+    "id": 8,
     "kategori": "Sedang",
-    "pertanyaan": "Hasil dari $^3\\log 9 + ^3\\log (9/3) - ^3\\log 1$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "pertanyaan": "Hasil dari $^3\\log 9 + ^3\\log (\\frac{9}{3}) - ^3\\log 1$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log x + ^b\\log y = ^b\\log (xy)$ dan $^b\\log x - ^b\\log y = ^b\\log (x/y)$.\n$^3\\log 9 + ^3\\log 3 - ^3\\log 1 = ^3\\log (9 \\times 3) - ^3\\log 1$\n$= ^3\\log 27 - ^3\\log 1$\n$= 3 - 0$ (karena $3^3 = 27$ dan $3^0 = 1$)\n$= 3$"
+    "pembahasan": "$^3\\log 9 + ^3\\log 3 - ^3\\log 1$\n$= ^3\\log (9 \\times 3) - 0$\n$= ^3\\log 27 = 3$\n(karena $3^3 = 27$)"
   },
   {
-    "id": 29,
+    "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $^4\\log 64 + ^2\\log (1/8)$ adalah...",
-    "pilihan": [
-      "$-1$",
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
+    "pertanyaan": "Nilai dari $^4\\log 64 + ^2\\log (\\frac{1}{8})$ adalah...",
+    "pilihan": ["$-1$", "0", "1", "2", "3"],
     "jawaban": "B",
-    "pembahasan": "Hitung setiap suku secara terpisah.\n$^4\\log 64$: 4 dipangkatkan berapa agar hasilnya 64? $4^3 = 64$, jadi $^4\\log 64 = 3$.\n$^2\\log (1/8)$: 2 dipangkatkan berapa agar hasilnya 1/8? $2^{-3} = 1/8$, jadi $^2\\log (1/8) = -3$.\nJumlahkan hasilnya: $3 + (-3) = 0$"
+    "pembahasan": "$^4\\log 64 = 3$ (karena $4^3 = 64$)\n$^2\\log (\\frac{1}{8}) = -3$ (karena $2^{-3} = \\frac{1}{8}$)\n$3 + (-3) = 0$"
   },
   {
-    "id": 30,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\frac{x^5 y^{-3} z^2}{x^2 y^4 z^{-1}}$ adalah...",
-    "pilihan": [
-      "$x^3 y^{-7} z^3$",
-      "$x^3 y^7 z^3$",
-      "$x^{-3} y^{-7} z^{-3}$",
-      "$\\frac{x^3 z^3}{y^7}$",
-      "$\\frac{y^7}{x^3 z^3}$"
-    ],
+    "pilihan": ["$x^3 y^{-7} z^3$", "$x^3 y^7 z^3$", "$x^{-3} y^{-7} z^{-3}$", "$\\frac{x^3 z^3}{y^7}$", "$\\frac{y^7}{x^3 z^3}$"],
     "jawaban": "D",
-    "pembahasan": "Gunakan sifat eksponen $a^m / a^n = a^{m-n}$.\n$x^{5-2} y^{-3-4} z^{2-(-1)}$\n$= x^3 y^{-7} z^3$\n$= \\frac{x^3 z^3}{y^7}$"
+    "pembahasan": "$x^{5-2} y^{-3-4} z^{2-(-1)}$\n$= x^3 y^{-7} z^3$\n$= \\frac{x^3 z^3}{y^7}$"
   },
   {
-    "id": 31,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log (x^2-x-2) = 2$, maka nilai $x$ yang memenuhi adalah...",
-    "pilihan": [
-      "$-1$ atau $2$",
-      "$-2$ atau $3$",
-      "$-3$ atau $2$",
-      "$-2$ atau $1$",
-      "$3$ atau $-2$"
-    ],
+    "pilihan": ["$-1$ atau $2$", "$-2$ atau $3$", "$-3$ atau $2$", "$-2$ atau $1$", "$3$ atau $-2$"],
     "jawaban": "E",
-    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2-x-2 = 2^2$\n$x^2-x-2 = 4$\n$x^2-x-6 = 0$\nFaktorkan persamaan kuadrat:\n$(x-3)(x+2) = 0$\nJadi, $x=3$ atau $x=-2$.\nPeriksa syarat numerus logaritma harus positif: $x^2-x-2 > 0$.\nJika $x=3$: $3^2-3-2 = 9-3-2 = 4 > 0$ (Memenuhi).\nJika $x=-2$: $(-2)^2-(-2)-2 = 4+2-2 = 4 > 0$ (Memenuhi).\nJadi, kedua nilai $x$ memenuhi."
+    "pembahasan": "$x^2-x-2 = 2^2 = 4$\n$x^2-x-6 = 0$\n$(x-3)(x+2) = 0$\n$x = 3$ atau $x = -2$\n\nPeriksa syarat:\n$x^2-x-2 > 0$\nUntuk $x=3$: $9-3-2=4>0$\nUntuk $x=-2$: $4+2-2=4>0$\nKedua nilai memenuhi"
   },
   {
-    "id": 32,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $(27^{1/3} + 16^{1/4})^2$ adalah...",
-    "pilihan": [
-      "9",
-      "16",
-      "25",
-      "49",
-      "81"
-    ],
+    "pilihan": ["9", "16", "25", "49", "81"],
     "jawaban": "C",
-    "pembahasan": "Hitung nilai di dalam kurung terlebih dahulu.\n$27^{1/3} = \\sqrt[3]{27} = 3$\n$16^{1/4} = \\sqrt[4]{16} = 2$\nJadi, $(3+2)^2 = 5^2 = 25$"
+    "pembahasan": "$27^{1/3} = \\sqrt[3]{27} = 3$\n$16^{1/4} = \\sqrt[4]{16} = 2$\n$(3 + 2)^2 = 5^2 = 25$"
   },
   {
-    "id": 33,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika $2^x = 3$ dan $3^y = 5$, maka nilai dari $2^{xy}$ adalah...",
-    "pilihan": [
-      "5",
-      "6",
-      "8",
-      "9",
-      "15"
-    ],
+    "pilihan": ["5", "6", "8", "9", "15"],
     "jawaban": "A",
-    "pembahasan": "Kita tahu $2^x = 3$. Substitusikan ini ke persamaan kedua $3^y = 5$.\n$(2^x)^y = 5$\n$2^{xy} = 5$"
+    "pembahasan": "$2^x = 3$\n$3^y = 5$\nSubstitusi: $(2^x)^y = 5$\n$2^{xy} = 5$"
   },
   {
-    "id": 34,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Penyelesaian dari persamaan $2^{3x-1} = 4^{x+2}$ adalah...",
-    "pilihan": [
-      "$-5$",
-      "$-7$",
-      "$7$",
-      "$5$",
-      "$9$"
-    ],
+    "pilihan": ["$-5$", "$-7$", "$7$", "$5$", "$9$"],
     "jawaban": "D",
-    "pembahasan": "Ubahlah basis 4 menjadi basis 2.\n$4 = 2^2$\n$2^{3x-1} = (2^2)^{x+2}$\n$2^{3x-1} = 2^{2(x+2)}$\n$2^{3x-1} = 2^{2x+4}$\nKarena basisnya sama, maka eksponennya harus sama:\n$3x-1 = 2x+4$\n$3x-2x = 4+1$\n$x = 5$"
+    "pembahasan": "$4 = 2^2$\n$2^{3x-1} = (2^2)^{x+2}$\n$2^{3x-1} = 2^{2x+4}$\n$3x-1 = 2x+4$\n$x = 5$"
   },
   {
-    "id": 35,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log (x^2+2x+1) = 2$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$1$ atau $3$",
-      "$-1$ atau $3$",
-      "$1$ atau $-3$",
-      "$-1$ atau $-3$",
-      "$2$ atau $-4$"
-    ],
+    "pilihan": ["$1$ atau $3$", "$-1$ atau $3$", "$1$ atau $-3$", "$-1$ atau $-3$", "$2$ atau $-4$"],
     "jawaban": "C",
-    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2+2x+1 = 2^2$\n$x^2+2x+1 = 4$\n$x^2+2x-3 = 0$\n$(x+3)(x-1) = 0$\n$x=-3$ atau $x=1$.\nPeriksa syarat numerus: $(x+1)^2 > 0$. Kedua nilai memenuhi (kecuali $x=-1$ yang membuat numerus 0).\nJadi, solusi yang benar adalah $x=1$ atau $x=-3$."
+    "pembahasan": "$x^2+2x+1 = 2^2 = 4$\n$x^2+2x-3 = 0$\n$(x+3)(x-1) = 0$\n$x = -3$ atau $x = 1$\n\nPeriksa syarat:\n$x^2+2x+1 = (x+1)^2 > 0$\nKedua nilai memenuhi"
   },
   {
-    "id": 36,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log (x-1) + ^2\\log (x+1) = ^2\\log 3$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$.\n$^2\\log ((x-1)(x+1)) = ^2\\log 3$\n$(x-1)(x+1) = 3$\n$x^2-1 = 3$\n$x^2 = 4$\n$x = \\pm 2$.\nPeriksa syarat numerus logaritma harus positif:\n$x-1 > 0 \\implies x > 1$\n$x+1 > 0 \\implies x > -1$\nJadi, nilai $x$ yang memenuhi adalah $x=2$."
+    "pembahasan": "$^2\\log ((x-1)(x+1)) = ^2\\log 3$\n$(x-1)(x+1) = 3$\n$x^2-1 = 3$\n$x^2 = 4$\n$x = 2$ atau $x = -2$\n\nSyarat:\n$x-1 > 0$ dan $x+1 > 0$\n$x > 1$\nJadi $x = 2$"
   },
   {
-    "id": 37,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $e^{\\ln 5}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "E",
-    "pembahasan": "Gunakan sifat logaritma alami (ln adalah logaritma dengan basis $e$).\n$e^{\\ln x} = x$.\nJadi, $e^{\\ln 5} = 5$."
+    "pembahasan": "Sifat logaritma natural:\n$e^{\\ln x} = x$\nJadi $e^{\\ln 5} = 5$"
   },
   {
-    "id": 38,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $5^{x} = 8$, maka nilai dari $5^{x+2}$ adalah...",
-    "pilihan": [
-      "8",
-      "16",
-      "40",
-      "200",
-      "400"
-    ],
+    "pilihan": ["8", "16", "40", "200", "400"],
     "jawaban": "D",
-    "pembahasan": "Gunakan sifat eksponen $a^{m+n} = a^m a^n$.\n$5^{x+2} = 5^x \\times 5^2$\nDiketahui $5^x = 8$, dan $5^2 = 25$.\n$5^{x+2} = 8 \\times 25 = 200$"
+    "pembahasan": "$5^{x+2} = 5^x \\times 5^2$\n$= 8 \\times 25 = 200$"
   },
   {
-    "id": 39,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan nilai $x$ dari persamaan $3^{x^2-x-2} = 1$.",
-    "pilihan": [
-      "$-1$ atau $2$",
-      "$1$ atau $-2$",
-      "$-1$ saja",
-      "$2$ saja",
-      "Tidak ada solusi"
-    ],
+    "pilihan": ["$-1$ atau $2$", "$1$ atau $-2$", "$-1$ saja", "$2$ saja", "Tidak ada solusi"],
     "jawaban": "A",
-    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1. Jadi eksponennya harus sama dengan 0.\n$x^2-x-2 = 0$\nFaktorkan persamaan kuadrat:\n$(x-2)(x+1) = 0$\nJadi, $x=2$ atau $x=-1$."
+    "pembahasan": "$3^{x^2-x-2} = 3^0$\n$x^2-x-2 = 0$\n$(x-2)(x+1) = 0$\n$x = 2$ atau $x = -1$"
   },
   {
     "id": 40,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log 3 = a$, maka $^8\\log 9$ adalah...",
-    "pilihan": [
-      "$a/2$",
-      "$2a/3$",
-      "$a$",
-      "$3a/2$",
-      "$2a$"
-    ],
+    "pilihan": ["$\\frac{a}{2}$", "$\\frac{2a}{3}$", "$a$", "$\\frac{3a}{2}$", "$2a$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^p\\log q = \\frac{^k\\log q}{^k\\log p}$.\n$^8\\log 9 = \\frac{^2\\log 9}{^2\\log 8}$\n$^2\\log 9 = ^2\\log 3^2 = 2 \\cdot ^2\\log 3 = 2a$\n$^2\\log 8 = 3$ (karena $2^3 = 8$)\nJadi, $^8\\log 9 = \\frac{2a}{3}$."
+    "pembahasan": "$^8\\log 9 = \\frac{^2\\log 9}{^2\\log 8}$\n$= \\frac{^2\\log 3^2}{^2\\log 2^3}$\n$= \\frac{2 \\cdot ^2\\log 3}{3}$\n$= \\frac{2a}{3}$"
   }
 ]
