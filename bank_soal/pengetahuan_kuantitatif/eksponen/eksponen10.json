@@ -1,6 +1,6 @@
 [
   {
-    "id": 181,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Nilai dari $^4\\log 64$ adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "16"
     ],
     "jawaban": "B",
-    "pembahasan": "Kita mencari nilai $y$ sedemikian rupa sehingga $4^y = 64$. Karena $4^3 = 64$, maka $^4\\log 64 = 3$."
+    "pembahasan": "Kita mencari nilai $y$ sehingga $4^y = 64$.\nKarena $4^3 = 64$, maka $^4\\log 64 = 3$."
   },
   {
-    "id": 182,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Hasil dari $^2\\log 48 - ^2\\log 3$ adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "6"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat pengurangan logaritma: $^a\\log b - ^a\\log c = ^a\\log(b/c)$.\n$^2\\log 48 - ^2\\log 3 = ^2\\log(\\frac{48}{3}) = ^2\\log 16$.\nKarena $2^4 = 16$, maka hasilnya adalah 4."
+    "pembahasan": "Gunakan sifat pengurangan logaritma:\n$^2\\log 48 - ^2\\log 3 = ^2\\log(\\frac{48}{3})$\n$= ^2\\log 16 = 4$ (karena $2^4 = 16$)"
   },
   {
-    "id": 183,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Jika $3^{x+2} = 81$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -39,10 +39,10 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubah kedua sisi persamaan agar memiliki basis yang sama. Karena $81 = 3^4$, maka $3^{x+2} = 3^4$. Dari sini, kita dapat menyamakan eksponennya: $x+2 = 4 \\implies x=2$."
+    "pembahasan": "Ubah kedua sisi ke basis 3:\n$81 = 3^4$\n$3^{x+2} = 3^4$\n$x+2 = 4$\n$x = 2$"
   },
   {
-    "id": 184,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika $^5\\log x = -2$, maka nilai dari $x$ adalah...",
     "pilihan": [
@@ -53,10 +53,10 @@
       "1/5"
     ],
     "jawaban": "C",
-    "pembahasan": "Ubah persamaan logaritma menjadi bentuk eksponensial. $^a\\log b = c$ sama dengan $a^c = b$. Maka, $x = 5^{-2} = \\frac{1}{5^2} = \\frac{1}{25}$."
+    "pembahasan": "Ubah ke bentuk eksponensial:\n$^5\\log x = -2$ berarti $5^{-2} = x$\n$x = \\frac{1}{25}$"
   },
   {
-    "id": 185,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Jika $\\sqrt{3^{3x-1}} = 3^{x+4}$, maka nilai dari $x$ adalah...",
     "pilihan": [
@@ -67,10 +67,10 @@
       "10"
     ],
     "jawaban": "D",
-    "pembahasan": "Diberikan persamaan $\\sqrt{3^{3x-1}} = 3^{x+4}$.\n\nLangkah 1: Ubah bentuk akar menjadi bentuk eksponen.\n$\\sqrt{3^{3x-1}} = 3^{\\frac{3x-1}{2}}$\n\nLangkah 2: Samakan kedua eksponen, karena basisnya sama-sama 3.\n$3^{\\frac{3x-1}{2}} = 3^{x+4}$\n$\\frac{3x-1}{2} = x+4$\n\nLangkah 3: Selesaikan persamaan untuk $x$.\n$3x-1 = 2(x+4)$\n$3x-1 = 2x+8$\n$3x - 2x = 8+1$\n$x = 9$"
+    "pembahasan": "Sederhanakan akar:\n$\\sqrt{3^{3x-1}} = 3^{\\frac{3x-1}{2}}$\nSamakan eksponen:\n$\\frac{3x-1}{2} = x+4$\n$3x-1 = 2x+8$\n$x = 9$"
   },
   {
-    "id": 186,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $^4\\log 2 + ^4\\log 8$ adalah...",
     "pilihan": [
@@ -81,10 +81,10 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat penjumlahan logaritma: $^a\\log b + ^a\\log c = ^a\\log(bc)$.\n$^4\\log 2 + ^4\\log 8 = ^4\\log(2 \\times 8) = ^4\\log 16$.\nKarena $4^2 = 16$, maka hasilnya adalah 2."
+    "pembahasan": "Gabungkan logaritma:\n$^4\\log 2 + ^4\\log 8 = ^4\\log(2 \\times 8)$\n$= ^4\\log 16 = 2$ (karena $4^2 = 16$)"
   },
   {
-    "id": 187,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $(^7\\log 2) \\cdot (^2\\log 49)$ adalah...",
     "pilihan": [
@@ -95,10 +95,10 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat perkalian logaritma: $^a\\log b \\cdot ^b\\log c = ^a\\log c$. Terapkan sifat ini setelah mengubah $49$ menjadi $7^2$.\n$^7\\log 2 \\cdot ^2\\log 49 = ^7\\log 2 \\cdot ^2\\log 7^2 = ^7\\log 2 \\cdot 2 \\cdot ^2\\log 7 = 2 \\cdot (^7\\log 2 \\cdot ^2\\log 7) = 2 \\cdot ^7\\log 7 = 2(1) = 2$."
+    "pembahasan": "Gunakan sifat rantai logaritma:\n$(^7\\log 2) \\cdot (^2\\log 49) = ^7\\log 49$\nKarena $49 = 7^2$, maka $^7\\log 49 = 2$"
   },
   {
-    "id": 188,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Jika $^a\\log b = 3$, maka nilai dari $^b\\log a$ adalah...",
     "pilihan": [
@@ -109,10 +109,10 @@
       "9"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^a\\log b = \\frac{1}{^b\\log a}$. Maka, $^b\\log a = \\frac{1}{^a\\log b} = \\frac{1}{3}$."
+    "pembahasan": "Gunakan sifat kebalikan:\n$^b\\log a = \\frac{1}{^a\\log b} = \\frac{1}{3}$"
   },
   {
-    "id": 189,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Jika $^2\\log 5 = p$, maka nilai dari $^2\\log 100$ adalah...",
     "pilihan": [
@@ -123,10 +123,10 @@
       "$p^2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Faktorkan 100: $100 = 4 \\times 25 = 2^2 \\times 5^2$.\n$^2\\log 100 = ^2\\log (2^2 \\times 5^2) = ^2\\log 2^2 + ^2\\log 5^2 = 2 \\cdot ^2\\log 2 + 2 \\cdot ^2\\log 5 = 2(1) + 2p = 2+2p$."
+    "pembahasan": "Faktorkan 100:\n$100 = 4 \\times 25 = 2^2 \\times 5^2$\n$^2\\log 100 = ^2\\log 2^2 + ^2\\log 5^2$\n$= 2 + 2p$"
   },
   {
-    "id": 190,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Jika $^2\\log(x^2 - 3) = 2$, maka nilai $x^2$ adalah...",
     "pilihan": [
@@ -137,10 +137,10 @@
       "10"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubah bentuk logaritma ke eksponen: $2^2 = x^2 - 3$.\n$4 = x^2 - 3 \\implies x^2 = 4+3 = 7$."
+    "pembahasan": "Ubah ke bentuk eksponen:\n$x^2 - 3 = 2^2 = 4$\n$x^2 = 4 + 3 = 7$"
   },
   {
-    "id": 191,
+    "id": 11,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $(1/2)^x = 1/64$ adalah...",
     "pilihan": [
@@ -151,10 +151,10 @@
       "8"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubah kedua sisi persamaan menjadi basis yang sama. Karena $64 = 2^6$, maka $\\frac{1}{64} = 2^{-6} = (1/2)^6$. Jadi, $(1/2)^x = (1/2)^6$, yang berarti $x=6$."
+    "pembahasan": "Ubah ke basis yang sama:\n$\\frac{1}{64} = 2^{-6} = (\\frac{1}{2})^6$\n$(\\frac{1}{2})^x = (\\frac{1}{2})^6$\n$x = 6$"
   },
   {
-    "id": 192,
+    "id": 12,
     "kategori": "Sedang",
     "pertanyaan": "Jika $^a\\log 2 = 5$, maka $^a\\log 8$ adalah...",
     "pilihan": [
@@ -165,10 +165,10 @@
       "30"
     ],
     "jawaban": "B",
-    "pembahasan": "Kita tahu $8 = 2^3$. Maka $^a\\log 8 = ^a\\log 2^3$. Dengan sifat logaritma, ini sama dengan $3 \\cdot ^a\\log 2$. Substitusikan nilai yang diketahui: $3(5) = 15$."
+    "pembahasan": "Faktorkan 8:\n$8 = 2^3$\n$^a\\log 8 = ^a\\log 2^3 = 3 \\cdot ^a\\log 2$\n$= 3 \\times 5 = 15$"
   },
   {
-    "id": 193,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^3\\log 54 + ^3\\log 2 - ^3\\log 4$ adalah...",
     "pilihan": [
@@ -178,11 +178,11 @@
       "4",
       "5"
     ],
-    "jawaban": "D",
-    "pembahasan": "Gabungkan logaritma dengan menggunakan sifat-sifatnya.\n$^3\\log 54 + ^3\\log 2 - ^3\\log 4 = ^3\\log (\\frac{54 \\times 2}{4}) = ^3\\log(\\frac{108}{4}) = ^3\\log 27$.\nKarena $3^3 = 27$, maka hasilnya adalah 3."
+    "jawaban": "C",
+    "pembahasan": "Gabungkan logaritma:\n$^3\\log 54 + ^3\\log 2 - ^3\\log 4$\n$= ^3\\log(\\frac{54 \\times 2}{4})$\n$= ^3\\log 27 = 3$"
   },
   {
-    "id": 194,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^x\\log 2 = a$ dan $^x\\log 5 = b$, maka $^x\\log 100$ adalah...",
     "pilihan": [
@@ -193,10 +193,10 @@
       "$ab^2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Faktorkan 100 menjadi bilangan prima: $100 = 10^2 = (2 \\times 5)^2 = 2^2 \\times 5^2$.\n$^x\\log 100 = ^x\\log(2^2 \\times 5^2) = ^x\\log 2^2 + ^x\\log 5^2 = 2 \\cdot ^x\\log 2 + 2 \\cdot ^x\\log 5$.\nSubstitusikan nilai $a$ dan $b$: $2a+2b$."
+    "pembahasan": "Faktorkan 100:\n$100 = 4 \\times 25 = 2^2 \\times 5^2$\n$^x\\log 100 = ^x\\log 2^2 + ^x\\log 5^2$\n$= 2a + 2b$"
   },
   {
-    "id": 195,
+    "id": 15,
     "kategori": "Menengah",
     "pertanyaan": "Jika $x + \\sqrt{x} = 1$, maka nilai dari $x + \\frac{1}{x}$ adalah...",
     "pilihan": [
@@ -207,10 +207,10 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Mulai dengan persamaan yang diberikan: $x + \\sqrt{x} = 1$.\nPindahkan x ke sisi kanan: $\\sqrt{x} = 1 - x$.\nKuadratkan kedua sisi: $(\\sqrt{x})^2 = (1-x)^2 \\implies x = 1 - 2x + x^2$.\nSusun ulang menjadi persamaan kuadrat: $x^2 - 3x + 1 = 0$.\nKarena $x$ tidak sama dengan nol, bagi seluruh persamaan dengan $x$: $\\frac{x^2}{x} - \\frac{3x}{x} + \\frac{1}{x} = 0 \\implies x - 3 + \\frac{1}{x} = 0$.\nSelesaikan untuk $x + \\frac{1}{x}$: $x + \\frac{1}{x} = 3$."
+    "pembahasan": "Dari $x + \\sqrt{x} = 1$:\n$\\sqrt{x} = 1 - x$\nKuadratkan: $x = 1 - 2x + x^2$\n$x^2 - 3x + 1 = 0$\nBagi dengan $x$: $x - 3 + \\frac{1}{x} = 0$\n$x + \\frac{1}{x} = 3$"
   },
   {
-    "id": 196,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $2 \\cdot ^4\\log 3 - ^4\\log 9$ adalah...",
     "pilihan": [
@@ -221,12 +221,12 @@
       "3"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat logaritma $n \\cdot ^a\\log b = ^a\\log b^n$. Maka, $2 \\cdot ^4\\log 3 = ^4\\log 3^2 = ^4\\log 9$.\nSubstitusikan kembali ke persamaan: $^4\\log 9 - ^4\\log 9 = 0$."
+    "pembahasan": "Sederhanakan:\n$2 \\cdot ^4\\log 3 = ^4\\log 3^2 = ^4\\log 9$\n$^4\\log 9 - ^4\\log 9 = 0$"
   },
   {
-    "id": 197,
+    "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $x$ adalah solusi dari persamaan eksponensial $2^{2x+1} = 8^{x-1}$, maka nilai $x$ adalah...",
+    "pertanyaan": "Jika $x$ adalah solusi dari persamaan $2^{2x+1} = 8^{x-1}$, maka nilai $x$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -235,10 +235,10 @@
       "5"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubah kedua sisi persamaan ke basis yang sama, yaitu 2. Karena $8=2^3$, maka $8^{x-1} = (2^3)^{x-1} = 2^{3(x-1)} = 2^{3x-3}$.\nPersamaan menjadi $2^{2x+1} = 2^{3x-3}$. Samakan eksponennya:\n$2x+1 = 3x-3 \\implies 4 = x$."
+    "pembahasan": "Ubah basis:\n$8^{x-1} = (2^3)^{x-1} = 2^{3x-3}$\n$2^{2x+1} = 2^{3x-3}$\n$2x+1 = 3x-3$\n$x = 4$"
   },
   {
-    "id": 198,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^2\\log(\\sqrt{2\\sqrt{2}})$ adalah...",
     "pilihan": [
@@ -249,10 +249,10 @@
       "3/2"
     ],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan bagian dalam logaritma terlebih dahulu dengan mengubahnya ke bentuk eksponen.\n$\\sqrt{2\\sqrt{2}} = (2 \\cdot 2^{1/2})^{1/2} = (2^{3/2})^{1/2} = 2^{3/4}$.\nJadi, nilai dari $^2\\log(2^{3/4})$ adalah $\\frac{3}{4}$."
+    "pembahasan": "Sederhanakan dari dalam:\n$\\sqrt{2\\sqrt{2}} = (2 \\cdot 2^{1/2})^{1/2}$\n$= (2^{3/2})^{1/2} = 2^{3/4}$\n$^2\\log 2^{3/4} = \\frac{3}{4}$"
   },
   {
-    "id": 199,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log(x-1) + ^2\\log(x+1) = 3$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -263,10 +263,10 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat penjumlahan logaritma: $^a\\log b + ^a\\log c = ^a\\log(bc)$.\n$^2\\log((x-1)(x+1)) = 3 \\implies ^2\\log(x^2 - 1) = 3$.\nUbah ke bentuk eksponen: $x^2 - 1 = 2^3 = 8$.\n$x^2 = 9 \\implies x = \\pm 3$. Syarat numerus logaritma adalah $x-1>0$ dan $x+1>0$, yang berarti $x>1$. Jadi, hanya $x=3$ yang merupakan solusi yang valid."
+    "pembahasan": "Gabungkan logaritma:\n$^2\\log[(x-1)(x+1)] = 3$\n$x^2 - 1 = 2^3 = 8$\n$x^2 = 9$\n$x = 3$ (memenuhi syarat numerus)"
   },
   {
-    "id": 200,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^2\\log 24 - ^2\\log 3 + ^2\\log (\\frac{1}{16})$ adalah...",
     "pilihan": [
@@ -277,6 +277,6 @@
       "4"
     ],
     "jawaban": "A",
-    "pembahasan": "Gabungkan logaritma dengan menggunakan sifat-sifatnya.\n$^2\\log 24 - ^2\\log 3 + ^2\\log(\\frac{1}{16}) = ^2\\log(\\frac{24}{3}) + ^2\\log(2^{-4}) = ^2\\log 8 + ^2\\log 2^{-4}$.\n$8 = 2^3$, jadi $^2\\log 8 = 3$. Dan $^2\\log 2^{-4} = -4$.\nHasilnya adalah $3 + (-4) = -1$."
+    "pembahasan": "Gabungkan logaritma:\n$^2\\log 24 - ^2\\log 3 = ^2\\log 8$\n$^2\\log 8 + ^2\\log(\\frac{1}{16}) = ^2\\log(8 \\times \\frac{1}{16})$\n$= ^2\\log(\\frac{1}{2}) = -1$"
   }
 ]
