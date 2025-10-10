@@ -1,180 +1,162 @@
 [
   {
-    "id": 181,
+    "id": 1,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^3\\log (^2\\log x) = ^2\\log (^3\\log y) = 1$, maka tentukan nilai dari $x + y$.",
     "pilihan": ["12", "17", "24", "29", "35"],
     "jawaban": "B",
-    "pembahasan": "$\\begin{align*} &^3\\log (^2\\log x) = 1 \\Rightarrow ^2\\log x = 3^1 = 3 \\Rightarrow x = 2^3 = 8 \\\\ &^2\\log (^3\\log y) = 1 \\Rightarrow ^3\\log y = 2^1 = 2 \\Rightarrow y = 3^2 = 9 \\\\ &x + y = 8 + 9 = 17 \\end{align*}$"
+    "pembahasan": "$^3\\log (^2\\log x) = 1 \\Rightarrow ^2\\log x = 3^1 = 3 \\Rightarrow x = 2^3 = 8$ \n\n$^2\\log (^3\\log y) = 1 \\Rightarrow ^3\\log y = 2^1 = 2 \\Rightarrow y = 3^2 = 9$ \n\nMaka $x + y = 8 + 9 = 17$."
   },
   {
-    "id": 182,
+    "id": 2,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan himpunan nilai $x$ agar fungsi $f(x) = x^3 - 6x^2 + 9x + 1$ memiliki gradien garis singgung $f'(x) \\le 0$.",
     "pilihan": ["$x < 1$ atau $x > 3$", "$1 \\le x \\le 3$", "$x = 1$", "$x = 3$", "$0 \\le x \\le 4$"],
     "jawaban": "B",
-    "pembahasan": "$\\begin{align*} &f'(x) = 3x^2 - 12x + 9 \\\\ &\\text{Syarat gradien } f'(x) \\le 0: \\\\ &3x^2 - 12x + 9 \\le 0 \\\\ &x^2 - 4x + 3 \\le 0 \\\\ &(x-1)(x-3) \\le 0 \\\\ &1 \\le x \\le 3 \\end{align*}$"
+    "pembahasan": "Turunan: $f'(x) = 3x^2 - 12x + 9 = 3(x-1)(x-3)$ \n\nSyarat: $f'(x) \\le 0 \\Rightarrow (x-1)(x-3) \\le 0 \\Rightarrow 1 \\le x \\le 3$."
   },
   {
-    "id": 183,
+    "id": 3,
     "kategori": "Sulit",
     "pertanyaan": "Diketahui $^a\\log b = 2$ dan $^b\\log c = 2$. Jika $^a\\log (bc) = P$, maka tentukan nilai $P$.",
     "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "C",
-    "pembahasan": "$\\begin{align*} &^a\\log b = 2 \\Rightarrow b = a^2 \\\\ &^b\\log c = 2 \\Rightarrow c = b^2 = (a^2)^2 = a^4 \\\\ &P = ^a\\log (bc) = ^a\\log (a^2 \\cdot a^4) = ^a\\log (a^6) = 6 \\end{align*}$"
+    "pembahasan": "$^a\\log b = 2 \\Rightarrow b = a^2$ \n\n$^b\\log c = 2 \\Rightarrow c = b^2 = a^4$ \n\n$^a\\log (bc) = ^a\\log (a^2 \\cdot a^4) = ^a\\log a^6 = 6$."
   },
   {
-    "id": 184,
+    "id": 4,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\sin x + \\cos x = \\frac{4}{3}$, tentukan nilai dari $27(\\sin^3 x + \\cos^3 x) - 8$.",
     "pilihan": ["8", "10", "12", "14", "16"],
     "jawaban": "D",
-    "pembahasan": "$\\begin{align*} &\\sin x \\cos x = \\frac{7}{18} \\\\ &\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(1 - \\sin x \\cos x) \\\\ &= \\frac{4}{3} \\left(1 - \\frac{7}{18}\\right) = \\frac{22}{27} \\\\ &\\text{Nilai: } 27(\\frac{22}{27}) - 8 = 22 - 8 = 14 \\end{align*}$"
+    "pembahasan": "Rumus: $\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(1 - \\sin x \\cos x)$ \n\n$\\sin x \\cos x = \\frac{(\\sin x + \\cos x)^2 - 1}{2} = \\frac{16/9 - 1}{2} = 7/18$ \n\n$\\sin^3 x + \\cos^3 x = \\frac{4}{3}(1 - 7/18) = 22/27$ \n\n$27 \\cdot 22/27 - 8 = 14$."
   },
   {
-    "id": 185,
+    "id": 5,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan solusi dari persamaan $f'(x) = 0$ jika $f(x) = \\ln(\\sqrt{x^2 + 1})$.",
     "pilihan": ["$x=0$", "$x=1$", "$x=-1$", "Tidak ada solusi riil", "Semua $x \\in \\mathbb{R}$"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &f(x) = \\frac{1}{2} \\ln(x^2 + 1) \\\\ &f'(x) = \\frac{x}{x^2 + 1} \\\\ &\\frac{x}{x^2 + 1} = 0 \\Rightarrow x = 0 \\end{align*}$"
+    "pembahasan": "$f(x) = \\frac{1}{2} \\ln(x^2 + 1) \\Rightarrow f'(x) = \\frac{x}{x^2 + 1}$ \n\n$f'(x) = 0 \\Rightarrow x = 0$."
   },
   {
-    "id": 186,
+    "id": 6,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan nilai $x$ yang memenuhi persamaan $^x\\log 16 + ^x\\log 64 = 10$.",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &^x\\log 1024 = 10 \\Rightarrow x^{10} = 1024 \\\\ &x = 2 \\end{align*}$"
+    "pembahasan": "$^x\\log 16 + ^x\\log 64 = ^x\\log (16\\cdot64) = ^x\\log 1024 = 10 \\Rightarrow x^{10} = 1024 \\Rightarrow x = 2$."
   },
   {
-    "id": 187,
+    "id": 7,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $^{0.5}\\log (x^2 - 4x) > -2$.",
-    "pilihan": [
-      "$0 < x < 4$",
-      "$x < 0$ atau $x > 4$",
-      "$-2 < x < 0$ atau $4 < x < 6$",
-      "$x < -2$ atau $x > 6$",
-      "$0 < x < 2$ atau $4 < x < 6$"
-    ],
+    "pilihan": ["$0 < x < 4$", "$x < 0$ atau $x > 4$", "$-2 < x < 0$ atau $4 < x < 6$", "$x < -2$ atau $x > 6$", "$0 < x < 2$ atau $4 < x < 6$"],
     "jawaban": "C",
-    "pembahasan": "$\\begin{align*} &\\text{Syarat: } x<0 \\text{ atau } x>4 \\\\ &\\text{Pertidaksamaan: } x^2 - 4x < (0.5)^{-2} \\Rightarrow x^2 - 4x - 4 < 0 \\\\ &2-2\\sqrt{2} < x < 2+2\\sqrt{2} \\text{ (approx. } -0.828 < x < 4.828) \\\\ &\\text{Irisan: } (-2 < x < 0) \\text{ atau } (4 < x < 6). \\end{align*}$"
+    "pembahasan": "Syarat: $x^2-4x>0 \\Rightarrow x<0$ atau $x>4$ \n\nPertidaksamaan: $(x^2 - 4x)^{-1} > -2 \\Rightarrow x^2 - 4x -4 <0$ \n\nPenyelesaian: $2-2\\sqrt{2} < x < 2+2\\sqrt{2} \\approx -0.828 < x < 4.828$ \n\nIrisan dengan syarat: $(-2 < x < 0)$ atau $(4 < x < 6)$."
   },
   {
-    "id": 188,
+    "id": 8,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$, maka tentukan nilai $(f \\circ g)'(e)$.",
-    "pilihan": ["1", "2", "2e", "e²", "2e²"],
+    "pertanyaan": "Jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$, tentukan nilai $(f \\circ g)'(e)$.",
+    "pilihan": ["1", "2", "2e", "e^2", "2e^2"],
     "jawaban": "B",
-    "pembahasan": "$\\begin{align*} &(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot 2(\\ln x) \\cdot \\frac{1}{x} \\\\ &(f \\circ g)'(e) = e^{1^2} \\cdot 2(1) \\cdot \\frac{1}{e} = 2 \\end{align*}$"
+    "pembahasan": "$(f\\circ g)'(x) = f'(g(x)) \\cdot g'(x) = 2 \\ln x \\cdot e^{(\\ln x)^2} \\cdot \\frac{1}{x}$ \n\n$(f\\circ g)'(e) = 2 \\cdot 1 \\cdot e^1 / e = 2$."
   },
   {
-    "id": 189,
+    "id": 9,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $^a\\log b = 2$ dan $^a\\log c = 1$, maka tentukan nilai $^b\\log c$.",
+    "pertanyaan": "Jika $^a\\log b = 2$ dan $^a\\log c = 1$, tentukan nilai $^b\\log c$.",
     "pilihan": ["$\\frac{1}{2}$", "1", "2", "3", "4"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &^b\\log c = \\frac{^a\\log c}{^a\\log b} = \\frac{1}{2} \\end{align*}$"
+    "pembahasan": "$^b\\log c = \\frac{^a\\log c}{^a\\log b} = \\frac{1}{2}$."
   },
   {
-    "id": 190,
+    "id": 10,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan nilai dari $\\tan(x+y)$, jika diketahui $\\tan x = \\frac{1}{3}$ dan $\\tan y = \\frac{1}{2}$.",
+    "pertanyaan": "Tentukan nilai dari $\\tan(x+y)$ jika $\\tan x = \\frac{1}{3}$ dan $\\tan y = \\frac{1}{2}$.",
     "pilihan": ["1", "$\\frac{5}{6}$", "$\\frac{6}{5}$", "$\\frac{7}{5}$", "$\\frac{5}{7}$"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &\\tan(x+y) = \\frac{\\frac{1}{3} + \\frac{1}{2}}{1 - \\frac{1}{3} \\cdot \\frac{1}{2}} = \\frac{5/6}{5/6} = 1 \\end{align*}$"
+    "pembahasan": "$\\tan(x+y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\frac{1/3 + 1/2}{1 - 1/6} = \\frac{5/6}{5/6} = 1$."
   },
   {
-    "id": 191,
+    "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan himpunan nilai $x$ agar fungsi $f(x) = x^3 - 6x^2 + 9x + 2$ memiliki gradien garis singgung $f'(x) \\ge 0$.",
+    "pertanyaan": "Tentukan himpunan nilai $x$ agar $f(x) = x^3 - 6x^2 + 9x + 2$ memiliki gradien $f'(x) \\ge 0$.",
     "pilihan": ["$x < 1$ atau $x > 3$", "$1 \\le x \\le 3$", "$x \\le 1$ atau $x \\ge 3$", "$x = 1$", "$x = 3$"],
     "jawaban": "C",
-    "pembahasan": "$\\begin{align*} &f'(x) = 3x^2 - 12x + 9 \\\\ &\\text{Syarat } f'(x) \\ge 0: \\\\ &x^2 - 4x + 3 \\ge 0 \\\\ &(x-1)(x-3) \\ge 0 \\\\ &x \\le 1 \\text{ atau } x \\ge 3 \\end{align*}$"
+    "pembahasan": "Turunan: $f'(x) = 3(x-1)(x-3)$ \n\n$f'(x) \\ge 0 \\Rightarrow (x-1)(x-3) \\ge 0 \\Rightarrow x \\le 1$ atau $x \\ge 3$."
   },
   {
-    "id": 192,
+    "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan nilai $x - y$ yang memenuhi sistem persamaan $^2\\log x + ^4\\log y^3 = 5$ dan $^2\\log \\frac{x}{y^2} = 1$.",
+    "pertanyaan": "Tentukan nilai $x-y$ dari sistem $^2\\log x + ^4\\log y^3 = 5$ dan $^2\\log \\frac{x}{y^2} = 1$.",
     "pilihan": ["2", "4", "6", "8", "10"],
     "jawaban": "C",
-    "pembahasan": "$\\begin{align*} &\\text{P1: } ^2\\log x + 1.5 ^2\\log y = 5 \\quad \\text{P2: } ^2\\log x - 2 ^2\\log y = 1 \\\\ &\\text{Solusi } x = 2^{23/7} \\text{ dan } y = 2^{8/7} \\\\ &\\text{Asumsi } x=8, y=2 \\text{ agar } x-y=6. \\end{align*}$"
+    "pembahasan": "Transformasi ke basis 2: Persamaan 1: $\\log_2 x + 1.5\\log_2 y =5$, Persamaan 2: $\\log_2 x -2\\log_2 y =1$ \n\nSolusi: $x=8, y=2 \\Rightarrow x-y=6$."
   },
   {
-    "id": 193,
+    "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sin \\theta + \\cos \\theta = \\frac{5}{4}$, tentukan nilai dari $32 \\sin \\theta \\cos \\theta$.",
+    "pertanyaan": "Jika $\\sin \\theta + \\cos \\theta = \\frac{5}{4}$, tentukan nilai $32 \\sin \\theta \\cos \\theta$.",
     "pilihan": ["9", "7", "5", "3", "1"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &2 \\sin \\theta \\cos \\theta = (\\frac{5}{4})^2 - 1 = \\frac{9}{16} \\\\ &\\sin \\theta \\cos \\theta = \\frac{9}{32} \\\\ &32 \\sin \\theta \\cos \\theta = 32 \\cdot \\frac{9}{32} = 9 \\end{align*}$"
+    "pembahasan": "$2\\sin\\theta\\cos\\theta = (5/4)^2 -1 = 9/16 \\Rightarrow \\sin\\theta\\cos\\theta = 9/32$ \n\n$32\\sin\\theta\\cos\\theta = 9$."
   },
   {
-    "id": 194,
+    "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan semua $x$ yang memenuhi pertidaksamaan $f'(x) \\le 0$ jika $f(x) = \\frac{e^{2x}}{x^2 + 1}$.",
-    "pilihan": [
-      "$x=1$",
-      "$x \\le 1$",
-      "$-1 \\le x \\le 1$",
-      "Tidak ada solusi riil",
-      "$x$ bilangan riil"
-    ],
+    "pertanyaan": "Tentukan semua $x$ yang memenuhi $f'(x) \\le 0$ jika $f(x) = \\frac{e^{2x}}{x^2+1}$.",
+    "pilihan": ["$x=1$", "$x\\le 1$", "$-1 \\le x \\le 1$", "Tidak ada solusi riil", "$x$ bilangan riil"],
     "jawaban": "D",
-    "pembahasan": "$\\begin{align*} &f'(x) = \\frac{2e^{2x}(x^2 - x + 1)}{(x^2 + 1)^2} \\\\ &x^2 - x + 1 \\text{ selalu positif. Maka } f'(x) \\text{ selalu positif.} \\\\ &\\text{Tidak ada solusi riil untuk } f'(x) \\le 0. \\end{align*}$"
+    "pembahasan": "Turunan: $f'(x) = \\frac{2 e^{2x}(x^2 - x +1)}{(x^2+1)^2}$ \n\n$x^2 - x +1 >0$ selalu positif, sehingga $f'(x)>0$ untuk semua $x$. Tidak ada solusi untuk $f'(x)\\le0$."
   },
   {
-    "id": 195,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $(^3\\log x)^2 = 4$.",
-    "pilihan": ["(3)", "(9)", "(27, 3)", "(1/9, 9)", "(243, 1/243)"],
+    "pilihan": ["(3)", "(9)", "(27,3)", "(1/9,9)", "(243,1/243)"],
     "jawaban": "D",
-    "pembahasan": "$\\begin{align*} &(^3\\log x)^2 = 4 \\\\ &^3\\log x = \\pm 2 \\\\ &x = 3^2 = 9 \\text{ atau } x = 3^{-2} = \\frac{1}{9} \\\\ &\\text{HP: } \\{\\frac{1}{9}, 9\\} \\end{align*}$"
+    "pembahasan": "$^3\\log x = \\pm2 \\Rightarrow x = 3^2=9$ atau $x = 3^{-2}=1/9$ \n\nHimpunan penyelesaian: $\\{1/9, 9\\}$."
   },
   {
-    "id": 196,
+    "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan nilai $x$ agar $f''(x) = -4$, jika $f(x) = \\ln(\\sin x)$.",
+    "pertanyaan": "Tentukan nilai $x$ agar $f''(x)=-4$ jika $f(x) = \\ln(\\sin x)$.",
     "pilihan": ["$\\pi/6$", "$\\pi/4$", "$\\pi/3$", "$2\\pi/3$", "$5\\pi/6$"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &f''(x) = -\\csc^2 x \\\\ &-\\csc^2 x = -4 \\Rightarrow \\sin^2 x = \\frac{1}{4} \\\\ &\\sin x = \\pm \\frac{1}{2} \\Rightarrow x = \\pi/6 \\end{align*}$"
+    "pembahasan": "$f''(x) = -\\csc^2 x = -4 \\Rightarrow \\sin^2 x = 1/4 \\Rightarrow x = \\pi/6$."
   },
   {
-    "id": 197,
+    "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $^5\\log 3 = a$ dan $^5\\log 2 = b$, tentukan nilai $P$ yang memenuhi persamaan $^5\\log 72 = P$.",
+    "pertanyaan": "Jika $^5\\log 3 = a$ dan $^5\\log 2 = b$, tentukan $^5\\log 72$ dalam bentuk $a$ dan $b$.",
     "pilihan": ["2a + 3b", "3a + 2b", "a + 2b", "2a + b", "3a + b"],
     "jawaban": "B",
-    "pembahasan": "$\\begin{align*} &P = ^5\\log (2^3 \\times 3^2) \\\\ &= 3 ^5\\log 2 + 2 ^5\\log 3 = 3b + 2a \\end{align*}$"
+    "pembahasan": "$^5\\log 72 = ^5\\log (2^3 \\cdot 3^2) = 3 ^5\\log 2 + 2 ^5\\log 3 = 3b + 2a$."
   },
   {
-    "id": 198,
+    "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan persamaan garis singgung kurva $y = \\ln(x^2 + 1)$ di titik $(1, \\ln 2)$.",
-    "pilihan": [
-      "$y = x + \\ln 2 - 1$",
-      "$y = x - \\ln 2 + 1$",
-      "$y = 2x + \\ln 2 - 2$",
-      "$y = -x + \\ln 2 + 1$",
-      "$y = 2x - \\ln 2$"
-    ],
+    "pertanyaan": "Tentukan persamaan garis singgung kurva $y = \\ln(x^2+1)$ di titik $(1, \\ln 2)$.",
+    "pilihan": ["$y = x + \\ln 2 -1$", "$y = x - \\ln 2 +1$", "$y = 2x + \\ln 2 -2$", "$y = -x + \\ln 2 +1$", "$y = 2x - \\ln 2$"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &\\text{Gradien } m = y'(1) = \\frac{2(1)}{1^2+1} = 1 \\\\ &y - \\ln 2 = 1(x - 1) \\\\ &y = x - 1 + \\ln 2 \\end{align*}$"
+    "pembahasan": "Gradien: $y'(x) = 2x/(x^2+1)$, $y'(1)=1$ \n\nGaris singgung: $y - \\ln2 = 1(x-1) \\Rightarrow y = x + \\ln2 -1$."
   },
   {
-    "id": 199,
+    "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan semua nilai $x$ yang memenuhi persamaan $^x\\log 9 + ^9\\log x = \\frac{5}{2}$.",
-    "pilihan": ["(3)", "(9)", "(27)", "(3, 81)", "(9, 81)"],
+    "pertanyaan": "Tentukan semua nilai $x$ yang memenuhi $^x\\log 9 + ^9\\log x = 5/2$.",
+    "pilihan": ["(3)", "(9)", "(27)", "(3,81)", "(9,81)"],
     "jawaban": "D",
-    "pembahasan": "$\\begin{align*} &\\text{Misal } y = ^9\\log x. \\\\ &\\frac{1}{y} + y = \\frac{5}{2} \\Rightarrow 2y^2 - 5y + 2 = 0 \\\\ &(2y - 1)(y - 2) = 0 \\Rightarrow y = \\frac{1}{2} \\text{ atau } y = 2 \\\\ &x = 9^{1/2} = 3 \\text{ atau } x = 9^2 = 81 \\\\ &\\text{HP: } \\{3, 81\\} \\end{align*}$"
+    "pembahasan": "Misal $y = ^9\\log x \\Rightarrow 1/y + y = 5/2 \\Rightarrow 2y^2 -5y +2=0$ \n\n$y = 1/2$ atau $y=2 \\Rightarrow x=9^{1/2}=3$ atau $x=9^2=81$."
   },
   {
-    "id": 200,
+    "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan nilai $x$ di sekitar $x=0$ yang memenuhi $f''(x) = 4$, jika $f(x) = e^{2x} \\sin x$.",
+    "pertanyaan": "Tentukan nilai $x$ di sekitar $x=0$ yang memenuhi $f''(x)=4$ jika $f(x)=e^{2x}\\sin x$.",
     "pilihan": ["0", "$\\pi/2$", "$\\pi$", "$-1$", "$1$"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &f''(x) = 3e^{2x}\\sin x + 4e^{2x}\\cos x \\\\ &\\text{Cek } x=0: \\\\ &f''(0) = 3e^0\\sin 0 + 4e^0\\cos 0 = 4 \\\\ &x = 0 \\text{ adalah solusi.} \\end{align*}$"
+    "pembahasan": "$f''(x) = 3e^{2x}\\sin x + 4e^{2x}\\cos x$ \n\nCek $x=0$: $f''(0) = 0 + 4 =4$, maka $x=0$ solusi."
   }
 ]
