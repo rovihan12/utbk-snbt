@@ -2,30 +2,30 @@
   {
     "id": 1,
     "pertanyaan": "Faktorisasi dari $x^2 - 9$ adalah...",
-    "pilihan": ["$(x-3)(x-3)$", "$(x+3)(x+3)$", "$(x-3)(x+3)$", "$(x-9)(x+1)$", "$(x+9)(x-1)$"],
+    "pilihan": ["$(x - 3)(x - 3)$", "$(x + 3)(x + 3)$", "$(x - 3)(x + 3)$", "$(x - 9)(x + 1)$", "$(x + 9)(x - 1)$"],
     "jawaban": "C",
-    "pembahasan": "$x^2 - 9$ adalah selisih dua kuadrat: $a^2 - b^2 = (a - b)(a + b)$. Di sini $a = x$, $b = 3$. Jadi, $x^2 - 9 = (x - 3)(x + 3)$."
+    "pembahasan": "$x^2 - 9$ adalah selisih dua kuadrat: $a^2 - b^2 = (a - b)(a + b)$. Dengan $a = x$ dan $b = 3$, diperoleh $(x - 3)(x + 3)$."
   },
   {
     "id": 2,
     "pertanyaan": "Hasil dari $\\frac{4}{5} \\div \\frac{2}{3}$ adalah...",
-    "pilihan": ["$\\frac{8}{15}$", "$\\frac{10}{12}$", "$\\frac{}{5}$", "$\\frac{5}{}$", "$\\frac{15}{8}$"],
+    "pilihan": ["$\\frac{8}{15}$", "$\\frac{10}{12}$", "$\\frac{6}{5}$", "$\\frac{15}{8}$", "$\\frac{5}{6}$"],
     "jawaban": "C",
-    "pembahasan": "Aturan pembagian pecahan: $\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$. Jadi, $\\frac{4}{5} \\div \\frac{2}{3} = \\frac{4}{5} \\times \\frac{3}{2} = \\frac{12}{10} = \\frac{}{5}$."
+    "pembahasan": "Aturan pembagian pecahan: $\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$. Jadi $\\frac{4}{5} \\times \\frac{3}{2} = \\frac{12}{10} = \\frac{6}{5}$."
   },
   {
     "id": 3,
     "pertanyaan": "Bentuk baku dari $0.0000015$ adalah...",
-    "pilihan": ["$1.5 \\times 10^5$", "$1.5 \\times 10^$", "$1.5 \\times 10^{-5}$", "$1.5 \\times 10^{-}$", "$15 \\times 10^{-1}$"],
-    "jawaban": "D",
-    "pembahasan": "Geser koma  langkah ke kanan agar bilangan menjadi $1.5$. Jadi, $0.0000015 = 1.5 \\times 10^{-}$."
+    "pilihan": ["$1.5 \\times 10^5$", "$1.5 \\times 10^{-6}$", "$1.5 \\times 10^{-7}$", "$1.5 \\times 10^{-5}$", "$15 \\times 10^{-6}$"],
+    "jawaban": "B",
+    "pembahasan": "Geser koma 6 langkah ke kanan agar bilangan menjadi $1.5$. Jadi $0.0000015 = 1.5 \\times 10^{-6}$."
   },
   {
     "id": 4,
     "pertanyaan": "Jika $x = 4$ dan $y = -2$, maka nilai dari $2x^2 - 3y$ adalah...",
-    "pilihan": ["$2$", "$32$", "$38$", "$42$", "$50$"],
+    "pilihan": ["$2$", "$32$", "$38$", "$40$", "$50$"],
     "jawaban": "C",
-    "pembahasan": "Substitusikan: $2(4)^2 - 3(-2) = 2(1) +  = 38$."
+    "pembahasan": "Substitusikan $x = 4$ dan $y = -2$: $2(4)^2 - 3(-2) = 2(16) + 6 = 38$."
   },
   {
     "id": 5,
@@ -39,7 +39,7 @@
     "pertanyaan": "Himpunan penyelesaian dari sistem persamaan $x + y = 5$ dan $x - y = 1$ adalah...",
     "pilihan": ["$\\{(2, 3)\\}$", "$\\{(3, 2)\\}$", "$\\{(4, 1)\\}$", "$\\{(1, 4)\\}$", "$\\{(5, 0)\\}$"],
     "jawaban": "B",
-    "pembahasan": "Jumlahkan kedua persamaan: $2x =  \\Rightarrow x = 3$. Substitusi ke $x + y = 5 \\Rightarrow y = 2$. Jadi, $(3, 2)$."
+    "pembahasan": "Jumlahkan kedua persamaan: $2x = 6 \\Rightarrow x = 3$. Substitusi ke $x + y = 5 \\Rightarrow y = 2$. Jadi $(3, 2)$."
   },
   {
     "id": 7,
@@ -53,28 +53,28 @@
     "pertanyaan": "Jika $a = 3$, $b = 4$, dan $c = 5$, maka nilai dari $a^2 + b^2 - c^2$ adalah...",
     "pilihan": ["$0$", "$1$", "$2$", "$3$", "$4$"],
     "jawaban": "A",
-    "pembahasan": "Hitung: $9 + 1 - 25 = 0$."
+    "pembahasan": "$a^2 + b^2 - c^2 = 9 + 16 - 25 = 0$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah fungsi didefinisikan sebagai $f(x) = ax + b$. Jika $f(1) = 5$ dan $f(2) = 8$, maka nilai $f(3)$ adalah...",
     "pilihan": ["$9$", "$10$", "$11$", "$12$", "$13$"],
     "jawaban": "C",
-    "pembahasan": "Dari $f(1): a + b = 5$, dan $f(2): 2a + b = 8$. Kurangi: $a = 3$. Substitusi $a=3$: $b=2$. Maka $f(3)=3(3)+2=11$."
+    "pembahasan": "Dari $f(1): a + b = 5$ dan $f(2): 2a + b = 8$. Selisihkan: $a = 3$. Substitusi ke $a + b = 5$, diperoleh $b = 2$. Jadi $f(3) = 3(3) + 2 = 11$."
   },
   {
     "id": 10,
     "pertanyaan": "Jumlah sudut dalam segitiga adalah...",
-    "pilihan": ["$90^\\circ$", "$180^\\circ$", "$210^\\circ$", "$30^\\circ$", "$450^\\circ$"],
+    "pilihan": ["$90^\\circ$", "$180^\\circ$", "$210^\\circ$", "$270^\\circ$", "$360^\\circ$"],
     "jawaban": "B",
-    "pembahasan": "Jumlah sudut dalam segitiga selalu $180^\\circ$."
+    "pembahasan": "Jumlah seluruh sudut dalam segitiga selalu $180^\\circ$."
   },
   {
     "id": 11,
-    "pertanyaan": "Bentuk sederhana dari $\\frac{3x^2y}{xy^2}$ adalah...",
+    "pertanyaan": "Bentuk sederhana dari $\\frac{3x^2y}{6xy^2}$ adalah...",
     "pilihan": ["$\\frac{1}{2x}$", "$\\frac{x}{2y}$", "$\\frac{1}{2y}$", "$\\frac{x}{2}$", "$\\frac{x^2}{2y}$"],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan: $\\frac{3x^2y}{xy^2} = \\frac{3}{} \\cdot \\frac{x^2}{x} \\cdot \\frac{y}{y^2} = \\frac{1}{2} \\cdot x \\cdot \\frac{1}{y} = \\frac{x}{2y}$."
+    "pembahasan": "Sederhanakan: $\\frac{3x^2y}{6xy^2} = \\frac{3}{6} \\times \\frac{x^2}{x} \\times \\frac{y}{y^2} = \\frac{1}{2} \\times x \\times \\frac{1}{y} = \\frac{x}{2y}$."
   },
   {
     "id": 12,
@@ -85,58 +85,58 @@
   },
   {
     "id": 13,
-    "pertanyaan": "Jika luas persegi panjang adalah $48\\ \\text{cm}^2$ dan lebarnya $\\ \\text{cm}$, maka panjangnya adalah...",
-    "pilihan": ["$\\ \\text{cm}$", "$1\\ \\text{cm}$", "$8\\ \\text{cm}$", "$9\\ \\text{cm}$", "$10\\ \\text{cm}$"],
+    "pertanyaan": "Jika luas persegi panjang adalah $48\\ \\text{cm}^2$ dan lebarnya $6\\ \\text{cm}$, maka panjangnya adalah...",
+    "pilihan": ["$6\\ \\text{cm}$", "$7\\ \\text{cm}$", "$8\\ \\text{cm}$", "$9\\ \\text{cm}$", "$10\\ \\text{cm}$"],
     "jawaban": "C",
-    "pembahasan": "Panjang = Luas $\\div$ Lebar = $48 \\div  = 8\\ \\text{cm}$."
+    "pembahasan": "Panjang = Luas $\\div$ Lebar = $48 \\div 6 = 8\\ \\text{cm}$."
   },
   {
     "id": 14,
     "pertanyaan": "Jika $x - 2 = 5$, maka nilai $x^2$ adalah...",
-    "pilihan": ["$25$", "$3$", "$49$", "$4$", "$81$"],
+    "pilihan": ["$25$", "$36$", "$49$", "$64$", "$81$"],
     "jawaban": "C",
-    "pembahasan": "$x = 1$, maka $x^2 = 1^2 = 49$."
+    "pembahasan": "$x = 7$, maka $x^2 = 7^2 = 49$."
   },
   {
     "id": 15,
-    "pertanyaan": "Bentuk faktorisasi dari $x^2 + 1x + 12$ adalah...",
-    "pilihan": ["$(x + 4)(x + 3)$", "$(x + )(x + 1)$", "$(x + 2)(x + )$", "$(x + 5)(x + 2)$", "$(x + 1)(x + 12)$"],
+    "pertanyaan": "Bentuk faktorisasi dari $x^2 + 7x + 12$ adalah...",
+    "pilihan": ["$(x + 4)(x + 3)$", "$(x + 6)(x + 2)$", "$(x + 5)(x + 3)$", "$(x + 1)(x + 12)$", "$(x + 2)(x + 4)$"],
     "jawaban": "A",
-    "pembahasan": "Cari dua bilangan yang jumlahnya 1 dan hasil kalinya 12, yaitu 4 dan 3. Jadi faktorisasi: $(x + 4)(x + 3)$."
+    "pembahasan": "Cari dua bilangan yang jumlahnya 7 dan hasil kalinya 12, yaitu 4 dan 3. Jadi faktorisasi: $(x + 4)(x + 3)$."
   },
   {
     "id": 16,
     "pertanyaan": "Jika $\\sqrt{x} = 5$, maka nilai $x$ adalah...",
-    "pilihan": ["$10$", "$20$", "$25$", "$30$", "$35$"],
-    "jawaban": "C",
+    "pilihan": ["$10$", "$15$", "$20$", "$25$", "$30$"],
+    "jawaban": "D",
     "pembahasan": "Kuadratkan kedua sisi: $x = 5^2 = 25$."
   },
   {
     "id": 17,
-    "pertanyaan": "Volume kubus dengan panjang rusuk $\\ \\text{cm}$ adalah...",
-    "pilihan": ["$21\\ \\text{cm}^3$", "$12\\ \\text{cm}^3$", "$13\\ \\text{cm}^3$", "$19\\ \\text{cm}^3$", "$25\\ \\text{cm}^3$"],
-    "jawaban": "A",
-    "pembahasan": "Volume kubus $= s^3 = ^3 = 21\\ \\text{cm}^3$."
+    "pertanyaan": "Volume kubus dengan panjang rusuk $3\\ \\text{cm}$ adalah...",
+    "pilihan": ["$9\\ \\text{cm}^3$", "$12\\ \\text{cm}^3$", "$15\\ \\text{cm}^3$", "$21\\ \\text{cm}^3$", "$27\\ \\text{cm}^3$"],
+    "jawaban": "E",
+    "pembahasan": "Volume kubus $= s^3 = 3^3 = 27\\ \\text{cm}^3$."
   },
   {
     "id": 18,
     "pertanyaan": "Persentase dari $\\frac{3}{5}$ adalah...",
-    "pilihan": ["$20\\%$", "$40\\%$", "$50\\%$", "$0\\%$", "$80\\%$"],
-    "jawaban": "D",
-    "pembahasan": "$\\frac{3}{5} \\times 100\\% = 0\\%$."
+    "pilihan": ["$20\\%$", "$40\\%$", "$50\\%$", "$60\\%$", "$80\\%$"],
+    "jawaban": "E",
+    "pembahasan": "$\\frac{3}{5} \\times 100\\% = 60\\%$."
   },
   {
     "id": 19,
     "pertanyaan": "Jika $x + y = 10$ dan $x - y = 4$, maka nilai $x$ adalah...",
-    "pilihan": ["$2$", "$4$", "$$", "$1$", "$8$"],
-    "jawaban": "D",
-    "pembahasan": "Jumlahkan kedua persamaan: $2x = 14 \\Rightarrow x = 1$."
+    "pilihan": ["$2$", "$4$", "$6$", "$7$", "$8$"],
+    "jawaban": "E",
+    "pembahasan": "Jumlahkan kedua persamaan: $2x = 14 \\Rightarrow x = 7$."
   },
   {
     "id": 20,
     "pertanyaan": "Selisih dari $2^5$ dan $2^3$ adalah...",
-    "pilihan": ["$1$", "$24$", "$32$", "$40$", "$48$"],
-    "jawaban": "B",
+    "pilihan": ["$1$", "$8$", "$16$", "$24$", "$32$"],
+    "jawaban": "D",
     "pembahasan": "$2^5 = 32$, $2^3 = 8$, selisihnya $= 32 - 8 = 24$."
   }
 ]
