@@ -1,6 +1,6 @@
 [
 {
-  "id": 71,
+    "id": 1,
   "pertanyaan": "Pada persegipanjang ABCD, titik E dan G berturut-turut terletak di sisi DC dan AB sehingga AE sejajar GC. Jika AE = 4, $\\angle$AGD = 30°, dan garis DG dan AE berpotongan tegak lurus, besar $\\angle$AGC adalah ... .",
 "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/CamScanner%2028-08-2025%2006.21.jpg",
   "pilihan": [
@@ -16,7 +16,7 @@
     "pembahasan": "Misalkan titik potong antara garis DG dan AE adalah P. Karena DG dan AE berpotongan tegak lurus, maka $\\angle$APD = $\\angle$GPE = 90°. \nPerhatikan $\\triangle$APD. Kita memiliki $\\angle$PAD + $\\angle$PDA = 90°. \nKarena AE sejajar GC, maka $\\angle$AEC = $\\angle$GCE (sudut dalam berseberangan). \nKarena DG dan AE berpotongan tegak lurus, maka $\\angle$DPE = 90°. \nPerhatikan $\\triangle$ADP dan $\\triangle$GCP. \nKarena AE sejajar GC, dan DG adalah garis transversal, maka $\\angle$DGC dan $\\angle$APG adalah sudut dalam berseberangan. \nSehingga, $\\angle$DGC = $\\angle$APG = 90°. \nBesar $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \n$\\angle$AGC = $\\angle$AGD + $\\angle$DGC \n$\\angle$AGC = 30° + 90° = 120° \nJadi, besar $\\angle$AGC adalah 120°."
 },
   {
-  "id": 72,
+    "id": 2,
   "pertanyaan": "Jika suatu segitiga memiliki dua sisi dengan panjang 5 dan 9, manakah dari pilihan berikut ini yang mungkin menjadi panjang sisi ketiga dari segitiga tersebut?\n(1) 5\n(2) 14\n(3) 12",
   "pilihan": [
     "(1) saja",
@@ -29,7 +29,7 @@
   "pembahasan": "Sifat segitiga sembarang adalah sebagai berikut:\n* Jumlah panjang dua sisinya lebih besar dari panjang sisi ketiganya.\n* Selisih panjang dua sisinya lebih kecil dari panjang sisi ketiganya.\n\nUntuk panjang dua sisi segitiga 5 dan 9, maka panjang sisi ketiga ($x$) yang mungkin adalah:\n\n$9 - 5 < x < 9 + 5$\n$4 < x < 14$\n\nPernyataan (1): 5. \n$4 < 5 < 14$, maka pernyataan ini benar.\n\nPernyataan (2): 14. \n$4 < 14 < 14$, maka pernyataan ini salah.\n\nPernyataan (3): 12. \n$4 < 12 < 14$, maka pernyataan ini benar.\n\nJadi, pilihan yang mungkin benar adalah (1) dan (3)."
 },
   {
-  "id": 73,
+    "id": 3,
   "pertanyaan": "Perhatikan gambar berikut ini.\n\nPada gambar di atas, $PQRS$ adalah suatu trapesium dan $RQ = RT$. Hitunglah nilai $x°$ dan $y°$.",
   "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_082224_Gallery.jpg",
   "pilihan": [
@@ -44,7 +44,7 @@
   "pembahasan": "### Menentukan Nilai $x°$\nPada trapesium $PQRS$, diketahui $SR$ sejajar $PQ$. Jumlah sudut dalam trapesium adalah $360°$. Atau, perhatikan sudut-sudut yang bersebelahan pada sisi yang tidak sejajar, yaitu $\\angle P$ dan $\\angle S$ yang berjumlah 180°.\\n$2x° + 4x° = 180°$\\n$6x° = 180°$\\n$x° = 30°$\n\n### Menentukan Nilai $y°$\nPerhatikan $\\triangle QRT$. Diketahui $RQ=RT$, yang berarti $\\triangle QRT$ adalah segitiga sama kaki. Sudut-sudut di alasnya, yaitu $\\angle RQT$ dan $\\angle RTQ$, sama besar. Dari gambar, $\\angle RTQ = 85°$. Maka $\\angle RQT = 85°$.\nJumlah ketiga sudut dalam segitiga adalah $180°$. \n$\\angle QRT + \\angle RQT + \\angle RTQ = 180°$\n$y° + 85° + 85° = 180°$\\n$y° + 170° = 180°$\n$y° = 10°$\n\nJadi, nilai $x°$ dan $y°$ berturut-turut adalah $30°$ dan $10°$."
 },
   {
-    "id": 74,
+    "id": 4,
     "pertanyaan": "Sebuah trapesium memiliki panjang sisi sejajar masing-masing 10 cm dan 20 cm, serta tinggi 8 cm. Hitung luas trapesium tersebut!",
     "gambar": "soal_4.png",
     "pilihan": ["120 cm²", "140 cm²", "100 cm²", "150 cm²"],
@@ -52,7 +52,7 @@
     "pembahasan": "Luas trapesium = (1/2) × (jumlah sisi sejajar) × tinggi = (1/2) × (10 + 20) × 8 = 120 cm². Jawabannya A."
   },
   {
-  "id": 75,
+    "id": 5,
   "pertanyaan": "Pada gambar berikut, ABC adalah garis lurus. Tentukan besar $\\angle ABP$.",
   "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_084254_Samsung%20Internet.jpg",
   "pilihan": [
@@ -67,7 +67,7 @@
   "pembahasan": "Perhatikan $\\angle ABP$, $\\angle PBQ$, dan $\\angle QBC$ membentuk garis lurus, sehingga jumlah sudutnya adalah 180°. \n$\\angle ABP + \\angle PBQ + \\angle QBC = 180°$\n$2x + 105° + x = 180°$\n$3x + 105° = 180°$\n$3x = 180° - 105°$\n$3x = 75°$\n$x = 75° / 3$\n$x = 25°$\nBesar $\\angle ABP = 2x = 2(25°) = 50°$."
 },
    {
-    "id": 76,
+    "id": 6,
     "pertanyaan": "Diberikan dua lingkaran dengan pusat $M$ dan $N$ dengan radius berturut-turut $12$ cm dan $2$ cm. Jika $MN = 26$ cm, tentukan panjang garis persekutuan luar dua lingkaran tersebut.",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098129.jpg",
     "pilihan": ["24", "26", "28", "30", "32"],
@@ -75,7 +75,7 @@
     "pembahasan": "Untuk mencari panjang garis singgung persekutuan luar dua lingkaran, kita dapat menggunakan rumus yang diturunkan dari Teorema Pythagoras. Misalkan panjang garis singgung persekutuan luar adalah $L$, jarak antar pusat lingkaran adalah $MN$, jari-jari lingkaran besar adalah $R$, dan jari-jari lingkaran kecil adalah $r$. Rumus yang digunakan adalah:\n\n$L = \\sqrt{MN^2 - (R - r)^2}$\n\nDari soal, kita memiliki informasi:\n* Jari-jari lingkaran besar ($R$) = $12$ cm\n* Jari-jari lingkaran kecil ($r$) = $2$ cm\n* Jarak antar pusat lingkaran ($MN$) = $26$ cm\n\nSelisih jari-jari adalah $R - r = 12 - 2 = 10$ cm.\n\nSekarang, kita substitusikan nilai-nilai tersebut ke dalam rumus:\n\n$L = \\sqrt{26^2 - (10)^2}$\n$L = \\sqrt{676 - 100}$\n$L = \\sqrt{576}$\n$L = 24$ cm\n\nAtau, kita bisa menggunakan identitas **tripel Pythagoras**, yaitu $5, 12, 13$. Dengan mengalikan setiap angka dengan 2, kita dapatkan $10, 24, 26$. Dalam konteks soal ini, 26 adalah sisi miring ($MN$), dan 10 adalah salah satu sisi tegak ($R-r$). Maka, sisi tegak lainnya, yaitu panjang garis singgung persekutuan luar, adalah $24$ cm. "
   },
   {
-    "id": 77,
+      "id": 7,
     "pertanyaan": "Luas belah ketupat dengan diagonal 10 cm dan 16 cm adalah ...",
     "gambar": "soal_7.png",
     "pilihan": ["80 cm²", "100 cm²", "90 cm²", "70 cm²"],
@@ -83,7 +83,7 @@
     "pembahasan": "Luas belah ketupat = (1/2) × d1 × d2 = (1/2) × 10 × 16 = 80 cm². Jawaban A."
   },
   {
-    "id": 78,
+    "id": 8,
     "pertanyaan": "Sebuah setengah lingkaran memiliki diameter 14 cm. Hitung luasnya!",
     "gambar": "soal_8.png",
     "pilihan": ["76.93 cm²", "77 cm²", "154 cm²", "49 cm²"],
@@ -91,7 +91,7 @@
     "pembahasan": "Jari-jari = 14 / 2 = 7 cm. Luas lingkaran = π × r² = 3.14 × 49 = 153.86. Setengah lingkaran = 153.86 / 2 = 76.93 cm². Jawaban A."
   },
   {
-    "id": 79,
+    "id": 9,
     "pertanyaan": "Suatu roda berbentuk lingkaran dengan diameter $56$ cm berputar sebanyak $50$ kali putaran. Panjang lintasan yang telah ditempuh oleh roda tersebut adalah .... m",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098131.jpg",
     "pilihan": ["54", "88", "104", "178", "210"],
@@ -99,7 +99,7 @@
     "pembahasan": "Panjang lintasan yang ditempuh oleh roda adalah keliling roda dikalikan dengan jumlah putaran. Kita akan menghitung keliling roda terlebih dahulu, lalu mengalikannya dengan jumlah putaran, dan terakhir mengonversinya ke meter.\n\n### Langkah 1: Menghitung Keliling Roda\nKeliling roda (keliling lingkaran) dihitung dengan rumus $K = 2\\pi r$ atau $K = \\pi d$.\n\nDiketahui:\n* Diameter ($d$) = $56$ cm\n* Jari-jari ($r$) = $\\frac{d}{2} = \\frac{56}{2} = 28$ cm\n\nKita gunakan nilai $\\pi = \\frac{22}{7}$.\n\n$Keliling = 2 \\times \\frac{22}{7} \\times 28$\n$Keliling = 2 \\times 22 \\times 4$\n$Keliling = 176$ cm\n\n### Langkah 2: Menghitung Panjang Lintasan\nPanjang lintasan ($s$) adalah keliling roda dikalikan dengan jumlah putaran ($n$).\n\n$s = Keliling \\times n$\n$s = 176 \\times 50$\n$s = 8800$ cm\n\n### Langkah 3: Mengonversi ke Meter\nKita perlu mengonversi panjang lintasan dari centimeter (cm) ke meter (m). Diketahui bahwa $1$ m = $100$ cm.\n\n$s = \\frac{8800}{100} = 88$ m\n\nJadi, panjang lintasan yang ditempuh oleh roda tersebut adalah **88** meter."
   },
  {
-  "id": 80,
+  "id": 10,
   "pertanyaan": "Pada gambar di bawah, hitunglah nilai masing-masing $\\angle b$, $\\angle c$, dan $\\angle a$.",
   "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_084739_Samsung%20Internet.jpg",
   "pilihan": [
