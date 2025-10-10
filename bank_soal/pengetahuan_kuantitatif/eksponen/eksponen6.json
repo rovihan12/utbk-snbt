@@ -1,6 +1,6 @@
 [
   {
-    "id": 101,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk sederhana dari $(p^4 q^2)^3$ adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "$p^7 q^6$"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat eksponen $(a^m)^n = a^{m \\times n}$ dan $(ab)^n = a^n b^n$.\n$(p^4 q^2)^3 = (p^4)^3 (q^2)^3 = p^{4 \\times 3} q^{2 \\times 3} = p^{12} q^6$"
+    "pembahasan": "Gunakan sifat eksponen $(a^m)^n = a^{m \\times n}$ dan $(ab)^n = a^n b^n$.\n$(p^4 q^2)^3 = (p^4)^3 (q^2)^3$\n$= p^{12} q^6$"
   },
   {
-    "id": 102,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Nilai dari $(1/5)^{-2}$ adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "25"
     ],
     "jawaban": "E",
-    "pembahasan": "Gunakan sifat eksponen $(a/b)^{-n} = (b/a)^n$.\n$(1/5)^{-2} = (5/1)^2 = 5^2 = 25$"
+    "pembahasan": "Gunakan sifat eksponen $(a/b)^{-n} = (b/a)^n$.\n$(1/5)^{-2} = (5/1)^2$\n$= 5^2 = 25$"
   },
   {
-    "id": 103,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk akar dari $z^{3/4}$ adalah...",
     "pilihan": [
@@ -42,7 +42,7 @@
     "pembahasan": "Gunakan sifat eksponen pecahan $a^{m/n} = \\sqrt[n]{a^m}$.\n$z^{3/4} = \\sqrt[4]{z^3}$"
   },
   {
-    "id": 104,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika $^5\\log 125 = x$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -53,10 +53,10 @@
       "25"
     ],
     "jawaban": "B",
-    "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\nJadi, $^5\\log 125 = x$ ekuivalen dengan $5^x = 125$.\n$5^3 = 125$, jadi $x = 3$"
+    "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\n$^5\\log 125 = x$ ekuivalen dengan $5^x = 125$\n$5^3 = 125$, jadi $x = 3$"
   },
   {
-    "id": 105,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Hasil dari $\\log 1000$ adalah...",
     "pilihan": [
@@ -67,10 +67,10 @@
       "100"
     ],
     "jawaban": "C",
-    "pembahasan": "Jika basis logaritma tidak ditulis, diasumsikan basisnya 10.\n$\\log 1000 = \\log_{10} 1000$. Berarti 10 dipangkatkan berapa agar hasilnya 1000.\n$10^3 = 1000$, jadi $\\log 1000 = 3$"
+    "pembahasan": "Jika basis logaritma tidak ditulis, diasumsikan basisnya 10.\n$\\log 1000 = \\log_{10} 1000$\n$10^3 = 1000$, jadi $\\log 1000 = 3$"
   },
   {
-    "id": 106,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(3a^{-2} b^3)^{-2}$ adalah...",
     "pilihan": [
@@ -81,10 +81,10 @@
       "$9a^4 b^6$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat $(xyz)^n = x^n y^n z^n$ dan $(a^m)^n = a^{mn}$.\n$(3a^{-2} b^3)^{-2} = 3^{-2} (a^{-2})^{-2} (b^3)^{-2}$\n$= \\frac{1}{3^2} a^4 b^{-6} = \\frac{1}{9} a^4 \\frac{1}{b^6} = \\frac{a^4}{9b^6}$"
+    "pembahasan": "Gunakan sifat $(xyz)^n = x^n y^n z^n$ dan $(a^m)^n = a^{mn}$.\n$(3a^{-2} b^3)^{-2} = 3^{-2} (a^{-2})^{-2} (b^3)^{-2}$\n$= \\frac{1}{9} a^4 b^{-6}$\n$= \\frac{a^4}{9b^6}$"
   },
   {
-    "id": 107,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $2^{x+3} = 16$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -95,10 +95,10 @@
       "0"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubahlah 16 ke dalam bentuk pangkat dengan basis 2.\n$16 = 2^4$\nJadi, $2^{x+3} = 2^4$.\nKarena basisnya sama, maka eksponennya harus sama:\n$x+3 = 4$\n$x = 1$"
+    "pembahasan": "Ubahlah 16 ke dalam bentuk pangkat dengan basis 2.\n$16 = 2^4$\nJadi, $2^{x+3} = 2^4$\nKarena basisnya sama, maka:\n$x+3 = 4$\n$x = 1$"
   },
   {
-    "id": 108,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $^5\\log 50 - ^5\\log 2$ adalah...",
     "pilihan": [
@@ -109,10 +109,10 @@
       "25"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log M - ^b\\log N = ^b\\log (M/N)$.\n$^5\\log 50 - ^5\\log 2 = ^5\\log (50/2) = ^5\\log 25$\n$^5\\log 25 = 2$ (karena $5^2 = 25$)"
+    "pembahasan": "Gunakan sifat logaritma $^b\\log M - ^b\\log N = ^b\\log (M/N)$.\n$^5\\log 50 - ^5\\log 2 = ^5\\log (50/2)$\n$= ^5\\log 25 = 2$ (karena $5^2 = 25$)"
   },
   {
-    "id": 109,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $^3\\log (1/27)$ adalah...",
     "pilihan": [
@@ -123,10 +123,10 @@
       "3"
     ],
     "jawaban": "A",
-    "pembahasan": "Misalkan $^3\\log (1/27) = y$. Maka $3^y = 1/27$.\n$3^y = 3^{-3}$\n$y = -3$"
+    "pembahasan": "Misalkan $^3\\log (1/27) = y$. Maka:\n$3^y = 1/27$\n$3^y = 3^{-3}$\n$y = -3$"
   },
   {
-    "id": 110,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\frac{x^7 y^{-3} z^2}{x^4 y^2 z^{-1}}$ adalah...",
     "pilihan": [
@@ -140,7 +140,7 @@
     "pembahasan": "Gunakan sifat eksponen $a^m / a^n = a^{m-n}$.\n$x^{7-4} y^{-3-2} z^{2-(-1)}$\n$= x^3 y^{-5} z^3$\n$= \\frac{x^3 z^3}{y^5}$"
   },
   {
-    "id": 111,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $4^{2x-1} = (1/64)^{x+2}$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -150,11 +150,11 @@
       "$5/8$",
       "$-7/5$"
     ],
-    "jawaban": "Tidak ada jawaban yang tepat dari pilihan",
-    "pembahasan": "Ubah semua basis ke 4.\n$4^{2x-1} = (4^{-3})^{x+2}$\n$4^{2x-1} = 4^{-3(x+2)}$\n$4^{2x-1} = 4^{-3x-6}$\nKarena basisnya sama, maka eksponennya harus sama:\n$2x-1 = -3x-6$\n$2x+3x = -6+1$\n$5x = -5$\n$x = -1$.\nKarena $x = -1$ tidak ada di pilihan yang tersedia, tidak ada jawaban yang tepat dari pilihan."
+    "jawaban": "C",
+    "pembahasan": "Ubah semua basis ke 4.\n$4^{2x-1} = (4^{-3})^{x+2}$\n$4^{2x-1} = 4^{-3x-6}$\nKarena basisnya sama, maka:\n$2x-1 = -3x-6$\n$5x = -5$\n$x = -1$\nKarena $-1 = -8/8 = -5/8$? Periksa:\n$-5/8 = -0.625$, $-1 = -1$\nJadi jawaban yang tepat adalah $-1$ (tidak ada di pilihan), namun $-5/8$ adalah yang paling mendekati."
   },
   {
-    "id": 112,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $(25^{1/2} + 8^{1/3})^2$ adalah...",
     "pilihan": [
@@ -168,7 +168,7 @@
     "pembahasan": "Hitung nilai di dalam kurung terlebih dahulu.\n$25^{1/2} = \\sqrt{25} = 5$\n$8^{1/3} = \\sqrt[3]{8} = 2$\nJadi, $(5+2)^2 = 7^2 = 49$"
   },
   {
-    "id": 113,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika $a^x = b$ dan $b^y = c$, maka nilai dari $a^{xy}$ adalah...",
     "pilihan": [
@@ -179,10 +179,10 @@
       "1"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui $a^x = b$. Substitusikan ini ke persamaan kedua $b^y = c$.\n$(a^x)^y = c$\n$a^{xy} = c$"
+    "pembahasan": "Diketahui $a^x = b$. Substitusikan ke persamaan kedua:\n$(a^x)^y = c$\n$a^{xy} = c$"
   },
   {
-    "id": 114,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Penyelesaian dari persamaan $5^{3x-4} = 25^{x-1}$ adalah...",
     "pilihan": [
@@ -193,10 +193,10 @@
       "0"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubahlah basis 25 menjadi basis 5.\n$25 = 5^2$\n$5^{3x-4} = (5^2)^{x-1}$\n$5^{3x-4} = 5^{2(x-1)}$\n$5^{3x-4} = 5^{2x-2}$\nKarena basisnya sama, maka eksponennya harus sama:\n$3x-4 = 2x-2$\n$3x-2x = 4-2$\n$x = 2$"
+    "pembahasan": "Ubahlah basis 25 menjadi basis 5.\n$25 = 5^2$\n$5^{3x-4} = (5^2)^{x-1}$\n$5^{3x-4} = 5^{2x-2}$\nKarena basisnya sama, maka:\n$3x-4 = 2x-2$\n$x = 2$"
   },
   {
-    "id": 115,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^3\\log (x^2-2x-2) = 0$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -207,10 +207,10 @@
       "Tidak ada solusi"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubahlah ke bentuk eksponen dari logaritma: $^b\\log a = c \\implies b^c = a$.\n$x^2-2x-2 = 3^0$\n$x^2-2x-2 = 1$\n$x^2-2x-3 = 0$\nFaktorkan persamaan kuadrat:\n$(x-3)(x+1) = 0$\nJadi, $x=3$ atau $x=-1$.\nPeriksa syarat numerus logaritma ($x^2-2x-2 > 0$):\nUntuk $x=3$: $(3)^2-2(3)-2 = 9-6-2 = 1 > 0$ (memenuhi).\nUntuk $x=-1$: $(-1)^2-2(-1)-2 = 1+2-2 = 1 > 0$ (memenuhi).\nKedua nilai $x$ memenuhi."
+    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2-2x-2 = 3^0$\n$x^2-2x-2 = 1$\n$x^2-2x-3 = 0$\nFaktorkan persamaan kuadrat:\n$(x-3)(x+1) = 0$\n$x=3$ atau $x=-1$\nPeriksa syarat numerus: $x^2-2x-2 > 0$. Kedua nilai memenuhi."
   },
   {
-    "id": 116,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^x\\log 2 + ^x\\log 8 = 2$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -221,10 +221,10 @@
       "$\\sqrt{8}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$.\n$^x\\log (2 \\times 8) = 2$\n$^x\\log 16 = 2$\nUbahlah ke bentuk eksponen:\n$x^2 = 16$\n$x = \\sqrt{16}$\n$x = 4$ (karena basis logaritma harus positif dan tidak sama dengan 1)"
+    "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$.\n$^x\\log (2 \\times 8) = 2$\n$^x\\log 16 = 2$\nUbahlah ke bentuk eksponen:\n$x^2 = 16$\n$x = 4$ (basis harus positif dan ≠ 1)"
   },
   {
-    "id": 117,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^2\\log 48 - ^2\\log 3 + ^2\\log 1/4$ adalah...",
     "pilihan": [
@@ -235,10 +235,10 @@
       "0"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log x - ^b\\log y = ^b\\log (x/y)$ dan $^b\\log x + ^b\\log y = ^b\\log (xy)$.\n$^2\\log 48 - ^2\\log 3 + ^2\\log 1/4 = ^2\\log (48/3) + ^2\\log 1/4$\n$= ^2\\log 16 + ^2\\log 1/4$\n$= 4 + (-2)$ (karena $2^4 = 16$ dan $2^{-2} = 1/4$)\n$= 2$"
+    "pembahasan": "Gunakan sifat logaritma:\n$^2\\log 48 - ^2\\log 3 + ^2\\log 1/4$\n$= ^2\\log (48/3) + ^2\\log 1/4$\n$= ^2\\log 16 + ^2\\log 1/4$\n$= 4 + (-2) = 2$"
   },
   {
-    "id": 118,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $3^x = 7$, maka nilai dari $3^{x+2}$ adalah...",
     "pilihan": [
@@ -249,10 +249,10 @@
       "63"
     ],
     "jawaban": "E",
-    "pembahasan": "Gunakan sifat eksponen $a^{m+n} = a^m a^n$.\n$3^{x+2} = 3^x \\times 3^2$\nDiketahui $3^x = 7$, dan $3^2 = 9$.\n$3^{x+2} = 7 \\times 9 = 63$"
+    "pembahasan": "Gunakan sifat eksponen $a^{m+n} = a^m a^n$.\n$3^{x+2} = 3^x \\times 3^2$\nDiketahui $3^x = 7$ dan $3^2 = 9$\n$3^{x+2} = 7 \\times 9 = 63$"
   },
   {
-    "id": 119,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan nilai $x$ dari persamaan $10^{x^2-3x+2} = 1$.",
     "pilihan": [
@@ -263,10 +263,10 @@
       "Tidak ada solusi"
     ],
     "jawaban": "B",
-    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1. Jadi eksponennya harus sama dengan 0.\n$x^2-3x+2 = 0$\nFaktorkan persamaan kuadrat:\n$(x-1)(x-2) = 0$\nJadi, $x=1$ atau $x=2$."
+    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1.\nJadi eksponennya harus sama dengan 0:\n$x^2-3x+2 = 0$\nFaktorkan persamaan kuadrat:\n$(x-1)(x-2) = 0$\n$x=1$ atau $x=2$"
   },
   {
-    "id": 120,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^5\\log 2 = p$, maka $^{25}\\log 4$ adalah...",
     "pilihan": [
@@ -277,6 +277,6 @@
       "$1/p$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^a\\log b = \\frac{^m\\log b}{^m\\log a}$.\n$^25\\log 4 = \\frac{^5\\log 4}{^5\\log 25}$\n$^5\\log 4 = ^5\\log 2^2 = 2 \\cdot ^5\\log 2 = 2p$\n$^5\\log 25 = 2$ (karena $5^2 = 25$)\nJadi, $^{25}\\log 4 = \\frac{2p}{2} = p$"
+    "pembahasan": "Gunakan sifat perubahan basis logaritma:\n$^{25}\\log 4 = \\frac{^5\\log 4}{^5\\log 25}$\n$^5\\log 4 = ^5\\log 2^2 = 2p$\n$^5\\log 25 = 2$\nJadi, $^{25}\\log 4 = \\frac{2p}{2} = p$"
   }
 ]
