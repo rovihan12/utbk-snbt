@@ -4,139 +4,32 @@
     "pertanyaan": "Sebuah toko memberikan diskon 30% untuk semua barang. Jika Rina membeli 3 buku dengan harga Rp120.000,00 per buku sebelum diskon, berapa total yang harus dibayar Rina?",
     "pilihan": ["Rp252.000", "Rp264.000", "Rp270.000", "Rp280.000", "Rp300.000"],
     "jawaban": "A",
-    "pembahasan": "Harga sebelum diskon = $3 \\times 120.000 = 360.000$. Diskon 30% = $360.000 \\times 30\\% = 108.000$. Jadi harga setelah diskon = $360.000 - 108.000 = Rp252.000$."
+    "pembahasan": "Harga sebelum diskon = $3 \\times 120.000 = 360.000$.\n\nDiskon 30% = $360.000 \\times 30\\% = 108.000$.\n\nHarga setelah diskon = $360.000 - 108.000 = \\text{Rp252.000}$."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran memiliki luas 1.386 m². Berapakah keliling lapangan tersebut? (Gunakan $\\pi = \\tfrac{22}{7}$)",
     "pilihan": ["132 m", "144 m", "154 m", "166 m", "176 m"],
     "jawaban": "A",
-    "pembahasan": "Luas lingkaran $= \\pi r^2$. Maka: \n$1.386 = \\tfrac{22}{7} r^2$ → $r^2 = 441$ → $r = 21$. Keliling $= 2 \\pi r = 2 \\times \\tfrac{22}{7} \\times 21 = 132$ m."
+    "pembahasan": "Luas lingkaran: $L = \\pi r^2$.\n\n$1.386 = \\tfrac{22}{7} r^2 \\Rightarrow r^2 = 441 \\Rightarrow r = 21$.\n\nKeliling $= 2 \\pi r = 2 \\times \\tfrac{22}{7} \\times 21 = 132$ m."
   },
   {
     "id": 3,
     "pertanyaan": "Jika $2x + 3y = 17$ dan $3x - 2y = 6$, maka nilai $x+y$ adalah...",
     "pilihan": ["5", "6", "7", "8", "9"],
     "jawaban": "C",
-    "pembahasan": "Kalikan persamaan pertama ×2: $4x + 6y = 34$. \nKalikan persamaan kedua ×3: $9x - 6y = 18$. \nJumlahkan: $13x = 52$ → $x=4$. \nSubstitusi ke $2x+3y=17$: $8+3y=17$ → $y=3$. \nSehingga $x+y=7$."
+    "pembahasan": "Kalikan persamaan pertama dengan 2: $4x + 6y = 34$.\n\nKalikan persamaan kedua dengan 3: $9x - 6y = 18$.\n\nJumlahkan keduanya: $13x = 52 \\Rightarrow x = 4$.\n\nSubstitusi ke $2x + 3y = 17$: $8 + 3y = 17 \\Rightarrow y = 3$.\n\nMaka $x + y = 7$."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 12 pekerja dalam 18 hari. Setelah bekerja 6 hari, proyek berhenti 2 hari. Agar selesai tepat waktu, berapa pekerja tambahan yang dibutuhkan?",
     "pilihan": ["3", "4", "5", "6", "7"],
     "jawaban": "A",
-    "pembahasan": "Total beban kerja = $12 \\times 18 = 216$ hari-orang. \nPekerjaan selesai dalam 6 hari = $12 \\times 6 = 72$ hari-orang. \nSisa = $216-72=144$. \nWaktu tersisa = $18-6-2=10$ hari. \nKebutuhan pekerja = $144/10=14,4 \\approx 15$ orang. \nTambahan = $15-12=3$ pekerja."
+    "pembahasan": "Total pekerjaan = $12 \\times 18 = 216$ hari-orang.\n\nPekerjaan yang telah selesai = $12 \\times 6 = 72$ hari-orang.\n\nSisa pekerjaan = $216 - 72 = 144$.\n\nWaktu tersisa = $18 - 6 - 2 = 10$ hari.\n\nPekerja yang dibutuhkan = $144 / 10 = 14,4 \\approx 15$.\n\nTambahan pekerja = $15 - 12 = 3$ orang."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah kereta berangkat dari kota A ke B dengan kecepatan 75 km/jam dan kembali dengan kecepatan 50 km/jam. Jika waktu total perjalanan 10 jam, berapa jarak A ke B?",
     "pilihan": ["200 km", "225 km", "250 km", "275 km", "300 km"],
     "jawaban": "E",
-    "pembahasan": "Misal jarak $= d$. \nWaktu = $\\tfrac{d}{75} + \\tfrac{d}{50} = 10$. \nSamakan penyebut → $\\tfrac{2d+3d}{150}=10$ → $5d=1500$ → $d=300$ km."
-  },
-  {
-    "id": 6,
-    "pertanyaan": "Dalam sebuah kantong terdapat 4 kelereng merah, 5 biru, dan 6 hijau. Jika diambil 2 kelereng secara acak, berapa peluang terambil berbeda warna?",
-    "pilihan": ["37/105", "41/105", "44/105", "47/105", "74/105"],
-    "jawaban": "E",
-    "pembahasan": "Total cara = $C(15,2)=105$. \nPasangan sama warna = $C(4,2)+C(5,2)+C(6,2)=6+10+15=31$. \nBeda warna = $105-31=74$. \nPeluang $=\\tfrac{74}{105}$."
-  },
-  {
-    "id": 7,
-    "pertanyaan": "Sebuah tabung memiliki diameter 14 cm dan tinggi 15 cm. Berapa volume tabung tersebut? (Gunakan $\\pi = \\tfrac{22}{7}$)",
-    "pilihan": ["2.310 cm³", "2.420 cm³", "2.530 cm³", "2.640 cm³", "2.750 cm³"],
-    "jawaban": "A",
-    "pembahasan": "Jari-jari $=14/2=7$. \nVolume $= \\pi r^2 t = \\tfrac{22}{7} \\times 7^2 \\times 15 = 2.310$ cm³."
-  },
-  {
-    "id": 8,
-    "pertanyaan": "Perbandingan usia Ayah : Ibu : Anak = 7 : 5 : 3. Jika selisih usia Ayah dan Anak 25 tahun, berapa jumlah usia mereka?",
-    "pilihan": ["90 tahun", "92,5 tahun", "93,75 tahun", "95 tahun", "97,5 tahun"],
-    "jawaban": "C",
-    "pembahasan": "Selisih rasio Ayah-Anak = $7-3=4$ bagian. \n$4$ bagian $=25$ tahun → $1$ bagian $=25/4 = 6,25$ tahun. \nJumlah rasio = $7+5+3=15$. \nTotal usia = $15 \\times 6,25 = 93,75$ tahun."
-  },
-  {
-    "id": 9,
-    "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi miring 26 cm dan salah satu sisi siku-siku 10 cm. Berapa keliling segitiga tersebut?",
-    "pilihan": ["50 cm", "56 cm", "60 cm", "64 cm", "66 cm"],
-    "jawaban": "C",
-    "pembahasan": "Sisi lain $=\\sqrt{26^2-10^2}=\\sqrt{676-100}=\\sqrt{576}=24$. \nKeliling = $10+24+26=60$ cm."
-  },
-  {
-    "id": 10,
-    "pertanyaan": "Sebuah bilangan jika dikalikan 4 kemudian dikurangi 12 hasilnya sama dengan bilangan itu sendiri ditambah 24. Berapa bilangan tersebut?",
-    "pilihan": ["12", "14", "16", "18", "20"],
-    "jawaban": "A",
-    "pembahasan": "Misal bilangan $=x$. \n$4x-12=x+24$. \n$3x=36$ → $x=12$."
-  },
-  {
-    "id": 11,
-    "pertanyaan": "Sebuah bak mandi berbentuk kubus dapat menampung 512 liter air. Berapa panjang rusuk bak mandi tersebut?",
-    "pilihan": ["6 dm", "7 dm", "8 dm", "9 dm", "10 dm"],
-    "jawaban": "C",
-    "pembahasan": "Volume $=512$ liter $=512$ dm³. \nRusuk $= \\sqrt[3]{512} = 8$ dm."
-  },
-  {
-    "id": 12,
-    "pertanyaan": "Dari angka 1,2,3,4,5 akan dibentuk bilangan 3 digit berbeda. Berapa banyak bilangan ganjil yang dapat dibentuk?",
-    "pilihan": ["24", "30", "36", "42", "48"],
-    "jawaban": "C",
-    "pembahasan": "Digit satuan harus ganjil → pilihan = 3 (1,3,5). \nRatusan = 4 pilihan. \nPuluhan = 3 pilihan. \nTotal = $3 \\times 4 \\times 3 = 36$."
-  },
-  {
-    "id": 13,
-    "pertanyaan": "Sebuah persegi panjang memiliki luas 100 cm². Jika panjangnya bertambah 25% dan lebarnya berkurang 20%, berapa luas baru persegi panjang tersebut?",
-    "pilihan": ["80 cm²", "90 cm²", "100 cm²", "110 cm²", "120 cm²"],
-    "jawaban": "C",
-    "pembahasan": "Luas baru = $1,25 \\times 0,8 \\times 100 = 100$ cm²."
-  },
-  {
-    "id": 14,
-    "pertanyaan": "Sebuah mobil menempuh 200 km pertama dengan kecepatan 50 km/jam dan 300 km berikutnya dengan kecepatan 75 km/jam. Berapa kecepatan rata-rata seluruh perjalanan?",
-    "pilihan": ["60 km/jam", "62,5 km/jam", "65 km/jam", "67,5 km/jam", "70 km/jam"],
-    "jawaban": "B",
-    "pembahasan": "Waktu tempuh: $200/50=4$ jam, $300/75=4$ jam. \nTotal waktu = 8 jam. \nTotal jarak = 500 km. \nKecepatan rata-rata = $500/8=62,5$ km/jam."
-  },
-  {
-    "id": 15,
-    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 10 orang dalam 12 hari. Jika hanya 8 orang yang bekerja, berapa hari tambahan yang diperlukan?",
-    "pilihan": ["2 hari", "3 hari", "4 hari", "5 hari", "6 hari"],
-    "jawaban": "B",
-    "pembahasan": "Total beban kerja = $10 \\times 12=120$ hari-orang. \nJika 8 orang → $120/8=15$ hari. \nTambahan = $15-12=3$ hari."
-  },
-  {
-    "id": 16,
-    "pertanyaan": "Sebuah dadu dan uang logam dilempar bersama. Berapa peluang muncul mata dadu prima dan sisi gambar?",
-    "pilihan": ["1/4", "1/3", "1/2", "2/3", "3/4"],
-    "jawaban": "A",
-    "pembahasan": "Peluang dadu prima = $3/6=1/2$. \nPeluang sisi gambar = $1/2$. \nGabungan = $1/2 \\times 1/2 = 1/4$."
-  },
-  {
-    "id": 17,
-    "pertanyaan": "Sebuah lingkaran memiliki jari-jari 10 cm. Berapa luas setengah lingkaran tersebut? ($\\pi=3,14$)",
-    "pilihan": ["157 cm²", "160 cm²", "165 cm²", "170 cm²", "175 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Luas lingkaran $=3,14 \\times 10^2=314$. \nSetengahnya $=157$ cm²."
-  },
-  {
-    "id": 18,
-    "pertanyaan": "Jika $x^2 - 5x + 6 = 0$, maka nilai $x$ yang memenuhi adalah...",
-    "pilihan": ["1 dan 4", "2 dan 3", "-1 dan -6", "-2 dan -3", "0 dan 5"],
-    "jawaban": "B",
-    "pembahasan": "Faktorisasi: $(x-2)(x-3)=0$. \nMaka $x=2$ atau $x=3$."
-  },
-  {
-    "id": 19,
-    "pertanyaan": "Sebuah belanjaan mendapat diskon 25% kemudian diskon lagi 20%. Berapa total diskon yang didapat?",
-    "pilihan": ["40%", "42,5%", "44%", "45%", "50%"],
-    "jawaban": "A",
-    "pembahasan": "Harga akhir = $0,75 \\times 0,8 = 0,6$. \nJadi diskon total = $100\\%-60\\%=40\\%$."
-  },
-   {
-    "id": 20,
-    "pertanyaan": "Sebuah trapesium sama kaki memiliki sisi sejajar 12 cm dan 20 cm, serta tinggi 8 cm. Berapa keliling trapesium tersebut?",
-    "pilihan": ["47,88 cm", "49,88 cm", "51,88 cm", "53,88 cm", "55,88 cm"],
-    "jawaban": "B",
-    "pembahasan": "Setengah selisih sisi sejajar $= (20-12)/2 = 4$. \nSisi miring $=\\sqrt{4^2+8^2}=\\sqrt{16+64}=\\sqrt{80} \\approx 8,944$ cm. \nKeliling = $12+20+2 \\times \\sqrt{80} \\approx 32+17,888 = 49,888$ cm (dibulatkan menjadi 49,88 cm)."
-  }
-]
+    "pembahasan": "Misalkan jarak $= d$.\n\nWaktu total: $\\tfrac{d}{75} + \\tfrac{d}{50}
