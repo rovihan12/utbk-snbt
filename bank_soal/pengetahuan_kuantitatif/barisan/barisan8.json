@@ -10,7 +10,7 @@
       "Suku ke-5 = 29, Beda = 6"
     ],
     "jawaban": "B",
-    "pembahasan": "Untuk menemukan suku ke-n, kita dapat menggunakan rumus $a_n = S_n - S_{n-1}$. Suku ke-5 ($a_5$) adalah $S_5 - S_4$. \n$S_5 = 3(5)^2 - 5 = 3(25) - 5 = 75 - 5 = 70$. \n$S_4 = 3(4)^2 - 4 = 3(16) - 4 = 48 - 4 = 44$. \nJadi, $a_5 = 70 - 44 = 26$. \nBeda ($d$) dapat ditemukan dengan $d = a_2 - a_1$. Suku pertama $a_1 = S_1 = 3(1)^2 - 1 = 2$. Suku kedua $a_2 = S_2 - S_1 = (3(2)^2 - 2) - 2 = (12-2)-2=10-2=8$. Jadi, $d = 8 - 2 = 6$. \nSuku ke-5 adalah 26 dan beda adalah 6, sesuai dengan pilihan B."
+    "pembahasan": "Rumus: $a_n = S_n - S_{n-1}$\n\n$S_5 = 3(5)^2 - 5 = 75 - 5 = 70$\n$S_4 = 3(4)^2 - 4 = 48 - 4 = 44$\n$a_5 = 70 - 44 = 26$\n\nCari beda:\n$a_1 = S_1 = 3(1)^2 - 1 = 2$\n$a_2 = S_2 - S_1 = (12-2) - 2 = 8$\n$d = a_2 - a_1 = 8 - 2 = 6$\n\nJawaban: Suku ke-5 = 26, Beda = 6"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "18"
     ],
     "jawaban": "D",
-    "pembahasan": "Untuk barisan aritmetika, suku pertama $a_1 = 4$ dan suku ketiga $a_3 = a_1 + 2d = 36$. Maka $4 + 2d = 36 \\Rightarrow 2d = 32 \\Rightarrow d = 16$. Suku kedua barisan aritmetika adalah $a_2 = a_1 + d = 4 + 16 = 20$. \nUntuk barisan geometri, suku pertama $u_1=4$ dan suku ketiga $u_3=u_1 r^2 = 36$. Maka $4r^2=36 \\Rightarrow r^2=9 \\Rightarrow r = \\pm 3$. Suku kedua barisan geometri adalah $u_2 = u_1 r = 4r$. Jika $r=3$, maka $u_2=12$. Jika $r=-3$, maka $u_2=-12$. \nDiketahui suku kedua barisan aritmetika ($20$) lebih besar dari suku kedua barisan geometri ($12$ atau $-12$). Jadi, beda barisan aritmetika adalah $d=16$."
+    "pembahasan": "Barisan aritmetika:\n$a_1 = 4$, $a_3 = 36$\n$a_3 = a_1 + 2d$\n$36 = 4 + 2d$\n$2d = 32$\n$d = 16$\n\n$a_2 = 4 + 16 = 20$\n\nBarisan geometri:\n$u_1 = 4$, $u_3 = 36$\n$u_3 = u_1 r^2$\n$36 = 4r^2$\n$r^2 = 9$\n$r = 3$ atau $r = -3$\n\n$u_2 = 4r = 12$ atau $-12$\n\nKondisi terpenuhi: $20 > 12$ atau $20 > -12$"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Karena $a, b, c$ adalah barisan aritmetika, maka $2b = a+c$. \nKarena $a^2, b^2, c^2$ adalah barisan geometri, maka $(b^2)^2 = a^2 c^2 \\Rightarrow b^4 = (ac)^2$. Ini berarti $b^2 = ac$ (dengan asumsi suku-suku positif). \nSubstitusikan $b = \\frac{a+c}{2}$: $(\\frac{a+c}{2})^2 = ac \\Rightarrow \\frac{a^2+2ac+c^2}{4} = ac \\Rightarrow a^2+2ac+c^2 = 4ac \\Rightarrow a^2-2ac+c^2 = 0 \\Rightarrow (a-c)^2=0 \\Rightarrow a=c$. \nKarena $a=c$, maka $b=a=c$. Jadi, $\\frac{a}{c} + \\frac{c}{a} = \\frac{a}{a} + \\frac{a}{a} = 1+1=2$."
+    "pembahasan": "Barisan aritmetika: $2b = a + c$\nBarisan geometri: $(b^2)^2 = a^2 c^2$\n$b^4 = (ac)^2$\n$b^2 = ac$ (asumsi positif)\n\nSubstitusi $b = \\frac{a+c}{2}$:\n$(\\frac{a+c}{2})^2 = ac$\n$\\frac{a^2+2ac+c^2}{4} = ac$\n$a^2+2ac+c^2 = 4ac$\n$a^2-2ac+c^2 = 0$\n$(a-c)^2 = 0$\n$a = c$\n\n$\\frac{a}{c} + \\frac{c}{a} = 1 + 1 = 2$"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "$a=16, r=1/4$"
     ],
     "jawaban": "A",
-    "pembahasan": "Jumlah tak hingga dari deret geometri adalah $S_\\infty = \\frac{a}{1-r} = 16$ (Persamaan 1). \nSuku kedua adalah $ar=3$ (Persamaan 2). Dari Persamaan 2, kita dapatkan $a=\\frac{3}{r}$. \nSubstitusikan ke Persamaan 1: $\\frac{3/r}{1-r} = 16 \\Rightarrow 3 = 16r(1-r) \\Rightarrow 16r^2 - 16r + 3 = 0$. \nFaktorkan persamaan kuadrat: $(4r-1)(4r-3)=0$. \nMaka nilai $r$ adalah $r=\\frac{1}{4}$ atau $r=\\frac{3}{4}$. Jika $r=1/4$, maka $a = \\frac{3}{r} = \\frac{3}{1/4} = 12$. \nPasangan $(a, r)$ ini cocok dengan pilihan A."
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 16$\n$u_2 = ar = 3$\n\nDari $u_2$: $a = \\frac{3}{r}$\nSubstitusi:\n$\\frac{3/r}{1-r} = 16$\n$3 = 16r(1-r)$\n$16r^2 - 16r + 3 = 0$\n\nFaktor:\n$(4r-1)(4r-3) = 0$\n$r = 1/4$ atau $r = 3/4$\n\nUntuk $r = 1/4$:\n$a = \\frac{3}{1/4} = 12$"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "24"
     ],
     "jawaban": "B",
-    "pembahasan": "Jumlah tak hingga dari deret geometri adalah $S_\\infty = \\frac{a}{1-r} = 24$ (Persamaan 1). \nJumlah suku-suku genap ($a_2, a_4, ...$) membentuk deret geometri baru dengan suku pertama $ar$ dan rasio $r^2$. Maka $S_{genap} = \\frac{ar}{1-r^2} = 8$ (Persamaan 2). \nBagi Persamaan 1 dengan Persamaan 2: $\\frac{S_\\infty}{S_{genap}} = \\frac{a/(1-r)}{ar/(1-r^2)} = \\frac{24}{8} = 3$. \nPenyederhanaan: $\\frac{1-r^2}{r(1-r)} = \\frac{(1-r)(1+r)}{r(1-r)} = \\frac{1+r}{r} = 3$. \nMaka $1+r=3r \\Rightarrow 1=2r \\Rightarrow r=1/2$. \nSubstitusikan $r=1/2$ ke Persamaan 1: $\\frac{a}{1-1/2} = 24 \\Rightarrow \\frac{a}{1/2} = 24 \\Rightarrow 2a=24 \\Rightarrow a=12$. \nSuku pertama adalah 12."
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 24$\n\nSuku genap: $ar, ar^3, ar^5, ...$\nRasio baru: $r^2$\n$S_{genap} = \\frac{ar}{1-r^2} = 8$\n\nBagi persamaan:\n$\\frac{a/(1-r)}{ar/(1-r^2)} = \\frac{24}{8}$\n$\\frac{1-r^2}{r(1-r)} = 3$\n$\\frac{(1-r)(1+r)}{r(1-r)} = 3$\n$\\frac{1+r}{r} = 3$\n$1+r = 3r$\n$1 = 2r$\n$r = 1/2$\n\nSubstitusi:\n$\\frac{a}{1-1/2} = 24$\n$\\frac{a}{1/2} = 24$\n$2a = 24$\n$a = 12$"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
       "$y^{12} = x^6z^4$"
     ],
     "jawaban": "D",
-    "pembahasan": "Karena $\\log_2 x$, $\\log_4 y$, $\\log_8 z$ adalah barisan aritmetika, maka berlaku sifat: $2 \\times (\\text{suku tengah}) = \\text{suku pertama} + \\text{suku ketiga}$. \n$2 \\log_4 y = \\log_2 x + \\log_8 z$. \nUntuk memecahkan persamaan ini, kita ubah semua basis logaritma ke basis 2 menggunakan rumus perubahan basis $\\log_b a = \\frac{\\log_c a}{\\log_c b}$. \n$2 \\left( \\frac{\\log_2 y}{\\log_2 4} \\right) = \\log_2 x + \\frac{\\log_2 z}{\\log_2 8}$. \n$2 \\left( \\frac{\\log_2 y}{2} \\right) = \\log_2 x + \\frac{\\log_2 z}{3}$. \n$\\log_2 y = \\log_2 x + \\frac{1}{3} \\log_2 z$. \nUntuk menghilangkan pecahan, kalikan seluruh persamaan dengan 6: \n$6 \\log_2 y = 6 \\log_2 x + 2 \\log_2 z$. \nDengan menggunakan sifat logaritma $n \\log a = \\log a^n$ dan $\\log a + \\log b = \\log(ab)$: \n$\\log_2 y^6 = \\log_2 x^6 + \\log_2 z^2$. \n$\\log_2 y^6 = \\log_2 (x^6 z^2)$. \nKarena basis logaritmanya sama, kita dapat menyimpulkan bahwa $y^6 = x^6 z^2$. Hubungan ini sesuai dengan pilihan D."
+    "pembahasan": "Barisan aritmetika:\n$2\\log_4 y = \\log_2 x + \\log_8 z$\n\nUbah basis ke 2:\n$2\\cdot\\frac{\\log_2 y}{2} = \\log_2 x + \\frac{\\log_2 z}{3}$\n$\\log_2 y = \\log_2 x + \\frac{1}{3}\\log_2 z$\n\nKalikan 6:\n$6\\log_2 y = 6\\log_2 x + 2\\log_2 z$\n$\\log_2 y^6 = \\log_2 x^6 + \\log_2 z^2$\n$\\log_2 y^6 = \\log_2 (x^6 z^2)$\n$y^6 = x^6 z^2$"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
       "1100"
     ],
     "jawaban": "A",
-    "pembahasan": "Diketahui $S_{10}=100$ dan $S_{20}=400$. \n$S_{10} = \\frac{10}{2}(2a+9d)=5(2a+9d)=100 \\Rightarrow 2a+9d=20$. \n$S_{20} = \\frac{20}{2}(2a+19d)=10(2a+19d)=400 \\Rightarrow 2a+19d=40$. \nKurangkan kedua persamaan: $(2a+19d)-(2a+9d) = 40-20 \\Rightarrow 10d=20 \\Rightarrow d=2$. \nSubstitusikan $d=2$ ke $2a+9d=20 \\Rightarrow 2a+9(2)=20 \\Rightarrow 2a+18=20 \\Rightarrow 2a=2 \\Rightarrow a=1$. \nMaka $S_{30} = \\frac{30}{2}(2a+29d) = 15(2(1)+29(2)) = 15(2+58) = 15(60) = 900$. \n(Cara cepat: $S_{10}, S_{20}-S_{10}, S_{30}-S_{20}$ adalah barisan aritmetika. $S_{10}=100$. $S_{20}-S_{10}=400-100=300$. Beda 200. Maka $S_{30}-S_{20} = 300+200=500$. $S_{30}=S_{20}+500=400+500=900$.)"
+    "pembahasan": "$S_{10} = 5(2a+9d) = 100$\n$2a+9d = 20$\n\n$S_{20} = 10(2a+19d) = 400$\n$2a+19d = 40$\n\nKurangi:\n$(2a+19d) - (2a+9d) = 40-20$\n$10d = 20$\n$d = 2$\n\nSubstitusi:\n$2a+9(2) = 20$\n$2a+18 = 20$\n$2a = 2$\n$a = 1$\n\n$S_{30} = 15(2(1)+29(2))$\n$S_{30} = 15(2+58) = 15\\times60 = 900$"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "80"
     ],
     "jawaban": "B",
-    "pembahasan": "Misalkan barisan aritmetika adalah $b-d, b, b+d$. \nJumlahnya adalah $(b-d)+b+(b+d)=3b=12 \\Rightarrow b=4$. Jadi barisan adalah $4-d, 4, 4+d$. \nHasil kalinya adalah $(4-d)(4)(4+d)=48 \\Rightarrow 4(16-d^2)=48 \\Rightarrow 16-d^2=12 \\Rightarrow d^2=4 \\Rightarrow d=\\pm 2$. \nJika $d=2$, barisan adalah $2, 4, 6$. Jika $d=-2$, barisan adalah $6, 4, 2$. Keduanya memberikan hasil yang sama untuk $a^2+b^2+c^2$. \n$2^2+4^2+6^2 = 4+16+36=56$. Jadi, $a^2+b^2+c^2=56$."
+    "pembahasan": "Misal barisan: $b-d, b, b+d$\n\nJumlah:\n$(b-d)+b+(b+d) = 3b = 12$\n$b = 4$\n\nHasil kali:\n$(4-d)(4)(4+d) = 48$\n$4(16-d^2) = 48$\n$16-d^2 = 12$\n$d^2 = 4$\n$d = \\pm2$\n\nBarisan: $2,4,6$ atau $6,4,2$\n$a^2+b^2+c^2 = 4+16+36 = 56$"
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Rumus jumlah tak hingga deret geometri adalah $S_\\infty = \\frac{a}{1-r}$. \nDiketahui bahwa $S_\\infty = 4r$. Kita substitusikan persamaan ini ke dalam rumus jumlah tak hingga: $4r = \\frac{a}{1-r}$. \nUntuk mencari nilai $a$, kita pindahkan $(1-r)$ ke sisi kiri: $a = 4r(1-r)$. \nNilai $a$ bergantung pada nilai $r$. Namun, karena terdapat pilihan jawaban tunggal, kita dapat mencari nilai $r$ yang memberikan nilai $a$ yang ada di pilihan. \nJika kita asumsikan $a=1$ (pilihan A), maka $1 = 4r(1-r) \\Rightarrow 1 = 4r-4r^2 \\Rightarrow 4r^2-4r+1 = 0 \\Rightarrow (2r-1)^2=0$. \nMaka nilai $r=1/2$. Karena $-1 < 1/2 < 1$, nilai ini valid untuk deret konvergen. \nJadi, suku pertama dari barisan tersebut adalah 1."
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 4r$\n$a = 4r(1-r)$\n\nCoba $a=1$:\n$1 = 4r(1-r)$\n$1 = 4r-4r^2$\n$4r^2-4r+1 = 0$\n$(2r-1)^2 = 0$\n$r = 1/2$\n\nValid karena $|r|<1$\n$a = 1$"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
       "24"
     ],
     "jawaban": "D",
-    "pembahasan": "Ini adalah barisan rekursif, di mana suku ke-n adalah jumlah dari dua suku sebelumnya. \nDiketahui $a_1=2$ dan $a_2=3$. \n$a_3 = a_2+a_1 = 3+2=5$. \n$a_4 = a_3+a_2 = 5+3=8$. \n$a_5 = a_4+a_3 = 8+5=13$. \n$a_6 = a_5+a_4 = 13+8=21$. \nSuku ke-6 dari barisan tersebut adalah 21."
+    "pembahasan": "$a_1 = 2$\n$a_2 = 3$\n$a_3 = a_2 + a_1 = 3+2 = 5$\n$a_4 = a_3 + a_2 = 5+3 = 8$\n$a_5 = a_4 + a_3 = 8+5 = 13$\n$a_6 = a_5 + a_4 = 13+8 = 21$"
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
       "96"
     ],
     "jawaban": "D",
-    "pembahasan": "Misalkan barisan geometri adalah $a/r, a, ar$. \nHasil kalinya adalah $(a/r)(a)(ar) = a^3 = 64$, sehingga $a=4$. \nBarisan tersebut adalah $4/r, 4, 4r$. \nJumlahnya adalah $4/r+4+4r = 14 \\Rightarrow 4/r+4r = 10$. \nKalikan dengan $r$: $4+4r^2=10r \\Rightarrow 4r^2-10r+4=0 \\Rightarrow 2r^2-5r+2=0$. \nFaktorkan: $(2r-1)(r-2)=0$. Jadi $r=2$ atau $r=1/2$. \nJika $r=2$, barisan adalah $2, 4, 8$. Jika $r=1/2$, barisan adalah $8, 4, 2$. Keduanya memberikan hasil yang sama untuk $a^2+b^2+c^2$: $2^2+4^2+8^2 = 4+16+64=84$."
+    "pembahasan": "Misal barisan: $a/r, a, ar$\n\nHasil kali:\n$(a/r)(a)(ar) = a^3 = 64$\n$a = 4$\n\nJumlah:\n$4/r + 4 + 4r = 14$\n$4/r + 4r = 10$\nKalikan $r$:\n$4 + 4r^2 = 10r$\n$4r^2-10r+4 = 0$\n$2r^2-5r+2 = 0$\n$(2r-1)(r-2) = 0$\n$r = 2$ atau $1/2$\n\nBarisan: $2,4,8$ atau $8,4,2$\n$a^2+b^2+c^2 = 4+16+64 = 84$"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
       "23"
     ],
     "jawaban": "C",
-    "pembahasan": "Diketahui $S_{11}=121$. Rumus jumlah n suku pertama adalah $S_n=\\frac{n}{2}(2a_1+(n-1)d)$. \nUntuk $n=11$, $S_{11}=\\frac{11}{2}(2a_1+10d) = 11(a_1+5d)=121 \\Rightarrow a_1+5d=11$. Perlu diingat bahwa $a_1+5d$ adalah suku ke-6 ($a_6$). Jadi, $a_6=11$. \nDiketahui juga bahwa suku ke-3 adalah $a_3=a_1+2d=5$. Kita memiliki dua persamaan: $a_1+5d=11$ dan $a_1+2d=5$. \nKurangi persamaan pertama dengan persamaan kedua: $(a_1+5d)-(a_1+2d)=11-5 \\Rightarrow 3d=6 \\Rightarrow d=2$. \nSelanjutnya, substitusikan $d=2$ ke $a_1+2d=5 \\Rightarrow a_1+2(2)=5 \\Rightarrow a_1+4=5 \\Rightarrow a_1=1$. \nSuku ke-10 adalah $a_{10}=a_1+9d=1+9(2)=1+18=19$."
+    "pembahasan": "$S_{11} = \\frac{11}{2}(2a+10d) = 121$\n$11(a+5d) = 121$\n$a+5d = 11$ (suku ke-6)\n\n$a_3 = a+2d = 5$\n\nKurangi:\n$(a+5d)-(a+2d) = 11-5$\n$3d = 6$\n$d = 2$\n\nSubstitusi:\n$a+2(2) = 5$\n$a+4 = 5$\n$a = 1$\n\n$a_{10} = a+9d = 1+18 = 19$"
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
       "$n(n+1)/2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Perhatikan pola: \n$a_1=1=2^1-1$. \n$a_2=3=2^2-1$. \n$a_3=7=2^3-1$. \n$a_4=15=2^4-1$. \n$a_5=31=2^5-1$. \nJadi, suku ke-n adalah $a_n = 2^n-1$."
+    "pembahasan": "$a_1 = 1 = 2^1-1$\n$a_2 = 3 = 2^2-1$\n$a_3 = 7 = 2^3-1$\n$a_4 = 15 = 2^4-1$\n$a_5 = 31 = 2^5-1$\n\nPola: $a_n = 2^n-1$"
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
       "16"
     ],
     "jawaban": "B",
-    "pembahasan": "Jumlah deret geometri tak hingga adalah $S_\\infty=\\frac{a}{1-r}$. \nDiketahui $S_\\infty=64$ dan suku pertama $a=32$. \nMaka, $64=\\frac{32}{1-r} \\Rightarrow 1-r=\\frac{32}{64}=\\frac{1}{2} \\Rightarrow r=1-\\frac{1}{2}=\\frac{1}{2}$. \nSuku kelima dari deret geometri adalah $a_5=ar^4$. Substitusikan nilai $a$ dan $r$: \n$a_5=32(\\frac{1}{2})^4 = 32(\\frac{1}{16}) = 2$. \nSuku kelima dari deret tersebut adalah 2."
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 64$\n$\\frac{32}{1-r} = 64$\n$1-r = \\frac{32}{64} = \\frac{1}{2}$\n$r = 1-\\frac{1}{2} = \\frac{1}{2}$\n\n$a_5 = ar^4 = 32(\\frac{1}{2})^4$\n$a_5 = 32\\times\\frac{1}{16} = 2$"
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
       "26"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita hitung masing-masing suku: \n$a_1 = 2^{1+1}-2 = 2^2-2 = 4-2=2$. \n$a_2 = 2^{2+1}-2 = 2^3-2 = 8-2=6$. \n$a_3 = 2^{3+1}-2 = 2^4-2 = 16-2=14$. \nJumlah dari ketiga suku tersebut adalah $a_1+a_2+a_3=2+6+14=22$."
+    "pembahasan": "$a_1 = 2^{2}-2 = 4-2 = 2$\n$a_2 = 2^{3}-2 = 8-2 = 6$\n$a_3 = 2^{4}-2 = 16-2 = 14$\n\nJumlah: $2+6+14 = 22$"
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
       "4"
     ],
     "jawaban": "B",
-    "pembahasan": "Karena $a, a+b, 3a$ adalah barisan aritmetika, bedanya konstan. Maka, $(a+b) - a = 3a - (a+b)$. \n$b = 3a-a-b \\Rightarrow b = 2a-b$. \nTambahkan $b$ ke kedua sisi: $2b=2a$. \nBagikan dengan 2: $b=a$. \nNilai dari $a/b$ adalah $a/a=1$."
+    "pembahasan": "Barisan: $a, a+b, 3a$\nBeda konstan:\n$(a+b)-a = 3a-(a+b)$\n$b = 3a-a-b$\n$b = 2a-b$\n$2b = 2a$\n$b = a$\n\n$\\frac{a}{b} = \\frac{a}{a} = 1$"
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
       "35"
     ],
     "jawaban": "D",
-    "pembahasan": "Ini adalah barisan rekursif. Kita hitung suku-suku secara berurutan: \n$x_1=3$. \n$x_2=2x_1+1 = 2(3)+1 = 7$. \n$x_3=2x_2+1 = 2(7)+1 = 15$. \n$x_4=2x_3+1 = 2(15)+1 = 31$. \nSuku ke-4 dari barisan tersebut adalah 31."
+    "pembahasan": "$x_1 = 3$\n$x_2 = 2(3)+1 = 7$\n$x_3 = 2(7)+1 = 15$\n$x_4 = 2(15)+1 = 31$"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
       "38"
     ],
     "jawaban": "C",
-    "pembahasan": "Suku ke-n dapat ditemukan dengan $a_n=S_n-S_{n-1}$. Suku ke-4 adalah $a_4=S_4-S_3$. \n$S_4=5(4)^2-3(4)=5(16)-12=80-12=68$. \n$S_3=5(3)^2-3(3)=5(9)-9=45-9=36$. \nJadi, $a_4=68-36=32$. Suku ke-4 adalah 32."
+    "pembahasan": "$a_n = S_n - S_{n-1}$\n\n$S_4 = 5(16)-12 = 80-12 = 68$\n$S_3 = 5(9)-9 = 45-9 = 36$\n\n$a_4 = 68-36 = 32$"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
       "$a,b,c$ tidak bisa bilangan real"
     ],
     "jawaban": "D",
-    "pembahasan": "Jika $a, b, c$ adalah barisan aritmetika, maka $2b=a+c$. \nJika $a, b, c$ juga merupakan barisan geometri, maka $b^2=ac$. \nSubstitusikan $b = \\frac{a+c}{2}$ dari persamaan aritmetika ke dalam persamaan geometri: \n$(\\frac{a+c}{2})^2 = ac \\Rightarrow \\frac{a^2+2ac+c^2}{4}=ac \\Rightarrow a^2+2ac+c^2=4ac \\Rightarrow a^2-2ac+c^2=0 \\Rightarrow (a-c)^2=0$. \nMaka, $a=c$. Karena $a=c$, maka $2b=a+a \\Rightarrow 2b=2a \\Rightarrow b=a$. \nJadi, $a=b=c$."
+    "pembahasan": "Barisan aritmetika: $2b = a+c$\nBarisan geometri: $b^2 = ac$\n\nSubstitusi:\n$(\\frac{a+c}{2})^2 = ac$\n$\\frac{a^2+2ac+c^2}{4} = ac$\n$a^2+2ac+c^2 = 4ac$\n$a^2-2ac+c^2 = 0$\n$(a-c)^2 = 0$\n$a = c$\n\nDari $2b = a+c = 2a$\n$b = a$\n\nJadi $a = b = c$"
   },
   {
     "id": 20,
@@ -257,6 +257,6 @@
       "4/5"
     ],
     "jawaban": "B",
-    "pembahasan": "Rumus jumlah tak hingga adalah $S_\\infty = \\frac{a}{1-r}$. \nDiketahui $S_\\infty=18$ dan $a=12$. Maka $18 = \\frac{12}{1-r} \\Rightarrow 18(1-r)=12 \\Rightarrow 1-r=\\frac{12}{18}=\\frac{2}{3} \\Rightarrow r=1-\\frac{2}{3}=\\frac{1}{3}$."
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 18$\n$\\frac{12}{1-r} = 18$\n$1-r = \\frac{12}{18} = \\frac{2}{3}$\n$r = 1-\\frac{2}{3} = \\frac{1}{3}$"
   }
 ]
