@@ -50,7 +50,7 @@
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Tentukan nilai dari $\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$",
+    "pertanyaan": "Tentukan nilai dari $\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$, , y > 0",
     "pilihan": ["2", "3", "4", "6", "$\\sqrt{6}$"],
     "jawaban": "B",
     "pembahasan": "Misal $y = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$\nMaka $y = \\sqrt{6 + y}$\nKuadratkan: $y^2 = 6 + y$\n$y^2 - y - 6 = 0$\n$(y - 3)(y + 2) = 0$\nKarena $y > 0$, maka $y = 3$"
