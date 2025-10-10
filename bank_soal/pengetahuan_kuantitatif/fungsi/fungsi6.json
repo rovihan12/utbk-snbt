@@ -12,8 +12,8 @@
     "kategori": "Sedang",
     "pertanyaan": "Jika $f(x) = 3x + 2$, tentukan $f(4)$.",
     "pilihan": ["10","11","12","13","14"],
-    "jawaban": "D",
-    "pembahasan": "$f(4) = 3*4 + 2 = 12 + 2 = 14$."
+    "jawaban": "E",
+    "pembahasan": "$f(4) = 3 \\cdot 4 + 2 = 12 + 2 = 14$."
   },
   {
     "id": 3,
@@ -21,31 +21,31 @@
     "pertanyaan": "Selesaikan $x^2 - 5x + 6 = 0$.",
     "pilihan": ["1 dan 6","2 dan 3","-2 dan -3","3 dan 5","2 dan 4"],
     "jawaban": "B",
-    "pembahasan": "Faktorkan: $(x-2)(x-3)=0$ sehingga $x=2$ atau $x=3$."
+    "pembahasan": "Faktorkan: $(x-2)(x-3)=0$, sehingga $x=2$ atau $x=3$."
   },
   {
     "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Jika $g(x) = x^2 - 4$, tentukan $g(3)$.",
     "pilihan": ["5","6","7","8","9"],
-    "jawaban": "D",
+    "jawaban": "A",
     "pembahasan": "$g(3) = 3^2 - 4 = 9 - 4 = 5$."
   },
   {
     "id": 5,
     "kategori": "Sedang",
-    "pertanyaan": "Selesaikan pertidaksamaan $3x + 7 \le 16$.",
-    "pilihan": ["x\le2","x\le3","x\le4","x\le5","x\le6"],
+    "pertanyaan": "Selesaikan pertidaksamaan $3x + 7 \\le 16$.",
+    "pilihan": ["x\\le2","x\\le3","x\\le4","x\\le5","x\\le6"],
     "jawaban": "B",
-    "pembahasan": "$3x \le 16-7=9$, sehingga $x \le 3$."
+    "pembahasan": "$3x \\le 16-7 = 9 \\Rightarrow x \\le 3$."
   },
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Jika $f(x) = 2x-1$ dan $g(x)=x^2$, tentukan $(f \circ g)(2)$.",
+    "pertanyaan": "Jika $f(x) = 2x-1$ dan $g(x)=x^2$, tentukan $(f \\circ g)(2)$.",
     "pilihan": ["3","5","6","7","8"],
     "jawaban": "D",
-    "pembahasan": "$(f \circ g)(2) = f(g(2)) = f(2^2) = f(4) = 2*4 -1 =7$."
+    "pembahasan": "$(f \\circ g)(2) = f(g(2)) = f(2^2) = f(4) = 2\\cdot4 -1 = 7$."
   },
   {
     "id": 7,
@@ -53,15 +53,15 @@
     "pertanyaan": "Selesaikan $|x-3| = 5$.",
     "pilihan": ["x=-2 dan 8","x=2 dan 8","x=-8 dan 2","x=-5 dan 3","x=5 dan 3"],
     "jawaban": "A",
-    "pembahasan": "Kasus 1: $x-3=5 \Rightarrow x=8$. Kasus 2: $x-3=-5 \Rightarrow x=-2$."
+    "pembahasan": "Kasus 1: $x-3=5 \\Rightarrow x=8$. Kasus 2: $x-3=-5 \\Rightarrow x=-2$."
   },
   {
     "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Jika $h(x)=x^2+2x$, tentukan $h(-1)$.",
     "pilihan": ["-1","0","1","2","3"],
-    "jawaban": "B",
-    "pembahasan": "$h(-1) = (-1)^2 + 2(-1) = 1 -2 = -1$."
+    "jawaban": "A",
+    "pembahasan": "$h(-1) = (-1)^2 + 2(-1) = 1 - 2 = -1$."
   },
   {
     "id": 9,
@@ -69,15 +69,15 @@
     "pertanyaan": "Selesaikan $4x^2 = 36$.",
     "pilihan": ["-6 dan 6","-4 dan 4","-3 dan 3","-2 dan 2","0 dan 3"],
     "jawaban": "C",
-    "pembahasan": "$x^2=9 \Rightarrow x=-3$ atau $x=3$."
+    "pembahasan": "$x^2 = 9 \\Rightarrow x=-3$ atau $x=3$."
   },
   {
     "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Jika $f(x) = 5x + 1$, tentukan $x$ sehingga $f(x) = 21$.",
     "pilihan": ["3","4","5","6","7"],
-    "jawaban": "C",
-    "pembahasan": "$5x + 1 = 21 \Rightarrow 5x=20 \Rightarrow x=4$."
+    "jawaban": "B",
+    "pembahasan": "$5x + 1 = 21 \\Rightarrow 5x = 20 \\Rightarrow x = 4$."
   },
   {
     "id": 11,
@@ -85,15 +85,15 @@
     "pertanyaan": "Selesaikan pertidaksamaan $2x - 3 > 5$.",
     "pilihan": ["x>3","x>4","x>5","x>6","x>7"],
     "jawaban": "B",
-    "pembahasan": "$2x > 8 \Rightarrow x > 4$."
+    "pembahasan": "$2x > 8 \\Rightarrow x > 4$."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = x^2-2x$ dan $g(x)=x+1$, tentukan $(g \circ f)(2)$.",
+    "pertanyaan": "Jika $f(x) = x^2-2x$ dan $g(x)=x+1$, tentukan $(g \\circ f)(2)$.",
     "pilihan": ["1","2","3","4","5"],
-    "jawaban": "D",
-    "pembahasan": "$f(2) = 2^2 -2*2 =0$, kemudian $g(f(2)) = g(0) = 0 +1 =1$."
+    "jawaban": "A",
+    "pembahasan": "$f(2) = 2^2 -2\\cdot2 =0$, kemudian $g(f(2)) = g(0) = 0 +1 =1$."
   },
   {
     "id": 13,
@@ -106,10 +106,10 @@
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $|3x+1| \le 7$.",
-    "pilihan": ["-3 \le x \le 2","-2 \le x \le 3","-3 \le x \le 1","-1 \le x \le 2","0 \le x \le 3"],
+    "pertanyaan": "Selesaikan $|3x+1| \\le 7$.",
+    "pilihan": ["-3 \\le x \\le 2","-2 \\le x \\le 3","-3 \\le x \\le 1","-1 \\le x \\le 2","0 \\le x \\le 3"],
     "jawaban": "A",
-    "pembahasan": "$-7 \le 3x+1 \le 7 \Rightarrow -8 \le 3x \le 6 \Rightarrow -8/3 \le x \le 2$ (pembulatan ke -3 untuk jawaban pilihan)."
+    "pembahasan": "-7 \\le 3x+1 \\le 7 \\Rightarrow -8 \\le 3x \\le 6 \\Rightarrow -\\frac{8}{3} \\le x \\le 2 (dibulatkan ke pilihan terdekat: -3 \\le x \\le 2)."
   },
   {
     "id": 15,
@@ -125,15 +125,15 @@
     "pertanyaan": "Selesaikan persamaan $x^2 - 4x + 4 = 0$.",
     "pilihan": ["1","2","3","4","5"],
     "jawaban": "B",
-    "pembahasan": "Faktorkan: $(x-2)^2=0 \Rightarrow x=2$."
+    "pembahasan": "Faktorkan: $(x-2)^2=0 \\Rightarrow x=2$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x^2$ dan $g(x)=2x+1$, tentukan $(f \circ g)(1)$.",
+    "pertanyaan": "Jika $f(x)=x^2$ dan $g(x)=2x+1$, tentukan $(f \\circ g)(1)$.",
     "pilihan": ["1","4","6","9","16"],
     "jawaban": "D",
-    "pembahasan": "$g(1)=2*1+1=3$, kemudian $f(3)=3^2=9$."
+    "pembahasan": "$g(1)=2\\cdot1+1=3$, kemudian $f(3)=3^2=9$."
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "pertanyaan": "Selesaikan $2^{x} = 8$.",
     "pilihan": ["1","2","3","4","5"],
     "jawaban": "C",
-    "pembahasan": "$8 = 2^3 \Rightarrow 2^x = 2^3 \Rightarrow x=3$."
+    "pembahasan": "$8 = 2^3 \\Rightarrow 2^x = 2^3 \\Rightarrow x=3$."
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "pertanyaan": "Jika $f(x)=x-3$, tentukan $x$ sehingga $f(x)=4$.",
     "pilihan": ["5","6","7","8","9"],
     "jawaban": "C",
-    "pembahasan": "x-3=4 \Rightarrow x=7."
+    "pembahasan": "x-3=4 \\Rightarrow x=7."
   },
   {
     "id": 20,
@@ -157,6 +157,6 @@
     "pertanyaan": "Selesaikan $|x+2| -3 = 0$.",
     "pilihan": ["-5 dan 1","-1 dan 5","-2 dan 3","-3 dan 2","0 dan 5"],
     "jawaban": "A",
-    "pembahasan": "|x+2| = 3 \Rightarrow x+2=3 atau x+2=-3 \Rightarrow x=1 atau x=-5."
+    "pembahasan": "|x+2| = 3 \\Rightarrow x+2=3 atau x+2=-3 \\Rightarrow x=1 atau x=-5."
   }
 ]
