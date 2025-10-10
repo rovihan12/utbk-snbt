@@ -1,168 +1,162 @@
 [
   {
-    "id": 1,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = \\frac{2x + 1}{x - 3}$ dan $f^{-1}(a) = 5$, maka nilai $a$ adalah...",
-    "pilihan": ["11/2", "13/2", "15/2", "17/2", "19/2"],
-    "jawaban": "A",
-    "pembahasan": "Diketahui $f^{-1}(a) = 5 \\Rightarrow f(5) = a$. Maka $a = \\frac{2\\cdot5 + 1}{5-3} = \\frac{11}{2}$."
+    "id": 21,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $f(x) = 2x - 5$ dan $(g \\circ f)(x) = 4x^2 - 20x + 24$, tentukan fungsi $g(x)$.",
+    "pilihan": ["$x^2 + 1$","$x^2 - 1$","$x^2 - 2$","$2x^2 + 5$","$4x^2 - 1$"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan $y = f(x) = 2x - 5$. Kita ubah $(g \\circ f)(x)$ agar mengandung $(2x-5)$: $4x^2 - 20x + 24 = (4x^2 - 20x + 25) - 1 = (2x - 5)^2 - 1$. Jadi, $g(2x-5) = (2x-5)^2 - 1$. Ganti $(2x-5)$ dengan $y$: $g(y) = y^2 - 1$. Maka $\\mathbf{g(x) = x^2 - 1}$."
   },
   {
-    "id": 2,
-    "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $\\log_{2}(x^2 - 4x + 3) \\le 1$ adalah...",
-    "pilihan": ["$x \\le 1$ atau $x \\ge 3$", "$1 \\le x \\le 3$", "$1 \\le x \\le 2$ atau $x \\ge 3$", "$x \\le 1$ atau $2 \\le x \\le 3$", "$1 \\le x \\le 2$ atau $2 \\le x \\le 3$"],
+    "id": 22,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Diketahui matriks $\\mathbf{A} = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$ dan $\\mathbf{B} = \\begin{pmatrix} 1 & -1 \\\\ 0 & 2 \\end{pmatrix}$. Tentukan $\\mathbf{A} - 2\\mathbf{B}$.",
+    "pilihan": ["$\\begin{pmatrix} 0 & 3 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 1 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 3 \\\\ 4 & 1 \\end{pmatrix}$","$\\begin{pmatrix} 1 & 3 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 3 \\\\ 2 & 1 \\end{pmatrix}$"],
+    "jawaban": "A",
+    "pembahasan": "$2\\mathbf{B} = \\begin{pmatrix} 2 & -2 \\\\ 0 & 4 \\end{pmatrix}$. Kemudian $\\mathbf{A} - 2\\mathbf{B} = \\begin{pmatrix} 2-2 & 1-(-2) \\\\ 4-0 & 3-4 \\end{pmatrix} = \\begin{pmatrix} 0 & 3 \\\\ 4 & -1 \\end{pmatrix}$."
+  },
+  {
+    "id": 23,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika suku ke-3 barisan aritmatika adalah 11 dan suku ke-7 adalah 23, tentukan suku ke-10 barisan tersebut.",
+    "pilihan": ["29","32","35","38","41"],
+    "jawaban": "B",
+    "pembahasan": "$U_7 - U_3 = 4b \\Rightarrow 23 - 11 = 12$, jadi $4b = 12 \\Rightarrow b = 3$. $U_3 = a + 2b = 11 \\Rightarrow a + 2(3) = 11 \\Rightarrow a = 5$. $U_{10} = a + 9b = 5 + 9(3) = 32$."
+  },
+  {
+    "id": 24,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan batas nilai $k$ agar persamaan kuadrat $x^2 + (k-2)x + 9 = 0$ memiliki dua akar real yang berbeda.",
+    "pilihan": ["$-4 < k < 8$","$k < -4$ atau $k > 8$","$k < -8$ atau $k > 4$","$0 < k < 8$","$k < 0$ atau $k > 4$"],
+    "jawaban": "B",
+    "pembahasan": "Syarat dua akar real berbeda adalah Diskriminan $D > 0$. $D = (k-2)^2 - 4(1)(9)$. $(k-2)^2 - 36 > 0 \\Rightarrow (k-2)^2 > 36$. Maka $k-2 > 6$ atau $k-2 < -6$. Jadi $\\mathbf{k > 8}$ atau $\\mathbf{k < -4}$."
+  },
+  {
+    "id": 25,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan nilai dari $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
+    "pilihan": ["0","1","2","4","Tidak terdefinisi"],
     "jawaban": "D",
-    "pembahasan": "Syarat: $x^2-4x+3>0 \\Rightarrow x<1$ atau $x>3$. Pertidaksamaan: $x^2-4x+3 \\le 2 \\Rightarrow x^2-4x+1 \\le 0 \\Rightarrow 2-\\sqrt{3} \\le x \\le 2+\\sqrt{3}$. Irisan dengan syarat: $x \\le 1$ atau $2 \\le x \\le 3$."
+    "pembahasan": "Faktorkan pembilang: $\\lim_{x \\to 2} \\frac{(x - 2)(x + 2)}{x - 2}$. Karena $x \\to 2$, kita dapat mencoret $(x-2)$: $\\lim_{x \\to 2} (x + 2)$. Substitusi $x=2$: $2 + 2 = 4$."
   },
   {
-    "id": 3,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = 3^x + 3^{-x}$, maka nilai dari $f(x)^2 - f(2x)$ adalah...",
-    "pilihan": ["0","1","2","3","4"],
+    "id": 26,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $2 \\cdot 4^x = 16$, tentukan nilai dari $x$.",
+    "pilihan": ["1/2","1","3/2","2","5/2"],
     "jawaban": "C",
-    "pembahasan": "$f(x)^2=(3^x+3^{-x})^2=3^{2x}+2+3^{-2x}$, $f(2x)=3^{2x}+3^{-2x}$. Maka $f(x)^2-f(2x)=2$."
+    "pembahasan": "Bagi kedua sisi dengan 2: $4^x = 8$. Ubah ke basis 2: $(2^2)^x = 2^3 \\Rightarrow 2^{2x} = 2^3$. Maka $2x = 3 \\Rightarrow x = 3/2$."
   },
   {
-    "id": 4,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui sistem persamaan:\n$\\begin{cases} x+y+z=6 \\\\ x^2+y^2+z^2=14 \\\\ x^3+y^3+z^3=36 \\end{cases}$\nNilai dari $xyz$ adalah...",
-    "pilihan": ["2","3","4","5","6"],
-    "jawaban": "E",
-    "pembahasan": "$(x+y+z)^2 = x^2+y^2+z^2 + 2(xy+yz+zx) \\Rightarrow xy+yz+zx=11$.\n$(x+y+z)^3=x^3+y^3+z^3+3(x+y+z)(xy+yz+zx)-3xyz \\Rightarrow 216 = 36 + 198 +3xyz \\Rightarrow xyz=6$."
-  },
-  {
-    "id": 5,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sin x + \\cos x = 1/2$, maka nilai dari $\\sin^3 x + \\cos^3 x$ adalah...",
-    "pilihan": ["1/8","3/16","5/16","7/16","11/16"],
-    "jawaban": "E",
-    "pembahasan": "$(\\sin x+\\cos x)^2 = 1/4 = \\sin^2 x + \\cos^2 x + 2\\sin x\\cos x = 1 + 2\\sin x\\cos x \\Rightarrow \\sin x\\cos x = -3/8$. \n$\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(1 - \\sin x\\cos x) = 1/2 (1+3/8)=11/16$."
-  },
-  {
-    "id": 6,
-    "kategori": "Sulit",
-    "pertanyaan": "Fungsi $f(x) = \\frac{x^2 + 2x + a}{x^2 + 4x + 3a}$ terdefinisi untuk semua $x \\in \\mathbb{R}$ jika...",
-    "pilihan": ["$a<0$ atau $a>1$","$0<a<1$","$a=0$ atau $a=1$","$a\\le0$ atau $a\\ge1$","$0\\le a\\le1$"],
-    "jawaban": "B",
-    "pembahasan": "Fungsi terdefinisi untuk semua x jika penyebut $x^2+4x+3a$ tidak memiliki akar real. Diskriminan: $16-12a<0 \\Rightarrow a>4/3$. Maka pilihan B sesuai."
-  },
-  {
-    "id": 7,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = \\sqrt{x + \\sqrt{x + \\sqrt{x + \\cdots}}}$, maka nilai dari $f'(1)$ adalah...",
-    "pilihan": ["1/4","1/3","1/2","2/3","3/4"],
-    "jawaban": "B",
-    "pembahasan": "Misal $f(x)=\\sqrt{x+f(x)} \\Rightarrow f^2=x+f \\Rightarrow 2f f' = 1 + f' \\Rightarrow f' = 1/(2f-1)$. Di $x=1$, $f^2=f+1 \\Rightarrow f=(1+\\sqrt5)/2$. Maka $f'(1)=1/(2f-1)=1/(\\sqrt5)\\approx0.447$ (Pilihan B)."
-  },
-  {
-    "id": 8,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = e^{2x} + e^{-x}$ dan $f'(a) = 0$, maka nilai $f(a)$ adalah...",
-    "pilihan": ["$2^{1/3}+2^{-2/3}$","$3^{1/3}+3^{-2/3}$","$2^{2/3}+2^{-1/3}$","$3^{2/3}+3^{-1/3}$","$2^{3/2}+2^{-3/2}$"],
-    "jawaban": "A",
-    "pembahasan": "$f'(x)=2e^{2x}-e^{-x}=0 \\Rightarrow 2e^{3x}=1 \\Rightarrow x=-\\ln2/3$. Maka $f(a)=e^{2a}+e^{-a}=2^{-2/3}+2^{1/3}$."
-  },
-  {
-    "id": 9,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui sistem persamaan $2^x 3^y=12$ dan $2^y 3^x=18$, maka nilai $x+y$ adalah...",
-    "pilihan": ["1","2","3","4","5"],
+    "id": 27,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $f(x) = x^2 - 3x + 1$, tentukan turunan pertama $f'(x)$.",
+    "pilihan": ["$2x + 3$","$x^2 - 3$","$2x - 3$","$3x - 1$","$x - 3$"],
     "jawaban": "C",
-    "pembahasan": "Logaritma: $x\\ln2 + y\\ln3 = \\ln12$, $y\\ln2 + x\\ln3 = \\ln18$. Jumlahkan: $(x+y)(\\ln2+\\ln3)=\\ln216 \\Rightarrow x+y=3$."
+    "pembahasan": "$f'(x) = d/dx(x^2) - d/dx(3x) + d/dx(1) = 2x - 3 + 0 = 2x - 3$."
   },
   {
-    "id": 10,
-    "kategori": "Sulit",
-    "pertanyaan": "Fungsi $f(x) = x^3 + ax^2 + bx + c$ mencapai minimum di $(1,-3)$ dan memotong sumbu-Y di $(0,-1)$. Nilai $a+b+c$ adalah...",
-    "pilihan": ["-4","-2","0","2","4"],
-    "jawaban": "A",
-    "pembahasan": "$f(0)=c=-1$, $f(1)=1+a+b+c=-3 \\Rightarrow a+b=-3$. Turunan: $f'(1)=3+2a+b=0 \\Rightarrow 2a+b=-3$. Solusi: $a=0$, $b=-3$, $c=-1 \\Rightarrow a+b+c=-4$."
-  },
-  {
-    "id": 11,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\frac{a}{x} + \\frac{b}{y} = \\frac{a+b}{x+y}$ dengan $x,y,a,b\\neq0$, maka pernyataan yang benar adalah...",
-    "pilihan": ["$a/b = x/y$","$a=b$","$x=y$","$a+b=x+y$","$ab=xy$"],
-    "jawaban": "A",
-    "pembahasan": "Kalikan silang: $a(y) + b(x) = (a+b)(x+y) \\Rightarrow ay+bx = ax+ay+bx+by \\Rightarrow 0=bx+ay$ (asumsi positif) sehingga $a/b = x/y$."
-  },
-  {
-    "id": 12,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = \\sqrt{x + \\sqrt{x + \\sqrt{x + \\cdots}}}$, maka $f'(4)$ adalah...",
-    "pilihan": ["1/4","1/3","1/2","2/3","3/4"],
+    "id": 28,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan daerah himpunan penyelesaian dari pertidaksamaan linear $3x + 2y \\le 6$ pada kuadran I ($x \\ge 0, y \\ge 0$).",
+    "pilihan": ["$y \\ge -3/2 x + 3$","$y \\le -3/2 x + 3$","$y \\le 3/2 x + 3$","$x \\le 2$ dan $y \\le 3$","Hanya titik (0, 0)"],
     "jawaban": "B",
-    "pembahasan": "$f^2 = x+f \\Rightarrow 2ff' = 1+f' \\Rightarrow f' = 1/(2f-1)$. Di $x=4$, $f^2=f+4 \\Rightarrow f=2$, sehingga $f'(4)=1/(2\\cdot2-1)=1/3$."
+    "pembahasan": "Ubah pertidaksamaan ke bentuk $y$: $2y \\le -3x + 6 \\Rightarrow y \\le -\\frac{3}{2}x + 3$. Daerah penyelesaian adalah daerah di bawah garis lurus tersebut di kuadran I."
   },
   {
-    "id": 13,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\alpha$ dan $\\beta$ akar-akar persamaan $x^2-(a+4)x+4a+1=0$, nilai minimum $\\alpha^2+\\beta^2$ adalah...",
+    "id": 29,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $x, y$ adalah solusi dari sistem persamaan $x - y = 4$ dan $xy = 21$, tentukan nilai dari $x + y$.",
     "pilihan": ["8","10","12","14","16"],
-    "jawaban": "D",
-    "pembahasan": "$\\alpha+\\beta=a+4$, $\\alpha\\beta=4a+1$. Maka $\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2\\alpha\\beta=(a+4)^2-2(4a+1)=a^2+8$. Minimum saat $a=0 \\Rightarrow 8$ (pilihan D)."
+    "jawaban": "B",
+    "pembahasan": "Gunakan identitas $(x + y)^2 = (x - y)^2 + 4xy$. $(x + y)^2 = (4)^2 + 4(21) = 16 + 84 = 100$. Karena $x$ dan $y$ riil, $x + y = \\pm 10$. Sesuai pilihan, $\\mathbf{x + y = 10}$ (dari pasangan $x=7, y=3$)."
   },
   {
-    "id": 14,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $x_1$ dan $x_2$ akar $2^{2x}-3\\cdot2^{x+1}+8=0$, maka $x_1+x_2$ adalah...",
+    "id": 30,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $p$ dan $q$ adalah akar-akar dari persamaan $x^2 + x - 6 = 0$, tentukan persamaan kuadrat baru yang akar-akarnya adalah $p+1$ dan $q+1$.",
+    "pilihan": ["$x^2 + 3x - 4 = 0$","$x^2 - x - 6 = 0$","$x^2 - 3x + 4 = 0$","$x^2 + 3x + 4 = 0$","$x^2 + x - 4 = 0$"],
+    "jawaban": "B",
+    "pembahasan": "Akar awal: $p+q = -1$, $pq = -6$. Akar baru $p' = p+1$, $q' = q+1$. Jumlah akar baru: $p' + q' = (p+q) + 2 = -1 + 2 = 1$. Hasil kali akar baru: $p'q' = pq + (p+q) + 1 = -6 + (-1) + 1 = -6$. Persamaan baru: $x^2 - (1)x + (-6) = 0 \\Rightarrow \\mathbf{x^2 - x - 6 = 0}$."
+  },
+  {
+    "id": 31,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan nilai dari $\\int (3x^2 - 2x + 5) dx$.",
+    "pilihan": ["$6x - 2 + C$","$x^3 - x^2 + 5x + C$","$x^3 - x^2 + 5 + C$","$3x^3 - 2x^2 + 5x + C$","$6x^3 - 2x^2 + 5 + C$"],
+    "jawaban": "B",
+    "pembahasan": "Integralkan setiap suku: $\\int 3x^2 dx = x^3$; $\\int -2x dx = -x^2$; $\\int 5 dx = 5x$. Hasilnya: $\\mathbf{x^3 - x^2 + 5x + C}$."
+  },
+  {
+    "id": 32,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $g^{-1}(x) = \\frac{x}{x-2}$, tentukan nilai dari $g(3)$.",
+    "pilihan": ["3","-3","-6","3/5","Tidak terdefinisi"],
+    "jawaban": "A",
+    "pembahasan": "Jika $g(3) = a$, maka $g^{-1}(a) = 3$. Kita substitusi $x=a$ ke $g^{-1}(x)$: $\\frac{a}{a-2} = 3$. $a = 3(a-2) \\Rightarrow a = 3a - 6 \\Rightarrow 2a = 6 \\Rightarrow a = 3$. Jadi $\\mathbf{g(3) = 3}$."
+  },
+  {
+    "id": 33,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Selesaikan pertidaksamaan eksponen $2^{2x-1} \\le 8^{x+2}$.",
+    "pilihan": ["$x \\ge -7$","$x \\le -7$","$x \\ge 3$","$x \\le 3$","$x \\ge 7$"],
+    "jawaban": "A",
+    "pembahasan": "Ubah ke basis 2: $2^{2x-1} \\le (2^3)^{x+2} \\Rightarrow 2^{2x-1} \\le 2^{3x+6}$. Karena basis $2>1$, bandingkan eksponen: $2x - 1 \\le 3x + 6$. Pindahkan $2x$: $-1 - 6 \\le 3x - 2x \\Rightarrow \\mathbf{-7 \\le x}$."
+  },
+  {
+    "id": 34,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $x_1$ dan $x_2$ adalah akar-akar dari $x^2 - 4x + c = 0$ dan $x_1^2 + x_2^2 = 10$, tentukan nilai $c$.",
+    "pilihan": ["3","-3","6","-6","1"],
+    "jawaban": "A",
+    "pembahasan": "Dari Vieta: $x_1 + x_2 = 4$ dan $x_1 x_2 = c$. Gunakan identitas $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2$. $10 = (4)^2 - 2c \\Rightarrow 10 = 16 - 2c \\Rightarrow 2c = 6 \\Rightarrow \\mathbf{c = 3}$."
+  },
+  {
+    "id": 35,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan domain dari fungsi $f(x) = \\sqrt{\\frac{x}{x - 3}}$.",
+    "pilihan": ["$0 \\le x < 3$","$x < 0$ atau $x > 3$","$x \\le 0$ atau $x > 3$","$x \\ge 3$","$-3 < x < 0$"],
+    "jawaban": "C",
+    "pembahasan": "Syarat domain $\\frac{x}{x - 3} \\ge 0$ dan $x \\ne 3$. Pembuat nol $x=0$ dan $x=3$. Uji titik menghasilkan daerah positif pada $\\mathbf{x \\le 0}$ atau $\\mathbf{x > 3}$."
+  },
+  {
+    "id": 36,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan nilai dari $\\log_2(12) + \\log_2(4) - \\log_2(6)$.",
     "pilihan": ["2","3","4","5","6"],
     "jawaban": "B",
-    "pembahasan": "Substitusi $y=2^x$: $y^2-12y+8=0$. Maka $2^{x_1}2^{x_2}=8 \\Rightarrow x_1+x_2=3$."
+    "pembahasan": "Gunakan sifat logaritma: $\\log_2(\\frac{12 \\cdot 4}{6}) = \\log_2(\\frac{48}{6}) = \\log_2(8)$. Karena $8 = 2^3$, maka $\\log_2(8) = 3$."
   },
   {
-    "id": 15,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = \\frac{x-1}{x+1}$, maka $f^{(2023)}(x)$ adalah...",
-    "pilihan": [
-      "$\\frac{(-1)^{2023}2\\cdot2022!}{(x+1)^{2023}}$",
-      "$\\frac{(-1)^{2023}2\\cdot2023!}{(x+1)^{2024}}$",
-      "$\\frac{(-2)^{2023}2022!}{(x+1)^{2023}}$",
-      "$\\frac{(-2)^{2023}2023!}{(x+1)^{2024}}$",
-      "$\\frac{2^{2023}2023!}{(x+1)^{2024}}$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Turunan ke-n dari $f(x) = (x-1)/(x+1)$: $f^{(n)}(x) = \\frac{(-2)^n n!}{(x+1)^{n+1}}$. Untuk $n=2023$: $f^{(2023)}(x)=\\frac{(-2)^{2023}2023!}{(x+1)^{2024}}$."
-  },
-  {
-    "id": 16,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sin x + \\sin y = a$ dan $\\cos x + \\cos y = b$, maka $\\cos(x-y)$ adalah...",
-    "pilihan": ["(a^2+b^2)/2","(a^2+b^2-2)/2","(a^2-b^2)/2","(2-a^2-b^2)/2","(a^2+b^2)/4"],
-    "jawaban": "B",
-    "pembahasan": "Kuadratkan dan jumlahkan: $(\\sin x+\\sin y)^2+(\\cos x+\\cos y)^2 = 2+2\\cos(x-y) = a^2+b^2 \\Rightarrow \\cos(x-y)=(a^2+b^2-2)/2$."
-  },
-  {
-    "id": 17,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui $f(x)=x^3+3x^2+6x+6$, $g(x)$ invers $f(x)$. Nilai $g'(6)$ adalah...",
-    "pilihan": ["1/6","1/9","1/12","1/15","1/18"],
+    "id": 37,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan jumlah semua solusi bulat dari $|x - 1| + |x + 2| = 5$.",
+    "pilihan": ["-1","0","1","2","4"],
     "jawaban": "A",
-    "pembahasan": "g'(y)=1/f'(g(y)). f(0)=6 \\Rightarrow g(6)=0. f'(x)=3x^2+6x+6 \\Rightarrow f'(0)=6 \\Rightarrow g'(6)=1/6."
+    "pembahasan": "Solusi yang memenuhi adalah $x=-3$ dan $x=2$. Jumlah semua solusi bulat: $-3 + 2 = \\mathbf{-1}$."
   },
   {
-    "id": 18,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $2^{x+y}=16$ dan $3^{x-y}=9$, maka $x/y$ adalah...",
-    "pilihan": ["1/3","1/2","1","2","3"],
-    "jawaban": "E",
-    "pembahasan": "$2^{x+y}=16 \\Rightarrow x+y=4$, $3^{x-y}=9 \\Rightarrow x-y=2 \\Rightarrow x=3, y=1 \\Rightarrow x/y=3$."
-  },
-  {
-    "id": 19,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\alpha$ dan $\\beta$ akar $x^2-(\\tan75^\\circ+\\cot75^\\circ)x+1=0$, maka $\\alpha^{2023}+\\beta^{2023}$ adalah...",
-    "pilihan": ["0","1","2","$2\\sqrt2$","$2\\sqrt3$"],
+    "id": 38,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $f(x) = x^2 - 1$ dan $g(x) = 3x$, tentukan $(f \\cdot g)(2)$.",
+    "pilihan": ["6","12","18","24","30"],
     "jawaban": "C",
-    "pembahasan": "$\\tan75^\\circ+\\cot75^\\circ=4$, jadi persamaan $x^2-4x+1=0$, akar $\\alpha=2+\\sqrt3$, $\\beta=2-\\sqrt3$. Dengan pola, $\\alpha^{2023}+\\beta^{2023}=2$."
+    "pembahasan": "$(f \\cdot g)(2) = f(2) \\cdot g(2)$. $f(2) = 2^2 - 1 = 3$. $g(2) = 3(2) = 6$. Maka $(f \\cdot g)(2) = 3 \\cdot 6 = 18$."
   },
   {
-    "id": 20,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=\\frac{ax+b}{cx+d}$ dengan $f(0)=-1$, $f(1)=0$, $f(-1)=2$, maka $f(2)$ adalah...",
-    "pilihan": ["1/2","1/3","1/4","1/5","1/6"],
-    "jawaban": "D",
-    "pembahasan": "Dari syarat diperoleh $f(x)=(x-1)/(2x+1) \\Rightarrow f(2) = 1/5$."
+    "id": 39,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Jika $\\mathbf{A} = \\begin{pmatrix} 3 & 1 \\\\ -2 & 4 \\end{pmatrix}$, tentukan determinan dari $\\mathbf{A}$ ($|\\mathbf{A}|$).",
+    "pilihan": ["10","12","14","16","18"],
+    "jawaban": "C",
+    "pembahasan": "Determinan $|\\mathbf{A}| = ad - bc = (3)(4) - (1)(-2) = 12 - (-2) = 14$."
+  },
+  {
+    "id": 40,
+    "kategori": "UTBK/SNBT",
+    "pertanyaan": "Tentukan luas daerah yang dibatasi oleh kurva $y = x^2 - 4x$ dan sumbu $x$ ($y=0$).",
+    "pilihan": ["$8/3$ satuan luas","$16/3$ satuan luas","$32/3$ satuan luas","$4$ satuan luas","$10$ satuan luas"],
+    "jawaban": "C",
+    "pembahasan": "Batas integral dari $x^2 - 4x = 0$ adalah $x=0$ dan $x=4$. Luas $L = |\\int_{0}^{4} (x^2 - 4x) dx| = |[\\frac{1}{3}x^3 - 2x^2]_0^4|$. $L = |(\\frac{1}{3}(64) - 2(16)) - 0| = |\\frac{64}{3} - 32| = |\\frac{64 - 96}{3}| = |-\\frac{32}{3}| = \\mathbf{\\frac{32}{3}}$."
   }
 ]
