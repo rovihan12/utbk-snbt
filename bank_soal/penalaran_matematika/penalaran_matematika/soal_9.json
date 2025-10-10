@@ -4,139 +4,139 @@
     "pertanyaan": "Sebuah toko memberikan diskon 30% untuk semua barang. Jika harga sebuah jaket setelah diskon adalah Rp350.000, harga asli jaket tersebut adalah...",
     "pilihan": ["Rp450.000", "Rp500.000", "Rp550.000", "Rp600.000", "Rp650.000"],
     "jawaban": "B",
-    "pembahasan": "Harga setelah diskon = 70% \\times harga asli.\n350.000 = 0,7 \\times harga asli\nHarga asli = 350.000 / 0,7 = Rp500.000."
+    "pembahasan": "Harga setelah diskon = 70% × harga asli. 350.000 = 0,7 × harga asli. Harga asli = 350.000 ÷ 0,7 = Rp500.000."
   },
   {
     "id": 2,
     "pertanyaan": "Pekerja A dapat menyelesaikan pengecatan selama 6 jam. Pekerja B dapat menyelesaikan pengecatan dinding yang sama selama 9 jam. Jika pengecatan dikerjakan bersama, maka akan memerlukan waktu ... jam.",
     "pilihan": ["5", "18/5", "2", "5/18", "5/2"],
     "jawaban": "B",
-    "pembahasan": "Kecepatan A = 1/6 pekerjaan/jam.\nKecepatan B = 1/9 pekerjaan/jam.\nKecepatan gabungan = 1/6 + 1/9 = 5/18 pekerjaan/jam.\nWaktu = 1 / (5/18) = 18/5 jam."
+    "pembahasan": "Kecepatan A = 1/6 pekerjaan/jam. Kecepatan B = 1/9 pekerjaan/jam. Kecepatan gabungan = 1/6 + 1/9 = 5/18 pekerjaan/jam. Waktu = 1 ÷ (5/18) = 18/5 jam."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang dengan panjang 25 m dan lebar 10 m. Kedalaman kolam bervariasi dari 1 m hingga 3 m. Volume air kolam adalah...",
     "pilihan": ["250 m³", "375 m³", "500 m³", "750 m³", "1.000 m³"],
     "jawaban": "C",
-    "pembahasan": "Kedalaman rata-rata = (1+3)/2 = 2 m.\nVolume = Panjang \\times Lebar \\times Kedalaman rata-rata = 25 \\times 10 \\times 2 = 500 m³."
+    "pembahasan": "Kedalaman rata-rata = (1 + 3)/2 = 2 m. Volume = panjang × lebar × kedalaman rata-rata = 25 × 10 × 2 = 500 m³."
   },
   {
     "id": 4,
     "pertanyaan": "Suatu tangki air memiliki kapasitas 4 m³. Pipa sedang mengisi 16 menit, pipa kecil 24 menit. Jika 1 pipa sedang dan 2 pipa kecil digunakan dan tangki sudah berisi 1,08 m³, maka pengisian berlangsung ... menit hingga penuh.",
     "pilihan": ["1,85", "2,92", "5,01", "7,52", "8,33"],
     "jawaban": "C",
-    "pembahasan": "Volume yang perlu diisi = $4 \\text{ m}^3 - 1,08 \\text{ m}^3 = 2,92 \\text{ m}^3$.\nDebit pipa sedang = $4/16 = 0,25 \\text{ m}^3/\\text{menit}$.\nDebit pipa kecil = $4/24 = 1/6 \\text{ m}^3/\\text{menit}$.\nDebit gabungan = $0,25 + 2 \\times (1/6) = 0,25 + 0,3333... = 7/12 \\text{ m}^3/\\text{menit}$.\nWaktu = Volume yang perlu diisi / Debit gabungan = $2,92 / (7/12) \\approx 5,0057 \\approx 5,01 \\text{ menit}$."
+    "pembahasan": "Volume yang perlu diisi = 4 - 1,08 = 2,92 m³. Debit pipa sedang = 4/16 = 0,25 m³/menit. Debit pipa kecil = 4/24 = 1/6 m³/menit. Debit gabungan = 0,25 + 2 × (1/6) = 7/12 m³/menit. Waktu = 2,92 ÷ (7/12) = 5,01 menit."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah segitiga sama kaki memiliki panjang alas 12 cm dan tinggi 8 cm. Luas segitiga tersebut adalah...",
     "pilihan": ["48 cm²", "64 cm²", "72 cm²", "96 cm²", "144 cm²"],
     "jawaban": "A",
-    "pembahasan": "Luas = 1/2 \\times alas \\times tinggi = 1/2 \\times 12 \\times 8 = 48 cm²."
+    "pembahasan": "Luas = 1/2 × alas × tinggi = 1/2 × 12 × 8 = 48 cm²."
   },
   {
     "id": 6,
     "pertanyaan": "Jika $\\log_2(x + 3) = 3$, maka nilai x adalah...",
     "pilihan": ["5", "6", "7", "8", "9"],
     "jawaban": "A",
-    "pembahasan": "Berdasarkan definisi logaritma: $x + 3 = 2^3 = 8$.\n$x = 8 - 3 = 5$."
+    "pembahasan": "Berdasarkan definisi logaritma: $x + 3 = 2^3 = 8$. $x = 8 - 3 = 5$."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 6 pekerja dalam 15 hari. Jika ditambah 3 pekerja baru, waktu penyelesaian menjadi...",
     "pilihan": ["5 hari", "7 hari", "10 hari", "12 hari", "20 hari"],
     "jawaban": "C",
-    "pembahasan": "Menggunakan perbandingan berbalik nilai: $P_1 \\times T_1 = P_2 \\times T_2$.\n$6 \\times 15 = (6+3) \\times T_2$.\n$90 = 9 \\times T_2$.\n$T_2 = 10$ hari."
+    "pembahasan": "Menggunakan perbandingan berbalik nilai: $6 × 15 = (6+3) × T_2$. $90 = 9 × T_2$. $T_2 = 10$ hari."
   },
   {
     "id": 8,
     "pertanyaan": "Nilai dari $(\\sqrt{12} + \\sqrt{3})^2$ adalah...",
     "pilihan": ["15", "18", "21", "24", "27"],
     "jawaban": "E",
-    "pembahasan": "$(\\sqrt{12} + \\sqrt{3})^2 = (\\sqrt{4 \\times 3} + \\sqrt{3})^2 = (2\\sqrt{3} + \\sqrt{3})^2 = (3\\sqrt{3})^2 = 3^2 \\times (\\sqrt{3})^2 = 9 \\times 3 = 27$."
+    "pembahasan": "$(\\sqrt{12} + \\sqrt{3})^2 = (2\\sqrt{3} + \\sqrt{3})^2 = (3\\sqrt{3})^2 = 9 × 3 = 27$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah bola memiliki volume $288\\pi \\text{ cm}^3$. Jari-jari bola adalah...",
     "pilihan": ["4 cm", "6 cm", "8 cm", "10 cm", "12 cm"],
     "jawaban": "B",
-    "pembahasan": "Volume $=\\frac{4}{3} \\pi r^3$.\n$288\\pi = \\frac{4}{3} \\pi r^3$.\n$r^3 = 288 \\times \\frac{3}{4} = 216$.\n$r = \\sqrt[3]{216} = 6 \\text{ cm}$."
+    "pembahasan": "Volume $= \\frac{4}{3}\\pi r^3$. $288\\pi = \\frac{4}{3}\\pi r^3$. $r^3 = 288 × \\frac{3}{4} = 216$. $r = \\sqrt[3]{216} = 6$ cm."
   },
   {
     "id": 10,
     "pertanyaan": "Diketahui $f(x) = 3x - 5$ dan $g(x) = x^2 + 1$. Nilai $(f \\circ g)(2)$ adalah...",
     "pilihan": ["5", "7", "10", "12", "15"],
     "jawaban": "C",
-    "pembahasan": "$(f \\circ g)(2) = f(g(2))$.\n$g(2) = 2^2 + 1 = 5$.\n$f(g(2)) = f(5) = 3(5) - 5 = 15 - 5 = 10$."
+    "pembahasan": "$(f \\circ g)(2) = f(g(2))$. $g(2) = 2^2 + 1 = 5$. $f(5) = 3(5) - 5 = 15 - 5 = 10$."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah kelas terdiri dari 30 siswa. Rata-rata nilai matematika adalah 75. Jika 5 siswa dikeluarkan, rata-rata menjadi 78. Rata-rata nilai 5 siswa tersebut adalah...",
     "pilihan": ["60", "65", "70", "72", "80"],
     "jawaban": "A",
-    "pembahasan": "Total nilai 30 siswa = $30 \\times 75 = 2250$.\nTotal nilai 25 siswa yang tersisa = $25 \\times 78 = 1950$.\nTotal nilai 5 siswa yang dikeluarkan = $2250 - 1950 = 300$.\nRata-rata 5 siswa = $300 / 5 = 60$."
+    "pembahasan": "Total nilai 30 siswa = $30 × 75 = 2250$. Total nilai 25 siswa = $25 × 78 = 1950$. Total nilai 5 siswa = $2250 - 1950 = 300$. Rata-rata 5 siswa = $300 ÷ 5 = 60$."
   },
   {
     "id": 12,
     "pertanyaan": "Jika $\\log_5 4 = a$ dan $\\log_5 2 = b$, maka $\\log_5 160$ adalah...",
     "pilihan": ["$a + b + 1$", "$a + 2b + 1$", "$2a + b + 1$", "$3a + b$", "$a + 3b$"],
-    "jawaban": "B",
-    "pembahasan": "Perhatikan bahwa $\\log_5 4 = \\log_5 2^2 = 2 \\log_5 2 = 2b$. Jadi $a=2b$.\n$\\log_5 160 = \\log_5 (32 \\times 5) = \\log_5 32 + \\log_5 5$.\n$\\log_5 32 = \\log_5 2^5 = 5 \\log_5 2 = 5b$.\n$\\log_5 160 = 5b + 1$. Karena $a=2b$, maka $5b = a + 3b = 2a + b$. Pilihan yang paling mendekati adalah $a + 2b + 1$ (karena $2b+2b+1 \ne 5b+1$).\nKita coba $a$ dan $b$ saja: $a + 2b + 1 = 2b + 2b + 1 = 4b + 1$. Tidak cocok.\nKemungkinan besar, ada kesalahan pada pilihan jawaban. Pilihan **yang paling tepat secara nilai** seharusnya **5b + 1**. Kita asumsikan $b$ salah ketik dan seharusnya **$a$** (untuk $\\log_5 4$) dan **$b$** (untuk $\\log_5 2$).\n**Asumsi Pilihan Diubah menjadi $5b+1$** (atau $2a + b + 1$ jika $b=\\log_5 8$). \nJika $a = \\log_5 4$ dan $b = \\log_5 2$: $5b + 1$. Dari pilihan yang ada, mari kita lihat:\n$2a + b + 1 = 2(2b) + b + 1 = 5b + 1$. Jawaban **C** adalah yang benar, jika $a=2b$. "
+    "jawaban": "C",
+    "pembahasan": "$\\log_5 160 = \\log_5 (32 × 5) = \\log_5 32 + \\log_5 5$. $\\log_5 32 = \\log_5 2^5 = 5b$. $\\log_5 160 = 5b + 1$. Karena $a = \\log_5 4 = 2b$, maka $5b + 1 = 2a + b + 1$."
   },
   {
     "id": 13,
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran dengan luas $1.386 \\text{ m}^2$ ($\\pi = 22/7$). Keliling lapangan tersebut adalah...",
     "pilihan": ["44 m", "66 m", "88 m", "132 m", "154 m"],
     "jawaban": "D",
-    "pembahasan": "Luas $L = \\pi r^2 = 1386$.\n$r^2 = (1386 \\times 7)/22 = 441$.\n$r = \\sqrt{441} = 21 \\text{ m}$.\nKeliling $K = 2 \\times \\pi \\times r = 2 \\times 22/7 \\times 21 = 132 \\text{ m}$."
+    "pembahasan": "Luas $= \\pi r^2 = 1386$. $r^2 = (1386 × 7)/22 = 441$. $r = \\sqrt{441} = 21$ m. Keliling $= 2 × \\pi × r = 2 × 22/7 × 21 = 132$ m."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah fungsi kuadrat $f(x) = x^2 - 6x + 8$ memiliki titik puncak di...",
     "pilihan": ["(3, -1)", "(3, 1)", "(-3, -1)", "(-3, 1)", "(6, 8)"],
     "jawaban": "A",
-    "pembahasan": "Sumbu simetri $x_p = -b/(2a) = -(-6)/(2 \\times 1) = 3$.\nNilai puncak $y_p = f(3) = 3^2 - 6(3) + 8 = 9 - 18 + 8 = -1$.\nTitik puncak = $(3, -1)$."
+    "pembahasan": "Sumbu simetri $x_p = -b/(2a) = 6/2 = 3$. Nilai puncak $y_p = f(3) = 3^2 - 6(3) + 8 = 9 - 18 + 8 = -1$. Titik puncak = $(3, -1)$."
   },
   {
     "id": 15,
     "pertanyaan": "Jika $x + 2y = 10$ dan $2x - y = 5$, maka nilai $y$ adalah...",
     "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Kalikan persamaan kedua dengan 2: $4x - 2y = 10$. \nTambahkan dengan persamaan pertama: $(x + 2y) + (4x - 2y) = 10 + 10$ → $5x = 20$ → $x = 4$.\nSubstitusi $x=4$ ke persamaan pertama: $4 + 2y = 10$ → $2y = 6$ → $y = 3$."
+    "pembahasan": "Kalikan persamaan kedua dengan 2: $4x - 2y = 10$. Tambahkan dengan persamaan pertama: $(x + 2y) + (4x - 2y) = 10 + 10$ → $5x = 20$ → $x = 4$. Substitusi $x=4$ ke persamaan pertama: $4 + 2y = 10$ → $2y = 6$ → $y = 3$."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah prisma segitiga memiliki alas segitiga siku-siku dengan sisi 6 cm, 8 cm, dan 10 cm. Tinggi prisma 12 cm. Volume prisma adalah...",
     "pilihan": ["288 cm³", "336 cm³", "480 cm³", "576 cm³", "720 cm³"],
     "jawaban": "A",
-    "pembahasan": "Alas segitiga siku-siku adalah sisi terpendek (6 cm dan 8 cm).\nLuas alas = $1/2 \\times 6 \\times 8 = 24 \\text{ cm}^2$.\nVolume prisma = Luas alas \\times Tinggi = $24 \\times 12 = 288 \\text{ cm}^3$."
+    "pembahasan": "Alas segitiga siku-siku dengan sisi 6 cm dan 8 cm. Luas alas = $1/2 × 6 × 8 = 24$ cm². Volume prisma = luas alas × tinggi = $24 × 12 = 288$ cm³."
   },
   {
     "id": 17,
     "pertanyaan": "Jika $2^x = 16$ dan $3^y = 81$, maka nilai $x + y$ adalah...",
     "pilihan": ["6", "7", "8", "9", "10"],
     "jawaban": "C",
-    "pembahasan": "$2^x = 16 = 2^4$ → $x = 4$.\n$3^y = 81 = 3^4$ → $y = 4$.\n$x + y = 4 + 4 = 8$."
+    "pembahasan": "$2^x = 16 = 2^4$ → $x = 4$. $3^y = 81 = 3^4$ → $y = 4$. $x + y = 4 + 4 = 8$."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah tangga sepanjang 10 m bersandar pada tembok. Jika jarak kaki tangga ke tembok 6 m, tinggi tembok yang dicapai tangga adalah...",
     "pilihan": ["6 m", "7 m", "8 m", "9 m", "10 m"],
     "jawaban": "C",
-    "pembahasan": "Menggunakan teorema Pythagoras: Tinggi = $\\sqrt{\\text{Panjang tangga}^2 - \\text{Jarak kaki}^2} = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8 \\text{ m}$."
+    "pembahasan": "Menggunakan teorema Pythagoras: Tinggi = $\\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$ m."
   },
   {
     "id": 19,
     "pertanyaan": "Diketahui himpunan $A = \\{1, 2, 3\\}$ dan $B = \\{a, b\\}$. Banyaknya fungsi dari $A$ ke $B$ adalah...",
     "pilihan": ["6", "8", "9", "12", "16"],
     "jawaban": "B",
-    "pembahasan": "Banyaknya fungsi dari himpunan A ke B adalah $|B|^{|A|}$.\nJumlah fungsi = $2^3 = 8$."
+    "pembahasan": "Banyaknya fungsi dari A ke B = $|B|^{|A|} = 2^3 = 8$."
   },
   {
     "id": 20,
     "pertanyaan": "Jika $\\sqrt[3]{x + 5} = 2$, maka nilai $x$ adalah...",
     "pilihan": ["3", "5", "7", "9", "11"],
     "jawaban": "A",
-    "pembahasan": "Pangkatkan tiga kedua ruas: $(\\sqrt[3]{x + 5})^3 = 2^3$.\n$x + 5 = 8$.\n$x = 8 - 5 = 3$."
+    "pembahasan": "Pangkatkan tiga kedua ruas: $(\\sqrt[3]{x + 5})^3 = 2^3$. $x + 5 = 8$. $x = 8 - 5 = 3$."
   }
 ]
