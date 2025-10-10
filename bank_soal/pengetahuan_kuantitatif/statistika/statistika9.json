@@ -1,282 +1,162 @@
 [
   {
-    "id": 161,
+    "id": 1,
     "kategori": "Sulit",
     "pertanyaan": "Sebuah kantong berisi 7 kelereng merah dan 5 kelereng putih. Jika diambil 4 kelereng sekaligus secara acak, peluang terambilnya 3 kelereng merah dan 1 kelereng putih adalah...",
-    "pilihan": [
-      "35/99",
-      "42/99",
-      "56/99",
-      "63/99",
-      "70/99"
-    ],
+    "pilihan": ["35/99", "42/99", "56/99", "63/99", "70/99"],
     "jawaban": "A",
-    "pembahasan": "Total kelereng = $7+5=12$.\\nBanyak cara mengambil 4 kelereng dari 12 = $C(12, 4) = \\frac{12!}{4!8!} = \\frac{12 \\times 11 \\times 10 \\times 9}{4 \\times 3 \\times 2 \\times 1} = 495$.\\nBanyak cara mengambil 3 kelereng merah dari 7 = $C(7, 3) = \\frac{7!}{3!4!} = \\frac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35$.\\nBanyak cara mengambil 1 kelereng putih dari 5 = $C(5, 1) = 5$.\\nBanyak cara terambil 3 merah dan 1 putih = $35 \\times 5 = 175$.\\nPeluang = $\\frac{175}{495} = \\frac{35}{99}$."
+    "pembahasan": "Total kelereng = $7 + 5 = 12$\nCara ambil 4 dari 12 = $C(12,4) = 495$\nCara ambil 3 merah dari 7 = $C(7,3) = 35$\nCara ambil 1 putih dari 5 = $C(5,1) = 5$\nTotal cara = $35 \\times 5 = 175$\nPeluang = $175/495 = 35/99$"
   },
   {
-    "id": 162,
+    "id": 2,
     "kategori": "Sulit",
     "pertanyaan": "Dari angka-angka 2, 3, 4, 5, 6, 7 akan dibentuk bilangan genap yang terdiri dari 3 angka berbeda. Banyaknya bilangan yang dapat dibentuk adalah...",
-    "pilihan": [
-      "30",
-      "40",
-      "60",
-      "72",
-      "120"
-    ],
+    "pilihan": ["30", "40", "60", "72", "120"],
     "jawaban": "C",
-    "pembahasan": "Bilangan genap, 3 angka berbeda.\\nAngka satuan harus genap (2, 4, 6) -> 3 pilihan.\\nSetelah memilih angka satuan, sisa 5 angka yang dapat dipilih untuk ratusan.\\nSetelah memilih angka ratusan, sisa 4 angka yang dapat dipilih untuk puluhan.\\nBanyaknya bilangan = $5 \\times 4 \\times 3 = 60$."
+    "pembahasan": "Angka satuan genap: 2, 4, 6 (3 pilihan)\nAngka ratusan: 5 pilihan (sisa)\nAngka puluhan: 4 pilihan (sisa)\nTotal = $5 \\times 4 \\times 3 = 60$"
   },
   {
-    "id": 163,
+    "id": 3,
     "kategori": "Sulit",
     "pertanyaan": "Sebanyak 8 orang (5 pria dan 3 wanita) duduk mengelilingi meja bundar. Banyak cara mereka duduk jika wanita harus duduk berdampingan adalah...",
-    "pilihan": [
-      "360",
-      "720",
-      "1440",
-      "2880",
-      "4320"
-    ],
+    "pilihan": ["360", "720", "1440", "2880", "4320"],
     "jawaban": "B",
-    "pembahasan": "Anggap 3 wanita sebagai satu kesatuan. Maka, ada 6 'objek' yang akan diatur duduk mengelilingi meja bundar (5 pria + 1 kelompok wanita).\\nBanyak cara mengatur 6 'objek' ini adalah $(6-1)! = 5! = 120$.\\nDi dalam kelompok wanita, 3 wanita bisa duduk dengan $3! = 6$ cara.\\nTotal cara = $120 \\times 6 = 720$."
+    "pembahasan": "Anggap 3 wanita sebagai 1 blok\nTotal objek = 5 pria + 1 blok = 6\nSusunan melingkar = $(6-1)! = 5! = 120$\nSusunan dalam blok = $3! = 6$\nTotal = $120 \\times 6 = 720$"
   },
   {
-    "id": 164,
+    "id": 4,
     "kategori": "Sulit",
     "pertanyaan": "Rata-rata nilai ujian 15 siswa adalah 80. Jika digabungkan dengan nilai seorang siswa lain, rata-ratanya menjadi 81. Nilai siswa tersebut adalah...",
-    "pilihan": [
-      "90",
-      "95",
-      "96",
-      "98",
-      "100"
-    ],
+    "pilihan": ["90", "95", "96", "98", "100"],
     "jawaban": "C",
-    "pembahasan": "Total nilai 15 siswa = $15 \\times 80 = 1200$.\\nTotal siswa setelah digabung = $15+1=16$.\\nTotal nilai 16 siswa = $16 \\times 81 = 1296$.\\nNilai siswa baru = $1296 - 1200 = 96$."
+    "pembahasan": "Total nilai 15 siswa = $15 \\times 80 = 1200$\nTotal nilai 16 siswa = $16 \\times 81 = 1296$\nNilai siswa baru = $1296 - 1200 = 96$"
   },
   {
-    "id": 165,
+    "id": 5,
     "kategori": "Sulit",
     "pertanyaan": "Modus dari data: 4, 5, 6, 7, 7, 8, 8, 8, 9, 10 adalah...",
-    "pilihan": [
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
+    "pilihan": ["6", "7", "8", "9", "10"],
     "jawaban": "C",
-    "pembahasan": "Modus adalah nilai yang paling sering muncul dalam data.\\nDari data: 4(1), 5(1), 6(1), 7(2), 8(3), 9(1), 10(1).\\nNilai yang paling sering muncul adalah 8 dengan frekuensi 3."
+    "pembahasan": "Frekuensi: 4(1), 5(1), 6(1), 7(2), 8(3), 9(1), 10(1)\nNilai dengan frekuensi tertinggi = 8"
   },
   {
-    "id": 166,
+    "id": 6,
     "kategori": "Sulit",
     "pertanyaan": "Jika median dari data 3, 5, 7, $y$, 11, 13, 15, 17 adalah 10, maka nilai $y$ adalah...",
-    "pilihan": [
-      "8",
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
+    "pilihan": ["8", "9", "10", "11", "12"],
     "jawaban": "B",
-    "pembahasan": "Data yang diberikan adalah 3, 5, 7, $y$, 11, 13, 15, 17, yang berjumlah 8 data.\\nMedian dari data genap adalah rata-rata dari dua data di tengah, yaitu data ke-4 dan data ke-5. Dari data yang terurut, data ke-4 adalah $y$ dan data ke-5 adalah 11.\\nMedian = $\\frac{\\text{data ke-4} + \\text{data ke-5}}{2} = 10$\\n$\\frac{y + 11}{2} = 10$\\n$y + 11 = 20$\\n$y = 9$. \\nJika $y=9$, data terurut adalah 3, 5, 7, 9, 11, 13, 15, 17. Mediannya $\\frac{9+11}{2}=10$, sesuai soal."
+    "pembahasan": "Data terurut: 3, 5, 7, $y$, 11, 13, 15, 17\nMedian = $(y + 11)/2 = 10$\n$y + 11 = 20$\n$y = 9$"
   },
   {
-    "id": 167,
+    "id": 7,
     "kategori": "Sulit",
     "pertanyaan": "Dalam sebuah kelas, 70% siswa lulus ujian matematika dan 80% lulus ujian bahasa Inggris. Jika 60% siswa lulus keduanya, persentase siswa yang tidak lulus kedua mata pelajaran tersebut adalah...",
-    "pilihan": [
-      "10%",
-      "20%",
-      "30%",
-      "40%",
-      "50%"
-    ],
+    "pilihan": ["10%", "20%", "30%", "40%", "50%"],
     "jawaban": "A",
-    "pembahasan": "Misalkan M = lulus matematika, I = lulus bahasa Inggris.\\n$P(M) = 0.7$, $P(I) = 0.8$, $P(M \\cap I) = 0.6$.\\nPeluang lulus salah satu atau keduanya = $P(M \\cup I) = P(M) + P(I) - P(M \\cap I)$.\\n$P(M \\cup I) = 0.7 + 0.8 - 0.6 = 0.9$.\\nPeluang tidak lulus keduanya = $1 - P(M \\cup I) = 1 - 0.9 = 0.1$ atau 10%."
+    "pembahasan": "$P(M) = 0.7$, $P(I) = 0.8$, $P(M \\cap I) = 0.6$\n$P(M \\cup I) = 0.7 + 0.8 - 0.6 = 0.9$\nTidak lulus keduanya = $1 - 0.9 = 0.1 = 10%$"
   },
   {
-    "id": 168,
+    "id": 8,
     "kategori": "Sulit",
     "pertanyaan": "Sebuah kantong berisi 8 bola merah dan 2 bola putih. Diambil 2 bola satu per satu dengan pengembalian. Peluang terambilnya bola pertama merah dan bola kedua putih adalah...",
-    "pilihan": [
-      "4/25",
-      "8/25",
-      "1/25",
-      "1/5",
-      "2/5"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Total bola = $8+2=10$.\\nKarena pengambilan dengan pengembalian, setiap kejadian independen.\\nPeluang terambil bola pertama merah = $\\frac{8}{10} = \\frac{4}{5}$.\\nPeluang terambil bola kedua putih = $\\frac{2}{10} = \\frac{1}{5}$.\\nPeluang gabungan = $P(M) \\times P(P) = \\frac{4}{5} \\times \\frac{1}{5} = \\frac{4}{25}$."
+    "pilihan": ["4/25", "8/25", "1/25", "1/5", "2/5"],
+    "jawaban": "A",
+    "pembahasan": "Dengan pengembalian, kejadian independen\nPeluang pertama merah = $8/10 = 4/5$\nPeluang kedua putih = $2/10 = 1/5$\nTotal peluang = $4/5 \\times 1/5 = 4/25$"
   },
   {
-    "id": 169,
+    "id": 9,
     "kategori": "Sulit",
     "pertanyaan": "Dari 12 orang, akan dipilih 5 orang untuk membentuk sebuah tim. Banyaknya cara pemilihan tersebut adalah...",
-    "pilihan": [
-      "792",
-      "1200",
-      "1500",
-      "2000",
-      "2500"
-    ],
+    "pilihan": ["792", "1200", "1500", "2000", "2500"],
     "jawaban": "A",
-    "pembahasan": "Ini adalah masalah kombinasi karena urutan pemilihan tidak penting.\\nBanyaknya cara memilih = $C(12, 5) = \\frac{12!}{5!7!} = \\frac{12 \\times 11 \\times 10 \\times 9 \\times 8}{5 \\times 4 \\times 3 \\times 2 \\times 1} = 12 \\times 11 \\times 9 \\times 2 = 792$."
+    "pembahasan": "Kombinasi 5 dari 12:\n$C(12,5) = 792$"
   },
   {
-    "id": 170,
+    "id": 10,
     "kategori": "Sulit",
     "pertanyaan": "Rata-rata nilai 20 siswa adalah 75. Jika nilai seorang siswa dengan nilai 85 tidak disertakan, maka rata-rata nilai 19 siswa sisanya adalah...",
-    "pilihan": [
-      "74",
-      "74.5",
-      "75",
-      "75.5",
-      "76"
-    ],
+    "pilihan": ["74", "74.5", "75", "75.5", "76"],
     "jawaban": "B",
-    "pembahasan": "Total nilai 20 siswa = $20 \\times 75 = 1500$.\\nSetelah satu siswa keluar, sisa 19 siswa.\\nTotal nilai 19 siswa = $1500 - 85 = 1415$.\\nRata-rata baru = $\\frac{1415}{19} = 74.47...$ yang paling mendekati 74.5."
+    "pembahasan": "Total nilai 20 siswa = $20 \\times 75 = 1500$\nTotal nilai 19 siswa = $1500 - 85 = 1415$\nRata-rata baru = $1415/19 = 74.47 \\approx 74.5$"
   },
   {
-    "id": 171,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Variansi dari data 2, 4, 6, 8, 10 adalah...",
-    "pilihan": [
-      "4",
-      "6",
-      "8",
-      "10",
-      "12"
-    ],
+    "pilihan": ["4", "6", "8", "10", "12"],
     "jawaban": "C",
-    "pembahasan": "Rata-rata $(\\bar{x})$: $\\frac{2+4+6+8+10}{5} = \\frac{30}{5} = 6$.\\nVariansi ($s^2$) = $\\frac{\\sum (x_i - \\bar{x})^2}{n}$\\n$s^2 = \\frac{(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2}{5}$\\n$s^2 = \\frac{(-4)^2 + (-2)^2 + 0^2 + 2^2 + 4^2}{5} = \\frac{16+4+0+4+16}{5} = \\frac{40}{5} = 8$."
+    "pembahasan": "Rata-rata = $30/5 = 6$\nVariansi = $\\frac{(2-6)^2+(4-6)^2+(6-6)^2+(8-6)^2+(10-6)^2}{5}$\n= $\\frac{16+4+0+4+16}{5} = 40/5 = 8$"
   },
   {
-    "id": 172,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Sebuah kantong berisi 5 kelereng merah dan 4 kelereng biru. Diambil 2 kelereng satu per satu tanpa pengembalian. Peluang terambilnya kedua kelereng berwarna sama adalah...",
-    "pilihan": [
-      "4/9",
-      "5/9",
-      "1/2",
-      "1/3",
-      "2/3"
-    ],
+    "pilihan": ["4/9", "5/9", "1/2", "1/3", "2/3"],
     "jawaban": "A",
-    "pembahasan": "Total kelereng = $5+4=9$.\\nPeluang kedua kelereng merah = $P(M1 \\cap M2) = \\frac{5}{9} \\times \\frac{4}{8} = \\frac{20}{72} = \\frac{5}{18}$.\\nPeluang kedua kelereng biru = $P(B1 \\cap B2) = \\frac{4}{9} \\times \\frac{3}{8} = \\frac{12}{72} = \\frac{1}{6}$.\\nPeluang kedua warna sama = $P(M1 \\cap M2) + P(B1 \\cap B2) = \\frac{5}{18} + \\frac{1}{6} = \\frac{5}{18} + \\frac{3}{18} = \\frac{8}{18} = \\frac{4}{9}$."
+    "pembahasan": "Peluang kedua merah = $5/9 \\times 4/8 = 20/72$\nPeluang kedua biru = $4/9 \\times 3/8 = 12/72$\nTotal = $32/72 = 4/9$"
   },
   {
-    "id": 173,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Sebuah perusahaan memiliki 10 karyawan, 6 laki-laki dan 4 perempuan. Jika akan dipilih 3 orang untuk mengikuti seminar, banyaknya cara memilih jika paling sedikit ada 1 perempuan yang terpilih adalah...",
-    "pilihan": [
-      "100",
-      "110",
-      "120",
-      "130",
-      "140"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Total cara memilih 3 orang dari 10 = $C(10, 3) = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$.\\nCara memilih tidak ada perempuan (semua laki-laki) = $C(6, 3) = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$.\\nBanyak cara paling sedikit 1 perempuan = Total cara - Cara tidak ada perempuan = $120 - 20 = 100$."
+    "pilihan": ["100", "110", "120", "130", "140"],
+    "jawaban": "A",
+    "pembahasan": "Total cara = $C(10,3) = 120$\nCara 0 perempuan = $C(6,3) = 20$\nCara minimal 1 perempuan = $120 - 20 = 100$"
   },
   {
-    "id": 174,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Sebuah kotak berisi 15 kelereng, 6 merah dan 9 biru. Diambil 2 kelereng satu per satu dengan pengembalian. Peluang terambilnya bola kedua merah jika diketahui bola pertama biru adalah...",
-    "pilihan": [
-      "1/2",
-      "1/3",
-      "2/5",
-      "3/5",
-      "4/5"
-    ],
+    "pilihan": ["1/2", "1/3", "2/5", "3/5", "4/5"],
     "jawaban": "C",
-    "pembahasan": "Karena pengambilan dengan pengembalian, kejadian terambilnya bola pertama tidak mempengaruhi kejadian terambilnya bola kedua.\\nPeluang terambil bola kedua merah = $\\frac{\\text{jumlah kelereng merah}}{\\text{total kelereng}} = \\frac{6}{15} = \\frac{2}{5}$."
+    "pembahasan": "Dengan pengembalian, kejadian independen\nPeluang kedua merah = $6/15 = 2/5$"
   },
   {
-    "id": 175,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Tiga buah koin dilempar bersamaan sebanyak satu kali. Peluang munculnya paling sedikit satu sisi gambar adalah...",
-    "pilihan": [
-      "1/8",
-      "3/8",
-      "1/2",
-      "5/8",
-      "7/8"
-    ],
+    "pilihan": ["1/8", "3/8", "1/2", "5/8", "7/8"],
     "jawaban": "E",
-    "pembahasan": "Total kemungkinan hasil pelemparan 3 koin adalah $2^3 = 8$ (yaitu: AAA, AAG, AGA, GAA, AGG, GAG, GGA, GGG).\\nPeluang muncul paling sedikit satu sisi gambar adalah 1 - peluang tidak ada sisi gambar sama sekali.\\nPeluang tidak ada sisi gambar = peluang muncul semua sisi angka (AAA) = $\\frac{1}{8}$.\\nPeluang paling sedikit satu gambar = $1 - \\frac{1}{8} = \\frac{7}{8}$."
+    "pembahasan": "Total kemungkinan = $2^3 = 8$\nPeluang 0 gambar = $1/8$\nPeluang minimal 1 gambar = $1 - 1/8 = 7/8$"
   },
   {
-    "id": 176,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Dari 50 siswa, 30 gemar matematika, 25 gemar fisika, dan 10 tidak gemar keduanya. Banyaknya siswa yang gemar keduanya adalah...",
-    "pilihan": [
-      "10",
-      "15",
-      "20",
-      "25",
-      "30"
-    ],
+    "pilihan": ["10", "15", "20", "25", "30"],
     "jawaban": "B",
-    "pembahasan": "Total siswa = 50.\\nSiswa yang tidak gemar keduanya = 10.\\nJumlah siswa yang gemar setidaknya satu mata pelajaran = $50 - 10 = 40$.\\nGunakan rumus: $N(M \\cup F) = N(M) + N(F) - N(M \\cap F)$.\\n$40 = 30 + 25 - N(M \\cap F)$.\\n$40 = 55 - N(M \\cap F)$.\\n$N(M \\cap F) = 55 - 40 = 15$."
+    "pembahasan": "Suka minimal satu = $50 - 10 = 40$\n$N(M \\cup F) = N(M) + N(F) - N(M \\cap F)$\n$40 = 30 + 25 - N(M \\cap F)$\n$N(M \\cap F) = 15$"
   },
   {
-    "id": 177,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Rata-rata berat badan 5 siswa adalah 60 kg. Jika ditambah satu siswa baru, rata-ratanya menjadi 62 kg. Berapa berat badan siswa baru tersebut?",
-    "pilihan": [
-      "68 kg",
-      "70 kg",
-      "72 kg",
-      "74 kg",
-      "76 kg"
-    ],
+    "pilihan": ["68 kg", "70 kg", "72 kg", "74 kg", "76 kg"],
     "jawaban": "C",
-    "pembahasan": "Total berat 5 siswa = $5 \\times 60 = 300$ kg.\\nJumlah siswa setelah ditambah = $5+1=6$.\\nTotal berat 6 siswa = $6 \\times 62 = 372$ kg.\\nBerat badan siswa baru = $372 - 300 = 72$ kg."
+    "pembahasan": "Total berat 5 siswa = $5 \\times 60 = 300$ kg\nTotal berat 6 siswa = $6 \\times 62 = 372$ kg\nBerat siswa baru = $372 - 300 = 72$ kg"
   },
   {
-    "id": 178,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Median dari data 10, 12, 11, 15, 13, 16, 14, 17 adalah...",
-    "pilihan": [
-      "12.5",
-      "13",
-      "13.5",
-      "14",
-      "14.5"
-    ],
+    "pilihan": ["12.5", "13", "13.5", "14", "14.5"],
     "jawaban": "C",
-    "pembahasan": "Urutkan data: 10, 11, 12, 13, 14, 15, 16, 17.\\nJumlah data (n) = 8 (genap).\\nMedian adalah rata-rata dari data ke-$n/2$ dan data ke-$(n/2+1)$.\\nMedian = $\\frac{\\text{data ke-4} + \\text{data ke-5}}{2} = \\frac{13 + 14}{2} = \\frac{27}{2} = 13.5$."
+    "pembahasan": "Data terurut: 10, 11, 12, 13, 14, 15, 16, 17\nMedian = $(13 + 14)/2 = 13.5$"
   },
   {
-    "id": 179,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Sebuah kelas berisi 10 siswa, 6 di antaranya adalah perempuan. Jika akan dipilih 2 siswa sebagai perwakilan kelas, peluang terpilihnya paling sedikit 1 laki-laki adalah...",
-    "pilihan": [
-      "1/3",
-      "2/3",
-      "5/9",
-      "7/9",
-      "8/9"
-    ],
+    "pilihan": ["1/3", "2/3", "5/9", "7/9", "8/9"],
     "jawaban": "B",
-    "pembahasan": "Total siswa = 10 (6 perempuan, 4 laki-laki).\\nBanyak cara memilih 2 siswa dari 10 = $C(10, 2) = \\frac{10 \\times 9}{2} = 45$.\\nCara memilih tidak ada laki-laki = peluang terpilih 2 perempuan dari 6 perempuan.\\nBanyak cara memilih 2 perempuan = $C(6, 2) = \\frac{6 \\times 5}{2} = 15$.\\nPeluang tidak ada laki-laki = $\\frac{15}{45} = \\frac{1}{3}$.\\nPeluang paling sedikit 1 laki-laki = $1 - \\frac{1}{3} = \\frac{2}{3}$."
+    "pembahasan": "Total cara = $C(10,2) = 45$\nCara 0 laki-laki = $C(6,2) = 15$\nPeluang 0 laki-laki = $15/45 = 1/3$\nPeluang minimal 1 laki-laki = $1 - 1/3 = 2/3$"
   },
   {
-    "id": 180,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya mata dadu berjumlah 8 adalah...",
-    "pilihan": [
-      "1/36",
-      "3/36",
-      "5/36",
-      "7/36",
-      "9/36"
-    ],
+    "pilihan": ["1/36", "3/36", "5/36", "7/36", "9/36"],
     "jawaban": "C",
-    "pembahasan": "Total kemungkinan hasil pelemparan 2 dadu = $6 \\times 6 = 36$.\\nKombinasi yang menghasilkan jumlah 8: (2, 6), (3, 5), (4, 4), (5, 3), (6, 2). Ada 5 kemungkinan.\\nPeluang = $\\frac{5}{36}$."
+    "pembahasan": "Total kemungkinan = 36\nKombinasi jumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2)\nTotal = 5\nPeluang = $5/36$"
   }
 ]
