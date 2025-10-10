@@ -32,4 +32,111 @@
     "pertanyaan": "Sebuah kereta berangkat dari kota A ke B dengan kecepatan 75 km/jam dan kembali dengan kecepatan 50 km/jam. Jika waktu total perjalanan 10 jam, berapa jarak A ke B?",
     "pilihan": ["200 km", "225 km", "250 km", "275 km", "300 km"],
     "jawaban": "E",
-    "pembahasan": "Misalkan jarak $= d$.\n\nWaktu total: $\\tfrac{d}{75} + \\tfrac{d}{50}
+    "pembahasan": "Misalkan jarak $= d$.\n\nWaktu total: $\\tfrac{d}{75} + \\tfrac{d}{50} = 10$.\n\nSamakan penyebut: $\\tfrac{2d + 3d}{150} = 10 \\Rightarrow 5d = 1500 \\Rightarrow d = 300$ km."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Dalam sebuah kantong terdapat 4 kelereng merah, 5 biru, dan 6 hijau. Jika diambil 2 kelereng secara acak, berapa peluang terambil berbeda warna?",
+    "pilihan": ["37/105", "41/105", "44/105", "47/105", "74/105"],
+    "jawaban": "E",
+    "pembahasan": "Total cara = $\\binom{15}{2} = 105$.\n\nSama warna: $\\binom{4}{2} + \\binom{5}{2} + \\binom{6}{2} = 6 + 10 + 15 = 31$.\n\nBeda warna = $105 - 31 = 74$.\n\nPeluang $= \\tfrac{74}{105}$."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Sebuah tabung memiliki diameter 14 cm dan tinggi 15 cm. Berapa volume tabung tersebut? (Gunakan $\\pi = \\tfrac{22}{7}$)",
+    "pilihan": ["2.310 cm³", "2.420 cm³", "2.530 cm³", "2.640 cm³", "2.750 cm³"],
+    "jawaban": "A",
+    "pembahasan": "Jari-jari $= 14/2 = 7$ cm.\n\nVolume $= \\pi r^2 t = \\tfrac{22}{7} \\times 7^2 \\times 15 = 2.310$ cm³."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Perbandingan usia Ayah : Ibu : Anak = 7 : 5 : 3. Jika selisih usia Ayah dan Anak 25 tahun, berapa jumlah usia mereka?",
+    "pilihan": ["90 tahun", "92,5 tahun", "93,75 tahun", "95 tahun", "97,5 tahun"],
+    "jawaban": "C",
+    "pembahasan": "Selisih rasio Ayah–Anak = $7 - 3 = 4$ bagian.\n\n$4$ bagian $= 25$ tahun → $1$ bagian $= 6,25$ tahun.\n\nJumlah rasio = $7 + 5 + 3 = 15$.\n\nTotal usia = $15 \\times 6,25 = 93,75$ tahun."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi miring 26 cm dan salah satu sisi siku-siku 10 cm. Berapa keliling segitiga tersebut?",
+    "pilihan": ["50 cm", "56 cm", "60 cm", "64 cm", "66 cm"],
+    "jawaban": "C",
+    "pembahasan": "Sisi lain $= \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24$.\n\nKeliling $= 10 + 24 + 26 = 60$ cm."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Sebuah bilangan jika dikalikan 4 kemudian dikurangi 12 hasilnya sama dengan bilangan itu sendiri ditambah 24. Berapa bilangan tersebut?",
+    "pilihan": ["12", "14", "16", "18", "20"],
+    "jawaban": "A",
+    "pembahasan": "Misal bilangan $= x$.\n\n$4x - 12 = x + 24$.\n\n$3x = 36 \\Rightarrow x = 12$."
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Sebuah bak mandi berbentuk kubus dapat menampung 512 liter air. Berapa panjang rusuk bak mandi tersebut?",
+    "pilihan": ["6 dm", "7 dm", "8 dm", "9 dm", "10 dm"],
+    "jawaban": "C",
+    "pembahasan": "Volume $= 512$ liter $= 512$ dm³.\n\nRusuk $= \\sqrt[3]{512} = 8$ dm."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Dari angka 1,2,3,4,5 akan dibentuk bilangan 3 digit berbeda. Berapa banyak bilangan ganjil yang dapat dibentuk?",
+    "pilihan": ["24", "30", "36", "42", "48"],
+    "jawaban": "C",
+    "pembahasan": "Digit satuan harus ganjil → pilihan = 3 (1, 3, 5).\n\nDigit ratusan = 4 pilihan.\n\nDigit puluhan = 3 pilihan.\n\nTotal = $3 \\times 4 \\times 3 = 36$ bilangan ganjil."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Sebuah persegi panjang memiliki luas 100 cm². Jika panjangnya bertambah 25% dan lebarnya berkurang 20%, berapa luas baru persegi panjang tersebut?",
+    "pilihan": ["80 cm²", "90 cm²", "100 cm²", "110 cm²", "120 cm²"],
+    "jawaban": "C",
+    "pembahasan": "Luas baru $= 1,25 \\times 0,8 \\times 100 = 100$ cm²."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Sebuah mobil menempuh 200 km pertama dengan kecepatan 50 km/jam dan 300 km berikutnya dengan kecepatan 75 km/jam. Berapa kecepatan rata-rata seluruh perjalanan?",
+    "pilihan": ["60 km/jam", "62,5 km/jam", "65 km/jam", "67,5 km/jam", "70 km/jam"],
+    "jawaban": "B",
+    "pembahasan": "Waktu tempuh: $200/50 = 4$ jam dan $300/75 = 4$ jam.\n\nTotal waktu $= 8$ jam.\n\nTotal jarak $= 500$ km.\n\nKecepatan rata-rata $= 500/8 = 62,5$ km/jam."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 10 orang dalam 12 hari. Jika hanya 8 orang yang bekerja, berapa hari tambahan yang diperlukan?",
+    "pilihan": ["2 hari", "3 hari", "4 hari", "5 hari", "6 hari"],
+    "jawaban": "B",
+    "pembahasan": "Total kerja = $10 \\times 12 = 120$ hari-orang.\n\nJika hanya 8 orang → $120/8 = 15$ hari.\n\nTambahan waktu = $15 - 12 = 3$ hari."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Sebuah dadu dan uang logam dilempar bersama. Berapa peluang muncul mata dadu prima dan sisi gambar?",
+    "pilihan": ["1/4", "1/3", "1/2", "2/3", "3/4"],
+    "jawaban": "A",
+    "pembahasan": "Peluang dadu prima = $3/6 = 1/2$ (karena bilangan prima 2,3,5).\n\nPeluang sisi gambar = $1/2$.\n\nGabungan = $1/2 \\times 1/2 = 1/4$."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Sebuah lingkaran memiliki jari-jari 10 cm. Berapa luas setengah lingkaran tersebut? ($\\pi = 3,14$)",
+    "pilihan": ["157 cm²", "160 cm²", "165 cm²", "170 cm²", "175 cm²"],
+    "jawaban": "A",
+    "pembahasan": "Luas lingkaran penuh = $3,14 \\times 10^2 = 314$ cm².\n\nSetengahnya $= 157$ cm²."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Jika $x^2 - 5x + 6 = 0$, maka nilai $x$ yang memenuhi adalah...",
+    "pilihan": ["1 dan 4", "2 dan 3", "-1 dan -6", "-2 dan -3", "0 dan 5"],
+    "jawaban": "B",
+    "pembahasan": "Faktorisasi: $(x - 2)(x - 3) = 0$.\n\nSehingga $x = 2$ atau $x = 3$."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Sebuah belanjaan mendapat diskon 25% kemudian diskon lagi 20%. Berapa total diskon yang didapat?",
+    "pilihan": ["40%", "42,5%", "44%", "45%", "50%"],
+    "jawaban": "A",
+    "pembahasan": "Harga akhir = $0,75 \\times 0,8 = 0,6$.\n\nDiskon total = $100\\% - 60\\% = 40\\%$."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Sebuah trapesium sama kaki memiliki sisi sejajar 12 cm dan 20 cm, serta tinggi 8 cm. Berapa keliling trapesium tersebut?",
+    "pilihan": ["47,88 cm", "49,88 cm", "51,88 cm", "53,88 cm", "55,88 cm"],
+    "jawaban": "B",
+    "pembahasan": "Setengah selisih sisi sejajar $= (20 - 12)/2 = 4$.\n\nSisi miring $= \\sqrt{4^2 + 8^2} = \\sqrt{80} \\approx 8,944$ cm.\n\nKeliling $= 12 + 20 + 2 \\times 8,944 \\approx 49,88$ cm."
+  }
+]
