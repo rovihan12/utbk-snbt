@@ -13,7 +13,7 @@
     "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $\\sqrt{2x + 1} = x - 1$.",
     "pilihan": ["$\{4\}$","$\{0, 4\}$","$\{-1, 4\}$","$\{0\}$","Tidak ada solusi"],
     "jawaban": "A",
-    "pembahasan": "Kuadratkan kedua sisi: $2x + 1 = (x - 1)^2 \\Rightarrow 2x + 1 = x^2 - 2x + 1 \\Rightarrow x^2 - 4x = 0 \\Rightarrow x(x - 4) = 0$. Solusi $x=0$ dan $x=4$. Syarat $\\sqrt{2x+1}$ terdefinisi: $x \\ge -1/2$. Syarat $x-1 \\ge 0$: $x \\ge 1$. Cek solusi: $x=0$: $\\sqrt{1}=0-1$ (salah). $x=4$: $\\sqrt{9}=4-1 \\Rightarrow 3=3$ (benar). Solusi adalah $\\mathbf{\\{4\\}}$."
+    "pembahasan": "Langkah 1: Tentukan syarat akar ($2x+1 \\ge 0 \\Rightarrow x \\ge -1/2$) dan syarat hasil akar ($x-1 \\ge 0 \\Rightarrow x \\ge 1$). Syarat irisan adalah $x \\ge 1$. Langkah 2: Kuadratkan kedua sisi: $2x + 1 = (x - 1)^2 \\Rightarrow 2x + 1 = x^2 - 2x + 1$. Susun ulang: $x^2 - 4x = 0 \\Rightarrow x(x - 4) = 0$. Solusi sementara: $x_1=0$ atau $x_2=4$. Langkah 3: Cek syarat $x \\ge 1$: $x=0$ (Tidak memenuhi), $x=4$ (Memenuhi). Himpunan solusi adalah $\\mathbf{\\{4\\}}$."
   },
   {
     "id": 3,
