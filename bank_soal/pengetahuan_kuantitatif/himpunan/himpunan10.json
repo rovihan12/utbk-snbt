@@ -4,139 +4,139 @@
     "pertanyaan": "Diketahui \\( A = \\{ x \\mid x \\text{ bilangan genap antara 2 dan 12} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima kurang dari 15} \\} \\). Tentukan \\( A \\cap B \\).",
     "pilihan": ["{2, 4, 6, 8, 10, 12}", "{2, 4, 6}", "{2}", "{2, 4}", "{4, 6}"],
     "jawaban": "C",
-    "pembahasan": "Bilangan genap 2–12: {2,4,6,8,10,12}, bilangan prima <15: {2,3,5,7,11,13}. Irisannya = {2}."
+    "pembahasan": "Bilangan genap 2–12: \\( \\{2,4,6,8,10,12\\} \\), bilangan prima <15: \\( \\{2,3,5,7,11,13\\} \\). Irisannya = \\( \\{2\\} \\)."
   },
   {
     "id": 2,
     "pertanyaan": "Jika \\( A = \\{1,2,3,4,5\\} \\) dan \\( B = \\{4,5,6,7,8\\} \\), tentukan \\( n(A \\cup B) \\).",
     "pilihan": ["5", "6", "7", "8", "9"],
     "jawaban": "D",
-    "pembahasan": "A ∪ B = {1,2,3,4,5,6,7,8}, sehingga n(A ∪ B) = 8."
+    "pembahasan": "\\( A \\cup B = \\{1,2,3,4,5,6,7,8\\} \\), sehingga \\( n(A \\cup B) = 8 \\)."
   },
   {
     "id": 3,
     "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{N} \\mid x < 10, x \\text{ kelipatan 3} \\} \\) dan \\( B = \\{ x \\mid x \\text{ bilangan prima} \\} \\). Tentukan \\( A - B \\).",
     "pilihan": ["{3,6,9}", "{6,9}", "{3,9}", "{6}", "{9}"],
     "jawaban": "B",
-    "pembahasan": "A = {3,6,9}, B = {2,3,5,7,...}, A−B = {6,9} karena 3 ada di B."
+    "pembahasan": "\\( A = \\{3,6,9\\} \\), \\( B = \\{2,3,5,7,...\\} \\), \\( A-B = \\{6,9\\} \\) karena 3 ada di B."
   },
   {
     "id": 4,
     "pertanyaan": "Jika \\( A \\subseteq B \\) dengan \\( n(A) = 8 \\) dan \\( n(B) = 12 \\), berapa anggota \\( B - A \\)?",
     "pilihan": ["2", "4", "6", "8", "10"],
     "jawaban": "B",
-    "pembahasan": "B−A berisi anggota B yang tidak ada di A: 12−8=4."
+    "pembahasan": "\\( B-A \\) berisi anggota B yang tidak ada di A: \\( 12-8=4 \\)."
   },
   {
     "id": 5,
     "pertanyaan": "Diketahui \\( A = \\{ x \\in \\mathbb{Z} \\mid -2 < x < 5 \\} \\) dan \\( B = \\{ x \\in \\mathbb{Z} \\mid x^2 < 9 \\} \\). Tentukan \\( A \\cap B \\).",
     "pilihan": ["{-1,0,1,2}", "{-1,0,1,2,3}", "{-2,-1,0,1,2}", "{-1,0,1,2,3,4}", "{-1,0,1,2,3,4,5}"],
     "jawaban": "A",
-    "pembahasan": "A = {-1,0,1,2,3,4}, B = {-2,-1,0,1,2}. Irisan A∩B = {-1,0,1,2}."
+    "pembahasan": "\\( A = \\{-1,0,1,2,3,4\\} \\), \\( B = \\{-2,-1,0,1,2\\} \\). Irisan \\( A\\cap B = \\{-1,0,1,2\\} \\)."
   },
   {
     "id": 6,
     "pertanyaan": "Jika \\( A = \\{2,4,6,8\\} \\) dan \\( B = \\{3,6,9,12\\} \\), tentukan \\( A \\cup B \\).",
     "pilihan": ["{2,3,4,6,8,9,12}", "{2,4,6,8,9,12}", "{2,3,4,8,9,12}", "{2,4,6,8,12}", "{3,6,9,12}"],
     "jawaban": "A",
-    "pembahasan": "Gabungan semua elemen unik: {2,3,4,6,8,9,12}."
+    "pembahasan": "Gabungan semua elemen unik: \\( \\{2,3,4,6,8,9,12\\} \\)."
   },
   {
     "id": 7,
     "pertanyaan": "Jika \\( n(U) = 30, n(A) = 18, n(B) = 12, n(A \\cap B) = 5 \\), tentukan \\( n(A \\cup B) \\).",
     "pilihan": ["20", "23", "25", "26", "27"],
     "jawaban": "C",
-    "pembahasan": "n(A ∪ B) = n(A)+n(B)−n(A∩B)=18+12−5=25."
+    "pembahasan": "\\( n(A \\cup B) = n(A)+n(B)−n(A\\cap B)=18+12−5=25 \\)."
   },
   {
     "id": 8,
-    "pertanyaan": "Jika \\( A = {1,2,3,4} \\) dan \\( B = {3,4,5,6} \\), tentukan \\( (A-B) \\cup (B-A) \\).",
+    "pertanyaan": "Jika \\( A = \\{1,2,3,4\\} \\) dan \\( B = \\{3,4,5,6\\} \\), tentukan \\( (A-B) \\cup (B-A) \\).",
     "pilihan": ["{1,2,5,6}", "{3,4}", "{1,2,3,4,5,6}", "{2,5}", "{1,6}"],
     "jawaban": "A",
-    "pembahasan": "A−B={1,2}, B−A={5,6}, gabungan = {1,2,5,6}."
+    "pembahasan": "\\( A-B=\\{1,2\\} \\), \\( B-A=\\{5,6\\} \\), gabungan = \\( \\{1,2,5,6\\} \\)."
   },
   {
     "id": 9,
-    "pertanyaan": "Diketahui \\( P = {2,4,6,8,10} \\) dan \\( Q = {4,8,12,16} \\). Tentukan \\( P \\cap Q \\).",
+    "pertanyaan": "Diketahui \\( P = \\{2,4,6,8,10\\} \\) dan \\( Q = \\{4,8,12,16\\} \\). Tentukan \\( P \\cap Q \\).",
     "pilihan": ["{4,8}", "{2,4,6,8}", "{8,10}", "{4,8,10}", "{2,6}"],
     "jawaban": "A",
-    "pembahasan": "Irisan P∩Q = {4,8}."
+    "pembahasan": "Irisan \\( P\\cap Q = \\{4,8\\} \\)."
   },
   {
     "id": 10,
-    "pertanyaan": "Jika \\( A = {1,3,5,7} \\) dan \\( B = {2,4,6,8} \\), tentukan \\( A \\cap B \\).",
+    "pertanyaan": "Jika \\( A = \\{1,3,5,7\\} \\) dan \\( B = \\{2,4,6,8\\} \\), tentukan \\( A \\cap B \\).",
     "pilihan": ["{1,2}", "{3,4}", "{5,6}", "{7,8}", "{}"],
     "jawaban": "E",
-    "pembahasan": "A dan B tidak memiliki anggota sama, irisan kosong = {}."
+    "pembahasan": "A dan B tidak memiliki anggota sama, irisan kosong = \\( \\{\\} \\)."
   },
   {
     "id": 11,
-    "pertanyaan": "Jika \\( A = {1,2,3,4} \\) dan \\( B = {3,4,5,6} \\), tentukan \\( A \\Delta B \\) (selisih simetris).",
+    "pertanyaan": "Jika \\( A = \\{1,2,3,4\\} \\) dan \\( B = \\{3,4,5,6\\} \\), tentukan \\( A \\Delta B \\) (selisih simetris).",
     "pilihan": ["{1,2,5,6}", "{3,4}", "{1,2,3,4,5,6}", "{1,2,3,5}", "{2,4,5,6}"],
     "jawaban": "A",
-    "pembahasan": "AΔB = (A−B) ∪ (B−A) = {1,2,5,6}."
+    "pembahasan": "\\( A\\Delta B = (A-B) \\cup (B-A) = \\{1,2,5,6\\} \\)."
   },
   {
     "id": 12,
     "pertanyaan": "Diketahui A={1,2,3} dan B={2,3,4}. Tentukan A∪B.",
     "pilihan": ["{1,2,3,4}", "{1,2,3}", "{2,3,4}", "{1,3,4}", "{1,2,4}"],
     "jawaban": "A",
-    "pembahasan": "Gabungan semua elemen unik: {1,2,3,4}."
+    "pembahasan": "Gabungan semua elemen unik: \\( \\{1,2,3,4\\} \\)."
   },
   {
     "id": 13,
     "pertanyaan": "Jika n(A)=4 dan A={2,4,6,8}, tentukan banyak himpunan bagian dari A yang memiliki 2 elemen.",
     "pilihan": ["6", "4", "8", "10", "12"],
     "jawaban": "A",
-    "pembahasan": "C(4,2)=6."
+    "pembahasan": "\\( C(4,2)=6 \\)."
   },
   {
     "id": 14,
     "pertanyaan": "Diketahui U={1,2,3,4,5,6,7,8}, A={2,4,6}, B={1,3,5}. Tentukan (A∪B)^c.",
     "pilihan": ["{7,8}", "{1,2,3,4,5,6}", "{}, {3,5,7,8}", "{2,4,6}", "{1,3,5,7}"],
     "jawaban": "A",
-    "pembahasan": "A∪B={1,2,3,4,5,6}, komplemen terhadap U={7,8}."
+    "pembahasan": "\\( A\\cup B=\\{1,2,3,4,5,6\\} \\), komplemen terhadap U=\\{7,8\\}."
   },
   {
     "id": 15,
     "pertanyaan": "Jika A={1,2,3,4,5} dan B={4,5,6,7,8}, tentukan n(A∩B).",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "B",
-    "pembahasan": "A∩B={4,5}, sehingga n(A∩B)=2."
+    "pembahasan": "\\( A\\cap B=\\{4,5\\} \\), sehingga \\( n(A\\cap B)=2 \\)."
   },
   {
     "id": 16,
     "pertanyaan": "Diketahui A={1,2,3,4} dan B={2,3,5,6}. Tentukan (A−B)∪(B−A).",
     "pilihan": ["{1,4,5,6}", "{2,3}", "{1,2,3,4,5,6}", "{1,3,5}", "{4,5,6}"],
     "jawaban": "A",
-    "pembahasan": "A−B={1,4}, B−A={5,6}, gabungan = {1,4,5,6}."
+    "pembahasan": "\\( A-B=\\{1,4\\} \\), \\( B-A=\\{5,6\\} \\), gabungan = \\( \\{1,4,5,6\\} \\)."
   },
   {
     "id": 17,
     "pertanyaan": "Jika A={2,4,6,8,10} dan B={4,8,12,16}, tentukan A∩B.",
     "pilihan": ["{4,8}", "{2,4,6,8}", "{8,10}", "{4,8,10}", "{2,6}"],
     "jawaban": "A",
-    "pembahasan": "Irisan A∩B={4,8}."
+    "pembahasan": "Irisan \\( A\\cap B=\\{4,8\\} \\)."
   },
   {
     "id": 18,
     "pertanyaan": "Himpunan A={1,2,3,4,5}, tentukan banyak himpunan bagian yang memiliki paling sedikit 3 elemen.",
     "pilihan": ["16", "10", "8", "12", "6"],
     "jawaban": "B",
-    "pembahasan": "C(5,3)+C(5,4)+C(5,5)=10+5+1=16."
+    "pembahasan": "\\( C(5,3)+C(5,4)+C(5,5)=10+5+1=16 \\)."
   },
   {
     "id": 19,
     "pertanyaan": "Jika A={1,2,3} dan B={3,4,5}, tentukan (A∪B)−(A∩B).",
     "pilihan": ["{1,2,4,5}", "{3}", "{1,2,3,4,5}", "{1,4,5}", "{2,4,5}"],
     "jawaban": "A",
-    "pembahasan": "A∪B={1,2,3,4,5}, A∩B={3}, selisih = {1,2,4,5}."
+    "pembahasan": "\\( A\\cup B=\\{1,2,3,4,5\\} \\), \\( A\\cap B=\\{3\\} \\), selisih = \\( \\{1,2,4,5\\} \\)."
   },
   {
     "id": 20,
     "pertanyaan": "Jika A={1,2,3,4} dan B={3,4,5,6}, tentukan A∩B.",
     "pilihan": ["{3,4}", "{1,2,3,4}", "{1,2,5,6}", "{1,3,5,6}", "{2,3,4,5}"],
     "jawaban": "A",
-    "pembahasan": "Irisan A∩B={3,4}."
+    "pembahasan": "Irisan \\( A\\cap B=\\{3,4\\} \\)."
   }
 ]
