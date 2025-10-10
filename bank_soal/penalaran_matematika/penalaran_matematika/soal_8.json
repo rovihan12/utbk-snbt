@@ -4,139 +4,139 @@
     "pertanyaan": "Seorang pedagang membeli 50 kg beras dengan harga Rp10.000 per kg. Jika ia ingin mendapatkan keuntungan 20%, maka harga jual beras per kg adalah...",
     "pilihan": ["Rp12.000", "Rp11.500", "Rp12.500", "Rp13.000", "Rp14.000"],
     "jawaban": "A",
-    "pembahasan": "Harga beli per kg = Rp10.000\nKeuntungan 20% = 20% × 10.000 = Rp2.000\nHarga jual per kg = 10.000 + 2.000 = Rp12.000"
+    "pembahasan": "Harga beli total = $50 \\times 10.000 = 500.000$.\\nKeuntungan 20% = $0{,}2 \\times 500.000 = 100.000$.\\nHarga jual total = $500.000 + 100.000 = 600.000$.\\nHarga jual per kg = $600.000 / 50 = 12.000$.\\n**Jadi harga jual per kg adalah Rp12.000.**"
   },
   {
     "id": 2,
     "pertanyaan": "Jika 3 pekerja dapat menyelesaikan proyek dalam 12 hari, berapa hari yang dibutuhkan 4 pekerja untuk menyelesaikan proyek yang sama?",
     "pilihan": ["8", "9", "10", "11", "16"],
     "jawaban": "B",
-    "pembahasan": "Total pekerjaan = 3 × 12 = 36 hari-pekerja\nWaktu dengan 4 pekerja = 36 ÷ 4 = 9 hari"
+    "pembahasan": "Hubungan pekerja dan waktu berbanding terbalik.\\n$3 \\times 12 = 4 \\times x$.\\n$x = 36 / 4 = 9$ hari.\\n**Jadi waktu yang dibutuhkan adalah 9 hari.**"
   },
   {
     "id": 3,
     "pertanyaan": "Perbandingan umur X, Y, dan Z adalah 3 : 5 : 7. Apabila selisih umur X dan Y adalah 6 tahun, maka yang paling muda berusia ... tahun.",
     "pilihan": ["9", "10", "13", "15", "21"],
     "jawaban": "A",
-    "pembahasan": "Selisih perbandingan X dan Y = 5 - 3 = 2 bagian\n2 bagian = 6 tahun → 1 bagian = 3 tahun\nUmur X (paling muda) = 3 × 3 = 9 tahun"
+    "pembahasan": "Selisih umur X dan Y = $(5 - 3)$ bagian = 2 bagian.\\nJika 2 bagian = 6 tahun, maka 1 bagian = 3 tahun.\\nUmur X (paling muda) = $3 \\times 3 = 9$ tahun.\\n**Jadi umur termuda adalah 9 tahun.**"
   },
   {
     "id": 4,
     "pertanyaan": "Ibu membuat bakso dengan perbandingan 8 bagian tepung, 3 bagian bumbu, dan 9 bagian daging. Jika ibu menggunakan 2 kg tepung, maka bumbu dan daging yang diperlukan adalah ....",
     "pilihan": ["0,75 kg dan 2,25 kg", "0,75 kg dan 2,5 kg", "0,5 kg dan 2,25 kg", "0,5 kg dan 2,5 kg", "0,75 kg dan 0,5 kg"],
     "jawaban": "A",
-    "pembahasan": "Perbandingan: Tepung : Bumbu : Daging = 8 : 3 : 9\n2 kg tepung = 8 bagian → 1 bagian = 0,25 kg\nBumbu = 3 × 0,25 = 0,75 kg\nDaging = 9 × 0,25 = 2,25 kg"
+    "pembahasan": "Tepung : Bumbu : Daging = $8:3:9$.\\nFaktor skala = $2/8 = 0{,}25$.\\nBumbu = $3 \\times 0{,}25 = 0{,}75$ kg.\\nDaging = $9 \\times 0{,}25 = 2{,}25$ kg.\\n**Jadi bumbu 0,75 kg dan daging 2,25 kg.**"
   },
   {
     "id": 5,
-    "pertanyaan": "Rata-rata nilai 5 siswa adalah 80. Jika ditambah nilai seorang siswa lagi, rata-ratanya menjadi 82. Nilai siswa yang baru tersebut adalah...",
+    "pertanyaan": "Rata-rata nilai 5 siswa adalah 80. Jika ditambah 1 siswa lagi, rata-ratanya menjadi 82. Nilai siswa yang baru tersebut adalah...",
     "pilihan": ["90", "92", "94", "96", "98"],
     "jawaban": "B",
-    "pembahasan": "Total nilai 5 siswa = 5 × 80 = 400\nTotal nilai 6 siswa = 6 × 82 = 492\nNilai siswa baru = 492 - 400 = 92"
+    "pembahasan": "Total 5 siswa = $5 \\times 80 = 400$.\\nTotal 6 siswa = $6 \\times 82 = 492$.\\nNilai siswa ke-6 = $492 - 400 = 92$.\\n**Jadi nilai siswa ke-6 adalah 92.**"
   },
   {
     "id": 6,
     "pertanyaan": "Sebuah mobil menempuh jarak 240 km dengan kecepatan 60 km/jam. Waktu yang dibutuhkan adalah...",
     "pilihan": ["3 jam", "4 jam", "5 jam", "6 jam", "7 jam"],
     "jawaban": "B",
-    "pembahasan": "Waktu = Jarak ÷ Kecepatan\nWaktu = 240 ÷ 60 = 4 jam"
+    "pembahasan": "Gunakan rumus $t = s / v$.\\n$t = 240 / 60 = 4$ jam.\\n**Jadi waktu yang dibutuhkan 4 jam.**"
   },
   {
     "id": 7,
-    "pertanyaan": "Untuk mengecat 3/5 bagian ruang kantor, diperlukan waktu 12 jam. Waktu yang diperlukan untuk menyelesaikan bagian yang belum dicat adalah ... (diasumsikan kecepatan konstan).",
+    "pertanyaan": "Untuk mengecat $\\tfrac{3}{5}$ bagian ruangan diperlukan waktu 12 jam. Waktu untuk mengecat sisa bagian adalah...",
     "pilihan": ["10 jam", "9 jam", "8 jam", "6 jam", "5 jam"],
     "jawaban": "C",
-    "pembahasan": "Bagian yang belum dicat = 1 - 3/5 = 2/5\n3/5 bagian → 12 jam\n2/5 bagian → (2/5 × 12) ÷ (3/5) = 8 jam"
+    "pembahasan": "Sisa bagian = $1 - \\tfrac{3}{5} = \\tfrac{2}{5}$.\\nWaktu sebanding dengan luas yang dicat.\\n$x = 12 \\times (\\tfrac{2}{5}) / (\\tfrac{3}{5}) = 12 \\times \\tfrac{2}{3} = 8$ jam.\\n**Jadi butuh 8 jam lagi.**"
   },
   {
     "id": 8,
-    "pertanyaan": "Suplai makanan untuk 25 keluarga habis dalam waktu 12 hari. Jika ditambahkan 5 keluarga lagi, maka suplai makanan tersebut akan habis dalam waktu ....",
-    "pilihan": ["6 hari", "8 hari", "9 hari", "10 hari", "15 hari"],
+    "pertanyaan": "Suplai makanan untuk 25 keluarga habis dalam 12 hari. Jika ditambah 5 keluarga lagi, makanan akan habis dalam ... hari.",
+    "pilihan": ["6", "8", "9", "10", "15"],
     "jawaban": "D",
-    "pembahasan": "Total makanan = 25 × 12 = 300 keluarga-hari\nJumlah keluarga baru = 25 + 5 = 30\nWaktu = 300 ÷ 30 = 10 hari"
+    "pembahasan": "Total persediaan = $25 \\times 12 = 300$ keluarga-hari.\\nJumlah keluarga baru = 30.\\nWaktu = $300 / 30 = 10$ hari.\\n**Jadi habis dalam 10 hari.**"
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah kereta berangkat dari kota A ke kota B dengan kecepatan 80 km/jam dan kembali dari kota B ke A dengan kecepatan 60 km/jam. Kecepatan rata-rata perjalanan kereta tersebut adalah...",
+    "pertanyaan": "Kereta berangkat dari kota A ke B dengan 80 km/jam dan kembali 60 km/jam. Kecepatan rata-rata seluruh perjalanan adalah...",
     "pilihan": ["68 km/jam", "70 km/jam", "72 km/jam", "75 km/jam", "78 km/jam"],
     "jawaban": "A",
-    "pembahasan": "Kecepatan rata-rata = \\[\\frac{2 \\times v_1 \\times v_2}{v_1 + v_2}\\]\n= \\[\\frac{2 \\times 80 \\times 60}{80 + 60}\\] = \\[\\frac{9600}{140}\\] = 68,57 ≈ 68 km/jam"
+    "pembahasan": "Rumus kecepatan rata-rata untuk jarak sama: $v_{avg} = \\dfrac{2v_1v_2}{v_1 + v_2}$.\\n$v_{avg} = \\dfrac{2 \\times 80 \\times 60}{80 + 60} = \\dfrac{9600}{140} = 68{,}57$.\\n**Dibulatkan menjadi 68 km/jam.**"
   },
   {
     "id": 10,
-    "pertanyaan": "Sebuah bilangan berbentuk 8k+2. Jika bilangan tersebut dibagi 8, maka sisanya adalah...",
+    "pertanyaan": "Bilangan berbentuk $8k + 2$. Jika dibagi 8, maka sisanya adalah...",
     "pilihan": ["0", "2", "4", "6"],
     "jawaban": "B",
-    "pembahasan": "Bilangan 8k+2 = kelipatan 8 + 2\nJika dibagi 8, sisa = 2"
+    "pembahasan": "Bentuk $8k + 2$ berarti lebih 2 dari kelipatan 8.\\nMaka sisanya adalah **2**."
   },
   {
     "id": 11,
-    "pertanyaan": "Jika x+y=10 dan x-y=4, maka nilai dari x² - y² adalah...",
+    "pertanyaan": "Jika $x + y = 10$ dan $x - y = 4$, maka nilai $x^2 - y^2$ adalah...",
     "pilihan": ["20", "30", "40", "50", "60"],
     "jawaban": "C",
-    "pembahasan": "x² - y² = (x+y)(x-y)\n= 10 × 4 = 40"
+    "pembahasan": "Gunakan identitas $x^2 - y^2 = (x + y)(x - y)$.\\n$= 10 \\times 4 = 40$.\\n**Jadi nilainya 40.**"
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Jika panjangnya diperbesar 25% dan lebarnya diperkecil 25%, maka luas baru persegi panjang tersebut adalah...",
+    "pertanyaan": "Persegi panjang 12 cm × 8 cm diperbesar panjangnya 25% dan lebarnya diperkecil 25%. Luas baru adalah...",
     "pilihan": ["72 cm²", "80 cm²", "88 cm²", "90 cm²", "96 cm²"],
     "jawaban": "D",
-    "pembahasan": "Panjang baru = 12 + (25% × 12) = 15 cm\nLebar baru = 8 - (25% × 8) = 6 cm\nLuas baru = 15 × 6 = 90 cm²"
+    "pembahasan": "Panjang baru = $12 + 25\\% \\times 12 = 15$.\\nLebar baru = $8 - 25\\% \\times 8 = 6$.\\nLuas baru = $15 \\times 6 = 90$ cm².\\n**Jadi luasnya 90 cm².**"
   },
   {
     "id": 13,
-    "pertanyaan": "Jika 2/3 dari suatu bilangan adalah 30, maka 5/6 dari bilangan tersebut adalah...",
+    "pertanyaan": "Jika $\\tfrac{2}{3}$ dari suatu bilangan adalah 30, maka $\\tfrac{5}{6}$ dari bilangan tersebut adalah...",
     "pilihan": ["25", "30", "35", "37,5", "40"],
     "jawaban": "D",
-    "pembahasan": "Bilangan = 30 ÷ (2/3) = 30 × (3/2) = 45\n5/6 dari bilangan = (5/6) × 45 = 37,5"
+    "pembahasan": "$\\tfrac{2}{3}x = 30 \\Rightarrow x = 45$.\\n$\\tfrac{5}{6} \\times 45 = 37{,}5$.\\n**Jadi hasilnya 37,5.**"
   },
   {
     "id": 14,
-    "pertanyaan": "Sebuah segitiga siku-siku memiliki sisi tegak 6 cm dan 8 cm. Panjang sisi miringnya adalah...",
+    "pertanyaan": "Segitiga siku-siku memiliki sisi 6 cm dan 8 cm. Panjang sisi miringnya adalah...",
     "pilihan": ["9 cm", "10 cm", "12 cm", "14 cm", "15 cm"],
     "jawaban": "B",
-    "pembahasan": "Sisi miring = \\[\\sqrt{6^2 + 8^2}\\]\n= \\[\\sqrt{36 + 64}\\] = \\[\\sqrt{100}\\] = 10 cm"
+    "pembahasan": "Gunakan teorema Pythagoras: $c = \\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$ cm.\\n**Jadi sisi miring 10 cm.**"
   },
   {
     "id": 15,
-    "pertanyaan": "Sebuah toko buku menjual pensil A seharga Rp2.000 per batang dan pensil B seharga Rp3.500 per batang. Jika Rina membeli total 12 batang pensil dengan harga Rp30.000, maka banyak pensil B yang dibeli adalah...",
+    "pertanyaan": "Toko buku menjual pensil A Rp2.000 dan pensil B Rp3.500. Rina membeli 12 pensil dengan total Rp30.000. Banyak pensil B adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "Misal pensil B = x, pensil A = 12-x\n2000(12-x) + 3500x = 30.000\n24.000 - 2000x + 3500x = 30.000\n1500x = 6.000\nx = 4 batang"
+    "pembahasan": "Misal pensil B = $x$, maka pensil A = $12 - x$.\\n$2000(12 - x) + 3500x = 30.000$.\\n$24.000 - 2000x + 3500x = 30.000$.\\n$1500x = 6.000 \\Rightarrow x = 4$.\\n**Jadi pensil B ada 4 batang.**"
   },
   {
     "id": 16,
-    "pertanyaan": "Diketahui f(x)=2x+3 dan g(x)=x²-1. Nilai dari (f ∘ g)(2) adalah...",
+    "pertanyaan": "Diketahui $f(x) = 2x + 3$ dan $g(x) = x^2 - 1$. Nilai $(f \\circ g)(2)$ adalah...",
     "pilihan": ["7", "9", "11", "13", "15"],
     "jawaban": "B",
-    "pembahasan": "(f ∘ g)(2) = f(g(2))\ng(2) = 2² - 1 = 3\nf(3) = 2×3 + 3 = 9"
+    "pembahasan": "$(f \\circ g)(2) = f(g(2)) = f(3) = 2(3) + 3 = 9$.\\n**Jadi nilainya 9.**"
   },
   {
     "id": 17,
-    "pertanyaan": "Dalam suatu kelas, rata-rata nilai 20 siswa adalah 75. Jika nilai 5 siswa terbaik dikeluarkan, rata-rata nilai 15 siswa sisanya adalah 70. Rata-rata nilai 5 siswa terbaik tersebut adalah...",
+    "pertanyaan": "Rata-rata 20 siswa adalah 75. Setelah 5 siswa terbaik dikeluarkan, rata-rata sisanya 70. Berapa rata-rata 5 siswa terbaik?",
     "pilihan": ["80", "85", "90", "95", "100"],
     "jawaban": "C",
-    "pembahasan": "Total nilai 20 siswa = 20 × 75 = 1500\nTotal nilai 15 siswa = 15 × 70 = 1050\nTotal nilai 5 siswa terbaik = 1500 - 1050 = 450\nRata-rata = 450 ÷ 5 = 90"
+    "pembahasan": "Total 20 siswa = $20 \\times 75 = 1500$.\\nTotal 15 siswa = $15 \\times 70 = 1050$.\\nTotal 5 siswa terbaik = $1500 - 1050 = 450$.\\nRata-rata = $450 / 5 = 90$.\\n**Jadi rata-rata siswa terbaik 90.**"
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah tangga bersandar pada tembok dengan sudut 60° terhadap lantai. Jika panjang tangga 10 meter, maka tinggi ujung tangga dari lantai adalah...",
+    "pertanyaan": "Sebuah tangga bersandar pada tembok membentuk sudut 60° dengan lantai. Jika panjang tangga 10 m, tinggi ujung tangga adalah...",
     "pilihan": ["5 m", "5√2 m", "5√3 m", "10 m", "10√3 m"],
     "jawaban": "C",
-    "pembahasan": "Tinggi = panjang tangga × sin 60°\n= 10 × (√3/2) = 5√3 m"
+    "pembahasan": "Gunakan $\\sin 60^\\circ = h / 10$.\\n$h = 10 \\times \\sin 60^\\circ = 10 \\times \\tfrac{\\sqrt{3}}{2} = 5\\sqrt{3}$ m.\\n**Jadi tingginya 5√3 m.**"
   },
   {
     "id": 19,
-    "pertanyaan": "Jika x dan y adalah solusi dari sistem persamaan 2x+y=7 dan x-y=2, maka nilai dari x²+y² adalah...",
+    "pertanyaan": "Jika $2x + y = 7$ dan $x - y = 2$, maka nilai $x^2 + y^2$ adalah...",
     "pilihan": ["10", "13", "17", "25", "29"],
     "jawaban": "A",
-    "pembahasan": "2x + y = 7\nx - y = 2\nTambahkan: 3x = 9 → x = 3\nSubstitusi: 3 - y = 2 → y = 1\nx² + y² = 3² + 1² = 9 + 1 = 10"
+    "pembahasan": "Dari $x - y = 2 \\Rightarrow y = x - 2$.\\nSubstitusi ke $2x + y = 7$: $2x + (x - 2) = 7 \\Rightarrow 3x = 9 \\Rightarrow x = 3$.\\n$y = 1$.\\n$x^2 + y^2 = 9 + 1 = 10$.\\n**Jadi hasilnya 10.**"
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah kubus memiliki volume 216 cm³. Panjang diagonal ruang kubus tersebut adalah...",
+    "pertanyaan": "Sebuah kubus memiliki volume 216 cm³. Panjang diagonal ruangnya adalah...",
     "pilihan": ["6√2 cm", "6√3 cm", "12 cm", "12√2 cm", "12√3 cm"],
     "jawaban": "B",
-    "pembahasan": "Sisi kubus = ∛216 = 6 cm\nDiagonal ruang = sisi × √3 = 6√3 cm"
+    "pembahasan": "Sisi $s = \\sqrt[3]{216} = 6$.\\nDiagonal ruang $= s\\sqrt{3} = 6\\sqrt{3}$ cm.\\n**Jadi diagonal ruangnya 6√3 cm.**"
   }
 ]
