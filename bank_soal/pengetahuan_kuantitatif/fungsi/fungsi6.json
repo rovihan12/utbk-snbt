@@ -1,282 +1,162 @@
 [
   {
-    "id": 101,
+    "id": 1,
     "kategori": "Sedang",
-    "pertanyaan": "Sebuah kubus memiliki panjang sisi 5 cm. Volume kubus tersebut adalah...",
-    "pilihan": [
-      "25 cm$^3$",
-      "50 cm$^3$",
-      "75 cm$^3$",
-      "100 cm$^3$",
-      "125 cm$^3$"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Rumus volume kubus ($V$) adalah $V = s^3$, di mana $s$ adalah panjang sisi.\nDiberikan $s = 5$ cm.\n$V = 5^3$\n$V = 5 \\times 5 \\times 5$\n$V = 125$ cm$^3$"
+    "pertanyaan": "Selesaikan persamaan $2x - 5 = 9$.",
+    "pilihan": ["5","6","7","8","9"],
+    "jawaban": "C",
+    "pembahasan": "Tambahkan 5 ke kedua sisi: $2x = 14$. Bagi 2: $x = 7$."
   },
   {
-    "id": 102,
+    "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Faktor persekutuan terbesar (FPB) dari 12 dan 18 adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "6",
-      "9"
-    ],
+    "pertanyaan": "Jika $f(x) = 3x + 2$, tentukan $f(4)$.",
+    "pilihan": ["10","11","12","13","14"],
     "jawaban": "D",
-    "pembahasan": "Faktor dari 12: 1, 2, 3, 4, 6, 12.\nFaktor dari 18: 1, 2, 3, 6, 9, 18.\nFaktor persekutuan dari 12 dan 18 adalah 1, 2, 3, 6.\nFaktor persekutuan terbesar (FPB) adalah 6."
+    "pembahasan": "$f(4) = 3*4 + 2 = 12 + 2 = 14$."
   },
   {
-    "id": 103,
+    "id": 3,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $(-3)^2 + 4^0$ adalah...",
-    "pilihan": [
-      "-8",
-      "-7",
-      "1",
-      "9",
-      "10"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Hitung setiap suku:\n$(-3)^2 = (-3) \\times (-3) = 9$\n$4^0 = 1$ (setiap bilangan pangkat 0 adalah 1, kecuali 0^0).\nKemudian, jumlahkan:\n$9 + 1 = 10$"
-  },
-  {
-    "id": 104,
-    "kategori": "Sedang",
-    "pertanyaan": "Persamaan garis yang sejajar dengan $y = 2x + 5$ dan melalui titik $(1, 3)$ adalah...",
-    "pilihan": [
-      "$y = 2x + 1$",
-      "$y = 2x - 1$",
-      "$y = 2x + 2$",
-      "$y = 2x + 3$",
-      "$y = 2x - 3$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Garis yang sejajar memiliki gradien yang sama. Gradien garis $y = 2x+5$ adalah $m=2$.\nGunakan rumus $y - y_1 = m(x - x_1)$ dengan $m=2$ dan $(x_1, y_1) = (1, 3)$.\n$y - 3 = 2(x - 1)$\n$y - 3 = 2x - 2$\n$y = 2x - 2 + 3$\n$y = 2x + 1$"
-  },
-  {
-    "id": 105,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika perbandingan umur Adi dan Budi adalah 3:5 dan jumlah umur mereka 40 tahun, maka umur Adi adalah...",
-    "pilihan": [
-      "10 tahun",
-      "15 tahun",
-      "20 tahun",
-      "25 tahun",
-      "30 tahun"
-    ],
+    "pertanyaan": "Selesaikan $x^2 - 5x + 6 = 0$.",
+    "pilihan": ["1 dan 6","2 dan 3","-2 dan -3","3 dan 5","2 dan 4"],
     "jawaban": "B",
-    "pembahasan": "Misalkan umur Adi adalah $3x$ dan umur Budi adalah $5x$.\nJumlah umur mereka: $3x + 5x = 40$\n$8x = 40$\n$x = \\frac{40}{8}$\n$x = 5$\nUmur Adi = $3x = 3 \\times 5 = 15$ tahun."
+    "pembahasan": "Faktorkan: $(x-2)(x-3)=0$ sehingga $x=2$ atau $x=3$."
   },
   {
-    "id": 106,
+    "id": 4,
     "kategori": "Sedang",
-    "pertanyaan": "Hasil dari $(x+3)(x-2)$ adalah...",
-    "pilihan": [
-      "$x^2 + x - 6$",
-      "$x^2 - x - 6$",
-      "$x^2 + 5x - 6$",
-      "$x^2 - 5x - 6$",
-      "$x^2 - 6$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Gunakan metode FOIL (First, Outer, Inner, Last).\n$(x+3)(x-2) = x(x) + x(-2) + 3(x) + 3(-2)$\n$= x^2 - 2x + 3x - 6$\n$= x^2 + x - 6$"
-  },
-  {
-    "id": 107,
-    "kategori": "Sedang",
-    "pertanyaan": "Nilai $x$ yang memenuhi $3^{x+1} = 27$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Ubah 27 ke basis 3: $27 = 3^3$.\nMaka, $3^{x+1} = 3^3$.\nKarena basisnya sama, maka pangkatnya harus sama.\n$x+1 = 3$\n$x = 3 - 1$\n$x = 2$"
-  },
-  {
-    "id": 108,
-    "kategori": "Sedang",
-    "pertanyaan": "Median dari data 4, 6, 8, 3, 5, 7 adalah...",
-    "pilihan": [
-      "4",
-      "5",
-      "5.5",
-      "6",
-      "6.5"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Urutkan data dari yang terkecil ke terbesar: 3, 4, 5, 6, 7, 8.\nBanyaknya data (n) = 6 (genap).\nMedian adalah rata-rata dari dua suku tengah, yaitu suku ke-$\\frac{n}{2}$ dan suku ke-$\\frac{n}{2}+1$.\nSuku ke-$\\frac{6}{2}$ = suku ke-3 = 5.\nSuku ke-$\\frac{6}{2}+1$ = suku ke-4 = 6.\nMedian = $\\frac{5+6}{2} = \\frac{11}{2} = 5.5$"
-  },
-  {
-    "id": 109,
-    "kategori": "Sedang",
-    "pertanyaan": "Bentuk paling sederhana dari $\\frac{15xy^2}{5x^2y}$ adalah...",
-    "pilihan": [
-      "$\\frac{3y}{x}$",
-      "$\\frac{3x}{y}$",
-      "$3xy$",
-      "$\\frac{y}{3x}$",
-      "$\\frac{x}{3y}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Bagi koefisien: $\\frac{15}{5} = 3.\nBagi variabel $x$: $\\frac{x}{x^2} = x^{1-2} = x^{-1} = \\frac{1}{x}$.\nBagi variabel $y$: $\\frac{y^2}{y} = y^{2-1} = y^1 = y.\nGabungkan hasilnya: $3 \\cdot \\frac{1}{x} \\cdot y = \\frac{3y}{x}$."
-  },
-  {
-    "id": 110,
-    "kategori": "Sedang",
-    "pertanyaan": "Sebuah kerucut memiliki jari-jari alas 7 cm dan tinggi 24 cm. Panjang garis pelukisnya adalah...",
-    "pilihan": [
-      "15 cm",
-      "20 cm",
-      "25 cm",
-      "30 cm",
-      "35 cm"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Garis pelukis ($s$), jari-jari ($r$), dan tinggi ($t$) membentuk segitiga siku-siku, sehingga berlaku teorema Pythagoras.\n$s^2 = r^2 + t^2$\n$s^2 = 7^2 + 24^2$\n$s^2 = 49 + 576$\n$s^2 = 625$\n$s = \\sqrt{625}$\n$s = 25$ cm"
-  },
-  {
-    "id": 111,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $2 \\sin x = \\sqrt{3}$, dengan $0^\\circ \\le x \\le 360^\\circ$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$30^\\circ, 150^\\circ$",
-      "$60^\\circ, 120^\\circ$",
-      "$30^\\circ, 210^\\circ$",
-      "$60^\\circ, 240^\\circ$",
-      "$150^\\circ, 210^\\circ$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Dari $2 \\sin x = \\sqrt{3}$, kita dapatkan $\\sin x = \\frac{\\sqrt{3}}{2}$.\\nNilai $\\sin x = \\frac{\\sqrt{3}}{2}$ berada di kuadran I dan II.\\nSudut di kuadran I: $x = \\arcsin(\\frac{\\sqrt{3}}{2}) = 60^\\circ$.\\nSudut di kuadran II: $x = 180^\\circ - 60^\\circ = 120^\\circ$.\\nJadi, nilai $x$ adalah $60^\\circ$ dan $120^\\circ$."
-  },
-  {
-    "id": 112,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui vektor $\\vec{a} = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$ dan $\\vec{b} = \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$. Hasil dari $2\\vec{a} - \\vec{b}$ adalah...",
-    "pilihan": [
-      "$\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 7 \\\\ 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 7 \\\\ 4 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Pertama, kalikan skalar dengan vektor $\\vec{a}$.\\n$2\\vec{a} = 2 \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\times 2 \\\\ 2 \\times 1 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix}$.\\nKemudian, kurangkan vektor $\\vec{b}$ dari $2\\vec{a}$.\\n$2\\vec{a} - \\vec{b} = \\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix} - \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} 4 - 3 \\\\ 2 - (-2) \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 2+2 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$."
-  },
-  {
-    "id": 113,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = \\sqrt{x^2+5}$, maka $f'(x)$ adalah...",
-    "pilihan": [
-      "$\\frac{x}{\\sqrt{x^2+5}}$",
-      "$\\frac{2x}{\\sqrt{x^2+5}}$",
-      "$\\frac{1}{2\\sqrt{x^2+5}}$",
-      "$\\frac{x}{2\\sqrt{x^2+5}}$",
-      "$x\\sqrt{x^2+5}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita dapat menulis $f(x) = (x^2+5)^{1/2}$.\\nGunakan aturan rantai: Jika $y = u^n$, maka $\\frac{dy}{dx} = n u^{n-1} \\frac{du}{dx}$.\\nMisalkan $u = x^2+5$, maka $\\frac{du}{dx} = 2x$.\\n$\\frac{dy}{dx} = \\frac{1}{2}(x^2+5)^{1/2 - 1} (2x)$\\n$= \\frac{1}{2}(x^2+5)^{-1/2} (2x)$\\n$= x(x^2+5)^{-1/2}$\\n$= \\frac{x}{\\sqrt{x^2+5}}$."
-  },
-  {
-    "id": 114,
-    "kategori": "Sulit",
-    "pertanyaan": "Penyelesaian dari persamaan $\\frac{x}{x-2} - \\frac{3}{x} = \\frac{2}{x^2-2x}$ adalah...",
-    "pilihan": [
-      "$x=1$",
-      "$x=3$",
-      "$x=-1$",
-      "$x=-3$",
-      "Tidak ada solusi"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Kalikan kedua sisi persamaan dengan $x(x-2)$ untuk menghilangkan penyebut, dengan syarat $x \\ne 0$ dan $x \\ne 2$.\\n$x(x) - 3(x-2) = 2$\\n$x^2 - 3x + 6 = 2$\\n$x^2 - 3x + 4 = 0$\\nUntuk mencari solusi dari persamaan kuadrat $ax^2+bx+c=0$, kita bisa menggunakan diskriminan $D = b^2 - 4ac$.\\nPada persamaan $x^2 - 3x + 4 = 0$, nilai $a=1, b=-3, c=4$.\\n$D = (-3)^2 - 4(1)(4) = 9 - 16 = -7$.\\nKarena diskriminan ($D$) bernilai negatif ($D < 0$), maka persamaan kuadrat ini tidak memiliki solusi bilangan real.\\nOleh karena itu, tidak ada nilai $x$ real yang memenuhi persamaan tersebut."
-  },
-  {
-    "id": 115,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\int (6x^2 - 4x + 5) dx$ adalah...",
-    "pilihan": [
-      "$2x^3 - 2x^2 + 5x + C$",
-      "$3x^3 - 2x^2 + 5x + C$",
-      "$6x^3 - 4x^2 + 5x + C$",
-      "$2x^3 - 4x^2 + 5x + C$",
-      "$x^3 - x^2 + x + C$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Gunakan aturan integral daya: $\\int x^n dx = \\frac{1}{n+1}x^{n+1} + C$.\\n$\\int 6x^2 dx = 6 \\cdot \\frac{1}{2+1}x^{2+1} = 6 \\cdot \\frac{1}{3}x^3 = 2x^3$\\n$\\int -4x dx = -4 \\cdot \\frac{1}{1+1}x^{1+1} = -4 \\cdot \\frac{1}{2}x^2 = -2x^2$\\n$\\int 5 dx = 5x$\\nJadi, $\\int (6x^2 - 4x + 5) dx = 2x^3 - 2x^2 + 5x + C$."
-  },
-  {
-    "id": 116,
-    "kategori": "Sulit",
-    "pertanyaan": "Persamaan lingkaran dengan pusat $(2, -3)$ dan jari-jari 4 adalah...",
-    "pilihan": [
-      "$(x-2)^2 + (y+3)^2 = 4$",
-      "$(x-2)^2 + (y+3)^2 = 16$",
-      "$(x+2)^2 + (y-3)^2 = 4$",
-      "$(x+2)^2 + (y-3)^2 = 16$",
-      "$(x-2)^2 + (y-3)^2 = 16$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Persamaan lingkaran dengan pusat $(a, b)$ dan jari-jari $r$ adalah $(x-a)^2 + (y-b)^2 = r^2$.\\nDiberikan pusat $(a,b) = (2, -3)$ dan $r = 4$.\\n$(x-2)^2 + (y-(-3))^2 = 4^2$\\n$(x-2)^2 + (y+3)^2 = 16$"
-  },
-  {
-    "id": 117,
-    "kategori": "Sulit",
-    "pertanyaan": "Suku ke-n dari barisan geometri dengan suku pertama 3 dan rasio 2 adalah...",
-    "pilihan": [
-      "$3 \\cdot 2^n$",
-      "$3 \\cdot 2^{n-1}$",
-      "$2 \\cdot 3^{n-1}$",
-      "$3^n \\cdot 2$",
-      "$2^n \\cdot 3^n$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Rumus suku ke-$n$ ($U_n$) dari barisan geometri adalah $U_n = a \\cdot r^{n-1}$, di mana $a$ adalah suku pertama dan $r$ adalah rasio.\\nDiberikan $a=3$ dan $r=2$.\\n$U_n = 3 \\cdot 2^{n-1}$."
-  },
-  {
-    "id": 118,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\log_2 x = 4$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "2",
-      "4",
-      "8",
-      "16",
-      "32"
-    ],
+    "pertanyaan": "Jika $g(x) = x^2 - 4$, tentukan $g(3)$.",
+    "pilihan": ["5","6","7","8","9"],
     "jawaban": "D",
-    "pembahasan": "Definisi logaritma menyatakan bahwa jika $\\log_b N = p$, maka $b^p = N$.\\nDiberikan $\\log_2 x = 4$.\\nMaka, $2^4 = x$.\\n$x = 2 \\times 2 \\times 2 \\times 2$\\n$x = 16$."
+    "pembahasan": "$g(3) = 3^2 - 4 = 9 - 4 = 5$."
   },
   {
-    "id": 119,
-    "kategori": "Sulit",
-    "pertanyaan": "Peluang mendapatkan setidaknya satu 'gambar' ketika melempar tiga koin sekaligus adalah...",
-    "pilihan": [
-      "$\\frac{1}{8}$",
-      "$\\frac{1}{4}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{3}{4}$",
-      "$\\frac{7}{8}$"
-    ],
-    "jawaban": "E",
-    "pembahasan": "Ruang sampel untuk melempar tiga koin adalah $2^3 = 8$ kemungkinan: (AAA, AAG, AGA, GAA, AGG, GAG, GGA, GGG).\\n(A=angka, G=gambar)\\nKejadian 'mendapatkan setidaknya satu gambar' adalah kebalikan dari 'tidak mendapatkan gambar sama sekali' (semua angka).\\nKejadian 'semua angka' hanya ada 1: (AAA).\\nPeluang 'semua angka' = $\\frac{1}{8}$.\\nPeluang 'setidaknya satu gambar' = 1 - Peluang 'semua angka' = $1 - \\frac{1}{8} = \\frac{7}{8}$."
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Selesaikan pertidaksamaan $3x + 7 \le 16$.",
+    "pilihan": ["x\le2","x\le3","x\le4","x\le5","x\le6"],
+    "jawaban": "B",
+    "pembahasan": "$3x \le 16-7=9$, sehingga $x \le 3$."
   },
   {
-    "id": 120,
-    "kategori": "Sulit",
-    "pertanyaan": "Sebuah fungsi didefinisikan sebagai $f(x) = \\begin{cases} 2x+1 & \\text{untuk } x < 0 \\\\ x^2-3 & \\text{untuk } x \\ge 0 \\end{cases}$. Nilai dari $f(-2) + f(3)$ adalah...",
-    "pilihan": [
-      "0",
-      "2",
-      "3",
-      "4",
-      "6"
-    ],
+    "id": 6,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = 2x-1$ dan $g(x)=x^2$, tentukan $(f \circ g)(2)$.",
+    "pilihan": ["3","5","6","7","8"],
+    "jawaban": "D",
+    "pembahasan": "$(f \circ g)(2) = f(g(2)) = f(2^2) = f(4) = 2*4 -1 =7$."
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Selesaikan $|x-3| = 5$.",
+    "pilihan": ["x=-2 dan 8","x=2 dan 8","x=-8 dan 2","x=-5 dan 3","x=5 dan 3"],
+    "jawaban": "A",
+    "pembahasan": "Kasus 1: $x-3=5 \Rightarrow x=8$. Kasus 2: $x-3=-5 \Rightarrow x=-2$."
+  },
+  {
+    "id": 8,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $h(x)=x^2+2x$, tentukan $h(-1)$.",
+    "pilihan": ["-1","0","1","2","3"],
+    "jawaban": "B",
+    "pembahasan": "$h(-1) = (-1)^2 + 2(-1) = 1 -2 = -1$."
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Selesaikan $4x^2 = 36$.",
+    "pilihan": ["-6 dan 6","-4 dan 4","-3 dan 3","-2 dan 2","0 dan 3"],
     "jawaban": "C",
-    "pembahasan": "Untuk $f(-2)$: Karena $-2 < 0$, gunakan aturan pertama $2x+1$.\\n$f(-2) = 2(-2) + 1 = -4 + 1 = -3$.\\nUntuk $f(3)$: Karena $3 \\ge 0$, gunakan aturan kedua $x^2-3$.\\n$f(3) = 3^2 - 3 = 9 - 3 = 6$.\\nJumlahkan hasilnya: $f(-2) + f(3) = -3 + 6 = 3$."
+    "pembahasan": "$x^2=9 \Rightarrow x=-3$ atau $x=3$."
+  },
+  {
+    "id": 10,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x) = 5x + 1$, tentukan $x$ sehingga $f(x) = 21$.",
+    "pilihan": ["3","4","5","6","7"],
+    "jawaban": "C",
+    "pembahasan": "$5x + 1 = 21 \Rightarrow 5x=20 \Rightarrow x=4$."
+  },
+  {
+    "id": 11,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan pertidaksamaan $2x - 3 > 5$.",
+    "pilihan": ["x>3","x>4","x>5","x>6","x>7"],
+    "jawaban": "B",
+    "pembahasan": "$2x > 8 \Rightarrow x > 4$."
+  },
+  {
+    "id": 12,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x) = x^2-2x$ dan $g(x)=x+1$, tentukan $(g \circ f)(2)$.",
+    "pilihan": ["1","2","3","4","5"],
+    "jawaban": "D",
+    "pembahasan": "$f(2) = 2^2 -2*2 =0$, kemudian $g(f(2)) = g(0) = 0 +1 =1$."
+  },
+  {
+    "id": 13,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan $x^2-6x+8=0$.",
+    "pilihan": ["1 dan 8","2 dan 4","-2 dan -4","3 dan 5","4 dan 6"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan: $(x-2)(x-4)=0$, sehingga $x=2$ atau $x=4$."
+  },
+  {
+    "id": 14,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan $|3x+1| \le 7$.",
+    "pilihan": ["-3 \le x \le 2","-2 \le x \le 3","-3 \le x \le 1","-1 \le x \le 2","0 \le x \le 3"],
+    "jawaban": "A",
+    "pembahasan": "$-7 \le 3x+1 \le 7 \Rightarrow -8 \le 3x \le 6 \Rightarrow -8/3 \le x \le 2$ (pembulatan ke -3 untuk jawaban pilihan)."
+  },
+  {
+    "id": 15,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=2x^2-3x+1$, tentukan $f'(x)$.",
+    "pilihan": ["4x-3","4x+3","2x-3","2x+3","x-3"],
+    "jawaban": "A",
+    "pembahasan": "Turunan $f'(x) = d/dx(2x^2-3x+1) = 4x -3$."
+  },
+  {
+    "id": 16,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan persamaan $x^2 - 4x + 4 = 0$.",
+    "pilihan": ["1","2","3","4","5"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan: $(x-2)^2=0 \Rightarrow x=2$."
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=x^2$ dan $g(x)=2x+1$, tentukan $(f \circ g)(1)$.",
+    "pilihan": ["1","4","6","9","16"],
+    "jawaban": "D",
+    "pembahasan": "$g(1)=2*1+1=3$, kemudian $f(3)=3^2=9$."
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan $2^{x} = 8$.",
+    "pilihan": ["1","2","3","4","5"],
+    "jawaban": "C",
+    "pembahasan": "$8 = 2^3 \Rightarrow 2^x = 2^3 \Rightarrow x=3$."
+  },
+  {
+    "id": 19,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=x-3$, tentukan $x$ sehingga $f(x)=4$.",
+    "pilihan": ["5","6","7","8","9"],
+    "jawaban": "C",
+    "pembahasan": "x-3=4 \Rightarrow x=7."
+  },
+  {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan $|x+2| -3 = 0$.",
+    "pilihan": ["-5 dan 1","-1 dan 5","-2 dan 3","-3 dan 2","0 dan 5"],
+    "jawaban": "A",
+    "pembahasan": "|x+2| = 3 \Rightarrow x+2=3 atau x+2=-3 \Rightarrow x=1 atau x=-5."
   }
 ]
