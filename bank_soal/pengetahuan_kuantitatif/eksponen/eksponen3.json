@@ -1,6 +1,6 @@
 [
   {
-    "id": 41,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk sederhana dari $a^7 \\div a^3$ adalah...",
     "pilihan": [
@@ -14,7 +14,7 @@
     "pembahasan": "Gunakan sifat eksponen $a^m \\div a^n = a^{m-n}$.\n$a^7 \\div a^3 = a^{7-3} = a^4$"
   },
   {
-    "id": 42,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Nilai dari $(2^3)^{-1}$ adalah...",
     "pilihan": [
@@ -28,7 +28,7 @@
     "pembahasan": "Gunakan sifat eksponen $(a^m)^n = a^{m \\times n}$ dan $a^{-n} = 1/a^n$.\n$(2^3)^{-1} = 2^{3 \\times (-1)} = 2^{-3} = 1/2^3 = 1/8$"
   },
   {
-    "id": 43,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk $x^{-1/2}$ sama dengan...",
     "pilihan": [
@@ -42,7 +42,7 @@
     "pembahasan": "Gunakan sifat eksponen $a^{-n} = 1/a^n$ dan $a^{1/n} = \\sqrt[n]{a}$.\n$x^{-1/2} = 1/x^{1/2} = 1/\\sqrt{x}$"
   },
   {
-    "id": 44,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika $^5\\log x = 3$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -56,7 +56,7 @@
     "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\nJadi, $^5\\log x = 3$ ekuivalen dengan $5^3 = x$.\n$x = 125$"
   },
   {
-    "id": 45,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Hasil dari $\\ln e^2$ adalah...",
     "pilihan": [
@@ -70,7 +70,7 @@
     "pembahasan": "Logaritma alami (ln) memiliki basis $e$. Gunakan sifat $^b\\log b^n = n$.\n$\\ln e^2 = 2$"
   },
   {
-    "id": 46,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(\\frac{2a^3 b^{-1}}{4a^{-2} b^2})^2$ adalah...",
     "pilihan": [
@@ -81,10 +81,10 @@
       "$\\frac{a^5 b^3}{2}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Sederhanakan bagian dalam kurung terlebih dahulu:\n$\\frac{2a^3 b^{-1}}{4a^{-2} b^2} = \\frac{1}{2} a^{3-(-2)} b^{-1-2} = \\frac{1}{2} a^5 b^{-3} = \\frac{a^5}{2b^3}$\nKemudian, pangkatkan dengan 2:\n$(\\frac{a^5}{2b^3})^2 = \\frac{(a^5)^2}{(2b^3)^2} = \\frac{a^{10}}{2^2 (b^3)^2} = \\frac{a^{10}}{4b^6}$"
+    "pembahasan": "Sederhanakan bagian dalam kurung terlebih dahulu:\n$\\frac{2a^3 b^{-1}}{4a^{-2} b^2} = \\frac{1}{2} a^{3-(-2)} b^{-1-2}$\n$= \\frac{1}{2} a^5 b^{-3} = \\frac{a^5}{2b^3}$\nKemudian, pangkatkan dengan 2:\n$(\\frac{a^5}{2b^3})^2 = \\frac{(a^5)^2}{(2b^3)^2}$\n$= \\frac{a^{10}}{2^2 (b^3)^2} = \\frac{a^{10}}{4b^6}$"
   },
   {
-    "id": 47,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $3^{x+2} = 1/9$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -98,7 +98,7 @@
     "pembahasan": "Ubahlah $1/9$ ke dalam bentuk pangkat dengan basis 3.\n$1/9 = 1/3^2 = 3^{-2}$\nJadi, $3^{x+2} = 3^{-2}$.\nKarena basisnya sama, maka eksponennya harus sama:\n$x+2 = -2$\n$x = -4$"
   },
   {
-    "id": 48,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $^2\\log 12 - ^2\\log 3$ adalah...",
     "pilihan": [
@@ -109,10 +109,10 @@
       "6"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log M - ^b\\log N = ^b\\log (M/N)$.\n$^2\\log 12 - ^2\\log 3 = ^2\\log (12/3) = ^2\\log 4$\n$^2\\log 4 = 2$ (karena $2^2 = 4$)"
+    "pembahasan": "Gunakan sifat logaritma $^b\\log M - ^b\\log N = ^b\\log (M/N)$.\n$^2\\log 12 - ^2\\log 3 = ^2\\log (12/3)$\n$= ^2\\log 4 = 2$ (karena $2^2 = 4$)"
   },
   {
-    "id": 49,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $^{1/3}\\log 9$ adalah...",
     "pilihan": [
@@ -126,7 +126,7 @@
     "pembahasan": "Misalkan $^{1/3}\\log 9 = y$. Maka $(1/3)^y = 9$.\n$(3^{-1})^y = 3^2$\n$3^{-y} = 3^2$\n$-y = 2$\n$y = -2$"
   },
   {
-    "id": 50,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Jika $x = 2^a$ dan $y = 2^b$, maka $xy$ adalah...",
     "pilihan": [
@@ -140,7 +140,7 @@
     "pembahasan": "Ketika mengalikan bilangan berpangkat dengan basis yang sama, tambahkan eksponennya.\n$xy = 2^a \\times 2^b = 2^{a+b}$"
   },
   {
-    "id": 51,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $2^{5x-2} = 4^{x+3}$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -151,10 +151,10 @@
       "1"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubah semua basis ke 2.\n$2^{5x-2} = (2^2)^{x+3}$\n$2^{5x-2} = 2^{2x+6}$\n$5x-2 = 2x+6$\n$3x = 8$\n$x = 8/5$"
+    "pembahasan": "Ubah semua basis ke 2.\n$2^{5x-2} = (2^2)^{x+3}$\n$2^{5x-2} = 2^{2x+6}$\nKarena basisnya sama, maka eksponennya harus sama:\n$5x-2 = 2x+6$\n$3x = 8$\n$x = 8/5$"
   },
   {
-    "id": 52,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $(25^{1/2} - 81^{1/4})^2$ adalah...",
     "pilihan": [
@@ -168,7 +168,7 @@
     "pembahasan": "Hitung nilai di dalam kurung terlebih dahulu.\n$25^{1/2} = \\sqrt{25} = 5$\n$81^{1/4} = \\sqrt[4]{81} = 3$\nJadi, $(5-3)^2 = 2^2 = 4$"
   },
   {
-    "id": 53,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika $a^x = b$ dan $b^y = c$, maka nilai dari $a^{xy}$ adalah...",
     "pilihan": [
@@ -182,7 +182,7 @@
     "pembahasan": "Diketahui $a^x = b$. Substitusikan ini ke persamaan kedua $b^y = c$.\n$(a^x)^y = c$\n$a^{xy} = c$"
   },
   {
-    "id": 54,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Penyelesaian dari persamaan $5^{4x+1} = 25^{x}$ adalah...",
     "pilihan": [
@@ -196,7 +196,7 @@
     "pembahasan": "Ubahlah basis 25 menjadi basis 5.\n$25 = 5^2$\n$5^{4x+1} = (5^2)^{x}$\n$5^{4x+1} = 5^{2x}$\nKarena basisnya sama, maka eksponennya harus sama:\n$4x+1 = 2x$\n$2x = -1$\n$x = -1/2$"
   },
   {
-    "id": 55,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^3\\log (x^2+x+1) = 1$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -210,7 +210,7 @@
     "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2+x+1 = 3^1$\n$x^2+x+1 = 3$\n$x^2+x-2 = 0$\nFaktorkan persamaan kuadrat:\n$(x+2)(x-1) = 0$\nJadi, $x=-2$ atau $x=1$.\nPeriksa syarat numerus logaritma harus positif: $x^2+x+1 > 0$. Kedua nilai memenuhi.\nSolusi yang benar adalah $x=1$ atau $x=-2$."
   },
   {
-    "id": 56,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^x\\log 2 + ^x\\log 4 = 3$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -224,7 +224,7 @@
     "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$.\n$^x\\log (2 \\times 4) = 3$\n$^x\\log 8 = 3$\nUbahlah ke bentuk eksponen:\n$x^3 = 8$\n$x = \\sqrt[3]{8}$\n$x = 2$"
   },
   {
-    "id": 57,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^3\\log 18 - ^3\\log 6 + ^3\\log 1$ adalah...",
     "pilihan": [
@@ -235,10 +235,10 @@
       "$\\log_3 13$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log x - ^b\\log y = ^b\\log (x/y)$ dan $^b\\log x + ^b\\log y = ^b\\log (xy)$.\n$^3\\log 18 - ^3\\log 6 + ^3\\log 1 = ^3\\log (18/6) + ^3\\log 1$\n$= ^3\\log 3 + ^3\\log 1$\n$= 1 + 0$ (karena $3^1 = 3$ dan $3^0 = 1$)\n$= 1$"
+    "pembahasan": "Gunakan sifat logaritma:\n$^3\\log 18 - ^3\\log 6 + ^3\\log 1$\n$= ^3\\log (18/6) + ^3\\log 1$\n$= ^3\\log 3 + ^3\\log 1$\n$= 1 + 0$ (karena $3^1 = 3$ dan $3^0 = 1$)\n$= 1$"
   },
   {
-    "id": 58,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $2^t = t^4$, maka nilai dari $t$ adalah...",
     "pilihan": [
@@ -249,10 +249,10 @@
       "32"
     ],
     "jawaban": "D",
-    "pembahasan": "Diberikan persamaan $2^t = t^4$. Untuk menyelesaikan persamaan ini, kita akan memanipulasi kedua sisi persamaan agar memiliki basis dan eksponen yang sama.\n\n### Langkah 1: Pangkatkan kedua sisi dengan $\\frac{1}{t}$\n$2^t = t^4$\n$(2^t)^{\\frac{1}{t}} = (t^4)^{\\frac{1}{t}}$\n$2 = t^{\\frac{4}{t}}$\n\n### Langkah 2: Pangkatkan kedua sisi dengan $\\frac{1}{4}$\n$2^{\\frac{1}{4}} = (t^{\\frac{4}{t}})^{\\frac{1}{4}}$\n$2^{\\frac{1}{4}} = t^{\\frac{1}{t}}$\n\n### Langkah 3: Menyamakan Basis dan Pangkat\nKita memiliki persamaan $2^{\\frac{1}{4}} = t^{\\frac{1}{t}}$. Untuk menyamakan basis dan eksponen, kita ubah bentuk sisi kiri dengan memangkatkannya dengan $4/4$ atau $2/2$ secara berulang sampai kita mendapatkan bentuk yang sama.\n\n$(2^{\\frac{1}{4}})^{\\frac{2}{2}} = (2^2)^{\\frac{1}{4 \\cdot 2}} = 4^{\\frac{1}{8}}$\n\n$(4^{\\frac{1}{8}})^{\\frac{2}{2}} = (4^2)^{\\frac{1}{8 \\cdot 2}} = 16^{\\frac{1}{16}}$\n\nKita mendapatkan $16^{\\frac{1}{16}} = t^{\\frac{1}{t}}$. Dari bentuk ini, kita dapat menyimpulkan bahwa **$t = 16$**."
+    "pembahasan": "Diberikan persamaan $2^t = t^4$.\nPangkatkan kedua sisi dengan $\\frac{1}{t}$:\n$(2^t)^{\\frac{1}{t}} = (t^4)^{\\frac{1}{t}}$\n$2 = t^{\\frac{4}{t}}$\nPangkatkan kedua sisi dengan $\\frac{1}{4}$:\n$2^{\\frac{1}{4}} = (t^{\\frac{4}{t}})^{\\frac{1}{4}}$\n$2^{\\frac{1}{4}} = t^{\\frac{1}{t}}$\nDengan manipulasi lebih lanjut:\n$(2^{\\frac{1}{4}})^{\\frac{2}{2}} = (2^2)^{\\frac{1}{8}} = 4^{\\frac{1}{8}}$\n$(4^{\\frac{1}{8}})^{\\frac{2}{2}} = (4^2)^{\\frac{1}{16}} = 16^{\\frac{1}{16}}$\nJadi $16^{\\frac{1}{16}} = t^{\\frac{1}{t}}$, maka $t = 16$"
   },
   {
-    "id": 59,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan nilai $x$ dari persamaan $5^{x^2-2x-3} = 1$.",
     "pilihan": [
@@ -263,10 +263,10 @@
       "Tidak ada solusi"
     ],
     "jawaban": "A",
-    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1. Jadi eksponennya harus sama dengan 0.\n$x^2-2x-3 = 0$\nFaktorkan persamaan kuadrat:\n$(x-3)(x+1) = 0$\nJadi, $x=3$ atau $x=-1$."
+    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1.\nJadi eksponennya harus sama dengan 0:\n$x^2-2x-3 = 0$\nFaktorkan persamaan kuadrat:\n$(x-3)(x+1) = 0$\nJadi, $x=3$ atau $x=-1$"
   },
   {
-    "id": 60,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^5\\log 2 = p$, maka $^2\\log 25$ adalah...",
     "pilihan": [
@@ -277,6 +277,6 @@
       "$1/2p$"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^p\\log q = \\frac{1}{^q\\log p}$.\n$^2\\log 25 = ^2\\log 5^2 = 2 \\cdot ^2\\log 5$\nKita tahu $^5\\log 2 = p$. Maka $^2\\log 5 = \\frac{1}{^5\\log 2} = \\frac{1}{p}$.\nJadi, $^2\\log 25 = 2 \\times \\frac{1}{p} = \\frac{2}{p}$."
+    "pembahasan": "Gunakan sifat perubahan basis logaritma:\n$^2\\log 25 = ^2\\log 5^2 = 2 \\cdot ^2\\log 5$\nKita tahu $^5\\log 2 = p$. Maka:\n$^2\\log 5 = \\frac{1}{^5\\log 2} = \\frac{1}{p}$\nJadi, $^2\\log 25 = 2 \\times \\frac{1}{p} = \\frac{2}{p}$"
   }
 ]
