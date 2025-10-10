@@ -77,7 +77,7 @@
     "pertanyaan": "Tentukan nilai minimum dari fungsi kuadrat $f(x) = x^2 - 4x + 7$.",
     "pilihan": ["3","4","5","6","7"],
     "jawaban": "A",
-    "pembahasan": "Nilai minimum terjadi pada $x = -b/(2a) = -(-4)/(2\\cdot1) = 2$. Nilai minimum: $f(2) = 2^2 - 4(2) + 7 = 4 - 8 + 7 = 3$. (Atau menggunakan diskriminan: $y_{min} = -D/(4a)$)"
+    "pembahasan": "Nilai minimum terjadi pada $x = -b/(2a) = -(-4)/(2\\cdot1) = 2$. Nilai minimum: $f(2) = 2^2 - 4(2) + 7 = 4 - 8 + 7 = 3$."
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "pertanyaan": "Jika $g(x) = x^2$ dan $(g \\circ f)(x) = x^2 - 2x + 1$, tentukan fungsi $f(x)$.",
     "pilihan": ["$x-1$","$x+1$","$x^2 - 2$","$2x-1$","$x^2+1$"],
     "jawaban": "A",
-    "pembahasan": "$(g \\circ f)(x) = g(f(x))$. Karena $g(x) = x^2$, maka $g(f(x)) = (f(x))^2$. Jadi $(f(x))^2 = x^2 - 2x + 1$. Kita tahu bahwa $x^2 - 2x + 1 = (x-1)^2$. Maka $f(x) = x - 1$ (karena $f(x)$ biasanya diasumsikan sebagai fungsi paling sederhana)."
+    "pembahasan": "Karena $g(x) = x^2$, maka $(g \\circ f)(x) = (f(x))^2$. Jadi $(f(x))^2 = x^2 - 2x + 1 = (x-1)^2$. Maka $f(x) = x - 1$."
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "pertanyaan": "Jika $p$ dan $q$ adalah akar-akar dari $x^2 - 5x + 3 = 0$, tentukan nilai dari $p^2 + q^2$.",
     "pilihan": ["19","21","23","25","31"],
     "jawaban": "A",
-    "pembahasan": "Dari Vieta: $p + q = 5$ dan $pq = 3$. Kita tahu $p^2 + q^2 = (p + q)^2 - 2pq$. Maka $p^2 + q^2 = (5)^2 - 2(3) = 25 - 6 = 19$."
+    "pembahasan": "Dari Vieta: $p + q = 5$ dan $pq = 3$. $p^2 + q^2 = (p + q)^2 - 2pq = (5)^2 - 2(3) = 25 - 6 = 19$."
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "pertanyaan": "Jika $f(x) = 3x - 1$ dan $f(g(x)) = 9x^2 - 3x + 2$, tentukan $g(x)$.",
     "pilihan": ["$3x^2 - x + 1$","$3x^2 + x - 1$","$9x^2 - 3x + 3$","$3x^2 + 1$","$3x^2 - x + 3$"],
     "jawaban": "A",
-    "pembahasan": "$f(g(x)) = 3g(x) - 1$. Maka $3g(x) - 1 = 9x^2 - 3x + 2$. Tambahkan 1: $3g(x) = 9x^2 - 3x + 3$. Bagi 3: $g(x) = 3x^2 - x + 1$."
+    "pembahasan": "$f(g(x)) = 3g(x) - 1$. Jadi $3g(x) - 1 = 9x^2 - 3x + 2$. $3g(x) = 9x^2 - 3x + 3$. Bagi 3: $g(x) = 3x^2 - x + 1$."
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "pertanyaan": "Tentukan jumlah semua solusi bulat dari $|x - 5| = 2$.",
     "pilihan": ["7","8","10","12","15"],
     "jawaban": "C",
-    "pembahasan": "Kasus 1: $x - 5 = 2 \\Rightarrow x = 7$. Kasus 2: $x - 5 = -2 \\Rightarrow x = 3$. Kedua solusi adalah bilangan bulat. Jumlah semua solusi: $7 + 3 = 10$."
+    "pembahasan": "Kasus 1: $x - 5 = 2 \\Rightarrow x = 7$. Kasus 2: $x - 5 = -2 \\Rightarrow x = 3$. Jumlah semua solusi: $7 + 3 = 10$."
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $x^2 - 5x + 4 < 0$.",
     "pilihan": ["$x < 1$ atau $x > 4$","$1 < x < 4$","$x < -4$ atau $x > -1$","$-4 < x < -1$","$x \\in \\mathbb{R}$"],
     "jawaban": "B",
-    "pembahasan": "Faktorkan: $(x - 1)(x - 4) < 0$. Pembuat nol adalah $x=1$ dan $x=4$. Karena tandanya 'lebih kecil dari', solusinya berada di antara akar-akar: $1 < x < 4$."
+    "pembahasan": "Faktorkan: $(x - 1)(x - 4) < 0$. Solusinya berada di antara akar-akar: $1 < x < 4$."
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "pertanyaan": "Jika $3^{2x} = 81$, maka nilai dari $x^2 + 1$ adalah...",
     "pilihan": ["3","5","7","9","17"],
     "jawaban": "B",
-    "pembahasan": "Ubah ke basis yang sama: $81 = 3^4$. Maka $3^{2x} = 3^4$, sehingga $2x = 4 \\Rightarrow x = 2$. Nilai $x^2 + 1 = 2^2 + 1 = 4 + 1 = 5$."
+    "pembahasan": "Ubah ke basis yang sama: $3^{2x} = 3^4$, sehingga $2x = 4 \\Rightarrow x = 2$. Nilai $x^2 + 1 = 2^2 + 1 = 5$."
   },
   {
     "id": 17,
@@ -133,15 +133,15 @@
     "pertanyaan": "Tentukan range (daerah hasil) dari fungsi kuadrat $f(x) = x^2 + 6x + 10$.",
     "pilihan": ["$y \\ge 1$","$y \\ge -1$","$y \\le 1$","$y \\ge 0$","$y \\le 0$"],
     "jawaban": "A",
-    "pembahasan": "Karena koefisien $x^2$ positif ($a=1 > 0$), parabola terbuka ke atas, sehingga memiliki nilai minimum. Nilai minimum terjadi pada $x = -b/(2a) = -6/(2\\cdot1) = -3$. Nilai minimum $f(-3) = (-3)^2 + 6(-3) + 10 = 9 - 18 + 10 = 1$. Range-nya adalah $y \\ge 1$."
+    "pembahasan": "Nilai minimum $y_{min}$ terjadi pada $x = -b/(2a) = -6/2 = -3$. $y_{min} = f(-3) = (-3)^2 + 6(-3) + 10 = 9 - 18 + 10 = 1$. Range-nya adalah $y \\ge 1$."
   },
   {
     "id": 18,
     "kategori": "UTBK/SNBT",
-    "pertanyaan": "Jika $x, y$ adalah solusi dari sistem persamaan $2x - y = 8$ dan $x + 3y = 10$, tentukan nilai dari $x \\cdot y$.",
+    "pertanyaan": "Jika $x, y$ adalah solusi dari sistem persamaan $2x - y = 7$ dan $x + 3y = 7$, tentukan nilai dari $x \\cdot y$.",
     "pilihan": ["-12","-6","4","6","8"],
     "jawaban": "C",
-    "pembahasan": "Gunakan eliminasi. Kalikan persamaan kedua dengan 2: $2x + 6y = 20$. Kurangi dengan persamaan pertama: $(2x + 6y) - (2x - y) = 20 - 8 \\Rightarrow 7y = 12 \\Rightarrow y = 12/7$. Substitusi ke $x + 3y = 10$: $x = 10 - 3(12/7) = 10 - 36/7 = (70-36)/7 = 34/7$. Nilai $x \\cdot y = (34/7) \\cdot (12/7) = 408/49$. (Catatan: Pilihan jawaban disesuaikan dengan asumsi bahwa soal awal dirancang agar solusinya bulat. Kita asumsikan $x+3y=10$ seharusnya $x+y=6$. Jika $2x-y=8$ dan $x+y=6$, maka $3x=14$, $x=14/3, y=4/3$. Pilihan ganda ini bermasalah jika angkanya pecahan. Kita koreksi ke contoh yang umum di UTBK: $2x-y=8$ dan $x+y=4$. Maka $3x=12 \\Rightarrow x=4, y=0$. $x \\cdot y = 0$. Karena tidak ada di pilihan, mari kita koreksi ke yang bulat: $2x - y = 5$ dan $x + 3y = 6$. $x=3, y=1$. $x \\cdot y = 3$. Kita gunakan yang paling sering menghasilkan bulat: $2x - y = 8$ dan $x + 3y = 10$. $x=4, y=0$. Hasil $x \\cdot y = 0$ tidak ada. Kita revisi ke yang ada di pilihan: $x=4, y=1$. $2(4)-1=7 \\ne 8$. $x=6, y=4$. $2(6)-4=8$. $6+3(4)=18 \\ne 10$. Kita revisi ke $2x-y=8$ dan $x+y=6$. $x=14/3, y=4/3$. Karena ini terlalu rumit, kita ubah pembahasannya agar sesuai dengan pilihan C (4) yang menyiratkan $x=4, y=1$ atau $x=2, y=2$. Gunakan $x=4, y=1$: $2(4)-1=7 \\ne 8$. Gunakan $x=3, y=-2$: $2(3)-(-2)=8$. $3+3(-2)=-3 \\ne 10$. Pilihan C(4) tidak konsisten dengan soal awal. **Kita asumsikan soal yang benar adalah $2x - y = 5$ dan $x + 3y = 6$. Maka $x=3, y=1$. $x \\cdot y = 3$. Pilihan A(3)**. Mari kita kembalikan ke soal dan revisi soalnya: Jika $x, y$ adalah solusi dari sistem persamaan $2x - y = 8$ dan $x + 3y = 10$, tentukan nilai dari $2x - 3y$. Jawabannya: $2(4)-3(0) = 8$. Kita gunakan soal awal: $2x-y=8$ dan $x+3y=10$. Maka $x=4, y=0$ atau $x=3, y=1$. Mari kita ubah soal: $2x - y = 7$ dan $x + 3y = 7$. $x=4, y=1$. $x \\cdot y = 4$."
+    "pembahasan": "Dari $2x - y = 7$, kalikan 3: $6x - 3y = 21$. Tambahkan dengan $x + 3y = 7$: $7x = 28 \\Rightarrow x = 4$. Substitusi $x=4$ ke $x + 3y = 7$: $4 + 3y = 7 \\Rightarrow 3y = 3 \\Rightarrow y = 1$. Nilai $x \\cdot y = 4 \\cdot 1 = 4$."
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "pertanyaan": "Jika $x = \\log_2(8) + \\log_3(9)$, tentukan nilai dari $x$.",
     "pilihan": ["3","4","5","6","7"],
     "jawaban": "C",
-    "pembahasan": "Hitung setiap bagian: $\\log_2(8) = \\log_2(2^3) = 3$. $\\log_3(9) = \\log_3(3^2) = 2$. Maka $x = 3 + 2 = 5$."
+    "pembahasan": "Hitung setiap bagian: $\\log_2(8) = 3$ dan $\\log_3(9) = 2$. Maka $x = 3 + 2 = 5$."
   },
   {
     "id": 20,
@@ -157,6 +157,6 @@
     "pertanyaan": "Sebuah fungsi didefinisikan sebagai $h(x) = (x+2)^2$. Tentukan $h(x-1)$.",
     "pilihan": ["$x^2 + 4x + 4$","$x^2 + 2x + 1$","$x^2 + 6x + 9$","$x^2 + 2x + 4$","$x^2 + 6x + 1$"],
     "jawaban": "B",
-    "pembahasan": "Ganti setiap $x$ dalam $h(x)$ dengan $(x-1)$: $h(x-1) = ((x-1) + 2)^2 = (x + 1)^2$. Uraikan: $(x + 1)^2 = x^2 + 2x + 1$."
+    "pembahasan": "Ganti $x$ dengan $(x-1)$: $h(x-1) = ((x-1) + 2)^2 = (x + 1)^2$. Uraikan: $(x + 1)^2 = x^2 + 2x + 1$."
   }
 ]
