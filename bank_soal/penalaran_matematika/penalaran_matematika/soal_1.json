@@ -2,153 +2,141 @@
   {
     "id": 1,
     "pertanyaan": "Sebuah restoran mencatat bahwa rata-rata penjualan per hari adalah 150 porsi dengan simpangan baku 15 porsi. Jika penjualan mengikuti distribusi normal, berapa persentase hari restoran akan menjual lebih dari 180 porsi?",
-    "pilihan": [
-      "Kurang dari 1%",
-      "Sekitar 2.5%",
-      "Sekitar 5%",
-      "Sekitar 10%",
-      "Lebih dari 10%"
-    ],
+    "pilihan": ["Kurang dari 1%", "Sekitar 2.5%", "Sekitar 5%", "Sekitar 10%", "Lebih dari 10%"],
     "jawaban": "B",
-    "pembahasan": "Hitung nilai baku (Z): \n\\[ Z = \\frac{180 - 150}{15} = 2 \\]\nDari tabel distribusi normal: \n\\[ P(Z > 2) \\approx 2.28\\% \\]\nJadi persentasenya sekitar **2.5%**."
+    "pembahasan": "Hitung nilai Z-score: Z = (180 - 150)/15 = 2. Dari tabel distribusi normal, P(Z > 2) ≈ 2.28%. Jadi jawabannya sekitar 2.5%."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah deret geometri tak hingga memiliki suku pertama 12 dan rasio 1/3. Jumlah deret tersebut adalah...",
-    "pilihan": ["15","16","18","20","24"],
+    "pilihan": ["15", "16", "18", "20", "24"],
     "jawaban": "C",
-    "pembahasan": "Rumus jumlah deret geometri tak hingga: \n\\[ S = \\frac{a}{1-r} \\]\nSubstitusi: \n\\[ S = \\frac{12}{1 - \\tfrac{1}{3}} = \\frac{12}{\\tfrac{2}{3}} = 18 \\]\nJadi jumlahnya **18**."
+    "pembahasan": "Rumus jumlah deret geometri tak hingga: S = a/(1-r) = 12/(1-1/3) = 12/(2/3) = 18."
   },
   {
     "id": 3,
     "pertanyaan": "Jika x adalah bilangan bulat positif dan 2x + 5 < 17, nilai maksimum x adalah...",
-    "pilihan": ["4","5","6","7","8"],
+    "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "B",
-    "pembahasan": "Selesaikan pertidaksamaan: \n\\[ 2x + 5 < 17 \\]\n\\[ 2x < 12 \\]\n\\[ x < 6 \\]\nKarena x bilangan bulat positif, nilai maksimum adalah **5**."
+    "pembahasan": "2x + 5 < 17 → 2x < 12 → x < 6. Karena x bilangan bulat positif, nilai maksimum x adalah 5."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah akuarium berbentuk balok memiliki panjang 80 cm, lebar 50 cm, dan tinggi 60 cm. Akuarium tersebut diisi air setinggi 45 cm. Volume air dalam akuarium adalah...",
-    "pilihan": ["180 liter","200 liter","240 liter","280 liter","300 liter"],
+    "pilihan": ["180 liter", "200 liter", "240 liter", "280 liter", "300 liter"],
     "jawaban": "A",
-    "pembahasan": "Volume air: \n\\[ V = p \\times l \\times t = 80 \\times 50 \\times 45 = 180.000 \\text{ cm}^3 \\]\nKonversi: \n\\[ 180.000 \\text{ cm}^3 = 180 \\text{ liter} \\]\nJadi jawabannya **180 liter**."
+    "pembahasan": "Volume = p × l × t = 80 × 50 × 45 = 180.000 cm³ = 180 liter."
   },
   {
     "id": 5,
     "pertanyaan": "Dalam sebuah survei, 60% siswa menyukai matematika, 50% menyukai fisika, dan 20% menyukai keduanya. Berapa persentase siswa yang tidak menyukai matematika maupun fisika?",
-    "pilihan": ["10%","20%","30%","40%","50%"],
+    "pilihan": ["10%", "20%", "30%", "40%", "50%"],
     "jawaban": "A",
-    "pembahasan": "Gunakan prinsip inklusi-eksklusi: \n\\[ P(M \\cup F) = P(M) + P(F) - P(M \\cap F) \\]\n\\[ = 60\\% + 50\\% - 20\\% = 90\\% \\]\nMaka siswa yang tidak menyukai keduanya: \n\\[ 100\\% - 90\\% = 10\\% \\]"
+    "pembahasan": "Prinsip inklusi-eksklusi: P(M∪F) = 60% + 50% - 20% = 90%. Yang tidak menyukai keduanya: 100% - 90% = 10%."
   },
   {
     "id": 6,
     "pertanyaan": "Jika harga 3 kg apel dan 2 kg jeruk adalah Rp46.000, sedangkan harga 2 kg apel dan 3 kg jeruk adalah Rp44.000, berapa harga 1 kg apel?",
-    "pilihan": ["Rp8.000","Rp10.000","Rp12.000","Rp14.000","Rp16.000"],
+    "pilihan": ["Rp8.000", "Rp10.000", "Rp12.000", "Rp14.000", "Rp16.000"],
     "jawaban": "B",
-    "pembahasan": "Misal A = harga 1 kg apel, J = harga 1 kg jeruk. \n\\[ 3A + 2J = 46000 \\]\n\\[ 2A + 3J = 44000 \\]\nEliminasi: kalikan persamaan pertama dengan 3 dan kedua dengan 2: \n\\[ 9A + 6J = 138000 \\]\n\\[ 4A + 6J = 88000 \\]\nKurangi: \n\\[ 5A = 50000 \\Rightarrow A = 10000 \\]\nJadi harga 1 kg apel adalah **Rp10.000**."
+    "pembahasan": "3A + 2J = 46.000 dan 2A + 3J = 44.000. Eliminasi: kalikan persamaan pertama dengan 3 dan kedua dengan 2: 9A + 6J = 138.000 dan 4A + 6J = 88.000. Kurangi: 5A = 50.000 → A = 10.000."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah mobil melaju dengan kecepatan rata-rata 60 km/jam. Jika jarak yang ditempuh adalah 240 km, berapa lama waktu yang dibutuhkan mobil tersebut?",
-    "pilihan": ["3 jam","3,5 jam","4 jam","4,5 jam","5 jam"],
+    "pilihan": ["3 jam", "3,5 jam", "4 jam", "4,5 jam", "5 jam"],
     "jawaban": "C",
-    "pembahasan": "Rumus: \n\\[ W = \\frac{S}{v} = \\frac{240}{60} = 4 \\text{ jam} \\]\nJadi waktu tempuh adalah **4 jam**."
+    "pembahasan": "Waktu = Jarak/Kecepatan = 240/60 = 4 jam."
   },
   {
     "id": 8,
     "pertanyaan": "Fungsi f(x) = x² - 4x + c memiliki nilai minimum 5. Nilai c adalah...",
-    "pilihan": ["1","5","7","9","11"],
+    "pilihan": ["1", "5", "7", "9", "11"],
     "jawaban": "D",
-    "pembahasan": "Titik puncak fungsi kuadrat: \n\\[ x = -\\frac{b}{2a} = -\\frac{-4}{2} = 2 \\]\nSubstitusi ke f(x): \n\\[ f(2) = 2^2 - 4(2) + c = 4 - 8 + c = c - 4 \\]\nDiketahui minimum = 5 → \n\\[ c - 4 = 5 \\Rightarrow c = 9 \\]\nJadi nilai c adalah **9**."
+    "pembahasan": "Titik puncak: x = -b/2a = 4/2 = 2. f(2) = 4 - 8 + c = c - 4 = 5 → c = 9."
   },
   {
     "id": 9,
     "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola secara acak tanpa pengembalian, peluang terambil kedua bola berwarna merah adalah...",
-    "pilihan": ["5/14","10/28","25/64","15/56","5/28"],
+    "pilihan": ["5/14", "3/14", "5/16", "15/56", "5/28"],
     "jawaban": "A",
-    "pembahasan": "Total bola = 8. Peluang dua bola merah: \n\\[ P = \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14} \\]"
+    "pembahasan": "Peluang = (5/8) × (4/7) = 20/56 = 5/14."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah lingkaran memiliki persamaan x² + y² - 4x + 6y - 3 = 0. Pusat lingkaran tersebut adalah...",
-    "pilihan": ["(2, -3)","(-2, 3)","(4, -6)","(-4, 6)","(2, 3)"],
+    "pilihan": ["(2, -3)", "(-2, 3)", "(4, -6)", "(-4, 6)", "(2, 3)"],
     "jawaban": "A",
-    "pembahasan": "Persamaan umum lingkaran: \n\\[ x^2 + y^2 + ax + by + c = 0 \\]\nPusat: \n\\[ \\left(-\\tfrac{a}{2}, -\\tfrac{b}{2}\\right) \\]\nDari persamaan: a = -4, b = 6 → \n\\[ Pusat = (2, -3) \\]\nJadi, jawaban yang benar adalah **(2, -3)**."
+    "pembahasan": "Lengkapi kuadrat: (x²-4x+4) + (y²+6y+9) = 3+4+9 → (x-2)² + (y+3)² = 16. Pusat: (2, -3)."
   },
   {
     "id": 11,
     "pertanyaan": "Jika log 2 = 0.301 dan log 3 = 0.477, maka log 12 adalah...",
-    "pilihan": ["0.778","0.903","1.079","1.204","1.301"],
+    "pilihan": ["0.778", "0.903", "1.079", "1.204", "1.301"],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat logaritma: \n\\[ \\log 12 = \\log (2^2 \\times 3) = 2 \\log 2 + \\log 3 \\]\n\\[ = 2(0.301) + 0.477 = 0.602 + 0.477 = 1.079 \\]"
+    "pembahasan": "log 12 = log(4×3) = log 4 + log 3 = 2 log 2 + log 3 = 2(0.301) + 0.477 = 1.079."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah persegi panjang memiliki keliling 40 cm. Jika panjangnya 4 cm lebih dari lebarnya, luas persegi panjang tersebut adalah...",
-    "pilihan": ["72 cm²","84 cm²","96 cm²","108 cm²","120 cm²"],
+    "pilihan": ["72 cm²", "84 cm²", "96 cm²", "108 cm²", "120 cm²"],
     "jawaban": "C",
-    "pembahasan": "Keliling: \n\\[ 2(p + l) = 40 \\Rightarrow p + l = 20 \\]\nDiketahui p = l + 4 → \n\\[ l + (l+4) = 20 \\Rightarrow 2l + 4 = 20 \\Rightarrow l = 8 \\]\nMaka p = 12 → luas: \n\\[ L = 8 \\times 12 = 96 \\text{ cm}^2 \\]"
+    "pembahasan": "p + l = 20 dan p = l + 4 → l + 4 + l = 20 → 2l = 16 → l = 8, p = 12. Luas = 12×8 = 96 cm²."
   },
   {
     "id": 13,
     "pertanyaan": "Jika matriks A = [[2, -1], [3, x]] memiliki determinan 7, maka nilai x adalah...",
-    "pilihan": ["-5","-3","2","3","5"],
+    "pilihan": ["-5", "-3", "2", "3", "5"],
     "jawaban": "C",
-    "pembahasan": "Determinannya: \n\\[ \\det(A) = (2)(x) - (-1)(3) = 2x + 3 \\]\nDiketahui = 7 → \n\\[ 2x + 3 = 7 \\Rightarrow 2x = 4 \\Rightarrow x = 2 \\]"
+    "pembahasan": "Determinan = (2)(x) - (-1)(3) = 2x + 3 = 7 → 2x = 4 → x = 2."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 10 cm. Volume tabung tersebut adalah... (π = 22/7)",
-    "pilihan": ["1.250 cm³","1.540 cm³","1.760 cm³","2.000 cm³","2.150 cm³"],
+    "pilihan": ["1.250 cm³", "1.540 cm³", "1.760 cm³", "2.000 cm³", "2.150 cm³"],
     "jawaban": "B",
-    "pembahasan": "Rumus volume: \n\\[ V = \\pi r^2 h = \\frac{22}{7} \\times 7^2 \\times 10 \\]\n\\[ = \\frac{22}{7} \\times 49 \\times 10 = 1540 \\text{ cm}^3 \\]"
+    "pembahasan": "Volume = πr²h = (22/7)×49×10 = 22×7×10 = 1.540 cm³."
   },
   {
     "id": 15,
     "pertanyaan": "Jika f(x) = 2x - 3, dan (g ∘ f)(x) = 4x² - 12x + 10, maka g(x) adalah...",
-    "pilihan": ["x² + 1","x² + x + 1","x² + 2x + 1","(x + 3)² + 1","x² - 1"],
+    "pilihan": ["x² + 1", "x² + x + 1", "x² + 2x + 1", "(x + 3)² + 1", "x² - 1"],
     "jawaban": "A",
-    "pembahasan": "Misal y = f(x) = 2x - 3 → x = (y+3)/2. \nSubstitusi ke g(y): \n\\[ g(2x-3) = 4x^2 - 12x + 10 \\]\n\\[ = (2x-3)^2 + 1 = y^2 + 1 \\]\nMaka: \n\\[ g(y) = y^2 + 1 \\]\nJadi g(x) = **x² + 1**."
+    "pembahasan": "g(f(x)) = 4x² - 12x + 10. Perhatikan bahwa (2x-3)² = 4x² - 12x + 9, jadi 4x² - 12x + 10 = (2x-3)² + 1 = f(x)² + 1. Maka g(x) = x² + 1."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah deret aritmetika memiliki suku ke-3 = 10 dan suku ke-7 = 22. Jumlah 10 suku pertama deret tersebut adalah...",
-    "pilihan": ["130","145","155","160","175"],
+    "pilihan": ["130", "145", "155", "160", "175"],
     "jawaban": "E",
-    "pembahasan": "Suku ke-n: \n\\[ U_n = a + (n-1)d \\]\n\\[ U_3 = a + 2d = 10 \\]\n\\[ U_7 = a + 6d = 22 \\]\nSelisih: \\[ (a+6d) - (a+2d) = 12 \\Rightarrow 4d = 12 \\Rightarrow d = 3 \\]\nDari U3: \\[ a + 2(3) = 10 \\Rightarrow a = 4 \\]\nJumlah 10 suku: \n\\[ S_{10} = \\frac{10}{2}(2a + 9d) = 5(2(4)+9(3)) = 5(8+27) = 5(35) = 175 \\]\nJadi jumlahnya adalah **175**."
+    "pembahasan": "U3 = a + 2d = 10, U7 = a + 6d = 22. Kurangi: 4d = 12 → d = 3, a = 4. S10 = 10/2 × (2×4 + 9×3) = 5 × (8 + 27) = 175."
   },
   {
     "id": 17,
     "pertanyaan": "Sebuah peta memiliki skala 1 : 250.000. Jika jarak antara dua kota pada peta adalah 8 cm, jarak sebenarnya adalah...",
-    "pilihan": ["10 km","20 km","25 km","32 km","40 km"],
+    "pilihan": ["10 km", "20 km", "25 km", "32 km", "40 km"],
     "jawaban": "B",
-    "pembahasan": "Hitung jarak sebenarnya: \n\\[ 8 \\times 250.000 = 2.000.000 \\text{ cm} \\]\nKonversi: \n\\[ 2.000.000 \\text{ cm} = 20 \\text{ km} \\]"
+    "pembahasan": "Jarak sebenarnya = 8 × 250.000 = 2.000.000 cm = 20 km."
   },
   {
     "id": 18,
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan |2x - 1| ≥ 5 adalah...",
-    "pilihan": ["x ≤ -2 atau x ≥ 3","-2 ≤ x ≤ 3","x ≤ -3 atau x ≥ 2","-3 ≤ x ≤ 2","x ≥ 3"],
+    "pilihan": ["x ≤ -2 atau x ≥ 3", "-2 ≤ x ≤ 3", "x ≤ -3 atau x ≥ 2", "-3 ≤ x ≤ 2", "x ≥ 3"],
     "jawaban": "A",
-    "pembahasan": "Pecah nilai mutlak: \n\\[ |2x-1| ≥ 5 \\]\nKasus 1: \n\\[ 2x - 1 ≥ 5 \\Rightarrow 2x ≥ 6 \\Rightarrow x ≥ 3 \\]\nKasus 2: \n\\[ 2x - 1 ≤ -5 \\Rightarrow 2x ≤ -4 \\Rightarrow x ≤ -2 \\]\nJadi himpunan penyelesaian: \n\\[ x ≤ -2 \\text{ atau } x ≥ 3 \\]"
+    "pembahasan": "|2x-1| ≥ 5 → 2x-1 ≥ 5 atau 2x-1 ≤ -5 → x ≥ 3 atau x ≤ -2."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang muncul mata dadu berjumlah 7 adalah...",
-    "pilihan": ["1/12","1/9","1/6","1/4","1/3"],
+    "pilihan": ["1/12", "1/9", "1/6", "1/4", "1/3"],
     "jawaban": "C",
-    "pembahasan": "Total kejadian = 36. Kombinasi jumlah 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) → 6 cara.\n\\[ P = \\frac{6}{36} = \\frac{1}{6} \\]"
+    "pembahasan": "Total outcome = 36. Jumlah 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 outcomes. Peluang = 6/36 = 1/6."
   },
   {
     "id": 20,
     "pertanyaan": "Irfan, Indra, dan Ikhsan adalah tiga pekerja. Irfan & Indra bisa selesaikan pekerjaan bersama 12 hari, Irfan & Ikhsan 15 hari, Indra & Ikhsan 20 hari. Berapa hari masing-masing jika sendirian?",
-    "pilihan": [
-      "20 hari, 30 hari, dan 60 hari",
-      "90 hari, 45 hari, dan 60 hari",
-      "60 hari, 90 hari, dan 45 hari",
-      "45 hari, 90 hari, dan 60 hari",
-      "45 hari, 60 hari, dan 90 hari"
-    ],
+    "pilihan": ["20 hari, 30 hari, dan 60 hari", "90 hari, 45 hari, dan 60 hari", "60 hari, 90 hari, dan 45 hari", "45 hari, 90 hari, dan 60 hari", "45 hari, 60 hari, dan 90 hari"],
     "jawaban": "A",
-    "pembahasan": "Misal kemampuan kerja: Irfan = 1/x, Indra = 1/y, Ikhsan = 1/z (pekerjaan/hari).\n\\[ \\frac{1}{x} + \\frac{1}{y} = \\frac{1}{12} \\]\n\\[ \\frac{1}{x} + \\frac{1}{z} = \\frac{1}{15} \\]\n\\[ \\frac{1}{y} + \\frac{1}{z} = \\frac{1}{20} \\]\nJumlahkan semua: \n\\[ 2\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) = \\frac{1}{12}+\\frac{1}{15}+\\frac{1}{20} = \\frac{5+4+3}{60} = \\frac{12}{60} = \\frac{1}{5} \\]\n\\[ \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} = \\frac{1}{10} \\]\nDari persamaan pertama: \\[ \\frac{1}{x}+\\frac{1}{y} = \\frac{1}{12} \\]\nMaka \\[ \\frac{1}{z} = \\frac{1}{10}-\\frac{1}{12} = \\frac{6-5}{60} = \\frac{1}{60} \\Rightarrow z=60 \\]\nDari persamaan kedua: \\[ \\frac{1}{y} = \\frac{1}{10}-\\frac{1}{15} = \\frac{3-2}{30} = \\frac{1}{30} \\Rightarrow y=30 \\]\nDari persamaan ketiga: \\[ \\frac{1}{x} = \\frac{1}{10}-\\frac{1}{20} = \\frac{2-1}{20} = \\frac{1}{20} \\Rightarrow x=20 \\]\nJadi: Irfan = 20 hari, Indra = 30 hari, Ikhsan = 60 hari. (Urutan Irfan, Indra, Ikhsan = 20, 30, 60 hari)."
+    "pembahasan": "1/x + 1/y = 1/12, 1/x + 1/z = 1/15, 1/y + 1/z = 1/20. Jumlahkan: 2(1/x+1/y+1/z) = 1/12+1/15+1/20 = 12/60 = 1/5 → 1/x+1/y+1/z = 1/10. Maka 1/z = 1/10-1/12=1/60→z=60, 1/y=1/10-1/15=1/30→y=30, 1/x=1/10-1/20=1/20→x=20."
   }
 ]
