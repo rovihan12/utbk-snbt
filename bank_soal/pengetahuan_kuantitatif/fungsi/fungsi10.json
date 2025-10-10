@@ -26,11 +26,10 @@
   {
     "id": 184,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sin x + \\cos x = \\frac{4}{3}$, tentukan nilai dari $18(\\sin^3 x + \\cos^3 x) - 4$.",
+    "pertanyaan": "Jika $\\sin x + \\cos x = \\frac{4}{3}$, tentukan nilai dari $27(\\sin^3 x + \\cos^3 x) - 8$.",
     "pilihan": ["8", "10", "12", "14", "16"],
     "jawaban": "D",
-    "pembahasan": "$\\begin{align*} &\\text{Cari dulu } \\sin x \\cos x:\\\\ &(\\sin x + \\cos x)^2 = (\\frac{4}{3})^2 = \\frac{16}{9} \\\\ &1 + 2\\sin x \\cos x = \\frac{16}{9} \\Rightarrow 2\\sin x \\cos x = \\frac{7}{9} \\Rightarrow \\sin x \\cos x = \\frac{7}{18} \\\\ &\\text{Hitung } \\sin^3 x + \\cos^3 x:\\\\ &\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(1 - \\sin x \\cos x) \\\\ &= \\frac{4}{3} \\left(1 - \\frac{7}{18}\\right) = \\frac{4}{3} \\left(\\frac{11}{18}\\right) = \\frac{22}{27} \\\\ &\\text{Nilai ekspresi: } 18(\\frac{22}{27}) - 4 \\\\ &= \\frac{18 \\cdot 22}{27} - 4 = \\frac{2 \\cdot 22}{3} - 4 = \\frac{44}{3} - \\frac{12}{3} = \\frac{32}{3} \\\\ &\\text{Catatan: Soal ini sengaja dibuat agar jawaban akhir bulat (berdasarkan soal asli E=22/27)} \\\\ &\\text{Jika ekspresi diubah menjadi } 27(\\sin^3 x + \\cos^3 x) - 8, \\text{ maka } 27(22/27) - 8 = 22-8 = 14. \\\\ &\\text{Kita ubah pertanyaannya menjadi mencari nilai } 27(\\sin^3 x + \\cos^3 x) - 8 \\text{ agar jawabannya bulat 14.} \\end{align*}",
-    "pertanyaan_baru": "Jika $\\sin x + \\cos x = \\frac{4}{3}$, tentukan nilai dari $27(\\sin^3 x + \\cos^3 x) - 8$."
+    "pembahasan": "$\\begin{align*} &\\text{Cari dulu } \\sin x \\cos x:\\\\ &(\\sin x + \\cos x)^2 = (\\frac{4}{3})^2 = \\frac{16}{9} \\\\ &1 + 2\\sin x \\cos x = \\frac{16}{9} \\Rightarrow 2\\sin x \\cos x = \\frac{7}{9} \\Rightarrow \\sin x \\cos x = \\frac{7}{18} \\\\ &\\text{Hitung } \\sin^3 x + \\cos^3 x:\\\\ &\\sin^3 x + \\cos^3 x = (\\sin x + \\cos x)(1 - \\sin x \\cos x) \\\\ &= \\frac{4}{3} \\left(1 - \\frac{7}{18}\\right) = \\frac{4}{3} \\left(\\frac{11}{18}\\right) = \\frac{22}{27} \\\\ &\\text{Nilai ekspresi: } 27(\\frac{22}{27}) - 8 = 22 - 8 = 14 \\end{align*}$"
   },
   {
     "id": 185,
@@ -65,11 +64,10 @@
   {
     "id": 188,
     "kategori": "Sulit",
-    "pertanyaan": "Tentukan nilai $e \\cdot (f \\circ g)'(e)$, jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$.",
+    "pertanyaan": "Jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$, maka tentukan nilai $(f \\circ g)'(e)$.",
     "pilihan": ["1", "2", "2e", "e²", "2e²"],
     "jawaban": "B",
-    "pembahasan": "$\\begin{align*} &(f \\circ g)(x) = e^{(\\ln x)^2} \\\\ &(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot 2(\\ln x) \\cdot \\frac{1}{x} \\\\ &\\text{Hitung nilai di } x=e:\\\\ &(f \\circ g)'(e) = e^{(\\ln e)^2} \\cdot 2(\\ln e) \\cdot \\frac{1}{e} = e \\cdot 2 \\cdot \\frac{1}{e} = 2 \\\\ &\\text{Nilai } e \\cdot (f \\circ g)'(e) = e \\cdot 2 = 2e. \\\\ &\\text{Catatan: Karena jawaban asli adalah 2, kita ubah pertanyaannya: Tentukan } (f \\circ g)'(e) \\text{ saja.} \\end{align*}",
-    "pertanyaan_baru": "Jika $f(x) = e^{x^2}$ dan $g(x) = \\ln x$, maka tentukan nilai $(f \\circ g)'(e)$."
+    "pembahasan": "$\\begin{align*} &(f \\circ g)(x) = e^{(\\ln x)^2} \\\\ &(f \\circ g)'(x) = e^{(\\ln x)^2} \\cdot 2(\\ln x) \\cdot \\frac{1}{x} \\\\ &(f \\circ g)'(e) = e^{(\\ln e)^2} \\cdot 2(\\ln e) \\cdot \\frac{1}{e} = e \\cdot 2 \\cdot \\frac{1}{e} = 2 \\end{align*}$"
   },
   {
     "id": 189,
@@ -106,11 +104,10 @@
   {
     "id": 193,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sin \\theta + \\cos \\theta = \\frac{5}{4}$, tentukan nilai dari $16 \\sin \\theta \\cos \\theta - 7$.",
-    "pilihan": ["2", "4", "6", "8", "10"],
+    "pertanyaan": "Jika $\\sin \\theta + \\cos \\theta = \\frac{5}{4}$, tentukan nilai dari $32 \\sin \\theta \\cos \\theta$.",
+    "pilihan": ["9", "7", "5", "3", "1"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &\\text{Cari } \\sin \\theta \\cos \\theta:\\\\ &(\\sin \\theta + \\cos \\theta)^2 = (\\frac{5}{4})^2 = \\frac{25}{16} \\\\ &1 + 2 \\sin \\theta \\cos \\theta = \\frac{25}{16} \\Rightarrow 2 \\sin \\theta \\cos \\theta = \\frac{9}{16} \\Rightarrow \\sin \\theta \\cos \\theta = \\frac{9}{32} \\\\ &\\text{Hitung ekspresi: } 16 \\left(\\frac{9}{32}\\right) - 7 \\\\ &= \\frac{9}{2} - 7 = 4.5 - 7 = -2.5 \\\\ &\\text{Catatan: Karena jawaban asli adalah A (9/32), mari kita ubah pertanyaannya: } \\text{Tentukan nilai } 32 \\sin \\theta \\cos \\theta \\text{ saja.} \\end{align*}",
-    "pertanyaan_baru": "Jika $\\sin \\theta + \\cos \\theta = \\frac{5}{4}$, tentukan nilai dari $32 \\sin \\theta \\cos \\theta$."
+    "pembahasan": "$\\begin{align*} &\\text{Cari } \\sin \\theta \\cos \\theta:\\\\ &(\\sin \\theta + \\cos \\theta)^2 = (\\frac{5}{4})^2 = \\frac{25}{16} \\\\ &1 + 2 \\sin \\theta \\cos \\theta = \\frac{25}{16} \\Rightarrow 2 \\sin \\theta \\cos \\theta = \\frac{9}{16} \\Rightarrow \\sin \\theta \\cos \\theta = \\frac{9}{32} \\\\ &\\text{Hitung ekspresi: } 32 \\left(\\frac{9}{32}\\right) = 9 \\end{align*}$"
   },
   {
     "id": 194,
@@ -124,13 +121,13 @@
       "$x$ bilangan riil"
     ],
     "jawaban": "D",
-    "pembahasan": "$\\begin{align*} &f'(x) = \\frac{2e^{2x}(x^2 - x + 1)}{(x^2 + 1)^2} \\\\ &\\text{Faktorkan kuadratik } x^2 - x + 1: \\\\ &\\text{Diskriminan } D = b^2 - 4ac = (-1)^2 - 4(1)(1) = 1 - 4 = -3 \\\\ &\\text{Karena } D<0 \\text{ dan koefisien } x^2 \\text{ positif, maka } x^2 - x + 1 \\text{ selalu positif (definit positif).} \\\\ &\\text{Penyebut } (x^2 + 1)^2 \\text{ selalu positif.} \\\\ &\\text{Faktor } 2e^{2x} \\text{ juga selalu positif.} \\\\ &\\text{Maka, } f'(x) \\text{ selalu positif untuk semua } x \\in \\mathbb{R}. \\\\ &\\text{Sehingga, } f'(x) \\le 0 \\text{ tidak memiliki solusi riil.} \\end{align*}$"
+    "pembahasan": "$\\begin{align*} &f'(x) = \\frac{2e^{2x}(x^2 - x + 1)}{(x^2 + 1)^2} \\\\ &\\text{Karena } x^2 - x + 1 \\text{ (definit positif)} \\text{ dan } e^{2x} \\text{ selalu positif,} \\\\ &\\text{maka } f'(x) \\text{ selalu positif. Sehingga } f'(x) \\le 0 \\text{ tidak memiliki solusi riil.} \\end{align*}$"
   },
   {
     "id": 195,
     "kategori": "Sulit",
     "pertanyaan": "Tentukan himpunan penyelesaian dari persamaan $(^3\\log x)^2 = 4$.",
-    "pilihan": ["$\{3\}$", "$\{9\}$", "$\{27, 3\}$", "${\\frac{1}{9}, 9}$", "$\{243, \\frac{1}{243}\}$"],
+    "pilihan": ["$\{3\}$", "$\{9\}$", "$\{27, 3\}$", "$\\{\\frac{1}{9}, 9\\}$", "$\{243, \\frac{1}{243}\}$"],
     "jawaban": "D",
     "pembahasan": "$\\begin{align*} &(^3\\log x)^2 = 4 \\\\ &^3\\log x = \\pm 2 \\\\ &\\text{Kasus 1: } ^3\\log x = 2 \\Rightarrow x = 3^2 = 9 \\\\ &\\text{Kasus 2: } ^3\\log x = -2 \\Rightarrow x = 3^{-2} = \\frac{1}{9} \\\\ &\\text{HP: } \\{\\frac{1}{9}, 9\\} \\end{align*}$"
   },
@@ -140,7 +137,7 @@
     "pertanyaan": "Tentukan nilai $x$ agar $f''(x) = -4$, jika $f(x) = \\ln(\\sin x)$.",
     "pilihan": ["$\\pi/6$", "$\\pi/4$", "$\\pi/3$", "$2\\pi/3$", "$5\\pi/6$"],
     "jawaban": "A",
-    "pembahasan": "$\\begin{align*} &f'(x) = \\cot x \\\\ &f''(x) = -\\csc^2 x \\\\ &\\text{Persamaan } f''(x) = -4:\\\\ &-\\csc^2 x = -4 \\Rightarrow \\csc^2 x = 4 \\\\ &\\frac{1}{\\sin^2 x} = 4 \\Rightarrow \\sin^2 x = \\frac{1}{4} \\Rightarrow \\sin x = \\pm \\frac{1}{2} \\\\ &\\text{Pada kuadran I, } \\sin x = \\frac{1}{2} \\text{ dipenuhi oleh } x = \\pi/6. \\end{align*}$"
+    "pembahasan": "$\\begin{align*} &f'(x) = \\cot x \\\\ &f''(x) = -\\csc^2 x \\\\ &\\text{Persamaan } f''(x) = -4:\\\\ &-\\csc^2 x = -4 \\Rightarrow \\csc^2 x = 4 \\\\ &\\frac{1}{\\sin^2 x} = 4 \\Rightarrow \\sin x = \\pm \\frac{1}{2} \\\\ &\\text{Pada kuadran I, } \\sin x = \\frac{1}{2} \\text{ dipenuhi oleh } x = \\pi/6. \\end{align*}$"
   },
   {
     "id": 197,
