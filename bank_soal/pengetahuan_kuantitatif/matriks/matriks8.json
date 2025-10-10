@@ -1,6 +1,6 @@
 [
   {
-    "id": 141,
+    "id": 1,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{pmatrix}$, maka $det(A^2)$ adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "$16$"
     ],
     "jawaban": "A",
-    "pembahasan": "Determinan matriks segitiga atas atau bawah adalah perkalian elemen-elemen diagonalnya. Untuk matriks A, $det(A) = (1)(1)(1) = 1$. \nMenurut sifat determinan, $det(A^2) = det(A) \\cdot det(A) = (det(A))^2$. \nJadi, $det(A^2) = 1^2 = 1$."
+    "pembahasan": "Matriks A adalah matriks segitiga atas.\n\n$det(A) = 1 \\times 1 \\times 1 = 1$\n\n$det(A^2) = (det(A))^2 = 1^2 = 1$"
   },
   {
-    "id": 142,
+    "id": 2,
     "kategori": "Sulit",
     "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}$. Tentukan $det(AB)$.",
     "pilihan": [
@@ -25,10 +25,10 @@
       "$144$"
     ],
     "jawaban": "E",
-    "pembahasan": "Kita gunakan sifat $det(AB) = det(A) \\cdot det(B)$. \n$det(A) = (2)(3)(4) = 24$. \n$det(B) = (1)(2)(3) = 6$. \n$det(AB) = det(A) \\cdot det(B) = 24 \\cdot 6 = 144$. Pilihan jawaban E."
+    "pembahasan": "Kedua matriks adalah matriks diagonal.\n\n$det(A) = 2 \\times 3 \\times 4 = 24$\n\n$det(B) = 1 \\times 2 \\times 3 = 6$\n\n$det(AB) = det(A) \\times det(B) = 24 \\times 6 = 144$"
   },
   {
-    "id": 143,
+    "id": 3,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 3 & 0 \\\\ 4 & 5 & 6 \\end{pmatrix}$, maka $det(A^{-1})$ adalah...",
     "pilihan": [
@@ -39,10 +39,10 @@
       "$\\frac{1}{2}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Determinan matriks segitiga bawah adalah perkalian elemen-elemen diagonalnya. \n$det(A) = (1)(3)(6) = 18$. \nSifat determinan invers adalah $det(A^{-1}) = \\frac{1}{det(A)}$. \nJadi, $det(A^{-1}) = \\frac{1}{18}$."
+    "pembahasan": "Matriks A adalah matriks segitiga bawah.\n\n$det(A) = 1 \\times 3 \\times 6 = 18$\n\n$det(A^{-1}) = \\frac{1}{det(A)} = \\frac{1}{18}$"
   },
   {
-    "id": 144,
+    "id": 4,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 & 1 \\\\ 3 & 1 & 2 \\\\ 1 & 3 & 1 \\end{pmatrix}$, maka determinan matriks $A$ adalah...",
     "pilihan": [
@@ -53,38 +53,10 @@
       "$3$"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita gunakan metode Sarrus untuk menghitung determinan matriks $3 \\times 3$. \n$det(A) = (1 \\cdot 1 \\cdot 1) + (2 \\cdot 2 \\cdot 1) + (1 \\cdot 3 \\cdot 3) - (1 \\cdot 1 \\cdot 1) - (1 \\cdot 2 \\cdot 3) - (2 \\cdot 3 \\cdot 1)$ \n$det(A) = 1 + 4 + 9 - 1 - 6 - 6 = 14 - 13 = 1$."
+    "pembahasan": "Gunakan metode Sarrus:\n\n$det(A) = (1\\cdot1\\cdot1) + (2\\cdot2\\cdot1) + (1\\cdot3\\cdot3)$\n\n$ - (1\\cdot1\\cdot1) - (1\\cdot2\\cdot3) - (2\\cdot3\\cdot1)$\n\n$det(A) = 1 + 4 + 9 - 1 - 6 - 6 = 14 - 13 = 1$"
   },
   {
-    "id": 145,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}$, maka $det(AB)$ adalah...",
-    "pilihan": [
-      "$144$",
-      "$36$",
-      "$18$",
-      "$12$",
-      "$6$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita gunakan sifat $det(AB) = det(A) \\cdot det(B)$. \n$det(A) = (2)(3)(4) = 24$. \n$det(B) = (1)(2)(3) = 6$. \n$det(AB) = 24 \\cdot 6 = 144$."
-  },
-  {
-    "id": 146,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 & 1 \\\\ 3 & 1 & 2 \\\\ 1 & 3 & 1 \\end{pmatrix}$, maka $det(A)$ adalah...",
-    "pilihan": [
-      "$-2$",
-      "$-1$",
-      "$0$",
-      "$1$",
-      "$2$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Gunakan metode Sarrus: \n$det(A) = (1)(1)(1) + (2)(2)(1) + (1)(3)(3) - (1)(1)(1) - (1)(2)(3) - (2)(3)(1)$ \n$det(A) = 1 + 4 + 9 - 1 - 6 - 6 = 14 - 13 = 1$."
-  },
-  {
-    "id": 147,
+    "id": 5,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 & 3 \\\\ 1 & 0 & 2 \\\\ 0 & 1 & 1 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 1 \\end{pmatrix}$, maka $det(A-B)$ adalah...",
     "pilihan": [
@@ -95,10 +67,10 @@
       "$-4$"
     ],
     "jawaban": "A",
-    "pembahasan": "Hitung matriks $A-B$ terlebih dahulu. \n$A-B = \\begin{pmatrix} 2-1 & 1-1 & 3-0 \\\\ 1-1 & 0-0 & 2-1 \\\\ 0-0 & 1-1 & 1-1 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 & 3 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}$. \nKarena matriks ini memiliki baris yang seluruh elemennya nol, maka determinannya adalah nol."
+    "pembahasan": "Hitung $A-B$:\n\n$A-B = \\begin{pmatrix} 1 & 0 & 3 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}$\n\nMatriks ini memiliki baris ketiga semua nol.\n\nDeterminan matriks dengan baris nol adalah 0."
   },
   {
-    "id": 148,
+    "id": 6,
     "kategori": "Sulit",
     "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 2 & 1 & 3 \\\\ 1 & 0 & 2 \\\\ 0 & 1 & 1 \\end{pmatrix}$. Tentukan matriks $A^T$.",
     "pilihan": [
@@ -109,10 +81,10 @@
       "$\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Transpose dari suatu matriks diperoleh dengan menukar baris dan kolomnya. \nBaris pertama $A$ menjadi kolom pertama $A^T$, baris kedua menjadi kolom kedua, dan seterusnya. \nJadi, $A^T = \\begin{pmatrix} 2 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 3 & 2 & 1 \\end{pmatrix}$."
+    "pembahasan": "Transpose matriks dilakukan dengan menukar baris dan kolom.\n\nBaris pertama menjadi kolom pertama:\n$\\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix}$\n\nBaris kedua menjadi kolom kedua:\n$\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}$\n\nBaris ketiga menjadi kolom ketiga:\n$\\begin{pmatrix} 3 \\\\ 2 \\\\ 1 \\end{pmatrix}$\n\nJadi $A^T = \\begin{pmatrix} 2 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 3 & 2 & 1 \\end{pmatrix}$"
   },
   {
-    "id": 149,
+    "id": 7,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & x & 0 \\\\ 2 & 3 & y \\\\ 0 & 4 & 5 \\end{pmatrix}$ adalah matriks simetris, maka nilai $x+y$ adalah...",
     "pilihan": [
@@ -123,10 +95,10 @@
       "$9$"
     ],
     "jawaban": "B",
-    "pembahasan": "Sebuah matriks dikatakan simetris jika matriks tersebut sama dengan transposenya ($A = A^T$). \n$A^T = \\begin{pmatrix} 1 & 2 & 0 \\\\ x & 3 & 4 \\\\ 0 & y & 5 \\end{pmatrix}$. \nDengan membandingkan $A$ dan $A^T$, kita dapatkan $x=2$ dan $y=4$. \nJadi, $x+y = 2+4=6$."
+    "pembahasan": "Matriks simetris memenuhi $A = A^T$.\n\n$A^T = \\begin{pmatrix} 1 & 2 & 0 \\\\ x & 3 & 4 \\\\ 0 & y & 5 \\end{pmatrix}$\n\nDari kesamaan matriks:\n\n$x = 2$\n\n$y = 4$\n\n$x + y = 2 + 4 = 6$"
   },
   {
-    "id": 150,
+    "id": 8,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{pmatrix}$, maka matriks $A^{-1}$ adalah...",
     "pilihan": [
@@ -137,12 +109,12 @@
       "$\\begin{pmatrix} 1 & 2 & 5 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Kita cari inversnya menggunakan metode operasi baris elementer. \n$\\begin{pmatrix} 1 & 2 & 3 & | & 1 & 0 & 0 \\\\ 0 & 1 & 4 & | & 0 & 1 & 0 \\\\ 0 & 0 & 1 & | & 0 & 0 & 1 \\end{pmatrix}$ \nOperasi $B_2 - 4B_3 \\to B_2$ dan $B_1 - 3B_3 \\to B_1$. \n$\\begin{pmatrix} 1 & 2 & 0 & | & 1 & 0 & -3 \\\\ 0 & 1 & 0 & | & 0 & 1 & -4 \\\\ 0 & 0 & 1 & | & 0 & 0 & 1 \\end{pmatrix}$ \nOperasi $B_1 - 2B_2 \\to B_1$. \n$\\begin{pmatrix} 1 & 0 & 0 & | & 1 & -2 & 5 \\\\ 0 & 1 & 0 & | & 0 & 1 & -4 \\\\ 0 & 0 & 1 & | & 0 & 0 & 1 \\end{pmatrix}$. \nJadi, $A^{-1} = \\begin{pmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{pmatrix}$."
+    "pembahasan": "Untuk matriks segitiga atas, inversnya juga matriks segitiga atas.\n\n$A^{-1} = \\begin{pmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{pmatrix}$\n\nVerifikasi: $A \\times A^{-1} = I$"
   },
   {
-    "id": 151,
+    "id": 9,
     "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$ dan matriks $B = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka matriks $C = A+2B$ adalah...",
+    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka matriks $C = A+2B$ adalah...",
     "pilihan": [
       "$\\begin{pmatrix} 3 & 3 \\\\ 6 & 6 \\end{pmatrix}$",
       "$\\begin{pmatrix} 4 & 5 \\\\ 9 & 10 \\end{pmatrix}$",
@@ -151,10 +123,10 @@
       "$\\begin{pmatrix} 4 & 6 \\\\ 9 & 10 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Pertama, hitung $2B = 2 \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}$. \nKemudian, jumlahkan $A$ dan $2B$. \n$A+2B = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix} + \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix} = \\begin{pmatrix} 2+2 & 1+4 \\\\ 3+6 & 2+8 \\end{pmatrix} = \\begin{pmatrix} 4 & 5 \\\\ 9 & 10 \\end{pmatrix}$."
+    "pembahasan": "Hitung $2B$ terlebih dahulu:\n\n$2B = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}$\n\n$A + 2B = \\begin{pmatrix} 2+2 & 1+4 \\\\ 3+6 & 2+8 \\end{pmatrix}$\n\n$A + 2B = \\begin{pmatrix} 4 & 5 \\\\ 9 & 10 \\end{pmatrix}$"
   },
   {
-    "id": 152,
+    "id": 10,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $P = \\begin{pmatrix} x & 2 \\\\ 3 & 5 \\end{pmatrix}$ dan $Q = \\begin{pmatrix} 1 & y \\\\ 3 & 5 \\end{pmatrix}$. Jika $P=Q$, maka nilai $x+y$ adalah...",
     "pilihan": [
@@ -165,10 +137,10 @@
       "$0$"
     ],
     "jawaban": "B",
-    "pembahasan": "Dari kesamaan matriks, elemen-elemen yang bersesuaian harus sama. \n$x=1$ dan $y=2$. \nJadi, $x+y = 1+2=3$."
+    "pembahasan": "Dari kesamaan matriks:\n\n$x = 1$\n\n$y = 2$\n\n$x + y = 1 + 2 = 3$"
   },
   {
-    "id": 153,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$ dan $A^2 = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, maka nilai $a+b+c+d$ adalah...",
     "pilihan": [
@@ -179,10 +151,10 @@
       "$35$"
     ],
     "jawaban": "C",
-    "pembahasan": "Hitung $A^2 = A \\cdot A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix} \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$. \n$A^2 = \\begin{pmatrix} (2)(2)+(3)(1) & (2)(3)+(3)(2) \\\\ (1)(2)+(2)(1) & (1)(3)+(2)(2) \\end{pmatrix} = \\begin{pmatrix} 4+3 & 6+6 \\\\ 2+2 & 3+4 \\end{pmatrix} = \\begin{pmatrix} 7 & 12 \\\\ 4 & 7 \\end{pmatrix}$. \n$a=7, b=12, c=4, d=7$. \n$a+b+c+d = 7+12+4+7 = 30$."
+    "pembahasan": "Hitung $A^2$:\n\n$A^2 = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix} \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} 4+3 & 6+6 \\\\ 2+2 & 3+4 \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} 7 & 12 \\\\ 4 & 7 \\end{pmatrix}$\n\n$a=7, b=12, c=4, d=7$\n\n$a+b+c+d = 7+12+4+7 = 30$"
   },
   {
-    "id": 154,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & x \\\\ 1 & 3 \\end{pmatrix}$ memiliki determinan 5, maka nilai $x$ adalah...",
     "pilihan": [
@@ -193,10 +165,10 @@
       "$5$"
     ],
     "jawaban": "A",
-    "pembahasan": "$det(A) = (2)(3) - (x)(1) = 6-x$. \nKita diberikan $det(A)=5$, jadi $6-x=5 \\implies x=1$."
+    "pembahasan": "$det(A) = (2)(3) - (x)(1) = 6 - x$\n\n$6 - x = 5$\n\n$x = 1$"
   },
   {
-    "id": 155,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, dan $B = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$. Tentukan matriks $C = A^T - B$.",
     "pilihan": [
@@ -207,10 +179,10 @@
       "$\\begin{pmatrix} 1 & 1 \\\\ 0 & 2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Transpose dari matriks $A$ adalah $A^T = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$. \nKemudian, hitung $A^T - B$. \n$A^T - B = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix} - \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 2-1 & 3-2 \\\\ 1-3 & 2-4 \\end{pmatrix} = \\begin{pmatrix} 1 & 1 \\\\ -2 & -2 \\end{pmatrix}$."
+    "pembahasan": "$A^T = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$\n\n$A^T - B = \\begin{pmatrix} 2-1 & 3-2 \\\\ 1-3 & 2-4 \\end{pmatrix}$\n\n$A^T - B = \\begin{pmatrix} 1 & 1 \\\\ -2 & -2 \\end{pmatrix}$"
   },
   {
-    "id": 156,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $AX = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, maka matriks $X$ adalah...",
     "pilihan": [
@@ -221,10 +193,10 @@
       "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Karena $AX = I$, maka $X = A^{-1}$. \n$det(A) = (1)(4)-(2)(3) = 4-6=-2$. \n$A^{-1} = \\frac{1}{det(A)} adj(A) = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 1.5 & -0.5 \\end{pmatrix}$."
+    "pembahasan": "$AX = I$, maka $X = A^{-1}$\n\n$det(A) = (1)(4) - (2)(3) = 4 - 6 = -2$\n\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$\n\n$A^{-1} = \\begin{pmatrix} -2 & 1 \\\\ 1.5 & -0.5 \\end{pmatrix}$"
   },
   {
-    "id": 157,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 2 \\\\ 1 & 3 \\end{pmatrix}$, maka $det(A+B)$ adalah...",
     "pilihan": [
@@ -235,10 +207,10 @@
       "$5$"
     ],
     "jawaban": "C",
-    "pembahasan": "Hitung $A+B = \\begin{pmatrix} 2+1 & 1+2 \\\\ 3+1 & 2+3 \\end{pmatrix} = \\begin{pmatrix} 3 & 3 \\\\ 4 & 5 \\end{pmatrix}$. \n$det(A+B) = (3)(5)-(3)(4) = 15-12=3$."
+    "pembahasan": "$A+B = \\begin{pmatrix} 2+1 & 1+2 \\\\ 3+1 & 2+3 \\end{pmatrix}$\n\n$A+B = \\begin{pmatrix} 3 & 3 \\\\ 4 & 5 \\end{pmatrix}$\n\n$det(A+B) = (3)(5) - (3)(4) = 15 - 12 = 3$"
   },
   {
-    "id": 158,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, maka $det(AB)$ adalah...",
     "pilihan": [
@@ -249,24 +221,10 @@
       "$5$"
     ],
     "jawaban": "A",
-    "pembahasan": "$det(A) = (2)(2)-(3)(1) = 4-3=1$. \n$det(B) = (1)(1)-(0)(0) = 1$. \n$det(AB) = det(A) \\cdot det(B) = 1 \\cdot 1 = 1$."
+    "pembahasan": "$det(A) = (2)(2) - (3)(1) = 4 - 3 = 1$\n\n$det(B) = (1)(1) - (0)(0) = 1$\n\n$det(AB) = det(A) \\times det(B) = 1 \\times 1 = 1$"
   },
   {
-    "id": 159,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 & 1 \\\\ 3 & 1 & 2 \\\\ 1 & 3 & 1 \\end{pmatrix}$, maka determinan matriks $A$ adalah...",
-    "pilihan": [
-      "$-1$",
-      "$0$",
-      "$1$",
-      "$2$",
-      "$3$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Kita gunakan metode Sarrus: \n$det(A) = (1)(1)(1) + (2)(2)(1) + (1)(3)(3) - (1)(1)(1) - (1)(2)(3) - (2)(3)(1) = 1+4+9 - 1-6-6 = 14-13 = 1$."
-  },
-  {
-    "id": 160,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix}$ dan $B = \\begin{pmatrix} x & 2 \\\\ 3 & y \\end{pmatrix}$. Jika $AB = \\begin{pmatrix} 5 & 7 \\\\ 4 & 5 \\end{pmatrix}$, maka nilai $x+y$ adalah...",
     "pilihan": [
@@ -277,6 +235,48 @@
       "$1$"
     ],
     "jawaban": "B",
-    "pembahasan": "Hitung perkalian matriks $AB$. \n$AB = \\begin{pmatrix} 2 & 1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} x & 2 \\\\ 3 & y \\end{pmatrix} = \\begin{pmatrix} 2x+3 & 4+y \\\\ x+3 & 2+y \\end{pmatrix}$. \nDari kesamaan matriks, kita dapatkan sistem persamaan: \n$2x+3 = 5 \\implies 2x=2 \\implies x=1$. \n$4+y = 7 \\implies y=3$. \n$x+3 = 4 \\implies x=1$ (konsisten). \n$2+y = 5 \\implies y=3$ (konsisten). \nJadi, $x=1$ dan $y=3$. \n$x+y = 1+3=4$."
+    "pembahasan": "$AB = \\begin{pmatrix} 2x+3 & 4+y \\\\ x+3 & 2+y \\end{pmatrix}$\n\nDari kesamaan matriks:\n\n$2x+3 = 5 \\implies x = 1$\n\n$4+y = 7 \\implies y = 3$\n\n$x + y = 1 + 3 = 4$"
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka $det(2A)$ adalah...",
+    "pilihan": [
+      "$-4$",
+      "$-8$",
+      "$4$",
+      "$8$",
+      "$16$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "$det(A) = (1)(4) - (2)(3) = 4 - 6 = -2$\n\n$det(2A) = 2^2 \\times det(A) = 4 \\times (-2) = -8$"
+  },
+  {
+    "id": 19,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 2 & 0 \\\\ 3 & 4 & 3 \\end{pmatrix}$, maka $det(A)$ adalah...",
+    "pilihan": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$6$",
+      "$12$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Matriks A adalah matriks segitiga bawah.\n\n$det(A) = 1 \\times 2 \\times 3 = 6$"
+  },
+  {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$, maka $A^{10}$ adalah...",
+    "pilihan": [
+      "$\\begin{pmatrix} 1 & 10 \\\\ 0 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 1 \\\\ 0 & 10 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 10 & 10 \\\\ 0 & 10 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 1 \\\\ 10 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pola matriks ini:\n\n$A^1 = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}$\n\n$A^3 = \\begin{pmatrix} 1 & 3 \\\\ 0 & 1 \\end{pmatrix}$\n\n$A^n = \\begin{pmatrix} 1 & n \\\\ 0 & 1 \\end{pmatrix}$\n\n$A^{10} = \\begin{pmatrix} 1 & 10 \\\\ 0 & 1 \\end{pmatrix}$"
   }
 ]
