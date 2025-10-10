@@ -1,162 +1,162 @@
 [
   {
     "id": 1,
-    "kategori": "Sedang",
-    "pertanyaan": "Selesaikan persamaan $2x - 5 = 9$.",
-    "pilihan": ["5","6","7","8","9"],
+    "kategori": "OSN",
+    "pertanyaan": "Diberikan fungsi $f: \\mathbb{R} \\to \\mathbb{R}$ yang memenuhi $f(x^2 + 2x) = 2x^2 + 4x + 1$ untuk setiap $x \\in \\mathbb{R}$. Tentukan nilai dari $f(5)$.",
+    "pilihan": ["9","10","11","12","13"],
     "jawaban": "C",
-    "pembahasan": "Tambah 5 ke kedua sisi: $2x = 14$. Bagi 2: $x = 7$."
+    "pembahasan": "Misalkan $y = x^2 + 2x$. Maka $2x^2 + 4x + 1 = 2(x^2 + 2x) + 1 = 2y + 1$. Jadi, $f(y) = 2y + 1$. Maka $f(5) = 2(5) + 1 = 11$."
   },
   {
     "id": 2,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $f(x) = 3x + 2$, tentukan $f(4)$.",
-    "pilihan": ["10","11","12","13","14"],
-    "jawaban": "E",
-    "pembahasan": "$f(4) = 3\\cdot4 + 2 = 14$."
+    "kategori": "OSN",
+    "pertanyaan": "Banyaknya pasangan bilangan real $(x, y)$ yang memenuhi sistem persamaan $x^2 + y^2 = 13$ dan $x + y + xy = 11$ adalah...",
+    "pilihan": ["0","1","2","3","4"],
+    "jawaban": "C",
+    "pembahasan": "Misalkan $s=x+y$ dan $p=xy$. Persamaan menjadi $s^2 - 2p = 13$ dan $s + p = 11$. Substitusi $p = 11-s$ ke persamaan pertama: $s^2 - 2(11-s) = 13 \\Rightarrow s^2 + 2s - 35 = 0 \\Rightarrow (s+7)(s-5)=0$. Kasus $s=5$ menghasilkan $x+y=5, xy=6$, solusi real $(2,3)$ dan $(3,2)$. Kasus $s=-7$ menghasilkan $x+y=-7, xy=18$, tidak ada solusi real. Total 2 solusi."
   },
   {
     "id": 3,
-    "kategori": "Sedang",
-    "pertanyaan": "Selesaikan $x^2 - 5x + 6 = 0$.",
-    "pilihan": ["1 dan 6","2 dan 3","-2 dan -3","3 dan 5","2 dan 4"],
+    "kategori": "OSN",
+    "pertanyaan": "Diketahui $x_1, x_2, x_3$ adalah akar-akar dari persamaan $x^3 - 4x^2 + 5x - 2 = 0$. Tentukan nilai dari $\\frac{1}{x_1} + \\frac{1}{x_2} + \\frac{1}{x_3}$.",
+    "pilihan": ["2","5/2","4","5/4","1"],
     "jawaban": "B",
-    "pembahasan": "Faktorkan: $(x-2)(x-3)=0$ sehingga $x=2$ atau $x=3$."
+    "pembahasan": "Jumlah kebalikan akar adalah $\\frac{x_1x_2 + x_2x_3 + x_3x_1}{x_1x_2x_3}$. Dari Teorema Vieta, $x_1x_2 + x_2x_3 + x_3x_1 = 5$ dan $x_1x_2x_3 = 2$. Maka hasilnya adalah $5/2$."
   },
   {
     "id": 4,
-    "kategori": "Sedang",
-    "pertanyaan": "Selesaikan pertidaksamaan $3x + 7 \\le 16$.",
-    "pilihan": ["x\\le2","x\\le3","x\\le4","x\\le5","x\\le6"],
-    "jawaban": "B",
-    "pembahasan": "$3x \\le 16-7 = 9 \\Rightarrow x \\le 3$."
+    "kategori": "OSN",
+    "pertanyaan": "Tentukan banyaknya bilangan bulat $x$ yang memenuhi persamaan $\\log_2(x^2 - 3x) = 2 + \\log_2(x+1)$.",
+    "pilihan": ["0","1","2","3","4"],
+    "jawaban": "A",
+    "pembahasan": "Syarat domain: $x^2 - 3x > 0$ dan $x+1 > 0$. Persamaan: $x^2 - 3x = 4(x+1) \\Rightarrow x^2 - 7x - 4 = 0$. Solusi real $x = \\frac{7 \\pm \\sqrt{65}}{2}$. Karena $\\sqrt{65}$ bukan bilangan bulat, tidak ada solusi bilangan bulat yang memenuhi."
   },
   {
     "id": 5,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $f(x) = 2x - 1$ dan $g(x) = x^2$, tentukan $(f \\circ g)(2)$.",
-    "pilihan": ["3","5","6","7","8"],
-    "jawaban": "D",
-    "pembahasan": "$(f \\circ g)(2) = f(g(2)) = f(4) = 2\\cdot4-1 = 7$."
+    "kategori": "OSN",
+    "pertanyaan": "Nilai minimum dari ekspresi $E = x + \\frac{4}{x}$ untuk $x > 0$ adalah...",
+    "pilihan": ["2","3","4","5","6"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan Ketaksamaan AM-GM: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 2\\sqrt{4} = 4$. Nilai minimum adalah 4."
   },
   {
     "id": 6,
-    "kategori": "Sedang",
-    "pertanyaan": "Selesaikan $|x-3| = 5$.",
-    "pilihan": ["x=-2 dan 8","x=2 dan 8","x=-8 dan 2","x=-5 dan 3","x=5 dan 3"],
-    "jawaban": "A",
-    "pembahasan": "Kasus 1: $x-3=5 \\Rightarrow x=8$. Kasus 2: $x-3=-5 \\Rightarrow x=-2$."
+    "kategori": "OSN",
+    "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $|x^2 - 4x + 3| < |x - 1|$.",
+    "pilihan": ["$0 < x < 1$","$1 < x < 3$","$2 < x < 4$","$x < 1$ atau $x > 3$","$1 \\le x \\le 4$"],
+    "jawaban": "C",
+    "pembahasan": "Pertidaksamaan $|(x-3)(x-1)| < |x-1|$. Kasus $x \\ne 1$, bagi dengan $|x-1|$ menghasilkan $|x-3| < 1 \\Rightarrow -1 < x-3 < 1 \\Rightarrow 2 < x < 4$. Karena $x=1$ tidak termasuk, solusinya adalah $2 < x < 4$."
   },
   {
     "id": 7,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $h(x)=x^2+2x$, tentukan $h(-1)$.",
-    "pilihan": ["-1","0","1","2","3"],
-    "jawaban": "A",
-    "pembahasan": "$h(-1) = (-1)^2 + 2(-1) = -1$."
+    "kategori": "OSN",
+    "pertanyaan": "Tentukan domain terbesar dari fungsi $f(x) = \\sqrt{\\frac{x^2 - 4}{x^2 - 3x - 10}}$.",
+    "pilihan": ["$(-\\infty, 2] \\cup (5, \\infty)$","$(-\\infty, -2) \\cup (-2, 2] \\cup (5, \\infty)$","$(-2, 2] \\cup (5, \\infty)$","$(-\\infty, -2] \\cup [2, 5)$","$x \\ne -2$ dan $x \\ne 5$"],
+    "jawaban": "B",
+    "pembahasan": "Pertidaksamaan $\\frac{(x-2)(x+2)}{(x-5)(x+2)} \\ge 0$. Ini setara dengan $\\frac{x-2}{x-5} \\ge 0$ dengan syarat $x \\ne -2$ dan $x \\ne 5$. Garis bilangan untuk $\\frac{x-2}{x-5} \\ge 0$ adalah $x \\le 2$ atau $x > 5$. Gabungkan dengan syarat, menjadi $x < -2$ atau $-2 < x \\le 2$ atau $x > 5$."
   },
   {
     "id": 8,
-    "kategori": "Sedang",
-    "pertanyaan": "Selesaikan $x-4<7$.",
-    "pilihan": ["x<3","x>3","x<11","x>11","x=11"],
-    "jawaban": "C",
-    "pembahasan": "Tambah 4 ke kedua sisi: $x < 11$."
+    "kategori": "OSN",
+    "pertanyaan": "Banyaknya solusi real dari persamaan $x^2 - \\lfloor x \\rfloor - 1 = 0$ adalah...",
+    "pilihan": ["1","2","3","4","0"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan $n = \\lfloor x \\rfloor$. Maka $x^2 = n+1$. Karena $n \\le x < n+1$, maka $n^2 \\le x^2 < (n+1)^2$. $n^2 \\le n+1$ dan $n+1 < n^2+2n+1$. $n^2 - n - 1 \\le 0 \\Rightarrow \\frac{1-\\sqrt{5}}{2} \\le n \\le \\frac{1+\\sqrt{5}}{2}$ (Bilangan bulat $n=0, 1$). Dan $0 < n^2+n$. Hanya $n=1$ dan $n=2$ yang memenuhi. $n=1 \\implies x=\\sqrt{2}$. $n=2 \\implies x=\\sqrt{3}$. Terdapat 2 solusi."
   },
   {
     "id": 9,
-    "kategori": "Sedang",
-    "pertanyaan": "Tentukan titik potong grafik $y=x^2-4x+3$ dengan sumbu y.",
-    "pilihan": ["(0,3)","(3,0)","(0,-3)","(-3,0)","(0,0)"],
+    "kategori": "OSN",
+    "pertanyaan": "Jika $f(x) = \\frac{x-1}{x+2}$, tentukan fungsi inversnya, $f^{-1}(x)$.",
+    "pilihan": ["$\\frac{2x+1}{1-x}$","$\\frac{x+2}{x-1}$","$\\frac{x+1}{x-2}$","$\\frac{2x-1}{x+1}$","$\\frac{1-2x}{x+1}$"],
     "jawaban": "A",
-    "pembahasan": "Titik potong sumbu y terjadi saat $x=0$, sehingga $y=3$. Titik: $(0,3)$."
+    "pembahasan": "$y = \\frac{x-1}{x+2} \\Rightarrow y(x+2) = x-1 \\Rightarrow xy + 2y = x - 1 \\Rightarrow 2y + 1 = x - xy \\Rightarrow x(1-y) = 2y+1 \\Rightarrow x = \\frac{2y+1}{1-y}$. Jadi $f^{-1}(x) = \\frac{2x+1}{1-x}$."
   },
   {
     "id": 10,
-    "kategori": "Sedang",
-    "pertanyaan": "Selesaikan $2(x-3)=10$.",
-    "pilihan": ["4","5","6","7","8"],
-    "jawaban": "E",
-    "pembahasan": "Bagi 2: $x-3=5 \\Rightarrow x=8$."
+    "kategori": "OSN",
+    "pertanyaan": "Diberikan $f(x) = x^2 - 2$ dan $(g \\circ f)(x) = 2x^2 - 5$. Tentukan fungsi $g(x)$.",
+    "pilihan": ["$2x+1$","$2x-1$","$x+3$","$x^2-1$","$2x^2+1$"],
+    "jawaban": "B",
+    "pembahasan": "Misalkan $y = f(x) = x^2 - 2$. Maka $x^2 = y+2$. $(g \\circ f)(x) = g(x^2 - 2) = 2x^2 - 5$. Substitusi: $g(y) = 2(y+2) - 5 = 2y + 4 - 5 = 2y - 1$. Jadi, $g(x) = 2x - 1$."
   },
   {
     "id": 11,
-    "kategori": "Sulit",
-    "pertanyaan": "Turunan pertama dari $f(x) = (3x^2-5)^4$ adalah...",
-    "pilihan": ["$4(3x^2-5)^3$","$6x(3x^2-5)^3$","$12x(3x^2-5)^3$","$24x(3x^2-5)^3$","$4x(3x^2-5)^3$"],
+    "kategori": "OSN",
+    "pertanyaan": "Tentukan semua nilai $m$ sedemikian hingga fungsi kuadrat $f(x) = (m-1)x^2 - 2mx + m + 1$ selalu positif untuk semua $x \\in \\mathbb{R}$.",
+    "pilihan": ["$m > 1$","$m < 0$","$-1 < m < 1$","Tidak ada nilai $m$ yang memenuhi","$m > 0$"],
     "jawaban": "D",
-    "pembahasan": "Gunakan aturan rantai: $f'(x) = 4(3x^2-5)^3 \\cdot 6x = 24x(3x^2-5)^3$."
+    "pembahasan": "Syarat definit positif: 1) $a > 0 \\Rightarrow m-1 > 0 \\Rightarrow m > 1$. 2) Diskriminan $D < 0$. $D = (-2m)^2 - 4(m-1)(m+1) = 4m^2 - 4(m^2 - 1) = 4$. Karena $D = 4 > 0$, maka fungsi ini selalu memiliki dua akar real, sehingga tidak mungkin selalu positif. Tidak ada nilai $m$ yang memenuhi."
   },
   {
     "id": 12,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\lim_{x\\to2} \\frac{x^2-4}{x-2}$ adalah...",
-    "pilihan": ["0","1","2","4","Tidak terdefinisi"],
-    "jawaban": "D",
-    "pembahasan": "Faktorkan pembilang: $(x-2)(x+2)$, bagi $(x-2)$, limit = $2+2=4$."
+    "kategori": "OSN",
+    "pertanyaan": "Jika $2^{x-1} + 2^{x+1} = 20$, maka nilai dari $4^x$ adalah...",
+    "pilihan": ["16","32","64","128","256"],
+    "jawaban": "C",
+    "pembahasan": "$2^x \\cdot 2^{-1} + 2^x \\cdot 2^1 = 20 \\Rightarrow 2^x (\\frac{1}{2} + 2) = 20 \\Rightarrow 2^x (\\frac{5}{2}) = 20 \\Rightarrow 2^x = 8$. Maka $x=3$. Nilai dari $4^x = 4^3 = 64$."
   },
   {
     "id": 13,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=2x^2-3x+1$, tentukan $f'(x)$.",
-    "pilihan": ["4x-3","4x+3","2x-3","2x+3","x-3"],
-    "jawaban": "A",
-    "pembahasan": "$f'(x) = d/dx(2x^2-3x+1) = 4x-3$."
+    "kategori": "OSN",
+    "pertanyaan": "Jumlah semua solusi real dari persamaan $\\sqrt{x^2 + 5x + 2} = x + 1$ adalah...",
+    "pilihan": ["$-3$","$-1/3$","$1$","$5/3$","$2$"],
+    "jawaban": "B",
+    "pembahasan": "Syarat: $x+1 \\ge 0 \\Rightarrow x \\ge -1$. Kuadratkan kedua sisi: $x^2 + 5x + 2 = (x+1)^2 \\Rightarrow x^2 + 5x + 2 = x^2 + 2x + 1 \\Rightarrow 3x = -1 \\Rightarrow x = -1/3$. Solusi $x = -1/3$ memenuhi syarat $x \\ge -1$. Jumlah solusinya (hanya satu) adalah $-1/3$."
   },
   {
     "id": 14,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $|3x+1|\\le7$.",
-    "pilihan": ["-3\\le x\\le2","-2\\le x\\le3","-3\\le x\\le1","-1\\le x\\le2","0\\le x\\le3"],
-    "jawaban": "A",
-    "pembahasan": "-7 \\le 3x+1 \\le 7 \\Rightarrow -8 \\le 3x \\le 6 \\Rightarrow -8/3 \\le x \\le 2 (pilih -3\\le x\\le2)."
+    "kategori": "OSN",
+    "pertanyaan": "Jika $x, y$ adalah bilangan real yang memenuhi $x^2 + y^2 = 1$, maka nilai maksimum dari $3x + 4y$ adalah...",
+    "pilihan": ["3","4","5","6","7"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan Ketaksamaan Cauchy-Schwarz: $(3x + 4y)^2 \\le (3^2 + 4^2)(x^2 + y^2) = (9 + 16)(1) = 25$. Maka $3x + 4y \\le 5$. Nilai maksimumnya adalah 5."
   },
   {
     "id": 15,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $x^2-6x+8=0$.",
-    "pilihan": ["1 dan 8","2 dan 4","-2 dan -4","3 dan 5","4 dan 6"],
-    "jawaban": "B",
-    "pembahasan": "Faktorkan: $(x-2)(x-4)=0 \\Rightarrow x=2$ atau $x=4$."
+    "kategori": "OSN",
+    "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $\\frac{x^2 - 3x + 2}{x^2 + x + 1} \\le 0$.",
+    "pilihan": ["$x < 1$ atau $x > 2$","$1 < x < 2$","$1 \\le x \\le 2$","$x \\le 1$ atau $x \\ge 2$","$x \\in \\mathbb{R}$"],
+    "jawaban": "C",
+    "pembahasan": "Penyebut $x^2 + x + 1$ memiliki diskriminan negatif ($D=-3$) dan koefisien $x^2$ positif, sehingga selalu positif. Pertidaksamaan hanya ditentukan oleh pembilang: $x^2 - 3x + 2 \\le 0 \\Rightarrow (x-1)(x-2) \\le 0$. Solusi adalah $1 \\le x \\le 2$."
   },
   {
     "id": 16,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x^2$ dan $g(x)=2x+1$, tentukan $(f\\circ g)(1)$.",
-    "pilihan": ["1","4","6","9","16"],
-    "jawaban": "D",
-    "pembahasan": "$g(1)=3$, $f(3)=9$."
+    "kategori": "OSN",
+    "pertanyaan": "Misalkan $f: \\mathbb{Z} \\to \\mathbb{Z}$ adalah fungsi yang memenuhi $f(x+y) = f(x) + f(y) + xy$ dan $f(1) = 1$. Tentukan nilai dari $f(5)$.",
+    "pilihan": ["10","12","15","20","25"],
+    "jawaban": "C",
+    "pembahasan": "Dari $f(x+y) = f(x) + f(y) + xy$, kita hitung: $f(2) = f(1)+f(1)+1 = 1+1+1 = 3$. $f(3) = f(2)+f(1)+2 = 3+1+2 = 6$. $f(4) = f(3)+f(1)+3 = 6+1+3 = 10$. $f(5) = f(4)+f(1)+4 = 10+1+4 = 15$."
   },
   {
     "id": 17,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $2^x = 8$.",
-    "pilihan": ["1","2","3","4","5"],
-    "jawaban": "C",
-    "pembahasan": "$2^x=2^3 \\Rightarrow x=3$."
+    "kategori": "OSN",
+    "pertanyaan": "Berapakah jumlah pasangan bilangan bulat positif $(x, y)$ yang memenuhi persamaan $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{6}$?",
+    "pilihan": ["6","7","8","9","10"],
+    "jawaban": "D",
+    "pembahasan": "Persamaan ekuivalen dengan $6x + 6y = xy \\Rightarrow xy - 6x - 6y = 0 \\Rightarrow (x-6)(y-6) = 36$. Karena $x, y$ bulat positif, $x-6$ dan $y-6$ adalah faktor dari 36. Faktor positif dari 36 adalah 1, 2, 3, 4, 6, 9, 12, 18, 36. Ada 9 faktor, sehingga ada 9 pasangan solusi $(x, y)$."
   },
   {
     "id": 18,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x-3$, tentukan $x$ sehingga $f(x)=4$.",
-    "pilihan": ["5","6","7","8","9"],
-    "jawaban": "C",
-    "pembahasan": "$x-3=4 \\Rightarrow x=7$."
+    "kategori": "OSN",
+    "pertanyaan": "Misalkan $f(x)$ adalah fungsi ganjil dan $g(x)$ adalah fungsi genap. Jika $h(x) = f(g(x)) + g(f(x))$, manakah pernyataan yang benar mengenai $h(x)$?",
+    "pilihan": ["Fungsi ganjil","Fungsi genap","Bukan ganjil maupun genap","$h(x) = 0$","Terdefinisi hanya di $x \\ge 0$"],
+    "jawaban": "B",
+    "pembahasan": "Hitung $h(-x)$: $h(-x) = f(g(-x)) + g(f(-x))$. Karena $g$ genap, $g(-x) = g(x)$. Karena $f$ ganjil, $f(-x) = -f(x)$. Jadi, $h(-x) = f(g(x)) + g(-f(x))$. Karena $g$ genap, $g(-f(x)) = g(f(x))$. Maka $h(-x) = f(g(x)) + g(f(x)) = h(x)$. Jadi $h(x)$ adalah fungsi genap."
   },
   {
     "id": 19,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $|x+2|-3=0$.",
-    "pilihan": ["-5 dan 1","-1 dan 5","-2 dan 3","-3 dan 2","0 dan 5"],
-    "jawaban": "A",
-    "pembahasan": "|x+2|=3 \\Rightarrow x+2=3 atau x+2=-3 \\Rightarrow x=1 atau x=-5."
+    "kategori": "OSN",
+    "pertanyaan": "Misalkan $p(x) = x^4 + ax^3 + bx^2 + cx + d$ memiliki empat akar real positif $r_1, r_2, r_3, r_4$. Jika $r_1r_2r_3r_4 = 1$ dan $r_1+r_2+r_3+r_4 = 4$, maka nilai $a+b+c+d$ adalah...",
+    "pilihan": ["1","$-1$","0","2","4"],
+    "jawaban": "B",
+    "pembahasan": "Oleh Ketaksamaan AM-GM, $\\frac{r_1+r_2+r_3+r_4}{4} \\ge \\sqrt[4]{r_1r_2r_3r_4}$. Karena $\\frac{4}{4} = 1$ dan $\\sqrt[4]{1}=1$, kesamaan hanya terjadi jika $r_1=r_2=r_3=r_4=1$. Polinomialnya adalah $p(x) = (x-1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1$. Maka $a=-4, b=6, c=-4, d=1$. Nilai $a+b+c+d = -4+6-4+1 = -1$."
   },
   {
     "id": 20,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan persamaan kuadrat $x^2-4x-5=0$.",
-    "pilihan": ["-1 dan 5","1 dan -5","5 dan -1","-5 dan 1","0 dan 5"],
-    "jawaban": "C",
-    "pembahasan": "Faktorkan: $(x-5)(x+1)=0 \\Rightarrow x=5$ atau $x=-1$."
+    "kategori": "OSN",
+    "pertanyaan": "Tentukan jumlah semua solusi real dari persamaan $\\log_{10}(x) + \\log_{10}(x-3) = 1$.",
+    "pilihan": ["3","5","7","10","Tidak ada solusi"],
+    "jawaban": "B",
+    "pembahasan": "Syarat domain: $x > 0$ dan $x-3 > 0 \\Rightarrow x > 3$. Persamaan: $\\log_{10}(x(x-3)) = 1 \\Rightarrow x^2 - 3x = 10^1 \\Rightarrow x^2 - 3x - 10 = 0 \\Rightarrow (x-5)(x+2) = 0$. Akar-akarnya $x=5$ dan $x=-2$. Hanya $x=5$ yang memenuhi syarat $x > 3$. Jumlah semua solusi real adalah 5."
   }
 ]
