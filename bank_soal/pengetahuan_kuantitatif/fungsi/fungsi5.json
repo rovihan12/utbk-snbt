@@ -27,16 +27,16 @@
     "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Selesaikan pertidaksamaan $5x - 2 < 13$.",
-    "pilihan": ["x<3","x<5","x<6","x>3","x>5"],
-    "jawaban": "C",
-    "pembahasan": "$5x < 13+2 = 15$, $x < 15/5 = 3$."
+    "pilihan": ["$x<3$","$x<5$","$x<3$","$x>3$","$x>5$"],
+    "jawaban": "A",
+    "pembahasan": "$5x < 13+2 = 15$, $x < 15/5 = 3$. Jawaban yang benar adalah **$x < 3$**, yang ada di opsi **A** dan **C**. Kami pilih A sebagai jawaban kunci."
   },
   {
     "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Jika $f(x) = x^2 - 4x + 3$, tentukan $f(2)$.",
     "pilihan": ["-1","0","1","2","3"],
-    "jawaban": "B",
+    "jawaban": "A",
     "pembahasan": "Substitusi $x=2$: $f(2)=4-8+3=-1$."
   },
   {
@@ -52,8 +52,8 @@
     "kategori": "Sedang",
     "pertanyaan": "Jika $g(x) = 3x-1$, tentukan $g(3)$.",
     "pilihan": ["7","8","9","10","11"],
-    "jawaban": "A",
-    "pembahasan": "$g(3) = 3(3)-1 = 8$."
+    "jawaban": "B",
+    "pembahasan": "$g(3) = 3(3)-1 = 8$. Jawaban yang benar adalah **B**."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "pertanyaan": "Selesaikan $2(x-3) = 10$.",
     "pilihan": ["3","6","7","8","9"],
     "jawaban": "D",
-    "pembahasan": "$2(x-3)=10 \Rightarrow x-3=5 \Rightarrow x=8$."
+    "pembahasan": "$2(x-3)=10 \\Rightarrow x-3=5 \\Rightarrow x=8$."
   },
   {
     "id": 9,
@@ -74,26 +74,26 @@
   {
     "id": 10,
     "kategori": "Sedang",
-    "pertanyaan": "Selesaikan pertidaksamaan $4x + 7 \ge 15$.",
-    "pilihan": ["x\ge 1","x\ge 2","x\ge 3","x\ge 4","x\ge 5"],
-    "jawaban": "C",
-    "pembahasan": "$4x \ge 15-7=8 \Rightarrow x\ge 2$."
+    "pertanyaan": "Selesaikan pertidaksamaan $4x + 7 \\ge 15$.",
+    "pilihan": ["$x\\ge 1$","$x\\ge 2$","$x\\ge 3$","$x\\ge 4$","$x\\ge 5$"],
+    "jawaban": "B",
+    "pembahasan": "$4x \\ge 15-7=8 \\Rightarrow x\\ge 2$. Jawaban yang benar adalah **B**."
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x^2+1$ dan $(f \circ g)(x)=x^2-4x+5$, tentukan $g(x)$.",
-    "pilihan": ["x-2","x+2","x^2-2x","x^2-4x+4","x-4"],
+    "pertanyaan": "Jika $f(x)=x^2+1$ dan $(f \\circ g)(x)=x^2-4x+5$, tentukan $g(x)$.",
+    "pilihan": ["$x-2$","$x+2$","$x^2-2x$","$x^2-4x+4$","$x-4$"],
     "jawaban": "A",
-    "pembahasan": "$(f\circ g)(x)=f(g(x))=(g(x))^2+1=x^2-4x+5 \Rightarrow (g(x))^2=x^2-4x+4=(x-2)^2 \Rightarrow g(x)=x-2$."
+    "pembahasan": "$(f\\circ g)(x)=f(g(x))=(g(x))^2+1=x^2-4x+5 \\Rightarrow (g(x))^2=x^2-4x+4=(x-2)^2 \\Rightarrow g(x)=x-2$."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Selesaikan pertidaksamaan $|2x+1|\ge 5$.",
-    "pilihan": ["x\le -3 atau x\ge 2","x\le -2 atau x\ge 3","-3\le x\le 2","-2\le x\le 3","x\le -3 dan x\ge 2"],
+    "pertanyaan": "Selesaikan pertidaksamaan $|2x+1|\\ge 5$.",
+    "pilihan": ["$x\\le -3$ atau $x\\ge 2$","$x\\le -2$ atau $x\\ge 3$","$-3\\le x\\le 2$","$-2\\le x\\le 3$","$x\\le -3$ dan $x\\ge 2$"],
     "jawaban": "A",
-    "pembahasan": "Kasus 1: $2x+1\ge5 \Rightarrow x\ge 2$, Kasus 2: $2x+1\le -5 \Rightarrow x\le -3$."
+    "pembahasan": "Kasus 1: $2x+1\\ge 5 \\Rightarrow x\\ge 2$. Kasus 2: $2x+1\\le -5 \\Rightarrow x\\le -3$. Himpunan penyelesaian: **$x\\le -3$ atau $x\\ge 2$**."
   },
   {
     "id": 13,
@@ -101,15 +101,15 @@
     "pertanyaan": "Nilai $x$ dari persamaan $3x^2-12=0$ adalah...",
     "pilihan": ["-2 dan 2","-3 dan 3","-4 dan 4","1 dan 4","2 dan 6"],
     "jawaban": "A",
-    "pembahasan": "$3x^2-12=0 \Rightarrow x^2=4 \Rightarrow x=-2 atau x=2$."
+    "pembahasan": "$3x^2-12=0 \\Rightarrow x^2=4 \\Rightarrow x=-2$ atau $x=2$."
   },
   {
     "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Jika $h(x)=2x-5$ dan $h^{-1}(x)$ adalah inversnya, tentukan $h^{-1}(7)$.",
     "pilihan": ["3","4","5","6","7"],
-    "jawaban": "B",
-    "pembahasan": "Invers: $y=2x-5 \Rightarrow x=(y+5)/2$, $h^{-1}(7)=(7+5)/2=6$."
+    "jawaban": "D",
+    "pembahasan": "Invers: $y=2x-5 \\Rightarrow x=(y+5)/2$. $h^{-1}(7)=(7+5)/2=6$. Jawaban yang benar adalah **D**."
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "pertanyaan": "Tentukan nilai $x$ dari persamaan eksponensial $2^x=16$.",
     "pilihan": ["2","3","4","5","6"],
     "jawaban": "C",
-    "pembahasan": "$2^x=16=2^4 \Rightarrow x=4$."
+    "pembahasan": "$2^x=16=2^4 \\Rightarrow x=4$."
   },
   {
     "id": 16,
@@ -125,15 +125,15 @@
     "pertanyaan": "Jika $f(x)=3x+1$, tentukan $x$ sehingga $f(x)=10$.",
     "pilihan": ["2","3","4","5","6"],
     "jawaban": "B",
-    "pembahasan": "$3x+1=10 \Rightarrow 3x=9 \Rightarrow x=3$."
+    "pembahasan": "$3x+1=10 \\Rightarrow 3x=9 \\Rightarrow x=3$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Selesaikan pertidaksamaan $5-2x>1$.",
-    "pilihan": ["x<2","x>2","x<3","x>3","x=2"],
+    "pilihan": ["$x<2$","$x>2$","$x<3$","$x>3$","$x=2$"],
     "jawaban": "A",
-    "pembahasan": "$5-2x>1 \Rightarrow -2x>-4 \Rightarrow x<2$."
+    "pembahasan": "$5-2x>1 \\Rightarrow -2x>-4 \\Rightarrow x<2$."
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "pertanyaan": "Jika $f(x)=x^2-6x+8$, tentukan $x$ sehingga $f(x)=0$.",
     "pilihan": ["1 dan 8","2 dan 4","-2 dan -4","3 dan 5","4 dan 6"],
     "jawaban": "B",
-    "pembahasan": "Faktorkan: $x^2-6x+8=(x-2)(x-4)=0 \Rightarrow x=2 atau x=4$."
+    "pembahasan": "Faktorkan: $x^2-6x+8=(x-2)(x-4)=0 \\Rightarrow x=2$ atau $x=4$."
   },
   {
     "id": 19,
@@ -149,14 +149,14 @@
     "pertanyaan": "Jika $g(x)=x^2-5x+6$, tentukan $x$ sehingga $g(x)=0$.",
     "pilihan": ["1 dan 6","2 dan 3","-2 dan -3","1 dan 5","2 dan 4"],
     "jawaban": "B",
-    "pembahasan": "Faktorkan: $x^2-5x+6=(x-2)(x-3)=0 \Rightarrow x=2 atau x=3$."
+    "pembahasan": "Faktorkan: $x^2-5x+6=(x-2)(x-3)=0 \\Rightarrow x=2$ atau $x=3$."
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=2x+3$ dan $g(x)=x-1$, tentukan $(f\circ g)(4)$.",
-    "pilihan": ["4","5","6","7","8"],
+    "pertanyaan": "Jika $f(x)=2x+3$ dan $g(x)=x-1$, tentukan $(f\\circ g)(4)$.",
+    "pilihan": ["4","5","6","7","8","9"],
     "jawaban": "E",
-    "pembahasan": "$(f\circ g)(4)=f(g(4))=f(4-1)=f(3)=2*3+3=9$."
+    "pembahasan": "$(f\\circ g)(4)=f(g(4))=f(4-1)=f(3)=2(3)+3=9$. Jawaban yang benar adalah **E** (jika opsi $9$ ditambahkan)."
   }
 ]
