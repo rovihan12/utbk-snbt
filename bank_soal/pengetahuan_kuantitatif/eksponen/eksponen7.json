@@ -1,6 +1,6 @@
 [
   {
-    "id": 121,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Hasil dari $3^2 + 4^0 - 2^3$ adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "-1"
     ],
     "jawaban": "B",
-    "pembahasan": "Hitung setiap suku:\n$3^2 = 9$\n$4^0 = 1$ (setiap bilangan dipangkatkan 0 hasilnya 1)\n$2^3 = 8$\nKemudian, $9 + 1 - 8 = 10 - 8 = 2$"
+    "pembahasan": "Hitung setiap suku:\n$3^2 = 9$\n$4^0 = 1$\n$2^3 = 8$\n$9 + 1 - 8 = 2$"
   },
   {
-    "id": 122,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk sederhana dari $(x^5 y^3)/(x^2 y)$ adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "$x^2 y^3$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat eksponen $a^m / a^n = a^{m-n}$.\nUntuk $x$: $x^{5-2} = x^3$\nUntuk $y$: $y^{3-1} = y^2$\nJadi, bentuk sederhananya adalah $x^3 y^2$"
+    "pembahasan": "Gunakan sifat eksponen $a^m / a^n = a^{m-n}$.\n$x^{5-2} = x^3$\n$y^{3-1} = y^2$\nJadi, $x^3 y^2$"
   },
   {
-    "id": 123,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt[3]{27}$ adalah...",
     "pilihan": [
@@ -39,10 +39,10 @@
       "18"
     ],
     "jawaban": "C",
-    "pembahasan": "Hitung nilai akar:\n$\\sqrt{144} = 12$\n$\\sqrt[3]{27} = 3$\nKemudian, $12 + 3 = 15$"
+    "pembahasan": "Hitung nilai akar:\n$\\sqrt{144} = 12$\n$\\sqrt[3]{27} = 3$\n$12 + 3 = 15$"
   },
   {
-    "id": 124,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika $^2\\log 16 = x$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -50,13 +50,13 @@
       "3",
       "4",
       "8",
-      "1/2"
+      "$1/2$"
     ],
     "jawaban": "C",
-    "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\nJadi, $^2\\log 16 = x$ ekuivalen dengan $2^x = 16$.\nKarena $2^4 = 16$, maka $x = 4$"
+    "pembahasan": "Bentuk logaritma $^b\\log a = c$ ekuivalen dengan $b^c = a$.\n$^2\\log 16 = x$ ekuivalen dengan $2^x = 16$\n$2^4 = 16$, jadi $x = 4$"
   },
   {
-    "id": 125,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Hasil dari $^5\\log 125 + ^5\\log 1$ adalah...",
     "pilihan": [
@@ -67,10 +67,10 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Hitung setiap suku logaritma:\n$^5\\log 125 = 3$ (karena $5^3 = 125$)\n$^5\\log 1 = 0$ (karena $5^0 = 1$)\nKemudian, $3 + 0 = 3$"
+    "pembahasan": "Hitung setiap suku:\n$^5\\log 125 = 3$ (karena $5^3 = 125$)\n$^5\\log 1 = 0$\n$3 + 0 = 3$"
   },
   {
-    "id": 126,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(\\frac{2a^3 b^{-1}}{4a b^2})^{-2}$ adalah...",
     "pilihan": [
@@ -81,10 +81,10 @@
       "$4a^2 b^6$"
     ],
     "jawaban": "A",
-    "pembahasan": "Sederhanakan bagian dalam kurung terlebih dahulu:\n$\\frac{2a^3 b^{-1}}{4a b^2} = \\frac{2}{4} a^{3-1} b^{-1-2} = \\frac{1}{2} a^2 b^{-3} = \\frac{a^2}{2b^3}$\nKemudian, pangkatkan dengan -2:\n$(\\frac{a^2}{2b^3})^{-2} = (\\frac{2b^3}{a^2})^2 = \\frac{(2b^3)^2}{(a^2)^2} = \\frac{4b^6}{a^4}$"
+    "pembahasan": "Sederhanakan bagian dalam kurung:\n$\\frac{2a^3 b^{-1}}{4a b^2} = \\frac{1}{2} a^2 b^{-3} = \\frac{a^2}{2b^3}$\nPangkatkan dengan -2:\n$(\\frac{a^2}{2b^3})^{-2} = (\\frac{2b^3}{a^2})^2 = \\frac{4b^6}{a^4}$"
   },
   {
-    "id": 127,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $3^{2x-1} = 27$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -95,10 +95,10 @@
       "$1/2$"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubahlah 27 ke dalam bentuk pangkat dengan basis 3.\n$27 = 3^3$\nJadi, $3^{2x-1} = 3^3$.\nKarena basisnya sama, maka eksponennya harus sama:\n$2x-1 = 3$\n$2x = 4$\n$x = 2$"
+    "pembahasan": "Ubahlah 27 ke bentuk pangkat basis 3.\n$27 = 3^3$\n$3^{2x-1} = 3^3$\nKarena basis sama:\n$2x-1 = 3$\n$2x = 4$\n$x = 2$"
   },
   {
-    "id": 128,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $^2\\log 10 + ^2\\log 3 - ^2\\log 15$ adalah...",
     "pilihan": [
@@ -109,11 +109,11 @@
       "$-1$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$ dan $^b\\log M - ^b\\log N = ^b\\log (M/N)$.\n$^2\\log 10 + ^2\\log 3 - ^2\\log 15 = ^2\\log (10 \\times 3) - ^2\\log 15$\n$= ^2\\log 30 - ^2\\log 15$\n$= ^2\\log (30/15)$\n$= ^2\\log 2$\n$= 1$ (karena $2^1 = 2$)"
+    "pembahasan": "Gunakan sifat logaritma:\n$^2\\log 10 + ^2\\log 3 - ^2\\log 15$\n$= ^2\\log (10 \\times 3) - ^2\\log 15$\n$= ^2\\log 30 - ^2\\log 15$\n$= ^2\\log (30/15) = ^2\\log 2 = 1$"
   },
   {
-    "id": 129,
-    "kategori": "Aljabar Eksponen",
+    "id": 9,
+    "kategori": "Sedang",
     "pertanyaan": "Jika $8^m = 27$, maka nilai dari $2^{m+2} + 4^m$ adalah...",
     "pilihan": [
       "12",
@@ -123,10 +123,10 @@
       "24"
     ],
     "jawaban": "D",
-    "pembahasan": "Kita akan memanipulasi $8^m = 27$ untuk mendapatkan nilai dari $2^m$ dan $4^m$.\n\n1. Sederhanakan persamaan yang diketahui:\n$8^m = 27 \\implies (2^3)^m = 27 \\implies 2^{3m} = 27$\n\n2. Cari nilai $2^m$:\nPangkatkan kedua sisi dengan $1/3$:\n$(2^{3m})^{1/3} = 27^{1/3}$\n$2^m = \\sqrt[3]{27} \\implies 2^m = 3$\n\n3. Cari nilai $2^{2m}$ (atau $4^m$):\nPangkatkan kedua sisi dengan 2:\n$(2^m)^2 = 3^2$\n$2^{2m} = 9 \\quad \\text{atau} \\quad 4^m = 9$\n\n4. Hitung nilai ekspresi $2^{m+2} + 4^m$:\nUbah bentuk eksponennya:\n$2^{m+2} + 4^m = (2^m \\cdot 2^2) + 4^m$\nSubstitusikan nilai yang didapat:\n$= (3 \\cdot 4) + 9$\n$= 12 + 9$\n$= 21$"
+    "pembahasan": "Dari $8^m = 27$:\n$(2^3)^m = 27 \\implies 2^{3m} = 27$\n$(2^{3m})^{1/3} = 27^{1/3} \\implies 2^m = 3$\n$(2^m)^2 = 3^2 \\implies 4^m = 9$\nHitung:\n$2^{m+2} + 4^m = (2^m \\cdot 2^2) + 4^m$\n$= (3 \\cdot 4) + 9 = 12 + 9 = 21$"
   },
   {
-    "id": 130,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk pangkat positif dari $\\frac{2p^{-3}q^2}{r^{-1}}$ adalah...",
     "pilihan": [
@@ -137,10 +137,10 @@
       "$\\frac{2q^2}{p^3 r}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat eksponen $a^{-n} = 1/a^n$.\n$\\frac{2p^{-3}q^2}{r^{-1}} = 2 \\cdot p^{-3} \\cdot q^2 \\cdot r^{-(-1)}$\n$= 2 \\cdot \\frac{1}{p^3} \\cdot q^2 \\cdot r^1$\n$= \\frac{2q^2 r}{p^3}$"
+    "pembahasan": "Gunakan sifat eksponen $a^{-n} = 1/a^n$.\n$\\frac{2p^{-3}q^2}{r^{-1}} = 2 \\cdot \\frac{1}{p^3} \\cdot q^2 \\cdot r$\n$= \\frac{2q^2 r}{p^3}$"
   },
   {
-    "id": 131,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $9^{x+1} = (1/27)^{x-2}$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -151,10 +151,10 @@
       "$-1$"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubah semua basis ke 3.\n$9^{x+1} = (3^2)^{x+1} = 3^{2(x+1)} = 3^{2x+2}$\n$(1/27)^{x-2} = (3^{-3})^{x-2} = 3^{-3(x-2)} = 3^{-3x+6}$\nKarena basisnya sama, maka eksponennya harus sama:\n$2x+2 = -3x+6$\n$2x+3x = 6-2$\n$5x = 4$\n$x = 4/5$"
+    "pembahasan": "Ubah semua basis ke 3.\n$9^{x+1} = (3^2)^{x+1} = 3^{2x+2}$\n$(1/27)^{x-2} = (3^{-3})^{x-2} = 3^{-3x+6}$\nKarena basis sama:\n$2x+2 = -3x+6$\n$5x = 4$\n$x = 4/5$"
   },
   {
-    "id": 132,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $(\\sqrt{81} - \\sqrt[3]{-125})^2$ adalah...",
     "pilihan": [
@@ -165,10 +165,10 @@
       "256"
     ],
     "jawaban": "D",
-    "pembahasan": "Hitung nilai di dalam kurung terlebih dahulu.\n$\\sqrt{81} = 9$\n$\\sqrt[3]{-125} = -5$ (karena $(-5)^3 = -125$)\nJadi, $(9 - (-5))^2 = (9+5)^2 = 14^2 = 196$"
+    "pembahasan": "Hitung nilai di dalam kurung:\n$\\sqrt{81} = 9$\n$\\sqrt[3]{-125} = -5$\n$(9 - (-5))^2 = (9+5)^2 = 14^2 = 196$"
   },
   {
-    "id": 133,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika $p = 2^a$ dan $q = 2^b$, maka $p^3 q^{-2}$ adalah...",
     "pilihan": [
@@ -179,10 +179,10 @@
       "$2^{a-b}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gantikan $p$ dan $q$ dengan ekspresi yang diberikan:\n$p^3 q^{-2} = (2^a)^3 (2^b)^{-2}$\n$= 2^{3a} 2^{-2b}$\n$= 2^{3a-2b}$ (gunakan sifat $a^m \\cdot a^n = a^{m+n}$)"
+    "pembahasan": "Substitusi nilai:\n$p^3 q^{-2} = (2^a)^3 (2^b)^{-2}$\n$= 2^{3a} 2^{-2b}$\n$= 2^{3a-2b}$"
   },
   {
-    "id": 134,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Penyelesaian dari persamaan $4^{x^2-2x-3} = 1$ adalah...",
     "pilihan": [
@@ -193,10 +193,10 @@
       "Tidak ada solusi"
     ],
     "jawaban": "A",
-    "pembahasan": "Setiap bilangan yang dipangkatkan 0 hasilnya 1. Jadi, eksponennya harus sama dengan 0.\n$x^2-2x-3 = 0$\nFaktorkan persamaan kuadrat:\n$(x-3)(x+1) = 0$\nJadi, $x=3$ atau $x=-1$"
+    "pembahasan": "Setiap bilangan dipangkatkan 0 hasilnya 1.\nJadi eksponen harus 0:\n$x^2-2x-3 = 0$\n$(x-3)(x+1) = 0$\n$x=3$ atau $x=-1$"
   },
   {
-    "id": 135,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log (x^2+4x-1) = 2$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -207,10 +207,10 @@
       "Tidak ada solusi"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubahlah ke bentuk eksponen dari logaritma: $^b\\log a = c \\implies b^c = a$.\n$x^2+4x-1 = 2^2$\n$x^2+4x-1 = 4$\n$x^2+4x-5 = 0$\nFaktorkan persamaan kuadrat:\n$(x+5)(x-1) = 0$\nJadi, $x=-5$ atau $x=1$.\nPeriksa syarat numerus logaritma ($x^2+4x-1 > 0$):\nUntuk $x=-5$: $(-5)^2+4(-5)-1 = 25-20-1 = 4 > 0$ (memenuhi).\nUntuk $x=1$: $(1)^2+4(1)-1 = 1+4-1 = 4 > 0$ (memenuhi).\nKedua nilai $x$ memenuhi."
+    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2+4x-1 = 2^2$\n$x^2+4x-1 = 4$\n$x^2+4x-5 = 0$\n$(x+5)(x-1) = 0$\n$x=-5$ atau $x=1$\nPeriksa numerus: kedua nilai memenuhi"
   },
   {
-    "id": 136,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^y\\log 3 + ^y\\log 27 = 4$, maka nilai $y$ adalah...",
     "pilihan": [
@@ -221,10 +221,10 @@
       "27"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log M + ^b\\log N = ^b\\log (MN)$.\n$^y\\log (3 \\times 27) = 4$\n$^y\\log 81 = 4$\nUbahlah ke bentuk eksponen:\n$y^4 = 81$\n$y = \\sqrt[4]{81}$\n$y = 3$ (karena basis logaritma harus positif dan tidak sama dengan 1)"
+    "pembahasan": "Gunakan sifat logaritma:\n$^y\\log (3 \\times 27) = 4$\n$^y\\log 81 = 4$\nUbahlah ke bentuk eksponen:\n$y^4 = 81$\n$y = \\sqrt[4]{81} = 3$"
   },
   {
-    "id": 137,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai dari $^3\\log 18 - ^3\\log 2 + ^3\\log 9$ adalah...",
     "pilihan": [
@@ -235,10 +235,10 @@
       "6"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log x - ^b\\log y = ^b\\log (x/y)$ dan $^b\\log x + ^b\\log y = ^b\\log (xy)$.\n$^3\\log 18 - ^3\\log 2 + ^3\\log 9 = ^3\\log (18/2) + ^3\\log 9$\n$= ^3\\log 9 + ^3\\log 9$\n$= 2 + 2$ (karena $3^2 = 9$)\n$= 4$"
+    "pembahasan": "Gunakan sifat logaritma:\n$^3\\log 18 - ^3\\log 2 + ^3\\log 9$\n$= ^3\\log (18/2) + ^3\\log 9$\n$= ^3\\log 9 + ^3\\log 9$\n$= 2 + 2 = 4$"
   },
   {
-    "id": 138,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $7^x = 4$, maka nilai dari $7^{x-2}$ adalah...",
     "pilihan": [
@@ -249,10 +249,10 @@
       "$1/4$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat eksponen $a^{m-n} = a^m / a^n$.\n$7^{x-2} = 7^x / 7^2$\nDiketahui $7^x = 4$, dan $7^2 = 49$.\n$7^{x-2} = 4 / 49$"
+    "pembahasan": "Gunakan sifat eksponen:\n$7^{x-2} = 7^x / 7^2$\nDiketahui $7^x = 4$\n$7^{x-2} = 4 / 49$"
   },
   {
-    "id": 139,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^a\\log b = 3$ dan $^a\\log c = 5$, maka $^a\\log (b^2/c)$ adalah...",
     "pilihan": [
@@ -263,10 +263,10 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat logaritma $^b\\log (M/N) = ^b\\log M - ^b\\log N$ dan $^b\\log M^k = k ^b\\log M$.\n$^a\\log (b^2/c) = ^a\\log b^2 - ^a\\log c$\n$= 2 \\cdot ^a\\log b - ^a\\log c$\nSubstitusikan nilai yang diketahui:\n$= 2(3) - 5$\n$= 6 - 5$\n$= 1$"
+    "pembahasan": "Gunakan sifat logaritma:\n$^a\\log (b^2/c) = ^a\\log b^2 - ^a\\log c$\n$= 2 \\cdot ^a\\log b - ^a\\log c$\n$= 2(3) - 5 = 6 - 5 = 1$"
   },
   {
-    "id": 140,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log 5 = k$, maka $^8\\log 25$ adalah...",
     "pilihan": [
@@ -277,6 +277,6 @@
       "$k$"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat perubahan basis logaritma: $^p\\log q = \\frac{^m\\log q}{^m\\log p}$.\n$^8\\log 25 = \\frac{^2\\log 25}{^2\\log 8}$\n$^2\\log 25 = ^2\\log 5^2 = 2 \\cdot ^2\\log 5 = 2k$\n$^2\\log 8 = 3$ (karena $2^3 = 8$)\nJadi, $^8\\log 25 = \\frac{2k}{3}$"
+    "pembahasan": "Gunakan sifat perubahan basis:\n$^8\\log 25 = \\frac{^2\\log 25}{^2\\log 8}$\n$^2\\log 25 = ^2\\log 5^2 = 2k$\n$^2\\log 8 = 3$\n$^8\\log 25 = \\frac{2k}{3}$"
   }
 ]
