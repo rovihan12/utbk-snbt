@@ -32,7 +32,7 @@
     "pertanyaan": "Diberikan $P = \\{x \\mid x \\text{ bilangan prima } < 15\\}$ dan $Q = \\{x \\mid x \\text{ bilangan genap } < 12\\}$. Maka $P \\cap Q$ adalah...",
     "pilihan": ["$\\{2\\}$", "$\\{2,3,5,7,11\\}$", "$\\{2,4,6,8,10\\}$", "$\\{\\}$", "$\\{3,5,7,11,13\\}$"],
     "jawaban": "A",
-    "pembahasan": "$P = \\{2,3,5,7,11,13\\}$, $Q = \\{2,4,6,8,10\\}$ → irisan = $\\{2\\}$."
+    "pembahasan": "$P = \\{2,3,5,7,11,13\\}$, $Q = \\{2,4,6,8,10\\}$ $\\rightarrow$ irisan = $\\{2\\}$."
   },
   {
     "id": 6,
@@ -46,97 +46,97 @@
     "pertanyaan": "Diberikan himpunan $S = \\{1,2,3,4,5,6,7,8,9,10\\}$. Jika $A$ himpunan bilangan ganjil dalam $S$ dan $B$ himpunan bilangan prima dalam $S$, maka banyak anggota dari $(A \\cap B)'$ adalah...",
     "pilihan": ["1", "2", "6", "7", "8"],
     "jawaban": "D",
-    "pembahasan": "$A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7\\}$, $A\\cap B=\\{3,5,7\\}$, komplemen: $S-(A\\cap B)=\\{1,2,4,6,8,9,10\\}$ → 7 anggota."
+    "pembahasan": "$A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7\\}$, $A\\cap B=\\{3,5,7\\}$, komplemen: $S-(A\\cap B)=\\{1,2,4,6,8,9,10\\}$ $\\rightarrow$ 7 anggota."
   },
   {
     "id": 8,
     "pertanyaan": "Jika operasi $\\oplus$ didefinisikan sebagai $a \\oplus b = a^2 - 2b$, maka nilai dari $(3 \\oplus 1) \\oplus 2$ adalah...",
     "pilihan": ["3", "5", "7", "10", "45"],
     "jawaban": "E",
-    "pembahasan": "3\\oplus1=3^2-2*1=7, 7\\oplus2=7^2-2*2=49-4=45."
+    "pembahasan": "$3\\oplus1=3^2-2\\cdot1=7$, $7\\oplus2=7^2-2\\cdot2=49-4=45$."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah operasi $\\star$ didefinisikan sebagai $a \\star b = (a+b)^2 - ab$. Nilai dari $5 \\star (2 \\star 1)$ adalah...",
     "pilihan": ["101", "105", "109", "120", "144"],
     "jawaban": "C",
-    "pembahasan": "2\\star1=(2+1)^2-2=9-2=7, 5\\star7=(5+7)^2-35=144-35=109."
+    "pembahasan": "$2\\star1=(2+1)^2-2\\cdot1=9-2=7$, $5\\star7=(5+7)^2-5\\cdot7=144-35=109$."
   },
   {
     "id": 10,
     "pertanyaan": "Diketahui $A=\\{x\\mid x^2-5x+6=0\\}$ dan $B=\\{x\\mid x \\text{ faktor dari } 12\\}$. Maka $A \\cup B$ adalah...",
     "pilihan": ["$\\{1,2,3,4,6,12\\}$", "$\\{2,3\\}$", "$\\{1,2,3,4,6\\}$", "$\\{1,2,3,4,6,12,18\\}$", "$\\{1,2,3,4,5,6,12\\}$"],
     "jawaban": "A",
-    "pembahasan": "x^2-5x+6=0 → x=2,3, A={2,3}, faktor 12={1,2,3,4,6,12}, gabungan → {1,2,3,4,6,12}."
+    "pembahasan": "$x^2-5x+6=0 \\rightarrow x=2,3$, $A=\\{2,3\\}$, faktor $12=\\{1,2,3,4,6,12\\}$, gabungan $\\rightarrow \\{1,2,3,4,6,12\\}$."
   },
   {
     "id": 11,
     "pertanyaan": "Jika $X = \\{1,2,3,4,5\\}$ dan $Y = \\{3,4,5,6,7\\}$, maka banyak anggota $(X \\cup Y) \\setminus (X \\cap Y)$ adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "X∪Y={1,2,3,4,5,6,7}, X∩Y={3,4,5}, selisih = {1,2,6,7} → banyak 4."
+    "pembahasan": "$X\\cup Y=\\{1,2,3,4,5,6,7\\}$, $X\\cap Y=\\{3,4,5\\}$, selisih = $\\{1,2,6,7\\}$ $\\rightarrow$ banyak 4."
   },
   {
     "id": 12,
     "pertanyaan": "Hasil dari $(-2)^3 + 4 \\times (-1)$ adalah...",
     "pilihan": ["-12", "-8", "-6", "-10", "-4"],
     "jawaban": "A",
-    "pembahasan": "(-2)^3=-8, 4×(-1)=-4, jumlah=-12."
+    "pembahasan": "$(-2)^3=-8$, $4\\times(-1)=-4$, jumlah $=-12$."
   },
   {
     "id": 13,
     "pertanyaan": "Jika $A = \\{2,4,6,8\\}$ dan $B = \\{1,2,3,4\\}$, maka $A \\setminus B$ adalah...",
     "pilihan": ["$\\{2,4\\}$", "$\\{6,8\\}$", "$\\{1,3\\}$", "$\\{2,4,6,8\\}$", "$\\{1,2,3,4,6,8\\}$"],
     "jawaban": "B",
-    "pembahasan": "A\\B = {anggota A yang tidak ada di B} → {6,8}."
+    "pembahasan": "$A\\setminus B = \\text{anggota } A \\text{ yang tidak ada di } B \\rightarrow \\{6,8\\}$."
   },
   {
     "id": 14,
     "pertanyaan": "Jika $a \\oplus b = 3a - 2b$, maka $(4 \\oplus 1) \\oplus 2$ adalah...",
     "pilihan": ["26", "5", "8", "10", "12"],
     "jawaban": "A",
-    "pembahasan": "4⊕1 = 3*4-2*1=10, 10⊕2=3*10-2*2=30-4=26."
+    "pembahasan": "$4\\oplus1 = 3\\cdot4-2\\cdot1=10$, $10\\oplus2=3\\cdot10-2\\cdot2=30-4=26$."
   },
   {
     "id": 15,
     "pertanyaan": "Jika $M = \\{x \\mid x \\text{ bilangan genap } < 10\\}$ dan $N = \\{x \\mid x \\text{ bilangan ganjil } < 10\\}$, maka $M \\cap N$ adalah...",
     "pilihan": ["$\\{1,3,5,7,9\\}$", "$\\{2,4,6,8\\}$", "$\\{\\}$", "$\\{1,2,3,4,5\\}$", "$\\{2,3,4,5\\}$"],
     "jawaban": "C",
-    "pembahasan": "Irisan bilangan genap & ganjil = kosong → {}."
+    "pembahasan": "Irisan bilangan genap dan ganjil adalah himpunan kosong $\\rightarrow \\{\\}$."
   },
   {
     "id": 16,
     "pertanyaan": "Jika $A = \\{1,2,3\\}$ dan $B = \\{2,3,4\\}$, maka $(A\\cup B) \\cap (A\\setminus B)$ adalah...",
     "pilihan": ["$\\{1\\}$", "$\\{2\\}$", "$\\{3\\}$", "$\\{4\\}$", "$\\{1,2,3\\}$"],
     "jawaban": "A",
-    "pembahasan": "A∪B={1,2,3,4}, A\B={1}, irisan={1}."
+    "pembahasan": "$A\\cup B=\\{1,2,3,4\\}$, $A\\setminus B=\\{1\\}$, irisan $ = \\{1\\}$."
   },
   {
     "id": 17,
     "pertanyaan": "Hasil dari $5 \\times (-3) + 2^3$ adalah...",
     "pilihan": ["-7", "-1", "1", "7", "11"],
     "jawaban": "A",
-    "pembahasan": "5×(-3)=-15, 2^3=8, jumlah=-15+8=-7."
+    "pembahasan": "$5\\times(-3)=-15$, $2^3=8$, jumlah $=-15+8=-7$."
   },
   {
     "id": 18,
     "pertanyaan": "Jika $A = \\{x\\mid x \\text{ bilangan ganjil } < 10\\}$, $B = \\{x\\mid x \\text{ bilangan prima } < 10\\}$, maka $A\\cap B$ adalah...",
     "pilihan": ["$\\{1,3,5,7,9\\}$", "$\\{3,5,7\\}$", "$\\{2,3,5,7\\}$", "$\\{2,3,5\\}$", "$\\{1,2,3,4,5,7\\}$"],
     "jawaban": "B",
-    "pembahasan": "Ganjil<10={1,3,5,7,9}, prima<10={2,3,5,7}, irisan={3,5,7}."
+    "pembahasan": "Ganjil$<10=\\{1,3,5,7,9\\}$, prima$<10=\\{2,3,5,7\\}$, irisan $=\\{3,5,7\\}$."
   },
   {
     "id": 19,
     "pertanyaan": "Jika $X = \\{1,2,3,4\\}$, $Y = \\{3,4,5,6\\}$, $Z = \\{4,5,6,7\\}$, maka $(X\\cup Y)\\cap Z$ adalah...",
     "pilihan": ["$\\{4,5,6\\}$", "$\\{3,4\\}$", "$\\{4\\}$", "$\\{1,2,3\\}$", "$\\{1,2,3,4\\}$"],
     "jawaban": "A",
-    "pembahasan": "X∪Y={1,2,3,4,5,6}, irisan dengan Z={4,5,6,7} → {4,5,6}."
+    "pembahasan": "$X\\cup Y=\\{1,2,3,4,5,6\\}$, irisan dengan $Z=\\{4,5,6,7\\}$ $\\rightarrow \\{4,5,6\\}$."
   },
   {
     "id": 20,
     "pertanyaan": "Jika $A = \\{x\\mid x \\text{ bilangan bulat } 1\\le x\\le 5\\}$ dan $B = \\{x\\mid x \\text{ bilangan bulat } 3\\le x\\le 7\\}$, maka $A\\setminus B$ adalah...",
     "pilihan": ["$\\{1,2\\}$", "$\\{3,4,5\\}$", "$\\{5\\}$", "$\\{6,7\\}$", "$\\{1,2,3,4,5\\}$"],
     "jawaban": "A",
-    "pembahasan": "A\B = {anggota A yang tidak ada di B} → {1,2}."
+    "pembahasan": "$A\\setminus B = \\text{anggota } A \\text{ yang tidak ada di } B \\rightarrow \\{1,2\\}$."
   }
 ]
