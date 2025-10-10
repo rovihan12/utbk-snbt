@@ -1,6 +1,6 @@
 [
   {
-    "id": 31,
+    "id": 1,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/3.jpg",
     "pertanyaan": "Pada gambar berikut, $ABCDEF$ adalah segi enam beraturan dengan $P$ di tengah $AB$ serta $Q$ dan $R$ berturut-turut adalah titik potong $PD$ dan $PE$ terhadap diagonal $CE$. Berapakah perbandingan luas segitiga $PFR$ dan luas trapesium $EDQR$?",
     "pilihan": [
@@ -15,7 +15,7 @@
     "pembahasan": "Misalkan $x$ adalah panjang sisi segi enam, titik $O$ adalah titik tengah segi enam, dan titik $S$ adalah titik tengah $ED$.\n\n$\\triangle AOB$ adalah segitiga sama sisi. Karena $P$ berada di tengah $AB$, kita peroleh bahwa $PB = \\frac{1}{2}x$ dan $BO = x$. Dengan menggunakan rumus Pythagoras untuk $\\triangle PBO$ (dengan $PO$ sebagai tinggi $\\triangle AOB$):\n$PO = \\sqrt{BO^2 - PB^2} = \\sqrt{x^2 - (\\frac{1}{2}x)^2} = \\sqrt{x^2 - \\frac{1}{4}x^2} = \\sqrt{\\frac{3}{4}x^2} = \\frac{1}{2}x\\sqrt{3}$.\n\nKarena segi enam ini beraturan, maka panjang $PO$ ini juga merupakan tinggi dari trapesium yang dibentuk oleh diagonal dan titik tengah sisi, serta tinggi dari segitiga-segitiga seperti $\\triangle PED$. Panjang $FC = 2x$. Diagonal $CE$ juga panjangnya $2x$.\n\nPerhatikan bahwa titik $Q$ dan $R$ adalah titik potong $PD$ dan $PE$ terhadap diagonal $CE$. Diagonal $CE$ juga sejajar dengan $AB$. Segitiga $\\triangle PRQ$ dan $\\triangle PED$ adalah segitiga sebangun. Tinggi dari $\\triangle PRQ$ adalah $PO = \\frac{1}{2}x\\sqrt{3}$. Tinggi dari $\\triangle PED$ adalah $x\\sqrt{3}$. Perbandingan tingginya adalah $1:2$. Maka, panjang $RQ = \\frac{1}{2} ED = \\frac{1}{2}x$.\n\nPanjang $FR = QC = \\frac{FC - RQ}{2} = \\frac{2x - \\frac{1}{2}x}{2} = \\frac{\\frac{3}{2}x}{2} = \\frac{3}{4}x$.\n\nLuas $\\triangle PFR$ sekarang dapat dicari:\n$L_{\\triangle PFR} = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2}(FR)(PO) = \\frac{1}{2}(\\frac{3}{4}x)(\\frac{1}{2}x\\sqrt{3}) = \\frac{3}{16}x^2\\sqrt{3}$.\n\nLuas trapesium $EDQR$ juga dapat dicari. Tinggi trapesium $EDQR$ adalah proyeksi tegak lurus dari $Q$ ke $ED$, yang sama dengan $OS = \\frac{1}{2}x\\sqrt{3}$.\n$L_{EDQR} = \\frac{\\text{alas atas} + \\text{alas bawah}}{2} \\times \\text{tinggi} = \\frac{RQ + ED}{2} \\times OS$\n$L_{EDQR} = \\frac{\\frac{1}{2}x + x}{2} \\times \\frac{1}{2}x\\sqrt{3} = \\frac{\\frac{3}{2}x}{2} \\times \\frac{1}{2}x\\sqrt{3} = \\frac{3}{4}x \\times \\frac{1}{2}x\\sqrt{3} = \\frac{3}{8}x^2\\sqrt{3}$.\n\nDengan demikian, perbandingan luas keduanya dinyatakan sebagai berikut:\n$\\frac{L_{\\triangle PFR}}{L_{EDQR}} = \\frac{\\frac{3}{16}x^2\\sqrt{3}}{\\frac{3}{8}x^2\\sqrt{3}} = \\frac{3}{16} : \\frac{3}{8} = \\frac{3}{16} \\times \\frac{8}{3} = \\frac{1}{2}$.\nJadi, perbandingan luas segitiga $PFR$ dan luas trapesium $EDQR$ adalah $\\frac{1}{2}$."
   },
   {
-    "id": 32,
+    "id": 2,
     "pertanyaan": "Sebuah jalan setapak melingkar dengan lebar 2 meter mengelilingi sebuah taman berbentuk lingkaran. Jika luas taman adalah $100\\pi$ m$^2$, maka luas jalan setapak tersebut adalah...",
     "pilihan": [
       "$44\\pi$ m$^2$",
@@ -28,7 +28,7 @@
     "pembahasan": "Luas taman berbentuk lingkaran $A_{\\text{taman}} = \\pi r_{\\text{taman}}^2 = 100\\pi$ m$^2$.\nDari sini, $r_{\\text{taman}}^2 = 100$, sehingga jari-jari taman $r_{\\text{taman}} = 10$ meter.\n\nJalan setapak selebar 2 meter mengelilingi taman, jadi jari-jari total (taman + jalan setapak) adalah:\n$r_{\\text{total}} = r_{\\text{taman}} + 2 = 10 + 2 = 12$ meter.\n\nLuas total (taman + jalan setapak) $A_{\\text{total}} = \\pi r_{\\text{total}}^2 = \\pi (12)^2 = 144\\pi$ m$^2$.\n\nLuas jalan setapak $A_{\\text{jalan}} = A_{\\text{total}} - A_{\\text{taman}} = 144\\pi - 100\\pi = 44\\pi$ m$^2$."
   },
   {
-    "id": 33,
+    "id": 3,
     "pertanyaan": "Sebuah segitiga $ABC$ memiliki titik-titik sudut $A(1,2)$, $B(7,2)$, dan $C(4,5)$. Keliling segitiga $ABC$ adalah...",
     "pilihan": [
       "$6 + 3\\sqrt{2} + 5$",
@@ -41,7 +41,7 @@
     "pembahasan": "Untuk mencari keliling segitiga, kita perlu menghitung panjang setiap sisinya menggunakan rumus jarak antara dua titik $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$.\n\n1.  **Panjang sisi $AB$:** Titik $A(1,2)$ dan $B(7,2)$.\n    $AB = \\sqrt{(7-1)^2 + (2-2)^2} = \\sqrt{6^2 + 0^2} = \\sqrt{36} = 6$ satuan.\n\n2.  **Panjang sisi $BC$:** Titik $B(7,2)$ dan $C(4,5)$.\n    $BC = \\sqrt{(4-7)^2 + (5-2)^2} = \\sqrt{(-3)^2 + 3^2} = \\sqrt{9 + 9} = \\sqrt{18} = 3\\sqrt{2}$ satuan.\n\n3.  **Panjang sisi $AC$:** Titik $A(1,2)$ dan $C(4,5)$.\n    $AC = \\sqrt{(4-1)^2 + (5-2)^2} = \\sqrt{3^2 + 3^2} = \\sqrt{9 + 9} = \\sqrt{18} = 3\\sqrt{2}$ satuan.\n\nKeliling segitiga $ABC$ adalah jumlah panjang ketiga sisinya:\nKeliling $= AB + BC + AC = 6 + 3\\sqrt{2} + 3\\sqrt{2} = 6 + 6\\sqrt{2}$ satuan."
   },
   {
-    "id": 34,
+    "id": 4,
     "pertanyaan": "Sebuah jajargenjang memiliki dua sisi yang berdekatan sepanjang 8 cm dan 10 cm. Salah satu sudut internalnya adalah $120^\\circ$. Luas jajargenjang tersebut adalah...",
     "pilihan": [
       "$40\\sqrt{3}$ cm$^2$",
@@ -54,7 +54,7 @@
     "pembahasan": "Luas jajargenjang dapat dihitung dengan rumus $A = ab \\sin \\theta$, di mana $a$ dan $b$ adalah panjang dua sisi yang berdekatan, dan $\\theta$ adalah sudut di antara kedua sisi tersebut.\n\nDiketahui $a=8$ cm, $b=10$ cm, dan salah satu sudut internalnya adalah $120^\\circ$. Sudut yang digunakan dalam rumus ini bisa sudut $120^\\circ$ atau sudut komplementernya ($180^\\circ - 120^\\circ = 60^\\circ$), karena $\\sin(120^\\circ) = \\sin(60^\\circ)$.\n\nNilai $\\sin(120^\\circ) = \\sin(180^\\circ - 60^\\circ) = \\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}$.\n\nLuas $A = 8 \\text{ cm} \\times 10 \\text{ cm} \\times \\sin(120^\\circ)$\n$A = 80 \\times \\frac{\\sqrt{3}}{2} = 40\\sqrt{3}$ cm$^2$."
   },
   {
-    "id": 35,
+    "id": 5,
     "pertanyaan": "Sebuah lingkaran dengan pusat $O(0,0)$ dan jari-jari $r$ dilewati oleh titik $P(3,4)$. Persamaan lingkaran tersebut adalah...",
     "pilihan": [
       "$x^2 + y^2 = 5$",
@@ -67,7 +67,7 @@
     "pembahasan": "Persamaan umum lingkaran dengan pusat $O(0,0)$ adalah $x^2 + y^2 = r^2$.\n\nKarena titik $P(3,4)$ dilewati oleh lingkaran, maka jarak dari pusat $O(0,0)$ ke titik $P(3,4)$ adalah jari-jari lingkaran ($r$). Kita bisa menggunakan rumus jarak antara dua titik:\n$r = \\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$ satuan.\n\nJadi, jari-jari lingkaran adalah $r=5$. Maka $r^2 = 5^2 = 25$.\n\nPersamaan lingkaran adalah $x^2 + y^2 = 25$."
   },
   {
-    "id": 36,
+    "id": 6,
     "pertanyaan": "Tiga buah lingkaran dengan jari-jari yang sama, yaitu 3 cm, saling bersinggungan di luar. Luas daerah yang diapit oleh ketiga lingkaran tersebut adalah...",
     "pilihan": [
       "$(9\\sqrt{3} - 4.5\\pi)$ cm$^2$",
@@ -80,7 +80,7 @@
     "pembahasan": "Jika tiga lingkaran dengan jari-jari yang sama saling bersinggungan di luar, maka pusat-pusat ketiga lingkaran tersebut akan membentuk sebuah segitiga sama sisi. Panjang sisi segitiga sama sisi ini adalah dua kali jari-jari lingkaran, yaitu $2r = 2 \\times 3 = 6$ cm.\n\n1.  **Luas Segitiga Sama Sisi:**\n    Luas segitiga sama sisi dengan sisi $s=6$ cm adalah $A_{\\text{segitiga}} = \\frac{s^2 \\sqrt{3}}{4}$.\n    $A_{\\text{segitiga}} = \\frac{6^2 \\sqrt{3}}{4} = \\frac{36\\sqrt{3}}{4} = 9\\sqrt{3}$ cm$^2$.\n\n2.  **Luas Tiga Juring Lingkaran:**\n    Setiap sudut pada segitiga sama sisi adalah $60^\\circ$. Setiap juring lingkaran yang berada di dalam segitiga tersebut (berpusat di sudut segitiga) memiliki sudut pusat $60^\\circ$. Ada tiga juring seperti itu.\n    Luas satu juring = $\\frac{\\text{sudut pusat}}{360^\\circ} \\pi r^2 = \\frac{60}{360} \\pi (3)^2 = \\frac{1}{6} \\times 9\\pi = \\frac{3}{2}\\pi = 1.5\\pi$ cm$^2$.\n    Luas tiga juring = $3 \\times 1.5\\pi = 4.5\\pi$ cm$^2$.\n\n3.  **Luas Daerah yang Diapit:**\n    Luas daerah yang diapit adalah luas segitiga sama sisi dikurangi luas tiga juring lingkaran tersebut.\n    Luas daerah yang diapit $= A_{\\text{segitiga}} - A_{\\text{tiga juring}} = (9\\sqrt{3} - 4.5\\pi)$ cm$^2$."
   },
   {
-    "id": 37,
+    "id": 7,
     "pertanyaan": "Sebuah kerucut memiliki tinggi 12 cm dan garis pelukis 13 cm. Volume kerucut tersebut adalah... (gunakan $\\pi = 22/7$)",
     "pilihan": [
       "$154$ cm$^3$",
@@ -93,7 +93,7 @@
     "pembahasan": "Tinggi kerucut $t=12$ cm dan garis pelukis $s=13$ cm.\nUntuk menghitung volume kerucut, kita perlu mencari jari-jari alas ($r$). Hubungan antara $r, t, s$ dalam kerucut adalah teorema Pythagoras:\n$r^2 + t^2 = s^2$\n$r^2 + 12^2 = 13^2$\n$r^2 + 144 = 169$\n$r^2 = 169 - 144 = 25$\n$r = \\sqrt{25} = 5$ cm.\n\nVolume kerucut $V = \\frac{1}{3} \\pi r^2 t$.\nDengan menggunakan $\\pi = 22/7$:\n$V = \\frac{1}{3} \\times \\frac{22}{7} \\times (5)^2 \\times 12$\n$V = \\frac{1}{3} \\times \\frac{22}{7} \\times 25 \\times 12$\nKita bisa menyederhanakan $12$ dengan $3$: $12/3 = 4$.\n$V = \\frac{22}{7} \\times 25 \\times 4$\n$V = \\frac{22}{7} \\times 100 = \\frac{2200}{7}$ cm$^3$.\n\nUntuk menyajikan dalam bentuk desimal atau pecahan campuran:\n$V = 314 \\frac{2}{7}$ cm$^3$.\n\n**Catatan:** Pilihan jawaban telah diubah agar sesuai dengan perhitungan yang akurat menggunakan $\\pi = 22/7$."
   },
   {
-    "id": 38,
+    "id": 8,
     "pertanyaan": "Sebuah limas segitiga beraturan memiliki semua rusuk yang sama panjang, yaitu 6 cm. Luas permukaan limas tersebut adalah...",
     "pilihan": [
       "$9\\sqrt{3}$ cm$^2$",
@@ -106,7 +106,7 @@
     "pembahasan": "Limas segitiga beraturan yang semua rusuknya sama panjang disebut juga **tetrahedron**. Ini berarti alasnya adalah segitiga sama sisi dan ketiga sisi tegaknya juga segitiga sama sisi. Jadi, tetrahedron terdiri dari 4 segitiga sama sisi yang identik.\n\nPanjang rusuk ($s$) = 6 cm.\n\nLuas permukaan tetrahedron adalah 4 kali luas satu segitiga sama sisi.\nLuas satu segitiga sama sisi dengan sisi $s=6$ cm adalah $A_{\\text{segitiga}} = \\frac{s^2 \\sqrt{3}}{4}$.\n$A_{\\text{segitiga}} = \\frac{6^2 \\sqrt{3}}{4} = \\frac{36\\sqrt{3}}{4} = 9\\sqrt{3}$ cm$^2$.\n\nLuas permukaan total = $4 \\times A_{\\text{segitiga}} = 4 \\times 9\\sqrt{3} = 36\\sqrt{3}$ cm$^2$."
   },
   {
-    "id": 39,
+    "id": 9,
     "pertanyaan": "Sebuah persegi panjang memiliki diagonal sepanjang 15 cm. Jika panjang salah satu sisinya adalah 9 cm, maka keliling persegi panjang tersebut adalah...",
     "pilihan": [
       "24 cm",
@@ -119,7 +119,7 @@
     "pembahasan": "Misalkan panjang persegi panjang adalah $P$ dan lebarnya $L$. Diagonal ($D$) persegi panjang membentuk segitiga siku-siku dengan panjang dan lebar sebagai sisi-sisinya. Kita bisa menggunakan teorema Pythagoras:\n$P^2 + L^2 = D^2$.\n\nDiketahui $D=15$ cm dan salah satu sisi (misalkan $P$) = 9 cm.\n$9^2 + L^2 = 15^2$\n$81 + L^2 = 225$\n$L^2 = 225 - 81 = 144$\n$L = \\sqrt{144} = 12$ cm.\n\nJadi, dimensi persegi panjang tersebut adalah 9 cm dan 12 cm.\n\nKeliling persegi panjang $K = 2(P + L)$.\n$K = 2(9 + 12) = 2(21) = 42$ cm."
   },
   {
-    "id": 40,
+    "id": 10,
     "pertanyaan": "Dua buah lingkaran dengan pusat yang sama (konsentris) memiliki jari-jari 5 cm dan 13 cm. Luas daerah di antara kedua lingkaran tersebut adalah...",
     "pilihan": [
       "$64\\pi$ cm$^2$",
