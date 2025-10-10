@@ -32,7 +32,7 @@
     "pertanyaan": "Jika \\(A=\\{2,4,6,8\\}\\) dan \\(B=\\{1,2,3,4\\}\\), maka \\(A\\setminus B\\) adalah...",
     "pilihan": ["\\{2,4\\}", "\\{6,8\\}", "\\{1,3\\}", "\\{1,2,3,4,6,8\\}", "\\{2,4,6,8\\}"],
     "jawaban": "B",
-    "pembahasan": "Selisih himpunan A\B berisi anggota A yang tidak ada di B, yaitu \\{6,8\\}."
+    "pembahasan": "Selisih himpunan A\\B berisi anggota A yang tidak ada di B, yaitu \\{6,8\\}."
   },
   {
     "id": 6,
@@ -53,7 +53,7 @@
     "pertanyaan": "Suku ke-7 dari barisan geometri bilangan bulat \\(3,6,12,...\\) adalah...",
     "pilihan": ["96","128","192","384","768"],
     "jawaban": "C",
-    "pembahasan": "Rasio r=6/3=2, suku ke-7 a_7=3*2^{6}=3*64=192."
+    "pembahasan": "Rasio r=6/3=2, suku ke-7 a_7=3*2^6=192."
   },
   {
     "id": 9,
@@ -63,7 +63,7 @@
     "pembahasan": "Jumlah bilangan=⌊1000/7⌋=142."
   },
   {
-    "id": 20,
+    "id": 10,
     "pertanyaan": "Nilai dari \\(\\sum_{k=1}^{10} k\\) adalah...",
     "pilihan": ["45","50","55","60","65"],
     "jawaban": "C",
@@ -81,7 +81,7 @@
     "pertanyaan": "Jika \\(A=\\{1,2,3,4,5\\}\\) dan \\(B=\\{4,5,6,7\\}\\), maka \\(A\\setminus B\\) adalah...",
     "pilihan": ["\\{1,2,3\\}","\\{4,5\\}","\\{6,7\\}","\\{1,2,3,4,5\\}","\\{1,2\\}"],
     "jawaban": "A",
-    "pembahasan": "A\B berisi anggota A yang tidak ada di B = \\{1,2,3\\}."
+    "pembahasan": "A\\B berisi anggota A yang tidak ada di B = \\{1,2,3\\}."
   },
   {
     "id": 13,
@@ -93,16 +93,16 @@
   {
     "id": 14,
     "pertanyaan": "Jika \\(a\\oplus b = a+b+ab\\), maka \\((1\\oplus2)\\oplus3\\) adalah...",
-    "pilihan": ["11","12","13","14","15"],
+    "pilihan": ["23","12","13","14","15"],
     "jawaban": "A",
-    "pembahasan": "1⊕2 = 1+2+1*2=5, 5⊕3 = 5+3+5*3=23 (periksa: hitungan salah, kita koreksi menjadi 23, jadi pilihan harus diperbarui)."
+    "pembahasan": "1⊕2 = 1+2+1*2=5, 5⊕3 = 5+3+5*3=23."
   },
   {
     "id": 15,
     "pertanyaan": "Jika \\(S=\\{1,2,3,4,5,6\\}\\), berapa banyak himpunan bagian dari S yang mengandung tepat 3 elemen?",
     "pilihan": ["10","15","20","30","25"],
-    "jawaban": "B",
-    "pembahasan": "Banyak himpunan bagian ukuran 3 = C(6,3)=6*5*4/3*2*1=20 → periksa, harus 20, jadi pilih C."
+    "jawaban": "C",
+    "pembahasan": "Banyak himpunan bagian ukuran 3 = C(6,3)=6*5*4/3*2*1=20."
   },
   {
     "id": 16,
@@ -114,9 +114,9 @@
   {
     "id": 17,
     "pertanyaan": "Jika \\(A=\\{1,2,3\\}, B=\\{2,3,4\\}, C=\\{3,4,5\\}\\), maka \\((A\\cup B)\\cap C\\) adalah...",
-    "pilihan": ["\\{1,2,3,4\\}","\\{2,3,4\\}","\\{3\\}","\\{1,2,3\\}","\\{4,5\\}"],
+    "pilihan": ["\\{1,2,3,4\\}","\\{3,4\\}","\\{3\\}","\\{1,2,3\\}","\\{4,5\\}"],
     "jawaban": "B",
-    "pembahasan": "A∪B={1,2,3,4}, irisan dengan C={3,4,5} → {2,3,4}? periksa, A∪B∩C={3,4} → jawaban B diperbaiki."
+    "pembahasan": "A∪B={1,2,3,4}, irisan dengan C={3,4,5} → {3,4}."
   },
   {
     "id": 18,
@@ -130,13 +130,13 @@
     "pertanyaan": "Jika \\(A=\\{x|1\\le x\\le10, x\\in\\mathbb{Z}\\}\\), berapa banyak himpunan bagian dari A yang tidak mengandung dua bilangan berurutan?",
     "pilihan": ["55","89","144","233","377"],
     "jawaban": "C",
-    "pembahasan": "Masalah klasik, banyaknya himpunan bagian tanpa dua elemen berurutan = Fibonacci ke-(n+2)=F_{12}=144."
+    "pembahasan": "Banyaknya himpunan bagian tanpa dua elemen berurutan = Fibonacci ke-(n+2)=F_{12}=144."
   },
   {
     "id": 20,
     "pertanyaan": "Jika \\(A=\\{1,2,3,4,5\\}\\) dan \\(B=\\{2,4\\}\\), maka \\(A\\setminus B\\) adalah...",
     "pilihan": ["\\{2,4\\}","\\{1,3,5\\}","\\{1,2,3,4,5\\}","\\{\\}","\\{1,2,3\\}"],
     "jawaban": "B",
-    "pembahasan": "Selisih himpunan A\B = anggota A yang tidak ada di B = {1,3,5}."
+    "pembahasan": "Selisih himpunan A\\B = anggota A yang tidak ada di B = {1,3,5}."
   }
 ]
