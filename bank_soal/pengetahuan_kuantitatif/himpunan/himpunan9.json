@@ -1,65 +1,142 @@
 [
   {
-    "id": 161,
-    "pertanyaan": "Diketahui \\( A = \\{x \\mid 1 \\leq x \\leq 10, x \\in \\mathbb{N} \\} \\) dan \\( B = \\{x \\mid x \\) bilangan prima, \\( x < 10\\} \\). Tentukan \\( A \\cap B \\).",
+    "id": 1,
+    "pertanyaan": "Diketahui \\( A = \\{x \\mid 1 \\le x \\le 10, x \\in \\mathbb{N} \\} \\) dan \\( B = \\{x \\mid x \\text{ bilangan prima}, x < 10\\} \\). Tentukan \\( A \\cap B \\).",
     "pilihan": ["{2, 3, 5, 7}", "{1, 2, 3, 5, 7}", "{2, 4, 6, 8}", "{3, 5, 7}", "{2, 3, 5, 7, 9}"],
     "jawaban": "A",
     "pembahasan": "Himpunan A berisi bilangan bulat dari 1 sampai 10. Himpunan B berisi bilangan prima kurang dari 10: {2, 3, 5, 7}. Irisan keduanya adalah {2, 3, 5, 7}."
   },
   {
-    "id": 162,
-    "pertanyaan": "Jika \\( P = \\{x \\mid x \\) kelipatan 3, \\( x \\leq 30\\} \\) dan \\( Q = \\{x \\mid x \\) kelipatan 5, \\( x \\leq 30\\} \\), tentukan \\( P \\cup Q \\).",
-    "pilihan": ["{3, 5, 6, 9, 10, ..., 30}", "{3, 6, 9, ..., 30}", "{5, 10, 15, ..., 30}", "{15, 30}", "{semua bilangan ≤ 30}"],
+    "id": 2,
+    "pertanyaan": "Jika \\( P = \\{x \\mid x \\text{ kelipatan 3}, x \\le 30\\} \\) dan \\( Q = \\{x \\mid x \\text{ kelipatan 5}, x \\le 30\\} \\), tentukan \\( P \\cup Q \\).",
+    "pilihan": ["{3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24, 25, 27, 30}", "{3, 6, 9, ..., 30}", "{5, 10, 15, ..., 30}", "{15, 30}", "{semua bilangan ≤ 30}"],
     "jawaban": "A",
-    "pembahasan": "P = {3, 6, 9, 12, 15, 18, 21, 24, 27, 30} dan Q = {5, 10, 15, 20, 25, 30}. Gabungan keduanya adalah {3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24, 25, 27, 30}."
+    "pembahasan": "P = {3,6,9,12,15,18,21,24,27,30}, Q = {5,10,15,20,25,30}. Gabungan keduanya adalah {3,5,6,9,10,12,15,18,20,21,24,25,27,30}."
   },
   {
-    "id": 163,
-    "pertanyaan": "Diketahui \\( U = \\{1, 2, 3, ..., 20\\} \\), \\( A = \\{2, 4, 6, ..., 20\\} \\), dan \\( B = \\{5, 10, 15, 20\\} \\). Tentukan \\( A - B \\).",
+    "id": 3,
+    "pertanyaan": "Diketahui \\( U = \\{1,2,...,20\\} \\), \\( A = \\{2,4,6,...,20\\} \\), dan \\( B = \\{5,10,15,20\\} \\). Tentukan \\( A - B \\).",
     "pilihan": ["{2, 4, 6, 8, 12, 14, 16, 18}", "{2, 4, 6, 8, 10, 12, 14, 16, 18}", "{4, 8, 12, 16}", "{2, 6, 12, 18}", "{4, 6, 8, 10}"],
     "jawaban": "A",
     "pembahasan": "A berisi bilangan genap ≤ 20. Elemen B dihapus dari A: {2, 4, 6, 8, 12, 14, 16, 18}."
   },
   {
-    "id": 164,
-    "pertanyaan": "Himpunan semesta \\( U = \\{1, 2, 3, ..., 12\\} \\). Jika \\( A = \\{3, 6, 9, 12\\} \\), tentukan komplemen dari A.",
+    "id": 4,
+    "pertanyaan": "Himpunan semesta \\( U = \\{1,2,...,12\\} \\). Jika \\( A = \\{3,6,9,12\\} \\), tentukan komplemen dari A.",
     "pilihan": ["{1, 2, 4, 5, 7, 8, 10, 11}", "{1, 2, 4, 5, 7, 8, 10}", "{2, 4, 5, 7, 8, 10}", "{1, 2, 4, 5, 7, 8}", "{1, 2, 5, 7, 8, 10, 11}"],
     "jawaban": "A",
-    "pembahasan": "Komplemen A adalah semua elemen di U yang tidak ada di A, yaitu {1, 2, 4, 5, 7, 8, 10, 11}."
+    "pembahasan": "Komplemen A adalah semua elemen di U yang tidak ada di A: {1,2,4,5,7,8,10,11}."
   },
   {
-    "id": 165,
-    "pertanyaan": "Jika \\( (A \\cup B) = \\{1, 2, 3, 4, 5, 6\\} \\) dan \\( A \\cap B = \\{3, 4\\} \\), diketahui \\( A = \\{1, 3, 4, 5\\} \\), tentukan himpunan B.",
-    "pilihan": ["{2, 3, 4, 6}", "{3, 4, 5, 6}", "{2, 4, 6}", "{2, 3, 4}", "{1, 3, 4, 6}"],
+    "id": 5,
+    "pertanyaan": "Jika \\( A \\cup B = \\{1,2,3,4,5,6\\} \\) dan \\( A \\cap B = \\{3,4\\} \\), diketahui \\( A = \\{1,3,4,5\\} \\). Tentukan himpunan B.",
+    "pilihan": ["{2,3,4,6}", "{3,4,5,6}", "{2,4,6}", "{2,3,4}", "{1,3,4,6}"],
     "jawaban": "A",
-    "pembahasan": "Gabungan A dan B adalah {1, 2, 3, 4, 5, 6}. Agar irisan A dan B adalah {3, 4}, B harus {2, 3, 4, 6}."
+    "pembahasan": "Gabungan A dan B adalah {1,2,3,4,5,6}. Agar irisan A dan B adalah {3,4}, maka B = {2,3,4,6}."
   },
   {
-    "id": 166,
-    "pertanyaan": "Bentuk sederhana dari \\( \\frac{3}{4} + \\frac{5}{6} \\) adalah...",
-    "pilihan": ["\\( \\frac{19}{12} \\)", "\\( \\frac{13}{12} \\)", "\\( \\frac{23}{12} \\)", "\\( \\frac{17}{12} \\)", "\\( \\frac{15}{12} \\)"],
-    "jawaban": "B",
-    "pembahasan": "Samakan penyebut: \\( \\frac{3}{4} + \\frac{5}{6} = \\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12} \\) → oh, ternyata benar \\( \\frac{19}{12} \\), jadi pilihan A benar."
-  },
-  {
-    "id": 167,
-    "pertanyaan": "Hasil dari \\( 3^{-2} + 2^{-3} \\) adalah...",
-    "pilihan": ["\\( \\frac{1}{9} + \\frac{1}{8} \\)", "\\( \\frac{17}{72} \\)", "\\( \\frac{19}{72} \\)", "\\( \\frac{25}{72} \\)", "\\( \\frac{13}{72} \\)"],
-    "jawaban": "B",
-    "pembahasan": "\\( 3^{-2} = \\frac{1}{9}, 2^{-3} = \\frac{1}{8} \\), jumlahnya \\( \\frac{8}{72} + \\frac{9}{72} = \\frac{17}{72} \\)."
-  },
-  {
-    "id": 168,
-    "pertanyaan": "Jika \\( a = 2, b = -3 \\), tentukan nilai \\( a^3 - b^2 \\).",
-    "pilihan": ["-1", "1", "5", "8", "1"],
-    "jawaban": "C",
-    "pembahasan": "Substitusi: \\( 2^3 - (-3)^2 = 8 - 9 = -1 \\), ternyata jawabannya -1, jadi harusnya pilihan A benar."
-  },
-  {
-    "id": 169,
-    "pertanyaan": "Bentuk paling sederhana dari \\( \\frac{5}{x} + \\frac{2}{x} \\) adalah...",
-    "pilihan": ["\\( \\frac{7}{x} \\)", "\\( \\frac{3}{x} \\)", "\\( \\frac{x}{7} \\)", "\\( \\frac{7x}{x^2} \\)", "\\( 7x \\)"],
+    "id": 6,
+    "pertanyaan": "Jika \\( A = \\{1,2,3\\} \\) dan \\( B = \\{2,3,4\\} \\), tentukan \\( (A \\cup B) - (A \\cap B) \\).",
+    "pilihan": ["{1,4}", "{2,3}", "{1,2,3,4}", "{1,3,4}", "{2,4}"],
     "jawaban": "A",
-    "pembahasan": "Penyebut sama, jumlah pembilang: \\( \\frac{5}{x} + \\frac{2}{x} = \\frac{7}{x} \\)."
+    "pembahasan": "A ∪ B = {1,2,3,4}, A ∩ B = {2,3}. Selisihnya: {1,4}."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Diketahui \\( X = \\{1,3,5,7\\} \\) dan \\( Y = \\{2,3,6,7\\} \\). Tentukan \\( X \\cap Y \\).",
+    "pilihan": ["{3,7}", "{1,5}", "{2,6}", "{1,3,5,7}", "{2,3,6,7}"],
+    "jawaban": "A",
+    "pembahasan": "Irisan X dan Y adalah elemen yang sama-sama ada: {3,7}."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Jika \\( A = \\{2,4,6,8\\} \\), tentukan jumlah elemen himpunan bagian A yang berisi tepat 2 elemen.",
+    "pilihan": ["6", "4", "8", "10", "12"],
+    "jawaban": "A",
+    "pembahasan": "Jumlah himpunan bagian yang memiliki 2 elemen dari himpunan 4 elemen: C(4,2)=6."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Himpunan \\( A = \\{1,2,3,4\\} \\). Tentukan banyak himpunan bagian dari A yang berisi angka ganjil.",
+    "pilihan": ["8", "12", "6", "10", "16"],
+    "jawaban": "A",
+    "pembahasan": "Himpunan ganjil: {1,3}. Setiap himpunan bagian bisa dikombinasi dengan {2,4} atau tidak. Total 8 himpunan bagian."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Jika \\( A = \\{1,2,3,4,5\\} \\) dan \\( B = \\{4,5,6\\} \\), tentukan \\( (A - B) \\cup (B - A) \\).",
+    "pilihan": ["{1,2,3,6}", "{1,2,3,4,5,6}", "{4,5}", "{6}", "{1,2,3}"],
+    "jawaban": "A",
+    "pembahasan": "A-B = {1,2,3}, B-A = {6}. Gabungan = {1,2,3,6}."
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Himpunan \\( A = \\{x \\mid x \\text{ bilangan genap } \\le 10\\} \\) dan \\( B = \\{2,4,6\\} \\). Tentukan \\( A \\cap B \\).",
+    "pilihan": ["{2,4,6}", "{2,4,6,8,10}", "{4,6,8}", "{2,6,10}", "{2,4}"],
+    "jawaban": "A",
+    "pembahasan": "Irisan elemen yang sama: {2,4,6}."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Diketahui \\( A = \\{1,3,5,7\\} \\) dan \\( B = \\{2,4,6,8\\} \\). Tentukan \\( A \\cup B \\).",
+    "pilihan": ["{1,2,3,4,5,6,7,8}", "{1,3,5,7}", "{2,4,6,8}", "{1,2,3,5,7}", "{1,2,3,4,5}"],
+    "jawaban": "A",
+    "pembahasan": "Gabungan semua elemen: {1,2,3,4,5,6,7,8}."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Himpunan semesta \\( U = \\{1,2,...,9\\} \\), A = {2,4,6,8}. Tentukan komplemen A.",
+    "pilihan": ["{1,3,5,7,9}", "{2,4,6,8}", "{1,2,3,4}", "{5,6,7,8}", "{1,3,5,7}"],
+    "jawaban": "A",
+    "pembahasan": "Elemen di U tapi tidak di A: {1,3,5,7,9}."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Jika A = {1,2,3}, B = {3,4,5}, tentukan (A ∪ B) ∩ A.",
+    "pilihan": ["{1,2,3}", "{3}", "{4,5}", "{1,2}", "{1,2,4,5}"],
+    "jawaban": "A",
+    "pembahasan": "A ∪ B = {1,2,3,4,5}, irisan dengan A = {1,2,3}."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Himpunan A = {1,2,3,4}, B = {3,4,5,6}. Tentukan A Δ B (selisih simetris).",
+    "pilihan": ["{1,2,5,6}", "{3,4}", "{1,2,3,4,5,6}", "{1,2,3,5}", "{2,4,5,6}"],
+    "jawaban": "A",
+    "pembahasan": "Selisih simetris A Δ B = (A-B) ∪ (B-A) = {1,2,5,6}."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Jika A = {1,2,3}, banyak himpunan bagian A yang memiliki paling sedikit 2 elemen adalah...",
+    "pilihan": ["4", "3", "2", "1", "5"],
+    "jawaban": "A",
+    "pembahasan": "Himpunan bagian: {1,2},{1,3},{2,3},{1,2,3}, total 4."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Himpunan A = {1,2,3,4}, tentukan banyak himpunan bagian yang memiliki 3 elemen.",
+    "pilihan": ["4", "3", "6", "8", "2"],
+    "jawaban": "A",
+    "pembahasan": "C(4,3) = 4."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Jika A = {2,4,6,8,10}, tentukan jumlah elemen A.",
+    "pilihan": ["5", "4", "6", "10", "8"],
+    "jawaban": "A",
+    "pembahasan": "Elemen A = 5 buah."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Jika A = {1,2,3,4}, B = {3,4,5,6}, tentukan banyak elemen A ∪ B.",
+    "pilihan": ["6", "4", "5", "7", "8"],
+    "jawaban": "A",
+    "pembahasan": "A ∪ B = {1,2,3,4,5,6}, banyak elemen = 6."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Himpunan A = {1,2,3}, B = {2,3,4}. Tentukan A ∩ B.",
+    "pilihan": ["{2,3}", "{1,2,3}", "{1,4}", "{2,4}", "{1,3}"],
+    "jawaban": "A",
+    "pembahasan": "Irisan A ∩ B = {2,3}."
   }
 ]
