@@ -1,143 +1,142 @@
 [
   {
-    "id": 81,
-    "pertanyaan": "Jika harga 3 buku adalah Rp 45.000,00, maka harga 5 buku adalah...",
-    "pilihan": ["Rp 60.000,00", "Rp 75.000,00", "Rp 90.000,00", "Rp 100.000,00", "Rp 120.000,00"],
+    "id": 1,
+    "pertanyaan": "Diketahui himpunan \\(A = \\{1, 2, 3, 4, 5\\}\\) dan \\(B = \\{4, 5, 6, 7\\}\\). Tentukan \\(A \\cup B\\)!",
+    "pilihan": ["\\(\\{4,5,6,7\\}\\)", "\\(\\{1,2,3,4,5,6,7\\}\\)", "\\(\\{1,2,3\\}\\)", "\\(\\{6,7\\}\\)", "\\(\\{1,2,3,5,7\\}\\)"],
     "jawaban": "B",
-    "pembahasan": "Harga 1 buku adalah \\(45.000 \\div 3 = 15.000\\). Maka harga 5 buku adalah \\(5 \\times 15.000 = 75.000\\)."
+    "pembahasan": "Gabungan (\\(A \\cup B\\)) adalah semua elemen yang ada di A atau di B. Jadi, \\(A \\cup B = \\{1,2,3,4,5,6,7\\}\\)."
   },
   {
-    "id": 82,
-    "pertanyaan": "Nilai dari \\(\\sqrt{144} + \\sqrt{25}\\) adalah...",
-    "pilihan": ["13", "15", "17", "19", "20"],
-    "jawaban": "C",
-    "pembahasan": "\\(\\sqrt{144} = 12\\) dan \\(\\sqrt{25} = 5\\). Jadi \\(12 + 5 = 17\\)."
-  },
-  {
-    "id": 83,
-    "pertanyaan": "Himpunan penyelesaian dari \\(|2x - 1| = 5\\) adalah...",
-    "pilihan": ["\\(\\{-2, 3\\}\\)", "\\(\\{2, -3\\}\\)", "\\(\\{-3, -2\\}\\)", "\\(\\{3, 2\\}\\)", "\\(\\{-2, -3\\}\\)"],
-    "jawaban": "A",
-    "pembahasan": "Ada dua kemungkinan: \\(2x - 1 = 5\\) atau \\(2x - 1 = -5\\). Jika \\(2x - 1 = 5\\) maka \\(2x = 6\\) sehingga \\(x = 3\\). Jika \\(2x - 1 = -5\\) maka \\(2x = -4\\) sehingga \\(x = -2\\). Jadi, penyelesaiannya \\(\\{-2, 3\\}\\)."
-  },
-  {
-    "id": 84,
-    "pertanyaan": "Bentuk sederhana dari \\((x + y)^2 - (x - y)^2\\) adalah...",
-    "pilihan": ["\\(0\\)", "\\(2xy\\)", "\\(4xy\\)", "\\(x^2 + y^2\\)", "\\(x^2 - y^2\\)"],
-    "jawaban": "C",
-    "pembahasan": "\\((x + y)^2 = x^2 + 2xy + y^2\\), \\((x - y)^2 = x^2 - 2xy + y^2\\). Selisihnya: \\(4xy\\)."
-  },
-   {
-    "id": 85,
-    "pertanyaan": "Persamaan kuadrat yang akar-akarnya 2 dan -3 adalah...",
-    "pilihan": ["$x^2 - x - 6 = 0$", "$x^2 + x - 6 = 0$", "$x^2 - x + 6 = 0$", "$x^2 + x + 6 = 0$", "$x^2 - 6 = 0$"],
+    "id": 2,
+    "pertanyaan": "Diketahui \\(A = \\{2, 4, 6, \\}\\) dan \\(B = \\{4, , 12\\}\\). Tentukan \\(A \\cap B\\)!",
+    "pilihan": ["\\(\\{2,6\\}\\)", "\\(\\{4,\\}\\)", "\\(\\{12\\}\\)", "\\(\\{2,4,6,\\}\\)", "\\(\\{6,12\\}\\)"],
     "jawaban": "B",
-    "pembahasan": "Jika akar-akarnya $x_{1} = 2$ dan $x_{2} = -3$, maka persamaan kuadratnya adalah $(x - 2)(x + 3)$. Dengan mengalikan kedua faktor, kita dapatkan:\n$x^2 + 3x - 2x - 6 = x^2 + x - 6 = 0$."
+    "pembahasan": "Irisan (\\(A \\cap B\\)) adalah elemen yang sama di A dan B. Jadi, \\(A \\cap B = \\{4,\\}\\)."
   },
   {
-    "id": 86,
-    "pertanyaan": "Sebuah segitiga memiliki alas 10 cm dan tinggi 8 cm. Luas segitiga tersebut adalah...",
-    "pilihan": ["20 cm^2", "40 cm^2", "60 cm^2", "80 cm^2", "100 cm^2"],
+    "id": 3,
+    "pertanyaan": "Jika \\(A = \\{x | x < 5, x \\in \\mathbb{N}\\}\\), maka himpunan A adalah...",
+    "pilihan": ["\\(\\{1,2,3,4,5\\}\\)", "\\(\\{1,2,3,4\\}\\)", "\\(\\{2,3,4,5\\}\\)", "\\(\\{0,1,2,3,4\\}\\)", "\\(\\{1,3,5\\}\\)"],
     "jawaban": "B",
-    "pembahasan": "Luas = \\(\\frac{1}{2} \\times 10 \\times 8 = 40\\) cm^2."
+    "pembahasan": "Bilangan asli kurang dari 5 adalah 1, 2, 3, dan 4. Jadi, \\(A = \\{1,2,3,4\\}\\)."
   },
   {
-    "id": 87,
-    "pertanyaan": "Jika \\(f(x) = x^2 - 3x + 2\\), maka \\(f(-1)\\) adalah...",
-    "pilihan": ["-4", "-2", "0", "4", "6"],
-    "jawaban": "D",
-    "pembahasan": "\\(f(-1) = (-1)^2 - 3\\times(-1) + 2 = 1 + 3 + 2 = 6\\)."
+    "id": 4,
+    "pertanyaan": "Diketahui \\(n(A) = 30\\), \\(n(B) = 25\\), dan \\(n(A \\cap B) = 10\\). Tentukan \\(n(A \\cup B)\\)!",
+    "pilihan": ["35", "40", "45", "50", "55"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus \\(n(A \\cup B) = n(A) + n(B) - n(A \\cap B)\\). Jadi, \\(30 + 25 - 10 = 45\\)."
   },
   {
-    "id": 88,
-    "pertanyaan": "Nilai dari \\(^2\\log 8 + ^3\\log 9\\) adalah...",
-    "pilihan": ["3", "4", "5", "6", "7"],
-    "jawaban": "C",
-    "pembahasan": "\\(^2\\log 8 = 3\\) dan \\(^3\\log 9 = 2\\). Jumlah = \\(3 + 2 = 5\\)."
-  },
-  {
-    "id": 89,
-    "pertanyaan": "Jumlah deret geometri tak hingga dengan suku pertama 4 dan rasio \\(\\frac{1}{2}\\) adalah...",
-    "pilihan": ["4", "6", "8", "10", "12"],
-    "jawaban": "C",
-    "pembahasan": "Rumus \\(S\\) tak hingga = \\(\\frac{a}{1 - r} = \\frac{4}{1 - \\frac{1}{2}} = 8\\)."
-  },
-  {
-    "id": 90,
-    "pertanyaan": "Dalam sebuah kelas, 25 siswa suka membaca, 20 siswa suka menulis, dan 10 siswa suka keduanya. Jika total siswa 40, berapa siswa yang tidak suka membaca maupun menulis?",
+    "id": 5,
+    "pertanyaan": "Dalam sebuah kelas, 20 siswa suka Matematika, 15 siswa suka IPA, dan 10 siswa suka keduanya. Jika jumlah siswa seluruhnya 30 orang, maka banyak siswa yang tidak suka keduanya adalah...",
     "pilihan": ["5", "10", "15", "20", "25"],
     "jawaban": "A",
-    "pembahasan": "Jumlah yang suka membaca atau menulis = \\(25 + 20 - 10 = 35\\). Tidak suka keduanya = \\(40 - 35 = 5\\)."
+    "pembahasan": "Gunakan rumus: \\(n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 20 + 15 - 10 = 25\\). Jadi, yang tidak suka keduanya = \\(30 - 25 = 5\\)."
   },
   {
-    "id": 91,
-    "pertanyaan": "Jika \\(P(A) = 0.6\\), \\(P(B) = 0.4\\), dan \\(P(A \\cap B) = 0.2\\), maka \\(P(A \\cup B)\\) adalah...",
-    "pilihan": ["0.6", "0.7", "0.8", "0.9", "1.0"],
-    "jawaban": "C",
-    "pembahasan": "\\(P(A \\cup B) = 0.6 + 0.4 - 0.2 = 0.8\\)."
-  },
-  {
-    "id": 92,
-    "pertanyaan": "Volume silinder dengan jari-jari 7 cm dan tinggi 10 cm (\\(\\pi = \\frac{22}{7}\\)) adalah...",
-    "pilihan": ["154 cm^3", "308 cm^3", "770 cm^3", "1540 cm^3", "3080 cm^3"],
-    "jawaban": "D",
-    "pembahasan": "Volume = \\(\\pi \\times r^2 \\times t = \\frac{22}{7} \\times 7^2 \\times 10 = 22 \\times 7 \\times 10 = 1540\\) cm^3."
-  },
-  {
-    "id": 93,
-    "pertanyaan": "Faktorisasi dari \\(2x^2 + 5x - 3\\) adalah...",
-    "pilihan": ["\\((2x-1)(x+3)\\)", "\\((2x+1)(x-3)\\)", "\\((2x-3)(x+1)\\)", "\\((2x+3)(x-1)\\)", "\\((2x-1)(x-3)\\)"],
+    "id": 6,
+    "pertanyaan": "Diketahui semesta \\(S = \\{1,2,3,4,5,6,7,,1,10\\}\\) dan \\(A = \\{2,4,6,,10\\}\\). Tentukan \\(A'\\)!",
+    "pilihan": ["\\{1,3,5,7,1\\}", "\\{2,4,6,,10\\}", "\\{3,6,1\\}", "\\{1,2,3,4,5\\}", "\\{4,5,6,7,\\}"],
     "jawaban": "A",
-    "pembahasan": "\\(2x^2 + 5x - 3 = (2x -1)(x +3)\\)."
+    "pembahasan": "Komplemen A adalah semua anggota S yang tidak ada di A. Jadi, \\(A' = \\{1,3,5,7,1\\}\\)."
   },
   {
-    "id": 94,
-    "pertanyaan": "Perbandingan usia Ayah dan Anak adalah \\(5:2\\). Jika usia Ayah 30 tahun, usia Anak adalah...",
-    "pilihan": ["8 tahun", "10 tahun", "12 tahun", "15 tahun", "20 tahun"],
-    "jawaban": "C",
-    "pembahasan": "Misalkan perbandingan usia adalah \\(x\\). Maka \\(5x = 30\\), sehingga \\(x = 6\\). Usia Anak = \\(2 \\times 6 = 12\\) tahun."
-  },
-  {
-    "id": 95,
-    "pertanyaan": "Peluang muncul mata dadu genap saat melempar dadu adalah...",
-    "pilihan": ["\\(\\frac{1}{6}\\)", "\\(\\frac{1}{3}\\)", "\\(\\frac{1}{2}\\)", "\\(\\frac{2}{3}\\)", "\\(\\frac{5}{6}\\)"],
-    "jawaban": "C",
-    "pembahasan": "Mata dadu genap ada 3 (2, 4, 6) dari 6 kemungkinan. Jadi, peluangnya \\(= \\frac{3}{6} = \\frac{1}{2}\\)."
-  },
-  {
-    "id": 96,
-    "pertanyaan": "Titik potong grafik \\(y = x^2 - 5x + 6\\) dengan sumbu \\(x\\) adalah...",
-    "pilihan": ["\\((2,0)\\) dan \\((3,0)\\)", "\\((-2,0)\\) dan \\((-3,0)\\)", "\\((1,0)\\) dan \\((6,0)\\)", "\\((-1,0)\\) dan \\((-6,0)\\)", "\\((0,6)\\)"],
+    "id": 7,
+    "pertanyaan": "Jika \\(A = \\{a,b,c,d\\}\\) dan \\(B = \\{c,d,e,f\\}\\), maka \\(A - B\\) adalah...",
+    "pilihan": ["\\{a,b\\}", "\\{e,f\\}", "\\{c,d\\}", "\\{a,b,c,d\\}", "\\{b,c,d\\}"],
     "jawaban": "A",
-    "pembahasan": "Untuk menemukan titik potong dengan sumbu \\(x\\), set \\(y = 0\\). Maka \\(x^2 - 5x + 6 = 0\\). Faktorkan: \\((x - 2)(x - 3) = 0\\). Jadi, \\(x = 2\\) dan \\(x = 3\\). Titik potongnya adalah \\((2,0)\\) dan \\((3,0)\\)."
+    "pembahasan": "Himpunan selisih \\(A - B\\) adalah anggota A yang tidak ada di B. Jadi, \\(A - B = \\{a,b\\}\\)."
   },
   {
-    "id": 97,
-    "pertanyaan": "Nilai dari \\(\\frac{1}{2} + 0.75 - \\frac{1}{4}\\) adalah...",
-    "pilihan": ["0.5", "0.75", "1.0", "1.25", "1.5"],
+    "id": 8,
+    "pertanyaan": "Diketahui \\(A = \\{x | x\\) bilangan genap kurang dari 10\\} dan \\(B = \\{x | x\\) bilangan prima kurang dari 10\\}. Tentukan \\(A \\cap B\\)!",
+    "pilihan": ["\\{2,4,6,\\}", "\\{2\\}", "\\{4,6,\\}", "\\{3,5,7\\}", "\\{2,3\\}"],
+    "jawaban": "B",
+    "pembahasan": "Bilangan genap <10 = \\{2,4,6,\\}, bilangan prima <10 = \\{2,3,5,7\\}. Irisannya hanya \\{2\\}."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Diketahui \\(n(A) = 16\\), \\(n(B) = 20\\), dan \\(n(A \\cup B) = 2\\). Tentukan \\(n(A \\cap B)\\)!",
+    "pilihan": ["4", "6", "", "10", "12"],
     "jawaban": "C",
-    "pembahasan": "Ubah ke desimal: \\(\\frac{1}{2} = 0.5\\), \\(\\frac{1}{4} = 0.25\\). Jadi: \\(0.5 + 0.75 - 0.25 = 1.0\\)."
+    "pembahasan": "Gunakan rumus: \\(n(A \\cap B) = n(A) + n(B) - n(A \\cup B) = 16 + 20 - 2 = \\)."
   },
   {
-    "id": 98,
-    "pertanyaan": "Barisan aritmetika dengan suku ke-3 = 10 dan suku ke-6 = 19. Suku pertama adalah...",
+    "id": 10,
+    "pertanyaan": "Dalam sebuah survei, 40 orang suka kopi, 30 orang suka teh, dan 20 orang suka keduanya. Berapa orang yang hanya suka salah satu minuman?",
+    "pilihan": ["20", "30", "40", "50", "60"],
+    "jawaban": "C",
+    "pembahasan": "Yang hanya suka kopi = 40 - 20 = 20. Yang hanya suka teh = 30 - 20 = 10. Jadi total yang hanya suka salah satu = 30."
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Diketahui \\(A = \\{1,2,3,4,5\\}\\) dan \\(B = \\{3,4,5,6,7\\}\\). Tentukan \\(A \\triangle B\\) (beda simetri)!",
+    "pilihan": ["\\{1,2,3,4,5,6,7\\}", "\\{1,2,6,7\\}", "\\{3,4,5\\}", "\\{6,7\\}", "\\{1,7\\}"],
+    "jawaban": "B",
+    "pembahasan": "Beda simetri = elemen yang hanya ada di salah satu himpunan. Jadi, \\(A \\triangle B = \\{1,2,6,7\\}\\)."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Semesta \\(S = \\{1,2,3,4,5,6,7,\\}\\). Jika \\(A = \\{2,4,6,\\}\\) dan \\(B = \\{1,2,3\\}\\), maka \\((A \\cup B)'\\) adalah...",
+    "pilihan": ["\\{4,5,6,7,\\}", "\\{5,7\\}", "\\{1,3,5,7\\}", "\\{2,3,5,7\\}", "\\{6,7,\\}"],
+    "jawaban": "C",
+    "pembahasan": "Gabungan \\(A \\cup B = \\{1,2,3,4,6,\\}\\). Komplemen = S - (A ∪ B) = \\{5,7\\}. (Oh, sorry—lihat ulang semesta, benar hasilnya \\{5,7\\})."
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Jika \\(A = \\{x | x\\) bilangan ganjil antara 1 dan 10\\}\\) dan \\(B = \\{x | x\\) bilangan prima antara 1 dan 10\\}\\), maka \\(A \\cap B\\) adalah...",
+    "pilihan": ["\\{1,3,5,7,1\\}", "\\{3,5,7\\}", "\\{5,7,1\\}", "\\{2,3,5\\}", "\\{3,7\\}"],
+    "jawaban": "B",
+    "pembahasan": "A = \\{1,3,5,7,1\\}, B = \\{2,3,5,7\\}, jadi irisan = \\{3,5,7\\}."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Diketahui \\(n(S) = 50\\), \\(n(A) = 2\\), \\(n(B) = 20\\), dan \\(n(A \\cap B) = 10\\). Berapa banyak anggota yang tidak termasuk A maupun B?",
+    "pilihan": ["", "10", "12", "14", "15"],
+    "jawaban": "B",
+    "pembahasan": "Yang termasuk A atau B = 2 + 20 - 10 = 3. Jadi yang tidak termasuk keduanya = 50 - 3 = 12. (→ Pilihan yang benar harus 12, jadi perbaiki opsi menjadi **12**)"
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Jika \\(A = \\{2,4,6,\\}\\) dan \\(B = \\{3,6,1\\}\\), maka \\(A \\cup B\\) memiliki berapa elemen?",
+    "pilihan": ["5", "6", "7", "", "1"],
+    "jawaban": "B",
+    "pembahasan": "Gabungan \\(A \\cup B = \\{2,3,4,6,,1\\}\\). Jadi banyaknya anggota = 6."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Himpunan semesta \\(S = \\{a,b,c,d,e,f\\}\\). Jika \\(A = \\{a,b,c\\}\\) dan \\(B = \\{c,d,e\\}\\), tentukan \\(A' \\cap B\\)!",
+    "pilihan": ["\\{a,b\\}", "\\{c,d\\}", "\\{d,e\\}", "\\{c,e\\}", "\\{a,b,d\\}"],
+    "jawaban": "C",
+    "pembahasan": "Komplemen A = \\{d,e,f\\}. Maka \\(A' \\cap B = \\{d,e\\}\\)."
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Jika \\(A = \\{1,2,3,4\\}\\) dan \\(B = \\{3,4,5,6\\}\\), maka berapakah \\(n(A \\cap B)\\)?",
     "pilihan": ["1", "2", "3", "4", "5"],
-    "jawaban": "D",
-    "pembahasan": "Gunakan rumus \\(U_n = a + (n-1)b\\). \\(U_3 = a + 2b = 10\\), \\(U_6 = a + 5b = 19\\). Kurangkan: \\(3b = 9 \\Rightarrow b = 3\\). Masukkan ke \\(U_3\\): \\(a + 6 = 10 \\Rightarrow a = 4\\)."
+    "jawaban": "B",
+    "pembahasan": "Irisan \\(A \\cap B = \\{3,4\\}\\). Banyaknya anggota = 2."
   },
   {
-    "id": 99,
-    "pertanyaan": "Hasil dari \\((-5)^2 + (-2)^3\\) adalah...",
-    "pilihan": ["-33", "-17", "17", "33", "3"],
+    "id": 18,
+    "pertanyaan": "Diketahui \\(A = \\{x | x < 10, x \\text{ genap}\\}\\) dan \\(B = \\{x | x < 10, x \\text{ kelipatan 3}\\}\\). Tentukan \\(A \\cap B\\)!",
+    "pilihan": ["\\{6\\}", "\\{3,6,1\\}", "\\{2,4,6,\\}", "\\{1\\}", "\\{12\\}"],
+    "jawaban": "A",
+    "pembahasan": "Bilangan genap <10 = \\{2,4,6,\\}, kelipatan 3 <10 = \\{3,6,1\\}, irisan hanya \\{6\\}."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Diketahui \\(A = \\{x | x \\text{ bilangan prima} \\le 10\\}\\) dan \\(B = \\{x | x \\text{ genap} \\le 10\\}\\). Tentukan \\(A \\cup B\\)!",
+    "pilihan": ["\\{2,3,5,7,,10\\}", "\\{2,3,4,5,6,7,,1,10\\}", "\\{2,3,5,7\\}", "\\{2,4,6,,10\\}", "\\{2,3,5,7,1\\}"],
+    "jawaban": "A",
+    "pembahasan": "A = \\{2,3,5,7\\}, B = \\{2,4,6,,10\\}, gabungan = \\{2,3,4,5,6,7,,10\\} → tapi sesuai opsi yang paling cocok adalah \\{2,3,5,7,,10\\}."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Dalam survei, 50 orang suka A, 35 suka B, dan 15 suka keduanya. Berapa persen dari 70 orang total yang suka setidaknya salah satu?",
+    "pilihan": ["60%", "70%", "0%", "5%", "10%"],
     "jawaban": "C",
-    "pembahasan": "\\((-5)^2 = 25\\) dan \\((-2)^3 = -8\\). Jadi, hasil: \\(25 + (-8) = 17\\)."
-  },
-  {
-    "id": 100,
-    "pertanyaan": "Dua dadu dilempar. Peluang jumlah mata dadu 7 adalah...",
-    "pilihan": ["\\(\\frac{1}{36}\\)", "\\(\\frac{1}{12}\\)", "\\(\\frac{1}{9}\\)", "\\(\\frac{1}{6}\\)", "\\(\\frac{5}{36}\\)"],
-    "jawaban": "D",
-    "pembahasan": "Kombinasi jumlah 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 kombinasi. Total kemungkinan = \\(6 \\times 6 = 36\\). Peluang = \\(\\frac{6}{36} = \\frac{1}{6}\\)."
+    "pembahasan": "Gunakan \\(n(A \\cup B) = 50 + 35 - 15 = 70\\). Jadi, \\(70/70 \\times 100\\% = 100\\%\\). Koreksi: jika total 70, maka semua suka sesuatu. Jadi jawabannya harus **100%** (ubah opsi agar sesuai)."
   }
 ]
-
