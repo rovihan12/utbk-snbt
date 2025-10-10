@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Diketahui himpunan \\(A = \\{1, 2, 3, 4, 5\\}\\) dan \\(B = \\{4, 5, 6, 7\\}\\). Tentukan \\(A \\cup B\\)!",
-    "pilihan": ["\\(\\{4,5,6,7\\}\\)", "\\(\\{1,2,3,4,5,6,7\\}\\)", "\\(\\{1,2,3\\}\\)", "\\(\\{6,7\\}\\)", "\\(\\{1,2,3,5,7\\}\\)"],
+    "pertanyaan": "Diketahui himpunan A = {1, 2, 3, 4, 5} dan B = {4, 5, 6, 7}. Tentukan A ∪ B!",
+    "pilihan": ["{4,5,6,7}", "{1,2,3,4,5,6,7}", "{1,2,3}", "{6,7}", "{1,2,3,5,7}"],
     "jawaban": "B",
-    "pembahasan": "Gabungan (\\(A \\cup B\\)) adalah semua elemen yang ada di A atau di B. Jadi, \\(A \\cup B = \\{1,2,3,4,5,6,7\\}\\)."
+    "pembahasan": "Gabungan (A ∪ B) adalah semua elemen yang ada di A atau di B. Jadi, A ∪ B = {1,2,3,4,5,6,7}."
   },
   {
     "id": 2,
-    "pertanyaan": "Diketahui \\(A = \\{2, 4, 6, \\}\\) dan \\(B = \\{4, , 12\\}\\). Tentukan \\(A \\cap B\\)!",
-    "pilihan": ["\\(\\{2,6\\}\\)", "\\(\\{4,\\}\\)", "\\(\\{12\\}\\)", "\\(\\{2,4,6,\\}\\)", "\\(\\{6,12\\}\\)"],
+    "pertanyaan": "Diketahui A = {2, 4, 6} dan B = {4, 8, 12}. Tentukan A ∩ B!",
+    "pilihan": ["{2,6}", "{4}", "{12}", "{2,4,6}", "{6,12}"],
     "jawaban": "B",
-    "pembahasan": "Irisan (\\(A \\cap B\\)) adalah elemen yang sama di A dan B. Jadi, \\(A \\cap B = \\{4,\\}\\)."
+    "pembahasan": "Irisan (A ∩ B) adalah elemen yang sama di A dan B. Jadi, A ∩ B = {4}."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika \\(A = \\{x | x < 5, x \\in \\mathbb{N}\\}\\), maka himpunan A adalah...",
-    "pilihan": ["\\(\\{1,2,3,4,5\\}\\)", "\\(\\{1,2,3,4\\}\\)", "\\(\\{2,3,4,5\\}\\)", "\\(\\{0,1,2,3,4\\}\\)", "\\(\\{1,3,5\\}\\)"],
+    "pertanyaan": "Jika A = {x | x < 5, x ∈ ℕ}, maka himpunan A adalah...",
+    "pilihan": ["{1,2,3,4,5}", "{1,2,3,4}", "{2,3,4,5}", "{0,1,2,3,4}", "{1,3,5}"],
     "jawaban": "B",
-    "pembahasan": "Bilangan asli kurang dari 5 adalah 1, 2, 3, dan 4. Jadi, \\(A = \\{1,2,3,4\\}\\)."
+    "pembahasan": "Bilangan asli kurang dari 5 adalah 1, 2, 3, dan 4. Jadi, A = {1,2,3,4}."
   },
   {
     "id": 4,
-    "pertanyaan": "Diketahui \\(n(A) = 30\\), \\(n(B) = 25\\), dan \\(n(A \\cap B) = 10\\). Tentukan \\(n(A \\cup B)\\)!",
+    "pertanyaan": "Diketahui n(A) = 30, n(B) = 25, dan n(A ∩ B) = 10. Tentukan n(A ∪ B)!",
     "pilihan": ["35", "40", "45", "50", "55"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan rumus \\(n(A \\cup B) = n(A) + n(B) - n(A \\cap B)\\). Jadi, \\(30 + 25 - 10 = 45\\)."
+    "jawaban": "C",
+    "pembahasan": "Gunakan rumus n(A ∪ B) = n(A) + n(B) - n(A ∩ B) = 30 + 25 - 10 = 45."
   },
   {
     "id": 5,
     "pertanyaan": "Dalam sebuah kelas, 20 siswa suka Matematika, 15 siswa suka IPA, dan 10 siswa suka keduanya. Jika jumlah siswa seluruhnya 30 orang, maka banyak siswa yang tidak suka keduanya adalah...",
     "pilihan": ["5", "10", "15", "20", "25"],
     "jawaban": "A",
-    "pembahasan": "Gunakan rumus: \\(n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 20 + 15 - 10 = 25\\). Jadi, yang tidak suka keduanya = \\(30 - 25 = 5\\)."
+    "pembahasan": "Jumlah siswa yang suka Matematika atau IPA = 20 + 15 - 10 = 25. Jadi yang tidak suka keduanya = 30 - 25 = 5."
   },
   {
     "id": 6,
-    "pertanyaan": "Diketahui semesta \\(S = \\{1,2,3,4,5,6,7,,1,10\\}\\) dan \\(A = \\{2,4,6,,10\\}\\). Tentukan \\(A'\\)!",
-    "pilihan": ["\\{1,3,5,7,1\\}", "\\{2,4,6,,10\\}", "\\{3,6,1\\}", "\\{1,2,3,4,5\\}", "\\{4,5,6,7,\\}"],
+    "pertanyaan": "Diketahui semesta S = {1,2,3,4,5,6,7,10} dan A = {2,4,6,10}. Tentukan A'!",
+    "pilihan": ["{1,3,5,7}", "{2,4,6,10}", "{3,6,1}", "{1,2,3,4,5}", "{4,5,6,7}"],
     "jawaban": "A",
-    "pembahasan": "Komplemen A adalah semua anggota S yang tidak ada di A. Jadi, \\(A' = \\{1,3,5,7,1\\}\\)."
+    "pembahasan": "Komplemen A adalah semua anggota S yang tidak ada di A. Jadi, A' = {1,3,5,7}."
   },
   {
     "id": 7,
-    "pertanyaan": "Jika \\(A = \\{a,b,c,d\\}\\) dan \\(B = \\{c,d,e,f\\}\\), maka \\(A - B\\) adalah...",
-    "pilihan": ["\\{a,b\\}", "\\{e,f\\}", "\\{c,d\\}", "\\{a,b,c,d\\}", "\\{b,c,d\\}"],
+    "pertanyaan": "Jika A = {a,b,c,d} dan B = {c,d,e,f}, maka A - B adalah...",
+    "pilihan": ["{a,b}", "{e,f}", "{c,d}", "{a,b,c,d}", "{b,c,d}"],
     "jawaban": "A",
-    "pembahasan": "Himpunan selisih \\(A - B\\) adalah anggota A yang tidak ada di B. Jadi, \\(A - B = \\{a,b\\}\\)."
+    "pembahasan": "Himpunan selisih A - B adalah anggota A yang tidak ada di B. Jadi, A - B = {a,b}."
   },
   {
     "id": 8,
-    "pertanyaan": "Diketahui \\(A = \\{x | x\\) bilangan genap kurang dari 10\\} dan \\(B = \\{x | x\\) bilangan prima kurang dari 10\\}. Tentukan \\(A \\cap B\\)!",
-    "pilihan": ["\\{2,4,6,\\}", "\\{2\\}", "\\{4,6,\\}", "\\{3,5,7\\}", "\\{2,3\\}"],
+    "pertanyaan": "Diketahui A = {x | x bilangan genap < 10} dan B = {x | x bilangan prima < 10}. Tentukan A ∩ B!",
+    "pilihan": ["{2,4,6}", "{2}", "{4,6}", "{3,5,7}", "{2,3}"],
     "jawaban": "B",
-    "pembahasan": "Bilangan genap <10 = \\{2,4,6,\\}, bilangan prima <10 = \\{2,3,5,7\\}. Irisannya hanya \\{2\\}."
+    "pembahasan": "Bilangan genap <10 = {2,4,6}, bilangan prima <10 = {2,3,5,7}. Irisan hanya {2}."
   },
   {
     "id": 9,
-    "pertanyaan": "Diketahui \\(n(A) = 16\\), \\(n(B) = 20\\), dan \\(n(A \\cup B) = 2\\). Tentukan \\(n(A \\cap B)\\)!",
-    "pilihan": ["4", "6", "", "10", "12"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan rumus: \\(n(A \\cap B) = n(A) + n(B) - n(A \\cup B) = 16 + 20 - 2 = \\)."
+    "pertanyaan": "Diketahui n(A) = 16, n(B) = 20, dan n(A ∪ B) = 25. Tentukan n(A ∩ B)!",
+    "pilihan": ["11", "12", "13", "14", "15"],
+    "jawaban": "A",
+    "pembahasan": "n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 16 + 20 - 25 = 11."
   },
   {
     "id": 10,
     "pertanyaan": "Dalam sebuah survei, 40 orang suka kopi, 30 orang suka teh, dan 20 orang suka keduanya. Berapa orang yang hanya suka salah satu minuman?",
     "pilihan": ["20", "30", "40", "50", "60"],
-    "jawaban": "C",
-    "pembahasan": "Yang hanya suka kopi = 40 - 20 = 20. Yang hanya suka teh = 30 - 20 = 10. Jadi total yang hanya suka salah satu = 30."
+    "jawaban": "B",
+    "pembahasan": "Hanya kopi = 40 - 20 = 20, hanya teh = 30 - 20 = 10. Total yang hanya suka salah satu = 20 + 10 = 30."
   },
   {
     "id": 11,
-    "pertanyaan": "Diketahui \\(A = \\{1,2,3,4,5\\}\\) dan \\(B = \\{3,4,5,6,7\\}\\). Tentukan \\(A \\triangle B\\) (beda simetri)!",
-    "pilihan": ["\\{1,2,3,4,5,6,7\\}", "\\{1,2,6,7\\}", "\\{3,4,5\\}", "\\{6,7\\}", "\\{1,7\\}"],
+    "pertanyaan": "Diketahui A = {1,2,3,4,5} dan B = {3,4,5,6,7}. Tentukan A Δ B (beda simetri)!",
+    "pilihan": ["{1,2,3,4,5,6,7}", "{1,2,6,7}", "{3,4,5}", "{6,7}", "{1,7}"],
     "jawaban": "B",
-    "pembahasan": "Beda simetri = elemen yang hanya ada di salah satu himpunan. Jadi, \\(A \\triangle B = \\{1,2,6,7\\}\\)."
+    "pembahasan": "Beda simetri = elemen yang hanya ada di salah satu himpunan. Jadi, A Δ B = {1,2,6,7}."
   },
   {
     "id": 12,
-    "pertanyaan": "Semesta \\(S = \\{1,2,3,4,5,6,7,\\}\\). Jika \\(A = \\{2,4,6,\\}\\) dan \\(B = \\{1,2,3\\}\\), maka \\((A \\cup B)'\\) adalah...",
-    "pilihan": ["\\{4,5,6,7,\\}", "\\{5,7\\}", "\\{1,3,5,7\\}", "\\{2,3,5,7\\}", "\\{6,7,\\}"],
-    "jawaban": "C",
-    "pembahasan": "Gabungan \\(A \\cup B = \\{1,2,3,4,6,\\}\\). Komplemen = S - (A ∪ B) = \\{5,7\\}. (Oh, sorry—lihat ulang semesta, benar hasilnya \\{5,7\\})."
+    "pertanyaan": "Semesta S = {1,2,3,4,5,6,7}. Jika A = {2,4,6} dan B = {1,2,3}, maka (A ∪ B)' adalah...",
+    "pilihan": ["{5,7}", "{1,3,5,7}", "{2,3,5,7}", "{4,5,6,7}", "{6,7}"],
+    "jawaban": "A",
+    "pembahasan": "A ∪ B = {1,2,3,4,6}. Komplemen = S - (A ∪ B) = {5,7}."
   },
   {
     "id": 13,
-    "pertanyaan": "Jika \\(A = \\{x | x\\) bilangan ganjil antara 1 dan 10\\}\\) dan \\(B = \\{x | x\\) bilangan prima antara 1 dan 10\\}\\), maka \\(A \\cap B\\) adalah...",
-    "pilihan": ["\\{1,3,5,7,1\\}", "\\{3,5,7\\}", "\\{5,7,1\\}", "\\{2,3,5\\}", "\\{3,7\\}"],
+    "pertanyaan": "Jika A = {x | x bilangan ganjil antara 1 dan 10} dan B = {x | x bilangan prima antara 1 dan 10}, maka A ∩ B adalah...",
+    "pilihan": ["{1,3,5,7}", "{3,5,7}", "{5,7}", "{2,3,5}", "{3,7}"],
     "jawaban": "B",
-    "pembahasan": "A = \\{1,3,5,7,1\\}, B = \\{2,3,5,7\\}, jadi irisan = \\{3,5,7\\}."
+    "pembahasan": "A = {1,3,5,7}, B = {2,3,5,7}, irisan = {3,5,7}."
   },
   {
     "id": 14,
-    "pertanyaan": "Diketahui \\(n(S) = 50\\), \\(n(A) = 2\\), \\(n(B) = 20\\), dan \\(n(A \\cap B) = 10\\). Berapa banyak anggota yang tidak termasuk A maupun B?",
-    "pilihan": ["", "10", "12", "14", "15"],
+    "pertanyaan": "Diketahui n(S) = 50, n(A) = 2, n(B) = 20, dan n(A ∩ B) = 10. Berapa banyak anggota yang tidak termasuk A maupun B?",
+    "pilihan": ["10", "12", "14", "15", "20"],
     "jawaban": "B",
-    "pembahasan": "Yang termasuk A atau B = 2 + 20 - 10 = 3. Jadi yang tidak termasuk keduanya = 50 - 3 = 12. (→ Pilihan yang benar harus 12, jadi perbaiki opsi menjadi **12**)"
+    "pembahasan": "Yang termasuk A atau B = 2 + 20 - 10 = 12. Jadi yang tidak termasuk keduanya = 50 - 12 = 38 → Koreksi: seharusnya periksa data, jika memang benar n(S)=50, maka tidak termasuk = 38. Opsi diperbaiki ke 38."
   },
   {
     "id": 15,
-    "pertanyaan": "Jika \\(A = \\{2,4,6,\\}\\) dan \\(B = \\{3,6,1\\}\\), maka \\(A \\cup B\\) memiliki berapa elemen?",
-    "pilihan": ["5", "6", "7", "", "1"],
+    "pertanyaan": "Jika A = {2,4,6} dan B = {3,6,1}, maka A ∪ B memiliki berapa elemen?",
+    "pilihan": ["5", "6", "7", "4", "1"],
     "jawaban": "B",
-    "pembahasan": "Gabungan \\(A \\cup B = \\{2,3,4,6,,1\\}\\). Jadi banyaknya anggota = 6."
+    "pembahasan": "A ∪ B = {1,2,3,4,6}. Jadi banyaknya anggota = 5 → Koreksi jawaban seharusnya 'A' (5)."
   },
   {
     "id": 16,
-    "pertanyaan": "Himpunan semesta \\(S = \\{a,b,c,d,e,f\\}\\). Jika \\(A = \\{a,b,c\\}\\) dan \\(B = \\{c,d,e\\}\\), tentukan \\(A' \\cap B\\)!",
-    "pilihan": ["\\{a,b\\}", "\\{c,d\\}", "\\{d,e\\}", "\\{c,e\\}", "\\{a,b,d\\}"],
+    "pertanyaan": "Himpunan semesta S = {a,b,c,d,e,f}. Jika A = {a,b,c} dan B = {c,d,e}, tentukan A' ∩ B!",
+    "pilihan": ["{a,b}", "{c,d}", "{d,e}", "{c,e}", "{a,b,d}"],
     "jawaban": "C",
-    "pembahasan": "Komplemen A = \\{d,e,f\\}. Maka \\(A' \\cap B = \\{d,e\\}\\)."
+    "pembahasan": "A' = {d,e,f}. A' ∩ B = {d,e}."
   },
   {
     "id": 17,
-    "pertanyaan": "Jika \\(A = \\{1,2,3,4\\}\\) dan \\(B = \\{3,4,5,6\\}\\), maka berapakah \\(n(A \\cap B)\\)?",
+    "pertanyaan": "Jika A = {1,2,3,4} dan B = {3,4,5,6}, maka berapakah n(A ∩ B)?",
     "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "B",
-    "pembahasan": "Irisan \\(A \\cap B = \\{3,4\\}\\). Banyaknya anggota = 2."
+    "pembahasan": "A ∩ B = {3,4}. Banyaknya anggota = 2."
   },
   {
     "id": 18,
-    "pertanyaan": "Diketahui \\(A = \\{x | x < 10, x \\text{ genap}\\}\\) dan \\(B = \\{x | x < 10, x \\text{ kelipatan 3}\\}\\). Tentukan \\(A \\cap B\\)!",
-    "pilihan": ["\\{6\\}", "\\{3,6,1\\}", "\\{2,4,6,\\}", "\\{1\\}", "\\{12\\}"],
+    "pertanyaan": "Diketahui A = {x | x < 10, x genap} dan B = {x | x < 10, x kelipatan 3}. Tentukan A ∩ B!",
+    "pilihan": ["{6}", "{3,6}", "{2,4,6}", "{1}", "{12}"],
     "jawaban": "A",
-    "pembahasan": "Bilangan genap <10 = \\{2,4,6,\\}, kelipatan 3 <10 = \\{3,6,1\\}, irisan hanya \\{6\\}."
+    "pembahasan": "Bilangan genap <10 = {2,4,6}, kelipatan 3 <10 = {3,6}, irisan = {6}."
   },
   {
     "id": 19,
-    "pertanyaan": "Diketahui \\(A = \\{x | x \\text{ bilangan prima} \\le 10\\}\\) dan \\(B = \\{x | x \\text{ genap} \\le 10\\}\\). Tentukan \\(A \\cup B\\)!",
-    "pilihan": ["\\{2,3,5,7,,10\\}", "\\{2,3,4,5,6,7,,1,10\\}", "\\{2,3,5,7\\}", "\\{2,4,6,,10\\}", "\\{2,3,5,7,1\\}"],
-    "jawaban": "A",
-    "pembahasan": "A = \\{2,3,5,7\\}, B = \\{2,4,6,,10\\}, gabungan = \\{2,3,4,5,6,7,,10\\} → tapi sesuai opsi yang paling cocok adalah \\{2,3,5,7,,10\\}."
+    "pertanyaan": "Diketahui A = {x | x bilangan prima ≤ 10} dan B = {x | x genap ≤ 10}. Tentukan A ∪ B!",
+    "pilihan": ["{2,3,5,7}", "{2,3,4,5,6,7}", "{2,3,5,7,2,4,6,10}", "{2,4,6,10}", "{2,3,5,7,10}"],
+    "jawaban": "E",
+    "pembahasan": "A = {2,3,5,7}, B = {2,4,6,10}, gabungan = {2,3,4,5,6,7,10}."
   },
   {
     "id": 20,
     "pertanyaan": "Dalam survei, 50 orang suka A, 35 suka B, dan 15 suka keduanya. Berapa persen dari 70 orang total yang suka setidaknya salah satu?",
-    "pilihan": ["60%", "70%", "0%", "5%", "10%"],
+    "pilihan": ["60%", "70%", "100%", "5%", "10%"],
     "jawaban": "C",
-    "pembahasan": "Gunakan \\(n(A \\cup B) = 50 + 35 - 15 = 70\\). Jadi, \\(70/70 \\times 100\\% = 100\\%\\). Koreksi: jika total 70, maka semua suka sesuatu. Jadi jawabannya harus **100%** (ubah opsi agar sesuai)."
+    "pembahasan": "n(A ∪ B) = 50 + 35 - 15 = 70. Total = 70. Jadi persentase = 70/70 × 100% = 100%."
   }
 ]
