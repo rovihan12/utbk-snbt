@@ -1,162 +1,162 @@
 [
   {
     "id": 1,
-    "kategori": "Sedang",
-    "pertanyaan": "Hasil dari $(2\\sqrt{3} + 5)(2\\sqrt{3} - 5)$ adalah...",
-    "pilihan": ["-13", "-7", "13", "37", "43"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan sifat selisih dua kuadrat: $(a+b)(a-b) = a^2 - b^2$.\nMisalkan $a = 2\\sqrt{3}$ dan $b = 5$.\nMaka: $(2\\sqrt{3})^2 - 5^2 = 4 \\cdot 3 - 25 = 12 - 25 = -13$."
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $f(x) = 2x + 3$, maka nilai $f(4)$ adalah...",
+    "pilihan": ["7", "9", "11", "13", "15"],
+    "jawaban": "C",
+    "pembahasan": "Substitusi $x = 4$ ke fungsi:\n$f(4) = 2(4) + 3 = 8 + 3 = 11$"
   },
   {
     "id": 2,
-    "kategori": "Sedang",
-    "pertanyaan": "Bentuk sederhana dari $\\frac{\\sqrt{108}}{\\sqrt{12}}$ adalah...",
-    "pilihan": ["2", "3", "4", "6", "9"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan sifat $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$.\n$\\frac{\\sqrt{108}}{\\sqrt{12}} = \\sqrt{\\frac{108}{12}} = \\sqrt{9} = 3$."
+    "kategori": "Mudah", 
+    "pertanyaan": "Penyelesaian dari persamaan $3x - 7 = 8$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "D",
+    "pembahasan": "$3x - 7 = 8$\n$3x = 8 + 7$\n$3x = 15$\n$x = 5$"
   },
   {
     "id": 3,
-    "kategori": "Sedang",
-    "pertanyaan": "Bentuk rasional dari penyebut pecahan $\\frac{15}{3 - \\sqrt{2}}$ adalah...",
-    "pilihan": ["$3(3 + \\sqrt{2})$", "$5(3 - \\sqrt{2})$", "$\\frac{15}{7}(3 + \\sqrt{2})$", "$\\frac{15}{7}(3 - \\sqrt{2})$", "$15(3 + \\sqrt{2})$"],
+    "kategori": "Mudah",
+    "pertanyaan": "Daerah asal (domain) dari fungsi $f(x) = \\sqrt{x - 2}$ adalah...",
+    "pilihan": ["$x \\geq 0$", "$x \\geq 1$", "$x \\geq 2$", "$x > 2$", "$x \\geq 3$"],
     "jawaban": "C",
-    "pembahasan": "Kalikan pembilang dan penyebut dengan sekawan dari penyebut, yaitu $(3+\\sqrt{2})$:\n$\\frac{15}{3-\\sqrt{2}} \\cdot \\frac{3+\\sqrt{2}}{3+\\sqrt{2}} = \\frac{15(3+\\sqrt{2})}{3^2-(\\sqrt{2})^2} = \\frac{15(3+\\sqrt{2})}{9-2} = \\frac{15(3+\\sqrt{2})}{7}$."
+    "pembahasan": "Agar $\\sqrt{x - 2}$ terdefinisi:\n$x - 2 \\geq 0$\n$x \\geq 2$"
   },
   {
     "id": 4,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $5\\sqrt{7} - \\sqrt{28} + \\sqrt{63}$ adalah...",
-    "pilihan": ["$4\\sqrt{7}$", "$5\\sqrt{7}$", "$6\\sqrt{7}$", "$7\\sqrt{7}$", "$8\\sqrt{7}$"],
-    "jawaban": "C",
-    "pembahasan": "Sederhanakan setiap suku:\n$\\sqrt{28} = \\sqrt{4\\cdot7} = 2\\sqrt{7}$\n$\\sqrt{63} = \\sqrt{9\\cdot7} = 3\\sqrt{7}$\nSehingga operasi menjadi: $5\\sqrt{7} - 2\\sqrt{7} + 3\\sqrt{7} = (5-2+3)\\sqrt{7} = 6\\sqrt{7}$."
+    "pertanyaan": "Jika $f(x) = x^2 - 4x + 3$, maka nilai dari $f(2)$ adalah...",
+    "pilihan": ["-1", "0", "1", "2", "3"],
+    "jawaban": "A",
+    "pembahasan": "Substitusi $x = 2$:\n$f(2) = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1$"
   },
   {
     "id": 5,
     "kategori": "Sedang",
-    "pertanyaan": "Hasil dari $(3\\sqrt{2})^3$ adalah...",
-    "pilihan": ["$18\\sqrt{2}$", "$27\\sqrt{2}$", "$54\\sqrt{2}$", "$18$", "$54$"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan sifat $(ab)^n = a^n b^n$:\n$(3\\sqrt{2})^3 = 3^3 \\cdot (\\sqrt{2})^3 = 27 \\cdot 2\\sqrt{2} = 54\\sqrt{2}$."
+    "pertanyaan": "Himpunan penyelesaian dari $2x + 5 > 3x - 1$ adalah...",
+    "pilihan": ["$x < 6$", "$x > 6$", "$x < -6$", "$x > -6$", "$x < 4$"],
+    "jawaban": "A",
+    "pembahasan": "$2x + 5 > 3x - 1$\n$2x - 3x > -1 - 5$\n$-x > -6$\n$x < 6$ (dikali -1, tanda berubah)"
   },
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Jika $a = \\sqrt{50}$ dan $b = \\sqrt{2}$, maka nilai dari $\\frac{a}{b}$ adalah...",
-    "pilihan": ["5", "10", "15", "25", "$\\sqrt{10}$"],
-    "jawaban": "A",
-    "pembahasan": "$\\frac{a}{b} = \\frac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{\\frac{50}{2}} = \\sqrt{25} = 5$."
+    "pertanyaan": "Jika $f(x) = 3x - 1$ dan $g(x) = x + 4$, maka $(f \\circ g)(2)$ adalah...",
+    "pilihan": ["11", "13", "15", "17", "19"],
+    "jawaban": "D",
+    "pembahasan": "$(f \\circ g)(2) = f(g(2))$\n$g(2) = 2 + 4 = 6$\n$f(6) = 3(6) - 1 = 18 - 1 = 17$"
   },
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Bentuk sederhana dari $\\sqrt{45} + \\sqrt{80} - \\sqrt{125}$ adalah...",
-    "pilihan": ["$\\sqrt{5}$", "$2\\sqrt{5}$", "$3\\sqrt{5}$", "$4\\sqrt{5}$", "0"],
+    "pertanyaan": "Penyelesaian dari sistem persamaan $\\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases}$ adalah...",
+    "pilihan": ["$(2,3)$", "$(3,1)$", "$(3,2)$", "$(4,2)$", "$(5,3)$"],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan setiap suku:\n$\\sqrt{45} = 3\\sqrt{5}$\n$\\sqrt{80} = 4\\sqrt{5}$\n$\\sqrt{125} = 5\\sqrt{5}$\nSehingga: $3\\sqrt{5}+4\\sqrt{5}-5\\sqrt{5} = 2\\sqrt{5}$."
+    "pembahasan": "Eliminasi $y$:\n$2x + y = 7$\n$x - y = 2$\n------------ (+)\n$3x = 9 \\Rightarrow x = 3$\nSubstitusi: $3 - y = 2 \\Rightarrow y = 1$\nJadi $(3,1)$"
   },
   {
     "id": 8,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai $x$ yang memenuhi $\\sqrt[3]{2x-1} = 3$ adalah...",
-    "pilihan": ["10", "11", "12", "13", "14"],
-    "jawaban": "E",
-    "pembahasan": "Pangkatkan kedua ruas tiga kali:\n$(\\sqrt[3]{2x-1})^3 = 3^3 \\implies 2x-1=27 \\implies 2x=28 \\implies x=14$."
+    "pertanyaan": "Nilai $x$ yang memenuhi $|2x - 3| = 7$ adalah...",
+    "pilihan": ["$-2$ dan $5$", "$-3$ dan $4$", "$-4$ dan $3$", "$-5$ dan $2$", "$-1$ dan $4$"],
+    "jawaban": "A",
+    "pembahasan": "$|2x - 3| = 7$\nKasus 1: $2x - 3 = 7 \\Rightarrow 2x = 10 \\Rightarrow x = 5$\nKasus 2: $2x - 3 = -7 \\Rightarrow 2x = -4 \\Rightarrow x = -2$"
   },
   {
     "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Hasil dari $2\\sqrt{8} \\times 3\\sqrt{6}$ adalah...",
-    "pilihan": ["$12\\sqrt{3}$", "$24\\sqrt{3}$", "$12\\sqrt{2}$", "$24\\sqrt{2}$", "48"],
-    "jawaban": "B",
-    "pembahasan": "Sederhanakan terlebih dahulu: $2\\sqrt{8} = 4\\sqrt{2}$.\nKalikan: $(4\\sqrt{2})\\cdot(3\\sqrt{6}) = 12\\sqrt{12} = 12\\cdot 2\\sqrt{3} = 24\\sqrt{3}$."
+    "pertanyaan": "Jika $f(x) = \\frac{x + 1}{x - 2}$, maka $f(3)$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "C",
+    "pembahasan": "Substitusi $x = 3$:\n$f(3) = \\frac{3 + 1}{3 - 2} = \\frac{4}{1} = 4$"
   },
   {
     "id": 10,
     "kategori": "Sedang",
-    "pertanyaan": "Bentuk $\\frac{4}{2+\\sqrt{6}}$ senilai dengan...",
-    "pilihan": ["$4-2\\sqrt{6}$", "$2\\sqrt{6}-4$", "$2+\\sqrt{6}$", "$6-2\\sqrt{6}$", "$2\\sqrt{6}-2$"],
-    "jawaban": "B",
-    "pembahasan": "Rasionalkan dengan sekawan $(2-\\sqrt{6})$:\n$\\frac{4}{2+\\sqrt{6}} \\cdot \\frac{2-\\sqrt{6}}{2-\\sqrt{6}} = \\frac{4(2-\\sqrt{6})}{4-6} = \\frac{4(2-\\sqrt{6})}{-2} = -2(2-\\sqrt{6}) = 2\\sqrt{6}-4$."
+    "pertanyaan": "Himpunan penyelesaian dari $x^2 - 5x + 6 < 0$ adalah...",
+    "pilihan": ["$2 < x < 3$", "$x < 2$ atau $x > 3$", "$1 < x < 4$", "$x < 1$ atau $x > 4$", "$-3 < x < -2$"],
+    "jawaban": "A",
+    "pembahasan": "Faktorisasi:\n$x^2 - 5x + 6 = (x - 2)(x - 3)$\nPertidaksamaan $(x - 2)(x - 3) < 0$ dipenuhi ketika $2 < x < 3$"
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Bentuk sederhana dari $\\sqrt{29 + 12\\sqrt{5}}$ adalah...",
-    "pilihan": ["$3 + 2\\sqrt{5}$", "$2 + 3\\sqrt{5}$", "$5 + 2\\sqrt{3}$", "$\\sqrt{20} + \\sqrt{9}$", "$\\sqrt{29} + \\sqrt{5}$"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan bentuk $(a+b)^2 = a^2 + 2ab + b^2$:\nCari $a$ dan $b$ sehingga $a^2+b^2 = 29$ dan $2ab = 12\\sqrt{5}$.\nPilih $a=3$, $b=2\\sqrt{5}$, maka $a^2+b^2=9+20=29$ dan $2ab=12\\sqrt{5}$.\nSehingga $\\sqrt{29+12\\sqrt{5}} = 3 + 2\\sqrt{5}$."
+    "pertanyaan": "Jika $f(x) = 2x^2 - 3x + 1$, maka nilai dari $f(-1) + f(2)$ adalah...",
+    "pilihan": ["7", "9", "11", "13", "15"],
+    "jawaban": "C",
+    "pembahasan": "$f(-1) = 2(-1)^2 - 3(-1) + 1 = 2 + 3 + 1 = 6$\n$f(2) = 2(2)^2 - 3(2) + 1 = 8 - 6 + 1 = 3$\n$f(-1) + f(2) = 6 + 3 = 9$"
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\frac{\\sqrt{2}-\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}} = a + b\\sqrt{6}$, maka nilai dari $a+b$ adalah...",
-    "pilihan": ["-7", "-3", "-1", "3", "7"],
-    "jawaban": "B",
-    "pembahasan": "Rasionalkan: $\\frac{\\sqrt{2}-\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}} \\cdot \\frac{\\sqrt{2}-\\sqrt{3}}{\\sqrt{2}-\\sqrt{3}} = \\frac{(\\sqrt{2}-\\sqrt{3})^2}{2-3} = \\frac{5-2\\sqrt{6}}{-1} = -5+2\\sqrt{6}$.\nMaka $a=-5$, $b=2$, sehingga $a+b=-3$."
+    "pertanyaan": "Penyelesaian dari pertidaksamaan $\\frac{x - 1}{x + 2} \\geq 0$ adalah...",
+    "pilihan": ["$x \\leq -2$ atau $x \\geq 1$", "$-2 < x \\leq 1$", "$x < -2$ atau $x \\geq 1$", "$-2 \\leq x \\leq 1$", "$x \\leq 1$"],
+    "jawaban": "C",
+    "pembahasan": "Pembuat nol: $x = 1$ dan $x = -2$\nUji interval:\n$x < -2$: positif/negatif = positif\n$-2 < x < 1$: negatif/positif = negatif\n$x > 1$: positif/positif = positif\nJadi $x < -2$ atau $x \\geq 1$"
   },
   {
     "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}} \\div \\sqrt{6 - \\sqrt{6 - \\sqrt{6 - ...}}}$ adalah...",
-    "pilihan": ["1.5", "2", "2.5", "3", "3.5"],
+    "pertanyaan": "Jika $f(x) = x^2 + 2x$ dan $g(x) = x - 1$, maka $(f \\circ g)(x)$ adalah...",
+    "pilihan": ["$x^2 - 1$", "$x^2 + 1$", "$x^2 - 2x + 1$", "$x^2 - 2x - 1$", "$x^2 + 2x - 1$"],
     "jawaban": "A",
-    "pembahasan": "Misal $x = \\sqrt{6+\\sqrt{6+...}} \\implies x^2 = 6+x \\implies x^2-x-6=0 \\implies x=3$.\nMisal $y = \\sqrt{6-\\sqrt{6-...}} \\implies y^2 = 6-y \\implies y^2+y-6=0 \\implies y=2$.\nNilai $x/y = 3/2 = 1.5$."
+    "pembahasan": "$(f \\circ g)(x) = f(g(x)) = f(x - 1)$\n$= (x - 1)^2 + 2(x - 1) = x^2 - 2x + 1 + 2x - 2 = x^2 - 1$"
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sqrt{x-1} = x-3$, himpunan penyelesaian untuk $x$ adalah...",
-    "pilihan": ["{2}", "{5}", "{2,5}", "{}", "{1,5}"],
-    "jawaban": "B",
-    "pembahasan": "Kuadratkan kedua ruas: $x-1=(x-3)^2=x^2-6x+9 \\implies x^2-7x+10=0 \\implies x=2$ atau $x=5$.\nCek syarat: $x-3\\ge0 \\implies x\\ge3$, sehingga solusi valid hanya $x=5$."
+    "pertanyaan": "Nilai $x$ yang memenuhi $|3x - 2| = |x + 4|$ adalah...",
+    "pilihan": ["$-1$ dan $3$", "$-2$ dan $1$", "$-3$ dan $1$", "$-1$ dan $2$", "$-2$ dan $3$"],
+    "jawaban": "C",
+    "pembahasan": "$|3x - 2| = |x + 4|$\nKasus 1: $3x - 2 = x + 4 \\Rightarrow 2x = 6 \\Rightarrow x = 3$\nKasus 2: $3x - 2 = -(x + 4) \\Rightarrow 3x - 2 = -x - 4 \\Rightarrow 4x = -2 \\Rightarrow x = -0.5$\nPeriksa: $3(-0.5) - 2 = -1.5 - 2 = -3.5$, $x + 4 = 3.5$ → sama nilai mutlak\nJadi $x = 3$ dan $x = -0.5$"
   },
   {
     "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $x$ yang memenuhi $(\\sqrt{5})^{x-1} = \\frac{1}{125}$ adalah...",
-    "pilihan": ["-5", "-4", "-3", "4", "5"],
+    "pertanyaan": "Daerah hasil (range) dari fungsi $f(x) = x^2 - 4x + 3$ adalah...",
+    "pilihan": ["$y \\geq -1$", "$y \\leq -1$", "$y \\geq 1$", "$y \\leq 1$", "$y \\geq 3$"],
     "jawaban": "A",
-    "pembahasan": "Tulis basis 5: $(\\sqrt{5})^{x-1} = 5^{(x-1)/2}$, $1/125 = 5^{-3}$.\nSamakan pangkat: $(x-1)/2=-3 \\implies x-1=-6 \\implies x=-5$."
+    "pembahasan": "$f(x) = x^2 - 4x + 3 = (x - 2)^2 - 1$\nKarena $(x - 2)^2 \\geq 0$, maka $(x - 2)^2 - 1 \\geq -1$\nJadi $y \\geq -1$"
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $x = 3\\sqrt{2}+2\\sqrt{3}$ dan $y = 3\\sqrt{2}-2\\sqrt{3}$, maka nilai dari $x^2-y^2$ adalah...",
-    "pilihan": ["$12\\sqrt{6}$", "$24\\sqrt{6}$", "12", "24", "30"],
-    "jawaban": "B",
-    "pembahasan": "Gunakan $(x^2-y^2)=(x+y)(x-y)$:\nx+y=6\\sqrt{2}, x-y=4\\sqrt{3}.\nMaka $x^2-y^2 = 6\\sqrt{2} \\cdot 4\\sqrt{3} = 24\\sqrt{6}$."
+    "pertanyaan": "Jika $f(x) = \\frac{2x + 1}{x - 3}$, maka invers $f^{-1}(x)$ adalah...",
+    "pilihan": ["$\\frac{3x + 1}{x - 2}$", "$\\frac{3x - 1}{x - 2}$", "$\\frac{x + 3}{2x - 1}$", "$\\frac{x - 3}{2x + 1}$", "$\\frac{3x + 1}{x + 2}$"],
+    "jawaban": "A",
+    "pembahasan": "$y = \\frac{2x + 1}{x - 3}$\n$y(x - 3) = 2x + 1$\n$yx - 3y = 2x + 1$\n$yx - 2x = 3y + 1$\n$x(y - 2) = 3y + 1$\n$x = \\frac{3y + 1}{y - 2}$\nJadi $f^{-1}(x) = \\frac{3x + 1}{x - 2}$"
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Bentuk sederhana dari $\\frac{1}{1+\\sqrt{2}+\\sqrt{3}}$ adalah...",
-    "pilihan": ["$\\frac{2+\\sqrt{2}-\\sqrt{6}}{4}$", "$\\frac{2-\\sqrt{2}+\\sqrt{6}}{4}$", "$\\frac{2+\\sqrt{2}-\\sqrt{6}}{2}$", "$\\frac{2-\\sqrt{2}+\\sqrt{6}}{2}$", "1"],
-    "jawaban": "A",
-    "pembahasan": "Kelompokkan penyebut: $(1+\\sqrt{2})+\\sqrt{3}$, kalikan sekawan $(1+\\sqrt{2})-\\sqrt{3}$:\n$\\frac{1}{1+\\sqrt{2}+\\sqrt{3}} \\cdot \\frac{1+\\sqrt{2}-\\sqrt{3}}{1+\\sqrt{2}-\\sqrt{3}} = \\frac{1+\\sqrt{2}-\\sqrt{3}}{2\\sqrt{2}}$\nRasionalkan lagi: $\\frac{1+\\sqrt{2}-\\sqrt{3}}{2\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{2+\\sqrt{2}-\\sqrt{6}}{4}$."
+    "pertanyaan": "Penyelesaian dari $\\sqrt{2x + 1} = x - 1$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "D",
+    "pembahasan": "Kuadratkan kedua ruas:\n$2x + 1 = (x - 1)^2$\n$2x + 1 = x^2 - 2x + 1$\n$0 = x^2 - 4x$\n$0 = x(x - 4)$\n$x = 0$ atau $x = 4$\nCek syarat: $x - 1 \\geq 0 \\Rightarrow x \\geq 1$\nJadi $x = 4$"
   },
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $a,b$ bilangan positif dan $\\sqrt{a-b} + \\sqrt{a+b} = 4$, maka nilai maksimum dari $\\sqrt{a^2-b^2}$ adalah...",
-    "pilihan": ["2", "4", "8", "16", "Tidak ada"],
-    "jawaban": "B",
-    "pembahasan": "Kuadratkan: $(\\sqrt{a-b}+\\sqrt{a+b})^2 = 16 \\implies 2a + 2\\sqrt{a^2-b^2} =16 \\implies a+\\sqrt{a^2-b^2}=8$\nMaksimum $\\sqrt{a^2-b^2}=8-a$ terjadi saat $a$ minimum.\nJika $b\\to0$, maka $\\sqrt{a}+\\sqrt{a}=4 \\implies a=4$.\nSehingga $\\sqrt{a^2-b^2}=\\sqrt{16-0}=4$."
+    "pertanyaan": "Jika $f(x) = ax + b$ dengan $f(2) = 5$ dan $f(4) = 9$, maka $f(6)$ adalah...",
+    "pilihan": ["11", "12", "13", "14", "15"],
+    "jawaban": "C",
+    "pembahasan": "$f(2) = 2a + b = 5$\n$f(4) = 4a + b = 9$\nKurangi: $2a = 4 \\Rightarrow a = 2$\nSubstitusi: $2(2) + b = 5 \\Rightarrow b = 1$\n$f(6) = 2(6) + 1 = 13$"
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Urutan dari yang terkecil hingga terbesar untuk $x=\\sqrt{12}, y=\\sqrt[3]{27}, z=\\sqrt[4]{256}$ adalah...",
-    "pilihan": ["x,y,z", "y,x,z", "z,y,x", "y,z,x", "x,z,y"],
+    "pertanyaan": "Himpunan penyelesaian dari $x^2 - 3x - 10 \\leq 0$ adalah...",
+    "pilihan": ["$-5 \\leq x \\leq 2$", "$-2 \\leq x \\leq 5$", "$x \\leq -2$ atau $x \\geq 5$", "$-3 \\leq x \\leq 3$", "$x \\leq -5$ atau $x \\geq 2$"],
     "jawaban": "B",
-    "pembahasan": "Hitung nilai masing-masing: $y=\\sqrt[3]{27}=3$, $z=\\sqrt[4]{256}=4$, $x=\\sqrt{12}\\approx 3.46$.\nUrutan dari kecil ke besar: $y=3$, $x\\approx3.46$, $z=4$. Jadi y,x,z."
+    "pembahasan": "Faktorisasi:\n$x^2 - 3x - 10 = (x - 5)(x + 2)$\n$(x - 5)(x + 2) \\leq 0$\nPembuat nol: $x = -2$ dan $x = 5$\nUji interval: $-2 \\leq x \\leq 5$"
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $x=2+\\sqrt{3}$, maka nilai dari $\\sqrt{x}+\\frac{1}{\\sqrt{x}}$ adalah...",
-    "pilihan": ["$\\sqrt{2}$", "$\\sqrt{3}$", "$2\\sqrt{3}$", "$\\sqrt{6}$", "$2+\\sqrt{6}$"],
+    "pertanyaan": "Jika $f(x) = 2^x$ dan $g(x) = \\log_2 x$, maka $(f \\circ g)(8)$ adalah...",
+    "pilihan": ["2", "4", "6", "8", "16"],
     "jawaban": "D",
-    "pembahasan": "Kuadratkan: $(\\sqrt{x}+\\frac{1}{\\sqrt{x}})^2 = x + 2 + \\frac{1}{x}$.\n$x+1/x = 2+\\sqrt{3}+2-\\sqrt{3}=4 \\implies (\\sqrt{x}+1/\\sqrt{x})^2=6 \\implies \\sqrt{x}+1/\\sqrt{x}=\\sqrt{6}$."
+    "pembahasan": "$(f \\circ g)(8) = f(g(8))$\n$g(8) = \\log_2 8 = 3$\n$f(3) = 2^3 = 8$"
   }
 ]
