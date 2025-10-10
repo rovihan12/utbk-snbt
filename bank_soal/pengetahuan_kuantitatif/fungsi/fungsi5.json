@@ -1,283 +1,162 @@
 [
   {
-    "id": 81,
+    "id": 1,
     "kategori": "Sedang",
-    "pertanyaan": "Sebuah segitiga memiliki alas 10 cm dan tinggi 8 cm. Luas segitiga tersebut adalah...",
-    "pilihan": [
-      "20 cm$^2$",
-      "40 cm$^2$",
-      "60 cm$^2$",
-      "80 cm$^2$",
-      "100 cm$^2$"
-    ],
+    "pertanyaan": "Jika $2x + 5 = 15$, tentukan nilai $x$.",
+    "pilihan": ["2","3","5","7","10"],
+    "jawaban": "C",
+    "pembahasan": "Kurangkan 5: $2x = 15-5 = 10$. Bagi 2: $x = 5$."
+  },
+  {
+    "id": 2,
+    "kategori": "Sedang",
+    "pertanyaan": "Tentukan nilai $x$ dari persamaan $3x - 7 = 8$.",
+    "pilihan": ["3","5","7","15","-1"],
     "jawaban": "B",
-    "pembahasan": "Rumus luas segitiga ($L$) adalah $L = \\frac{1}{2} \\times alas \\times tinggi$.\nDiberikan alas = 10 cm dan tinggi = 8 cm.\n$L = \\frac{1}{2} \\times 10 \\times 8$\n$L = 5 \\times 8$\n$L = 40$ cm$^2$"
+    "pembahasan": "$3x = 8 + 7 = 15$, $x = 15/3 = 5$."
   },
   {
-    "id": 82,
+    "id": 3,
     "kategori": "Sedang",
-    "pertanyaan": "Jika $2x + 5 = 15$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "5",
-      "7",
-      "10"
-    ],
+    "pertanyaan": "Jika $f(x) = 2x+3$, tentukan $f(4)$.",
+    "pilihan": ["7","8","9","10","11"],
+    "jawaban": "E",
+    "pembahasan": "Substitusi $x=4$: $f(4) = 2(4)+3 = 11$."
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Selesaikan pertidaksamaan $5x - 2 < 13$.",
+    "pilihan": ["x<3","x<5","x<6","x>3","x>5"],
     "jawaban": "C",
-    "pembahasan": "Kurangkan 5 dari kedua sisi persamaan.\n$2x = 15 - 5$\n$2x = 10$\nBagi kedua sisi dengan 2.\n$x = \\frac{10}{2}$\n$x = 5$"
+    "pembahasan": "$5x < 13+2 = 15$, $x < 15/5 = 3$."
   },
   {
-    "id": 83,
+    "id": 5,
     "kategori": "Sedang",
-    "pertanyaan": "Bentuk sederhana dari $(a^3 b^2)^2$ adalah...",
-    "pilihan": [
-      "$a^5 b^4$",
-      "$a^6 b^4$",
-      "$a^9 b^4$",
-      "$a^5 b^2$",
-      "$a^6 b^2$"
-    ],
+    "pertanyaan": "Jika $f(x) = x^2 - 4x + 3$, tentukan $f(2)$.",
+    "pilihan": ["-1","0","1","2","3"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat eksponen $(x^m)^n = x^{mn}$.\n$(a^3)^2 = a^{3 \\times 2} = a^6$\n$(b^2)^2 = b^{2 \\times 2} = b^4$\nJadi, $(a^3 b^2)^2 = a^6 b^4$."
+    "pembahasan": "Substitusi $x=2$: $f(2)=4-8+3=-1$."
   },
   {
-    "id": 84,
+    "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Rata-rata dari data 5, 7, 8, 10 adalah...",
-    "pilihan": [
-      "6",
-      "7",
-      "7.5",
-      "8",
-      "8.5"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Rata-rata adalah jumlah semua data dibagi dengan banyaknya data.\nJumlah data = $5 + 7 + 8 + 10 = 30$\nBanyaknya data = 4\nRata-rata = $\\frac{30}{4} = 7.5$"
-  },
-  {
-    "id": 85,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $f(x) = x^2 + 2x - 3$, maka nilai $f(0)$ adalah...",
-    "pilihan": [
-      "-3",
-      "-2",
-      "0",
-      "2",
-      "3"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Substitusikan $x=0$ ke dalam fungsi $f(x)$.\n$f(0) = (0)^2 + 2(0) - 3$\n$f(0) = 0 + 0 - 3$\n$f(0) = -3$"
-  },
-  {
-    "id": 86,
-    "kategori": "Sedang",
-    "pertanyaan": "Keliling lingkaran dengan jari-jari 7 cm adalah... (gunakan $\\pi = \\frac{22}{7}$)",
-    "pilihan": [
-      "22 cm",
-      "33 cm",
-      "44 cm",
-      "66 cm",
-      "88 cm"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Rumus keliling lingkaran ($K$) adalah $K = 2 \\pi r$.\nDiberikan $r = 7$ cm dan $\\pi = \\frac{22}{7}$.\n$K = 2 \\times \\frac{22}{7} \\times 7$\n$K = 2 \\times 22$\n$K = 44$ cm"
-  },
-  {
-    "id": 87,
-    "kategori": "Sedang",
-    "pertanyaan": "Penyelesaian dari pertidaksamaan $2x + 3 > 9$ adalah...",
-    "pilihan": [
-      "$x > 3$",
-      "$x < 3$",
-      "$x > 6$",
-      "$x < 6$",
-      "$x > 2$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kurangkan 3 dari kedua sisi pertidaksamaan.\n$2x > 9 - 3$\n$2x > 6$\nBagi kedua sisi dengan 2.\n$x > \\frac{6}{2}$\n$x > 3$"
-  },
-  {
-    "id": 88,
-    "kategori": "Sedang",
-    "pertanyaan": "Determinan dari matriks $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "5",
-      "8",
-      "11"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Untuk matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, determinannya adalah $ad - bc$.\nDeterminan $A = (2)(4) - (3)(1)$\n$= 8 - 3$\n$= 5$"
-  },
-  {
-    "id": 89,
-    "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $\\sin 30^\\circ + \\cos 60^\\circ$ adalah...",
-    "pilihan": [
-      "0",
-      "$\\frac{1}{2}$",
-      "1",
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\sqrt{3}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Nilai $\\sin 30^\\circ = \\frac{1}{2}$.\nNilai $\\cos 60^\\circ = \\frac{1}{2}$.\nJadi, $\\sin 30^\\circ + \\cos 60^\\circ = \\frac{1}{2} + \\frac{1}{2} = 1$."
-  },
-  {
-    "id": 90,
-    "kategori": "Sedang",
-    "pertanyaan": "Bentuk rasional dari $\\frac{2}{\\sqrt{3}}$ adalah...",
-    "pilihan": [
-      "$\\frac{2\\sqrt{3}}{3}$",
-      "$\\frac{\\sqrt{3}}{2}$",
-      "$\\frac{2}{3}$",
-      "$2\\sqrt{3}$",
-      "$\\frac{3\\sqrt{2}}{2}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Untuk merasionalkan penyebut, kalikan pembilang dan penyebut dengan $\\sqrt{3}$.\\n$\\frac{2}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{2\\sqrt{3}}{3}$."
-  },
-  {
-    "id": 91,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = x^2 + 1$ dan $(f \\circ g)(x) = x^2 - 4x + 5$, maka $g(x)$ adalah...",
-    "pilihan": [
-      "$x-2$",
-      "$x+2$",
-      "$x^2 - 2x$",
-      "$x^2 - 4x + 4$",
-      "$x-4$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita tahu $(f \\circ g)(x) = f(g(x))$.\\nDiberikan $f(x) = x^2 + 1$.\\nMaka $f(g(x)) = (g(x))^2 + 1$.\\nSetarakan dengan $(f \\circ g)(x)$:\\n$(g(x))^2 + 1 = x^2 - 4x + 5$\\n$(g(x))^2 = x^2 - 4x + 4$\\n$(g(x))^2 = (x-2)^2$\\nJadi, $g(x) = x-2$ (ambil akar positif)."
-  },
-  {
-    "id": 92,
-    "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian dari $|2x+1| \\ge 5$ adalah...",
-    "pilihan": [
-      "$x \\le -3$ atau $x \\ge 2$",
-      "$x \\le -2$ atau $x \\ge 3$",
-      "$-3 \\le x \\le 2$",
-      "$-2 \\le x \\le 3$",
-      "$x \\le -3$ dan $x \\ge 2$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Pertidaksamaan $|2x+1| \\ge 5$ memiliki dua kasus:\\nKasus 1: $2x+1 \\ge 5$\\n$2x \\ge 4$\\n$x \\ge 2$\\nKasus 2: $2x+1 \\le -5$\\n$2x \\le -6$\\n$x \\le -3$\\nJadi, himpunan penyelesaiannya adalah $x \\le -3$ atau $x \\ge 2$."
-  },
-  {
-    "id": 93,
-    "kategori": "Sulit",
-    "pertanyaan": "Suku ke-10 dari barisan aritmetika 2, 5, 8, 11, ... adalah...",
-    "pilihan": [
-      "26",
-      "29",
-      "32",
-      "35",
-      "38"
-    ],
+    "pertanyaan": "Tentukan nilai $x$ dari persamaan kuadrat $x^2 - 5x + 6 = 0$.",
+    "pilihan": ["1 dan 6","2 dan 3","-2 dan -3","1 dan 5","2 dan 4"],
     "jawaban": "B",
-    "pembahasan": "Barisan ini adalah barisan aritmetika dengan suku pertama ($a$) = 2 dan beda ($b$) = $5-2=3$.\\nRumus suku ke-$n$ ($U_n$) adalah $U_n = a + (n-1)b$.\\nUntuk suku ke-10 ($n=10$):\\n$U_{10} = 2 + (10-1)3$\\n$U_{10} = 2 + (9)3$\\n$U_{10} = 2 + 27$\\n$U_{10} = 29$"
+    "pembahasan": "Faktorkan: $(x-2)(x-3)=0$, maka $x=2$ atau $x=3$."
   },
   {
-    "id": 94,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka $A^{-1}$ adalah...",
-    "pilihan": [
-      "$\\begin{pmatrix} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & -1 \\\\ -\\frac{3}{2} & \\frac{1}{2} \\end{pmatrix}$",
-      "$\\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -4 & 2 \\\\ 3 & -1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & -2 \\\\ -3 & 4 \\end{pmatrix}$"
-    ],
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $g(x) = 3x-1$, tentukan $g(3)$.",
+    "pilihan": ["7","8","9","10","11"],
     "jawaban": "A",
-    "pembahasan": "Untuk matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, inversnya $A^{-1} = \\frac{1}{ad-bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$.\\nDeterminan $A = (1)(4) - (2)(3) = 4 - 6 = -2$.\\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$\\n$A^{-1} = \\begin{pmatrix} \\frac{4}{-2} & \\frac{-2}{-2} \\\\ \\frac{-3}{-2} & \\frac{1}{-2} \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{pmatrix}$."
+    "pembahasan": "$g(3) = 3(3)-1 = 8$."
   },
   {
-    "id": 95,
-    "kategori": "Sulit",
-    "pertanyaan": "Nilai dari $\\lim_{x \\to \\infty} \\frac{2x^2 + 3x - 1}{x^2 - x + 5}$ adalah...",
-    "pilihan": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "$\\infty$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Untuk limit tak hingga pada fungsi rasional, bandingkan derajat tertinggi pembilang dan penyebut.\\nDerajat tertinggi pembilang adalah $x^2$ dengan koefisien 2.\\nDerajat tertinggi penyebut adalah $x^2$ dengan koefisien 1.\\nKarena derajat pembilang sama dengan derajat penyebut, nilai limit adalah perbandingan koefisien suku tertinggi.\\nLimit = $\\frac{2}{1} = 2$."
-  },
-  {
-    "id": 96,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $y = (x^2 - 3x)^4$, maka $\\frac{dy}{dx}$ adalah...",
-    "pilihan": [
-      "$4(x^2-3x)^3$",
-      "$4(2x-3)(x^2-3x)^3$",
-      "$(2x-3)(x^2-3x)^3$",
-      "$ (x^2-3x)^3$",
-      "$4x(x^2-3x)^3$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Gunakan aturan rantai: Jika $y = u^n$, maka $\\frac{dy}{dx} = n u^{n-1} \\frac{du}{dx}$.\\nMisalkan $u = x^2 - 3x$.\\nMaka $\\frac{du}{dx} = 2x - 3$.\\nDan $y = u^4$.\\n$\\frac{dy}{dx} = 4u^3 \\frac{du}{dx}$\\n$\\frac{dy}{dx} = 4(x^2-3x)^3 (2x-3)$\\n$\\frac{dy}{dx} = 4(2x-3)(x^2-3x)^3$."
-  },
-  {
-    "id": 97,
-    "kategori": "Sulit",
-    "pertanyaan": "Volume bola dengan jari-jari 3 cm adalah... (gunakan $\\pi$)",
-    "pilihan": [
-      "$9\\pi$ cm$^3$",
-      "$12\\pi$ cm$^3$",
-      "$27\\pi$ cm$^3$",
-      "$36\\pi$ cm$^3$",
-      "$48\\pi$ cm$^3$"
-    ],
+    "id": 8,
+    "kategori": "Sedang",
+    "pertanyaan": "Selesaikan $2(x-3) = 10$.",
+    "pilihan": ["3","6","7","8","9"],
     "jawaban": "D",
-    "pembahasan": "Rumus volume bola ($V$) adalah $V = \\frac{4}{3} \\pi r^3$.\\nDiberikan $r = 3$ cm.\\n$V = \\frac{4}{3} \\pi (3)^3$\\n$V = \\frac{4}{3} \\pi (27)$\\n$V = 4 \\pi \\times 9$\\n$V = 36\\pi$ cm$^3$."
+    "pembahasan": "$2(x-3)=10 \Rightarrow x-3=5 \Rightarrow x=8$."
   },
   {
-    "id": 98,
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $f(x)=x^2+1$, tentukan $f(3)$.",
+    "pilihan": ["7","8","9","10","11"],
+    "jawaban": "D",
+    "pembahasan": "$f(3)=3^2+1=10$."
+  },
+  {
+    "id": 10,
+    "kategori": "Sedang",
+    "pertanyaan": "Selesaikan pertidaksamaan $4x + 7 \ge 15$.",
+    "pilihan": ["x\ge 1","x\ge 2","x\ge 3","x\ge 4","x\ge 5"],
+    "jawaban": "C",
+    "pembahasan": "$4x \ge 15-7=8 \Rightarrow x\ge 2$."
+  },
+  {
+    "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Integral tentu dari $\\int_{0}^{1} (4x^3 - 2x) dx$ adalah...",
-    "pilihan": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
+    "pertanyaan": "Jika $f(x)=x^2+1$ dan $(f \circ g)(x)=x^2-4x+5$, tentukan $g(x)$.",
+    "pilihan": ["x-2","x+2","x^2-2x","x^2-4x+4","x-4"],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari integral tak tentu.\\n$\\int (4x^3 - 2x) dx = \\frac{4}{4}x^4 - \\frac{2}{2}x^2 + C = x^4 - x^2 + C$.\\nKemudian, evaluasi pada batas atas dan batas bawah.\\n$[x^4 - x^2]_0^1 = (1^4 - 1^2) - (0^4 - 0^2)$\\n$= (1 - 1) - (0 - 0)$\\n$= 0 - 0$\\n$= 0$."
+    "pembahasan": "$(f\circ g)(x)=f(g(x))=(g(x))^2+1=x^2-4x+5 \Rightarrow (g(x))^2=x^2-4x+4=(x-2)^2 \Rightarrow g(x)=x-2$."
   },
   {
-    "id": 99,
+    "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola sekaligus secara acak, peluang terambilnya 1 bola merah dan 1 bola biru adalah...",
-    "pilihan": [
-      "$\\frac{15}{56}$",
-      "$\\frac{15}{28}$",
-      "$\\frac{3}{8}$",
-      "$\\frac{5}{8}$",
-      "$\\frac{1}{28}$"
-    ],
+    "pertanyaan": "Selesaikan pertidaksamaan $|2x+1|\ge 5$.",
+    "pilihan": ["x\le -3 atau x\ge 2","x\le -2 atau x\ge 3","-3\le x\le 2","-2\le x\le 3","x\le -3 dan x\ge 2"],
+    "jawaban": "A",
+    "pembahasan": "Kasus 1: $2x+1\ge5 \Rightarrow x\ge 2$, Kasus 2: $2x+1\le -5 \Rightarrow x\le -3$."
+  },
+  {
+    "id": 13,
+    "kategori": "Sulit",
+    "pertanyaan": "Nilai $x$ dari persamaan $3x^2-12=0$ adalah...",
+    "pilihan": ["-2 dan 2","-3 dan 3","-4 dan 4","1 dan 4","2 dan 6"],
+    "jawaban": "A",
+    "pembahasan": "$3x^2-12=0 \Rightarrow x^2=4 \Rightarrow x=-2 atau x=2$."
+  },
+  {
+    "id": 14,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $h(x)=2x-5$ dan $h^{-1}(x)$ adalah inversnya, tentukan $h^{-1}(7)$.",
+    "pilihan": ["3","4","5","6","7"],
     "jawaban": "B",
-    "pembahasan": "Total bola = 5 merah + 3 biru = 8 bola.\\nBanyak cara mengambil 2 bola dari 8 bola (ruang sampel) adalah $C(8,2) = \\frac{8!}{2!(8-2)!} = \\frac{8 \\times 7}{2 \\times 1} = 28$.\\nBanyak cara mengambil 1 bola merah dari 5 bola merah adalah $C(5,1) = 5$.\\nBanyak cara mengambil 1 bola biru dari 3 bola biru adalah $C(3,1) = 3$.\\nBanyak cara mengambil 1 merah dan 1 biru = $C(5,1) \\times C(3,1) = 5 \\times 3 = 15$.\\nPeluang = $\\frac{15}{28}$."
+    "pembahasan": "Invers: $y=2x-5 \Rightarrow x=(y+5)/2$, $h^{-1}(7)=(7+5)/2=6$."
   },
   {
-    "id": 100,
+    "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Invers fungsi dari $f(x) = \\frac{2x-3}{x+1}$ adalah...",
-    "pilihan": [
-      "$\\frac{-x-3}{x-2}$",
-      "$\\frac{x-3}{2-x}$",
-      "$\\frac{x+3}{2-x}$",
-      "$\\frac{x+3}{x-2}$",
-      "$\\frac{3x+1}{2-x}$"
-    ],
+    "pertanyaan": "Tentukan nilai $x$ dari persamaan eksponensial $2^x=16$.",
+    "pilihan": ["2","3","4","5","6"],
+    "jawaban": "C",
+    "pembahasan": "$2^x=16=2^4 \Rightarrow x=4$."
+  },
+  {
+    "id": 16,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=3x+1$, tentukan $x$ sehingga $f(x)=10$.",
+    "pilihan": ["2","3","4","5","6"],
+    "jawaban": "B",
+    "pembahasan": "$3x+1=10 \Rightarrow 3x=9 \Rightarrow x=3$."
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Selesaikan pertidaksamaan $5-2x>1$.",
+    "pilihan": ["x<2","x>2","x<3","x>3","x=2"],
     "jawaban": "A",
-    "pembahasan": "Misalkan $y = f(x)$.\\n$y = \\frac{2x-3}{x+1}$\\n$y(x+1) = 2x-3$\\n$yx + y = 2x - 3$\\n$yx - 2x = -3 - y$\\n$x(y-2) = -(y+3)$\\n$x = \\frac{-(y+3)}{y-2}$\\n$x = \\frac{-y-3}{y-2}$\\nJadi, $f^{-1}(x) = \\frac{-x-3}{x-2}$."
+    "pembahasan": "$5-2x>1 \Rightarrow -2x>-4 \Rightarrow x<2$."
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=x^2-6x+8$, tentukan $x$ sehingga $f(x)=0$.",
+    "pilihan": ["1 dan 8","2 dan 4","-2 dan -4","3 dan 5","4 dan 6"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan: $x^2-6x+8=(x-2)(x-4)=0 \Rightarrow x=2 atau x=4$."
+  },
+  {
+    "id": 19,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $g(x)=x^2-5x+6$, tentukan $x$ sehingga $g(x)=0$.",
+    "pilihan": ["1 dan 6","2 dan 3","-2 dan -3","1 dan 5","2 dan 4"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan: $x^2-5x+6=(x-2)(x-3)=0 \Rightarrow x=2 atau x=3$."
+  },
+  {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=2x+3$ dan $g(x)=x-1$, tentukan $(f\circ g)(4)$.",
+    "pilihan": ["4","5","6","7","8"],
+    "jawaban": "E",
+    "pembahasan": "$(f\circ g)(4)=f(g(4))=f(4-1)=f(3)=2*3+3=9$."
   }
 ]
-
