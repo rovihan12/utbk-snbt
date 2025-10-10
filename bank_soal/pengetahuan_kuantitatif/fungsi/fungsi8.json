@@ -1,6 +1,6 @@
 [
   {
-    "id": 21,
+    "id": 1,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $f(x) = 2x - 5$ dan $(g \\circ f)(x) = 4x^2 - 20x + 24$, tentukan fungsi $g(x)$.",
     "pilihan": ["$x^2 + 1$","$x^2 - 1$","$x^2 - 2$","$2x^2 + 5$","$4x^2 - 1$"],
@@ -8,7 +8,7 @@
     "pembahasan": "Misalkan $y = f(x) = 2x - 5$. Kita ubah $(g \\circ f)(x)$ agar mengandung $(2x-5)$: $4x^2 - 20x + 24 = (4x^2 - 20x + 25) - 1 = (2x - 5)^2 - 1$. Jadi, $g(2x-5) = (2x-5)^2 - 1$. Ganti $(2x-5)$ dengan $y$: $g(y) = y^2 - 1$. Maka $\\mathbf{g(x) = x^2 - 1}$."
   },
   {
-    "id": 22,
+    "id": 2,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Diketahui matriks $\\mathbf{A} = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$ dan $\\mathbf{B} = \\begin{pmatrix} 1 & -1 \\\\ 0 & 2 \\end{pmatrix}$. Tentukan $\\mathbf{A} - 2\\mathbf{B}$.",
     "pilihan": ["$\\begin{pmatrix} 0 & 3 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 1 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 3 \\\\ 4 & 1 \\end{pmatrix}$","$\\begin{pmatrix} 1 & 3 \\\\ 4 & -1 \\end{pmatrix}$","$\\begin{pmatrix} 0 & 3 \\\\ 2 & 1 \\end{pmatrix}$"],
@@ -16,7 +16,7 @@
     "pembahasan": "$2\\mathbf{B} = \\begin{pmatrix} 2 & -2 \\\\ 0 & 4 \\end{pmatrix}$. Kemudian $\\mathbf{A} - 2\\mathbf{B} = \\begin{pmatrix} 2-2 & 1-(-2) \\\\ 4-0 & 3-4 \\end{pmatrix} = \\begin{pmatrix} 0 & 3 \\\\ 4 & -1 \\end{pmatrix}$."
   },
   {
-    "id": 23,
+    "id": 3,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika suku ke-3 barisan aritmatika adalah 11 dan suku ke-7 adalah 23, tentukan suku ke-10 barisan tersebut.",
     "pilihan": ["29","32","35","38","41"],
@@ -24,7 +24,7 @@
     "pembahasan": "$U_7 - U_3 = 4b \\Rightarrow 23 - 11 = 12$, jadi $4b = 12 \\Rightarrow b = 3$. $U_3 = a + 2b = 11 \\Rightarrow a + 2(3) = 11 \\Rightarrow a = 5$. $U_{10} = a + 9b = 5 + 9(3) = 32$."
   },
   {
-    "id": 24,
+    "id": 4,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan batas nilai $k$ agar persamaan kuadrat $x^2 + (k-2)x + 9 = 0$ memiliki dua akar real yang berbeda.",
     "pilihan": ["$-4 < k < 8$","$k < -4$ atau $k > 8$","$k < -8$ atau $k > 4$","$0 < k < 8$","$k < 0$ atau $k > 4$"],
@@ -32,7 +32,7 @@
     "pembahasan": "Syarat dua akar real berbeda adalah Diskriminan $D > 0$. $D = (k-2)^2 - 4(1)(9)$. $(k-2)^2 - 36 > 0 \\Rightarrow (k-2)^2 > 36$. Maka $k-2 > 6$ atau $k-2 < -6$. Jadi $\\mathbf{k > 8}$ atau $\\mathbf{k < -4}$."
   },
   {
-    "id": 25,
+    "id": 5,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan nilai dari $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
     "pilihan": ["0","1","2","4","Tidak terdefinisi"],
@@ -40,7 +40,7 @@
     "pembahasan": "Faktorkan pembilang: $\\lim_{x \\to 2} \\frac{(x - 2)(x + 2)}{x - 2}$. Karena $x \\to 2$, kita dapat mencoret $(x-2)$: $\\lim_{x \\to 2} (x + 2)$. Substitusi $x=2$: $2 + 2 = 4$."
   },
   {
-    "id": 26,
+    "id": 6,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $2 \\cdot 4^x = 16$, tentukan nilai dari $x$.",
     "pilihan": ["1/2","1","3/2","2","5/2"],
@@ -48,7 +48,7 @@
     "pembahasan": "Bagi kedua sisi dengan 2: $4^x = 8$. Ubah ke basis 2: $(2^2)^x = 2^3 \\Rightarrow 2^{2x} = 2^3$. Maka $2x = 3 \\Rightarrow x = 3/2$."
   },
   {
-    "id": 27,
+    "id": 7,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $f(x) = x^2 - 3x + 1$, tentukan turunan pertama $f'(x)$.",
     "pilihan": ["$2x + 3$","$x^2 - 3$","$2x - 3$","$3x - 1$","$x - 3$"],
@@ -56,7 +56,7 @@
     "pembahasan": "$f'(x) = d/dx(x^2) - d/dx(3x) + d/dx(1) = 2x - 3 + 0 = 2x - 3$."
   },
   {
-    "id": 28,
+    "id": 8,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan daerah himpunan penyelesaian dari pertidaksamaan linear $3x + 2y \\le 6$ pada kuadran I ($x \\ge 0, y \\ge 0$).",
     "pilihan": ["$y \\ge -3/2 x + 3$","$y \\le -3/2 x + 3$","$y \\le 3/2 x + 3$","$x \\le 2$ dan $y \\le 3$","Hanya titik (0, 0)"],
@@ -64,7 +64,7 @@
     "pembahasan": "Ubah pertidaksamaan ke bentuk $y$: $2y \\le -3x + 6 \\Rightarrow y \\le -\\frac{3}{2}x + 3$. Daerah penyelesaian adalah daerah di bawah garis lurus tersebut di kuadran I."
   },
   {
-    "id": 29,
+    "id": 9,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $x, y$ adalah solusi dari sistem persamaan $x - y = 4$ dan $xy = 21$, tentukan nilai dari $x + y$.",
     "pilihan": ["8","10","12","14","16"],
@@ -72,7 +72,7 @@
     "pembahasan": "Gunakan identitas $(x + y)^2 = (x - y)^2 + 4xy$. $(x + y)^2 = (4)^2 + 4(21) = 16 + 84 = 100$. Karena $x$ dan $y$ riil, $x + y = \\pm 10$. Sesuai pilihan, $\\mathbf{x + y = 10}$ (dari pasangan $x=7, y=3$)."
   },
   {
-    "id": 30,
+    "id": 10,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $p$ dan $q$ adalah akar-akar dari persamaan $x^2 + x - 6 = 0$, tentukan persamaan kuadrat baru yang akar-akarnya adalah $p+1$ dan $q+1$.",
     "pilihan": ["$x^2 + 3x - 4 = 0$","$x^2 - x - 6 = 0$","$x^2 - 3x + 4 = 0$","$x^2 + 3x + 4 = 0$","$x^2 + x - 4 = 0$"],
@@ -80,7 +80,7 @@
     "pembahasan": "Akar awal: $p+q = -1$, $pq = -6$. Akar baru $p' = p+1$, $q' = q+1$. Jumlah akar baru: $p' + q' = (p+q) + 2 = -1 + 2 = 1$. Hasil kali akar baru: $p'q' = pq + (p+q) + 1 = -6 + (-1) + 1 = -6$. Persamaan baru: $x^2 - (1)x + (-6) = 0 \\Rightarrow \\mathbf{x^2 - x - 6 = 0}$."
   },
   {
-    "id": 31,
+    "id": 11,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan nilai dari $\\int (3x^2 - 2x + 5) dx$.",
     "pilihan": ["$6x - 2 + C$","$x^3 - x^2 + 5x + C$","$x^3 - x^2 + 5 + C$","$3x^3 - 2x^2 + 5x + C$","$6x^3 - 2x^2 + 5 + C$"],
@@ -88,7 +88,7 @@
     "pembahasan": "Integralkan setiap suku: $\\int 3x^2 dx = x^3$; $\\int -2x dx = -x^2$; $\\int 5 dx = 5x$. Hasilnya: $\\mathbf{x^3 - x^2 + 5x + C}$."
   },
   {
-    "id": 32,
+    "id": 12,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $g^{-1}(x) = \\frac{x}{x-2}$, tentukan nilai dari $g(3)$.",
     "pilihan": ["3","-3","-6","3/5","Tidak terdefinisi"],
@@ -96,7 +96,7 @@
     "pembahasan": "Jika $g(3) = a$, maka $g^{-1}(a) = 3$. Kita substitusi $x=a$ ke $g^{-1}(x)$: $\\frac{a}{a-2} = 3$. $a = 3(a-2) \\Rightarrow a = 3a - 6 \\Rightarrow 2a = 6 \\Rightarrow a = 3$. Jadi $\\mathbf{g(3) = 3}$."
   },
   {
-    "id": 33,
+    "id": 13,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Selesaikan pertidaksamaan eksponen $2^{2x-1} \\le 8^{x+2}$.",
     "pilihan": ["$x \\ge -7$","$x \\le -7$","$x \\ge 3$","$x \\le 3$","$x \\ge 7$"],
@@ -104,7 +104,7 @@
     "pembahasan": "Ubah ke basis 2: $2^{2x-1} \\le (2^3)^{x+2} \\Rightarrow 2^{2x-1} \\le 2^{3x+6}$. Karena basis $2>1$, bandingkan eksponen: $2x - 1 \\le 3x + 6$. Pindahkan $2x$: $-1 - 6 \\le 3x - 2x \\Rightarrow \\mathbf{-7 \\le x}$."
   },
   {
-    "id": 34,
+    "id": 14,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $x_1$ dan $x_2$ adalah akar-akar dari $x^2 - 4x + c = 0$ dan $x_1^2 + x_2^2 = 10$, tentukan nilai $c$.",
     "pilihan": ["3","-3","6","-6","1"],
@@ -112,7 +112,7 @@
     "pembahasan": "Dari Vieta: $x_1 + x_2 = 4$ dan $x_1 x_2 = c$. Gunakan identitas $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2$. $10 = (4)^2 - 2c \\Rightarrow 10 = 16 - 2c \\Rightarrow 2c = 6 \\Rightarrow \\mathbf{c = 3}$."
   },
   {
-    "id": 35,
+    "id": 15,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan domain dari fungsi $f(x) = \\sqrt{\\frac{x}{x - 3}}$.",
     "pilihan": ["$0 \\le x < 3$","$x < 0$ atau $x > 3$","$x \\le 0$ atau $x > 3$","$x \\ge 3$","$-3 < x < 0$"],
@@ -120,7 +120,7 @@
     "pembahasan": "Syarat domain $\\frac{x}{x - 3} \\ge 0$ dan $x \\ne 3$. Pembuat nol $x=0$ dan $x=3$. Uji titik menghasilkan daerah positif pada $\\mathbf{x \\le 0}$ atau $\\mathbf{x > 3}$."
   },
   {
-    "id": 36,
+    "id": 16,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan nilai dari $\\log_2(12) + \\log_2(4) - \\log_2(6)$.",
     "pilihan": ["2","3","4","5","6"],
@@ -128,7 +128,7 @@
     "pembahasan": "Gunakan sifat logaritma: $\\log_2(\\frac{12 \\cdot 4}{6}) = \\log_2(\\frac{48}{6}) = \\log_2(8)$. Karena $8 = 2^3$, maka $\\log_2(8) = 3$."
   },
   {
-    "id": 37,
+    "id": 17,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan jumlah semua solusi bulat dari $|x - 1| + |x + 2| = 5$.",
     "pilihan": ["-1","0","1","2","4"],
@@ -136,7 +136,7 @@
     "pembahasan": "Solusi yang memenuhi adalah $x=-3$ dan $x=2$. Jumlah semua solusi bulat: $-3 + 2 = \\mathbf{-1}$."
   },
   {
-    "id": 38,
+    "id": 18,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $f(x) = x^2 - 1$ dan $g(x) = 3x$, tentukan $(f \\cdot g)(2)$.",
     "pilihan": ["6","12","18","24","30"],
@@ -144,7 +144,7 @@
     "pembahasan": "$(f \\cdot g)(2) = f(2) \\cdot g(2)$. $f(2) = 2^2 - 1 = 3$. $g(2) = 3(2) = 6$. Maka $(f \\cdot g)(2) = 3 \\cdot 6 = 18$."
   },
   {
-    "id": 39,
+    "id": 19,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Jika $\\mathbf{A} = \\begin{pmatrix} 3 & 1 \\\\ -2 & 4 \\end{pmatrix}$, tentukan determinan dari $\\mathbf{A}$ ($|\\mathbf{A}|$).",
     "pilihan": ["10","12","14","16","18"],
@@ -152,7 +152,7 @@
     "pembahasan": "Determinan $|\\mathbf{A}| = ad - bc = (3)(4) - (1)(-2) = 12 - (-2) = 14$."
   },
   {
-    "id": 40,
+    "id": 20,
     "kategori": "UTBK/SNBT",
     "pertanyaan": "Tentukan luas daerah yang dibatasi oleh kurva $y = x^2 - 4x$ dan sumbu $x$ ($y=0$).",
     "pilihan": ["$8/3$ satuan luas","$16/3$ satuan luas","$32/3$ satuan luas","$4$ satuan luas","$10$ satuan luas"],
