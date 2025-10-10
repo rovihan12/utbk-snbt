@@ -1,282 +1,282 @@
 [
   {
-    "id": 181,
+    "id": 1,
     "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$, tentukan matriks $B$ yang memenuhi $A+B=I$, di mana $I$ adalah matriks identitas.",
+    "pertanyaan": "Dalam suatu kelas, nilai ujian matematika siswa berdistribusi normal dengan rata-rata 75 dan simpangan baku 10. Jika seorang siswa mendapat nilai 85, berapa z-score nilai tersebut?",
     "pilihan": [
-      "$\\begin{pmatrix} -1 & -3 \\\\ -1 & -3 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -1 & -3 \\\\ -1 & -4 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 3 \\\\ 1 & 3 \\end{pmatrix}$"
+      "$0,5$",
+      "$1,0$",
+      "$1,5$",
+      "$2,0$",
+      "$2,5$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Untuk menemukan matriks $B$, kita gunakan persamaan $B = I-A$. \\n$B = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} - \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix} = \\begin{pmatrix} 1-2 & 0-3 \\\\ 0-1 & 1-4 \\end{pmatrix} = \\begin{pmatrix} -1 & -3 \\\\ -1 & -3 \\end{pmatrix}$."
+    "jawaban": "B",
+    "pembahasan": "Rumus z-score: $z = \\frac{x - \\mu}{\\sigma}$ \\nDiketahui: $x = 85$, $\\mu = 75$, $\\sigma = 10$ \\n$z = \\frac{85 - 75}{10} = \\frac{10}{10} = 1,0$"
   },
   {
-    "id": 182,
+    "id": 2,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 3 & 1 \\\\ -2 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} x+1 & y \\\\ -2 & 3 \\end{pmatrix}$. Jika $A=B^T$, maka nilai $x+y$ adalah...",
+    "pertanyaan": "Sebuah dadu dilempar 3 kali. Peluang muncul mata dadu 6 tepat 2 kali adalah...",
     "pilihan": [
-      "$1$",
-      "$2$",
-      "$3$",
-      "$4$",
-      "$5$"
+      "$\\frac{1}{216}$",
+      "$\\frac{5}{72}$",
+      "$\\frac{5}{216}$",
+      "$\\frac{1}{72}$",
+      "$\\frac{1}{36}$"
     ],
-    "jawaban": "C",
-    "pembahasan": "Kita cari transpose dari matriks $B$: $B^T = \\begin{pmatrix} x+1 & -2 \\\\ y & 3 \\end{pmatrix}$. \\nDari kesamaan $A=B^T$, kita dapatkan:\\n$3 = x+1 \\implies x=2$. \\n$1 = y$. \\nJadi, $x+y = 2+1=3$."
+    "jawaban": "B",
+    "pembahasan": "Menggunakan distribusi binomial: \\n$P(X = k) = C(n,k) \\cdot p^k \\cdot (1-p)^{n-k}$ \\n$n = 3$, $k = 2$, $p = \\frac{1}{6}$ \\n$P = C(3,2) \\cdot (\\frac{1}{6})^2 \\cdot (\\frac{5}{6})^1$ \\n$P = 3 \\cdot \\frac{1}{36} \\cdot \\frac{5}{6} = \\frac{15}{216} = \\frac{5}{72}$"
   },
   {
-    "id": 183,
+    "id": 3,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 2 & x \\\\ -1 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & -2 \\\\ y & 4 \\end{pmatrix}$. Jika $A+B = \\begin{pmatrix} 3 & -1 \\\\ 1 & 7 \\end{pmatrix}$, maka nilai dari $2x+y$ adalah...",
+    "pertanyaan": "Dari 10 orang siswa, akan dipilih 3 orang untuk menjadi pengurus kelas. Banyaknya cara pemilihan tersebut adalah...",
     "pilihan": [
-      "$1$",
-      "$2$",
-      "$3$",
-      "$4$",
-      "$5$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Kita jumlahkan matriks $A$ dan $B$. \\n$A+B = \\begin{pmatrix} 2+1 & x-2 \\\\ -1+y & 3+4 \\end{pmatrix} = \\begin{pmatrix} 3 & x-2 \\\\ y-1 & 7 \\end{pmatrix}$. \\nDengan membandingkan dengan matriks hasil, kita dapatkan:\\n$x-2 = -1 \\implies x=1$. \\n$-1+y = 1 \\implies y=2$. \\nJadi, $2x+y = 2(1)+2=4$."
-  },
-  {
-    "id": 184,
-    "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix}$. Tentukan matriks $2A - B$.",
-    "pilihan": [
-      "$\\begin{pmatrix} -3 & -2 \\\\ -1 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -3 & 2 \\\\ 1 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 3 & 2 \\\\ 1 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -3 & 2 \\\\ -1 & 0 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Pertama, hitung $2A = 2\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix}$. \\nKemudian, hitung $2A-B$. \\n$2A-B = \\begin{pmatrix} 2 & 4 \\\\ 6 & 8 \\end{pmatrix} - \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix} = \\begin{pmatrix} 2-5 & 4-6 \\\\ 6-7 & 8-8 \\end{pmatrix} = \\begin{pmatrix} -3 & -2 \\\\ -1 & 0 \\end{pmatrix}$."
-  },
-  {
-    "id": 185,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} x+1 & 2 \\\\ 3 & x \\end{pmatrix}$ adalah matriks singular, maka nilai $x$ yang mungkin adalah...",
-    "pilihan": [
-      "$2$ atau $-3$",
-      "$1$ atau $-2$",
-      "$-1$ atau $2$",
-      "$3$ atau $-2$",
-      "$1$ atau $-3$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Matriks singular memiliki determinan nol. \\n$det(A) = (x+1)(x) - (2)(3) = x^2+x-6$. \\n$det(A)=0 \\implies x^2+x-6=0$. \\nFaktorkan persamaan kuadrat tersebut: $(x+3)(x-2)=0$. \\nJadi, nilai $x$ yang mungkin adalah $x=-3$ atau $x=2$."
-  },
-  {
-    "id": 186,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, maka matriks $A^{-1}$ adalah...",
-    "pilihan": [
-      "$\\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 2 \\\\ 3 & 2 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Determinan dari matriks $A$ adalah $det(A) = (2)(2)-(1)(3) = 4-3=1$. \\nInvers dari $A$ adalah $A^{-1} = \\frac{1}{det(A)} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$. \\n$A^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$."
-  },
-  {
-    "id": 187,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\begin{pmatrix} 2 & -1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$1$",
-      "$2$",
-      "$3$",
-      "$4$",
-      "$5$"
+      "$30$",
+      "$60$",
+      "$120$",
+      "$240$",
+      "$720$"
     ],
     "jawaban": "C",
-    "pembahasan": "Persamaan matriks ini merepresentasikan sistem persamaan linear: \\n$2x - y = 4$ \\n$x + y = 5$ \\nDengan menjumlahkan kedua persamaan, kita dapat mengeliminasi $y$: \\n$(2x-y)+(x+y)=4+5 \\implies 3x=9 \\implies x=3$."
+    "pembahasan": "Karena urutan tidak penting, menggunakan kombinasi: \\n$C(10,3) = \\frac{10!}{3! \\cdot 7!} = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$"
   },
   {
-    "id": 188,
+    "id": 4,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$. Tentukan matriks $X$ yang memenuhi $XA = I$, di mana $I$ adalah matriks identitas.",
+    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola sekaligus secara acak, peluang terambil 1 bola merah dan 1 bola biru adalah...",
     "pilihan": [
-      "$\\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -2 & 3/2 \\\\ 1 & -1/2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & -1 \\\\ -3/2 & 1/2 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Jika $XA=I$, maka matriks $X$ adalah invers dari matriks $A$. \\n$X=A^{-1}$. \\n$det(A) = (1)(4)-(2)(3) = 4-6=-2$. \\n$A^{-1} = \\frac{1}{-2} \\begin{pmatrix} 4 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -2 & 1 \\\\ 3/2 & -1/2 \\end{pmatrix}$."
-  },
-  {
-    "id": 189,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 0 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 1 \\\\ 2 & 1 \\end{pmatrix}$, maka $det(AB)$ adalah...",
-    "pilihan": [
-      "$-3$",
-      "$-4$",
-      "$-5$",
-      "$-6$",
-      "$-7$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Kita gunakan sifat $det(AB) = det(A) \\cdot det(B)$. \\n$det(A) = (2)(3)-(1)(0) = 6$. \\n$det(B) = (1)(1)-(1)(2) = 1-2=-1$. \\n$det(AB) = det(A) \\cdot det(B) = 6 \\cdot (-1) = -6$."
-  },
-  {
-    "id": 190,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $\\begin{pmatrix} 2 & 3 \\\\ -1 & 1 \\end{pmatrix} - \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, maka nilai dari $a+b+c+d$ adalah...",
-    "pilihan": [
-      "$1$",
-      "$2$",
-      "$3$",
-      "$4$",
-      "$5$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita hitung hasil pengurangan matriksnya. \\n$\\begin{pmatrix} 2-1 & 3-2 \\\\ -1-0 & 1-1 \\end{pmatrix} = \\begin{pmatrix} 1 & 1 \\\\ -1 & 0 \\end{pmatrix}$. \\nJadi, $a=1, b=1, c=-1, d=0$. \\n$a+b+c+d = 1+1-1+0 = 1$."
-  },
-  {
-    "id": 191,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$, maka matriks $AB$ adalah...",
-    "pilihan": [
-      "$\\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 4 & 3 \\\\ 2 & 1 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita hitung perkalian matriks $AB$. \\n$AB = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix} = \\begin{pmatrix} (1)(0)+(2)(1) & (1)(1)+(2)(0) \\\\ (3)(0)+(4)(1) & (3)(1)+(4)(0) \\end{pmatrix} = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$."
-  },
-  {
-    "id": 192,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\begin{pmatrix} 3 & -1 \\\\ 1 & 2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 7 \\end{pmatrix}$, maka nilai $x-y$ adalah...",
-    "pilihan": [
-      "$-1$",
-      "$0$",
-      "$1$",
-      "$2$",
-      "$3$"
+      "$\\frac{3}{28}$",
+      "$\\frac{5}{14}$",
+      "$\\frac{15}{28}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{4}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Persamaan matriks ini mewakili sistem persamaan linear: \\n$3x-y=7$ (1) \\n$x+2y=7$ (2) \\nKalikan persamaan (1) dengan 2: $6x-2y=14$. \\nJumlahkan dengan persamaan (2): $(6x-2y)+(x+2y)=14+7 \\implies 7x=21 \\implies x=3$. \\nSubstitusi $x=3$ ke persamaan (2): $3+2y=7 \\implies 2y=4 \\implies y=2$. \\nJadi, $x-y = 3-2 = 1$."
+    "pembahasan": "Total bola = 8 \\nBanyak cara mengambil 2 bola: $C(8,2) = 28$ \\nBanyak cara mengambil 1 merah dan 1 biru: $C(5,1) \\times C(3,1) = 5 \\times 3 = 15$ \\nPeluang = $\\frac{15}{28}$"
   },
   {
-    "id": 193,
+    "id": 5,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 3 & 1 \\\\ 5 & 2 \\end{pmatrix}$, tentukan $A^T$.",
+    "pertanyaan": "Rata-rata nilai ulangan 20 siswa adalah 75. Jika nilai 5 siswa terbaik dikeluarkan, rata-rata nilai siswa yang tersisa menjadi 70. Rata-rata nilai 5 siswa terbaik adalah...",
     "pilihan": [
-      "$\\begin{pmatrix} 3 & 5 \\\\ 1 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 3 & 1 \\\\ 5 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & -1 \\\\ -5 & 3 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 3 & 2 \\\\ 1 & 5 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 3 \\\\ 2 & 5 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Transpose dari sebuah matriks didapat dengan menukar baris menjadi kolom dan sebaliknya. \\n$A^T = \\begin{pmatrix} 3 & 5 \\\\ 1 & 2 \\end{pmatrix}$."
-  },
-  {
-    "id": 194,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $f(A) = A^2-5A-2I$, di mana $I$ adalah matriks identitas, maka matriks $f(A)$ adalah...",
-    "pilihan": [
-      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -5 & 0 \\\\ 0 & -5 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -1 & 2 \\\\ -3 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Pertama, hitung $A^2$. \\n$A^2 = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 1(1)+2(3) & 1(2)+2(4) \\\\ 3(1)+4(3) & 3(2)+4(4) \\end{pmatrix} = \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix}$. \\nKemudian, hitung $5A = 5\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} 5 & 10 \\\\ 15 & 20 \\end{pmatrix}$. \\nDan $2I = 2\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 & 0 \\\\ 0 & 2 \\end{pmatrix}$. \\n$f(A) = A^2-5A-2I = \\begin{pmatrix} 7 & 10 \\\\ 15 & 22 \\end{pmatrix} - \\begin{pmatrix} 5 & 10 \\\\ 15 & 20 \\end{pmatrix} - \\begin{pmatrix} 2 & 0 \\\\ 0 & 2 \\end{pmatrix} = \\begin{pmatrix} 7-5-2 & 10-10-0 \\\\ 15-15-0 & 22-20-2 \\end{pmatrix} = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$."
-  },
-  {
-    "id": 195,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$ dan $B$ adalah matriks berordo $2 \\times 2$ sedemikian rupa sehingga $AB=I$, maka matriks $B$ adalah...",
-    "pilihan": [
-      "$\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 3 & 5 \\\\ 1 & 2 \\end{pmatrix}$",
-      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
-      "$\\begin{pmatrix} -2 & -1 \\\\ -5 & -3 \\end{pmatrix}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Karena $AB=I$, maka matriks $B$ adalah invers dari matriks $A$. \\n$B = A^{-1}$. \\n$det(A) = (2)(3)-(1)(5) = 6-5=1$. \\n$A^{-1} = \\frac{1}{1} \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$."
-  },
-  {
-    "id": 196,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\begin{pmatrix} 2 & -1 \\\\ x & 3 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ 11 \\end{pmatrix}$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$-1$",
-      "$-2$",
-      "$1$",
-      "$2$",
-      "$3$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Kita hitung perkalian matriksnya. \\n$\\begin{pmatrix} (2)(1)+(-1)(4) \\\\ (x)(1)+(3)(4) \\end{pmatrix} = \\begin{pmatrix} 2-4 \\\\ x+12 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ x+12 \\end{pmatrix}$. \\nDari kesamaan matriks, kita dapatkan: \\n$x+12 = 11 \\implies x = 11-12=-1$."
-  },
-  {
-    "id": 197,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ -4 & -2 \\end{pmatrix}$, maka $det(A)$ adalah...",
-    "pilihan": [
-      "$0$",
-      "$-1$",
-      "$1$",
-      "$-2$",
-      "$2$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Determinan dari matriks $A$ adalah $det(A) = (2)(-2)-(1)(-4) = -4 - (-4) = -4+4=0$."
-  },
-  {
-    "id": 198,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 11 \\end{pmatrix}$, maka nilai $x+y$ adalah...",
-    "pilihan": [
-      "$1$",
-      "$2$",
-      "$3$",
-      "$4$",
-      "$5$"
+      "$80$",
+      "$85$",
+      "$90$",
+      "$95$",
+      "$100$"
     ],
     "jawaban": "C",
-    "pembahasan": "Persamaan matriks ini mewakili sistem persamaan linear: \\n$x+2y=5$ (1) \\n$3x+4y=11$ (2) \\nKalikan persamaan (1) dengan 3: $3x+6y=15$. \\nKurangkan persamaan (2) dari hasil di atas: $(3x+6y)-(3x+4y) = 15-11 \\implies 2y=4 \\implies y=2$. \\nSubstitusi $y=2$ ke persamaan (1): $x+2(2)=5 \\implies x+4=5 \\implies x=1$. \\nJadi, $x+y = 1+2=3$."
+    "pembahasan": "Total nilai 20 siswa: $20 \\times 75 = 1500$ \\nTotal nilai 15 siswa: $15 \\times 70 = 1050$ \\nTotal nilai 5 siswa terbaik: $1500 - 1050 = 450$ \\nRata-rata 5 siswa terbaik: $\\frac{450}{5} = 90$"
   },
   {
-    "id": 199,
+    "id": 6,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}$, maka $det(A^T)$ adalah...",
+    "pertanyaan": "Dua dadu dilempar bersama-sama. Peluang muncul jumlah mata dadu 7 atau 11 adalah...",
     "pilihan": [
-      "$24$",
-      "$12$",
-      "$6$",
-      "$-24$",
-      "$0$"
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{9}$",
+      "$\\frac{5}{18}$",
+      "$\\frac{1}{3}$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Untuk matriks diagonal, determinan adalah perkalian elemen-elemen diagonalnya. \\n$det(A) = (2)(3)(4)=24$. \\nSifat determinan menyatakan bahwa $det(A^T) = det(A)$. \\nJadi, $det(A^T)=24$."
+    "jawaban": "C",
+    "pembahasan": "Ruang sampel: $6 \\times 6 = 36$ \\nJumlah 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 cara \\nJumlah 11: (5,6),(6,5) = 2 cara \\nTotal cara = 8 \\nPeluang = $\\frac{8}{36} = \\frac{2}{9}$"
   },
   {
-    "id": 200,
+    "id": 7,
     "kategori": "Sulit",
-    "pertanyaan": "Jika matriks $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$, dan $B=A^2$, maka $tr(B)$ adalah...",
+    "pertanyaan": "Simpangan baku dari data: 2, 4, 6, 8, 10 adalah...",
     "pilihan": [
-      "$10$",
+      "$2$",
+      "$2\\sqrt{2}$",
+      "$\\sqrt{10}$",
+      "$2\\sqrt{5}$",
+      "$4$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rata-rata: $\\frac{2+4+6+8+10}{5} = 6$ \\nVariansi: $\\frac{(2-6)^2+(4-6)^2+(6-6)^2+(8-6)^2+(10-6)^2}{5}$ \\n$= \\frac{16+4+0+4+16}{5} = \\frac{40}{5} = 8$ \\nSimpangan baku: $\\sqrt{8} = 2\\sqrt{2}$"
+  },
+  {
+    "id": 8,
+    "kategori": "Sulit",
+    "pertanyaan": "Dalam suatu tes, peluang seseorang lulus adalah 0,8. Jika 5 orang mengikuti tes, peluang tepat 3 orang lulus adalah...",
+    "pilihan": [
+      "$0,1024$",
+      "$0,2048$",
+      "$0,3072$",
+      "$0,4096$",
+      "$0,5120$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Distribusi binomial: $n=5$, $k=3$, $p=0,8$ \\n$P = C(5,3) \\cdot (0,8)^3 \\cdot (0,2)^2$ \\n$P = 10 \\cdot 0,512 \\cdot 0,04 = 0,2048$"
+  },
+  {
+    "id": 9,
+    "kategori": "Sulit",
+    "pertanyaan": "Median dari data: 12, 8, 15, 10, 18, 5, 20, 16 adalah...",
+    "pilihan": [
       "$11$",
       "$12$",
       "$13$",
+      "$14$",
+      "$15$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Urutkan data: 5, 8, 10, 12, 15, 16, 18, 20 \\nBanyak data genap (8), median = rata-rata data ke-4 dan ke-5 \\nMedian = $\\frac{12 + 15}{2} = \\frac{27}{2} = 13,5$"
+  },
+  {
+    "id": 10,
+    "kategori": "Sulit",
+    "pertanyaan": "Peluang hujan hari ini adalah 0,4. Jika hujan, peluang Andi terlambat adalah 0,7. Jika tidak hujan, peluang Andi terlambat adalah 0,2. Peluang Andi terlambat hari ini adalah...",
+    "pilihan": [
+      "$0,28$",
+      "$0,32$",
+      "$0,36$",
+      "$0,40$",
+      "$0,44$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Menggunakan teorema probabilitas total: \\n$P(T) = P(H) \\cdot P(T|H) + P(H^c) \\cdot P(T|H^c)$ \\n$P(T) = (0,4 \\times 0,7) + (0,6 \\times 0,2)$ \\n$P(T) = 0,28 + 0,12 = 0,40$"
+  },
+  {
+    "id": 11,
+    "kategori": "Sulit",
+    "pertanyaan": "Dalam sekelompok 50 orang, 30 orang suka matematika, 25 orang suka fisika, dan 10 orang suka keduanya. Jika dipilih satu orang secara acak, peluang yang terpilih tidak suka matematika maupun fisika adalah...",
+    "pilihan": [
+      "$0,1$",
+      "$0,2$",
+      "$0,3$",
+      "$0,4$",
+      "$0,5$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Menggunakan diagram Venn: \\nHanya matematika: 30-10=20 \\nHanya fisika: 25-10=15 \\nSuka keduanya: 10 \\nTotal yang suka: 20+15+10=45 \\nTidak suka keduanya: 50-45=5 \\nPeluang = $\\frac{5}{50} = 0,1$"
+  },
+  {
+    "id": 12,
+    "kategori": "Sulit",
+    "pertanyaan": "Kuartil bawah dari data: 3, 7, 4, 8, 5, 9, 6, 10, 12, 15 adalah...",
+    "pilihan": [
+      "$4,5$",
+      "$5$",
+      "$5,5$",
+      "$6$",
+      "$6,5$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Urutkan data: 3, 4, 5, 6, 7, 8, 9, 10, 12, 15 \\nBanyak data: 10 \\nLetak Q1 = data ke-$\\frac{1}{4}(10+1)$ = data ke-2,75 \\nQ1 = data ke-2 + 0,75(data ke-3 - data ke-2) \\nQ1 = 4 + 0,75(5-4) = 4 + 0,75 = 4,75"
+  },
+  {
+    "id": 13,
+    "kategori": "Sulit",
+    "pertanyaan": "Dari 8 pria dan 6 wanita akan dibentuk panitia yang terdiri dari 5 orang. Peluang panitia terdiri dari 3 pria dan 2 wanita adalah...",
+    "pilihan": [
+      "$\\frac{10}{33}$",
+      "$\\frac{15}{77}$",
+      "$\\frac{20}{77}$",
+      "$\\frac{25}{77}$",
+      "$\\frac{30}{77}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Total cara: $C(14,5) = 2002$ \\nCara memilih 3 pria dari 8: $C(8,3) = 56$ \\nCara memilih 2 wanita dari 6: $C(6,2) = 15$ \\nTotal cara favorable: $56 \\times 15 = 840$ \\nPeluang = $\\frac{840}{2002} = \\frac{60}{143}$"
+  },
+  {
+    "id": 14,
+    "kategori": "Sulit",
+    "pertanyaan": "Rata-rata harmonis dari data: 2, 3, 6 adalah...",
+    "pilihan": [
+      "$2$",
+      "$2,5$",
+      "$3$",
+      "$3,5$",
+      "$4$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Rata-rata harmonis = $\\frac{n}{\\frac{1}{x_1} + \\frac{1}{x_2} + \\frac{1}{x_3}}$ \\n$= \\frac{3}{\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6}} = \\frac{3}{\\frac{3+2+1}{6}} = \\frac{3}{1} = 3$"
+  },
+  {
+    "id": 15,
+    "kategori": "Sulit",
+    "pertanyaan": "Dalam suatu distribusi normal, nilai antara z = -1 dan z = 1 mencakup persentase sebesar...",
+    "pilihan": [
+      "$50\\%$",
+      "$68\\%$",
+      "$95\\%$",
+      "$99\\%$",
+      "$100\\%$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Dalam distribusi normal standar: \\n- Luas antara z = -1 dan z = 1 adalah 68,27% \\n- Luas antara z = -2 dan z = 2 adalah 95,45% \\n- Luas antara z = -3 dan z = 3 adalah 99,73%"
+  },
+  {
+    "id": 16,
+    "kategori": "Sulit",
+    "pertanyaan": "Modus dari data: 3, 5, 5, 6, 7, 7, 7, 8, 9 adalah...",
+    "pilihan": [
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Frekuensi masing-masing nilai: \\n3: 1 kali, 5: 2 kali, 6: 1 kali, 7: 3 kali, 8: 1 kali, 9: 1 kali \\nNilai dengan frekuensi tertinggi adalah 7 (muncul 3 kali)"
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika variansi dari data 2, 4, 6, 8, x adalah 8, maka nilai x adalah...",
+    "pilihan": [
+      "$6$",
+      "$8$",
+      "$10$",
+      "$12$",
       "$14$"
     ],
-    "jawaban": "E",
-    "pembahasan": "Pertama, kita hitung $A^2$. \\n$A^2 = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix} \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix} = \\begin{pmatrix} (2)(2)+(1)(3) & (2)(1)+(1)(2) \\\\ (3)(2)+(2)(3) & (3)(1)+(2)(2) \\end{pmatrix} = \\begin{pmatrix} 7 & 4 \\\\ 12 & 7 \\end{pmatrix}$. \\nTrace dari matriks adalah jumlah elemen-elemen diagonalnya. \\n$tr(B) = tr(A^2) = 7+7=14$."
+    "jawaban": "C",
+    "pembahasan": "Rata-rata = $\\frac{2+4+6+8+x}{5} = \\frac{20+x}{5}$ \\nVariansi = $\\frac{\\sum(x_i-\\bar{x})^2}{n} = 8$ \\nDengan mencoba option, untuk x=10: \\nRata-rata = $\\frac{30}{5}=6$ \\nVariansi = $\\frac{(2-6)^2+(4-6)^2+(6-6)^2+(8-6)^2+(10-6)^2}{5}$ \\n$= \\frac{16+4+0+4+16}{5} = \\frac{40}{5} = 8$"
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Peluang seorang penembak mengenai sasaran adalah 0,6. Jika ia menembak 4 kali, peluang ia mengenai sasaran tepat 2 kali adalah...",
+    "pilihan": [
+      "$0,2304$",
+      "$0,3456$",
+      "$0,3456$",
+      "$0,5184$",
+      "$0,6912$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Distribusi binomial: $n=4$, $k=2$, $p=0,6$ \\n$P = C(4,2) \\cdot (0,6)^2 \\cdot (0,4)^2$ \\n$P = 6 \\cdot 0,36 \\cdot 0,16 = 0,3456$"
+  },
+  {
+    "id": 19,
+    "kategori": "Sulit",
+    "pertanyaan": "Dari 10 soal, seorang siswa dapat mengerjakan 6 soal. Jika ujian mengharuskan mengerjakan 5 soal, banyaknya cara memilih soal yang dapat dikerjakan adalah...",
+    "pilihan": [
+      "$6$",
+      "$15$",
+      "$20$",
+      "$30$",
+      "$252$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Siswa hanya bisa mengerjakan 6 soal dari 10 soal \\nDia harus memilih 5 soal dari 6 soal yang bisa dikerjakan \\nBanyak cara = $C(6,5) = 6$"
+  },
+  {
+    "id": 20,
+    "kategori": "Sulit",
+    "pertanyaan": "Simpangan rata-rata dari data: 4, 5, 6, 7, 8 adalah...",
+    "pilihan": [
+      "$1,0$",
+      "$1,2$",
+      "$1,4$",
+      "$1,6$",
+      "$1,8$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rata-rata = $\\frac{4+5+6+7+8}{5} = 6$ \\nSimpangan rata-rata = $\\frac{|4-6|+|5-6|+|6-6|+|7-6|+|8-6|}{5}$ \\n$= \\frac{2+1+0+1+2}{5} = \\frac{6}{5} = 1,2$"
   }
 ]
