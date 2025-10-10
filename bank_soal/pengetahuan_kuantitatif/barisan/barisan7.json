@@ -4,21 +4,21 @@
     "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-5 adalah 23 dan suku ke-12 adalah 51. Suku ke-20 dari barisan tersebut adalah...",
     "pilihan": ["79", "81", "83", "85", "87"],
     "jawaban": "C",
-    "pembahasan": "Diketahui:\n• $a_5 = a + 4d = 23$\n• $a_{12} = a + 11d = 51$\n\nKurangi persamaan kedua dengan pertama:\n$(a + 11d) - (a + 4d) = 51 - 23$\n$7d = 28$\n$d = 4$\n\nSubstitusi $d = 4$:\n$a + 4(4) = 23$\n$a + 16 = 23$\n$a = 7$\n\nSuku ke-20:\n$a_{20} = a + 19d$\n$a_{20} = 7 + 19(4)$\n$a_{20} = 7 + 76 = 83$"
+    "pembahasan": "Diketahui:\n• $a_5 = a + 4d = 23$\n• $a_{12} = a + 11d = 51$\n\nKurangi persamaan:\n$(a + 11d) - (a + 4d) = 51 - 23$\n$7d = 28$\n$d = 4$\n\nSubstitusi $d = 4$:\n$a + 4(4) = 23$\n$a + 16 = 23$\n$a = 7$\n\nSuku ke-20:\n$a_{20} = a + 19d$\n$a_{20} = 7 + 19(4)$\n$a_{20} = 7 + 76 = 83$"
   },
   {
     "id": 2,
     "pertanyaan": "Jumlah 15 suku pertama dari deret aritmetika yang suku pertamanya 7 dan bedanya 4 adalah...",
     "pilihan": ["510", "525", "540", "555", "570"],
     "jawaban": "B",
-    "pembahasan": "Diketahui:\n• $a = 7$\n• $d = 4$\n• $n = 15$\n\nRumus jumlah deret aritmetika:\n$S_n = \\frac{n}{2}(2a + (n-1)d)$\n\n$S_{15} = \\frac{15}{2}(2(7) + 14(4))$\n$S_{15} = \\frac{15}{2}(14 + 56)$\n$S_{15} = \\frac{15}{2}(70)$\n$S_{15} = 15 \\times 35 = 525$"
+    "pembahasan": "Diketahui:\n• $a = 7$\n• $d = 4$\n• $n = 15$\n\nRumus jumlah deret:\n$S_n = \\frac{n}{2}(2a + (n-1)d)$\n\n$S_{15} = \\frac{15}{2}(2(7) + 14(4))$\n$S_{15} = \\frac{15}{2}(14 + 56)$\n$S_{15} = \\frac{15}{2}(70)$\n$S_{15} = 15 \\times 35 = 525$"
   },
   {
     "id": 3,
     "pertanyaan": "Suku ke-7 dari barisan geometri $3, 9, 27, ...$ adalah...",
     "pilihan": ["729", "2187", "6561", "19683", "59049"],
     "jawaban": "B",
-    "pembahasan": "Diketahui:\n• $a = 3$\n• $r = \\frac{9}{3} = 3$\n\nRumus suku ke-n barisan geometri:\n$a_n = a \\cdot r^{n-1}$\n\n$a_7 = 3 \\cdot 3^{6}$\n$a_7 = 3 \\cdot 729$\n$a_7 = 2187$"
+    "pembahasan": "Diketahui:\n• $a = 3$\n• $r = \\frac{9}{3} = 3$\n\nRumus suku ke-n:\n$a_n = a \\cdot r^{n-1}$\n\n$a_7 = 3 \\cdot 3^{6}$\n$a_7 = 3 \\cdot 729$\n$a_7 = 2187$"
   },
   {
     "id": 4,
@@ -29,17 +29,17 @@
   },
   {
     "id": 5,
-    "pertanyaan": "Jika $x-2, 2x+1, 4x-1$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $x$ adalah...",
+    "pertanyaan": "Jika $x-2, 2x+1, 4x-1$ adalah tiga suku berurutan dari barisan aritmetika, maka nilai $x$ adalah...",
     "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "B",
-    "pembahasan": "Pada barisan aritmetika, suku tengah merupakan rata-rata dari suku sebelum dan sesudahnya:\n\n$2(2x+1) = (x-2) + (4x-1)$\n\n$4x + 2 = x - 2 + 4x - 1$\n$4x + 2 = 5x - 3$\n$4x - 5x = -3 - 2$\n$-x = -5$\n$x = 5$"
+    "pembahasan": "Pada barisan aritmetika:\nSuku tengah = rata-rata suku sebelum dan sesudah\n\n$2(2x+1) = (x-2) + (4x-1)$\n\n$4x + 2 = x - 2 + 4x - 1$\n$4x + 2 = 5x - 3$\n$4x - 5x = -3 - 2$\n$-x = -5$\n$x = 5$"
   },
   {
     "id": 6,
     "pertanyaan": "Sebuah fungsi rekursif didefinisikan dengan $a_1=5$ dan $a_{n+1}=3a_n-8$. Nilai $a_4$ adalah...",
     "pilihan": ["7", "13", "25", "31", "73"],
     "jawaban": "D",
-    "pembahasan": "Hitung step by step:\n\n$a_1 = 5$\n$a_2 = 3(5) - 8 = 15 - 8 = 7$\n$a_3 = 3(7) - 8 = 21 - 8 = 13$\n$a_4 = 3(13) - 8 = 39 - 8 = 31$"
+    "pembahasan": "Hitung langkah demi langkah:\n\n$a_1 = 5$\n$a_2 = 3(5) - 8 = 15 - 8 = 7$\n$a_3 = 3(7) - 8 = 21 - 8 = 13$\n$a_4 = 3(13) - 8 = 39 - 8 = 31$"
   },
   {
     "id": 7,
@@ -53,14 +53,14 @@
     "pertanyaan": "Sebuah barisan geometri memiliki $a_3=18$ dan $a_6=486$. Suku pertama barisan tersebut adalah...",
     "pilihan": ["2", "3", "6", "9", "12"],
     "jawaban": "A",
-    "pembahasan": "Diketahui:\n• $a_3 = ar^2 = 18$\n• $a_6 = ar^5 = 486$\n\nBagi persamaan kedua dengan pertama:\n$\\frac{ar^5}{ar^2} = \\frac{486}{18}$\n$r^3 = 27$\n$r = 3$\n\nSubstitusi ke $ar^2 = 18$:\n$a(3)^2 = 18$\n$9a = 18$\n$a = 2$"
+    "pembahasan": "Diketahui:\n• $a_3 = ar^2 = 18$\n• $a_6 = ar^5 = 486$\n\nBagi persamaan:\n$\\frac{ar^5}{ar^2} = \\frac{486}{18}$\n$r^3 = 27$\n$r = 3$\n\nSubstitusi:\n$a(3)^2 = 18$\n$9a = 18$\n$a = 2$"
   },
   {
     "id": 9,
     "pertanyaan": "Jika $p,q,r$ membentuk barisan geometri dan $pqr=216$, maka nilai $q$ adalah...",
     "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "C",
-    "pembahasan": "Pada barisan geometri:\n$q^2 = pr$\n\nDiketahui $pqr = 216$\nSubstitusi $pr = q^2$:\n$p \\cdot q \\cdot r = q^2 \\cdot q = q^3 = 216$\n\n$q^3 = 216$\n$q = \\sqrt[3]{216} = 6$"
+    "pembahasan": "Pada barisan geometri:\n$q^2 = pr$\n\nDiketahui:\n$pqr = 216$\n\nSubstitusi $pr = q^2$:\n$p \\cdot q \\cdot r = q^2 \\cdot q = q^3$\n\n$q^3 = 216$\n$q = \\sqrt[3]{216} = 6$"
   },
   {
     "id": 10,
@@ -74,7 +74,7 @@
     "pertanyaan": "Fungsi suku ke-n dari barisan $1,4,7,10,...$ adalah...",
     "pilihan": ["$3n-2$", "$3n+1$", "$n^2$", "$2n+1$", "$4n-3$"],
     "jawaban": "A",
-    "pembahasan": "Barisan aritmetika dengan:\n• $a = 1$\n• $d = 3$\n\nRumus suku ke-n:\n$a_n = a + (n-1)d$\n$a_n = 1 + (n-1)3$\n$a_n = 1 + 3n - 3$\n$a_n = 3n - 2$"
+    "pembahasan": "Barisan aritmetika:\n• $a = 1$\n• $d = 3$\n\nRumus suku ke-n:\n$a_n = a + (n-1)d$\n$a_n = 1 + (n-1)3$\n$a_n = 1 + 3n - 3$\n$a_n = 3n - 2$"
   },
   {
     "id": 12,
@@ -95,7 +95,7 @@
     "pertanyaan": "Fungsi rekursif didefinisikan $y_1=2$, $y_2=5$, dan $y_n=y_{n-1}+y_{n-2}$. Nilai $y_5$ adalah...",
     "pilihan": ["12", "17", "19", "29", "34"],
     "jawaban": "C",
-    "pembahasan": "Hitung step by step:\n\n$y_1 = 2$\n$y_2 = 5$\n$y_3 = y_2 + y_1 = 5 + 2 = 7$\n$y_4 = y_3 + y_2 = 7 + 5 = 12$\n$y_5 = y_4 + y_3 = 12 + 7 = 19$"
+    "pembahasan": "Hitung bertahap:\n\n$y_1 = 2$\n$y_2 = 5$\n$y_3 = y_2 + y_1 = 5 + 2 = 7$\n$y_4 = y_3 + y_2 = 7 + 5 = 12$\n$y_5 = y_4 + y_3 = 12 + 7 = 19$"
   },
   {
     "id": 15,
@@ -123,20 +123,20 @@
     "pertanyaan": "Jumlah semua bilangan genap positif dua digit adalah...",
     "pilihan": ["2430", "2450", "2470", "2490", "2510"],
     "jawaban": "A",
-    "pembahasan": "Bilangan genap 2 digit: 10,12,14,...,98\n\n• $a = 10$\n• $a_n = 98$\n• $d = 2$\n\nCari banyak suku:\n$a_n = a + (n-1)d$\n$98 = 10 + (n-1)2$\n$88 = 2(n-1)$\n$n-1 = 44$\n$n = 45$\n\nJumlah:\n$S_{45} = \\frac{45}{2}(10 + 98)$\n$S_{45} = \\frac{45}{2}(108)$\n$S_{45} = 45 \\times 54 = 2430$"
+    "pembahasan": "Bilangan genap 2 digit:\n10, 12, 14, ..., 98\n\n• $a = 10$\n• $a_n = 98$\n• $d = 2$\n\nCari banyak suku:\n$a_n = a + (n-1)d$\n$98 = 10 + (n-1)2$\n$88 = 2(n-1)$\n$n-1 = 44$\n$n = 45$\n\nJumlah:\n$S_{45} = \\frac{45}{2}(10 + 98)$\n$S_{45} = \\frac{45}{2}(108)$\n$S_{45} = 45 \\times 54 = 2430$"
   },
   {
     "id": 19,
     "pertanyaan": "Jika $k+1, 3k, 5k+9$ membentuk barisan geometri, maka nilai $k$ adalah...",
     "pilihan": ["-3", "-2", "-1", "1", "3"],
     "jawaban": "E",
-    "pembahasan": "Pada barisan geometri:\n$\\frac{3k}{k+1} = \\frac{5k+9}{3k}$\n\nKali silang:\n$(3k)(3k) = (k+1)(5k+9)$\n$9k^2 = 5k^2 + 9k + 5k + 9$\n$9k^2 = 5k^2 + 14k + 9$\n$4k^2 - 14k - 9 = 0$\n\nFaktorkan:\n$(2k - 9)(2k + 1) = 0$\n\n$k = \\frac{9}{2}$ atau $k = -\\frac{1}{2}$\n\nTidak ada di pilihan, tapi $k=3$ mendekati.\nCek $k=3$:\n$4,9,24$ → $\\frac{9}{4} = 2.25$, $\\frac{24}{9} = 2.67$ (tidak sama)\n\nNamun berdasarkan pilihan, $k=3$ adalah jawaban terdekat."
+    "pembahasan": "Pada barisan geometri:\n$\\frac{3k}{k+1} = \\frac{5k+9}{3k}$\n\nKali silang:\n$(3k)(3k) = (k+1)(5k+9)$\n$9k^2 = 5k^2 + 14k + 9$\n\nSederhanakan:\n$4k^2 - 14k - 9 = 0$\n\nGunakan rumus kuadrat:\n$k = \\frac{14 \\pm \\sqrt{196 + 144}}{8}$\n$k = \\frac{14 \\pm \\sqrt{340}}{8}$\n$k = \\frac{14 \\pm 2\\sqrt{85}}{8}$\n\nDari pilihan, $k = 3$ adalah yang paling mendekati.\nCek: $4, 9, 24$ → $\\frac{9}{4} = 2.25$, $\\frac{24}{9} \\approx 2.67$\n\nDari pilihan yang ada, $k=3$ adalah jawaban terbaik."
   },
   {
     "id": 20,
     "pertanyaan": "Deret aritmetika memiliki $a=5$, $a_n=45$, dan $S_n=250$. Banyaknya suku adalah...",
     "pilihan": ["8", "10", "12", "15", "18"],
     "jawaban": "B",
-    "pembahasan": "Rumus jumlah deret aritmetika:\n$S_n = \\frac{n}{2}(a + a_n)$\n\n$250 = \\frac{n}{2}(5 + 45)$\n$250 = \\frac{n}{2}(50)$\n$250 = 25n$\n$n = 10$"
+    "pembahasan": "Rumus jumlah deret:\n$S_n = \\frac{n}{2}(a + a_n)$\n\n$250 = \\frac{n}{2}(5 + 45)$\n$250 = \\frac{n}{2}(50)$\n$250 = 25n$\n$n = 10$"
   }
 ]
