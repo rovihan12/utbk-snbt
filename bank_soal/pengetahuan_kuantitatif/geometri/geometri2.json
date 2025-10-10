@@ -1,40 +1,74 @@
 [
   {
-    "id": 11,
+    "id": 1,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/6.png",
     "pertanyaan": "Pada gambar berikut, $ABCD$ adalah trapesium sama kaki, sedangkan $X$ dan $Y$ terletak tepat di tengah-tengah sisi $AD$ dan $BC$. Jika luas daerah yang diarsir adalah $28\\text{ cm}^2$, maka berapakah luas $ABCD$?",
-    "pilihan": [
-      "35",
-      "42",
-      "48",
-      "56"
-    ],
+    "pilihan": ["35", "42", "48", "56"],
     "jawaban": "D",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/5.png",
-    "pembahasan": "Perhatikan gambar pembahasan. Garis $XY$ adalah garis tengah trapesium yang menghubungkan titik tengah sisi $AD$ dan $BC$. Pada trapesium sama kaki, garis yang menghubungkan titik tengah sisi tidak sejajar akan membagi trapesium menjadi dua bagian dengan luas yang sama jika ditarik ke titik-titik tertentu yang menciptakan simetri.\n\nDalam kasus ini, daerah yang diarsir adalah segitiga yang terbentuk dari titik-titik tengah tersebut. Karena $X$ dan $Y$ adalah titik tengah, dan trapesiumnya sama kaki, maka segitiga yang diarsir tersebut mencakup tepat setengah dari luas trapesium keseluruhan.\n\nLuas trapesium $ABCD = 2 \\times 28\\text{ cm}^2 = 56\\text{ cm}^2$."
+    "pembahasan": "Garis $XY$ adalah garis tengah trapesium.\nDaerah yang diarsir mencakup setengah dari luas trapesium.\nLuas trapesium $ABCD = 2 \\times 28 = 56\\text{ cm}^2$."
   },
   {
-    "id": 12,
+    "id": 2,
     "pertanyaan": "Sebuah kolam berbentuk lingkaran memiliki keliling 44 meter. Jika kolam tersebut akan dikelilingi jalan setapak selebar 2 meter, maka luas jalan setapak tersebut adalah...",
-    "pilihan": [
-      "$28\\pi$ m$^2$",
-      "$32\\pi$ m$^2$",
-      "$36\\pi$ m$^2$",
-      "$40\\pi$ m$^2$"
-    ],
+    "pilihan": ["$28\\pi$ m$^2$", "$32\\pi$ m$^2$", "$36\\pi$ m$^2$", "$40\\pi$ m$^2$"],
     "jawaban": "B",
-    "pembahasan": "Keliling kolam $K = 2\\pi r_k = 44$ meter. Dengan $\\pi \\approx \\frac{22}{7}$, maka $r_k = 7$ meter.\n\nJari-jari kolam + jalan: $r_j = 7 + 2 = 9$ meter.\n\nLuas jalan = $\\pi (9^2 - 7^2) = 32\\pi$ m$^2$."
+    "pembahasan": "Keliling kolam: $2\\pi r = 44$\n$r = 7$ meter\nJari-jari total: $7 + 2 = 9$ meter\nLuas jalan: $\\pi(9^2 - 7^2) = \\pi(81 - 49) = 32\\pi$ m$^2$"
   },
   {
-    "id": 13,
+    "id": 3,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi tegaknya 5 cm. Luas segitiga tersebut adalah...",
-    "pilihan": [
-      "15 cm$^2$",
-      "30 cm$^2$",
-      "45 cm$^2$",
-      "60 cm$^2$"
-    ],
+    "pilihan": ["15 cm$^2$", "30 cm$^2$", "45 cm$^2$", "60 cm$^2$"],
     "jawaban": "B",
-    "pembahasan": "Sisi tegak lainnya: $\\sqrt{13^2 - 5^2} = 12$ cm.\n\nLuas = $\\frac{1}{2} \\times 5 \\times 12 = 30$ cm$^2$."
+    "pembahasan": "Sisi tegak lain: $\\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$ cm\nLuas: $\\frac{1}{2} \\times 5 \\times 12 = 30$ cm$^2$"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Sebuah balok memiliki panjang 12 cm, lebar 8 cm, dan tinggi 6 cm. Panjang diagonal ruang balok tersebut adalah...",
+    "pilihan": ["$\\sqrt{244}$ cm", "$\\sqrt{264}$ cm", "$\\sqrt{284}$ cm", "$\\sqrt{304}$ cm"],
+    "jawaban": "A",
+    "pembahasan": "Diagonal ruang: $\\sqrt{p^2 + l^2 + t^2}$\n$= \\sqrt{12^2 + 8^2 + 6^2} = \\sqrt{144 + 64 + 36} = \\sqrt{244}$ cm"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 10 cm. Volume tabung tersebut adalah...",
+    "pilihan": ["$490\\pi$ cm$^3$", "$490$ cm$^3$", "$4900\\pi$ cm$^3$", "$4900$ cm$^3$"],
+    "jawaban": "A",
+    "pembahasan": "Volume tabung: $\\pi r^2 t$\n$= \\pi \\times 7^2 \\times 10 = \\pi \\times 49 \\times 10 = 490\\pi$ cm$^3$"
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Sebuah limas segiempat beraturan memiliki panjang sisi alas 10 cm dan tinggi limas 12 cm. Volume limas tersebut adalah...",
+    "pilihan": ["200 cm$^3$", "300 cm$^3$", "400 cm$^3$", "500 cm$^3$"],
+    "jawaban": "C",
+    "pembahasan": "Volume limas: $\\frac{1}{3} \\times \\text{Luas alas} \\times \\text{tinggi}$\n$= \\frac{1}{3} \\times 10^2 \\times 12 = \\frac{1}{3} \\times 100 \\times 12 = 400$ cm$^3$"
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Sebuah bola memiliki volume $288\\pi$ cm$^3$. Luas permukaan bola tersebut adalah...",
+    "pilihan": ["$144\\pi$ cm$^2$", "$288\\pi$ cm$^2$", "$432\\pi$ cm$^2$", "$576\\pi$ cm$^2$"],
+    "jawaban": "A",
+    "pembahasan": "Volume bola: $\\frac{4}{3}\\pi r^3 = 288\\pi$\n$r^3 = 216 \\Rightarrow r = 6$ cm\nLuas permukaan: $4\\pi r^2 = 4\\pi \\times 36 = 144\\pi$ cm$^2$"
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga sama sisi dengan panjang sisi 6 cm. Jika tinggi prisma 10 cm, maka volume prisma tersebut adalah...",
+    "pilihan": ["$60\\sqrt{3}$ cm$^3$", "$90\\sqrt{3}$ cm$^3$", "$120\\sqrt{3}$ cm$^3$", "$180\\sqrt{3}$ cm$^3$"],
+    "jawaban": "B",
+    "pembahasan": "Luas alas segitiga sama sisi: $\\frac{s^2\\sqrt{3}}{4} = \\frac{36\\sqrt{3}}{4} = 9\\sqrt{3}$ cm$^2$\nVolume prisma: Luas alas $\\times$ tinggi $= 9\\sqrt{3} \\times 10 = 90\\sqrt{3}$ cm$^3$"
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Sebuah kerucut memiliki diameter alas 14 cm dan garis pelukis 25 cm. Luas permukaan kerucut tersebut adalah...",
+    "pilihan": ["$224\\pi$ cm$^2$", "$308\\pi$ cm$^2$", "$396\\pi$ cm$^2$", "$484\\pi$ cm$^2$"],
+    "jawaban": "C",
+    "pembahasan": "Jari-jari: $7$ cm, garis pelukis: $25$ cm\nLuas permukaan: $\\pi r(r + s) = \\pi \\times 7(7 + 25) = 7\\pi \\times 32 = 224\\pi$ cm$^2$"
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Sebuah kubus dan sebuah bola memiliki volume yang sama. Jika panjang rusuk kubus adalah 6 cm, maka jari-jari bola tersebut adalah...",
+    "pilihan": ["$3\\sqrt[3]{\\frac{3}{\\pi}}$ cm", "$3\\sqrt[3]{\\frac{4}{\\pi}}$ cm", "$3\\sqrt[3]{\\frac{6}{\\pi}}$ cm", "$3\\sqrt[3]{\\frac{8}{\\pi}}$ cm"],
+    "jawaban": "A",
+    "pembahasan": "Volume kubus: $6^3 = 216$ cm$^3$\nVolume bola: $\\frac{4}{3}\\pi r^3 = 216$\n$r^3 = \\frac{216 \\times 3}{4\\pi} = \\frac{162}{\\pi}$\n$r = \\sqrt[3]{\\frac{162}{\\pi}} = 3\\sqrt[3]{\\frac{6}{\\pi}}$ cm"
   }
 ]
