@@ -1,282 +1,161 @@
 [
   {
-    "id": 21,
+    "id": 1,
     "kategori": "Sedang",
     "pertanyaan": "Jika $f(x) = ax + b$, dengan $f(1) = 7$ dan $f(3) = 11$, maka nilai $f(5)$ adalah...",
-    "pilihan": [
-      "13",
-      "15",
-      "17",
-      "19",
-      "21"
-    ],
+    "pilihan": ["13", "15", "17", "19", "21"],
     "jawaban": "B",
-    "pembahasan": "Kita punya sistem persamaan linear:\n$1) f(1) = a(1) + b = 7 \\Rightarrow a + b = 7$\n$2) f(3) = a(3) + b = 11 \\Rightarrow 3a + b = 11$\nKurangkan persamaan (1) dari persamaan (2):\n$(3a + b) - (a + b) = 11 - 7$\n$2a = 4 \\Rightarrow a = 2$\nSubstitusikan $a=2$ ke persamaan (1):\n$2 + b = 7 \\Rightarrow b = 5$\nJadi, fungsi $f(x) = 2x + 5$.\nMaka, $f(5) = 2(5) + 5 = 10 + 5 = 15$"
+    "pembahasan": "Dari $f(1)=7$ diperoleh $a+b=7$, dan dari $f(3)=11$ diperoleh $3a+b=11$. Kurangkan: $2a=4 \\Rightarrow a=2$. Maka $b=7-2=5$. Jadi $f(x)=2x+5$, sehingga $f(5)=2\\cdot5+5=15$."
   },
   {
-    "id": 22,
+    "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Diketahui persamaan kuadrat $2x^2 - 3x - 5 = 0$. Jika akar-akarnya adalah $x_1$ dan $x_2$, maka nilai dari $x_1^2 + x_2^2$ adalah...",
-    "pilihan": [
-      "$\\frac{9}{4}$",
-      "$\\frac{19}{4}$",
-      "$\\frac{29}{4}$",
-      "$\\frac{39}{4}$",
-      "$\\frac{49}{4}$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Untuk persamaan kuadrat $ax^2 + bx + c = 0$:\n$x_1 + x_2 = -\\frac{b}{a} = -\\frac{(-3)}{2} = \\frac{3}{2}$\n$x_1 x_2 = \\frac{c}{a} = \\frac{-5}{2}$\nNilai dari $x_1^2 + x_2^2$ dapat dicari dengan rumus $(x_1 + x_2)^2 - 2x_1 x_2$.\n$x_1^2 + x_2^2 = (\\frac{3}{2})^2 - 2(-\\frac{5}{2})$\n$= \\frac{9}{4} - (-5)$\n$= \\frac{9}{4} + 5 = \\frac{9}{4} + \\frac{20}{4} = \\frac{29}{4}$"
+    "pertanyaan": "Diketahui persamaan kuadrat $2x^2 - 3x - 5 = 0$. Jika akar-akarnya adalah $x_1$ dan $x_2$, maka nilai $x_1^2 + x_2^2$ adalah...",
+    "pilihan": ["$\\frac{9}{4}$", "$\\frac{19}{4}$", "$\\frac{29}{4}$", "$\\frac{39}{4}$", "$\\frac{49}{4}$"],
+    "jawaban": "C",
+    "pembahasan": "Gunakan rumus $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2$. Diketahui $x_1+x_2=\\frac{3}{2}$ dan $x_1x_2=-\\frac{5}{2}$. Maka $x_1^2+x_2^2=(\\frac{3}{2})^2-2(-\\frac{5}{2})=\\frac{9}{4}+5=\\frac{29}{4}$."
   },
   {
-    "id": 23,
+    "id": 3,
     "kategori": "Sedang",
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $\\frac{x+3}{x-4} < 0$ adalah...",
-    "pilihan": [
-      "$x < -3$",
-      "$x > 4$",
-      "$-3 < x < 4$",
-      "$x < -4$ atau $x > 3$",
-      "$-4 < x < 3$"
-    ],
+    "pilihan": ["$x < -3$", "$x > 4$", "$-3 < x < 4$", "$x < -4$ atau $x > 3$", "$-4 < x < 3$"],
     "jawaban": "C",
-    "pembahasan": "Pertidaksamaan $\\frac{x+3}{x-4} < 0$ akan bernilai negatif jika pembilang dan penyebut memiliki tanda yang berbeda.\nPembuat nol pembilang: $x+3 = 0 \\Rightarrow x=-3$\nPembuat nol penyebut: $x-4 = 0 \\Rightarrow x=4$\nUji titik pada garis bilangan:\n- Jika $x < -3$ (misal $x=-4$): $\\frac{-4+3}{-4-4} = \\frac{-1}{-8} = \\frac{1}{8} > 0$ (Salah)\n- Jika $-3 < x < 4$ (misal $x=0$): $\\frac{0+3}{0-4} = \\frac{3}{-4} < 0$ (Benar)\n- Jika $x > 4$ (misal $x=5$): $\\frac{5+3}{5-4} = \\frac{8}{1} = 8 > 0$ (Salah)\nJadi, himpunan penyelesaiannya adalah $-3 < x < 4$"
+    "pembahasan": "Pertidaksamaan bernilai negatif jika pembilang dan penyebut berlawanan tanda. Nol pembilang $x=-3$, nol penyebut $x=4$. Uji interval: $-3<x<4$ menghasilkan negatif. Jadi, penyelesaian $-3<x<4$."
   },
   {
-    "id": 24,
+    "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Jika $f(x) = \\frac{3x}{x-2}$, maka $f^{-1}(x)$ adalah...",
-    "pilihan": [
-      "$\\frac{2x}{x-3}$",
-      "$\\frac{x-2}{3x}$",
-      "$\\frac{3x}{x+2}$",
-      "$\\frac{2x}{x+3}$",
-      "$\\frac{x-3}{2x}$"
-    ],
+    "pilihan": ["$\\frac{2x}{x-3}$", "$\\frac{x-2}{3x}$", "$\\frac{3x}{x+2}$", "$\\frac{2x}{x+3}$", "$\\frac{x-3}{2x}$"],
     "jawaban": "A",
-    "pembahasan": "Misalkan $y = f(x)$.\n$y = \\frac{3x}{x-2}$\n$y(x-2) = 3x$\n$yx - 2y = 3x$\n$yx - 3x = 2y$\n$x(y-3) = 2y$\n$x = \\frac{2y}{y-3}$\nJadi, $f^{-1}(x) = \\frac{2x}{x-3}$"
+    "pembahasan": "Misalkan $y=f(x)=\\frac{3x}{x-2}$. Maka $y(x-2)=3x \\Rightarrow yx-2y=3x \\Rightarrow x(y-3)=2y \\Rightarrow x=\\frac{2y}{y-3}$. Jadi $f^{-1}(x)=\\frac{2x}{x-3}$."
   },
   {
-    "id": 25,
+    "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Grafik fungsi kuadrat $y = x^2 + 2x - 3$ memiliki titik puncak di...",
-    "pilihan": [
-      "$(1, -4)$",
-      "$(-1, -4)$",
-      "$(1, 4)$",
-      "$(-1, 4)$",
-      "$(2, -3)$"
-    ],
+    "pilihan": ["$(1,-4)$", "$(-1,-4)$", "$(1,4)$", "$(-1,4)$", "$(2,-3)$"],
     "jawaban": "B",
-    "pembahasan": "Untuk fungsi kuadrat $y = ax^2 + bx + c$, koordinat titik puncak $(x_p, y_p)$ diberikan oleh:\n$x_p = -\\frac{b}{2a}$\n$y_p = f(x_p)$ atau $y_p = \\frac{D}{-4a}$ dengan $D = b^2 - 4ac$.\nDalam $y = x^2 + 2x - 3$, $a=1$, $b=2$, $c=-3$.\n$x_p = -\\frac{2}{2(1)} = -1$\nSubstitusikan $x_p = -1$ ke dalam fungsi untuk mencari $y_p$:\n$y_p = (-1)^2 + 2(-1) - 3 = 1 - 2 - 3 = -4$\nJadi, titik puncaknya adalah $(-1, -4)$"
+    "pembahasan": "Titik puncak $x_p=-\\frac{b}{2a}=-\\frac{2}{2}= -1$. Substitusi $y_p=(-1)^2+2(-1)-3=-4$. Jadi titik puncak $(-1,-4)$."
   },
   {
-    "id": 26,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $2^{2x-1} > 8^{x-3}$ adalah...",
-    "pilihan": [
-      "$x < 8$",
-      "$x > 8$",
-      "$x < 6$",
-      "$x > 6$",
-      "$x < 4$"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Ubah basis menjadi sama:\n$2^{2x-1} > (2^3)^{x-3}$\n$2^{2x-1} > 2^{3(x-3)}$\nKarena basisnya ($2$) lebih besar dari 1, kita bisa langsung membandingkan eksponennya tanpa mengubah arah pertidaksamaan:\n$2x - 1 > 3(x-3)$\n$2x - 1 > 3x - 9$\n$-1 + 9 > 3x - 2x$\n$8 > x$\nJadi, $x < 8$"
+    "pilihan": ["$x < 8$", "$x > 8$", "$x < 6$", "$x > 6$", "$x < 4$"],
+    "jawaban": "A",
+    "pembahasan": "Ubah $8=2^3$, sehingga $2^{2x-1} > 2^{3(x-3)} \\Rightarrow 2x-1>3x-9 \\Rightarrow x<8$. Jadi penyelesaiannya $x<8$."
   },
   {
-    "id": 27,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $f(x) = x^2 - 4$ dan $(f \\circ g)(x) = x^2 + 2x - 3$, maka $g(x)$ adalah...",
-    "pilihan": [
-      "$x+1$",
-      "$x-1$",
-      "$x+2$",
-      "$x-2$",
-      "$x+3$"
-    ],
+    "pilihan": ["$x+1$", "$x-1$", "$x+2$", "$x-2$", "$x+3$"],
     "jawaban": "A",
-    "pembahasan": "Kita tahu bahwa $(f \\circ g)(x) = f(g(x))$.\nJadi, $f(g(x)) = (g(x))^2 - 4$.\nDiberikan $f(g(x)) = x^2 + 2x - 3$.\nMaka, $(g(x))^2 - 4 = x^2 + 2x - 3$\n$(g(x))^2 = x^2 + 2x - 3 + 4$\n$(g(x))^2 = x^2 + 2x + 1$\n$(g(x))^2 = (x+1)^2$\nSehingga, $g(x) = x+1$"
+    "pembahasan": "Dari $f(g(x))=(g(x))^2-4=x^2+2x-3 \\Rightarrow (g(x))^2=x^2+2x+1=(x+1)^2$. Jadi $g(x)=x+1$."
   },
   {
-    "id": 28,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Nilai $x$ yang memenuhi persamaan $\\sqrt{x^2 - 2x + 1} = 3$ adalah...",
-    "pilihan": [
-      "$x=2$ atau $x=-4$",
-      "$x=-2$ atau $x=4$",
-      "$x=2$ atau $x=4$",
-      "$x=-2$ atau $x=-4$",
-      "$x=3$ atau $x=-3$"
-    ],
+    "pilihan": ["$x=2$ atau $x=-4$", "$x=-2$ atau $x=4$", "$x=2$ atau $x=4$", "$x=-2$ atau $x=-4$", "$x=3$ atau $x=-3$"],
     "jawaban": "B",
-    "pembahasan": "Perhatikan bahwa $x^2 - 2x + 1 = (x-1)^2$.\nJadi, persamaan menjadi $\\sqrt{(x-1)^2} = 3$.\n$|x-1| = 3$.\nIni berarti ada dua kemungkinan:\n1) $x-1 = 3 \\Rightarrow x = 4$\n2) $x-1 = -3 \\Rightarrow x = -2$\nJadi, nilai $x$ yang memenuhi adalah $x=-2$ atau $x=4$"
+    "pembahasan": "Perhatikan $x^2-2x+1=(x-1)^2$. Maka $|x-1|=3 \\Rightarrow x-1=3 \\text{ atau } x-1=-3 \\Rightarrow x=4 \\text{ atau } x=-2$."
   },
   {
-    "id": 29,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Jika $2^{x+1} + 2^{x-1} = 20$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Faktorkan $2^x$:\n$2^x \\cdot 2^1 + 2^x \\cdot 2^{-1} = 20$\n$2^x (2 + \\frac{1}{2}) = 20$\n$2^x (\\frac{4}{2} + \\frac{1}{2}) = 20$\n$2^x (\\frac{5}{2}) = 20$\n$2^x = 20 \\times \\frac{2}{5}$\n$2^x = 4 \\times 2$\n$2^x = 8$\n$2^x = 2^3$\n$x = 3$"
+    "pembahasan": "Faktorkan $2^{x-1}$: $2^{x-1}(2^2+1)=2^{x-1}\\cdot5=20 \\Rightarrow 2^{x-1}=4 \\Rightarrow 2^{x-1}=2^2 \\Rightarrow x-1=2 \\Rightarrow x=3$."
   },
   {
-    "id": 30,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Tentukan interval penyelesaian dari pertidaksamaan $x^2 - 6x + 9 \\ge 0$.",
-    "pilihan": [
-      "$x \\le 3$",
-      "$x \\ge 3$",
-      "$x < 3$",
-      "$x > 3$",
-      "Semua bilangan real"
-    ],
+    "pilihan": ["$x \\le 3$", "$x \\ge 3$", "$x < 3$", "$x > 3$", "Semua bilangan real"],
     "jawaban": "E",
-    "pembahasan": "Pertidaksamaan $x^2 - 6x + 9 \\ge 0$ dapat difaktorkan menjadi $(x-3)^2 \\ge 0$.\nKarena kuadrat dari bilangan real selalu lebih besar atau sama dengan nol, maka $(x-3)^2$ akan selalu $\\ge 0$ untuk setiap nilai $x$ real.\nJadi, himpunan penyelesaiannya adalah semua bilangan real"
+    "pembahasan": "Faktorkan: $(x-3)^2\\ge0$. Kuadrat bilangan real selalu non-negatif, jadi semua $x$ memenuhi. Penyelesaian: semua bilangan real."
   },
   {
-    "id": 31,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $f(x) = x^2$ dan $g(x) = x+1$, maka himpunan penyelesaian dari $(f \\circ g)(x) = (g \\circ f)(x)$ adalah...",
-    "pilihan": [
-      "$\\{0\\}$",
-      "$\\{1\\}$",
-      "$\\{0, 1\\}$",
-      "$\\{-1, 0\\}$",
-      "$\\{-1\\}$"
-    ],
+    "pilihan": ["$\\{0\\}$", "$\\{1\\}$", "$\\{0,1\\}$", "$\\{-1,0\\}$", "$\\{-1\\}$"],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari $(f \\circ g)(x)$:\n$(f \\circ g)(x) = f(g(x)) = f(x+1) = (x+1)^2 = x^2 + 2x + 1$.\nKemudian, cari $(g \\circ f)(x)$:\n$(g \\circ f)(x) = g(f(x)) = g(x^2) = x^2 + 1$.\nSetarakan kedua fungsi:\n$x^2 + 2x + 1 = x^2 + 1$\n$2x = 0$\n$x = 0$.\nJadi, himpunan penyelesaiannya adalah $\\{0\\}$"
+    "pembahasan": "$(f\\circ g)(x)=(x+1)^2=x^2+2x+1$, $(g\\circ f)(x)=x^2+1$. Setarakan: $x^2+2x+1=x^2+1 \\Rightarrow 2x=0 \\Rightarrow x=0$."
   },
   {
-    "id": 32,
+    "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2 - (m+1)x + 2 = 0$. Jika $x_1 = m$, maka nilai $x_2$ adalah...",
-    "pilihan": [
-      "$-1$",
-      "$2$",
-      "$1$",
-      "$-2$",
-      "$3$"
-    ],
+    "pertanyaan": "Diketahui $x_1$ dan $x_2$ adalah akar-akar persamaan $x^2-(m+1)x+2=0$. Jika $x_1=m$, maka nilai $x_2$ adalah...",
+    "pilihan": ["$-1$", "$2$", "$1$", "$-2$", "$3$"],
     "jawaban": "C",
-    "pembahasan": "Jika $x_1 = m$ adalah salah satu akar, maka substitusikan $x_1$ ke persamaan:\n$m^2 - (m+1)m + 2 = 0$\n$m^2 - m^2 - m + 2 = 0$\n$-m + 2 = 0 \\Rightarrow m = 2$.\nDengan $m=2$, persamaan menjadi $x^2 - (2+1)x + 2 = 0 \\Rightarrow x^2 - 3x + 2 = 0$.\nFaktorkan: $(x-1)(x-2) = 0$.\nAkar-akarnya adalah $x_1=1$ dan $x_2=2$ (atau sebaliknya). Karena $x_1=m=2$, maka $x_2=1$."
+    "pembahasan": "Substitusi $x_1=m$: $m^2-(m+1)m+2=0\\Rightarrow -m+2=0\\Rightarrow m=2$. Persamaan menjadi $x^2-3x+2=0\\Rightarrow (x-1)(x-2)=0$. Karena $x_1=m=2$, maka $x_2=1$."
   },
   {
-    "id": 33,
+    "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Penyelesaian dari pertidaksamaan $\\frac{x^2 - x - 2}{x^2 - 9} \\le 0$ adalah...",
-    "pilihan": [
-      "$-3 < x \\le -1$ atau $2 \\le x < 3$",
-      "$x < -3$ atau $-1 \\le x \\le 2$ atau $x > 3$",
-      "$-3 < x < 3$",
-      "$-1 \\le x \\le 2$",
-      "$x < -1$ atau $x > 2$"
-    ],
+    "pertanyaan": "Penyelesaian dari pertidaksamaan $\\frac{x^2-x-2}{x^2-9} \\le 0$ adalah...",
+    "pilihan": ["$-3<x\\le-1$ atau $2\\le x<3$", "$x<-3$ atau $-1\\le x\\le2$ atau $x>3$", "$-3<x<3$", "$-1\\le x\\le2$", "$x<-1$ atau $x>2$"],
     "jawaban": "A",
-    "pembahasan": "Faktorkan pembilang dan penyebut:\nPembilang: $x^2 - x - 2 = (x-2)(x+1)$. Pembuat nol: $x=2, x=-1$.\nPenyebut: $x^2 - 9 = (x-3)(x+3)$. Pembuat nol: $x=3, x=-3$.\nJadi, pertidaksamaan menjadi $\\frac{(x-2)(x+1)}{(x-3)(x+3)} \\le 0$.\nTitik-titik kritis pada garis bilangan adalah $-3, -1, 2, 3$. Ingat bahwa penyebut tidak boleh nol, jadi $x \ne -3$ dan $x \ne 3$.\nUji interval:\n- $x < -3$ (misal $x=-4$): $\\frac{(-6)(-3)}{(-7)(-1)} = \\frac{18}{7} \\ge 0$ (Salah)\n- $-3 < x \\le -1$ (misal $x=-2$): $\\frac{(-4)(-1)}{(-5)(1)} = \\frac{4}{-5} \\le 0$ (Benar)\n- $-1 < x < 2$ (misal $x=0$): $\\frac{(-2)(1)}{(-3)(3)} = \\frac{-2}{-9} = \\frac{2}{9} \\ge 0$ (Salah)\n- $2 \\le x < 3$ (misal $x=2.5$): $\\frac{(0.5)(3.5)}{(-0.5)(5.5)} = \\frac{1.75}{-2.75} \\le 0$ (Benar)\n- $x > 3$ (misal $x=4$): $\\frac{(2)(5)}{(1)(7)} = \\frac{10}{7} \\ge 0$ (Salah)\nJadi, himpunan penyelesaiannya adalah $-3 < x \\le -1$ atau $2 \\le x < 3$"
+    "pembahasan": "Faktorkan: $(x-2)(x+1)/(x-3)(x+3)\\le0$. Titik kritis: $-3,-1,2,3$ (penyebut ≠0). Uji interval: $-3<x\\le-1$ dan $2\\le x<3$ menghasilkan negatif. Jadi solusi: $-3<x\\le-1$ atau $2\\le x<3$."
   },
   {
-    "id": 34,
+    "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = x^2 - 1$ dan $g(x) = 2x+1$, maka nilai $x$ yang memenuhi $(g \\circ f)(x) = 7$ adalah...",
-    "pilihan": [
-      "$x=\\pm 2$",
-      "$x=\\pm \\sqrt{2}$",
-      "$x=\\pm 3$",
-      "$x=\\pm \\sqrt{3}$",
-      "$x=\\pm 1$"
-    ],
+    "pertanyaan": "Jika $f(x)=x^2-1$ dan $g(x)=2x+1$, maka nilai $x$ yang memenuhi $(g\\circ f)(x)=7$ adalah...",
+    "pilihan": ["$x=\\pm2$", "$x=\\pm\\sqrt2$", "$x=\\pm3$", "$x=\\pm\\sqrt3$", "$x=\\pm1$"],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari $(g \\circ f)(x)$:\n$(g \\circ f)(x) = g(f(x)) = g(x^2 - 1) = 2(x^2 - 1) + 1 = 2x^2 - 2 + 1 = 2x^2 - 1$.\nKemudian, setarakan dengan 7:\n$2x^2 - 1 = 7$\n$2x^2 = 8$\n$x^2 = 4$\n$x = \\pm 2$"
+    "pembahasan": "$(g\\circ f)(x)=g(x^2-1)=2(x^2-1)+1=2x^2-1$. Setarakan $2x^2-1=7\\Rightarrow 2x^2=8\\Rightarrow x^2=4\\Rightarrow x=\\pm2$."
   },
   {
-    "id": 35,
+    "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Akar-akar persamaan $x^2 - 5x + c = 0$ adalah $x_1$ dan $x_2$. Jika $x_1^2 + x_2^2 = 13$, maka nilai $c$ adalah...",
-    "pilihan": [
-      "$4$",
-      "$6$",
-      "$8$",
-      "$10$",
-      "$12$"
-    ],
+    "pertanyaan": "Akar-akar persamaan $x^2-5x+c=0$ adalah $x_1$ dan $x_2$. Jika $x_1^2+x_2^2=13$, maka nilai $c$ adalah...",
+    "pilihan": ["$4$", "$6$", "$8$", "$10$", "$12$"],
     "jawaban": "B",
-    "pembahasan": "Dari persamaan $x^2 - 5x + c = 0$:\n$x_1 + x_2 = -\\frac{(-5)}{1} = 5$\n$x_1 x_2 = \\frac{c}{1} = c$\nDiketahui $x_1^2 + x_2^2 = 13$. Kita tahu bahwa $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$.\nSubstitusikan nilai-nilai yang diketahui:\n$(5)^2 - 2(c) = 13$\n$25 - 2c = 13$\n$25 - 13 = 2c$\n$12 = 2c$\n$c = 6$"
+    "pembahasan": "Diketahui $x_1+x_2=5$, $x_1x_2=c$. Maka $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=25-2c=13\\Rightarrow 2c=12\\Rightarrow c=6$."
   },
   {
-    "id": 36,
+    "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x-1) = 2x+3$, maka $f^{-1}(x)$ adalah...",
-    "pilihan": [
-      "$\\frac{x-1}{2}$",
-      "$\\frac{x-3}{2} - 1$",
-      "$\\frac{x-3}{2} + 1$",
-      "$\\frac{x+1}{2} - 3$",
-      "$\\frac{x-5}{2}$"
-    ],
-    "jawaban": "D",
-    "pembahasan": "Misalkan $y = x-1$, maka $x = y+1$.\nSubstitusikan $x = y+1$ ke $f(x-1) = 2x+3$:\n$f(y) = 2(y+1) + 3$\n$f(y) = 2y + 2 + 3$\n$f(y) = 2y + 5$\nJadi, $f(x) = 2x + 5$.\nUntuk mencari $f^{-1}(x)$, misalkan $z = f(x)$:\n$z = 2x + 5$\n$z - 5 = 2x$\n$x = \\frac{z-5}{2}$\nMaka, $f^{-1}(x) = \\frac{x-5}{2}$."
-  },
-  {
-    "id": 37,
-    "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $|x - 1| < \\sqrt{3}$ adalah...",
-    "pilihan": [
-      "$-1 < x < 3$",
-      "$x < -1$ atau $x > 3$",
-      "$(1-\\sqrt{2}) < x < (1+\\sqrt{2})$",
-      "$-1 < x < 1$ atau $1 < x < 3$",
-      "$(1-\\sqrt{3}) < x < (1+\\sqrt{3})$"
-    ],
+    "pertanyaan": "Jika $f(x-1)=2x+3$, maka $f^{-1}(x)$ adalah...",
+    "pilihan": ["$\\frac{x-1}{2}$", "$\\frac{x-3}{2}-1$", "$\\frac{x-3}{2}+1$", "$\\frac{x+1}{2}-3$", "$\\frac{x-5}{2}$"],
     "jawaban": "E",
-    "pembahasan": "Pertidaksamaan $|x - 1| < \\sqrt{3}$ dapat dipecah menjadi:\n$-\\sqrt{3} < x-1 < \\sqrt{3}$\nTambahkan 1 ke semua bagian:\n$1 - \\sqrt{3} < x < 1 + \\sqrt{3}$"
+    "pembahasan": "Misal $y=x-1\\Rightarrow x=y+1$. $f(y)=2(y+1)+3=2y+5$. Maka $f(x)=2x+5\\Rightarrow f^{-1}(x)=(x-5)/2$."
   },
   {
-    "id": 38,
+    "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x) = x^2 - 3x + 5$, maka nilai $x$ yang memenuhi $f(x) = f(2x-1)$ adalah...",
-    "pilihan": [
-      "$x=1$ atau $x=2$",
-      "$x=1$ atau $x=\\frac{4}{3}$",
-      "$x=2$ atau $x=\\frac{4}{3}$",
-      "$x=1$ atau $x=\\frac{5}{3}$",
-      "$x=2$ atau $x=\\frac{5}{3}$"
-    ],
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $|x-1|<\\sqrt3$ adalah...",
+    "pilihan": ["$-1<x<3$", "$x<-1$ atau $x>3$", "$(1-\\sqrt2)<x<(1+\\sqrt2)$", "$-1<x<1$ atau $1<x<3$", "$(1-\\sqrt3)<x<(1+\\sqrt3)$"],
+    "jawaban": "E",
+    "pembahasan": "$|x-1|<\\sqrt3 \\Rightarrow -\\sqrt3<x-1<\\sqrt3 \\Rightarrow 1-\\sqrt3<x<1+\\sqrt3$."
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $f(x)=x^2-3x+5$, maka nilai $x$ yang memenuhi $f(x)=f(2x-1)$ adalah...",
+    "pilihan": ["$x=1$ atau $x=2$", "$x=1$ atau $x=4/3$", "$x=2$ atau $x=4/3$", "$x=1$ atau $x=5/3$", "$x=2$ atau $x=5/3$"],
     "jawaban": "B",
-    "pembahasan": "$f(x) = f(2x-1)$\n$x^2 - 3x + 5 = (2x-1)^2 - 3(2x-1) + 5$\n$x^2 - 3x + 5 = (4x^2 - 4x + 1) - (6x - 3) + 5$\n$x^2 - 3x + 5 = 4x^2 - 4x + 1 - 6x + 3 + 5$\n$x^2 - 3x + 5 = 4x^2 - 10x + 9$\nPindahkan semua suku ke satu ruas:\n$0 = 4x^2 - x^2 - 10x + 3x + 9 - 5$\n$0 = 3x^2 - 7x + 4$\nFaktorkan persamaan kuadrat:\n$(3x-4)(x-1) = 0$\nJadi, $3x-4=0 \\Rightarrow x=\\frac{4}{3}$ atau $x-1=0 \\Rightarrow x=1$"
+    "pembahasan": "Setarakan: $x^2-3x+5=(2x-1)^2-3(2x-1)+5\\Rightarrow x^2-3x+5=4x^2-10x+9\\Rightarrow 3x^2-7x+4=0\\Rightarrow (3x-4)(x-1)=0\\Rightarrow x=1$ atau $x=4/3$."
   },
   {
-    "id": 39,
+    "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $x$ dan $y$ adalah solusi dari sistem persamaan $x - y = 1$ dan $x^2 + y^2 = 5$, maka nilai $x+y$ adalah...",
-    "pilihan": [
-      "$-5$",
-      "$-3$",
-      "$1$",
-      "$3$",
-      "$5$"
-    ],
+    "pertanyaan": "Jika $x$ dan $y$ adalah solusi dari sistem $x-y=1$ dan $x^2+y^2=5$, maka nilai $x+y$ adalah...",
+    "pilihan": ["$-5$", "$-3$", "$1$", "$3$", "$5$"],
     "jawaban": "D",
-    "pembahasan": "Kita memiliki dua persamaan:\n1) $x - y = 1 \\Rightarrow y = x-1$\n2) $x^2 + y^2 = 5$\nSubstitusikan (1) ke (2):\n$x^2 + (x-1)^2 = 5$\n$x^2 + (x^2 - 2x + 1) = 5$\n$2x^2 - 2x + 1 - 5 = 0$\n$2x^2 - 2x - 4 = 0$\n$x^2 - x - 2 = 0$\nFaktorkan: $(x-2)(x+1) = 0$\nJadi, $x=2$ atau $x=-1$.\nJika $x=2$, maka $y = 2-1 = 1$. Pasangan $(2,1)$. Maka $x+y = 2+1=3$.\nJika $x=-1$, maka $y = -1-1 = -2$. Pasangan $(-1,-2)$. Maka $x+y = -1+(-2)=-3$.\nKarena pilihan D adalah 3, maka ini adalah salah satu solusi yang mungkin."
+    "pembahasan": "Dari $x-y=1\\Rightarrow y=x-1$. Substitusi: $x^2+(x-1)^2=5\\Rightarrow 2x^2-2x-4=0\\Rightarrow x^2-x-2=0\\Rightarrow (x-2)(x+1)=0$. Jika $x=2$, $y=1\\Rightarrow x+y=3$; jika $x=-1$, $y=-2\\Rightarrow x+y=-3$. Pilihan D: $3$."
   },
   {
-    "id": 40,
+    "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Persamaan kuadrat $x^2 - px + (p-1) = 0$ mempunyai akar-akar $x_1$ dan $x_2$. Jika $x_1 = x_2 + 3$, maka nilai $p$ adalah...",
-    "pilihan": [
-      "$4$ atau $-1$",
-      "$5$ atau $-2$",
-      "$4$ atau $-2$",
-      "$5$ atau $-1$",
-      "$6$ atau $-1$"
-    ],
+    "pertanyaan": "Persamaan kuadrat $x^2-px+(p-1)=0$ mempunyai akar-akar $x_1$ dan $x_2$. Jika $x_1=x_2+3$, maka nilai $p$ adalah...",
+    "pilihan": ["$4$ atau $-1$", "$5$ atau $-2$", "$4$ atau $-2$", "$5$ atau $-1$", "$6$ atau $-1$"],
     "jawaban": "D",
-    "pembahasan": "Dari persamaan $x^2 - px + (p-1) = 0$:\nJumlah akar-akar: $x_1 + x_2 = -\\frac{-p}{1} = p$\nHasil kali akar-akar: $x_1 x_2 = \\frac{p-1}{1} = p-1$\nDiberikan $x_1 = x_2 + 3$. Substitusikan ini ke persamaan jumlah akar-akar:\n$(x_2+3) + x_2 = p$\n$2x_2 + 3 = p \\Rightarrow x_2 = \\frac{p-3}{2}$.\nSubstitusikan $x_2$ ke persamaan hasil kali akar-akar:\n$x_1 x_2 = (x_2+3)x_2 = p-1$\n$(\\frac{p-3}{2}+3)(\\frac{p-3}{2}) = p-1$\n$(\\frac{p-3+6}{2})(\\frac{p-3}{2}) = p-1$\n$(\\frac{p+3}{2})(\\frac{p-3}{2}) = p-1$\n$\\frac{p^2 - 9}{4} = p-1$\n$p^2 - 9 = 4(p-1)$\n$p^2 - 9 = 4p - 4$\n$p^2 - 4p - 5 = 0$\nFaktorkan: $(p-5)(p+1) = 0$\nJadi, $p=5$ atau $p=-1$"
+    "pembahasan": "Jumlah akar: $x_1+x_2=p$, hasil kali: $x_1x_2=p-1$. Substitusi $x_1=x_2+3\\Rightarrow 2x_2+3=p \\Rightarrow x_2=(p-3)/2$. Hasil kali: $(x_2+3)x_2=p-1\\Rightarrow ((p+3)/2)((p-3)/2)=p-1\\Rightarrow (p^2-9)/4=p-1\\Rightarrow p^2-4p-5=0\\Rightarrow (p-5)(p+1)=0$. Jadi $p=5$ atau $p=-1$."
   }
-]
