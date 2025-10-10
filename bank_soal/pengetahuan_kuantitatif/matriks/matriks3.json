@@ -1,6 +1,6 @@
 [
   {
-    "id": 41,
+    "id": 1,
     "kategori": "Mudah",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, maka $A^T$ (transpose dari A) adalah...",
     "pilihan": [
@@ -11,10 +11,10 @@
       "$\\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Transpose dari sebuah matriks didapatkan dengan mengubah baris menjadi kolom dan kolom menjadi baris.\nUntuk $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, $A^T = \\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}$."
+    "pembahasan": "Transpose dari sebuah matriks didapatkan dengan mengubah baris menjadi kolom dan kolom menjadi baris.\n\nUntuk $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$,\n\n$A^T = \\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}$"
   },
   {
-    "id": 42,
+    "id": 2,
     "kategori": "Mudah",
     "pertanyaan": "Sebuah matriks dikatakan matriks diagonal jika semua elemen di luar diagonal utamanya adalah nol. Berikut ini yang merupakan matriks diagonal adalah...",
     "pilihan": [
@@ -25,10 +25,10 @@
       "$\\begin{pmatrix} 2 & 3 \\\\ 0 & 5 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Matriks diagonal adalah matriks persegi di mana semua elemen di luar diagonal utama adalah nol.\n$\\begin{pmatrix} 2 & 0 \\\\ 0 & 5 \\end{pmatrix}$ adalah matriks diagonal karena elemen-elemen di luar diagonal utama (0 dan 0) adalah nol."
+    "pembahasan": "Matriks diagonal adalah matriks persegi di mana semua elemen di luar diagonal utama adalah nol.\n\n$\\begin{pmatrix} 2 & 0 \\\\ 0 & 5 \\end{pmatrix}$ adalah matriks diagonal karena elemen-elemen di luar diagonal utama (0 dan 0) adalah nol."
   },
   {
-    "id": 43,
+    "id": 3,
     "kategori": "Mudah",
     "pertanyaan": "Ordo matriks $B = \\begin{pmatrix} 7 \\\\ 8 \\\\ 9 \\end{pmatrix}$ adalah...",
     "pilihan": [
@@ -39,10 +39,10 @@
       "$2 \\times 1$"
     ],
     "jawaban": "B",
-    "pembahasan": "Ordo matriks ditentukan oleh jumlah baris dikali jumlah kolom. Matriks $B$ memiliki 3 baris dan 1 kolom.\nJadi, ordo matriks $B$ adalah $3 \\times 1$."
+    "pembahasan": "Ordo matriks ditentukan oleh jumlah baris dikali jumlah kolom.\n\nMatriks $B$ memiliki 3 baris dan 1 kolom.\n\nJadi, ordo matriks $B$ adalah $3 \\times 1$."
   },
   {
-    "id": 44,
+    "id": 4,
     "kategori": "Mudah",
     "pertanyaan": "Jika $C = \\begin{pmatrix} 10 & 20 \\\\ 30 & 40 \\end{pmatrix}$, maka $\\frac{1}{10}C$ adalah...",
     "pilihan": [
@@ -53,10 +53,10 @@
       "$\\begin{pmatrix} 10 & 2 \\\\ 3 & 4 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Untuk mengalikan matriks dengan skalar, kalikan setiap elemen matriks dengan skalar tersebut.\n$\\frac{1}{10}C = \\frac{1}{10} \\begin{pmatrix} 10 & 20 \\\\ 30 & 40 \\end{pmatrix} = \\begin{pmatrix} \\frac{1}{10} \\times 10 & \\frac{1}{10} \\times 20 \\\\ \\frac{1}{10} \\times 30 & \\frac{1}{10} \\times 40 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$."
+    "pembahasan": "Untuk mengalikan matriks dengan skalar, kalikan setiap elemen matriks dengan skalar tersebut.\n\n$\\frac{1}{10}C = \\frac{1}{10} \\begin{pmatrix} 10 & 20 \\\\ 30 & 40 \\end{pmatrix}$\n\n$\\frac{1}{10}C = \\begin{pmatrix} \\frac{1}{10} \\times 10 & \\frac{1}{10} \\times 20 \\\\ \\frac{1}{10} \\times 30 & \\frac{1}{10} \\times 40 \\end{pmatrix}$\n\n$\\frac{1}{10}C = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$"
   },
   {
-    "id": 45,
+    "id": 5,
     "kategori": "Mudah",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$, maka $A+B$ adalah...",
     "pilihan": [
@@ -67,10 +67,10 @@
       "$\\begin{pmatrix} 0 & 1 \\\\ 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian. Menambahkan matriks nol tidak mengubah matriks aslinya.\n$A+B = \\begin{pmatrix} 1+0 & 0+0 \\\\ 0+0 & 1+0 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$."
+    "pembahasan": "Penjumlahan matriks dilakukan dengan menjumlahkan elemen-elemen yang bersesuaian.\n\nMenambahkan matriks nol tidak mengubah matriks aslinya.\n\n$A+B = \\begin{pmatrix} 1+0 & 0+0 \\\\ 0+0 & 1+0 \\end{pmatrix}$\n\n$A+B = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
   },
   {
-    "id": 46,
+    "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Determinan dari matriks $D = \\begin{pmatrix} 5 & 2 \\\\ 3 & 1 \\end{pmatrix}$ adalah...",
     "pilihan": [
@@ -81,10 +81,10 @@
       "$7$"
     ],
     "jawaban": "A",
-    "pembahasan": "Determinan matriks $2 \\times 2$ dengan format $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad-bc$.\nUntuk $D = \\begin{pmatrix} 5 & 2 \\\\ 3 & 1 \\end{pmatrix}$, determinannya adalah $(5 \\times 1) - (2 \\times 3) = 5 - 6 = -1$."
+    "pembahasan": "Determinan matriks $2 \\times 2$ dengan format $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad-bc$.\n\nUntuk $D = \\begin{pmatrix} 5 & 2 \\\\ 3 & 1 \\end{pmatrix}$,\n\n$det(D) = (5 \\times 1) - (2 \\times 3)$\n\n$det(D) = 5 - 6 = -1$"
   },
   {
-    "id": 47,
+    "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $M = \\begin{pmatrix} 2 & -3 \\\\ 1 & 4 \\end{pmatrix}$, maka $M^T + M$ adalah...",
     "pilihan": [
@@ -95,10 +95,10 @@
       "$\\begin{pmatrix} 2 & 1 \\\\ -3 & 4 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pertama, cari transpose dari $M$: $M^T = \\begin{pmatrix} 2 & 1 \\\\ -3 & 4 \\end{pmatrix}$.\nKemudian, jumlahkan $M^T$ dengan $M$: $M^T + M = \\begin{pmatrix} 2 & 1 \\\\ -3 & 4 \\end{pmatrix} + \\begin{pmatrix} 2 & -3 \\\\ 1 & 4 \\end{pmatrix} = \\begin{pmatrix} 2+2 & 1+(-3) \\\\ -3+1 & 4+4 \\end{pmatrix} = \\begin{pmatrix} 4 & -2 \\\\ -2 & 8 \\end{pmatrix}$."
+    "pembahasan": "Pertama, cari transpose dari $M$:\n\n$M^T = \\begin{pmatrix} 2 & 1 \\\\ -3 & 4 \\end{pmatrix}$\n\nKemudian, jumlahkan $M^T$ dengan $M$:\n\n$M^T + M = \\begin{pmatrix} 2 & 1 \\\\ -3 & 4 \\end{pmatrix} + \\begin{pmatrix} 2 & -3 \\\\ 1 & 4 \\end{pmatrix}$\n\n$M^T + M = \\begin{pmatrix} 2+2 & 1+(-3) \\\\ -3+1 & 4+4 \\end{pmatrix}$\n\n$M^T + M = \\begin{pmatrix} 4 & -2 \\\\ -2 & 8 \\end{pmatrix}$"
   },
   {
-    "id": 48,
+    "id": 8,
     "kategori": "Sedang",
     "pertanyaan": "Jika $\\begin{pmatrix} 3 & y \\\\ x & 5 \\end{pmatrix} = \\begin{pmatrix} 3 & -2 \\\\ 4 & 5 \\end{pmatrix}$, maka nilai $x+y$ adalah...",
     "pilihan": [
@@ -109,10 +109,10 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\nDari persamaan tersebut:\n$x = 4$\n$y = -2$\nJadi, $x+y = 4+(-2) = 2$."
+    "pembahasan": "Dua matriks dikatakan sama jika elemen-elemen yang bersesuaian pada posisi yang sama adalah sama.\n\nDari persamaan tersebut:\n\n$x = 4$\n\n$y = -2$\n\nJadi, $x+y = 4+(-2) = 2$"
   },
   {
-    "id": 49,
+    "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Sebuah matriks dikatakan simetris jika $A = A^T$. Manakah dari matriks berikut yang merupakan matriks simetris?",
     "pilihan": [
@@ -123,10 +123,10 @@
       "$\\begin{pmatrix} 2 & 0 \\\\ 0 & 5 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Matriks simetris adalah matriks di mana $A = A^T$. Ini berarti elemen $a_{ij}$ harus sama dengan $a_{ji}$.\nUntuk $\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$, transposenya adalah $\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$, yang sama dengan matriks aslinya. Jadi, ini adalah matriks simetris."
+    "pembahasan": "Matriks simetris adalah matriks di mana $A = A^T$.\n\nIni berarti elemen $a_{ij}$ harus sama dengan $a_{ji}$.\n\nUntuk $\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$,\n\ntransposenya adalah $\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$,\n\nyang sama dengan matriks aslinya.\n\nJadi, ini adalah matriks simetris."
   },
   {
-    "id": 50,
+    "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$, maka $A^2$ adalah...",
     "pilihan": [
@@ -137,10 +137,10 @@
       "$\\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "C",
-    "pembahasan": "$A^2 = A \\times A = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$.\n$A^2 = \\begin{pmatrix} (1 \\times 1) + (1 \\times 0) & (1 \\times 1) + (1 \\times 1) \\\\ (0 \\times 1) + (1 \\times 0) & (0 \\times 1) + (1 \\times 1) \\end{pmatrix}$ \n$A^2 = \\begin{pmatrix} 1+0 & 1+1 \\\\ 0+0 & 0+1 \\end{pmatrix} = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}$."
+    "pembahasan": "$A^2 = A \\times A$\n\n$A^2 = \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 0 & 1 \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} (1 \\times 1) + (1 \\times 0) & (1 \\times 1) + (1 \\times 1) \\\\ (0 \\times 1) + (1 \\times 0) & (0 \\times 1) + (1 \\times 1) \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} 1+0 & 1+1 \\\\ 0+0 & 0+1 \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}$"
   },
   {
-    "id": 51,
+    "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} 2 & -1 \\\\ x & 3 \\end{pmatrix}$. Jika $det(A) = 10$, maka nilai $x$ adalah...",
     "pilihan": [
@@ -151,10 +151,10 @@
       "$4$"
     ],
     "jawaban": "E",
-    "pembahasan": "Determinan matriks $A$ adalah $(2 \\times 3) - (-1 \\times x) = 6 - (-x) = 6 + x$.\nKarena $det(A) = 10$, maka $6 + x = 10$.\n$x = 10 - 6 \\implies x = 4$."
+    "pembahasan": "Determinan matriks $A$ adalah:\n\n$det(A) = (2 \\times 3) - (-1 \\times x)$\n\n$det(A) = 6 - (-x) = 6 + x$\n\nKarena $det(A) = 10$, maka:\n\n$6 + x = 10$\n\n$x = 10 - 6 \\implies x = 4$"
   },
   {
-    "id": 52,
+    "id": 12,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ dan $X = \\begin{pmatrix} -1 & 1 \\\\ 1 & -1 \\end{pmatrix}$, maka matriks $Y$ yang memenuhi $XY = A$ adalah...",
     "pilihan": [
@@ -165,10 +165,10 @@
       "Tidak ada matriks Y yang memenuhi"
     ],
     "jawaban": "E",
-    "pembahasan": "Untuk mencari $Y$, kita perlu menghitung $Y = X^{-1} A$.\nTerlebih dahulu, cari invers dari $X$: $det(X) = (-1 \\times -1) - (1 \\times 1) = 1 - 1 = 0$.\nKarena $det(X) = 0$, matriks $X$ adalah matriks singular dan tidak memiliki invers. Oleh karena itu, tidak ada matriks $Y$ yang memenuhi $XY=A$."
+    "pembahasan": "Untuk mencari $Y$, kita perlu menghitung $Y = X^{-1} A$.\n\nTerlebih dahulu, cari invers dari $X$:\n\n$det(X) = (-1 \\times -1) - (1 \\times 1)$\n\n$det(X) = 1 - 1 = 0$\n\nKarena $det(X) = 0$, matriks $X$ adalah matriks singular dan tidak memiliki invers.\n\nOleh karena itu, tidak ada matriks $Y$ yang memenuhi $XY=A$."
   },
   {
-    "id": 53,
+    "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Diberikan $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$ dan $B = \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}$. Tentukan matriks $C$ jika $AC = B$.",
     "pilihan": [
@@ -179,10 +179,10 @@
       "$\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Untuk mencari $C$, kita perlu menghitung $C = A^{-1} B$.\nCari invers dari $A$: $det(A) = (2 \\times 2) - (3 \\times 1) = 4 - 3 = 1$.\n$A^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix}$.\nKemudian, kalikan $A^{-1}$ dengan $B$:\n$C = \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix} \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} (2 \\times -1) + (-3 \\times 5) \\\\ (-1 \\times -1) + (2 \\times 5) \\end{pmatrix}$ \n$C = \\begin{pmatrix} -2 - 15 \\\\ 1 + 10 \\end{pmatrix} = \\begin{pmatrix} -17 \\\\ 11 \\end{pmatrix}$."
+    "pembahasan": "Untuk mencari $C$, kita perlu menghitung $C = A^{-1} B$.\n\nCari invers dari $A$:\n\n$det(A) = (2 \\times 2) - (3 \\times 1) = 4 - 3 = 1$\n\n$A^{-1} = \\frac{1}{1} \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix} = \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix}$\n\nKemudian, kalikan $A^{-1}$ dengan $B$:\n\n$C = \\begin{pmatrix} 2 & -3 \\\\ -1 & 2 \\end{pmatrix} \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}$\n\n$C = \\begin{pmatrix} (2 \\times -1) + (-3 \\times 5) \\\\ (-1 \\times -1) + (2 \\times 5) \\end{pmatrix}$\n\n$C = \\begin{pmatrix} -2 - 15 \\\\ 1 + 10 \\end{pmatrix}$\n\n$C = \\begin{pmatrix} -17 \\\\ 11 \\end{pmatrix}$"
   },
   {
-    "id": 54,
+    "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$, $B = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$, maka $AB - BA$ adalah...",
     "pilihan": [
@@ -193,10 +193,10 @@
       "$\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Pertama, hitung $AB$:\n$AB = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix} = \\begin{pmatrix} (1 \\times 0)+(2 \\times 1) & (1 \\times 1)+(2 \\times 0) \\\\ (3 \\times 0)+(4 \\times 1) & (3 \\times 1)+(4 \\times 0) \\end{pmatrix} = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$.\nKedua, hitung $BA$:\n$BA = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = \\begin{pmatrix} (0 \\times 1)+(1 \\times 3) & (0 \\times 2)+(1 \\times 4) \\\\ (1 \\times 1)+(0 \\times 3) & (1 \\times 2)+(0 \\times 4) \\end{pmatrix} = \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix}$.\nTerakhir, hitung $AB - BA$:\n$AB - BA = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix} - \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix} = \\begin{pmatrix} 2-3 & 1-4 \\\\ 4-1 & 3-2 \\end{pmatrix} = \\begin{pmatrix} -1 & -3 \\\\ 3 & 1 \\end{pmatrix}$."
+    "pembahasan": "Pertama, hitung $AB$:\n\n$AB = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$\n\n$AB = \\begin{pmatrix} (1 \\times 0)+(2 \\times 1) & (1 \\times 1)+(2 \\times 0) \\\\ (3 \\times 0)+(4 \\times 1) & (3 \\times 1)+(4 \\times 0) \\end{pmatrix}$\n\n$AB = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$\n\nKedua, hitung $BA$:\n\n$BA = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$\n\n$BA = \\begin{pmatrix} (0 \\times 1)+(1 \\times 3) & (0 \\times 2)+(1 \\times 4) \\\\ (1 \\times 1)+(0 \\times 3) & (1 \\times 2)+(0 \\times 4) \\end{pmatrix}$\n\n$BA = \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix}$\n\nTerakhir, hitung $AB - BA$:\n\n$AB - BA = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix} - \\begin{pmatrix} 3 & 4 \\\\ 1 & 2 \\end{pmatrix}$\n\n$AB - BA = \\begin{pmatrix} 2-3 & 1-4 \\\\ 4-1 & 3-2 \\end{pmatrix}$\n\n$AB - BA = \\begin{pmatrix} -1 & -3 \\\\ 3 & 1 \\end{pmatrix}$"
   },
   {
-    "id": 55,
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$, maka $A^{10}$ adalah...",
     "pilihan": [
@@ -207,10 +207,10 @@
       "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
     ],
     "jawaban": "B",
-    "pembahasan": "Mari kita hitung beberapa pangkat pertama dari $A$:\n$A^2 = \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} = \\begin{pmatrix} 1+1 & 1+1 \\\\ 1+1 & 1+1 \\end{pmatrix} = \\begin{pmatrix} 2 & 2 \\\\ 2 & 2 \\end{pmatrix} = 2^1 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$.\n$A^3 = A^2 \\times A = 2 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} = 2 \\begin{pmatrix} 2 & 2 \\\\ 2 & 2 \\end{pmatrix} = 2^2 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$.\nTerlihat pola bahwa $A^n = 2^{n-1} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$.\nJadi, $A^{10} = 2^{10-1} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} = 2^9 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} = \\begin{pmatrix} 2^9 & 2^9 \\\\ 2^9 & 2^9 \\end{pmatrix}$."
+    "pembahasan": "Mari kita hitung beberapa pangkat pertama dari $A$:\n\n$A^2 = \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$\n\n$A^2 = \\begin{pmatrix} 1+1 & 1+1 \\\\ 1+1 & 1+1 \\end{pmatrix} = \\begin{pmatrix} 2 & 2 \\\\ 2 & 2 \\end{pmatrix} = 2^1 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$\n\n$A^3 = A^2 \\times A = 2 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$\n\n$A^3 = 2 \\begin{pmatrix} 2 & 2 \\\\ 2 & 2 \\end{pmatrix} = 2^2 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$\n\nTerlihat pola bahwa $A^n = 2^{n-1} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$\n\nJadi, $A^{10} = 2^{10-1} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix}$\n\n$A^{10} = 2^9 \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} = \\begin{pmatrix} 2^9 & 2^9 \\\\ 2^9 & 2^9 \\end{pmatrix}$"
   },
   {
-    "id": 56,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$, maka $(A+B)^T$ adalah...",
     "pilihan": [
@@ -221,10 +221,10 @@
       "$\\begin{pmatrix} 3 & 5 \\\\ 1 & 3 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Pertama, hitung $A+B$:\n$A+B = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix} + \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix} 2+1 & 3+0 \\\\ 1+0 & 4+1 \\end{pmatrix} = \\begin{pmatrix} 3 & 3 \\\\ 1 & 5 \\end{pmatrix}$.\nKemudian, cari transpose dari $(A+B)$:\n$(A+B)^T = \\begin{pmatrix} 3 & 1 \\\\ 3 & 5 \\end{pmatrix}$."
+    "pembahasan": "Pertama, hitung $A+B$:\n\n$A+B = \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix} + \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$\n\n$A+B = \\begin{pmatrix} 2+1 & 3+0 \\\\ 1+0 & 4+1 \\end{pmatrix}$\n\n$A+B = \\begin{pmatrix} 3 & 3 \\\\ 1 & 5 \\end{pmatrix}$\n\nKemudian, cari transpose dari $(A+B)$:\n\n$(A+B)^T = \\begin{pmatrix} 3 & 1 \\\\ 3 & 5 \\end{pmatrix}$"
   },
   {
-    "id": 57,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Diberikan sistem persamaan linear:\n$2x - y = 5$\n$3x + 2y = 4$\nRepresentasikan sistem ini dalam bentuk persamaan matriks $AX = B$ dan tentukan matriks $A$.",
     "pilihan": [
@@ -235,10 +235,10 @@
       "$\\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Sistem persamaan linear dapat ditulis dalam bentuk matriks $AX=B$, di mana $A$ adalah matriks koefisien, $X$ adalah matriks variabel, dan $B$ adalah matriks konstanta.\nDari sistem:\n$2x - y = 5$\n$3x + 2y = 4$\nMatriks koefisien $A$ terdiri dari koefisien $x$ dan $y$:\n$A = \\begin{pmatrix} 2 & -1 \\\\ 3 & 2 \\end{pmatrix}$."
+    "pembahasan": "Sistem persamaan linear dapat ditulis dalam bentuk matriks $AX=B$,\n\ndimana $A$ adalah matriks koefisien, $X$ adalah matriks variabel, dan $B$ adalah matriks konstanta.\n\nDari sistem:\n$2x - y = 5$\n$3x + 2y = 4$\n\nMatriks koefisien $A$ terdiri dari koefisien $x$ dan $y$:\n\n$A = \\begin{pmatrix} 2 & -1 \\\\ 3 & 2 \\end{pmatrix}$"
   },
   {
-    "id": 58,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$, maka $AB$ adalah...",
     "pilihan": [
@@ -249,10 +249,10 @@
       "$\\begin{pmatrix} -1 \\\\ -1 \\end{pmatrix}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Lakukan perkalian matriks:\n$AB = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} (2 \\times 1) + (1 \\times -1) \\\\ (4 \\times 1) + (3 \\times -1) \\end{pmatrix}$ \n$AB = \\begin{pmatrix} 2 - 1 \\\\ 4 - 3 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$."
+    "pembahasan": "Lakukan perkalian matriks:\n\n$AB = \\begin{pmatrix} 2 & 1 \\\\ 4 & 3 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$\n\n$AB = \\begin{pmatrix} (2 \\times 1) + (1 \\times -1) \\\\ (4 \\times 1) + (3 \\times -1) \\end{pmatrix}$\n\n$AB = \\begin{pmatrix} 2 - 1 \\\\ 4 - 3 \\end{pmatrix}$\n\n$AB = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$"
   },
   {
-    "id": 59,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Diberikan matriks $A = \\begin{pmatrix} k & 2 \\\\ 3 & 4 \\end{pmatrix}$. Jika $A$ adalah matriks singular, maka nilai $k$ adalah...",
     "pilihan": [
@@ -263,10 +263,10 @@
       "4"
     ],
     "jawaban": "A",
-    "pembahasan": "Matriks singular adalah matriks yang determinannya sama dengan nol.\n$det(A) = (k \\times 4) - (2 \\times 3) = 4k - 6$.\nKarena $A$ singular, $det(A) = 0$.\n$4k - 6 = 0 \\implies 4k = 6 \\implies k = \\frac{6}{4} = 1.5$."
+    "pembahasan": "Matriks singular adalah matriks yang determinannya sama dengan nol.\n\n$det(A) = (k \\times 4) - (2 \\times 3)$\n\n$det(A) = 4k - 6$\n\nKarena $A$ singular, $det(A) = 0$:\n\n$4k - 6 = 0$\n\n$4k = 6$\n\n$k = \\frac{6}{4} = 1.5$"
   },
   {
-    "id": 60,
+    "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\begin{pmatrix} x+y & 3 \\\\ 1 & x-y \\end{pmatrix} = \\begin{pmatrix} 5 & 3 \\\\ 1 & 1 \\end{pmatrix}$, maka nilai $x$ dan $y$ adalah...",
     "pilihan": [
@@ -277,6 +277,6 @@
       "$x=2, y=2$"
     ],
     "jawaban": "A",
-    "pembahasan": "Dari kesamaan matriks, kita dapatkan sistem persamaan linear:\n1) $x+y = 5$\n2) $x-y = 1$\nJumlahkan kedua persamaan:\n$(x+y) + (x-y) = 5+1$\n$2x = 6 \\implies x = 3$.\nSubstitusikan $x=3$ ke persamaan pertama:\n$3+y = 5 \\implies y = 2$.\nJadi, $x=3$ dan $y=2$."
+    "pembahasan": "Dari kesamaan matriks, kita dapatkan sistem persamaan linear:\n\n1) $x+y = 5$\n\n2) $x-y = 1$\n\nJumlahkan kedua persamaan:\n\n$(x+y) + (x-y) = 5+1$\n\n$2x = 6 \\implies x = 3$\n\nSubstitusikan $x=3$ ke persamaan pertama:\n\n$3+y = 5 \\implies y = 2$\n\nJadi, $x=3$ dan $y=2$"
   }
 ]
