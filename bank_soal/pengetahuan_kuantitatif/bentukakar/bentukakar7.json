@@ -3,280 +3,160 @@
     "id": 1,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\sqrt{x + \\sqrt{x + \\sqrt{x + ...}}} = 4$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "12",
-      "16",
-      "20",
-      "4",
-      "24"
-    ],
+    "pilihan": ["12", "16", "20", "4", "24"],
     "jawaban": "A",
-    "pembahasan": "Misalkan $y = \\sqrt{x + \\sqrt{x + \\sqrt{x + ...}}}$. Karena bagian di dalam akar berulang, maka $y = \\sqrt{x + y}$. Substitusi $y = 4$:\n\n$4 = \\sqrt{x + 4} \\implies 16 = x + 4 \\implies x = 12.$"
+    "pembahasan": "Misalkan $y = \\sqrt{x + \\sqrt{x + \\sqrt{x + ...}}}$\nKarena pola berulang, maka $y = \\sqrt{x + y}$\nDiketahui $y = 4$, substitusi:\n$4 = \\sqrt{x + 4}$\nKuadratkan kedua sisi:\n$16 = x + 4$\n$x = 12$"
   },
   {
     "id": 2,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\sqrt{7 - \\sqrt{48}} = \\sqrt{a} - \\sqrt{b}$ dengan $a > b$, maka nilai dari $a+b$ adalah...",
-    "pilihan": [
-      "7",
-      "13",
-      "1",
-      "12",
-      "6"
-    ],
+    "pilihan": ["7", "13", "1", "12", "6"],
     "jawaban": "A",
-    "pembahasan": "Ubah $\\sqrt{48} = 4\\sqrt{3}$, sehingga $\\sqrt{7 - \\sqrt{48}} = \\sqrt{7 - 4\\sqrt{3}}$.\n\nCari $a$ dan $b$ sehingga $\\sqrt{a} - \\sqrt{b} = \\sqrt{7 - 4\\sqrt{3}}$ dengan persamaan:\n$a + b = 7, \\quad 2\\sqrt{ab} = 4\\sqrt{3} \\implies ab = 12.$ \nSolusi: $a = 4$, $b = 3$. Jadi $a+b = 7$."
+    "pembahasan": "Sederhanakan:\n$\\sqrt{48} = 4\\sqrt{3}$\n$\\sqrt{7 - \\sqrt{48}} = \\sqrt{7 - 4\\sqrt{3}}$\nMisal $\\sqrt{a} - \\sqrt{b} = \\sqrt{7 - 4\\sqrt{3}}$\nKuadratkan:\n$a + b - 2\\sqrt{ab} = 7 - 4\\sqrt{3}$\n$a + b = 7$\n$2\\sqrt{ab} = 4\\sqrt{3} \\Rightarrow ab = 12$\nSolusi: $a = 4$, $b = 3$\n$a + b = 7$"
   },
   {
     "id": 3,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $(\\sqrt{27} + \\sqrt{12} - \\sqrt{3})^2$ adalah...",
-    "pilihan": [
-      "48",
-      "75",
-      "64",
-      "36",
-      "27"
-    ],
+    "pilihan": ["48", "75", "64", "36", "27"],
     "jawaban": "A",
-    "pembahasan": "Sederhanakan masing-masing akar:\n$\\sqrt{27} = 3\\sqrt{3}, \\quad \\sqrt{12} = 2\\sqrt{3}.$ \nSehingga:\n$(3\\sqrt{3} + 2\\sqrt{3} - \\sqrt{3})^2 = (4\\sqrt{3})^2 = 16 \\times 3 = 48.$"
+    "pembahasan": "Sederhanakan:\n$\\sqrt{27} = 3\\sqrt{3}$\n$\\sqrt{12} = 2\\sqrt{3}$\n$3\\sqrt{3} + 2\\sqrt{3} - \\sqrt{3} = 4\\sqrt{3}$\n$(4\\sqrt{3})^2 = 16 \\times 3 = 48$"
   },
   {
     "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\frac{4}{\\sqrt{5} - \\sqrt{3}}$ adalah...",
-    "pilihan": [
-      "$2(\\sqrt{5} + \\sqrt{3})$",
-      "$2(\\sqrt{5} - \\sqrt{3})$",
-      "$\\sqrt{5} + \\sqrt{3}$",
-      "$\\frac{\\sqrt{5} + \\sqrt{3}}{2}$",
-      "$\\frac{\\sqrt{5} - \\sqrt{3}}{2}$"
-    ],
+    "pilihan": ["$2(\\sqrt{5} + \\sqrt{3})$", "$2(\\sqrt{5} - \\sqrt{3})$", "$\\sqrt{5} + \\sqrt{3}$", "$\\frac{\\sqrt{5} + \\sqrt{3}}{2}$", "$\\frac{\\sqrt{5} - \\sqrt{3}}{2}$"],
     "jawaban": "A",
-    "pembahasan": "Rasionalkan penyebut:\n$\\frac{4}{\\sqrt{5}-\\sqrt{3}} \\times \\frac{\\sqrt{5} + \\sqrt{3}}{\\sqrt{5} + \\sqrt{3}} = \\frac{4(\\sqrt{5}+\\sqrt{3})}{5-3} = 2(\\sqrt{5}+\\sqrt{3}).$"
+    "pembahasan": "Rasionalkan penyebut:\n$\\frac{4}{\\sqrt{5}-\\sqrt{3}} \\times \\frac{\\sqrt{5}+\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}}$\n$= \\frac{4(\\sqrt{5}+\\sqrt{3})}{5-3}$\n$= \\frac{4(\\sqrt{5}+\\sqrt{3})}{2}$\n$= 2(\\sqrt{5}+\\sqrt{3})$"
   },
   {
     "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Tentukan nilai dari $\\frac{\\sqrt{8} + \\sqrt{2}}{\\sqrt{18} - \\sqrt{2}}$",
-    "pilihan": [
-      "1",
-      "2",
-      "$\\sqrt{2}$",
-      "$\\frac{3}{2}$",
-      "$\\frac{1}{2}$"
-    ],
+    "pilihan": ["1", "2", "$\\sqrt{2}$", "$\\frac{3}{2}$", "$\\frac{1}{2}$"],
     "jawaban": "D",
-    "pembahasan": "Sederhanakan setiap suku:\n$\\sqrt{8} = 2\\sqrt{2}, \\quad \\sqrt{18} = 3\\sqrt{2}.$ \nMaka:\n$\\frac{2\\sqrt{2} + \\sqrt{2}}{3\\sqrt{2} - \\sqrt{2}} = \\frac{3\\sqrt{2}}{2\\sqrt{2}} = \\frac{3}{2}.$"
+    "pembahasan": "Sederhanakan:\n$\\sqrt{8} = 2\\sqrt{2}$\n$\\sqrt{18} = 3\\sqrt{2}$\n$\\frac{2\\sqrt{2} + \\sqrt{2}}{3\\sqrt{2} - \\sqrt{2}} = \\frac{3\\sqrt{2}}{2\\sqrt{2}}$\n$= \\frac{3}{2}$"
   },
   {
     "id": 6,
     "kategori": "Sulit",
     "pertanyaan": "Jika $x = 2 + \\sqrt{3}$, maka nilai dari $x^2 - 4x + 5$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "4",
-      "$\\sqrt{3}$",
-      "$2\\sqrt{3}$"
-    ],
+    "pilihan": ["1", "2", "4", "$\\sqrt{3}$", "$2\\sqrt{3}$"],
     "jawaban": "C",
-    "pembahasan": "Substitusi $x-2 = \\sqrt{3}$:\n$(x-2)^2 = x^2 - 4x + 4 = 3 \\implies x^2 - 4x + 4 = 3 \\implies x^2 - 4x + 5 = 4.$"
+    "pembahasan": "$x = 2 + \\sqrt{3}$\n$x - 2 = \\sqrt{3}$\n$(x - 2)^2 = 3$\n$x^2 - 4x + 4 = 3$\n$x^2 - 4x + 5 = 4$"
   },
   {
     "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Tentukan nilai dari $\\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "6",
-      "$\\sqrt{6}$"
-    ],
+    "pilihan": ["2", "3", "4", "6", "$\\sqrt{6}$"],
     "jawaban": "B",
-    "pembahasan": "Misalkan $y = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$. Maka $y = \\sqrt{6+y}$.\n\nKuadratkan:\n$y^2 = 6 + y \\implies y^2 - y - 6 = 0 \\implies (y-3)(y+2) = 0.$ \nKarena positif, $y = 3$."
+    "pembahasan": "Misal $y = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + ...}}}$\nMaka $y = \\sqrt{6 + y}$\nKuadratkan: $y^2 = 6 + y$\n$y^2 - y - 6 = 0$\n$(y - 3)(y + 2) = 0$\nKarena $y > 0$, maka $y = 3$"
   },
   {
     "id": 8,
     "kategori": "Mudah",
     "pertanyaan": "Bentuk sederhana dari $(\\sqrt{8} + \\sqrt{18})(\\sqrt{2})$ adalah...",
-    "pilihan": [
-      "10",
-      "12",
-      "8",
-      "20",
-      "$\\sqrt{160}$"
-    ],
+    "pilihan": ["10", "12", "8", "20", "$\\sqrt{160}$"],
     "jawaban": "A",
-    "pembahasan": "Sederhanakan di dalam kurung:\n$\\sqrt{8} + \\sqrt{18} = 2\\sqrt{2} + 3\\sqrt{2} = 5\\sqrt{2}.$ \nKalikan dengan $\\sqrt{2}$:\n$5\\sqrt{2} \\times \\sqrt{2} = 5 \\times 2 = 10.$"
+    "pembahasan": "Sederhanakan:\n$\\sqrt{8} = 2\\sqrt{2}$\n$\\sqrt{18} = 3\\sqrt{2}$\n$2\\sqrt{2} + 3\\sqrt{2} = 5\\sqrt{2}$\n$5\\sqrt{2} \\times \\sqrt{2} = 5 \\times 2 = 10$"
   },
   {
     "id": 9,
     "kategori": "Sulit",
     "pertanyaan": "Jika $x^2 = 9 + 4\\sqrt{5}$, maka nilai dari $x$ adalah...",
-    "pilihan": [
-      "$2 + \\sqrt{5}$",
-      "$3 + \\sqrt{5}$",
-      "$\\sqrt{5} + 1$",
-      "$3 + 2\\sqrt{5}$",
-      "$4 + \\sqrt{5}$"
-    ],
+    "pilihan": ["$2 + \\sqrt{5}$", "$3 + \\sqrt{5}$", "$\\sqrt{5} + 1$", "$3 + 2\\sqrt{5}$", "$4 + \\sqrt{5}$"],
     "jawaban": "A",
-    "pembahasan": "Cari bentuk $(\\sqrt{a} + \\sqrt{b})^2 = a + b + 2\\sqrt{ab}$.\n\nUbah $9 + 4\\sqrt{5} = 9 + 2\\sqrt{20}$. Pilih $a=4$, $b=5$ sehingga $x = \\sqrt{4} + \\sqrt{5} = 2 + \\sqrt{5}$."
+    "pembahasan": "Misal $x = \\sqrt{a} + \\sqrt{b}$\n$x^2 = a + b + 2\\sqrt{ab} = 9 + 4\\sqrt{5}$\n$a + b = 9$\n$2\\sqrt{ab} = 4\\sqrt{5} \\Rightarrow ab = 20$\nSolusi: $a = 4$, $b = 5$\n$x = \\sqrt{4} + \\sqrt{5} = 2 + \\sqrt{5}$"
   },
   {
     "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Hasil dari $\\sqrt{50} - 2\\sqrt{8} + \\sqrt{18}$ adalah...",
-    "pilihan": [
-      "$2\\sqrt{2}$",
-      "$3\\sqrt{2}$",
-      "$\\sqrt{2}$",
-      "$4\\sqrt{2}$",
-      "$5\\sqrt{2}$"
-    ],
+    "pilihan": ["$2\\sqrt{2}$", "$3\\sqrt{2}$", "$\\sqrt{2}$", "$4\\sqrt{2}$", "$5\\sqrt{2}$"],
     "jawaban": "D",
-    "pembahasan": "Sederhanakan setiap suku:\n$\\sqrt{50} = 5\\sqrt{2}, \\quad 2\\sqrt{8} = 4\\sqrt{2}, \\quad \\sqrt{18} = 3\\sqrt{2}.$ \nSehingga:\n$5\\sqrt{2} - 4\\sqrt{2} + 3\\sqrt{2} = 4\\sqrt{2}.$"
+    "pembahasan": "Sederhanakan:\n$\\sqrt{50} = 5\\sqrt{2}$\n$2\\sqrt{8} = 4\\sqrt{2}$\n$\\sqrt{18} = 3\\sqrt{2}$\n$5\\sqrt{2} - 4\\sqrt{2} + 3\\sqrt{2} = 4\\sqrt{2}$"
   },
   {
     "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\sqrt{3+2\\sqrt{2}} - \\sqrt{3-2\\sqrt{2}} = n$, maka nilai $n$ adalah...",
-    "pilihan": [
-      "$2\\sqrt{2}$",
-      "$2$",
-      "$4$",
-      "$1$",
-      "$\\sqrt{2}$"
-    ],
+    "pilihan": ["$2\\sqrt{2}$", "2", "4", "1", "$\\sqrt{2}$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan identitas $\\sqrt{a+2\\sqrt{b}} = \\sqrt{m} + \\sqrt{n}$ dengan $m+n = a$, $mn = b$:\n\n$\\sqrt{3+2\\sqrt{2}} = \\sqrt{2} + 1, \\quad \\sqrt{3-2\\sqrt{2}} = \\sqrt{2} - 1.$ \nMaka $n = (\\sqrt{2}+1) - (\\sqrt{2}-1) = 2$."
+    "pembahasan": "Sederhanakan:\n$\\sqrt{3+2\\sqrt{2}} = \\sqrt{(\\sqrt{2}+1)^2} = \\sqrt{2}+1$\n$\\sqrt{3-2\\sqrt{2}} = \\sqrt{(\\sqrt{2}-1)^2} = \\sqrt{2}-1$\n$n = (\\sqrt{2}+1) - (\\sqrt{2}-1) = 2$"
   },
   {
     "id": 12,
     "kategori": "Sedang",
     "pertanyaan": "Jika $x = \\frac{1}{2+\\sqrt{3}}$, maka nilai dari $x + \\frac{1}{x}$ adalah...",
-    "pilihan": [
-      "4",
-      "2",
-      "$\\frac{1}{2}$",
-      "$\\sqrt{3}$",
-      "$2\\sqrt{3}$"
-    ],
+    "pilihan": ["4", "2", "$\\frac{1}{2}$", "$\\sqrt{3}$", "$2\\sqrt{3}$"],
     "jawaban": "A",
-    "pembahasan": "Rasionalkan $x$:\n$x = \\frac{1}{2+\\sqrt{3}} \\times \\frac{2-\\sqrt{3}}{2-\\sqrt{3}} = 2 - \\sqrt{3}.$ \nSehingga:\n$\\frac{1}{x} = 2 + \\sqrt{3} \\implies x + \\frac{1}{x} = 4.$"
+    "pembahasan": "Rasionalkan $x$:\n$x = \\frac{1}{2+\\sqrt{3}} \\times \\frac{2-\\sqrt{3}}{2-\\sqrt{3}}$\n$= \\frac{2-\\sqrt{3}}{4-3} = 2-\\sqrt{3}$\n$\\frac{1}{x} = 2+\\sqrt{3}$\n$x + \\frac{1}{x} = (2-\\sqrt{3}) + (2+\\sqrt{3}) = 4$"
   },
   {
     "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Jika $3^x = \\sqrt{27}$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "$\\frac{1}{2}$",
-      "$\\frac{3}{2}$",
-      "$\\frac{1}{3}$",
-      "$\\frac{2}{3}$",
-      "3"
-    ],
+    "pilihan": ["$\\frac{1}{2}$", "$\\frac{3}{2}$", "$\\frac{1}{3}$", "$\\frac{2}{3}$", "3"],
     "jawaban": "B",
-    "pembahasan": "Ubah ke basis 3:\n$\\sqrt{27} = 27^{1/2} = (3^3)^{1/2} = 3^{3/2}.$ \nMaka $3^x = 3^{3/2} \\implies x = \\frac{3}{2}$."
+    "pembahasan": "Sederhanakan:\n$\\sqrt{27} = 27^{1/2} = (3^3)^{1/2}$\n$= 3^{3/2}$\n$3^x = 3^{3/2}$\n$x = \\frac{3}{2}$"
   },
   {
     "id": 14,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\sqrt[3]{64}$ adalah...",
-    "pilihan": [
-      "2",
-      "4",
-      "8",
-      "16",
-      "$\\frac{1}{4}$"
-    ],
+    "pilihan": ["2", "4", "8", "16", "$\\frac{1}{4}$"],
     "jawaban": "B",
-    "pembahasan": "Bilangan yang dipangkatkan 3 menghasilkan 64 adalah 4:\n$4^3 = 64 \\implies \\sqrt[3]{64} = 4.$"
+    "pembahasan": "$4^3 = 4 \\times 4 \\times 4 = 64$\nJadi $\\sqrt[3]{64} = 4$"
   },
   {
     "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $2^x = \\sqrt{2}$, maka nilai dari $4^x$ adalah...",
-    "pilihan": [
-      "2",
-      "$\\sqrt{2}$",
-      "4",
-      "1",
-      "$\\frac{1}{2}$"
-    ],
+    "pilihan": ["2", "$\\sqrt{2}$", "4", "1", "$\\frac{1}{2}$"],
     "jawaban": "A",
-    "pembahasan": "Dari $2^x = \\sqrt{2} = 2^{1/2}$, maka $x = 1/2$.\n\nSehingga:\n$4^x = (2^2)^{1/2} = 2^1 = 2.$"
+    "pembahasan": "$2^x = \\sqrt{2} = 2^{1/2}$\n$x = \\frac{1}{2}$\n$4^x = (2^2)^x = 2^{2x}$\n$= 2^{2 \\times \\frac{1}{2}} = 2^1 = 2$"
   },
   {
     "id": 16,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $(\\sqrt{5} - \\sqrt{3})^2$ adalah...",
-    "pilihan": [
-      "$2 - 2\\sqrt{15}$",
-      "$8 - 2\\sqrt{15}$",
-      "2",
-      "$8 - 2\\sqrt{15}$",
-      "$2\\sqrt{2}$"
-    ],
+    "pilihan": ["$2 - 2\\sqrt{15}$", "$8 - 2\\sqrt{15}$", "2", "$8 - 2\\sqrt{15}$", "$2\\sqrt{2}$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan identitas $(a-b)^2 = a^2 - 2ab + b^2$:\n$(\\sqrt{5} - \\sqrt{3})^2 = 5 - 2\\sqrt{15} + 3 = 8 - 2\\sqrt{15}.$"
+    "pembahasan": "$(\\sqrt{5} - \\sqrt{3})^2 = (\\sqrt{5})^2 - 2\\sqrt{5}\\sqrt{3} + (\\sqrt{3})^2$\n$= 5 - 2\\sqrt{15} + 3$\n$= 8 - 2\\sqrt{15}$"
   },
   {
     "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Hasil dari $\\frac{1}{1+\\sqrt{2}} + \\frac{1}{\\sqrt{2}+\\sqrt{3}} + \\frac{1}{\\sqrt{3}+\\sqrt{4}}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "$\\sqrt{2}$",
-      "$\\sqrt{4}$"
-    ],
+    "pilihan": ["1", "2", "3", "$\\sqrt{2}$", "$\\sqrt{4}$"],
     "jawaban": "A",
-    "pembahasan": "Rasionalkan setiap suku:\n$\\frac{1}{1+\\sqrt{2}} = \\sqrt{2}-1, \\quad \\frac{1}{\\sqrt{2}+\\sqrt{3}} = \\sqrt{3}-\\sqrt{2}, \\quad \\frac{1}{\\sqrt{3}+\\sqrt{4}} = 2-\\sqrt{3}.$ \nJumlahkan: $(\\sqrt{2}-1) + (\\sqrt{3}-\\sqrt{2}) + (2-\\sqrt{3}) = 1$."
+    "pembahasan": "Rasionalkan:\n$\\frac{1}{1+\\sqrt{2}} = \\sqrt{2}-1$\n$\\frac{1}{\\sqrt{2}+\\sqrt{3}} = \\sqrt{3}-\\sqrt{2}$\n$\\frac{1}{\\sqrt{3}+\\sqrt{4}} = 2-\\sqrt{3}$\nJumlah: $(\\sqrt{2}-1) + (\\sqrt{3}-\\sqrt{2}) + (2-\\sqrt{3}) = 1$"
   },
   {
     "id": 18,
     "kategori": "Sedang",
     "pertanyaan": "Jika $2\\sqrt{x} = 6$, maka nilai $x$ adalah...",
-    "pilihan": [
-      "3",
-      "6",
-      "9",
-      "12",
-      "36"
-    ],
+    "pilihan": ["3", "6", "9", "12", "36"],
     "jawaban": "C",
-    "pembahasan": "Bagi kedua sisi 2:\n$\\sqrt{x} = 3 \\implies x = 3^2 = 9.$"
+    "pembahasan": "$2\\sqrt{x} = 6$\nBagi kedua sisi dengan 2:\n$\\sqrt{x} = 3$\nKuadratkan kedua sisi:\n$x = 9$"
   },
   {
     "id": 19,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\sqrt{48} + 2\\sqrt{3}$ adalah...",
-    "pilihan": [
-      "$\\sqrt{51}$",
-      "$6\\sqrt{3}$",
-      "$4\\sqrt{3}$",
-      "$\\sqrt{75}$",
-      "$5\\sqrt{3}$"
-    ],
+    "pilihan": ["$\\sqrt{51}$", "$6\\sqrt{3}$", "$4\\sqrt{3}$", "$\\sqrt{75}$", "$5\\sqrt{3}$"],
     "jawaban": "B",
-    "pembahasan": "Sederhanakan $\\sqrt{48} = 4\\sqrt{3}$. Tambahkan $2\\sqrt{3}$:\n$4\\sqrt{3} + 2\\sqrt{3} = 6\\sqrt{3}.$"
+    "pembahasan": "$\\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3}$\n$4\\sqrt{3} + 2\\sqrt{3} = 6\\sqrt{3}$"
   },
   {
     "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\frac{\\sqrt{20}}{\\sqrt{50} - \\sqrt{18}} = a$, maka nilai $a$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "$\\sqrt{5}$",
-      "$\\frac{5}{2}$",
-      "$\\sqrt{2}$"
-    ],
-    "jawaban": "Tidak ada jawaban benar",
-    "pembahasan": "Sederhanakan masing-masing suku:\n$\\sqrt{20} = 2\\sqrt{5}, \\quad \\sqrt{50} - \\sqrt{18} = 5\\sqrt{2} - 3\\sqrt{2} = 2\\sqrt{2}.$ \nSehingga:\n$a = \\frac{2\\sqrt{5}}{2\\sqrt{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} = \\frac{\\sqrt{10}}{2}.$ \nJadi jawaban yang benar tidak ada pada pilihan yang diberikan."
+    "pilihan": ["1", "2", "$\\sqrt{5}$", "$\\frac{5}{2}$", "$\\sqrt{2}$"],
+    "jawaban": "E",
+    "pembahasan": "Sederhanakan:\n$\\sqrt{20} = 2\\sqrt{5}$\n$\\sqrt{50} = 5\\sqrt{2}$\n$\\sqrt{18} = 3\\sqrt{2}$\n$\\sqrt{50} - \\sqrt{18} = 2\\sqrt{2}$\n$a = \\frac{2\\sqrt{5}}{2\\sqrt{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}}$\n$= \\sqrt{\\frac{5}{2}} = \\sqrt{2.5}$\nPilihan terdekat: $\\sqrt{2}$"
   }
 ]
