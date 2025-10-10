@@ -4,139 +4,139 @@
     "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang memiliki panjang $3x$ meter dan lebar $2x$ meter. Jika keliling kolam adalah $120$ meter, berapa luas kolam tersebut?",
     "pilihan": ["$216\\,\\text{m}^2$", "$432\\,\\text{m}^2$", "$648\\,\\text{m}^2$", "$864\\,\\text{m}^2$", "$972\\,\\text{m}^2$"],
     "jawaban": "D",
-    "pembahasan": "Keliling $= 2(3x+2x) = 10x = 120 \\Rightarrow x = 12$.<br> Luas $= 3x \\times 2x = 6x^2 = 6(12^2) = 6(144) = 864\\,\\text{m}^2$."
+    "pembahasan": "Keliling $= 2(3x + 2x) = 10x = 120 \\Rightarrow x = 12$.\\nLuas $= 3x \\times 2x = 6x^2 = 6(12^2) = 864\\,\\text{m}^2$."
   },
   {
     "id": 2,
     "pertanyaan": "Sebuah proyek pembangunan dapat diselesaikan oleh $n$ pekerja dalam $24$ hari. Jika $4$ pekerja mengundurkan diri setelah bekerja $8$ hari, proyek selesai dalam **$28$ hari** total. Berapa nilai $n$?",
     "pilihan": ["$12$", "$14$", "$16$", "$18$", "$20$"],
-    "jawaban": "D",
-    "pembahasan": "Total pekerjaan $= 24n$.<br> Pekerjaan 8 hari pertama $= 8n$.<br> Sisa pekerjaan $= 24n - 8n = 16n$.<br> Sisa waktu $= 28 - 8 = 20$ hari.<br> Sisa pekerjaan dikerjakan oleh $(n-4)$ pekerja dalam 20 hari: $(n-4)\\times 20 = 16n$.<br> $20n - 80 = 16n \\Rightarrow 4n=80 \\Rightarrow n=20$. **[Kunci jawaban diubah menjadi E (20) agar konsisten dengan soal yang diubah menjadi 28 hari.]**"
+    "jawaban": "E",
+    "pembahasan": "Total pekerjaan $= 24n$.\\n8 hari pertama dikerjakan oleh $n$ pekerja: $8n$.\\nSisa pekerjaan $= 24n - 8n = 16n$.\\nSisa waktu $= 20$ hari, dengan $(n - 4)$ pekerja: $(n - 4) \\times 20 = 16n$.\\n$20n - 80 = 16n \\Rightarrow 4n = 80 \\Rightarrow n = 20$."
   },
   {
     "id": 3,
     "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian $40$ meter. Pantulan pertama mencapai $\\tfrac{3}{4}$ dari tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
     "pilihan": ["$160$ m", "$200$ m", "$240$ m", "$280$ m", "$320$ m"],
     "jawaban": "D",
-    "pembahasan": "Jarak total $= \text{ketinggian awal} + 2 \\times \\text{jumlah deret pantulan}$.<br> Jumlah deret pantulan $=\\frac{\\text{pantulan pertama}}{1-r} = \\frac{40 \\times 3/4}{1-3/4} = \\frac{30}{1/4} = 120$.<br> Total Jarak $= 40 + 2(120) = 280\\,\\text{m}$."
+    "pembahasan": "Pantulan pertama: $40 \\times \\tfrac{3}{4} = 30$.\\nJumlah deret pantulan $= \\dfrac{30}{1 - \\tfrac{3}{4}} = 120$.\\nTotal jarak $= 40 + 2(120) = 280\\,\\text{m}$."
   },
   {
     "id": 4,
     "pertanyaan": "Sebuah toko memberikan diskon $25\\%$ kemudian diskon tambahan $20\\%$. Berapa total diskon dari harga awal?",
     "pilihan": ["$40\\%$", "$42.5\\%$", "$45\\%$", "$47.5\\%$", "$50\\%$"],
     "jawaban": "A",
-    "pembahasan": "Harga akhir $= (1 - 0.25) \\times (1 - 0.20) = 0.75 \\times 0.80 = 0.60$ dari harga awal.<br> Diskon total $= 1 - 0.60 = 40\\%$."
+    "pembahasan": "Harga akhir $= (1 - 0.25)(1 - 0.20) = 0.75 \\times 0.80 = 0.60$.\\nDiskon total $= 1 - 0.60 = 0.40 = 40\\%$."
   },
   {
     "id": 5,
     "pertanyaan": "Sebuah tangki air berbentuk tabung dengan diameter $14$ dm dan tinggi $10$ dm. Berapa volume air dalam liter yang dapat ditampung? $(\\pi = \\tfrac{22}{7})$",
     "pilihan": ["$1540$ L", "$1640$ L", "$1740$ L", "$1840$ L", "$1940$ L"],
     "jawaban": "A",
-    "pembahasan": "Jari-jari $r= 7$ dm. Volume $= \\pi r^2 h = \\tfrac{22}{7}\\times 7^2 \\times 10 = 1540$ dm$^3$.<br> Karena $1$ dm$^3 = 1$ L, maka volume $=1540$ L."
+    "pembahasan": "Jari-jari $r = 7$ dm.\\nVolume $= \\pi r^2 h = \\tfrac{22}{7} \\times 7^2 \\times 10 = 1540$ dm$^3$.\\nKarena $1$ dm$^3 = 1$ L, maka volume $= 1540$ L."
   },
   {
     "id": 6,
     "pertanyaan": "Sebuah mobil menempuh $\\tfrac{1}{2}$ jarak dengan kecepatan $60$ km/jam dan sisanya dengan kecepatan $90$ km/jam. Kecepatan rata-rata seluruh perjalanan adalah...",
     "pilihan": ["$68$ km/jam", "$70$ km/jam", "$72$ km/jam", "$75$ km/jam", "$78$ km/jam"],
     "jawaban": "C",
-    "pembahasan": "Misal jarak total $= 2D$. Jarak pertama $= D$ dan jarak kedua $= D$.\n Waktu tempuh total $= T_1 + T_2 = \\frac{D}{60} + \\frac{D}{90} = \\frac{3D + 2D}{180} = \\frac{5D}{180} = \\frac{D}{36}$.\n Kecepatan rata-rata $= \\frac{\\text{Total Jarak}}{\\text{Total Waktu}} = \\frac{2D}{D/36} = 2D \\times \\frac{36}{D} = 72 \\text{ km/jam}."
+    "pembahasan": "Misal jarak total $= 2D$.\\nWaktu total $= \\dfrac{D}{60} + \\dfrac{D}{90} = \\dfrac{5D}{180} = \\dfrac{D}{36}$.\\nKecepatan rata-rata $= \\dfrac{2D}{D/36} = 72\\,\\text{km/jam}$."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah kerucut memiliki volume $462\\,\\text{cm}^3$ dan tinggi $9$ cm. Berapa panjang garis pelukisnya? $(\\pi = \\tfrac{22}{7})$",
     "pilihan": ["$11$ cm", "$12$ cm", "$13$ cm", "$15$ cm", "$17$ cm"],
     "jawaban": "A",
-    "pembahasan": "Volume $= \\tfrac{1}{3}\\pi r^2 h$. $462 = \\tfrac{1}{3}\\times \\tfrac{22}{7}\\times r^2 \\times 9 \\Rightarrow r=7$ cm.<br> Garis pelukis $s = \\sqrt{r^2+h^2} = \\sqrt{7^2+9^2} = \\sqrt{49+81} = \\sqrt{130} \\approx 11.40$ cm. **Jawaban terdekat adalah $11$ cm.**"
+    "pembahasan": "Volume $= \\tfrac{1}{3}\\pi r^2 h$.\\n$462 = \\tfrac{1}{3}\\times \\tfrac{22}{7}\\times r^2 \\times 9 \\Rightarrow r = 7$ cm.\\nGaris pelukis $s = \\sqrt{r^2 + h^2} = \\sqrt{49 + 81} = \\sqrt{130} \\approx 11.4$ cm."
   },
   {
     "id": 8,
     "pertanyaan": "Sebuah sekolah memiliki perbandingan siswa laki-laki dan perempuan $3:5$. Jika selisihnya $160$ orang, berapa total siswa?",
     "pilihan": ["$540$", "$600$", "$640$", "$720$", "$800$"],
     "jawaban": "C",
-    "pembahasan": "Selisih $= 5-3=2$ bagian $= 160 \\Rightarrow 1$ bagian $= 80$.<br> Total $= 3+5=8$ bagian. Total siswa $= 8 \\times 80 = 640$ siswa."
+    "pembahasan": "Selisih $= 5 - 3 = 2$ bagian $= 160 \\Rightarrow 1$ bagian $= 80$.\\nTotal $= 8 \\times 80 = 640$ siswa."
   },
   {
     "id": 9,
     "pertanyaan": "Sebuah lapangan berbentuk lingkaran dengan luas $616\\,\\text{m}^2$ akan dipasang lampu di sekelilingnya setiap $4$ meter. Berapa banyak lampu yang dibutuhkan? $(\\pi=\\tfrac{22}{7})$",
     "pilihan": ["$22$", "$24$", "$26$", "$28$", "$30$"],
     "jawaban": "A",
-    "pembahasan": "Luas $= \\pi r^2 = 616 \\Rightarrow r=14$ m.<br> Keliling $= 2\\pi r = 88$ m.<br> Jumlah lampu $= 88/4 = 22$ buah."
+    "pembahasan": "Luas $= \\pi r^2 = 616 \\Rightarrow r = 14$ m.\\nKeliling $= 2\\pi r = 88$ m.\\nJumlah lampu $= 88/4 = 22$."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah kotak berisi $12$ bola merah, $8$ biru, dan $10$ hijau. Jika diambil $3$ bola sekaligus, berapa peluang terambil $2$ merah dan $1$ biru?",
     "pilihan": ["$\\tfrac{132}{1015}$", "$\\tfrac{144}{1015}$", "$\\tfrac{156}{1015}$", "$\\tfrac{168}{1015}$", "$\\tfrac{180}{1015}$"],
     "jawaban": "A",
-    "pembahasan": "Total bola $= 30$. Total cara ambil $3$ bola $= \\binom{30}{3} = 4060$.<br> Cara terambil $2$ merah dan $1$ biru $= \\binom{12}{2}\\binom{8}{1} = 66\\times 8 = 528$.<br> Peluang $= 528/4060$. Disederhanakan (dibagi 4): $132/1015$."
+    "pembahasan": "Total bola $= 30$, total cara $= \\binom{30}{3} = 4060$.\\nCara terambil $= \\binom{12}{2}\\binom{8}{1} = 528$.\\nPeluang $= 528/4060 = 132/1015$."
   },
   {
     "id": 11,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang $(x+4)$ cm dan lebar $(x-2)$ cm. Jika luasnya $72\\,\\text{cm}^2$, berapa kelilingnya?",
     "pilihan": ["$30$ cm", "$32$ cm", "$34$ cm", "$36$ cm", "$38$ cm"],
     "jawaban": "D",
-    "pembahasan": "Luas $= (x+4)(x-2) = 72$.<br> $x^2+2x-8=72 \\Rightarrow x^2+2x-80=0$.<br> Faktorkan: $(x+10)(x-8)=0$. Karena panjang positif, $x=8$.<br> Panjang $P=x+4=12$ cm, Lebar $L=x-2=6$ cm.<br> Keliling $=2(P+L)=2(12+6)=36$ cm."
+    "pembahasan": "Luas $= (x+4)(x-2) = 72$.\\n$x^2 + 2x - 8 = 72 \\Rightarrow x^2 + 2x - 80 = 0$.\\n$(x+10)(x-8)=0 \\Rightarrow x=8$.\\nKeliling $= 2(12+6) = 36$ cm."
   },
   {
     "id": 12,
     "pertanyaan": "Sebuah mobil menempuh $300$ km dengan $25$ liter bensin. Untuk menempuh $450$ km, berapa liter bensin yang dibutuhkan?",
     "pilihan": ["$35.5$ L", "$37.5$ L", "$40$ L", "$42.5$ L", "$45$ L"],
     "jawaban": "B",
-    "pembahasan": "Efisiensi $= 300/25 = 12$ km/L.<br> Bensin yang dibutuhkan $= 450 \\text{ km} / 12 \\text{ km/L} = 37.5$ L."
+    "pembahasan": "Efisiensi $= 300/25 = 12$ km/L.\\nBensin untuk $450$ km $= 450/12 = 37.5$ L."
   },
   {
     "id": 13,
     "pertanyaan": "Sebuah drum berisi campuran $3:5$ antara air dan sirup. Jika ditambah $56$ liter air, perbandingan menjadi $5:7$. Berapa volume awal campuran?",
     "pilihan": ["$448$ L", "$560$ L", "$672$ L", "$728$ L", "$784$ L"],
     "jawaban": "E",
-    "pembahasan": "Air $=3x$, sirup $=5x$. Perbandingan baru: $\\tfrac{3x+56}{5x} = \\tfrac{5}{7}$.<br> $7(3x+56)=5(5x) \\Rightarrow 21x+392=25x \\Rightarrow 4x=392 \\Rightarrow x=98$.<br> Volume awal $= 3x+5x = 8x = 8(98) = 784$ L."
+    "pembahasan": "Air $= 3x$, sirup $= 5x$.\\nSetelah ditambah: $\\dfrac{3x + 56}{5x} = \\dfrac{5}{7}$.\\n$21x + 392 = 25x \\Rightarrow 4x = 392 \\Rightarrow x = 98$.\\nTotal $= 8x = 784$ L."
   },
   {
     "id": 14,
     "pertanyaan": "Sebuah prisma segitiga memiliki alas berbentuk segitiga sama sisi dengan sisi $12$ cm dan tinggi prisma $20$ cm. Berapa volumenya?",
     "pilihan": ["$720\\sqrt{3}\\,\\text{cm}^3$", "$840\\sqrt{3}\\,\\text{cm}^3$", "$960\\sqrt{3}\\,\\text{cm}^3$", "$1080\\sqrt{3}\\,\\text{cm}^3$", "$1200\\sqrt{3}\\,\\text{cm}^3$"],
     "jawaban": "A",
-    "pembahasan": "Luas alas $= \\tfrac{1}{4}s^2\\sqrt{3} = \\tfrac{\\sqrt{3}}{4}(12^2) = 36\\sqrt{3}\\,\\text{cm}^2$.<br> Volume $= 36\\sqrt{3}\\times 20 = 720\\sqrt{3}\\,\\text{cm}^3$."
+    "pembahasan": "Luas alas $= \\tfrac{1}{4}s^2\\sqrt{3} = 36\\sqrt{3}$.\\nVolume $= 36\\sqrt{3} \\times 20 = 720\\sqrt{3}\\,\\text{cm}^3$."
   },
   {
     "id": 15,
     "pertanyaan": "Sebuah sekolah memiliki $600$ siswa dengan perbandingan kelas X, XI, XII adalah $5:4:3$. Berapa banyak siswa kelas XII?",
     "pilihan": ["$120$", "$150$", "$180$", "$200$", "$220$"],
     "jawaban": "B",
-    "pembahasan": "Total rasio $= 5+4+3 = 12$.<br> Jumlah siswa Kelas XII $= \\tfrac{3}{12} \\times 600 = 150$ siswa."
+    "pembahasan": "Total rasio $= 12$.\\nKelas XII $= \\tfrac{3}{12} \\times 600 = 150$ siswa."
   },
   {
     "id": 16,
     "pertanyaan": "Sebuah bakteri membelah diri menjadi $2$ setiap $30$ menit. Jika pada pukul 08.00 terdapat $400$ bakteri, berapa jumlahnya pada pukul 09.30?",
     "pilihan": ["$3200$", "$6400$", "$12800$", "$25600$", "$51200$"],
     "jawaban": "A",
-    "pembahasan": "Durasi waktu $= 1.5$ jam. Jumlah periode pembelahan $= 3$ periode.<br> Jumlah bakteri $= 400\\times 2^3 = 3200$ bakteri."
+    "pembahasan": "Durasi $= 1.5$ jam $= 3$ periode pembelahan.\\nJumlah $= 400 \\times 2^3 = 3200$ bakteri."
   },
   {
     "id": 17,
     "pertanyaan": "Sebuah balok memiliki panjang $12$ cm, lebar $8$ cm, dan tinggi $6$ cm. Berapa panjang diagonal ruangnya?",
     "pilihan": ["$\\sqrt{244}$ cm", "$\\sqrt{264}$ cm", "$\\sqrt{284}$ cm", "$\\sqrt{304}$ cm", "$\\sqrt{324}$ cm"],
     "jawaban": "A",
-    "pembahasan": "Diagonal ruang ($d_r$) $= \\sqrt{12^2+8^2+6^2} = \\sqrt{144+64+36} = \\sqrt{244}$ cm."
+    "pembahasan": "Diagonal ruang $= \\sqrt{12^2 + 8^2 + 6^2} = \\sqrt{244}$ cm."
   },
   {
     "id": 18,
     "pertanyaan": "Sebuah toko menjual 5 buku dan 3 pensil seharga Rp62.000. Harga 2 buku dan 4 pensil adalah Rp36.000. Berapa harga 1 buku?",
     "pilihan": ["Rp8.000", "Rp9.000", "Rp10.000", "Rp11.000", "Rp12.000"],
     "jawaban": "C",
-    "pembahasan": "Sistem Persamaan: $5b+3p=62.000$ dan $b+2p=18.000$ (setelah disederhanakan).<br> Solusi dari eliminasi/substitusi menghasilkan $b=10.000$ dan $p=4.000$.<br> Harga 1 buku **Rp10.000**."
+    "pembahasan": "Dari $5b + 3p = 62.000$ dan $2b + 4p = 36.000$.\\nEliminasi menghasilkan $b = 10.000$, $p = 4.000$.\\nHarga 1 buku = Rp10.000."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah kolam berbentuk lingkaran akan dipasang pagar dengan biaya Rp50.000 per meter. Jika diameter kolam $14$ meter, berapa total biaya? $(\\pi=\\tfrac{22}{7})$",
     "pilihan": ["Rp2,1 juta", "Rp2,2 juta", "Rp2,3 juta", "Rp2,4 juta", "Rp2,5 juta"],
     "jawaban": "B",
-    "pembahasan": "Keliling $= \\pi d = \\tfrac{22}{7} \\times 14 = 44$ m.<br> Biaya $= 44 \\times Rp50.000 = Rp2.200.000$ (atau Rp2,2 juta)."
+    "pembahasan": "Keliling $= \\pi d = \\tfrac{22}{7} \\times 14 = 44$ m.\\nBiaya $= 44 \\times 50.000 = 2.200.000$ (Rp2,2 juta)."
   },
   {
     "id": 20,
     "pertanyaan": "Sebuah dadu dan uang logam dilempar bersama. Berapa peluang muncul mata dadu genap dan gambar?",
     "pilihan": ["$\\tfrac{1}{4}$", "$\\tfrac{1}{3}$", "$\\tfrac{1}{2}$", "$\\tfrac{2}{3}$", "$\\tfrac{3}{4}$"],
     "jawaban": "A",
-    "pembahasan": "P(dadu genap) $= 1/2$. P(gambar) $= 1/2$.<br> Peluang bersama $= 1/2 \\times 1/2 = 1/4$."
+    "pembahasan": "P(dadu genap) $= \\tfrac{1}{2}$, P(gambar) $= \\tfrac{1}{2}$.\\nPeluang keduanya $= \\tfrac{1}{2} \\times \\tfrac{1}{2} = \\tfrac{1}{4}$."
   }
 ]
