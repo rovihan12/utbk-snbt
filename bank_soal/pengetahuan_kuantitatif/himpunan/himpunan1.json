@@ -4,140 +4,139 @@
     "pertanyaan": "Diketahui himpunan $A = \\{x \\mid 2 < x \\le 7, x \\in \\text{bilangan bulat}\\}$. Anggota himpunan $A$ adalah...",
     "pilihan": ["$\\{3, 4, 5, 6, 7\\}$", "$\\{2, 3, 4, 5, 6, 7\\}$", "$\\{3, 4, 5, 6\\}$", "$\\{2, 3, 4, 5, 6\\}$", "$\\{4, 5, 6, 7\\}$"],
     "jawaban": "A",
-    "pembahasan": "Himpunan $A = \\{x \\mid 2 < x \\le 7, x \\in \\text{bilangan bulat}\\}$ berarti $x$ adalah bilangan bulat yang lebih besar dari 2 dan kurang dari atau sama dengan 7. Jadi, anggota himpunan $A$ adalah $\\{3, 4, 5, 6, 7\\}$."
+    "pembahasan": "$2 < x \\le 7$ artinya $x$ lebih besar dari 2 dan paling besar 7. Bilangan bulat yang memenuhi adalah $3, 4, 5, 6, 7$. Jadi $A = \\{3, 4, 5, 6, 7\\}$."
   },
   {
     "id": 2,
     "pertanyaan": "Jika $P = \\{1, 2, 3, 4\\}$ dan $Q = \\{3, 4, 5, 6\\}$, maka $P \\cup Q$ adalah...",
     "pilihan": ["$\\{1, 2, 3, 4, 5, 6\\}$", "$\\{3, 4\\}$", "$\\{1, 2, 5, 6\\}$", "$\\{1, 2, 3, 4\\}$", "$\\{3, 4, 5, 6\\}$"],
     "jawaban": "A",
-    "pembahasan": "Operasi gabungan ($P \\cup Q$) berarti menggabungkan semua anggota dari himpunan $P$ dan $Q$ tanpa pengulangan. $P = \\{1, 2, 3, 4\\}$ dan $Q = \\{3, 4, 5, 6\\}$. Maka $P \\cup Q = \\{1, 2, 3, 4, 5, 6\\}$."
+    "pembahasan": "Gabungan ($P \\cup Q$) berisi semua anggota dari $P$ dan $Q$ tanpa duplikasi. Jadi $P \\cup Q = \\{1, 2, 3, 4, 5, 6\\}$."
   },
   {
     "id": 3,
-    "pertanyaan": "Hasil dari $25 + ( -10 ) \\times 3$ adalah...",
+    "pertanyaan": "Hasil dari $25 + (-10) \\times 3$ adalah...",
     "pilihan": ["$-5$", "$15$", "$25$", "$55$", "$75$"],
     "jawaban": "A",
-    "pembahasan": "Sesuai dengan urutan operasi matematika (PEMDAS/BODMAS), perkalian harus dilakukan terlebih dahulu sebelum penjumlahan. Jadi, $25 + ( -10 ) \\times 3 = 25 + ( -30 ) = 25 - 30 = -5$."
+    "pembahasan": "Kerjakan perkalian dahulu: $(-10) \\times 3 = -30$. Maka $25 + (-30) = -5$."
   },
   {
     "id": 4,
     "pertanyaan": "Bentuk sederhana dari $\\frac{12}{18}$ adalah...",
     "pilihan": ["$\\frac{1}{2}$", "$\\frac{2}{3}$", "$\\frac{3}{4}$", "$\\frac{4}{5}$", "$\\frac{5}{6}$"],
     "jawaban": "B",
-    "pembahasan": "Untuk menyederhanakan pecahan, kita bagi pembilang dan penyebut dengan Faktor Persekutuan Terbesar (FPB) mereka. FPB dari 12 dan 18 adalah 6. Jadi, $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$."
+    "pembahasan": "FPB dari 12 dan 18 adalah 6. Jadi $\\frac{12}{18} = \\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$."
   },
   {
     "id": 5,
     "pertanyaan": "Jika $A = \\{1, 3, 5\\}$ dan $B = \\{5, 7, 9\\}$, maka $A \\cap B$ adalah...",
     "pilihan": ["$\\{1, 3, 5, 7, 9\\}$", "$\\{5\\}$", "$\\{1, 3, 7, 9\\}$", "$\\{\\}$", "$\\{1, 3, 5\\}$"],
     "jawaban": "B",
-    "pembahasan": "Operasi irisan ($A \\cap B$) berarti mencari anggota yang sama-sama ada di himpunan $A$ dan himpunan $B$. Anggota yang sama dari $A = \\{1, 3, 5\\}$ dan $B = \\{5, 7, 9\\}$ adalah $\\{5\\}$."
+    "pembahasan": "Irisan ($A \\cap B$) berisi anggota yang sama di $A$ dan $B$. Anggota yang sama hanya $5$, jadi $A \\cap B = \\{5\\}$."
   },
   {
     "id": 6,
     "pertanyaan": "Urutan bilangan dari yang terkecil ke terbesar untuk $0.75$, $\\frac{2}{3}$, $80\\%$, dan $0.5$ adalah...",
     "pilihan": ["$0.5, \\frac{2}{3}, 0.75, 80\\%$", "$\\frac{2}{3}, 0.5, 0.75, 80\\%$", "$0.5, 0.75, \\frac{2}{3}, 80\\%$", "$80\\%, 0.75, \\frac{2}{3}, 0.5$", "$\\frac{2}{3}, 0.75, 0.5, 80\\%$"],
     "jawaban": "A",
-    "pembahasan": "Untuk membandingkan, ubah semua bilangan ke bentuk desimal: $0.75$, $\\frac{2}{3} \\approx 0.667$, $80\\% = 0.8$, $0.5$. Urutan dari terkecil ke terbesar adalah $0.5$, $0.667$ ($\\frac{2}{3}$), $0.75$, $0.8$ ($80\\%$) . Jadi, urutan yang benar adalah $0.5, \\frac{2}{3}, 0.75, 80\\%$."
+    "pembahasan": "Ubah ke desimal: $0.75$, $\\frac{2}{3} \\approx 0.667$, $80\\% = 0.8$, dan $0.5$. Urutan naik: $0.5, 0.667, 0.75, 0.8$."
   },
   {
     "id": 7,
-    "pertanyaan": "Jika $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$ adalah himpunan semesta, dan $A = \\{1, 3, 5, 7, 9\\}$, maka $A^c$ (komplemen dari $A$) adalah...",
-    "pilihan": ["$\\{2, 4, 6, 8, 10\\}$", "$\\{1, 3, 5, 7, 9\\}$", "$\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$", "$\\{\\}$", "$\\{2, 4, 6\\}$"],
+    "pertanyaan": "Jika $U = \\{1,2,3,4,5,6,7,8,9,10\\}$ dan $A = \\{1,3,5,7,9\\}$, maka $A^c$ adalah...",
+    "pilihan": ["$\\{2,4,6,8,10\\}$", "$\\{1,3,5,7,9\\}$", "$\\{1,2,3,4,5,6,7,8,9,10\\}$", "$\\{\\}$", "$\\{2,4,6\\}$"],
     "jawaban": "A",
-    "pembahasan": "Komplemen dari himpunan $A$ ($A^c$) adalah semua anggota di himpunan semesta ($U$) yang tidak termasuk dalam himpunan $A$. $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$ dan $A = \\{1, 3, 5, 7, 9\\}$. Jadi, $A^c = \\{2, 4, 6, 8, 10\\}$."
+    "pembahasan": "Komplemen $A^c$ adalah anggota $U$ yang tidak ada di $A$, yaitu $\\{2,4,6,8,10\\}$."
   },
   {
     "id": 8,
     "pertanyaan": "Nilai dari $\\frac{3}{4} + \\frac{1}{2} - \\frac{1}{8}$ adalah...",
     "pilihan": ["$\\frac{5}{8}$", "$\\frac{7}{8}$", "$\\frac{9}{8}$", "$\\frac{11}{8}$", "$\\frac{13}{8}$"],
-    "jawaban": "B",
-    "pembahasan": "Untuk menjumlahkan dan mengurangkan pecahan, samakan penyebutnya. KPK dari 4, 2, dan 8 adalah 8. $\\frac{3}{4} = \\frac{6}{8}$, $\\frac{1}{2} = \\frac{4}{8}$. Jadi, $\\frac{6}{8} + \\frac{4}{8} - \\frac{1}{8} = \\frac{6+4-1}{8} = \\frac{9}{8}$."
+    "jawaban": "C",
+    "pembahasan": "Samakan penyebut 8: $\\frac{3}{4}=\\frac{6}{8}$, $\\frac{1}{2}=\\frac{4}{8}$. Jadi $\\frac{6}{8}+\\frac{4}{8}-\\frac{1}{8}=\\frac{9}{8}$."
   },
   {
     "id": 9,
-    "pertanyaan": "Dalam suatu kelas terdapat 30 siswa. 18 siswa gemar Matematika, 15 siswa gemar Fisika, dan 8 siswa gemar keduanya. Banyak siswa yang tidak gemar Matematika maupun Fisika adalah...",
-    "pilihan": ["A. 5 siswa", "B. 7 siswa", "C. 9 siswa", "D. 10 siswa", "E. 11 siswa"],
+    "pertanyaan": "Dalam suatu kelas terdapat 30 siswa. 18 siswa gemar Matematika, 15 gemar Fisika, dan 8 gemar keduanya. Banyak siswa yang tidak gemar keduanya adalah...",
+    "pilihan": ["5", "7", "9", "10", "11"],
     "jawaban": "A",
-    "pembahasan": "Misalkan $M$ adalah himpunan siswa gemar Matematika dan $F$ adalah himpunan siswa gemar Fisika. Diketahui: $n(M) = 18$, $n(F) = 15$, $n(M \\cap F) = 8$. Jumlah siswa yang gemar Matematika atau Fisika adalah $n(M \\cup F) = n(M) + n(F) - n(M \\cap F) = 18 + 15 - 8 = 33 - 8 = 25$. Jumlah seluruh siswa adalah 30. Jadi, siswa yang tidak gemar keduanya adalah $30 - 25 = 5$ siswa."
+    "pembahasan": "$n(M \\cup F) = 18 + 15 - 8 = 25$. Maka siswa yang tidak gemar keduanya $= 30 - 25 = 5$."
   },
   {
     "id": 10,
     "pertanyaan": "Nilai dari $(2^3)^2 \\times 2^{-4}$ adalah...",
     "pilihan": ["$2$", "$4$", "$8$", "$16$", "$32$"],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat eksponen: $(a^b)^c = a^{b \\times c}$ dan $a^b \\times a^c = a^{b+c}$. $(2^3)^2 \\times 2^{-4} = 2^{3 \\times 2} \\times 2^{-4} = 2^6 \\times 2^{-4} = 2^{6 + (-4)} = 2^{6-4} = 2^2 = 4$."
+    "pembahasan": "$(2^3)^2 = 2^{6}$, maka $2^6 \\times 2^{-4} = 2^{6-4} = 2^2 = 4$."
   },
   {
     "id": 11,
-    "pertanyaan": "Jika $P = \\{x \\mid x \\text{ adalah bilangan prima kurang dari 15}\\}$ dan $Q = \\{x \\mid x \\text{ adalah bilangan genap kurang dari 12}\\}$, maka $P \\cap Q$ adalah...",
-    "pilihan": ["$\\{2\\}$", "$\\{2, 3, 5, 7, 11\\}$", "$\\{2, 4, 6, 8, 10\\}$", "$\\{2, 3, 4, 5, 6, 7, 8, 10, 11, 13\\}$", "$\\{\\}$"],
+    "pertanyaan": "Jika $P = \\{x \\mid x \\text{ bilangan prima } < 15\\}$ dan $Q = \\{x \\mid x \\text{ bilangan genap } < 12\\}$, maka $P \\cap Q$ adalah...",
+    "pilihan": ["$\\{2\\}$", "$\\{2,3,5,7,11\\}$", "$\\{2,4,6,8,10\\}$", "$\\{2,3,4,5,6,7,8,10,11,13\\}$", "$\\{\\}$"],
     "jawaban": "A",
-    "pembahasan": "Himpunan $P = \\{2, 3, 5, 7, 11, 13\\}$. Himpunan $Q = \\{2, 4, 6, 8, 10\\}$. Irisan $P \\cap Q$ adalah anggota yang ada di kedua himpunan, yaitu $\\{2\\}$."
+    "pembahasan": "$P = \\{2,3,5,7,11,13\\}$ dan $Q = \\{2,4,6,8,10\\}$. Anggota yang sama hanya $2$."
   },
   {
     "id": 12,
-    "pertanyaan": "Perbandingan uang Tono dan Tini adalah 3:5. Jika jumlah uang mereka adalah Rp 240.000,00, maka selisih uang Tono dan Tini adalah...",
-    "pilihan": ["Rp 60.000,00", "Rp 75.000,00", "Rp 90.000,00", "Rp 120.000,00", "Rp 150.000,00"],
+    "pertanyaan": "Perbandingan uang Tono dan Tini adalah 3:5. Jika jumlah uang mereka Rp240.000, maka selisih uang mereka adalah...",
+    "pilihan": ["Rp60.000", "Rp75.000", "Rp90.000", "Rp120.000", "Rp150.000"],
     "jawaban": "A",
-    "pembahasan": "Misalkan uang Tono adalah $3x$ dan uang Tini adalah $5x$. Jumlah uang mereka adalah $3x + 5x = 8x$. Diketahui $8x = 240.000$, maka $x = \\frac{240.000}{8} = 30.000$. Uang Tono = $3 \\times 30.000 = 90.000$. Uang Tini = $5 \\times 30.000 = 150.000$. Selisih uang mereka = $150.000 - 90.000 = 60.000$."
+    "pembahasan": "Jumlah bagian = $3+5=8$. Tiap bagian = $240.000 \\div 8 = 30.000$. Selisih = $(5-3)\\times30.000 = 60.000$."
   },
   {
     "id": 13,
-    "pertanyaan": "Jika $A = \\{x \\mid x^2 - 4 = 0\\}$ dan $B = \\{x \\mid x \\text{ adalah bilangan genap positif kurang dari 5}\\}$, maka $A \\cup B$ adalah...",
-    "pilihan": ["$\\{-2, 2, 4\\}$", "$\\{2\\}$", "$\\{-2, 2\\}$", "$\\{2, 4\\}$", "$\\{\\}$"],
+    "pertanyaan": "Jika $A = \\{x \\mid x^2 - 4 = 0\\}$ dan $B = \\{x \\mid x \\text{ bilangan genap positif } < 5\\}$, maka $A \\cup B$ adalah...",
+    "pilihan": ["$\\{-2,2,4\\}$", "$\\{2\\}$", "$\\{-2,2\\}$", "$\\{2,4\\}$", "$\\{\\}$"],
     "jawaban": "A",
-    "pembahasan": "Untuk himpunan $A$, $x^2 - 4 = 0 \\implies (x-2)(x+2) = 0 \\implies x = 2$ atau $x = -2$. Jadi $A = \\{-2, 2\\}$. Untuk himpunan $B$, bilangan genap positif kurang dari 5 adalah 2 dan 4. Jadi $B = \\{2, 4\\}$. Maka $A \\cup B = \\{-2, 2, 4\\}$."
+    "pembahasan": "Dari $x^2 - 4=0$, diperoleh $x=\\pm2$, jadi $A=\\{-2,2\\}$. Bilangan genap positif <5 adalah $\\{2,4\\}$. Gabungan: $A\\cup B=\\{-2,2,4\\}$."
   },
   {
     "id": 14,
     "pertanyaan": "Hasil dari $(\\sqrt{27} + \\sqrt{12}) \\times \\sqrt{3}$ adalah...",
     "pilihan": ["$15$", "$21$", "$27$", "$30$", "$36$"],
-    "jawaban": "B",
-    "pembahasan": "Sederhanakan akar-akar terlebih dahulu: $\\sqrt{27} = \\sqrt{9 \\times 3} = 3\\sqrt{3}$. $\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}$. Maka $(\\sqrt{27} + \\sqrt{12}) \\times \\sqrt{3} = (3\\sqrt{3} + 2\\sqrt{3}) \\times \\sqrt{3} = (5\\sqrt{3}) \\times \\sqrt{3} = 5 \\times (\\sqrt{3})^2 = 5 \\times 3 = 15$."
+    "jawaban": "A",
+    "pembahasan": "$\\sqrt{27}=3\\sqrt{3}$ dan $\\sqrt{12}=2\\sqrt{3}$. Jadi $(3\\sqrt{3}+2\\sqrt{3})\\times\\sqrt{3}=5\\sqrt{3}\\times\\sqrt{3}=5\\times3=15$."
   },
   {
     "id": 15,
-    "pertanyaan": "Dari 100 mahasiswa, 40 mahasiswa mengambil mata kuliah Kalkulus, 50 mahasiswa mengambil mata kuliah Statistika, dan 20 mahasiswa mengambil kedua mata kuliah tersebut. Jika seorang mahasiswa dipilih secara acak, peluang mahasiswa tersebut tidak mengambil mata kuliah apapun adalah...",
+    "pertanyaan": "Dari 100 mahasiswa, 40 mengambil Kalkulus, 50 mengambil Statistika, dan 20 mengambil keduanya. Peluang mahasiswa yang tidak mengambil keduanya adalah...",
     "pilihan": ["$0.1$", "$0.2$", "$0.3$", "$0.4$", "$0.5$"],
     "jawaban": "C",
-    "pembahasan": "Misalkan $K$ adalah himpunan mahasiswa mengambil Kalkulus dan $S$ adalah himpunan mahasiswa mengambil Statistika. Diketahui: $n(K) = 40$, $n(S) = 50$, $n(K \\cap S) = 20$. Jumlah mahasiswa yang mengambil Kalkulus atau Statistika adalah $n(K \\cup S) = n(K) + n(S) - n(K \\cap S) = 40 + 50 - 20 = 70$. Jumlah mahasiswa yang tidak mengambil mata kuliah apapun adalah $100 - 70 = 30$. Peluang mahasiswa tersebut tidak mengambil mata kuliah apapun adalah $\\frac{\\text{Jumlah mahasiswa tidak mengambil}}{\\text{Total mahasiswa}} = \\frac{30}{100} = 0.3$."
+    "pembahasan": "$n(K\\cup S)=40+50-20=70$. Tidak mengambil keduanya: $100-70=30$. Peluang = $30/100=0.3$."
   },
   {
     "id": 16,
     "pertanyaan": "Jika $p = 2 + \\sqrt{3}$ dan $q = 2 - \\sqrt{3}$, maka nilai dari $\\frac{p^2 - q^2}{pq}$ adalah...",
-    "pilihan": ["$4\\sqrt{3}$", "$8\\sqrt{3}$", "$16\\sqrt{3}$", "$2\\sqrt{3}/7$", "$4\\sqrt{3}/7$"],
-    "jawaban": "A",
-    "pembahasan": "Pertama, hitung $p^2$ dan $q^2$: $p^2 = (2 + \\sqrt{3})^2 = 2^2 + 2(2)(\\sqrt{3}) + (\\sqrt{3})^2 = 4 + 4\\sqrt{3} + 3 = 7 + 4\\sqrt{3}$. $q^2 = (2 - \\sqrt{3})^2 = 2^2 - 2(2)(\\sqrt{3}) + (\\sqrt{3})^2 = 4 - 4\\sqrt{3} + 3 = 7 - 4\\sqrt{3}$. Kemudian, hitung $pq$: $pq = (2 + \\sqrt{3})(2 - \\sqrt{3}) = 2^2 - (\\sqrt{3})^2 = 4 - 3 = 1$. Sekarang substitusikan ke dalam ekspresi: $\\frac{p^2 - q^2}{pq} = \\frac{(7 + 4\\sqrt{3}) - (7 - 4\\sqrt{3})}{1} = \\frac{7 + 4\\sqrt{3} - 7 + 4\\sqrt{3}}{1} = 8\\sqrt{3}$. (Catatan: Ada kesalahan dalam pilihan jawaban dan jawaban yang diberikan pada contoh, seharusnya $8\\sqrt{3}$)."
+    "pilihan": ["$4\\sqrt{3}$", "$8\\sqrt{3}$", "$16\\sqrt{3}$", "$\\frac{2\\sqrt{3}}{7}$", "$\\frac{4\\sqrt{3}}{7}$"],
+    "jawaban": "B",
+    "pembahasan": "$p^2=7+4\\sqrt{3}$, $q^2=7-4\\sqrt{3}$, dan $pq=1$. Maka $\\frac{p^2-q^2}{pq}=\\frac{8\\sqrt{3}}{1}=8\\sqrt{3}$."
   },
-   {
+  {
     "id": 17,
-    "pertanyaan": "Diberikan himpunan S = {1, 2, 3, ..., 10}. Jika A adalah himpunan bilangan ganjil dalam S dan B adalah himpunan bilangan prima dalam S, maka banyaknya anggota dari komplemen irisan A dan B, yaitu (A ∩ B)', adalah...",
+    "pertanyaan": "Diberikan himpunan $S = \\{1,2,3,4,5,6,7,8,9,10\\}$. Jika $A$ himpunan bilangan ganjil dalam $S$ dan $B$ himpunan bilangan prima dalam $S$, maka banyak anggota dari $(A \\cap B)'$ adalah...",
     "pilihan": ["1", "2", "6", "7", "8"],
     "jawaban": "D",
-    "pembahasan": "Himpunan semesta S = {1,2,3,4,5,6,7,8,9,10}\nA (ganjil) = {1,3,5,7,9}\nB (prima) = {2,3,5,7}\nA ∩ B = {3,5,7}\nKomplemen dari A ∩ B terhadap S adalah:\nS - (A ∩ B) = {1,2,4,6,8,9,10}\nJumlah anggota = 7 → Jawaban: 7 → opsi '7' adalah pilihan D"
-  }
-  ,
+    "pembahasan": "$A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7\\}$, maka $A\\cap B=\\{3,5,7\\}$. Komplemen terhadap $S$: $S-(A\\cap B)=\\{1,2,4,6,8,9,10\\}$, jumlahnya 7."
+  },
   {
     "id": 18,
     "pertanyaan": "Jika $a \\oplus b = a^2 - 2b$, maka nilai dari $(3 \\oplus 1) \\oplus 2$ adalah...",
-    "pilihan": ["$3$", "$5$", "$7$", "$10$", "$12$"],
-    "jawaban": "A",
-    "pembahasan": "Pertama, hitung $3 \\oplus 1$: $3 \\oplus 1 = (3)^2 - 2(1) = 9 - 2 = 7$. Kemudian, hasil ini dioperasikan dengan 2: $7 \\oplus 2 = (7)^2 - 2(2) = 49 - 4 = 45$. (Catatan: Ada kesalahan dalam pilihan jawaban dan jawaban yang diberikan pada contoh, seharusnya $45$)."
+    "pilihan": ["$3$", "$5$", "$7$", "$10$", "$45$"],
+    "jawaban": "E",
+    "pembahasan": "$3\\oplus1=3^2-2(1)=9-2=7$. Lalu $7\\oplus2=7^2-2(2)=49-4=45$."
   },
   {
     "id": 19,
     "pertanyaan": "Sebuah operasi didefinisikan sebagai $a \\star b = (a+b)^2 - ab$. Nilai dari $5 \\star (2 \\star 1)$ adalah...",
     "pilihan": ["$101$", "$105$", "$109$", "$120$", "$144$"],
     "jawaban": "C",
-    "pembahasan": "Pertama, hitung $2 \\star 1$: $2 \\star 1 = (2+1)^2 - (2)(1) = 3^2 - 2 = 9 - 2 = 7$. Kemudian, hitung $5 \\star 7$: $5 \\star 7 = (5+7)^2 - (5)(7) = 12^2 - 35 = 144 - 35 = 109$."
+    "pembahasan": "$2\\star1=(2+1)^2-(2)(1)=9-2=7$. Lalu $5\\star7=(5+7)^2-(5)(7)=144-35=109$."
   },
   {
     "id": 20,
-    "pertanyaan": "Diberikan dua himpunan $A = \\{x \\mid x^2 - 5x + 6 = 0\\}$ dan $B = \\{x \\mid x \\text{ adalah faktor dari 12}\\}$. Maka $A \\cup B$ adalah...",
-    "pilihan": ["$\\{1, 2, 3, 4, 6, 12\\}$", "$\\{2, 3\\}$", "$\\{1, 2, 3, 4, 6\\}$", "$\\{1, 2, 3, 4, 6, 12, 18\\}$", "$\\{1, 2, 3, 4, 5, 6, 12\\}$"],
+    "pertanyaan": "Diketahui $A=\\{x\\mid x^2-5x+6=0\\}$ dan $B=\\{x\\mid x \\text{ faktor dari } 12\\}$. Maka $A \\cup B$ adalah...",
+    "pilihan": ["$\\{1,2,3,4,6,12\\}$", "$\\{2,3\\}$", "$\\{1,2,3,4,6\\}$", "$\\{1,2,3,4,6,12,18\\}$", "$\\{1,2,3,4,5,6,12\\}$"],
     "jawaban": "A",
-    "pembahasan": "Untuk himpunan $A$, $x^2 - 5x + 6 = 0 \\implies (x-2)(x-3) = 0 \\implies x = 2$ atau $x = 3$. Jadi $A = \\{2, 3\\}$. Untuk himpunan $B$, faktor dari 12 adalah bilangan yang dapat membagi habis 12. Jadi $B = \\{1, 2, 3, 4, 6, 12\\}$. Maka $A \\cup B = \\{1, 2, 3, 4, 6, 12\\}$."
+    "pembahasan": "Persamaan $x^2-5x+6=0$ menghasilkan $x=2$ atau $x=3$, jadi $A=\\{2,3\\}$. Faktor 12 adalah $\\{1,2,3,4,6,12\\}$. Gabungan: $A\\cup B=\\{1,2,3,4,6,12\\}$."
   }
 ]
