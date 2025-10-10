@@ -11,9 +11,15 @@
     "id": 2,
     "kategori": "Sulit",
     "pertanyaan": "Himpunan penyelesaian dari $\\log_2(x^2-3x) > 1$ adalah...",
-    "pilihan": ["$-1<x<0$ atau $3<x<4$", "$0<x<1$ atau $2<x<3$", "$x<0$ atau $x>3$", "$x<-1$ atau $x>4$", "$x<-2$ atau $x>5$"],
+    "pilihan": [
+      "$x<\\frac{3-\\sqrt{17}}{2}$ atau $x>\\frac{3+\\sqrt{17}}{2}$",
+      "$x<0$ atau $x>3$",
+      "$x<-1$ atau $x>4$",
+      "$x<-2$ atau $x>5$",
+      "$-1<x<0$ atau $3<x<4$"
+    ],
     "jawaban": "A",
-    "pembahasan": "Syarat numerus (I): $x^2-3x>0 \\Rightarrow x(x-3)>0 \\Rightarrow x<0$ atau $x>3$. Pertidaksamaan (II): $x^2-3x>2^1 \\Rightarrow x^2-3x-2>0$. Menggunakan rumus kuadratik, akar-akarnya adalah $x_1=\\frac{3-\\sqrt{17}}{2} \\approx -0.56$ dan $x_2=\\frac{3+\\sqrt{17}}{2} \\approx 3.56$. Maka $x<\\frac{3-\\sqrt{17}}{2}$ atau $x>\\frac{3+\\sqrt{17}}{2}$.\\nIrisan dari (I) dan (II) adalah $\\mathbf{x<\\frac{3-\\sqrt{17}}{2}}$ atau $\\mathbf{x>\\frac{3+\\sqrt{17}}{2}}$. (Dalam pilihan, ini didekati oleh $-1<x<0$ atau $3<x<4$)."
+    "pembahasan": "Syarat numerus (I): $x^2-3x>0 \\Rightarrow x(x-3)>0 \\Rightarrow x<0$ atau $x>3$. Pertidaksamaan (II): $\\log_2(x^2-3x) > \\log_2(2^1) \\Rightarrow x^2-3x>2 \\Rightarrow x^2-3x-2>0$. Akar-akarnya adalah $x_{1,2}=\\frac{3\\pm\\sqrt{17}}{2}$. Solusi pertidaksamaan (II) adalah $x<\\frac{3-\\sqrt{17}}{2}$ atau $x>\\frac{3+\\sqrt{17}}{2}$.\\nIrisan dari (I) dan (II) adalah $\\mathbf{x<\\frac{3-\\sqrt{17}}{2}}$ atau $\\mathbf{x>\\frac{3+\\sqrt{17}}{2}}$."
   },
   {
     "id": 3,
