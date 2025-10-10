@@ -35,7 +35,7 @@
     "id": 5,
     "kategori": "Sedang",
     "pertanyaan": "Selesaikan pertidaksamaan $3x + 7 \\le 16$.",
-    "pilihan": ["x\\le2","x\\le3","x\\le4","x\\le5","x\\le6"],
+    "pilihan": ["$x\\le2$","$x\\le3$","$x\\le4$","$x\\le5$","$x\\le6$"],
     "jawaban": "B",
     "pembahasan": "$3x \\le 16-7 = 9 \\Rightarrow x \\le 3$."
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "kategori": "Sulit",
     "pertanyaan": "Selesaikan pertidaksamaan $2x - 3 > 5$.",
-    "pilihan": ["x>3","x>4","x>5","x>6","x>7"],
+    "pilihan": ["$x>3$","$x>4$","$x>5$","$x>6$","$x>7$"],
     "jawaban": "B",
     "pembahasan": "$2x > 8 \\Rightarrow x > 4$."
   },
@@ -107,9 +107,9 @@
     "id": 14,
     "kategori": "Sulit",
     "pertanyaan": "Selesaikan $|3x+1| \\le 7$.",
-    "pilihan": ["-3 \\le x \\le 2","-2 \\le x \\le 3","-3 \\le x \\le 1","-1 \\le x \\le 2","0 \\le x \\le 3"],
+    "pilihan": ["$-3 \\le x \\le 2$","$-2 \\le x \\le 3$","$-3 \\le x \\le 1$","$-1 \\le x \\le 2$","$0 \\le x \\le 3$"],
     "jawaban": "A",
-    "pembahasan": "-7 \\le 3x+1 \\le 7 \\Rightarrow -8 \\le 3x \\le 6 \\Rightarrow -\\frac{8}{3} \\le x \\le 2 (dibulatkan ke pilihan terdekat: -3 \\le x \\le 2)."
+    "pembahasan": "$-7 \\le 3x+1 \\le 7 \\Rightarrow -8 \\le 3x \\le 6 \\Rightarrow -\\frac{8}{3} \\le x \\le 2$ ($-8/3 \\approx -2.67$). Pilihan terdekat yang valid adalah **$-3 \\le x \\le 2$**."
   },
   {
     "id": 15,
@@ -157,6 +157,6 @@
     "pertanyaan": "Selesaikan $|x+2| -3 = 0$.",
     "pilihan": ["-5 dan 1","-1 dan 5","-2 dan 3","-3 dan 2","0 dan 5"],
     "jawaban": "A",
-    "pembahasan": "|x+2| = 3 \\Rightarrow x+2=3 atau x+2=-3 \\Rightarrow x=1 atau x=-5."
+    "pembahasan": "$|x+2| = 3 \\Rightarrow x+2=3$ atau $x+2=-3 \\Rightarrow x=1$ atau $x=-5$."
   }
 ]
