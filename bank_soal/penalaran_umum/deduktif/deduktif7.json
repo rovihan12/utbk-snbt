@@ -1,126 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua mahasiswa harus membayar uang kuliah.\nPremis 2: Ani adalah mahasiswa.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ani tidak harus membayar uang kuliah.", "Ani mungkin harus membayar uang kuliah.", "Ani pasti harus membayar uang kuliah.", "Semua yang membayar uang kuliah adalah Ani.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Jika semua mahasiswa diwajibkan membayar uang kuliah, dan Ani adalah seorang mahasiswa, maka secara deduktif Ani pasti harus membayar uang kuliah."
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-3.\n\n**Teks 1: Penanganan Bencana Banjir**\nDalam manajemen penanggulangan bencana banjir, sistem peringatan dini (early warning system) dianggap sebagai komponen kritis. Sistem ini berfungsi untuk memberikan informasi kepada masyarakat dan pihak berwenang tentang potensi banjir, sehingga evakuasi dan tindakan mitigasi dapat dilakukan lebih cepat. Keberhasilan sistem peringatan dini sangat bergantung pada akurasi data meteorologi dan hidrologi, serta saluran komunikasi yang efektif untuk menyampaikan peringatan tersebut ke masyarakat di daerah rawan.\n\nNamun, penelitian menunjukkan bahwa memiliki sistem peringatan dini yang canggih saja tidak cukup. Faktor kesiapsiagaan masyarakat dan kapasitas lembaga lokal dalam menanggapi peringatan tersebut sama pentingnya. Tanpa pemahaman dan respons yang tepat dari masyarakat, peringatan dini tidak akan berkontribusi signifikan terhadap pengurangan korban jiwa dan kerugian materiil.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai sistem peringatan dini?*",
+    "pilihan": [
+      "Sistem peringatan dini dapat berfungsi dengan baik meskipun data meteorologi tidak akurat.",
+      "Keberhasilan sistem peringatan dini bergantung pada akurasi data dan saluran komunikasi yang efektif.",
+      "Sistem peringatan dini adalah satu-satunya faktor yang menentukan keselamatan masyarakat dari banjir.",
+      "Kesiapsiagaan masyarakat adalah satu-satunya komponen yang diperlukan untuk sistem peringatan dini.",
+      "Sistem peringatan dini tidak berguna tanpa teknologi yang paling mutakhir."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'Keberhasilan sistem peringatan dini sangat bergantung pada akurasi data meteorologi dan hidrologi, serta saluran komunikasi yang efektif'. Pilihan B merangkum ketergantungan ini dengan tepat."
   },
   {
     "id": 2,
-    "pertanyaan": "Pada tahun ajaran baru, semua siswa baru diwajibkan mengikuti kegiatan orientasi. Selama kegiatan orientasi, mereka tidak diizinkan membawa telepon genggam. Saat ini, Rina sedang membawa telepon genggam di sekolah.\n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Berdasarkan Teks 1, jika sebuah daerah memiliki sistem peringatan dini dengan teknologi canggih tetapi korban jiwa akibat banjir tetap tinggi, manakah simpulan yang PALING MUNGKIN benar?",
     "pilihan": [
-      "Rina sedang tidak mengikuti kegiatan orientasi.",
-      "Rina adalah siswa baru.",
-      "Rina tidak diwajibkan mengikuti orientasi.",
-      "Rina tidak diizinkan membawa telepon genggam.",
-      "Tidak dapat ditarik kesimpulan tentang status Rina."
+      "Data meteorologi di daerah tersebut pasti tidak akurat.",
+      "Saluran komunikasi untuk menyampaikan peringatan mungkin tidak efektif.",
+      "Kesiapsiagaan masyarakat dan kapasitas lembaga lokal dalam menanggapi peringatan mungkin rendah.",
+      "Sistem peringatan dini tidak dirancang untuk banjir.",
+      "Banjir yang terjadi berada di luar kapasitas prediksi sistem mana pun."
     ],
-    "jawaban": "A",
-    "pembahasan": "Premis 1: Jika siswa baru, maka wajib orientasi. Premis 2: Jika ikut orientasi, maka tidak boleh bawa HP. Kesimpulan: Jika siswa baru, maka tidak boleh bawa HP. Karena Rina sedang membawa HP (negasi dari premis 'tidak boleh bawa HP'), maka secara logis Rina sedang tidak mengikuti kegiatan orientasi. Ini adalah contoh Modus Tollens."
+    "jawaban": "C",
+    "pembahasan": "Teks menekankan bahwa 'memiliki sistem peringatan dini yang canggih saja tidak cukup' dan bahwa 'faktor kesiapsiagaan masyarakat dan kapasitas lembaga lokal...sama pentingnya'. Jika sistem canggih ada tetapi korban jiwa tinggi, simpulan yang paling mungkin adalah faktor manusia (kesiapsiagaan) yang menjadi masalah."
   },
   {
     "id": 3,
-    "pertanyaan": "Semua karyawan di kantor XYZ harus mengenakan seragam saat hari kerja. Hari ini, Joko datang ke kantor dan tidak mengenakan seragam. Berdasarkan pernyataan tersebut, Joko kemungkinan adalah...",
+    "pertanyaan": "Manakah pernyataan yang **PASTI SALAH** berdasarkan Teks 1?",
     "pilihan": [
-      "Karyawan di kantor XYZ yang sedang tidak bekerja.",
-      "Seorang tamu yang datang ke kantor XYZ.",
-      "Karyawan di kantor XYZ yang melanggar aturan.",
-      "Bukan seorang karyawan di kantor XYZ.",
-      "Seorang manajer yang tidak wajib pakai seragam."
+      "Sistem peringatan dini adalah komponen kritis dalam manajemen banjir.",
+      "Evakuasi dapat dilakukan lebih cepat dengan adanya sistem peringatan dini.",
+      "Sistem peringatan dini yang canggih menjamin tidak adanya korban jiwa saat banjir.",
+      "Akurasi data mempengaruhi keberhasilan sistem peringatan dini.",
+      "Kesiapsiagaan masyarakat merupakan faktor pendukung sistem peringatan dini."
     ],
-    "jawaban": "E",
-    "pembahasan": "Premis 1: Jika karyawan, maka harus pakai seragam. Premis 2: Joko tidak pakai seragam. Kesimpulan yang paling logis adalah Joko bukan karyawan di kantor XYZ, atau ada kondisi lain seperti yang ada pada opsi E."
+    "jawaban": "C",
+    "pembahasan": "Teks menyatakan bahwa sistem peringatan dini saja tidak cukup dan tanpa respons masyarakat, peringatan dini tidak akan berkontribusi signifikan terhadap pengurangan korban jiwa. Oleh karena itu, pernyataan yang menjamin tidak adanya korban jiwa (C) adalah pasti salah."
   },
   {
     "id": 4,
-    "pertanyaan": "Setiap peserta lomba lari marathon harus melewati pos pemeriksaan kesehatan. Anton berhasil melewati pos pemeriksaan kesehatan.\n\nKesimpulan yang pasti benar adalah...",
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 4-6.\n\n**Teks 2: Krisis Kemanusiaan Pengungsi**\nKonflik bersenjata yang berkepanjangan di suatu wilayah selalu menyebabkan disrupsi pada rantai pasokan makanan dan obat-obatan. Disrupsi ini, pada gilirannya, memicu kelaparan dan wabah penyakit di kalangan penduduk sipil. Situasi kemanusiaan yang memburuk inilah yang sering kali memaksa warga untuk meninggalkan rumah mereka dan menjadi pengungsi, baik secara internal maupun yang melintasi perbatasan negara. Organisasi kemanusiaan internasional mencatat bahwa akses yang aman dan tanpa halangan untuk memberikan bantuan adalah prasyarat mutlak untuk mencegah bencana kemanusiaan yang lebih besar di daerah konflik.\n\n * Berdasarkan teks, urutan logis dari sebab ke akibat yang paling tepat adalah...",
     "pilihan": [
-      "Anton adalah peserta lomba lari marathon.",
-      "Anton bukan peserta lomba lari marathon.",
-      "Semua orang yang melewati pos pemeriksaan kesehatan adalah peserta lomba.",
-      "Anton mungkin peserta lomba lari marathon.",
-      "Tidak dapat ditarik kesimpulan bahwa Anton adalah peserta lomba lari marathon."
+      "Konflik -> Pengungsi -> Kelaparan -> Disrupsi Rantai Pasokan",
+      "Konflik -> Disrupsi Rantai Pasokan -> Kelaparan/Penyakit -> Pengungsi",
+      "Pengungsi -> Konflik -> Kelaparan -> Disrupsi Rantai Pasokan",
+      "Disrupsi Rantai Pasokan -> Konflik -> Pengungsi -> Kelaparan",
+      "Kelaparan -> Konflik -> Pengungsi -> Disrupsi Rantai Pasokan"
     ],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah **kekeliruan Afirmasi Konsekuen**. Premis tidak menyatakan bahwa 'hanya' peserta lomba lari marathon yang harus melewati pos pemeriksaan kesehatan. Banyak orang lain (misalnya, panitia atau penonton) juga bisa melewati pos tersebut. Oleh karena itu, kita tidak bisa menyimpulkan secara pasti bahwa Anton adalah peserta lomba."
+    "jawaban": "B",
+    "pembahasan": "Teks secara berurutan menjelaskan: (1) Konflik menyebabkan (2) Disrupsi rantai pasokan, yang (3) Memicu kelaparan dan penyakit, yang akhirnya (4) Memaksa warga menjadi pengungsi. Pilihan B merepresentasikan urutan kausal ini dengan tepat."
   },
   {
     "id": 5,
-    "pertanyaan": "Semua tanaman di kebun Pak Budi adalah tanaman hias. Tanaman mawar ada di kebun Pak Budi. Sebagian tanaman hias memiliki bunga berwarna merah.\n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Berdasarkan Teks 2, jika di sebuah daerah konflik tidak terjadi gelombang pengungsian besar-besaran, manakah simpulan yang PALING MUNGKIN benar?",
     "pilihan": [
-      "Tanaman mawar memiliki bunga berwarna merah.",
-      "Semua tanaman di kebun Pak Budi memiliki bunga berwarna merah.",
-      "Sebagian tanaman di kebun Pak Budi memiliki bunga berwarna merah.",
-      "Sebagian tanaman hias tidak memiliki bunga.",
-      "Tidak dapat ditarik kesimpulan mengenai warna bunga mawar."
+      "Konflik di daerah tersebut tidak bersenjata.",
+      "Rantai pasokan makanan dan obat-obatan tidak mengalami disrupsi.",
+      "Situasi kemanusiaan di daerah tersebut tidak memburuk secara signifikan.",
+      "Tidak ada organisasi kemanusiaan yang bekerja di sana.",
+      "Semua penduduk telah menjadi martir dalam konflik."
     ],
     "jawaban": "C",
-    "pembahasan": "Dari premis pertama, semua tanaman di kebun Pak Budi adalah tanaman hias. Premis ketiga menyatakan bahwa sebagian tanaman hias memiliki bunga berwarna merah. Maka, dapat ditarik kesimpulan bahwa sebagian dari tanaman di kebun Pak Budi (yang semuanya merupakan tanaman hias) memiliki bunga berwarna merah. Ini adalah contoh silogisme kategori dengan penggunaan kata 'sebagian'."
+    "pembahasan": "Teks menyatakan bahwa situasi kemanusiaan yang memburuk (akibat kelaparan dan penyakit) 'sering kali memaksa warga menjadi pengungsi'. Jika tidak ada pengungsian besar, maka simpulan yang paling mungkin adalah bahwa situasi kemanusiaan tidak memburuk sampai ke tingkat yang memaksa orang untuk mengungsi."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika hujan deras turun, jalanan akan tergenang air. Saat ini, lalu lintas di Jalan Sudirman lancar dan tidak tergenang air.\n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Manakah pernyataan yang dapat DISIMPULKAN secara LANGSUNG dari Teks 2?",
     "pilihan": [
-      "Jalanan di seluruh kota tidak tergenang air.",
-      "Tidak hujan deras turun di Jalan Sudirman.",
-      "Hujan deras tidak akan turun di Jalan Sudirman.",
-      "Tidak ada jalan lain yang tergenang air.",
-      "Tidak dapat ditarik kesimpulan tentang cuaca."
+      "Semua pengungsi berasal dari daerah konflik.",
+      "Bantuan kemanusiaan yang tepat waktu dapat mencegah terjadinya pengungsian.",
+      "Akses yang aman untuk bantuan kemanusiaan akan mencegah memburuknya situasi kemanusiaan.",
+      "Konflik bersenjata adalah satu-satunya penyebab pengungsian.",
+      "Organisasi kemanusiaan internasional mampu menghentikan konflik bersenjata."
     ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P (hujan deras), maka Q (jalanan tergenang). Diketahui ¬Q (jalanan tidak tergenang), maka kesimpulannya adalah ¬P (tidak hujan deras)."
+    "jawaban": "C",
+    "pembahasan": "Teks terakhir menyatakan bahwa 'akses yang aman...adalah prasyarat mutlak untuk mencegah bencana kemanusiaan yang lebih besar'. Dari sini, dapat disimpulkan langsung bahwa jika akses aman tersedia, maka pemburukan situasi kemanusiaan dapat dicegah. Pilihan lain merupakan generalisasi atau interpretasi yang terlalu jauh di luar teks."
   },
   {
     "id": 7,
-    "pertanyaan": "Semua peserta seminar adalah akademisi. Beberapa akademisi berasal dari luar kota. \n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Dalam sebuah rapat desa, disepakati bahwa semua program bantuan sosial harus ditujukan bagi warga yang tercatat dalam Data Terpadu Kesejahteraan Sosial (DTKS). Pak Rudi adalah seorang warga yang menerima bantuan sosial tunai dari pemerintah. \n\nBerdasarkan informasi tersebut, manakah simpulan yang PASTI BENAR?",
     "pilihan": [
-      "Semua peserta seminar berasal dari luar kota.",
-      "Beberapa peserta seminar bukan akademisi.",
-      "Beberapa peserta seminar berasal dari luar kota.",
-      "Semua akademisi adalah peserta seminar.",
-      "Tidak dapat ditarik kesimpulan mengenai asal kota peserta seminar."
+      "Pak Rudi adalah warga yang paling miskin di desanya.",
+      "Pak Rudi tercatat dalam DTKS.",
+      "Semua warga yang tercatat dalam DTKS menerima bantuan sosial.",
+      "Program bantuan sosial di desa Pak Rudi hanya berupa tunai.",
+      "Pak Rudi tidak membutuhkan bantuan sosial lainnya."
     ],
-    "jawaban": "C",
-    "pembahasan": "Semua peserta seminar (kumpulan A) adalah akademisi (kumpulan B), yang berarti kumpulan A berada di dalam kumpulan B. Karena beberapa anggota kumpulan B berasal dari luar kota, maka ada kemungkinan irisan antara peserta seminar dan akademisi yang berasal dari luar kota. Jadi, **beberapa peserta seminar berasal dari luar kota**."
+    "jawaban": "B",
+    "pembahasan": "Premis: Semua penerima bantuan sosial harus tercatat dalam DTKS. Pak Rudi adalah penerima bantuan sosial. Maka, secara deduktif, Pak Rudi pasti tercatat dalam DTKS. Pilihan lain tidak dapat disimpulkan dengan pasti dari informasi yang diberikan."
   },
   {
     "id": 8,
-    "pertanyaan": "Semua peserta didik yang lulus ujian masuk universitas adalah orang yang pintar. Dian adalah orang yang pintar. \n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Sebuah penelitian sosiologi menyimpulkan bahwa semua komunitas yang memiliki tingkat partisipasi warga yang tinggi dalam musyawarah desa menunjukkan indeks kebahagiaan yang lebih baik. Desa Sukamaju diketahui memiliki indeks kebahagiaan yang rendah.\n\nBerdasarkan informasi di atas, manakah simpulan yang PASTI BENAR?",
     "pilihan": [
-      "Dian adalah peserta didik yang lulus ujian masuk universitas.",
-      "Dian bukan peserta didik yang lulus ujian masuk universitas.",
-      "Dian mungkin adalah peserta didik yang lulus ujian masuk universitas.",
-      "Hanya orang pintar yang bisa lulus ujian masuk universitas.",
-      "Tidak dapat ditarik kesimpulan bahwa Dian lulus ujian masuk universitas."
+      "Tidak ada partisipasi warga dalam musyawarah di Desa Sukamaju.",
+      "Tingkat partisipasi warga dalam musyawarah di Desa Sukamaju tidak tinggi.",
+      "Desa Sukamaju tidak pernah mengadakan musyawarah desa.",
+      "Indeks kebahagiaan tidak ada hubungannya dengan partisipasi warga.",
+      "Penelitian sosiologi tersebut pasti keliru."
     ],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah **kekeliruan Afirmasi Konsekuen**. Teks menyatakan bahwa semua yang lulus ujian masuk universitas itu pintar, tetapi tidak menyatakan sebaliknya. Banyak orang lain yang juga pintar, tetapi tidak ikut atau tidak lulus ujian masuk universitas. Jadi, kesimpulannya tidak bisa dipastikan."
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Jika partisipasi tinggi (P), maka indeks kebahagiaan baik (Q). Premis 2: Di Desa Sukamaju, indeks kebahagiaan tidak baik (tidak Q). Berdasarkan *modus tollens*, dapat disimpulkan dengan pasti bahwa partisipasi warga di Desa Sukamaju tidak tinggi (tidak P)."
   },
   {
     "id": 9,
-    "pertanyaan": "Jika musim kemarau, maka petani mengandalkan air irigasi. Saat ini, petani sedang tidak mengandalkan air irigasi. \n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Semua relawan yang diterjunkan di zona bencana harus telah mengikuti pelatihan dasar pertolongan pertama. Sebagian mahasiswa di Universitas X adalah relawan palang merah.\n\nBerdasarkan dua pernyataan di atas, manakah simpulan yang PASTI BENAR?",
     "pilihan": [
-      "Saat ini adalah musim kemarau.",
-      "Saat ini bukan musim kemarau.",
-      "Petani tidak pernah menggunakan air irigasi.",
-      "Petani hanya mengandalkan air irigasi saat musim kemarau.",
-      "Tidak dapat ditarik kesimpulan tentang musim saat ini."
+      "Semua relawan palang merah telah mengikuti pelatihan pertolongan pertama.",
+      "Sebagian mahasiswa di Universitas X telah mengikuti pelatihan pertolongan pertama.",
+      "Semua mahasiswa di Universitas X adalah relawan palang merah.",
+      "Semua relawan palang merah adalah mahasiswa di Universitas X.",
+      "Tidak ada simpulan yang pasti benar."
     ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P (musim kemarau), maka Q (petani mengandalkan air irigasi). Karena petani tidak mengandalkan air irigasi (¬Q), maka dapat disimpulkan bahwa saat ini bukan musim kemarau (¬P)."
+    "pembahasan": "Premis 1: Semua relawan zona bencana (A) harus sudah pelatihan (B). Premis 2: Sebagian mahasiswa X (C) adalah relawan palang merah (D). Informasi bahwa 'relawan palang merah' adalah bagian dari 'relawan yang diterjunkan di zona bencana' tidak diberikan secara eksplisit. Tanpa hubungan yang jelas antara A dan D, kita tidak dapat menarik simpulan pasti antara C (mahasiswa) dan B (sudah pelatihan).",
+    "jawaban": "E"
   },
   {
     "id": 10,
-    "pertanyaan": "Semua mamalia bernapas dengan paru-paru. Ikan paus adalah mamalia. Ikan paus hidup di laut.\n\nKesimpulan yang paling tepat adalah...",
+    "pertanyaan": "Jika sebuah inisiatif lingkungan dinyatakan berhasil ketika ia mampu mengurangi sampah plastik di sungai sebesar 50% dalam setahun, dan Inisiatif \"Bebas Plastik\" tidak berhasil mengurangi sampah plastik di Sungai Ciliwung sebesar 50% dalam setahun, maka manakah simpulan yang PASTI BENAR?",
     "pilihan": [
-      "Semua mamalia hidup di laut.",
-      "Ikan paus bernapas dengan paru-paru.",
-      "Hewan yang hidup di laut bernapas dengan paru-paru.",
-      "Semua hewan yang bernapas dengan paru-paru adalah ikan paus.",
-      "Tidak dapat ditarik kesimpulan mengenai cara bernapas ikan paus."
+      "Inisiatif \"Bebas Plastik\" dinyatakan tidak berhasil.",
+      "Inisiatif \"Bebas Plastik\" sama sekali tidak mengurangi sampah plastik.",
+      "Sungai Ciliwung menjadi lebih tercemar daripada sebelumnya.",
+      "Inisiatif \"Bebas Plastik\" pasti tidak dijalankan dengan baik.",
+      "Tidak ada inisiatif lain yang berhasil di Sungai Ciliwung."
     ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah deduksi langsung. Dari premis 1, semua mamalia bernapas dengan paru-paru. Dari premis 2, ikan paus adalah mamalia. Oleh karena itu, kesimpulan yang pasti benar adalah ikan paus bernapas dengan paru-paru."
+    "jawaban": "A",
+    "pembahasan": "Ini adalah penalaran deduktif sederhana berdasarkan definisi. Kriteria keberhasilan adalah: mengurangi 50% sampah -> dinyatakan berhasil. Inisiatif \"Bebas Plastik\" tidak memenuhi kriteria tersebut (tidak mengurangi 50%). Maka, secara logis, inisiatif tersebut pasti dapat dinyatakan tidak berhasil."
   }
 ]
