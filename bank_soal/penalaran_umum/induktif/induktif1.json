@@ -1,72 +1,139 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Observasi 1: Kucing A mengeong saat lapar.\nObservasi 2: Kucing B mengeong saat lapar.\nObservasi 3: Kucing C mengeong saat lapar.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Semua kucing mengeong saat lapar.", "Beberapa kucing mengeong saat lapar.", "Kucing A, B, dan C adalah kucing yang lapar.", "Kucing mengeong hanya karena lapar.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "A",
-    "pembahasan": "Dari beberapa observasi spesifik bahwa kucing yang berbeda mengeong saat lapar, ditarik kesimpulan umum bahwa 'semua kucing mengeong saat lapar'. Ini adalah generalisasi yang khas dalam penalaran induktif."
+    "pertanyaan": "Seorang peneliti mengamati pertumbuhan sebuah tanaman. Pada hari ke-1, tingginya 2 cm. Hari ke-2: 5 cm. Hari ke-3: 11 cm. Hari ke-4: 23 cm. Hari ke-5: 47 cm.\n\nBerdasarkan pola pertumbuhan tersebut, berapa perkiraan tinggi tanaman pada hari ke-6?",
+    "pilihan": [
+      "83 cm",
+      "89 cm",
+      "95 cm",
+      "101 cm",
+      "107 cm"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pola yang terbentuk adalah setiap hari tingginya menjadi 2 kali hari sebelumnya ditambah 1: (2×2)+1=5, (5×2)+1=11, (11×2)+1=23, (23×2)+1=47. Jadi, perkiraan tinggi hari ke-6 adalah (47×2)+1 = 95 cm. Soal ini menguji kemampuan menemukan pola numerik, yang merupakan bagian dari penalaran induktif."
   },
   {
     "id": 2,
-    "pertanyaan": "Observasi 1: Setiap hari Senin, pasar ramai.\nObservasi 2: Setiap hari Selasa, pasar tidak terlalu ramai.\nObservasi 3: Setiap hari Rabu, pasar sepi.\n\nJika besok adalah hari Senin, apa yang paling mungkin terjadi di pasar?",
-    "pilihan": ["Pasar akan sepi.", "Pasar akan tidak terlalu ramai.", "Pasar akan ramai.", "Pasar akan ditutup.", "Tidak ada pola yang jelas."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan observasi pola hari-hari sebelumnya, pasar cenderung ramai pada hari Senin. Oleh karena itu, secara induktif, besok (Senin) pasar kemungkinan besar akan ramai."
+    "pertanyaan": "Dalam sebuah observasi terhadap 100 siswa, 80% dari siswa yang mendapat nilai A dalam matematika rutin mengerjakan latihan soal. Andi adalah seorang siswa yang rutin mengerjakan latihan soal matematika.\n\nBerdasarkan informasi tersebut, kesimpulan induktif yang PALING MASUK AKAL adalah...",
+    "pilihan": [
+      "Andi pasti mendapat nilai A dalam matematika.",
+      "Kemungkinan besar Andi mendapat nilai A dalam matematika.",
+      "Andi tidak mungkin mendapat nilai A dalam matematika.",
+      "Rutin mengerjakan latihan soal adalah satu-satunya faktor penentu nilai A.",
+      "Tidak ada hubungan antara rutin latihan dan nilai A."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Penalaran induktif menarik kesimpulan umum yang probabilitas (kemungkinan). Data menunjukkan korelasi kuat antara rutin latihan dan nilai A (80%). Oleh karena itu, kesimpulan yang paling masuk akal adalah 'Kemungkinan besar Andi mendapat nilai A', bukan klaim yang pasti (opsi A) atau klaim negatif (opsi C, D, E)."
   },
   {
     "id": 3,
-    "pertanyaan": "Pola bilangan: 1, 3, 5, 7, ...\nBilangan selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["8", "9", "10", "11", "12"],
+    "pertanyaan": "Perhatikan urutan bentuk berikut: Segitiga, Segilima, Segitujuh, Segisembilan, ...\n\nBerdasarkan pola tersebut, bentuk apakah yang kelima?",
+    "pilihan": [
+      "Segisepuluh",
+      "Segisebelas",
+      "Segitigabelas",
+      "Segilimabelas",
+      "Segitujuhbelas"
+    ],
+    "pilihan": [
+      "Segisepuluh",
+      "Segisebelas",
+      "Segitigabelas",
+      "Segilimabelas",
+      "Segitujuhbelas"
+    ],
     "jawaban": "B",
-    "pembahasan": "Pola bilangan ini adalah bilangan ganjil berurutan. Setiap bilangan berikutnya didapatkan dengan menambahkan 2 ke bilangan sebelumnya. Jadi, 7 + 2 = 9."
+    "pembahasan": "Pola jumlah sisi: 3, 5, 7, 9,... Ini adalah barisan bilangan ganjil. Bilangan ganjil kelima adalah 11. Jadi, bentuk kelima adalah Segi-11 atau Segisebelas."
   },
   {
     "id": 4,
-    "pertanyaan": "Observasi 1: Daun-daun di pohon A menguning di musim kemarau.\nObservasi 2: Daun-daun di pohon B menguning di musim kemarau.\nObservasi 3: Daun-daun di pohon C menguning di musim kemarau.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Semua daun menguning di musim kemarau.", "Beberapa daun menguning di musim kemarau.", "Daun menguning hanya karena musim kemarau.", "Pohon A, B, dan C adalah pohon yang daunnya menguning.", "Musim kemarau menyebabkan daun menguning."],
-    "jawaban": "E",
-    "pembahasan": "Dari observasi berulang bahwa daun-daun menguning di musim kemarau, dapat disimpulkan secara induktif bahwa musim kemarau *menyebabkan* atau *berkontribusi pada* fenomena daun menguning. Ini adalah inferensi kausal yang umum dalam penalaran induktif."
+    "pertanyaan": "Seorang peneliti survei menemukan bahwa di Kota A, 90% restoran yang ramai pengunjung memiliki pelayanan yang baik. Di Kota B, 85% restoran ramai memiliki pelayanan baik. Di Kota C, 88% restoran ramai memiliki pelayanan baik.\n\nKesimpulan induktif yang dapat ditarik dari data tiga kota tersebut adalah...",
+    "pilihan": [
+      "Pelayanan yang baik adalah satu-satunya penyebab restoran ramai.",
+      "Tidak ada hubungan antara pelayanan dan jumlah pengunjung.",
+      "Di sebagian besar kota, restoran yang ramai cenderung memiliki pelayanan yang baik.",
+      "Semua restoran yang pelayanannya baik pasti akan ramai.",
+      "Pelayanan yang buruk akan membuat restoran selalu sepi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Penalaran induktif mengambil kesimpulan umum dari beberapa contoh spesifik. Data dari tiga kota yang berbeda secara konsisten menunjukkan korelasi positif antara pelayanan baik dan restoran ramai (dengan persentase tinggi). Oleh karena itu, kesimpulan yang paling masuk akal dan didukung data adalah kesimpulan yang general namun probabilitas, yaitu 'Di sebagian besar kota, restoran yang ramai cenderung memiliki pelayanan yang baik'."
   },
   {
     "id": 5,
-    "pertanyaan": "Pola gambar: Lingkaran, Segitiga, Persegi, Lingkaran, Segitiga, ...\nGambar selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Lingkaran", "Segitiga", "Persegi", "Oval", "Tidak ada pola yang jelas."],
-    "jawaban": "C",
-    "pembahasan": "Pola gambar ini berulang setiap tiga elemen: Lingkaran, Segitiga, Persegi. Setelah 'Lingkaran, Segitiga', maka gambar selanjutnya adalah 'Persegi' untuk menyelesaikan siklus."
+    "pertanyaan": "Perhatikan pola berikut: 1A3, 4D6, 7G9, 10J12, ...\n\nPasangan huruf dan angka apakah yang selanjutnya?",
+    "pilihan": [
+      "13M15",
+      "14M16",
+      "15M17",
+      "16P18",
+      "17P19"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pola angka: 1, 4, 7, 10,... (+3 setiap langkah). Angka selanjutnya: 13 dan 15. Pola huruf: A, D, G, J,... (melompati 2 huruf: A->B->C->D, dst). J adalah huruf ke-10, lompat 2: K(11), L(12) -> M(13). Jadi, pasangan selanjutnya adalah 13M15."
   },
   {
     "id": 6,
-    "pertanyaan": "Observasi 1: Uji coba obat X pada pasien 1 menunjukkan penurunan gejala.\nObservasi 2: Uji coba obat X pada pasien 2 menunjukkan penurunan gejala.\nObservasi 3: Uji coba obat X pada pasien 3 menunjukkan penurunan gejala.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Obat X pasti efektif untuk semua pasien.", "Obat X mungkin efektif untuk menurunkan gejala.", "Pasien 1, 2, dan 3 akan sembuh total.", "Obat X tidak memiliki efek samping.", "Penurunan gejala hanya disebabkan oleh obat X."],
-    "jawaban": "B",
-    "pembahasan": "Dari beberapa kasus spesifik yang menunjukkan efektivitas, ditarik kesimpulan umum yang bersifat probabilistik: 'Obat X *mungkin* efektif'. Penalaran induktif menghasilkan kesimpulan yang tidak pasti, tetapi memiliki probabilitas tinggi."
+    "pertanyaan": "Seorang petani mencatat hasil panennya selama 5 tahun: Tahun 1: 100 kg, Tahun 2: 150 kg, Tahun 3: 225 kg, Tahun 4: 337.5 kg, Tahun 5: 506.25 kg.\n\nJika pola ini berlanjut, berapa perkiraan hasil panen pada Tahun ke-6?",
+    "pilihan": [
+      "650.25 kg",
+      "702.75 kg",
+      "759.375 kg",
+      "800.5 kg",
+      "850.125 kg"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pola yang terbentuk adalah dikali 1.5 setiap tahun: 100×1.5=150, 150×1.5=225, 225×1.5=337.5, 337.5×1.5=506.25. Jadi, perkiraan hasil panen tahun ke-6 adalah 506.25 × 1.5 = 759.375 kg."
   },
   {
     "id": 7,
-    "pertanyaan": "Pola huruf: A, C, E, G, ...\nHuruf selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["H", "I", "J", "K", "L"],
-    "jawaban": "B",
-    "pembahasan": "Pola huruf ini adalah huruf abjad dengan lompatan satu huruf di antaranya (huruf ganjil). A (lewati B) C (lewati D) E (lewati F) G (lewati H) I."
+    "pertanyaan": "Dalam beberapa kali percobaan, seorang ilmuwan melihat bahwa setiap kali zat X dipanaskan hingga suhu 80°C, zat tersebut berubah warna menjadi biru. Percobaan ini telah dilakukan dalam 15 kondisi yang berbeda-beda dan hasilnya selalu konsisten.\n\nKesimpulan induktif yang PALING KUAT didukung oleh data tersebut adalah...",
+    "pilihan": [
+      "Zat X pasti akan berubah menjadi biru pada suhu 80°C dalam kondisi apapun.",
+      "Zat X mungkin berubah menjadi biru pada suhu 80°C.",
+      "Pemanasan adalah satu-satunya cara untuk mengubah warna zat X.",
+      "Zat X tidak akan pernah berubah warna pada suhu di bawah 80°C.",
+      "Semua zat akan berubah menjadi biru jika dipanaskan hingga 80°C."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kekuatan kesimpulan induktif bergantung pada konsistensi dan jumlah observasi. Dalam soal ini, observasi dilakukan '15 kali' dalam 'kondisi yang berbeda-beda' dan hasilnya 'selalu konsisten'. Ini memberikan dasar yang sangat kuat untuk menyimpulkan bahwa hubungan tersebut bersifat deterministik ('pasti') dalam konteks yang diamati, meskipun secara filosofis penalaran induktif tidak dapat memberikan kepastian mutlak 100%."
   },
   {
     "id": 8,
-    "pertanyaan": "Observasi 1: Setiap kali saya menyentuh setrika panas, tangan saya terbakar.\nObservasi 2: Saudara saya menyentuh setrika panas, tangannya terbakar.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Setrika selalu panas.", "Setrika panas menyebabkan tangan terbakar.", "Tangan saya pasti akan terbakar lagi.", "Setrika panas berbahaya hanya untuk saya.", "Tidak ada hubungan antara setrika panas dan tangan terbakar."],
+    "pertanyaan": "Perhatikan urutan pola gambar berikut: Kotak dengan 1 titik di tengah, Kotak dengan 4 titik membentuk persegi, Kotak dengan 9 titik membentuk persegi 3x3, Kotak dengan 16 titik membentuk persegi 4x4, ...\n\nBerdasarkan pola tersebut, berapa banyak titik pada gambar kelima?",
+    "pilihan": [
+      "20",
+      "25",
+      "30",
+      "36",
+      "49"
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari observasi berulang bahwa menyentuh setrika panas selalu mengakibatkan tangan terbakar, ditarik kesimpulan umum yang bersifat kausal: 'Setrika panas menyebabkan tangan terbakar'."
+    "pembahasan": "Pola jumlah titik adalah kuadrat dari urutan gambar: Gambar 1: 1² = 1, Gambar 2: 2² = 4, Gambar 3: 3² = 9, Gambar 4: 4² = 16. Jadi, gambar kelima akan memiliki 5² = 25 titik."
   },
   {
     "id": 9,
-    "pertanyaan": "Pola warna: Merah, Kuning, Hijau, Merah, Kuning, ...\nWarna selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Merah", "Kuning", "Hijau", "Biru", "Putih"],
-    "jawaban": "C",
-    "pembahasan": "Pola warna ini berulang setiap tiga elemen: Merah, Kuning, Hijau. Setelah 'Merah, Kuning', maka warna selanjutnya adalah 'Hijau' untuk menyelesaikan siklus."
+    "pertanyaan": "Seorang sosiolog mewawancarai 50 pengusaha sukses. 45 di antaranya mengatakan mereka membangun kebiasaan bangun pagi sebelum pukul 05.00. Dari 50 orang yang diwawancara dari kalangan biasa, hanya 10 yang memiliki kebiasaan bangun pagi seperti itu.\n\nKesimpulan induktif yang PALING DIDUKUNG oleh data di atas adalah...",
+    "pilihan": [
+      "Bangun pagi adalah penyebab utama kesuksesan seorang pengusaha.",
+      "Semua pengusaha sukses pasti bangun pagi.",
+      "Tidak mungkin orang yang bangun siang bisa sukses.",
+      "Kebiasaan bangun pagi memiliki korelasi dengan kesuksesan berwirausaha.",
+      "Bangun pagi tidak ada hubungannya dengan kesuksesan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Data menunjukkan perbedaan yang sangat mencolok dalam kebiasaan bangun pagi antara kelompok pengusaha sukses (90%) dan kelompok biasa (20%). Ini adalah dasar yang kuat untuk menarik kesimpulan induktif tentang adanya korelasi. Kesimpulan D adalah yang paling tepat karena menyatakan 'korelasi' (hubungan), bukan 'penyebab' (seperti opsi A) yang membutuhkan penelitian lebih lanjut untuk membuktikan sebab-akibat."
   },
   {
     "id": 10,
-    "pertanyaan": "Observasi 1: Sebagian besar siswa yang mengikuti les tambahan lulus ujian dengan nilai tinggi.\nObservasi 2: Dina mengikuti les tambahan dan lulus ujian dengan nilai tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Les tambahan menjamin kelulusan dengan nilai tinggi.", "Les tambahan tidak berpengaruh pada nilai ujian.", "Mengikuti les tambahan meningkatkan peluang lulus dengan nilai tinggi.", "Hanya siswa yang mengikuti les tambahan yang lulus dengan nilai tinggi.", "Tidak ada hubungan antara les tambahan dan nilai ujian."],
-    "jawaban": "C",
-    "pembahasan": "Dari observasi bahwa 'sebagian besar' siswa yang les tambahan berhasil, dan ada contoh spesifik (Dina), disimpulkan secara induktif bahwa les tambahan 'meningkatkan peluang' keberhasilan. Ini adalah kesimpulan probabilitas, bukan kepastian."
+    "pertanyaan": "Perhatikan pola angka berikut: 2, 3, 5, 7, 11, 13, 17, 19, ...\n\nAngka apakah yang melengkapi pola tersebut?",
+    "pilihan": [
+      "21",
+      "23",
+      "25",
+      "27",
+      "29"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola ini adalah urutan bilangan prima (bilangan yang hanya habis dibagi 1 dan dirinya sendiri). Bilangan prima setelah 19 adalah 23."
   }
 ]
