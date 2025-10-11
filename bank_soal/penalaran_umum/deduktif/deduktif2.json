@@ -1,73 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Premis 1: Semua kucing memiliki ekor.\nPremis 2: Miko adalah kucing.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Miko tidak memiliki ekor.", "Miko mungkin memiliki ekor.", "Miko pasti memiliki ekor.", "Semua yang memiliki ekor adalah Miko.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-3.\n\n**Teks 1: Dampak Sosial Media Sosial terhadap Kohesi Sosial**\nStudi sosiologis terbaru menunjukkan bahwa platform media sosial yang dirancang untuk mempertemukan kelompok dengan minat khusus (echo chambers) justru dapat mengurangi toleransi terhadap pandangan yang berbeda. Algoritma yang menyajikan konten serupa terus-menerus dikhawatirkan mempolarisasi opini publik. Namun, penelitian yang sama juga mengungkapkan bahwa media sosial dapat memperkuat ikatan sosial dalam komunitas yang sudah memiliki nilai-nilai dasar yang sama, dengan memfasilitasi komunikasi dan koordinasi kegiatan secara cepat dan luas.\n\nDengan kata lain, dampak media sosial bersifat paradoks. Di satu sisi, media sosial berpotensi melemahkan kohesi sosial secara makro (antar kelompok), tetapi di sisi lain, ia dapat memperkuat kohesi sosial secara mikro (dalam kelompok). Efek dominannya bergantung pada kesadaran pengguna dalam mencari informasi yang beragam dan kemampuan literasi digital masyarakat secara keseluruhan.\n\n * Berdasarkan teks, manakah pernyataan yang PALING TEPAT mengenai dampak media sosial?",
+    "pilihan": [
+      "Media sosial selalu memperkuat ikatan sosial dalam segala kondisi.",
+      "Media sosial secara pasti melemahkan toleransi dalam masyarakat.",
+      "Dampak media sosial terhadap kohesi sosial tidak tunggal dan bergantung pada konteks.",
+      "Algoritma media sosial dirancang khusus untuk memecah belah masyarakat.",
+      "Kohesi sosial makro dan mikro selalu bergerak searah dipengaruhi media sosial."
+    ],
     "jawaban": "C",
-    "pembahasan": "Berdasarkan penalaran deduktif, jika semua anggota suatu kelompok memiliki ciri tertentu (semua kucing memiliki ekor) dan suatu individu adalah anggota kelompok tersebut (Miko adalah kucing), maka individu tersebut pasti memiliki ciri tersebut."
+    "pembahasan": "Teks secara jelas menyatakan sifat paradoks dampak media sosial: melemahkan kohesi makro (antar kelompok) tetapi memperkuat kohesi mikro (dalam kelompok). Pilihan C merangkum gagasan bahwa dampaknya tidak tunggal dan bergantung pada konteks (seperti kesadaran pengguna dan literasi digital) dengan tepat."
   },
   {
     "id": 2,
-    "pertanyaan": "Premis 1: Jika lampu mati, maka ruangan gelap.\nPremis 2: Ruangan tidak gelap.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Lampu mati.", "Lampu tidak mati.", "Ruangan selalu gelap saat lampu mati.", "Lampu tidak membuat ruangan gelap.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Berdasarkan Teks 1, jika suatu masyarakat memiliki tingkat literasi digital yang tinggi dan aktif mencari informasi yang beragam, manakah simpulan yang PALING MUNGKIN terjadi?",
+    "pilihan": [
+      "Polarisasi opini publik akan semakin menjadi-jadi.",
+      "Dampak pelemahan kohesi sosial makro dapat diminimalisir.",
+      "Media sosial tidak akan digunakan lagi di masyarakat tersebut.",
+      "Kohesi sosial dalam kelompok (mikro) akan melemah.",
+      "Algoritma media sosial akan berubah secara otomatis."
+    ],
     "jawaban": "B",
-    "pembahasan": "Ini adalah contoh Modus Tollens. Jika P → Q (Jika lampu mati, maka ruangan gelap) dan ¬Q (Ruangan tidak gelap), maka kesimpulannya adalah ¬P (Lampu tidak mati). Jika lampu mati, ruangan *pasti* gelap. Karena ruangan tidak gelap, berarti lampu tidak mati."
+    "pembahasan": "Teks menyatakan bahwa efek dominan media sosial 'bergantung pada kesadaran pengguna dalam mencari informasi yang beragam dan kemampuan literasi digital'. Maka, jika kedua faktor ini tinggi, dampak negatif (seperti polarisasi dan pelemahan kohesi makro) paling mungkin dapat diminimalisir."
   },
   {
     "id": 3,
-    "pertanyaan": "Premis 1: Semua mamalia menyusui anaknya.\nPremis 2: Kelelawar adalah mamalia.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Kelelawar tidak menyusui anaknya.", "Kelelawar mungkin menyusui anaknya.", "Kelelawar pasti menyusui anaknya.", "Semua yang menyusui anaknya adalah kelelawar.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Manakah pernyataan yang **PASTI SALAH** berdasarkan Teks 1?",
+    "pilihan": [
+      "Media sosial memiliki dampak yang kompleks terhadap masyarakat.",
+      "Algoritma dapat menyajikan konten yang serupa kepada pengguna.",
+      "Media sosial hanya memiliki dampak positif bagi kohesi sosial.",
+      "Media sosial dapat memfasilitasi komunikasi dalam sebuah komunitas.",
+      "Echo chambers berpotensi mengurangi toleransi."
+    ],
     "jawaban": "C",
-    "pembahasan": "Jika semua mamalia menyusui anaknya, dan kelelawar termasuk dalam kategori mamalia, maka secara deduktif kelelawar pasti menyusui anaknya."
+    "pembahasan": "Teks menjelaskan dampak paradoks media sosial, yang mencakup both positif (memperkuat ikatan dalam kelompok) dan negatif (mempolarisasi opini, mengurangi toleransi). Oleh karena itu, pernyataan yang menyatakan media sosial 'hanya' memiliki dampak positif (C) adalah pernyataan yang pasti salah."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Jika seseorang berolahraga teratur, maka ia akan sehat.\nPremis 2: Ani tidak sehat.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Ani berolahraga teratur.", "Ani tidak berolahraga teratur.", "Ani mungkin berolahraga teratur.", "Semua orang yang tidak sehat tidak berolahraga teratur.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 4-6.\n\n**Teks 2: Mitigasi Bencana Gempa Bumi**\nStruktur bangunan tahan gempa adalah fondasi utama dalam mitigasi bencana gempa bumi. Prinsipnya adalah membuat bangunan yang mampu berayun mengikuti gerakan gempa tanpa runtuh, sehingga memberikan waktu evakuasi bagi penghuninya. Seluruh bangunan publik baru yang dibangun di zona rawan gempa wajib memenuhi standar ini menurut peraturan pemerintah. Selain itu, sosialisasi dan simulasi evakuasi secara berkala kepada masyarakat yang tinggal di zona tersebut juga merupakan komponen krusial untuk meminimalkan korban jiwa.\n\n * Berdasarkan teks, manakah urutan logis prioritas dalam mitigasi bencana gempa bumi?",
+    "pilihan": [
+      "Simulasi -> Bangunan Tahan Gempa -> Sosialisasi",
+      "Bangunan Tahan Gempa (Fondasi) -> Sosialisasi & Simulasi (Krusial)",
+      "Sosialisasi -> Peraturan Pemerintah -> Bangunan Tahan Gempa",
+      "Peraturan Pemerintah -> Simulasi -> Bangunan Tahan Gempa",
+      "Zona Rawan Gempa -> Bangunan Tahan Gempa -> Simulasi"
+    ],
     "jawaban": "B",
-    "pembahasan": "Menggunakan Modus Tollens, jika P → Q (Jika seseorang berolahraga teratur, maka ia akan sehat) dan ¬Q (Ani tidak sehat), maka kesimpulannya adalah ¬P (Ani tidak berolahraga teratur)."
+    "pembahasan": "Teks menyebut bangunan tahan gempa sebagai 'fondasi utama' dan sosialisasi & simulasi sebagai 'komponen krusial'. Urutan B mencerminkan prioritas ini: fondasi utama terlebih dahulu, diikuti oleh komponen krusial pendukung."
   },
   {
     "id": 5,
-    "pertanyaan": "Premis 1: Semua buku di rak ini adalah buku fiksi ilmiah.\nPremis 2: Buku 'Dunia Baru' ada di rak ini.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Buku 'Dunia Baru' bukan buku fiksi ilmiah.", "Buku 'Dunia Baru' mungkin buku fiksi ilmiah.", "Buku 'Dunia Baru' pasti buku fiksi ilmiah.", "Semua buku fiksi ilmiah ada di rak ini.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan premis, jika semua buku di rak adalah fiksi ilmiah dan 'Dunia Baru' ada di rak tersebut, maka 'Dunia Baru' pasti buku fiksi ilmiah."
+    "pertanyaan": "Berdasarkan Teks 2, jika terjadi gempa bumi besar di sebuah kota dan banyak bangunan publik yang runtuh, manakah simpulan yang PALING MUNGKIN benar?",
+    "pilihan": [
+      "Simulasi evakuasi di kota tersebut tidak pernah dilakukan.",
+      "Bangunan-bangunan tersebut mungkin tidak memenuhi standar tahan gempa.",
+      "Gempa bumi tersebut berkekuatan di atas prediksi semua ahli.",
+      "Tidak ada peraturan pemerintah tentang bangunan tahan gempa.",
+      "Kota tersebut tidak terletak di zona rawan gempa."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Teks menekankan bahwa bangunan tahan gempa adalah 'fondasi utama' dan 'wajib' untuk bangunan publik di zona rawan gempa. Jika banyak bangunan publik runtuh, simpulan yang paling mungkin adalah standar tersebut tidak terpenuhi. Pilihan lain mungkin benar, tetapi tidak selangsung terkait dengan informasi dalam teks seperti pilihan B."
   },
   {
     "id": 6,
-    "pertanyaan": "Premis 1: Setiap persegi memiliki empat sisi yang sama panjang.\nPremis 2: Bangun A adalah persegi.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Bangun A tidak memiliki empat sisi yang sama panjang.", "Bangun A mungkin memiliki empat sisi yang sama panjang.", "Bangun A pasti memiliki empat sisi yang sama panjang.", "Semua bangun yang memiliki empat sisi sama panjang adalah Bangun A.", "Tidak dapat ditarik kesimpulan."],
+    "pertanyaan": "Manakah pernyataan yang dapat DISIMPULKAN secara LANGSUNG dari Teks 2?",
+    "pilihan": [
+      "Bangunan tahan gempa akan tetap utuh sepenuhnya saat gempa terjadi.",
+      "Peraturan pemerintah menjamin tidak ada korban jiwa saat gempa.",
+      "Tujuan utama bangunan tahan gempa adalah untuk memberikan waktu evakuasi.",
+      "Hanya bangunan publik yang perlu dibuat tahan gempa.",
+      "Sosialisasi lebih penting daripada struktur bangunan."
+    ],
     "jawaban": "C",
-    "pembahasan": "Karena semua persegi memiliki empat sisi yang sama panjang dan Bangun A adalah persegi, maka Bangun A pasti memiliki empat sisi yang sama panjang."
+    "pembahasan": "Teks secara langsung menyatakan bahwa prinsip bangunan tahan gempa adalah 'memberikan waktu evakuasi bagi penghuninya'. Pilihan C menyimpulkan hal ini secara langsung. Pilihan lain merupakan interpretasi yang salah atau berlebihan dari teks."
   },
   {
     "id": 7,
-    "pertanyaan": "Premis 1: Jika hujan, maka petani gembira.\nPremis 2: Petani tidak gembira.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Hujan.", "Tidak hujan.", "Petani selalu gembira saat hujan.", "Hujan tidak membuat petani gembira.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika hujan, maka petani gembira) dan ¬Q (Petani tidak gembira), maka kesimpulannya adalah ¬P (Tidak hujan)."
+    "pertanyaan": "Semua korban banjir bandang yang terluka parah harus segera dirujuk ke Rumah Sakit Umum Daerah (RSUD). Pak Andi adalah seorang korban banjir bandang yang tidak dirujuk ke RSUD.\n\nBerdasarkan informasi tersebut, manakah simpulan yang PASTI BENAR?",
+    "pilihan": [
+      "Pak Andi tidak terluka parah.",
+      "Pak Andi menolak untuk dirujuk ke RSUD.",
+      "RSUD sedang penuh sehingga tidak bisa menerima pasien.",
+      "Pak Andi bukan korban banjir bandang.",
+      "Tidak ada ambulans yang tersedia untuk mengangkut Pak Andi."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Premis: Semua korban yang terluka parah (P) harus dirujuk ke RSUD (Q). Pak Andi tidak dirujuk ke RSUD (tidak Q). Berdasarkan *modus tollens*, dapat disimpulkan dengan pasti bahwa Pak Andi tidak terluka parah (tidak P)."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis 1: Beberapa mahasiswa suka membaca buku.\nPremis 2: Semua yang suka membaca buku adalah orang yang berwawasan luas.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Semua mahasiswa adalah orang yang berwawasan luas.", "Beberapa mahasiswa adalah orang yang berwawasan luas.", "Semua orang yang berwawasan luas adalah mahasiswa.", "Beberapa orang yang berwawasan luas bukan mahasiswa.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Karena ada sebagian mahasiswa yang suka membaca buku, dan semua orang yang suka membaca buku adalah orang yang berwawasan luas, maka dapat disimpulkan bahwa beberapa mahasiswa adalah orang yang berwawasan luas."
+    "pertanyaan": "Setiap kali terjadi kekeringan panjang, hasil panen padi di daerah tersebut menurun drastis. Tahun ini, hasil panen padi di Desa Sumberjaya tidak menurun drastis.\n\nBerdasarkan dua pernyataan di atas, manakah simpulan yang PASTI BENAR?",
+    "pilihan": [
+      "Desa Sumberjaya tidak mengalami kekeringan panjang tahun ini.",
+      "Desa Sumberjaya tidak menanam padi tahun ini.",
+      "Petani di Desa Sumberjaya menggunakan teknologi baru.",
+      "Harga padi di Desa Sumberjaya tetap stabil.",
+      "Tidak dapat ditarik simpulan yang pasti."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Premis 1: Jika kekeringan panjang (P), maka hasil panen menurun (Q). Premis 2: Hasil panen tidak menurun (tidak Q). Berdasarkan *modus tollens*, dapat disimpulkan dengan pasti bahwa tidak terjadi kekeringan panjang (tidak P)."
   },
   {
     "id": 9,
-    "pertanyaan": "Premis 1: Semua tanaman membutuhkan air untuk tumbuh.\nPremis 2: Mawar adalah tanaman.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Mawar tidak membutuhkan air untuk tumbuh.", "Mawar mungkin membutuhkan air untuk tumbuh.", "Mawar pasti membutuhkan air untuk tumbuh.", "Semua yang membutuhkan air untuk tumbuh adalah mawar.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan premis, jika semua tanaman membutuhkan air untuk tumbuh dan mawar adalah tanaman, maka mawar pasti membutuhkan air untuk tumbuh."
+    "pertanyaan": "Sebagian relawan yang membantu di pengungsian bencana alam adalah tenaga medis. Semua tenaga medis yang membantu diwajibkan mengenakan identitas khusus.\n\nBerdasarkan dua pernyataan di atas, manakah simpulan yang PASTI BENAR?",
+    "pilihan": [
+      "Semua relawan pengungsian adalah tenaga medis.",
+      "Sebagian relawan pengungsian diwajibkan mengenakan identitas khusus.",
+      "Tidak ada relawan non-medis yang mengenakan identitas khusus.",
+      "Semua yang mengenakan identitas khusus adalah tenaga medis.",
+      "Tenaga medis tidak boleh menjadi relawan."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis 1: Sebagian relawan (A) adalah tenaga medis (B). Premis 2: Semua tenaga medis (B) wajib pakai identitas (C). Dari kedua premis, dapat disimpulkan bahwa sebagian A (relawan) adalah B (tenaga medis) yang wajib C (pakai identitas). Jadi, sebagian relawan pengungsian wajib mengenakan identitas khusus."
   },
   {
     "id": 10,
-    "pertanyaan": "Premis 1: Jika listrik padam, maka televisi tidak bisa menyala.\nPremis 2: Televisi bisa menyala.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": ["Listrik padam.", "Listrik tidak padam.", "Televisi selalu bisa menyala saat listrik padam.", "Televisi tidak bisa menyala saat listrik padam.", "Tidak dapat ditarik kesimpulan."],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah Modus Tollens. Jika P → Q (Jika listrik padam, maka televisi tidak bisa menyala) dan ¬Q (Televisi bisa menyala), maka kesimpulannya adalah ¬P (Listrik tidak padam). Jika listrik padam, TV *tidak bisa* menyala. Karena TV menyala, berarti listrik tidak padam."
+    "pertanyaan": "Jika suatu inovasi teknologi dinyatakan berhasil menerima penghargaan \"Inovasi Terbaik\" hanya apabila telah diimplementasikan di minimal 5 kota dan mendapatkan rating kepuasan pengguna di atas 90%, dan inovasi \"Siaga Bencana\" berhasil menerima penghargaan tersebut, maka manakah simpulan yang PASTI BENAR?",
+    "pilihan": [
+      "Inovasi \"Siaga Bencana\" diimplementasikan di tepat 5 kota.",
+      "Rating kepuasan pengguna \"Siaga Bencana\" adalah 95%.",
+      "Inovasi \"Siaga Bencana\" telah diimplementasikan di minimal 5 kota DAN rating kepuasannya di atas 90%.",
+      "Inovasi \"Siaga Bencana\" adalah satu-satunya inovasi yang menerima penghargaan.",
+      "Tidak ada inovasi lain yang diimplementasikan di lebih dari 5 kota."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ini adalah penalaran deduktif berdasarkan kriteria. Kriteria penghargaan adalah: (1) Diimplementasikan di >=5 kota DAN (2) Rating >90%. Jika inovasi \"Siaga Bencana\" menerima penghargaan, maka kedua kriteria tersebut PASTI telah terpenuhi. Pilihan C menyatakan hal ini dengan tepat."
   }
 ]
-
