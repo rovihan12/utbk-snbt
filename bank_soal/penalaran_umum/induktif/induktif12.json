@@ -1,132 +1,133 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Deret huruf dan angka: Z1A, Y2B, X4C, W8D, ...\n\nElemen berikutnya dalam deret ini adalah...",
+    "pertanyaan": "Seorang peneliti mengamati 50 restoran di 5 kota berbeda. Di setiap kota, 80-90% restoran yang memiliki rating di atas 4.5 bintang juga memiliki pelayanan yang sangat baik. Restoran \"Sederhana\" baru saja membuka cabang dan ingin mendapatkan rating tinggi.\n\nBerdasarkan pola tersebut, kesimpulan induktif yang PALING TEPAT adalah...",
     "pilihan": [
-      "V16F",
-      "V16E",
-      "V16D",
-      "U16E",
-      "V32E"
+      "Restoran Sederhana pasti akan dapat rating tinggi",
+      "Restoran Sederhana mungkin perlu fokus pada kualitas pelayanan",
+      "Rating tinggi tidak ada hubungannya dengan pelayanan",
+      "Semua restoran dengan pelayanan baik pasti dapat rating tinggi",
+      "Pelayanan buruk justru meningkatkan rating"
     ],
     "jawaban": "B",
-    "pembahasan": "Deret ini memiliki tiga pola yang saling terkait:\n1.  **Huruf pertama:** Berurutan mundur dari Z (Z, Y, X, W, V).\n2.  **Angka:** Deret angka dikalikan 2 ($1 \times 2 = 2$, $2 \times 2 = 4$, $4 \times 2 = 8$, $8 \times 2 = 16$).\n3.  **Huruf ketiga:** Berurutan maju dari A (A, B, C, D, E).\nDengan menggabungkan ketiga pola tersebut, elemen berikutnya adalah V16E."
+    "pembahasan": "Data dari multiple observasi menunjukkan korelasi konsisten antara pelayanan baik dan rating tinggi. Penalaran induktif mengambil kesimpulan probabilistik berdasarkan pola yang teramati, sehingga rekomendasi 'mungkin perlu fokus pada kualitas pelayanan' paling tepat."
   },
   {
     "id": 2,
-    "pertanyaan": "Observasi: Setiap kali suhu air di Samudra Pasifik naik di atas rata-rata historisnya, wilayah tertentu di Asia Tenggara mengalami musim kemarau yang lebih panjang dari biasanya.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pertanyaan": "Seorang petani mencatat hasil panen selama 5 musim: Musim 1 dengan pupuk A: 100kg, Musim 2 dengan pupuk B: 120kg, Musim 3 dengan pupuk A: 105kg, Musim 4 dengan pupuk B: 125kg, Musim 5 dengan pupuk A: 110kg.\n\nBerdasarkan pola ini, prediksi induktif untuk Musim 6 jika menggunakan pupuk B adalah...",
     "pilihan": [
-      "Kenaikan suhu air di Pasifik pasti menyebabkan kekeringan di Asia Tenggara.",
-      "Fenomena kenaikan suhu air di Pasifik adalah satu-satunya faktor penyebab musim kemarau panjang di Asia Tenggara.",
-      "Ada kemungkinan kuat bahwa kenaikan suhu air di Pasifik berkorelasi dengan periode kemarau yang lebih panjang di Asia Tenggara.",
-      "Musim kemarau di Asia Tenggara menyebabkan suhu air Pasifik naik.",
-      "Tidak ada hubungan yang bisa ditarik antara kedua fenomena tersebut."
+      "Pasti 130kg",
+      "Mungkin sekitar 125-130kg",
+      "Tidak bisa diprediksi",
+      "Lebih rendah dari 110kg",
+      "Sama dengan musim sebelumnya"
     ],
-    "jawaban": "C",
-    "pembahasan": "Observasi ini menunjukkan adanya korelasi yang sangat konsisten, yang dikenal sebagai El Niño. Penalaran induktif memungkinkan kita untuk menyimpulkan adanya hubungan, tetapi tidak dapat membuktikan kausalitas mutlak. Oleh karena itu, kesimpulan yang paling akurat adalah bahwa ada 'kemungkinan kuat' hubungan tersebut tanpa mengklaimnya sebagai satu-satunya penyebab atau hubungan kausal yang pasti."
+    "jawaban": "B",
+    "pembahasan": "Pola menunjukkan konsistensi hasil lebih tinggi dengan pupuk B (120kg, 125kg) dibanding pupuk A. Penalaran induktif membuat prediksi probabilistik berdasarkan tren, sehingga 'mungkin sekitar 125-130kg' paling tepat."
   },
   {
     "id": 3,
-    "pertanyaan": "Pola deret angka: 1, 4, 9, 16, 25, 36, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pertanyaan": "Dari 100 startup yang diteliti, 70% yang berhasil di tahun pertama memiliki setidaknya 2 founder dengan latar belakang komplementer. Startup \"Inovasi\" baru saja berdiri dengan 2 founder yang keduanya dari latar belakang teknis.\n\nBerdasarkan pola tersebut, rekomendasi induktif yang PALING LOGIS adalah...",
     "pilihan": [
-      "45",
-      "49",
-      "54",
-      "64",
-      "81"
+      "Sudah pasti akan berhasil",
+      "Mungkin perlu menambah founder dengan latar belakang bisnis",
+      "Tidak perlu perubahan karena sudah optimal",
+      "Harus mengganti salah satu founder",
+      "Jumlah founder tidak berpengaruh pada kesuksesan"
     ],
     "jawaban": "B",
-    "pembahasan": "Pola deret ini adalah bilangan kuadrat dari bilangan bulat positif yang berurutan. Polanya adalah $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$, $6^2=36$. Maka, angka berikutnya adalah $7^2=49$."
+    "pembahasan": "Data menunjukkan pentingnya latar belakang komplementer. Penalaran induktif mengambil pelajaran dari pola yang terobservasi untuk memberikan rekomendasi yang meningkatkan probabilitas keberhasilan."
   },
   {
     "id": 4,
-    "pertanyaan": "Premis 1: Semua seniman yang menggunakan cat air juga mahir dalam melukis potret.\nPremis 2: Sebagian pelukis potret yang mahir juga menguasai teknik pahat.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
+    "pertanyaan": "Seorang guru mengamati 3 kelas selama satu semester. Di setiap kelas, siswa yang mengumpulkan tugas tepat waktu memiliki nilai ujian 20-30% lebih tinggi daripada yang terlambat. Andi selalu mengumpulkan tugas tepat waktu.\n\nPrediksi induktif untuk nilai ujian Andi adalah...",
     "pilihan": [
-      "Beberapa seniman yang menggunakan cat air mahir dalam teknik pahat.",
-      "Semua pelukis potret yang mahir menggunakan cat air.",
-      "Tidak ada seniman yang mahir dalam teknik pahat dan menggunakan cat air.",
-      "Beberapa orang yang mahir dalam teknik pahat adalah seniman yang menggunakan cat air.",
-      "Semua orang yang mahir dalam teknik pahat adalah pelukis potret."
+      "Pasti ranking 1",
+      "Mungkin lebih tinggi dari rata-rata",
+      "Sama dengan yang terlambat",
+      "Tidak bisa diprediksi",
+      "Justru lebih rendah"
     ],
-    "jawaban": "A",
-    "pembahasan": "Dari Premis 1, kita tahu bahwa 'seniman cat air' adalah sub-kelompok dari 'pelukis potret yang mahir'. Dari Premis 2, kita tahu bahwa ada tumpang tindih antara 'pelukis potret yang mahir' dengan 'orang yang menguasai teknik pahat'. Dengan menggabungkan kedua premis, dapat ditarik kesimpulan bahwa sebagian dari sub-kelompok pertama (seniman cat air) juga bisa termasuk dalam sub-kelompok yang tumpang tindih tersebut (menguasai teknik pahat). Jadi, 'beberapa seniman yang menggunakan cat air' bisa jadi 'mahir dalam teknik pahat'."
+    "jawaban": "B",
+    "pembahasan": "Observasi berulang di multiple kelas menunjukkan pola konsisten. Penalaran induktif membuat prediksi probabilistik berdasarkan pola ini, bukan kepastian mutlak."
   },
   {
     "id": 5,
-    "pertanyaan": "Pola deret gambar: Sebuah lingkaran, lalu sebuah lingkaran dengan satu garis vertikal, lalu sebuah lingkaran dengan satu garis vertikal dan satu garis horizontal. Pola ini terus berlanjut. Apa gambar yang ke-5?",
+    "pertanyaan": "Peneliti kesehatan menemukan bahwa di 4 negara berbeda, masyarakat yang mengonsumsi minimal 5 porsi sayur/buah per hari memiliki risiko penyakit jantung 40-50% lebih rendah. Masyarakat Kota A rata-rata mengonsumsi 3 porsi sayur/buah per hari.\n\nKesimpulan induktif yang PALING TEPAT adalah...",
     "pilihan": [
-      "Lingkaran dengan empat garis yang saling tegak lurus.",
-      "Lingkaran dengan lima garis yang saling tegak lurus.",
-      "Lingkaran dengan satu garis vertikal, satu garis horizontal, dan satu garis diagonal.",
-      "Lingkaran dengan dua garis vertikal dan dua garis horizontal.",
-      "Lingkaran dengan dua garis vertikal, satu garis horizontal."
+      "Penduduk Kota A pasti berisiko tinggi",
+      "Penduduk Kota A mungkin memiliki risiko lebih tinggi",
+      "Tidak ada hubungan sama sekali",
+      "Mereka justru lebih sehat",
+      "Harus makan 10 porsi sehari"
     ],
-    "jawaban": "D",
-    "pembahasan": "Pola ini menambahkan dua garis baru pada setiap langkah (satu vertikal dan satu horizontal). Urutannya adalah:\n1.  Gambar ke-1: Lingkaran (0 garis).\n2.  Gambar ke-2: Lingkaran + 1 garis vertikal.\n3.  Gambar ke-3: Lingkaran + 1 garis vertikal + 1 garis horizontal.\n4.  Gambar ke-4: Lingkaran + 2 garis vertikal + 1 garis horizontal.\n5.  Gambar ke-5: Lingkaran + 2 garis vertikal + 2 garis horizontal."
+    "jawaban": "B",
+    "pembahasan": "Data dari multiple populasi menunjukkan pola protektif konsumsi sayur/buah. Penalaran induktif menarik kesimpulan umum yang probabilistik, bukan deterministik."
   },
   {
     "id": 6,
-    "pertanyaan": "Observasi: Setiap kali sebuah perusahaan meluncurkan produk baru dengan strategi pemasaran yang berfokus pada media sosial, pangsa pasarnya cenderung meningkat pesat dalam enam bulan pertama.\n\nKesimpulan induktif yang paling rasional adalah...",
+    "pertanyaan": "Observasi terhadap 20 perusahaan teknologi menunjukkan bahwa 85% yang memberikan training reguler kepada karyawan mengalami peningkatan produktivitas 15-25% dalam 6 bulan. Perusahaan \"TechGrowth\" sedang mempertimbangkan program training.\n\nRekomendasi induktif yang PALING MASUK AKAL adalah...",
     "pilihan": [
-      "Media sosial adalah satu-satunya faktor yang menyebabkan peningkatan pangsa pasar.",
-      "Pemasaran media sosial selalu menjamin peningkatan pangsa pasar.",
-      "Ada probabilitas tinggi bahwa pemasaran media sosial merupakan faktor yang berkontribusi pada peningkatan pangsa pasar produk baru.",
-      "Peningkatan pangsa pasar hanya bergantung pada kualitas produk.",
-      "Tidak ada hubungan antara strategi pemasaran dan pangsa pasar."
+      "Training pasti meningkatkan produktivitas",
+      "Mungkin implement training bisa bermanfaat",
+      "Training hanya buang-buang waktu",
+      "Produktivitas tidak ada hubungannya dengan training",
+      "Training justru menurunkan produktivitas"
     ],
-    "jawaban": "C",
-    "pembahasan": "Observasi tersebut menunjukkan korelasi yang kuat antara pemasaran media sosial dan peningkatan pangsa pasar. Kesimpulan induktif terbaik adalah bahwa pemasaran media sosial 'merupakan faktor yang berkontribusi', bukan satu-satunya faktor atau jaminan mutlak. Pilihan C adalah yang paling rasional dan sesuai dengan prinsip penalaran induktif."
+    "jawaban": "B",
+    "pembahasan": "Pola kuat dari multiple observasi mendukung efektivitas training. Penalaran induktif memberikan rekomendasi berdasarkan bukti empiris yang konsisten."
   },
   {
     "id": 7,
-    "pertanyaan": "Pola deret angka: 3, 5, 9, 17, 33, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pertanyaan": "Studi di 6 negara berkembang menemukan bahwa investasi dalam infrastruktur digital berkorelasi dengan pertumbuhan ekonomi 2-4% per tahun. Negara X berencana meningkatkan investasi infrastruktur digital.\n\nPrediksi induktif untuk Negara X adalah...",
     "pilihan": [
-      "64",
-      "65",
-      "66",
-      "67",
-      "68"
+      "Pasti tumbuh 3%",
+      "Mungkin mengalami peningkatan pertumbuhan ekonomi",
+      "Tidak akan ada dampak",
+      "Justru resesi",
+      "Hanya berpengaruh pada sektor tertentu"
     ],
     "jawaban": "B",
-    "pembahasan": "Pola deret ini adalah $(n \times 2) - 1$, di mana n adalah angka sebelumnya. Polanya adalah:\n$3 \times 2 - 1 = 5$\n$5 \times 2 - 1 = 9$\n$9 \times 2 - 1 = 17$\n$17 \times 2 - 1 = 33$\nMaka, angka berikutnya adalah $33 \times 2 - 1 = 66 - 1 = 65$."
+    "pembahasan": "Data cross-national menunjukkan pola konsisten. Penalaran induktif membuat prediksi berdasarkan generalisasi dari pola yang terobservasi di multiple konteks."
   },
   {
     "id": 8,
-    "pertanyaan": "Premis: Setiap kali volume penjualan 'smartwatch' di negara X meningkat, penjualan 'smartphone' juga meningkat. Namun, kenaikan penjualan 'smartwatch' tidak selalu mendahului kenaikan penjualan 'smartphone'.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pertanyaan": "Pengamatan terhadap 30 siswa selama 2 tahun menunjukkan bahwa 90% yang membaca minimal 1 buku per bulan mengalami peningkatan nilai bahasa 1-2 poin. Rina membaca 2 buku per bulan.\n\nKesimpulan induktif yang PALING TEPAT untuk Rina adalah...",
     "pilihan": [
-      "Penjualan 'smartwatch' menyebabkan penjualan 'smartphone' meningkat.",
-      "Penjualan 'smartphone' menyebabkan penjualan 'smartwatch' meningkat.",
-      "Ada korelasi positif antara penjualan 'smartwatch' dan 'smartphone', tetapi hubungan kausalitasnya tidak jelas.",
-      "Penjualan 'smartwatch' dan 'smartphone' tidak berhubungan.",
-      "Tidak ada kesimpulan yang bisa ditarik."
+      "Nilainya pasti naik 2 poin",
+      "Nilainya mungkin akan meningkat",
+      "Tidak ada hubungan sama sekali",
+      "Membaca justru menurunkan nilai",
+      "Hanya berlaku untuk siswa tertentu"
     ],
-    "jawaban": "C",
-    "pembahasan": "Premis tersebut secara eksplisit menyatakan adanya korelasi positif antara penjualan kedua produk. Namun, kalimat 'kenaikan penjualan smartwatch tidak selalu mendahului kenaikan penjualan smartphone' secara langsung menghilangkan kemungkinan kausalitas satu arah (A menyebabkan B atau sebaliknya). Oleh karena itu, kesimpulan yang paling tepat adalah bahwa ada korelasi, tetapi hubungan sebab-akibatnya tidak bisa dipastikan."
+    "jawaban": "B",
+    "pembahasan": "Observasi jangka panjang menunjukkan pola kuat. Penalaran induktif menarik kesimpulan probabilistik berdasarkan konsistensi pola, bukan kepastian mutlak."
   },
   {
     "id": 9,
-    "pertanyaan": "Observasi: Sebuah eksperimen menunjukkan bahwa 90% dari tanaman yang disiram dengan 'Larutan X' tumbuh 20% lebih cepat daripada tanaman kontrol.\n\nKesimpulan induktif yang paling kuat adalah...",
+    "pertanyaan": "Analisis terhadap 50 perusahaan menemukan bahwa 80% yang menerapkan work from home 2 hari/minggu mengalami penurunan turnover karyawan 10-20%. Perusahaan \"Modern\" ingin mengurangi turnover.\n\nRekomendasi induktif yang PALING LOGIS adalah...",
     "pilihan": [
-      "Larutan X secara mutlak mempercepat pertumbuhan tanaman.",
-      "Larutan X adalah penyebab pasti dari pertumbuhan cepat tanaman.",
-      "Ada kemungkinan besar bahwa Larutan X berkontribusi pada percepatan pertumbuhan tanaman.",
-      "Pertumbuhan cepat tanaman hanya disebabkan oleh Larutan X.",
-      "Data ini tidak cukup untuk menarik kesimpulan yang valid."
+      "WFH pasti menyelesaikan masalah turnover",
+      "Mungkin pertimbangkan implementasi WFH parsial",
+      "WFH tidak berguna sama sekali",
+      "Turnover hanya bisa dikurangi dengan gaji",
+      "WFH justru meningkatkan turnover"
     ],
-    "jawaban": "C",
-    "pembahasan": "Hasil eksperimen yang sangat signifikan (90% tanaman) menunjukkan adanya hubungan yang kuat. Namun, karena tidak semua tanaman menunjukkan hasil yang sama (ada 10% yang tidak), kita tidak dapat menyimpulkan bahwa Larutan X adalah penyebab mutlak atau pasti. Kesimpulan induktif yang paling aman dan kuat adalah bahwa Larutan X 'memiliki kemungkinan besar berkontribusi' pada hasil tersebut."
+    "pembahasan": "B",
+    "jawaban": "B",
+    "pembahasan": "Data dari sampel besar menunjukkan korelasi konsisten. Penalaran induktif memberikan rekomendasi berdasarkan bukti empiris yang terobservasi berulang."
   },
   {
     "id": 10,
-    "pertanyaan": "Pola deret angka: 5, 10, 8, 16, 14, 28, ...\n\nAngka berikutnya dalam deret ini adalah...",
+    "pertanyaan": "Penelitian di 8 kota metropolitan menunjukkan bahwa daerah dengan akses transportasi publik yang baik memiliki tingkat kepuasan hidup penduduk 25-35% lebih tinggi. Kota Y sedang membangun sistem transportasi publik.\n\nPrediksi induktif untuk Kota Y adalah...",
     "pilihan": [
-      "24",
-      "26",
-      "28",
-      "30",
-      "56"
+      "Kepuasan hidup pasti naik 30%",
+      "Mungkin terjadi peningkatan kepuasan hidup",
+      "Tidak akan ada perubahan",
+      "Kepuasan hidup justru turun",
+      "Hanya berpengaruh pada kelompok tertentu"
     ],
     "jawaban": "B",
-    "pembahasan": "Pola deret ini adalah kombinasi dari dua operasi yang berulang. Setiap angka dikalikan 2, lalu angka berikutnya dikurangi 2. Polanya adalah:\n$5 \times 2 = 10$\n$10 - 2 = 8$\n$8 \times 2 = 16$\n$16 - 2 = 14$\n$14 \times 2 = 28$\nMaka, angka berikutnya adalah $28 - 2 = 26$."
+    "pembahasan": "Pola konsisten di multiple konteks geografis mendukung hubungan positif. Penalaran induktif membuat prediksi berdasarkan generalisasi dari observasi berulang."
   }
 ]
