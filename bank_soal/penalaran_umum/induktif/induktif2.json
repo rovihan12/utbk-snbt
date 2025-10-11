@@ -1,72 +1,132 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Observasi 1: Setiap kali saya menyiram tanaman A, ia tumbuh subur.\nObservasi 2: Setiap kali saya menyiram tanaman B, ia tumbuh subur.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Menyiram tanaman A dan B membuat mereka subur.", "Semua tanaman tumbuh subur jika disiram.", "Menyiram tanaman menyebabkan mereka tumbuh subur.", "Tanaman tumbuh subur hanya jika disiram.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Dari observasi berulang bahwa menyiram tanaman berkorelasi dengan pertumbuhan subur, dapat disimpulkan secara induktif bahwa menyiram tanaman *menyebabkan* atau *berkontribusi pada* pertumbuhan subur. Ini adalah inferensi kausal."
+    "pertanyaan": "Perhatikan pola bilangan berikut: $1^3 + 2^3$, $1^3 + 2^3 + 3^3$, $1^3 + 2^3 + 3^3 + 4^3$, $1^3 + 2^3 + 3^3 + 4^3 + 5^3$, ...\n\nBerapakah hasil dari $1^3 + 2^3 + 3^3 + 4^3 + 5^3 + 6^3$?",
+    "pilihan": [
+      "196",
+      "216", 
+      "225",
+      "256",
+      "441"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Pola jumlah pangkat tiga memiliki rumus: $1^3 + 2^3 + ... + n^3 = (1 + 2 + ... + n)^2 = \\left(\\frac{n(n+1)}{2}\\right)^2$. Untuk $n = 6$, hasilnya adalah $\\left(\\frac{6 \\times 7}{2}\\right)^2 = (21)^2 = 441$."
   },
   {
     "id": 2,
-    "pertanyaan": "Pola deret angka: 1, 4, 9, 16, ...\nAngka selanjutnya dalam deret tersebut adalah?",
-    "pilihan": ["20", "25", "30", "36", "49"],
+    "pertanyaan": "Dalam sebuah penelitian terhadap 1000 responden, ditemukan bahwa 85% orang yang berolahraga rutin 3 kali seminggu memiliki tekanan darah normal. Dari mereka yang tidak rutin berolahraga, hanya 45% yang memiliki tekanan darah normal. Andi memiliki tekanan darah normal.\n\nKesimpulan induktif yang PALING MASUK AKAL adalah...",
+    "pilihan": [
+      "Andi pasti rutin berolahraga",
+      "Andi mungkin rutin berolahraga",
+      "Andi pasti tidak rutin berolahraga", 
+      "Tekanan darah normal hanya dipengaruhi oleh olahraga",
+      "Tidak ada hubungan antara olahraga dan tekanan darah"
+    ],
     "jawaban": "B",
-    "pembahasan": "Pola deret angka ini adalah kuadrat dari bilangan asli berurutan (1^2=1, 2^2=4, 3^2=9, 4^2=16). Jadi, angka selanjutnya adalah 5^2 = 25."
+    "pembahasan": "Data menunjukkan probabilitas memiliki tekanan darah normal lebih tinggi jika rutin olahraga (85%) dibandingkan tidak rutin (45%). Namun karena masih ada 45% dari kelompok tidak rutin yang memiliki tekanan darah normal, kita hanya dapat menyimpulkan 'mungkin' Andi rutin berolahraga, bukan 'pasti'."
   },
   {
     "id": 3,
-    "pertanyaan": "Observasi 1: Lampu meja rusak setelah terkena tumpahan air.\nObservasi 2: Ponsel rusak setelah terjatuh ke air.\nObservasi 3: Speaker rusak setelah terkena hujan.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Air selalu merusak barang elektronik.", "Barang elektronik rusak hanya karena air.", "Kontak dengan air dapat merusak barang elektronik.", "Barang elektronik pasti rusak jika terkena air.", "Tidak ada hubungan antara air dan kerusakan elektronik."],
-    "jawaban": "C",
-    "pembahasan": "Dari beberapa contoh spesifik bahwa barang elektronik rusak setelah kontak dengan air, dapat digeneralisasi secara induktif bahwa kontak dengan air *dapat* merusak barang elektronik. Kesimpulan ini bersifat probabilistik atau menunjukkan potensi, bukan kepastian mutlak."
+    "pertanyaan": "Perhatikan pola bentuk berikut:\n• Pola 1: ★☆☆☆\n• Pola 2: ★★☆☆  \n• Pola 3: ★★★☆\n• Pola 4: ★★★★\n• Pola 5: ☆★★★\n\nBerdasarkan pola tersebut, bagaimana bentuk Pola 6?",
+    "pilihan": [
+      "★★☆☆☆",
+      "☆☆★★★",
+      "★★☆★★",
+      "☆★★☆☆",
+      "☆☆☆★★"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola menunjukkan pergerakan bintang dari kiri ke kanan: Pola 1-4 bintang bertambah dari kiri. Pola 5: bintang mulai bergeser ke kanan (☆★★★). Pola 6: terus bergeser menjadi ☆☆★★★. Ini adalah pola osilasi yang teratur."
   },
   {
     "id": 4,
-    "pertanyaan": "Pola deret huruf: A, B, D, G, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
-    "pilihan": ["H", "I", "J", "K", "L"],
-    "jawaban": "D",
-    "pembahasan": "Pola deret huruf ini menunjukkan penambahan posisi dalam abjad yang bertambah: A (+1) B (+2) D (+3) G. Jadi, G (+4) = K."
+    "pertanyaan": "Seorang ekonom mengamati data inflasi 5 negara ASEAN selama 10 tahun terakhir. Di semua negara tersebut, ketika suku bunga acuan dinaikkan 1%, inflasi turun 0,3-0,5% dalam 6-12 bulan berikutnya.\n\nKesimpulan induktif yang PALING TEPAT adalah...",
+    "pilihan": [
+      "Kenaikan suku bunga pasti menurunkan inflasi",
+      "Kenaikan suku bunga mungkin menurunkan inflasi di negara ASEAN",
+      "Kenaikan suku bunga tidak berpengaruh pada inflasi",
+      "Penurunan inflasi menyebabkan kenaikan suku bunga",
+      "Hubungan suku bunga dan inflasi hanya berlaku untuk ASEAN"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Data dari 5 negara selama 10 tahun menunjukkan konsistensi hubungan antara kenaikan suku bunga dan penurunan inflasi. Namun karena ini adalah observasi empiris dan bukan hukum pasti, kesimpulan yang paling tepat menggunakan kata 'mungkin' yang mencerminkan sifat probabilistik dari penalaran induktif."
   },
   {
     "id": 5,
-    "pertanyaan": "Observasi 1: Setiap kali saya minum kopi, saya merasa lebih energik.\nObservasi 2: Teman saya minum kopi dan juga merasa lebih energik.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Kopi selalu membuat orang merasa energik.", "Kopi tidak berpengaruh pada energi.", "Minum kopi dapat meningkatkan energi.", "Hanya saya dan teman saya yang merasa energik setelah minum kopi.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Diberikan barisan: 2, 6, 12, 20, 30, 42, ...\n\nBerapakah suku ke-8 dari barisan tersebut?",
+    "pilihan": [
+      "56",
+      "64",
+      "72",
+      "80",
+      "90"
+    ],
     "jawaban": "C",
-    "pembahasan": "Berdasarkan observasi beberapa kasus, dapat disimpulkan secara induktif bahwa minum kopi *dapat* meningkatkan energi. Ini adalah generalisasi dari pengalaman spesifik."
+    "pembahasan": "Pola barisan: $2 = 1 \\times 2$, $6 = 2 \\times 3$, $12 = 3 \\times 4$, $20 = 4 \\times 5$, $30 = 5 \\times 6$, $42 = 6 \\times 7$. Rumus umum: $U_n = n(n+1)$. Suku ke-8: $8 \\times 9 = 72$."
   },
   {
     "id": 6,
-    "pertanyaan": "Pola angka dalam barisan: 1, 1, 2, 3, 5, 8, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
-    "pilihan": ["11", "12", "13", "14", "15"],
-    "jawaban": "C",
-    "pembahasan": "Ini adalah pola deret Fibonacci, di mana setiap angka adalah penjumlahan dua angka sebelumnya (1+1=2, 1+2=3, 2+3=5, 3+5=8). Jadi, angka selanjutnya adalah 5+8=13."
+    "pertanyaan": "Dalam survei terhadap 500 startup teknologi, 80% yang berhasil mendapatkan pendanaan tahap kedua memiliki setidaknya satu co-founder dengan latar belakang teknis. Startup \"Technova\" sedang berusaha mendapatkan pendanaan tahap kedua.\n\nBerdasarkan pola tersebut, rekomendasi induktif yang PALING LOGIS untuk Technova adalah...",
+    "pilihan": [
+      "Pasti akan dapat pendanaan karena tren positif",
+      "Mungkin perlu merekrut co-founder dengan latar belakang teknis",
+      "Tidak perlu co-founder teknis karena bukan jaminan",
+      "Harus mengganti seluruh tim dengan orang teknis",
+      "Pendanaan tidak ada hubungannya dengan latar belakang tim"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Data menunjukkan korelasi kuat antara keberadaan co-founder teknis dan keberhasilan mendapatkan pendanaan. Rekomendasi yang paling logis adalah tindakan yang meningkatkan probabilitas keberhasilan berdasarkan pola yang terobservasi, yaitu 'mungkin perlu merekrut co-founder dengan latar belakang teknis'."
   },
   {
     "id": 7,
-    "pertanyaan": "Observasi 1: Uji coba mobil listrik pertama menempuh jarak 300 km dengan sekali cas.\nObservasi 2: Uji coba mobil listrik kedua menempuh jarak 320 km dengan sekali cas.\nObservasi 3: Uji coba mobil listrik ketiga menempuh jarak 310 km dengan sekali cas.\n\nKesimpulan induktif yang paling tepat tentang mobil listrik ini adalah...",
-    "pilihan": ["Mobil listrik ini pasti menempuh lebih dari 300 km dengan sekali cas.", "Mobil listrik ini tidak akan menempuh lebih dari 300 km dengan sekali cas.", "Mobil listrik ini dapat menempuh jarak sekitar 300-320 km dengan sekali cas.", "Jarak tempuh mobil listrik ini tidak konsisten.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pertanyaan": "Perhatikan pola huruf: A, D, I, P, Y, ...\n\nHuruf apakah yang selanjutnya?",
+    "pilihan": [
+      "Z",
+      "H", 
+      "J",
+      "K",
+      "L"
+    ],
     "jawaban": "C",
-    "pembahasan": "Dari beberapa observasi jarak tempuh yang bervariasi namun berada dalam rentang tertentu, dapat disimpulkan secara induktif bahwa mobil listrik tersebut *dapat* menempuh jarak dalam rentang tersebut (sekitar 300-320 km). Ini adalah generalisasi berdasarkan data numerik."
+    "pembahasan": "Pola: A (huruf ke-1), D (huruf ke-4), I (huruf ke-9), P (huruf ke-16), Y (huruf ke-25). Ini adalah kuadrat bilangan: $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$. Berikutnya: $6^2=36$, yang merupakan huruf ke-36. Dalam alfabet 26 huruf: 36-26=10, huruf ke-10 adalah J."
   },
   {
     "id": 8,
-    "pertanyaan": "Pola objek: Apel, Jeruk, Pisang, Apel, Jeruk, ...\nObjek selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Apel", "Jeruk", "Pisang", "Mangga", "Anggur"],
-    "jawaban": "C",
-    "pembahasan": "Pola objek ini berulang setiap tiga elemen: Apel, Jeruk, Pisang. Setelah 'Apel, Jeruk', maka objek selanjutnya adalah 'Pisang' untuk menyelesaikan siklus."
+    "pertanyaan": "Seorang psikolog menemukan bahwa dari 100 siswa yang dia amati, 90% yang memiliki jadwal belajar teratur mencapai nilai di atas rata-rata. Dari 50 siswa lain yang diobservasi di sekolah berbeda, 85% dengan jadwal belajar teratur juga mencapai nilai di atas rata-rata.\n\nKesimpulan induktif yang PALING KUAT adalah...",
+    "pilihan": [
+      "Jadwal belajar teratur menyebabkan nilai tinggi",
+      "Jadwal belajar teratur berkorelasi dengan nilai tinggi pada berbagai kelompok siswa", 
+      "Semua siswa dengan jadwal teratur pasti dapat nilai tinggi",
+      "Tidak ada hubungan antara jadwal belajar dan nilai",
+      "Hubungan ini hanya berlaku untuk siswa tertentu"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Dua observasi independen pada kelompok yang berbeda menunjukkan pola yang konsisten: persentase tinggi siswa dengan jadwal teratur mencapai nilai tinggi. Ini memperkuat kesimpulan tentang korelasi yang berlaku pada berbagai kelompok. Kata 'berkorelasi' lebih tepat daripada 'menyebabkan' karena penelitian observasional tidak membuktikan sebab-akibat."
   },
   {
     "id": 9,
-    "pertanyaan": "Observasi 1: Hampir semua siswa yang belajar kelompok mendapatkan nilai yang lebih baik.\nObservasi 2: Andi dan teman-temannya belajar kelompok dan nilai mereka meningkat.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Belajar kelompok menjamin peningkatan nilai.", "Belajar kelompok tidak berpengaruh pada nilai.", "Belajar kelompok dapat membantu meningkatkan nilai.", "Hanya Andi dan teman-temannya yang mendapat manfaat dari belajar kelompok.", "Tidak ada hubungan antara belajar kelompok dan peningkatan nilai."],
-    "jawaban": "C",
-    "pembahasan": "Dari observasi bahwa 'hampir semua' siswa yang belajar kelompok berhasil, dan ada contoh spesifik, disimpulkan secara induktif bahwa belajar kelompok 'dapat membantu' meningkatkan nilai. Ini adalah kesimpulan probabilitas atau menunjukkan potensi."
+    "pertanyaan": "Diberikan barisan Fibonacci: 1, 1, 2, 3, 5, 8, 13, 21, ...\n\nBerapakah hasil dari $F_{10} + F_{11}$ jika $F_n$ menyatakan suku ke-n?",
+    "pilihan": [
+      "34",
+      "55", 
+      "89",
+      "144",
+      "233"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Dalam barisan Fibonacci, $F_{n+2} = F_{n+1} + F_n$. Dari pola: $F_9=34$, $F_{10}=55$, $F_{11}=89$. Jadi $F_{10} + F_{11} = 55 + 89 = 144$. Perhatikan bahwa $F_{12} = F_{11} + F_{10} = 144$."
   },
   {
     "id": 10,
-    "pertanyaan": "Pola waktu: Pagi, Siang, Sore, Malam, Pagi, ...\nWaktu selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Pagi", "Siang", "Sore", "Malam", "Tengah malam"],
+    "pertanyaan": "Seorang ahli gizi mengamati 200 pasien diabetes. 75% dari mereka yang mengurangi konsumsi gula hingga di bawah 25 gram per hari menunjukkan penurunan kadar gula darah yang signifikan dalam 3 bulan. Pasien B menjalani diet rendah gula.\n\nBerdasarkan pola tersebut, prediksi induktif yang PALING REALISTIS untuk Pasien B adalah...",
+    "pilihan": [
+      "Pasti sembuh total dari diabetes",
+      "Kadar gula darahnya mungkin akan turun signifikan",
+      "Tidak akan ada perubahan pada kadar gula darah", 
+      "Harus berhenti total mengonsumsi gula",
+      "Diet rendah gula berbahaya untuk penderita diabetes"
+    ],
     "jawaban": "B",
-    "pembahasan": "Pola ini mengikuti siklus waktu dalam sehari: Pagi, Siang, Sore, Malam. Setelah 'Pagi', maka waktu selanjutnya adalah 'Siang'."
+    "pembahasan": "Data menunjukkan probabilitas tinggi (75%) penurunan kadar gula darah dengan diet rendah gula. Prediksi yang paling realistis mencerminkan probabilitas ini dengan menggunakan kata 'mungkin', mengakui bahwa meskipun pola kuat, hasil individual bisa bervariasi."
   }
 ]
