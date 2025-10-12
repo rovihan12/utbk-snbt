@@ -218,7 +218,7 @@
       "6.000"
     ],
     "jawaban": "B",
-    "pembahasan": "Total peserta adalah $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\nPemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah permutasi karena urutan penting.\n\nSyarat: Sekretaris harus Perempuan.\n\n* **Sekretaris:** Dipilih dari $10$ Perempuan ($10$ cara).\n* **Ketua:** Dipilih dari $24$ orang tersisa ($24$ cara).\n* **Bendahara:** Dipilih dari $23$ orang tersisa ($23$ cara).\n\nBanyak cara = $10 \\times 24 \\times 23$\nBanyak cara = $10 \\times 552 = 5.520$"
+    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah **Permutasi** karena urutan jabatan penting.\n\nTotal peserta: $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\nSyarat: Sekretaris harus Perempuan.\n\n1.  **Sekretaris (P):** $10$ pilihan.\n2.  **Ketua:** $24$ pilihan (dari sisa $24$ orang).\n3.  **Bendahara:** $23$ pilihan (dari sisa $23$ orang).\n\n**Banyak Cara:**\n$10 \\times 24 \\times 23 = 5.520$"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
       "$\\frac{10}{25}$"
     ],
     "jawaban": "C",
-    "pembahasan": "Dipilih $4$ orang dari total $25$ orang (Kombinasi).\n\n**1. Hitung Total Cara Memilih (Ruang Sampel, $N(S)$):**\n$N(S) = C(25, 4) = \\frac{25 \\times 24 \\times 23 \\times 22}{4 \\times 3 \\times 2 \\times 1} = 25 \\times 23 \\times 22 = 12.650$\n\n**2. Hitung Cara Memilih 4 Perempuan dari 10 (Kejadian, $N(A)$):**\n$N(A) = C(10, 4) = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 10 \\times 3 \\times 7 = 210$\n\n**3. Hitung Peluang ($P(A)$):**\n$P(A) = \\frac{N(A)}{N(S)} = \\frac{210}{12.650}$\n\nSederhanakan (bagi dengan $10$):\n$P(A) = \\frac{21}{1.265}$"
+    "pembahasan": "Pemilihan $4$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $4$ dari $25$ orang.\n    $N(S) = C(25, 4) = 12.650$\n\n2.  **Hitung Kejadian ($N(A)$):** Cara memilih $4$ perempuan dari $10$ perempuan.\n    $N(A) = C(10, 4) = 210$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{N(A)}{N(S)}$\n    $P(A) = \\frac{210}{12.650}$\n\n4.  **Sederhanakan:** (Bagi pembilang dan penyebut dengan $10$)\n    $P(A) = \\frac{21}{1.265}$"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
       "$\\frac{52}{92}$"
     ],
     "jawaban": "A",
-    "pembahasan": "Dipilih $3$ orang dari $25$ orang (Kombinasi).\n\n**1. Hitung Total Cara Memilih (Ruang Sampel, $N(S)$):**\n$N(S) = C(25, 3) = \\frac{25 \\times 24 \\times 23}{3 \\times 2 \\times 1} = 25 \\times 4 \\times 23 = 2.300$\n\n**2. Hitung Cara Kejadian 1 (1L 2P):**\n$N(A_1) = C(15, 1) \\times C(10, 2) = 15 \\times \\frac{10 \\times 9}{2} = 15 \\times 45 = 675$\n\n**3. Hitung Cara Kejadian 2 (2L 1P):**\n$N(A_2) = C(15, 2) \\times C(10, 1) = \\frac{15 \\times 14}{2} \\times 10 = 105 \\times 10 = 1.050$\n\n**4. Hitung Total Cara Kejadian yang Diinginkan ($N(A)$):**\n$N(A) = N(A_1) + N(A_2) = 675 + 1.050 = 1.725$\n\n**5. Hitung Peluang ($P(A)$):**\n$P(A) = \\frac{N(A)}{N(S)} = \\frac{1.725}{2.300}$\n\nSederhanakan (bagi dengan $25$):\n$P(A) = \\frac{69}{92}$\n\nSederhanakan (bagi dengan $23$):\n$P(A) = \\frac{3}{4}$"
+    "pembahasan": "Pemilihan $3$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ dari $25$ orang.\n    $N(S) = C(25, 3) = 2.300$\n\n2.  **Hitung Kasus 1 (1L 2P):**\n    $N(A_1) = C(15, 1) \\times C(10, 2) = 15 \\times 45 = 675$\n\n3.  **Hitung Kasus 2 (2L 1P):**\n    $N(A_2) = C(15, 2) \\times C(10, 1) = 105 \\times 10 = 1.050$\n\n4.  **Total Kejadian ($N(A)$):** Karena ada kata 'atau', jumlahkan kedua kasus.\n    $N(A) = 675 + 1.050 = 1.725$\n\n5.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{1.725}{2.300}$\n\n6.  **Sederhanakan:**\n    $P(A) = \\frac{1.725 \\div 25}{2.300 \\div 25} = \\frac{69}{92}$\n    $P(A) = \\frac{69 \\div 23}{92 \\div 23} = \\frac{3}{4}$"
   },
   {
     "id": 20,
@@ -257,6 +257,6 @@
       "$\\frac{9}{46}$"
     ],
     "jawaban": "E",
-    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah permutasi.\n\n**1. Hitung Total Cara Memilih Pengurus (Ruang Sampel, $N(S)$):**\n$N(S) = P(25, 3) = 25 \\times 24 \\times 23 = 13.800$\n\n**2. Hitung Cara Kejadian yang Diinginkan ($N(A)$):**\nSyarat: Sek (P), Ketua dan Bendahara berbeda jenis kelamin.\n\n* **Skenario A:** Sekretaris (P), Ketua (L), Bendahara (P)\n    Cara: $10 \\times 15 \\times 9 = 1.350$\n\n* **Skenario B:** Sekretaris (P), Ketua (P), Bendahara (L)\n    Cara: $10 \\times 9 \\times 15 = 1.350$\n\n$N(A) = 1.350 + 1.350 = 2.700$\n\n**3. Hitung Peluang ($P(A)$):**\n$P(A) = \\frac{N(A)}{N(S)} = \\frac{2.700}{13.800}$\n\nSederhanakan (bagi dengan $100$):\n$P(A) = \\frac{27}{138}$\n\nSederhanakan (bagi dengan $3$):\n$P(A) = \\frac{9}{46}$"
+    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah **Permutasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ pengurus dari $25$ orang.\n    $N(S) = P(25, 3) = 13.800$\n\n2.  **Hitung Kejadian ($N(A)$):** Sek (P) dan Ketua-Bendahara berbeda jenis kelamin.\n\n    * **Skenario A (P, L, P):** Sek $10 \\times$ Ket $15 \\times$ Ben $9 = 1.350$ cara\n    * **Skenario B (P, P, L):** Sek $10 \\times$ Ket $9 \\times$ Ben $15 = 1.350$ cara\n\n    $N(A) = 1.350 + 1.350 = 2.700$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{2.700}{13.800}$\n\n4.  **Sederhanakan:**\n    $P(A) = \\frac{27}{138}$ (Bagi dengan $100$)\n    $P(A) = \\frac{9}{46}$ (Bagi dengan $3$)"
   }
 ]
