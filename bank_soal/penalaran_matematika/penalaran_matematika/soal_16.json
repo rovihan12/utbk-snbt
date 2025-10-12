@@ -209,54 +209,54 @@
   },
   {
     "id": 17,
-    "pertanyaan": "Seorang pedagang membeli 2 lusin buku seharga Rp 360.000. Jika ia menjual dengan harga Rp 18.000 per buku, berapa persen keuntungannya?",
+    "pertanyaan": "Pertemuan keluarga RT IX dihadiri oleh $15$ laki-laki dan $10$ perempuan. Pada pertemuan tersebut, akan dipilih pengurus RT baru yang terdiri dari atas ketua, bendahara, dan sekretaris. Para calon diambil di antara yang hadir. Banyak cara terpilihnya pengurus dengan sekretaris perempuan adalah....",
     "pilihan": [
-      "10%",
-      "15%",
-      "20%",
-      "25%",
-      "30%"
+      "5.400",
+      "5.520",
+      "5.750",
+      "5.760",
+      "6.000"
     ],
-    "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nJumlah Buku = 2 lusin = 24 buku.\n\nHarga Beli per Buku = $360.000 / 24 = Rp 15.000 / \\text{buku}$ .\n\nKeuntungan per Buku = $18.000 - 15.000 = Rp 3.000$.\n\nPersentase Untung = $\\frac{3.000}{15.000} \\times 100\\% = \\frac{1}{5} \\times 100\\% = 20\\%$.\n\n**Cara Cepat**:\n\nFokus pada Keuntungan per unit: $\\frac{\\text{Untung}}{\\text{Harga Beli}} = \\frac{3.000}{15.000} = 20\\%$."
+    "jawaban": "B",
+    "pembahasan": "Total peserta adalah $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\nPemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah permutasi karena urutan penting.\n\nSyarat: Sekretaris harus Perempuan.\n\n* **Sekretaris:** Dipilih dari $10$ Perempuan ($10$ cara).\n* **Ketua:** Dipilih dari $24$ orang tersisa ($24$ cara).\n* **Bendahara:** Dipilih dari $23$ orang tersisa ($23$ cara).\n\nBanyak cara = $10 \\times 24 \\times 23$\nBanyak cara = $10 \\times 552 = 5.520$"
   },
   {
     "id": 18,
-    "pertanyaan": "Sebuah bus berangkat dari kota A ke B dengan kecepatan 60 km/jam. Bus lain berangkat 1 jam kemudian dengan kecepatan 80 km/jam. Kapan bus kedua menyusul bus pertama?",
+    "pertanyaan": "Untuk memeriahkan suasana pertemuan, dipilih empat orang untuk menyanyi. Peluang yang terpilih keempatnya perempuan adalah....",
     "pilihan": [
-      "2 jam",
-      "3 jam",
-      "4 jam",
-      "5 jam",
-      "6 jam"
+      "$\\frac{16}{1265}$",
+      "$\\frac{4}{25}$",
+      "$\\frac{21}{1265}$",
+      "$\\frac{15}{25}$",
+      "$\\frac{10}{25}$"
     ],
-    "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\nJarak Awal (Bus 1 di depan) = $60 \\text{ km/jam} \\times 1 \\text{ jam} = 60 \\text{ km}$.\n\nSelisih Kecepatan (Kecepatan Menyusul) = $80 - 60 = 20 \\text{ km/jam}$.\n\nWaktu Menyusul = Jarak Awal / Selisih Kecepatan.\n\nWaktu Menyusul = $60 \\text{ km} / 20 \\text{ km/jam} = 3 \\text{ jam}$ (setelah bus kedua berangkat).\n\n**Cara Cepat**:\n\nWaktu Susul ($t_{\\text{susul}}$) = $\\frac{K_1 \\times t_{\\text{selisih}}}{K_2 - K_1}$.\n\n$t_{\\text{susul}} = \\frac{60 \\times 1}{80 - 60} = \\frac{60}{20} = 3 \\text{ jam}$."
+    "jawaban": "C",
+    "pembahasan": "Dipilih $4$ orang dari total $25$ orang (Kombinasi).\n\n**1. Hitung Total Cara Memilih (Ruang Sampel, $N(S)$):**\n$N(S) = C(25, 4) = \\frac{25 \\times 24 \\times 23 \\times 22}{4 \\times 3 \\times 2 \\times 1} = 25 \\times 23 \\times 22 = 12.650$\n\n**2. Hitung Cara Memilih 4 Perempuan dari 10 (Kejadian, $N(A)$):**\n$N(A) = C(10, 4) = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 10 \\times 3 \\times 7 = 210$\n\n**3. Hitung Peluang ($P(A)$):**\n$P(A) = \\frac{N(A)}{N(S)} = \\frac{210}{12.650}$\n\nSederhanakan (bagi dengan $10$):\n$P(A) = \\frac{21}{1.265}$"
   },
   {
     "id": 19,
-    "pertanyaan": "Sebuah balok memiliki perbandingan panjang:lebar:tinggi = 5:3:2. Jika volumenya $810 \\text{ cm}^3$, berapa panjang balok tersebut?",
+    "pertanyaan": "Pada pertemuan tersebut juga dipilih tiga orang untuk mewakili RT dalam suatu kegiatan pada tingkat RW. Peluang terpilihnya satu laki-laki dua perempuan **atau** dua laki-laki satu perempuan adalah....",
     "pilihan": [
-      "10 cm",
-      "12 cm",
-      "15 cm",
-      "18 cm",
-      "20 cm"
+      "$\\frac{3}{4}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{21}{46}$",
+      "$\\frac{27}{92}$",
+      "$\\frac{52}{92}$"
     ],
-    "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan $p=5x$, $l=3x$, $t=2x$. Volume $V = p \\times l \\times t$.\n\n$810 = 5x \\times 3x \\times 2x \\rightarrow 810 = 30x^3$.\n\n$x^3 = 810 / 30 = 27$. Maka, $x = \\sqrt[3]{27} = 3$.\n\nPanjang Balok: $p = 5x = 5 \\times 3 = 15 \\text{ cm}$.\n\n**Cara Cepat**:\n\nTentukan $x^3$: $x^3 = \\frac{810}{5 \\times 3 \\times 2} = 27$. $x = 3$.\n\nPanjang $= 5x = 5 \\times 3 = 15 \\text{ cm}$."
+    "jawaban": "A",
+    "pembahasan": "Dipilih $3$ orang dari $25$ orang (Kombinasi).\n\n**1. Hitung Total Cara Memilih (Ruang Sampel, $N(S)$):**\n$N(S) = C(25, 3) = \\frac{25 \\times 24 \\times 23}{3 \\times 2 \\times 1} = 25 \\times 4 \\times 23 = 2.300$\n\n**2. Hitung Cara Kejadian 1 (1L 2P):**\n$N(A_1) = C(15, 1) \\times C(10, 2) = 15 \\times \\frac{10 \\times 9}{2} = 15 \\times 45 = 675$\n\n**3. Hitung Cara Kejadian 2 (2L 1P):**\n$N(A_2) = C(15, 2) \\times C(10, 1) = \\frac{15 \\times 14}{2} \\times 10 = 105 \\times 10 = 1.050$\n\n**4. Hitung Total Cara Kejadian yang Diinginkan ($N(A)$):**\n$N(A) = N(A_1) + N(A_2) = 675 + 1.050 = 1.725$\n\n**5. Hitung Peluang ($P(A)$):**\n$P(A) = \\frac{N(A)}{N(S)} = \\frac{1.725}{2.300}$\n\nSederhanakan (bagi dengan $25$):\n$P(A) = \\frac{69}{92}$\n\nSederhanakan (bagi dengan $23$):\n$P(A) = \\frac{3}{4}$"
   },
   {
     "id": 20,
-    "pertanyaan": "Sebuah kelas terdiri dari 30 siswa. Rata-rata nilai matematika 15 siswa laki-laki adalah 80, sedangkan rata-rata nilai 15 siswa perempuan adalah 85. Berapa rata-rata nilai seluruh kelas?",
+    "pertanyaan": "Peluang terpilihnya sekretaris perempuan dengan ketua dan bendahara berjenis kelamin berbeda adalah....",
     "pilihan": [
-      "81,5",
-      "82,0",
-      "82,5",
-      "83,0",
-      "83,5"
+      "$\\frac{2}{75}$",
+      "$\\frac{2}{25}$",
+      "$\\frac{9}{92}$",
+      "$\\frac{4}{25}$",
+      "$\\frac{9}{46}$"
     ],
-    "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nTotal Nilai Laki-laki = $15 \\times 80 = 1.200$.\n\nTotal Nilai Perempuan = $15 \\times 85 = 1.275$.\n\nTotal Nilai Seluruh Kelas = $1.200 + 1.275 = 2.475$.\n\nRata-rata = $2.475 / 30 = 82,5$.\n\n**Cara Cepat**:\n\nKarena jumlah siswa Laki-laki dan Perempuan sama (15:15), rata-rata gabungan adalah rata-rata aritmatika.\n\nRata-rata Gabungan = $\\frac{80 + 85}{2} = 82,5$."
+    "jawaban": "E",
+    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah permutasi.\n\n**1. Hitung Total Cara Memilih Pengurus (Ruang Sampel, $N(S)$):**\n$N(S) = P(25, 3) = 25 \\times 24 \\times 23 = 13.800$\n\n**2. Hitung Cara Kejadian yang Diinginkan ($N(A)$):**\nSyarat: Sek (P), Ketua dan Bendahara berbeda jenis kelamin.\n\n* **Skenario A:** Sekretaris (P), Ketua (L), Bendahara (P)\n    Cara: $10 \\times 15 \\times 9 = 1.350$\n\n* **Skenario B:** Sekretaris (P), Ketua (P), Bendahara (L)\n    Cara: $10 \\times 9 \\times 15 = 1.350$\n\n$N(A) = 1.350 + 1.350 = 2.700$\n\n**3. Hitung Peluang ($P(A)$):**\n$P(A) = \\frac{N(A)}{N(S)} = \\frac{2.700}{13.800}$\n\nSederhanakan (bagi dengan $100$):\n$P(A) = \\frac{27}{138}$\n\nSederhanakan (bagi dengan $3$):\n$P(A) = \\frac{9}{46}$"
   }
 ]
