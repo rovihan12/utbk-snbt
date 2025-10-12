@@ -112,10 +112,15 @@
   },
   {
     "id": 16,
-    "pertanyaan": "Umur Ayah 3 kali umur Anak. Jika selisih umur mereka 24 tahun, berapa umur Ayah?",
-    "pilihan": ["30 tahun", "32 tahun", "34 tahun", "36 tahun", "38 tahun"],
-    "jawaban": "D",
-    "pembahasan": "Soal ini dapat diselesaikan dengan menggunakan persamaan aljabar.\n\n**Langkah 1: Buat model matematika.**\nMisalkan umur Anak adalah $x$.\nKarena umur Ayah 3 kali umur Anak, maka umur Ayah adalah $3x$.\nSelisih umur mereka adalah 24 tahun: $3x - x = 24$.\n\n**Langkah 2: Selesaikan persamaan untuk menemukan $x$ (umur Anak).**\n$2x = 24$\n$x = \\frac{24}{2} = 12$ tahun.\n\n**Langkah 3: Hitung umur Ayah.**\nUmur Ayah = $3x = 3 \\times 12 = 36$ tahun.\n\nJadi, umur Ayah adalah **36 tahun**."
+    "pertanyaan": "Saat ini umur Nusa dan Rara berturut-turut adalah $8 \\text{ tahun}$ dan $13 \\text{ tahun}$. Pada berapa tahun lagi perbandingan umur mereka adalah $2:3$?",
+    "pilihan": [
+      "2 Tahun",
+      "4 Tahun",
+      "6 Tahun",
+      "8 Tahun"
+    ],
+    "jawaban": "a",
+    "pembahasan": "Misalkan $x$ adalah jumlah tahun yang akan datang.\n\nSetelah $x$ tahun, usia Nusa menjadi $(8+x)$ dan usia Rara menjadi $(13+x)$. Perbandingan usia mereka adalah $2:3$.\n\n**1. Buat Persamaan Perbandingan:**\n$$\\frac{8 + x}{13 + x} = \\frac{2}{3}$$\n\n**2. Lakukan Perkalian Silang:**\n$$3 \\times (8 + x) = 2 \\times (13 + x)$$\n$$24 + 3x = 26 + 2x$$\n\n**3. Selesaikan untuk $x$:**\n$$3x - 2x = 26 - 24$$\n$$x = 2$$\n\nJadi, perbandingan usia mereka akan menjadi $2:3$ setelah $2 \\text{ tahun}$.\n\n**Pembuktian:**\n* Usia Nusa: $8 + 2 = 10 \\text{ tahun}$\n* Usia Rara: $13 + 2 = 15 \\text{ tahun}$\n* Perbandingan: $10:15$ disederhanakan menjadi $2:3$."
   },
   {
     "id": 17,
