@@ -119,10 +119,16 @@
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah lingkaran memiliki keliling 88 cm. Berapa luasnya? $(\\pi = 22/7)$",
-    "pilihan": ["616 cm²", "628 cm²", "642 cm²", "654 cm²", "668 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Untuk menemukan luas lingkaran, kita perlu mengetahui jari-jari ($r$) terlebih dahulu. Jari-jari dapat dihitung dari keliling yang diketahui.\n\n**Langkah 1: Hitung jari-jari dari keliling.**\nRumus keliling lingkaran adalah $K = 2\\pi r$.\n$88 = 2 \\times \\frac{22}{7} \\times r$\n$88 = \\frac{44}{7} \\times r$\n$r = 88 \\times \\frac{7}{44} = 2 \\times 7 = 14$ cm.\n\n**Langkah 2: Hitung luas lingkaran.**\nRumus luas lingkaran adalah $L = \\pi r^2$.\n$L = \\frac{22}{7} \\times 14^2 = \\frac{22}{7} \\times 196$\n$L = 22 \\times \\frac{196}{7} = 22 \\times 28 = 616$.\n\nJadi, luas lingkaran tersebut adalah **616 cm²**."
+    "pertanyaan": "Dalam suatu kelas terdapat $12$ murid laki-laki dan $16$ murid perempuan. Rata-rata nilai ulangan Matematika di kelas tersebut adalah $80$. Jika sebelum remedial, rata-rata nilai ulangan murid laki-laki di kelas tersebut adalah $78$, rata-rata nilai ulangan murid perempuan adalah ....",
+    "pilihan": [
+      "80,5",
+      "81",
+      "81,5",
+      "82",
+      "82,5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**1. Tentukan Data Awal:**\n* Total Murid ($N_{\\text{total}}$) = $12$ (Laki-laki) $+ 16$ (Perempuan) $= 28$ murid.\n* Rata-rata Kelas Awal ($\\bar{X}_{\\text{total}}$) = $80$.\n* Rata-rata Laki-laki ($\\bar{X}_L$) = $78$.\n\n**2. Hitung Jumlah Nilai Total Kelas ($\\sum X_{\\text{total}}$):**\n$\\sum X_{\\text{total}} = \\bar{X}_{\\text{total}} \\times N_{\\text{total}}$ \n$\\sum X_{\\text{total}} = 80 \\times 28 = 2.240$\n\n**3. Hitung Jumlah Nilai Murid Laki-laki ($\\sum X_L$):**\n$\\sum X_L = \\bar{X}_L \\times N_L$ \n$\\sum X_L = 78 \\times 12 = 936$\n\n**4. Hitung Jumlah Nilai Murid Perempuan ($\\sum X_P$):**\n$\\sum X_P = \\sum X_{\\text{total}} - \\sum X_L$ \n$\\sum X_P = 2.240 - 936 = 1.304$\n\n**5. Hitung Rata-rata Nilai Murid Perempuan ($\\bar{X}_P$):**\n$\\bar{X}_P = \\frac{\\sum X_P}{N_P}$ \n$\\bar{X}_P = \\frac{1.304}{16} = 81,5$"
   },
   {
     "id": 18,
