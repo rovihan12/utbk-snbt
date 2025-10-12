@@ -139,10 +139,16 @@
   },
   {
     "id": 19,
-    "pertanyaan": "Sebuah segitiga sama kaki memiliki alas 16 cm dan tinggi 15 cm. Berapa kelilingnya?",
-    "pilihan": ["48 cm", "50 cm", "52 cm", "54 cm", "56 cm"],
+    "pertanyaan": "Nisa menjual $10 \\text{ Kg}$ tomat dan $5 \\text{ Kg}$ cabai seharga $\\text{Rp}275.000$. Harga $5 \\text{ Kg}$ cabai dan $10 \\text{ Kg}$ bawang $\\text{Rp}350.000$. Jika Nisa menjual $1 \\text{ Kg}$ cabai, $1 \\text{ Kg}$ bawang, dan $1 \\text{ Kg}$ tomat, maka berapa harganya?",
+    "pilihan": [
+      "Rp 60.000,-",
+      "Rp 62.500,-",
+      "Rp 65.000,-",
+      "Rp 70.000,-",
+      "Rp 85.000,-"
+    ],
     "jawaban": "B",
-    "pembahasan": "Untuk mencari keliling segitiga sama kaki, kita perlu mengetahui panjang ketiga sisinya: alas dan dua sisi miring yang sama panjang.\n\n**Langkah 1: Gunakan Teorema Pythagoras untuk mencari sisi miring.**\nTinggi segitiga sama kaki membagi alas menjadi dua bagian sama panjang. Setengah alas = $\\frac{16}{2} = 8$ cm.\nSekarang, kita punya segitiga siku-siku dengan alas 8 cm dan tinggi 15 cm. Sisi miring adalah sisi yang sama panjang pada segitiga sama kaki.\nSisi miring = $\\sqrt{(\\text{setengah alas})^2 + (\\text{tinggi})^2}$\nSisi miring = $\\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$ cm.\n\n**Langkah 2: Hitung keliling segitiga.**\nKeliling = Alas + Sisi miring + Sisi miring\nKeliling = $16 + 17 + 17 = 50$ cm.\n\nJadi, keliling segitiga sama kaki tersebut adalah **50 cm**."
+    "pembahasan": "Misalkan $T, C, \\text{ dan } B$ adalah harga per $\\text{Kg}$ tomat, cabai, dan bawang.\n\n**1. Tuliskan Persamaan:**\n(1) $10T + 5C = 275.000$\n(2) $5C + 10B = 350.000$\n\n**2. Sederhanakan Persamaan (bagi dengan 5):**\n(1a) $2T + C = 55.000$\n(2a) $C + 2B = 70.000$\n\n**3. Jumlahkan Persamaan (1a) dan (2a):**\n$(2T + C) + (C + 2B) = 55.000 + 70.000$\n$2T + 2C + 2B = 125.000$\n\n**4. Hitung Total Harga ($T+C+B$):**\nFaktorkan $2$ dari ruas kiri:\n$2 (T + C + B) = 125.000$\n$T + C + B = \\frac{125.000}{2}$\n$T + C + B = 62.500$\n\nJadi, harga total untuk $1 \\text{ Kg}$ dari masing-masing komoditas adalah $\\text{Rp}62.500,-.$"
   },
   {
     "id": 20,
