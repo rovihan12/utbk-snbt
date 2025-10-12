@@ -125,11 +125,17 @@
     "pembahasan": "Untuk menemukan luas lingkaran, kita perlu mengetahui jari-jari ($r$) terlebih dahulu. Jari-jari dapat dihitung dari keliling yang diketahui.\n\n**Langkah 1: Hitung jari-jari dari keliling.**\nRumus keliling lingkaran adalah $K = 2\\pi r$.\n$88 = 2 \\times \\frac{22}{7} \\times r$\n$88 = \\frac{44}{7} \\times r$\n$r = 88 \\times \\frac{7}{44} = 2 \\times 7 = 14$ cm.\n\n**Langkah 2: Hitung luas lingkaran.**\nRumus luas lingkaran adalah $L = \\pi r^2$.\n$L = \\frac{22}{7} \\times 14^2 = \\frac{22}{7} \\times 196$\n$L = 22 \\times \\frac{196}{7} = 22 \\times 28 = 616$.\n\nJadi, luas lingkaran tersebut adalah **616 cm²**."
   },
   {
-    "id": 18,
-    "pertanyaan": "Jika $a = 3$ dan $b = 5$, nilai dari $(2a + b)^2 - (a - b)^2$ adalah...",
-    "pilihan": ["117", "121", "144", "169", "196"],
-    "jawaban": "A",
-    "pembahasan": "Soal ini dapat diselesaikan dengan langsung mensubstitusikan nilai $a$ dan $b$ ke dalam ekspresi yang diberikan.\n\n**Langkah 1: Hitung nilai dari $(2a + b)$.**\n$2a + b = 2(3) + 5 = 6 + 5 = 11$.\n\n**Langkah 2: Hitung nilai dari $(a - b)$.**\n$a - b = 3 - 5 = -2$.\n\n**Langkah 3: Masukkan hasil ke dalam ekspresi lengkap.**\n$(2a + b)^2 - (a - b)^2 = (11)^2 - (-2)^2$\n$= 121 - 4 = 117$.\n\nJadi, nilai dari ekspresi tersebut adalah **117**."
+    "id": 1,
+    "pertanyaan": "Suatu kolam ikan berbentuk balok dengan alas berbentuk persegi dengan luas $900 \\, \\text{dm}^2$ memiliki tinggi $t \\, \\text{dm}$. Sebuah keran akan mengalirkan air sebanyak $1 \\, \\text{dm}^3$ tiap $10 \\text{ detik}$ pada kolam sampai setengah dari kapasitas kolam terisi. Waktu yang dibutuhkan untuk mengisi kolam (hingga setengah penuh) adalah...",
+    "pilihan": [
+      "1500t detik",
+      "3000t detik",
+      "4500t detik",
+      "6000t detik",
+      "7500t detik"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**1. Hitung Volume Total Kolam (V_total):**\n\nKolam berbentuk balok dengan: \n* Luas alas ($A$) = $900 \\, \\text{dm}^2$\n* Tinggi ($t$) = $t \\, \\text{dm}$\n\n$$V_{\\text{total}} = A \\times t$$ \n$$V_{\\text{total}} = 900 \\times t = 900t \\, \\text{dm}^3$$\n\n**2. Hitung Volume yang Harus Diisi (V_isi):**\n\nVolume yang diisi adalah setengah dari kapasitas kolam.\n\n$$V_{\\text{isi}} = \\frac{1}{2} \\times V_{\\text{total}}$$ \n$$V_{\\text{isi}} = \\frac{1}{2} \\times 900t = 450t \\, \\text{dm}^3$$\n\n**3. Hitung Debit Air (D):**\n\nKeran mengalirkan air sebanyak $1 \\, \\text{dm}^3$ tiap $10 \\text{ detik}$.\n\n$$D = \\frac{\\text{Volume}}{\\text{Waktu}} = \\frac{1 \\, \\text{dm}^3}{10 \\, \\text{detik}} = 0.1 \\, \\text{dm}^3/\\text{detik}$$\n\n**4. Hitung Waktu yang Dibutuhkan (W):**\n\n$$\\text{Waktu} = \\frac{V_{\\text{isi}}}{\\text{Debit}}$$ \n$$W = \\frac{450t \\, \\text{dm}^3}{\\frac{1}{10} \\, \\text{dm}^3/\\text{detik}}$$ \n$$W = 450t \\times 10 \\, \\text{detik}$$ \n$$W = 4500t \\, \\text{detik}$$"
   },
   {
     "id": 19,
