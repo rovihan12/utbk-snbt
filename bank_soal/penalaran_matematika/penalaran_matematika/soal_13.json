@@ -157,16 +157,16 @@
   },
   {
     "id": 13,
-    "pertanyaan": "Sebuah prisma segitiga sama kaki memiliki volume 960 cm³. Jika alas segitiga 12 cm dan tinggi segitiga 16 cm, berapa tinggi prisma?",
+    "pertanyaan": "Seorang pemain golf memukul bola golf dengan sudut tertentu. Lintasan bola berbentuk parabola di mana ketinggian bola dari atas tanah dimodelkan oleh fungsi \\(h(t) = -4t^2 + 8t + 32\\), di mana \\(h\\) dalam meter dan \\(t\\) dalam detik. Bola yang dipukul oleh pemain tersebut masuk ke dalam lubang. Setelah berapa detik bola akan masuk ke lubang?",
     "pilihan": [
-      "8 cm",
-      "10 cm",
-      "12 cm",
-      "14 cm",
-      "16 cm"
+      "3 detik",
+      "4 detik",
+      "5 detik",
+      "6 detik",
+      "7 detik"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Hitung Luas Alas Segitiga ($L_a$): $L_a = \\frac{1}{2} \\times 12 \\times 16 = 96 \\text{ cm}^2$.\n\n2. Hitung Tinggi Prisma ($T$): $T = \\frac{V}{L_a}$.\n\n$T = \\frac{960 \\text{ cm}^3}{96 \\text{ cm}^2} = 10 \\text{ cm}$."
+    "pembahasan": "**Konsep**: Bola masuk ke lubang berarti ketinggian bola (\\(h(t)\\)) adalah 0.\n\n**Langkah-langkah**:\n1.  Tetapkan \\(h(t) = 0\\):\n    $$\\ 0 = -4t^2 + 8t + 32$$ \n2.  Sederhanakan persamaan dengan membagi semua suku dengan \\(-4\\):\n    $$\\ 0 = t^2 - 2t - 8$$ \n3.  Faktorkan persamaan kuadrat:\n    $$\\ 0 = (t - 4)(t + 2)$$ \n4.  Tentukan nilai \\(t\\) yang mungkin:\n    $$\\ t - 4 = 0 \\implies t = 4$$ \n    $$\\ t + 2 = 0 \\implies t = -2$$ \n5.  Pilih nilai \\(t\\) yang logis: Karena waktu \\(t\\) tidak mungkin bernilai negatif, maka waktu yang digunakan adalah \\(t = 4\\) detik.\n\nJadi, bola masuk ke lubang setelah **4 detik**."
   },
   {
     "id": 14,
