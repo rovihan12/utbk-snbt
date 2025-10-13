@@ -171,16 +171,17 @@
   },
   {
     "id": 14,
-    "pertanyaan": "Sebuah persegi panjang memiliki panjang (3x + 2) cm dan lebar (x + 4) cm. Jika kelilingnya 52 cm, berapa luasnya?",
+    "materi": "Barisan dan Deret Geometri",
+    "pertanyaan": "Pandemi Covid-19 pada tahun 2020 menyebabkan penurunan omzet sebesar $\\frac{1}{2}$ dari omzet yang diperoleh pada tahun sebelumnya. Jika pada tahun 2020 omzet yang diperoleh Warung Upnormal adalah $\\text{Rp120.000.000,00}$, maka jumlah omzet yang diperoleh dalam kurun waktu $2020 - 2023$ adalah...",
     "pilihan": [
-      "144 cm²",
-      "153 cm²",
-      "162 cm²",
-      "171 cm²",
-      "180 cm²"
+      "Rp175.000.000",
+      "Rp195.000.000",
+      "Rp207.500.000",
+      "Rp225.000.000",
+      "Rp240.000.000"
     ],
-    "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\nRumus Keliling: \\(K = 2(\\text{Panjang} + \\text{Lebar})\\).\n\n$52 = 2((3x + 2) + (x + 4))$\n$52 = 2(4x + 6)$\n$52 = 8x + 12$\n$8x = 52 - 12 = 40 \\rightarrow x = 5$.\n\nTentukan panjang dan lebar sebenarnya:\nPanjang = \\(3(5) + 2 = 17\\, \\text{cm}\\).\nLebar = \\(5 + 4 = 9\\, \\text{cm}\\).\n\nHitung Luas: Luas = \\(17 \\times 9 = 153\\, cm^2\\).\n\n**Cara Cepat**:\n\nSetengah Keliling $= 52 / 2 = 26$.\n\nSetengah Keliling = $(3x+2) + (x+4) = 4x + 6$.\n\n$4x + 6 = 26 \\rightarrow 4x = 20 \\rightarrow x = 5$.\n\nLuas = $17 \\times 9 = 153\\, cm^2$."
+    "jawaban": "D",
+    "pembahasan": "**Langkah 1: Menentukan Variabel Deret**\n\nPenurunan omzet sebesar $\\frac{1}{2}$ dari tahun sebelumnya, berarti omzet tahun berikutnya adalah $\\left(1 - \\frac{1}{2}\\right) = \\frac{1}{2}$ dari omzet tahun sebelumnya. Ini membentuk Deret Geometri.\n\n* Suku Pertama ($a$ = Omzet 2020): $\\text{Rp120.000.000}$\n* Rasio ($r$): $\\frac{1}{2}$\n* Jumlah Suku ($n$ = Tahun 2020, 2021, 2022, 2023): $4$\n\n**Langkah 2: Menghitung Jumlah Omzet ($S_4$)**\n\nGunakan rumus jumlah deret geometri $S_n$ untuk $r < 1$:\n$$S_n = \\frac{a(1 - r^n)}{1 - r}$$\n$$S_4 = \\frac{120.000.000 \\left(1 - (\\frac{1}{2})^4\\right)}{1 - \\frac{1}{2}}$$\n$$S_4 = \\frac{120.000.000 \\left(1 - \\frac{1}{16}\\right)}{\\frac{1}{2}}$$\n$$S_4 = 120.000.000 \\times \\left(\\frac{15}{16}\\right) \\times 2$$\n$$S_4 = 120.000.000 \\times \\frac{30}{16} = 120.000.000 \\times \\frac{15}{8}$$\n$$S_4 = 15.000.000 \\times 15$$\n$$S_4 = \\text{Rp225.000.000}$$"
   },
   {
     "id": 15,
