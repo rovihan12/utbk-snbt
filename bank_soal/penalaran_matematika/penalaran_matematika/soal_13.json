@@ -234,17 +234,17 @@
     "pembahasan": "**Langkah Lengkap**:\n\n1. Luas Taman ($L$): $r = 14 \\text{ m}$. $L = \\pi r^2 = \\frac{22}{7} \\times 14^2 = 616 \\text{ m}^2$.\n\n2. Total Biaya: Biaya $= 616 \\times 25.000 = 15.400.000 \\text{ (Rp15.400.000)}$."
   },
   {
-    "id": 19,
-    "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu genap atau keduanya angka prima?",
+    "id": 10,
+    "pertanyaan": "Nilai rata-rata ujian akhir semester mata kuliah Teori Peluang dari kelas IA adalah 77. Jika dua orang mahasiswa yang nilainya 60 dan 80 diabaikan, maka rata-rata nilai ujian kelas tersebut menjadi 78. Banyak mahasiswa di kelas tersebut adalah...",
     "pilihan": [
-      "5/12",
-      "11/18",
-      "3/4",
-      "5/6",
-      "11/12"
+      "16 orang",
+      "17 orang",
+      "18 orang",
+      "19 orang",
+      "20 orang"
     ],
-    "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap (Prinsip Inklusi-Eksklusi)**:\n\n$n(S) = 36$.\n\n1. Jumlah Genap (A): $n(A) = 18$.\n\n2. Keduanya Prima (B): $(2,2), (2,3), (2,5), (3,2), (3,3), (3,5), (5,2), (5,3), (5,5)$. $n(B) = 9$.\n\n3. Irisan ($A \\cap B$): Pasangan yang jumlahnya genap dan keduanya prima: $(2,2), (3,3), (5,5)$. $n(A \\cap B) = 3$.\n\n4. Peluang Gabungan: $P(A \\cup B) = \\frac{18}{36} + \\frac{9}{36} - \\frac{3}{36} = \\frac{24}{36} = \\frac{2}{3}$.\n\n**Catatan**: Terdapat kesalahan pada analisis irisan di pembahasan awal. Perhitungan yang benar untuk irisan $(A \\cap B)$ (Genap DAN Prima) adalah 5 pasangan: $(2,2), (3,3), (5,5), (3,5), (5,3)$ adalah 5, karena $3+5=8$ (genap) dan $5+3=8$ (genap).\n\nPerbaikan: $P(A \\cup B) = \\frac{18+9-5}{36} = \\frac{22}{36} = \\frac{11}{18}$."
+    "jawaban": "A",
+    "pembahasan": "**Konsep**: Total Nilai = Rata-rata \\(\\times\\) Jumlah Mahasiswa.\n\n**Pemodelan**:\nMisalkan \\(n\\) adalah banyak mahasiswa mula-mula.\n\n1.  **Kondisi Awal**:\n    Rata-rata \\(\\bar{x}_0 = 77\\).\n    Total Nilai Awal \\(T_0 = 77n\\).\n\n2.  **Kondisi Akhir**:\n    Mahasiswa dikeluarkan: 2 orang (nilai 60 dan 80).\n    Jumlah mahasiswa baru \\(n_1 = n - 2\\).\n    Rata-rata baru \\(\\bar{x}_1 = 78\\).\n    Total Nilai Akhir \\(T_1 = 78(n - 2)\\).\n\n3.  **Persamaan Hubungan**:\n    Total Nilai Akhir adalah Total Nilai Awal dikurangi nilai 2 mahasiswa yang keluar:\n    $$\\ T_1 = T_0 - (60 + 80)$$ \n    $$\\ 78(n - 2) = 77n - 140$$ \n4.  **Penyelesaian**:\n    $$\\ 78n - 156 = 77n - 140$$ \n    $$\\ 78n - 77n = 156 - 140$$ \n    $$\\ n = 16$$ \n\nJadi, banyak mahasiswa di kelas tersebut mula-mula adalah **16 orang**."
   },
   {
     "id": 20,
