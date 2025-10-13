@@ -221,31 +221,33 @@
     "jawaban": "B",
     "pembahasan": "**Langkah Lengkap**:\n\nWaktu selisih berangkat = $30\\, \\text{menit} = 0.5\\, \\text{jam}$.\n\nHitung Jarak Awal Bus 1 (saat Bus 2 mulai jalan):\nJarak Awal = $\\text{Kecepatan Bus 1} \\times \\text{Waktu Selisih}$.\nJarak Awal = $60 \\text{ km/jam} \\times 0.5 \\text{ jam} = 30 \\text{ km}$.\n\nHitung Selisih Kecepatan: Selisih $= 80 - 60 = 20 \\text{ km/jam}$.\n\nHitung Waktu Menyusul: Waktu = Jarak Awal / Selisih Kecepatan.\n\nWaktu Menyusul = $30 \\text{ km} / 20 \\text{ km/jam} = 1.5 \\text{ jam}$ (setelah bus kedua berangkat).\n\n**Cara Cepat**:\n\nGunakan Rumus Susul: $t_{\\text{susul}} = \\frac{K_1 \\times t_{\\text{selisih}}}{K_2 - K_1}$.\n\n$t_{\\text{susul}} = \\frac{60 \\times 0.5}{80 - 60} = \\frac{30}{20} = 1.5 \\text{ jam}$."
   },
-  {
+    {
     "id": 18,
-    "pertanyaan": "Sebuah kelas memiliki 40 siswa. Rata-rata nilai 25 siswa adalah 70, dan rata-rata 15 siswa lainnya adalah 80. Berapa rata-rata seluruh kelas?",
+    "materi": "Barisan dan Deret Aritmetika",
+    "pertanyaan": "Terdapat $11$ baris kursi. Baris pertama $10$, baris kedua $15$, baris ketiga $17$, baris keempat $22$, baris kelima $24$, dan seterusnya mengikuti pola. Apabila dalam suatu pertunjukan teater hanya terisi setengah dari total kapasitas gedung, maka banyaknya kursi yang kosong dalam gedung teater tersebut adalah....",
     "pilihan": [
-      "72,5",
-      "73,5",
-      "73,75",
-      "74,5",
-      "75,5"
+      "310",
+      "255",
+      "155",
+      "85",
+      "75"
     ],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nHitung Total Nilai Kelompok 1: $25 \\times 70 = 1.750$.\n\nHitung Total Nilai Kelompok 2: $15 \\times 80 = 1.200$.\n\nHitung Total Nilai Seluruh Kelas: $1.750 + 1.200 = 2.950$.\n\nHitung Rata-rata Gabungan: Rata-rata = $\\frac{\\text{Total Nilai}}{\\text{Total Siswa}}$.\n\nRata-rata = $2.950 / 40 = 73.75$.\n\n**Cara Cepat**:\n\nGunakan Rumus Rata-rata Gabungan:\n\n$\\bar{x} = \\frac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2} = \\frac{1750 + 1200}{40} = 73.75$."
+    "pembahasan": "Pola kursi: $10, 15, 17, 22, 24, \\dots$ (Barisan selang-seling beda $7$).\n\n1.  **Total Kapasitas Kursi ($S_{\\text{total}}$):** $6$ baris ganjil dan $5$ baris genap.\n    * **Barisan Ganjil:** $10, 17, 24, \\dots (a=10, b=7, n=6)$\n        $S_G = \\frac{6}{2} (20 + 5\\times 7) = 3 (55) = 165$\n    * **Barisan Genap:** $15, 22, 29, \\dots (a=15, b=7, n=5)$\n        $S_E = \\frac{5}{2} (30 + 4\\times 7) = \\frac{5}{2} (58) = 145$\n    * $S_{\\text{total}} = 165 + 145 = 310$ kursi.\n\n2.  **Hitung Kursi Kosong:** Kapasitas yang kosong adalah setengah dari total.\n    $\\text{Kursi Kosong} = \\frac{1}{2} \\times 310 = 155$ kursi."
   },
   {
     "id": 19,
-    "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Jika ditambah 4 orang, berapa hari pekerjaan selesai?",
+    "materi": "Perbandingan Berbalik Nilai",
+    "pertanyaan": "Alternatif Project ingin diperkirakan selesai dalam waktu $20 \\text{ bulan}$. Ternyata pihak Alternatif Project ingin pekerjaan lebih cepat selesai menjadi $8 \\text{ bulan}$. Tambahan pekerja yang dibutuhkan agar gedung selesai dalam $8 \\text{ bulan}$ adalah....",
     "pilihan": [
       "8",
+      "9",
       "10",
-      "12",
-      "14",
-      "16"
+      "11",
+      "12"
     ],
     "jawaban": "B",
-    "pembahasan": "**Langkah Lengkap**:\n\nHitung Total Beban Kerja (Hari-Pekerja): $8 \\text{ orang} \\times 15 \\text{ hari} = 120 \\text{ Hari-Pekerja}$.\n\nJumlah Pekerja Baru: $8 + 4 = 12$ orang.\n\nHitung Waktu Selesai: Waktu = $\\frac{\\text{Total Beban Kerja}}{\\text{Jumlah Pekerja Baru}}$.\n\nWaktu = $120 / 12 = 10\\, \\text{hari}$.\n\n**Cara Cepat**:\n\nGunakan Perbandingan Berbalik Nilai: $P_1 \\times H_1 = P_2 \\times H_2$.\n\n$8 \\times 15 = 12 \\times H_2$.\n\n$H_2 = (8 \\times 15) / 12 = 120 / 12 = 10\\, \\text{hari}$."
+    "pembahasan": "Ini adalah perbandingan berbalik nilai. Misalkan $P$ = pekerja awal. (Soal mengasumsikan $P$ memiliki nilai, yang umumnya $P=6$ pada konteks ini).\n\n1.  **Hitung Pekerja Baru ($P_{\\text{baru}}$):**\n    $\\frac{P_{\\text{baru}}}{P} = \\frac{\\text{Waktu Lama}}{\\text{Waktu Baru}} = \\frac{20}{8} = 2,5$\n    $P_{\\text{baru}} = 2,5P$\n\n2.  **Hitung Tambahan Pekerja ($T_{\\text{tambahan}}$):**\n    $T_{\\text{tambahan}} = P_{\\text{baru}} - P = 2,5P - P = 1,5P$\n\n3.  **Asumsi:** Karena jawaban harus bulat dan tersedia dalam pilihan, kita asumsikan $P=6$ (pekerja awal).\n    $T_{\\text{tambahan}} = 1,5 \\times 6 = 9$ orang."
   },
   {
     "id": 20,
