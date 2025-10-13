@@ -221,22 +221,10 @@
     "jawaban": "B",
     "pembahasan": "**Langkah Lengkap**:\n\nWaktu selisih berangkat = $30\\, \\text{menit} = 0.5\\, \\text{jam}$.\n\nHitung Jarak Awal Bus 1 (saat Bus 2 mulai jalan):\nJarak Awal = $\\text{Kecepatan Bus 1} \\times \\text{Waktu Selisih}$.\nJarak Awal = $60 \\text{ km/jam} \\times 0.5 \\text{ jam} = 30 \\text{ km}$.\n\nHitung Selisih Kecepatan: Selisih $= 80 - 60 = 20 \\text{ km/jam}$.\n\nHitung Waktu Menyusul: Waktu = Jarak Awal / Selisih Kecepatan.\n\nWaktu Menyusul = $30 \\text{ km} / 20 \\text{ km/jam} = 1.5 \\text{ jam}$ (setelah bus kedua berangkat).\n\n**Cara Cepat**:\n\nGunakan Rumus Susul: $t_{\\text{susul}} = \\frac{K_1 \\times t_{\\text{selisih}}}{K_2 - K_1}$.\n\n$t_{\\text{susul}} = \\frac{60 \\times 0.5}{80 - 60} = \\frac{30}{20} = 1.5 \\text{ jam}$."
   },
-    {
-    "id": 18,
-    "pertanyaan": "Terdapat $11$ baris kursi. Baris pertama $10$, baris kedua $15$, baris ketiga $17$, baris keempat $22$, baris kelima $24$, dan seterusnya mengikuti pola. Apabila dalam suatu pertunjukan teater hanya terisi setengah dari total kapasitas gedung, maka banyaknya kursi yang kosong dalam gedung teater tersebut adalah....",
-    "pilihan": [
-      "310",
-      "255",
-      "155",
-      "85",
-      "75"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Pola kursi: $10, 15, 17, 22, 24, \\dots$ (Barisan selang-seling beda $7$).\n\n1.  **Total Kapasitas Kursi ($S_{\\text{total}}$):** $6$ baris ganjil dan $5$ baris genap.\n    * **Barisan Ganjil:** $10, 17, 24, \\dots (a=10, b=7, n=6)$\n        $S_G = \\frac{6}{2} (20 + 5\\times 7) = 3 (55) = 165$\n    * **Barisan Genap:** $15, 22, 29, \\dots (a=15, b=7, n=5)$\n        $S_E = \\frac{5}{2} (30 + 4\\times 7) = \\frac{5}{2} (58) = 145$\n    * $S_{\\text{total}} = 165 + 145 = 310$ kursi.\n\n2.  **Hitung Kursi Kosong:** Kapasitas yang kosong adalah setengah dari total.\n    $\\text{Kursi Kosong} = \\frac{1}{2} \\times 310 = 155$ kursi."
-  },
   {
-    "id": 19,
-    "pertanyaan": "Alternatif Project ingin diperkirakan selesai dalam waktu $20 \\text{ bulan}$. Ternyata pihak Alternatif Project ingin pekerjaan lebih cepat selesai menjadi $8 \\text{ bulan}$. Tambahan pekerja yang dibutuhkan agar gedung selesai dalam $8 \\text{ bulan}$ adalah....",
+    "id": 18,
+    "materi": "Perbandingan Berbalik Nilai",
+    "pertanyaan": "Alternatifa Project membangun sebuah gedung kantor baru. Diperkirakan akan selesai dalam waktu 12 bulan apabila mempekerjakan 20 orang. Ternyata pihak Alternatifa Project ingin pekerjaan lebih cepat selesai menjadi 8 bulan. Tambahan pekerja yang dibutuhkan agar gedung selesai dalam 8 bulan adalah...",
     "pilihan": [
       "8",
       "9",
@@ -244,8 +232,22 @@
       "11",
       "12"
     ],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah perbandingan berbalik nilai. Misalkan $P$ = pekerja awal. (Soal mengasumsikan $P$ memiliki nilai, yang umumnya $P=6$ pada konteks ini).\n\n1.  **Hitung Pekerja Baru ($P_{\\text{baru}}$):**\n    $\\frac{P_{\\text{baru}}}{P} = \\frac{\\text{Waktu Lama}}{\\text{Waktu Baru}} = \\frac{20}{8} = 2,5$\n    $P_{\\text{baru}} = 2,5P$\n\n2.  **Hitung Tambahan Pekerja ($T_{\\text{tambahan}}$):**\n    $T_{\\text{tambahan}} = P_{\\text{baru}} - P = 2,5P - P = 1,5P$\n\n3.  **Asumsi:** Karena jawaban harus bulat dan tersedia dalam pilihan, kita asumsikan $P=6$ (pekerja awal).\n    $T_{\\text{tambahan}} = 1,5 \\times 6 = 9$ orang."
+    "jawaban": "C",
+    "pembahasan": "**Langkah 1: Menghitung Total Pekerja yang Dibutuhkan ($P_2$)**\n\nGunakan prinsip perbandingan berbalik nilai: $W_1 \\times P_1 = W_2 \\times P_2$\n\nDiketahui: $W_1 = 12$ bulan, $P_1 = 20$ orang, $W_2 = 8$ bulan.\n\n$$12 \\times 20 = 8 \\times P_2$$\n$$240 = 8 \\times P_2$$\n$$P_2 = \\frac{240}{8}$$\n$$P_2 = 30 \\text{ orang}$$\n\n**Langkah 2: Menghitung Tambahan Pekerja**\n\n$$\\text{Tambahan Pekerja} = P_2 - P_1$$\n$$\\text{Tambahan Pekerja} = 30 - 20$$\n$$\\text{Tambahan Pekerja} = 10 \\text{ orang}$$"
+  },
+  {
+    "id": 19,
+    "materi": "Barisan dan Deret Geometri",
+    "pertanyaan": "Pandemi Covid-19 pada tahun 2020 menyebabkan penurunan omzet sebesar $\\frac{1}{2}$ dari omzet yang diperoleh pada tahun sebelumnya. Jika pada tahun 2020 omzet yang diperoleh Warung Upnormal adalah $\\text{Rp120.000.000,00}$, maka jumlah omzet yang diperoleh dalam kurun waktu $2020 - 2023$ adalah...",
+    "pilihan": [
+      "Rp175.000.000",
+      "Rp195.000.000",
+      "Rp207.500.000",
+      "Rp225.000.000",
+      "Rp240.000.000"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah 1: Menentukan Variabel Deret**\n\nPenurunan omzet $\\frac{1}{2}$ berarti omzet tahun berikutnya adalah $\\left(1 - \\frac{1}{2}\\right) = \\frac{1}{2}$ dari omzet sebelumnya. Ini adalah Deret Geometri.\n\n* Suku Pertama ($a$ = Omzet 2020): $\\text{Rp120.000.000}$\n* Rasio ($r$): $\\frac{1}{2}$\n* Jumlah Suku ($n$ = Tahun 2020, 2021, 2022, 2023): $4$\n\n**Langkah 2: Menghitung Jumlah Omzet ($S_4$)**\n\nGunakan rumus jumlah deret geometri $S_n$ untuk $r < 1$:\n$$S_n = \\frac{a(1 - r^n)}{1 - r}$$\n$$S_4 = \\frac{120.000.000 \\left(1 - (\\frac{1}{2})^4\\right)}{1 - \\frac{1}{2}}$$\n$$S_4 = \\frac{120.000.000 \\left(1 - \\frac{1}{16}\\right)}{\\frac{1}{2}}$$\n$$S_4 = 120.000.000 \\times \\left(\\frac{15}{16}\\right) \\times 2$$\n$$S_4 = 120.000.000 \\times \\frac{30}{16} = 120.000.000 \\times \\frac{15}{8}$$\n$$S_4 = 15.000.000 \\times 15$$\n$$S_4 = \\text{Rp225.000.000}$$"
   },
   {
     "id": 20,
