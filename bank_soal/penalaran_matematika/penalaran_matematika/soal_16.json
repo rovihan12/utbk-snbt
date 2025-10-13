@@ -129,18 +129,19 @@
     "jawaban": "B",
     "pembahasan": "**Langkah Lengkap**:\n\nHitung Jarak Tempuh: Jarak = $600 \\text{ km/jam} \\times 3 \\text{ jam} = 1.800 \\text{ km}$.\n\nHitung Waktu Baru: Waktu = Jarak / Kecepatan Baru.\n\nWaktu Baru = $1.800 \\text{ km} / 450 \\text{ km/jam} = 4 \\text{ jam}$.\n\n**Cara Cepat**:\n\nPerbandingan Berbalik Nilai: $\\frac{W_2}{W_1} = \\frac{K_1}{K_2}$.\n\n$\\frac{W_2}{3 \\text{ jam}} = \\frac{600}{450} \\rightarrow W_2 = 3 \\times \\frac{4}{3} = 4 \\text{ jam}$."
   },
-  {
+    {
     "id": 11,
-    "pertanyaan": "Seorang penjahit dapat membuat 5 baju dalam 8 hari. Berapa banyak baju yang bisa dibuat dalam 24 hari?",
+    "materi": "Sistem Persamaan (Debit Pipa)",
+    "pertanyaan": "Dua buah pipa dapat mengisi kolam renang dalam $12 \\text{ jam}$. Jika pipa dengan diameter lebih besar digunakan selama $4 \\text{ jam}$ dan pipa dengan diameter lebih kecil digunakan selama $9 \\text{ jam}$, hanya setengah dari kolam yang dapat diisi. Lama pengisian kolam renang jika hanya digunakan pipa dengan diameter yang lebih besar adalah ... jam.",
     "pilihan": [
-      "10",
-      "12",
       "15",
-      "18",
-      "20"
+      "20",
+      "25",
+      "30",
+      "44"
     ],
-    "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nIni adalah perbandingan senilai. Faktor Kenaikan Waktu: $24 \\text{ hari} / 8 \\text{ hari} = 3 \\text{ kali}$.\n\nJumlah Baju Baru: $5 \\text{ baju} \\times 3 = 15 \\text{ baju}$.\n\n**Cara Cepat**:\n\nRasio: $\\frac{Baju_2}{\\text{Hari}_2} = \\frac{Baju_1}{\\text{Hari}_1}$.\n\n$\\frac{B_2}{24} = \\frac{5}{8} \\rightarrow B_2 = 5 \\times 3 = 15$."
+    "jawaban": "B",
+    "pembahasan": "Misalkan $B$ = debit pipa besar, $K$ = debit pipa kecil. $V$ = volume kolam.\n\n1.  **Persamaan Awal:**\n    $(B + K) \\times 12 = V \\rightarrow 12B + 12K = V$\n2.  **Persamaan Parsial:**\n    $4B + 9K = \\frac{1}{2}V$\n3.  **Substitusi dan Hubungan $B$ dan $K$:**\n    $4B + 9K = \\frac{1}{2} (12B + 12K)$\n    $4B + 9K = 6B + 6K$\n    $3K = 2B \\rightarrow K = \\frac{2}{3}B$\n4.  **Hitung Waktu Pipa Besar ($T_B$):**\n    $B \\times T_B = V$\n    Substitusikan $V$ dan $K$:\n    $B \\times T_B = 12B + 12(\\frac{2}{3}B)$\n    $B \\times T_B = 12B + 8B$\n    $B \\times T_B = 20B$\n    $T_B = 20 \\text{ jam}$"
   },
   {
     "id": 12,
