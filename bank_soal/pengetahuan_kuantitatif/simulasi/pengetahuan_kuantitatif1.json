@@ -150,7 +150,7 @@
     "pertanyaan": "Nilai dari $\\sqrt[3]{5\\sqrt{2} + 7} - \\sqrt[3]{5\\sqrt{2} - 7}$ adalah...",
     "pilihan": ["1", "2", "3", "4", "0"],
     "jawaban": "B",
-    "pembahasan": "Misal $x = \\sqrt[3]{5\\sqrt{2}+7} - \\sqrt[3]{5\\sqrt{2}-7}$\n$x^3 = (5\\sqrt{2}+7) - (5\\sqrt{2}-7) - 3x$\n$x^3 = 14 - 3x$\n$x^3 + 3x - 14 = 0$\nCoba $x=2$: $8 + 6 - 14 = 0$\nJadi $x=2$"
+    "pembahasan": "Misal $x = \\sqrt[3]{5\\sqrt{2}+7} - \\sqrt[3]{5\\sqrt{2}-7}$\n$x^3 = (5\\sqrt{2}+7) - (5\\sqrt{2}-7) - 3x\\sqrt[3]{(5\\sqrt{2}+7)(5\\sqrt{2}-7)}$\n$x^3 = 14 - 3x\\sqrt[3]{(50-49)}$\n$x^3 = 14 - 3x\\sqrt[3]{1}$\n$x^3 = 14 - 3x$\n$x^3 + 3x - 14 = 0$\nCoba $x=2$: $8 + 6 - 14 = 0$\nJadi $x=2$"
   },
   {
     "id": 18,
