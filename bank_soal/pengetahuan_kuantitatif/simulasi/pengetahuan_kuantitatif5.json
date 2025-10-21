@@ -1,157 +1,185 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Jika $2x - y = 7$ dan $x + 2y = 1$, maka nilai $x + y$ adalah...",
-    "pilihan": ["2", "-1", "0", "1", "-2"],
+    "kategori": "Mudah",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Suku ke-n dari barisan 1, 4, 9, 16, 25, ... adalah...",
+    "pilihan": ["$n^2$", "$2n^2-1$", "$n^2-n+1$", "$\\frac{n(n+1)}{2}$", "Tidak ada rumus eksplisit"],
     "jawaban": "A",
-    "pembahasan": "Kita memiliki sistem persamaan linear: 1) $2x - y = 7$ dan 2) $x + 2y = 1$. Kalikan persamaan (1) dengan 2: $4x - 2y = 14$. Tambahkan hasil ini ke persamaan (2): $(4x - 2y) + (x + 2y) = 14 + 1 \\implies 5x = 15 \\implies x = 3$. Substitusikan $x = 3$ ke persamaan (2): $3 + 2y = 1 \\implies 2y = 1 - 3 \\implies 2y = -2 \\implies y = -1$. Jadi, $x + y = 3 + (-1) = 2$. **Nilai $x+y$ adalah 2, yang sesuai dengan Pilihan A.**"
+    "pembahasan": "Barisan kuadrat bilangan asli:\n$a_1 = 1 = 1^2$\n$a_2 = 4 = 2^2$\n$a_3 = 9 = 3^2$\n$a_4 = 16 = 4^2$\n\nPola: $a_n = n^2$"
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah lingkaran memiliki keliling 88 cm. Diameter lingkaran tersebut adalah... (Gunakan $\\pi = \\frac{22}{7}$)",
-    "pilihan": ["7 cm", "14 cm", "21 cm", "28 cm", "35 cm"],
-    "jawaban": "D",
-    "pembahasan": "Rumus keliling lingkaran adalah $C = \\pi d$, di mana $d$ adalah diameter. Diketahui $C = 88$ cm. $88 = \\frac{22}{7} \\times d \\implies d = \\frac{88 \\times 7}{22} = 4 \\times 7 = 28 \\text{ cm}$."
+    "kategori": "Mudah",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $^3\\log 81$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "C",
+    "pembahasan": "Kita mencari nilai $y$ sehingga $3^y = 81$.\nKarena $3^4 = 81$, maka $^3\\log 81 = 4$."
   },
   {
     "id": 3,
-    "pertanyaan": "Hasil dari $10^2 - (5 - 2)^3$ adalah...",
-    "pilihan": ["73", "81", "91", "100", "127"],
-    "jawaban": "A",
-    "pembahasan": "Ikuti urutan operasi: $10^2 = 100$. $(5 - 2)^3 = 3^3 = 27$. Jadi, $100 - 27 = 73$."
+    "kategori": "Mudah",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{121} - \\sqrt{49}$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "C",
+    "pembahasan": "$\\sqrt{121} = 11$, $\\sqrt{49} = 7$\n$11 - 7 = 4$"
   },
   {
     "id": 4,
-    "pertanyaan": "Jika $P$ adalah 30% dari 60, dan $Q$ adalah 40% dari 50, maka hubungan antara $P$ dan $Q$ adalah...",
-    "pilihan": ["$P > Q$", "$P < Q$", "$P = Q$", "$P = 2Q$", "$Q = 2P$"],
-    "jawaban": "B",
-    "pembahasan": "$P = 30\\% \\times 60 = 0.30 \\times 60 = 18$. $Q = 40\\% \\times 50 = 0.40 \\times 50 = 20$. Jadi, $P < Q$ (18 < 20). **Pilihan B ($P < Q$) adalah yang benar.**"
+    "kategori": "Mudah",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi 6 cm, 8 cm, dan 10 cm. Luas segitiga tersebut adalah...",
+    "pilihan": ["24 cm²", "30 cm²", "36 cm²", "40 cm²", "48 cm²"],
+    "jawaban": "A",
+    "pembahasan": "Luas segitiga siku-siku = $\\frac{1}{2} \\times 6 \\times 8 = 24$ cm²"
   },
   {
     "id": 5,
-    "pertanyaan": "Dalam sebuah kelas, 70% siswa lulus ujian matematika. Jika ada 30 siswa di kelas, berapa siswa yang tidak lulus ujian matematika?",
-    "pilihan": ["6", "9", "10", "21", "24"],
-    "jawaban": "B",
-    "pembahasan": "Persentase siswa yang tidak lulus = $100\\% - 70\\% = 30\\%$. Jumlah siswa yang tidak lulus = $30\\% \\times 30 = 0.30 \\times 30 = 9$ siswa."
+    "kategori": "Sedang",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Seorang pekerja menumpuk batu bata. Tumpukan paling bawah 20 batu, di atasnya 18, dst., berkurang 2 tiap tumpukan. Jika ada 8 tumpukan, total batu bata adalah...",
+    "pilihan": ["104", "108", "112", "116", "120"],
+    "jawaban": "A",
+    "pembahasan": "Diketahui:\n$a = 20$, $d = -2$, $n = 8$\n\n$S_n = \\frac{n}{2}(2a + (n-1)d)$\n\n$S_8 = \\frac{8}{2}(2(20) + 7(-2))$\n$S_8 = 4(40 - 14)$\n$S_8 = 4 \\times 26 = 104$"
   },
   {
     "id": 6,
-    "pertanyaan": "Rata-rata 5 bilangan adalah 12. Jika salah satu bilangan dikeluarkan, rata-rata 4 bilangan sisanya menjadi 10. Bilangan yang dikeluarkan adalah...",
-    "pilihan": ["18", "20", "22", "24", "26"],
-    "jawaban": "B",
-    "pembahasan": "Jumlah 5 bilangan = $5 \\times 12 = 60$. Jumlah 4 bilangan sisanya = $4 \\times 10 = 40$. Bilangan yang dikeluarkan = (Jumlah 5 bilangan) - (Jumlah 4 bilangan) = $60 - 40 = 20$."
+    "kategori": "Sedang",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $\\log_{10} 2 = 0.301$ dan $\\log_{10} 3 = 0.477$, maka nilai dari $\\log_{10} 18$ adalah...",
+    "pilihan": ["0.778", "0.954", "1.255", "1.431", "1.505"],
+    "jawaban": "C",
+    "pembahasan": "Faktorkan 18:\n$18 = 2 \\times 3^2$\n$\\log_{10} 18 = \\log_{10} 2 + 2\\log_{10} 3$\n$= 0.301 + 2(0.477) = 1.255$"
   },
   {
     "id": 7,
-    "pertanyaan": "Faktor prima dari 42 adalah...",
-    "pilihan": ["2, 3", "2, 7", "3, 7", "2, 3, 7", "1, 2, 3, 7"],
-    "jawaban": "D",
-    "pembahasan": "Faktorisasi prima dari 42: $42 = 2 \\times 21 = 2 \\times 3 \\times 7$. Jadi, faktor primanya adalah 2, 3, dan 7."
+    "kategori": "Sedang",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Bentuk rasional dari $\\frac{3}{\\sqrt{5} - \\sqrt{2}}$ adalah...",
+    "pilihan": ["$\\sqrt{5} + \\sqrt{2}$", "$3(\\sqrt{5} + \\sqrt{2})$", "$\\sqrt{5} - \\sqrt{2}$", "$\\frac{\\sqrt{5} + \\sqrt{2}}{3}$", "$\\frac{3(\\sqrt{5} + \\sqrt{2})}{7}$"],
+    "jawaban": "A",
+    "pembahasan": "Rasionalkan penyebut:\n$\\frac{3}{\\sqrt{5}-\\sqrt{2}} \\times \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}}$\n$= \\frac{3(\\sqrt{5}+\\sqrt{2})}{5-2} = \\sqrt{5} + \\sqrt{2}$"
   },
   {
     "id": 8,
-    "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga sebuah tas setelah diskon adalah Rp 160.000,00, maka harga awal tas tersebut adalah...",
-    "pilihan": ["Rp 180.000,00", "Rp 192.000,00", "Rp 200.000,00", "Rp 210.000,00", "Rp 220.000,00"],
-    "jawaban": "C",
-    "pembahasan": "Harga setelah diskon adalah 80% dari harga awal (karena diskon 20%). Misalkan harga awal adalah $H$. $0.80 \\times H = \\text{Rp } 160.000,00 \\implies H = \\frac{\\text{Rp } 160.000,00}{0.80} = \\text{Rp } 200.000,00$."
+    "kategori": "Sedang",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah kubus memiliki volume 216 cm³. Panjang diagonal ruang kubus tersebut adalah...",
+    "pilihan": ["6√3 cm", "8√3 cm", "10√3 cm", "12√3 cm", "14√3 cm"],
+    "jawaban": "A",
+    "pembahasan": "Volume = s³ = 216 ⇒ s = 6 cm\nDiagonal ruang = s√3 = 6√3 cm"
   },
   {
     "id": 9,
-    "pertanyaan": "Jika $f(x) = x^2 - 1$ dan $g(x) = x + 2$, maka $(f \\circ g)(x)$ adalah...",
-    "pilihan": ["$x^2 + 4x + 3$", "$x^2 + 3x + 4$", "$x^2 + 4x + 4$", "$x^2 - x - 1$", "$x^2 + x - 1$"],
+    "kategori": "Sedang",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Suku ke-n dari barisan $a_n = n^2-n+1$. Suku ke-10 dari barisan tersebut adalah...",
+    "pilihan": ["91", "92", "93", "94", "95"],
     "jawaban": "A",
-    "pembahasan": "Komposisi fungsi $(f \\circ g)(x)$ berarti $f(g(x))$. Substitusikan $g(x)$ ke dalam $f(x)$: $f(g(x)) = (x + 2)^2 - 1$. $(x + 2)^2 = x^2 + 4x + 4$. Jadi, $x^2 + 4x + 4 - 1 = x^2 + 4x + 3$."
+    "pembahasan": "Substitusi $n=10$:\n$a_{10} = 10^2 - 10 + 1$\n$a_{10} = 100 - 10 + 1 = 91$"
   },
   {
     "id": 10,
-    "kategori": "Sulit",
-    "pertanyaan": "Hasil dari $\\sqrt{2+\\sqrt{3}} + \\sqrt{2-\\sqrt{3}}$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "$\\sqrt{2}$",
-      "$2\\sqrt{2}$",
-      "3"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Misal $x = \\sqrt{2+\\sqrt{3}} + \\sqrt{2-\\sqrt{3}}$. Kuadratkan: $x^2 = (2+\\sqrt{3}) + (2-\\sqrt{3}) + 2\\sqrt{(2+\\sqrt{3})(2-\\sqrt{3})} = 4 + 2\\sqrt{1} = 6 \\Rightarrow x = \\sqrt{6}$, sesuaikan opsi menjadi 2."
+    "kategori": "Sedang",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^2\\log(x^2 - 3) = 2$, maka nilai $x^2$ adalah...",
+    "pilihan": ["1", "3", "5", "7", "10"],
+    "jawaban": "D",
+    "pembahasan": "Ubah ke bentuk eksponen:\n$x^2 - 3 = 2^2 = 4$\n$x^2 = 4 + 3 = 7$"
   },
   {
     "id": 11,
-    "pertanyaan": "Nilai dari $\\int (3x^2 - 2x + 5) dx$ adalah...",
-    "pilihan": ["$x^3 - x^2 + 5x + C$", "$6x - 2 + C$", "$x^3 - x^2 + C$", "$x^3 - x^2 + 5 + C$", "$3x^3 - 2x^2 + 5x + C$"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan aturan integral daya: $\\int x^n dx = \\frac{1}{n+1} x^{n+1} + C$. $\\int 3x^2 dx = 3 \\frac{1}{3} x^3 = x^3$. $\\int -2x dx = -2 \\frac{1}{2} x^2 = -x^2$. $\\int 5 dx = 5x$. Jadi, integralnya adalah $x^3 - x^2 + 5x + C$."
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jumlah suku ke-n dari suatu deret adalah $S_n = 5n^2 - 3n$. Suku ke-4 dari deret tersebut adalah...",
+    "pilihan": ["22", "24", "32", "36", "38"],
+    "jawaban": "C",
+    "pembahasan": "$a_n = S_n - S_{n-1}$\n\n$S_4 = 5(16)-12 = 80-12 = 68$\n$S_3 = 5(9)-9 = 45-9 = 36$\n\n$a_4 = 68-36 = 32$"
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah kantong berisi 5 kelereng merah dan 3 kelereng putih. Jika diambil 3 kelereng sekaligus secara acak, peluang terambil 2 merah dan 1 putih adalah...",
-    "pilihan": ["$\\frac{1}{28}$", "$\\frac{3}{28}$", "$\\frac{15}{56}$", "$\\frac{15}{28}$", "$\\frac{3}{8}$"],
-    "jawaban": "D",
-    "pembahasan": "Jumlah total kelereng = $5 + 3 = 8$. Banyak cara mengambil 3 kelereng dari 8 (ruang sampel): $C(8,3) = \\frac{8!}{3!(8-3)!} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$. Banyak cara mengambil 2 merah dari 5 merah: $C(5,2) = \\frac{5!}{2!(5-2)!} = \\frac{5 \\times 4}{2 \\times 1} = 10$. Banyak cara mengambil 1 putih dari 3 putih: $C(3,1) = \\frac{3!}{1!(3-1)!} = 3$. Banyak cara mengambil 2 merah dan 1 putih = $C(5,2) \\times C(3,1) = 10 \\times 3 = 30$. Peluang = $\\frac{\\text{Jumlah cara mengambil 2 merah 1 putih}}{\\text{Jumlah seluruh cara}} = \\frac{30}{56} = \\frac{15}{28}$."
+    "kategori": "Sulit",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $^2\\log 24 - ^2\\log 3 + ^2\\log (\\frac{1}{16})$ adalah...",
+    "pilihan": ["-1", "0", "1", "2", "4"],
+    "jawaban": "A",
+    "pembahasan": "Gabungkan logaritma:\n$^2\\log 24 - ^2\\log 3 = ^2\\log 8$\n$^2\\log 8 + ^2\\log(\\frac{1}{16}) = ^2\\log(8 \\times \\frac{1}{16})$\n$= ^2\\log(\\frac{1}{2}) = -1$"
   },
   {
     "id": 13,
-    "pertanyaan": "Diketahui matriks $P = \\begin{pmatrix} 2 & 1 \\\\ 3 & 4 \\end{pmatrix}$. Determinan dari matriks $P$ adalah...",
-    "pilihan": ["-10", "-5", "0", "5", "10"],
-    "jawaban": "D",
-    "pembahasan": "Determinan dari matriks $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ adalah $ad - bc$. Determinan $P = (2)(4) - (1)(3) = 8 - 3 = 5$."
+    "kategori": "Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Jika $a = \\sqrt{5} + \\sqrt{3}$ dan $b = \\sqrt{5} - \\sqrt{3}$, maka $a^2 + b^2 = ...$",
+    "pilihan": ["8", "12", "16", "20", "24"],
+    "jawaban": "C",
+    "pembahasan": "$a^2 = (\\sqrt{5}+\\sqrt{3})^2 = 5+3+2\\sqrt{15} = 8+2\\sqrt{15}$\n$b^2 = (\\sqrt{5}-\\sqrt{3})^2 = 5+3-2\\sqrt{15} = 8-2\\sqrt{15}$\n$a^2 + b^2 = (8+2\\sqrt{15}) + (8-2\\sqrt{15}) = 16$"
   },
   {
     "id": 14,
-    "pertanyaan": "Persamaan garis yang melalui titik $(2, 5)$ dan memiliki gradien $-3$ adalah...",
-    "pilihan": ["$y = -3x + 11$", "$y = -3x + 7$", "$y = -3x - 1$", "$y = -3x - 11$", "$y = -3x + 1$"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan rumus persamaan garis $y - y_1 = m(x - x_1)$. Diketahui $(x_1, y_1) = (2, 5)$ dan $m = -3$. $y - 5 = -3(x - 2) \\implies y - 5 = -3x + 6 \\implies y = -3x + 6 + 5 \\implies y = -3x + 11$."
+    "kategori": "Sulit",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Perhatikan gambar berikut ini.\n\nPada gambar di atas, ABC adalah garis lurus. Tentukan besar $\\angle ABP$.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_084254_Samsung%20Internet.jpg",
+    "pilihan": ["30°", "45°", "50°", "60°", "90°"],
+    "jawaban": "C",
+    "pembahasan": "$\\angle ABP + \\angle PBQ + \\angle QBC = 180°$\n$2x + 105° + x = 180°$\n$3x + 105° = 180°$\n$3x = 75°$\n$x = 25°$\n$\\angle ABP = 2x = 50°$"
   },
   {
     "id": 15,
-    "pertanyaan": "Nilai dari $\\log_2 8 + \\log_3 9 - \\log_5 25$ adalah...",
-    "pilihan": ["1", "2", "3", "4", "5"],
-    "jawaban": "C",
-    "pembahasan": "$\\log_2 8 = \\log_2 2^3 = 3$. $\\log_3 9 = \\log_3 3^2 = 2$. $\\log_5 25 = \\log_5 5^2 = 2$. Jadi, $3 + 2 - 2 = 3$."
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $a, b, c$ adalah barisan geometri dan $a+b+c = 14$ serta $abc = 64$, maka nilai $a^2+b^2+c^2$ adalah...",
+    "pilihan": ["48", "56", "64", "84", "96"],
+    "jawaban": "D",
+    "pembahasan": "Misal barisan: $a/r, a, ar$\n\nHasil kali: $(a/r)(a)(ar) = a^3 = 64$\n$a = 4$\n\nJumlah: $4/r + 4 + 4r = 14$\n$4/r + 4r = 10$\n$2r^2 - 5r + 2 = 0$\n$(2r-1)(r-2) = 0$\n$r = 2$ atau $1/2$\n\nBarisan: $2,4,8$ atau $8,4,2$\n$a^2+b^2+c^2 = 4+16+64 = 84$"
   },
   {
     "id": 16,
-    "pertanyaan": "Diketahui vektor $\\mathbf{a} = 3\\mathbf{i} + \\mathbf{j} - 2\\mathbf{k}$ dan $\\mathbf{b} = \\mathbf{i} - 2\\mathbf{j} + 4\\mathbf{k}$. Hasil dari $2\\mathbf{a} - \\mathbf{b}$ adalah...",
-    "pilihan": ["$5\\mathbf{i} + 4\\mathbf{j} - 8\\mathbf{k}$", "$5\\mathbf{i} - \\mathbf{j} - 8\\mathbf{k}$", "$5\\mathbf{i} + 4\\mathbf{j} - 6\\mathbf{k}$", "$5\\mathbf{i} + 4\\mathbf{j} - 4\\mathbf{k}$", "$7\\mathbf{i} + 0\\mathbf{j} - 0\\mathbf{k}$"],
-    "jawaban": "A",
-    "pembahasan": "$2\\mathbf{a} = 2(3\\mathbf{i} + \\mathbf{j} - 2\\mathbf{k}) = 6\\mathbf{i} + 2\\mathbf{j} - 4\\mathbf{k}$. $2\\mathbf{a} - \\mathbf{b} = (6\\mathbf{i} + 2\\mathbf{j} - 4\\mathbf{k}) - (\\mathbf{i} - 2\\mathbf{j} + 4\\mathbf{k}) = (6-1)\\mathbf{i} + (2-(-2))\\mathbf{j} + (-4-4)\\mathbf{k} = 5\\mathbf{i} + 4\\mathbf{j} - 8\\mathbf{k}$."
+    "kategori": "Sulit",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^a\\log 2 = 5$, maka $^a\\log 8$ adalah...",
+    "pilihan": ["10", "15", "20", "25", "30"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan 8:\n$8 = 2^3$\n$^a\\log 8 = ^a\\log 2^3 = 3 \\cdot ^a\\log 2$\n$= 3 \\times 5 = 15$"
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 10 meter. Setiap kali memantul, bola mencapai $\\frac{4}{5}$ dari ketinggian sebelumnya. Panjang lintasan bola sampai berhenti adalah...",
-    "pilihan": ["80 meter", "90 meter", "100 meter", "120 meter", "140 meter"],
+    "kategori": "Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $(\\sqrt{2+\\sqrt{3}} - \\sqrt{2-\\sqrt{3}})^2$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "B",
-    "pembahasan": "Lintasan bola saat turun membentuk deret geometri tak hingga: $10 + 10(\\frac{4}{5}) + 10(\\frac{4}{5})^2 + \\dots$. Jumlah lintasan turun $S_{turun} = \\frac{10}{1 - \\frac{4}{5}} = \\frac{10}{\\frac{1}{5}} = 50$ meter. Lintasan bola saat naik juga membentuk deret geometri tak hingga, dimulai dari $10(\\frac{4}{5})$: $8 + 8(\\frac{4}{5}) + \\dots$. Jumlah lintasan naik $S_{naik} = \\frac{8}{1 - \\frac{4}{5}} = \\frac{8}{\\frac{1}{5}} = 40$ meter. Total panjang lintasan = $S_{turun} + S_{naik} = 50 + 40 = 90$ meter."
+    "pembahasan": "Misal $A = \\sqrt{2+\\sqrt{3}} - \\sqrt{2-\\sqrt{3}}$\n$A^2 = (2+\\sqrt{3}) + (2-\\sqrt{3}) - 2\\sqrt{(2+\\sqrt{3})(2-\\sqrt{3})}$\n$A^2 = 4 - 2\\sqrt{4-3}$\n$A^2 = 4 - 2 = 2$"
   },
   {
     "id": 18,
-    "pertanyaan": "Jika $f(x) = \\frac{x^2 - 4}{x - 2}$ untuk $x \\ne 2$, dan $f(2) = k$, agar $f(x)$ kontinu di $x = 2$, nilai $k$ haruslah...",
-    "pilihan": ["0", "1", "2", "3", "4"],
-    "jawaban": "E",
-    "pembahasan": "Agar $f(x)$ kontinu di $x=2$, maka $\\lim_{x \\to 2} f(x) = f(2)$. Kita perlu mencari limit dari $f(x)$ saat $x$ mendekati 2. $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2} = \\lim_{x \\to 2} \\frac{(x - 2)(x + 2)}{x - 2}$. Batalkan $(x - 2)$: $\\lim_{x \\to 2} (x + 2)$. Substitusikan $x = 2$: $2 + 2 = 4$. Jadi, agar kontinu, $k$ harus sama dengan 4."
+    "kategori": "Sulit",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Perhatikan gambar berikut ini.\n\nDiketahui koordinat P(1, -3), Q(7, 6), T(1, -1), R(5, -1) dan U(1, 3). Luas $\\Delta UTR$ adalah ... satuan luas.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098181-removebg-preview.png",
+    "pilihan": ["8", "10", "12", "14", "16"],
+    "jawaban": "A",
+    "pembahasan": "Segitiga $UTR$ memiliki koordinat $U(1, 3)$, $T(1, -1)$, dan $R(5, -1)$.\nAlas = $|5 - 1| = 4$\nTinggi = $|3 - (-1)| = 4$\nLuas = $\\frac{1}{2} \\times 4 \\times 4 = 8$"
   },
   {
-  "id": 19,
-  "pertanyaan": "Pada gambar di bawah, hitunglah nilai masing-masing $\\angle b$, $\\angle c$, dan $\\angle a$.",
-  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_084739_Samsung%20Internet.jpg",
-  "pilihan": [
-    "70°, 92°, dan 28°",
-    "60°, 82°, dan 28°",
-    "70°, 92°, dan 18°",
-    "60°, 82°, dan 18°",
-    "80°, 92°, dan 18°"
-  ],
-  "jawaban": "C",
-  "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098165.jpg",
-  "pembahasan": "Untuk mencari nilai sudut b, c, dan a, kita akan menganalisis setiap segitiga dan garis lurus pada gambar.\n\n1.  **Mencari nilai $\\angle b$:**\n    * Segitiga BDA adalah segitiga sama kaki karena BD = BA, sehingga $\\angle BAD = \\angle D = 35°$.\n    * Jumlah sudut dalam segitiga adalah 180°, maka $\\angle DBA = 180° - 35° - 35° = 110°$.\n    * Garis DBC adalah garis lurus, sehingga $\\angle DBA + \\angle b = 180°$. Jadi, $\\angle b = 180° - 110° = 70°$.\n\n2.  **Mencari nilai $\\angle c$:**\n    * Segitiga ECA adalah segitiga sama kaki karena CE = CA, sehingga $\\angle CAE = \\angle E = 46°$.\n    * Jumlah sudut dalam segitiga adalah 180°, maka $\\angle ECA = 180° - 46° - 46° = 88°$.\n    * Garis ECB adalah garis lurus, sehingga $\\angle ECA + \\angle c = 180°$. Jadi, $\\angle c = 180° - 88° = 92°$.\n\n3.  **Mencari nilai $\\angle a$:**\n    * Segitiga BAC memiliki jumlah sudut 180°.\n    * $\\angle BAC + \\angle ABC + \\angle BCA = 180°$.\n    * $\\angle a + \\angle b + \\angle c = 180°$.\n    * $\\angle a + 70° + 92° = 180°$.\n    * $\\angle a + 162° = 180°$.\n    * $\\angle a = 180° - 162° = 18°$.\n\nJadi, nilai $\\angle b$, $\\angle c$, dan $\\angle a$ berturut-turut adalah 70°, 92°, dan 18°."
-},
+    "id": 19,
+    "kategori": "Sangat Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $\\sqrt{3^{3x-1}} = 3^{x+4}$, maka nilai dari $x$ adalah...",
+    "pilihan": ["5", "7", "8", "9", "10"],
+    "jawaban": "D",
+    "pembahasan": "Sederhanakan akar:\n$\\sqrt{3^{3x-1}} = 3^{\\frac{3x-1}{2}}$\nSamakan eksponen:\n$\\frac{3x-1}{2} = x+4$\n$3x-1 = 2x+8$\n$x = 9$"
+  },
   {
     "id": 20,
-    "pertanyaan": "Sebuah fungsi $g(x) = ax + b$. Jika $g(0) = -2$ dan $g(1) = 3$, maka nilai dari $a + b$ adalah...",
-    "pilihan": ["-1", "1", "2", "3", "5"],
-    "jawaban": "D",
-    "pembahasan": "Dari $g(0) = -2$: $a(0) + b = -2 \\implies b = -2$. Dari $g(1) = 3$: $a(1) + b = 3 \\implies a + b = 3$. Kita sudah punya $b = -2$, substitusikan ke persamaan kedua: $a + (-2) = 3 \\implies a - 2 = 3 \\implies a = 5$. Jadi, nilai $a + b = 5 + (-2) = 3$."
+    "kategori": "Sangat Sulit",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Perhatikan gambar berikut ini.\n\nTiga setengah lingkaran saling bersentuhan dan juga menyentuh persegi panjang, yang sisi panjangnya adalah 36 cm. Jarak dari setengah lingkaran berukuran sedang dan kecil ke sisi panjang atas persegi panjang masing-masing adalah 5 cm dan 7 cm. Berapakah keliling persegi panjang tersebut?",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250906_080607_YouTube.jpg",
+    "pilihan": ["92", "84", "96", "108", "48"],
+    "jawaban": "A",
+    "pembahasan": "Misal diameter lingkaran besar = x\nDiameter sedang = x - 5 - 5 = x - 10\nDiameter kecil = x - 7 - 7 = x - 14\n$x + (x-10) + (x-14) = 36$\n$3x - 24 = 36$\n$3x = 60$\n$x = 20$\nTinggi persegi panjang = 20\nKeliling = $2(36 + 20) = 2 \\times 56 = 92$ cm"
   }
 ]
