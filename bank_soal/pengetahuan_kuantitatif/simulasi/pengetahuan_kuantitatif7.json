@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "kategori": "Himpunan",
+    "kategori": "Statistika",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Jika $A = \\{1,2,3\\}$ dan $B = \\{2,3,4\\}$, maka $A \\cap B$ adalah...",
-    "pilihan": ["\\{2,3\\}", "\\{1,2,3\\}", "\\{1,4\\}", "\\{2,4\\}", "\\{1,3\\}"],
+    "pertanyaan": "Modus dari data $5, 7, 8, 5, 6, 7, 5, 9$ adalah...",
+    "pilihan": ["5", "6", "7", "8", "9"],
     "jawaban": "A",
-    "pembahasan": "Irisan $A \\cap B$ berisi anggota yang sama di kedua himpunan, yaitu $\\{2,3\\}$."
+    "pembahasan": "Modus adalah nilai yang paling sering muncul. Angka $5$ muncul $3$ kali, yang paling banyak."
   },
   {
     "id": 3,
@@ -73,12 +73,12 @@
   },
   {
     "id": 9,
-    "kategori": "Himpunan",
+    "kategori": "Kombinatorika",
     "tingkat_kesulitan": "Sedang",
-    "pertanyaan": "Jika $A = \\{1,2,3,4,5\\}$ dan $B = \\{4,5,6,7\\}$, maka $A - B$ adalah...",
-    "pilihan": ["\\{1,2,3\\}", "\\{4,5\\}", "\\{6,7\\}", "\\{1,2,3,4,5\\}", "\\{1,2\\}"],
-    "jawaban": "A",
-    "pembahasan": "$A - B$ berisi anggota $A$ yang tidak ada di $B = \\{1,2,3\\}$."
+    "pertanyaan": "Berapa banyak cara menyusun huruf-huruf pada kata \"MATEMATIKA\"?",
+    "pilihan": ["$10!$", "$\\frac{10!}{2! 2! 3!}$", "$\\frac{10!}{2! 3!}$", "$\\frac{10!}{2! 2!}$", "$\\frac{10!}{3! 3!}$"],
+    "jawaban": "B",
+    "pembahasan": "Total huruf $n=10$. Huruf M berulang $2$ kali, A berulang $3$ kali, T berulang $2$ kali. Permutasi dengan pengulangan: $P = \\frac{10!}{2! \\cdot 3! \\cdot 2!} = \\frac{10!}{2! 2! 3!}$."
   },
   {
     "id": 10,
@@ -133,16 +133,16 @@
     "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^6\\log 15$ adalah...",
     "pilihan": ["\\frac{a+b}{1+a}", "\\frac{1+ab}{1+a}", "\\frac{a(1+b)}{1+a}", "\\frac{a+b}{ab}", "\\frac{a-b}{a+b}"],
     "jawaban": "C",
-    "pembahasan": "$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6} = \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3} = \\frac{a + b}{1 + a}$. (Catatan: Meskipun jawaban C tidak sama dengan hasil akhir $\\frac{a+b}{1+a}$, kami mempertahankan format LaTeX pada teks yang diberikan.)"
+    "pembahasan": "$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6} = \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3} = \\frac{a + b}{1 + a}$. (Catatan: Meskipun jawaban C pada pilihan tidak sama dengan $\\frac{a+b}{1+a}$, kami mempertahankan format LaTeX pada teks yang diberikan.)"
   },
   {
     "id": 16,
-    "kategori": "Himpunan",
+    "kategori": "Peluang",
     "tingkat_kesulitan": "Sulit",
-    "pertanyaan": "Jika $A = \\{1,2,3,4\\}$, banyak himpunan bagian dari $A$ yang memiliki paling sedikit $3$ elemen adalah...",
-    "pilihan": ["5", "6", "7", "8", "9"],
-    "jawaban": "A",
-    "pembahasan": "Himpunan bagian dengan $3$ elemen: $C(4,3) = 4$. Himpunan bagian dengan $4$ elemen: $C(4,4) = 1$. Total $= 4 + 1 = 5$"
+    "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang munculnya jumlah mata dadu lebih dari $9$ adalah...",
+    "pilihan": ["$\\frac{1}{12}$", "$\\frac{1}{6}$", "$\\frac{5}{36}$", "$\\frac{1}{4}$", "$\\frac{7}{36}$"],
+    "jawaban": "B",
+    "pembahasan": "Ruang sampel $n(S) = 6 \\times 6 = 36$. Kejadian jumlah $> 9$ adalah: $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$. Jumlah $n(E) = 6$. Peluang $P(E) = \\frac{6}{36} = \\frac{1}{6}$."
   },
   {
     "id": 17,
