@@ -1,155 +1,182 @@
 [
-   {
+  {
     "id": 1,
-    "pertanyaan": "Berapa nilai sudut r?",
-    "image": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/sudut_r.png",
-    "pilihan": [
-      "32",
-      "38",
-      "48",
-      "62",
-      "87"
-    ],
+    "kategori": "Mudah",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-3 adalah 11 dan suku ke-8 adalah 31. Suku ke-20 dari barisan tersebut adalah...",
+    "pilihan": ["75", "79", "83", "87", "91"],
     "jawaban": "B",
-    "pembahasan": "Sudut p = $67^{\\circ}$ (bertolak belakang dengan sudut $67^{\\circ}$).\nSudut s + $105^{\\circ} = 180^{\\circ}$ (sudut berpelurus).\nSudut s = $180^{\\circ} - 105^{\\circ} = 75^{\\circ}$.\nSudut s sehadap dengan sudut q maka nilainya sama, $s = q = 75^{\\circ}$.\nJumlah sudut dalam segitiga adalah $180^{\\circ}$. Maka, $p + q + r = 180^{\\circ}$.\n$67^{\\circ} + 75^{\\circ} + r = 180^{\\circ}$.\n$142^{\\circ} + r = 180^{\\circ}$.\n$r = 180^{\\circ} - 142^{\\circ}$.\n$r = 38^{\\circ}$."
+    "pembahasan": "Diketahui:\n$a_3 = a + 2d = 11$\n$a_8 = a + 7d = 31$\n\nKurangi persamaan:\n$(a + 7d) - (a + 2d) = 31 - 11$\n$5d = 20$\n$d = 4$\n\nSubstitusi:\n$a + 2(4) = 11$\n$a + 8 = 11$\n$a = 3$\n\n$a_{20} = a + 19d$\n$a_{20} = 3 + 19(4) = 3 + 76 = 79$"
   },
   {
     "id": 2,
-    "pertanyaan": "Himpunan penyelesaian dari persamaan $3x - 5 = 10$ adalah...",
-    "pilihan": ["{3}", "{4}", "{5}", "{6}", "{7}"],
-    "jawaban": "C",
-    "pembahasan": "Untuk menyelesaikan persamaan $3x - 5 = 10$, tambahkan 5 ke kedua sisi: $3x - 5 + 5 = 10 + 5 \\implies 3x = 15$. Kemudian, bagi kedua sisi dengan 3: $x = \\frac{15}{3} \\implies x = 5$. Jadi, himpunan penyelesaiannya adalah ${5}$."
+    "kategori": "Mudah",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $^4\\log 64$ adalah...",
+    "pilihan": ["2", "3", "4", "8", "16"],
+    "jawaban": "B",
+    "pembahasan": "Kita mencari nilai $y$ sehingga $4^y = 64$.\nKarena $4^3 = 64$, maka $^4\\log 64 = 3$."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika $x = 4$ dan $y = -2$, maka nilai dari $2x - 3y$ adalah...",
-    "pilihan": ["10", "12", "14", "16", "18"],
+    "kategori": "Mudah",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt[3]{27}$ adalah...",
+    "pilihan": ["12", "13", "15", "16", "18"],
     "jawaban": "C",
-    "pembahasan": "Substitusikan nilai $x = 4$ dan $y = -2$ ke dalam ekspresi $2x - 3y$: $2(4) - 3(-2) = 8 - (-6) = 8 + 6 = 14$."
+    "pembahasan": "Hitung nilai akar:\n$\\sqrt{144} = 12$\n$\\sqrt[3]{27} = 3$\n$12 + 3 = 15$"
   },
   {
     "id": 4,
-    "pertanyaan": "Sebuah toko memberikan diskon 20% untuk semua barang. Jika harga sebuah tas sebelum diskon adalah Rp 250.000,00, berapa harga tas setelah diskon?",
-    "pilihan": ["Rp 180.000,00", "Rp 200.000,00", "Rp 210.000,00", "Rp 220.000,00", "Rp 230.000,00"],
-    "jawaban": "B",
-    "pembahasan": "Diskon yang diberikan adalah 20% dari Rp 250.000,00: Diskon = $0.20 \\times 250.000 = 50.000$. Harga tas setelah diskon = Harga awal - Diskon = $250.000 - 50.000 = 200.000$. Jadi, harga tas setelah diskon adalah Rp 200.000,00."
+    "kategori": "Mudah",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah segitiga siku-siku luasnya $3.000$ cm$^2$. Jika alas segitiga tersebut $120$ cm, maka panjang sisi miring segitiga adalah .... cm",
+    "pilihan": ["120", "125", "130", "135", "160"],
+    "jawaban": "C",
+    "pembahasan": "Tinggi segitiga:\n$3.000 = \\frac{1}{2} \\times 120 \\times tinggi$\n$tinggi = 50$ cm\n\nSisi miring:\n$\\sqrt{120^2 + 50^2} = \\sqrt{14400 + 2500} = \\sqrt{16900} = 130$ cm"
   },
   {
     "id": 5,
-    "pertanyaan": "Berapakah nilai dari $\\frac{3}{4} + \\frac{1}{2}$?",
-    "pilihan": ["$\\frac{4}{6}$", "$\\frac{5}{8}$", "$\\frac{5}{4}$", "$\\frac{7}{8}$", "$\\frac{3}{2}$"],
-    "jawaban": "C",
-    "pembahasan": "Untuk menjumlahkan pecahan, samakan penyebutnya. Penyebut bersama terkecil untuk 4 dan 2 adalah 4. $\\frac{1}{2}$ dapat ditulis sebagai $\\frac{1 \\times 2}{2 \\times 2} = \\frac{2}{4}$. Jadi, $\\frac{3}{4} + \\frac{1}{2} = \\frac{3}{4} + \\frac{2}{4} = \\frac{3+2}{4} = \\frac{5}{4}$."
+    "kategori": "Sedang",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jumlah 5 suku pertama dari deret geometri dengan suku pertama 4 dan rasio 3 adalah...",
+    "pilihan": ["484", "486", "488", "490", "492"],
+    "jawaban": "A",
+    "pembahasan": "Diketahui:\n$a = 4$, $r = 3$, $n = 5$\n\n$S_n = \\frac{a(r^n - 1)}{r - 1}$\n\n$S_5 = \\frac{4(3^5 - 1)}{3 - 1}$\n$S_5 = \\frac{4(243 - 1)}{2}$\n$S_5 = \\frac{4 \\times 242}{2} = 484$"
   },
   {
     "id": 6,
-    "pertanyaan": "Jika sebuah mobil melaju dengan kecepatan 60 km/jam selama 2,5 jam, berapa jarak yang ditempuh mobil tersebut?",
-    "pilihan": ["120 km", "130 km", "140 km", "150 km", "160 km"],
-    "jawaban": "D",
-    "pembahasan": "Rumus jarak adalah Jarak = Kecepatan $\\times$ Waktu. Jarak = 60 km/jam $\\times$ 2,5 jam = 150 km. Jadi, jarak yang ditempuh mobil tersebut adalah 150 km."
+    "kategori": "Sedang",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^2\\log 5 = p$, maka nilai dari $^2\\log 100$ adalah...",
+    "pilihan": ["$2p$", "$p+2$", "$2p+1$", "$p-2$", "$p^2$"],
+    "jawaban": "B",
+    "pembahasan": "Faktorkan 100:\n$100 = 4 \\times 25 = 2^2 \\times 5^2$\n$^2\\log 100 = ^2\\log 2^2 + ^2\\log 5^2$\n$= 2 + 2p$"
   },
   {
     "id": 7,
-    "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt{25}$ adalah...",
-    "pilihan": ["15", "17", "19", "21", "23"],
-    "jawaban": "B",
-    "pembahasan": "Akar kuadrat dari 144 adalah 12, karena $12^2 = 144$. Akar kuadrat dari 25 adalah 5, karena $5^2 = 25$. Jadi, $\\sqrt{144} + \\sqrt{25} = 12 + 5 = 17$."
+    "kategori": "Sedang",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\frac{\\sqrt{12} - \\sqrt{3}}{\\sqrt{12} + \\sqrt{3}}$ adalah...",
+    "pilihan": ["$\\frac{1}{3}$", "$\\frac{1}{2}$", "$3$", "$\\frac{1}{5}$", "$1$"],
+    "jawaban": "A",
+    "pembahasan": "$\\sqrt{12} = 2\\sqrt{3}$\n$\\frac{2\\sqrt{3} - \\sqrt{3}}{2\\sqrt{3} + \\sqrt{3}} = \\frac{\\sqrt{3}}{3\\sqrt{3}} = \\frac{1}{3}$"
   },
   {
     "id": 8,
-    "pertanyaan": "Jika $P = \\{1, 2, 3, 4, 5\\}$ dan $Q = \\{3, 5, 7, 9\\}$, maka $P \\cap Q$ adalah...",
-    "pilihan": ["$\\{1, 2, 3, 4, 5, 7, 9\\}$", "$\\{3, 5\\}$", "$\\{1, 2, 4\\}$", "$\\{7, 9\\}$", "$\\{ \\}$"],
-    "jawaban": "B",
-    "pembahasan": "Simbol $P \\cap Q$ berarti irisan dari himpunan P dan Q, yaitu elemen-elemen yang ada di kedua himpunan. Elemen yang sama di P dan Q adalah 3 dan 5. Jadi, $P \\cap Q = \\{3, 5\\}$."
+    "kategori": "Sedang",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Luas jajargenjang ABCD adalah .... satuan luas.",
+    "pilihan": ["$8\\sqrt{3}$", "$8\\sqrt{2}$", "$6\\sqrt{3}$", "$6\\sqrt{2}$", "6"],
+    "jawaban": "A",
+    "pembahasan": "Alas = 8 satuan\nTinggi = $\\sqrt{2^2 - 1^2} = \\sqrt{3}$\nLuas = $8 \\times \\sqrt{3} = 8\\sqrt{3}$"
   },
   {
     "id": 9,
-    "pertanyaan": "Jika $f(x) = 3x^2 - 4x + 2$, maka nilai dari $f'(2)$ adalah...",
-    "pilihan": ["4", "6", "8", "10", "12"],
-    "jawaban": "C",
-    "pembahasan": "Pertama, cari turunan pertama dari $f(x)$. $f'(x) = \\frac{d}{dx}(3x^2 - 4x + 2) = 2 \\cdot 3x^{2-1} - 1 \\cdot 4x^{1-1} + 0 = 6x - 4$. Kemudian, substitusikan $x = 2$ ke dalam $f'(x)$: $f'(2) = 6(2) - 4 = 12 - 4 = 8$."
+    "kategori": "Sedang",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jumlah tak hingga dari deret geometri 18, 6, 2, ... adalah...",
+    "pilihan": ["24", "27", "30", "32", "36"],
+    "jawaban": "B",
+    "pembahasan": "Diketahui:\n$a = 18$, $r = \\frac{6}{18} = \\frac{1}{3}$\n\n$S_\\infty = \\frac{a}{1 - r}$\n\n$S_\\infty = \\frac{18}{1 - \\frac{1}{3}}$\n$S_\\infty = \\frac{18}{\\frac{2}{3}} = 18 \\times \\frac{3}{2} = 27$"
   },
   {
     "id": 10,
-    "pertanyaan": "Sebuah barisan geometri memiliki suku pertama 3 dan rasio 2. Jumlah 5 suku pertama barisan tersebut adalah...",
-    "pilihan": ["45", "63", "93", "96", "102"],
-    "jawaban": "C",
-    "pembahasan": "Rumus jumlah $n$ suku pertama deret geometri adalah $S_n = \\frac{a(r^n - 1)}{r - 1}$, di mana $a$ adalah suku pertama, $r$ adalah rasio, dan $n$ adalah banyak suku. Diketahui $a = 3$, $r = 2$, dan $n = 5$. $S_5 = \\frac{3(2^5 - 1)}{2 - 1} = \\frac{3(32 - 1)}{1} = 3(31) = 93$."
+    "kategori": "Sedang",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^2\\log 75$ adalah...",
+    "pilihan": ["$a+2b$", "$2a+b$", "$a+b^2$", "$a^2+b$", "$ab^2$"],
+    "jawaban": "A",
+    "pembahasan": "Faktorkan 75:\n$75 = 3 \\times 25 = 3 \\times 5^2$\n$^2\\log 75 = ^2\\log 3 + ^2\\log 5^2$\n$= a + 2b$"
   },
   {
     "id": 11,
-    "pertanyaan": "Diketahui matriks $A = \\begin{pmatrix} 3 & -1 \\\\ 2 & 4 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 5 \\\\ -2 & 0 \\end{pmatrix}$. Matriks $A - B$ adalah...",
-    "pilihan": ["$\\begin{pmatrix} 2 & 6 \\\\ 4 & 4 \\end{pmatrix}$", "$\\begin{pmatrix} 2 & -6 \\\\ 0 & 4 \\end{pmatrix}$", "$\\begin{pmatrix} 2 & -6 \\\\ 4 & 4 \\end{pmatrix}$", "$\\begin{pmatrix} 4 & 4 \\\\ 0 & 4 \\end{pmatrix}$", "$\\begin{pmatrix} 4 & 4 \\\\ 4 & 4 \\end{pmatrix}$"],
-    "jawaban": "C",
-    "pembahasan": "Untuk mencari $A - B$, kita kurangkan elemen-elemen matriks yang bersesuaian: $A - B = \\begin{pmatrix} 3 - 1 & -1 - 5 \\\\ 2 - (-2) & 4 - 0 \\end{pmatrix} = \\begin{pmatrix} 2 & -6 \\\\ 2 + 2 & 4 \\end{pmatrix} = \\begin{pmatrix} 2 & -6 \\\\ 4 & 4 \\end{pmatrix}$."
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $S_n = n^2 + 2n$ adalah jumlah n suku pertama deret aritmetika, maka suku ke-3 adalah...",
+    "pilihan": ["5", "7", "9", "11", "13"],
+    "jawaban": "B",
+    "pembahasan": "Rumus suku ke-n:\n$a_n = S_n - S_{n-1}$\n\n$S_3 = 3^2 + 2(3) = 9 + 6 = 15$\n$S_2 = 2^2 + 2(2) = 4 + 4 = 8$\n\n$a_3 = S_3 - S_2 = 15 - 8 = 7$"
   },
   {
     "id": 12,
-    "pertanyaan": "Jika $\\log_2 x = 3$, maka nilai $x$ adalah...",
-    "pilihan": ["6", "8", "9", "12", "16"],
-    "jawaban": "B",
-    "pembahasan": "Definisi logaritma menyatakan bahwa jika $\\log_b a = c$, maka $b^c = a$. Dalam kasus ini, $\\log_2 x = 3$ berarti $2^3 = x$. $2^3 = 2 \\times 2 \\times 2 = 8$. Jadi, $x = 8$."
+    "kategori": "Sulit",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $^5\\log 7^{-3 ^7\\log 5}$ adalah...",
+    "pilihan": ["-3", "1/3", "3", "5", "7"],
+    "jawaban": "A",
+    "pembahasan": "Gunakan sifat logaritma $a^{^a\\log b} = b$.\nEksponen: $-3 ^7\\log 5 = ^7\\log 5^{-3}$\nMaka: $7^{-3 ^7\\log 5} = 7^{^7\\log 5^{-3}} = 5^{-3}$\nJadi: $^5\\log 7^{-3 ^7\\log 5} = ^5\\log 5^{-3} = -3$"
   },
   {
     "id": 13,
-    "pertanyaan": "Dalam sebuah kantong terdapat 6 kelereng merah dan 4 kelereng biru. Jika diambil 1 kelereng secara acak, peluang terambil kelereng merah adalah...",
-    "pilihan": ["$\\frac{1}{2}$", "$\\frac{3}{5}$", "$\\frac{2}{3}$", "$\\frac{3}{4}$", "$\\frac{4}{5}$"],
-    "jawaban": "B",
-    "pembahasan": "Jumlah kelereng merah = 6. Jumlah kelereng biru = 4. Jumlah total kelereng = $6 + 4 = 10$. Peluang terambil kelereng merah = $\\frac{\\text{Jumlah kelereng merah}}{\\text{Jumlah total kelereng}} = \\frac{6}{10} = \\frac{3}{5}$."
+    "kategori": "Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{4+\\sqrt{7}} + \\sqrt{4-\\sqrt{7}}$ adalah...",
+    "pilihan": ["$2\\sqrt{2}$", "$\\sqrt{10}$", "$\\sqrt{14}$", "$\\sqrt{7}$", "$4$"],
+    "jawaban": "C",
+    "pembahasan": "Misal $x = \\sqrt{4+\\sqrt{7}} + \\sqrt{4-\\sqrt{7}}$\nKuadratkan: $x^2 = (4+\\sqrt{7}) + (4-\\sqrt{7}) + 2\\sqrt{(4+\\sqrt{7})(4-\\sqrt{7})}$\n$x^2 = 8 + 2\\sqrt{16-7}$\n$x^2 = 8 + 2\\sqrt{9} = 8 + 6 = 14$\n$x = \\sqrt{14}$ (karena $x > 0$)"
   },
   {
     "id": 14,
-    "pertanyaan": "Rata-rata berat badan 5 siswa adalah 50 kg. Jika ditambahkan 1 siswa lagi, rata-rata berat badan menjadi 52 kg. Berat badan siswa yang baru ditambahkan adalah...",
-    "pilihan": ["55 kg", "60 kg", "62 kg", "65 kg", "70 kg"],
-    "jawaban": "C",
-    "pembahasan": "Jumlah berat badan 5 siswa = $5 \\times 50 = 250$ kg. Setelah ditambahkan 1 siswa, jumlah siswa menjadi 6, dan rata-rata berat badan menjadi 52 kg. Jadi, jumlah berat badan 6 siswa = $6 \\times 52 = 312$ kg. Berat badan siswa yang baru ditambahkan = (Jumlah berat badan 6 siswa) - (Jumlah berat badan 5 siswa) = $312 - 250 = 62$ kg."
+    "kategori": "Sulit",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah barisan aritmetika dan barisan geometri memiliki suku pertama dan suku ketiga yang sama, yaitu 4 dan 36. Jika suku kedua barisan aritmetika lebih besar dari suku kedua barisan geometri, maka beda dari barisan aritmetika adalah...",
+    "pilihan": ["8", "10", "12", "16", "18"],
+    "jawaban": "D",
+    "pembahasan": "Barisan aritmetika:\n$a_1 = 4$, $a_3 = 36$\n$a_3 = a_1 + 2d$\n$36 = 4 + 2d$\n$2d = 32$\n$d = 16$\n\n$a_2 = 4 + 16 = 20$\n\nBarisan geometri:\n$u_1 = 4$, $u_3 = 36$\n$u_3 = u_1 r^2$\n$36 = 4r^2$\n$r^2 = 9$\n$r = 3$ atau $r = -3$\n\n$u_2 = 4r = 12$ atau $-12$\n\nKondisi terpenuhi: $20 > 12$ atau $20 > -12$"
   },
   {
     "id": 15,
-    "pertanyaan": "Sebuah fungsi $f(x) = x^3 - 6x^2 + 9x + 1$ akan memiliki titik stasioner (titik balik) pada $x = \\dots$",
-    "pilihan": ["1 dan 3", "0 dan 1", "0 dan 3", "1 dan 2", "2 dan 3"],
-    "jawaban": "A",
-    "pembahasan": "Titik stasioner terjadi ketika turunan pertama $f'(x) = 0$. $f'(x) = \\frac{d}{dx}(x^3 - 6x^2 + 9x + 1) = 3x^2 - 12x + 9$. Set $f'(x) = 0$: $3x^2 - 12x + 9 = 0$. Bagi dengan 3: $x^2 - 4x + 3 = 0$. Faktorkan persamaan kuadrat: $(x - 1)(x - 3) = 0$. Maka, $x - 1 = 0 \\implies x = 1$ atau $x - 3 = 0 \\implies x = 3$. Jadi, titik stasioner terjadi pada $x = 1$ dan $x = 3$."
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $a, b, c$ adalah barisan aritmetika dan $a^2, b^2, c^2$ adalah barisan geometri, maka nilai dari $\\frac{a}{c} + \\frac{c}{a}$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "B",
+    "pembahasan": "Barisan aritmetika: $2b = a + c$\nBarisan geometri: $(b^2)^2 = a^2 c^2$\n$b^4 = (ac)^2$\n$b^2 = ac$ (asumsi positif)\n\nSubstitusi $b = \\frac{a+c}{2}$:\n$(\\frac{a+c}{2})^2 = ac$\n$\\frac{a^2+2ac+c^2}{4} = ac$\n$a^2+2ac+c^2 = 4ac$\n$a^2-2ac+c^2 = 0$\n$(a-c)^2 = 0$\n$a = c$\n\n$\\frac{a}{c} + \\frac{c}{a} = 1 + 1 = 2$"
   },
   {
     "id": 16,
-    "pertanyaan": "Jika $p$ adalah pernyataan 'Hari ini hujan' dan $q$ adalah pernyataan 'Saya membawa payung'. Maka pernyataan 'Jika hari ini tidak hujan, maka saya tidak membawa payung' dalam notasi logika adalah...",
-    "pilihan": ["$p \\implies q$", "$\\neg p \\implies \\neg q$", "$q \\implies p$", "$\\neg q \\implies \\neg p$", "$p \\land \\neg q$"],
-    "jawaban": "B",
-    "pembahasan": "Pernyataan '$p$' adalah 'Hari ini hujan', maka '$Tidak hujan$' adalah $\\neg p$. Pernyataan '$q$' adalah 'Saya membawa payung', maka '$Tidak membawa payung$' adalah $\\neg q$. Pernyataan 'Jika A, maka B' dalam notasi logika adalah $A \\implies B$. Jadi, 'Jika hari ini tidak hujan, maka saya tidak membawa payung' adalah $\\neg p \\implies \\neg q$."
+    "kategori": "Sulit",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^3\\log 5 = b$, maka $^6\\log 15$ adalah...",
+    "pilihan": ["$\\frac{a+b}{1+a}$", "$\\frac{1+ab}{1+a}$", "$\\frac{a(1+b)}{1+a}$", "$\\frac{a+b}{ab}$", "$\\frac{a-b}{a+b}$"],
+    "jawaban": "C",
+    "pembahasan": "Ubah ke basis 2:\n$^2\\log 5 = ab$\n$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6}$\n$= \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3}$\n$= \\frac{a + ab}{1 + a} = \\frac{a(1+b)}{1+a}$"
   },
   {
     "id": 17,
-    "pertanyaan": "Hasil dari $\\frac{2^{n+2} \\cdot 6^{n-4}}{12^{n-1}}$ adalah ....",
-    "pilihan": [
-      "$\\frac{1}{27}$",
-      "$\\frac{1}{16}$",
-      "$\\frac{1}{9}$",
-      "$\\frac{1}{8}$",
-      "$\\frac{1}{3}$"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Langkah pertama adalah mengubah semua basis menjadi faktor prima terkecil, yaitu 2 dan 3.\n\n$6 = 2 \\times 3$\n$12 = 4 \\times 3 = 2^2 \\times 3$\n\nSekarang, substitusikan ke dalam ekspresi:n\\n$\\frac{2^{n+2} \\cdot (2 \\cdot 3)^{n-4}}{(2^2 \\cdot 3)^{n-1}} = \\frac{2^{n+2} \\cdot 2^{n-4} \\cdot 3^{n-4}}{2^{2(n-1)} \\cdot 3^{n-1}} = \\frac{2^{n+2+n-4} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\n$\\frac{2^{2n-2} \\cdot 3^{n-4}}{2^{2n-2} \\cdot 3^{n-1}}$\n\nSekarang, gunakan sifat pembagian eksponen dengan basis yang sama ($a^m/a^n = a^{m-n}$):\n\n$2^{(2n-2)-(2n-2)} \\cdot 3^{(n-4)-(n-1)} = 2^0 \\cdot 3^{n-4-n+1}\n = 1 \\cdot 3^{-3} = \\frac{1}{3^3} = \\frac{1}{27}$\n\nJadi, hasil dari ekspresi tersebut adalah $\\frac{1}{27}$"
+    "kategori": "Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt[3]{5\\sqrt{2} + 7} - \\sqrt[3]{5\\sqrt{2} - 7}$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "0"],
+    "jawaban": "B",
+    "pembahasan": "Misal $x = \\sqrt[3]{5\\sqrt{2}+7} - \\sqrt[3]{5\\sqrt{2}-7}$\n$x^3 = (5\\sqrt{2}+7) - (5\\sqrt{2}-7) - 3x$\n$x^3 = 14 - 3x$\n$x^3 + 3x - 14 = 0$\nCoba $x=2$: $8 + 6 - 14 = 0$\nJadi $x=2$"
   },
   {
     "id": 18,
-    "pertanyaan": "Persamaan garis yang melalui titik $(2, -3)$ dan tegak lurus dengan garis $2x + 3y = 5$ adalah...",
-    "pilihan": ["$3x - 2y = 12$", "$3x + 2y = 0$", "$2x - 3y = 13$", "$2x + 3y = 0$", "$3x + 2y = 12$"],
-    "jawaban": "A",
-    "pembahasan": "Gradien garis $2x + 3y = 5$ adalah $m_1 = -\\frac{\\text{koefisien } x}{\\text{koefisien } y} = -\\frac{2}{3}$. Karena garis yang dicari tegak lurus dengan garis ini, maka gradien garis yang dicari ($m_2$) memenuhi $m_1 \\cdot m_2 = -1$. Jadi, $(-\\frac{2}{3}) \\cdot m_2 = -1 \\implies m_2 = \\frac{3}{2}$. Sekarang gunakan rumus persamaan garis $y - y_1 = m(x - x_1)$ dengan titik $(x_1, y_1) = (2, -3)$ dan $m = \\frac{3}{2}$: $y - (-3) = \\frac{3}{2}(x - 2) \\implies y + 3 = \\frac{3}{2}x - 3$. Kalikan kedua sisi dengan 2 untuk menghilangkan pecahan: $2(y + 3) = 3(x - 2) \\implies 2y + 6 = 3x - 6$. Susun ulang persamaan menjadi bentuk $Ax + By = C$: $3x - 2y = 6 + 6 \\implies 3x - 2y = 12$."
+    "kategori": "Sulit",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah barisan geometri tak hingga memiliki jumlah 24. Jika jumlah suku-suku berindeks genap adalah 8, maka suku pertama dari barisan tersebut adalah...",
+    "pilihan": ["9", "12", "18", "21", "24"],
+    "jawaban": "B",
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 24$\n\nSuku genap: $ar, ar^3, ar^5, ...$\nRasio baru: $r^2$\n$S_{genap} = \\frac{ar}{1-r^2} = 8$\n\nBagi persamaan:\n$\\frac{a/(1-r)}{ar/(1-r^2)} = \\frac{24}{8}$\n$\\frac{1-r^2}{r(1-r)} = 3$\n$\\frac{(1-r)(1+r)}{r(1-r)} = 3$\n$\\frac{1+r}{r} = 3$\n$1+r = 3r$\n$1 = 2r$\n$r = 1/2$\n\nSubstitusi:\n$\\frac{a}{1-1/2} = 24$\n$\\frac{a}{1/2} = 24$\n$2a = 24$\n$a = 12$"
   },
   {
     "id": 19,
-    "pertanyaan": "Nilai dari $\\lim_{x \\to 2} \\frac{x^2 + x - 6}{x - 2}$ adalah...",
-    "pilihan": ["3", "4", "5", "6", "7"],
-    "jawaban": "C",
-    "pembahasan": "Substitusi langsung $x = 2$ menghasilkan bentuk $\\frac{0}{0}$. Kita dapat memfaktorkan pembilang: $x^2 + x - 6 = (x - 2)(x + 3)$. Jadi, $\\lim_{x \\to 2} \\frac{(x - 2)(x + 3)}{x - 2}$. Karena $x \\to 2$, $x \\neq 2$, sehingga kita bisa membatalkan $(x - 2)$ di pembilang dan penyebut: $\\lim_{x \\to 2} (x + 3)$. Sekarang substitusikan $x = 2$: $2 + 3 = 5$."
+    "kategori": "Sangat Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $\\log_2 x$, $\\log_4 y$, $\\log_8 z$ adalah barisan aritmetika, maka hubungan antara $x, y, z$ adalah...",
+    "pilihan": ["$x^2 = yz$", "$y^2 = xz$", "$y^4 = x^3z$", "$y^6 = x^6z^2$", "$y^{12} = x^6z^4$"],
+    "jawaban": "D",
+    "pembahasan": "Barisan aritmetika:\n$2\\log_4 y = \\log_2 x + \\log_8 z$\n\nUbah basis ke 2:\n$2\\cdot\\frac{\\log_2 y}{2} = \\log_2 x + \\frac{\\log_2 z}{3}$\n$\\log_2 y = \\log_2 x + \\frac{1}{3}\\log_2 z$\n\nKalikan 6:\n$6\\log_2 y = 6\\log_2 x + 2\\log_2 z$\n$\\log_2 y^6 = \\log_2 x^6 + \\log_2 z^2$\n$\\log_2 y^6 = \\log_2 (x^6 z^2)$\n$y^6 = x^6 z^2$"
   },
   {
     "id": 20,
-    "pertanyaan": "Diketahui data: 6, 7, 8, 8, 9, 10, 5, 7. Median dari data tersebut adalah...",
-    "pilihan": ["7", "7.5", "8", "8.5", "9"],
-    "jawaban": "B",
-    "pembahasan": "Untuk mencari median, pertama-tama urutkan data dari yang terkecil hingga terbesar: 5, 6, 7, 7, 8, 8, 9, 10. Jumlah data ($n$) adalah 8 (genap). Median adalah rata-rata dari dua nilai tengah, yaitu nilai pada posisi $\\frac{n}{2}$ dan $(\\frac{n}{2} + 1)$. Posisi median adalah $\\frac{8}{2} = 4$ dan $\\frac{8}{2} + 1 = 5$. Nilai pada posisi ke-4 adalah 7, dan nilai pada posisi ke-5 adalah 8. Median = $\\frac{7 + 8}{2} = \\frac{15}{2} = 7.5$."
+    "kategori": "Sangat Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Jika $x = \\sqrt{1 + \\sqrt{1 + \\sqrt{1 + \\dots}}}$, maka $x=$...",
+    "pilihan": ["$0$", "$1$", "$\\frac{1+\\sqrt{5}}{2}$", "$2$", "$3$"],
+    "jawaban": "C",
+    "pembahasan": "Misal $x = \\sqrt{1 + \\sqrt{1 + \\sqrt{1 + \\dots}}}$\n$x = \\sqrt{1 + x}$\nKuadratkan: $x^2 = 1 + x$\n$x^2 - x - 1 = 0$\n$x = \\frac{1 \\pm \\sqrt{5}}{2}$\nAmbil positif: $x = \\frac{1+\\sqrt{5}}{2}$"
   }
 ]
