@@ -1,183 +1,182 @@
 [
   {
     "id": 1,
-    "kategori": "Mudah",
-    "topik": "Barisan dan Deret",
-    "pertanyaan": "Suku ke-n dari suatu barisan adalah $a_n = 3n-5$. Suku ke-10 dari barisan tersebut adalah...",
-    "pilihan": ["25", "27", "29", "31", "33"],
-    "jawaban": "A",
-    "pembahasan": "Substitusi $n = 10$:\n$a_{10} = 3(10) - 5$\n$a_{10} = 30 - 5 = 25$"
+    "kategori": "Geometri dan Bangun Datar",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "Keliling persegi dengan sisi $5 \\text{ cm}$ adalah...",
+    "pilihan": ["$10 \\text{ cm}$", "$15 \\text{ cm}$", "$20 \\text{ cm}$", "$25 \\text{ cm}$", "$30 \\text{ cm}$"],
+    "jawaban": "C",
+    "pembahasan": "Keliling persegi $= 4 \\times \\text{sisi} = 4 \\times 5 = 20 \\text{ cm}$"
   },
   {
     "id": 2,
-    "kategori": "Mudah",
-    "topik": "Eksponen dan Logaritma",
-    "pertanyaan": "Hasil dari $^2\\log 48 - ^2\\log 3$ adalah...",
-    "pilihan": ["2", "3", "4", "5", "6"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan sifat pengurangan logaritma:\n$^2\\log 48 - ^2\\log 3 = ^2\\log(\\frac{48}{3})$\n$= ^2\\log 16 = 4$ (karena $2^4 = 16$)"
+    "kategori": "Eksponen dan Logaritma",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "Nilai dari $5^2$ adalah...",
+    "pilihan": ["10", "15", "20", "25", "30"],
+    "jawaban": "D",
+    "pembahasan": "$5^2 = 5 \\times 5 = 25$"
   },
   {
     "id": 3,
-    "kategori": "Mudah",
-    "topik": "Bentuk Akar",
-    "pertanyaan": "Nilai dari $(\\sqrt{12} + \\sqrt{3})(\\sqrt{27} - \\sqrt{3})$ adalah...",
-    "pilihan": ["12", "18", "24", "30", "36"],
-    "jawaban": "B",
-    "pembahasan": "$\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{27} = 3\\sqrt{3}$\n$(2\\sqrt{3} + \\sqrt{3})(3\\sqrt{3} - \\sqrt{3}) = (3\\sqrt{3})(2\\sqrt{3})$\n$= 6 \\times 3 = 18$"
+    "kategori": "Himpunan",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "Jika $A = \\{2,4,6\\}$ dan $B = \\{1,3,5\\}$, maka $A \\cup B$ adalah...",
+    "pilihan": ["\\{1,2,3,4,5,6\\}", "\\{2,4,6\\}", "\\{1,3,5\\}", "\\{2,4\\}", "\\{1,6\\}"],
+    "jawaban": "A",
+    "pembahasan": "Gabungan $A$ dan $B = \\{1,2,3,4,5,6\\}$"
   },
   {
     "id": 4,
-    "kategori": "Mudah",
-    "topik": "Geometri dan Bangun Datar",
-    "pertanyaan": "Sebuah trapesium memiliki panjang sisi sejajar masing-masing 10 cm dan 20 cm, serta tinggi 8 cm. Luas trapesium tersebut adalah...",
-    "pilihan": ["120 cm²", "140 cm²", "100 cm²", "150 cm²", "160 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Luas trapesium = $\\frac{1}{2} \\times (10 + 20) \\times 8$\n$= \\frac{1}{2} \\times 30 \\times 8 = 120$ cm²"
+    "kategori": "Barisan dan Deret",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "Suku pertama dari barisan aritmetika $3, 7, 11, 15, \\dots$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "C",
+    "pembahasan": "Suku pertama barisan adalah $3$"
   },
   {
     "id": 5,
-    "kategori": "Sedang",
-    "topik": "Barisan dan Deret",
-    "pertanyaan": "Jika $k-1, k+3, 2k+1$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka suku pertama adalah...",
-    "pilihan": ["3", "4", "5", "6", "7"],
+    "kategori": "Bentuk Akar",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "$\\sqrt{36} = \\dots$",
+    "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "C",
-    "pembahasan": "Syarat barisan aritmetika:\n$2(k+3) = (k-1) + (2k+1)$\n\n$2k + 6 = k - 1 + 2k + 1$\n$2k + 6 = 3k$\n$k = 6$\n\nSuku pertama:\n$k - 1 = 6 - 1 = 5$"
+    "pembahasan": "$\\sqrt{36} = 6$ karena $6 \\times 6 = 36$"
   },
   {
     "id": 6,
-    "kategori": "Sedang",
-    "topik": "Eksponen dan Logaritma",
-    "pertanyaan": "Jika $^2\\log 3 = a$, maka nilai dari $^2\\log 12$ adalah...",
-    "pilihan": ["$2+a$", "$1+2a$", "$a^2$", "$a/2$", "$a-2$"],
-    "jawaban": "A",
-    "pembahasan": "Faktorkan 12:\n$12 = 4 \\times 3 = 2^2 \\times 3$\n$^2\\log 12 = ^2\\log 2^2 + ^2\\log 3$\n$= 2 + a$"
+    "kategori": "Fungsi",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "Jika $f(x) = x + 5$, maka $f(0) = \\dots$",
+    "pilihan": ["0", "1", "2", "3", "5"],
+    "jawaban": "E",
+    "pembahasan": "$f(0) = 0 + 5 = 5$"
   },
   {
     "id": 7,
-    "kategori": "Sedang",
-    "topik": "Bentuk Akar",
-    "pertanyaan": "Solusi dari persamaan $\\sqrt{x+2} + \\sqrt{x-3} = 5$ adalah...",
-    "pilihan": ["x=7", "x=8", "x=9", "x=10", "x=11"],
+    "kategori": "Matriks",
+    "tingkat_kesulitan": "Mudah",
+    "pertanyaan": "Jika $A = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$, maka $A$ adalah matriks...",
+    "pilihan": ["Identitas", "Nol", "Segitiga", "Diagonal", "Simetris"],
     "jawaban": "A",
-    "pembahasan": "$\\sqrt{x+2} + \\sqrt{x-3} = 5$\n$\\sqrt{x+2} = 5 - \\sqrt{x-3}$\nKuadratkan: $x+2 = 25 - 10\\sqrt{x-3} + x-3$\n$10\\sqrt{x-3} = 20$\n$\\sqrt{x-3} = 2$\n$x-3 = 4 \\Rightarrow x=7$\nCek: $\\sqrt{9} + \\sqrt{4} = 3+2=5$ ✓"
+    "pembahasan": "Matriks dengan $1$ pada diagonal utama dan $0$ di luar diagonal utama adalah matriks identitas"
   },
   {
     "id": 8,
-    "kategori": "Sedang",
-    "topik": "Geometri dan Bangun Datar",
-    "pertanyaan": "Luas belah ketupat dengan diagonal 10 cm dan 16 cm adalah...",
-    "pilihan": ["80 cm²", "100 cm²", "90 cm²", "70 cm²", "120 cm²"],
-    "jawaban": "A",
-    "pembahasan": "Luas belah ketupat = $\\frac{1}{2} \\times d_1 \\times d_2$\n$= \\frac{1}{2} \\times 10 \\times 16 = 80$ cm²"
+    "kategori": "Geometri dan Bangun Datar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Luas segitiga dengan alas $10 \\text{ cm}$ dan tinggi $8 \\text{ cm}$ adalah...",
+    "pilihan": ["$20 \\text{ cm}^2$", "$30 \\text{ cm}^2$", "$40 \\text{ cm}^2$", "$50 \\text{ cm}^2$", "$60 \\text{ cm}^2$"],
+    "jawaban": "C",
+    "pembahasan": "Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 10 \\times 8 = 40 \\text{ cm}^2$"
   },
   {
     "id": 9,
-    "kategori": "Sedang",
-    "topik": "Barisan dan Deret",
-    "pertanyaan": "Sebuah barisan geometri memiliki suku ke-3 adalah 12 dan suku ke-6 adalah 96. Suku pertama dari barisan tersebut adalah...",
-    "pilihan": ["2", "3", "4", "6", "8"],
+    "kategori": "Eksponen dan Logaritma",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Jika $^2\\log 8 = x$, maka nilai $x$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "B",
-    "pembahasan": "Diketahui:\n$a_3 = ar^2 = 12$\n$a_6 = ar^5 = 96$\n\nBagi persamaan:\n$\\frac{ar^5}{ar^2} = \\frac{96}{12}$\n$r^3 = 8$\n$r = 2$\n\nSubstitusi:\n$a(2)^2 = 12$\n$4a = 12$\n$a = 3$"
+    "pembahasan": "$^2\\log 8 = x \\rightarrow 2^x = 8 \\rightarrow 2^x = 2^3 \\rightarrow x = 3$"
   },
   {
     "id": 10,
-    "kategori": "Sedang",
-    "topik": "Eksponen dan Logaritma",
-    "pertanyaan": "Nilai dari $(^3\\log 5) \\cdot (^5\\log 4) \\cdot (^4\\log 27)$ adalah...",
-    "pilihan": ["1", "2", "3", "4", "5"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan sifat berantai:\n$^3\\log 5 \\cdot ^5\\log 4 = ^3\\log 4$\n$^3\\log 4 \\cdot ^4\\log 27 = ^3\\log 27 = 3$"
+    "kategori": "Himpunan",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Jika $A = \\{1,2,3,4\\}$ dan $B = \\{3,4,5,6\\}$, maka $A \\cap B$ adalah...",
+    "pilihan": ["\\{3,4\\}", "\\{1,2\\}", "\\{5,6\\}", "\\{1,2,3,4\\}", "\\{3,4,5,6\\}"],
+    "jawaban": "A",
+    "pembahasan": "Irisan $A$ dan $B = \\{3,4\\}$"
   },
   {
     "id": 11,
-    "kategori": "Sulit",
-    "topik": "Barisan dan Deret",
-    "pertanyaan": "Sebuah barisan aritmetika memiliki jumlah 11 suku pertama adalah 121. Jika suku ke-3 adalah 5, maka suku ke-10 adalah...",
-    "pilihan": ["15", "17", "19", "21", "23"],
-    "jawaban": "C",
-    "pembahasan": "$S_{11} = \\frac{11}{2}(2a+10d) = 121$\n$11(a+5d) = 121$\n$a+5d = 11$ (suku ke-6)\n\n$a_3 = a+2d = 5$\n\nKurangi:\n$(a+5d)-(a+2d) = 11-5$\n$3d = 6$\n$d = 2$\n\nSubstitusi:\n$a+2(2) = 5$\n$a+4 = 5$\n$a = 1$\n\n$a_{10} = a+9d = 1+18 = 19$"
+    "kategori": "Barisan dan Deret",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Jumlah $5$ suku pertama dari deret geometri dengan suku pertama $4$ dan rasio $3$ adalah...",
+    "pilihan": ["484", "486", "488", "490", "492"],
+    "jawaban": "A",
+    "pembahasan": "$S_5 = \\frac{a(r^5 - 1)}{r - 1} = \\frac{4(3^5 - 1)}{3 - 1} = \\frac{4(243 - 1)}{2} = \\frac{4 \\times 242}{2} = 484$"
   },
   {
     "id": 12,
-    "kategori": "Sulit",
-    "topik": "Eksponen dan Logaritma",
-    "pertanyaan": "Jika $^2\\log(x^2+4x-1) = 2$, maka nilai $x$ adalah...",
-    "pilihan": ["-5 atau 1", "5 atau -1", "-3 atau 2", "3 atau -2", "Tidak ada solusi"],
+    "kategori": "Bentuk Akar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Bentuk rasional dari $\\frac{1}{\\sqrt{2}}$ adalah...",
+    "pilihan": ["$\\frac{\\sqrt{2}}{2}$", "$\\frac{2}{\\sqrt{2}}$", "$\\sqrt{2}$", "$\\frac{1}{2}$", "2"],
     "jawaban": "A",
-    "pembahasan": "Ubahlah ke bentuk eksponen:\n$x^2+4x-1 = 2^2$\n$x^2+4x-1 = 4$\n$x^2+4x-5 = 0$\n$(x+5)(x-1) = 0$\n$x=-5$ atau $x=1$\nPeriksa numerus: kedua nilai memenuhi"
+    "pembahasan": "$\\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$"
   },
   {
     "id": 13,
-    "kategori": "Sulit",
-    "topik": "Bentuk Akar",
-    "pertanyaan": "Nilai dari $\\sqrt{2 - \\sqrt{2 - \\sqrt{2 - \\dots}}}$ adalah...",
-    "pilihan": ["0", "1", "2", "-1", "$\\sqrt{2}$"],
-    "jawaban": "B",
-    "pembahasan": "Misal $x = \\sqrt{2 - \\sqrt{2 - \\dots}}$\n$x = \\sqrt{2 - x}$\nKuadratkan: $x^2 = 2 - x$\n$x^2 + x - 2 = 0$\n$(x+2)(x-1)=0 \\Rightarrow x=1$"
+    "kategori": "Fungsi",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Jika $f(x) = 2x - 1$ dan $g(x) = x + 3$, maka $(f \\circ g)(2) = \\dots$",
+    "pilihan": ["5", "6", "7", "8", "9"],
+    "jawaban": "E",
+    "pembahasan": "$g(2) = 2 + 3 = 5$, $f(5) = 2(5) - 1 = 10 - 1 = 9$"
   },
   {
     "id": 14,
-    "kategori": "Sulit",
-    "topik": "Geometri dan Bangun Datar",
-    "pertanyaan": "Jika $a, b, c$ adalah barisan aritmetika dan $a^2, b^2, c^2$ adalah barisan geometri, maka nilai dari $\\frac{a}{c} + \\frac{c}{a}$ adalah...",
-    "pilihan": ["1", "2", "3", "4", "5"],
-    "jawaban": "B",
-    "pembahasan": "Barisan aritmetika: $2b = a + c$\nBarisan geometri: $(b^2)^2 = a^2 c^2$\n$b^4 = (ac)^2$\n$b^2 = ac$ (asumsi positif)\n\nSubstitusi $b = \\frac{a+c}{2}$:\n$(\\frac{a+c}{2})^2 = ac$\n$\\frac{a^2+2ac+c^2}{4} = ac$\n$a^2+2ac+c^2 = 4ac$\n$a^2-2ac+c^2 = 0$\n$(a-c)^2 = 0$\n$a = c$\n\n$\\frac{a}{c} + \\frac{c}{a} = 1 + 1 = 2$"
+    "kategori": "Matriks",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Jika $A = \\begin{bmatrix} 2 & 1 \\\\ 1 & 3 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, maka $A + B = \\dots$",
+    "pilihan": ["$\\begin{bmatrix} 3 & 3 \\\\ 4 & 7 \\end{bmatrix}$", "$\\begin{bmatrix} 3 & 4 \\\\ 4 & 7 \\end{bmatrix}$", "$\\begin{bmatrix} 2 & 3 \\\\ 4 & 7 \\end{bmatrix}$", "$\\begin{bmatrix} 3 & 3 \\\\ 3 & 7 \\end{bmatrix}$", "$\\begin{bmatrix} 3 & 2 \\\\ 4 & 7 \\end{bmatrix}$"],
+    "jawaban": "A",
+    "pembahasan": "$A + B = \\begin{bmatrix} 2+1 & 1+2 \\\\ 1+3 & 3+4 \\end{bmatrix} = \\begin{bmatrix} 3 & 3 \\\\ 4 & 7 \\end{bmatrix}$"
   },
   {
     "id": 15,
-    "kategori": "Sulit",
-    "topik": "Barisan dan Deret",
-    "pertanyaan": "Jika $S_n$ adalah jumlah $n$ suku pertama dari deret aritmetika, dan $S_{10}=100$ dan $S_{20}=400$, maka nilai $S_{30}$ adalah...",
-    "pilihan": ["900", "950", "1000", "1050", "1100"],
+    "kategori": "Geometri dan Bangun Datar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Sebuah lingkaran memiliki diameter $14 \\text{ cm}$. Luas lingkaran tersebut adalah... $(\\pi = \\frac{22}{7})$",
+    "pilihan": ["$154 \\text{ cm}^2$", "$168 \\text{ cm}^2$", "$176 \\text{ cm}^2$", "$184 \\text{ cm}^2$", "$196 \\text{ cm}^2$"],
     "jawaban": "A",
-    "pembahasan": "$S_{10} = 5(2a+9d) = 100$\n$2a+9d = 20$\n\n$S_{20} = 10(2a+19d) = 400$\n$2a+19d = 40$\n\nKurangi:\n$(2a+19d) - (2a+9d) = 40-20$\n$10d = 20$\n$d = 2$\n\nSubstitusi:\n$2a+9(2) = 20$\n$2a+18 = 20$\n$2a = 2$\n$a = 1$\n\n$S_{30} = 15(2(1)+29(2))$\n$S_{30} = 15(2+58) = 15\\times60 = 900$"
+    "pembahasan": "Jari-jari $= \\frac{14}{2} = 7 \\text{ cm}$, Luas $= \\pi r^2 = \\frac{22}{7} \\times 7 \\times 7 = 154 \\text{ cm}^2$"
   },
   {
     "id": 16,
-    "kategori": "Sulit",
-    "topik": "Eksponen dan Logaritma",
-    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^3\\log 5 = b$, maka $^6\\log 15$ adalah...",
-    "pilihan": ["$\\frac{a+b}{1+a}$", "$\\frac{1+ab}{1+a}$", "$\\frac{a(1+b)}{1+a}$", "$\\frac{a+b}{ab}$", "$\\frac{a-b}{a+b}$"],
-    "jawaban": "C",
-    "pembahasan": "Ubah ke basis 2:\n$^2\\log 5 = ab$\n$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6}$\n$= \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3}$\n$= \\frac{a + ab}{1 + a} = \\frac{a(1+b)}{1+a}$"
+    "kategori": "Eksponen dan Logaritma",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Jika $^2\\log 3 = p$ dan $^2\\log 5 = q$, maka $^2\\log 45$ adalah...",
+    "pilihan": ["$2p + q$", "$p + 2q$", "$2p + 2q$", "$p + q$", "$p^2 + q$"],
+    "jawaban": "A",
+    "pembahasan": "$45 = 9 \\times 5 = 3^2 \\times 5$. $^2\\log 45 = ^2\\log 3^2 + ^2\\log 5 = 2p + q$"
   },
   {
     "id": 17,
-    "kategori": "Sulit",
-    "topik": "Bentuk Akar",
-    "pertanyaan": "Jika $x = \\sqrt{1 + \\sqrt{1 + \\sqrt{1 + \\dots}}}$, maka $x=$...",
-    "pilihan": ["0", "1", "$\\frac{1+\\sqrt{5}}{2}$", "2", "3"],
+    "kategori": "Himpunan",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Banyak himpunan bagian dari $\\{a,b,c\\}$ adalah...",
+    "pilihan": ["4", "6", "8", "10", "12"],
     "jawaban": "C",
-    "pembahasan": "Misal $x = \\sqrt{1 + \\sqrt{1 + \\sqrt{1 + \\dots}}}$\n$x = \\sqrt{1 + x}$\nKuadratkan: $x^2 = 1 + x$\n$x^2 - x - 1 = 0$\n$x = \\frac{1 \\pm \\sqrt{5}}{2}$\nAmbil positif: $x = \\frac{1+\\sqrt{5}}{2}$"
+    "pembahasan": "Banyak himpunan bagian $= 2^3 = 8$"
   },
   {
     "id": 18,
-    "kategori": "Sulit",
-    "topik": "Geometri dan Bangun Datar",
-    "pertanyaan": "Sebuah barisan geometri tak hingga memiliki jumlah 32. Jika suku kedua adalah 8, maka suku pertama adalah...",
-    "pilihan": ["16", "18", "20", "24", "28"],
-    "jawaban": "A",
-    "pembahasan": "Diketahui:\n$S_\\infty = \\frac{a}{1-r} = 32$\n$ar = 8$\n\nDari $ar = 8$:\n$a = \\frac{8}{r}$\n\nSubstitusi:\n$\\frac{8/r}{1-r} = 32$\n$8 = 32r(1-r)$\n$1 = 4r - 4r^2$\n$4r^2 - 4r + 1 = 0$\n$(2r-1)^2 = 0$\n$r = \\frac{1}{2}$\n\n$a = \\frac{8}{1/2} = 16$"
+    "kategori": "Barisan dan Deret",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Jumlah tak hingga dari deret geometri $18, 6, 2, \\dots$ adalah...",
+    "pilihan": ["24", "27", "30", "32", "36"],
+    "jawaban": "B",
+    "pembahasan": "$a = 18$, $r = \\frac{6}{18} = \\frac{1}{3}$. $S_{\\infty} = \\frac{a}{1 - r} = \\frac{18}{1 - \\frac{1}{3}} = \\frac{18}{\\frac{2}{3}} = 27$"
   },
   {
     "id": 19,
-    "kategori": "Sangat Sulit",
-    "topik": "Barisan dan Deret",
-    "pertanyaan": "Jika $\\log_2 x$, $\\log_4 y$, $\\log_8 z$ adalah barisan aritmetika, maka hubungan antara $x, y, z$ adalah...",
-    "pilihan": ["$x^2 = yz$", "$y^2 = xz$", "$y^4 = x^3z$", "$y^6 = x^6z^2$", "$y^{12} = x^6z^4$"],
-    "jawaban": "D",
-    "pembahasan": "Barisan aritmetika:\n$2\\log_4 y = \\log_2 x + \\log_8 z$\n\nUbah basis ke 2:\n$2\\cdot\\frac{\\log_2 y}{2} = \\log_2 x + \\frac{\\log_2 z}{3}$\n$\\log_2 y = \\log_2 x + \\frac{1}{3}\\log_2 z$\n\nKalikan 6:\n$6\\log_2 y = 6\\log_2 x + 2\\log_2 z$\n$\\log_2 y^6 = \\log_2 x^6 + \\log_2 z^2$\n$\\log_2 y^6 = \\log_2 (x^6 z^2)$\n$y^6 = x^6 z^2$"
+    "kategori": "Bentuk Akar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Nilai dari $\\sqrt{50} + \\sqrt{18} = \\dots$",
+    "pilihan": ["$8\\sqrt{2}$", "$7\\sqrt{2}$", "$6\\sqrt{2}$", "$5\\sqrt{2}$", "$4\\sqrt{2}$"],
+    "jawaban": "A",
+    "pembahasan": "$\\sqrt{50} + \\sqrt{18} = 5\\sqrt{2} + 3\\sqrt{2} = 8\\sqrt{2}$"
   },
   {
     "id": 20,
-    "kategori": "Sangat Sulit",
-    "topik": "Geometri dan Bangun Datar",
-    "pertanyaan": "Perhatikan gambar berikut ini.\n\nSegitiga ABC dan segitiga MLK sebangun. Luas segitiga MLK adalah ... satuan luas.",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098083-removebg-preview.png",
-    "pilihan": ["12", "14,4", "16,5", "20", "22,5"],
-    "jawaban": "B",
-    "pembahasan": "Luas segitiga ABC:\nAlas AB = 8 satuan, tinggi BC = 10 satuan\n$Luas = \\frac{1}{2} \\times 8 \\times 10 = 40$\n\nPerbandingan sisi: $\\frac{ML}{BC} = \\frac{6}{10} = \\frac{3}{5}$\n\nPerbandingan luas: $(\\frac{3}{5})^2 = \\frac{9}{25}$\n\nLuas segitiga MLK: $40 \\times \\frac{9}{25} = \\frac{360}{25} = 14,4$"
+    "kategori": "Fungsi",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Jika $f(x) = x^2 + 2x + 1$, maka $f(-1) = \\dots$",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "A",
+    "pembahasan": "$f(-1) = (-1)^2 + 2(-1) + 1 = 1 - 2 + 1 = 0$"
   }
 ]
