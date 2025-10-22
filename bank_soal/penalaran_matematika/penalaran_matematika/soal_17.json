@@ -1,10 +1,16 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sebuah lapangan berbentuk persegi memiliki luas 1.024 m². Jika sekeliling lapangan akan dipasang lampu setiap 4 meter, berapa banyak lampu yang dibutuhkan?",
-    "pilihan": ["28", "30", "32", "34", "36"],
-    "jawaban": "C",
-    "pembahasan": "Untuk menyelesaikan soal ini, ada dua langkah utama: mencari panjang sisi dan kemudian keliling lapangan.\n\n**Langkah 1: Menghitung panjang sisi persegi dari luasnya.**\nRumus luas persegi adalah $L = s \\times s = s^2$, di mana $s$ adalah panjang sisi.\nDiketahui luas ($L$) adalah $1.024 \\, m^2$.\n$s^2 = 1.024$\n$s = \\sqrt{1.024}$\n$s = 32$ meter.\n\n**Langkah 2: Menghitung keliling lapangan dan jumlah lampu.**\nKeliling persegi dihitung dengan rumus $K = 4 \\times s$.\n$K = 4 \\times 32 = 128$ meter.\nSekarang, untuk mengetahui berapa banyak lampu yang dibutuhkan, bagi keliling dengan jarak antar lampu.\nBanyak lampu = $\\frac{\\text{Keliling}}{\\text{Jarak antar lampu}} = \\frac{128}{4} = 32$ buah.\n\nJadi, banyak lampu yang dibutuhkan adalah **32 buah**."
+    "pertanyaan": "Biaya bulanan $C$ berlangganan internet dimodelkan oleh $C = 50.000 + 2.000n$, di mana $n$ adalah $\\text{GB}$ data yang digunakan. Jika biaya yang dibayar adalah $Rp 150.000$, berapa $\\text{GB}$ data yang telah digunakan?",
+    "pilihan": [
+      "40 GB",
+      "50 GB",
+      "60 GB",
+      "75 GB",
+      "100 GB"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Substitusikan $C = 150.000$ ke persamaan: $150.000 = 50.000 + 2.000n$. Kurangi $50.000$ dari kedua sisi: $100.000 = 2.000n$. Bagi $100.000$ dengan $2.000$: $n = 50 \\text{ GB}$."
   },
   {
     "id": 2,
