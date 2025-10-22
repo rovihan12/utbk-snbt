@@ -1,24 +1,45 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sebuah kolam renang berbentuk persegi panjang memiliki panjang $3x$ meter dan lebar $2x$ meter. Jika keliling kolam adalah $120$ meter, berapa luas kolam tersebut?",
-    "pilihan": ["$216\\text{ m}^2$", "$432\\text{ m}^2$", "$648\\text{ m}^2$", "$864\\text{ m}^2$", "$972\\text{ m}^2$"],
-    "jawaban": "D",
-    "pembahasan": "Langkah 1: Keliling $K = 2(3x + 2x) = 10x$. Maka $120 = 10x → x = 12$.\nLangkah 2: Luas $L = p × l = 3x × 2x = 6x^2$. Substitusi $x=12$ → $L = 6(144) = 864\\text{ m}^2$.\n✓ Jadi, jawabannya adalah D."
+    "materi": "Pertumbuhan Eksponensial dalam Konteks Sewa",
+    "pertanyaan": "Seorang mahasiswa menyewa sebuah apartemen dengan biaya sewa bulanan. Biaya sewa tahun pertama adalah $\\$P$. Setiap awal tahun berikutnya, biaya sewa akan meningkat sebesar $r$ persen dari biaya sewa tahun sebelumnya. Berapakah biaya sewa per bulan pada awal tahun ke-4?",
+    "pilihan": [
+      "$P(1 + 4r)$",
+      "$P(1 + r)^2$",
+      "$P(1 + r)^3$",
+      "$P(1 + r)^4$",
+      "$P(1 + 3r)$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Kenaikan biaya sewa terjadi secara berurutan (majemuk). Pada awal tahun ke-4, kenaikan sudah terjadi sebanyak 3 kali (Tahun 1 ke 2, 2 ke 3, dan 3 ke 4). Rumusnya adalah $P_n = P_0 (1 + r)^n$, dengan $n=3$. Harga sewa adalah $P(1 + r)^3$."
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah proyek diselesaikan oleh $n$ pekerja dalam $24$ hari. Setelah $6$ hari, $4$ pekerja keluar dan proyek selesai dalam $30$ hari total. Berapa nilai $n$?",
-    "pilihan": ["$12$", "$14$", "$16$", "$18$", "$20$"],
+    "materi": "Rata-Rata Data Berurutan",
+    "pertanyaan": "Rata-rata penjualan harian dari Senin sampai Kamis adalah 45 unit. Rata-rata penjualan untuk 5 hari (Senin sampai Jumat) adalah 50 unit. Berapakah jumlah penjualan pada hari Jumat?",
+    "pilihan": [
+      "55 unit",
+      "65 unit",
+      "70 unit",
+      "75 unit",
+      "80 unit"
+    ],
     "jawaban": "C",
-    "pembahasan": "Langkah 1: Total pekerjaan $= 24n$.\nLangkah 2: Pekerjaan dilakukan $6n + (30-6)(n-4) = 24n$.\nLangkah 3: $6n + 24n - 96 = 24n → 6n = 96 → n = 16$.\n✓ Jadi, jawabannya adalah C ($16$)."
+    "pembahasan": "Total 5 hari = $5 \\times 50 = 250$ unit. Total 4 hari = $4 \\times 45 = 180$ unit. Penjualan Jumat = $250 - 180 = 70$ unit."
   },
   {
     "id": 3,
-    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian $10$ m. Pantulan pertama mencapai $\\tfrac{3}{4}$ tinggi sebelumnya. Berapa total jarak yang ditempuh bola sampai berhenti?",
-    "pilihan": ["$50$ m", "$60$ m", "$70$ m", "$80$ m", "$90$ m"],
-    "jawaban": "C",
-    "pembahasan": "Langkah 1: Rasio pantulan $r = 0.75$, suku pertama naik $a = 10×0.75=7.5$.\nLangkah 2: Jumlah pantulan $S = 2×\\frac{a}{1-r} = 2×30 = 60$.\nLangkah 3: Total jarak $= 10 + 60 = 70\\text{ m}$.\n✓ Jadi, jawabannya adalah C."
+    "materi": "Perbandingan Majemuk",
+    "pertanyaan": "Uang A:B = $3:4$ dan B:C = $5:6$. Total uang mereka 118. Berapakah selisih jumlah uang Amir dan Citra?",
+    "pilihan": [
+      "15",
+      "18",
+      "24",
+      "27",
+      "30"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Rasio gabungan (KPK dari 4 dan 5 adalah 20): $A:B:C = (3\\times 5) : (4\\times 5) : (6\\times 4) = 15:20:24$. Total rasio $15+20+24 = 59$. Nilai 1 bagian $= 118 / 59 = 2$. Selisih A dan C $= (24 - 15) \\times 2 = 9 \\times 2 = 18$."
   },
   {
     "id": 4,
