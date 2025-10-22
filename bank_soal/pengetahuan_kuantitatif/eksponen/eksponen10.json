@@ -1,18 +1,18 @@
 [
-  {
-    "id": 1,
-    "kategori": "Mudah",
-    "pertanyaan": "Nilai dari $^4\\log 64$ adalah...",
-    "pilihan": [
-      "2",
-      "3",
-      "4",
-      "8",
-      "16"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Kita mencari nilai $y$ sehingga $4^y = 64$.\nKarena $4^3 = 64$, maka $^4\\log 64 = 3$."
-  },
+ {
+  "id": 1,
+  "kategori": "Sulit",
+  "pertanyaan": "Berapa banyak solusi riil $x$ yang berbeda untuk persamaan $\\left(\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 - 3\\right)^2 = 4$?",
+  "pilihan": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Persamaan yang diberikan adalah $\\left(\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 - 3\\right)^2 = 4$.\n\nLangkah 1: Ambil akar kuadrat pertama.\n$\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 - 3 = \\pm 2$\n\nKasus 1: $\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 - 3 = 2$\n$\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 = 5$\n$\\left(x^2 - 1\\right)^2 - 2 = \\pm \\sqrt{5}$\n\n  Kasus 1a: $\\left(x^2 - 1\\right)^2 = 2 + \\sqrt{5}$\n  Karena $2 + \\sqrt{5} > 0$, maka $x^2 - 1 = \\pm \\sqrt{2 + \\sqrt{5}}$.\n  - $x^2 = 1 + \\sqrt{2 + \\sqrt{5}}$ (positif) $\\implies \\mathbf{2\\, solusi\\, riil}$.\n  - $x^2 = 1 - \\sqrt{2 + \\sqrt{5}}$ (negatif, karena $\\sqrt{2 + \\sqrt{5}} > 2 > 1$) $\\implies \\mathbf{0\\, solusi\\, riil}$.\n\n  Kasus 1b: $\\left(x^2 - 1\\right)^2 = 2 - \\sqrt{5}$\n  Karena $2 - \\sqrt{5} < 0$, $\\implies \\mathbf{0\\, solusi\\, riil}$.\n\nKasus 2: $\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 - 3 = -2$\n$\\left(\\left(x^2 - 1\\right)^2 - 2\\right)^2 = 1$\n$\\left(x^2 - 1\\right)^2 - 2 = \\pm 1$\n\n  Kasus 2a: $\\left(x^2 - 1\\right)^2 - 2 = 1$\n  $\\left(x^2 - 1\\right)^2 = 3$\n  $x^2 - 1 = \\pm \\sqrt{3}$\n  - $x^2 = 1 + \\sqrt{3}$ (positif) $\\implies \\mathbf{2\\, solusi\\, riil}$.\n  - $x^2 = 1 - \\sqrt{3}$ (negatif) $\\implies \\mathbf{0\\, solusi\\, riil}$.\n\n  Kasus 2b: $\\left(x^2 - 1\\right)^2 - 2 = -1$\n  $\\left(x^2 - 1\\right)^2 = 1$\n  $x^2 - 1 = \\pm 1$\n  - $x^2 = 1 + 1 = 2$ (positif) $\\implies \\mathbf{2\\, solusi\\, riil}$.\n  - $x^2 = -1 + 1 = 0$ $\\implies \\mathbf{1\\, solusi\\, riil}$.\n\nTotal solusi berbeda adalah $2 + 0 + 0 + 2 + 0 + 2 + 1 = 7$. (Semua nilai $x^2$ yang positif ($1 + \\sqrt{2 + \\sqrt{5}}, 1 + \\sqrt{3}, 2$) berbeda, sehingga semua solusi riilnya berbeda)."
+},
   {
     "id": 2,
     "kategori": "Mudah",
