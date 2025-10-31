@@ -1,1 +1,171 @@
-
+[
+  {
+    "id": 1,
+    "kategori": "Kombinatorika",
+    "pertanyaan": "Dari $10$ siswa, akan dipilih $3$ siswa untuk mewakili sekolah dalam lomba matematika. Banyaknya cara pemilihan tersebut adalah...",
+    "pilihan": ["120", "720", "360", "240", "60"],
+    "jawaban": "A",
+    "pembahasan": "Ini adalah masalah kombinasi karena urutan tidak penting. Kombinasi $3$ dari $10$: $C(10,3) = \\frac{10!}{3!7!} = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$"
+  },
+  {
+    "id": 2,
+    "kategori": "Barisan dan Deret",
+    "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-3 adalah $11$ dan suku ke-8 adalah $31$. Suku ke-20 dari barisan tersebut adalah...",
+    "pilihan": ["75", "79", "83", "87", "91"],
+    "jawaban": "B",
+    "pembahasan": "Diketahui: $a_3 = a + 2d = 11$ dan $a_8 = a + 7d = 31$. Kurangi persamaan: $(a + 7d) - (a + 2d) = 31 - 11 \\Rightarrow 5d = 20 \\Rightarrow d = 4$. Substitusi: $a + 2(4) = 11 \\Rightarrow a + 8 = 11 \\Rightarrow a = 3$. $a_{20} = a + 19d = 3 + 19(4) = 3 + 76 = 79$"
+  },
+  {
+    "id": 3,
+    "kategori": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $^4\\log 64$ adalah...",
+    "pilihan": ["2", "3", "4", "8", "16"],
+    "jawaban": "B",
+    "pembahasan": "Kita mencari nilai $y$ sehingga $4^y = 64$. Karena $4^3 = 64$, maka $^4\\log 64 = 3$."
+  },
+  {
+    "id": 4,
+    "kategori": "Fungsi",
+    "pertanyaan": "Jika $f(x) = 3x + 1$, tentukan $f^{-1}(10)$.",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "B",
+    "pembahasan": "Kita cari $x$ sedemikian hingga $f(x) = 10$. $3x + 1 = 10 \\Rightarrow 3x = 9$. Jadi, $x = 3$."
+  },
+  {
+    "id": 5,
+    "kategori": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt[3]{27}$ adalah...",
+    "pilihan": ["12", "13", "15", "16", "18"],
+    "jawaban": "C",
+    "pembahasan": "Hitung nilai akar: $\\sqrt{144} = 12$, $\\sqrt[3]{27} = 3$. $12 + 3 = 15$"
+  },
+  {
+    "id": 6,
+    "kategori": "Matriks",
+    "pertanyaan": "Jika matriks $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 2 \\end{bmatrix}$ dan $B$ adalah matriks $2\\times2$ sedemikian rupa sehingga $\\det(AB) = -1$, maka $\\det(B)$ adalah...",
+    "pilihan": ["-2", "-1", "0", "1", "2"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan sifat determinan perkalian matriks: $\\det(AB) = \\det(A) \\times \\det(B)$. $\\det(A) = (2)(2) - (1)(3) = 4 - 3 = 1$. $-1 = 1 \\times \\det(B) \\Rightarrow \\det(B) = -1$"
+  },
+  {
+    "id": 7,
+    "kategori": "Geometri dan Bangun Datar",
+    "pertanyaan": "Pada gambar berikut, $ABC$ adalah garis lurus. Tentukan besar $\\angle ABP$.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_084254_Samsung%20Internet.jpg",
+    "pilihan": ["$30^{\\circ}$", "$45^{\\circ}$", "$50^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
+    "jawaban": "C",
+    "pembahasan": "Perhatikan $\\angle ABP$, $\\angle PBQ$, dan $\\angle QBC$ membentuk garis lurus, sehingga jumlah sudutnya adalah $180^{\\circ}$. $\\angle ABP + \\angle PBQ + \\angle QBC = 180^{\\circ}$. $2x + 105^{\\circ} + x = 180^{\\circ}$. $3x + 105^{\\circ} = 180^{\\circ}$. $3x = 75^{\\circ}$. $x = 25^{\\circ}$. Besar $\\angle ABP = 2x = 2(25^{\\circ}) = 50^{\\circ}$."
+  },
+  {
+    "id": 8,
+    "kategori": "Barisan dan Deret",
+    "pertanyaan": "Jumlah $12$ suku pertama dari deret aritmetika dengan suku pertama $5$ dan beda $3$ adalah...",
+    "pilihan": ["246", "252", "258", "264", "270"],
+    "jawaban": "C",
+    "pembahasan": "Diketahui: $a = 5$, $d = 3$, $n = 12$. $S_n = \\frac{n}{2}(2a + (n-1)d)$. $S_{12} = \\frac{12}{2}(2(5) + 11(3)) = 6(10 + 33) = 6 \\times 43 = 258$"
+  },
+  {
+    "id": 9,
+    "kategori": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^3\\log 2 = a$ dan $^3\\log 5 = b$, maka $^3\\log 50$ adalah...",
+    "pilihan": ["$a + 2b$", "$2a + b$", "$a + b^2$", "$a^2 + b$", "$ab^2$"],
+    "jawaban": "A",
+    "pembahasan": "Faktorkan $50$: $50 = 2 \\times 25 = 2 \\times 5^2$. $^3\\log 50 = ^3\\log 2 + ^3\\log 5^2 = a + 2b$"
+  },
+  {
+    "id": 10,
+    "kategori": "Geometri dan Bangun Datar",
+    "pertanyaan": "Perhatikan gambar berikut ini. Segitiga $ABC$ dan segitiga $MLK$ sebangun. Luas segitiga $MLK$ adalah ... satuan luas.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098083-removebg-preview.png",
+    "pilihan": ["12", "14,4", "16,5", "20", "22,5"],
+    "jawaban": "B",
+    "pembahasan": "Luas $\\triangle ABC = \\frac{1}{2} \\times 8 \\times 10 = 40$. Perbandingan sisi $\\frac{ML}{BC} = \\frac{6}{10} = \\frac{3}{5}$. Perbandingan luas = $(\\frac{3}{5})^2 = \\frac{9}{25}$. Luas $\\triangle MLK = 40 \\times \\frac{9}{25} = \\frac{360}{25} = 14,4$"
+  },
+  {
+    "id": 11,
+    "kategori": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{4 + \\sqrt{7}} + \\sqrt{4 - \\sqrt{7}}$ adalah...",
+    "pilihan": ["$2\\sqrt{2}$", "$\\sqrt{10}$", "$\\sqrt{14}$", "$\\sqrt{7}$", "4"],
+    "jawaban": "C",
+    "pembahasan": "Misal $x = \\sqrt{4 + \\sqrt{7}} + \\sqrt{4 - \\sqrt{7}}$. Kuadratkan: $x^2 = (4 + \\sqrt{7}) + (4 - \\sqrt{7}) + 2\\sqrt{(4 + \\sqrt{7})(4 - \\sqrt{7})} = 8 + 2\\sqrt{16 - 7} = 8 + 2\\sqrt{9} = 8 + 6 = 14$. $x = \\sqrt{14}$ (karena $x > 0$)"
+  },
+  {
+    "id": 12,
+    "kategori": "Fungsi",
+    "pertanyaan": "Jika $f(x+1) = x^2 - 2x + 3$ dan $f^{-1}(a) = 2$, maka nilai $a$ adalah...",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "A",
+    "pembahasan": "Dari definisi invers, $f^{-1}(a) = 2 \\Rightarrow f(2) = a$. Karena $f(x+1)$ diberikan, kita substitusi $x = 1$ (sehingga $x+1 = 2$): $f(2) = f(1+1) = (1)^2 - 2(1) + 3 = 1 - 2 + 3 = 2$. Jadi, $a = 2$."
+  },
+  {
+    "id": 13,
+    "kategori": "Matriks",
+    "pertanyaan": "Jika $A = \\begin{bmatrix} 3 & -1 \\\\ -2 & 1 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 2 & 1 \\\\ 4 & 3 \\end{bmatrix}$, maka matriks $X$ yang memenuhi $AX = B$ adalah...",
+    "pilihan": [
+      "$\\begin{bmatrix} 6 & 4 \\\\ 16 & 11 \\end{bmatrix}$",
+      "$\\begin{bmatrix} 10 & 6 \\\\ 4 & 3 \\end{bmatrix}$",
+      "$\\begin{bmatrix} 2 & 1 \\\\ 4 & 3 \\end{bmatrix}$",
+      "$\\begin{bmatrix} -1 & 0 \\\\ 0 & -1 \\end{bmatrix}$",
+      "$\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Cari $X = A^{-1}B$. $\\det(A) = (3)(1) - (-1)(-2) = 3 - 2 = 1$. $A^{-1} = \\frac{1}{1}\\begin{bmatrix} 1 & 1 \\\\ 2 & 3 \\end{bmatrix}$. $X = \\begin{bmatrix} 1 & 1 \\\\ 2 & 3 \\end{bmatrix} \\times \\begin{bmatrix} 2 & 1 \\\\ 4 & 3 \\end{bmatrix} = \\begin{bmatrix} 1(2)+1(4) & 1(1)+1(3) \\\\ 2(2)+3(4) & 2(1)+3(3) \\end{bmatrix} = \\begin{bmatrix} 6 & 4 \\\\ 16 & 11 \\end{bmatrix}$"
+  },
+  {
+    "id": 14,
+    "kategori": "Barisan dan Deret",
+    "pertanyaan": "Sebuah barisan geometri tak hingga memiliki jumlah $32$. Jika suku kedua adalah $8$, maka suku pertama adalah...",
+    "pilihan": ["16", "18", "20", "24", "28"],
+    "jawaban": "A",
+    "pembahasan": "Diketahui: $S_{\\infty} = \\frac{a}{1-r} = 32$, $ar = 8$. Dari $ar = 8$: $a = \\frac{8}{r}$. Substitusi: $\\frac{\\frac{8}{r}}{1-r} = 32 \\Rightarrow 8 = 32r(1-r) \\Rightarrow 1 = 4r - 4r^2 \\Rightarrow 4r^2 - 4r + 1 = 0 \\Rightarrow (2r-1)^2 = 0 \\Rightarrow r = \\frac{1}{2}$. $a = \\frac{8}{\\frac{1}{2}} = 16$"
+  },
+  {
+    "id": 15,
+    "kategori": "Peluang",
+    "pertanyaan": "Sebuah dadu dilempar $2$ kali. Peluang munculnya jumlah mata dadu $8$ adalah...",
+    "pilihan": ["$\\frac{1}{12}$", "$\\frac{5}{36}$", "$\\frac{1}{6}$", "$\\frac{7}{36}$", "$\\frac{1}{9}$"],
+    "jawaban": "B",
+    "pembahasan": "Total kemungkinan = $6 \\times 6 = 36$. Kombinasi jumlah $8$: $(2,6), (3,5), (4,4), (5,3), (6,2)$. Total = $5$. Peluang = $\\frac{5}{36}$"
+  },
+  {
+    "id": 16,
+    "kategori": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^2\\log 75$ adalah...",
+    "pilihan": ["$a + 2b$", "$2a + b$", "$a + b^2$", "$a^2 + b$", "$ab^2$"],
+    "jawaban": "A",
+    "pembahasan": "Faktorkan $75$: $75 = 3 \\times 25 = 3 \\times 5^2$. $^2\\log 75 = ^2\\log 3 + ^2\\log 5^2 = a + 2b$"
+  },
+  {
+    "id": 17,
+    "kategori": "Geometri dan Bangun Datar",
+    "pertanyaan": "Kerucut dengan tinggi $15 \\text{ cm}$ terletak di dalam balok. Alas kerucut sebidang dengan alas balok dan menyinggung keempat sisinya. Alas balok berbentuk persegi dengan sisi $20 \\text{ cm}$. Volume bagian balok di luar kerucut $7$ kali volume kerucut. Luas permukaan balok adalah $\\dots$",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_112255_Drive.jpg",
+    "pilihan": ["$800 + \\frac{800}{3}\\pi$", "$800 + 400\\pi$", "$800 + 800\\pi$", "$800 + 1200\\pi$", "$800 + 2400\\pi$"],
+    "jawaban": "C",
+    "pembahasan": "Diameter alas kerucut $= 20$, $r = 10$. $V_{\\text{kerucut}} = \\frac{1}{3} \\pi r^2 t = \\frac{1}{3} \\pi(10)^2(15) = 500\\pi$. $V_{\\text{balok}} - V_{\\text{kerucut}} = 7V_{\\text{kerucut}} \\Rightarrow V_{\\text{balok}} = 8V_{\\text{kerucut}} = 8(500\\pi) = 4000\\pi$. $V_{\\text{balok}} = p \\times l \\times t_b = 20 \\times 20 \\times t_b = 400t_b$. $400t_b = 4000\\pi \\Rightarrow t_b = 10\\pi$. $L_{\\text{balok}} = 2(pl + pt_b + lt_b) = 2(20\\times20 + 20\\times10\\pi + 20\\times10\\pi) = 800 + 800\\pi$"
+  },
+  {
+    "id": 18,
+    "kategori": "Bentuk Akar",
+    "pertanyaan": "Jika $x = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}$, maka $x = \\dots$",
+    "pilihan": ["2", "3", "4", "5", "6"],
+    "jawaban": "B",
+    "pembahasan": "Misal $x = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}$. Maka $x = \\sqrt{6 + x}$. Kuadratkan: $x^2 = 6 + x \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x-3)(x+2) = 0$. Karena $x$ harus positif, maka $x = 3$."
+  },
+  {
+    "id": 19,
+    "kategori": "Fungsi",
+    "pertanyaan": "Jika $f(x) = 2^x + 2^{-x}$ dan $f(a) = 3$, maka $f(2a) = \\dots$",
+    "pilihan": ["7", "9", "11", "13", "15"],
+    "jawaban": "A",
+    "pembahasan": "Diketahui $2^a + 2^{-a} = 3$. Kuadratkan kedua sisi: $(2^a + 2^{-a})^2 = 3^2 \\Rightarrow 2^{2a} + 2(2^a)(2^{-a}) + 2^{-2a} = 9 \\Rightarrow 2^{2a} + 2(1) + 2^{-2a} = 9$. Karena $f(2a) = 2^{2a} + 2^{-2a}$, maka $f(2a) + 2 = 9$. Jadi, $f(2a) = 7$."
+  },
+  {
+    "id": 20,
+    "kategori": "Matriks",
+    "pertanyaan": "Jika matriks $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$, maka $\\det(A^2)$ adalah...",
+    "pilihan": ["1", "2", "4", "8", "16"],
+    "jawaban": "A",
+    "pembahasan": "Matriks $A$ adalah matriks segitiga atas. $\\det(A)$ adalah hasil kali elemen diagonal: $\\det(A) = 1 \\times 1 \\times 1 = 1$. Menggunakan sifat $\\det(A^2) = (\\det(A))^2$, maka $\\det(A^2) = 1^2 = 1$."
+  }
+]
