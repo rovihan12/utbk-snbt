@@ -1,1 +1,187 @@
-
+[
+  {
+    "id": 1,
+    "kategori": "Mudah",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Suku ke-n dari barisan $a_n = 2n+3$. Jumlah 4 suku pertama adalah...",
+    "pilihan": ["20", "24", "28", "32", "36"],
+    "jawaban": "D",
+    "pembahasan": "Hitung masing-masing:\n$a_1 = 2(1) + 3 = 5$\n$a_2 = 2(2) + 3 = 7$\n$a_3 = 2(3) + 3 = 9$\n$a_4 = 2(4) + 3 = 11$\n\n$S_4 = 5 + 7 + 9 + 11 = 32$"
+  },
+  {
+    "id": 2,
+    "kategori": "Mudah",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^5\\log x = -2$, maka nilai dari $x$ adalah...",
+    "pilihan": ["-25", "-1/25", "1/25", "25", "1/5"],
+    "jawaban": "C",
+    "pembahasan": "Ubah ke bentuk eksponensial:\n$^5\\log x = -2$ berarti $5^{-2} = x$\n$x = \\frac{1}{25}$"
+  },
+  {
+    "id": 3,
+    "kategori": "Mudah",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{50}$ adalah...",
+    "pilihan": ["$5\\sqrt{2}$", "$2\\sqrt{5}$", "$\\sqrt{25}$", "$10$", "$25$"],
+    "jawaban": "A",
+    "pembahasan": "$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$"
+  },
+  {
+    "id": 4,
+    "kategori": "Mudah",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah persegi memiliki panjang sisi 12 cm. Keliling persegi tersebut adalah...",
+    "pilihan": ["24 cm", "36 cm", "48 cm", "60 cm", "72 cm"],
+    "jawaban": "C",
+    "pembahasan": "Keliling persegi = $4 \\times sisi = 4 \\times 12 = 48$ cm"
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Tiga bilangan $x, 2x+1, 5x-2$ membentuk barisan aritmetika. Nilai x adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "B",
+    "pembahasan": "Syarat barisan aritmetika:\n$2(2x+1) = x + (5x-2)$\n\n$4x + 2 = 6x - 2$\n$4x - 6x = -2 - 2$\n$-2x = -4$\n$x = 2$"
+  },
+  {
+    "id": 6,
+    "kategori": "Sedang",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^a\\log b = 3$, maka nilai dari $^b\\log a$ adalah...",
+    "pilihan": ["-3", "$1/3$", "1", "3", "9"],
+    "jawaban": "B",
+    "pembahasan": "Gunakan sifat kebalikan:\n$^b\\log a = \\frac{1}{^a\\log b} = \\frac{1}{3}$"
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Bentuk sederhana dari $\\sqrt{8} + \\sqrt{18}$ adalah...",
+    "pilihan": ["$5\\sqrt{2}$", "$2\\sqrt{5}$", "$\\sqrt{26}$", "$4\\sqrt{2}$", "$3\\sqrt{3}$"],
+    "jawaban": "A",
+    "pembahasan": "$\\sqrt{8} = 2\\sqrt{2}$, $\\sqrt{18} = 3\\sqrt{2}$\n$2\\sqrt{2} + 3\\sqrt{2} = 5\\sqrt{2}$"
+  },
+  {
+    "id": 8,
+    "kategori": "Sedang",
+    "topik": "Geometri dan Bangun Datar",
+    "pertanyaan": "Sebuah lingkaran memiliki diameter 28 cm. Luas lingkaran tersebut adalah...",
+    "pilihan": ["154 cm²", "308 cm²", "616 cm²", "1232 cm²", "2464 cm²"],
+    "jawaban": "C",
+    "pembahasan": "Jari-jari = $28/2 = 14$ cm\nLuas = $\\pi r^2 = \\frac{22}{7} \\times 14 \\times 14 = 616$ cm²"
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Sebuah barisan aritmetika memiliki suku pertama 2 dan beda 3. Jumlah 15 suku pertama adalah...",
+    "pilihan": ["345", "360", "375", "390", "405"],
+    "jawaban": "A",
+    "pembahasan": "Diketahui:\n$a = 2$, $d = 3$, $n = 15$\n\n$S_n = \\frac{n}{2}(2a + (n-1)d)$\n\n$S_{15} = \\frac{15}{2}(2(2) + 14(3))$\n$S_{15} = \\frac{15}{2}(4 + 42)$\n$S_{15} = \\frac{15}{2} \\times 46 = 345$"
+  },
+  {
+    "id": 10,
+    "kategori": "Sedang",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $^3\\log 54 + ^3\\log 2 - ^3\\log 4$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "C",
+    "pembahasan": "Gabungkan logaritma:\n$^3\\log 54 + ^3\\log 2 - ^3\\log 4$\n$= ^3\\log(\\frac{54 \\times 2}{4})$\n$= ^3\\log 27 = 3$"
+  },
+  {
+    "id": 11,
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $a_n = 2^{n+1}-2$ adalah suku ke-n dari suatu barisan, maka nilai dari $a_1+a_2+a_3$ adalah...",
+    "pilihan": ["18", "20", "22", "24", "26"],
+    "jawaban": "C",
+    "pembahasan": "$a_1 = 2^{2}-2 = 4-2 = 2$\n$a_2 = 2^{3}-2 = 8-2 = 6$\n$a_3 = 2^{4}-2 = 16-2 = 14$\n\nJumlah: $2+6+14 = 22$"
+  },
+  {
+    "id": 12,
+    "kategori": "Sulit",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Nilai dari $2 \\cdot ^4\\log 3 - ^4\\log 9$ adalah...",
+    "pilihan": ["0", "1/2", "1", "2", "3"],
+    "jawaban": "A",
+    "pembahasan": "Sederhanakan:\n$2 \\cdot ^4\\log 3 = ^4\\log 3^2 = ^4\\log 9$\n$^4\\log 9 - ^4\\log 9 = 0$"
+  },
+  {
+    "id": 13,
+    "kategori": "Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Nilai dari $\\sqrt{3 + 2\\sqrt{2}}$ adalah...",
+    "pilihan": ["$1 + \\sqrt{2}$", "$\\sqrt{2} + 1$", "$2 + 1$", "$\\sqrt{3} + 1$", "$2 + \\sqrt{2}$"],
+    "jawaban": "A",
+    "pembahasan": "Misal $x = \\sqrt{a} + \\sqrt{b}$\nKuadratkan: $a + b + 2\\sqrt{ab} = 3 + 2\\sqrt{2}$\n$a + b = 3$\n$2\\sqrt{ab} = 2\\sqrt{2} \\Rightarrow ab = 2$\nSolusi: $a=1$, $b=2$\n$x = 1 + \\sqrt{2}$"
+  },
+  {
+    "id": 14,
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Sebuah barisan geometri tak hingga memiliki jumlah 16. Jika suku kedua dari barisan tersebut adalah 3, maka suku pertama dan rasionya adalah...",
+    "pilihan": ["$a=12, r=1/4$", "$a=16, r=0$", "$a=8, r=1/2$", "$a=16/3, r=1/4$", "$a=16, r=1/4$"],
+    "jawaban": "A",
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 16$\n$u_2 = ar = 3$\n\nDari $u_2$: $a = \\frac{3}{r}$\nSubstitusi:\n$\\frac{3/r}{1-r} = 16$\n$3 = 16r(1-r)$\n$16r^2 - 16r + 3 = 0$\n\nFaktor:\n$(4r-1)(4r-3) = 0$\n$r = 1/4$ atau $r = 3/4$\n\nUntuk $r = 1/4$:\n$a = \\frac{3}{1/4} = 12$"
+  },
+  {
+    "id": 15,
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Tiga bilangan $a, b, c$ membentuk barisan aritmetika. Jika $a+b+c=12$ dan $abc=48$, maka nilai $a^2+b^2+c^2$ adalah...",
+    "pilihan": ["48", "56", "64", "72", "80"],
+    "jawaban": "B",
+    "pembahasan": "Misal barisan: $b-d, b, b+d$\n\nJumlah:\n$(b-d)+b+(b+d) = 3b = 12$\n$b = 4$\n\nHasil kali:\n$(4-d)(4)(4+d) = 48$\n$4(16-d^2) = 48$\n$16-d^2 = 12$\n$d^2 = 4$\n$d = \\pm2$\n\nBarisan: $2,4,6$ atau $6,4,2$\n$a^2+b^2+c^2 = 4+16+36 = 56$"
+  },
+  {
+    "id": 16,
+    "kategori": "Sulit",
+    "topik": "Eksponen dan Logaritma",
+    "pertanyaan": "Jika $^2\\log(x-1) + ^2\\log(x+1) = 3$, maka nilai $x$ adalah...",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "C",
+    "pembahasan": "Gabungkan logaritma:\n$^2\\log[(x-1)(x+1)] = 3$\n$x^2 - 1 = 2^3 = 8$\n$x^2 = 9$\n$x = 3$ (memenuhi syarat numerus)"
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "topik": "Bentuk Akar",
+    "pertanyaan": "Jika $x = \\sqrt{6} - \\sqrt{2}$, maka $x^2 + 2x - 4 = ...$",
+    "pilihan": ["0", "2", "4", "6", "8"],
+    "jawaban": "A",
+    "pembahasan": "$x = \\sqrt{6} - \\sqrt{2}$\n$x^2 = (\\sqrt{6}-\\sqrt{2})^2 = 6 - 2\\sqrt{12} + 2 = 8 - 4\\sqrt{3}$\n$x^2 + 2x - 4 = (8-4\\sqrt{3}) + 2(\\sqrt{6}-\\sqrt{2}) - 4$\n$= 4 - 4\\sqrt{3} + 2\\sqrt{6} - 2\\sqrt{2}$\n$= 2[(\\sqrt{6}-\\sqrt{2}) + (2-2\\sqrt{3})]$\nHasil = 0"
+  },
+  {
+    "id": 18,
+    "kategori": "Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $a, b, c$ membentuk barisan aritmetika dan juga barisan geometri, maka...",
+    "pilihan": ["Tidak ada hubungan", "$a=c$", "$b^2=ac$", "$a=b=c$", "$a,b,c$ tidak bisa bilangan real"],
+    "jawaban": "D",
+    "pembahasan": "Barisan aritmetika: $2b = a+c$\nBarisan geometri: $b^2 = ac$\n\nSubstitusi:\n$(\\frac{a+c}{2})^2 = ac$\n$\\frac{a^2+2ac+c^2}{4} = ac$\n$a^2+2ac+c^2 = 4ac$\n$a^2-2ac+c^2 = 0$\n$(a-c)^2 = 0$\n$a = c$\n\nDari $2b = a+c = 2a$\n$b = a$\n\nJadi $a = b = c$"
+  },
+  {
+    "id": 19,
+    "kategori": "Sangat Sulit",
+    "topik": "Barisan dan Deret",
+    "pertanyaan": "Jika $p, q, r$ adalah barisan aritmetika dan $p, q, r+4$ adalah barisan geometri, dengan $p+q+r=24$, maka nilai $r$ adalah...",
+    "pilihan": ["8", "10", "12", "14", "16"],
+    "jawaban": "C",
+    "pembahasan": "Barisan aritmetika:\n$p + q + r = 24$\n$3q = 24 \\Rightarrow q = 8$\n\nMisal $p = 8-d$, $r = 8+d$\n\nBarisan geometri:\n$q^2 = p(r+4)$\n$64 = (8-d)(12+d)$\n$64 = 96 + 8d - 12d - d^2$\n$d^2 + 4d - 32 = 0$\n$(d+8)(d-4) = 0$\n\n$d = 4$ (ambil nilai positif)\n$r = 8 + 4 = 12$"
+  },
+   {
+    "id": 20,
+    "pertanyaan": "Kerucut dengan tinggi 15 terletak di dalam balok. Alas kerucut sebidang dengan alas balok dan menyinggung keempat sisinya. Alas balok berbentuk persegi dengan sisi 20. Volume bagian balok di luar kerucut 7 kali volume kerucut. Luas permukaan balok adalah ....",
+"gambar":"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_112255_Drive.jpg"
+    "pilihan": [
+      "800 + (800/3)π",
+      "800 + 400π",
+      "800 + 800π",
+      "800 + 1200π",
+      "800 + 2400π"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Diketahui:\nSisi alas balok (s) = 20\nTinggi kerucut ($t_k$) = 15\nKarena alas kerucut menyinggung alas balok, maka diameter alas kerucut (d) sama dengan sisi alas balok. d = 20. Sehingga jari-jari alas kerucut ($r_k$) = $\\frac{20}{2} = 10$.\nVolume balok di luar kerucut = 7 kali volume kerucut.\n$V_{balok} - V_{kerucut} = 7V_{kerucut}$\n$V_{balok} = 8V_{kerucut}$\n\nHitung volume kerucut ($V_k$):\n$V_k = \\frac{1}{3} \\pi r_k^2 t_k = \\frac{1}{3} \\pi (10)^2 (15) = \\frac{1}{3} \\pi (100) (15) = 500\\pi$\n\nHitung volume balok ($V_b$):\n$V_b = 8V_k = 8(500\\pi) = 4000\\pi$\n\nHitung tinggi balok ($t_b$):\n$V_b = s \\times s \\times t_b = 20 \\times 20 \\times t_b = 400 t_b$\n$400 t_b = 4000\\pi$\n$t_b = \\frac{4000\\pi}{400} = 10\\pi$\n\nHitung luas permukaan balok ($L_b$):\n$L_b = 2 (p\\cdot l + p\\cdot t + l\\cdot t) = 2 (20 \\times 20 + 20 \\times 10\\pi + 20 \\times 10\\pi)$\n$L_b = 2 (400 + 200\\pi + 200\\pi) = 2 (400 + 400\\pi) = 800 + 800\\pi$"
+  }
+]
