@@ -25,9 +25,9 @@ if (empty($current_version) || empty($package_name)) {
     exit;
 }
 
-// ✅✅✅ PERUBAHAN PENTING: SET MIN_REQUIRED = LATEST UNTUK SEKARANG
-$latest_version = "V22";
-$min_required_version = "V22";  // ⚠️ UBAH DARI "V19" MENJADI "V22"
+// ✅✅✅ PERUBAHAN PENTING: UPDATE KE VERSI V23
+$latest_version = "V23";
+$min_required_version = "V22";  // Versi minimal yang masih bisa digunakan
 
 // Initialize response variables
 $update_required = false;
@@ -69,6 +69,13 @@ if ($compare_current_min < 0) {
 
 // Prepare release notes
 $release_notes = [
+    "V23" => [
+        "🚀 Fitur baru yang ditambahkan di V23",
+        "📊 Peningkatan performa aplikasi", 
+        "🔧 Perbaikan bug dan optimasi",
+        "🎯 Update konten terbaru UTBK 2024",
+        "💫 Pengalaman pengguna yang lebih baik"
+    ],
     "V22" => [
         "🚀 Sistem pembaruan aplikasi otomatis",
         "🐛 Perbaikan bug crash pada beberapa device", 
@@ -80,8 +87,8 @@ $release_notes = [
 
 // Get release notes for current latest version
 $current_release_notes = $release_notes[$latest_version] ?? [
-    "Sistem pembaruan aplikasi otomatis",
-    "Perbaikan bug dan peningkatan performa",
+    "Fitur baru dan peningkatan performa",
+    "Perbaikan bug dan optimasi",
     "Update konten terbaru"
 ];
 
@@ -95,10 +102,8 @@ $response = [
     "min_required_version" => $min_required_version,
     "play_store_url" => "https://play.google.com/store/apps/details?id=" . urlencode($package_name),
     "release_notes" => $current_release_notes
-    // ❌ HAPUS debug_info untuk production
 ];
 
 // Send JSON response
 echo json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-
 ?>
