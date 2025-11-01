@@ -73,13 +73,13 @@ $release_notes = [
         "🚀 Fitur baru yang ditambahkan di V23",
         "📊 Peningkatan performa aplikasi", 
         "🔧 Perbaikan bug dan optimasi",
-        "🎯 Update konten terbaru UTBK 2024",
+        "🎯 Update konten terbaru UTBK 2026",
         "💫 Pengalaman pengguna yang lebih baik"
     ],
     "V22" => [
         "🚀 Sistem pembaruan aplikasi otomatis",
         "🐛 Perbaikan bug crash pada beberapa device", 
-        "📚 Update materi UTBK 2024 terbaru",
+        "📚 Update materi UTBK 2026 terbaru",
         "🎨 UI/UX yang lebih modern dan intuitif",
         "💾 Optimisasi penggunaan memori dan storage"
     ]
