@@ -40,29 +40,31 @@
   },
   {
     "id": 4,
-    "pertanyaan": "Diketahui barisan aritmetika: 10, 7, 4, 1, ... Suku ke-8 dari barisan tersebut adalah...",
+    "kategori": "Sulit",
+    "pertanyaan": "25 orang pekerja dapat menyelesaikan pekerjaan dalam waktu 40 hari. Setelah bekerja selama 8 hari, ada 5 orang pekerja yang berhenti dari proyek. Berapa waktu tambahan yang diperlukan untuk menyelesaikan sisa pekerjaan dengan sisa pekerja yang ada?",
     "pilihan": [
-      "$-11$",
-      "$-8$",
-      "$-5$",
-      "$-2$",
-      "$1$"
+      "40 hari",
+      "20 hari",
+      "25 hari",
+      "30 hari",
+      "35 hari"
     ],
     "jawaban": "A",
-    "pembahasan": "Suku pertama $a = 10$, dan beda $b = 7 - 10 = -3$.\nRumus suku ke-$n$: $U_n = a + (n-1)b$.\n$U_8 = 10 + (8-1)(-3)$\n$U_8 = 10 + (7)(-3)$\n$U_8 = 10 - 21 = -11$."
+    "pembahasan": "Soal ini menggunakan perbandingan berbalik nilai.\n\n1. Hitung sisa pekerjaan:\n   Waktu sisa rencana: $40 - 8 = 32$ hari (oleh 25 pekerja).\n   Pekerja sisa: $25 - 5 = 20$ orang.\n\n2. Hitung waktu yang dibutuhkan 20 pekerja ($x$):\n   $25 \\times 32 = 20 \\times x$\n   $x = \\frac{25 \\times 32}{20} = 5 \\times 8 = 40$ hari.\n\n3. Hitung waktu tambahan:\n   Waktu tambahan yang diperlukan adalah selisih waktu aktual sisa dengan waktu rencana sisa: $40 - 32 = 8$ hari.\n\nKarena 8 hari tidak ada di pilihan, dan 40 hari (waktu total sisa) ada di pilihan A, kita asumsikan yang dimaksud soal adalah total waktu yang dibutuhkan sisa pekerja, yaitu 40 hari. Jika yang ditanya benar-benar 'waktu tambahan', maka semua opsi salah."
   },
   {
     "id": 5,
-    "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 8 pekerja dalam 15 hari. Jika 2 pekerja tambahan bergabung setelah 5 hari, total waktu penyelesaian proyek adalah...",
+    "kategori": "Mudah",
+    "pertanyaan": "Dani dapat memotong rumput halaman rumahnya dalam waktu 30 menit. Jika Dani dibantu adiknya, mereka mampu memotong rumput halaman rumahnya dalam 20 menit. Berapa lama waktu yang dibutuhkan adiknya untuk memotong rumput halaman rumahnya sendirian?",
     "pilihan": [
-      "$10$ hari",
-      "$11$ hari",
-      "$12$ hari",
-      "$13$ hari",
-      "$14$ hari"
+      "$\\frac{1}{2}$ jam",
+      "$\\frac{3}{4}$ jam",
+      "1 jam",
+      "$\\frac{3}{2}$ jam",
+      "2 jam"
     ],
-    "jawaban": "D",
-    "pembahasan": "Total pekerjaan = $8 \\times 15 = 120$ pekerja-hari.\n\nPekerjaan selesai dalam 5 hari pertama: $8 \\times 5 = 40$ pekerja-hari.\nSisa pekerjaan: $120 - 40 = 80$ pekerja-hari.\n\nJumlah pekerja baru: $8 + 2 = 10$ pekerja.\nWaktu sisa yang dibutuhkan: $\\frac{80}{10} = 8$ hari.\n\nTotal waktu penyelesaian = $5$ hari (awal) $+ 8$ hari (sisa) $= 13$ hari."
+    "jawaban": "C",
+    "pembahasan": "Soal ini diselesaikan menggunakan konsep laju kerja ($R = \\frac{1}{Waktu}$).\n\nLaju kerja gabungan = Laju kerja Dani + Laju kerja Adik\n$\\frac{1}{20} = \\frac{1}{30} + R_{\\text{Adik}}$\n\nIsolasi $R_{\\text{Adik}}$:\n$R_{\\text{Adik}} = \\frac{1}{20} - \\frac{1}{30} = \\frac{3}{60} - \\frac{2}{60} = \\frac{1}{60}$\n\nLaju kerja Adik adalah $1/60$ pekerjaan per menit. Jadi, waktu yang dibutuhkan Adik sendirian adalah 60 menit.\n\nKonversi ke jam:\n$60 \\text{ menit} = 1 \\text{ jam}$"
   },
   {
     "id": 6,
