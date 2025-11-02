@@ -90,10 +90,17 @@
   },
   {
     "id": 12,
-    "pertanyaan": "Sebuah pesawat terbang dengan kecepatan 720 km/jam. Berapa meter yang ditempuh dalam 1 detik?",
-    "pilihan": ["180", "200", "220", "240", "260"],
-    "jawaban": "B",
-    "pembahasan": "Soal ini adalah tentang konversi satuan kecepatan dari km/jam ke m/detik.\n\n**Langkah 1: Ubah satuan jarak dari km ke meter.**\n$720 \\, km = 720 \\times 1.000 = 720.000$ meter.\n\n**Langkah 2: Ubah satuan waktu dari jam ke detik.**\n1 jam = 60 menit\n1 menit = 60 detik\n1 jam = $60 \\times 60 = 3.600$ detik.\n\n**Langkah 3: Hitung kecepatan dalam m/detik.**\nKecepatan = $\\frac{\\text{Jarak (meter)}}{\\text{Waktu (detik)}} = \\frac{720.000}{3.600} = 200$ m/detik.\n\nJadi, dalam 1 detik, pesawat menempuh **200 meter**."
+    "kategori": "Sedang",
+    "pertanyaan": "Seorang peternak ayam petelur mencatat banyak telur yang dihasilkan selama 12 hari. Setiap hari, banyaknya telur yang dihasilkan bertambah 4 telur. Jika pada hari pertama telur yang dihasilkan sebanyak 20 telur, jumlah seluruh telur yang dihasilkan selama 12 hari adalah .... telur.",
+    "pilihan": [
+      "480",
+      "496",
+      "504",
+      "512",
+      "520"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Soal ini diselesaikan dengan rumus Deret Aritmatika, karena pertambahan jumlah telur konstan (beda, $b$).\n\nDiketahui:\n- Suku pertama ($a$) = 20\n- Beda ($b$) = 4\n- Banyak suku ($n$) = 12\n\nRumus jumlah n suku pertama ($S_n$):\n$S_n = \\frac{n}{2} [2a + (n-1)b]$\n\nPerhitungan $S_{12}$:\n$S_{12} = \\frac{12}{2} [2(20) + (12-1)4]$\n$S_{12} = 6 [40 + (11)4]$\n$S_{12} = 6 [40 + 44]$\n$S_{12} = 6 [84]$\n$S_{12} = 504$"
   },
   {
     "id": 13,
