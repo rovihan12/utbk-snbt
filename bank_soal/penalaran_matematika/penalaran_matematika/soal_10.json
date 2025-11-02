@@ -43,14 +43,14 @@
     "kategori": "Sulit",
     "pertanyaan": "25 orang pekerja dapat menyelesaikan pekerjaan dalam waktu 40 hari. Setelah bekerja selama 8 hari, ada 5 orang pekerja yang berhenti dari proyek. Berapa waktu tambahan yang diperlukan untuk menyelesaikan sisa pekerjaan dengan sisa pekerja yang ada?",
     "pilihan": [
-      "40 hari",
-      "20 hari",
-      "25 hari",
-      "30 hari",
-      "35 hari"
+      "8 hari",
+      "12 hari",
+      "24 hari",
+      "36 hari",
+      "40 hari"
     ],
     "jawaban": "A",
-    "pembahasan": "Soal ini menggunakan perbandingan berbalik nilai.\n\n1. Hitung sisa pekerjaan:\n   Waktu sisa rencana: $40 - 8 = 32$ hari (oleh 25 pekerja).\n   Pekerja sisa: $25 - 5 = 20$ orang.\n\n2. Hitung waktu yang dibutuhkan 20 pekerja ($x$):\n   $25 \\times 32 = 20 \\times x$\n   $x = \\frac{25 \\times 32}{20} = 5 \\times 8 = 40$ hari.\n\n3. Hitung waktu tambahan:\n   Waktu tambahan yang diperlukan adalah selisih waktu aktual sisa dengan waktu rencana sisa: $40 - 32 = 8$ hari.\n\nKarena 8 hari tidak ada di pilihan, dan 40 hari (waktu total sisa) ada di pilihan A, kita asumsikan yang dimaksud soal adalah total waktu yang dibutuhkan sisa pekerja, yaitu 40 hari. Jika yang ditanya benar-benar 'waktu tambahan', maka semua opsi salah."
+    "pembahasan": "Soal ini menggunakan perbandingan berbalik nilai.\n\n1. Hitung sisa pekerjaan:\n   Waktu sisa rencana: $40 - 8 = 32$ hari (oleh 25 pekerja).\n   Pekerja sisa: $25 - 5 = 20$ orang.\n\n2. Hitung waktu total yang dibutuhkan 20 pekerja ($x$) untuk sisa pekerjaan:\n   $25 \\times 32 = 20 \\times x$\n   $x = \\frac{25 \\times 32}{20} = 5 \\times 8 = 40$ hari.\n\n3. Hitung waktu tambahan:\n   Waktu tambahan yang diperlukan adalah selisih waktu aktual sisa dengan waktu rencana sisa: $40 - 32 = \\mathbf{8}$ hari.\n\nKarena soal menanyakan 'waktu tambahan', maka jawaban yang benar adalah 8 hari."
   },
   {
     "id": 5,
