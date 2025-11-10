@@ -1,0 +1,14 @@
+ {
+    "id": 1,
+    "pertanyaan": "Luas jajargenjang ABCD adalah .... satuan luas.",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250827_221718_Gallery.jpg",
+    "pilihan": [
+      "$8\\sqrt{3}$",
+      "$8\\sqrt{2}$",
+      "$6\\sqrt{3}$",
+      "$6\\sqrt{2}$",
+      "6"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk menemukan luas jajargenjang, kita menggunakan rumus: $Luas = alas \\times tinggi$.\n\n### Langkah 1: Menentukan Alas dan Tinggi Jajargenjang\nDari gambar, alas jajargenjang adalah panjang AB. Panjang AB adalah $1 + 7 = 8$ satuan.\n\nTinggi jajargenjang adalah garis tegak lurus dari titik D ke alas AB. Kita dapat menemukannya dengan menggunakan **Teorema Pythagoras** pada segitiga siku-siku yang memiliki sisi miring $AD = 2$ dan sisi alas $1$. Misalkan tinggi tersebut adalah $h$.\n\n$h^2 + 1^2 = 2^2$\n$h^2 + 1 = 4$\n$h^2 = 3$\n$h = \\sqrt{3}$\n\nDengan demikian, tinggi jajargenjang adalah $\\sqrt{3}$ satuan.\n\n### Langkah 2: Menghitung Luas Jajargenjang\nSekarang kita bisa menghitung luasnya dengan rumus:\n\n$Luas = alas \\times tinggi$\n$Luas = 8 \\times \\sqrt{3}$\n$Luas = 8\\sqrt{3}$\n\nJadi, luas jajargenjang ABCD adalah **$8\\sqrt{3}$** satuan luas."
+  }
