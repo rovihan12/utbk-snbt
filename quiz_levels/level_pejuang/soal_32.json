@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $2^t = t^{32}$, maka nilai dari $t$ adalah...",
+    "pilihan": [
+      "128",
+      "256",
+      "512",
+      "1024",
+      "2048"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Diberikan persamaan $2^t = t^{32}$.\n\nLangkah 1: Pangkatkan kedua sisi dengan $\\frac{1}{t}$\n$(2^t)^{\\frac{1}{t}} = (t^{32})^{\\frac{1}{t}}$\n$2 = t^{\\frac{32}{t}}$\n\nLangkah 2: Pangkatkan kedua sisi dengan $\\frac{1}{32}$\n$(2)^{\\frac{1}{32}} = (t^{\\frac{32}{t}})^{\\frac{1}{32}}$\n$2^{\\frac{1}{32}} = t^{\\frac{1}{t}}$\n\nLangkah 3: Manipulasi untuk mendapatkan $t$\n$(2^{\\frac{1}{32}})^{\\frac{2}{2}} = (2^2)^{\\frac{1}{64}} = 4^{\\frac{1}{64}}$\n$(4^{\\frac{1}{64}})^{\\frac{2}{2}} = (4^2)^{\\frac{1}{128}} = 16^{\\frac{1}{128}}$\n$(16^{\\frac{1}{128}})^{\\frac{2}{2}} = (16^2)^{\\frac{1}{256}} = 256^{\\frac{1}{256}}$\n\nJadi $256^{\\frac{1}{256}} = t^{\\frac{1}{t}}$, maka $t = 256$"
+  }
