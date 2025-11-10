@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "kategori": "Sedang",
+    "pertanyaan": "Seorang petani menanam pohon mangga dalam barisan. Barisan pertama 10 pohon, barisan kedua 15 pohon, barisan ketiga 20 pohon, dan seterusnya. Jika ada 12 barisan, total pohon mangga yang ditanam adalah...",
+    "pilihan": ["420", "435", "450", "465", "480"],
+    "jawaban": "C",
+    "pembahasan": "$a=10$, $d=5$, $n=12$\n$S_{12} = \\frac{12}{2}(2a + 11d)$\n$S_{12} = 6(20 + 55) = 6 \\times 75 = 450$"
+  }
