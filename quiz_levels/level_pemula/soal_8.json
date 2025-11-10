@@ -1,13 +1,14 @@
-  {
-    "id": 8,
-    "pertanyaan": "Berdasarkan Teks 2, hubungan antara mitigasi dan adaptasi adalah...",
+{
+    "id": 1,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $7^{x+1} = 49$, maka nilai $x$ adalah...",
     "pilihan": [
-      "Mitigasi bersifat lebih mendesak daripada adaptasi.",
-      "Adaptasi adalah tujuan akhir, sementara mitigasi adalah sarana.",
-      "Keduanya adalah pilar utama yang berfokus pada pengurangan emisi.",
-      "Mitigasi berupaya mencegah penyebab, sedangkan adaptasi berupaya mengatasi akibat.",
-      "Keduanya adalah strategi yang hanya relevan bagi negara berkembang."
+      "1",
+      "2",
+      "3",
+      "0",
+      "-1"
     ],
-    "jawaban": "D",
-    "pembahasan": "Mitigasi adalah **pengurangan emisi** (mencegah penyebab), sedangkan adaptasi adalah **menyesuaikan diri dengan dampak yang sudah terjadi** (mengatasi akibat). Keduanya dijelaskan sebagai 'dua pilar utama' yang saling melengkapi."
+    "jawaban": "A",
+    "pembahasan": "Ubahlah 49 ke dalam bentuk pangkat dengan basis 7.\n$49 = 7^2$\nJadi, $7^{x+1} = 7^2$.\nKarena basisnya sama, maka:\n$x+1 = 2$\n$x = 1$"
   }
