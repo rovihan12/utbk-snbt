@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "kategori": "Sulit",
+    "pertanyaan": "Diberikan $A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$ dan $B = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$. Tentukan $A^{-1}B$.",
+    "pilihan": [
+      "$\\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} -3 & 1 \\\\ 5 & -2 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 0 & 0 \\\\ 0 & 0 \\end{pmatrix}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Karena $B$ adalah matriks identitas, $A^{-1}B = A^{-1}$.\n\nDeterminan $A = (2 \\times 3) - (1 \\times 5) = 6 - 5 = 1$\n\n$A^{-1} = \\frac{1}{det(A)} adj(A)$\n\n$A^{-1} = \\frac{1}{1} \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$\n\n$A^{-1} = \\begin{pmatrix} 3 & -1 \\\\ -5 & 2 \\end{pmatrix}$"
+  }
