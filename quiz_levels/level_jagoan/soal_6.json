@@ -1,0 +1,14 @@
+
+  {
+    "id": 6,
+    "pertanyaan": "Sebuah kapal berlayar ke timur sejauh 150 km, lalu belok 60° ke utara dan berlayar 200 km. Berapa jarak akhir dari titik awal?",
+    "pilihan": [
+      "250 km",
+      "275 km",
+      "304 km",
+      "325 km",
+      "350 km"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Gunakan Aturan Cosinus**:\n$a=150, b=200$. Sudut $\\gamma = 180^\\circ - 60^\\circ = 120^\\circ$.\nRumus: $d^2 = a^2+b^2-2ab\\cos(\\gamma)$\n$d^2 = 150^2+200^2-2(150)(200)\\cos(120^\\circ)$\n$\\cos(120^\\circ) = -\\frac{1}{2}$.\n$d^2 = 22.500+40.000-60.000(-\\frac{1}{2})$\n$d^2 = 62.500+30.000 = 92.500$\n$d=\\sqrt{92.500}\\approx 304.14 \\text{ km}$."
+  }
