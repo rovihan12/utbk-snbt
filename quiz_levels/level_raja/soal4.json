@@ -1,1 +1,13 @@
-
+{
+    "id": 1,
+    "pertanyaan": "Premis 1: Semua atlet yang memenangkan medali emas adalah atlet elit.\nPremis 2: Semua atlet elit memiliki program latihan yang ketat.\nPremis 3: Sebagian atlet dengan program latihan yang ketat adalah atlet berprestasi tinggi.\n\nKesimpulan induktif yang paling valid adalah...",
+    "pilihan": [
+      "Semua atlet yang memenangkan medali emas adalah atlet berprestasi tinggi.",
+      "Beberapa atlet berprestasi tinggi adalah atlet yang memenangkan medali emas.",
+      "Semua atlet berprestasi tinggi adalah atlet elit.",
+      "Atlet yang memiliki program latihan yang ketat pasti memenangkan medali emas.",
+      "Tidak ada hubungan antara medali emas dan program latihan."
+    ],
+    "jawaban": "B",
+    "pembahasan": "Premis-premis tersebut membentuk rantai logis: 'atlet medali emas' (subset) -> 'atlet elit' (subset) -> 'program latihan ketat' -> (sebagian) 'atlet berprestasi tinggi'. Karena 'atlet medali emas' adalah sub-kelompok dari 'atlet elit' yang merupakan sub-kelompok dari 'atlet dengan program latihan ketat', dan 'atlet berprestasi tinggi' sebagian tumpang tindih dengan 'atlet dengan program latihan ketat', maka kemungkinan besar ada tumpang tindih antara 'atlet berprestasi tinggi' dan 'atlet yang memenangkan medali emas'. Pilihan B adalah kesimpulan yang paling tepat."
+  }
