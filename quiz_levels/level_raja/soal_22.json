@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "kategori": "Sedang",
+    "pertanyaan": "Seorang peternak ayam petelur mencatat banyak telur yang dihasilkan selama 12 hari. Setiap hari, banyaknya telur yang dihasilkan bertambah 4 telur. Jika pada hari pertama telur yang dihasilkan sebanyak 20 telur, jumlah seluruh telur yang dihasilkan selama 12 hari adalah .... telur.",
+    "pilihan": [
+      "480",
+      "496",
+      "504",
+      "512",
+      "520"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Soal ini diselesaikan dengan rumus Deret Aritmatika, karena pertambahan jumlah telur konstan (beda, $b$).\n\nDiketahui:\n- Suku pertama ($a$) = 20\n- Beda ($b$) = 4\n- Banyak suku ($n$) = 12\n\nRumus jumlah n suku pertama ($S_n$):\n$S_n = \\frac{n}{2} [2a + (n-1)b]$\n\nPerhitungan $S_{12}$:\n$S_{12} = \\frac{12}{2} [2(20) + (12-1)4]$\n$S_{12} = 6 [40 + (11)4]$\n$S_{12} = 6 [40 + 44]$\n$S_{12} = 6 [84]$\n$S_{12} = 504$"
+  }
