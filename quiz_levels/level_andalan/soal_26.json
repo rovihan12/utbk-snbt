@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "pertanyaan": "Sebuah kereta api berangkat dari stasiun A ke B dengan kecepatan **90 km/jam** dan kembali dengan kecepatan **60 km/jam**. Jika jarak A-B 240 km, berapa kecepatan rata-rata perjalanan pulang pergi?",
+    "pilihan": [
+      "68 km/jam",
+      "70 km/jam",
+      "72 km/jam",
+      "75 km/jam",
+      "80 km/jam"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nTotal Jarak = $240 \\text{ km} \\times 2 = 480 \\text{ km}$.\n\nWaktu Pergi ($W_1$): $240 / 90 = 2 \\frac{2}{3} \\text{ jam}$.\n\nWaktu Pulang ($W_2$): $240 / 60 = 4 \\text{ jam}$.\n\nTotal Waktu = $2 \\frac{2}{3} \\text{ jam} + 4 \\text{ jam} = 6 \\frac{2}{3} \\text{ jam} = \\frac{20}{3} \\text{ jam}$.\n\nKecepatan Rata-rata = $\\frac{480 \\text{ km}}{\\frac{20}{3} \\text{ jam}} = 480 \\times \\frac{3}{20} = 72 \\text{ km/jam}$.\n\n**Cara Cepat**:\n\nGunakan rumus Kecepatan Rata-rata Harmonik: $K_{\\text{rata-rata}} = \\frac{2 \\times K_1 \\times K_2}{K_1 + K_2}$.\n\n$K_{\\text{rata-rata}} = \\frac{2 \\times 90 \\times 60}{90 + 60} = \\frac{10.800}{150} = 72 \\text{ km/jam}$."
+  }
