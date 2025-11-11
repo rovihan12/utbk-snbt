@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "pertanyaan": "Untuk memeriahkan suasana pertemuan, dipilih empat orang untuk menyanyi. Peluang yang terpilih keempatnya perempuan adalah....",
+    "pilihan": [
+      "$\\frac{16}{1265}$",
+      "$\\frac{4}{25}$",
+      "$\\frac{21}{1265}$",
+      "$\\frac{15}{25}$",
+      "$\\frac{10}{25}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pemilihan $4$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $4$ dari $25$ orang.\n    $N(S) = C(25, 4) = 12.650$\n\n2.  **Hitung Kejadian ($N(A)$):** Cara memilih $4$ perempuan dari $10$ perempuan.\n    $N(A) = C(10, 4) = 210$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{N(A)}{N(S)}$\n    $P(A) = \\frac{210}{12.650}$\n\n4.  **Sederhanakan:** (Bagi pembilang dan penyebut dengan $10$)\n    $P(A) = \\frac{21}{1.265}$"
+  }
