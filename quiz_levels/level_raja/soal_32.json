@@ -1,0 +1,14 @@
+ {
+    "id": 1,
+    "pertanyaan": "Pada segitiga $ABC$, $ED$ adalah garis bagi $\\angle BDA$ dan $DF$ adalah garis bagi $\\angle ADC$. Jika $AE = 3$, $BE = 7$, $BD = 3DC$, dan $AC = 32$, maka panjang $FC = \\dots$.",
+    "pilihan": [
+      "16",
+      "14",
+      "12",
+      "11",
+      "10"
+    ],
+    "jawaban": "B",
+    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/8.png",
+    "pembahasan": "Misalkan $DC = x$, sehingga $BD = 3x$. Misalkan juga $FC = y$, sehingga $AF = AC - FC = 32 - y$. \n\n Pada $\\triangle ABD$, $ED$ merupakan garis bagi $\\angle BDA$. Berdasarkan teorema garis bagi, perbandingan sisi-sisi yang berseberangan dengan segmen garis bagi adalah sama. Maka berlaku: \n $$ \\frac{BE}{EA} = \\frac{BD}{DA} $$ \n Substitusikan nilai yang diketahui: \n $$ \\frac{7}{3} = \\frac{3x}{DA} $$ \n $$ 7 \\times DA = 3 \\times 3x $$ \n $$ 7DA = 9x $$ \n $$ DA = \\frac{9x}{7} $$ \n\n Selanjutnya, perhatikan $\\triangle ADC$. $DF$ adalah garis bagi $\\angle ADC$. Dengan teorema garis bagi, kita dapat menuliskan: \n $$ \\frac{AF}{FC} = \\frac{DA}{DC} $$ \n Substitusikan nilai yang sudah kita definisikan dan temukan: \n $$ \\frac{32 - y}{y} = \\frac{9x/7}{x} $$ \n $$ \\frac{32 - y}{y} = \\frac{9x}{7x} $$ \n $$ \\frac{32 - y}{y} = \\frac{9}{7} $$ \n\n Sekarang, kita selesaikan persamaan untuk $y$: \n $$ 7(32 - y) = 9y $$ \n $$ 224 - 7y = 9y $$ \n $$ 224 = 9y + 7y $$ \n $$ 224 = 16y $$ \n $$ y = \\frac{224}{16} $$ \n $$ y = 14 $$ \n\n Jadi, panjang $FC$ adalah 14."
+  }
