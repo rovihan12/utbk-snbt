@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "pertanyaan": "Salah satu aspek yang dapat memengaruhi tingkat kedewasaan seseorang adalah umur. Umur seseorang (dalam tahun) yang dilahirkan $x$ hari yang lalu didefinisikan oleh fungsi $f$ sebagai berikut. Asumsikan $x$ haruslah bilangan asli. $f(x) = \\left \\lfloor \\frac{x}{365} \\right \\rfloor$. Apabila Adik dilahirkan 1000 hari yang lalu, umur Adik adalah... tahun",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "C",
+    "pembahasan": "Soal ini meminta kita untuk menghitung usia 'Adik' menggunakan fungsi yang diberikan. Fungsi $f(x) = \\left \\lfloor \\frac{x}{365} \\right \\rfloor$ menggunakan konsep fungsi floor ($\\left \\lfloor a \\right \\rfloor$), yang berarti membulatkan bilangan $a$ ke bawah ke bilangan bulat terdekat.\n\n**Langkah 1: Substitusikan nilai $x$ ke dalam fungsi.**\nDiketahui 'Adik' dilahirkan 1000 hari yang lalu, jadi $x = 1000$. Kita substitusikan nilai ini ke dalam fungsi.\n$f(1000) = \\left \\lfloor \\frac{1000}{365} \\right \\rfloor$\n\n**Langkah 2: Lakukan pembagian.**\n$\\frac{1000}{365} \\approx 2.7397...$\n\n**Langkah 3: Terapkan fungsi floor.**\nFungsi floor akan membulatkan angka desimal ke bawah ke bilangan bulat terbesar yang kurang dari atau sama dengan angka tersebut.\n$\\left \\lfloor 2.7397... \\right \\rfloor = 2$\n\nJadi, umur Adik adalah **2 tahun**."
+  }
