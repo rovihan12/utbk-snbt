@@ -1,142 +1,202 @@
 [
   {
     "id": 1,
+    "kategori": "Mudah",
     "pertanyaan": "Diketahui himpunan $A = \\{x \\mid 2 < x \\le 7, x \\in \\text{bilangan bulat}\\}$. Anggota himpunan $A$ adalah...",
     "pilihan": ["$\\{3, 4, 5, 6, 7\\}$", "$\\{2, 3, 4, 5, 6, 7\\}$", "$\\{3, 4, 5, 6\\}$", "$\\{2, 3, 4, 5, 6\\}$", "$\\{4, 5, 6, 7\\}$"],
     "jawaban": "A",
-    "pembahasan": "$2 < x \\le 7$ artinya $x$ lebih besar dari 2 dan paling besar 7. Bilangan bulat yang memenuhi adalah $3,4,5,6,7$."
+    "pembahasan": "$2 < x \\le 7$ artinya $x$ lebih besar dari 2 dan paling besar 7. Bilangan bulat yang memenuhi adalah $3,4,5,6,7$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 2,
+    "kategori": "Mudah",
     "pertanyaan": "Jika $P = \\{1, 2, 3, 4\\}$ dan $Q = \\{3, 4, 5, 6\\}$, maka $P \\cup Q$ adalah...",
     "pilihan": ["$\\{1, 2, 3, 4, 5, 6\\}$", "$\\{3, 4\\}$", "$\\{1, 2, 5, 6\\}$", "$\\{1, 2, 3, 4\\}$", "$\\{3, 4, 5, 6\\}$"],
     "jawaban": "A",
-    "pembahasan": "Gabungan ($P \\cup Q$) berisi semua anggota dari $P$ dan $Q$ tanpa duplikasi → $\\{1,2,3,4,5,6\\}$."
+    "pembahasan": "Gabungan ($P \\cup Q$) berisi semua anggota dari $P$ dan $Q$ tanpa duplikasi → $\\{1,2,3,4,5,6\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 3,
+    "kategori": "Mudah",
     "pertanyaan": "Jika $A = \\{1, 3, 5\\}$ dan $B = \\{5, 7, 9\\}$, maka $A \\cap B$ adalah...",
     "pilihan": ["$\\{1, 3, 5, 7, 9\\}$", "$\\{5\\}$", "$\\{1, 3, 7, 9\\}$", "$\\{\\}$", "$\\{1, 3, 5\\}$"],
     "jawaban": "B",
-    "pembahasan": "Irisan ($A \\cap B$) berisi anggota yang sama di $A$ dan $B$, yaitu $5$."
+    "pembahasan": "Irisan ($A \\cap B$) berisi anggota yang sama di $A$ dan $B$, yaitu $5$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 4,
+    "kategori": "Mudah",
     "pertanyaan": "Jika $U = \\{1,2,3,4,5,6,7,8,9,10\\}$ dan $A = \\{1,3,5,7,9\\}$, maka komplemen $A^c$ terhadap $U$ adalah...",
     "pilihan": ["$\\{2,4,6,8,10\\}$", "$\\{1,3,5,7,9\\}$", "$\\{1,2,3,4,5,6,7,8,9,10\\}$", "$\\{\\}$", "$\\{2,4,6\\}$"],
     "jawaban": "A",
-    "pembahasan": "Komplemen $A^c$ adalah anggota $U$ yang tidak ada di $A$, yaitu $\\{2,4,6,8,10\\}$."
+    "pembahasan": "Komplemen $A^c$ adalah anggota $U$ yang tidak ada di $A$, yaitu $\\{2,4,6,8,10\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 5,
+    "kategori": "Sedang",
     "pertanyaan": "Diberikan $P = \\{x \\mid x \\text{ bilangan prima } < 15\\}$ dan $Q = \\{x \\mid x \\text{ bilangan genap } < 12\\}$. Maka $P \\cap Q$ adalah...",
     "pilihan": ["$\\{2\\}$", "$\\{2,3,5,7,11\\}$", "$\\{2,4,6,8,10\\}$", "$\\{\\}$", "$\\{3,5,7,11,13\\}$"],
     "jawaban": "A",
-    "pembahasan": "$P = \\{2,3,5,7,11,13\\}$, $Q = \\{2,4,6,8,10\\}$ $\\rightarrow$ irisan = $\\{2\\}$."
+    "pembahasan": "$P = \\{2,3,5,7,11,13\\}$, $Q = \\{2,4,6,8,10\\}$ $\\rightarrow$ irisan = $\\{2\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 6,
+    "kategori": "Sedang",
     "pertanyaan": "Jika $A = \\{x \\mid x^2 - 4 = 0\\}$ dan $B = \\{x \\mid x \\text{ bilangan genap positif } < 5\\}$, maka $A \\cup B$ adalah...",
     "pilihan": ["$\\{-2,2,4\\}$", "$\\{2\\}$", "$\\{-2,2\\}$", "$\\{2,4\\}$", "$\\{\\}$"],
     "jawaban": "A",
-    "pembahasan": "Dari $x^2-4=0$ diperoleh $x=\\pm 2$. Jadi $A=\\{-2,2\\}$, $B=\\{2,4\\}$. Gabungan: $\\{-2,2,4\\}$."
+    "pembahasan": "Dari $x^2-4=0$ diperoleh $x=\\pm 2$. Jadi $A=\\{-2,2\\}$, $B=\\{2,4\\}$. Gabungan: $\\{-2,2,4\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 7,
+    "kategori": "Sedang",
     "pertanyaan": "Diberikan himpunan $S = \\{1,2,3,4,5,6,7,8,9,10\\}$. Jika $A$ himpunan bilangan ganjil dalam $S$ dan $B$ himpunan bilangan prima dalam $S$, maka banyak anggota dari $(A \\cap B)'$ adalah...",
     "pilihan": ["1", "2", "6", "7", "8"],
     "jawaban": "D",
-    "pembahasan": "$A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7\\}$, $A\\cap B=\\{3,5,7\\}$, komplemen: $S-(A\\cap B)=\\{1,2,4,6,8,9,10\\}$ $\\rightarrow$ 7 anggota."
+    "pembahasan": "$A=\\{1,3,5,7,9\\}$, $B=\\{2,3,5,7\\}$, $A\\cap B=\\{3,5,7\\}$, komplemen: $S-(A\\cap B)=\\{1,2,4,6,8,9,10\\}$ $\\rightarrow$ 7 anggota.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 8,
+    "kategori": "Sedang",
     "pertanyaan": "Jika operasi $\\oplus$ didefinisikan sebagai $a \\oplus b = a^2 - 2b$, maka nilai dari $(3 \\oplus 1) \\oplus 2$ adalah...",
     "pilihan": ["3", "5", "7", "10", "45"],
     "jawaban": "E",
-    "pembahasan": "$3\\oplus1=3^2-2\\cdot1=7$, $7\\oplus2=7^2-2\\cdot2=49-4=45$."
+    "pembahasan": "$3\\oplus1=3^2-2\\cdot1=7$, $7\\oplus2=7^2-2\\cdot2=49-4=45$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 9,
+    "kategori": "Sedang",
     "pertanyaan": "Sebuah operasi $\\star$ didefinisikan sebagai $a \\star b = (a+b)^2 - ab$. Nilai dari $5 \\star (2 \\star 1)$ adalah...",
     "pilihan": ["101", "105", "109", "120", "144"],
     "jawaban": "C",
-    "pembahasan": "$2\\star1=(2+1)^2-2\\cdot1=9-2=7$, $5\\star7=(5+7)^2-5\\cdot7=144-35=109$."
+    "pembahasan": "$2\\star1=(2+1)^2-2\\cdot1=9-2=7$, $5\\star7=(5+7)^2-5\\cdot7=144-35=109$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 10,
+    "kategori": "Sedang",
     "pertanyaan": "Diketahui $A=\\{x\\mid x^2-5x+6=0\\}$ dan $B=\\{x\\mid x \\text{ faktor dari } 12\\}$. Maka $A \\cup B$ adalah...",
     "pilihan": ["$\\{1,2,3,4,6,12\\}$", "$\\{2,3\\}$", "$\\{1,2,3,4,6\\}$", "$\\{1,2,3,4,6,12,18\\}$", "$\\{1,2,3,4,5,6,12\\}$"],
     "jawaban": "A",
-    "pembahasan": "$x^2-5x+6=0 \\rightarrow x=2,3$, $A=\\{2,3\\}$, faktor $12=\\{1,2,3,4,6,12\\}$, gabungan $\\rightarrow \\{1,2,3,4,6,12\\}$."
+    "pembahasan": "$x^2-5x+6=0 \\rightarrow x=2,3$, $A=\\{2,3\\}$, faktor $12=\\{1,2,3,4,6,12\\}$, gabungan $\\rightarrow \\{1,2,3,4,6,12\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 11,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $X = \\{1,2,3,4,5\\}$ dan $Y = \\{3,4,5,6,7\\}$, maka banyak anggota $(X \\cup Y) \\setminus (X \\cap Y)$ adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "C",
-    "pembahasan": "$X\\cup Y=\\{1,2,3,4,5,6,7\\}$, $X\\cap Y=\\{3,4,5\\}$, selisih = $\\{1,2,6,7\\}$ $\\rightarrow$ banyak 4."
+    "pembahasan": "$X\\cup Y=\\{1,2,3,4,5,6,7\\}$, $X\\cap Y=\\{3,4,5\\}$, selisih = $\\{1,2,6,7\\}$ $\\rightarrow$ banyak 4.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 12,
+    "kategori": "Sulit",
     "pertanyaan": "Hasil dari $(-2)^3 + 4 \\times (-1)$ adalah...",
     "pilihan": ["-12", "-8", "-6", "-10", "-4"],
     "jawaban": "A",
-    "pembahasan": "$(-2)^3=-8$, $4\\times(-1)=-4$, jumlah $=-12$."
+    "pembahasan": "$(-2)^3=-8$, $4\\times(-1)=-4$, jumlah $=-12$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 13,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\{2,4,6,8\\}$ dan $B = \\{1,2,3,4\\}$, maka $A \\setminus B$ adalah...",
     "pilihan": ["$\\{2,4\\}$", "$\\{6,8\\}$", "$\\{1,3\\}$", "$\\{2,4,6,8\\}$", "$\\{1,2,3,4,6,8\\}$"],
     "jawaban": "B",
-    "pembahasan": "$A\\setminus B = \\text{anggota } A \\text{ yang tidak ada di } B \\rightarrow \\{6,8\\}$."
+    "pembahasan": "$A\\setminus B = \\text{anggota } A \\text{ yang tidak ada di } B \\rightarrow \\{6,8\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 14,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $a \\oplus b = 3a - 2b$, maka $(4 \\oplus 1) \\oplus 2$ adalah...",
     "pilihan": ["26", "5", "8", "10", "12"],
     "jawaban": "A",
-    "pembahasan": "$4\\oplus1 = 3\\cdot4-2\\cdot1=10$, $10\\oplus2=3\\cdot10-2\\cdot2=30-4=26$."
+    "pembahasan": "$4\\oplus1 = 3\\cdot4-2\\cdot1=10$, $10\\oplus2=3\\cdot10-2\\cdot2=30-4=26$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 15,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $M = \\{x \\mid x \\text{ bilangan genap } < 10\\}$ dan $N = \\{x \\mid x \\text{ bilangan ganjil } < 10\\}$, maka $M \\cap N$ adalah...",
     "pilihan": ["$\\{1,3,5,7,9\\}$", "$\\{2,4,6,8\\}$", "$\\{\\}$", "$\\{1,2,3,4,5\\}$", "$\\{2,3,4,5\\}$"],
     "jawaban": "C",
-    "pembahasan": "Irisan bilangan genap dan ganjil adalah himpunan kosong $\\rightarrow \\{\\}$."
+    "pembahasan": "Irisan bilangan genap dan ganjil adalah himpunan kosong $\\rightarrow \\{\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 16,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\{1,2,3\\}$ dan $B = \\{2,3,4\\}$, maka $(A\\cup B) \\cap (A\\setminus B)$ adalah...",
     "pilihan": ["$\\{1\\}$", "$\\{2\\}$", "$\\{3\\}$", "$\\{4\\}$", "$\\{1,2,3\\}$"],
     "jawaban": "A",
-    "pembahasan": "$A\\cup B=\\{1,2,3,4\\}$, $A\\setminus B=\\{1\\}$, irisan $ = \\{1\\}$."
+    "pembahasan": "$A\\cup B=\\{1,2,3,4\\}$, $A\\setminus B=\\{1\\}$, irisan $ = \\{1\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 17,
+    "kategori": "Sulit",
     "pertanyaan": "Hasil dari $5 \\times (-3) + 2^3$ adalah...",
     "pilihan": ["-7", "-1", "1", "7", "11"],
     "jawaban": "A",
-    "pembahasan": "$5\\times(-3)=-15$, $2^3=8$, jumlah $=-15+8=-7$."
+    "pembahasan": "$5\\times(-3)=-15$, $2^3=8$, jumlah $=-15+8=-7$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 18,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\{x\\mid x \\text{ bilangan ganjil } < 10\\}$, $B = \\{x\\mid x \\text{ bilangan prima } < 10\\}$, maka $A\\cap B$ adalah...",
     "pilihan": ["$\\{1,3,5,7,9\\}$", "$\\{3,5,7\\}$", "$\\{2,3,5,7\\}$", "$\\{2,3,5\\}$", "$\\{1,2,3,4,5,7\\}$"],
     "jawaban": "B",
-    "pembahasan": "Ganjil$<10=\\{1,3,5,7,9\\}$, prima$<10=\\{2,3,5,7\\}$, irisan $=\\{3,5,7\\}$."
+    "pembahasan": "Ganjil$<10=\\{1,3,5,7,9\\}$, prima$<10=\\{2,3,5,7\\}$, irisan $=\\{3,5,7\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 19,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $X = \\{1,2,3,4\\}$, $Y = \\{3,4,5,6\\}$, $Z = \\{4,5,6,7\\}$, maka $(X\\cup Y)\\cap Z$ adalah...",
     "pilihan": ["$\\{4,5,6\\}$", "$\\{3,4\\}$", "$\\{4\\}$", "$\\{1,2,3\\}$", "$\\{1,2,3,4\\}$"],
     "jawaban": "A",
-    "pembahasan": "$X\\cup Y=\\{1,2,3,4,5,6\\}$, irisan dengan $Z=\\{4,5,6,7\\}$ $\\rightarrow \\{4,5,6\\}$."
+    "pembahasan": "$X\\cup Y=\\{1,2,3,4,5,6\\}$, irisan dengan $Z=\\{4,5,6,7\\}$ $\\rightarrow \\{4,5,6\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   },
   {
     "id": 20,
+    "kategori": "Sulit",
     "pertanyaan": "Jika $A = \\{x\\mid x \\text{ bilangan bulat } 1\\le x\\le 5\\}$ dan $B = \\{x\\mid x \\text{ bilangan bulat } 3\\le x\\le 7\\}$, maka $A\\setminus B$ adalah...",
     "pilihan": ["$\\{1,2\\}$", "$\\{3,4,5\\}$", "$\\{5\\}$", "$\\{6,7\\}$", "$\\{1,2,3,4,5\\}$"],
     "jawaban": "A",
-    "pembahasan": "$A\\setminus B = \\text{anggota } A \\text{ yang tidak ada di } B \\rightarrow \\{1,2\\}$."
+    "pembahasan": "$A\\setminus B = \\text{anggota } A \\text{ yang tidak ada di } B \\rightarrow \\{1,2\\}$.",
+    "gambar": "",
+    "gambar_pembahasan": ""
   }
 ]
