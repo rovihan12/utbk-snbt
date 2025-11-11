@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\begin{pmatrix} 2x & 3 \\\\ 4 & y \\end{pmatrix} + \\begin{pmatrix} 1 & -2 \\\\ -3 & 5 \\end{pmatrix} = \\begin{pmatrix} 7 & 1 \\\\ 1 & 12 \\end{pmatrix}$, maka nilai $x+y$ adalah...",
+    "pilihan": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Jumlahkan matriks di sisi kiri persamaan:\n\n$\\begin{pmatrix} 2x+1 & 3-2 \\\\ 4-3 & y+5 \\end{pmatrix} = \\begin{pmatrix} 7 & 1 \\\\ 1 & 12 \\end{pmatrix}$\n\n$\\begin{pmatrix} 2x+1 & 1 \\\\ 1 & y+5 \\end{pmatrix} = \\begin{pmatrix} 7 & 1 \\\\ 1 & 12 \\end{pmatrix}$\n\nDari kesamaan elemen:\n\n$2x+1 = 7 \\implies 2x = 6 \\implies x = 3$\n\n$y+5 = 12 \\implies y = 7$\n\nJadi, $x+y = 3+7 = 10$"
+  }
