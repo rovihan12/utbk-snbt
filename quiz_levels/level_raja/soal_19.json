@@ -1,0 +1,14 @@
+ {
+    "id": 1,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^3\\log 5 = b$, maka $^6\\log 15$ adalah...",
+    "pilihan": [
+      "$\\frac{a+b}{1+a}$",
+      "$\\frac{1+ab}{1+a}$",
+      "$\\frac{a(1+b)}{1+a}$",
+      "$\\frac{a+b}{ab}$",
+      "$\\frac{a-b}{a+b}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ubah ke basis 2:\n$^2\\log 5 = ab$\n$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6}$\n$= \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3}$\n$= \\frac{a + ab}{1 + a} = \\frac{a(1+b)}{1+a}$"
+  }
