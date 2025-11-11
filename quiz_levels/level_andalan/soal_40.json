@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "pertanyaan": "Peluang terpilihnya sekretaris perempuan dengan ketua dan bendahara berjenis kelamin berbeda adalah....",
+    "pilihan": [
+      "$\\frac{2}{75}$",
+      "$\\frac{2}{25}$",
+      "$\\frac{9}{92}$",
+      "$\\frac{4}{25}$",
+      "$\\frac{9}{46}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah **Permutasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ pengurus dari $25$ orang.\n    $N(S) = P(25, 3) = 13.800$\n\n2.  **Hitung Kejadian ($N(A)$):** Sek (P) dan Ketua-Bendahara berbeda jenis kelamin.\n\n    * **Skenario A (P, L, P):** Sek $10 \\times$ Ket $15 \\times$ Ben $9 = 1.350$ cara\n    * **Skenario B (P, P, L):** Sek $10 \\times$ Ket $9 \\times$ Ben $15 = 1.350$ cara\n\n    $N(A) = 1.350 + 1.350 = 2.700$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{2.700}{13.800}$\n\n4.  **Sederhanakan:**\n    $P(A) = \\frac{27}{138}$ (Bagi dengan $100$)\n    $P(A) = \\frac{9}{46}$ (Bagi dengan $3$)"
+  }
