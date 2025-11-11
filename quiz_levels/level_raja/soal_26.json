@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "kategori": "Sulit",
+    "pertanyaan": "Tentukan himpunan penyelesaian dari pertidaksamaan $^{0.5}\\log (x^2 - 4x) > -2$.",
+    "pilihan": ["$0 < x < 4$", "$x < 0$ atau $x > 4$", "$-2 < x < 0$ atau $4 < x < 6$", "$x < -2$ atau $x > 6$", "$0 < x < 2$ atau $4 < x < 6$"],
+    "jawaban": "C",
+    "pembahasan": "Syarat: $x^2-4x>0 \\Rightarrow x<0$ atau $x>4$ \n\nPertidaksamaan: $(x^2 - 4x)^{-1} > -2 \\Rightarrow x^2 - 4x -4 <0$ \n\nPenyelesaian: $2-2\\sqrt{2} < x < 2+2\\sqrt{2} \\approx -0.828 < x < 4.828$ \n\nIrisan dengan syarat: $(-2 < x < 0)$ atau $(4 < x < 6)$."
+  }
