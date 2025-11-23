@@ -1,10 +1,13 @@
-{
-    "id": 1,
-    "pertanyaan": "Pola deret angka: 1, 2, 4, 8, 16, 32, ...\n\nAngka berikutnya dalam deret ini adalah...",
+  {
+    "id": ,
+    "pertanyaan": "Pola deret angka: 100, 95, 91, 88, 86, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
-      "48",
-      "56",
-      "64",
-      "72",
-      "80"
-    ]
+      "85",
+      "84",
+      "83",
+      "82",
+      "81"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pola deret ini adalah pengurangan angka yang berurutan, dimulai dari 5. Polanya adalah: \n$100-5 = 95$\n$95-4 = 91$\n$91-3 = 88$\n$88-2 = 86$\nMaka, angka berikutnya adalah $86-1 = 85$."
+  }
