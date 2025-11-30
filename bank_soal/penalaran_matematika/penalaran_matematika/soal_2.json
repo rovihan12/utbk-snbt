@@ -58,12 +58,12 @@
     "jawaban": "B",
     "pembahasan": "Total berat awal:\n$5 \\times 45 = 225$\n\nDitambah siswa baru:\n$225 + 51 = 276$\n\nJumlah siswa sekarang: 6\n$\\text{Rata-rata} = \\frac{276}{6} = 46$\n\nJadi jawabannya adalah **46 kg**."
   },
-  {
+    {
     "id": 6,
-    "pertanyaan": "Jika 5x - 3 = 17, maka nilai dari x + 10 adalah...",
-    "pilihan": ["14", "16", "18", "20", "22"],
-    "jawaban": "A",
-    "pembahasan": "$5x - 3 = 17 \\Rightarrow 5x = 20 \\Rightarrow x = 4$\n\nMaka:\n$x + 10 = 4 + 10 = 14$\n\nJadi jawabannya adalah **14**."
+    "pertanyaan": "Sebuah restoran mencatat bahwa rata-rata penjualan per hari adalah 150 porsi dengan simpangan baku 15 porsi. Jika penjualan mengikuti distribusi normal, berapa persentase hari restoran akan menjual lebih dari 180 porsi?",
+    "pilihan": ["Kurang dari 1%", "Sekitar 2.5%", "Sekitar 5%", "Sekitar 10%", "Lebih dari 10%"],
+    "jawaban": "B",
+    "pembahasan": "Langkah 1: Hitung nilai Z. \\( Z = \\frac{180 - 150}{15} = 2 \\). \nLangkah 2: Dari tabel normal, \\( P(Z > 2) = 0.0228 = 2.28\\% \\). Jadi, sekitar **2.5%** hari restoran menjual lebih dari 180 porsi."
   },
   {
     "id": 7,
