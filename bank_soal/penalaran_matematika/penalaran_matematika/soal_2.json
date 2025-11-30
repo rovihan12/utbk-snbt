@@ -58,12 +58,12 @@
     "jawaban": "B",
     "pembahasan": "Total berat awal:\n$5 \\times 45 = 225$\n\nDitambah siswa baru:\n$225 + 51 = 276$\n\nJumlah siswa sekarang: 6\n$\\text{Rata-rata} = \\frac{276}{6} = 46$\n\nJadi jawabannya adalah **46 kg**."
   },
-    {
+  {
     "id": 6,
     "pertanyaan": "Sebuah restoran mencatat bahwa rata-rata penjualan per hari adalah 150 porsi dengan simpangan baku 15 porsi. Jika penjualan mengikuti distribusi normal, berapa persentase hari restoran akan menjual lebih dari 180 porsi?",
     "pilihan": ["Kurang dari 1%", "Sekitar 2.5%", "Sekitar 5%", "Sekitar 10%", "Lebih dari 10%"],
     "jawaban": "B",
-    "pembahasan": "Langkah 1: Hitung nilai Z. \\( Z = \\frac{180 - 150}{15} = 2 \\). \nLangkah 2: Dari tabel normal, \\( P(Z > 2) = 0.0228 = 2.28\\% \\). Jadi, sekitar **2.5%** hari restoran menjual lebih dari 180 porsi."
+    "pembahasan": "Langkah 1: Hitung nilai Z. $ Z = \\frac{180 - 150}{15} = 2 $. \nLangkah 2: Dari tabel normal, $ P(Z > 2) = 0.0228 = 2.28\\% $. Jadi, sekitar **2.5%** hari restoran menjual lebih dari 180 porsi."
   },
   {
     "id": 7,
@@ -119,7 +119,7 @@
     "jawaban": "E",
     "pembahasan": "1. Luas total sawah: $(\\text{Jumlah petak}) \\times (\\text{Luas satu petak}) = 36 \\times (6 \\times 6) = 36 \\times 36 = 1.296 \\text{ } m^2$.\n2. Panjang sisi depan ($P$) = $12 \\text{ m}$.\n3. Panjang sisi samping ($S$): $L = P \\times S \\implies 1.296 = 12 \\times S$.\n4. $S = \\frac{1.296}{12} = 108 \\text{ m}$.\n(Verifikasi: Sisi depan $12 \\text{ m}$ adalah $2 \\times 6 \\text{ m}$ (2 petak). Jumlah petak di sisi samping adalah $36 / 2 = 18$ petak. Panjang samping $= 18 \\times 6 \\text{ m} = 108 \\text{ m}$)"
   },
-    {
+  {
     "id": 13,
     "pertanyaan": "Untuk keperluan pengairan tanaman, sawah dilengkapi parit yang letaknya di antara tiap-tiap petak kecil. Jika terdapat dua baris petak sawah, masing-masing terdiri atas 18 petak dan lebar parit 0,5 m, luas sawah beserta parit yang ada di dalamnya adalah $\\dots m^2$.",
     "pilihan": [
@@ -130,7 +130,7 @@
       "$12,5 \\times 109,5$"
     ],
     "jawaban": "A",
-    "pembahasan": "Sawah berbentuk $2 \\times 18$ petak ($36$ petak total).\n\n1.  **Dimensi Lebar ($L'$):** $2$ petak ($6 \\text{ m}$ per petak) dan $1$ parit ($0,5 \\text{ m}$).\n    $$L' = (2 \\times 6) + (1 \\times 0,5) = 12 + 0,5 = 12,5 \\text{ m}$$\n\n2.  **Dimensi Panjang ($P'$):** $18$ petak ($6 \\text{ m}$ per petak) dan $17$ parit ($0,5 \\text{ m}$) di antaranya.\n    $$P' = (18 \\times 6) + ((18-1) \\times 0,5) = 108 + (17 \\times 0,5) = 108 + 8,5 = 116,5 \\text{ m}$$\n\n3.  **Luas Total:**\n    $$\\text{Luas Total} = L' \\times P' = 12,5 \\text{ m} \\times 116,5 \\text{ m}$$\n\nJawaban yang benar adalah **$12,5 \\times 116,5$**."
+    "pembahasan": "Sawah berbentuk $2 \\times 18$ petak ($36$ petak total).\n\n1.  **Dimensi Lebar ($L'$):** $2$ petak ($6 \\text{ m}$ per petak) dan $1$ parit ($0,5 \\text{ m}$).\n    $L' = (2 \\times 6) + (1 \\times 0,5) = 12 + 0,5 = 12,5 \\text{ m}$\n\n2.  **Dimensi Panjang ($P'$):** $18$ petak ($6 \\text{ m}$ per petak) dan $17$ parit ($0,5 \\text{ m}$) di antaranya.\n    $P' = (18 \\times 6) + ((18-1) \\times 0,5) = 108 + (17 \\times 0,5) = 108 + 8,5 = 116,5 \\text{ m}$\n\n3.  **Luas Total:**\n    $\\text{Luas Total} = L' \\times P' = 12,5 \\text{ m} \\times 116,5 \\text{ m}$\n\nJawaban yang benar adalah **$12,5 \\times 116,5$**."
   },
   {
     "id": 14,
@@ -167,7 +167,7 @@
       "12"
     ],
     "jawaban": "Tidak ada di pilihan (8)",
-    "pembahasan": "1.  **Definisikan Variabel:** Misalkan umur Adi ($A$) dan umur Intan ($I$).\n2.  **Tulis Persamaan I (Perbandingan):**\n    $$A = 2I \\quad \\dots (1)$\n3.  **Tulis Persamaan II (Selisih):**\n    $A = I + 8 \\quad \\dots (2)$\n4.  **Substitusi (1) ke (2):**\n    $2I = I + 8$\n    $2I - I = 8$\n    $$I = 8$\n    Umur Intan adalah **8 tahun**.\n    (Catatan: Berdasarkan perhitungan, jawaban adalah 8. Karena 8 tidak ada di pilihan, diasumsikan terdapat kesalahan penulisan pada pilihan ganda.)"
+    "pembahasan": "1.  **Definisikan Variabel:** Misalkan umur Adi ($A$) dan umur Intan ($I$).\n2.  **Tulis Persamaan I (Perbandingan):**\n    $A = 2I \\quad \\dots (1)$\n3.  **Tulis Persamaan II (Selisih):**\n    $A = I + 8 \\quad \\dots (2)$\n4.  **Substitusi (1) ke (2):**\n    $2I = I + 8$\n    $2I - I = 8$\n    $I = 8$\n    Umur Intan adalah **8 tahun**.\n    (Catatan: Berdasarkan perhitungan, jawaban adalah 8. Karena 8 tidak ada di pilihan, diasumsikan terdapat kesalahan penulisan pada pilihan ganda.)"
   },
   {
     "id": 17,
@@ -192,7 +192,7 @@
       "31"
     ],
     "jawaban": "D",
-    "pembahasan": "Pemilihan Juara dan Runner-up adalah **Permutasi** karena urutan (jabatan) diperhatikan. Kita memilih $k=2$ orang dari $n$ peserta.\n\n1.  **Rumus Permutasi:**\n    $P(n, 2) = n \\times (n-1)$\n2.  **Selesaikan Persamaan:**\n    $n(n-1) = 870$\n    Kita mencari dua bilangan bulat berurutan yang hasil kalinya 870.\n    $30 \\times 29 = 870$$\n3.  **Hasil:** $n = 30$. Jadi, banyak peserta adalah **30**."
+    "pembahasan": "Pemilihan Juara dan Runner-up adalah **Permutasi** karena urutan (jabatan) diperhatikan. Kita memilih $k=2$ orang dari $n$ peserta.\n\n1.  **Rumus Permutasi:**\n    $P(n, 2) = n \\times (n-1)$\n2.  **Selesaikan Persamaan:**\n    $n(n-1) = 870$\n    Kita mencari dua bilangan bulat berurutan yang hasil kalinya 870.\n    $30 \\times 29 = 870$\n3.  **Hasil:** $n = 30$. Jadi, banyak peserta adalah **30**."
   },
   {
     "id": 19,
@@ -205,7 +205,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "1.  **Tentukan Nilai Statis:**\n    * Median ($Me$) = 10.\n    * Modus ($Mo$) = $Me + 1 = 10 + 1 = 11$.\n    * Rata-rata ($\\bar{x}$) : $Me = \\bar{x} + 1 \\implies 10 = \\bar{x} + 1 \\implies \\bar{x} = 9$.\n\n2.  **Susun Bilangan:** Misalkan lima bilangan tersebut adalah $a, b, 10, d, e$ (urutan naik).\n    * Karena $Mo=11$ dan $10$ hanya muncul sekali, maka $11$ harus muncul minimal 2 kali: $a, b, 10, 11, 11$.\n\n3.  **Terapkan Rata-rata:**\n    $$\\bar{x} = 9 \\implies \\frac{a + b + 10 + 11 + 11}{5} = 9$$\n    $$a + b + 32 = 45$$\n    $$a + b = 13$$\n\n4.  **Cari Nilai Terkecil ($a$):** Untuk meminimalkan $a$, maksimalkan $b$ dengan syarat $b \\leq c \\implies b \\leq 10$. Ambil $b$ maksimum, yaitu $b=10$. Maka $a = 13 - 10 = 3$. Bilangan terkecil yang mungkin adalah **3**."
+    "pembahasan": "1.  **Tentukan Nilai Statis:**\n    * Median ($Me$) = 10.\n    * Modus ($Mo$) = $Me + 1 = 10 + 1 = 11$.\n    * Rata-rata ($\\bar{x}$) : $Me = \\bar{x} + 1 \\implies 10 = \\bar{x} + 1 \\implies \\bar{x} = 9$.\n\n2.  **Susun Bilangan:** Misalkan lima bilangan tersebut adalah $a, b, 10, d, e$ (urutan naik).\n    * Karena $Mo=11$ dan $10$ hanya muncul sekali, maka $11$ harus muncul minimal 2 kali: $a, b, 10, 11, 11$.\n\n3.  **Terapkan Rata-rata:**\n    $\\bar{x} = 9 \\implies \\frac{a + b + 10 + 11 + 11}{5} = 9$\n    $a + b + 32 = 45$\n    $a + b = 13$\n\n4.  **Cari Nilai Terkecil ($a$):** Untuk meminimalkan $a$, maksimalkan $b$ dengan syarat $b \\leq c \\implies b \\leq 10$. Ambil $b$ maksimum, yaitu $b=10$. Maka $a = 13 - 10 = 3$. Bilangan terkecil yang mungkin adalah **3**."
   },
   {
     "id": 20,
@@ -218,6 +218,6 @@
       "$\\frac{1}{2500}$"
     ],
     "jawaban": "Tidak ada di pilihan (1/100)",
-    "pembahasan": "Peluang menjawab semua pertanyaan dengan benar adalah perkalian dari peluang menjawab benar pada setiap pertanyaan.\n\n1.  **Peluang Benar Soal Benar-Salah (2 Soal):**\n    * $P_{BS} = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$\n\n2.  **Peluang Benar Soal Pilihan Ganda (2 Soal, 5 Opsi):**\n    * $P_{PG} = \\frac{1}{5} \\times \\frac{1}{5} = \\frac{1}{25}$\n\n3.  **Peluang Total:**\n    $$P_{\\text{total}} = P_{BS} \\times P_{PG} = \\frac{1}{4} \\times \\frac{1}{25} = \\frac{1}{100}$$\n    (Catatan: Hasil perhitungan yang benar adalah $\\frac{1}{100}$. Karena tidak ada di pilihan (A) sampai (E), jawaban harus dinyatakan sebagai hasil perhitungan.)"
+    "pembahasan": "Peluang menjawab semua pertanyaan dengan benar adalah perkalian dari peluang menjawab benar pada setiap pertanyaan.\n\n1.  **Peluang Benar Soal Benar-Salah (2 Soal):**\n    * $P_{BS} = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$\n\n2.  **Peluang Benar Soal Pilihan Ganda (2 Soal, 5 Opsi):**\n    * $P_{PG} = \\frac{1}{5} \\times \\frac{1}{5} = \\frac{1}{25}$\n\n3.  **Peluang Total:**\n    $P_{\\text{total}} = P_{BS} \\times P_{PG} = \\frac{1}{4} \\times \\frac{1}{25} = \\frac{1}{100}$\n    (Catatan: Hasil perhitungan yang benar adalah $\\frac{1}{100}$. Karena tidak ada di pilihan (A) sampai (E), jawaban harus dinyatakan sebagai hasil perhitungan.)"
   }
 ]
