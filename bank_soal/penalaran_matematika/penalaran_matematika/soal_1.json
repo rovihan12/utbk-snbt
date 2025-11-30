@@ -10,7 +10,7 @@
       "22"
     ],
     "jawaban": "E",
-    "pembahasan": "Misalkan $M$ = jumlah balon Merah awal dan $B$ = jumlah balon Biru awal.\n\n**1. Kondisi Pertama (4 Merah meletus):**\nSisa Merah: $M - 4$\nSisa Biru: $B$\n$B = 2(M - 4) \\quad \\rightarrow B = 2M - 8 \\quad \\dots (1)$\n\n**2. Kondisi Kedua (Melanjutkan dari kondisi 1, 10 Biru meletus):**\nSisa Merah: $M - 4$\nSisa Biru: $B - 10$\n$(M - 4) = 3(B - 10) \\quad \\rightarrow M - 4 = 3B - 30 \\quad \\rightarrow M = 3B - 26 \\quad \\dots (2)$\n\n**Substitusi (2) ke (1):**\n$B = 2(3B - 26) - 8$\n$B = 6B - 52 - 8$\n$B = 6B - 60$\n$60 = 6B - B$\n$5B = 60 \\quad \\rightarrow B = 12$\n\n**Cari M dengan substitusi B=12 ke (2):**\n$M = 3(12) - 26$\n$M = 36 - 26 \\quad \\rightarrow M = 10$\n\n**Jumlah keseluruhan balon:**\n$\\\\text{Total} = M + B = 10 + 12 = 22$"
+    "pembahasan": "Misalkan $M$ = jumlah balon Merah awal dan $B$ = jumlah balon Biru awal.\n\n**1. Kondisi Pertama (4 Merah meletus):**\nSisa Merah: $M - 4$\nSisa Biru: $B$\n$B = 2(M - 4) \\quad \\rightarrow B = 2M - 8 \\quad \\dots (1)$\n\n**2. Kondisi Kedua (Melanjutkan dari kondisi 1, 10 Biru meletus):**\nSisa Merah: $M - 4$\nSisa Biru: $B - 10$\n$(M - 4) = 3(B - 10) \\quad \\rightarrow M - 4 = 3B - 30 \\quad \\rightarrow M = 3B - 26 \\quad \\dots (2)$\n\n**Substitusi (2) ke (1):**\n$B = 2(3B - 26) - 8$\n$B = 6B - 52 - 8$\n$B = 6B - 60$\n$60 = 6B - B$\n$5B = 60 \\quad \\rightarrow B = 12$\n\n**Cari M dengan substitusi B=12 ke (2):**\n$M = 3(12) - 26$\n$M = 36 - 26 \\quad \\rightarrow M = 10$\n\n**Jumlah keseluruhan balon:**\n$\\text{Total} = M + B = 10 + 12 = 22$"
   },
   {
     "id": 2,
