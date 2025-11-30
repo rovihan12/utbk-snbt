@@ -25,9 +25,10 @@ if (empty($current_version) || empty($package_name)) {
     exit;
 }
 
-// ✅✅✅ PERUBAHAN PENTING: UPDATE KE VERSI V23
-$latest_version = "V23";
-$min_required_version = "V22";  // Versi minimal yang masih bisa digunakan
+// ✅✅✅ PERUBAHAN PENTING: UPDATE KE VERSI V25 (VERSI PERBAIKAN)
+$latest_version = "V25";
+$min_required_version = "V23";  // Versi minimal yang masih bisa digunakan
+$blocked_versions = ["V24"];    // Versi yang diblokir karena kesalahan upload
 
 // Initialize response variables
 $update_required = false;
@@ -41,47 +42,62 @@ function compareVersions($ver1, $ver2) {
     return version_compare($v1, $v2);
 }
 
-// Determine update type based on version comparison
-$compare_current_min = compareVersions($current_version, $min_required_version);
-$compare_current_latest = compareVersions($current_version, $latest_version);
-
-if ($compare_current_min < 0) {
-    // Current version is less than minimum required - FORCE UPDATE
+// Check if current version is blocked (V24 yang salah upload)
+if (in_array($current_version, $blocked_versions)) {
+    // FORCE UPDATE untuk versi yang diblokir
     $update_required = true;
     $update_type = "force";
-    $message = "⚠️ Versi aplikasi Anda ($current_version) sudah tidak didukung. " .
-               "Silakan update ke versi $latest_version untuk terus menggunakan aplikasi.";
-    
-} elseif ($compare_current_latest < 0) {
-    // Current version is less than latest - SOFT UPDATE
-    $update_required = true;
-    $update_type = "soft";
-    $message = "🎉 Versi baru $latest_version tersedia! " .
-               "Update sekarang untuk mendapatkan fitur terbaru dan perbaikan performa.";
+    $message = "🚫 Versi $current_version memiliki masalah teknis. " .
+               "Silakan segera update ke versi $latest_version untuk melanjutkan penggunaan aplikasi.";
     
 } else {
-    // Current version is up to date - NO UPDATE
-    $update_required = false;
-    $update_type = "none";
-    $message = "✅ Aplikasi Anda sudah menggunakan versi terbaru ($current_version). " .
-               "Terima kasih telah menggunakan aplikasi kami!";
+    // Determine update type based on version comparison
+    $compare_current_min = compareVersions($current_version, $min_required_version);
+    $compare_current_latest = compareVersions($current_version, $latest_version);
+
+    if ($compare_current_min < 0) {
+        // Current version is less than minimum required - FORCE UPDATE
+        $update_required = true;
+        $update_type = "force";
+        $message = "⚠️ Versi aplikasi Anda ($current_version) sudah tidak didukung. " .
+                   "Silakan update ke versi $latest_version untuk terus menggunakan aplikasi.";
+        
+    } elseif ($compare_current_latest < 0) {
+        // Current version is less than latest - SOFT UPDATE
+        $update_required = true;
+        $update_type = "soft";
+        $message = "🎉 Versi baru $latest_version tersedia! " .
+                   "Update sekarang untuk mendapatkan fitur terbaru dan perbaikan performa.";
+        
+    } else {
+        // Current version is up to date - NO UPDATE
+        $update_required = false;
+        $update_type = "none";
+        $message = "✅ Aplikasi Anda sudah menggunakan versi terbaru ($current_version). " .
+                   "Terima kasih telah menggunakan aplikasi kami!";
+    }
 }
 
 // Prepare release notes
 $release_notes = [
+    "V25" => [
+        "🔧 PERBAIKAN PENTING: Perbaikan masalah teknis pada versi sebelumnya",
+        "🚀 Optimisasi performa dan stabilitas aplikasi",
+        "📊 Peningkatan keamanan data pengguna", 
+        "🎯 Perbaikan bug minor dan crash",
+        "💫 Pengalaman pengguna yang lebih stabil"
+    ],
+    "V24" => [
+        "🚫 VERSI INI MEMILIKI MASALAH - HARAP UPDATE KE V25",
+        "Terdapat masalah teknis yang perlu diperbaiki",
+        "Update tersedia di Play Store"
+    ],
     "V23" => [
         "🚀 Fitur baru yang ditambahkan di V23",
         "📊 Peningkatan performa aplikasi", 
         "🔧 Perbaikan bug dan optimasi",
         "🎯 Update konten terbaru UTBK 2026",
         "💫 Pengalaman pengguna yang lebih baik"
-    ],
-    "V22" => [
-        "🚀 Sistem pembaruan aplikasi otomatis",
-        "🐛 Perbaikan bug crash pada beberapa device", 
-        "📚 Update materi UTBK 2026 terbaru",
-        "🎨 UI/UX yang lebih modern dan intuitif",
-        "💾 Optimisasi penggunaan memori dan storage"
     ]
 ];
 
@@ -100,8 +116,10 @@ $response = [
     "update_required" => $update_required,
     "message" => $message,
     "min_required_version" => $min_required_version,
+    "blocked_versions" => $blocked_versions,
     "play_store_url" => "https://play.google.com/store/apps/details?id=" . urlencode($package_name),
-    "release_notes" => $current_release_notes
+    "release_notes" => $current_release_notes,
+    "important_notice" => "Versi V24 memiliki masalah teknis. Harap update ke V25."
 ];
 
 // Send JSON response
