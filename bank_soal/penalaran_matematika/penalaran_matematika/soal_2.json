@@ -119,18 +119,18 @@
     "jawaban": "E",
     "pembahasan": "1. Luas total sawah: $(\\text{Jumlah petak}) \\times (\\text{Luas satu petak}) = 36 \\times (6 \\times 6) = 36 \\times 36 = 1.296 \\text{ } m^2$.\n2. Panjang sisi depan ($P$) = $12 \\text{ m}$.\n3. Panjang sisi samping ($S$): $L = P \\times S \\implies 1.296 = 12 \\times S$.\n4. $S = \\frac{1.296}{12} = 108 \\text{ m}$.\n(Verifikasi: Sisi depan $12 \\text{ m}$ adalah $2 \\times 6 \\text{ m}$ (2 petak). Jumlah petak di sisi samping adalah $36 / 2 = 18$ petak. Panjang samping $= 18 \\times 6 \\text{ m} = 108 \\text{ m}$)"
   },
-  {
+    {
     "id": 13,
     "pertanyaan": "Untuk keperluan pengairan tanaman, sawah dilengkapi parit yang letaknya di antara tiap-tiap petak kecil. Jika terdapat dua baris petak sawah, masing-masing terdiri atas 18 petak dan lebar parit 0,5 m, luas sawah beserta parit yang ada di dalamnya adalah $\\dots m^2$.",
     "pilihan": [
-      "$1,25 \\times 116,5$",
-      "$1,25 \\times 115,5$",
-      "$1,25 \\times 112,5$",
+      "$12,5 \\times 116,5$",
+      "$12,5 \\times 115,5$",
+      "$12,5 \\times 112,5$",
       "$12,5 \\times 110,5$",
       "$12,5 \\times 109,5$"
     ],
     "jawaban": "A",
-    "pembahasan": "Sawah berbentuk $2 \\times 18$ petak ($36$ petak total).\n\n1.  **Dimensi Lebar ($L'$):** $2$ petak ($6 \\text{ m}$ per petak) dan $1$ parit ($0,5 \\text{ m}$).\n    $L' = (2 \\times 6) + (1 \\times 0,5) = 12 + 0,5 = 12,5 \\text{ m}$.\n\n2.  **Dimensi Panjang ($P'$):** $18$ petak ($6 \\text{ m}$ per petak) dan $17$ parit ($0,5 \\text{ m}$).\n    $P' = (18 \\times 6) + ((18-1) \\times 0,5) = 108 + (17 \\times 0,5) = 108 + 8,5 = 116,5 \\text{ m}$.\n\n3.  **Luas Total:** $L' \\times P' = 12,5 \\text{ m} \\times 116,5 \\text{ m}$.\n\n4.  **Pilihan Jawaban:** Karena $12,5 \\times 116,5$ tidak ada di pilihan (terdapat $1,25 \\times 116,5$), diasumsikan opsi **A** adalah jawaban yang dimaksudkan, meskipun terdapat kesalahan penulisan angka desimal pada $1,25$ (seharusnya $12,5$)."
+    "pembahasan": "Sawah berbentuk $2 \\times 18$ petak ($36$ petak total).\n\n1.  **Dimensi Lebar ($L'$):** $2$ petak ($6 \\text{ m}$ per petak) dan $1$ parit ($0,5 \\text{ m}$).\n    $$L' = (2 \\times 6) + (1 \\times 0,5) = 12 + 0,5 = 12,5 \\text{ m}$$\n\n2.  **Dimensi Panjang ($P'$):** $18$ petak ($6 \\text{ m}$ per petak) dan $17$ parit ($0,5 \\text{ m}$) di antaranya.\n    $$P' = (18 \\times 6) + ((18-1) \\times 0,5) = 108 + (17 \\times 0,5) = 108 + 8,5 = 116,5 \\text{ m}$$\n\n3.  **Luas Total:**\n    $$\\text{Luas Total} = L' \\times P' = 12,5 \\text{ m} \\times 116,5 \\text{ m}$$\n\nJawaban yang benar adalah **$12,5 \\times 116,5$**."
   },
   {
     "id": 14,
