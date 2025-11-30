@@ -182,5 +182,44 @@
     ],
     "jawaban": "Tidak ada di pilihan (Rp250.000,00)",
     "pembahasan": "1.  **Definisikan Variabel:** Misalkan uang Ayah ($U_A$) dan uang Ibu ($U_I$).\n2.  **Tulis Persamaan I (Perbandingan):**\n    $$U_A = 5 U_I \\quad \\dots (1)$$\n3.  **Tulis Persamaan II (Selisih):**\n    $$U_A = U_I + 200.000 \\quad \\dots (2)$$\n4.  **Substitusi (1) ke (2) (cari $U_I$):**\n    $$5 U_I = U_I + 200.000$$\n    $$4 U_I = 200.000$$\n    $$U_I = 50.000$$ (Uang Ibu)\n5.  **Cari Uang Ayah ($U_A$):**\n    $$U_A = 5 U_I = 5 \\times 50.000$$\n    $$U_A = 250.000$$\n    Uang Ayah adalah **Rp 250.000,00**.\n    (Catatan: Berdasarkan perhitungan, jawaban adalah Rp 250.000,00. Karena nilai ini tidak ada di pilihan, diasumsikan terdapat kesalahan penulisan pada pilihan ganda atau pada nilai selisih uang di dalam soal.)"
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Suatu acara televisi rutin mengadakan kompetisi menyanyi. Setiap tahunnya hanya akan dipilih dua orang terbaik, yaitu satu juara dan satu orang runner-up. Pada tahun 2023, banyak kemungkinan susunan pemenang adalah 870 kemungkinan. Banyak peserta pada tahun 2023 adalah \\dots.",
+    "pilihan": [
+      "25",
+      "28",
+      "29",
+      "30",
+      "31"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pemilihan Juara dan Runner-up adalah **Permutasi** karena urutan (jabatan) diperhatikan. Kita memilih $k=2$ orang dari $n$ peserta.\n\n1.  **Rumus Permutasi:**\n    $$P(n, 2) = n \\times (n-1)$$\n2.  **Selesaikan Persamaan:**\n    $$n(n-1) = 870$$\n    Kita mencari dua bilangan bulat berurutan yang hasil kalinya 870.\n    $$30 \\times 29 = 870$$\n3.  **Hasil:** $n = 30$. Jadi, banyak peserta adalah **30**."
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Seorang murid menuliskan lima bilangan bulat sedemikian sehingga mediannya satu lebih besar dari rata-rata kelima bilangan bulat tersebut dan modusnya lebih besar satu dari mediannya. Jika mediannya adalah 10, maka bilangan bulat terkecil yang mungkin dari lima bilangan bulat tersebut adalah \\dots.",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1.  **Tentukan Nilai Statis:**\n    * Median ($Me$) = 10.\n    * Modus ($Mo$) = $Me + 1 = 10 + 1 = 11$.\n    * Rata-rata ($\\bar{x}$) : $Me = \\bar{x} + 1 \\implies 10 = \\bar{x} + 1 \\implies \\bar{x} = 9$.\n\n2.  **Susun Bilangan:** Misalkan lima bilangan tersebut adalah $a, b, 10, d, e$ (urutan naik).\n    * Karena $Mo=11$ dan $10$ hanya muncul sekali, maka $11$ harus muncul minimal 2 kali: $a, b, 10, 11, 11$.\n\n3.  **Terapkan Rata-rata:**\n    $$\\bar{x} = 9 \\implies \\frac{a + b + 10 + 11 + 11}{5} = 9$$\n    $$a + b + 32 = 45$$\n    $$a + b = 13$$\n\n4.  **Cari Nilai Terkecil ($a$):** Untuk meminimalkan $a$, maksimalkan $b$ dengan syarat $b \\leq c \\implies b \\leq 10$. Ambil $b$ maksimum, yaitu $b=10$. Maka $a = 13 - 10 = 3$. Bilangan terkecil yang mungkin adalah **3**."
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Feny Rosa diundang untuk bermain pada acara kuis di sebuah televisi. Kuis singkat tersebut memiliki 4 pertanyaan yang terdiri dari dua pertanyaan benar-salah dan dua pertanyaan pilihan ganda dengan lima opsi. Dengan asumsi semua pilihan memiliki kemungkinan yang sama, peluang bahwa Feny Rosa menjawab semua pertanyaan dengan benar adalah \\dots.",
+    "pilihan": [
+      "$\\frac{1}{16}$",
+      "$\\frac{1}{36}$",
+      "$\\frac{2}{50}$",
+      "$\\frac{1}{200}$",
+      "$\\frac{1}{2500}$"
+    ],
+    "jawaban": "Tidak ada di pilihan (1/100)",
+    "pembahasan": "Peluang menjawab semua pertanyaan dengan benar adalah perkalian dari peluang menjawab benar pada setiap pertanyaan.\n\n1.  **Peluang Benar Soal Benar-Salah (2 Soal):**\n    * $P_{BS} = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$\n\n2.  **Peluang Benar Soal Pilihan Ganda (2 Soal, 5 Opsi):**\n    * $P_{PG} = \\frac{1}{5} \\times \\frac{1}{5} = \\frac{1}{25}$\n\n3.  **Peluang Total:**\n    $$P_{\\text{total}} = P_{BS} \\times P_{PG} = \\frac{1}{4} \\times \\frac{1}{25} = \\frac{1}{100}$$\n    (Catatan: Hasil perhitungan yang benar adalah $\\frac{1}{100}$. Karena tidak ada di pilihan (A) sampai (E), jawaban harus dinyatakan sebagai hasil perhitungan.)"
   }
 ]
