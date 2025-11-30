@@ -92,5 +92,58 @@
     "pilihan": ["30 cm²", "60 cm²", "90 cm²", "100 cm²", "120 cm²"],
     "jawaban": "A",
     "pembahasan": "Gunakan Teorema Pythagoras:\n$13^2 = 5^2 + x^2$\n$169 = 25 + x^2$\n$x^2 = 144 \\Rightarrow x = 12$\n\nLuas segitiga:\n$L = \\tfrac{1}{2} \\times 5 \\times 12 = 30$\n\nJadi jawabannya adalah **30 cm²**."
+  },
+[
+  {
+    "id": 11,
+    "pertanyaan": "Baca teks berikut untuk menjawab soal 11 - 14 \n\n**Teks**\n\n Sepetak sawah terdiri atas $x$ petak-petak kecil lahan untuk ditanami tanaman pertanian dengan masing-masing petak berukuran $6 \\times 6$ $m^2$. Jika $f$ adalah fungsi yang menyatakan luas sawah (dalam $hm^2$), $f(x) = \\dots$.",
+    "pilihan": [
+      "$36x$",
+      "$3,6x$",
+      "$0,36x$",
+      "$0,0036x$",
+      "$0,00036x$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1. Luas satu petak: $6 \\text{ m} \\times 6 \\text{ m} = 36 \\text{ } m^2$.\n2. Luas total sawah dalam $m^2$: $L_{m^2} = x \\times 36 = 36x \\text{ } m^2$.\n3. Konversi dari $m^2$ ke $hm^2$: $1 \\text{ } hm^2 = 10.000 \\text{ } m^2$, jadi $1 \\text{ } m^2 = 0,0001 \\text{ } hm^2$.\n4. Fungsi luas dalam $hm^2$: $f(x) = 36x \\times 0,0001 = 0,0036x \\text{ } hm^2$"
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Jika jumlah petak kecil sebanyak 36 petak dan panjang sisi depan sawah 12 m, panjang sisi samping sawah adalah $\\dots$ m.",
+    "pilihan": [
+      "72",
+      "78",
+      "90",
+      "96",
+      "108"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1. Luas total sawah: $(\\text{Jumlah petak}) \\times (\\text{Luas satu petak}) = 36 \\times (6 \\times 6) = 36 \\times 36 = 1.296 \\text{ } m^2$.\n2. Panjang sisi depan ($P$) = $12 \\text{ m}$.\n3. Panjang sisi samping ($S$): $L = P \\times S \\implies 1.296 = 12 \\times S$.\n4. $S = \\frac{1.296}{12} = 108 \\text{ m}$.\n(Verifikasi: Sisi depan $12 \\text{ m}$ adalah $2 \\times 6 \\text{ m}$ (2 petak). Jumlah petak di sisi samping adalah $36 / 2 = 18$ petak. Panjang samping $= 18 \\times 6 \\text{ m} = 108 \\text{ m}$)"
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Untuk keperluan pengairan tanaman, sawah dilengkapi parit yang letaknya di antara tiap-tiap petak kecil. Jika terdapat dua baris petak sawah, masing-masing terdiri atas 18 petak dan lebar parit 0,5 m, luas sawah beserta parit yang ada di dalamnya adalah $\\dots m^2$.",
+    "pilihan": [
+      "$1,25 \\times 116,5$",
+      "$1,25 \\times 115,5$",
+      "$1,25 \\times 112,5$",
+      "$12,5 \\times 110,5$",
+      "$12,5 \\times 109,5$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Sawah berbentuk $2 \\times 18$ petak ($36$ petak total).\n\n1.  **Dimensi Lebar ($L'$):** $2$ petak ($6 \\text{ m}$ per petak) dan $1$ parit ($0,5 \\text{ m}$).\n    $L' = (2 \\times 6) + (1 \\times 0,5) = 12 + 0,5 = 12,5 \\text{ m}$.\n\n2.  **Dimensi Panjang ($P'$):** $18$ petak ($6 \\text{ m}$ per petak) dan $17$ parit ($0,5 \\text{ m}$).\n    $P' = (18 \\times 6) + ((18-1) \\times 0,5) = 108 + (17 \\times 0,5) = 108 + 8,5 = 116,5 \\text{ m}$.\n\n3.  **Luas Total:** $L' \\times P' = 12,5 \\text{ m} \\times 116,5 \\text{ m}$.\n\n4.  **Pilihan Jawaban:** Karena $12,5 \\times 116,5$ tidak ada di pilihan (terdapat $1,25 \\times 116,5$), diasumsikan opsi **A** adalah jawaban yang dimaksudkan, meskipun terdapat kesalahan penulisan angka desimal pada $1,25$ (seharusnya $12,5$)."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Petak-petak kecil pada sawah ditanami padi. Biaya pemeliharaan tanaman padi tersebut, mulai dari tanam sampai panen, sebesar Rp $650.000,00$ per petak. Jika biaya pemeliharaan tanaman padi seluruhnya sebesar Rp $26.000.000,00$, luas sawah yang ditanami padi $\\dots m^2$.",
+    "pilihan": [
+      "1.340",
+      "1.440",
+      "1.460",
+      "1.540",
+      "1.560"
+    ],
+    "jawaban": "B",
+    "pembahasan": "1.  **Hitung Jumlah Petak ($x$):**\n    $x = \\frac{\\text{Biaya Total}}{\\text{Biaya per Petak}} = \\frac{26.000.000}{650.000} = \\frac{260}{6,5} = 40 \\text{ petak}$.\n\n2.  **Hitung Luas Satu Petak:** $6 \\text{ m} \\times 6 \\text{ m} = 36 \\text{ } m^2$.\n\n3.  **Hitung Luas Total:**\n    $\\text{Luas Total} = (\\text{Jumlah petak}) \\times (\\text{Luas satu petak}) = 40 \\times 36 = 1.440 \\text{ } m^2$"
   }
 ]
