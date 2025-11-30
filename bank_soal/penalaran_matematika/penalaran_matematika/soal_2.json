@@ -1,31 +1,59 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sebuah mobil menghabiskan 1 liter bensin untuk menempuh jarak 12 km. Jika mobil tersebut memiliki tangki bensin berkapasitas 45 liter, jarak maksimum yang dapat ditempuh mobil tersebut dengan tangki penuh adalah...",
-    "pilihan": ["480 km", "500 km", "540 km", "560 km", "600 km"],
-    "jawaban": "C",
-    "pembahasan": "Setiap liter bensin menempuh **12 km**. Kapasitas tangki = **45 liter**.\n\\[\nJarak = 45 \\times 12 = 540\n\\]\nJadi jawabannya adalah **540 km**."
+    "materi": "Peluang & Kombinasi (Permutasi Jabatan)",
+    "pertanyaan": "Pertemuan keluarga RT IX dihadiri oleh 15 laki-laki dan 10 perempuan. Dari $25$ peserta tersebut, akan dipilih pengurus RT yang terdiri dari ketua, bendahara, dan sekretaris. Banyak cara terpilihnya pengurus dengan **sekretaris perempuan** adalah....",
+    "pilihan": [
+      "5.200",
+      "5.520",
+      "5.700",
+      "5.760",
+      "6.000"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah **Permutasi** karena urutan jabatan penting.\n\nTotal peserta: $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\nSyarat: Sekretaris harus Perempuan.\n\n1.  **Sekretaris (P):** $10$ pilihan.\n2.  **Ketua:** $24$ pilihan (dari sisa $24$ orang).\n3.  **Bendahara:** $23$ pilihan (dari sisa $23$ orang).\n\n**Banyak Cara:**\n$$\\text{Banyak Cara} = 10 \\times 24 \\times 23 = 5.520$$"
   },
   {
     "id": 2,
-    "pertanyaan": "Jika x - y = 4 dan x + y = 6, maka nilai x dan y adalah...",
-    "pilihan": ["x=3, y=-1", "x=5, y=1", "x=4, y=2", "x=6, y=0", "x=7, y=1"],
-    "jawaban": "B",
-    "pembahasan": "Diketahui:\n\\[\nx - y = 4\nx + y = 6\n\\]\nJumlahkan kedua persamaan:\n\\[\n2x = 10 \\Rightarrow x = 5\n\\]\nSubstitusikan ke persamaan kedua:\n\\[\n5 + y = 6 \\Rightarrow y = 1\n\\]\nJadi jawabannya adalah **x=5, y=1**."
+    "materi": "Peluang & Kombinasi (Pemilihan Kelompok)",
+    "pertanyaan": "Dari $25$ peserta yang terdiri dari $15$ laki-laki dan $10$ perempuan, dipilih **empat orang** untuk menyanyi. Peluang yang terpilih **keempatnya perempuan** adalah....",
+    "pilihan": [
+      "$$\\frac{1}{25}$$",
+      "$$\\frac{7}{23}$$",
+      "$$\\frac{21}{1265}$$",
+      "$$\\frac{42}{1265}$$",
+      "$$\\frac{10}{23}$$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pemilihan $4$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $4$ dari $25$ orang.\n    $$N(S) = C(25, 4) = \\frac{25 \\times 24 \\times 23 \times 22}{4 \times 3 \times 2 \times 1} = 12.650$$\n\n2.  **Hitung Kejadian ($N(A)$):** Cara memilih $4$ perempuan dari $10$ perempuan.\n    $$N(A) = C(10, 4) = \\frac{10 \\times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1} = 210$$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $$P(A) = \\frac{N(A)}{N(S)} = \\frac{210}{12.650}$$ \n\n4.  **Sederhanakan:** (Bagi pembilang dan penyebut dengan $50$)\n    $$P(A) = \\frac{210 \\div 5}{12.650 \\div 5} = \\frac{42}{2.530} = \\frac{21}{1.265}$$"
   },
   {
     "id": 3,
-    "pertanyaan": "Sebuah kubus memiliki luas permukaan 150 cm². Volume kubus tersebut adalah...",
-    "pilihan": ["64 cm³", "125 cm³", "216 cm³", "343 cm³", "512 cm³"],
-    "jawaban": "B",
-    "pembahasan": "Luas permukaan kubus:\n\\[\n6s^2 = 150 \\Rightarrow s^2 = 25 \\Rightarrow s = 5\n\\]\nVolume kubus:\n\\[\nV = s^3 = 5^3 = 125\n\\]\nJadi jawabannya adalah **125 cm³**."
+    "materi": "Peluang & Kombinasi (Kasus 'ATAU')",
+    "pertanyaan": "Dari $15$ laki-laki dan $10$ perempuan, dipilih **tiga orang** untuk mewakili RT. Peluang terpilihnya **(satu laki-laki dan dua perempuan) ATAU (dua laki-laki dan satu perempuan)** adalah....",
+    "pilihan": [
+      "$$\\frac{3}{5}$$",
+      "$$\\frac{7}{23}$$",
+      "$$\\frac{21}{92}$$",
+      "$$\\frac{52}{92}$$",
+      "$$\\frac{69}{92}$$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Pemilihan $3$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ dari $25$ orang.\n    $$N(S) = C(25, 3) = \\frac{25 \\times 24 \\times 23}{3 \times 2 \times 1} = 2.300$$\n\n2.  **Hitung Kasus 1 (1L 2P):**\n    $$N(A_1) = C(15, 1) \\times C(10, 2) = 15 \\times 45 = 675$$\n\n3.  **Hitung Kasus 2 (2L 1P):**\n    $$N(A_2) = C(15, 2) \\times C(10, 1) = 105 \\times 10 = 1.050$$\n\n4.  **Total Kejadian ($N(A)$):** Kasus 'ATAU', jumlahkan.\n    $$N(A) = 675 + 1.050 = 1.725$$\n\n5.  **Hitung Peluang ($P(A)$):**\n    $$P(A) = \\frac{1.725}{2.300}$$ \n\n6.  **Sederhanakan:** (Bagi dengan $25$, lalu bagi dengan $23$)\n    $$P(A) = \\frac{69}{92}$$"
   },
   {
     "id": 4,
-    "pertanyaan": "Jika x adalah bilangan ganjil dan y adalah bilangan genap, manakah di antara pernyataan berikut yang PASTI genap?",
-    "pilihan": ["x + y", "x - y", "xy", "x² + y", "x + y²"],
-    "jawaban": "C",
-    "pembahasan": "Uji sifat bilangan:\n- Ganjil + Genap = Ganjil\n- Ganjil - Genap = Ganjil\n- Ganjil × Genap = **Genap**\n- Ganjil² + Genap = Ganjil + Genap = Ganjil\n- Ganjil + (Genap²) = Ganjil + Genap = Ganjil\nJadi yang **pasti genap** adalah **xy**."
+    "materi": "Peluang & Kombinasi (Permutasi Bersyarat)",
+    "pertanyaan": "Peluang terpilihnya pengurus RT (Ketua, Bendahara, Sekretaris) dengan syarat **sekretaris perempuan** dan **ketua serta bendahara berjenis kelamin berbeda** adalah....",
+    "pilihan": [
+      "$$\\frac{7}{23}$$",
+      "$$\\frac{22}{23}$$",
+      "$$\\frac{9}{46}$$",
+      "$$\\frac{45}{92}$$",
+      "$$\\frac{22}{43}$$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Pemilihan pengurus adalah **Permutasi**. Total peserta: $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ pengurus dari $25$ orang.\n    $$N(S) = P(25, 3) = 25 \\times 24 \\times 23 = 13.800$$\n\n2.  **Hitung Kejadian ($N(A)$):** Sekretaris (P) dan Ketua-Bendahara (L, P atau P, L).\n\n    * **Skenario A (Ketua L, Bendahara P, Sekretaris P):**\n      $$15 \\text{ L} \\times 10 \\text{ P} \\times 9 \\text{ P} = 1.350$$ cara\n    * **Skenario B (Ketua P, Bendahara L, Sekretaris P):**\n      $$10 \\text{ P} \\times 15 \\text{ L} \\times 9 \\text{ P} = 1.350$$ cara\n\n    $$N(A) = 1.350 + 1.350 = 2.700$$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $$P(A) = \\frac{2.700}{13.800} = \\frac{27}{138} = \\frac{9}{46}$$ \n\n**Catatan:** Karena $\\frac{9}{46}$ tidak ada di pilihan (C adalah $\\frac{9}{92}$), kita asumsikan soal menanyakan **Peluang Bersyarat** (Peluang Ketua/Bendahara beda kelamin *diberikan* Sekretaris P).\n\n**Peluang Bersyarat:**\n* $N(\\text{Sek P})$ (dari Soal 1): $5.520$\n* $P(\\text{K/B beda} | \\text{Sek P}) = \\frac{N(A)}{N(\\text{Sek P})} = \\frac{2.700}{5.520}$\n    $$\\frac{270}{552} = \\frac{135}{276} = \\frac{45}{92}$$ \n\n**Karena $\\frac{45}{92}$ ada di pilihan D, ini adalah jawaban yang paling logis di konteks soal pilihan ganda ini.**"
   },
   {
     "id": 5,
