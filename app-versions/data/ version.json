@@ -1,14 +1,18 @@
 {
   "status": "success",
-  "latest_version": "V23",
-  "update_type": "soft",
+  "latest_version": "V25",
+  "update_type": "force",
   "update_required": true,
-  "message": "🎉 Versi baru V23 tersedia! Update sekarang untuk mendapatkan fitur terbaru dan perbaikan performa.",
-  "min_required_version": "V22",
+  "message": "🚫 Versi V24 memiliki masalah teknis. Silakan segera update ke versi V25 untuk melanjutkan penggunaan aplikasi.",
+  "min_required_version": "V23",
+  "blocked_versions": ["V24"],
   "play_store_url": "https://play.google.com/store/apps/details?id=com.rovihan.utbksnbt",
   "release_notes": [
-    "🚀 Fitur baru V23",
-    "📊 Peningkatan performa", 
-    "🔧 Perbaikan bug"
-  ]
+    "🔧 PERBAIKAN PENTING: Perbaikan masalah teknis pada versi sebelumnya",
+    "🚀 Optimisasi performa dan stabilitas aplikasi",
+    "📊 Peningkatan keamanan data pengguna",
+    "🎯 Perbaikan bug minor dan crash",
+    "💫 Pengalaman pengguna yang lebih stabil"
+  ],
+  "important_notice": "Versi V24 memiliki masalah teknis. Harap update ke V25."
 }
