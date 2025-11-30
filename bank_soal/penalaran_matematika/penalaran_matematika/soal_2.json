@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "materi": "Peluang & Kombinasi (Permutasi Jabatan)",
     "pertanyaan": "Baca teks berikut untuk menjawa soal 1-4, \n\n**Teks**\n\n Pertemuan keluarga RT IX dihadiri oleh 15 laki-laki dan 10 perempuan. Dari $25$ peserta tersebut, akan dipilih pengurus RT yang terdiri dari ketua, bendahara, dan sekretaris. Banyak cara terpilihnya pengurus dengan **sekretaris perempuan** adalah....",
     "pilihan": [
       "5.200",
@@ -10,7 +11,7 @@
       "6.000"
     ],
     "jawaban": "B",
-    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah **Permutasi** karena urutan jabatan penting.\n\nTotal peserta: $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\nSyarat: Sekretaris harus Perempuan.\n\n1.  **Sekretaris (P):** $10$ pilihan.\n2.  **Ketua:** $24$ pilihan (dari sisa $24$ orang).\n3.  **Bendahara:** $23$ pilihan (dari sisa $23$ orang).\n\n**Banyak Cara:**\n$$\\text{Banyak Cara} = 10 \\times 24 \\times 23 = 5.520$$"
+    "pembahasan": "Pemilihan pengurus (Ketua, Bendahara, Sekretaris) adalah **Permutasi** karena urutan jabatan penting.\n\nTotal peserta: $15 \\text{ Laki-laki} + 10 \\text{ Perempuan} = 25$ orang.\nSyarat: Sekretaris harus Perempuan.\n\n1.  **Sekretaris (P):** $10$ pilihan.\n2.  **Ketua:** $24$ pilihan (dari sisa $24$ orang).\n3.  **Bendahara:** $23$ pilihan (dari sisa $23$ orang).\n\n**Banyak Cara:**\n$\\text{Banyak Cara} = 10 \\times 24 \\times 23 = 5.520$"
   },
   {
     "id": 2,
@@ -24,10 +25,11 @@
       "$\\frac{10}{23}$"
     ],
     "jawaban": "D",
-    "pembahasan": "Pemilihan $4$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $4$ dari $25$ orang.\n    $$N(S) = C(25, 4) = \\frac{25 \\times 24 \\times 23 \\times 22}{4 \\times 3 \\times 2 \\times 1} = 12.650$$\n\n2.  **Hitung Kejadian ($N(A)$):** Cara memilih $4$ perempuan dari $10$ perempuan.\n    $$N(A) = C(10, 4) = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 210$$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $$P(A) = \\frac{N(A)}{N(S)} = \\frac{210}{12.650}$$ \n\n4.  **Sederhanakan:** (Bagi pembilang dan penyebut dengan $5$ dan kemudian dengan $10$)\n    $$P(A) = \\frac{210 \\div 5}{12.650 \\div 5} = \\frac{42}{2.530}$$ \n    *Penyederhanaan yang benar adalah $\\frac{210}{6325} = \\frac{42}{1265}$. Karena $\\frac{42}{1265}$ ada di pilihan D, kita pilih ini sebagai jawaban yang benar secara matematis, meskipun soal aslinya menyertakan $\\frac{21}{1265}$ (pilihan C) dan $\\frac{42}{1265}$ (pilihan D).* \n\n    $$P(A) = \\frac{42}{1.265}$$"
+    "pembahasan": "Pemilihan $4$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $4$ dari $25$ orang.\n    $N(S) = C(25, 4) = \\frac{25 \\times 24 \\times 23 \\times 22}{4 \\times 3 \\times 2 \\times 1} = 12.650$\n\n2.  **Hitung Kejadian ($N(A)$):** Cara memilih $4$ perempuan dari $10$ perempuan.\n    $N(A) = C(10, 4) = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 210$\n\n3.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{N(A)}{N(S)} = \\frac{210}{12.650}$ \n\n4.  **Sederhanakan:** (Bagi pembilang dan penyebut dengan $5$)\n    $P(A) = \\frac{210 \\div 5}{12.650 \\div 5} = \\frac{42}{2.530}$\n\n    *Penyederhanaan yang benar adalah $P(A) = \\frac{210}{6325} = \\frac{42}{1265}$. Karena $\\frac{42}{1265}$ ada di pilihan D, kita pilih ini sebagai jawaban yang benar secara matematis.*\n\n    $P(A) = \\frac{42}{1.265}$"
   },
   {
     "id": 3,
+    "materi": "Peluang & Kombinasi (Kasus 'ATAU')",
     "pertanyaan": "Dari $15$ laki-laki dan $10$ perempuan, dipilih **tiga orang** untuk mewakili RT. Peluang terpilihnya **(satu laki-laki dan dua perempuan) ATAU (dua laki-laki dan satu perempuan)** adalah....",
     "pilihan": [
       "$\\frac{3}{5}$",
@@ -37,10 +39,11 @@
       "$\\frac{69}{92}$"
     ],
     "jawaban": "E",
-    "pembahasan": "Pemilihan $3$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ dari $25$ orang.\n    $$N(S) = C(25, 3) = \\frac{25 \\times 24 \\times 23}{3 \\times 2 \\times 1} = 2.300$$\n\n2.  **Hitung Kasus 1 (1L 2P):**\n    $$N(A_1) = C(15, 1) \\times C(10, 2) = 15 \\times 45 = 675$$\n\n3.  **Hitung Kasus 2 (2L 1P):**\n    $$N(A_2) = C(15, 2) \\times C(10, 1) = 105 \\times 10 = 1.050$$\n\n4.  **Total Kejadian ($N(A)$):** Kasus 'ATAU', jumlahkan.\n    $$N(A) = 675 + 1.050 = 1.725$$\n\n5.  **Hitung Peluang ($P(A)$):**\n    $$P(A) = \\frac{1.725}{2.300}$$ \n\n6.  **Sederhanakan:** (Bagi dengan $25$, lalu bagi dengan $23$)\n    $$P(A) = \\frac{69}{92}$$"
+    "pembahasan": "Pemilihan $3$ orang tanpa jabatan adalah **Kombinasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ dari $25$ orang.\n    $N(S) = C(25, 3) = \\frac{25 \\times 24 \\times 23}{3 \\times 2 \\times 1} = 2.300$\n\n2.  **Hitung Kasus 1 (1L 2P):**\n    $N(A_1) = C(15, 1) \\times C(10, 2) = 15 \\times 45 = 675$\n\n3.  **Hitung Kasus 2 (2L 1P):**\n    $N(A_2) = C(15, 2) \\times C(10, 1) = 105 \\times 10 = 1.050$\n\n4.  **Total Kejadian ($N(A)$):** Kasus 'ATAU', jumlahkan.\n    $N(A) = 675 + 1.050 = 1.725$\n\n5.  **Hitung Peluang ($P(A)$):**\n    $P(A) = \\frac{1.725}{2.300}$ \n\n6.  **Sederhanakan:** (Bagi dengan $25$, lalu bagi dengan $23$)\n    $P(A) = \\frac{69}{92}$"
   },
   {
     "id": 4,
+    "materi": "Peluang & Kombinasi (Permutasi Bersyarat)",
     "pertanyaan": "Peluang terpilihnya pengurus RT (Ketua, Bendahara, Sekretaris) dengan syarat **sekretaris perempuan** dan **ketua serta bendahara berjenis kelamin berbeda** adalah....",
     "pilihan": [
       "$\\frac{7}{23}$",
@@ -50,48 +53,48 @@
       "$\\frac{22}{43}$"
     ],
     "jawaban": "D",
-    "pembahasan": "Pemilihan pengurus adalah **Permutasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ pengurus dari $25$ orang.\n    $$N(S) = P(25, 3) = 25 \\times 24 \\times 23 = 13.800$$\n\n2.  **Hitung Kejadian ($N(A)$):** Sekretaris (P) dan Ketua-Bendahara (L, P atau P, L).\n\n    * **Skenario A (Ketua L, Bendahara P, Sekretaris P):**\n      $$15 \\text{ L} \\times 10 \\text{ P} \\times 9 \\text{ P} = 1.350$$ cara\n    * **Skenario B (Ketua P, Bendahara L, Sekretaris P):**\n      $$10 \\text{ P} \\times 15 \\text{ L} \\times 9 \\text{ P} = 1.350$$ cara\n\n    $$N(A) = 1.350 + 1.350 = 2.700$$\n\n3.  **Peluang Total:**\n    $$P(\\text{Total}) = \\frac{2.700}{13.800} = \\frac{27}{138} = \\frac{9}{46}$$ \n\n4.  **Peluang Bersyarat (Interpretasi Sesuai Pilihan):** Mengingat $\\frac{9}{46}$ tidak ada di pilihan, dan pilihan D adalah $\\frac{45}{92}$, pembuat soal kemungkinan bermaksud menanyakan **Peluang Bersyarat** (Peluang Ketua/Bendahara beda kelamin *diberikan* Sekretaris P).\n\n    * $N(\\text{Sek P})$ (dari Soal 1): $5.520$\n    * $$P(\\text{K/B beda} | \\text{Sek P}) = \\frac{N(A)}{N(\\text{Sek P})} = \\frac{2.700}{5.520} = \\frac{45}{92}$$"
+    "pembahasan": "Pemilihan pengurus adalah **Permutasi**.\n\n1.  **Hitung Ruang Sampel ($N(S)$):** Total cara memilih $3$ pengurus dari $25$ orang.\n    $N(S) = P(25, 3) = 25 \\times 24 \\times 23 = 13.800$\n\n2.  **Hitung Kejadian ($N(A)$):** Sekretaris (P) dan Ketua-Bendahara (L, P atau P, L).\n\n    * **Skenario A (Ketua L, Bendahara P, Sekretaris P):**\n      $15 \\text{ L} \\times 10 \\text{ P} \\times 9 \\text{ P} = 1.350$ cara\n    * **Skenario B (Ketua P, Bendahara L, Sekretaris P):**\n      $10 \\text{ P} \\times 15 \\text{ L} \\times 9 \\text{ P} = 1.350$ cara\n\n    $N(A) = 1.350 + 1.350 = 2.700$\n\n3.  **Peluang Total:**\n    $P(\\text{Total}) = \\frac{2.700}{13.800} = \\frac{27}{138} = \\frac{9}{46}$ \n\n4.  **Peluang Bersyarat (Interpretasi Sesuai Pilihan):** Mengingat $\\frac{9}{46}$ tidak ada di pilihan, dan pilihan D adalah $\\frac{45}{92}$, pembuat soal kemungkinan bermaksud menanyakan **Peluang Bersyarat** (Peluang Ketua/Bendahara beda kelamin *diberikan* Sekretaris P).\n\n    * $N(\\text{Sek P})$ (dari Soal 1): $5.520$\n    * $P(\\text{K/B beda} | \\text{Sek P}) = \\frac{N(A)}{N(\\text{Sek P})} = \\frac{2.700}{5.520} = \\frac{45}{92}$"
   },
   {
     "id": 5,
     "pertanyaan": "Rata-rata berat badan 5 siswa adalah 45 kg. Jika ada 1 siswa baru dengan berat 51 kg bergabung, rata-rata berat badan siswa sekarang adalah...",
     "pilihan": ["45,5 kg", "46 kg", "47 kg", "48 kg", "49 kg"],
     "jawaban": "B",
-    "pembahasan": "Total berat awal:\n\\[\n5 \\times 45 = 225\n\\]\nDitambah siswa baru:\n\\[\n225 + 51 = 276\n\\]\nJumlah siswa sekarang: 6\n\\[\n\\text{Rata-rata} = \\frac{276}{6} = 46\n\\]\nJadi jawabannya adalah **46 kg**."
+    "pembahasan": "Total berat awal:\n$5 \\times 45 = 225$\n\nDitambah siswa baru:\n$225 + 51 = 276$\n\nJumlah siswa sekarang: 6\n$\\text{Rata-rata} = \\frac{276}{6} = 46$\n\nJadi jawabannya adalah **46 kg**."
   },
   {
     "id": 6,
     "pertanyaan": "Jika 5x - 3 = 17, maka nilai dari x + 10 adalah...",
     "pilihan": ["14", "16", "18", "20", "22"],
     "jawaban": "A",
-    "pembahasan": "\\[\n5x - 3 = 17 \\Rightarrow 5x = 20 \\Rightarrow x = 4\n\\]\nMaka:\n\\[\nx + 10 = 4 + 10 = 14\n\\]\nJadi jawabannya adalah **14**."
+    "pembahasan": "$5x - 3 = 17 \\Rightarrow 5x = 20 \\Rightarrow x = 4$\n\nMaka:\n$x + 10 = 4 + 10 = 14$\n\nJadi jawabannya adalah **14**."
   },
   {
     "id": 7,
     "pertanyaan": "Sebuah pipa dapat mengisi sebuah bak kosong dalam waktu 15 jam. Pipa lain dapat mengosongkan bak tersebut dalam 30 jam. Jika kedua pipa dibuka bersamaan, berapa lama waktu yang dibutuhkan untuk mengisi bak hingga penuh?",
     "pilihan": ["6 jam", "7,5 jam", "8 jam", "30 jam", "15 jam"],
     "jawaban": "D",
-    "pembahasan": "Kecepatan isi:\n\\[\n\\frac{1}{15}\n\\]\nKecepatan buang:\n\\[\n\\frac{1}{30}\n\\]\nBersama-sama:\n\\[\n\\frac{1}{15} - \\frac{1}{30} = \\frac{1}{30}\n\\]\nMaka waktu:\n\\[\nT = \\frac{1}{1/30} = 30\n\\]\nJadi jawabannya adalah **30 jam**."
+    "pembahasan": "Kecepatan isi:\n$\\frac{1}{15}$\n\nKecepatan buang:\n$\\frac{1}{30}$\n\nBersama-sama:\n$\\frac{1}{15} - \\frac{1}{30} = \\frac{1}{30}$\n\nMaka waktu:\n$T = \\frac{1}{1/30} = 30$\n\nJadi jawabannya adalah **30 jam**."
   },
   {
     "id": 8,
     "pertanyaan": "Perbandingan uang Rina dan Siska adalah 3 : 5. Jika selisih uang mereka adalah Rp80.000, jumlah uang mereka berdua adalah...",
     "pilihan": ["Rp160.000", "Rp240.000", "Rp320.000", "Rp400.000", "Rp480.000"],
     "jawaban": "C",
-    "pembahasan": "Selisih:\n\\[\n5x - 3x = 2x = 80.000 \\Rightarrow x = 40.000\n\\]\nJumlah:\n\\[\n3x + 5x = 8x = 320.000\n\\]\nJadi jawabannya adalah **Rp320.000**."
+    "pembahasan": "Selisih:\n$5x - 3x = 2x = 80.000 \\Rightarrow x = 40.000$\n\nJumlah:\n$3x + 5x = 8x = 320.000$\n\nJadi jawabannya adalah **Rp320.000**."
   },
   {
     "id": 9,
     "pertanyaan": "Jika akar-akar persamaan kuadrat x² - 5x + 6 = 0 adalah p dan q, maka nilai dari p + q adalah...",
     "pilihan": ["1", "5", "6", "11", "15"],
     "jawaban": "B",
-    "pembahasan": "Untuk persamaan kuadrat \\( ax^2 + bx + c = 0 \\), jumlah akar:\n\\[\np + q = -\\frac{b}{a} = -(-5)/1 = 5\n\\]\nJadi jawabannya adalah **5**."
+    "pembahasan": "Untuk persamaan kuadrat $ax^2 + bx + c = 0$, jumlah akar:\n$p + q = -\\frac{b}{a} = -(-5)/1 = 5$\n\nJadi jawabannya adalah **5**."
   },
   {
     "id": 10,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi siku-sikunya 5 cm. Luas segitiga tersebut adalah...",
     "pilihan": ["30 cm²", "60 cm²", "90 cm²", "100 cm²", "120 cm²"],
     "jawaban": "A",
-    "pembahasan": "Gunakan Teorema Pythagoras:\n\\[\n13^2 = 5^2 + x^2\n169 = 25 + x^2\nx^2 = 144 \\Rightarrow x = 12\n\\]\nLuas segitiga:\n\\[\nL = \\tfrac{1}{2} \\times 5 \\times 12 = 30\n\\]\nJadi jawabannya adalah **30 cm²**."
+    "pembahasan": "Gunakan Teorema Pythagoras:\n$13^2 = 5^2 + x^2$\n$169 = 25 + x^2$\n$x^2 = 144 \\Rightarrow x = 12$\n\nLuas segitiga:\n$L = \\tfrac{1}{2} \\times 5 \\times 12 = 30$\n\nJadi jawabannya adalah **30 cm²**."
   }
 ]
