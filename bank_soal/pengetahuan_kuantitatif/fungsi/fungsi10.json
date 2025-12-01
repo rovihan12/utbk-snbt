@@ -21,7 +21,7 @@
   "pertanyaan": "Untuk setiap bilangan bulat $x$, didefinisikan:\n$[x) = \\begin{cases} \\frac{x+3}{x-2} & \\text{jika } x \\text{ ganjil} \\\\ \\frac{x^2+2}{2} & \\text{jika } x \\text{ genap taknegatif} \\\\ 2x^2+1 & \\text{jika } x \\text{ genap negatif} \\end{cases}$\n\nNilai $[1 - [2))$ sama dengan ...",
   "pilihan": ["-7", "3", "4", "5", "9"],
   "jawaban": "E",
-  "pembahasan": "Langkah 1: Hitung $[2]$.\n$2$ adalah bilangan genap taknegatif, sehingga gunakan rumus $\\frac{x^2+2}{2}$.\n$[2] = \\frac{2^2+2}{2} = \\frac{6}{2} = 3$.\n\nLangkah 2: Hitung $1 - [2]$.\n$1 - 3 = -2$.\n\nLangkah 3: Hitung $[-2]$.\n$-2$ adalah bilangan genap negatif, sehingga gunakan rumus $2x^2 + 1$.\n$[-2] = 2(-2)^2 + 1 = 8 + 1 = 9$.\n\nJadi, nilai $[1 - [2]]$ adalah $9$."
+  "pembahasan": "Langkah 1: Hitung $[2]$.\n$2$ adalah bilangan genap taknegatif, sehingga gunakan rumus $\\frac{x^2+2}{2}$.\n$[2] = \\frac{2^2+2}{2} = \\frac{6}{2} = 3$.\n\nLangkah 2: Hitung $1 - [2]$.\n$1 - 3 = -2$.\n\nLangkah 3: Hitung $[-2]$.\n$-2$ adalah bilangan genap negatif, sehingga gunakan rumus $2x^2 + 1$.\n$[-2] = 2(-2)^2 + 1 = 8 + 1 = 9$.\n\nJadi, nilai $[1 - [2))$ adalah $9$."
 },
   {
     "id": 4,
