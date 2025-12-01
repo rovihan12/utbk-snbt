@@ -18,7 +18,8 @@
   {
     "id": 3,
     "kategori": "Penalaran Matematika",
-    "pertanyaan": "Untuk setiap bilangan bulat $x$, didefinisikan:\n$[x] = \\begin{cases} \\frac{x+3}{x^2-2} & \\text{jika } x \\text{ ganjil} \\\\ \\frac{x-2}{x^2+2} & \\text{jika } x \\text{ genap taknegatif} \\\\ 2x^2+1 & \\text{jika } x \\text{ genap negatif} \\end{cases}$\n\nNilai $[1 - [2]]$ sama dengan ...",
+    "pertanyaan": "Untuk setiap bilangan bulat $x$, didefinisikan:\n\n Nilai $[1 - [2]]$ sama dengan ...",
+    "gambar":"https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/fungsi/image/image.png"
     "pilihan": ["-7", "3", "4", "5", "9"],
     "jawaban": "C",
     "pembahasan": "Langkah 1: Hitung $[2]$\n$x=2$ adalah genap taknegatif. Gunakan rumus $\\frac{x-2}{x^2+2}$.\n$[2] = \\frac{2-2}{2^2+2} = \\frac{0}{6} = 0$\n\nLangkah 2: Hitung $[1 - [2]]$\n$[1 - [2]] = [1 - 0] = [1]$\n\nLangkah 3: Hitung $[1]$\n$x=1$ adalah ganjil. Gunakan rumus $\\frac{x+3}{x^2-2}$.\n$[1] = \\frac{1+3}{1^2-2} = \\frac{4}{-1} = -4$\n\nCatatan: Hasil perhitungan matematis yang benar adalah $-4$, tetapi karena $-4$ tidak ada di pilihan jawaban, dan pilihan '4' tersedia, diasumsikan terdapat kesalahan cetak pada soal (misalnya, penyebut seharusnya $2-x^2$ atau sejenisnya) yang dimaksudkan untuk menghasilkan jawaban 4. \n\nDengan asumsi koreksi soal untuk mendapatkan jawaban di opsi:\n$[1] = 4$\nSehingga, nilai $[1 - [2]] = 4$."
