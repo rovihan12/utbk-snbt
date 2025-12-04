@@ -1,11 +1,18 @@
 [
   {
     "id": 1,
-    "kategori": "Sedang",
-    "pertanyaan": "Tentukan suku ke-10 dari barisan aritmetika 2, 5, 8, 11, ...",
-    "pilihan": ["26", "29", "32", "35", "38"],
-    "jawaban": "B",
-    "pembahasan": "Barisan aritmetika:\n$a_1 = 2$, $d = 5-2 = 3$\n$a_n = a_1 + (n-1)d$\n$a_{10} = 2 + (10-1) \\times 3$\n$a_{10} = 2 + 27 = 29$"
+    "kategori": "Sulit",
+    "pertanyaan": "Barisan aritmatika $a_1, a_2, a_3, \\dots$ yang semua sukunya bilangan bulat memiliki beda $-3$. Apakah $a_{2025}$ genap? Putuskan apakah pernyataan \\n\\n(1) $a_1 + a_2$ ganjil dan \\n\\n(2) $a_2 + a_3$ ganjil \\n\\ncukup untuk menjawab pertanyaan tersebut.",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+      "DUA pernyataan BERSAMA - SAMA cukup untuk menjawab pertanyaan, tetapi SATU pertanyaan SAJA tidak cukup",
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Kita perlu menentukan paritas (ganjil/genap) dari $a_{2025}$. Rumus suku ke-$n$ adalah $a_n = a_1 + (n-1)b$. Dengan $b = -3$ dan $n = 2025$: $a_{2025} = a_1 + (2024)(-3)$. Karena $2024$ adalah genap, maka $(2024)(-3)$ adalah Genap. Jadi, $a_{2025}$ genap jika dan hanya jika $a_1$ genap. \\n\\n(1) $a_1 + a_2$ ganjil. Karena $a_2 - a_1 = b = -3$ (Ganjil), maka paritas $a_1$ dan $a_2$ harus berbeda (satu genap, satu ganjil). Pernyataan ini hanya mengkonfirmasi bahwa $a_1$ dan $a_2$ berparitas berbeda, tetapi tidak mengunci paritas spesifik $a_1$. (1) TIDAK CUKUP.\\n\\n(2) $a_2 + a_3$ ganjil. Sama seperti (1), karena $a_3 - a_2 = b = -3$ (Ganjil), maka paritas $a_2$ dan $a_3$ harus berbeda. Pernyataan ini tidak mengunci paritas spesifik $a_2$ atau $a_1$. (2) TIDAK CUKUP.\\n\\n(1) dan (2) Bersama-sama: Kedua pernyataan hanya mengkonfirmasi bahwa paritas suku-suku berurutan selalu berbeda karena bedanya adalah ganjil. Tidak ada informasi tambahan yang dapat menentukan apakah $a_1$ genap atau ganjil. Keduanya BERSAMA-SAMA TIDAK CUKUP.",
+    "keterangan_soal": "Soal Kecukupan Data"
   },
   {
     "id": 2,
