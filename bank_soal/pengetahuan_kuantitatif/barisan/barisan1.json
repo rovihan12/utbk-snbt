@@ -2,7 +2,13 @@
   {
     "id": 1,
     "kategori": "Sulit",
-    "pertanyaan": "Barisan aritmatika $a_1, a_2, a_3, \\dots$ yang semua sukunya bilangan bulat memiliki beda $-3$. Apakah $a_{2025}$ genap? Putuskan apakah pernyataan \\n\\n(1) $a_1 + a_2$ ganjil dan \\n\\n(2) $a_2 + a_3$ ganjil \\n\\ncukup untuk menjawab pertanyaan tersebut.",
+    "pertanyaan": "Barisan aritmatika $a_1, a_2, a_3, \\dots$ yang semua sukunya bilangan bulat memiliki beda $-3$. Apakah $a_{2025}$ genap? Putuskan apakah pernyataan 
+
+(1) $a_1 + a_2$ ganjil dan 
+
+(2) $a_2 + a_3$ ganjil \
+\
+cukup untuk menjawab pertanyaan tersebut.",
     "pilihan": [
       "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
       "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
@@ -11,7 +17,13 @@
       "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
     ],
     "jawaban": "E",
-    "pembahasan": "Kita perlu menentukan paritas (ganjil/genap) dari $a_{2025}$. Rumus suku ke-$n$ adalah $a_n = a_1 + (n-1)b$. Dengan $b = -3$ dan $n = 2025$: $a_{2025} = a_1 + (2024)(-3)$. Karena $2024$ adalah genap, maka $(2024)(-3)$ adalah Genap. Jadi, $a_{2025}$ genap jika dan hanya jika $a_1$ genap. \\n\\n(1) $a_1 + a_2$ ganjil. Karena $a_2 - a_1 = b = -3$ (Ganjil), maka paritas $a_1$ dan $a_2$ harus berbeda (satu genap, satu ganjil). Pernyataan ini hanya mengkonfirmasi bahwa $a_1$ dan $a_2$ berparitas berbeda, tetapi tidak mengunci paritas spesifik $a_1$. (1) TIDAK CUKUP.\\n\\n(2) $a_2 + a_3$ ganjil. Sama seperti (1), karena $a_3 - a_2 = b = -3$ (Ganjil), maka paritas $a_2$ dan $a_3$ harus berbeda. Pernyataan ini tidak mengunci paritas spesifik $a_2$ atau $a_1$. (2) TIDAK CUKUP.\\n\\n(1) dan (2) Bersama-sama: Kedua pernyataan hanya mengkonfirmasi bahwa paritas suku-suku berurutan selalu berbeda karena bedanya adalah ganjil. Tidak ada informasi tambahan yang dapat menentukan apakah $a_1$ genap atau ganjil. Keduanya BERSAMA-SAMA TIDAK CUKUP.",
+    "pembahasan": "Kita perlu menentukan paritas (ganjil/genap) dari $a_{2025}$. Rumus suku ke-$n$ adalah $a_n = a_1 + (n-1)b$. Dengan $b = -3$ dan $n = 2025$: $a_{2025} = a_1 + (2024)(-3)$. Karena $2024$ adalah genap, maka $(2024)(-3)$ adalah Genap. Jadi, $a_{2025}$ genap jika dan hanya jika $a_1$ genap. 
+
+(1) $a_1 + a_2$ ganjil. Karena $a_2 - a_1 = b = -3$ (Ganjil), maka paritas $a_1$ dan $a_2$ harus berbeda (satu genap, satu ganjil). Pernyataan ini hanya mengkonfirmasi bahwa $a_1$ dan $a_2$ berparitas berbeda, tetapi tidak mengunci paritas spesifik $a_1$. (1) TIDAK CUKUP.\
+\
+(2) $a_2 + a_3$ ganjil. Sama seperti (1), karena $a_3 - a_2 = b = -3$ (Ganjil), maka paritas $a_2$ dan $a_3$ harus berbeda. Pernyataan ini tidak mengunci paritas spesifik $a_2$ atau $a_1$. (2) TIDAK CUKUP.\
+\
+(1) dan (2) Bersama-sama: Kedua pernyataan hanya mengkonfirmasi bahwa paritas suku-suku berurutan selalu berbeda karena bedanya adalah ganjil. Tidak ada informasi tambahan yang dapat menentukan apakah $a_1$ genap atau ganjil. Keduanya BERSAMA-SAMA TIDAK CUKUP.",
     "keterangan_soal": "Soal Kecukupan Data"
   },
   {
@@ -20,7 +32,11 @@
     "pertanyaan": "Jumlah 7 suku pertama dari deret aritmetika 3 + 7 + 11 + ... adalah...",
     "pilihan": ["105", "119", "133", "147", "161"],
     "jawaban": "A",
-    "pembahasan": "Barisan aritmetika:\n$a_1 = 3$, $d = 7-3 = 4$\n$S_n = \\frac{n}{2}(2a_1 + (n-1)d)$\n$S_7 = \\frac{7}{2}(2 \\times 3 + 6 \\times 4)$\n$S_7 = \\frac{7}{2}(6 + 24) = \\frac{7}{2} \\times 30 = 105$"
+    "pembahasan": "Barisan aritmetika:
+$a_1 = 3$, $d = 7-3 = 4$
+$S_n = \\frac{n}{2}(2a_1 + (n-1)d)$
+$S_7 = \\frac{7}{2}(2 \\times 3 + 6 \\times 4)$
+$S_7 = \\frac{7}{2}(6 + 24) = \\frac{7}{2} \\times 30 = 105$"
   },
   {
     "id": 3,
@@ -28,7 +44,9 @@
     "pertanyaan": "Tentukan rasio dari barisan geometri 3, 6, 12, 24, ...",
     "pilihan": ["$\\frac{1}{2}$", "2", "3", "4", "6"],
     "jawaban": "B",
-    "pembahasan": "Barisan geometri:\n$r = \\frac{6}{3} = 2$\nAtau $r = \\frac{12}{6} = 2$"
+    "pembahasan": "Barisan geometri:
+$r = \\frac{6}{3} = 2$
+Atau $r = \\frac{12}{6} = 2$"
   },
   {
     "id": 4,
@@ -36,7 +54,10 @@
     "pertanyaan": "Suku ke-5 dari barisan geometri dengan suku pertama 4 dan rasio 3 adalah...",
     "pilihan": ["36", "54", "81", "108", "324"],
     "jawaban": "E",
-    "pembahasan": "Barisan geometri:\n$a_1 = 4$, $r = 3$\n$a_n = a_1 \\cdot r^{n-1}$\n$a_5 = 4 \\times 3^{4} = 4 \\times 81 = 324$"
+    "pembahasan": "Barisan geometri:
+$a_1 = 4$, $r = 3$
+$a_n = a_1 \\cdot r^{n-1}$
+$a_5 = 4 \\times 3^{4} = 4 \\times 81 = 324$"
   },
   {
     "id": 5,
@@ -44,7 +65,10 @@
     "pertanyaan": "Jumlah tak hingga dari deret geometri 8 + 4 + 2 + ... adalah...",
     "pilihan": ["12", "14", "16", "18", "20"],
     "jawaban": "C",
-    "pembahasan": "Deret geometri konvergen:\n$a = 8$, $r = \\frac{4}{8} = \\frac{1}{2}$\n$S_\\infty = \\frac{a}{1-r} = \\frac{8}{1-\\frac{1}{2}}$\n$S_\\infty = \\frac{8}{\\frac{1}{2}} = 16$"
+    "pembahasan": "Deret geometri konvergen:
+$a = 8$, $r = \\frac{4}{8} = \\frac{1}{2}$
+$S_\\infty = \\frac{a}{1-r} = \\frac{8}{1-\\frac{1}{2}}$
+$S_\\infty = \\frac{8}{\\frac{1}{2}} = 16$"
   },
   {
     "id": 6,
@@ -52,7 +76,11 @@
     "pertanyaan": "Diketahui barisan aritmetika dengan $a_3 = 10$ dan $a_7 = 22$. Suku ke-10 dari barisan tersebut adalah...",
     "pilihan": ["28", "31", "34", "37", "40"],
     "jawaban": "B",
-    "pembahasan": "$a_3 = a_1 + 2d = 10$\n$a_7 = a_1 + 6d = 22$\nKurangi: $4d = 12 \\Rightarrow d = 3$\n$a_1 + 6 = 10 \\Rightarrow a_1 = 4$\n$a_{10} = 4 + 9 \\times 3 = 31$"
+    "pembahasan": "$a_3 = a_1 + 2d = 10$
+$a_7 = a_1 + 6d = 22$
+Kurangi: $4d = 12 \\Rightarrow d = 3$
+$a_1 + 6 = 10 \\Rightarrow a_1 = 4$
+$a_{10} = 4 + 9 \\times 3 = 31$"
   },
   {
     "id": 7,
@@ -60,7 +88,10 @@
     "pertanyaan": "Jika $2x-1, 3x, 6x+2$ adalah tiga suku berurutan dari sebuah barisan aritmetika, maka nilai $x$ adalah...",
     "pilihan": ["-2", "-1", "0", "1", "$-\\frac{1}{2}$"],
     "jawaban": "E",
-    "pembahasan": "Syarat barisan aritmetika:\n$3x - (2x-1) = (6x+2) - 3x$\n$x + 1 = 3x + 2$\n$-1 = 2x \\Rightarrow x = -\\frac{1}{2}$"
+    "pembahasan": "Syarat barisan aritmetika:
+$3x - (2x-1) = (6x+2) - 3x$
+$x + 1 = 3x + 2$
+$-1 = 2x \\Rightarrow x = -\\frac{1}{2}$"
   },
   {
     "id": 8,
@@ -68,7 +99,10 @@
     "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 12 meter dan memantul kembali dengan ketinggian $\\frac{2}{3}$ dari ketinggian sebelumnya. Panjang lintasan bola sampai berhenti adalah...",
     "pilihan": ["36 meter", "48 meter", "60 meter", "72 meter", "84 meter"],
     "jawaban": "C",
-    "pembahasan": "Rumus panjang lintasan:\n$L = H \\times \\frac{q+p}{q-p}$\n$H = 12$, $p = 2$, $q = 3$\n$L = 12 \\times \\frac{3+2}{3-2} = 12 \\times 5 = 60$ meter"
+    "pembahasan": "Rumus panjang lintasan:
+$L = H \\times \\frac{q+p}{q-p}$
+$H = 12$, $p = 2$, $q = 3$
+$L = 12 \\times \\frac{3+2}{3-2} = 12 \\times 5 = 60$ meter"
   },
   {
     "id": 9,
@@ -76,7 +110,12 @@
     "pertanyaan": "Jika jumlah n suku pertama dari suatu deret aritmetika dinyatakan dengan $S_n = 2n^2 + 5n$, maka beda deret tersebut adalah...",
     "pilihan": ["2", "3", "4", "5", "7"],
     "jawaban": "C",
-    "pembahasan": "$a_1 = S_1 = 2 + 5 = 7$\n$S_2 = 8 + 10 = 18$\n$a_2 = 18 - 7 = 11$\n$d = 11 - 7 = 4$\n\nAtau: $d = 2A = 2 \\times 2 = 4$"
+    "pembahasan": "$a_1 = S_1 = 2 + 5 = 7$
+$S_2 = 8 + 10 = 18$
+$a_2 = 18 - 7 = 11$
+$d = 11 - 7 = 4$
+
+Atau: $d = 2A = 2 \\times 2 = 4$"
   },
   {
     "id": 10,
@@ -84,7 +123,11 @@
     "pertanyaan": "Sebuah barisan $a_1, a_2, a_3, ...$ didefinisikan dengan $a_1 = 1$ dan $a_{n+1} = a_n + 2n + 1$. Suku ke-5 dari barisan tersebut adalah...",
     "pilihan": ["25", "26", "27", "28", "29"],
     "jawaban": "A",
-    "pembahasan": "$a_1 = 1$\n$a_2 = 1 + 3 = 4$\n$a_3 = 4 + 5 = 9$\n$a_4 = 9 + 7 = 16$\n$a_5 = 16 + 9 = 25$"
+    "pembahasan": "$a_1 = 1$
+$a_2 = 1 + 3 = 4$
+$a_3 = 4 + 5 = 9$
+$a_4 = 9 + 7 = 16$
+$a_5 = 16 + 9 = 25$"
   },
   {
     "id": 11,
@@ -92,7 +135,10 @@
     "pertanyaan": "Tentukan jumlah semua bilangan asli kelipatan 3 ATAU 5 yang kurang dari 100.",
     "pilihan": ["2000", "2150", "2318", "2400", "2550"],
     "jawaban": "C",
-    "pembahasan": "Kelipatan 3: $S_3 = \\frac{33}{2}(3+99) = 1683$\nKelipatan 5: $S_5 = \\frac{19}{2}(5+95) = 950$\nKelipatan 15: $S_{15} = \\frac{6}{2}(15+90) = 315$\nTotal: $1683 + 950 - 315 = 2318$"
+    "pembahasan": "Kelipatan 3: $S_3 = \\frac{33}{2}(3+99) = 1683$
+Kelipatan 5: $S_5 = \\frac{19}{2}(5+95) = 950$
+Kelipatan 15: $S_{15} = \\frac{6}{2}(15+90) = 315$
+Total: $1683 + 950 - 315 = 2318$"
   },
   {
     "id": 12,
@@ -100,7 +146,11 @@
     "pertanyaan": "Sebuah barisan geometri memiliki suku kedua adalah 6 dan suku kelima adalah 162. Suku ketujuh dari barisan tersebut adalah...",
     "pilihan": ["486", "972", "1458", "2916", "4374"],
     "jawaban": "C",
-    "pembahasan": "$a_2 = ar = 6$\n$a_5 = ar^4 = 162$\n$\\frac{a_5}{a_2} = r^3 = 27 \\Rightarrow r = 3$\n$ar = 6 \\Rightarrow a = 2$\n$a_7 = 2 \\times 3^6 = 2 \\times 729 = 1458$"
+    "pembahasan": "$a_2 = ar = 6$
+$a_5 = ar^4 = 162$
+$\\frac{a_5}{a_2} = r^3 = 27 \\Rightarrow r = 3$
+$ar = 6 \\Rightarrow a = 2$
+$a_7 = 2 \\times 3^6 = 2 \\times 729 = 1458$"
   },
   {
     "id": 13,
@@ -108,7 +158,12 @@
     "pertanyaan": "Dalam suatu barisan aritmetika, suku ke-3 adalah 10 dan jumlah suku ke-4 dan suku ke-6 adalah 36. Jumlah 10 suku pertama barisan tersebut adalah...",
     "pilihan": ["190", "200", "210", "220", "230"],
     "jawaban": "B",
-    "pembahasan": "$a + 2d = 10$\n$(a+3d) + (a+5d) = 36 \\Rightarrow 2a + 8d = 36$\n$a + 4d = 18$\nKurangi: $2d = 8 \\Rightarrow d = 4$\n$a = 10 - 8 = 2$\n$S_{10} = \\frac{10}{2}(4 + 36) = 5 \\times 40 = 200$"
+    "pembahasan": "$a + 2d = 10$
+$(a+3d) + (a+5d) = 36 \\Rightarrow 2a + 8d = 36$
+$a + 4d = 18$
+Kurangi: $2d = 8 \\Rightarrow d = 4$
+$a = 10 - 8 = 2$
+$S_{10} = \\frac{10}{2}(4 + 36) = 5 \\times 40 = 200$"
   },
   {
     "id": 14,
@@ -116,7 +171,14 @@
     "pertanyaan": "Diberikan barisan aritmetika dengan suku pertama $a$ dan beda $d$. Jika $a+d=7$ dan $a^2+d^2=25$, maka jumlah 5 suku pertama barisan tersebut adalah...",
     "pilihan": ["35", "40", "45", "50", "55"],
     "jawaban": "D",
-    "pembahasan": "$a+d=7$, $d=7-a$\n$a^2+(7-a)^2=25$\n$a^2+49-14a+a^2=25$\n$2a^2-14a+24=0$\n$a^2-7a+12=0$\n$(a-3)(a-4)=0$\nAmbil $a=4$, $d=3$\n$S_5 = \\frac{5}{2}(8+12) = \\frac{5}{2} \\times 20 = 50$"
+    "pembahasan": "$a+d=7$, $d=7-a$
+$a^2+(7-a)^2=25$
+$a^2+49-14a+a^2=25$
+$2a^2-14a+24=0$
+$a^2-7a+12=0$
+$(a-3)(a-4)=0$
+Ambil $a=4$, $d=3$
+$S_5 = \\frac{5}{2}(8+12) = \\frac{5}{2} \\times 20 = 50$"
   },
   {
     "id": 15,
@@ -124,7 +186,14 @@
     "pertanyaan": "Jika $a, b, c$ membentuk barisan geometri dan $a, b-2, c-9$ membentuk barisan aritmetika, maka nilai $a+b+c$ adalah...",
     "pilihan": ["14", "21", "28", "35", "42"],
     "jawaban": "D",
-    "pembahasan": "Barisan geometri: $a, ar, ar^2$\nBarisan aritmetika: $a, ar-2, ar^2-9$\n$2(ar-2) = a + (ar^2-9)$\n$2ar-4 = a+ar^2-9$\n$a(r-1)^2 = 5$\nAmbil $a=5$, $(r-1)^2=1 \\Rightarrow r=2$\n$a=5$, $b=10$, $c=20$\n$a+b+c=35$"
+    "pembahasan": "Barisan geometri: $a, ar, ar^2$
+Barisan aritmetika: $a, ar-2, ar^2-9$
+$2(ar-2) = a + (ar^2-9)$
+$2ar-4 = a+ar^2-9$
+$a(r-1)^2 = 5$
+Ambil $a=5$, $(r-1)^2=1 \\Rightarrow r=2$
+$a=5$, $b=10$, $c=20$
+$a+b+c=35$"
   },
   {
     "id": 16,
@@ -132,7 +201,11 @@
     "pertanyaan": "Jika $S_n$ adalah jumlah $n$ suku pertama dari suatu deret, dan $S_n = n^3 - n^2 + n$, maka suku ke-n ($a_n$) dari deret tersebut adalah...",
     "pilihan": ["$3n^2-5n+3$", "$3n^2-4n+2$", "$3n^2-6n+4$", "$2n^2-5n+3$", "$n^3-n^2+n$"],
     "jawaban": "A",
-    "pembahasan": "$a_n = S_n - S_{n-1}$\n$S_{n-1} = (n-1)^3 - (n-1)^2 + (n-1)$\n$S_{n-1} = n^3 - 4n^2 + 6n - 3$\n$a_n = (n^3-n^2+n) - (n^3-4n^2+6n-3)$\n$a_n = 3n^2 - 5n + 3$"
+    "pembahasan": "$a_n = S_n - S_{n-1}$
+$S_{n-1} = (n-1)^3 - (n-1)^2 + (n-1)$
+$S_{n-1} = n^3 - 4n^2 + 6n - 3$
+$a_n = (n^3-n^2+n) - (n^3-4n^2+6n-3)$
+$a_n = 3n^2 - 5n + 3$"
   },
   {
     "id": 17,
@@ -140,7 +213,12 @@
     "pertanyaan": "Sebuah barisan geometri konvergen memiliki jumlah tak hingga 18 dan jumlah semua suku genapnya adalah 6. Suku pertama barisan tersebut adalah...",
     "pilihan": ["6", "8", "9", "10", "12"],
     "jawaban": "C",
-    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 18$\n$S_{genap} = \\frac{ar}{1-r^2} = 6$\n$\\frac{ar}{(1-r)(1+r)} = \\frac{a}{1-r} \\cdot \\frac{r}{1+r} = 6$\n$18 \\cdot \\frac{r}{1+r} = 6 \\Rightarrow \\frac{r}{1+r} = \\frac{1}{3}$\n$3r = 1+r \\Rightarrow r = \\frac{1}{2}$\n$a = 18 \\times (1-\\frac{1}{2}) = 9$"
+    "pembahasan": "$S_\\infty = \\frac{a}{1-r} = 18$
+$S_{genap} = \\frac{ar}{1-r^2} = 6$
+$\\frac{ar}{(1-r)(1+r)} = \\frac{a}{1-r} \\cdot \\frac{r}{1+r} = 6$
+$18 \\cdot \\frac{r}{1+r} = 6 \\Rightarrow \\frac{r}{1+r} = \\frac{1}{3}$
+$3r = 1+r \\Rightarrow r = \\frac{1}{2}$
+$a = 18 \\times (1-\\frac{1}{2}) = 9$"
   },
   {
     "id": 18,
@@ -148,7 +226,14 @@
     "pertanyaan": "Jika $a, b, c$ adalah tiga bilangan positif yang membentuk barisan aritmetika dan $a^2, b^2, c^2$ juga membentuk barisan aritmetika, maka nilai dari $\\frac{a+b}{b+c}$ adalah...",
     "pilihan": ["$\\frac{1}{2}$", "1", "2", "$\\frac{1}{3}$", "3"],
     "jawaban": "B",
-    "pembahasan": "$2b = a+c$\n$2b^2 = a^2+c^2$\nKuadratkan persamaan pertama:\n$4b^2 = a^2+2ac+c^2$\nSubstitusi: $4b^2 = 2b^2+2ac$\n$2b^2 = 2ac \\Rightarrow b^2 = ac$\nBarisan juga geometri, jadi $a=b=c$\n$\\frac{a+b}{b+c} = \\frac{2a}{2a} = 1$"
+    "pembahasan": "$2b = a+c$
+$2b^2 = a^2+c^2$
+Kuadratkan persamaan pertama:
+$4b^2 = a^2+2ac+c^2$
+Substitusi: $4b^2 = 2b^2+2ac$
+$2b^2 = 2ac \\Rightarrow b^2 = ac$
+Barisan juga geometri, jadi $a=b=c$
+$\\frac{a+b}{b+c} = \\frac{2a}{2a} = 1$"
   },
   {
     "id": 19,
@@ -156,7 +241,12 @@
     "pertanyaan": "Sebuah barisan $x_1, x_2, x_3, ...$ didefinisikan dengan $x_1=1$, $x_2=2$, dan $x_n = x_{n-1} + 2x_{n-2}$ untuk $n \\ge 3$. Nilai $x_6$ adalah...",
     "pilihan": ["32", "40", "42", "56", "64"],
     "jawaban": "A",
-    "pembahasan": "$x_1 = 1$\n$x_2 = 2$\n$x_3 = 2 + 2 = 4$\n$x_4 = 4 + 4 = 8$\n$x_5 = 8 + 8 = 16$\n$x_6 = 16 + 16 = 32$"
+    "pembahasan": "$x_1 = 1$
+$x_2 = 2$
+$x_3 = 2 + 2 = 4$
+$x_4 = 4 + 4 = 8$
+$x_5 = 8 + 8 = 16$
+$x_6 = 16 + 16 = 32$"
   },
   {
     "id": 20,
@@ -164,6 +254,15 @@
     "pertanyaan": "Misalkan sebuah deret geometri tak hingga memiliki suku pertama $a$ dan rasio $r$. Jika jumlah deret tersebut adalah 10 dan jumlah kuadrat dari setiap suku adalah $\\frac{100}{3}$, maka nilai $a$ adalah...",
     "pilihan": ["5", "10", "15", "20", "25"],
     "jawaban": "A",
-    "pembahasan": "$\\frac{a}{1-r} = 10$\n$\\frac{a^2}{1-r^2} = \\frac{100}{3}$\n$\\frac{a}{1-r} \\cdot \\frac{a}{1+r} = \\frac{100}{3}$\n$10 \\cdot \\frac{a}{1+r} = \\frac{100}{3}$\n$\\frac{a}{1+r} = \\frac{10}{3}$\nDari persamaan pertama: $a = 10(1-r)$\nSubstitusi: $\\frac{10(1-r)}{1+r} = \\frac{10}{3}$\n$3(1-r) = 1+r \\Rightarrow 3-3r = 1+r$\n$2 = 4r \\Rightarrow r = \\frac{1}{2}$\n$a = 10 \\times \\frac{1}{2} = 5$"
+    "pembahasan": "$\\frac{a}{1-r} = 10$
+$\\frac{a^2}{1-r^2} = \\frac{100}{3}$
+$\\frac{a}{1-r} \\cdot \\frac{a}{1+r} = \\frac{100}{3}$
+$10 \\cdot \\frac{a}{1+r} = \\frac{100}{3}$
+$\\frac{a}{1+r} = \\frac{10}{3}$
+Dari persamaan pertama: $a = 10(1-r)$
+Substitusi: $\\frac{10(1-r)}{1+r} = \\frac{10}{3}$
+$3(1-r) = 1+r \\Rightarrow 3-3r = 1+r$
+$2 = 4r \\Rightarrow r = \\frac{1}{2}$
+$a = 10 \\times \\frac{1}{2} = 5$"
   }
 ]
