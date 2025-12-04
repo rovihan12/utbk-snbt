@@ -5,158 +5,158 @@
     "pertanyaan": "Jika $f(x) = ax + b$, dengan $f(1) = 7$ dan $f(3) = 11$, maka nilai $f(5)$ adalah...",
     "pilihan": ["13", "15", "17", "19", "21"],
     "jawaban": "B",
-    "pembahasan": "Dari f(1)=7 diperoleh a+b=7, dan dari f(3)=11 diperoleh 3a+b=11. Kurangkan: 2a=4 sehingga a=2. Maka b=7-2=5. Jadi f(x)=2x+5, sehingga f(5)=15."
+    "pembahasan": "Dari $f(1)=7$ diperoleh $a+b=7$, dan dari $f(3)=11$ diperoleh $3a+b=11$. Kurangkan: $2a=4$ sehingga $a=2$. Maka $b=7-2=5$. Jadi $f(x)=2x+5$, sehingga $f(5)=15$."
   },
   {
     "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Diketahui persamaan kuadrat 2x^2 - 3x - 5 = 0. Jika akar-akarnya adalah x1 dan x2, maka nilai x1^2 + x2^2 adalah...",
+    "pertanyaan": "Diketahui persamaan kuadrat $2x^2 - 3x - 5 = 0$. Jika akar-akarnya adalah $x_1$ dan $x_2$, maka nilai $x_1^2 + x_2^2$ adalah...",
     "pilihan": ["9/4", "19/4", "29/4", "39/4", "49/4"],
     "jawaban": "C",
-    "pembahasan": "Gunakan rumus x1^2+x2^2=(x1+x2)^2-2x1x2. Diketahui x1+x2=3/2 dan x1x2=-5/2. Maka x1^2+x2^2=(3/2)^2 - 2(-5/2)=9/4 + 5=29/4."
+    "pembahasan": "Gunakan rumus $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2$. Diketahui $x_1+x_2=\\frac{3}{2}$ dan $x_1x_2=-\\frac{5}{2}$. Maka $x_1^2+x_2^2=(\\frac{3}{2})^2 - 2(-\\frac{5}{2})=\\frac{9}{4} + 5=\\frac{29}{4}$."
   },
   {
     "id": 3,
     "kategori": "Sedang",
-    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan (x+3)/(x-4) < 0 adalah...",
-    "pilihan": ["x < -3", "x > 4", "-3 < x < 4", "x < -4 atau x > 3", "-4 < x < 3"],
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $\\frac{x+3}{x-4} < 0$ adalah...",
+    "pilihan": ["$x < -3$", "$x > 4$", "$-3 < x < 4$", "$x < -4$ atau $x > 3$", "$-4 < x < 3$"],
     "jawaban": "C",
-    "pembahasan": "Pertidaksamaan bernilai negatif jika pembilang dan penyebut berlawanan tanda. Nol pembilang x=-3, nol penyebut x=4. Uji interval: -3<x<4 menghasilkan negatif."
+    "pembahasan": "Pertidaksamaan bernilai negatif jika pembilang dan penyebut berlawanan tanda. Nol pembilang $x=-3$, nol penyebut $x=4$. Uji interval: $-3<x<4$ menghasilkan negatif."
   },
   {
     "id": 4,
     "kategori": "Sedang",
-    "pertanyaan": "Jika f(x) = 3x/(x-2), maka f^{-1}(x) adalah...",
-    "pilihan": ["2x/(x-3)", "(x-2)/(3x)", "3x/(x+2)", "2x/(x+3)", "(x-3)/(2x)"],
+    "pertanyaan": "Jika $f(x) = \\frac{3x}{x-2}$, maka $f^{-1}(x)$ adalah...",
+    "pilihan": ["$\\frac{2x}{x-3}$", "$\\frac{x-2}{3x}$", "$\\frac{3x}{x+2}$", "$\\frac{2x}{x+3}$", "$\\frac{x-3}{2x}$"],
     "jawaban": "A",
-    "pembahasan": "Misalkan y = 3x/(x−2). Maka y(x−2)=3x sehingga x(y−3)=2y dan x=2y/(y−3). Jadi inversnya f^{-1}(x)=2x/(x−3)."
+    "pembahasan": "Misalkan $y = \\frac{3x}{x-2}$. Maka $y(x-2)=3x$ sehingga $x(y-3)=2y$ dan $x=\\frac{2y}{y-3}$. Jadi inversnya $f^{-1}(x)=\\frac{2x}{x-3}$."
   },
   {
     "id": 5,
     "kategori": "Sedang",
-    "pertanyaan": "Grafik fungsi kuadrat y = x^2 + 2x - 3 memiliki titik puncak di...",
-    "pilihan": ["(1,-4)", "(-1,-4)", "(1,4)", "(-1,4)", "(2,-3)"],
+    "pertanyaan": "Grafik fungsi kuadrat $y = x^2 + 2x - 3$ memiliki titik puncak di...",
+    "pilihan": ["$(1,-4)$", "$(-1,-4)$", "$(1,4)$", "$(-1,4)$", "$(2,-3)$"],
     "jawaban": "B",
-    "pembahasan": "Titik puncak xp = -b/(2a) = -2/2 = -1. Nilai yp = (-1)^2 + 2(-1) - 3 = -4."
+    "pembahasan": "Titik puncak $x_p = -\\frac{b}{2a} = -\\frac{2}{2} = -1$. Nilai $y_p = (-1)^2 + 2(-1) - 3 = -4$."
   },
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan 2^{2x-1} > 8^{x-3} adalah...",
-    "pilihan": ["x < 8", "x > 8", "x < 6", "x > 6", "x < 4"],
+    "pertanyaan": "Himpunan penyelesaian dari pertidaksamaan $2^{2x-1} > 8^{x-3}$ adalah...",
+    "pilihan": ["$x < 8$", "$x > 8$", "$x < 6$", "$x > 6$", "$x < 4$"],
     "jawaban": "A",
-    "pembahasan": "Ubah 8 menjadi 2^3 sehingga 2^{2x−1} > 2^{3(x−3)} memberi 2x−1 > 3x−9 sehingga x<8."
+    "pembahasan": "Ubah $8$ menjadi $2^3$ sehingga $2^{2x-1} > 2^{3(x-3)}$ memberi $2x-1 > 3x-9$ sehingga $x<8$."
   },
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Jika f(x) = x^2 - 4 dan (f ∘ g)(x) = x^2 + 2x - 3, maka g(x) adalah...",
-    "pilihan": ["x+1", "x-1", "x+2", "x-2", "x+3"],
+    "pertanyaan": "Jika $f(x) = x^2 - 4$ dan $(f \\circ g)(x) = x^2 + 2x - 3$, maka $g(x)$ adalah...",
+    "pilihan": ["$x+1$", "$x-1$", "$x+2$", "$x-2$", "$x+3$"],
     "jawaban": "A",
-    "pembahasan": "Dari f(g(x)) = (g(x))^2 - 4 = x^2 + 2x - 3 diperoleh (g(x))^2 = x^2 + 2x + 1 = (x+1)^2."
+    "pembahasan": "Dari $f(g(x)) = (g(x))^2 - 4 = x^2 + 2x - 3$ diperoleh $(g(x))^2 = x^2 + 2x + 1 = (x+1)^2$."
   },
   {
     "id": 8,
     "kategori": "Sedang",
-    "pertanyaan": "Nilai x yang memenuhi sqrt(x^2 - 2x + 1) = 3 adalah...",
-    "pilihan": ["x=2 atau x=-4", "x=-2 atau x=4", "x=2 atau x=4", "x=-2 atau x=-4", "x=3 atau x=-3"],
+    "pertanyaan": "Nilai $x$ yang memenuhi $\\sqrt{x^2 - 2x + 1} = 3$ adalah...",
+    "pilihan": ["$x=2$ atau $x=-4$", "$x=-2$ atau $x=4$", "$x=2$ atau $x=4$", "$x=-2$ atau $x=-4$", "$x=3$ atau $x=-3$"],
     "jawaban": "B",
-    "pembahasan": "x^2 - 2x + 1 = (x-1)^2. Maka |x−1|=3 sehingga x=4 atau x=−2."
+    "pembahasan": "$x^2 - 2x + 1 = (x-1)^2$. Maka $|x-1|=3$ sehingga $x=4$ atau $x=-2$."
   },
   {
     "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Jika 2^{x+1} + 2^{x-1} = 20, maka nilai x adalah...",
+    "pertanyaan": "Jika $2^{x+1} + 2^{x-1} = 20$, maka nilai $x$ adalah...",
     "pilihan": ["1", "2", "3", "4", "5"],
     "jawaban": "C",
-    "pembahasan": "Faktorkan 2^{x−1}: 2^{x−1}(2^2 + 1) = 20 sehingga 2^{x−1}=4 dan x=3."
+    "pembahasan": "Faktorkan $2^{x-1}$: $2^{x-1}(2^2 + 1) = 20$ sehingga $2^{x-1}=4$ dan $x=3$."
   },
   {
     "id": 10,
     "kategori": "Sedang",
-    "pertanyaan": "Tentukan interval penyelesaian dari pertidaksamaan x^2 - 6x + 9 ≥ 0.",
-    "pilihan": ["x ≤ 3", "x ≥ 3", "x < 3", "x > 3", "Semua bilangan real"],
+    "pertanyaan": "Tentukan interval penyelesaian dari pertidaksamaan $x^2 - 6x + 9 \\ge 0$.",
+    "pilihan": ["$x \\le 3$", "$x \\ge 3$", "$x < 3$", "$x > 3$", "Semua bilangan real"],
     "jawaban": "E",
-    "pembahasan": "x^2 - 6x + 9 = (x - 3)^2 ≥ 0, selalu benar untuk semua x real."
+    "pembahasan": "$x^2 - 6x + 9 = (x - 3)^2 \\ge 0$, selalu benar untuk semua $x$ real."
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Jika f(x) = x^2 dan g(x) = x+1, maka himpunan penyelesaian (f ∘ g)(x) = (g ∘ f)(x) adalah...",
-    "pilihan": ["{0}", "{1}", "{0,1}", "{-1,0}", "{-1}"],
+    "pertanyaan": "Jika $f(x) = x^2$ dan $g(x) = x+1$, maka himpunan penyelesaian $(f \\circ g)(x) = (g \\circ f)(x)$ adalah...",
+    "pilihan": ["$\{0\}$", "$\{1\}$", "$\{0,1\}$", "$\\{-1,0\\}$", "$\\{-1\\}$"],
     "jawaban": "A",
-    "pembahasan": "(x+1)^2 = x^2+1 menghasilkan 2x=0 sehingga x=0."
+    "pembahasan": "$(x+1)^2 = x^2+1$ menghasilkan $2x=0$ sehingga $x=0$."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Jika x1 dan x2 adalah akar-akar x^2 - (m+1)x + 2 = 0 dan x1 = m, maka nilai x2 adalah...",
+    "pertanyaan": "Jika $x_1$ dan $x_2$ adalah akar-akar $x^2 - (m+1)x + 2 = 0$ dan $x_1 = m$, maka nilai $x_2$ adalah...",
     "pilihan": ["-1", "2", "1", "-2", "3"],
     "jawaban": "C",
-    "pembahasan": "Substitusi x1=m memberi m^2 - (m+1)m + 2 = 0 sehingga m=2. Maka x2=1."
+    "pembahasan": "Substitusi $x_1=m$ memberi $m^2 - (m+1)m + 2 = 0$ sehingga $m=2$. Maka $x_2=1$."
   },
   {
     "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Penyelesaian pertidaksamaan (x^2 - x - 2) / (x^2 - 9) ≤ 0 adalah...",
-    "pilihan": ["-3<x≤-1 atau 2≤x<3", "x<-3 atau -1≤x≤2 atau x>3", "-3<x<3", "-1≤x≤2", "x<-1 atau x>2"],
+    "pertanyaan": "Penyelesaian pertidaksamaan $\\frac{x^2 - x - 2}{x^2 - 9} \\le 0$ adalah...",
+    "pilihan": ["$-3<x\\le-1$ atau $2\\le x<3$", "$x<-3$ atau $-1\\le x\\le 2$ atau $x>3$", "$-3<x<3$", "$-1\\le x\\le 2$", "$x<-1$ atau $x>2$"],
     "jawaban": "A",
-    "pembahasan": "Faktor: (x−2)(x+1)/(x−3)(x+3) ≤ 0. Uji interval memberi -3<x≤-1 dan 2≤x<3."
+    "pembahasan": "Faktor: $\\frac{(x-2)(x+1)}{(x-3)(x+3)} \\le 0$. Uji interval memberi $-3<x\\le-1$ dan $2\\le x<3$."
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Jika f(x)=x^2-1 dan g(x)=2x+1, nilai x yang memenuhi (g ∘ f)(x)=7 adalah...",
-    "pilihan": ["x=±2", "x=±√2", "x=±3", "x=±√3", "x=±1"],
+    "pertanyaan": "Jika $f(x)=x^2-1$ dan $g(x)=2x+1$, nilai $x$ yang memenuhi $(g \\circ f)(x)=7$ adalah...",
+    "pilihan": ["$x=\\pm 2$", "$x=\\pm \\sqrt{2}$", "$x=\\pm 3$", "$x=\\pm \\sqrt{3}$", "$x=\\pm 1$"],
     "jawaban": "A",
-    "pembahasan": "2(x^2 - 1) + 1 = 7 memberi x^2 = 4 sehingga x=±2."
+    "pembahasan": "$2(x^2 - 1) + 1 = 7$ memberi $x^2 = 4$ sehingga $x=\\pm 2$."
   },
   {
     "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Akar-akar x^2 - 5x + c = 0 adalah x1 dan x2. Jika x1^2 + x2^2 = 13, maka c adalah...",
+    "pertanyaan": "Akar-akar $x^2 - 5x + c = 0$ adalah $x_1$ dan $x_2$. Jika $x_1^2 + x_2^2 = 13$, maka $c$ adalah...",
     "pilihan": ["4", "6", "8", "10", "12"],
     "jawaban": "B",
-    "pembahasan": "x1+x2=5, x1x2=c. Maka x1^2+x2^2 = 25 - 2c = 13 sehingga c=6."
+    "pembahasan": "$x_1+x_2=5$, $x_1x_2=c$. Maka $x_1^2+x_2^2 = 25 - 2c = 13$ sehingga $c=6$."
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Jika f(x-1)=2x+3, maka f^{-1}(x) adalah...",
-    "pilihan": ["(x-1)/2", "(x-3)/2 - 1", "(x-3)/2 + 1", "(x+1)/2 - 3", "(x-5)/2"],
+    "pertanyaan": "Jika $f(x-1)=2x+3$, maka $f^{-1}(x)$ adalah...",
+    "pilihan": ["$\\frac{x-1}{2}$", "$\\frac{x-3}{2} - 1$", "$\\frac{x-3}{2} + 1$", "$\\frac{x+1}{2} - 3$", "$\\frac{x-5}{2}$"],
     "jawaban": "E",
-    "pembahasan": "Diperoleh f(x)=2x+5 sehingga invers f^{-1}(x) = (x-5)/2."
+    "pembahasan": "Diperoleh $f(x)=2x+5$ sehingga invers $f^{-1}(x) = \\frac{x-5}{2}$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Himpunan penyelesaian |x - 1| < √3 adalah...",
-    "pilihan": ["-1<x<3", "x<-1 atau x>3", "1-√2 < x < 1+√2", "-1<x<1 atau 1<x<3", "1-√3 < x < 1+√3"],
+    "pertanyaan": "Himpunan penyelesaian $|x - 1| < \\sqrt{3}$ adalah...",
+    "pilihan": ["$-1<x<3$", "$x<-1$ atau $x>3$", "$1-\\sqrt{2} < x < 1+\\sqrt{2}$", "$-1<x<1$ atau $1<x<3$", "$1-\\sqrt{3} < x < 1+\\sqrt{3}$"],
     "jawaban": "E",
-    "pembahasan": "|x−1| < √3 berarti 1−√3 < x < 1+√3."
+    "pembahasan": "$|x-1| < \\sqrt{3}$ berarti $1-\\sqrt{3} < x < 1+\\sqrt{3}$."
   },
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Jika f(x)=x^2-3x+5, nilai x yang memenuhi f(x)=f(2x-1) adalah...",
-    "pilihan": ["x=1 atau x=2", "x=1 atau x=4/3", "x=2 atau x=4/3", "x=1 atau x=5/3", "x=2 atau x=5/3"],
+    "pertanyaan": "Jika $f(x)=x^2-3x+5$, nilai $x$ yang memenuhi $f(x)=f(2x-1)$ adalah...",
+    "pilihan": ["$x=1$ atau $x=2$", "$x=1$ atau $x=4/3$", "$x=2$ atau $x=4/3$", "$x=1$ atau $x=5/3$", "$x=2$ atau $x=5/3$"],
     "jawaban": "B",
-    "pembahasan": "Setara dengan 3x^2 - 7x + 4 = 0 sehingga x=1 atau x=4/3."
+    "pembahasan": "Setara dengan $3x^2 - 7x + 4 = 0$ sehingga $x=1$ atau $x=\\frac{4}{3}$."
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Jika x dan y memenuhi x - y = 1 dan x^2 + y^2 = 5, maka x+y adalah...",
+    "pertanyaan": "Jika $x$ dan $y$ memenuhi $x - y = 1$ dan $x^2 + y^2 = 5$, maka $x+y$ adalah...",
     "pilihan": ["-5", "-3", "1", "3", "5"],
     "jawaban": "D",
-    "pembahasan": "Diperoleh dua solusi: (2,1) memberi x+y=3 dan (-1,-2) memberi x+y=-3. Yang cocok di pilihan adalah 3."
+    "pembahasan": "Diperoleh dua solusi: $(2,1)$ memberi $x+y=3$ dan $(-1,-2)$ memberi $x+y=-3$. Yang cocok di pilihan adalah $3$."
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Persamaan x^2 - px + (p - 1) = 0 memiliki akar x1 dan x2. Jika x1 = x2 + 3, maka p adalah...",
+    "pertanyaan": "Persamaan $x^2 - px + (p - 1) = 0$ memiliki akar $x_1$ dan $x_2$. Jika $x_1 = x_2 + 3$, maka $p$ adalah...",
     "pilihan": ["4 atau -1", "5 atau -2", "4 atau -2", "5 atau -1", "6 atau -1"],
     "jawaban": "D",
-    "pembahasan": "Diperoleh p^2 - 4p - 5 = 0 yang memberi p=5 atau p=-1."
+    "pembahasan": "Diperoleh $p^2 - 4p - 5 = 0$ yang memberi $p=5$ atau $p=-1$."
   }
 ]
