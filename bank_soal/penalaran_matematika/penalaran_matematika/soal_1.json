@@ -38,7 +38,7 @@
       "$2n^2 - 3n + 2$, $n = 1, 2, \\ldots, 8$"
     ],
     "jawaban": "D",
-    "pembahasan": "Bilangan pada petak pertama setiap baris adalah:\n$K_1 = 1 = 2^0$\n$K_2 = 256 = 2^8$\n$K_3 = K_2 \\times 2^8 = 2^{16}$\n$K_4 = K_3 \\times 2^8 = 2^{24}$\n\nEksponennya ($0, 8, 16, 24, \\ldots$) membentuk barisan aritmatika dengan suku pertama $a=0$ dan beda $d=8$. Suku ke-$n$ dari eksponen adalah $E_n = 0 + (n-1)8 = 8n - 8$.\nSehingga, $K_n = 2^{E_n} = 2^{8n - 8}.",
+    "pembahasan": "Bilangan pada petak pertama setiap baris adalah:\n$K_1 = 1 = 2^0$\n$K_2 = 256 = 2^8$\n$K_3 = K_2 \\times 2^8 = 2^{16}$\n$K_4 = K_3 \\times 2^8 = 2^{24}$\n\nEksponennya ($0, 8, 16, 24, \\ldots$) membentuk barisan aritmatika dengan suku pertama $a=0$ dan beda $d=8$. Suku ke-$n$ dari eksponen adalah $E_n = 0 + (n-1)8 = 8n - 8$.\nSehingga, $K_n = 2^{E_n} = 2^{8n - 8}$.",
     "keterangan_soal": "Barisan Geometri Lanjut"
   },
   {
