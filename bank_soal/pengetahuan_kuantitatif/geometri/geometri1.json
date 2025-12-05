@@ -1,49 +1,59 @@
 [
   {
     "id": 1,
+    "kategori": "Geometri",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/sudut_r.png",
-    "pertanyaan": "Berapa nilai sudut r?",
+    "pertanyaan": "Berapa nilai sudut $r$?",
     "pilihan": ["32", "38", "48", "62", "87"],
     "jawaban": "B",
-    "pembahasan": "Sudut p = $67^{\\circ}$ (bertolak belakang dengan sudut $67^{\\circ}$)\nSudut s + $105^{\\circ} = 180^{\\circ}$ (sudut berpelurus)\nSudut s = $180^{\\circ} - 105^{\\circ} = 75^{\\circ}$\nSudut s sehadap dengan sudut q, maka $q = 75^{\\circ}$\nJumlah sudut segitiga = $180^{\\circ}$\n$p + q + r = 180^{\\circ}$\n$67^{\\circ} + 75^{\\circ} + r = 180^{\\circ}$\n$142^{\\circ} + r = 180^{\\circ}$\n$r = 38^{\\circ}$"
+    "pembahasan": "Sudut $p = 67^{\\circ}$ (bertolak belakang dengan sudut $67^{\\circ}$)\nSudut $s + 105^{\\circ} = 180^{\\circ}$ (sudut berpelurus)\nSudut $s = 180^{\\circ} - 105^{\\circ} = 75^{\\circ}$\nSudut $s$ sehadap dengan sudut $q$, maka $q = 75^{\\circ}$\nJumlah sudut segitiga = $180^{\\circ}$\n$p + q + r = 180^{\\circ}$\n$67^{\\circ} + 75^{\\circ} + r = 180^{\\circ}$\n$142^{\\circ} + r = 180^{\\circ}$\n$r = 38^{\\circ}$",
+    "keterangan_soal": "Sudut dan Segitiga"
   },
   {
     "id": 2,
+    "kategori": "Aljabar",
     "pertanyaan": "Sebuah persegi panjang memiliki panjang $P$ dan lebar $L$. Jika panjangnya diperpanjang 20% dan lebarnya diperpendek 10%, maka persentase perubahan luas persegi panjang tersebut adalah...",
     "pilihan": ["8% penurunan", "8% peningkatan", "10% penurunan", "10% peningkatan", "Tidak ada perubahan"],
     "jawaban": "B",
-    "pembahasan": "Luas awal: $A_1 = P \\times L$\nPanjang baru: $P' = 1.2P$\nLebar baru: $L' = 0.9L$\nLuas baru: $A_2 = 1.2P \\times 0.9L = 1.08PL$\nPerubahan: $\\frac{A_2 - A_1}{A_1} \\times 100\\%$\n$= \\frac{1.08PL - PL}{PL} \\times 100\\% = 8\\%$ peningkatan"
+    "pembahasan": "Luas awal: $A_1 = P \\times L$\nPanjang baru: $P' = 1.2P$\nLebar baru: $L' = 0.9L$\nLuas baru: $A_2 = 1.2P \\times 0.9L = 1.08PL$\nPerubahan: $\\frac{A_2 - A_1}{A_1} \\times 100\\%$\n$= \\frac{1.08PL - PL}{PL} \\times 100\\% = 8\\%$ peningkatan",
+    "keterangan_soal": "Persentase Perubahan Luas"
   },
   {
     "id": 3,
+    "kategori": "Geometri",
     "pertanyaan": "Sebuah lingkaran dengan jari-jari $R$ memiliki luas $A$. Jika jari-jari lingkaran diperkecil menjadi $R/2$, maka luas lingkaran yang baru adalah...",
     "pilihan": ["$A/2$", "$A/4$", "$A/8$", "$A/\\pi$", "$A/16$"],
     "jawaban": "B",
-    "pembahasan": "Luas awal: $A = \\pi R^2$\nJari-jari baru: $R' = R/2$\nLuas baru: $A' = \\pi (R/2)^2 = \\pi R^2/4 = A/4$"
+    "pembahasan": "Luas awal: $A = \\pi R^2$\nJari-jari baru: $R' = R/2$\nLuas baru: $A' = \\pi (R/2)^2 = \\pi R^2/4 = A/4$",
+    "keterangan_soal": "Luas Lingkaran"
   },
   {
     "id": 4,
+    "kategori": "Geometri",
     "pertanyaan": "Dua buah lingkaran $L_1$ dan $L_2$ saling bersinggungan di luar. Jari-jari $L_1$ adalah 4 cm dan jari-jari $L_2$ adalah 9 cm. Jarak antara pusat kedua lingkaran adalah...",
     "pilihan": ["13 cm", "5 cm", "6.5 cm", "8 cm", "10 cm"],
     "jawaban": "A",
-    "pembahasan": "Lingkaran bersinggungan di luar:\nJarak pusat = $R_1 + R_2$\n$= 4 + 9 = 13$ cm"
+    "pembahasan": "Lingkaran bersinggungan di luar:\nJarak pusat = $R_1 + R_2$\n$= 4 + 9 = 13$ cm",
+    "keterangan_soal": "Hubungan Antarpusat Lingkaran"
   },
   {
-  "id": 5,
-  "kategori": "Trigonometri",
-  "pertanyaan": "Jika $0^\\circ < \\alpha < 90^\\circ$ dan $\\cos(\\alpha)=\\dfrac{3}{4}$, di antara pilihan berikut yang benar adalah ...\n\n(1) $\\sin(\\alpha)=\\dfrac{4}{\\sqrt{7}}$\n\n(2) $\\tan(90^\\circ-\\alpha)=\\dfrac{3}{\\sqrt{7}}$\n\n(3) $\\cos(\\alpha)<\\sin(\\alpha)$\n\n(4) $\\tan(\\alpha)=\\dfrac{\\sqrt{7}}{3}$\n",
-  "pilihan": ["(1), (2), dan (3) SAJA", "(1) dan (3) SAJA", "(2) dan (4) SAJA", "(4) SAJA", "SEMUA PILIHAN"],
-  "jawaban": "C",
-  "pembahasan": "Diketahui $\\cos\\alpha=\\dfrac{3}{4}$ dan sudut berada pada kuadran I ($0^\\circ<\\alpha<90^\\circ$), sehingga semua fungsi sinus dan tangen positif.\n\nLangkah 1 — Hitung $\\sin\\alpha$:\n$\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}=\\sqrt{1-\\left(\\dfrac{3}{4}\\right)^2}=\\sqrt{1-\\dfrac{9}{16}}=\\sqrt{\\dfrac{7}{16}}=\\dfrac{\\sqrt{7}}{4}.$\n\nPeriksa (1): Pernyataan (1) menyatakan $\\sin\\alpha=\\dfrac{4}{\\sqrt{7}}$. Nilai tersebut tidak sama dengan $\\dfrac{\\sqrt{7}}{4}$ (dan juga lebih dari 1), jadi (1) SALAH.\n\nLangkah 2 — Hitung $\\tan(90^\\circ-\\alpha)$:\n$\\tan(90^\\circ-\\alpha)=\\cot\\alpha=\\dfrac{\\cos\\alpha}{\\sin\\alpha}=\\dfrac{\\tfrac{3}{4}}{\\tfrac{\\sqrt{7}}{4}}=\\dfrac{3}{\\sqrt{7}}.$\n\nJadi (2) BENAR.\n\nLangkah 3 — Bandingkan $\\cos\\alpha$ dan $\\sin\\alpha$:\n$\\cos\\alpha=\\dfrac{3}{4}=0{,}75$ dan $\\sin\\alpha=\\dfrac{\\sqrt{7}}{4}\\approx\\dfrac{2{,}6458}{4}\\approx0{,}6614$.\nKarena $0{,}75>0{,}6614$, maka $\\cos\\alpha>\\sin\\alpha$, sehingga (3) yang menyatakan $\\cos\\alpha<\\sin\\alpha$ SALAH.\n\nLangkah 4 — Hitung $\\tan\\alpha$:\n$\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\tfrac{\\sqrt{7}}{4}}{\\tfrac{3}{4}}=\\dfrac{\\sqrt{7}}{3}.$\nJadi (4) BENAR.\n\nKesimpulan: Pernyataan yang benar hanyalah (2) dan (4). Oleh karena itu pilihan yang tepat adalah (c) (2) dan (4) SAJA."
-},
+    "id": 5,
+    "kategori": "Trigonometri",
+    "pertanyaan": "Jika $0^\\circ < \\alpha < 90^\\circ$ dan $\\cos(\\alpha)=\\dfrac{3}{4}$, di antara pilihan berikut yang benar adalah ...\n\n(1) $\\sin(\\alpha)=\\dfrac{4}{\\sqrt{7}}$\n\n(2) $\\tan(90^\\circ-\\alpha)=\\dfrac{3}{\\sqrt{7}}$\n\n(3) $\\cos(\\alpha)<\\sin(\\alpha)$\n\n(4) $\\tan(\\alpha)=\\dfrac{\\sqrt{7}}{3}$\n",
+    "pilihan": ["(1), (2), dan (3) SAJA", "(1) dan (3) SAJA", "(2) dan (4) SAJA", "(4) SAJA", "SEMUA PILIHAN"],
+    "jawaban": "C",
+    "pembahasan": "Diketahui $\\cos\\alpha=\\dfrac{3}{4}$ dan sudut berada pada kuadran I ($0^\\circ<\\alpha<90^\\circ$), sehingga semua fungsi sinus dan tangen positif.\n\nLangkah 1 — Hitung $\\sin\\alpha$:\n$$\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}=\\sqrt{1-\\left(\\dfrac{3}{4}\\right)^2}=\\sqrt{1-\\dfrac{9}{16}}=\\sqrt{\\dfrac{7}{16}}=\\dfrac{\\sqrt{7}}{4}.$$\n\nPeriksa (1): Pernyataan (1) menyatakan $\\sin\\alpha=\\dfrac{4}{\\sqrt{7}}$. Nilai tersebut tidak sama dengan $\\dfrac{\\sqrt{7}}{4}$ (dan juga lebih dari 1), jadi (1) SALAH.\n\nLangkah 2 — Hitung $\\tan(90^\\circ-\\alpha)$:\n$$\\tan(90^\\circ-\\alpha)=\\cot\\alpha=\\dfrac{\\cos\\alpha}{\\sin\\alpha}=\\dfrac{\\tfrac{3}{4}}{\\tfrac{\\sqrt{7}}{4}}=\\dfrac{3}{\\sqrt{7}}.$$\n\nJadi (2) BENAR.\n\nLangkah 3 — Bandingkan $\\cos\\alpha$ dan $\\sin\\alpha$:\n$\\cos\\alpha=\\dfrac{3}{4}=0{,}75$ dan $\\sin\\alpha=\\dfrac{\\sqrt{7}}{4}\\approx\\dfrac{2{,}6458}{4}\\approx0{,}6614$.\nKarena $0{,}75>0{,}6614$, maka $\\cos\\alpha>\\sin\\alpha$, sehingga (3) yang menyatakan $\\cos\\alpha<\\sin\\alpha$ SALAH.\n\nLangkah 4 — Hitung $\\tan\\alpha$:\n$$\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\tfrac{\\sqrt{7}}{4}}{\\tfrac{3}{4}}=\\dfrac{\\sqrt{7}}{3}.$$\nJadi (4) BENAR.\n\nKesimpulan: Pernyataan yang benar hanyalah (2) dan (4). Oleh karena itu pilihan yang tepat adalah (c) (2) dan (4) SAJA.",
+    "keterangan_soal": "Identitas Trigonometri"
+  },
   {
     "id": 6,
+    "kategori": "Trigonometri",
     "pertanyaan": "Sebuah jajar genjang memiliki panjang alas 10 cm dan tinggi 8 cm. Jika salah satu sudutnya adalah $60^\\circ$, maka panjang sisi miring (sisi non-alas) jajar genjang tersebut adalah...",
     "pilihan": ["$\\frac{8\\sqrt{3}}{3}$ cm", "$\\frac{16\\sqrt{3}}{3}$ cm", "$8\\sqrt{2}$ cm", "16 cm", "8 cm"],
     "jawaban": "B",
-    "pembahasan": "Tinggi $h = 8$ cm, sudut $60^\\circ$\n$\\sin 60^\\circ = \\frac{h}{s}$\n$\\frac{\\sqrt{3}}{2} = \\frac{8}{s}$\n$s = \\frac{16}{\\sqrt{3}} = \\frac{16\\sqrt{3}}{3}$ cm"
+    "pembahasan": "Tinggi $h = 8$ cm, sudut $\\alpha = 60^\\circ$, sisi miring $s$.\n$$\\sin 60^\\circ = \\frac{h}{s}$$\n$$\\frac{\\sqrt{3}}{2} = \\frac{8}{s}$$\n$$s = \\frac{16}{\\sqrt{3}} = \\frac{16\\sqrt{3}}{3} \\text{ cm}$$\n\n",
+    "keterangan_soal": "Aplikasi Trigonometri pada Geometri"
   },
-  [
   {
     "id": 7,
     "kategori": "Mudah",
@@ -97,7 +107,7 @@
   },
   {
     "id": 10,
-    "kategori": "Sedang",
+    "kategori": "Sulit",
     "pertanyaan": "Alas patung ditempatkan di depan lampu dengan jarak 2 m dari dinding. Tinggi alas patung tersebut 1 m. Sebuah patung setinggi 1,5 m diletakkan di atas alas tersebut. Panjang bayangan patung adalah\\ldots. m.",
     "gambar": "image_f9e367.png",
     "pilihan": [
@@ -105,11 +115,11 @@
       "$\\frac{15}{6}$",
       "$\\frac{16}{6}$",
       "$\\frac{17}{6}$",
-      "$\\frac{18}{6$"
+      "$\\frac{18}{6}$"
     ],
-    "jawaban": "B",
-    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/geo251_10.png",
-    "pembahasan": "Dalam konteks soal yang hanya memberikan rasio dari meja ($k=5/3$), asumsi yang paling masuk akal adalah patung setinggi 1,5 m juga akan mematuhi rasio kesebangunan $k=\\frac{5}{3}$ untuk menghasilkan jawaban di pilihan.\n\nPanjang Patung ($P_b$) = 1,5 m.\n\nKita asumsikan $k = \\frac{5}{3}$ (rasio dari soal 9 dan 10):\n$$\\text{Panjang Bayangan} (P_{b'}) = \\text{Panjang Patung} (P_b) \\times k$$\n$$P_{b'} = 1.5 \\times \\frac{5}{3} = \\frac{3}{2} \\times \\frac{5}{3} = \\frac{5}{2} \\text{ m}$$\n\nDalam bentuk pecahan dengan penyebut 6:\n$$P_{b'} = \\frac{5 \\times 3}{2 \\times 3} = \\frac{15}{6} \\text{ m}$$\n\n*(Catatan: Informasi jarak alas patung 2 m dari dinding dan tinggi alas 1 m tidak diperlukan dalam penyelesaian ini, karena menggunakan asumsi rasio kesebangunan vertikal dari soal sebelumnya.)*",
-    "keterangan_soal": "Aplikasi Rasio Kesebangunan"
+    "jawaban": "C",
+    "gambar_pembahasan": "image_f9d463.jpg",
+    "pembahasan": "Soal ini memerlukan perhitungan kesebangunan horizontal menggunakan semua informasi yang diberikan. Misalkan $H=4 \text{ m}$ adalah ketinggian lampu, dan patung diletakkan $D=2 \text{ m}$ dari lampu (atau dari proyeksi horizontal lampu di lantai).\n\n1. **Bayangan Alas (Titik $A$, $t_A=1 \text{ m}$):**\n   Ketinggian Alas ($t_A$) = 1 m. Jarak Benda dari Lampu ($D$) = 2 m.\n   Misalkan $x$ adalah jarak bayangan $A'$ dari lampu $L$ (horizontal).\n   $$\\frac{\\text{Tinggi Benda}}{\\text{Tinggi Lampu}} = \\frac{\\text{Jarak Benda dari Lampu}}{\\text{Jarak Bayangan dari Lampu}}$$\n   $$\\frac{4 - t_A}{4} = \\frac{2}{x} \\implies \\frac{4 - 1}{4} = \\frac{3}{4} = \\frac{2}{x} \\implies 3x = 8 \\implies x = \\frac{8}{3} \\text{ m}$$ (Jarak total bayangan alas dari lampu).\n\n2. **Bayangan Puncak (Titik $B$, $t_B=2.5 \text{ m}$):**\n   Ketinggian Puncak ($t_B$) = $1 + 1.5 = 2.5 \text{ m}$.\n   Misalkan $y$ adalah jarak bayangan $B'$ dari lampu $L$ (horizontal).\n   $$\\frac{4 - t_B}{4} = \\frac{2}{y} \\implies \\frac{4 - 2.5}{4} = \\frac{1.5}{4} = \\frac{3}{8} = \\frac{2}{y} \\implies 3y = 16 \\implies y = \\frac{16}{3} \\text{ m}$$ (Jarak total bayangan puncak dari lampu).\n\n**Panjang Bayangan Patung ($L_{bayangan}$)** adalah selisih jarak bayangan puncak dan alas:\n$$L_{bayangan} = y - x = \\frac{16}{3} - \\frac{8}{3} = \\frac{8}{3} \\text{ m}$$ \nKonversi ke penyebut 6:\n$$L_{bayangan} = \\frac{8 \\times 2}{3 \\times 2} = \\frac{16}{6} \\text{ m}$$",
+    "keterangan_soal": "Kesebangunan Segitiga dengan Pergeseran Horizontal"
   }
 ]
