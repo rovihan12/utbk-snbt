@@ -28,38 +28,70 @@
   },
   {
     "id": 4,
+    "kategori": "Mudah",
+    "pertanyaan": "Kertas berpetak berukuran $8 \\times 8$. Baris pertama: 1, 2, 4, 8, \\ldots, 128. Pola baris kedua mengikuti pola baris pertama, dimulai dengan 256, dan seterusnya sampai baris ke-8. Jika $K_n$ menyatakan bilangan pada petak pertama baris ke-$n$, maka $K_n = \\ldots$",
+    "pilihan": [
+      "$2^{n-1}$, $n = 1, 2, \\ldots, 8$",
+      "$2^{8n-1}$, $n = 1, 2, \\ldots, 8$",
+      "$2n - 1$, $n = 1, 2, \\ldots, 8$",
+      "$2^{8n-8}$, $n = 1, 2, \\ldots, 8$",
+      "$2n^2 - 3n + 2$, $n = 1, 2, \\ldots, 8$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Bilangan pada petak pertama setiap baris adalah:\n$K_1 = 1 = 2^0$\n$K_2 = 256 = 2^8$\n$K_3 = K_2 \\times 2^8 = 2^{16}$\n$K_4 = K_3 \\times 2^8 = 2^{24}$\n\nEksponennya ($0, 8, 16, 24, \\ldots$) membentuk barisan aritmatika dengan suku pertama $a=0$ dan beda $d=8$. Suku ke-$n$ dari eksponen adalah $E_n = 0 + (n-1)8 = 8n - 8$.\nSehingga, $K_n = 2^{E_n} = 2^{8n - 8}$.",
+    "keterangan_soal": "Barisan Geometri Lanjut"
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Pilihlah jawaban 'Ya' atau 'Tidak' untuk setiap pernyataan berikut berdasarkan pola bilangan pada kertas berpetak ($K_n = 2^{8n-8}$ dan $B_{n,k} = K_n \\cdot 2^{k-1}$). \n\nPernyataan 1: Bilangan pada petak ke-3 baris ke-2 adalah 512.\nPernyataan 2: Jumlah bilangan pada petak pertama sampai ke-5 baris pertama adalah 31.\nPernyataan 3: Bilangan pada baris ke-8 petak ke-8 adalah $2^{64}$.",
+    "pilihan": [
+      "Tidak; Ya; Tidak",
+      "Ya; Ya; Tidak",
+      "Tidak; Tidak; Ya",
+      "Ya; Tidak; Ya",
+      "Tidak; Ya; Ya"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pernyataan 1: Bilangan pada petak ke-3 baris ke-2 ($B_{2,3}$):\n$B_{2,3} = K_2 \\cdot 2^{3-1} = 256 \\cdot 2^2 = 256 \\cdot 4 = 1024$. Karena $1024 \\ne 512$. (TIDAK)\n\nPernyataan 2: Jumlah 5 suku pertama baris pertama ($S_5$). Baris pertama adalah $1, 2, 4, 8, 16, \\ldots$. ($a=1, r=2$).\n$S_5 = \\frac{a(r^5 - 1)}{r-1} = \\frac{1(2^5 - 1)}{2-1} = 32 - 1 = 31$. (YA)\n\nPernyataan 3: Bilangan pada baris ke-8 petak ke-8 ($B_{8,8}$):\n$B_{8,8} = K_8 \\cdot 2^{8-1} = 2^{8(8)-8} \\cdot 2^7 = 2^{56} \\cdot 2^7 = 2^{63}$. Karena $2^{63} \\ne 2^{64}$. (TIDAK)",
+    "keterangan_soal": "Aplikasi Barisan Geometri"
+  },
+  {
+    "id": 6,
+    "kategori": "Sedang",
+    "pertanyaan": "Kertas berpetak berukuran $8 \\times 8$. Pola bilangan: $B_{n,k} = 2^{8n - 8} \\cdot 2^{k-1}$. Hasil bagi bilangan pada petak pertama baris ketiga dengan bilangan pada petak kelima baris kedua adalah\\ldots.",
+    "pilihan": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Bilangan pada petak pertama baris ketiga ($B_{3,1}$):\n$B_{3,1} = K_3 = 2^{8(3)-8} = 2^{24-8} = 2^{16}$\n\nBilangan pada petak kelima baris kedua ($B_{2,5}$):\n$B_{2,5} = K_2 \\cdot 2^{5-1} = 2^{8(2)-8} \\cdot 2^4 = 2^8 \\cdot 2^4 = 2^{12}$\n\nHasil bagi: $\\frac{B_{3,1}}{B_{2,5}} = \\frac{2^{16}}{2^{12}} = 2^{16-12} = 2^4 = 16$.",
+    "keterangan_soal": "Operasi Barisan Geometri"
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika bilangan pada petak ke-$n$ baris pertama dibagi dengan $2^{2n-2}$, $n = 1, 2, 3, \\ldots, 8$, maka jumlah bilangan yang dihasilkan pada baris pertama adalah\\ldots.",
+    "pilihan": [
+      "\\frac{255}{256}",
+      "\\frac{255}{128}",
+      "\\frac{127}{256}",
+      "\\frac{127}{128}",
+      "\\frac{127}{64}"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Bilangan pada petak ke-$n$ baris pertama adalah $B_{1,n} = 2^{n-1}$.\n\nBilangan baru ($a_n$):\n$$a_n = \\frac{B_{1,n}}{2^{2n-2}} = \\frac{2^{n-1}}{2^{2n-2}} = 2^{(n-1) - (2n-2)} = 2^{n - 1 - 2n + 2} = 2^{-n + 1} = \\left(\\frac{1}{2}\\right)^{n-1}$$\n\nBarisan bilangan baru: $1, \\frac{1}{2}, \\frac{1}{4}, \\ldots, \\left(\\frac{1}{2}\\right)^7 = \\frac{1}{128}$.\nIni adalah barisan geometri dengan suku pertama $a=1$, rasio $r=\\frac{1}{2}$, dan jumlah suku $n=8$.\n\nJumlah 8 suku pertama ($S_8$):\n$$S_8 = \\frac{a(1 - r^n)}{1 - r} = \\frac{1\\left(1 - \\left(\\frac{1}{2}\\right)^8\\right)}{1 - \\frac{1}{2}} = \\frac{1 - \\frac{1}{256}}{\\frac{1}{2}}$$ \n$$S_8 = \\frac{\\frac{255}{256}}{\\frac{1}{2}} = \\frac{255}{256} \\times 2 = \\frac{255}{128}$$",
+    "keterangan_soal": "Penjumlahan Deret Geometri"
+  },  
+    {
+    "id": 8,
     "pertanyaan": "Sebuah akuarium berbentuk balok memiliki panjang 80 cm, lebar 50 cm, dan tinggi 60 cm. Akuarium diisi air setinggi 45 cm. Volume airnya adalah...",
     "pilihan": ["180 liter", "200 liter", "240 liter", "280 liter", "300 liter"],
     "jawaban": "A",
     "pembahasan": "Rumus volume: \\( V = p \\times l \\times t = 80 \\times 50 \\times 45 = 180{,}000\\,\\text{cm}^3 = 180\\,\\text{liter} \\)."
-  },
-  {
-    "id": 5,
-    "pertanyaan": "Dalam survei, 60% siswa menyukai matematika, 50% menyukai fisika, dan 20% menyukai keduanya. Berapa persen siswa tidak menyukai keduanya?",
-    "pilihan": ["10%", "20%", "30%", "40%", "50%"],
-    "jawaban": "A",
-    "pembahasan": "Gunakan prinsip inklusi-eksklusi: \\( P(M \\cup F) = 60\\% + 50\\% - 20\\% = 90\\% \\). Maka yang tidak suka keduanya: \\( 100\\% - 90\\% = 10\\% \\)."
-  },
-  {
-    "id": 6,
-    "pertanyaan": "Jika harga 3 kg apel dan 2 kg jeruk adalah Rp46.000, sedangkan 2 kg apel dan 3 kg jeruk Rp44.000, berapa harga 1 kg apel?",
-    "pilihan": ["Rp8.000", "Rp10.000", "Rp12.000", "Rp14.000", "Rp16.000"],
-    "jawaban": "B",
-    "pembahasan": "Misal apel = A, jeruk = J. \n\\( 3A + 2J = 46000 \\) dan \\( 2A + 3J = 44000 \\). \nEliminasi: kalikan persamaan pertama ×3 dan kedua ×2: \\( 9A + 6J = 138000 \\) dan \\( 4A + 6J = 88000 \\). \nKurangi: \\( 5A = 50000 \\Rightarrow A = 10000 \\). Jadi, harga 1 kg apel Rp10.000."
-  },
-  {
-    "id": 7,
-    "pertanyaan": "Sebuah mobil melaju 60 km/jam. Jika jaraknya 240 km, berapa lama waktu tempuhnya?",
-    "pilihan": ["3 jam", "3,5 jam", "4 jam", "4,5 jam", "5 jam"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan rumus \\( t = \\frac{s}{v} = \\frac{240}{60} = 4 \\). Jadi, waktunya **4 jam**."
-  },
-  {
-    "id": 8,
-    "pertanyaan": "Fungsi \\( f(x) = x^2 - 4x + c \\) memiliki nilai minimum 5. Nilai c adalah...",
-    "pilihan": ["1", "5", "7", "9", "11"],
-    "jawaban": "D",
-    "pembahasan": "Titik puncak fungsi kuadrat: \\( x_p = \\frac{-b}{2a} = \\frac{4}{2} = 2 \\). \n\\( f(2) = 2^2 - 4(2) + c = 4 - 8 + c = c - 4 \\). \nNilai minimum 5 → \\( c - 4 = 5 \\Rightarrow c = 9 \\)."
   },
   {
     "id": 9,
@@ -70,17 +102,17 @@
   },
   {
     "id": 10,
-    "pertanyaan": "Lingkaran dengan persamaan \\( x^2 + y^2 - 4x + 6y - 3 = 0 \\). Tentukan pusatnya.",
-    "pilihan": ["(2, -3)", "(-2, 3)", "(4, -6)", "(-4, 6)", "(2, 3)"],
+    "pertanyaan": "Dalam survei, 60% siswa menyukai matematika, 50% menyukai fisika, dan 20% menyukai keduanya. Berapa persen siswa tidak menyukai keduanya?",
+    "pilihan": ["10%", "20%", "30%", "40%", "50%"],
     "jawaban": "A",
-    "pembahasan": "Lengkapi kuadrat: \\( (x^2 - 4x + 4) + (y^2 + 6y + 9) = 3 + 4 + 9 \\). \n\\( (x - 2)^2 + (y + 3)^2 = 16 \\). \nPusatnya \\( (2, -3) \\)."
+    "pembahasan": "Gunakan prinsip inklusi-eksklusi: \\( P(M \\cup F) = 60\\% + 50\\% - 20\\% = 90\\% \\). Maka yang tidak suka keduanya: \\( 100\\% - 90\\% = 10\\% \\)."
   },
-  {
+   {
     "id": 11,
-    "pertanyaan": "Jika log 2 = 0.301 dan log 3 = 0.477, maka log 12 adalah...",
-    "pilihan": ["0.778", "0.903", "1.079", "1.204", "1.301"],
-    "jawaban": "C",
-    "pembahasan": "\\( \\log 12 = \\log(4 \\times 3) = \\log 4 + \\log 3 = 2\\log 2 + \\log 3 = 2(0.301) + 0.477 = 1.079 \\)."
+    "pertanyaan": "Jika harga 3 kg apel dan 2 kg jeruk adalah Rp46.000, sedangkan 2 kg apel dan 3 kg jeruk Rp44.000, berapa harga 1 kg apel?",
+    "pilihan": ["Rp8.000", "Rp10.000", "Rp12.000", "Rp14.000", "Rp16.000"],
+    "jawaban": "B",
+    "pembahasan": "Misal apel = A, jeruk = J. \n\\( 3A + 2J = 46000 \\) dan \\( 2A + 3J = 44000 \\). \nEliminasi: kalikan persamaan pertama ×3 dan kedua ×2: \\( 9A + 6J = 138000 \\) dan \\( 4A + 6J = 88000 \\). \nKurangi: \\( 5A = 50000 \\Rightarrow A = 10000 \\). Jadi, harga 1 kg apel Rp10.000."
   },
   {
     "id": 12,
@@ -89,12 +121,12 @@
     "jawaban": "C",
     "pembahasan": "\\( p + l = 20 \\) dan \\( p = l + 4 \\). \n\\( l + 4 + l = 20 \\Rightarrow l = 8, p = 12 \\). \nLuas \\( = 12 \\times 8 = 96 \\text{ cm}^2 \\)."
   },
-  {
+   {
     "id": 13,
-    "pertanyaan": "Jika matriks A = [[2, -1], [3, x]] memiliki determinan 7, nilai x adalah...",
-    "pilihan": ["-5", "-3", "2", "3", "5"],
+    "pertanyaan": "Sebuah mobil melaju 60 km/jam. Jika jaraknya 240 km, berapa lama waktu tempuhnya?",
+    "pilihan": ["3 jam", "3,5 jam", "4 jam", "4,5 jam", "5 jam"],
     "jawaban": "C",
-    "pembahasan": "Determinan \\( = 2x - (-1)(3) = 2x + 3 = 7 \\Rightarrow 2x = 4 \\Rightarrow x = 2 \\)."
+    "pembahasan": "Gunakan rumus \\( t = \\frac{s}{v} = \\frac{240}{60} = 4 \\). Jadi, waktunya **4 jam**."
   },
   {
     "id": 14,
