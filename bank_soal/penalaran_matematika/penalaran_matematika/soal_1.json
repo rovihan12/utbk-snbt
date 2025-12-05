@@ -71,21 +71,21 @@
     "pembahasan": "Bilangan pada petak pertama baris ketiga ($B_{3,1}$):\n$B_{3,1} = K_3 = 2^{8(3)-8} = 2^{24-8} = 2^{16}$\n\nBilangan pada petak kelima baris kedua ($B_{2,5}$):\n$B_{2,5} = K_2 \\cdot 2^{5-1} = 2^{8(2)-8} \\cdot 2^4 = 2^8 \\cdot 2^4 = 2^{12}$\n\nHasil bagi: $\\frac{B_{3,1}}{B_{2,5}} = \\frac{2^{16}}{2^{12}} = 2^{16-12} = 2^4 = 16$.",
     "keterangan_soal": "Operasi Barisan Geometri"
   },
-  {
-    "id": 7,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika bilangan pada petak ke-$n$ baris pertama dibagi dengan $2^{2n-2}$, $n = 1, 2, 3, \\ldots, 8$, maka jumlah bilangan yang dihasilkan pada baris pertama adalah...",
-    "pilihan": [
-      "\\frac{255}{256}",
-      "\\frac{255}{128}",
-      "\\frac{127}{256}",
-      "\\frac{127}{128}",
-      "\\frac{127}{64}"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Bilangan pada petak ke-$n$ baris pertama adalah $B_{1,n} = 2^{n-1}$.\n\nBilangan baru ($a_n$):\n$$a_n = \\frac{B_{1,n}}{2^{2n-2}} = \\frac{2^{n-1}}{2^{2n-2}} = 2^{(n-1) - (2n-2)} = 2^{n - 1 - 2n + 2} = 2^{-n + 1} = \\left(\\frac{1}{2}\\right)^{n-1}$$\n\nBarisan bilangan baru: $1, \\frac{1}{2}, \\frac{1}{4}, \\ldots, \\left(\\frac{1}{2}\\right)^7 = \\frac{1}{128}$.\nIni adalah barisan geometri dengan suku pertama $a=1$, rasio $r=\\frac{1}{2}$, dan jumlah suku $n=8$.\n\nJumlah 8 suku pertama ($S_8$):\n$$S_8 = \\frac{a(1 - r^n)}{1 - r} = \\frac{1\\left(1 - \\left(\\frac{1}{2}\\right)^8\\right)}{1 - \\frac{1}{2}} = \\frac{1 - \\frac{1}{256}}{\\frac{1}{2}}$$ \n$$S_8 = \\frac{\\frac{255}{256}}{\\frac{1}{2}} = \\frac{255}{256} \\times 2 = \\frac{255}{128}$$",
-    "keterangan_soal": "Penjumlahan Deret Geometri"
-  },  
+{
+  "id": 7,
+  "kategori": "Sedang",
+  "pertanyaan": "Jika bilangan pada petak ke-$n$ baris pertama dibagi dengan $2^{2n-2}$, $n = 1, 2, 3, \\ldots, 8$, maka jumlah bilangan yang dihasilkan pada baris pertama adalah\\ldots.",
+  "pilihan": [
+    "$\\frac{255}{256}$",
+    "$\\frac{255}{128}$",
+    "$\\frac{127}{256}$",
+    "$\\frac{127}{128}$",
+    "$\\frac{127}{64}$"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Bilangan pada petak ke-$n$ baris pertama adalah $B_{1,n} = 2^{n-1}$.\n\nBilangan baru ($a_n$):\n$$a_n = \\frac{B_{1,n}}{2^{2n-2}} = \\frac{2^{n-1}}{2^{2n-2}} = 2^{(n-1) - (2n-2)} = 2^{n - 1 - 2n + 2} = 2^{-n + 1} = \\left(\\frac{1}{2}\\right)^{n-1}$$\n\nBarisan bilangan baru: $1, \\frac{1}{2}, \\frac{1}{4}, \\ldots, \\left(\\frac{1}{2}\\right)^7 = \\frac{1}{128}$.\nIni adalah barisan geometri dengan suku pertama $a=1$, rasio $r=\\frac{1}{2}$, dan jumlah suku $n=8$.\n\nJumlah 8 suku pertama ($S_8$):\n$$S_8 = \\frac{a(1 - r^n)}{1 - r} = \\frac{1\\left(1 - \\left(\\frac{1}{2}\\right)^8\\right)}{1 - \\frac{1}{2}} = \\frac{1 - \\frac{1}{256}}{\\frac{1}{2}}$$ \n$$S_8 = \\frac{\\frac{255}{256}}{\\frac{1}{2}} = \\frac{255}{256} \\times 2 = \\frac{255}{128}$$",
+  "keterangan_soal": "Penjumlahan Deret Geometri"
+},  
     {
     "id": 8,
     "pertanyaan": "Sebuah akuarium berbentuk balok memiliki panjang 80 cm, lebar 50 cm, dan tinggi 60 cm. Akuarium diisi air setinggi 45 cm. Volume airnya adalah...",
