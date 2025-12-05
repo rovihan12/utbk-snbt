@@ -83,7 +83,7 @@
     "$\\frac{127}{64}$"
   ],
   "jawaban": "B",
-  "pembahasan": "Bilangan pada petak ke-$n$ baris pertama adalah $B_{1,n} = 2^{n-1}$.\n\nBilangan baru ($a_n$):\n$$a_n = \\frac{B_{1,n}}{2^{2n-2}} = \\frac{2^{n-1}}{2^{2n-2}} = 2^{(n-1) - (2n-2)} = 2^{n - 1 - 2n + 2} = 2^{-n + 1} = \\left(\\frac{1}{2}\\right)^{n-1}$$\n\nBarisan bilangan baru: $1, \\frac{1}{2}, \\frac{1}{4}, \\ldots, \\left(\\frac{1}{2}\\right)^7 = \\frac{1}{128}$.\nIni adalah barisan geometri dengan suku pertama $a=1$, rasio $r=\\frac{1}{2}$, dan jumlah suku $n=8$.\n\nJumlah 8 suku pertama ($S_8$):\n$$S_8 = \\frac{a(1 - r^n)}{1 - r} = \\frac{1\\left(1 - \\left(\\frac{1}{2}\\right)^8\\right)}{1 - \\frac{1}{2}} = \\frac{1 - \\frac{1}{256}}{\\frac{1}{2}}$$ \n$$S_8 = \\frac{\\frac{255}{256}}{\\frac{1}{2}} = \\frac{255}{256} \\times 2 = \\frac{255}{128}$$",
+  "pembahasan": "Bilangan pada petak ke-$n$ baris pertama adalah $B_{1,n} = 2^{n-1}$.\n\nBilangan baru ($a_n$):\n$a_n = \\frac{B_{1,n}}{2^{2n-2}} = \\frac{2^{n-1}}{2^{2n-2}} = 2^{(n-1) - (2n-2)} = 2^{n - 1 - 2n + 2} = 2^{-n + 1} = \\left(\\frac{1}{2}\\right)^{n-1}$\n\nBarisan bilangan baru: $1, \\frac{1}{2}, \\frac{1}{4}, \\ldots, \\left(\\frac{1}{2}\\right)^7 = \\frac{1}{128}$.\nIni adalah barisan geometri dengan suku pertama $a=1$, rasio $r=\\frac{1}{2}$, dan jumlah suku $n=8$.\n\nJumlah 8 suku pertama ($S_8$):\n$S_8 = \\frac{a(1 - r^n)}{1 - r} = \\frac{1\\left(1 - \\left(\\frac{1}{2}\\right)^8\\right)}{1 - \\frac{1}{2}} = \\frac{1 - \\frac{1}{256}}{\\frac{1}{2}}$ \n$S_8 = \\frac{\\frac{255}{256}}{\\frac{1}{2}} = \\frac{255}{256} \\times 2 = \\frac{255}{128}$",
   "keterangan_soal": "Penjumlahan Deret Geometri"
 },  
     {
