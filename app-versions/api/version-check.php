@@ -1,5 +1,5 @@
 <?php
-// version-check.php untuk V26
+// version-check.php untuk V27
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
@@ -26,10 +26,10 @@ if (empty($current_version)) {
     exit;
 }
 
-// ✅ VERSI TERBARU: UPDATE KE V26 (FORCE UPDATE UNTUK V25, SOFT UNTUK V23)
-$latest_version = "V26";  // 🔴 PERBAIKAN: DARI "V25" KE "V26"
-$min_required_version = "V24";  // 🔴 PERBAIKAN: DARI "V20" KE "V24" (V23 MASIH BOLEH)
-$blocked_versions = [];         // Tidak ada versi yang diblokir untuk V26
+// ✅ VERSI TERBARU: UPDATE KE V27
+$latest_version = "V27";  // 🔴 UPDATE: DARI "V26" KE "V27"
+$min_required_version = "V25";  // 🔴 UPDATE: DARI "V24" KE "V25"
+$blocked_versions = [];         // Tidak ada versi yang diblokir untuk V27
 
 // Initialize response variables
 $update_required = false;
@@ -82,32 +82,24 @@ if (in_array($current_version, $blocked_versions)) {
         
     } else {
         // Production version check dengan strategi khusus:
-        // - V23: Soft update (boleh skip)
-        // - V24: Force update (tidak ada user V24, tapi sebagai safety)
-        // - V25: Force update (user wajib update ke V26)
+        // - V24: Force update (tidak didukung lagi)
+        // - V25: Force update (wajib update ke V27)
+        // - V26: Force update (wajib update ke V27)
         
         $compare_current_min = compareVersions($current_version, $min_required_version);
         $compare_current_latest = compareVersions($current_version, $latest_version);
 
-        // VERSI V23 (MASIH BOLEH DENGAN SOFT UPDATE)
-        if ($current_version === "V23") {
-            if ($compare_current_latest < 0) {
-                // V23 -> V26: SOFT UPDATE
-                $update_required = true;
-                $update_type = "soft";
-                $message = "✨ **UPDATE TERSEDIA**\n\n" .
-                           "Versi baru $latest_version sudah rilis dengan fitur force update yang lebih baik!\n\n" .
-                           "Untuk pengalaman belajar yang optimal, update ke V26 sekarang. " .
-                           "Anda bisa skip update ini jika belum siap.";
-            } else {
-                $update_required = false;
-                $update_type = "none";
-                $message = "✅ Aplikasi Anda sudah menggunakan versi terbaru yang tersedia untuk Anda.";
-            }
+        // VERSI V24 (TIDAK DIDUKUNG LAGI - FORCE UPDATE)
+        if ($current_version === "V24") {
+            $update_required = true;
+            $update_type = "force";
+            $message = "🚫 **UPDATE WAJIB**\n\n" .
+                       "Versi V24 sudah tidak didukung karena perubahan besar dalam sistem.\n\n" .
+                       "Anda **harus** update ke V27 untuk melanjutkan penggunaan aplikasi.";
             
         } elseif ($compare_current_min < 0) {
             // Current version is less than minimum required - FORCE UPDATE
-            // Ini untuk V24 (tidak ada user) dan versi dibawah V23
+            // Ini untuk versi dibawah V24
             $update_required = true;
             $update_type = "force";
             $message = "⚠️ **UPDATE WAJIB**\n\n" .
@@ -116,13 +108,13 @@ if (in_array($current_version, $blocked_versions)) {
                        "dan mendapatkan fitur terbaru serta perbaikan keamanan.";
             
         } elseif ($compare_current_latest < 0) {
-            // Current version is less than latest - FORCE UPDATE untuk V25
+            // Current version is less than latest - FORCE UPDATE untuk V25 dan V26
             $update_required = true;
             $update_type = "force";
             $message = "⚡ **UPDATE WAJIB**\n\n" .
-                       "Versi baru $latest_version sudah tersedia dengan sistem force update yang lebih baik!\n\n" .
-                       "Untuk melanjutkan penggunaan aplikasi, Anda **harus** update ke V26. " .
-                       "Update ini penting untuk stabilitas dan keamanan aplikasi.";
+                       "Versi baru $latest_version sudah tersedia dengan fitur-fitur baru!\n\n" .
+                       "Untuk melanjutkan penggunaan aplikasi, Anda **harus** update ke V27. " .
+                       "Update ini penting untuk stabilitas dan fitur terbaru aplikasi.";
             
         } else {
             // Current version is up to date or newer - NO UPDATE
@@ -137,6 +129,18 @@ if (in_array($current_version, $blocked_versions)) {
 
 // Prepare release notes for each version
 $release_notes = [
+    "V27" => [
+        "🌟 **GRAND UPDATE V27**: Perubahan besar dengan banyak fitur baru",
+        "🎯 **ENHANCED NAVIGATION**: Sistem navigasi yang lebih intuitif",
+        "📊 **IMPROVED ANALYTICS**: Analisis belajar yang lebih detail",
+        "🔔 **SMART NOTIFICATIONS**: Notifikasi yang lebih cerdas dan relevan",
+        "📱 **UI/UX REDESIGN**: Tampilan baru yang lebih modern",
+        "⚡ **PERFORMANCE BOOST**: 50% lebih cepat dari versi sebelumnya",
+        "💾 **MEMORY OPTIMIZATION**: Konsumsi memori lebih rendah",
+        "🛡️ **SECURITY ENHANCEMENT**: Keamanan data yang ditingkatkan",
+        "📚 **CONTENT UPDATE**: Materi SNBT 2025 yang diperbarui",
+        "🎮 **INTERACTIVE QUIZ**: Kuis yang lebih interaktif"
+    ],
     "V26" => [
         "🚀 **FORCE UPDATE SYSTEM**: Implementasi sistem pembaruan otomatis",
         "📱 **NAVIGASI FIXED**: Perbaikan navigasi menu Akun Saya",
@@ -152,11 +156,6 @@ $release_notes = [
         "📚 Update bank soal SNBT 2025 terbaru",
         "🚀 Optimasi performa dan perbaikan bug",
         "📱 UI/UX yang lebih responsif"
-    ],
-    "V23" => [
-        "Versi stabil dengan fitur dasar lengkap",
-        "Bank soal SNBT 2024",
-        "Simulasi UTBK lengkap"
     ]
 ];
 
@@ -189,9 +188,9 @@ if (isDevelopmentVersion($current_version)) {
     $response["warning"] = "Anda menggunakan versi development. Fitur mungkin tidak stabil.";
 }
 
-// Untuk V23, tambahkan catatan khusus
-if ($current_version === "V23") {
-    $response["note"] = "Versi V23 masih didukung, namun direkomendasikan update ke V26.";
+// Untuk V25 dan V26, tambahkan catatan khusus
+if ($current_version === "V25" || $current_version === "V26") {
+    $response["note"] = "Versi ini masih didukung, namun wajib update ke V27 untuk fitur terbaru.";
 }
 
 // Send JSON response
