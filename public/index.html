@@ -1,8 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utlok Reward Verification</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- ✅ GOOGLE ANALYTICS -->
+    <!-- Ganti G-MCE25KHW7V dengan Measurement ID Anda -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCE25KHW7V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MCE25KHW7V');
+      
+      // Track form submissions
+      document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('verifyForm');
+        if (form) {
+          form.addEventListener('submit', function(e) {
+            const code = document.getElementById('rewardCode').value;
+            gtag('event', 'form_submit', {
+              'event_category': 'engagement',
+              'event_label': 'reward_verification',
+              'reward_code_length': code.length,
+              'value': 1
+            });
+            
+            // Track verification result
+            setTimeout(function() {
+              const resultDiv = document.getElementById('result');
+              if (resultDiv && resultDiv.style.display !== 'none') {
+                const hasSuccess = resultDiv.innerHTML.includes('✅');
+                gtag('event', 'verification_result', {
+                  'event_category': 'verification',
+                  'event_label': hasSuccess ? 'success' : 'failed',
+                  'value': hasSuccess ? 1 : 0
+                });
+              }
+            }, 1000);
+          });
+        }
+      });
+    </script>
+    
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -67,6 +108,12 @@
             text-align: center;
             margin: 20px 0;
         }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #718096;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -89,9 +136,10 @@
         
         <div id="result"></div>
         
-        <div style="margin-top: 40px; font-size: 14px; color: #718096; text-align: center;">
+        <div class="footer">
             <p>Need help? Contact support@utlok.com</p>
             <p>© 2024 Utlok Technologies. All rights reserved.</p>
+            <p style="font-size: 12px; opacity: 0.7;">v1.0.0 | Tracking ID: G-MCE25KHW7V</p>
         </div>
     </div>
     
@@ -125,7 +173,9 @@
                     <p><strong>Reward Code:</strong> ${code}</p>
                     <p><strong>Status:</strong> ${result.verified ? 'Valid ✓' : 'Invalid ✗'}</p>
                     <p><strong>Message:</strong> ${result.message || 'No message'}</p>
+                    <p><strong>Verification ID:</strong> ${result.verificationId}</p>
                     <p><strong>Time:</strong> ${new Date(result.timestamp).toLocaleString()}</p>
+                    <p><strong>Expires:</strong> ${new Date(result.expiresAt).toLocaleDateString()}</p>
                     ${result.details ? `<p><strong>Details:</strong> ${result.details}</p>` : ''}
                 `;
                 resultDiv.style.borderLeftColor = '#48bb78';
@@ -133,6 +183,7 @@
                 resultDiv.innerHTML = `
                     <h3 style="color: #f56565;">❌ Error</h3>
                     <p>${result.error || 'Unknown error occurred'}</p>
+                    ${result.code ? `<p><small>Error code: ${result.code}</small></p>` : ''}
                 `;
                 resultDiv.style.borderLeftColor = '#f56565';
             }
