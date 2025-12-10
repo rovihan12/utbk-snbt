@@ -62,6 +62,7 @@ exports.handler = async (event, context) => {
     // LOGIKA VERIFIKASI (CONTOH)
     let verified = false;
     let details = '';
+    let rewardType = 'standard';
     
     // Contoh: Kode harus mengandung UTLOK dan angka
     if (rewardCode.includes('UTLOK')) {
@@ -69,12 +70,14 @@ exports.handler = async (event, context) => {
       if (numbers.length >= 3) {
         verified = true;
         details = 'Premium reward code detected';
+        rewardType = 'premium';
       }
     } 
     // Contoh: Kode khusus untuk testing
     else if (rewardCode === 'TEST123456' || rewardCode === 'DEMO2024') {
       verified = true;
       details = 'Test code accepted';
+      rewardType = 'test';
     }
     // Contoh: Validasi checksum sederhana
     else if (/^[A-Z0-9]{12}$/.test(rewardCode)) {
@@ -83,11 +86,15 @@ exports.handler = async (event, context) => {
       if (['A', 'B', 'C', '1', '2', '3'].includes(lastChar)) {
         verified = true;
         details = 'Standard reward code';
+        rewardType = 'standard';
       }
     }
     
     // Generate verification ID
     const verificationId = crypto.randomBytes(8).toString('hex');
+    
+    // Log untuk analytics
+    console.log(`📊 Analytics: Code=${rewardCode}, Verified=${verified}, Type=${rewardType}`);
     
     // Response sukses
     return {
@@ -98,10 +105,15 @@ exports.handler = async (event, context) => {
         message: verified ? 'Reward verified successfully!' : 'Invalid reward code',
         details,
         rewardCode,
+        rewardType,
         verificationId,
         timestamp: new Date().toISOString(),
         expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(), // 7 hari
-        code: verified ? 'VERIFIED' : 'INVALID_CODE'
+        code: verified ? 'VERIFIED' : 'INVALID_CODE',
+        analytics: {
+          tracked: true,
+          event: 'reward_verification_complete'
+        }
       })
     };
     
