@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Server-Side Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        .success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Test Server-Side Verification</h1>
+        <p>Form ini untuk menguji endpoint verifikasi reward iklan.</p>
+        
+        <div class="form-group">
+            <label for="userId">User ID:</label>
+            <input type="text" id="userId" value="test_user_123" placeholder="Masukkan user ID">
+        </div>
+        
+        <div class="form-group">
+            <label for="rewardAmount">Jumlah Reward:</label>
+            <input type="number" id="rewardAmount" value="1" min="1" max="10">
+        </div>
+        
+        <div class="form-group">
+            <label for="rewardItem">Item Reward:</label>
+            <input type="text" id="rewardItem" value="Bintang" placeholder="Misalnya: Bintang, Koin, etc">
+        </div>
+        
+        <div class="form-group">
+            <label for="timestamp">Timestamp (ms):</label>
+            <input type="number" id="timestamp" value="" placeholder="Kosongkan untuk otomatis">
+            <small>Biarkan kosong untuk menggunakan waktu sekarang</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="signature">Signature (HMAC SHA256):</label>
+            <input type="text" id="signature" value="test_signature" placeholder="Masukkan signature">
+            <small>Untuk testing, bisa pakai "test_signature"</small>
+        </div>
+        
+        <button onclick="testVerification()">🚀 Test Verification</button>
+        
+        <div id="result" class="result"></div>
+        
+        <div style="margin-top: 30px; padding: 15px; background-color: #e7f3fe; border-radius: 5px;">
+            <h3>ℹ️ Informasi Testing</h3>
+            <p><strong>URL Endpoint:</strong> <code id="endpointUrl">Loading...</code></p>
+            <p><strong>Note:</strong> Server di production akan memvalidasi signature dengan secret key dari AdMob.</p>
+            <button onclick="generateTestData()" style="background-color: #28a745; margin-top: 10px;">🔄 Generate Test Data</button>
+        </div>
+    </div>
+
+    <script>
+    // Update endpoint URL
+    const baseUrl = window.location.origin;
+    document.getElementById('endpointUrl').textContent = `${baseUrl}/verify-reward`;
+    
+    // Fungsi untuk generate test data
+    function generateTestData() {
+        document.getElementById('userId').value = 'user_' + Math.random().toString(36).substr(2, 8);
+        document.getElementById('timestamp').value = Date.now();
+        document.getElementById('signature').value = 'test_sig_' + Math.random().toString(36).substr(2, 16);
+        
+        alert('Test data telah digenerate!');
+    }
+    
+    // Fungsi utama untuk test verification
+    async function testVerification() {
+        const userId = document.getElementById('userId').value.trim();
+        const rewardAmount = parseInt(document.getElementById('rewardAmount').value) || 1;
+        const rewardItem = document.getElementById('rewardItem').value.trim();
+        let timestamp = document.getElementById('timestamp').value.trim();
+        const signature = document.getElementById('signature').value.trim();
+        
+        // Jika timestamp kosong, gunakan waktu sekarang
+        if (!timestamp) {
+            timestamp = Date.now();
+            document.getElementById('timestamp').value = timestamp;
+        }
+        
+        // Validasi input
+        if (!userId) {
+            alert('User ID tidak boleh kosong!');
+            return;
+        }
+        
+        // Siapkan data untuk dikirim
+        const testData = {
+            user_id: userId,
+            reward_amount: rewardAmount,
+            reward_item: rewardItem,
+            timestamp: parseInt(timestamp),
+            signature: signature,
+            custom_data: JSON.stringify({
+                device: 'web_test',
+                app_version: '1.0.0',
+                test_mode: true
+            })
+        };
+        
+        console.log('📤 Mengirim data:', testData);
+        
+        const resultDiv = document.getElementById('result');
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = '<p>⏳ Mengirim request ke server...</p>';
+        
+        try {
+            const response = await fetch('/verify-reward', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(testData)
+            });
+            
+            const result = await response.json();
+            
+            console.log('📥 Response:', result);
+            
+            if (response.ok && result.verified) {
+                resultDiv.className = 'result success';
+                resultDiv.innerHTML = `
+                    <h3>✅ Verification Successful!</h3>
+                    <p><strong>Message:</strong> ${result.message}</p>
+                    <p><strong>User ID:</strong> ${result.reward?.userId}</p>
+                    <p><strong>Reward:</strong> ${result.reward?.amount} ${result.reward?.item}</p>
+                    <p><strong>Transaction ID:</strong> ${result.reward?.transactionId}</p>
+                    <button onclick="copyResult()" style="background-color: #6c757d; margin-top: 10px;">📋 Copy Result</button>
+                    <pre>${JSON.stringify(result, null, 2)}</pre>
+                `;
+            } else {
+                resultDiv.className = 'result error';
+                resultDiv.innerHTML = `
+                    <h3>❌ Verification Failed</h3>
+                    <p><strong>Status:</strong> ${response.status}</p>
+                    <p><strong>Error:</strong> ${result.error || result.message}</p>
+                    ${result.details ? `<p><strong>Details:</strong> ${JSON.stringify(result.details)}</p>` : ''}
+                    <pre>${JSON.stringify(result, null, 2)}</pre>
+                `;
+            }
+            
+        } catch (error) {
+            console.error('Test failed:', error);
+            resultDiv.className = 'result error';
+            resultDiv.innerHTML = `
+                <h3>🔥 Network Error</h3>
+                <p><strong>Error:</strong> ${error.message}</p>
+                <p>Pastikan server berjalan dan URL endpoint benar.</p>
+            `;
+        }
+    }
+    
+    // Fungsi untuk copy hasil
+    function copyResult() {
+        const resultDiv = document.getElementById('result');
+        const text = resultDiv.querySelector('pre').textContent;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Result copied to clipboard!');
+        });
+    }
+    
+    // Auto-fill timestamp jika kosong
+    document.getElementById('timestamp').addEventListener('focus', function() {
+        if (!this.value) {
+            this.value = Date.now();
+        }
+    });
+    </script>
+</body>
+</html>
