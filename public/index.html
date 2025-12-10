@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Utlok Reward Verification</title>
+</head>
+<body>
+    <h1>🎁 Utlok Reward Verification System</h1>
+    
+    <div>
+        <h2>Verify Your Reward</h2>
+        <form id="verifyForm">
+            <input type="text" id="rewardCode" placeholder="Enter reward code">
+            <button type="submit">Verify</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    
+    <script>
+    document.getElementById('verifyForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const code = document.getElementById('rewardCode').value;
+        
+        const response = await fetch('/verify-reward', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ rewardCode: code })
+        });
+        
+        const result = await response.json();
+        document.getElementById('result').innerHTML = 
+            `<pre>${JSON.stringify(result, null, 2)}</pre>`;
+    });
+    </script>
+</body>
+</html>
