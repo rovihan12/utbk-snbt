@@ -2,33 +2,150 @@
 <html>
 <head>
     <title>Utlok Reward Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            color: #333;
+            margin-top: 60px;
+        }
+        h1 {
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #718096;
+            margin-bottom: 30px;
+        }
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        #result {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f7fafc;
+            border-radius: 10px;
+            border-left: 4px solid #48bb78;
+            display: none;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>🎁 Utlok Reward Verification System</h1>
-    
-    <div>
-        <h2>Verify Your Reward</h2>
+    <div class="container">
+        <h1>🎁 Utlok Reward Verification</h1>
+        <p class="subtitle">Enter your reward code to verify authenticity and claim your benefits</p>
+        
         <form id="verifyForm">
-            <input type="text" id="rewardCode" placeholder="Enter reward code">
-            <button type="submit">Verify</button>
+            <input type="text" id="rewardCode" 
+                   placeholder="Enter your 12-digit reward code" 
+                   required
+                   pattern="[A-Za-z0-9]{12}"
+                   title="12 characters (letters and numbers)">
+            <button type="submit">🔍 Verify Reward</button>
         </form>
+        
+        <div class="loading" id="loading">
+            ⏳ Verifying...
+        </div>
+        
         <div id="result"></div>
+        
+        <div style="margin-top: 40px; font-size: 14px; color: #718096; text-align: center;">
+            <p>Need help? Contact support@utlok.com</p>
+            <p>© 2024 Utlok Technologies. All rights reserved.</p>
+        </div>
     </div>
     
     <script>
     document.getElementById('verifyForm').addEventListener('submit', async (e) => {
         e.preventDefault();
-        const code = document.getElementById('rewardCode').value;
+        const code = document.getElementById('rewardCode').value.trim();
+        const resultDiv = document.getElementById('result');
+        const loadingDiv = document.getElementById('loading');
         
-        const response = await fetch('/verify-reward', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ rewardCode: code })
-        });
+        // Reset
+        resultDiv.style.display = 'none';
+        resultDiv.innerHTML = '';
+        loadingDiv.style.display = 'block';
         
-        const result = await response.json();
-        document.getElementById('result').innerHTML = 
-            `<pre>${JSON.stringify(result, null, 2)}</pre>`;
+        try {
+            const response = await fetch('/verify-reward', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ rewardCode: code })
+            });
+            
+            const result = await response.json();
+            
+            loadingDiv.style.display = 'none';
+            resultDiv.style.display = 'block';
+            
+            if (response.ok) {
+                resultDiv.innerHTML = `
+                    <h3 style="color: #48bb78;">✅ Verification Successful!</h3>
+                    <p><strong>Reward Code:</strong> ${code}</p>
+                    <p><strong>Status:</strong> ${result.verified ? 'Valid ✓' : 'Invalid ✗'}</p>
+                    <p><strong>Message:</strong> ${result.message || 'No message'}</p>
+                    <p><strong>Time:</strong> ${new Date(result.timestamp).toLocaleString()}</p>
+                    ${result.details ? `<p><strong>Details:</strong> ${result.details}</p>` : ''}
+                `;
+                resultDiv.style.borderLeftColor = '#48bb78';
+            } else {
+                resultDiv.innerHTML = `
+                    <h3 style="color: #f56565;">❌ Error</h3>
+                    <p>${result.error || 'Unknown error occurred'}</p>
+                `;
+                resultDiv.style.borderLeftColor = '#f56565';
+            }
+        } catch (error) {
+            loadingDiv.style.display = 'none';
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = `
+                <h3 style="color: #f56565;">❌ Network Error</h3>
+                <p>Unable to connect to server. Please check your connection.</p>
+                <p><small>${error.message}</small></p>
+            `;
+            resultDiv.style.borderLeftColor = '#f56565';
+        }
     });
     </script>
 </body>
