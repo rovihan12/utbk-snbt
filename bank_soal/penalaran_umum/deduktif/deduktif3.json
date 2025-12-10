@@ -65,18 +65,18 @@
   "pembahasan": "Pernyataan tersebut dapat diformulasikan sebagai Modus Tollens, yang sering digunakan dalam soal Penalaran Umum (PU) UTBK. \n\n1. Premis Mayor (Penting): Jika (Teliti ^ Rencana ^ Sesuai Rencana ^ Detail), maka (Teratur). \n2. Dalam konteks soal ini, premis disederhanakan: P = Teliti, Q = Teratur. \n3. Premis Minor: Kondisi baru (Tidak suka rencana, tidak suka detail, dll.) dianggap mengimplikasikan Negasi dari Q ($\neg Q$, yaitu 'Tidak Teratur'), karena banyak syarat utama untuk 'Teratur' tidak terpenuhi. \n4. Berdasarkan Modus Tollens (Jika P maka Q, dan $\neg Q$, maka $\neg P$), kesimpulannya adalah negasi dari P ($\neg P$). \n\n$\neg P$ = Negasi dari 'Teliti' = 'Tidak Teliti'. \n\nIni sesuai dengan Opsi C."
   },
   {
-    "id": 6,
-    "pertanyaan": "Seseorang yang membeli buku ini pasti membaca buku fiksi atau buku nonfiksi. Amir tidak membeli buku fiksi. \n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Amir membeli buku nonfiksi.",
-      "Amir tidak membeli buku nonfiksi.",
-      "Amir membeli buku fiksi dan nonfiksi.",
-      "Amir tidak membeli buku apa pun.",
-      "Tidak dapat ditarik kesimpulan."
-    ],
-    "jawaban": "A",
-    "pembahasan": "Ini adalah **Silogisme Disjungtif**. Premis 1 memberikan dua pilihan (fiksi atau nonfiksi). Premis 2 meniadakan salah satu pilihan (bukan fiksi). Maka, kesimpulan yang pasti benar adalah pilihan yang tersisa, yaitu **Amir membeli buku nonfiksi**."
-  },
+  "id": 6,
+  "pertanyaan": "Seseorang yang membeli buku ini pasti membeli buku fiksi atau buku nonfiksi. Amir tidak membeli buku fiksi. \n\nKesimpulan yang paling tepat adalah...",
+  "pilihan": [
+    "Amir membeli buku nonfiksi.",
+    "Amir tidak membeli buku nonfiksi.",
+    "Amir membeli buku fiksi dan nonfiksi.",
+    "Amir tidak membeli buku apa pun.",
+    "Tidak dapat ditarik kesimpulan."
+  ],
+  "jawaban": "A",
+  "pembahasan": "Ini adalah contoh **Disjunctive Syllogism (Silogisme Disjungtif)**. \n\nPremis 1: Membeli Fiksi (F) atau Membeli Nonfiksi (N). ($F \\vee N$)\nPremis 2: Tidak Membeli Fiksi ($\neg F$)\n\nKarena ada dua kemungkinan dan salah satu (membeli fiksi) dinegasikan, maka kemungkinan yang tersisa (membeli nonfiksi) pasti benar.\n\nKesimpulan: Amir membeli buku nonfiksi."
+},
   {
     "id": 7,
     "pertanyaan": "Perusahaan B menyatakan bahwa semua produk mereka bebas gluten. Mereka juga mengklaim bahwa produk bebas gluten tidak berbahaya bagi penderita celiac. Namun, ada laporan yang mengatakan beberapa produk perusahaan B masih mengandung sedikit gluten, yang dapat memicu gejala pada penderita celiac yang sangat sensitif.\n\nBerdasarkan bacaan tersebut, manakah pernyataan yang PASTI SALAH?",
