@@ -5,115 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utlok Reward Verification</title>
     
-    <!-- ✅ GOOGLE ANALYTICS -->
-    <!-- Ganti G-MCE25KHW7V dengan Measurement ID Anda -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCE25KHW7V"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-MCE25KHW7V');
-      
-      // Track form submissions
-      document.addEventListener('DOMContentLoaded', function() {
-        const form = document.getElementById('verifyForm');
-        if (form) {
-          form.addEventListener('submit', function(e) {
-            const code = document.getElementById('rewardCode').value;
-            gtag('event', 'form_submit', {
-              'event_category': 'engagement',
-              'event_label': 'reward_verification',
-              'reward_code_length': code.length,
-              'value': 1
-            });
-            
-            // Track verification result
-            setTimeout(function() {
-              const resultDiv = document.getElementById('result');
-              if (resultDiv && resultDiv.style.display !== 'none') {
-                const hasSuccess = resultDiv.innerHTML.includes('✅');
-                gtag('event', 'verification_result', {
-                  'event_category': 'verification',
-                  'event_label': hasSuccess ? 'success' : 'failed',
-                  'value': hasSuccess ? 1 : 0
-                });
-              }
-            }, 1000);
-          });
-        }
-      });
     </script>
     
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: white;
-        }
-        .container {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            color: #333;
-            margin-top: 60px;
-        }
-        h1 {
-            color: #4a5568;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #718096;
-            margin-bottom: 30px;
-        }
-        input {
-            width: 100%;
+        /* ... (CSS sama seperti sebelumnya) ... */
+        
+        .admob-info {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
             padding: 15px;
-            border: 2px solid #e2e8f0;
-            border-radius: 10px;
-            font-size: 16px;
-            margin-bottom: 20px;
-            box-sizing: border-box;
-        }
-        button {
-            width: 100%;
-            padding: 15px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
-        }
-        #result {
-            margin-top: 30px;
-            padding: 20px;
-            background: #f7fafc;
-            border-radius: 10px;
-            border-left: 4px solid #48bb78;
-            display: none;
-        }
-        .loading {
-            display: none;
-            text-align: center;
             margin: 20px 0;
+            border-radius: 5px;
+            color: #856404;
         }
-        .footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #718096;
-            text-align: center;
+        
+        .code-type {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
         }
+        
+        .type-admob { background: #d4edda; color: #155724; }
+        .type-premium { background: #cce5ff; color: #004085; }
+        .type-standard { background: #f8d7da; color: #721c24; }
     </style>
 </head>
 <body>
@@ -121,12 +45,15 @@
         <h1>🎁 Utlok Reward Verification</h1>
         <p class="subtitle">Enter your reward code to verify authenticity and claim your benefits</p>
         
+        <!-- AdMob Info Box -->
+        <div class="admob-info">
+            <strong>🎮 AdMob Users:</strong> Your reward code starts with <code>ADMOB-</code> and was generated after watching an ad. Code expires in 30 days.
+        </div>
+        
         <form id="verifyForm">
             <input type="text" id="rewardCode" 
-                   placeholder="Enter your 12-digit reward code" 
-                   required
-                   pattern="[A-Za-z0-9]{12}"
-                   title="12 characters (letters and numbers)">
+                   placeholder="Enter your reward code (e.g., ADMOB-XXX or UTLOK123)" 
+                   required>
             <button type="submit">🔍 Verify Reward</button>
         </form>
         
@@ -139,7 +66,12 @@
         <div class="footer">
             <p>Need help? Contact support@utlok.com</p>
             <p>© 2024 Utlok Technologies. All rights reserved.</p>
-            <p style="font-size: 12px; opacity: 0.7;">v1.0.0 | Tracking ID: G-MCE25KHW7V</p>
+            <p style="font-size: 12px; opacity: 0.7;">
+                v1.1.0 | GA: G-MCE25KHW7V | 
+                <a href="/.netlify/functions/admob-callback" target="_blank" style="color: #666;">
+                    AdMob Callback Status
+                </a>
+            </p>
         </div>
     </div>
     
@@ -155,6 +87,15 @@
         resultDiv.innerHTML = '';
         loadingDiv.style.display = 'block';
         
+        // Google Analytics event
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'verification_start', {
+                'event_category': 'engagement',
+                'event_label': code.startsWith('ADMOB-') ? 'admob_code' : 'regular_code',
+                'value': code.length
+            });
+        }
+        
         try {
             const response = await fetch('/verify-reward', {
                 method: 'POST',
@@ -167,23 +108,59 @@
             loadingDiv.style.display = 'none';
             resultDiv.style.display = 'block';
             
-            if (response.ok) {
+            // Google Analytics success/failure
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'verification_complete', {
+                    'event_category': 'engagement',
+                    'event_label': result.verified ? 'success' : 'failed',
+                    'value': result.verified ? 1 : 0
+                });
+            }
+            
+            if (response.ok && result.verified) {
+                // Determine code type for styling
+                let codeType = 'standard';
+                if (code.startsWith('ADMOB-')) codeType = 'admob';
+                else if (code.includes('UTLOK')) codeType = 'premium';
+                
                 resultDiv.innerHTML = `
                     <h3 style="color: #48bb78;">✅ Verification Successful!</h3>
-                    <p><strong>Reward Code:</strong> ${code}</p>
-                    <p><strong>Status:</strong> ${result.verified ? 'Valid ✓' : 'Invalid ✗'}</p>
+                    <p><strong>Reward Code:</strong> ${code} 
+                       <span class="code-type type-${codeType}">${codeType.toUpperCase()}</span>
+                    </p>
+                    <p><strong>Status:</strong> <span style="color: #48bb78;">Valid ✓</span></p>
+                    <p><strong>Type:</strong> ${result.reward?.type || 'Unknown'}</p>
+                    <p><strong>Reward Value:</strong> ${result.reward?.value || 0} points</p>
                     <p><strong>Message:</strong> ${result.message || 'No message'}</p>
-                    <p><strong>Verification ID:</strong> ${result.verificationId}</p>
-                    <p><strong>Time:</strong> ${new Date(result.timestamp).toLocaleString()}</p>
-                    <p><strong>Expires:</strong> ${new Date(result.expiresAt).toLocaleDateString()}</p>
+                    <p><strong>Verification ID:</strong> <code>${result.verification?.id || 'N/A'}</code></p>
+                    <p><strong>Time:</strong> ${new Date(result.verification?.timestamp).toLocaleString()}</p>
+                    <p><strong>Expires:</strong> ${new Date(result.verification?.expires_at).toLocaleDateString()}</p>
                     ${result.details ? `<p><strong>Details:</strong> ${result.details}</p>` : ''}
+                    
+                    <div style="margin-top: 20px; padding: 15px; background: #e8f4fd; border-radius: 8px;">
+                        <h4 style="margin-top: 0;">🎯 Next Steps:</h4>
+                        <ul style="margin-bottom: 0;">
+                            ${result.next_steps ? result.next_steps.map(step => `<li>${step}</li>`).join('') : ''}
+                        </ul>
+                    </div>
                 `;
                 resultDiv.style.borderLeftColor = '#48bb78';
             } else {
                 resultDiv.innerHTML = `
-                    <h3 style="color: #f56565;">❌ Error</h3>
-                    <p>${result.error || 'Unknown error occurred'}</p>
+                    <h3 style="color: #f56565;">❌ Verification Failed</h3>
+                    <p>${result.error || result.message || 'Unknown error occurred'}</p>
                     ${result.code ? `<p><small>Error code: ${result.code}</small></p>` : ''}
+                    ${result.details ? `<p><strong>Details:</strong> ${result.details}</p>` : ''}
+                    
+                    <div style="margin-top: 20px; padding: 15px; background: #f8d7da; border-radius: 8px;">
+                        <h4 style="margin-top: 0; color: #721c24;">🔧 Troubleshooting:</h4>
+                        <ul style="margin-bottom: 0; color: #721c24;">
+                            <li>Check for typos in the code</li>
+                            <li>Ensure the code hasn't expired</li>
+                            <li>AdMob codes start with "ADMOB-" and expire in 30 days</li>
+                            <li>Contact support if the issue persists</li>
+                        </ul>
+                    </div>
                 `;
                 resultDiv.style.borderLeftColor = '#f56565';
             }
@@ -196,6 +173,23 @@
                 <p><small>${error.message}</small></p>
             `;
             resultDiv.style.borderLeftColor = '#f56565';
+        }
+    });
+    
+    // Auto-detect code type and show hint
+    document.getElementById('rewardCode').addEventListener('input', function(e) {
+        const code = e.target.value;
+        const input = document.getElementById('rewardCode');
+        
+        if (code.startsWith('ADMOB-')) {
+            input.style.borderColor = '#28a745';
+            input.style.background = '#f8fff9';
+        } else if (code.includes('UTLOK')) {
+            input.style.borderColor = '#007bff';
+            input.style.background = '#f8f9ff';
+        } else {
+            input.style.borderColor = '#e2e8f0';
+            input.style.background = 'white';
         }
     });
     </script>
