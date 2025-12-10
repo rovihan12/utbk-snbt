@@ -1,28 +1,16 @@
 [build]
   publish = "public"
   functions = "netlify/functions"
-
-[build]
-  publish = "public"
-  functions = "netlify/functions"
-  # TAMBAHKAN INI DI BAWAH publish dan functions:
   command = """
-    if ! command -v hugo &> /dev/null; then
-      echo "Hugo not found. Installing Hugo..."
-      curl -L -o /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.tar.gz
-      tar -xzf /tmp/hugo.tar.gz -C /tmp
-      sudo mv /tmp/hugo /usr/local/bin/hugo
-      echo "Hugo installed successfully"
-    else
-      echo "Hugo already installed"
-    fi
+    # Download dan ekstrak Hugo
+    wget -q https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.tar.gz -O /tmp/hugo.tar.gz
+    tar -xzf /tmp/hugo.tar.gz -C /tmp
     
-    hugo version
-    hugo --minify
+    # Jalankan Hugo
+    /tmp/hugo --minify
   """
 
 [[redirects]]
   from = "/verify-reward"
   to = "/.netlify/functions/verify-reward"
   status = 200
-  
