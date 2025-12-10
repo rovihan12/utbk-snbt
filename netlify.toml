@@ -13,23 +13,49 @@
 [build.environment]
   # Environment variables
   GA_MEASUREMENT_ID = "G-MCE25KHW7V"
-  ADMOB_SECRET_KEY = "your-admob-secret-key-here"  # ⚠️ JANGAN COMMIT YANG ASLI!
+  ADMOB_SECRET_KEY = "your-admob-secret-key"  # Sudah di-set di dashboard
+  NODE_VERSION = "18"
+  NODE_ENV = "production"
 
+# ====================== ROUTES ======================
 [[redirects]]
   from = "/verify-reward"
   to = "/.netlify/functions/verify-reward"
   status = 200
 
-# Route khusus untuk AdMob callback
+[[redirects]]
+  from = "/api/admob/callback"
+  to = "/.netlify/functions/admob-callback"
+  status = 200
+
 [[redirects]]
   from = "/admob/callback"
   to = "/.netlify/functions/admob-callback"
   status = 200
 
-# Security headers
+[[redirects]]
+  from = "/api/verify"
+  to = "/.netlify/functions/verify-reward"
+  status = 200
+
+# ====================== SECURITY HEADERS ======================
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
+
+# ====================== CUSTOM 404 ======================
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
