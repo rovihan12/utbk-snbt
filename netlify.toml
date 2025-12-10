@@ -2,11 +2,6 @@
   publish = "public"
   functions = "netlify/functions"
 
-[[redirects]]
-  from = "/verify-reward"
-  to = "/.netlify/functions/verify-reward"
-  status = 200
-
 [build]
   publish = "public"
   functions = "netlify/functions"
