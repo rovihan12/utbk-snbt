@@ -12,11 +12,18 @@
 
 [build.environment]
   # Environment variables
-  GA_MEASUREMENT_ID = "G-MCE25KHW7V"  # ✅ GANTI DENGAN ID ANDA
+  GA_MEASUREMENT_ID = "G-MCE25KHW7V"
+  ADMOB_SECRET_KEY = "your-admob-secret-key-here"  # ⚠️ JANGAN COMMIT YANG ASLI!
 
 [[redirects]]
   from = "/verify-reward"
   to = "/.netlify/functions/verify-reward"
+  status = 200
+
+# Route khusus untuk AdMob callback
+[[redirects]]
+  from = "/admob/callback"
+  to = "/.netlify/functions/admob-callback"
   status = 200
 
 # Security headers
