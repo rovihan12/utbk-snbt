@@ -52,17 +52,17 @@
     "pembahasan": "Premis 1 menyatakan bahwa *semua* laptop di toko tersebut memiliki RAM minimal 8 GB. Karena beberapa laptop gaming termasuk dalam kategori 'semua laptop di toko ini', maka semua laptop gaming di toko ini pasti memiliki RAM minimal 8 GB."
   },
   {
-    "id": 5,
-    "pertanyaan": "Premis 1: Jika tim A memenangkan pertandingan, maka mereka akan lolos ke babak final.\nPremis 2: Tim A lolos ke babak final.\n\nKesimpulan yang paling tepat adalah...",
-    "pilihan": [
-      "Tim A memenangkan pertandingan.",
-      "Tim A tidak memenangkan pertandingan.",
-      "Tim A mungkin memenangkan pertandingan.",
-      "Hanya jika tim A menang, mereka akan lolos.",
-      "Tidak dapat ditarik kesimpulan bahwa tim A memenangkan pertandingan."
-    ],
-    "jawaban": "E",
-    "pembahasan": "Ini adalah kekeliruan **Afirmasi Konsekuen**. Tim A bisa lolos ke babak final karena alasan lain (misalnya, tim lain didiskualifikasi). Premis tidak menyatakan bahwa 'hanya' jika tim A menang, mereka akan lolos."
+  "id": 5,
+  "pertanyaan": "Jika seseorang teliti, dapat merencanakan sebelum melakukan tindakan, melakukan sesuatu sesuai dengan rencana, dan menyukai hal-hal yang detail, dia bekerja dengan teratur. \n\nJika orang tersebut tidak menyukai membuat rencana, mengerjakan sesuatu sesuai dengan hati, dan kurang suka hal-hal yang detail, manakah kesimpulan yang BENAR?",
+  "pilihan": [
+    "Orang tersebut malas bekerja",
+    "Orang tersebut memiliki kehidupan yang tidak teratur",
+    "Orang tersebut tidak teliti",
+    "Orang tersebut tidak menyukai detail",
+    "Orang tersebut bukan pekerja keras"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Pernyataan tersebut dapat diformulasikan sebagai Modus Tollens, yang sering digunakan dalam soal Penalaran Umum (PU) UTBK. \n\n1. Premis Mayor (Penting): Jika (Teliti ^ Rencana ^ Sesuai Rencana ^ Detail), maka (Teratur). \n2. Dalam konteks soal ini, premis disederhanakan: P = Teliti, Q = Teratur. \n3. Premis Minor: Kondisi baru (Tidak suka rencana, tidak suka detail, dll.) dianggap mengimplikasikan Negasi dari Q ($\neg Q$, yaitu 'Tidak Teratur'), karena banyak syarat utama untuk 'Teratur' tidak terpenuhi. \n4. Berdasarkan Modus Tollens (Jika P maka Q, dan $\neg Q$, maka $\neg P$), kesimpulannya adalah negasi dari P ($\neg P$). \n\n$\neg P$ = Negasi dari 'Teliti' = 'Tidak Teliti'. \n\nIni sesuai dengan Opsi C."
   },
   {
     "id": 6,
