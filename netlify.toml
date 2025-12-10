@@ -1,6 +1,36 @@
 [build]
   publish = "public"
   functions = "netlify/functions"
+  # SOLUSI: Install Hugo terlebih dahulu sebelum build
+  command = """
+    # Langkah 1: Install Hugo menggunakan package manager
+    if ! command -v hugo &> /dev/null; then
+      echo "Hugo not found. Installing Hugo..."
+      
+      # Coba instal dengan berbagai cara (pilih salah satu yang bekerja)
+      
+      # Opsi A: Install Hugo via curl (rekomendasi)
+      curl -L -o /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.tar.gz
+      tar -xzf /tmp/hugo.tar.gz -C /tmp
+      sudo mv /tmp/hugo /usr/local/bin/hugo
+      
+      # Opsi B: Install Hugo via apt (untuk Debian/Ubuntu)
+      # sudo apt-get update && sudo apt-get install -y hugo
+      
+      # Opsi C: Install Hugo via snap
+      # sudo snap install hugo
+      
+      echo "Hugo installed successfully"
+    else
+      echo "Hugo already installed"
+    fi
+    
+    # Langkah 2: Verifikasi Hugo terinstall
+    hugo version
+    
+    # Langkah 3: Jalankan build Hugo
+    hugo --minify
+  """
 
 [[redirects]]
   from = "/verify-reward"
