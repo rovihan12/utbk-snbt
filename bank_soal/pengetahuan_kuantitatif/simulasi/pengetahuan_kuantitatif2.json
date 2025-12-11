@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "kategori": "Kombinatorika",
+    "kategori": "mudah",
     "pertanyaan": "Dari $10$ siswa, akan dipilih $3$ siswa untuk mewakili sekolah dalam lomba matematika. Banyaknya cara pemilihan tersebut adalah...",
     "pilihan": ["120", "720", "360", "240", "60"],
     "jawaban": "A",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "kategori": "Barisan dan Deret",
+    "kategori": "mudah",
     "pertanyaan": "Sebuah barisan aritmetika memiliki suku ke-3 adalah $11$ dan suku ke-8 adalah $31$. Suku ke-20 dari barisan tersebut adalah...",
     "pilihan": ["75", "79", "83", "87", "91"],
     "jawaban": "B",
@@ -17,6 +17,7 @@
   },
   {
     "id": 3,
+    "kategori": "mudah",
     "pertanyaan": "Jika P = {2,4,6,8,10} dan Q = {1,3,5,7,9}, maka P ∩ Q adalah...",
     "pilihan": ["{}", "{2,4}", "{1,2}", "{3,6}", "{2,3,4,5}"],
     "jawaban": "A",
@@ -24,7 +25,7 @@
   },
   {
     "id": 4,
-    "kategori": "Fungsi",
+    "kategori": "mudah",
     "pertanyaan": "Jika $f(x) = 3x + 1$, tentukan $f^{-1}(10)$.",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "B",
@@ -32,7 +33,7 @@
   },
     {
     "id": 5,
-    "kategori": "Eksponen dan Akar",
+    "kategori": "sedang",
     "pertanyaan": "Diketahui $9\\sqrt{a} = 16\\sqrt[3]{b}$. Jika diketahui $a = \\frac{3}{4}$, berapa nilai $x$ agar $a^x = b$?",
     "pilihan": ["15", "7", "7.5", "15.5", "9"],
     "jawaban": "C",
@@ -40,7 +41,7 @@
   },
   {
     "id": 6,
-    "kategori": "Matriks",
+    "kategori": "sedang",
     "pertanyaan": "Jika matriks $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 2 \\end{bmatrix}$ dan $B$ adalah matriks $2\\times2$ sedemikian rupa sehingga $\\det(AB) = -1$, maka $\\det(B)$ adalah...",
     "pilihan": ["-2", "-1", "0", "1", "2"],
     "jawaban": "B",
@@ -48,7 +49,7 @@
   },
   {
     "id": 7,
-    "kategori": "Geometri dan Bangun Datar",
+    "kategori": "mudah",
     "pertanyaan": "Pada gambar berikut, $ABC$ adalah garis lurus. Tentukan besar $\\angle ABP$.",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250828_084254_Samsung%20Internet.jpg",
     "pilihan": ["$30^{\\circ}$", "$45^{\\circ}$", "$50^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$"],
@@ -57,7 +58,7 @@
   },
   {
     "id": 8,
-    "kategori": "Barisan dan Deret",
+    "kategori": "sedang",
     "pertanyaan": "Jumlah $12$ suku pertama dari deret aritmetika dengan suku pertama $5$ dan beda $3$ adalah...",
     "pilihan": ["246", "252", "258", "264", "270"],
     "jawaban": "C",
@@ -65,7 +66,7 @@
   },
   {
     "id": 9,
-    "kategori": "Eksponen dan Logaritma",
+    "kategori": "sedang",
     "pertanyaan": "Jika $^3\\log 2 = a$ dan $^3\\log 5 = b$, maka $^3\\log 50$ adalah...",
     "pilihan": ["$a + 2b$", "$2a + b$", "$a + b^2$", "$a^2 + b$", "$ab^2$"],
     "jawaban": "A",
@@ -73,7 +74,7 @@
   },
   {
     "id": 10,
-    "kategori": "Geometri dan Bangun Datar",
+    "kategori": "sedang",
     "pertanyaan": "Perhatikan gambar berikut ini. Segitiga $ABC$ dan segitiga $MLK$ sebangun. Luas segitiga $MLK$ adalah ... satuan luas.",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098083-removebg-preview.png",
     "pilihan": ["12", "14,4", "16,5", "20", "22,5"],
@@ -82,7 +83,7 @@
   },
   {
     "id": 11,
-    "kategori": "Bentuk Akar",
+    "kategori": "sedang",
     "pertanyaan": "Nilai dari $\\sqrt{4 + \\sqrt{7}} + \\sqrt{4 - \\sqrt{7}}$ adalah...",
     "pilihan": ["$2\\sqrt{2}$", "$\\sqrt{10}$", "$\\sqrt{14}$", "$\\sqrt{7}$", "4"],
     "jawaban": "C",
@@ -90,7 +91,7 @@
   },
   {
     "id": 12,
-    "kategori": "Fungsi",
+    "kategori": "sedang",
     "pertanyaan": "Jika $f(x+1) = x^2 - 2x + 3$ dan $f^{-1}(a) = 2$, maka nilai $a$ adalah...",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "A",
@@ -98,7 +99,7 @@
   },
   {
     "id": 13,
-    "kategori": "Matriks",
+    "kategori": "sedang",
     "pertanyaan": "Jika $A = \\begin{bmatrix} 3 & -1 \\\\ -2 & 1 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 2 & 1 \\\\ 4 & 3 \\end{bmatrix}$, maka matriks $X$ yang memenuhi $AX = B$ adalah...",
     "pilihan": [
       "$\\begin{bmatrix} 6 & 4 \\\\ 16 & 11 \\end{bmatrix}$",
@@ -112,7 +113,7 @@
   },
   {
     "id": 14,
-    "kategori": "Barisan dan Deret",
+    "kategori": "sedang",
     "pertanyaan": "Sebuah barisan geometri tak hingga memiliki jumlah $32$. Jika suku kedua adalah $8$, maka suku pertama adalah...",
     "pilihan": ["16", "18", "20", "24", "28"],
     "jawaban": "A",
@@ -120,7 +121,7 @@
   },
   {
     "id": 15,
-    "kategori": "Peluang",
+    "kategori": "sedang",
     "pertanyaan": "Sebuah dadu dilempar $2$ kali. Peluang munculnya jumlah mata dadu $8$ adalah...",
     "pilihan": ["$\\frac{1}{12}$", "$\\frac{5}{36}$", "$\\frac{1}{6}$", "$\\frac{7}{36}$", "$\\frac{1}{9}$"],
     "jawaban": "B",
@@ -128,7 +129,7 @@
   },
   {
     "id": 16,
-    "kategori": "Eksponen dan Logaritma",
+    "kategori": "sedang",
     "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^2\\log 75$ adalah...",
     "pilihan": ["$a + 2b$", "$2a + b$", "$a + b^2$", "$a^2 + b$", "$ab^2$"],
     "jawaban": "A",
@@ -136,7 +137,7 @@
   },
   {
     "id": 17,
-    "kategori": "Geometri dan Bangun Datar",
+    "kategori": "sulit",
     "pertanyaan": "Kerucut dengan tinggi $15 \\text{ cm}$ terletak di dalam balok. Alas kerucut sebidang dengan alas balok dan menyinggung keempat sisinya. Alas balok berbentuk persegi dengan sisi $20 \\text{ cm}$. Volume bagian balok di luar kerucut $7$ kali volume kerucut. Luas permukaan balok adalah $\\dots$",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/Screenshot_20250905_112255_Drive.jpg",
     "pilihan": ["$800 + \\frac{800}{3}\\pi$", "$800 + 400\\pi$", "$800 + 800\\pi$", "$800 + 1200\\pi$", "$800 + 2400\\pi$"],
@@ -145,7 +146,7 @@
   },
   {
     "id": 18,
-    "kategori": "Bentuk Akar",
+    "kategori": "sulit",
     "pertanyaan": "Jika $x = \\sqrt{6 + \\sqrt{6 + \\sqrt{6 + \\dots}}}$, maka $x = \\dots$",
     "pilihan": ["2", "3", "4", "5", "6"],
     "jawaban": "B",
@@ -153,7 +154,7 @@
   },
   {
     "id": 19,
-    "kategori": "Fungsi",
+    "kategori": "sulit",
     "pertanyaan": "Jika $f(x) = 2^x + 2^{-x}$ dan $f(a) = 3$, maka $f(2a) = \\dots$",
     "pilihan": ["7", "9", "11", "13", "15"],
     "jawaban": "A",
@@ -161,7 +162,7 @@
   },
   {
     "id": 20,
-    "kategori": "Matriks",
+    "kategori": "sulit",
     "pertanyaan": "Jika matriks $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$, maka $\\det(A^2)$ adalah...",
     "pilihan": ["1", "2", "4", "8", "16"],
     "jawaban": "A",
