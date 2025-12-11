@@ -8,23 +8,24 @@
   },
 {
   "id": 2,
-  "pertanyaan": "Soal dengan tabel...",
+  "pertanyaan": "Dalam sebuah lomba olimpiade Fisika, setiap siswa harus mendapatkan skor minimal 100 untuk lolos ke babak berikutnya. Setiap jawaban benar diberi skor 4, salah diberi skor -1, dan tidak dijawab diberi skor 0. Jumlah soal yang diujikan adalah 50 soal. Berdasarkan tabel berikut, di antara ketiga siswa tersebut yang lolos ke babak selanjutnya adalah ....",
   "tabel": {
-    "header": ["Nama", "Nilai", "Status"],
+    "header": ["Nama", "Soal yang dijawab", "Jawaban benar"],
     "rows": [
-      ["Andi", "85", "Lulus"],
-      ["Budi", "75", "Lulus"],
-      ["Cici", "65", "Tidak Lulus"]
+      ["Cinta", "37", "30"],
+      ["Dara", "36", "26"],
+      ["Elsa", "46", "29"]
     ]
   },
-  "pilihan": ["A", "B", "C", "D", "E"],
+  "pilihan": ["Cinta", "Dara", "Elsa", "Cinta dan Dara", "Cinta dan Elsa"],
   "jawaban": "A",
-  "pembahasan": "Pembahasan...",
+  "pembahasan": "Skor minimal untuk lolos adalah 100. Rumus perhitungan skor adalah:\n$$\\text{Skor} = (\\text{Benar} \\times 4) + (\\text{Salah} \\times (-1)) + (\\text{Kosong} \\times 0)$$\n$$\\text{Salah} = \\text{Dijawab} - \\text{Benar}$$\n$$\\text{Kosong} = 50 - \\text{Dijawab}$$\n\n**1. Perhitungan Skor Cinta:**\n* Jawaban Benar = 30\n* Jawaban Salah = $37 - 30 = 7$\n* Skor = $(30 \\times 4) + (7 \\times (-1)) = 120 - 7 = 113$\n* **Keputusan: Lolos** (karena $113 \\ge 100$)\n\n**2. Perhitungan Skor Dara:**\n* Jawaban Benar = 26\n* Jawaban Salah = $36 - 26 = 10$\n* Skor = $(26 \\times 4) + (10 \\times (-1)) = 104 - 10 = 94$\n* **Keputusan: Tidak Lolos** (karena $94 < 100$)\n\n**3. Perhitungan Skor Elsa:**\n* Jawaban Benar = 29\n* Jawaban Salah = $46 - 29 = 17$\n* Skor = $(29 \\times 4) + (17 \\times (-1)) = 116 - 17 = 99$\n* **Keputusan: Tidak Lolos** (karena $99 < 100$)\n\nSiswa yang lolos ke babak selanjutnya adalah **Cinta**.",
   "tabel_pembahasan": {
-    "header": ["Kategori", "Detail"],
+    "header": ["Nama", "Benar", "Salah", "Skor Total", "Lolos?"],
     "rows": [
-      ["Rata-rata", "80"],
-      ["Median", "75"]
+      ["Cinta", "30", "7", "113", "Ya"],
+      ["Dara", "26", "10", "94", "Tidak"],
+      ["Elsa", "29", "17", "99", "Tidak"]
     ]
   }
 }
