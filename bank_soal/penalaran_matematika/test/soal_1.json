@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Seorang koki membuat satu loyang besar roti cokelat. Pembagian alokasi bagian roti ditetapkan sebagai berikut: $\\frac{1}{9}$ bagian untuk staf dapur, $\\frac{1}{3}$ bagian untuk donatur, dan sisanya dialokasikan untuk anak-anak yatim yang hadir. Jika total anak yatim yang hadir adalah 50 orang, dan perbandingan jumlah anak laki-laki dan anak perempuan adalah $1:4$, maka masing-masing anak laki-laki akan memperoleh ... bagian.",
+    "pilihan": ["$\\frac{1}{60}$", "$\\frac{1}{75}$", "$\\frac{1}{80}$", "$\\frac{1}{90}$", "$\\frac{1}{100}$"],
+    "jawaban": "D",
+    "pembahasan": "Soal ini meminta kita untuk mencari bagian roti yang diperoleh setiap anak laki-laki, dengan asumsi sisa bagian dibagi rata ke semua anak yatim.\n\n**Langkah 1: Hitung total bagian sisa untuk Anak Yatim.**\nTotal bagian adalah 1. Pertama, samakan penyebut untuk alokasi staf dan donatur:\n$\\frac{1}{3} = \\frac{1 \\times 3}{3 \\times 3} = \\frac{3}{9}$\n\n* Total bagian yang dialokasikan (Staf + Donatur):\n  $\\frac{1}{9} + \\frac{3}{9} = \\frac{4}{9}$ \n\n* Total Bagian Sisa (untuk Anak Yatim):\n  $1 - \\frac{4}{9} = \\frac{9}{9} - \\frac{4}{9} = \\frac{5}{9}$\n\n**Langkah 2: Hitung jumlah Anak Yatim.**\n* Total Anak Yatim: 50 orang.\n\n**Langkah 3: Hitung bagian yang diperoleh masing-masing anak laki-laki.**\nAsumsi pembagian sisa roti $(\\frac{5}{9})$ dilakukan secara rata ke semua 50 anak yatim.\n\n* Bagian per individu (Anak Laki-laki atau Perempuan):\n  $\\frac{\\text{Total Bagian Anak Yatim}}{\\text{Total Jumlah Anak Yatim}} = \\frac{5/9}{50}$\n\n  $\\frac{5}{9 \\times 50} = \\frac{5}{450}$\n\n* Sederhanakan pecahan dengan membagi pembilang dan penyebut dengan 5:\n  $\\frac{5 \\div 5}{450 \\div 5} = \\frac{1}{90}$\n\n**Maka, masing-masing anak laki-laki memperoleh $\\frac{1}{90}$ bagian.**"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Dalam sebuah lomba olimpiade Fisika, setiap siswa harus mendapatkan skor minimal 100 untuk lolos ke babak berikutnya. Setiap jawaban benar diberi skor 4, salah diberi skor -1, dan tidak dijawab diberi skor 0. Jumlah soal yang diujikan adalah 50 soal. Berdasarkan tabel berikut, di antara ketiga siswa tersebut yang lolos ke babak selanjutnya adalah ....",
+    "tabel": {
+      "header": ["Nama", "Soal yang dijawab", "Jawaban benar"],
+      "rows": [
+        ["Cinta", "37", "30"],
+        ["Dara", "36", "26"],
+        ["Elsa", "46", "29"]
+      ]
+    },
+    "pilihan": ["Cinta", "Dara", "Elsa", "Cinta dan Dara", "Cinta dan Elsa"],
+    "jawaban": "A",
+    "pembahasan": "Skor minimal untuk lolos adalah 100. Rumus perhitungan skor adalah:\n$$\\text{Skor} = (\\text{Benar} \\times 4) + (\\text{Salah} \\times (-1)) + (\\text{Kosong} \\times 0)$$\n$$\\text{Salah} = \\text{Dijawab} - \\text{Benar}$$\n$$\\text{Kosong} = 50 - \\text{Dijawab}$$\n\n**1. Perhitungan Skor Cinta:**\n* Jawaban Benar = 30\n* Jawaban Salah = $37 - 30 = 7$\n* Skor = $(30 \\times 4) + (7 \\times (-1)) = 120 - 7 = 113$\n* **Keputusan: Lolos** (karena $113 \\ge 100$)\n\n**2. Perhitungan Skor Dara:**\n* Jawaban Benar = 26\n* Jawaban Salah = $36 - 26 = 10$\n* Skor = $(26 \\times 4) + (10 \\times (-1)) = 104 - 10 = 94$\n* **Keputusan: Tidak Lolos** (karena $94 < 100$)\n\n**3. Perhitungan Skor Elsa:**\n* Jawaban Benar = 29\n* Jawaban Salah = $46 - 29 = 17$\n* Skor = $(29 \\times 4) + (17 \\times (-1)) = 116 - 17 = 99$\n* **Keputusan: Tidak Lolos** (karena $99 < 100$)\n\nSiswa yang lolos ke babak selanjutnya adalah **Cinta**.",
+    "tabel_pembahasan": {
+      "header": ["Nama", "Benar", "Salah", "Skor Total", "Lolos?"],
+      "rows": [
+        ["Cinta", "30", "7", "113", "Ya"],
+        ["Dara", "26", "10", "94", "Tidak"],
+        ["Elsa", "29", "17", "99", "Tidak"]
+      ]
+    }
+  },
+{
+    "id": 3,
+    "pertanyaan": "Sebuah proyek dapat diselesaikan oleh 15 pekerja dalam 24 hari. Setelah bekerja 8 hari, 5 pekerja mengundurkan diri. Berapa total hari yang dibutuhkan untuk menyelesaikan proyek?",
+    "pilihan": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nSisa waktu proyek ideal (15 pekerja) $= 24-8=16$ hari.\nPekerja tersisa $= 15-5=10$ orang.\nWaktu sisa (perbandingan berbalik nilai): $H_{\\text{sisa}} = \\frac{15}{10} \\times 16 = 24$ hari.\nTotal hari proyek $= 8$ hari (awal) $+ 24$ hari (sisa) $= 32$ hari.\n\n**Cara Cepat**:\n\nWaktu nyata $= \\frac{15}{10} \\times 16 = 24$ hari. Total $= 8+24 = 32$ hari"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Sebuah toko memberikan diskon bertingkat 20% lalu 15% untuk semua barang. Jika Rina membeli sebuah laptop dengan harga Rp10.000.000 sebelum diskon, berapa yang harus dibayar?",
+    "pilihan": [
+      "Rp6.400.000",
+      "Rp6.800.000",
+      "Rp7.200.000",
+      "Rp7.600.000",
+      "Rp8.000.000"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah Lengkap**:\n\nHarga setelah diskon 20%: $10.000.000 \\times 0.8 = 8.000.000$.\nHarga setelah diskon tambahan 15%: $8.000.000 \\times 0.85 = 6.800.000$.\n\n**Cara Cepat**:\n\nHarga Akhir = $10.000.000 \\times 0.8 \\times 0.85 = 6.800.000$"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Sebuah tabung memiliki volume $3.850\\ \\text{cm}^3$ dan tinggi $25\\ \\text{cm}$. Berapa luas permukaan tabung tersebut? $(\\pi=22/7)$",
+    "pilihan": [
+      "1.408 cm²",
+      "1.496 cm²",
+      "1.540 cm²",
+      "1.584 cm²",
+      "1.628 cm²"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nCari jari-jari ($r$): $V=\\pi r^2h \\Rightarrow 3.850=(\\frac{22}{7})r^2(25) \\Rightarrow r^2 = 49$. Jadi, $r=7$ cm.\nLuas permukaan $= 2\\pi r(r+h) = 2(\\frac{22}{7})(7)(7+25)$.\nLuas permukaan $= 44(32) = 1.408$ cm²."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Sebuah mobil menempuh 360 km dengan 30 liter bensin. Jika harga bensin Rp10.000/liter, berapa biaya untuk menempuh 600 km?",
+    "pilihan": [
+      "Rp450.000",
+      "Rp500.000",
+      "Rp550.000",
+      "Rp600.000",
+      "Rp650.000"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah Lengkap**:\n\nEfisiensi bahan bakar $= 360/30 = 12$ km/L.\nKebutuhan bensin untuk 600 km: $600 / 12 = 50$ L.\nBiaya $= 50 \\times Rp 10.000 = Rp 500.000$.\n\n**Cara Cepat**:\n\nKebutuhan bensin (Perbandingan Senilai) $= \\frac{600}{360} \\times 30 = 50$ L. Biaya $= 500.000$"
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Sebuah kerucut memiliki volume $924\\ \\text{cm}^3$ dan tinggi $18\\ \\text{cm}$. Berapa diameter alas kerucut? $(\\pi=22/7)$",
+    "pilihan": [
+      "7 cm",
+      "14 cm",
+      "21 cm",
+      "28 cm",
+      "35 cm"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah Lengkap**:\n\n$V = \\tfrac{1}{3}\\pi r^2h \\Rightarrow 924=\\tfrac{1}{3}\\times(\\frac{22}{7})r^2\\times 18$.\n$r^2 = \\frac{924 \\times 7}{132} = 49$.\n$r = 7$ cm. Diameter $= 2r = 14$ cm."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Perbandingan uang A:B:C adalah 3:5:7. Jika jumlah uang A dan C Rp500.000, berapa selisih uang B dan A?",
+    "pilihan": [
+      "Rp100.000",
+      "Rp120.000",
+      "Rp140.000",
+      "Rp160.000",
+      "Rp180.000"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nJumlah rasio A+C $= 3+7=10$.\nSelisih rasio B-A $= 5-3=2$.\nSelisih uang $= \\frac{\\text{Selisih Rasio}}{\\text{Jumlah Rasio}} \\times \\text{Jumlah Uang} = \\frac{2}{10} \\times 500.000 = 100.000$."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Sebuah lingkaran memiliki luas $1.386\\ \\text{cm}^2$. Berapa keliling lingkaran tersebut? $(\\pi=22/7)$",
+    "pilihan": [
+      "112 cm",
+      "124 cm",
+      "132 cm",
+      "144 cm",
+      "156 cm"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nCari jari-jari ($r$): $L=\\pi r^2 \\Rightarrow 1.386=(\\frac{22}{7})r^2 \\Rightarrow r^2 = 441$. Jadi, $r=21$ cm.\nKeliling $= 2\\pi r = 2(\\frac{22}{7})(21)$.\nKeliling $= 44(3) = 132$ cm."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Dalam sebuah kotak terdapat 6 bola merah, 5 biru, dan 4 hijau. Jika diambil 3 bola sekaligus, berapa peluang terambil minimal 1 merah?",
+    "pilihan": [
+      "53/65",
+      "54/65",
+      "55/65",
+      "56/65",
+      "57/65"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nTotal kemungkinan $C(15,3)=455$.\nKejadian komplemen (tidak merah) $C(9,3) = 84$.\nPeluang minimal 1 merah $P(\\ge 1M) = 1 - \\frac{84}{455} = \\frac{371}{455}$.\nSederhanakan: $371/455 = 53/65$.\n\n**Cara Cepat**:\n\n$P(\\ge 1M) = 1 - \\frac{C(9,3)}{C(15,3)} = 1 - \\frac{84}{455} = \\frac{53}{65}$"
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Sebuah persegi panjang memiliki panjang $(4x)$ cm dan lebar $(x)$ cm. Jika kelilingnya 50 cm, berapa luasnya?",
+    "pilihan": [
+      "80 cm²",
+      "90 cm²",
+      "100 cm²",
+      "110 cm²",
+      "120 cm²"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nKeliling $K = 2(4x + x) = 10x$.\n$10x=50 \\Rightarrow x=5$.\nLuas $= 4x \\times x = 4x^2 = 4(5^2) = 100$ cm²."
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Sebuah drum berisi campuran air dan alkohol. Jika $4/13$ bagian adalah air dan $9/13$ bagian adalah alkohol. Jika 13 liter campuran diambil (dengan perbandingan sama) lalu ditambah 10 liter alkohol, berapa perbandingan air:alkohol jika volume awal total adalah 78 liter?",
+    "pilihan": [
+      "1:2",
+      "1:3",
+      "2:5",
+      "3:8",
+      "4:11"
+    ],
+    "jawaban": "E",
+    "pembahasan": "**Langkah Lengkap**:\n\nVolume Awal: Air $= 24$ L. Alkohol $= 54$ L.\nVolume diambil (13 L): Air diambil $= 4$ L. Alkohol diambil $= 9$ L.\nVolume Akhir: Air $= 24-4=20$ L. Alkohol $= (54-9)+10=55$ L.\nPerbandingan Air:Alkohol $= 20:55 = 4:11$.\n\n**Cara Cepat**:\n\nVolume akhir 20L Air dan 55L Alkohol. Perbandingan 4:11"
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Sebuah prisma segitiga sama sisi memiliki volume $36\\sqrt{3}\\ \\text{cm}^3$ dan tinggi prisma 4 cm. Berapa panjang sisi alas segitiga?",
+    "pilihan": [
+      "6 cm",
+      "8 cm",
+      "9 cm",
+      "10 cm",
+      "12 cm"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nLuas Alas Segitiga: $L_{\\text{alas}} = V/h = 36\\sqrt{3}/4 = 9\\sqrt{3}$ cm².\nRumus Luas Segitiga Sama Sisi: $L_{\\text{alas}} = s^2\\frac{\\sqrt{3}}{4}$.\n$s^2\\frac{\\sqrt{3}}{4} = 9\\sqrt{3} \\Rightarrow s^2 = 36$. Sisi $s=\\mathbf{6}$ cm.\n\n**Cara Cepat**:\n\nLuas alas $9\\sqrt{3}$. Sisi $s=6$ cm"
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Sebuah sekolah memiliki 1.200 siswa dengan perbandingan kelas X, XI, XII adalah 5:4:3. Jika tahun depan semua siswa naik kelas dan $20\\%$ siswa kelas XII lulus, berapa perbandingan baru (X:XI:XII)?",
+    "pilihan": [
+      "5:4:2",
+      "5:4:3",
+      "25:20:12",
+      "25:20:15",
+      "25:20:9"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nRasio Awal (X:XI:XII) $= 5:4:3$. Siswa XII yang berlanjut $= 3 \\times (1-0.2) = 2.4$.\nPerbandingan siswa yang berlanjut (X:XI:XII) $= 5:4:2.4$.\nUntuk menghilangkan desimal, kalikan 5: $25:20:12$.\n\n**Cara Cepat**:\n\nPerbandingan $= 5:4:(3 \\times 0.8) = 5:4:2.4 = 25:20:12$"
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Sebuah bakteri berkembang biak menjadi tiga kali lipat setiap 2 jam. Jika pada pukul 08.00 terdapat 100 bakteri, berapa jumlahnya pada pukul 16.00?",
+    "pilihan": [
+      "6.400",
+      "7.200",
+      "8.100",
+      "9.000",
+      "9.900"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nWaktu total $= 8$ jam. Jumlah periode $= 8 / 2 = 4$ periode.\nJumlah akhir $= N_0 \\times (3)^{\\text{periode}} = 100 \\times 3^4$.\nJumlah akhir $= 100 \\times 81 = 8.100$ bakteri."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Sebuah balok memiliki perbandingan panjang:lebar:tinggi = 12:8:3. Jika panjang diagonal ruang balok tersebut adalah $\\sqrt{217}$ cm, berapa volume balok tersebut?",
+    "pilihan": [
+      "192 cm³",
+      "240 cm³",
+      "288 cm³",
+      "300 cm³",
+      "320 cm³"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nMisal $p=12x, l=8x, t=3x$. $D^2 = 12^2x^2+8^2x^2+3^2x^2 = 217x^2$.\n$(\\sqrt{217})^2 = 217$. $217x^2 = 217 \\Rightarrow x=1$.\nDimensi: $p=12, l=8, t=3$. Volume $= 12 \\times 8 \\times 3 = 288$ cm³.\n\n**Cara Cepat**:\n\n$x=1$. Volume $= 12 \\times 8 \\times 3 = 288$ cm³"
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Sebuah toko menjual 5 buku dan 3 pensil seharga Rp 62.000, sedangkan 2 buku dan 4 pensil seharga Rp 36.000. Berapa harga 1 buku dan 1 pensil?",
+    "pilihan": [
+      "Rp11.000",
+      "Rp12.000",
+      "Rp13.000",
+      "Rp14.000",
+      "Rp15.000"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah Lengkap**:\n\nPersamaan: (1) $5b+3p=62.000$. (2) $b+2p=18.000$.\nSubstitusi (atau Eliminasi): Diperoleh $b=10.000$ dan $p=4.000$.\nHarga total $1b+1p = 10.000 + 4.000 = 14.000$."
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Sebuah taman berbentuk lingkaran akan dipasang lampu setiap 6 meter di sekelilingnya. Jika diameter taman 42 meter dan biaya pemasangan Rp150.000/lampu, berapa total biaya? $(\\pi=22/7)$",
+    "pilihan": [
+      "Rp3.300.000",
+      "Rp3.600.000",
+      "Rp3.900.000",
+      "Rp4.200.000",
+      "Rp4.500.000"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nKeliling Lingkaran: $K = \\pi d = \\frac{22}{7} \\times 42 = 132$ m.\nJumlah Lampu: $132 \\text{ m} / 6 \\text{ m} = 22$ lampu.\nTotal Biaya: $22 \\times Rp 150.000 = Rp 3.300.000$,"
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Dua dadu dilempar bersama. Berapa peluang muncul jumlah mata dadu genap atau paling sedikit satu dadu menunjukkan angka 5?",
+    "pilihan": [
+      "5/12",
+      "7/12",
+      "9/12",
+      "11/18",
+      "23/36"
+    ],
+    "jawaban": "E",
+    "pembahasan": "**Langkah Lengkap**:\n\n$n(A)$: Jumlah Genap = 18. $n(B)$: Minimal satu angka 5 = 11. $n(S) = 36$.\n$n(A \\cap B)$: Genap dan ada 5 (yaitu: (1,5), (3,5), (5,5), (5,1), (5,3), (5,5)) = 6.\n$P(A \\cup B) = \\frac{n(A)+n(B)-n(A \\cap B)}{n(S)} = \\frac{18+11-6}{36} = \\frac{23}{36}$.\n\n**Cara Cepat**:\n\n$P(A \\cup B) = \\frac{18+11-6}{36} = \\frac{23}{36}$"
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Sebuah mobil menempuh 1/4 jarak dengan kecepatan 40 km/jam, 1/2 jarak dengan 60 km/jam, dan sisanya (1/4) dengan 80 km/jam. Berapa kecepatan rata-rata seluruh perjalanan?",
+    "pilihan": [
+      "56.47 km/jam",
+      "57.00 km/jam",
+      "58.25 km/jam",
+      "60.00 km/jam",
+      "62.50 km/jam"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nGunakan Rata-rata Harmonik untuk pecahan jarak:\n$K_{\\text{rata-rata}} = \\frac{1}{\\frac{1/4}{40} + \\frac{1/2}{60} + \\frac{1/4}{80}} = \\frac{1}{\\frac{1}{160} + \\frac{1}{120} + \\frac{1}{320}}$$\nSamakan penyebut (KPK 960):\n$K_{\\text{rata-rata}} = \\frac{1}{\\frac{6+8+3}{960}} = \\frac{960}{17} \\approx 56.47 \\text{ km/jam}.$$\n\n**Cara Cepat**:\n\nGunakan rumus Rata-rata Harmonik. $K_{\\text{rata-rata}} = \\frac{960}{17} \\approx 56.47$ km/jam"
+  }
+]
