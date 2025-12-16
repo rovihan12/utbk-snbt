@@ -2,120 +2,172 @@
   {
     "id": 1,
     "pertanyaan": "Seorang koki membuat satu loyang besar roti cokelat. Pembagian alokasi bagian roti ditetapkan sebagai berikut: $\\frac{1}{9}$ bagian untuk staf dapur, $\\frac{1}{3}$ bagian untuk donatur, dan sisanya dialokasikan untuk anak-anak yatim yang hadir. Jika total anak yatim yang hadir adalah 50 orang, dan perbandingan jumlah anak laki-laki dan anak perempuan adalah $1:4$, maka masing-masing anak laki-laki akan memperoleh ... bagian.",
-    "pilihan": ["$\\frac{1}{60}$", "$\\frac{1}{75}$", "$\\frac{1}{80}$", "$\\frac{1}{90}$", "$\\frac{1}{100}$"],
+    "pilihan": [
+      "$\\frac{1}{60}$",
+      "$\\frac{1}{75}$",
+      "$\\frac{1}{80}$",
+      "$\\frac{1}{90}$",
+      "$\\frac{1}{100}$"
+    ],
     "jawaban": "D",
-    "pembahasan": "Soal ini meminta kita untuk mencari bagian roti yang diperoleh setiap anak laki-laki, dengan asumsi sisa bagian dibagi rata ke semua anak yatim.\n\n**Langkah 1: Hitung total bagian sisa untuk Anak Yatim.**\nTotal bagian adalah 1. Pertama, samakan penyebut untuk alokasi staf dan donatur:\n$\\frac{1}{3} = \\frac{1 \\times 3}{3 \\times 3} = \\frac{3}{9}$\n\n* Total bagian yang dialokasikan (Staf + Donatur):\n  $\\frac{1}{9} + \\frac{3}{9} = \\frac{4}{9}$ \n\n* Total Bagian Sisa (untuk Anak Yatim):\n  $1 - \\frac{4}{9} = \\frac{9}{9} - \\frac{4}{9} = \\frac{5}{9}$\n\n**Langkah 2: Hitung jumlah Anak Yatim.**\n* Total Anak Yatim: 50 orang.\n\n**Langkah 3: Hitung bagian yang diperoleh masing-masing anak laki-laki.**\nAsumsi pembagian sisa roti $(\\frac{5}{9})$ dilakukan secara rata ke semua 50 anak yatim.\n\n* Bagian per individu (Anak Laki-laki atau Perempuan):\n  $\\frac{\\text{Total Bagian Anak Yatim}}{\\text{Total Jumlah Anak Yatim}} = \\frac{5/9}{50}$\n\n  $\\frac{5}{9 \\times 50} = \\frac{5}{450}$\n\n* Sederhanakan pecahan dengan membagi pembilang dan penyebut dengan 5:\n  $\\frac{5 \\div 5}{450 \\div 5} = \\frac{1}{90}$\n\n**Maka, masing-masing anak laki-laki memperoleh $\\frac{1}{90}$ bagian.**"
+    "pembahasan": "Soal ini meminta kita untuk mencari bagian roti yang diperoleh setiap anak laki-laki, dengan asumsi sisa bagian dibagi rata ke semua anak yatim.\n\n**Langkah 1: Hitung total bagian sisa untuk Anak Yatim.**\nTotal bagian adalah 1. Pertama, samakan penyebut untuk alokasi staf dan donatur:\n$\\frac{1}{3} = \\frac{1 \\times 3}{3 \\times 3} = \\frac{3}{9}$\n\n* Total bagian yang dialokasikan (Staf + Donatur):\n  $$\\frac{1}{9} + \\frac{3}{9} = \\frac{4}{9}$$ \n\n* Total Bagian Sisa (untuk Anak Yatim):\n  $$1 - \\frac{4}{9} = \\frac{9}{9} - \\frac{4}{9} = \\frac{5}{9}$$\n\n**Langkah 2: Hitung jumlah Anak Yatim.**\n* Total Anak Yatim: 50 orang.\n\n**Langkah 3: Hitung bagian yang diperoleh masing-masing anak laki-laki.**\nAsumsi pembagian sisa roti $(\\frac{5}{9})$ dilakukan secara rata ke semua 50 anak yatim.\n\n* Bagian per individu (Anak Laki-laki atau Perempuan):\n  $$\\frac{\\text{Total Bagian Anak Yatim}}{\\text{Total Jumlah Anak Yatim}} = \\frac{5/9}{50}$$ \n  $$\\frac{5}{9 \\times 50} = \\frac{5}{450}$$ \n\n* Sederhanakan pecahan dengan membagi pembilang dan penyebut dengan 5:\n  $$\\frac{5 \\div 5}{450 \\div 5} = \\frac{1}{90}$$ \n\n* **Klarifikasi:** Informasi perbandingan jumlah anak laki-laki dan perempuan ($1:4$) tidak digunakan, karena diasumsikan seluruh sisa roti dibagi rata secara merata kepada seluruh 50 anak yatim. Setiap anak memperoleh $\\frac{1}{90}$ bagian.\n\n**Maka, masing-masing anak laki-laki memperoleh $\\frac{1}{90}$ bagian.**"
   },
   {
     "id": 2,
     "pertanyaan": "Dalam sebuah lomba olimpiade Fisika, setiap siswa harus mendapatkan skor minimal 100 untuk lolos ke babak berikutnya. Setiap jawaban benar diberi skor 4, salah diberi skor -1, dan tidak dijawab diberi skor 0. Jumlah soal yang diujikan adalah 50 soal. Berdasarkan tabel berikut, di antara ketiga siswa tersebut yang lolos ke babak selanjutnya adalah ....",
     "tabel": {
-      "header": ["Nama", "Soal yang dijawab", "Jawaban benar"],
+      "header": [
+        "Nama",
+        "Soal yang dijawab",
+        "Jawaban benar"
+      ],
       "rows": [
-        ["Cinta", "37", "30"],
-        ["Dara", "36", "26"],
-        ["Elsa", "46", "29"]
+        [
+          "Cinta",
+          "37",
+          "30"
+        ],
+        [
+          "Dara",
+          "36",
+          "26"
+        ],
+        [
+          "Elsa",
+          "46",
+          "29"
+        ]
       ]
     },
-    "pilihan": ["Cinta", "Dara", "Elsa", "Cinta dan Dara", "Cinta dan Elsa"],
+    "pilihan": [
+      "Cinta",
+      "Dara",
+      "Elsa",
+      "Cinta dan Dara",
+      "Cinta dan Elsa"
+    ],
     "jawaban": "A",
     "pembahasan": "Skor minimal untuk lolos adalah 100. Rumus perhitungan skor adalah:\n$$\\text{Skor} = (\\text{Benar} \\times 4) + (\\text{Salah} \\times (-1)) + (\\text{Kosong} \\times 0)$$\n$$\\text{Salah} = \\text{Dijawab} - \\text{Benar}$$\n$$\\text{Kosong} = 50 - \\text{Dijawab}$$\n\n**1. Perhitungan Skor Cinta:**\n* Jawaban Benar = 30\n* Jawaban Salah = $37 - 30 = 7$\n* Skor = $(30 \\times 4) + (7 \\times (-1)) = 120 - 7 = 113$\n* **Keputusan: Lolos** (karena $113 \\ge 100$)\n\n**2. Perhitungan Skor Dara:**\n* Jawaban Benar = 26\n* Jawaban Salah = $36 - 26 = 10$\n* Skor = $(26 \\times 4) + (10 \\times (-1)) = 104 - 10 = 94$\n* **Keputusan: Tidak Lolos** (karena $94 < 100$)\n\n**3. Perhitungan Skor Elsa:**\n* Jawaban Benar = 29\n* Jawaban Salah = $46 - 29 = 17$\n* Skor = $(29 \\times 4) + (17 \\times (-1)) = 116 - 17 = 99$\n* **Keputusan: Tidak Lolos** (karena $99 < 100$)\n\nSiswa yang lolos ke babak selanjutnya adalah **Cinta**.",
     "tabel_pembahasan": {
-      "header": ["Nama", "Benar", "Salah", "Skor Total", "Lolos?"],
+      "header": [
+        "Nama",
+        "Benar",
+        "Salah",
+        "Skor Total",
+        "Lolos?"
+      ],
       "rows": [
-        ["Cinta", "30", "7", "113", "Ya"],
-        ["Dara", "26", "10", "94", "Tidak"],
-        ["Elsa", "29", "17", "99", "Tidak"]
+        [
+          "Cinta",
+          "30",
+          "7",
+          "113",
+          "Ya"
+        ],
+        [
+          "Dara",
+          "26",
+          "10",
+          "94",
+          "Tidak"
+        ],
+        [
+          "Elsa",
+          "29",
+          "17",
+          "99",
+          "Tidak"
+        ]
       ]
     }
   },
   {
-  "id": 3,
-  "pertanyaan": "Sebuah perusahaan memiliki lima cabang (F, G, H, I, dan J) yang karyawannya mengikuti program pelatihan keterampilan. Persentase karyawan laki-laki pada Cabang F, G, dan H adalah 60% masing-masing, sedangkan persentase karyawan laki-laki pada Cabang I dan J adalah 75% masing-masing. Tentukanlah apakah setiap pernyataan berikut BENAR atau SALAH berdasarkan informasi di atas!",
-  "data_tambahan": {
-    "persentase_laki_laki": {
-      "F, G, H": "60%",
-      "I, J": "75%"
+    "id": 3,
+    "pertanyaan": "Sebuah perusahaan memiliki lima cabang (F, G, H, I, dan J) yang karyawannya mengikuti program pelatihan keterampilan. Persentase karyawan laki-laki pada Cabang F, G, dan H adalah 60% masing-masing, sedangkan persentase karyawan laki-laki pada Cabang I dan J adalah 75% masing-masing. Tentukanlah apakah setiap pernyataan berikut BENAR atau SALAH berdasarkan informasi di atas!",
+    "data_tambahan": {
+      "persentase_laki_laki": {
+        "F, G, H": "60%",
+        "I, J": "75%"
+      },
+      "pernyataan": {
+        "I": "Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.",
+        "II": "Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4 : 5.",
+        "III": "Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang."
+      }
     },
-    "pernyataan": {
-      "I": "Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.",
-      "II": "Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4 : 5.",
-      "III": "Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang."
+    "tabel": {
+      "header": [
+        "Nama Cabang",
+        "Jumlah Karyawan (Total)",
+        "Jumlah Karyawan Peserta Pelatihan",
+        "Perbandingan Peserta Pelatihan Perempuan dan Laki-laki"
+      ],
+      "rows": [
+        [
+          "F",
+          "120",
+          "80",
+          "1 : 3"
+        ],
+        [
+          "G",
+          "150",
+          "90",
+          "2 : 1"
+        ],
+        [
+          "H",
+          "90",
+          "60",
+          "1 : 1"
+        ],
+        [
+          "I",
+          "200",
+          "160",
+          "3 : 5"
+        ],
+        [
+          "J",
+          "160",
+          "100",
+          "1 : 4"
+        ]
+      ]
+    },
+    "hasil": {
+      "I": "SALAH",
+      "II": "BENAR",
+      "III": "SALAH"
+    },
+    "pembahasan": "Langkah pertama adalah menghitung jumlah total karyawan Laki-laki (L) dan Perempuan (P) di setiap cabang berdasarkan persentase yang diberikan.\n\n### 1. Perhitungan Jumlah Karyawan Laki-laki dan Perempuan (Total)\n* **F, G, H:** % Laki-laki = 60%, sehingga % Perempuan = 40%\n* **I, J:** % Laki-laki = 75%, sehingga % Perempuan = 25%\n\n| Cabang | Total Karyawan | Jml L | Jml P |\n| :---: | :---: | :---: | :---: |\n| F | 120 | $120 \\times 60\\% = 72$ | $120 - 72 = 48$ |\n| G | 150 | $150 \\times 60\\% = 90$ | $150 - 90 = 60$ |\n| H | 90 | $90 \\times 60\\% = 54$ | $90 - 54 = 36$ |\n| I | 200 | $200 \\times 75\\% = 150$ | $200 - 150 = 50$ |\n| J | 160 | $160 \\times 75\\% = 120$ | $160 - 120 = 40$ |\n\n### 2. Evaluasi Pernyataan\n\n**Pernyataan I: Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.**\n$$\\text{Selisih P (I, J)} = |50 - 40| = 10$$\n**Kesimpulan I: SALAH** (Selisihnya adalah 10 orang)\n\n**Pernyataan II: Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4 : 5.**\n* Laki-laki F = 72; Laki-laki G = 90\n$$\\text{Rasio L_F : L_G} = 72 : 90$$\nSederhanakan dengan membagi dengan FPB (18): $72/18 : 90/18 = 4 : 5$\n**Kesimpulan II: BENAR**\n\n**Pernyataan III: Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang.**\n* Perempuan H = 36; Perempuan I = 50; Perempuan J = 40\n$$\\text{Rata-rata P} = \\frac{36 + 50 + 40}{3} = \\frac{126}{3} = 42$$\n**Kesimpulan III: SALAH** (Rata-rata yang benar adalah 42 orang)\n",
+    "tabel_pembahasan": {
+      "header": [
+        "Pernyataan",
+        "Perhitungan",
+        "Hasil",
+        "Kesimpulan"
+      ],
+      "rows": [
+        [
+          "I (P Selisih I, J)",
+          "|50 - 40|",
+          "10",
+          "SALAH"
+        ],
+        [
+          "II (Rasio L F : L G)",
+          "72 : 90 (disederhanakan)",
+          "4 : 5",
+          "BENAR"
+        ],
+        [
+          "III (Rata-rata P H, I, J)",
+          "(36 + 50 + 40) / 3",
+          "42",
+          "SALAH"
+        ]
+      ]
     }
-  },
-  "tabel": {
-    "header": [
-      "Nama Cabang",
-      "Jumlah Karyawan (Total)",
-      "Jumlah Karyawan Peserta Pelatihan",
-      "Perbandingan Peserta Pelatihan Perempuan dan Laki-laki"
-    ],
-    "rows": [
-      [
-        "F",
-        "120",
-        "80",
-        "1 : 3"
-      ],
-      [
-        "G",
-        "150",
-        "90",
-        "2 : 1"
-      ],
-      [
-        "H",
-        "90",
-        "60",
-        "1 : 1"
-      ],
-      [
-        "I",
-        "200",
-        "160",
-        "3 : 5"
-      ],
-      [
-        "J",
-        "160",
-        "100",
-        "1 : 4"
-      ]
-    ]
-  },
-  "hasil": {
-    "I": "SALAH",
-    "II": "BENAR",
-    "III": "SALAH"
-  },
-  "pembahasan": "Langkah pertama adalah menghitung jumlah total karyawan Laki-laki (L) dan Perempuan (P) di setiap cabang berdasarkan persentase yang diberikan.\n\n### 1. Perhitungan Jumlah Karyawan Laki-laki dan Perempuan (Total)\n* **F, G, H:** % Laki-laki = 60%, sehingga % Perempuan = 40%\n* **I, J:** % Laki-laki = 75%, sehingga % Perempuan = 25%\n\n| Cabang | Total Karyawan | Jml L | Jml P |\n| :---: | :---: | :---: | :---: |\n| F | 120 | $120 \\times 60\\% = 72$ | $120 - 72 = 48$ |\n| G | 150 | $150 \\times 60\\% = 90$ | $150 - 90 = 60$ |\n| H | 90 | $90 \\times 60\\% = 54$ | $90 - 54 = 36$ |\n| I | 200 | $200 \\times 75\\% = 150$ | $200 - 150 = 50$ |\n| J | 160 | $160 \\times 75\\% = 120$ | $160 - 120 = 40$ |\n\n### 2. Evaluasi Pernyataan\n\n**Pernyataan I: Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.**\n$$\\text{Selisih P (I, J)} = |50 - 40| = 10$$\n**Kesimpulan I: SALAH** (Selisihnya adalah 10 orang)\n\n**Pernyataan II: Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4 : 5.**\n* Laki-laki F = 72; Laki-laki G = 90\n$$\\text{Rasio L_F : L_G} = 72 : 90$$\nSederhanakan dengan membagi dengan FPB (18): $72/18 : 90/18 = 4 : 5$\n**Kesimpulan II: BENAR**\n\n**Pernyataan III: Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang.**\n* Perempuan H = 36; Perempuan I = 50; Perempuan J = 40\n$$\\text{Rata-rata P} = \\frac{36 + 50 + 40}{3} = \\frac{126}{3} = 42$$\n**Kesimpulan III: SALAH** (Rata-rata yang benar adalah 42 orang)\n",
-  "tabel_pembahasan": {
-    "header": [
-      "Pernyataan",
-      "Perhitungan",
-      "Hasil",
-      "Kesimpulan"
-    ],
-    "rows": [
-      [
-        "I (P Selisih I, J)",
-        "|50 - 40|",
-        "10",
-        "SALAH"
-      ],
-      [
-        "II (Rasio L F : L G)",
-        "72 : 90 (disederhanakan)",
-        "4 : 5",
-        "BENAR"
-      ],
-      [
-        "III (Rata-rata P H, I, J)",
-        "(36 + 50 + 40) / 3",
-        "42",
-        "SALAH"
-      ]
-    ]
   }
-}
 ]
