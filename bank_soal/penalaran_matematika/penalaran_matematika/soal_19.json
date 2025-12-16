@@ -84,6 +84,40 @@
   {
     "id": 3,
     "pertanyaan": "Sebuah perusahaan memiliki lima cabang (F, G, H, I, dan J) yang karyawannya mengikuti program pelatihan keterampilan. Persentase karyawan laki-laki pada Cabang F, G, dan H adalah 60% masing-masing, sedangkan persentase karyawan laki-laki pada Cabang I dan J adalah 75% masing-masing. Berdasarkan informasi pada tabel berikut, manakah kombinasi pernyataan yang BENAR?",
+    "tabel": {
+      "header": [
+        "Cabang",
+        "Total Karyawan",
+        "Peserta Pelatihan"
+      ],
+      "rows": [
+        [
+          "F",
+          "120",
+          "80"
+        ],
+        [
+          "G",
+          "150",
+          "90"
+        ],
+        [
+          "H",
+          "90",
+          "60"
+        ],
+        [
+          "I",
+          "200",
+          "160"
+        ],
+        [
+          "J",
+          "160",
+          "100"
+        ]
+      ]
+    },
     "data_tambahan": {
       "persentase_laki_laki": {
         "F, G, H": "60%",
