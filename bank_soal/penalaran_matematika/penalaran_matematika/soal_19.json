@@ -28,5 +28,94 @@
         ["Elsa", "29", "17", "99", "Tidak"]
       ]
     }
+  },
+  {
+  "id": 3,
+  "pertanyaan": "Sebuah perusahaan memiliki lima cabang (F, G, H, I, dan J) yang karyawannya mengikuti program pelatihan keterampilan. Persentase karyawan laki-laki pada Cabang F, G, dan H adalah 60% masing-masing, sedangkan persentase karyawan laki-laki pada Cabang I dan J adalah 75% masing-masing. Tentukanlah apakah setiap pernyataan berikut BENAR atau SALAH berdasarkan informasi di atas!",
+  "data_tambahan": {
+    "persentase_laki_laki": {
+      "F, G, H": "60%",
+      "I, J": "75%"
+    },
+    "pernyataan": {
+      "I": "Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.",
+      "II": "Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4 : 5.",
+      "III": "Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang."
+    }
+  },
+  "tabel": {
+    "header": [
+      "Nama Cabang",
+      "Jumlah Karyawan (Total)",
+      "Jumlah Karyawan Peserta Pelatihan",
+      "Perbandingan Peserta Pelatihan Perempuan dan Laki-laki"
+    ],
+    "rows": [
+      [
+        "F",
+        "120",
+        "80",
+        "1 : 3"
+      ],
+      [
+        "G",
+        "150",
+        "90",
+        "2 : 1"
+      ],
+      [
+        "H",
+        "90",
+        "60",
+        "1 : 1"
+      ],
+      [
+        "I",
+        "200",
+        "160",
+        "3 : 5"
+      ],
+      [
+        "J",
+        "160",
+        "100",
+        "1 : 4"
+      ]
+    ]
+  },
+  "hasil": {
+    "I": "SALAH",
+    "II": "BENAR",
+    "III": "SALAH"
+  },
+  "pembahasan": "Langkah pertama adalah menghitung jumlah total karyawan Laki-laki (L) dan Perempuan (P) di setiap cabang berdasarkan persentase yang diberikan.\n\n### 1. Perhitungan Jumlah Karyawan Laki-laki dan Perempuan (Total)\n* **F, G, H:** % Laki-laki = 60%, sehingga % Perempuan = 40%\n* **I, J:** % Laki-laki = 75%, sehingga % Perempuan = 25%\n\n| Cabang | Total Karyawan | Jml L | Jml P |\n| :---: | :---: | :---: | :---: |\n| F | 120 | $120 \\times 60\\% = 72$ | $120 - 72 = 48$ |\n| G | 150 | $150 \\times 60\\% = 90$ | $150 - 90 = 60$ |\n| H | 90 | $90 \\times 60\\% = 54$ | $90 - 54 = 36$ |\n| I | 200 | $200 \\times 75\\% = 150$ | $200 - 150 = 50$ |\n| J | 160 | $160 \\times 75\\% = 120$ | $160 - 120 = 40$ |\n\n### 2. Evaluasi Pernyataan\n\n**Pernyataan I: Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.**\n$$\\text{Selisih P (I, J)} = |50 - 40| = 10$$\n**Kesimpulan I: SALAH** (Selisihnya adalah 10 orang)\n\n**Pernyataan II: Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4 : 5.**\n* Laki-laki F = 72; Laki-laki G = 90\n$$\\text{Rasio L_F : L_G} = 72 : 90$$\nSederhanakan dengan membagi dengan FPB (18): $72/18 : 90/18 = 4 : 5$\n**Kesimpulan II: BENAR**\n\n**Pernyataan III: Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang.**\n* Perempuan H = 36; Perempuan I = 50; Perempuan J = 40\n$$\\text{Rata-rata P} = \\frac{36 + 50 + 40}{3} = \\frac{126}{3} = 42$$\n**Kesimpulan III: SALAH** (Rata-rata yang benar adalah 42 orang)\n",
+  "tabel_pembahasan": {
+    "header": [
+      "Pernyataan",
+      "Perhitungan",
+      "Hasil",
+      "Kesimpulan"
+    ],
+    "rows": [
+      [
+        "I (P Selisih I, J)",
+        "|50 - 40|",
+        "10",
+        "SALAH"
+      ],
+      [
+        "II (Rasio L F : L G)",
+        "72 : 90 (disederhanakan)",
+        "4 : 5",
+        "BENAR"
+      ],
+      [
+        "III (Rata-rata P H, I, J)",
+        "(36 + 50 + 40) / 3",
+        "42",
+        "SALAH"
+      ]
+    ]
   }
+}
 ]
