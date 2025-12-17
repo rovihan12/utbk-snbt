@@ -14,6 +14,19 @@
   },
   {
     "id": 2,
+    "pertanyaan": "Ketinggian peluru mengikuti fungsi $h(t) = 14 + 12t - 2t^2$ ($h$ dalam meter dan $t$ dalam detik). Ketinggian peluru pada saat $t = 3$ detik adalah ... m.",
+    "pilihan": [
+      "20",
+      "24",
+      "30",
+      "32",
+      "34"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Soal ini meminta kita untuk mencari ketinggian peluru ($h$) pada waktu ($t$) tertentu, menggunakan fungsi kuadrat yang diberikan.\n\n**Fungsi Ketinggian:**\n$$h(t) = 14 + 12t - 2t^2$$\n\n**Langkah 1: Substitusi nilai waktu $t=3$ detik ke dalam fungsi.**\n$$h(3) = 14 + 12(3) - 2(3)^2$$\n\n**Langkah 2: Hitung nilai kuadrat.**\n$$h(3) = 14 + 12(3) - 2(9)$$\n\n**Langkah 3: Lakukan operasi perkalian.**\n$$h(3) = 14 + 36 - 18$$\n\n**Langkah 4: Lakukan operasi penjumlahan dan pengurangan.**\n$$h(3) = 50 - 18$$\n$$h(3) = 32$$\n\n**Kesimpulan:**\nKetinggian peluru pada saat $t = 3$ detik adalah **32 m**."
+  },
+  {
+    "id": 3,
     "pertanyaan": "Dalam sebuah lomba olimpiade Fisika, setiap siswa harus mendapatkan skor minimal 100 untuk lolos ke babak berikutnya. Setiap jawaban benar diberi skor 4, salah diberi skor -1, dan tidak dijawab diberi skor 0. Jumlah soal yang diujikan adalah 50 soal. Berdasarkan tabel berikut, di antara ketiga siswa tersebut yang lolos ke babak selanjutnya adalah ....",
     "tabel": {
       "header": [
@@ -82,7 +95,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "pertanyaan": "Sebuah perusahaan memiliki lima cabang (F, G, H, I, dan J) yang karyawannya mengikuti program pelatihan keterampilan. Persentase karyawan laki-laki pada Cabang F, G, dan H adalah 60% masing-masing, sedangkan persentase karyawan laki-laki pada Cabang I dan J adalah 75% masing-masing. Berdasarkan informasi pada tabel berikut, manakah kombinasi pernyataan yang BENAR?",
     "tabel": {
       "header": [
