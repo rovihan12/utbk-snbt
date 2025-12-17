@@ -14,16 +14,16 @@
   },
   {
     "id": 2,
-    "pertanyaan": "Ketinggian peluru mengikuti fungsi $h(t) = 14 + 12t - 2t^2$ ($h$ dalam meter dan $t$ dalam detik). Ketinggian peluru pada saat $t = 3$ detik adalah ... m.",
+    "pertanyaan": "Ketinggian air yang disemprotkan oleh petugas pemadam kebakaran mengikuti fungsi $h(t) = 5 + 20t - 5t^2$ ($h$ dalam meter dan $t$ dalam detik). Ketinggian maksimum yang dicapai air tersebut adalah ... meter.",
     "pilihan": [
+      "15",
       "20",
-      "24",
+      "25",
       "30",
-      "32",
-      "34"
+      "40"
     ],
-    "jawaban": "D",
-    "pembahasan": "Soal ini meminta kita untuk mencari ketinggian peluru ($h$) pada waktu ($t$) tertentu, menggunakan fungsi kuadrat yang diberikan.\n\n**Fungsi Ketinggian:**\n$$h(t) = 14 + 12t - 2t^2$$\n\n**Langkah 1: Substitusi nilai waktu $t=3$ detik ke dalam fungsi.**\n$$h(3) = 14 + 12(3) - 2(3)^2$$\n\n**Langkah 2: Hitung nilai kuadrat.**\n$$h(3) = 14 + 12(3) - 2(9)$$\n\n**Langkah 3: Lakukan operasi perkalian.**\n$$h(3) = 14 + 36 - 18$$\n\n**Langkah 4: Lakukan operasi penjumlahan dan pengurangan.**\n$$h(3) = 50 - 18$$\n$$h(3) = 32$$\n\n**Kesimpulan:**\nKetinggian peluru pada saat $t = 3$ detik adalah **32 m**."
+    "jawaban": "C",
+    "pembahasan": "Soal ini meminta kita untuk mencari nilai maksimum dari fungsi kuadrat $h(t)$, yang merupakan fungsi parabola terbuka ke bawah karena koefisien $t^2$ bernilai negatif.\n\n**Fungsi Ketinggian:**\n$$h(t) = -5t^2 + 20t + 5$$ \nDi sini, koefisien adalah $a = -5$, $b = 20$, dan $c = 5$.\n\n**Langkah 1: Tentukan waktu ($t$) saat ketinggian maksimum dicapai.**\nKetinggian maksimum dicapai pada waktu puncak ($t_p$) yang dihitung dengan rumus:\n$$t_{p} = - \\frac{b}{2a}$$ \nSubstitusikan nilai $a$ dan $b$:\n$$t_{p} = - \\frac{20}{2(-5)} = - \\frac{20}{-10} = 2 \\text{ detik}$$\n\n**Langkah 2: Substitusikan waktu puncak ($t_p = 2$) ke dalam fungsi untuk mendapatkan ketinggian maksimum ($h_{maks}$).**\n$$h_{maks} = h(2) = 5 + 20(2) - 5(2)^2$$\n$$h_{maks} = 5 + 40 - 5(4)$$\n$$h_{maks} = 5 + 40 - 20$$\n$$h_{maks} = 45 - 20$$\n$$h_{maks} = 25$$\n\n**Kesimpulan:**\nKetinggian maksimum yang dicapai air adalah **25 meter**."
   },
   {
     "id": 3,
