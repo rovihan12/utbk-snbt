@@ -20,27 +20,27 @@
     "jawaban": "D",
     "pembahasan": "Soal ini dapat diselesaikan menggunakan rumus rata-rata gabungan. Informasi mengenai klub olimpiade adalah pengecoh.\n\n**Langkah 1: Tuliskan Rumus Rata-rata Gabungan.**\n$\\bar{X}_{gab} = \\frac{(N_L \\cdot \\bar{X}_L) + (N_P \\cdot \\bar{X}_P)}{N_L + N_P}$\n\n**Langkah 2: Substitusikan nilai yang diketahui.**\nKita gunakan rasio jumlah siswa sebagai $N_L=3$ dan $N_P=7$, dengan total $N_L+N_P=10$.\n* $\\bar{X}_{gab} = 83$\n* $\\bar{X}_P = 80$\n\n$83 = \\frac{(3 \\cdot \\bar{X}_L) + (7 \\cdot 80)}{3 + 7}$ \n$83 = \\frac{3 \\cdot \\bar{X}_L + 560}{10}$\n\n**Langkah 3: Selesaikan untuk Rata-rata Laki-laki ($\\bar{X}_L$).**\n* Kalikan silang:\n  $83 \\times 10 = 3 \\cdot \\bar{X}_L + 560$\n  $830 = 3 \\cdot \\bar{X}_L + 560$\n\n* Pindahkan konstanta:\n  $3 \\cdot \\bar{X}_L = 830 - 560$\n  $3 \\cdot \\bar{X}_L = 270$\n\n* Hitung \\(\\bar{X}_L\\):\n  $\\bar{X}_L = \\frac{270}{3} = 90$\n\n**Koreksi:** Karena 90 tidak ada di pilihan, kita tinjau kembali. Jika rata-rata gabungan $\\bar{X}_{gab} = 84,4$, maka:\n$844 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 844 - 560 = 284$\n$\\bar{X}_L = 94,66$\n\n**Mari gunakan kombinasi yang menghasilkan 88:**\nJika $\\bar{X}_{gab} = 82,6$ dan $\\bar{X}_P = 80$:\n$826 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 826 - 560 = 266$\n$\\bar{X}_L = 88,66 \\approx 88$\n\n**Jadi, rata-rata nilai ujian siswa laki-laki adalah $88$.**"
   },
-  {
-    "id": 4,
-    "pertanyaan": "Tiga buah kapal feri beroperasi melayani penyeberangan antar-pulau dengan jadwal keberangkatan dari pelabuhan utama sebagai berikut. Pada tanggal 10 Juli 2026, ketiga kapal (Bahtera, Senja, dan Samudra) berangkat dari pelabuhan yang sama secara bersamaan untuk pertama kalinya. Jika ketiga kapal akan berangkat pada hari yang sama untuk ke-9 kalinya pada 240 hari setelah 10 Juli 2026, tentukan nilai $y$ dari jadwal kapal Samudra!",
-    "tabel": {
-      "header": ["Kapal Feri", "Jadwal Keberangkatan"],
-      "rows": [
-        ["Bahtera", "Setiap 5 hari sekali"],
-        ["Senja", "Setiap 6 hari sekali"],
-        ["Samudra", "Setiap $y$ hari sekali"]
-      ]
-    },
-    "pilihan": ["7", "9", "10", "12", "15"],
-    "jawaban": "C",
-    "pembahasan": "Soal ini mencari nilai $y$ berdasarkan konsep Kelipatan Persekutuan Terkecil (KPK).\n\n**1. Tentukan Nilai KPK ($K$):**\n* Pengiriman bersama terjadi setiap $K$ hari, di mana $K = \\text{KPK}(5, 6, y)$.\n* Jumlah selang waktu (interval) dari keberangkatan ke-1 sampai ke-9 adalah $9 - 1 = 8$ kali.\n* Total waktu yang dibutuhkan untuk 8 interval adalah 240 hari.\n\n$\\text{Total Waktu} = \\text{Interval} \\times K$\n$240 = 8 \\times K$\n$K = \\frac{240}{8} = 30$\n\nJadi, $\\text{KPK}(5, 6, y) = 30$.\n\n**2. Tentukan Nilai $y$:**\n* Faktorisasi 5 dan 6 adalah $5^1$ dan $2^1 \\times 3^1$.\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n\nUntuk $\\text{KPK}(5, 6, y) = 30$, maka $y$ haruslah faktor dari 30. Kita cek pilihan yang menghasilkan KPK = 30:\n* $y = 10$: $\\text{KPK}(5, 6, 10) = \\text{KPK}(30, 10) = 30$\n* $y = 15$: $\\text{KPK}(5, 6, 15) = \\text{KPK}(30, 15) = 30$\n\nKedua nilai (10 dan 15) menghasilkan KPK yang sama (30). Namun, jika kita perhatikan bahwa jadwal harus berupa bilangan bulat positif, dan berdasarkan pilihan yang tersedia, **$y = 10$** adalah jawaban yang paling sesuai.\n\n**Nilai $y$ adalah 10.**",
-    "tabel_pembahasan": {
-      "header": ["Kapal", "Jadwal (hari)", "Faktor Prima", "KPK Bersama"],
-      "rows": [
-        ["Bahtera", "5", "5", "30"],
-        ["Senja", "6", "2, 3", "30"],
-        ["Samudra", "$y = 10$", "2, 5", "30"]
-      ]
-    }
+ {
+  "id": 4,
+  "pertanyaan": "Tiga buah kapal feri beroperasi melayani penyeberangan antar-pulau dengan jadwal keberangkatan dari pelabuhan utama sebagai berikut. Pada tanggal 10 Juli 2026, ketiga kapal (Bahtera, Senja, dan Samudra) berangkat dari pelabuhan yang sama secara bersamaan untuk pertama kalinya. Jika ketiga kapal akan berangkat pada hari yang sama untuk ke-9 kalinya pada 240 hari setelah 10 Juli 2026, tentukan nilai $y$ dari jadwal kapal Samudra!",
+  "tabel": {
+    "header": ["Kapal Feri", "Jadwal Keberangkatan"],
+    "rows": [
+      ["Bahtera", "Setiap 5 hari sekali"],
+      ["Senja", "Setiap 6 hari sekali"],
+      ["Samudra", "Setiap $y$ hari sekali"]
+    ]
+  },
+  "pilihan": ["7", "9", "10", "12", "20"],
+  "jawaban": "C",
+  "pembahasan": "Soal ini diselesaikan dengan konsep Kelipatan Persekutuan Terkecil (KPK).\n\n**1. Menentukan Nilai KPK ($K$):**\n* Keberangkatan bersama terjadi setiap $K$ hari, di mana $K = \\text{KPK}(5, 6, y)$.\n* Dari keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ interval waktu.\n* Total waktu 240 hari untuk 8 interval berarti:\n  $K = \\frac{240}{8} = 30$.\n* Jadi, $\\text{KPK}(5, 6, y) = 30$.\n\n**2. Menentukan Nilai $y$:**\nKita mencari nilai $y$ dari pilihan jawaban yang jika dikombinasikan dengan 5 dan 6 menghasilkan KPK 30.\n* Faktorisasi prima: $5 = 5^1$ dan $6 = 2^1 \\times 3^1$.\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n* Nilai $y$ haruslah bilangan yang kelipatannya tidak melebihi 30 dan merupakan faktor dari 30.\n* Uji pilihan jawaban:\n  * $y = 7: \\text{KPK}(30, 7) = 210$ (Salah)\n  * $y = 9: \\text{KPK}(30, 9) = 90$ (Salah)\n  * **$y = 10: \\text{KPK}(30, 10) = 30$ (Benar)**\n  * $y = 12: \\text{KPK}(30, 12) = 60$ (Salah)\n  * $y = 20: \\text{KPK}(30, 20) = 60$ (Salah)\n\n**Kesimpulan:** Nilai $y$ yang memenuhi adalah 10.",
+  "tabel_pembahasan": {
+    "header": ["Kapal", "Jadwal (hari)", "Faktor Prima", "KPK Bersama"],
+    "rows": [
+      ["Bahtera", "5", "5", "30"],
+      ["Senja", "6", "2, 3", "30"],
+      ["Samudra", "$y = 10$", "2, 5", "30"]
+    ]
   }
+}
 ]
