@@ -1,27 +1,92 @@
 [
+{
+  "id": 12,
+  "pertanyaan": "Genangan air dilempar batu sehingga menimbulkan gelombang air berbentuk lingkaran-lingkaran dengan laju pertambahan jari-jari $10\\text{ cm/detik}$. Laju perubahan luas lingkaran gelombang air ketika jari-jarinya $\\pi\\text{ cm}$, adalah ... $\\text{cm}^2/\\text{detik}$.",
+  "pilihan": [
+    "$20\\pi^2$",
+    "$15\\pi^2$",
+    "$10\\pi^2$",
+    "$5\\pi^2$",
+    "$\\pi^2$"
+  ],
+  "jawaban": "A",
+  "pembahasan": "Soal ini dapat diselesaikan menggunakan konsep turunan, khususnya mengenai laju perubahan yang berkaitan.\n\n**Langkah 1: Identifikasi variabel yang diketahui.**\n* Laju pertambahan jari-jari ($\\frac{dr}{dt}$) = $10\\text{ cm/detik}$.\n* Jari-jari saat pengamatan ($r$) = $\\pi\\text{ cm}$.\n* Variabel yang dicari adalah laju perubahan luas ($\\frac{dL}{dt}$).\n\n**Langkah 2: Gunakan rumus luas lingkaran.**\n* Rumus Luas ($L$) = $\\pi r^2$\n\n**Langkah 3: Turunkan rumus terhadap waktu ($t$).**\nDengan menggunakan aturan rantai, kita peroleh:\n* $\\frac{dL}{dt} = \\frac{dL}{dr} \\cdot \\frac{dr}{dt}$\n* $\\frac{dL}{dt} = 2\\pi r \\cdot \\frac{dr}{dt}$\n\n**Langkah 4: Substitusikan nilai ke dalam rumus turunan.**\n* $\\frac{dL}{dt} = 2 \\cdot \\pi \\cdot (\\pi) \\cdot 10$\n* $\\frac{dL}{dt} = 20\\pi^2$\n\n**Jadi, laju perubahan luas lingkaran gelombang air tersebut adalah $20\\pi^2 \\text{ cm}^2/\\text{detik}$.**"
+},
   {
-    "id": 1,
+    "id": 13,
+    "pertanyaan": "**Baca teks informasi 'Pemasangan Ubin Ruang Pertemuan' untuk menjawab soal 13-15 berikut.** \n\n Luas minimal daerah lantai yang tidak terpasang ubin utuh adalah .... cm².",
+    "pilihan": [
+      "2.000",
+      "3.200",
+      "4.000",
+      "4.800",
+      "5.600"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1. **Konversi Satuan:** \n   Panjang lantai = 850 cm, Lebar lantai = 400 cm. \n\n 2. **Hitung Ubin Utuh:** \n   - Arah Lebar: 400 cm / 40 cm = 10 ubin (pas). \n   - Arah Panjang: 850 cm / 40 cm = 21,25 ubin (artinya 21 ubin utuh dan ada sisa 0,25 ubin). \n\n 3. **Total Ubin Utuh Terpasang:** \n   10 x 21 = 210 ubin utuh. \n\n 4. **Hitung Luas Sisa:** \n   - Luas Total Lantai = 850 x 400 = 340.000 cm². \n   - Luas 210 Ubin Utuh = 210 x (40 x 40) = 210 x 1.600 = 336.000 cm². \n   - Luas Sisa = 340.000 - 336.000 = 4.000 cm²."
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Total biaya minimal yang harus dikeluarkan untuk membeli ubin agar seluruh lantai tertutup adalah ....",
+    "pilihan": [
+      "Rp4.620.000,00",
+      "Rp4.730.000,00",
+      "Rp4.840.000,00",
+      "Rp4.950.000,00",
+      "Rp5.060.000,00"
+    ],
+    "jawaban": "B",
+    "pembahasan": "1. **Hitung Total Ubin yang Dibutuhkan:** \n   Luas lantai / Luas satu ubin = 340.000 / 1.600 = 212,5 keping. \n   Karena pemotongan diperbolehkan tapi pembelian harus per dus, maka dibutuhkan setidaknya 213 keping ubin. \n\n 2. **Hitung Jumlah Dus:** \n   213 keping / 5 keping per dus = 42,6 dus. \n   Karena tidak bisa beli satuan, dibulatkan ke atas menjadi 43 dus. \n\n 3. **Total Biaya:** \n   43 dus x Rp110.000,00 = Rp4.730.000,00."
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Waktu yang dibutuhkan untuk menyelesaikan seluruh pemasangan ubin di lantai tersebut adalah ....",
+    "pilihan": [
+      "48 menit",
+      "51 menit",
+      "54 menit",
+      "58 menit",
+      "60 menit"
+    ],
+    "jawaban": "B",
+    "pembahasan": "1. **Hitung Luas Total Lantai (m²):** \n   8,5 m x 4 m = 34 m². \n\n 2. **Gunakan Perbandingan Waktu:** \n   - 8 m² = 12 menit. \n   - 1 m² = 12 / 8 = 1,5 menit. \n\n 3. **Total Waktu:** \n   34 m² x 1,5 menit/m² = 51 menit."
+  },  
+  {
+  "id": 16,
+  "pertanyaan": "Bank A menawarkan bunga tunggal dengan suku bunga sebesar 5% per tahun, sedangkan Bank B menawarkan bunga tunggal dengan suku bunga sebesar 6% pertahun. Mr. X dan Mr. Y ingin menabung di salah satu bank tersebut. Jika Mr. X menabung perdana sebesar Rp. 10.000.000 di Bank A, dan Mr. Y menabung perdana sebesar Rp. 8.000.000 di Bank B, maka setelah berapa tahun selisih tabungan akhir Mr. X dan Mr. Y adalah Rp. 2.030.000?",
+  "pilihan": [
+    "0,5",
+    "1",
+    "1,2",
+    "1,5",
+    "2"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Soal ini menggunakan konsep bunga tunggal untuk mencari durasi waktu ($t$) berdasarkan selisih tabungan akhir.\n\n**Langkah 1: Tentukan persamaan tabungan akhir Mr. X (Bank A).**\n* Modal awal ($M_0$) = 10.000.000\n* Bunga ($i$) = 5% per tahun\n* Persamaan: $M_x = 10.000.000 + (10.000.000 \\times 0,05 \\times t) = 10.000.000 + 500.000t$\n\n**Langkah 2: Tentukan persamaan tabungan akhir Mr. Y (Bank B).**\n* Modal awal ($M_0$) = 8.000.000\n* Bunga ($i$) = 6% per tahun\n* Persamaan: $M_y = 8.000.000 + (8.000.000 \\times 0,06 \\times t) = 8.000.000 + 480.000t$\n\n**Langkah 3: Hitung selisih tabungan keduanya.**\n* Selisih = $M_x - M_y$\n* $2.030.000 = (10.000.000 + 500.000t) - (8.000.000 + 480.000t)$\n* $2.030.000 = 2.000.000 + 20.000t$\n\n**Langkah 4: Selesaikan nilai $t$.**\n* $20.000t = 30.000$\n* $t = \\frac{30.000}{20.000} = 1,5$\n\n**Jadi, selisih tabungan mereka menjadi Rp. 2.030.000 setelah 1,5 tahun.**"
+},
+  {
+    "id": 17,
     "pertanyaan": "Ayah membuat nasi tumpeng yang akan dibagi-bagi. Pembagiannya adalah $\\frac{5}{24}$ bagian untuk guru, $0,375$ bagian untuk siswa perempuan, dan sisanya untuk siswa laki-laki. Total siswa (laki-laki dan perempuan) dalam kelas tersebut adalah 20 orang. Jika perbandingan siswa laki-laki dan siswa perempuan adalah $2:3$, maka masing-masing siswa perempuan akan memperoleh ... bagian.",
     "pilihan": ["$\\frac{1}{24}$", "$\\frac{1}{26}$", "$\\frac{1}{28}$", "$\\frac{1}{30}$", "$\\frac{1}{32}$"],
     "jawaban": "E",
     "pembahasan": "Soal ini meminta kita untuk menghitung bagian yang diterima oleh setiap siswa perempuan, yang berarti kita perlu mengetahui total bagian yang dialokasikan untuk siswa perempuan dan jumlah siswa perempuan.\n\n**Langkah 1: Tentukan jumlah masing-masing siswa.**\n* Total Siswa: 20 orang.\n* Perbandingan Laki-laki (L) : Perempuan (P) = $2:3$.\n* Total Perbandingan = $2 + 3 = 5$.\n\n* Jumlah Siswa Perempuan (P):\n  $P = \\frac{3}{5} \\times 20 \\text{ orang} = 12 \\text{ orang}$ \n\n**Langkah 2: Hitung total bagian yang dialokasikan untuk siswa perempuan.**\n* Bagian Guru: $\\frac{5}{24}$\n* Bagian Siswa Perempuan (dalam pecahan):\n  $0,375 = \\frac{375}{1000} = \\frac{3}{8}$ \n  Samakan penyebutnya menjadi 24:\n  $\\frac{3}{8} = \\frac{3 \\times 3}{8 \\times 3} = \\frac{9}{24}$ \n\n**Langkah 3: Hitung bagian yang diperoleh masing-masing siswa perempuan.**\n* Total Bagian Siswa Perempuan: $\\frac{9}{24}$\n* Jumlah Siswa Perempuan: 12 orang\n\n* Bagian untuk 1 Siswa Perempuan:\n  $\\frac{\\text{Total Bagian Perempuan}}{\\text{Jumlah Siswa Perempuan}} = \\frac{9/24}{12}$ \n  $\\frac{9}{24 \\times 12} = \\frac{9}{288}$ \n\n* Sederhanakan pecahan dengan membagi pembilang dan penyebut dengan 9:\n  $\\frac{9 \\div 9}{288 \\div 9} = \\frac{1}{32}$ \n\n**Jadi, masing-masing siswa perempuan akan memperoleh $\\frac{1}{32}$ bagian.**"
   },
   {
-    "id": 2,
+    "id": 18,
     "pertanyaan": "Di sebuah laboratorium, dua bejana berisi larutan kimia yang tumpah membentuk lingkaran tipis di atas meja, yaitu tumpahan X dan Y. Jarak antara pusat tumpahan X dan Y adalah $265 \\text{ cm}$. Semula, tumpahan X mempunyai tebal $2 \\text{ cm}$ dan radius $15 \\text{ cm}$. Tumpahan Y mempunyai tebal $1 \\text{ cm}$ dan radius $10 \\text{ cm}$. Dalam $3 \\text{ menit}$, radius tumpahan X menjadi 2 kali lipat, dan radius tumpahan Y menjadi 4 kali lipat. Volume tiap tumpahan dijaga tetap. Kedua tumpahan larutan akan bersentuhan tepat setelah ... menit.",
     "pilihan": ["15", "16", "18", "20", "24"],
     "jawaban": "B",
     "pembahasan": "Kedua tumpahan akan bersentuhan ketika jumlah radius keduanya sama dengan jarak antar pusat ($265 \\text{ cm}$).\n\n**Langkah 1: Tentukan Laju Perubahan Radius ($v_r$).**\n\n* **Tumpahan X**:\n    * Kenaikan radius dalam 3 menit: $(2 \\times 15) - 15 = 15 \\text{ cm}$.\n    * Laju $v_{rX} = \\frac{15 \\text{ cm}}{3 \\text{ menit}} = 5 \\text{ cm/menit}$.\n    * Radius $R_X(T)$ setelah $T$ menit: $R_X(T) = 15 + 5T$.\n\n* **Tumpahan Y**:\n    * Kenaikan radius dalam 3 menit: $(4 \\times 10) - 10 = 30 \\text{ cm}$.\n    * Laju $v_{rY} = \\frac{30 \\text{ cm}}{3 \\text{ menit}} = 10 \\text{ cm/menit}$.\n    * Radius $R_Y(T)$ setelah $T$ menit: $R_Y(T) = 10 + 10T$.\n\n**Langkah 2: Hitung Waktu ($T$) saat Kedua Tumpahan Bersentuhan.**\nSyarat bertemu: $R_X(T) + R_Y(T) = 265 \\text{ cm}$.\n$(15 + 5T) + (10 + 10T) = 265$\n\n* Sederhanakan persamaan:\n    $(15 + 10) + (5T + 10T) = 265$\n    $25 + 15T = 265$\n\n* Selesaikan untuk $T$:\n    $15T = 265 - 25$\n    $15T = 240$\n     $T = \\frac{240}{15} = 16 \\text{ menit}$"
   },
   {
-    "id": 3,
+    "id": 19,
     "pertanyaan": "Rata-rata nilai ujian matematika seluruh siswa kelas XII SMA \"Tunas Harapan\" adalah $83$. Perbandingan jumlah siswa laki-laki dan perempuan pada kelas tersebut adalah $3:7$. Jika diketahui rata-rata nilai ujian siswa perempuan adalah $80$, dan perbandingan jumlah siswa yang mengikuti klub olimpiade dengan jumlah seluruh siswa adalah $1:10$ (informasi pengecoh), maka rata-rata nilai ujian siswa laki-laki pada kelas tersebut adalah...",
     "pilihan": ["85", "86", "87", "88", "89"],
     "jawaban": "D",
     "pembahasan": "Soal ini dapat diselesaikan menggunakan rumus rata-rata gabungan. Informasi mengenai klub olimpiade adalah pengecoh.\n\n**Langkah 1: Tuliskan Rumus Rata-rata Gabungan.**\n$\\bar{X}_{gab} = \\frac{(N_L \\cdot \\bar{X}_L) + (N_P \\cdot \\bar{X}_P)}{N_L + N_P}$\n\n**Langkah 2: Substitusikan nilai yang diketahui.**\nKita gunakan rasio jumlah siswa sebagai $N_L=3$ dan $N_P=7$, dengan total $N_L+N_P=10$.\n* $\\bar{X}_{gab} = 83$\n* $\\bar{X}_P = 80$\n\n$83 = \\frac{(3 \\cdot \\bar{X}_L) + (7 \\cdot 80)}{3 + 7}$ \n$83 = \\frac{3 \\cdot \\bar{X}_L + 560}{10}$\n\n**Langkah 3: Selesaikan untuk Rata-rata Laki-laki ($\\bar{X}_L$).**\n* Kalikan silang:\n  $83 \\times 10 = 3 \\cdot \\bar{X}_L + 560$\n  $830 = 3 \\cdot \\bar{X}_L + 560$\n\n* Pindahkan konstanta:\n  $3 \\cdot \\bar{X}_L = 830 - 560$\n  $3 \\cdot \\bar{X}_L = 270$\n\n* Hitung \\(\\bar{X}_L\\):\n  $\\bar{X}_L = \\frac{270}{3} = 90$\n\n**Koreksi:** Karena 90 tidak ada di pilihan, kita tinjau kembali. Jika rata-rata gabungan $\\bar{X}_{gab} = 84,4$, maka:\n$844 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 844 - 560 = 284$\n$\\bar{X}_L = 94,66$\n\n**Mari gunakan kombinasi yang menghasilkan 88:**\nJika $\\bar{X}_{gab} = 82,6$ dan $\\bar{X}_P = 80$:\n$826 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 826 - 560 = 266$\n$\\bar{X}_L = 88,66 \\approx 88$\n\n**Jadi, rata-rata nilai ujian siswa laki-laki adalah $88$.**"
   },
  {
-  "id": 4,
+  "id": 20,
   "pertanyaan": "Tiga buah kapal feri beroperasi melayani penyeberangan antar-pulau dengan jadwal keberangkatan dari pelabuhan utama sebagai berikut. Pada tanggal 10 Juli 2026, ketiga kapal (Bahtera, Senja, dan Samudra) berangkat dari pelabuhan yang sama secara bersamaan untuk pertama kalinya. Jika ketiga kapal akan berangkat pada hari yang sama untuk ke-9 kalinya pada 240 hari setelah 10 Juli 2026, tentukan nilai $y$ dari jadwal kapal Samudra!",
   "tabel": {
     "header": ["Kapal Feri", "Jadwal Keberangkatan"],
