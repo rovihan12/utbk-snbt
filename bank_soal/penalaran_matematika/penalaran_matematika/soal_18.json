@@ -1,5 +1,11 @@
 [
- 
+ {
+    "id": 9,
+    "pertanyaan": "Pak A menjual HP X dengan harga Rp 10.000.000,00 dengan diskon 20%. HP tersebut dapat dicicil dengan bunga 6% per tahun. Pembayaran awal adalah 10% dari harga resmi (harga belum diskon). Jika diangsur selama 20x, berapakah angsurannya tiap bulan?",
+    "pilihan": ["Rp 360.000", "Rp 385.000", "Rp 400.000", "Rp 425.000", "Rp 450.000"],
+    "jawaban": "B",
+    "pembahasan": "**Langkah 1**: Harga diskon = 8jt. DP = 10% dari 10jt = 1jt. Sisa pokok = 8jt - 1jt = 7jt. \n**Langkah 2**: Bunga total (20 bulan) = 7jt * 6% * (20/12) = 700rb. \n**Langkah 3**: Angsuran = (Sisa pokok + Bunga) / 20 = (7jt + 700rb) / 20 = 385.000."
+  },
   {
   "id": 10,
   "pertanyaan": "Doni meminjam sejumlah uang dari koperasi dengan bunga tunggal pinjaman 15% pertahun. Ia melunasi pinjamannya dengan mengangsur Rp495.000,00 setiap bulan selama 8 bulan. Berapa jumlah uang yang dipinjam oleh Doni (dalam ribu rupiah)? (PM UTBK 2024)",
