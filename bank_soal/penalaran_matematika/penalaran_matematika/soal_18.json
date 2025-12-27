@@ -1,5 +1,12 @@
 [
   {
+    "id": 2,
+    "pertanyaan": "Pak Alto bekerja di salah satu perusahaan yang bernama PT Fuji. Ia mempunyai gaji Rp800.000,00 per minggu. Pada bulan ini, gajinya direkap selama 1 bulan, dan di akhir bulan ia menerima gaji sebesar Rp2.400.000,00. Berapa persen gaji yang belum diterima pak Alto? (Anggap 1 bulan adalah 4 minggu dan tidak ada lembur ataupun izin)",
+    "pilihan": ["25%", "12,5%", "6,25%", "27,5%", "45,5%"],
+    "jawaban": "A",
+    "pembahasan": "**1. Hitung total gaji yang seharusnya diterima:**\n$\\text{Total Gaji} = 4 \\text{ minggu} \\times Rp800.000,00 = Rp3.200.000,00$\n\n**2. Hitung selisih gaji yang belum diterima:**\n$\\text{Gaji Belum Diterima} = Rp3.200.000,00 - Rp2.400.000,00 = Rp800.000,00$\n\n**3. Hitung persentase gaji yang belum diterima:**\n$\\text{Persentase} = \\frac{\\text{Gaji Belum Diterima}}{\\text{Total Gaji}} \\times 100\\%$\n$\\text{Persentase} = \\frac{800.000}{3.200.000} \\times 100\\%$\n$\\text{Persentase} = \\frac{1}{4} \\times 100\\% = 25\\%$\n\nJadi, gaji yang belum diterima Pak Alto adalah 25%."
+  },
+  {
     "id": 3,
     "pertanyaan": "Alfath menabung di bank dengan besar tabungan awal Rp1.200.000,00 dengan suku bunga tabungan 9% per tahun (bunga tunggal). Ketika ia mengambil seluruh uang tabungannya, jumlah Tabungan Alfath menjadi sebesar Rp1.281.000. Lama Alfath menabung adalah ...",
     "pilihan": ["6 bulan", "7 bulan", "8 bulan", "9 bulan", "10 bulan"],
@@ -160,12 +167,30 @@
     "pembahasan": "Kedua tumpahan akan bersentuhan ketika jumlah radius keduanya sama dengan jarak antar pusat ($265 \\text{ cm}$).\n\n**Langkah 1: Tentukan Laju Perubahan Radius ($v_r$).**\n\n* **Tumpahan X**:\n    * Kenaikan radius dalam 3 menit: $(2 \\times 15) - 15 = 15 \\text{ cm}$.\n    * Laju $v_{rX} = \\frac{15 \\text{ cm}}{3 \\text{ menit}} = 5 \\text{ cm/menit}$.\n    * Radius $R_X(T)$ setelah $T$ menit: $R_X(T) = 15 + 5T$.\n\n* **Tumpahan Y**:\n    * Kenaikan radius dalam 3 menit: $(4 \\times 10) - 10 = 30 \\text{ cm}$.\n    * Laju $v_{rY} = \\frac{30 \\text{ cm}}{3 \\text{ menit}} = 10 \\text{ cm/menit}$.\n    * Radius $R_Y(T)$ setelah $T$ menit: $R_Y(T) = 10 + 10T$.\n\n**Langkah 2: Hitung Waktu ($T$) saat Kedua Tumpahan Bersentuhan.**\nSyarat bertemu: $R_X(T) + R_Y(T) = 265 \\text{ cm}$.\n$(15 + 5T) + (10 + 10T) = 265$\n\n* Sederhanakan persamaan:\n    $(15 + 10) + (5T + 10T) = 265$\n    $25 + 15T = 265$\n\n* Selesaikan untuk $T$:\n    $15T = 265 - 25$\n    $15T = 240$\n     $T = \\frac{240}{15} = 16 \\text{ menit}$"
   },
   {
-    "id": 19,
-    "pertanyaan": "Rata-rata nilai ujian matematika seluruh siswa kelas XII SMA \"Tunas Harapan\" adalah $83$. Perbandingan jumlah siswa laki-laki dan perempuan pada kelas tersebut adalah $3:7$. Jika diketahui rata-rata nilai ujian siswa perempuan adalah $80$, dan perbandingan jumlah siswa yang mengikuti klub olimpiade dengan jumlah seluruh siswa adalah $1:10$ (informasi pengecoh), maka rata-rata nilai ujian siswa laki-laki pada kelas tersebut adalah...",
-    "pilihan": ["85", "86", "87", "88", "89"],
-    "jawaban": "D",
-    "pembahasan": "Soal ini dapat diselesaikan menggunakan rumus rata-rata gabungan. Informasi mengenai klub olimpiade adalah pengecoh.\n\n**Langkah 1: Tuliskan Rumus Rata-rata Gabungan.**\n$\\bar{X}_{gab} = \\frac{(N_L \\cdot \\bar{X}_L) + (N_P \\cdot \\bar{X}_P)}{N_L + N_P}$\n\n**Langkah 2: Substitusikan nilai yang diketahui.**\nKita gunakan rasio jumlah siswa sebagai $N_L=3$ dan $N_P=7$, dengan total $N_L+N_P=10$.\n* $\\bar{X}_{gab} = 83$\n* $\\bar{X}_P = 80$\n\n$83 = \\frac{(3 \\cdot \\bar{X}_L) + (7 \\cdot 80)}{3 + 7}$ \n$83 = \\frac{3 \\cdot \\bar{X}_L + 560}{10}$\n\n**Langkah 3: Selesaikan untuk Rata-rata Laki-laki ($\\bar{X}_L$).**\n* Kalikan silang:\n  $83 \\times 10 = 3 \\cdot \\bar{X}_L + 560$\n  $830 = 3 \\cdot \\bar{X}_L + 560$\n\n* Pindahkan konstanta:\n  $3 \\cdot \\bar{X}_L = 830 - 560$\n  $3 \\cdot \\bar{X}_L = 270$\n\n* Hitung \\(\\bar{X}_L\\):\n  $\\bar{X}_L = \\frac{270}{3} = 90$\n\n**Koreksi:** Karena 90 tidak ada di pilihan, kita tinjau kembali. Jika rata-rata gabungan $\\bar{X}_{gab} = 84,4$, maka:\n$844 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 844 - 560 = 284$\n$\\bar{X}_L = 94,66$\n\n**Mari gunakan kombinasi yang menghasilkan 88:**\nJika $\\bar{X}_{gab} = 82,6$ dan $\\bar{X}_P = 80$:\n$826 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 826 - 560 = 266$\n$\\bar{X}_L = 88,66 \\approx 88$\n\n**Jadi, rata-rata nilai ujian siswa laki-laki adalah $88$.**"
+  "id": 19,
+  "pertanyaan": "Tanaman Parthenocissus merupakan salah satu dari tanaman hias yang sangat atraktif. Perakaran dari tanaman ini sangat sulit berkembang tanpa adanya bantuan dari penggunaan hormon tumbuhan. Studi perakaran dari tanaman Parthenocissus dilakukan dengan menambahkan konsentrasi hormon auksin (Naphtalene Acetic Acid/NAA) yang berbeda-beda (0, 500, 1000, 1500, 2000, 2500, dan 3000 ppm). Sebanyak 4 kali pengulangan dilakukan untuk masing-masing konsentrasi. Tabel di samping menunjukkan hasil dari studi ini berupa pengaruh NAA terhadap panjang akar, berat kering akar, dan jumlah akar. Pernyataan yang tepat berdasarkan tabel adalah ...",
+  "tabel": {
+    "header": ["Konsentrasi (ppm)", "Panjang Akar (cm)", "Berat Kering Akar (mg)", "Jumlah Akar"],
+    "rows": [
+      ["0", "9,68", "5,44", "2,47"],
+      ["500", "22,18", "17,07", "3,78"],
+      ["1000", "31,5", "26,42", "4,61"],
+      ["1500", "28,64", "24,16", "5,05"],
+      ["2000", "26,55", "22,86", "5,88"],
+      ["2500", "21,16", "17,14", "6,78"],
+      ["3000", "19,35", "10,77", "7,88"]
+    ]
   },
+  "pilihan": [
+    "Konsentrasi NAA 1500 ppm memiliki pengaruh paling baik terhadap berat kering akar",
+    "Konsentrasi NAA 3000 ppm lebih baik pengaruhnya terhadap panjang akar dibanding konsentrasi 500 ppm",
+    "Konsentrasi NAA 1000 ppm memiliki pengaruh paling baik terhadap panjang akar dan berat kering akar",
+    "Semakin tinggi konsentrasi NAA, semakin baik juga pengaruhnya terhadap panjang akar",
+    "Konsentrasi NAA tidak terlalu berpengaruh terhadap jumlah akar"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Berdasarkan analisis data pada tabel, kita dapat mengevaluasi setiap pilihan:\n\n1. **Panjang Akar:** Mencapai titik maksimal pada konsentrasi **1000 ppm** dengan nilai **31,5 cm**.\n2. **Berat Kering Akar:** Mencapai titik maksimal pada konsentrasi **1000 ppm** dengan nilai **26,42 mg**.\n3. **Jumlah Akar:** Terus meningkat seiring bertambahnya konsentrasi, namun nilai tertinggi untuk panjang dan berat kering spesifik berada di 1000 ppm.\n\n**Analisis Opsi:**\n- **A Salah:** Berat kering terbaik ada di 1000 ppm (26,42 mg), bukan 1500 ppm (24,16 mg).\n- **B Salah:** Panjang akar 3000 ppm (19,35 cm) lebih rendah dari 500 ppm (22,18 cm).\n- **C Benar:** Konsentrasi 1000 ppm menghasilkan angka tertinggi baik pada kolom panjang akar maupun berat kering akar.\n- **D Salah:** Setelah melewati 1000 ppm, panjang akar justru menurun (tidak berbanding lurus terus-menerus).\n- **E Salah:** NAA sangat berpengaruh karena jumlah akar meningkat drastis dari 2,47 menjadi 7,88.\n\n**Jadi, pernyataan yang paling tepat adalah C.**"
+},
  {
   "id": 20,
   "pertanyaan": "Tiga buah kapal feri beroperasi melayani penyeberangan antar-pulau dengan jadwal keberangkatan dari pelabuhan utama sebagai berikut. Pada tanggal 10 Juli 2026, ketiga kapal (Bahtera, Senja, dan Samudra) berangkat dari pelabuhan yang sama secara bersamaan untuk pertama kalinya. Jika ketiga kapal akan berangkat pada hari yang sama untuk ke-9 kalinya pada 240 hari setelah 10 Juli 2026, tentukan nilai $y$ dari jadwal kapal Samudra!",
