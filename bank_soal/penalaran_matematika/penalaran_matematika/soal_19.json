@@ -92,12 +92,19 @@
   "pembahasan": "**Langkah 1: Hitung total lingkar perut (keliling)**\nLingkar awal = 90 cm\nTambahan bayi laki-laki = 10 cm/minggu x 30 minggu = 300 cm\nTambahan bayi perempuan = 5 cm/minggu x 30 minggu = 150 cm\nTotal Keliling ($K$) = 90 + 300 + 150 = 540 cm.\n\n**Langkah 2: Hitung diameter ($d$)**\nRumus: $K = \\pi \\times d \\Rightarrow d = K / \\pi$\n$d = 540 / 3,14159... \\approx 171,88$ cm.\nNilai pada pilihan yang paling mendekati adalah 171,81."
 },
   {
-    "id": 8,
-    "pertanyaan": "Diketahui dua tangki berbentuk silinder dengan perbandingan tinggi tangki I dengan tinggi tangki II adalah 5 : 3 dan luas penampang sama. Kedua tangki terisi air dengan penuh. Jika dengan laju keluaran air yang sama, perbandingan waktu yang diperlukan untuk mengosongkan kedua tangki adalah...",
-    "pilihan": ["√5 : √3", "√3 : √5", "3 : 5", "5 : 3", "2 : 3"],
-    "jawaban": "D",
-    "pembahasan": "Volume silinder (V) = Luas alas * tinggi. Karena luas penampang sama, perbandingan volume sama dengan perbandingan tinggi, yaitu 5 : 3. Dengan laju keluaran (debit) yang sama, perbandingan waktu mengosongkan akan berbanding lurus dengan perbandingan volume, yaitu 5 : 3."
-  },
+  "id": 8,
+  "kategori": "Mudah",
+  "pertanyaan": "Diketahui dua tangki berbentuk silinder dengan perbandingan tinggi tangki I dengan tinggi tangki II adalah $5 : 3$ dan luas penampang sama. Kedua tangki terisi air dengan penuh. Jika dengan laju keluaran air yang sama, perbandingan waktu yang diperlukan untuk mengosongkan kedua tangki adalah...",
+  "pilihan": [
+    "$\\sqrt{5} : \\sqrt{3}$",
+    "$\\sqrt{3} : \\sqrt{5}$",
+    "$3 : 5$",
+    "$5 : 3$",
+    "$2 : 3$"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Volume silinder dirumuskan dengan $V = A \\times h$, di mana $A$ adalah luas penampang dan $h$ adalah tinggi.\nKarena luas penampang ($A$) kedua tangki sama, maka perbandingan volumenya sebanding dengan perbandingan tingginya:\n$V_1 : V_2 = h_1 : h_2 = 5 : 3$.\n\nLaju keluaran air (debit) dirumuskan sebagai $Q = \\frac{V}{t}$. Jika debit ($Q$) sama, maka waktu ($t$) berbanding lurus dengan volume ($V$):\n$t_1 : t_2 = V_1 : V_2 = 5 : 3$.\nJadi, perbandingan waktunya adalah $5 : 3$."
+},
   {
   "id": 9,
   "pertanyaan": "Dua kursi roda A dan B memiliki radius roda yang berbeda. Radius roda A adalah 100 cm dan radius roda B adalah 80 cm. Kursi roda A dan B memiliki kecepatan putaran yang sama, yaitu 0,5 putaran/sekon. Dalam 2 menit, jarak yang ditempuh masing-masing roda adalah ...",
