@@ -1,4 +1,11 @@
 [
+   {
+    "id": 1,
+    "pertanyaan": "Di sebuah laboratorium, dua bejana berisi larutan kimia yang tumpah membentuk lingkaran tipis di atas meja, yaitu tumpahan X dan Y. Jarak antara pusat tumpahan X dan Y adalah $265 \\text{ cm}$. Semula, tumpahan X mempunyai tebal $2 \\text{ cm}$ dan radius $15 \\text{ cm}$. Tumpahan Y mempunyai tebal $1 \\text{ cm}$ dan radius $10 \\text{ cm}$. Dalam $3 \\text{ menit}$, radius tumpahan X menjadi 2 kali lipat, dan radius tumpahan Y menjadi 4 kali lipat. Volume tiap tumpahan dijaga tetap. Kedua tumpahan larutan akan bersentuhan tepat setelah ... menit.",
+    "pilihan": ["15", "16", "18", "20", "24"],
+    "jawaban": "B",
+    "pembahasan": "Kedua tumpahan akan bersentuhan ketika jumlah radius keduanya sama dengan jarak antar pusat ($265 \\text{ cm}$).\n\n**Langkah 1: Tentukan Laju Perubahan Radius ($v_r$).**\n\n* **Tumpahan X**:\n    * Kenaikan radius dalam 3 menit: $(2 \\times 15) - 15 = 15 \\text{ cm}$.\n    * Laju $v_{rX} = \\frac{15 \\text{ cm}}{3 \\text{ menit}} = 5 \\text{ cm/menit}$.\n    * Radius $R_X(T)$ setelah $T$ menit: $R_X(T) = 15 + 5T$.\n\n* **Tumpahan Y**:\n    * Kenaikan radius dalam 3 menit: $(4 \\times 10) - 10 = 30 \\text{ cm}$.\n    * Laju $v_{rY} = \\frac{30 \\text{ cm}}{3 \\text{ menit}} = 10 \\text{ cm/menit}$.\n    * Radius $R_Y(T)$ setelah $T$ menit: $R_Y(T) = 10 + 10T$.\n\n**Langkah 2: Hitung Waktu ($T$) saat Kedua Tumpahan Bersentuhan.**\nSyarat bertemu: $R_X(T) + R_Y(T) = 265 \\text{ cm}$.\n$(15 + 5T) + (10 + 10T) = 265$\n\n* Sederhanakan persamaan:\n    $(15 + 10) + (5T + 10T) = 265$\n    $25 + 15T = 265$\n\n* Selesaikan untuk $T$:\n    $15T = 265 - 25$\n    $15T = 240$\n     $T = \\frac{240}{15} = 16 \\text{ menit}$"
+  },
   {
     "id": 2,
     "pertanyaan": "Pak Alto bekerja di salah satu perusahaan yang bernama PT Fuji. Ia mempunyai gaji Rp800.000,00 per minggu. Pada bulan ini, gajinya direkap selama 1 bulan, dan di akhir bulan ia menerima gaji sebesar Rp2.400.000,00. Berapa persen gaji yang belum diterima pak Alto? (Anggap 1 bulan adalah 4 minggu dan tidak ada lembur ataupun izin)",
@@ -159,13 +166,29 @@
     "jawaban": "E",
     "pembahasan": "Soal ini meminta kita untuk menghitung bagian yang diterima oleh setiap siswa perempuan, yang berarti kita perlu mengetahui total bagian yang dialokasikan untuk siswa perempuan dan jumlah siswa perempuan.\n\n**Langkah 1: Tentukan jumlah masing-masing siswa.**\n* Total Siswa: 20 orang.\n* Perbandingan Laki-laki (L) : Perempuan (P) = $2:3$.\n* Total Perbandingan = $2 + 3 = 5$.\n\n* Jumlah Siswa Perempuan (P):\n  $P = \\frac{3}{5} \\times 20 \\text{ orang} = 12 \\text{ orang}$ \n\n**Langkah 2: Hitung total bagian yang dialokasikan untuk siswa perempuan.**\n* Bagian Guru: $\\frac{5}{24}$\n* Bagian Siswa Perempuan (dalam pecahan):\n  $0,375 = \\frac{375}{1000} = \\frac{3}{8}$ \n  Samakan penyebutnya menjadi 24:\n  $\\frac{3}{8} = \\frac{3 \\times 3}{8 \\times 3} = \\frac{9}{24}$ \n\n**Langkah 3: Hitung bagian yang diperoleh masing-masing siswa perempuan.**\n* Total Bagian Siswa Perempuan: $\\frac{9}{24}$\n* Jumlah Siswa Perempuan: 12 orang\n\n* Bagian untuk 1 Siswa Perempuan:\n  $\\frac{\\text{Total Bagian Perempuan}}{\\text{Jumlah Siswa Perempuan}} = \\frac{9/24}{12}$ \n  $\\frac{9}{24 \\times 12} = \\frac{9}{288}$ \n\n* Sederhanakan pecahan dengan membagi pembilang dan penyebut dengan 9:\n  $\\frac{9 \\div 9}{288 \\div 9} = \\frac{1}{32}$ \n\n**Jadi, masing-masing siswa perempuan akan memperoleh $\\frac{1}{32}$ bagian.**"
   },
-  {
-    "id": 18,
-    "pertanyaan": "Di sebuah laboratorium, dua bejana berisi larutan kimia yang tumpah membentuk lingkaran tipis di atas meja, yaitu tumpahan X dan Y. Jarak antara pusat tumpahan X dan Y adalah $265 \\text{ cm}$. Semula, tumpahan X mempunyai tebal $2 \\text{ cm}$ dan radius $15 \\text{ cm}$. Tumpahan Y mempunyai tebal $1 \\text{ cm}$ dan radius $10 \\text{ cm}$. Dalam $3 \\text{ menit}$, radius tumpahan X menjadi 2 kali lipat, dan radius tumpahan Y menjadi 4 kali lipat. Volume tiap tumpahan dijaga tetap. Kedua tumpahan larutan akan bersentuhan tepat setelah ... menit.",
-    "pilihan": ["15", "16", "18", "20", "24"],
-    "jawaban": "B",
-    "pembahasan": "Kedua tumpahan akan bersentuhan ketika jumlah radius keduanya sama dengan jarak antar pusat ($265 \\text{ cm}$).\n\n**Langkah 1: Tentukan Laju Perubahan Radius ($v_r$).**\n\n* **Tumpahan X**:\n    * Kenaikan radius dalam 3 menit: $(2 \\times 15) - 15 = 15 \\text{ cm}$.\n    * Laju $v_{rX} = \\frac{15 \\text{ cm}}{3 \\text{ menit}} = 5 \\text{ cm/menit}$.\n    * Radius $R_X(T)$ setelah $T$ menit: $R_X(T) = 15 + 5T$.\n\n* **Tumpahan Y**:\n    * Kenaikan radius dalam 3 menit: $(4 \\times 10) - 10 = 30 \\text{ cm}$.\n    * Laju $v_{rY} = \\frac{30 \\text{ cm}}{3 \\text{ menit}} = 10 \\text{ cm/menit}$.\n    * Radius $R_Y(T)$ setelah $T$ menit: $R_Y(T) = 10 + 10T$.\n\n**Langkah 2: Hitung Waktu ($T$) saat Kedua Tumpahan Bersentuhan.**\nSyarat bertemu: $R_X(T) + R_Y(T) = 265 \\text{ cm}$.\n$(15 + 5T) + (10 + 10T) = 265$\n\n* Sederhanakan persamaan:\n    $(15 + 10) + (5T + 10T) = 265$\n    $25 + 15T = 265$\n\n* Selesaikan untuk $T$:\n    $15T = 265 - 25$\n    $15T = 240$\n     $T = \\frac{240}{15} = 16 \\text{ menit}$"
+{
+  "id": 18,
+  "pertanyaan": "Ali mempunyai 30 kelereng dengan komposisi seperti tabel di samping. Jika Ali menambah koleksi 4 kelereng dan kelereng itu tidak mungkin warna biru ataupun merah, maka pernyataan yang pasti benar adalah ...",
+  "tabel": {
+    "header": ["Warna", "% Banyaknya Kelereng"],
+    "rows": [
+      ["Merah", "20%"],
+      ["Kuning", "10%"],
+      ["Biru", "30%"],
+      ["Putih", "10%"],
+      ["Hijau", "30%"]
+    ]
   },
+  "pilihan": [
+    "Persentase kelereng merah lebih besar dari persentase kelereng kuning",
+    "Persentase kelereng putih sama dengan persentase kelereng kuning",
+    "Persentase kelereng biru lebih besar dari persentase kelereng putih",
+    "Persentase kelereng kuning sama dengan persentase kelereng merah",
+    "Persentase kelereng merah lebih besar dari persentase kelereng putih"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Analisis jumlah kelereng Ali (Total awal = 30):\n\n- **Jumlah Awal**: Merah = 6, Kuning = 3, Biru = 9, Putih = 3, Hijau = 9.\n- **Kondisi**: Tambahan 4 kelereng bukan biru dan bukan merah. Total menjadi 34.\n- **Analisis Opsi C**: Jumlah kelereng Biru tetap 9. Jumlah kelereng Putih maksimal adalah $3 + 4 = 7$.\n- **Kesimpulan**: Karena 9 selalu lebih besar dari maksimal kelereng putih (7), maka persentase kelereng biru dipastikan selalu lebih besar dari persentase kelereng putih."
+},
   {
   "id": 19,
   "pertanyaan": "Tanaman Parthenocissus merupakan salah satu dari tanaman hias yang sangat atraktif. Perakaran dari tanaman ini sangat sulit berkembang tanpa adanya bantuan dari penggunaan hormon tumbuhan. Studi perakaran dari tanaman Parthenocissus dilakukan dengan menambahkan konsentrasi hormon auksin (Naphtalene Acetic Acid/NAA) yang berbeda-beda (0, 500, 1000, 1500, 2000, 2500, dan 3000 ppm). Sebanyak 4 kali pengulangan dilakukan untuk masing-masing konsentrasi. Tabel di samping menunjukkan hasil dari studi ini berupa pengaruh NAA terhadap panjang akar, berat kering akar, dan jumlah akar. Pernyataan yang tepat berdasarkan tabel adalah ...",
