@@ -1,11 +1,18 @@
 [
  {
+  "id": 7,
+  "pertanyaan": "Sebuah gedung pertunjukan terdapat 11 baris kursi. Pada baris pertama berisi 7 kursi, baris kedua berisi 10 kursi, baris ketiga berisi 15 kursi, baris keempat berisi 18 kursi, dan seterusnya mengikuti pola yang sama. Pada suatu hari terdapat sekelompok siswa yang akan menonton pertunjukan. Sekelompok siswa tersebut menduduki dua baris paling akhir dan tanpa ada kursi yang kosong. Banyaknya siswa yang menonton pertunjukan tersebut adalah...",
+  "pilihan": ["83", "85", "87", "89", "91"],
+  "jawaban": "D",
+  "pembahasan": "Soal ini dapat diselesaikan dengan mengidentifikasi pola penambahan kursi pada setiap baris.\n\n**Langkah 1: Identifikasi Pola Barisan**\nMari kita periksa selisih antar baris yang diketahui:\n* Baris 1 ke 2: $10 - 7 = +3$\n* Baris 2 ke 3: $15 - 10 = +5$\n* Baris 3 ke 4: $18 - 15 = +3$\n\nPola penambahannya adalah selang-seling antara $+3$ dan $+5$.\n\n**Langkah 2: Mencari Jumlah Kursi pada Dua Baris Terakhir (Baris 10 dan 11)**\nKita lanjutkan pola tersebut sampai baris ke-11:\n* Baris 5: $18 + 5 = 23$\n* Baris 6: $23 + 3 = 26$\n* Baris 7: $26 + 5 = 31$\n* Baris 8: $31 + 3 = 34$\n* Baris 9: $34 + 5 = 39$\n* **Baris 10 ($U_{10}$):** $39 + 3 = 42$\n* **Baris 11 ($U_{11}$):** $42 + 5 = 47$\n\n**Langkah 3: Menghitung Total Siswa**\nKarena siswa menduduki dua baris terakhir tanpa sisa kursi, maka jumlah siswa adalah total kursi pada baris 10 dan baris 11.\n\n* $\\text{Total Siswa} = U_{10} + U_{11}$\n* $\\text{Total Siswa} = 42 + 47 = 89$\n\n**Jadi, banyaknya siswa yang menonton pertunjukan tersebut adalah 89.**"
+},
+ {
     "id": 8,
     "pertanyaan": "Sebuah gedung pertunjukan terdapat 10 baris kursi. Baris 1=10, 2=15, 3=17, 4=22, dst mengikuti pola yang sama. Sekelompok siswa menduduki dua baris paling akhir tanpa ada kursi kosong. Banyaknya siswa tersebut adalah...",
     "pilihan": ["80", "81", "85", "88", "90"],
     "jawaban": "B",
     "pembahasan": "Pola selisih: +5, +2, +5, +2... Baris 5=24, 6=29, 7=31, 8=36, 9=38, 10=43. Dua baris terakhir: 38 + 43 = 81."
-  }
+  },
  {
     "id": 9,
     "pertanyaan": "Pak A menjual HP X dengan harga Rp 10.000.000,00 dengan diskon 20%. HP tersebut dapat dicicil dengan bunga 6% per tahun. Pembayaran awal adalah 10% dari harga resmi (harga belum diskon). Jika diangsur selama 20x, berapakah angsurannya tiap bulan?",
