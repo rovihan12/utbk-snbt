@@ -1,4 +1,17 @@
 [
+  {
+  "id": 11,
+  "pertanyaan": "Andi berencana membeli sebuah barang dengan harga Rp7.000.000,00. Namun, ia hanya memiliki uang sebesar Rp1.000.000,00. Untuk memenuhi kekurangannya, Andi memutuskan meminjam uang di koperasi dengan bunga 15% pertahun dan akan mencicil pengembaliannya selama empat bulan. Berapa besar bunga yang harus dibayarkan oleh Andi? (PM UTBK 2024)",
+  "pilihan": [
+    "Rp250.000,00",
+    "Rp280.000,00",
+    "Rp300.000,00",
+    "Rp340.000,00",
+    "Rp360.000,00"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Untuk menyelesaikan soal ini, kita perlu menghitung jumlah pinjaman pokok terlebih dahulu, baru kemudian menghitung bunganya.\n\n**Langkah 1: Hitung Pinjaman Pokok ($M$)**\nAndi membutuhkan Rp7.000.000,00 tetapi sudah memiliki Rp1.000.000,00. Maka uang yang harus dipinjam adalah:\n$M = 7.000.000 - 1.000.000 = 6.000.000$\n\n**Langkah 2: Identifikasi Variabel**\n* Pinjaman Pokok ($M$) = Rp6.000.000,00\n* Suku Bunga per Tahun ($i$) = 15%\n* Waktu Pinjaman ($n$) = 4 bulan\n\n**Langkah 3: Hitung Besar Bunga**\nKarena bunga dihitung per tahun dan durasi dalam bulan, gunakan rumus bunga tunggal:\n$\\text{Bunga} = M \\times i \\times \\frac{n}{12}$\n\n$\\text{Bunga} = 6.000.000 \\times \\frac{15}{100} \\times \\frac{4}{12}$\n$\\text{Bunga} = 6.000.000 \\times \\frac{15}{100} \\times \\frac{1}{3}$\n$\\text{Bunga} = 900.000 \\times \\frac{1}{3}$\n$\\text{Bunga} = 300.000$\n\n**Jadi, besar bunga yang harus dibayarkan oleh Andi adalah Rp300.000,00.**"
+},
 {
   "id": 12,
   "pertanyaan": "Genangan air dilempar batu sehingga menimbulkan gelombang air berbentuk lingkaran-lingkaran dengan laju pertambahan jari-jari $10\\text{ cm/detik}$. Laju perubahan luas lingkaran gelombang air ketika jari-jarinya $\\pi\\text{ cm}$, adalah ... $\\text{cm}^2/\\text{detik}$.",
