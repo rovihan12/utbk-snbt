@@ -57,25 +57,66 @@
     "pilihan": ["256", "300", "336", "400", "450"],
     "jawaban": "D",
     "pembahasan": "$V(x) = Luas Alas \times x = -x^2 + 20x + 300$. Untuk mencari nilai maksimum, turunkan fungsi tersebut: $V'(x) = -2x + 20 = 0 \rightarrow x = 10$. Substitusi $x=10$ ke fungsi volume: $V(10) = -(10)^2 + 20(10) + 300 = 400$."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+  "id": 18,
+  "pertanyaan": "Dalam sebuah kompetisi lukis, nilai akhir ditentukan dengan menjumlahkan nilai orisinalitas dan nilai kreativitas. Bobot nilai orisinalitas adalah 55%, sedangkan bobot nilai kreativitas adalah 45%. Berikut ini adalah nilai lima peserta dalam kompetisi tersebut. Peserta manakah yang mendapatkan nilai akhir PALING RENDAH?",
+  "tabel": {
+    "header": [
+      "Nama Peserta",
+      "Nilai Orisinalitas",
+      "Nilai Kreativitas"
+    ],
+    "rows": [
+      ["A", "60", "80"],
+      ["B", "50", "70"],
+      ["C", "70", "50"],
+      ["D", "50", "80"],
+      ["E", "60", "60"]
+    ]
+  },
+  "pilihan": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Nilai akhir dihitung dengan rumus bobot: \n$\\text{Nilai Akhir} = (\\text{Nilai Orisinalitas} \\times 55\\%) + (\\text{Nilai Kreativitas} \\times 45\\%)$\n\n**1. Perhitungan Skor A:**\n$(60 \\times 0,55) + (80 \\times 0,45) = 33 + 36 = 69$\n\n**2. Perhitungan Skor B:**\n$(50 \\times 0,55) + (70 \\times 0,45) = 27,5 + 31,5 = 59$\n\n**3. Perhitungan Skor C:**\n$(70 \\times 0,55) + (50 \\times 0,45) = 38,5 + 22,5 = 61$\n\n**4. Perhitungan Skor D:**\n$(50 \\times 0,55) + (80 \\times 0,45) = 27,5 + 36 = 63,5$\n\n**5. Perhitungan Skor E:**\n$(60 \\times 0,55) + (60 \\times 0,45) = 33 + 27 = 60$\n\nBerdasarkan perhitungan tersebut, nilai akhir terendah adalah **59** yang diperoleh oleh **Peserta B**.",
+  "tabel_pembahasan": {
+    "header": [
+      "Nama Peserta",
+      "Orisinalitas (55%)",
+      "Kreativitas (45%)",
+      "Nilai Akhir"
+    ],
+    "rows": [
+      ["A", "33", "36", "69"],
+      ["B", "27,5", "31,5", "59"],
+      ["C", "38,5", "22,5", "61"],
+      ["D", "27,5", "36", "63,5"],
+      ["E", "33", "27", "60"]
+    ]
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+},
     {
     "id": 19,
     "pertanyaan": "Dalam sebuah lomba olimpiade Fisika, setiap siswa harus mendapatkan skor minimal 100 untuk lolos ke babak berikutnya. Setiap jawaban benar diberi skor 4, salah diberi skor -1, dan tidak dijawab diberi skor 0. Jumlah soal yang diujikan adalah 50 soal. Berdasarkan tabel berikut, di antara ketiga siswa tersebut yang lolos ke babak selanjutnya adalah ....",
