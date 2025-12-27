@@ -90,7 +90,14 @@
     "pilihan": ["√5 : √3", "√3 : √5", "3 : 5", "5 : 3", "2 : 3"],
     "jawaban": "D",
     "pembahasan": "Volume silinder (V) = Luas alas * tinggi. Karena luas penampang sama, perbandingan volume sama dengan perbandingan tinggi, yaitu 5 : 3. Dengan laju keluaran (debit) yang sama, perbandingan waktu mengosongkan akan berbanding lurus dengan perbandingan volume, yaitu 5 : 3."
-  }
+  },
+  {
+  "id": 9,
+  "pertanyaan": "Dua kursi roda A dan B memiliki radius roda yang berbeda. Radius roda A adalah 100 cm dan radius roda B adalah 80 cm. Kursi roda A dan B memiliki kecepatan putaran yang sama, yaitu 0,5 putaran/sekon. Dalam 2 menit, jarak yang ditempuh masing-masing roda adalah ...",
+  "pilihan": ["$100\\pi$ m dan $94\\pi$ m", "$100\\pi$ m dan $96\\pi$ m", "$120\\pi$ m dan $94\\pi$ m", "$120\\pi$ m dan $96\\pi$ m", "$100\\pi$ m dan $80\\pi$ m"],
+  "jawaban": "D",
+  "pembahasan": "Jarak tempuh dihitung berdasarkan keliling roda dan jumlah total putaran.\n\n**Langkah 1: Hitung jumlah putaran dalam 2 menit.**\n* $t = 2 \\times 60 = 120 \\text{ detik.}$\n* $\\text{Putaran} = 0,5 \\times 120 = 60 \\text{ putaran.}$\n\n**Langkah 2: Hitung jarak tempuh roda A.**\n* Radius $r_A = 100 \\text{ cm} = 1 \\text{ m.}$\n* $\\text{Jarak A} = \\text{Putaran} \\times (2\\pi \\times r_A)$\n* $\\text{Jarak A} = 60 \\times (2\\pi \\times 1) = 120\\pi \\text{ m.}$\n\n**Langkah 3: Hitung jarak tempuh roda B.**\n* Radius $r_B = 80 \\text{ cm} = 0,8 \\text{ m.}$\n* $\\text{Jarak B} = \\text{Putaran} \\times (2\\pi \\times r_B)$\n* $\\text{Jarak B} = 60 \\times (2\\pi \\times 0,8) = 60 \\times 1,6\\pi = 96\\pi \\text{ m.}$\n\n**Jadi, jarak tempuh adalah $120\\pi$ m dan $96\\pi$ m.**"
+}
 
 
 
