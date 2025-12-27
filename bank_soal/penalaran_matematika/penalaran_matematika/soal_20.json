@@ -1,4 +1,56 @@
 [
+  {
+    "id": 5,
+    "pertanyaan": "**Baca teks 'Screensaver Komputer' untuk menjawab soal 5-8** \n\n Jika $r(t)$ adalah jari-jari lingkaran *screensaver* pada waktu $t$ detik, maka $r(t) = \\dots$ in.",
+    "pilihan": [
+      "1,6t",
+      "3,2t",
+      "5t",
+      "8t",
+      "17t"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Menggunakan prinsip laju perubahan linear:\n1. **Kondisi Awal:** Lingkaran dimulai dari titik (r = 0).\n2. **Kondisi Akhir:** Mencapai sudut layar (r = 8 inci) dalam waktu 5 detik.\n3. **Laju Pertumbuhan (v):** $v = \\frac{r}{t} = \\frac{8}{5} = 1,6$ inci/detik.\n\n**Persamaan:** $r(t) = 1,6t$."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Jika $K(t)$ adalah keliling lingkaran *screensaver* yang terbentuk pada waktu $t$ detik, maka $K(t) = \\dots$ in.",
+    "pilihan": [
+      "1,6\\pi t",
+      "2,56\\pi t",
+      "3,2\\pi t",
+      "10\\pi t",
+      "16\\pi t"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Menghitung keliling berdasarkan fungsi jari-jari $r(t)$:\n1. **Rumus Keliling:** $K = 2\\pi r$\n2. **Substitusi $r(t)$:** Masukkan $r(t) = 1,6t$ ke dalam rumus.\n\n**Perhitungan:**\n$K(t) = 2 \\cdot \\pi \\cdot (1,6t) = 3,2\\pi t$."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Luas lingkaran *screensaver* $10,24\\pi \\text{ in}^2$ terjadi dalam waktu ... detik.",
+    "pilihan": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Mencari waktu ($t$) berdasarkan luas yang diketahui:\n1. **Cari Jari-jari (r):**\n   $L = \\pi r^2$\n   $10,24\\pi = \\pi r^2 \\implies r = \\sqrt{10,24} = 3,2$ inci.\n2. **Cari Waktu (t):**\n   Gunakan fungsi $r(t) = 1,6t$\n   $3,2 = 1,6t \\implies t = \\frac{3,2}{1,6} = 2$ detik."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "*Screensaver* komputer diubah menjadi gambar persegi panjang dengan perbandingan panjang dan lebar yang sama dengan layar komputer. Jika luas *screensaver* bertambah sebesar $23,12 \\text{ in}^2$ per detik, *screensaver* akan menutup layar komputer secara penuh setelah ... detik.",
+    "pilihan": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1. **Mencari Dimensi Layar:** \n   Rasio $4:3$ dengan diagonal 17 inci (Tripel Pythagoras $8, 15, 17$ tidak cocok, maka gunakan $x$):\n   $(4x)^2 + (3x)^2 = 17^2 \\implies 25x^2 = 289 \\implies x^2 = 11,56$.\n2. **Luas Layar Penuh:**\n   $L = p \\times l = 4x \\cdot 3x = 12x^2$\n   $L = 12 \\cdot 11,56 = 138,72 \\text{ in}^2$.\n3. **Menghitung Waktu:**\n   $t = \\frac{\\text{Total Luas}}{\\text{Laju Luas}} = \\frac{138,72}{23,12} = 6$ detik."
+  },
 {
     "id": 9,
     "pertanyaan": "**Baca teks 'Budidaya Tanaman Buah' untuk menjawab soal 9-12** \n\n Berapa banyak varietas mangga yang ada di kebun percobaan tersebut pada 15 tahun mendatang? .... varietas",
