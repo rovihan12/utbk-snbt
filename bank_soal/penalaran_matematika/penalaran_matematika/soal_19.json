@@ -118,13 +118,29 @@
 
 
 
-
-
-
-
-
-
-
+{
+  "id": 17,
+  "pertanyaan": "Tabel di samping menunjukkan harga barang di Toko Alto dari tahun 2016 s.d. 2018. Persentase kenaikan harga minyak goreng pada tahun 2018 adalah ...",
+  "tabel": {
+    "header": ["No.", "Nama Barang", "2016", "2017", "2018"],
+    "rows": [
+      ["1.", "Beras", "11.000", "12.000", "13.000"],
+      ["2.", "Daging sapi", "110.000", "130.000", "140.000"],
+      ["3.", "Minyak goreng", "8.000", "10.000", "11.000"],
+      ["4.", "Gula pasir", "10.000", "11.000", "12.000"],
+      ["5.", "Garam dapur", "5.000", "6.000", "8.000"]
+    ]
+  },
+  "pilihan": [
+    "1%",
+    "10%",
+    "20%",
+    "Tidak lebih dari 50%",
+    "Lebih dari 50%"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Kenaikan harga minyak goreng pada tahun 2018 dihitung berdasarkan harga pada tahun sebelumnya (2017).\n\n**Data Minyak Goreng:**\n- Harga 2017: Rp10.000,00\n- Harga 2018: Rp11.000,00\n\n**Langkah Perhitungan:**\n1. Hitung selisih harga: $11.000 - 10.000 = 1.000$\n2. Hitung persentase kenaikan:\n   $\\text{Persentase} = (\\frac{\\text{Selisih Harga}}{\\text{Harga Tahun Sebelumnya}}) \\times 100\\%$\n   $\\text{Persentase} = (\\frac{1.000}{10.000}) \\times 100\\% = 10\\%$\n\n**Jadi, persentase kenaikan harga minyak goreng pada tahun 2018 adalah 10%.**"
+},
   {
   "id": 18,
   "pertanyaan": "Dalam sebuah kompetisi lukis, nilai akhir ditentukan dengan menjumlahkan nilai orisinalitas dan nilai kreativitas. Bobot nilai orisinalitas adalah 55%, sedangkan bobot nilai kreativitas adalah 45%. Berikut ini adalah nilai lima peserta dalam kompetisi tersebut. Peserta manakah yang mendapatkan nilai akhir PALING RENDAH?",
