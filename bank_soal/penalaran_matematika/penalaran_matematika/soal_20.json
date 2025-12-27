@@ -1,5 +1,57 @@
 [
   {
+    "id": 1,
+    "pertanyaan": "Berdasarkan data survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan 5 : 7, serta selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 (mayoritas suka diaduk). Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
+    "pilihan": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "5/7"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1. **Jumlah Responden:** Laki-laki (L) = 5/12 * 120 = 50, Perempuan (P) = 7/12 * 120 = 70.\n2. **Preferensi Bubur:** Misal Diaduk = x, Tidak Diaduk = y. \n   x + y = 120 dan x - y = 2. Diperoleh x = 61, y = 59.\n3. **Tabel Laki-laki:** Diketahui P (Tidak Diaduk) = 24, maka P (Diaduk) = 70 - 24 = 46.\n   L (Diaduk) = Total Diaduk - P (Diaduk) = 61 - 46 = 15.\n   L (Tidak Diaduk) = Total L - L (Diaduk) = 50 - 15 = 35.\n4. **Peluang:** Memilih 1 L-Diaduk dan 1 L-Tidak Diaduk dari 50 Laki-laki.\n   P = (C(15,1) * C(35,1)) / C(50,2) = (15 * 35) / 1225 = 525 / 1225 = 3/7."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Jika dilakukan survei lanjutan sebanyak 30 orang dengan perbandingan suka bubur diaduk dan tidak diaduk 7 : 8. Setelah dikalkulasi ulang, 2/3 yang suka bubur diaduk adalah perempuan, maka jumlah total laki-laki yang suka bubur diaduk adalah ... orang.",
+    "pilihan": [
+      "20",
+      "22",
+      "25",
+      "26",
+      "27"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1. **Tambahan Survei:** Diaduk = 7/15 * 30 = 14, Tidak Diaduk = 8/15 * 30 = 16.\n2. **Total Diaduk Baru:** 61 (dari data awal) + 14 = 75 orang.\n3. **Perempuan Suka Diaduk:** 2/3 * 75 = 50 orang.\n4. **Laki-laki Suka Diaduk:** Total Diaduk Baru - Perempuan Suka Diaduk = 75 - 50 = 25 orang."
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Jika besarnya modal biaya yang dibutuhkan Chandra untuk menjual x kaos adalah B ribu rupiah, maka B sebagai fungsi x dapat dituliskan dengan B(x) = ...",
+    "pilihan": [
+      "600 - 50x",
+      "600 - 20x",
+      "600 + 20x",
+      "600 + 50x",
+      "600 + 100x"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Berdasarkan analisis struktur ekonomi pada soal, B(x) terdiri dari biaya tetap dan biaya variabel. Dengan asumsi biaya tetap 600 ribu dan biaya variabel 50 ribu per kaos (yang sesuai dengan hasil perhitungan pada soal nomor 4), maka persamaannya adalah B(x) = 600 + 50x."
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Jika terjual 15 kaos, maka Chandra akan mengalami ...",
+    "pilihan": [
+      "untung Rp150.000,00",
+      "untung Rp100.000,00",
+      "untung Rp50.000,00",
+      "rugi Rp100.000,00",
+      "rugi Rp150.000,00"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1. **Asumsi Harga Jual:** 100rb/kaos. Pendapatan = 15 * 100 = 1.500 ribu.\n2. **Total Biaya (B):** B(15) = 600 + 50(15) = 600 + 750 = 1.350 ribu.\n3. **Laba/Rugi:** Pendapatan - Biaya = 1.500 - 1.350 = 150 ribu (Untung)."
+  },
+  {
     "id": 5,
     "pertanyaan": "**Baca teks 'Screensaver Komputer' untuk menjawab soal 5-8** \n\n Jika $r(t)$ adalah jari-jari lingkaran *screensaver* pada waktu $t$ detik, maka $r(t) = \\dots$ in.",
     "pilihan": [
