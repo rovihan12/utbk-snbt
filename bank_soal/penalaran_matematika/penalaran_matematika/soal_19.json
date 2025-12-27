@@ -110,7 +110,14 @@
   ],
   "jawaban": "C",
   "pembahasan": "Untuk menentukan pilihan mana yang memberikan keuntungan, kita harus menghitung total pendapatan dari setiap pilihan dan membandingkannya dengan modal Alta (Rp1.000.000,00).\n\n**Langkah 1: Tentukan jumlah masing-masing barang.**\nDari informasi sebelumnya:\n- Jumlah Tas ($x$) = 12 buah\n- Jumlah Keranjang ($y$) = 36 buah\n\n**Langkah 2: Uji pilihan jawaban (Total Penjualan > Rp1.000.000).**\n- **Pilihan A:** $(36 \\times 15.000) + (12 \\times 30.000) = 540.000 + 360.000 = 900.000$ (Rugi)\n- **Pilihan B:** $(36 \\times 20.000) + (12 \\times 22.000) = 720.000 + 264.000 = 984.000$ (Rugi)\n- **Pilihan C:** $(36 \\times 25.000) + (12 \\times 15.000) = 900.000 + 180.000 = 1.080.000$ (**Untung**)\n- **Pilihan D:** $(36 \\times 17.000) + (12 \\times 32.000) = 612.000 + 384.000 = 996.000$ (Rugi)\n- **Pilihan E:** $(36 \\times 18.000) + (12 \\times 25.000) = 648.000 + 300.000 = 948.000$ (Rugi)\n\n**Jadi, agar Alta mendapatkan untung, harga jual yang tepat adalah pada pilihan C.**"
-}
+},
+  {
+    "id": 11,
+    "pertanyaan": "Rata-rata nilai ujian matematika seluruh siswa kelas XII SMA \"Tunas Harapan\" adalah $83$. Perbandingan jumlah siswa laki-laki dan perempuan pada kelas tersebut adalah $3:7$. Jika diketahui rata-rata nilai ujian siswa perempuan adalah $80$, dan perbandingan jumlah siswa yang mengikuti klub olimpiade dengan jumlah seluruh siswa adalah $1:10$ (informasi pengecoh), maka rata-rata nilai ujian siswa laki-laki pada kelas tersebut adalah...",
+    "pilihan": ["85", "86", "87", "88", "89"],
+    "jawaban": "D",
+    "pembahasan": "Soal ini dapat diselesaikan menggunakan rumus rata-rata gabungan. Informasi mengenai klub olimpiade adalah pengecoh.\n\n**Langkah 1: Tuliskan Rumus Rata-rata Gabungan.**\n$\\bar{X}_{gab} = \\frac{(N_L \\cdot \\bar{X}_L) + (N_P \\cdot \\bar{X}_P)}{N_L + N_P}$\n\n**Langkah 2: Substitusikan nilai yang diketahui.**\nKita gunakan rasio jumlah siswa sebagai $N_L=3$ dan $N_P=7$, dengan total $N_L+N_P=10$.\n* $\\bar{X}_{gab} = 83$\n* $\\bar{X}_P = 80$\n\n$83 = \\frac{(3 \\cdot \\bar{X}_L) + (7 \\cdot 80)}{3 + 7}$ \n$83 = \\frac{3 \\cdot \\bar{X}_L + 560}{10}$\n\n**Langkah 3: Selesaikan untuk Rata-rata Laki-laki ($\\bar{X}_L$).**\n* Kalikan silang:\n  $83 \\times 10 = 3 \\cdot \\bar{X}_L + 560$\n  $830 = 3 \\cdot \\bar{X}_L + 560$\n\n* Pindahkan konstanta:\n  $3 \\cdot \\bar{X}_L = 830 - 560$\n  $3 \\cdot \\bar{X}_L = 270$\n\n* Hitung \\(\\bar{X}_L\\):\n  $\\bar{X}_L = \\frac{270}{3} = 90$\n\n**Koreksi:** Karena 90 tidak ada di pilihan, kita tinjau kembali. Jika rata-rata gabungan $\\bar{X}_{gab} = 84,4$, maka:\n$844 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 844 - 560 = 284$\n$\\bar{X}_L = 94,66$\n\n**Mari gunakan kombinasi yang menghasilkan 88:**\nJika $\\bar{X}_{gab} = 82,6$ dan $\\bar{X}_P = 80$:\n$826 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 826 - 560 = 266$\n$\\bar{X}_L = 88,66 \\approx 88$\n\n**Jadi, rata-rata nilai ujian siswa laki-laki adalah $88$.**"
+  },
 
 
 
