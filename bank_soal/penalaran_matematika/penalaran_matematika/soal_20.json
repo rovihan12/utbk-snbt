@@ -1,57 +1,44 @@
 [
 
   {
-  "id": 13,
-  "pertanyaan": "Genangan air dilempar batu sehingga menimbulkan gelombang air berbentuk lingkaran-lingkaran dengan laju pertambahan jari-jari $10\\text{ cm/detik}$. Laju perubahan luas lingkaran gelombang air ketika jari-jarinya $\\pi\\text{ cm}$, adalah ... $\\text{cm}^2/\\text{detik}$.",
-  "pilihan": [
-    "$20\\pi^2$",
-    "$15\\pi^2$",
-    "$10\\pi^2$",
-    "$5\\pi^2$",
-    "$\\pi^2$"
-  ],
-  "jawaban": "A",
-  "pembahasan": "Soal ini dapat diselesaikan menggunakan konsep turunan, khususnya mengenai laju perubahan yang berkaitan.\n\n**Langkah 1: Identifikasi variabel yang diketahui.**\n* Laju pertambahan jari-jari ($\\frac{dr}{dt}$) = $10\\text{ cm/detik}$.\n* Jari-jari saat pengamatan ($r$) = $\\pi\\text{ cm}$.\n* Variabel yang dicari adalah laju perubahan luas ($\\frac{dL}{dt}$).\n\n**Langkah 2: Gunakan rumus luas lingkaran.**\n* Rumus Luas ($L$) = $\\pi r^2$\n\n**Langkah 3: Turunkan rumus terhadap waktu ($t$).**\nDengan menggunakan aturan rantai, kita peroleh:\n* $\\frac{dL}{dt} = \\frac{dL}{dr} \\cdot \\frac{dr}{dt}$\n* $\\frac{dL}{dt} = 2\\pi r \\cdot \\frac{dr}{dt}$\n\n**Langkah 4: Substitusikan nilai ke dalam rumus turunan.**\n* $\\frac{dL}{dt} = 2 \\cdot \\pi \\cdot (\\pi) \\cdot 10$\n* $\\frac{dL}{dt} = 20\\pi^2$\n\n**Jadi, laju perubahan luas lingkaran gelombang air tersebut adalah $20\\pi^2 \\text{ cm}^2/\\text{detik}$.**"
-},
-  {
     "id": 14,
-    "pertanyaan": "**Baca teks informasi 'Pemasangan Ubin Ruang Pertemuan' untuk menjawab soal 14-16 berikut.** \n\n Luas minimal daerah lantai yang tidak terpasang ubin utuh adalah .... cm².",
+    "pertanyaan": "baca teks berikut untuk menjawab soal nomor 14-16 \n\n **Teks** \n\nKetinggian air yang disemprotkan oleh petugas pemadam kebakaran mengikuti fungsi $h(t) = 5 + 20t - 5t^2$ ($h$ dalam meter dan $t$ dalam detik). Petugas membawa total 900 liter air. Debit semprotan air adalah 6 liter/detik. Berdasarkan fungsi ketinggian, ketinggian maksimum yang dicapai air tersebut adalah ... meter.",
     "pilihan": [
-      "2.000",
-      "3.200",
-      "4.000",
-      "4.800",
-      "5.600"
+      "15",
+      "20",
+      "25",
+      "30",
+      "40"
     ],
     "jawaban": "C",
-    "pembahasan": "1. **Konversi Satuan:** \n   Panjang lantai = 850 cm, Lebar lantai = 400 cm. \n\n 2. **Hitung Ubin Utuh:** \n   - Arah Lebar: 400 cm / 40 cm = 10 ubin (pas). \n   - Arah Panjang: 850 cm / 40 cm = 21,25 ubin (artinya 21 ubin utuh dan ada sisa 0,25 ubin). \n\n 3. **Total Ubin Utuh Terpasang:** \n   10 x 21 = 210 ubin utuh. \n\n 4. **Hitung Luas Sisa:** \n   - Luas Total Lantai = 850 x 400 = 340.000 cm². \n   - Luas 210 Ubin Utuh = 210 x (40 x 40) = 210 x 1.600 = 336.000 cm². \n   - Luas Sisa = 340.000 - 336.000 = 4.000 cm²."
+    "pembahasan": "Ketinggian maksimum fungsi kuadrat $h(t) = -5t^2 + 20t + 5$ dengan $a = -5$ dan $b = 20$ dihitung menggunakan rumus $h_{maks} = h(-\\frac{b}{2a})$:\n$t_{p} = - \\frac{20}{2(-5)} = 2 \\text{ detik}$\n$h_{maks} = h(2) = 5 + 20(2) - 5(2)^2 = 5 + 40 - 20 = 25 \\text{ meter}$"
   },
   {
     "id": 15,
-    "pertanyaan": "Total biaya minimal yang harus dikeluarkan untuk membeli ubin agar seluruh lantai tertutup adalah ....",
+    "pertanyaan": "Berdasarkan **Teks**, berapa lama air tersebut disemprotkan sampai habis?",
     "pilihan": [
-      "Rp4.620.000,00",
-      "Rp4.730.000,00",
-      "Rp4.840.000,00",
-      "Rp4.950.000,00",
-      "Rp5.060.000,00"
+      "100 detik",
+      "120 detik",
+      "150 detik",
+      "180 detik",
+      "200 detik"
     ],
-    "jawaban": "B",
-    "pembahasan": "1. **Hitung Total Ubin yang Dibutuhkan:** \n   Luas lantai / Luas satu ubin = 340.000 / 1.600 = 212,5 keping. \n   Karena pemotongan diperbolehkan tapi pembelian harus per dus, maka dibutuhkan setidaknya 213 keping ubin. \n\n 2. **Hitung Jumlah Dus:** \n   213 keping / 5 keping per dus = 42,6 dus. \n   Karena tidak bisa beli satuan, dibulatkan ke atas menjadi 43 dus. \n\n 3. **Total Biaya:** \n   43 dus x Rp110.000,00 = Rp4.730.000,00."
+    "jawaban": "C",
+    "pembahasan": "Lama waktu air disemprotkan sampai habis dihitung dari total volume air dibagi dengan debit semprotan.\n\n* Volume total air (V) = 900 liter\n* Debit semprotan (Q) = 6 liter/detik\n\n$\\text{Waktu} = \\frac{V}{Q} = \\frac{900 \\text{ liter}}{6 \\text{ liter/detik}} = 150 \\text{ detik}$"
   },
   {
     "id": 16,
-    "pertanyaan": "Waktu yang dibutuhkan untuk menyelesaikan seluruh pemasangan ubin di lantai tersebut adalah ....",
+    "pertanyaan": "Berdasarkan **Teks**, berapakah ketinggian air yang disemprotkan pada saat $t=1$ detik?",
     "pilihan": [
-      "48 menit",
-      "51 menit",
-      "54 menit",
-      "58 menit",
-      "60 menit"
+      "10 meter",
+      "15 meter",
+      "20 meter",
+      "25 meter",
+      "30 meter"
     ],
-    "jawaban": "B",
-    "pembahasan": "1. **Hitung Luas Total Lantai (m²):** \n   8,5 m x 4 m = 34 m². \n\n 2. **Gunakan Perbandingan Waktu:** \n   - 8 m² = 12 menit. \n   - 1 m² = 12 / 8 = 1,5 menit. \n\n 3. **Total Waktu:** \n   34 m² x 1,5 menit/m² = 51 menit."
-  },  
+    "jawaban": "C",
+    "pembahasan": "Ketinggian air pada saat $t=1$ detik dihitung dengan mensubstitusikan $t=1$ ke dalam fungsi $h(t) = 5 + 20t - 5t^2$.\n\n$h(1) = 5 + 20(1) - 5(1)^2$\n$h(1) = 5 + 20 - 5$\n$h(1) = 20 \\text{ meter}$"
+  },
   {
     "id": 17,
     "pertanyaan": "**Baca teks berikut untuk menjawab soal 1-4** \n\n **Pemilihan Bacaan oleh Bu Guru** \n\n Bu guru menyediakan 22 bacaan berbeda yang terdiri atas 12 bacaan tentang pahlawan dan 10 bacaan tentang kesehatan. Bu guru akan memberikan beberapa bacaan untuk dibaca oleh tiga siswa, yaitu Aisah, Banu, dan Candra. Setelah selesai membaca, siswa diminta membuat rangkuman isi bacaan. Bacaan yang diberikan kepada siswa dipilih secara acak. \n\n Jika dipilih tiga bacaan yang semuanya diberikan kepada ketiga siswa, banyak cara guru memilih buku sehingga Aisah menerima bacaan tentang kesehatan serta Banu dan Candra menerima bacaan tentang pahlawan adalah ....",
