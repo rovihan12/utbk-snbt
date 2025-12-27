@@ -1,5 +1,12 @@
 [
   {
+  "id": 6,
+  "pertanyaan": "Dua kursi roda A dan B memiliki radius roda yang berbeda. Radius roda A adalah 100 cm dan radius roda B adalah 80 cm. Kursi roda A dan B memiliki kecepatan putaran yang sama, yaitu 0,5 putaran/sekon. Jika dalam 5 menit kursi roda berjalan tanpa henti, jumlah putaran masing-masing roda adalah ...",
+  "pilihan": ["75 putaran", "90 putaran", "100 putaran", "125 putaran", "150 putaran"],
+  "jawaban": "E",
+  "pembahasan": "Soal ini menanyakan jumlah putaran total berdasarkan kecepatan sudut dan waktu yang diberikan.\n\n**Langkah 1: Konversi waktu ke satuan detik (sekon).**\nDiketahui waktu berjalan adalah 5 menit.\n* $t = 5 \\times 60 \\text{ detik} = 300 \\text{ detik.}$\n\n**Langkah 2: Menghitung jumlah putaran.**\nKedua roda memiliki kecepatan putaran yang sama, yaitu 0,5 putaran setiap detik. Radius roda tidak memengaruhi jumlah putaran jika kecepatan putarannya (frekuensi) sudah ditentukan.\n* $\\text{Jumlah Putaran} = \\text{Kecepatan Putaran} \\times \\text{Waktu}$\n* $\\text{Jumlah Putaran} = 0,5 \\text{ putaran/sekon} \\times 300 \\text{ sekon}$\n* $\\text{Jumlah Putaran} = 150 \\text{ putaran.}$\n\n**Jadi, masing-masing roda melakukan 150 putaran.**"
+},
+  {
   "id": 7,
   "pertanyaan": "Jika harga 1 lembar kertas adalah Rp100 dan Alya akan mencetak 8 laporan dengan setiap laporannya memiliki 54 halaman. Maka Alya harus membayar sebesar...",
   "pilihan": ["Rp22.000", "Rp23.500", "Rp21.600", "Rp24.400", "Rp25.000"],
