@@ -1,5 +1,18 @@
 [
   {
+  "id": 4,
+  "pertanyaan": "Seorang pengrajin merencanakan untuk membuat beberapa tas dan keranjang, dengan total jumlah keduanya sebanyak 48 buah. Jumlah keranjang yang direncanakan tiga kali dari jumlah tas. Persentase jumlah tas dan keranjang terhadap total produksi berturut-turut adalah ...",
+  "pilihan": [
+    "33,33% dan 66,67%",
+    "66,67% dan 33,33%",
+    "25% dan 75%",
+    "75% dan 25%",
+    "30% dan 70%"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Kita dapat menyelesaikan soal ini dengan sistem persamaan linear sederhana.\n\n**Langkah 1: Identifikasi variabel dan buat persamaan.**\nMisalkan:\n- Tas = $x$\n- Keranjang = $y$\n\nDiketahui:\n1. Total produksi: $x + y = 48$\n2. Perbandingan: $y = 3x$\n\n**Langkah 2: Cari jumlah masing-masing barang.**\nSubstitusikan $y = 3x$ ke dalam persamaan pertama:\n$x + 3x = 48$\n$4x = 48$\n$x = 12$ (Jumlah Tas)\n\nMaka, $y = 3 \\times 12 = 36$ (Jumlah Keranjang)\n\n**Langkah 3: Hitung persentase terhadap total (48).**\n- Persentase Tas: $\\frac{12}{48} \\times 100\\% = 25\\%$\n- Persentase Keranjang: $\\frac{36}{48} \\times 100\\% = 75\\%$\n\n**Jadi, persentase tas dan keranjang berturut-turut adalah 25% dan 75%.**"
+},
+  {
   "id": 5,
   "pertanyaan": "Diketahui empat bilangan bulat positif W, X, Y, dan Z. Jika hasil kali W dan Y adalah 32, hasil kali X dan Z adalah 100, serta hasil kali Y dan Z adalah delapan kali hasil kali W dan X, berapakah Y dikali Z?",
   "pilihan": ["100", "160", "80", "200", "44"],
