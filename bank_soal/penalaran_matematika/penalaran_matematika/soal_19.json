@@ -52,12 +52,19 @@
     "pembahasan": "Langkah 1: Jika harga bekas 30% lebih murah, maka harga bekas setara dengan 100% - 30% = 70% dari harga baru.\nLangkah 2: Gunakan persamaan 70% * Harga Baru = Rp2.100.000.\nLangkah 3: Harga Baru = 2.100.000 / 0,7 = 3.000.000.\nJadi, harga jam tangan barunya adalah Rp3.000.000,00."
   },
 {
-    "id": 5,
-    "pertanyaan": "Tempat pakan ayam berbentuk balok dengan luas alas $(-x + 20 + 300/x)$ cm^2 dan tingginya x cm. Volume maksimum tempat pakan ayam tersebut adalah... cm^3",
-    "pilihan": ["256", "300", "336", "400", "450"],
-    "jawaban": "D",
-    "pembahasan": "$V(x) = Luas Alas \times x = -x^2 + 20x + 300$. Untuk mencari nilai maksimum, turunkan fungsi tersebut: $V'(x) = -2x + 20 = 0 \rightarrow x = 10$. Substitusi $x=10$ ke fungsi volume: $V(10) = -(10)^2 + 20(10) + 300 = 400$."
-  },
+  "id": 5,
+  "kategori": "Sedang",
+  "pertanyaan": "Tempat pakan ayam berbentuk balok dengan luas alas $(-x + 20 + \\frac{300}{x})$ cm$^2$ dan tingginya $x$ cm. Volume maksimum tempat pakan ayam tersebut adalah... cm$^3$",
+  "pilihan": [
+    "256",
+    "300",
+    "336",
+    "400",
+    "450"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Volume balok dirumuskan dengan $V(x) = \\text{Luas Alas} \\times \\text{tinggi}$.\n$V(x) = (-x + 20 + \\frac{300}{x}) \\cdot x$\n$V(x) = -x^2 + 20x + 300$\n\nUntuk mencari volume maksimum, kita gunakan turunan pertama $V'(x) = 0$:\n$V'(x) = -2x + 20 = 0$\n$-2x = -20$\n$x = 10$\n\nSubstitusi nilai $x = 10$ ke dalam fungsi volume:\n$V(10) = -(10)^2 + 20(10) + 300$\n$V(10) = -100 + 200 + 300$\n$V(10) = 400$ cm$^3$."
+},
 {
   "id": 6,
   "pertanyaan": "Pak Andi memiliki usaha rumahan merangkai paket alat tulis. Ia dibantu oleh 4 karyawan. Dalam 120 menit, mereka mampu merangkai 60 paket Buku Tulis, 48 paket Pulpen, dan 72 paket Pensil. Sedangkan dalam 100 menit, mereka mampu merangkai 40 paket Buku Tulis, 60 paket Pulpen, dan 50 paket Pensil. Ketika Pak Andi ikut membantu, 40 paket Buku Tulis, 60 paket Pulpen, dan 50 paket Pensil selesai dalam 75 menit.\n\nManakah pernyataan yang benar?\n(1) Dalam 20 menit, keempat karyawan sanggup merangkai 10 paket Buku Tulis, 8 paket Pulpen, dan 12 paket Pensil.\n(2) Dalam 10 menit, keempat karyawan sanggup merangkai 4 paket Buku Tulis, 6 paket Pulpen, dan 5 paket Pensil.\n(3) Dalam 30 menit, keempat karyawan sanggup merangkai 14 paket Buku Tulis, 14 paket Pulpen, dan 17 paket Pensil.",
