@@ -1,0 +1,23 @@
+{
+  "id": 20,
+  "pertanyaan": "Data hasil penjualan rata-rata setiap bulan sebuah toko mebel bulan November ditampilkan pada tabel di samping. Jika pendapatan rata-rata meja makan adalah Rp20.000.000,00 dan itu sudah termasuk untung 25%, maka modal yang dikeluarkan untuk meja makan adalah ...",
+  "tabel": {
+    "header": ["Jenis Barang", "Pendapatan (juta rupiah)", "Keuntungan"],
+    "rows": [
+      ["Meja makan", "20", "25%"],
+      ["Kursi tamu", "10", "40%"],
+      ["Tempat tidur", "5", "20%"],
+      ["Lemari", "10", "50%"],
+      ["Meja kantor", "20", "20%"]
+    ]
+  },
+  "pilihan": [
+    "Rp12.000.000,00",
+    "Rp14.000.000,00",
+    "Rp16.000.000,00",
+    "Rp17.000.000,00",
+    "Rp18.000.000,00"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Untuk mencari modal (harga pokok) dari harga jual yang sudah termasuk untung, kita menggunakan logika persentase:\n\n**Data:**\n- Pendapatan (Harga Jual) = Rp20.000.000,00\n- Persentase Untung = 25%\n\n**Langkah Perhitungan:**\n1. Asumsikan Modal = 100%.\n2. Harga Jual = Modal + Untung = 100% + 25% = 125%.\n3. Maka, Modal = (100% / 125%) × Harga Jual.\n4. Modal = $\\frac{100}{125} \\times 20.000.000 = 0,8 \\times 20.000.000 = 16.000.000$.\n\n**Jadi, modal yang dikeluarkan untuk meja makan adalah Rp16.000.000,00.**"
+}
