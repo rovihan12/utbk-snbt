@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Baca Teks berikut untuk menjawab soal nomor 1 - 4, Berdasarkan data survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan 5 : 7, serta selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 (mayoritas suka diaduk). Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
+    "pertanyaan": "Baca Teks berikut untuk menjawab soal nomor 1 - 4\n\n Berdasarkan data survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan 5 : 7, serta selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 (mayoritas suka diaduk). Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
     "pilihan": [
       "1/7",
       "2/7",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "pertanyaan": "**Baca teks 'Screensaver Komputer' untuk menjawab soal 5-8** \n\n Jika $r(t)$ adalah jari-jari lingkaran *screensaver* pada waktu $t$ detik, maka $r(t) = \\dots$ in.",
+    "pertanyaan": "Baca Teks berikut untuk menjawab soal nomor 5-8,\n\n Screensaver komputer membentuk lingkaran yang semakin membesar. Lingkaran dimulai sebagai sebuah titik di tengah layar, kemudian membesar menuju tepi layar. Layar komputer berbentuk persegi panjang berukuran 17 inci (diagonal) dengan rasio panjang dibanding lebar adalah 4:3. Area tampilan layar memiliki radius 8 inci (diukur dari tengah secara diagonal ke sudut) dan lingkaran screensaver yang membesar akan mencapai sudut dalam waktu 5 detik.\n\nJika $r(t)$ adalah jari-jari lingkaran screensaver pada waktu $t$ detik, maka $r(t) = ...$ in.",
     "pilihan": [
       "1,6t",
       "3,2t",
@@ -62,24 +62,24 @@
       "17t"
     ],
     "jawaban": "A",
-    "pembahasan": "Menggunakan prinsip laju perubahan linear:\n1. **Kondisi Awal:** Lingkaran dimulai dari titik (r = 0).\n2. **Kondisi Akhir:** Mencapai sudut layar (r = 8 inci) dalam waktu 5 detik.\n3. **Laju Pertumbuhan (v):** $v = \\frac{r}{t} = \\frac{8}{5} = 1,6$ inci/detik.\n\n**Persamaan:** $r(t) = 1,6t$."
+    "pembahasan": "Diketahui bahwa lingkaran mencapai sudut layar (radius 8 inci) dalam waktu 5 detik. Karena pertumbuhan bersifat konstan (linear), maka laju pertumbuhannya adalah:\n\n$v = \\frac{\\text{Jari-jari}}{\\text{Waktu}} = \\frac{8}{5} = 1,6$ inci/detik.\n\nJadi, fungsi jari-jari terhadap waktu adalah $r(t) = 1,6t$."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika $K(t)$ adalah keliling lingkaran *screensaver* yang terbentuk pada waktu $t$ detik, maka $K(t) = \\dots$ in.",
+    "pertanyaan": "Jika $K(t)$ adalah keliling lingkaran screensaver yang terbentuk pada waktu $t$ detik, maka $K(t) = ...$ in.",
     "pilihan": [
-      "1,6\\pi t",
-      "2,56\\pi t",
-      "3,2\\pi t",
-      "10\\pi t",
-      "16\\pi t"
+      "1,6πt",
+      "2,56πt",
+      "3,2πt",
+      "10πt",
+      "16πt"
     ],
     "jawaban": "C",
-    "pembahasan": "Menghitung keliling berdasarkan fungsi jari-jari $r(t)$:\n1. **Rumus Keliling:** $K = 2\\pi r$\n2. **Substitusi $r(t)$:** Masukkan $r(t) = 1,6t$ ke dalam rumus.\n\n**Perhitungan:**\n$K(t) = 2 \\cdot \\pi \\cdot (1,6t) = 3,2\\pi t$."
+    "pembahasan": "Rumus keliling lingkaran adalah $K = 2\\pi r$. \nSubstitusikan fungsi $r(t) = 1,6t$ ke dalam rumus keliling:\n\n$K(t) = 2 \\times \\pi \\times 1,6t$\n$K(t) = 3,2\\pi t$."
   },
   {
     "id": 7,
-    "pertanyaan": "Luas lingkaran *screensaver* $10,24\\pi \\text{ in}^2$ terjadi dalam waktu ... detik.",
+    "pertanyaan": "Luas lingkaran screensaver $10,24\\pi$ in² terjadi dalam waktu ... detik.",
     "pilihan": [
       "1",
       "2",
@@ -88,11 +88,11 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Mencari waktu ($t$) berdasarkan luas yang diketahui:\n1. **Cari Jari-jari (r):**\n   $L = \\pi r^2$\n   $10,24\\pi = \\pi r^2 \\implies r = \\sqrt{10,24} = 3,2$ inci.\n2. **Cari Waktu (t):**\n   Gunakan fungsi $r(t) = 1,6t$\n   $3,2 = 1,6t \\implies t = \\frac{3,2}{1,6} = 2$ detik."
+    "pembahasan": "1. Cari jari-jari ($r$) saat luas tersebut tercapai:\n   $L = \\pi r^2$\n   $10,24\\pi = \\pi r^2$\n   $r^2 = 10,24 \\implies r = 3,2$ inci.\n\n2. Gunakan fungsi jari-jari $r(t) = 1,6t$ untuk mencari waktu:\n   $3,2 = 1,6t$\n   $t = \\frac{3,2}{1,6} = 2$ detik."
   },
   {
     "id": 8,
-    "pertanyaan": "*Screensaver* komputer diubah menjadi gambar persegi panjang dengan perbandingan panjang dan lebar yang sama dengan layar komputer. Jika luas *screensaver* bertambah sebesar $23,12 \\text{ in}^2$ per detik, *screensaver* akan menutup layar komputer secara penuh setelah ... detik.",
+    "pertanyaan": "Screensaver komputer diubah menjadi gambar persegi panjang dengan perbandingan panjang dan lebar yang sama dengan layar komputer. Jika luas screensaver bertambah sebesar 23,12 in² per detik, screensaver akan menutup layar komputer secara penuh setelah ... detik.",
     "pilihan": [
       "4",
       "5",
@@ -101,7 +101,7 @@
       "8"
     ],
     "jawaban": "C",
-    "pembahasan": "1. **Mencari Dimensi Layar:** \n   Rasio $4:3$ dengan diagonal 17 inci (Tripel Pythagoras $8, 15, 17$ tidak cocok, maka gunakan $x$):\n   $(4x)^2 + (3x)^2 = 17^2 \\implies 25x^2 = 289 \\implies x^2 = 11,56$.\n2. **Luas Layar Penuh:**\n   $L = p \\times l = 4x \\cdot 3x = 12x^2$\n   $L = 12 \\cdot 11,56 = 138,72 \\text{ in}^2$.\n3. **Menghitung Waktu:**\n   $t = \\frac{\\text{Total Luas}}{\\text{Laju Luas}} = \\frac{138,72}{23,12} = 6$ detik."
+    "pembahasan": "1. **Cari dimensi layar:** Rasio 4:3 dengan diagonal 17 inci.\n   $(4x)^2 + (3x)^2 = 17^2$\n   $25x^2 = 289 \\implies x^2 = 11,56$.\n\n2. **Luas Layar:**\n   $L = \\text{panjang} \\times \\text{lebar} = 4x \\times 3x = 12x^2$\n   $L = 12 \\times 11,56 = 138,72$ in².\n\n3. **Waktu ($t$):**\n   $t = \\frac{\\text{Luas Total}}{\\text{Laju Luas}} = \\frac{138,72}{23,12} = 6$ detik."
   },
 {
     "id": 9,
