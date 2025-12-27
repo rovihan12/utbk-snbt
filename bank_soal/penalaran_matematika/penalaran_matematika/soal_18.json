@@ -1,5 +1,18 @@
 [
   {
+  "id": 10,
+  "pertanyaan": "Doni meminjam sejumlah uang dari koperasi dengan bunga tunggal pinjaman 15% pertahun. Ia melunasi pinjamannya dengan mengangsur Rp495.000,00 setiap bulan selama 8 bulan. Berapa jumlah uang yang dipinjam oleh Doni (dalam ribu rupiah)? (PM UTBK 2024)",
+  "pilihan": [
+    "2.800",
+    "3.000",
+    "3.200",
+    "3.600",
+    "3.800"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Untuk mencari jumlah uang yang dipinjam (modal awal), kita harus menghubungkan total uang yang dibayarkan dengan rumus bunga tunggal.\n\n**Langkah 1: Hitung total uang yang dikembalikan ($T$)**\nDoni mengangsur Rp495.000,00 selama 8 bulan.\n$T = 495.000 \\times 8 = 3.960.000$\n\n**Langkah 2: Gunakan rumus total pengembalian bunga tunggal**\nMisalkan $M$ adalah modal atau jumlah uang yang dipinjam.\n$T = M + (M \\times \\text{bunga} \\times \\text{waktu})$\n$T = M \\times (1 + (i \\times \\frac{n}{12}))$\n\nDimana:\n* $i = 15\\% = 0,15$\n* $n = 8 \\text{ bulan}$\n\n**Langkah 3: Masukkan angka ke dalam rumus**\n$3.960.000 = M \\times (1 + (0,15 \\times \\frac{8}{12}))$\n$3.960.000 = M \\times (1 + (0,15 \\times \\frac{2}{3}))$\n$3.960.000 = M \\times (1 + 0,10)$\n$3.960.000 = M \\times 1,1$\n\n**Langkah 4: Hitung nilai $M$**\n$M = \\frac{3.960.000}{1,1}$\n$M = 3.600.000$\n\nDalam satuan ribu rupiah, maka jawabannya adalah **3.600**."
+},
+  {
   "id": 11,
   "pertanyaan": "Andi berencana membeli sebuah barang dengan harga Rp7.000.000,00. Namun, ia hanya memiliki uang sebesar Rp1.000.000,00. Untuk memenuhi kekurangannya, Andi memutuskan meminjam uang di koperasi dengan bunga 15% pertahun dan akan mencicil pengembaliannya selama empat bulan. Berapa besar bunga yang harus dibayarkan oleh Andi? (PM UTBK 2024)",
   "pilihan": [
