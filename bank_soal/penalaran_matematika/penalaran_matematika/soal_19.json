@@ -125,6 +125,35 @@
 
 
 
+
+
+
+
+{
+  "id": 16,
+  "pertanyaan": "Tanaman Parthenocissus merupakan salah satu dari tanaman hias yang sangat atraktif. Perakaran dari tanaman ini sangat sulit berkembang tanpa adanya bantuan dari penggunaan hormon tumbuhan. Studi perakaran dari tanaman Parthenocissus dilakukan dengan menambahkan konsentrasi hormon auksin (Naphtalene Acetic Acid/NAA) yang berbeda-beda (0, 500, 1000, 1500, 2000, 2500, dan 3000 ppm). Sebanyak 4 kali pengulangan dilakukan untuk masing-masing konsentrasi. Tabel di samping menunjukkan hasil dari studi ini berupa pengaruh NAA terhadap panjang akar, berat kering akar, dan jumlah akar. Berapakah pertambahan jumlah akar tertinggi ketika menggunakan NAA dan tanpa menggunakan NAA?",
+  "tabel": {
+    "header": ["Konsentrasi (ppm)", "Panjang Akar (cm)", "Berat Kering Akar (mg)", "Jumlah Akar"],
+    "rows": [
+      ["0", "9,68", "5,44", "2,47"],
+      ["500", "22,18", "17,07", "3,78"],
+      ["1000", "31,5", "26,42", "4,61"],
+      ["1500", "28,64", "24,16", "5,05"],
+      ["2000", "26,55", "22,86", "5,88"],
+      ["2500", "21,16", "17,14", "6,78"],
+      ["3000", "19,35", "10,77", "7,88"]
+    ]
+  },
+  "pilihan": [
+    "12,6",
+    "6,1",
+    "5,41",
+    "2,39",
+    "2,62"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Untuk menentukan pertambahan jumlah akar tertinggi, kita harus membandingkan nilai jumlah akar pada konsentrasi NAA yang menghasilkan jumlah terbanyak dengan nilai pada kontrol (tanpa NAA).\n\n**Data dari Tabel:**\n- Jumlah akar tanpa NAA (0 ppm) = 2,47.\n- Jumlah akar tertinggi dengan NAA (terjadi pada 3000 ppm) = 7,88.\n\n**Langkah Perhitungan:**\n1. Selisih = Jumlah Akar Tertinggi - Jumlah Akar Tanpa NAA.\n2. Selisih = $7,88 - 2,47 = 5,41$.\n\n**Jadi, pertambahan jumlah akar tertinggi adalah 5,41.**"
+},
 {
   "id": 17,
   "pertanyaan": "Tabel di samping menunjukkan harga barang di Toko Alto dari tahun 2016 s.d. 2018. Persentase kenaikan harga minyak goreng pada tahun 2018 adalah ...",
