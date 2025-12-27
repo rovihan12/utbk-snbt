@@ -118,7 +118,13 @@
     "jawaban": "D",
     "pembahasan": "Soal ini dapat diselesaikan menggunakan rumus rata-rata gabungan. Informasi mengenai klub olimpiade adalah pengecoh.\n\n**Langkah 1: Tuliskan Rumus Rata-rata Gabungan.**\n$\\bar{X}_{gab} = \\frac{(N_L \\cdot \\bar{X}_L) + (N_P \\cdot \\bar{X}_P)}{N_L + N_P}$\n\n**Langkah 2: Substitusikan nilai yang diketahui.**\nKita gunakan rasio jumlah siswa sebagai $N_L=3$ dan $N_P=7$, dengan total $N_L+N_P=10$.\n* $\\bar{X}_{gab} = 83$\n* $\\bar{X}_P = 80$\n\n$83 = \\frac{(3 \\cdot \\bar{X}_L) + (7 \\cdot 80)}{3 + 7}$ \n$83 = \\frac{3 \\cdot \\bar{X}_L + 560}{10}$\n\n**Langkah 3: Selesaikan untuk Rata-rata Laki-laki ($\\bar{X}_L$).**\n* Kalikan silang:\n  $83 \\times 10 = 3 \\cdot \\bar{X}_L + 560$\n  $830 = 3 \\cdot \\bar{X}_L + 560$\n\n* Pindahkan konstanta:\n  $3 \\cdot \\bar{X}_L = 830 - 560$\n  $3 \\cdot \\bar{X}_L = 270$\n\n* Hitung \\(\\bar{X}_L\\):\n  $\\bar{X}_L = \\frac{270}{3} = 90$\n\n**Koreksi:** Karena 90 tidak ada di pilihan, kita tinjau kembali. Jika rata-rata gabungan $\\bar{X}_{gab} = 84,4$, maka:\n$844 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 844 - 560 = 284$\n$\\bar{X}_L = 94,66$\n\n**Mari gunakan kombinasi yang menghasilkan 88:**\nJika $\\bar{X}_{gab} = 82,6$ dan $\\bar{X}_P = 80$:\n$826 = 3 \\cdot \\bar{X}_L + 560$\n$3 \\cdot \\bar{X}_L = 826 - 560 = 266$\n$\\bar{X}_L = 88,66 \\approx 88$\n\n**Jadi, rata-rata nilai ujian siswa laki-laki adalah $88$.**"
   },
-
+{
+    "id": 12,
+    "pertanyaan": "Jika lampu merah menyala setiap 3 detik sekali, lampu hijau menyala setiap 4 detik sekali, dan lampu kuning menyala setiap 6 detik sekali, maka berapa kali ketiga lampu menyala dalam waktu 96 detik setelah mereka menyala bersama?",
+    "pilihan": ["7", "8", "9", "10", "11"],
+    "jawaban": "B",
+    "pembahasan": "Untuk mencari waktu menyala bersamaan, kita menggunakan KPK dari 3, 4, dan 6.\n\n**1. Mencari KPK:**\n$3 = 3$\n$4 = 2^2$\n$6 = 2 \\times 3$\n$KPK = 2^2 \\times 3 = 12$ detik.\n\n**2. Menghitung frekuensi dalam 96 detik:**\n$\\text{Banyak menyala bersama} = \\frac{96}{12} = 8$ kali.\n\nJadi, ketiga lampu menyala bersama sebanyak 8 kali setelah nyala bersama yang pertama."
+  }
 
 
 
