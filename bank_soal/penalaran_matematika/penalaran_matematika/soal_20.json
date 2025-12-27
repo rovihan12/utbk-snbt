@@ -1,0 +1,56 @@
+[
+
+  
+  {
+    "id": 17,
+    "pertanyaan": "**Baca teks berikut untuk menjawab soal 1-4** \n\n **Pemilihan Bacaan oleh Bu Guru** \n\n Bu guru menyediakan 22 bacaan berbeda yang terdiri atas 12 bacaan tentang pahlawan dan 10 bacaan tentang kesehatan. Bu guru akan memberikan beberapa bacaan untuk dibaca oleh tiga siswa, yaitu Aisah, Banu, dan Candra. Setelah selesai membaca, siswa diminta membuat rangkuman isi bacaan. Bacaan yang diberikan kepada siswa dipilih secara acak. \n\n Jika dipilih tiga bacaan yang semuanya diberikan kepada ketiga siswa, banyak cara guru memilih buku sehingga Aisah menerima bacaan tentang kesehatan serta Banu dan Candra menerima bacaan tentang pahlawan adalah ....",
+    "pilihan": [
+      "1.320",
+      "1.080",
+      "660",
+      "540",
+      "340"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Untuk menghitung banyak cara, kita menggunakan prinsip perkalian karena setiap siswa menerima buku yang berbeda (tanpa pengembalian).\n\n1. **Aisah (Kesehatan):** Ada $10$ pilihan buku kesehatan.\n2. **Banu (Pahlawan):** Ada $12$ pilihan buku pahlawan.\n3. **Candra (Pahlawan):** Tersisa $11$ pilihan buku pahlawan (karena 1 sudah diambil Banu).\n\n**Banyak Cara:**\n$10 \\times 12 \\times 11 = 1.320$"
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Peluang Aisah mendapat bacaan tentang pahlawan serta Banu dan Candra mendapat bacaan tentang kesehatan adalah ....",
+    "pilihan": [
+      "$\\frac{3}{5}$",
+      "$\\frac{9}{55}$",
+      "$\\frac{3}{25}$",
+      "$\\frac{9}{77}$",
+      "$\\frac{6}{77}$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1. **Hitung Ruang Sampel $n(S)$:** Mengambil 3 buku dari 22 secara berurutan.\n   $n(S) = 22 \\times 21 \\times 20 = 9.240$\n\n2. **Hitung Kejadian $n(A)$:** Aisah (P), Banu (K), Candra (K).\n   $n(A) = 12 \\times 10 \\times 9 = 1.080$\n\n3. **Hitung Peluang:**\n   $P(A) = \\frac{1.080}{9.240} = \\frac{108}{924}$\n\n4. **Sederhanakan:** (Bagi dengan 12)\n   $P(A) = \\frac{9}{77}$"
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Peluang ketiganya mendapat bacaan tentang pahlawan atau Banu mendapat bacaan tentang pahlawan serta Aisah dan Candra mendapat bacaan tentang kesehatan adalah ....",
+    "pilihan": [
+      "$\\frac{6}{77}$",
+      "$\\frac{5}{22}$",
+      "$\\frac{20}{77}$",
+      "$\\frac{6}{22}$",
+      "$\\frac{2}{7}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Ada dua kondisi yang dipisahkan kata 'atau' (dijumlahkan):\n\n1. **Kondisi 1 (Ketiganya Pahlawan):**\n   $P(1) = \\frac{12}{22} \\times \\frac{11}{21} \\times \\frac{10}{20} = \\frac{1.320}{9.240}$\n\n2. **Kondisi 2 (Aisah K, Banu P, Candra K):**\n   $P(2) = \\frac{10}{22} \\times \\frac{12}{21} \\times \\frac{9}{20} = \\frac{1.080}{9.240}$\n\n3. **Total Peluang:**\n   $P = \\frac{1.320 + 1.080}{9.240} = \\frac{2.400}{9.240}$\n\n4. **Sederhanakan:** (Bagi dengan 120)\n   $P = \\frac{20}{77}$"
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Peluang Banu mendapat bacaan tentang kesehatan serta Aisah dan Candra tidak sama-sama mendapat bacaan tentang pahlawan dan tidak sama-sama mendapat bacaan tentang kesehatan adalah ....",
+    "pilihan": [
+      "$\\frac{18}{77}$",
+      "$\\frac{16}{77}$",
+      "$\\frac{12}{77}$",
+      "$\\frac{10}{77}$",
+      "$\\frac{9}{77}$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Syarat 'Aisah dan Candra tidak sama-sama pahlawan dan tidak sama-sama kesehatan' berarti jenis buku Aisah dan Candra harus **berbeda** satu sama lain. Dengan Banu tetap mendapat Kesehatan (K).\n\nAda dua skenario:\n1. **Skenario 1 (P-K-K):** Aisah (P), Banu (K), Candra (K)\n   $P(1) = \\frac{12 \\times 10 \\times 9}{22 \\times 21 \\times 20} = \\frac{1.080}{9.240} = \\frac{9}{77}$\n\n2. **Skenario 2 (K-K-P):** Aisah (K), Banu (K), Candra (P)\n   $P(2) = \\frac{10 \\times 9 \\times 12}{22 \\times 21 \\times 20} = \\frac{1.080}{9.240} = \\frac{9}{77}$\n\n**Total Peluang:**\n$\\frac{9}{77} + \\frac{9}{77} = \\frac{18}{77}$"
+  }
+]
