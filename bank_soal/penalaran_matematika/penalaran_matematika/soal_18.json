@@ -1,5 +1,12 @@
 [
   {
+  "id": 5,
+  "pertanyaan": "Diketahui empat bilangan bulat positif W, X, Y, dan Z. Jika hasil kali W dan Y adalah 32, hasil kali X dan Z adalah 100, serta hasil kali Y dan Z adalah delapan kali hasil kali W dan X, berapakah Y dikali Z?",
+  "pilihan": ["100", "160", "80", "200", "44"],
+  "jawaban": "B",
+  "pembahasan": "Kita dapat menyelesaikan ini dengan sistem persamaan aljabar.\n\n**Langkah 1: Tulis persamaan yang diketahui.**\n1. $W \\times Y = 32 \\Rightarrow W = \\frac{32}{Y}$\n2. $X \\times Z = 100 \\Rightarrow X = \\frac{100}{Z}$\n3. $Y \\times Z = 8 \\times (W \\times X)$\n\n**Langkah 2: Substitusikan W dan X ke persamaan ketiga.**\n$Y \\times Z = 8 \\times (\\frac{32}{Y} \\times \\frac{100}{Z})$\n$Y \\times Z = 8 \\times \\frac{3200}{Y \\times Z}$\n\n**Langkah 3: Selesaikan untuk $(Y \\times Z)$.**\nMisalkan $A = Y \\times Z$, maka:\n$A = \\frac{8 \\times 3200}{A}$\n$A^2 = 25600$\n$A = \\sqrt{25600}$\n$A = 160$\n\n**Jadi, nilai Y dikali Z adalah 160.**"
+},
+  {
   "id": 6,
   "pertanyaan": "Dua kursi roda A dan B memiliki radius roda yang berbeda. Radius roda A adalah 100 cm dan radius roda B adalah 80 cm. Kursi roda A dan B memiliki kecepatan putaran yang sama, yaitu 0,5 putaran/sekon. Jika dalam 5 menit kursi roda berjalan tanpa henti, jumlah putaran masing-masing roda adalah ...",
   "pilihan": ["75 putaran", "90 putaran", "100 putaran", "125 putaran", "150 putaran"],
