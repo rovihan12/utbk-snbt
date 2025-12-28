@@ -1,7 +1,15 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Baca Teks berikut untuk menjawab soal nomor 1 - 4\n\n Berdasarkan data survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan 5 : 7, serta selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 (mayoritas suka diaduk). Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
+    "pertanyaan": "Perhatikan data survei berikut untuk menjawab soal 1-4.\n\n Jika dilakukan survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan adalah 5 : 7. Selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 dengan mayoritas lebih menyukai bubur diaduk. Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
+    "tabel": {
+      "header": ["", "Laki-laki", "Perempuan", "Total"],
+      "rows": [
+        ["Suka bubur diaduk", "", "", ""],
+        ["Suka bubur tidak diaduk", "", "24", ""],
+        ["Total", "", "", ""]
+      ]
+    },
     "pilihan": [
       "1/7",
       "2/7",
@@ -10,7 +18,15 @@
       "5/7"
     ],
     "jawaban": "C",
-    "pembahasan": "1. **Jumlah Responden:** Laki-laki (L) = 5/12 * 120 = 50, Perempuan (P) = 7/12 * 120 = 70.\n2. **Preferensi Bubur:** Misal Diaduk = x, Tidak Diaduk = y. \n   x + y = 120 dan x - y = 2. Diperoleh x = 61, y = 59.\n3. **Tabel Laki-laki:** Diketahui P (Tidak Diaduk) = 24, maka P (Diaduk) = 70 - 24 = 46.\n   L (Diaduk) = Total Diaduk - P (Diaduk) = 61 - 46 = 15.\n   L (Tidak Diaduk) = Total L - L (Diaduk) = 50 - 15 = 35.\n4. **Peluang:** Memilih 1 L-Diaduk dan 1 L-Tidak Diaduk dari 50 Laki-laki.\n   P = (C(15,1) * C(35,1)) / C(50,2) = (15 * 35) / 1225 = 525 / 1225 = 3/7."
+    "pembahasan": "**Langkah 1: Menentukan Jumlah Laki-laki dan Perempuan**\n* Total = 120 orang\n* Laki-laki (L) = $\\frac{5}{12} \\times 120 = 50$ orang\n* Perempuan (P) = $\\frac{7}{12} \\times 120 = 70$ orang\n\n**Langkah 2: Menentukan Total Suka Diaduk dan Tidak Diaduk**\n* Misal Diaduk = $x$, Tidak Diaduk = $y$\n* $x + y = 120$\n* $x - y = 2$ (Karena mayoritas suka diaduk)\n* $2x = 122 \\implies x = 61$ (Diaduk) dan $y = 59$ (Tidak Diaduk)\n\n**Langkah 3: Mengisi Distribusi Laki-laki**\n* P (Tidak Diaduk) = 24 (dari tabel)\n* P (Diaduk) = $70 - 24 = 46$ orang\n* L (Diaduk) = Total Diaduk - P (Diaduk) = $61 - 46 = 15$ orang\n* L (Tidak Diaduk) = Total L - L (Diaduk) = $50 - 15 = 35$ orang\n\n**Langkah 4: Menghitung Peluang**\n* Memilih 2 laki-laki berbeda kesukaan artinya terpilih 1 suka diaduk dan 1 tidak suka diaduk.\n* $P = \\frac{\\binom{15}{1} \\times \\binom{35}{1}}{\\binom{50}{2}} = \\frac{15 \\times 35}{1225} = \\frac{525}{1225} = \\frac{3}{7}$",
+    "tabel_pembahasan": {
+      "header": ["", "Laki-laki", "Perempuan", "Total"],
+      "rows": [
+        ["Suka bubur diaduk", "15", "46", "61"],
+        ["Suka bubur tidak diaduk", "35", "24", "59"],
+        ["Total", "50", "70", "120"]
+      ]
+    }
   },
   {
     "id": 2,
@@ -23,11 +39,11 @@
       "27"
     ],
     "jawaban": "C",
-    "pembahasan": "1. **Tambahan Survei:** Diaduk = 7/15 * 30 = 14, Tidak Diaduk = 8/15 * 30 = 16.\n2. **Total Diaduk Baru:** 61 (dari data awal) + 14 = 75 orang.\n3. **Perempuan Suka Diaduk:** 2/3 * 75 = 50 orang.\n4. **Laki-laki Suka Diaduk:** Total Diaduk Baru - Perempuan Suka Diaduk = 75 - 50 = 25 orang."
+    "pembahasan": "1. **Data Awal Suka Diaduk:** 61 orang (dari perhitungan soal sebelumnya).\n2. **Tambahan Responden Diaduk:** $\\frac{7}{15} \\times 30 = 14$ orang.\n3. **Total Diaduk Baru:** $61 + 14 = 75$ orang.\n4. **Perempuan Suka Diaduk (Total):** $\\frac{2}{3} \\times 75 = 50$ orang.\n5. **Laki-laki Suka Diaduk (Total):** $75 - 50 = 25$ orang."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika besarnya modal biaya yang dibutuhkan Chandra untuk menjual x kaos adalah B ribu rupiah, maka B sebagai fungsi x dapat dituliskan dengan B(x) = ...",
+    "pertanyaan": "Jika besarnya modal biaya yang dibutuhkan Chandra untuk menjual $x$ kaos adalah $B$ ribu rupiah, maka $B$ sebagai fungsi $x$ dapat dituliskan dengan $B(x) = \\dots$",
     "pilihan": [
       "600 - 50x",
       "600 - 20x",
@@ -36,7 +52,7 @@
       "600 + 100x"
     ],
     "jawaban": "D",
-    "pembahasan": "Berdasarkan analisis struktur ekonomi pada soal, B(x) terdiri dari biaya tetap dan biaya variabel. Dengan asumsi biaya tetap 600 ribu dan biaya variabel 50 ribu per kaos (yang sesuai dengan hasil perhitungan pada soal nomor 4), maka persamaannya adalah B(x) = 600 + 50x."
+    "pembahasan": "Fungsi biaya linear memiliki bentuk umum $B(x) = (\\text{Biaya Tetap}) + (\\text{Biaya Variabel} \\cdot x)$. Berdasarkan konteks soal ekonomi standar dan sinkronisasi dengan soal nomor 4, biaya tetap adalah 600 (ribu) dan biaya variabel per unit adalah 50 (ribu). Maka fungsi biaya adalah $B(x) = 600 + 50x$."
   },
   {
     "id": 4,
@@ -49,7 +65,7 @@
       "rugi Rp150.000,00"
     ],
     "jawaban": "A",
-    "pembahasan": "1. **Asumsi Harga Jual:** 100rb/kaos. Pendapatan = 15 * 100 = 1.500 ribu.\n2. **Total Biaya (B):** B(15) = 600 + 50(15) = 600 + 750 = 1.350 ribu.\n3. **Laba/Rugi:** Pendapatan - Biaya = 1.500 - 1.350 = 150 ribu (Untung)."
+    "pembahasan": "**Diketahui:**\n* Fungsi Biaya: $B(x) = 600 + 50x$ (dalam ribu rupiah)\n* Harga Jual per Kaos (Asumsi): Rp100.000,00 (100 ribu)\n\n**Perhitungan untuk x = 15:**\n1. **Total Biaya:** $B(15) = 600 + 50(15) = 600 + 750 = 1.350$ ribu (Rp1.350.000,00)\n2. **Total Pendapatan:** $100 \\times 15 = 1.500$ ribu (Rp1.500.000,00)\n3. **Laba/Rugi:** $1.500.000 - 1.350.000 = 150.000$\n\n**Kesimpulan:** Chandra mengalami **untung Rp150.000,00**."
   },
   {
     "id": 5,
