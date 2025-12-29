@@ -1,14 +1,19 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Perhatikan data survei berikut untuk menjawab soal 1-4.\n\n Jika dilakukan survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan adalah 5 : 7. Selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 dengan mayoritas lebih menyukai bubur diaduk. Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
+    "pertanyaan": "Perhatikan data survei berikut untuk menjawab soal 1-4.\n\nJika dilakukan survei terhadap 120 orang dengan perbandingan laki-laki dan perempuan adalah 5 : 7. Selisih antara yang suka bubur diaduk dan tidak diaduk adalah 2 dengan mayoritas lebih menyukai bubur diaduk. Jika dipilih 2 orang laki-laki secara acak, maka peluang yang terpilih berbeda kesukaan jenis buburnya adalah ...",
     "tabel": {
-      "header": ["", "Laki-laki", "Perempuan", "Total"],
+      "header": ["Kategori", "Laki-laki", "Perempuan", "Total"],
       "rows": [
-        ["Suka bubur diaduk", "", "", ""],
-        ["Suka bubur tidak diaduk", "", "24", ""],
-        ["Total", "", "", ""]
-      ]
+        ["Suka bubur diaduk", "15", "46", "61"],
+        ["Suka bubur tidak diaduk", "35", "24", "59"],
+        ["Total", "50", "70", "120"]
+      ],
+      "metadata": {
+        "responsive": true,
+        "small_screen_mode": "vertical_cards",
+        "min_column_width": "80dp"
+      }
     },
     "pilihan": [
       "1/7",
@@ -20,26 +25,13 @@
     "jawaban": "C",
     "pembahasan": "**Langkah 1: Menentukan Jumlah Laki-laki dan Perempuan**\n* Total = 120 orang\n* Laki-laki (L) = $\\frac{5}{12} \\times 120 = 50$ orang\n* Perempuan (P) = $\\frac{7}{12} \\times 120 = 70$ orang\n\n**Langkah 2: Menentukan Total Suka Diaduk dan Tidak Diaduk**\n* Misal Diaduk = $x$, Tidak Diaduk = $y$\n* $x + y = 120$\n* $x - y = 2$ (Karena mayoritas suka diaduk)\n* $2x = 122 \\implies x = 61$ (Diaduk) dan $y = 59$ (Tidak Diaduk)\n\n**Langkah 3: Mengisi Distribusi Laki-laki**\n* P (Tidak Diaduk) = 24 (dari tabel)\n* P (Diaduk) = $70 - 24 = 46$ orang\n* L (Diaduk) = Total Diaduk - P (Diaduk) = $61 - 46 = 15$ orang\n* L (Tidak Diaduk) = Total L - L (Diaduk) = $50 - 15 = 35$ orang\n\n**Langkah 4: Menghitung Peluang**\n* Memilih 2 laki-laki berbeda kesukaan artinya terpilih 1 suka diaduk dan 1 tidak suka diaduk.\n* $P = \\frac{\\binom{15}{1} \\times \\binom{35}{1}}{\\binom{50}{2}} = \\frac{15 \\times 35}{1225} = \\frac{525}{1225} = \\frac{3}{7}$",
     "tabel_pembahasan": {
-      "header": ["", "Laki-laki", "Perempuan", "Total"],
+      "header": ["Kategori", "Laki-laki", "Perempuan", "Total"],
       "rows": [
         ["Suka bubur diaduk", "15", "46", "61"],
         ["Suka bubur tidak diaduk", "35", "24", "59"],
         ["Total", "50", "70", "120"]
       ]
     }
-  },
-  {
-    "id": 2,
-    "pertanyaan": "Jika dilakukan survei lanjutan sebanyak 30 orang dengan perbandingan suka bubur diaduk dan tidak diaduk 7 : 8. Setelah dikalkulasi ulang, 2/3 yang suka bubur diaduk adalah perempuan, maka jumlah total laki-laki yang suka bubur diaduk adalah ... orang.",
-    "pilihan": [
-      "20",
-      "22",
-      "25",
-      "26",
-      "27"
-    ],
-    "jawaban": "C",
-    "pembahasan": "1. **Data Awal Suka Diaduk:** 61 orang (dari perhitungan soal sebelumnya).\n2. **Tambahan Responden Diaduk:** $\\frac{7}{15} \\times 30 = 14$ orang.\n3. **Total Diaduk Baru:** $61 + 14 = 75$ orang.\n4. **Perempuan Suka Diaduk (Total):** $\\frac{2}{3} \\times 75 = 50$ orang.\n5. **Laki-laki Suka Diaduk (Total):** $75 - 50 = 25$ orang."
   },
   {
     "id": 3,
