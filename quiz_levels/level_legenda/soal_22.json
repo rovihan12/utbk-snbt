@@ -1,1 +1,7 @@
-
+{
+    "id": 1,
+    "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 12 m. Setiap kali memantul, bola mencapai $\\tfrac{3}{4}$ tinggi sebelumnya. Berapa total jarak bola hingga berhenti?",
+    "pilihan": ["48 m", "72 m", "84 m", "96 m", "108 m"],
+    "jawaban": "C",
+    "pembahasan": "Jatuh pertama $=12$ m.\n\nPantulan membentuk deret geometri: $12(\\tfrac{3}{4}), 12(\\tfrac{3}{4})^2, ...$\n\nTotal jarak $=12+2\\sum_{k=1}^\\infty 12(\\tfrac{3}{4})^k$.\n\n$=12+24\\cdot \\dfrac{3/4}{1-3/4}=12+72=84$ m.\n\n**Jadi, total jarak = 84 m.**"
+  }
