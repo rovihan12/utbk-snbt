@@ -1,1 +1,11 @@
+{
+    "id": 1,
+    "pertanyaan": "Jika $x$ dan $y$ adalah bilangan real positif, dan $\\frac{x}{y} = \\frac{3}{5}$.\n\nTentukan hubungan antara Kuantitas P dan Kuantitas Q berikut!",
+    "kuantitas_p": "$P = \\frac{5x + 3y}{2y}$",
+    "kuantitas_q": "$Q = \\frac{3x + 5y}{2x}$",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_085614_Google.jpg",
+    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = Q"],
+    "jawaban": "B",
+    "pembahasan": "Dari $\\frac{x}{y} = \\frac{3}{5}$, kita dapat mengasumsikan $x=3k$ dan $y=5k$ untuk suatu $k>0$. \nHitung P: $P = \\frac{5(3k) + 3(5k)}{2(5k)} = \\frac{15k + 15k}{10k} = \\frac{30k}{10k} = 3$.\nHitung Q: $Q = \\frac{3(3k) + 5(5k)}{2(3k)} = \\frac{9k + 25k}{6k} = \\frac{34k}{6k} = \\frac{17}{3} \\approx 5.67$. \nKarena $P=3$ dan $Q=\\frac{17}{3}$, maka $P < Q$."
+  }
 
