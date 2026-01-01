@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "latest_version": "V28",  // 🔴 UPDATE
-  "update_type": "force",  // 🔴 KEEP AS FORCE untuk V27 ke V28
+  "latest_version": "V28",
+  "update_type": "force",
   "update_required": true,
   "message": "⚡ **UPDATE WAJIB V28**\n\nVersi V27 memiliki bug kritis pada sistem kuis. Anda **harus** update ke V28 untuk melanjutkan penggunaan aplikasi.",
-  "min_required_version": "V26",  // 🔴 UPDATE
-  "blocked_versions": ["V27"],  // 🔴 TAMBAHKAN V27
+  "min_required_version": "V26",
+  "blocked_versions": ["V27"],
   "play_store_url": "https://play.google.com/store/apps/details?id=com.rovihan.utbksnbt",
   "release_notes": [
     "🎯 **MAJOR UPDATE V28**: Perbaikan sistem kuis dan performa",
@@ -17,6 +17,6 @@
     "🐛 **BUG FIXES**: Perbaikan berbagai bug dan crash"
   ],
   "platform": "android",
-  "timestamp": "2026-01-01 22:00:00",  // 🔴 UPDATE TIMESTAMP
+  "timestamp": "2026-01-01 22:00:00",
   "app_name": "Giat UTBK SNBT"
 }
