@@ -1,23 +1,22 @@
 {
   "status": "success",
-  "latest_version": "V26",
-  "update_type": "force",
+  "latest_version": "V28",  // 🔴 UPDATE
+  "update_type": "force",  // 🔴 KEEP AS FORCE untuk V27 ke V28
   "update_required": true,
-  "message": "⚡ **UPDATE WAJIB**\n\nVersi baru V26 sudah tersedia dengan sistem force update yang lebih baik!\n\nUntuk melanjutkan penggunaan aplikasi, Anda **harus** update ke V26. Update ini penting untuk stabilitas dan keamanan aplikasi.",
-  "min_required_version": "V24",
-  "blocked_versions": [],
+  "message": "⚡ **UPDATE WAJIB V28**\n\nVersi V27 memiliki bug kritis pada sistem kuis. Anda **harus** update ke V28 untuk melanjutkan penggunaan aplikasi.",
+  "min_required_version": "V26",  // 🔴 UPDATE
+  "blocked_versions": ["V27"],  // 🔴 TAMBAHKAN V27
   "play_store_url": "https://play.google.com/store/apps/details?id=com.rovihan.utbksnbt",
   "release_notes": [
-    "🚀 **FORCE UPDATE SYSTEM**: Implementasi sistem pembaruan otomatis",
-    "📱 **NAVIGASI FIXED**: Perbaikan navigasi menu Akun Saya",
-    "🔧 **BUG FIXES**: Perbaikan berbagai crash dan error",
-    "🎯 **PERFORMANCE**: Optimasi startup time 40% lebih cepat",
-    "💾 **MEMORY OPTIMIZATION**: Penggunaan RAM lebih efisien",
-    "📊 **DATA INTEGRITY**: Sistem penyimpanan data lebih aman",
-    "🔔 **NOTIFICATION**: Sistem notifikasi diperbarui",
-    "⚡ **STABILITY**: Aplikasi lebih stabil dan responsif"
+    "🎯 **MAJOR UPDATE V28**: Perbaikan sistem kuis dan performa",
+    "🔧 **QUIZ SYSTEM FIX**: Perbaikan bug pada sistem kuis level",
+    "⚡ **PERFORMANCE OPTIMIZATION**: Optimasi memori dan kecepatan",
+    "📊 **DATA SYNC FIXED**: Perbaikan sinkronisasi data dengan Firebase",
+    "🎮 **LEGENDA STATUS**: Sistem status LEGENDA UTBK yang diperbaiki",
+    "📱 **UI IMPROVEMENTS**: Perbaikan antarmuka pengguna",
+    "🐛 **BUG FIXES**: Perbaikan berbagai bug dan crash"
   ],
   "platform": "android",
-  "timestamp": "2024-01-15 10:30:00",
+  "timestamp": "2026-01-01 22:00:00",  // 🔴 UPDATE TIMESTAMP
   "app_name": "Giat UTBK SNBT"
 }
