@@ -1,5 +1,5 @@
 <?php
-// version-check.php untuk V27
+// version-check.php untuk V28
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
@@ -26,10 +26,10 @@ if (empty($current_version)) {
     exit;
 }
 
-// ✅ VERSI TERBARU: UPDATE KE V27
-$latest_version = "V27";  // 🔴 UPDATE: DARI "V26" KE "V27"
-$min_required_version = "V25";  // 🔴 UPDATE: DARI "V24" KE "V25"
-$blocked_versions = [];         // Tidak ada versi yang diblokir untuk V27
+// ✅ VERSI TERBARU: UPDATE KE V28
+$latest_version = "V28";  // 🔴 UPDATE: DARI "V27" KE "V28"
+$min_required_version = "V26";  // 🔴 UPDATE: DARI "V25" KE "V26"
+$blocked_versions = ["V27"];    // 🔴 TAMBAHKAN: BLOKIR V27 (karena ada bug kritis)
 
 // Initialize response variables
 $update_required = false;
@@ -59,11 +59,12 @@ function isDevelopmentVersion($version) {
 
 // Check if current version is blocked
 if (in_array($current_version, $blocked_versions)) {
-    // FORCE UPDATE untuk versi yang diblokir
+    // FORCE UPDATE untuk versi yang diblokir (V27)
     $update_required = true;
     $update_type = "force";
-    $message = "🚫 Versi $current_version memiliki masalah teknis. " .
-               "Silakan segera update ke versi $latest_version untuk melanjutkan penggunaan aplikasi.";
+    $message = "🚫 **UPDATE WAJIB V28**\n\n" .
+               "Versi V27 memiliki bug kritis pada sistem kuis. " .
+               "Anda **harus** update ke versi V28 untuk melanjutkan penggunaan aplikasi.";
     
 } else {
     // Development versions selalu soft update
@@ -82,24 +83,24 @@ if (in_array($current_version, $blocked_versions)) {
         
     } else {
         // Production version check dengan strategi khusus:
-        // - V24: Force update (tidak didukung lagi)
-        // - V25: Force update (wajib update ke V27)
-        // - V26: Force update (wajib update ke V27)
+        // - V24 dan V25: Force update (tidak didukung lagi)
+        // - V26: Force update (wajib update ke V28)
+        // - V27: BLOCKED (sudah dihandle di atas)
         
         $compare_current_min = compareVersions($current_version, $min_required_version);
         $compare_current_latest = compareVersions($current_version, $latest_version);
 
-        // VERSI V24 (TIDAK DIDUKUNG LAGI - FORCE UPDATE)
-        if ($current_version === "V24") {
+        // VERSI V24 dan V25 (TIDAK DIDUKUNG LAGI - FORCE UPDATE)
+        if ($current_version === "V24" || $current_version === "V25") {
             $update_required = true;
             $update_type = "force";
             $message = "🚫 **UPDATE WAJIB**\n\n" .
-                       "Versi V24 sudah tidak didukung karena perubahan besar dalam sistem.\n\n" .
-                       "Anda **harus** update ke V27 untuk melanjutkan penggunaan aplikasi.";
+                       "Versi $current_version sudah tidak didukung karena perubahan besar dalam sistem.\n\n" .
+                       "Anda **harus** update ke V28 untuk melanjutkan penggunaan aplikasi.";
             
         } elseif ($compare_current_min < 0) {
             // Current version is less than minimum required - FORCE UPDATE
-            // Ini untuk versi dibawah V24
+            // Ini untuk versi dibawah V24 (V1-V23)
             $update_required = true;
             $update_type = "force";
             $message = "⚠️ **UPDATE WAJIB**\n\n" .
@@ -108,13 +109,14 @@ if (in_array($current_version, $blocked_versions)) {
                        "dan mendapatkan fitur terbaru serta perbaikan keamanan.";
             
         } elseif ($compare_current_latest < 0) {
-            // Current version is less than latest - FORCE UPDATE untuk V25 dan V26
+            // Current version is less than latest - FORCE UPDATE untuk V26
+            // (V27 sudah dihandle sebagai blocked version di atas)
             $update_required = true;
             $update_type = "force";
-            $message = "⚡ **UPDATE WAJIB**\n\n" .
-                       "Versi baru $latest_version sudah tersedia dengan fitur-fitur baru!\n\n" .
-                       "Untuk melanjutkan penggunaan aplikasi, Anda **harus** update ke V27. " .
-                       "Update ini penting untuk stabilitas dan fitur terbaru aplikasi.";
+            $message = "⚡ **UPDATE WAJIB V28**\n\n" .
+                       "Versi baru $latest_version sudah tersedia dengan perbaikan bug kritis!\n\n" .
+                       "Untuk melanjutkan penggunaan aplikasi, Anda **harus** update ke V28. " .
+                       "Update ini penting untuk stabilitas dan pengalaman pengguna yang lebih baik.";
             
         } else {
             // Current version is up to date or newer - NO UPDATE
@@ -129,6 +131,16 @@ if (in_array($current_version, $blocked_versions)) {
 
 // Prepare release notes for each version
 $release_notes = [
+    "V28" => [
+        "🎯 **MAJOR UPDATE V28**: Perbaikan sistem kuis dan performa",
+        "🔧 **QUIZ SYSTEM FIX**: Perbaikan bug pada sistem kuis level",
+        "⚡ **PERFORMANCE OPTIMIZATION**: Optimasi memori dan kecepatan",
+        "📊 **DATA SYNC FIXED**: Perbaikan sinkronisasi data dengan Firebase",
+        "🎮 **LEGENDA STATUS**: Sistem status LEGENDA UTBK yang diperbaiki",
+        "🔔 **NOTIFICATION FIX**: Perbaikan sistem notifikasi",
+        "📱 **UI IMPROVEMENTS**: Perbaikan antarmuka pengguna",
+        "🐛 **BUG FIXES**: Perbaikan berbagai bug dan crash"
+    ],
     "V27" => [
         "🌟 **GRAND UPDATE V27**: Perubahan besar dengan banyak fitur baru",
         "🎯 **ENHANCED NAVIGATION**: Sistem navigasi yang lebih intuitif",
@@ -188,9 +200,14 @@ if (isDevelopmentVersion($current_version)) {
     $response["warning"] = "Anda menggunakan versi development. Fitur mungkin tidak stabil.";
 }
 
-// Untuk V25 dan V26, tambahkan catatan khusus
-if ($current_version === "V25" || $current_version === "V26") {
-    $response["note"] = "Versi ini masih didukung, namun wajib update ke V27 untuk fitur terbaru.";
+// Untuk V26, tambahkan catatan khusus
+if ($current_version === "V26") {
+    $response["note"] = "Versi ini masih didukung, namun wajib update ke V28 untuk perbaikan bug kritis.";
+}
+
+// Untuk V27 (blocked version), tambahkan warning khusus
+if ($current_version === "V27") {
+    $response["critical_warning"] = "VERSI INI DIBLOKIR karena bug kritis pada sistem kuis. Harap update segera!";
 }
 
 // Send JSON response
