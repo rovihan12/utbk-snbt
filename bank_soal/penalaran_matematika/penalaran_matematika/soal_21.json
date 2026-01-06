@@ -1,5 +1,43 @@
 {
-  "id": 20,
+[
+  {
+    "id": 1,
+    "pertanyaan": "Perhatikan grafik penjualan berikut! Berdasarkan grafik, berapakah penjualan produk pada bulan Maret?",
+    "pilihan": [
+      "A. 120 unit",
+      "B. 150 unit",
+      "C. 180 unit",
+      "D. 210 unit",
+      "E. 240 unit"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Dari grafik dapat dilihat bahwa pada bulan Maret, penjualan mencapai puncak tertinggi yaitu 180 unit.",
+    "chart": {
+      "config": {
+        "type": "bar",
+        "title": "Penjualan Produk A (Januari - Mei 2024)",
+        "xAxisLabel": "Bulan",
+        "yAxisLabel": "Jumlah Penjualan (unit)",
+        "showLegend": false
+      },
+      "labels": ["Januari", "Februari", "Maret", "April", "Mei"],
+      "datasets": [
+        {
+          "label": "Penjualan",
+          "data": [
+            { "value": 120.0 },
+            { "value": 150.0 },
+            { "value": 180.0 },
+            { "value": 150.0 },
+            { "value": 130.0 }
+          ],
+          "backgroundColor": "#2196F380",
+          "borderColor": "#2196F3"
+        }
+      ]
+    }
+  },
+  "id": 2,
   "pertanyaan": "Data hasil penjualan rata-rata setiap bulan sebuah toko mebel bulan November ditampilkan pada tabel di samping. Jika pendapatan rata-rata meja makan adalah Rp20.000.000,00 dan itu sudah termasuk untung 25%, maka modal yang dikeluarkan untuk meja makan adalah ...",
   "tabel": {
     "header": ["Jenis Barang", "Pendapatan (juta rupiah)", "Keuntungan"],
