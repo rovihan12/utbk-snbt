@@ -1,15 +1,15 @@
 [
 {
     "id": 1,
-    "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
-    "pilihan": ["25%", "35%", "45%", "55%", "65%"],
-    "jawaban": "C",
-    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
-    "chart": {
-      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
-      "labels": ["60-70", "71-80", "81-90", "91-100"],
-      "data": [20.0, 35.0, 30.0, 15.0],
-      "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }
+    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 4-6.\n\n**Teks 2**\n\nMetaverse menjadi topik panas dalam perkembangan teknologi terkini. Konsep dunia virtual 3D ini diyakini akan mengubah cara manusia berinteraksi, bekerja, dan bermain. Perusahaan seperti Meta telah menginvestasikan miliaran dolar untuk pengembangannya. Namun, isu privasi data, kecanduan digital, dan kesenjangan akses teknologi menimbulkan kekhawatiran. Survei Pew Research menunjukkan 54% pakar percaya metaverse akan berdampak negatif pada masyarakat pada 2040. Pemerintah berbagai negara mulai menyusun regulasi untuk mengantisipasi dampak sosial dari teknologi ini.",
+    "pilihan": [
+      "Metaverse adalah teknologi usang yang tidak berkembang",
+      "Metaverse merupakan konsep dunia virtual dengan potensi dan tantangan sosial",
+      "Tidak ada perusahaan yang tertarik mengembangkan metaverse",
+      "Semua orang setuju metaverse akan berdampak positif",
+      "Tidak ada kekhawatiran tentang privasi data"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Gagasan utama teks adalah metaverse sebagai konsep dunia virtual dengan potensi transformasi sosial dan berbagai kekhawatiran."
   }
 ]
