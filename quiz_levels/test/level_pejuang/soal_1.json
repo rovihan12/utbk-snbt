@@ -29,5 +29,129 @@
       "data": [20.0, 35.0, 30.0, 15.0],
       "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
     }
+  },
+     {
+    "id": 3,
+    "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
+    "pilihan": ["100", "150", "180", "200", "220"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n- Produk C: 60 unit\n- Produk D: 120 unit\n\n**Total A + B = 80 + 100 = 180 unit**\n\nJadi jawaban yang benar adalah 180.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.BarChart",
+      "labels": ["A", "B", "C", "D"],
+      "datasets": [
+        {
+          "label": "Produksi (unit)",
+          "data": [80.0, 100.0, 60.0, 120.0],
+          "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
+    "pilihan": ["25%", "35%", "45%", "55%", "65%"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
+      "labels": ["60-70", "71-80", "81-90", "91-100"],
+      "data": [20.0, 35.0, 30.0, 15.0],
+      "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+    }
+  },
+     {
+    "id": 5,
+    "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
+    "pilihan": ["100", "150", "180", "200", "220"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n- Produk C: 60 unit\n- Produk D: 120 unit\n\n**Total A + B = 80 + 100 = 180 unit**\n\nJadi jawaban yang benar adalah 180.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.BarChart",
+      "labels": ["A", "B", "C", "D"],
+      "datasets": [
+        {
+          "label": "Produksi (unit)",
+          "data": [80.0, 100.0, 60.0, 120.0],
+          "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
+    "pilihan": ["25%", "35%", "45%", "55%", "65%"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
+      "labels": ["60-70", "71-80", "81-90", "91-100"],
+      "data": [20.0, 35.0, 30.0, 15.0],
+      "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+    }
+  },
+     {
+    "id": 7,
+    "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
+    "pilihan": ["100", "150", "180", "200", "220"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n- Produk C: 60 unit\n- Produk D: 120 unit\n\n**Total A + B = 80 + 100 = 180 unit**\n\nJadi jawaban yang benar adalah 180.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.BarChart",
+      "labels": ["A", "B", "C", "D"],
+      "datasets": [
+        {
+          "label": "Produksi (unit)",
+          "data": [80.0, 100.0, 60.0, 120.0],
+          "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
+    "pilihan": ["25%", "35%", "45%", "55%", "65%"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
+      "labels": ["60-70", "71-80", "81-90", "91-100"],
+      "data": [20.0, 35.0, 30.0, 15.0],
+      "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+    }
+  },
+     {
+    "id": 9,
+    "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
+    "pilihan": ["100", "150", "180", "200", "220"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n- Produk C: 60 unit\n- Produk D: 120 unit\n\n**Total A + B = 80 + 100 = 180 unit**\n\nJadi jawaban yang benar adalah 180.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.BarChart",
+      "labels": ["A", "B", "C", "D"],
+      "datasets": [
+        {
+          "label": "Produksi (unit)",
+          "data": [80.0, 100.0, 60.0, 120.0],
+          "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
+    "pilihan": ["25%", "35%", "45%", "55%", "65%"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
+      "labels": ["60-70", "71-80", "81-90", "91-100"],
+      "data": [20.0, 35.0, 30.0, 15.0],
+      "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+    }
   }
 ]
