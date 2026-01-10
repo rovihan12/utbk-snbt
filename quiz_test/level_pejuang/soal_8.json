@@ -1,0 +1,15 @@
+[
+{
+    "id": 1,
+    "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
+    "pilihan": ["25%", "35%", "45%", "55%", "65%"],
+    "jawaban": "C",
+    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
+    "chart": {
+      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
+      "labels": ["60-70", "71-80", "81-90", "91-100"],
+      "data": [20.0, 35.0, 30.0, 15.0],
+      "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
+    }
+  }
+]
