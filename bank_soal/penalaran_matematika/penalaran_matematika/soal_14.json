@@ -140,16 +140,12 @@
   },
     {
     "id": 12,
-    "pertanyaan": "Diketahui barisan geometri: 16, 8, 4, ..., $\\frac{1}{64}$. Berapa banyak suku dalam barisan tersebut?",
-    "pilihan": [
-      "10",
-      "11",
-      "12",
-      "13",
-      "14"
-    ],
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/denah.png",
+    "pertanyaan": "Luas toilet rumah Anton sebenarnya adalah ....",
+    "pilihan": ["6 m^2", "12 m^2", "1.200 m^2", "6.000 cm^2", "12.000 cm^2"],
     "jawaban": "B",
-    "pembahasan": "**Langkah Barisan Geometri**:\n$a=16, r = \\frac{1}{2}, U_{n} = \\frac{1}{64}$.\nRumus: $U_{n} = a \\times r^{n-1}$\n$\\frac{1}{64} = 16 \\times (\\frac{1}{2})^{n-1}$\n$\\frac{1}{1024} = (\\frac{1}{2})^{n-1}$\nKarena $1024 = 2^{10}$, maka: $(\\frac{1}{2})^{10} = (\\frac{1}{2})^{n-1}$\n$10 = n-1 \\Rightarrow n = 11$."
+    "pembahasan": "1. **Tentukan skala dan dimensi denah**: Skala 1:100. Luas bangunan sebenarnya $12\\text{ m} \\times 16\\text{ m}$, maka dimensi pada denah adalah $12\\text{ cm} \\times 16\\text{ cm}$.\n2. **Cari tinggi toilet pada denah**: Total tinggi sisi kanan denah adalah $16\\text{ cm}$. Berdasarkan gambar, tinggi toilet $= 16 - (5 + 5 + 4) = 2\\text{ cm}$.\n3. **Cari lebar toilet pada denah**: Karena toilet sejajar dengan Kamar 2, maka lebarnya sama yaitu $6\\text{ cm}$.\n4. **Hitung dimensi sebenarnya**: Tinggi sebenarnya $= 2\\text{ cm} \\times 100 = 200\\text{ cm} (2\\text{ m})$. Lebar sebenarnya $= 6\\text{ cm} \\times 100 = 600\\text{ cm} (6\\text{ m})$.\n5. **Hitung luas**: Luas sebenarnya $= 2\\text{ m} \\times 6\\text{ m} = 12\\text{ m}^2$.",
+    "keterangan_soal": "Menghitung Luas Sebenarnya Berdasarkan Denah dan Skala"
   },
   {
     "id": 13,
