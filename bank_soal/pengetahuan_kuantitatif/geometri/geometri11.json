@@ -1,1 +1,22 @@
-
+[
+  {
+    "id": 1,
+    "kategori": "Geometri",
+    "gambar": "image_8e6eb3.png",
+    "pertanyaan": "Jika besar $\\angle OCB = 65^{\\circ}$, maka besar $\\angle AOC$ adalah ....",
+    "pilihan": ["50^{\\circ}", "65^{\\circ}", "70^{\\circ}", "130^{\\circ}"],
+    "jawaban": "D",
+    "pembahasan": "1. Perhatikan $\\triangle OCB$. Karena $OC$ dan $OB$ adalah jari-jari lingkaran, maka $OC = OB$, sehingga $\\triangle OCB$ adalah segitiga sama kaki.\n2. Besar sudut alas segitiga sama kaki adalah sama, maka $\\angle OBC = \\angle OCB = 65^{\\circ}$.\n3. Cari besar sudut pusat $\\angle COB$:\n   $\\angle COB = 180^{\\circ} - (\\angle OCB + \\angle OBC)$\n   $\\angle COB = 180^{\\circ} - (65^{\\circ} + 65^{\\circ}) = 50^{\\circ}$.\n4. Sudut $\\angle AOC$ dan $\\angle COB$ adalah sudut berpelurus, maka:\n   $\\angle AOC = 180^{\\circ} - \\angle COB$\n   $\\angle AOC = 180^{\\circ} - 50^{\\circ} = 130^{\\circ}$.",
+    "keterangan_soal": "Sudut Pusat dan Sifat Segitiga dalam Lingkaran"
+  },
+  {
+    "id": 2,
+    "kategori": "Geometri",
+    "gambar": "image_8e67a9.png",
+    "pertanyaan": "Pada gambar di samping, jika besar sudut $AOB = 40^{\\circ}$, maka besar $\\angle ACD = ....$",
+    "pilihan": ["70^{\\circ}", "72^{\\circ}", "80^{\\circ}", "83^{\\circ}"],
+    "jawaban": "A",
+    "pembahasan": "1. Sudut $AOB$ dan $AOD$ berpelurus karena $BD$ adalah diameter, maka $\\angle AOD = 180^{\\circ} - 40^{\\circ} = 140^{\\circ}$.\n2. Sudut $AOD$ adalah sudut pusat dan sudut $ACD$ adalah sudut keliling yang keduanya menghadap busur yang sama ($AD$).\n3. Berdasarkan aturan geometri, sudut keliling = $\\frac{1}{2} \\times$ sudut pusat.\n4. Maka, $\\angle ACD = \\frac{1}{2} \\times 140^{\\circ} = 70^{\\circ}$.",
+    "keterangan_soal": "Hubungan Sudut Pusat dan Sudut Keliling Lingkaran"
+  }
+]
