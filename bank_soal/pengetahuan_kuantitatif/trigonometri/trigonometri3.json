@@ -26,5 +26,19 @@
     ],
     "jawaban": "A",
     "pembahasan": "Langkah 1: Jabarkan bentuk kuadrat dari $x$ dan $y$.\n$x^2 = (\\cos A - 2 \\sin B)^2 = \\cos^2 A - 4 \\cos A \\sin B + 4 \\sin^2 B$\n$y^2 = (\\sin A + 2 \\cos B)^2 = \\sin^2 A + 4 \\sin A \\cos B + 4 \\cos^2 B$\n\nLangkah 2: Jumlahkan $x^2 + y^2$.\n$x^2 + y^2 = (\\cos^2 A + \\sin^2 A) + 4(\\sin^2 B + \\cos^2 B) + 4(\\sin A \\cos B - \\cos A \\sin B)$\n\nLangkah 3: Gunakan identitas $\\sin^2 \\theta + \\cos^2 \\theta = 1$ dan selisih sudut $\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$.\n$x^2 + y^2 = 1 + 4(1) + 4 \\sin(A - B)$\n$x^2 + y^2 = 5 + 4 \\sin(A - B)$\n\nLangkah 4: Cari nilai minimum. Nilai minimum $\\sin(A - B)$ adalah $-1$.\n$x^2 + y^2 = 5 + 4(-1) = 5 - 4 = 1$"
+  },
+  {
+    "id": 3,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\tan 2\\alpha = 4 \\sin \\alpha \\cos \\alpha$ untuk $\\pi/2 < \\alpha < \\pi$, maka $\\cos \\alpha = ....$",
+    "pilihan": [
+      "$\\frac{1}{2}\\sqrt{3}$",
+      "$\\frac{1}{2}$",
+      "$0$",
+      "$-\\frac{1}{2}$",
+      "$-\\frac{1}{2}\\sqrt{3}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Langkah 1: Gunakan identitas sudut ganda. $4 \\sin \\alpha \\cos \\alpha = 2 \\sin 2\\alpha$. Persamaan menjadi $\\tan 2\\alpha = 2 \\sin 2\\alpha$.\nLangkah 2: Jabarkan $\\tan 2\\alpha$ menjadi $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha}$. Maka $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha} = 2 \\sin 2\\alpha$, sehingga $\\cos 2\\alpha = 1/2$.\nLangkah 3: Gunakan identitas $\\cos 2\\alpha = 2 \\cos^2 \\alpha - 1$. Maka $2 \\cos^2 \\alpha - 1 = 1/2 \\Rightarrow 2 \\cos^2 \\alpha = 3/2 \\Rightarrow \\cos^2 \\alpha = 3/4$.\nLangkah 4: Karena $\\alpha$ di Kuadran II, maka nilai kosinus negatif. $\\cos \\alpha = -\\sqrt{3/4} = -\\frac{1}{2}\\sqrt{3}$."
   }
 ]
