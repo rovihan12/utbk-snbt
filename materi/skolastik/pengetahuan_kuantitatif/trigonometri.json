@@ -15,15 +15,11 @@
         },
         {
           "judul": "Sudut Istimewa (Wajib Hafal)",
-          "teks": "| Sudut | $\\sin$ | $\\cos$ | $\\tan$ | $\\csc$ | $\\sec$ | $\\cot$ |\n|-------|--------|--------|--------|--------|--------|--------|\n| $0^\\circ$ | $0$ | $1$ | $0$ | $\\infty$ | $1$ | $\\infty$ |\n| $30^\\circ$ | $\\frac{1}{2}$ | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{\\sqrt{3}}$ | $2$ | $\\frac{2}{\\sqrt{3}}$ | $\\sqrt{3}$ |\n| $45^\\circ$ | $\\frac{\\sqrt{2}}{2}$ | $\\frac{\\sqrt{2}}{2}$ | $1$ | $\\sqrt{2}$ | $\\sqrt{2}$ | $1$ |\n| $60^\\circ$ | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{2}$ | $\\sqrt{3}$ | $\\frac{2}{\\sqrt{3}}$ | $2$ | $\\frac{1}{\\sqrt{3}}$ |\n| $90^\\circ$ | $1$ | $0$ | $\\infty$ | $1$ | $\\infty$ | $0$ |\nTabel: Nilai fungsi trigonometri untuk sudut istimewa"
+          "teks": "| Sudut | $\\sin$ | $\\cos$ | $\\tan$ |\n|-------|--------|--------|--------|\n| $0^\\circ$ | $0$ | $1$ | $0$ |\n| $30^\\circ$ | $\\frac{1}{2}$ | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{\\sqrt{3}}$ |\n| $45^\\circ$ | $\\frac{\\sqrt{2}}{2}$ | $\\frac{\\sqrt{2}}{2}$ | $1$ |\n| $60^\\circ$ | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{2}$ | $\\sqrt{3}$ |\n| $90^\\circ$ | $1$ | $0$ | $\\infty$ |"
         },
         {
           "judul": "Kuadran dan Tanda Fungsi Trigonometri",
-          "teks": "| Kuadran | Rentang Sudut | Sin | Cos | Tan | Cot | Sec | Csc |\n|---------|---------------|-----|-----|-----|-----|-----|-----|\n| I | $0^\\circ-90^\\circ$ | + | + | + | + | + | + |\n| II | $90^\\circ-180^\\circ$ | + | - | - | - | - | + |\n| III | $180^\\circ-270^\\circ$ | - | - | + | + | - | - |\n| IV | $270^\\circ-360^\\circ$ | - | + | - | - | + | - |\nTabel: Tanda fungsi trigonometri di setiap kuadran\n\nMnemonic: **\"All Students Take Calculus\"**\n- **A**ll: Semua positif di kuadran I\n- **S**tudents: Sin positif di kuadran II\n- **T**ake: Tan positif di kuadran III\n- **C**alculus: Cos positif di kuadran IV"
-        },
-        {
-          "judul": "Perbandingan Sudut Berelasi",
-          "teks": "| Fungsi | $\\theta$ | $90^\\circ - \\theta$ | $90^\\circ + \\theta$ | $180^\\circ - \\theta$ | $180^\\circ + \\theta$ | $270^\\circ - \\theta$ | $270^\\circ + \\theta$ | $360^\\circ - \\theta$ |\n|--------|-----------|----------------------|----------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|\n| sin | $\\sin \\theta$ | $\\cos \\theta$ | $\\cos \\theta$ | $\\sin \\theta$ | $-\\sin \\theta$ | $-\\cos \\theta$ | $-\\cos \\theta$ | $-\\sin \\theta$ |\n| cos | $\\cos \\theta$ | $\\sin \\theta$ | $-\\sin \\theta$ | $-\\cos \\theta$ | $-\\cos \\theta$ | $-\\sin \\theta$ | $\\sin \\theta$ | $\\cos \\theta$ |\n| tan | $\\tan \\theta$ | $\\cot \\theta$ | $-\\cot \\theta$ | $-\\tan \\theta$ | $\\tan \\theta$ | $\\cot \\theta$ | $-\\cot \\theta$ | $-\\tan \\theta$ |\nTabel: Nilai fungsi trigonometri untuk sudut berelasi"
+          "teks": "Kuadran I (0°-90°): Semua positif\nKuadran II (90°-180°): Sin positif\nKuadran III (180°-270°): Tan positif\nKuadran IV (270°-360°): Cos positif\nMnemonic: \"All Students Take Calculus\""
         }
       ]
     },
@@ -31,28 +27,28 @@
       "judul": "2. Identitas dan Rumus Trigonometri",
       "subItems": [
         {
-          "judul": "Identitas Dasar",
-          "teks": "| Identitas | Rumus | Keterangan |\n|-----------|-------|------------|\n| Pythagoras 1 | $\\sin^2 \\theta + \\cos^2 \\theta = 1$ | Identitas paling dasar |\n| Pythagoras 2 | $1 + \\tan^2 \\theta = \\sec^2 \\theta$ | Dibagi dengan $\\cos^2 \\theta$ |\n| Pythagoras 3 | $1 + \\cot^2 \\theta = \\csc^2 \\theta$ | Dibagi dengan $\\sin^2 \\theta$ |\n| Kebalikan | $\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$ | Definisi tan |\n| Kebalikan | $\\cot \\theta = \\frac{\\cos \\theta}{\\sin \\theta}$ | Definisi cot |\n| Kebalikan | $\\sec \\theta = \\frac{1}{\\cos \\theta}$ | Definisi sec |\n| Kebalikan | $\\csc \\theta = \\frac{1}{\\sin \\theta}$ | Definisi csc |\nTabel: Identitas trigonometri dasar"
+          "judul": "Identitas Pythagoras",
+          "teks": "$\\sin^2 \\theta + \\cos^2 \\theta = 1$\n$1 + \\tan^2 \\theta = \\sec^2 \\theta$\n$1 + \\cot^2 \\theta = \\csc^2 \\theta$"
+        },
+        {
+          "judul": "Identitas Kebalikan",
+          "teks": "$\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$\n$\\cot \\theta = \\frac{\\cos \\theta}{\\sin \\theta}$"
+        },
+        {
+          "judul": "Sudut Berelasi (Rumus Reduksi)",
+          "teks": "$\\sin(90^\\circ - \\theta) = \\cos \\theta$\n$\\cos(90^\\circ - \\theta) = \\sin \\theta$\n$\\sin(180^\\circ - \\theta) = \\sin \\theta$\n$\\cos(180^\\circ - \\theta) = -\\cos \\theta$\n$\\sin(180^\\circ + \\theta) = -\\sin \\theta$\n$\\cos(180^\\circ + \\theta) = -\\cos \\theta$"
         },
         {
           "judul": "Rumus Penjumlahan dan Pengurangan",
-          "teks": "| Rumus | Ekspresi |\n|-------|----------|\n| Sinus Penjumlahan | $\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B$ |\n| Sinus Pengurangan | $\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$ |\n| Cosinus Penjumlahan | $\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B$ |\n| Cosinus Pengurangan | $\\cos(A - B) = \\cos A \\cos B + \\sin A \\sin B$ |\n| Tangen Penjumlahan | $\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$ |\n| Tangen Pengurangan | $\\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B}$ |\nTabel: Rumus penjumlahan dan pengurangan sudut"
+          "teks": "$\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B$\n$\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$\n$\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B$\n$\\cos(A - B) = \\cos A \\cos B + \\sin A \\sin B$\n$\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$"
         },
         {
           "judul": "Rumus Sudut Ganda",
-          "teks": "| Fungsi | Rumus Sudut Ganda |\n|--------|-------------------|\n| Sinus | $\\sin 2\\theta = 2 \\sin \\theta \\cos \\theta$ |\n| Cosinus 1 | $\\cos 2\\theta = \\cos^2 \\theta - \\sin^2 \\theta$ |\n| Cosinus 2 | $\\cos 2\\theta = 2\\cos^2 \\theta - 1$ |\n| Cosinus 3 | $\\cos 2\\theta = 1 - 2\\sin^2 \\theta$ |\n| Tangen | $\\tan 2\\theta = \\frac{2\\tan \\theta}{1 - \\tan^2 \\theta}$ |\n| Cotangen | $\\cot 2\\theta = \\frac{\\cot^2 \\theta - 1}{2\\cot \\theta}$ |\nTabel: Rumus sudut ganda"
+          "teks": "$\\sin 2\\theta = 2 \\sin \\theta \\cos \\theta$\n$\\cos 2\\theta = \\cos^2 \\theta - \\sin^2 \\theta = 2\\cos^2 \\theta - 1 = 1 - 2\\sin^2 \\theta$\n$\\tan 2\\theta = \\frac{2\\tan \\theta}{1 - \\tan^2 \\theta}$"
         },
         {
-          "judul": "Rumus Sudut Paruh (Setengah Sudut)",
-          "teks": "| Fungsi | Rumus |\n|--------|-------|\n| Sinus | $\\sin \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 - \\cos \\theta}{2}}$ |\n| Cosinus | $\\cos \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 + \\cos \\theta}{2}}$ |\n| Tangen 1 | $\\tan \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 - \\cos \\theta}{1 + \\cos \\theta}}$ |\n| Tangen 2 | $\\tan \\frac{\\theta}{2} = \\frac{\\sin \\theta}{1 + \\cos \\theta}$ |\n| Tangen 3 | $\\tan \\frac{\\theta}{2} = \\frac{1 - \\cos \\theta}{\\sin \\theta}$ |\nTabel: Rumus sudut paruh (setengah sudut)"
-        },
-        {
-          "judul": "Rumus Perkalian ke Penjumlahan",
-          "teks": "| Rumus | Ekspresi |\n|-------|----------|\n| Sinus × Sinus | $\\sin A \\sin B = \\frac{1}{2}[\\cos(A-B) - \\cos(A+B)]$ |\n| Cosinus × Cosinus | $\\cos A \\cos B = \\frac{1}{2}[\\cos(A-B) + \\cos(A+B)]$ |\n| Sinus × Cosinus | $\\sin A \\cos B = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]$ |\n| Cosinus × Sinus | $\\cos A \\sin B = \\frac{1}{2}[\\sin(A+B) - \\sin(A-B)]$ |\nTabel: Konversi perkalian ke penjumlahan"
-        },
-        {
-          "judul": "Rumus Penjumlahan ke Perkalian",
-          "teks": "| Rumus | Ekspresi |\n|-------|----------|\n| Sinus + Sinus | $\\sin A + \\sin B = 2 \\sin\\frac{A+B}{2} \\cos\\frac{A-B}{2}$ |\n| Sinus - Sinus | $\\sin A - \\sin B = 2 \\cos\\frac{A+B}{2} \\sin\\frac{A-B}{2}$ |\n| Cosinus + Cosinus | $\\cos A + \\cos B = 2 \\cos\\frac{A+B}{2} \\cos\\frac{A-B}{2}$ |\n| Cosinus - Cosinus | $\\cos A - \\cos B = -2 \\sin\\frac{A+B}{2} \\sin\\frac{A-B}{2}$ |\nTabel: Konversi penjumlahan ke perkalian"
+          "judul": "Rumus Setengah Sudut",
+          "teks": "$\\sin \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 - \\cos \\theta}{2}}$\n$\\cos \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 + \\cos \\theta}{2}}$\n$\\tan \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 - \\cos \\theta}{1 + \\cos \\theta}} = \\frac{\\sin \\theta}{1 + \\cos \\theta}$"
         }
       ]
     },
@@ -60,16 +56,20 @@
       "judul": "3. Aturan Sinus dan Kosinus",
       "subItems": [
         {
-          "judul": "Perbandingan Aturan Sinus dan Kosinus",
-          "teks": "| Aturan | Rumus | Digunakan ketika |\n|--------|-------|------------------|\n| Sinus | $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$ | Diketahui 2 sudut & 1 sisi (AAS) atau 2 sisi & sudut di hadapan (SSA) |\n| Kosinus 1 | $a^2 = b^2 + c^2 - 2bc \\cos A$ | Diketahui 2 sisi & sudut di antara (SAS) |\n| Kosinus 2 | $b^2 = a^2 + c^2 - 2ac \\cos B$ | Diketahui 2 sisi & sudut di antara (SAS) |\n| Kosinus 3 | $c^2 = a^2 + b^2 - 2ab \\cos C$ | Diketahui 2 sisi & sudut di antara (SAS) |\n| Kosinus (cari sudut) | $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$ | Diketahui 3 sisi (SSS) |\nTabel: Aturan sinus dan kosinus"
+          "judul": "Aturan Sinus",
+          "teks": "Untuk segitiga sembarang ABC:\n$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$\ndimana $R$ adalah jari-jari lingkaran luar segitiga."
         },
         {
-          "judul": "Luas Segitiga dengan Berbagai Metode",
-          "teks": "| Metode | Rumus | Keterangan |\n|--------|-------|------------|\n| Dasar | $L = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$ | Untuk segitiga siku-siku |\n| Trigonometri 1 | $L = \\frac{1}{2} ab \\sin C$ | Diketahui 2 sisi & sudut di antara |\n| Trigonometri 2 | $L = \\frac{1}{2} bc \\sin A$ | Diketahui 2 sisi & sudut di antara |\n| Trigonometri 3 | $L = \\frac{1}{2} ac \\sin B$ | Diketahui 2 sisi & sudut di antara |\n| Heron | $L = \\sqrt{s(s-a)(s-b)(s-c)}$ | Diketahui 3 sisi, $s = \\frac{a+b+c}{2}$ |\n| Lingkaran Dalam | $L = rs$ | $r$ = jari-jari lingkaran dalam |\n| Lingkaran Luar | $L = \\frac{abc}{4R}$ | $R$ = jari-jari lingkaran luar |\nTabel: Rumus luas segitiga"
+          "judul": "Aturan Kosinus",
+          "teks": "$a^2 = b^2 + c^2 - 2bc \\cos A$\n$b^2 = a^2 + c^2 - 2ac \\cos B$\n$c^2 = a^2 + b^2 - 2ab \\cos C$"
         },
         {
-          "judul": "Jari-jari Lingkaran Dalam dan Luar",
-          "teks": "| Jari-jari | Rumus | Keterangan |\n|-----------|-------|------------|\n| Dalam (r) | $r = \\frac{L}{s}$ | $s = \\text{semiperimeter}$ |\n| Luar (R) | $R = \\frac{abc}{4L}$ | - |\n| Luar (alternatif) | $R = \\frac{a}{2\\sin A} = \\frac{b}{2\\sin B} = \\frac{c}{2\\sin C}$ | Dari aturan sinus |\nTabel: Jari-jari lingkaran dalam dan luar segitiga"
+          "judul": "Luas Segitiga dengan Trigonometri",
+          "teks": "Luas $\\Delta ABC = \\frac{1}{2} ab \\sin C = \\frac{1}{2} bc \\sin A = \\frac{1}{2} ac \\sin B$\nRumus Heron: $\\sqrt{s(s-a)(s-b)(s-c)}$ dimana $s = \\frac{a+b+c}{2}$"
+        },
+        {
+          "judul": "Kapan Menggunakan Aturan Sinus/Kosinus?",
+          "teks": "Aturan Sinus: Diketahui 2 sudut dan 1 sisi (AAS) atau 2 sisi dan sudut di hadapan salah satu sisi (SSA).\nAturan Kosinus: Diketahui 3 sisi (SSS) atau 2 sisi dan sudut di antara kedua sisi tersebut (SAS)."
         }
       ]
     },
@@ -77,16 +77,16 @@
       "judul": "4. Persamaan Trigonometri",
       "subItems": [
         {
-          "judul": "Solusi Umum Persamaan Dasar",
-          "teks": "| Persamaan | Solusi Umum | Keterangan |\n|-----------|-------------|------------|\n| $\\sin x = \\sin \\alpha$ | $x = \\alpha + 2k\\pi$ atau $x = (\\pi - \\alpha) + 2k\\pi$ | $k \\in \\mathbb{Z}$ |\n| $\\cos x = \\cos \\alpha$ | $x = \\alpha + 2k\\pi$ atau $x = -\\alpha + 2k\\pi$ | $k \\in \\mathbb{Z}$ |\n| $\\tan x = \\tan \\alpha$ | $x = \\alpha + k\\pi$ | $k \\in \\mathbb{Z}$ |\n| $\\cot x = \\cot \\alpha$ | $x = \\alpha + k\\pi$ | $k \\in \\mathbb{Z}$ |\nTabel: Solusi umum persamaan trigonometri dasar"
+          "judul": "Bentuk Dasar",
+          "teks": "$\\sin x = \\sin \\alpha \\Rightarrow x = \\alpha + k \\cdot 360^\\circ$ atau $x = (180^\\circ - \\alpha) + k \\cdot 360^\\circ$\n$\\cos x = \\cos \\alpha \\Rightarrow x = \\pm \\alpha + k \\cdot 360^\\circ$\n$\\tan x = \\tan \\alpha \\Rightarrow x = \\alpha + k \\cdot 180^\\circ$"
         },
         {
-          "judul": "Langkah Penyelesaian Persamaan Trigonometri",
-          "teks": "| Langkah | Deskripsi | Contoh |\n|---------|-----------|--------|\n| 1 | Sederhanakan ke bentuk dasar | $2\\sin^2 x = 1 \\Rightarrow \\sin x = \\pm\\frac{\\sqrt{2}}{2}$ |\n| 2 | Tentukan solusi dasar | $\\sin x = \\frac{\\sqrt{2}}{2} \\Rightarrow x = 45^\\circ, 135^\\circ$ |\n| 3 | Tambahkan periode | $x = 45^\\circ + k\\cdot360^\\circ$ atau $x = 135^\\circ + k\\cdot360^\\circ$ |\n| 4 | Tentukan solusi dalam interval | Untuk $0^\\circ \\leq x \\leq 360^\\circ$: $x = 45^\\circ, 135^\\circ$ |\n| 5 | Verifikasi solusi | Substitusi kembali ke persamaan awal |\nTabel: Langkah-langkah menyelesaikan persamaan trigonometri"
+          "judul": "Langkah Penyelesaian",
+          "teks": "1. Sederhanakan persamaan ke bentuk dasar\n2. Tentukan solusi dasar\n3. Tambahkan periode\n4. Tentukan solusi dalam interval yang diminta\n5. Verifikasi solusi"
         },
         {
-          "judul": "Contoh Soal dan Penyelesaian",
-          "teks": "| Soal | Penyelesaian | Solusi dalam $[0, 2\\pi]$ |\n|------|--------------|---------------------------|\n| $\\sin x = \\frac{1}{2}$ | $x = \\frac{\\pi}{6} + 2k\\pi$ atau $x = \\frac{5\\pi}{6} + 2k\\pi$ | $x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$ |\n| $2\\cos^2 x - \\cos x - 1 = 0$ | Misal $y = \\cos x$, maka $2y^2 - y - 1 = 0$ | $x = 0, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}$ |\n| $\\sin 2x = \\cos x$ | $2\\sin x \\cos x = \\cos x \\Rightarrow \\cos x(2\\sin x - 1) = 0$ | $x = \\frac{\\pi}{2}, \\frac{3\\pi}{2}, \\frac{\\pi}{6}, \\frac{5\\pi}{6}$ |\n| $\\tan^2 x - 3 = 0$ | $\\tan x = \\pm\\sqrt{3}$ | $x = \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}$ |\nTabel: Contoh soal persamaan trigonometri"
+          "judul": "Contoh Soal Tipikal",
+          "teks": "Selesaikan $2\\sin^2 x - \\sin x - 1 = 0$ untuk $0^\\circ \\leq x \\leq 360^\\circ$\nPenyelesaian: Misalkan $y = \\sin x$, maka $2y^2 - y - 1 = 0$"
         }
       ]
     },
@@ -94,16 +94,16 @@
       "judul": "5. Grafik Fungsi Trigonometri",
       "subItems": [
         {
-          "judul": "Sifat Grafik Fungsi Dasar",
-          "teks": "| Fungsi | Periode | Amplitudo | Domain | Range | Asimtot |\n|--------|---------|-----------|--------|-------|---------|\n| $\\sin x$ | $2\\pi$ | $1$ | $\\mathbb{R}$ | $[-1, 1]$ | Tidak ada |\n| $\\cos x$ | $2\\pi$ | $1$ | $\\mathbb{R}$ | $[-1, 1]$ | Tidak ada |\n| $\\tan x$ | $\\pi$ | Tidak terdefinisi | $x \\neq \\frac{\\pi}{2} + k\\pi$ | $\\mathbb{R}$ | $x = \\frac{\\pi}{2} + k\\pi$ |\n| $\\cot x$ | $\\pi$ | Tidak terdefinisi | $x \\neq k\\pi$ | $\\mathbb{R}$ | $x = k\\pi$ |\n| $\\sec x$ | $2\\pi$ | Tidak terdefinisi | $x \\neq \\frac{\\pi}{2} + k\\pi$ | $(-\\infty, -1] \\cup [1, \\infty)$ | $x = \\frac{\\pi}{2} + k\\pi$ |\n| $\\csc x$ | $2\\pi$ | Tidak terdefinisi | $x \\neq k\\pi$ | $(-\\infty, -1] \\cup [1, \\infty)$ | $x = k\\pi$ |\nTabel: Sifat grafik fungsi trigonometri dasar"
+          "judul": "Sifat Dasar Grafik",
+          "teks": "Grafik fungsi trigonometri adalah periodik (berulang).\nPeriode dasar:\n- $\\sin x$ dan $\\cos x$: $2\\pi$ atau $360^\\circ$\n- $\\tan x$: $\\pi$ atau $180^\\circ$"
         },
         {
-          "judul": "Transformasi Grafik: $y = A \\sin(Bx + C) + D$",
-          "teks": "| Parameter | Pengaruh pada Grafik | Rumus |\n|-----------|----------------------|-------|\n| $A$ (Amplitudo) | Perubahan vertikal | Periode tetap, range menjadi $[-|A|, |A|]$ |\n| $B$ (Frekuensi) | Perubahan horizontal | Periode baru = $\\frac{2\\pi}{|B|}$ |\n| $C$ (Fase) | Pergeseran horizontal | Geser ke kiri jika $C > 0$, ke kanan jika $C < 0$ |\n| $D$ (Translasi) | Pergeseran vertikal | Geser ke atas jika $D > 0$, ke bawah jika $D < 0$ |\nTabel: Pengaruh parameter pada transformasi grafik"
+          "judul": "Bentuk Umum",
+          "teks": "$y = A \\sin(Bx + C) + D$ atau $y = A \\cos(Bx + C) + D$\n- $A$: Amplitudo (tinggi gelombang)\n- $B$: Mempengaruhi periode: Periode = $\\frac{2\\pi}{|B|}$\n- $C$: Pergeseran fase\n- $D$: Pergeseran vertikal"
         },
         {
-          "judul": "Periode Fungsi Trigonometri",
-          "teks": "| Bentuk Fungsi | Periode | Contoh |\n|---------------|---------|--------|\n| $\\sin(ax)$ atau $\\cos(ax)$ | $\\frac{2\\pi}{|a|}$ | $\\sin(3x)$: periode $\\frac{2\\pi}{3}$ |\n| $\\tan(ax)$ atau $\\cot(ax)$ | $\\frac{\\pi}{|a|}$ | $\\tan(2x)$: periode $\\frac{\\pi}{2}$ |\n| $\\sin(ax + b)$ | $\\frac{2\\pi}{|a|}$ | $\\sin(2x + \\frac{\\pi}{3})$: periode $\\pi$ |\n| $a\\sin(bx + c) + d$ | $\\frac{2\\pi}{|b|}$ | $3\\sin(4x - \\pi) + 2$: periode $\\frac{\\pi}{2}$ |\nTabel: Periode fungsi trigonometri berbagai bentuk"
+          "judul": "Transformasi Grafik",
+          "teks": "Translasi, peregangan, kompresi, dan refleksi terhadap sumbu x atau y."
         }
       ]
     },
@@ -111,22 +111,26 @@
       "judul": "6. Penerapan Trigonometri",
       "subItems": [
         {
-          "judul": "Aplikasi dalam Berbagai Bidang",
-          "teks": "| Bidang | Penerapan | Contoh |\n|--------|-----------|--------|\n| Fisika | Analisis vektor, gerak harmonik | $F = kx$ (Hukum Hooke) |\n| Teknik | Desain struktur, analisis gelombang | Jembatan, bangunan tinggi |\n| Navigasi | Penentuan posisi, arah | GPS, pelayaran |\n| Astronomi | Perhitungan jarak bintang | Paralaks trigonometri |\n| Musik | Analisis gelombang suara | Harmonika, frekuensi |\n| Arsitektur | Desain atap, sudut kemiringan | Atap rumah, tangga |\n| Komputer | Grafik komputer, animasi | Rotasi objek 3D |\n| Survei | Pengukuran jarak tidak langsung | Theodolite, pengukuran tanah |\nTabel: Penerapan trigonometri dalam berbagai bidang"
+          "judul": "Dalam Segitiga",
+          "teks": "Menentukan sisi atau sudut yang tidak diketahui pada segitiga bukan siku-siku."
         },
         {
-          "judul": "Koordinat Kartesius vs Polar",
-          "teks": "| Sistem | Koordinat | Hubungan |\n|--------|-----------|----------|\n| Kartesius | $(x, y)$ | $x = r\\cos\\theta$, $y = r\\sin\\theta$ |\n| Polar | $(r, \\theta)$ | $r = \\sqrt{x^2 + y^2}$, $\\theta = \\arctan(\\frac{y}{x})$ |\n| Contoh | Kartesius: $(3, 4)$ | Polar: $(5, 53.13^\\circ)$ |\n| Kelebihan | Mudah operasi aljabar | Mudah untuk gerak melingkar |\nTabel: Perbandingan koordinat kartesius dan polar"
+          "judul": "Dalam Koordinat Kartesius",
+          "teks": "Menentukan posisi titik menggunakan koordinat polar $(r, \\theta)$:\n$x = r \\cos \\theta$, $y = r \\sin \\theta$\n$r = \\sqrt{x^2 + y^2}$, $\\theta = \\arctan(\\frac{y}{x})$"
         },
         {
-          "judul": "Identitas Euler dan Bentuk Kompleks",
-          "teks": "| Rumus | Ekspresi | Keterangan |\n|-------|----------|------------|\n| Euler | $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$ | Identitas Euler |\n| Bentuk Polar | $z = r(\\cos\\theta + i\\sin\\theta) = re^{i\\theta}$ | Representasi bilangan kompleks |\n| De Moivre | $(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$ | Teorema De Moivre |\n| Konjugat | $\\overline{z} = r(\\cos\\theta - i\\sin\\theta) = re^{-i\\theta}$ | Konjugat bilangan kompleks |\nTabel: Identitas Euler dan representasi bilangan kompleks"
+          "judul": "Dalam Fisika",
+          "teks": "Analisis vektor, gerak harmonik sederhana, gelombang, dan proyeksi."
+        },
+        {
+          "judul": "Dalam Geometri 3D",
+          "teks": "Menghitung sudut antara garis dan bidang, jarak dalam ruang tiga dimensi."
         }
       ]
     },
     {
       "judul": "Tips Belajar Praktis",
-      "teks": "| No | Tips | Penjelasan |\n|----|------|------------|\n| 1 | **Hafalkan Tabel Sudut Istimewa** | $0^\\circ$, $30^\\circ$, $45^\\circ$, $60^\\circ$, $90^\\circ$ untuk sin, cos, tan adalah wajib |\n| 2 | **Pahami Identitas Dasar** | Fokus pada identitas Pythagoras dan konversi sin-cos-tan |\n| 3 | **Ingat Tanda di Setiap Kuadran** | Gunakan mnemonic \"**A**ll **S**tudents **T**ake **C**alculus\" |\n| 4 | **Kuadran vs Sudut Negatif** | $\\sin(-\\theta) = -\\sin \\theta$, $\\cos(-\\theta) = \\cos \\theta$ |\n| 5 | **Aturan Sinus/Kosinus** | Pilih aturan yang tepat berdasarkan informasi yang diketahui |\n| 6 | **Periode Fungsi** | $\\sin$ dan $\\cos$ periode $360^\\circ$, $\\tan$ periode $180^\\circ$ |\n| 7 | **Sederhanakan Persamaan** | Gunakan identitas untuk menyederhanakan sebelum menyelesaikan |\n| 8 | **Latihan Variatif** | Kerjakan soal dari segitiga siku-siku hingga penerapan 3D |\n| 9 | **Gambar Diagram** | Visualisasi membantu memahami soal |\n| 10 | **Periksa Solusi** | Pastikan solusi berada dalam interval yang ditentukan dan sesuai domain |\nTabel: Tips belajar trigonometri untuk UTBK SNBT\n\nTrigonometri sering muncul di UTBK SNBT dalam bentuk soal cerita aplikatif. Pahami konsep dasar, latih soal variatif, dan siapkan diri untuk menghadapi materi trigonometri dalam UTBK SNBT!"
+      "teks": "1. **Hafalkan Tabel Sudut Istimewa**: $0^\\circ$, $30^\\circ$, $45^\\circ$, $60^\\circ$, $90^\\circ$ untuk sin, cos, tan adalah wajib.\n2. **Pahami Identitas Dasar**: Fokus pada identitas Pythagoras dan konversi sin-cos-tan.\n3. **Ingat Tanda di Setiap Kuadran**: Gunakan mnemonic \"All Students Take Calculus\".\n4. **Kuadran vs Sudut Negatif**: $\\sin(-\\theta) = -\\sin \\theta$, $\\cos(-\\theta) = \\cos \\theta$.\n5. **Aturan Sinus/Kosinus**: Pilih aturan yang tepat berdasarkan informasi yang diketahui.\n6. **Periode Fungsi**: $\\sin$ dan $\\cos$ periode $360^\\circ$, $\\tan$ periode $180^\\circ$.\n7. **Sederhanakan Persamaan**: Gunakan identitas untuk menyederhanakan sebelum menyelesaikan.\n8. **Latihan Variatif**: Kerjakan soal dari segitiga siku-siku hingga penerapan 3D.\n9. **Gambar Diagram**: Visualisasi membantu memahami soal.\n10. **Periksa Solusi**: Pastikan solusi berada dalam interval yang ditentukan dan sesuai dengan domain fungsi.\n\nTrigonometri sering muncul di UTBK SNBT dalam bentuk soal cerita aplikatif. Pahami konsep dasar, latih soal variatif, dan siapkan diri untuk menghadapi materi trigonometri dalam UTBK SNBT!"
     }
   ]
 }
