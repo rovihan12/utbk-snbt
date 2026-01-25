@@ -53,43 +53,25 @@
       "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
     }
   },
-[
   {
     "id": 4,
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Screenshot_20260125_174715_YouTube.jpg": "Teks dan gambar untuk nomor 5 – 8\n\nBudi adalah seorang atlet basket. Dalam sekali lemparan, peluang Budi memasukkan bola dari jarak 5 meter ke dalam keranjang basket adalah sebesar $\\frac{3}{4}$. Tinggi bola (dalam satuan meter) diukur dari permukaan tanah ketika berjarak $x$ meter secara horizontal terhadap posisi Budi melepas bola yang dapat dinyatakan dengan fungsi $t(x) = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$.\n\nTinggi bola ketika jarak horizontalnya 2 meter dari Budi adalah ... meter",
-    "pilihan": [
-      "1,75",
-      "2,5",
-      "3,75",
-      "4,5",
-      "5,75"
-    ],
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Screenshot_20260125_174715_YouTube.jpg",
+    "pertanyaan": "Teks dan gambar untuk nomor 4 – 7\n\nBudi adalah seorang atlet basket. Dalam sekali lemparan, peluang Budi memasukkan bola dari jarak 5 meter ke dalam keranjang basket adalah sebesar $\\frac{3}{4}$. Tinggi bola (dalam satuan meter) diukur dari permukaan tanah ketika berjarak $x$ meter secara horizontal terhadap posisi Budi melepas bola yang dapat dinyatakan dengan fungsi $t(x) = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$.\n\nTinggi bola ketika jarak horizontalnya 2 meter dari Budi adalah ... meter",
+    "pilihan": ["1,75", "2,5", "3,75", "4,5", "5,75"],
     "jawaban": "C",
     "pembahasan": "**Langkah Lengkap**:\n\nSubstitusikan nilai $x = 2$ ke dalam fungsi tinggi bola:\n\n$t(2) = -\\frac{1}{4}(2)^2 + \\frac{3}{2}(2) + \\frac{7}{4}$\n\n$t(2) = -\\frac{1}{4}(4) + 3 + 1,75$\n\n$t(2) = -1 + 3 + 1,75 = 3,75$ meter.\n\nJadi, tinggi bola pada jarak horizontal 2 meter adalah **3,75 meter**."
   },
   {
     "id": 5,
     "pertanyaan": "Jika Budi berlatih di tanah lapang tanpa adanya keranjang basket, bola akan mencapai tanah sejauh ... meter di depan Budi",
-    "pilihan": [
-      "6",
-      "6,25",
-      "6,5",
-      "6,75",
-      "7"
-    ],
+    "pilihan": ["6", "6,25", "6,5", "6,75", "7"],
     "jawaban": "E",
     "pembahasan": "**Langkah Lengkap**:\n\nBola mencapai tanah ketika tinggi bola sama dengan nol ($t(x) = 0$):\n\n$0 = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$\n\nKalikan kedua ruas dengan $-4$ untuk memudahkan pemfaktoran:\n\n$x^2 - 6x - 7 = 0$\n\n$(x - 7)(x + 1) = 0$\n\n$x = 7$ atau $x = -1$.\n\nKarena jarak horizontal tidak mungkin negatif, maka bola mencapai tanah pada jarak **7 meter**."
   },
   {
     "id": 6,
     "pertanyaan": "Tinggi bola maksimum dari permukaan tanah adalah ... meter",
-    "pilihan": [
-      "4",
-      "4,5",
-      "5",
-      "5,5",
-      "6"
-    ],
+    "pilihan": ["4", "4,5", "5", "5,5", "6"],
     "jawaban": "A",
     "pembahasan": "**Langkah Lengkap**:\n\nTinggi maksimum dicapai pada titik puncak parabola. \n\nCari nilai $x$ puncak ($x_p$):\n$x_p = \\frac{-b}{2a} = \\frac{-1,5}{2(-0,25)} = \\frac{-1,5}{-0,5} = 3$ meter.\n\nSubstitusikan $x = 3$ ke fungsi $t(x)$:\n\n$t(3) = -\\frac{1}{4}(3)^2 + \\frac{3}{2}(3) + \\frac{7}{4}$\n\n$t(3) = -2,25 + 4,5 + 1,75 = 4$ meter.\n\nJadi, tinggi maksimum bola adalah **4 meter**."
   },
