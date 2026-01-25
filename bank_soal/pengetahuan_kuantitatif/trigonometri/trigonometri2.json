@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -62,14 +61,14 @@
   "kategori": "Sulit",
   "pertanyaan": "Untuk setiap bilangan bulat b didefinisikan:\n[b] = {\n  36 / (b + 4), jika b genap negatif\n  (3b - 7)b, jika b ganjil positif\n  4b / 2, jika b lainnya\n}\n\nNilai [2 × [1]] sama dengan ...",
   "pilihan": [
-    "A": "-20",
-    "B": "-9",
-    "C": "-3",
-    "D": "9",
-    "E": "20"
+    "-20",
+    "-9",
+    "-3",
+    "9",
+    "20"
   ],
   "jawaban": "B",
-  "pembahasan": "Hitung nilai di dalam kurung terlebih dahulu.\n\nKarena 1 adalah ganjil positif, maka:\n[1] = (3(1) - 7)(1) = (3 - 7) × 1 = -4\n\nSelanjutnya:\n2 × [1] = 2 × (-4) = -8\n\nBilangan -8 adalah genap negatif, sehingga:\n[-8] = 36 / (-8 + 4) = 36 / (-4) = -9\n\nJadi, nilai [2 × [1]] adalah -9."
+  "pembahasan": "Langkah 1: Hitung [1]. Karena 1 ganjil positif: (3(1)-7)x1 = -4.\nLangkah 2: Hitung [2 x -4] = [-8]. Karena -8 genap negatif: 36 / (-8 + 4) = 36 / -4 = -9."
 },
   {
     "id": 6,
