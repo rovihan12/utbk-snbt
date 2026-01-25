@@ -1,1 +1,73 @@
 
+[
+  {
+    "id": 1,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika $\\sqrt{c} = 3 \\div \\frac{1}{2}$, nilai $c$ sama dengan ...",
+    "pilihan": [
+      "6",
+      "12",
+      "18",
+      "36",
+      "81"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Langkah pertama, selesaikan operasi pembagian di ruas kanan:\n$3 \\div \\frac{1}{2} = 3 \\times 2 = 6$.\n\nPersamaan menjadi:\n$\\sqrt{c} = 6$\n\nUntuk mencari nilai $c$, kuadratkan kedua ruas:\n$(\\sqrt{c})^2 = 6^2$\n$c = 36$"
+  },
+  {
+    "id": 2,
+    "kategori": "Mudah",
+    "pertanyaan": "Titik $H(4, b)$ terletak pada grafik fungsi $f(x) = \\frac{2x+4}{6-x}$. Nilai $b$ sama dengan ...",
+    "pilihan": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Karena titik $H(4, b)$ terletak pada grafik, maka jika $x = 4$, nilai $f(x) = b$.\n\nSubstitusikan $x = 4$ ke dalam fungsi:\n$b = f(4) = \\frac{2(4) + 4}{6 - 4}$\n$b = \\frac{8 + 4}{2}$\n$b = \\frac{12}{2} = 6$"
+  },
+  {
+    "id": 3,
+    "kategori": "Sedang",
+    "pertanyaan": "Sepuluh bilangan yaitu 6, 2, 6, 8, 9, 4, 4, 3, 2, 9 diurutkan dari yang terkecil hingga terbesar. Jika $r$ dan $u$ berturut-turut merepresentasikan bilangan pada posisi ke-5 dan ke-7 setelah diurutkan, nilai $(r \\times u) - u$ sama dengan ...",
+    "pilihan": [
+      "24",
+      "18",
+      "16",
+      "14",
+      "12"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Urutkan data dari yang terkecil:\n2, 2, 3, 4, 4, 6, 6, 8, 9, 9\n\nMenentukan nilai $r$ dan $u$:\n- Bilangan posisi ke-5 ($r$) = 4\n- Bilangan posisi ke-7 ($u$) = 6\n\nMenghitung nilai yang diminta:\n$(r \\times u) - u = (4 \\times 6) - 6$\n$= 24 - 6 = 18$"
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Banyaknya persegi pada bangun datar di atas adalah ...",
+    "pilihan": [
+      "4",
+      "5",
+      "8",
+      "9",
+      "12"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Berdasarkan gambar koordinat, kita hitung persegi berdasarkan ukurannya:\n\n1. Persegi ukuran $1 \\times 1$:\n- Bagian tengah (grid pusat): 4 buah\n- Bagian sayap (atas, bawah, kiri, kanan): 4 buah\nTotal persegi kecil = 8 buah.\n\n2. Persegi ukuran $2 \\times 2$:\n- Terbentuk di bagian pusat oleh koordinat $(1,1), (3,1), (3,3), (1,3)$: 1 buah.\n\nTotal keseluruhan persegi = $8 + 1 = 9$ buah."
+  },
+  {
+    "id": 5,
+    "kategori": "Sulit",
+    "pertanyaan": "Untuk setiap bilangan bulat $b$ didefinisikan:\n$[b] = \\begin{cases} \\frac{36}{b - 5}, & \\text{jika } b \\text{ genap negatif} \\\\ (3b - 7)b, & \\text{jika } b \\text{ ganjil positif} \\\\ \\frac{4b}{2}, & \\text{jika } b \\text{ lainnya} \\end{cases}$\n\nNilai $[2 \\times [1]]$ sama dengan ...",
+    "pilihan": [
+      "-20",
+      "-9",
+      "-3",
+      "4",
+      "12"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Selesaikan operasi di dalam kurung terlebih dahulu.\n\nLangkah 1: Mencari nilai $[1]$\n$b = 1$ adalah ganjil positif, maka gunakan rumus $(3b - 7)b$:\n$[1] = (3(1) - 7)(1) = (3 - 7) \\times 1 = -4$.\n\nLangkah 2: Mencari nilai $[2 \\times [1]]$\nSubstitusikan hasil langkah 1: $[2 \\times (-4)] = [-8]$.\n$b = -8$ adalah genap negatif, maka gunakan rumus $\\frac{36}{b - 5}$:\n$[-8] = \\frac{36}{-8 - 5} = \\frac{36}{-13} \\approx -2,76$.\n\nNilai yang paling mendekati dari pilihan jawaban yang ada adalah -3."
+  }
+]
