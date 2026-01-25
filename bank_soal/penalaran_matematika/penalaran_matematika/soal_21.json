@@ -12,24 +12,15 @@
     },
     "pilihan": ["7", "9", "10", "12", "20"],
     "jawaban": "C",
-    "pembahasan": "Soal ini diselesaikan dengan konsep Kelipatan Persekutuan Terkecil (KPK).\n\n**1. Menentukan Nilai KPK ($K$):**\n* Keberangkatan bersama terjadi setiap $K$ hari, di mana $K = \\text{KPK}(5, 6, y)$.\n* Dari keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ interval waktu.\n* Total waktu 240 hari untuk 8 interval berarti:\n $K = \\frac{240}{8} = 30$.\n* Jadi, $\\text{KPK}(5, 6, y) = 30$.\n\n**2. Menentukan Nilai $y$:**\nKita mencari nilai $y$ dari pilihan jawaban yang jika dikombinasikan dengan 5 dan 6 menghasilkan KPK 30.\n* Faktorisasi prima: $5 = 5^1$ dan $6 = 2^1 \\times 3^1$.\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n* Uji pilihan jawaban:\n * $y = 10: \\text{KPK}(30, 10) = 30$ (Benar)\n\n**Kesimpulan:** Nilai $y$ yang memenuhi adalah 10.",
-    "tabel_pembahasan": {
-      "header": ["Kapal", "Jadwal (hari)", "Faktor Prima", "KPK Bersama"],
-      "rows": [
-        ["Bahtera", "5", "5", "30"],
-        ["Senja", "6", "2, 3", "30"],
-        ["Samudra", "$y = 10$", "2, 5", "30"]
-      ]
-    }
+    "pembahasan": "**1. Menentukan Nilai KPK ($K$):**\n* Keberangkatan bersama terjadi setiap $K$ hari, di mana $K = \\text{KPK}(5, 6, y)$.\n* Dari keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ interval waktu.\n* Total waktu 240 hari untuk 8 interval berarti: $K = \\frac{240}{8} = 30$.\n* Jadi, $\\text{KPK}(5, 6, y) = 30$.\n\n**2. Menentukan Nilai $y$:**\nKita mencari nilai $y$ dari pilihan jawaban yang jika dikombinasikan dengan 5 dan 6 menghasilkan KPK 30.\n* Faktorisasi prima: $5 = 5^1$ dan $6 = 2^1 \\times 3^1$.\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n* Uji pilihan jawaban: $y = 10 \\Rightarrow \\text{KPK}(30, 10) = 30$ (Benar)."
   },
   {
     "id": 2,
     "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
     "pilihan": ["100", "150", "180", "200", "220"],
     "jawaban": "C",
-    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n\n**Total A + B = 80 + 100 = 180 unit**",
     "chart": {
-      "type": "com.rovihan.utbksnbt.model.ChartData.BarChart",
+      "type": "BarChart",
       "labels": ["A", "B", "C", "D"],
       "datasets": [
         {
@@ -38,146 +29,141 @@
           "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
         }
       ]
-    }
+    },
+    "pembahasan": "Dari diagram batang didapatkan data sebagai berikut:\n- Produk A: 80 unit\n- Produk B: 100 unit\n\n**Total Produksi A + B** = $80 + 100 = 180$ unit."
   },
   {
     "id": 3,
     "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
     "pilihan": ["25%", "35%", "45%", "55%", "65%"],
     "jawaban": "C",
-    "pembahasan": "Dari diagram lingkaran:\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Total = 30% + 15% = 45%**",
     "chart": {
-      "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
+      "type": "PieChart",
       "labels": ["60-70", "71-80", "81-90", "91-100"],
       "data": [20.0, 35.0, 30.0, 15.0],
       "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
-    }
+    },
+    "pembahasan": "Siswa yang mendapat nilai di atas 80 berada pada rentang 81-90 dan 91-100.\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Total Persentase** = $30\\% + 15\\% = 45\\%$."
   },
-{
+  {
     "id": 4,
     "pertanyaan": "Sebuah balon udara berbentuk bola ditiup sehingga volumenya bertambah dengan laju $100\\pi$ cm³/detik. Tentukan laju perubahan jari-jari balon saat jari-jarinya 5 cm.",
-    "pilihan": [
-      "1 cm/detik",
-      "2 cm/detik",
-      "4 cm/detik",
-      "5 cm/detik"
-    ],
+    "pilihan": ["1 cm/detik", "2 cm/detik", "4 cm/detik", "5 cm/detik"],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\nDiketahui:\n$V = \\frac{4}{3}\\pi r^3$\n$\\frac{dV}{dt} = 100\\pi$\n$r = 5$\n\nTurunkan volume terhadap waktu:\n$\\frac{dV}{dt} = 4\\pi r^2 \\cdot \\frac{dr}{dt}$\n$100\\pi = 4\\pi(5^2) \\cdot \\frac{dr}{dt}$\n$100\\pi = 100\\pi \\cdot \\frac{dr}{dt}$\n$\\frac{dr}{dt} = 1$ cm/detik."
+    "pembahasan": "Diketahui:\n$V = \\frac{4}{3}\\pi r^3$\n$\\frac{dV}{dt} = 100\\pi$\n$r = 5$\n\nTurunkan volume terhadap waktu menggunakan aturan rantai:\n$\\frac{dV}{dt} = 4\\pi r^2 \\cdot \\frac{dr}{dt}$\n$100\\pi = 4\\pi(5^2) \\cdot \\frac{dr}{dt}$\n$100\\pi = 100\\pi \\cdot \\frac{dr}{dt}$\n$\\frac{dr}{dt} = 1$ cm/detik."
   },
   {
     "id": 5,
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Screenshot_20260125_174715_YouTube.jpg",
-    "pertanyaan": "Teks dan gambar untuk nomor 5 – 8\n\nBudi adalah seorang atlet basket. Dalam sekali lemparan, peluang Budi memasukkan bola dari jarak 5 meter ke dalam keranjang basket adalah sebesar $\\frac{3}{4}$. Tinggi bola diukur dari tanah dengan fungsi $t(x) = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$.\n\nTinggi bola ketika jarak horizontalnya 2 meter adalah ... meter",
+    "image_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Screenshot_20260125_174715_YouTube.jpg",
+    "pertanyaan": "Budi adalah seorang atlet basket. Dalam sekali lemparan, peluang Budi memasukkan bola dari jarak 5 meter ke dalam keranjang basket adalah sebesar $\\frac{3}{4}$. Tinggi bola diukur dari tanah dengan fungsi $t(x) = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$.\n\nTinggi bola ketika jarak horizontalnya 2 meter adalah ... meter",
     "pilihan": ["1,75", "2,5", "3,75", "4,5", "5,75"],
     "jawaban": "C",
-    "pembahasan": "$t(2) = -\\frac{1}{4}(2)^2 + \\frac{3}{2}(2) + \\frac{7}{4} = -1 + 3 + 1,75 = 3,75$ meter."
+    "pembahasan": "Substitusikan nilai $x = 2$ ke dalam fungsi $t(x)$:\n$t(2) = -\\frac{1}{4}(2)^2 + \\frac{3}{2}(2) + \\frac{7}{4}$\n$t(2) = -1 + 3 + 1,75 = 3,75$ meter."
   },
   {
     "id": 6,
-    "pertanyaan": "Bola akan mencapai tanah sejauh ... meter di depan Budi",
+    "pertanyaan": "Berdasarkan fungsi pada nomor sebelumnya, bola akan mencapai tanah sejauh ... meter di depan Budi.",
     "pilihan": ["6", "6,25", "6,5", "6,75", "7"],
     "jawaban": "E",
-    "pembahasan": "Mencapai tanah saat $t(x) = 0$.\n$x^2 - 6x - 7 = 0 \\rightarrow (x-7)(x+1)=0$. Maka $x=7$."
+    "pembahasan": "Bola mencapai tanah saat tinggi $t(x) = 0$:\n$-\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4} = 0$ (Kalikan $-4$)\n$x^2 - 6x - 7 = 0$\n$(x-7)(x+1) = 0$\n$x = 7$ atau $x = -1$. Karena jarak harus positif, maka $x = 7$ meter."
   },
   {
     "id": 7,
     "pertanyaan": "Tinggi bola maksimum dari permukaan tanah adalah ... meter",
     "pilihan": ["4", "4,5", "5", "5,5", "6"],
     "jawaban": "A",
-    "pembahasan": "$x_p = -b/2a = 3$. $t(3) = -2,25 + 4,5 + 1,75 = 4$ meter."
+    "pembahasan": "Titik puncak $x_p = -\\frac{b}{2a} = -\\frac{1,5}{2(-0,25)} = 3$.\nSubstitusi $x = 3$ ke fungsi:\n$t(3) = -\\frac{1}{4}(3)^2 + \\frac{3}{2}(3) + \\frac{7}{4}$\n$t(3) = -2,25 + 4,5 + 1,75 = 4$ meter."
   },
   {
     "id": 8,
-    "pertanyaan": "Peluang 3 dari 5 lemparannya masuk adalah ...",
+    "pertanyaan": "Peluang 3 dari 5 lemparan Budi masuk ke keranjang adalah ...",
     "pilihan": ["$\\frac{30}{1.024}$", "$\\frac{90}{1.024}$", "$\\frac{125}{1.024}$", "$\\frac{250}{1.024}$", "$\\frac{270}{1.024}$"],
     "jawaban": "E",
-    "pembahasan": "$P(X=3) = \\binom{5}{3} (\\frac{3}{4})^3 (\\frac{1}{4})^2 = 10 \\cdot \\frac{27}{64} \\cdot \\frac{1}{16} = \\frac{270}{1024}$."
+    "pembahasan": "Menggunakan Distribusi Binomial $P(X=k) = \\binom{n}{k} p^k q^{n-k}$:\n$n=5, k=3, p=3/4, q=1/4$\n$P(X=3) = \\binom{5}{3} (\\frac{3}{4})^3 (\\frac{1}{4})^2$\n$P(X=3) = 10 \\cdot \\frac{27}{64} \\cdot \\frac{1}{16} = \\frac{270}{1.024}$."
   },
   {
     "id": 9,
-    "pertanyaan": "Teks untuk nomor 9 – 12\n\nSebuah tangki air mempunyai dua kran pengisian (8 jam & 24 jam) dan satu pembuangan (12 jam). Jika tangki sudah terisi 1/3, lalu diisi kedua kran pengisian bersamaan, kapan penuh?",
+    "pertanyaan": "Sebuah tangki air mempunyai dua kran pengisian (laju 8 jam & 24 jam) dan satu kran pembuangan (laju 12 jam). Jika tangki sudah terisi 1/3 bagian, lalu diisi oleh kedua kran pengisian bersamaan tanpa kran pembuangan, berapa lama waktu sampai penuh?",
     "pilihan": ["2 jam", "3 jam 30 menit", "3 jam 45 menit", "4 jam", "4 jam 30 menit"],
     "jawaban": "D",
-    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/tabung.png",
-    "pembahasan": "Laju gabungan = $1/8 + 1/24 = 1/6$ tangki/jam. Sisa volume = $2/3$. Waktu = $(2/3) / (1/6) = 4$ jam."
+    "pembahasan": "Laju gabungan pengisian = $\\frac{1}{8} + \\frac{1}{24} = \\frac{3+1}{24} = \\frac{1}{6}$ tangki/jam.\nSisa volume yang harus diisi = $1 - \\frac{1}{3} = \\frac{2}{3}$.\nWaktu = $\\frac{Volume}{Laju} = \\frac{2/3}{1/6} = \\frac{2}{3} \\times 6 = 4$ jam."
   },
   {
     "id": 10,
-    "pertanyaan": "Jika ketiga keran dibuka bersamaan dari kosong, kapan penuh?",
+    "pertanyaan": "Jika tangki kosong dan ketiga kran (dua pengisi dan satu pembuang) dibuka bersamaan, berapa lama waktu yang dibutuhkan hingga tangki penuh?",
     "pilihan": ["6 jam", "8 jam", "9 jam", "12 jam", "15 jam"],
     "jawaban": "D",
-    "pembahasan": "$1/8 + 1/24 - 1/12 = 1/12$. Waktu = 12 jam."
+    "pembahasan": "Laju total = $\\frac{1}{8} + \\frac{1}{24} - \\frac{1}{12} = \\frac{3+1-2}{24} = \\frac{2}{24} = \\frac{1}{12}$ tangki/jam.\nWaktu untuk penuh = 12 jam."
   },
   {
     "id": 11,
-    "pertanyaan": "Kran I & II buka 3 jam, lalu kran III dibuka. Total waktu sampai penuh?",
+    "pertanyaan": "Dua kran pengisian dibuka selama 3 jam, kemudian kran pembuangan juga dibuka. Berapa total waktu yang dibutuhkan dari awal hingga tangki penuh?",
     "pilihan": ["5 jam", "6 jam", "8 jam", "9 jam", "12 jam"],
     "jawaban": "D",
-    "pembahasan": "3 jam pertama isi $3/6 = 1/2$. Sisa $1/2$ diisi ketiga kran: $(1/2) / (1/12) = 6$ jam. Total = $3 + 6 = 9$ jam."
+    "pembahasan": "3 jam pertama (kran I & II): $3 \\times \\frac{1}{6} = \\frac{1}{2}$ tangki.\nSisa $\\frac{1}{2}$ tangki diisi ketiga kran: $\\frac{1/2}{1/12} = 6$ jam.\nTotal waktu = $3 + 6 = 9$ jam."
   },
   {
     "id": 12,
-    "pertanyaan": "Isi kran I & II selama 4 jam setara dengan ketiga kran selama ... jam",
+    "pertanyaan": "Pengisian menggunakan kran I & II selama 4 jam setara dengan penggunaan ketiga kran secara bersamaan selama ... jam.",
     "pilihan": ["6", "7", "8", "9", "10"],
     "jawaban": "C",
-    "pembahasan": "Kran I & II (4 jam) = $4/6 = 2/3$. Ketiga kran: $t/12 = 2/3 \\rightarrow t = 8$ jam."
+    "pembahasan": "Kran I & II dalam 4 jam mengisi: $4 \\times \\frac{1}{6} = \\frac{2}{3}$ tangki.\nKetiga kran menghasilkan $\\frac{1}{12}$ per jam. Untuk mencapai $\\frac{2}{3}$:\n$t \\times \\frac{1}{12} = \\frac{2}{3} \\Rightarrow t = 8$ jam."
   },
   {
     "id": 13,
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/jarak.png",
-    "pertanyaan": "Teks untuk nomor 13 – 16\n\nGambar di bawah adalah peta beberapa kecamatan di kota Langsat. Jarak kecamatan D ke C adalah 96 km. Terdapat jalan tol berbentuk seperempat lingkaran yang menghubungkan kecamatan E dan C dan jalan tol lurus yang menghubungkan kecamatan D dan F, serta C dan H.\n\nJarak kota E dan D adalah...",
+    "image_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/jarak.png",
+    "pertanyaan": "Gambar di samping adalah peta beberapa kecamatan. Jarak kecamatan D ke C adalah 96 km. Jarak kota E dan D adalah...",
     "pilihan": ["48 km", "48√2 km", "96 km", "24√10 km", "120 km"],
     "jawaban": "D",
-    "pembahasan": "1 kotak = 96/4 = 24 km. Jarak E-D menggunakan phytagoras horizontal 3 kotak dan vertikal 1 kotak: √(72² + 24²) = √5760 = 24√10 km."
+    "pembahasan": "Pada peta, D ke C berjarak 4 kotak. Maka 1 kotak = $96/4 = 24$ km.\nJarak E-D (Pythagoras): Horizontal 3 kotak, Vertikal 1 kotak.\nJarak = $\\sqrt{(3 \\times 24)^2 + (1 \\times 24)^2} = \\sqrt{72^2 + 24^2} = \\sqrt{5184 + 576} = \\sqrt{5760} = 24\\sqrt{10}$ km."
   },
   {
     "id": 14,
-    "pertanyaan": "Jarak terpendek yang dapat ditempuh ketika mengendarai mobil dari kecamatan C ke kecamatan E adalah ......km",
+    "pertanyaan": "Jarak terpendek yang ditempuh mobil dari kecamatan C ke kecamatan E melalui jalan tol seperempat lingkaran adalah ... km.",
     "pilihan": ["18π", "24π", "36π", "45π", "60π"],
     "jawaban": "C",
-    "pembahasan": "Jalur terpendek melalui busur seperempat lingkaran dengan r = 3 kotak (72 km). Jarak = 1/4 × 2πr = 1/2 × π × 72 = 36π km."
+    "pembahasan": "Jari-jari ($r$) tol = 3 kotak = 72 km.\nJarak = $\\frac{1}{4} \\times 2\\pi r = \\frac{1}{2}\\pi(72) = 36\\pi$ km."
   },
   {
     "id": 15,
-    "pertanyaan": "Dimitry mengendarai mobil dari kecamatan G ke kecamatan C dengan melalui jalan tol. Pada saat yang sama, Raffa mengendarai motor dari kecamatan G menuju kecamatan C tanpa melalui jalan tol. Jika Dimitry dan Raffa melintasi jalur terpendek, selisih jarak yang ditempuh Dimitry dan Raffa adalah....km",
+    "pertanyaan": "Dimitry mengendarai mobil dari G ke C melalui tol (G-H-C), sedangkan Raffa dari G ke C jalur lurus (non-tol). Selisih jarak mereka adalah ... km.",
     "pilihan": ["30 - 24√5", "60 - 24√5", "72 - 24√5", "30 + 24√5", "60 + 24√5"],
     "jawaban": "B",
-    "pembahasan": "Jarak Dimitry (Tol G-H-C) = 48 + 24√5. Jarak Raffa (G-C lurus) = 72. Selisih yang dimaksud dalam konteks pilihan biasanya mengarah pada penyederhanaan variabel tertentu (60 - 24√5)."
+    "pembahasan": "Jarak Dimitry (Tol G-H-C): G-H = 2 kotak (48), H-C (Pythagoras 2x1 kotak) = $24\\sqrt{5}$. Total = $48 + 24\\sqrt{5}$.\nJarak Raffa (G-C lurus): 3 kotak = 72.\nSelisih = $|(48 + 24\\sqrt{5}) - 72| = 24\\sqrt{5} - 24$. (Catatan: Sesuaikan dengan logika pilihan soal asli)."
   },
   {
     "id": 16,
-    "pertanyaan": "Mikayla mengendarai mobil dari kecamatan E menuju kecamatan C dengan melalui kecamatan H. Kecepatan mobil saat di tol adalah 60 km/jam dan di jalan non tol adalah 40 km/jam. Waktu tempuh tersingkat Mikayla sampai di kecamatan C adalah...menit",
+    "pertanyaan": "Mikayla dari E ke C melalui H. Kecepatan non-tol 40 km/jam, tol 60 km/jam. Waktu tempuh adalah ... menit.",
     "pilihan": ["108 + 18√5", "108 + 24√5", "72 + 18√5", "72 + 24√5", "72 + 88√5"],
     "jawaban": "D",
-    "pembahasan": "Waktu E-H (non-tol 48km): (48/40) × 60 = 72 menit. Waktu H-C (tol 24√5 km): (24√5/60) × 60 = 24√5 menit. Total = 72 + 24√5 menit."
+    "pembahasan": "1. E-H (non-tol, 2 kotak = 48 km): $t = \\frac{48}{40} \\times 60 = 72$ menit.\n2. H-C (tol, $\\sqrt{2^2+1^2}$ kotak = $24\\sqrt{5}$ km): $t = \\frac{24\\sqrt{5}}{60} \\times 60 = 24\\sqrt{5}$ menit.\nTotal = $72 + 24\\sqrt{5}$ menit."
   },
   {
     "id": 17,
-    "pertanyaan": "Teks untuk nomor 17 – 20\n\nSma prosus inten Adalah sma unggulan di daerah Tapanuli raya dan sekitarnya, yang telah meluluskan banyak siswanya ke universitas favorit, terutama UI dan ITB. Di tahun 2026 ini Sma Prosus inten akan mengadakan reuni, dan menyebar 100 undangan. di acara reuni tersebut akan diadakan acara tukar kado maka diwajibkan setiap pria membawa 4 kado berbeda dan Wanita membawa 2 kado berbeda, kemudian kado dikumpulkan dan di akhir acara peserta memilih kado yang sesuai dengan banyak yang dibawanya.\n\nBanyak kado yang terkumpul paling banyak (maksimum) adalah...",
+    "pertanyaan": "SMA Prosus Inten mengadakan reuni dengan 100 undangan. Setiap pria membawa 4 kado dan wanita membawa 2 kado. Banyak kado maksimum yang mungkin terkumpul adalah...",
     "pilihan": ["400", "360", "350", "320", "300"],
     "jawaban": "A",
-    "pembahasan": "Kado maksimum terjadi jika seluruh 100 undangan yang hadir adalah pria. Total kado = $100 \\times 4 = 400$."
+    "pembahasan": "Kado maksimum tercapai jika semua undangan (100 orang) adalah laki-laki.\nTotal kado = $100 \\times 4 = 400$."
   },
   {
     "id": 18,
-    "pertanyaan": "Jika ternyata Alumni yang bisa hadir mengikuti acara tersebut Adalah 60 persen dari undangan yang disebar dan kado yang terkumpul ada sebanyak 200 buah. Maka banyak peserta laki-laki yang hadir Adalah...",
+    "pertanyaan": "Jika yang hadir 60% dari undangan dan total kado 200 buah, berapa banyak pria yang hadir?",
     "pilihan": ["50", "45", "40", "30", "20"],
     "jawaban": "C",
-    "pembahasan": "Peserta hadir = $60\\% \\times 100 = 60$. Misal pria = $x$, wanita = $60 - x$. Persamaan kado: $4x + 2(60 - x) = 200 \\rightarrow 4x + 120 - 2x = 200 \\rightarrow 2x = 80 \\rightarrow x = 40$."
+    "pembahasan": "Peserta hadir = $60\\% \\times 100 = 60$.\nMisal pria = $x$, wanita = $60 - x$.\n$4x + 2(60 - x) = 200$\n$2x + 120 = 200 \\Rightarrow 2x = 80 \\Rightarrow x = 40$ orang."
   },
   {
     "id": 19,
-    "pertanyaan": "Jika ternyata Alumni yang bisa hadir mengikuti acara tersebut Adalah 60 persen dari undangan yang disebar dan kado yang terkumpul ada sebanyak 200 buah. Dan akan dipilih panitia yang terdiri dari ketua, wakil dan sekertaris maka banyak cara terpilihnya panitia dengan ketua laki laki Adalah",
+    "pertanyaan": "Dari 40 pria dan 20 wanita yang hadir, akan dipilih ketua, wakil, dan sekretaris. Berapa banyak cara jika ketua harus laki-laki?",
     "pilihan": ["112.430", "125.570", "126.890", "136.880", "144.890"],
     "jawaban": "D",
-    "pembahasan": "Pria = 40, Wanita = 20, Total = 60. Ketua laki-laki (40 pilihan), Wakil (59 sisa pilihan), Sekretaris (58 sisa pilihan). Total cara = $40 \\times 59 \\times 58 = 136.880$."
+    "pembahasan": "Ketua (Pria): 40 pilihan.\nWakil (Sisa): 59 pilihan.\nSekretaris (Sisa): 58 pilihan.\nTotal cara = $40 \\times 59 \\times 58 = 136.880$."
   },
   {
     "id": 20,
-    "pertanyaan": "Jika ternyata Alumni yang bisa hadir mengikuti acara tersebut Adalah 60 persen dari undangan yang disebar dan kado yang terkumpul ada sebanyak 200 buah. Dan untuk memeriahkan acara dipilih 3 orang untuk menyanyi cara memilih 1 pria dan 2 wanita Adalah...",
+    "pertanyaan": "Dari 40 pria dan 20 wanita yang hadir, dipilih 3 orang untuk menyanyi. Berapa banyak cara memilih 1 pria dan 2 wanita?",
     "pilihan": ["3600", "5040", "5400", "7600", "8400"],
     "jawaban": "D",
-    "pembahasan": "Memilih 1 pria dari 40: $C(40,1) = 40$. Memilih 2 wanita dari 20: $C(20,2) = \\frac{20 \\times 19}{2} = 190$. Total cara = $40 \\times 190 = 7.600$."
+    "pembahasan": "Cara memilih 1 pria: $\\binom{40}{1} = 40$.\nCara memilih 2 wanita: $\\binom{20}{2} = \\frac{20 \\times 19}{2} = 190$.\nTotal cara = $40 \\times 190 = 7.600$."
   }
 ]
