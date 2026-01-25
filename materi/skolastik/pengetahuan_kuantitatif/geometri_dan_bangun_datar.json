@@ -1,122 +1,136 @@
 {
-  "judul": "Geometri dan Bangun Datar",
-  "deskripsi": "Materi ini menguji pemahaman Anda terhadap sifat-sifat bangun, rumus-rumus dasar, dan kemampuan pemecahan masalah yang melibatkan visualisasi untuk persiapan UTBK SNBT.",
+  "judul": "Trigonometri",
+  "deskripsi": "Materi ini menguji pemahaman Anda tentang perbandingan trigonometri, identitas trigonometri, fungsi trigonometri, dan penerapannya dalam menyelesaikan masalah untuk persiapan UTBK SNBT.",
   "subItems": [
     {
-      "judul": "1. Konsep Dasar Garis dan Sudut",
+      "judul": "1. Konsep Dasar Trigonometri",
       "subItems": [
         {
-          "judul": "Jenis-jenis Garis",
-          "teks": "Sejajar, berpotongan, berimpit, tegak lurus."
+          "judul": "Segitiga Siku-Siku dan Perbandingan Dasar",
+          "teks": "Pada segitiga siku-siku ABC dengan sudut siku-siku di C:\n- $\\sin A = \\frac{\\text{sisi depan}}{\\text{sisi miring}} = \\frac{BC}{AB}$\n- $\\cos A = \\frac{\\text{sisi samping}}{\\text{sisi miring}} = \\frac{AC}{AB}$\n- $\\tan A = \\frac{\\text{sisi depan}}{\\text{sisi samping}} = \\frac{BC}{AC}$"
         },
         {
-          "judul": "Jenis-jenis Sudut",
-          "teks": "Berdasarkan besar:\n- Lancip ($<90^\\circ$)\n- Siku-siku ($=90^\\circ$)\n- Tumpul ($>90^\\circ$)\n- Lurus ($=180^\\circ$)\n- Refleks ($>180^\\circ$)"
+          "judul": "Perbandingan Kebalikan",
+          "teks": "- $\\csc A = \\frac{1}{\\sin A} = \\frac{\\text{sisi miring}}{\\text{sisi depan}}$\n- $\\sec A = \\frac{1}{\\cos A} = \\frac{\\text{sisi miring}}{\\text{sisi samping}}$\n- $\\cot A = \\frac{1}{\\tan A} = \\frac{\\text{sisi samping}}{\\text{sisi depan}}$"
         },
         {
-          "judul": "Hubungan Antar Sudut",
-          "teks": "Berpelurus (Sudut Suplemen): Jumlahnya $180^\\circ$.\nBerpenyiku (Sudut Komplemen): Jumlahnya $90^\\circ$.\nBertolak Belakang: Besarnya sama."
+          "judul": "Sudut Istimewa (Wajib Hafal)",
+          "teks": "| Sudut | $\\sin$ | $\\cos$ | $\\tan$ |\n|-------|--------|--------|--------|\n| $0^\\circ$ | $0$ | $1$ | $0$ |\n| $30^\\circ$ | $\\frac{1}{2}$ | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{\\sqrt{3}}$ |\n| $45^\\circ$ | $\\frac{\\sqrt{2}}{2}$ | $\\frac{\\sqrt{2}}{2}$ | $1$ |\n| $60^\\circ$ | $\\frac{\\sqrt{3}}{2}$ | $\\frac{1}{2}$ | $\\sqrt{3}$ |\n| $90^\\circ$ | $1$ | $0$ | $\\infty$ |"
         },
         {
-          "judul": "Sudut pada Garis Sejajar Dipotong Garis Lain",
-          "teks": "Sehadap: Besarnya sama.\nDalam Berseberangan: Besarnya sama.\nLuar Berseberangan: Besarnya sama.\nDalam Sepihak: Jumlahnya $180^\\circ$.\nLuar Sepihak: Jumlahnya $180^\\circ$."
+          "judul": "Kuadran dan Tanda Fungsi Trigonometri",
+          "teks": "Kuadran I (0°-90°): Semua positif\nKuadran II (90°-180°): Sin positif\nKuadran III (180°-270°): Tan positif\nKuadran IV (270°-360°): Cos positif\nMnemonic: \"All Students Take Calculus\""
         }
       ]
     },
     {
-      "judul": "2. Segitiga",
+      "judul": "2. Identitas dan Rumus Trigonometri",
       "subItems": [
         {
-          "judul": "Jenis-jenis Segitiga",
-          "teks": "Berdasarkan sisi: Sama sisi, sama kaki, sembarang.\nBerdasarkan sudut: Lancip, tumpul, siku-siku."
+          "judul": "Identitas Pythagoras",
+          "teks": "$\\sin^2 \\theta + \\cos^2 \\theta = 1$\n$1 + \\tan^2 \\theta = \\sec^2 \\theta$\n$1 + \\cot^2 \\theta = \\csc^2 \\theta$"
         },
         {
-          "judul": "Jumlah Sudut Dalam Segitiga",
-          "teks": "Selalu $180^\\circ$."
+          "judul": "Identitas Kebalikan",
+          "teks": "$\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}$\n$\\cot \\theta = \\frac{\\cos \\theta}{\\sin \\theta}$"
         },
         {
-          "judul": "Keliling (K)",
-          "teks": "Jumlah panjang ketiga sisi."
+          "judul": "Sudut Berelasi (Rumus Reduksi)",
+          "teks": "$\\sin(90^\\circ - \\theta) = \\cos \\theta$\n$\\cos(90^\\circ - \\theta) = \\sin \\theta$\n$\\sin(180^\\circ - \\theta) = \\sin \\theta$\n$\\cos(180^\\circ - \\theta) = -\\cos \\theta$\n$\\sin(180^\\circ + \\theta) = -\\sin \\theta$\n$\\cos(180^\\circ + \\theta) = -\\cos \\theta$"
         },
         {
-          "judul": "Luas (L)",
-          "teks": "$L = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$"
+          "judul": "Rumus Penjumlahan dan Pengurangan",
+          "teks": "$\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B$\n$\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$\n$\\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B$\n$\\cos(A - B) = \\cos A \\cos B + \\sin A \\sin B$\n$\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$"
         },
         {
-          "judul": "Rumus Heron",
-          "teks": "$L = \\sqrt{s(s-a)(s-b)(s-c)}$ di mana $s = \\frac{1}{2} K$ (setengah keliling), $a, b, c$ adalah panjang sisi."
+          "judul": "Rumus Sudut Ganda",
+          "teks": "$\\sin 2\\theta = 2 \\sin \\theta \\cos \\theta$\n$\\cos 2\\theta = \\cos^2 \\theta - \\sin^2 \\theta = 2\\cos^2 \\theta - 1 = 1 - 2\\sin^2 \\theta$\n$\\tan 2\\theta = \\frac{2\\tan \\theta}{1 - \\tan^2 \\theta}$"
         },
         {
-          "judul": "Teorema Pythagoras",
-          "teks": "Untuk segitiga siku-siku, $a^2 + b^2 = c^2$ dengan $c$ sisi miring."
-        },
-        {
-          "judul": "Kesebangunan dan Kekongruenan",
-          "teks": "Kesebangunan: Bentuk sama, ukuran berbeda (perbandingan sisi dan sudut bersesuaian sama).\nKekongruenan: Bentuk dan ukuran sama (sisi dan sudut bersesuaian sama)."
-        },
-        {
-          "judul": "Garis-garis Istimewa pada Segitiga",
-          "teks": "Garis tinggi, garis bagi, garis berat, garis sumbu, dan fungsinya."
+          "judul": "Rumus Setengah Sudut",
+          "teks": "$\\sin \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 - \\cos \\theta}{2}}$\n$\\cos \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 + \\cos \\theta}{2}}$\n$\\tan \\frac{\\theta}{2} = \\pm \\sqrt{\\frac{1 - \\cos \\theta}{1 + \\cos \\theta}} = \\frac{\\sin \\theta}{1 + \\cos \\theta}$"
         }
       ]
     },
     {
-      "judul": "3. Segiempat",
+      "judul": "3. Aturan Sinus dan Kosinus",
       "subItems": [
         {
-          "judul": "Persegi",
-          "teks": "Semua sisi sama panjang, semua sudut $90^\\circ$, diagonal sama panjang dan berpotongan tegak lurus membagi dua.\n$K = 4s$\n$L = s^2$"
+          "judul": "Aturan Sinus",
+          "teks": "Untuk segitiga sembarang ABC:\n$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$\ndimana $R$ adalah jari-jari lingkaran luar segitiga."
         },
         {
-          "judul": "Persegi Panjang",
-          "teks": "Sisi berhadapan sama panjang, semua sudut $90^\\circ$, diagonal sama panjang.\n$K = 2(p + l)$\n$L = p \\times l$"
+          "judul": "Aturan Kosinus",
+          "teks": "$a^2 = b^2 + c^2 - 2bc \\cos A$\n$b^2 = a^2 + c^2 - 2ac \\cos B$\n$c^2 = a^2 + b^2 - 2ab \\cos C$"
         },
         {
-          "judul": "Jajar Genjang",
-          "teks": "Sisi berhadapan sejajar dan sama panjang, sudut berhadapan sama besar, jumlah sudut berdekatan $180^\\circ$.\n$K = 2(a + b)$\n$L = \\text{alas} \\times \\text{tinggi}$"
+          "judul": "Luas Segitiga dengan Trigonometri",
+          "teks": "Luas $\\Delta ABC = \\frac{1}{2} ab \\sin C = \\frac{1}{2} bc \\sin A = \\frac{1}{2} ac \\sin B$\nRumus Heron: $\\sqrt{s(s-a)(s-b)(s-c)}$ dimana $s = \\frac{a+b+c}{2}$"
         },
         {
-          "judul": "Belah Ketupat",
-          "teks": "Semua sisi sama panjang, sudut berhadapan sama besar, diagonal berpotongan tegak lurus dan membagi dua sama panjang.\n$K = 4s$\n$L = \\frac{1}{2} \\times d_1 \\times d_2$"
-        },
-        {
-          "judul": "Layang-layang",
-          "teks": "Dua pasang sisi berdekatan sama panjang, salah satu diagonal tegak lurus dan membagi dua diagonal lainnya.\n$K = 2(a + b)$\n$L = \\frac{1}{2} \\times d_1 \\times d_2$"
-        },
-        {
-          "judul": "Trapesium",
-          "teks": "Memiliki sepasang sisi sejajar.\n$K = \\text{jumlah semua sisi}$\n$L = \\frac{1}{2} \\times (\\text{jumlah sisi sejajar}) \\times \\text{tinggi}$"
+          "judul": "Kapan Menggunakan Aturan Sinus/Kosinus?",
+          "teks": "Aturan Sinus: Diketahui 2 sudut dan 1 sisi (AAS) atau 2 sisi dan sudut di hadapan salah satu sisi (SSA).\nAturan Kosinus: Diketahui 3 sisi (SSS) atau 2 sisi dan sudut di antara kedua sisi tersebut (SAS)."
         }
       ]
     },
     {
-      "judul": "4. Lingkaran",
+      "judul": "4. Persamaan Trigonometri",
       "subItems": [
         {
-          "judul": "Elemen-elemen Lingkaran",
-          "teks": "Pusat, jari-jari ($r$), diameter ($d$), busur, tali busur, juring, tembereng, apotema."
+          "judul": "Bentuk Dasar",
+          "teks": "$\\sin x = \\sin \\alpha \\Rightarrow x = \\alpha + k \\cdot 360^\\circ$ atau $x = (180^\\circ - \\alpha) + k \\cdot 360^\\circ$\n$\\cos x = \\cos \\alpha \\Rightarrow x = \\pm \\alpha + k \\cdot 360^\\circ$\n$\\tan x = \\tan \\alpha \\Rightarrow x = \\alpha + k \\cdot 180^\\circ$"
         },
         {
-          "judul": "Rumus Dasar",
-          "teks": "Keliling ($K$) = $2\\pi r = \\pi d$\nLuas ($L$) = $\\pi r^2$"
+          "judul": "Langkah Penyelesaian",
+          "teks": "1. Sederhanakan persamaan ke bentuk dasar\n2. Tentukan solusi dasar\n3. Tambahkan periode\n4. Tentukan solusi dalam interval yang diminta\n5. Verifikasi solusi"
         },
         {
-          "judul": "Sudut Pusat dan Sudut Keliling",
-          "teks": "Sudut pusat = $2 \\times$ sudut keliling yang menghadap busur yang sama."
+          "judul": "Contoh Soal Tipikal",
+          "teks": "Selesaikan $2\\sin^2 x - \\sin x - 1 = 0$ untuk $0^\\circ \\leq x \\leq 360^\\circ$\nPenyelesaian: Misalkan $y = \\sin x$, maka $2y^2 - y - 1 = 0$"
+        }
+      ]
+    },
+    {
+      "judul": "5. Grafik Fungsi Trigonometri",
+      "subItems": [
+        {
+          "judul": "Sifat Dasar Grafik",
+          "teks": "Grafik fungsi trigonometri adalah periodik (berulang).\nPeriode dasar:\n- $\\sin x$ dan $\\cos x$: $2\\pi$ atau $360^\\circ$\n- $\\tan x$: $\\pi$ atau $180^\\circ$"
         },
         {
-          "judul": "Panjang Busur",
-          "teks": "$(\\text{sudut pusat} / 360^\\circ) \\times \\text{Keliling Lingkaran}$"
+          "judul": "Bentuk Umum",
+          "teks": "$y = A \\sin(Bx + C) + D$ atau $y = A \\cos(Bx + C) + D$\n- $A$: Amplitudo (tinggi gelombang)\n- $B$: Mempengaruhi periode: Periode = $\\frac{2\\pi}{|B|}$\n- $C$: Pergeseran fase\n- $D$: Pergeseran vertikal"
         },
         {
-          "judul": "Luas Juring",
-          "teks": "$(\\text{sudut pusat} / 360^\\circ) \\times \\text{Luas Lingkaran}$"
+          "judul": "Transformasi Grafik",
+          "teks": "Translasi, peregangan, kompresi, dan refleksi terhadap sumbu x atau y."
+        }
+      ]
+    },
+    {
+      "judul": "6. Penerapan Trigonometri",
+      "subItems": [
+        {
+          "judul": "Dalam Segitiga",
+          "teks": "Menentukan sisi atau sudut yang tidak diketahui pada segitiga bukan siku-siku."
+        },
+        {
+          "judul": "Dalam Koordinat Kartesius",
+          "teks": "Menentukan posisi titik menggunakan koordinat polar $(r, \\theta)$:\n$x = r \\cos \\theta$, $y = r \\sin \\theta$\n$r = \\sqrt{x^2 + y^2}$, $\\theta = \\arctan(\\frac{y}{x})$"
+        },
+        {
+          "judul": "Dalam Fisika",
+          "teks": "Analisis vektor, gerak harmonik sederhana, gelombang, dan proyeksi."
+        },
+        {
+          "judul": "Dalam Geometri 3D",
+          "teks": "Menghitung sudut antara garis dan bidang, jarak dalam ruang tiga dimensi."
         }
       ]
     },
     {
       "judul": "Tips Belajar Praktis",
-      "teks": "- Hafalkan rumus dasar keliling dan luas semua bangun datar, serta pahami variabelnya.\n- Pahami sifat-sifat unik bangun datar (misal diagonal tegak lurus di belah ketupat/layang-layang).\n- Latih soal variatif: langsung, terbalik, gabungan bangun, perbandingan, aplikasi Pythagoras, kesebangunan/kekongruenan.\n- Gunakan sketsa untuk visualisasi soal tanpa gambar.\n- Perhatikan konsistensi satuan.\n- Jangan takut dengan $\\pi$; gunakan simbol, $22/7$, atau $3.14$.\n- Review konsep sudut sehadap, dalam berseberangan, dsb.\n- Rajin berlatih agar siap menghadapi materi geometri UTBK SNBT."
+      "teks": "1. **Hafalkan Tabel Sudut Istimewa**: $0^\\circ$, $30^\\circ$, $45^\\circ$, $60^\\circ$, $90^\\circ$ untuk sin, cos, tan adalah wajib.\n2. **Pahami Identitas Dasar**: Fokus pada identitas Pythagoras dan konversi sin-cos-tan.\n3. **Ingat Tanda di Setiap Kuadran**: Gunakan mnemonic \"All Students Take Calculus\".\n4. **Kuadran vs Sudut Negatif**: $\\sin(-\\theta) = -\\sin \\theta$, $\\cos(-\\theta) = \\cos \\theta$.\n5. **Aturan Sinus/Kosinus**: Pilih aturan yang tepat berdasarkan informasi yang diketahui.\n6. **Periode Fungsi**: $\\sin$ dan $\\cos$ periode $360^\\circ$, $\\tan$ periode $180^\\circ$.\n7. **Sederhanakan Persamaan**: Gunakan identitas untuk menyederhanakan sebelum menyelesaikan.\n8. **Latihan Variatif**: Kerjakan soal dari segitiga siku-siku hingga penerapan 3D.\n9. **Gambar Diagram**: Visualisasi membantu memahami soal.\n10. **Periksa Solusi**: Pastikan solusi berada dalam interval yang ditentukan dan sesuai dengan domain fungsi.\n\nTrigonometri sering muncul di UTBK SNBT dalam bentuk soal cerita aplikatif. Pahami konsep dasar, latih soal variatif, dan siapkan diri untuk menghadapi materi trigonometri dalam UTBK SNBT!"
     }
   ]
 }
