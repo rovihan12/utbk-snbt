@@ -1,5 +1,18 @@
 [
-
+  {
+    "id": 1,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\cos A = 3/5$ dan $\\pi < A < 2\\pi$, maka nilai $\\frac{\\sin A}{\\cos A} - \\frac{1}{\\sin A} = ....$",
+    "pilihan": [
+      "$-1/2$",
+      "$-1/12$",
+      "$1/12$",
+      "$4/5$",
+      "$2$"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Langkah 1: Tentukan letak kuadran. Karena $\\cos A$ positif pada rentang $\\pi < A < 2\\pi$, maka $A$ berada di kuadran IV.\nLangkah 2: Cari nilai $\\sin A$. Jika $\\cos A = 3/5$, maka $\\sin A = -4/5$ (negatif di kuadran IV).\nLangkah 3: Masukkan ke persamaan.\n$\\frac{-4/5}{3/5} - \\frac{1}{-4/5} = -4/3 + 5/4$\n$= \\frac{-16 + 15}{12} = -1/12$."
+  },
 {
   "id": 2,
   "kategori": "Sedang",
