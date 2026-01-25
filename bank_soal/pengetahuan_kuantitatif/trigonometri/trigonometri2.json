@@ -111,5 +111,33 @@
     ],
     "jawaban": "D",
     "pembahasan": "1. Gradien garis $k$ adalah $10$. Gradien garis tegak lurus ($c$) adalah:\n$c \\times 10 = -1 \\implies c = -1/10$.\n\n2. Cari nilai $d$ dengan substitusi titik $M(1, 4)$ ke $y = cx + d$:\n$4 = (-1/10)(1) + d \\implies d = 4 + 0,1 = 4,1 = 41/10$.\n\n3. Hitung $c + d$:\n$c + d = -1/10 + 41/10 = 40/10 = 4$."
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Di antara pilihan berikut yang merupakan faktor Persekutuan dari $(11^2 - 1)$ dan $(10^2 - 20)$ adalah......\n(1) 20\n(2) 15\n(3) 10\n(4) 3",
+    "pilihan": [
+      "A. (1), (2), dan (3) SAJA",
+      "B. (1) dan (3) SAJA",
+      "C. (2) dan (4) SAJA",
+      "D. (4) SAJA",
+      "E. SEMUA PILIHAN"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Bilangan pertama: $11^2 - 1 = 121 - 1 = 120$. Bilangan kedua: $10^2 - 20 = 100 - 20 = 80$. Faktor persekutuan harus habis membagi kedua bilangan tersebut. (1) 120/20=6, 80/20=4 (Benar). (2) 80/15=5,33 (Salah). (3) 120/10=12, 80/10=8 (Benar). (4) 80/3=26,66 (Salah). Maka yang benar adalah (1) dan (3)."
+  },
+  {
+    "id": 10,
+    "kategori": "Sulit",
+    "pertanyaan": "Fungsi $p$ memenuhi $\\frac{8}{x - 1} < p(x) < 3^x$ Untuk $x \\geq 2$. Di antara pilihan berikut, nilai $p$ di $x = 3$ yang tidak mungkin Adalah......\n(1) 30\n(2) 20\n(3) 3\n(4) 10",
+    "pilihan": [
+      "A. (1), (2), dan (3) SAJA",
+      "B. (1) dan (3) SAJA",
+      "C. (2) dan (4) SAJA",
+      "D. (4) SAJA",
+      "E. SEMUA PILIHAN"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Substitusi $x = 3$ ke dalam pertidaksamaan: $8/(3-1) < p(3) < 3^3$, menjadi $4 < p(3) < 27$. Nilai $p(3)$ harus di antara 4 dan 27. (1) 30 berada di luar rentang (Tidak mungkin). (2) 20 di dalam rentang (Mungkin). (3) 3 di luar rentang (Tidak mungkin). (4) 10 di dalam rentang (Mungkin). Jadi yang tidak mungkin adalah (1) dan (3)."
   }
 ]
