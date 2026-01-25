@@ -1,43 +1,14 @@
 {
-    "id": 1,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $0^\circ < \beta < 90^\circ$ dan $\sin(\beta) = \frac{6}{7}$, di antara pilihan berikut yang benar adalah......\n(1) $\tan(\beta) = \frac{7}{\sqrt{13}}$\n(2) $\cos(90^\circ - \beta) = \frac{6}{7}$\n(3) $\frac{1}{\cos(\beta)} = \frac{6}{\sqrt{13}}$\n(4) $\sin(\beta) > \cos(\beta)$",
-    "pilihan": [
-      "A. (1), (2), dan (3) SAJA",
-      "B. (1) dan (3) SAJA",
-      "C. (2) dan (4) SAJA",
-      "D. (4) SAJA",
-      "E. SEMUA PILIHAN"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Diketahui $\sin(\beta) = \frac{6}{7}$ (Sisi depan $= 6$, Sisi miring $= 7$).\n\nLangkah 1: Cari sisi samping menggunakan teorema Pythagoras:\n$$\text{Sisi samping} = \sqrt{7^2 - 6^2} = \sqrt{49 - 36} = \sqrt{13}$$\n\nLangkah 2: Uji setiap pernyataan:\n- (1) $\tan(\beta) = \frac{\text{depan}}{\text{samping}} = \frac{6}{\sqrt{13}}$ (Salah).\n- (2) Menggunakan identitas sudut berelasi: $\cos(90^\circ - \beta) = \sin(\beta)$. Karena $\sin(\beta) = 6/7$, maka pernyataan ini **Benar**.\n- (3) $\cos(\beta) = \frac{\sqrt{13}}{7}$, maka $\frac{1}{\cos(\beta)} = \frac{7}{\sqrt{13}}$ (Salah).\n- (4) Bandingkan nilai $\sin(\beta)$ dan $\cos(\beta)$:\n  $\sin(\beta) = \frac{6}{7} = \frac{\sqrt{36}}{7}$ dan $\cos(\beta) = \frac{\sqrt{13}}{7}$.\n  Karena $\sqrt{36} > \sqrt{13}$, maka $\sin(\beta) > \cos(\beta)$ adalah **Benar**.\n\nKesimpulan: Pernyataan yang benar adalah (2) dan (4)."
-},
-{
-    "id": 2,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $0^\circ < \beta < 90^\circ$ dan $\sin(\beta) = \frac{6}{7}$, di antara pilihan berikut yang benar adalah......\n(1) $\tan(\beta) = \frac{7}{\sqrt{13}}$\n(2) $\cos(90^\circ - \beta) = \frac{6}{7}$\n(3) $\frac{1}{\cos(\beta)} = \frac{6}{\sqrt{13}}$\n(4) $\sin(\beta) > \cos(\beta)$",
-    "pilihan": [
-      "A. (1), (2), dan (3) SAJA",
-      "B. (1) dan (3) SAJA",
-      "C. (2) dan (4) SAJA",
-      "D. (4) SAJA",
-      "E. SEMUA PILIHAN"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Diketahui $\sin(\beta) = \frac{6}{7}$ (Sisi depan $= 6$, Sisi miring $= 7$).\n\nLangkah 1: Cari sisi samping menggunakan teorema Pythagoras:\n$$\text{Sisi samping} = \sqrt{7^2 - 6^2} = \sqrt{49 - 36} = \sqrt{13}$$\n\nLangkah 2: Uji setiap pernyataan:\n- (1) $\tan(\beta) = \frac{\text{depan}}{\text{samping}} = \frac{6}{\sqrt{13}}$ (Salah).\n- (2) Menggunakan identitas sudut berelasi: $\cos(90^\circ - \beta) = \sin(\beta)$. Karena $\sin(\beta) = 6/7$, maka pernyataan ini **Benar**.\n- (3) $\cos(\beta) = \frac{\sqrt{13}}{7}$, maka $\frac{1}{\cos(\beta)} = \frac{7}{\sqrt{13}}$ (Salah).\n- (4) Bandingkan nilai $\sin(\beta)$ dan $\cos(\beta)$:\n  $\sin(\beta) = \frac{6}{7} = \frac{\sqrt{36}}{7}$ dan $\cos(\beta) = \frac{\sqrt{13}}{7}$.\n  Karena $\sqrt{36} > \sqrt{13}$, maka $\sin(\beta) > \cos(\beta)$ adalah **Benar**.\n\nKesimpulan: Pernyataan yang benar adalah (2) dan (4)."
-},
-  {
-    "id": 3,
-    "kategori": "Sedang",
-    "pertanyaan": "Daerah lingkaran dengan pusat $A$ dan jari-jari 9 memiliki luas $L_1$. Titik $B$ terletak di dalam daerah lingkaran tersebut sehingga luas daerah lingkaran dengan pusat $B$ dan jari-jari $r$ adalah $L_2$. Jika $L_2 = \frac{1}{9}L_1$, maka nilai $r$ adalah...",
-    "pilihan": [
-      "1",
-      "2",
-      "3",
-      "6",
-      "9"
-    ],
-    "jawaban": "C",
-    "pembahasan": "Langkah 1: Hitung luas lingkaran pertama ($L_1$):\n$L_1 = \pi \cdot R^2 = \pi \cdot 9^2 = 81\pi$\n\nLangkah 2: Tentukan luas lingkaran kedua ($L_2$):\n$L_2 = \frac{1}{9} \cdot L_1 = \frac{1}{9} \cdot 81\pi = 9\pi$\n\nLangkah 3: Cari jari-jari $r$ dari luas $L_2$:\n$L_2 = \pi \cdot r^2$\n$9\pi = \pi \cdot r^2$\n$r^2 = 9$\n$r = 3$\n\nJadi, nilai $r$ adalah 3."
+  "id": 1,
+  "kategori": "Sedang",
+  "pertanyaan": "Jika $0^\\circ < \\alpha < 90^\\circ$ dan $\\cos \\alpha = \\frac{3}{4}$, di antara pilihan berikut, yang benar adalah ...\n(1) $\\sin \\alpha = \\frac{4}{\\sqrt{7}}$\n(2) $\\tan(90^\\circ - \\alpha) = \\frac{3}{\\sqrt{7}}$\n(3) $\\cos \\alpha < \\sin \\alpha$\n(4) $\\tan \\alpha = \\frac{\\sqrt{7}}{3}$",
+  "pilihan": [
+    "(1), (2), dan (3) SAJA",
+    "(1) dan (3) SAJA",
+    "(2) dan (4) SAJA",
+    "(4) SAJA",
+    "SEMUA PILIHAN"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Diketahui $\\cos \\alpha = \\frac{3}{4}$ pada Kuadran I. Kita tentukan dulu sisi-sisi segitiga siku-siku:\n- Sisi samping (sa) = 3\n- Sisi miring (mi) = 4\n- Sisi depan (de) = $\\sqrt{4^2 - 3^2} = \\sqrt{16 - 9} = \\sqrt{7}$\n\n**Analisis Pernyataan:**\n\n1. **Pernyataan (1):** $\\sin \\alpha = \\frac{de}{mi} = \\frac{\\sqrt{7}}{4}$.\n   Pada soal tertulis $\\frac{4}{\\sqrt{7}}$, maka pernyataan (1) **SALAH**.\n\n2. **Pernyataan (4):** $\\tan \\alpha = \\frac{de}{sa} = \\frac{\\sqrt{7}}{3}$.\n   Pernyataan (4) **BENAR**.\n\n3. **Pernyataan (2):** $\\tan(90^\\circ - \\alpha) = \\cot \\alpha$.\n   $\\cot \\alpha = \\frac{sa}{de} = \\frac{3}{\\sqrt{7}}$.\n   Pernyataan (2) **BENAR**.\n\n4. **Pernyataan (3):** $\\cos \\alpha < \\sin \\alpha$.\n   $\\frac{3}{4} < \\frac{\\sqrt{7}}{4} \\implies 3 < \\sqrt{7}$.\n   Karena $\\sqrt{7} \\approx 2,64$, maka $3 < 2,64$ adalah **SALAH**.\n\nKarena pernyataan (2) dan (4) benar, maka jawaban yang tepat adalah C."
 }
-]
