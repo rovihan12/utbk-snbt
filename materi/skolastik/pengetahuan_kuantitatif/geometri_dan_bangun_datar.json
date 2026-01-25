@@ -1,164 +1,132 @@
 {
-  "judul": "Geometri dan Bangun Datar",
-  "deskripsi": "Materi dasar geometri bidang, sifat-sifat bangun datar, rumus keliling dan luas untuk persiapan UTBK SNBT.",
+  "judul": "Geometri dan Bangun Ruang",
+  "deskripsi": "Materi ini menguji pemahaman Anda tentang konsep geometri bidang, bangun ruang, sifat-sifat bangun datar dan ruang, jarak, sudut, luas, volume, serta penerapannya dalam menyelesaikan masalah untuk persiapan UTBK SNBT.",
   "subItems": [
     {
-      "judul": "1. Konsep Dasar",
+      "judul": "1. Geometri Bidang Dasar",
       "subItems": [
         {
-          "judul": "Unsur-unsur Geometri",
-          "teks": "1. Titik: Posisi tanpa dimensi (contoh: titik A)\n2. Garis: Himpunan titik yang memanjang tak terbatas\n3. Ruas Garis: Bagian garis dengan titik ujung tertentu\n4. Sudut: Daerah antara dua sinar dengan titik pangkal sama\n5. Bidang: Permukaan datar tak terbatas"
+          "judul": "Segitiga dan Sifat-Sifatnya",
+          "teks": "- Jumlah sudut dalam segitiga = 180°\n- Teorema Pythagoras: Pada segitiga siku-siku, $a^2 + b^2 = c^2$ (c = sisi miring)\n- Keliling = jumlah semua sisi\n- Luas = $\\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi}$\n- Jenis segitiga: sama sisi, sama kaki, siku-siku, sembarang\n- Garis istimewa: garis tinggi, garis berat, garis bagi, garis sumbu"
         },
         {
-          "judul": "Jenis-jenis Sudut",
-          "teks": "• Lancip: 0° < sudut < 90°\n• Siku-siku: 90°\n• Tumpul: 90° < sudut < 180°\n• Lurus: 180°\n• Refleks: 180° < sudut < 360°\n• Penuh: 360°"
+          "judul": "Segiempat dan Jenis-Jenisnya",
+          "teks": "- Persegi: semua sisi sama, semua sudut 90°, luas = $s^2$, keliling = $4s$\n- Persegi panjang: sisi berhadapan sama, semua sudut 90°, luas = $p \\times l$, keliling = $2(p+l)$\n- Jajar genjang: sisi berhadapan sejajar dan sama, luas = alas × tinggi\n- Belah ketupat: semua sisi sama, diagonal berpotongan tegak lurus, luas = $\\frac{1}{2} \\times d_1 \\times d_2$\n- Layang-layang: dua pasang sisi sama, diagonal tegak lurus\n- Trapesium: sepasang sisi sejajar, luas = $\\frac{1}{2} \\times \\text{jumlah sisi sejajar} \\times \\text{tinggi}$"
+        },
+        {
+          "judul": "Lingkaran",
+          "teks": "- Unsur: jari-jari (r), diameter (d = 2r), tali busur, apotema, busur, juring, tembereng\n- Keliling = $2\\pi r$ atau $\\pi d$\n- Luas = $\\pi r^2$\n- Panjang busur = $\\frac{\\text{sudut pusat}}{360^\\circ} \\times 2\\pi r$\n- Luas juring = $\\frac{\\text{sudut pusat}}{360^\\circ} \\times \\pi r^2$\n- Sudut keliling = $\\frac{1}{2}$ × sudut pusat yang menghadap busur sama"
+        },
+        {
+          "judul": "Sudut dan Garis Sejajar",
+          "teks": "- Sudut berpelurus: jumlah 180°\n- Sudut berpenyiku: jumlah 90°\n- Sudut bertolak belakang: sama besar\n- Sudut sehadap: sama besar (pada garis sejajar)\n- Sudut dalam berseberangan: sama besar\n- Sudut luar berseberangan: sama besar\n- Sudut dalam sepihak: jumlah 180°\n- Sudut luar sepihak: jumlah 180°"
         }
       ]
     },
     {
-      "judul": "2. Segitiga",
+      "judul": "2. Bangun Ruang (Dimensi Tiga)",
       "subItems": [
         {
-          "judul": "Jenis Segitiga",
-          "teks": "Berdasarkan Sisi:\n• Sama Sisi: Ketiga sisi sama\n• Sama Kaki: Dua sisi sama\n• Sembarang: Semua sisi berbeda\n\nBerdasarkan Sudut:\n• Lancip: Semua sudut < 90°\n• Siku-siku: Satu sudut 90°\n• Tumpul: Satu sudut > 90°"
+          "judul": "Kubus dan Balok",
+          "teks": "**Kubus:**\n- Semua sisi persegi sama besar\n- Diagonal ruang = $s\\sqrt{3}$\n- Diagonal bidang = $s\\sqrt{2}$\n- Luas permukaan = $6s^2$\n- Volume = $s^3$\n\n**Balok:**\n- Sisi berbentuk persegi panjang\n- Panjang diagonal ruang = $\\sqrt{p^2 + l^2 + t^2}$\n- Luas permukaan = $2(pl + pt + lt)$\n- Volume = $p \\times l \\times t$"
         },
         {
-          "judul": "Rumus Segitiga",
-          "teks": "Keliling = a + b + c\nLuas = ½ × alas × tinggi\n\nTeorema Pythagoras:\nUntuk segitiga siku-siku:\na² + b² = c²\n(c = sisi miring)"
+          "judul": "Prisma",
+          "teks": "- Prisma tegak: alas dan tutup sejajar sama, sisi tegak persegi/persegi panjang\n- Luas permukaan = (2 × luas alas) + (keliling alas × tinggi)\n- Volume = luas alas × tinggi\n- Jenis: prisma segitiga, prisma segiempat, prisma segilima, dll."
         },
         {
-          "judul": "Segitiga Istimewa",
-          "teks": "1. Segitiga 30°-60°-90°:\n   Perbandingan sisi: 1 : √3 : 2\n\n2. Segitiga 45°-45°-90°:\n   Perbandingan sisi: 1 : 1 : √2\n\n3. Tripel Pythagoras:\n   3-4-5, 5-12-13, 7-24-25, 8-15-17"
+          "judul": "Limas",
+          "teks": "- Memiliki alas dan titik puncak, sisi tegak berbentuk segitiga\n- Luas permukaan = luas alas + jumlah luas sisi tegak\n- Volume = $\\frac{1}{3} \\times \\text{luas alas} \\times \\text{tinggi}$\n- Jenis: limas segitiga, limas segiempat, limas segilima, dll.\n- Pada limas segiempat beraturan: tinggi segitiga tegak = $\\sqrt{t^2 + (\\frac{1}{2}s)^2}$"
+        },
+        {
+          "judul": "Tabung (Silinder)",
+          "teks": "- Memiliki alas dan tutup lingkaran\n- Luas permukaan = $2\\pi r(r + t)$\n- Luas selimut = $2\\pi r t$\n- Volume = $\\pi r^2 t$"
+        },
+        {
+          "judul": "Kerucut",
+          "teks": "- Memiliki alas lingkaran dan titik puncak\n- Garis pelukis (s) = $\\sqrt{r^2 + t^2}$\n- Luas permukaan = $\\pi r(r + s)$\n- Luas selimut = $\\pi r s$\n- Volume = $\\frac{1}{3} \\pi r^2 t$"
+        },
+        {
+          "judul": "Bola",
+          "teks": "- Semua titik permukaan berjarak sama dari pusat\n- Luas permukaan = $4\\pi r^2$\n- Volume = $\\frac{4}{3} \\pi r^3$"
         }
       ]
     },
     {
-      "judul": "3. Segiempat",
+      "judul": "3. Transformasi Geometri",
       "subItems": [
         {
-          "judul": "Persegi",
-          "teks": "Sifat:\n• Semua sisi sama panjang\n• Semua sudut 90°\n• Diagonal sama panjang dan tegak lurus\n\nRumus:\nKeliling = 4 × sisi\nLuas = sisi × sisi\nDiagonal = sisi × √2"
+          "judul": "Translasi (Pergeseran)",
+          "teks": "Pergeseran semua titik sejauh $\\binom{a}{b}$\nRumus: $T = \\binom{a}{b}$, maka $P'(x', y') = P(x+a, y+b)$\nSifat: bentuk dan ukuran tetap, hanya posisi berubah"
         },
         {
-          "judul": "Persegi Panjang",
-          "teks": "Sifat:\n• Sisi berhadapan sama panjang\n• Semua sudut 90°\n• Diagonal sama panjang\n\nRumus:\nKeliling = 2 × (panjang + lebar)\nLuas = panjang × lebar\nDiagonal = √(panjang² + lebar²)"
+          "judul": "Refleksi (Pencerminan)",
+          "teks": "Pencerminan terhadap:\n- Sumbu X: $(x, y) \\rightarrow (x, -y)$\n- Sumbu Y: $(x, y) \\rightarrow (-x, y)$\n- Garis y = x: $(x, y) \\rightarrow (y, x)$\n- Garis y = -x: $(x, y) \\rightarrow (-y, -x)$\n- Titik asal O(0,0): $(x, y) \\rightarrow (-x, -y)$\n- Garis x = a: $(x, y) \\rightarrow (2a-x, y)$\n- Garis y = b: $(x, y) \\rightarrow (x, 2b-y)$"
         },
         {
-          "judul": "Jajar Genjang",
-          "teks": "Sifat:\n• Sisi berhadapan sama dan sejajar\n• Sudut berhadapan sama besar\n• Diagonal saling membagi dua\n\nRumus:\nKeliling = 2 × (sisi1 + sisi2)\nLuas = alas × tinggi"
+          "judul": "Rotasi (Perputaran)",
+          "teks": "Perputaran dengan pusat (0,0):\n- 90°: $(x, y) \\rightarrow (-y, x)$\n- 180°: $(x, y) \\rightarrow (-x, -y)$\n- 270°: $(x, y) \\rightarrow (y, -x)$\n- θ berlawanan jarum jam: $(x, y) \\rightarrow (x\\cos\\theta - y\\sin\\theta, x\\sin\\theta + y\\cos\\theta)$"
         },
         {
-          "judul": "Belah Ketupat",
-          "teks": "Sifat:\n• Semua sisi sama panjang\n• Diagonal berpotongan tegak lurus\n• Sudut berhadapan sama besar\n\nRumus:\nKeliling = 4 × sisi\nLuas = ½ × d1 × d2\n(d1, d2 = panjang diagonal)"
-        },
-        {
-          "judul": "Layang-layang",
-          "teks": "Sifat:\n• Dua pasang sisi sama panjang\n• Sepasang sudut berhadapan sama\n• Diagonal tegak lurus\n\nRumus:\nKeliling = 2 × (sisi1 + sisi2)\nLuas = ½ × d1 × d2"
-        },
-        {
-          "judul": "Trapesium",
-          "teks": "Jenis:\n• Sembarang\n• Samakaki\n• Siku-siku\n\nRumus Luas:\nLuas = ½ × (sisi atas + sisi bawah) × tinggi\n\nGaris Tengah:\nPanjang = ½ × (sisi atas + sisi bawah)"
+          "judul": "Dilatasi (Perkalian/Pembesaran)",
+          "teks": "Perubahan ukuran dengan faktor skala k\nPusat (0,0): $(x, y) \\rightarrow (kx, ky)$\nPusat (a,b): $(x, y) \\rightarrow (a + k(x-a), b + k(y-b))$\nJika |k| > 1: diperbesar\nJika 0 < |k| < 1: diperkecil\nJika k negatif: bayangan terbalik"
         }
       ]
     },
     {
-      "judul": "4. Lingkaran",
+      "judul": "4. Jarak, Sudut, dan Irisan",
       "subItems": [
         {
-          "judul": "Unsur-unsur Lingkaran",
-          "teks": "• Jari-jari (r): Jarak pusat ke lingkaran\n• Diameter (d): 2 × jari-jari\n• Keliling (K): Panjang lingkaran\n• Luas (L): Daerah dalam lingkaran\n• Busur: Bagian keliling\n• Juring: Daerah antara dua jari-jari dan busur\n• Tembereng: Daerah antara busur dan tali busur"
+          "judul": "Jarak dalam Ruang",
+          "teks": "- Jarak dua titik: $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$\n- Jarak titik ke garis: panjang garis tegak lurus dari titik ke garis\n- Jarak titik ke bidang: panjang garis tegak lurus dari titik ke bidang\n- Jarak dua garis sejajar: jarak salah satu titik di garis pertama ke garis kedua\n- Jarak garis dan bidang sejajar: jarak sembarang titik pada garis ke bidang"
         },
         {
-          "judul": "Rumus Lingkaran",
-          "teks": "Keliling = 2 × π × r\n        = π × d\n\nLuas = π × r²\n     = ¼ × π × d²\n\nπ ≈ 3,14 atau 22/7"
+          "judul": "Sudut dalam Ruang",
+          "teks": "- Sudut antara dua garis: sudut antara vektor arahnya\n- Sudut antara garis dan bidang: komplemen dari sudut antara garis dengan proyeksinya pada bidang\n- Sudut antara dua bidang: sudut antara garis normal kedua bidang\n- Rumus cosinus sudut antara vektor $\\vec{a}$ dan $\\vec{b}$: $\\cos\\theta = \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}||\\vec{b}|}$"
         },
         {
-          "judul": "Panjang Busur dan Luas Juring",
-          "teks": "Panjang Busur = (sudut/360°) × keliling\n\nLuas Juring = (sudut/360°) × luas"
+          "judul": "Irisan Bangun Ruang",
+          "teks": "- Irisan bidang dengan kubus: dapat berbentuk segitiga, segiempat, segilima, segienam\n- Irisan bidang dengan bola: selalu berbentuk lingkaran\n- Irisan bidang dengan kerucut: lingkaran, elips, parabola, hiperbola (irisan kerucut)\n- Irisan dua bola: lingkaran"
+        },
+        {
+          "judul": "Proyeksi dalam Ruang",
+          "teks": "- Proyeksi titik pada garis: titik kaki garis tegak lurus dari titik ke garis\n- Proyeksi titik pada bidang: titik kaki garis tegak lurus dari titik ke bidang\n- Proyeksi garis pada bidang: himpunan proyeksi semua titik pada garis ke bidang"
         }
       ]
     },
     {
-      "judul": "5. Rumus Cepat",
+      "judul": "5. Kesebangunan dan Kekongruenan",
       "subItems": [
         {
-          "judul": "Keliling Bangun Datar",
-          "teks": "1. Segitiga: K = sisi1 + sisi2 + sisi3\n2. Persegi: K = 4 × sisi\n3. Persegi Panjang: K = 2 × (p + l)\n4. Jajar Genjang: K = 2 × (a + b)\n5. Belah Ketupat: K = 4 × s\n6. Layang-layang: K = 2 × (a + b)\n7. Trapesium: K = sisi1 + sisi2 + sisi3 + sisi4\n8. Lingkaran: K = 2 × π × r"
+          "judul": "Kekongruenan (Kongruen)",
+          "teks": "Dua bangun dikatakan kongruen jika:\n- Bentuk dan ukuran sama persis\n- Sudut-sudut bersesuaian sama besar\n- Sisi-sisi bersesuaian sama panjang\n- Syarat segitiga kongruen: sisi-sisi-sisi (SSS), sisi-sudut-sisi (SAS), sudut-sisi-sudut (ASA), sudut-sudut-sisi (AAS), sisi miring-sudut (RHS untuk segitiga siku-siku)"
         },
         {
-          "judul": "Luas Bangun Datar",
-          "teks": "1. Segitiga: L = ½ × a × t\n2. Persegi: L = s × s\n3. Persegi Panjang: L = p × l\n4. Jajar Genjang: L = a × t\n5. Belah Ketupat: L = ½ × d1 × d2\n6. Layang-layang: L = ½ × d1 × d2\n7. Trapesium: L = ½ × (a + b) × t\n8. Lingkaran: L = π × r²"
+          "judul": "Kesebangunan (Similar)",
+          "teks": "Dua bangun dikatakan sebangun jika:\n- Bentuk sama, ukuran berbeda (skala)\n- Sudut-sudut bersesuaian sama besar\n- Sisi-sisi bersesuaian sebanding (perbandingan sama)\n- Syarat segitiga sebangun: sudut-sudut (AA), sisi-sisi-sisi (SSS proporsional), sisi-sudut-sisi (SAS proporsional)\n- Perbandingan luas bangun sebangun = kuadrat perbandingan sisi\n- Perbandingan volume bangun ruang sebangun = pangkat tiga perbandingan sisi"
         }
       ]
     },
     {
-      "judul": "6. Transformasi Geometri",
+      "judul": "6. Koordinat Geometri",
       "subItems": [
         {
-          "judul": "Jenis Transformasi",
-          "teks": "1. Translasi: Pergeseran\n2. Refleksi: Pencerminan\n3. Rotasi: Perputaran\n4. Dilatasi: Perbesaran/pengecilan"
+          "judul": "Titik, Garis, dan Bidang dalam Koordinat",
+          "teks": "- Persamaan garis: $y = mx + c$ (m = gradien, c = konstanta)\n- Gradien garis melalui dua titik: $m = \\frac{y_2-y_1}{x_2-x_1}$\n- Garis sejajar: gradien sama\n- Garis tegak lurus: $m_1 \\times m_2 = -1$\n- Jarak titik ke garis $Ax + By + C = 0$: $d = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2+B^2}}$\n- Persamaan bidang dalam ruang: $Ax + By + Cz + D = 0$"
         },
         {
-          "judul": "Sifat Transformasi",
-          "teks": "• Translasi: Bentuk dan ukuran tetap\n• Refleksi: Jarak ke cermin sama\n• Rotasi: Ukuran tetap, posisi berubah\n• Dilatasi: Bentuk tetap, ukuran berubah"
+          "judul": "Segitiga dalam Koordinat",
+          "teks": "- Luas segitiga dengan koordinat $(x_1,y_1)$, $(x_2,y_2)$, $(x_3,y_3)$:\n$L = \\frac{1}{2}|x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$\n- Titik berat: $G(\\frac{x_1+x_2+x_3}{3}, \\frac{y_1+y_2+y_3}{3})$\n- Titik tengah sisi: $M_{AB}(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2})$"
+        },
+        {
+          "judul": "Lingkaran dalam Koordinat",
+          "teks": "- Persamaan lingkaran pusat (0,0): $x^2 + y^2 = r^2$\n- Persamaan lingkaran pusat (a,b): $(x-a)^2 + (y-b)^2 = r^2$\n- Bentuk umum: $x^2 + y^2 + Ax + By + C = 0$\n- Pusat: $(-\\frac{A}{2}, -\\frac{B}{2})$\n- Jari-jari: $r = \\sqrt{(\\frac{A}{2})^2 + (\\frac{B}{2})^2 - C}$"
         }
       ]
     },
     {
-      "judul": "7. Kesebangunan dan Kongruensi",
-      "subItems": [
-        {
-          "judul": "Kongruen",
-          "teks": "• Bentuk dan ukuran sama persis\n• Syarat:\n  1. Sisi-Sisi-Sisi (SSS)\n  2. Sisi-Sudut-Sisi (SAS)\n  3. Sudut-Sisi-Sudut (ASA)\n  4. Sudut-Sudut-Sisi (AAS)\n  5. Sisi miring-sisi (RHS)"
-        },
-        {
-          "judul": "Sebangun",
-          "teks": "• Bentuk sama, ukuran berbeda\n• Syarat:\n  1. Sudut-Sudut-Sudut (AAA)\n  2. Sisi-Sudut-Sisi (SAS dengan perbandingan)\n  3. Sisi-Sisi-Sisi (SSS dengan perbandingan)\n\nPerbandingan:\nLuas: k² (k = skala)\nVolume: k³"
-        }
-      ]
-    },
-    {
-      "judul": "8. Koordinat Kartesius",
-      "subItems": [
-        {
-          "judul": "Rumus Dasar",
-          "teks": "Jarak dua titik:\nd = √[(x₂ - x₁)² + (y₂ - y₁)²]\n\nTitik Tengah:\nM = [(x₁ + x₂)/2, (y₁ + y₂)/2]\n\nGradien Garis:\nm = (y₂ - y₁)/(x₂ - x₁)"
-        },
-        {
-          "judul": "Persamaan Garis",
-          "teks": "1. y = mx + c (eksplisit)\n2. Ax + By + C = 0 (implisit)\n3. y - y₁ = m(x - x₁) (titik-gradien)\n\nGaris Sejajar: m₁ = m₂\nGaris Tegak Lurus: m₁ × m₂ = -1"
-        }
-      ]
-    },
-    {
-      "judul": "9. Tips Mengerjakan Soal",
-      "subItems": [
-        {
-          "judul": "Strategi Umum",
-          "teks": "1. Baca soal dengan teliti\n2. Gambar diagram jika tidak ada\n3. Identifikasi bangun datar yang terlibat\n4. Tulis informasi yang diketahui\n5. Pilih rumus yang tepat\n6. Hitung step by step\n7. Periksa satuan\n8. Verifikasi jawaban"
-        },
-        {
-          "judul": "Tips Khusus UTBK",
-          "teks": "• Hafal tripel Pythagoras\n• Ingat segitiga istimewa 30-60-90 dan 45-45-90\n• Kuasai rumus cepat\n• Latihan soal variasi\n• Kelola waktu dengan baik\n• Perhatikan angka penting\n• Gunakan eliminasi pilihan ganda"
-        }
-      ]
-    },
-    {
-      "judul": "10. Contoh Soal Sederhana",
-      "subItems": [
-        {
-          "judul": "Soal 1: Segitiga",
-          "teks": "Sebuah segitiga siku-siku memiliki alas 6 cm dan tinggi 8 cm. Hitung:\na. Panjang sisi miring\nb. Luas segitiga\n\nPenyelesaian:\na. Sisi miring = √(6² + 8²) = √(36 + 64) = √100 = 10 cm\nb. Luas = ½ × 6 × 8 = 24 cm²"
-        },
-        {
-          "judul": "Soal 2: Lingkaran",
-          "teks": "Sebuah lingkaran memiliki jari-jari 7 cm. Hitung:\na. Keliling lingkaran\nb. Luas lingkaran\n\nPenyelesaian:\na. Keliling = 2 × π × 7 = 14π ≈ 43,96 cm\nb. Luas = π × 7² = 49π ≈ 153,86 cm²"
-        },
-        {
-          "judul": "Soal 3: Persegi Panjang",
-          "teks": "Persegi panjang memiliki panjang 12 cm dan lebar 5 cm. Hitung:\na. Keliling\nb. Luas\nc. Panjang diagonal\n\nPenyelesaian:\na. Keliling = 2 × (12 + 5) = 34 cm\nb. Luas = 12 × 5 = 60 cm²\nc. Diagonal = √(12² + 5²) = √(144 + 25) = √169 = 13 cm"
-        }
-      ]
+      "judul": "Tips Belajar Praktis",
+      "teks": "1. **Pahami Sifat Dasar Setiap Bangun**: Hafalkan sifat khusus setiap bangun datar dan ruang.\n2. **Visualisasi 3D**: Latih kemampuan membayangkan bangun ruang dari berbagai sudut pandang.\n3. **Rumus Luas dan Volume**: Hafalkan rumus luas permukaan dan volume bangun ruang utama (kubus, balok, prisma, limas, tabung, kerucut, bola).\n4. **Perbandingan dalam Sebangun**: Ingat bahwa perbandingan luas = kuadrat perbandingan sisi, perbandingan volume = pangkat tiga perbandingan sisi.\n5. **Transformasi Geometri**: Kuasai matriks transformasi untuk translasi, refleksi, rotasi, dilatasi.\n6. **Koordinat 3D**: Pahami cara menghitung jarak dan sudut dalam ruang tiga dimensi.\n7. **Gambar dan Diagram**: Selalu buat sketsa untuk soal cerita atau soal bangun ruang kompleks.\n8. **Identifikasi Jenis Soal**: Klasifikasi soal apakah tentang luas, volume, jarak, sudut, atau irisan.\n9. **Rumus Cepat**: Pelajari rumus cepat seperti luas segitiga dengan koordinat, jarak titik ke garis, dll.\n10. **Latihan Variatif**: Kerjakan berbagai tipe soal dari tingkat dasar hingga aplikasi dalam konteks cerita.\n\nGeometri dan bangun ruang sering muncul dalam UTBK SNBT dengan variasi soal mulai dari konsep dasar sampai aplikasi dalam masalah nyata. Kuasai konsep dasar, latih kemampuan visualisasi 3D, dan perbanyak latihan soal untuk persiapan optimal!"
     }
   ]
 }
