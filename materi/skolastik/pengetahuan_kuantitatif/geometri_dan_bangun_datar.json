@@ -1,21 +1,17 @@
 {
   "judul": "Geometri dan Bangun Datar",
-  "deskripsi": "Materi ini membahas konsep dasar geometri bidang, sifat-sifat bangun datar, rumus keliling dan luas, serta penerapannya dalam menyelesaikan masalah UTBK SNBT.",
+  "deskripsi": "Materi dasar geometri bidang, sifat-sifat bangun datar, rumus keliling dan luas untuk persiapan UTBK SNBT.",
   "subItems": [
     {
-      "judul": "1. Konsep Dasar Geometri",
+      "judul": "1. Konsep Dasar",
       "subItems": [
         {
           "judul": "Unsur-unsur Geometri",
-          "teks": "| Unsur | Simbol | Definisi | Contoh |\\n|-------|--------|----------|--------|\\n| Titik | A, B, C, ... | Posisi tanpa dimensi | Titik A $(x_1, y_1)$ |\\n| Garis | AB, ℓ | Himpunan titik yang memanjang tak terbatas | Garis $y = mx + c$ |\\n| Ruas Garis | $\\\\overline{AB}$ | Bagian garis dengan titik ujung A dan B | Panjang = $\\\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ |\\n| Sinar Garis | $\\\\overrightarrow{AB}$ | Garis dengan titik awal A melewati B | - |\\n| Bidang | α, β | Permukaan datar tak terbatas | Bidang koordinat |\\n| Sudut | ∠AOB | Daerah antara dua sinar dengan titik pangkal sama | ∠AOB = $\\\\theta$ |\\nTabel: Unsur-unsur dasar geometri"
+          "teks": "1. Titik: Posisi tanpa dimensi (contoh: titik A)\n2. Garis: Himpunan titik yang memanjang tak terbatas\n3. Ruas Garis: Bagian garis dengan titik ujung tertentu\n4. Sudut: Daerah antara dua sinar dengan titik pangkal sama\n5. Bidang: Permukaan datar tak terbatas"
         },
         {
           "judul": "Jenis-jenis Sudut",
-          "teks": "| Jenis Sudut | Besar Sudut | Contoh | Sifat |\\n|-------------|-------------|--------|-------|\\n| Lancip | $0^\\\\circ < \\\\theta < 90^\\\\circ$ | $30^\\\\circ$, $45^\\\\circ$, $60^\\\\circ$ | $\\\\sin, \\\\cos, \\\\tan$ positif |\\n| Siku-siku | $\\\\theta = 90^\\\\circ$ | Sudut persegi | $\\\\sin = 1, \\\\cos = 0, \\\\tan = \\\\infty$ |\\n| Tumpul | $90^\\\\circ < \\\\theta < 180^\\\\circ$ | $120^\\\\circ$, $135^\\\\circ$ | $\\\\sin$ positif, $\\\\cos$ negatif |\\n| Lurus | $\\\\theta = 180^\\\\circ$ | Garis lurus | $\\\\sin = 0, \\\\cos = -1, \\\\tan = 0$ |\\n| Refleks | $180^\\\\circ < \\\\theta < 360^\\\\circ$ | $225^\\\\circ$, $300^\\\\circ$ | - |\\n| Penuh | $\\\\theta = 360^\\\\circ$ | Lingkaran penuh | - |\\n| Komplemen | $\\\\alpha + \\\\beta = 90^\\\\circ$ | $30^\\\\circ$ dan $60^\\\\circ$ | $\\\\sin \\\\alpha = \\\\cos \\\\beta$ |\\n| Suplemen | $\\\\alpha + \\\\beta = 180^\\\\circ$ | $120^\\\\circ$ dan $60^\\\\circ$ | $\\\\sin \\\\alpha = \\\\sin \\\\beta$ |\\nTabel: Jenis-jenis sudut dan sifatnya"
-        },
-        {
-          "judul": "Hubungan Antar Sudut",
-          "teks": "| Hubungan | Definisi | Contoh | Sifat |\\n|----------|----------|--------|-------|\\n| Bertolak belakang | Dibentuk oleh dua garis berpotongan | ∠AOB dan ∠COD | Sama besar |\\n| Dalam berseberangan | Antara garis sejajar dipotong transversal | ∠3 dan ∠5 | Sama besar |\\n| Luar berseberangan | Antara garis sejajar dipotong transversal | ∠1 dan ∠7 | Sama besar |\\n| Sepihak | Antara garis sejajar dipotong transversal | ∠4 dan ∠6 | Jumlah $180^\\\\circ$ |\\n| Bersebrangan luar | - | ∠1 dan ∠7 | - |\\n| Sehadap | - | ∠1 dan ∠5 | Sama besar |\\nTabel: Hubungan sudut pada garis sejajar yang dipotong transversal"
+          "teks": "• Lancip: 0° < sudut < 90°\n• Siku-siku: 90°\n• Tumpul: 90° < sudut < 180°\n• Lurus: 180°\n• Refleks: 180° < sudut < 360°\n• Penuh: 360°"
         }
       ]
     },
@@ -23,24 +19,16 @@
       "judul": "2. Segitiga",
       "subItems": [
         {
-          "judul": "Jenis-jenis Segitiga Berdasarkan Sisi",
-          "teks": "| Jenis | Sifat | Rumus Luas | Contoh |\\n|-------|-------|------------|--------|\\n| Sama Sisi | Ketiga sisi sama panjang, ketiga sudut $60^\\\\circ$ | $L = \\\\frac{\\\\sqrt{3}}{4}s^2$ | s = 6 cm → L = $9\\\\sqrt{3}$ cm² |\\n| Sama Kaki | Dua sisi sama panjang, dua sudut sama besar | $L = \\\\frac{1}{2} \\\\times \\\\text{alas} \\\\times \\\\text{tinggi}$ | AB = AC, ∠B = ∠C |\\n| Sembarang | Ketiga sisi berbeda panjang | Rumus Heron | a=3, b=4, c=5 |\\n| Siku-siku | Satu sudut $90^\\\\circ$, memenuhi teorema Pythagoras | $L = \\\\frac{1}{2} \\\\times \\\\text{alas} \\\\times \\\\text{tinggi}$ | 3-4-5, 5-12-13 |\\nTabel: Jenis segitiga berdasarkan panjang sisi"
+          "judul": "Jenis Segitiga",
+          "teks": "Berdasarkan Sisi:\n• Sama Sisi: Ketiga sisi sama\n• Sama Kaki: Dua sisi sama\n• Sembarang: Semua sisi berbeda\n\nBerdasarkan Sudut:\n• Lancip: Semua sudut < 90°\n• Siku-siku: Satu sudut 90°\n• Tumpul: Satu sudut > 90°"
         },
         {
-          "judul": "Jenis Segitiga Berdasarkan Sudut",
-          "teks": "| Jenis | Sifat Sudut | Sifat Sisi | Contoh |\\n|-------|-------------|------------|--------|\\n| Lancip | Semua sudut < $90^\\\\circ$ | $a^2 + b^2 > c^2$ | 60°-70°-50° |\\n| Siku-siku | Satu sudut = $90^\\\\circ$ | $a^2 + b^2 = c^2$ | 30°-60°-90° |\\n| Tumpul | Satu sudut > $90^\\\\circ$ | $a^2 + b^2 < c^2$ | 100°-40°-40° |\\nTabel: Jenis segitiga berdasarkan besar sudut"
+          "judul": "Rumus Segitiga",
+          "teks": "Keliling = a + b + c\nLuas = ½ × alas × tinggi\n\nTeorema Pythagoras:\nUntuk segitiga siku-siku:\na² + b² = c²\n(c = sisi miring)"
         },
         {
-          "judul": "Garis-garis Istimewa pada Segitiga",
-          "teks": "| Garis Istimewa | Definisi | Titik Potong | Sifat |\\n|----------------|----------|--------------|-------|\\n| Garis Tinggi | Garis dari titik sudut tegak lurus sisi depan | Orthocenter | Ketiga garis tinggi berpotongan di satu titik |\\n| Garis Berat | Garis dari titik sudut ke titik tengah sisi depan | Centroid (titik berat) | Membagi garis berat dengan perbandingan 2:1 |\\n| Garis Bagi | Garis yang membagi sudut menjadi dua sama besar | Incenter (pusat lingkaran dalam) | Jarak ke ketiga sisi sama |\\n| Garis Sumbu | Garis tegak lurus di titik tengah sisi | Circumcenter (pusat lingkaran luar) | Jarak ke ketiga titik sudut sama |\\nTabel: Garis-garis istimewa pada segitiga"
-        },
-        {
-          "judul": "Teorema dan Rumus Segitiga",
-          "teks": "| Teorema/Rumus | Formula | Keterangan |\\n|---------------|---------|------------|\\n| Luas Dasar | $L = \\\\frac{1}{2} \\\\times a \\\\times t$ | a = alas, t = tinggi |\\n| Rumus Heron | $L = \\\\sqrt{s(s-a)(s-b)(s-c)}$ | $s = \\\\frac{a+b+c}{2}$ (semiperimeter) |\\n| Luas dengan Trigonometri | $L = \\\\frac{1}{2}ab\\\\sin C$ | Diketahui 2 sisi dan sudut di antara |\\n| Keliling | $K = a + b + c$ | Jumlah panjang semua sisi |\\n| Teorema Pythagoras | $a^2 + b^2 = c^2$ | Untuk segitiga siku-siku |\\n| Ketaksamaan Segitiga | $a + b > c$, $a + c > b$, $b + c > a$ | Syarat membentuk segitiga |\\n| Perbandingan Sisi Segitiga Siku-siku Istimewa | 1:√3:2 (30°-60°-90°), 1:1:√2 (45°-45°-90°) | Wajib hafal |\\nTabel: Teorema dan rumus penting segitiga"
-        },
-        {
-          "judul": "Segitiga Istimewa (Wajib Hafal)",
-          "teks": "| Jenis | Perbandingan Sisi | Sudut | Contoh Numerik |\\n|-------|-------------------|-------|----------------|\\n| 30°-60°-90° | $1 : \\\\sqrt{3} : 2$ | 30°, 60°, 90° | 5 cm, $5\\\\sqrt{3}$ cm, 10 cm |\\n| 45°-45°-90° | $1 : 1 : \\\\sqrt{2}$ | 45°, 45°, 90° | 7 cm, 7 cm, $7\\\\sqrt{2}$ cm |\\n| 3-4-5 | $3 : 4 : 5$ | ≈37°, ≈53°, 90° | 6 cm, 8 cm, 10 cm |\\n| 5-12-13 | $5 : 12 : 13$ | ≈22.6°, ≈67.4°, 90° | 10 cm, 24 cm, 26 cm |\\n| 8-15-17 | $8 : 15 : 17$ | ≈28°, ≈62°, 90° | 16 cm, 30 cm, 34 cm |\\n| 7-24-25 | $7 : 24 : 25$ | ≈16.3°, ≈73.7°, 90° | 14 cm, 48 cm, 50 cm |\\nTabel: Segitiga siku-siku istimewa yang sering muncul di UTBK"
+          "judul": "Segitiga Istimewa",
+          "teks": "1. Segitiga 30°-60°-90°:\n   Perbandingan sisi: 1 : √3 : 2\n\n2. Segitiga 45°-45°-90°:\n   Perbandingan sisi: 1 : 1 : √2\n\n3. Tripel Pythagoras:\n   3-4-5, 5-12-13, 7-24-25, 8-15-17"
         }
       ]
     },
@@ -48,28 +36,28 @@
       "judul": "3. Segiempat",
       "subItems": [
         {
-          "judul": "Persegi (Bujur Sangkar)",
-          "teks": "| Sifat | Rumus | Contoh |\\n|-------|-------|--------|\\n| Semua sisi sama panjang | Keliling: $K = 4s$ | s = 5 cm → K = 20 cm |\\n| Semua sudut $90^\\\\circ$ | Luas: $L = s^2$ | s = 5 cm → L = 25 cm² |\\n| Diagonal sama panjang | Diagonal: $d = s\\\\sqrt{2}$ | s = 5 cm → d ≈ 7.07 cm |\\n| Diagonal berpotongan tegak lurus | Panjang diagonal: $d = \\\\sqrt{2}s$ | - |\\n| Diagonal membagi sudut $45^\\\\circ$ | Keliling: $K = 4 \\\\times \\\\text{sisi}$ | - |\\n| Memiliki 4 simetri lipat | Luas: $L = \\\\frac{1}{2}d^2$ | d = 10 cm → L = 50 cm² |\\n| Memiliki 4 simetri putar | - | - |\\nTabel: Sifat dan rumus persegi"
+          "judul": "Persegi",
+          "teks": "Sifat:\n• Semua sisi sama panjang\n• Semua sudut 90°\n• Diagonal sama panjang dan tegak lurus\n\nRumus:\nKeliling = 4 × sisi\nLuas = sisi × sisi\nDiagonal = sisi × √2"
         },
         {
           "judul": "Persegi Panjang",
-          "teks": "| Sifat | Rumus | Contoh |\\n|-------|-------|--------|\\n| Sisi berhadapan sama panjang | Keliling: $K = 2(p + l)$ | p=8, l=5 → K=26 |\\n| Semua sudut $90^\\\\circ$ | Luas: $L = p \\\\times l$ | p=8, l=5 → L=40 |\\n| Diagonal sama panjang | Diagonal: $d = \\\\sqrt{p^2 + l^2}$ | p=8, l=5 → d≈9.43 |\\n| Diagonal tidak tegak lurus | Keliling: $K = 2\\\\times(\\\\text{panjang} + \\\\text{lebar})$ | - |\\n| Memiliki 2 simetri lipat | Luas: $L = \\\\text{panjang} \\\\times \\\\text{lebar}$ | - |\\n| Memiliki 2 simetri putar | - | - |\\nTabel: Sifat dan rumus persegi panjang"
+          "teks": "Sifat:\n• Sisi berhadapan sama panjang\n• Semua sudut 90°\n• Diagonal sama panjang\n\nRumus:\nKeliling = 2 × (panjang + lebar)\nLuas = panjang × lebar\nDiagonal = √(panjang² + lebar²)"
         },
         {
           "judul": "Jajar Genjang",
-          "teks": "| Sifat | Rumus | Contoh |\\n|-------|-------|--------|\\n| Sisi berhadapan sama dan sejajar | Keliling: $K = 2(a + b)$ | a=10, b=7 → K=34 |\\n| Sudut berhadapan sama besar | Luas: $L = a \\\\times t$ | a=10, t=6 → L=60 |\\n| Sudut berdekatan berjumlah $180^\\\\circ$ | Luas: $L = ab\\\\sin\\\\theta$ | a=10, b=7, θ=30° → L=35 |\\n| Diagonal saling membagi dua | Tinggi: $t = b\\\\sin\\\\theta$ | - |\\n| Tidak memiliki simetri lipat | - | - |\\n| Memiliki 2 simetri putar | - | - |\\nTabel: Sifat dan rumus jajar genjang"
+          "teks": "Sifat:\n• Sisi berhadapan sama dan sejajar\n• Sudut berhadapan sama besar\n• Diagonal saling membagi dua\n\nRumus:\nKeliling = 2 × (sisi1 + sisi2)\nLuas = alas × tinggi"
         },
         {
           "judul": "Belah Ketupat",
-          "teks": "| Sifat | Rumus | Contoh |\\n|-------|-------|--------|\\n| Semua sisi sama panjang | Keliling: $K = 4s$ | s=6 → K=24 |\\n| Sudut berhadapan sama besar | Luas: $L = \\\\frac{1}{2}d_1d_2$ | d₁=8, d₂=6 → L=24 |\\n| Diagonal berpotongan tegak lurus | Sisi: $s = \\\\frac{1}{2}\\\\sqrt{d_1^2 + d_2^2}$ | d₁=8, d₂=6 → s=5 |\\n| Diagonal membagi sudut menjadi dua sama besar | Diagonal: $d_1 = \\\\frac{2L}{d_2}$ | L=24, d₂=6 → d₁=8 |\\n| Memiliki 2 simetri lipat | Luas: $L = s^2\\\\sin\\\\theta$ | s=5, θ=60° → L≈21.65 |\\n| Memiliki 2 simetri putar | - | - |\\nTabel: Sifat dan rumus belah ketupat"
+          "teks": "Sifat:\n• Semua sisi sama panjang\n• Diagonal berpotongan tegak lurus\n• Sudut berhadapan sama besar\n\nRumus:\nKeliling = 4 × sisi\nLuas = ½ × d1 × d2\n(d1, d2 = panjang diagonal)"
         },
         {
           "judul": "Layang-layang",
-          "teks": "| Sifat | Rumus | Contoh |\\n|-------|-------|--------|\\n| Dua pasang sisi sama panjang | Keliling: $K = 2(a + b)$ | a=7, b=5 → K=24 |\\n| Sepasang sudut berhadapan sama besar | Luas: $L = \\\\frac{1}{2}d_1d_2$ | d₁=10, d₂=6 → L=30 |\\n| Diagonal berpotongan tegak lurus | - | - |\\n| Salah satu diagonal membagi dua sama panjang | - | - |\\n| Memiliki 1 simetri lipat | - | - |\\n| Tidak memiliki simetri putar | - | - |\\nTabel: Sifat dan rumus layang-layang"
+          "teks": "Sifat:\n• Dua pasang sisi sama panjang\n• Sepasang sudut berhadapan sama\n• Diagonal tegak lurus\n\nRumus:\nKeliling = 2 × (sisi1 + sisi2)\nLuas = ½ × d1 × d2"
         },
         {
           "judul": "Trapesium",
-          "teks": "| Jenis Trapesium | Sifat | Rumus Luas | Contoh |\\n|-----------------|-------|------------|--------|\\n| Sembarang | Tidak ada sisi sama panjang | $L = \\\\frac{1}{2}(a+b)t$ | a=8, b=12, t=5 → L=50 |\\n| Samakaki | Dua sisi miring sama panjang | $L = \\\\frac{1}{2}(a+b)t$ | - |\\n| Siku-siku | Memiliki dua sudut siku-siku | $L = \\\\frac{1}{2}(a+b)t$ | - |\\n| Penjelasan | - | Keterangan: | - |\\n| - | a, b = panjang sisi sejajar | t = tinggi trapesium | - |\\n| - | Garis tengah: $m = \\\\frac{a+b}{2}$ | Luas juga bisa: $L = m \\\\times t$ | - |\\nTabel: Jenis trapesium dan rumusnya"
+          "teks": "Jenis:\n• Sembarang\n• Samakaki\n• Siku-siku\n\nRumus Luas:\nLuas = ½ × (sisi atas + sisi bawah) × tinggi\n\nGaris Tengah:\nPanjang = ½ × (sisi atas + sisi bawah)"
         }
       ]
     },
@@ -78,32 +66,28 @@
       "subItems": [
         {
           "judul": "Unsur-unsur Lingkaran",
-          "teks": "| Unsur | Simbol | Definisi | Rumus/Hubungan |\\n|-------|--------|----------|----------------|\\n| Jari-jari | r | Jarak dari pusat ke titik pada lingkaran | - |\\n| Diameter | d | Panjang garis melalui pusat | $d = 2r$ |\\n| Keliling | K | Panjang lengkungan lingkaran | $K = 2\\\\pi r = \\\\pi d$ |\\n| Luas | L | Daerah dalam lingkaran | $L = \\\\pi r^2 = \\\\frac{1}{4}\\\\pi d^2$ |\\n| Busur | - | Bagian dari keliling | Panjang busur = $\\\\frac{\\\\theta}{360^\\\\circ} \\\\times 2\\\\pi r$ |\\n| Juring | - | Daerah yang dibatasi dua jari-jari dan busur | Luas juring = $\\\\frac{\\\\theta}{360^\\\\circ} \\\\times \\\\pi r^2$ |\\n| Tembereng | - | Daerah antara busur dan tali busur | Luas = Luas juring - Luas segitiga |\\n| Tali Busur | - | Ruas garis yang menghubungkan dua titik pada lingkaran | Panjang = $2r\\\\sin(\\\\frac{\\\\theta}{2})$ |\\n| Apotema | - | Jarak terpendek dari pusat ke tali busur | - |\\nTabel: Unsur-unsur lingkaran dan rumusnya"
+          "teks": "• Jari-jari (r): Jarak pusat ke lingkaran\n• Diameter (d): 2 × jari-jari\n• Keliling (K): Panjang lingkaran\n• Luas (L): Daerah dalam lingkaran\n• Busur: Bagian keliling\n• Juring: Daerah antara dua jari-jari dan busur\n• Tembereng: Daerah antara busur dan tali busur"
         },
         {
-          "judul": "Sudut dalam Lingkaran",
-          "teks": "| Jenis Sudut | Posisi | Besar Sudut | Contoh |\\n|-------------|--------|-------------|--------|\\n| Sudut Pusat | Pusat lingkaran | Sama dengan besar busur di hadapannya | ∠AOB = busur AB |\\n| Sudut Keliling | Keliling lingkaran | Setengah dari sudut pusat yang menghadap busur sama | ∠ACB = ½∠AOB |\\n| Sudut antara dua tali busur | Perpotongan tali busur dalam lingkaran | Setengah jumlah busur yang diapit | ∠ = ½(busur1 + busur2) |\\n| Sudut antara dua garis singgung | Di luar lingkaran | Setengah selisih busur besar dan kecil | ∠ = ½(busur besar - busur kecil) |\\n| Sudut antara tali busur dan garis singgung | Titik singgung | Setengah besar busur yang diapit | - |\\nTabel: Jenis sudut dalam lingkaran dan besarannya"
+          "judul": "Rumus Lingkaran",
+          "teks": "Keliling = 2 × π × r\n        = π × d\n\nLuas = π × r²\n     = ¼ × π × d²\n\nπ ≈ 3,14 atau 22/7"
         },
         {
-          "judul": "Persamaan Lingkaran",
-          "teks": "| Bentuk | Persamaan | Pusat | Jari-jari | Contoh |\\n|--------|-----------|-------|-----------|--------|\\n| Standar | $(x-a)^2 + (y-b)^2 = r^2$ | (a, b) | r | $(x-3)^2 + (y+2)^2 = 25$ |\\n| Umum | $x^2 + y^2 + Ax + By + C = 0$ | $(-\\\\frac{A}{2}, -\\\\frac{B}{2})$ | $\\\\sqrt{(\\\\frac{A}{2})^2 + (\\\\frac{B}{2})^2 - C}$ | $x^2+y^2-6x+4y-12=0$ |\\n| Parameter | $x = a + r\\\\cos\\\\theta$, $y = b + r\\\\sin\\\\theta$ | (a, b) | r | θ dari 0 ke 2π |\\n| Penjelasan | - | Untuk bentuk umum, syarat lingkaran: $(\\\\frac{A}{2})^2 + (\\\\frac{B}{2})^2 - C > 0$ | Jika = 0 → titik, < 0 → imajiner | - |\\nTabel: Bentuk-bentuk persamaan lingkaran"
-        },
-        {
-          "judul": "Kedudukan Titik dan Garis terhadap Lingkaran",
-          "teks": "| Objek | Rumus/Persamaan | Kedudukan | Syarat |\\n|-------|-----------------|-----------|--------|\\n| Titik terhadap Lingkaran | Substitusi (x₁,y₁) ke $(x-a)^2+(y-b)^2 = r^2$ | Dalam | $(x_1-a)^2+(y_1-b)^2 < r^2$ |\\n| - | - | Pada | $(x_1-a)^2+(y_1-b)^2 = r^2$ |\\n| - | - | Luar | $(x_1-a)^2+(y_1-b)^2 > r^2$ |\\n| Garis terhadap Lingkaran | Jarak pusat ke garis: $d = \\\\frac{|Ax_0+By_0+C|}{\\\\sqrt{A^2+B^2}}$ | Memotong | $d < r$ |\\n| - | - | Menyinggung | $d = r$ |\\n| - | - | Tidak berpotongan | $d > r$ |\\n| Garis Singgung | Persamaan garis singgung di titik (x₁,y₁) pada lingkaran $x^2+y^2=r^2$: $x_1x + y_1y = r^2$ | - | - |\\n| - | Untuk lingkaran $(x-a)^2+(y-b)^2=r^2$: $(x_1-a)(x-a)+(y_1-b)(y-b)=r^2$ | - | - |\\nTabel: Kedudukan titik dan garis terhadap lingkaran"
+          "judul": "Panjang Busur dan Luas Juring",
+          "teks": "Panjang Busur = (sudut/360°) × keliling\n\nLuas Juring = (sudut/360°) × luas"
         }
       ]
     },
     {
-      "judul": "5. Bangun Datar Lainnya",
+      "judul": "5. Rumus Cepat",
       "subItems": [
         {
-          "judul": "Segi-n Beraturan",
-          "teks": "| Segi-n | Nama | Sudut Pusat | Sudut Dalam | Jumlah Diagonal | Rumus Luas (jika sisi = s) |\\n|--------|------|-------------|-------------|----------------|----------------------------|\\n| 3 | Segitiga sama sisi | 120° | 60° | 0 | $\\\\frac{\\\\sqrt{3}}{4}s^2$ |\\n| 4 | Persegi | 90° | 90° | 2 | $s^2$ |\\n| 5 | Pentagon | 72° | 108° | 5 | $\\\\frac{1}{4}\\\\sqrt{5(5+2\\\\sqrt{5})}s^2$ |\\n| 6 | Heksagon | 60° | 120° | 9 | $\\\\frac{3\\\\sqrt{3}}{2}s^2$ |\\n| 8 | Oktagon | 45° | 135° | 20 | $2(1+\\\\sqrt{2})s^2$ |\\n| 10 | Dekagon | 36° | 144° | 35 | $\\\\frac{5}{2}\\\\sqrt{5+2\\\\sqrt{5}}s^2$ |\\n| n | Segi-n beraturan | $\\\\frac{360^\\\\circ}{n}$ | $\\\\frac{(n-2)180^\\\\circ}{n}$ | $\\\\frac{n(n-3)}{2}$ | $\\\\frac{1}{4}ns^2\\\\cot(\\\\frac{180^\\\\circ}{n})$ |\\nTabel: Sifat-sifat segi-n beraturan"
+          "judul": "Keliling Bangun Datar",
+          "teks": "1. Segitiga: K = sisi1 + sisi2 + sisi3\n2. Persegi: K = 4 × sisi\n3. Persegi Panjang: K = 2 × (p + l)\n4. Jajar Genjang: K = 2 × (a + b)\n5. Belah Ketupat: K = 4 × s\n6. Layang-layang: K = 2 × (a + b)\n7. Trapesium: K = sisi1 + sisi2 + sisi3 + sisi4\n8. Lingkaran: K = 2 × π × r"
         },
         {
-          "judul": "Elips (Oval)",
-          "teks": "| Unsur | Rumus | Keterangan |\\n|-------|-------|------------|\\n| Persamaan Standar | $\\\\frac{(x-h)^2}{a^2} + \\\\frac{(y-k)^2}{b^2} = 1$ | Pusat (h,k), a=sumbu mayor, b=sumbu minor |\\n| Sumbu Mayor | Panjang = 2a | Sumbu terpanjang |\\n| Sumbu Minor | Panjang = 2b | Sumbu terpendek |\\n| Fokus | $c^2 = a^2 - b^2$ (jika a > b) | Titik tetap, jumlah jarak ke fokus konstan |\\n| Eksentrisitas | $e = \\\\frac{c}{a}$ (0 < e < 1) | Mengukur kelonjongan |\\n| Luas | $L = \\\\pi ab$ | - |\\n| Keliling | $K \\\\approx \\\\pi[3(a+b) - \\\\sqrt{(3a+b)(a+3b)}]$ | Rumus Ramanujan (aproksimasi) |\\nTabel: Unsur-unsur dan rumus elips"
+          "judul": "Luas Bangun Datar",
+          "teks": "1. Segitiga: L = ½ × a × t\n2. Persegi: L = s × s\n3. Persegi Panjang: L = p × l\n4. Jajar Genjang: L = a × t\n5. Belah Ketupat: L = ½ × d1 × d2\n6. Layang-layang: L = ½ × d1 × d2\n7. Trapesium: L = ½ × (a + b) × t\n8. Lingkaran: L = π × r²"
         }
       ]
     },
@@ -111,16 +95,12 @@
       "judul": "6. Transformasi Geometri",
       "subItems": [
         {
-          "judul": "Jenis-jenis Transformasi",
-          "teks": "| Transformasi | Definisi | Matriks | Contoh | Bayangan Titik (x,y) |\\n|--------------|----------|---------|--------|---------------------|\\n| Translasi | Pergeseran | Tidak ada matriks | Geser 3 kanan, 2 atas | (x+3, y+2) |\\n| Refleksi | Pencerminan | Bergantung sumbu | Cerminkan sumbu X | (x, -y) |\\n| Rotasi | Perputaran | $\\\\begin{bmatrix} \\\\cos\\\\theta & -\\\\sin\\\\theta \\\\\\\\ \\\\sin\\\\theta & \\\\cos\\\\theta \\\\end{bmatrix}$ | Putar 90° berlawanan jarum jam | (-y, x) |\\n| Dilatasi | Perbesaran/pengecilan | $\\\\begin{bmatrix} k & 0 \\\\\\\\ 0 & k \\\\end{bmatrix}$ | Perbesar 2 kali | (2x, 2y) |\\n| Shear | Geseran | $\\\\begin{bmatrix} 1 & k \\\\\\\\ 0 & 1 \\\\end{bmatrix}$ | Geser horizontal | (x+ky, y) |\\nTabel: Jenis-jenis transformasi geometri"
+          "judul": "Jenis Transformasi",
+          "teks": "1. Translasi: Pergeseran\n2. Refleksi: Pencerminan\n3. Rotasi: Perputaran\n4. Dilatasi: Perbesaran/pengecilan"
         },
         {
-          "judul": "Refleksi terhadap Berbagai Sumbu",
-          "teks": "| Sumbu Refleksi | Matriks | Bayangan (x,y) | Contoh |\\n|----------------|---------|----------------|--------|\\n| Sumbu X | $\\\\begin{bmatrix} 1 & 0 \\\\\\\\ 0 & -1 \\\\end{bmatrix}$ | (x, -y) | (3,4) → (3,-4) |\\n| Sumbu Y | $\\\\begin{bmatrix} -1 & 0 \\\\\\\\ 0 & 1 \\\\end{bmatrix}$ | (-x, y) | (3,4) → (-3,4) |\\n| Garis y = x | $\\\\begin{bmatrix} 0 & 1 \\\\\\\\ 1 & 0 \\\\end{bmatrix}$ | (y, x) | (3,4) → (4,3) |\\n| Garis y = -x | $\\\\begin{bmatrix} 0 & -1 \\\\\\\\ -1 & 0 \\\\end{bmatrix}$ | (-y, -x) | (3,4) → (-4,-3) |\\n| Titik asal (0,0) | $\\\\begin{bmatrix} -1 & 0 \\\\\\\\ 0 & -1 \\\\end{bmatrix}$ | (-x, -y) | (3,4) → (-3,-4) |\\n| Garis x = h | - | (2h-x, y) | h=2, (3,4) → (1,4) |\\n| Garis y = k | - | (x, 2k-y) | k=3, (3,4) → (3,2) |\\nTabel: Refleksi terhadap berbagai sumbu"
-        },
-        {
-          "judul": "Rotasi dengan Berbagai Sudut",
-          "teks": "| Sudut Rotasi | Matriks | Bayangan (x,y) | Contoh |\\n|--------------|---------|----------------|--------|\\n| 90° berlawanan jarum jam | $\\\\begin{bmatrix} 0 & -1 \\\\\\\\ 1 & 0 \\\\end{bmatrix}$ | (-y, x) | (3,4) → (-4,3) |\\n| 90° searah jarum jam | $\\\\begin{bmatrix} 0 & 1 \\\\\\\\ -1 & 0 \\\\end{bmatrix}$ | (y, -x) | (3,4) → (4,-3) |\\n| 180° | $\\\\begin{bmatrix} -1 & 0 \\\\\\\\ 0 & -1 \\\\end{bmatrix}$ | (-x, -y) | (3,4) → (-3,-4) |\\n| 270° berlawanan jarum jam | $\\\\begin{bmatrix} 0 & 1 \\\\\\\\ -1 & 0 \\\\end{bmatrix}$ | (y, -x) | (3,4) → (4,-3) |\\n| 270° searah jarum jam | $\\\\begin{bmatrix} 0 & -1 \\\\\\\\ 1 & 0 \\\\end{bmatrix}$ | (-y, x) | (3,4) → (-4,3) |\\n| θ derajat | $\\\\begin{bmatrix} \\\\cos\\\\theta & -\\\\sin\\\\theta \\\\\\\\ \\\\sin\\\\theta & \\\\cos\\\\theta \\\\end{bmatrix}$ | - | - |\\nTabel: Rotasi dengan berbagai sudut putaran"
+          "judul": "Sifat Transformasi",
+          "teks": "• Translasi: Bentuk dan ukuran tetap\n• Refleksi: Jarak ke cermin sama\n• Rotasi: Ukuran tetap, posisi berubah\n• Dilatasi: Bentuk tetap, ukuran berubah"
         }
       ]
     },
@@ -128,49 +108,57 @@
       "judul": "7. Kesebangunan dan Kongruensi",
       "subItems": [
         {
-          "judul": "Perbandingan Kesebangunan dan Kongruensi",
-          "teks": "| Konsep | Definisi | Syarat | Contoh |\\n|--------|----------|--------|--------|\\n| Kongruen (Sama dan Sebangun) | Bentuk dan ukuran sama | 1. Sisi-sisi-sisi (SSS) | Dua persegi sama sisi |\\n| - | - | 2. Sisi-sudut-sisi (SAS) | - |\\n| - | - | 3. Sudut-sisi-sudut (ASA) | - |\\n| - | - | 4. Sudut-sudut-sisi (AAS) | - |\\n| - | - | 5. Sisi miring-sisi (RHS untuk segitiga siku-siku) | - |\\n| Sebangun | Bentuk sama, ukuran berbeda (skala) | 1. Sudut-sudut-sudut (AAA) | Foto yang diperbesar |\\n| - | - | 2. Sisi-sudut-sisi (SAS dengan perbandingan) | - |\\n| - | - | 3. Sisi-sisi-sisi (SSS dengan perbandingan) | - |\\n| Perbandingan | Jika sebangun dengan skala k | Luas: $k^2$, Volume: $k^3$ | k=2 → luas 4×, volume 8× |\\nTabel: Perbandingan kesebangunan dan kongruensi"
+          "judul": "Kongruen",
+          "teks": "• Bentuk dan ukuran sama persis\n• Syarat:\n  1. Sisi-Sisi-Sisi (SSS)\n  2. Sisi-Sudut-Sisi (SAS)\n  3. Sudut-Sisi-Sudut (ASA)\n  4. Sudut-Sudut-Sisi (AAS)\n  5. Sisi miring-sisi (RHS)"
         },
         {
-          "judul": "Teorema dalam Kesebangunan",
-          "teks": "| Teorema | Pernyataan | Gambar/Ilustrasi | Contoh Soal |\\n|---------|------------|------------------|-------------|\\n| Thales | Garis sejajar memotong dua garis lain → segmen proporsional | - | - |\\n| Garis bagi sudut | Garis bagi sudut segitiga membagi sisi depan dengan perbandingan sisi-sisi yang mengapit | - | - |\\n| Dua segitiga sebangun | Jika dua sudut sama → sebangun | AAA | - |\\n| Segitiga siku-siku | Tinggi ke hipotenusa membentuk dua segitiga sebangun dengan segitiga awal | - | - |\\n| Proporsi dalam lingkaran | Hasil kali bagian tali busur yang berpotongan sama | - | - |\\nTabel: Teorema penting dalam kesebangunan"
+          "judul": "Sebangun",
+          "teks": "• Bentuk sama, ukuran berbeda\n• Syarat:\n  1. Sudut-Sudut-Sudut (AAA)\n  2. Sisi-Sudut-Sisi (SAS dengan perbandingan)\n  3. Sisi-Sisi-Sisi (SSS dengan perbandingan)\n\nPerbandingan:\nLuas: k² (k = skala)\nVolume: k³"
         }
       ]
     },
     {
-      "judul": "8. Koordinat Kartesius dan Geometri Analitik",
+      "judul": "8. Koordinat Kartesius",
       "subItems": [
         {
-          "judul": "Rumus Jarak dan Titik Tengah",
-          "teks": "| Konsep | Rumus | Contoh | Hasil |\\n|--------|-------|--------|-------|\\n| Jarak dua titik | $d = \\\\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ | A(1,2), B(4,6) | $\\\\sqrt{(4-1)^2+(6-2)^2}=5$ |\\n| Titik tengah | $M = \\\\left(\\\\frac{x_1+x_2}{2}, \\\\frac{y_1+y_2}{2}\\\\right)$ | A(1,2), B(5,8) | (3,5) |\\n| Titik pembagi | $P = \\\\left(\\\\frac{mx_2+nx_1}{m+n}, \\\\frac{my_2+ny_1}{m+n}\\\\right)$ | A(1,2), B(5,8) dengan m:n=1:2 | $(\\\\frac{1\\\\cdot5+2\\\\cdot1}{3}, \\\\frac{1\\\\cdot8+2\\\\cdot2}{3}) = (\\\\frac{7}{3}, 4)$ |\\n| Jarak titik ke garis | $d = \\\\frac{|Ax_0+By_0+C|}{\\\\sqrt{A^2+B^2}}$ | Titik (2,3) ke garis 3x+4y-5=0 | $\\\\frac{|3\\\\cdot2+4\\\\cdot3-5|}{\\\\sqrt{3^2+4^2}}=\\\\frac{13}{5}$ |\\nTabel: Rumus jarak dan titik dalam koordinat kartesius"
+          "judul": "Rumus Dasar",
+          "teks": "Jarak dua titik:\nd = √[(x₂ - x₁)² + (y₂ - y₁)²]\n\nTitik Tengah:\nM = [(x₁ + x₂)/2, (y₁ + y₂)/2]\n\nGradien Garis:\nm = (y₂ - y₁)/(x₂ - x₁)"
         },
         {
           "judul": "Persamaan Garis",
-          "teks": "| Bentuk Persamaan | Rumus | Kelebihan | Contoh |\\n|------------------|-------|-----------|--------|\\n| Eksplisit | $y = mx + c$ | Mudah melihat gradien (m) dan intercept (c) | y = 2x + 3 |\\n| Implisit | $Ax + By + C = 0$ | Umum, bisa untuk garis vertikal | 2x - y + 3 = 0 |\\n| Titik-Gradien | $y - y_1 = m(x - x_1)$ | Langsung jika diketahui titik dan gradien | y-2 = 3(x-1) |\\n| Dua Titik | $\\\\frac{y-y_1}{y_2-y_1} = \\\\frac{x-x_1}{x_2-x_1}$ | Langsung dari dua titik | Dari (1,2) dan (3,8) |\\n| Intercept | $\\\\frac{x}{a} + \\\\frac{y}{b} = 1$ | Langsung tahu intercept sumbu | $\\\\frac{x}{3} + \\\\frac{y}{4} = 1$ |\\n| Gradien | $m = \\\\frac{y_2-y_1}{x_2-x_1}$ | Rumus gradien | (1,2) dan (3,8) → m=3 |\\n| Garis sejajar | $m_1 = m_2$ | Gradien sama | y=2x+3 dan y=2x-5 |\\n| Garis tegak lurus | $m_1 \\\\times m_2 = -1$ | Gradien berkebalikan negatif | y=2x+3 dan y=-½x+1 |\\nTabel: Bentuk-bentuk persamaan garis lurus"
-        },
-        {
-          "judul": "Luas Bangun Datar dengan Koordinat",
-          "teks": "| Bangun | Metode | Rumus | Contoh Titik | Hasil |\\n|--------|--------|-------|-------------|-------|\\n| Segitiga | Determinant | $L = \\\\frac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$ | A(0,0), B(4,0), C(0,3) | 6 |\\n| - | Rumus Heron (setelah hitung sisi) | Hitung dulu panjang sisi dengan rumus jarak | - | - |\\n| Segiempat | Shoelace | $L = \\\\frac{1}{2}|\\\\sum_{i=1}^n (x_iy_{i+1} - x_{i+1}y_i)|$ | Persegi (0,0),(4,0),(4,4),(0,4) | 16 |\\n| - | Bagi menjadi segitiga | Bagi menjadi 2 segitiga, jumlahkan luasnya | - | - |\\n| Poligon | Shoelace (umum) | Untuk n titik: $(x_1,y_1),(x_2,y_2),...,(x_n,y_n)$ | - | - |\\nTabel: Menghitung luas bangun datar dengan koordinat titik-titik sudut"
+          "teks": "1. y = mx + c (eksplisit)\n2. Ax + By + C = 0 (implisit)\n3. y - y₁ = m(x - x₁) (titik-gradien)\n\nGaris Sejajar: m₁ = m₂\nGaris Tegak Lurus: m₁ × m₂ = -1"
         }
       ]
     },
     {
-      "judul": "9. Soal-soal Tipikal UTBK",
+      "judul": "9. Tips Mengerjakan Soal",
       "subItems": [
         {
-          "judul": "Tipe Soal dan Strategi Penyelesaian",
-          "teks": "| Tipe Soal | Ciri-ciri | Strategi Penyelesaian | Contoh Singkat |\\n|-----------|-----------|----------------------|----------------|\\n| Menentukan luas/keliling | Diberikan gambar dengan beberapa ukuran | Identifikasi bangun, gunakan rumus yang tepat | Segitiga dengan alas 10, tinggi 6 → L=30 |\\n| Kesebangunan | Dua bangun dengan bentuk sama, ukuran berbeda | Cari skala, gunakan perbandingan sisi/luas | Foto 4×6 diperbesar 2× → 8×12 |\\n| Geometri koordinat | Titik-titik diberikan koordinat | Gunakan rumus jarak, titik tengah, persamaan garis | Jarak (0,0) ke (3,4) = 5 |\\n| Sudut dan garis | Garis sejajar dipotong transversal | Ingat hubungan sudut: sehadap, berseberangan, sepihak | Jika ∠1=70°, ∠5=? (sehadap) → 70° |\\n| Lingkaran dan garis singgung | Lingkaran dengan garis singgung atau tali busur | Gunakan sifat sudut dalam lingkaran, teorema Pythagoras | Garis singgung ⊥ jari-jari di titik singgung |\\n| Gabungan bangun | Beberapa bangun digabung | Pecah menjadi bangun-bangun dasar, hitung masing-masing | Setengah lingkaran dalam persegi |\\n| Soal cerita | Deskripsi situasi geometri | Buat sketsa, identifikasi informasi, terjemahkan ke rumus | Tangga 5m bersandar di tembok 4m → jarak kaki tangga? |\\nTabel: Tipe soal geometri UTBK dan strategi penyelesaian"
+          "judul": "Strategi Umum",
+          "teks": "1. Baca soal dengan teliti\n2. Gambar diagram jika tidak ada\n3. Identifikasi bangun datar yang terlibat\n4. Tulis informasi yang diketahui\n5. Pilih rumus yang tepat\n6. Hitung step by step\n7. Periksa satuan\n8. Verifikasi jawaban"
         },
         {
-          "judul": "Contoh Soal dengan Pembahasan",
-          "teks": "| Soal | Pembahasan | Jawaban |\\n|------|------------|---------|\\n| Diketahui segitiga ABC siku-siku di B dengan AB=6, BC=8. Hitung panjang AC! | Gunakan teorema Pythagoras: $AC^2 = AB^2 + BC^2 = 6^2+8^2=36+64=100$ | AC = 10 |\\n| Persegi panjang memiliki panjang 12 cm dan lebar 5 cm. Hitung panjang diagonalnya! | $d = \\\\sqrt{p^2+l^2} = \\\\sqrt{12^2+5^2} = \\\\sqrt{144+25} = \\\\sqrt{169}$ | d = 13 cm |\\n| Lingkaran memiliki diameter 14 cm. Berapakah luasnya? | $r = \\\\frac{d}{2} = 7$, $L = \\\\pi r^2 = \\\\pi \\\\times 7^2$ | $49\\\\pi$ cm² |\\n| Dua segitiga sebangun dengan skala 1:3. Jika luas segitiga kecil 9 cm², berapa luas segitiga besar? | Skala luas = $k^2 = 3^2 = 9$, jadi $L_{besar} = 9 \\\\times 9$ | 81 cm² |\\n| Titik A(1,2) dan B(4,6). Hitung jarak AB! | $d = \\\\sqrt{(4-1)^2+(6-2)^2} = \\\\sqrt{3^2+4^2} = \\\\sqrt{9+16}$ | 5 |\\n| Sudut A dan B saling berpelurus. Jika ∠A = 75°, berapa ∠B? | ∠A + ∠B = 180° → ∠B = 180° - 75° | 105° |\\nTabel: Contoh soal UTBK geometri dengan pembahasan singkat"
+          "judul": "Tips Khusus UTBK",
+          "teks": "• Hafal tripel Pythagoras\n• Ingat segitiga istimewa 30-60-90 dan 45-45-90\n• Kuasai rumus cepat\n• Latihan soal variasi\n• Kelola waktu dengan baik\n• Perhatikan angka penting\n• Gunakan eliminasi pilihan ganda"
         }
       ]
     },
     {
-      "judul": "Tips Belajar Efektif Geometri",
-      "teks": "| No | Tips | Penjelasan | Contoh Penerapan |\\n|----|------|------------|------------------|\\n| 1 | **Gambar Diagram** | Visualisasi membantu pemahaman | Gambar segitiga saat kerjakan soal |\\n| 2 | **Hafal Rumus Dasar** | Luas, keliling bangun dasar wajib hafal | Luas segitiga = ½×a×t |\\n| 3 | **Pahami Konsep, Bukan Hanya Rumus** | Mengerti mengapa rumus bekerja | Luas segitiga berasal dari luas persegi panjang |\\n| 4 | **Latihan Variatif** | Kerjakan berbagai tipe soal | Soal cerita, gambar, koordinat |\\n| 5 | **Gunakan Satuan yang Konsisten** | Pastikan semua ukuran satu satuan | cm semua, atau m semua |\\n| 6 | **Periksa Realistis Jawaban** | Estimasi kasar untuk mengecek | Luas tidak mungkin negatif |\\n| 7 | **Break Down Soal Kompleks** | Pecah soal besar jadi bagian kecil | Bangun gabungan → hitung per bagian |\\n| 8 | **Kuadratkan Bilangan dengan Cepat** | Hafal kuadrat 1-20 untuk efisiensi | 12²=144, 13²=169, 14²=196 |\\n| 9 | **Ingat Segitiga Istimewa** | 3-4-5, 5-12-13, 30-60-90, 45-45-90 | Langsung tahu sisi tanpa hitung |\\n| 10 | **Perhatikan Detail Soal** | Baca soal dengan teliti | \\\"dalam cm\\\" vs \\\"dalam meter\\\" |\\nTabel: Tips belajar efektif geometri untuk UTBK\\n\\n**Strategi Mengerjakan Soal Geometri UTBK:**\\n1. **Baca soal dengan teliti** - Identifikasi apa yang ditanyakan\\n2. **Gambar jika tidak ada** - Buat sketsa sederhana\\n3. **Tulis informasi yang diketahui** - Data apa saja yang diberikan\\n4. **Pilih rumus yang tepat** - Sesuaikan dengan bangun dan informasi\\n5. **Substitusi dengan hati-hati** - Perhatikan satuan\\n6. **Selesaikan step by step** - Jangan terburu-buru\\n7. **Periksa kembali** - Apakah jawaban masuk akal?\\n8. **Tulis jawaban dengan jelas** - Termasuk satuan\\n\\nGeometri adalah salah satu materi yang paling sering muncul di UTBK SNBT. Dengan menguasai konsep dasar dan banyak berlatih, Anda bisa mendapatkan nilai maksimal!"
+      "judul": "10. Contoh Soal Sederhana",
+      "subItems": [
+        {
+          "judul": "Soal 1: Segitiga",
+          "teks": "Sebuah segitiga siku-siku memiliki alas 6 cm dan tinggi 8 cm. Hitung:\na. Panjang sisi miring\nb. Luas segitiga\n\nPenyelesaian:\na. Sisi miring = √(6² + 8²) = √(36 + 64) = √100 = 10 cm\nb. Luas = ½ × 6 × 8 = 24 cm²"
+        },
+        {
+          "judul": "Soal 2: Lingkaran",
+          "teks": "Sebuah lingkaran memiliki jari-jari 7 cm. Hitung:\na. Keliling lingkaran\nb. Luas lingkaran\n\nPenyelesaian:\na. Keliling = 2 × π × 7 = 14π ≈ 43,96 cm\nb. Luas = π × 7² = 49π ≈ 153,86 cm²"
+        },
+        {
+          "judul": "Soal 3: Persegi Panjang",
+          "teks": "Persegi panjang memiliki panjang 12 cm dan lebar 5 cm. Hitung:\na. Keliling\nb. Luas\nc. Panjang diagonal\n\nPenyelesaian:\na. Keliling = 2 × (12 + 5) = 34 cm\nb. Luas = 12 × 5 = 60 cm²\nc. Diagonal = √(12² + 5²) = √(144 + 25) = √169 = 13 cm"
         }
       ]
     }
-
+  ]
+}
