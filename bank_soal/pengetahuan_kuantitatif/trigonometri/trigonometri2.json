@@ -25,7 +25,7 @@
       "12"
     ],
     "jawaban": "C",
-    "pembahasan": "Karena titik $H(4, b)$ terletak pada grafik, maka jika $x = 4$, nilai $f(x) = b$.\n\nSubstitusikan $x = 4$ ke dalam fungsi:\n$b = f(4) = \\frac{2(4) + 4}{6 - 4}$\n$b = \\frac{8 + 4}{2}$\n$b = \\frac{12}{2} = 6$"
+    "pembahasan": "Karena titik $H(4, b)$ terletak pada grafik, maka jika $x = 4$, nilai $f(x) = b$.\n\nSubstitusikan $x = 4$ ke dalam fungsi:\n$b = f(4) = \\frac{2(4) + 4}{6 - 4}$\n$b = \\frac{8 + 4}{2} = \\frac{12}{2} = 6$"
   },
   {
     "id": 3,
@@ -40,7 +40,7 @@
       "12"
     ],
     "jawaban": "B",
-    "pembahasan": "Urutkan data dari yang terkecil:\n2, 2, 3, 4, 4, 6, 6, 8, 9, 9\n\nMenentukan nilai $r$ dan $u$:\n- Bilangan posisi ke-5 ($r$) = 4\n- Bilangan posisi ke-7 ($u$) = 6\n\nMenghitung nilai yang diminta:\n$(r \\times u) - u = (4 \\times 6) - 6$\n$= 24 - 6 = 18$"
+    "pembahasan": "Urutkan data dari yang terkecil:\n2, 2, 3, 4, 4, 6, 6, 8, 9, 9\n\nMenentukan nilai $r$ dan $u$:\n- Bilangan posisi ke-5 ($r$) = 4\n- Bilangan posisi ke-7 ($u$) = 6\n\nMenghitung nilai yang diminta:\n$(r \\times u) - u = (4 \\times 6) - 6 = 24 - 6 = 18$"
   },
   {
     "id": 4,
@@ -54,22 +54,22 @@
       "12"
     ],
     "jawaban": "D",
-    "pembahasan": "Berdasarkan gambar koordinat, kita hitung persegi berdasarkan ukurannya:\n\n1. Persegi ukuran $1 \\times 1$:\n- Bagian tengah (grid pusat): 4 buah\n- Bagian sayap (atas, bawah, kiri, kanan): 4 buah\nTotal persegi kecil = 8 buah.\n\n2. Persegi ukuran $2 \\times 2$:\n- Terbentuk di bagian pusat oleh koordinat $(1,1), (3,1), (3,3), (1,3)$: 1 buah.\n\nTotal keseluruhan persegi = $8 + 1 = 9$ buah."
+    "pembahasan": "Berdasarkan pengamatan visual gambar:\n\n1. Persegi ukuran $1 \\times 1$:\n- Bagian pusat (grid): 4 buah\n- Bagian sayap (atas, bawah, kiri, kanan): 4 buah\nTotal = 8 buah.\n\n2. Persegi ukuran $2 \\times 2$:\n- Terbentuk di bagian pusat: 1 buah.\n\nTotal keseluruhan = $8 + 1 = 9$ buah."
   },
   {
-  "id": 5,
-  "kategori": "Sulit",
-  "pertanyaan": "Untuk setiap bilangan bulat b didefinisikan:\n[b] = {\n  36 / (b + 4), jika b genap negatif\n  (3b - 7)b, jika b ganjil positif\n  4b / 2, jika b lainnya\n}\n\nNilai [2 × [1]] sama dengan ...",
-  "pilihan": [
-    "-20",
-    "-9",
-    "-3",
-    "9",
-    "20"
-  ],
-  "jawaban": "B",
-  "pembahasan": "Langkah 1: Hitung [1]. Karena 1 ganjil positif: (3(1)-7)x1 = -4.\nLangkah 2: Hitung [2 x -4] = [-8]. Karena -8 genap negatif: 36 / (-8 + 4) = 36 / -4 = -9."
-},
+    "id": 5,
+    "kategori": "Sulit",
+    "pertanyaan": "Untuk setiap bilangan bulat $b$ didefinisikan:\n$[b] = \\begin{cases} \\frac{36}{b+4}, & \\text{jika } b \\text{ genap negatif} \\\\ (3b-7)b, & \\text{jika } b \\text{ ganjil positif} \\\\ \\frac{4b}{2}, & \\text{jika } b \\text{ lainnya} \\end{cases}$\n\nNilai $[2 \\times [1]]$ sama dengan ...",
+    "pilihan": [
+      "-20",
+      "-9",
+      "-3",
+      "9",
+      "20"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Operasi ini diselesaikan secara bertahap dari bagian terdalam:\n\n1. **Evaluasi [1]:**\nKarena $b = 1$ adalah ganjil positif, gunakan rumus: $(3b-7)b$.\n$[1] = (3(1) - 7) \\times 1 = -4 \\times 1 = -4$.\n\n2. **Evaluasi Operasi Utama:**\nSubstitusikan nilai $[1]$ ke dalam pertanyaan awal:\n$[2 \\times -4] = [-8]$.\n\n3. **Evaluasi [-8]:**\nKarena $b = -8$ adalah genap negatif, gunakan rumus: $\\frac{36}{b+4}$.\n$[-8] = \\frac{36}{-8 + 4} = \\frac{36}{-4} = -9$.\n\nJadi, nilai akhirnya adalah -9."
+  },
   {
     "id": 6,
     "kategori": "Sedang",
@@ -82,7 +82,7 @@
       "1"
     ],
     "jawaban": "C",
-    "pembahasan": "Langkah 1: Cari nilai $a$ dengan mensubstitusi $x=3$ ke $f(x)$.\n$a = f(3) = 3^2 + 6(3) - 3 = 9 + 18 - 3 = 24$. Jadi $B(3, 24)$.\n\nLangkah 2: Cari nilai $b$ dengan mensubstitusi $B(3, 24)$ ke persamaan garis.\n$2(24) - b(3) + 12 = 0 \\implies 48 - 3b + 12 = 0 \\implies 60 = 3b \\implies b = 20$.\nPersamaan garis: $2y - 20x + 12 = 0 \\implies y = 10x - 6$.\n\nLangkah 3: Cari titik potong $M(p, q)$ dengan menyamakan kurva dan garis.\n$x^2 + 6x - 3 = 10x - 6 \\implies x^2 - 4x + 3 = 0 \\implies (x-3)(x-1) = 0$.\nTitik potong adalah $x=3$ dan $x=1$. Karena $B$ di $x=3$, maka $M$ di $p=1$.\n\nLangkah 4: Cari $q$ dengan $f(1)$ atau substitusi ke garis.\n$q = 10(1) - 6 = 4$."
+    "pembahasan": "Langkah 1: Cari nilai $a$ dengan substitusi $x=3$ ke $f(x)$.\n$a = f(3) = 3^2 + 6(3) - 3 = 24$. Titik $B(3, 24)$.\n\nLangkah 2: Cari nilai $b$ dengan substitusi $B(3, 24)$ ke garis.\n$2(24) - b(3) + 12 = 0 \\implies 60 = 3b \\implies b = 20$.\nPersamaan garis: $2y - 20x + 12 = 0 \\implies y = 10x - 6$.\n\nLangkah 3: Cari titik potong $M$ dengan menyamakan kurva dan garis.\n$x^2 + 6x - 3 = 10x - 6 \\implies x^2 - 4x + 3 = 0 \\implies (x-3)(x-1) = 0$.\nKarena $x=3$ adalah titik $B$, maka $M$ berada di $x=1$.\n\nLangkah 4: Cari $q$ dengan substitusi $x=1$ ke garis.\n$q = 10(1) - 6 = 4$."
   },
   {
     "id": 7,
@@ -96,7 +96,7 @@
       "12"
     ],
     "jawaban": "D",
-    "pembahasan": "Garis $k$ melalui titik $B(3, 24)$ dan $M(1, 4)$.\nGradien ($m$) dapat dicari dengan rumus:\n$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{24 - 4}{3 - 1} = \\frac{20}{2} = 10$.\nAtau langsung dari persamaan garis yang sudah disederhanakan: $y = 10x - 6$, di mana koefisien $x$ adalah gradiennya."
+    "pembahasan": "Garis $k$ melalui $B(3, 24)$ dan $M(1, 4)$.\nGradien ($m$) = $\\frac{y_2 - y_1}{x_2 - x_1} = \\frac{24 - 4}{3 - 1} = \\frac{20}{2} = 10$.\nAtau dari bentuk $y = mx + c$, gradien adalah koefisien $x$ yaitu 10."
   },
   {
     "id": 8,
@@ -110,6 +110,6 @@
       "10"
     ],
     "jawaban": "D",
-    "pembahasan": "Garis $k$ memiliki gradien $m_k = 10$.\nKarena tegak lurus, maka $c \\times 10 = -1 \\implies c = -1/10$.\n\nGaris melalui $M(1, 4)$, substitusikan ke $y = cx + d$:\n$4 = (-1/10)(1) + d \\implies d = 4 + 1/10 = 41/10$.\n\nNilai $c + d = -1/10 + 41/10 = 40/10 = 4$."
+    "pembahasan": "1. Gradien garis $k$ adalah $10$. Gradien garis tegak lurus ($c$) adalah:\n$c \\times 10 = -1 \\implies c = -1/10$.\n\n2. Cari nilai $d$ dengan substitusi titik $M(1, 4)$ ke $y = cx + d$:\n$4 = (-1/10)(1) + d \\implies d = 4 + 0,1 = 4,1 = 41/10$.\n\n3. Hitung $c + d$:\n$c + d = -1/10 + 41/10 = 40/10 = 4$."
   }
 ]
