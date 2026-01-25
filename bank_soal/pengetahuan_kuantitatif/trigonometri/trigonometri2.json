@@ -56,20 +56,20 @@
     "jawaban": "D",
     "pembahasan": "Berdasarkan pengamatan visual gambar:\n\n1. Persegi ukuran $1 \\times 1$:\n- Bagian pusat (grid): 4 buah\n- Bagian sayap (atas, bawah, kiri, kanan): 4 buah\nTotal = 8 buah.\n\n2. Persegi ukuran $2 \\times 2$:\n- Terbentuk di bagian pusat: 1 buah.\n\nTotal keseluruhan = $8 + 1 = 9$ buah."
   },
-  {
+ {
     "id": 5,
     "kategori": "Sulit",
-    "pertanyaan": "Untuk setiap bilangan bulat $b$ didefinisikan:\n$[b] = \\begin{cases} \\frac{36}{b+4}, & \\text{jika } b \\text{ genap negatif} \\\\ (3b-7)b, & \\text{jika } b \\text{ ganjil positif} \\\\ \\frac{4b}{2}, & \\text{jika } b \\text{ lainnya} \\end{cases}$\n\nNilai $[2 \\times [1]]$ sama dengan ...",
+    "pertanyaan": "Untuk setiap bilangan bulat $b$ didefinisikan:\n$[b] = \\begin{cases} \\frac{36}{b - 4}, & \\text{jika } b \\text{ genap negatif} \\\\ (3b - 7)b, & \\text{jika } b \\text{ ganjil positif} \\\\ \\frac{4b}{2}, & \\text{jika } b \\text{ lainnya} \\end{cases}$\n\nNilai $[2 \\times [1]]$ sama dengan ...",
     "pilihan": [
       "-20",
       "-9",
       "-3",
-      "9",
-      "20"
+      "4",
+      "12"
     ],
-    "jawaban": "B",
-    "pembahasan": "Operasi ini diselesaikan secara bertahap dari bagian terdalam:\n\n1. **Evaluasi [1]:**\nKarena $b = 1$ adalah ganjil positif, gunakan rumus: $(3b-7)b$.\n$[1] = (3(1) - 7) \\times 1 = -4 \\times 1 = -4$.\n\n2. **Evaluasi Operasi Utama:**\nSubstitusikan nilai $[1]$ ke dalam pertanyaan awal:\n$[2 \\times -4] = [-8]$.\n\n3. **Evaluasi [-8]:**\nKarena $b = -8$ adalah genap negatif, gunakan rumus: $\\frac{36}{b+4}$.\n$[-8] = \\frac{36}{-8 + 4} = \\frac{36}{-4} = -9$.\n\nJadi, nilai akhirnya adalah -9."
-  },
+    "jawaban": "C",
+    "pembahasan": "Selesaikan operasi bertahap dari dalam kurung.\n\n1. Hitung [1]: Karena 1 adalah ganjil positif, maka [1] = (3(1) - 7)(1) = -4.\n2. Hitung [2 × -4]: Kita mencari nilai [-8]. Karena -8 adalah genap negatif, maka [-8] = 36 / (-8 - 4) = 36 / -12 = -3.\n\nJadi, nilai akhirnya adalah -3."
+},
   {
     "id": 6,
     "kategori": "Sedang",
