@@ -12,7 +12,7 @@
     },
     "pilihan": ["7", "9", "10", "12", "20"],
     "jawaban": "C",
-    "pembahasan": "Soal ini diselesaikan dengan konsep Kelipatan Persekutuan Terkecil (KPK).\n\n**1. Menentukan Nilai KPK ($K$):**\n* Keberangkatan bersama terjadi setiap $K$ hari, di mana $K = \\text{KPK}(5, 6, y)$.\n* Dari keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ interval waktu.\n* Total waktu 240 hari untuk 8 interval berarti:\n  $K = \\frac{240}{8} = 30$.\n* Jadi, $\\text{KPK}(5, 6, y) = 30$.\n\n**2. Menentukan Nilai $y$:**\nKita mencari nilai $y$ dari pilihan jawaban yang jika dikombinasikan dengan 5 dan 6 menghasilkan KPK 30.\n* Faktorisasi prima: $5 = 5^1$ dan $6 = 2^1 \\times 3^1$.\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n* Nilai $y$ haruslah bilangan yang kelipatannya tidak melebihi 30 dan merupakan faktor dari 30.\n* Uji pilihan jawaban:\n  * $y = 7: \\text{KPK}(30, 7) = 210$ (Salah)\n  * $y = 9: \\text{KPK}(30, 9) = 90$ (Salah)\n  * **$y = 10: \\text{KPK}(30, 10) = 30$ (Benar)**\n  * $y = 12: \\text{KPK}(30, 12) = 60$ (Salah)\n  * $y = 20: \\text{KPK}(30, 20) = 60$ (Salah)\n\n**Kesimpulan:** Nilai $y$ yang memenuhi adalah 10.",
+    "pembahasan": "Soal ini diselesaikan dengan konsep Kelipatan Persekutuan Terkecil (KPK).\n\n**1. Menentukan Nilai KPK ($K$):**\n* Keberangkatan bersama terjadi setiap $K$ hari, di mana $K = \\text{KPK}(5, 6, y)$.\n* Dari keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ interval waktu.\n* Total waktu 240 hari untuk 8 interval berarti:\n $K = \\frac{240}{8} = 30$.\n* Jadi, $\\text{KPK}(5, 6, y) = 30$.\n\n**2. Menentukan Nilai $y$:**\nKita mencari nilai $y$ dari pilihan jawaban yang jika dikombinasikan dengan 5 dan 6 menghasilkan KPK 30.\n* Faktorisasi prima: $5 = 5^1$ dan $6 = 2^1 \\times 3^1$.\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n* Uji pilihan jawaban:\n * $y = 10: \\text{KPK}(30, 10) = 30$ (Benar)\n\n**Kesimpulan:** Nilai $y$ yang memenuhi adalah 10.",
     "tabel_pembahasan": {
       "header": ["Kapal", "Jadwal (hari)", "Faktor Prima", "KPK Bersama"],
       "rows": [
@@ -27,7 +27,7 @@
     "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
     "pilihan": ["100", "150", "180", "200", "220"],
     "jawaban": "C",
-    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n- Produk C: 60 unit\n- Produk D: 120 unit\n\n**Total A + B = 80 + 100 = 180 unit**\n\nJadi jawaban yang benar adalah 180.",
+    "pembahasan": "Dari diagram batang:\n- Produk A: 80 unit\n- Produk B: 100 unit\n\n**Total A + B = 80 + 100 = 180 unit**",
     "chart": {
       "type": "com.rovihan.utbksnbt.model.ChartData.BarChart",
       "labels": ["A", "B", "C", "D"],
@@ -45,7 +45,7 @@
     "pertanyaan": "Berikut adalah distribusi hasil ujian Matematika kelas 12. Berapa persentase siswa yang mendapat nilai di atas 80?",
     "pilihan": ["25%", "35%", "45%", "55%", "65%"],
     "jawaban": "C",
-    "pembahasan": "Dari diagram lingkaran:\n- Nilai 60-70: 20%\n- Nilai 71-80: 35%\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Nilai di atas 80 = 81-90 + 91-100 = 30% + 15% = 45%**\n\nJadi, 45% siswa mendapat nilai di atas 80.",
+    "pembahasan": "Dari diagram lingkaran:\n- Nilai 81-90: 30%\n- Nilai 91-100: 15%\n\n**Total = 30% + 15% = 45%**",
     "chart": {
       "type": "com.rovihan.utbksnbt.model.ChartData.PieChart",
       "labels": ["60-70", "71-80", "81-90", "91-100"],
@@ -56,65 +56,59 @@
   {
     "id": 4,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Screenshot_20260125_174715_YouTube.jpg",
-    "pertanyaan": "Teks dan gambar untuk nomor 4 – 7\n\nBudi adalah seorang atlet basket. Dalam sekali lemparan, peluang Budi memasukkan bola dari jarak 5 meter ke dalam keranjang basket adalah sebesar $\\frac{3}{4}$. Tinggi bola (dalam satuan meter) diukur dari permukaan tanah ketika berjarak $x$ meter secara horizontal terhadap posisi Budi melepas bola yang dapat dinyatakan dengan fungsi $t(x) = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$.\n\nTinggi bola ketika jarak horizontalnya 2 meter dari Budi adalah ... meter",
+    "pertanyaan": "Teks dan gambar untuk nomor 4 – 7\n\nBudi adalah seorang atlet basket. Dalam sekali lemparan, peluang Budi memasukkan bola dari jarak 5 meter ke dalam keranjang basket adalah sebesar $\\frac{3}{4}$. Tinggi bola diukur dari tanah dengan fungsi $t(x) = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$.\n\nTinggi bola ketika jarak horizontalnya 2 meter adalah ... meter",
     "pilihan": ["1,75", "2,5", "3,75", "4,5", "5,75"],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\nSubstitusikan nilai $x = 2$ ke dalam fungsi tinggi bola:\n\n$t(2) = -\\frac{1}{4}(2)^2 + \\frac{3}{2}(2) + \\frac{7}{4}$\n\n$t(2) = -\\frac{1}{4}(4) + 3 + 1,75$\n\n$t(2) = -1 + 3 + 1,75 = 3,75$ meter.\n\nJadi, tinggi bola pada jarak horizontal 2 meter adalah **3,75 meter**."
+    "pembahasan": "$t(2) = -\\frac{1}{4}(2)^2 + \\frac{3}{2}(2) + \\frac{7}{4} = -1 + 3 + 1,75 = 3,75$ meter."
   },
   {
     "id": 5,
-    "pertanyaan": "Jika Budi berlatih di tanah lapang tanpa adanya keranjang basket, bola akan mencapai tanah sejauh ... meter di depan Budi",
+    "pertanyaan": "Bola akan mencapai tanah sejauh ... meter di depan Budi",
     "pilihan": ["6", "6,25", "6,5", "6,75", "7"],
     "jawaban": "E",
-    "pembahasan": "**Langkah Lengkap**:\n\nBola mencapai tanah ketika tinggi bola sama dengan nol ($t(x) = 0$):\n\n$0 = -\\frac{1}{4}x^2 + \\frac{3}{2}x + \\frac{7}{4}$\n\nKalikan kedua ruas dengan $-4$ untuk memudahkan pemfaktoran:\n\n$x^2 - 6x - 7 = 0$\n\n$(x - 7)(x + 1) = 0$\n\n$x = 7$ atau $x = -1$.\n\nKarena jarak horizontal tidak mungkin negatif, maka bola mencapai tanah pada jarak **7 meter**."
+    "pembahasan": "Mencapai tanah saat $t(x) = 0$.\n$x^2 - 6x - 7 = 0 \\rightarrow (x-7)(x+1)=0$. Maka $x=7$."
   },
   {
     "id": 6,
     "pertanyaan": "Tinggi bola maksimum dari permukaan tanah adalah ... meter",
     "pilihan": ["4", "4,5", "5", "5,5", "6"],
     "jawaban": "A",
-    "pembahasan": "**Langkah Lengkap**:\n\nTinggi maksimum dicapai pada titik puncak parabola. \n\nCari nilai $x$ puncak ($x_p$):\n$x_p = \\frac{-b}{2a} = \\frac{-1,5}{2(-0,25)} = \\frac{-1,5}{-0,5} = 3$ meter.\n\nSubstitusikan $x = 3$ ke fungsi $t(x)$:\n\n$t(3) = -\\frac{1}{4}(3)^2 + \\frac{3}{2}(3) + \\frac{7}{4}$\n\n$t(3) = -2,25 + 4,5 + 1,75 = 4$ meter.\n\nJadi, tinggi maksimum bola adalah **4 meter**."
+    "pembahasan": "$x_p = -b/2a = 3$. $t(3) = -2,25 + 4,5 + 1,75 = 4$ meter."
   },
   {
     "id": 7,
-    "pertanyaan": "Jika Budi melempar bola dari jarak 5 meter ke tiang keranjang basket, peluang 3 dari 5 lemparannya yang masuk ke dalam keranjang basket adalah ...",
-    "pilihan": [
-      "$\\frac{30}{1.024}$",
-      "$\\frac{90}{1.024}$",
-      "$\\frac{125}{1.024}$",
-      "$\\frac{250}{1.024}$",
-      "$\\frac{270}{1.024}$"
-    ],
+    "pertanyaan": "Peluang 3 dari 5 lemparannya masuk adalah ...",
+    "pilihan": ["$\\frac{30}{1.024}$", "$\\frac{90}{1.024}$", "$\\frac{125}{1.024}$", "$\\frac{250}{1.024}$", "$\\frac{270}{1.024}$"],
     "jawaban": "E",
-    "pembahasan": "**Langkah Lengkap**:\n\nMenggunakan rumus Peluang Binomial: $P(X=k) = \\binom{n}{k} \\cdot p^k \\cdot q^{n-k}$\n\n- $n = 5$ (total lemparan)\n- $k = 3$ (lemparan masuk)\n- $p = \\frac{3}{4}$ (peluang masuk)\n- $q = 1 - \\frac{3}{4} = \\frac{1}{4}$ (peluang gagal)\n\n$P(X=3) = \\binom{5}{3} \\cdot (\\frac{3}{4})^3 \\cdot (\\frac{1}{4})^{5-3}$\n\n$P(X=3) = 10 \\cdot \\frac{27}{64} \\cdot \\frac{1}{16}$\n\n$P(X=3) = \\frac{270}{1024}$.\n\nJadi, peluang 3 dari 5 lemparan masuk adalah **$\\frac{270}{1.024}$**."
+    "pembahasan": "$P(X=3) = \\binom{5}{3} (\\frac{3}{4})^3 (\\frac{1}{4})^2 = 10 \\cdot \\frac{27}{64} \\cdot \\frac{1}{16} = \\frac{270}{1024}$."
   },
   {
     "id": 8,
-    "pertanyaan": "Teks untuk nomor 8 – 11\n\nSebuah tangki air mempunyai dua kran saluran pengisian dan satu saluran pembuangan yang lajunya konstan. Saluran I dan II masing-masing dapat mengisi penuh tangki dari keadaan kosong dalam waktu 8 jam dan 24 jam. Kran III dapat mengosongkan tangki dari keadaan penuh dalam waktu 12 jam.\n\nJika pada saat tangki terisi air setinggi sepertiga tinggi tangki, tangki diisi air dari kedua keran pengisian secara bersamaan, maka tangki akan penuh dalam waktu..."
+    "pertanyaan": "Teks untuk nomor 8 – 11\n\nSebuah tangki air mempunyai dua kran pengisian (8 jam & 24 jam) dan satu pembuangan (12 jam). Jika tangki sudah terisi 1/3, lalu diisi kedua kran pengisian bersamaan, kapan penuh?",
     "pilihan": ["2 jam", "3 jam 30 menit", "3 jam 45 menit", "4 jam", "4 jam 30 menit"],
     "jawaban": "D",
-    "pembahasan": "**Langkah Lengkap**:\n\n- Laju Kran I ($v_1$) = $1/8$ tangki/jam\n- Laju Kran II ($v_2$) = $1/24$ tangki/jam\n- Laju gabungan I & II = $1/8 + 1/24 = 3/24 + 1/24 = 4/24 = 1/6$ tangki/jam.\n\nSisa volume yang harus diisi = $1 - 1/3 = 2/3$ tangki.\n\nWaktu = $\\text{Volume} / \\text{Laju} = (2/3) / (1/6) = 2/3 \\times 6 = 4$ jam.\n\nJadi, tangki akan penuh dalam waktu **4 jam**.",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/tabung.png",
+    "pembahasan": "Laju gabungan = $1/8 + 1/24 = 1/6$ tangki/jam. Sisa volume = $2/3$. Waktu = $(2/3) / (1/6) = 4$ jam."
   },
   {
     "id": 9,
-    "pertanyaan": "Jika ketiga keran dibuka secara bersamaan pada saat tangki kosong, maka tangki akan penuh dalam waktu...",
+    "pertanyaan": "Jika ketiga keran dibuka bersamaan dari kosong, kapan penuh?",
     "pilihan": ["6 jam", "8 jam", "9 jam", "12 jam", "15 jam"],
     "jawaban": "D",
-    "pembahasan": "**Langkah Lengkap**:\n\nLaju total saat ketiga kran dibuka (Kran III bersifat mengurangi karena membuang air):\n\n$v_{\\text{total}} = v_1 + v_2 - v_3$\n$v_{\\text{total}} = 1/8 + 1/24 - 1/12$\n$v_{\\text{total}} = 3/24 + 1/24 - 2/24 = 2/24 = 1/12$ tangki/jam.\n\nWaktu untuk penuh = $1 / (1/12) = 12$ jam.\n\nJadi, tangki akan penuh dalam waktu **12 jam**."
+    "pembahasan": "$1/8 + 1/24 - 1/12 = 1/12$. Waktu = 12 jam."
   },
   {
     "id": 10,
-    "pertanyaan": "Pada saat tangki kosong kran I dan kran II dibuka secara bersamaan selama 3 jam. Jika setelah 3 jam kedua kran tersebut dibuka, kran ke III juga dibuka, maka waktu yang dibutuhkan mengisi tangki tersebut dari kosong sampai penuh terisi air adalah...",
+    "pertanyaan": "Kran I & II buka 3 jam, lalu kran III dibuka. Total waktu sampai penuh?",
     "pilihan": ["5 jam", "6 jam", "8 jam", "9 jam", "12 jam"],
     "jawaban": "D",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Isi tangki setelah 3 jam (Kran I & II):\n$V_1 = 3 \\text{ jam} \\times 1/6 \\text{ tangki/jam} = 1/2$ tangki.\n\n2. Sisa volume yang belum terisi:\n$V_{\\text{sisa}} = 1 - 1/2 = 1/2$ tangki.\n\n3. Waktu mengisi sisa dengan ketiga kran terbuka:\n$t_{\\text{sisa}} = (1/2) / (1/12) = 1/2 \\times 12 = 6$ jam.\n\n4. Total waktu dari awal:\n$T_{\\text{total}} = 3 \\text{ jam} + 6 \\text{ jam} = 9$ jam.\n\nJadi, total waktu yang dibutuhkan adalah **9 jam**."
+    "pembahasan": "3 jam pertama isi $3/6 = 1/2$. Sisa $1/2$ diisi ketiga kran: $(1/2) / (1/12) = 6$ jam. Total = $3 + 6 = 9$ jam."
   },
   {
     "id": 11,
-    "pertanyaan": "Jika keran I dan II dibuka selama 4 jam diisi dari tangki kosong akan sama dengan jika ketiga kran dibuka secara bersamaan selama ... jam",
+    "pertanyaan": "Isi kran I & II selama 4 jam setara dengan ketiga kran selama ... jam",
     "pilihan": ["6", "7", "8", "9", "10"],
     "jawaban": "C",
-    "pembahasan": "**Langkah Lengkap**:\n\n1. Volume air dari Kran I & II selama 4 jam:\n$V = 4 \\times 1/6 = 4/6 = 2/3$ tangki.\n\n2. Mencari waktu ($t$) yang dibutuhkan ketiga kran untuk mencapai volume $2/3$:\n$t \\times v_{\\text{total}} = 2/3$\n$t \\times 1/12 = 2/3$\n$t = 2/3 \\times 12 = 8$ jam.\n\nJadi, waktu yang dibutuhkan adalah **8 jam**."
-  },
+    "pembahasan": "Kran I & II (4 jam) = $4/6 = 2/3$. Ketiga kran: $t/12 = 2/3 \\rightarrow t = 8$ jam."
+  }
 ]
