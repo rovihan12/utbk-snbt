@@ -53,10 +53,18 @@
       "colors": ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]
     }
   },
-
-
-
-  
+{
+    "id": 4,
+    "pertanyaan": "Sebuah balon udara berbentuk bola ditiup sehingga volumenya bertambah dengan laju $100\\pi$ cm³/detik. Tentukan laju perubahan jari-jari balon saat jari-jarinya 5 cm.",
+    "pilihan": [
+      "1 cm/detik",
+      "2 cm/detik",
+      "4 cm/detik",
+      "5 cm/detik"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah Lengkap**:\n\nDiketahui:\n$V = \\frac{4}{3}\\pi r^3$\n$\\frac{dV}{dt} = 100\\pi$\n$r = 5$\n\nTurunkan volume terhadap waktu:\n$\\frac{dV}{dt} = 4\\pi r^2 \\cdot \\frac{dr}{dt}$\n$100\\pi = 4\\pi(5^2) \\cdot \\frac{dr}{dt}$\n$100\\pi = 100\\pi \\cdot \\frac{dr}{dt}$\n$\\frac{dr}{dt} = 1$ cm/detik."
+  },
   {
     "id": 5,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Screenshot_20260125_174715_YouTube.jpg",
