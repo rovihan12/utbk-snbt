@@ -29,7 +29,7 @@ if (empty($current_version)) {
 // ✅ VERSI TERBARU: UPDATE KE V29
 $latest_version = "V29";  // 🔴 UPDATE: DARI "V28" KE "V29"
 $min_required_version = "V27";  // 🔴 UPDATE: DARI "V26" KE "V27"
-$blocked_versions = ["V27", "V28"];    // 🔴 UPDATE: BLOKIR V27 & V28 (karena ada bug kritis)
+$blocked_versions = ["V27"];    // 🔴 UPDATE: BLOKIR V27 & V28 (karena ada bug kritis)
 
 // Initialize response variables
 $update_required = false;
