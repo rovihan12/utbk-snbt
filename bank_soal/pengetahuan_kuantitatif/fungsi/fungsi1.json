@@ -69,11 +69,11 @@
   },
   {
     "id": 8,
-    "kategori": "Sedang",
-    "pertanyaan": "Nilai dari $\\sin 60^\\circ \\cdot \\cos 30^\\circ + \\cos 60^\\circ \\cdot \\sin 30^\\circ$ adalah...",
-    "pilihan": ["$\\frac{1}{2}$", "$\\frac{\\sqrt{2}}{2}$", "$\\frac{\\sqrt{3}}{2}$", "1", "$\\frac{\\sqrt{3} + 1}{2}$"],
+    "kategori": "Mudah",
+    "pertanyaan": "Fungsi $f$ dan $g$ didefinisikan dengan $f(x) = (x - 3)^2 + 5$ dan $g(x) = f(x + 2)$. Nilai $g(2) = \\dots$",
+    "pilihan": ["3", "4", "5", "6", "7"],
     "jawaban": "D",
-    "pembahasan": "Bentuk ini adalah $\\sin A \\cos B + \\cos A \\sin B = \\sin(A+B)$. Jadi: $\\sin 60^\\circ \\cos 30^\\circ + \\cos 60^\\circ \\sin 30^\\circ = \\sin 90^\\circ = 1$"
+    "pembahasan": "Langkah pertama, cari nilai g(2) dengan mensubstitusi x = 2 ke dalam fungsi g(x): g(2) = f(2 + 2) = f(4). Langkah kedua, substitusi x = 4 ke dalam fungsi f(x): f(4) = (4 - 3)^2 + 5 = 1^2 + 5 = 1 + 5 = 6. Jadi, nilai g(2) adalah 6."
   },
   {
     "id": 9,
