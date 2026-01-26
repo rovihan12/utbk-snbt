@@ -86,5 +86,19 @@
     "pilihan": ["0", "1", "2", "3", "4"],
     "jawaban": "D",
     "pembahasan": "Gunakan identitas $4 \\cos^2(x/2) = 2(1 + \\cos x)$. Persamaan menjadi $(\\cos^2 x - 2)(\\cos x + 1) = 0$. Karena $\\cos^2 x = 2$ tidak mungkin, maka $\\cos x = -1$. Pada rentang $[0, 5\\pi]$, nilai $x$ adalah $\\pi, 3\\pi, 5\\pi$ (3 nilai)."
+  },
+  {
+    "id": 9,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui $\\sin(40^\\circ + \\alpha) = b$, dengan $0 < \\alpha < 50^\\circ$. Nilai dari $\\cos(10^\\circ + \\alpha) = \\dots$",
+    "pilihan": [
+      "1/2(\\sqrt{3(1-b^2)} + b)",
+      "1/2(\\sqrt{1-b^2} - b)",
+      "1/2(b - \\sqrt{1-b^2})",
+      "1/2(b - \\sqrt{3(1-b^2)})",
+      "1/2(\\sqrt{3(1-b^2)} - b)"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Gunakan identitas cos(x - y) dengan x = 40° + α dan y = 30°. Maka cos(10° + α) = cos((40° + α) - 30°) = cos(40° + α)cos 30° + sin(40° + α)sin 30°. Substitusi nilai b menghasilkan 1/2(√(3(1-b²)) + b)."
   }
 ]
