@@ -1,15 +1,16 @@
 [
-  {
+ {
     "id": 1,
-    "pertanyaan": "Sedang pengembangan",
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $\\tan 2\\alpha = 4 \\sin \\alpha \\cos \\alpha$ untuk $\\pi/2 < \\alpha < \\pi$, maka $\\cos \\alpha = ...$",
     "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$\\frac{1}{2}\\sqrt{3}$",
+      "$\\frac{1}{2}$",
+      "0",
+      "$-\\frac{1}{2}$",
+      "$-\\frac{1}{2}\\sqrt{3}$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Sedang pengembangan."
+    "jawaban": "E",
+    "pembahasan": "1. Ubah persamaan: $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha} = 2(2 \\sin \\alpha \\cos \\alpha) = 2 \\sin 2\\alpha$.\n2. Maka $\\cos 2\\alpha = 1/2$.\n3. Gunakan identitas $\\cos 2\\alpha = 2 \\cos^2 \\alpha - 1$.\n4. $1/2 = 2 \\cos^2 \\alpha - 1 \\implies 2 \\cos^2 \\alpha = 3/2 \\implies \\cos^2 \\alpha = 3/4$.\n5. $\\cos \\alpha = \\pm \\frac{1}{2}\\sqrt{3}$. Karena di Kuadran II, nilai $\\cos$ negatif, jadi $\\cos \\alpha = -\\frac{1}{2}\\sqrt{3}$."
   }
 ]
