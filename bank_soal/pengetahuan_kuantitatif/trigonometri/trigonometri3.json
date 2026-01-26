@@ -60,6 +60,14 @@
   {
     "id": 6,
     "kategori": "Sedang",
+    "pertanyaan": "Jika $x_1$ dan $x_2$ memenuhi persamaan $2\\sin^2 x - \\cos x = 1$, dengan $0 \\le x \\le \\pi$, nilai dari $x_1 + x_2$ adalah ....",
+    "pilihan": ["\\pi/3", "2\\pi/3", "\\pi", "4\\pi/3", "2\\pi"],
+    "jawaban": "D",
+    "pembahasan": "Substitusi sin²x = 1 - cos²x menjadi 2(1 - cos²x) - cos x = 1, sehingga didapat 2cos²x + cos x - 1 = 0. Faktorisasi (2cos x - 1)(cos x + 1) = 0 menghasilkan cos x = 1/2 (x = π/3) atau cos x = -1 (x = π). Jumlah x1 + x2 = π/3 + π = 4π/3."
+  }
+  {
+    "id": 7,
+    "kategori": "Sedang",
     "pertanyaan": "Jika $\\tan 2\\alpha = 4 \\sin \\alpha \\cos \\alpha$ untuk $\\pi/2 < \\alpha < \\pi$, maka $\\cos \\alpha = ....$",
     "pilihan": [
       "$\\frac{1}{2}\\sqrt{3}$",
@@ -72,7 +80,7 @@
     "pembahasan": "Langkah 1: Gunakan identitas sudut ganda. $4 \\sin \\alpha \\cos \\alpha = 2 \\sin 2\\alpha$. Persamaan menjadi $\\tan 2\\alpha = 2 \\sin 2\\alpha$.\n\nLangkah 2: Jabarkan $\\tan 2\\alpha$ menjadi $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha}$. Maka $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha} = 2 \\sin 2\\alpha$, sehingga $\\cos 2\\alpha = 1/2$.\n\nLangkah 3: Gunakan identitas $\\cos 2\\alpha = 2 \\cos^2 \\alpha - 1$. Maka $2 \\cos^2 \\alpha - 1 = 1/2 \\Rightarrow 2 \\cos^2 \\alpha = 3/2 \\Rightarrow \\cos^2 \\alpha = 3/4$.\nLangkah 4: Karena $\\alpha$ di Kuadran II, maka nilai kosinus negatif. $\\cos \\alpha = -\\sqrt{3/4} = -\\frac{1}{2}\\sqrt{3}$."
   },
   {
-    "id": 7,
+    "id": 8,
     "kategori": "Sulit",
     "pertanyaan": "Banyaknya nilai $x$ ketika $0 \\le x \\le 5\\pi$ yang memenuhi $\\cos^3 x + \\cos^2 x - 4 \\cos^2(x/2) = 0$ adalah...",
     "pilihan": ["0", "1", "2", "3", "4"],
