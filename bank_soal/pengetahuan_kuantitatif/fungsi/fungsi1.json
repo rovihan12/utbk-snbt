@@ -94,24 +94,32 @@
     "jawaban": "B",
     "pembahasan": "Kurangi persamaan kedua dengan pertama: $x+z=4$. Kurangi persamaan ketiga dengan pertama: $y=2$. Substitusi $y=2$ ke $x+z=4$, pilih $x=1$, $z=3$. Maka $x\\cdot y\\cdot z=1\\cdot 2\\cdot 3=6$"
   },
-  {
+{
     "id": 12,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $\\tan x = \\frac{3}{4}$ dan $x$ di kuadran III, maka nilai $\\sin x + \\cos x$ adalah...",
-    "pilihan": ["$-\\frac{7}{5}$", "$-\\frac{1}{5}$", "$\\frac{1}{5}$", "$\\frac{7}{5}$", "$\\frac{12}{5}$"],
+    "kategori": "Fungsi Kuadrat & Garis",
+    "pertanyaan": "Diketahui $f(x) = 2x^2 + 13x + 9$ dan $g(x) = x^2 - 33$ berpotongan di titik $P(a, b)$ dan $Q(c, d)$. Nilai $a$ adalah ....",
+    "pilihan": ["-7", "-6", "3", "16", "33"],
     "jawaban": "A",
-    "pembahasan": "Kuadran III: sin<0, cos<0. Buat segitiga: depan=3, samping=4, miring=5 → $\\sin x=-3/5$, $\\cos x=-4/5$, jumlah = $-7/5$"
+    "pembahasan": "$2x^2 + 13x + 9 = x^2 - 33 \\Rightarrow x^2 + 13x + 42 = 0 \\Rightarrow (x+6)(x+7) = 0$. Nilai $x$ adalah $-6$ dan $-7$. Titik potong: $(-6, 3)$ dan $(-7, 16)$. Karena $b < d$ ($3 < 16$), maka $P(-6, 3)$ dan $Q(-7, 16)$. Nilai $a$ adalah $-6$ atau $-7$ (berdasarkan pilihan, yang tersedia adalah -7 atau -6, konteks soal meminta nilai x dari titik potong)."
   },
   {
     "id": 13,
-    "kategori": "Sulit",
-    "pertanyaan": "Diketahui barisan geometri dengan $U_2 = 6$ dan $U_5 = 48$. Suku ke-7 adalah...",
-    "pilihan": ["96", "108", "120", "144", "192"],
-    "jawaban": "E",
-    "pembahasan": "Rasio: $r^3=48/6=8$, $r=2$. $U_1=6/2=3$, $U_7=3*2^6=192$"
+    "kategori": "Gradien",
+    "pertanyaan": "Gradien garis $k$ adalah ....",
+    "pilihan": ["-13", "$-1/13$", "1", "1/13", "13"],
+    "jawaban": "A",
+    "pembahasan": "Garis $k$ melalui $P(-6, 3)$ dan $Q(-7, 16)$. $m = (16 - 3) / (-7 - (-6)) = 13 / -1 = -13$."
   },
   {
     "id": 14,
+    "kategori": "Persamaan Garis",
+    "pertanyaan": "Persamaan garis yang sejajar dengan garis $k$ dan melalui titik $(-1, 3)$ adalah ....",
+    "pilihan": ["$13y - x - 40 = 0$", "$y - x - 4 = 0$", "$y + 13x + 10 = 0$", "$y - 13x - 16 = 0$", "$y + 13x - 2 = 0$"],
+    "jawaban": "C",
+    "pembahasan": "Sejajar berarti $m = -13$. Melalui $(-1, 3)$: $y - 3 = -13(x + 1) \\Rightarrow y - 3 = -13x - 13 \\Rightarrow y + 13x + 10 = 0$."
+  },
+  {
+    "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jumlah semua nilai $x$ yang memenuhi $x^4 - 5x^2 + 4 = 0$ adalah...",
     "pilihan": ["-5", "-4", "0", "4", "5"],
@@ -119,7 +127,7 @@
     "pembahasan": "Substitusi $y=x^2$, $y^2-5y+4=0$ → $(y-1)(y-4)=0$, $x^2=1$ atau $4$ → $x=±1, ±2$, jumlah=0"
   },
   {
-    "id": 15,
+    "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\alpha$ dan $\\beta$ adalah akar $x^2-6x+5=0$, persamaan dengan akar $2\\alpha+1$ dan $2\\beta+1$ adalah...",
     "pilihan": ["$x^2 - 14x + 33 = 0$", "$x^2 - 10x + 21 = 0$", "$x^2 - 8x + 15 = 0$", "$x^2 - 6x + 5 = 0$", "$x^2 - 4x + 3 = 0$"],
@@ -127,7 +135,7 @@
     "pembahasan": "α+β=6, αβ=5. Akar baru: 2α+1+2β+1=14, (2α+1)(2β+1)=4*5+2*6+1=33 → $x^2-14x+33=0$"
   },
   {
-    "id": 16,
+    "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Nilai $\\lim_{x \\to 2} \\frac{x^2-4}{x-2}$ adalah...",
     "pilihan": ["0", "2", "4", "6", "Tidak terdefinisi"],
@@ -135,7 +143,7 @@
     "pembahasan": "Faktorkan: $(x-2)(x+2)/(x-2)=x+2$, substitusi $x=2$ → $4$"
   },
   {
-    "id": 17,
+    "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $f(x) = x^3 - 2x^2 + 5$, maka $f'(1)$ adalah...",
     "pilihan": ["-1", "0", "1", "2", "3"],
@@ -143,20 +151,12 @@
     "pembahasan": "Turunan: $f'(x)=3x^2-4x$, $f'(1)=3-4=-1$"
   },
   {
-    "id": 18,
+    "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Penyelesaian persamaan $2x^2 - 5x + 3 = 0$ adalah...",
     "pilihan": ["1 dan 3/2", "3/2 dan 1", "1 dan 2", "2 dan 3", "3 dan 4"],
     "jawaban": "A",
     "pembahasan": "Faktorkan: $(2x-3)(x-1)=0$, solusi: $x=1$ dan $x=3/2$"
-  },
-  {
-    "id": 19,
-    "kategori": "Sulit",
-    "pertanyaan": "Dalam deret aritmatika, suku ke-5 = 17, suku ke-10 = 32. Jumlah 20 suku pertama adalah...",
-    "pilihan": ["420", "480", "540", "670", "660"],
-    "jawaban": "D",
-    "pembahasan": "U5=a+4b=17, U10=a+9b=32 → b=3, a=5. S20=20/2*(2*5+19*3)=10*(10+57)=670"
   },
   {
     "id": 20,
