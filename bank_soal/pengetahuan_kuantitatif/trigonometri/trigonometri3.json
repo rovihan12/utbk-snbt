@@ -62,5 +62,13 @@
     ],
     "jawaban": "E",
     "pembahasan": "Langkah 1: Gunakan identitas sudut ganda. $4 \\sin \\alpha \\cos \\alpha = 2 \\sin 2\\alpha$. Persamaan menjadi $\\tan 2\\alpha = 2 \\sin 2\\alpha$.\n\nLangkah 2: Jabarkan $\\tan 2\\alpha$ menjadi $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha}$. Maka $\\frac{\\sin 2\\alpha}{\\cos 2\\alpha} = 2 \\sin 2\\alpha$, sehingga $\\cos 2\\alpha = 1/2$.\n\nLangkah 3: Gunakan identitas $\\cos 2\\alpha = 2 \\cos^2 \\alpha - 1$. Maka $2 \\cos^2 \\alpha - 1 = 1/2 \\Rightarrow 2 \\cos^2 \\alpha = 3/2 \\Rightarrow \\cos^2 \\alpha = 3/4$.\nLangkah 4: Karena $\\alpha$ di Kuadran II, maka nilai kosinus negatif. $\\cos \\alpha = -\\sqrt{3/4} = -\\frac{1}{2}\\sqrt{3}$."
+  },
+  {
+    "id": 6,
+    "kategori": "Sulit",
+    "pertanyaan": "Banyaknya nilai $x$ ketika $0 \\le x \\le 5\\pi$ yang memenuhi $\\cos^3 x + \\cos^2 x - 4 \\cos^2(x/2) = 0$ adalah...",
+    "pilihan": ["0", "1", "2", "3", "4"],
+    "jawaban": "D",
+    "pembahasan": "Gunakan identitas $4 \\cos^2(x/2) = 2(1 + \\cos x)$. Persamaan menjadi $(\\cos^2 x - 2)(\\cos x + 1) = 0$. Karena $\\cos^2 x = 2$ tidak mungkin, maka $\\cos x = -1$. Pada rentang $[0, 5\\pi]$, nilai $x$ adalah $\\pi, 3\\pi, 5\\pi$ (3 nilai)."
   }
 ]
