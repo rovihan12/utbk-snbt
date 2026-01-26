@@ -21,10 +21,11 @@
   },
   {
     "id": 3,
-    "pertanyaan": "Jika x adalah bilangan bulat positif dan 2x + 5 < 17, nilai maksimum x adalah...",
-    "pilihan": ["4", "5", "6", "7", "8"],
-    "jawaban": "B",
-    "pembahasan": "Langkah 1: \\( 2x + 5 < 17 \\Rightarrow 2x < 12 \\Rightarrow x < 6 \\). \nLangkah 2: Karena x bilangan bulat positif, nilai terbesar yang mungkin adalah **5**."
+    "kategori": "Sedang",
+    "pertanyaan": "Diketahui jumlah siswa suatu kelas antara 17 sampai dengan 38. $\\frac{1}{4}$ dari jumlah siswa tersebut tahu cara bermain catur. Pada hari Rabu, 6 siswa absen karena harus berpartisipasi dalam lomba Matematika. Pada hari itu, $\\frac{1}{5}$ siswa yang masuk tahu cara bermain catur. Jumlah siswa yang masuk pada hari Rabu dan tahu cara bermain catur adalah... orang",
+    "pilihan": ["3", "4", "5", "6", "8"],
+    "jawaban": "D",
+    "pembahasan": "Misal jumlah siswa = $x$. Syarat 1: $x$ habis dibagi 4 (antara 17-38). Syarat 2: $(x-6)$ habis dibagi 5. Kelipatan 4 yang tersedia: 20, 24, 28, 32, 36. Cek: $36-6=30$ (habis dibagi 5). Jadi $x=36$. Jumlah siswa masuk dan tahu catur: $\\frac{1}{5} \\times (36-6) = \\frac{1}{5} \\times 30 = 6$."
   },
   {
     "id": 4,
