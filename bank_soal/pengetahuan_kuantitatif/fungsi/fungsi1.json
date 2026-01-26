@@ -166,9 +166,15 @@
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\sin A = 5/13$ di kuadran II, nilai $\\tan A$ adalah...",
-    "pilihan": ["$-5/12$", "$-12/13$", "$5/12$", "$12/13$", "$13/12$"],
+    "pertanyaan": "Solusi perttdaksamaan $2x^2 + 3x \\leq 9$ yang bukan solusi pertidaksamaan $2x^2 - x \\leq 10$ adalah ....",
+    "pilihan": [
+      "-3 \\leq x < -2",
+      "-3 \\leq x \\leq 1\\frac{1}{2}",
+      "1\\frac{1}{2} \\leq x < 2\\frac{1}{2}",
+      "-2 < x \\leq 1\\frac{1}{2}",
+      "x < -2 \\text{ atau } x \\geq 2\\frac{1}{2}"
+    ],
     "jawaban": "A",
-    "pembahasan": "Kuadran II: cos<0 → cosA=-12/13, tanA=sin/cos=-5/12"
+    "pembahasan": "1. Selesaikan $2x^2 + 3x - 9 \\leq 0 \\Rightarrow (2x - 3)(x + 3) \\leq 0$. Himpunan penyelesaian $A = \\{x \\mid -3 \\leq x \\leq 1.5\\}$. \n2. Selesaikan $2x^2 - x - 10 \\leq 0 \\Rightarrow (2x - 5)(x + 2) \\leq 0$. Himpunan penyelesaian $B = \\{x \\mid -2 \\leq x \\leq 2.5\\}$. \n3. Mencari nilai di A yang bukan merupakan nilai di B ($A - B$). Karena B mencakup area dari -2 sampai 2.5, maka bagian dari A yang tersisa adalah dari -3 sampai tepat sebelum -2. \n4. Hasilnya: $-3 \\leq x < -2$."
   }
 ]
