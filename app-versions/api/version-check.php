@@ -130,16 +130,10 @@ if (in_array($current_version, $blocked_versions)) {
 // Prepare release notes for each version
 $release_notes = [
     "V29" => [
-        "🎯 **MAJOR UPDATE V29**: Implementasi Force Update Manager",
-        "🔧 **FORCE UPDATE SYSTEM**: Sistem pembaruan wajib dan opsional",
-        "⚡ **PERFORMANCE OPTIMIZATION**: Optimasi memori dan kecepatan",
+"🎯 **MAJOR UPDATE V29**: Memperbaiki sistem Bintang pada fitur Kuis",
+        "⚡ **PERFORMANCE OPTIMIZATION**: Menambah Kategori Trigonometridi Pengetahuan Kuantitatif",
+        "📱 **Quality IMPROVEMENTS**: Menambah dan memperbaharui Soal",
         "📊 **UPDATE CHECK**: Cek pembaruan otomatis saat app launch",
-        "🎮 **PROFILE INTEGRATION**: Info update di halaman profil",
-        "🔔 **UPDATE NOTIFICATION**: Notifikasi jika ada update tersedia",
-        "📱 **UI IMPROVEMENTS**: Perbaikan tampilan update dialog",
-        "🐛 **BUG FIXES**: Perbaikan berbagai bug dan crash pada V28",
-        "💾 **CACHE SYSTEM**: Sistem caching untuk update info",
-        "🔄 **BACKGROUND CHECK**: Pengecekan update di background"
     ],
     "V28" => [
         "🎯 **MAJOR UPDATE V28**: Perbaikan sistem kuis dan performa",
