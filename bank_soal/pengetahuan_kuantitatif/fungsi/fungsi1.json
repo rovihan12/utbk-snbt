@@ -43,13 +43,13 @@
     "jawaban": "D",
     "pembahasan": "Syarat agar terdapat bilangan real $r$ sehingga $f(r)=g(r)$ adalah diskriminan ($D$) dari persamaan $r^2 + br + d = 0$ harus $D \\ge 0$, yaitu $b^2 - 4d \\ge 0$ atau $b^2 \\ge 4d$.\n(1) $b - 5d > 0 \\implies b > 5d$. Karena $b$ dan $d$ bilangan asli, maka $b^2 > (5d)^2 = 25d^2$. Karena $d \\ge 1$, maka $25d^2 > 4d$. Jadi $b^2 > 4d$. (1) CUKUP.\n(2) $b > d + 1$. Karena $b$ dan $d$ bilangan asli, maka $b \\ge d+2$. Kuadratkan: $b^2 \\ge (d+2)^2 = d^2 + 4d + 4$. Karena $d^2+4$ pasti positif, maka $b^2 > 4d$. (2) CUKUP.\nKedua pernyataan sendiri-sendiri sudah cukup."
   },
-  {
+    {
     "id": 5,
-    "kategori": "Mudah",
-    "pertanyaan": "Jika $\\frac{x}{4} = 7$, maka nilai $x$ adalah...",
-    "pilihan": ["3", "14", "21", "28", "35"],
-    "jawaban": "D",
-    "pembahasan": "Kalikan 4: $x = 7 \\cdot 4 = 28$"
+    "kategori": "Sedang",
+    "pertanyaan": "Suatu parabola $y = x^2 + mx + n$ memiliki titik puncak $(3, -1)$ dan memotong sumbu $x$ di $(2, 0)$ maka $m + n = ...$",
+    "pilihan": ["1", "2", "3", "4", "5"],
+    "jawaban": "B",
+    "pembahasan": "Absis puncak $x_p = -m/2(1) = 3 \\Rightarrow m = -6$. Substitusi titik puncak $(3, -1)$ ke persamaan: $-1 = (3)^2 + (-6)(3) + n \\Rightarrow -1 = 9 - 18 + n \\Rightarrow n = 8$. Maka nilai $m + n = -6 + 8 = 2$."
   },
   {
     "id": 6,
