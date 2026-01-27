@@ -5,15 +5,17 @@
   "update_required": true,
   "message": "🚫 **UPDATE WAJIB V29**\n\nVersi V27 & V28 memiliki bug kritis pada sistem kuis dan update. Anda **harus** update ke V29 untuk melanjutkan penggunaan aplikasi.",
   "min_required_version": "V27",
-  "blocked_versions": ["V27"],
+  "blocked_versions": ["V27", "V28"], 
   "play_store_url": "https://play.google.com/store/apps/details?id=com.rovihan.utbksnbt",
   "release_notes": [
     "🎯 **MAJOR UPDATE V29**: Memperbaiki sistem Bintang pada fitur Kuis",
-    "⚡ **PERFORMANCE OPTIMIZATION**: Menambah Kategori Trigonometridi Pengetahuan Kuantitatif",
-    "📱 **Quality IMPROVEMENTS**: Menambah dan memperbaharui Soal",
-    "📊 **UPDATE CHECK**: Cek pembaruan otomatis saat app launch",
+    "⚡ **PERFORMANCE OPTIMIZATION**: Menambah Kategori Trigonometri di Pengetahuan Kuantitatif",
+    "📱 **QUALITY IMPROVEMENTS**: Menambah dan memperbaharui Soal",
+    "📊 **UPDATE CHECK**: Cek pembaruan otomatis saat app launch"
   ],
   "platform": "android",
   "timestamp": "2026-01-26 10:00:00",
-  "app_name": "Giat UTBK SNBT"
+  "app_name": "Giat UTBK SNBT",
+  "critical_versions": ["V27", "V28"], 
+  "recommended_action": "Update immediately to V29"
 }
