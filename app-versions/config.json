@@ -1,0 +1,139 @@
+{
+  "app_config": {
+    "app_name": "Giat UTBK SNBT",
+    "package_name": "com.rovihan.utbksnbt",
+    "developer": "Rovihan",
+    "support_email": "rovihan@gmail.com",
+    "website": "https://rovihan12.github.io/utbk-snbt"
+  },
+  
+  "version_control": {
+    "version_naming_scheme": "V{number}",
+    "initial_version": "V24",
+    "current_stable_version": "V29",
+    "next_version_plan": "V30",
+    "beta_program_enabled": false,
+    "auto_update_check_enabled": true
+  },
+  
+  "update_policies": {
+    "force_update_versions": ["V24", "V25", "V26", "V27", "V28"],
+    "minimum_supported_version": "V27",
+    "blocked_versions": ["V27"],
+    "gradual_rollout_enabled": false,
+    "rollout_percentage": 100,
+    "maintenance_mode": false
+  },
+  
+  "release_channels": {
+    "stable": {
+      "update_frequency": "monthly",
+      "testing_required": true,
+      "auto_publish": false
+    },
+    "beta": {
+      "enabled": false,
+      "testers_limit": 50,
+      "auto_update": true
+    },
+    "alpha": {
+      "enabled": false,
+      "internal_testing_only": true
+    }
+  },
+  
+  "version_history": [
+    {
+      "version": "V24",
+      "release_date": "2024-01-01",
+      "status": "unsupported",
+      "notes": "Versi awal dengan ForceUpdate system"
+    },
+    {
+      "version": "V25",
+      "release_date": "2024-02-01",
+      "status": "unsupported",
+      "notes": "Perbaikan sistem kuis"
+    },
+    {
+      "version": "V26",
+      "release_date": "2024-03-01",
+      "status": "unsupported",
+      "notes": "Penambahan fitur analytics"
+    },
+    {
+      "version": "V27",
+      "release_date": "2024-11-01",
+      "status": "blocked",
+      "notes": "Versi dengan bug kritis (force update required)"
+    },
+    {
+      "version": "V28",
+      "release_date": "2024-12-01",
+      "status": "blocked",
+      "notes": "Versi dengan bug kritis (force update required)"
+    },
+    {
+      "version": "V29",
+      "release_date": "2025-01-15",
+      "status": "stable",
+      "notes": "Perbaikan bug sistem bintang dan kuis"
+    }
+  ],
+  
+  "api_config": {
+    "version_check_url": "https://rovihan12.github.io/app-versions/api/version-check.php",
+    "cache_duration_hours": 6,
+    "request_timeout_seconds": 10,
+    "max_retries": 2,
+    "user_agent": "UTBK-SNBT-App/ForceUpdate"
+  },
+  
+  "platform_specific": {
+    "android": {
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.rovihan.utbksnbt",
+      "minimum_api_level": 21,
+      "supported_architectures": ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"]
+    },
+    "ios": {
+      "enabled": false,
+      "app_store_url": "",
+      "minimum_ios_version": "0"
+    }
+  },
+  
+  "monitoring": {
+    "analytics_enabled": true,
+    "error_logging": true,
+    "version_usage_tracking": true,
+    "update_success_rate_tracking": true
+  },
+  
+  "notification_settings": {
+    "in_app_notification": true,
+    "force_update_notification_interval_hours": 24,
+    "soft_update_notification_days": 7,
+    "skip_version_remember_days": 30
+  },
+  
+  "security": {
+    "https_required": true,
+    "signature_verification": false,
+    "rate_limiting_enabled": true,
+    "max_requests_per_hour": 1000
+  },
+  
+  "debug_settings": {
+    "log_level": "error",
+    "debug_mode": false,
+    "test_version_override": "",
+    "simulate_update": false
+  },
+  
+  "metadata": {
+    "config_version": "2.0",
+    "last_updated": "2025-01-15",
+    "maintainer": "Rovihan",
+    "notes": "Sistem ForceUpdate aktif dari V24"
+  }
+}
