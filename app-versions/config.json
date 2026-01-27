@@ -1,0 +1,16 @@
+{
+  "app_name": "UTBK SNBT Prep",
+  "version": "V29",
+  "notifications_enabled": true,
+  "github_owner": "rovihan12",
+  "github_repo": "utbk-snbt",
+  "update_check_url": "https://rovihan12.github.io/utbk-snbt/app-versions/api/version-check.php",
+  "announcements_url": "https://api.github.com/repos/rovihan12/utbk-snbt/issues?labels=announcement",
+  "releases_url": "https://api.github.com/repos/rovihan12/utbk-snbt/releases",
+  "support_email": "rovihan@gmail.com",
+  "website": "https://rovihan12.github.io/utbk-snbt",
+  "latest_version_available": "V29",
+  "min_required_version": "V27", 
+  "blocked_versions": ["V27", "V28"], 
+  "update_required": false
+}
