@@ -1,27 +1,33 @@
-{
-  "id": 1,
-  "pertanyaan": "Sebuah gudang...",
-  "tabel": {
-    "header": ["Ukuran Ubin", "Mungkin", "Tidak Mungkin"],
-    "rows": [
-      ["30 cm x 30 cm", "☐", "☐"],
-      ["50 cm x 50 cm", "☐", "☐"],
-      ["60 cm x 60 cm", "☐", "☐"]
+[
+  {
+    "id": 4,
+    "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang dengan panjang 6,5 meter dan lebar 6 meter. Jika ukuran ubin yang digunakan diubah, maka ukuran manakah di bawah ini yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan?",
+    "pilihan": [
+      "30 cm × 30 cm",
+      "50 cm × 50 cm", 
+      "60 cm × 60 cm"
     ],
-    "interactive": true,
-    "options": {
-      "type": "radio",
-      "perRow": 1,
-      "correctAnswers": [
-        {"row": 0, "column": 2},
-        {"row": 1, "column": 1},
-        {"row": 2, "column": 2}
-      ]
+    "jawaban": "B",
+    "pembahasan": "... (pembahasan sama seperti sebelumnya) ...",
+    
+    "tabel": {
+      "header": ["Ukuran Ubin", "Mungkin", "Tidak Mungkin"],
+      "rows": [
+        ["30 cm × 30 cm", "650 ÷ 30 = 21,67", "600 ÷ 30 = 20"],
+        ["50 cm × 50 cm", "650 ÷ 50 = 13", "600 ÷ 50 = 12"],
+        ["60 cm × 60 cm", "650 ÷ 60 = 10,83", "600 ÷ 60 = 10"]
+      ],
+      "interactive": false
+    },
+    
+    "tabel_pembahasan": {
+      "header": ["Ukuran Ubin", "Panjang (650 cm)", "Lebar (600 cm)", "Tanpa Potong?"],
+      "rows": [
+        ["30 cm × 30 cm", "650 ÷ 30 = 21,67", "600 ÷ 30 = 20", "Tidak"],
+        ["50 cm × 50 cm", "650 ÷ 50 = 13", "600 ÷ 50 = 12", "Ya"],
+        ["60 cm × 60 cm", "650 ÷ 60 = 10,83", "600 ÷ 60 = 10", "Tidak"]
+      ],
+      "interactive": false
     }
-  },
-  "pilihan": [],
-  "jawaban": "",
-  "pilihan_jawaban": ["30 cm x 30 cm", "50 cm x 50 cm", "60 cm x 60 cm"],
-  "jawaban_benar": ["50 cm x 50 cm"],
-  "pembahasan": "..."
-}
+  }
+]
