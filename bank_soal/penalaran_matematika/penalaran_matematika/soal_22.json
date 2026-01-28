@@ -1,16 +1,41 @@
-{
-  "id": 1,
-  "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang dengan panjang 6,5 meter dan lebar 6 meter. Lantai tersebut akan dilapisi dengan ubin berukuran 60 cm × 60 cm. Pemotongan ubin diperbolehkan bila diperlukan. Ubin dijual dalam satuan lusin, dengan harga Rp540.000,00 per lusin, dan tidak tersedia penjualan eceran. Untuk memasang ubin pada area seluas 3 meter persegi, dibutuhkan waktu rata-rata 10 menit.\n\n4. Jika ukuran ubin yang digunakan diubah, maka ukuran manakah di bawah ini yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan?",
-  "pilihan": ["A", "B", "C", "D"],
-  "jawaban": "A",
-  "pembahasan": "**Pembahasan:**\n\nUntuk menentukan ukuran ubin yang dapat menutupi lantai tanpa pemotongan, kita perlu mencari ukuran ubin yang panjang dan lebarnya dapat membagi habis panjang dan lebar lantai.\n\n**Ukuran lantai:**\n- Panjang = 6,5 m = 650 cm\n- Lebar = 6 m = 600 cm\n\n**Perhitungan:**\n\n1. **Ubin 30 cm × 30 cm:**\n   - $650 \\div 30 = 21,666...$ (tidak habis)\n   - $600 \\div 30 = 20$ (habis)\n   → **Tidak mungkin** tanpa pemotongan\n\n2. **Ubin 50 cm × 50 cm:**\n   - $650 \\div 50 = 13$ (habis)\n   - $600 \\div 50 = 12$ (habis)\n   → **Mungkin** tanpa pemotongan\n\n3. **Ubin 60 cm × 60 cm:**\n   - $650 \\div 60 = 10,833...$ (tidak habis)\n   - $600 \\div 60 = 10$ (habis)\n   → **Tidak mungkin** tanpa pemotongan\n\n**Kesimpulan:** Hanya ubin berukuran 50 cm × 50 cm yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan.",
-  "checkbox_tabel": {
-    "header": ["Mungkin", "Tidak Mungkin"],
-    "rows": [
-      {"label": "30 cm x 30 cm"},
-      {"label": "50 cm x 50 cm"},
-      {"label": "60 cm x 60 cm"}
-    ]
+[
+  {
+    "id": 4,
+    "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang...",
+    "pilihan": ["A", "B", "C", "D"],
+    "jawaban": "A",
+    "pembahasan": "Pembahasan lengkap...",
+    "checkbox_tabel": {
+      "header": ["Mungkin", "Tidak Mungkin"],
+      "rows": [
+        {"label": "30 cm x 30 cm"},
+        {"label": "50 cm x 50 cm"},
+        {"label": "60 cm x 60 cm"}
+      ]
+    },
+    "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
   },
-  "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
-}
+  {
+    "id": 5,
+    "pertanyaan": "Soal biasa tanpa checkbox table...",
+    "pilihan": ["Pilihan A", "Pilihan B", "Pilihan C", "Pilihan D"],
+    "jawaban": "B",
+    "pembahasan": "Pembahasan soal biasa..."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Soal lain dengan checkbox table...",
+    "pilihan": ["A", "B", "C"],
+    "jawaban": "C",
+    "pembahasan": "Pembahasan...",
+    "checkbox_tabel": {
+      "header": ["Ya", "Tidak"],
+      "rows": [
+        {"label": "Pernyataan 1"},
+        {"label": "Pernyataan 2"},
+        {"label": "Pernyataan 3"}
+      ]
+    },
+    "jawaban_checkbox": ["Ya", "Tidak", "Ya"]
+  }
+]
