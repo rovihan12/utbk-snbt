@@ -20,15 +20,13 @@
         ]
       }
     },
-    "pilihan": [],
-    "jawaban": "",
     "pilihan_jawaban": [
       "30 cm x 30 cm",
-      "50 cm x 50 cm", 
+      "50 cm x 50 cm",
       "60 cm x 60 cm"
     ],
-    "jawaban_benar": ["50 cm x 50 cm"],
-    "pembahasan": "Untuk menutupi lantai tanpa pemotongan, ukuran ubin harus dapat membagi habis kedua ukuran sisi lantai (panjang dan lebar).\n\n**Diketahui:**\n* Panjang lantai = 6,5 m = 650 cm\n* Lebar lantai = 6 m = 600 cm\n\n**Analisis per ukuran ubin:**\n\n1. **30 cm × 30 cm:**\n   * Panjang: 650 ÷ 30 = 21,667 (tidak habis, karena bukan bilangan bulat)\n   * Lebar: 600 ÷ 30 = 20 (habis)\n   * **Kesimpulan:** Tidak mungkin tanpa pemotongan.\n\n2. **50 cm × 50 cm:**\n   * Panjang: 650 ÷ 50 = 13 (habis)\n   * Lebar: 600 ÷ 50 = 12 (habis)\n   * **Kesimpulan:** Mungkin tanpa pemotongan (dapat menutupi tepat).\n\n3. **60 cm × 60 cm:**\n   * Panjang: 650 ÷ 60 ≈ 10,833 (tidak habis)\n   * Lebar: 600 ÷ 60 = 10 (habis)\n   * **Kesimpulan:** Tidak mungkin tanpa pemotongan.\n\n**Jadi, hanya ubin 50 cm × 50 cm yang dapat menutupi seluruh lantai tanpa pemotongan.**",
+    "jawaban_benar": ["50 cm x 50 cm"],  // Koreksi: hanya 50 cm
+    "pembahasan": "...",
     "tabel_pembahasan": {
       "header": ["Ukuran Ubin", "Panjang (650 cm)", "Lebar (600 cm)", "Tanpa Potong?"],
       "rows": [
