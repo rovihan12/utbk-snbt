@@ -1,33 +1,99 @@
-[
-  {
-    "id": 4,
-    "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang dengan panjang 6,5 meter dan lebar 6 meter. Jika ukuran ubin yang digunakan diubah, maka ukuran manakah di bawah ini yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan?",
-    "pilihan": [
-      "30 cm × 30 cm",
-      "50 cm × 50 cm", 
-      "60 cm × 60 cm"
-    ],
-    "jawaban": "B",
-    "pembahasan": "... (pembahasan sama seperti sebelumnya) ...",
-    
-    "tabel": {
-      "header": ["Ukuran Ubin", "Mungkin", "Tidak Mungkin"],
-      "rows": [
-        ["30 cm × 30 cm", "650 ÷ 30 = 21,67", "600 ÷ 30 = 20"],
-        ["50 cm × 50 cm", "650 ÷ 50 = 13", "600 ÷ 50 = 12"],
-        ["60 cm × 60 cm", "650 ÷ 60 = 10,83", "600 ÷ 60 = 10"]
-      ],
-      "interactive": false
+{
+  "soal": [
+    {
+      "id": 1,
+      "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang dengan panjang 6,5 meter dan lebar 6 meter. Lantai tersebut akan dilapisi dengan ubin berukuran 60 cm × 60 cm. Pemotongan ubin diperbolehkan bila diperlukan. Jika ukuran ubin yang digunakan diubah, maka ukuran manakah di bawah ini yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan?",
+      "pilihan": [],
+      "jawaban": "B",
+      "pembahasan": "**Pembahasan:**\n\nUkuran lantai:\n- Panjang = 6,5 m = 650 cm\n- Lebar = 6 m = 600 cm\n\nPeriksa setiap ukuran ubin:\n\n1. **30 cm × 30 cm**\n   - 650 ÷ 30 = 21,67 (tidak bulat)\n   - 600 ÷ 30 = 20 (bulat)\n   - Butuh pemotongan ✓\n\n2. **50 cm × 50 cm**\n   - 650 ÷ 50 = 13 (bulat)\n   - 600 ÷ 50 = 12 (bulat)\n   - Tidak perlu pemotongan ✓\n\n3. **60 cm × 60 cm**\n   - 650 ÷ 60 = 10,83 (tidak bulat)\n   - 600 ÷ 60 = 10 (bulat)\n   - Butuh pemotongan ✓\n\n**Jawaban:** Hanya ukuran 50 cm × 50 cm yang tidak memerlukan pemotongan.",
+      "tipeSoal": "tabel_checkbox",
+      "tabelJawaban": {
+        "header": ["Ukuran Ubin"],
+        "rows": [
+          {
+            "pilihan": "30 cm × 30 cm",
+            "jawabanBenar": false
+          },
+          {
+            "pilihan": "50 cm × 50 cm", 
+            "jawabanBenar": true
+          },
+          {
+            "pilihan": "60 cm × 60 cm",
+            "jawabanBenar": false
+          }
+        ]
+      }
     },
-    
-    "tabel_pembahasan": {
-      "header": ["Ukuran Ubin", "Panjang (650 cm)", "Lebar (600 cm)", "Tanpa Potong?"],
-      "rows": [
-        ["30 cm × 30 cm", "650 ÷ 30 = 21,67", "600 ÷ 30 = 20", "Tidak"],
-        ["50 cm × 50 cm", "650 ÷ 50 = 13", "600 ÷ 50 = 12", "Ya"],
-        ["60 cm × 60 cm", "650 ÷ 60 = 10,83", "600 ÷ 60 = 10", "Tidak"]
-      ],
-      "interactive": false
+    {
+      "id": 2,
+      "pertanyaan": "Pilihlah pernyataan yang BENAR tentang segitiga siku-siku:",
+      "pilihan": [],
+      "jawaban": "A,C,E",
+      "pembahasan": "**Pembahasan:**\n\n1. **A. Memiliki satu sudut 90°** → BENAR (definisi segitiga siku-siku)\n2. **B. Jumlah sudutnya 360°** → SALAH (jumlah sudut segitiga selalu 180°)\n3. **C. Memenuhi teorema Pythagoras** → BENAR (c² = a² + b²)\n4. **D. Semua sisinya sama panjang** → SALAH (itu segitiga sama sisi)\n5. **E. Dapat dibentuk dari setengah persegi panjang** → BENAR\n\n**Jawaban:** A, C, dan E",
+      "tipeSoal": "tabel_checkbox",
+      "tabelJawaban": {
+        "header": ["Pernyataan"],
+        "rows": [
+          {
+            "pilihan": "Memiliki satu sudut 90°",
+            "jawabanBenar": true
+          },
+          {
+            "pilihan": "Jumlah sudutnya 360°",
+            "jawabanBenar": false
+          },
+          {
+            "pilihan": "Memenuhi teorema Pythagoras",
+            "jawabanBenar": true
+          },
+          {
+            "pilihan": "Semua sisinya sama panjang",
+            "jawabanBenar": false
+          },
+          {
+            "pilihan": "Dapat dibentuk dari setengah persegi panjang",
+            "jawabanBenar": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Manakah di antara bilangan berikut yang merupakan bilangan prima? (Pilih semua yang benar)",
+      "pilihan": [],
+      "jawaban": "A,B,E",
+      "pembahasan": "**Pembahasan:**\n\nBilangan prima adalah bilangan yang hanya habis dibagi 1 dan dirinya sendiri.\n\n- **2** → Prima ✓ (hanya habis dibagi 1 dan 2)\n- **3** → Prima ✓ (hanya habis dibagi 1 dan 3)\n- **4** → Bukan prima (habis dibagi 1, 2, 4)\n- **9** → Bukan prima (habis dibagi 1, 3, 9)\n- **11** → Prima ✓ (hanya habis dibagi 1 dan 11)\n- **15** → Bukan prima (habis dibagi 1, 3, 5, 15)\n\n**Jawaban:** 2, 3, dan 11",
+      "tipeSoal": "tabel_checkbox",
+      "tabelJawaban": {
+        "header": ["Bilangan"],
+        "rows": [
+          {
+            "pilihan": "2",
+            "jawabanBenar": true
+          },
+          {
+            "pilihan": "3",
+            "jawabanBenar": true
+          },
+          {
+            "pilihan": "4",
+            "jawabanBenar": false
+          },
+          {
+            "pilihan": "9",
+            "jawabanBenar": false
+          },
+          {
+            "pilihan": "11",
+            "jawabanBenar": true
+          },
+          {
+            "pilihan": "15",
+            "jawabanBenar": false
+          }
+        ]
+      }
     }
-  }
-]
+  ]
+}
