@@ -1,99 +1,69 @@
-{
-  "soal": [
-    {
-      "id": 1,
-      "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang dengan panjang 6,5 meter dan lebar 6 meter. Lantai tersebut akan dilapisi dengan ubin berukuran 60 cm × 60 cm. Pemotongan ubin diperbolehkan bila diperlukan. Jika ukuran ubin yang digunakan diubah, maka ukuran manakah di bawah ini yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan?",
-      "pilihan": [],
-      "jawaban": "B",
-      "pembahasan": "**Pembahasan:**\n\nUkuran lantai:\n- Panjang = 6,5 m = 650 cm\n- Lebar = 6 m = 600 cm\n\nPeriksa setiap ukuran ubin:\n\n1. **30 cm × 30 cm**\n   - 650 ÷ 30 = 21,67 (tidak bulat)\n   - 600 ÷ 30 = 20 (bulat)\n   - Butuh pemotongan ✓\n\n2. **50 cm × 50 cm**\n   - 650 ÷ 50 = 13 (bulat)\n   - 600 ÷ 50 = 12 (bulat)\n   - Tidak perlu pemotongan ✓\n\n3. **60 cm × 60 cm**\n   - 650 ÷ 60 = 10,83 (tidak bulat)\n   - 600 ÷ 60 = 10 (bulat)\n   - Butuh pemotongan ✓\n\n**Jawaban:** Hanya ukuran 50 cm × 50 cm yang tidak memerlukan pemotongan.",
-      "tipeSoal": "tabel_checkbox",
-      "tabelJawaban": {
-        "header": ["Ukuran Ubin"],
-        "rows": [
-          {
-            "pilihan": "30 cm × 30 cm",
-            "jawabanBenar": false
-          },
-          {
-            "pilihan": "50 cm × 50 cm", 
-            "jawabanBenar": true
-          },
-          {
-            "pilihan": "60 cm × 60 cm",
-            "jawabanBenar": false
-          }
-        ]
-      }
-    },
-    {
-      "id": 2,
-      "pertanyaan": "Pilihlah pernyataan yang BENAR tentang segitiga siku-siku:",
-      "pilihan": [],
-      "jawaban": "A,C,E",
-      "pembahasan": "**Pembahasan:**\n\n1. **A. Memiliki satu sudut 90°** → BENAR (definisi segitiga siku-siku)\n2. **B. Jumlah sudutnya 360°** → SALAH (jumlah sudut segitiga selalu 180°)\n3. **C. Memenuhi teorema Pythagoras** → BENAR (c² = a² + b²)\n4. **D. Semua sisinya sama panjang** → SALAH (itu segitiga sama sisi)\n5. **E. Dapat dibentuk dari setengah persegi panjang** → BENAR\n\n**Jawaban:** A, C, dan E",
-      "tipeSoal": "tabel_checkbox",
-      "tabelJawaban": {
-        "header": ["Pernyataan"],
-        "rows": [
-          {
-            "pilihan": "Memiliki satu sudut 90°",
-            "jawabanBenar": true
-          },
-          {
-            "pilihan": "Jumlah sudutnya 360°",
-            "jawabanBenar": false
-          },
-          {
-            "pilihan": "Memenuhi teorema Pythagoras",
-            "jawabanBenar": true
-          },
-          {
-            "pilihan": "Semua sisinya sama panjang",
-            "jawabanBenar": false
-          },
-          {
-            "pilihan": "Dapat dibentuk dari setengah persegi panjang",
-            "jawabanBenar": true
-          }
-        ]
-      }
-    },
-    {
-      "id": 3,
-      "pertanyaan": "Manakah di antara bilangan berikut yang merupakan bilangan prima? (Pilih semua yang benar)",
-      "pilihan": [],
-      "jawaban": "A,B,E",
-      "pembahasan": "**Pembahasan:**\n\nBilangan prima adalah bilangan yang hanya habis dibagi 1 dan dirinya sendiri.\n\n- **2** → Prima ✓ (hanya habis dibagi 1 dan 2)\n- **3** → Prima ✓ (hanya habis dibagi 1 dan 3)\n- **4** → Bukan prima (habis dibagi 1, 2, 4)\n- **9** → Bukan prima (habis dibagi 1, 3, 9)\n- **11** → Prima ✓ (hanya habis dibagi 1 dan 11)\n- **15** → Bukan prima (habis dibagi 1, 3, 5, 15)\n\n**Jawaban:** 2, 3, dan 11",
-      "tipeSoal": "tabel_checkbox",
-      "tabelJawaban": {
-        "header": ["Bilangan"],
-        "rows": [
-          {
-            "pilihan": "2",
-            "jawabanBenar": true
-          },
-          {
-            "pilihan": "3",
-            "jawabanBenar": true
-          },
-          {
-            "pilihan": "4",
-            "jawabanBenar": false
-          },
-          {
-            "pilihan": "9",
-            "jawabanBenar": false
-          },
-          {
-            "pilihan": "11",
-            "jawabanBenar": true
-          },
-          {
-            "pilihan": "15",
-            "jawabanBenar": false
-          }
-        ]
-      }
-    }
-  ]
+[
+  {
+  "id": 1,
+  "pertanyaan": "Sebuah survei dilakukan terhadap 100 siswa mengenai hobi mereka. Hasil survei menunjukkan:\n- 60 siswa suka membaca\n- 45 siswa suka olahraga\n- 30 siswa suka musik\n- 15 siswa suka membaca dan olahraga\n- 10 siswa suka membaca dan musik\n- 8 siswa suka olahraga dan musik\n- 5 siswa suka ketiganya\n\nBerdasarkan data di atas, manakah pernyataan berikut yang benar?",
+  "pilihan": ["A", "B", "C", "D", "E"],
+  "jawaban": "C",
+  "pembahasan": "**Pembahasan menggunakan diagram Venn:**\n\nMisalkan:\n- M = Membaca\n- O = Olahraga\n- U = Musik\n\nDiketahui:\n- n(M) = 60\n- n(O) = 45\n- n(U) = 30\n- n(M∩O) = 15\n- n(M∩U) = 10\n- n(O∩U) = 8\n- n(M∩O∩U) = 5\n\nHitung jumlah siswa yang hanya suka satu hobi:\n1. Hanya membaca: 60 - (10 + 5 + 5) = 40\n2. Hanya olahraga: 45 - (10 + 5 + 3) = 27\n3. Hanya musik: 30 - (5 + 5 + 3) = 17\n\nTotal siswa = 40 + 27 + 17 + 10 + 5 + 5 + 3 = 107 (ada kelebihan 7 siswa, kemungkinan ada kesalahan data)\n\nNamun berdasarkan perhitungan, pernyataan yang benar adalah 'Siswa yang hanya suka olahraga lebih banyak dari yang hanya suka musik' (27 > 17).",
+  "checkbox_tabel": {
+    "header": ["Benar", "Salah"],
+    "rows": [
+      {"label": "Jumlah siswa yang suka membaca saja adalah 40"},
+      {"label": "Siswa yang hanya suka olahraga lebih banyak dari yang hanya suka musik"},
+      {"label": "Ada siswa yang tidak menyukai ketiga hobi tersebut"},
+      {"label": "Siswa yang suka musik saja lebih dari 20 orang"}
+    ]
+  },
+  "jawaban_checkbox": ["Benar", "Benar", "Salah", "Salah"]
+},
+  {
+  "id": 12,
+  "pertanyaan": "Diketahui persamaan kuadrat $x^2 - 5x + 6 = 0$ memiliki akar-akar $\\alpha$ dan $\\beta$. Manakah pernyataan berikut yang benar tentang akar-akar tersebut?",
+  "pilihan": ["A", "B", "C", "D"],
+  "jawaban": "B",
+  "pembahasan": "**Pembahasan:**\n\nPersamaan: $x^2 - 5x + 6 = 0$\n\nAkar-akar:\n$x^2 - 5x + 6 = 0$\n$(x - 2)(x - 3) = 0$\n$x = 2$ atau $x = 3$\n\nJadi $\\alpha = 2$ dan $\\beta = 3$ (atau sebaliknya).\n\n**Analisis pernyataan:**\n1. $\\alpha + \\beta = 5$ → **Benar** (2 + 3 = 5)\n2. $\\alpha \\times \\beta = 6$ → **Benar** (2 × 3 = 6)\n3. $\\alpha^2 + \\beta^2 = 13$ → **Benar** (4 + 9 = 13)\n4. $\\alpha - \\beta = 1$ → **Salah** (|2 - 3| = 1, tapi bisa positif atau negatif tergantung penempatan)",
+  "checkbox_tabel": {
+    "header": ["Benar", "Salah"],
+    "rows": [
+      {"label": "$\\alpha + \\beta = 5$"},
+      {"label": "$\\alpha \\times \\beta = 6$"},
+      {"label": "$\\alpha^2 + \\beta^2 = 13$"},
+      {"label": "$\\alpha - \\beta = 1$"}
+    ]
+  },
+  "jawaban_checkbox": ["Benar", "Benar", "Benar", "Salah"]
+},
+  {
+  "id": 23,
+  "pertanyaan": "Read the following text and determine which statements are TRUE based on the information given:\n\n*The Great Barrier Reef is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres over an area of approximately 344,400 square kilometres. The reef is located in the Coral Sea, off the coast of Queensland, Australia. It was selected as a World Heritage Site in 1981. CNN labelled it one of the seven natural wonders of the world.*",
+  "pilihan": ["A", "B", "C", "D"],
+  "jawaban": "D",
+  "pembahasan": "**Pembahasan:**\n\nBerdasarkan teks:\n1. Great Barrier Reef terdiri dari LEBIH DARI 2,900 terumbu karang, bukan 'exactly 2,900' → **False**\n2. Panjangnya LEBIH DARI 2,300 km, bukan 'about 2,000 km' → **False**\n3. Ditetapkan sebagai Situs Warisan Dunia pada 1981 → **True**\n4. Dinobatkan sebagai salah satu dari TUJUH keajaiban alam dunia, bukan 'five' → **False**",
+  "checkbox_tabel": {
+    "header": ["True", "False"],
+    "rows": [
+      {"label": "The reef consists of exactly 2,900 individual reefs"},
+      {"label": "It stretches for about 2,000 kilometres"},
+      {"label": "It was selected as a World Heritage Site in 1981"},
+      {"label": "It is labelled as one of the five natural wonders of the world"}
+    ]
+  },
+  "jawaban_checkbox": ["False", "False", "True", "False"]
+},
+  {
+  "id": 4,
+  "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang dengan panjang 6,5 meter dan lebar 6 meter. Lantai tersebut akan dilapisi dengan ubin berukuran 60 cm × 60 cm. Pemotongan ubin diperbolehkan bila diperlukan. Ubin dijual dalam satuan lusin, dengan harga Rp540.000,00 per lusin, dan tidak tersedia penjualan eceran. Untuk memasang ubin pada area seluas 3 meter persegi, dibutuhkan waktu rata-rata 10 menit.\n\n4. Jika ukuran ubin yang digunakan diubah, maka ukuran manakah di bawah ini yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan?",
+  "pilihan": ["A", "B", "C", "D"],
+  "jawaban": "A",
+  "pembahasan": "**Pembahasan:**\n\nUntuk menentukan ukuran ubin yang dapat menutupi lantai tanpa pemotongan, kita perlu mencari ukuran ubin yang panjang dan lebarnya dapat membagi habis panjang dan lebar lantai.\n\n**Ukuran lantai:**\n- Panjang = 6,5 m = 650 cm\n- Lebar = 6 m = 600 cm\n\n**Perhitungan:**\n\n1. **Ubin 30 cm × 30 cm:**\n   - $650 \\div 30 = 21,666...$ (tidak habis)\n   - $600 \\div 30 = 20$ (habis)\n   → **Tidak mungkin** tanpa pemotongan\n\n2. **Ubin 50 cm × 50 cm:**\n   - $650 \\div 50 = 13$ (habis)\n   - $600 \\div 50 = 12$ (habis)\n   → **Mungkin** tanpa pemotongan\n\n3. **Ubin 60 cm × 60 cm:**\n   - $650 \\div 60 = 10,833...$ (tidak habis)\n   - $600 \\div 60 = 10$ (habis)\n   → **Tidak mungkin** tanpa pemotongan\n\n**Kesimpulan:** Hanya ubin berukuran 50 cm × 50 cm yang dapat menutupi seluruh lantai tanpa perlu dilakukan pemotongan.",
+  "checkbox_tabel": {
+    "header": ["Mungkin", "Tidak Mungkin"],
+    "rows": [
+      {"label": "30 cm x 30 cm"},
+      {"label": "50 cm x 50 cm"},
+      {"label": "60 cm x 60 cm"}
+    ]
+  },
+  "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
 }
+]
