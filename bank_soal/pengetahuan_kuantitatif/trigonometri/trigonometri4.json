@@ -98,5 +98,20 @@
   ],
   "jawaban": "E",
   "pembahasan": "1. Kuadratkan kedua persamaan:\n   $(\\sin a - \\sin b)^2 = \\frac{9}{25} \\rightarrow \\sin^2 a + \\sin^2 b - 2\\sin a \\sin b = \\frac{9}{25}$\n   $(\\cos a + \\cos b)^2 = \\frac{16}{25} \\rightarrow \\cos^2 a + \\cos^2 b + 2\\cos a \\cos b = \\frac{16}{25}$\n\n 2. Jumlahkan hasil kuadrat tersebut:\n   $1 + 1 + 2(\\cos a \\cos b - \\sin a \\sin b) = 1$\n   $2 + 2\\cos(a+b) = 1 \\rightarrow \\cos(a+b) = -\\frac{1}{2}$\n\n 3. Gunakan identitas $\\sin^2(a+b) = 1 - \\cos^2(a+b)$:\n   $\\sin^2(a+b) = 1 - (-\\frac{1}{2})^2 = 1 - \\frac{1}{4} = \\frac{3}{4}$\n   $\\sin(a+b) = \\frac{1}{2}\\sqrt{3}$."
+},
+  {
+  "id": 8,
+  "kategori": "Sangat Sulit",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/20260130_095500.jpg",
+  "pertanyaan": "Nilai dari $\\sec 40^\\circ + \\sec 80^\\circ + \\sec 160^\\circ = \\dots$",
+  "pilihan": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10"
+  ],
+  "jawaban": "C",
+  "pembahasan": "1. Ubah ke bentuk cosinus: $\\frac{1}{\\cos 40^\\circ} + \\frac{1}{\\cos 80^\\circ} + \\frac{1}{\\cos 160^\\circ}$.\n2. Gunakan relasi $\\cos 160^\\circ = -\\cos 20^\\circ$.\n3. Samakan penyebut dan gunakan identitas jumlah serta perkalian cosinus.\n4. Pembilang akan menyisakan $\\frac{3}{4}$ setelah penyederhanaan identitas sudut rangkap.\n5. Penyebut $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ = \\frac{1}{8}$.\n6. Hasil akhir: $\\frac{3/4}{1/8} = 6$."
 }
 ]
