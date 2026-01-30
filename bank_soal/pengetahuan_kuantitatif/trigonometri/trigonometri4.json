@@ -83,5 +83,20 @@
   ],
   "jawaban": "D",
   "pembahasan": "Menggunakan rumus jumlah sinus: $\\sin 2a + \\sin 2b = 2 \\sin(a+b) \\cos(a-b) = \\frac{9}{10}$.\nSubstitusi $\\cos(a-b)$ dari persamaan pertama:\n$2 \\sin(a+b) \\cdot \\frac{4}{5} \\sin(a+b) = \\frac{9}{10}$\n$\\frac{8}{5} \\sin^2(a+b) = \\frac{9}{10}$\n$\\sin^2(a+b) = \\frac{9}{16}$\n$\\sin(a+b) = \\frac{3}{4}$."
+},
+  {
+  "id": 7,
+  "kategori": "Sulit",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/20260130_094500.jpg",
+  "pertanyaan": "Diketahui $0 \\leq a \\leq \\frac{\pi}{2}$ dan $0 \\leq b \\leq \\frac{\pi}{2}$. Jika $\\sin a - \\sin b = \\frac{3}{5}$ dan $\\cos a + \\cos b = \\frac{4}{5}$, maka $\\sin(a + b) = \\dots$",
+  "pilihan": [
+    "3/2",
+    "5/4",
+    "1",
+    "1/5",
+    "1/2 \\sqrt{3}"
+  ],
+  "jawaban": "E",
+  "pembahasan": "1. Kuadratkan kedua persamaan:\n   $(\\sin a - \\sin b)^2 = 9/25 \\rightarrow \\sin^2 a + \\sin^2 b - 2\\sin a \\sin b = 9/25$\n   $(\\cos a + \\cos b)^2 = 16/25 \\rightarrow \\cos^2 a + \\cos^2 b + 2\\cos a \\cos b = 16/25$\n2. Jumlahkan hasil kuadrat tersebut:\n   $1 + 1 + 2(\\cos a \\cos b - \\sin a \\sin b) = 1$\n   $2 + 2\\cos(a+b) = 1 \\rightarrow \\cos(a+b) = -1/2$\n3. Gunakan identitas $\\sin^2(a+b) = 1 - \\cos^2(a+b)$:\n   $\\sin^2(a+b) = 1 - (-1/2)^2 = 1 - 1/4 = 3/4$\n   $\\sin(a+b) = \\frac{1}{2}\\sqrt{3}$."
 }
 ]
