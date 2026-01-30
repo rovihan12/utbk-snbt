@@ -71,7 +71,7 @@
   "pembahasan": "Menggunakan identitas $\\sin^2 x + \\cos^2 x = 1$ dan relasi sudut komplemen $\\sin(90^\\circ - x) = \\cos x$.\n\n1. Pasangkan suku-suku yang berjumlah $90^\\circ$ (kecuali $45^\\circ$ dan $90^\\circ$):\n$(\\sin^2 1^\\circ + \\sin^2 89^\\circ) = (\\sin^2 1^\\circ + \\cos^2 1^\\circ) = 1$\n$(\\sin^2 2^\\circ + \\sin^2 88^\\circ) = 1$\n...\n$(\\sin^2 44^\\circ + \\sin^2 46^\\circ) = 1$\n\n2. Hitung jumlah total:\n- Ada 44 pasangan yang bernilai 1 = $44 \\times 1 = 44$\n- Suku tengah $\\sin^2 45^\\circ = (\\frac{1}{2}\\sqrt{2})^2 = 0,5$\n- Suku terakhir $\\sin^2 90^\\circ = 1^2 = 1$\n\nTotal = $44 + 0,5 + 1 = 45,5$"
 },
  {
-  "id": 9,
+  "id": 6,
   "kategori": "Sulit",
   "pertanyaan": "Diketahui sistem persamaan:\n$\\cos(a-b) = \\frac{4}{5} \\sin(a+b)$\n$\\sin 2a + \\sin 2b = \\frac{9}{10}$\nNilai dari $\\sin(a+b) = \\dots$",
   "pilihan": [
