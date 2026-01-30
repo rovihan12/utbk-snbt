@@ -55,5 +55,20 @@
   ],
   "jawaban": "C",
   "pembahasan": "Diketahui $\\sin C = \\frac{depan}{miring} = \\frac{AB}{AC} = \\frac{2}{7}$.\nMisal $AB = 2$ dan $AC = 7$.\n\nMencari panjang sisi $BC$ (samping sudut $C$):\n$BC = \\sqrt{7^2 - 2^2} = \\sqrt{49 - 4} = \\sqrt{45} = 3\\sqrt{5}$.\n\nEvaluasi pernyataan:\n(1) $\\sin A = \\frac{BC}{AC} = \\frac{3\\sqrt{5}}{7}$ (Salah)\n(2) $\\cos A = \\frac{AB}{AC} = \\frac{2}{7}$ (Benar)\n(3) $\\tan C = \\frac{AB}{BC} = \\frac{2}{3\\sqrt{5}} = \\frac{2\\sqrt{5}}{15}$ (Salah)\n(4) $\\cos C = \\frac{BC}{AC} = \\frac{3\\sqrt{5}}{7}$ (Benar)\n\nJadi, pernyataan yang benar adalah (2) dan (4)."
+},
+  {
+  "id": 5,
+  "kategori": "Sulit",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/20260130_092600.jpg",
+  "pertanyaan": "Nilai dari $\\sin^2 1^\\circ + \\sin^2 2^\\circ + \\sin^2 3^\\circ + \\dots + \\sin^2 90^\\circ$ adalah ...",
+  "pilihan": [
+    "44",
+    "44,5",
+    "45",
+    "45,5",
+    "46"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Menggunakan identitas $\\sin^2 x + \\cos^2 x = 1$ dan relasi sudut komplemen $\\sin(90^\\circ - x) = \\cos x$.\n\n1. Pasangkan suku-suku yang berjumlah $90^\\circ$ (kecuali $45^\\circ$ dan $90^\\circ$):\n$(\\sin^2 1^\\circ + \\sin^2 89^\\circ) = (\\sin^2 1^\\circ + \\cos^2 1^\\circ) = 1$\n$(\\sin^2 2^\\circ + \\sin^2 88^\\circ) = 1$\n...\n$(\\sin^2 44^\\circ + \\sin^2 46^\\circ) = 1$\n\n2. Hitung jumlah total:\n- Ada 44 pasangan yang bernilai 1 = $44 \\times 1 = 44$\n- Suku tengah $\\sin^2 45^\\circ = (\\frac{1}{2}\\sqrt{2})^2 = 0,5$\n- Suku terakhir $\\sin^2 90^\\circ = 1^2 = 1$\n\nTotal = $44 + 0,5 + 1 = 45,5$"
 }
 ]
