@@ -113,5 +113,19 @@
   ],
   "jawaban": "C",
   "pembahasan": "1. Ubah ke bentuk cosinus: $\\frac{1}{\\cos 40^\\circ} + \\frac{1}{\\cos 80^\\circ} + \\frac{1}{\\cos 160^\\circ}$.\n2. Gunakan relasi $\\cos 160^\\circ = -\\cos 20^\\circ$.\n3. Samakan penyebut dan gunakan identitas jumlah serta perkalian cosinus.\n4. Pembilang akan menyisakan $\\frac{3}{4}$ setelah penyederhanaan identitas sudut rangkap.\n5. Penyebut $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ = \\frac{1}{8}$.\n6. Hasil akhir: $\\frac{3/4}{1/8} = 6$."
+},
+  {
+  "id": 9,
+  "kategori": "Sulit",
+  "pertanyaan": "Diketahui persamaan $\\sec \\theta \\left( \\sec \\theta(\\sin \\theta)^2 + \\frac{2}{3}\\sqrt{3} \\sin \\theta \\right) = 1$. Jika $\\theta_1$ dan $\\theta_2$ adalah solusi dari persamaan tersebut, maka $\\tan \\theta_1 \\cdot \\tan \\theta_2 = \\dots$",
+  "pilihan": [
+    "-1",
+    "-0,5",
+    "0",
+    "0,5",
+    "1"
+  ],
+  "jawaban": "A",
+  "pembahasan": "1. Distribusikan $\\sec \\theta$: $\\sec^2 \\theta \\sin^2 \\theta + \\frac{2}{3}\\sqrt{3} \\sec \\theta \\sin \\theta = 1$.\n2. Gunakan identitas $\\sec \\theta \\sin \\theta = \\tan \\theta$, sehingga persamaan menjadi: $\\tan^2 \\theta + \\frac{2}{3}\\sqrt{3} \\tan \\theta - 1 = 0$.\n3. Misalkan $x = \\tan \\theta$, maka persamaan kuadratnya adalah $x^2 + \\frac{2}{3}\\sqrt{3} x - 1 = 0$.\n4. Berdasarkan Teorema Vieta, hasil kali akar-akar $x_1 \\cdot x_2 = \\frac{c}{a} = \\frac{-1}{1} = -1$.\n5. Jadi, $\\tan \\theta_1 \\cdot \\tan \\theta_2 = -1$."
 }
 ]
