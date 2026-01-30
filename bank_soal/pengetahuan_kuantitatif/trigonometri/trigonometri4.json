@@ -40,5 +40,20 @@
   ],
   "jawaban": "C",
   "pembahasan": "Diketahui $\\sin(\\beta) = \\frac{6}{7}$ pada Kuadran I ($0^\\circ < \\beta < 90^\\circ$).\nIdentifikasi sisi segitiga siku-siku:\n- Sisi depan (de) = 6\n- Sisi miring (mi) = 7\n- Sisi samping (sa) = $\\sqrt{7^2 - 6^2} = \\sqrt{49 - 36} = \\sqrt{13}$\n\n**Analisis Pernyataan:**\n\n1. **Pernyataan (1):** $\\tan(\\beta) = \\frac{de}{sa} = \\frac{6}{\\sqrt{13}}$. Di soal tertulis $\\frac{7}{\\sqrt{13}}$, maka pernyataan (1) **SALAH**.\n\n2. **Pernyataan (2):** Menggunakan identitas sudut berelasi, $\\cos(90^\\circ - \\beta) = \\sin(\\beta)$. Karena $\\sin(\\beta) = \\frac{6}{7}$, maka pernyataan (2) **BENAR**.\n\n3. **Pernyataan (3):** $\\frac{1}{\\cos(\\beta)}$ adalah $\\sec(\\beta) = \\frac{mi}{sa} = \\frac{7}{\\sqrt{13}}$. Di soal tertulis $\\frac{6}{\\sqrt{13}}$, maka pernyataan (3) **SALAH**.\n\n4. **Pernyataan (4):** $\\sin(\\beta) = \\frac{6}{7}$ dan $\\cos(\\beta) = \\frac{\\sqrt{13}}{7}$. Karena $6 > \\sqrt{13}$ (dimana $\\sqrt{13} \\approx 3,6$), maka $\\frac{6}{7} > \\frac{\\sqrt{13}}{7}$ adalah **BENAR**.\n\nKarena pernyataan (2) dan (4) benar, pilihan yang tepat adalah C."
+},
+  {
+  "id": 4,
+  "kategori": "Sedang",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/segitigasikusiku.png",
+  "pertanyaan": "Perhatikan segitiga ABC siku-siku di B. Jika $\\sin C = \\frac{2}{7}$, manakah dari keempat pernyataan berikut yang bernilai benar?\n(1) $\\sin A = \\frac{7}{15}\\sqrt{15}$\n(2) $\\cos A = \\frac{2}{7}$\n(3) $\\tan C = \\frac{7}{15}\\sqrt{5}$\n(4) $\\cos C = \\frac{3}{7}\\sqrt{5}$",
+  "pilihan": [
+    "(1), (2) dan (3)",
+    "(1) dan (3)",
+    "(2) dan (4)",
+    "(4)",
+    "(1), (2), (3), dan (4)"
+  ],
+  "jawaban": "C",
+  "pembahasan": "Diketahui $\\sin C = \\frac{depan}{miring} = \\frac{AB}{AC} = \\frac{2}{7}$.\nMisal $AB = 2$ dan $AC = 7$.\n\nMencari panjang sisi $BC$ (samping sudut $C$):\n$BC = \\sqrt{7^2 - 2^2} = \\sqrt{49 - 4} = \\sqrt{45} = 3\\sqrt{5}$.\n\nEvaluasi pernyataan:\n(1) $\\sin A = \\frac{BC}{AC} = \\frac{3\\sqrt{5}}{7}$ (Salah)\n(2) $\\cos A = \\frac{AB}{AC} = \\frac{2}{7}$ (Benar)\n(3) $\\tan C = \\frac{AB}{BC} = \\frac{2}{3\\sqrt{5}} = \\frac{2\\sqrt{5}}{15}$ (Salah)\n(4) $\\cos C = \\frac{BC}{AC} = \\frac{3\\sqrt{5}}{7}$ (Benar)\n\nJadi, pernyataan yang benar adalah (2) dan (4)."
 }
 ]
