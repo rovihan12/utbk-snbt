@@ -127,5 +127,20 @@
   ],
   "jawaban": "A",
   "pembahasan": "1. Distribusikan $\\sec \\theta$: $\\sec^2 \\theta \\sin^2 \\theta + \\frac{2}{3}\\sqrt{3} \\sec \\theta \\sin \\theta = 1$.\n2. Gunakan identitas $\\sec \\theta \\sin \\theta = \\tan \\theta$, sehingga persamaan menjadi: $\\tan^2 \\theta + \\frac{2}{3}\\sqrt{3} \\tan \\theta - 1 = 0$.\n3. Misalkan $x = \\tan \\theta$, maka persamaan kuadratnya adalah $x^2 + \\frac{2}{3}\\sqrt{3} x - 1 = 0$.\n4. Berdasarkan Teorema Vieta, hasil kali akar-akar $x_1 \\cdot x_2 = \\frac{c}{a} = \\frac{-1}{1} = -1$.\n5. Jadi, $\\tan \\theta_1 \\cdot \\tan \\theta_2 = -1$."
+},
+  {
+  "id": 10,
+  "kategori": "Sulit",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/20260130_100500.jpg",
+  "pertanyaan": "Jika $\\frac{\\cos \\alpha}{1 - \\sin \\alpha} = a$, untuk $\\alpha \\neq \\frac{\\pi}{2} + 2k\\pi$, maka $\\tan \\frac{\\alpha}{2} = \\dots$",
+  "pilihan": [
+    "$\\frac{a}{a+1}$",
+    "$\\frac{1}{a+1}$",
+    "$\\frac{a-1}{a+1}$",
+    "$\\frac{a+1}{a-1}$",
+    "$\\frac{a}{a-1}$"
+  ],
+  "jawaban": "C",
+  "pembahasan": "1. Gunakan identitas sudut setengah: $\\cos \\alpha = \\cos^2 \\frac{\\alpha}{2} - \\sin^2 \\frac{\\alpha}{2}$ dan $1 - \\sin \\alpha = (\\cos \\frac{\\alpha}{2} - \\sin \\frac{\\alpha}{2})^2$.\n2. Persamaan menjadi $\\frac{\\cos \\frac{\\alpha}{2} + \\sin \\frac{\\alpha}{2}}{\\cos \\frac{\\alpha}{2} - \\sin \\frac{\\alpha}{2}} = a$.\n3. Bagi pembilang dan penyebut dengan $\\cos \\frac{\\alpha}{2}$ didapat $\\frac{1 + \\tan \\frac{\\alpha}{2}}{1 - \\tan \\frac{\\alpha}{2}} = a$.\n4. Dengan aljabar, diperoleh $\\tan \\frac{\\alpha}{2} = \\frac{a-1}{a+1}$."
 }
 ]
