@@ -69,5 +69,20 @@
   ],
   "jawaban": "D",
   "pembahasan": "Menggunakan identitas $\\sin^2 x + \\cos^2 x = 1$ dan relasi sudut komplemen $\\sin(90^\\circ - x) = \\cos x$.\n\n1. Pasangkan suku-suku yang berjumlah $90^\\circ$ (kecuali $45^\\circ$ dan $90^\\circ$):\n$(\\sin^2 1^\\circ + \\sin^2 89^\\circ) = (\\sin^2 1^\\circ + \\cos^2 1^\\circ) = 1$\n$(\\sin^2 2^\\circ + \\sin^2 88^\\circ) = 1$\n...\n$(\\sin^2 44^\\circ + \\sin^2 46^\\circ) = 1$\n\n2. Hitung jumlah total:\n- Ada 44 pasangan yang bernilai 1 = $44 \\times 1 = 44$\n- Suku tengah $\\sin^2 45^\\circ = (\\frac{1}{2}\\sqrt{2})^2 = 0,5$\n- Suku terakhir $\\sin^2 90^\\circ = 1^2 = 1$\n\nTotal = $44 + 0,5 + 1 = 45,5$"
+},
+  {
+  "id": 6,
+  "kategori": "Sulit",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/20260130_093200.jpg",
+  "pertanyaan": "Jika $81^{\\sin^2 x} + 81^{\\cos^2 x} = 30$, maka nilai $x$ yang memenuhi untuk $0^\\circ \\leq x \\leq 90^\\circ$ adalah ...",
+  "pilihan": [
+    "15^\\circ dan 75^\\circ",
+    "30^\\circ dan 60^\\circ",
+    "45^\\circ dan 60^\\circ",
+    "30^\\circ dan 45^\\circ",
+    "0^\\circ dan 90^\\circ"
+  ],
+  "jawaban": "B",
+  "pembahasan": "1. Gunakan identitas $\\cos^2 x = 1 - \\sin^2 x$.\n2. Persamaan menjadi $81^{\\sin^2 x} + \\frac{81}{81^{\\sin^2 x}} = 30$.\n3. Misal $p = 81^{\\sin^2 x}$, maka $p^2 - 30p + 81 = 0$.\n4. Didapat $(p-27)(p-3)=0$, sehingga $p=27$ atau $p=3$.\n5. Jika $81^{\\sin^2 x} = 3^3 \\rightarrow 4\\sin^2 x = 3 \\rightarrow \\sin x = \\frac{1}{2}\\sqrt{3} \\rightarrow x = 60^\\circ$.\n6. Jika $81^{\\sin^2 x} = 3^1 \\rightarrow 4\\sin^2 x = 1 \\rightarrow \\sin x = \\frac{1}{2} \\rightarrow x = 30^\\circ$."
 }
 ]
