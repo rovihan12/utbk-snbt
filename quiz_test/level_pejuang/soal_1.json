@@ -1,18 +1,38 @@
-[
-  {
-    "id": 1,
-    "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang...",
-    "pilihan": ["A", "B", "C", "D"],
-    "jawaban": "A",
-    "pembahasan": "Pembahasan lengkap...",
-    "checkbox_tabel": {
-      "header": ["Mungkin", "Tidak Mungkin"],
+ {
+    "id": 20,
+    "pertanyaan": "Sebuah perusahaan memiliki lima cabang (F, G, H, I, dan J) yang karyawannya mengikuti program pelatihan keterampilan. Persentase karyawan laki-laki pada Cabang F, G, dan H adalah 60% masing-masing, sedangkan persentase karyawan laki-laki pada Cabang I dan J adalah 75% masing-masing. Berdasarkan informasi pada tabel berikut, manakah kombinasi pernyataan yang BENAR?",
+    "tabel": {
+      "header": ["Cabang", "Total Karyawan"],
       "rows": [
-        {"label": "30 cm x 30 cm"},
-        {"label": "50 cm x 50 cm"},
-        {"label": "60 cm x 60 cm"}
-      ]
+        ["F", "120"],
+        ["G", "150"],
+        ["H", "90"],
+        ["I", "200"],
+        ["J", "160"]
+      ],
+      "metadata": {
+        "responsive": true,
+        "small_screen_mode": "scrollable",
+        "min_column_width": "60dp"
+      }
     },
-    "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
+    "pilihan": [
+      "I saja",
+      "II saja",
+      "III saja",
+      "I dan II",
+      "II dan III"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Informasi Penting:**\n* Cabang F, G, H: $60\\%$ laki-laki → $40\\%$ perempuan\n* Cabang I, J: $75\\%$ laki-laki → $25\\%$ perempuan\n\n**Pernyataan I: Selisih jumlah karyawan perempuan di Cabang I dan Cabang J adalah 20 orang.**\n* Perempuan I: $200 \\times 25\\% = 200 \\times \\frac{25}{100} = 50$ orang\n* Perempuan J: $160 \\times 25\\% = 160 \\times \\frac{25}{100} = 40$ orang\n* Selisih: $|50 - 40| = 10$ orang\n* **Kesimpulan: SALAH** (bukan 20 orang)\n\n**Pernyataan II: Rasio jumlah karyawan laki-laki dari Cabang F dan Cabang G adalah 4:5.**\n* Laki-laki F: $120 \\times 60\\% = 120 \\times \\frac{60}{100} = 72$ orang\n* Laki-laki G: $150 \\times 60\\% = 150 \\times \\frac{60}{100} = 90$ orang\n* Rasio: $72 : 90$\n* Sederhanakan (bagi 18): $\\frac{72}{18} : \\frac{90}{18} = 4 : 5$\n* **Kesimpulan: BENAR**\n\n**Pernyataan III: Rata-rata jumlah karyawan perempuan pada Cabang H, Cabang I, dan Cabang J adalah 45 orang.**\n* Perempuan H: $90 \\times 40\\% = 90 \\times \\frac{40}{100} = 36$ orang\n* Perempuan I: 50 orang\n* Perempuan J: 40 orang\n* Rata-rata: $\\frac{36 + 50 + 40}{3} = \\frac{126}{3} = 42$ orang\n* **Kesimpulan: SALAH** (bukan 45 orang)\n\n**Jawaban:** Hanya pernyataan II yang benar → **II saja**",
+    "tabel_pembahasan": {
+      "header": ["Cabang", "Total", "Laki-laki", "Perempuan", "Keterangan"],
+      "rows": [
+        ["F", "120", "72", "48", "60% laki-laki"],
+        ["G", "150", "90", "60", "60% laki-laki"],
+        ["H", "90", "54", "36", "60% laki-laki"],
+        ["I", "200", "150", "50", "75% laki-laki"],
+        ["J", "160", "120", "40", "75% laki-laki"]
+      ]
+    }
   }
-]
