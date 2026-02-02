@@ -1,5 +1,5 @@
 [
-  {
+{
     "id": 1,
     "pertanyaan": "Observasi 1: Setiap kali harga bensin naik, harga kebutuhan pokok cenderung ikut naik.\nObservasi 2: Bulan lalu harga bensin naik, dan harga beras serta minyak goreng juga naik.\n\nKesimpulan induktif yang paling tepat adalah...",
     "pilihan": [
@@ -12,31 +12,56 @@
     "jawaban": "C",
     "pembahasan": "Penalaran induktif menunjukkan hubungan probabilitas. Karena ada korelasi yang teramati berulang kali, kesimpulan yang paling tepat adalah 'dapat memicu'. Opsi A salah karena menggunakan kata 'selalu' (absolut)."
   },
-  {
+{
     "id": 2,
     "pertanyaan": "Pola deret angka: 2, 6, 12, 20, 30, ...\nAngka selanjutnya dalam deret tersebut adalah?",
     "pilihan": ["38", "40", "42", "44", "46"],
     "jawaban": "C",
     "pembahasan": "Deret ini memiliki selisih yang bertambah genap secara berurutan: 2(+4)=6; 6(+6)=12; 12(+8)=20; 20(+10)=30. Maka angka berikutnya adalah 30(+12)=42."
   },
-  
-  {
+  {
+    "id": 3,
+    "pertanyaan": "Observasi 1: Hampir setiap pagi di bulan Juni, langit cerah dan tidak hujan.\nObservasi 2: Pagi ini di bulan Juni, langit cerah.\n\nKesimpulan induktif yang paling tepat tentang cuaca hari ini adalah...",
+    "pilihan": ["Hari ini pasti tidak akan hujan.", "Hari ini mungkin tidak akan hujan.", "Langit cerah menjamin tidak ada hujan.", "Bulan Juni selalu cerah.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "B",
+    "pembahasan": "Dari observasi pola umum ('hampir setiap pagi') dan kejadian spesifik, dapat disimpulkan secara induktif bahwa 'hari ini *mungkin* tidak akan hujan'. Kesimpulan ini bersifat probabilistik karena ada kemungkinan kecil pengecualian."
+  },
+{
     "id": 4,
     "pertanyaan": "Pola deret huruf: A, Z, B, Y, C, X, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
     "pilihan": ["D", "E", "W", "V", "U"],
     "jawaban": "D",
     "pembahasan": "Terdapat dua sub-deret yang selang-seling:\n1. Posisi ganjil (1, 3, 5): A, B, C (urutan maju)\n2. Posisi genap (2, 4, 6): Z, Y, X (urutan mundur)\nSuku ke-7 berada pada posisi ganjil, maka setelah C adalah D."
   },
-  
-  {
+  {
+    "id": 5,
+    "pertanyaan": "Observasi 1: Beberapa siswa yang rajin mengikuti diskusi kelas mendapatkan nilai partisipasi yang baik.\nObservasi 2: Andi rajin mengikuti diskusi kelas dan mendapatkan nilai partisipasi yang baik.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Mengikuti diskusi kelas menjamin nilai partisipasi yang baik.", "Mengikuti diskusi kelas tidak berpengaruh pada nilai partisipasi.", "Rajin mengikuti diskusi kelas dapat berkontribusi pada nilai partisipasi yang baik.", "Hanya Andi yang mendapat nilai partisipasi baik dari diskusi.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi umum ('beberapa siswa') dan contoh spesifik (Andi), disimpulkan secara induktif bahwa rajin mengikuti diskusi kelas *dapat berkontribusi* pada nilai partisipasi yang baik. Ini menunjukkan hubungan positif namun tidak mutlak."
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Pola angka dalam barisan: 1, 3, 6, 10, 15, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
+    "pilihan": ["20", "21", "22", "23", "24"],
+    "jawaban": "B",
+    "pembahasan": "Pola deret ini adalah bilangan segitiga, di mana penambahannya meningkat secara berurutan: +2 (1 ke 3), +3 (3 ke 6), +4 (6 ke 10), +5 (10 ke 15). Jadi, angka selanjutnya adalah 15 + 6 = 21."
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Observasi 1: Setiap kali saya memakai helm saat berkendara sepeda motor, saya merasa lebih aman.\nObservasi 2: Teman saya memakai helm dan dia merasa lebih aman saat berkendara motor.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Helm selalu membuat pengendara motor merasa aman.", "Helm tidak berpengaruh pada keamanan berkendara motor.", "Menggunakan helm saat berkendara sepeda motor dapat meningkatkan rasa aman.", "Hanya saya dan teman saya yang merasa aman dengan helm.", "Tidak ada hubungan antara helm dan rasa aman."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi berulang, dapat disimpulkan secara induktif bahwa 'menggunakan helm saat berkendara sepeda motor *dapat* meningkatkan rasa aman'. Ini adalah generalisasi berdasarkan pengalaman."
+  },
+{
     "id": 6,
     "pertanyaan": "Pola angka dalam barisan: 1, 3, 6, 10, 15, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
     "pilihan": ["20", "21", "22", "23", "24"],
     "jawaban": "B",
     "pembahasan": "Ini adalah barisan bilangan segitiga. Pola penambahannya adalah: +2, +3, +4, +5. Maka berikutnya: 15 + 6 = 21."
   },
-  
-  {
+{
     "id": 9,
     "pertanyaan": "Observasi 1: Uji coba vaksin X pada sukarelawan menunjukkan pembentukan antibodi yang tinggi.\nObservasi 2: Uji coba vaksin X pada kelompok usia berbeda juga menunjukkan pembentukan antibodi yang tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
     "pilihan": [
@@ -49,7 +74,7 @@
     "jawaban": "C",
     "pembahasan": "Berdasarkan data uji coba yang konsisten di berbagai kelompok, ditarik kesimpulan umum mengenai 'kecenderungan' (probabilitas tinggi). Kata 'cenderung' sangat tepat untuk hasil induksi ilmiah."
   },
-  {
+{
     "id": 10,
     "pertanyaan": "Pola barisan: Senin, Rabu, Jumat, Minggu, ...\nHari selanjutnya dalam pola tersebut adalah?",
     "pilihan": ["Senin", "Selasa", "Kamis", "Sabtu", "Rabu"],
