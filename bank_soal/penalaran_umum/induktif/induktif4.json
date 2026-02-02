@@ -1,24 +1,18 @@
 [
-{
-    "id": 1,
-    "pertanyaan": "Observasi 1: Setiap kali harga bensin naik, harga kebutuhan pokok cenderung ikut naik.\nObservasi 2: Bulan lalu harga bensin naik, dan harga beras serta minyak goreng juga naik.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": [
-      "Kenaikan harga bensin selalu menyebabkan kenaikan harga kebutuhan pokok.", 
-      "Harga kebutuhan pokok tidak dipengaruhi oleh harga bensin.", 
-      "Kenaikan harga bensin dapat memicu kenaikan harga kebutuhan pokok.", 
-      "Hanya beras dan minyak goreng yang terpengaruh oleh harga bensin.", 
-      "Kenaikan harga kebutuhan pokok adalah penyebab bensin naik."
-    ],
-    "jawaban": "C",
-    "pembahasan": "Penalaran induktif menunjukkan hubungan probabilitas. Karena ada korelasi yang teramati berulang kali, kesimpulan yang paling tepat adalah 'dapat memicu'. Opsi A salah karena menggunakan kata 'selalu' (absolut)."
-  },
-{
-    "id": 2,
-    "pertanyaan": "Pola deret angka: 2, 6, 12, 20, 30, ...\nAngka selanjutnya dalam deret tersebut adalah?",
-    "pilihan": ["38", "40", "42", "44", "46"],
-    "jawaban": "C",
-    "pembahasan": "Deret ini memiliki selisih yang bertambah genap secara berurutan: 2(+4)=6; 6(+6)=12; 12(+8)=20; 20(+10)=30. Maka angka berikutnya adalah 30(+12)=42."
-  },
+  {
+    "id": 1,
+    "pertanyaan": "Observasi 1: Setiap kali harga bensin naik, harga kebutuhan pokok cenderung ikut naik.\nObservasi 2: Bulan lalu harga bensin naik, dan harga beras serta minyak goreng juga naik.\n\nKesimpulan induktif yang paling tepat adalah...",
+    "pilihan": ["Kenaikan harga bensin selalu menyebabkan kenaikan harga kebutuhan pokok.", "Harga kebutuhan pokok tidak dipengaruhi oleh harga bensin.", "Kenaikan harga bensin dapat memicu kenaikan harga kebutuhan pokok.", "Hanya beras dan minyak goreng yang terpengaruh oleh harga bensin.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Dari observasi yang berulang dan contoh spesifik, dapat disimpulkan secara induktif bahwa kenaikan harga bensin *dapat memicu* kenaikan harga kebutuhan pokok. Ini adalah generalisasi hubungan sebab-akibat yang bersifat probabilistik."
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Pola deret angka: 2, 6, 12, 20, 30, ...\nAngka selanjutnya dalam deret tersebut adalah?",
+    "pilihan": ["38", "40", "42", "44", "46"],
+    "jawaban": "C",
+    "pembahasan": "Pola deret ini menunjukkan penambahan yang meningkat: +4 (2 ke 6), +6 (6 ke 12), +8 (12 ke 20), +10 (20 ke 30). Jadi, angka selanjutnya adalah 30 + 12 = 42."
+  },
   {
     "id": 3,
     "pertanyaan": "Observasi 1: Hampir setiap pagi di bulan Juni, langit cerah dan tidak hujan.\nObservasi 2: Pagi ini di bulan Juni, langit cerah.\n\nKesimpulan induktif yang paling tepat tentang cuaca hari ini adalah...",
@@ -26,13 +20,13 @@
     "jawaban": "B",
     "pembahasan": "Dari observasi pola umum ('hampir setiap pagi') dan kejadian spesifik, dapat disimpulkan secara induktif bahwa 'hari ini *mungkin* tidak akan hujan'. Kesimpulan ini bersifat probabilistik karena ada kemungkinan kecil pengecualian."
   },
-{
-    "id": 4,
-    "pertanyaan": "Pola deret huruf: A, Z, B, Y, C, X, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
-    "pilihan": ["D", "E", "W", "V", "U"],
-    "jawaban": "D",
-    "pembahasan": "Terdapat dua sub-deret yang selang-seling:\n1. Posisi ganjil (1, 3, 5): A, B, C (urutan maju)\n2. Posisi genap (2, 4, 6): Z, Y, X (urutan mundur)\nSuku ke-7 berada pada posisi ganjil, maka setelah C adalah D."
-  },
+  {
+    "id": 4,
+    "pertanyaan": "Pola deret huruf: A, Z, B, Y, C, X, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
+    "pilihan": ["D", "E", "W", "V", "U"],
+    "jawaban": "D",
+    "pembahasan": "Pola deret ini terdiri dari dua sub-deret yang berjalan bersamaan: satu maju (A, B, C, ...) dan satu mundur (Z, Y, X, ...). Jadi, setelah C, huruf selanjutnya dalam sub-deret maju adalah D."
+  },
   {
     "id": 5,
     "pertanyaan": "Observasi 1: Beberapa siswa yang rajin mengikuti diskusi kelas mendapatkan nilai partisipasi yang baik.\nObservasi 2: Andi rajin mengikuti diskusi kelas dan mendapatkan nilai partisipasi yang baik.\n\nKesimpulan induktif yang paling mungkin adalah...",
@@ -54,31 +48,25 @@
     "jawaban": "C",
     "pembahasan": "Dari observasi berulang, dapat disimpulkan secara induktif bahwa 'menggunakan helm saat berkendara sepeda motor *dapat* meningkatkan rasa aman'. Ini adalah generalisasi berdasarkan pengalaman."
   },
-{
-    "id": 6,
-    "pertanyaan": "Pola angka dalam barisan: 1, 3, 6, 10, 15, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
-    "pilihan": ["20", "21", "22", "23", "24"],
-    "jawaban": "B",
-    "pembahasan": "Ini adalah barisan bilangan segitiga. Pola penambahannya adalah: +2, +3, +4, +5. Maka berikutnya: 15 + 6 = 21."
-  },
-{
-    "id": 9,
-    "pertanyaan": "Observasi 1: Uji coba vaksin X pada sukarelawan menunjukkan pembentukan antibodi yang tinggi.\nObservasi 2: Uji coba vaksin X pada kelompok usia berbeda juga menunjukkan pembentukan antibodi yang tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": [
-      "Vaksin X pasti efektif untuk semua orang.", 
-      "Vaksin X tidak efektif sama sekali.", 
-      "Vaksin X cenderung memicu respons imun yang kuat.", 
-      "Hanya sukarelawan yang akan memiliki antibodi tinggi.", 
-      "Vaksin X adalah satu-satunya cara membentuk antibodi."
-    ],
-    "jawaban": "C",
-    "pembahasan": "Berdasarkan data uji coba yang konsisten di berbagai kelompok, ditarik kesimpulan umum mengenai 'kecenderungan' (probabilitas tinggi). Kata 'cenderung' sangat tepat untuk hasil induksi ilmiah."
-  },
-{
-    "id": 10,
-    "pertanyaan": "Pola barisan: Senin, Rabu, Jumat, Minggu, ...\nHari selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Senin", "Selasa", "Kamis", "Sabtu", "Rabu"],
-    "jawaban": "B",
-    "pembahasan": "Pola melompati satu hari: Senin (+2 hari) -> Rabu (+2 hari) -> Jumat (+2 hari) -> Minggu. Setelah Minggu, lompat satu hari (lewati Senin) menjadi Selasa."
-  }
+  {
+    "id": 8,
+    "pertanyaan": "Pola simbol: *, #, @, *, #, @, ...\nSimbol selanjutnya dalam pola tersebut adalah?",
+    "pilihan": ["*", "#", "@", "$", "%"],
+    "jawaban": "A",
+    "pembahasan": "Pola simbol ini berulang setiap tiga elemen: *, #, @. Setelah '*, #, @, *, #', maka simbol selanjutnya adalah '*' untuk memulai siklus baru."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Observasi 1: Uji coba vaksin X pada sukarelawan menunjukkan pembentukan antibodi yang tinggi.\nObservasi 2: Uji coba vaksin X pada kelompok usia berbeda juga menunjukkan pembentukan antibodi yang tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pilihan": ["Vaksin X pasti efektif untuk semua orang.", "Vaksin X tidak efektif.", "Vaksin X cenderung memicu respons imun yang kuat.", "Hanya sukarelawan yang akan memiliki antibodi tinggi.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "jawaban": "C",
+    "pembahasan": "Dari beberapa observasi yang konsisten, dapat disimpulkan secara induktif bahwa 'Vaksin X *cenderung* memicu respons imun yang kuat'. Kesimpulan ini menunjukkan kecenderungan berdasarkan bukti, bukan kepastian mutlak."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Pola barisan: Senin, Rabu, Jumat, Minggu, ...\nHari selanjutnya dalam pola tersebut adalah?",
+    "pilihan": ["Senin", "Selasa", "Kamis", "Sabtu", "Rabu"],
+    "jawaban": "A",
+    "pembahasan": "Pola ini adalah hari-hari dalam seminggu dengan lompatan satu hari di antaranya: Senin (lewati Selasa) Rabu (lewati Kamis) Jumat (lewati Sabtu) Minggu (lewati Senin). Jadi, setelah Minggu, hari selanjutnya adalah Senin."
+  }
 ]
