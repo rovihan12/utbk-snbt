@@ -39,6 +39,46 @@
     "pembahasan": "Pola jumlah sisi adalah barisan bilangan ganjil mulai dari 3: (3, 5, 7, 9, ...). Suku kelima dari barisan ini adalah 11. Jadi, bentuk kelima adalah Segisebelas."
   },
   {
+    "id": 4,
+    "pertanyaan": "Seorang peneliti survei menemukan bahwa di Kota A, 90% restoran yang ramai pengunjung memiliki pelayanan yang baik. Di Kota B, 85% restoran ramai memiliki pelayanan baik. Di Kota C, 88% restoran ramai memiliki pelayanan baik.\n\nKesimpulan induktif yang dapat ditarik dari data tiga kota tersebut adalah...",
+    "pilihan": [
+      "Pelayanan yang baik adalah satu-satunya penyebab restoran ramai.",
+      "Tidak ada hubungan antara pelayanan dan jumlah pengunjung.",
+      "Di sebagian besar kota, restoran yang ramai cenderung memiliki pelayanan yang baik.",
+      "Semua restoran yang pelayanannya baik pasti akan ramai.",
+      "Pelayanan yang buruk akan membuat restoran selalu sepi."
+    ],
+    "jawaban": "C",
+    "pembahasan": "Penalaran induktif mengambil kesimpulan umum dari beberapa contoh spesifik. Data dari tiga kota yang berbeda secara konsisten menunjukkan korelasi positif antara pelayanan baik dan restoran ramai (dengan persentase tinggi). Oleh karena itu, kesimpulan yang paling masuk akal dan didukung data adalah kesimpulan yang general namun probabilitas, yaitu 'Di sebagian besar kota, restoran yang ramai cenderung memiliki pelayanan yang baik'."
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Perhatikan pola berikut: 1A3, 4D6, 7G9, 10J12, ...\n\nPasangan huruf dan angka apakah yang selanjutnya?",
+    "pilihan": [
+      "13M15",
+      "14M16",
+      "15M17",
+      "16P18",
+      "17P19"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Pola angka: 1, 4, 7, 10,... (+3 setiap langkah). Angka selanjutnya: 13 dan 15. Pola huruf: A, D, G, J,... (melompati 2 huruf: A->B->C->D, dst). J adalah huruf ke-10, lompat 2: K(11), L(12) -> M(13). Jadi, pasangan selanjutnya adalah 13M15."
+  },
+  {
+
+    "id": 6,
+    "pertanyaan": "Seorang petani mencatat hasil panennya selama 5 tahun: Tahun 1: 100 kg, Tahun 2: 150 kg, Tahun 3: 225 kg, Tahun 4: 337.5 kg, Tahun 5: 506.25 kg.\n\nJika pola ini berlanjut, berapa perkiraan hasil panen pada Tahun ke-6?",
+    "pilihan": [
+      "650.25 kg",
+      "702.75 kg",
+      "759.375 kg",
+      "800.5 kg",
+      "850.125 kg"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Pola yang terbentuk adalah dikali 1.5 setiap tahun: 100×1.5=150, 150×1.5=225, 225×1.5=337.5, 337.5×1.5=506.25. Jadi, perkiraan hasil panen tahun ke-6 adalah 506.25 × 1.5 = 759.375 kg."
+  },
+{
     "id": 7,
     "pertanyaan": "Dalam beberapa kali percobaan, seorang ilmuwan melihat bahwa setiap kali zat X dipanaskan hingga suhu 80°C, zat tersebut berubah warna menjadi biru. Percobaan ini telah dilakukan dalam 15 kondisi yang berbeda-beda dan hasilnya selalu konsisten.\n\nKesimpulan induktif yang PALING KUAT didukung oleh data tersebut adalah...",
     "pilihan": [
@@ -52,6 +92,32 @@
     "pembahasan": "Karena hasil 15 percobaan konsisten dalam kondisi berbeda, kesimpulannya menjadi sangat kuat. Namun, karena ini adalah penalaran induktif (berdasarkan pengamatan), kita menggunakan 'kemungkinan besar' untuk mencerminkan generalisasi yang kuat namun tetap berbasis probabilitas."
   },
   {
+    "id": 8,
+    "pertanyaan": "Perhatikan urutan pola gambar berikut: Kotak dengan 1 titik di tengah, Kotak dengan 4 titik membentuk persegi, Kotak dengan 9 titik membentuk persegi 3x3, Kotak dengan 16 titik membentuk persegi 4x4, ...\n\nBerdasarkan pola tersebut, berapa banyak titik pada gambar kelima?",
+    "pilihan": [
+      "20",
+      "25",
+      "30",
+      "36",
+      "49"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola jumlah titik adalah kuadrat dari urutan gambar: Gambar 1: 1² = 1, Gambar 2: 2² = 4, Gambar 3: 3² = 9, Gambar 4: 4² = 16. Jadi, gambar kelima akan memiliki 5² = 25 titik."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Seorang sosiolog mewawancarai 50 pengusaha sukses. 45 di antaranya mengatakan mereka membangun kebiasaan bangun pagi sebelum pukul 05.00. Dari 50 orang yang diwawancara dari kalangan biasa, hanya 10 yang memiliki kebiasaan bangun pagi seperti itu.\n\nKesimpulan induktif yang PALING DIDUKUNG oleh data di atas adalah...",
+    "pilihan": [
+      "Bangun pagi adalah penyebab utama kesuksesan seorang pengusaha.",
+      "Semua pengusaha sukses pasti bangun pagi.",
+      "Tidak mungkin orang yang bangun siang bisa sukses.",
+      "Kebiasaan bangun pagi memiliki korelasi dengan kesuksesan berwirausaha.",
+      "Bangun pagi tidak ada hubungannya dengan kesuksesan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Data menunjukkan perbedaan yang sangat mencolok dalam kebiasaan bangun pagi antara kelompok pengusaha sukses (90%) dan kelompok biasa (20%). Ini adalah dasar yang kuat untuk menarik kesimpulan induktif tentang adanya korelasi. Kesimpulan D adalah yang paling tepat karena menyatakan 'korelasi' (hubungan), bukan 'penyebab' (seperti opsi A) yang membutuhkan penelitian lebih lanjut untuk membuktikan sebab-akibat."
+  },
+{
     "id": 10,
     "pertanyaan": "Perhatikan pola angka berikut: 2, 3, 5, 7, 11, 13, 17, 19, ...\n\nAngka apakah yang melengkapi pola tersebut?",
     "pilihan": [
@@ -64,4 +130,5 @@
     "jawaban": "B",
     "pembahasan": "Deret ini adalah urutan bilangan prima. Bilangan prima adalah bilangan yang hanya memiliki dua faktor pembagi (1 dan dirinya sendiri). Setelah 19, bilangan prima berikutnya adalah 23."
   }
+
 ]
