@@ -28,18 +28,18 @@
     "pembahasan": "Pola deret objek ini berulang setiap tiga elemen: Lingkaran, Kotak, Segitiga. Setelah 'Lingkaran, Kotak', maka objek selanjutnya adalah 'Segitiga' untuk menyelesaikan siklus."
   },
   {
-    "id": 5,
-    "pertanyaan": "Observasi 1: Setiap kali saya membaca buku sebelum tidur, saya lebih mudah tertidur.\nObservasi 2: Adik saya juga merasakan hal yang sama ketika membaca buku sebelum tidur.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Membaca buku sebelum tidur menjamin tidur nyenyak.", "Membaca buku sebelum tidur tidak berpengaruh pada kualitas tidur.", "Membaca buku sebelum tidur dapat membantu seseorang lebih mudah tertidur.", "Hanya saya dan adik saya yang mudah tertidur setelah membaca buku.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "id": 4,
+    "pertanyaan": "Pola deret objek: Lingkaran, Kotak, Segitiga, Lingkaran, Kotak, ...\nObjek selanjutnya dalam deret tersebut adalah?",
+    "pilihan": ["Lingkaran", "Kotak", "Segitiga", "Oval", "Belah Ketupat"],
     "jawaban": "C",
-    "pembahasan": "Dari observasi pribadi dan pengalaman adik yang konsisten, dapat disimpulkan secara induktif bahwa membaca buku sebelum tidur *dapat membantu* seseorang lebih mudah tertidur. Ini adalah generalisasi tentang efek suatu aktivitas."
+    "pembahasan": "Pola ini merupakan siklus tiga bentuk geometris: (1) Lingkaran, (2) Kotak, (3) Segitiga. Setelah urutan ke-4 (Lingkaran) dan ke-5 (Kotak), maka urutan ke-6 adalah Segitiga."
   },
   {
     "id": 6,
     "pertanyaan": "Pola angka dalam barisan: 1, 4, 2, 5, 3, 6, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
     "pilihan": ["4", "5", "6", "7", "8"],
     "jawaban": "A",
-    "pembahasan": "Pola deret ini terdiri dari dua sub-deret yang berselang-seling: satu deret naik (1, 2, 3, ...) dan satu deret naik lainnya (4, 5, 6, ...). Setelah 3, angka selanjutnya dalam deret pertama adalah 4. Setelah 6, angka selanjutnya dalam deret kedua adalah 7."
+    "pembahasan": "Barisan ini terdiri dari dua pola selang-seling:\n- Pola Ganjil (posisi 1, 3, 5): 1, 2, 3, (+1) -> Berikutnya adalah 4.\n- Pola Genap (posisi 2, 4, 6): 4, 5, 6, (+1) -> Berikutnya adalah 7.\nKarena kita mencari suku ke-7 (posisi ganjil), jawabannya adalah 4."
   },
   {
     "id": 7,
@@ -62,12 +62,12 @@
     "jawaban": "C",
     "pembahasan": "Dari observasi berulang yang konsisten, dapat disimpulkan secara induktif bahwa 'makan makanan pedas *dapat menyebabkan* tubuh berkeringat'. Ini adalah generalisasi kausal."
   },
-  {
+ {
     "id": 10,
     "pertanyaan": "Pola angka dalam barisan: 1, 8, 27, 64, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
     "pilihan": ["81", "100", "125", "144", "216"],
     "jawaban": "C",
-    "pembahasan": "Pola deret ini adalah kubik dari bilangan asli berurutan (1^3=1, 2^3=8, 3^3=27, 4^3=64). Jadi, angka selanjutnya adalah 5^3 = 125."
+    "pembahasan": "Pola ini didasarkan pada bilangan pangkat tiga (kubik): $1^3=1$, $2^3=8$, $3^3=27$, $4^3=64$. Suku berikutnya adalah $5^3 = 5 \\times 5 \\times 5 = 125$."
   }
 ]
 
