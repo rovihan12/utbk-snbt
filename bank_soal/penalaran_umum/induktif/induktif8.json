@@ -12,18 +12,12 @@
     "jawaban": "C",
     "pembahasan": "Berdasarkan pengalaman yang konsisten dari dua individu, dapat disimpulkan secara induktif bahwa 'membaca buku fiksi sebelum tidur *dapat* membantu seseorang lebih mudah tertidur'. Ini adalah generalisasi tentang efek positif dari suatu kebiasaan."
   },
-  {
+{
     "id": 2,
     "pertanyaan": "Pola deret angka: 100, 95, 85, 70, 50, ...\nAngka selanjutnya dalam deret tersebut adalah?",
-    "pilihan": [
-      "25",
-      "30",
-      "35",
-      "40",
-      "45"
-    ],
+    "pilihan": ["25", "30", "35", "40", "45"],
     "jawaban": "A",
-    "pembahasan": "Pola deret ini menunjukkan pengurangan yang semakin besar: -5 (100 ke 95), -10 (95 ke 85), -15 (85 ke 70), -20 (70 ke 50). Jadi, pengurangan selanjutnya adalah -25. Maka, angka selanjutnya adalah 50 - 25 = 25."
+    "pembahasan": "Deret ini menggunakan pola pengurangan bertingkat dengan selisih kelipatan 5: \n100 (-5) = 95\n95 (-10) = 85\n85 (-15) = 70\n70 (-20) = 50\nSuku berikutnya: 50 (-25) = 25."
   },
   {
     "id": 3,
@@ -38,18 +32,12 @@
     "jawaban": "C",
     "pembahasan": "Dari observasi tren umum ('mayoritas tutup') dan kasus spesifik yang mendukung, dapat disimpulkan secara induktif bahwa 'restoran yang baru dibuka di area ini *cenderung* memiliki tingkat kelangsungan hidup yang rendah'. Ini adalah generalisasi berdasarkan bukti statistik tentang tingkat kegagalan."
   },
-  {
+{
     "id": 4,
     "pertanyaan": "Pola deret huruf: Z, X, V, T, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
-    "pilihan": [
-      "R",
-      "S",
-      "U",
-      "W",
-      "Y"
-    ],
+    "pilihan": ["R", "S", "U", "W", "Y"],
     "jawaban": "A",
-    "pembahasan": "Pola deret huruf ini menunjukkan pengurangan 2 posisi dalam abjad secara mundur: Z (-2) X (-2) V (-2) T. Jadi, T (-2) = R."
+    "pembahasan": "Pola ini adalah urutan abjad terbalik dengan melompati satu huruf (langkah -2): Z...(Y)...X...(W)...V...(U)...T...(S)...R."
   },
   {
     "id": 5,
@@ -64,18 +52,12 @@
     "jawaban": "C",
     "pembahasan": "Dari pengalaman pribadi yang konsisten dan dukungan ilmiah (penelitian), dapat disimpulkan secara induktif bahwa 'olahraga pagi *dapat* berkontribusi pada peningkatan suasana hati seseorang'. Ini adalah generalisasi tentang manfaat suatu aktivitas."
   },
-  {
+{
     "id": 6,
     "pertanyaan": "Pola angka dalam barisan: 2, 3, 5, 7, 11, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
-    "pilihan": [
-      "12",
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
+    "pilihan": ["12", "13", "14", "15", "16"],
     "jawaban": "B",
-    "pembahasan": "Pola deret ini adalah deret bilangan prima berurutan. Setelah 11, bilangan prima selanjutnya adalah 13."
+    "pembahasan": "Ini adalah barisan bilangan prima (bilangan yang hanya bisa dibagi 1 dan dirinya sendiri). Setelah 11, bilangan prima berikutnya adalah 13."
   },
   {
     "id": 7,
@@ -119,14 +101,8 @@
   {
     "id": 10,
     "pertanyaan": "Pola jam: 01:00, 01:30, 02:00, 02:30, ...\nWaktu selanjutnya dalam pola tersebut adalah?",
-    "pilihan": [
-      "02:45",
-      "03:00",
-      "03:15",
-      "03:30",
-      "04:00"
-    ],
+    "pilihan": ["02:45", "03:00", "03:15", "03:30", "04:00"],
     "jawaban": "B",
-    "pembahasan": "Pola ini menunjukkan penambahan waktu 30 menit secara berurutan. Jadi, setelah 02:30, waktu selanjutnya adalah 02:30 + 30 menit = 03:00."
+    "pembahasan": "Intervasi waktu tetap sebesar 30 menit. Maka, 02:30 + 30 menit = 03:00."
   }
 ]
