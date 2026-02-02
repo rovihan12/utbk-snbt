@@ -67,15 +67,9 @@
   {
     "id": 6,
     "pertanyaan": "Pola deret huruf: A, C, F, J, O, ...\n\nHuruf berikutnya dalam deret ini adalah...",
-    "pilihan": [
-      "U",
-      "V",
-      "W",
-      "X",
-      "Y"
-    ],
+    "pilihan": ["U", "V", "W", "X", "Y"],
     "jawaban": "A",
-    "pembahasan": "Pola deret ini didasarkan pada penambahan jumlah huruf yang dilompati. Dari A ke C melompati 1 huruf (B). Dari C ke F melompati 2 huruf (D, E). Dari F ke J melompati 3 huruf (G, H, I). Dari J ke O melompati 4 huruf (K, L, M, N). Jadi, pola berikutnya adalah melompati 5 huruf (P, Q, R, S, T) dari O, sehingga didapatkan huruf U."
+    "pembahasan": "Pola didasarkan pada penambahan urutan abjad yang meningkat (+2, +3, +4, +5, +6):\n- A(1) ke C(3) = $+2$\n- C(3) ke F(6) = $+3$\n- F(6) ke J(10) = $+4$\n- J(10) ke O(15) = $+5$\n- O(15) ke ? = $+6$\nAbjad ke-21 adalah U."
   },
   {
     "id": 7,
@@ -92,7 +86,7 @@
   },
   {
     "id": 8,
-    "pertanyaan": "Deret gambar menunjukkan sebuah persegi yang berputar 90 derajat searah jarum jam, lalu bergeser satu posisi ke kanan. Pola ini berulang. Apa gambar berikutnya?\n\n(Catatan: Anda harus membayangkan atau menggambar polanya di kepala Anda.)",
+    "pertanyaan": "Deret gambar menunjukkan sebuah persegi yang berputar 90 derajat searah jarum jam, lalu bergeser satu posisi ke kanan. Pola ini berulang. Apa gambar berikutnya?",
     "pilihan": [
       "Persegi yang bergeser ke kiri dan berputar 90 derajat berlawanan arah jarum jam.",
       "Persegi yang bergeser ke kanan dan berputar 90 derajat searah jarum jam.",
@@ -101,7 +95,7 @@
       "Tidak ada pola yang jelas."
     ],
     "jawaban": "B",
-    "pembahasan": "Berdasarkan deskripsi pola yang diberikan, yaitu 'berputar 90 derajat searah jarum jam, lalu bergeser satu posisi ke kanan' dan 'Pola ini berulang', maka langkah selanjutnya dalam deret tersebut harus mengulangi tindakan yang sama. Pilihan B secara tepat mendeskripsikan tindakan yang akan terjadi selanjutnya."
+    "pembahasan": "Dalam soal penalaran figural, kita harus mengikuti instruksi perubahan posisi dan orientasi secara berurutan. Karena pola 'putar 90°' dan 'geser kanan' dinyatakan berulang, maka langkah selanjutnya haruslah pengulangan dari instruksi tersebut."
   },
   {
     "id": 9,
