@@ -2,71 +2,49 @@
   {
     "id": 1,
     "pertanyaan": "Observasi 1: Setiap hari Rabu, toko buku A memberikan diskon 10%.\nObservasi 2: Setiap hari Rabu, toko buku B memberikan diskon 15%.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Semua toko buku memberikan diskon setiap hari Rabu.", "Beberapa toko buku memberikan diskon setiap hari Rabu.", "Toko buku A dan B pasti memberikan diskon lain di hari lain.", "Diskon hanya tersedia pada hari Rabu.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pilihan": [
+      "Semua toko buku memberikan diskon setiap hari Rabu.", 
+      "Beberapa toko buku memberikan diskon setiap hari Rabu.", 
+      "Toko buku A dan B pasti memberikan diskon lain di hari lain.", 
+      "Diskon hanya tersedia pada hari Rabu.", 
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari observasi spesifik pada dua toko buku, ditarik kesimpulan umum yang bersifat parsial (beberapa): 'Beberapa toko buku memberikan diskon setiap hari Rabu'. Kita tidak bisa menggeneralisasi ke 'semua' toko buku karena hanya ada dua sampel."
-  },
-  {
-    "id": 2,
-    "pertanyaan": "Pola deret angka: 100, 95, 90, 85, ...\nAngka selanjutnya dalam deret tersebut adalah?",
-    "pilihan": ["75", "80", "82", "84", "86"],
-    "jawaban": "B",
-    "pembahasan": "Pola deret angka ini menunjukkan pengurangan konstan 5 dari angka sebelumnya. Jadi, 85 - 5 = 80."
-  },
-  {
-    "id": 3,
-    "pertanyaan": "Observasi 1: Pohon mangga yang diberi pupuk organik menghasilkan buah lebih banyak.\nObservasi 2: Pohon jambu yang diberi pupuk organik juga menghasilkan buah lebih banyak.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Pohon yang diberi pupuk organik pasti menghasilkan buah lebih banyak.", "Pemberian pupuk organik cenderung meningkatkan hasil buah pada pohon.", "Pupuk organik tidak berpengaruh pada hasil buah.", "Hanya pohon mangga dan jambu yang mendapat manfaat dari pupuk organik.", "Tidak ada hubungan antara pupuk organik dan hasil buah."],
-    "jawaban": "B",
-    "pembahasan": "Dari observasi dua jenis pohon yang berbeda, dapat digeneralisasi secara induktif bahwa 'pemberian pupuk organik *cenderung* meningkatkan hasil buah pada pohon'. Kesimpulan ini bersifat probabilistik atau menunjukkan kecenderungan."
+    "pembahasan": "Penalaran induktif menarik kesimpulan dari kasus khusus ke umum. Karena sampel hanya mencakup dua toko (A dan B), kita hanya bisa menyimpulkan 'Beberapa', bukan 'Semua'."
   },
   {
     "id": 4,
     "pertanyaan": "Pola deret huruf: Z, X, V, T, ...\nHuruf selanjutnya dalam deret tersebut adalah?",
     "pilihan": ["R", "S", "U", "W", "Y"],
     "jawaban": "A",
-    "pembahasan": "Pola deret huruf ini adalah huruf abjad yang berurutan mundur dengan melompati satu huruf (huruf genap). Z (lewati Y) X (lewati W) V (lewati U) T (lewati S) R."
+    "pembahasan": "Pola deret mundur melompati satu huruf: Z (-1) -> X (-1) -> V (-1) -> T. Huruf sebelum T adalah S, jika dilompati maka hasilnya adalah R."
   },
-  {
-    "id": 5,
-    "pertanyaan": "Observasi 1: Setiap kali saya membuka payung saat hujan, saya tidak basah.\nObservasi 2: Tetangga saya membuka payung saat hujan dan dia juga tidak basah.\n\nKesimpulan induktif yang paling tepat adalah...",
-    "pilihan": ["Payung selalu membuat orang tidak basah saat hujan.", "Payung tidak berpengaruh pada kebasahan saat hujan.", "Menggunakan payung dapat melindungi dari hujan.", "Hanya saya dan tetangga saya yang tidak basah dengan payung.", "Tidak ada kesimpulan yang bisa ditarik."],
-    "jawaban": "C",
-    "pembahasan": "Dari observasi berulang bahwa penggunaan payung saat hujan menghasilkan tidak basah, dapat disimpulkan secara induktif bahwa 'menggunakan payung *dapat* melindungi dari hujan'. Ini adalah generalisasi fungsi suatu objek."
-  },
+  
   {
     "id": 6,
     "pertanyaan": "Pola angka dalam barisan: 1, 2, 4, 7, 11, ...\nAngka selanjutnya dalam barisan tersebut adalah?",
     "pilihan": ["13", "14", "15", "16", "17"],
     "jawaban": "D",
-    "pembahasan": "Pola deret ini menunjukkan penambahan yang meningkat: +1 (1 ke 2), +2 (2 ke 4), +3 (4 ke 7), +4 (7 ke 11). Jadi, angka selanjutnya adalah 11 + 5 = 16."
+    "pembahasan": "Deret ini memiliki selisih yang bertambah (deret bertingkat): 1(+1)=2; 2(+2)=4; 4(+3)=7; 7(+4)=11. Maka angka berikutnya adalah 11(+5)=16."
   },
   {
     "id": 7,
     "pertanyaan": "Observasi 1: Survei menunjukkan bahwa sebagian besar pengguna smartphone baru merasa puas dengan baterainya.\nObservasi 2: Budi membeli smartphone baru dan ia sangat puas dengan daya tahan baterainya.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Semua smartphone baru memiliki baterai yang tahan lama.", "Smartphone baru yang dijual di pasaran memiliki daya tahan baterai yang baik.", "Kepuasan terhadap baterai hanya berlaku untuk Budi.", "Daya tahan baterai smartphone baru tidak konsisten.", "Tidak ada kesimpulan yang bisa ditarik."],
+    "pilihan": [
+      "Semua smartphone baru memiliki baterai yang tahan lama.", 
+      "Smartphone baru cenderung memiliki daya tahan baterai yang memuaskan.", 
+      "Kepuasan terhadap baterai hanya berlaku untuk Budi.", 
+      "Daya tahan baterai smartphone baru tidak konsisten.", 
+      "Tidak ada kesimpulan yang bisa ditarik."
+    ],
     "jawaban": "B",
-    "pembahasan": "Dari data survei umum ('sebagian besar') dan contoh spesifik (Budi), dapat disimpulkan secara induktif bahwa 'smartphone baru yang dijual di pasaran *memiliki* daya tahan baterai yang baik'. Ini adalah generalisasi berdasarkan data dan contoh."
-  },
-  {
-    "id": 8,
-    "pertanyaan": "Pola objek: Sendok, Garpu, Piring, Gelas, Sendok, Garpu, ...\nObjek selanjutnya dalam pola tersebut adalah?",
-    "pilihan": ["Sendok", "Garpu", "Piring", "Gelas", "Mangkok"],
-    "jawaban": "C",
-    "pembahasan": "Pola objek ini berulang setiap empat elemen: Sendok, Garpu, Piring, Gelas. Setelah 'Sendok, Garpu', maka objek selanjutnya adalah 'Piring' untuk menyelesaikan siklus."
-  },
-  {
-    "id": 9,
-    "pertanyaan": "Observasi 1: Setiap kali guru A memberikan tugas kelompok, siswa cenderung lebih aktif berdiskusi.\nObservasi 2: Setiap kali guru B memberikan tugas kelompok, siswa juga cenderung lebih aktif berdiskusi.\n\nKesimpulan induktif yang paling mungkin adalah...",
-    "pilihan": ["Tugas kelompok selalu membuat siswa aktif berdiskusi.", "Tugas kelompok tidak berpengaruh pada diskusi siswa.", "Pemberian tugas kelompok dapat mendorong siswa lebih aktif berdiskusi.", "Hanya guru A dan B yang bisa membuat siswa aktif berdiskusi.", "Tidak ada hubungan antara tugas kelompok dan diskusi siswa."],
-    "jawaban": "C",
-    "pembahasan": "Dari observasi pada dua kasus guru yang berbeda, dapat digeneralisasi secara induktif bahwa 'pemberian tugas kelompok *dapat mendorong* siswa lebih aktif berdiskusi'. Ini adalah inferensi tentang efek suatu metode."
+    "pembahasan": "Berdasarkan data mayoritas ('sebagian besar') dan satu contoh pendukung (Budi), kesimpulan yang paling tepat adalah menyatakan kecenderungan atau tren umum ('cenderung memiliki')."
   },
   {
     "id": 10,
     "pertanyaan": "Pola musim: Semi, Panas, Gugur, Dingin, Semi, ...\nMusim selanjutnya dalam pola tersebut adalah?",
     "pilihan": ["Semi", "Panas", "Gugur", "Dingin", "Hujan"],
     "jawaban": "B",
-    "pembahasan": "Pola ini mengikuti siklus musim dalam satu tahun: Semi, Panas, Gugur, Dingin. Setelah 'Semi', maka musim selanjutnya adalah 'Panas'."
+    "pembahasan": "Ini adalah pola siklus empat musim yang berulang secara berurutan: Semi -> Panas -> Gugur -> Dingin. Setelah Semi, siklus kembali ke Panas."
   }
 ]
