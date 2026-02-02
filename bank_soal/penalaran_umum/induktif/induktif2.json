@@ -2,131 +2,49 @@
   {
     "id": 1,
     "pertanyaan": "Perhatikan pola bilangan berikut: $1^3 + 2^3$, $1^3 + 2^3 + 3^3$, $1^3 + 2^3 + 3^3 + 4^3$, $1^3 + 2^3 + 3^3 + 4^3 + 5^3$, ...\n\nBerapakah hasil dari $1^3 + 2^3 + 3^3 + 4^3 + 5^3 + 6^3$?",
-    "pilihan": [
-      "196",
-      "216", 
-      "225",
-      "256",
-      "441"
-    ],
+    "pilihan": ["196", "216", "225", "256", "441"],
     "jawaban": "E",
-    "pembahasan": "Pola jumlah pangkat tiga memiliki rumus: $1^3 + 2^3 + ... + n^3 = (1 + 2 + ... + n)^2 = \\left(\\frac{n(n+1)}{2}\\right)^2$. Untuk $n = 6$, hasilnya adalah $\\left(\\frac{6 \\times 7}{2}\\right)^2 = (21)^2 = 441$."
+    "pembahasan": "Penjumlahan pangkat tiga mengikuti pola $(\\frac{n(n+1)}{2})^2$. Untuk $n=6$, maka $(\\frac{6 \\times 7}{2})^2 = 21^2 = 441$."
   },
   {
     "id": 2,
-    "pertanyaan": "Dalam sebuah penelitian terhadap 1000 responden, ditemukan bahwa 85% orang yang berolahraga rutin 3 kali seminggu memiliki tekanan darah normal. Dari mereka yang tidak rutin berolahraga, hanya 45% yang memiliki tekanan darah normal. Andi memiliki tekanan darah normal.\n\nKesimpulan induktif yang PALING MASUK AKAL adalah...",
+    "pertanyaan": "Dalam penelitian terhadap 1000 responden, 85% orang yang rutin olahraga memiliki tekanan darah normal. Sedangkan yang tidak rutin, hanya 45% yang normal. Andi memiliki tekanan darah normal.\n\nKesimpulan induktif yang PALING MASUK AKAL adalah...",
     "pilihan": [
       "Andi pasti rutin berolahraga",
       "Andi mungkin rutin berolahraga",
-      "Andi pasti tidak rutin berolahraga", 
+      "Andi pasti tidak rutin berolahraga",
       "Tekanan darah normal hanya dipengaruhi oleh olahraga",
       "Tidak ada hubungan antara olahraga dan tekanan darah"
     ],
     "jawaban": "B",
-    "pembahasan": "Data menunjukkan probabilitas memiliki tekanan darah normal lebih tinggi jika rutin olahraga (85%) dibandingkan tidak rutin (45%). Namun karena masih ada 45% dari kelompok tidak rutin yang memiliki tekanan darah normal, kita hanya dapat menyimpulkan 'mungkin' Andi rutin berolahraga, bukan 'pasti'."
+    "pembahasan": "Meskipun peluang normal lebih tinggi pada kelompok olahraga (85%), kelompok tidak olahraga pun masih memiliki peluang normal (45%). Karena Andi bisa berasal dari kelompok mana saja, kesimpulan yang paling tepat adalah 'mungkin'."
   },
   {
     "id": 3,
-    "pertanyaan": "Perhatikan pola bentuk berikut:\n• Pola 1: ★☆☆☆\n• Pola 2: ★★☆☆  \n• Pola 3: ★★★☆\n• Pola 4: ★★★★\n• Pola 5: ☆★★★\n\nBerdasarkan pola tersebut, bagaimana bentuk Pola 6?",
-    "pilihan": [
-      "★★☆☆",
-      "☆☆★★",
-      "★★☆★",
-      "☆★★☆",
-      "☆☆☆★"
-    ],
+    "pertanyaan": "Perhatikan pola berikut:\n• Pola 1: ★☆☆☆\n• Pola 2: ★★☆☆\n• Pola 3: ★★★☆\n• Pola 4: ★★★★\n• Pola 5: ☆★★★\n\nBerdasarkan pola tersebut, bagaimana bentuk Pola 6?",
+    "pilihan": ["★★☆☆", "☆☆★★", "★★☆★", "☆★★☆", "☆☆☆★"],
     "jawaban": "B",
-    "pembahasan": "Pola menunjukkan pergerakan bintang dari kiri ke kanan: Pola 1-4 bintang bertambah dari kiri. Pola 5: bintang mulai bergeser ke kanan (☆★★★). Pola 6: terus bergeser menjadi ☆☆★★. Ini adalah pola osilasi yang teratur."
-  },
-  {
-    "id": 4,
-    "pertanyaan": "Seorang ekonom mengamati data inflasi 5 negara ASEAN selama 10 tahun terakhir. Di semua negara tersebut, ketika suku bunga acuan dinaikkan 1%, inflasi turun 0,3-0,5% dalam 6-12 bulan berikutnya.\n\nKesimpulan induktif yang PALING TEPAT adalah...",
-    "pilihan": [
-      "Kenaikan suku bunga pasti menurunkan inflasi",
-      "Kenaikan suku bunga mungkin menurunkan inflasi di negara ASEAN",
-      "Kenaikan suku bunga tidak berpengaruh pada inflasi",
-      "Penurunan inflasi menyebabkan kenaikan suku bunga",
-      "Hubungan suku bunga dan inflasi hanya berlaku untuk ASEAN"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Data dari 5 negara selama 10 tahun menunjukkan konsistensi hubungan antara kenaikan suku bunga dan penurunan inflasi. Namun karena ini adalah observasi empiris dan bukan hukum pasti, kesimpulan yang paling tepat menggunakan kata 'mungkin' yang mencerminkan sifat probabilistik dari penalaran induktif."
+    "pembahasan": "Pola 1-4 menunjukkan penambahan bintang dari kiri ke kanan hingga penuh. Setelah penuh (Pola 4), bintang di posisi paling kiri mulai berubah menjadi kosong (☆) secara berurutan. Maka Pola 6 adalah ☆☆★★."
   },
   {
     "id": 5,
     "pertanyaan": "Diberikan barisan: 2, 6, 12, 20, 30, 42, ...\n\nBerapakah suku ke-8 dari barisan tersebut?",
-    "pilihan": [
-      "56",
-      "64",
-      "72",
-      "80",
-      "90"
-    ],
+    "pilihan": ["56", "64", "72", "80", "90"],
     "jawaban": "C",
-    "pembahasan": "Pola barisan: $2 = 1 \\times 2$, $6 = 2 \\times 3$, $12 = 3 \\times 4$, $20 = 4 \\times 5$, $30 = 5 \\times 6$, $42 = 6 \\times 7$. Rumus umum: $U_n = n(n+1)$. Suku ke-8: $8 \\times 9 = 72$."
-  },
-  {
-    "id": 6,
-    "pertanyaan": "Dalam survei terhadap 500 startup teknologi, 80% yang berhasil mendapatkan pendanaan tahap kedua memiliki setidaknya satu co-founder dengan latar belakang teknis. Startup \"Technova\" sedang berusaha mendapatkan pendanaan tahap kedua.\n\nBerdasarkan pola tersebut, rekomendasi induktif yang PALING LOGIS untuk Technova adalah...",
-    "pilihan": [
-      "Pasti akan dapat pendanaan karena tren positif",
-      "Mungkin perlu merekrut co-founder dengan latar belakang teknis",
-      "Tidak perlu co-founder teknis karena bukan jaminan",
-      "Harus mengganti seluruh tim dengan orang teknis",
-      "Pendanaan tidak ada hubungannya dengan latar belakang tim"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Data menunjukkan korelasi kuat antara keberadaan co-founder teknis dan keberhasilan mendapatkan pendanaan. Rekomendasi yang paling logis adalah tindakan yang meningkatkan probabilitas keberhasilan berdasarkan pola yang terobservasi, yaitu 'mungkin perlu merekrut co-founder dengan latar belakang teknis'."
+    "pembahasan": "Pola ini adalah $n \\times (n+1)$. Suku ke-1: $1 \\times 2=2$. Suku ke-8: $8 \\times 9 = 72$."
   },
   {
     "id": 7,
     "pertanyaan": "Perhatikan pola huruf: A, D, I, P, Y, ...\n\nHuruf apakah yang selanjutnya?",
-    "pilihan": [
-      "Z",
-      "H", 
-      "J",
-      "K",
-      "L"
-    ],
+    "pilihan": ["Z", "H", "J", "K", "L"],
     "jawaban": "C",
-    "pembahasan": "Pola: A (huruf ke-1), D (huruf ke-4), I (huruf ke-9), P (huruf ke-16), Y (huruf ke-25). Ini adalah kuadrat bilangan: $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$. Berikutnya: $6^2=36$, yang merupakan huruf ke-36. Dalam alfabet 26 huruf: 36-26=10, huruf ke-10 adalah J."
-  },
-  {
-    "id": 8,
-    "pertanyaan": "Seorang psikolog menemukan bahwa dari 100 siswa yang dia amati, 90% yang memiliki jadwal belajar teratur mencapai nilai di atas rata-rata. Dari 50 siswa lain yang diobservasi di sekolah berbeda, 85% dengan jadwal belajar teratur juga mencapai nilai di atas rata-rata.\n\nKesimpulan induktif yang PALING KUAT adalah...",
-    "pilihan": [
-      "Jadwal belajar teratur menyebabkan nilai tinggi",
-      "Jadwal belajar teratur berkorelasi dengan nilai tinggi pada berbagai kelompok siswa", 
-      "Semua siswa dengan jadwal teratur pasti dapat nilai tinggi",
-      "Tidak ada hubungan antara jadwal belajar dan nilai",
-      "Hubungan ini hanya berlaku untuk siswa tertentu"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Dua observasi independen pada kelompok yang berbeda menunjukkan pola yang konsisten: persentase tinggi siswa dengan jadwal teratur mencapai nilai tinggi. Ini memperkuat kesimpulan tentang korelasi yang berlaku pada berbagai kelompok. Kata 'berkorelasi' lebih tepat daripada 'menyebabkan' karena penelitian observasional tidak membuktikan sebab-akibat."
+    "pembahasan": "Pola urutan huruf berdasarkan kuadrat bilangan: A(1), D(4), I(9), P(16), Y(25). Berikutnya adalah $6^2 = 36$. Karena abjad hanya sampai 26, maka $36 - 26 = 10$. Huruf ke-10 adalah J."
   },
   {
     "id": 9,
     "pertanyaan": "Diberikan barisan Fibonacci: 1, 1, 2, 3, 5, 8, 13, 21, ...\n\nBerapakah hasil dari $F_{10} + F_{11}$ jika $F_n$ menyatakan suku ke-n?",
-    "pilihan": [
-      "34",
-      "55", 
-      "89",
-      "144",
-      "233"
-    ],
+    "pilihan": ["34", "55", "89", "144", "233"],
     "jawaban": "D",
-    "pembahasan": "Dalam barisan Fibonacci, $F_{n+2} = F_{n+1} + F_n$. Dari pola: $F_9=34$, $F_{10}=55$, $F_{11}=89$. Jadi $F_{10} + F_{11} = 55 + 89 = 144$. Perhatikan bahwa $F_{12} = F_{11} + F_{10} = 144$."
-  },
-  {
-    "id": 10,
-    "pertanyaan": "Seorang ahli gizi mengamati 200 pasien diabetes. 75% dari mereka yang mengurangi konsumsi gula hingga di bawah 25 gram per hari menunjukkan penurunan kadar gula darah yang signifikan dalam 3 bulan. Pasien B menjalani diet rendah gula.\n\nBerdasarkan pola tersebut, prediksi induktif yang PALING REALISTIS untuk Pasien B adalah...",
-    "pilihan": [
-      "Pasti sembuh total dari diabetes",
-      "Kadar gula darahnya mungkin akan turun signifikan",
-      "Tidak akan ada perubahan pada kadar gula darah", 
-      "Harus berhenti total mengonsumsi gula",
-      "Diet rendah gula berbahaya untuk penderita diabetes"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Data menunjukkan probabilitas tinggi (75%) penurunan kadar gula darah dengan diet rendah gula. Prediksi yang paling realistis mencerminkan probabilitas ini dengan menggunakan kata 'mungkin', mengakui bahwa meskipun pola kuat, hasil individual bisa bervariasi."
+    "pembahasan": "Suku-suku berikutnya: $F_8=21$, $F_9=13+21=34$, $F_{10}=21+34=55$, $F_{11}=34+55=89$. Maka $F_{10} + F_{11} = 55 + 89 = 144$."
   }
 ]
