@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Diketahui \\( A = \\{x \\mid 1 \\le x \\le 10, x \\in \\mathbb{N} \\} \\) dan \\( B = \\{x \\mid x \\text{ bilangan prima}, x < 10\\} \\). Tentukan \\( A \\cap B \\).",
-    "pilihan": ["{2, 3, 5, 7}", "{1, 2, 3, 5, 7}", "{2, 4, 6, 8}", "{3, 5, 7}", "{2, 3, 5, 7, 9}"],
-    "jawaban": "A",
-    "pembahasan": "Himpunan A berisi bilangan bulat dari 1 sampai 10. Himpunan B berisi bilangan prima kurang dari 10: {2, 3, 5, 7}. Irisan keduanya adalah {2, 3, 5, 7}."
+    "pertanyaan": "Jika $a \\oplus b = a(b - 1) + a$, maka nilai dari $3 \\oplus (2 \\oplus 4)$ adalah ...",
+    "pilihan": ["12", "18", "21", "24", "27"],
+    "jawaban": "D",
+    "pembahasan": "Hitung dalam kurung: $2 \\oplus 4 = 2(4 - 1) + 2 = 8$. Lalu, $3 \\oplus 8 = 3(8 - 1) + 3 = 21 + 3 = 24$."
   },
   {
     "id": 2,
-    "pertanyaan": "Jika \\( P = \\{x \\mid x \\text{ kelipatan 3}, x \\le 30\\} \\) dan \\( Q = \\{x \\mid x \\text{ kelipatan 5}, x \\le 30\\} \\), tentukan \\( P \\cup Q \\).",
-    "pilihan": ["{3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24, 25, 27, 30}", "{3, 6, 9, ..., 30}", "{5, 10, 15, ..., 30}", "{15, 30}", "{semua bilangan ≤ 30}"],
+    "pertanyaan": "Diketahui $A = \\{x \\mid 1 \\le x \\le 10, x \\in \\mathbb{N} \\}$ dan $B = \\{x \\mid x \\text{ bilangan prima}, x < 10\\}. Tentukan $A \\cap B$.",
+    "pilihan": ["{2, 3, 5, 7}", "{1, 2, 3, 5, 7}", "{2, 4, 6, 8}", "{3, 5, 7}", "{2, 3, 5, 7, 9}"],
     "jawaban": "A",
-    "pembahasan": "P = {3,6,9,12,15,18,21,24,27,30}, Q = {5,10,15,20,25,30}. Gabungan keduanya adalah {3,5,6,9,10,12,15,18,20,21,24,25,27,30}."
+    "pembahasan": "A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. B = {2, 3, 5, 7}. Irisan ($A \\cap B$) adalah elemen yang ada di keduanya: {2, 3, 5, 7}."
   },
   {
     "id": 3,
-    "pertanyaan": "Diketahui \\( U = \\{1,2,...,20\\} \\), \\( A = \\{2,4,6,...,20\\} \\), dan \\( B = \\{5,10,15,20\\} \\). Tentukan \\( A - B \\).",
-    "pilihan": ["{2, 4, 6, 8, 12, 14, 16, 18}", "{2, 4, 6, 8, 10, 12, 14, 16, 18}", "{4, 8, 12, 16}", "{2, 6, 12, 18}", "{4, 6, 8, 10}"],
+    "pertanyaan": "Manakah di antara bilangan berikut yang nilainya paling mendekati $1/3$?",
+    "pilihan": ["0,33", "33%", "3/10", "0,34", "0,335"],
     "jawaban": "A",
-    "pembahasan": "A berisi bilangan genap ≤ 20. Elemen B dihapus dari A: {2, 4, 6, 8, 12, 14, 16, 18}."
+    "pembahasan": "$1/3 \\approx 0,3333$. Selisih dengan 0,33 adalah 0,0033. Selisih dengan 33% (0,30) adalah 0,033. Maka 0,33 adalah yang paling dekat."
   },
   {
     "id": 4,
-    "pertanyaan": "Himpunan semesta \\( U = \\{1,2,...,12\\} \\). Jika \\( A = \\{3,6,9,12\\} \\), tentukan komplemen dari A.",
-    "pilihan": ["{1, 2, 4, 5, 7, 8, 10, 11}", "{1, 2, 4, 5, 7, 8, 10}", "{2, 4, 5, 7, 8, 10}", "{1, 2, 4, 5, 7, 8}", "{1, 2, 5, 7, 8, 10, 11}"],
+    "pertanyaan": "Jika $P = \\{x \\mid x \\text{ kelipatan 3}, x \\le 30\\}$ dan $Q = \\{x \\mid x \\text{ kelipatan 5}, x \\le 30\\}$, tentukan $P \\cup Q$.",
+    "pilihan": ["{3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24, 25, 27, 30}", "{3, 6, 9, ..., 30}", "{5, 10, 15, ..., 30}", "{15, 30}", "{semua bilangan ≤ 30}"],
     "jawaban": "A",
-    "pembahasan": "Komplemen A adalah semua elemen di U yang tidak ada di A: {1,2,4,5,7,8,10,11}."
+    "pembahasan": "P = {3,6,9,12,15,18,21,24,27,30}, Q = {5,10,15,20,25,30}. Gabungan ($P \\cup Q$) menyatukan semua elemen unik."
   },
   {
     "id": 5,
-    "pertanyaan": "Jika \\( A \\cup B = \\{1,2,3,4,5,6\\} \\) dan \\( A \\cap B = \\{3,4\\} \\), diketahui \\( A = \\{1,3,4,5\\} \\). Tentukan himpunan B.",
-    "pilihan": ["{2,3,4,6}", "{3,4,5,6}", "{2,4,6}", "{2,3,4}", "{1,3,4,6}"],
-    "jawaban": "A",
-    "pembahasan": "Gabungan A dan B adalah {1,2,3,4,5,6}. Agar irisan A dan B adalah {3,4}, maka B = {2,3,4,6}."
+    "pertanyaan": "Hasil dari $\\frac{2024^2 - 2023^2}{2024 + 2023}$ adalah ...",
+    "pilihan": ["0", "1", "2023", "2024", "4047"],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan $a^2 - b^2 = (a-b)(a+b)$, maka $\\frac{(2024-2023)(2024+2023)}{2024+2023} = 2024 - 2023 = 1$."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika \\( A = \\{1,2,3\\} \\) dan \\( B = \\{2,3,4\\} \\), tentukan \\( (A \\cup B) - (A \\cap B) \\).",
-    "pilihan": ["{1,4}", "{2,3}", "{1,2,3,4}", "{1,3,4}", "{2,4}"],
+    "pertanyaan": "Diketahui $U = \\{1,2,...,20\\}$, $A = \\{2,4,6,...,20\\}$, dan $B = \\{5,10,15,20\\}$. Tentukan $A - B$.",
+    "pilihan": ["{2, 4, 6, 8, 12, 14, 16, 18}", "{2, 4, 6, 8, 10, 12, 14, 16, 18}", "{4, 8, 12, 16}", "{2, 6, 12, 18}", "{4, 6, 8, 10}"],
     "jawaban": "A",
-    "pembahasan": "A ∪ B = {1,2,3,4}, A ∩ B = {2,3}. Selisihnya: {1,4}."
+    "pembahasan": "A berisi genap. $B = \\{5, 10, 15, 20\\}$. Elemen A yang juga ada di B adalah {10, 20}. Maka $A-B$ membuang 10 dan 20 dari deret genap."
   },
   {
     "id": 7,
-    "pertanyaan": "Diketahui \\( X = \\{1,3,5,7\\} \\) dan \\( Y = \\{2,3,6,7\\} \\). Tentukan \\( X \\cap Y \\).",
-    "pilihan": ["{3,7}", "{1,5}", "{2,6}", "{1,3,5,7}", "{2,3,6,7}"],
-    "jawaban": "A",
-    "pembahasan": "Irisan X dan Y adalah elemen yang sama-sama ada: {3,7}."
+    "pertanyaan": "Berapakah $25\\%$ dari $0,40$?",
+    "pilihan": ["0,01", "0,10", "0,16", "1,00", "0,4"],
+    "jawaban": "B",
+    "pembahasan": "$0,25 \\times 0,4 = 0,1$."
   },
   {
     "id": 8,
-    "pertanyaan": "Jika \\( A = \\{2,4,6,8\\} \\), tentukan jumlah elemen himpunan bagian A yang berisi tepat 2 elemen.",
-    "pilihan": ["6", "4", "8", "10", "12"],
+    "pertanyaan": "Himpunan semesta $U = \\{1,2,...,12\\}$. Jika $A = \\{3,6,9,12\\}$, tentukan komplemen dari A.",
+    "pilihan": ["{1, 2, 4, 5, 7, 8, 10, 11}", "{1, 2, 4, 5, 7, 8, 10}", "{2, 4, 5, 7, 8, 10}", "{1, 2, 4, 5, 7, 8}", "{1, 2, 5, 7, 8, 10, 11}"],
     "jawaban": "A",
-    "pembahasan": "Jumlah himpunan bagian yang memiliki 2 elemen dari himpunan 4 elemen: C(4,2)=6."
+    "pembahasan": "Komplemen A ($A^c$) adalah anggota U yang bukan anggota A."
   },
   {
     "id": 9,
-    "pertanyaan": "Himpunan \\( A = \\{1,2,3,4\\} \\). Tentukan banyak himpunan bagian dari A yang berisi angka ganjil.",
-    "pilihan": ["8", "12", "6", "10", "16"],
-    "jawaban": "A",
-    "pembahasan": "Himpunan ganjil: {1,3}. Setiap himpunan bagian bisa dikombinasi dengan {2,4} atau tidak. Total 8 himpunan bagian."
+    "pertanyaan": "Jika $p = 2$ dan $q = 3$, maka nilai dari $\\frac{p^q - q^p}{p + q}$ adalah ...",
+    "pilihan": ["1/5", "0", "-1/5", "-1", "5"],
+    "jawaban": "C",
+    "pembahasan": "$\\frac{2^3 - 3^2}{2+3} = \\frac{8 - 9}{5} = -1/5$."
   },
   {
     "id": 10,
-    "pertanyaan": "Jika \\( A = \\{1,2,3,4,5\\} \\) dan \\( B = \\{4,5,6\\} \\), tentukan \\( (A - B) \\cup (B - A) \\).",
-    "pilihan": ["{1,2,3,6}", "{1,2,3,4,5,6}", "{4,5}", "{6}", "{1,2,3}"],
+    "pertanyaan": "Jika $A \\cup B = \\{1,2,3,4,5,6\\}$ dan $A \\cap B = \\{3,4\\}$, diketahui $A = \\{1,3,4,5\\}$. Tentukan himpunan B.",
+    "pilihan": ["{2,3,4,6}", "{3,4,5,6}", "{2,4,6}", "{2,3,4}", "{1,3,4,6}"],
     "jawaban": "A",
-    "pembahasan": "A-B = {1,2,3}, B-A = {6}. Gabungan = {1,2,3,6}."
+    "pembahasan": "B harus memuat irisan {3,4} dan sisa elemen dari gabungan yang tidak ada di A yaitu {2,6}. Jadi B = {2,3,4,6}."
   },
   {
     "id": 11,
-    "pertanyaan": "Himpunan \\( A = \\{x \\mid x \\text{ bilangan genap } \\le 10\\} \\) dan \\( B = \\{2,4,6\\} \\). Tentukan \\( A \\cap B \\).",
-    "pilihan": ["{2,4,6}", "{2,4,6,8,10}", "{4,6,8}", "{2,6,10}", "{2,4}"],
-    "jawaban": "A",
-    "pembahasan": "Irisan elemen yang sama: {2,4,6}."
+    "pertanyaan": "Bilangan manakah yang habis dibagi 3 tetapi tidak habis dibagi 9?",
+    "pilihan": ["117", "123", "225", "103", "162"],
+    "jawaban": "B",
+    "pembahasan": "Jumlah digit 123 adalah $1+2+3=6$ (habis dibagi 3, tapi bukan kelipatan 9)."
   },
   {
     "id": 12,
-    "pertanyaan": "Diketahui \\( A = \\{1,3,5,7\\} \\) dan \\( B = \\{2,4,6,8\\} \\). Tentukan \\( A \\cup B \\).",
-    "pilihan": ["{1,2,3,4,5,6,7,8}", "{1,3,5,7}", "{2,4,6,8}", "{1,2,3,5,7}", "{1,2,3,4,5}"],
+    "pertanyaan": "Jika $A = \\{1,2,3\\}$ dan $B = \\{2,3,4\\}$, tentukan $(A \\cup B) - (A \\cap B)$.",
+    "pilihan": ["{1,4}", "{2,3}", "{1,2,3,4}", "{1,3,4}", "{2,4}"],
     "jawaban": "A",
-    "pembahasan": "Gabungan semua elemen: {1,2,3,4,5,6,7,8}."
+    "pembahasan": "$A \\cup B = \\{1,2,3,4\\}$, $A \\cap B = \\{2,3\\}$. Selisihnya adalah {1,4}."
   },
   {
     "id": 13,
-    "pertanyaan": "Himpunan semesta \\( U = \\{1,2,...,9\\} \\), A = {2,4,6,8}. Tentukan komplemen A.",
-    "pilihan": ["{1,3,5,7,9}", "{2,4,6,8}", "{1,2,3,4}", "{5,6,7,8}", "{1,3,5,7}"],
-    "jawaban": "A",
-    "pembahasan": "Elemen di U tapi tidak di A: {1,3,5,7,9}."
+    "pertanyaan": "Hasil dari $12 - 6 \\div 2 + 3$ adalah ...",
+    "pilihan": ["6", "12", "3", "15", "9"],
+    "jawaban": "B",
+    "pembahasan": "Selesaikan pembagian dulu: $12 - 3 + 3 = 12$."
   },
   {
     "id": 14,
-    "pertanyaan": "Jika A = {1,2,3}, B = {3,4,5}, tentukan (A ∪ B) ∩ A.",
-    "pilihan": ["{1,2,3}", "{3}", "{4,5}", "{1,2}", "{1,2,4,5}"],
+    "pertanyaan": "Jika $A = \\{2,4,6,8\\}$, tentukan jumlah elemen himpunan bagian A yang berisi tepat 2 elemen.",
+    "pilihan": ["6", "4", "8", "10", "12"],
     "jawaban": "A",
-    "pembahasan": "A ∪ B = {1,2,3,4,5}, irisan dengan A = {1,2,3}."
+    "pembahasan": "Kombinasi $C(4,2) = \\frac{4 \\times 3}{2 \\times 1} = 6$."
   },
   {
     "id": 15,
-    "pertanyaan": "Himpunan A = {1,2,3,4}, B = {3,4,5,6}. Tentukan A Δ B (selisih simetris).",
-    "pilihan": ["{1,2,5,6}", "{3,4}", "{1,2,3,4,5,6}", "{1,2,3,5}", "{2,4,5,6}"],
-    "jawaban": "A",
-    "pembahasan": "Selisih simetris A Δ B = (A-B) ∪ (B-A) = {1,2,5,6}."
+    "pertanyaan": "Nilai dari $\\sqrt{0,25} + (0,5)^2$ adalah ...",
+    "pilihan": ["0,30", "0,50", "0,75", "1,00", "1,25"],
+    "jawaban": "C",
+    "pembahasan": "$0,5 + 0,25 = 0,75$."
   },
   {
     "id": 16,
-    "pertanyaan": "Jika A = {1,2,3}, banyak himpunan bagian A yang memiliki paling sedikit 2 elemen adalah...",
+    "pertanyaan": "Jika $A = \\{1,2,3\\}$, banyak himpunan bagian A yang memiliki paling sedikit 2 elemen adalah...",
     "pilihan": ["4", "3", "2", "1", "5"],
     "jawaban": "A",
-    "pembahasan": "Himpunan bagian: {1,2},{1,3},{2,3},{1,2,3}, total 4."
+    "pembahasan": "Himpunan bagian dengan $\\ge 2$ elemen: {1,2}, {1,3}, {2,3}, {1,2,3}. Total ada 4."
   },
   {
     "id": 17,
-    "pertanyaan": "Himpunan A = {1,2,3,4}, tentukan banyak himpunan bagian yang memiliki 3 elemen.",
-    "pilihan": ["4", "3", "6", "8", "2"],
-    "jawaban": "A",
-    "pembahasan": "C(4,3) = 4."
+    "pertanyaan": "Manakah pernyataan yang benar jika $x$ adalah bilangan bulat positif dan $x^2 + 3x$ adalah ganjil?",
+    "pilihan": ["$x$ ganjil", "$x$ genap", "$x$ tidak mungkin bulat", "$x$ prima", "$x$ kelipatan 3"],
+    "jawaban": "C",
+    "pembahasan": "Ganjil+Ganjil=Genap; Genap+Genap=Genap. Penjumlahan $x^2+3x$ akan selalu genap untuk setiap bilangan bulat $x$."
   },
   {
     "id": 18,
-    "pertanyaan": "Jika A = {2,4,6,8,10}, tentukan jumlah elemen A.",
-    "pilihan": ["5", "4", "6", "10", "8"],
+    "pertanyaan": "Himpunan $A = \\{1,2,3,4\\}, B = \\{3,4,5,6\\}$. Tentukan $A \\Delta B$ (selisih simetris).",
+    "pilihan": ["{1,2,5,6}", "{3,4}", "{1,2,3,4,5,6}", "{1,2,3,5}", "{2,4,5,6}"],
     "jawaban": "A",
-    "pembahasan": "Elemen A = 5 buah."
+    "pembahasan": "$A \\Delta B = (A-B) \\cup (B-A) = \\{1,2\\} \\cup \\{5,6\\} = \\{1,2,5,6\\}$."
   },
   {
     "id": 19,
-    "pertanyaan": "Jika A = {1,2,3,4}, B = {3,4,5,6}, tentukan banyak elemen A ∪ B.",
-    "pilihan": ["6", "4", "5", "7", "8"],
-    "jawaban": "A",
-    "pembahasan": "A ∪ B = {1,2,3,4,5,6}, banyak elemen = 6."
+    "pertanyaan": "Jika $x \\Delta y = x^2 - y$, maka nilai dari $2 \\Delta (3 \\Delta 5)$ adalah ...",
+    "pilihan": ["-4", "0", "1", "4", "8"],
+    "jawaban": "B",
+    "pembahasan": "$3 \\Delta 5 = 3^2 - 5 = 4$. Lalu $2 \\Delta 4 = 2^2 - 4 = 0$."
   },
   {
     "id": 20,
-    "pertanyaan": "Himpunan A = {1,2,3}, B = {2,3,4}. Tentukan A ∩ B.",
+    "pertanyaan": "Himpunan $A = \\{1,2,3\\}, B = \\{2,3,4\\}$. Tentukan $A \\cap B$.",
     "pilihan": ["{2,3}", "{1,2,3}", "{1,4}", "{2,4}", "{1,3}"],
     "jawaban": "A",
-    "pembahasan": "Irisan A ∩ B = {2,3}."
+    "pembahasan": "Irisan elemen yang sama adalah {2,3}."
   }
 ]
