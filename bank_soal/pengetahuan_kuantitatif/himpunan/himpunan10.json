@@ -120,10 +120,33 @@
   },
   {
     "id": 18,
-    "pertanyaan": "Himpunan A={1,2,3,4,5}, tentukan banyak himpunan bagian yang memiliki paling sedikit 3 elemen.",
-    "pilihan": ["16", "10", "8", "12", "6"],
+    "pertanyaan": "Operasi $\\ast$ dan $\\boxdot$ didefinisikan sebagai berikut:\n\n$a \\ast b = \\frac{a \\times b}{2 \\times (a + b)}$\n\n$c \\boxdot d = \\frac{c \\times d}{c - (3 \\times d)}$\n\nBerdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?",
+    "tabel": {
+      "header": ["P", "Q"],
+      "rows": [
+        ["$k \\ast (4 \\boxdot 2)$ untuk $k = 1$ atau $k = 2$", "0"]
+      ],
+      "metadata": {
+        "responsive": true,
+        "small_screen_mode": "scrollable",
+        "min_column_width": "100dp"
+      }
+    },
+    "pilihan": [
+      "Kuantitas P lebih besar daripada Q",
+      "Kuantitas P lebih kecil daripada Q",
+      "Kuantitas P sama dengan Q",
+      "Tidak dapat ditentukan hubungan antara P dan Q"
+    ],
     "jawaban": "A",
-    "pembahasan": "\\( C(5,3)+C(5,4)+C(5,5)=10+5+1=16 \\)."
+    "pembahasan": "**Langkah 1: Menghitung operasi di dalam kurung $(4 \\boxdot 2)$**\nSesuai definisi $c \\boxdot d = \\frac{c \\times d}{c - (3 \\times d)}$:\n* $4 \\boxdot 2 = \\frac{4 \\times 2}{4 - (3 \\times 2)}$\n* $4 \\boxdot 2 = \\frac{8}{4 - 6}$\n* $4 \\boxdot 2 = \\frac{8}{-2} = -4$\n\n**Langkah 2: Menghitung nilai P untuk setiap nilai $k$**\nDefinisi P adalah $k \\ast (-4)$. Sesuai definisi $a \\ast b = \\frac{a \\times b}{2 \\times (a + b)}$:\n\n* **Jika $k = 1$:**\n  $P = 1 \\ast (-4) = \\frac{1 \\times (-4)}{2 \\times (1 + (-4))} = \\frac{-4}{2 \\times (-3)} = \\frac{-4}{-6} = \\frac{2}{3}$\n  Nilai $\\frac{2}{3} > 0$ (P > Q)\n\n* **Jika $k = 2$:**\n  $P = 2 \\ast (-4) = \\frac{2 \\times (-4)}{2 \\times (2 + (-4))} = \\frac{-8}{2 \\times (-2)} = \\frac{-8}{-4} = 2$\n  Nilai $2 > 0$ (P > Q)\n\n**Kesimpulan:**\nKarena untuk $k = 1$ maupun $k = 2$ nilai P selalu positif (lebih besar dari 0), maka **Kuantitas P lebih besar daripada Q**.",
+    "tabel_pembahasan": {
+      "header": ["Nilai k", "Hasil Operasi P", "Kuantitas Q", "Hubungan"],
+      "rows": [
+        ["k = 1", "2/3", "0", "P > Q"],
+        ["k = 2", "2", "0", "P > Q"]
+      ]
+    }
   },
   {
     "id": 19,
