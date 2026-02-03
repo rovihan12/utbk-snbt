@@ -83,13 +83,13 @@
     "jawaban": "A",
     "pembahasan": "$A \\cup B = \\{1,2,3,4\\}$, $A \\cap B = \\{2,3\\}$. Selisihnya adalah {1,4}."
   },
-  {
-    "id": 13,
-    "pertanyaan": "Hasil dari $12 - 6 \\div 2 + 3$ adalah ...",
-    "pilihan": ["6", "12", "3", "15", "9"],
-    "jawaban": "B",
-    "pembahasan": "Selesaikan pembagian dulu: $12 - 3 + 3 = 12$."
-  },
+  {{
+  "id": 13,
+  "pertanyaan": "Hasil dari $12 - 6 \\div 2 + 3$ adalah ...",
+  "pilihan": ["6", "12", "3", "15", "9"],
+  "jawaban": "B",
+  "pembahasan": "Menggunakan aturan urutan operasi (KABATAKU): 1. Selesaikan pembagian terlebih dahulu: $6 \\div 2 = 3$. 2. Operasikan sisa persamaan dari kiri ke kanan: $12 - 3 + 3$. 3. Hasil akhirnya adalah $9 + 3 = 12$."
+},
   {
     "id": 14,
     "pertanyaan": "Jika $A = \\{2,4,6,8\\}$, tentukan jumlah elemen himpunan bagian A yang berisi tepat 2 elemen.",
