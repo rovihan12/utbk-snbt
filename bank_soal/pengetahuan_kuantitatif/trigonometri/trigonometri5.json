@@ -111,5 +111,19 @@
     ],
     "jawaban": "A",
     "pembahasan": "1) Uraikan kedua persamaan menggunakan rumus sin(A \u00b1 B):\n   - \\sin x \\cos y + \\cos x \\sin y = 1 + (1/5)\\cos y\n   - \\sin x \\cos y - \\cos x \\sin y = -1 + \\cos y\n2) Jumlahkan kedua persamaan tersebut:\n   2 \\sin x \\cos y = (6/5)\\cos y\n   Karena \\cos y \u2260 0, maka \\sin x = 3/5.\n3) Hitung \\cos 2x menggunakan rumus sudut rangkap:\n   \\cos 2x = 1 - 2\\sin^2 x = 1 - 2(9/25) = 1 - 18/25 = 7/25."
+  },
+  {
+    "id": 10,
+    "materi": "Trigonometri",
+    "pertanyaan": "Hasil dari $\\cos^2(70^\\circ) + \\cos^2(0^\\circ) + \\cos^2(20^\\circ) + \\cos^2(90^\\circ)$ adalah ....",
+    "pilihan": [
+      "2",
+      "3/2",
+      "1",
+      "1/2",
+      "0"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1) Gunakan identitas sudut berelasi: $\\cos^2(70^\\circ) = \\cos^2(90^\\circ - 20^\\circ) = \\sin^2(20^\\circ)$.\n2) Gunakan identitas Pythagoras: $\\sin^2(20^\\circ) + \\cos^2(20^\\circ) = 1$.\n3) Hitung nilai sudut istimewa: $\\cos^2(0^\\circ) = 1$ dan $\\cos^2(90^\\circ) = 0$.\n4) Jumlahkan semua: $1 + 1 + 0 = 2$."
   }
 ]
