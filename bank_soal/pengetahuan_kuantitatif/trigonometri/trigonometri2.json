@@ -44,17 +44,16 @@
   {
     "id": 4,
     "kategori": "Sedang",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/20260125_140655.jpg",
-    "pertanyaan": "Banyaknya persegi pada bangun datar di atas adalah ...",
+    "pertanyaan": "Nilai dari $\\lim_{x \\to 0} \\frac{\\sin 4x + \\sin 2x}{3x \\cos x} = ....$",
     "pilihan": [
-      "4",
-      "5",
-      "8",
-      "9",
-      "12"
+      "1/4",
+      "1/2",
+      "1",
+      "3/2",
+      "2"
     ],
-    "jawaban": "D",
-    "pembahasan": "Berdasarkan pengamatan visual gambar:\n\n1. Persegi ukuran $1 \\times 1$:\n- Bagian pusat (grid): 4 buah\n- Bagian sayap (atas, bawah, kiri, kanan): 4 buah\nTotal = 8 buah.\n\n2. Persegi ukuran $2 \\times 2$:\n- Terbentuk di bagian pusat: 1 buah.\n\nTotal keseluruhan = $8 + 1 = 9$ buah."
+    "jawaban": "E",
+    "pembahasan": "Gunakan sifat $\\lim_{x \\to 0} \\frac{\\sin ax}{bx} = \\frac{a}{b}$ dan substitusi langsung untuk nilai $\\cos 0$.\n\nPersamaan dapat dipecah menjadi:\n$\\lim_{x \\to 0} (\\frac{\\sin 4x}{3x \\cos x} + \\frac{\\sin 2x}{3x \\cos x})$\n\nEvaluasi masing-masing bagian:\n1) $\\lim_{x \\to 0} \\frac{\\sin 4x}{3x} \\cdot \\frac{1}{\\cos x} = \\frac{4}{3} \\cdot \\frac{1}{1} = \\frac{4}{3}$\n2) $\\lim_{x \\to 0} \\frac{\\sin 2x}{3x} \\cdot \\frac{1}{\\cos x} = \\frac{2}{3} \\cdot \\frac{1}{1} = \\frac{2}{3}$\n\nJumlahkan hasilnya:\n$4/3 + 2/3 = 6/3 = 2$."
   },
  {
     "id": 5,
