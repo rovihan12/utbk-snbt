@@ -100,7 +100,7 @@
     "pembahasan": "Gunakan identitas cos 2x = 2 cos^2 x - 1. Persamaan pertama menjadi 2 cos^2 x + 2 cos^2 y = 8/5 atau cos^2 x + cos^2 y = 4/5. Substitusi cos y = 2 cos x menjadi cos^2 x + 4 cos^2 x = 4/5, sehingga 5 cos^2 x = 4/5 dan cos x = 2/5. Maka cos y = 4/5. Nilai cos x + cos y = 2/5 + 4/5 = 6/5."
   },
   {
-    "id": 11,
+    "id": 9,
     "kategori": "Sulit",
     "pertanyaan": "Diketahui sistem persamaan: \n\\sin(x + y) = 1 + \\frac{1}{5}\\cos y \n\\sin(x - y) = -1 + \\cos y \nDengan $0 < y < \\frac{\\pi}{2}$. Maka, nilai dari $\\cos 2x = ....$",
     "pilihan": [
@@ -113,3 +113,4 @@
     "jawaban": "A",
     "pembahasan": "1) Uraikan kedua persamaan menggunakan rumus sin(A \u00b1 B):\n   - \\sin x \\cos y + \\cos x \\sin y = 1 + (1/5)\\cos y\n   - \\sin x \\cos y - \\cos x \\sin y = -1 + \\cos y\n2) Jumlahkan kedua persamaan tersebut:\n   2 \\sin x \\cos y = (6/5)\\cos y\n   Karena \\cos y \u2260 0, maka \\sin x = 3/5.\n3) Hitung \\cos 2x menggunakan rumus sudut rangkap:\n   \\cos 2x = 1 - 2\\sin^2 x = 1 - 2(9/25) = 1 - 18/25 = 7/25."
   }
+]
