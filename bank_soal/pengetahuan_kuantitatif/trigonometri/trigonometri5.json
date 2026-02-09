@@ -1,12 +1,12 @@
 [
- {
+  {
     "id": 1,
     "kategori": "Sulit",
     "pertanyaan": "Jika $\\tan 2\\alpha = 4 \\sin \\alpha \\cos \\alpha$ untuk $\\pi/2 < \\alpha < \\pi$, maka $\\cos \\alpha = ...$",
     "pilihan": [
       "$\\frac{1}{2}\\sqrt{3}$",
       "$\\frac{1}{2}$",
-      "0",
+      "$0$",
       "$-\\frac{1}{2}$",
       "$-\\frac{1}{2}\\sqrt{3}$"
     ],
@@ -16,28 +16,40 @@
   {
     "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Diketahui $\\tan(\\theta) = 2/3$ dan $\\theta$ adalah sudut lancip. Manakah pernyataan berikut yang benar?\n(1) $\\sin(\\theta) = 2/\\sqrt{13}$\n(2) $\\cos(\\theta) = 3/\\sqrt{13}$\n(3) $\\text{cosec}(\\theta) = \\sqrt{13}/2$\n(4) $\\tan(90^\\circ - \\theta) = 3/2$",
-    "pilihan": ["(1), (2), dan (3) SAJA", "(1) dan (3) SAJA", "(2) dan (4) SAJA", "(4) SAJA", "SEMUA PILIHAN"],
+    "pertanyaan": "Diketahui $\\tan \\theta = 2/3$ dan $\\theta$ adalah sudut lancip. Manakah pernyataan berikut yang benar?\n(1) $\\sin \\theta = 2/\\sqrt{13}$\n(2) $\\cos \\theta = 3/\\sqrt{13}$\n(3) $\\csc \\theta = \\sqrt{13}/2$\n(4) $\\tan(90^\\circ - \\theta) = 3/2$",
+    "pilihan": [
+      "(1), (2), dan (3) SAJA",
+      "(1) dan (3) SAJA",
+      "(2) dan (4) SAJA",
+      "(4) SAJA",
+      "SEMUA PILIHAN"
+    ],
     "jawaban": "E",
-    "pembahasan": "Dengan $\\tan \\theta = 2/3$, maka sisi miring = $\\sqrt{2^2 + 3^2} = \\sqrt{13}$. (1) $\\sin \\theta = de/mi = 2/\\sqrt{13}$ (B). (2) $\\cos \\theta = sa/mi = 3/\\sqrt{13}$ (B). (3) $\\text{cosec} \\theta = 1/\\sin \\theta = \\sqrt{13}/2$ (B). (4) $\\tan(90^\\circ - \\theta) = \\cot \\theta = 3/2$ (B). Semua benar."
+    "pembahasan": "Dengan $\\tan \\theta = 2/3$, maka sisi miring $= \\sqrt{2^2 + 3^2} = \\sqrt{13}$.\n(1) $\\sin \\theta = de/mi = 2/\\sqrt{13}$ (Benar).\n(2) $\\cos \\theta = sa/mi = 3/\\sqrt{13}$ (Benar).\n(3) $\\csc \\theta = 1/\\sin \\theta = \\sqrt{13}/2$ (Benar).\n(4) $\\tan(90^\\circ - \\theta) = \\cot \\theta = 3/2$ (Benar).\nSemua benar."
   },
- {
-  "id": 3,
-  "kategori": "Sedang",
-  "pertanyaan": "Diketahui segitiga ABC siku-siku di C. Jika $\\tan A = \\frac{1}{2}$, nilai $2 \\cos^2 A + \\tan^2 B$ adalah ....",
-  "pilihan": ["22/5", "24/5", "28/5", "32/5", "36/5"],
-  "jawaban": "C",
-  "pembahasan": "Misalkan $BC = 1$ dan $AC = 2$, maka sisi miring $AB = \\sqrt{5}$. Didapat $\\cos A = 2/\\sqrt{5}$ dan $\\tan B = AC/BC = 2/1 = 2$. Nilai $2\\cos^2 A + \\tan^2 B = 2(2/\\sqrt{5})^2 + (2)^2 = 8/5 + 4 = 28/5$."
-},
+  {
+    "id": 3,
+    "kategori": "Sedang",
+    "pertanyaan": "Diketahui segitiga $ABC$ siku-siku di $C$. Jika $\\tan A = \\frac{1}{2}$, nilai $2 \\cos^2 A + \\tan^2 B$ adalah ....",
+    "pilihan": [
+      "$22/5$",
+      "$24/5$",
+      "$28/5$",
+      "$32/5$",
+      "$36/5$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Misalkan $BC = 1$ dan $AC = 2$, maka sisi miring $AB = \\sqrt{5}$. Didapat $\\cos A = 2/\\sqrt{5}$ dan $\\tan B = AC/BC = 2/1 = 2$. Nilai $2\\cos^2 A + \\tan^2 B = 2(2/\\sqrt{5})^2 + (2)^2 = 8/5 + 4 = 28/5$."
+  },
   {
     "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $\\lim_{x \\to -2} \\frac{(x + 5) \\sin(x + 2)}{x^2 - 2x - 8} = ....$",
     "pilihan": [
-      "-1/2",
-      "-2",
-      "1/2",
-      "2"
+      "$-1/2$",
+      "$-2$",
+      "$1/2$",
+      "$2$"
     ],
     "jawaban": "A",
     "pembahasan": "1) Faktorkan penyebut: $x^2 - 2x - 8 = (x - 4)(x + 2)$.\n2) Gunakan sifat limit trigonometri: $\\lim_{x \\to -2} \\frac{\\sin(x + 2)}{x + 2} = 1$.\n3) Substitusikan $x = -2$ ke sisa persamaan: $\\frac{x + 5}{x - 4} = \\frac{-2 + 5}{-2 - 4} = \\frac{3}{-6} = -1/2$."
@@ -47,25 +59,25 @@
     "kategori": "Sulit",
     "pertanyaan": "Diketahui $0 \\leq x \\leq 90^\\circ$ dan $0 \\leq y \\leq 90^\\circ$. Jika $\\sin x - \\sin y = \\frac{3}{5}$ dan $\\cos x + \\cos y = \\frac{4}{5}$, maka nilai $\\sin(x + y) = ....$",
     "pilihan": [
-      "3/2",
-      "5/4",
-      "1",
-      "1/5",
+      "$3/2$",
+      "$5/4$",
+      "$1$",
+      "$1/5$",
       "$\\frac{1}{2}\\sqrt{3}$"
     ],
     "jawaban": "E",
-    "pembahasan": "Kuadratkan kedua ruas persamaan: \n1) $(\\sin x - \\sin y)^2 = 9/25 \\Rightarrow \\sin^2 x + \\sin^2 y - 2\\sin x \\sin y = 9/25$\n2) $(\\cos x + \\cos y)^2 = 16/25 \\Rightarrow \\cos^2 x + \\cos^2 y + 2\\cos x \\cos y = 16/25$\n\nJumlahkan (1) dan (2):\n$(\\sin^2 x + \\cos^2 x) + (\\sin^2 y + \\cos^2 y) + 2(\\cos x \\cos y - \\sin x \\sin y) = 1$\n$1 + 1 + 2 \\cos(x + y) = 1$\n$2 + 2 \\cos(x + y) = 1 \\Rightarrow \\cos(x + y) = -1/2$.\n\nMencari nilai sinus:\n$\\sin(x + y) = \\sqrt{1 - \\cos^2(x + y)} = \\sqrt{1 - (-1/2)^2} = \\sqrt{3/4} = \\frac{1}{2}\\sqrt{3}$."
+    "pembahasan": "Kuadratkan kedua ruas persamaan:\n1) $(\\sin x - \\sin y)^2 = 9/25 \\implies \\sin^2 x + \\sin^2 y - 2\\sin x \\sin y = 9/25$\n2) $(\\cos x + \\cos y)^2 = 16/25 \\implies \\cos^2 x + \\cos^2 y + 2\\cos x \\cos y = 16/25$\n\nJumlahkan (1) dan (2):\n$(\\sin^2 x + \\cos^2 x) + (\\sin^2 y + \\cos^2 y) + 2(\\cos x \\cos y - \\sin x \\sin y) = 1 + 1 + 2 \\cos(x + y) = 1$\n$2 + 2 \\cos(x + y) = 1 \\implies \\cos(x + y) = -1/2$.\n\nMencari nilai sinus:\n$\\sin(x + y) = \\sqrt{1 - \\cos^2(x + y)} = \\sqrt{1 - (-1/2)^2} = \\sqrt{3/4} = \\frac{1}{2}\\sqrt{3}$."
   },
   {
     "id": 6,
     "kategori": "Sedang",
     "pertanyaan": "Nilai dari $\\lim_{x \\to 0} \\frac{\\cos 2x - \\cos 4x}{3x^2} = ....$",
     "pilihan": [
-      "0",
-      "2",
-      "-2",
-      "4",
-      "\\infty"
+      "$0$",
+      "$2$",
+      "$-2$",
+      "$4$",
+      "$\\infty$"
     ],
     "jawaban": "B",
     "pembahasan": "Gunakan rumus selisih kosinus: $\\cos A - \\cos B = -2 \\sin(\\frac{A+B}{2}) \\sin(\\frac{A-B}{2})$.\n\n1) Ubah pembilang: $\\cos 2x - \\cos 4x = -2 \\sin 3x \\sin(-x) = 2 \\sin 3x \\sin x$.\n2) Masukkan ke limit: $\\lim_{x \\to 0} \\frac{2 \\sin 3x \\sin x}{3x^2}$.\n3) Gunakan sifat limit trigonometri: $\\frac{2}{3} \\cdot \\frac{3}{1} \\cdot \\frac{1}{1} = 2$."
@@ -73,55 +85,55 @@
   {
     "id": 7,
     "materi": "Trigonometri",
-    "pertanyaan": "Diketahui segitiga ABC mempunyai panjang sisi AC = b cm, BC = a cm, a + b = 12 cm. Jika sudut A sebesar 60 derajat dan sudut B sebesar 30 derajat, maka panjang sisi AB = ....",
+    "pertanyaan": "Diketahui segitiga $ABC$ mempunyai panjang sisi $AC = b$ cm, $BC = a$ cm, $a + b = 12$ cm. Jika sudut $A$ sebesar $60^\\circ$ dan sudut $B$ sebesar $30^\\circ$, maka panjang sisi $AB = ....$",
     "pilihan": [
-      "-12\u221a3 - 12",
-      "12\u221a3 - 12",
-      "12 - 6\u221a3",
-      "12 + 6\u221a3",
-      "12\u221a3 + 12"
+      "$-12\\sqrt{3} - 12$",
+      "$12\\sqrt{3} - 12$",
+      "$12 - 6\\sqrt{3}$",
+      "$12 + 6\\sqrt{3}$",
+      "$12\\sqrt{3} + 12$"
     ],
     "jawaban": "B",
-    "pembahasan": "Sudut C = 180 - (60 + 30) = 90 derajat. Dengan aturan sinus: a/sin 60 = b/sin 30, didapat a = b\u221a3. Substitusi ke a + b = 12 menjadi b\u221a3 + b = 12, sehingga b = 6\u221a3 - 6. Panjang AB (c) dihitung dengan sin B = b/c, maka c = b / sin 30 = (6\u221a3 - 6) / 0.5 = 12\u221a3 - 12."
+    "pembahasan": "Sudut $C = 180^\\circ - (60^\\circ + 30^\\circ) = 90^\\circ$. Dengan aturan sinus: $a/\\sin 60^\\circ = b/\\sin 30^\\circ$, didapat $a = b\\sqrt{3}$. Substitusi ke $a + b = 12$ menjadi $b\\sqrt{3} + b = 12$, sehingga $b = 6\\sqrt{3} - 6$. Panjang $AB$ ($c$) dihitung dengan $\\sin B = b/c$, maka $c = b / \\sin 30^\\circ = (6\\sqrt{3} - 6) / 0.5 = 12\\sqrt{3} - 12$."
   },
   {
     "id": 8,
     "materi": "Trigonometri",
-    "pertanyaan": "Jika (x, y) dimana 0 < x, y < \u03c0/2 adalah penyelesaian dari sistem persamaan cos 2x + cos 2y = -2/5 dan cos y = 2 cos x, maka nilai dari cos x + cos y = ....",
+    "pertanyaan": "Jika $(x, y)$ dimana $0 < x, y < \\pi/2$ adalah penyelesaian dari sistem persamaan $\\cos 2x + \\cos 2y = -2/5$ dan $\\cos y = 2 \\cos x$, maka nilai dari $\\cos x + \\cos y = ....$",
     "pilihan": [
-      "3\u221a6 / 5",
-      "\u221a3 / 5",
-      "3\u221a3 / 5",
-      "3/5",
-      "6/5"
+      "$3\\sqrt{6} / 5$",
+      "$\\sqrt{3} / 5$",
+      "$3\\sqrt{3} / 5$",
+      "$3/5$",
+      "$6/5$"
     ],
     "jawaban": "E",
-    "pembahasan": "Gunakan identitas cos 2x = 2 cos^2 x - 1. Persamaan pertama menjadi 2 cos^2 x + 2 cos^2 y = 8/5 atau cos^2 x + cos^2 y = 4/5. Substitusi cos y = 2 cos x menjadi cos^2 x + 4 cos^2 x = 4/5, sehingga 5 cos^2 x = 4/5 dan cos x = 2/5. Maka cos y = 4/5. Nilai cos x + cos y = 2/5 + 4/5 = 6/5."
+    "pembahasan": "Gunakan identitas $\\cos 2x = 2 \\cos^2 x - 1$. Persamaan pertama menjadi $2 \\cos^2 x + 2 \\cos^2 y = 8/5$ atau $\\cos^2 x + \\cos^2 y = 4/5$. Substitusi $\\cos y = 2 \\cos x$ menjadi $\\cos^2 x + 4 \\cos^2 x = 4/5$, sehingga $5 \\cos^2 x = 4/5$ dan $\\cos x = 2/5$. Maka $\\cos y = 4/5$. Nilai $\\cos x + \\cos y = 2/5 + 4/5 = 6/5$."
   },
   {
     "id": 9,
     "kategori": "Sulit",
-    "pertanyaan": "Diketahui sistem persamaan: \n\\sin(x + y) = 1 + \\frac{1}{5}\\cos y \n\\sin(x - y) = -1 + \\cos y \nDengan $0 < y < \\frac{\\pi}{2}$. Maka, nilai dari $\\cos 2x = ....$",
+    "pertanyaan": "Diketahui sistem persamaan: \n$\\sin(x + y) = 1 + \\frac{1}{5}\\cos y$ \n$\\sin(x - y) = -1 + \\cos y$ \nDengan $0 < y < \\frac{\\pi}{2}$. Maka, nilai dari $\\cos 2x = ....$",
     "pilihan": [
-      "7/25",
-      "7/24",
-      "-7/25",
-      "-7/24",
-      "-17/25"
+      "$7/25$",
+      "$7/24$",
+      "$-7/25$",
+      "$-7/24$",
+      "$-17/25$"
     ],
     "jawaban": "A",
-    "pembahasan": "1) Uraikan kedua persamaan menggunakan rumus sin(A \u00b1 B):\n   - \\sin x \\cos y + \\cos x \\sin y = 1 + (1/5)\\cos y\n   - \\sin x \\cos y - \\cos x \\sin y = -1 + \\cos y\n2) Jumlahkan kedua persamaan tersebut:\n   2 \\sin x \\cos y = (6/5)\\cos y\n   Karena \\cos y \u2260 0, maka \\sin x = 3/5.\n3) Hitung \\cos 2x menggunakan rumus sudut rangkap:\n   \\cos 2x = 1 - 2\\sin^2 x = 1 - 2(9/25) = 1 - 18/25 = 7/25."
+    "pembahasan": "1) Uraikan kedua persamaan menggunakan rumus $\\sin(A \\pm B)$:\n   - $\\sin x \\cos y + \\cos x \\sin y = 1 + (1/5)\\cos y$\n   - $\\sin x \\cos y - \\cos x \\sin y = -1 + \\cos y$\n2) Jumlahkan kedua persamaan tersebut:\n   $2 \\sin x \\cos y = (6/5)\\cos y$\n   Karena $\\cos y \\neq 0$, maka $\\sin x = 3/5$.\n3) Hitung $\\cos 2x$ menggunakan rumus sudut rangkap:\n   $\\cos 2x = 1 - 2\\sin^2 x = 1 - 2(9/25) = 1 - 18/25 = 7/25$."
   },
   {
     "id": 10,
     "materi": "Trigonometri",
     "pertanyaan": "Hasil dari $\\cos^2(70^\\circ) + \\cos^2(0^\\circ) + \\cos^2(20^\\circ) + \\cos^2(90^\\circ)$ adalah ....",
     "pilihan": [
-      "2",
-      "3/2",
-      "1",
-      "1/2",
-      "0"
+      "$2$",
+      "$3/2$",
+      "$1$",
+      "$1/2$",
+      "$0$"
     ],
     "jawaban": "A",
     "pembahasan": "1) Gunakan identitas sudut berelasi: $\\cos^2(70^\\circ) = \\cos^2(90^\\circ - 20^\\circ) = \\sin^2(20^\\circ)$.\n2) Gunakan identitas Pythagoras: $\\sin^2(20^\\circ) + \\cos^2(20^\\circ) = 1$.\n3) Hitung nilai sudut istimewa: $\\cos^2(0^\\circ) = 1$ dan $\\cos^2(90^\\circ) = 0$.\n4) Jumlahkan semua: $1 + 1 + 0 = 2$."
