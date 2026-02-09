@@ -69,5 +69,35 @@
     ],
     "jawaban": "B",
     "pembahasan": "Gunakan rumus selisih kosinus: $\\cos A - \\cos B = -2 \\sin(\\frac{A+B}{2}) \\sin(\\frac{A-B}{2})$.\n\n1) Ubah pembilang: $\\cos 2x - \\cos 4x = -2 \\sin 3x \\sin(-x) = 2 \\sin 3x \\sin x$.\n2) Masukkan ke limit: $\\lim_{x \\to 0} \\frac{2 \\sin 3x \\sin x}{3x^2}$.\n3) Gunakan sifat limit trigonometri: $\\frac{2}{3} \\cdot \\frac{3}{1} \\cdot \\frac{1}{1} = 2$."
+  },
+[
+  {
+    "id": 7,
+    "materi": "Trigonometri",
+    "pertanyaan": "Diketahui segitiga ABC mempunyai panjang sisi AC = b cm, BC = a cm, a + b = 12 cm. Jika sudut A sebesar 60 derajat dan sudut B sebesar 30 derajat, maka panjang sisi AB = ....",
+    "pilihan": [
+      "-12\u221a3 - 12",
+      "12\u221a3 - 12",
+      "12 - 6\u221a3",
+      "12 + 6\u221a3",
+      "12\u221a3 + 12"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Sudut C = 180 - (60 + 30) = 90 derajat. Dengan aturan sinus: a/sin 60 = b/sin 30, didapat a = b\u221a3. Substitusi ke a + b = 12 menjadi b\u221a3 + b = 12, sehingga b = 6\u221a3 - 6. Panjang AB (c) dihitung dengan sin B = b/c, maka c = b / sin 30 = (6\u221a3 - 6) / 0.5 = 12\u221a3 - 12."
+  },
+  {
+    "id": 8,
+    "materi": "Trigonometri",
+    "pertanyaan": "Jika (x, y) dimana 0 < x, y < \u03c0/2 adalah penyelesaian dari sistem persamaan cos 2x + cos 2y = -2/5 dan cos y = 2 cos x, maka nilai dari cos x + cos y = ....",
+    "pilihan": [
+      "3\u221a6 / 5",
+      "\u221a3 / 5",
+      "3\u221a3 / 5",
+      "3/5",
+      "6/5"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Gunakan identitas cos 2x = 2 cos^2 x - 1. Persamaan pertama menjadi 2 cos^2 x + 2 cos^2 y = 8/5 atau cos^2 x + cos^2 y = 4/5. Substitusi cos y = 2 cos x menjadi cos^2 x + 4 cos^2 x = 4/5, sehingga 5 cos^2 x = 4/5 dan cos x = 2/5. Maka cos y = 4/5. Nilai cos x + cos y = 2/5 + 4/5 = 6/5."
   }
+
 ]
