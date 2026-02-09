@@ -101,14 +101,6 @@
   },
   {
     "id": 10,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika sudut lancip $\\alpha$ memenuhi $\\sin \\alpha = \\frac{1}{3}\\sqrt{3}$, maka $\\tan(\\frac{1}{2}\\pi - \\alpha) + 3 \\cos \\alpha = ....$",
-    "pilihan": ["$3\\sqrt{2} - \\sqrt{3}$", "$3\\sqrt{2} + \\sqrt{3}$", "$\\sqrt{6} + \\sqrt{2}$", "$\\sqrt{6} - \\sqrt{2}$", "$\\sqrt{2} + \\sqrt{3}$"],
-    "jawaban": "C",
-    "pembahasan": "$\\tan(\\pi/2 - \\alpha) = \\cot \\alpha$. Jika $\\sin \\alpha = \\sqrt{3}/3$, maka sisi samping = $\\sqrt{3^2 - (\\sqrt{3})^2} = \\sqrt{6}$. $\\cot \\alpha = \\sqrt{6}/\\sqrt{3} = \\sqrt{2}$ dan $\\cos \\alpha = \\sqrt{6}/3$. Hasil: $\\sqrt{2} + 3(\\sqrt{6}/3) = \\sqrt{2} + \\sqrt{6}$."
-  },
-  {
-    "id": 6,
     "pertanyaan": "Diketahui $x = \\sin \\alpha + \\cos \\beta$ dan $y = \\cos \\alpha - \\sin \\beta$. Nilai maksimum dari $4x^2 + 4y^2 + 3 = ....$",
     "pilihan": ["16", "17", "18", "19", "20"],
     "jawaban": "D",
