@@ -12,5 +12,21 @@
     ],
     "jawaban": "C",
     "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$ dengan $\\tan 60^\\circ = QR/PQ \\implies \\sqrt{3} = QR/4 \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
+  },
+  {
+    "id": 2,
+    "materi": "Trigonometri",
+    "pertanyaan": "Bentuk sederhana dari $\\frac{(\\cos x + \\sin x)^2}{(\\cos x - \\sin x)^2} = ....$",
+    "pilihan": [
+      "$\\frac{1}{1 - \\cos 2x}$",
+      "$\\frac{1}{1 - \\sin 2x}$",
+      "$\\frac{1 + \\cos 2x}{1 - \\cos 2x}$",
+      "$\\frac{1 + 2 \\sin x}{1 - 2 \\sin x}$",
+      "$\\frac{1 + \\sin 2x}{1 - \\sin 2x}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$.\n4) Sehingga hasilnya adalah $\\frac{1 + \\sin 2x}{1 - \\sin 2x}$."
   }
+]
+
 ]
