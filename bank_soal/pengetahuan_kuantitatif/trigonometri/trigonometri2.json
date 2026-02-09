@@ -55,20 +55,20 @@
     "jawaban": "E",
     "pembahasan": "Gunakan sifat $\\lim_{x \\to 0} \\frac{\\sin ax}{bx} = \\frac{a}{b}$ dan substitusi langsung untuk nilai $\\cos 0$.\n\nPersamaan dapat dipecah menjadi:\n$\\lim_{x \\to 0} (\\frac{\\sin 4x}{3x \\cos x} + \\frac{\\sin 2x}{3x \\cos x})$\n\nEvaluasi masing-masing bagian:\n1) $\\lim_{x \\to 0} \\frac{\\sin 4x}{3x} \\cdot \\frac{1}{\\cos x} = \\frac{4}{3} \\cdot \\frac{1}{1} = \\frac{4}{3}$\n2) $\\lim_{x \\to 0} \\frac{\\sin 2x}{3x} \\cdot \\frac{1}{\\cos x} = \\frac{2}{3} \\cdot \\frac{1}{1} = \\frac{2}{3}$\n\nJumlahkan hasilnya:\n$4/3 + 2/3 = 6/3 = 2$."
   },
- {
+  {
     "id": 5,
-    "kategori": "Sulit",
-    "pertanyaan": "Untuk setiap bilangan bulat $b$ didefinisikan:\n$[b] = \\begin{cases} \\frac{36}{b - 4}, & \\text{jika } b \\text{ genap negatif} \\\\ (3b - 7)b, & \\text{jika } b \\text{ ganjil positif} \\\\ \\frac{4b}{2}, & \\text{jika } b \\text{ lainnya} \\end{cases}$\n\nNilai $[2 \\times [1]]$ sama dengan ...",
+    "kategori": "Mudah",
+    "pertanyaan": "Diketahui $f(x) = 4 + 2 \\cos(2x + 2022)$. Nilai maksimum dari $f(x)$ adalah ....",
     "pilihan": [
-      "-20",
-      "-9",
-      "-3",
-      "9",
-      "20"
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
     ],
     "jawaban": "C",
-    "pembahasan": "Selesaikan operasi bertahap dari dalam kurung.\n\n1. Hitung [1]: Karena 1 adalah ganjil positif, maka [1] = (3(1) - 7)(1) = -4.\n2. Hitung [2 × -4]: Kita mencari nilai [-8]. Karena -8 adalah genap negatif, maka [-8] = 36 / (-8 - 4) = 36 / -12 = -3.\n\nJadi, nilai akhirnya adalah -3."
-},
+    "pembahasan": "Nilai maksimum dari fungsi trigonometri bentuk $f(x) = a + b \\cos(kx + c)$ dapat ditentukan dengan melihat nilai ekstrem kosinus.\n\nNilai maksimum dari $\\cos(\\theta)$ adalah 1.\nSubstitusikan nilai tersebut ke dalam fungsi:\n$f(x) = 4 + 2(1)$\n$f(x) = 4 + 2 = 6$\n\nJadi, nilai maksimumnya adalah 6."
+  },
   {
     "id": 6,
     "kategori": "Sedang",
