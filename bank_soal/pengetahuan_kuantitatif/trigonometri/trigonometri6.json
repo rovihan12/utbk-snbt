@@ -1,15 +1,16 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sedang pengembangan",
+    "kategori": "Mudah",
+    "pertanyaan": "Diberikan segitiga $PQR$ dengan $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ dan siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
     "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
+      "$2\\sqrt{5}$",
+      "$\\sqrt{21}$",
+      "$8\\sqrt{3}$",
+      "$\\sqrt{23}$",
+      "$2\\sqrt{6}$"
     ],
-    "jawaban": "A",
-    "pembahasan": "Sedang pengembangan."
+    "jawaban": "C",
+    "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$ dengan $\\tan 60^\\circ = QR/PQ \\implies \\sqrt{3} = QR/4 \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
   }
 ]
