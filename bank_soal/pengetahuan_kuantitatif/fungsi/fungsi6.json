@@ -119,45 +119,75 @@
     "jawaban": "A",
     "pembahasan": "Turunan $f'(x) = d/dx(2x^2-3x+1) = 4x -3$."
   },
-  {
+ {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Selesaikan persamaan $x^2 - 4x + 4 = 0$.",
-    "pilihan": ["1","2","3","4","5"],
-    "jawaban": "B",
-    "pembahasan": "Faktorkan: $(x-2)^2=0 \\Rightarrow x=2$."
-  },
+    "pertanyaan": "Untuk setiap bilangan bulat $b$ didefinisikan:\n$[b] = \\begin{cases} \\frac{36}{b - 4}, & \\text{jika } b \\text{ genap negatif} \\\\ (3b - 7)b, & \\text{jika } b \\text{ ganjil positif} \\\\ \\frac{4b}{2}, & \\text{jika } b \\text{ lainnya} \\end{cases}$\n\nNilai $[2 \\times [1]]$ sama dengan ...",
+    "pilihan": [
+      "-20",
+      "-9",
+      "-3",
+      "9",
+      "20"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Selesaikan operasi bertahap dari dalam kurung.\n\n1. Hitung [1]: Karena 1 adalah ganjil positif, maka [1] = (3(1) - 7)(1) = -4.\n2. Hitung [2 × -4]: Kita mencari nilai [-8]. Karena -8 adalah genap negatif, maka [-8] = 36 / (-8 - 4) = 36 / -12 = -3.\n\nJadi, nilai akhirnya adalah -3."
+},
   {
     "id": 17,
-    "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x^2$ dan $g(x)=2x+1$, tentukan $(f \\circ g)(1)$.",
-    "pilihan": ["1","4","6","9","16"],
-    "jawaban": "D",
-    "pembahasan": "$g(1)=2\\cdot1+1=3$, kemudian $f(3)=3^2=9$."
+    "kategori": "Sedang",
+    "pertanyaan": "Baca **Teks** berikut untuk menjawab soal 6-8. \n\n Grafik fungsi $f(x) = x^2 + 6x - 3$ dan garis $2y - bx + 12 = 0$ berpotongan di dua titik berbeda, yaitu $B(3, a)$ dan $M(p, q)$. Nilai $q$ sama dengan ...",
+    "pilihan": [
+      "8",
+      "7",
+      "4",
+      "3",
+      "1"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Langkah 1: Cari nilai $a$ dengan substitusi $x=3$ ke $f(x)$.\n$a = f(3) = 3^2 + 6(3) - 3 = 24$. Titik $B(3, 24)$.\n\nLangkah 2: Cari nilai $b$ dengan substitusi $B(3, 24)$ ke garis.\n$2(24) - b(3) + 12 = 0 \\implies 60 = 3b \\implies b = 20$.\nPersamaan garis: $2y - 20x + 12 = 0 \\implies y = 10x - 6$.\n\nLangkah 3: Cari titik potong $M$ dengan menyamakan kurva dan garis.\n$x^2 + 6x - 3 = 10x - 6 \\implies x^2 - 4x + 3 = 0 \\implies (x-3)(x-1) = 0$.\nKarena $x=3$ adalah titik $B$, maka $M$ berada di $x=1$.\n\nLangkah 4: Cari $q$ dengan substitusi $x=1$ ke garis.\n$q = 10(1) - 6 = 4$."
   },
   {
     "id": 18,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $2^{x} = 8$.",
-    "pilihan": ["1","2","3","4","5"],
-    "jawaban": "C",
-    "pembahasan": "$8 = 2^3 \\Rightarrow 2^x = 2^3 \\Rightarrow x=3$."
+    "kategori": "Mudah",
+    "pertanyaan": "Gradien garis $k$ sama dengan ...",
+    "pilihan": [
+      "1/12",
+      "1/10",
+      "2",
+      "10",
+      "12"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Garis $k$ melalui $B(3, 24)$ dan $M(1, 4)$.\nGradien ($m$) = $\\frac{y_2 - y_1}{x_2 - x_1} = \\frac{24 - 4}{3 - 1} = \\frac{20}{2} = 10$.\nAtau dari bentuk $y = mx + c$, gradien adalah koefisien $x$ yaitu 10."
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $f(x)=x-3$, tentukan $x$ sehingga $f(x)=4$.",
-    "pilihan": ["5","6","7","8","9"],
-    "jawaban": "C",
-    "pembahasan": "x-3=4 \\Rightarrow x=7."
+    "pertanyaan": "Jika garis $y = cx + d$ tegak lurus pada garis $k$ dan melalui titik $M$, nilai $c + d$ sama dengan ...",
+    "pilihan": [
+      "-10",
+      "-1/10",
+      "1/10",
+      "4",
+      "10"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1. Gradien garis $k$ adalah $10$. Gradien garis tegak lurus ($c$) adalah:\n$c \\times 10 = -1 \\implies c = -1/10$.\n\n2. Cari nilai $d$ dengan substitusi titik $M(1, 4)$ ke $y = cx + d$:\n$4 = (-1/10)(1) + d \\implies d = 4 + 0,1 = 4,1 = 41/10$.\n\n3. Hitung $c + d$:\n$c + d = -1/10 + 41/10 = 40/10 = 4$."
   },
-  {
-    "id": 20,
-    "kategori": "Sulit",
-    "pertanyaan": "Selesaikan $|x+2| -3 = 0$.",
-    "pilihan": ["-5 dan 1","-1 dan 5","-2 dan 3","-3 dan 2","0 dan 5"],
-    "jawaban": "A",
-    "pembahasan": "$|x+2| = 3 \\Rightarrow x+2=3$ atau $x+2=-3 \\Rightarrow x=1$ atau $x=-5$."
-  }
+{
+  "id": 20,
+  "kategori": "Sulit",
+  "pertanyaan": "Fungsi $p$ memenuhi $\\frac{8}{x - 1} < p(x) < 3^x$ untuk $x \\geq 2$. Di antara pilihan berikut, nilai $p$ di $x = 3$ yang tidak mungkin adalah......\n(1) 30\n(2) 20\n(3) 3\n(4) 10",
+  "pilihan": [
+    "A. (1), (2), dan (3) SAJA",
+    "B. (1) dan (3) SAJA",
+    "C. (2) dan (4) SAJA",
+    "D. (4) SAJA",
+    "E. SEMUA PILIHAN"
+  ],
+  "jawaban": "B",
+  "pembahasan": "Langkah 1: Tentukan batasan nilai $p(3)$ dengan menyubstitusikan $x = 3$ ke dalam pertidaksamaan.\n$$\\frac{8}{3 - 1} < p(3) < 3^3$$\n$$\\frac{8}{2} < p(3) < 27$$\n$$4 < p(3) < 27$$\n\nLangkah 2: Uji setiap poin terhadap rentang $4 < p(3) < 27$ untuk mencari nilai yang **tidak mungkin**.\n- (1) **30**: Tidak berada dalam rentang ($30 > 27$). (Tidak Mungkin)\n- (2) **20**: Berada dalam rentang. (Mungkin)\n- (3) **3**: Tidak berada dalam rentang ($3 < 4$). (Tidak Mungkin)\n- (4) **10**: Berada dalam rentang. (Mungkin)\n\nKesimpulan: Nilai yang tidak mungkin adalah (1) dan (3) SAJA."
+}
 ]
  
