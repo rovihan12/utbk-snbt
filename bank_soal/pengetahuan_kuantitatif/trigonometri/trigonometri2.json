@@ -29,17 +29,17 @@
   },
   {
     "id": 3,
-    "kategori": "Sedang",
-    "pertanyaan": "Sepuluh bilangan yaitu 6, 2, 6, 8, 9, 4, 4, 3, 2, 9 diurutkan dari yang terkecil hingga terbesar. Jika $r$ dan $u$ berturut-turut merepresentasikan bilangan pada posisi ke-5 dan ke-7 setelah diurutkan, nilai $(r \\times u) - u$ sama dengan ...",
+    "kategori": "Mudah",
+    "pertanyaan": "Hasil dari $\\frac{\\sin 50^\\circ + \\sin 40^\\circ}{\\cos 50^\\circ + \\cos 40^\\circ}$ adalah ....",
     "pilihan": [
-      "24",
-      "18",
-      "16",
-      "14",
-      "12"
+      "-1",
+      "$-1/2\\sqrt{2}$",
+      "0",
+      "$1/2\\sqrt{2}$",
+      "1"
     ],
-    "jawaban": "B",
-    "pembahasan": "Urutkan data dari yang terkecil:\n2, 2, 3, 4, 4, 6, 6, 8, 9, 9\n\nMenentukan nilai $r$ dan $u$:\n- Bilangan posisi ke-5 ($r$) = 4\n- Bilangan posisi ke-7 ($u$) = 6\n\nMenghitung nilai yang diminta:\n$(r \\times u) - u = (4 \\times 6) - 6 = 24 - 6 = 18$"
+    "jawaban": "E",
+    "pembahasan": "Menggunakan rumus jumlah ke perkalian:\n1) Pembilang: $\\sin A + \\sin B = 2 \\sin(\\frac{A+B}{2}) \\cos(\\frac{A-B}{2})$\n$\\sin 50^\\circ + \\sin 40^\\circ = 2 \\sin 45^\\circ \\cos 5^\\circ$\n\n2) Penyebut: $\\cos A + \\cos B = 2 \\cos(\\frac{A+B}{2}) \\cos(\\frac{A-B}{2})$\n$\\cos 50^\\circ + \\cos 40^\\circ = 2 \\cos 45^\\circ \\cos 5^\\circ$\n\nSubstitusi ke persamaan:\n$\\frac{2 \\sin 45^\\circ \\cos 5^\\circ}{2 \\cos 45^\\circ \\cos 5^\\circ} = \\frac{\\sin 45^\\circ}{\\cos 45^\\circ} = \\tan 45^\\circ = 1$."
   },
   {
     "id": 4,
