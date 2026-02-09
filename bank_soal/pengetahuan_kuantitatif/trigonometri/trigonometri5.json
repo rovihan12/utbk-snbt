@@ -56,5 +56,18 @@
     "jawaban": "E",
     "pembahasan": "Kuadratkan kedua ruas persamaan: \n1) $(\\sin x - \\sin y)^2 = 9/25 \\Rightarrow \\sin^2 x + \\sin^2 y - 2\\sin x \\sin y = 9/25$\n2) $(\\cos x + \\cos y)^2 = 16/25 \\Rightarrow \\cos^2 x + \\cos^2 y + 2\\cos x \\cos y = 16/25$\n\nJumlahkan (1) dan (2):\n$(\\sin^2 x + \\cos^2 x) + (\\sin^2 y + \\cos^2 y) + 2(\\cos x \\cos y - \\sin x \\sin y) = 1$\n$1 + 1 + 2 \\cos(x + y) = 1$\n$2 + 2 \\cos(x + y) = 1 \\Rightarrow \\cos(x + y) = -1/2$.\n\nMencari nilai sinus:\n$\\sin(x + y) = \\sqrt{1 - \\cos^2(x + y)} = \\sqrt{1 - (-1/2)^2} = \\sqrt{3/4} = \\frac{1}{2}\\sqrt{3}$."
   },
-
+  {
+    "id": 6,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai dari $\\lim_{x \\to 0} \\frac{\\cos 2x - \\cos 4x}{3x^2} = ....$",
+    "pilihan": [
+      "0",
+      "2",
+      "-2",
+      "4",
+      "\\infty"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus selisih kosinus: $\\cos A - \\cos B = -2 \\sin(\\frac{A+B}{2}) \\sin(\\frac{A-B}{2})$.\n\n1) Ubah pembilang: $\\cos 2x - \\cos 4x = -2 \\sin 3x \\sin(-x) = 2 \\sin 3x \\sin x$.\n2) Masukkan ke limit: $\\lim_{x \\to 0} \\frac{2 \\sin 3x \\sin x}{3x^2}$.\n3) Gunakan sifat limit trigonometri: $\\frac{2}{3} \\cdot \\frac{3}{1} \\cdot \\frac{1}{1} = 2$."
+  }
 ]
