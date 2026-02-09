@@ -29,7 +29,6 @@
   "jawaban": "C",
   "pembahasan": "Misalkan $BC = 1$ dan $AC = 2$, maka sisi miring $AB = \\sqrt{5}$. Didapat $\\cos A = 2/\\sqrt{5}$ dan $\\tan B = AC/BC = 2/1 = 2$. Nilai $2\\cos^2 A + \\tan^2 B = 2(2/\\sqrt{5})^2 + (2)^2 = 8/5 + 4 = 28/5$."
 },
-[
   {
     "id": 5,
     "kategori": "Sedang",
@@ -42,7 +41,20 @@
     ],
     "jawaban": "A",
     "pembahasan": "1) Faktorkan penyebut: $x^2 - 2x - 8 = (x - 4)(x + 2)$.\n2) Gunakan sifat limit trigonometri: $\\lim_{x \\to -2} \\frac{\\sin(x + 2)}{x + 2} = 1$.\n3) Substitusikan $x = -2$ ke sisa persamaan: $\\frac{x + 5}{x - 4} = \\frac{-2 + 5}{-2 - 4} = \\frac{3}{-6} = -1/2$."
-  }
-]
+  },
+  {
+    "id": 5,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui $0 \\leq x \\leq 90^\\circ$ dan $0 \\leq y \\leq 90^\\circ$. Jika $\\sin x - \\sin y = \\frac{3}{5}$ dan $\\cos x + \\cos y = \\frac{4}{5}$, maka nilai $\\sin(x + y) = ....$",
+    "pilihan": [
+      "3/2",
+      "5/4",
+      "1",
+      "1/5",
+      "$\\frac{1}{2}\\sqrt{3}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Kuadratkan kedua ruas persamaan: \n1) $(\\sin x - \\sin y)^2 = 9/25 \\Rightarrow \\sin^2 x + \\sin^2 y - 2\\sin x \\sin y = 9/25$\n2) $(\\cos x + \\cos y)^2 = 16/25 \\Rightarrow \\cos^2 x + \\cos^2 y + 2\\cos x \\cos y = 16/25$\n\nJumlahkan (1) dan (2):\n$(\\sin^2 x + \\cos^2 x) + (\\sin^2 y + \\cos^2 y) + 2(\\cos x \\cos y - \\sin x \\sin y) = 1$\n$1 + 1 + 2 \\cos(x + y) = 1$\n$2 + 2 \\cos(x + y) = 1 \\Rightarrow \\cos(x + y) = -1/2$.\n\nMencari nilai sinus:\n$\\sin(x + y) = \\sqrt{1 - \\cos^2(x + y)} = \\sqrt{1 - (-1/2)^2} = \\sqrt{3/4} = \\frac{1}{2}\\sqrt{3}$."
+  },
 
 ]
