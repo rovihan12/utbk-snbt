@@ -28,5 +28,21 @@
   "pilihan": ["22/5", "24/5", "28/5", "32/5", "36/5"],
   "jawaban": "C",
   "pembahasan": "Misalkan $BC = 1$ dan $AC = 2$, maka sisi miring $AB = \\sqrt{5}$. Didapat $\\cos A = 2/\\sqrt{5}$ dan $\\tan B = AC/BC = 2/1 = 2$. Nilai $2\\cos^2 A + \\tan^2 B = 2(2/\\sqrt{5})^2 + (2)^2 = 8/5 + 4 = 28/5$."
-}
+},
+[
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Nilai dari $\\lim_{x \\to -2} \\frac{(x + 5) \\sin(x + 2)}{x^2 - 2x - 8} = ....$",
+    "pilihan": [
+      "-1/2",
+      "-2",
+      "1/2",
+      "2"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1) Faktorkan penyebut: $x^2 - 2x - 8 = (x - 4)(x + 2)$.\n2) Gunakan sifat limit trigonometri: $\\lim_{x \\to -2} \\frac{\\sin(x + 2)}{x + 2} = 1$.\n3) Substitusikan $x = -2$ ke sisa persamaan: $\\frac{x + 5}{x - 4} = \\frac{-2 + 5}{-2 - 4} = \\frac{3}{-6} = -1/2$."
+  }
+]
+
 ]
