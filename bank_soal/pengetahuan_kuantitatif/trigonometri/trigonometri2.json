@@ -100,6 +100,21 @@
     "pembahasan": "1) Cari sudut C: $\\angle C = 180^\\circ - 120^\\circ = 60^\\circ$.\n2) Gunakan aturan kosinus: $c^2 = a^2 + b^2 - 2ab \\cos C$.\n$c^2 = 8^2 + 10^2 - 2(8)(10) \\cos 60^\\circ$\n$c^2 = 64 + 100 - 160(1/2)$\n$c^2 = 164 - 80 = 84$.\n3) Sederhanakan: $c = \\sqrt{84} = \\sqrt{4 \\times 21} = 2\\sqrt{21}$ cm."
   },
   {
+    "id": 9,
+    "kategori": "Sedang",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/segiempat.jpeg",
+    "pertanyaan": "Terdapat persegi panjang $ABCD$ dan garis diagonal $AC$, berapakah luas segitiga $ACD$?\n1) Panjang ruas $BC = 16$ cm dan $AC = \\sqrt{4225}$\n2) Panjang ruas $AD = \\sqrt{256}$ cm",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+      "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Luas $\\triangle ACD = \\frac{1}{2} \\times CD \\times AD$. Karena $ABCD$ persegi panjang, maka $AD = BC$ dan $CD = AB$.\n\nEvaluasi Pernyataan (1):\nDiketahui $BC = 16$, maka $AD = 16$.\n$AC = \\sqrt{4225} = 65$.\n$CD = \\sqrt{AC^2 - AD^2} = \\sqrt{65^2 - 16^2} = 63$.\nLuas dapat dihitung. (Cukup)\n\nEvaluasi Pernyataan (2):\nDiketahui $AD = \\sqrt{256} = 16$.\nTanpa nilai $CD$ atau $AC$, luas tidak dapat dihitung. (Tidak Cukup)\n\nJadi, pernyataan (1) SAJA cukup."
+  },
+  {
     "id": 10,
     "pertanyaan": "Diketahui $x = \\sin \\alpha + \\cos \\beta$ dan $y = \\cos \\alpha - \\sin \\beta$. Nilai maksimum dari $4x^2 + 4y^2 + 3 = ....$",
     "pilihan": ["16", "17", "18", "19", "20"],
