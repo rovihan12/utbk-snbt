@@ -1,6 +1,6 @@
 [
   {
-    "id": 61,
+    "id": 1,
     "pertanyaan": "Pola deret angka: 1, 4, 2, 8, 3, 12, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "4",
@@ -13,7 +13,7 @@
     "pembahasan": "Deret ini terdiri dari dua pola yang disisipkan:\n1.  **Pola pertama (posisi ganjil):** Bilangan bulat berurutan, dimulai dari 1 ($1, 2, 3$). Angka berikutnya adalah 4.\n2.  **Pola kedua (posisi genap):** Kelipatan 4 dari bilangan bulat berurutan ($4 \times 1 = 4$, $4 \times 2 = 8$, $4 \times 3 = 12$).\nKarena yang dicari adalah angka berikutnya setelah '12', kita melanjutkan pola pertama, yaitu 4."
   },
   {
-    "id": 62,
+    "id": 2,
     "pertanyaan": "Observasi: Setiap kali harga emas global naik lebih dari 5%, harga komoditas perak dan platina juga cenderung naik dalam waktu satu bulan.\n\nKesimpulan induktif yang paling kuat adalah...",
     "pilihan": [
       "Kenaikan harga emas pasti menyebabkan kenaikan harga perak dan platina.",
@@ -26,7 +26,7 @@
     "pembahasan": "Observasi ini menunjukkan korelasi yang konsisten antara kenaikan harga emas dan harga komoditas lainnya. Kesimpulan induktif yang paling kuat adalah mengakui korelasi ini. Klaim kausalitas yang mutlak ('pasti menyebabkan') tidak dapat ditarik hanya dari korelasi. Pilihan C adalah yang paling tepat karena mencerminkan hubungan yang mungkin tanpa menyatakan kepastian absolut."
   },
   {
-    "id": 63,
+    "id": 3,
     "pertanyaan": "Pola deret huruf: A, C, B, D, C, E, ...\n\nHuruf berikutnya dalam deret ini adalah...",
     "pilihan": [
       "D",
@@ -39,7 +39,7 @@
     "pembahasan": "Deret ini memiliki pola maju dan mundur secara berpasangan. Setiap pasangan terdiri dari dua huruf yang berurutan. Pasangan pertama adalah (A, C), pasangan kedua adalah (B, D), pasangan ketiga adalah (C, E). Huruf pertama setiap pasangan adalah urutan maju (A, B, C), jadi huruf pertama pasangan berikutnya adalah D. Huruf kedua setiap pasangan adalah urutan maju (C, D, E), jadi huruf kedua pasangan berikutnya adalah F. Sehingga deret berikutnya adalah D, F."
   },
   {
-    "id": 64,
+    "id": 4,
     "pertanyaan": "Premis: 99% dari 1000 insiden kecelakaan lalu lintas di kota X melibatkan pengemudi yang kelelahan atau mengantuk. Sisanya (1%) disebabkan oleh faktor lain.\n\nKesimpulan induktif yang paling valid adalah...",
     "pilihan": [
       "Kelelahan adalah satu-satunya penyebab kecelakaan lalu lintas.",
@@ -52,7 +52,7 @@
     "pembahasan": "Data yang sangat kuat (99% dari sampel besar) memberikan dasar yang kuat untuk kesimpulan induktif. Kesimpulan yang valid harus menggunakan bahasa probabilistik ('kemungkinan yang sangat tinggi') karena ada 1% pengecualian. Klaim absolut seperti 'satu-satunya penyebab' atau 'pasti' tidak dapat dibenarkan."
   },
   {
-    "id": 65,
+    "id": 5,
     "pertanyaan": "Pola deret angka: 100, 95, 91, 88, 86, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "85",
@@ -65,7 +65,7 @@
     "pembahasan": "Pola deret ini adalah pengurangan angka yang berurutan, dimulai dari 5. Polanya adalah: \n$100-5 = 95$\n$95-4 = 91$\n$91-3 = 88$\n$88-2 = 86$\nMaka, angka berikutnya adalah $86-1 = 85$."
   },
   {
-    "id": 66,
+    "id": 6,
     "pertanyaan": "Premis 1: Semua kucing adalah mamalia.\nPremis 2: Semua mamalia memiliki tulang belakang.\nPremis 3: Sebagian hewan yang memiliki tulang belakang adalah hewan berbulu.\n\nKesimpulan induktif yang paling mungkin dari premis-premis tersebut adalah...",
     "pilihan": [
       "Semua kucing adalah hewan berbulu.",
@@ -78,7 +78,7 @@
     "pembahasan": "Dari Premis 1 dan 2, kita tahu bahwa 'kucing' adalah sub-kelompok dari 'mamalia', yang juga merupakan sub-kelompok dari 'hewan yang memiliki tulang belakang'. Ini berarti semua kucing pasti memiliki tulang belakang. Kesimpulan 'Beberapa hewan yang memiliki tulang belakang adalah kucing' adalah kesimpulan yang logis dan pasti benar, karena semua kucing termasuk dalam kategori tersebut."
   },
   {
-    "id": 67,
+    "id": 7,
     "pertanyaan": "Observasi: Setiap kali musim panas datang, penjualan es krim di seluruh negeri meningkat pesat.\n\nKesimpulan induktif yang paling rasional adalah...",
     "pilihan": [
       "Musim panas adalah satu-satunya penyebab peningkatan penjualan es krim.",
@@ -91,7 +91,7 @@
     "pembahasan": "Pola yang konsisten antara dua peristiwa (musim panas dan penjualan es krim) menunjukkan adanya hubungan. Kesimpulan yang paling rasional adalah mengakui hubungan kausal yang mungkin, tetapi tidak mutlak. Pilihan C menggunakan frasa 'faktor pemicu' dan 'sangat mungkin' yang paling akurat mencerminkan penalaran induktif."
   },
   {
-    "id": 68,
+    "id": 8,
     "pertanyaan": "Pola deret angka: 2, 4, 1, 5, 3, 6, ...\n\nAngka berikutnya dalam deret ini adalah...",
     "pilihan": [
       "8",
@@ -104,7 +104,7 @@
     "pembahasan": "Deret ini memiliki pola yang terdiri dari dua operasi yang berulang: pertama tambah 2, lalu dikurangi 3. Polanya adalah:\n$2+2=4$\n$4-3=1$\n$1+4=5$\n$5-2=3$\n$3+3=6$\nMaka, angka berikutnya adalah $6+2=8$."
   },
   {
-    "id": 69,
+    "id": 9,
     "pertanyaan": "Observasi: Semua anggota klub mendaki gunung yang diamati mengenakan sepatu hiking khusus.\n\nKesimpulan induktif yang paling kuat adalah...",
     "pilihan": [
       "Sepatu hiking khusus adalah satu-satunya penyebab keberhasilan pendakian.",
@@ -117,7 +117,7 @@
     "pembahasan": "Observasi yang konsisten pada sekelompok orang (semua anggota klub yang diamati) memberikan bukti kuat untuk sebuah generalisasi. Kesimpulan terbaik adalah bahwa ada kecenderungan atau kemungkinan besar, bukan kepastian mutlak ('pasti')."
   },
   {
-    "id": 70,
+    "id": 10,
     "pertanyaan": "Pola deret gabungan: $A_1, B_2, C_3, D_4, ...$\n\nElemen berikutnya dalam deret ini adalah...",
     "pilihan": [
       "$E_5$",
