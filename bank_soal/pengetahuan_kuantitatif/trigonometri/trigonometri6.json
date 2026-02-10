@@ -26,5 +26,31 @@
     ],
     "jawaban": "E",
     "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$.\n4) Sehingga hasilnya adalah $\\frac{1 + \\sin 2x}{1 - \\sin 2x}$."
+  },
+  {
+    "id": 3,
+    "kategori": "Sulit",
+    "pertanyaan": "Panjang $AB = 20$ cm, $BC = 6$ cm, $BF = 8$ cm. Diketahui titik $Q$ membagi ruas $BC$ menjadi sama besar dan titik $P$ membagi ruas $HG$ sama besar.\nDidefinisikan A dan B sebagai berikut. Hubungan yang benar antara A dan B adalah ....",
+    "tabel": {
+      "header": ["A", "B"],
+      "rows": [
+        ["Luas segitiga AQR", "Luas segitiga APB"]
+      ]
+    },
+    "pilihan": [
+      "A > B",
+      "A < B",
+      "Informasi yang diberikan tidak cukup untuk menjawab hubungan antara A dan B",
+      "A = B"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Berdasarkan dimensi balok $AB=20, BC=6, BF=8$:\n\n**1. Menghitung Nilai B (Luas $\\triangle APB$):**\n* Alas segitiga adalah $AB = 20$ cm.\n* Tinggi segitiga adalah jarak dari bidang atas ($HG$) ke garis $AB$ pada bidang bawah. Tinggi tersebut adalah $\\sqrt{BF^2 + BC^2} = \\sqrt{8^2 + 6^2} = 10$ cm.\n* Luas $B = \\frac{1}{2} \\times 20 \\times 10 = 100$ cm².\n\n**2. Menghitung Nilai A (Luas $\\triangle AQR$):**\n* Dengan asumsi $R$ adalah titik sudut $D$ (berdasarkan visualisasi umum soal geometri serupa), maka $\\triangle AQD$ memiliki alas $AD = 6$ cm dan tinggi $AB = 20$ cm.\n* Luas $A = \\frac{1}{2} \\times 6 \\times 20 = 60$ cm².\n\n**Perbandingan:**\nNilai $A = 60$ dan $B = 100$, sehingga $A < B$.",
+    "tabel_pembahasan": {
+      "header": ["Komponen", "Perhitungan", "Hasil"],
+      "rows": [
+        ["Luas A (AQR)", "1/2 \u00d7 6 \u00d7 20", "60"],
+        ["Luas B (APB)", "1/2 \u00d7 20 \u00d7 10", "100"]
+      ]
+    }
   }
 ]
