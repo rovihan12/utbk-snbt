@@ -57,7 +57,6 @@
   {
     "id": 4,
     "kategori": "Sedang",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/1000133863.jpg",
     "pertanyaan": "Jika diketahui pada segitiga $ABC$ $\\tan A = \\frac{1}{2}$ dan $\\cos B = \\frac{1}{\\sqrt{5}}$, tentukan $\\frac{|AB|}{|BC|} = ....$",
     "pilihan": [
       "$\\frac{1}{5}\\sqrt{5}$",
@@ -68,5 +67,19 @@
     ],
     "jawaban": "C",
     "pembahasan": "1) Dari $\\tan A = 1/2$, didapat $\\sin A = 1/\\sqrt{5}$ dan $\\cos A = 2/\\sqrt{5}$.\n2) Dari $\\cos B = 1/\\sqrt{5}$, didapat $\\sin B = 2/\\sqrt{5}$.\n3) Gunakan aturan sinus: $|AB|/\\sin C = |BC|/\\sin A \\implies |AB|/|BC| = \\sin C / \\sin A$.\n4) Karena $C = 180 - (A+B)$, maka $\\sin C = \\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B = (1/\\sqrt{5} \\cdot 1/\\sqrt{5}) + (2/\\sqrt{5} \\cdot 2/\\sqrt{5}) = 1/5 + 4/5 = 1$.\n5) Jadi, $|AB|/|BC| = 1 / (1/\\sqrt{5}) = \\sqrt{5}$."
+  },
+  {
+    "id": 5,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui persegi $ABCD$ dengan keliling $x$ dan segitiga sama kaki $PQR$ dengan keliling $y$. Jika $AB = PQ = QR$ maka hubungan yang pasti benar adalah ....",
+    "pilihan": [
+      "$0 < y < \\frac{x}{4}$",
+      "$\\frac{x}{4} < y < \\frac{x}{2}$",
+      "$\\frac{x}{2} < y < x$",
+      "$x < y < 2x$",
+      "$\\frac{x}{3} < y < \\frac{3x}{2}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Sisi persegi $AB = x/4$. Karena $AB=PQ=QR$, maka $PQ=QR=x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Berdasarkan syarat ketaksamaan segitiga: $PR < PQ + QR$, maka $PR < x/4 + x/4 = x/2$.\n4) Karena $PR > 0$, maka $y > x/2 + 0 = x/2$.\n5) Karena $PR < x/2$, maka $y < x/2 + x/2 = x$.\n6) Jadi, batas nilai $y$ adalah $x/2 < y < x$."
   }
 ]
