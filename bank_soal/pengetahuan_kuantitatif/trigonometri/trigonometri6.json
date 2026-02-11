@@ -108,10 +108,20 @@
 {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Teks 5: Tabel data siswa 5 sekolah. Klik pada kolom yang sesuai untuk tiap pernyataan berikut.",
+    "pertanyaan": "**Perhatikan Tabel di bawah untuk menjawab soal 7 - 9**\n\n Tabel di bawah menyatakan banyak siswa di lima sekolah. Persentase siswa perempuan di SMP 1 dan SMP 2 adalah 60% masing-masing, sementara di SMP 3, SMP 4, dan SMP 5 adalah 40% masing-masing. Klik pada kolom yang sesuai untuk tiap pernyataan berikut.",
+    "tabel": {
+      "header": ["Sekolah", "Jumlah Siswa", "Siswa Berkacamata dengan Jumlah Siswa", "Jumlah Siswa Laki-Laki Berkacamata"],
+      "rows": [
+        ["SMP 1", "90", "2 : 3", "24"],
+        ["SMP 2", "120", "1 : 2", "18"],
+        ["SMP 3", "100", "7 : 10", "42"],
+        ["SMP 4", "140", "3 : 7", "30"],
+        ["SMP 5", "150", "8 : 15", "56"]
+      ]
+    },
     "pilihan": [],
     "jawaban": "",
-    "pembahasan": "Pernyataan 1: 36+42=78 (Benar). Pernyataan 2: Rasio 18:30 = 3:5 (Benar). Pernyataan 3: Rata-rata laki-laki (60+84+90)/3 = 78 (Salah, tertulis 77).",
+    "pembahasan": "Analisis tiap pernyataan:\n1. **SMP 1 & 2 (Perempuan berkacamata)**:\n   - SMP 1: Total kacamata = 2/3 * 90 = 60. Laki-laki = 24, maka Perempuan = 60 - 24 = 36.\n   - SMP 2: Total kacamata = 1/2 * 120 = 60. Laki-laki = 18, maka Perempuan = 60 - 18 = 42.\n   - Total = 36 + 42 = 78 (Benar).\n2. **Rasio Laki-laki berkacamata SMP 2 & 4**:\n   - SMP 2: 18. SMP 4: 30. Rasio 18 : 30 = 3 : 5 (Benar).\n3. **Rata-rata Laki-laki SMP 3, 4, 5**:\n   - SMP 3: 60% * 100 = 60. SMP 4: 60% * 140 = 84. SMP 5: 60% * 150 = 90.\n   - Rata-rata = (60 + 84 + 90) / 3 = 234 / 3 = 78 (Salah, tertulis 77).",
     "checkbox_tabel": {
       "header": ["Benar", "Salah"],
       "rows": [
@@ -120,8 +130,7 @@
         {"label": "Rata rata jumlah siswa laki-laki di SMP 3, SMP 4 dan SMP 5 adalah 77 orang"}
       ]
     },
-    "jawaban_checkbox": ["Benar", "Benar", "Salah"]
-  },
+    "jawaban_checkbox": ["Benar", "Benar", "Salah"],
   {
     "id": 8,
     "kategori": "Sulit",
