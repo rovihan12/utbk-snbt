@@ -2,7 +2,7 @@
   {
     "id": 1,
     "kategori": "Mudah",
-    "pertanyaan": "Diberikan segitiga $PQR$ dengan $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ dan siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
+    "pertanyaan": "Diberikan segitiga $PQR$ with $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ dan siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
     "pilihan": [
       "$2\\sqrt{5}$",
       "$\\sqrt{21}$",
@@ -11,7 +11,7 @@
       "$2\\sqrt{6}$"
     ],
     "jawaban": "C",
-    "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas (4 cm) dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$: $\\tan 60^\\circ = \\frac{QR}{PQ} \\implies \\sqrt{3} = \\frac{QR}{4} \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga = $\\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
+    "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$ dengan $\\tan 60^\\circ = QR/PQ \\implies \\sqrt{3} = QR/4 \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
   },
   {
     "id": 2,
@@ -25,18 +25,16 @@
       "$\\frac{1 + \\sin 2x}{1 - \\sin 2x}$"
     ],
     "jawaban": "E",
-    "pembahasan": "1) Jabarkan pembilang: $(\\cos x + \\sin x)^2 = \\cos^2 x + \\sin^2 x + 2\\sin x\\cos x = 1 + \\sin 2x$.\n2) Jabarkan penyebut: $(\\cos x - \\sin x)^2 = \\cos^2 x + \\sin^2 x - 2\\sin x\\cos x = 1 - \\sin 2x$.\n3) Hasil akhir: $\\frac{1 + \\sin 2x}{1 - \\sin 2x}$."
+    "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$."
   },
   {
     "id": 3,
     "kategori": "Sulit",
-    "pertanyaan": "Panjang $AB = 20$ cm, $BC = 6$ cm, $BF = 8$ cm. Diketahui titik $Q$ membagi ruas $BC$ menjadi sama besar dan titik $P$ membagi ruas $HG$ sama besar. Didefinisikan A dan B ditunjukkan pada data tabel. Hubungan yang benar antara A dan B adalah ....",
+    "pertanyaan": "Panjang $AB = 20$ cm, $BC = 6$ cm, $BF = 8$ cm. Diketahui titik $Q$ membagi ruas $BC$ menjadi sama besar dan titik $P$ membagi ruas $HG$ sama besar.\nDidefinisikan A dan B ditunjukkan pada data tabel. Hubungan yang benar antara A dan B adalah ....",
     "tabel": {
       "header": ["A", "B"],
       "rows": [
-        {
-          "label": "Luas segitiga AQR vs Luas segitiga APB"
-        }
+        {"label": "Luas segitiga AQR vs Luas segitiga APB"}
       ]
     },
     "pilihan": [
@@ -47,7 +45,7 @@
       "Informasi yang diberikan tidak cukup untuk menjawab hubungan antara A dan B"
     ],
     "jawaban": "B",
-    "pembahasan": "1) Luas B ($\\triangle APB$): Alas $AB=20$, tinggi adalah diagonal bidang samping $\\sqrt{8^2+6^2}=10$. Luas = $\\frac{1}{2} \\times 20 \\times 10 = 100$.\n2) Luas A ($\\triangle AQR$): Alas $AD=6$, tinggi $AB=20$. Luas = $\\frac{1}{2} \\times 6 \\times 20 = 60$.\n3) Kesimpulan: $60 < 100$, maka A < B."
+    "pembahasan": "Berdasarkan dimensi balok $AB=20, BC=6, BF=8$: Luas B = 100 cm² dan Luas A = 60 cm². Jadi A < B."
   },
   {
     "id": 4,
@@ -61,7 +59,7 @@
       "$\\frac{1}{5}$"
     ],
     "jawaban": "C",
-    "pembahasan": "1) $\\tan A = 1/2 \\implies \\sin A = 1/\\sqrt{5}$.\n2) $\\cos B = 1/\\sqrt{5} \\implies \\sin B = 2/\\sqrt{5}$.\n3) $\\sin C = \\sin(180-(A+B)) = \\sin(A+B) = \\frac{1}{\\sqrt{5}} \\cdot \\frac{1}{\\sqrt{5}} + \\frac{2}{\\sqrt{5}} \\cdot \\frac{2}{\\sqrt{5}} = 1$.\n4) Aturan Sinus: $\\frac{AB}{\\sin C} = \\frac{BC}{\\sin A} \\implies \\frac{AB}{BC} = \\frac{\\sin C}{\\sin A} = \\frac{1}{1/\\sqrt{5}} = \\sqrt{5}$."
+    "pembahasan": "Menggunakan aturan sinus dan identitas trigonometri, didapatkan rasio $|AB|/|BC| = \\sqrt{5}$."
   },
   {
     "id": 5,
@@ -75,7 +73,7 @@
       "$\\frac{x}{3} < y < \\frac{3x}{2}$"
     ],
     "jawaban": "C",
-    "pembahasan": "1) Sisi persegi $s = x/4$. Maka $PQ = QR = x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Syarat segitiga: $PR < PQ + QR \\implies PR < x/2$. Dan $PR > 0$.\n4) Maka batas $y$: $(x/2 + 0) < y < (x/2 + x/2) \\implies x/2 < y < x$."
+    "pembahasan": "Berdasarkan syarat ketaksamaan segitiga, batas nilai keliling segitiga $y$ adalah $x/2 < y < x$."
   },
   {
     "id": 6,
@@ -83,19 +81,13 @@
     "pertanyaan": "Segi empat ABCD adalah belah ketupat. Berdasarkan informasi di atas, berikan tanda √ pada kolom berikut yang sesuai.",
     "pilihan": [],
     "jawaban": "",
-    "pembahasan": "Sifat belah ketupat: 1) Sudut berhadapan sama besar (Benar). 2) Semua sisi sama panjang (otomatis punya 2 pasang sisi sama panjang - Benar). 3) Diagonal saling tegak lurus tapi tidak harus sama panjang (Salah).",
+    "pembahasan": "Sifat belah ketupat: Sudut berhadapan sama besar, semua sisi sama panjang, diagonal tidak harus sama panjang.",
     "checkbox_tabel": {
       "header": ["Benar", "Salah"],
       "rows": [
-        {
-          "label": "ABCD mempunyai dua pasang sudut berhadapan sama besar."
-        },
-        {
-          "label": "ABCD mempunyai dua pasang sisi sama panjang."
-        },
-        {
-          "label": "Kedua diagonal ABCD sama panjang."
-        }
+        {"label": "ABCD mempunyai dua pasang sudut berhadapan sama besar."},
+        {"label": "ABCD mempunyai dua pasang sisi sama panjang."},
+        {"label": "Kedua diagonal ABCD sama panjang."}
       ]
     },
     "jawaban_checkbox": ["Benar", "Benar", "Salah"]
@@ -116,19 +108,13 @@
     },
     "pilihan": [],
     "jawaban": "",
-    "pembahasan": "1) P1: Perempuan kacamata SMP 1 (36) + SMP 2 (42) = 78 (Benar).\n2) P2: Laki kacamata SMP 2 (18) : SMP 4 (30) = 3 : 5 (Benar).\n3) P3: Rata-rata laki-laki SMP 3,4,5 = (60+84+90)/3 = 78. Pernyataan bilang 77 (Salah).",
+    "pembahasan": "Analisis: P1: 36+42=78 (Benar). P2: Rasio 18:30 = 3:5 (Benar). P3: Rata-rata laki-laki = 78 (Salah, tertulis 77).",
     "checkbox_tabel": {
       "header": ["Benar", "Salah"],
       "rows": [
-        {
-          "label": "Jumlah siswa perempuan berkacamata di SMP 1 dan SMP 2 adalah 78 orang"
-        },
-        {
-          "label": "Rasio siswa laki-laki berkacamata di SMP 2 dan SMP 4 adalah 3 : 5"
-        },
-        {
-          "label": "Rata rata jumlah siswa laki-laki di SMP 3, SMP 4 dan SMP 5 adalah 77 orang"
-        }
+        {"label": "Jumlah siswa perempuan berkacamata di SMP 1 dan SMP 2 adalah 78 orang"},
+        {"label": "Rasio siswa laki-laki berkacamata di SMP 2 dan SMP 4 adalah 3 : 5"},
+        {"label": "Rata rata jumlah siswa laki-laki di SMP 3, SMP 4 dan SMP 5 adalah 77 orang"}
       ]
     },
     "jawaban_checkbox": ["Benar", "Benar", "Salah"]
@@ -137,15 +123,9 @@
     "id": 8,
     "kategori": "Sulit",
     "pertanyaan": "Sekolah yang memiliki selisih jumlah siswa laki-laki dan perempuan tak berkacamata yang kurang dari 10 orang adalah .... (1) SMP 1, (2) SMP 2, (3) SMP 3, (4) SMP 4",
-    "pilihan": [
-      "(A) 1, 2, dan 3",
-      "(B) 1 dan 3",
-      "(C) 2 dan 4",
-      "(D) 4",
-      "(E) semuanya benar"
-    ],
+    "pilihan": ["(A) 1, 2, dan 3", "(B) 1 dan 3", "(C) 2 dan 4", "(D) 4", "(E) semuanya benar"],
     "jawaban": "A",
-    "pembahasan": "Selisih tak berkacamata (L - P): SMP 1 = |12-18| = 6. SMP 2 = |30-30| = 0. SMP 3 = |18-12| = 6. SMP 4 = |54-26| = 28. Yang kurang dari 10 adalah SMP 1, 2, dan 3."
+    "pembahasan": "Selisih tak berkacamata: SMP 1(6), SMP 2(0), SMP 3(6), SMP 4(28). Yang memenuhi (<10) adalah nomor 1, 2, dan 3."
   },
   {
     "id": 9,
@@ -153,6 +133,6 @@
     "pertanyaan": "Selisih jumlah siswa laki-laki dan perempuan yang berkacamata adalah ... orang",
     "pilihan": ["0", "6", "10", "12", "14"],
     "jawaban": "C",
-    "pembahasan": "Total Laki-laki berkacamata = 24+18+42+30+56 = 170. Total Perempuan berkacamata = 36+42+28+30+24 = 160. Selisih = 170 - 160 = 10."
+    "pembahasan": "Total Laki berkacamata (170) - Total Perempuan berkacamata (160) = 10 orang."
   }
 ]
