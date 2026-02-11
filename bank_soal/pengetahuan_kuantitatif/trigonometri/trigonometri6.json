@@ -81,5 +81,21 @@
     ],
     "jawaban": "C",
     "pembahasan": "1) Sisi persegi $AB = x/4$. Karena $AB=PQ=QR$, maka $PQ=QR=x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Berdasarkan syarat ketaksamaan segitiga: $PR < PQ + QR$, maka $PR < x/4 + x/4 = x/2$.\n4) Karena $PR > 0$, maka $y > x/2 + 0 = x/2$.\n5) Karena $PR < x/2$, maka $y < x/2 + x/2 = x$.\n6) Jadi, batas nilai $y$ adalah $x/2 < y < x$."
-  }
+  },
+  {
+  "id": 6,
+  "pertanyaan": "Segi empat ABCD adalah belah ketupat. Berdasarkan informasi di atas, berikan tanda √ pada kolom berikut yang sesuai.",
+  "pilihan": null,
+  "jawaban": null,
+  "pembahasan": "Berdasarkan sifat belah ketupat: 1) Sudut-sudut yang berhadapan sama besar (Benar). 2) Semua sisinya sama panjang, sehingga otomatis memiliki dua pasang sisi sama panjang (Benar). 3) Diagonal belah ketupat saling tegak lurus tetapi panjangnya tidak sama, kecuali pada kasus khusus yaitu persegi (Salah).",
+  "checkbox_tabel": {
+    "header": ["Benar", "Salah"],
+    "rows": [
+      {"label": "ABCD mempunyai dua pasang sudut berhadapan sama besar."},
+      {"label": "ABCD mempunyai dua pasang sisi sama panjang."},
+      {"label": "Kedua diagonal ABCD sama panjang."}
+    ]
+  },
+  "jawaban_checkbox": ["Benar", "Benar", "Salah"]
+}
 ]
