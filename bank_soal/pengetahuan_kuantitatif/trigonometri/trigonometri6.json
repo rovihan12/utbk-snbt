@@ -122,28 +122,20 @@
 "jawaban_checkbox": ["Benar", "Benar", "Salah"]
 },
 {
-    "id": 8,
-    "kategori": "Sulit",
-    "pertanyaan": "Sekolah yang memiliki selisih jumlah siswa laki-laki dan perempuan tak berkacamata yang kurang dari 10 orang adalah .... (1) SMP 1, (2) SMP 2, (3) SMP 3, (4) SMP 4",
-    "pilihan": ["(A) 1, 2, dan 3", "(B) 1 dan 3", "(C) 2 dan 4", "(D) 4", "(E) semuanya benar"],
-    "jawaban": "A",
-    "pembahasan": "**Mencari Selisih Siswa Tak Berkacamata (L - P):**\n\n- **SMP 1:** L tak kacamata = $(90 \\times 40\\% ) - 24 = 12$. P tak kacamata = $(90 \\times 60\\% ) - 36 = 18$. Selisih = $6$ (< 10).\n- **SMP 2:** L tak kacamata = $(120 \\times 40\\% ) - 18 = 30$. P tak kacamata = $(120 \\times 60\\% ) - 42 = 30$. Selisih = $0$ (< 10).\n- **SMP 3:** L tak kacamata = $(100 \\times 60\\% ) - 42 = 18$. P tak kacamata = $(100 \\times 40\\% ) - 28 = 12$. Selisih = $6$ (< 10).\n- **SMP 4:** L tak kacamata = $(140 \\times 60\\% ) - 30 = 54$. P tak kacamata = $(140 \\times 40\\% ) - 30 = 26$. Selisih = $28$ (> 10).\n\nJadi, sekolah yang memenuhi adalah (1), (2), dan (3).",
-    "tabel_pembahasan": {
-      "header": ["Sekolah", "L Tak Berkacamata", "P Tak Berkacamata", "Selisih"],
-      "rows": [
-        ["SMP 1", "12", "18", "6"],
-        ["SMP 2", "30", "30", "0"],
-        ["SMP 3", "18", "12", "6"],
-        ["SMP 4", "54", "26", "28"]
-      ]
-    }
-  },
-  {
-    "id": 9,
-    "kategori": "Sedang",
-    "pertanyaan": "Selisih jumlah siswa laki-laki dan perempuan yang berkacamata adalah ... orang",
-    "pilihan": ["0", "6", "10", "12", "14"],
-    "jawaban": "C",
-    "pembahasan": "**Langkah Perhitungan:**\n\n1. **Total Laki-laki berkacamata:** $24 (SMP1) + 18 (SMP2) + 42 (SMP3) + 30 (SMP4) + 56 (SMP5) = 170$.\n2. **Total Perempuan berkacamata:** Diperoleh dari (Total Kacamata - Laki kacamata tiap sekolah).\n   - SMP 1: $60-24=36$. SMP 2: $60-18=42$. SMP 3: $70-42=28$. SMP 4: $60-30=30$. SMP 5: $80-56=24$.\n   - Total = $36 + 42 + 28 + 30 + 24 = 160$.\n3. **Selisih:** $170 - 160 = 10$ orang."
+
+"id": 8,
+"kategori": "Sulit",
+"pertanyaan": "Sekolah yang memiliki selisih jumlah siswa laki-laki dan perempuan tak berkacamata yang kurang dari 10 orang adalah .... (1) SMP 1, (2) SMP 2, (3) SMP 3, (4) SMP 4",
+"pilihan": ["(A) 1, 2, dan 3", "(B) 1 dan 3", "(C) 2 dan 4", "(D) 4", "(E) semuanya benar"],
+"jawaban": "A",
+"pembahasan": "Selisih tak berkacamata: SMP 1(6), SMP 2(0), SMP 3(6), SMP 4(28). Yang memenuhi (<10) adalah nomor 1, 2, dan 3."
+},
+{
+"id": 9,
+"kategori": "Sedang",
+"pertanyaan": "Selisih jumlah siswa laki-laki dan perempuan yang berkacamata adalah ... orang",
+"pilihan": ["0", "6", "10", "12", "14"],
+"jawaban": "C",
+"pembahasan": "**Langkah Perhitungan:**\n\n1. **Total Laki-laki berkacamata:** $24 (SMP1) + 18 (SMP2) + 42 (SMP3) + 30 (SMP4) + 56 (SMP5) = 170$.\n2. **Total Perempuan berkacamata:** Diperoleh dari (Total Kacamata - Laki kacamata tiap sekolah).\n   - SMP 1: $60-24=36$. SMP 2: $60-18=42$. SMP 3: $70-42=28$. SMP 4: $60-30=30$. SMP 5: $80-56=24$.\n   - Total = $36 + 42 + 28 + 30 + 24 = 160$.\n3. **Selisih:** $170 - 160 = 10$ orang."
   }
 ]
