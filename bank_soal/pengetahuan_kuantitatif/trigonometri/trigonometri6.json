@@ -86,15 +86,21 @@
   "id": 6,
   "kategori": "Sedang",
   "pertanyaan": "Segi empat ABCD adalah belah ketupat. Berdasarkan informasi di atas, berikan tanda √ pada kolom berikut yang sesuai.",
-  "pilihan": null,
-  "jawaban": null,
-  "pembahasan": "Berdasarkan sifat belah ketupat: 1) Sudut-sudut yang berhadapan sama besar (Benar). 2) Semua sisinya sama panjang (Benar). 3) Diagonal belah ketupat tidak sama panjang (Salah).",
+  "pilihan": [],
+  "jawaban": "",
+  "pembahasan": "Berdasarkan sifat belah ketupat:\n1) Sudut-sudut yang berhadapan sama besar (Benar).\n2) Semua sisinya sama panjang, sehingga otomatis memiliki dua pasang sisi sama panjang (Benar).\n3) Diagonal belah ketupat saling berpotongan tegak lurus tetapi panjangnya tidak sama (Salah).",
   "checkbox_tabel": {
     "header": ["Benar", "Salah"],
     "rows": [
-      {"label": "ABCD mempunyai dua pasang sudut berhadapan sama besar."},
-      {"label": "ABCD mempunyai dua pasang sisi sama panjang."},
-      {"label": "Kedua diagonal ABCD sama panjang."}
+      {
+        "label": "ABCD mempunyai dua pasang sudut berhadapan sama besar."
+      },
+      {
+        "label": "ABCD mempunyai dua pasang sisi sama panjang."
+      },
+      {
+        "label": "Kedua diagonal ABCD sama panjang."
+      }
     ]
   },
   "jawaban_checkbox": ["Benar", "Benar", "Salah"]
