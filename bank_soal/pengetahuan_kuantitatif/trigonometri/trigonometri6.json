@@ -2,14 +2,8 @@
   {
     "id": 1,
     "kategori": "Mudah",
-    "pertanyaan": "Diberikan segitiga $PQR$ dengan $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ dan siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
-    "pilihan": [
-      "$2\\sqrt{5}$",
-      "$\\sqrt{21}$",
-      "$8\\sqrt{3}$",
-      "$\\sqrt{23}$",
-      "$2\\sqrt{6}$"
-    ],
+    "pertanyaan": "Diberikan segitiga $PQR$ with $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ and siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
+    "pilihan": ["$2\\sqrt{5}$", "$\\sqrt{21}$", "$8\\sqrt{3}$", "$\\sqrt{23}$", "$2\\sqrt{6}$"],
     "jawaban": "C",
     "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$ dengan $\\tan 60^\\circ = QR/PQ \\implies \\sqrt{3} = QR/4 \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
   },
@@ -17,15 +11,9 @@
     "id": 2,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\frac{(\\cos x + \\sin x)^2}{(\\cos x - \\sin x)^2} = ....$",
-    "pilihan": [
-      "$\\frac{1}{1 - \\cos 2x}$",
-      "$\\frac{1}{1 - \\sin 2x}$",
-      "$\\frac{1 + \\cos 2x}{1 - \\cos 2x}$",
-      "$\\frac{1 + 2 \\sin x}{1 - 2 \\sin x}$",
-      "$\\frac{1 + \\sin 2x}{1 - \\sin 2x}$"
-    ],
+    "pilihan": ["$\\frac{1}{1 - \\cos 2x}$", "$\\frac{1}{1 - \\sin 2x}$", "$\\frac{1 + \\cos 2x}{1 - \\cos 2x}$", "$\\frac{1 + 2 \\sin x}{1 - 2 \\sin x}$", "$\\frac{1 + \\sin 2x}{1 - \\sin 2x}$"],
     "jawaban": "E",
-    "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$.\n4) Sehingga hasilnya adalah $\\frac{1 + \\sin 2x}{1 - \\sin 2x}$."
+    "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$."
   },
   {
     "id": 3,
@@ -33,54 +21,27 @@
     "pertanyaan": "Panjang $AB = 20$ cm, $BC = 6$ cm, $BF = 8$ cm. Diketahui titik $Q$ membagi ruas $BC$ menjadi sama besar dan titik $P$ membagi ruas $HG$ sama besar.\nDidefinisikan A dan B ditunjukkan pada data tabel. Hubungan yang benar antara A dan B adalah ....",
     "tabel": {
       "header": ["A", "B"],
-      "rows": [
-        ["Luas segitiga AQR", "Luas segitiga APB"]
-      ]
+      "rows": [{"label": "Luas segitiga AQR vs Luas segitiga APB"}]
     },
-    "pilihan": [
-      "A > B",
-      "A < B",
-      "A = B",
-      "$2A = B$",
-      "Informasi yang diberikan tidak cukup untuk menjawab hubungan antara A dan B"
-    ],
+    "pilihan": ["A > B", "A < B", "A = B", "$2A = B$", "Informasi yang diberikan tidak cukup untuk menjawab hubungan antara A dan B"],
     "jawaban": "B",
-    "pembahasan": "Berdasarkan dimensi balok $AB=20, BC=6, BF=8$:\n\n**1. Menghitung Nilai B (Luas $\\triangle APB$):**\n* Alas segitiga adalah $AB = 20$ cm.\n* Tinggi segitiga adalah jarak dari bidang atas ($HG$) ke garis $AB$ pada bidang bawah. Tinggi tersebut adalah $\\sqrt{BF^2 + BC^2} = \\sqrt{8^2 + 6^2} = 10$ cm.\n* Luas $B = \\frac{1}{2} \\times 20 \\times 10 = 100$ cm².\n\n**2. Menghitung Nilai A (Luas $\\triangle AQR$):**\n* Dengan asumsi $R$ adalah titik sudut $D$, maka $\\triangle AQD$ memiliki alas $AD = 6$ cm dan tinggi $AB = 20$ cm.\n* Luas $A = \\frac{1}{2} \\times 6 \\times 20 = 60$ cm².\n\n**Perbandingan:** Nilai $A = 60$ dan $B = 100$, sehingga $A < B$.",
-    "tabel_pembahasan": {
-      "header": ["Komponen", "Perhitungan", "Hasil"],
-      "rows": [
-        ["Luas A (AQR)", "1/2 \u00d7 6 \u00d7 20", "60"],
-        ["Luas B (APB)", "1/2 \u00d7 20 \u00d7 10", "100"]
-      ]
-    }
+    "pembahasan": "Berdasarkan dimensi balok $AB=20, BC=6, BF=8$: Luas B = 100 cm² dan Luas A = 60 cm². Jadi A < B."
   },
   {
     "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Jika diketahui pada segitiga $ABC$ $\\tan A = \\frac{1}{2}$ dan $\\cos B = \\frac{1}{\\sqrt{5}}$, tentukan $\\frac{|AB|}{|BC|} = ....$",
-    "pilihan": [
-      "$\\frac{1}{5}\\sqrt{5}$",
-      "$2\\sqrt{5}$",
-      "$\\sqrt{5}$",
-      "$5$",
-      "$\\frac{1}{5}$"
-    ],
+    "pilihan": ["$\\frac{1}{5}\\sqrt{5}$", "$2\\sqrt{5}$", "$\\sqrt{5}$", "$5$", "$\\frac{1}{5}$"],
     "jawaban": "C",
-    "pembahasan": "1) Dari $\\tan A = 1/2$, didapat $\\sin A = 1/\\sqrt{5}$ dan $\\cos A = 2/\\sqrt{5}$.\n2) Dari $\\cos B = 1/\\sqrt{5}$, didapat $\\sin B = 2/\\sqrt{5}$.\n3) Gunakan aturan sinus: $|AB|/|BC| = \\sin C / \\sin A$.\n4) Karena $C = 180 - (A+B)$, maka $\\sin C = \\sin(A+B) = 1/5 + 4/5 = 1$.\n5) Jadi, $|AB|/|BC| = 1 / (1/\\sqrt{5}) = \\sqrt{5}$."
+    "pembahasan": "Menggunakan aturan sinus dan identitas trigonometri, didapatkan rasio $|AB|/|BC| = \\sqrt{5}$."
   },
   {
     "id": 5,
     "kategori": "Sulit",
     "pertanyaan": "Diketahui persegi $ABCD$ dengan keliling $x$ dan segitiga sama kaki $PQR$ dengan keliling $y$. Jika $AB = PQ = QR$ maka hubungan yang pasti benar adalah ....",
-    "pilihan": [
-      "$0 < y < \\frac{x}{4}$",
-      "$\\frac{x}{4} < y < \\frac{x}{2}$",
-      "$\\frac{x}{2} < y < x$",
-      "$x < y < 2x$",
-      "$\\frac{x}{3} < y < \\frac{3x}{2}$"
-    ],
+    "pilihan": ["$0 < y < \\frac{x}{4}$", "$\\frac{x}{4} < y < \\frac{x}{2}$", "$\\frac{x}{2} < y < x$", "$x < y < 2x$", "$\\frac{x}{3} < y < \\frac{3x}{2}$"],
     "jawaban": "C",
-    "pembahasan": "1) Sisi persegi $AB = x/4$. Maka $PQ=QR=x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Berdasarkan syarat ketaksamaan segitiga: $PR < PQ + QR$, maka $PR < x/2$.\n4) Karena $PR > 0$, maka $y > x/2$.\n5) Karena $PR < x/2$, maka $y < x$.\n6) Jadi, batas nilai $y$ adalah $x/2 < y < x$."
+    "pembahasan": "Berdasarkan syarat ketaksamaan segitiga, batas nilai keliling segitiga $y$ adalah $x/2 < y < x$."
   },
   {
     "id": 6,
@@ -88,7 +49,7 @@
     "pertanyaan": "Segi empat ABCD adalah belah ketupat. Berdasarkan informasi di atas, berikan tanda √ pada kolom berikut yang sesuai.",
     "pilihan": [],
     "jawaban": "",
-    "pembahasan": "Berdasarkan sifat belah ketupat: 1) Sudut berhadapan sama besar. 2) Semua sisi sama panjang. 3) Diagonal tidak harus sama panjang.",
+    "pembahasan": "Sifat belah ketupat: Sudut berhadapan sama besar, semua sisi sama panjang, diagonal tidak harus sama panjang.",
     "checkbox_tabel": {
       "header": ["Benar", "Salah"],
       "rows": [
@@ -102,9 +63,9 @@
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "**Perhatikan Tabel di bawah untuk menjawab soal 7 - 9**\n\n Tabel di bawah menyatakan banyak siswa di lima sekolah. Persentase siswa perempuan di SMP 1 dan SMP 2 adalah 60% masing-masing, sementara di SMP 3, SMP 4, dan SMP 5 adalah 40% masing-masing. Klik pada kolom yang sesuai untuk tiap pernyataan berikut.",
+    "pertanyaan": "Teks 5: Tabel di bawah menyatakan banyak siswa di lima sekolah. Persentase siswa perempuan di SMP 1 dan SMP 2 adalah 60%, sementara di SMP 3, SMP 4, dan SMP 5 adalah 40%. Klik pada kolom yang sesuai.",
     "tabel": {
-      "header": ["Sekolah", "Jumlah Siswa", "Siswa Berkacamata dengan Jumlah Siswa", "Jumlah Siswa Laki-Laki Berkacamata"],
+      "header": ["Sekolah", "Jumlah Siswa", "Siswa Berkacamata : Jumlah Siswa", "Laki-Laki Berkacamata"],
       "rows": [
         ["SMP 1", "90", "2 : 3", "24"],
         ["SMP 2", "120", "1 : 2", "18"],
@@ -115,7 +76,7 @@
     },
     "pilihan": [],
     "jawaban": "",
-    "pembahasan": "Analisis tiap pernyataan: 1) Total kacamata SMP 1(60) & SMP 2(60). Perempuan SMP 1(36) + SMP 2(42) = 78.\n 2) Rasio Laki kacamata SMP 2:SMP 4 = 18:30 = 3:5.\n 3) Rata-rata laki-laki (60+84+90)/3 = 78.",
+    "pembahasan": "**Analisis Pernyataan:**\n\n1. **Pernyataan 1:** Perempuan berkacamata SMP 1 & 2.\n   - SMP 1: Total kacamata = $2/3 \\times 90 = 60$. Laki-laki kacamata = 24. Perempuan kacamata = $60 - 24 = 36$.\n   - SMP 2: Total kacamata = $1/2 \\times 120 = 60$. Laki-laki kacamata = 18. Perempuan kacamata = $60 - 18 = 42$.\n   - Total = $36 + 42 = 78$. **(Benar)**\n\n2. **Pernyataan 2:** Rasio Laki-laki berkacamata SMP 2 & 4.\n   - SMP 2 = 18. SMP 4 = 30.\n   - Rasio = $18 : 30 = 3 : 5$. **(Benar)**\n\n3. **Pernyataan 3:** Rata-rata laki-laki di SMP 3, 4, 5.\n   - SMP 3 (60% L) = $60$. SMP 4 (60% L) = $84$. SMP 5 (60% L) = $90$.\n   - Rata-rata = $(60 + 84 + 90) / 3 = 78$. Pernyataan menyebutkan 77. **(Salah)**",
     "checkbox_tabel": {
       "header": ["Benar", "Salah"],
       "rows": [
@@ -132,7 +93,16 @@
     "pertanyaan": "Sekolah yang memiliki selisih jumlah siswa laki-laki dan perempuan tak berkacamata yang kurang dari 10 orang adalah .... (1) SMP 1, (2) SMP 2, (3) SMP 3, (4) SMP 4",
     "pilihan": ["(A) 1, 2, dan 3", "(B) 1 dan 3", "(C) 2 dan 4", "(D) 4", "(E) semuanya benar"],
     "jawaban": "A",
-    "pembahasan": "Selisih tak berkacamata: SMP 1 (6), SMP 2 (0), SMP 3 (6), SMP 4 (28). Maka yang < 10 adalah nomor 1, 2, dan 3."
+    "pembahasan": "**Mencari Selisih Siswa Tak Berkacamata (L - P):**\n\n- **SMP 1:** L tak kacamata = $(90 \\times 40\\% ) - 24 = 12$. P tak kacamata = $(90 \\times 60\\% ) - 36 = 18$. Selisih = $6$ (< 10).\n- **SMP 2:** L tak kacamata = $(120 \\times 40\\% ) - 18 = 30$. P tak kacamata = $(120 \\times 60\\% ) - 42 = 30$. Selisih = $0$ (< 10).\n- **SMP 3:** L tak kacamata = $(100 \\times 60\\% ) - 42 = 18$. P tak kacamata = $(100 \\times 40\\% ) - 28 = 12$. Selisih = $6$ (< 10).\n- **SMP 4:** L tak kacamata = $(140 \\times 60\\% ) - 30 = 54$. P tak kacamata = $(140 \\times 40\\% ) - 30 = 26$. Selisih = $28$ (> 10).\n\nJadi, sekolah yang memenuhi adalah (1), (2), dan (3).",
+    "tabel_pembahasan": {
+      "header": ["Sekolah", "L Tak Berkacamata", "P Tak Berkacamata", "Selisih"],
+      "rows": [
+        ["SMP 1", "12", "18", "6"],
+        ["SMP 2", "30", "30", "0"],
+        ["SMP 3", "18", "12", "6"],
+        ["SMP 4", "54", "26", "28"]
+      ]
+    }
   },
   {
     "id": 9,
@@ -140,6 +110,6 @@
     "pertanyaan": "Selisih jumlah siswa laki-laki dan perempuan yang berkacamata adalah ... orang",
     "pilihan": ["0", "6", "10", "12", "14"],
     "jawaban": "C",
-    "pembahasan": "Total Laki-laki berkacamata = 170. Total Perempuan berkacamata = 160. Selisih = 170 - 160 = 10."
+    "pembahasan": "**Langkah Perhitungan:**\n\n1. **Total Laki-laki berkacamata:** $24 (SMP1) + 18 (SMP2) + 42 (SMP3) + 30 (SMP4) + 56 (SMP5) = 170$.\n2. **Total Perempuan berkacamata:** Diperoleh dari (Total Kacamata - Laki kacamata tiap sekolah).\n   - SMP 1: $60-24=36$. SMP 2: $60-18=42$. SMP 3: $70-42=28$. SMP 4: $60-30=30$. SMP 5: $80-56=24$.\n   - Total = $36 + 42 + 28 + 30 + 24 = 160$.\n3. **Selisih:** $170 - 160 = 10$ orang."
   }
 ]
