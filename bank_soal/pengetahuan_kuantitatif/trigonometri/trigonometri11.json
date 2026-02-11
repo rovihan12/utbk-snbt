@@ -1,0 +1,78 @@
+ {
+  "id": 1,
+  "kategori": "Sedang",
+  "pertanyaan": "Segi empat ABCD adalah belah ketupat. Berdasarkan informasi di atas, berikan tanda √ pada kolom berikut yang sesuai.",
+  "pilihan": [],
+  "jawaban": "",
+  "pembahasan": "Berdasarkan sifat belah ketupat:\n1) Sudut-sudut yang berhadapan sama besar (Benar).\n2) Semua sisinya sama panjang, sehingga otomatis memiliki dua pasang sisi sama panjang (Benar).\n3) Diagonal belah ketupat saling berpotongan tegak lurus tetapi panjangnya tidak sama (Salah).",
+  "checkbox_tabel": {
+    "header": ["Benar", "Salah"],
+    "rows": [
+      {
+        "label": "ABCD mempunyai dua pasang sudut berhadapan sama besar."
+      },
+      {
+        "label": "ABCD mempunyai dua pasang sisi sama panjang."
+      },
+      {
+        "label": "Kedua diagonal ABCD sama panjang."
+      }
+    ]
+  },
+  "jawaban_checkbox": ["Benar", "Benar", "Salah"]
+},
+  {
+    "id": 2,
+    "kategori": "Sedang",
+    "pertanyaan": "Teks 5: Tabel di bawah menyatakan banyak siswa di lima sekolah. Persentase siswa perempuan di SMP 1 dan SMP 2 adalah 60%, sementara di SMP 3, SMP 4, dan SMP 5 adalah 40%. Klik pada kolom yang sesuai.",
+    "tabel": {
+      "header": ["Sekolah", "Jumlah Siswa", "Siswa Berkacamata : Jumlah Siswa", "Laki-Laki Berkacamata"],
+      "rows": [
+        ["SMP 1", "90", "2 : 3", "24"],
+        ["SMP 2", "120", "1 : 2", "18"],
+        ["SMP 3", "100", "7 : 10", "42"],
+        ["SMP 4", "140", "3 : 7", "30"],
+        ["SMP 5", "150", "8 : 15", "56"]
+      ]
+    },
+    "pilihan": [],
+    "jawaban": "",
+    "pembahasan": "1) P1: Perempuan kacamata SMP 1 (36) + SMP 2 (42) = 78 (Benar).\n2) P2: Laki kacamata SMP 2 (18) : SMP 4 (30) = 3 : 5 (Benar).\n3) P3: Rata-rata laki-laki SMP 3,4,5 = (60+84+90)/3 = 78. Pernyataan bilang 77 (Salah).",
+    "checkbox_tabel": {
+      "header": ["Benar", "Salah"],
+      "rows": [
+        {
+          "label": "Jumlah siswa perempuan berkacamata di SMP 1 dan SMP 2 adalah 78 orang"
+        },
+        {
+          "label": "Rasio siswa laki-laki berkacamata di SMP 2 dan SMP 4 adalah 3 : 5"
+        },
+        {
+          "label": "Rata rata jumlah siswa laki-laki di SMP 3, SMP 4 dan SMP 5 adalah 77 orang"
+        }
+      ]
+    },
+    "jawaban_checkbox": ["Benar", "Benar", "Salah"]
+  },
+  {
+    "id": 3,
+    "kategori": "Sulit",
+    "pertanyaan": "Sekolah yang memiliki selisih jumlah siswa laki-laki dan perempuan tak berkacamata yang kurang dari 10 orang adalah .... (1) SMP 1, (2) SMP 2, (3) SMP 3, (4) SMP 4",
+    "pilihan": [
+      "(A) 1, 2, dan 3",
+      "(B) 1 dan 3",
+      "(C) 2 dan 4",
+      "(D) 4",
+      "(E) semuanya benar"
+    ],
+    "jawaban": "A",
+    "pembahasan": "Selisih tak berkacamata (L - P): SMP 1 = |12-18| = 6. SMP 2 = |30-30| = 0. SMP 3 = |18-12| = 6. SMP 4 = |54-26| = 28. Yang kurang dari 10 adalah SMP 1, 2, dan 3."
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Selisih jumlah siswa laki-laki dan perempuan yang berkacamata adalah ... orang",
+    "pilihan": ["0", "6", "10", "12", "14"],
+    "jawaban": "C",
+    "pembahasan": "Total Laki-laki berkacamata = 24+18+42+30+56 = 170. Total Perempuan berkacamata = 36+42+28+30+24 = 160. Selisih = 170 - 160 = 10."
+  }
