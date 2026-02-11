@@ -108,11 +108,10 @@
 {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Teks 5: Tabel siswa di lima sekolah. Klik pada kolom yang sesuai untuk tiap pernyataan berikut.",
+    "pertanyaan": "Teks 5: Tabel data siswa 5 sekolah. Klik pada kolom yang sesuai untuk tiap pernyataan berikut.",
     "pilihan": [],
     "jawaban": "",
-    "pembahasan": "1) Perempuan berkacamata SMP 1(36) + SMP 2(42) = 78 (Benar). 2) Rasio Laki berkacamata SMP 2(18):SMP 4(30) = 3:5 (Benar). 3) Rata-rata laki SMP 3,4,5 = (60+84+90)/3 = 78 (Salah, tertulis 77).",
-    "tabel": null,
+    "pembahasan": "Pernyataan 1: 36+42=78 (Benar). Pernyataan 2: Rasio 18:30 = 3:5 (Benar). Pernyataan 3: Rata-rata laki-laki (60+84+90)/3 = 78 (Salah, tertulis 77).",
     "checkbox_tabel": {
       "header": ["Benar", "Salah"],
       "rows": [
@@ -129,10 +128,7 @@
     "pertanyaan": "Sekolah yang memiliki selisih jumlah siswa laki-laki dan perempuan tak berkacamata yang kurang dari 10 orang adalah .... (1) SMP 1, (2) SMP 2, (3) SMP 3, (4) SMP 4",
     "pilihan": ["(A) 1, 2, dan 3", "(B) 1 dan 3", "(C) 2 dan 4", "(D) 4", "(E) semuanya benar"],
     "jawaban": "A",
-    "pembahasan": "Selisih tak berkacamata: SMP 1 (6), SMP 2 (0), SMP 3 (6), SMP 4 (28). Yang < 10 adalah 1, 2, dan 3.",
-    "tabel": null,
-    "checkbox_tabel": null,
-    "jawaban_checkbox": []
+    "pembahasan": "Selisih tak berkacamata: SMP 1 (6), SMP 2 (0), SMP 3 (6), SMP 4 (28). Maka yang < 10 adalah nomor 1, 2, dan 3."
   },
   {
     "id": 9,
@@ -140,9 +136,6 @@
     "pertanyaan": "Selisih jumlah siswa laki-laki dan perempuan yang berkacamata adalah ... orang",
     "pilihan": ["0", "6", "10", "12", "14"],
     "jawaban": "C",
-    "pembahasan": "Total Laki-laki berkacamata = 170. Total Perempuan berkacamata = 160. Selisih = 10 orang.",
-    "tabel": null,
-    "checkbox_tabel": null,
-    "jawaban_checkbox": []
+    "pembahasan": "Total Laki-laki berkacamata = 170. Total Perempuan berkacamata = 160. Selisih = 170 - 160 = 10."
   }
 ]
