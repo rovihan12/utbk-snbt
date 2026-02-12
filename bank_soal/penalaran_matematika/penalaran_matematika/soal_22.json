@@ -1,5 +1,4 @@
 [
-[
   {
     "id": 1,
     "kategori": "Sedang",
@@ -18,22 +17,23 @@
     "id": 2,
     "kategori": "Sedang",
     "pertanyaan": "Klik pilihan pada kolom di sebelah kanan pernyataan yang sesuai dengan jawaban.",
-    "tabel": {
-      "header": ["Pernyataan", "Ya", "Tidak"],
+    "checkbox_tabel": {
+      "header": ["Ya", "Tidak"],
       "rows": [
         {
           "label": "Banyak kelereng pada kotak no 64 adalah 128",
-          "kolom": ["Ya", ""]
+          "kolom": []
         },
         {
           "label": "Banyak kelereng putih pada kotak nomor 4 adalah 181",
-          "kolom": ["Ya", ""]
+          "kolom": []
         },
         {
           "label": "Selisih kelereng merah dan putih pada kotak nomor 11 adalah 140",
-          "kolom": ["", "Tidak"]
+          "kolom": []
         }
-      ]
+      ],
+      "options": ["Ya", "Tidak"]
     },
     "pilihan": [
       "Ya, Ya, Tidak",
@@ -43,6 +43,7 @@
       "Tidak, Tidak, Tidak"
     ],
     "jawaban": "A",
+    "jawaban_checkbox": ["Ya", "Ya", "Tidak"],
     "pembahasan": "1) Kotak 64: Merah = $2(64)-1 = 127$. Putih = $193-3(64) = 1$. Total = $127+1 = 128$ (BENAR).\n2) Putih kotak 4: $U_4 = 193 - 3(4) = 193 - 12 = 181$ (BENAR).\n3) Kotak 11: Merah = $2(11)-1 = 21$. Putih = $193-3(11) = 160$. Selisih = $160 - 21 = 139$ (SALAH, di soal tertulis 140)."
   },
   {
@@ -75,6 +76,7 @@
   },
   {
     "id": 5,
+    "kategori": "Sedang",
     "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang...",
     "pilihan": ["A", "B", "C", "D"],
     "jawaban": "A",
@@ -82,15 +84,26 @@
     "checkbox_tabel": {
       "header": ["Mungkin", "Tidak Mungkin"],
       "rows": [
-        {"label": "30 cm x 30 cm"},
-        {"label": "50 cm x 50 cm"},
-        {"label": "60 cm x 60 cm"}
-      ]
+        {
+          "label": "30 cm x 30 cm",
+          "kolom": []
+        },
+        {
+          "label": "50 cm x 50 cm",
+          "kolom": []
+        },
+        {
+          "label": "60 cm x 60 cm",
+          "kolom": []
+        }
+      ],
+      "options": ["Mungkin", "Tidak Mungkin"]
     },
     "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
   },
   {
     "id": 6,
+    "kategori": "Mudah",
     "pertanyaan": "Soal biasa tanpa checkbox table...",
     "pilihan": ["Pilihan A", "Pilihan B", "Pilihan C", "Pilihan D"],
     "jawaban": "B",
@@ -98,6 +111,7 @@
   },
   {
     "id": 7,
+    "kategori": "Sedang",
     "pertanyaan": "Soal lain dengan checkbox table...",
     "pilihan": ["A", "B", "C"],
     "jawaban": "C",
@@ -105,10 +119,20 @@
     "checkbox_tabel": {
       "header": ["Ya", "Tidak"],
       "rows": [
-        {"label": "Pernyataan 1"},
-        {"label": "Pernyataan 2"},
-        {"label": "Pernyataan 3"}
-      ]
+        {
+          "label": "Pernyataan 1",
+          "kolom": []
+        },
+        {
+          "label": "Pernyataan 2",
+          "kolom": []
+        },
+        {
+          "label": "Pernyataan 3",
+          "kolom": []
+        }
+      ],
+      "options": ["Ya", "Tidak"]
     },
     "jawaban_checkbox": ["Ya", "Tidak", "Ya"]
   }
