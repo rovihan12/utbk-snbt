@@ -162,5 +162,18 @@
     ],
     "jawaban": "D",
     "pembahasan": "Misal rusuk balok adalah p, l, dan t. Diketahui: p*l = 32, l*t = 64, p*t = 128. Dengan membagi persamaan, kita temukan: (p*t)/(l*t) = 128/64 => p/l = 2 => p = 2l. Substitusi ke p*l = 32: 2l*l = 32 => l^2 = 16 => l = 4. Maka p = 8 dan t = 16. Ketiga rusuk (4, 8, 16) adalah kelipatan 4 yang berbeda. Diagonal sisi maksimum diperoleh dari dua rusuk terpanjang (8 dan 16): √(8² + 16²) = √(64 + 256) = √320 = 8√5."
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Sekelompok data terdiri dari 4 bilangan prima < 20. Jangkauan data = 2. Berapakah rata-ratanya?\n(1) Modus = 5, (2) Median = 5",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup",
+      "Pernyataan (2) SAJA cukup",
+      "DUA pernyataan bersama-sama cukup",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan (2) tidak cukup"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Bilangan prima dengan jangkauan 2 hanya (3,5) atau (5,7). Dengan modus atau median 5, data sudah unik untuk menentukan rata-rata (baik (1) maupun (2) secara mandiri cukup)."
   }
 ]
