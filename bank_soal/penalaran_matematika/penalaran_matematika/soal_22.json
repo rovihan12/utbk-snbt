@@ -311,6 +311,28 @@
     "jawaban": "B",
     "pembahasan": "Setiap bilangan harus memenuhi TEPAT SATU kondisi.\n\nMari bedah pilihan (B) 11-26-27:\n- 11: Memenuhi kondisi (3) Bulan kelahiran. 11 bukan genap dan bukan kelipatan 3. (Lolos)\n- 26: Memenuhi kondisi (1) Bilangan genap. 26 bukan kelipatan 3 dan bukan bulan kelahiran (karena bulan hanya 01-12). (Lolos)\n- 27: Memenuhi kondisi (2) Kelipatan 3. 27 bukan bilangan genap dan bukan bulan kelahiran. (Lolos)\n\nSedangkan pilihan lain tidak memenuhi syarat 'tepat satu'. Contohnya pada (A), angka 10 memenuhi kondisi bulan kelahiran DAN genap. Pada (C), angka 24 memenuhi genap DAN kelipatan 3.",
     "keterangan_soal": "Logika Matematika dan Himpunan"
+  },
+    {
+    "id": 20,
+    "kategori": "Kecepatan dan Jarak",
+    "pertanyaan": "Kalau Seth berangkat pada pukul 07.00, maka sepanjang perjalanan akan dalam kondisi normal. Namun, jika Seth berangkat pukul 07.15, maka dari rumah ke pintu keluar tol akan dalam kondisi macet, walaupun dari pintu keluar tol ke kantor dalam kondisi normal. Beda waktu perjalanan yang dialami jika Seth berangkat pada pukul 07.00 dan 07.15 adalah ...",
+    "tabel": {
+      "header": ["Rute Perjalanan", "Jarak (km)", "Kecepatan Normal (km/jam)", "Kecepatan Macet (km/jam)"],
+      "rows": [
+        ["Rumah - Pintu Masuk Tol", "5", "30", "25"],
+        ["Pintu Masuk Tol - Pintu Keluar Tol", "12", "70", "20"],
+        ["Pintu Keluar Tol - Kantor", "3", "35", "30"]
+      ]
+    },
+    "pilihan": [
+      "55 menit",
+      "12 menit",
+      "28 menit",
+      "7 menit",
+      "42 menit"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Waktu Kondisi Normal (07.00):**\n- Rute 1: $5/30 \\times 60 = 10$ menit\n- Rute 2: $12/70 \\times 60 \\approx 10,3$ menit\n- Rute 3: $3/35 \\times 60 \\approx 5,1$ menit\nTotal $\\approx 25,4$ menit.\n\n**Waktu Kondisi Macet (07.15):**\n- Rute 1: $5/25 \\times 60 = 12$ menit\n- Rute 2: $12/20 \\times 60 = 36$ menit\n- Rute 3: $3/35 \\times 60 \\approx 5,1$ menit (Normal)\nTotal $\\approx 53,1$ menit.\n\n**Selisih Waktu:** $53,1 - 25,4 = 27,7$ menit. Dibulatkan menjadi **28 menit**.",
+    "keterangan_soal": "Pengetahuan Kuantitatif"
   }
-]
 ]
