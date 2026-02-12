@@ -202,6 +202,41 @@
     ],
     "jawaban": "E",
     "pembahasan": "1. **Identifikasi total saham dan pemegang saham:**\n   Total saham = 500 lembar.\n   Pemegang saham: Nam So Dan, Sandbox, Reihan, dan Rohim.\n\n2. **Rincian kepemilikan saham:**\n   - Nam So Dan = 300 lembar (hasil perhitungan nomor 9).\n   - Sandbox = 100 lembar (diketahui dari teks).\n   - Reihan + Rohim = Sisa saham.\n\n3. **Hitung saham Reihan dan Rohim:**\n   Saham (Reihan + Rohim) = Total Saham - (Saham Nam So Dan + Saham Sandbox)\n   Saham (Reihan + Rohim) = 500 - (300 + 100)\n   Saham (Reihan + Rohim) = 500 - 400 = 100 lembar.\n\nJadi, jika Elon Musk membeli seluruh saham Reihan dan Rohim, ia akan memperoleh 100 lembar saham."
+  },
+    [
+  {
+    "id": 13,
+    "kategori": "Sedang",
+    "pertanyaan": "Baca teks berikut untuk menjawab soal 13 - 14\n. Sebuah warung kopi menjual segelas kopi seharga Rp20.000,00. Dalam program giveaway iPhone seharga Rp8.000.000,00, terdapat 500 pelanggan baru yang masing-masing membeli segelas kopi. Berapakah Customer Acquisition Cost (CAC) dari program giveaway iPhone saja?",
+    "pilihan": [
+      "Rp10.000,00",
+      "Rp16.000,00",
+      "Rp17.333,33",
+      "Rp20.000,00",
+      "Rp32.000,00"
+    ],
+    "jawaban": "B",
+    "pembahasan": "1) CAC (Customer Acquisition Cost) didefinisikan sebagai biaya marketing dibagi jumlah pelanggan baru.\n2) Biaya giveaway = Rp8.000.000.\n3) Jumlah pelanggan baru = 500.\n4) CAC = Rp8.000.000 / 500 = Rp16.000,00."
+  },
+  {
+    "id": 14,
+    "kategori": "Sulit",
+    "pertanyaan": "Berdasarkan data warung kopi tersebut, terdapat dua program: Giveaway (Biaya Rp8jt, 500 pelanggan) dan Endorsement (Biaya Rp5jt, 250 pelanggan). Harga kopi Rp20.000/gelas. Setelah dievaluasi, berapakah nilai Marketing ROI dari program yang memiliki hasil lebih tinggi?",
+    "pilihan": [
+      "10%",
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1) ROI dihitung dengan rumus: ((Total Penjualan - Biaya) / Biaya) x 100%.\n2) Program Giveaway: Penjualan = 500 x 20.000 = Rp10.000.000. ROI = ((10jt - 8jt) / 8jt) x 100% = 25%.\n3) Program Endorsement: Penjualan = 250 x 20.000 = Rp5.000.000. ROI = ((5jt - 5jt) / 5jt) x 100% = 0%.\n4) Program dengan ROI lebih tinggi adalah Giveaway dengan nilai 25%.",
+    "tabel_pembahasan": {
+      "header": ["Program", "Total Penjualan", "ROI"],
+      "rows": [
+        ["Giveaway", "Rp10.000.000", "25%"],
+        ["Endorsement", "Rp5.000.000", "0%"]
+      ]
+    }
   }
-]
 ]
