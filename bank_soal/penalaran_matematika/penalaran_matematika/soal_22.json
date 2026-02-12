@@ -149,5 +149,19 @@
     ],
     "jawaban": "C",
     "pembahasan": "Misalkan umur anak saat ini: pertama (x), kedua (y), ketiga (z).\nDiketahui: y = 2/3 x.\n\nAnalisis Pernyataan (1):\nz = 1/4(x + y). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nAnalisis Pernyataan (2):\n(y - 1) = 2(z - 1). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nKombinasi (1) dan (2):\nDari (1), z = 1/4(3/2y + y) = 5/8y.\nSubstitusi ke (2): y - 1 = 2(5/8y - 1) => y - 1 = 5/4y - 2 => 1/4y = 1 => y = 4.\nUmur anak kedua 3 tahun mendatang adalah 4 + 3 = 7 tahun. Maka, kedua pernyataan bersama-sama cukup."
+  },
+  {
+    "id": 9,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Suatu data yang terdiri dari tujuh bilangan bulat memiliki mean = Q2 = Q3 = 5. Berapakah jangkauan data?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n1. Q1 = 4\n2. Jika data diurutkan dari yang terkecil sampai terbesar, jumlah data ke-3 dan dua kali data ke-7 adalah 21.",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+      "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Data: x1, x2, x3, x4, x5, x6, x7. Diketahui x4=5, x5=5, x6=5, dan total data=35.\n1) Pernyataan (1): x2 = 4. Masih banyak kemungkinan nilai x1 dan x7.\n2) Pernyataan (2): x3 + 2x7 = 21. Nilai x7 bergantung pada x3 yang belum pasti.\n3) Gabungan: Dari (1) x2=4, maka x3 haruslah 4 atau 5. Jika x3=5, maka 2x7=16, x7=8. Total x1+x2+x3+x4+x5+x6+x7 = x1+4+5+5+5+5+8 = 35 => x1=3. Jangkauan = 8-3=5. DUA pernyataan bersama-sama cukup."
   }
 ]
