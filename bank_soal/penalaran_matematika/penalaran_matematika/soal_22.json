@@ -103,41 +103,6 @@
   },
   {
     "id": 6,
-    "kategori": "Mudah",
-    "pertanyaan": "Soal biasa tanpa checkbox table...",
-    "pilihan": ["Pilihan A", "Pilihan B", "Pilihan C", "Pilihan D"],
-    "jawaban": "B",
-    "pembahasan": "Pembahasan soal biasa..."
-  },
-  {
-    "id": 7,
-    "kategori": "Sedang",
-    "pertanyaan": "Soal lain dengan checkbox table...",
-    "pilihan": ["A", "B", "C"],
-    "jawaban": "C",
-    "pembahasan": "Pembahasan...",
-    "checkbox_tabel": {
-      "header": ["Ya", "Tidak"],
-      "rows": [
-        {
-          "label": "Pernyataan 1",
-          "kolom": []
-        },
-        {
-          "label": "Pernyataan 2",
-          "kolom": []
-        },
-        {
-          "label": "Pernyataan 3",
-          "kolom": []
-        }
-      ],
-      "options": ["Ya", "Tidak"]
-    },
-    "jawaban_checkbox": ["Ya", "Tidak", "Ya"]
-  },
-  {
-    "id": 8,
     "kategori": "Penalaran Matematika",
     "pertanyaan": "Kimo dan Kimi sepasang suami istri yang mempunyai 3 orang anak. Saat ini umur anak kedua adalah 2/3 dari kakaknya. Berapa umur anak kedua tiga tahun mendatang?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n(1) Saat ini anak terakhir berumur seperempat dari jumlah umur kedua kakaknya.\n(2) Satu tahun lalu umur anak kedua duakali umur adiknya.",
     "pilihan": [
@@ -151,7 +116,7 @@
     "pembahasan": "Misalkan umur anak saat ini: pertama (x), kedua (y), ketiga (z).\nDiketahui: y = 2/3 x.\n\nAnalisis Pernyataan (1):\nz = 1/4(x + y). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nAnalisis Pernyataan (2):\n(y - 1) = 2(z - 1). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nKombinasi (1) dan (2):\nDari (1), z = 1/4(3/2y + y) = 5/8y.\nSubstitusi ke (2): y - 1 = 2(5/8y - 1) => y - 1 = 5/4y - 2 => 1/4y = 1 => y = 4.\nUmur anak kedua 3 tahun mendatang adalah 4 + 3 = 7 tahun. Maka, kedua pernyataan bersama-sama cukup."
   },
   {
-    "id": 9,
+    "id": 7,
     "kategori": "Penalaran Matematika",
     "pertanyaan": "Suatu data yang terdiri dari tujuh bilangan bulat memiliki mean = Q2 = Q3 = 5. Berapakah jangkauan data?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n1. Q1 = 4\n2. Jika data diurutkan dari yang terkecil sampai terbesar, jumlah data ke-3 dan dua kali data ke-7 adalah 21.",
     "pilihan": [
