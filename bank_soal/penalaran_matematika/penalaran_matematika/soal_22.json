@@ -149,5 +149,18 @@
     ],
     "jawaban": "A",
     "pembahasan": "**Toko A:**\nBeli 4 paket isi 5 ($20$ potong) + 1 paket isi 3 ($3$ potong) = 23 potong (mencukupi 22).\nBiaya: $(4 \\times 55.000) + 40.000 + 10.000 = 220.000 + 40.000 + 10.000 = 270.000$.\n\n**Toko B:**\nBiaya: $(4 \\times 60.000) + 35.000 + 30.000 = 305.000$.\n\nHarga termurah yang dibutuhkan adalah **Rp270.000,00**."
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Suatu balok memiliki tiga jenis luas sisi, yaitu 32 cm², 64 cm², dan 128 cm². Panjang setiap rusuk balok merupakan bilangan kelipatan 4 yang berbeda. Panjang diagonal sisi maksimum yang mungkin adalah ....",
+    "pilihan": [
+      "4√5",
+      "4√10",
+      "4√17",
+      "8√5",
+      "8√10"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Misal rusuk balok adalah p, l, dan t. Diketahui: p*l = 32, l*t = 64, p*t = 128. Dengan membagi persamaan, kita temukan: (p*t)/(l*t) = 128/64 => p/l = 2 => p = 2l. Substitusi ke p*l = 32: 2l*l = 32 => l^2 = 16 => l = 4. Maka p = 8 dan t = 16. Ketiga rusuk (4, 8, 16) adalah kelipatan 4 yang berbeda. Diagonal sisi maksimum diperoleh dari dua rusuk terpanjang (8 dan 16): √(8² + 16²) = √(64 + 256) = √320 = 8√5."
   }
 ]
