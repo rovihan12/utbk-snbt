@@ -128,5 +128,26 @@
     ],
     "jawaban": "C",
     "pembahasan": "Data: x1, x2, x3, x4, x5, x6, x7. Diketahui x4=5, x5=5, x6=5, dan total data=35.\n1) Pernyataan (1): x2 = 4. Masih banyak kemungkinan nilai x1 dan x7.\n2) Pernyataan (2): x3 + 2x7 = 21. Nilai x7 bergantung pada x3 yang belum pasti.\n3) Gabungan: Dari (1) x2=4, maka x3 haruslah 4 atau 5. Jika x3=5, maka 2x7=16, x7=8. Total x1+x2+x3+x4+x5+x6+x7 = x1+4+5+5+5+5+8 = 35 => x1=3. Jangkauan = 8-3=5. DUA pernyataan bersama-sama cukup."
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Farid berencana membeli 22 potong ayam dari toko A maupun toko B dengan pertimbangan harga tertentu. Berdasarkan tabel, jumlah uang minimum yang dibutuhkan Farid adalah ....",
+    "tabel": {
+      "header": ["Rincian Paket", "Toko A", "Toko B"],
+      "rows": [
+        ["Harga paket 3 potong", "Rp40.000,00", "Rp35.000,00"],
+        ["Harga paket 5 potong", "Rp55.000,00", "Rp60.000,00"],
+        ["Ongkos ke toko", "Rp10.000,00", "Rp30.000,00"]
+      ]
+    },
+    "pilihan": [
+      "Rp270.000,00",
+      "Rp275.000,00",
+      "Rp280.000,00",
+      "Rp285.000,00",
+      "Rp290.000,00"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Toko A:**\nBeli 4 paket isi 5 ($20$ potong) + 1 paket isi 3 ($3$ potong) = 23 potong (mencukupi 22).\nBiaya: $(4 \\times 55.000) + 40.000 + 10.000 = 220.000 + 40.000 + 10.000 = 270.000$.\n\n**Toko B:**\nBiaya: $(4 \\times 60.000) + 35.000 + 30.000 = 305.000$.\n\nHarga termurah yang dibutuhkan adalah **Rp270.000,00**."
   }
 ]
