@@ -12,12 +12,11 @@
     ],
     "jawaban": "D",
     "pembahasan": "1) Diketahui peluang Ida tidak juara $P(I^c) = 1/12$.\n2) Peluang Andi tidak juara $P(A^c) = 3 \\times P(I^c) = 3 \\times 1/12 = 3/12 = 1/4$.\n3) Peluang Andi mendapat juara $P(A) = 1 - P(A^c) = 1 - 1/4 = 3/4$."
-  }
-]
+  },
   {
     "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Baca **Teks** berikut untuk menjawab soal 2 - 5 \n. Terdapat 64 kotak yang diberi nomor mulai dari 1 sampai 64. Kotak-kotak tersebut diisi kelereng warna merah dan putih dengan aturan kotak mulai dari nomor 1 sampai nomor 64 diisi kelereng merah sejumlah ganjil dimulai dari 1 kelereng secara berurutan. Sebaliknya, kotak nomor 64 sampai nomor 1 diisi kelereng putih dengan beda 3 dimulai dari 1 kelereng secara berurutan.\n Jika $U_n$ menyatakan banyak kelereng putih pada kotak $n$, maka $U_n = ....$",
+    "pertanyaan": "Baca **Teks** berikut untuk menjawab soal 2 - 5. Terdapat 64 kotak yang diberi nomor mulai dari 1 sampai 64. Kotak-kotak tersebut diisi kelereng warna merah dan putih dengan aturan kotak mulai dari nomor 1 sampai nomor 64 diisi kelereng merah sejumlah ganjil dimulai dari 1 kelereng secara berurutan. Sebaliknya, kotak nomor 64 sampai nomor 1 diisi kelereng putih dengan beda 3 dimulai dari 1 kelereng secara berurutan.\nJika $U_n$ menyatakan banyak kelereng putih pada kotak $n$, maka $U_n = ....$",
     "pilihan": [
       "$193 - 3n, n = 1, 2, 3, ..., 64$",
       "$193 + 3n, n = 1, 2, 3, ..., 64$",
@@ -133,6 +132,7 @@
   },
   {
     "id": 9,
+    "kategori": "Sedang",
     "pertanyaan": "Farid berencana membeli 22 potong ayam dari toko A maupun toko B dengan pertimbangan harga tertentu. Berdasarkan tabel, jumlah uang minimum yang dibutuhkan Farid adalah ....",
     "tabel": {
       "header": ["Rincian Paket", "Toko A", "Toko B"],
@@ -154,6 +154,7 @@
   },
   {
     "id": 10,
+    "kategori": "Sedang",
     "pertanyaan": "Suatu balok memiliki tiga jenis luas sisi, yaitu 32 cm², 64 cm², dan 128 cm². Panjang setiap rusuk balok merupakan bilangan kelipatan 4 yang berbeda. Panjang diagonal sisi maksimum yang mungkin adalah ....",
     "pilihan": [
       "4√5",
@@ -167,7 +168,8 @@
   },
   {
     "id": 11,
-    "pertanyaan": "Sekelompok data terdiri dari 4 bilangan prima < 20. Jangkauan data = 2. Berapakah rata-ratanya?\n(1) Modus = 5,\n (2) Median = 5\n",
+    "kategori": "Sedang",
+    "pertanyaan": "Sekelompok data terdiri dari 4 bilangan prima < 20. Jangkauan data = 2. Berapakah rata-ratanya?\n(1) Modus = 5,\n(2) Median = 5",
     "pilihan": [
       "Pernyataan (1) SAJA cukup",
       "Pernyataan (2) SAJA cukup",
@@ -178,9 +180,9 @@
     "jawaban": "D",
     "pembahasan": "Bilangan prima dengan jangkauan 2 hanya (3,5) atau (5,7). Dengan modus atau median 5, data sudah unik untuk menentukan rata-rata (baik (1) maupun (2) secara mandiri cukup)."
   },
-  [
   {
     "id": 12,
+    "kategori": "Sedang",
     "pertanyaan": "Teks berikut berlaku untuk soal nomor 12-13.\nSetiap kali ada investor yang memberikan dana investasi, sebuah perusahaan startup akan menerbitkan lembaran saham baru sehingga jumlah sahamnya bertambah. Setiap lembaran saham ini memiliki nominal yang sama. Kepemilikan sebuah lembaga atau perseorangan terhadap sebuah perusahaan merupakan perbandingan antara jumlah saham yang dimilikinya dengan total saham yang ada di sebuah perusahaan.\n\nInkubator startup bernama Sandbox memberikan investasi sebesar 150.000 USD dan mendapatkan 100 lembar saham dari Samsan Tech. Sebelum mendapat pendanaan dari Sandbox, Samsan Tech memiliki 400 lembar saham. Setelah Sandbox memberikan investasi, Nam So Dan memiliki 60% saham pada Samsan Tech. Selain Nam So Dan dan Sandbox, terdapat Reihan dan Rohim sebagai pemilik saham Samsan Tech.\n\nElon Musk berencana untuk membeli seluruh saham milik Nam So Dan. Berapakah uang yang harus disiapkan Elon Musk?",
     "pilihan": [
       "900.000 USD",
@@ -194,6 +196,7 @@
   },
   {
     "id": 13,
+    "kategori": "Sedang",
     "pertanyaan": "Pada awalnya, Elon Musk berencana untuk membeli semua saham Nam So Dan. Ternyata, Nam So Dan tidak tertarik untuk menjualnya kepada Elon Musk. Namun, Reihan dan Rohim bersedia menjual saham mereka kepada Elon Musk. Berapakah jumlah saham yang akan diperoleh oleh Elon Musk jika transaksi ini berhasil?",
     "pilihan": [
       "500 lembar",
@@ -205,11 +208,10 @@
     "jawaban": "E",
     "pembahasan": "1. **Identifikasi total saham dan pemegang saham:**\n   Total saham = 500 lembar.\n   Pemegang saham: Nam So Dan, Sandbox, Reihan, dan Rohim.\n\n2. **Rincian kepemilikan saham:**\n   - Nam So Dan = 300 lembar (hasil perhitungan nomor 9).\n   - Sandbox = 100 lembar (diketahui dari teks).\n   - Reihan + Rohim = Sisa saham.\n\n3. **Hitung saham Reihan dan Rohim:**\n   Saham (Reihan + Rohim) = Total Saham - (Saham Nam So Dan + Saham Sandbox)\n   Saham (Reihan + Rohim) = 500 - (300 + 100)\n   Saham (Reihan + Rohim) = 500 - 400 = 100 lembar.\n\nJadi, jika Elon Musk membeli seluruh saham Reihan dan Rohim, ia akan memperoleh 100 lembar saham."
   },
-    [
   {
     "id": 14,
     "kategori": "Sedang",
-    "pertanyaan": "Baca teks berikut untuk menjawab soal 14 - 15\n. Sebuah warung kopi menjual segelas kopi seharga Rp20.000,00. Dalam program giveaway iPhone seharga Rp8.000.000,00, terdapat 500 pelanggan baru yang masing-masing membeli segelas kopi. Berapakah Customer Acquisition Cost (CAC) dari program giveaway iPhone saja?",
+    "pertanyaan": "Baca teks berikut untuk menjawab soal 14 - 15. Sebuah warung kopi menjual segelas kopi seharga Rp20.000,00. Dalam program giveaway iPhone seharga Rp8.000.000,00, terdapat 500 pelanggan baru yang masing-masing membeli segelas kopi. Berapakah Customer Acquisition Cost (CAC) dari program giveaway iPhone saja?",
     "pilihan": [
       "Rp10.000,00",
       "Rp16.000,00",
@@ -255,26 +257,26 @@
     "jawaban": "C",
     "pembahasan": "Selisih penjualan dari titik maksimum (1250) menyebabkan pengurangan pendapatan sebesar 1500 per unit. Karena pengurangan terjadi baik jika s > 1250 maupun s < 1250, maka digunakan fungsi nilai mutlak: 1500 * |s - 1250| = 250.000."
   },
-{
-  "id": 17,
-  "kategori": "Sulit",
-  "pertanyaan": "Sebuah toko menjual tiga jenis materai dengan harga sebagai berikut. Sarah menghabiskan uang sebesar Rp107.000,00 untuk membeli ketiga jenis materai tersebut. Jika banyak masing-masing jenis materai yang dibeli membentuk bilangan asli berurutan, banyak materai yang dibeli Sarah adalah ....",
-  "tabel": {
-    "header": ["Jenis Materai", "Harga"],
-    "rows": [
-      ["3.000", "Rp5.000,00"],
-      ["6.000", "Rp8.000,00"],
-      ["10.000", "Rp12.000,00"]
-    ]
-  },
-  "pilihan": [
-    "18",
-    "16",
-    "15",
-    "14",
-    "12"
-  ],
-  "jawaban": "E",
-  "pembahasan": "1) Misalkan jumlah materai yang dibeli membentuk bilangan asli berurutan: $n$, $n+1$, dan $n+2$.\n2) Buat persamaan berdasarkan total pengeluaran:\n   $5.000(n) + 8.000(n+1) + 12.000(n+2) = 107.000$\n3) Sederhanakan persamaan (bagi 1.000):\n   $5n + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75$\n   $n = 3$\n4) Jadi, jumlah masing-masing materai adalah 3, 4, dan 5.\n5) Total materai yang dibeli Sarah: $3 + 4 + 5 = 12$."
-}
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah toko menjual tiga jenis materai dengan harga sebagai berikut. Sarah menghabiskan uang sebesar Rp107.000,00 untuk membeli ketiga jenis materai tersebut. Jika banyak masing-masing jenis materai yang dibeli membentuk bilangan asli berurutan, banyak materai yang dibeli Sarah adalah ....",
+    "tabel": {
+      "header": ["Jenis Materai", "Harga"],
+      "rows": [
+        ["3.000", "Rp5.000,00"],
+        ["6.000", "Rp8.000,00"],
+        ["10.000", "Rp12.000,00"]
+      ]
+    },
+    "pilihan": [
+      "18",
+      "16",
+      "15",
+      "14",
+      "12"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1) Misalkan jumlah materai yang dibeli membentuk bilangan asli berurutan: $n$, $n+1$, dan $n+2$.\n2) Buat persamaan berdasarkan total pengeluaran:\n   $5.000(n) + 8.000(n+1) + 12.000(n+2) = 107.000$\n3) Sederhanakan persamaan (bagi 1.000):\n   $5n + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75$\n   $n = 3$\n4) Jadi, jumlah masing-masing materai adalah 3, 4, dan 5.\n5) Total materai yang dibeli Sarah: $3 + 4 + 5 = 12$."
+  }
 ]
