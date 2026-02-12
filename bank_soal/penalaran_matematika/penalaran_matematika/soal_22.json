@@ -278,5 +278,21 @@
     ],
     "jawaban": "E",
     "pembahasan": "1) Misalkan jumlah materai yang dibeli membentuk bilangan asli berurutan: $n$, $n+1$, dan $n+2$.\n2) Buat persamaan berdasarkan total pengeluaran:\n   $5.000(n) + 8.000(n+1) + 12.000(n+2) = 107.000$\n3) Sederhanakan persamaan (bagi 1.000):\n   $5n + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75$\n   $n = 3$\n4) Jadi, jumlah masing-masing materai adalah 3, 4, dan 5.\n5) Total materai yang dibeli Sarah: $3 + 4 + 5 = 12$."
+  },
+  {
+    "id": 18,
+   "kategori": "Sulit",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/grafik12.png",
+    "pertanyaan": "Karawang merupakan salah satu kota dengan pertumbuhan Kawasan Industri terbesar di Indonesia. Dengan begitu angka jumlah pekerja meningkat secara signifikan. Banyak tenaga kerja laki-laki berusia lebih dari 20 tahun yang bekerja bertambah secara linear. Jika digambarkan, grafik pertambahan tenaga kerja laki-laki dapat direpresentasikan oleh garis lurus berikut.\n\nPada tahun 1980, sekitar 600 laki-laki dengan usia diatas 20 tahun yang bekerja. Tahun 2000, jumlah tersebut meningkat menjadi 800. Perkiraan jumlah tenaga kerja laki-laki pada tahun 2015 adalah....",
+    "pilihan": [
+      "1150 orang",
+      "1050 orang",
+      "1000 orang",
+      "950 orang",
+      "1500 orang"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Data dari grafik menunjukkan fungsi linear (garis lurus):\n- Titik 1: $(1980, 600)$\n- Titik 2: $(2000, 800)$\n\nLangkah 1: Mencari gradien ($m$) atau laju pertumbuhan per tahun:\n$m = \\frac{y_2 - y_1}{x_2 - x_1}$\n$m = \\frac{800 - 600}{2000 - 1980}$\n$m = \\frac{200}{20} = 10$ orang/tahun.\n\nLangkah 2: Menentukan jumlah pada tahun 2015:\nSelisih tahun dari 2000 ke 2015 adalah $2015 - 2000 = 15$ tahun.\nTambahan pekerja = $15 \\text{ tahun} \\times 10 \\text{ orang/tahun} = 150$ orang.\n\nTotal pekerja tahun 2015 = Jumlah tahun 2000 + Tambahan\nTotal = $800 + 150 = 950$ orang.",
+    "keterangan_soal": "Pertumbuhan Linear dan Gradien"
   }
 ]
