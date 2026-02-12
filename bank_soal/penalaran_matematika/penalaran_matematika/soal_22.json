@@ -238,5 +238,19 @@
         ["Endorsement", "Rp5.000.000", "0%"]
       ]
     }
-  }
+  },
+  {
+    "id": 15,
+    "kategori": "Sedang",
+    "pertanyaan": "Manakah persamaan berikut yang bisa digunakan untuk mencari berapa jumlah orio yang dia jual jika ternyata pendapatannya berkurang sebanyak 250.000? (s adalah jumlah orio yang terjual)",
+    "pilihan": [
+      "15 |s - 250| = 250.000",
+      "1500 |s - 250| = 250.000",
+      "1500 |s - 1250| = 250.000",
+      "1500 (s - 1250) = 250.000",
+      "1500 (s - 250.000) = 1250"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Selisih penjualan dari titik maksimum (1250) menyebabkan pengurangan pendapatan sebesar 1500 per unit. Karena pengurangan terjadi baik jika s > 1250 maupun s < 1250, maka digunakan fungsi nilai mutlak: 1500 * |s - 1250| = 250.000."
+  }    
 ]
