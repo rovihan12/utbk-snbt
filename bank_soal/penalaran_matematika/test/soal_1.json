@@ -1,41 +1,336 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang...",
-    "pilihan": ["A", "B", "C", "D"],
-    "jawaban": "A",
-    "pembahasan": "Pembahasan lengkap...",
-    "checkbox_tabel": {
-      "header": ["Mungkin", "Tidak Mungkin"],
-      "rows": [
-        {"label": "30 cm x 30 cm"},
-        {"label": "50 cm x 50 cm"},
-        {"label": "60 cm x 60 cm"}
-      ]
-    },
-    "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
+    "kategori": "Sedang",
+    "pertanyaan": "Ida dan Andi mengikuti perlombaan. Dalam perlombaan tersebut, peluang Andi tidak mendapat juara yaitu tiga kali peluang Ida tidak mendapat juara. Jika dalam perlombaan, peluang Ida tidak mendapat juara adalah 1/12, maka berapakah peluang Andi mendapat juara?",
+    "pilihan": [
+      "1/2",
+      "1/4",
+      "5/8",
+      "3/4",
+      "1/5"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1) Diketahui peluang Ida tidak juara $P(I^c) = 1/12$.\n2) Peluang Andi tidak juara $P(A^c) = 3 \\times P(I^c) = 3 \\times 1/12 = 3/12 = 1/4$.\n3) Peluang Andi mendapat juara $P(A) = 1 - P(A^c) = 1 - 1/4 = 3/4$."
   },
   {
     "id": 2,
-    "pertanyaan": "Soal biasa tanpa checkbox table...",
-    "pilihan": ["Pilihan A", "Pilihan B", "Pilihan C", "Pilihan D"],
-    "jawaban": "B",
-    "pembahasan": "Pembahasan soal biasa..."
+    "kategori": "Sedang",
+    "pertanyaan": "Baca **Teks** berikut untuk menjawab soal 2 - 5.\n\n Terdapat 64 kotak yang diberi nomor mulai dari 1 sampai 64. Kotak-kotak tersebut diisi kelereng warna merah dan putih dengan aturan kotak mulai dari nomor 1 sampai nomor 64 diisi kelereng merah sejumlah ganjil dimulai dari 1 kelereng secara berurutan. Sebaliknya, kotak nomor 64 sampai nomor 1 diisi kelereng putih dengan beda 3 dimulai dari 1 kelereng secara berurutan.\nJika $U_n$ menyatakan banyak kelereng putih pada kotak $n$, maka $U_n = ....$",
+    "pilihan": [
+      "$193 - 3n, n = 1, 2, 3, ..., 64$",
+      "$193 + 3n, n = 1, 2, 3, ..., 64$",
+      "$193 - n, n = 1, 2, 3, ..., 64$",
+      "$192 - n, n = 1, 2, 3, ..., 64$",
+      "$192 + n, n = 1, 2, 3, ..., 64$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1) Pola kelereng putih dimulai dari kotak 64 (1 kelereng) dan bertambah 3 setiap kali nomor kotak berkurang (beda = 3).\n2) Ini adalah barisan aritmetika terbalik. Kotak 64 adalah suku pertama dari arah belakang ($P_{64} = 1$).\n3) Rumus umum untuk kotak ke-$n$ adalah: $P_n = a + (N - n)b$, dimana $N = 64, a = 1, b = 3$.\n4) $P_n = 1 + (64 - n)3 = 1 + 192 - 3n = 193 - 3n$."
   },
   {
     "id": 3,
-    "pertanyaan": "Soal lain dengan checkbox table...",
-    "pilihan": ["A", "B", "C"],
-    "jawaban": "C",
-    "pembahasan": "Pembahasan...",
+    "kategori": "Sedang",
+    "pertanyaan": "Klik pilihan pada kolom di sebelah kanan pernyataan yang sesuai dengan jawaban.",
     "checkbox_tabel": {
       "header": ["Ya", "Tidak"],
       "rows": [
-        {"label": "Pernyataan 1"},
-        {"label": "Pernyataan 2"},
-        {"label": "Pernyataan 3"}
+        {
+          "label": "Banyak kelereng pada kotak no 64 adalah 128",
+          "kolom": []
+        },
+        {
+          "label": "Banyak kelereng putih pada kotak nomor 4 adalah 181",
+          "kolom": []
+        },
+        {
+          "label": "Selisih kelereng merah dan putih pada kotak nomor 11 adalah 140",
+          "kolom": []
+        }
+      ],
+      "options": ["Ya", "Tidak"]
+    },
+    "pilihan": [
+      "Ya, Ya, Tidak",
+      "Ya, Tidak, Ya",
+      "Tidak, Ya, Ya",
+      "Ya, Ya, Ya",
+      "Tidak, Tidak, Tidak"
+    ],
+    "jawaban": "A",
+    "jawaban_checkbox": ["Ya", "Ya", "Tidak"],
+    "pembahasan": "1) Kotak 64: Merah = $2(64)-1 = 127$. Putih = $193-3(64) = 1$. Total = $127+1 = 128$ (BENAR).\n2) Putih kotak 4: $U_4 = 193 - 3(4) = 193 - 12 = 181$ (BENAR).\n3) Kotak 11: Merah = $2(11)-1 = 21$. Putih = $193-3(11) = 160$. Selisih = $160 - 21 = 139$ (SALAH, di soal tertulis 140)."
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Jumlah kelereng dari kotak nomor 1 sampai kotak nomor 4 adalah ....",
+    "pilihan": [
+      "731",
+      "750",
+      "758",
+      "819",
+      "823"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Rumus total kelereng per kotak $T_n = M_n + P_n = (2n - 1) + (193 - 3n) = 192 - n$.\n2) Kotak 1: $192 - 1 = 191$.\n3) Kotak 2: $192 - 2 = 190$.\n4) Kotak 3: $192 - 3 = 189$.\n5) Kotak 4: $192 - 4 = 188$.\n6) Total: $191 + 190 + 189 + 188 = 758$."
+  },
+  {
+    "id": 5,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika setiap kotak mulai dari kotak nomor 1 diisi kelereng hijau sejumlah genap dimulai dari 2 kelereng secara berurutan. Jumlah kelereng pada kotak nomor 5 sampai dengan nomor 7 adalah ....",
+    "pilihan": [
+      "590",
+      "591",
+      "592",
+      "593",
+      "594"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1) Kelereng hijau ($H_n$) adalah bilangan genap: $H_n = 2n$.\n2) Total kelereng baru ($T'_n$) = Merah + Putih + Hijau = $(2n-1) + (193-3n) + 2n = n + 192$.\n3) Kotak 5: $5 + 192 = 197$.\n4) Kotak 6: $6 + 192 = 198$.\n5) Kotak 7: $7 + 192 = 199$.\n6) Jumlah: $197 + 198 + 199 = 594$."
+  },
+  {
+    "id": 6,
+    "kategori": "Mudah",
+    "pertanyaan": "Pak Dio akan memasang keramik di teras rumah. Keramik yang akan digunakan berukuran 25 cm x 25 cm dan diperlukan 40 buah keramik. Jika digunakan keramik yang berukuran 50 cm x 50 cm maka jumlah keramik yang diperlukan adalah ...",
+    "pilihan": [
+      "10 buah",
+      "15 buah",
+      "18 buah",
+      "20 buah",
+      "25 buah"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1) Cari total luas teras: $L = 40 \\text{ buah} \\times (25 \\text{ cm} \\times 25 \\text{ cm}) = 40 \\times 625 = 25.000 \\text{ cm}^2$.\n2) Cari luas satu keramik baru: $L_{baru} = 50 \\text{ cm} \\times 50 \\text{ cm} = 2.500 \\text{ cm}^2$.\n3) Hitung jumlah keramik yang dibutuhkan: $n = 25.000 / 2.500 = 10 \\text{ buah}$.\n4) Cara cepat: Karena panjang dan lebar keramik baru 2x lipat lebih besar, maka luasnya 4x lipat lebih besar. Sehingga jumlah keramik menjadi 1/4 dari semula: $40 / 4 = 10 \\text{ buah}$."
+  },
+  {
+    "id": 7,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Kimo dan Kimi sepasang suami istri yang mempunyai 3 orang anak. Saat ini umur anak kedua adalah 2/3 dari kakaknya. Berapa umur anak kedua tiga tahun mendatang?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n(1) Saat ini anak terakhir berumur seperempat dari jumlah umur kedua kakaknya.\n(2) Satu tahun lalu umur anak kedua duakali umur adiknya.",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+      "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Misalkan umur anak saat ini: pertama (x), kedua (y), ketiga (z).\nDiketahui: y = 2/3 x.\n\nAnalisis Pernyataan (1):\nz = 1/4(x + y). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nAnalisis Pernyataan (2):\n(y - 1) = 2(z - 1). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nKombinasi (1) dan (2):\nDari (1), z = 1/4(3/2y + y) = 5/8y.\nSubstitusi ke (2): y - 1 = 2(5/8y - 1) => y - 1 = 5/4y - 2 => 1/4y = 1 => y = 4.\nUmur anak kedua 3 tahun mendatang adalah 4 + 3 = 7 tahun. Maka, kedua pernyataan bersama-sama cukup."
+  },
+  {
+    "id": 8,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Suatu data yang terdiri dari tujuh bilangan bulat memiliki mean = Q2 = Q3 = 5. Berapakah jangkauan data?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n1. Q1 = 4\n2. Jika data diurutkan dari yang terkecil sampai terbesar, jumlah data ke-3 dan dua kali data ke-7 adalah 21.",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+      "DUA pernyataan bersama-sama cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Data: x1, x2, x3, x4, x5, x6, x7. Diketahui x4=5, x5=5, x6=5, dan total data=35.\n1) Pernyataan (1): x2 = 4. Masih banyak kemungkinan nilai x1 dan x7.\n2) Pernyataan (2): x3 + 2x7 = 21. Nilai x7 bergantung pada x3 yang belum pasti.\n3) Gabungan: Dari (1) x2=4, maka x3 haruslah 4 atau 5. Jika x3=5, maka 2x7=16, x7=8. Total x1+x2+x3+x4+x5+x6+x7 = x1+4+5+5+5+5+8 = 35 => x1=3. Jangkauan = 8-3=5. DUA pernyataan bersama-sama cukup."
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Farid berencana membeli 22 potong ayam dari toko A maupun toko B dengan pertimbangan harga tertentu. Berdasarkan tabel, jumlah uang minimum yang dibutuhkan Farid adalah ....",
+    "tabel": {
+      "header": ["Rincian Paket", "Toko A", "Toko B"],
+      "rows": [
+        ["Harga paket 3 potong", "Rp40.000,00", "Rp35.000,00"],
+        ["Harga paket 5 potong", "Rp55.000,00", "Rp60.000,00"],
+        ["Ongkos ke toko", "Rp10.000,00", "Rp30.000,00"]
       ]
     },
-    "jawaban_checkbox": ["Ya", "Tidak", "Ya"]
+    "pilihan": [
+      "Rp270.000,00",
+      "Rp275.000,00",
+      "Rp280.000,00",
+      "Rp285.000,00",
+      "Rp290.000,00"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Toko A:**\nBeli 4 paket isi 5 ($20$ potong) + 1 paket isi 3 ($3$ potong) = 23 potong (mencukupi 22).\nBiaya: $(4 \\times 55.000) + 40.000 + 10.000 = 220.000 + 40.000 + 10.000 = 270.000$.\n\n**Toko B:**\nBiaya: $(4 \\times 60.000) + 35.000 + 30.000 = 305.000$.\n\nHarga termurah yang dibutuhkan adalah **Rp270.000,00**."
+  },
+  {
+    "id": 10,
+    "kategori": "Sedang",
+    "pertanyaan": "Suatu balok memiliki tiga jenis luas sisi, yaitu 32 cm², 64 cm², dan 128 cm². Panjang setiap rusuk balok merupakan bilangan kelipatan 4 yang berbeda. Panjang diagonal sisi maksimum yang mungkin adalah ....",
+    "pilihan": [
+      "4√5",
+      "4√10",
+      "4√17",
+      "8√5",
+      "8√10"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Misal rusuk balok adalah p, l, dan t. Diketahui: p*l = 32, l*t = 64, p*t = 128. Dengan membagi persamaan, kita temukan: (p*t)/(l*t) = 128/64 => p/l = 2 => p = 2l. Substitusi ke p*l = 32: 2l*l = 32 => l^2 = 16 => l = 4. Maka p = 8 dan t = 16. Ketiga rusuk (4, 8, 16) adalah kelipatan 4 yang berbeda. Diagonal sisi maksimum diperoleh dari dua rusuk terpanjang (8 dan 16): √(8² + 16²) = √(64 + 256) = √320 = 8√5."
+  },
+  {
+    "id": 11,
+    "kategori": "Sedang",
+    "pertanyaan": "Sekelompok data terdiri dari 4 bilangan prima < 20. Jangkauan data = 2. Berapakah rata-ratanya?\n(1) Modus = 5,\n(2) Median = 5",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup",
+      "Pernyataan (2) SAJA cukup",
+      "DUA pernyataan bersama-sama cukup",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan (2) tidak cukup"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Bilangan prima dengan jangkauan 2 hanya (3,5) atau (5,7). Dengan modus atau median 5, data sudah unik untuk menentukan rata-rata (baik (1) maupun (2) secara mandiri cukup)."
+  },
+  {
+    "id": 12,
+    "kategori": "Sedang",
+    "pertanyaan": "Teks berikut berlaku untuk soal nomor 12-13.\nSetiap kali ada investor yang memberikan dana investasi, sebuah perusahaan startup akan menerbitkan lembaran saham baru sehingga jumlah sahamnya bertambah. Setiap lembaran saham ini memiliki nominal yang sama. Kepemilikan sebuah lembaga atau perseorangan terhadap sebuah perusahaan merupakan perbandingan antara jumlah saham yang dimilikinya dengan total saham yang ada di sebuah perusahaan.\n\nInkubator startup bernama Sandbox memberikan investasi sebesar 150.000 USD dan mendapatkan 100 lembar saham dari Samsan Tech. Sebelum mendapat pendanaan dari Sandbox, Samsan Tech memiliki 400 lembar saham. Setelah Sandbox memberikan investasi, Nam So Dan memiliki 60% saham pada Samsan Tech. Selain Nam So Dan dan Sandbox, terdapat Reihan dan Rohim sebagai pemilik saham Samsan Tech.\n\nElon Musk berencana untuk membeli seluruh saham milik Nam So Dan. Berapakah uang yang harus disiapkan Elon Musk?",
+    "pilihan": [
+      "900.000 USD",
+      "750.000 USD",
+      "600.000 USD",
+      "450.000 USD",
+      "300.000 USD"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1. **Hitung total saham setelah investasi Sandbox:**\n   Saham awal = 400 lembar.\n   Saham baru yang diterbitkan untuk Sandbox = 100 lembar.\n   Total saham sekarang = 400 + 100 = 500 lembar.\n\n2. **Hitung jumlah saham Nam So Dan:**\n   Nam So Dan memiliki 60% dari total saham.\n   Saham Nam So Dan = 60% × 500 = 300 lembar.\n\n3. **Hitung harga per lembar saham:**\n   Sandbox membayar 150.000 USD untuk 100 lembar saham.\n   Harga per lembar = 150.000 / 100 = 1.500 USD.\n\n4. **Hitung total uang yang harus disiapkan Elon Musk:**\n   Elon membeli seluruh saham Nam So Dan (300 lembar).\n   Total uang = 300 lembar × 1.500 USD/lembar = 450.000 USD."
+  },
+  {
+    "id": 13,
+    "kategori": "Sedang",
+    "pertanyaan": "Pada awalnya, Elon Musk berencana untuk membeli semua saham Nam So Dan. Ternyata, Nam So Dan tidak tertarik untuk menjualnya kepada Elon Musk. Namun, Reihan dan Rohim bersedia menjual saham mereka kepada Elon Musk. Berapakah jumlah saham yang akan diperoleh oleh Elon Musk jika transaksi ini berhasil?",
+    "pilihan": [
+      "500 lembar",
+      "400 lembar",
+      "300 lembar",
+      "200 lembar",
+      "100 lembar"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1. **Identifikasi total saham dan pemegang saham:**\n   Total saham = 500 lembar.\n   Pemegang saham: Nam So Dan, Sandbox, Reihan, dan Rohim.\n\n2. **Rincian kepemilikan saham:**\n   - Nam So Dan = 300 lembar (hasil perhitungan nomor 9).\n   - Sandbox = 100 lembar (diketahui dari teks).\n   - Reihan + Rohim = Sisa saham.\n\n3. **Hitung saham Reihan dan Rohim:**\n   Saham (Reihan + Rohim) = Total Saham - (Saham Nam So Dan + Saham Sandbox)\n   Saham (Reihan + Rohim) = 500 - (300 + 100)\n   Saham (Reihan + Rohim) = 500 - 400 = 100 lembar.\n\nJadi, jika Elon Musk membeli seluruh saham Reihan dan Rohim, ia akan memperoleh 100 lembar saham."
+  },
+  {
+    "id": 14,
+    "kategori": "Sedang",
+    "pertanyaan": "Baca teks berikut untuk menjawab soal 14 - 15. Sebuah warung kopi menjual segelas kopi seharga Rp20.000,00. Dalam program giveaway iPhone seharga Rp8.000.000,00, terdapat 500 pelanggan baru yang masing-masing membeli segelas kopi. Berapakah Customer Acquisition Cost (CAC) dari program giveaway iPhone saja?",
+    "pilihan": [
+      "Rp10.000,00",
+      "Rp16.000,00",
+      "Rp17.333,33",
+      "Rp20.000,00",
+      "Rp32.000,00"
+    ],
+    "jawaban": "B",
+    "pembahasan": "1) CAC (Customer Acquisition Cost) didefinisikan sebagai biaya marketing dibagi jumlah pelanggan baru.\n2) Biaya giveaway = Rp8.000.000.\n3) Jumlah pelanggan baru = 500.\n4) CAC = Rp8.000.000 / 500 = Rp16.000,00."
+  },
+  {
+    "id": 15,
+    "kategori": "Sulit",
+    "pertanyaan": "Berdasarkan data warung kopi tersebut, terdapat dua program: Giveaway (Biaya Rp8jt, 500 pelanggan) dan Endorsement (Biaya Rp5jt, 250 pelanggan). Harga kopi Rp20.000/gelas. Setelah dievaluasi, berapakah nilai Marketing ROI dari program yang memiliki hasil lebih tinggi?",
+    "pilihan": [
+      "10%",
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1) ROI dihitung dengan rumus: ((Total Penjualan - Biaya) / Biaya) x 100%.\n2) Program Giveaway: Penjualan = 500 x 20.000 = Rp10.000.000. ROI = ((10jt - 8jt) / 8jt) x 100% = 25%.\n3) Program Endorsement: Penjualan = 250 x 20.000 = Rp5.000.000. ROI = ((5jt - 5jt) / 5jt) x 100% = 0%.\n4) Program dengan ROI lebih tinggi adalah Giveaway dengan nilai 25%.",
+    "tabel_pembahasan": {
+      "header": ["Program", "Total Penjualan", "ROI"],
+      "rows": [
+        ["Giveaway", "Rp10.000.000", "25%"],
+        ["Endorsement", "Rp5.000.000", "0%"]
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "kategori": "Sedang",
+    "pertanyaan": "Manakah persamaan berikut yang bisa digunakan untuk mencari berapa jumlah orio yang dia jual jika ternyata pendapatannya berkurang sebanyak 250.000? (s adalah jumlah orio yang terjual)",
+    "pilihan": [
+      "15 |s - 250| = 250.000",
+      "1500 |s - 250| = 250.000",
+      "1500 |s - 1250| = 250.000",
+      "1500 (s - 1250) = 250.000",
+      "1500 (s - 250.000) = 1250"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Selisih penjualan dari titik maksimum (1250) menyebabkan pengurangan pendapatan sebesar 1500 per unit. Karena pengurangan terjadi baik jika s > 1250 maupun s < 1250, maka digunakan fungsi nilai mutlak: 1500 * |s - 1250| = 250.000."
+  },
+  {
+    "id": 17,
+    "kategori": "Sulit",
+    "pertanyaan": "Sebuah toko menjual tiga jenis materai dengan harga sebagai berikut. Sarah menghabiskan uang sebesar Rp107.000,00 untuk membeli ketiga jenis materai tersebut. Jika banyak masing-masing jenis materai yang dibeli membentuk bilangan asli berurutan, banyak materai yang dibeli Sarah adalah ....",
+    "tabel": {
+      "header": ["Jenis Materai", "Harga"],
+      "rows": [
+        ["3.000", "Rp5.000,00"],
+        ["6.000", "Rp8.000,00"],
+        ["10.000", "Rp12.000,00"]
+      ]
+    },
+    "pilihan": [
+      "18",
+      "16",
+      "15",
+      "14",
+      "12"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1) Misalkan jumlah materai yang dibeli membentuk bilangan asli berurutan: $n$, $n+1$, dan $n+2$.\n2) Buat persamaan berdasarkan total pengeluaran:\n   $5.000(n) + 8.000(n+1) + 12.000(n+2) = 107.000$\n3) Sederhanakan persamaan (bagi 1.000):\n   $5n + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75$\n   $n = 3$\n4) Jadi, jumlah masing-masing materai adalah 3, 4, dan 5.\n5) Total materai yang dibeli Sarah: $3 + 4 + 5 = 12$."
+  },
+  {
+    "id": 18,
+   "kategori": "Sulit",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/grafik12.png",
+    "pertanyaan": "Karawang merupakan salah satu kota dengan pertumbuhan Kawasan Industri terbesar di Indonesia. Dengan begitu angka jumlah pekerja meningkat secara signifikan. Banyak tenaga kerja laki-laki berusia lebih dari 20 tahun yang bekerja bertambah secara linear. Jika digambarkan, grafik pertambahan tenaga kerja laki-laki dapat direpresentasikan oleh garis lurus berikut.\n\nPada tahun 1980, sekitar 600 laki-laki dengan usia diatas 20 tahun yang bekerja. Tahun 2000, jumlah tersebut meningkat menjadi 800. Perkiraan jumlah tenaga kerja laki-laki pada tahun 2015 adalah....",
+    "pilihan": [
+      "1150 orang",
+      "1050 orang",
+      "1000 orang",
+      "950 orang",
+      "1500 orang"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Data dari grafik menunjukkan fungsi linear (garis lurus):\n- Titik 1: $(1980, 600)$\n- Titik 2: $(2000, 800)$\n\nLangkah 1: Mencari gradien ($m$) atau laju pertumbuhan per tahun:\n$m = \\frac{y_2 - y_1}{x_2 - x_1}$\n$m = \\frac{800 - 600}{2000 - 1980}$\n$m = \\frac{200}{20} = 10$ orang/tahun.\n\nLangkah 2: Menentukan jumlah pada tahun 2015:\nSelisih tahun dari 2000 ke 2015 adalah $2015 - 2000 = 15$ tahun.\nTambahan pekerja = $15 \\text{ tahun} \\times 10 \\text{ orang/tahun} = 150$ orang.\n\nTotal pekerja tahun 2015 = Jumlah tahun 2000 + Tambahan\nTotal = $800 + 150 = 950$ orang.",
+    "keterangan_soal": "Pertumbuhan Linear dan Gradien"
+  },
+  {
+    "id": 19,
+   "kategori": "Sulit",
+    "pertanyaan": "Password Laptop Eva adalah bilangan yang terdiri dari tiga buah bilangan. Masing-masing bilangan terdiri dari dua digit. Masing-masing dari tiga bilangan tersebut memenuhi tepat satu dari tiga kondisi berikut:\n1. Sebuah bilangan genap\n2. Sebuah bilangan adalah kelipatan 3\n3. Sebuah bilangan adalah bulan kelahiran Eva\n\nPassword Laptop Eva mungkin ....",
+    "pilihan": [
+      "262710",
+      "112627",
+      "262410",
+      "262510",
+      "252711"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Setiap bilangan harus memenuhi TEPAT SATU kondisi.\n\nMari bedah pilihan (B) 11-26-27:\n- 11: Memenuhi kondisi (3) Bulan kelahiran. 11 bukan genap dan bukan kelipatan 3. (Lolos)\n- 26: Memenuhi kondisi (1) Bilangan genap. 26 bukan kelipatan 3 dan bukan bulan kelahiran (karena bulan hanya 01-12). (Lolos)\n- 27: Memenuhi kondisi (2) Kelipatan 3. 27 bukan bilangan genap dan bukan bulan kelahiran. (Lolos)\n\nSedangkan pilihan lain tidak memenuhi syarat 'tepat satu'. Contohnya pada (A), angka 10 memenuhi kondisi bulan kelahiran DAN genap. Pada (C), angka 24 memenuhi genap DAN kelipatan 3.",
+    "keterangan_soal": "Logika Matematika dan Himpunan"
+  },
+    {
+    "id": 20,
+   "kategori": "Sulit",
+    "pertanyaan": "Kalau Seth berangkat pada pukul 07.00, maka sepanjang perjalanan akan dalam kondisi normal. Namun, jika Seth berangkat pukul 07.15, maka dari rumah ke pintu keluar tol akan dalam kondisi macet, walaupun dari pintu keluar tol ke kantor dalam kondisi normal. Beda waktu perjalanan yang dialami jika Seth berangkat pada pukul 07.00 dan 07.15 adalah ...",
+    "tabel": {
+      "header": ["Rute Perjalanan", "Jarak (km)", "Kecepatan Normal (km/jam)", "Kecepatan Macet (km/jam)"],
+      "rows": [
+        ["Rumah - Pintu Masuk Tol", "5", "30", "25"],
+        ["Pintu Masuk Tol - Pintu Keluar Tol", "12", "70", "20"],
+        ["Pintu Keluar Tol - Kantor", "3", "35", "30"]
+      ]
+    },
+    "pilihan": [
+      "55 menit",
+      "12 menit",
+      "28 menit",
+      "7 menit",
+      "42 menit"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Waktu Kondisi Normal (07.00):**\n- Rute 1: $5/30 \\times 60 = 10$ menit\n- Rute 2: $12/70 \\times 60 \\approx 10,3$ menit\n- Rute 3: $3/35 \\times 60 \\approx 5,1$ menit\nTotal $\\approx 25,4$ menit.\n\n**Waktu Kondisi Macet (07.15):**\n- Rute 1: $5/25 \\times 60 = 12$ menit\n- Rute 2: $12/20 \\times 60 = 36$ menit\n- Rute 3: $3/35 \\times 60 \\approx 5,1$ menit (Normal)\nTotal $\\approx 53,1$ menit.\n\n**Selisih Waktu:** $53,1 - 25,4 = 27,7$ menit. Dibulatkan menjadi **28 menit**.",
+    "keterangan_soal": "Pengetahuan Kuantitatif"
   }
 ]
