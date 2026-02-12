@@ -135,5 +135,19 @@
       "options": ["Ya", "Tidak"]
     },
     "jawaban_checkbox": ["Ya", "Tidak", "Ya"]
+  },
+  {
+    "id": 8,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Kimo dan Kimi sepasang suami istri yang mempunyai 3 orang anak. Saat ini umur anak kedua adalah 2/3 dari kakaknya. Berapa umur anak kedua tiga tahun mendatang?\n\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut?\n(1) Saat ini anak terakhir berumur seperempat dari jumlah umur kedua kakaknya.\n(2) Satu tahun lalu umur anak kedua duakali umur adiknya.",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) SAJA tidak cukup",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) SAJA tidak cukup",
+      "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Misalkan umur anak saat ini: pertama (x), kedua (y), ketiga (z).\nDiketahui: y = 2/3 x.\n\nAnalisis Pernyataan (1):\nz = 1/4(x + y). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nAnalisis Pernyataan (2):\n(y - 1) = 2(z - 1). Terdapat 3 variabel dan hanya 2 persamaan. Tidak cukup.\n\nKombinasi (1) dan (2):\nDari (1), z = 1/4(3/2y + y) = 5/8y.\nSubstitusi ke (2): y - 1 = 2(5/8y - 1) => y - 1 = 5/4y - 2 => 1/4y = 1 => y = 4.\nUmur anak kedua 3 tahun mendatang adalah 4 + 3 = 7 tahun. Maka, kedua pernyataan bersama-sama cukup."
   }
 ]
