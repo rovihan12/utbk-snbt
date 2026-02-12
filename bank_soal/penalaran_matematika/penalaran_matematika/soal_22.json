@@ -1,6 +1,80 @@
 [
+[
+  {
+    "id": 1,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $U_n$ menyatakan banyak kelereng putih pada kotak $n$, maka $U_n = ....$",
+    "pilihan": [
+      "$193 - 3n, n = 1, 2, 3, ..., 64$",
+      "$193 + 3n, n = 1, 2, 3, ..., 64$",
+      "$193 - n, n = 1, 2, 3, ..., 64$",
+      "$192 - n, n = 1, 2, 3, ..., 64$",
+      "$192 + n, n = 1, 2, 3, ..., 64$"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1) Pola kelereng putih dimulai dari kotak 64 (1 kelereng) dan bertambah 3 setiap kali nomor kotak berkurang (beda = 3).\n2) Ini adalah barisan aritmetika terbalik. Kotak 64 adalah suku pertama dari arah belakang ($P_{64} = 1$).\n3) Rumus umum untuk kotak ke-$n$ adalah: $P_n = a + (N - n)b$, dimana $N = 64, a = 1, b = 3$.\n4) $P_n = 1 + (64 - n)3 = 1 + 192 - 3n = 193 - 3n$."
+  },
+  {
+    "id": 2,
+    "kategori": "Sedang",
+    "pertanyaan": "Klik pilihan pada kolom di sebelah kanan pernyataan yang sesuai dengan jawaban.",
+    "tabel": {
+      "header": ["Pernyataan", "Ya", "Tidak"],
+      "rows": [
+        {
+          "label": "Banyak kelereng pada kotak no 64 adalah 128",
+          "kolom": ["Ya", ""]
+        },
+        {
+          "label": "Banyak kelereng putih pada kotak nomor 4 adalah 181",
+          "kolom": ["Ya", ""]
+        },
+        {
+          "label": "Selisih kelereng merah dan putih pada kotak nomor 11 adalah 140",
+          "kolom": ["", "Tidak"]
+        }
+      ]
+    },
+    "pilihan": [
+      "Ya, Ya, Tidak",
+      "Ya, Tidak, Ya",
+      "Tidak, Ya, Ya",
+      "Ya, Ya, Ya",
+      "Tidak, Tidak, Tidak"
+    ],
+    "jawaban": "A",
+    "pembahasan": "1) Kotak 64: Merah = $2(64)-1 = 127$. Putih = $193-3(64) = 1$. Total = $127+1 = 128$ (BENAR).\n2) Putih kotak 4: $U_4 = 193 - 3(4) = 193 - 12 = 181$ (BENAR).\n3) Kotak 11: Merah = $2(11)-1 = 21$. Putih = $193-3(11) = 160$. Selisih = $160 - 21 = 139$ (SALAH, di soal tertulis 140)."
+  },
+  {
+    "id": 3,
+    "kategori": "Sedang",
+    "pertanyaan": "Jumlah kelereng dari kotak nomor 1 sampai kotak nomor 4 adalah ....",
+    "pilihan": [
+      "731",
+      "750",
+      "758",
+      "819",
+      "823"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Rumus total kelereng per kotak $T_n = M_n + P_n = (2n - 1) + (193 - 3n) = 192 - n$.\n2) Kotak 1: $192 - 1 = 191$.\n3) Kotak 2: $192 - 2 = 190$.\n4) Kotak 3: $192 - 3 = 189$.\n5) Kotak 4: $192 - 4 = 188$.\n6) Total: $191 + 190 + 189 + 188 = 758$."
+  },
   {
     "id": 4,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika setiap kotak mulai dari kotak nomor 1 diisi kelereng hijau sejumlah genap dimulai dari 2 kelereng secara berurutan. Jumlah kelereng pada kotak nomor 5 sampai dengan nomor 7 adalah ....",
+    "pilihan": [
+      "590",
+      "591",
+      "592",
+      "593",
+      "594"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1) Kelereng hijau ($H_n$) adalah bilangan genap: $H_n = 2n$.\n2) Total kelereng baru ($T'_n$) = Merah + Putih + Hijau = $(2n-1) + (193-3n) + 2n = n + 192$.\n3) Kotak 5: $5 + 192 = 197$.\n4) Kotak 6: $6 + 192 = 198$.\n5) Kotak 7: $7 + 192 = 199$.\n6) Jumlah: $197 + 198 + 199 = 594$."
+  },
+  {
+    "id": 5,
     "pertanyaan": "Sebuah gudang penyimpanan memiliki lantai berbentuk persegi panjang...",
     "pilihan": ["A", "B", "C", "D"],
     "jawaban": "A",
@@ -16,14 +90,14 @@
     "jawaban_checkbox": ["Tidak Mungkin", "Mungkin", "Tidak Mungkin"]
   },
   {
-    "id": 5,
+    "id": 6,
     "pertanyaan": "Soal biasa tanpa checkbox table...",
     "pilihan": ["Pilihan A", "Pilihan B", "Pilihan C", "Pilihan D"],
     "jawaban": "B",
     "pembahasan": "Pembahasan soal biasa..."
   },
   {
-    "id": 6,
+    "id": 7,
     "pertanyaan": "Soal lain dengan checkbox table...",
     "pilihan": ["A", "B", "C"],
     "jawaban": "C",
