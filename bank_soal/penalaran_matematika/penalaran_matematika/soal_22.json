@@ -254,5 +254,27 @@
     ],
     "jawaban": "C",
     "pembahasan": "Selisih penjualan dari titik maksimum (1250) menyebabkan pengurangan pendapatan sebesar 1500 per unit. Karena pengurangan terjadi baik jika s > 1250 maupun s < 1250, maka digunakan fungsi nilai mutlak: 1500 * |s - 1250| = 250.000."
-  }    
+  },
+{
+  "id": 17,
+  "kategori": "Sulit",
+  "pertanyaan": "Sebuah toko menjual tiga jenis materai dengan harga sebagai berikut. Sarah menghabiskan uang sebesar Rp107.000,00 untuk membeli ketiga jenis materai tersebut. Jika banyak masing-masing jenis materai yang dibeli membentuk bilangan asli berurutan, banyak materai yang dibeli Sarah adalah ....",
+  "tabel": {
+    "header": ["Jenis Materai", "Harga"],
+    "rows": [
+      ["3.000", "Rp5.000,00"],
+      ["6.000", "Rp8.000,00"],
+      ["10.000", "Rp12.000,00"]
+    ]
+  },
+  "pilihan": [
+    "18",
+    "16",
+    "15",
+    "14",
+    "12"
+  ],
+  "jawaban": "E",
+  "pembahasan": "1) Misalkan jumlah materai yang dibeli membentuk bilangan asli berurutan: $n$, $n+1$, dan $n+2$.\n2) Buat persamaan berdasarkan total pengeluaran:\n   $5.000(n) + 8.000(n+1) + 12.000(n+2) = 107.000$\n3) Sederhanakan persamaan (bagi 1.000):\n   $5n + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75$\n   $n = 3$\n4) Jadi, jumlah masing-masing materai adalah 3, 4, dan 5.\n5) Total materai yang dibeli Sarah: $3 + 4 + 5 = 12$."
+}
 ]
