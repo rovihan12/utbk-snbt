@@ -81,5 +81,35 @@
     ],
     "jawaban": "C",
     "pembahasan": "1) Sisi persegi $AB = x/4$. Karena $AB=PQ=QR$, maka $PQ=QR=x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Berdasarkan syarat ketaksamaan segitiga: $PR < PQ + QR$, maka $PR < x/4 + x/4 = x/2$.\n4) Karena $PR > 0$, maka $y > x/2 + 0 = x/2$.\n5) Karena $PR < x/2$, maka $y < x/2 + x/2 = x$.\n6) Jadi, batas nilai $y$ adalah $x/2 < y < x$."
+  },
+  [
+  {
+    "id": 6,
+    "kategori": "Mudah",
+    "pertanyaan": "Perhatikan gambar segitiga siku-siku dengan alas 6 dan sisi miring 10. Tentukan hubungan kuantitas antara P dan Q berdasarkan tabel berikut.",
+    "tabel": {
+      "header": ["P", "Q"],
+      "rows": [
+        ["Luas segitiga", "Keliling segitiga"]
+      ]
+    },
+    "pilihan": [
+      "P > Q",
+      "P < Q",
+      "P = Q",
+      "2P < Q",
+      "Hubungan P dan Q tidak dapat dijelaskan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Cari tinggi segitiga menggunakan teorema Pythagoras: $t = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$.\n2) Hitung nilai P (Luas): $L = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 6 \\times 8 = 24$.\n3) Hitung nilai Q (Keliling): $K = 6 + 8 + 10 = 24$.\n4) Karena $P = 24$ dan $Q = 24$, maka $P = Q$.",
+    "tabel_pembahasan": {
+      "header": ["Komponen", "Perhitungan", "Hasil"],
+      "rows": [
+        ["Tinggi segitiga", "sqrt(10^2 - 6^2)", "8"],
+        ["Luas (P)", "1/2 * 6 * 8", "24"],
+        ["Keliling (Q)", "6 + 8 + 10", "24"]
+      ]
+    }
   }
+]
 ]
