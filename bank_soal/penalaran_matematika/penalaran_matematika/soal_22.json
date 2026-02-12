@@ -294,5 +294,23 @@
     "jawaban": "D",
     "pembahasan": "Data dari grafik menunjukkan fungsi linear (garis lurus):\n- Titik 1: $(1980, 600)$\n- Titik 2: $(2000, 800)$\n\nLangkah 1: Mencari gradien ($m$) atau laju pertumbuhan per tahun:\n$m = \\frac{y_2 - y_1}{x_2 - x_1}$\n$m = \\frac{800 - 600}{2000 - 1980}$\n$m = \\frac{200}{20} = 10$ orang/tahun.\n\nLangkah 2: Menentukan jumlah pada tahun 2015:\nSelisih tahun dari 2000 ke 2015 adalah $2015 - 2000 = 15$ tahun.\nTambahan pekerja = $15 \\text{ tahun} \\times 10 \\text{ orang/tahun} = 150$ orang.\n\nTotal pekerja tahun 2015 = Jumlah tahun 2000 + Tambahan\nTotal = $800 + 150 = 950$ orang.",
     "keterangan_soal": "Pertumbuhan Linear dan Gradien"
+  },
+  [
+  {
+    "id": 19,
+    "kategori": "Penalaran Logika",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_umum/logika_password.png",
+    "pertanyaan": "Password Laptop Eva adalah bilangan yang terdiri dari tiga buah bilangan. Masing-masing bilangan terdiri dari dua digit. Masing-masing dari tiga bilangan tersebut memenuhi tepat satu dari tiga kondisi berikut:\n1. Sebuah bilangan genap\n2. Sebuah bilangan adalah kelipatan 3\n3. Sebuah bilangan adalah bulan kelahiran Eva\n\nPassword Laptop Eva mungkin ....",
+    "pilihan": [
+      "262710",
+      "112627",
+      "262410",
+      "262510",
+      "252711"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Setiap bilangan harus memenuhi TEPAT SATU kondisi.\n\nMari bedah pilihan (B) 11-26-27:\n- 11: Memenuhi kondisi (3) Bulan kelahiran. 11 bukan genap dan bukan kelipatan 3. (Lolos)\n- 26: Memenuhi kondisi (1) Bilangan genap. 26 bukan kelipatan 3 dan bukan bulan kelahiran (karena bulan hanya 01-12). (Lolos)\n- 27: Memenuhi kondisi (2) Kelipatan 3. 27 bukan bilangan genap dan bukan bulan kelahiran. (Lolos)\n\nSedangkan pilihan lain tidak memenuhi syarat 'tepat satu'. Contohnya pada (A), angka 10 memenuhi kondisi bulan kelahiran DAN genap. Pada (C), angka 24 memenuhi genap DAN kelipatan 3.",
+    "keterangan_soal": "Logika Matematika dan Himpunan"
   }
+]
 ]
