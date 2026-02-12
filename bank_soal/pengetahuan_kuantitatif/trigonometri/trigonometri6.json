@@ -34,7 +34,14 @@
     "tabel": {
       "header": ["A", "B"],
       "rows": [
-        ["Luas segitiga AQR", "Luas segitiga APB"]
+        {
+          "label": "Luas segitiga AQR",
+          "kolom": []
+        },
+        {
+          "label": "Luas segitiga APB",
+          "kolom": []
+        }
       ]
     },
     "pilihan": [
@@ -49,8 +56,14 @@
     "tabel_pembahasan": {
       "header": ["Komponen", "Perhitungan", "Hasil"],
       "rows": [
-        ["Luas A (AQR)", "1/2 × 6 × 20", "60"],
-        ["Luas B (APB)", "1/2 × 20 × 10", "100"]
+        {
+          "label": "Luas A (AQR)",
+          "kolom": ["1/2 × 6 × 20", "60"]
+        },
+        {
+          "label": "Luas B (APB)",
+          "kolom": ["1/2 × 20 × 10", "100"]
+        }
       ]
     }
   },
@@ -90,7 +103,14 @@
     "tabel": {
       "header": ["P", "Q"],
       "rows": [
-        ["Luas segitiga", "Keliling segitiga"]
+        {
+          "label": "Luas segitiga",
+          "kolom": []
+        },
+        {
+          "label": "Keliling segitiga",
+          "kolom": []
+        }
       ]
     },
     "pilihan": [
@@ -105,9 +125,18 @@
     "tabel_pembahasan": {
       "header": ["Komponen", "Perhitungan", "Hasil"],
       "rows": [
-        ["Tinggi segitiga", "sqrt(10^2 - 6^2)", "8"],
-        ["Luas (P)", "1/2 * 6 * 8", "24"],
-        ["Keliling (Q)", "6 + 8 + 10", "24"]
+        {
+          "label": "Tinggi segitiga",
+          "kolom": ["sqrt(10^2 - 6^2)", "8"]
+        },
+        {
+          "label": "Luas (P)",
+          "kolom": ["1/2 * 6 * 8", "24"]
+        },
+        {
+          "label": "Keliling (Q)",
+          "kolom": ["6 + 8 + 10", "24"]
+        }
       ]
     }
   }
