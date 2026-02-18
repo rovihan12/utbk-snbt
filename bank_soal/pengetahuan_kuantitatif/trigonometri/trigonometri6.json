@@ -122,5 +122,14 @@
     "pilihan": ["5/7", "7/10", "2/5", "3/4", "3/5"],
     "jawaban": "D",
     "pembahasan": "Gunakan rumus $\\sin 2a + \\sin 2b = 2 \\sin(a+b) \\cos(a-b)$. \nSubstitusi: $2 \\sin(a+b) [4/5 \\sin(a+b)] = 9/10$. \n$8/5 \\sin^2(a+b) = 9/10 \\implies \\sin^2(a+b) = 45/80 = 9/16$. \n$\\sin(a+b) = 3/4$."
+  },
+  {
+    "id": 10,
+    "kategori": "Sulit",
+    "materi": "Trigonometri",
+    "pertanyaan": "Diketahui:\n$x = \\cos A - 2 \\sin B$\n$y = \\sin A + 2 \\cos B$\nNilai minimum dari $x^2 + y^2 = ....$",
+    "pilihan": ["1", "2", "3", "4", "7"],
+    "jawaban": "A",
+    "pembahasan": "Kuadratkan dan jumlahkan:\n$x^2 + y^2 = (\\cos^2 A + \\sin^2 A) + 4(\\sin^2 B + \\cos^2 B) + 4(\\sin A \\cos B - \\cos A \\sin B)$.\n$x^2 + y^2 = 1 + 4(1) + 4 \\sin(A-B) = 5 + 4 \\sin(A-B)$.\nNilai minimum saat $\\sin(A-B) = -1$.\n$5 + 4(-1) = 1$."
   }
 ]
