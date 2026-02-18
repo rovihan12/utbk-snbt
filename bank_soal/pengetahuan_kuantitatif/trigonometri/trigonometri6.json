@@ -139,5 +139,20 @@
         }
       ]
     }
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/segitigabelahdua.png",
+    "pertanyaan": "Perhatikan gambar berikut! Diketahui bahwa $\\angle ABC = 64^\\circ$, $\\angle ACB = 72^\\circ$ dan $AD = AE$. Nilai $\\angle ADE + \\angle DAE = \\dots$",
+    "pilihan": [
+      "44",
+      "68",
+      "98",
+      "112",
+      "136"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1) Cari $\\angle DAE$ melalui segitiga $ABC$: $\\angle DAE = 180^\\circ - (64^\\circ + 72^\\circ) = 180^\\circ - 136^\\circ = 44^\\circ$.\n2) Perhatikan segitiga $ADE$. Karena $AD = AE$, maka $\\angle ADE = \\angle AED$.\n3) Cari $\\angle ADE$: $2 \\times \\angle ADE = 180^\\circ - 44^\\circ = 136^\\circ$, maka $\\angle ADE = 68^\\circ$.\n4) Nilai $\\angle ADE + \\angle DAE = 68^\\circ + 44^\\circ = 112^\circ$."
   }
 ]
