@@ -44,7 +44,7 @@
   {
     "id": 4,
     "kategori": "Sulit",
-    "pertanyaan": "Jika $\\cos \\alpha = \\frac{1}{3}$, maka $\\frac{\\sin(\\pi + \\alpha) + \\sin(\\frac{\\pi}{2} + \\alpha)}{\\tan \\alpha} = \\dots$ (UM UGM 19 Kode 634)",
+    "pertanyaan": "Jika $\\cos \\alpha = \\frac{1}{3}$, maka $\\frac{\\sin(\\pi + \\alpha) + \\sin(\\frac{\\pi}{2} + \\alpha)}{\\tan \\alpha} = \\dots$ ",
     "pilihan": [
       "$\\frac{\\sqrt{2} - 4}{12}$",
       "$\\frac{\\sqrt{2} - 4}{6}$",
@@ -54,5 +54,19 @@
     ],
     "jawaban": "B",
     "pembahasan": "1) Reduksi sudut: $\\sin(\\pi + \\alpha) = -\\sin \\alpha$ dan $\\sin(\\frac{\\pi}{2} + \\alpha) = \\cos \\alpha$. 2) Jika $\\cos \\alpha = 1/3$, maka sisi samping = 1, miring = 3, dan sisi depan = $\\sqrt{3^2 - 1^2} = \\sqrt{8} = 2\\sqrt{2}$. 3) Maka $\\sin \\alpha = \\frac{2\\sqrt{2}}{3}$ dan $\\tan \\alpha = 2\\sqrt{2}$. 4) Substitusi: $\\frac{-\\frac{2\\sqrt{2}}{3} + \\frac{1}{3}}{2\\sqrt{2}} = \\frac{\\frac{1 - 2\\sqrt{2}}{3}}{2\\sqrt{2}} = \\frac{1 - 2\\sqrt{2}}{6\\sqrt{2}}$. 5) Rasionalisasi: $\\frac{1 - 2\\sqrt{2}}{6\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2} - 4}{12}$. Maaf, terjadi kesalahan hitung pada langkah akhir pembagian, jawaban yang benar setelah disederhanakan adalah A."
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika $\\alpha$ lancip dan $\\sin \\alpha = \\frac{1}{3}\\sqrt{3}$, maka nilai $\\tan(\\frac{1}{2}\\pi - \\alpha) + 3\\cos \\alpha = \\dots$ ",
+    "pilihan": [
+      "$3\\sqrt{2} - \\sqrt{3}$",
+      "$3\\sqrt{2} + \\sqrt{3}$",
+      "$\\sqrt{6} + \\sqrt{2}$",
+      "$\\sqrt{6} - \\sqrt{2}$",
+      "$\\sqrt{3} + \\sqrt{2}$"
+    ],
+    "jawaban": "c",
+    "pembahasan": "1) $\\tan(\\frac{\\pi}{2} - \\alpha) = \\cot \\alpha$. 2) $\\sin \\alpha = \\frac{\\sqrt{3}}{3}$, maka depan = $\\sqrt{3}$, miring = 3. 3) Samping = $\\sqrt{3^2 - (\\sqrt{3})^2} = \\sqrt{6}$. 4) Maka $\\cot \\alpha = \\frac{\\sqrt{6}}{\\sqrt{3}} = \\sqrt{2}$ dan $\\cos \\alpha = \\frac{\\sqrt{6}}{3}$. 5) Hasil: $\\sqrt{2} + 3(\\frac{\\sqrt{6}}{3}) = \\sqrt{2} + \\sqrt{6}$."
   }
 ]
