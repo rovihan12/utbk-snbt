@@ -1,166 +1,158 @@
 [
-  {
-    "id": 1,
-    "kategori": "Mudah",
-    "materi": "Geometri",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/image.png",
-    "pertanyaan": "Diberikan segitiga $PQR$ dengan $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ dan siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
-    "pilihan": [
-      "$2\\sqrt{5}$",
-      "$\\sqrt{21}$",
-      "$8\\sqrt{3}$",
-      "$\\sqrt{23}$",
-      "$2\\sqrt{6}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$ dengan $\\tan 60^\\circ = QR/PQ \\implies \\sqrt{3} = QR/4 \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
-  },
-  {
-    "id": 2,
-    "kategori": "Sedang",
-    "materi": "Trigonometri",
-    "gambar": null,
-    "pertanyaan": "Bentuk sederhana dari $\\frac{(\\cos x + \\sin x)^2}{(\\cos x - \\sin x)^2} = ....$",
-    "pilihan": [
-      "$\\frac{1}{1 - \\cos 2x}$",
-      "$\\frac{1}{1 - \\sin 2x}$",
-      "$\\frac{1 + \\cos 2x}{1 - \\cos 2x}$",
-      "$\\frac{1 + 2 \\sin x}{1 - 2 \\sin x}$",
-      "$\\frac{1 + \\sin 2x}{1 - \\sin 2x}$"
-    ],
-    "jawaban": "E",
-    "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$.\n4) Sehingga hasilnya adalah $\\frac{1 + \\sin 2x}{1 - \\sin 2x}$."
-  },
-  {
-    "id": 3,
-    "kategori": "Sulit",
-    "materi": "Geometri Ruang",
-    "gambar": null,
-    "pertanyaan": "Panjang $AB = 20$ cm, $BC = 6$ cm, $BF = 8$ cm. Diketahui titik $Q$ membagi ruas $BC$ menjadi sama besar dan titik $P$ membagi ruas $HG$ sama besar. Didefinisikan A dan B ditunjukkan pada data tabel. Hubungan yang benar antara A dan B adalah ....",
-    "tabel": {
-      "header": ["A", "B"],
-      "rows": [
-        {
-          "label": "Luas segitiga AQR",
-          "kolom": ["Luas A"]
-        },
-        {
-          "label": "Luas segitiga APB",
-          "kolom": ["Luas B"]
-        }
-      ]
-    },
-    "pilihan": [
-      "A > B",
-      "A < B",
-      "A = B",
-      "$2A = B$",
-      "Informasi yang diberikan tidak cukup untuk menjawab hubungan antara A dan B"
-    ],
-    "jawaban": "B",
-    "pembahasan": "Berdasarkan dimensi balok $AB=20, BC=6, BF=8$:\n\n1) **Menghitung Nilai B (Luas $\\triangle APB$):**\nAlas $= AB = 20$. Tinggi $= \\sqrt{BF^2 + BC^2} = \\sqrt{8^2 + 6^2} = 10$. Luas $B = \\frac{1}{2} \\times 20 \\times 10 = 100$.\n\n2) **Menghitung Nilai A (Luas $\\triangle AQR$):**\nJika $R$ adalah titik $D$, maka alas $AD = 6$ dan tinggi $AB = 20$. Luas $A = \\frac{1}{2} \\times 6 \\times 20 = 60$.\n\n3) **Kesimpulan:** Karena $60 < 100$, maka $A < B$.",
-    "tabel_pembahasan": {
-      "header": ["Komponen", "Perhitungan", "Hasil"],
-      "rows": [
-        {
-          "label": "Luas A (AQR)",
-          "kolom": ["1/2 × 6 × 20", "60"]
-        },
-        {
-          "label": "Luas B (APB)",
-          "kolom": ["1/2 × 20 × 10", "100"]
-        }
-      ]
-    }
-  },
-  {
-    "id": 4,
-    "kategori": "Sedang",
-    "materi": "Trigonometri",
-    "gambar": null,
-    "pertanyaan": "Jika diketahui pada segitiga $ABC$ $\\tan A = \\frac{1}{2}$ dan $\\cos B = \\frac{1}{\\sqrt{5}}$, tentukan $\\frac{|AB|}{|BC|} = ....$",
-    "pilihan": [
-      "$\\frac{1}{5}\\sqrt{5}$",
-      "$2\\sqrt{5}$",
-      "$\\sqrt{5}$",
-      "$5$",
-      "$\\frac{1}{5}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "1) Cari nilai sin/cos tiap sudut: $\\sin A = 1/\\sqrt{5}$, $\\cos A = 2/\\sqrt{5}$, $\\cos B = 1/\\sqrt{5}$, $\\sin B = 2/\\sqrt{5}$.\n2) Gunakan aturan sinus: $|AB|/\\sin C = |BC|/\\sin A \\implies |AB|/|BC| = \\sin C / \\sin A$.\n3) $\\sin C = \\sin(180 - (A+B)) = \\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B = (1/5) + (4/5) = 1$.\n4) Maka $|AB|/|BC| = 1 / (1/\\sqrt{5}) = \\sqrt{5}$."
-  },
-  {
-    "id": 5,
-    "kategori": "Sulit",
-    "materi": "Geometri Bangun Datar",
-    "gambar": null,
-    "pertanyaan": "Diketahui persegi $ABCD$ dengan keliling $x$ dan segitiga sama kaki $PQR$ dengan keliling $y$. Jika $AB = PQ = QR$ maka hubungan yang pasti benar adalah ....",
-    "pilihan": [
-      "$0 < y < \\frac{x}{4}$",
-      "$\\frac{x}{4} < y < \\frac{x}{2}$",
-      "$\\frac{x}{2} < y < x$",
-      "$x < y < 2x$",
-      "$\\frac{x}{3} < y < \\frac{3x}{2}$"
-    ],
-    "jawaban": "C",
-    "pembahasan": "1) Sisi persegi $AB = x/4$. Diketahui $PQ=QR=x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Aturan segitiga: sisi ketiga ($PR$) harus kurang dari jumlah dua sisi lainnya ($PQ+QR=x/2$) dan lebih dari 0.\n4) Maka $0 < PR < x/2$.\n5) Batas $y$: $(x/2 + 0) < y < (x/2 + x/2)$, sehingga $x/2 < y < x$."
-  },
-  {
-    "id": 6,
-    "kategori": "Mudah",
-    "materi": "Geometri",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/image.png",
-    "pertanyaan": "Perhatikan gambar segitiga siku-siku dengan alas 6 dan sisi miring 10. Tentukan hubungan kuantitas antara P dan Q berdasarkan tabel berikut.",
-    "tabel": {
-      "header": ["P", "Q"],
-      "rows": [
-        {
-          "label": "Luas segitiga",
-          "kolom": ["24"]
-        },
-        {
-          "label": "Keliling segitiga",
-          "kolom": ["24"]
-        }
-      ]
-    },
-    "pilihan": [
-      "P > Q",
-      "P < Q",
-      "P = Q",
-      "2P < Q",
-      "Hubungan P dan Q tidak dapat dijelaskan"
-    ],
-    "jawaban": "C",
-    "pembahasan": "1) Tinggi segitiga $= \\sqrt{10^2 - 6^2} = 8$.\n2) Nilai P (Luas) $= \\frac{1}{2} \\times 6 \\times 8 = 24$.\n3) Nilai Q (Keliling) $= 6 + 8 + 10 = 24$.\n4) Jadi $P = Q$.",
-    "tabel_pembahasan": {
-      "header": ["Komponen", "Perhitungan", "Hasil"],
-      "rows": [
-        {
-          "label": "Luas (P)",
-          "kolom": ["1/2 * 6 * 8", "24"]
-        },
-        {
-          "label": "Keliling (Q)",
-          "kolom": ["6 + 8 + 10", "24"]
-        }
-      ]
-    }
-  },
-  {
-    "id": 7,
-    "kategori": "Sedang",
-    "materi": "Geometri",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/segitigabelahdua.png",
-    "pertanyaan": "Perhatikan gambar berikut! Diketahui bahwa $\\angle ABC = 64^\\circ$, $\\angle ACB = 72^\\circ$ dan $AD = AE$. Nilai $\\angle ADE + \\angle DAE = \\dots$",
-    "pilihan": [
-      "44",
-      "68",
-      "98",
-      "112",
-      "136"
-    ],
-    "jawaban": "D",
-    "pembahasan": "1) $\\angle DAE = 180^\\circ - (64^\\circ + 72^\\circ) = 44^\\circ$.\n2) Segitiga $ADE$ sama kaki ($AD=AE$), maka $\\angle ADE = (180^\\circ - 44^\\circ) / 2 = 68^\\circ$.\n3) Nilai $\\angle ADE + \\angle DAE = 68^\\circ + 44^\\circ = 112^\\circ$."
-  }
+  {
+    "id": 1,
+    "kategori": "Mudah",
+    "pertanyaan": "Diberikan segitiga $PQR$ dengan $PQ = 4$ cm. Jika $\\angle P = 60^\\circ$ dan siku-siku di $Q$, maka luas segitiga adalah .... $\\text{cm}^2$.",
+    "pilihan": [
+      "$2\\sqrt{5}$",
+      "$\\sqrt{21}$",
+      "$8\\sqrt{3}$",
+      "$\\sqrt{23}$",
+      "$2\\sqrt{6}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Karena siku-siku di $Q$, maka $PQ$ adalah alas dan $QR$ adalah tinggi.\n2) Cari tinggi $QR$ dengan $\\tan 60^\\circ = QR/PQ \\implies \\sqrt{3} = QR/4 \\implies QR = 4\\sqrt{3}$.\n3) Luas segitiga $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 4 \\times 4\\sqrt{3} = 8\\sqrt{3}$."
+  },
+  {
+    "id": 2,
+    "materi": "Trigonometri",
+    "pertanyaan": "Bentuk sederhana dari $\\frac{(\\cos x + \\sin x)^2}{(\\cos x - \\sin x)^2} = ....$",
+    "pilihan": [
+      "$\\frac{1}{1 - \\cos 2x}$",
+      "$\\frac{1}{1 - \\sin 2x}$",
+      "$\\frac{1 + \\cos 2x}{1 - \\cos 2x}$",
+      "$\\frac{1 + 2 \\sin x}{1 - 2 \\sin x}$",
+      "$\\frac{1 + \\sin 2x}{1 - \\sin 2x}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "1) Jabarkan bentuk kuadrat: $(\\cos x \\pm \\sin x)^2 = \\cos^2 x + \\sin^2 x \\pm 2 \\sin x \\cos x$.\n2) Gunakan identitas $\\cos^2 x + \\sin^2 x = 1$ dan $2 \\sin x \\cos x = \\sin 2x$.\n3) Maka, pembilang menjadi $1 + \\sin 2x$ dan penyebut menjadi $1 - \\sin 2x$.\n4) Sehingga hasilnya adalah $\\frac{1 + \\sin 2x}{1 - \\sin 2x}$."
+  },
+  {
+    "id": 3,
+    "kategori": "Sulit",
+    "pertanyaan": "Panjang $AB = 20$ cm, $BC = 6$ cm, $BF = 8$ cm. Diketahui titik $Q$ membagi ruas $BC$ menjadi sama besar dan titik $P$ membagi ruas $HG$ sama besar.\nDidefinisikan A dan B ditunjukkan pada data tabel. Hubungan yang benar antara A dan B adalah ....",
+    "tabel": {
+      "header": ["A", "B"],
+      "rows": [
+        {
+          "label": "Luas segitiga AQR",
+          "kolom": []
+        },
+        {
+          "label": "Luas segitiga APB",
+          "kolom": []
+        }
+      ]
+    },
+    "pilihan": [
+      "A > B",
+      "A < B",
+      "A = B",
+      "$2A = B$",
+      "Informasi yang diberikan tidak cukup untuk menjawab hubungan antara A dan B"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Berdasarkan dimensi balok $AB=20, BC=6, BF=8$:\n\n**1. Menghitung Nilai B (Luas $\\triangle APB$):**\n* Alas segitiga adalah $AB = 20$ cm.\n* Tinggi segitiga adalah jarak dari bidang atas ($HG$) ke garis $AB$ pada bidang bawah. Tinggi tersebut adalah $\\sqrt{BF^2 + BC^2} = \\sqrt{8^2 + 6^2} = 10$ cm.\n* Luas $B = \\frac{1}{2} \\times 20 \\times 10 = 100$ cm².\n\n**2. Menghitung Nilai A (Luas $\\triangle AQR$):**\n* Dengan asumsi $R$ adalah titik sudut $D$, maka $\\triangle AQD$ memiliki alas $AD = 6$ cm dan tinggi $AB = 20$ cm.\n* Luas $A = \\frac{1}{2} \\times 6 \\times 20 = 60$ cm².\n\n**Perbandingan:**\nNilai $A = 60$ dan $B = 100$, sehingga $A < B$.",
+    "tabel_pembahasan": {
+      "header": ["Komponen", "Perhitungan", "Hasil"],
+      "rows": [
+        {
+          "label": "Luas A (AQR)",
+          "kolom": ["1/2 × 6 × 20", "60"]
+        },
+        {
+          "label": "Luas B (APB)",
+          "kolom": ["1/2 × 20 × 10", "100"]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika diketahui pada segitiga $ABC$ $\\tan A = \\frac{1}{2}$ dan $\\cos B = \\frac{1}{\\sqrt{5}}$, tentukan $\\frac{|AB|}{|BC|} = ....$",
+    "pilihan": [
+      "$\\frac{1}{5}\\sqrt{5}$",
+      "$2\\sqrt{5}$",
+      "$\\sqrt{5}$",
+      "$5$",
+      "$\\frac{1}{5}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Dari $\\tan A = 1/2$, didapat $\\sin A = 1/\\sqrt{5}$ dan $\\cos A = 2/\\sqrt{5}$.\n2) Dari $\\cos B = 1/\\sqrt{5}$, didapat $\\sin B = 2/\\sqrt{5}$.\n3) Gunakan aturan sinus: $|AB|/\\sin C = |BC|/\\sin A \\implies |AB|/|BC| = \\sin C / \\sin A$.\n4) Karena $C = 180 - (A+B)$, maka $\\sin C = \\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B = (1/\\sqrt{5} \\cdot 1/\\sqrt{5}) + (2/\\sqrt{5} \\cdot 2/\\sqrt{5}) = 1/5 + 4/5 = 1$.\n5) Jadi, $|AB|/|BC| = 1 / (1/\\sqrt{5}) = \\sqrt{5}$."
+  },
+  {
+    "id": 5,
+    "kategori": "Sulit",
+    "pertanyaan": "Diketahui persegi $ABCD$ dengan keliling $x$ dan segitiga sama kaki $PQR$ dengan keliling $y$. Jika $AB = PQ = QR$ maka hubungan yang pasti benar adalah ....",
+    "pilihan": [
+      "$0 < y < \\frac{x}{4}$",
+      "$\\frac{x}{4} < y < \\frac{x}{2}$",
+      "$\\frac{x}{2} < y < x$",
+      "$x < y < 2x$",
+      "$\\frac{x}{3} < y < \\frac{3x}{2}$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Sisi persegi $AB = x/4$. Karena $AB=PQ=QR$, maka $PQ=QR=x/4$.\n2) Keliling segitiga $y = PQ + QR + PR = x/2 + PR$.\n3) Berdasarkan syarat ketaksamaan segitiga: $PR < PQ + QR$, maka $PR < x/4 + x/4 = x/2$.\n4) Karena $PR > 0$, maka $y > x/2 + 0 = x/2$.\n5) Karena $PR < x/2$, maka $y < x/2 + x/2 = x$.\n6) Jadi, batas nilai $y$ adalah $x/2 < y < x$."
+  },
+  {
+    "id": 6,
+    "kategori": "Mudah",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/image.png",
+    "pertanyaan": "Perhatikan gambar segitiga siku-siku dengan alas 6 dan sisi miring 10. Tentukan hubungan kuantitas antara P dan Q berdasarkan tabel berikut.",
+    "tabel": {
+      "header": ["P", "Q"],
+      "rows": [
+        {
+          "label": "Luas segitiga",
+          "kolom": []
+        },
+        {
+          "label": "Keliling segitiga",
+          "kolom": []
+        }
+      ]
+    },
+    "pilihan": [
+      "P > Q",
+      "P < Q",
+      "P = Q",
+      "2P < Q",
+      "Hubungan P dan Q tidak dapat dijelaskan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1) Cari tinggi segitiga menggunakan teorema Pythagoras: $t = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$.\n2) Hitung nilai P (Luas): $L = \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} = \\frac{1}{2} \\times 6 \\times 8 = 24$.\n3) Hitung nilai Q (Keliling): $K = 6 + 8 + 10 = 24$.\n4) Karena $P = 24$ dan $Q = 24$, maka $P = Q$.",
+    "tabel_pembahasan": {
+      "header": ["Komponen", "Perhitungan", "Hasil"],
+      "rows": [
+        {
+          "label": "Tinggi segitiga",
+          "kolom": ["sqrt(10^2 - 6^2)", "8"]
+        },
+        {
+          "label": "Luas (P)",
+          "kolom": ["1/2 * 6 * 8", "24"]
+        },
+        {
+          "label": "Keliling (Q)",
+          "kolom": ["6 + 8 + 10", "24"]
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/segitigabelahdua.png",
+    "pertanyaan": "Perhatikan gambar berikut! Diketahui bahwa $\\angle ABC = 64^\\circ$, $\\angle ACB = 72^\\circ$ dan $AD = AE$. Nilai $\\angle ADE + \\angle DAE = \\dots$",
+    "pilihan": [
+      "44",
+      "68",
+      "98",
+      "112",
+      "136"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1) Cari $\\angle DAE$ melalui segitiga $ABC$: $\\angle DAE = 180^\\circ - (64^\\circ + 72^\\circ) = 180^\\circ - 136^\\circ = 44^\\circ$.\n2) Perhatikan segitiga $ADE$. Karena $AD = AE$, maka $\\angle ADE = \\angle AED$.\n3) Cari $\\angle ADE$: $2 \\times \\angle ADE = 180^\\circ - 44^\\circ = 136^\\circ$, maka $\\angle ADE = 68^\\circ$.\n4) Nilai $\\angle ADE + \\angle DAE = 68^\\circ + 44^\\circ = 112^\circ$."
+  }
 ]
