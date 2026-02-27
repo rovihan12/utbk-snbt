@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "kategori": "Sedang",
+    "pertanyaan": "Ida dan Andi mengikuti perlombaan. Dalam perlombaan tersebut, peluang Andi tidak mendapat juara yaitu tiga kali peluang Ida tidak mendapat juara. Jika dalam perlombaan, peluang Ida tidak mendapat juara adalah 1/12, maka berapakah peluang Andi mendapat juara?",
+    "pilihan": [
+      "1/2",
+      "1/4",
+      "5/8",
+      "3/4",
+      "1/5"
+    ],
+    "jawaban": "D",
+    "pembahasan": "1) Diketahui peluang Ida tidak juara $P(I^c) = 1/12$.\n2) Peluang Andi tidak juara $P(A^c) = 3 \\times P(I^c) = 3 \\times 1/12 = 3/12 = 1/4$.\n3) Peluang Andi mendapat juara $P(A) = 1 - P(A^c) = 1 - 1/4 = 3/4$."
+  }
+]
