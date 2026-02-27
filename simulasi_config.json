@@ -1,0 +1,129 @@
+{
+  "sections": [
+    {
+      "id": "tes_potensi_skolastik",
+      "name": "Tes Potensi Skolastik",
+      "subsections": [
+        {
+          "id": "penalaran_umum",
+          "name": "Penalaran Umum",
+          "numberOfQuestions": 30,
+          "durationMinutes": 30,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_umum",
+            "subfolders": ["induktif", "deduktif", "kuantitatif"],
+            "fileCounts": {
+              "induktif": 17,
+              "deduktif": 17,
+              "kuantitatif": 17
+            },
+            "filenamePattern": "{folder}/{folder}{number}.json"
+          }
+        },
+        {
+          "id": "pengetahuan_umum",
+          "name": "Pengetahuan dan Pemahaman Umum",
+          "numberOfQuestions": 20,
+          "durationMinutes": 15,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_umum",
+            "subfolders": ["pengetahuan_umum"],
+            "fileCounts": {
+              "pengetahuan_umum": 17
+            },
+            "filenamePattern": "{folder}/pengetahuan_umum{number}.json"
+          }
+        },
+        {
+          "id": "bacaan_menulis",
+          "name": "Kemampuan Memahami Bacaan dan Menulis",
+          "numberOfQuestions": 20,
+          "durationMinutes": 25,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bacaan_menulis",
+            "subfolders": ["pemahaman_bacaan_menulis"],
+            "fileCounts": {
+              "pemahaman_bacaan_menulis": 17
+            },
+            "filenamePattern": "{folder}/pemahaman_bacaan_menulis{number}.json"
+          }
+        },
+        {
+          "id": "pengetahuan_kuantitatif",
+          "name": "Pengetahuan Kuantitatif",
+          "numberOfQuestions": 20,
+          "durationMinutes": 20,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/simulasi",
+            "subfolders": ["pengetahuan_kuantitatif"],
+            "fileCounts": {
+              "pengetahuan_kuantitatif": 7
+            },
+            "filenamePattern": "{folder}/pengetahuan_kuantitatif{number}.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tes_literasi",
+      "name": "Tes Literasi",
+      "subsections": [
+        {
+          "id": "bahasa_indonesia",
+          "name": "Bahasa Indonesia",
+          "numberOfQuestions": 30,
+          "durationMinutes": 45,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_indonesia/bahasa_indonesia",
+            "subfolders": ["bahasa_indonesia"],
+            "fileCounts": {
+              "bahasa_indonesia": 17
+            },
+            "filenamePattern": "{folder}/soal_{number}.json"
+          }
+        },
+        {
+          "id": "bahasa_inggris",
+          "name": "Bahasa Inggris",
+          "numberOfQuestions": 20,
+          "durationMinutes": 30,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_inggris/bahasa_inggris",
+            "subfolders": ["bahasa_inggris"],
+            "fileCounts": {
+              "bahasa_inggris": 17
+            },
+            "filenamePattern": "{folder}/soal_{number}.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "penalaran_matematika",
+      "name": "Penalaran Matematika",
+      "subsections": [
+        {
+          "id": "penalaran_matematika",
+          "name": "Penalaran Matematika",
+          "numberOfQuestions": 22,
+          "durationMinutes": 35,
+          "questionSource": {
+            "type": "random",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_matematika/penalaran_matematika",
+            "subfolders": ["penalaran_matematika"],
+            "fileCounts": {
+              "penalaran_matematika": 22
+            },
+            "filenamePattern": "{folder}/soal_{number}.json"
+          }
+        }
+      ]
+    }
+  ]
+}
