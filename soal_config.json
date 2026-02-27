@@ -1,0 +1,189 @@
+{
+  "kategori": [
+    {
+      "id": "penalaran_umum",
+      "nama": "Penalaran Umum",
+      "icon": "ic_penalaran_umum",
+      "subkategori": [
+        {
+          "id": "induktif",
+          "nama": "Penalaran Induktif",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_umum/induktif/induktif",
+          "format_file": ".json"
+        },
+        {
+          "id": "deduktif",
+          "nama": "Penalaran Deduktif",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_umum/deduktif/deduktif",
+          "format_file": ".json"
+        },
+        {
+          "id": "kuantitatif_pu",
+          "nama": "Penalaran Kuantitatif",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_umum/kuantitatif/kuantitatif",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "pengetahuan_umum",
+      "nama": "Pengetahuan dan Pemahaman Umum",
+      "icon": "ic_pemahaman_umum",
+      "subkategori": [
+        {
+          "id": "pengetahuan_umum",
+          "nama": "Pengetahuan dan Pemahaman Umum",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_umum/pengetahuan_umum",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "bacaan_menulis",
+      "nama": "Pemahaman Bacaan dan Menulis",
+      "icon": "ic_bacaan_menulis",
+      "subkategori": [
+        {
+          "id": "bacaan_menulis",
+          "nama": "Pemahaman Bacaan dan Menulis",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bacaan_menulis/pemahaman_bacaan_menulis",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "pengetahuan_kuantitatif",
+      "nama": "Pengetahuan Kuantitatif",
+      "icon": "ic_kuantitatif",
+      "subkategori": [
+        {
+          "id": "himpunan",
+          "nama": "Himpunan dan Operasi Bilangan",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/himpunan/himpunan",
+          "format_file": ".json"
+        },
+        {
+          "id": "fungsi",
+          "nama": "Fungsi Persamaan dan Pertidaksamaan",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/fungsi/fungsi",
+          "format_file": ".json"
+        },
+        {
+          "id": "bentuk_akar",
+          "nama": "Bentuk Akar",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/bentukakar/bentukakar",
+          "format_file": ".json"
+        },
+        {
+          "id": "barisan_deret",
+          "nama": "Barisan dan Deret (Aritmatika dan Geometri)",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/barisan/barisan",
+          "format_file": ".json"
+        },
+        {
+          "id": "geometri",
+          "nama": "Geometri dan Bangun Datar",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/geometri/geometri",
+          "format_file": ".json"
+        },
+        {
+          "id": "eksponen",
+          "nama": "Eksponen dan Logaritma",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/eksponen/eksponen",
+          "format_file": ".json"
+        },
+        {
+          "id": "matriks",
+          "nama": "Matriks",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/matriks/matriks",
+          "format_file": ".json"
+        },
+        {
+          "id": "statistika",
+          "nama": "Statistika dan Peluang",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/statistika/statistika",
+          "format_file": ".json"
+        },
+        {
+          "id": "trigonometri",
+          "nama": "Trigonometri",
+          "tipe": "soal",
+          "jumlah_soal": 10,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/trigonometri/trigonometri",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "bahasa_indonesia",
+      "nama": "Bahasa Indonesia",
+      "icon": "ic_indonesia",
+      "subkategori": [
+        {
+          "id": "bahasa_indonesia",
+          "nama": "Bahasa Indonesia",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_indonesia/bahasa_indonesia/soal_",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "bahasa_inggris",
+      "nama": "Bahasa Inggris",
+      "icon": "ic_english",
+      "subkategori": [
+        {
+          "id": "bahasa_inggris",
+          "nama": "Bahasa Inggris",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_inggris/bahasa_inggris/soal_",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "penalaran_matematika",
+      "nama": "Penalaran Matematika",
+      "icon": "ic_math",
+      "subkategori": [
+        {
+          "id": "penalaran_matematika",
+          "nama": "Penalaran Matematika",
+          "tipe": "soal",
+          "jumlah_soal": 22,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_matematika/penalaran_matematika/soal_",
+          "format_file": ".json"
+        }
+      ]
+    }
+  ]
+}
