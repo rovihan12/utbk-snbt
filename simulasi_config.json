@@ -33,7 +33,7 @@
             "fileCounts": {
               "pengetahuan_umum": 17
             },
-            "filenamePattern": "pengetahuan_umum{number}.json"
+            "filenamePattern": "{folder}/pengetahuan_umum{number}.json"
           }
         },
         {
@@ -48,7 +48,7 @@
             "fileCounts": {
               "pemahaman_bacaan_menulis": 17
             },
-            "filenamePattern": "pemahaman_bacaan_menulis{number}.json"
+            "filenamePattern": "{folder}/pemahaman_bacaan_menulis{number}.json"
           }
         },
         {
@@ -63,7 +63,7 @@
             "fileCounts": {
               "pengetahuan_kuantitatif": 7
             },
-            "filenamePattern": "pengetahuan_kuantitatif{number}.json"
+            "filenamePattern": "{folder}/pengetahuan_kuantitatif{number}.json"
           }
         }
       ]
@@ -79,12 +79,12 @@
           "durationMinutes": 45,
           "questionSource": {
             "type": "random",
-            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_indonesia",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_indonesia/bahasa_indonesia",
             "subfolders": ["bahasa_indonesia"],
             "fileCounts": {
               "bahasa_indonesia": 17
             },
-            "filenamePattern": "soal_{number}.json"
+            "filenamePattern": "{folder}/soal_{number}.json"
           }
         },
         {
@@ -94,12 +94,12 @@
           "durationMinutes": 30,
           "questionSource": {
             "type": "random",
-            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_inggris",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bahasa_inggris/bahasa_inggris",
             "subfolders": ["bahasa_inggris"],
             "fileCounts": {
               "bahasa_inggris": 17
             },
-            "filenamePattern": "soal_{number}.json"
+            "filenamePattern": "{folder}/soal_{number}.json"
           }
         }
       ]
@@ -115,12 +115,12 @@
           "durationMinutes": 35,
           "questionSource": {
             "type": "random",
-            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_matematika",
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/penalaran_matematika/penalaran_matematika",
             "subfolders": ["penalaran_matematika"],
             "fileCounts": {
               "penalaran_matematika": 22
             },
-            "filenamePattern": "soal_{number}.json"
+            "filenamePattern": "{folder}/soal_{number}.json"
           }
         }
       ]
