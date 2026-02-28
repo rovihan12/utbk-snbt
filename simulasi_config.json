@@ -33,7 +33,7 @@
             "fileCounts": {
               "pengetahuan_umum": 17
             },
-            "filenamePattern": "pengetahuan_umum/pengetahuan_umum{number}.json"
+            "filenamePattern": "pengetahuan_umum{number}.json"
           }
         },
         {
@@ -48,7 +48,7 @@
             "fileCounts": {
               "pemahaman_bacaan_menulis": 17
             },
-            "filenamePattern": "pemahaman_bacaan_menulis/pemahaman_bacaan_menulis{number}.json"
+            "filenamePattern": "pemahaman_bacaan_menulis{number}.json"
           }
         },
         {
@@ -58,12 +58,12 @@
           "durationMinutes": 20,
           "questionSource": {
             "type": "random",
-            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif",
-            "subfolders": ["simulasi"],
+            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_kuantitatif/simulasi",
+            "subfolders": ["pengetahuan_kuantitatif"],
             "fileCounts": {
-              "simulasi": 7
+              "pengetahuan_kuantitatif": 7
             },
-            "filenamePattern": "simulasi/pengetahuan_kuantitatif{number}.json"
+            "filenamePattern": "pengetahuan_kuantitatif{number}.json"
           }
         }
       ]
@@ -84,7 +84,7 @@
             "fileCounts": {
               "bahasa_indonesia": 17
             },
-            "filenamePattern": "bahasa_indonesia/soal_{number}.json"
+            "filenamePattern": "soal_{number}.json"
           }
         },
         {
@@ -99,7 +99,7 @@
             "fileCounts": {
               "bahasa_inggris": 17
             },
-            "filenamePattern": "bahasa_inggris/soal_{number}.json"
+            "filenamePattern": "soal_{number}.json"
           }
         }
       ]
@@ -120,7 +120,7 @@
             "fileCounts": {
               "penalaran_matematika": 22
             },
-            "filenamePattern": "penalaran_matematika/soal_{number}.json"
+            "filenamePattern": "soal_{number}.json"
           }
         }
       ]
