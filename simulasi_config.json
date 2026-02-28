@@ -21,36 +21,36 @@
             "filenamePattern": "{folder}/{folder}{number}.json"
           }
         },
+    {
+      "id": "pengetahuan_umum",
+      "nama": "Pengetahuan dan Pemahaman Umum",
+      "icon": "ic_pemahaman_umum",
+      "subkategori": [
         {
           "id": "pengetahuan_umum",
-          "name": "Pengetahuan dan Pemahaman Umum",
-          "numberOfQuestions": 20,
-          "durationMinutes": 15,
-          "questionSource": {
-            "type": "random",
-            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_umum/pengetahuan_umum",
-            "subfolders": ["pengetahuan_umum"],
-            "fileCounts": {
-              "pengetahuan_umum": 17
-            },
-            "filenamePattern": "{folder}/pengetahuan_umum{number}.json"
-          }
-        },
+          "nama": "Pengetahuan dan Pemahaman Umum",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/pengetahuan_umum/pengetahuan_umum",
+          "format_file": ".json"
+        }
+      ]
+    },
+    {
+      "id": "bacaan_menulis",
+      "nama": "Pemahaman Bacaan dan Menulis",
+      "icon": "ic_bacaan_menulis",
+      "subkategori": [
         {
           "id": "bacaan_menulis",
-          "name": "Kemampuan Memahami Bacaan dan Menulis",
-          "numberOfQuestions": 20,
-          "durationMinutes": 25,
-          "questionSource": {
-            "type": "random",
-            "baseUrl": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bacaan_menulis/pemahaman_bacaan_menulis",
-            "subfolders": ["Kemampuan Memahami Bacaan dan Menulis"],
-            "fileCounts": {
-              "pemahaman_bacaan_menulis": 17
-            },
-            "filenamePattern": "{folder}/pemahaman_bacaan_menulis{number}.json"
-          }
-        },
+          "nama": "Pemahaman Bacaan dan Menulis",
+          "tipe": "soal",
+          "jumlah_soal": 17,
+          "base_url": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/main/bank_soal/bacaan_menulis/pemahaman_bacaan_menulis",
+          "format_file": ".json"
+        }
+      ]
+    },
         {
           "id": "pengetahuan_kuantitatif",
           "name": "Pengetahuan Kuantitatif",
