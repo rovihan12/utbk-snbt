@@ -5,7 +5,7 @@
     "pertanyaan": "Ida dan Andi mengikuti perlombaan. Dalam perlombaan tersebut, peluang Andi tidak mendapat juara yaitu tiga kali peluang Ida tidak mendapat juara. Jika dalam perlombaan, peluang Ida tidak mendapat juara adalah 1/12, maka berapakah peluang Andi mendapat juara?",
     "pilihan": ["1/2", "1/4", "5/8", "3/4", "1/5"],
     "jawaban": "D",
-    "pembahasan": "### Langkah Penyelesaian:\n1. **Diketahui:** Peluang Ida tidak juara $P(I^c) = 1/12$.\n2. **Mencari Peluang Andi tidak juara:**\n   $P(A^c) = 3 \\times P(I^c)$\n   $P(A^c) = 3 \\times 1/12 = 3/12 = 1/4$.\n3. **Mencari Peluang Andi juara:**\n   $P(A) = 1 - P(A^c)$\n   $P(A) = 1 - 1/4 = 3/4$.\n\n**Jadi, peluang Andi mendapat juara adalah 3/4.**"
+    "pembahasan": " Langkah Penyelesaian:\n1. **Diketahui:** Peluang Ida tidak juara $P(I^c) = 1/12$.\n2. **Mencari Peluang Andi tidak juara:**\n   $P(A^c) = 3 \\times P(I^c)$\n   $P(A^c) = 3 \\times 1/12 = 3/12 = 1/4$.\n3. **Mencari Peluang Andi juara:**\n   $P(A) = 1 - P(A^c)$\n   $P(A) = 1 - 1/4 = 3/4$.\n\n**Jadi, peluang Andi mendapat juara adalah 3/4.**"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
       "$192 + n, n = 1, 2, 3, ..., 64$"
     ],
     "jawaban": "A",
-    "pembahasan": "### Analisis Barisan Aritmetika:\n1. **Pola Kelereng Putih:** Dimulai dari kotak 64 menuju kotak 1.\n   - Kotak 64 ($n=64$) adalah suku pertama dari belakang ($a = 1$).\n   - Setiap pengurangan nomor kotak, kelereng bertambah 3 ($b = 3$).\n2. **Menggunakan Rumus Suku ke-$n$:**\n   $U_n = a + (N - n)b$, di mana $N$ adalah jumlah kotak total (64).\n   $U_n = 1 + (64 - n)3$\n   $U_n = 1 + 192 - 3n$\n   $U_n = 193 - 3n$.\n\n**Maka rumus umum untuk kotak ke-$n$ adalah $193 - 3n$.**"
+    "pembahasan": " Analisis Barisan Aritmetika:\n1. **Pola Kelereng Putih:** Dimulai dari kotak 64 menuju kotak 1.\n   - Kotak 64 ($n=64$) adalah suku pertama dari belakang ($a = 1$).\n   - Setiap pengurangan nomor kotak, kelereng bertambah 3 ($b = 3$).\n2. **Menggunakan Rumus Suku ke-$n$:**\n   $U_n = a + (N - n)b$, di mana $N$ adalah jumlah kotak total (64).\n   $U_n = 1 + (64 - n)3$\n   $U_n = 1 + 192 - 3n$\n   $U_n = 193 - 3n$.\n\n**Maka rumus umum untuk kotak ke-$n$ adalah $193 - 3n$.**"
   },
   {
     "id": 3,
@@ -46,7 +46,7 @@
     "pilihan": ["Ya, Ya, Tidak", "Ya, Tidak, Ya", "Tidak, Ya, Ya", "Ya, Ya, Ya", "Tidak, Tidak, Tidak"],
     "jawaban": "A",
     "jawaban_checkbox": ["Ya", "Ya", "Tidak"],
-    "pembahasan": "### Analisis Pernyataan:\n1. **Kotak 64:** \n   - Merah: $2n - 1 = 2(64) - 1 = 127$.\n   - Putih: $193 - 3(64) = 1$.\n   - Total: $127 + 1 = 128$ (**BENAR**).\n2. **Putih Kotak 4:**\n   - $U_4 = 193 - 3(4) = 193 - 12 = 181$ (**BENAR**).\n3. **Kotak 11:**\n   - Merah: $2(11) - 1 = 21$.\n   - Putih: $193 - 3(11) = 160$.\n   - Selisih: $160 - 21 = 139$ (**SALAH**, seharusnya 139 bukan 140)."
+    "pembahasan": " Analisis Pernyataan:\n1. **Kotak 64:** \n   - Merah: $2n - 1 = 2(64) - 1 = 127$.\n   - Putih: $193 - 3(64) = 1$.\n   - Total: $127 + 1 = 128$ (**BENAR**).\n2. **Putih Kotak 4:**\n   - $U_4 = 193 - 3(4) = 193 - 12 = 181$ (**BENAR**).\n3. **Kotak 11:**\n   - Merah: $2(11) - 1 = 21$.\n   - Putih: $193 - 3(11) = 160$.\n   - Selisih: $160 - 21 = 139$ (**SALAH**, seharusnya 139 bukan 140)."
   },
   {
     "id": 4,
@@ -54,7 +54,7 @@
     "pertanyaan": "Jumlah kelereng dari kotak nomor 1 sampai kotak nomor 4 adalah ....",
     "pilihan": ["731", "750", "758", "819", "823"],
     "jawaban": "C",
-    "pembahasan": "### Langkah Penyelesaian:\n1. **Cari Rumus Total Kelereng ($T_n$):**\n   $T_n = \\text{Merah}_n + \\text{Putih}_n$\n   $T_n = (2n - 1) + (193 - 3n) = 192 - n$.\n2. **Hitung tiap kotak:**\n   - Kotak 1: $192 - 1 = 191$\n   - Kotak 2: $192 - 2 = 190$\n   - Kotak 3: $192 - 3 = 189$\n   - Kotak 4: $192 - 4 = 188$\n3. **Total:** $191 + 190 + 189 + 188 = 758$."
+    "pembahasan": " Langkah Penyelesaian:\n1. **Cari Rumus Total Kelereng ($T_n$):**\n   $T_n = \\text{Merah}_n + \\text{Putih}_n$\n   $T_n = (2n - 1) + (193 - 3n) = 192 - n$.\n2. **Hitung tiap kotak:**\n   - Kotak 1: $192 - 1 = 191$\n   - Kotak 2: $192 - 2 = 190$\n   - Kotak 3: $192 - 3 = 189$\n   - Kotak 4: $192 - 4 = 188$\n3. **Total:** $191 + 190 + 189 + 188 = 758$."
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "pertanyaan": "Jika setiap kotak mulai dari kotak nomor 1 diisi kelereng hijau sejumlah genap dimulai dari 2 kelereng secara berurutan. Jumlah kelereng pada kotak nomor 5 sampai dengan nomor 7 adalah ....",
     "pilihan": ["590", "591", "592", "593", "594"],
     "jawaban": "E",
-    "pembahasan": "### Analisis Data Baru:\n1. **Kelereng Hijau ($H_n$):** Pola bilangan genap $2, 4, 6, ...$ maka $H_n = 2n$.\n2. **Total Kelereng Baru ($T'_n$):**\n   $T'_n = (\\text{Merah} + \\text{Putih}) + \\text{Hijau}$\n   $T'_n = (192 - n) + 2n = n + 192$.\n3. **Hitung Kotak 5 - 7:**\n   - Kotak 5: $5 + 192 = 197$\n   - Kotak 6: $6 + 192 = 198$\n   - Kotak 7: $7 + 192 = 199$\n4. **Jumlah Total:** $197 + 198 + 199 = 594$."
+    "pembahasan": " Analisis Data Baru:\n1. **Kelereng Hijau ($H_n$):** Pola bilangan genap $2, 4, 6, ...$ maka $H_n = 2n$.\n2. **Total Kelereng Baru ($T'_n$):**\n   $T'_n = (\\text{Merah} + \\text{Putih}) + \\text{Hijau}$\n   $T'_n = (192 - n) + 2n = n + 192$.\n3. **Hitung Kotak 5 - 7:**\n   - Kotak 5: $5 + 192 = 197$\n   - Kotak 6: $6 + 192 = 198$\n   - Kotak 7: $7 + 192 = 199$\n4. **Jumlah Total:** $197 + 198 + 199 = 594$."
   },
   {
     "id": 6,
@@ -70,7 +70,7 @@
     "pertanyaan": "Pak Dio akan memasang keramik di teras rumah. Keramik yang akan digunakan berukuran 25 cm x 25 cm dan diperlukan 40 buah keramik. Jika digunakan keramik yang berukuran 50 cm x 50 cm maka jumlah keramik yang diperlukan adalah ...",
     "pilihan": ["10 buah", "15 buah", "18 buah", "20 buah", "25 buah"],
     "jawaban": "A",
-    "pembahasan": "### Cara 1 (Luas Total):\n1. Luas teras = $40 \\times (25 \\times 25) = 40 \\times 625 = 25.000\\text{ cm}^2$.\n2. Luas keramik baru = $50 \\times 50 = 2.500\\text{ cm}^2$.\n3. Jumlah keramik = $25.000 / 2.500 = 10\\text{ buah}$.\n\n### Cara 2 (Perbandingan Luas):\n- Panjang & lebar keramik baru 2x lipat lebih besar ($50/25 = 2$).\n- Luas keramik baru = $2^2 = 4$ kali lebih besar.\n- Karena luasnya 4x lebih besar, maka jumlah yang dibutuhkan 4x lebih sedikit:\n  $40 / 4 = 10\\text{ buah}$."
+    "pembahasan": " Cara 1 (Luas Total):\n1. Luas teras = $40 \\times (25 \\times 25) = 40 \\times 625 = 25.000\\text{ cm}^2$.\n2. Luas keramik baru = $50 \\times 50 = 2.500\\text{ cm}^2$.\n3. Jumlah keramik = $25.000 / 2.500 = 10\\text{ buah}$.\n\n Cara 2 (Perbandingan Luas):\n- Panjang & lebar keramik baru 2x lipat lebih besar ($50/25 = 2$).\n- Luas keramik baru = $2^2 = 4$ kali lebih besar.\n- Karena luasnya 4x lebih besar, maka jumlah yang dibutuhkan 4x lebih sedikit:\n  $40 / 4 = 10\\text{ buah}$."
   },
   {
     "id": 7,
@@ -84,7 +84,7 @@
       "Pernyataan (1) dan pernyataan (2) tidak cukup"
     ],
     "jawaban": "C",
-    "pembahasan": "### Analisis Persamaan:\n- Misalkan umur: Anak I ($x$), Anak II ($y$), Anak III ($z$).\n- **Diketahui:** $y = \\frac{2}{3}x$ (Persamaan 1).\n\n**Analisis Pernyataan:**\n1. **Pernyataan (1):** $z = \\frac{1}{4}(x + y)$. Hanya ada 2 persamaan untuk 3 variabel. **(Tidak cukup)**.\n2. **Pernyataan (2):** $(y - 1) = 2(z - 1)$. Hanya ada 2 persamaan untuk 3 variabel. **(Tidak cukup)**.\n3. **Kombinasi (1) & (2):**\n   - Dari (1) dan info awal, kita bisa menyatakan $z$ dalam bentuk $y$.\n   - Substitusikan ke (2), sehingga diperoleh nilai $y = 4$.\n   - Umur 3 tahun mendatang = $4 + 3 = 7$ tahun.\n\n**Kesimpulan:** Kedua pernyataan bersama-sama cukup."
+    "pembahasan": " Analisis Persamaan:\n- Misalkan umur: Anak I ($x$), Anak II ($y$), Anak III ($z$).\n- **Diketahui:** $y = \\frac{2}{3}x$ (Persamaan 1).\n\n**Analisis Pernyataan:**\n1. **Pernyataan (1):** $z = \\frac{1}{4}(x + y)$. Hanya ada 2 persamaan untuk 3 variabel. **(Tidak cukup)**.\n2. **Pernyataan (2):** $(y - 1) = 2(z - 1)$. Hanya ada 2 persamaan untuk 3 variabel. **(Tidak cukup)**.\n3. **Kombinasi (1) & (2):**\n   - Dari (1) dan info awal, kita bisa menyatakan $z$ dalam bentuk $y$.\n   - Substitusikan ke (2), sehingga diperoleh nilai $y = 4$.\n   - Umur 3 tahun mendatang = $4 + 3 = 7$ tahun.\n\n**Kesimpulan:** Kedua pernyataan bersama-sama cukup."
   },
   {
     "id": 8,
@@ -98,7 +98,7 @@
       "Pernyataan (1) dan pernyataan (2) tidak cukup"
     ],
     "jawaban": "C",
-    "pembahasan": "### Analisis Data:\n- Urutan data: $x_1, x_2, x_3, x_4, x_5, x_6, x_7$.\n- Diketahui: $x_4=5$ ($Q_2$), $x_6=5$ ($Q_3$), Mean=5 (Total=35).\n- Karena $x_4=5$ dan $x_6=5$, maka $x_5$ juga harus 5.\n\n**Analisis Pernyataan:**\n1. **Pernyataan (1):** $Q_1 = x_2 = 4$. Nilai $x_1$ dan $x_7$ masih bebas. **(Tidak cukup)**.\n2. **Pernyataan (2):** $x_3 + 2x_7 = 21$. Nilai bergantung pada $x_3$. **(Tidak cukup)**.\n3. **Kombinasi:**\n   - Jika $x_2=4$, maka $x_3$ berkisar antara 4 atau 5.\n   - Jika $x_3=5$, maka $2x_7 = 21 - 5 = 16 \\rightarrow x_7 = 8$.\n   - Total: $x_1+4+5+5+5+5+8 = 35 \\rightarrow x_1 = 3$.\n   - Jangkauan: $8 - 3 = 5$.\n\n**Kesimpulan:** Kedua pernyataan bersama-sama cukup untuk menemukan nilai tunggal."
+    "pembahasan": " Analisis Data:\n- Urutan data: $x_1, x_2, x_3, x_4, x_5, x_6, x_7$.\n- Diketahui: $x_4=5$ ($Q_2$), $x_6=5$ ($Q_3$), Mean=5 (Total=35).\n- Karena $x_4=5$ dan $x_6=5$, maka $x_5$ juga harus 5.\n\n**Analisis Pernyataan:**\n1. **Pernyataan (1):** $Q_1 = x_2 = 4$. Nilai $x_1$ dan $x_7$ masih bebas. **(Tidak cukup)**.\n2. **Pernyataan (2):** $x_3 + 2x_7 = 21$. Nilai bergantung pada $x_3$. **(Tidak cukup)**.\n3. **Kombinasi:**\n   - Jika $x_2=4$, maka $x_3$ berkisar antara 4 atau 5.\n   - Jika $x_3=5$, maka $2x_7 = 21 - 5 = 16 \\rightarrow x_7 = 8$.\n   - Total: $x_1+4+5+5+5+5+8 = 35 \\rightarrow x_1 = 3$.\n   - Jangkauan: $8 - 3 = 5$.\n\n**Kesimpulan:** Kedua pernyataan bersama-sama cukup untuk menemukan nilai tunggal."
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
     },
     "pilihan": ["Rp270.000,00", "Rp275.000,00", "Rp280.000,00", "Rp285.000,00", "Rp290.000,00"],
     "jawaban": "A",
-    "pembahasan": "### Perbandingan Biaya:\n\n**1. Toko A:**\n- Strategi: 4 paket isi 5 ($20$ potong) + 1 paket isi 3 ($3$ potong) = 23 potong.\n- Biaya: $(4 \\times 55.000) + 40.000 + 10.000 = 220.000 + 40.000 + 10.000 = \\mathbf{270.000}$.\n\n**2. Toko B:**\n- Strategi: 4 paket isi 5 + 1 paket isi 3 = 23 potong.\n- Biaya: $(4 \\times 60.000) + 35.000 + 30.000 = 240.000 + 35.000 + 30.000 = 305.000$.\n\n**Kesimpulan:** Biaya minimum yang dibutuhkan adalah **Rp270.000,00**."
+    "pembahasan": " Perbandingan Biaya:\n\n**1. Toko A:**\n- Strategi: 4 paket isi 5 ($20$ potong) + 1 paket isi 3 ($3$ potong) = 23 potong.\n- Biaya: $(4 \\times 55.000) + 40.000 + 10.000 = 220.000 + 40.000 + 10.000 = \\mathbf{270.000}$.\n\n**2. Toko B:**\n- Strategi: 4 paket isi 5 + 1 paket isi 3 = 23 potong.\n- Biaya: $(4 \\times 60.000) + 35.000 + 30.000 = 240.000 + 35.000 + 30.000 = 305.000$.\n\n**Kesimpulan:** Biaya minimum yang dibutuhkan adalah **Rp270.000,00**."
   },
   {
     "id": 10,
@@ -122,7 +122,7 @@
     "pertanyaan": "Suatu balok memiliki tiga jenis luas sisi, yaitu 32 cm², 64 cm², dan 128 cm². Panjang setiap rusuk balok merupakan bilangan kelipatan 4 yang berbeda. Panjang diagonal sisi maksimum yang mungkin adalah ....",
     "pilihan": ["4√5", "4√10", "4√17", "8√5", "8√10"],
     "jawaban": "D",
-    "pembahasan": "### Langkah Penyelesaian:\n1. **Misal rusuk:** $p, l, t$.\n   - $p \\times l = 32$\n   - $l \\times t = 64$\n   - $p \\times t = 128$\n2. **Mencari nilai rusuk:**\n   - $\\frac{p \\times t}{l \\times t} = \\frac{128}{64} \\rightarrow \\frac{p}{l} = 2 \\rightarrow p = 2l$.\n   - Substitusi ke $p \\times l = 32 \\rightarrow 2l^2 = 32 \\rightarrow l = 4$.\n   - Maka $p = 8$ dan $t = 16$.\n3. **Cek Syarat:** Rusuk (4, 8, 16) adalah kelipatan 4 yang berbeda (**Sesuai**).\n4. **Diagonal Sisi Maksimum:** Gunakan dua rusuk terpanjang (8 dan 16).\n   $D = \\sqrt{8^2 + 16^2} = \\sqrt{64 + 256} = \\sqrt{320} = 8\\sqrt{5}$."
+    "pembahasan": " Langkah Penyelesaian:\n1. **Misal rusuk:** $p, l, t$.\n   - $p \\times l = 32$\n   - $l \\times t = 64$\n   - $p \\times t = 128$\n2. **Mencari nilai rusuk:**\n   - $\\frac{p \\times t}{l \\times t} = \\frac{128}{64} \\rightarrow \\frac{p}{l} = 2 \\rightarrow p = 2l$.\n   - Substitusi ke $p \\times l = 32 \\rightarrow 2l^2 = 32 \\rightarrow l = 4$.\n   - Maka $p = 8$ dan $t = 16$.\n3. **Cek Syarat:** Rusuk (4, 8, 16) adalah kelipatan 4 yang berbeda (**Sesuai**).\n4. **Diagonal Sisi Maksimum:** Gunakan dua rusuk terpanjang (8 dan 16).\n   $D = \\sqrt{8^2 + 16^2} = \\sqrt{64 + 256} = \\sqrt{320} = 8\\sqrt{5}$."
   },
   {
     "id": 11,
@@ -136,7 +136,7 @@
       "Pernyataan (1) dan (2) tidak cukup"
     ],
     "jawaban": "D",
-    "pembahasan": "### Analisis Himpunan Bilangan:\n1. **Bilangan Prima < 20:** {2, 3, 5, 7, 11, 13, 17, 19}.\n2. **Syarat Jangkauan = 2:** Pasangan prima yang mungkin hanya (3, 5) atau (5, 7).\n3. **Analisis Pernyataan (1):** Jika Modus = 5, maka angka 5 muncul lebih sering. Kombinasi yang mungkin dengan jangkauan 2 adalah {3, 5, 5, 5} atau {5, 5, 5, 7}. Dalam kedua kasus, rata-rata dapat ditentukan secara pasti. (**Cukup**).\n4. **Analisis Pernyataan (2):** Jika Median = 5, maka nilai tengah adalah 5. Ini juga mengunci distribusi angka pada prima yang berdekatan tersebut. (**Cukup**).\n\n**Kesimpulan:** Masing-masing pernyataan secara mandiri sudah cukup."
+    "pembahasan": " Analisis Himpunan Bilangan:\n1. **Bilangan Prima < 20:** {2, 3, 5, 7, 11, 13, 17, 19}.\n2. **Syarat Jangkauan = 2:** Pasangan prima yang mungkin hanya (3, 5) atau (5, 7).\n3. **Analisis Pernyataan (1):** Jika Modus = 5, maka angka 5 muncul lebih sering. Kombinasi yang mungkin dengan jangkauan 2 adalah {3, 5, 5, 5} atau {5, 5, 5, 7}. Dalam kedua kasus, rata-rata dapat ditentukan secara pasti. (**Cukup**).\n4. **Analisis Pernyataan (2):** Jika Median = 5, maka nilai tengah adalah 5. Ini juga mengunci distribusi angka pada prima yang berdekatan tersebut. (**Cukup**).\n\n**Kesimpulan:** Masing-masing pernyataan secara mandiri sudah cukup."
   },
   {
     "id": 12,
@@ -144,7 +144,7 @@
     "pertanyaan": "Elon Musk berencana untuk membeli seluruh saham milik Nam So Dan. Berapakah uang yang harus disiapkan Elon Musk?",
     "pilihan": ["900.000 USD", "750.000 USD", "600.000 USD", "450.000 USD", "300.000 USD"],
     "jawaban": "D",
-    "pembahasan": "### Perhitungan Saham:\n1. **Total Saham Akhir:**\n   Awal (400) + Sandbox (100) = **500 lembar**.\n2. **Saham Nam So Dan:**\n   $60\\% \\times 500 = \\mathbf{300\\text{ lembar}}$.\n3. **Harga per Lembar:**\n   Sandbox: 150.000 USD untuk 100 lembar $\\rightarrow$ $150.000 / 100 = \\mathbf{1.500\\text{ USD/lembar}}$.\n4. **Total Biaya Elon Musk:**\n   $300\\text{ lembar} \\times 1.500\\text{ USD} = \\mathbf{450.000\\text{ USD}}$."
+    "pembahasan": " Perhitungan Saham:\n1. **Total Saham Akhir:**\n   Awal (400) + Sandbox (100) = **500 lembar**.\n2. **Saham Nam So Dan:**\n   $60\\% \\times 500 = \\mathbf{300\\text{ lembar}}$.\n3. **Harga per Lembar:**\n   Sandbox: 150.000 USD untuk 100 lembar $\\rightarrow$ $150.000 / 100 = \\mathbf{1.500\\text{ USD/lembar}}$.\n4. **Total Biaya Elon Musk:**\n   $300\\text{ lembar} \\times 1.500\\text{ USD} = \\mathbf{450.000\\text{ USD}}$."
   },
   {
     "id": 13,
@@ -152,7 +152,7 @@
     "pertanyaan": "Berapakah jumlah saham yang akan diperoleh oleh Elon Musk jika transaksi membeli saham Reihan dan Rohim berhasil?",
     "pilihan": ["500 lembar", "400 lembar", "300 lembar", "200 lembar", "100 lembar"],
     "jawaban": "E",
-    "pembahasan": "### Analisis Kepemilikan Saham:\n1. **Total Saham:** 500 lembar.\n2. **Distribusi:**\n   - Nam So Dan: 300 lembar.\n   - Sandbox: 100 lembar.\n   - Reihan + Rohim: Sisa Saham.\n3. **Perhitungan:**\n   $500 - (300 + 100) = \\mathbf{100\\text{ lembar}}$.\n\n**Maka, Elon Musk akan memperoleh 100 lembar saham.**"
+    "pembahasan": " Analisis Kepemilikan Saham:\n1. **Total Saham:** 500 lembar.\n2. **Distribusi:**\n   - Nam So Dan: 300 lembar.\n   - Sandbox: 100 lembar.\n   - Reihan + Rohim: Sisa Saham.\n3. **Perhitungan:**\n   $500 - (300 + 100) = \\mathbf{100\\text{ lembar}}$.\n\n**Maka, Elon Musk akan memperoleh 100 lembar saham.**"
   },
   {
     "id": 14,
@@ -160,7 +160,7 @@
     "pertanyaan": "Berapakah Customer Acquisition Cost (CAC) dari program giveaway iPhone saja?",
     "pilihan": ["Rp10.000,00", "Rp16.000,00", "Rp17.333,33", "Rp20.000,00", "Rp32.000,00"],
     "jawaban": "B",
-    "pembahasan": "### Rumus CAC:\n$\\text{CAC} = \\frac{\\text{Total Biaya Marketing}}{\\text{Jumlah Pelanggan Baru}}$\n\n1. Biaya (iPhone) = Rp8.000.000.\n2. Pelanggan baru = 500 orang.\n3. **CAC** = $8.000.000 / 500 = \\mathbf{Rp16.000,00}$."
+    "pembahasan": " Rumus CAC:\n$\\text{CAC} = \\frac{\\text{Total Biaya Marketing}}{\\text{Jumlah Pelanggan Baru}}$\n\n1. Biaya (iPhone) = Rp8.000.000.\n2. Pelanggan baru = 500 orang.\n3. **CAC** = $8.000.000 / 500 = \\mathbf{Rp16.000,00}$."
   },
   {
     "id": 15,
@@ -168,7 +168,7 @@
     "pertanyaan": "Berdasarkan data warung kopi tersebut, berapakah nilai Marketing ROI dari program yang memiliki hasil lebih tinggi?",
     "pilihan": ["10%", "15%", "20%", "25%", "30%"],
     "jawaban": "D",
-    "pembahasan": "### Perbandingan ROI:\n\n1. **Program Giveaway:**\n   - Penjualan: $500 \\times 20.000 = 10.000.000$.\n   - ROI: $\\frac{10\\text{jt} - 8\\text{jt}}{8\\text{jt}} \\times 100\\% = \\mathbf{25\\%}$.\n2. **Program Endorsement:**\n   - Penjualan: $250 \\times 20.000 = 5.000.000$.\n   - ROI: $\\frac{5\\text{jt} - 5\\text{jt}}{5\\text{jt}} \\times 100\\% = \\mathbf{0\\%}$.\n\n**Jadi, ROI tertinggi adalah 25%.**"
+    "pembahasan": " Perbandingan ROI:\n\n1. **Program Giveaway:**\n   - Penjualan: $500 \\times 20.000 = 10.000.000$.\n   - ROI: $\\frac{10\\text{jt} - 8\\text{jt}}{8\\text{jt}} \\times 100\\% = \\mathbf{25\\%}$.\n2. **Program Endorsement:**\n   - Penjualan: $250 \\times 20.000 = 5.000.000$.\n   - ROI: $\\frac{5\\text{jt} - 5\\text{jt}}{5\\text{jt}} \\times 100\\% = \\mathbf{0\\%}$.\n\n**Jadi, ROI tertinggi adalah 25%.**"
   },
   {
     "id": 16,
@@ -182,7 +182,7 @@
       "1500 (s - 250.000) = 1250"
     ],
     "jawaban": "C",
-    "pembahasan": "### Analisis Nilai Mutlak:\n1. Titik acuan pendapatan maksimum adalah pada penjualan **1250 unit**.\n2. Setiap selisih unit dari 1250 (baik lebih maupun kurang) menyebabkan pengurangan sebesar **1500 per unit**.\n3. Karena selisih bersifat dua arah (jarak), kita gunakan nilai mutlak $|s - 1250|$.\n4. Persamaan: $1500 \\times |s - 1250| = 250.000$."
+    "pembahasan": " Analisis Nilai Mutlak:\n1. Titik acuan pendapatan maksimum adalah pada penjualan **1250 unit**.\n2. Setiap selisih unit dari 1250 (baik lebih maupun kurang) menyebabkan pengurangan sebesar **1500 per unit**.\n3. Karena selisih bersifat dua arah (jarak), kita gunakan nilai mutlak $|s - 1250|$.\n4. Persamaan: $1500 \\times |s - 1250| = 250.000$."
   },
   {
     "id": 17,
@@ -190,7 +190,7 @@
     "pertanyaan": "Sarah membeli tiga jenis materai (5rb, 8rb, 12rb) seharga total Rp107.000. Jika jumlah tiap jenis materai membentuk bilangan asli berurutan, total materai adalah...",
     "pilihan": ["18", "16", "15", "14", "12"],
     "jawaban": "E",
-    "pembahasan": "### Langkah Penyelesaian:\n1. **Misal jumlah materai:** $n, (n+1), (n+2)$.\n2. **Persamaan Biaya (dalam ribuan):**\n   $5(n) + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75 \\rightarrow n = 3$.\n3. **Jumlah masing-masing:** 3, 4, dan 5.\n4. **Total materai:** $3 + 4 + 5 = \\mathbf{12\\text{ buah}}$."
+    "pembahasan": " Langkah Penyelesaian:\n1. **Misal jumlah materai:** $n, (n+1), (n+2)$.\n2. **Persamaan Biaya (dalam ribuan):**\n   $5(n) + 8(n+1) + 12(n+2) = 107$\n   $5n + 8n + 8 + 12n + 24 = 107$\n   $25n + 32 = 107$\n   $25n = 75 \\rightarrow n = 3$.\n3. **Jumlah masing-masing:** 3, 4, dan 5.\n4. **Total materai:** $3 + 4 + 5 = \\mathbf{12\\text{ buah}}$."
   },
   {
     "id": 18,
@@ -198,7 +198,7 @@
     "pertanyaan": "Perkiraan jumlah tenaga kerja laki-laki pada tahun 2015 berdasarkan pertumbuhan linear adalah...",
     "pilihan": ["1150 orang", "1050 orang", "1000 orang", "950 orang", "1500 orang"],
     "jawaban": "D",
-    "pembahasan": "### Analisis Gradien:\n1. **Data:** (1980, 600) dan (2000, 800).\n2. **Gradien ($m$):** $\\frac{800 - 600}{2000 - 1980} = \\frac{200}{20} = 10$ orang/tahun.\n3. **Prediksi 2015:**\n   - Selisih tahun dari 2000: $2015 - 2000 = 15$ tahun.\n   - Tambahan: $15 \\times 10 = 150$ orang.\n   - Total: $800 + 150 = \\mathbf{950\\text{ orang}}$."
+    "pembahasan": " Analisis Gradien:\n1. **Data:** (1980, 600) dan (2000, 800).\n2. **Gradien ($m$):** $\\frac{800 - 600}{2000 - 1980} = \\frac{200}{20} = 10$ orang/tahun.\n3. **Prediksi 2015:**\n   - Selisih tahun dari 2000: $2015 - 2000 = 15$ tahun.\n   - Tambahan: $15 \\times 10 = 150$ orang.\n   - Total: $800 + 150 = \\mathbf{950\\text{ orang}}$."
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "pertanyaan": "Password Eva (3 bilangan, masing-masing 2 digit) memenuhi TEPAT SATU dari: Genap, Kelipatan 3, atau Bulan Lahir.",
     "pilihan": ["262710", "112627", "262410", "262510", "252711"],
     "jawaban": "B",
-    "pembahasan": "### Uji Pilihan (B) 11-26-27:\n- **11:** Bulan lahir (Jan-Des). Bukan genap, bukan kelipatan 3. (**Lolos**).\n- **26:** Genap. Bukan kelipatan 3, bukan bulan lahir. (**Lolos**).\n- **27:** Kelipatan 3. Bukan genap, bukan bulan lahir. (**Lolos**).\n\n*Pilihan lain gagal karena satu angka memenuhi dua kondisi sekaligus (misal: 10 adalah genap sekaligus bulan lahir).*"
+    "pembahasan": " Uji Pilihan (B) 11-26-27:\n- **11:** Bulan lahir (Jan-Des). Bukan genap, bukan kelipatan 3. (**Lolos**).\n- **26:** Genap. Bukan kelipatan 3, bukan bulan lahir. (**Lolos**).\n- **27:** Kelipatan 3. Bukan genap, bukan bulan lahir. (**Lolos**).\n\n*Pilihan lain gagal karena satu angka memenuhi dua kondisi sekaligus (misal: 10 adalah genap sekaligus bulan lahir).*"
   },
   {
     "id": 20,
@@ -214,6 +214,6 @@
     "pertanyaan": "Beda waktu perjalanan jika Seth berangkat pukul 07.00 (Normal) dan 07.15 (Macet sebagian) adalah...",
     "pilihan": ["55 menit", "12 menit", "28 menit", "7 menit", "42 menit"],
     "jawaban": "C",
-    "pembahasan": "### Perhitungan Waktu:\n\n**1. Kondisi Normal (07.00):**\n- T1: $5/30 \\times 60 = 10$ mnt\n- T2: $12/70 \\times 60 = 10,3$ mnt\n- T3: $3/35 \\times 60 = 5,1$ mnt\n- **Total: 25,4 menit.**\n\n**2. Kondisi Macet (07.15):**\n- T1: $5/25 \\times 60 = 12$ mnt\n- T2: $12/20 \\times 60 = 36$ mnt\n- T3: $3/35 \\times 60 = 5,1$ mnt (Normal)\n- **Total: 53,1 menit.**\n\n**Selisih:** $53,1 - 25,4 = 27,7 \\approx \\mathbf{28\\text{ menit}}$."
+    "pembahasan": " Perhitungan Waktu:\n\n**1. Kondisi Normal (07.00):**\n- T1: $5/30 \\times 60 = 10$ mnt\n- T2: $12/70 \\times 60 = 10,3$ mnt\n- T3: $3/35 \\times 60 = 5,1$ mnt\n- **Total: 25,4 menit.**\n\n**2. Kondisi Macet (07.15):**\n- T1: $5/25 \\times 60 = 12$ mnt\n- T2: $12/20 \\times 60 = 36$ mnt\n- T3: $3/35 \\times 60 = 5,1$ mnt (Normal)\n- **Total: 53,1 menit.**\n\n**Selisih:** $53,1 - 25,4 = 27,7 \\approx \\mathbf{28\\text{ menit}}$."
   }
 ]
