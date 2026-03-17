@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "kategori": "Mudah",
+    "pertanyaan": "Semua atlet profesional menjaga pola makan.\nSebagian penduduk desa adalah atlet profesional.\n\nSimpulan yang PASTI BENAR adalah...",
+    "pilihan": [
+      "Semua penduduk desa menjaga pola makan",
+      "Semua yang menjaga pola makan adalah atlet profesional",
+      "Sebagian penduduk desa menjaga pola makan",
+      "Sebagian atlet profesional tidak tinggal di desa",
+      "Penduduk desa yang bukan atlet tidak menjaga pola makan"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Analisis Silogisme:\n1. Premis 1: Semua atlet -> Menjaga pola makan.\n2. Premis 2: Ada penduduk desa yang merupakan atlet.\n3. Karena atlet tersebut adalah penduduk desa dan atlet wajib menjaga pola makan, maka ada (sebagian) penduduk desa yang menjaga pola makan.\n\nSimpulan: Sebagian penduduk desa menjaga pola makan."
+  },
+  {
+    "id": 2,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika sebuah aplikasi memiliki fitur enkripsi end-to-end, maka data pengguna tidak dapat diretas.\nSaat ini, data pengguna di aplikasi Z dapat diretas oleh pihak ketiga.\n\nSimpulan yang PASTI BENAR adalah...",
+    "pilihan": [
+      "Aplikasi Z memiliki fitur enkripsi yang lemah",
+      "Aplikasi Z tidak memiliki fitur enkripsi end-to-end",
+      "Pihak ketiga lebih ahli daripada pengembang aplikasi Z",
+      "Aplikasi Z akan segera memperbarui sistem keamanannya",
+      "Fitur enkripsi tidak menjamin keamanan data sepenuhnya"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan aturan Modus Tollens:\n- Premis 1: P → Q (Jika Enkripsi, maka Tidak Diretas)\n- Premis 2: ¬Q (Data Diretas)\n- Kesimpulan: ¬P (Aplikasi tidak memiliki fitur enkripsi end-to-end)."
+  },
+  {
+    "id": 3,
+    "kategori": "Mudah",
+    "pertanyaan": "Dalam sebuah kompetisi drone, drone A terbang lebih tinggi dari drone B, tetapi lebih rendah dari drone C. Drone D terbang lebih rendah dari drone B.\n\nSiapakah yang terbang di posisi paling rendah?",
+    "pilihan": ["Drone A", "Drone B", "Drone C", "Drone D", "Tidak dapat ditentukan"],
+    "jawaban": "D",
+    "pembahasan": "Analisis Urutan Ketinggian:\n1. A > B\n2. C > A (berarti C > A > B)\n3. B > D (berarti C > A > B > D)\n\nUrutan dari yang tertinggi ke terendah adalah C - A - B - D. Jadi, yang paling rendah adalah drone D."
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Jika hari hujan, maka lapangan sepak bola menjadi basah.\nJika lapangan sepak bola basah, maka pertandingan ditunda.\nHari ini pertandingan TIDAK ditunda.\n\nSimpulan yang PASTI BENAR adalah...",
+    "pilihan": [
+      "Hari ini mendung tetapi tidak hujan",
+      "Pertandingan tetap dilaksanakan meskipun hujan",
+      "Lapangan sepak bola tidak basah",
+      "Pertandingan ditunda karena alasan lain",
+      "Hari ini tidak hujan"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Logika Rantai (Silogisme Hipotetik):\n1. Hujan → Basah → Ditunda.\n2. Hari ini ¬Ditunda.\n3. Berdasarkan Modus Tollens berantai: ¬Ditunda → ¬Basah → ¬Hujan.\n\nSimpulan: Hari ini tidak hujan."
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Lima orang (P, Q, R, S, T) duduk di satu baris kursi.\n- P duduk di ujung kiri.\n- R duduk di antara S dan T.\n- Q duduk tepat di sebelah kanan P.\n\nSiapa yang duduk di paling kanan?",
+    "pilihan": ["Q", "R", "S", "T", "S atau T"],
+    "jawaban": "E",
+    "pembahasan": "Analisis Posisi Duduk:\n1. P di ujung kiri: [P, _, _, _, _]\n2. Q di kanan P: [P, Q, _, _, _]\n3. R di antara S dan T: Berarti urutannya bisa S-R-T atau T-R-S.\n4. Menggabungkan semuanya: [P, Q, S, R, T] atau [P, Q, T, R, S].\n\nKarena tidak ada informasi tambahan mengenai posisi S atau T secara spesifik, maka yang duduk di ujung kanan bisa S atau T."
+  },
+  {
+    "id": 6,
+    "kategori": "Sulit",
+    "pertanyaan": "Negasi dari pernyataan 'Semua siswa membawa laptop dan memakai seragam' adalah...",
+    "pilihan": [
+      "Semua siswa tidak membawa laptop dan tidak memakai seragam",
+      "Ada siswa yang tidak membawa laptop atau tidak memakai seragam",
+      "Ada siswa yang membawa laptop tetapi tidak memakai seragam",
+      "Semua siswa membawa laptop tetapi tidak memakai seragam",
+      "Tidak ada siswa yang membawa laptop maupun memakai seragam"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Hukum De Morgan untuk Negasi:\n- Negasi dari 'Semua' adalah 'Ada/Beberapa'.\n- Negasi dari 'dan' adalah 'atau'.\n- Pernyataan: ∀x (P(x) ∧ Q(x))\n- Negasi: ∃x (¬P(x) ∨ ¬Q(x))\n\nArtinya: 'Ada siswa yang tidak membawa laptop atau tidak memakai seragam'."
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Kelulusan sertifikasi pilot drone mensyaratkan peserta memiliki jam terbang minimal 20 jam DAN lulus ujian teori.\nRobi sudah lulus ujian teori, namun ia dinyatakan TIDAK lulus sertifikasi.\n\nSimpulan yang PASTI BENAR adalah...",
+    "pilihan": [
+      "Robi belum menempuh ujian praktik",
+      "Jam terbang Robi kurang dari 20 jam",
+      "Ujian teori bukan penentu utama kelulusan",
+      "Robi harus mengulang ujian teori tahun depan",
+      "Robi memiliki jam terbang tepat 20 jam"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Logika Konjungsi (DAN):\nSyarat Lulus = (Jam Terbang ≥ 20) AND (Lulus Teori).\nJika Robi TIDAK Lulus, maka salah satu atau kedua syarat tersebut pasti gagal. Karena diketahui ia Lulus Teori, maka penyebab kegagalannya pasti pada syarat satunya, yaitu jam terbangnya tidak mencapai minimal 20 jam."
+  },
+  {
+    "id": 8,
+    "kategori": "Mudah",
+    "pertanyaan": "Tidak ada tanaman kaktus yang membutuhkan banyak air.\nSemua tanaman yang ada di kebun Pak Bambang membutuhkan banyak air.\n\nSimpulan yang PASTI BENAR adalah...",
+    "pilihan": [
+      "Sebagian tanaman di kebun Pak Bambang adalah kaktus",
+      "Tanaman di kebun Pak Bambang adalah tanaman kering",
+      "Tidak ada tanaman di kebun Pak Bambang yang merupakan kaktus",
+      "Pak Bambang tidak suka menanam kaktus di kebunnya",
+      "Kaktus tidak bisa tumbuh di kebun Pak Bambang"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Silogisme Kategorik:\n1. Kaktus ∩ Butuh Banyak Air = Kosong.\n2. Tanaman Kebun ⊂ Butuh Banyak Air.\n3. Karena kaktus tidak butuh banyak air sedangkan semua tanaman kebun butuh, maka kaktus tidak mungkin ada di dalam kebun tersebut."
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Sebuah aplikasi pendidikan memiliki 4 modul: A, B, C, dan D.\n- Modul A harus dipelajari sebelum modul B.\n- Modul C harus dipelajari tepat setelah modul A.\n- Modul D adalah modul terakhir yang dipelajari.\n\nUrutan belajar yang BENAR adalah...",
+    "pilihan": [
+      "A - B - C - D",
+      "A - C - B - D",
+      "C - A - B - D",
+      "B - A - C - D",
+      "A - B - D - C"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Penyusunan Urutan Modul:\n1. D di posisi terakhir: [_, _, _, D]\n2. C tepat setelah A: Gabungan [A, C]\n3. A sebelum B: A - B.\n4. Menggabungkan aturan: A diikuti C, lalu ada B sebelum akhirnya D.\nUrutan: A - C - B - D."
+  },
+  {
+    "id": 10,
+    "kategori": "Mudah",
+    "pertanyaan": "Jika seseorang adalah pengembang Android, maka ia memahami bahasa pemrograman Kotlin.\nRovi adalah seorang pengembang Android.\n\nSimpulan yang PASTI BENAR adalah...",
+    "pilihan": [
+      "Rovi hanya belajar bahasa Kotlin",
+      "Rovi memahami bahasa pemrograman Kotlin",
+      "Rovi mahir membuat aplikasi pendidikan",
+      "Rovi tidak memahami bahasa pemrograman Swift",
+      "Semua orang yang memahami Kotlin adalah pengembang Android"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Menggunakan aturan Modus Ponens:\n- Premis 1: P → Q (Jika Pengembang Android, maka Paham Kotlin)\n- Premis 2: P (Rovi adalah Pengembang Android)\n- Kesimpulan: Q (Rovi memahami bahasa pemrograman Kotlin)."
+  }
+]
