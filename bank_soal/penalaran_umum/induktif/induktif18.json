@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "kategori": "Mudah",
+    "pertanyaan": "Perhatikan barisan huruf berikut: C, F, I, L, O, ... \n\nHuruf apakah yang paling tepat untuk mengisi titik-titik tersebut?",
+    "pilihan": ["P", "Q", "R", "S", "T"],
+    "jawaban": "C",
+    "pembahasan": "Analisis Pola Huruf:\n1. C ke F: loncat 3 huruf (C, d, e, F).\n2. F ke I: loncat 3 huruf (F, g, h, I).\n3. I ke L: loncat 3 huruf (I, j, k, L).\n4. L ke O: loncat 3 huruf (L, m, n, O).\n5. O + 3 huruf: (O, p, q, R).\n\nJadi, huruf berikutnya adalah R."
+  },
+  {
+    "id": 2,
+    "kategori": "Mudah",
+    "pertanyaan": "Diberikan barisan angka: 2, 3, 5, 8, 13, 21, ... \n\nBerapakah angka selanjutnya dari barisan tersebut?",
+    "pilihan": ["29", "31", "33", "34", "38"],
+    "jawaban": "D",
+    "pembahasan": "Analisis Barisan Fibonacci:\nPola ini terbentuk dari penjumlahan dua angka sebelumnya:\n- 2 + 3 = 5\n- 3 + 5 = 8\n- 5 + 8 = 13\n- 8 + 13 = 21\n- 13 + 21 = 34\n\nAngka berikutnya adalah 34."
+  },
+  {
+    "id": 3,
+    "kategori": "Sedang",
+    "pertanyaan": "Perhatikan pola figural berikut:\n• Pola 1: Lingkaran besar berisi satu segitiga kecil.\n• Pola 2: Persegi besar berisi dua segitiga kecil.\n• Pola 3: Pentagon (segi lima) besar berisi tiga segitiga kecil.\n\nBerdasarkan induksi pola di atas, apa bentuk dari Pola 4?",
+    "pilihan": [
+      "Pentagon besar dengan empat segitiga kecil",
+      "Heksagon (segi enam) besar dengan empat segitiga kecil",
+      "Persegi besar dengan lima segitiga kecil",
+      "Heksagon besar dengan tiga segitiga kecil",
+      "Lingkaran besar dengan empat segitiga kecil"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Analisis Perubahan Bentuk:\n1. Sisi bangun luar bertambah 1: Lingkaran (dianggap 1 sisi melengkung/awal) -> Persegi (4 sisi) -> Pentagon (5 sisi). Maka berikutnya Heksagon (6 sisi).\n2. Jumlah segitiga di dalam bertambah 1: 1 -> 2 -> 3. Maka berikutnya adalah 4.\n\nJadi, Pola 4 adalah Heksagon besar dengan empat segitiga kecil."
+  },
+  {
+    "id": 4,
+    "kategori": "Sedang",
+    "pertanyaan": "Dalam survei terhadap 100 lulusan universitas top, ditemukan bahwa 92 orang yang aktif di organisasi kampus mendapatkan pekerjaan dalam kurun waktu kurang dari 3 bulan setelah lulus. Budi adalah mahasiswa yang sangat aktif di organisasi kampus.\n\nKesimpulan induktif yang PALING TEPAT adalah...",
+    "pilihan": [
+      "Budi pasti langsung bekerja setelah lulus",
+      "Budi mungkin akan mendapatkan pekerjaan dengan cepat",
+      "Semua mahasiswa aktif organisasi pasti sukses",
+      "Organisasi adalah satu-satunya faktor penentu kecepatan kerja",
+      "Budi tidak perlu belajar karena sudah aktif berorganisasi"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Logika Induksi Statistik:\nData menunjukkan tren kuat (92%), namun bukan kepastian mutlak (100%). Dalam penalaran induktif, kesimpulan untuk subjek individu harus bersifat probabilistik. Kata 'mungkin' adalah pilihan paling logis untuk mencerminkan peluang tersebut."
+  },
+  {
+    "id": 5,
+    "kategori": "Sedang",
+    "pertanyaan": "Data penjualan sebuah toko buku menunjukkan:\n- Senin: 10 buku\n- Selasa: 15 buku\n- Rabu: 25 buku\n- Kamis: 40 buku\n\nBerapakah prediksi penjualan pada hari Jumat jika pola kenaikan tersebut konsisten?",
+    "pilihan": ["50 buku", "55 buku", "60 buku", "65 buku", "70 buku"],
+    "jawaban": "C",
+    "pembahasan": "Analisis Selisih Bertingkat:\n- Sen ke Sel: +5\n- Sel ke Rab: +10\n- Rab ke Kam: +15\nSelisihnya membentuk pola kelipatan 5. Maka selisih Kam ke Jum adalah +20.\nPrediksi: 40 + 20 = 60 buku."
+  },
+  {
+    "id": 6,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $2 \\# 3 = 13$, $3 \\# 4 = 25$, dan $4 \\# 5 = 41$, maka nilai dari $5 \\# 6$ adalah...",
+    "pilihan": ["51", "56", "61", "66", "71"],
+    "jawaban": "C",
+    "pembahasan": "Mencari Pola Operasi:\n- $2^2 + 3^2 = 4 + 9 = 13$\n- $3^2 + 4^2 = 9 + 16 = 25$\n- $4^2 + 5^2 = 16 + 25 = 41$\n\nPola yang ditemukan adalah $a^2 + b^2$. Maka:\n$5^2 + 6^2 = 25 + 36 = 61$."
+  },
+  {
+    "id": 7,
+    "kategori": "Sedang",
+    "pertanyaan": "Seorang pengamat burung mencatat bahwa di Hutan A, setiap kali burung jenis Merpati hutan muncul, suhu udara selalu turun antara 2-3 derajat Celsius. Sore ini, sekelompok Merpati hutan terlihat terbang rendah di Hutan A.\n\nPrediksi yang PALING REALISTIS adalah...",
+    "pilihan": [
+      "Suhu udara di Hutan A akan segera naik",
+      "Akan terjadi hujan badai di Hutan A",
+      "Suhu udara di Hutan A kemungkinan besar akan menjadi lebih dingin",
+      "Merpati hutan menyukai udara yang panas",
+      "Tidak ada hubungan antara burung dan suhu"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Penalaran Berbasis Tren:\nBerdasarkan pengamatan yang berulang, terdapat korelasi antara kemunculan burung dan penurunan suhu. Secara induktif, jika pemicunya (burung) muncul, maka hasilnya (suhu dingin) kemungkinan besar akan terjadi kembali."
+  },
+  {
+    "id": 8,
+    "kategori": "Sedang",
+    "pertanyaan": "Perhatikan pola matriks arah panah berikut:\nBaris 1: ↑, →, ↓\nBaris 2: →, ↓, ←\nBaris 3: ↓, ←, ...\n\nSimbol yang tepat untuk mengisi titik-titik adalah...",
+    "pilihan": ["↑", "→", "↓", "←", "↖"],
+    "jawaban": "A",
+    "pembahasan": "Analisis Rotasi:\nSetiap elemen dalam baris bergeser dan berputar 90 derajat searah jarum jam.\n- Baris 3 dimulai dengan ↓, lalu berputar menjadi ← (90 derajat).\n- Putaran 90 derajat berikutnya dari ← adalah ke atas (↑)."
+  },
+  {
+    "id": 9,
+    "kategori": "Sedang",
+    "pertanyaan": "Hasil penelitian medis selama 5 tahun menunjukkan bahwa 80% penderita insomnia yang melakukan meditasi sebelum tidur melaporkan peningkatan kualitas tidur yang signifikan. Andi menderita insomnia dan mulai rutin bermeditasi.\n\nKesimpulan yang PALING LOGIS adalah...",
+    "pilihan": [
+      "Meditasi adalah obat medis untuk insomnia",
+      "Kualitas tidur Andi kemungkinan akan membaik",
+      "Andi pasti sembuh dari insomnia malam ini",
+      "Meditasi tidak berpengaruh pada 20% orang, termasuk Andi",
+      "Semua orang harus bermeditasi agar tidak insomnia"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Generalisasi Induktif:\nKarena mayoritas (80%) mengalami dampak positif, maka Andi sebagai pelaku meditasi memiliki peluang besar untuk mengalami hal yang sama. Namun, karena tidak 100%, penggunaan kata 'kemungkinan' adalah yang paling tepat."
+  },
+  {
+    "id": 10,
+    "kategori": "Sulit",
+    "pertanyaan": "Perhatikan barisan campuran berikut: Z, A, X, C, V, E, ... \n\nHuruf selanjutnya adalah...",
+    "pilihan": ["T", "G", "F", "S", "U"],
+    "jawaban": "A",
+    "pembahasan": "Analisis Dua Larik Barisan:\n1. Larik Pertama (posisi ganjil): Z, X, V (mundur 2 huruf: Z..y..X..w..V). Huruf berikutnya V - 2 = T.\n2. Larik Kedua (posisi genap): A, C, E (maju 2 huruf: A..b..C..d..E).\n\nKarena yang ditanyakan adalah urutan ke-7 (posisi ganjil), maka jawabannya adalah T."
+  }
+]
