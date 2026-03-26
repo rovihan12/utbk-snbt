@@ -43,5 +43,19 @@
     "jawaban": "A",
     "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/1774058818056%7E2.png",
     "pembahasan": "1) **Diketahui:**\nJarak ($x$) = 12 m\nSudut ($\\alpha$) = $55^\\circ$\nTinggi anak = 1,6 m\n\n2) **Cari tinggi tiang di atas mata ($y$):**\n$\\tan 55^\\circ = \\frac{y}{x}$\n$y = 1,428 \\times 12 = 17,136$ m\n\n3) **Tinggi total tiang ($H$):**\n$H = y + \\text{tinggi anak}$\n$H = 17,136 + 1,6 = 18,736$ m\n\n4) **Kesimpulan:**\nDibulatkan menjadi **18,74 m**."
-  } 
+  },
+  {
+  "id": 4,
+  "kategori": "Sedang",
+  "pertanyaan": "Jika diketahui:\n$x = \\cos A - 3\\sin B$\n$y = \\sin A + 3\\cos B$\n\nNilai minimum dari $x^2 + y^2 = ....$",
+  "pilihan": [
+    "-3",
+    "-1",
+    "0",
+    "4",
+    "9"
+  ],
+  "jawaban": "D",
+  "pembahasan": "Untuk mencari nilai $x^2 + y^2$, kita kuadratkan masing-masing persamaan terlebih dahulu:\n\n1. **Kuadratkan x:**\n$x^2 = (\\cos A - 3\\sin B)^2$\n$x^2 = \\cos^2 A - 6\\cos A \\sin B + 9\\sin^2 B$\n\n2. **Kuadratkan y:**\n$y^2 = (\\sin A + 3\\cos B)^2$\n$y^2 = \\sin^2 A + 6\\sin A \\cos B + 9\\cos^2 B$\n\n3. **Jumlahkan $x^2 + y^2$:**\n$x^2 + y^2 = (\\cos^2 A + \\sin^2 A) + 9(\\sin^2 B + \\cos^2 B) + 6(\\sin A \\cos B - \\cos A \\sin B)$\n\nMenggunakan identitas trigonometri:\n- $\\sin^2 \\theta + \\cos^2 \\theta = 1$\n- $\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$\n\nMaka:\n$x^2 + y^2 = 1 + 9(1) + 6\\sin(A - B)$\n$x^2 + y^2 = 10 + 6\\sin(A - B)$\n\n4. **Mencari Nilai Minimum:**\nNilai $x^2 + y^2$ akan minimum saat nilai $\\sin(A - B)$ mencapai nilai terendahnya, yaitu $-1$.\n$(x^2 + y^2)_{min} = 10 + 6(-1)$\n$(x^2 + y^2)_{min} = 10 - 6 = 4$\n\nJadi, nilai minimum dari $x^2 + y^2$ adalah 4."
+}
 ]
