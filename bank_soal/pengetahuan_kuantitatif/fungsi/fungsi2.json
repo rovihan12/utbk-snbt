@@ -57,12 +57,23 @@
   },
   {
     "id": 8,
-    "kategori": "Sedang",
-    "pertanyaan": "Nilai $x$ yang memenuhi $\\sqrt{x^2 - 2x + 1} = 3$ adalah...",
-    "pilihan": ["$x=2$ atau $x=-4$", "$x=-2$ atau $x=4$", "$x=2$ atau $x=4$", "$x=-2$ atau $x=-4$", "$x=3$ atau $x=-3$"],
-    "jawaban": "B",
-    "pembahasan": "$x^2 - 2x + 1 = (x-1)^2$. Maka $|x-1|=3$ sehingga $x=4$ atau $x=-2$."
-  },
+    "kategori": "fungsi",
+    "pertanyaan": "Untuk setiap bilangan bulat $u, v, w, x, y, dan z$, didefinisikan:\n\n$$\\begin{cases} u & v & w \\\\ & x & y \\\\ & & z \\end{cases} = (u \\times v) - (w \\times y) - (z + x) + (w - z)$$\n\nDiketahui $a$ merupakan suatu bilangan ganjil. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas $P$ dan $Q$ berikut yang benar?",
+    "tabel": {
+      "header": ["P", "Q"],
+      "rows": [
+        ["$$\\begin{cases} a & 2 & 1 \\\\ & 4 & 3 \\\\ & & a \\end{cases}$$", "6"]
+      ]
+    },
+  "pilihan": [
+    "Kuantitas $P$ lebih dari $Q$",
+    "Kuantitas $P$ kurang dari $Q$",
+    "Kuantitas $P$ sama dengan $Q$",
+    "Tidak dapat ditentukan hubungan antara kuantitas $P$ dan $Q$"
+  ],
+  "jawaban": "B",
+  "pembahasan": "### Langkah Penyelesaian:\n\n1. **Substitusi Nilai ke Definisi Fungsi:**\n   Sesuai pola visual pada soal, kita dapatkan nilai:\n   $u=a, v=2, w=1, x=4, y=3, z=a$.\n\n2. **Menghitung Kuantitas P:**\n   $P = (a \\times 2) - (1 \\times 3) - (a + 4) + (1 - a)$\n   $P = 2a - 3 - a - 4 + 1 - a$\n\n3. **Penyederhanaan Aljabar:**\n   Sederhanakan variabel $a$: $(2a - a - a) = 0$.\n   Sederhanakan konstanta: $-3 - 4 + 1 = -6$.\n   Sehingga didapat nilai $P = -6$.\n\n4. **Perbandingan P dan Q:**\n   $P = -6$ dan $Q = 6$.\n   Karena $-6 < 6$, maka $P < Q$.\n\n**Kesimpulan: Kuantitas P kurang dari Q.**"
+},
   {
     "id": 9,
     "kategori": "Sedang",
