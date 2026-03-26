@@ -166,13 +166,23 @@
     "jawaban": "A",
     "pembahasan": "Turunan: $f'(x)=3x^2-4x$, $f'(1)=3-4=-1$"
   },
-  {
+   {
     "id": 19,
-    "kategori": "Sulit",
-    "pertanyaan": "Penyelesaian persamaan $2x^2 - 5x + 3 = 0$ adalah...",
-    "pilihan": ["1 dan 3/2", "3/2 dan 1", "1 dan 2", "2 dan 3", "3 dan 4"],
-    "jawaban": "A",
-    "pembahasan": "Faktorkan: $(2x-3)(x-1)=0$, solusi: $x=1$ dan $x=3/2$"
+    "pertanyaan": "Sistem persamaan linear dalam $x, y, dan z$, yaitu:\n$3y - 4z = 7$\n$2x - 3y + 4z = 13$\n$x + 6y - 8z = 24$\nmempunyai solusi $x = a, y = b, dan z = c$. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas $P$ dan $Q$ berikut yang benar?",
+    "tabel": {
+      "header": ["P", "Q"],
+      "rows": [
+        ["$2a - 9b + 12c$", "-1"]
+      ]
+    },
+    "pilihan": [
+      "Kuantitas $P$ lebih dari $Q$",
+      "Kuantitas $P$ kurang dari $Q$",
+      "Kuantitas $P$ sama dengan $Q$",
+      "Tidak dapat ditentukan hubungan antara kuantitas $P$ dan $Q$"
+    ],
+    "jawaban": "C",
+    "pembahasan": "### Langkah Penyelesaian:\n\n1. **Analisis Struktur Kuantitas P:**\n   Kita diminta mencari $P = 2a - 9b + 12c$.\n\n2. **Mencari nilai $a$ ($x$):**\n   Jumlahkan persamaan (1) dan (2):\n   $(3y - 4z) + (2x - 3y + 4z) = 7 + 13$\n   $2x = 20 \\implies x = 10$. Jadi, $a = 10$.\n\n3. **Manipulasi Persamaan untuk Variabel $b$ dan $c$:**\n   Dari persamaan (1): $3b - 4c = 7$.\n   Kalikan kedua ruas dengan $-3$:\n   $-3(3b - 4c) = -3(7) \\implies -9b + 12c = -21$.\n\n4. **Menghitung Nilai P:**\n   $P = 2a + (-9b + 12c)$\n   $P = 2(10) - 21$\n   $P = 20 - 21 = -1$.\n\n5. **Perbandingan dengan Q:**\n   Karena $P = -1$ dan $Q = -1$, maka $P = Q$.\n\n**Kesimpulan: Kuantitas P sama dengan Q.**"
   },
   {
     "id": 20,
