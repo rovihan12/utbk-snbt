@@ -83,13 +83,23 @@
     "jawaban": "A",
     "pembahasan": "1. Cari titik potong: $f(x) = g(x)$ → $2x^2 - x - 1 = x^2 - 3x + 7$ → $x^2 + 2x - 8 = 0$. Faktorkan: $(x + 4)(x - 2) = 0$. Didapat $x_1 = -4$ dan $x_2 = 2$.\n2. Cari koordinat y:\n   Untuk $x_1 = -4$: $y_1 = g(-4) = (-4)^2 - 3(-4) + 7 = 16 + 12 + 7 = 35$. Titik $K(-4, 35)$.\n   Untuk $x_2 = 2$: $y_2 = g(2) = (2)^2 - 3(2) + 7 = 4 - 6 + 7 = 5$. Titik $L(2, 5)$.\n3. Hitung gradien (m):\n   $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{5 - 35}{2 - (-4)} = \\frac{-30}{6} = -5$."
   },
-  {
+   {
     "id": 10,
-    "kategori": "Sedang",
-    "pertanyaan": "Jika $2^{x+1} = 32$, maka nilai $x$ adalah...",
-    "pilihan": ["2", "3", "4", "5", "6"],
-    "jawaban": "C",
-    "pembahasan": "$32 = 2^5$, maka $2^{x+1}=2^5$ → $x+1=5$ → $x=4$"
+    "pertanyaan": "Sistem persamaan linear dalam $d, e, dan f$, yaitu:\n$4d + 10e - f = -12$\n$2d + 5e = -4$\n$2d + 5e + 2f = 4$\nmempunyai solusi $d = x, e = y, dan f = z$. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas $P$ dan $Q$ berikut yang benar?",
+    "tabel": {
+      "header": ["P", "Q"],
+      "rows": [
+        ["$z^2 - (x^2 + y^2)$", "17"]
+      ]
+    },
+    "pilihan": [
+      "Kuantitas $P$ lebih dari $Q$",
+      "Kuantitas $P$ kurang dari $Q$",
+      "Kuantitas $P$ sama dengan $Q$",
+      "Tidak dapat ditentukan hubungan antara kuantitas $P$ dan $Q$"
+    ],
+    "jawaban": "D",
+    "pembahasan": "### Langkah Penyelesaian:\n\n1. **Mencari nilai $z$ ($f$):**\n   Eliminasi persamaan (3) dan (2):\n   $(2d + 5e + 2f) - (2d + 5e) = 4 - (-4)$\n   $2f = 8 \\implies f = 4$.\n   Jadi, $z = 4$.\n\n2. **Mencari nilai $x$ ($d$) dan $y$ ($e$):**\n   Substitusi $f=4$ ke persamaan (1):\n   $4d + 10e - 4 = -12 \\implies 4d + 10e = -8 \\implies 2d + 5e = -4$.\n   Karena persamaan ini identik dengan persamaan (2), maka nilai $x$ dan $y$ memiliki banyak kemungkinan solusi (solusi tak hingga).\n\n3. **Analisis Kuantitas P:**\n   $P = z^2 - (x^2 + y^2) = 16 - (x^2 + y^2)$.\n   Karena $x^2 + y^2$ nilainya berubah-ubah tergantung kombinasi nilai $d$ dan $e$ yang dipilih, maka nilai $P$ tidak tetap dan bisa lebih besar atau lebih kecil dari $Q=17$.\n\n**Jadi, hubungan P dan Q tidak dapat ditentukan.**"
   },
   {
     "id": 11,
