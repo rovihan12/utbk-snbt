@@ -208,10 +208,43 @@
     "jawaban": "C",
     "pembahasan": "Misal Tas = $x$, Keranjang = $3x$. \n$x + 3x = 48 \\Rightarrow 4x = 48 \\Rightarrow x = 12$. \nTas = $12/48 = 25\\%$. Keranjang = $36/48 = 75\\%$[cite: 163]."
   },
-
-
-
   {
+    "id": 15,
+    "pertanyaan": "Data hasil penjualan rata-rata setiap bulan sebuah toko mebel bulan November sebagai berikut:\n\nJika pendapatan rata-rata meja makan adalah 20 juta dan itu sudah termasuk untung 25%. Maka modal yang dikeluarkan untuk meja makan adalah ....",
+    "tabel": {
+      "header": ["Jenis barang", "Pendapatan (juta)", "Keuntungan"],
+      "rows": [
+        ["Meja makan", "20", "25%"],
+        ["Kursi tamu", "10", "40%"],
+        ["Tempat tidur", "5", "20%"],
+        ["Lemari", "10", "50%"],
+        ["Meja kantor", "20", "20%"]
+      ]
+    },
+    "pilihan": [
+      "12.000.000",
+      "14.000.000",
+      "16.000.000",
+      "17.000.000",
+      "18.000.000"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah 1: Memahami Hubungan Pendapatan, Modal, dan Untung**\n* Pendapatan = Modal + Untung\n* Karena untung dihitung dari modal, maka: Pendapatan = Modal + (%Untung $\\times$ Modal)\n* Pendapatan = Modal $\\times$ (1 + %Untung)\n\n**Langkah 2: Memasukkan Data Meja Makan**\n* Pendapatan = 20.000.000\n* Untung = 25% = 0,25\n* 20.000.000 = Modal $\\times$ (1 + 0,25)\n* 20.000.000 = Modal $\\times$ 1,25\n\n**Langkah 3: Menghitung Modal**\n* Modal = $\\frac{20.000.000}{1,25}$\n* Modal = 16.000.000\n\nJadi, modal untuk meja makan adalah **Rp16.000.000,00**."
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Di bulan Desember, Alto melakukan promosi dan mendapatkan hasil yang baik, yakni penjualan kursi tamu meningkat 2 kali lipat dan penjualan lemari pakaian meningkat satu setengah kali lipat dari penjualan sebelumnya. Berapakah pendapatan total kelima barang bulan Desember?",
+    "pilihan": [
+      "Kurang dari 50 juta",
+      "Antara 50 juta sampai 70 juta",
+      "Lebih dari 70 juta",
+      "82 juta",
+      "Lebih dari 100 juta"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah 1: Data Pendapatan Bulan November (Awal)**\n* Meja makan: 20 juta\n* Kursi tamu: 10 juta\n* Tempat tidur: 5 juta\n* Lemari: 10 juta\n* Meja kantor: 20 juta\n\n**Langkah 2: Menghitung Perubahan di Bulan Desember**\n* Kursi tamu (naik 2 kali lipat): $2 \\times 10 = 20$ juta\n* Lemari (naik 1,5 kali lipat): $1,5 \\times 10 = 15$ juta\n* Barang lainnya tetap (Meja makan: 20, Tempat tidur: 5, Meja kantor: 20)\n\n**Langkah 3: Menghitung Total Pendapatan Desember**\n* Total = $20 (Meja makan) + 20 (Kursi tamu) + 5 (Tempat tidur) + 15 (Lemari) + 20 (Meja kantor)$\n* Total = $80$ juta\n\n**Kesimpulan:**\nNilai 80 juta termasuk dalam kategori **Lebih dari 70 juta**. (Catatan: Pilihan D menyebutkan 82 juta, namun berdasarkan perhitungan kenaikan sesuai teks, hasilnya adalah 80 juta. Oleh karena itu, jawaban yang paling tepat secara kategori adalah C)."
+  },
+ {
     "id": 17,
     "kategori": "Penalaran Matematika",
     "pertanyaan": "Baca Teks berikut untuk menjawab soal 17 -20\n\n Sebuah misil balistik musuh terdeteksi radar meluncur dengan lintasan mengikuti fungsi kuadrat $f(x) = -x^2 + 10x + 24$, di mana $f(x)$ adalah ketinggian dalam km dan $x$ adalah jarak horizontal dalam km. Sistem pertahanan meluncurkan rudal pencegat dari titik $(0, 0)$ segera setelah misil musuh mencapai titik tertingginya (puncak lintasan). Rudal pencegat bergerak lurus melewati titik puncak tersebut. Di titik koordinat manakah rudal pencegat akan berhasil menghantam misil musuh (selain di titik puncak)?",
