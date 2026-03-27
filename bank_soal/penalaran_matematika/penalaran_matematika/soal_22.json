@@ -30,15 +30,15 @@
       "rows": [
         {
           "label": "Banyak kelereng pada kotak no 64 adalah 128",
-          "kolom": []
+          "kolom": [true, false]
         },
         {
           "label": "Banyak kelereng putih pada kotak nomor 4 adalah 181",
-          "kolom": []
+          "kolom": [true, false]
         },
         {
           "label": "Selisih kelereng merah dan putih pada kotak nomor 11 adalah 140",
-          "kolom": []
+          "kolom": [false, true]
         }
       ],
       "options": ["Ya", "Tidak"]
@@ -46,7 +46,7 @@
     "pilihan": ["Ya, Ya, Tidak", "Ya, Tidak, Ya", "Tidak, Ya, Ya", "Ya, Ya, Ya", "Tidak, Tidak, Tidak"],
     "jawaban": "A",
     "jawaban_checkbox": ["Ya", "Ya", "Tidak"],
-    "pembahasan": " Analisis Pernyataan:\n1. **Kotak 64:** \n   - Merah: $2n - 1 = 2(64) - 1 = 127$.\n   - Putih: $193 - 3(64) = 1$.\n   - Total: $127 + 1 = 128$ (**BENAR**).\n2. **Putih Kotak 4:**\n   - $U_4 = 193 - 3(4) = 193 - 12 = 181$ (**BENAR**).\n3. **Kotak 11:**\n   - Merah: $2(11) - 1 = 21$.\n   - Putih: $193 - 3(11) = 160$.\n   - Selisih: $160 - 21 = 139$ (**SALAH**, seharusnya 139 bukan 140)."
+    "pembahasan": "Analisis:\n1. Kotak 64: Merah $(2(64)-1)=127$, Putih $193-3(64)=1$. Total $127+1=128$ (Benar).\n2. Putih Kotak 4: $193-3(4)=181$ (Benar).\n3. Kotak 11: Merah $21$, Putih $160$. Selisih $139$ (Salah, di soal tertulis 140)."
   },
   {
     "id": 4,
