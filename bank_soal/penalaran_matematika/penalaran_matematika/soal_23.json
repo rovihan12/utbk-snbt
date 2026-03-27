@@ -207,5 +207,64 @@
     "pilihan": ["33,333% dan 66,667%", "66,667% dan 33,333%", "25% dan 75%", "75% dan 25%", "30% dan 70%"],
     "jawaban": "C",
     "pembahasan": "Misal Tas = $x$, Keranjang = $3x$. \n$x + 3x = 48 \\Rightarrow 4x = 48 \\Rightarrow x = 12$. \nTas = $12/48 = 25\\%$. Keranjang = $36/48 = 75\\%$[cite: 163]."
+  },
+
+
+
+  {
+    "id": 17,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Sebuah misil balistik musuh terdeteksi radar meluncur dengan lintasan mengikuti fungsi kuadrat $f(x) = -x^2 + 10x + 24$, di mana $f(x)$ adalah ketinggian dalam km dan $x$ adalah jarak horizontal dalam km. Sistem pertahanan meluncurkan rudal pencegat dari titik $(0, 0)$ segera setelah misil musuh mencapai titik tertingginya (puncak lintasan). Rudal pencegat bergerak lurus melewati titik puncak tersebut. Di titik koordinat manakah rudal pencegat akan berhasil menghantam misil musuh (selain di titik puncak)?",
+    "pilihan": [
+      "(5, 49)",
+      "(-4.8, -47.04)",
+      "(10, 24)",
+      "(12, 0)",
+      "Tidak ada titik potong lain di kuadran I"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Langkah Penyelesaian:\n1. **Cari Titik Puncak Misil:**\n   $x_p = -b/(2a) = -10/(2(-1)) = 5$.\n   $y_p = -(5)^2 + 10(5) + 24 = 49$. Titik puncak = $(5, 49)$.\n2. **Persamaan Garis Rudal:**\n   Rudal melalui $(0,0)$ dan $(5, 49)$, maka $m = 49/5 = 9,8$.\n   Persamaan: $y = 9,8x$.\n3. **Mencari Titik Potong:**\n   $-x^2 + 10x + 24 = 9,8x$\n   $-x^2 + 0,2x + 24 = 0 \\rightarrow x^2 - 0,2x - 24 = 0$.\n   Akar-akarnya menggunakan rumus ABC: $x_1 = 5$ dan $x_2 = -4,8$.\n4. **Substitusi $x = -4,8$:**\n   $y = 9,8(-4,8) = -47,04$.\n\n**Jadi, titik potong lainnya adalah (-4.8, -47.04).**"
+  },
+  {
+    "id": 18,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Berdasarkan deskripsi soal sebelumnya, jika komponen horizontal kecepatan rudal pencegat adalah tetap sebesar 2,5 km/menit, berapakah kecepatan total (resultan) rudal tersebut agar dapat melakukan pencegatan (intersepsi) tepat di titik puncak misil musuh?",
+    "pilihan": [
+      "24,500 km/menit",
+      "24,625 km/menit",
+      "25,125 km/menit",
+      "49,000 km/menit",
+      "49,250 km/menit"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Analisis Kecepatan:\n1. **Waktu tempuh (t):**\n   Jarak horizontal ke titik puncak ($x=5$).\n   $t = \\text{jarak } x / v_x = 5 / 2,5 = 2$ menit.\n2. **Jarak Linear Rudal (s):**\n   Rudal bergerak dari $(0,0)$ ke $(5, 49)$.\n   $s = \\sqrt{5^2 + 49^2} = \\sqrt{25 + 2401} = \\sqrt{2426} \\approx 49,25$ km.\n3. **Kecepatan Total (v):**\n   $v = s / t = 49,25 / 2 = 24,625$ km/menit.\n\n**Maka kecepatan total rudal adalah 24,625 km/menit.**"
+  },
+  {
+    "id": 19,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Berapa lama waktu yang dibutuhkan rudal pencegat sejak diluncurkan dari titik asal hingga berhasil mengenai misil musuh di titik puncaknya?",
+    "pilihan": [
+      "1 menit",
+      "1,5 menit",
+      "2 menit",
+      "2,5 menit",
+      "5 menit"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Langkah Penyelesaian:\n1. **Posisi Target:** $x = 5$ km (jarak horizontal).\n2. **Kecepatan Horizontal ($v_x$):** 2,5 km/menit.\n3. **Waktu ($t$):**\n   $t = \\text{Jarak Horizontal} / v_x$\n   $t = 5 / 2,5 = 2$ menit.\n\n**Waktu yang dibutuhkan adalah 2 menit.**"
+  },
+  {
+    "id": 20,
+    "kategori": "Penalaran Matematika",
+    "pertanyaan": "Jika rudal pencegat terlambat diluncurkan selama 1 menit dari jadwal seharusnya namun tetap harus mengenai sasaran di titik $(5, 49)$, manakah pernyataan berikut yang BENAR?",
+    "pilihan": [
+      "Rudal tidak mungkin mengenai sasaran.",
+      "Kecepatan horizontal rudal harus dikurangi menjadi 1,25 km/menit.",
+      "Waktu tempuh rudal menjadi 3 menit.",
+      "Kecepatan total rudal harus dinaikkan menjadi 49,25 km/menit.",
+      "Sudut peluncuran harus diubah menjadi lebih landai."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Analisis Keterlambatan:\n1. **Waktu Tersisa:** Waktu normal adalah 2 menit. Jika terlambat 1 menit, waktu yang tersedia hanya $2 - 1 = 1$ menit.\n2. **Jarak yang harus ditempuh:** $s \\approx 49,25$ km (tetap).\n3. **Kecepatan baru ($v'$):**\n   $v' = s / t_{\\text{sisa}} = 49,25 / 1 = 49,25$ km/menit.\n4. **Kesimpulan:** Kecepatan harus dinaikkan menjadi dua kali lipat semula (dari 24,625 menjadi 49,25).\n\n**Jawaban yang tepat adalah D.**"
   }
 ]
