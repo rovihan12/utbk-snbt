@@ -11,7 +11,7 @@
       "6"
     ],
     "jawaban": "C",
-    "pembahasan": "Kita mencari nilai $y$ sehingga $3^y = 81$.\nKarena $3^4 = 81$, maka $^3\\log 81 = 4$."
+    "pembahasan": "Karena $81 = 3^4$, maka $^3\\log 81 = 4$."
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "10"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat penjumlahan logaritma:\n$^2\\log 16 + ^2\\log 4 = ^2\\log(16 \\times 4)$\n$= ^2\\log 64 = 6$ (karena $2^6 = 64$)"
+    "pembahasan": "$^2\\log 16 = 4$ dan $^2\\log 4 = 2$. Maka $4 + 2 = 6$."
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "32"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubah ke bentuk eksponensial:\n$^5\\log x = 2$ berarti $5^2 = x$\n$x = 25$"
+    "pembahasan": "Berdasarkan definisi logaritma $^a\\log b = c \\Leftrightarrow a^c = b$, maka $5^2 = x$, sehingga $x = 25$."
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Karena $32 = 2^5$, maka:\n$\\frac{1}{32} = 2^{-5}$\n$^2\\log 2^{-5} = -5$"
+    "pembahasan": "$\\frac{1}{32} = 2^{-5}$. Maka $^2\\log 2^{-5} = -5$."
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "5"
     ],
     "jawaban": "D",
-    "pembahasan": "Ubah kedua sisi ke basis 2:\n$8 = 2^3$\n$2^{x-1} = 2^3$\n$x-1 = 3$\n$x = 4$"
+    "pembahasan": "$2^{x-1} = 2^3 \\Rightarrow x-1 = 3 \\Rightarrow x = 4$."
   },
   {
     "id": 6,
@@ -81,21 +81,21 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Gabungkan logaritma:\n$^3\\log 6 + ^3\\log 18 - ^3\\log 4$\n$= ^3\\log(\\frac{6 \\times 18}{4})$\n$= ^3\\log 27 = 3$"
+    "pembahasan": "$^3\\log(\\frac{6 \\times 18}{4}) = ^3\\log(\\frac{108}{4}) = ^3\\log 27 = 3$."
   },
   {
     "id": 7,
     "kategori": "Sedang",
     "pertanyaan": "Jika $^2\\log 3 = a$, maka nilai dari $^2\\log 12$ adalah...",
     "pilihan": [
-      "$2+a$",
-      "$1+2a$",
-      "$a^2$",
-      "$a/2$",
-      "$a-2$"
+      "2+a",
+      "1+2a",
+      "a^2",
+      "a/2",
+      "a-2"
     ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan 12:\n$12 = 4 \\times 3 = 2^2 \\times 3$\n$^2\\log 12 = ^2\\log 2^2 + ^2\\log 3$\n$= 2 + a$"
+    "pembahasan": "$^2\\log (4 \\cdot 3) = ^2\\log 4 + ^2\\log 3 = 2 + a$."
   },
   {
     "id": 8,
@@ -109,35 +109,35 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat rantai logaritma:\n$(^2\\log 3) \\cdot (^3\\log 8) = ^2\\log 8$\nKarena $8 = 2^3$, maka $^2\\log 8 = 3$"
+    "pembahasan": "Menggunakan sifat $^a\\log b \\cdot ^b\\log c = ^a\\log c$, maka $^2\\log 3 \\cdot ^3\\log 8 = ^2\\log 8 = 3$."
   },
   {
     "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Jika $2^x = 3^{x-1}$, maka nilai $x$ adalah...",
     "pilihan": [
-      "$^3\\log 2 - 1$",
-      "$\\frac{^3\\log 2}{^3\\log 2 - 1}$",
-      "$\\frac{1}{1 - ^2\\log 3}$",
-      "$\\frac{\\log 3}{\\log 3 - \\log 2}$",
-      "$\\frac{\\log 2}{\\log 3}$"
+      "^3\\log 2 - 1",
+      "\\frac{^3\\log 2}{^3\\log 2 - 1}",
+      "\\frac{1}{1 - ^2\\log 3}",
+      "\\frac{\\log 3}{\\log 3 - \\log 2}",
+      "\\frac{\\log 2}{\\log 3}"
     ],
     "jawaban": "D",
-    "pembahasan": "Ambil logaritma natural:\n$x \\ln 2 = (x-1) \\ln 3$\n$x \\ln 2 = x \\ln 3 - \\ln 3$\n$x(\\ln 3 - \\ln 2) = \\ln 3$\n$x = \\frac{\\ln 3}{\\ln 3 - \\ln 2}$"
+    "pembahasan": "$x \\log 2 = (x-1) \\log 3 \\Rightarrow x \\log 2 = x \\log 3 - \\log 3 \\Rightarrow \\log 3 = x(\\log 3 - \\log 2) \\Rightarrow x = \\frac{\\log 3}{\\log 3 - \\log 2}$."
   },
   {
     "id": 10,
     "kategori": "Sedang",
     "pertanyaan": "Jika $^2\\log 5 = p$, maka nilai dari $^8\\log 125$ adalah...",
     "pilihan": [
-      "$p/3$",
-      "$p/2$",
-      "$p$",
-      "$2p$",
-      "$3p$"
+      "p/3",
+      "p/2",
+      "p",
+      "2p",
+      "3p"
     ],
     "jawaban": "C",
-    "pembahasan": "Ubah basis:\n$^8\\log 125 = \\frac{^2\\log 125}{^2\\log 8}$\n$= \\frac{^2\\log 5^3}{^2\\log 2^3}$\n$= \\frac{3p}{3} = p$"
+    "pembahasan": "$^{2^3}\\log 5^3 = \\frac{3}{3} ^2\\log 5 = p$."
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       "1.505"
     ],
     "jawaban": "C",
-    "pembahasan": "Faktorkan 18:\n$18 = 2 \\times 3^2$\n$\\log_{10} 18 = \\log_{10} 2 + 2\\log_{10} 3$\n$= 0.301 + 2(0.477) = 1.255$"
+    "pembahasan": "$\\log 18 = \\log (2 \\cdot 3^2) = \\log 2 + 2\\log 3 = 0.301 + 2(0.477) = 1.255$."
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       "6"
     ],
     "jawaban": "D",
-    "pembahasan": "Gunakan sifat rantai:\n$(^2\\log 5) \\cdot (^5\\log 6) \\cdot (^6\\log 32)$\n$= ^2\\log 32$\nKarena $32 = 2^5$, maka hasilnya 5"
+    "pembahasan": "$^2\\log 5 \\cdot ^5\\log 6 \\cdot ^6\\log 32 = ^2\\log 32 = 5$."
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Ubah ke bentuk eksponen:\n$x^2 = 2x + 3$\n$x^2 - 2x - 3 = 0$\n$(x-3)(x+1) = 0$\n$x=3$ (memenuhi syarat basis)"
+    "pembahasan": "$x^2 = 2x+3 \\Rightarrow x^2-2x-3=0 \\Rightarrow (x-3)(x+1)=0$. Karena basis logaritma harus positif, maka $x=3$."
   },
   {
     "id": 14,
@@ -193,7 +193,7 @@
       "x = -1"
     ],
     "jawaban": "D",
-    "pembahasan": "Dari $27^x + x = 0$:\n$27^x = -x$\n$(3^3)^x = -x$\n$3^{3x} = -x$\nDengan mencoba pilihan:\n$x = -1/3$:\n$27^{-1/3} = \\frac{1}{3} = -(-1/3)$\n$\\frac{1}{3} = \\frac{1}{3}$ ✓"
+    "pembahasan": "Uji pilihan $x = -1/3$: $27^{-1/3} + (-1/3) = (3^3)^{-1/3} - 1/3 = 3^{-1} - 1/3 = 1/3 - 1/3 = 0$. Terbukti benar."
   },
   {
     "id": 15,
@@ -207,7 +207,7 @@
       "2"
     ],
     "jawaban": "D",
-    "pembahasan": "Sederhanakan:\nPembilang: $^3\\log 5^2 \\cdot ^5\\log 3^3$\n$= 2 \\cdot 3 \\cdot (^3\\log 5 \\cdot ^5\\log 3)$\n$= 6 \\cdot ^3\\log 3 = 6$\nPenyebut: $^2\\log 16 = 4$\nHasil: $\\frac{6}{4} = \\frac{3}{2}$"
+    "pembahasan": "Pembilang: $^3\\log 5^2 \\cdot ^5\\log 3^3 = 2 \\cdot 3 (^3\\log 5 \\cdot ^5\\log 3) = 6 \\cdot 1 = 6$. Penyebut: $^2\\log 16 = 4$. Hasil: $6/4 = 3/2$."
   },
   {
     "id": 16,
@@ -221,7 +221,7 @@
       "4"
     ],
     "jawaban": "D",
-    "pembahasan": "Gabungkan pembilang:\n$^2\\log 12 + ^2\\log 3 = ^2\\log(12 \\times 3)$\n$= ^2\\log 36 = ^2\\log 6^2 = 2$\nEkspresi menjadi: $\\frac{2}{^2\\log 6} \\times \\frac{^2\\log 6}{1} = 2$"
+    "pembahasan": "Pembilang: $^2\\log(12 \\cdot 3) = ^2\\log 36 = ^2\\log 6^2 = 2 \\cdot ^2\\log 6$. Maka $\\frac{2 \\cdot ^2\\log 6}{^2\\log 6} = 2$."
   },
   {
     "id": 17,
@@ -235,21 +235,21 @@
       "15/8"
     ],
     "jawaban": "C",
-    "pembahasan": "Sederhanakan dari dalam:\n$\\sqrt{2} = 2^{1/2}$\n$\\sqrt{2\\sqrt{2}} = (2 \\cdot 2^{1/2})^{1/2} = 2^{3/4}$\n$\\sqrt{2\\sqrt{2\\sqrt{2}}} = (2 \\cdot 2^{3/4})^{1/2} = 2^{7/8}$\n$^2\\log 2^{7/8} = \\frac{7}{8}$"
+    "pembahasan": "$\\sqrt{2\\sqrt{2\\sqrt{2}}} = 2^{1/2} \\cdot 2^{1/4} \\cdot 2^{1/8} = 2^{(4+2+1)/8} = 2^{7/8}$. Maka $^2\\log 2^{7/8} = 7/8$."
   },
   {
     "id": 18,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log 3 = a$, maka $^8\\log 9$ adalah...",
     "pilihan": [
-      "$a/3$",
-      "$2a/3$",
-      "$a$",
-      "$3a/2$",
-      "$3a$"
+      "a/3",
+      "2a/3",
+      "a",
+      "3a/2",
+      "3a"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubah basis:\n$^8\\log 9 = \\frac{^2\\log 9}{^2\\log 8}$\n$= \\frac{^2\\log 3^2}{^2\\log 2^3}$\n$= \\frac{2a}{3} = \\frac{2a}{3}$"
+    "pembahasan": "$^{2^3}\\log 3^2 = \\frac{2}{3} ^2\\log 3 = \\frac{2a}{3}$."
   },
   {
     "id": 19,
@@ -263,7 +263,7 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Dari persamaan pertama:\n$2^x = (2^2)^{y-1}$\n$2^x = 2^{2y-2}$\n$x = 2y - 2$\nDari persamaan kedua:\n$^y\\log(x+1) = 1$\n$x + 1 = y$\nSubstitusi:\n$(y-1) = 2y - 2$\n$y = 1$, $x = 0$\n$x + y = 1$"
+    "pembahasan": "$2^x = 2^{2y-2} \\Rightarrow x = 2y-2$. Dari $^y\\log(x+1)=1 \\Rightarrow x+1 = y \\Rightarrow x = y-1$. Maka $2y-2 = y-1 \\Rightarrow y=1$. Jika $y=1$, maka $x=0$. Hasil $x+y = 1$."
   },
   {
     "id": 20,
@@ -277,6 +277,6 @@
       "8"
     ],
     "jawaban": "B",
-    "pembahasan": "Ubah ke bentuk:\n$\\frac{^4\\log 17}{^9\\log 23} \\times \\frac{^3\\log 23}{^2\\log 17}$\n$= \\frac{\\frac{\\log 17}{\\log 4}}{\\frac{\\log 23}{\\log 9}} \\times \\frac{\\frac{\\log 23}{\\log 3}}{\\frac{\\log 17}{\\log 2}}$\n$= \\frac{\\log 17 \\cdot \\log 9}{\\log 4 \\cdot \\log 23} \\times \\frac{\\log 23 \\cdot \\log 2}{\\log 3 \\cdot \\log 17}$\n$= \\frac{\\log 9 \\cdot \\log 2}{\\log 4 \\cdot \\log 3} = 1$"
+    "pembahasan": "$\\frac{^{2^2}\\log 17}{^{3^2}\\log 23} \\cdot \\frac{^3\\log 23}{^2\\log 17} = \\frac{\\frac{1}{2}^2\\log 17}{\\frac{1}{2}^3\\log 23} \\cdot \\frac{^3\\log 23}{^2\\log 17} = \\frac{1/2}{1/2} = 1$."
   }
 ]
