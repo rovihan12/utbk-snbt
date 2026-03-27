@@ -188,19 +188,30 @@
     "pembahasan": "### Perhitungan Upah Agustus:\n* **A (15 hari bertugas)**: $15 \\times 20 \\times 100rb = 30.000.000$\n* **B (8 hari bertugas)**: \n  - Sebelum 15 Agt (3 hari x 30 orang): $9.000.000$\n  - Sesudah 15 Agt (5 hari x 15 orang): $7.500.000$\n* **C (6 hari bertugas)**: $6 \\times 50 \\times 100rb = 30.000.000$\n\n**Total**: $30jt + 9jt + 7,5jt + 30jt + \\text{penyesuaian jadwal} \\approx \\mathbf{79.000.000}$."
   },
   {
-    "id": 16,
-    "kategori": "Sedang",
-    "pertanyaan": "Manakah persamaan yang sesuai untuk s (jumlah orio terjual) jika pendapatan berkurang 250.000 dari titik maksimum 1250 unit?",
-    "pilihan": [
-      "15 |s - 250| = 250.000",
-      "1500 |s - 250| = 250.000",
-      "1500 |s - 1250| = 250.000",
-      "1500 (s - 1250) = 250.000",
-      "1500 (s - 250.000) = 1250"
-    ],
-    "jawaban": "C",
-    "pembahasan": " Analisis Nilai Mutlak:\n1. Titik acuan pendapatan maksimum adalah pada penjualan **1250 unit**.\n2. Setiap selisih unit dari 1250 (baik lebih maupun kurang) menyebabkan pengurangan sebesar **1500 per unit**.\n3. Karena selisih bersifat dua arah (jarak), kita gunakan nilai mutlak $|s - 1250|$.\n4. Persamaan: $1500 \\times |s - 1250| = 250.000$."
+  "id": 16,
+  "kategori": "Penalaran Matematika",
+  "topik": "Fungsi dan Substitusi",
+  "pertanyaan": "Bowo didiagnosa mengalami diabetes militus. Ia diminta mengontrol berat badannya menggunakan fungsi $I(h) = \\frac{W}{h^2}$, di mana $W$ adalah berat (kg) dan $h$ adalah tinggi (meter). Jika tinggi badan Bowo adalah 175 cm, maka berat badan Bowo seharusnya agar masuk kategori normal ($I < 25$) adalah....",
+  "tabel": {
+    "header": ["Indeks", "Kategori Berat Badan"],
+    "rows": [
+      ["I < 25", "Normal"],
+      ["25 < I ≤ 30", "Kelebihan"],
+      ["30 < I ≤ 35", "Obesitas ringan"],
+      ["35 < I ≤ 40", "Obesitas sedang"],
+      ["I ≥ 40", "Obesitas kronis"]
+    ]
   },
+  "pilihan": [
+    "76.60 kg",
+    "76.50 kg",
+    "75.50 kg",
+    "75.00 kg",
+    "70.75 kg"
+  ],
+  "jawaban": "B",
+  "pembahasan": "### Langkah Penyelesaian:\n1. **Konversi Satuan**: Tinggi $h = 175$ cm = $1,75$ m.\n2. **Kriteria Normal**: $I < 25$. Maka kita cari berat $W$ saat $I = 25$.\n3. **Perhitungan**:\n   $$W = I \\times h^2$$\n   $$W = 25 \\times (1,75)^2$$\n   $$W = 25 \\times 3,0625 = 76,5625 \\text{ kg}$$\n4. **Analisis**: Agar indeks $I$ kurang dari 25, maka berat badan harus lebih kecil dari $76,5625$ kg. Dari pilihan yang tersedia, **76,50 kg** adalah berat badan maksimal yang paling mendekati ambang batas normal.\n\n**Kesimpulan**: Jawaban yang benar adalah B."
+},
   {
     "id": 17,
     "kategori": "Sulit",
