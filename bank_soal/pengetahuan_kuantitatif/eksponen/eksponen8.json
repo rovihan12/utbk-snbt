@@ -11,7 +11,7 @@
       "7"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat logaritma $a^{^a\\log b} = b$.\nEksponen: $-3 ^7\\log 5 = ^7\\log 5^{-3}$\nMaka: $7^{-3 ^7\\log 5} = 7^{^7\\log 5^{-3}} = 5^{-3}$\nJadi: $^5\\log 7^{-3 ^7\\log 5} = ^5\\log 5^{-3} = -3$"
+    "pembahasan": "Gunakan sifat logaritma $a^{^a\\log b} = b$. Eksponen: $-3 ^7\\log 5 = ^7\\log 5^{-3}$. Maka: $7^{^7\\log 5^{-3}} = 5^{-3}$. Jadi: $^5\\log 5^{-3} = -3$."
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat $n ^a\\log b = ^a\\log b^n$.\nEkspresi menjadi:\n$^2\\log [(\\frac{16}{15})^7 (\\frac{25}{24})^5 (\\frac{81}{80})^3]$\nFaktorkan:\n$= ^2\\log [\\frac{2^{28}}{3^7 5^7} \\times \\frac{5^{10}}{3^5 2^{15}} \\times \\frac{3^{12}}{5^3 2^{28}}]$\nGabungkan:\n$= ^2\\log [2^{28-15-28} \\times 3^{12-7-5} \\times 5^{10-7-3}]$\n$= ^2\\log [2^{-15} \\times 3^0 \\times 5^0] = ^2\\log 2^{-15} = -15$\nPeriksa ulang perhitungan..."
+    "pembahasan": "Ubah ke bentuk pangkat primer: $\\frac{16}{15} = \\frac{2^4}{3 \\cdot 5}$, $\\frac{25}{24} = \\frac{5^2}{2^3 \\cdot 3}$, $\\frac{81}{80} = \\frac{3^4}{2^4 \\cdot 5}$. Ekspresi menjadi: $^2\\log [(\\frac{2^{28}}{3^7 5^7}) \\cdot (\\frac{5^{10}}{2^{15} 3^5}) \\cdot (\\frac{3^{12}}{2^{12} 5^3})]$. Gabungkan pangkat: $^2\\log [2^{28-15-12} \\cdot 3^{-7-5+12} \\cdot 5^{-7+10-3}] = ^2\\log [2^1 \\cdot 3^0 \\cdot 5^0] = ^2\\log 2 = 1$."
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "31"
     ],
     "jawaban": "D",
-    "pembahasan": "Sederhanakan dari dalam:\n$2\\sqrt{2} = 2^{3/2}$\n$\\sqrt{2\\sqrt{2}} = 2^{3/4}$\n$2\\sqrt{2\\sqrt{2}} = 2^{7/4}$\n$\\sqrt{2\\sqrt{2\\sqrt{2}}} = 2^{7/8}$\n$2\\sqrt{2\\sqrt{2\\sqrt{2}}} = 2^{15/8}$\n$\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2}}}} = 2^{15/16}$\n$2\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2}}}} = 2^{31/16}$\n$\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2\\sqrt{2}}}}} = 2^{31/32}$\nJadi: $^{\\sqrt{2}}\\log 2^{31/32} = \\frac{31/32}{1/2} = \\frac{31}{16}$"
+    "pembahasan": "Pola $\\sqrt{2\\sqrt{2...}}$ sebanyak 5 akar adalah $2^{\\frac{2^5-1}{2^5}} = 2^{31/32}$. Maka: $^{\\sqrt{2}}\\log 2^{31/32} = ^{2^{1/2}}\\log 2^{31/32} = \\frac{31/32}{1/2} = \\frac{31}{16}$."
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "4"
     ],
     "jawaban": "A",
-    "pembahasan": "Hitung bagian dalam kurung:\n$^2\\log 16 = 4$, $^2\\log 8 = 3$\n$(4 - 3) = 1$\nKemudian: $1 - ^2\\log 2 = 1 - 1 = 0$"
+    "pembahasan": "Hitung bertahap: $^2\\log 16 = 4$, $^2\\log 8 = 3$. Jadi $(4 - 3) - 1 = 1 - 1 = 0$."
   },
   {
     "id": 5,
@@ -67,21 +67,21 @@
       "4"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat perubahan basis:\n$\\frac{^4\\log 17}{^2\\log 17} = ^4\\log 2$\n$^4\\log 2 = ^{2^2}\\log 2 = \\frac{1}{2}$"
+    "pembahasan": "Gunakan sifat $\\frac{\\log a}{\\log b} = ^b\\log a$. Maka $\\frac{^4\\log 17}{^2\\log 17} = ^2\\log 17 \\cdot ^{17}\\log 4 = ^2\\log 4$ adalah salah. Cara yang benar: $\\frac{\\frac{\\log 17}{\\log 4}}{\\frac{\\log 17}{\\log 2}} = \\frac{\\log 2}{\\log 4} = ^4\\log 2 = ^{2^2}\\log 2^1 = 1/2$."
   },
   {
     "id": 6,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^2\\log 75$ adalah...",
     "pilihan": [
-      "$a+2b$",
-      "$2a+b$",
-      "$a+b^2$",
-      "$a^2+b$",
-      "$ab^2$"
+      "a+2b",
+      "2a+b",
+      "a+b^2",
+      "a^2+b",
+      "ab^2"
     ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan 75:\n$75 = 3 \\times 25 = 3 \\times 5^2$\n$^2\\log 75 = ^2\\log 3 + ^2\\log 5^2$\n$= a + 2b$"
+    "pembahasan": "$^2\\log 75 = ^2\\log (3 \\cdot 5^2) = ^2\\log 3 + 2\\cdot^2\\log 5 = a + 2b$."
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "5"
     ],
     "jawaban": "B",
-    "pembahasan": "Dari $5^x = 1225$: $x = ^5\\log 1225$\nDari $7^y = 1225$: $y = ^7\\log 1225$\n$\\frac{xy}{x+y} = \\frac{1}{\\frac{1}{x} + \\frac{1}{y}}$\n$\\frac{1}{x} = ^{1225}\\log 5$, $\\frac{1}{y} = ^{1225}\\log 7$\n$\\frac{1}{x} + \\frac{1}{y} = ^{1225}\\log 35$\nKarena $1225 = 35^2$, maka:\n$^{1225}\\log 35 = \\frac{1}{2}$\nJadi: $\\frac{xy}{x+y} = \\frac{1}{1/2} = 2$"
+    "pembahasan": "$x = ^{5}\\log 1225 \\Rightarrow 1/x = ^{1225}\\log 5$. $y = ^{7}\\log 1225 \\Rightarrow 1/y = ^{1225}\\log 7$. Maka $1/x + 1/y = ^{1225}\\log (5 \\cdot 7) = ^{1225}\\log 35$. Karena $35^2 = 1225$, maka $^{1225}\\log 35 = 1/2$. Jadi $\\frac{xy}{x+y} = \\frac{1}{1/x + 1/y} = \\frac{1}{1/2} = 2$."
   },
   {
     "id": 8,
@@ -109,35 +109,35 @@
       "3"
     ],
     "jawaban": "A",
-    "pembahasan": "$^2\\log (1/8) = ^2\\log 2^{-3} = -3$"
+    "pembahasan": "$^2\\log (1/8) = ^2\\log 2^{-3} = -3$."
   },
   {
     "id": 9,
     "kategori": "Sedang",
     "pertanyaan": "Bentuk sederhana dari $\\frac{x^2 y^3 z^{-1}}{x^5 y^2 z^{-4}}$ adalah...",
     "pilihan": [
-      "$x^{-3}yz^3$",
-      "$x^3yz^3$",
-      "$x^{-3}y^{-1}z^{-3}$",
-      "$x^7y^5z^{-5}$",
-      "$x^3yz^{-3}$"
+      "x^{-3}yz^3",
+      "x^3yz^3",
+      "x^{-3}y^{-1}z^{-3}",
+      "x^7y^5z^{-5}",
+      "x^3yz^{-3}"
     ],
     "jawaban": "A",
-    "pembahasan": "Gunakan sifat eksponen:\n$x^{2-5} = x^{-3}$\n$y^{3-2} = y^1 = y$\n$z^{-1-(-4)} = z^3$\nJadi: $x^{-3}yz^3$"
+    "pembahasan": "$x^{2-5} = x^{-3}$, $y^{3-2} = y^1$, $z^{-1-(-4)} = z^3$. Hasil: $x^{-3}yz^3$."
   },
   {
     "id": 10,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^{10}\\log x = a$, maka $^{100}\\log x^2$ adalah...",
     "pilihan": [
-      "$a/2$",
-      "$a$",
-      "$2a$",
-      "$a^2$",
-      "$10a$"
+      "a/2",
+      "a",
+      "2a",
+      "a^2",
+      "10a"
     ],
     "jawaban": "B",
-    "pembahasan": "Gunakan sifat:\n$^{100}\\log x^2 = ^{10^2}\\log x^2 = \\frac{2}{2} ^{10}\\log x = a$"
+    "pembahasan": "$^{100}\\log x^2 = ^{10^2}\\log x^2 = \\frac{2}{2} ^{10}\\log x = a$."
   },
   {
     "id": 11,
@@ -151,7 +151,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat berantai:\n$^3\\log 5 \\cdot ^5\\log 4 = ^3\\log 4$\n$^3\\log 4 \\cdot ^4\\log 27 = ^3\\log 27 = 3$"
+    "pembahasan": "Menggunakan sifat berantai: $^3\\log 5 \\cdot ^5\\log 4 \\cdot ^4\\log 27 = ^3\\log 27 = 3$."
   },
   {
     "id": 12,
@@ -165,7 +165,7 @@
       "5"
     ],
     "jawaban": "C",
-    "pembahasan": "Gunakan sifat berantai:\n$^3\\log 4 \\cdot ^4\\log 5 = ^3\\log 5$\n$^3\\log 5 \\cdot ^5\\log 27 = ^3\\log 27 = 3$"
+    "pembahasan": "Sama dengan no 11: $^3\\log 27 = 3$."
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
       "6"
     ],
     "jawaban": "C",
-    "pembahasan": "Gabungkan logaritma:\n$^2\\log[x(x-2)] = 3$\n$x(x-2) = 2^3 = 8$\n$x^2 - 2x - 8 = 0$\n$(x-4)(x+2) = 0$\n$x=4$ (memenuhi syarat numerus)"
+    "pembahasan": "$^2\\log(x^2-2x) = 3 \\Rightarrow x^2-2x = 8 \\Rightarrow (x-4)(x+2)=0$. Nilai $x$ harus positif untuk numerus, maka $x=4$."
   },
   {
     "id": 14,
@@ -193,49 +193,49 @@
       "12"
     ],
     "jawaban": "B",
-    "pembahasan": "Gabungkan logaritma:\n$^2\\log 36 - ^2\\log 9 = ^2\\log 4$\n$^2\\log 4 + ^2\\log 4 = ^2\\log 16 = 4$"
+    "pembahasan": "$^2\\log(\\frac{36}{9} \\cdot 4) = ^2\\log(4 \\cdot 4) = ^2\\log 16 = 4$."
   },
   {
     "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log 3 = a$ dan $^3\\log 5 = b$, maka $^6\\log 15$ adalah...",
     "pilihan": [
-      "$\\frac{a+b}{1+a}$",
-      "$\\frac{1+ab}{1+a}$",
-      "$\\frac{a(1+b)}{1+a}$",
-      "$\\frac{a+b}{ab}$",
-      "$\\frac{a-b}{a+b}$"
+      "\\frac{a+b}{1+a}",
+      "\\frac{1+ab}{1+a}",
+      "\\frac{a(1+b)}{1+a}",
+      "\\frac{a+b}{ab}",
+      "\\frac{a-b}{a+b}"
     ],
     "jawaban": "C",
-    "pembahasan": "Ubah ke basis 2:\n$^2\\log 5 = ab$\n$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6}$\n$= \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3}$\n$= \\frac{a + ab}{1 + a} = \\frac{a(1+b)}{1+a}$"
+    "pembahasan": "$^2\\log 5 = ^2\\log 3 \\cdot ^3\\log 5 = ab$. $^6\\log 15 = \\frac{^2\\log (3 \\cdot 5)}{^2\\log (2 \\cdot 3)} = \\frac{^2\\log 3 + ^2\\log 5}{1 + ^2\\log 3} = \\frac{a+ab}{1+a} = \\frac{a(1+b)}{1+a}$."
   },
   {
     "id": 16,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^p\\log 2 = p$ dan $^p\\log 3 = q$, maka $^p\\log 12$ adalah...",
     "pilihan": [
-      "$2p+q$",
-      "$p+2q$",
-      "$p^2+q$",
-      "$p+q^2$",
-      "$pq$"
+      "2p+q",
+      "p+2q",
+      "p^2+q",
+      "p+q^2",
+      "pq"
     ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan 12:\n$12 = 4 \\times 3 = 2^2 \\times 3$\n$^p\\log 12 = ^p\\log 2^2 + ^p\\log 3$\n$= 2p + q$"
+    "pembahasan": "$^p\\log (2^2 \\cdot 3) = 2\\cdot^p\\log 2 + ^p\\log 3 = 2p + q$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^x\\log 2 = a$ dan $^x\\log 3 = b$, maka $^x\\log 18$ adalah...",
     "pilihan": [
-      "$a+2b$",
-      "$2a+b$",
-      "$a^2+b$",
-      "$a+b^2$",
-      "$ab^2$"
+      "a+2b",
+      "2a+b",
+      "a^2+b",
+      "a+b^2",
+      "ab^2"
     ],
     "jawaban": "A",
-    "pembahasan": "Faktorkan 18:\n$18 = 2 \\times 9 = 2 \\times 3^2$\n$^x\\log 18 = ^x\\log 2 + ^x\\log 3^2$\n$= a + 2b$"
+    "pembahasan": "$^x\\log (2 \\cdot 3^2) = ^x\\log 2 + 2\\cdot^x\\log 3 = a + 2b$."
   },
   {
     "id": 18,
@@ -249,12 +249,12 @@
       "5/2"
     ],
     "jawaban": "C",
-    "pembahasan": "Pembilang:\n$^2\\log \\sqrt{27} = \\frac{3}{2}^2\\log 3$\n$^2\\log \\sqrt{8} = \\frac{3}{2}$\n$^2\\log \\sqrt{125} = \\frac{3}{2}^2\\log 5$\nPembilang = $\\frac{3}{2}(^2\\log 3 + 1 - ^2\\log 5)$\nPenyebut = $^2\\log 6 - ^2\\log 5 = ^2\\log(6/5)$\nJadi: $\\frac{\\frac{3}{2}^2\\log(6/5)}{^2\\log(6/5)} = \\frac{3}{2}$"
+    "pembahasan": "Pembilang: $\\frac{1}{2}(^2\\log 27 + ^2\\log 8 - ^2\\log 125) = \\frac{1}{2} ^2\\log(\\frac{27 \\cdot 8}{125}) = \\frac{1}{2} ^2\\log(\\frac{3^3 \\cdot 2^3}{5^3}) = \\frac{3}{2} ^2\\log(6/5)$. Penyebut: $^2\\log(6/5)$. Hasil: $3/2$."
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Hasil dari $\\log 2 + 16 ^{10}\\log (\\frac{16}{15}) + 12 ^{10}\\log (\\frac{25}{24}) + 7 ^{10}\\log (\\frac{81}{80})$ adalah...",
+    "pertanyaan": "Hasil dari $\\log 2 + 16 \\log (\\frac{16}{15}) + 12 \\log (\\frac{25}{24}) + 7 \\log (\\frac{81}{80})$ adalah...",
     "pilihan": [
       "1",
       "2",
@@ -263,20 +263,20 @@
       "5"
     ],
     "jawaban": "A",
-    "pembahasan": "Ubah semua ke basis 10:\n$= \\log 2 + \\log(\\frac{16}{15})^{16} + \\log(\\frac{25}{24})^{12} + \\log(\\frac{81}{80})^7$\n$= \\log[2 \\times (\\frac{16}{15})^{16} \\times (\\frac{25}{24})^{12} \\times (\\frac{81}{80})^7]$\nSetelah disederhanakan = $\\log 10 = 1$"
+    "pembahasan": "Setelah mendistribusikan semua pangkat dan memfaktorkan bilangan prima, isi logaritma menjadi: $2^1 \\cdot 3^0 \\cdot 5^0 \\cdot 5^1$ (hasil penyederhanaan numerus adalah 10). Maka $\\log 10 = 1$."
   },
   {
     "id": 20,
     "kategori": "Sulit",
     "pertanyaan": "Jika $^2\\log 3 = a$ dan $^3\\log 5 = b$, maka $^6\\log 15$ adalah...",
     "pilihan": [
-      "$\\frac{a+b}{1+a}$",
-      "$\\frac{1+ab}{1+a}$",
-      "$\\frac{a(1+b)}{1+a}$",
-      "$\\frac{a+b}{ab}$",
-      "$\\frac{a-b}{a+b}$"
+      "\\frac{a+b}{1+a}",
+      "\\frac{1+ab}{1+a}",
+      "\\frac{a(1+b)}{1+a}",
+      "\\frac{a+b}{ab}",
+      "\\frac{a-b}{a+b}"
     ],
     "jawaban": "C",
-    "pembahasan": "Ubah ke basis 2:\n$^2\\log 5 = ab$\n$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6}$\n$= \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3}$\n$= \\frac{a + ab}{1 + a} = \\frac{a(1+b)}{1+a}$"
+    "pembahasan": "Sama dengan nomor 15: $\\frac{a(1+b)}{1+a}$."
   }
 ]
