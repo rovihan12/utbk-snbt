@@ -38,10 +38,16 @@
   {
     "id": 4,
     "kategori": "Sedang",
-    "pertanyaan": "Jumlah kelereng dari kotak nomor 1 sampai kotak nomor 4 adalah ....",
-    "pilihan": ["731", "750", "758", "819", "823"],
-    "jawaban": "C",
-    "pembahasan": " Langkah Penyelesaian:\n1. **Cari Rumus Total Kelereng ($T_n$):**\n   $T_n = \\text{Merah}_n + \\text{Putih}_n$\n   $T_n = (2n - 1) + (193 - 3n) = 192 - n$.\n2. **Hitung tiap kotak:**\n   - Kotak 1: $192 - 1 = 191$\n   - Kotak 2: $192 - 2 = 190$\n   - Kotak 3: $192 - 3 = 189$\n   - Kotak 4: $192 - 4 = 188$\n3. **Total:** $191 + 190 + 189 + 188 = 758$."
+    "pertanyaan": "Seorang anak sedang menentukan batas area permainan tradisional. Area tersebut berada pada sebidang tanah dengan membentuk segitiga. Setiap titik sudutnya diberi tongkat pembatas, berturut-turut A, B, dan C. Jarak antara tongkat A dan B adalah 300 meter. Jika ∠ABC = 45° dan ∠BCA = 60°. Jarak antara tongkat A dan C adalah....",
+    "pilihan": [
+      "50√6 m",
+      "100√3 m",
+      "150√2 m",
+      "100√6 m",
+      "300√6 m"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Langkah Penyelesaian:\n1. **Identifikasi Aturan**: Karena diketahui dua sudut dan satu sisi di depan salah satu sudut tersebut, gunakan **Aturan Sinus**.\n2. **Persamaan**: $\\frac{AC}{\\sin B} = \\frac{AB}{\\sin C} \\Rightarrow \\frac{AC}{\\sin 45^\\circ} = \\frac{300}{\\sin 60^\\circ}$.\n3. **Substitusi Nilai**: $\\frac{AC}{\\frac{1}{2}\\sqrt{2}} = \\frac{300}{\\frac{1}{2}\\sqrt{3}}$.\n4. **Perhitungan**: $AC = \\frac{300\\sqrt{2}}{\\sqrt{3}}$.\n5. **Rasionalisasi**: $AC = \\frac{300\\sqrt{2}}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{300\\sqrt{6}}{3} = 100\\sqrt{6}$ meter."
   },
   {
     "id": 5,
