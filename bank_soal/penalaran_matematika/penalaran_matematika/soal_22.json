@@ -131,20 +131,34 @@
     "jawaban": "D",
     "pembahasan": " Analisis Himpunan Bilangan:\n1. **Bilangan Prima < 20:** {2, 3, 5, 7, 11, 13, 17, 19}.\n2. **Syarat Jangkauan = 2:** Pasangan prima yang mungkin hanya (3, 5) atau (5, 7).\n3. **Analisis Pernyataan (1):** Jika Modus = 5, maka angka 5 muncul lebih sering. Kombinasi yang mungkin dengan jangkauan 2 adalah {3, 5, 5, 5} atau {5, 5, 5, 7}. Dalam kedua kasus, rata-rata dapat ditentukan secara pasti. (**Cukup**).\n4. **Analisis Pernyataan (2):** Jika Median = 5, maka nilai tengah adalah 5. Ini juga mengunci distribusi angka pada prima yang berdekatan tersebut. (**Cukup**).\n\n**Kesimpulan:** Masing-masing pernyataan secara mandiri sudah cukup."
   },
-  {
-    "id": 12,
-    "kategori": "Penalaran Matematika",
-    "pertanyaan": "Dengan penjadwalan tersebut, perusahaan jasa kebersihan yang akan bertugas pada tanggal 1 Juli 2023 adalah ....",
-    "pilihan": [
-      "A saja",
-      "B saja",
-      "A dan C saja",
-      "B dan C saja",
-      "A, B, dan C"
+{
+  "id": 12,
+  "kategori": "Penalaran Matematika",
+  "topik": "KPK dan Penjadwalan",
+  "deskripsi": "Pengelola suatu gedung serbaguna bekerja sama dengan tiga perusahaan rekanan jasa kebersihan. Jadwal dan jumlah tenaga kebersihan yang bertugas adalah sebagai berikut:",
+  "tabel": {
+    "header": [
+      "Perusahaan Jasa Kebersihan",
+      "Jadwal Penyedia Jasa",
+      "Jumlah Tenaga Kebersihan"
     ],
-    "jawaban": "C",
-    "pembahasan": "### Langkah Penyelesaian:\n1. **Titik Acuan**: Tanggal 31 Juli semua perusahaan (A, B, C) bertugas.\n2. **Hitung Mundur**: Selisih hari antara 1 Juli dan 31 Juli adalah 30 hari.\n3. **Analisis Kelipatan**:\n   * Perusahaan A (setiap 2 hari): $30 \\div 2 = 15$ (Habis dibagi, maka **Bertugas**).\n   * Perusahaan B (setiap 4 hari): $30 \\div 4 = 7,5$ (Sisa, maka **Tidak Bertugas**).\n   * Perusahaan C (setiap 5 hari): $30 \\div 5 = 6$ (Habis dibagi, maka **Bertugas**).\n\n**Kesimpulan**: Yang bertugas adalah A dan C."
+    "rows": [
+      ["A", "Setiap 2 hari sekali", "20"],
+      ["B", "Setiap 4 hari sekali", "30"],
+      ["C", "Setiap 5 hari sekali", "50"]
+    ]
   },
+  "pertanyaan": "Pengelola gedung itu harus memastikan bahwa akan tersedia 100 tenaga kebersihan pada acara 31 Juli 2023. Dengan penjadwalan tersebut, perusahaan jasa kebersihan yang akan bertugas pada tanggal 1 Juli 2023 adalah ....",
+  "pilihan": [
+    "A saja",
+    "B saja",
+    "A dan C saja",
+    "B dan C saja",
+    "A, B, dan C"
+  ],
+  "jawaban": "C",
+  "pembahasan": "### 1. Menentukan Titik Acuan\nDiketahui pada tanggal **31 Juli 2023** tersedia 100 tenaga kerja. \n* Total tenaga kerja A+B+C = $20 + 30 + 50 = 100$.\n* Artinya, pada 31 Juli, ketiga perusahaan (A, B, dan C) **bertugas bersamaan**.\n\n### 2. Menghitung Selisih Hari\nKita ingin mengetahui siapa yang bertugas pada **1 Juli 2023**.\n* Selisih hari = $31 - 1 = 30$ hari.\n\n### 3. Analisis Kelipatan (Hitung Mundur)\nSebuah perusahaan akan bertugas pada 1 Juli jika selisih harinya (30 hari) merupakan kelipatan dari jadwal tugas mereka:\n* **Perusahaan A** (Tiap 2 hari): $30 \\div 2 = 15$ (Sisa 0). **Bertugas.**\n* **Perusahaan B** (Tiap 4 hari): $30 \\div 4 = 7$ (Sisa 2). **Tidak Bertugas.**\n* **Perusahaan C** (Tiap 5 hari): $30 \\div 5 = 6$ (Sisa 0). **Bertugas.**\n\n**Kesimpulan**: Perusahaan yang bertugas pada 1 Juli 2023 adalah **A dan C saja**."
+},
   {
     "id": 13,
     "kategori": "Penalaran Matematika",
