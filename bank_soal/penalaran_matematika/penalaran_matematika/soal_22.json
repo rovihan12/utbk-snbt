@@ -16,7 +16,7 @@
       "$193 + 3n, n = 1, 2, 3, \\dots, 64$",
       "$193 - n, n = 1, 2, 3, \\dots, 64$",
       "$192 - n, n = 1, 2, 3, \\dots, 64$",
-      "$192 + n, n = 1, 2, 3, \dots, 64$"
+      "$192 + n, n = 1, 2, 3, \\dots, 64$"
     ],
     "jawaban": "A",
     "pembahasan": "### Analisis Barisan Aritmetika\n\n1. **Pola Kelereng Putih:** Pengisian dimulai dari kotak 64 menuju kotak 1.\n   - Kotak 64 ($n = 64$) adalah suku pertama ($a = 1$).\n   - Karena nomor kotak berkurang ($n$ mengecil) tapi jumlah kelereng bertambah, maka beda ($b$) untuk urutan mundur adalah 3. Namun, jika dilihat dari urutan $n=1$ ke $n=64$, kelereng berkurang.\n\n2. **Mencari Rumus Suku ke-$n$:**\n   Kita punya titik $(n, U_n)$ yaitu $(64, 1)$. Karena setiap kenaikan nomor kotak kelereng berkurang 3, maka $b = -3$.\n   $$U_n = a + (n - n_1)b$$\n   $$U_n = 1 + (n - 64)(-3)$$\n   $$U_n = 1 - 3n + 192$$\n   $$U_n = 193 - 3n$$\n\n**Jadi, rumus umum untuk kelereng putih pada kotak ke-$n$ adalah $193 - 3n$.**"
