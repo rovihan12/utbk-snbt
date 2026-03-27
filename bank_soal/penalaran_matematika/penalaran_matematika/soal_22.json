@@ -35,16 +35,16 @@
     "jawaban": "C",
     "pembahasan": "Langkah Penyelesaian:\n\n1. **Identifikasi Variabel**:\n   - Misalkan $h$ adalah tinggi menara di atas pandangan mata Mamat.\n   - Posisi Awal (Sudut 45°): Jarak ke menara $= h$ (karena $\\tan 45^\\circ = 1$).\n   - Posisi Kedua (Sudut 60°): Mamat maju 36 m, maka jaraknya sekarang $= h - 36$.\n\n2. **Persamaan Trigonometri (Posisi Kedua)**:\n   - $\\tan 60^\\circ = \\frac{\\text{depan}}{\\text{samping}}$\n   - $\\sqrt{3} = \\frac{h}{h - 36}$\n   - $h = \\sqrt{3}(h - 36)$\n   - $h = h\\sqrt{3} - 36\\sqrt{3}$\n   - $36\\sqrt{3} = h\\sqrt{3} - h$\n   - $36\\sqrt{3} = h(\\sqrt{3} - 1)$\n   - $h = \\frac{36\\sqrt{3}}{\\sqrt{3} - 1}$\n\n3. **Rasionalisasi**:\n   - $h = \\frac{36\\sqrt{3}(\\sqrt{3} + 1)}{3 - 1} = \\frac{108 + 36\\sqrt{3}}{2} = 54 + 18\\sqrt{3}$ meter.\n\n4. **Tinggi Total (dalam cm)**:\n   - Tinggi Menara $= h + \\text{tinggi badan}$\n   - Tinggi Menara $= (54 + 18\\sqrt{3}) \\text{ m} + 1,8 \\text{ m} = 55,8 + 18\\sqrt{3} \\text{ m}$.\n   - Dalam cm $= 5580 + 1800\\sqrt{3} \\text{ cm}$.\n\n*Catatan: Terdapat indikasi salah ketik pada angka soal asli (seharusnya mungkin jarak maju dalam satuan cm atau angka pembanding yang berbeda) sehingga hasil akhir tidak presisi dengan pilihan A-E, namun secara struktur rumus, pilihan C ($234 + 18\\sqrt{3}$) adalah yang paling mendekati pola hasil perhitungan variabel $18\\sqrt{3}$.*"
   },
-  {
+   {
     "id": 4,
     "kategori": "Sedang",
     "pertanyaan": "Seorang anak sedang menentukan batas area permainan tradisional. Area tersebut berada pada sebidang tanah dengan membentuk segitiga. Setiap titik sudutnya diberi tongkat pembatas, berturut-turut A, B, dan C. Jarak antara tongkat A dan B adalah 300 meter. Jika ∠ABC = 45° dan ∠BCA = 60°. Jarak antara tongkat A dan C adalah....",
     "pilihan": [
-      "50√6 m",
-      "100√3 m",
-      "150√2 m",
-      "100√6 m",
-      "300√6 m"
+      "$50\\sqrt{6}$ m",
+      "$100\\sqrt{3}$ m",
+      "$150\\sqrt{2}$ m",
+      "$100\\sqrt{6}$ m",
+      "$300\\sqrt{6}$ m"
     ],
     "jawaban": "D",
     "pembahasan": "Langkah Penyelesaian:\n1. **Identifikasi Aturan**: Karena diketahui dua sudut dan satu sisi di depan salah satu sudut tersebut, gunakan **Aturan Sinus**.\n2. **Persamaan**: $\\frac{AC}{\\sin B} = \\frac{AB}{\\sin C} \\Rightarrow \\frac{AC}{\\sin 45^\\circ} = \\frac{300}{\\sin 60^\\circ}$.\n3. **Substitusi Nilai**: $\\frac{AC}{\\frac{1}{2}\\sqrt{2}} = \\frac{300}{\\frac{1}{2}\\sqrt{3}}$.\n4. **Perhitungan**: $AC = \\frac{300\\sqrt{2}}{\\sqrt{3}}$.\n5. **Rasionalisasi**: $AC = \\frac{300\\sqrt{2}}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{300\\sqrt{6}}{3} = 100\\sqrt{6}$ meter."
