@@ -26,11 +26,11 @@
     "kategori": "Sedang",
     "pertanyaan": "Menara BTS (Base Transceiver Station) memiliki fungsi sebagai pengirim dan penerima sinyal radio menuju perangkat komunikasi. Perangkat tersebut meliputi telepon seluler, telepon rumah dan sejenis gawai lainnya, kemudian sinyal radio tersebut akan diubah menjadi sinyal digital yang selanjutnya dikirim ke terminal lainnya menjadi sebuah pesan atau data. Suatu hari mamat jengkel karena sinyal ponsel pintarnya selalu lambat, saat digunakan bermain game. Ia berinisiatif untuk berdiri didekat menara, sambil mengamati puncak menara dengan sudut 45°. Karena sinyal yang ia terima masih kurang baik, ia maju sejauh 36 meter dari posisi awal mendekati dasar menara. Ia memandang lagi ke arah puncak menara dengan sudut 60°. Dengan asumsi bahwa tinggi badan Mamat adalah 180 cm. Maka tinggi menara adalah.... cm",
     "pilihan": [
-      "(A) 234 - √3",
-      "(B) 234 + √3",
-      "(C) 234 + 18√3",
-      "(D) 234 - 18√3",
-      "(E) 234 + 18√2"
+      "234 - √3",
+      "234 + √3",
+      "234 + 18√3",
+      "234 - 18√3",
+      "234 + 18√2"
     ],
     "jawaban": "C",
     "pembahasan": "Langkah Penyelesaian:\n\n1. **Identifikasi Variabel**:\n   - Misalkan $h$ adalah tinggi menara di atas pandangan mata Mamat.\n   - Posisi Awal (Sudut 45°): Jarak ke menara $= h$ (karena $\\tan 45^\\circ = 1$).\n   - Posisi Kedua (Sudut 60°): Mamat maju 36 m, maka jaraknya sekarang $= h - 36$.\n\n2. **Persamaan Trigonometri (Posisi Kedua)**:\n   - $\\tan 60^\\circ = \\frac{\\text{depan}}{\\text{samping}}$\n   - $\\sqrt{3} = \\frac{h}{h - 36}$\n   - $h = \\sqrt{3}(h - 36)$\n   - $h = h\\sqrt{3} - 36\\sqrt{3}$\n   - $36\\sqrt{3} = h\\sqrt{3} - h$\n   - $36\\sqrt{3} = h(\\sqrt{3} - 1)$\n   - $h = \\frac{36\\sqrt{3}}{\\sqrt{3} - 1}$\n\n3. **Rasionalisasi**:\n   - $h = \\frac{36\\sqrt{3}(\\sqrt{3} + 1)}{3 - 1} = \\frac{108 + 36\\sqrt{3}}{2} = 54 + 18\\sqrt{3}$ meter.\n\n4. **Tinggi Total (dalam cm)**:\n   - Tinggi Menara $= h + \\text{tinggi badan}$\n   - Tinggi Menara $= (54 + 18\\sqrt{3}) \\text{ m} + 1,8 \\text{ m} = 55,8 + 18\\sqrt{3} \\text{ m}$.\n   - Dalam cm $= 5580 + 1800\\sqrt{3} \\text{ cm}$.\n\n*Catatan: Terdapat indikasi salah ketik pada angka soal asli (seharusnya mungkin jarak maju dalam satuan cm atau angka pembanding yang berbeda) sehingga hasil akhir tidak presisi dengan pilihan A-E, namun secara struktur rumus, pilihan C ($234 + 18\\sqrt{3}$) adalah yang paling mendekati pola hasil perhitungan variabel $18\\sqrt{3}$.*"
