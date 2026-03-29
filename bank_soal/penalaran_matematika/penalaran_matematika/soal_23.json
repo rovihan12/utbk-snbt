@@ -250,7 +250,7 @@
       "(15, 75)"
     ],
     "jawaban": "C",
-    "pembahasan": "Langkah Penyelesaian:\n1. **Persamaan Pertemuan**: Cari titik potong antara lintasan misil dan rudal dengan menyamakan kedua fungsi: $-x^2 + 10x + 24 = 5x$.\n2. **Penyederhanaan**: Pindahkan semua suku ke satu ruas menjadi $x^2 - 5x - 24 = 0$.\n3. **Faktorisasi**: $(x - 8)(x + 3) = 0$. Kita peroleh $x = 8$ atau $x = -3$.\n4. **Logika Fisik**: Karena misil bergerak ke depan (jarak horizontal positif), maka kita ambil $x = 8$.\n5. **Koordinat Y**: Masukkan $x = 8$ ke salah satu persamaan: $y = 5(8) = 40$. Maka titik temu di udara adalah (8, 40)."
+    "pembahasan": "Langkah Penyelesaian:\n1. **Persamaan Pertemuan**: Cari titik potong dengan menyamakan kedua fungsi: $-x^2 + 10x + 24 = 5x$.\n2. **Penyederhanaan**: Pindahkan semua suku ke satu ruas menjadi $x^2 - 5x - 24 = 0$.\n3. **Faktorisasi**: $(x - 8)(x + 3) = 0$. Kita peroleh $x = 8$ atau $x = -3$.\n4. **Logika Fisik**: Karena misil bergerak ke depan (jarak horizontal positif), maka kita ambil $x = 8$.\n5. **Koordinat Y**: Masukkan $x = 8$ ke salah satu persamaan: $y = 5(8) = 40$. Maka titik temu di udara adalah (8, 40)."
   },
   {
     "id": 18,
@@ -264,7 +264,7 @@
       "12,00 km/menit"
     ],
     "jawaban": "B",
-    "pembahasan": "Langkah Penyelesaian:\n1. **Data Kecepatan**: $v_x = 2$ km/menit.\n\n2. **Mencari Kecepatan Vertikal ($v_y$)**:\n Karena lintasan adalah $y = 5x$, maka gradiennya adalah 5. Ini berarti $v_y = 5 \\times v_x = 10$ km/menit.\n\n3. **Kecepatan Resultan ($v$)**:\n $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{2^2 + 10^2} = \\sqrt{104} \\approx 10,198$ km/menit. Dibulatkan menjadi 10,20 km/menit."
+    "pembahasan": "Langkah Penyelesaian:\n1. **Data Kecepatan**: $v_x = 2$ km/menit.\n2. **Mencari Kecepatan Vertikal ($v_y$)**: Karena lintasan adalah $y = 5x$, maka gradiennya adalah 5. Ini berarti $v_y = 5 \\times v_x = 10$ km/menit.\n3. **Kecepatan Resultan ($v$)**: $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{2^2 + 10^2} = \\sqrt{104} \\approx 10,198$ km/menit. Dibulatkan menjadi 10,20 km/menit."
   },
   {
     "id": 19,
