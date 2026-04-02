@@ -58,26 +58,26 @@
   "jawaban": "D",
   "pembahasan": "Untuk mencari nilai $x^2 + y^2$, kita kuadratkan masing-masing persamaan terlebih dahulu:\n\n1. **Kuadratkan x:**\n$x^2 = (\\cos A - 3\\sin B)^2$\n$x^2 = \\cos^2 A - 6\\cos A \\sin B + 9\\sin^2 B$\n\n2. **Kuadratkan y:**\n$y^2 = (\\sin A + 3\\cos B)^2$\n$y^2 = \\sin^2 A + 6\\sin A \\cos B + 9\\cos^2 B$\n\n3. **Jumlahkan $x^2 + y^2$:**\n$x^2 + y^2 = (\\cos^2 A + \\sin^2 A) + 9(\\sin^2 B + \\cos^2 B) + 6(\\sin A \\cos B - \\cos A \\sin B)$\n\nMenggunakan identitas trigonometri:\n- $\\sin^2 \\theta + \\cos^2 \\theta = 1$\n- $\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$\n\nMaka:\n$x^2 + y^2 = 1 + 9(1) + 6\\sin(A - B)$\n$x^2 + y^2 = 10 + 6\\sin(A - B)$\n\n4. **Mencari Nilai Minimum:**\nNilai $x^2 + y^2$ akan minimum saat nilai $\\sin(A - B)$ mencapai nilai terendahnya, yaitu $-1$.\n$(x^2 + y^2)_{min} = 10 + 6(-1)$\n$(x^2 + y^2)_{min} = 10 - 6 = 4$\n\nJadi, nilai minimum dari $x^2 + y^2$ adalah 4."
 },
- {
-    "id": 5,
-    "kategori": "Sedang",
-    "pertanyaan": "Segitiga $ABC$ merupakan segitiga sama sisi dengan panjang sisi 4. Daerah segitiga $ABC$ memiliki luas $L_1$. Titik $D$ merupakan titik tengah sisi $AB$ dan titik $E$ berada di ruas garis $\\overline{CD}$ sehingga luas daerah segitiga $ABE$ adalah $L_2$.\n\nBerdasarkan informasi yang diberikan, manakah hubungan antara kuantitas $P$ dan $Q$ berikut yang benar?",
-    "tabel": {
-        "header": ["P", "Q"],
-        "rows": [
-            ["$\\frac{L_2}{L_1}$", "$\\frac{1}{3}$"]
-        ]
-    },
-    "pilihan": [
-        "Kuantitas $P > Q$",
-        "Kuantitas $P < Q$",
-        "Kuantitas $P = Q$",
-        "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
-    ],
-    "jawaban": "D",
-    "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/Segitiga_ABC.png",
-    "pembahasan": "**1. Analisis Geometri:**\n- Segitiga $ABC$ sama sisi dengan sisi $s = 4$.\n- $D$ adalah titik tengah $AB$, maka $CD$ adalah garis tinggi segitiga $ABC$.\n- $E$ terletak pada ruas garis $CD$, sehingga $DE$ adalah tinggi segitiga $ABE$ dengan alas $AB$.\n\n**2. Perbandingan Luas (P):**\n- Luas $L_1 (ABC) = \\frac{1}{2} \\times AB \\times CD$\n- Luas $L_2 (ABE) = \\frac{1}{2} \\times AB \\times DE$\n- Maka, $P = \\frac{L_2}{L_1} = \\frac{DE}{CD}$.\n\n**3. Analisis Nilai P terhadap Q:**\n- Karena $E$ berada di ruas garis $CD$, maka panjang $DE$ berkisar antara $0$ (jika $E$ berimpit dengan $D$) hingga seukuran $CD$ (jika $E$ berimpit dengan $C$).\n- Rentang nilai $P$ adalah $0 \\le P \\le 1$.\n- Karena posisi titik $E$ pada garis $CD$ tidak didefinisikan secara spesifik (misal: perbandingan jarak), maka nilai $P$ bisa lebih kecil, sama dengan, atau lebih besar dari $Q = 1/3$.\n\n**Kesimpulan:** Hubungan antara $P$ dan $Q$ tidak dapat ditentukan.",
-},
+  {
+      "id": 5,
+      "kategori": "Sedang",
+      "pertanyaan": "Segitiga $ABC$ merupakan segitiga sama sisi dengan panjang sisi 4. Daerah segitiga $ABC$ memiliki luas $L_1$. Titik $D$ merupakan titik tengah sisi $AB$ dan titik $E$ berada di ruas garis $\\overline{CD}$ sehingga luas daerah segitiga $ABE$ adalah $L_2$.\n\nBerdasarkan informasi yang diberikan, manakah hubungan antara kuantitas $P$ dan $Q$ berikut yang benar?",
+      "tabel": {
+          "header": ["P", "Q"],
+          "rows": [
+              ["$\\frac{L_2}{L_1}$", "$\\frac{1}{3}$"]
+          ]
+      },
+      "pilihan": [
+          "Kuantitas $P > Q$",
+          "Kuantitas $P < Q$",
+          "Kuantitas $P = Q$",
+          "Hubungan $P$ dan $Q$ tidak dapat ditentukan"
+      ],
+      "jawaban": "D",
+      "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/Segitiga_ABC.png",
+      "pembahasan": "**1. Analisis Geometri:**\n- Segitiga $ABC$ sama sisi dengan sisi $s = 4$.\n- $D$ adalah titik tengah $AB$, maka $CD$ adalah garis tinggi segitiga $ABC$.\n- $E$ terletak pada ruas garis $CD$, sehingga $DE$ adalah tinggi segitiga $ABE$ dengan alas $AB$.\n\n**2. Perbandingan Luas (P):**\n- Luas $L_1 (ABC) = \\frac{1}{2} \\times AB \\times CD$\n- Luas $L_2 (ABE) = \\frac{1}{2} \\times AB \\times DE$\n- Maka, $P = \\frac{L_2}{L_1} = \\frac{DE}{CD}$.\n\n**3. Analisis Nilai P terhadap Q:**\n- Karena $E$ berada di ruas garis $CD$, maka panjang $DE$ berkisar antara $0$ (jika $E$ berimpit dengan $D$) hingga seukuran $CD$ (jika $E$ berimpit dengan $C$).\n- Rentang nilai $P$ adalah $0 \\le P \\le 1$.\n- Karena posisi titik $E$ pada garis $CD$ tidak didefinisikan secara spesifik (misal: perbandingan jarak), maka nilai $P$ bisa lebih kecil, sama dengan, atau lebih besar dari $Q = 1/3$.\n\n**Kesimpulan:** Hubungan antara $P$ dan $Q$ tidak dapat ditentukan."
+  },
   {
     "id": 6,
     "kategori": "Sedang",
