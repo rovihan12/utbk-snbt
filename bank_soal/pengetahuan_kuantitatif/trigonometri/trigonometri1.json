@@ -13,7 +13,7 @@
     "jawaban": "E",
     "pembahasan": "Diketahui $\\sin A = \\sqrt{2pq}$ dan $\\tan A = \\frac{\\sqrt{2pq}}{p-q}$.\n\nGunakan hubungan $\\cos A = \\frac{\\sin A}{\\tan A}$:\n$\\cos A = \\frac{\\sqrt{2pq}}{\\frac{\\sqrt{2pq}}{p-q}} = p - q$\n\nGunakan identitas trigonometri $\\sin^2 A + \\cos^2 A = 1$:\n$(\\sqrt{2pq})^2 + (p - q)^2 = 1$\n$2pq + p^2 - 2pq + q^2 = 1$\n$p^2 + q^2 = 1$"
   },
-   {
+  {
       "id": 2,
       "kategori": "Sedang",
       "pertanyaan": "Jika $x_1$ dan $x_2$ memenuhi persamaan $2\\sin^2 x - \\cos x = 1, 0 \\leq x \\leq \\pi$, nilai dari $x_1 + x_2$ adalah....",
@@ -25,7 +25,7 @@
           "$2\\pi$"
       ],
       "jawaban": "D",
-      "pembahasan": "Ubah persamaan ke dalam bentuk kosinus menggunakan $\\sin^2 x = 1 - \\cos^2 x$:\n\n$2(1 - \\cos^2 x) - \\cos x - 1 = 0$\n$2 - 2\\cos^2 x - \\cos x - 1 = 0$\n$2\\cos^2 x + \\cos x - 1 = 0$\n\n**Faktorkan:**\n$(2\\cos x - 1)(\\cos x + 1) = 0$\n\n1) $2\\cos x = 1 \\Rightarrow \\cos x = 1/2$. Untuk $0 \\leq x \\leq \\pi$, maka $x_1 = \\pi/3$.\n2) $\\cos x = -1$. Untuk $0 \\leq x \\leq \\pi$, maka $x_2 = \\pi$.\n\n**Nilai akhir:**\n$x_1 + x_2 = \\pi/3 + \\pi = 4/3\\pi$.",
+      "pembahasan": "Ubah persamaan ke dalam bentuk kosinus menggunakan $\\sin^2 x = 1 - \\cos^2 x$:\n\n$2(1 - \\cos^2 x) - \\cos x - 1 = 0$\n$2 - 2\\cos^2 x - \\cos x - 1 = 0$\n$2\\cos^2 x + \\cos x - 1 = 0$\n\n**Faktorkan:**\n$(2\\cos x - 1)(\\cos x + 1) = 0$\n\n1) $2\\cos x = 1 \\Rightarrow \\cos x = 1/2$. Untuk $0 \\leq x \\leq \\pi$, maka $x_1 = \\pi/3$.\n2) $\\cos x = -1$. Untuk $0 \\leq x \\leq \\pi$, maka $x_2 = \\pi$.\n\n**Nilai akhir:**\n$x_1 + x_2 = \\pi/3 + \\pi = 4/3\\pi$."
   },
   {
     "id": 3,
