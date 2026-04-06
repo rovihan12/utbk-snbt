@@ -2,34 +2,34 @@
   {
     "id": 1,
     "kategori": "Sulit",
-    "pertanyaan": "Dari 10 siswa, akan dipilih 3 siswa untuk mewakili sekolah dalam lomba matematika. Banyaknya cara pemilihan tersebut adalah...",
+    "pertanyaan": "Dari 10 siswa, akan dipilih 3 siswa untuk mewakili sekolah dalam lomba Matematika. Banyaknya cara pemilihan tersebut adalah...",
     "pilihan": ["120", "720", "360", "240", "60"],
     "jawaban": "A",
-    "pembahasan": "Kombinasi 3 dari 10:\n$C(10,3) = \\frac{10!}{3!7!} = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$"
+    "pembahasan": "Karena urutan pemilihan tidak diperhatikan, gunakan kombinasi 3 dari 10: $C(10,3) = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$."
   },
   {
     "id": 2,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah dadu dilempar 2 kali. Peluang munculnya jumlah mata dadu 8 adalah...",
-    "pilihan": ["$\\frac{1}{12}$", "$\\frac{5}{36}$", "$\\frac{1}{6}$", "$\\frac{7}{36}$", "$\\frac{1}{9}$"],
+    "pertanyaan": "Sebuah dadu dilempar sebanyak 2 kali. Peluang munculnya jumlah kedua mata dadu sama dengan 8 adalah...",
+    "pilihan": ["$1/12$", "$5/36$", "$1/6$", "$7/36$", "$1/9$"],
     "jawaban": "B",
-    "pembahasan": "Total kemungkinan = $6 \\times 6 = 36$\nKombinasi jumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2)\nTotal = 5\nPeluang = $\\frac{5}{36}$"
+    "pembahasan": "Total kemungkinan $n(S) = 6 \\times 6 = 36$. Kejadian jumlah 8: (2,6), (3,5), (4,4), (5,3), (6,2). Total ada 5 kejadian. Peluang = $5/36$."
   },
   {
     "id": 3,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata nilai ulangan matematika 15 siswa adalah 78. Jika ditambah 5 siswa dengan nilai rata-rata 85, maka rata-rata baru adalah...",
-    "pilihan": ["79,5", "80,0", "80,5", "81,0", "81,5"],
+    "pertanyaan": "Rata-rata nilai ulangan Matematika 15 siswa adalah 78. Jika ditambah 5 siswa dengan nilai rata-rata 85, maka rata-rata baru seluruh siswa adalah...",
+    "pilihan": ["79.5", "80.0", "79.75", "81.0", "81.5"],
     "jawaban": "C",
-    "pembahasan": "Total nilai 15 siswa = $15 \\times 78 = 1170$\nTotal nilai 5 siswa = $5 \\times 85 = 425$\nTotal semua nilai = $1170 + 425 = 1595$\nRata-rata baru = $\\frac{1595}{20} = 79,75$"
+    "pembahasan": "Total nilai 15 siswa = $15 \\times 78 = 1170$. Total nilai 5 siswa baru = $5 \\times 85 = 425$. Total nilai gabungan = $1170 + 425 = 1595$. Rata-rata baru = $1595 / 20 = 79.75$."
   },
   {
     "id": 4,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Diambil 2 bola sekaligus. Peluang terambil kedua bola berbeda warna adalah...",
-    "pilihan": ["$\\frac{15}{28}$", "$\\frac{5}{14}$", "$\\frac{3}{7}$", "$\\frac{1}{2}$", "$\\frac{4}{7}$"],
+    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah dan 3 bola biru. Jika diambil 2 bola sekaligus secara acak, peluang terambilnya kedua bola berbeda warna adalah...",
+    "pilihan": ["$15/28$", "$5/14$", "$3/7$", "$1/2$", "$4/7$"],
     "jawaban": "A",
-    "pembahasan": "Total cara = $C(8,2) = 28$\nCara 1M 1B = $C(5,1) \\times C(3,1) = 5 \\times 3 = 15$\nPeluang = $\\frac{15}{28}$"
+    "pembahasan": "Total cara $n(S) = C(8,2) = 28$. Cara terambil 1 Merah dan 1 Biru = $C(5,1) \\times C(3,1) = 5 \\times 3 = 15$. Peluang = $15/28$."
   },
   {
     "id": 5,
@@ -37,31 +37,31 @@
     "pertanyaan": "Simpangan baku dari data: 4, 6, 8, 10, 12 adalah...",
     "pilihan": ["$\\sqrt{6}$", "$\\sqrt{8}$", "$\\sqrt{10}$", "$2\\sqrt{2}$", "$2\\sqrt{3}$"],
     "jawaban": "B",
-    "pembahasan": "Rata-rata = $\\frac{4+6+8+10+12}{5} = 8$\nVariansi = $\\frac{(4-8)^2+(6-8)^2+(8-8)^2+(10-8)^2+(12-8)^2}{5}$\n= $\\frac{16+4+0+4+16}{5} = 8$\nSimpangan baku = $\\sqrt{8} = 2\\sqrt{2}$"
+    "pembahasan": "Rata-rata $\\bar{x} = 8$. Variansi $s^2 = \\frac{(4-8)^2+(6-8)^2+(8-8)^2+(10-8)^2+(12-8)^2}{5} = \\frac{16+4+0+4+16}{5} = 8$. Simpangan baku $s = \\sqrt{8} = 2\\sqrt{2}$."
   },
   {
     "id": 6,
     "kategori": "Sulit",
-    "pertanyaan": "Dua dadu dilempar bersamaan. Peluang munculnya mata dadu pertama ganjil dan mata dadu kedua prima adalah...",
-    "pilihan": ["$\\frac{1}{4}$", "$\\frac{1}{3}$", "$\\frac{5}{12}$", "$\\frac{1}{2}$", "$\\frac{7}{12}$"],
+    "pertanyaan": "Dua dadu dilempar bersamaan. Peluang munculnya mata dadu pertama ganjil dan mata dadu kedua merupakan bilangan prima adalah...",
+    "pilihan": ["$1/4$", "$1/3$", "$5/12$", "$1/2$", "$7/12$"],
     "jawaban": "A",
-    "pembahasan": "Peluang dadu 1 ganjil = $\\frac{3}{6} = \\frac{1}{2}$\nPeluang dadu 2 prima (2,3,5) = $\\frac{3}{6} = \\frac{1}{2}$\nPeluang gabungan = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$"
+    "pembahasan": "P(Dadu 1 ganjil: 1,3,5) = $3/6 = 1/2$. P(Dadu 2 prima: 2,3,5) = $3/6 = 1/2$. Karena kejadian saling bebas, Peluang = $1/2 \\times 1/2 = 1/4$."
   },
   {
     "id": 7,
     "kategori": "Sulit",
-    "pertanyaan": "Nilai kuartil atas dari data: 12, 8, 15, 10, 18, 20, 16, 14 adalah...",
+    "pertanyaan": "Nilai kuartil atas ($Q_3$) dari data: 12, 8, 15, 10, 18, 20, 16, 14 adalah...",
     "pilihan": ["16", "17", "18", "19", "20"],
     "jawaban": "B",
-    "pembahasan": "Data terurut: 8, 10, 12, 14, 15, 16, 18, 20\nQ3 = median paruh atas (15, 16, 18, 20)\nQ3 = $\\frac{16 + 18}{2} = 17$"
+    "pembahasan": "Data terurut: 8, 10, 12, 14, 15, 16, 18, 20. $Q_2$ (Median) membagi data menjadi (8,10,12,14) dan (15,16,18,20). $Q_3$ adalah median dari paruh atas: $(16+18)/2 = 17$."
   },
   {
     "id": 8,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam suatu kelas, 60% siswa laki-laki dan 40% siswa perempuan. Jika 30% laki-laki dan 20% perempuan memakai kacamata, maka peluang seorang siswa memakai kacamata adalah...",
-    "pilihan": ["0,24", "0,26", "0,28", "0,30", "0,32"],
+    "pertanyaan": "Dalam suatu kelas, 60% siswa laki-laki dan 40% siswa perempuan. Jika 30% laki-laki dan 20% perempuan memakai kacamata, maka peluang seorang siswa yang dipilih secara acak memakai kacamata adalah...",
+    "pilihan": ["0.24", "0.26", "0.28", "0.30", "0.32"],
     "jawaban": "B",
-    "pembahasan": "Peluang = P(laki) × P(kacamata|laki) + P(perempuan) × P(kacamata|perempuan)\n= $0,6 \\times 0,3 + 0,4 \\times 0,2 = 0,18 + 0,08 = 0,26$"
+    "pembahasan": "P(Kacamata) = P(L)P(K|L) + P(P)P(K|P) = $(0.6 \\times 0.3) + (0.4 \\times 0.2) = 0.18 + 0.08 = 0.26$."
   },
   {
     "id": 9,
@@ -69,94 +69,94 @@
     "pertanyaan": "Modus dari data: 5, 7, 8, 5, 6, 7, 5, 9, 7, 5 adalah...",
     "pilihan": ["5", "6", "7", "8", "9"],
     "jawaban": "A",
-    "pembahasan": "Frekuensi: 5 (4 kali), 7 (3 kali), 6 (1 kali), 8 (1 kali), 9 (1 kali)\nModus = nilai dengan frekuensi tertinggi = 5"
+    "pembahasan": "Data 5 muncul sebanyak 4 kali, data 7 muncul 3 kali, angka lainnya 1 kali. Modus = 5."
   },
   {
     "id": 10,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah perusahaan memiliki 8 karyawan pria dan 6 karyawan wanita. Akan dibentuk tim beranggotakan 4 orang dengan minimal 2 wanita. Banyaknya cara pembentukan tim adalah...",
+    "pertanyaan": "Sebuah perusahaan memiliki 8 karyawan pria dan 6 karyawan wanita. Akan dibentuk tim beranggotakan 4 orang dengan syarat minimal terdapat 2 wanita. Banyaknya cara pembentukan tim tersebut adalah...",
     "pilihan": ["420", "595", "700", "805", "910"],
     "jawaban": "B",
-    "pembahasan": "Kasus 1: 2W 2P = $C(6,2) \\times C(8,2) = 15 \\times 28 = 420$\nKasus 2: 3W 1P = $C(6,3) \\times C(8,1) = 20 \\times 8 = 160$\nKasus 3: 4W 0P = $C(6,4) = 15$\nTotal = $420 + 160 + 15 = 595$"
+    "pembahasan": "Kasus 1 (2W, 2P): $C(6,2) \\times C(8,2) = 15 \\times 28 = 420$. Kasus 2 (3W, 1P): $C(6,3) \\times C(8,1) = 20 \\times 8 = 160$. Kasus 3 (4W): $C(6,4) = 15$. Total = $420 + 160 + 15 = 595$."
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Dari 10 orang finalis lomba menyanyi akan dipilih juara I, II, dan III. Banyaknya susunan juara yang mungkin adalah...",
+    "pertanyaan": "Dari 10 orang finalis lomba menyanyi akan dipilih juara I, II, dan III. Banyaknya susunan juara yang mungkin terjadi adalah...",
     "pilihan": ["120", "360", "480", "720", "840"],
     "jawaban": "D",
-    "pembahasan": "Permutasi 3 dari 10:\n$P(10,3) = 10 \\times 9 \\times 8 = 720$"
+    "pembahasan": "Karena urutan jabatan diperhatikan (juara I tidak sama dengan juara II), gunakan permutasi: $P(10,3) = 10 \\times 9 \\times 8 = 720$."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah koin dilempar 4 kali. Peluang muncul tepat 3 gambar adalah...",
-    "pilihan": ["$\\frac{1}{4}$", "$\\frac{1}{8}$", "$\\frac{3}{16}$", "$\\frac{1}{16}$", "$\\frac{5}{16}$"],
+    "pertanyaan": "Sebuah koin setimbang dilempar sebanyak 4 kali. Peluang muncul tepat 3 sisi gambar adalah...",
+    "pilihan": ["$1/4$", "$1/8$", "$3/16$", "$1/16$", "$5/16$"],
     "jawaban": "A",
-    "pembahasan": "Total kemungkinan = $2^4 = 16$\nKombinasi 3G 1A = $C(4,3) = 4$\nPeluang = $\\frac{4}{16} = \\frac{1}{4}$"
+    "pembahasan": "Total sampel $n(S) = 2^4 = 16$. Banyak cara muncul tepat 3 Gambar dari 4 lemparan = $C(4,3) = 4$. Peluang = $4/16 = 1/4$."
   },
   {
     "id": 13,
     "kategori": "Sulit",
     "pertanyaan": "Nilai median dari data: 25, 30, 35, 40, 45, 50, 55 adalah...",
-    "pilihan": ["35", "37,5", "40", "42,5", "45"],
+    "pilihan": ["35", "37.5", "40", "42.5", "45"],
     "jawaban": "C",
-    "pembahasan": "Data terurut dengan 7 elemen\nMedian = elemen ke-4 = 40"
+    "pembahasan": "Data sudah terurut dengan jumlah $n=7$ (ganjil). Median terletak pada data ke-$(7+1)/2 = 4$. Data ke-4 adalah 40."
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah keranjang terdapat 6 apel dan 4 jeruk. Diambil 3 buah secara acak. Peluang terambil 2 apel dan 1 jeruk adalah...",
-    "pilihan": ["$\\frac{1}{2}$", "$\\frac{3}{10}$", "$\\frac{1}{3}$", "$\\frac{2}{5}$", "$\\frac{3}{5}$"],
+    "pertanyaan": "Dalam sebuah keranjang terdapat 6 apel dan 4 jeruk. Jika diambil 3 buah secara acak sekaligus, peluang terambilnya 2 apel dan 1 jeruk adalah...",
+    "pilihan": ["$1/2$", "$3/10$", "$1/3$", "$2/5$", "$3/5$"],
     "jawaban": "A",
-    "pembahasan": "Total cara = $C(10,3) = 120$\nCara 2A 1J = $C(6,2) \\times C(4,1) = 15 \\times 4 = 60$\nPeluang = $\\frac{60}{120} = \\frac{1}{2}$"
+    "pembahasan": "$n(S) = C(10,3) = 120$. Banyak cara ambil 2A dan 1J = $C(6,2) \\times C(4,1) = 15 \\times 4 = 60$. Peluang = $60/120 = 1/2$."
   },
   {
     "id": 15,
     "kategori": "Sulit",
     "pertanyaan": "Rata-rata harmonis dari data: 2, 4, 8 adalah...",
-    "pilihan": ["3", "3,2", "3,4", "3,6", "3,8"],
+    "pilihan": ["3", "3.2", "3.43", "3.6", "3.8"],
     "jawaban": "C",
-    "pembahasan": "Rata-rata harmonis = $\\frac{3}{\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}}$\n= $\\frac{3}{0,5 + 0,25 + 0,125} = \\frac{3}{0,875} = 3,428 \\approx 3,4$"
+    "pembahasan": "$H = \\frac{n}{\\sum \\frac{1}{x_i}} = \\frac{3}{\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8}} = \\frac{3}{\\frac{4+2+1}{8}} = \\frac{24}{7} \\approx 3.43$."
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Dua buah dadu dilempar. Peluang munculnya mata dadu berjumlah lebih dari 9 adalah...",
-    "pilihan": ["$\\frac{1}{6}$", "$\\frac{5}{36}$", "$\\frac{1}{9}$", "$\\frac{1}{12}$", "$\\frac{7}{36}$"],
+    "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya jumlah mata dadu lebih dari 9 adalah...",
+    "pilihan": ["$1/6$", "$5/36$", "$1/9$", "$1/12$", "$7/36$"],
     "jawaban": "A",
-    "pembahasan": "Total kemungkinan = 36\nKombinasi jumlah > 9: (4,6), (5,5), (5,6), (6,4), (6,5), (6,6)\nTotal = 6\nPeluang = $\\frac{6}{36} = \\frac{1}{6}$"
+    "pembahasan": "Jumlah > 9 berarti berjumlah 10, 11, atau 12. Kejadiannya: (4,6), (5,5), (6,4), (5,6), (6,5), (6,6). Total ada 6 kejadian. Peluang = $6/36 = 1/6$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Nilai desil ke-7 dari data: 3, 5, 6, 7, 8, 9, 10, 11, 12, 13 adalah...",
-    "pilihan": ["10", "10,5", "11", "11,5", "12"],
+    "pertanyaan": "Nilai desil ke-7 ($D_7$) dari data: 3, 5, 6, 7, 8, 9, 10, 11, 12, 13 adalah...",
+    "pilihan": ["10", "10.5", "10.7", "11.5", "12"],
     "jawaban": "C",
-    "pembahasan": "Letak D7 = $\\frac{7}{10} \\times (10+1) = 7,7$\nD7 = data ke-7 + 0,7(data ke-8 - data ke-7)\n= $10 + 0,7(11-10) = 10,7$"
+    "pembahasan": "Letak $D_7$ pada data ke-$\\frac{7}{10}(10+1) = 7.7$. Maka $D_7 = x_7 + 0.7(x_8 - x_7) = 10 + 0.7(11-10) = 10.7$."
   },
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah panitia beranggotakan 5 orang akan dipilih dari 7 pria dan 4 wanita. Banyaknya cara memilih jika panitia harus terdiri dari minimal 3 pria adalah...",
+    "pertanyaan": "Sebuah panitia beranggotakan 5 orang akan dipilih dari 7 pria dan 4 wanita. Banyaknya cara memilih jika panitia tersebut minimal terdiri dari 3 pria adalah...",
     "pilihan": ["371", "420", "441", "462", "504"],
     "jawaban": "A",
-    "pembahasan": "Kasus 1: 3P 2W = $C(7,3) \\times C(4,2) = 35 \\times 6 = 210$\nKasus 2: 4P 1W = $C(7,4) \\times C(4,1) = 35 \\times 4 = 140$\nKasus 3: 5P 0W = $C(7,5) = 21$\nTotal = $210 + 140 + 21 = 371$"
+    "pembahasan": "Kasus 1 (3P, 2W): $C(7,3) \\times C(4,2) = 35 \\times 6 = 210$. Kasus 2 (4P, 1W): $C(7,4) \\times C(4,1) = 35 \\times 4 = 140$. Kasus 3 (5P): $C(7,5) = 21$. Total = $210 + 140 + 21 = 371$."
   },
   {
     "id": 19,
     "kategori": "Sulit",
     "pertanyaan": "Simpangan rata-rata dari data: 3, 5, 7, 9, 11 adalah...",
-    "pilihan": ["2,0", "2,2", "2,4", "2,6", "2,8"],
+    "pilihan": ["2.0", "2.2", "2.4", "2.6", "2.8"],
     "jawaban": "C",
-    "pembahasan": "Rata-rata = $\\frac{3+5+7+9+11}{5} = 7$\nSimpangan rata-rata = $\\frac{|3-7|+|5-7|+|7-7|+|9-7|+|11-7|}{5}$\n= $\\frac{4+2+0+2+4}{5} = \\frac{12}{5} = 2,4$"
+    "pembahasan": "Rata-rata $\\bar{x} = 7$. $SR = \\frac{\\sum |x_i - \\bar{x}|}{n} = \\frac{|3-7|+|5-7|+|7-7|+|9-7|+|11-7|}{5} = \\frac{4+2+0+2+4}{5} = 12/5 = 2.4$."
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Tiga keping uang logam dilempar bersamaan. Peluang munculnya minimal 1 angka adalah...",
-    "pilihan": ["$\\frac{1}{8}$", "$\\frac{3}{8}$", "$\\frac{1}{2}$", "$\\frac{5}{8}$", "$\\frac{7}{8}$"],
+    "pertanyaan": "Tiga keping uang logam dilempar bersamaan satu kali. Peluang munculnya minimal 1 angka adalah...",
+    "pilihan": ["$1/8$", "$3/8$", "$1/2$", "$5/8$", "$7/8$"],
     "jawaban": "E",
-    "pembahasan": "Total kemungkinan = $2^3 = 8$\nPeluang 0 angka (semua gambar) = $\\frac{1}{8}$\nPeluang minimal 1 angka = $1 - \\frac{1}{8} = \\frac{7}{8}$"
+    "pembahasan": "Gunakan komplemen: 1 - P(0 angka). P(0 angka/Semua Gambar) = $1/8$. Peluang minimal 1 angka = $1 - 1/8 = 7/8$."
   }
 ]
