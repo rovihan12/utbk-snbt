@@ -91,5 +91,22 @@
     ],
     "jawaban": "E",
     "pembahasan": "Misalkan sisi-sisi segitiga siku-siku adalah $a, b,$ dan $c$ (sisi miring).\n\n**1. Menentukan Rasio Sisi:**\nDiketahui $c : a = 5 : 3$. Berdasarkan Pythagoras:\n$b = \\sqrt{5^2 - 3^2} = 4$.\nJadi, perbandingan sisinya adalah $3x : 4x : 5x$.\n\n**2. Mencari Nilai x:**\n$3x + 4x + 5x = 36 \\Rightarrow 12x = 36 \\Rightarrow x = 3$.\n\n**3. Analisis Pernyataan:**\n- Sisi miring ($5x$): $5 \\times 3 = 15$ cm. (1 Benar)\n- Sisi pendek ($3x$): $3 \\times 3 = 9$ cm. (2 Benar)\n- Sisi siku lainnya ($4x$): $4 \\times 3 = 12$ cm. (3 Benar)\n- Luas: $\\frac{1}{2} \\times 9 \\times 12 = 54$ cm². (4 Benar)\n\nSemua pernyataan benar (E)."
+  },
+  [
+  {
+    "id": 7,
+    "kategori": "Mudah",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/helicopter_soal.png",
+    "pertanyaan": "Pilot sebuah helikopter melihat suatu tanda di tanah dengan sudut depresi $52^\\circ$. Jika tinggi helikopter dari tanah adalah $3.000$ m, maka jarak tanda dari titik tepat di bawah helikopter adalah .... ($\\tan 52^\\circ = 1,280$; $\\cos 52^\\circ = 0,616$; $\\sin 52^\\circ = 0,788$)",
+    "pilihan": [
+      "5.111,57 m",
+      "4.752,00 m",
+      "3.974,60 m",
+      "2.343,75 m",
+      "1.850,25 m"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**1. Analisis Masalah:**\n- Tinggi helikopter (sisi depan sudut) = $3.000$ m.\n- Sudut depresi = $52^\\circ$. Berdasarkan konsep garis sejajar, sudut elevasi dari tanda ke helikopter juga $52^\\circ$.\n- Jarak horizontal yang dicari adalah sisi samping ($x$).\n\n**2. Menggunakan Fungsi Tangen:**\n$$\\tan 52^\\circ = \\frac{\\text{depan}}{\\text{samping}}$$\n$$1,280 = \\frac{3.000}{x}$$\n\n**3. Perhitungan Jarak (x):**\n$$x = \\frac{3.000}{1,280}$$\n$$x = 2.343,75 \\text{ m}$$\n\n**4. Kesimpulan:**\nJarak tanda dari titik tepat di bawah helikopter adalah **2.343,75 m**."
   }
+]
 ]
