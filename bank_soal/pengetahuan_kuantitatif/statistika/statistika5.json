@@ -2,161 +2,161 @@
   {
     "id": 1,
     "kategori": "Sedang",
-    "pertanyaan": "Rata-rata nilai 30 siswa = 7.5. Ditambah 5 siswa (rata-rata 8.0). Rata-rata baru adalah...",
+    "pertanyaan": "Rata-rata nilai dari 30 siswa adalah 7.5. Jika kemudian ditambah dengan nilai dari 5 siswa baru yang memiliki rata-rata 8.0, maka rata-rata nilai seluruh siswa sekarang adalah...",
     "pilihan": ["7.5", "7.57", "7.6", "7.7", "7.8"],
     "jawaban": "B",
-    "pembahasan": "Total nilai 30 siswa = 30×7.5=225. Total nilai 5 siswa = 5×8.0=40. Total nilai 35 siswa = 225+40=265. Rata-rata = 265/35≈7.57"
+    "pembahasan": "Total nilai 30 siswa = $30 \\times 7.5 = 225$. Total nilai 5 siswa baru = $5 \\times 8.0 = 40$. Total nilai 35 siswa = $225 + 40 = 265$. Rata-rata gabungan = $265 / 35 \\approx 7.57$."
   },
   {
     "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Kantong: 7 biru, 5 kuning, 3 merah. Peluang terambil bukan biru adalah...",
+    "pertanyaan": "Dalam sebuah kantong terdapat 7 kelereng biru, 5 kuning, dan 3 merah. Jika diambil satu kelereng secara acak, peluang terambil kelereng yang bukan berwarna biru adalah...",
     "pilihan": ["7/15", "8/15", "1/3", "2/5", "1/5"],
     "jawaban": "B",
-    "pembahasan": "Total kelereng = 15. Peluang biru = 7/15. Peluang bukan biru = 1-7/15=8/15"
+    "pembahasan": "Total kelereng $n(S) = 15$. Peluang biru $P(B) = 7/15$. Peluang bukan biru $P(B') = 1 - P(B) = 1 - 7/15 = 8/15$."
   },
   {
     "id": 3,
     "kategori": "Sedang",
-    "pertanyaan": "Dua dadu dilempar. Peluang dadu pertama genap dan dadu kedua ganjil adalah...",
+    "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang munculnya mata dadu pertama bernilai genap dan mata dadu kedua bernilai ganjil adalah...",
     "pilihan": ["1/12", "1/9", "1/6", "1/4", "1/2"],
     "jawaban": "D",
-    "pembahasan": "P(dadu1 genap)=3/6=1/2. P(dadu2 ganjil)=3/6=1/2. P(gabungan)=1/2×1/2=1/4"
+    "pembahasan": "$P(genap) = 3/6 = 1/2$. $P(ganjil) = 3/6 = 1/2$. Karena dua kejadian saling bebas, $P(A \\cap B) = 1/2 \\times 1/2 = 1/4$."
   },
   {
     "id": 4,
     "kategori": "Sedang",
-    "pertanyaan": "Dari 5 pria dan 3 wanita dipilih panitia 4 orang (2 pria, 2 wanita). Banyak cara adalah...",
+    "pertanyaan": "Dari 5 orang pria dan 3 orang wanita akan dipilih sebuah panitia yang terdiri dari 4 orang, dengan syarat terpilih 2 pria dan 2 wanita. Banyaknya cara pemilihan tersebut adalah...",
     "pilihan": ["10", "20", "30", "40", "60"],
     "jawaban": "C",
-    "pembahasan": "C(5,2)=10 cara pilih pria. C(3,2)=3 cara pilih wanita. Total=10×3=30"
+    "pembahasan": "Cara memilih pria: $C(5,2) = 10$. Cara memilih wanita: $C(3,2) = 3$. Total cara = $10 \\times 3 = 30$."
   },
   {
     "id": 5,
     "kategori": "Sedang",
-    "pertanyaan": "Modus data: 12,10,15,12,18,10,12,11 adalah...",
+    "pertanyaan": "Modus dari data berikut: 12, 10, 15, 12, 18, 10, 12, 11 adalah...",
     "pilihan": ["10", "11", "12", "15", "18"],
     "jawaban": "C",
-    "pembahasan": "Frekuensi: 10(2), 11(1), 12(3), 15(1), 18(1). Modus=12 (paling sering)"
+    "pembahasan": "Frekuensi muncul data: 10(2), 11(1), 12(3), 15(1), 18(1). Modus adalah nilai yang paling sering muncul, yaitu 12."
   },
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Kotak: 8 merah, 2 putih. Diambil 2 bola sekaligus. Peluang kedua merah adalah...",
+    "pertanyaan": "Dalam sebuah kotak terdapat 8 bola merah dan 2 bola putih. Jika diambil 2 bola sekaligus secara acak, peluang terambilnya kedua bola berwarna merah adalah...",
     "pilihan": ["1/45", "4/45", "14/45", "28/45", "4/5"],
     "jawaban": "D",
-    "pembahasan": "Total cara=C(10,2)=45. Cara 2 merah=C(8,2)=28. Peluang=28/45"
+    "pembahasan": "Total cara $n(S) = C(10,2) = 45$. Cara memilih 2 merah $n(A) = C(8,2) = 28$. Peluang = $28/45$."
   },
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Rata-rata 10 anak=8 tahun, 4 dewasa=30 tahun. Rata-rata gabungan adalah...",
+    "pertanyaan": "Rata-rata usia dari 10 anak adalah 8 tahun, sedangkan rata-rata usia 4 orang dewasa adalah 30 tahun. Rata-rata usia gabungan mereka adalah...",
     "pilihan": ["14 tahun", "14.28 tahun", "15 tahun", "16 tahun", "17 tahun"],
     "jawaban": "B",
-    "pembahasan": "Total usia anak=10×8=80. Total usia dewasa=4×30=120. Rata-rata gabungan=(80+120)/14=200/14≈14.28"
+    "pembahasan": "Total usia anak = $10 \\times 8 = 80$. Total usia dewasa = $4 \\times 30 = 120$. Rata-rata gabungan = $(80 + 120) / (10 + 4) = 200 / 14 \\approx 14.28$ tahun."
   },
   {
     "id": 8,
     "kategori": "Sedang",
-    "pertanyaan": "Kartu bridge diambil. Peluang terambil kartu bernomor genap adalah...",
+    "pertanyaan": "Dari satu set kartu bridge diambil satu kartu secara acak. Peluang terambilnya kartu yang bernomor genap (2, 4, 6, 8, 10) adalah...",
     "pilihan": ["5/26", "1/4", "5/13", "1/2", "3/4"],
     "jawaban": "C",
-    "pembahasan": "Kartu bernomor genap (2,4,6,8,10) ada 5×4=20. Peluang=20/52=5/13"
+    "pembahasan": "Ada 5 nomor genap pada setiap jenis kartu (heart, diamond, club, spade). Total kartu genap = $5 \\times 4 = 20$. Peluang = $20/52 = 5/13$."
   },
   {
     "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Dari 6 buku berbeda, banyak cara susun 3 buku berjajar adalah...",
+    "pertanyaan": "Dari 6 buah buku yang berbeda, akan disusun 3 buku secara berjajar di atas meja. Banyaknya susunan yang mungkin adalah...",
     "pilihan": ["20", "60", "120", "360", "720"],
     "jawaban": "C",
-    "pembahasan": "Permutasi P(6,3)=6×5×4=120"
+    "pembahasan": "Karena urutan susunan diperhatikan, gunakan permutasi: $P(6,3) = 6 \\times 5 \\times 4 = 120$."
   },
   {
     "id": 10,
     "kategori": "Sedang",
-    "pertanyaan": "P(lulus Bahasa)=0.9, P(lulus Biologi)=0.8. P(lulus keduanya) adalah...",
+    "pertanyaan": "Peluang seorang siswa lulus ujian Bahasa adalah 0.9 dan lulus ujian Biologi adalah 0.8. Peluang siswa tersebut lulus kedua mata pelajaran tersebut adalah...",
     "pilihan": ["0.1", "0.18", "0.72", "0.8", "0.9"],
     "jawaban": "C",
-    "pembahasan": "Kejadian saling bebas: P(A∩B)=P(A)×P(B)=0.9×0.8=0.72"
+    "pembahasan": "Mengasumsikan kejadian saling bebas: $P(A \\cap B) = P(A) \\times P(B) = 0.9 \\times 0.8 = 0.72$."
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Median dari tabel frekuensi: nilai 5(f=4),6(f=6),7(f=10),8(f=8),9(f=2) adalah...",
+    "pertanyaan": "Diberikan data dalam tabel frekuensi: nilai 5 (f=4), 6 (f=6), 7 (f=10), 8 (f=8), dan 9 (f=2). Median dari data tersebut adalah...",
     "pilihan": ["6", "6.5", "7", "7.5", "8"],
     "jawaban": "C",
-    "pembahasan": "Total frekuensi=30. Data ke-15 dan 16 berada di nilai 7. Median=7"
+    "pembahasan": "Total frekuensi $n = 30$. Median terletak pada rata-rata data ke-15 dan ke-16. Kedua data tersebut berada pada kelompok nilai 7, sehingga median = 7."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata kelas 30 siswa=75. Rata-rata laki-laki=70, perempuan=80. Jumlah perempuan adalah...",
+    "pertanyaan": "Rata-rata nilai ujian matematika sebuah kelas yang terdiri dari 30 siswa adalah 75. Jika rata-rata siswa laki-laki adalah 70 dan rata-rata siswa perempuan adalah 80, maka banyak siswa perempuan di kelas tersebut adalah...",
     "pilihan": ["10", "12", "15", "18", "20"],
     "jawaban": "C",
-    "pembahasan": "Misal P=jumlah perempuan, L=30-P. 70(30-P)+80P=30×75 → 2100-70P+80P=2250 → 10P=150 → P=15"
+    "pembahasan": "Misal $P$ = jumlah perempuan, maka laki-laki = $30 - P$. Persamaan: $70(30-P) + 80P = 30 \\times 75 \\rightarrow 2100 - 70P + 80P = 2250 \\rightarrow 10P = 150 \\rightarrow P = 15$."
   },
   {
     "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Kotak: 5 merah, 3 kuning, 2 hijau. Diambil 3 bola. Peluang 1 merah,1 kuning,1 hijau adalah...",
+    "pertanyaan": "Dalam sebuah kotak terdapat 5 bola merah, 3 bola kuning, dan 2 bola hijau. Jika diambil 3 bola sekaligus, peluang terambilnya 1 bola merah, 1 bola kuning, dan 1 bola hijau adalah...",
     "pilihan": ["1/4", "1/10", "1/12", "1/15", "1/20"],
     "jawaban": "A",
-    "pembahasan": "Total cara=C(10,3)=120. Cara 1M1K1H=C(5,1)×C(3,1)×C(2,1)=5×3×2=30. Peluang=30/120=1/4"
+    "pembahasan": "Total cara $n(S) = C(10,3) = 120$. Cara terambil 1M, 1K, 1H = $C(5,1) \\times C(3,1) \\times C(2,1) = 5 \\times 3 \\times 2 = 30$. Peluang = $30/120 = 1/4$."
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "P(A)=0.5, P(B)=0.6. Jika saling bebas, P(A atau B) adalah...",
+    "pertanyaan": "Diketahui $P(A) = 0.5$ dan $P(B) = 0.6$. Jika kejadian A dan B adalah kejadian yang saling bebas, maka nilai $P(A \\cup B)$ adalah...",
     "pilihan": ["0.1", "0.3", "0.8", "0.9", "0.95"],
     "jawaban": "C",
-    "pembahasan": "P(A∩B)=0.5×0.6=0.3. P(A∪B)=0.5+0.6-0.3=0.8"
+    "pembahasan": "$P(A \\cap B) = 0.5 \\times 0.6 = 0.3$. Maka, $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.5 + 0.6 - 0.3 = 0.8$."
   },
   {
     "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Simpangan baku data: 2,4,6,8,10 adalah...",
+    "pertanyaan": "Simpangan baku dari data berikut: 2, 4, 6, 8, 10 adalah...",
     "pilihan": ["√5", "√8", "√10", "√12", "√15"],
     "jawaban": "B",
-    "pembahasan": "Rata-rata=6. Variansi=[(2-6)²+(4-6)²+(6-6)²+(8-6)²+(10-6)²]/5=(16+4+0+4+16)/5=40/5=8. Simpangan baku=√8"
+    "pembahasan": "Rata-rata $\\bar{x} = 6$. Variansi $s^2 = [(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2] / 5 = (16+4+0+4+16)/5 = 8$. Simpangan baku $s = \\sqrt{8}$."
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Banyak bilangan 4 digit dari 0,1,2,3,4 (digit pertama≠0) adalah...",
+    "pertanyaan": "Berapa banyak bilangan yang terdiri dari 4 digit berbeda yang dapat dibentuk dari angka 0, 1, 2, 3, 4 dengan syarat angka pertama tidak boleh nol?",
     "pilihan": ["24", "48", "72", "96", "120"],
     "jawaban": "D",
-    "pembahasan": "Digit pertama:4 pilihan, digit kedua:4 pilihan, digit ketiga:3 pilihan, digit keempat:2 pilihan. Total=4×4×3×2=96"
+    "pembahasan": "Digit ke-1: 4 pilihan (1,2,3,4). Digit ke-2: 4 pilihan (termasuk 0). Digit ke-3: 3 pilihan. Digit ke-4: 2 pilihan. Total = $4 \\times 4 \\times 3 \\times 2 = 96$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Kotak: 6 merah, 4 putih. Diambil 2 tanpa pengembalian. Peluang putih pertama dan merah kedua adalah...",
+    "pertanyaan": "Dalam sebuah kotak terdapat 6 bola merah dan 4 bola putih. Jika diambil 2 bola satu per satu tanpa pengembalian, peluang terambilnya bola putih pada pengambilan pertama dan bola merah pada pengambilan kedua adalah...",
     "pilihan": ["4/15", "8/45", "1/15", "1/5", "2/5"],
     "jawaban": "A",
-    "pembahasan": "P(putih pertama)=4/10=2/5. P(merah kedua|putih pertama)=6/9=2/3. Peluang=2/5×2/3=4/15"
+    "pembahasan": "$P(P1) = 4/10 = 2/5$. Setelah bola putih diambil, sisa bola adalah 9 (6 merah, 3 putih). $P(M2|P1) = 6/9 = 2/3$. Peluang gabungan = $2/5 \\times 2/3 = 4/15$."
   },
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Atlet memanah (P=0.6). Memanah 5x, peluang tepat 3x kena adalah...",
+    "pertanyaan": "Seorang atlet memanah memiliki peluang mengenai sasaran sebesar 0.6. Jika ia memanah sebanyak 5 kali, peluang ia mengenai sasaran tepat sebanyak 3 kali adalah...",
     "pilihan": ["0.2304", "0.3456", "0.6000", "0.6630", "0.7680"],
     "jawaban": "B",
-    "pembahasan": "Distribusi binomial: P(X=3)=C(5,3)×0.6³×0.4²=10×0.216×0.16=0.3456"
+    "pembahasan": "Menggunakan distribusi binomial: $P(X=3) = C(5,3) \\times (0.6)^3 \\times (0.4)^2 = 10 \\times 0.216 \\times 0.16 = 0.3456$."
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata 4 bilangan=15. Ditambah p, rata-rata=16. Nilai p adalah...",
+    "pertanyaan": "Rata-rata dari 4 buah bilangan adalah 15. Jika ditambahkan sebuah bilangan $p$, maka rata-ratanya menjadi 16. Nilai dari $p$ adalah...",
     "pilihan": ["18", "19", "20", "21", "22"],
     "jawaban": "C",
-    "pembahasan": "Jumlah 4 bilangan=4×15=60. Jumlah 5 bilangan=5×16=80. p=80-60=20"
+    "pembahasan": "Jumlah awal = $4 \\times 15 = 60$. Jumlah setelah ditambah $p$ = $5 \\times 16 = 80$. Maka $p = 80 - 60 = 20$."
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "P(A)=0.4, P(B)=0.7, P(A∪B)=0.8. P(A∩B) adalah...",
+    "pertanyaan": "Diketahui $P(A) = 0.4$, $P(B) = 0.7$, dan $P(A \\cup B) = 0.8$. Maka nilai dari $P(A \\cap B)$ adalah...",
     "pilihan": ["0.1", "0.2", "0.3", "0.4", "0.5"],
     "jawaban": "C",
-    "pembahasan": "P(A∪B)=P(A)+P(B)-P(A∩B). 0.8=0.4+0.7-P(A∩B). P(A∩B)=1.1-0.8=0.3"
+    "pembahasan": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\rightarrow 0.8 = 0.4 + 0.7 - P(A \\cap B) \\rightarrow P(A \\cap B) = 1.1 - 0.8 = 0.3$."
   }
 ]
