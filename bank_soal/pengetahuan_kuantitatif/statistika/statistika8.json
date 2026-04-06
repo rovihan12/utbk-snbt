@@ -2,114 +2,114 @@
   {
     "id": 1,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kotak berisi 6 bola merah dan 4 bola putih. Dari kotak tersebut diambil 3 bola secara acak. Peluang terambilnya 2 bola merah dan 1 bola putih adalah...",
+    "pertanyaan": "Sebuah kotak berisi 6 bola merah dan 4 bola putih. Jika dari kotak tersebut diambil 3 bola sekaligus secara acak, peluang terambilnya tepat 2 bola merah dan 1 bola putih adalah...",
     "pilihan": ["1/2", "3/10", "1/3", "1/4", "2/5"],
     "jawaban": "A",
-    "pembahasan": "Total bola = $6 + 4 = 10$\nCara ambil 3 dari 10 = $C(10,3) = 120$\nCara ambil 2 merah dari 6 = $C(6,2) = 15$\nCara ambil 1 putih dari 4 = $C(4,1) = 4$\nTotal cara = $15 \\times 4 = 60$\nPeluang = $60/120 = 1/2$"
+    "pembahasan": "Total bola $n=10$. Cara mengambil 3 dari 10 adalah $n(S) = C(10,3) = 120$. Cara mengambil 2 merah dari 6 adalah $C(6,2) = 15$. Cara mengambil 1 putih dari 4 adalah $C(4,1) = 4$. Banyak kejadian $n(A) = 15 \\times 4 = 60$. Peluang $P(A) = 60/120 = 1/2$."
   },
   {
     "id": 2,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah dadu dilempar sebanyak 5 kali. Peluang munculnya mata dadu genap sebanyak 3 kali adalah...",
+    "pertanyaan": "Sebuah dadu dilempar sebanyak 5 kali. Peluang munculnya mata dadu bernilai genap tepat sebanyak 3 kali adalah...",
     "pilihan": ["5/16", "15/32", "25/64", "30/125", "1/2"],
     "jawaban": "A",
-    "pembahasan": "Distribusi binomial: $n=5$, $k=3$\n$p = 3/6 = 1/2$, $q = 1/2$\n$P(X=3) = C(5,3) \\times (1/2)^3 \\times (1/2)^2$\n= $10 \\times 1/8 \\times 1/4 = 10/32 = 5/16$"
+    "pembahasan": "Menggunakan distribusi binomial: $n=5, k=3$. Peluang genap $p = 1/2$, peluang ganjil $q = 1/2$. $P(X=3) = C(5,3) \\times (1/2)^3 \\times (1/2)^2 = 10 \\times 1/8 \\times 1/4 = 10/32 = 5/16$."
   },
   {
     "id": 3,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam suatu kelas, 60% siswa lulus matematika, 70% lulus fisika, dan 40% lulus keduanya. Jika dipilih 1 siswa secara acak, peluang siswa tersebut lulus matematika tetapi tidak lulus fisika adalah...",
+    "pertanyaan": "Dalam suatu kelas, diketahui 60% siswa lulus Matematika, 70% lulus Fisika, dan 40% lulus keduanya. Jika dipilih satu siswa secara acak, peluang siswa tersebut lulus Matematika tetapi tidak lulus Fisika adalah...",
     "pilihan": ["0.1", "0.2", "0.3", "0.4", "0.5"],
     "jawaban": "B",
-    "pembahasan": "$P(M) = 0.6$, $P(F) = 0.7$, $P(M \\cap F) = 0.4$\nLulus M tapi tidak F = $P(M) - P(M \\cap F)$\n= $0.6 - 0.4 = 0.2$"
+    "pembahasan": "Misal $M$ adalah lulus Matematika dan $F$ adalah lulus Fisika. $P(M) = 0.6, P(F) = 0.7, P(M \\cap F) = 0.4$. Peluang lulus $M$ saja (tidak lulus $F$) adalah $P(M) - P(M \\cap F) = 0.6 - 0.4 = 0.2$."
   },
   {
     "id": 4,
     "kategori": "Sulit",
-    "pertanyaan": "Sebanyak 7 orang (4 laki-laki dan 3 perempuan) duduk dalam satu baris. Banyak cara mereka duduk jika laki-laki dan perempuan harus berselang-seling adalah...",
+    "pertanyaan": "Terdapat 7 orang yang terdiri dari 4 laki-laki dan 3 perempuan yang akan duduk dalam satu baris. Banyak cara mereka duduk jika posisi laki-laki dan perempuan harus berselang-seling adalah...",
     "pilihan": ["72", "144", "288", "504", "1440"],
     "jawaban": "B",
-    "pembahasan": "Susunan: L-P-L-P-L-P-L\nCara susun laki-laki = $4! = 24$\nCara susun perempuan = $3! = 6$\nTotal cara = $24 \\times 6 = 144$"
+    "pembahasan": "Agar berselang-seling, formasi harus L-P-L-P-L-P-L. Banyak cara mengatur laki-laki = $4! = 24$. Banyak cara mengatur perempuan = $3! = 6$. Total cara = $24 \\times 6 = 144$."
   },
   {
     "id": 5,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata berat badan 12 siswa adalah 50 kg. Jika digabungkan dengan 8 siswa lain, rata-ratanya menjadi 52 kg. Rata-rata berat badan 8 siswa yang baru bergabung adalah...",
+    "pertanyaan": "Rata-rata berat badan 12 siswa adalah 50 kg. Jika digabungkan dengan 8 siswa lain, rata-rata berat badan seluruhnya menjadi 52 kg. Rata-rata berat badan 8 siswa yang baru bergabung adalah...",
     "pilihan": ["53 kg", "54 kg", "55 kg", "56 kg", "57 kg"],
     "jawaban": "C",
-    "pembahasan": "Total berat 12 siswa = $12 \\times 50 = 600$ kg\nTotal berat 20 siswa = $20 \\times 52 = 1040$ kg\nTotal berat 8 siswa baru = $1040 - 600 = 440$ kg\nRata-rata = $440/8 = 55$ kg"
+    "pembahasan": "Total berat 12 siswa = $12 \\times 50 = 600$ kg. Total berat 20 siswa ($12+8$) = $20 \\times 52 = 1040$ kg. Berat 8 siswa baru = $1040 - 600 = 440$ kg. Rata-rata 8 siswa baru = $440/8 = 55$ kg."
   },
   {
     "id": 6,
     "kategori": "Sulit",
-    "pertanyaan": "Jika median dari data 2, 4, 6, 8, $x$, 10, 12, 14 adalah 9, maka nilai $x$ adalah...",
+    "pertanyaan": "Diberikan data terurut: 2, 4, 6, 8, $x$, 10, 12, 14. Jika median dari data tersebut adalah 9, maka nilai $x$ adalah...",
     "pilihan": ["7", "8", "9", "10", "11"],
     "jawaban": "D",
-    "pembahasan": "Data terurut: 2, 4, 6, 8, $x$, 10, 12, 14\nMedian = $(8 + x)/2 = 9$\n$8 + x = 18$\n$x = 10$"
+    "pembahasan": "Data berjumlah genap ($n=8$). Median terletak di antara data ke-4 dan ke-5. Median = $(8 + x) / 2 = 9$. Maka $8 + x = 18$, sehingga $x = 10$."
   },
   {
     "id": 7,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kantong berisi 5 kelereng merah, 3 kelereng biru, dan 2 kelereng hijau. Dari kantong tersebut diambil 2 kelereng satu per satu tanpa pengembalian. Peluang terambil kelereng pertama merah dan kelereng kedua biru adalah...",
+    "pertanyaan": "Sebuah kantong berisi 5 kelereng merah, 3 kelereng biru, dan 2 kelereng hijau. Jika diambil 2 kelereng satu per satu tanpa pengembalian, peluang terambilnya kelereng pertama berwarna merah dan kelereng kedua berwarna biru adalah...",
     "pilihan": ["1/10", "3/10", "1/6", "1/3", "5/12"],
     "jawaban": "C",
-    "pembahasan": "Peluang pertama merah = $5/10 = 1/2$\nSisa: 4 merah, 3 biru, 2 hijau\nPeluang kedua biru = $3/9 = 1/3$\nTotal peluang = $1/2 \\times 1/3 = 1/6$"
+    "pembahasan": "$P(M_1) = 5/10 = 1/2$. Sisa kelereng = 9 (dengan 3 kelereng biru tetap utuh). $P(B_2|M_1) = 3/9 = 1/3$. Peluang total = $1/2 \\times 1/3 = 1/6$."
   },
   {
     "id": 8,
     "kategori": "Sulit",
-    "pertanyaan": "Dari 6 orang calon pengurus OSIS, akan dipilih ketua, wakil ketua, sekretaris, dan bendahara. Banyaknya cara memilih pengurus tersebut adalah...",
+    "pertanyaan": "Dari 6 orang calon pengurus OSIS, akan dipilih 4 orang untuk menjabat sebagai ketua, wakil ketua, sekretaris, dan bendahara. Banyaknya susunan pengurus yang mungkin adalah...",
     "pilihan": ["120", "240", "360", "480", "720"],
     "jawaban": "C",
-    "pembahasan": "Permutasi 4 dari 6:\n$P(6,4) = 6 \\times 5 \\times 4 \\times 3 = 360$"
+    "pembahasan": "Karena jabatan dibedakan, gunakan permutasi 4 dari 6: $P(6,4) = \\frac{6!}{(6-4)!} = 6 \\times 5 \\times 4 \\times 3 = 360$."
   },
   {
     "id": 9,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kotak berisi 10 bola, di antaranya 3 bola merah dan sisanya putih. Jika diambil 3 bola sekaligus secara acak, peluang terambil minimal 1 bola merah adalah...",
+    "pertanyaan": "Sebuah kotak berisi 10 bola, di mana 3 bola berwarna merah dan sisanya berwarna putih. Jika diambil 3 bola sekaligus secara acak, peluang terambilnya minimal 1 bola merah adalah...",
     "pilihan": ["3/10", "1/2", "1/3", "1/4", "17/24"],
     "jawaban": "E",
-    "pembahasan": "Total cara = $C(10,3) = 120$\nCara ambil 0 merah = $C(7,3) = 35$\nPeluang 0 merah = $35/120 = 7/24$\nPeluang minimal 1 merah = $1 - 7/24 = 17/24$"
+    "pembahasan": "Gunakan komplemen (1 - Peluang 0 merah). $n(S) = C(10,3) = 120$. Cara ambil 3 putih dari 7 putih = $C(7,3) = 35$. Peluang 0 merah = $35/120 = 7/24$. Peluang minimal 1 merah = $1 - 7/24 = 17/24$."
   },
   {
     "id": 10,
     "kategori": "Sulit",
-    "pertanyaan": "Variansi dari data 5, 6, 7, 8, 9 adalah...",
+    "pertanyaan": "Variansi (ragam) dari data: 5, 6, 7, 8, 9 adalah...",
     "pilihan": ["1.5", "2", "2.5", "3", "3.5"],
     "jawaban": "B",
-    "pembahasan": "Rata-rata = $35/5 = 7$\nVariansi = $\\frac{(5-7)^2+(6-7)^2+(7-7)^2+(8-7)^2+(9-7)^2}{5}$\n= $\\frac{4+1+0+1+4}{5} = 10/5 = 2$"
+    "pembahasan": "Rata-rata $\\bar{x} = 7$. Variansi $s^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n} = \\frac{(5-7)^2+(6-7)^2+(7-7)^2+(8-7)^2+(9-7)^2}{5} = \\frac{4+1+0+1+4}{5} = 10/5 = 2$."
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Jika diketahui $P(A) = 0.5$, $P(B) = 0.6$, dan $P(A \\cup B) = 0.8$, maka $P(A \\cap B)$ adalah...",
+    "pertanyaan": "Jika diketahui $P(A) = 0.5$, $P(B) = 0.6$, dan $P(A \\cup B) = 0.8$, maka nilai dari $P(A \\cap B)$ adalah...",
     "pilihan": ["0.1", "0.2", "0.3", "0.4", "0.5"],
     "jawaban": "C",
-    "pembahasan": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$\n$0.8 = 0.5 + 0.6 - P(A \\cap B)$\n$P(A \\cap B) = 1.1 - 0.8 = 0.3$"
+    "pembahasan": "Rumus: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$. $0.8 = 0.5 + 0.6 - P(A \\cap B)$. Maka $P(A \\cap B) = 1.1 - 0.8 = 0.3$."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kantong berisi 4 kelereng merah dan 6 kelereng putih. Jika diambil 2 kelereng secara acak, peluang terambilnya kelereng dengan warna yang berbeda adalah...",
+    "pertanyaan": "Sebuah kantong berisi 4 kelereng merah dan 6 kelereng putih. Jika diambil 2 kelereng secara acak sekaligus, peluang terambilnya kelereng dengan warna yang berbeda adalah...",
     "pilihan": ["4/15", "8/15", "1/2", "3/5", "7/15"],
     "jawaban": "B",
-    "pembahasan": "Total cara = $C(10,2) = 45$\nCara 1M1P = $C(4,1) \\times C(6,1) = 4 \\times 6 = 24$\nPeluang = $24/45 = 8/15$"
+    "pembahasan": "$n(S) = C(10,2) = 45$. Kejadian berbeda warna (1M dan 1P) = $C(4,1) \\times C(6,1) = 4 \\times 6 = 24$. Peluang = $24/45 = 8/15$."
   },
   {
     "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Dari 100 orang, 45 gemar matematika, 35 gemar fisika, dan 10 gemar keduanya. Banyaknya orang yang hanya gemar fisika adalah...",
+    "pertanyaan": "Dari 100 orang, diketahui 45 gemar Matematika, 35 gemar Fisika, dan 10 gemar keduanya. Banyaknya orang yang hanya gemar Fisika adalah...",
     "pilihan": ["10", "15", "20", "25", "30"],
     "jawaban": "D",
-    "pembahasan": "Gemar fisika = 35\nGemar keduanya = 10\nHanya gemar fisika = $35 - 10 = 25$"
+    "pembahasan": "Hanya Fisika = $n(Fisika) - n(Keduanya) = 35 - 10 = 25$."
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kelompok terdiri dari 3 siswa SMA dan 4 mahasiswa. Jika akan dipilih 2 siswa dan 2 mahasiswa untuk suatu acara, banyak cara pemilihan tersebut adalah...",
+    "pertanyaan": "Sebuah kelompok terdiri dari 3 siswa SMA dan 4 mahasiswa. Jika akan dipilih 2 siswa SMA dan 2 mahasiswa untuk menghadiri sebuah acara, banyak cara pemilihan tersebut adalah...",
     "pilihan": ["12", "18", "24", "36", "48"],
     "jawaban": "B",
-    "pembahasan": "Cara pilih 2 siswa = $C(3,2) = 3$\nCara pilih 2 mahasiswa = $C(4,2) = 6$\nTotal cara = $3 \\times 6 = 18$"
+    "pembahasan": "Memilih 2 dari 3 siswa SMA = $C(3,2) = 3$. Memilih 2 dari 4 mahasiswa = $C(4,2) = 6$. Total cara = $3 \\times 6 = 18$."
   },
   {
     "id": 15,
@@ -117,23 +117,23 @@
     "pertanyaan": "Dari angka-angka 1, 2, 3, 4, 5, 6 akan dibentuk bilangan genap yang terdiri dari 3 angka berbeda. Banyaknya bilangan yang dapat dibentuk adalah...",
     "pilihan": ["30", "40", "60", "72", "120"],
     "jawaban": "C",
-    "pembahasan": "Angka satuan genap: 2, 4, 6 (3 pilihan)\nAngka ratusan: 5 pilihan (sisa)\nAngka puluhan: 4 pilihan (sisa)\nTotal = $5 \\times 4 \\times 3 = 60$"
+    "pembahasan": "Tempatkan satuan dulu: 3 pilihan (2, 4, 6). Sisa angka untuk ratusan = 5 pilihan. Sisa angka untuk puluhan = 4 pilihan. Total = $3 \\times 5 \\times 4 = 60$."
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata berat badan 10 siswa laki-laki adalah 60 kg, dan rata-rata berat badan 15 siswa perempuan adalah 50 kg. Rata-rata berat badan gabungan dari seluruh siswa tersebut adalah...",
+    "pertanyaan": "Rata-rata berat badan 10 siswa laki-laki adalah 60 kg, dan rata-rata berat badan 15 siswa perempuan adalah 50 kg. Rata-rata berat badan gabungan dari seluruh siswa adalah...",
     "pilihan": ["53 kg", "54 kg", "55 kg", "56 kg", "57 kg"],
     "jawaban": "B",
-    "pembahasan": "Total berat laki = $10 \\times 60 = 600$ kg\nTotal berat perempuan = $15 \\times 50 = 750$ kg\nTotal semua = $600 + 750 = 1350$ kg\nRata-rata = $1350/25 = 54$ kg"
+    "pembahasan": "Rata-rata gabungan = $\\frac{(10 \\times 60) + (15 \\times 50)}{10 + 15} = \\frac{600 + 750}{25} = \\frac{1350}{25} = 54$ kg."
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam suatu populasi, 20% menderita penyakit A, 30% menderita penyakit B, dan 10% menderita keduanya. Jika dipilih 1 orang secara acak, peluang orang tersebut tidak menderita penyakit A maupun B adalah...",
+    "pertanyaan": "Dalam suatu populasi, 20% menderita penyakit A, 30% menderita penyakit B, dan 10% menderita keduanya. Jika dipilih 1 orang secara acak, peluang orang tersebut tidak menderita penyakit A maupun penyakit B adalah...",
     "pilihan": ["0.3", "0.4", "0.5", "0.6", "0.7"],
     "jawaban": "D",
-    "pembahasan": "$P(A \\cup B) = 0.2 + 0.3 - 0.1 = 0.4$\nTidak menderita keduanya = $1 - 0.4 = 0.6$"
+    "pembahasan": "$P(A \\cup B) = 0.2 + 0.3 - 0.1 = 0.4$. Peluang tidak menderita keduanya (komplemen) = $1 - 0.4 = 0.6$."
   },
   {
     "id": 18,
@@ -141,15 +141,15 @@
     "pertanyaan": "Median dari data berikut: 12, 15, 13, 16, 18, 14, 17 adalah...",
     "pilihan": ["13", "14", "15", "16", "17"],
     "jawaban": "C",
-    "pembahasan": "Data terurut: 12, 13, 14, 15, 16, 17, 18\nJumlah data ganjil (7)\nMedian = data ke-4 = 15"
+    "pembahasan": "Data diurutkan: 12, 13, 14, 15, 16, 17, 18. Karena $n=7$ (ganjil), median adalah data ke-$(7+1)/2 = 4$. Data ke-4 adalah 15."
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah grup berisi 5 pria dan 4 wanita, akan dipilih 3 orang untuk sebuah komite. Peluang komite tersebut berisi 2 pria dan 1 wanita adalah...",
+    "pertanyaan": "Dalam sebuah grup berisi 5 pria dan 4 wanita, akan dipilih 3 orang untuk menjadi anggota komite. Peluang komite tersebut berisi tepat 2 pria dan 1 wanita adalah...",
     "pilihan": ["10/21", "12/21", "14/21", "16/21", "18/21"],
     "jawaban": "A",
-    "pembahasan": "Total cara = $C(9,3) = 84$\nCara 2P1W = $C(5,2) \\times C(4,1) = 10 \\times 4 = 40$\nPeluang = $40/84 = 10/21$"
+    "pembahasan": "$n(S) = C(9,3) = 84$. $n(A) = C(5,2) \\times C(4,1) = 10 \\times 4 = 40$. Peluang = $40/84 = 10/21$."
   },
   {
     "id": 20,
@@ -157,6 +157,6 @@
     "pertanyaan": "Sebuah kotak berisi 5 kelereng merah dan 3 kelereng biru. Diambil 2 kelereng satu per satu tanpa pengembalian. Peluang terambilnya kelereng kedua berwarna biru jika diketahui kelereng pertama berwarna merah adalah...",
     "pilihan": ["1/2", "1/3", "3/8", "3/7", "5/8"],
     "jawaban": "D",
-    "pembahasan": "Setelah ambil 1 merah, sisa:\n4 merah, 3 biru\nTotal sisa = 7\nPeluang kedua biru = $3/7$"
+    "pembahasan": "Ini adalah peluang bersyarat. Diketahui kelereng pertama merah, maka sisa kelereng di kotak adalah 4 merah dan 3 biru (Total 7). Peluang terambil kelereng kedua biru adalah $3/7$."
   }
 ]
