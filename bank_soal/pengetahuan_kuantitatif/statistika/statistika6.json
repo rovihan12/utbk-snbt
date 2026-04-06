@@ -2,18 +2,18 @@
   {
     "id": 1,
     "kategori": "Sedang",
-    "pertanyaan": "Sebuah kelas terdiri dari 25 siswa. Nilai rata-rata ulangan Matematika adalah 70. Jika nilai rata-rata 5 siswa yang ikut remedial adalah 50, maka rata-rata nilai siswa yang tidak remedial adalah...",
+    "pertanyaan": "Sebuah kelas terdiri dari 25 siswa dengan nilai rata-rata ulangan Matematika 70. Jika nilai rata-rata 5 siswa yang mengikuti remedial adalah 50, maka rata-rata nilai siswa yang tidak mengikuti remedial adalah...",
     "pilihan": ["72", "75", "77", "80", "82"],
     "jawaban": "B",
-    "pembahasan": "Total nilai 25 siswa = $25 \\times 70 = 1750$\nTotal nilai 5 siswa remedial = $5 \\times 50 = 250$\nJumlah siswa tidak remedial = $25 - 5 = 20$\nTotal nilai siswa tidak remedial = $1750 - 250 = 1500$\nRata-rata = $1500 / 20 = 75$"
+    "pembahasan": "Total nilai 25 siswa = $25 \\times 70 = 1750$. Total nilai 5 siswa remedial = $5 \\times 50 = 250$. Jumlah siswa tidak remedial = $25 - 5 = 20$. Total nilai siswa tidak remedial = $1750 - 250 = 1500$. Rata-rata = $1500 / 20 = 75$."
   },
   {
     "id": 2,
     "kategori": "Sedang",
-    "pertanyaan": "Dalam sebuah kotak terdapat 10 bola hitam dan 6 bola putih. Jika diambil satu bola secara acak, peluang terambil bola putih adalah...",
+    "pertanyaan": "Dalam sebuah kotak terdapat 10 bola hitam dan 6 bola putih. Jika diambil satu bola secara acak, peluang terambilnya bola putih adalah...",
     "pilihan": ["3/8", "5/8", "1/2", "3/5", "2/5"],
     "jawaban": "A",
-    "pembahasan": "Total bola = $10 + 6 = 16$\nBola putih = 6\nPeluang = $6/16 = 3/8$"
+    "pembahasan": "Total bola $n(S) = 10 + 6 = 16$. Jumlah bola putih $n(A) = 6$. Peluang $P(A) = 6/16 = 3/8$."
   },
   {
     "id": 3,
@@ -21,60 +21,60 @@
     "pertanyaan": "Dua keping uang logam dilempar bersamaan. Peluang munculnya paling sedikit satu sisi gambar adalah...",
     "pilihan": ["1/4", "1/2", "3/4", "1/8", "7/8"],
     "jawaban": "C",
-    "pembahasan": "Ruang sampel: (A,A), (A,G), (G,A), (G,G)\nKejadian paling sedikit satu gambar: (A,G), (G,A), (G,G)\nPeluang = $3/4$"
+    "pembahasan": "Ruang sampel $S = \u007b(A,A), (A,G), (G,A), (G,G)\u007d$, maka $n(S) = 4$. Kejadian paling sedikit satu gambar $A = \u007b(A,G), (G,A), (G,G)\u007d$, maka $n(A) = 3$. Peluang = $3/4$."
   },
   {
     "id": 4,
     "kategori": "Sedang",
-    "pertanyaan": "Dari 7 orang calon pengurus, akan dipilih ketua, sekretaris, dan bendahara. Berapa banyak susunan pengurus yang mungkin terjadi?",
+    "pertanyaan": "Dari 7 orang calon pengurus, akan dipilih seorang ketua, sekretaris, dan bendahara. Banyaknya susunan pengurus yang mungkin terjadi adalah...",
     "pilihan": ["35", "70", "210", "420", "5040"],
     "jawaban": "C",
-    "pembahasan": "Permutasi 3 dari 7:\n$P(7,3) = \\frac{7!}{(7-3)!} = 7 \\times 6 \\times 5 = 210$"
+    "pembahasan": "Karena urutan jabatan diperhatikan, gunakan permutasi 3 dari 7: $P(7,3) = \\frac{7!}{(7-3)!} = 7 \\times 6 \\times 5 = 210$."
   },
   {
     "id": 5,
     "kategori": "Sedang",
-    "pertanyaan": "Median dari data: 18, 15, 12, 19, 14, 16, 20 adalah...",
+    "pertanyaan": "Median dari data berikut: 18, 15, 12, 19, 14, 16, 20 adalah...",
     "pilihan": ["14", "15", "16", "18", "19"],
     "jawaban": "C",
-    "pembahasan": "Data terurut: 12, 14, 15, 16, 18, 19, 20\nJumlah data ganjil (7 data)\nMedian = data ke-4 = 16"
+    "pembahasan": "Data diurutkan: 12, 14, 15, 16, 18, 19, 20. Karena jumlah data ganjil ($n=7$), median adalah data ke-4, yaitu 16."
   },
   {
     "id": 6,
     "kategori": "Sedang",
-    "pertanyaan": "Sebuah dadu dilemparkan sekali. Peluang muncul mata dadu prima adalah...",
+    "pertanyaan": "Sebuah dadu dilempar sekali secara acak. Peluang munculnya mata dadu bernilai bilangan prima adalah...",
     "pilihan": ["1/6", "1/3", "1/2", "2/3", "5/6"],
     "jawaban": "C",
-    "pembahasan": "Mata dadu prima: 2, 3, 5\nTotal kemungkinan = 3\nRuang sampel = 6\nPeluang = $3/6 = 1/2$"
+    "pembahasan": "Mata dadu prima $A = \u007b2, 3, 5\u007d$, maka $n(A) = 3$. Ruang sampel $n(S) = 6$. Peluang $P(A) = 3/6 = 1/2$."
   },
   {
     "id": 7,
     "kategori": "Sedang",
-    "pertanyaan": "Data nilai ulangan: 5, 6, 7, 7, 8, 8, 9, 10. Modus dari data tersebut adalah...",
+    "pertanyaan": "Diberikan data nilai ulangan sebagai berikut: 5, 6, 7, 7, 8, 8, 9, 10. Modus dari data tersebut adalah...",
     "pilihan": ["7", "8", "7 dan 8", "7.5", "8.5"],
     "jawaban": "C",
-    "pembahasan": "Angka 7 muncul 2 kali\nAngka 8 muncul 2 kali\nKeduanya muncul paling sering\nModus = 7 dan 8"
+    "pembahasan": "Angka 7 dan 8 masing-masing muncul sebanyak 2 kali (paling sering dibandingkan angka lain). Maka data ini bersifat bimodal dengan modus 7 dan 8."
   },
   {
     "id": 8,
     "kategori": "Sedang",
-    "pertanyaan": "Dalam suatu kelas terdapat 15 siswa laki-laki dan 10 siswa perempuan. Jika akan dipilih 2 siswa secara acak untuk mengikuti lomba, peluang terpilih keduanya laki-laki adalah...",
+    "pertanyaan": "Dalam suatu kelas terdapat 15 siswa laki-laki dan 10 siswa perempuan. Jika dipilih 2 siswa secara acak untuk mengikuti lomba, peluang terpilihnya keduanya laki-laki adalah...",
     "pilihan": ["7/20", "1/4", "7/25", "1/2", "3/5"],
     "jawaban": "A",
-    "pembahasan": "Total siswa = $15 + 10 = 25$\nCara memilih 2 dari 25 = $C(25,2) = 300$\nCara memilih 2 laki-laki dari 15 = $C(15,2) = 105$\nPeluang = $105/300 = 7/20$"
+    "pembahasan": "Total siswa $n = 25$. Cara memilih 2 dari 25 adalah $C(25,2) = 300$. Cara memilih 2 laki-laki dari 15 adalah $C(15,2) = 105$. Peluang = $105/300 = 7/20$."
   },
   {
     "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Rata-rata berat badan 8 orang adalah 60 kg. Setelah 2 orang keluar dari kelompok tersebut, rata-rata berat badan menjadi 62 kg. Rata-rata berat badan 2 orang yang keluar adalah...",
+    "pertanyaan": "Rata-rata berat badan 8 orang adalah 60 kg. Setelah 2 orang keluar dari kelompok, rata-rata berat badan menjadi 62 kg. Rata-rata berat badan 2 orang yang keluar tersebut adalah...",
     "pilihan": ["50 kg", "52 kg", "54 kg", "56 kg", "58 kg"],
     "jawaban": "C",
-    "pembahasan": "Total berat 8 orang = $8 \\times 60 = 480$ kg\nTotal berat 6 orang = $6 \\times 62 = 372$ kg\nTotal berat 2 orang keluar = $480 - 372 = 108$ kg\nRata-rata = $108 / 2 = 54$ kg"
+    "pembahasan": "Total berat 8 orang = $8 \\times 60 = 480$ kg. Total berat 6 orang tersisa = $6 \\times 62 = 372$ kg. Berat 2 orang yang keluar = $480 - 372 = 108$ kg. Rata-rata = $108 / 2 = 54$ kg."
   },
   {
     "id": 10,
     "kategori": "Sedang",
-    "pertanyaan": "Sebuah undian berhadiah terdapat 100 kupon, 20 di antaranya berhadiah. Jika seseorang membeli 5 kupon, peluang tidak ada kupon yang berhadiah adalah...",
+    "pertanyaan": "Dalam sebuah undian terdapat 100 kupon dan 20 di antaranya berhadiah. Jika seseorang membeli 5 kupon, peluang orang tersebut tidak mendapatkan satu pun kupon berhadiah adalah...",
     "pilihan": [
       "C(80,5)/C(100,5)",
       "C(20,0)/C(100,5)",
@@ -83,12 +83,12 @@
       "1 - C(80,5)/C(100,5)"
     ],
     "jawaban": "A",
-    "pembahasan": "Kupon tidak berhadiah = 80\nPeluang = $\\frac{C(80,5)}{C(100,5)}$"
+    "pembahasan": "Jumlah kupon tidak berhadiah = $100 - 20 = 80$. Cara memilih 5 kupon dari 100 adalah $C(100,5)$. Cara memilih 5 kupon dari yang tidak berhadiah adalah $C(80,5)$. Peluang = $C(80,5) / C(100,5)$."
   },
   {
     "id": 11,
     "kategori": "Sulit",
-    "pertanyaan": "Dari 10 soal pilihan ganda, setiap soal memiliki 5 pilihan jawaban dan hanya ada 1 jawaban yang benar. Jika seorang siswa menjawab secara acak, peluang siswa tersebut menjawab benar tepat 7 soal adalah...",
+    "pertanyaan": "Dari 10 soal pilihan ganda, setiap soal memiliki 5 pilihan jawaban (hanya 1 benar). Jika seorang siswa menjawab secara acak, peluang siswa tersebut menjawab benar tepat 7 soal adalah...",
     "pilihan": [
       "$C(10,7) \\times (1/5)^7 \\times (4/5)^3$",
       "$C(10,7) \\times (1/5)^3 \\times (4/5)^7$",
@@ -97,78 +97,78 @@
       "$(4/5)^3$"
     ],
     "jawaban": "A",
-    "pembahasan": "Distribusi binomial:\n$n=10$, $k=7$, $p=1/5$, $q=4/5$\n$P(X=7) = C(10,7) \\times (1/5)^7 \\times (4/5)^3$"
+    "pembahasan": "Menggunakan distribusi binomial: $n=10$, $k=7$, peluang sukses $p=1/5$, dan peluang gagal $q=4/5$. Rumus: $P(X=k) = C(n,k) \\times p^k \\times q^{n-k}$."
   },
   {
     "id": 12,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah survei menunjukkan 70% siswa menyukai pelajaran Matematika, 60% menyukai pelajaran Fisika, dan $x$% menyukai keduanya. Jika 10% siswa tidak menyukai Matematika maupun Fisika, maka nilai $x$ adalah...",
+    "pertanyaan": "Sebuah survei menunjukkan 70% siswa menyukai Matematika, 60% menyukai Fisika, dan $x$% menyukai keduanya. Jika 10% siswa tidak menyukai keduanya, maka nilai $x$ adalah...",
     "pilihan": ["30", "40", "50", "60", "70"],
     "jawaban": "B",
-    "pembahasan": "$P(M) = 0.7$, $P(F) = 0.6$\n$P(M \\cup F) = 1 - 0.1 = 0.9$\n$P(M \\cup F) = P(M) + P(F) - P(M \\cap F)$\n$0.9 = 0.7 + 0.6 - x/100$\n$x/100 = 0.4$\n$x = 40$"
+    "pembahasan": "$P(M \\cup F) = 100\\% - 10\\% = 90\\%$. Menggunakan rumus himpunan: $P(M \\cup F) = P(M) + P(F) - P(M \\cap F) \\rightarrow 90 = 70 + 60 - x \\rightarrow 90 = 130 - x \\rightarrow x = 40$."
   },
   {
     "id": 13,
     "kategori": "Sulit",
-    "pertanyaan": "Diberikan data: 3, 5, 7, 9, 11. Variansi dari data tersebut adalah...",
+    "pertanyaan": "Diberikan data: 3, 5, 7, 9, 11. Variansi (ragam) dari data tersebut adalah...",
     "pilihan": ["4", "6", "8", "10", "12"],
     "jawaban": "C",
-    "pembahasan": "Rata-rata = $\\frac{3+5+7+9+11}{5} = 7$\nVariansi = $\\frac{(3-7)^2+(5-7)^2+(7-7)^2+(9-7)^2+(11-7)^2}{5}$\n= $\\frac{16+4+0+4+16}{5} = \\frac{40}{5} = 8$"
+    "pembahasan": "Rata-rata $\\bar{x} = 7$. Variansi $s^2 = \\frac{\\sum(x_i - \\bar{x})^2}{n} = \\frac{(3-7)^2+(5-7)^2+(7-7)^2+(9-7)^2+(11-7)^2}{5} = \\frac{16+4+0+4+16}{5} = 8$."
   },
   {
     "id": 14,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah kotak berisi 6 kelereng merah dan 4 kelereng biru. Diambil 2 kelereng secara berurutan tanpa pengembalian. Peluang kelereng yang terambil berbeda warna adalah...",
+    "pertanyaan": "Sebuah kotak berisi 6 kelereng merah dan 4 kelereng biru. Diambil 2 kelereng satu per satu tanpa pengembalian. Peluang kelereng yang terambil berbeda warna adalah...",
     "pilihan": ["8/15", "7/15", "4/15", "2/15", "1/15"],
     "jawaban": "A",
-    "pembahasan": "Kasus 1: Merah lalu Biru\n$P = (6/10) \\times (4/9) = 24/90$\nKasus 2: Biru lalu Merah\n$P = (4/10) \\times (6/9) = 24/90$\nTotal = $48/90 = 8/15$"
+    "pembahasan": "Dua kemungkinan: (Merah, Biru) atau (Biru, Merah). $P(M,B) = (6/10) \\times (4/9) = 24/90$. $P(B,M) = (4/10) \\times (6/9) = 24/90$. Total peluang = $48/90 = 8/15$."
   },
   {
     "id": 15,
     "kategori": "Sulit",
-    "pertanyaan": "Sebanyak 6 siswa laki-laki dan 4 siswa perempuan akan duduk melingkar. Berapa banyak cara mereka dapat duduk jika siswa perempuan harus duduk berdampingan?",
+    "pertanyaan": "Sebanyak 6 siswa laki-laki dan 4 siswa perempuan akan duduk melingkar. Banyaknya cara mereka duduk jika semua siswa perempuan harus duduk berdampingan adalah...",
     "pilihan": ["17280", "14400", "28800", "72000", "144000"],
     "jawaban": "A",
-    "pembahasan": "Anggap 4 perempuan sebagai 1 blok\nTotal unit = 6 laki + 1 blok = 7\nSusunan melingkar = $(7-1)! = 6! = 720$\nSusunan dalam blok = $4! = 24$\nTotal = $720 \\times 24 = 17280$"
+    "pembahasan": "4 perempuan dianggap 1 blok. Total objek = 6 laki-laki + 1 blok = 7 objek. Permutasi siklis 7 objek = $(7-1)! = 720$. Di dalam blok, 4 perempuan dapat bertukar posisi sebanyak $4! = 24$ cara. Total cara = $720 \\times 24 = 17280$."
   },
   {
     "id": 16,
     "kategori": "Sulit",
-    "pertanyaan": "Sebuah variabel acak X berdistribusi normal dengan rata-rata 50 dan simpangan baku 10. Peluang $X > 65$ adalah... (Gunakan tabel Z-score: Z=1.5 = 0.9332)",
+    "pertanyaan": "Variabel acak $X$ berdistribusi normal dengan $\\mu = 50$ dan $\\sigma = 10$. Peluang $X > 65$ adalah... (Diketahui tabel Z-score: $P(Z \\leq 1.5) = 0.9332$)",
     "pilihan": ["0.0668", "0.1587", "0.0228", "0.8413", "0.9332"],
     "jawaban": "A",
-    "pembahasan": "$Z = \\frac{65-50}{10} = 1.5$\n$P(X > 65) = P(Z > 1.5)$\n= $1 - P(Z \\leq 1.5)$\n= $1 - 0.9332 = 0.0668$"
+    "pembahasan": "$Z = (65-50)/10 = 1.5$. $P(X > 65) = P(Z > 1.5) = 1 - P(Z \\leq 1.5) = 1 - 0.9332 = 0.0668$."
   },
   {
     "id": 17,
     "kategori": "Sulit",
-    "pertanyaan": "Dalam sebuah kotak terdapat 10 tiket, 3 di antaranya berhadiah. Jika diambil 2 tiket secara acak, peluang keduanya berhadiah adalah...",
+    "pertanyaan": "Dalam sebuah kotak terdapat 10 tiket, 3 di antaranya berhadiah. Jika diambil 2 tiket secara acak sekaligus, peluang keduanya berhadiah adalah...",
     "pilihan": ["1/15", "1/30", "3/10", "1/5", "2/15"],
     "jawaban": "A",
-    "pembahasan": "Cara mengambil 2 dari 10 = $C(10,2) = 45$\nCara mengambil 2 berhadiah dari 3 = $C(3,2) = 3$\nPeluang = $3/45 = 1/15$"
+    "pembahasan": "Total cara $C(10,2) = 45$. Cara mengambil 2 tiket berhadiah dari 3 adalah $C(3,2) = 3$. Peluang = $3/45 = 1/15$."
   },
   {
     "id": 18,
     "kategori": "Sulit",
-    "pertanyaan": "Rata-rata nilai ujian Matematika di suatu kelas adalah 72. Simpangan baku 10. Jika seorang siswa memiliki nilai 82, maka nilai standar (Z-score) siswa tersebut adalah...",
+    "pertanyaan": "Rata-rata nilai ujian Matematika adalah 72 dengan simpangan baku 10. Jika seorang siswa memiliki nilai 82, maka nilai standar ($Z$-score) siswa tersebut adalah...",
     "pilihan": ["-1", "0.5", "1", "1.5", "2"],
     "jawaban": "C",
-    "pembahasan": "$Z = \\frac{X - \\mu}{\\sigma}$\n= $\\frac{82 - 72}{10}$\n= $\\frac{10}{10} = 1$"
+    "pembahasan": "$Z = (X - \\mu) / \\sigma = (82 - 72) / 10 = 10 / 10 = 1$."
   },
   {
     "id": 19,
     "kategori": "Sulit",
-    "pertanyaan": "Jika ada 5 orang yang ingin berfoto bersama dan mereka akan duduk di sebuah bangku yang hanya cukup untuk 3 orang, berapa banyak cara mereka dapat duduk?",
+    "pertanyaan": "Jika ada 5 orang yang ingin berfoto bersama, namun bangku yang tersedia hanya cukup untuk 3 orang, banyaknya susunan posisi duduk yang mungkin adalah...",
     "pilihan": ["10", "20", "60", "120", "1"],
     "jawaban": "C",
-    "pembahasan": "Permutasi 3 dari 5:\n$P(5,3) = 5 \\times 4 \\times 3 = 60$"
+    "pembahasan": "Karena posisi duduk memperhatikan urutan, gunakan permutasi 3 dari 5: $P(5,3) = 5 \\times 4 \\times 3 = 60$."
   },
   {
     "id": 20,
     "kategori": "Sulit",
-    "pertanyaan": "Peluang kejadian A adalah 0.6, peluang kejadian B adalah 0.3. Jika A dan B adalah kejadian saling eksklusif (mutually exclusive), peluang A atau B terjadi adalah...",
+    "pertanyaan": "Peluang kejadian $A$ adalah 0.6 dan peluang kejadian $B$ adalah 0.3. Jika $A$ dan $B$ adalah kejadian saling lepas (mutually exclusive), maka peluang kejadian $A$ atau $B$ terjadi adalah...",
     "pilihan": ["0.18", "0.3", "0.6", "0.9", "1.0"],
     "jawaban": "D",
-    "pembahasan": "Kejadian saling eksklusif:\n$P(A \\cup B) = P(A) + P(B)$\n= $0.6 + 0.3 = 0.9$"
+    "pembahasan": "Untuk kejadian saling lepas: $P(A \\cup B) = P(A) + P(B) = 0.6 + 0.3 = 0.9$."
   }
 ]
