@@ -106,5 +106,20 @@
     ],
     "jawaban": "D",
     "pembahasan": "**1. Analisis Masalah:**\n- Tinggi helikopter (sisi depan sudut) = $3.000$ m.\n- Sudut depresi = $52^\\circ$. Berdasarkan konsep garis sejajar, sudut elevasi dari tanda ke helikopter juga $52^\\circ$.\n- Jarak horizontal yang dicari adalah sisi samping ($x$).\n\n**2. Menggunakan Fungsi Tangen:**\n$$\\tan 52^\\circ = \\frac{\\text{depan}}{\\text{samping}}$$\n$$1,280 = \\frac{3.000}{x}$$\n\n**3. Perhitungan Jarak (x):**\n$$x = \\frac{3.000}{1,280}$$\n$$x = 2.343,75 \\text{ m}$$\n\n**4. Kesimpulan:**\nJarak tanda dari titik tepat di bawah helikopter adalah **2.343,75 m**."
+  },
+  {
+    "id": 8,
+    "kategori": "Sulit",
+    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/image_7eae52.png",
+    "pertanyaan": "Pada segitiga $ABC$, diketahui $\\sin A = \\frac{1}{2}$ dan $\\cos A \\cdot \\cos B = \\frac{1}{2}\\sqrt{2}$. Nilai dari $\\frac{|AC|}{|AB|} = \\dots$",
+    "pilihan": [
+      "$\\frac{1}{2}(\\sqrt{6} - \\sqrt{2})$",
+      "$\\sqrt{6} - \\sqrt{2}$",
+      "$\\frac{3}{2}(\\sqrt{6} - \\sqrt{2})$",
+      "$2(\\sqrt{6} - \\sqrt{2})$",
+      "$2(\\sqrt{3} - \\sqrt{2})$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "**1. Mencari Nilai $\\cos A$:**\nDiketahui $\\sin A = \\frac{1}{2}$, maka $\\cos A = \\sqrt{1 - \\sin^2 A} = \\sqrt{1 - \\frac{1}{4}} = \\frac{1}{2}\\sqrt{3}$.\n\n**2. Mencari Nilai $\\cos B$ dan $\\sin B$:**\nDari $\\cos A \\cdot \\cos B = \\frac{1}{2}\\sqrt{2}$:\n$\\frac{1}{2}\\sqrt{3} \\cdot \\cos B = \\frac{1}{2}\\sqrt{2} \\Rightarrow \\cos B = \\frac{\\sqrt{2}}{\\sqrt{3}}$.\nMaka $\\sin B = \\sqrt{1 - \\cos^2 B} = \\sqrt{1 - \\frac{2}{3}} = \\frac{1}{\\sqrt{3}}$.\n\n**3. Mencari Nilai $\\sin C$:**\nDalam segitiga, $\\sin C = \\sin(180^\\circ - (A+B)) = \\sin(A+B)$.\n$\\sin C = \\sin A \\cos B + \\cos A \\sin B$\n$\\sin C = (\\frac{1}{2})(\\frac{\\sqrt{2}}{\\sqrt{3}}) + (\\frac{\\sqrt{3}}{2})(\\frac{1}{\\sqrt{3}}) = \\frac{\\sqrt{2} + \\sqrt{3}}{2\\sqrt{3}}$.\n\n**4. Menggunakan Aturan Sinus:**\n$\\frac{|AC|}{\\sin B} = \\frac{|AB|}{\\sin C} \\Rightarrow \\frac{|AC|}{|AB|} = \\frac{\\sin B}{\\sin C}$\n$\\frac{|AC|}{|AB|} = \\frac{1/\\sqrt{3}}{(\\sqrt{2} + \\sqrt{3}) / 2\\sqrt{3}} = \\frac{2}{\\sqrt{3} + \\sqrt{2}}$.\n\n**5. Rasionalisasi:**\n$\\frac{2}{\\sqrt{3} + \\sqrt{2}} \\times \\frac{\\sqrt{3} - \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} = 2(\\sqrt{3} - \\sqrt{2})$.\n\nJadi, nilai $\\frac{|AC|}{|AB|}$ adalah $2(\\sqrt{3} - \\sqrt{2})$."
   }
 ]
