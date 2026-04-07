@@ -15,22 +15,22 @@
     "jawaban": "A",
     "pembahasan": "Total siswa = 15 + 25 = 40. Peluang laki-laki = 15/40 = 3/8"
   },
-  {
-    "id": 3,
-    "kategori": "Mudah",
-    "pertanyaan": "Kantong berisi 5 kelereng merah dan 3 kelereng biru. Peluang terambil kelereng biru adalah...",
-    "pilihan": ["3/8", "5/8", "1/2", "3/5", "2/3"],
-    "jawaban": "A",
-    "pembahasan": "Total kelereng = 5 + 3 = 8. Peluang biru = 3/8"
-  },
-  {
-    "id": 4,
-    "kategori": "Sedang",
-    "pertanyaan": "Rata-rata dari data 5, 7, 6, 8, 4 adalah...",
-    "pilihan": ["5", "5.5", "6", "6.5", "7"],
-    "jawaban": "C",
-    "pembahasan": "Mean = (5+7+6+8+4)/5 = 30/5 = 6"
-  },
+   {
+      "id": 3,
+      "kategori": "Sulit",
+      "pertanyaan": "Rata-rata berat badan dari 10 siswa adalah 55 kg. Jika ditambah dengan berat badan 2 siswa baru, rata-ratanya menjadi 56 kg. Jika selisih berat badan kedua siswa baru tersebut adalah 4 kg, maka berat badan siswa yang lebih berat adalah...",
+      "pilihan": ["60 kg", "61 kg", "62 kg", "63 kg", "64 kg"],
+      "jawaban": "D",
+      "pembahasan": "Total berat 10 siswa = 550 kg. Total berat 12 siswa = $12 \\times 56 = 672$ kg. Jumlah berat 2 siswa baru = $672 - 550 = 122$ kg. Misal siswa tersebut $x$ dan $y$: $x + y = 122$ dan $x - y = 4$. Dijumlahkan: $2x = 126 \\rightarrow x = 63$ kg."
+    },
+    {
+      "id": 5,
+      "kategori": "Sulit",
+      "pertanyaan": "Data tinggi badan (dalam cm) 8 siswa adalah: 150, 152, 155, 158, x, 162, 165, 170. Jika diketahui jangkauan data tersebut adalah 22 cm, maka nilai x yang mungkin sebagai nilai terkecil adalah...",
+      "pilihan": ["145", "148", "150", "152", "154"],
+      "jawaban": "B",
+      "pembahasan": "Jangkauan = Max - Min. Diketahui Max = 170 dan Jangkauan = 22. Maka $170 - x = 22 \\rightarrow x = 148$."
+    },
   {
     "id": 5,
     "kategori": "Sedang",
