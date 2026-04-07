@@ -109,7 +109,7 @@
     "pertanyaan": "Dari satu set kartu bridge diambil satu kartu secara acak. Peluang terambil kartu bergambar (J, Q, K) atau kartu berwarna merah adalah...",
     "pilihan": ["1/2", "1/13", "8/13", "11/26", "19/52"],
     "jawaban": "C",
-    "pembahasan": "P(Bergambar) = 12/52, P(Merah) = 26/52, P(Irisan) = 6/52. $P(B \cup M) = \\frac{12+26-6}{52} = \\frac{32}{52} = 8/13$."
+    "pembahasan": "P(Bergambar) = 12/52, P(Merah) = 26/52, P(Irisan) = 6/52. $P(B \\cup M) = \\frac{12+26-6}{52} = \\frac{32}{52} = 8/13$."
   },
   {
     "id": 15,
@@ -157,6 +157,6 @@
     "pertanyaan": "Dalam produksi bola lampu, terdapat 5% produk cacat. Jika diambil sampel 10 bola lampu secara acak, peluang terdapat tepat 2 bola lampu cacat adalah...",
     "pilihan": ["0.0746", "0.0812", "0.0914", "0.0988", "0.1049"],
     "jawaban": "A",
-    "pembahasan": "$P(X=2) = C(10,2) \\times (0.05)^2 \times (0.95)^8 = 45 \\times 0.0025 \\times 0.6634 \approx 0.0746$."
+    "pembahasan": "$P(X=2) = C(10,2) \\times (0.05)^2 \times (0.95)^8 = 45 \\times 0.0025 \\times 0.6634 \\approx 0.0746$."
   }
 ]
