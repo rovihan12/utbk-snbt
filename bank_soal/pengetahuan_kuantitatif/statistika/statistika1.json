@@ -151,11 +151,11 @@
   },
   {
     "id": 19,
-    "kategori": "Sulit",
-    "pertanyaan": "Dari 5 putra dan 4 putri akan dibentuk tim berisi 3 orang dengan syarat minimal ada 1 putri. Banyak tim yang mungkin adalah...",
-    "pilihan": ["70", "74", "76", "80", "84"],
-    "jawaban": "B",
-    "pembahasan": "Total cara = C(9,3) = 84. Cara tanpa putri (semua putra) = C(5,3) = 10. Minimal 1 putri = 84 - 10 = 74"
+    "kategori": "Sedang",
+    "pertanyaan": "Suatu kelas terdiri atas 10 murid laki-laki dan 20 murid perempuan. Setengah dari murid laki-laki dan setengah dari murid perempuan memakai jam tangan. Jika dipilih satu murid, maka peluang terpilihnya murid laki-laki atau yang memakai jam tangan adalah....",
+    "pilihan": ["1/3", "1/2", "2/3", "3/4", "5/6"],
+    "jawaban": "C",
+    "pembahasan": "Jumlah murid ($n(S)$) = 30. \n- Murid laki-laki ($n(L)$) = 10. \n- Murid pakai jam ($n(J)$) = 5 (L) + 10 (P) = 15. \n- Laki-laki pakai jam ($n(L \\cap J)$) = 5. \n- Peluang laki-laki atau pakai jam: $P(L \\cup J) = P(L) + P(J) - P(L \\cap J) = \\frac{10}{30} + \\frac{15}{30} - \\frac{5}{30} = \\frac{20}{30} = \\frac{2}{3}$."
   },
   {
     "id": 20,
