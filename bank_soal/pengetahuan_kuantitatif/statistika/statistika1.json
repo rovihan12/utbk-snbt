@@ -66,10 +66,16 @@
   {
     "id": 9,
     "kategori": "Sedang",
-    "pertanyaan": "Dari 10 orang kandidat akan dipilih seorang Ketua, Sekretaris, dan Bendahara. Banyak cara pemilihan adalah...",
-    "pilihan": ["120", "240", "360", "720", "1000"],
-    "jawaban": "D",
-    "pembahasan": "Permutasi P(10,3) = 10 × 9 × 8 = 720 cara"
+    "pertanyaan": "Indah memperoleh nilai secara berurutan $90, 80, 75,$ dan $60$ untuk 4 mata pelajaran. Di pelajaran ke-5 Indah memperoleh nilai $85$. Manakah pernyataan yang benar?\n(1) Rata-rata 4 mata pelajarannya adalah 77\n(2) Rata-rata 3 pelajaran pertama adalah 81,67\n(3) Rata-rata 5 pelajarannya adalah 80\n(4) Rata-rata 5 pelajarannya adalah 78",
+    "pilihan": [
+      "1, 2, dan 3",
+      "1 dan 3",
+      "2 dan 4",
+      "4 saja",
+      "Semua benar"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1. Rata-rata 4 pelajaran: $305/4 = 76,25$ (Pernyataan 1 Salah). \n2. Rata-rata 3 pelajaran pertama: $245/3 \\approx 81,67$ (Pernyataan 2 Benar). \n3. Rata-rata 5 pelajaran: $(305+85)/5 = 78$ (Pernyataan 3 Salah, Pernyataan 4 Benar). \nJadi, pernyataan 2 dan 4 benar."
   },
   {
     "id": 10,
