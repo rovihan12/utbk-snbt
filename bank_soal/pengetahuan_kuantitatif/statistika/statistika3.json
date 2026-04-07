@@ -61,7 +61,7 @@
     "pertanyaan": "Peluang A lulus ujian adalah 0.8 dan peluang B lulus adalah 0.7. Jika kedua kejadian saling bebas, peluang keduanya lulus adalah...",
     "pilihan": ["0.1", "0.14", "0.56", "0.7", "0.8"],
     "jawaban": "C",
-    "pembahasan": "Kejadian saling bebas: $P(A \cap B) = P(A) \times P(B) = 0.8 \times 0.7 = 0.56$."
+    "pembahasan": "Kejadian saling bebas: $P(A \\cap B) = P(A) \times P(B) = 0.8 \times 0.7 = 0.56$."
   },
   {
     "id": 9,
@@ -85,7 +85,7 @@
     "pertanyaan": "Hasil survei: 70% siswa suka olahraga, 50% suka seni, dan 10% tidak suka keduanya. Persentase siswa yang suka keduanya adalah...",
     "pilihan": ["10%", "20%", "30%", "40%", "50%"],
     "jawaban": "C",
-    "pembahasan": "$P(O \cup S) = 1 - 0.1 = 0.9$. $P(O \cap S) = P(O) + P(S) - P(O \cup S) = 0.7 + 0.5 - 0.9 = 0.3 = 30%$."
+    "pembahasan": "$P(O \\cup S) = 1 - 0.1 = 0.9$. $P(O \\cap S) = P(O) + P(S) - P(O \\cup S) = 0.7 + 0.5 - 0.9 = 0.3 = 30%$."
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "pertanyaan": "P(lulus Matematika) = 0.7, P(lulus Fisika) = 0.6. Jika P(lulus Matematika saja) = 0.3, maka peluang tidak lulus keduanya adalah...",
     "pilihan": ["0.1", "0.2", "0.3", "0.4", "0.5"],
     "jawaban": "A",
-    "pembahasan": "$P(M \cap F) = P(M) - P(M saja) = 0.7 - 0.3 = 0.4$. $P(M \cup F) = 0.7 + 0.6 - 0.4 = 0.9$. $P(tidak keduanya) = 1 - 0.9 = 0.1$."
+    "pembahasan": "$P(M \\cap F) = P(M) - P(M saja) = 0.7 - 0.3 = 0.4$. $P(M \\cup F) = 0.7 + 0.6 - 0.4 = 0.9$. $P(tidak keduanya) = 1 - 0.9 = 0.1$."
   },
   {
     "id": 16,
