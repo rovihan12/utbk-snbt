@@ -136,18 +136,18 @@
     "pembahasan": "Diketahui $p = \\frac{\\sin x - 1}{\\cos x}$ dan $q = \\sin x$. Maka $\\frac{p}{q} = \\frac{\\sin x - 1}{\\sin x \\cos x}$.\n\n Kalikan pembilang dan penyebut dengan $(\\sin x + 1)$, sehingga: $\\frac{p}{q} = \\frac{\\sin^2 x - 1}{\\sin x \\cos x (\\sin x + 1)}$.\n\n Menggunakan identitas $\\sin^2 x - 1 = -\\cos^2 x$,\n\n maka: $\\frac{p}{q} = \\frac{-\\cos^2 x}{\\cos x (\\sin^2 x + \\sin x)} = \\frac{-\\cos x}{\\sin^2 x + \\sin x}$."
   },
   {
-    "id": 10,
+    "id": 22,
     "kategori": "Sulit",
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/trigonometri/image/Trigonometri_gedung.jpeg",
-    "pertanyaan": "Seorang pengamat berada di atas gedung setinggi 7 m. Ia melihat puncak menara listrik dengan sudut elevasi 60° dan bagian dasar menara yang sejajar dengan dasar gedung dengan sudut depresi 45°. Tinggi menara tersebut adalah...",
+    "pertanyaan": "Seorang pengamat berada di atas gedung setinggi $7$ m. Ia melihat puncak menara listrik dengan sudut elevasi $60^\circ$ dan bagian dasar menara yang sejajar dengan dasar gedung dengan sudut depresi $45^\circ$. Tinggi menara tersebut adalah...",
     "pilihan": [
-      "7(1 + √3) m",
-      "7(1 - √2) m",
-      "14√3 m",
-      "7√6 m",
-      "14(1 + √3) m"
+      "$7(1 + \\sqrt{3})$ m",
+      "$7(1 - \\sqrt{2})$ m",
+      "$14\\sqrt{3}$ m",
+      "$7\\sqrt{6}$ m",
+      "$14(1 + \\sqrt{3})$ m"
     ],
     "jawaban": "A",
-    "pembahasan": "1. Cari jarak mendatar (x) menggunakan sudut depresi 45°: tan(45°) = 7/x -> 1 = 7/x -> x = 7 m. \n2. Cari tinggi bagian atas menara (h2) menggunakan sudut elevasi 60°: tan(60°) = h2/x -> √3 = h2/7 -> h2 = 7√3 m. \n3. Tinggi total menara (h) = tinggi gedung + h2 = 7 + 7√3 = 7(1 + √3) m."
+    "pembahasan": "1. Misal jarak mendatar antara gedung dan menara adalah $x$. Menggunakan sudut depresi $45^\circ$: \n$\\tan(45^\circ) = \\frac{7}{x} \\Rightarrow 1 = \\frac{7}{x} \\Rightarrow x = 7$ m. \n\n2. Misal tinggi menara di atas garis pandang mendatar adalah $h_2$. Menggunakan sudut elevasi $60^\circ$: \n$\\tan(60^\circ) = \\frac{h_2}{x} \\Rightarrow \\sqrt{3} = \\frac{h_2}{7} \\Rightarrow h_2 = 7\\sqrt{3}$ m. \n\n3. Tinggi total menara ($h$) adalah jumlah tinggi gedung dan $h_2$: \n$h = 7 + 7\\sqrt{3} = 7(1 + \\sqrt{3})$ m."
   }
 ]
