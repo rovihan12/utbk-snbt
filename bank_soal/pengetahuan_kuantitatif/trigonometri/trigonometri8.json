@@ -120,5 +120,19 @@
     ],
     "jawaban": "E",
     "pembahasan": "**1. Mencari Nilai $\\cos A$:**\nDiketahui $\\sin A = \\frac{1}{2}$, maka $\\cos A = \\sqrt{1 - \\sin^2 A} = \\sqrt{1 - \\frac{1}{4}} = \\frac{1}{2}\\sqrt{3}$.\n\n**2. Mencari Nilai $\\cos B$ dan $\\sin B$:**\nDari $\\cos A \\cdot \\cos B = \\frac{1}{2}\\sqrt{2}$:\n$\\frac{1}{2}\\sqrt{3} \\cdot \\cos B = \\frac{1}{2}\\sqrt{2} \\Rightarrow \\cos B = \\frac{\\sqrt{2}}{\\sqrt{3}}$.\nMaka $\\sin B = \\sqrt{1 - \\cos^2 B} = \\sqrt{1 - \\frac{2}{3}} = \\frac{1}{\\sqrt{3}}$.\n\n**3. Mencari Nilai $\\sin C$:**\nDalam segitiga, $\\sin C = \\sin(180^\\circ - (A+B)) = \\sin(A+B)$.\n$\\sin C = \\sin A \\cos B + \\cos A \\sin B$\n$\\sin C = (\\frac{1}{2})(\\frac{\\sqrt{2}}{\\sqrt{3}}) + (\\frac{\\sqrt{3}}{2})(\\frac{1}{\\sqrt{3}}) = \\frac{\\sqrt{2} + \\sqrt{3}}{2\\sqrt{3}}$.\n\n**4. Menggunakan Aturan Sinus:**\n$\\frac{|AC|}{\\sin B} = \\frac{|AB|}{\\sin C} \\Rightarrow \\frac{|AC|}{|AB|} = \\frac{\\sin B}{\\sin C}$\n$\\frac{|AC|}{|AB|} = \\frac{1/\\sqrt{3}}{(\\sqrt{2} + \\sqrt{3}) / 2\\sqrt{3}} = \\frac{2}{\\sqrt{3} + \\sqrt{2}}$.\n\n**5. Rasionalisasi:**\n$\\frac{2}{\\sqrt{3} + \\sqrt{2}} \\times \\frac{\\sqrt{3} - \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} = 2(\\sqrt{3} - \\sqrt{2})$.\n\nJadi, nilai $\\frac{|AC|}{|AB|}$ adalah $2(\\sqrt{3} - \\sqrt{2})$."
+  },
+  {
+    "id": 0,
+    "kategori": "Sulit",
+    "pertanyaan": "Jika $p = \\tan x - \\frac{1}{\\cos x}$ dan $q = \\sin x$, maka nilai dari $\\frac{p}{q}$ adalah...",
+    "pilihan": [
+      "$\\frac{\\cos x}{\\sin^2 x - \\sin x}$",
+      "$\\frac{\\cos x}{\\sin^2 x + \\sin x}$",
+      "$\\frac{-\\cos x}{\\sin^2 x - \\cos x}$",
+      "$\\frac{-\\cos x}{\\sin^2 x + \\cos x}$",
+      "$\\frac{-\\cos x}{\\sin^2 x + \\sin x}$"
+    ],
+    "jawaban": "E",
+    "pembahasan": "Diketahui $p = \\frac{\\sin x - 1}{\\cos x}$ dan $q = \\sin x$. Maka $\\frac{p}{q} = \\frac{\\sin x - 1}{\\sin x \\cos x}$.\n\n Kalikan pembilang dan penyebut dengan $(\\sin x + 1)$, sehingga: $\\frac{p}{q} = \\frac{\\sin^2 x - 1}{\\sin x \\cos x (\\sin x + 1)}$.\n\n Menggunakan identitas $\\sin^2 x - 1 = -\\cos^2 x$,\n\n maka: $\\frac{p}{q} = \\frac{-\\cos^2 x}{\\cos x (\\sin^2 x + \\sin x)} = \\frac{-\\cos x}{\\sin^2 x + \\sin x}$."
   }
 ]
