@@ -80,13 +80,13 @@
     "pembahasan": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\rightarrow 0,8 = 0,6 + 0,5 - P(A \\cap B) \\rightarrow P(A \\cap B) = 1,1 - 0,8 = 0,3$."
   },
   {
-    "id": 11,
-    "kategori": "Sedang",
-    "pertanyaan": "Satu kartu diambil secara acak dari satu set kartu bridge (52 kartu). Peluang terambil kartu As atau kartu berwarna hati (heart) adalah...",
-    "pilihan": ["4/13", "1/4", "1/13", "17/52", "16/52"],
-    "jawaban": "A",
-    "pembahasan": "$P(As) = 4/52$, $P(Hati) = 13/52$, $P(As \\cap Hati) = 1/52$. $P(As \\cup Hati) = \\frac{4+13-1}{52} = 16/52 = 4/13$."
-  },
+      "id": 11,
+      "kategori": "Mudah",
+      "pertanyaan": "Sebuah kotak berisi 40 butir telur dengan 3 diantaranya dalam kondisi busuk. Jika 1 telur dipilih secara acak, maka peluang terpilihnya satu telur tidak busuk adalah....",
+      "pilihan": ["37/40", "32/40", "21/40", "15/40", "9/40"],
+      "jawaban": "A",
+      "pembahasan": "Jumlah telur tidak busuk = 40 - 3 = 37. Peluang terpilih telur tidak busuk = 37/40."
+    },
   {
     "id": 12,
     "kategori": "Sedang",
