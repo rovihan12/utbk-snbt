@@ -1,15 +1,16 @@
 [
   {
-    "id": 1,
-    "pertanyaan": "Sedang pengembangan",
-    "pilihan": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "jawaban": "A",
-    "pembahasan": "Sedang pengembangan."
-  }
+      "id": 1,
+      "kategori": "Sedang",
+      "pertanyaan": "Jika panjang dua sisi terpendek segitiga siku-siku adalah $7$ cm dan $24$ cm. Manakah pernyataan di bawah berikut yang benar?\n1) Kelilingnya adalah $56$ cm\n2) Luas segitiga tersebut adalah $84$ cm$^2$\n3) Sisi miring segitiga tersebut adalah $25$ cm\n4) Keliling > luas",
+      "pilihan": [
+        "1, 2, dan 3",
+        "1 dan 3",
+        "2 dan 4",
+        "4 saja",
+        "Semua benar"
+      ],
+      "jawaban": "A",
+      "pembahasan": "1. Sisi miring ($c$) = $\\sqrt{7^2 + 24^2} = 25$ cm (Pernyataan 3 Benar). \n2. Keliling = $7 + 24 + 25 = 56$ cm (Pernyataan 1 Benar). \n3. Luas = $\\frac{1}{2} \\times 7 \\times 24 = 84$ cm$^2$ (Pernyataan 2 Benar). \n4. Cek Keliling > Luas: $56 > 84$ (Salah). \nJadi, pernyataan yang benar adalah 1, 2, dan 3."
+    }
 ]
