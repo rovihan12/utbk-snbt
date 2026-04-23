@@ -113,10 +113,16 @@
   },
   {
     "id": 17,
-    "pertanyaan": "Sebuah balok memiliki panjang $12$ cm, lebar $8$ cm, dan tinggi $6$ cm. Berapa panjang diagonal ruangnya?",
-    "pilihan": ["$\\sqrt{244}$ cm", "$\\sqrt{264}$ cm", "$\\sqrt{284}$ cm", "$\\sqrt{304}$ cm", "$\\sqrt{324}$ cm"],
-    "jawaban": "A",
-    "pembahasan": "Diagonal ruang $= \\sqrt{12^2 + 8^2 + 6^2} = \\sqrt{244}$ cm."
+    "pertanyaan": "Dewi membeli 3 kg abon ayam, 2 kg abon sapi, dan 1 kg abon ikan dengan total harga Rp390.000. Temannya membeli 2 kg abon ayam, 2 kg abon sapi, dan 1 kg abon ikan dengan total harga Rp340.000. Berdasarkan informasi tersebut, berapakah harga 1 kg abon ayam?",
+    "pilihan": [
+      "Rp40.000",
+      "Rp45.000",
+      "Rp50.000",
+      "Rp55.000",
+      "Rp60.000"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nMisalkan:\n* $x$ = harga 1 kg abon ayam\n* $y$ = harga 1 kg abon sapi\n* $z$ = harga 1 kg abon ikan\n\nBerdasarkan soal, kita memiliki dua persamaan:\n1. Belanjaan Dewi: $3x + 2y + z = 390.000$\n2. Belanjaan Temannya: $2x + 2y + z = 340.000$\n\nUntuk mencari harga 1 kg abon ayam ($x$), kita bisa menggunakan metode eliminasi dengan mengurangkan persamaan (1) dengan persamaan (2):\n\n$(3x + 2y + z) - (2x + 2y + z) = 390.000 - 340.000$\n$x = 50.000$\n\nJadi, harga 1 kg abon ayam adalah **Rp50.000**.\n\n**Cara Cepat**:\n\nSelisih belanjaan mereka hanya terletak pada jumlah abon ayam (Dewi beli 3 kg, temannya 2 kg, selisih 1 kg), sedangkan jumlah abon sapi dan ikan sama. Maka, selisih harga total adalah harga 1 kg abon ayam:\n$390.000 - 340.000 = 50.000$."
   },
   {
     "id": 18,
