@@ -50,93 +50,121 @@
   },
   {
     "id": 8,
-    "pertanyaan": "Sebuah tabung memiliki volume 1.540 cm³ dan tinggi 10 cm. Berapakah diameter tabung tersebut? (Gunakan $\\pi=\\tfrac{22}{7}$)",
-    "pilihan": ["10 cm", "12 cm", "14 cm", "16 cm", "18 cm"],
-    "jawaban": "C",
-    "pembahasan": "Rumus volume tabung: $V=\\pi r^2 h$.\n\n$1540=\\tfrac{22}{7}r^2(10)$.\n\n$r^2=49 \\Rightarrow r=7$ cm.\n\nDiameter $=14$ cm.\n\n**Jadi, diameter tabung adalah 14 cm.**"
-  },
-  {
-    "id": 9,
     "pertanyaan": "Perbandingan uang Ani dan Budi adalah 4:5. Jika selisih uang mereka Rp300.000,00, berapa jumlah uang mereka bersama?",
     "pilihan": ["Rp1.800.000", "Rp2.100.000", "Rp2.400.000", "Rp2.700.000", "Rp3.000.000"],
     "jawaban": "D",
     "pembahasan": "Selisih rasio $=5-4=1$ bagian $=300.000$.\n\nJumlah rasio $=4+5=9$.\n\nJumlah uang $=9 \\times 300.000=2.700.000$ rupiah.\n\n**Jadi, jumlah uang mereka adalah Rp2.700.000,00.**"
-  },
+  },  
   {
-    "id": 10,
-    "pertanyaan": "Sebuah segitiga sama sisi memiliki panjang sisi 12 cm. Berapa tinggi segitiga tersebut?",
-    "pilihan": ["$4\\sqrt{3}\\ \\text{cm}$", "$6\\sqrt{3}\\ \\text{cm}$", "$8\\sqrt{3}\\ \\text{cm}$", "$10\\sqrt{3}\\ \\text{cm}$", "$12\\sqrt{3}\\ \\text{cm}$"],
-    "jawaban": "B",
-    "pembahasan": "Tinggi segitiga sama sisi $=\\tfrac{\\sqrt{3}}{2}s$.\n\nDengan $s=12$: tinggi $=6\\sqrt{3}\\ \\text{cm}$.\n\n**Jadi, tinggi segitiga adalah $6\\sqrt{3}\\ \\text{cm}$.**"
-  },
-  {
-    "id": 11,
-    "pertanyaan": "Jika $x+\\tfrac{1}{x}=5$, maka nilai dari $x^2+\\tfrac{1}{x^2}$ adalah...",
-    "pilihan": ["21", "22", "23", "24", "25"],
-    "jawaban": "C",
-    "pembahasan": "$(x+\\tfrac{1}{x})^2=x^2+2+\\tfrac{1}{x^2}$.\n\n$25=x^2+2+\\tfrac{1}{x^2}$.\n\nMaka $x^2+\\tfrac{1}{x^2}=23$.\n\n**Jadi, jawabannya 23.**"
-  },
-  {
-    "id": 12,
+    "id": 9,
     "pertanyaan": "Sebuah kereta berangkat dari A ke B dengan kecepatan 80 km/jam dan kembali dari B ke A dengan kecepatan 120 km/jam. Berapa kecepatan rata-rata perjalanan seluruhnya?",
     "pilihan": ["92 km/jam", "94 km/jam", "96 km/jam", "98 km/jam", "100 km/jam"],
     "jawaban": "C",
     "pembahasan": "Gunakan rata-rata harmonik:\n\n$v_{avg}=\\dfrac{2}{\\tfrac{1}{80}+\\tfrac{1}{120}}=\\dfrac{480}{5}=96$ km/jam.\n\n**Jadi, kecepatan rata-rata adalah 96 km/jam.**"
   },
   {
-    "id": 13,
-    "pertanyaan": "Sebuah lingkaran memiliki keliling 44 cm. Berapa luas lingkaran tersebut? (Gunakan $\\pi=\\tfrac{22}{7}$)",
-    "pilihan": ["120 cm²", "132 cm²", "138 cm²", "144 cm²", "154 cm²"],
-    "jawaban": "E",
-    "pembahasan": "Keliling $=2\\pi r=44 \\Rightarrow r=7$ cm.\n\nLuas $=\\pi r^2=\\tfrac{22}{7}\\times49=154$ cm².\n\n**Jadi, luas lingkaran adalah 154 cm².**"
-  },
-  {
-    "id": 14,
+    "id": 10,
     "pertanyaan": "Sebuah pekerjaan dapat diselesaikan oleh 8 orang dalam 15 hari. Setelah bekerja 5 hari, 2 orang sakit. Berapa hari total yang dibutuhkan?",
     "pilihan": ["18 hari", "19 hari", "20 hari", "21 hari", "22 hari"],
     "jawaban": "B",
     "pembahasan": "Total kerja $=8\\times15=120$ hari-orang.\n\nPekerjaan selesai 5 hari: $8\\times5=40$ hari-orang.\n\nSisa pekerjaan $=120-40=80$ hari-orang.\n\nSetelah 2 orang sakit → sisa pekerja $=6$.\n\nWaktu tambahan $=80/6=13\\tfrac{1}{3}$ hari.\n\nTotal waktu $=5+13\\tfrac{1}{3}=18\\tfrac{1}{3}$ hari.\n\n**Karena harus diselesaikan penuh, total waktu = 19 hari.**"
   },
   {
-    "id": 15,
+    "id": 11,
     "pertanyaan": "Sebuah dadu dilempar 2 kali. Berapa peluang jumlah mata dadu = 8?",
     "pilihan": ["5/36", "1/6", "7/36", "1/9", "1/12"],
     "jawaban": "A",
     "pembahasan": "Pasangan yang jumlahnya 8: $(2,6),(3,5),(4,4),(5,3),(6,2)$.\n\nJumlah kasus $=5$, total kemungkinan $=36$.\n\nPeluang $=5/36$.\n\n**Jadi, jawabannya adalah 5/36.**"
   },
   {
-    "id": 16,
+    "id": 12,
     "pertanyaan": "Sebuah bola dijatuhkan dari ketinggian 12 m. Setiap kali memantul, bola mencapai $\\tfrac{3}{4}$ tinggi sebelumnya. Berapa total jarak bola hingga berhenti?",
     "pilihan": ["48 m", "72 m", "84 m", "96 m", "108 m"],
     "jawaban": "C",
     "pembahasan": "Jatuh pertama $=12$ m.\n\nPantulan membentuk deret geometri: $12(\\tfrac{3}{4}), 12(\\tfrac{3}{4})^2, ...$\n\nTotal jarak $=12+2\\sum_{k=1}^\\infty 12(\\tfrac{3}{4})^k$.\n\n$=12+24\\cdot \\dfrac{3/4}{1-3/4}=12+72=84$ m.\n\n**Jadi, total jarak = 84 m.**"
   },
   {
-    "id": 17,
+    "id": 13,
     "pertanyaan": "Sebuah persegi panjang memiliki panjang 5 cm lebih dari lebarnya. Jika kelilingnya 38 cm, berapa luasnya?",
     "pilihan": ["84 cm²", "90 cm²", "96 cm²", "100 cm²", "104 cm²"],
     "jawaban": "A",
     "pembahasan": "Lebar $=x$, panjang $=x+5$.\n\nKeliling $=2(x+(x+5))=38 \\Rightarrow 4x+10=38 \\Rightarrow x=7$.\n\nLuas $=7\\times12=84$ cm².\n\n**Jadi, luasnya 84 cm².**"
   },
   {
-    "id": 18,
+    "id": 14,
     "pertanyaan": "Sebuah toko memberikan diskon bertingkat 20% lalu 15% pada barang seharga Rp500.000,00. Berapa harga setelah diskon?",
     "pilihan": ["Rp300.000", "Rp320.000", "Rp340.000", "Rp360.000", "Rp380.000"],
     "jawaban": "C",
     "pembahasan": "Diskon pertama: $500.000\\times0.8=400.000$.\n\nDiskon kedua: $400.000\\times0.85=340.000$ rupiah.\n\n**Jadi, harga setelah diskon adalah Rp340.000,00.**"
   },
   {
-    "id": 19,
+    "id": 15,
     "pertanyaan": "Dua bilangan berselisih 8. Hasil kali keduanya 240. Berapa jumlah kedua bilangan tersebut?",
     "pilihan": ["28", "30", "32", "34", "36"],
     "jawaban": "C",
     "pembahasan": "Misal bilangan $x$ dan $y$, dengan $x-y=8$ dan $xy=240$.\n\nGunakan identitas: $(x+y)^2=(x-y)^2+4xy$.\n\n$=(8)^2+4(240)=1024 \\Rightarrow x+y=32$.\n\n**Jadi, jumlah kedua bilangan adalah 32.**"
   },
   {
-    "id": 20,
+    "id": 16,
     "pertanyaan": "Sebuah tangga sepanjang 10 m bersandar pada tembok. Jika jarak kaki tangga ke tembok = 6 m, berapa tinggi tembok yang dicapai tangga?",
     "pilihan": ["6 m", "7 m", "8 m", "9 m", "10 m"],
     "jawaban": "C",
     "pembahasan": "Gunakan teorema Pythagoras:\n\nTinggi $=\\sqrt{10^2-6^2}=\\sqrt{64}=8$ m.\n\n**Jadi, tinggi tembok yang dicapai tangga adalah 8 m.**"
+  },
+  {
+    "id": 17,
+    "topik": "Sistem Persamaan Linear",
+    "pertanyaan": "Di suatu toko bangunan harga jual 2 kaleng cat kayu, 3 kaleng cat tembok, dan 1 kaleng cat besi adalah Rp318.000,00, sementara harga jual 1 kaleng cat kayu dan 2 kaleng cat besi adalah Rp102.000,00. Jika Pak Tono membeli 1 kaleng cat kayu, 1 kaleng cat tembok, dan 1 kaleng cat besi di toko tersebut, ia harus membayar sebanyak ....",
+    "pilihan": [
+      "Rp128.000,00",
+      "Rp132.000,00",
+      "Rp136.000,00",
+      "Rp140.000,00",
+      "Rp144.000,00"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah 1: Membuat Model Matematika**\nMisal x = cat kayu, y = cat tembok, z = cat besi.\n(1) 2x + 3y + z = 318.000\n(2) x + 2z = 102.000\n\n**Langkah 2: Mencari Nilai (x + y + z)**\nJumlahkan kedua persamaan:\n(2x + 3y + z) + (x + 2z) = 318.000 + 102.000\n3x + 3y + 3z = 420.000\n\n**Langkah 3: Sederhanakan**\nBagi kedua ruas dengan 3:\nx + y + z = 140.000.\n\n**Jadi, Pak Tono harus membayar Rp140.000,00.**"
+  },
+  {
+    "id": 18,
+    "topik": "Sistem Persamaan Linear",
+    "pertanyaan": "Selisih harga 1 kaleng cat tembok dengan 1 kaleng cat besi adalah ....",
+    "pilihan": [
+      "Rp40.000,00",
+      "Rp38.000,00",
+      "Rp36.000,00",
+      "Rp34.000,00",
+      "Rp32.000,00"
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah 1: Gunakan Persamaan dari Soal Sebelumnya**\n(A) x + y + z = 140.000\n(B) x + 2z = 102.000 -> x = 102.000 - 2z\n\n**Langkah 2: Substitusi**\nSubstitusi x ke persamaan (A):\n(102.000 - 2z) + y + z = 140.000\ny - z + 102.000 = 140.000\ny - z = 140.000 - 102.000\ny - z = 38.000.\n\n**Jadi, selisihnya adalah Rp38.000,00.**"
+  },
+  {
+    "id": 19,
+    "topik": "Sistem Persamaan Linear",
+    "pertanyaan": "Jika Pak Kirman membeli 5 kaleng cat kayu, 6 kaleng cat tembok, dan 4 kaleng cat besi di toko tersebut, ia harus membayar sebanyak ....",
+    "pilihan": [
+      "Rp620.000,00",
+      "Rp622.000,00",
+      "Rp634.000,00",
+      "Rp738.000,00",
+      "Rp836.000,00"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah 1: Analisis Kebutuhan**\nDitanya: 5x + 6y + 4z\n\n**Langkah 2: Manipulasi Persamaan**\nGunakan 2 kali Persamaan (1) ditambah Persamaan (2):\n2(2x + 3y + z) + (x + 2z) = 2(318.000) + 102.000\n(4x + 6y + 2z) + (x + 2z) = 636.000 + 102.000\n5x + 6y + 4z = 738.000.\n\n**Jadi, Pak Kirman membayar Rp738.000,00.**"
+  },
+  {
+    "id": 20,
+    "topik": "Sistem Persamaan Linear",
+    "pertanyaan": "Jika harga cat naik, kenaikan harga cat kayu per kaleng adalah 1/2 kali kenaikan harga cat tembok per kaleng. Harga cat besi tidak mengalami kenaikan. Jika selisih harga cat tembok dan cat besi per kaleng sekarang Rp48.000,00, maka kenaikan harga cat tembok per kaleng adalah ....",
+    "pilihan": [
+      "Rp8.000,00",
+      "Rp9.000,00",
+      "Rp10.000,00",
+      "Rp11.000,00",
+      "Rp12.000,00"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah 1: Identifikasi Selisih Awal**\nDari soal No. 2, selisih awal (y - z) = 38.000.\n\n**Langkah 2: Model Kenaikan**\nMisal kenaikan cat tembok = Δy.\nHarga baru tembok = y + Δy.\nHarga baru besi = z (tetap).\nSelisih baru = (y + Δy) - z = 48.000.\n\n**Langkah 3: Hitung Δy**\n(y - z) + Δy = 48.000\n38.000 + Δy = 48.000\nΔy = 10.000.\n\n**Kenaikan harga cat tembok adalah Rp10.000,00.**"
   }
 ]
