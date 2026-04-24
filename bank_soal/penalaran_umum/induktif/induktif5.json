@@ -41,16 +41,16 @@
   },
   {
     "id": 5,
-    "pertanyaan": "Observasi 1: Hampir semua ponsel merek X yang dirilis tahun lalu memiliki kamera berkualitas tinggi.\nObservasi 2: Ponsel model terbaru merek X juga diklaim memiliki kamera berkualitas tinggi.\n\nKesimpulan induktif yang paling mungkin adalah...",
+    "pertanyaan": "Diketahui data bahasa buatan sebagai berikut:\n- 'Lopa na-tuna' berarti 'Adik makan apel'\n- 'Lopa ma-tuna' berarti 'Adik makan jeruk'\n- 'Gani na-tune' berarti 'Kakak sudah makan apel'\n- 'Hito ma-pira' berarti 'Ibu memotong jeruk'\n\nBagaimana cara mengatakan 'Kakak sudah memotong apel' dalam bahasa tersebut?",
     "pilihan": [
-      "Semua ponsel merek X memiliki kamera berkualitas tinggi.",
-      "Ponsel merek X cenderung memiliki kamera berkualitas tinggi.",
-      "Kualitas kamera ponsel merek X tidak konsisten.",
-      "Hanya ponsel merek X tahun lalu yang memiliki kamera berkualitas tinggi.",
-      "Tidak ada kesimpulan yang bisa ditarik."
+      "Gani na-pira",
+      "Gani ma-pire",
+      "Gani na-pire",
+      "Hito na-tune",
+      "Lopa ma-pire"
     ],
-    "jawaban": "B",
-    "pembahasan": "Berdasarkan rekam jejak (track record) tahun lalu dan informasi model terbaru, dapat disimpulkan adanya kecenderungan kualitas pada merek tersebut."
+    "jawaban": "C",
+    "pembahasan": "Analisis Pola:\n1. Subjek: 'Lopa' = Adik, 'Gani' = Kakak, 'Hito' = Ibu.\n2. Kata Kerja Dasar: 'Tuna' = Makan, 'Pira' = Memotong.\n3. Awalan (Objek): 'na-' digunakan jika objeknya 'Apel', 'ma-' digunakan jika objeknya 'Jeruk'.\n4. Akhiran (Waktu): Akhiran '-a' (tuna/pira) untuk waktu sekarang. Akhiran '-e' (tune/pire) untuk waktu lampau/sudah.\n\nUntuk menyusun 'Kakak sudah memotong apel':\n- Kakak = Gani\n- Sudah (Lampau) = Akhiran '-e' pada kata kerja.\n- Memotong = Pira (menjadi 'Pire')\n- Apel = Awalan 'na-'\n\nSusunan: Gani na-pire."
   },
   {
     "id": 6,
