@@ -14,10 +14,16 @@
   },
   {
     "id": 2,
-    "pertanyaan": "Sebuah deret geometri tak hingga memiliki suku pertama 12 dan rasio 1/3. Jumlah deret tersebut adalah...",
-    "pilihan": ["15", "16", "18", "20", "24"],
-    "jawaban": "C",
-    "pembahasan": "Gunakan rumus deret geometri tak hingga: \\( S = \\frac{a}{1 - r} = \\frac{12}{1 - \\frac{1}{3}} = \\frac{12}{\\frac{2}{3}} = 18 \\). Jadi, jumlahnya adalah **18**."
+    "pertanyaan": "Seekor ayam memiliki 2 kaki. Jika di dalam sebuah kandang terdapat 10 ekor ayam, berapakah total jumlah kaki semua ayam tersebut?",
+    "pilihan": [
+      "12",
+      "15",
+      "18",
+      "20",
+      "22"
+    ],
+    "jawaban": "D",
+    "pembahasan": "Untuk mencari total jumlah kaki, kita menggunakan operasi perkalian antara jumlah ekor ayam dengan jumlah kaki yang dimiliki setiap ekornya. \n\n**Langkah Perhitungan:** \n* Jumlah ayam = 10 \n* Kaki per ayam = 2 \n* Total kaki = $10 \\times 2 = 20$. \n\nJadi, total jumlah kaki dari 10 ekor ayam adalah **20**."
   },
   {
     "id": 3,
