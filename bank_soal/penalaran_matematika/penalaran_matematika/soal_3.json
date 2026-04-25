@@ -50,17 +50,17 @@
   },
   {
     "id": 8,
-    "pertanyaan": "Hasil dari $\\dfrac{3}{4} - \\dfrac{5}{8}$ adalah...",
-    "pilihan": ["1/8", "2/8", "3/8", "4/8", "5/8"],
-    "jawaban": "A",
-    "pembahasan": "$\\dfrac{3}{4} - \\dfrac{5}{8} = \\dfrac{6}{8} - \\dfrac{5}{8} = \\dfrac{1}{8}$. \n\n**Jadi, hasilnya adalah 1/8.**"
+    "pertanyaan": "Ikatan Dokter Indonesia (IDI) menyebut bahwa pada tahun 2023, kasus diabetes pada anak meningkat hingga 70 kali lipat sejak 10 tahun lalu. IDI mencatat saat ini terdapat 1600 anak di Indonesia mengalami diabetes. Anggap pertumbuhan linear jumlah penderita diabetes pada anak. Maka perkiraan jumlah penderita diabetes pada anak di tahun 2020 sekitar...",
+    "pilihan": ["496", "512", "1.127", "1.200", "1.400"],
+    "jawaban": "C",
+    "pembahasan": "1. Data 2023 ($y_2$) = 1.600. \n2. Data 2013 ($y_1$) = $1.600 / 70 \\approx 22,86$. \n3. Pertumbuhan per tahun ($m$) = $(1.600 - 22,86) / 10 = 157,71$. \n4. Tahun 2020 (3 tahun sebelum 2023): $y = 1.600 - (3 \\times 157,71) \\approx 1.126,87$. \n\n**Jadi, perkiraan tahun 2020 adalah sekitar 1.127.**",
   },
   {
     "id": 9,
-    "pertanyaan": "Bentuk sederhana dari $\\sqrt{75}$ adalah...",
-    "pilihan": ["5√3", "3√5", "15", "√15", "25"],
-    "jawaban": "A",
-    "pembahasan": "$\\sqrt{75} = \\sqrt{25 \\times 3} = 5\\sqrt{3}$. \n\n**Jadi, bentuk sederhananya adalah 5√3.**"
+    "pertanyaan": "Terdapat air yang mengisi 3/4 bagian dari sebuah tabung terbuka. Kemudian air dipindahkan ke tabung lain dengan jari-jari 25% lebih besar. Setelah dipindah, volume tabung baru terisi 3/5 bagiannya. Berapa persen tinggi tabung baru dibanding tinggi sebelumnya?",
+    "pilihan": ["25%", "50%", "60%", "80%", "100%"],
+    "jawaban": "D",
+    "pembahasan": "Misal tabung 1 ($r_1, h_1$) dan tabung 2 ($r_2, h_2$). \n$r_2 = 1,25r_1 = \\frac{5}{4}r_1$. \n\nVolume air tetap: \n$\\frac{3}{4} \\pi r_1^2 h_1 = \\frac{3}{5} \\pi r_2^2 h_2$ \n$\\frac{1}{4} r_1^2 h_1 = \\frac{1}{5} (\\frac{5}{4}r_1)^2 h_2$ \n$\\frac{1}{4} h_1 = \\frac{1}{5} \\cdot \\frac{25}{16} h_2$ \n$\\frac{1}{4} h_1 = \\frac{5}{16} h_2 \\Rightarrow \\frac{h_2}{h_1} = \\frac{1}{4} \\cdot \\frac{16}{5} = \\frac{4}{5} = 80\\%$. \n\n**Jadi, tinggi tabung baru adalah 80% dari tinggi sebelumnya.**",
   },
   {
     "id": 10,
