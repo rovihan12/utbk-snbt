@@ -1,19 +1,29 @@
 [
-  {
-    "id": 1,
-    "pertanyaan": "Tiga buah kapal feri beroperasi melayani penyeberangan antar-pulau dengan jadwal keberangkatan dari pelabuhan utama sebagai berikut. Pada tanggal 10 Juli 2026, ketiga kapal (Bahtera, Senja, dan Samudra) berangkat dari pelabuhan yang sama secara bersamaan untuk pertama kalinya. Jika ketiga kapal akan berangkat pada hari yang sama untuk ke-9 kalinya pada 240 hari setelah 10 Juli 2026, tentukan nilai $y$ dari jadwal kapal Samudra!",
-    "tabel": {
-      "header": ["Kapal Feri", "Jadwal Keberangkatan"],
-      "rows": [
-        ["Bahtera", "Setiap 5 hari sekali"],
-        ["Senja", "Setiap 6 hari sekali"],
-        ["Samudra", "Setiap $y$ hari sekali"]
-      ]
-    },
-    "pilihan": ["7", "9", "10", "12", "20"],
-    "jawaban": "C",
-    "pembahasan": "### Analisis KPK (Kelipatan Persekutuan Terkecil):\n\n1. **Menentukan Interval Keberangkatan Bersama ($K$):**\n   * Keberangkatan bersama terjadi setiap $K$ hari.\n   * Dari keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ interval waktu.\n   * Total waktu adalah 240 hari, maka:\n     $K = \\frac{240}{8} = 30$ hari.\n   * Jadi, $\\text{KPK}(5, 6, y) = 30$.\n\n2. **Menentukan Nilai $y$:**\n   * Faktorisasi prima: $5 = 5$ dan $6 = 2 \\times 3$.\n   * $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n   * Kita mencari nilai $y$ yang faktor-faktor primanya merupakan bagian dari faktor prima 30 ($2, 3, 5$).\n   * **Uji Pilihan:** Jika $y = 10$ ($2 \\times 5$), maka $\\text{KPK}(5, 6, 10) = 30$.\n\n**Jadi, nilai $y$ yang memenuhi adalah 10.**"
+{
+  "id": 1,
+  "pertanyaan": "Tiga buah kapal feri beroperasi melayani penyeberangan antar-pulau dengan jadwal keberangkatan dari pelabuhan utama sebagai berikut. Pada tanggal 10 Juli 2026, ketiga kapal (Bahtera, Senja, dan Samudra) berangkat dari pelabuhan yang sama secara bersamaan untuk pertama kalinya. Jika ketiga kapal akan berangkat pada hari yang sama untuk ke-9 kalinya pada 240 hari setelah 10 Juli 2026, tentukan nilai $y$ dari jadwal kapal Samudra!",
+  "tabel": {
+    "header": ["Kapal Feri", "Jadwal Keberangkatan"],
+    "rows": [
+      ["Bahtera", "Setiap 5 hari sekali"],
+      ["Senja", "Setiap 6 hari sekali"],
+      ["Samudra", "Setiap $y$ hari sekali"]
+    ]
   },
+  "pilihan": ["7", "9", "10", "12", "20"],
+  "jawaban": "C",
+  "pembahasan": "**Langkah 1: Menentukan Interval Keberangkatan Bersama (KPK)**\n* Keberangkatan bersama terjadi setiap $K$ hari.\n* Antara keberangkatan ke-1 hingga ke-9 terdapat $9 - 1 = 8$ kali interval.\n* Total waktu = 240 hari, maka:\n* $K = \\frac{240}{8} = 30$ hari.\n* Artinya, $\\text{KPK}(5, 6, y) = 30$.\n\n**Langkah 2: Faktorisasi Prima Bilangan yang Diketahui**\n* Bahtera (5) = $5$\n* Senja (6) = $2 \\times 3$\n* $\\text{KPK}(5, 6) = 2 \\times 3 \\times 5 = 30$.\n\n**Langkah 3: Menentukan Nilai $y$**\n* Karena $\\text{KPK}(5, 6)$ sudah bernilai 30, maka nilai $y$ haruslah bilangan yang faktor primanya tidak melampaui faktor prima dari 30 (yaitu 2, 3, dan 5) dan merupakan pembagi dari 30.\n* Menguji pilihan C: Jika $y = 10$, maka faktor primanya adalah $2 \\times 5$.\n* $\\text{KPK}(5, 6, 10) = \\text{KPK}(5, 2 \\times 3, 2 \\times 5) = 2 \\times 3 \\times 5 = 30$ (Memenuhi).\n\n**Kesimpulan:** Nilai $y$ yang tepat adalah 10.",
+  "tabel_pembahasan": {
+    "header": ["Keterangan", "Nilai/Perhitungan"],
+    "rows": [
+      ["Jumlah Interval (n-1)", "9 - 1 = 8 interval"],
+      ["Total Hari", "240 hari"],
+      ["KPK (5, 6, y)", "240 / 8 = 30"],
+      ["Faktor Prima 30", "2, 3, 5"],
+      ["Nilai y (Pilihan C)", "10 (Faktor: 2 dan 5)"]
+    ]
+  }
+},
   {
     "id": 2,
     "pertanyaan": "Berdasarkan diagram batang berikut, berapa total produksi barang A dan B?",
