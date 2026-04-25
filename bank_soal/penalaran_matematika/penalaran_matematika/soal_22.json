@@ -94,21 +94,36 @@
     "pembahasan": " Analisis Data:\n- Urutan data: $x_1, x_2, x_3, x_4, x_5, x_6, x_7$.\n- Diketahui: $x_4=5$ ($Q_2$), $x_6=5$ ($Q_3$), Mean=5 (Total=35).\n- Karena $x_4=5$ dan $x_6=5$, maka $x_5$ juga harus 5.\n\n**Analisis Pernyataan:**\n1. **Pernyataan (1):** $Q_1 = x_2 = 4$. Nilai $x_1$ dan $x_7$ masih bebas. **(Tidak cukup)**.\n2. **Pernyataan (2):** $x_3 + 2x_7 = 21$. Nilai bergantung pada $x_3$. **(Tidak cukup)**.\n3. **Kombinasi:**\n   - Jika $x_2=4$, maka $x_3$ berkisar antara 4 atau 5.\n   - Jika $x_3=5$, maka $2x_7 = 21 - 5 = 16 \\rightarrow x_7 = 8$.\n   - Total: $x_1+4+5+5+5+5+8 = 35 \\rightarrow x_1 = 3$.\n   - Jangkauan: $8 - 3 = 5$.\n\n**Kesimpulan:** Kedua pernyataan bersama-sama cukup untuk menemukan nilai tunggal."
   },
   {
-    "id": 9,
-    "kategori": "Sedang",
-    "pertanyaan": "Farid berencana membeli 22 potong ayam dari toko A maupun toko B dengan pertimbangan harga tertentu. Berdasarkan tabel, jumlah uang minimum yang dibutuhkan Farid adalah ....",
-    "tabel": {
-      "header": ["Rincian Paket", "Toko A", "Toko B"],
-      "rows": [
-        ["Harga paket 3 potong", "Rp40.000,00", "Rp35.000,00"],
-        ["Harga paket 5 potong", "Rp55.000,00", "Rp60.000,00"],
-        ["Ongkos ke toko", "Rp10.000,00", "Rp30.000,00"]
-      ]
-    },
-    "pilihan": ["Rp270.000,00", "Rp275.000,00", "Rp280.000,00", "Rp285.000,00", "Rp290.000,00"],
-    "jawaban": "A",
-    "pembahasan": " Perbandingan Biaya:\n\n**1. Toko A:**\n- Strategi: 4 paket isi 5 ($20$ potong) + 1 paket isi 3 ($3$ potong) = 23 potong.\n- Biaya: $(4 \\times 55.000) + 40.000 + 10.000 = 220.000 + 40.000 + 10.000 = \\mathbf{270.000}$.\n\n**2. Toko B:**\n- Strategi: 4 paket isi 5 + 1 paket isi 3 = 23 potong.\n- Biaya: $(4 \\times 60.000) + 35.000 + 30.000 = 240.000 + 35.000 + 30.000 = 305.000$.\n\n**Kesimpulan:** Biaya minimum yang dibutuhkan adalah **Rp270.000,00**."
+  "id": 9,
+  "kategori": "Sedang",
+  "pertanyaan": "Farid berencana membeli 22 potong ayam dari toko A maupun toko B dengan pertimbangan harga tertentu. Berdasarkan tabel, jumlah uang minimum yang dibutuhkan Farid adalah ....",
+  "tabel": {
+    "header": ["Rincian Paket", "Toko A", "Toko B"],
+    "rows": [
+      ["Harga paket 3 potong", "Rp40.000,00", "Rp35.000,00"],
+      ["Harga paket 5 potong", "Rp55.000,00", "Rp60.000,00"],
+      ["Ongkos ke toko", "Rp10.000,00", "Rp30.000,00"]
+    ]
   },
+  "pilihan": [
+    "Rp270.000,00",
+    "Rp275.000,00",
+    "Rp280.000,00",
+    "Rp285.000,00",
+    "Rp290.000,00"
+  ],
+  "jawaban": "A",
+  "pembahasan": "**Langkah 1: Menentukan Strategi Pembelian**\nUntuk mendapatkan minimal 22 potong ayam dengan harga termurah, kombinasi yang paling efisien adalah membeli 4 paket isi 5 potong dan 1 paket isi 3 potong (Total 23 potong), karena harga satuan pada paket isi 5 umumnya lebih murah.\n\n**Langkah 2: Menghitung Biaya di Toko A**\n* 4 paket isi 5: $4 \\times 55.000 = 220.000$\n* 1 paket isi 3: $1 \\times 40.000 = 40.000$\n* Ongkos kirim: $10.000$\n* Total Biaya A: $220.000 + 40.000 + 10.000 = 270.000$\n\n**Langkah 3: Menghitung Biaya di Toko B**\n* 4 paket isi 5: $4 \\times 60.000 = 240.000$\n* 1 paket isi 3: $1 \\times 35.000 = 35.000$\n* Ongkos kirim: $30.000$\n* Total Biaya B: $240.000 + 35.000 + 30.000 = 305.000$\n\n**Kesimpulan:** Jumlah uang minimum yang dibutuhkan adalah Rp270.000,00.",
+  "tabel_pembahasan": {
+    "header": ["Komponen Biaya", "Toko A", "Toko B"],
+    "rows": [
+      ["4 Paket Isi 5", "Rp220.000,00", "Rp240.000,00"],
+      ["1 Paket Isi 3", "Rp40.000,00", "Rp35.000,00"],
+      ["Ongkos", "Rp10.000,00", "Rp30.000,00"],
+      ["**Total Harga**", "**Rp270.000,00**", "Rp305.000,00"]
+    ]
+  }
+},
   {
     "id": 10,
     "kategori": "Sedang",
