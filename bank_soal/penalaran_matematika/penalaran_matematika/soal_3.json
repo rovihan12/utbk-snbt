@@ -65,10 +65,16 @@
   },
   {
     "id": 10,
-    "pertanyaan": "Jika $f(x) = 2x + 3$, maka $f(5)$ adalah...",
-    "pilihan": ["10", "11", "12", "13", "14"],
-    "jawaban": "D",
-    "pembahasan": "$f(5) = 2(5) + 3 = 10 + 3 = 13$. \n\n**Jadi, nilai $f(5)$ adalah 13.**"
+    "pertanyaan": "Sebuah Laundry menggunakan larutan pewangi yang terdiri dari air dan konsentrat. Komposisi konsentrat dan air yang digunakan adalah 1 : 4. Suatu ketika seorang pegawai Laundry melakukan kesalahan, yaitu menuangkan konsentrat 1/2 dari yang seharusnya. Jika pewangi yang dihasilkan adalah 27 mL. Maka volume konsentrat yang dituang sebanyak....",
+    "pilihan": [
+      "3 mL",
+      "4 mL",
+      "6 mL",
+      "7 mL",
+      "8 mL"
+    ],
+    "jawaban": "A",
+    "pembahasan": "**Langkah 1: Identifikasi Rasio Seharusnya**\nMisalkan volume konsentrat seharusnya = $x$ dan volume air seharusnya = $4x$.\n\n**Langkah 2: Gunakan Data Kesalahan**\nPegawai menuangkan konsentrat hanya setengahnya, maka:\n- Konsentrat yang dituang = $\\frac{1}{2}x$\n- Air yang dituang (tetap) = $4x$\n\n**Langkah 3: Hitung Volume Total Campuran**\nTotal campuran = Konsentrat + Air\n$27 = \\frac{1}{2}x + 4x$\n$27 = 4,5x$\n$x = \\frac{27}{4,5} = 6$\n\n**Langkah 4: Hitung Konsentrat yang Dituang**\nKonsentrat yang dituang adalah $\\frac{1}{2}x$, maka:\n$\\frac{1}{2} \\times 6 = 3$ mL.\n\n**Jadi, volume konsentrat yang dituang sebanyak 3 mL.**"
   },
   {
     "id": 11,
