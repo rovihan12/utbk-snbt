@@ -78,39 +78,67 @@
   },
   {
     "id": 12,
-    "pertanyaan": "Jika $a = 2$, $b = 3$, maka nilai dari $2a^2 + 3b$ adalah...",
-    "pilihan": ["14", "15", "16", "17", "18"],
-    "jawaban": "D",
-    "pembahasan": "$2a^2 + 3b = 2(2^2) + 3(3) = 2(4) + 9 = 8 + 9 = 17$. \n\n**Jadi, nilainya adalah 17.**"
-  },
-  {
-    "id": 13,
-    "pertanyaan": "Nilai dari $\\dfrac{2}{5} + \\dfrac{3}{10}$ adalah...",
-    "pilihan": ["1/2", "3/5", "4/5", "7/10", "9/10"],
-    "jawaban": "D",
-    "pembahasan": "$\\dfrac{2}{5} + \\dfrac{3}{10} = \\dfrac{4}{10} + \\dfrac{3}{10} = \\dfrac{7}{10}$. \n\n**Jadi, hasilnya adalah 7/10.**"
-  },
-  {
-    "id": 14,
-    "pertanyaan": "Jika $\\sqrt{x} = 5$, maka $x$ = ...",
-    "pilihan": ["10", "15", "20", "25", "30"],
-    "jawaban": "D",
-    "pembahasan": "$\\sqrt{x} = 5 \\Rightarrow x = 25$. \n\n**Jadi, nilai $x$ adalah 25.**"
-  },
-  {
-    "id": 15,
     "pertanyaan": "Sebuah segitiga memiliki alas 12 cm dan tinggi 8 cm. Luas segitiga adalah...",
     "pilihan": ["36 cm²", "42 cm²", "48 cm²", "50 cm²", "56 cm²"],
     "jawaban": "C",
     "pembahasan": "Luas segitiga: $L = \\dfrac{1}{2} \\times a \\times t = \\dfrac{1}{2} \\times 12 \\times 8 = 48$ cm². \n\n**Jadi, luas segitiga adalah 48 cm².**"
   },
+    {
+    "id": 13,
+    "materi": "Barisan dan Deret Aritmetika",
+    "pertanyaan": "Sebuah perusahaan kulkas memproduksi 1.500 unit pada Januari 2022 dan 1.580 unit pada Februari 2022. Jika permintaan stabil hingga April, maka kenaikan produksi tiap bulan adalah tetap. Berapakah jumlah produksi pada bulan Maret 2022?",
+    "pilihan": [
+      "1.620",
+      "1.640",
+      "1.660",
+      "1.680",
+      "1.700"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\nHitung selisih kenaikan (b):\n$b = \\text{Produksi Feb} - \\text{Produksi Jan}$\n$b = 1.580 - 1.500 = 80$ unit.\n\nHitung produksi Maret:\n$\\text{Maret} = \\text{Produksi Feb} + b$\n$\\text{Maret} = 1.580 + 80 = 1.660$ unit.\n\n**Cara Cepat**:\n\nKarena ini barisan aritmetika, $U_3 = U_1 + 2b$.\n$U_3 = 1.500 + 2(80) = 1.500 + 160 = 1.660$."
+  },
+  {
+    "id": 14,
+    "materi": "Deret Aritmetika (Kumulatif)",
+    "pertanyaan": "Berapakah total produksi kulkas secara kumulatif dari bulan Januari hingga April 2022?",
+    "pilihan": [
+      "6.200",
+      "6.320",
+      "6.440",
+      "6.480",
+      "6.680"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah Lengkap**:\n\nData produksi tiap bulan:\n- Januari: 1.500\n- Februari: 1.580\n- Maret: 1.660\n- April: 1.740\n\nTotal Kumulatif:\n$S_4 = 1.500 + 1.580 + 1.660 + 1.740 = 6.480$ unit.\n\n**Cara Cepat**:\n\n$S_n = \\frac{n}{2}(a + U_n)$\n$S_4 = \\frac{4}{2}(1.500 + 1.740)$\n$S_4 = 2 \\times 3.240 = 6.480$ unit."
+  },
+  {
+    "id": 15,
+    "materi": "Aturan Adaptif (Perubahan Rasio)",
+    "pertanyaan": "Perusahaan menerapkan aturan: jika total produksi kumulatif melampaui 5.000 unit, maka kenaikan produksi bulan berikutnya menjadi setengah dari kenaikan sebelumnya. Jika total produksi hingga April adalah 6.480 unit, berapakah kenaikan produksi dari April ke Mei?",
+    "pilihan": [
+      "20 unit",
+      "30 unit",
+      "40 unit",
+      "50 unit",
+      "80 unit"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah Lengkap**:\n\n1. Cek Syarat: Total kumulatif (6.480) > 5.000. Maka aturan penyesuaian berlaku.\n2. Kenaikan sebelumnya (Maret ke April) = 80 unit.\n3. Kenaikan baru = $1/2 \\times 80 = 40$ unit.\n\n**Cara Cepat**:\n\nKarena syarat terpenuhi, langsung bagi dua kenaikan tetap sebelumnya: $80 / 2 = 40$ unit."
+  },
   {
     "id": 16,
-    "pertanyaan": "Jika $x + 2 = 7$, maka $x$ = ...",
-    "pilihan": ["2", "3", "4", "5", "6"],
-    "jawaban": "D",
-    "pembahasan": "$x + 2 = 7 \\Rightarrow x = 5$. \n\n**Jadi, nilai $x$ adalah 5.**"
-  },
+    "materi": "Analisis Pernyataan",
+    "pertanyaan": "Berdasarkan strategi adaptif perusahaan, manakah pernyataan berikut yang benar mengenai produksi setelah bulan April?",
+    "pilihan": [
+      "Produksi selalu membentuk barisan aritmetika hingga Juni",
+      "Setelah melewati 5.000 unit, jumlah produksi bulanan menjadi konstan",
+      "Kenaikan produksi setelah April lebih kecil dibanding sebelumnya",
+      "Total produksi bulan Mei lebih kecil dari bulan April",
+      "Tidak ada perubahan pola produksi"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Analisis**:\n\n- **A Salah**: Pola berubah karena selisihnya tidak lagi tetap (dari 80 menjadi 40).\n- **B Salah**: Produksi tetap bertambah (naik), bukan stagnan/konstan.\n- **C Benar**: Kenaikan turun dari 80 unit menjadi 40 unit per bulan.\n- **D Salah**: Produksi Mei (1.780) tetap lebih besar dari April (1.740).\n- **E Salah**: Ada perubahan pola dari penambahan 80 menjadi penambahan 40."
+  }
   {
     "id": 17,
     "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_matematika/image/Segitigadidalam.png",
