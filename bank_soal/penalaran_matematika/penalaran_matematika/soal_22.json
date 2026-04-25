@@ -246,7 +246,17 @@
     "70.75 kg"
   ],
   "jawaban": "B",
-  "pembahasan": "### Langkah Penyelesaian:\n1. **Konversi Satuan**: Tinggi $h = 175$ cm = $1,75$ m.\n2. **Kriteria Normal**: $I < 25$. Maka kita cari berat $W$ saat $I = 25$.\n3. **Perhitungan**:\n   $$W = I \\times h^2$$\n   $$W = 25 \\times (1,75)^2$$\n   $$W = 25 \\times 3,0625 = 76,5625 \\text{ kg}$$\n4. **Analisis**: Agar indeks $I$ kurang dari 25, maka berat badan harus lebih kecil dari $76,5625$ kg. Dari pilihan yang tersedia, **76,50 kg** adalah berat badan maksimal yang paling mendekati ambang batas normal.\n\n**Kesimpulan**: Jawaban yang benar adalah B."
+  "pembahasan": "**Langkah 1: Konversi Satuan**\nTinggi badan Bowo dalam satuan meter adalah:\n* $h = 175 \\text{ cm} = 1,75 \\text{ m}$.\n\n**Langkah 2: Menentukan Ambang Batas Berat Badan Normal**\nKategori normal adalah $I < 25$. Kita hitung berat badan ($W$) saat indeks tepat di angka 25 menggunakan rumus $W = I \\times h^2$:\n* $W = 25 \\times (1,75)^2$\n* $W = 25 \\times 3,0625$\n* $W = 76,5625 \\text{ kg}$.\n\n**Langkah 3: Analisis Pilihan Jawaban**\nAgar indeks $I < 25$, maka berat badan harus lebih kecil dari $76,5625 \\text{ kg}$. \n* Pilihan A (76,60 kg) melebihi ambang batas (akan menghasilkan $I > 25$).\n* Pilihan B (76,50 kg) berada di bawah ambang batas dan merupakan nilai terdekat yang memenuhi syarat normal.\n\n**Kesimpulan:** Berat badan yang seharusnya adalah 76,50 kg.",
+  "tabel_pembahasan": {
+    "header": ["Variabel", "Nilai", "Keterangan"],
+    "rows": [
+      ["Tinggi ($h$)", "1,75 m", "Konversi dari 175 cm"],
+      ["Batas Indeks ($I$)", "25", "Ambang batas normal"],
+      ["$h^2$", "3,0625", "Kuadrat dari 1,75"],
+      ["Batas Berat ($W$)", "76,5625 kg", "Hasil $25 \\times 3,0625$"],
+      ["Jawaban Terdekat", "76,50 kg", "Pilihan B (Memenuhi $W < 76,5625$)"]
+    ]
+  }
 },
   {
     "id": 17,
