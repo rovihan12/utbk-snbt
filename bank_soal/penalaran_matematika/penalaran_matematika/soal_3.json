@@ -76,19 +76,71 @@
     "jawaban": "A",
     "pembahasan": "**Langkah 1: Identifikasi Rasio Seharusnya**\nMisalkan volume konsentrat seharusnya = $x$ dan volume air seharusnya = $4x$.\n\n**Langkah 2: Gunakan Data Kesalahan**\nPegawai menuangkan konsentrat hanya setengahnya, maka:\n- Konsentrat yang dituang = $\\frac{1}{2}x$\n- Air yang dituang (tetap) = $4x$\n\n**Langkah 3: Hitung Volume Total Campuran**\nTotal campuran = Konsentrat + Air\n$27 = \\frac{1}{2}x + 4x$\n$27 = 4,5x$\n$x = \\frac{27}{4,5} = 6$\n\n**Langkah 4: Hitung Konsentrat yang Dituang**\nKonsentrat yang dituang adalah $\\frac{1}{2}x$, maka:\n$\\frac{1}{2} \\times 6 = 3$ mL.\n\n**Jadi, volume konsentrat yang dituang sebanyak 3 mL.**"
   },
-  {
+   {
     "id": 11,
-    "pertanyaan": "Sebuah tabung berjari-jari 7 cm dan tinggi 10 cm. Volume tabung adalah...",
-    "pilihan": ["1540 cm³", "440 cm³", "770 cm³", "700 cm³", "1200 cm³"],
-    "jawaban": "A",
-    "pembahasan": "Volume tabung: $V = \\pi r^2 t = \\dfrac{22}{7} \\times 7^2 \\times 10 = 1540$ cm³. \n\n**Jadi, volume tabung adalah 1540 cm³.**"
+    "pertanyaan": "Tabel berikut menunjukkan persentase nilai ujian olahraga lima siswa dalam dua jenis cabang olahraga, lari jarak jauh dan lompat jauh. Angka dalam tanda kurung menunjukkan nilai maksimum yang dapat dicapai pada masing-masing cabang.\n\nSiapa yang memperoleh skor total tertinggi?",
+    "tabel": {
+      "header": ["ATLET", "Lari (120)", "Lompat (80)"],
+      "rows": [
+        ["K", "85%", "70%"],
+        ["L", "95%", "60%"],
+        ["M", "80%", "80%"],
+        ["N", "90%", "80%"],
+        ["O", "88%", "75%"]
+      ]
+    },
+    "pilihan": [
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "jawaban": "D",
+    "pembahasan": "**Langkah 1: Menghitung Skor Atlet**\nSkor dihitung dengan mengalikan persentase terhadap nilai maksimum masing-masing cabang ($120$ untuk lari dan $80$ untuk lompat).\n\n* **Atlet K:** $(85\\% \\times 120) + (70\\% \\times 80) = 102 + 56 = 158$\n* **Atlet L:** $(95\\% \\times 120) + (60\\% \\times 80) = 114 + 48 = 162$\n* **Atlet M:** $(80\\% \\times 120) + (80\\% \\times 80) = 96 + 64 = 160$\n* **Atlet N:** $(90\\% \\times 120) + (80\\% \\times 80) = 108 + 64 = 172$\n* **Atlet O:** $(88\\% \\times 120) + (75\\% \\times 80) = 105,6 + 60 = 165,6$\n\n**Langkah 2: Kesimpulan**\nBerdasarkan perhitungan di atas, skor tertinggi adalah 172 yang diraih oleh atlet N.",
+    "tabel_pembahasan": {
+      "header": ["ATLET", "Skor Lari", "Skor Lompat", "Total Skor"],
+      "rows": [
+        ["K", "102", "56", "158"],
+        ["L", "114", "48", "162"],
+        ["M", "96", "64", "160"],
+        ["N", "108", "64", "172"],
+        ["O", "105,6", "60", "165,6"]
+      ]
+    }
   },
-  {
+    {
     "id": 12,
-    "pertanyaan": "Sebuah segitiga memiliki alas 12 cm dan tinggi 8 cm. Luas segitiga adalah...",
-    "pilihan": ["36 cm²", "42 cm²", "48 cm²", "50 cm²", "56 cm²"],
-    "jawaban": "C",
-    "pembahasan": "Luas segitiga: $L = \\dfrac{1}{2} \\times a \\times t = \\dfrac{1}{2} \\times 12 \\times 8 = 48$ cm². \n\n**Jadi, luas segitiga adalah 48 cm².**"
+    "pertanyaan": "Berikut tabel data keuangan seorang pedagang baju di pertokoan X dari tahun 2020 sampai dengan 2024.\n\nManakah pernyataan yang PALING TEPAT sesuai tabel di atas?",
+    "tabel": {
+      "header": ["Tahun", "Pengeluaran (Juta Rp)", "Pemasukan (Juta Rp)"],
+      "rows": [
+        ["2020", "25", "30"],
+        ["2021", "15", "25"],
+        ["2022", "20", "55"],
+        ["2023", "10", "50"],
+        ["2024", "35", "80"]
+      ]
+    },
+    "pilihan": [
+      "Pedagang tersebut mendapat pemasukan lebih besar dari tahun sebelumnya.",
+      "Pedagang tersebut memperoleh keuntungan lebih besar dari tahun sebelumnya.",
+      "Pengeluaran lebih besar dibanding tahun sebelumnya.",
+      "Keuntungan ditentukan pemasukan.",
+      "Pemasukan meningkat dibanding tahun sebelumnya."
+    ],
+    "jawaban": "B",
+    "pembahasan": "**Langkah 1: Analisis Keuntungan**\nKeuntungan dihitung dengan rumus: $Pemasukan - Pengeluaran$.\n* 2020: $30 - 25 = 5$\n* 2021: $25 - 15 = 10$ (naik dari 5)\n* 2022: $55 - 20 = 35$ (naik dari 10)\n* 2023: $50 - 10 = 40$ (naik dari 35)\n* 2024: $80 - 35 = 45$ (naik dari 40)\n\n**Langkah 2: Evaluasi Pilihan**\n* Pilihan A & E salah karena pemasukan tahun 2023 (50) turun dibanding 2022 (55).\n* Pilihan C salah karena pengeluaran fluktuatif (pernah turun di 2021 dan 2023).\n* Pilihan B benar karena nilai keuntungan selalu meningkat setiap tahun dibandingkan tahun sebelumnya.",
+    "tabel_pembahasan": {
+      "header": ["Tahun", "Pemasukan", "Pengeluaran", "Keuntungan"],
+      "rows": [
+        ["2020", "30", "25", "5"],
+        ["2021", "25", "15", "10"],
+        ["2022", "55", "20", "35"],
+        ["2023", "50", "10", "40"],
+        ["2024", "80", "35", "45"]
+      ]
+    }
   },
     {
     "id": 13,
