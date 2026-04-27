@@ -22,13 +22,18 @@
     "jawaban": "A",
     "pembahasan": "Diketahui $a_1 = 3$ dan beda $d = 7 - 3 = 4$. Rumus jumlah suku ke-$n$:\n$S_n = \\frac{n}{2}(2a_1 + (n-1)d)$\n$S_7 = \\frac{7}{2}(2 \\times 3 + 6 \\times 4)$\n$S_7 = \\frac{7}{2}(6 + 24) = \\frac{7}{2} \\times 30 = 105$"
   },
-  {
+   {
     "id": 3,
-    "kategori": "Mudah",
-    "pertanyaan": "Tentukan rasio dari barisan geometri $3, 6, 12, 24, \\dots$",
-    "pilihan": ["$\\frac{1}{2}$", "$2$", "$3$", "$4$", "$6$"],
-    "jawaban": "B",
-    "pembahasan": "Rasio ($r$) diperoleh dari pembagian suku yang berurutan:\n$r = \\frac{a_2}{a_1} = \\frac{6}{3} = 2$"
+    "pertanyaan": "Suatu barisan geometri memiliki rasio -3 dan suku ke-5 barisan tersebut sama dengan 1. Berdasarkan informasi yang diberikan, manakah pernyataan berikut yang benar?\n(1) Suku ke-1 barisan negatif\n(2) Suku ke-9 barisan positif\n(3) Hasil penjumlahan dua suku yang berurutan negatif.\n(4) Hasil kali perkalian dua suku barisan yang berurutan negatif.",
+    "pilihan": [
+      "1, 2, 3 SAJA",
+      "1 dan 3 SAJA",
+      "2 dan 4 SAJA",
+      "4 SAJA",
+      "SEMUA PILIHAN"
+    ],
+    "jawaban": "C",
+    "pembahasan": "**Langkah 1**: Cari suku pertama ($a$). $U_5 = a \\cdot r^4 \\Rightarrow 1 = a \\cdot (-3)^4 \\Rightarrow a = 1/81$ (positif). Maka (1) salah.\n**Langkah 2**: Cek $U_9$. $U_9 = a \\cdot r^8$. Karena pangkat genap, $(-3)^8$ positif, maka $U_9$ positif. Maka (2) benar.\n**Langkah 3**: Penjumlahan dua suku berurutan $U_n + U_{n+1} = U_n(1+r) = U_n(1-3) = -2U_n$. Tandanya berubah-ubah tergantung $U_n$. Maka (3) salah.\n**Langkah 4**: Perkalian dua suku berurutan $U_n \\cdot U_{n+1} = U_n(U_n \\cdot r) = r \\cdot (U_n)^2$. Karena $r$ negatif dan $U_n^2$ positif, hasil selalu negatif. Maka (4) benar.\nJadi, pernyataan yang benar adalah 2 dan 4."
   },
   {
     "id": 4,
