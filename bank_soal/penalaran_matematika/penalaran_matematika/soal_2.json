@@ -79,13 +79,19 @@
     "jawaban": "C",
     "pembahasan": "Selisih:\n$5x - 3x = 2x = 80.000 \\Rightarrow x = 40.000$\n\nJumlah:\n$3x + 5x = 8x = 320.000$\n\nJadi jawabannya adalah **Rp320.000**."
   },
-  {
-    "id": 9,
-    "pertanyaan": "Jika akar-akar persamaan kuadrat x² - 5x + 6 = 0 adalah p dan q, maka nilai dari p + q adalah...",
-    "pilihan": ["1", "5", "6", "11", "15"],
-    "jawaban": "B",
-    "pembahasan": "Untuk persamaan kuadrat $ax^2 + bx + c = 0$, jumlah akar:\n$p + q = -\\frac{b}{a} = -(-5)/1 = 5$\n\nJadi jawabannya adalah **5**."
-  },
+ {
+  "id": 9,
+  "pertanyaan": "Dalam sebuah kotak terdapat 6 koin Rp 1.000, 5 koin Rp 2.000, dan 4 koin Rp 3.000. Jika diambil 3 koin secara acak sekaligus, tentukan peluang jumlah ketiga koin tersebut tepat Rp 6.000.",
+  "pilihan": [
+    "13/45",
+    "26/91",
+    "13/91",
+    "11/45",
+    "7/91"
+  ],
+  "jawaban": "B",
+  "pembahasan": "**Langkah 1: Menentukan Ruang Sampel $n(S)$**\nTotal koin $= 6 + 5 + 4 = 15$. Diambil 3 koin:\n$n(S) = C(15, 3) = \\frac{15 \\times 14 \\times 13}{3 \\times 2 \\times 1} = 455$.\n\n**Langkah 2: Menentukan Kejadian Diinginkan $n(A)$**\nAgar jumlahnya Rp 6.000, terdapat 2 kombinasi yang mungkin:\n1. **Kombinasi I**: (1 koin Rp 1.000, 1 koin Rp 2.000, 1 koin Rp 3.000)\n   $n(A1) = C(6,1) \\times C(5,1) \\times C(4,1) = 6 \\times 5 \\times 4 = 120$.\n2. **Kombinasi II**: (0 koin Rp 1.000, 3 koin Rp 2.000, 0 koin Rp 3.000)\n   $n(A2) = C(5,3) = \\frac{5 \\times 4 \\times 3}{3 \\times 2 \\times 1} = 10$.\nTotal $n(A) = 120 + 10 = 130$.\n\n**Langkah 3: Menghitung Peluang $P(A)$**\n$P(A) = \\frac{130}{455}$.\nSederhanakan dengan membagi 5: $\\frac{26}{91}$."
+},
   {
     "id": 10,
     "pertanyaan": "Sebuah segitiga siku-siku memiliki panjang sisi miring 13 cm dan salah satu sisi siku-sikunya 5 cm. Luas segitiga tersebut adalah...",
