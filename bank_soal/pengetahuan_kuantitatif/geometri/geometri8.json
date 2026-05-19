@@ -68,7 +68,6 @@
    {
     "id": 6,
     "pertanyaan": "Diberikan dua lingkaran dengan pusat $M$ dan $N$ dengan radius berturut-turut $12$ cm dan $2$ cm. Jika $MN = 26$ cm, tentukan panjang garis persekutuan luar dua lingkaran tersebut.",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098129.jpg",
     "pilihan": ["24", "26", "28", "30", "32"],
     "jawaban": "A",
     "pembahasan": "Untuk mencari panjang garis singgung persekutuan luar dua lingkaran, kita dapat menggunakan rumus yang diturunkan dari Teorema Pythagoras. Misalkan panjang garis singgung persekutuan luar adalah $L$, jarak antar pusat lingkaran adalah $MN$, jari-jari lingkaran besar adalah $R$, dan jari-jari lingkaran kecil adalah $r$. Rumus yang digunakan adalah:\n\n$L = \\sqrt{MN^2 - (R - r)^2}$\n\nDari soal, kita memiliki informasi:\n* Jari-jari lingkaran besar ($R$) = $12$ cm\n* Jari-jari lingkaran kecil ($r$) = $2$ cm\n* Jarak antar pusat lingkaran ($MN$) = $26$ cm\n\nSelisih jari-jari adalah $R - r = 12 - 2 = 10$ cm.\n\nSekarang, kita substitusikan nilai-nilai tersebut ke dalam rumus:\n\n$L = \\sqrt{26^2 - (10)^2}$\n$L = \\sqrt{676 - 100}$\n$L = \\sqrt{576}$\n$L = 24$ cm\n\nAtau, kita bisa menggunakan identitas **tripel Pythagoras**, yaitu $5, 12, 13$. Dengan mengalikan setiap angka dengan 2, kita dapatkan $10, 24, 26$. Dalam konteks soal ini, 26 adalah sisi miring ($MN$), dan 10 adalah salah satu sisi tegak ($R-r$). Maka, sisi tegak lainnya, yaitu panjang garis singgung persekutuan luar, adalah $24$ cm. "
@@ -91,7 +90,6 @@
   {
     "id": 9,
     "pertanyaan": "Suatu roda berbentuk lingkaran dengan diameter $56$ cm berputar sebanyak $50$ kali putaran. Panjang lintasan yang telah ditempuh oleh roda tersebut adalah .... m",
-    "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098131.jpg",
     "pilihan": ["54", "88", "104", "178", "210"],
     "jawaban": "B",
     "pembahasan": "Panjang lintasan yang ditempuh oleh roda adalah keliling roda dikalikan dengan jumlah putaran. Kita akan menghitung keliling roda terlebih dahulu, lalu mengalikannya dengan jumlah putaran, dan terakhir mengonversinya ke meter.\n\n### Langkah 1: Menghitung Keliling Roda\nKeliling roda (keliling lingkaran) dihitung dengan rumus $K = 2\\pi r$ atau $K = \\pi d$.\n\nDiketahui:\n* Diameter ($d$) = $56$ cm\n* Jari-jari ($r$) = $\\frac{d}{2} = \\frac{56}{2} = 28$ cm\n\nKita gunakan nilai $\\pi = \\frac{22}{7}$.\n\n$Keliling = 2 \\times \\frac{22}{7} \\times 28$\n$Keliling = 2 \\times 22 \\times 4$\n$Keliling = 176$ cm\n\n### Langkah 2: Menghitung Panjang Lintasan\nPanjang lintasan ($s$) adalah keliling roda dikalikan dengan jumlah putaran ($n$).\n\n$s = Keliling \\times n$\n$s = 176 \\times 50$\n$s = 8800$ cm\n\n### Langkah 3: Mengonversi ke Meter\nKita perlu mengonversi panjang lintasan dari centimeter (cm) ke meter (m). Diketahui bahwa $1$ m = $100$ cm.\n\n$s = \\frac{8800}{100} = 88$ m\n\nJadi, panjang lintasan yang ditempuh oleh roda tersebut adalah **88** meter."
