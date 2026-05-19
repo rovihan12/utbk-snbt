@@ -3,8 +3,8 @@
     "id": 1,
     "kategori": "Eksponen dan Logaritma",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Nilai dari $^2\\log 16$ adalah...",
-    "pilihan": ["2", "3", "4", "8", "16"],
+    "pertanyaan": "Nilai dari $^2\\log 16$ adalah $\\dots$",
+    "pilihan": ["$2$", "$3$", "$4$", "$8$", "$16$"],
     "jawaban": "C",
     "pembahasan": "Kita mencari nilai $y$ sehingga $2^y = 16$. Karena $2^4 = 16$, maka $^2\\log 16 = 4$."
   },
@@ -12,8 +12,8 @@
     "id": 2,
     "kategori": "Statistika",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Modus dari data $5, 7, 8, 5, 6, 7, 5, 9$ adalah...",
-    "pilihan": ["5", "6", "7", "8", "9"],
+    "pertanyaan": "Modus dari data $5, 7, 8, 5, 6, 7, 5, 9$ adalah $\\dots$",
+    "pilihan": ["$5$", "$6$", "$7$", "$8$", "$9$"],
     "jawaban": "A",
     "pembahasan": "Modus adalah nilai yang paling sering muncul. Angka $5$ muncul $3$ kali, yang paling banyak."
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "kategori": "Barisan dan Deret",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Suku ke-$n$ dari barisan $a_n = 3n - 5$. Suku ke-10 dari barisan tersebut adalah...",
-    "pilihan": ["25", "27", "29", "31", "33"],
+    "pertanyaan": "Suku ke-$n$ dari barisan $a_n = 3n - 5$. Suku ke-10 dari barisan tersebut adalah $\\dots$",
+    "pilihan": ["$25$", "$27$", "$29$", "$31$", "$33$"],
     "jawaban": "A",
     "pembahasan": "Substitusi $n = 10$: $a_{10} = 3(10) - 5 = 30 - 5 = 25$"
   },
@@ -30,8 +30,8 @@
     "id": 4,
     "kategori": "Bentuk Akar",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt{25}$ adalah...",
-    "pilihan": ["17", "18", "19", "20", "21"],
+    "pertanyaan": "Nilai dari $\\sqrt{144} + \\sqrt{25}$ adalah $\\dots$",
+    "pilihan": ["$17$", "$18$", "$19$", "$20$", "$21$"],
     "jawaban": "A",
     "pembahasan": "$\\sqrt{144} = 12$, $\\sqrt{25} = 5$, $12 + 5 = 17$"
   },
@@ -40,7 +40,7 @@
     "kategori": "Fungsi",
     "tingkat_kesulitan": "Mudah",
     "pertanyaan": "Jika $f(x) = 2x + 3$, maka $f(4) = \\dots$",
-    "pilihan": ["8", "9", "10", "11", "12"],
+    "pilihan": ["$8$", "$9$", "$10$", "$11$", "$12$"],
     "jawaban": "D",
     "pembahasan": "$f(4) = 2(4) + 3 = 8 + 3 = 11$"
   },
@@ -48,8 +48,8 @@
     "id": 6,
     "kategori": "Matriks",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Jika $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, maka $\\det(A)$ adalah...",
-    "pilihan": ["-2", "-1", "0", "1", "2"],
+    "pertanyaan": "Jika $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, maka $\\det(A)$ adalah $\\dots$",
+    "pilihan": ["$-2$", "$-1$", "$0$", "$1$", "$2$"],
     "jawaban": "A",
     "pembahasan": "$\\det(A) = (1)(4) - (2)(3) = 4 - 6 = -2$"
   },
@@ -57,7 +57,7 @@
     "id": 7,
     "kategori": "Geometri dan Bangun Datar",
     "tingkat_kesulitan": "Mudah",
-    "pertanyaan": "Luas persegi dengan sisi $8 \\text{ cm}$ adalah...",
+    "pertanyaan": "Luas persegi dengan sisi $8 \\text{ cm}$ adalah $\\dots$",
     "pilihan": ["$32 \\text{ cm}^2$", "$48 \\text{ cm}^2$", "$56 \\text{ cm}^2$", "$64 \\text{ cm}^2$", "$72 \\text{ cm}^2$"],
     "jawaban": "D",
     "pembahasan": "Luas persegi = sisi $\\times$ sisi $= 8 \\times 8 = 64 \\text{ cm}^2$"
@@ -66,7 +66,7 @@
     "id": 8,
     "kategori": "Eksponen dan Logaritma",
     "tingkat_kesulitan": "Sedang",
-    "pertanyaan": "Jika $^3\\log 2 = a$ dan $^3\\log 5 = b$, maka $^3\\log 40$ adalah...",
+    "pertanyaan": "Jika $^3\\log 2 = a$ dan $^3\\log 5 = b$, maka $^3\\log 40$ adalah $\\dots$",
     "pilihan": ["$a + 3b$", "$3a + b$", "$a + b$", "$2a + b$", "$a + 2b$"],
     "jawaban": "B",
     "pembahasan": "$40 = 8 \\times 5 = 2^3 \\times 5$. $^3\\log 40 = ^3\\log 2^3 + ^3\\log 5 = 3a + b$"
@@ -84,8 +84,8 @@
     "id": 10,
     "kategori": "Barisan dan Deret",
     "tingkat_kesulitan": "Sedang",
-    "pertanyaan": "Sebuah barisan geometri memiliki suku ke-3 adalah 12 dan suku ke-6 adalah 96. Suku pertama dari barisan tersebut adalah...",
-    "pilihan": ["2", "3", "4", "6", "8"],
+    "pertanyaan": "Sebuah barisan geometri memiliki suku ke-3 adalah 12 dan suku ke-6 adalah 96. Suku pertama dari barisan tersebut adalah $\\dots$",
+    "pilihan": ["$2$", "$3$", "$4$", "$6$", "$8$"],
     "jawaban": "B",
     "pembahasan": "$a_3 = ar^2 = 12$, $a_6 = ar^5 = 96$. Bagi persamaan: $\\frac{ar^5}{ar^2} = \\frac{96}{12} \\rightarrow r^3 = 8 \\rightarrow r = 2$. Substitusi: $a(2)^2 = 12 \\rightarrow 4a = 12 \\rightarrow a = 3$"
   },
@@ -93,8 +93,8 @@
     "id": 11,
     "kategori": "Bentuk Akar",
     "tingkat_kesulitan": "Sedang",
-    "pertanyaan": "Bentuk sederhana dari $(\\sqrt{12} + \\sqrt{3})(\\sqrt{27} - \\sqrt{3})$ adalah...",
-    "pilihan": ["$12\\sqrt{3}$", "$6\\sqrt{3}$", "18", "12", "24"],
+    "pertanyaan": "Bentuk sederhana dari $(\\sqrt{12} + \\sqrt{3})(\\sqrt{27} - \\sqrt{3})$ adalah $\\dots$",
+    "pilihan": ["$12\\sqrt{3}$", "$6\\sqrt{3}$", "$18$", "$12$", "$24$"],
     "jawaban": "C",
     "pembahasan": "$\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{27} = 3\\sqrt{3}$. $(2\\sqrt{3} + \\sqrt{3})(3\\sqrt{3} - \\sqrt{3}) = (3\\sqrt{3})(2\\sqrt{3}) = 6 \\times 3 = 18$"
   },
@@ -103,7 +103,7 @@
     "kategori": "Fungsi",
     "tingkat_kesulitan": "Sedang",
     "pertanyaan": "Jika $f(x) = x^2 - 3x + 2$, maka $f(3) - f(1) = \\dots$",
-    "pilihan": ["4", "6", "8", "10", "12"],
+    "pilihan": ["$4$", "$6$", "$8$", "$10$", "$12$"],
     "jawaban": "A",
     "pembahasan": "$f(3) = 3^2 - 3(3) + 2 = 9 - 9 + 2 = 2$, $f(1) = 1^2 - 3(1) + 2 = 1 - 3 + 2 = 0$. $f(3) - f(1) = 2 - 0 = 4$"
   },
@@ -111,8 +111,8 @@
     "id": 13,
     "kategori": "Matriks",
     "tingkat_kesulitan": "Sedang",
-    "pertanyaan": "Jika $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 2 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 1 & 2 \\\\ 1 & 3 \\end{bmatrix}$, maka $\\det(A+B)$ adalah...",
-    "pilihan": ["1", "2", "3", "4", "5"],
+    "pertanyaan": "Jika $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 2 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 1 & 2 \\\\ 1 & 3 \\end{bmatrix}$, maka $\\det(A+B)$ adalah $\\dots$",
+    "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
     "jawaban": "C",
     "pembahasan": "$A+B = \\begin{bmatrix} 3 & 3 \\\\ 4 & 5 \\end{bmatrix}$. $\\det(A+B) = (3)(5) - (3)(4) = 15 - 12 = 3$"
   },
@@ -122,7 +122,7 @@
     "tingkat_kesulitan": "Sedang",
     "pertanyaan": "Sebuah segitiga siku-siku luasnya $3.000 \\text{ cm}^2$. Jika alas segitiga tersebut $120 \\text{ cm}$, maka panjang sisi miring segitiga adalah $\\dots \\text{ cm}$",
     "gambar": "https://raw.githubusercontent.com/Ananda-Rovihan/Project-Bank-Soal/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098122.jpg",
-    "pilihan": ["120", "125", "130", "135", "160"],
+    "pilihan": ["$120$", "$125$", "$130$", "$135$", "$160$"],
     "jawaban": "C",
     "pembahasan": "Luas $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} \\rightarrow 3000 = \\frac{1}{2} \\times 120 \\times \\text{tinggi} \\rightarrow \\text{tinggi} = 50 \\text{ cm}$. Sisi miring $= \\sqrt{120^2 + 50^2} = \\sqrt{14400 + 2500} = \\sqrt{16900} = 130 \\text{ cm}$"
   },
@@ -130,16 +130,16 @@
     "id": 15,
     "kategori": "Eksponen dan Logaritma",
     "tingkat_kesulitan": "Sulit",
-    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^6\\log 15$ adalah...",
-    "pilihan": ["\\frac{a+b}{1+a}", "\\frac{1+ab}{1+a}", "\\frac{a(1+b)}{1+a}", "\\frac{a+b}{ab}", "\\frac{a-b}{a+b}"],
-    "jawaban": "C",
-    "pembahasan": "$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6} = \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3} = \\frac{a + b}{1 + a}$. (Catatan: Meskipun jawaban C pada pilihan tidak sama dengan $\\frac{a+b}{1+a}$, kami mempertahankan format LaTeX pada teks yang diberikan.)"
+    "pertanyaan": "Jika $^2\\log 3 = a$ dan $^2\\log 5 = b$, maka $^6\\log 15$ adalah $\\dots$",
+    "pilihan": ["$\\frac{a+b}{1+a}$", "$\\frac{1+ab}{1+a}$", "$\\frac{a(1+b)}{1+a}$", "$\\frac{a+b}{ab}$", "$\\frac{a-b}{a+b$"],
+    "jawaban": "A",
+    "pembahasan": "$^6\\log 15 = \\frac{^2\\log 15}{^2\\log 6} = \\frac{^2\\log 3 + ^2\\log 5}{^2\\log 2 + ^2\\log 3} = \\frac{a + b}{1 + a}$."
   },
   {
     "id": 16,
     "kategori": "Peluang",
     "tingkat_kesulitan": "Sulit",
-    "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang munculnya jumlah mata dadu lebih dari $9$ adalah...",
+    "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang munculnya jumlah mata dadu lebih dari $9$ adalah $\\dots$",
     "pilihan": ["$\\frac{1}{12}$", "$\\frac{1}{6}$", "$\\frac{5}{36}$", "$\\frac{1}{4}$", "$\\frac{7}{36}$"],
     "jawaban": "B",
     "pembahasan": "Ruang sampel $n(S) = 6 \\times 6 = 36$. Kejadian jumlah $> 9$ adalah: $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$. Jumlah $n(E) = 6$. Peluang $P(E) = \\frac{6}{36} = \\frac{1}{6}$."
@@ -148,8 +148,8 @@
     "id": 17,
     "kategori": "Barisan dan Deret",
     "tingkat_kesulitan": "Sulit",
-    "pertanyaan": "Jika tiga bilangan $k-1$, $k+3$, $2k+1$ membentuk barisan aritmetika, maka suku pertama adalah...",
-    "pilihan": ["3", "4", "5", "6", "7"],
+    "pertanyaan": "Jika tiga bilangan $k-1$, $k+3$, $2k+1$ membentuk barisan aritmetika, maka suku pertama adalah $\\dots$",
+    "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
     "jawaban": "C",
     "pembahasan": "Syarat barisan aritmetika: $2(k+3) = (k-1) + (2k+1) \\rightarrow 2k + 6 = 3k \\rightarrow k = 6$. Suku pertama $= k - 1 = 6 - 1 = 5$"
   },
@@ -157,8 +157,8 @@
     "id": 18,
     "kategori": "Bentuk Akar",
     "tingkat_kesulitan": "Sulit",
-    "pertanyaan": "Nilai dari $\\sqrt{3 + 2\\sqrt{2}}$ adalah...",
-    "pilihan": ["$1 + \\sqrt{2}$", "$\\sqrt{2} + 1$", "$2 + 1$", "$\\sqrt{3} + 1$", "$2 + \\sqrt{2}$"],
+    "pertanyaan": "Nilai dari $\\sqrt{3 + 2\\sqrt{2}}$ adalah $\\dots$",
+    "pilihan": ["$1 + \\sqrt{2}$", "$2 + \\sqrt{3}$", "$2 + 1$", "$\\sqrt{3} + 1$", "$2 + \\sqrt{2}$"],
     "jawaban": "A",
     "pembahasan": "Misal $\\sqrt{3 + 2\\sqrt{2}} = \\sqrt{a} + \\sqrt{b}$. Kuadratkan: $a + b + 2\\sqrt{ab} = 3 + 2\\sqrt{2}$. Maka $a + b = 3$ dan $ab = 2$. Solusi: $a = 1, b = 2$. Jadi $\\sqrt{3 + 2\\sqrt{2}} = \\sqrt{1} + \\sqrt{2} = 1 + \\sqrt{2}$"
   },
@@ -167,7 +167,7 @@
     "kategori": "Fungsi",
     "tingkat_kesulitan": "Sulit",
     "pertanyaan": "Jika $f(x) = 2^x + 2^{-x}$ dan $f(a) = 3$, maka $f(2a) = \\dots$",
-    "pilihan": ["7", "9", "11", "13", "15"],
+    "pilihan": ["$7$", "$9$", "$11$", "$13$", "$15$"],
     "jawaban": "A",
     "pembahasan": "Diketahui $2^a + 2^{-a} = 3$. Kuadratkan: $(2^a + 2^{-a})^2 = 3^2 \\rightarrow 2^{2a} + 2 + 2^{-2a} = 9 \\rightarrow 2^{2a} + 2^{-2a} = 7$. Karena $f(2a) = 2^{2a} + 2^{-2a}$, maka $f(2a) = 7$"
   },
@@ -175,7 +175,7 @@
     "id": 20,
     "kategori": "Matriks",
     "tingkat_kesulitan": "Sulit",
-    "pertanyaan": "Jika $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$, maka $A^{-1}$ adalah...",
+    "pertanyaan": "Jika $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$, maka $A^{-1}$ adalah $\\dots$",
     "pilihan": ["$\\begin{bmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{bmatrix}$", "$\\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$", "$\\begin{bmatrix} 1 & 0 & 0 \\\\ 2 & 1 & 0 \\\\ 3 & 4 & 1 \\end{bmatrix}$", "$\\begin{bmatrix} -1 & -2 & -3 \\\\ 0 & -1 & -4 \\\\ 0 & 0 & -1 \\end{bmatrix}$", "$\\begin{bmatrix} 1 & 2 & 5 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$"],
     "jawaban": "A",
     "pembahasan": "Untuk matriks segitiga atas, inversnya juga matriks segitiga atas. $A^{-1} = \\begin{bmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{bmatrix}$"
