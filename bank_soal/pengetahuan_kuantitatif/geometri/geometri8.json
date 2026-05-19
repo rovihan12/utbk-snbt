@@ -62,7 +62,6 @@
     "90°"
   ],
   "jawaban": "C",
-  "gambar_pembahasan": null,
   "pembahasan": "Perhatikan $\\angle ABP$, $\\angle PBQ$, dan $\\angle QBC$ membentuk garis lurus, sehingga jumlah sudutnya adalah 180°. \n$\\angle ABP + \\angle PBQ + \\angle QBC = 180°$\n$2x + 105° + x = 180°$\n$3x + 105° = 180°$\n$3x = 180° - 105°$\n$3x = 75°$\n$x = 75° / 3$\n$x = 25°$\nBesar $\\angle ABP = 2x = 2(25°) = 50°$."
 },
    {
@@ -73,9 +72,8 @@
     "pembahasan": "Untuk mencari panjang garis singgung persekutuan luar dua lingkaran, kita dapat menggunakan rumus yang diturunkan dari Teorema Pythagoras. Misalkan panjang garis singgung persekutuan luar adalah $L$, jarak antar pusat lingkaran adalah $MN$, jari-jari lingkaran besar adalah $R$, dan jari-jari lingkaran kecil adalah $r$. Rumus yang digunakan adalah:\n\n$L = \\sqrt{MN^2 - (R - r)^2}$\n\nDari soal, kita memiliki informasi:\n* Jari-jari lingkaran besar ($R$) = $12$ cm\n* Jari-jari lingkaran kecil ($r$) = $2$ cm\n* Jarak antar pusat lingkaran ($MN$) = $26$ cm\n\nSelisih jari-jari adalah $R - r = 12 - 2 = 10$ cm.\n\nSekarang, kita substitusikan nilai-nilai tersebut ke dalam rumus:\n\n$L = \\sqrt{26^2 - (10)^2}$\n$L = \\sqrt{676 - 100}$\n$L = \\sqrt{576}$\n$L = 24$ cm\n\nAtau, kita bisa menggunakan identitas **tripel Pythagoras**, yaitu $5, 12, 13$. Dengan mengalikan setiap angka dengan 2, kita dapatkan $10, 24, 26$. Dalam konteks soal ini, 26 adalah sisi miring ($MN$), dan 10 adalah salah satu sisi tegak ($R-r$). Maka, sisi tegak lainnya, yaitu panjang garis singgung persekutuan luar, adalah $24$ cm. "
   },
   {
-      "id": 7,
+    "id": 7,
     "pertanyaan": "Luas belah ketupat dengan diagonal 10 cm dan 16 cm adalah ...",
-    "gambar": "soal_7.png",
     "pilihan": ["80 cm²", "100 cm²", "90 cm²", "70 cm²"],
     "jawaban": "A",
     "pembahasan": "Luas belah ketupat = (1/2) × d1 × d2 = (1/2) × 10 × 16 = 80 cm². Jawaban A."
