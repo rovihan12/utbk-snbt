@@ -6,7 +6,7 @@
     "pertanyaan": "Nilai dari $^2\\log 16$ adalah $\\dots$",
     "pilihan": ["$2$", "$3$", "$4$", "$8$", "$16$"],
     "jawaban": "C",
-    "pembahasan": "Kita mencari nilai $y$ sehingga $2^y = 16$. Karena $2^4 = 16$, maka $^2\\log 16 = 4$."
+    "pembahasan": "Kita mencari nilai $y$ sehingga $2^y = 16$.\n Karena $2^4 = 16$,\n maka $^2\\log 16 = 4$."
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
     "pertanyaan": "Suku ke-$n$ dari barisan $a_n = 3n - 5$. Suku ke-10 dari barisan tersebut adalah $\\dots$",
     "pilihan": ["$25$", "$27$", "$29$", "$31$", "$33$"],
     "jawaban": "A",
-    "pembahasan": "Substitusi $n = 10$: $a_{10} = 3(10) - 5 = 30 - 5 = 25$"
+    "pembahasan": "Substitusi $n = 10$:\n $a_{10} = 3(10) - 5 = 30 - 5 = 25$"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
     "pertanyaan": "Jika $^3\\log 2 = a$ dan $^3\\log 5 = b$, maka $^3\\log 40$ adalah $\\dots$",
     "pilihan": ["$a + 3b$", "$3a + b$", "$a + b$", "$2a + b$", "$a + 2b$"],
     "jawaban": "B",
-    "pembahasan": "$40 = 8 \\times 5 = 2^3 \\times 5$. $^3\\log 40 = ^3\\log 2^3 + ^3\\log 5 = 3a + b$"
+    "pembahasan": "$40 = 8 \\times 5 = 2^3 \\times 5$. $^3\\log 40 = ^3\\log 2^3 + ^3\\log 5 = 3^3\\log2 + ^3\\log5 = 3a + b$"
   },
   {
     "id": 9,
