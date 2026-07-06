@@ -6,7 +6,7 @@
     "pertanyaan": "Nilai dari $^2\\log 16$ adalah $\\dots$",
     "pilihan": ["$2$", "$3$", "$4$", "$8$", "$16$"],
     "jawaban": "C",
-    "pembahasan": "Kita mencari nilai $y$ sehingga $2^y = 16$. Karena $2^4 = 16$, maka $^2\\log 16 = 4$."
+    "pembahasan": "Kita mencari nilai $y$ sehingga $2^y = 16$.\n Karena $2^4 = 16$,\n maka $^2\\log 16 = 4$."
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
     "pertanyaan": "Suku ke-$n$ dari barisan $a_n = 3n - 5$. Suku ke-10 dari barisan tersebut adalah $\\dots$",
     "pilihan": ["$25$", "$27$", "$29$", "$31$", "$33$"],
     "jawaban": "A",
-    "pembahasan": "Substitusi $n = 10$: $a_{10} = 3(10) - 5 = 30 - 5 = 25$"
+    "pembahasan": "Substitusi $n = 10$:\n $a_{10} = 3(10) - 5 = 30 - 5 = 25$"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
     "pertanyaan": "Jika $^3\\log 2 = a$ dan $^3\\log 5 = b$, maka $^3\\log 40$ adalah $\\dots$",
     "pilihan": ["$a + 3b$", "$3a + b$", "$a + b$", "$2a + b$", "$a + 2b$"],
     "jawaban": "B",
-    "pembahasan": "$40 = 8 \\times 5 = 2^3 \\times 5$. $^3\\log 40 = ^3\\log 2^3 + ^3\\log 5 = 3a + b$"
+    "pembahasan": "$40 = 8 \\times 5 = 2^3 \\times 5$. $^3\\log 40 = ^3\\log 2^3 + ^3\\log 5\n = 3^3\\log2 + ^3\\log5\n = 3a + b$"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "pertanyaan": "Berapa banyak cara menyusun huruf-huruf pada kata \"MATEMATIKA\"?",
     "pilihan": ["$10!$", "$\\frac{10!}{2! 2! 3!}$", "$\\frac{10!}{2! 3!}$", "$\\frac{10!}{2! 2!}$", "$\\frac{10!}{3! 3!}$"],
     "jawaban": "B",
-    "pembahasan": "Total huruf $n=10$. Huruf M berulang $2$ kali, A berulang $3$ kali, T berulang $2$ kali. Permutasi dengan pengulangan: $P = \\frac{10!}{2! \\cdot 3! \\cdot 2!} = \\frac{10!}{2! 2! 3!}$."
+    "pembahasan": "Total huruf $n=10$.\n Huruf M berulang $2$ kali,\n A berulang $3$ kali,\n T berulang $2$ kali.\n Permutasi dengan pengulangan:\n $P = \\frac{10!}{2! \\cdot 3! \\cdot 2!} = \\frac{10!}{2! 2! 3!}$."
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "pertanyaan": "Sebuah barisan geometri memiliki suku ke-3 adalah 12 dan suku ke-6 adalah 96. Suku pertama dari barisan tersebut adalah $\\dots$",
     "pilihan": ["$2$", "$3$", "$4$", "$6$", "$8$"],
     "jawaban": "B",
-    "pembahasan": "$a_3 = ar^2 = 12$, $a_6 = ar^5 = 96$. Bagi persamaan: $\\frac{ar^5}{ar^2} = \\frac{96}{12} \\rightarrow r^3 = 8 \\rightarrow r = 2$. Substitusi: $a(2)^2 = 12 \\rightarrow 4a = 12 \\rightarrow a = 3$"
+    "pembahasan": "$a_3 = ar^2 = 12$,\n $a_6 = ar^5 = 96$.\n\n Bagi persamaan:\n $\\frac{ar^5}{ar^2} = \\frac{96}{12} \\rightarrow r^3 = 8 \\rightarrow r = 2$.\n\n Substitusi: $a(2)^2 = 12 \\rightarrow 4a = 12 \\rightarrow a = 3$"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "pertanyaan": "Bentuk sederhana dari $(\\sqrt{12} + \\sqrt{3})(\\sqrt{27} - \\sqrt{3})$ adalah $\\dots$",
     "pilihan": ["$12\\sqrt{3}$", "$6\\sqrt{3}$", "$18$", "$12$", "$24$"],
     "jawaban": "C",
-    "pembahasan": "$\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{27} = 3\\sqrt{3}$. $(2\\sqrt{3} + \\sqrt{3})(3\\sqrt{3} - \\sqrt{3}) = (3\\sqrt{3})(2\\sqrt{3}) = 6 \\times 3 = 18$"
+    "pembahasan": "$\\sqrt{12} = 2\\sqrt{3}$,\n $\\sqrt{27} = 3\\sqrt{3}$.\n\n $(2\\sqrt{3} + \\sqrt{3})(3\\sqrt{3} - \\sqrt{3}) \n = (3\\sqrt{3})(2\\sqrt{3})\n = 6 \\times 3 = 18$"
   },
   {
     "id": 12,
@@ -114,7 +114,7 @@
     "pertanyaan": "Jika $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 2 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 1 & 2 \\\\ 1 & 3 \\end{bmatrix}$, maka $\\det(A+B)$ adalah $\\dots$",
     "pilihan": ["$1$", "$2$", "$3$", "$4$", "$5$"],
     "jawaban": "C",
-    "pembahasan": "$A+B = \\begin{bmatrix} 3 & 3 \\\\ 4 & 5 \\end{bmatrix}$. $\\det(A+B) = (3)(5) - (3)(4) = 15 - 12 = 3$"
+    "pembahasan": "$A+B = \\begin{bmatrix} 3 & 3 \\\\ 4 & 5 \\end{bmatrix}$. $\\det(A+B)\n = (3)(5) - (3)(4)\n = 15 - 12 = 3$"
   },
   {
     "id": 14,
@@ -129,7 +129,7 @@
   ],
   "jawaban": "B",
   "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/CamScanner%2028-08-2025%2006.22.jpg"
-  "pembahasan": "Misalkan titik potong antara garis DG dan AE adalah P. Karena DG dan AE berpotongan tegak lurus, maka $\\angle$APD = $\\angle$GPE = 90°. \nPerhatikan $\\triangle$APD. Kita memiliki $\\angle$PAD + $\\angle$PDA = 90°. \nKarena AE sejajar GC, maka $\\angle$AEC = $\\angle$GCE (sudut dalam berseberangan). \nKarena DG dan AE berpotongan tegak lurus, maka $\\angle$DPE = 90°. \nPerhatikan $\\triangle$ADP dan $\\triangle$GCP. \nKarena AE sejajar GC, dan DG adalah garis transversal, maka $\\angle$DGC dan $\\angle$APG adalah sudut dalam berseberangan. \nSehingga, $\\angle$DGC = $\\angle$APG = 90°. \nBesar $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \n$\\angle$AGC = $\\angle$AGD + $\\angle$DGC \n$\\angle$AGC = 30° + 90° = 120° \nJadi, besar $\\angle$AGC adalah 120°."
+    "pembahasan": "Misalkan titik potong antara garis DG dan AE adalah P. Karena DG dan AE berpotongan tegak lurus, maka $\\angle$APD = $\\angle$GPE = 90°. \nPerhatikan $\\triangle$APD. Kita memiliki $\\angle$PAD + $\\angle$PDA = 90°. \nKarena AE sejajar GC, maka $\\angle$AEC = $\\angle$GCE (sudut dalam berseberangan). \nKarena DG dan AE berpotongan tegak lurus, maka $\\angle$DPE = 90°. \nPerhatikan $\\triangle$ADP dan $\\triangle$GCP. \nKarena AE sejajar GC, dan DG adalah garis transversal, maka $\\angle$DGC dan $\\angle$APG adalah sudut dalam berseberangan. \nSehingga, $\\angle$DGC = $\\angle$APG = 90°. \nBesar $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \n$\\angle$AGC = $\\angle$AGD + $\\angle$DGC \n$\\angle$AGC = 30° + 90° = 120° \nJadi, besar $\\angle$AGC adalah 120°."
 },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang munculnya jumlah mata dadu lebih dari $9$ adalah $\\dots$",
     "pilihan": ["$\\frac{1}{12}$", "$\\frac{1}{6}$", "$\\frac{5}{36}$", "$\\frac{1}{4}$", "$\\frac{7}{36}$"],
     "jawaban": "B",
-    "pembahasan": "Ruang sampel $n(S) = 6 \\times 6 = 36$. Kejadian jumlah $> 9$ adalah: $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$. Jumlah $n(E) = 6$. Peluang $P(E) = \\frac{6}{36} = \\frac{1}{6}$."
+    "pembahasan": "Ruang sampel $n(S) = 6 \\times 6 = 36$.\n Kejadian jumlah $> 9$ adalah:\n $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$.\n Jumlah $n(E) = 6$.\n Peluang $P(E) = \\frac{6}{36} = \\frac{1}{6}$."
   },
   {
     "id": 17,
@@ -156,7 +156,7 @@
     "pertanyaan": "Jika tiga bilangan $k-1$, $k+3$, $2k+1$ membentuk barisan aritmetika, maka suku pertama adalah $\\dots$",
     "pilihan": ["$3$", "$4$", "$5$", "$6$", "$7$"],
     "jawaban": "C",
-    "pembahasan": "Syarat barisan aritmetika: $2(k+3) = (k-1) + (2k+1) \\rightarrow 2k + 6 = 3k \\rightarrow k = 6$. Suku pertama $= k - 1 = 6 - 1 = 5$"
+    "pembahasan": "Syarat barisan aritmetika:\n $2(k+3) = (k-1) + (2k+1) \\rightarrow 2k + 6 = 3k \\rightarrow k = 6$.\n Suku pertama $= k - 1 = 6 - 1 = 5$"
   },
   {
     "id": 18,
@@ -165,7 +165,7 @@
     "pertanyaan": "Nilai dari $\\sqrt{3 + 2\\sqrt{2}}$ adalah $\\dots$",
     "pilihan": ["$1 + \\sqrt{2}$", "$2 + \\sqrt{3}$", "$2 + 1$", "$\\sqrt{3} + 1$", "$2 + \\sqrt{2}$"],
     "jawaban": "A",
-    "pembahasan": "Misal $\\sqrt{3 + 2\\sqrt{2}} = \\sqrt{a} + \\sqrt{b}$. Kuadratkan: $a + b + 2\\sqrt{ab} = 3 + 2\\sqrt{2}$. Maka $a + b = 3$ dan $ab = 2$. Solusi: $a = 1, b = 2$. Jadi $\\sqrt{3 + 2\\sqrt{2}} = \\sqrt{1} + \\sqrt{2} = 1 + \\sqrt{2}$"
+    "pembahasan": "Misal $\\sqrt{3 + 2\\sqrt{2}} = \\sqrt{a} + \\sqrt{b}$.\n Kuadratkan: $a + b + 2\\sqrt{ab} = 3 + 2\\sqrt{2}$.\n Maka $a + b = 3$ dan $ab = 2$.\n\n Solusi: $a = 1, b = 2$.\n Jadi $\\sqrt{3 + 2\\sqrt{2}} = \\sqrt{1} + \\sqrt{2} = 1 + \\sqrt{2}$"
   },
   {
     "id": 19,
@@ -174,7 +174,7 @@
     "pertanyaan": "Jika $f(x) = 2^x + 2^{-x}$ dan $f(a) = 3$, maka $f(2a) = \\dots$",
     "pilihan": ["$7$", "$9$", "$11$", "$13$", "$15$"],
     "jawaban": "A",
-    "pembahasan": "Diketahui $2^a + 2^{-a} = 3$. Kuadratkan: $(2^a + 2^{-a})^2 = 3^2 \\rightarrow 2^{2a} + 2 + 2^{-2a} = 9 \\rightarrow 2^{2a} + 2^{-2a} = 7$. Karena $f(2a) = 2^{2a} + 2^{-2a}$, maka $f(2a) = 7$"
+    "pembahasan": "Diketahui $2^a + 2^{-a} = 3$.\n Kuadratkan: $(2^a + 2^{-a})^2 = 3^2 \\rightarrow 2^{2a} + 2 + 2^{-2a} = 9 \\rightarrow 2^{2a} + 2^{-2a} = 7$\n\n Karena $f(2a) = 2^{2a} + 2^{-2a}$,\n maka $f(2a) = 7$"
   },
   {
     "id": 20,
@@ -183,6 +183,6 @@
     "pertanyaan": "Jika $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$, maka $A^{-1}$ adalah $\\dots$",
     "pilihan": ["$\\begin{bmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{bmatrix}$", "$\\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$", "$\\begin{bmatrix} 1 & 0 & 0 \\\\ 2 & 1 & 0 \\\\ 3 & 4 & 1 \\end{bmatrix}$", "$\\begin{bmatrix} -1 & -2 & -3 \\\\ 0 & -1 & -4 \\\\ 0 & 0 & -1 \\end{bmatrix}$", "$\\begin{bmatrix} 1 & 2 & 5 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 1 \\end{bmatrix}$"],
     "jawaban": "A",
-    "pembahasan": "Untuk matriks segitiga atas, inversnya juga matriks segitiga atas. $A^{-1} = \\begin{bmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{bmatrix}$"
+    "pembahasan": "Untuk matriks segitiga atas,\n inversnya juga matriks segitiga atas.\n\n $A^{-1} = \\begin{bmatrix} 1 & -2 & 5 \\\\ 0 & 1 & -4 \\\\ 0 & 0 & 1 \\end{bmatrix}$"
   }
 ]
