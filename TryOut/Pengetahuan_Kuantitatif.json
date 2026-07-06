@@ -147,7 +147,7 @@
     "pertanyaan": "Sebuah dadu dilempar dua kali. Peluang munculnya jumlah mata dadu lebih dari $9$ adalah $\\dots$",
     "pilihan": ["$\\frac{1}{12}$", "$\\frac{1}{6}$", "$\\frac{5}{36}$", "$\\frac{1}{4}$", "$\\frac{7}{36}$"],
     "jawaban": "B",
-    "pembahasan": "Ruang sampel $n(S) = 6 \\times 6 = 36$.\n Kejadian jumlah $> 9$ adalah:\n $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$.\n Jumlah $n(E) = 6$. Peluang $P(E) = \\frac{6}{36} = \\frac{1}{6}$."
+    "pembahasan": "Ruang sampel $n(S) = 6 \\times 6 = 36$.\n Kejadian jumlah $> 9$ adalah:\n $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$.\n Jumlah $n(E) = 6$.\n Peluang $P(E) = \\frac{6}{36} = \\frac{1}{6}$."
   },
   {
     "id": 17,
@@ -174,7 +174,7 @@
     "pertanyaan": "Jika $f(x) = 2^x + 2^{-x}$ dan $f(a) = 3$, maka $f(2a) = \\dots$",
     "pilihan": ["$7$", "$9$", "$11$", "$13$", "$15$"],
     "jawaban": "A",
-    "pembahasan": "Diketahui $2^a + 2^{-a} = 3$.\n Kuadratkan: $(2^a + 2^{-a})^2 = 3^2 \\rightarrow 2^{2a} + 2 + 2^{-2a} = 9 \\rightarrow 2^{2a} + 2^{-2a} = 7$.\n\n Karena $f(2a) = 2^{2a} + 2^{-2a}$,\n maka $f(2a) = 7$"
+    "pembahasan": "Diketahui $2^a + 2^{-a} = 3$.\n Kuadratkan: $(2^a + 2^{-a})^2 = 3^2 \\rightarrow 2^{2a} + 2 + 2^{-2a} = 9 \\rightarrow 2^{2a} + 2^{-2a} = 7$\n\n Karena $f(2a) = 2^{2a} + 2^{-2a}$,\n maka $f(2a) = 7$"
   },
   {
     "id": 20,
