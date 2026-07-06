@@ -118,14 +118,19 @@
   },
   {
     "id": 14,
-    "kategori": "Geometri dan Bangun Datar",
-    "tingkat_kesulitan": "Sedang",
-    "pertanyaan": "Sebuah segitiga siku-siku luasnya $3.000 \\text{ cm}^2$. Jika alas segitiga tersebut $120 \\text{ cm}$, maka panjang sisi miring segitiga adalah $\\dots \\text{ cm}$",
-    "gambar": "https://raw.githubusercontent.com/Ananda-Rovihan/Project-Bank-Soal/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/1000098122.jpg",
-    "pilihan": ["$120$", "$125$", "$130$", "$135$", "$160$"],
-    "jawaban": "C",
-    "pembahasan": "Luas $= \\frac{1}{2} \\times \\text{alas} \\times \\text{tinggi} \\rightarrow 3000 = \\frac{1}{2} \\times 120 \\times \\text{tinggi} \\rightarrow \\text{tinggi} = 50 \\text{ cm}$. Sisi miring $= \\sqrt{120^2 + 50^2} = \\sqrt{14400 + 2500} = \\sqrt{16900} = 130 \\text{ cm}$"
-  },
+  "pertanyaan": "Pada persegipanjang ABCD, titik E dan G berturut-turut terletak di sisi DC dan AB sehingga AE sejajar GC. Jika AE = 4, $\\angle$AGD = 30°, dan garis DG dan AE berpotongan tegak lurus, besar $\\angle$AGC adalah ... .",
+  "gambar": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/CamScanner%2028-08-2025%2006.21.jpg",
+  "pilihan": [
+    "105°",
+    "120°",
+    "135°",
+    "150°",
+    "165°"
+  ],
+  "jawaban": "B",
+  "gambar_pembahasan": "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/pengetahuan_kuantitatif/geometri/Image/CamScanner%2028-08-2025%2006.22.jpg"
+  "pembahasan": "Misalkan titik potong antara garis DG dan AE adalah P. Karena DG dan AE berpotongan tegak lurus, maka $\\angle$APD = $\\angle$GPE = 90°. \nPerhatikan $\\triangle$APD. Kita memiliki $\\angle$PAD + $\\angle$PDA = 90°. \nKarena AE sejajar GC, maka $\\angle$AEC = $\\angle$GCE (sudut dalam berseberangan). \nKarena DG dan AE berpotongan tegak lurus, maka $\\angle$DPE = 90°. \nPerhatikan $\\triangle$ADP dan $\\triangle$GCP. \nKarena AE sejajar GC, dan DG adalah garis transversal, maka $\\angle$DGC dan $\\angle$APG adalah sudut dalam berseberangan. \nSehingga, $\\angle$DGC = $\\angle$APG = 90°. \nBesar $\\angle$AGC adalah jumlah dari $\\angle$AGD dan $\\angle$DGC. \n$\\angle$AGC = $\\angle$AGD + $\\angle$DGC \n$\\angle$AGC = 30° + 90° = 120° \nJadi, besar $\\angle$AGC adalah 120°."
+},
   {
     "id": 15,
     "kategori": "Eksponen dan Logaritma",
