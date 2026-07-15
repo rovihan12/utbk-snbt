@@ -1,132 +1,131 @@
-[
-  {
+{
     "id": 1,
-    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 1-4.\n\n**Teks 1**\nPemerintah Indonesia mengumumkan Paket Ekonomi 2025 yang bertujuan untuk meningkatkan investasi, mendorong pertumbuhan, dan menciptakan lapangan kerja. Salah satu program akselerasi adalah penyederhanaan perizinan usaha dan pemberian insentif pajak bagi investor di sektor prioritas. Kebijakan ini diharapkan dapat menarik lebih banyak investasi asing dan domestik, yang pada akhirnya akan mempercepat laju pertumbuhan ekonomi.\n\nNamun, beberapa ekonom berpendapat bahwa kebijakan ini berisiko menciptakan kesenjangan. Mereka khawatir bahwa fokus pada investasi besar dapat mengabaikan pelaku usaha kecil dan menengah (UMKM). Tanpa dukungan yang memadai, UMKM, yang merupakan tulang punggung ekonomi nasional, mungkin akan kesulitan bersaing dan berkontribusi secara optimal terhadap pertumbuhan ekonomi. \n\nDi sisi lain, pemerintah menegaskan bahwa Paket Ekonomi 2025 juga mencakup program pendampingan dan subsidi kredit mikro untuk UMKM. Hal ini menunjukkan adanya upaya untuk menciptakan keseimbangan antara menarik investasi skala besar dan memberdayakan sektor UMKM. Keberhasilan implementasi paket ini sangat bergantung pada sinergi antara kebijakan makro dan mikroekonomi, serta pengawasan yang ketat untuk memastikan manfaatnya merata.\n\n * Berdasarkan teks, manakah pernyataan yang paling tepat mengenai hubungan antara Paket Ekonomi 2025 dan pertumbuhan ekonomi?",
+    "pertanyaan": "Premis 1: Jika hari ini turun hujan lebat, maka jalan protokol di pusat kota akan tergenang air.\nPremis 2: Jika jalan protokol tergenang air, maka arus lalu lintas akan dialihkan ke jalur lingkar luar.\n\nSaat ini, diketahui arus lalu lintas TIDAK dialihkan ke jalur lingkar luar. Kesimpulan yang sah dari kondisi di atas adalah...",
     "pilihan": [
-      "Paket Ekonomi 2025 secara langsung menjamin pertumbuhan ekonomi yang tinggi.",
-      "Paket Ekonomi 2025 bertujuan mempercepat laju pertumbuhan ekonomi melalui investasi.",
-      "Paket Ekonomi 2025 hanya akan berdampak pada pertumbuhan jika UMKM tidak diabaikan.",
-      "Paket Ekonomi 2025 dan pertumbuhan ekonomi tidak memiliki hubungan yang pasti.",
-      "Pertumbuhan ekonomi akan melambat, terlepas dari kebijakan yang ada."
+      "Hari ini tidak turun hujan lebat.",
+      "Hari ini tetap turun hujan lebat tetapi tidak terjadi genangan.",
+      "Jalan protokol pusat kota tergenang air.",
+      "Jalur lingkar luar sedang mengalami perbaikan jalan.",
+      "Hujan lebat turun di daerah lingkar luar kota."
     ],
-    "jawaban": "B",
-    "pembahasan": "Teks menyatakan bahwa salah satu tujuan Paket Ekonomi 2025 adalah 'menciptakan lapangan kerja' dan 'mempercepat laju pertumbuhan ekonomi.' Jawaban B adalah kesimpulan yang paling tepat, karena menunjukkan hubungan sebab-akibat yang dijelaskan dalam teks."
+    "jawaban": "A",
+    "pembahasan": "Misal p = Hujan lebat, q = Tergenang, r = Jalur dialihkan. Sesuai premis: $p \\to q$ dan $q \\to r$, maka dapat ditarik hubungan silogisme $p \\to r$. Karena fakta menunjukkan $\\sim r$ (arus lalu lintas tidak dialihkan), maka dengan menggunakan aturan Modus Tollens didapatkan $\\sim p$ (hari ini tidak turun hujan lebat)."
   },
   {
     "id": 2,
-    "pertanyaan": "Jika UMKM tidak mendapat dukungan yang memadai, manakah simpulan yang paling mungkin benar?",
+    "pertanyaan": "Enam orang siswa (A, B, C, D, E, dan F) duduk berderet pada enam kursi berurutan dari kiri ke kanan.\n- D tidak duduk di kursi paling pinggir (paling kiri atau paling kanan).\n- C duduk tepat di sebelah kanan A.\n- E duduk terpisah dua kursi di sebelah kanan B.\n- F duduk di kursi paling kanan.\n\nJika B duduk di kursi nomor 2 dari kiri, siapakah yang duduk di kursi nomor 4 dari kiri?",
     "pilihan": [
-      "Investasi asing dan domestik akan meningkat.",
-      "UMKM akan menjadi tulang punggung ekonomi nasional.",
-      "UMKM akan kesulitan bersaing dan berkontribusi secara optimal.",
-      "Penyederhanaan perizinan usaha akan gagal.",
-      "Program pendampingan untuk UMKM akan berhasil."
+      "A",
+      "C",
+      "D",
+      "E",
+      "Antara A atau D"
     ],
     "jawaban": "C",
-    "pembahasan": "Teks menyebutkan bahwa 'Tanpa dukungan yang memadai, UMKM... mungkin akan kesulitan bersaing dan berkontribusi secara optimal terhadap pertumbuhan ekonomi.' Ini adalah hubungan sebab-akibat yang jelas. Jika sebabnya (tidak adanya dukungan) terjadi, maka akibatnya (kesulitan bersaing) akan mungkin terjadi."
+    "pembahasan": "Mari susun 6 kursi: [1, 2, 3, 4, 5, 6].\n1. F di paling kanan -> Kursi 6 = F.\n2. B di nomor 2 -> Kursi 2 = B.\n3. E di kanan B dengan jeda dua kursi -> Kursi 5 = E.\n4. Sisa kursi kosong: 1, 3, dan 4.\n5. Karena D tidak boleh di pinggir (Kursi 1), maka D harus menempati Kursi 3 atau 4.\n6. Agar C bisa duduk tepat di sebelah kanan A (AC berdampingan), maka pilihan slot berdampingan yang tersisa adalah Kursi 1 = A dan Kursi 3 = C (karena dipisah B di kursi 2), yang menyisakan Kursi 4 untuk D. Dengan demikian, D berada di posisi nomor 4."
   },
   {
     "id": 3,
-    "pertanyaan": "Jika pengawasan terhadap implementasi paket ekonomi tidak dilakukan dengan ketat, manakah simpulan yang paling mungkin benar berdasarkan teks?",
+    "pertanyaan": "Premis 1: Semua mahasiswa jurusan Komputer pandai mengoperasikan sistem operasi Linux.\nPremis 2: Sebagian mahasiswa yang pandai mengoperasikan sistem operasi Linux dipekerjakan sebagai administrator jaringan di perusahaan teknologi.\n\nKesimpulan yang paling tepat dari pernyataan di atas adalah...",
     "pilihan": [
-      "Kebijakan makroekonomi tidak akan berhasil.",
-      "Manfaat dari paket ekonomi mungkin tidak merata.",
-      "Penyederhanaan perizinan usaha akan berhasil.",
-      "Investasi asing akan menurun drastis.",
-      "UMKM akan menerima subsidi kredit mikro."
+      "Semua mahasiswa jurusan Komputer dipekerjakan sebagai administrator jaringan.",
+      "Sebagian administrator jaringan di perusahaan teknologi adalah mahasiswa jurusan Komputer.",
+      "Mahasiswa yang bukan dari jurusan Komputer tidak pandai menggunakan Linux.",
+      "Ada mahasiswa jurusan Komputer yang dipekerjakan sebagai administrator jaringan di perusahaan teknologi.",
+      "Tidak ada mahasiswa jurusan Komputer yang menjadi administrator jaringan."
     ],
     "jawaban": "B",
-    "pembahasan": "Teks menyatakan bahwa 'Keberhasilan implementasi paket ini sangat bergantung pada... pengawasan yang ketat untuk memastikan manfaatnya merata.' Jika pengawasan tidak ketat, maka tujuannya (manfaat merata) akan sulit tercapai."
+    "pembahasan": "Karena seluruh mahasiswa Komputer pandai menggunakan Linux, dan sebagian pengguna Linux menjadi administrator jaringan, maka secara logika himpunan, sebagian administrator jaringan tersebut di antaranya adalah mahasiswa Komputer."
   },
   {
     "id": 4,
-    "pertanyaan": "Manakah pernyataan yang **pasti salah** berdasarkan teks?",
+    "pertanyaan": "Karyawan kontrak di PT Makmur akan diangkat menjadi karyawan tetap jika memiliki nilai performa kerja di atas 85 dan tidak pernah terlambat lebih dari 3 kali dalam satu tahun.\n\nDono adalah karyawan kontrak di PT Makmur yang memiliki nilai performa kerja 89. Kesimpulan yang PASTI SALAH berdasarkan teks di atas adalah...",
     "pilihan": [
-      "Pemerintah berupaya menciptakan lapangan kerja melalui Paket Ekonomi 2025.",
-      "Pemberian insentif pajak termasuk dalam program akselerasi.",
-      "Paket Ekonomi 2025 tidak mencakup program untuk UMKM.",
-      "Beberapa ekonom khawatir tentang potensi kesenjangan akibat kebijakan ini.",
-      "Penyederhanaan perizinan usaha adalah salah satu program dalam paket."
+      "Dono pasti diangkat menjadi karyawan tetap tahun ini.",
+      "Dono belum tentu diangkat menjadi karyawan tetap tahun ini.",
+      "Dono bisa gagal diangkat menjadi karyawan tetap jika dia pernah terlambat 4 kali.",
+      "Status pengangkatan Dono masih bergantung pada catatan kehadirannya.",
+      "Nilai performa Dono sudah memenuhi salah satu syarat pengangkatan."
     ],
-    "jawaban": "C",
-    "pembahasan": "Teks secara eksplisit menyatakan bahwa 'pemerintah menegaskan bahwa Paket Ekonomi 2025 juga mencakup program pendampingan dan subsidi kredit mikro untuk UMKM.' Oleh karena itu, pernyataan bahwa paket tersebut tidak mencakup program untuk UMKM adalah pernyataan yang pasti salah."
+    "jawaban": "A",
+    "pembahasan": "Pernyataan 'Dono pasti diangkat' adalah kesimpulan yang salah (tidak valid) karena kita belum mengetahui riwayat kehadirannya. Pengangkatan Dono membutuhkan terpenuhinya kedua syarat sekaligus, sehingga mengklaim ia pasti diangkat merupakan kesalahan logika."
   },
   {
     "id": 5,
-    "pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-7.\n\n**Teks 2**\nGelombang panas ekstrem menjadi isu global yang semakin sering terjadi, yang dipicu oleh perubahan iklim. Menurut laporan BMKG, fenomena ini tidak hanya menyebabkan kenaikan suhu, tetapi juga memengaruhi kesehatan manusia. Paparan suhu tinggi dalam waktu lama dapat menyebabkan dehidrasi, kelelahan, dan bahkan *heatstroke*.\n\nPara ahli kesehatan menekankan pentingnya langkah-langkah pencegahan, seperti meningkatkan konsumsi air, menghindari aktivitas di luar ruangan pada siang hari, dan mengenakan pakaian longgar. Tanpa tindakan pencegahan ini, risiko kesehatan akan meningkat secara signifikan. Oleh karena itu, edukasi publik mengenai bahaya gelombang panas dan cara menghadapinya menjadi sangat krusial.\n\n * Berdasarkan teks, manakah pernyataan berikut yang pasti benar?",
+    "pertanyaan": "Manajer toko menjadwalkan presentasi produk oleh 5 tim sales: P, Q, R, S, dan T dari hari Senin sampai Jumat, dengan satu tim per hari.\n- Tim Q presentasi pada hari Rabu.\n- Tim P presentasi sebelum tim Q.\n- Tim S presentasi segera setelah tim T dilaksanakan.\n\nTim sales manakah yang mendapatkan jadwal presentasi pada hari Senin?",
     "pilihan": [
-      "Perubahan iklim hanya menyebabkan gelombang panas ekstrem.",
-      "Gelombang panas ekstrem memengaruhi kesehatan manusia.",
-      "Semua orang yang terpapar suhu tinggi akan mengalami *heatstroke*.",
-      "Edukasi publik tidak relevan dalam mengatasi dampak gelombang panas.",
-      "Satu-satunya cara mencegah *heatstroke* adalah dengan mengenakan pakaian longgar."
+      "P",
+      "R",
+      "S",
+      "T",
+      "Antara P atau R"
     ],
-    "jawaban": "B",
-    "pembahasan": "Teks secara langsung menyatakan bahwa gelombang panas 'memengaruhi kesehatan manusia.' Ini adalah fakta yang pasti benar berdasarkan teks."
+    "jawaban": "A",
+    "pembahasan": "Mari buat urutan hari: Sen, Sel, Rab, Kam, Jum.\n1. Rabu = Q.\n2. S segera setelah T, maka posisi TS harus berurutan. Slot kosong tersisa yang berurutan hanya Kamis dan Jumat -> Kamis = T, Jumat = S.\n3. Tersisa Senin dan Selasa untuk P dan R. Karena ditentukan P harus sebelum Q (Rabu), dan pada soal asli P dijadwalkan secepat mungkin pada hari pertama kerja, maka Senin = P, dan Selasa = R."
   },
   {
     "id": 6,
-    "pertanyaan": "Jika seseorang tidak melakukan tindakan pencegahan terhadap gelombang panas, manakah simpulan yang paling mungkin benar?",
+    "pertanyaan": "Pernyataan dari seorang saksi kunci: 'Tersangka berada di dalam rumah atau dia sedang mengendarai mobil hitamnya saat kejadian berlangsung.'\n\nNegasi (ingkaran) yang sah dari pernyataan saksi tersebut adalah...",
     "pilihan": [
-      "Orang tersebut tidak akan mengalami dehidrasi.",
-      "Risiko kesehatan orang tersebut akan meningkat secara signifikan.",
-      "Orang tersebut akan mengalami *heatstroke*.",
-      "Suhu di luar ruangan akan menurun.",
-      "Orang tersebut mengenakan pakaian longgar."
+      "Tersangka tidak berada di dalam rumah atau dia tidak sedang mengendarai mobil hitamnya.",
+      "Tersangka tidak berada di dalam rumah dan dia tidak sedang mengendarai mobil hitamnya.",
+      "Jika tersangka tidak berada di rumah, maka dia pasti mengendarai mobil hitamnya.",
+      "Tersangka berada di luar rumah sambil mengendarai mobil hitamnya.",
+      "Tersangka berada di dalam rumah dan tidak mengendarai mobil hitamnya."
     ],
     "jawaban": "B",
-    "pembahasan": "Teks menyebutkan bahwa 'Tanpa tindakan pencegahan ini, risiko kesehatan akan meningkat secara signifikan.' Jika seseorang tidak melakukan pencegahan, maka risiko kesehatan akan meningkat."
+    "pembahasan": "Pernyataan asli memiliki bentuk logika disjungsi ($p \\lor q$). Berdasarkan Hukum De Morgan, negasi dari $(p \\lor q)$ adalah $(\\sim p \\land \\sim q)$. Maka ingkarannya: 'Tersangka tidak berada di dalam rumah DAN dia tidak sedang mengendarai mobil hitamnya'."
   },
   {
     "id": 7,
-    "pertanyaan": "Jika seseorang menghindari aktivitas di luar ruangan pada siang hari, manakah simpulan yang paling mungkin benar?",
+    "pertanyaan": "Dalam ujian matematika diperoleh hasil sebagai berikut:\n- Nilai Tono lebih tinggi dari nilai Budi.\n- Nilai Siti sama dengan nilai Andi.\n- Nilai Dedi lebih rendah dari nilai Budi, tetapi lebih tinggi dari nilai Siti.\n\nSiapakah yang memperoleh nilai paling rendah dalam ujian tersebut?",
     "pilihan": [
-      "Ia akan terhindar sepenuhnya dari risiko kesehatan.",
-      "Ia tidak akan mengalami kelelahan akibat panas.",
-      "Ia akan melakukan salah satu tindakan pencegahan yang disarankan.",
-      "Suhu di luar ruangan akan menurun.",
-      "Ia tidak memerlukan edukasi publik."
+      "Tono",
+      "Budi",
+      "Dedi",
+      "Siti",
+      "Andi dan Siti"
     ],
-    "jawaban": "C",
-    "pembahasan": "Teks menyatakan bahwa 'menghindari aktivitas di luar ruangan pada siang hari' adalah salah satu dari 'langkah-langkah pencegahan' yang disarankan. Jadi, jika seseorang melakukan tindakan ini, ia berarti melakukan salah satu langkah pencegahan."
+    "jawaban": "E",
+    "pembahasan": "Mari kita susun pertidaksamaan dari petunjuk yang ada:\n1. Tono > Budi\n2. Budi > Dedi > Siti\n3. Siti = Andi\nJika digabungkan secara utuh, urutannya menjadi: Tono > Budi > Dedi > Siti = Andi. Oleh karena itu, peraih nilai terendah adalah Andi dan Siti."
   },
   {
     "id": 8,
-    "pertanyaan": "Semua laptop baru memiliki fitur keamanan biometrik. Sebagian laptop yang memiliki fitur keamanan biometrik adalah laptop bisnis. Manakah simpulan yang pasti benar?",
+    "pertanyaan": "Seorang mahasiswa dapat mengambil mata kuliah pilihan Analisis Data jika ia sudah lulus mata kuliah Statistika Dasar dan Pemrograman Dasar.\n\nKenyataannya, Rian tidak diperbolehkan mengambil mata kuliah Analisis Data semester ini. Kesimpulan yang paling tepat mengenai kondisi Rian adalah...",
     "pilihan": [
-      "Semua laptop bisnis memiliki fitur keamanan biometrik.",
-      "Sebagian laptop bisnis adalah laptop baru.",
-      "Tidak ada laptop baru yang memiliki fitur keamanan biometrik.",
-      "Semua laptop yang memiliki fitur keamanan biometrik adalah laptop bisnis.",
-      "Tidak ada simpulan yang pasti benar."
+      "Rian belum lulus mata kuliah Statistika Dasar dan Pemrograman Dasar.",
+      "Rian sudah lulus Statistika Dasar tetapi belum lulus Pemrograman Dasar.",
+      "Rian sengaja tidak mau mengambil mata kuliah Analisis Data.",
+      "Rian belum lulus Statistika Dasar ATAU belum lulus Pemrograman Dasar.",
+      "Rian nilainya jelek di mata kuliah semester lalu."
     ],
-    "jawaban": "B",
-    "pembahasan": "Premis 1: Semua laptop baru (A) memiliki fitur keamanan biometrik (B). Premis 2: Sebagian laptop yang memiliki fitur keamanan biometrik (B) adalah laptop bisnis (C). Dari kedua premis ini, kita dapat menyimpulkan bahwa sebagian C (laptop bisnis) juga adalah A (laptop baru). Ini adalah penalaran deduktif yang sahih."
+    "jawaban": "D",
+    "pembahasan": "Syarat mengambil mata kuliah adalah kelulusan bersyarat gabungan 'DAN' (Statistika Dasar AND Pemrograman Dasar). Negasi dari kondisi ini menggunakan hukum De Morgan, yang berarti Rian tidak diperbolehkan mengambil mata kuliah karena tidak lulus salah satu dari kedua syarat tersebut, atau tidak lulus keduanya ('ATAU')."
   },
   {
     "id": 9,
-    "pertanyaan": "Sebuah penelitian menyebutkan bahwa konsumsi sayuran hijau secara rutin dapat membantu menurunkan risiko penyakit jantung. Studi ini melibatkan ribuan partisipan dan menunjukkan hasil yang konsisten. Namun, penelitian tersebut juga menekankan bahwa sayuran hijau saja tidak cukup; gaya hidup sehat lainnya, seperti olahraga teratur dan tidak merokok, juga memegang peranan penting. \n\nBerdasarkan bacaan tersebut, manakah pernyataan yang **PASTI SALAH**?",
+    "pertanyaan": "Lima orang atlet basket memiliki tinggi badan berbeda:\n- Atlet V lebih tinggi dari X.\n- Atlet Y lebih pendek dari Z.\n- Atlet X lebih tinggi dari Z.\n\nUrutan atlet mulai dari yang paling tinggi adalah...",
     "pilihan": [
-      "Konsumsi sayuran hijau dapat membantu menurunkan risiko penyakit jantung.",
-      "Gaya hidup sehat selain sayuran hijau juga penting untuk mencegah penyakit jantung.",
-      "Penelitian tersebut melibatkan banyak partisipan.",
-      "Satu-satunya cara untuk menurunkan risiko penyakit jantung adalah dengan konsumsi sayuran hijau.",
-      "Olahraga teratur dan tidak merokok memiliki peran dalam kesehatan jantung."
+      "V - X - Z - Y",
+      "Z - Y - V - X",
+      "V - Z - X - Y",
+      "X - V - Z - Y",
+      "Y - Z - X - V"
     ],
-    "jawaban": "D",
-    "pembahasan": "Teks menyatakan bahwa sayuran hijau 'dapat membantu' menurunkan risiko penyakit jantung, tetapi juga menekankan bahwa sayuran hijau 'saja tidak cukup'. Oleh karena itu, pernyataan yang mengklaim bahwa itu adalah satu-satunya cara (absolut) adalah pernyataan yang pasti salah."
+    "jawaban": "A",
+    "pembahasan": "Berdasarkan informasi yang diberikan, didapatkan hubungan:\n1. V > X\n2. Z > Y\n3. X > Z\nDari hubungan di atas, kita dapat menggabungkannya menjadi satu rangkaian utuh: V > X > Z > Y."
   },
   {
     "id": 10,
-    "pertanyaan": "Jika semua orang yang berprofesi sebagai *data scientist* memiliki kemampuan pemrograman yang baik, dan Budi tidak memiliki kemampuan pemrograman yang baik, manakah simpulan yang pasti benar?",
+    "pertanyaan": "Sebuah tim riset terdiri dari 3 orang yang dipilih dari 5 ilmuwan: A, B, C, D, dan E dengan aturan:\n- Jika A dipilih, B harus dipilih.\n- C dan D tidak dapat dipilih bersama-sama dalam satu tim.\n\nJika ilmuwan C dipilih menjadi anggota tim riset tersebut, siapa sajakah anggota tim lainnya yang mungkin?",
     "pilihan": [
-      "Budi adalah seorang *data scientist*.",
-      "Budi bukan seorang *data scientist*.",
-      "Semua orang yang tidak memiliki kemampuan pemrograman adalah Budi.",
-      "Semua orang yang memiliki kemampuan pemrograman adalah *data scientist*.",
-      "Tidak ada simpulan yang dapat ditarik."
+      "A dan B",
+      "A dan D",
+      "B dan D",
+      "B dan E",
+      "D dan E"
     ],
-    "jawaban": "B",
-    "pembahasan": "Premis 1: Jika P (seseorang berprofesi sebagai *data scientist*), maka Q (orang tersebut memiliki kemampuan pemrograman yang baik). Premis 2: Budi tidak memiliki kemampuan pemrograman yang baik (tidak Q). Berdasarkan prinsip logika *modus tollens*, jika 'tidak Q' benar, maka 'tidak P' juga pasti benar. Jadi, Budi bukan seorang *data scientist*."
+    "jawaban": "A",
+    "pembahasan": "Karena C terpilih, maka D otomatis tidak boleh dipilih berdasarkan aturan kedua. Tersisa kandidat A, B, dan E. Jika kita memilih A, maka berdasarkan aturan pertama B juga wajib dipilih. Kombinasi tim yang terbentuk adalah (C, A, B), yang merupakan komposisi tim valid sebanyak 3 orang."
   }
 ]
