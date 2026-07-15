@@ -1,73 +1,130 @@
-[
   {
     "id": 1,
-    "pertanyaan": "Jika $p$ dan $q$ adalah bilangan bulat positif, dan $3p + 2q = 30$. Tentukan hubungan antara Kuantitas P (Nilai maksimum $p$) dan Kuantitas Q (Nilai maksimum $q$).",
-"gambar" : "https://raw.githubusercontent.com/rovihan12/utbk-snbt/refs/heads/main/bank_soal/penalaran_umum/image/Screenshot_20250928_084707_Google.jpg",
-    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = Q"],
-    "jawaban": "B",
-    "pembahasan": "1. Cari P (maksimum p): Agar $p$ maksimal, $q$ harus minimal ($q=1$). $3p + 2(1) = 30 \\implies 3p = 28 \\implies p = 9\\frac{1}{3}$. Karena $p$ bilangan bulat, P = 9.\n2. Cari Q (maksimum q): Agar $q$ maksimal, $p$ harus minimal ($p=1$). $3(1) + 2q = 30 \\implies 2q = 27 \\implies q = 13\\frac{1}{2}$. Karena $q$ bilangan bulat, Q = 13.\n3. Bandingkan: P = 9 dan Q = 13. Jadi, P < Q."
+    "pertanyaan": "Tentukan angka kelanjutan dari deret berikut: 4, 7, 9, 14, 14, 21, 19, ...",
+    "pilihan": [
+      "24",
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Deret ini terdiri atas dua pola angka yang disisipkan berselang-seling:\n1. Pola ganjil (suku ke-1, 3, 5, 7): $4 \\xrightarrow{+5} 9 \\xrightarrow{+5} 14 \\xrightarrow{+5} 19$.\n2. Pola genap (suku ke-2, 4, 6, 8): $7 \\xrightarrow{+7} 14 \\xrightarrow{+7} 21 \\xrightarrow{+7} 28$.\nSuku berikutnya berada di urutan genap (kedelapan), sehingga nilainya adalah $21 + 7 = 28$."
   },
   {
     "id": 2,
-    "pertanyaan": "Tentukan bilangan berikutnya pada barisan: $3, 4, 7, 12, 19, 28, \\ldots$",
-    "pilihan": ["37", "39", "41", "43", "45"],
+    "pertanyaan": "Jika operasi $\\clubsuit$ didefinisikan sebagai $a \\clubsuit b = \\frac{a^2 - 2b}{a + b}$, maka nilai dari $4 \\clubsuit 2$ adalah...",
+    "pilihan": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
     "jawaban": "B",
-    "pembahasan": "Analisis pola selisih antar suku:\n$4 - 3 = 1$\n$7 - 4 = 3$\n$12 - 7 = 5$\n$19 - 12 = 7$\n$28 - 19 = 9$\nPola selisihnya adalah barisan bilangan ganjil ($1, 3, 5, 7, 9, \\ldots$). Selisih berikutnya adalah 11. Suku berikutnya: $28 + 11 = 39$."
+    "pembahasan": "Substitusikan nilai $a = 4$ dan $b = 2$ ke dalam persamaan logika operasi kustom:\n$$4 \\clubsuit 2 = \\frac{4^2 - 2(2)}{4 + 2} = \\frac{16 - 4}{6} = \\frac{12}{6} = 2$$"
   },
   {
     "id": 3,
-    "pertanyaan": "Diberikan kumpulan data $4, 6, 8, x$. Berapakah banyaknya dari empat pernyataan berikut yang bernilai benar?\n1. Rata-rata kumpulan data tersebut 7,5 jika $x=12$.\n2. Median kumpulan data tersebut 7 jika $x=10$.\n3. Jangkauan kumpulan data tersebut 8 jika $x=1$.\n4. Modus kumpulan data tersebut 4 jika $x=4$.",
-    "pilihan": ["0", "1", "2", "3", "4"],
+    "pertanyaan": "Manakah di antara pecahan berikut yang memiliki nilai paling besar?",
+    "pilihan": [
+      "7/9",
+      "11/14",
+      "3/4",
+      "15/19",
+      "5/7"
+    ],
     "jawaban": "D",
-    "pembahasan": "1. Jika $x=12$, Rata-rata = $(4+6+8+12)/4 = 30/4 = 7,5$. (Benar)\n2. Jika $x=10$, data urut: $4, 6, 8, 10$. Median = $(6+8)/2 = 7$. (Benar)\n3. Jika $x=1$, data urut: $1, 4, 6, 8$. Jangkauan = $8 - 1 = 7$. Pernyataan Jangkauan 8 (Salah)\n4. Jika $x=4$, data: $4, 6, 8, 4$. Modus = 4 (muncul 2 kali). (Benar)\nBanyaknya pernyataan yang benar adalah 3."
+    "pembahasan": "Kita dapat mengonversi pecahan-pecahan tersebut menjadi bentuk desimal untuk mempermudah perbandingan:\n- $3/4 = 0,75$\n- $5/7 \\approx 0,714$\n- $7/9 \\approx 0,777$\n- $11/14 \\approx 0,785$\n- $15/19 \\approx 0,789$\nPecahan dengan nilai desimal tertinggi adalah $15/19$."
   },
   {
     "id": 4,
-    "pertanyaan": "Sebuah bak berisi air sebanyak $N$ liter. Air tersebut diisikan ke 45 botol berukuran $125\\ \\text{ml}$ dan tersisa 2 liter. Berapa volume air $N$ dalam liter?",
-    "pilihan": ["5,625", "6,25", "7,625", "8,125", "9,00"],
-    "jawaban": "C",
-    "pembahasan": "1. Total volume air di botol (dalam ml): $45 \\times 125\\ \\text{ml} = 5625\\ \\text{ml}$.\n2. Konversi volume di botol ke liter: $5625\\ \\text{ml} / 1000 = 5,625\\ \\text{liter}$.\n3. Volume total air $N$ = Volume di botol + Sisa air.\n$N = 5,625\\ \\text{liter} + 2\\ \\text{liter} = 7,625\\ \\text{liter}$."
+    "pertanyaan": "Perhatikan tabel bilangan di bawah ini!\n\n| 5 | 3 | 12 |\n|---|---|----|\n| 7 | 4 | 24 |\n| 9 | 2 | X  |\n\nBerapakah nilai X yang tepat berdasarkan pola operasi baris tabel tersebut?",
+    "pilihan": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola operasi matematika antarkolom pada setiap baris adalah: $(\\text{Kolom } 1 - 1) \\times \\text{Kolom } 2 = \\text{Kolom } 3$.\n- Baris 1: $(5 - 1) \\times 3 = 4 \\times 3 = 12$\n- Baris 2: $(7 - 1) \\times 4 = 6 \\times 4 = 24$\n- Baris 3: $(9 - 1) \\times 2 = 8 \\times 2 = 16$\nDengan demikian, nilai X adalah 16."
   },
   {
     "id": 5,
-    "pertanyaan": "Diketahui $x$ dan $y$ adalah bilangan bulat positif. $x$ adalah bilangan kuadrat sempurna yang kurang dari 10, dan $y$ adalah bilangan prima genap.",
-    "pilihan": ["x > y", "x < y", "x = y", "x = y + 1", "Hubungan P dan Q tidak dapat ditentukan"],
-    "jawaban": "E",
-    "pembahasan": "1. Nilai $x$: Bilangan kuadrat sempurna kurang dari 10 adalah $1^2=1$, $2^2=4$, $3^2=9$. Maka $x$ adalah salah satu anggota dari himpunan $\\{1, 4, 9\\}$.\\n2. Nilai $y$: Bilangan prima genap hanya ada satu, yaitu $2$. $y=2$.\\n3. Bandingkan: Terdapat tiga kemungkinan:\\n   - Jika $x=1$, maka $x < y$ ($1 < 2$).\\n   - Jika $x=4$, maka $x > y$ ($4 > 2$).\\n   - Jika $x=9$, maka $x > y$ ($9 > 2$).\\nKarena ada kasus di mana $x < y$, maka hubungan antara $x$ dan $y$ **tidak dapat ditentukan**."
+    "pertanyaan": "Seorang pedagang membeli sebuah barang seharga Rp200.000. Barang tersebut kemudian dijual kembali dengan label harga diskon 20%. Jika pedagang itu ternyata masih mendapatkan keuntungan bersih sebesar 10% dari harga beli, berapakah label harga awal sebelum diskon yang tertera pada barang tersebut?",
+    "pilihan": [
+      "Rp250.000",
+      "Rp260.000",
+      "Rp275.000",
+      "Rp285.000",
+      "Rp300.000"
+    ],
+    "jawaban": "C",
+    "pembahasan": "1. Keuntungan bersih = $10\\% \\times \\text{Rp}200.000 = \\text{Rp}20.000$.\n2. Harga penjualan asli = $\\text{Rp}200.000 + \\text{Rp}20.000 = \\text{Rp}220.000$.\n3. Karena harga penjualan asli didapat setelah diskon 20%, maka:\nHarga Penjualan = $80\\% \\times \\text{Label Harga}$\n$\\text{Rp}220.000 = 0,8 \\times \\text{Label Harga}$\n$\\text{Label Harga} = \\text{Rp}220.000 / 0,8 = \\text{Rp}275.000$."
   },
   {
     "id": 6,
-    "pertanyaan": "Seorang pedagang membeli $20\\ \\text{kg}$ jeruk dengan harga Rp $15.000,00$ per kg. $20\\%$ dari jeruk tersebut busuk, sisanya dijual dengan harga Rp $20.000,00$ per kg. Tentukan hubungan antara Kuantitas P (Keuntungan total pedagang) dan Kuantitas Q (Rp $75.000,00$).",
-    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = Q"],
-    "jawaban": "B",
-    "pembahasan": "1. Modal (Harga Beli): $20\\ \\text{kg} \\times \\text{Rp } 15.000,00/\\text{kg} = \\text{Rp } 300.000,00$. \\n2. Jeruk yang dijual: $100\\% - 20\\% = 80\\%$. $80\\% \\times 20\\ \\text{kg} = 16\\ \\text{kg}$.\\n3. Pendapatan (Harga Jual): $16\\ \\text{kg} \\times \\text{Rp } 20.000,00/\\text{kg} = \\text{Rp } 320.000,00$. \\n4. Keuntungan P: $\\text{Rp } 320.000,00 - \\text{Rp } 300.000,00 = \\text{Rp } 20.000,00$.\\n5. Bandingkan: P = Rp 20.000,00 dan Q = Rp 75.000,00. Jadi, **P < Q**."
+    "pertanyaan": "Berapakah nilai dari x + y?\n\nPernyataan (1): 2x + 2y = 10\nPernyataan (2): x - y = 2\n\nPutuskan apakah pernyataan (1) dan (2) tersebut cukup untuk menjawab pertanyaan.",
+    "pilihan": [
+      "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (2) saja tidak cukup.",
+      "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, tetapi pernyataan (1) saja tidak cukup.",
+      "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+      "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+      "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+    ],
+    "jawaban": "A",
+    "pembahasan": "Kita hanya butuh menentukan nilai ekspresi $(x + y)$.\n- Evaluasi Pernyataan (1): $2x + 2y = 10 \\to 2(x + y) = 10 \\to x + y = 5$. Pernyataan (1) saja cukup.\n- Evaluasi Pernyataan (2): $x - y = 2$. Selisih nilai tidak bisa memberikan penjumlahan pasti tanpa informasi tambahan. Pernyataan (2) saja tidak cukup."
   },
   {
     "id": 7,
-    "pertanyaan": "Apakah $x$ lebih besar dari 10?",
-    "pilihan": ["Pernyataan (1) SAJA cukup", "Pernyataan (2) SAJA cukup", "DUA pernyataan BERSAMA-SAMA cukup", "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup", "DUA pernyataan TIDAK cukup"],
-    "jawaban": "A",
-    "pembahasan": "Pertanyaan: Apakah $x > 10$?\n(1) $2x - 1 > 21$: $2x > 22 \\implies x > 11$. Jika $x > 11$, maka PASTI $x > 10$. (Cukup)\n(2) $x^2 = 121$: $x$ bisa $11$ atau $-11$. Jika $x=11$, $x>10$ (Ya). Jika $x=-11$, $x>10$ (Tidak). Karena ada dua kemungkinan jawaban, (2) tidak cukup.\nKesimpulan: Pernyataan (1) SAJA cukup."
+    "pertanyaan": "Angka yang tepat untuk mengisi titik-titik pada deret: 2, 3, 6, 11, 18, 27, ... adalah...",
+    "pilihan": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Pola selisih antar-suku berurutan pada deret ini membentuk barisan bilangan ganjil:\n- $2 \\xrightarrow{+1} 3$\n- $3 \\xrightarrow{+3} 6$\n- $6 \\xrightarrow{+5} 11$\n- $11 \\xrightarrow{+7} 18$\n- $18 \\xrightarrow{+9} 27$\nSelisih berikutnya harus bertambah $11$. Suku berikutnya adalah $27 + 11 = 38$."
   },
   {
     "id": 8,
-    "pertanyaan": "Jika $a \\otimes b = 2a^2 - 3b$, maka nilai dari $(-2) \\otimes 3$ adalah...",
-    "pilihan": ["-1", "-17", "1", "17", "11"],
-    "jawaban": "A",
-    "pembahasan": "Substitusikan $a = -2$ dan $b = 3$ ke dalam operasi:\n$(-2) \\otimes 3 = 2(-2)^2 - 3(3)$\n$= 2(4) - 9$\n$= 8 - 9 = -1$."
+    "pertanyaan": "Diketahui x adalah bilangan bulat positif antara 2 dan 6.\n\n| Kuantitas P | Kuantitas Q |\n|---|---|\n| x^2 - 1 | 3x + 3 |\n\nManakah hubungan yang benar antara kuantitas P dan Q berikut?",
+    "pilihan": [
+      "P > Q",
+      "P < Q",
+      "P = Q",
+      "Hubungan tidak dapat ditentukan dari informasi yang diberikan."
+    ],
+    "jawaban": "D",
+    "pembahasan": "Nilai $x$ bulat yang mungkin adalah $\\{3, 4, 5\\}$. Mari kita uji batasnya:\n- Jika $x = 3$:\n  $P = 3^2 - 1 = 8$\n  $Q = 3(3) + 3 = 12 \\to P < Q$\n- Jika $x = 5$:\n  $P = 5^2 - 1 = 24$\n  $Q = 3(5) + 3 = 18 \\to P > Q$\nKarena hasil perbandingan bisa berubah tergantung nilai $x$ yang dipilih, hubungan kuantitas tidak dapat ditentukan."
   },
   {
     "id": 9,
-    "pertanyaan": "Diketahui perbandingan berat badan Andi dan Budi adalah $3:4$. Jika Budi memiliki berat $48\\ \\text{kg}$, maka Kuantitas P (Berat Andi) dan Kuantitas Q ($36\\ \\text{kg}$) memiliki hubungan...",
-    "pilihan": ["P > Q", "P < Q", "P = Q", "Hubungan P dan Q tidak dapat ditentukan", "2P = Q"],
-    "jawaban": "C",
-    "pembahasan": "Perbandingan Andi ($A$) : Budi ($B$) = $3:4$.\n$A/B = 3/4 \\implies A = (3/4) \\times B$.\nDiketahui $B = 48\\ \\text{kg}$.\nBerat Andi ($P$) $= (3/4) \\times 48 = 3 \\times 12 = 36\\ \\text{kg}$.\nBandingkan: P = $36\\ \\text{kg}$ dan Q = $36\\ \\text{kg}$. Jadi, P = Q."
+    "pertanyaan": "Rata-rata nilai ujian matematika dari kelompok siswa laki-laki yang berjumlah 15 orang adalah 80. Rata-rata nilai ujian kelompok siswa perempuan yang berjumlah 25 orang adalah 72. Berapakah rata-rata nilai gabungan seluruh siswa tersebut?",
+    "pilihan": [
+      "74",
+      "75",
+      "76",
+      "77",
+      "78"
+    ],
+    "jawaban": "B",
+    "pembahasan": "Gunakan rumus rata-rata gabungan:\n$$\\bar{x}_{\\text{gab}} = \\frac{(n_L \\times \\bar{x}_L) + (n_P \\times \\bar{x}_P)}{n_L + n_P}$$\n$$\\bar{x}_{\\text{gab}} = \\frac{(15 \\times 80) + (25 \\times 72)}{15 + 25} = \\frac{1200 + 1800}{40} = \\frac{3000}{40} = 75$$"
   },
   {
     "id": 10,
-    "pertanyaan": "Peluang terambilnya bola bukan merah dari sebuah kantong yang berisi 5 bola merah dan 3 bola biru adalah...",
-    "pilihan": ["$5/8$", "$3/8$", "$1/2$", "$1/4$", "$1$"],
-    "jawaban": "B",
-    "pembahasan": "1. Jumlah total bola: $5\\ (M) + 3\\ (B) = 8$.\n2. Jumlah bola bukan merah (bola biru) adalah $3$.\n3. Peluang bukan merah = $\\frac{\\text{Jumlah bola biru}}{\\text{Total bola}} = \\frac{3}{8}$."
+    "pertanyaan": "Suatu perusahaan mencatat jumlah pelanggan bulanan dari bulan Januari hingga Mei berturut-turut berbentuk pola tetap: 40, 45, 43, 48, 46 orang. Jika pola pergerakan ini bersifat konstan, berapakah jumlah pelanggan pada bulan Juni?",
+    "pilihan": [
+      "49 orang",
+      "50 orang",
+      "51 orang",
+      "52 orang",
+      "53 orang"
+    ],
+    "jawaban": "C",
+    "pembahasan": "Mari bedah pergerakan angkonya:\n- Jan ke Feb: $+5$\n- Feb ke Mar: $-2$\n- Mar ke Apr: $+5$\n- Apr ke Mei: $-2$\nPola operasi berulang secara konstan adalah $(+5, -2)$. Suku berikutnya setelah Mei (Juni) adalah penambahan $+5$. Jumlah pelanggan bulan Juni adalah $46 + 5 = 51$ orang."
   }
 ]
