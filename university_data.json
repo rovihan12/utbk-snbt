@@ -6,24 +6,551 @@
     "province": "Jawa Barat",
     "type": "public",
     "acronym": "UI",
-    "logo": null,
     "majors": [
-      {
-        "id": "ui_ti",
-        "name": "Teknik Informatika",
-        "code": "TI-01",
-        "cluster": "SAINTEK",
-        "description": "Program studi yang mempelajari pengolahan informasi melalui komputer",
-        "popularity": 95
-      },
-      {
-        "id": "ui_si",
-        "name": "Sistem Informasi",
-        "code": "SI-02",
-        "cluster": "SAINTEK",
-        "description": "Penggabungan antara ilmu komputer dan manajemen",
-        "popularity": 85
-      }
+      { "id": "ui_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "ui_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "ui_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "ui_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "ui_ilmu_komputer", "name": "Ilmu Komputer", "cluster": "SAINTEK" },
+      { "id": "ui_psikologi", "name": "Psikologi", "cluster": "SOSHUM" },
+      { "id": "ui_sastra", "name": "Sastra", "cluster": "SOSHUM" },
+      { "id": "ui_komunikasi", "name": "Ilmu Komunikasi", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "ugm",
+    "name": "Universitas Gadjah Mada",
+    "city": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "type": "public",
+    "acronym": "UGM",
+    "majors": [
+      { "id": "ugm_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "ugm_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "ugm_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "ugm_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "ugm_filsafat", "name": "Filsafat", "cluster": "SOSHUM" },
+      { "id": "ugm_geografi", "name": "Geografi", "cluster": "SAINTEK" },
+      { "id": "ugm_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "itb",
+    "name": "Institut Teknologi Bandung",
+    "city": "Bandung",
+    "province": "Jawa Barat",
+    "type": "public",
+    "acronym": "ITB",
+    "majors": [
+      { "id": "itb_teknik_sipil", "name": "Teknik Sipil", "cluster": "SAINTEK" },
+      { "id": "itb_teknik_mesin", "name": "Teknik Mesin", "cluster": "SAINTEK" },
+      { "id": "itb_teknik_elektro", "name": "Teknik Elektro", "cluster": "SAINTEK" },
+      { "id": "itb_informatika", "name": "Informatika", "cluster": "SAINTEK" },
+      { "id": "itb_arsitektur", "name": "Arsitektur", "cluster": "SAINTEK" },
+      { "id": "itb_desain", "name": "Desain Produk", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "its",
+    "name": "Institut Teknologi Sepuluh Nopember",
+    "city": "Surabaya",
+    "province": "Jawa Timur",
+    "type": "public",
+    "acronym": "ITS",
+    "majors": [
+      { "id": "its_teknik_sipil", "name": "Teknik Sipil", "cluster": "SAINTEK" },
+      { "id": "its_teknik_mesin", "name": "Teknik Mesin", "cluster": "SAINTEK" },
+      { "id": "its_teknik_elektro", "name": "Teknik Elektro", "cluster": "SAINTEK" },
+      { "id": "its_informatika", "name": "Informatika", "cluster": "SAINTEK" },
+      { "id": "its_arsitektur", "name": "Arsitektur", "cluster": "SAINTEK" },
+      { "id": "its_desain", "name": "Desain Produk", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "ipb",
+    "name": "Institut Pertanian Bogor",
+    "city": "Bogor",
+    "province": "Jawa Barat",
+    "type": "public",
+    "acronym": "IPB",
+    "majors": [
+      { "id": "ipb_agribisnis", "name": "Agribisnis", "cluster": "SAINTEK" },
+      { "id": "ipb_agroteknologi", "name": "Agroteknologi", "cluster": "SAINTEK" },
+      { "id": "ipb_kedokteran_hewan", "name": "Kedokteran Hewan", "cluster": "SAINTEK" },
+      { "id": "ipb_biologi", "name": "Biologi", "cluster": "SAINTEK" },
+      { "id": "ipb_ekonomi", "name": "Ekonomi Pertanian", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "unair",
+    "name": "Universitas Airlangga",
+    "city": "Surabaya",
+    "province": "Jawa Timur",
+    "type": "public",
+    "acronym": "UNAIR",
+    "majors": [
+      { "id": "unair_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unair_psikologi", "name": "Psikologi", "cluster": "SOSHUM" },
+      { "id": "unair_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unair_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unair_farmasi", "name": "Farmasi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unpad",
+    "name": "Universitas Padjadjaran",
+    "city": "Bandung",
+    "province": "Jawa Barat",
+    "type": "public",
+    "acronym": "UNPAD",
+    "majors": [
+      { "id": "unpad_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unpad_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unpad_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unpad_komunikasi", "name": "Ilmu Komunikasi", "cluster": "SOSHUM" },
+      { "id": "unpad_psikologi", "name": "Psikologi", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "undip",
+    "name": "Universitas Diponegoro",
+    "city": "Semarang",
+    "province": "Jawa Tengah",
+    "type": "public",
+    "acronym": "UNDIP",
+    "majors": [
+      { "id": "undip_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "undip_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "undip_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "undip_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "undip_ilmu_kelautan", "name": "Ilmu Kelautan", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unbraw",
+    "name": "Universitas Brawijaya",
+    "city": "Malang",
+    "province": "Jawa Timur",
+    "type": "public",
+    "acronym": "UB",
+    "majors": [
+      { "id": "unbraw_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unbraw_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unbraw_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unbraw_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unbraw_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unhas",
+    "name": "Universitas Hasanuddin",
+    "city": "Makassar",
+    "province": "Sulawesi Selatan",
+    "type": "public",
+    "acronym": "UNHAS",
+    "majors": [
+      { "id": "unhas_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unhas_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unhas_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unhas_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unhas_kelautan", "name": "Ilmu Kelautan", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unand",
+    "name": "Universitas Andalas",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "type": "public",
+    "acronym": "UNAND",
+    "majors": [
+      { "id": "unand_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unand_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unand_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unand_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unand_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unsri",
+    "name": "Universitas Sriwijaya",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "type": "public",
+    "acronym": "UNSRI",
+    "majors": [
+      { "id": "unsri_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unsri_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unsri_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unsri_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unsri_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unila",
+    "name": "Universitas Lampung",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "type": "public",
+    "acronym": "UNILA",
+    "majors": [
+      { "id": "unila_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unila_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unila_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unila_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unmul",
+    "name": "Universitas Mulawarman",
+    "city": "Samarinda",
+    "province": "Kalimantan Timur",
+    "type": "public",
+    "acronym": "UNMUL",
+    "majors": [
+      { "id": "unmul_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unmul_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unmul_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unmul_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unud",
+    "name": "Universitas Udayana",
+    "city": "Denpasar",
+    "province": "Bali",
+    "type": "public",
+    "acronym": "UNUD",
+    "majors": [
+      { "id": "unud_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unud_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unud_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unud_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "uny",
+    "name": "Universitas Negeri Yogyakarta",
+    "city": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "type": "public",
+    "acronym": "UNY",
+    "majors": [
+      { "id": "uny_pendidikan", "name": "Pendidikan", "cluster": "SOSHUM" },
+      { "id": "uny_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "uny_psikologi", "name": "Psikologi", "cluster": "SOSHUM" },
+      { "id": "uny_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "um",
+    "name": "Universitas Negeri Malang",
+    "city": "Malang",
+    "province": "Jawa Timur",
+    "type": "public",
+    "acronym": "UM",
+    "majors": [
+      { "id": "um_pendidikan", "name": "Pendidikan", "cluster": "SOSHUM" },
+      { "id": "um_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "um_psikologi", "name": "Psikologi", "cluster": "SOSHUM" },
+      { "id": "um_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "upi",
+    "name": "Universitas Pendidikan Indonesia",
+    "city": "Bandung",
+    "province": "Jawa Barat",
+    "type": "public",
+    "acronym": "UPI",
+    "majors": [
+      { "id": "upi_pendidikan", "name": "Pendidikan", "cluster": "SOSHUM" },
+      { "id": "upi_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "upi_psikologi", "name": "Psikologi", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "uns",
+    "name": "Universitas Sebelas Maret",
+    "city": "Surakarta",
+    "province": "Jawa Tengah",
+    "type": "public",
+    "acronym": "UNS",
+    "majors": [
+      { "id": "uns_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "uns_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "uns_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "uns_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "uns_psikologi", "name": "Psikologi", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "unnes",
+    "name": "Universitas Negeri Semarang",
+    "city": "Semarang",
+    "province": "Jawa Tengah",
+    "type": "public",
+    "acronym": "UNNES",
+    "majors": [
+      { "id": "unnes_pendidikan", "name": "Pendidikan", "cluster": "SOSHUM" },
+      { "id": "unnes_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unnes_psikologi", "name": "Psikologi", "cluster": "SOSHUM" },
+      { "id": "unnes_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unja",
+    "name": "Universitas Jambi",
+    "city": "Jambi",
+    "province": "Jambi",
+    "type": "public",
+    "acronym": "UNJA",
+    "majors": [
+      { "id": "unja_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unja_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unja_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unja_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unib",
+    "name": "Universitas Bengkulu",
+    "city": "Bengkulu",
+    "province": "Bengkulu",
+    "type": "public",
+    "acronym": "UNIB",
+    "majors": [
+      { "id": "unib_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unib_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unib_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "untan",
+    "name": "Universitas Tanjungpura",
+    "city": "Pontianak",
+    "province": "Kalimantan Barat",
+    "type": "public",
+    "acronym": "UNTAN",
+    "majors": [
+      { "id": "untan_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "untan_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "untan_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unpattimura",
+    "name": "Universitas Pattimura",
+    "city": "Ambon",
+    "province": "Maluku",
+    "type": "public",
+    "acronym": "UNPATTI",
+    "majors": [
+      { "id": "unpattimura_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unpattimura_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unpattimura_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "unpattimura_biologi", "name": "Biologi", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "uncen",
+    "name": "Universitas Cenderawasih",
+    "city": "Jayapura",
+    "province": "Papua",
+    "type": "public",
+    "acronym": "UNCEN",
+    "majors": [
+      { "id": "uncen_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "uncen_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "uncen_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unsoed",
+    "name": "Universitas Jenderal Soedirman",
+    "city": "Purwokerto",
+    "province": "Jawa Tengah",
+    "type": "public",
+    "acronym": "UNSOED",
+    "majors": [
+      { "id": "unsoed_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unsoed_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unsoed_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unsoed_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "untr",
+    "name": "Universitas Tadulako",
+    "city": "Palu",
+    "province": "Sulawesi Tengah",
+    "type": "public",
+    "acronym": "UNTAD",
+    "majors": [
+      { "id": "untr_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "untr_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "untr_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unsrat",
+    "name": "Universitas Sam Ratulangi",
+    "city": "Manado",
+    "province": "Sulawesi Utara",
+    "type": "public",
+    "acronym": "UNSRAT",
+    "majors": [
+      { "id": "unsrat_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unsrat_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unsrat_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unsrat_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unhalu",
+    "name": "Universitas Halu Oleo",
+    "city": "Kendari",
+    "province": "Sulawesi Tenggara",
+    "type": "public",
+    "acronym": "UNHALU",
+    "majors": [
+      { "id": "unhalu_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unhalu_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unhalu_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "unram",
+    "name": "Universitas Mataram",
+    "city": "Mataram",
+    "province": "Nusa Tenggara Barat",
+    "type": "public",
+    "acronym": "UNRAM",
+    "majors": [
+      { "id": "unram_kedokteran", "name": "Kedokteran", "cluster": "SAINTEK" },
+      { "id": "unram_hukum", "name": "Hukum", "cluster": "SOSHUM" },
+      { "id": "unram_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "unram_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "undiksha",
+    "name": "Universitas Pendidikan Ganesha",
+    "city": "Singaraja",
+    "province": "Bali",
+    "type": "public",
+    "acronym": "UNDIKSHA",
+    "majors": [
+      { "id": "undiksha_pendidikan", "name": "Pendidikan", "cluster": "SOSHUM" },
+      { "id": "undiksha_ekonomi", "name": "Ekonomi", "cluster": "SOSHUM" },
+      { "id": "undiksha_teknik", "name": "Teknik", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "polban",
+    "name": "Politeknik Negeri Bandung",
+    "city": "Bandung",
+    "province": "Jawa Barat",
+    "type": "public",
+    "acronym": "POLBAN",
+    "majors": [
+      { "id": "polban_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "polban_elektro", "name": "Elektro", "cluster": "SAINTEK" },
+      { "id": "polban_mesin", "name": "Mesin", "cluster": "SAINTEK" },
+      { "id": "polban_sipil", "name": "Sipil", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "poltek_sur",
+    "name": "Politeknik Negeri Surabaya",
+    "city": "Surabaya",
+    "province": "Jawa Timur",
+    "type": "public",
+    "acronym": "POLTEK-SUR",
+    "majors": [
+      { "id": "poltek_sur_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "poltek_sur_elektro", "name": "Elektro", "cluster": "SAINTEK" },
+      { "id": "poltek_sur_mesin", "name": "Mesin", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "poltek_mdn",
+    "name": "Politeknik Negeri Medan",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "type": "public",
+    "acronym": "POLMED",
+    "majors": [
+      { "id": "poltek_mdn_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "poltek_mdn_elektro", "name": "Elektro", "cluster": "SAINTEK" },
+      { "id": "poltek_mdn_mesin", "name": "Mesin", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "poltek_jkt",
+    "name": "Politeknik Negeri Jakarta",
+    "city": "Jakarta",
+    "province": "DKI Jakarta",
+    "type": "public",
+    "acronym": "PNJ",
+    "majors": [
+      { "id": "poltek_jkt_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "poltek_jkt_elektro", "name": "Elektro", "cluster": "SAINTEK" },
+      { "id": "poltek_jkt_mesin", "name": "Mesin", "cluster": "SAINTEK" },
+      { "id": "poltek_jkt_sipil", "name": "Sipil", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "poltek_mal",
+    "name": "Politeknik Negeri Malang",
+    "city": "Malang",
+    "province": "Jawa Timur",
+    "type": "public",
+    "acronym": "POLINEMA",
+    "majors": [
+      { "id": "poltek_mal_teknik", "name": "Teknik", "cluster": "SAINTEK" },
+      { "id": "poltek_mal_elektro", "name": "Elektro", "cluster": "SAINTEK" },
+      { "id": "poltek_mal_mesin", "name": "Mesin", "cluster": "SAINTEK" }
+    ]
+  },
+  {
+    "id": "isi_yogya",
+    "name": "Institut Seni Indonesia Yogyakarta",
+    "city": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "type": "public",
+    "acronym": "ISI YOGYA",
+    "majors": [
+      { "id": "isi_yogya_seni_rupa", "name": "Seni Rupa", "cluster": "SOSHUM" },
+      { "id": "isi_yogya_seni_musik", "name": "Seni Musik", "cluster": "SOSHUM" },
+      { "id": "isi_yogya_seni_tari", "name": "Seni Tari", "cluster": "SOSHUM" },
+      { "id": "isi_yogya_desain", "name": "Desain Komunikasi Visual", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "isi_surakarta",
+    "name": "Institut Seni Indonesia Surakarta",
+    "city": "Surakarta",
+    "province": "Jawa Tengah",
+    "type": "public",
+    "acronym": "ISI SURAKARTA",
+    "majors": [
+      { "id": "isi_surakarta_seni_rupa", "name": "Seni Rupa", "cluster": "SOSHUM" },
+      { "id": "isi_surakarta_seni_musik", "name": "Seni Musik", "cluster": "SOSHUM" },
+      { "id": "isi_surakarta_seni_tari", "name": "Seni Tari", "cluster": "SOSHUM" }
+    ]
+  },
+  {
+    "id": "isi_dps",
+    "name": "Institut Seni Indonesia Denpasar",
+    "city": "Denpasar",
+    "province": "Bali",
+    "type": "public",
+    "acronym": "ISI DENPASAR",
+    "majors": [
+      { "id": "isi_dps_seni_rupa", "name": "Seni Rupa", "cluster": "SOSHUM" },
+      { "id": "isi_dps_seni_musik", "name": "Seni Musik", "cluster": "SOSHUM" },
+      { "id": "isi_dps_seni_tari", "name": "Seni Tari", "cluster": "SOSHUM" }
     ]
   }
 ]
