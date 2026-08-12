@@ -1,5 +1,365 @@
 [
   {
+    "id": "usu",
+    "name": "Universitas Sumatera Utara",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "type": "public",
+    "acronym": "USU",
+    "logo": null,
+    "majors": [
+      { "id": "usu_pendidikan_dokter", "name": "Pendidikan Dokter", "code": "PD-01", "cluster": "SAINTEK", "description": "Pendidikan profesi kedokteran, ilmu biomedik, dan klinik", "popularity": 90 },
+      { "id": "usu_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Konstruksi bangunan, rekayasa infrastruktur, dan manajemen proyek", "popularity": 85 },
+      { "id": "usu_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mesin, konversi energi, dan material teknik", "popularity": 80 },
+      { "id": "usu_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga listrik, elektronika, dan telekomunikasi", "popularity": 82 },
+      { "id": "usu_teknik_industri", "name": "Teknik Industri", "code": "TI-01", "cluster": "SAINTEK", "description": "Optimasi sistem produksi, manajemen rantai pasok, dan ergonomi", "popularity": 88 },
+      { "id": "usu_teknik_kimia", "name": "Teknik Kimia", "code": "TK-01", "cluster": "SAINTEK", "description": "Proses industri kimia, bioproses, dan rekayasa reaksi", "popularity": 84 },
+      { "id": "usu_farmasi", "name": "Farmasi", "code": "FA-01", "cluster": "SAINTEK", "description": "Ilmu kefarmasian, kimia medisinal, dan farmakologi", "popularity": 86 },
+      { "id": "usu_ilmu_kesehatan_masyarakat", "name": "Ilmu Kesehatan Masyarakat", "code": "IKM-01", "cluster": "SAINTEK", "description": "Epidemiologi, kesehatan lingkungan, dan promosi kesehatan", "popularity": 83 },
+      { "id": "usu_ilmu_keperawatan", "name": "Ilmu Keperawatan", "code": "IK-01", "cluster": "SAINTEK", "description": "Asuhan keperawatan, manajemen pasien, dan kesehatan komunitas", "popularity": 81 },
+      { "id": "usu_agroekoteknologi", "name": "Agroekoteknologi", "code": "AE-01", "cluster": "SAINTEK", "description": "Budidaya pertanian, ilmu tanah, dan perlindungan tanaman", "popularity": 76 },
+      { "id": "usu_kehutanan", "name": "Kehutanan", "code": "KH-01", "cluster": "SAINTEK", "description": "Manajemen hutan, konservasi, dan hasil hutan", "popularity": 72 },
+      { "id": "usu_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Ilmu hukum, perundang-undangan, dan sistem peradilan", "popularity": 92 },
+      { "id": "usu_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis, pemasaran, dan sumber daya manusia", "popularity": 90 },
+      { "id": "usu_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Akuntansi keuangan, auditing, dan sistem informasi akuntansi", "popularity": 89 },
+      { "id": "usu_ekonomi_pembangunan", "name": "Ekonomi Pembangunan", "code": "EP-01", "cluster": "SOSHUM", "description": "Studi pembangunan ekonomi, kebijakan publik, dan ekonomi regional", "popularity": 78 },
+      { "id": "usu_sastra_inggris", "name": "Sastra Inggris", "code": "SI-01", "cluster": "SOSHUM", "description": "Linguistik, sastra, dan budaya Inggris", "popularity": 74 },
+      { "id": "usu_psikologi", "name": "Psikologi", "code": "PS-01", "cluster": "SOSHUM", "description": "Psikologi klinis, industri, dan pendidikan", "popularity": 87 }
+    ]
+  },
+  {
+    "id": "unand",
+    "name": "Universitas Andalas",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "type": "public",
+    "acronym": "UNAND",
+    "logo": null,
+    "majors": [
+      { "id": "unand_kedokteran", "name": "Kedokteran", "code": "KD-01", "cluster": "SAINTEK", "description": "Pendidikan dokter, ilmu dasar kedokteran, dan klinik", "popularity": 92 },
+      { "id": "unand_kedokteran_gigi", "name": "Kedokteran Gigi", "code": "KG-01", "cluster": "SAINTEK", "description": "Ilmu kesehatan gigi dan mulut, bedah mulut, dan ortodonti", "popularity": 88 },
+      { "id": "unand_farmasi", "name": "Farmasi", "code": "FA-01", "cluster": "SAINTEK", "description": "Ilmu kefarmasian, kimia medisinal, dan farmakologi", "popularity": 87 },
+      { "id": "unand_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Konstruksi, rekayasa infrastruktur, dan sumber daya air", "popularity": 84 },
+      { "id": "unand_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik, konversi energi, dan manufaktur", "popularity": 80 },
+      { "id": "unand_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga, elektronika, dan telekomunikasi", "popularity": 82 },
+      { "id": "unand_teknik_industri", "name": "Teknik Industri", "code": "TI-01", "cluster": "SAINTEK", "description": "Optimasi produksi, manajemen operasi, dan ergonomi", "popularity": 85 },
+      { "id": "unand_teknik_lingkungan", "name": "Teknik Lingkungan", "code": "TL-01", "cluster": "SAINTEK", "description": "Pengelolaan limbah, rekayasa air bersih, dan dampak lingkungan", "popularity": 78 },
+      { "id": "unand_teknik_komputer", "name": "Teknik Komputer", "code": "TK-01", "cluster": "SAINTEK", "description": "Sistem komputer, jaringan, dan IoT", "popularity": 83 },
+      { "id": "unand_sistem_informasi", "name": "Sistem Informasi", "code": "SI-01", "cluster": "SAINTEK", "description": "Pengembangan sistem, analisis data bisnis, dan TI manajemen", "popularity": 86 },
+      { "id": "unand_informatika", "name": "Informatika", "code": "IF-01", "cluster": "SAINTEK", "description": "Ilmu komputer, rekayasa perangkat lunak, dan kecerdasan buatan", "popularity": 89 },
+      { "id": "unand_gizi", "name": "Gizi", "code": "GZ-01", "cluster": "SAINTEK", "description": "Ilmu gizi klinik, masyarakat, dan teknologi pangan", "popularity": 81 },
+      { "id": "unand_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum, perundang-undangan, dan hukum bisnis", "popularity": 90 },
+      { "id": "unand_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen pemasaran, keuangan, dan SDM", "popularity": 88 },
+      { "id": "unand_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Akuntansi keuangan, pemeriksaan, dan perpajakan", "popularity": 86 },
+      { "id": "unand_ekonomi", "name": "Ekonomi", "code": "EK-01", "cluster": "SOSHUM", "description": "Ilmu ekonomi, kebijakan publik, dan ekonomi pembangunan", "popularity": 79 },
+      { "id": "unand_ilmu_komunikasi", "name": "Ilmu Komunikasi", "code": "IK-01", "cluster": "SOSHUM", "description": "Jurnalistik, public relations, dan komunikasi massa", "popularity": 82 },
+      { "id": "unand_sastra_indonesia", "name": "Sastra Indonesia", "code": "SI-02", "cluster": "SOSHUM", "description": "Linguistik, sastra, dan budaya Indonesia", "popularity": 65 },
+      { "id": "unand_sastra_inggris", "name": "Sastra Inggris", "code": "SI-03", "cluster": "SOSHUM", "description": "Linguistik, sastra, dan budaya Inggris", "popularity": 70 },
+      { "id": "unand_psikologi", "name": "Psikologi", "code": "PS-01", "cluster": "SOSHUM", "description": "Psikologi pendidikan, klinis, dan sosial", "popularity": 84 }
+    ]
+  },
+  {
+    "id": "unsri",
+    "name": "Universitas Sriwijaya",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "type": "public",
+    "acronym": "UNSRI",
+    "logo": null,
+    "majors": [
+      { "id": "unsri_pendidikan_dokter", "name": "Pendidikan Dokter", "code": "PD-01", "cluster": "SAINTEK", "description": "Pendidikan profesi dokter dan ilmu kesehatan", "popularity": 93 },
+      { "id": "unsri_pendidikan_dokter_gigi", "name": "Pendidikan Dokter Gigi", "code": "PDG-01", "cluster": "SAINTEK", "description": "Ilmu kesehatan gigi dan mulut", "popularity": 89 },
+      { "id": "unsri_teknik_pertambangan", "name": "Teknik Pertambangan", "code": "TP-01", "cluster": "SAINTEK", "description": "Eksplorasi dan eksploitasi bahan tambang", "popularity": 91 },
+      { "id": "unsri_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi dan infrastruktur", "popularity": 87 },
+      { "id": "unsri_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik dan konversi energi", "popularity": 83 },
+      { "id": "unsri_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 84 },
+      { "id": "unsri_teknik_informatika", "name": "Teknik Informatika", "code": "IF-01", "cluster": "SAINTEK", "description": "Rekayasa perangkat lunak dan kecerdasan buatan", "popularity": 90 },
+      { "id": "unsri_sistem_informasi", "name": "Sistem Informasi", "code": "SI-01", "cluster": "SAINTEK", "description": "Analisis dan pengembangan sistem informasi", "popularity": 85 },
+      { "id": "unsri_farmasi", "name": "Farmasi", "code": "FA-01", "cluster": "SAINTEK", "description": "Ilmu kefarmasian", "popularity": 88 },
+      { "id": "unsri_ilmu_kesehatan_masyarakat", "name": "Ilmu Kesehatan Masyarakat", "code": "IKM-01", "cluster": "SAINTEK", "description": "Epidemiologi dan kesehatan lingkungan", "popularity": 86 },
+      { "id": "unsri_ilmu_keperawatan", "name": "Ilmu Keperawatan", "code": "IK-01", "cluster": "SAINTEK", "description": "Asuhan keperawatan dan manajemen pasien", "popularity": 84 },
+      { "id": "unsri_teknik_geologi", "name": "Teknik Geologi", "code": "TG-01", "cluster": "SAINTEK", "description": "Studi bumi dan sumber daya geologi", "popularity": 78 },
+      { "id": "unsri_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum dan perundang-undangan", "popularity": 92 },
+      { "id": "unsri_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis dan pemasaran", "popularity": 90 },
+      { "id": "unsri_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Akuntansi dan auditing", "popularity": 89 },
+      { "id": "unsri_ekonomi_pembangunan", "name": "Ekonomi Pembangunan", "code": "EP-01", "cluster": "SOSHUM", "description": "Ekonomi dan kebijakan pembangunan", "popularity": 77 },
+      { "id": "unsri_ilmu_komunikasi", "name": "Ilmu Komunikasi", "code": "IK-02", "cluster": "SOSHUM", "description": "Komunikasi massa dan public relations", "popularity": 83 },
+      { "id": "unsri_psikologi", "name": "Psikologi", "code": "PS-01", "cluster": "SOSHUM", "description": "Psikologi klinis dan pendidikan", "popularity": 86 },
+      { "id": "unsri_pgsd", "name": "Pendidikan Guru Sekolah Dasar", "code": "PGSD-01", "cluster": "SOSHUM", "description": "Pendidikan guru untuk sekolah dasar", "popularity": 85 }
+    ]
+  },
+  {
+    "id": "unila",
+    "name": "Universitas Lampung",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "type": "public",
+    "acronym": "UNILA",
+    "logo": null,
+    "majors": [
+      { "id": "unila_kedokteran", "name": "Kedokteran", "code": "KD-01", "cluster": "SAINTEK", "description": "Pendidikan dokter dan ilmu kesehatan", "popularity": 91 },
+      { "id": "unila_gizi", "name": "Gizi", "code": "GZ-01", "cluster": "SAINTEK", "description": "Gizi klinis dan masyarakat berbasis agrikultura ", "popularity": 85 },
+      { "id": "unila_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi dan sumber daya air", "popularity": 83 },
+      { "id": "unila_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik dan konversi energi", "popularity": 79 },
+      { "id": "unila_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 81 },
+      { "id": "unila_informatika", "name": "Informatika", "code": "IF-01", "cluster": "SAINTEK", "description": "Rekayasa perangkat lunak dan AI", "popularity": 87 },
+      { "id": "unila_farmasi", "name": "Farmasi", "code": "FA-01", "cluster": "SAINTEK", "description": "Ilmu kefarmasian", "popularity": 86 },
+      { "id": "unila_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum dan perundang-undangan", "popularity": 89 },
+      { "id": "unila_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis dan pemasaran", "popularity": 88 },
+      { "id": "unila_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Akuntansi keuangan dan auditing", "popularity": 87 },
+      { "id": "unila_ekonomi_pembangunan", "name": "Ekonomi Pembangunan", "code": "EP-01", "cluster": "SOSHUM", "description": "Ekonomi dan kebijakan pembangunan", "popularity": 75 },
+      { "id": "unila_ilmu_komunikasi", "name": "Ilmu Komunikasi", "code": "IK-01", "cluster": "SOSHUM", "description": "Komunikasi massa dan PR", "popularity": 80 },
+      { "id": "unila_pendidikan_bahasa_indonesia", "name": "Pendidikan Bahasa Indonesia", "code": "PBI-01", "cluster": "SOSHUM", "description": "Pendidikan bahasa dan sastra Indonesia ", "popularity": 78 }
+    ]
+  },
+  {
+    "id": "unri",
+    "name": "Universitas Riau",
+    "city": "Pekanbaru",
+    "province": "Riau",
+    "type": "public",
+    "acronym": "UNRI",
+    "logo": null,
+    "majors": [
+      { "id": "unri_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi dan infrastruktur", "popularity": 84 },
+      { "id": "unri_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik dan konversi energi", "popularity": 80 },
+      { "id": "unri_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 82 },
+      { "id": "unri_teknik_lingkungan", "name": "Teknik Lingkungan", "code": "TL-01", "cluster": "SAINTEK", "description": "Pengelolaan limbah dan rekayasa air bersih", "popularity": 76 },
+      { "id": "unri_arsitektur", "name": "Arsitektur", "code": "AR-01", "cluster": "SAINTEK", "description": "Perancangan bangunan dan tata kota", "popularity": 73 },
+      { "id": "unri_agroteknologi", "name": "Agroteknologi", "code": "AT-01", "cluster": "SAINTEK", "description": "Teknologi budidaya pertanian", "popularity": 68 },
+      { "id": "unri_teknologi_hasil_pertanian", "name": "Teknologi Hasil Pertanian", "code": "THP-01", "cluster": "SAINTEK", "description": "Pengolahan hasil pertanian dan pangan", "popularity": 65 },
+      { "id": "unri_fisika", "name": "Fisika", "code": "FI-01", "cluster": "SAINTEK", "description": "Ilmu fisika dan aplikasinya", "popularity": 62 },
+      { "id": "unri_matematika", "name": "Matematika", "code": "MA-01", "cluster": "SAINTEK", "description": "Matematika murni dan terapan", "popularity": 63 },
+      { "id": "unri_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum dan perundang-undangan", "popularity": 88 },
+      { "id": "unri_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis dan pemasaran", "popularity": 86 },
+      { "id": "unri_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Akuntansi keuangan dan auditing", "popularity": 85 },
+      { "id": "unri_ekonomi_pembangunan", "name": "Ekonomi Pembangunan", "code": "EP-01", "cluster": "SOSHUM", "description": "Ekonomi dan kebijakan pembangunan", "popularity": 74 },
+      { "id": "unri_ilmu_komunikasi", "name": "Ilmu Komunikasi", "code": "IK-01", "cluster": "SOSHUM", "description": "Komunikasi massa dan PR", "popularity": 79 },
+      { "id": "unri_pendidikan_bahasa_inggris", "name": "Pendidikan Bahasa Inggris", "code": "PBI-01", "cluster": "SOSHUM", "description": "Pendidikan bahasa Inggris", "popularity": 72 },
+      { "id": "unri_pendidikan_guru_sekolah_dasar", "name": "Pendidikan Guru Sekolah Dasar", "code": "PGSD-01", "cluster": "SOSHUM", "description": "Pendidikan guru untuk sekolah dasar", "popularity": 81 }
+    ]
+  },
+  {
+    "id": "unja",
+    "name": "Universitas Jambi",
+    "city": "Jambi",
+    "province": "Jambi",
+    "type": "public",
+    "acronym": "UNJA",
+    "logo": null,
+    "majors": [
+      { "id": "unja_kedokteran", "name": "Kedokteran", "code": "KD-01", "cluster": "SAINTEK", "description": "Pendidikan profesi dokter", "popularity": 94 },
+      { "id": "unja_farmasi", "name": "Farmasi", "code": "FA-01", "cluster": "SAINTEK", "description": "Ilmu kefarmasian", "popularity": 88 },
+      { "id": "unja_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi", "popularity": 84 },
+      { "id": "unja_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik", "popularity": 80 },
+      { "id": "unja_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 82 },
+      { "id": "unja_teknik_informatika", "name": "Teknik Informatika", "code": "IF-01", "cluster": "SAINTEK", "description": "Rekayasa perangkat lunak", "popularity": 90 },
+      { "id": "unja_sistem_informasi", "name": "Sistem Informasi", "code": "SI-01", "cluster": "SAINTEK", "description": "Pengembangan sistem informasi", "popularity": 87 },
+      { "id": "unja_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum", "popularity": 92 },
+      { "id": "unja_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis", "popularity": 89 },
+      { "id": "unja_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Akuntansi keuangan", "popularity": 88 },
+      { "id": "unja_ekonomi_pembangunan", "name": "Ekonomi Pembangunan", "code": "EP-01", "cluster": "SOSHUM", "description": "Ekonomi dan kebijakan", "popularity": 76 },
+      { "id": "unja_pendidikan_bahasa_inggris", "name": "Pendidikan Bahasa Inggris", "code": "PBI-01", "cluster": "SOSHUM", "description": "Pendidikan bahasa Inggris", "popularity": 74 }
+    ]
+  },
+  {
+    "id": "ubb",
+    "name": "Universitas Bangka Belitung",
+    "city": "Pangkalpinang",
+    "province": "Kepulauan Bangka Belitung",
+    "type": "public",
+    "acronym": "UBB",
+    "logo": null,
+    "majors": [
+      { "id": "ubb_agribisnis", "name": "Agribisnis", "code": "AB-01", "cluster": "SAINTEK", "description": "Bisnis pertanian dan agrikultur", "popularity": 70 },
+      { "id": "ubb_akuakultur", "name": "Akuakultur", "code": "AK-02", "cluster": "SAINTEK", "description": "Budidaya perairan", "popularity": 72 },
+      { "id": "ubb_ilmu_kelautan", "name": "Ilmu Kelautan", "code": "IKL-01", "cluster": "SAINTEK", "description": "Ekosistem dan sumber daya laut", "popularity": 75 },
+      { "id": "ubb_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis", "popularity": 85 },
+      { "id": "ubb_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum", "popularity": 84 },
+      { "id": "ubb_ilmu_komunikasi", "name": "Ilmu Komunikasi", "code": "IK-01", "cluster": "SOSHUM", "description": "Komunikasi massa", "popularity": 80 }
+    ]
+  },
+  {
+    "id": "umrah",
+    "name": "Universitas Maritim Raja Ali Haji",
+    "city": "Tanjungpinang",
+    "province": "Kepulauan Riau",
+    "type": "public",
+    "acronym": "UMRAH",
+    "logo": null,
+    "majors": [
+      { "id": "umrah_kedokteran", "name": "Kedokteran", "code": "KD-01", "cluster": "SAINTEK", "description": "Pendidikan profesi dokter", "popularity": 90 },
+      { "id": "umrah_teknik_industri", "name": "Teknik Industri", "code": "TI-01", "cluster": "SAINTEK", "description": "Optimasi sistem produksi", "popularity": 82 },
+      { "id": "umrah_kimia", "name": "Kimia", "code": "KI-01", "cluster": "SAINTEK", "description": "Ilmu kimia", "popularity": 70 }
+    ]
+  },
+  {
+    "id": "unimed",
+    "name": "Universitas Negeri Medan",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "type": "public",
+    "acronym": "UNIMED",
+    "logo": null,
+    "majors": [
+      { "id": "unimed_pgsd", "name": "Pendidikan Guru Sekolah Dasar", "code": "PGSD-01", "cluster": "SOSHUM", "description": "Pendidikan guru SD", "popularity": 85 },
+      { "id": "unimed_bimbingan_konseling", "name": "Bimbingan dan Konseling", "code": "BK-01", "cluster": "SOSHUM", "description": "Konseling pendidikan", "popularity": 78 },
+      { "id": "unimed_pendidikan_bahasa_inggris", "name": "Pendidikan Bahasa Inggris", "code": "PBI-01", "cluster": "SOSHUM", "description": "Pendidikan bahasa Inggris", "popularity": 80 }
+    ]
+  },
+  {
+    "id": "unp",
+    "name": "Universitas Negeri Padang",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "type": "public",
+    "acronym": "UNP",
+    "logo": null,
+    "majors": [
+      { "id": "unp_pendidikan_ekonomi", "name": "Pendidikan Ekonomi", "code": "PE-01", "cluster": "SOSHUM", "description": "Pendidikan ekonomi", "popularity": 75 },
+      { "id": "unp_pendidikan_sejarah", "name": "Pendidikan Sejarah", "code": "PS-02", "cluster": "SOSHUM", "description": "Pendidikan sejarah", "popularity": 72 },
+      { "id": "unp_pendidikan_biologi", "name": "Pendidikan Biologi", "code": "PB-01", "cluster": "SAINTEK", "description": "Pendidikan biologi", "popularity": 76 }
+    ]
+  },
+  {
+    "id": "isi_padangpanjang",
+    "name": "Institut Seni Indonesia Padang Panjang",
+    "city": "Padang Panjang",
+    "province": "Sumatera Barat",
+    "type": "public",
+    "acronym": "ISI Padang Panjang",
+    "logo": null,
+    "majors": [
+      { "id": "isi_padangpanjang_seni_rupa", "name": "Seni Rupa", "code": "SR-01", "cluster": "SOSHUM", "description": "Seni rupa dan desain", "popularity": 70 },
+      { "id": "isi_padangpanjang_musik", "name": "Musik", "code": "MS-01", "cluster": "SOSHUM", "description": "Pendidikan dan pertunjukan musik", "popularity": 72 },
+      { "id": "isi_padangpanjang_tari", "name": "Tari", "code": "TR-01", "cluster": "SOSHUM", "description": "Seni tari dan pertunjukan", "popularity": 68 }
+    ]
+  },
+  {
+    "id": "polsri",
+    "name": "Politeknik Negeri Sriwijaya",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "type": "public_vocational",
+    "acronym": "POLSRI",
+    "logo": null,
+    "majors": [
+      { "id": "polsri_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Pendidikan vokasi teknik elektro", "popularity": 80 },
+      { "id": "polsri_teknik_komputer", "name": "Teknik Komputer", "code": "TK-01", "cluster": "SAINTEK", "description": "Pendidikan vokasi teknik komputer", "popularity": 82 },
+      { "id": "polsri_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Pendidikan vokasi teknik mesin", "popularity": 78 },
+      { "id": "polsri_manajemen_informatika", "name": "Manajemen Informatika", "code": "MI-01", "cluster": "SAINTEK", "description": "Vokasi manajemen informatika", "popularity": 85 },
+      { "id": "polsri_akuntansi", "name": "Akuntansi", "code": "AK-01", "cluster": "SOSHUM", "description": "Pendidikan vokasi akuntansi", "popularity": 84 }
+    ]
+  },
+  {
+    "id": "utu",
+    "name": "Universitas Teuku Umar",
+    "city": "Meulaboh",
+    "province": "Aceh",
+    "type": "public",
+    "acronym": "UTU",
+    "logo": null,
+    "majors": [
+      { "id": "utu_kesehatan_masyarakat", "name": "Kesehatan Masyarakat", "code": "KMS-01", "cluster": "SAINTEK", "description": "Ilmu kesehatan masyarakat (Akreditasi Unggul)", "popularity": 85 },
+      { "id": "utu_ilmu_kelautan", "name": "Ilmu Kelautan", "code": "IKL-01", "cluster": "SAINTEK", "description": "Ilmu kelautan dan ekosistem (Akreditasi Unggul)", "popularity": 82 },
+      { "id": "utu_ilmu_administrasi_negara", "name": "Ilmu Administrasi Negara", "code": "IAN-01", "cluster": "SOSHUM", "description": "Administrasi publik (Akreditasi Unggul)", "popularity": 80 },
+      { "id": "utu_ilmu_komunikasi", "name": "Ilmu Komunikasi", "code": "IK-01", "cluster": "SOSHUM", "description": "Ilmu komunikasi (Akreditasi Unggul)", "popularity": 84 },
+      { "id": "utu_peternakan", "name": "Peternakan", "code": "PT-01", "cluster": "SAINTEK", "description": "Ilmu peternakan (Program baru SNBP 2024)", "popularity": 68 },
+      { "id": "utu_bisnis_digital", "name": "Bisnis Digital", "code": "BD-01", "cluster": "SOSHUM", "description": "Bisnis digital (Program baru SNBP 2024)", "popularity": 76 },
+      { "id": "utu_keselamatan_kesehatan_kerja", "name": "Keselamatan dan Kesehatan Kerja", "code": "K3-01", "cluster": "SAINTEK", "description": "Keselamatan dan kesehatan kerja (Program baru SNBP 2024)", "popularity": 74 },
+      { "id": "utu_perikanan", "name": "Perikanan", "code": "PK-01", "cluster": "SAINTEK", "description": "Pengolahan dan pengelolaan sumber daya perikanan", "popularity": 72 },
+      { "id": "utu_akuakultur", "name": "Akuakultur", "code": "AK-01", "cluster": "SAINTEK", "description": "Budidaya perairan dan pemuliaan ikan", "popularity": 73 },
+      { "id": "utu_sumber_daya_akuatik", "name": "Sumber Daya Akuatik", "code": "SDA-01", "cluster": "SAINTEK", "description": "Manajemen sumberdaya perairan", "popularity": 70 }
+    ]
+  },
+  {
+    "id": "unsam",
+    "name": "Universitas Samudra",
+    "city": "Langsa",
+    "province": "Aceh",
+    "type": "public",
+    "acronym": "UNSAM",
+    "logo": null,
+    "majors": [
+      { "id": "unsam_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi", "popularity": 78 },
+      { "id": "unsam_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik", "popularity": 75 },
+      { "id": "unsam_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 76 },
+      { "id": "unsam_geofisika", "name": "Geofisika", "code": "GF-01", "cluster": "SAINTEK", "description": "Geofisika (Program baru SNBP 2024)", "popularity": 68 }
+    ]
+  },
+  {
+    "id": "isbi_aceh",
+    "name": "Institut Seni Budaya Indonesia Aceh",
+    "city": "Aceh",
+    "province": "Aceh",
+    "type": "public",
+    "acronym": "ISBI ACEH",
+    "logo": null,
+    "majors": [
+      { "id": "isbi_aceh_kajian_sastra_budaya", "name": "Kajian Sastra Budaya", "code": "KSB-01", "cluster": "SOSHUM", "description": "Kajian sastra dan budaya (Program baru SNBP 2024)", "popularity": 65 },
+      { "id": "isbi_aceh_bahasa_aceh", "name": "Bahasa Aceh", "code": "BA-01", "cluster": "SOSHUM", "description": "Bahasa dan sastra Aceh (Program baru SNBP 2024)", "popularity": 60 },
+      { "id": "isbi_aceh_desain_interior", "name": "Desain Interior", "code": "DI-01", "cluster": "SOSHUM", "description": "Desain interior (Program baru SNBP 2024)", "popularity": 72 }
+    ]
+  },
+  {
+    "id": "unimal",
+    "name": "Universitas Malikussaleh",
+    "city": "Lhokseumawe",
+    "province": "Aceh",
+    "type": "public",
+    "acronym": "UNIMAL",
+    "logo": null,
+    "majors": [
+      { "id": "unimal_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi", "popularity": 80 },
+      { "id": "unimal_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik", "popularity": 77 },
+      { "id": "unimal_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 79 },
+      { "id": "unimal_ilmu_hukum", "name": "Ilmu Hukum", "code": "IH-01", "cluster": "SOSHUM", "description": "Sistem hukum", "popularity": 85 },
+      { "id": "unimal_manajemen", "name": "Manajemen", "code": "MN-01", "cluster": "SOSHUM", "description": "Manajemen bisnis", "popularity": 83 }
+    ]
+  },
+  {
+    "id": "itera",
+    "name": "Institut Teknologi Sumatera",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "type": "public",
+    "acronym": "ITERA",
+    "logo": null,
+    "majors": [
+      { "id": "itera_teknik_sipil", "name": "Teknik Sipil", "code": "TS-01", "cluster": "SAINTEK", "description": "Rekayasa konstruksi", "popularity": 84 },
+      { "id": "itera_teknik_mesin", "name": "Teknik Mesin", "code": "TM-01", "cluster": "SAINTEK", "description": "Perancangan mekanik", "popularity": 80 },
+      { "id": "itera_teknik_elektro", "name": "Teknik Elektro", "code": "TE-01", "cluster": "SAINTEK", "description": "Sistem tenaga dan elektronika", "popularity": 82 },
+      { "id": "itera_teknik_informatika", "name": "Teknik Informatika", "code": "IF-01", "cluster": "SAINTEK", "description": "Rekayasa perangkat lunak", "popularity": 90 },
+      { "id": "itera_arsitektur", "name": "Arsitektur", "code": "AR-01", "cluster": "SAINTEK", "description": "Perancangan bangunan", "popularity": 78 }
+    ]
+  },
+  {
+    "id": "uin_raden_fatah",
+    "name": "Universitas Islam Negeri Raden Fatah",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "type": "public_religious",
+    "acronym": "UIN Raden Fatah",
+    "logo": null,
+    "majors": [
+      { "id": "uin_raden_fatah_pendidikan_agama_islam", "name": "Pendidikan Agama Islam", "code": "PAI-01", "cluster": "SOSHUM", "description": "Pendidikan agama Islam", "popularity": 85 },
+      { "id": "uin_raden_fatah_ekonomi_syariah", "name": "Ekonomi Syariah", "code": "ES-01", "cluster": "SOSHUM", "description": "Ekonomi syariah", "popularity": 82 },
+      { "id": "uin_raden_fatah_perbankan_syariah", "name": "Perbankan Syariah", "code": "PS-02", "cluster": "SOSHUM", "description": "Perbankan syariah", "popularity": 80 },
+      { "id": "uin_raden_fatah_sistem_informasi", "name": "Sistem Informasi", "code": "SI-01", "cluster": "SAINTEK", "description": "Sistem informasi", "popularity": 84 },
+      { "id": "uin_raden_fatah_psikologi", "name": "Psikologi", "code": "PS-01", "cluster": "SOSHUM", "description": "Psikologi", "popularity": 83 }
+    ]
+  },
+  {
+    "id": "uin_sultan_thaha",
+    "name": "Universitas Islam Negeri Sultan Thaha Saifuddin Jambi",
+    "city": "Jambi",
+    "province": "Jambi",
+    "type": "public_religious",
+    "acronym": "UIN Sultan Thaha",
+    "logo": null,
+    "majors": []
+  },
+  {
     "id": "ui",
     "name": "Universitas Indonesia",
     "city": "Depok",
